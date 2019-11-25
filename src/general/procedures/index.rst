@@ -3,7 +3,7 @@ Procedimientos de E.R.P. Consultores y Asociados, C.A.
 =======================
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :numbered:
 
     openproject/index
