@@ -31,7 +31,7 @@ html_theme = 'sphinx_materialdesign_theme'
 
 # Html logo in drawer.
 # Fit in the drawer at the width of image is 240 px.
-html_logo = 'https://i0.wp.com/spin-suite.com/erpya/wp-content/uploads/sites/28/2017/11/ERP-logotipo-H-color.png?fit=1024%2C191'
+html_logo = 'static/ERP_Logo.png'
 
 # -- General configuration ---------------------------------------------------
 
