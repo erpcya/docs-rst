@@ -27,7 +27,7 @@ author = 'Raul Munoz'
 version = ''
 # The full version, including alpha/beta/rc tags
 release = '3.9.2'
-html_theme = 'sphinx_materialdesign_theme'
+#html_theme = 'sphinx_materialdesign_theme'
 
 # Html logo in drawer.
 # Fit in the drawer at the width of image is 240 px.
