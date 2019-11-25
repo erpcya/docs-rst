@@ -62,7 +62,7 @@ previo a este paso se asume un desconocimiento por parte de `E.R.P.
 Consultores y Asociados, C.A. <http://erpya.com/>`__ de la definición
 del requerimiento.
 
-**Definición de la Solución de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__**
+**Definición de la Solución de E.R.P. Consultores y Asociados, C.A.**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **Verificación de Definición de la Solicitud**

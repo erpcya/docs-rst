@@ -186,9 +186,6 @@ Comprimirlo como gif: <../../general/compress-mp4.md>`__
 A continuación se encuentra un ejemplo proveniente de `Open
 Project <http://project.erpya.com/projects/soporte-sos/work_packages/2905/activity>`__
 
-.. figure:: ../../img/general/OpenProject-Example.png
-   :alt: Open Project
-
    Open Project
 
 .. |Asunto de Solicitud| image:: resources/subject-task.png
