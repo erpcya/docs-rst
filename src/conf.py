@@ -77,7 +77,14 @@ pygments_style = 'sphinx'
 html_theme = 'sphinx_materialdesign_theme'
 html_theme_path = ['/usr/local/lib/python2.7/site-packages']
 
-    'primary_color': 'indigo',
+  
+        
+# Theme options are theme-specific and customize the look and feel of a theme
+# further.  For a list of options available for each theme, see the
+# documentation.
+#
+html_theme_options = {
+  'primary_color': 'indigo',
     # Values: Same as primary_color. (Default: pink)
     'accent_color': 'blue',
 
@@ -98,12 +105,7 @@ html_theme_path = ['/usr/local/lib/python2.7/site-packages']
     # Render footer.
     # Values: True, False (Default: True)
     'show_footer': True
-        
-# Theme options are theme-specific and customize the look and feel of a theme
-# further.  For a list of options available for each theme, see the
-# documentation.
-#
-# html_theme_options = {}
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
