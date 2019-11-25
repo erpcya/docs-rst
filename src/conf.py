@@ -27,7 +27,11 @@ author = 'Raul Munoz'
 version = ''
 # The full version, including alpha/beta/rc tags
 release = '3.9.2'
+html_theme = 'sphinx_materialdesign_theme'
 
+# Html logo in drawer.
+# Fit in the drawer at the width of image is 240 px.
+html_logo = 'https://i0.wp.com/spin-suite.com/erpya/wp-content/uploads/sites/28/2017/11/ERP-logotipo-H-color.png?fit=1024%2C191'
 
 # -- General configuration ---------------------------------------------------
 
@@ -88,9 +92,6 @@ html_theme_options = {
     # Values: Same as primary_color. (Default: pink)
     'accent_color': 'blue',
 
-    # Customize layout.
-    # For details see link.
-    # https://getmdl.io/components/index.html#layout-section
     'fixed_drawer': True,
     'fixed_header': True,
     'header_waterfall': True,
