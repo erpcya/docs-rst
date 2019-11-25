@@ -26,7 +26,7 @@ se explica la herramienta OpenProject detalladamente.
 1. Para iniciar sesión en el OpenProject acceda a la url indicada
    anteriormente.
 
-   .. figure:: ../resources/principal.png
+   .. figure:: resources/principal.png
       :alt: Pantalla Principal
 
       Pantalla Principal
@@ -180,7 +180,7 @@ tareas de un proyecto.
 
     Una tarea hija se distingue de una tarea padre porque las tareas hijas se encuentran dentro de las tareas padres, como ejemplo del caso se presenta la tarea padre número "**4536**" y sus tareas hijas número "**4542**" y "**4543**" expuestas en la imagen anterior:
 
-    - Gestión Financiera 
+    - Gestión Financiera
 
         - Gestión de Tesorería
         - Gestión de Cobranza
