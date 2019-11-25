@@ -1,19 +1,14 @@
 =======================
-ADempiere Documentation
+Documentación de E.R.P. Consultores y Asociados, C.A.
 =======================
 
-Learn, use, configure and extend a world leading open-source ERP
-project.
+Esta documentación está dirigida a los clientes de [E.R.P. Consultores y Asociados, C.A.](http://erpya.com/) con la finalidad de guiar al usuario en la ejecución de sus actividades diarias sobre ADempiere ERP.
 
-Welcome! This is a collection of key documentation gathered from the ADempiere
-wiki and the collective experience of the ADempiere Development
-Community. The aim of this collection is to provide a searchable and
-usable source of project documentation that will improve on the data
-contained in the wiki while enhancing the readers experience.
+La misma será actualizada periódicamente en función de las nuevas versiones de ADempiere.
 
-The collection includes a number of books covering the main topics of:
+Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de esta herramienta.
 
-Table of Contents
+Tabla de Contenido
 =================
 .. toctree::
     :maxdepth: 2
