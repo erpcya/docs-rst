@@ -106,7 +106,7 @@ pygments_style = 'sphinx'
     # Render footer.
     # Values: True, False (Default: True)
 #    'show_footer': True
-}
+#}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
