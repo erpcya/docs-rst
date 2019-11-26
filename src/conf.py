@@ -27,7 +27,6 @@ author = 'Raul Munoz'
 version = ''
 # The full version, including alpha/beta/rc tags
 release = '3.9.2'
-#html_theme = 'sphinx_materialdesign_theme'
 
 # Html logo in drawer.
 # Fit in the drawer at the width of image is 240 px.
@@ -78,8 +77,8 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#html_theme = 'sphinx_materialdesign_theme'
-#html_theme_path = ['/usr/local/lib/python2.7/site-packages']
+html_theme = 'sphinx_materialdesign_theme'
+html_theme_path = ['/usr/local/lib/python2.7/site-packages']
 
   
         
@@ -87,26 +86,26 @@ pygments_style = 'sphinx'
 # further.  For a list of options available for each theme, see the
 # documentation.
 #
-#html_theme_options = {
-#  'primary_color': 'indigo',
+html_theme_options = {
+  'primary_color': 'indigo',
     # Values: Same as primary_color. (Default: pink)
-#    'accent_color': 'blue',
+    'accent_color': 'blue',
 
-#    'fixed_drawer': True,
-#    'fixed_header': True,
-#    'header_waterfall': True,
-#    'header_scroll': False,
+    'fixed_drawer': True,
+    'fixed_header': True,
+    'header_waterfall': True,
+    'header_scroll': False,
 
     # Render title in header.
     # Values: True, False (Default: False)
-#    'show_header_title': False,
+    'show_header_title': True,
     # Render title in drawer.
     # Values: True, False (Default: True)
-#    'show_drawer_title': True,
+    'show_drawer_title': True,
     # Render footer.
     # Values: True, False (Default: True)
-#    'show_footer': True
-#}
+    'show_footer': True
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
