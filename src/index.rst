@@ -12,7 +12,6 @@ Tabla de Contenido
 =================
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     general/procedures/index
     adempiere/index
