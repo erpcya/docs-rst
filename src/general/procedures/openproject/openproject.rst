@@ -174,7 +174,7 @@ tareas de un proyecto.
 
       Paquete de Trabajo
 
-warning
+.. warning::
 
     Una tarea hija se distingue de una tarea padre porque las tareas hijas se encuentran dentro de las tareas padres, como ejemplo del caso se presenta la tarea padre número "**4536**" y sus tareas hijas número "**4542**" y "**4543**" expuestas en la imagen anterior:
 
