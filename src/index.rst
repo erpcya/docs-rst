@@ -15,6 +15,7 @@ Tabla de Contenido
     :numbered:
 
     general/procedures/index
+    adempiere/index
 
 More References
 ===============
