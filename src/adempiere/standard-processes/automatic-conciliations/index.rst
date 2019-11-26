@@ -1,5 +1,5 @@
 
-.. _adempiere/standard-processes:
+.. _standard-processes/automatic-conciliations:
 
 
 ====

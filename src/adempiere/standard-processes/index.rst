@@ -1,7 +1,3 @@
-
-.. _adempiere/standard-processes:
-
-
 ====
 Procedimientos Estándares de ADempiere
 ====
