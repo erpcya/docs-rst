@@ -9,4 +9,5 @@ C.A. <http://erpya.com/>`__
     :maxdepth: 2
     :numbered:
 
+    standard-processes
     loan-management/index
