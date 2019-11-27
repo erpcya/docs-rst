@@ -27,7 +27,6 @@ author = 'Raul Munoz'
 version = ''
 # The full version, including alpha/beta/rc tags
 release = '3.9.2'
-#html_theme = 'sphinx_materialdesign_theme'
 
 # Html logo in drawer.
 # Fit in the drawer at the width of image is 240 px.
@@ -99,7 +98,7 @@ pygments_style = 'sphinx'
 
     # Render title in header.
     # Values: True, False (Default: False)
-#    'show_header_title': False,
+#    'show_header_title': True,
     # Render title in drawer.
     # Values: True, False (Default: True)
 #    'show_drawer_title': True,
