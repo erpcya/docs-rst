@@ -10,3 +10,7 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
     :numbered:
 
     automatic-conciliations/index
+    invoice/index
+    master/index
+    material-receipt/index
+    purchase-order/index
