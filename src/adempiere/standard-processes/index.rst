@@ -10,3 +10,13 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
     :numbered:
 
     automatic-conciliations
+    cash-journal
+    human-resource-and-payroll
+    invoice-customer
+    invoice
+    master
+    material-management
+    material-receipt
+    purchase-order
+    returns
+    withholding-currency
