@@ -9,4 +9,4 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
     :maxdepth: 2
     :numbered:
 
-    automatic-conciliations
+    automatic-conciliations/index
