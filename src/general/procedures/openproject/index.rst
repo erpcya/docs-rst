@@ -7,7 +7,7 @@ Open Project
 ====
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :numbered:
 
     openproject

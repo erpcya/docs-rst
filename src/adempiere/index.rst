@@ -10,3 +10,4 @@ C.A. <http://erpya.com/>`__
     :maxdepth: 2
 
     vertical/index
+    standard-processes/index
