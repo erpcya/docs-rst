@@ -21,10 +21,10 @@
 
 project = 'docs'
 copyright = '2019, ADempiere ERP'
-author = 'Raul Munoz'
+author = 'E.R.P. Consultores y Asociados, C.A.'
 
 # The short X.Y version
-version = ''
+version = '1.0'
 # The full version, including alpha/beta/rc tags
 release = '3.9.2'
 
@@ -80,8 +80,8 @@ pygments_style = 'sphinx'
 #html_theme = 'sphinx_materialdesign_theme'
 #html_theme_path = ['/usr/local/lib/python2.7/site-packages']
 
-  
-        
+
+
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
 # documentation.
@@ -156,8 +156,7 @@ locale_dirs = ['locale/']
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'ADempiereDocs.tex', 'Documentation Erpya',
-     'Raul Munoz', 'manual'),
+    (master_doc, 'ADempiereDocs.tex', 'Documentation Erpya', 'manual'),
 ]
 
 
