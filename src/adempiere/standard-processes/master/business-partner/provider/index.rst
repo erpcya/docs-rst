@@ -11,4 +11,4 @@ Socio del Negocio Proveedor
     :maxdepth: 2
     :numbered:
 
-    provider
+    partner-provider
