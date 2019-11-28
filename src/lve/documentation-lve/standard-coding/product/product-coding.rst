@@ -17,13 +17,13 @@ estará definido según los siguientes parámetros:
 
 2. Cuando la categoría del producto contiene solo una palabra, el código será las tres (3) primeras letras de la palabra.
 
-.. example::
-
    "**Ejemplo**"
    
        A continuación, se muestra cómo se debe codificar la categoría del producto Desperdicio
 
        +--------------------------------+-----------------------------------------+
+       | Categoría del Producto         
+       ===========================================================================
        | Categoría del Producto         | Código de la Categoría                  |
        +================================+=========================================+
        | Desperdicio                    | DES                                     |
@@ -39,7 +39,7 @@ estará definido según los siguientes parámetros:
        A continuación, se muestra cómo se debe codificar la categoría del producto Artículos de Oficina
        
        +--------------------------------+-----------------------------------------+
-       | Categoría del Producto         | Código de la Categoría                  |
+       | Categoría del Producto     jgfdkg| Código de la Categoría                  |
        +================================+=========================================+
        | Artículos de Oficina           | ARO                                     |
        +--------------------------------+-----------------------------------------+
