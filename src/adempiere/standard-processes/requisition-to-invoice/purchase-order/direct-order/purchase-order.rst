@@ -153,11 +153,9 @@ elaborar una orden de compra correctamente.
 
        Campo Termino de Pago
 
-    !!! warning "**Importante**"
+.. warning::
 
-    ::
-
-        Recuerde guardar el registro de la ventana con el icono "**Guardar**" de la barra de herramientas antes de cambiar a la pestaña "**Línea Orden Compra**".
+       Recuerde guardar el registro de la ventana con el icono "**Guardar**" de la barra de herramientas antes de cambiar a la pestaña "**Línea Orden Compra**".
 
 19. Seleccione la pestaña "**Línea Orden Compra**" y proceda al llenado
     de los campos correspondientes.
@@ -167,11 +165,9 @@ elaborar una orden de compra correctamente.
 
        Línea Orden Compra
 
-    !!! warning "**Importante**"
+.. warning::
 
-    ::
-
-        Los campos "**Compañía**", "**Organización**", "**Orden de Compra**", "**Socio del Negocio**" y "**Dirección del Socio del Negocio**", vienen precargados de la ventana principal "**Orden de Compra**".
+       Los campos "**Compañía**", "**Organización**", "**Orden de Compra**", "**Socio del Negocio**" y "**Dirección del Socio del Negocio**", vienen precargados de la ventana principal "**Orden de Compra**".
 
 20. Seleccione el producto en el campo "**Producto**".
 
@@ -208,11 +204,9 @@ elaborar una orden de compra correctamente.
 
        Campo Impuesto
 
-    !!! warning "**Importante**"
+.. warning::
 
-    ::
-
-        Recuerde guardar el registro de la pestaña "**Línea Orden Compra**" con el icono "**Guardar**" de la barra de herramientas antes de cambiar a la ventana principal "**Orden de Compra**".
+       Recuerde guardar el registro de la pestaña "**Línea Orden Compra**" con el icono "**Guardar**" de la barra de herramientas antes de cambiar a la ventana principal "**Orden de Compra**".
 
 25. Regrese a la ventana principal "**Orden de Compra**" y seleccione la
     opción "**Completar**" ubicada en el inferior del documento.

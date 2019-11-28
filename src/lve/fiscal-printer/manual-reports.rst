@@ -37,11 +37,10 @@ debe mantener pulsados ambos hasta que la impresión inicie
 C. Generar **"Reporte de Memoria Fiscal por días"**.
 ----------------------------------------------------
 
-!!! warning "Nota"
-
-::
+.. note::
 
     Estas instrucciones se detallan en la Página 15 de el [Manual de Fabricante.](http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf)
+
 
 .. figure:: resorces/print-report-by-month.png
    :alt: Reporte de Memoria Fiscal por mes
@@ -98,11 +97,10 @@ impresión
 D. Generar **"Reporte de Memoria Fiscal por mes"**.
 ---------------------------------------------------
 
-!!! warning "Nota"
-
-::
+.. warning::
 
     Estas instrucciones se detallan en la Página 15 de el [Manual de Fabricante.](http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf) 
+
 
 .. figure:: resorces/print-report-by-month.png
    :alt: Reporte de Memoria Fiscal por mes

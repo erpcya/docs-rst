@@ -48,11 +48,9 @@ para el registro.
 
          ADempiere
 
-      !!! warning "**Importante**"
+.. warining::
 
-      ::
-
-              Para que el socio de negocio este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el socio del negocio solo estará disponible para una sola organización. 
+      Para que el socio de negocio este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el socio del negocio solo estará disponible para una sola organización. 
 
    2. Introduzca el código del socio del negocio en el campo
       "**Código**".
@@ -81,11 +79,9 @@ para el registro.
 
    5. Seleccione el ícono "**Guardar Cambios**" para guardar los datos.
 
-!!! warning "**Importante**"
+.. warning::
 
-::
-
-        Recuerde guardar los campos requeridos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio. 
+      Recuerde guardar los campos requeridos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio. 
 
 **Pestaña Proveedor**
 '''''''''''''''''''''
@@ -109,11 +105,9 @@ registrando es un proveedor.
 
       ADempiere
 
-!!! warning "**Importante**"
+.. warning::
 
-::
-
-        De no ser tildado el checklist "**Proveedor**", ADempiere no tomará el socio de negocio como proveedor. 
+      De no ser tildado el checklist "**Proveedor**", ADempiere no tomará el socio de negocio como proveedor. 
 
 **Pestaña Cuenta Bancaria**
 '''''''''''''''''''''''''''
@@ -180,7 +174,9 @@ del socio del negocio.
 
       ADempiere
 
-!!! warning "**Importante**" Este proceso se realiza con la finalidad de
+.. warning::
+
+      Este proceso se realiza con la finalidad de
 registrar la tarjeta de crédito del socio del negocio.
 
 **Checklist ACH**
@@ -236,11 +232,9 @@ registrar la tarjeta de crédito del socio del negocio.
 
       ADempiere
 
-!!! warning "**Importante**"
+.. warning::
 
-::
-
-        Este proceso se realiza con la finalidad de registrar la cuenta del socio del negocio. 
+      Este proceso se realiza con la finalidad de registrar la cuenta del socio del negocio. 
 
 **Pestaña Localización**
 ''''''''''''''''''''''''
@@ -267,11 +261,9 @@ negocio.
 
       ADempiere
 
-!!! warning "**Importante**"
+.. warning::
 
-::
-
-        Recuerde guardar los campos requeridos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
+      Recuerde guardar los campos requeridos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
 
 **Pestaña Contacto**
 ''''''''''''''''''''
@@ -312,8 +304,6 @@ del socio del negocio proveedor.
 
       ADempiere
 
-!!! note "**NOTA:**"
+.. note::
 
-::
-
-        Este procedimiento realizado aplica solo para los **Socios del Negocio** que cumplan el rol de **Proveedor**.
+      Este procedimiento realizado aplica solo para los **Socios del Negocio** que cumplan el rol de **Proveedor**.

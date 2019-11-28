@@ -114,11 +114,11 @@ es generar un **"Reporte X"** manualmente, esto se hace manteniendo
 presionados los botones **"X"** y **"OK"** del panel frontal, hasta que
 inicie la impresión.
 
-!!! warning "Si Persiste el Problema"
+.. warning::
 
-::
+   "**Si Persiste el Problema**"
 
-    Si el problema persiste o no se genera el reporte, apagar el equipo durante 30 segundos y luego volver a encenderlo, la impresora debe iniciar normalmente y estar operativa, esto debe hacerse como una ultima opción.
+      Si el problema persiste o no se genera el reporte, apagar el equipo durante 30 segundos y luego volver a encenderlo, la impresora debe iniciar normalmente y estar operativa, esto debe hacerse como una ultima opción.
 
 **Errores de Impresión o procesando el Documento**
 --------------------------------------------------
