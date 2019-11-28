@@ -13,15 +13,13 @@ Es necesario ingresar a ADempiere desde la versión de escritorio, para
 un correcto funcionamiento es necesario modificar el archivo
 "RUN\_Adempiere.bat" actualizando los parámetros:
 
-!!! example "Configuración del Classpath"
+.. example::
 
-::
+        "Configuración del Classpath"
 
-        ADEMPIERE_HOME=(Ruta de ADempiere)
+                ADEMPIERE_HOME=(Ruta de ADempiere)
 
-
-
-        JAVA_HOME=(Ruta de Instalación de JAVA). 
+                JAVA_HOME=(Ruta de Instalación de JAVA). 
 
 Nota: Es recomendable colocar un acceso directo en el escritorio, para
 ejecutar con mayor Facilidad ADempiere.
@@ -77,13 +75,13 @@ Atributos para configuración.
 Se desplegara una ventana donde se debe seleccionar el directorio de
 instalación de la Aplicación Spooler y el Ejecutable de las misma.
 
-!!! example "Ejemplo de Configuración"
+.. example::
 
-::
+        "Ejemplo de Configuración"
 
-        Spooler Folder: C:\Program Files\SpoolerVmax
+                Spooler Folder: C:\Program Files\SpoolerVmax
 
-        Spooler App: epsSpoolerVmax.exe
+                Spooler App: epsSpoolerVmax.exe
 
 .. figure:: resorces/device-configuration-dialog.png
    :alt: Diálogo de Configuracion de Dispositivo

@@ -174,16 +174,16 @@ tareas de un proyecto.
 
       Paquete de Trabajo
 
-!!! example "**Ejemplo**"
+.. example::
 
-::
+   "**Ejemplo**"
 
-    Una tarea hija se distingue de una tarea padre porque las tareas hijas se encuentran dentro de las tareas padres, como ejemplo del caso se presenta la tarea padre número "**4536**" y sus tareas hijas número "**4542**" y "**4543**" expuestas en la imagen anterior:
+      Una tarea hija se distingue de una tarea padre porque las tareas hijas se encuentran dentro de las tareas padres, como ejemplo del caso se presenta la tarea padre número "**4536**" y sus tareas hijas número "**4542**" y "**4543**" expuestas en la imagen anterior:
 
-    - Gestión Financiera
+      - Gestión Financiera
 
-        - Gestión de Tesorería
-        - Gestión de Cobranza
+         - Gestión de Tesorería
+         - Gestión de Cobranza
 
 **Campos Importantes**
 ----------------------
