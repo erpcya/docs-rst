@@ -15,4 +15,3 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
     returns/index
     open-items/index
     material-management/index
-    human-resource-and-payroll/index
