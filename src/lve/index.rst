@@ -11,5 +11,6 @@ C.A. <http://erpya.com/>`__
 .. toctree::
     :maxdepth: 2
 
-    fiscal-printer/index
     documentation/index
+    fiscal-printer/index
+
