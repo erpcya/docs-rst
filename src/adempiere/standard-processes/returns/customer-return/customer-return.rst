@@ -29,7 +29,7 @@ devolución de cliente es el número "**123456789**".
 1. Ubique la ventana "**Generar Factura (Manual)**" para visualizar la
    autorización de devolución de cliente disponible.
 
-   .. figure:: ../resources/generarfactura1.png
+   .. figure:: resources/generarfactura1.png
       :alt: Generar Factura Manual
 
       Generar Factura Manual
@@ -37,7 +37,7 @@ devolución de cliente es el número "**123456789**".
 2. Proceda a ubicar el documento "**Autorización de Devolución de
    Cliente**" que se procederá a cerrar.
 
-   .. figure:: ../resources/autorizacion.png
+   .. figure:: resources/autorizacion.png
       :alt: Autorización de Devolución de Cliente
 
       Autorización de Devolución de Cliente
@@ -45,7 +45,7 @@ devolución de cliente es el número "**123456789**".
 3. Seleccione la opción "**Cerrar**" en el documento para que no sea
    visualizado en el proceso "**Generar Factura (Manual)**".
 
-   .. figure:: ../resources/cerrar.png
+   .. figure:: resources/cerrar.png
       :alt: Opción Cerrar
 
       Opción Cerrar
@@ -59,14 +59,14 @@ devolución de cliente es el número "**123456789**".
 4. Seleccione la acción "**Cerrar**" y la opción "**OK**" para cerrar el
    documento.
 
-   .. figure:: ../resources/accion.png
+   .. figure:: resources/accion.png
       :alt: Acción Cerrar y Opción OK
 
       Acción Cerrar y Opción OK
 
 5. Verifique que el campo "**Estado del Documento**" diga "**Cerrado**".
 
-   .. figure:: ../resources/estado.png
+   .. figure:: resources/estado.png
       :alt: Estado del Documento
 
       Estado del Documento
@@ -75,7 +75,7 @@ devolución de cliente es el número "**123456789**".
    el documento "**Autorización de Devolución de Cliente**" de número
    "**123456789**" se cerró correctamente.
 
-   .. figure:: ../resources/generarfactura2.png
+   .. figure:: resources/generarfactura2.png
       :alt: Generar Factura Manual
 
       Generar Factura Manual

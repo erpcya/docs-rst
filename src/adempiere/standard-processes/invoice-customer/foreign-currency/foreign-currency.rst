@@ -20,7 +20,7 @@ el proceso correctamente.
 1.  Ubique en el menú de ADempiere la ventana "**Documentos por
     Cobrar**", adjunto imagen para referencia.
 
-    .. figure:: ../resources/menu.png
+    .. figure:: resources/menu.png
        :alt: Menú de ADempiere
 
        Menú de ADempiere
@@ -29,14 +29,14 @@ el proceso correctamente.
     herramientas de ADempiere y proceda al llenado de los campos
     correspondientes.
 
-    .. figure:: ../resources/nuevo.png
+    .. figure:: resources/nuevo.png
        :alt: Registro Nuevo
 
        Registro Nuevo
 
 3.  Seleccione la organización en el campo "**Organización**".
 
-    .. figure:: ../resources/organizacion.png
+    .. figure:: resources/organizacion.png
        :alt: Campo Organización
 
        Campo Organización
@@ -44,7 +44,7 @@ el proceso correctamente.
 4.  Selecione el tipo de documento destino en el campo "**Tipo de
     Documento Destino**".
 
-    .. figure:: ../resources/tipodoc.png
+    .. figure:: resources/tipodoc.png
        :alt: Campo Tipo de Documento Destino
 
        Campo Tipo de Documento Destino
@@ -53,7 +53,7 @@ el proceso correctamente.
     este debe ser el mismo socio del negocio de la factura a la cual se
     le aplicará el ajuste de crédito.
 
-    .. figure:: ../resources/socio.png
+    .. figure:: resources/socio.png
        :alt: Campo Socio del Negocio
 
        Campo Socio del Negocio
@@ -61,7 +61,7 @@ el proceso correctamente.
 6.  Seleccione el tipo de conversión en el campo "**Tipo de
     Conversión**".
 
-    .. figure:: ../resources/conversion.png
+    .. figure:: resources/conversion.png
        :alt: Campo Tipo de Conversión
 
        Campo Tipo de Conversión
@@ -69,7 +69,7 @@ el proceso correctamente.
 7.  Seleccione la opción "**Guardar**" en la barra de herramientas de
     ADempiere para guardar los cambios realizados.
 
-    .. figure:: ../resources/guardar.png
+    .. figure:: resources/guardar.png
        :alt: Guardar Cambios
 
        Guardar Cambios
@@ -77,21 +77,21 @@ el proceso correctamente.
 8.  Seleccione la pestaña "**Línea de la Factura**" y proceda al llenado
     de los campos correspondientes.
 
-    .. figure:: ../resources/linea.png
+    .. figure:: resources/linea.png
        :alt: Pestaña Línea
 
        Pestaña Línea
 
 9.  Seleccione el cargo en el campo "**Cargo**".
 
-    .. figure:: ../resources/cargo.png
+    .. figure:: resources/cargo.png
        :alt: Campo Cargo
 
        Campo Cargo
 
 10. Introduzca el monto en el campo "**Precio**".
 
-    .. figure:: ../resources/monto.png
+    .. figure:: resources/monto.png
        :alt: Campo Precio
 
        Campo Precio
@@ -99,7 +99,7 @@ el proceso correctamente.
 11. Seleccione la opción "**Guardar**" en la barra de herramientas de
     ADempiere para guardar los cambios realizados.
 
-    .. figure:: ../resources/guardarli.png
+    .. figure:: resources/guardarli.png
        :alt: Guardar Cambios
 
        Guardar Cambios
@@ -107,7 +107,7 @@ el proceso correctamente.
 12. Regrese a la ventana principal "**Factura**" y seleccione la opción
     "**Completar**".
 
-    .. figure:: ../resources/completar.png
+    .. figure:: resources/completar.png
        :alt: Opción Completar
 
        Opción Completar
@@ -116,7 +116,7 @@ el proceso correctamente.
     "**Completo**" y el campo "**Tipo de Documento**" diga "**AJDC (CxC)
     ARA**".
 
-    .. figure:: ../resources/verificar.png
+    .. figure:: resources/verificar.png
        :alt: Verificar
 
        Verificar
@@ -126,28 +126,28 @@ el proceso correctamente.
 
 1. Ubique en el menú de ADempiere la ventana "**Asignación de Pagos**".
 
-   .. figure:: ../resources/asigmenu.png
+   .. figure:: resources/asigmenu.png
       :alt: Menú de ADempiere
 
       Menú de ADempiere
 
 2. Seleccione el socio del negocio en el campo "**Socio del Negocio**".
 
-   .. figure:: ../resources/asigsocio.png
+   .. figure:: resources/asigsocio.png
       :alt: Campo Socio del Negocio
 
       Campo Socio del Negocio
 
 3. Selccione la organización en el campo "**Organización**".
 
-   .. figure:: ../resources/asiorganizacion.png
+   .. figure:: resources/asiorganizacion.png
       :alt: Campo Organización
 
       Campo Organización
 
 4. Seleccione la moneda en el campo "**Moneda**".
 
-   .. figure:: ../resources/asigmoneda.png
+   .. figure:: resources/asigmoneda.png
       :alt: Campo Moneda
 
       Campo Moneda
@@ -156,7 +156,7 @@ el proceso correctamente.
    indicar a ADempiere que ese es el monto que se va a restar a la
    factura.
 
-   .. figure:: ../resources/ajuste.png
+   .. figure:: resources/ajuste.png
       :alt: Ajuste de Crédito
 
       Ajuste de Crédito
@@ -165,14 +165,14 @@ el proceso correctamente.
    que esa es la factura a la que se le aplicará el ajuste de crédito
    seleccionado.
 
-   .. figure:: ../resources/factura.png
+   .. figure:: resources/factura.png
       :alt: Factura
 
       Factura
 
 7. Seleccione la opción "**Proceso**" para realizar el cruce de cuentas.
 
-   .. figure:: ../resources/proceso.png
+   .. figure:: resources/proceso.png
       :alt: Opción Proceso
 
       Opción Proceso
@@ -180,7 +180,7 @@ el proceso correctamente.
 8. ADempiere muestra el número de la "**Asignación de Pagos**" en la
    parte inferior del documento.
 
-   .. figure:: ../resources/numasig.png
+   .. figure:: resources/numasig.png
       :alt: Número de la Asignación de Pagos
 
       Número de la Asignación de Pagos
@@ -191,7 +191,7 @@ el proceso correctamente.
 1.  Ubique en el menú de ADempiere la ventana "**Diario de Caja
     Chica**".
 
-    .. figure:: ../resources/menu.png
+    .. figure:: resources/menu.png
        :alt: Menú de ADempiere
 
        Menú de ADempiere
@@ -200,14 +200,14 @@ el proceso correctamente.
     herramientas de ADempiere y proceda al llenado de los campos
     correspondientes.
 
-    .. figure:: ../resources/registronuevo.png
+    .. figure:: resources/registronuevo.png
        :alt: Registro Nuevo
 
        Registro Nuevo
 
 3.  Seleccione la caja menor en el campo "**Caja Menor**".
 
-    .. figure:: ../resources/cajamenor.png
+    .. figure:: resources/cajamenor.png
        :alt: Campo Caja Menor
 
        Campo Caja Menor
@@ -215,14 +215,14 @@ el proceso correctamente.
 4.  Seleccione el tipo de documento destino en el campo "**Tipo de
     Documento Destino**".
 
-    .. figure:: ../resources/tipodocaja.png
+    .. figure:: resources/tipodocaja.png
        :alt: Campo Tipo de Documento Destino
 
        Campo Tipo de Documento Destino
 
 5.  Seleccione el agente comercial en el campo "**Agente Comercial**".
 
-    .. figure:: ../resources/agente.png
+    .. figure:: resources/agente.png
        :alt: Campo Agente Comercial
 
        Campo Agente Comercial
@@ -230,14 +230,14 @@ el proceso correctamente.
 6.  Seleccione la pestaña "**Línea de Efectivo**" y proceda al llenado
     de los campos correspondientes.
 
-    .. figure:: ../resources/lineacaja.png
+    .. figure:: resources/lineacaja.png
        :alt: Pestaña Línea de Efectivo
 
        Pestaña Línea de Efectivo
 
 7.  Seleccione el tipo de efectivo en el campo "**Tipo de Efectivo**".
 
-    .. figure:: ../resources/tipoefectivo.png
+    .. figure:: resources/tipoefectivo.png
        :alt: Campo Tipo de Efectivo
 
        Campo Tipo de Efectivo
@@ -246,14 +246,14 @@ el proceso correctamente.
     este debe ser el mismo socio seleccionado en el documento factura y
     en el documento ajuste de crédito.
 
-    .. figure:: ../resources/sociocaja.png
+    .. figure:: resources/sociocaja.png
        :alt: Campo Socio del Negocio
 
        Campo Socio del Negocio
 
 9.  Seleccione la actividad en el campo "**Actividad**".
 
-    .. figure:: ../resources/actividad.png
+    .. figure:: resources/actividad.png
        :alt: Campo Actividad
 
        Campo Actividad
@@ -261,7 +261,7 @@ el proceso correctamente.
 10. Seleccione el cargo en el campo "**Cargo**", este debe ser el mismo
     seleccionado en el documento ajuste de crédito.
 
-    .. figure:: ../resources/cargocaja.png
+    .. figure:: resources/cargocaja.png
        :alt: Campo Cargo
 
        Campo Cargo
@@ -270,14 +270,14 @@ el proceso correctamente.
     resultante de la multiplicación del monto del ajuste de crédito por
     la tasa de cambio del cobro.
 
-    .. figure:: ../resources/montocaja.png
+    .. figure:: resources/montocaja.png
        :alt: Campo Monto
 
        Campo Monto
 
 12. Seleccione el impuesto en el campo "**Impuesto**".
 
-    .. figure:: ../resources/impuesto.png
+    .. figure:: resources/impuesto.png
        :alt: Campo Impuesto
 
        Campo Impuesto
@@ -285,7 +285,7 @@ el proceso correctamente.
 13. Regrese a la ventana principal "**Reembolso Diario de Caja Chica**"
     y seleccione la opción "**Completar**".
 
-    .. figure:: ../resources/completarcaja.png
+    .. figure:: resources/completarcaja.png
        :alt: Opción Completar
 
        Opción Completar

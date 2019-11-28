@@ -19,7 +19,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
    "**Retenciones**", luego seleccione la carpeta "**Configuración**",
    por último seleccione la ventana "**Retenciones**".
 
-   .. figure:: ../resources/menu1.png
+   .. figure:: resources/menu1.png
       :alt: Retenciones
 
       ADempiere
@@ -28,7 +28,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
       las diferentes retenciones utilizadas por la empresa para aplicar
       a sus proveedores.
 
-      .. figure:: ../resources/retenciones.png
+      .. figure:: resources/retenciones.png
          :alt: Retenciones
 
          ADempiere
@@ -36,7 +36,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
    2. En la parte inferior izquierda del documento es agregado el
       checklist "**Retención en la moneda del documento**".
 
-      .. figure:: ../resources/checklist.png
+      .. figure:: resources/checklist.png
          :alt: Retenciones
 
          ADempiere
@@ -55,7 +55,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
    visualizar la ventana donde se encuentran los registros de los
    documentos de retenciones aplicados por la empresa.
 
-   .. figure:: ../resources/menu2.png
+   .. figure:: resources/menu2.png
       :alt: Documentos por Pagar
 
       ADempiere
@@ -68,7 +68,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
       ISLR número "**20191000048355**", con moneda "**USD**" y monto
       total de "**5,37**".
 
-      .. figure:: ../resources/retencion.png
+      .. figure:: resources/retencion.png
          :alt: Documentos por Pagar
 
          ADempiere
@@ -78,7 +78,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
          pertenecientes a las tres facturas en moneda "**USD**"
          reflejadas en el campo documento afectado de cada línea.
 
-         .. figure:: ../resources/lineafac1.png
+         .. figure:: resources/lineafac1.png
             :alt: Documentos por Pagar
 
             ADempiere
@@ -87,7 +87,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
       número "**20191000048356**", emitido a otro socio en moneda
       "**EUR**" y con monto total de "**5,67**".
 
-      .. figure:: ../resources/retencion2.png
+      .. figure:: resources/retencion2.png
          :alt: Documentos por Pagar
 
          ADempiere
@@ -97,7 +97,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
          pertenecientes a las tres facturas en moneda "**EUR**"
          reflejadas en el campo documento afectado de cada línea.
 
-         .. figure:: ../resources/lineafac2.png
+         .. figure:: resources/lineafac2.png
             :alt: Documentos por Pagar
 
             ADempiere
@@ -114,7 +114,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
    visualizar la ventana donde se encuentran los registros de los
    documentos de declaraciones de retenciones aplicados por la empresa.
 
-   .. figure:: ../resources/menu2.png
+   .. figure:: resources/menu2.png
       :alt: Documentos por Pagar
 
       ADempiere
@@ -124,7 +124,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
       documento de declaración número "**1030029**", emitido en moneda
       "**USD**" y con monto total de "**5,37**".
 
-      .. figure:: ../resources/declaracion.png
+      .. figure:: resources/declaracion.png
          :alt: Documentos por Pagar
 
          ADempiere
@@ -132,7 +132,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
       1. Podrá visualizar en la pestaña "**Línea de la Factura**", el
          documento de retención afectado "**20191000048355**".
 
-         .. figure:: ../resources/lineade1.png
+         .. figure:: resources/lineade1.png
             :alt: Documentos por Pagar
 
             ADempiere
@@ -143,7 +143,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
       declaración número "**1030030**", emitido en moneda "**EUR**" y
       con monto total de "**5,67**".
 
-      .. figure:: ../resources/declaracion2.png
+      .. figure:: resources/declaracion2.png
          :alt: Documentos por Pagar
 
          ADempiere
@@ -151,7 +151,7 @@ con esto generar retenciones y declaraciones clasificadas por moneda.
       1. Podrá visualizar en la pestaña "**Línea de la Factura**", el
          documento de retención afectado "**20191000048356**".
 
-         .. figure:: ../resources/lineade2.png
+         .. figure:: resources/lineade2.png
             :alt: Documentos por Pagar
 
             ADempiere

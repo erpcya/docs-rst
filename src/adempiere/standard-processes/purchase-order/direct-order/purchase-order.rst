@@ -20,7 +20,7 @@ elaborar una orden de compra correctamente.
 1.  Ubique en el menú de ADempiere la ventana "**Órdenes de Compra**",
     adjunto imagen para referencia.
 
-    .. figure:: ../resources/menu.png
+    .. figure:: resources/menu.png
        :alt: Menú de ADempiere
 
        Menú de ADempiere
@@ -28,21 +28,21 @@ elaborar una orden de compra correctamente.
 2.  Seleccione la opción "**Registro Nuevo**" en la barra de
     herramientas.
 
-    .. figure:: ../resources/registronuevo.png
+    .. figure:: resources/registronuevo.png
        :alt: Registro Nuevo
 
        Registro Nuevo
 
 3.  Seleccione el nombre de la compañía en el campo "**Compañía**".
 
-    .. figure:: ../resources/compania.png
+    .. figure:: resources/compania.png
        :alt: Campo Compañía
 
        Campo Compañía
 
 4.  Seleccione la organización en el campo "**Organización**".
 
-    .. figure:: ../resources/organizacion.png
+    .. figure:: resources/organizacion.png
        :alt: Campo Organización
 
        Campo Organización
@@ -50,7 +50,7 @@ elaborar una orden de compra correctamente.
 5.  Introduzca el número de documento en el campo "**No. del
     Documento**".
 
-    .. figure:: ../resources/numdoc.png
+    .. figure:: resources/numdoc.png
        :alt: Campo No. del Documento
 
        Campo No. del Documento
@@ -58,7 +58,7 @@ elaborar una orden de compra correctamente.
 6.  Introduzca una breve descripción en el campo "**Descripción**", este
     campo es opcional.
 
-    .. figure:: ../resources/descripcion.png
+    .. figure:: resources/descripcion.png
        :alt: Campo Descripción
 
        Campo Descripción
@@ -66,28 +66,28 @@ elaborar una orden de compra correctamente.
 7.  Seleccione el tipo de documento destino en el campo "**Tipo de
     Documento Destino**".
 
-    .. figure:: ../resources/tipodoc.png
+    .. figure:: resources/tipodoc.png
        :alt: Campo Tipo de Documento Destino
 
        Campo Tipo de Documento Destino
 
 8.  Seleccione la fecha de la orden en el campo "**Fecha de la Orden**".
 
-    .. figure:: ../resources/fechaord.png
+    .. figure:: resources/fechaord.png
        :alt: Campo Fecha de la Orden
 
        Campo Fecha de la Orden
 
 9.  Seleccione la fecha prometida en el campo "**Fecha Prometida**".
 
-    .. figure:: ../resources/fechapro.png
+    .. figure:: resources/fechapro.png
        :alt: Campo Fecha Prometida
 
        Campo Fecha Prometida
 
 10. Seleccione el socio del negocio en el campo "**Socio del Negocio**".
 
-    .. figure:: ../resources/socio.png
+    .. figure:: resources/socio.png
        :alt: Campo Socio del Negocio
 
        Campo Socio del Negocio
@@ -95,7 +95,7 @@ elaborar una orden de compra correctamente.
 11. Seleccione la dirección del socio del negocio en el campo
     "**Dirección del Socio del Negocio**".
 
-    .. figure:: ../resources/direcsocio.png
+    .. figure:: resources/direcsocio.png
        :alt: Campo Dirección del Socio del Negocio
 
        Campo Dirección del Socio del Negocio
@@ -103,14 +103,14 @@ elaborar una orden de compra correctamente.
 12. Seleccione el almacén al que se le realizará la entrega en el campo
     "**Almacén**".
 
-    .. figure:: ../resources/almacen.png
+    .. figure:: resources/almacen.png
        :alt: Campo Almacén
 
        Campo Almacén
 
 13. Seleccione la vía de entrega en el campo "**Vía de Entrega**".
 
-    .. figure:: ../resources/entrega.png
+    .. figure:: resources/entrega.png
        :alt: Campo Vía de Entrega
 
        Campo Vía de Entrega
@@ -118,14 +118,14 @@ elaborar una orden de compra correctamente.
 14. Seleccione la regla de costo de flete en el campo "**Regla de Costo
     de Flete**".
 
-    .. figure:: ../resources/regla.png
+    .. figure:: resources/regla.png
        :alt: Campo Regla de Costo de Flete
 
        Campo Regla de Costo de Flete
 
 15. Seleccione la prioridad en el campo "**Prioridad**".
 
-    .. figure:: ../resources/prioridad.png
+    .. figure:: resources/prioridad.png
        :alt: Campo Prioridad
 
        Campo Prioridad
@@ -133,7 +133,7 @@ elaborar una orden de compra correctamente.
 16. Seleccione la lista de precios a utilizar en el campo "**Lista de
     Precios**".
 
-    .. figure:: ../resources/lisprecios.png
+    .. figure:: resources/lisprecios.png
        :alt: Campo Lista de Precios
 
        Campo Lista de Precios
@@ -141,14 +141,14 @@ elaborar una orden de compra correctamente.
 17. Seleccione el agente de la compañía en el campo "**Agente
     Compañía**".
 
-    .. figure:: ../resources/agente.png
+    .. figure:: resources/agente.png
        :alt: Campo Agente Compañía
 
        Campo Agente Compañía
 
 18. Seleccione el termino de pago en el campo "**Termino de Pago**".
 
-    .. figure:: ../resources/terpago.png
+    .. figure:: resources/terpago.png
        :alt: Campo Termino de Pago
 
        Campo Termino de Pago
@@ -162,7 +162,7 @@ elaborar una orden de compra correctamente.
 19. Seleccione la pestaña "**Línea Orden Compra**" y proceda al llenado
     de los campos correspondientes.
 
-    .. figure:: ../resources/linea.png
+    .. figure:: resources/linea.png
        :alt: Línea Orden Compra
 
        Línea Orden Compra
@@ -175,35 +175,35 @@ elaborar una orden de compra correctamente.
 
 20. Seleccione el producto en el campo "**Producto**".
 
-    .. figure:: ../resources/producto.png
+    .. figure:: resources/producto.png
        :alt: Campo Producto
 
        Campo Producto
 
 21. Seleccione la cantidad de productos en el campo "**Cantidad**".
 
-    .. figure:: ../resources/cantidad.png
+    .. figure:: resources/cantidad.png
        :alt: Campo Cantidad
 
        Campo Cantidad
 
 22. Seleccione la unidad de medida en el campo "**UM**".
 
-    .. figure:: ../resources/unidmedida.png
+    .. figure:: resources/unidmedida.png
        :alt: Campo UM
 
        Campo UM
 
 23. Introduzca el precio del producto en el campo "**Precio**".
 
-    .. figure:: ../resources/precio.png
+    .. figure:: resources/precio.png
        :alt: Campo Precio
 
        Campo Precio
 
 24. Seleccione el impuesto en el campo "**Impuesto**".
 
-    .. figure:: ../resources/impuesto.png
+    .. figure:: resources/impuesto.png
        :alt: Campo Impuesto
 
        Campo Impuesto
@@ -217,7 +217,7 @@ elaborar una orden de compra correctamente.
 25. Regrese a la ventana principal "**Orden de Compra**" y seleccione la
     opción "**Completar**" ubicada en el inferior del documento.
 
-    .. figure:: ../resources/ventanaycompletar.png
+    .. figure:: resources/ventanaycompletar.png
        :alt: Opción Completar
 
        Opción Completar

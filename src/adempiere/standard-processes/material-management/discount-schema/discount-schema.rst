@@ -27,7 +27,7 @@ comportamiento del esquema de descuentos en ADempiere.
    Materiales**", por último seleccione la ventana "**Esquema de
    Descuentos**".
 
-   .. figure:: ../resources/menu.png
+   .. figure:: resources/menu.png
       :alt: Menú de ADempiere
 
       Menú de ADempiere
@@ -36,7 +36,7 @@ comportamiento del esquema de descuentos en ADempiere.
    registros realizados, para este ejemplo se muestra el registro del
    esquema de descuentos "**Independiente**".
 
-   .. figure:: ../resources/ventana.png
+   .. figure:: resources/ventana.png
       :alt: Ventana de Esquema de Descuentos
 
       Ventana de Esquema de Descuentos
@@ -45,7 +45,7 @@ comportamiento del esquema de descuentos en ADempiere.
    las diferentes monedas que tiene un mismo producto, para este ejemplo
    se muestra el registro del producto "**Estándar**".
 
-   .. figure:: ../resources/pest.png
+   .. figure:: resources/pest.png
       :alt: Pestaña de Descuentos
 
       Pestaña de Descuentos
@@ -59,7 +59,7 @@ comportamiento del esquema de descuentos en ADempiere.
 4. Podrá apreciar el registro del producto "**Estándar**" con moneda
    "**VES**" y porcentaje de descuento "**20,0**".
 
-   .. figure:: ../resources/descuentoves.png
+   .. figure:: resources/descuentoves.png
       :alt: Pestaña de Descuentos en Moneda VES
 
       Pestaña de Descuentos en Moneda VES
@@ -67,7 +67,7 @@ comportamiento del esquema de descuentos en ADempiere.
 5. Podrá apreciar el registro del producto "**Estándar**" con moneda
    "**USD**" y porcentaje de descuento "**10,0**".
 
-   .. figure:: ../resources/descuentodolar.png
+   .. figure:: resources/descuentodolar.png
       :alt: Pestaña de Descuentos en Moneda VES
 
       Pestaña de Descuentos en Moneda VES
@@ -91,7 +91,7 @@ orden de venta con esquema de descuento aplicado.
    carpeta "**Órdenes de Venta**" y por último seleccione la ventana
    "**Órdenes de Venta**".
 
-   .. figure:: ../resources/menuorden.png
+   .. figure:: resources/menuorden.png
       :alt: Menú de ADempiere
 
       Menú de ADempiere
@@ -99,7 +99,7 @@ orden de venta con esquema de descuento aplicado.
 2. Podrá apreciar la orden de venta "**28269**" en dólares donde se
    ejemplifica el caso de la generación de descuento por producto.
 
-   .. figure:: ../resources/ordendolar.png
+   .. figure:: resources/ordendolar.png
       :alt: Orden de Venta en Dólares
 
       Orden de Venta en Dólares
@@ -107,7 +107,7 @@ orden de venta con esquema de descuento aplicado.
 3. Seleccione la pestaña "**Línea de la Orden**" para apreciar el caso
    de descuento por producto.
 
-   .. figure:: ../resources/pestdolar.png
+   .. figure:: resources/pestdolar.png
       :alt: Pestaña Línea de la Orden
 
       Pestaña Línea de la Orden
@@ -123,7 +123,7 @@ orden de venta con esquema de descuento aplicado.
    carpeta "**Órdenes de Venta**" y por último seleccione la ventana
    "**Órdenes de Venta**".
 
-   .. figure:: ../resources/menuorden.png
+   .. figure:: resources/menuorden.png
       :alt: Menú de ADempiere
 
       Menú de ADempiere
@@ -131,7 +131,7 @@ orden de venta con esquema de descuento aplicado.
 2. Podrá apreciar la orden de venta "**28268**" en bolívares donde se
    ejemplifica el caso de la generación de descuento por producto.
 
-   .. figure:: ../resources/ordenves.png
+   .. figure:: resources/ordenves.png
       :alt: Orden de Venta en Bolívares
 
       Orden de Venta en Bolívares
@@ -139,7 +139,7 @@ orden de venta con esquema de descuento aplicado.
 3. Seleccione la pestaña "**Línea de la Orden**" para apreciar el caso
    de descuento por producto.
 
-   .. figure:: ../resources/pestves.png
+   .. figure:: resources/pestves.png
       :alt: Pestaña Línea de la Orden
 
       Pestaña Línea de la Orden

@@ -19,7 +19,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
    Saldos Pendientes**", luego seleccione la carpeta "**Caja**", por
    último seleccione la ventana "**Diario de Caja Chica**".
 
-   .. figure:: ../resources/menu1.png
+   .. figure:: resources/menu1.png
       :alt: Ventana Reembolso Diario de Caja Chica
 
       ADempiere
@@ -27,7 +27,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
 2. Seleccione el icono "**Registro Nuevo**", en la barra de herramientas
    de ADempiere.
 
-   .. figure:: ../resources/nuevo.png
+   .. figure:: resources/nuevo.png
       :alt: Ventana Reembolso Diario de Caja Chica
 
       ADempiere
@@ -41,7 +41,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
 3. Luego de realizar el proceso regular de llenado de los campos
    principales, seleccione la opción "**Crear desde Factura**".
 
-   .. figure:: ../resources/creardfactura.png
+   .. figure:: resources/creardfactura.png
       :alt: Ventana Reembolso Diario de Caja Chica
 
       ADempiere
@@ -49,7 +49,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
    1. Podrá apreciar la ventana del proceso "**Crear desde Factura**",
       con diferentes campos para filtar la busqueda.
 
-      .. figure:: ../resources/ventaproceso.png
+      .. figure:: resources/ventaproceso.png
          :alt: Proceso Crear Línea de Caja desde una Factura de acuerdo a la Forma de Pago
 
          ADempiere
@@ -57,7 +57,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
       1. Seleccione en el campo "**Fecha de Facturación**", la fecha de
          la factura a cobrar.
 
-         .. figure:: ../resources/fecha.png
+         .. figure:: resources/fecha.png
             :alt: Proceso Crear Línea de Caja desde una Factura de acuerdo a la Forma de Pago
 
             ADempiere
@@ -65,7 +65,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
       2. Seleccione en el campo "**Socio del Negocio**", el socio del
          negocio cliente de la factura a cobrar.
 
-         .. figure:: ../resources/socio.png
+         .. figure:: resources/socio.png
             :alt: Proceso Crear Línea de Caja desde una Factura de acuerdo a la Forma de Pago
 
             ADempiere
@@ -73,7 +73,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
       3. Seleccione la opción "**Comenzar Búsqueda**", para buscar las
          facturas que el socio del negocio cliente tiene con la empresa.
 
-         .. figure:: ../resources/busqueda.png
+         .. figure:: resources/busqueda.png
             :alt: Proceso Crear Línea de Caja desde una Factura de acuerdo a la Forma de Pago
 
             ADempiere
@@ -83,7 +83,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
             "**Estándar**", la cual es emitida en moneda "**VES**", con
             un monto de "**2.000.000,00**".
 
-            .. figure:: ../resources/factura.png
+            .. figure:: resources/factura.png
                :alt: Factura del Socio del Negocio Cliente
 
                ADempiere
@@ -93,7 +93,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
          la moneda "**VES**" de la factura a la moneda "**USD**" de la
          caja cobranza creada.
 
-         .. figure:: ../resources/muestrafac.png
+         .. figure:: resources/muestrafac.png
             :alt: Proceso Crear Línea de Caja desde una Factura de acuerdo a la Forma de Pago
 
             ADempiere
@@ -108,7 +108,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
          esta abonando o cancelando un monto, para este ejemplo la
          factura a seleccionar es la número "**SERIE A -157637**".
 
-         .. figure:: ../resources/seleccion.png
+         .. figure:: resources/seleccion.png
             :alt: Proceso Crear Línea de Caja desde una Factura de acuerdo a la Forma de Pago
 
             ADempiere
@@ -118,7 +118,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
          cancelar dicho monto. Para ejemplificar el registro es
          utilizada la opción "**Depósito / Transferencia**".
 
-         .. figure:: ../resources/tipopago.png
+         .. figure:: resources/tipopago.png
             :alt: Proceso Crear Línea de Caja desde una Factura de acuerdo a la Forma de Pago
 
             ADempiere
@@ -126,7 +126,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
       7. Ingrese en el campo "**Monto**", el monto que el socio del
          negocio cliente esta abonando o cancelando.
 
-         .. figure:: ../resources/monto.png
+         .. figure:: resources/monto.png
             :alt: Proceso Crear Línea de Caja desde una Factura de acuerdo a la Forma de Pago
 
             ADempiere
@@ -135,7 +135,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
          "**Línea de Efectivo**" la información ingresada en la ventana
          del proceso "**Crear desde Factura**".
 
-         .. figure:: ../resources/ok.png
+         .. figure:: resources/ok.png
             :alt: Proceso Crear Línea de Caja desde una Factura de acuerdo a la Forma de Pago
 
             ADempiere
@@ -143,7 +143,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
       9. Podrá apreciar el mensaje "**OK**", indicando que fue cargado
          el registro a la pestaña "**Línea de Efectivo**".
 
-         .. figure:: ../resources/mensaje.png
+         .. figure:: resources/mensaje.png
             :alt: Proceso Crear Línea de Caja desde una Factura de acuerdo a la Forma de Pago
 
             ADempiere
@@ -152,7 +152,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
    datos de los campos "**Factura**", "**Tipo de Pago**" y "**Monto**"
    ingresados a la línea sean correctos.
 
-   .. figure:: ../resources/linea.png
+   .. figure:: resources/linea.png
       :alt: Pestaña Línea de Efectivo
 
       ADempiere
@@ -160,7 +160,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
 5. Regrese a la ventana principal "**Reembolso Diario de Caja Chica**" y
    seleccione la opción "**Completar**".
 
-   .. figure:: ../resources/ventana.png
+   .. figure:: resources/ventana.png
       :alt: Ventana Reembolso Diario de Caja Chica
 
       ADempiere
@@ -168,7 +168,7 @@ de la factura a la moneda seleccionada para realizar la cobranza.
    1. Seleccione la acción "**Completar**" y la opción "**OK**", para
       completar el documento.
 
-      .. figure:: ../resources/accion.png
+      .. figure:: resources/accion.png
          :alt: Ventana Reembolso Diario de Caja Chica
 
          ADempiere
