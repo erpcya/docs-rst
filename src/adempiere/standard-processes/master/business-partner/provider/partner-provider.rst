@@ -17,7 +17,7 @@ proceso para la creación de socio del negocio proveedor en ADempiere.
    Negocio**", "**Reglas de Socios del Negocio**", y finalmente
    seleccione la ventana "**Socio del Negocio**" (adjunto imagen).
 
-   .. figure:: ../img/menu.png
+   .. figure:: img/menu.png
       :alt: Menú de ADempiere
 
       ADempiere
@@ -33,7 +33,7 @@ para el registro.
    Negocio, dónde debe seleccionar el ícono de "**Registro Nuevo**" que
    se encuentra ubicado en la barra de herramientas de ADempiere.
 
-   .. figure:: ../img/ventana.png
+   .. figure:: img/ventana.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -43,7 +43,7 @@ para el registro.
 
    1. Seleccione la organización en el campo "**Organización**".
 
-      .. figure:: ../img/organizacion.png
+      .. figure:: img/organizacion.png
          :alt: Ventana de Registro de Socio del Negocio
 
          ADempiere
@@ -57,7 +57,7 @@ para el registro.
    2. Introduzca el código del socio del negocio en el campo
       "**Código**".
 
-      .. figure:: ../img/codigo.png
+      .. figure:: img/codigo.png
          :alt: Ventana de Registro de Socio del Negocio
 
          ADempiere
@@ -65,7 +65,7 @@ para el registro.
    3. Introduzca el nombre del socio del negocio en el campo
       "**Nombre**".
 
-      .. figure:: ../img/nombre.png
+      .. figure:: img/nombre.png
          :alt: Ventana de Registro de Socio del Negocio
 
          ADempiere
@@ -74,7 +74,7 @@ para el registro.
       esta registrando, para este ejemplo el grupo utilizado es
       "**Proveedores Nacionales**".
 
-      .. figure:: ../img/grupo.png
+      .. figure:: img/grupo.png
          :alt: Ventana de Registro de Socio del Negocio
 
          ADempiere
@@ -96,7 +96,7 @@ registrando es un proveedor.
 1. Seleccione la pestaña "**Proveedor**" que se encuentra del lado
    izquierdo de la ventana socio del negocio.
 
-   .. figure:: ../img/pestproveedor.png
+   .. figure:: img/pestproveedor.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -104,7 +104,7 @@ registrando es un proveedor.
 2. A continuación visualizará la siguiente imagen, dónde debe tildar el
    checklist "**Proveedor**".
 
-   .. figure:: ../img/checklist.png
+   .. figure:: img/checklist.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -128,7 +128,7 @@ del socio del negocio.
    del lado izquierdo de la ventana socio del negocio. Por defecto se
    encuentra tildado el checklist "**Activo**".
 
-   .. figure:: ../img/pestcuenta.png
+   .. figure:: img/pestcuenta.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -138,14 +138,14 @@ del socio del negocio.
 
 1. Seleccione el tipo de tarjeta en el campo "**Tarjeta de Crédito**".
 
-   .. figure:: ../img/tipotarjeta.png
+   .. figure:: img/tipotarjeta.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
 
 2. Introduzca el número de tarjeta en el campo "**Número**".
 
-   .. figure:: ../img/nutarjeta.png
+   .. figure:: img/nutarjeta.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -153,21 +153,21 @@ del socio del negocio.
 3. Introduzca el código de verificación en el campo "**Código
    Verificación**".
 
-   .. figure:: ../img/codverificacion.png
+   .. figure:: img/codverificacion.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
 
 4. Introduzca el mes de expiración en el campo "**Mes de Expiración**".
 
-   .. figure:: ../img/mesexpiracion.png
+   .. figure:: img/mesexpiracion.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
 
 5. Introduzca el año de expiración en el campo "**Año de Expiración**".
 
-   .. figure:: ../img/añoexpiracion.png
+   .. figure:: img/añoexpiracion.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -175,7 +175,7 @@ del socio del negocio.
 6. Introduzca el nombre de referencia de la tarjeta en el campo
    "**Nombre**".
 
-   .. figure:: ../img/nomcuenta.png
+   .. figure:: img/nomcuenta.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -190,7 +190,7 @@ registrar la tarjeta de crédito del socio del negocio.
    continuación se reflejarán los campos para el registro de la cuenta
    bancaria del socio del negocio.
 
-   .. figure:: ../img/ACH.png
+   .. figure:: img/ACH.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -198,7 +198,7 @@ registrar la tarjeta de crédito del socio del negocio.
 2. En el campo "**Banco**" seleccione el banco a registrar con ayuda del
    ícono identificador (adjunto imagen).
 
-   .. figure:: ../img/banco.png
+   .. figure:: img/banco.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -207,7 +207,7 @@ registrar la tarjeta de crédito del socio del negocio.
    bancos, dónde debe seleccionar el banco que posee el socio del
    negocio y la opción "**OK**" para cargar los datos al formulario.
 
-   .. figure:: ../img/ventcuentas.png
+   .. figure:: img/ventcuentas.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -215,7 +215,7 @@ registrar la tarjeta de crédito del socio del negocio.
 4. Seleccione el tipo de cuenta correspondiente a la cuenta del socio
    del negocio en el campo "**Tipo de Cuenta Bancaria**".
 
-   .. figure:: ../img/tipocuenta.png
+   .. figure:: img/tipocuenta.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -223,7 +223,7 @@ registrar la tarjeta de crédito del socio del negocio.
 5. Introduzca el número de cuenta del socio del negocio en el campo
    "**No. De Cuenta**".
 
-   .. figure:: ../img/numcuenta.png
+   .. figure:: img/numcuenta.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -231,7 +231,7 @@ registrar la tarjeta de crédito del socio del negocio.
 6. Introduzca el nombre de referencia de la cuenta en el campo
    "**Nombre**".
 
-   .. figure:: ../img/nomcuenta2.png
+   .. figure:: img/nomcuenta2.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -254,7 +254,7 @@ negocio.
 1. Seleccione la pestaña "**Localización**" que se encuentra ubicada del
    lado izquierdo de la ventana socio del negocio.
 
-   .. figure:: ../img/pestlocalizacion.png
+   .. figure:: img/pestlocalizacion.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -262,7 +262,7 @@ negocio.
 2. A continuación visualizará la siguiente ventana, dónde debe
    introducir la dirección exacta del socio del negocio.
 
-   .. figure:: ../img/ventlocalizacion.png
+   .. figure:: img/ventlocalizacion.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -283,7 +283,7 @@ del socio del negocio proveedor.
    lado izquierdo de la ventana socio del negocio, para proceder a
    llenar los campos necesarios.
 
-   .. figure:: ../img/pestcontacto.png
+   .. figure:: img/pestcontacto.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -291,7 +291,7 @@ del socio del negocio proveedor.
 2. Introduzca el nombre de contacto del socio del negocio en el campo
    "**Nombre**".
 
-   .. figure:: ../img/nombcontacto.png
+   .. figure:: img/nombcontacto.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -299,7 +299,7 @@ del socio del negocio proveedor.
 3. Introduzca el email de contacto del socio del negocio en el campo
    "**Email**".
 
-   .. figure:: ../img/emailcontacto.png
+   .. figure:: img/emailcontacto.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
@@ -307,7 +307,7 @@ del socio del negocio proveedor.
 4. Introduzca el teléfono de contacto del socio del negocio en el campo
    "**Teléfono**".
 
-   .. figure:: ../img/telecontacto.png
+   .. figure:: img/telecontacto.png
       :alt: Ventana de Registro de Socio del Negocio
 
       ADempiere
