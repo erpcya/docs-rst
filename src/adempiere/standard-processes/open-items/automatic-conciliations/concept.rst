@@ -141,11 +141,9 @@ conciliación bancaria en ADempiere.
 
        Icono Guardar
 
-    !!! note "Nota"
+.. note::
 
-    ::
-
-        Hasta este paso es el llenado del encabezado de la conciliación, donde se define el banco en el cual se va a realizar la conciliación de los pagos/cobros que ha tenido la empresa en un rango determinado. En adelante se procedera a realizar la conciliación.
+       Hasta este paso es el llenado del encabezado de la conciliación, donde se define el banco en el cual se va a realizar la conciliación de los pagos/cobros que ha tenido la empresa en un rango determinado. En adelante se procedera a realizar la conciliación.
 
 7.  Seleccione el icono "**Proceso**" en la barra de herramientas de
     ADempiere.
@@ -172,11 +170,9 @@ conciliación bancaria en ADempiere.
 
           Filtrar Busqueda
 
-       !!! note "Nota"
+.. note::
 
-       ::
-
-           Puede observar que la ventana de busqueda inteligente trae precargado el campo "**Cuenta Bancaria**" con la información del banco seleccionado en la ventana principal "**Estado de Cuentas Bancario**". Los otros campos reflejados en esta ventana serán utilizados acorde al criterio de busqueda que se requiera.
+       Puede observar que la ventana de busqueda inteligente trae precargado el campo "**Cuenta Bancaria**" con la información del banco seleccionado en la ventana principal "**Estado de Cuentas Bancario**". Los otros campos reflejados en esta ventana serán utilizados acorde al criterio de busqueda que se requiera.
 
     2. Una vez definido el criterio de busqueda, seleccione la opción
        "**Refrescar**" para que se muestre la información del estado de
@@ -221,11 +217,9 @@ conciliación bancaria en ADempiere.
 
           Pagos con Coincidencia
 
-       !!! note "Nota"
+.. note::
 
-       ::
-
-           Si existe coincidencia entre los pagos/cobros y el extracto bancario se le mostrarán los movimientos con coincidencias, de lo contrario no se le mostrará ningun movimiento con coincidencia.
+       Si existe coincidencia entre los pagos/cobros y el extracto bancario se le mostrarán los movimientos con coincidencias, de lo contrario no se le mostrará ningun movimiento con coincidencia.
 
     7. Seleccione la opción "**OK**" para guardar el registro de
        coincidencia entre los movimientos reflejados en la ventana de

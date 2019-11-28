@@ -155,7 +155,9 @@ manera en la que ADempire se comunicara con el dispositivo creado.
 
    Configuración de uso Dispositivo
 
-!!! note "Nota" Para confirmar que la configuración de todo lo anterior
+.. note:: 
+
+        Para confirmar que la configuración de todo lo anterior
 esta correcta, ingresar de nuevo a ADempiere, en la ventana de seleccion
 de rol seleccionar la impresora fiscal creada y continuar, dentro de
 ADempiere procedemos a ejecutar el proceso: Imprimir Reporte Fiscal.

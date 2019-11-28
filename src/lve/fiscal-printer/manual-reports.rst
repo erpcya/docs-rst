@@ -50,7 +50,7 @@ C. Generar **"Reporte de Memoria Fiscal por días"**.
 Para emitir este reporte debe presionar las teclas “Dump Fecha” y “OK”
 al mismo tiempo durante 2 o 3 segundos.
 
-??? tip "Seguir instrucciones en pantalla:"
+.. tip:: "Seguir instrucciones en pantalla:"
 
 ::
 
@@ -110,7 +110,7 @@ D. Generar **"Reporte de Memoria Fiscal por mes"**.
 Para emitir este reporte debe presionar las teclas “Dump Fecha” y “OK”
 al mismo tiempo durante 2 o 3 segundos.
 
-??? tip "Seguir instrucciones en pantalla:"
+.. tip:: "Seguir instrucciones en pantalla:"
 
 ::
 

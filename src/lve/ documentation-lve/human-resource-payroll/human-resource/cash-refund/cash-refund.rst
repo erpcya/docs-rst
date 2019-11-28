@@ -613,11 +613,9 @@ la localización Venezuela.
 
          Resultado del Proceso
 
-!!! note "**Nota**"
+.. note::
 
-::
-
-    Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja. De igual manera, es creado un cobro en caja y un pago en pago/cobro. Adicional a ello, el monto de la caja reembolso queda en cero (0).
+   Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja. De igual manera, es creado un cobro en caja y un pago en pago/cobro. Adicional a ello, el monto de la caja reembolso queda en cero (0).
 
 **Cierre de Caja**
 ------------------
