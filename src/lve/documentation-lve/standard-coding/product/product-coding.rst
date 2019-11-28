@@ -1,12 +1,11 @@
 **Codificación Estándar de Productos**
 ======================================
 
-!!! abstract "Resumen" Se ha definido la codificación para categoría,
-grupo y producto bajo criterios que a continuación serán explicados en
-el siguiente material, el mismo será implementado al crear una
-categoría, grupo y producto en ADempiere en su versión 3.92 en la
-localización Venezuela, es importante acotar que puede existir variantes
-en los códigos dependiendo de la combinación de los mismos.
+.. abstract:: 
+
+       "Resumen" 
+              
+              Se ha definido la codificación para categoría, grupo y producto bajo criterios que a continuación serán explicados en el siguiente material, el mismo será implementado al crear una categoría, grupo y producto en ADempiere en su versión 3.92 en la localización Venezuela, es importante acotar que puede existir variantes en los códigos dependiendo de la combinación de los mismos.
 
 **Categorías de Productos**
 ---------------------------
@@ -14,11 +13,9 @@ en los códigos dependiendo de la combinación de los mismos.
 El estándar para la creación de códigos de las categorías de productos
 estará definido según los siguientes parámetros:
 
-1. El código de las categorías de productos es de tres (3) letras en
-   mayúsculas.
+1. El código de las categorías de productos es de tres (3) letras en mayúsculas.
 
-2. Cuando la categoría del producto contiene solo una palabra, el código
-   será las tres (3) primeras letras de la palabra.
+2. Cuando la categoría del producto contiene solo una palabra, el código será las tres (3) primeras letras de la palabra.
 
 .. example::
 
@@ -33,9 +30,7 @@ estará definido según los siguientes parámetros:
        +--------------------------------+-----------------------------------------+
 
 
-3. Cuando la categoría del producto está compuesta por dos (2) palabras,
-   el código será las dos (2) primeras letras de la primera palabra y la
-   primera letra de la segunda palabra.
+3. Cuando la categoría del producto está compuesta por dos (2) palabras, el código será las dos (2) primeras letras de la primera palabra y la primera letra de la segunda palabra.
 
 .. example::
 
@@ -49,9 +44,7 @@ estará definido según los siguientes parámetros:
        | Artículos de Oficina           | ARO                                     |
        +--------------------------------+-----------------------------------------+
 
-4. Cuando la categoría del producto está compuesta por tres (3) palabras
-   o más, el código será la primera letra de cada palabra (tres primeras
-   palabras).
+4. Cuando la categoría del producto está compuesta por tres (3) palabras o más, el código será la primera letra de cada palabra (tres primeras palabras).
 
 .. example::
 
@@ -68,14 +61,11 @@ estará definido según los siguientes parámetros:
 **Grupos de Productos**
 -----------------------
 
-El estandar para la creación de códigos de los grupos de productos debe
-contener los siguientes parámetros:
+El estandar para la creación de códigos de los grupos de productos debe contener los siguientes parámetros:
 
-1. El código de los grupos de productos debe ser de tres (3) letras en
-   mayúsculas.
+1. El código de los grupos de productos debe ser de tres (3) letras en mayúsculas.
 
-2. Cuando el grupo de producto contiene solo una (1) palabra, el código
-   será las tres (3) primeras letras de la palabra.
+2. Cuando el grupo de producto contiene solo una (1) palabra, el código será las tres (3) primeras letras de la palabra.
 
 .. example::
 
@@ -89,9 +79,7 @@ contener los siguientes parámetros:
        | Maquinarias                    | MAQ                                     |
        +--------------------------------+-----------------------------------------+
 
-3. Cuando el grupo de producto contiene dos (2) palabras, el código será
-   las dos (2) primeras letras de la primera palabra y la primera letra
-   de la segunda palabra.
+3. Cuando el grupo de producto contiene dos (2) palabras, el código será las dos (2) primeras letras de la primera palabra y la primera letra de la segunda palabra.
 
 .. example::
 
@@ -105,9 +93,7 @@ contener los siguientes parámetros:
        | Aparatos Eléctricos            | APE                                     |
        +--------------------------------+-----------------------------------------+
 
-4. Cuando el grupo de producto está compuesto por tres (3) palabras o
-   más, el código será la primera letra de cada palabra (tres primeras
-   palabras).
+4. Cuando el grupo de producto está compuesto por tres (3) palabras o más, el código será la primera letra de cada palabra (tres primeras palabras).
 
 .. example::
 
@@ -124,9 +110,7 @@ contener los siguientes parámetros:
 **Productos**
 -------------
 
-El estandar para la creación de códigos de los productos debe contener
-los siguientes parámetros: los codigos de los productos se conforman por
-tres (3) partes:
+El estandar para la creación de códigos de los productos debe contener los siguientes parámetros: los codigos de los productos se conforman por tres (3) partes:
 
 -  Parte 1: Letras mayúsculas.
 
@@ -138,9 +122,7 @@ A continuación se desglosa detalladamente cada una de las partes:
 
 1. **Letras mayúsculas:**
 
-   Se encuentran conformadas por las dos (2) primeras letras del código
-   de la categoría de producto y las dos (2) primeras letras del código
-   del grupo de producto para un total de cuatro (4) letras.
+   Se encuentran conformadas por las dos (2) primeras letras del código de la categoría de producto y las dos (2) primeras letras del código del grupo de producto para un total de cuatro (4) letras.
 
 .. example::
 
@@ -164,8 +146,7 @@ A continuación se desglosa detalladamente cada una de las partes:
 
 2. **Símbolo caracter especial:**
 
-   El símbolo es un guión que precede las letras conformadas en el punto
-   anterior.
+   El símbolo es un guión que precede las letras conformadas en el punto anterior.
 
 .. example::
 
@@ -177,9 +158,7 @@ A continuación se desglosa detalladamente cada una de las partes:
 
 3. **Serie numérica:**
 
-   Deben ir ordenados de derecha a izquierda, comenzando en uno (1) y
-   rellenando los dígitos con ceros (0) a la izquierda, incrementándose
-   sucesivamente.
+   Deben ir ordenados de derecha a izquierda, comenzando en uno (1) y rellenando los dígitos con ceros (0) a la izquierda, incrementándose sucesivamente.
 
 .. example::
 

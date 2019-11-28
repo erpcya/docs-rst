@@ -8,7 +8,7 @@ Codificación Estándar de Productos
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :numbered:
 
     product-coding
