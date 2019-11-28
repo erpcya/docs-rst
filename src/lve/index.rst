@@ -12,5 +12,5 @@ C.A. <http://erpya.com/>`__
     :maxdepth: 2
 
     documentation-lve/index
-    fiscal-printer/index
+
 

@@ -8,7 +8,7 @@ Socio del Negocio Proveedor
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :numbered:
 
     partner-provider

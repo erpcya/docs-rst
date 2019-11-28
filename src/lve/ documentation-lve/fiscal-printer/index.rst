@@ -1,5 +1,5 @@
 
-.. _lve/fiscal-printer:
+.. _lve/documentation-lve/fiscal-printer:
 
 
 ====
@@ -18,7 +18,7 @@ Actualmente se tiene soporte para las marcas:
 -  `VMax <http://www.elepos.com.ve/eleposveweb/index.htm>`__
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
     :numbered:
 
     commons-errors-fiscal-printer
