@@ -1,3 +1,5 @@
+.. _lve/documentation-lve/human-resource-payroll/human-resource:
+
 =======================
 Gestión de Recursos Humanos
 =======================
