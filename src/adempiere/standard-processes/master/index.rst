@@ -1,5 +1,5 @@
 ====
-Maestros
+Maestros de ADempiere
 ====
 
 Esta documentación está destinada a definir cada uno de los maestros de ADempiere para cualquier organización,

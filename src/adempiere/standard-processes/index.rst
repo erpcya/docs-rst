@@ -9,8 +9,10 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
     :maxdepth: 2
     :numbered:
 
-    automatic-conciliations/index
-    invoice/index
     master/index
-    material-receipt/index
-    purchase-order/index
+    quote-to-invoice/index
+    requisition-to-invoice/index
+    returns/index
+    open-items/index
+    material-management/index
+    human-resource-and-payroll/index
