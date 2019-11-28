@@ -9,4 +9,6 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
     :maxdepth: 2
     :numbered:
 
+    client/index
     provider/index
+    employee/index
