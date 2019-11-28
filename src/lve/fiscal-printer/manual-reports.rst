@@ -50,15 +50,15 @@ C. Generar **"Reporte de Memoria Fiscal por días"**.
 Para emitir este reporte debe presionar las teclas “Dump Fecha” y “OK”
 al mismo tiempo durante 2 o 3 segundos.
 
-.. tip:: "Seguir instrucciones en pantalla:"
+.. tip:: 
 
-::
+    "Seguir instrucciones en pantalla:"
 
-    Para incrementar o decrementar los valores en pantalla de uno en uno presione las teclas identificadas en letras pequeñas como +1 y -1.
+        Para incrementar o decrementar los valores en pantalla de uno en uno presione las teclas identificadas en letras pequeñas como +1 y -1.
 
-    Para incrementar o decrementar los valores en pantalla de diez en diez presione las teclas identificadas en letras pequeñas como +10 y -10.
+        Para incrementar o decrementar los valores en pantalla de diez en diez presione las teclas identificadas en letras pequeñas como +10 y -10.
 
-    Para fijar cada valor presione la tecla OK. Debe seguir este procedimiento para cada valor solicitado en la pantalla. Al finalizar será emitido el reporte. 
+        Para fijar cada valor presione la tecla OK. Debe seguir este procedimiento para cada valor solicitado en la pantalla. Al finalizar será emitido el reporte. 
 
 .. figure:: resorces/generate-report-by-days1.jpg
    :alt: Generar Reporte por Días
@@ -110,15 +110,15 @@ D. Generar **"Reporte de Memoria Fiscal por mes"**.
 Para emitir este reporte debe presionar las teclas “Dump Fecha” y “OK”
 al mismo tiempo durante 2 o 3 segundos.
 
-.. tip:: "Seguir instrucciones en pantalla:"
+.. tip:: 
 
-::
+    "Seguir instrucciones en pantalla:"
 
-    Para incrementar o decrementar los valores en pantalla de uno en uno presione las teclas identificadas en letras pequeñas como +1 y -1.
+        Para incrementar o decrementar los valores en pantalla de uno en uno presione las teclas identificadas en letras pequeñas como +1 y -1.
 
-    Para incrementar o decrementar los valores en pantalla de diez en diez presione las teclas identificadas en letras pequeñas como +10 y -10.
+        Para incrementar o decrementar los valores en pantalla de diez en diez presione las teclas identificadas en letras pequeñas como +10 y -10.
 
-    Para fijar cada valor presione la tecla OK. Debe seguir este procedimiento para cada valor solicitado en la pantalla. Al finalizar será emitido el reporte. 
+        Para fijar cada valor presione la tecla OK. Debe seguir este procedimiento para cada valor solicitado en la pantalla. Al finalizar será emitido el reporte. 
 
 .. figure:: resorces/generate-report-by-days1.jpg
    :alt: Generar Reporte por Mes
