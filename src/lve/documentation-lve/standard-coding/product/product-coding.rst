@@ -17,17 +17,15 @@ estará definido según los siguientes parámetros:
 
 2. Cuando la categoría del producto contiene solo una palabra, el código será las tres (3) primeras letras de la palabra.
 
-   "**Ejemplo**"
-   
-       A continuación, se muestra cómo se debe codificar la categoría del producto Desperdicio
+A continuación, se muestra cómo se debe codificar la categoría del producto Desperdicio
 
-       +--------------------------------+-----------------------------------------+
-       | Categoría del Producto         
-       ===========================================================================
-       | Categoría del Producto         | Código de la Categoría                  |
-       +================================+=========================================+
-       | Desperdicio                    | DES                                     |
-       +--------------------------------+-----------------------------------------+
++--------------------------------+-----------------------------------------+
+| Categoría del Producto         
+===========================================================================
+| Categoría del Producto         | Código de la Categoría                  |
++================================+=========================================+
+| Desperdicio                    | DES                                     |
++--------------------------------+-----------------------------------------+
 
 
 3. Cuando la categoría del producto está compuesta por dos (2) palabras, el código será las dos (2) primeras letras de la primera palabra y la primera letra de la segunda palabra.
