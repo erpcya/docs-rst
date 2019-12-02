@@ -16,7 +16,7 @@ La presente documentación elaborada por la empresa ERPyA, pretende especificar 
    .. figure:: resources/menurecep.png
       :alt: Menú de ADempiere
 
-       Menú de ADempiere
+      Menú de ADempiere
 
 #.  Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
 
