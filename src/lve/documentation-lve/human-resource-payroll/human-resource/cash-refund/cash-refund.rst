@@ -20,7 +20,7 @@ la localización Venezuela.
 **Solicitud de Pago de Cuentas por Pagar**
 ------------------------------------------
 
-1. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
    Saldos Pendientes**", luego seleccione la ventana "**Selección de
    Pagos**".
 
@@ -29,7 +29,7 @@ la localización Venezuela.
 
       Menú de ADempiere
 
-   1. Podrá visualizar la ventana de "**Selección de Pago**", en la cual
+   #. Podrá visualizar la ventana de "**Selección de Pago**", en la cual
       debe seleccionar el icono "**Registro Nuevo**" en la barra de
       herramientas de ADempiere.
 
@@ -38,7 +38,7 @@ la localización Venezuela.
 
          Icono Registro Nuevo
 
-      1. Seleccione en el campo "**Organización**", la organización para
+      #. Seleccione en el campo "**Organización**", la organización para
          la cual está realizando el documento "**Solicitud de Pago**".
 
          .. figure:: resources/org.png
@@ -46,7 +46,7 @@ la localización Venezuela.
 
             Campo Organización
 
-      2. Seleccione el tipo de documento a generar en el campo "**Tipo
+      #. Seleccione el tipo de documento a generar en el campo "**Tipo
          de Documento Destino**", la selección de este define el
          comportamiento del documento que se está elaborando, dicho
          comportamiento se encuentra explicado en el documento `Tipo de
@@ -59,7 +59,7 @@ la localización Venezuela.
 
             Campo Tipo de Documento
 
-      3. Seleccione en el campo "**F. Documento**", la fecha en la cual
+      #. Seleccione en el campo "**F. Documento**", la fecha en la cual
          se está generando el documento de solicitud de pago.
 
          .. figure:: resources/fdoc.png
@@ -67,7 +67,7 @@ la localización Venezuela.
 
             Campo F. Documento
 
-      4. Seleccione en el campo "**Fecha de Pago**", la fecha en la cual
+      #. Seleccione en el campo "**Fecha de Pago**", la fecha en la cual
          se debe realizar el pago.
 
          .. figure:: resources/fpago.png
@@ -75,7 +75,7 @@ la localización Venezuela.
 
             Campo Fecha de Pago
 
-      5. Seleccione en el campo "**Moneda**", la moneda para realizar la
+      #. Seleccione en el campo "**Moneda**", la moneda para realizar la
          solicitud de pago.
 
          .. figure:: resources/moneda.png
@@ -83,7 +83,7 @@ la localización Venezuela.
 
             Campo Moneda
 
-      6. Introduzca en el campo "**Nombre de Referencia**", un nombre de
+      #. Introduzca en el campo "**Nombre de Referencia**", un nombre de
          referencia de la solicitud de pago que está realizando.
 
          .. figure:: resources/nrefe.png
@@ -91,7 +91,7 @@ la localización Venezuela.
 
             Campo Nombre de Referencia
 
-      7. Introduzca en el campo "**Descripción**", una breve descripción
+      #. Introduzca en el campo "**Descripción**", una breve descripción
          referente a la solicitud de pago que está realizando.
 
          .. figure:: resources/drefe.png
@@ -99,7 +99,7 @@ la localización Venezuela.
 
             Campo Descripción
 
-      8. Seleccione la opción "**Crear desde factura**", para crear la
+      #. Seleccione la opción "**Crear desde factura**", para crear la
          solicitud de pago desde la factura.
 
          .. figure:: resources/creardef.png
@@ -107,7 +107,7 @@ la localización Venezuela.
 
             Opción Crear desde factura
 
-         1. Seleccione la opción "**Comenzar Búsqueda**", para buscar
+         #. Seleccione la opción "**Comenzar Búsqueda**", para buscar
             las facturas de los socios del negocio proveedores.
 
             .. figure:: resources/comenzarb.png
@@ -115,7 +115,7 @@ la localización Venezuela.
 
                Opción Comenzar Búsqueda
 
-         2. Seleccione la factura y la opción "**OK**", para cargar a la
+         #. Seleccione la factura y la opción "**OK**", para cargar a la
             pestaña "**Línea de Selección de Pago**" la información de
             la factura.
 
@@ -124,7 +124,7 @@ la localización Venezuela.
 
                Seleccionar Factura y Opción OK
 
-      9. Seleccione el icono "**Refrescar**", ubicado en la barra de
+      #. Seleccione el icono "**Refrescar**", ubicado en la barra de
          herramientas de ADempiere para refrescar la ventana y pueda
          visualizar la información cargada desde la opción "**Crear
          desde factura**".
@@ -134,7 +134,7 @@ la localización Venezuela.
 
             Icono Refrescar
 
-   2. Seleccione la pestaña "**Línea de Selección de Pago**", para
+   #. Seleccione la pestaña "**Línea de Selección de Pago**", para
       verificar que la información cargada desde la opción "**Crear
       desde factura**" sea correcta.
 
@@ -143,7 +143,7 @@ la localización Venezuela.
 
          Pestaña Línea de Selección de Pago
 
-   3. Regrese a la ventana principal "**Selección de Pago**" y
+   #. Regrese a la ventana principal "**Selección de Pago**" y
       seleccione la opción "**Completar**", ubicada en la parte inferior
       del documento.
 
@@ -152,7 +152,7 @@ la localización Venezuela.
 
          Opción Completar
 
-      1. Seleccione la acción "**Completar**" y la opción "**OK**", para
+      #. Seleccione la acción "**Completar**" y la opción "**OK**", para
          completar el documento.
 
          .. figure:: resources/accion.png
@@ -163,7 +163,7 @@ la localización Venezuela.
 **Selección de Pago de Cuentas por Pagar**
 ------------------------------------------
 
-1. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
    Saldos Pendientes**", luego seleccione la ventana "**Selección de
    Pagos**".
 
@@ -172,7 +172,7 @@ la localización Venezuela.
 
       Menú de ADempiere
 
-   1. Podrá visualizar la ventana de "**Selección de Pago**", en la cual
+   #. Podrá visualizar la ventana de "**Selección de Pago**", en la cual
       debe seleccionar el icono "**Registro Nuevo**" en la barra de
       herramientas de ADempiere.
 
@@ -181,7 +181,7 @@ la localización Venezuela.
 
          Icono Registro Nuevo
 
-      1. Seleccione en el campo "**Organización**", la organización para
+      #. Seleccione en el campo "**Organización**", la organización para
          la cual está realizando el documento "**Selección de Pago**".
 
          .. figure:: resources/org.png
@@ -189,7 +189,7 @@ la localización Venezuela.
 
             Campo Organización
 
-      2. Seleccione el tipo de documento a generar en el campo "**Tipo
+      #. Seleccione el tipo de documento a generar en el campo "**Tipo
          de Documento Destino**", la selección de este define el
          comportamiento del documento que se está elaborando, dicho
          comportamiento se encuentra explicado en el documento `Tipo de
@@ -202,7 +202,7 @@ la localización Venezuela.
 
             Campo Tipo de Documento
 
-      3. Seleccione en el campo "**F. Documento**", la fecha en la cual
+      #. Seleccione en el campo "**F. Documento**", la fecha en la cual
          se está generando el documento de selección de pago.
 
          .. figure:: resources/fdoc2.png
@@ -210,7 +210,7 @@ la localización Venezuela.
 
             Campo F. Documento
 
-      4. Seleccione en el campo "**Fecha de Pago**", la fecha en la cual
+      #. Seleccione en el campo "**Fecha de Pago**", la fecha en la cual
          se debe realizar el pago.
 
          .. figure:: resources/fpago2.png
@@ -218,7 +218,7 @@ la localización Venezuela.
 
             Campo Fecha de Pago
 
-      5. Seleccione en el campo "**Cuenta Bancaria**", la cuenta
+      #. Seleccione en el campo "**Cuenta Bancaria**", la cuenta
          bancaria de la caja a la que se le realizará el reembolso.
 
          .. figure:: resources/cuentab.png
@@ -226,7 +226,7 @@ la localización Venezuela.
 
             Campo Cuenta Bancaria
 
-      6. Introduzca en el campo "**Nombre de Referencia**", un nombre de
+      #. Introduzca en el campo "**Nombre de Referencia**", un nombre de
          referencia de la solicitud de pago que está realizando.
 
          .. figure:: resources/nrefe2.png
@@ -234,7 +234,7 @@ la localización Venezuela.
 
             Campo Nombre de Referencia
 
-      7. Introduzca en el campo "**Descripción**", una breve descripción
+      #. Introduzca en el campo "**Descripción**", una breve descripción
          referente a la solicitud de pago que está realizando.
 
          .. figure:: resources/drefe2.png
@@ -242,7 +242,7 @@ la localización Venezuela.
 
             Campo Descripción
 
-      8. Seleccione la opción "**Crear desde selección de pago**", para
+      #. Seleccione la opción "**Crear desde selección de pago**", para
          crear la selección de pago desde la solicitud de pago creada
          anteriormente.
 
@@ -251,7 +251,7 @@ la localización Venezuela.
 
             Opción Crear desde factura
 
-         1. Seleccione en el campo "**Selección de Pago**", la solicitud
+         #. Seleccione en el campo "**Selección de Pago**", la solicitud
             de pago realizada anteriormente.
 
             .. figure:: resources/selep.png
@@ -259,7 +259,7 @@ la localización Venezuela.
 
                Campo Selección de Pago
 
-         2. Seleccione la opción "**Comenzar Búsqueda**", para buscar
+         #. Seleccione la opción "**Comenzar Búsqueda**", para buscar
             las facturas de los socios del negocio proveedores.
 
             .. figure:: resources/comenzarb2.png
@@ -267,7 +267,7 @@ la localización Venezuela.
 
                Opción Comenzar Búsqueda
 
-         3. Seleccione la selección de pago y la opción "**OK**", para
+         #. Seleccione la selección de pago y la opción "**OK**", para
             cargar a la pestaña "**Línea de Selección de Pago**" la
             información de la solicitud de pago realizada anteriormente.
 
@@ -276,7 +276,7 @@ la localización Venezuela.
 
                Seleccionar Factura y Opción OK
 
-      9. Seleccione el icono "**Refrescar**", ubicado en la barra de
+      #. Seleccione el icono "**Refrescar**", ubicado en la barra de
          herramientas de ADempiere para refrescar la ventana y pueda
          visualizar la información cargada desde la opción "**Crear
          desde selección de pago**".
@@ -286,7 +286,7 @@ la localización Venezuela.
 
             Icono Refrescar
 
-   2. Seleccione la pestaña "**Línea de Selección de Pago**", para
+   #. Seleccione la pestaña "**Línea de Selección de Pago**", para
       verificar que la información cargada desde la opción "**Crear
       desde selección de pago**" sea correcta.
 
@@ -295,7 +295,7 @@ la localización Venezuela.
 
          Pestaña Línea de Selección de Pago
 
-   3. Regrese a la ventana principal "**Selección de Pago**" y
+   #. Regrese a la ventana principal "**Selección de Pago**" y
       seleccione la opción "**Completar**", ubicada en la parte inferior
       del documento.
 
@@ -304,7 +304,7 @@ la localización Venezuela.
 
          Opción Completar
 
-      1. Seleccione la acción "**Completar**" y la opción "**OK**", para
+      #. Seleccione la acción "**Completar**" y la opción "**OK**", para
          completar el documento.
 
          .. figure:: resources/accion.png
