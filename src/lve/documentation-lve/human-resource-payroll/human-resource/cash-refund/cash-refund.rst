@@ -315,7 +315,7 @@ la localización Venezuela.
 **Imprimir / Exportar Pagos**
 -----------------------------
 
-1. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
    Saldos Pendientes**", luego seleccione ventana "**Imprimir / Exportar
    Pagos**".
 
@@ -324,7 +324,7 @@ la localización Venezuela.
 
       Menú de ADempiere
 
-   1. Podrá visualizar la ventana "**Imprimir / Exportar Pagos**" y
+   #. Podrá visualizar la ventana "**Imprimir / Exportar Pagos**" y
       proceder al llenado de los campos correspondientes.
 
       .. figure:: resources/iepagos.png
@@ -332,7 +332,7 @@ la localización Venezuela.
 
          Ventana Imprimir / Exportar Pagos
 
-   2. Seleccione en el campo "**Selección de Pago**", la selección de
+   #. Seleccione en el campo "**Selección de Pago**", la selección de
       pago realizada anteriormente.
 
       .. figure:: resources/selepago.png
@@ -340,7 +340,7 @@ la localización Venezuela.
 
          Campo Selección de Pago
 
-   3. Seleccione la opción "**Exportar Registros**", para realizar la
+   #. Seleccione la opción "**Exportar Registros**", para realizar la
       exportación de los registros de la caja reembolso.
 
       .. figure:: resources/exportar.png
@@ -348,7 +348,7 @@ la localización Venezuela.
 
          Opción Exportar Registros
 
-   4. Podrá visualizar la siguiente ventana con el mensaje de
+   #. Podrá visualizar la siguiente ventana con el mensaje de
       "**Registro guardado**".
 
       .. figure:: resources/registrog.png
@@ -359,7 +359,7 @@ la localización Venezuela.
 **Consultar Pago Generado**
 ---------------------------
 
-1. Al consultar la pestaña "**Pago Generado**", de la ventana
+#. Al consultar la pestaña "**Pago Generado**", de la ventana
    "**Selección de Pago**", se puede apreciar el registro del pago en la
    caja reembolso seleccionada en la selección de pago.
 
@@ -371,7 +371,7 @@ la localización Venezuela.
 **Consultar Registro en Caja**
 ------------------------------
 
-1. Al consultar el registro creado en caja, se puede apreciar el
+#. Al consultar el registro creado en caja, se puede apreciar el
    registro de la selección de pago de la siguiente manera.
 
    .. figure:: resources/caja.png
@@ -382,7 +382,7 @@ la localización Venezuela.
 **Cierre de Caja**
 ------------------
 
-1. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
    Saldos Pendientes**", luego seleccione la ventana "**Diario de
    Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
@@ -391,7 +391,7 @@ la localización Venezuela.
 
       Menú de ADempiere
 
-2. Podrá visualizar la ventana "**Cierre de Caja**", donde debe
+#. Podrá visualizar la ventana "**Cierre de Caja**", donde debe
    seleccionar el icono "**Registro Nuevo**" y proceder al llenado de
    los campos correspondientes.
 
@@ -400,7 +400,7 @@ la localización Venezuela.
 
       Ventana Cierre de Caja
 
-   1. Seleccione en el campo "**Organización**", la organización para la
+   #. Seleccione en el campo "**Organización**", la organización para la
       cual está realizando el cierre de caja.
 
       .. figure:: resources/org2.png
@@ -408,7 +408,7 @@ la localización Venezuela.
 
          Campo Organización
 
-   2. Seleccione el tipo de documento a generar en el campo "**Tipo de
+   #. Seleccione el tipo de documento a generar en el campo "**Tipo de
       Documento**", la selección de este define el comportamiento del
       documento que se está elaborando, dicho comportamiento se
       encuentra explicado en el documento `Tipo de Documento <>`__
@@ -420,7 +420,7 @@ la localización Venezuela.
 
          Campo Tipo de Documento
 
-   3. Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria
+   #. Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria
       de la caja reembolso a la cual se le realizará el cierre de caja.
 
       .. figure:: resources/cuentab2.png
@@ -428,7 +428,7 @@ la localización Venezuela.
 
          Campo Cuenta Bancaria
 
-   4. Introduzca en el campo "**Descripción**", una breve descripción
+   #. Introduzca en el campo "**Descripción**", una breve descripción
       referente al documento que está realizando.
 
       .. figure:: resources/descrip2.png
@@ -436,7 +436,7 @@ la localización Venezuela.
 
          Campo Descripción
 
-   5. Seleccione la opción "**Crear a partir de Pagos**", para realizar
+   #. Seleccione la opción "**Crear a partir de Pagos**", para realizar
       el cierre de caja desde la selección de pagos realizada
       anteriormente.
 
@@ -445,7 +445,7 @@ la localización Venezuela.
 
          Opción Crear a partir de pagos
 
-      1. Podrá visualizar la siguiente ventana de búsqueda inteligente,
+      #. Podrá visualizar la siguiente ventana de búsqueda inteligente,
          donde debe seleccionar la opción "**Comenzar Búsqueda**" para
          buscar los pagos.
 
@@ -454,7 +454,7 @@ la localización Venezuela.
 
             Opción Comenzar Búsqueda
 
-      2. Seleccione el registro de la "**Selección de Pago**" creada
+      #. Seleccione el registro de la "**Selección de Pago**" creada
          anteriormente y la opción "**OK**", para cargar la información
          a la pestaña "**Línea de Cierre de Caja**".
 
@@ -463,7 +463,7 @@ la localización Venezuela.
 
             Selección de Pago y Opción OK
 
-   6. Seleccione el icono "**Refrescar**" en la barra de herramientas de
+   #. Seleccione el icono "**Refrescar**" en la barra de herramientas de
       ADempiere, para refrescar el registro en la ventana "**Cierre de
       Caja**".
 
@@ -472,7 +472,7 @@ la localización Venezuela.
 
          Icono Refrescar
 
-   7. Seleccione la opción "**Completar**", ubicada en la parte inferior
+   #. Seleccione la opción "**Completar**", ubicada en la parte inferior
       del documento.
 
       .. figure:: resources/completar3.png
@@ -480,7 +480,7 @@ la localización Venezuela.
 
          Icono Completar
 
-      1. Seleccione la acción "**Completar**" y la opción "**OK**", para
+      #. Seleccione la acción "**Completar**" y la opción "**OK**", para
          completar el documento.
 
          .. figure:: resources/accion.png
@@ -491,7 +491,7 @@ la localización Venezuela.
 **Transferencia Bancaria**
 --------------------------
 
-1. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
    Saldos Pendientes**", luego seleccione el proceso "**Transferencia
    Bancaria**".
 
@@ -500,7 +500,7 @@ la localización Venezuela.
 
       Menú de ADempiere
 
-   1. Podrá visualizar la ventana del proceso "**Transferencia
+   #. Podrá visualizar la ventana del proceso "**Transferencia
       Bancaria**" y proceder al llenado de los campos correspondientes.
 
       .. figure:: resources/nuevo2.png
@@ -508,7 +508,7 @@ la localización Venezuela.
 
          Icono Registro Nuevo
 
-      1.  Seleccione en el campo "**Cuenta bancaria desde**", la cuenta
+      #.  Seleccione en el campo "**Cuenta bancaria desde**", la cuenta
           a debitar el monto de la transferencia realizada.
 
           .. figure:: resources/cuentadesde.png
@@ -516,7 +516,7 @@ la localización Venezuela.
 
              Campo Cuenta bancaria desde
 
-      2.  Seleccione en el campo "**Cuenta Bancaria a Transferir**", la
+      #.  Seleccione en el campo "**Cuenta Bancaria a Transferir**", la
           cuenta caja reembolso a acreditar el monto de la transferencia
           realizada.
 
@@ -525,7 +525,7 @@ la localización Venezuela.
 
              Campo Cuenta Bancaria a Transferir
 
-      3.  Seleccione en el campo "**Socio del Negocio**", el socio del
+      #.  Seleccione en el campo "**Socio del Negocio**", el socio del
           negocio titular de la cuenta caja reembolso.
 
           .. figure:: resources/socio.png
@@ -533,7 +533,7 @@ la localización Venezuela.
 
              Campo Socio del Negocio
 
-      4.  Seleccione en el campo "**Moneda**", la moneda seleccionada en
+      #.  Seleccione en el campo "**Moneda**", la moneda seleccionada en
           la solicitud de pago realizada anteriormente.
 
           .. figure:: resources/moneda2.png
@@ -541,7 +541,7 @@ la localización Venezuela.
 
              Campo Moneda
 
-      5.  Seleccione en el campo "**Cargo**", el cargo correspondiente
+      #.  Seleccione en el campo "**Cargo**", el cargo correspondiente
           al reembolso o la transferencia entre cuentas que se está
           realizando.
 
@@ -550,7 +550,7 @@ la localización Venezuela.
 
              Campo Cargo
 
-      6.  Introduzca en el campo "**No. del Documento**", la referencia
+      #.  Introduzca en el campo "**No. del Documento**", la referencia
           correspondiente a la transferencia bancaria realizada.
 
           .. figure:: resources/referencia1.png
@@ -558,7 +558,7 @@ la localización Venezuela.
 
              Campo No. del Documento
 
-      7.  Introduzca en el campo "**Documento Destino**", la referencia
+      #.  Introduzca en el campo "**Documento Destino**", la referencia
           correspondiente a la transferencia bancaria realizada.
 
           .. figure:: resources/referencia2.png
@@ -566,7 +566,7 @@ la localización Venezuela.
 
              Campo Documento Destino
 
-      8.  Introduzca en el campo "**Monto**", el monto total de la
+      #.  Introduzca en el campo "**Monto**", el monto total de la
           transferencia bancaria realizada.
 
           .. figure:: resources/monto.png
@@ -574,7 +574,7 @@ la localización Venezuela.
 
              Campo Monto
 
-      9.  Introduzca en el campo "**Descripción**", una breve
+      #.  Introduzca en el campo "**Descripción**", una breve
           descripción referente a la transferencia que está realizando.
 
           .. figure:: resources/descrip.png
@@ -582,7 +582,7 @@ la localización Venezuela.
 
              Campo Descripción
 
-      10. Introduzca en el campo "**Fecha de Estado de Cuenta**", la
+      #. Introduzca en el campo "**Fecha de Estado de Cuenta**", la
           fecha de la transferencia bancaria realizada.
 
           .. figure:: resources/ftrans.png
@@ -590,7 +590,7 @@ la localización Venezuela.
 
              Campo Fecha de Estado de Cuenta
 
-      11. Introduzca en el campo "**Fecha Contable**", la fecha de la
+      #. Introduzca en el campo "**Fecha Contable**", la fecha de la
           transferencia bancaria realizada.
 
           .. figure:: resources/ftrans2.png
@@ -598,7 +598,7 @@ la localización Venezuela.
 
              Campo Fecha Contable
 
-      12. Seleccione la opción "**OK**", para generar en ADempiere la
+      #. Seleccione la opción "**OK**", para generar en ADempiere la
           transferencia entre cuentas bancarias.
 
           .. figure:: resources/ok.png
@@ -606,7 +606,7 @@ la localización Venezuela.
 
              Opción OK
 
-   2. Podrá apreciar el resultado del proceso de la siguiente manera.
+   #. Podrá apreciar el resultado del proceso de la siguiente manera.
 
       .. figure:: resources/resultado.png
          :alt: Resultado del Proceso
@@ -620,7 +620,7 @@ la localización Venezuela.
 **Cierre de Caja**
 ------------------
 
-1. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
    Saldos Pendientes**", luego seleccione la ventana "**Diario de
    Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
@@ -629,7 +629,7 @@ la localización Venezuela.
 
       Menú de ADempiere
 
-2. Podrá visualizar la ventana "**Cierre de Caja**", donde debe
+#. Podrá visualizar la ventana "**Cierre de Caja**", donde debe
    seleccionar el icono "**Registro Nuevo**" y proceder al llenado de
    los campos correspondientes.
 
@@ -638,7 +638,7 @@ la localización Venezuela.
 
       Ventana Cierre de Caja
 
-   1. Seleccione en el campo "**Organización**", la organización para la
+   #. Seleccione en el campo "**Organización**", la organización para la
       cual está realizando el cierre de caja.
 
       .. figure:: resources/org2.png
@@ -646,7 +646,7 @@ la localización Venezuela.
 
          Campo Organización
 
-   2. Seleccione el tipo de documento a generar en el campo "**Tipo de
+   #. Seleccione el tipo de documento a generar en el campo "**Tipo de
       Documento**", la selección de este define el comportamiento del
       documento que se está elaborando, dicho comportamiento se
       encuentra explicado en el documento `Tipo de Documento <>`__
@@ -658,7 +658,7 @@ la localización Venezuela.
 
          Campo Tipo de Documento
 
-   3. Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria
+   #. Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria
       de la caja reembolso a la cual se le realizará el cierre de caja.
 
       .. figure:: resources/cuentab3.png
@@ -666,7 +666,7 @@ la localización Venezuela.
 
          Campo Cuenta Bancaria
 
-   4. Introduzca en el campo "**Descripción**", una breve descripción
+   #. Introduzca en el campo "**Descripción**", una breve descripción
       referente al documento que está realizando.
 
       .. figure:: resources/descrip3.png
@@ -674,7 +674,7 @@ la localización Venezuela.
 
          Campo Descripción
 
-   5. Seleccione la opción "**Crear a partir de Pagos**", para realizar
+   #. Seleccione la opción "**Crear a partir de Pagos**", para realizar
       el cierre de caja desde el ingreso generado de la transferencia
       bancaria realizada anteriormente.
 
@@ -683,7 +683,7 @@ la localización Venezuela.
 
          Opción Crear a partir de pagos
 
-      1. Podrá visualizar la siguiente ventana de búsqueda inteligente,
+      #. Podrá visualizar la siguiente ventana de búsqueda inteligente,
          donde debe seleccionar la opción "**Comenzar Búsqueda**" para
          buscar los pagos.
 
@@ -692,7 +692,7 @@ la localización Venezuela.
 
             Opción Comenzar Búsqueda
 
-      2. Seleccione el registro de la "**Transferencia a Caja Reembolso
+      #. Seleccione el registro de la "**Transferencia a Caja Reembolso
          Usuario**" creada anteriormente y la opción "**OK**", para
          cargar la información a la pestaña "**Línea de Cierre de
          Caja**".
@@ -702,7 +702,7 @@ la localización Venezuela.
 
             Selección de Pago y Opción OK
 
-   6. Seleccione el icono "**Refrescar**" en la barra de herramientas de
+   #. Seleccione el icono "**Refrescar**" en la barra de herramientas de
       ADempiere, para refrescar el registro en la ventana "**Cierre de
       Caja**".
 
@@ -711,7 +711,7 @@ la localización Venezuela.
 
          Icono Refrescar
 
-   7. Seleccione la opción "**Completar**", ubicada en la parte inferior
+   #. Seleccione la opción "**Completar**", ubicada en la parte inferior
       del documento.
 
       .. figure:: resources/completar4.png
@@ -719,7 +719,7 @@ la localización Venezuela.
 
          Icono Completar
 
-      1. Seleccione la acción "**Completar**" y la opción "**OK**", para
+      #. Seleccione la acción "**Completar**" y la opción "**OK**", para
          completar el documento.
 
          .. figure:: resources/accion.png
