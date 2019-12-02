@@ -28,31 +28,23 @@ A continuación, se muestra cómo se debe codificar la categoría del producto D
 
 3. Cuando la categoría del producto está compuesta por dos (2) palabras, el código será las dos (2) primeras letras de la primera palabra y la primera letra de la segunda palabra.
 
-.. example::
-
-   "**Ejemplo**"
-
-       A continuación, se muestra cómo se debe codificar la categoría del producto Artículos de Oficina
+A continuación, se muestra cómo se debe codificar la categoría del producto Artículos de Oficina
        
-       +--------------------------------+-----------------------------------------+
-       | Categoría del Producto     jgfdkg| Código de la Categoría                  |
-       +================================+=========================================+
-       | Artículos de Oficina           | ARO                                     |
-       +--------------------------------+-----------------------------------------+
++--------------------------------+-----------------------------------------+
+| Categoría del Producto     jgfdkg| Código de la Categoría                  |
++================================+=========================================+
+| Artículos de Oficina           | ARO                                     |
++--------------------------------+-----------------------------------------+
 
 4. Cuando la categoría del producto está compuesta por tres (3) palabras o más, el código será la primera letra de cada palabra (tres primeras palabras).
 
-.. example::
+A continuación, se muestra cómo se debe codificar la categoría del producto Artículos de Oficina Dañados
 
-   "**Ejemplo**"
-
-       A continuación, se muestra cómo se debe codificar la categoría del producto Artículos de Oficina Dañados
-
-       +--------------------------------+-----------------------------------------+
-       | Categoría del Producto         | Código de la Categoría                  |
-       +================================+=========================================+
-       | Artículos de Oficina Dañados   | AOD                                     |
-       +--------------------------------+-----------------------------------------+
++--------------------------------+-----------------------------------------+
+| Categoría del Producto         | Código de la Categoría                  |
++================================+=========================================+
+| Artículos de Oficina Dañados   | AOD                                     |
++--------------------------------+-----------------------------------------+
 
 **Grupos de Productos**
 -----------------------
@@ -63,45 +55,33 @@ El estandar para la creación de códigos de los grupos de productos debe conten
 
 2. Cuando el grupo de producto contiene solo una (1) palabra, el código será las tres (3) primeras letras de la palabra.
 
-.. example::
+A continuación, se muestra cómo se debe codificar el grupo del producto Maquinarias
 
-   "**Ejemplo**"
-
-       A continuación, se muestra cómo se debe codificar el grupo del producto Maquinarias
-
-       +--------------------------------+-----------------------------------------+
-       | Grupo del Producto             | Código del Grupo                        |
-       +================================+=========================================+
-       | Maquinarias                    | MAQ                                     |
-       +--------------------------------+-----------------------------------------+
++--------------------------------+-----------------------------------------+
+| Grupo del Producto             | Código del Grupo                        |
++================================+=========================================+
+| Maquinarias                    | MAQ                                     |
++--------------------------------+-----------------------------------------+
 
 3. Cuando el grupo de producto contiene dos (2) palabras, el código será las dos (2) primeras letras de la primera palabra y la primera letra de la segunda palabra.
 
-.. example::
+A continuación, se muestra cómo se debe codificar el grupo del producto Aparatos Eléctricos 
 
-   "**Ejemplo**"
-
-       A continuación, se muestra cómo se debe codificar el grupo del producto Aparatos Eléctricos 
-
-       +--------------------------------+-----------------------------------------+
-       | Grupo del Producto             | Código del Grupo                        |
-       +================================+=========================================+
-       | Aparatos Eléctricos            | APE                                     |
-       +--------------------------------+-----------------------------------------+
++--------------------------------+-----------------------------------------+
+| Grupo del Producto             | Código del Grupo                        |
++================================+=========================================+
+| Aparatos Eléctricos            | APE                                     |
++--------------------------------+-----------------------------------------+
 
 4. Cuando el grupo de producto está compuesto por tres (3) palabras o más, el código será la primera letra de cada palabra (tres primeras palabras).
 
-.. example::
-
-   "**Ejemplo**"
-
-       A continuación, se muestra cómo se debe codificar el grupo del producto Implementos de Seguridad Industrial 
+A continuación, se muestra cómo se debe codificar el grupo del producto Implementos de Seguridad Industrial 
        
-       +--------------------------------------+-----------------------------------------+
-       | Grupo del Producto                   | Código del Grupo                        |
-       +======================================+=========================================+
-       | Implementos de Seguridad Industrial  | ISI                                     |
-       +--------------------------------------+-----------------------------------------+
++--------------------------------------+-----------------------------------------+
+| Grupo del Producto                   | Código del Grupo                        |
++======================================+=========================================+
+\| Implementos de Seguridad Industrial\| ISI                                     |
++--------------------------------------+-----------------------------------------+
 
 **Productos**
 -------------
@@ -119,12 +99,6 @@ A continuación se desglosa detalladamente cada una de las partes:
 1. **Letras mayúsculas:**
 
    Se encuentran conformadas por las dos (2) primeras letras del código de la categoría de producto y las dos (2) primeras letras del código del grupo de producto para un total de cuatro (4) letras.
-
-.. example::
-
-   "**Ejemplo**"
-
-   
 
        |Código de la Categoría|Categoría|Código de Grupo|Grupo|Letras mayúsculas
        |:--:||:--:||:--:|
