@@ -28,51 +28,51 @@ En ADempiere es posible generar una factura de cuentas por pagar de forma direct
     #.  Seleccione la organización en el campo "**Organización**".
 
         .. figure:: resources/organizacion.png
-        :alt: Campo Organización
+           :alt: Campo Organización
 
-        Campo Organización
+           Campo Organización
 
     #.  Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
 
         .. figure:: resources/tidoc.png
-        :alt: Campo Tipo de Documento
+           :alt: Campo Tipo de Documento
 
-        Campo Tipo de Documento
+           Campo Tipo de Documento
 
     #.  Introduzca el número del documento en el campo "**No. de Documento**".
 
         .. figure:: resources/nudoc.png
-        :alt: Campo Número de Documento
+           :alt: Campo Número de Documento
 
-        Campo Número de Documento
+           Campo Número de Documento
 
     #.  Seleccione la fecha de la facturación en el campo "**Fecha Facturación**".
 
         .. figure:: resources/fefac.png
-        :alt: Campo Fecha Facturación
+           :alt: Campo Fecha Facturación
 
-        Campo Fecha Facturación
+           Campo Fecha Facturación
 
     #.  Seleccione la fecha contable en el campo "**Fecha Contable**".
 
         .. figure:: resources/fecon.png
-        :alt: Campo Fecha Contable
+           :alt: Campo Fecha Contable
 
-        Campo Fecha Contable
+           Campo Fecha Contable
 
     #.  Seleccione el socio del negocio en el campo "**Socio del Negocio**".
 
         .. figure:: resources/socio.png
-        :alt: Campo Socio del Negocio
+           :alt: Campo Socio del Negocio
 
-        Campo Socio del Negocio
+           Campo Socio del Negocio
 
     #.  Seleccione la dirección del socio del negocio en el campo "**Dirección del Socio del Negocio**".
 
         .. figure:: resources/disocio.png
-        :alt: Campo Dirección del Socio del Negocio
+           :alt: Campo Dirección del Socio del Negocio
 
-        Campo Dirección del Socio del Negocio
+           Campo Dirección del Socio del Negocio
 
 #. Seleccione el icono "**Guardar**" de la barra de herramientas para guardar los cambios realizados.
 
@@ -91,37 +91,37 @@ En ADempiere es posible generar una factura de cuentas por pagar de forma direct
     #. Seleccione el producto en el campo "**Producto**".
 
         .. figure:: resources/producto.png
-        :alt: Campo Producto
+           :alt: Campo Producto
 
-        Campo Producto
+           Campo Producto
 
     #. Seleccione la cantidad de productos en el campo "**Cantidad**".
 
         .. figure:: resources/cantidad.png
-        :alt: Campo Cantidad
+           :alt: Campo Cantidad
 
-        Campo Cantidad
+           Campo Cantidad
 
     #. Seleccione la unidad de medida en el campo "**UM**".
 
         .. figure:: resources/um.png
-        :alt: Campo UM
+           :alt: Campo UM
 
-        Campo UM
+           Campo UM
 
     #. Introduzca el precio del producto en el campo "**Precio**".
 
         .. figure:: resources/precio.png
-        :alt: Campo Precio
+           :alt: Campo Precio
 
-        Campo Precio
+           Campo Precio
 
     #. Seleccione el impuesto del documento en el campo "**Impuesto**".
 
         .. figure:: resources/impuesto.png
-        :alt: Campo Impuesto
+           :alt: Campo Impuesto
 
-        Campo Impuesto
+           Campo Impuesto
 
 #. Guarde los cambios realizados seleccionando el icono "**Guardar**" de la barra de herramientas de ADempiere.
 
