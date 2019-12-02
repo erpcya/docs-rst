@@ -18,7 +18,7 @@ Actualmente se tiene soporte para las marcas:
 -  `VMax <http://www.elepos.com.ve/eleposveweb/index.htm>`__
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :numbered:
 
     commons-errors-fiscal-printer
