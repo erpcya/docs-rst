@@ -13,20 +13,20 @@ La presente documentación elaborada por la empresa ERPyA, pretende especificar 
 
 #.  Ubique en el menú de ADempiere la ventana "**Recepción de Productos**", adjunto imagen para referencia.
 
-    .. figure:: resources/menurecep.png
-       :alt: Menú de ADempiere
+   .. figure:: resources/menurecep.png
+      :alt: Menú de ADempiere
 
        Menú de ADempiere
 
 #.  Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
 
-    .. figure:: resources/regnuevo.png
-       :alt: Registro Nuevo
+   .. figure:: resources/regnuevo.png
+      :alt: Registro Nuevo
 
-       Registro Nuevo
+      Registro Nuevo
 
    #.  Seleccione la organización en el campo "**Organización**".
-
+   
       .. figure:: resources/organizacion.png
          :alt: Campo Organización
 
@@ -111,14 +111,14 @@ La presente documentación elaborada por la empresa ERPyA, pretende especificar 
 
 #. Seleccione la opción "**Completar**" en el inferior del documento de recepción.
 
-    .. figure:: resources/opcioncom.png
-       :alt: Opción Completar
+   .. figure:: resources/opcioncom.png
+      :alt: Opción Completar
 
-       Opción Completar
+      Opción Completar
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
-    .. figure:: resources/completar.png
-       :alt: Completar Documento
+   .. figure:: resources/completar.png
+      :alt: Completar Documento
 
-       Completar Documento
+      Completar Documento
