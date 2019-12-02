@@ -4,7 +4,7 @@
 **Creación de Nómina**
 ----------------------
 
-1. Se crea la nómina de forma regular, el proceso generará el siguiente
+#. Se crea la nómina de forma regular, el proceso generará el siguiente
    asiento contable.
 
    +----------------------------------------------------+----------------------------+-----------------------------+
@@ -20,11 +20,11 @@
 **Creación de Pago**
 --------------------
 
-1. Se crea el pago desde el proceso de caja transitoria
+#. Se crea el pago desde el proceso de caja transitoria
 
-   1. Crear selección de pago a Caja Transito Bono de Alimentación.
+   #. Crear selección de pago a Caja Transito Bono de Alimentación.
 
-   2. Generar el TXT desde el proceso “\ **Imprimir/Exportar**\ ”, esto
+   #. Generar el TXT desde el proceso “\ **Imprimir/Exportar**\ ”, esto
       generará los pagos de cada empleado cancelando el pasivo de
       “\ **Bono de Alimentación por Pagar**\ ” y abonando a la cuenta
       “\ **Cuentas por Pagar a Tercero**\ ” generando el siguiente
@@ -43,16 +43,16 @@
 **Creación de la Factura**
 --------------------------
 
-1. Se crea la factura de cuenta por pagar al intermediario, registrando
+#. Se crea la factura de cuenta por pagar al intermediario, registrando
    las líneas de la siguiente forma:
 
-   1. **Comisiones:** Comisiones de Venta.
+   #. **Comisiones:** Comisiones de Venta.
 
-   2. **Emisión:** Emisión de Tarjetas.
+   #. **Emisión:** Emisión de Tarjetas.
 
-   3. **Cargos Adicionales:** Otros Cargos por gastos adicionales.
+   #. **Cargos Adicionales:** Otros Cargos por gastos adicionales.
 
-   4. **Pago de Intermediarios:** Esta línea carga a la cuenta
+   #. **Pago de Intermediarios:** Esta línea carga a la cuenta
       “\ **Cuentas por Pagar a Tercero**\ ” y abona a “\ **Cuentas por
       Pagar Proveedores**\ ”, generando el siguiente asiento contable.
 
