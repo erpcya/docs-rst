@@ -6,11 +6,9 @@ Se ha definido la codificación para categoría, grupo y producto bajo criterios
 **Categorías de Productos**
 ---------------------------
 
-El estándar para la creación de códigos de las categorías de productos
-estará definido según los siguientes parámetros:
+El estándar para la creación de códigos de las categorías de productos estará definido según los siguientes parámetros:
 
 #. El código de las categorías de productos es de tres (3) letras en mayúsculas.
-
 
 #. Cuando la categoría del producto contiene solo una palabra, el código será las tres (3) primeras letras de la palabra.
 

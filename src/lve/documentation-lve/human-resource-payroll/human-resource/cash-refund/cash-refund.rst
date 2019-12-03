@@ -506,107 +506,84 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 **Cierre de Caja**
 ------------------
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de
-   Saldos Pendientes**", luego seleccione la ventana "**Diario de
-   Caja**", por último seleccione la ventana "**Cierre de Caja**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
    .. figure:: resources/menu4.png
       :alt: Menú de ADempiere
 
       Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Cierre de Caja**", donde debe
-   seleccionar el icono "**Registro Nuevo**" y proceder al llenado de
-   los campos correspondientes.
+#. Podrá visualizar la ventana "**Cierre de Caja**", donde debe seleccionar el icono "**Registro Nuevo**" y proceder al llenado de los campos correspondientes.
 
    .. figure:: resources/nuevo3.png
       :alt: Ventana Cierre de Caja
 
       Ventana Cierre de Caja
 
-   #. Seleccione en el campo "**Organización**", la organización para la
-      cual está realizando el cierre de caja.
+   #. Seleccione en el campo "**Organización**", la organización para la cual está realizando el cierre de caja.
 
       .. figure:: resources/org2.png
          :alt: Campo Organización
 
          Campo Organización
 
-   #. Seleccione el tipo de documento a generar en el campo "**Tipo de
-      Documento**", la selección de este define el comportamiento del
-      documento que se está elaborando, dicho comportamiento se
-      encuentra explicado en el documento `Tipo de Documento <>`__
-      elaborado por la empresa ERPyA. Para ejemplificar el registro es
-      utilizado el tipo de documento "**Cierre de Caja Reembolso**".
+   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`__ elaborado por la empresa ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Cierre de Caja Reembolso**".
 
       .. figure:: resources/tipodoc3.png
          :alt: Campo Tipo de Documento
 
          Campo Tipo de Documento
 
-   #. Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria
-      de la caja reembolso a la cual se le realizará el cierre de caja.
+   #. Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria de la caja reembolso a la cual se le realizará el cierre de caja.
 
       .. figure:: resources/cuentab3.png
          :alt: Campo Cuenta Bancaria
 
          Campo Cuenta Bancaria
 
-   #. Introduzca en el campo "**Descripción**", una breve descripción
-      referente al documento que está realizando.
+   #. Introduzca en el campo "**Descripción**", una breve descripción referente al documento que está realizando.
 
       .. figure:: resources/descrip3.png
          :alt: Campo Descripción
 
          Campo Descripción
 
-   #. Seleccione la opción "**Crear a partir de Pagos**", para realizar
-      el cierre de caja desde el ingreso generado de la transferencia
-      bancaria realizada anteriormente.
+   #. Seleccione la opción "**Crear a partir de Pagos**", para realizar el cierre de caja desde el ingreso generado de la transferencia bancaria realizada anteriormente.
 
       .. figure:: resources/creardp2.png
          :alt: Opción Crear a partir de pagos
 
          Opción Crear a partir de pagos
 
-      #. Podrá visualizar la siguiente ventana de búsqueda inteligente,
-         donde debe seleccionar la opción "**Comenzar Búsqueda**" para
-         buscar los pagos.
+      #. Podrá visualizar la siguiente ventana de búsqueda inteligente, donde debe seleccionar la opción "**Comenzar Búsqueda**" para buscar los pagos.
 
          .. figure:: resources/vcrear.png
             :alt: Opción Comenzar Búsqueda
 
             Opción Comenzar Búsqueda
 
-      #. Seleccione el registro de la "**Transferencia a Caja Reembolso
-         Usuario**" creada anteriormente y la opción "**OK**", para
-         cargar la información a la pestaña "**Línea de Cierre de
-         Caja**".
+      #. Seleccione el registro de la "**Transferencia a Caja Reembolso Usuario**" creada anteriormente y la opción "**OK**", para cargar la información a la pestaña "**Línea de Cierre de Caja**".
 
          .. figure:: resources/seleccionar2.png
             :alt: Selección de Pago y Opción OK
 
             Selección de Pago y Opción OK
 
-   #. Seleccione el icono "**Refrescar**" en la barra de herramientas de
-      ADempiere, para refrescar el registro en la ventana "**Cierre de
-      Caja**".
+   #. Seleccione el icono "**Refrescar**" en la barra de herramientas de ADempiere, para refrescar el registro en la ventana "**Cierre de Caja**".
 
       .. figure:: resources/refrescar4.png
          :alt: Icono Refrescar
 
          Icono Refrescar
 
-   #. Seleccione la opción "**Completar**", ubicada en la parte inferior
-      del documento.
+   #. Seleccione la opción "**Completar**", ubicada en la parte inferior del documento.
 
       .. figure:: resources/completar4.png
          :alt: Icono Completar
 
          Icono Completar
 
-      #. Seleccione la acción "**Completar**" y la opción "**OK**", para
-         completar el documento.
+      #. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento.
 
          .. figure:: resources/accion.png
             :alt: Acción Completar

@@ -4,8 +4,7 @@
 **Creación de Nómina**
 ----------------------
 
-#. Se crea la nómina de forma regular, el proceso generará el siguiente
-   asiento contable.
+#. Se crea la nómina de forma regular, el proceso generará el siguiente asiento contable.
 
    +----------------------------------------------------+----------------------------+-----------------------------+
    | **Cuenta**                                         | **Débito Contabilizado**   | **Crédito Contabilizado**   |
@@ -24,11 +23,7 @@
 
    #. Crear selección de pago a Caja Transito Bono de Alimentación.
 
-   #. Generar el TXT desde el proceso “**Imprimir/Exportar**”, esto
-      generará los pagos de cada empleado cancelando el pasivo de
-      “**Bono de Alimentación por Pagar**” y abonando a la cuenta
-      “**Cuentas por Pagar a Tercero**” generando el siguiente
-      asiento contable.
+   #. Generar el TXT desde el proceso “**Imprimir/Exportar**”, esto generará los pagos de cada empleado cancelando el pasivo de “**Bono de Alimentación por Pagar**” y abonando a la cuenta “**Cuentas por Pagar a Tercero**” generando el siguiente asiento contable.
 
    +----------------------------------------------------+----------------------------+-----------------------------+
    | **Cuenta**                                         | **Débito Contabilizado**   | **Crédito Contabilizado**   |
@@ -43,8 +38,7 @@
 **Creación de la Factura**
 --------------------------
 
-#. Se crea la factura de cuenta por pagar al intermediario, registrando
-   las líneas de la siguiente forma:
+#. Se crea la factura de cuenta por pagar al intermediario, registrando las líneas de la siguiente forma:
 
    #. **Comisiones:** Comisiones de Venta.
 
@@ -52,9 +46,7 @@
 
    #. **Cargos Adicionales:** Otros Cargos por gastos adicionales.
 
-   #. **Pago de Intermediarios:** Esta línea carga a la cuenta
-      “\ **Cuentas por Pagar a Tercero**\ ” y abona a “\ **Cuentas por
-      Pagar Proveedores**\ ”, generando el siguiente asiento contable.
+   #. **Pago de Intermediarios:** Esta línea carga a la cuenta “**Cuentas por Pagar a Tercero**” y abona a “**Cuentas por Pagar Proveedores**”, generando el siguiente asiento contable.
 
    +------------------------------------------------------------+----------------------------+-----------------------------+
    | **Cuenta**                                                 | **Débito Contabilizado**   | **Crédito Contabilizado**   |

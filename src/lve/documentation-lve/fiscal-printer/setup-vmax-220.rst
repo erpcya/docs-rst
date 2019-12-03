@@ -3,26 +3,20 @@
 
 Requisitos previos:
 
--  Tener un equipo con Windows instalado, bajo la Arquitectura
-   procesador de 32 bits.
--  Adaptador USB-Serial Compatible con Windows en la versión del sistema
-   operativo usado (Conector DB9 a USB).
+-  Tener un equipo con Windows instalado, bajo la Arquitectura procesador de 32 bits.
+-  Adaptador USB-Serial Compatible con Windows en la versión del sistema operativo usado (Conector DB9 a USB).
 -  Instalar la Aplicación Spooler.
 
-Es necesario ingresar a ADempiere desde la versión de escritorio, para
-un correcto funcionamiento es necesario modificar el archivo
-"RUN\_Adempiere.bat" actualizando los parámetros:
+Es necesario ingresar a ADempiere desde la versión de escritorio, para un correcto funcionamiento es necesario modificar el archivo "RUN\_Adempiere.bat" actualizando los parámetros:
 
-.. example::
+.. function:: "Configuración del Classpath"
 
-        "Configuración del Classpath"
+    :param ADEMPIERE_HOME=: (Ruta de ADempiere).
+    :param JAVA_HOME=: (Ruta de Instalación de JAVA). 
 
-                ADEMPIERE_HOME=(Ruta de ADempiere)
+.. Nota:: 
 
-                JAVA_HOME=(Ruta de Instalación de JAVA). 
-
-Nota: Es recomendable colocar un acceso directo en el escritorio, para
-ejecutar con mayor Facilidad ADempiere.
+        Es recomendable colocar un acceso directo en el escritorio, para ejecutar con mayor Facilidad ADempiere.
 
 Configurar la impresora requiere los siguientes pasos:
 ------------------------------------------------------
