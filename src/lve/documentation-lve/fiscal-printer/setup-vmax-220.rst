@@ -117,9 +117,7 @@ Agregando los siguientes Valores en sus correspondientes campos:
 Configuración de uso de Dispositivo:
 ------------------------------------
 
-Luego de los pasos anteriores es necesario acceder a la Pestaña
-Configuración de uso de Dispositivo, en esta ventana se establece la
-manera en la que ADempire se comunicara con el dispositivo creado.
+Luego de los pasos anteriores es necesario acceder a la Pestaña Configuración de uso de Dispositivo, en esta ventana se establece la manera en la que ADempire se comunicara con el dispositivo creado.
 
 -  crear un nuevo registro:
 
