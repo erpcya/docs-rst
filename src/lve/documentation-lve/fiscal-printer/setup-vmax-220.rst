@@ -11,8 +11,8 @@ Es necesario ingresar a ADempiere desde la versión de escritorio, para un corre
 
 .. function:: "Configuración del Classpath"
 
-    :param ADEMPIERE_HOME:=(Ruta de ADempiere).
-    :param JAVA_HOME:=(Ruta de Instalación de JAVA). 
+    :param ADEMPIERE_HOME: (Ruta de ADempiere).
+    :param JAVA_HOME: (Ruta de Instalación de JAVA). 
 
 .. Nota:: 
 
@@ -68,8 +68,8 @@ Se desplegara una ventana donde se debe seleccionar el directorio de instalació
 
 .. function:: "Ejemplo de Configuración"
 
-    :param Spooler Folder:C:\Program Files\SpoolerVmax.
-    :param Spooler App:epsSpoolerVmax.exe. 
+    :param Spooler Folder: C:\Program Files\SpoolerVmax.
+    :param Spooler App: epsSpoolerVmax.exe. 
 
 .. figure:: resorces/device-configuration-dialog.png
    :alt: Diálogo de Configuracion de Dispositivo
