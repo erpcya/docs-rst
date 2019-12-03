@@ -24,10 +24,10 @@
 
    #. Crear selección de pago a Caja Transito Bono de Alimentación.
 
-   #. Generar el TXT desde el proceso “\ **Imprimir/Exportar**\ ”, esto
+   #. Generar el TXT desde el proceso “**Imprimir/Exportar**”, esto
       generará los pagos de cada empleado cancelando el pasivo de
-      “\ **Bono de Alimentación por Pagar**\ ” y abonando a la cuenta
-      “\ **Cuentas por Pagar a Tercero**\ ” generando el siguiente
+      “**Bono de Alimentación por Pagar**” y abonando a la cuenta
+      “**Cuentas por Pagar a Tercero**” generando el siguiente
       asiento contable.
 
    +----------------------------------------------------+----------------------------+-----------------------------+
