@@ -409,88 +409,88 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
       #.  Seleccione en el campo "**Cuenta bancaria desde**", la cuenta a debitar el monto de la transferencia realizada.
 
-          .. figure:: resources/cuentadesde.png
-             :alt: Campo Cuenta bancaria desde
+         .. figure:: resources/cuentadesde.png
+            :alt: Campo Cuenta bancaria desde
 
-             Campo Cuenta bancaria desde
+            Campo Cuenta bancaria desde
 
       #.  Seleccione en el campo "**Cuenta Bancaria a Transferir**", la cuenta caja reembolso a acreditar el monto de la transferencia realizada.
 
-          .. figure:: resources/cuentacaja.png
-             :alt: Campo Cuenta Bancaria a Transferir
+         .. figure:: resources/cuentacaja.png
+            :alt: Campo Cuenta Bancaria a Transferir
 
-             Campo Cuenta Bancaria a Transferir
+            Campo Cuenta Bancaria a Transferir
 
       #.  Seleccione en el campo "**Socio del Negocio**", el socio del negocio titular de la cuenta caja reembolso.
 
-          .. figure:: resources/socio.png
-             :alt: Campo Socio del Negocio
+         .. figure:: resources/socio.png
+            :alt: Campo Socio del Negocio
 
-             Campo Socio del Negocio
+            Campo Socio del Negocio
 
       #.  Seleccione en el campo "**Moneda**", la moneda seleccionada en la solicitud de pago realizada anteriormente.
 
-          .. figure:: resources/moneda2.png
-             :alt: Campo Moneda
+         .. figure:: resources/moneda2.png
+            :alt: Campo Moneda
 
-             Campo Moneda
+            Campo Moneda
 
       #.  Seleccione en el campo "**Cargo**", el cargo correspondiente al reembolso o la transferencia entre cuentas que se está realizando.
 
-          .. figure:: resources/cargo.png
-             :alt: Campo Cargo
+         .. figure:: resources/cargo.png
+            :alt: Campo Cargo
 
-             Campo Cargo
+            Campo Cargo
 
       #.  Introduzca en el campo "**No. del Documento**", la referencia correspondiente a la transferencia bancaria realizada.
 
-          .. figure:: resources/referencia1.png
-             :alt: Campo No. del Documento
+         .. figure:: resources/referencia1.png
+            :alt: Campo No. del Documento
 
-             Campo No. del Documento
+            Campo No. del Documento
 
       #.  Introduzca en el campo "**Documento Destino**", la referencia correspondiente a la transferencia bancaria realizada.
 
-          .. figure:: resources/referencia2.png
-             :alt: Campo Documento Destino
+         .. figure:: resources/referencia2.png
+            :alt: Campo Documento Destino
 
-             Campo Documento Destino
+            Campo Documento Destino
 
       #.  Introduzca en el campo "**Monto**", el monto total de la transferencia bancaria realizada.
 
-          .. figure:: resources/monto.png
-             :alt: Campo Monto
+         .. figure:: resources/monto.png
+            :alt: Campo Monto
 
              Campo Monto
 
       #.  Introduzca en el campo "**Descripción**", una breve descripción referente a la transferencia que está realizando.
 
-          .. figure:: resources/descrip.png
-             :alt: Campo Descripción
+         .. figure:: resources/descrip.png
+            :alt: Campo Descripción
 
-             Campo Descripción
+            Campo Descripción
 
       #. Introduzca en el campo "**Fecha de Estado de Cuenta**", la fecha de la transferencia bancaria realizada.
 
-          .. figure:: resources/ftrans.png
-             :alt: Campo Fecha de Estado de Cuenta
+         .. figure:: resources/ftrans.png
+            :alt: Campo Fecha de Estado de Cuenta
 
-             Campo Fecha de Estado de Cuenta
+            Campo Fecha de Estado de Cuenta
 
       #. Introduzca en el campo "**Fecha Contable**", la fecha de la transferencia bancaria realizada.
 
-          .. figure:: resources/ftrans2.png
-             :alt: Campo Fecha Contable
+         .. figure:: resources/ftrans2.png
+            :alt: Campo Fecha Contable
 
-             Campo Fecha Contable
+            Campo Fecha Contable
 
       #. Seleccione la opción "**OK**", para generar en ADempiere la
           transferencia entre cuentas bancarias.
 
-          .. figure:: resources/ok.png
-             :alt: Opción OK
+         .. figure:: resources/ok.png
+            :alt: Opción OK
 
-             Opción OK
+            Opción OK
 
    #. Podrá apreciar el resultado del proceso de la siguiente manera.
 
