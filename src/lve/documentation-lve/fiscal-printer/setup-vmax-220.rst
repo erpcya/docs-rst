@@ -9,10 +9,10 @@ Requisitos previos:
 
 Es necesario ingresar a ADempiere desde la versión de escritorio, para un correcto funcionamiento es necesario modificar el archivo "RUN\_Adempiere.bat" actualizando los parámetros:
 
-.. function:: "Configuración del Classpath"(ADEMPIERE_HOME, JAVA_HOME)
+.. function:: "Configuración del Classpath"
 
-    :param ADEMPIERE_HOME: (Ruta de ADempiere).
-    :param JAVA_HOME: (Ruta de Instalación de JAVA). 
+    :param ADEMPIERE_HOME:=(Ruta de ADempiere).
+    :param JAVA_HOME:=(Ruta de Instalación de JAVA). 
 
 .. Nota:: 
 
@@ -21,30 +21,30 @@ Es necesario ingresar a ADempiere desde la versión de escritorio, para un corre
 Configurar la impresora requiere los siguientes pasos:
 ------------------------------------------------------
 
-1. Ingresar a ADempiere con el Rol asignado correspondiente.
+#. Ingresar a ADempiere con el Rol asignado correspondiente.
 
 .. figure:: resorces/login.png
    :alt: Inicio de Sesión
 
    Inicio de Sesión
 
-2. Posicionarse en el menú de ADempiere.
+#. Posicionarse en el menú de ADempiere.
 
-3. Ingresar al directorio **Administración de Sistema** / **ReglasGenerales** / **Configuración de Dispositivo**.
+#. Ingresar al directorio **Administración de Sistema** / **ReglasGenerales** / **Configuración de Dispositivo**.
 
-.. figure:: resorces/setup-menu.png
-   :alt: Menú Fiscal
+        .. figure:: resorces/setup-menu.png
+           :alt: Menú Fiscal
 
-   Menú Fiscal
+           Menú Fiscal
 
-4. Abrir la Ventana Configuración de Dispositivo.
+#. Abrir la Ventana Configuración de Dispositivo.
 
-.. figure:: resorces/device-configuration.png
-   :alt: Configuración de Dispositivo
+        .. figure:: resorces/device-configuration.png
+           :alt: Configuración de Dispositivo
 
-   Configuración de Dispositivo
+           Configuración de Dispositivo
 
-5. Crear un Nuevo Registro
+#. Crear un Nuevo Registro
 
 Agregando los siguientes Valores en sus correspondientes campos:
 
@@ -66,13 +66,10 @@ Luego de Cargar los Valores es Necesario Presionar el Botón crear Atributos par
 
 Se desplegara una ventana donde se debe seleccionar el directorio de instalación de la Aplicación Spooler y el Ejecutable de las misma.
 
-.. example::
+.. function:: "Ejemplo de Configuración"
 
-        "Ejemplo de Configuración"
-
-                Spooler Folder: C:\Program Files\SpoolerVmax
-
-                Spooler App: epsSpoolerVmax.exe
+    :param Spooler Folder:C:\Program Files\SpoolerVmax.
+    :param Spooler App:epsSpoolerVmax.exe. 
 
 .. figure:: resorces/device-configuration-dialog.png
    :alt: Diálogo de Configuracion de Dispositivo
@@ -82,10 +79,9 @@ Se desplegara una ventana donde se debe seleccionar el directorio de instalació
 Crear el nuevo Dispositivo (impresora):
 ---------------------------------------
 
-1. Abrir la Ventana Dispositivo ubicada en el menú **Administración de
-   Sistema** / **Reglas Generales** / **Configuración de Dispositivo**.
+#. Abrir la Ventana Dispositivo ubicada en el menú **Administración de Sistema** / **Reglas Generales** / **Configuración de Dispositivo**.
 
-2. Crear un Nuevo Registro
+#. Crear un Nuevo Registro
 
 Agregando los siguientes Valores en sus correspondientes campos:
 
@@ -146,7 +142,4 @@ manera en la que ADempire se comunicara con el dispositivo creado.
 
 .. note:: 
 
-        Para confirmar que la configuración de todo lo anterior
-esta correcta, ingresar de nuevo a ADempiere, en la ventana de seleccion
-de rol seleccionar la impresora fiscal creada y continuar, dentro de
-ADempiere procedemos a ejecutar el proceso: Imprimir Reporte Fiscal.
+        Para confirmar que la configuración de todo lo anterior esta correcta, ingresar de nuevo a ADempiere, en la ventana de seleccion de rol seleccionar la impresora fiscal creada y continuar, dentro de ADempiere procedemos a ejecutar el proceso: Imprimir Reporte Fiscal.
