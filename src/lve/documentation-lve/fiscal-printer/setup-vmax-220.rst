@@ -9,10 +9,10 @@ Requisitos previos:
 
 Es necesario ingresar a ADempiere desde la versión de escritorio, para un correcto funcionamiento es necesario modificar el archivo "RUN\_Adempiere.bat" actualizando los parámetros:
 
-.. function:: "Configuración del Classpath"
+.. function:: "Configuración del Classpath"(ADEMPIERE_HOME, JAVA_HOME)
 
-    :param ADEMPIERE_HOME=: (Ruta de ADempiere).
-    :param JAVA_HOME=: (Ruta de Instalación de JAVA). 
+    :param ADEMPIERE_HOME: (Ruta de ADempiere).
+    :param JAVA_HOME: (Ruta de Instalación de JAVA). 
 
 .. Nota:: 
 
@@ -30,8 +30,7 @@ Configurar la impresora requiere los siguientes pasos:
 
 2. Posicionarse en el menú de ADempiere.
 
-3. Ingresar al directorio **Administración de Sistema** / **Reglas
-   Generales** / **Configuración de Dispositivo**.
+3. Ingresar al directorio **Administración de Sistema** / **ReglasGenerales** / **Configuración de Dispositivo**.
 
 .. figure:: resorces/setup-menu.png
    :alt: Menú Fiscal
@@ -63,11 +62,9 @@ Agregando los siguientes Valores en sus correspondientes campos:
 | Descripción                            | Una breve descripción del dispositivo y su uso   |
 +----------------------------------------+--------------------------------------------------+
 
-Luego de Cargar los Valores es Necesario Presionar el Botón crear
-Atributos para configuración.
+Luego de Cargar los Valores es Necesario Presionar el Botón crear Atributos para configuración.
 
-Se desplegara una ventana donde se debe seleccionar el directorio de
-instalación de la Aplicación Spooler y el Ejecutable de las misma.
+Se desplegara una ventana donde se debe seleccionar el directorio de instalación de la Aplicación Spooler y el Ejecutable de las misma.
 
 .. example::
 
