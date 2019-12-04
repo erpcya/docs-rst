@@ -17,14 +17,14 @@ Para Hacer un diagnostico de lo que ocurre lo principal es iniciar desde la cone
 
       Adaptador USB-Serial
 
-   Verificar Drivers del dispositivo al conectar el Adaptador, esto se hace desde el administrador de dispositivos, allí verificar que se conecto un nuevo puerto COM ejemplo: **"COM1"**.
+   Verificar Drivers del dispositivo al conectar el Adaptador, esto se hace desde el administrador de dispositivos, allí verificar que se conecto un nuevo puerto COM ejemplo: "**COM1**".
 
    .. figure:: resorces/com-port.png
       :alt: Driver Instalado Correctamente
 
       Driver Instalado Correctamente
 
-   Si se conecto y no se puede identificar un dispositivo, es decir, ningún dispositivo posee **"COM"** en su nombre, debe instalarse nuevamente los controladores para la correcta comunicación con el Hardware.
+   Si se conecto y no se puede identificar un dispositivo, es decir, ningún dispositivo posee "**COM**" en su nombre, debe instalarse nuevamente los controladores para la correcta comunicación con el Hardware.
 
 #. Conexión de Cable Serie:
 
@@ -42,19 +42,19 @@ Para Hacer un diagnostico de lo que ocurre lo principal es iniciar desde la cone
 
       Parte Posterior de La Impresora
 
-Comprobar que el conector RJ45 este en el puerto de la impresora marcado con las Siglas **"PC"** en la parte posterior de la impresora.
+Comprobar que el conector RJ45 este en el puerto de la impresora marcado con las Siglas "**PC**" en la parte posterior de la impresora.
 
 Si lo anterior esta Correcto Proceder a verificar la aplicación Spooler, en esté caso se debe revisar lo siguiente:
 
 #. Comprobar Instalación de Spooler
 
-   Ingresar al Panel de Control e ingresar a Programas y Características, comprobar si en la lista existe el nombre **"Spooler de impresión VMAX"**, si existe esto quiere decir que la aplicación esta instalada, caso contrario es necesario instalar el Spooler tal como se indica en el manual del fabricante.
+   Ingresar al Panel de Control e ingresar a Programas y Características, comprobar si en la lista existe el nombre "**Spooler de impresión VMAX**", si existe esto quiere decir que la aplicación esta instalada, caso contrario es necesario instalar el Spooler tal como se indica en el manual del fabricante.
 
 #. Comprobar Directorio de instalación
 
-   Para ello basta con ingresar al disco duro donde se encuentre instalado Windows, entrar en la carpeta **"Archivos de Programas"**, debe existir un directorio con el Nombre **"SpoolerVmax"**.
+   Para ello basta con ingresar al disco duro donde se encuentre instalado Windows, entrar en la carpeta "**Archivos de Programas**", debe existir un directorio con el Nombre "**SpoolerVmax**".
 
-   Comúnmente se mueve el directorio de instalación de la aplicación. Esto se hace para evitar la necesidad de ejecutar con privilegios de administrador, para casos en los que no se tiene la seguridad conocer la ruta de instalación, se puede buscar con el buscador de archivos de Windows colocando el nombre **"epsSpoolerVmax.exe"**
+   Comúnmente se mueve el directorio de instalación de la aplicación. Esto se hace para evitar la necesidad de ejecutar con privilegios de administrador, para casos en los que no se tiene la seguridad conocer la ruta de instalación, se puede buscar con el buscador de archivos de Windows colocando el nombre "**epsSpoolerVmax.exe**"
 
 #. Verificar archivo "**config.dat**" dentro del Directorio de instalación
 
@@ -86,11 +86,7 @@ La opción mas recomendable, para volver a colocar la impresora operativa es gen
 **Errores de Impresión o procesando el Documento**
 --------------------------------------------------
 
-Cuando esto ocurre normalmente viene acompañado del mensaje "Comando no
-ejecutado", es prudente verificar el estado del documento en ADempiere y
-verificar que el documento no tenga estado "No Valido", o este marcado
-como Impreso. Pasado el transcurso de unos minutos avanzara el carrete
-de papel de la impresora mostrando el mensaje **"ANULADO"**.
+Cuando esto ocurre normalmente viene acompañado del mensaje "Comando no ejecutado", es prudente verificar el estado del documento en ADempiere y verificar que el documento no tenga estado "No Valido", o este marcado como Impreso. Pasado el transcurso de unos minutos avanzara el carrete de papel de la impresora mostrando el mensaje "**ANULADO**".
 
 Confirmada alguna de las situaciones previamente descrita, puede identificarse como alguno de los problemas descritos a continuación:
 
@@ -113,7 +109,7 @@ A Continuación se detalla de una manera más Gráfica como proceder con los cas
 Primer caso Impreso Correctamente a través de la impresora y Factura no Completada en ADempiere.
 ------------------------------------------------------------------------------------------------
 
-Existe un proceso **"Autorizar Documento Fiscal"** para reactivar el completar el documento ADempiere, este se usa de la siguiente manera:
+Existe un proceso "**Autorizar Documento Fiscal**" para reactivar el completar el documento ADempiere, este se usa de la siguiente manera:
 
 .. figure:: resorces/re-print.png
    :alt: Autorizar Reimpresión
