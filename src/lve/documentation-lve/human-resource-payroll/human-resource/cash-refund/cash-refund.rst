@@ -447,6 +447,7 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
          .. figure:: resources/referencia1.png
             :alt: Campo No. del Documento
 
+
             Campo No. del Documento
 
       #.  Introduzca en el campo "**Documento Destino**", la referencia correspondiente a la transferencia bancaria realizada.
