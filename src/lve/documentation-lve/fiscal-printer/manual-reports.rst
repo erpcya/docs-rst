@@ -6,13 +6,9 @@ Generar Reportes Manualmente en la impresora
 
    Panel Frontal de la impresora
 
-En en caso de error o cuando se confirma que se trabo la impresora
-durante una impresión, se hace necesario generar un reporte para
-consolidar que la data de ADempiere concuerda con la almacenada en la
-impresora, por motivos de de seguridad o auditoria, se hace conveniente
-generarlo a través de la impresora misma.
+En en caso de error o cuando se confirma que se trabo la impresora durante una impresión, se hace necesario generar un reporte para consolidar que la data de ADempiere concuerda con la almacenada en la impresora, por motivos de de seguridad o auditoria, se hace conveniente generarlo a través de la impresora misma.
 
-A. Generar Reporte **"X"**.
+Generar Reporte "X".
 ---------------------------
 
 .. figure:: resorces/print-x-report.png
@@ -20,10 +16,9 @@ A. Generar Reporte **"X"**.
 
    Generar Reporte X
 
-Se hace a través de la combinación de los botones **"OK"** + **"X"** Se
-debe mantener pulsados ambos hasta que la impresión inicie
+Se hace a través de la combinación de los botones "**OK**" + "**X**" Se debe mantener pulsados ambos hasta que la impresión inicie.
 
-B. Generar Reporte **"Z"**.
+Generar Reporte "Z".
 ---------------------------
 
 .. figure:: resorces/print-report-z.png
@@ -31,24 +26,21 @@ B. Generar Reporte **"Z"**.
 
    Generar Reporte Z
 
-Se hace a través de la combinación de los botones **"OK"** + **"Z"** Se
-debe mantener pulsados ambos hasta que la impresión inicie
+Se hace a través de la combinación de los botones "**OK**" + "**Z**" Se debe mantener pulsados ambos hasta que la impresión inicie.
 
-C. Generar **"Reporte de Memoria Fiscal por días"**.
+Generar **"Reporte de Memoria Fiscal por días"**.
 ----------------------------------------------------
 
 .. note::
 
-    Estas instrucciones se detallan en la Página 15 de el [Manual de Fabricante.](http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf)
-
+    Estas instrucciones se detallan en la Página 15 de el `Manual de Fabricante. <http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf>`_
 
 .. figure:: resorces/print-report-by-month.png
    :alt: Reporte de Memoria Fiscal por mes
 
    Reporte de Memoria Fiscal por mes
 
-Para emitir este reporte debe presionar las teclas “Dump Fecha” y “OK”
-al mismo tiempo durante 2 o 3 segundos.
+Para emitir este reporte debe presionar las teclas "**Dump Fecha**" y "**OK**" al mismo tiempo durante 2 o 3 segundos.
 
 .. tip:: 
 
@@ -65,9 +57,7 @@ al mismo tiempo durante 2 o 3 segundos.
 
    Generar Reporte Z
 
-En la pantalla se visualizara las opciones X "MES" y Z "DÍAS", se debe
-presionar el botón "Z", luego se mostrara el mensaje "AGRUPADO POR
-DÍAS".
+En la pantalla se visualizara las opciones X "**MES**" y Z "**DÍAS**", se debe presionar el botón "**Z**", luego se mostrara el mensaje "**AGRUPADO POR DÍAS**".
 
 .. figure:: resorces/generate-report-by-days2.jpg
    :alt: AGRUPADO POR DÍAS
@@ -86,29 +76,26 @@ Seleccionar el rango de fechas a usar en el reporte.
 
    Generar Reporte
 
-Despues de cargar los parametros de impresion inmediatamente iniciara la
-impresión
+Despues de cargar los parametros de impresion inmediatamente iniciara la impresión
 
 .. figure:: resorces/generate-report-by-days4.jpg
    :alt: Imprimiendo
 
    Generar Reporte
 
-D. Generar **"Reporte de Memoria Fiscal por mes"**.
+Generar **"Reporte de Memoria Fiscal por mes"**.
 ---------------------------------------------------
 
 .. warning::
 
-    Estas instrucciones se detallan en la Página 15 de el [Manual de Fabricante.](http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf) 
-
+    Estas instrucciones se detallan en la Página 15 de el `Manual de Fabricante. <http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf>`_ 
 
 .. figure:: resorces/print-report-by-month.png
    :alt: Reporte de Memoria Fiscal por mes
 
    Reporte de Memoria Fiscal por mes
 
-Para emitir este reporte debe presionar las teclas “Dump Fecha” y “OK”
-al mismo tiempo durante 2 o 3 segundos.
+Para emitir este reporte debe presionar las teclas "**Dump Fecha**" y "**OK**" al mismo tiempo durante 2 o 3 segundos.
 
 .. tip:: 
 
@@ -125,8 +112,7 @@ al mismo tiempo durante 2 o 3 segundos.
 
    Generar Reporte
 
-En la pantalla se visualizara las opciones X "MES" y Z "DÍAS", se debe
-presionar el botón "X", luego se mostrara el mensaje "AGRUPADO POR MES".
+En la pantalla se visualizara las opciones X "**MES**" y Z "**DÍAS**", se debe presionar el botón "**X**", luego se mostrara el mensaje "**AGRUPADO POR MES**".
 
 .. figure:: resorces/generate-report-by-months2.jpg
    :alt: AGRUPADO POR MES
@@ -145,8 +131,7 @@ Seleccionar el rango de meses que se usaran en el reporte.
 
    Generar Reporte
 
-Despues de cargar los parametros de impresion inmediatamente iniciara la
-impresión
+Despues de cargar los parametros de impresion inmediatamente iniciara la impresión
 
 .. figure:: resorces/generate-report-by-days4.jpg
    :alt: Imprimiendo
