@@ -7,7 +7,7 @@ C.A. <http://erpya.com/>`__
 
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     vertical/index
     standard-processes/index
