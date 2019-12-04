@@ -10,5 +10,5 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
     :numbered:
 
     client/index
-    provider/index
+    partner/provider
     employee/index
