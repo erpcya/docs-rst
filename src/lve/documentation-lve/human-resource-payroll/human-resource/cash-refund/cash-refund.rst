@@ -530,7 +530,7 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`__ elaborado por la empresa ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Cierre de Caja Reembolso**".
 
-      .. figure:: resources/tipodoc3.png
+      .. img:: resources/tipodoc3.png
          :alt: Campo Tipo de Documento
 
          Campo Tipo de Documento
