@@ -21,7 +21,7 @@ préstamo de forma exitosa:
 
 Vaya a la ventana de Simulador de Préstamo (Adjunto Imagen)
 
-.. figure:: resources/loan-menu.png
+.. img:: resources/loan-menu.png
    :alt: Menú de Préstamos
 
    alt\_text
@@ -29,7 +29,7 @@ Vaya a la ventana de Simulador de Préstamo (Adjunto Imagen)
 A continuación se desplegará la siguiente ventana disponible para
 simular un préstamo.
 
-.. figure:: resources/loan-simulator-clean.png
+.. img:: resources/loan-simulator-clean.png
    :alt: Simulador de Préstamo
 
    alt\_text
@@ -71,7 +71,7 @@ modificarlo.
 basada en la configuración del producto financiero seleccionado, no
 puede ser modificado.
 
-.. figure:: resources/loan-simulator-filled.png
+.. img:: resources/loan-simulator-filled.png
    :alt: Simulador de Préstamo con Parámetros
 
    alt\_text
@@ -80,7 +80,7 @@ Seleccione la opción procesar |alt\_text|
 
 A continuación verá los siguientes resultados:
 
-.. figure:: resources/loan-simulator-run.png
+.. img:: resources/loan-simulator-run.png
    :alt: Ejecución de Simulador
 
    alt\_text
@@ -101,7 +101,7 @@ parámetro ó heredado desde el producto financiero, el número de cuotas
 dependerá del Nro de Cuota indicado en el simulador ó heredado desde el
 producto financiero.
 
-.. figure:: resources/loan-simulator-run-simulation-area.png
+.. img:: resources/loan-simulator-run-simulation-area.png
    :alt: Área de Simulación
 
    alt\_text
@@ -114,7 +114,7 @@ más el Total de Interés más Total de Impuesto, arrojando entonces el
 monto que definitivamente se estima cancelará el solicitante si es
 procesado el préstamo.
 
-.. figure:: resources/loan-simulator-run-total-area.png
+.. img:: resources/loan-simulator-run-total-area.png
    :alt: Área de Totales
 
    alt\_text
@@ -124,21 +124,21 @@ Generar Préstamo desde Simulación
 
 Una vez procesada la simulación:
 
-.. figure:: resources/loan-simulator-run.png
+.. img:: resources/loan-simulator-run.png
    :alt: Ejecución de Simulador
 
    Ejecución de Simulador
 
 Seleccione la opción ok |Ejecución de Simulador|
 
-.. figure:: resources/loan-simulator-run-action-area.png
+.. img:: resources/loan-simulator-run-action-area.png
    :alt: Área de Accciones
 
    Área de Accciones
 
 A continuación se desplegará el siguiente dialogo
 
-.. figure:: resources/loan-simulator-ask-area.png
+.. img:: resources/loan-simulator-ask-area.png
    :alt: Área de Proceso
 
    Área de Proceso
@@ -147,7 +147,7 @@ Si desea generar el préstamo seleccione la opción ok |Ejecución de
 Simulador|, caso contrario seleccione la opción cancelar |Ejecución de
 Simulador|
 
-.. figure:: resources/loan-simulator-ask-dialog-area.png
+.. img:: resources/loan-simulator-ask-dialog-area.png
    :alt: Área de Pregunta
 
    Área de Pregunta
@@ -156,7 +156,7 @@ Si seleccionó la opción OK el sistema generará el préstamo de forma
 exitosa generando el siguiente mensaje indicando el número del préstamo
 generado:
 
-.. figure:: resources/loan-simulator-result-area.png
+.. img:: resources/loan-simulator-result-area.png
    :alt: Área de Accciones
 
    alt\_text

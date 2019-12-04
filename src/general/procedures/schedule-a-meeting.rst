@@ -36,7 +36,7 @@ Asociados, C.A. <http://erpya.com/>`__ siempre se debe utilizar el `Open
 Project <http://project.erpya.com/>`__ para agendar una reunión, si
 desconoce la forma para crear una reunión puede ver el siguiente gif
 
-.. figure:: resources/create-new-meeting-open-project.gif
+.. img:: resources/create-new-meeting-open-project.gif
    :alt: Convert Video
 
    Convert Video

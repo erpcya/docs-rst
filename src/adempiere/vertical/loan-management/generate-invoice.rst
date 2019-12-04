@@ -27,7 +27,7 @@ Panel de Parámetros de ***Consulta de Amortización:*** En este panel
 dispone de los parámetros que serán de filtro para consultar las cuotas
 pendientes por Facturar.
 
-.. figure:: resources/invoice-window-preview.png
+.. img:: resources/invoice-window-preview.png
    :alt: Interpretando la Ventana
 
    drawing
@@ -35,7 +35,7 @@ pendientes por Facturar.
 Panel de resultados ***Para Selección de Cuotas***: En este panel
 seleccionará las cuotas pendientes por Facturar.
 
-.. figure:: resources/invoice-result-preview.png
+.. img:: resources/invoice-result-preview.png
    :alt: Interpretando la Ventana
 
    drawing
@@ -43,7 +43,7 @@ seleccionará las cuotas pendientes por Facturar.
 Panel de ***Datos para Generar la Factura***: En este panel indicará los
 datos para generar la factura.
 
-.. figure:: resources/invoice-parameters-preview.png
+.. img:: resources/invoice-parameters-preview.png
    :alt: Interpretando la Ventana
 
    drawing
@@ -61,14 +61,14 @@ por cuota.
 
 Vaya a la ventana Generar Factura (Desde Préstamo) (Adjunto Imagen)
 
-.. figure:: resources/invoice-menu.png
+.. img:: resources/invoice-menu.png
    :alt: Menú de Factura
 
    alt\_text
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
-.. figure:: resources/invoice-generate-preview.png
+.. img:: resources/invoice-generate-preview.png
    :alt: Generar Factura
 
    alt\_text
@@ -98,21 +98,21 @@ selecciona la opción NO, filtrará las cuotas no vencidas.
 
 A continuación verá los siguientes resultados:
 
-.. figure:: resources/invoice-init-search.png
+.. img:: resources/invoice-init-search.png
    :alt: Comenzar Búsqueda
 
    alt\_text
 
 Seleccione la cuota que desea facturar:
 
-.. figure:: resources/invoice-search-result.png
+.. img:: resources/invoice-search-result.png
    :alt: Resultado de Búsqueda
 
    alt\_text
 
 Proceda a llenar los ***Datos para Generar la Factura***.
 
-.. figure:: resources/invoice-fill-values.png
+.. img:: resources/invoice-fill-values.png
    :alt: Llenando Datos
 
    alt\_text
@@ -130,7 +130,7 @@ con las cuotas seleccionadas.
 **Acción de Documento:** Indique la acción de documento con la cual
 desea generar la selección.
 
-.. figure:: resources/invoice-action-search.png
+.. img:: resources/invoice-action-search.png
    :alt: Datos para Facturar
 
    alt\_text
@@ -142,7 +142,7 @@ Si seleccionó la opción OK el sistema generará la(s) factura(s) de forma
 exitosa generando el siguiente mensaje indicando el número(s) de la(s)
 factura(s) generada.
 
-.. figure:: resources/invoice-generated.png
+.. img:: resources/invoice-generated.png
    :alt: Documentos Generados
 
    drawing
@@ -157,14 +157,14 @@ Ventanas en Documento por Cobrar
 
 Vaya a la ventana Documento por Cobrar (Adjunto Imagen)
 
-.. figure:: resources/invoice-generated-menu.png
+.. img:: resources/invoice-generated-menu.png
    :alt: Menú de Factura
 
    alt\_text
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 
-.. figure:: resources/invoice-window.png
+.. img:: resources/invoice-window.png
    :alt: Ventana de Factura
 
    alt\_text
@@ -172,14 +172,14 @@ A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 Busque el registro desde la opción “\ ***Encontrar Registro***\ ”
 ubicada en la barra de herramientas.
 
-.. figure:: resources/invoice-search-icon.png
+.. img:: resources/invoice-search-icon.png
    :alt: Buscar Factura
 
    drawing
 
 A continuación se desplegará el siguiente dialogo
 
-.. figure:: resources/invoice-search-dialog.png
+.. img:: resources/invoice-search-dialog.png
    :alt: Diálogo de Búsqueda
 
    alt\_text
@@ -194,21 +194,21 @@ Una vez en la ventana de Préstamo
 Vaya a la opción “\ ***Visualiza Detalle(Donde es Usado)***\ ” ubicada
 en la barra de herramientas.
 
-.. figure:: resources/invoice-search-reference-icon.png
+.. img:: resources/invoice-search-reference-icon.png
    :alt: Referencias de Factura
 
    alt\_text
 
 A continuación se desplegará el siguiente dialogo
 
-.. figure:: resources/invoice-search-reference-list.png
+.. img:: resources/invoice-search-reference-list.png
    :alt: Lista de Referencias
 
    alt\_text
 
 Seleccione la opción “\ ***Documento por Cobrar de Cuota ***\ ”
 
-.. figure:: resources/invoice-search-reference-list-selected.png
+.. img:: resources/invoice-search-reference-list-selected.png
    :alt: Lista de Referencias Seleccionadas
 
    alt\_text

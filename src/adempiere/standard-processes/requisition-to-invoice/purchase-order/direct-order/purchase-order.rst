@@ -13,126 +13,126 @@ En ADempiere es posible generar una orden de compra directa, la presente documen
 
 #.  Ubique en el menú de ADempiere la ventana "**Órdenes de Compra**", adjunto imagen para referencia.
 
-    .. figure:: resources/menu.png
+    .. img:: resources/menu.png
        :alt: Menú de ADempiere
 
        Menú de ADempiere
 
 #.  Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
 
-    .. figure:: resources/registronuevo.png
+    .. img:: resources/registronuevo.png
        :alt: Registro Nuevo
 
        Registro Nuevo
 
        #.  Seleccione el nombre de la compañía en el campo "**Compañía**".
 
-              .. figure:: resources/compania.png
+              .. img:: resources/compania.png
                      :alt: Campo Compañía
 
                      Campo Compañía
 
        #.  Seleccione la organización en el campo "**Organización**".
 
-              .. figure:: resources/organizacion.png
+              .. img:: resources/organizacion.png
                      :alt: Campo Organización
 
                      Campo Organización
 
        #.  Introduzca el número de documento en el campo "**No. del Documento**".
 
-              .. figure:: resources/numdoc.png
+              .. img:: resources/numdoc.png
                      :alt: Campo No. del Documento
 
                      Campo No. del Documento
 
        #.  Introduzca una breve descripción en el campo "**Descripción**", este campo es opcional.
 
-              .. figure:: resources/descripcion.png
+              .. img:: resources/descripcion.png
                      :alt: Campo Descripción
 
                      Campo Descripción
 
        #.  Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
 
-              .. figure:: resources/tipodoc.png
+              .. img:: resources/tipodoc.png
                      :alt: Campo Tipo de Documento Destino
 
                      Campo Tipo de Documento Destino
 
        #.  Seleccione la fecha de la orden en el campo "**Fecha de la Orden**".
 
-              .. figure:: resources/fechaord.png
+              .. img:: resources/fechaord.png
                      :alt: Campo Fecha de la Orden
 
                      Campo Fecha de la Orden
 
        #.  Seleccione la fecha prometida en el campo "**Fecha Prometida**".
 
-              .. figure:: resources/fechapro.png
+              .. img:: resources/fechapro.png
                      :alt: Campo Fecha Prometida
 
                      Campo Fecha Prometida
 
        #. Seleccione el socio del negocio en el campo "**Socio del Negocio**".
 
-              .. figure:: resources/socio.png
+              .. img:: resources/socio.png
                      :alt: Campo Socio del Negocio
 
                      Campo Socio del Negocio
 
        #. Seleccione la dirección del socio del negocio en el campo "**Dirección del Socio del Negocio**".
 
-              .. figure:: resources/direcsocio.png
+              .. img:: resources/direcsocio.png
                      :alt: Campo Dirección del Socio del Negocio
 
                      Campo Dirección del Socio del Negocio
 
        #. Seleccione el almacén al que se le realizará la entrega en el campo "**Almacén**".
 
-              .. figure:: resources/almacen.png
+              .. img:: resources/almacen.png
                      :alt: Campo Almacén
 
                      Campo Almacén
 
        #. Seleccione la vía de entrega en el campo "**Vía de Entrega**".
 
-              .. figure:: resources/entrega.png
+              .. img:: resources/entrega.png
                      :alt: Campo Vía de Entrega
 
                      Campo Vía de Entrega
 
        #. Seleccione la regla de costo de flete en el campo "**Regla de Costo de Flete**".
 
-              .. figure:: resources/regla.png
+              .. img:: resources/regla.png
                      :alt: Campo Regla de Costo de Flete
 
                      Campo Regla de Costo de Flete
 
        #. Seleccione la prioridad en el campo "**Prioridad**".
 
-              .. figure:: resources/prioridad.png
+              .. img:: resources/prioridad.png
                      :alt: Campo Prioridad
 
                      Campo Prioridad
 
        #. Seleccione la lista de precios a utilizar en el campo "**Lista de Precios**".
 
-              .. figure:: resources/lisprecios.png
+              .. img:: resources/lisprecios.png
                      :alt: Campo Lista de Precios
 
                      Campo Lista de Precios
 
        #. Seleccione el agente de la compañía en el campo "**Agente Compañía**".
 
-              .. figure:: resources/agente.png
+              .. img:: resources/agente.png
                      :alt: Campo Agente Compañía
 
                      Campo Agente Compañía
 
        #. Seleccione el termino de pago en el campo "**Termino de Pago**".
 
-              .. figure:: resources/terpago.png
+              .. img:: resources/terpago.png
                      :alt: Campo Termino de Pago
 
                      Campo Termino de Pago
@@ -143,7 +143,7 @@ En ADempiere es posible generar una orden de compra directa, la presente documen
 
 #. Seleccione la pestaña "**Línea Orden Compra**" y proceda al llenado de los campos correspondientes.
 
-    .. figure:: resources/linea.png
+    .. img:: resources/linea.png
        :alt: Línea Orden Compra
 
        Línea Orden Compra
@@ -154,35 +154,35 @@ En ADempiere es posible generar una orden de compra directa, la presente documen
 
        #. Seleccione el producto en el campo "**Producto**".
 
-              .. figure:: resources/producto.png
+              .. img:: resources/producto.png
                      :alt: Campo Producto
 
                      Campo Producto
 
        #. Seleccione la cantidad de productos en el campo "**Cantidad**".
 
-              .. figure:: resources/cantidad.png
+              .. img:: resources/cantidad.png
                      :alt: Campo Cantidad
 
                      Campo Cantidad
 
        #. Seleccione la unidad de medida en el campo "**UM**".
 
-              .. figure:: resources/unidmedida.png
+              .. img:: resources/unidmedida.png
                      :alt: Campo UM
 
                      Campo UM
 
        #. Introduzca el precio del producto en el campo "**Precio**".
 
-              .. figure:: resources/precio.png
+              .. img:: resources/precio.png
                      :alt: Campo Precio
 
                      Campo Precio
 
        #. Seleccione el impuesto en el campo "**Impuesto**".
 
-              .. figure:: resources/impuesto.png
+              .. img:: resources/impuesto.png
                      :alt: Campo Impuesto
 
                      Campo Impuesto
@@ -193,7 +193,7 @@ En ADempiere es posible generar una orden de compra directa, la presente documen
 
 #. Regrese a la ventana principal "**Orden de Compra**" y seleccione la opción "**Completar**" ubicada en el inferior del documento.
 
-    .. figure:: resources/ventanaycompletar.png
+    .. img:: resources/ventanaycompletar.png
        :alt: Opción Completar
 
        Opción Completar

@@ -1,7 +1,7 @@
 Generar Reportes Manualmente en la impresora
 ============================================
 
-.. figure:: resorces/front.png
+.. img:: resorces/front.png
    :alt: Panel Frontal de la impresora
 
    Panel Frontal de la impresora
@@ -11,7 +11,7 @@ En en caso de error o cuando se confirma que se trabo la impresora durante una i
 Generar Reporte "X".
 ---------------------------
 
-.. figure:: resorces/print-x-report.png
+.. img:: resorces/print-x-report.png
    :alt: Generar Reporte X
 
    Generar Reporte X
@@ -21,7 +21,7 @@ Se hace a través de la combinación de los botones "**OK**" + "**X**" Se debe m
 Generar Reporte "Z".
 ---------------------------
 
-.. figure:: resorces/print-report-z.png
+.. img:: resorces/print-report-z.png
    :alt: Generar Reporte Z
 
    Generar Reporte Z
@@ -35,7 +35,7 @@ Generar **"Reporte de Memoria Fiscal por días"**.
 
     Estas instrucciones se detallan en la Página 15 de el `Manual de Fabricante. <http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf>`_
 
-.. figure:: resorces/print-report-by-month.png
+.. img:: resorces/print-report-by-month.png
    :alt: Reporte de Memoria Fiscal por mes
 
    Reporte de Memoria Fiscal por mes
@@ -52,33 +52,33 @@ Para emitir este reporte debe presionar las teclas "**Dump Fecha**" y "**OK**" a
 
         Para fijar cada valor presione la tecla OK. Debe seguir este procedimiento para cada valor solicitado en la pantalla. Al finalizar será emitido el reporte. 
 
-.. figure:: resorces/generate-report-by-days1.jpg
+.. img:: resorces/generate-report-by-days1.jpg
    :alt: Generar Reporte por Días
 
    Generar Reporte Z
 
 En la pantalla se visualizara las opciones X "**MES**" y Z "**DÍAS**", se debe presionar el botón "**Z**", luego se mostrara el mensaje "**AGRUPADO POR DÍAS**".
 
-.. figure:: resorces/generate-report-by-days2.jpg
+.. img:: resorces/generate-report-by-days2.jpg
    :alt: AGRUPADO POR DÍAS
 
    Generar Reporte Z
 
 Seleccionar el rango de fechas a usar en el reporte.
 
-.. figure:: resorces/generate-report-by-initial.jpg
+.. img:: resorces/generate-report-by-initial.jpg
    :alt: Fecha Inicial
 
    Generar Reporte
 
-.. figure:: resorces/generate-report-by-days3.jpg
+.. img:: resorces/generate-report-by-days3.jpg
    :alt: Fecha Final
 
    Generar Reporte
 
 Despues de cargar los parametros de impresion inmediatamente iniciara la impresión
 
-.. figure:: resorces/generate-report-by-days4.jpg
+.. img:: resorces/generate-report-by-days4.jpg
    :alt: Imprimiendo
 
    Generar Reporte
@@ -90,7 +90,7 @@ Generar **"Reporte de Memoria Fiscal por mes"**.
 
     Estas instrucciones se detallan en la Página 15 de el `Manual de Fabricante. <http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf>`_ 
 
-.. figure:: resorces/print-report-by-month.png
+.. img:: resorces/print-report-by-month.png
    :alt: Reporte de Memoria Fiscal por mes
 
    Reporte de Memoria Fiscal por mes
@@ -107,33 +107,33 @@ Para emitir este reporte debe presionar las teclas "**Dump Fecha**" y "**OK**" a
 
         Para fijar cada valor presione la tecla OK. Debe seguir este procedimiento para cada valor solicitado en la pantalla. Al finalizar será emitido el reporte. 
 
-.. figure:: resorces/generate-report-by-days1.jpg
+.. img:: resorces/generate-report-by-days1.jpg
    :alt: Generar Reporte por Mes
 
    Generar Reporte
 
 En la pantalla se visualizara las opciones X "**MES**" y Z "**DÍAS**", se debe presionar el botón "**X**", luego se mostrara el mensaje "**AGRUPADO POR MES**".
 
-.. figure:: resorces/generate-report-by-months2.jpg
+.. img:: resorces/generate-report-by-months2.jpg
    :alt: AGRUPADO POR MES
 
    Generar Reporte
 
 Seleccionar el rango de meses que se usaran en el reporte.
 
-.. figure:: resorces/generate-report-by-months3.jpg
+.. img:: resorces/generate-report-by-months3.jpg
    :alt: Mes Inicial
 
    Generar Reporte
 
-.. figure:: resorces/generate-report-by-months4.jpg
+.. img:: resorces/generate-report-by-months4.jpg
    :alt: Mes Final
 
    Generar Reporte
 
 Despues de cargar los parametros de impresion inmediatamente iniciara la impresión
 
-.. figure:: resorces/generate-report-by-days4.jpg
+.. img:: resorces/generate-report-by-days4.jpg
    :alt: Imprimiendo
 
    Generar Reporte

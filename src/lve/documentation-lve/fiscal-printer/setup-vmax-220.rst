@@ -23,7 +23,7 @@ Configurar la impresora requiere los siguientes pasos:
 
 #. Ingresar a ADempiere con el Rol asignado correspondiente.
 
-.. figure:: resorces/login.png
+.. img:: resorces/login.png
    :alt: Inicio de Sesión
 
    Inicio de Sesión
@@ -32,14 +32,14 @@ Configurar la impresora requiere los siguientes pasos:
 
 #. Ingresar al directorio **Administración de Sistema** / **ReglasGenerales** / **Configuración de Dispositivo**.
 
-        .. figure:: resorces/setup-menu.png
+        .. img:: resorces/setup-menu.png
            :alt: Menú Fiscal
 
            Menú Fiscal
 
 #. Abrir la Ventana Configuración de Dispositivo.
 
-        .. figure:: resorces/device-configuration.png
+        .. img:: resorces/device-configuration.png
            :alt: Configuración de Dispositivo
 
            Configuración de Dispositivo
@@ -71,7 +71,7 @@ Se desplegara una ventana donde se debe seleccionar el directorio de instalació
     :param Spooler Folder: C:\Program Files\SpoolerVmax.
     :param Spooler App: epsSpoolerVmax.exe. 
 
-.. figure:: resorces/device-configuration-dialog.png
+.. img:: resorces/device-configuration-dialog.png
    :alt: Diálogo de Configuracion de Dispositivo
 
    Diálogo de Configuracion de Dispositivo
@@ -109,7 +109,7 @@ Agregando los siguientes Valores en sus correspondientes campos:
 | Descripción | Descripción |
 +-------------+-------------+
 
-.. figure:: resorces/device.png
+.. img:: resorces/device.png
    :alt: Dispositivo
 
    Dispositivo
@@ -133,7 +133,7 @@ Luego de los pasos anteriores es necesario acceder a la Pestaña Configuración 
 | Descripción                    | Breve descripción de la funcionalidad   |
 +--------------------------------+-----------------------------------------+
 
-.. figure:: resorces/device-setup.png
+.. img:: resorces/device-setup.png
    :alt: Configuración de uso Dispositivo
 
    Configuración de uso Dispositivo

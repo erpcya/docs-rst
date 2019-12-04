@@ -5,49 +5,49 @@ Un extracto bancario es un estado de cuenta generado por un banco determinado ut
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión del Sistema**", luego seleccione la carpeta "**Datos**", finalmente seleccione la carpeta "**Importar Datos**", por último seleccione el proceso "**Carga de Estado de Cuentas**" y proceda al llenado de los campos correspondientes.
 
-   .. figure:: resources/menuimportacion.png
+   .. img:: resources/menuimportacion.png
       :alt: Menú de ADempiere
 
       Menú de ADempiere
 
 #. Seleccione en el campo "**Cargador de Estado de Cuenta**" el nombre del banco del cual pertenece el estado de cuenta a importar.
 
-   .. figure:: resources/banco.png
+   .. img:: resources/banco.png
       :alt: Campo Cargador de Estado de Cuenta
 
       Campo Cargador de Estado de Cuenta
 
 #. Seleccione en el campo "**Nombre del Archivo**" el archivo a importar.
 
-   .. figure:: resources/nombre.png
+   .. img:: resources/nombre.png
       :alt: Campo Nombre del Archivo
 
       Campo Nombre del Archivo
 
 #. Seleccione la opción "**Seleccionar Archivo**" para buscar el archivo a importar.
 
-   .. figure:: resources/nueva.png
+   .. img:: resources/nueva.png
       :alt: Opción Seleccionar Archivo
 
       Opción Seleccionar Archivo
 
 #. Seleccione la opción "**Cargar Archivo (Upload)**" para cargar el archivo seleccionado.
 
-   .. figure:: resources/archivo.png
+   .. img:: resources/archivo.png
       :alt: Opción Cargar Archivo
 
       Opción Cargar Archivo
 
 #. Seleccione la opción "**OK**" para importar el archivo seleccionado.
 
-   .. figure:: resources/ok.png
+   .. img:: resources/ok.png
       :alt: Opción OK
 
       Opción OK
 
 #. Podrá apreciar la importación exitosa en la ventana y seleccionar la opción "**OK**" para finalizar el proceso, adjunto imagen para referencia.
 
-   .. figure:: resources/finalimportacion.png
+   .. img:: resources/finalimportacion.png
       :alt: Mensaje Exitoso
 
       Mensaje Exitoso
@@ -59,42 +59,42 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #.  Ubique en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**" y luego seleccione la ventana "**Estado de Cuenta Bancario**".
 
-    .. figure:: resources/menuconciliacion.png
+    .. img:: resources/menuconciliacion.png
        :alt: Menú de ADempiere
 
        Menú de ADempiere
 
 #.  Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
-    .. figure:: resources/nuevoreg.png
+    .. img:: resources/nuevoreg.png
        :alt: Registro Nuevo
 
        Registro Nuevo
 
 #.  Seleccione la organización en el campo "**Organización**".
 
-    .. figure:: resources/organizacion.png
+    .. img:: resources/organizacion.png
        :alt: Campo Organización
 
        Campo Organización
 
 #.  Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
 
-    .. figure:: resources/tipodoc.png
+    .. img:: resources/tipodoc.png
        :alt: Campo Tipo de Documento Destino
 
        Campo Tipo de Documento
 
 #.  Seleccione la cuenta bancaria en el campo "**Cuenta Bancaria**".
 
-    .. figure:: resources/cuentabancaria.png
+    .. img:: resources/cuentabancaria.png
        :alt: Campo Cuenta Bancaria
 
        Campo Cuenta Bancaria
 
 #.  Seleccione el icono "**Guardar**" en la barra de herramientas de ADempiere para guardar los cambios realizados en el documento.
 
-    .. figure:: resources/guardar.png
+    .. img:: resources/guardar.png
        :alt: Icono Guardar
 
        Icono Guardar
@@ -105,21 +105,21 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #.  Seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
 
-    .. figure:: resources/proceso.png
+    .. img:: resources/proceso.png
        :alt: Icono Proceso
 
        Icono Proceso
 
 #.  Seleccione la opción "**Conciliación de Estado de Cuenta**" en el menú que es desplegado por el icono "**Proceso**".
 
-    .. figure:: resources/conciliar.png
+    .. img:: resources/conciliar.png
        :alt: Menú Proceso
 
        Menú Proceso
 
     #. Se le desplegará una ventana de busqueda inteligente con campos por los cuales se filtrará la busqueda para realizar la conciliación.
 
-       .. figure:: resources/datos.png
+       .. img:: resources/datos.png
           :alt: Filtrar Busqueda
 
           Filtrar Busqueda
@@ -130,35 +130,35 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
     #. Una vez definido el criterio de busqueda, seleccione la opción "**Refrescar**" para que se muestre la información del estado de cuenta bancario importado y los pagos/cobros realizados en ADempiere.
 
-       .. figure:: resources/refrescar.png
+       .. img:: resources/refrescar.png
           :alt: Refrescar
 
           Refrescar
 
     #. Podrá apreciar los movimientos del estado de cuenta del lado izquierdo de la venta de busqueda inteligente.
 
-       .. figure:: resources/movimientos.png
+       .. img:: resources/movimientos.png
           :alt: Movimientos Importados
 
           Movimientos Importados
 
     #. Podrá apreciar del lado derecho de la ventana de busqueda inteligente los movimientos realizados en ADempiere.
 
-       .. figure:: resources/movimientosad.png
+       .. img:: resources/movimientosad.png
           :alt: Movimientos de ADempiere
 
           Movimientos de ADempiere
 
     #. Seleccione la opción "**Simular Conciliación**" para buscar coincidencia entre la información reflejada en ambos lados de la ventana de busqueda inteligente.
 
-       .. figure:: resources/simular.png
+       .. img:: resources/simular.png
           :alt: Opción Simular Conciliación
 
           Opción Simular Conciliación
 
     #. Podrá apreciar los movimientos con coincidencia en la parte inferior de la ventana de busqueda inteligente.
 
-       .. figure:: resources/coincidencias.png
+       .. img:: resources/coincidencias.png
           :alt: Pagos con Coincidencia
 
           Pagos con Coincidencia
@@ -169,28 +169,28 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
     #. Seleccione la opción "**OK**" para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de busqueda inteligente, estos movimientos automaticamente se cargarán en la pestaña "**Línea Estado Cuentas**"
 
-       .. figure:: resources/okbusqueda.png
+       .. img:: resources/okbusqueda.png
           :alt: Opción OK
 
           Opción OK
 
 #.  Seleccione la pestaña "**Línea Estado Cuentas**" para verificar el registro de coincidencias de movimientos de la venta de busqueda inteligente.
 
-    .. figure:: resources/linea.png
+    .. img:: resources/linea.png
        :alt: Pestaña Línea Estado Cuentas
 
        Pestaña Línea Estado Cuentas
 
 #. Regrese a la ventana principal "**Estado Cuentas Bancario**" y seleccione la opción "**Completar**".
 
-    .. figure:: resources/ventanaycompletar.png
+    .. img:: resources/ventanaycompletar.png
        :alt: Ventana Principal y Opción Completar
 
        Ventana Principal y Opción Completar
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
-    .. figure:: resources/completar.png
+    .. img:: resources/completar.png
        :alt: Acción Completar Documento
 
        Acción Completar Documento

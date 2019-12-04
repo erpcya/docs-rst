@@ -26,7 +26,7 @@ se explica la herramienta OpenProject detalladamente.
 1. Para iniciar sesión en el OpenProject acceda a la url indicada
    anteriormente.
 
-   .. figure:: resources/principal.png
+   .. img:: resources/principal.png
       :alt: Pantalla Principal
 
       Pantalla Principal
@@ -35,7 +35,7 @@ se explica la herramienta OpenProject detalladamente.
    "**Ingresar**", misma que debe seleccionar para que se desplacen los
    campos de acceso a la herramienta.
 
-   .. figure:: resources/inicio.png
+   .. img:: resources/inicio.png
       :alt: Inicio de Sesión
 
       Inicio de Sesión
@@ -44,7 +44,7 @@ se explica la herramienta OpenProject detalladamente.
    empresa ERPyA en los campos correspondientes, luego seleccione el
    boton "**Ingresar**" para acceder al OpenProject.
 
-   .. figure:: resources/ingresar.png
+   .. img:: resources/ingresar.png
       :alt: Ingresar a OpenProject
 
       Ingresar a OpenProject
@@ -52,7 +52,7 @@ se explica la herramienta OpenProject detalladamente.
 4. Al ingresar la interfaz inicial se puede apreciar de la siguiente
    manera.
 
-   .. figure:: resources/inicial.png
+   .. img:: resources/inicial.png
       :alt: Interfaz Inicial
 
       Interfaz Inicial
@@ -64,7 +64,7 @@ se explica la herramienta OpenProject detalladamente.
    superior de la pantalla y se distingue por su color azul, la misma se
    compone de las siguientes opciones:
 
-   .. figure:: resources/barra.png
+   .. img:: resources/barra.png
       :alt: Barra Principal de OpenProject
 
       Barra Principal de OpenProject
@@ -100,7 +100,7 @@ se explica la herramienta OpenProject detalladamente.
    para desplazarce por todas las opciones que tiene disponible dicho
    proyecto, el mismo se compone de lo siguiente:
 
-   .. figure:: resources/proyecto.png
+   .. img:: resources/proyecto.png
       :alt: Menú Principal de OpenProject
 
       Menú Principal de OpenProject
@@ -153,7 +153,7 @@ tareas de un proyecto.
 1. En la barra principal de OpenProject explicada anteriormente,
    seleccione el proyecto en el cual desea navegar.
 
-   .. figure:: resources/selecproyecto.png
+   .. img:: resources/selecproyecto.png
       :alt: Proyecto
 
       Proyecto
@@ -161,7 +161,7 @@ tareas de un proyecto.
 2. Podrá apreciar de la siguiente manera la interfaz que posee el
    proyecto seleccionado.
 
-   .. figure:: resources/interfaz.png
+   .. img:: resources/interfaz.png
       :alt: Interfaz del Proyecto
 
       Interfaz del Proyecto
@@ -169,7 +169,7 @@ tareas de un proyecto.
 3. Seleccione la opción "**Paquetes de Trabajo**" para visualizar las
    tareas correspondientes al proyecto seleccionado.
 
-   .. figure:: resources/paquete.png
+   .. img:: resources/paquete.png
       :alt: Paquete de Trabajo
 
       Paquete de Trabajo
