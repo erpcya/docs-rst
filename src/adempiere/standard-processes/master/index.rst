@@ -7,7 +7,7 @@ Esta documentación está destinada a definir cada uno de los maestros de ADempi
 La versión 3.9.2 de ADempiere en la localización Venezuela, contempla la documentación de los siguientes maestros necesarios para generar de manera existosa las transacciones del mismo.
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
     :numbered:
 
     business-partner/index

@@ -7,7 +7,7 @@ Esta documentación está destinada a definir cada uno de los socios del negocio
 El socio del negocio puede ser cualquier persona, este puede tener tres (3) condiciones ya que puede ser proveedor, cliente o empleado. La versión 3.9.2 de ADempiere en la localización Venezuela, contempla los siguiente documentos de socios del negocio.
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 1
     :numbered:
 
     client/index
