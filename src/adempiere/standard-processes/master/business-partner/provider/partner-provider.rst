@@ -82,7 +82,7 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
             .. intro/why-07
 
-            .. figure:: /img/tipopers.png
+            .. figure:: /img/grupo.png
                :alt: Ventana de Registro de Socio del Negocio 
 
                Imagen 7. Campo Tipo de Persona
