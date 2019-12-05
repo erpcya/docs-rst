@@ -5,10 +5,13 @@
 
 #. En el menú de ADempiere, ubique y seleccione la carpeta "**Relación con Socios del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**" y finalmente seleccione la ventana "**Socio del Negocio**", adjunto imagen para referencia.
 
-   .. image:: img/menu.png
-      :alt: Menú de ADempiere
+      .. intro/why-01
+      
+      .. image:: img/menu.png
+         :align: center
+         :alt: Menú de ADempiere
 
-      ADempiere
+         Imagen 1. Menú de ADempiere
 
 **Ventana Socio del Negocio**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -17,13 +20,13 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
 #. A continuación visualizará la ventana principal "**Socio del Negocio**", dónde debe seleccionar el icono de "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere.
 
-      .. _intro/why-01
+      .. _intro/why-02
       
       .. figure:: img/ventana.png
          :align: center
          :alt: Ventana de Registro de Socio del Negocio
 
-         Figure 1. Ventana Principal de Registro del Socio del Negocio
+         Figure 2. Ventana Principal de Registro del Socio del Negocio
 
 #. Proceda al llenado de los campos necesarios que a continuación se detallan.
 
