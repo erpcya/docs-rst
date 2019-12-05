@@ -1,3 +1,5 @@
+.. _intro/why:
+
 **Proceso de Registro del Socio del Negocio**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -15,10 +17,13 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
 #. A continuación visualizará la ventana principal "**Socio del Negocio**", dónde debe seleccionar el icono de "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere.
 
-   .. image:: img/ventana.png
-      :alt: Ventana de Registro de Socio del Negocio
+      .. _intro/why-01
+      
+      .. image:: img/ventana.png
+         :align: center
+         :alt: Ventana de Registro de Socio del Negocio
 
-      ADempiere
+         Ventana Principal de Registro del Socio del Negocio
 
 #. Proceda al llenado de los campos necesarios que a continuación se detallan.
 
@@ -308,6 +313,7 @@ En esta pestaña se registran todos los datos de contacto que se tengan del soci
 #. Introduzca en el campo "**Teléfono**", el teléfono del socio del negocio contacto para las transacciones entre las empresas.
 
       .. image:: img/telecontacto.png
+         :align: center
          :alt: Ventana de Registro de Socio del Negocio
 
          Campo Teléfono
