@@ -82,7 +82,7 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
             .. intro/why-07
 
-            .. figure:: /img/grupo.png
+            .. figure:: img/tipopers.png
                :alt: Ventana de Registro de Socio del Negocio 
 
                Imagen 7. Campo Tipo de Persona
@@ -141,6 +141,7 @@ Esta pestaña le indica a ADempiere si el socio del negocio que se esta registra
          :alt: Ventana de Registro de Socio del Negocio
 
          Imagen 10. Grupo de Campos Generados por el Checklist Proveedor
+         
 
       #. El campo "**Regla de Pago**" establece la regla de pago definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la regla de pago utilizada es "**A Crédito**". 
 
