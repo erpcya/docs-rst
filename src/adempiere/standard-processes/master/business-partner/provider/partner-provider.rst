@@ -137,18 +137,18 @@ Esta pestaña le indica a ADempiere si el socio del negocio que se esta registra
       .. intro/why-10
 
       .. figure:: img/campos.png
-         :aling: center
+         :align: center
          :alt: Ventana de Registro de Socio del Negocio
 
          Imagen 10. Grupo de Campos Generados por el Checklist Proveedor
-         
+
 
       #. El campo "**Regla de Pago**" establece la regla de pago definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la regla de pago utilizada es "**A Crédito**". 
 
             .. intro/why-11
 
             .. figure:: img/regla.png
-               :aling: center
+               :align: center
                :alt: Ventana de Registro de Socio del Negocio
 
                Imagen 11. Campo Regla de Pago
@@ -256,7 +256,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
       .. intro/why-21
 
       .. figure:: img/anoexpiracion.png
-         :aling: center
+         :align: center
          :alt: Ventana de Registro de Socio del Negocio
 
          Imagen 21. Campo Año de Expiración
@@ -266,7 +266,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
       .. intro/why-22
 
       .. figure:: img/nomcuenta.png
-         :aling: center
+         :align: center
          :alt: Ventana de Registro de Socio del Negocio
 
          Imagen 22. Campo Nombre
@@ -333,7 +333,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
       .. intro/why-28
 
       .. figure:: img/nomcuenta2.png
-         :aling: center
+         :align: center
          :alt: Ventana de Registro de Socio del Negocio
 
          Imagen 28. Campo Nombre
@@ -381,7 +381,7 @@ En esta pestaña se registran todos los datos de contacto que se tengan del soci
       .. intro/why-31
 
       .. figure:: img/pestcontacto.png
-         :aling: center
+         :align: center
          :alt: Ventana de Registro de Socio del Negocio
 
          Imagen 31. Pestaña Contacto
@@ -391,7 +391,7 @@ En esta pestaña se registran todos los datos de contacto que se tengan del soci
       .. intro/why-32
 
       .. figure:: img/nombcontacto.png
-         :aling: center
+         :align: center
          :alt: Ventana de Registro de Socio del Negocio
 
          Imagen 32. Campo Nombre
