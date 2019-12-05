@@ -1,114 +1,164 @@
+.. _intro/why:
+
 **Recepción de Productos**
 --------------------------
 
-#.  Ubique en el menú de ADempiere la ventana "**Recepción de Productos**", adjunto imagen para referencia.
+#. Ubique en el menú de ADempiere la ventana "**Recepción de Productos**", adjunto imagen para referencia.
 
-   .. img:: resources/menurecep.png
+   .. intro/why-01
+   
+   .. figure:: resources/menurecep.png
+      :align: center
       :alt: Menú de ADempiere
 
-      Menú de ADempiere
+      Imagen 1. Menú de ADempiere
 
-#.  Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
+#. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
 
-   .. img:: resources/regnuevo.png
+   .. intro/why-02
+   
+   .. figure:: resources/regnuevo.png
+      :align: center
       :alt: Registro Nuevo
 
-      Registro Nuevo
+      Imagen 2. Registro Nuevo
 
-   #.  Seleccione la organización en el campo "**Organización**".
+   #. Seleccione la organización en el campo "**Organización**".
    
-      .. img:: resources/organizacion.png
+      .. intro/why-03
+      
+      .. figure:: resources/organizacion.png
+         :align: center
          :alt: Campo Organización
 
-         Campo Organización
+         Imagen 3. Campo Organización
 
-   #.  Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
+   #. Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
 
-      .. img:: resources/tidoc.png
+      .. intro/why-04
+      
+      .. figure:: resources/tidoc.png
+         :align: center
          :alt: Campo Tipo de Documento
 
-         Campo Tipo de Documento
+         Imagen 4. Campo Tipo de Documento
 
-   #.  Seleccione la fecha de movimiento en el campo "**Fecha de Movimiento**".
+   #. Seleccione la fecha de movimiento en el campo "**Fecha de Movimiento**".
 
-      .. img:: resources/fechamov.png
+      .. intro/why-05
+      
+      .. figure:: resources/fechamov.png
+         :align: center
          :alt: Campo Fecha de Movimiento
 
-         Campo Fecha de Movimiento
+         Imagem 5. Campo Fecha de Movimiento
 
-   #.  Seleccione la fecha contable en el campo "**Fecha Contable**".
+   #. Seleccione la fecha contable en el campo "**Fecha Contable**".
 
-      .. img:: resources/fechacon.png
+      .. intro/why-06
+      
+      .. figure:: resources/fechacon.png
+         :align: center
          :alt: Campo Fecha Contable
 
-         Campo Fecha Contable
+         Imagen 6. Campo Fecha Contable
 
-   #.  Seleccione el socio del negocio en el campo "**Socio del Negocio**".
+   #. Seleccione el socio del negocio en el campo "**Socio del Negocio**".
 
-      .. img:: resources/socio.png
+      .. intro/why-07
+      
+      .. figure:: resources/socio.png
+         :align: center
          :alt: Campo Socio del Negocio
 
-         Campo Socio del Negocio
+         Imagen 7. Campo Socio del Negocio
 
-   #.  Seleccione el almacén en el campo "**Almacén**".
+   #. Seleccione el almacén en el campo "**Almacén**".
 
-      .. img:: resources/almacen.png
+      .. intro/why-08
+      
+      .. figure:: resources/almacen.png
+         :align: center
          :alt: Campo Almacén
 
-         Campo Almacén
+         Imagen 8. Campo Almacén
 
-   #.  Selecione la opción "**Crear Desde**" para crear el documento de recepción desde una factura o una orden de compra.
+   #. Selecione la opción "**Crear Desde**" para crear el documento de recepción desde una factura o una orden de compra.
 
-      .. img:: resources/creardesde.png
+      .. intro/why-09
+      
+      .. figure:: resources/creardesde.png
+         :align: center
          :alt: Opción Crear Desde
 
-         Opción Crear Desde
+         Imagen 9. Opción Crear Desde
 
       #. Seleccione en el campo "**Crear Desde Tipo**", el tipo de documento desde donde va a crear el documento de recepción.
 
-         .. img:: resources/creardetipo.png
+         .. intro/why-10
+         
+         .. figure:: resources/creardetipo.png
+            :align: center
             :alt: Campo Crear Desde Tipo
 
-            Campo Crear Desde Tipo
+            Imagen 10. Campo Crear Desde Tipo
 
       #. Seleccione en el campo "**Factura**", la factura desde donde va a crear el documento de recepción.
 
-         .. img:: resources/selecfac.png
+         .. intro/why-11
+         
+         .. figure:: resources/selecfac.png
+            :align: center
             :alt: Campo Factura
 
-            Campo Factura
+            Imagen 11. Campo Factura
 
       #. Seleccione la opción "**Comenzar Busqueda**" para buscar la factura a seleccionar.
 
-         .. img:: resources/comenzar.png
+         .. intro/why-12
+         
+         .. figure:: resources/comenzar.png
+            :align: center
             :alt: Opción Comenzar
 
-            Opción Comenzar Busqueda
+            Imagen 12. Opción Comenzar Busqueda
 
       #. Seleccione la factura desde donde va a crear el documento de recepción.
 
-         .. img:: resources/seleccion.png
+         .. intro/why-13
+         
+         .. figure:: resources/seleccion.png
+            :align: center
             :alt: Selección de Factura
 
-            Selección de Factura
+            Imagen 13. Selección de Factura
 
       #. Seleccione la opción "**OK**" para cargar la factura al documento de recepción.
 
-         .. img:: resources/ok.png
+         .. intro/why-14
+         
+         .. figure:: resources/ok.png
+            :align: center
             :alt: Opción OK
 
-            Opción OK
+            Imagen 14. Opción OK
 
 #. Seleccione la opción "**Completar**" en el inferior del documento de recepción.
 
-   .. img:: resources/opcioncom.png
+   .. intro/why-15
+   
+   .. figure:: resources/opcioncom.png
+      :align: center
       :alt: Opción Completar
 
-      Opción Completar
+      Imagen 15. Opción Completar
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
-   .. img:: resources/completar.png
+   .. intro/why-16
+   
+   .. figure:: resources/completar.png
+      :align: center
       :alt: Completar Documento
 
-      Completar Documento
+      Imagen 16. Completar Documento
