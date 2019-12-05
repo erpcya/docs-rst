@@ -19,11 +19,11 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
       .. _intro/why-01
       
-      .. image:: img/ventana.png
+      .. figure:: img/ventana.png
          :align: center
          :alt: Ventana de Registro de Socio del Negocio
 
-         Ventana Principal de Registro del Socio del Negocio
+         Figure 1. Ventana Principal de Registro del Socio del Negocio
 
 #. Proceda al llenado de los campos necesarios que a continuación se detallan.
 
