@@ -38,6 +38,11 @@ Las reuniones deben tomarse como una herramienta para aclarar cualquier duda rel
 
 A pesar de las múltiples herramientas que posee `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ siempre se debe utilizar el `Open Project <http://project.erpya.com/>`__ para agendar una reunión, si desconoce la forma para crear una reunión puede ver el siguiente gif
 
+.. only:: html
+
+    .. figure:: resources/create-new-meeting-open-project.gif
+
+    Video 1. Convert Video
 
 Si desea enviar una notificación por correo desde la agenda lo puede hacer presionando el botón *Enviar para Revisión* 
 
