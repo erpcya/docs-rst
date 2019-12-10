@@ -1,5 +1,3 @@
-.. \justify
-
 .. _resources/conciliación-automática:
 
 
@@ -10,74 +8,74 @@ Un extracto bancario es un estado de cuenta generado por un banco determinado ut
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión del Sistema**", luego seleccione la carpeta "**Datos**", finalmente seleccione la carpeta "**Importar Datos**", por último seleccione el proceso "**Carga de Estado de Cuentas**" y proceda al llenado de los campos correspondientes.
 
-   .. resources/conciliación-automática-01
+      .. resources/conciliación-automática-01
 
-   .. figure:: resources/menuimportacion.png
-      :align: center
-      :alt: Menú de ADempiere
+      .. figure:: resources/menuimportacion.png
+         :align: center
+         :alt: Menú de ADempiere
 
-      Imagen 1. Menú de ADempiere
+         Imagen 1. Menú de ADempiere
 
 #. Seleccione en el campo "**Cargador de Estado de Cuenta**" el nombre del banco del cual pertenece el estado de cuenta a importar.
 
-   .. resources/conciliación-automática-02
+      .. resources/conciliación-automática-02
+
+      .. figure:: resources/banco.png
+         :align: center
+         :alt: Campo Cargador de Estado de Cuenta
    
-   .. figure:: resources/banco.png
-      :align: center
-      :alt: Campo Cargador de Estado de Cuenta
-
-      Imagen 2. Campo Cargador de Estado de Cuenta
-
+         Imagen 2. Campo Cargador de Estado de Cuenta
+   
 #. Seleccione en el campo "**Nombre del Archivo**" el archivo a importar.
-
-   .. resources/conciliación-automática-03
    
-   .. figure:: resources/nombre.png
-      :align: center
-      :alt: Campo Nombre del Archivo
+      .. resources/conciliación-automática-03
 
-      Imagen 3. Campo Nombre del Archivo
-
+      .. figure:: resources/nombre.png
+         :align: center
+         :alt: Campo Nombre del Archivo
+   
+         Imagen 3. Campo Nombre del Archivo
+   
 #. Seleccione la opción "**Seleccionar Archivo**" para buscar el archivo a importar.
-
-   .. resources/conciliación-automática-04
    
-   .. figure:: resources/nueva.png
-      :align: center
-      :alt: Opción Seleccionar Archivo
+      .. resources/conciliación-automática-04
 
-      Imagen 4. Opción Seleccionar Archivo
-
+      .. figure:: resources/nueva.png
+         :align: center
+         :alt: Opción Seleccionar Archivo
+   
+         Imagen 4. Opción Seleccionar Archivo
+   
 #. Seleccione la opción "**Cargar Archivo (Upload)**" para cargar el archivo seleccionado.
-
-   .. resources/conciliación-automática-05
    
-   .. figure:: resources/archivo.png
-      :align: center
-      :alt: Opción Cargar Archivo
+      .. resources/conciliación-automática-05
 
-      Imagen 5. Opción Cargar Archivo
-
+      .. figure:: resources/archivo.png
+         :align: center
+         :alt: Opción Cargar Archivo
+   
+         Imagen 5. Opción Cargar Archivo
+   
 #. Seleccione la opción "**OK**" para importar el archivo seleccionado.
-
-   .. resources/conciliación-automática-06
    
-   .. figure:: resources/ok.png
-      :align: center
-      :alt: Opción OK
+      .. resources/conciliación-automática-06
 
-      Imagen 6. Opción OK
-
+      .. figure:: resources/ok.png
+         :align: center
+         :alt: Opción OK
+   
+         Imagen 6. Opción OK
+   
 #. Podrá apreciar la importación exitosa en la ventana y seleccionar la opción "**OK**" para finalizar el proceso, adjunto imagen para referencia.
-
-   .. resources/conciliación-automática-07
    
-   .. figure:: resources/finalimportacion.png
-      :align: center
-      :alt: Mensaje Exitoso
+      .. resources/conciliación-automática-07
 
-      Imagen 7. Mensaje Exitoso
-
+      .. figure:: resources/finalimportacion.png
+         :align: center
+         :alt: Mensaje Exitoso
+   
+         Imagen 7. Mensaje Exitoso
+   
 **Conciliación**
 ----------------
 
@@ -85,63 +83,63 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**" y luego seleccione la ventana "**Estado de Cuenta Bancario**".
 
-   .. resources/conciliación-automática-08
+      .. resources/conciliación-automática-08
    
-   .. figure:: resources/menuconciliacion.png
-      :align: center
-      :alt: Menú de ADempiere
+      .. figure:: resources/menuconciliacion.png
+         :align: center
+         :alt: Menú de ADempiere
 
-      Imagen 8. Menú de ADempiere
+         Imagen 8. Menú de ADempiere
 
 #. Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
-   .. resources/conciliación-automática-09
+      .. resources/conciliación-automática-09
    
-   .. figure:: resources/nuevoreg.png
-      :align: center
-      :alt: Registro Nuevo
+      .. figure:: resources/nuevoreg.png
+         :align: center
+         :alt: Registro Nuevo
 
-      Imagen 9. Registro Nuevo
+         Imagen 9. Registro Nuevo
 
 #. Seleccione la organización en el campo "**Organización**".
 
-   .. resources/conciliación-automática-10
+      .. resources/conciliación-automática-10
    
-   .. figure:: resources/organizacion.png
-      :align: center
-      :alt: Campo Organización
+      .. figure:: resources/organizacion.png
+         :align: center
+         :alt: Campo Organización
 
-      Imagen 10. Campo Organización
+         Imagen 10. Campo Organización
 
 #. Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
 
-   .. resources/conciliación-automática-11
+      .. resources/conciliación-automática-11
    
-   .. figure:: resources/tipodoc.png
-      :align: center
-      :alt: Campo Tipo de Documento Destino
+      .. figure:: resources/tipodoc.png
+         :align: center
+         :alt: Campo Tipo de Documento Destino
 
-      Imagen 11. Campo Tipo de Documento
+         Imagen 11. Campo Tipo de Documento
 
 #. Seleccione la cuenta bancaria en el campo "**Cuenta Bancaria**".
 
-   .. resources/conciliación-automática-12
+      .. resources/conciliación-automática-12
    
-   .. figure:: resources/cuentabancaria.png
-      :align: center
-      :alt: Campo Cuenta Bancaria
+      .. figure:: resources/cuentabancaria.png
+         :align: center
+         :alt: Campo Cuenta Bancaria
 
-      Imagen 12. Campo Cuenta Bancaria
+         Imagen 12. Campo Cuenta Bancaria
 
 #. Seleccione el icono "**Guardar**" en la barra de herramientas de ADempiere para guardar los cambios realizados en el documento.
 
-   .. resources/conciliación-automática-13
+      .. resources/conciliación-automática-13
    
-   .. figure:: resources/guardar.png
-      :align: center
-      :alt: Icono Guardar
+      .. figure:: resources/guardar.png
+         :align: center
+         :alt: Icono Guardar
 
-      Imagen 13. Icono Guardar
+         Imagen 13. Icono Guardar
 
 
       .. note::
