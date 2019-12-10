@@ -1,5 +1,6 @@
-.. _resources/conciliación-automática:
+.. _resources/conciliación-automática-01: resources/menuimportacion.png
 
+   
 
 **Importación del Extracto Bancario**
 -------------------------------------
@@ -8,13 +9,10 @@ Un extracto bancario es un estado de cuenta generado por un banco determinado ut
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión del Sistema**", luego seleccione la carpeta "**Datos**", finalmente seleccione la carpeta "**Importar Datos**", por último seleccione el proceso "**Carga de Estado de Cuentas**" y proceda al llenado de los campos correspondientes.
 
-      .. resources/conciliación-automática-01
+resources/conciliación-automática-01_.
 
-      .. figure:: resources/menuimportacion.png
-         :align: center
-         :alt: Menú de ADempiere
+Imagen 1. Menú de ADempiere
 
-         Imagen 1. Menú de ADempiere
 
 #. Seleccione en el campo "**Cargador de Estado de Cuenta**" el nombre del banco del cual pertenece el estado de cuenta a importar.
 
