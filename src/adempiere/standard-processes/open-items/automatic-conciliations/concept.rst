@@ -1,4 +1,4 @@
-.. _intro/why:
+.. _resources/conciliación-automática:
 
 **Importación del Extracto Bancario**
 -------------------------------------
@@ -7,7 +7,7 @@ Un extracto bancario es un estado de cuenta generado por un banco determinado ut
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión del Sistema**", luego seleccione la carpeta "**Datos**", finalmente seleccione la carpeta "**Importar Datos**", por último seleccione el proceso "**Carga de Estado de Cuentas**" y proceda al llenado de los campos correspondientes.
 
-   .. intro/why-01
+   .. resources/conciliación-automática-01
 
    .. figure:: resources/menuimportacion.png
       :align: center
@@ -17,7 +17,7 @@ Un extracto bancario es un estado de cuenta generado por un banco determinado ut
 
 #. Seleccione en el campo "**Cargador de Estado de Cuenta**" el nombre del banco del cual pertenece el estado de cuenta a importar.
 
-   .. intro/why-02
+   .. resources/conciliación-automática-02
    
    .. figure:: resources/banco.png
       :align: center
@@ -27,7 +27,7 @@ Un extracto bancario es un estado de cuenta generado por un banco determinado ut
 
 #. Seleccione en el campo "**Nombre del Archivo**" el archivo a importar.
 
-   .. intro/why-03
+   .. resources/conciliación-automática-03
    
    .. figure:: resources/nombre.png
       :align: center
@@ -37,7 +37,7 @@ Un extracto bancario es un estado de cuenta generado por un banco determinado ut
 
 #. Seleccione la opción "**Seleccionar Archivo**" para buscar el archivo a importar.
 
-   .. intro/why-04
+   .. resources/conciliación-automática-04
    
    .. figure:: resources/nueva.png
       :align: center
@@ -47,7 +47,7 @@ Un extracto bancario es un estado de cuenta generado por un banco determinado ut
 
 #. Seleccione la opción "**Cargar Archivo (Upload)**" para cargar el archivo seleccionado.
 
-   .. intro/why-05
+   .. resources/conciliación-automática-05
    
    .. figure:: resources/archivo.png
       :align: center
@@ -57,7 +57,7 @@ Un extracto bancario es un estado de cuenta generado por un banco determinado ut
 
 #. Seleccione la opción "**OK**" para importar el archivo seleccionado.
 
-   .. intro/why-06
+   .. resources/conciliación-automática-06
    
    .. figure:: resources/ok.png
       :align: center
@@ -67,7 +67,7 @@ Un extracto bancario es un estado de cuenta generado por un banco determinado ut
 
 #. Podrá apreciar la importación exitosa en la ventana y seleccionar la opción "**OK**" para finalizar el proceso, adjunto imagen para referencia.
 
-   .. intro/why-07
+   .. resources/conciliación-automática-07
    
    .. figure:: resources/finalimportacion.png
       :align: center
@@ -82,7 +82,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #.  Ubique en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**" y luego seleccione la ventana "**Estado de Cuenta Bancario**".
 
-   .. intro/why-08
+   .. resources/conciliación-automática-08
    
    .. figure:: resources/menuconciliacion.png
       :align: center
@@ -92,7 +92,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #.  Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
-   .. intro/why-09
+   .. resources/conciliación-automática-09
    
    .. figure:: resources/nuevoreg.png
       :align: center
@@ -102,7 +102,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #.  Seleccione la organización en el campo "**Organización**".
 
-   .. intro/why-10
+   .. resources/conciliación-automática-10
    
    .. figure:: resources/organizacion.png
       :align: center
@@ -112,7 +112,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #.  Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
 
-   .. intro/why-11
+   .. resources/conciliación-automática-11
    
    .. figure:: resources/tipodoc.png
       :align: center
@@ -122,7 +122,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #.  Seleccione la cuenta bancaria en el campo "**Cuenta Bancaria**".
 
-   .. intro/why-12
+   .. resources/conciliación-automática-12
    
    .. figure:: resources/cuentabancaria.png
       :align: center
@@ -132,7 +132,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #.  Seleccione el icono "**Guardar**" en la barra de herramientas de ADempiere para guardar los cambios realizados en el documento.
 
-   .. intro/why-13
+   .. resources/conciliación-automática-13
    
    .. figure:: resources/guardar.png
       :align: center
@@ -146,7 +146,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #.  Seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
 
-   .. intro/why-14
+   .. resources/conciliación-automática-14
    
    .. figure:: resources/proceso.png
       :align: center
@@ -156,7 +156,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #.  Seleccione la opción "**Conciliación de Estado de Cuenta**" en el menú que es desplegado por el icono "**Proceso**".
 
-   .. intro/why-15
+   .. resources/conciliación-automática-15
    
    .. figure:: resources/conciliar.png
       :align: center
@@ -166,7 +166,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
     #. Se le desplegará una ventana de busqueda inteligente con campos por los cuales se filtrará la busqueda para realizar la conciliación.
 
-      .. intro/why-16
+      .. resources/conciliación-automática-16
       
       .. figure:: resources/datos.png
          :align: center
@@ -180,7 +180,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
     #. Una vez definido el criterio de busqueda, seleccione la opción "**Refrescar**" para que se muestre la información del estado de cuenta bancario importado y los pagos/cobros realizados en ADempiere.
 
-      .. intro/why-17
+      .. resources/conciliación-automática-17
       
       .. figure:: resources/refrescar.png
          :align: center
@@ -190,7 +190,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
     #. Podrá apreciar los movimientos del estado de cuenta del lado izquierdo de la venta de busqueda inteligente.
 
-      .. intro/why-18
+      .. resources/conciliación-automática-18
       
       .. figure:: resources/movimientos.png
          :align: center
@@ -200,7 +200,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
     #. Podrá apreciar del lado derecho de la ventana de busqueda inteligente los movimientos realizados en ADempiere.
 
-      .. intro/why-19
+      .. resources/conciliación-automática-19
       
       .. figure:: resources/movimientosad.png
          :align: center
@@ -210,7 +210,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
     #. Seleccione la opción "**Simular Conciliación**" para buscar coincidencia entre la información reflejada en ambos lados de la ventana de busqueda inteligente.
 
-      .. intro/why-20
+      .. resources/conciliación-automática-20
       
       .. figure:: resources/simular.png
          :align: center
@@ -220,7 +220,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
     #. Podrá apreciar los movimientos con coincidencia en la parte inferior de la ventana de busqueda inteligente.
 
-      .. intro/why-21
+      .. resources/conciliación-automática-21
       
       .. figure:: resources/coincidencias.png
          :align: center
@@ -234,7 +234,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
     #. Seleccione la opción "**OK**" para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de busqueda inteligente, estos movimientos automaticamente se cargarán en la pestaña "**Línea Estado Cuentas**"
 
-      .. intro/why-22
+      .. resources/conciliación-automática-22
       
       .. figure:: resources/okbusqueda.png
          :align: center
@@ -244,7 +244,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #.  Seleccione la pestaña "**Línea Estado Cuentas**" para verificar el registro de coincidencias de movimientos de la venta de busqueda inteligente.
 
-   .. intro/why-23
+   .. resources/conciliación-automática-23
    
    .. figure:: resources/linea.png
       :align: center
@@ -254,7 +254,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #. Regrese a la ventana principal "**Estado Cuentas Bancario**" y seleccione la opción "**Completar**".
 
-   .. intro/why-24
+   .. resources/conciliación-automática-24
    
    .. figure:: resources/ventanaycompletar.png
       :align: center 
@@ -264,7 +264,7 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
-   .. intro/why-25
+   .. resources/conciliación-automática-25
    
    .. figure:: resources/completar.png
       :align: center 
