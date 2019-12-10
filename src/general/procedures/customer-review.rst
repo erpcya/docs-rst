@@ -1,14 +1,10 @@
-.. |Reunión con Cliente| figure:: resources/customer-meeting.jpeg
-.. |Smart| figure:: resources/smart.png
-
 **Revisión de Cambios con cliente**
 ===================================
 
-|Reunión con Cliente| 
+|Convert Video| 
 
 **Justificación**
 -----------------
-
 Antes de realizar algún cambio
 solicitado por el cliente es muy importante conocer si cumple realmente con el alcance esperado por el cliente, si cubre en su totalidad la necesidad presente, en función de esto se debe implementar un método que permita evitar ambigüedad en la solicitud, pese a la nimiedad del cambio se convierte en una prioridad primaria la transparencia de la actividad por realizar.
 
@@ -56,9 +52,7 @@ Ahora bien, ¿Qué significa esto?
 
 -  **R** (Relevant) – **Relevante:** Debe ser factible y razonable el logro con respecto a los recursos invertidos y plazos estimados.
 
--  **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. 
-
-|Smart|
+-  **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. |Convert Video|
 
 Para el cumpliento de la metodología y definición de objetivos inteligentes,se deben plantear las siguientes interrogantes para cada una de las cinco caracteristicas:
 
@@ -167,4 +161,5 @@ Unicamente despúes de tener la aprobación del cliente `Confirmación del Clien
 
 Cuando el cliente haya aprobado la solución planteada en el gestor de proyecto `Open Project <http://project.erpya.com/>`__ y posteriormente la tarea se encuentra en la fase previa al desarrollo,\ `Inicio del Desarrollo <https://docs.erpya.com/general/procedures/customer-review/#inicio-del-desarrollo>`__, el responsable de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ está obligado a cambiar el estado actual, **Por Definir** al estado **En Espera (Técnico)**.
 
-
+.. |Convert Video| image:: resources/customer-meeting.jpeg
+.. |Convert Video| image:: resources/smart.png
