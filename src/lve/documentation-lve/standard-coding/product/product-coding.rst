@@ -1,3 +1,5 @@
+.. _documento/codificación-producto:
+
 **Codificación Estándar de Productos**
 ======================================
 
