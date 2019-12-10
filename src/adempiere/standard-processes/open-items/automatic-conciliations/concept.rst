@@ -1,4 +1,5 @@
 .. _resources/conciliación-automática:
+\justify
 
 **Importación del Extracto Bancario**
 -------------------------------------
@@ -140,7 +141,6 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
       Imagen 13. Icono Guardar
 
-\justify
 
       .. note::
 
