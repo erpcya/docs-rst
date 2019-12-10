@@ -7,9 +7,9 @@
 
 .. figure:: resources/meeting.png
    :align: center
-   :alt: Convert Video
+   :alt: Acordar una Reunión
 
-   Imagen 1. Convert Video
+   Imagen 1. Acordar Reunión
 
 **Justificación** 
 -----------------
@@ -40,7 +40,7 @@ A pesar de las múltiples herramientas que posee `E.R.P. Consultores y Asociados
 
     .. figure:: resources/create-new-meeting-open-project.gif
 
-    Video 1. Convert Video
+    Video 1. Acordar una Reunión
 
 Si desea enviar una notificación por correo desde la agenda lo puede hacer presionando el botón *Enviar para Revisión* 
 
