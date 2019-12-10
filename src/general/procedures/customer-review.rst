@@ -1,5 +1,5 @@
-.. |Reunión con Cliente| image:: resources/customer-meeting.jpeg
-.. |Smart| image:: resources/smart.png
+.. |Reunión con Cliente| figure:: resources/customer-meeting.jpeg
+.. |Smart| figure:: resources/smart.png
 
 **Revisión de Cambios con cliente**
 ===================================
