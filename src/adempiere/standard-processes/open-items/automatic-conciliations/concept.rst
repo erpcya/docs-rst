@@ -1,10 +1,11 @@
+.. \justify
+
 .. _resources/conciliación-automática:
 
 
 **Importación del Extracto Bancario**
 -------------------------------------
 
-\justify
 Un extracto bancario es un estado de cuenta generado por un banco determinado utilizado por la empresa para realizar sus operaciones o transacciones, el documento es generado por lapsos que la mayoria de las veces es mensual. La importación del extracto bancario, valga la redundancia, es importar a ADempiere el estado de cuenta generado por el banco, a continuación se explica el procedimiento que se debe realizar para importar el documento en ADempiere.
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión del Sistema**", luego seleccione la carpeta "**Datos**", finalmente seleccione la carpeta "**Importar Datos**", por último seleccione el proceso "**Carga de Estado de Cuentas**" y proceda al llenado de los campos correspondientes.
