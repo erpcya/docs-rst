@@ -22,7 +22,7 @@ Para Hacer un diagnostico de lo que ocurre lo principal es iniciar desde la cone
 
          Imagen 1. Adaptador USB-Serial
 
-   Verificar Drivers del dispositivo al conectar el Adaptador, esto se hace desde el administrador de dispositivos, allí verificar que se conecto un nuevo puerto COM ejemplo: "**COM1**".
+      Verificar Drivers del dispositivo al conectar el Adaptador, esto se hace desde el administrador de dispositivos, allí verificar que se conecto un nuevo puerto COM ejemplo: "**COM1**".
 
       .. documento/errores-impresora-02
    
@@ -32,7 +32,7 @@ Para Hacer un diagnostico de lo que ocurre lo principal es iniciar desde la cone
 
          Imagen 2. Driver Instalado Correctamente
 
-   Si se conecto y no se puede identificar un dispositivo, es decir, ningún dispositivo posee "**COM**" en su nombre, debe instalarse nuevamente los controladores para la correcta comunicación con el Hardware.
+      Si se conecto y no se puede identificar un dispositivo, es decir, ningún dispositivo posee "**COM**" en su nombre, debe instalarse nuevamente los controladores para la correcta comunicación con el Hardware.
 
 #. Conexión de Cable Serie:
 
@@ -44,7 +44,7 @@ Para Hacer un diagnostico de lo que ocurre lo principal es iniciar desde la cone
 
          Imagen 3. Cable Conexión Serial
 
-   En esté caso observar si la conexión entre el adaptador y el cable, a través del conector DB9 este hecha de manera correcta.
+      En esté caso observar si la conexión entre el adaptador y el cable, a través del conector DB9 este hecha de manera correcta.
 
 #. Posición en la que esta el conector RJ45:
 
