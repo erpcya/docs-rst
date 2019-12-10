@@ -142,7 +142,9 @@ Es un proceso que se realiza con la finalidad de garantizar los saldos de las cu
 
       .. note::
 
-         Hasta este paso es el llenado del encabezado de la conciliación, donde se define el banco en el cual se va a realizar la conciliación de los pagos/cobros que ha tenido la empresa en un rango determinado. En adelante se procedera a realizar la conciliación.
+      :align: left
+
+            Hasta este paso es el llenado del encabezado de la conciliación, donde se define el banco en el cual se va a realizar la conciliación de los pagos/cobros que ha tenido la empresa en un rango determinado. En adelante se procedera a realizar la conciliación.
 
 #.  Seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
 
