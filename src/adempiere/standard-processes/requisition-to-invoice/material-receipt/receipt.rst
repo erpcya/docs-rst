@@ -1,11 +1,11 @@
-.. _intro/why:
+.. _documento/recepción-productos:
 
 **Recepción de Productos**
 --------------------------
 
 #. Ubique en el menú de ADempiere la ventana "**Recepción de Productos**", adjunto imagen para referencia.
 
-   .. intro/why-01
+   .. documento/recepción-productos-01
    
    .. figure:: resources/menurecep.png
       :align: center
@@ -15,7 +15,7 @@
 
 #. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
 
-   .. intro/why-02
+   .. documento/recepción-productos-02
    
    .. figure:: resources/regnuevo.png
       :align: center
@@ -25,7 +25,7 @@
 
    #. Seleccione la organización en el campo "**Organización**".
    
-      .. intro/why-03
+      .. documento/recepción-productos-03
       
       .. figure:: resources/organizacion.png
          :align: center
@@ -35,7 +35,7 @@
 
    #. Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
 
-      .. intro/why-04
+      .. documento/recepción-productos-04
       
       .. figure:: resources/tidoc.png
          :align: center
@@ -45,7 +45,7 @@
 
    #. Seleccione la fecha de movimiento en el campo "**Fecha de Movimiento**".
 
-      .. intro/why-05
+      .. documento/recepción-productos-05
       
       .. figure:: resources/fechamov.png
          :align: center
@@ -55,7 +55,7 @@
 
    #. Seleccione la fecha contable en el campo "**Fecha Contable**".
 
-      .. intro/why-06
+      .. documento/recepción-productos-06
       
       .. figure:: resources/fechacon.png
          :align: center
@@ -65,7 +65,7 @@
 
    #. Seleccione el socio del negocio en el campo "**Socio del Negocio**".
 
-      .. intro/why-07
+      .. documento/recepción-productos-07
       
       .. figure:: resources/socio.png
          :align: center
@@ -75,7 +75,7 @@
 
    #. Seleccione el almacén en el campo "**Almacén**".
 
-      .. intro/why-08
+      .. documento/recepción-productos-08
       
       .. figure:: resources/almacen.png
          :align: center
@@ -85,7 +85,7 @@
 
    #. Selecione la opción "**Crear Desde**" para crear el documento de recepción desde una factura o una orden de compra.
 
-      .. intro/why-09
+      .. documento/recepción-productos-09
       
       .. figure:: resources/creardesde.png
          :align: center
@@ -95,7 +95,7 @@
 
       #. Seleccione en el campo "**Crear Desde Tipo**", el tipo de documento desde donde va a crear el documento de recepción.
 
-         .. intro/why-10
+         .. documento/recepción-productos-10
          
          .. figure:: resources/creardetipo.png
             :align: center
@@ -105,7 +105,7 @@
 
       #. Seleccione en el campo "**Factura**", la factura desde donde va a crear el documento de recepción.
 
-         .. intro/why-11
+         .. documento/recepción-productos-11
          
          .. figure:: resources/selecfac.png
             :align: center
@@ -115,7 +115,7 @@
 
       #. Seleccione la opción "**Comenzar Busqueda**" para buscar la factura a seleccionar.
 
-         .. intro/why-12
+         .. documento/recepción-productos-12
          
          .. figure:: resources/comenzar.png
             :align: center
@@ -125,7 +125,7 @@
 
       #. Seleccione la factura desde donde va a crear el documento de recepción.
 
-         .. intro/why-13
+         .. documento/recepción-productos-13
          
          .. figure:: resources/seleccion.png
             :align: center
@@ -135,7 +135,7 @@
 
       #. Seleccione la opción "**OK**" para cargar la factura al documento de recepción.
 
-         .. intro/why-14
+         .. documento/recepción-productos-14
          
          .. figure:: resources/ok.png
             :align: center
@@ -145,7 +145,7 @@
 
 #. Seleccione la opción "**Completar**" en el inferior del documento de recepción.
 
-   .. intro/why-15
+   .. documento/recepción-productos-15
    
    .. figure:: resources/opcioncom.png
       :align: center
@@ -155,7 +155,7 @@
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
-   .. intro/why-16
+   .. documento/recepción-productos-16
    
    .. figure:: resources/completar.png
       :align: center

@@ -1,11 +1,11 @@
-.. _resources/orden-de-compra:
+.. _documento/orden-de-compra:
 
 **Orden de Compra**
 -------------------
 
 #. Ubique en el menú de ADempiere la ventana "**Órdenes de Compra**", adjunto imagen para referencia.
 
-       .. resources/orden-de-compra-01
+       .. documento/orden-de-compra-01
        
        .. figure:: resources/menu.png
           :align: center
@@ -16,7 +16,7 @@
 
 #. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
 
-       .. resources/orden-de-compra-02
+       .. documento/orden-de-compra-02
        
        .. figure:: resources/registronuevo.png
           :align: center
@@ -26,7 +26,7 @@
 
        #. Seleccione el nombre de la compañía en el campo "**Compañía**".
 
-              .. resources/orden-de-compra-03
+              .. documento/orden-de-compra-03
               
               .. figure:: resources/compania.png
                  :align: center
@@ -36,7 +36,7 @@
 
        #. Seleccione la organización en el campo "**Organización**".
 
-              .. resources/orden-de-compra-04
+              .. documento/orden-de-compra-04
               
               .. figure:: resources/organizacion.png
                  :align: center
@@ -46,7 +46,7 @@
 
        #. Introduzca el número de documento en el campo "**No. del Documento**".
 
-              .. resources/orden-de-compra-05
+              .. documento/orden-de-compra-05
               
               .. figure:: resources/numdoc.png
                  :align: center
@@ -56,7 +56,7 @@
 
        #. Introduzca una breve descripción en el campo "**Descripción**", este campo es opcional.
 
-              .. resources/orden-de-compra-06
+              .. documento/orden-de-compra-06
               
               .. figure:: resources/descripcion.png
                  :align: center
@@ -66,7 +66,7 @@
 
        #. Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
 
-              .. resources/orden-de-compra-07
+              .. documento/orden-de-compra-07
               
               .. figure:: resources/tipodoc.png
                  :align: center
@@ -76,7 +76,7 @@
 
        #. Seleccione la fecha de la orden en el campo "**Fecha de la Orden**".
 
-              .. resources/orden-de-compra-08
+              .. documento/orden-de-compra-08
               
               .. figure:: resources/fechaord.png
                  :align: center
@@ -86,7 +86,7 @@
 
        #. Seleccione la fecha prometida en el campo "**Fecha Prometida**".
 
-              .. resources/orden-de-compra-09
+              .. documento/orden-de-compra-09
               
               .. figure:: resources/fechapro.png
                  :align: center
@@ -96,7 +96,7 @@
 
        #. Seleccione el socio del negocio en el campo "**Socio del Negocio**".
 
-              .. resources/orden-de-compra-10
+              .. documento/orden-de-compra-10
               
               .. figure:: resources/socio.png
                  :align: center
@@ -106,7 +106,7 @@
 
        #. Seleccione la dirección del socio del negocio en el campo "**Dirección del Socio del Negocio**".
 
-              .. resources/orden-de-compra-11
+              .. documento/orden-de-compra-11
               
               .. figure:: resources/direcsocio.png
                  :align: center
@@ -116,7 +116,7 @@
 
        #. Seleccione el almacén al que se le realizará la entrega en el campo "**Almacén**".
 
-              .. resources/orden-de-compra-12
+              .. documento/orden-de-compra-12
               
               .. figure:: resources/almacen.png
                  :align: center
@@ -126,7 +126,7 @@
 
        #. Seleccione la vía de entrega en el campo "**Vía de Entrega**".
 
-              .. resources/orden-de-compra-13
+              .. documento/orden-de-compra-13
               
               .. figure:: resources/entrega.png
                  :align: center
@@ -136,7 +136,7 @@
 
        #. Seleccione la regla de costo de flete en el campo "**Regla de Costo de Flete**".
 
-              .. resources/orden-de-compra-14
+              .. documento/orden-de-compra-14
               
               .. figure:: resources/regla.png
                  :align: center
@@ -146,7 +146,7 @@
 
        #. Seleccione la prioridad en el campo "**Prioridad**".
 
-              .. resources/orden-de-compra-15
+              .. documento/orden-de-compra-15
               
               .. figure:: resources/prioridad.png
                  :align: center
@@ -156,7 +156,7 @@
 
        #. Seleccione la lista de precios a utilizar en el campo "**Lista de Precios**".
 
-              .. resources/orden-de-compra-16
+              .. documento/orden-de-compra-16
               
               .. figure:: resources/lisprecios.png
                  :align: center
@@ -166,7 +166,7 @@
 
        #. Seleccione el agente de la compañía en el campo "**Agente Compañía**".
 
-              .. resources/orden-de-compra-17
+              .. documento/orden-de-compra-17
               
               .. figure:: resources/agente.png
                  :align: center
@@ -176,7 +176,7 @@
 
        #. Seleccione el termino de pago en el campo "**Termino de Pago**".
 
-              .. resources/orden-de-compra-18
+              .. documento/orden-de-compra-18
               
               .. figure:: resources/terpago.png
                  :align: center
@@ -190,7 +190,7 @@
 
 #. Seleccione la pestaña "**Línea Orden Compra**" y proceda al llenado de los campos correspondientes.
 
-       .. resources/orden-de-compra-19
+       .. documento/orden-de-compra-19
        
        .. figure:: resources/linea.png
           :align: center
@@ -204,7 +204,7 @@
 
        #. Seleccione el producto en el campo "**Producto**".
 
-              .. resources/orden-de-compra-20
+              .. documento/orden-de-compra-20
               
               .. figure:: resources/producto.png
                  :align: center
@@ -214,7 +214,7 @@
 
        #. Seleccione la cantidad de productos en el campo "**Cantidad**".
 
-              .. resources/orden-de-compra-21
+              .. documento/orden-de-compra-21
               
               .. figure:: resources/cantidad.png
                  :align: center
@@ -224,7 +224,7 @@
 
        #. Seleccione la unidad de medida en el campo "**UM**".
 
-              .. resources/orden-de-compra-22
+              .. documento/orden-de-compra-22
               
               .. figure:: resources/unidmedida.png
                  :align: center
@@ -234,7 +234,7 @@
 
        #. Introduzca el precio del producto en el campo "**Precio**".
 
-              .. resources/orden-de-compra-23
+              .. documento/orden-de-compra-23
               
               .. figure:: resources/precio.png
                  :align: center
@@ -244,7 +244,7 @@
 
        #. Seleccione el impuesto en el campo "**Impuesto**".
 
-              .. resources/orden-de-compra-24
+              .. documento/orden-de-compra-24
               
               .. figure:: resources/impuesto.png
                  :align: center
@@ -258,7 +258,7 @@
 
 #. Regrese a la ventana principal "**Orden de Compra**" y seleccione la opción "**Completar**" ubicada en el inferior del documento.
 
-       .. resources/orden-de-compra-25
+       .. documento/orden-de-compra-25
        
        .. figure:: resources/ventanaycompletar.png
           :align: center

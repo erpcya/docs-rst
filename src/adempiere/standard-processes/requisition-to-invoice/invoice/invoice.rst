@@ -1,11 +1,11 @@
-.. _intro/why:
+.. _documento/documento-por-pagar:
 
 **Documentos por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Ubique en el menú de ADempiere la ventana "**Documentos por Pagar**", adjunto imagen para referencia.
 
-   .. intro/why-01
+   .. documento/documento-por-pagar-01
    
    .. figure:: resources/menufac.png
       :align: center
@@ -15,7 +15,7 @@
 
 #. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
 
-   .. intro/why-02
+   .. documento/documento-por-pagar-02
    
    .. figure:: resources/regnuevo.png
       :align: center
@@ -25,7 +25,7 @@
 
    #. Seleccione la organización en el campo "**Organización**".
 
-      .. intro/why-03
+      .. documento/documento-por-pagar-03
       
       .. figure:: resources/organizacion.png
          :align: center
@@ -35,17 +35,17 @@
 
    #. Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
    
-      .. intro/why-04
+      .. documento/documento-por-pagar-04
       
       .. figure:: resources/tidoc.png
-         :align:center
+         :align: center
          :alt: Campo Tipo de Documento
 
          Imagen 4. Campo Tipo de Documento
 
    #. Introduzca el número del documento en el campo "**No. de Documento**".
 
-      .. intro/why-05
+      .. documento/documento-por-pagar-05
       
       .. figure:: resources/nudoc.png
          :align: center
@@ -55,7 +55,7 @@
 
    #. Seleccione la fecha de la facturación en el campo "**Fecha Facturación**".
 
-      .. intro/why-06
+      .. documento/documento-por-pagar-06
       
       .. figure:: resources/fefac.png
          :align: center
@@ -65,7 +65,7 @@
 
    #. Seleccione la fecha contable en el campo "**Fecha Contable**".
 
-      .. intro/why-07
+      .. documento/documento-por-pagar-07
       
       .. figure:: resources/fecon.png
          :align: center
@@ -75,7 +75,7 @@
 
    #. Seleccione el socio del negocio en el campo "**Socio del Negocio**".
 
-      .. intro/why-08
+      .. documento/documento-por-pagar-08
       
       .. figure:: resources/socio.png
          :align: center
@@ -85,7 +85,7 @@
 
    #. Seleccione la dirección del socio del negocio en el campo "**Dirección del Socio del Negocio**".
 
-      .. intro/why-09
+      .. documento/documento-por-pagar-09
       
       .. figure:: resources/disocio.png
          :align: center
@@ -95,7 +95,7 @@
 
 #. Seleccione el icono "**Guardar**" de la barra de herramientas para guardar los cambios realizados.
 
-   .. intro/why-10
+   .. documento/documento-por-pagar-10
    
    .. figure:: resources/guardarfac.png
       :align: center
@@ -105,7 +105,7 @@
 
 #. Seleccione la pestaña "**Línea de Factura**" y proceda al llenado de los campos correspondientes.
 
-   .. intro/why-11
+   .. documento/documento-por-pagar-11
    
    .. figure:: resources/linea.png
       :align: center
@@ -115,7 +115,7 @@
 
    #. Seleccione el producto en el campo "**Producto**".
 
-      .. intro/why-12
+      .. documento/documento-por-pagar-12
       
       .. figure:: resources/producto.png
          :align: center
@@ -125,7 +125,7 @@
 
    #. Seleccione la cantidad de productos en el campo "**Cantidad**".
 
-      .. intro/why-13
+      .. documento/documento-por-pagar-13
       
       .. figure:: resources/cantidad.png
          :align: center
@@ -135,7 +135,7 @@
 
    #. Seleccione la unidad de medida en el campo "**UM**".
 
-      .. intro/why-14
+      .. documento/documento-por-pagar-14
       
       .. figure:: resources/um.png
          :align: center
@@ -145,7 +145,7 @@
 
    #. Introduzca el precio del producto en el campo "**Precio**".
 
-      .. intro/why-15
+      .. documento/documento-por-pagar-15
       
       .. figure:: resources/precio.png
          :align: center
@@ -155,7 +155,7 @@
 
    #. Seleccione el impuesto del documento en el campo "**Impuesto**".
 
-      .. intro/why-16
+      .. documento/documento-por-pagar-16
       
       .. figure:: resources/impuesto.png
          :align: center
@@ -165,7 +165,7 @@
 
 #. Guarde los cambios realizados seleccionando el icono "**Guardar**" de la barra de herramientas de ADempiere.
 
-   .. intro/why-17
+   .. documento/documento-por-pagar-17
    
    .. figure:: resources/guardarli.png
       :align: center
@@ -175,7 +175,7 @@
 
 #. Regrese a la ventana principal "**Factura**" y seleccione la opción "**Completar**" ubicado en la parte inferior del documento.
 
-   .. intro/why-18
+   .. documento/documento-por-pagar-18
    
    .. figure:: resources/ventanaycompletar.png
       :align: center
@@ -185,7 +185,7 @@
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
-   .. intro/why-19
+   .. documento/documento-por-pagar-19
    
    .. figure:: resources/completar.png
       :align: center
