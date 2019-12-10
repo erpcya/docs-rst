@@ -1,4 +1,4 @@
-.. _resources/conciliación-automática-01: resources/menuimportacion.png
+.. _Menú de ADempiere: resources/menuimportacion.png
 
    
 
@@ -9,7 +9,7 @@ Un extracto bancario es un estado de cuenta generado por un banco determinado ut
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión del Sistema**", luego seleccione la carpeta "**Datos**", finalmente seleccione la carpeta "**Importar Datos**", por último seleccione el proceso "**Carga de Estado de Cuentas**" y proceda al llenado de los campos correspondientes.
 
-resources/conciliación-automática-01_.
+.. Menú de ADempiere_.
 
 Imagen 1. Menú de ADempiere
 
