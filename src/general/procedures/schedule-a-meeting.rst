@@ -3,6 +3,14 @@
 **Acordar una Reunión**
 =======================
 
+.. documento/acordar-reunión-01
+
+.. figure:: resources/meeting.png
+   :align: center
+   :alt: Convert Video
+
+   Imagen 1. Convert Video
+
 |Convert Video| 
 
 **Justificación** 
@@ -30,9 +38,20 @@ Las reuniones deben tomarse como una herramienta para aclarar cualquier duda rel
 
 A pesar de las múltiples herramientas que posee `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ siempre se debe utilizar el `Open Project <http://project.erpya.com/>`__ para agendar una reunión, si desconoce la forma para crear una reunión puede ver el siguiente gif
 
-|Acordar Reunión|
+.. documento/acordar-reunión-02
 
-Si desea enviar una notificación por correo desde la agenda lo puede hacer presionando el botón *Enviar para Revisión* |Enviar para Revisar|
+.. figure:: resources/create-new-meeting-open-project.gif
+   :align: center
+   :alt: Convert Video
+
+   Video 1. Convert Video
+
+Si desea enviar una notificación por correo desde la agenda lo puede hacer presionando el botón *Enviar para Revisión* 
+.. documento/acordar-reunión-03
+
+.. figure:: resources/send-to-review-calendar.png
+   :align: center
+   :alt: Enviar para Revisar
 
 **¿De qué manera se debe agendar una reunión?**
 -----------------------------------------------
@@ -81,6 +100,4 @@ Para el caso de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ es 
 
 **Como escriben los autores de Reinicia, cada minuto que evitas pasar en una reunión es un minuto en el que puedes hacer trabajo de verdad. O, mejor, en irte a casa a tu hora.**
 
-.. |Convert Video| image:: resources/meeting.png
-.. |Acordar Reunión| image:: resources/create-new-meeting-open-project.gif
-.. |Enviar para Revisar| image:: resources/send-to-review-calendar.png
+
