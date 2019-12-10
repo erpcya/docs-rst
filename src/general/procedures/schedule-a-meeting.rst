@@ -32,8 +32,6 @@ A pesar de las múltiples herramientas que posee `E.R.P. Consultores y Asociados
 
 |Acordar Reunión|
 
-   Video 1. Convert Video
-
 Si desea enviar una notificación por correo desde la agenda lo puede hacer presionando el botón *Enviar para Revisión* |Enviar para Revisar|
 
 **¿De qué manera se debe agendar una reunión?**
