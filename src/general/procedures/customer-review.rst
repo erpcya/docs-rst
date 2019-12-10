@@ -1,10 +1,10 @@
-.. |Convert Video| image:: resources/customer-meeting.jpeg
+.. |Convert Video1| image:: resources/customer-meeting.jpeg
 .. |Convert Video| image:: resources/smart.png
 
 **Revisión de Cambios con cliente**
 ===================================
 
-|Convert Video| 
+|Convert Video1| 
 
 **Justificación**
 -----------------
