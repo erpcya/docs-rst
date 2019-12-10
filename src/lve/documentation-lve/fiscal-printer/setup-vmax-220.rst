@@ -1,3 +1,5 @@
+.. _documento/configuración-impresora:
+
 **Configuración de Impresora Fiscal VMax 220 para Usar con ADempiere**
 ======================================================================
 
@@ -23,26 +25,35 @@ Configurar la impresora requiere los siguientes pasos:
 
 #. Ingresar a ADempiere con el Rol asignado correspondiente.
 
-.. img:: resorces/login.png
-   :alt: Inicio de Sesión
+        .. documento/configuración-impresora-01
 
-   Inicio de Sesión
+        .. figure:: resorces/login.png
+           :align: center
+           :alt: Inicio de Sesión
+
+           Imagen 1. Inicio de Sesión
 
 #. Posicionarse en el menú de ADempiere.
 
 #. Ingresar al directorio **Administración de Sistema** / **ReglasGenerales** / **Configuración de Dispositivo**.
 
-        .. img:: resorces/setup-menu.png
+        .. documento/configuración-impresora-02
+        
+        .. figure:: resorces/setup-menu.png
+           :align: center
            :alt: Menú Fiscal
 
-           Menú Fiscal
+           Imagen 2. Menú Fiscal
 
 #. Abrir la Ventana Configuración de Dispositivo.
 
-        .. img:: resorces/device-configuration.png
+        .. documento/configuración-impresora-03
+        
+        .. figure:: resorces/device-configuration.png
+           :align: center
            :alt: Configuración de Dispositivo
 
-           Configuración de Dispositivo
+           Imagen 3. Configuración de Dispositivo
 
 #. Crear un Nuevo Registro
 
@@ -71,10 +82,13 @@ Se desplegara una ventana donde se debe seleccionar el directorio de instalació
     :param Spooler Folder: C:\Program Files\SpoolerVmax.
     :param Spooler App: epsSpoolerVmax.exe. 
 
-.. img:: resorces/device-configuration-dialog.png
-   :alt: Diálogo de Configuracion de Dispositivo
+        .. documento/configuración-impresora-04
 
-   Diálogo de Configuracion de Dispositivo
+        .. figure:: resorces/device-configuration-dialog.png
+           :align: center
+           :alt: Diálogo de Configuracion de Dispositivo
+
+           Imagen 4. Diálogo de Configuracion de Dispositivo
 
 Crear el nuevo Dispositivo (impresora):
 ---------------------------------------
@@ -109,10 +123,13 @@ Agregando los siguientes Valores en sus correspondientes campos:
 | Descripción | Descripción |
 +-------------+-------------+
 
-.. img:: resorces/device.png
-   :alt: Dispositivo
+        .. documento/configuración-impresora-05
 
-   Dispositivo
+        .. figure:: resorces/device.png
+           :align: center
+           :alt: Dispositivo
+
+           Imagen 5. Dispositivo
 
 Configuración de uso de Dispositivo:
 ------------------------------------
@@ -133,10 +150,13 @@ Luego de los pasos anteriores es necesario acceder a la Pestaña Configuración 
 | Descripción                    | Breve descripción de la funcionalidad   |
 +--------------------------------+-----------------------------------------+
 
-.. img:: resorces/device-setup.png
-   :alt: Configuración de uso Dispositivo
+        .. documento/configuración-impresora-06
 
-   Configuración de uso Dispositivo
+        .. figure:: resorces/device-setup.png
+           :align: center
+           :alt: Configuración de uso Dispositivo
+
+           Imagen 6. Configuración de uso Dispositivo
 
 .. note:: 
 

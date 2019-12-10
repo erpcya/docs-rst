@@ -1,3 +1,5 @@
+.. _documento/errores-impresora:
+
 **Errores comunes Impresora Fiscal**
 ====================================
 
@@ -12,35 +14,47 @@ Para Hacer un diagnostico de lo que ocurre lo principal es iniciar desde la cone
 
 #. Adaptador USB-SERIAL:
 
-   .. img:: resorces/usb-serial-adapter.jpg
-      :alt: Adaptador USB-Serial
+      .. documento/errores-impresora-01
+   
+      .. figure:: resorces/usb-serial-adapter.jpg
+         :align: center
+         :alt: Adaptador USB-Serial
 
-      Adaptador USB-Serial
+         Imagen 1. Adaptador USB-Serial
 
    Verificar Drivers del dispositivo al conectar el Adaptador, esto se hace desde el administrador de dispositivos, allí verificar que se conecto un nuevo puerto COM ejemplo: "**COM1**".
 
-   .. img:: resorces/com-port.png
-      :alt: Driver Instalado Correctamente
+      .. documento/errores-impresora-02
+   
+      .. figure:: resorces/com-port.png
+         :align: center
+         :alt: Driver Instalado Correctamente
 
-      Driver Instalado Correctamente
+         Imagen 2. Driver Instalado Correctamente
 
    Si se conecto y no se puede identificar un dispositivo, es decir, ningún dispositivo posee "**COM**" en su nombre, debe instalarse nuevamente los controladores para la correcta comunicación con el Hardware.
 
 #. Conexión de Cable Serie:
 
-   .. img:: resorces/ciscoconsolecable.jpg
-      :alt: Cable Conexión Serial
+      .. documento/errores-impresora-03
+   
+      .. figure:: resorces/ciscoconsolecable.jpg
+         :align: center
+         :alt: Cable Conexión Serial
 
-      Cable Conexión Serial
+         Imagen 3. Cable Conexión Serial
 
    En esté caso observar si la conexión entre el adaptador y el cable, a través del conector DB9 este hecha de manera correcta.
 
 #. Posición en la que esta el conector RJ45:
 
-   .. img:: resorces/rear-view-printer.png
-      :alt: Parte Posterior de La Impresora
+      .. documento/errores-impresora-04
+   
+      .. figure:: resorces/rear-view-printer.png
+         :align: center
+         :alt: Parte Posterior de La Impresora
 
-      Parte Posterior de La Impresora
+         Imagen 4. Parte Posterior de La Impresora
 
 Comprobar que el conector RJ45 este en el puerto de la impresora marcado con las Siglas "**PC**" en la parte posterior de la impresora.
 
@@ -110,11 +124,14 @@ Primer caso Impreso Correctamente a través de la impresora y Factura no Complet
 ------------------------------------------------------------------------------------------------
 
 Existe un proceso "**Autorizar Documento Fiscal**" para reactivar el completar el documento ADempiere, este se usa de la siguiente manera:
+      
+      .. documento/errores-impresora-05
 
-.. img:: resorces/re-print.png
-   :alt: Autorizar Reimpresión
+      .. figure:: resorces/re-print.png
+         :align: center
+         :alt: Autorizar Reimpresión
 
-   Autorizar reimpresión
+         Imagen 5. Autorizar reimpresión
 
 El primer campo de la ventana desplegada sirve para seleccionar el Documento a reimprimir, mientras que el segundo permite elegir la acción sobre el documento.
 
@@ -127,11 +144,14 @@ El primer campo de la ventana desplegada sirve para seleccionar el Documento a r
 +-----------------------------+
 | Reimpresión                 |
 +-----------------------------+
+      
+      .. documento/errores-impresora-06
 
-.. img:: resorces/re-print-window.png
-   :alt: Autorizar Reimpresión
+      .. figure:: resorces/re-print-window.png
+         :align: center
+         :alt: Autorizar Reimpresión
 
-   Autorizar reimpresión
+         Imagen 6. Autorizar reimpresión
 
 Para el caso actual debe usarse la opción "**Completar el Documento(Sin Impresión)**". Esta opción permite completar el documento existente en ADempiere y de esta manera generar el documento, que respalde el que se encuentra impreso.
 
@@ -139,11 +159,14 @@ Segundo caso la Factura impresa esta Anulada pero se encuentra Completada Correc
 -----------------------------------------------------------------------------------------------------
 
 Se requiere el Aplicar el Proceso "**Autorizar Documento Fiscal**" a la factura no generada, seleccionando la opción Anular.
+      
+      .. documento/errores-impresora-07
 
-.. img:: resorces/re-print.png
-   :alt: Autorizar Reimpresión
+      .. figure:: resorces/re-print.png
+         :align: center
+         :alt: Autorizar Reimpresión
 
-   Autorizar reimpresión
+         Imagen 7. Autorizar reimpresión
 
 En campo de la ventana seleccionar el Documento a anular, en el segundo permite elegir la acción anular sobre el documento.
 
@@ -156,28 +179,37 @@ En campo de la ventana seleccionar el Documento a anular, en el segundo permite 
 +-----------------------------+
 | Reimpresión                 |
 +-----------------------------+
+      
+      .. documento/errores-impresora-08
 
-.. img:: resorces/re-print-window.png
-   :alt: Autorizar Reimpresión
+      .. figure:: resorces/re-print-window.png
+         :align: center
+         :alt: Autorizar Reimpresión
 
-   Autorizar reimpresión
+         Imagen 8. Autorizar reimpresión
 
 Esto se debe hacer para evitar que el documento impreso anulado tenga una referencia generada en ADempiere con un estado exitoso.
+      
+      .. documento/errores-impresora-09
 
-.. img:: resorces/reversedocadempiere.png
-   :alt: Resultado del proceso
+      .. figure:: resorces/reversedocadempiere.png
+         :align: center
+         :alt: Resultado del proceso
 
-   Resultado del proceso
+         Imagen 9. Resultado del proceso
 
 Tercer Caso Completado Correctamente en ADempiere pero no se realiza la impresión
 ---------------------------------------------------------------------------------
 
 Cuando esto sucede se debe aplicar el mismo proceso de "**Autorizar Documento Fiscal**" , utilizando la opción "**Reimprimir**".
+      
+      .. documento/errores-impresora-10
 
-.. img:: resorces/re-print-window.png
-   :alt: Autorizar Reimpresión
+      .. figure:: resorces/re-print-window.png
+         :align: center
+         :alt: Autorizar Reimpresión
 
-   Autorizar reimpresión
+         Imagen 10. Autorizar reimpresión
 
 En campo de la ventana seleccionar el Documento a reimprimir, en el segundo permite elegir la acción Reimpresión sobre el documento.
 
@@ -197,15 +229,21 @@ Cuarto Caso El Documento impreso quedo incompleto y en ADempiere el Documento ti
 ----------------------------------------------------------------------------------------------------------------
 
 El documento en ADempiere es necesario Anularlo. La forma de solventar esta falla es proceder en dos etapas en la primera se aplica el proceso con la factura afectada seleccionando el parámetro "**Completar (Sin Impresión)**".
+      
+      .. documento/errores-impresora-11
 
-.. img:: resorces/re-print-window.png
-   :alt: Autorizar Reimpresión
+      .. figure:: resorces/re-print-window.png
+         :align: center
+         :alt: Autorizar Reimpresión
 
-   Autorizar reimpresión
+         Imagen 11. Autorizar reimpresión
 
 En la segunda etapa se procede aplicar el proceso tomando en cuenta el numero de factura generado por la primera etapa, se le se aplica el proceso seleccionando el parámetro "**Anulación**".
+      
+      .. documento/errores-impresora-12
 
-.. img:: resorces/reversedocadempiere.png
-   :alt: Resultado del proceso
+      .. figure:: resorces/reversedocadempiere.png
+         :align: center
+         :alt: Resultado del proceso
 
-   Resultado del proceso
+         Imagen 12. Resultado del proceso
