@@ -30,11 +30,7 @@ Las reuniones deben tomarse como una herramienta para aclarar cualquier duda rel
 
 A pesar de las múltiples herramientas que posee `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ siempre se debe utilizar el `Open Project <http://project.erpya.com/>`__ para agendar una reunión, si desconoce la forma para crear una reunión puede ver el siguiente gif
 
-.. documento/acordar-reunión-01
-
-.. figure:: resources/create-new-meeting-open-project.gif
-   :align: center
-   :alt: Convert Video
+|Acordar Reunión|
 
    Video 1. Convert Video
 
@@ -60,32 +56,33 @@ Normalmente las conversaciones entre `E.R.P. Consultores y Asociados, C.A. <http
 **¿Qué se debe tomar en cuenta antes de la reunión?**
 -----------------------------------------------------
 
-1. Una agenda clara de los puntos a tratar: Es muy importante tener claro cual es la agenda de la reunión, esto ayudará a los participantes a prepararse para no tomar tiempo de la reunión en repaso de tareas olvidadas
+#. Una agenda clara de los puntos a tratar: Es muy importante tener claro cual es la agenda de la reunión, esto ayudará a los participantes a prepararse para no tomar tiempo de la reunión en repaso de tareas olvidadas
 
-2. El objetivo final de la reunión: Es muy bueno que cada uno de los participantes pueda conocer lo que se logrará al finalizar la reunión (Toma de decisión entre otros).
+#. El objetivo final de la reunión: Es muy bueno que cada uno de los participantes pueda conocer lo que se logrará al finalizar la reunión (Toma de decisión entre otros).
 
-3. El tiempo máximo de la reunión: Permitirá planificar el trabajo de cada uno de los participantes, hay personas que tienen actividades con un horario estricto y no se pueden solapar con una reunión con exceso de tiempo.
+#. El tiempo máximo de la reunión: Permitirá planificar el trabajo de cada uno de los participantes, hay personas que tienen actividades con un horario estricto y no se pueden solapar con una reunión con exceso de tiempo.
 
 **¿Cuanto es el tiempo máximo para una reunión?**
 -------------------------------------------------
 
 Las reglas de Percolate para las reuniones: 
 
-1. ¿Realmente hace falta una reunión? 
+#. ¿Realmente hace falta una reunión? 
 
-2. Por norma, las reuniones deben durar 15 minutos. 
+#. Por norma, las reuniones deben durar 15 minutos. 
 
-3. Sin espectadores. 
+#. Sin espectadores. 
 
-4. Di de entrada tu objetivo. 
+#. Di de entrada tu objetivo. 
 
-5. Decide tareas y asígnalas. 
+#. Decide tareas y asígnalas. 
 
-6. No traigas ordenadores ni teléfonos).
+#. No traigas ordenadores ni teléfonos).
 
 Para el caso de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ es conveniente que las reuniones no excedan los **45 minutos**, las reuniones extensas solo crean cansancio y en lugar de ayudar a avanzar solo generan un ambiente que no ayuda a la toma de decisiones.
 
 **Como escriben los autores de Reinicia, cada minuto que evitas pasar en una reunión es un minuto en el que puedes hacer trabajo de verdad. O, mejor, en irte a casa a tu hora.**
 
 .. |Convert Video| image:: resources/meeting.png
+.. |Acordar Reunión| image:: resources/create-new-meeting-open-project.gif
 .. |Enviar para Revisar| image:: resources/send-to-review-calendar.png
