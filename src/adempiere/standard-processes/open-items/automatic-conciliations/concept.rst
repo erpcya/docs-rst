@@ -1,5 +1,5 @@
 .. _resources/conciliación-automática:
-\justify
+justify
 
 **Importación del Extracto Bancario**
 -------------------------------------
