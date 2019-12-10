@@ -11,8 +11,6 @@
 
    Imagen 1. Convert Video
 
-|Convert Video| 
-
 **Justificación** 
 -----------------
 
