@@ -1,5 +1,5 @@
 .. |Reunion| image:: resources/customer-meet.png
-.. |Smart| image:: resources/smart.png
+.. |Reunion| image:: resources/smart.png
 
 **Revisión de Cambios con cliente**
 ===================================
@@ -56,7 +56,7 @@ Ahora bien, ¿Qué significa esto?
 
 - **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. 
 
-|Smart|
+|Reunion|
 
 Para el cumpliento de la metodología y definición de objetivos inteligentes,se deben plantear las siguientes interrogantes para cada una de las cinco caracteristicas:
 
