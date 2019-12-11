@@ -1,17 +1,11 @@
+.. |Reunión| image:: resources/customer-meet.png
+.. |Smart| image:: resources/smart.png
+
 .. _documento/revisión-cambios:
 
 
-**Revisión de Cambios con cliente**
-===================================
-
-.. documento/revisión-cambios-01
-
-.. figure:: resources/customer-meet.png
-   :align: center
-   :scale: 80 %
-   :alt: Reunión
-   
-   Imagen 1. Reunión
+**Revisión de Cambios con cliente**       |Reunión|
+=================================== 
 
 **Justificación**
 -----------------
@@ -62,16 +56,7 @@ Ahora bien, ¿Qué significa esto?
 
 - **R** (Relevant) – **Relevante:** Debe ser factible y razonable el logro con respecto a los recursos invertidos y plazos estimados.
 
-- **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. 
-
-.. documento/revisión-cambios-02
-
-.. figure:: resources/smart.png
-   :align: center
-   :scale: 80 %
-   :alt: Smart
-   
-   Imagen 2. Smart
+- **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. |Smart|
 
 Para el cumpliento de la metodología y definición de objetivos inteligentes,se deben plantear las siguientes interrogantes para cada una de las cinco caracteristicas:
 
