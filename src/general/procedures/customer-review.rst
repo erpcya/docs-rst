@@ -1,4 +1,5 @@
-.. _documento/revision-cambios:
+.. |Reunión| image:: resources/customer-meet.png
+.. |Smart| image:: resources/smart.png
 
 **Revisión de Cambios con cliente**
 ===================================
@@ -165,5 +166,4 @@ Unicamente despúes de tener la aprobación del cliente `Confirmación del Clien
 Cuando el cliente haya aprobado la solución planteada en el gestor de proyecto `Open Project <http://project.erpya.com/>`__ y posteriormente la tarea se encuentra en la fase previa al desarrollo, `Inicio del Desarrollo <https://docs.erpya.com/general/procedures/customer-review/#inicio-del-desarrollo>`__, el responsable de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ está obligado a cambiar el estado actual, **Por Definir** al estado **En Espera (Técnico)**.
 
 
-.. |Reunión| image:: resources/customer-meet.png
-.. |Smart| image:: resources/smart.png
+
