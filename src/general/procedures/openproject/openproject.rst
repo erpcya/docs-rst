@@ -29,6 +29,7 @@ El presente documento elaborado por la empresa ERPyA pretende explicar de forma 
    |Pantalla Principal| 
  
    Imagen 1. Pantalla Principal
+   
 
 #. En el lado superior derecho de la pantalla se encuentra la opción "**Ingresar**", misma que debe seleccionar para que se desplacen los campos de acceso a la herramienta. 
 
