@@ -1,9 +1,9 @@
-.. _documento/revisión-cambios:
+.. _documento/revision-cambios:
 
 **Revisión de Cambios con cliente**
 ===================================
 
-      .. documento/revisión-cambios-01
+      .. documento/revision-cambios-01
 
       .. figure:: resources/customer-meeting.jpeg
          :align: center
@@ -61,7 +61,7 @@ Ahora bien, ¿Qué significa esto?
 
 - **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. 
 
-      .. documento/revisión-cambios-02
+      .. documento/revision-cambios-02
 
       .. figure:: resources/smart.png
          :align: center
