@@ -7,7 +7,6 @@
 .. documento/revisión-cambios-01
 
 .. figure:: resources/customer-meet.png
-   :align: center
    :scale: 100 %
    :alt: Reunión
    
@@ -66,7 +65,6 @@ Ahora bien, ¿Qué significa esto?
 .. documento/revisión-cambios-02
 
 .. figure:: resources/smart.png
-   :align: center
    :scale: 100 %
    :alt: Smart
    
