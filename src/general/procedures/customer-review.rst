@@ -1,4 +1,4 @@
-.. |Reunión| image:: resources/customer-meet.png
+.. |Reunión| image:: resources/customer-meet.png :align: center 
 .. |Smart| image:: resources/smart.png
 
 .. _documento/revisión-cambios:
@@ -10,6 +10,8 @@
 
 
  |Reunión| 
+
+ Imagen 1. Reunión
 
 
 **Justificación**
