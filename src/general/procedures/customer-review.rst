@@ -1,4 +1,4 @@
-.. _documento/revision-cambios:
+.. _documento/socio-proveedor:
 
 **Revisión de Cambios con cliente**
 ===================================
