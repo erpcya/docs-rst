@@ -8,7 +8,7 @@ Esta sección está dedicada a las publicaciones de `E.R.P. Consultores y Asocia
     :maxdepth: 2
     :numbered:
 
-    openproject/index
+    openproject
     customer-review
     schedule-a-meeting
     support-doc
