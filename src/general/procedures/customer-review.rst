@@ -4,9 +4,10 @@
 .. _documento/revisión-cambios:
 
 
-**Revisión de Cambios con cliente**      |Reunión|
+**Revisión de Cambios con cliente**      
 ===================================
 
+|Reunión|
 Imagen 1. Reunión
 
 **Justificación**
