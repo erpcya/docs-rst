@@ -10,6 +10,7 @@ C.A. <http://erpya.com/>`__
 
 .. toctree::
     :maxdepth: 2
+    :numbered:
 
     documentation-lve/index
 
