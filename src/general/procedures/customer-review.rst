@@ -3,13 +3,13 @@
 **Revisión de Cambios con cliente**
 ===================================
 
-      .. documento/socio-proveedor-01
-      
-      .. figure:: img/menu.png
-         :align: center
-         :alt: Menú de ADempiere
+      .. documento/revisión-cambios-01
 
-         Imagen 1. Menú de ADempiere
+      .. figure:: resources/customer-meeting.jpeg
+         :align: center
+         :alt: Reunión
+
+         Imagen 1. Reunión
 
 **Justificación**
 -----------------
@@ -61,13 +61,13 @@ Ahora bien, ¿Qué significa esto?
 
 - **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. 
 
-      .. documento/socio-proveedor-01
-      
-      .. figure:: img/menu.png
-         :align: center
-         :alt: Menú de ADempiere
+      .. documento/revisión-cambios-02
 
-         Imagen 1. Menú de ADempiere
+      .. figure:: resources/smart.png
+         :align: center
+         :alt: Smart
+
+         Imagen 2. Smart
 
 Para el cumpliento de la metodología y definición de objetivos inteligentes,se deben plantear las siguientes interrogantes para cada una de las cinco caracteristicas:
 
