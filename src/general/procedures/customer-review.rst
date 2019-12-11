@@ -16,8 +16,6 @@
 **Justificación**
 -----------------
 
-.. \justify
-
 Antes de realizar algún cambio solicitado por el cliente es muy importante conocer si cumple realmente con el alcance esperado por el cliente, si cubre en su totalidad la necesidad presente, en función de esto se debe implementar un método que permita evitar ambigüedad en la solicitud, pese a la nimiedad del cambio se convierte en una prioridad primaria la transparencia de la actividad por realizar.
 
 Visto de otra forma, el objetivo preciso inicialmente no es otra cosa que definir de forma clara e inequívoca el objetivo perseguido en ambas partes con el desarrollo y teniendo claro que las consecuencias marcarán la finalización con éxito de este y así mismo la satisfacción de las partes involucradas.
