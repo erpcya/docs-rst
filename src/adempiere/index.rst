@@ -7,7 +7,7 @@ C.A. <http://erpya.com/>`__
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :numbered:
 
     vertical/index
