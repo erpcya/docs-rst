@@ -3,13 +3,13 @@
 **Revisión de Cambios con cliente**
 ===================================
 
-      .. documento/revision-cambios-02
+.. documento/revision-cambios-01
 
-      .. figure:: resources/smart.png
-         :align: center
-         :alt: Smart
+.. figure1:: resources/customer-meet.png
+   :align: center
+   :alt: Reunión
 
-         Imagen 2. Smart
+   Imagen 1. Reunión
 
 **Justificación**
 -----------------
