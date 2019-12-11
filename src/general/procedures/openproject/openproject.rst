@@ -3,7 +3,7 @@
 .. |Ingresar a OpenProject| image:: resources/ingresar.png 
 .. |Interfaz Inicial| image:: resources/inicial.png
 .. |Barra Principal de OpenProject| image:: resources/barra.png
-.. |Menú Principal de OpenProject| image:: resources/proyecto.png 
+.. |Menú Principal de OpenProject| image:: resources/proyecto.png :align: center
 .. |Proyecto| image:: resources/selecproyecto.png
 .. |Interfaz del Proyecto| image:: resources/interfaz.png
 .. |Paquete de Trabajo| image:: resources/paquete.png
@@ -29,7 +29,7 @@ El presente documento elaborado por la empresa ERPyA pretende explicar de forma 
    |Pantalla Principal| 
  
    Imagen 1. Pantalla Principal
-   
+
 
 #. En el lado superior derecho de la pantalla se encuentra la opción "**Ingresar**", misma que debe seleccionar para que se desplacen los campos de acceso a la herramienta. 
 
