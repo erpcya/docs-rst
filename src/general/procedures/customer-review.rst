@@ -3,13 +3,13 @@
 **Revisión de Cambios con cliente**
 ===================================
 
-      .. documento/revision-cambios-01
+.. documento/acordar-reunión-01
 
-      .. figure:: resources/customer-meet1.png
-         :align: center
-         :alt: Reunión
+.. figure:: resources/meeting.png
+   :align: center
+   :alt: Acordar una Reunión
 
-         Imagen 1. Reunión
+   Imagen 1. Acordar Reunión
 
 **Justificación**
 -----------------
