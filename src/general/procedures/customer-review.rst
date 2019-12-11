@@ -60,6 +60,8 @@ Ahora bien, ¿Qué significa esto?
 
 - **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. |Smart|
 
+Imagen 2. Smart
+
 Para el cumpliento de la metodología y definición de objetivos inteligentes,se deben plantear las siguientes interrogantes para cada una de las cinco caracteristicas:
 
 - **S** (Specific) – **Específico:** ¿Qué quieres conseguir con el desarrollo?
