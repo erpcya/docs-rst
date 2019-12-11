@@ -2,9 +2,9 @@
 .. _standard-processes/requisition-to-invoice/purchase-order/direct-order:
 
 
-====
+===============
 Orden de Compra
-====
+===============
 
 Una orden de compra es un documento elaborado por el departamento de compras de una empresa determinada, contiene los productos y servicios que dicha empresa necesita, así como sus precios acordados. Una orden de compra es dirigida a un determinado socio de negocio tipo proveedor.
 

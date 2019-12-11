@@ -2,9 +2,9 @@
 .. _standard-processes/requisition-to-invoice/invoice:
 
 
-====
+====================
 Documentos por Pagar
-====
+====================
 
 Una factura en cuentas por pagar es el documento legal que representa una deuda contraída por la empresa u organización con un proveedor determinado, por la compra de productos y servicios que la misma necesita de forma directa o indirecta para realizar sus actividades, afectando economicamente a la misma.
 
