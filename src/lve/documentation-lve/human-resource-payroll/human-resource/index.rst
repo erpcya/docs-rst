@@ -8,7 +8,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
 es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
     :numbered:
 
     cash-refund/index
