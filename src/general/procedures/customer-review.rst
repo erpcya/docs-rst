@@ -1,10 +1,16 @@
-.. |Reunion| image:: resources/customer-meet.png
-.. |Reunion| image:: resources/smart.png
+.. _documento/revisión-cambios:
+
 
 **Revisión de Cambios con cliente**
 ===================================
 
-|Reunion|
+.. documento/revisión-cambios-01
+
+.. figure:: resources/customer-meet.png
+   :scale: 50 %
+   :alt: Reunión
+   
+   Reunión
 
 **Justificación**
 -----------------
@@ -56,7 +62,13 @@ Ahora bien, ¿Qué significa esto?
 
 - **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. 
 
-|Reunion|
+.. documento/revisión-cambios-02
+
+.. figure:: resources/smart.png
+   :scale: 50 %
+   :alt: Smart
+   
+   Smart
 
 Para el cumpliento de la metodología y definición de objetivos inteligentes,se deben plantear las siguientes interrogantes para cada una de las cinco caracteristicas:
 
