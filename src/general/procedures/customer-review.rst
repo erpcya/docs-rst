@@ -1,11 +1,11 @@
-.. _documento/socio-proveedor:
+.. _documento/revision-cambios:
 
 **Revisión de Cambios con cliente**
 ===================================
 
       .. documento/revision-cambios-01
 
-      .. figure:: resources/customer-meeting.jpeg
+      .. figure:: resources/meeting.jpeg
          :align: center
          :alt: Reunión
 
