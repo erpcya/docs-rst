@@ -1,4 +1,4 @@
-.. |Reunión| image:: resources/customer-meet.png
+.. Imagen 1. Reunión |Reunión| image:: resources/customer-meet.png
 .. |Smart| image:: resources/smart.png
 
 .. _documento/revisión-cambios:
@@ -7,7 +7,8 @@
 **Revisión de Cambios con cliente**      
 ===================================
 
-Imagen 1. Reunión :align: center |Reunión| 
+ |Reunión| 
+
 
 **Justificación**
 -----------------
