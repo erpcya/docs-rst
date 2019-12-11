@@ -7,8 +7,7 @@
 **Revisión de Cambios con cliente**      
 ===================================
 
-|Reunión|
-Imagen 1. Reunión
+|Reunión| Imagen 1. Reunión
 
 **Justificación**
 -----------------
