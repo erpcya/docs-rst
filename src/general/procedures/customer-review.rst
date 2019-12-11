@@ -7,7 +7,7 @@
 .. documento/revisión-cambios-01
 
 .. figure:: resources/customer-meet.png
-   :scale: 50 %
+   :scale: 100 %
    :alt: Reunión
    
    Reunión
@@ -65,7 +65,7 @@ Ahora bien, ¿Qué significa esto?
 .. documento/revisión-cambios-02
 
 .. figure:: resources/smart.png
-   :scale: 50 %
+   :scale: 100 %
    :alt: Smart
    
    Smart
