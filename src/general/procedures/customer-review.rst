@@ -9,6 +9,8 @@
 
 |Reunión|
 
+:align: center
+
 Imagen 1. Reunión
 
 **Justificación**
