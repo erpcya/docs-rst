@@ -9,6 +9,8 @@
 
 |Reunión|
 
+Imagen 1. Reunión
+
 **Justificación**
 -----------------
 
