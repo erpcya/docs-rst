@@ -1,4 +1,4 @@
-.. |Reunión| image:: resources/customer-meet.png :align: center 
+.. |Reunión| image:: resources/customer-meet.png 
 .. |Smart| image:: resources/smart.png
 
 .. _documento/revisión-cambios:
