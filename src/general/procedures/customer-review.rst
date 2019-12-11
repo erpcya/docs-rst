@@ -3,8 +3,13 @@
 **Revisión de Cambios con cliente**
 ===================================
 
-.. _documento/revision-cambios-02
+      .. documento/revision-cambios-02
 
+      .. figure:: resources/smart.png
+         :align: center
+         :alt: Smart
+
+         Imagen 2. Smart
 
 **Justificación**
 -----------------
