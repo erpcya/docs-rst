@@ -1,15 +1,19 @@
-.. |Reunion| image:: resources/customer-meeting.jpeg
-.. |Smart| image:: resources/smart.png
+.. _documento/revisión-cambios:
 
 **Revisión de Cambios con cliente**
 ===================================
 
-|Reunion| 
+.. documento/revisión-cambios
+
+.. figure:: resources/customer-meeting.jpeg
+   :align: center
+   :alt: Reunión
+
+   Imagen 1. Reunión
 
 **Justificación**
 -----------------
-Antes de realizar algún cambio
-solicitado por el cliente es muy importante conocer si cumple realmente con el alcance esperado por el cliente, si cubre en su totalidad la necesidad presente, en función de esto se debe implementar un método que permita evitar ambigüedad en la solicitud, pese a la nimiedad del cambio se convierte en una prioridad primaria la transparencia de la actividad por realizar.
+Antes de realizar algún cambio solicitado por el cliente es muy importante conocer si cumple realmente con el alcance esperado por el cliente, si cubre en su totalidad la necesidad presente, en función de esto se debe implementar un método que permita evitar ambigüedad en la solicitud, pese a la nimiedad del cambio se convierte en una prioridad primaria la transparencia de la actividad por realizar.
 
 Visto de otra forma, el objetivo preciso inicialmente no es otra cosa que definir de forma clara e inequívoca el objetivo perseguido en ambas partes con el desarrollo y teniendo claro que las consecuencias marcarán la finalización con éxito de este y así mismo la satisfacción de las partes involucradas.
 
@@ -28,9 +32,9 @@ En función de lo anteriormente expuesto, se establece el siguiente procedimient
 
 Consiste en la información proporcionada por el cliente la misma debe ser sólida, consistente y exenta de subjetividades, es decir, ir en busca de la transparencia es la finalidad de esta fase que se convierte en un elemento nuclear para la preparación y la iniciación del desarrollo, en ella se deben recabar los siguientes datos:
 
--  **Justificación:** Basta con una breve descripción de la problemática presente, y en relación con las motivaciones que impulsan la causa del desarrollo.
+- **Justificación:** Basta con una breve descripción de la problemática presente, y en relación con las motivaciones que impulsan la causa del desarrollo.
 
--  **Descripción del alcance de los entregables:** Consiste en exponer las características de los resultados esperados del desarrollo, reportes, ventanas, validaciones y todo producto esperado posterior al desarrollo, adicional a ello se espera en esta etapa la precisión de los casos de usos presentes en el requerimiento, con la finalidad de cubrir la necesidad, la omisión de los mismo ocasionará desconocimiento al momento de plantear la solución propuesta y por consiguiente la ambigüedad en el desarrollo.
+- **Descripción del alcance de los entregables:** Consiste en exponer las características de los resultados esperados del desarrollo, reportes, ventanas, validaciones y todo producto esperado posterior al desarrollo, adicional a ello se espera en esta etapa la precisión de los casos de usos presentes en el requerimiento, con la finalidad de cubrir la necesidad, la omisión de los mismo ocasionará desconocimiento al momento de plantear la solución propuesta y por consiguiente la ambigüedad en el desarrollo.
 
 **Asignación de tarea**
 ^^^^^^^^^^^^^^^^^^^^^^^
@@ -47,44 +51,50 @@ Para definir un desarrollo inicialmente es escencial conocer el alcance, esto de
 
 Ahora bien, ¿Qué significa esto?
 
--  **S** (Specific) – **Específico:** Tiene que estar claramente definida la solución sin ambigüedades
+- **S** (Specific) – **Específico:** Tiene que estar claramente definida la solución sin ambigüedades
 
--  **M** (measurable) – **Medible:** Debe ser medible cuantificablemete en horas,permitiendo evaluar el avance y el tiempo estimado de entrega.
+- **M** (measurable) – **Medible:** Debe ser medible cuantificablemete en horas,permitiendo evaluar el avance y el tiempo estimado de entrega.
 
--  **A** (Achievable) – **Alcanzable:** La ambición de un desarrollo no debe ser mayor a la realidad existente, debe contemplar una forma que posibilite alcanzar el objetivo, alineado con una estrategia motivadora.
+- **A** (Achievable) – **Alcanzable:** La ambición de un desarrollo no debe ser mayor a la realidad existente, debe contemplar una forma que posibilite alcanzar el objetivo, alineado con una estrategia motivadora.
 
--  **R** (Relevant) – **Relevante:** Debe ser factible y razonable el logro con respecto a los recursos invertidos y plazos estimados.
+- **R** (Relevant) – **Relevante:** Debe ser factible y razonable el logro con respecto a los recursos invertidos y plazos estimados.
 
--  **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. 
+- **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. 
 
-|Smart|
+.. documento/revisión-cambios
+
+.. figure:: resources/smart.png
+   :align: center
+   :alt: Smart
+
+   Imagen 2. Smart
 
 Para el cumpliento de la metodología y definición de objetivos inteligentes,se deben plantear las siguientes interrogantes para cada una de las cinco caracteristicas:
 
--  **S** (Specific) – **Específico:** ¿Qué quieres conseguir con el desarrollo?
+- **S** (Specific) – **Específico:** ¿Qué quieres conseguir con el desarrollo?
 
--  **M** (measurable) – **Medible:** ¿Qué indicadores se pueden utilizar para medir su eficiencia?
+- **M** (measurable) – **Medible:** ¿Qué indicadores se pueden utilizar para medir su eficiencia?
 
--  **A** (Achievable) – **Alcanzable:** ¿Es razonable la meta?
+- **A** (Achievable) – **Alcanzable:** ¿Es razonable la meta?
 
--  **R** (Relevant) – **Relevante:** ¿Por qué le interesa al cliente?
+- **R** (Relevant) – **Relevante:** ¿Por qué le interesa al cliente?
 
--  **T** (Time-related) – **A Tiempo:** ¿Cuándo se tiene que conseguir esta meta?
+- **T** (Time-related) – **A Tiempo:** ¿Cuándo se tiene que conseguir esta meta?
 
 **Asignación de Responsabilidades**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 Posterior a la verificación del requerimiento, `Verificación de Definición de la Solicitud <https://docs.erpya.com/general/procedures/customer-review/#verificacion-de-definicion-de-la-solicitud>`__, es necesario asignar responsables para el seguimiento,modelado, ejecución y cumplimiento del desarrollo, para ello hemos pensado en una matriz **RASCI** ejecutada en el gestor de proyecto `Open Project <http://project.erpya.com/>`__, esta matríz asigna responsable del seguimiento del desarrollo, de esta forma se distribuirá responsabilidades entre los participantes del desarrollo, adicionalmente definiremos límites en el alcance.
 
--  **R** (Responsible) – **Responsable:** Persona responsable de su ejecución por parte de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__, directamente, conjuntamente o supervisando al equipo.
+- **R** (Responsible) – **Responsable:** Persona responsable de su ejecución por parte de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__, directamente, conjuntamente o supervisando al equipo.
 
--  **A** (Accountable) – **Aprobador:** Persona confirma la solución planteada para dar inicio al desarrollo, aprueba el resultado posterior al desarrollo y da por concluida la tarea una vez considera que los objetivos han sido alcanzados.
+- **A** (Accountable) – **Aprobador:** Persona confirma la solución planteada para dar inicio al desarrollo, aprueba el resultado posterior al desarrollo y da por concluida la tarea una vez considera que los objetivos han sido alcanzados.
 
--  **S** (Support) – **Soporte:** Persona que da soporte durante la ejecución de la tarea aunque no necesariamente es responsable de ella.
+- **S** (Support) – **Soporte:** Persona que da soporte durante la ejecución de la tarea aunque no necesariamente es responsable de ella.
 
--  **C** (Consulted) – **Consultor:** Persona que orienta en el modelado durante la ejecución de la tarea aunque no necesariamente participa en la ejecución.
+- **C** (Consulted) – **Consultor:** Persona que orienta en el modelado durante la ejecución de la tarea aunque no necesariamente participa en la ejecución.
 
--  **I** (Informed) – **Informado:** Persona que debe estar informada de los avances y ejecución de la tarea, aunque no necesariamente participa en la ejecución.
+- **I** (Informed) – **Informado:** Persona que debe estar informada de los avances y ejecución de la tarea, aunque no necesariamente participa en la ejecución.
 
 **Cambiar el estado de la tarea**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -116,11 +126,11 @@ Al realizar la redacción es importante incluir lo que forma parte del alcance c
 
 Describa la funcionalidad a desarrollar incluyendo cualquier información de interés como:
 
--  Sistema Operativo donde funcionará
+- Sistema Operativo donde funcionará
 
--  Cómo se puede visualizar el cambio después de aplicarlo
+- Cómo se puede visualizar el cambio después de aplicarlo
 
--  Aspectos importantes que se deben considerar: Si es algo estrictamente necesario o si solo es una mejora de baja prioridad
+- Aspectos importantes que se deben considerar: Si es algo estrictamente necesario o si solo es una mejora de baja prioridad
 
 **Aclarar las implicaciones que tendrá el cambio**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -132,26 +142,26 @@ Debe ser específico en este punto ya que es muy importante que el cliente entie
 
 Posterior a la definición de la propuesta por parte de Soporte, `Definición de Solución <https://docs.erpya.com/general/procedures/customer-review/#definicion-de-la-solucion>`__ por parte de el responsable de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__, la tarea debe ser asignada al aprobador por parte del cliente, esperando del mismo la aprobación de la solución planteada ó rechazo de la misma:
 
--  **Aprobación**
+- **Aprobación**
 
-   -  **Soporte:** El Soporte solicitará en un comentario la aprobación de la tarea mediante un comentario realizando una pregunta concreta:
+   - **Soporte:** El Soporte solicitará en un comentario la aprobación de la tarea mediante un comentario realizando una pregunta concreta:
 
-      -  ***¿Está de acuerdo con el cambio propuesto?***
-      -  Asigna la tarea al Aprobador.
+      - **¿Está de acuerdo con el cambio propuesto?**
+      - Asigna la tarea al Aprobador.
 
-   -  **Aprobador:** El aprobador responderá la tarea aprobando la solución planteada con una respuesta concreta:
+   - **Aprobador:** El aprobador responderá la tarea aprobando la solución planteada con una respuesta concreta:
 
-      -  ***Estoy de acuerdo con el cambio propuesto***
-      -  Caso contrario, no será válida la aprobación del cambio, en consecuencia no iniciará el desarrollo hasta no aprobar siguiendo el protocolo.
+      - **Estoy de acuerdo con el cambio propuesto**
+      - Caso contrario, no será válida la aprobación del cambio, en consecuencia no iniciará el desarrollo hasta no aprobar siguiendo el protocolo.
 
--  **Rechazo**
+- **Rechazo**
 
-   -  **Soporte:** El Soporte solicitará en un comentario la aprobación de la tarea mediante un comentario realizando una pregunta concreta:
+   - **Soporte:** El Soporte solicitará en un comentario la aprobación de la tarea mediante un comentario realizando una pregunta concreta:
 
-      -  ***¿Está de acuerdo con el cambio propuesto?***
-      -  Asigna la tarea al Aprobador.
+      - **¿Está de acuerdo con el cambio propuesto?**
+      - Asigna la tarea al Aprobador.
 
-   -  **Aprobador:** El aprobador responderá la tarea rechazando la solución planteada, indicando la causa por la cual no es valida, en tal sentido será necesaria la especificación o de ser necesaria la redefinición del requerimiento, preveendo la transparencia del mismo, este caso conlleva a la re-definición de la propuesta por parte de Soporte, `Definición de Solución <https://docs.erpya.com/general/procedures/customer-review/#definición-de-la-solicitud>`__, volviendo a iterar en el proceso de definición hasta conseguir la aprobación que da paso a la siguiente etapa.
+   - **Aprobador:** El aprobador responderá la tarea rechazando la solución planteada, indicando la causa por la cual no es valida, en tal sentido será necesaria la especificación o de ser necesaria la redefinición del requerimiento, preveendo la transparencia del mismo, este caso conlleva a la re-definición de la propuesta por parte de Soporte, `Definición de Solución <https://docs.erpya.com/general/procedures/customer-review/#definición-de-la-solicitud>`__, volviendo a iterar en el proceso de definición hasta conseguir la aprobación que da paso a la siguiente etapa.
 
 **Inicio del desarrollo**
 -------------------------
