@@ -8,7 +8,7 @@
 
 .. figure:: resources/customer-meet.png
    :align: center
-   :scale: 75 %
+   :scale: 80 %
    :alt: Reunión
    
    Imagen 1. Reunión
@@ -67,7 +67,7 @@ Ahora bien, ¿Qué significa esto?
 
 .. figure:: resources/smart.png
    :align: center
-   :scale: 75 %
+   :scale: 80 %
    :alt: Smart
    
    Imagen 2. Smart
