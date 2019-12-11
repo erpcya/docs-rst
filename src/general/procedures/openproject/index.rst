@@ -2,9 +2,9 @@
 .. _procedures/openproject:
 
 
-====
+============
 Open Project
-====
+============
 
 OpenProject es una herramienta utilizada en "**ERP Consultores y Asociados**" diseñada para el control y seguimiento de los proyectos, la misma permite administrar el tiempo de duración y la delegación de tareas de cada uno de los proyectos que realiza dicha empresa, la url para acceder a la misma es "**project.erpya.com**", es implementada para brindar a los usuarios una mejor atención, control y respuesta a cada una de las problemáticas que se le presenten a los clientes por medio de la creación de las tareas correspondientes.
 
