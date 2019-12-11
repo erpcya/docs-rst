@@ -1,10 +1,10 @@
-.. |Reunión| image:: resources/customer-meet.png
+.. |Reunion| image:: resources/customer-meet.png
 .. |Smart| image:: resources/smart.png
 
 **Revisión de Cambios con cliente**
 ===================================
 
-|Reunión|
+|Reunion|
 
 **Justificación**
 -----------------
