@@ -1,4 +1,3 @@
-.. _lve/documentation-lve:
 
 ============================================
 **Localización de ADempiere para Venezuela**
