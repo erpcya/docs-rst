@@ -3,13 +3,13 @@
 **Revisión de Cambios con cliente**
 ===================================
 
-.. documento/revisión-cambios
+      .. documento/socio-proveedor-01
+      
+      .. figure:: img/menu.png
+         :align: center
+         :alt: Menú de ADempiere
 
-.. figure:: resources/customer-meeting.jpeg
-   :align: center
-   :alt: Reunión
-
-   Imagen 1. Reunión
+         Imagen 1. Menú de ADempiere
 
 **Justificación**
 -----------------
@@ -61,7 +61,7 @@ Ahora bien, ¿Qué significa esto?
 
 - **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. 
 
-.. documento/revisión-cambios
+.. documento/revisión-cambios-02
 
 .. figure:: resources/smart.png
    :align: center
@@ -174,6 +174,6 @@ Unicamente despúes de tener la aprobación del cliente `Confirmación del Clien
 **Cambiar el estado de la tarea**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cuando el cliente haya aprobado la solución planteada en el gestor de proyecto `Open Project <http://project.erpya.com/>`__ y posteriormente la tarea se encuentra en la fase previa al desarrollo,\ `Inicio del Desarrollo <https://docs.erpya.com/general/procedures/customer-review/#inicio-del-desarrollo>`__, el responsable de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ está obligado a cambiar el estado actual, **Por Definir** al estado **En Espera (Técnico)**.
+Cuando el cliente haya aprobado la solución planteada en el gestor de proyecto `Open Project <http://project.erpya.com/>`__ y posteriormente la tarea se encuentra en la fase previa al desarrollo, `Inicio del Desarrollo <https://docs.erpya.com/general/procedures/customer-review/#inicio-del-desarrollo>`__, el responsable de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ está obligado a cambiar el estado actual, **Por Definir** al estado **En Espera (Técnico)**.
 
 
