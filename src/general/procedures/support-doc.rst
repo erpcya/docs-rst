@@ -1,4 +1,11 @@
+.. |Asunto de Solicitud| image:: resources/subject-task.png
+.. |Descripción de Solicitud| image:: resources/description-task.png
+.. |Responsable y Asignado de Solicitud| image:: resources/assigned-task.png
+.. |Fecha de Vencimiento de Solicitud| image:: resources/due-date-task.png
+.. |Prioridad de Solicitud| image:: resources/priority-task.png
+
 .. _documento/documentar-tarea:
+
 
 **Documentar una Tarea / Error**
 ================================
@@ -190,8 +197,4 @@ Project <http://project.erpya.com/projects/soporte-sos/work_packages/2905/activi
 
    Open Project
 
-.. |Asunto de Solicitud| image:: resources/subject-task.png
-.. |Descripción de Solicitud| image:: resources/description-task.png
-.. |Responsable y Asignado de Solicitud| image:: resources/assigned-task.png
-.. |Fecha de Vencimiento de Solicitud| image:: resources/due-date-task.png
-.. |Prioridad de Solicitud| image:: resources/priority-task.png
+
