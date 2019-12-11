@@ -9,6 +9,7 @@ ventana de préstamo.
 
 .. toctree::
     :maxdepth: 2
+    :numbered:
 
     loan-requirements
     loan-running
