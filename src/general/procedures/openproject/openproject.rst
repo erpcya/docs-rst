@@ -3,7 +3,7 @@
 .. |Ingresar a OpenProject| image:: resources/ingresar.png 
 .. |Interfaz Inicial| image:: resources/inicial.png
 .. |Barra Principal de OpenProject| image:: resources/barra.png
-.. |Menú Principal de OpenProject| image:: resources/proyecto.png :align: center
+.. |Menú Principal de OpenProject| image:: resources/proyecto.png 
 .. |Proyecto| image:: resources/selecproyecto.png
 .. |Interfaz del Proyecto| image:: resources/interfaz.png
 .. |Paquete de Trabajo| image:: resources/paquete.png
@@ -16,6 +16,8 @@
 
 **Preámbulo**
 -------------
+
+:align: center
 
 OpenProject es una herramienta utilizada en "**ERP Consultores y Asociados**" diseñada para el control y seguimiento de los proyectos, la misma permite administrar el tiempo de duración y la delegación de tareas de cada uno de los proyectos que realiza dicha empresa, la url para acceder a la misma es "**project.erpya.com**", es implementada para brindar a los usuarios una mejor atención, control y respuesta a cada una de las problemáticas que se le presenten a los clientes por medio de la creación de las tareas correspondientes.
 
