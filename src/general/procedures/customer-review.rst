@@ -7,10 +7,11 @@
 .. documento/revisión-cambios-01
 
 .. figure:: resources/customer-meet.png
+   :align: center
    :scale: 75 %
    :alt: Reunión
    
-   Reunión
+   Imagen 1. Reunión
 
 **Justificación**
 -----------------
@@ -65,10 +66,11 @@ Ahora bien, ¿Qué significa esto?
 .. documento/revisión-cambios-02
 
 .. figure:: resources/smart.png
+   :align: center
    :scale: 75 %
    :alt: Smart
    
-   Smart
+   Imagen 2. Smart
 
 Para el cumpliento de la metodología y definición de objetivos inteligentes,se deben plantear las siguientes interrogantes para cada una de las cinco caracteristicas:
 
