@@ -5,7 +5,7 @@
 
 .. documento/acordar-reunión-01
 
-.. image:: resources/customer-meet.png
+.. figure:: resources/customer-meet.png
    :alt: Acordar una Reunión
 
    Imagen 1. Acordar Reunión
