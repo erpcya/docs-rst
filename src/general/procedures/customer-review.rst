@@ -55,13 +55,7 @@ Ahora bien, ¿Qué significa esto?
 
 - **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. 
 
-      .. documento/revision-cambios-02
-
-      .. figure:: resources/smart.png
-         :align: center
-         :alt: Smart
-
-         Imagen 2. Smart
+|Smart|
 
 Para el cumpliento de la metodología y definición de objetivos inteligentes,se deben plantear las siguientes interrogantes para cada una de las cinco caracteristicas:
 
@@ -172,3 +166,4 @@ Cuando el cliente haya aprobado la solución planteada en el gestor de proyecto 
 
 
 .. |Reunión| image:: resources/customer-meet.png
+.. |Smart| image:: resources/smart.png
