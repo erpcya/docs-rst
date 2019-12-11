@@ -5,7 +5,7 @@
 
       .. documento/revision-cambios-01
 
-      .. figure:: resources/customer-meet.png
+      .. figure:: resources/customer-meet1.png
          :align: center
          :alt: Reunión
 
