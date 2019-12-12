@@ -10,6 +10,6 @@ Esta es otra carpeta para prueba de numeración del menú.
     :maxdepth: 2
     :numbered:
 
-    prueba
+    pueba
 
 
