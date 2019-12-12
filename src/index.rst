@@ -12,6 +12,7 @@ Tabla de Contenido
 =================
 .. toctree::
     :maxdepth: 1
+    :numbered:
 
     general/procedures/index
     lve/index

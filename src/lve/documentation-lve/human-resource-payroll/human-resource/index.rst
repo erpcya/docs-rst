@@ -9,6 +9,7 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
 
 .. toctree::
     :maxdepth: 2
+    :numbered:
 
     cash-refund/index
 

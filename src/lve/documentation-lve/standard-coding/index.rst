@@ -7,5 +7,6 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
 
 .. toctree::
     :maxdepth: 1
+    :numbered:
 
     product/index
