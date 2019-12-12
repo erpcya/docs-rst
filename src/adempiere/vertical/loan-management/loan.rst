@@ -8,14 +8,14 @@ ventana de préstamo.
 
 Vaya a la ventana de Préstamo(Adjunto Imagen)
 
-.. img:: resources/loan-single-menu.png
+.. figure:: resources/loan-single-menu.png
    :alt: Menú de Préstamo
 
    Menú de Préstamo
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
-.. img:: resources/loan-window.png
+.. figure:: resources/loan-window.png
    :alt: Ventana de Préstamo
 
    Ventana de Préstamo
@@ -42,7 +42,7 @@ configuración del producto financiero en aplicación de producto.
 
 **Válido Desde:** Indique la fecha de inicio del préstamo.
 
-.. img:: resources/loan-valid-from.png
+.. figure:: resources/loan-valid-from.png
    :alt: Válido Desde
 
    Válido Desde
@@ -52,7 +52,7 @@ Guarde el registro |Botón Guardar|
 Al guardar el registro el sistema crea un registro como cuenta de
 préstamo.
 
-.. img:: resources/loan-after-save.png
+.. figure:: resources/loan-after-save.png
    :alt: Botón Guardar
 
    Botón Guardar
@@ -85,21 +85,21 @@ puede ser modificado.
 
 Guarde el registro |Botón Guardar|
 
-.. img:: resources/loan-after-save-view.png
+.. figure:: resources/loan-after-save-view.png
    :alt: Después de Guardar el Préstamo
 
    Después de Guardar el Préstamo
 
 Complete el registro |Completar Préstamo|
 
-.. img:: resources/loan-complete-window.png
+.. figure:: resources/loan-complete-window.png
    :alt: Ventana Completar Préstamo
 
    Ventana Completar Préstamo
 
 A continuación se desplegará el siguiente dialogo
 
-.. img:: resources/loan-complete-dialog.png
+.. figure:: resources/loan-complete-dialog.png
    :alt: Diálogo de Completar Préstamo
 
    Diálogo de Completar Préstamo
@@ -112,7 +112,7 @@ Amortización
 
 **Vaya a la pestaña *Amortización***\ (Adjunto Imagen)
 
-.. img:: resources/loan-amortization.png
+.. figure:: resources/loan-amortization.png
    :alt: Amortización de Préstamo
 
    Amortización de Préstamo
@@ -128,14 +128,14 @@ la ventana podrá consultarlo en la ventana ***Préstamo***. Una vez en la
 ventana de **Préstamo** busque el registro desde la opción ***Encontrar
 Registro*** ubicada en la barra de herramientas.
 
-.. img:: resources/loan-search.png
+.. figure:: resources/loan-search.png
    :alt: Búsqueda de Préstamo
 
    Búsqueda de Préstamo
 
 A continuación se desplegará el siguiente diálogo.
 
-.. img:: resources/loan-search-dialog.png
+.. figure:: resources/loan-search-dialog.png
    :alt: Díalogo de Búsqueda de Préstamo
 
    Díalogo de Búsqueda de Préstamo

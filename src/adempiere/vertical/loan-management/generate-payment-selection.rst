@@ -18,7 +18,7 @@ Panel de Parámetros de ***Consulta de Préstamos:*** En este panel
 dispone de los parámetros que serán de filtro para consultar los
 préstamos pendientes por cancelar.
 
-.. img:: resources/pay-selection-search.png
+.. figure:: resources/pay-selection-search.png
    :alt: Búsqueda de Selección de Pagos
 
    Búsqueda de Selección de Pagos
@@ -26,7 +26,7 @@ préstamos pendientes por cancelar.
 Panel de resultados ***Para Selección de Préstamos***: En este panel
 seleccionará los préstamos a pagar.
 
-.. img:: resources/pay-selection-result.png
+.. figure:: resources/pay-selection-result.png
    :alt: Resultado de Selección de Pagos
 
    Resultado de Selección de Pagos
@@ -34,7 +34,7 @@ seleccionará los préstamos a pagar.
 Panel de ***Datos para Generar la Selección de Pago***: En este panel
 indicará los datos para generar la selección de pago.
 
-.. img:: resources/pay-selection-process.png
+.. figure:: resources/pay-selection-process.png
    :alt: Proceso de Selección de Pagos
 
    Proceso de Selección de Pagos
@@ -44,14 +44,14 @@ Selección de Pago
 
 Vaya a la ventana de Préstamo(Adjunto Imagen)
 
-.. img:: resources/pay-selection-menu.png
+.. figure:: resources/pay-selection-menu.png
    :alt: Menú de Selección de Pagos
 
    Menú de Selección de Pagos
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
-.. img:: resources/pay-selection-generate.png
+.. figure:: resources/pay-selection-generate.png
    :alt: Generar Selección de Pagos
 
    Generar Selección de Pagos
@@ -79,28 +79,28 @@ pendientes por pagar.**
 
 **Seleccione la opción comenzar búsqueda** |Comenzar Búsqueda|
 
-.. img:: resources/pay-selection-search-button.png
+.. figure:: resources/pay-selection-search-button.png
    :alt: Comenzar Búsqueda
 
    Comenzar Búsqueda
 
 A continuación verá los siguientes resultados:
 
-.. img:: resources/pay-selection-search-result.png
+.. figure:: resources/pay-selection-search-result.png
    :alt: Resultado de Búsqueda
 
    Resultado de Búsqueda
 
 Seleccione los préstamos que desea cancelar:
 
-.. img:: resources/pay-selection-selection.png
+.. figure:: resources/pay-selection-selection.png
    :alt: Selección de Préstamo
 
    Selección de Préstamo
 
 Proceda a llenar los ***Datos para Generar la Selección de Pago***.
 
-.. img:: resources/pay-selection-selection-process.png
+.. figure:: resources/pay-selection-selection-process.png
    :alt: Selección de Préstamo
 
    Selección de Préstamo
@@ -124,7 +124,7 @@ consolidado en la seleccion de pago.
 **Acción de Documento:** Indique la acción de documento con la cual
 desea generar la selección.
 
-.. img:: resources/pay-selection-document-action.png
+.. figure:: resources/pay-selection-document-action.png
    :alt: Acción de Documento
 
    Acción de Documento
@@ -136,7 +136,7 @@ Si seleccionó la opción OK el sistema generará la(s) selección(es) de
 forma exitosa generando el siguiente mensaje indicando el número(s) del
 pago generado.
 
-.. img:: resources/pay-selection-generated.png
+.. figure:: resources/pay-selection-generated.png
    :alt: Selección de Pagos Generada
 
    Selección de Pagos Generada
@@ -151,14 +151,14 @@ Ventana Selección de Pago:
 
 Vaya a la ventana de Selección de Pago (Adjunto Imagen)
 
-.. img:: resources/pay-selection-menu-detail.png
+.. figure:: resources/pay-selection-menu-detail.png
    :alt: Consulta de Selección de Pagos
 
    Consulta de Selección de Pagos
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
-.. img:: resources/pay-selection-window.png
+.. figure:: resources/pay-selection-window.png
    :alt: Selección de Pagos Generada
 
    Selección de Pagos Generada
@@ -166,14 +166,14 @@ A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 Busque el registro desde la opción “\ ***Encontrar Registro***\ ”
 ubicada en la barra de herramientas.
 
-.. img:: resources/pay-selection-search-window.png
+.. figure:: resources/pay-selection-search-window.png
    :alt: Selección de Pagos Generada
 
    Selección de Pagos Generada
 
 A continuación se desplegará el siguiente dialogo
 
-.. img:: resources/pay-selection-search-dialog.png
+.. figure:: resources/pay-selection-search-dialog.png
    :alt: Selección de Pagos Generada
 
    Selección de Pagos Generada
@@ -188,21 +188,21 @@ Selección de Pago (Desde Préstamo) <generate-payment-selection.md>`__.
 Vaya a la opción “\ ***Visualiza Detalle(Donde es Usado)***\ ” ubicada
 en la barra de herramientas.
 
-.. img:: resources/pay-selection-reference-icon.png
+.. figure:: resources/pay-selection-reference-icon.png
    :alt: Selección de Pagos Generada
 
    Selección de Pagos Generada
 
 A continuación se desplegará el siguiente dialogo
 
-.. img:: resources/pay-selection-search-reference.png
+.. figure:: resources/pay-selection-search-reference.png
    :alt: Selección de Pagos Generada
 
    Selección de Pagos Generada
 
 Seleccione la opción “\ ***Selección de Pago de Préstamos***\ ”
 
-.. img:: resources/pay-selection-search-reference-zoom.png
+.. figure:: resources/pay-selection-search-reference-zoom.png
    :alt: Selección de Pagos Generada
 
    Selección de Pagos Generada
