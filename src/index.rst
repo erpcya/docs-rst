@@ -11,7 +11,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 Tabla de Contenido
 ==================
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 3
     :numbered:
 
     general/procedures/index
