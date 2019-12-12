@@ -1,6 +1,6 @@
 .. _documento/orden-de-compra:
 
-**Orden de Compra**
+**Crear Orden de Compra**
 -------------------
 
 #. Ubique en el menú de ADempiere la ventana "**Órdenes de Compra**", adjunto imagen para referencia.
