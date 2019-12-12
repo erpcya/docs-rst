@@ -1,145 +1,194 @@
-**Documentos por Pagar**
-========================
-
-**Preámbulo**
--------------
-
-Una factura en cuentas por pagar es el documento legal que representa una deuda contraída por la empresa u organización con un proveedor determinado, por la compra de productos y servicios que la misma necesita de forma directa o indirecta para realizar sus actividades, afectando economicamente a la misma.
-
-En ADempiere es posible generar una factura de cuentas por pagar de forma directa, la presente documentación elaborada por la empresa ERPyA, pretende especificar a los usuarios de manera detallada cada uno de los pasos a seguir para elaborar una factura de cuentas por pagar correctamente.
+.. _documento/documento-por-pagar:
 
 **Crear Documentos por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
-#.  Ubique en el menú de ADempiere la ventana "**Documentos por Pagar**", adjunto imagen para referencia.
+#. Ubique en el menú de ADempiere la ventana "**Documentos por Pagar**", adjunto imagen para referencia.
 
-    .. figure:: resources/menufac.png
-       :alt: Menú de ADempiere
+   .. documento/documento-por-pagar-01
+   
+   .. figure:: resources/menufac.png
+      :align: center
+      :alt: Menú de ADempiere
 
-       Menú de ADempiere
+      Imagen 1. Menú de ADempiere
 
-#.  Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
+#. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
 
-    .. figure:: resources/regnuevo.png
-       :alt: Registro Nuevo
+   .. documento/documento-por-pagar-02
+   
+   .. figure:: resources/regnuevo.png
+      :align: center
+      :alt: Registro Nuevo
 
-       Registro Nuevo
+      Imagen 2. Registro Nuevo
 
-    #.  Seleccione la organización en el campo "**Organización**".
+   #. Seleccione la organización en el campo "**Organización**".
 
-        .. figure:: resources/organizacion.png
-           :alt: Campo Organización
+      .. documento/documento-por-pagar-03
+      
+      .. figure:: resources/organizacion.png
+         :align: center
+         :alt: Campo Organización
 
-           Campo Organización
+         Imagen 3. Campo Organización
 
-    #.  Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
+   #. Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
+   
+      .. documento/documento-por-pagar-04
+      
+      .. figure:: resources/tidoc.png
+         :align: center
+         :alt: Campo Tipo de Documento
 
-        .. figure:: resources/tidoc.png
-           :alt: Campo Tipo de Documento
+         Imagen 4. Campo Tipo de Documento
 
-           Campo Tipo de Documento
+   #. Introduzca el número del documento en el campo "**No. de Documento**".
 
-    #.  Introduzca el número del documento en el campo "**No. de Documento**".
+      .. documento/documento-por-pagar-05
+      
+      .. figure:: resources/nudoc.png
+         :align: center
+         :alt: Campo Número de Documento
 
-        .. figure:: resources/nudoc.png
-           :alt: Campo Número de Documento
+         Imagen 5. Campo Número de Documento
 
-           Campo Número de Documento
+   #. Seleccione la fecha de la facturación en el campo "**Fecha Facturación**".
 
-    #.  Seleccione la fecha de la facturación en el campo "**Fecha Facturación**".
+      .. documento/documento-por-pagar-06
+      
+      .. figure:: resources/fefac.png
+         :align: center
+         :alt: Campo Fecha Facturación
 
-        .. figure:: resources/fefac.png
-           :alt: Campo Fecha Facturación
+         Imagen 6. Campo Fecha Facturación
 
-           Campo Fecha Facturación
+   #. Seleccione la fecha contable en el campo "**Fecha Contable**".
 
-    #.  Seleccione la fecha contable en el campo "**Fecha Contable**".
+      .. documento/documento-por-pagar-07
+      
+      .. figure:: resources/fecon.png
+         :align: center
+         :alt: Campo Fecha Contable
 
-        .. figure:: resources/fecon.png
-           :alt: Campo Fecha Contable
+         Imagen 7. Campo Fecha Contable
 
-           Campo Fecha Contable
+   #. Seleccione el socio del negocio en el campo "**Socio del Negocio**".
 
-    #.  Seleccione el socio del negocio en el campo "**Socio del Negocio**".
+      .. documento/documento-por-pagar-08
+      
+      .. figure:: resources/socio.png
+         :align: center
+         :alt: Campo Socio del Negocio
 
-        .. figure:: resources/socio.png
-           :alt: Campo Socio del Negocio
+         Imagen 8. Campo Socio del Negocio
 
-           Campo Socio del Negocio
+   #. Seleccione la dirección del socio del negocio en el campo "**Dirección del Socio del Negocio**".
 
-    #.  Seleccione la dirección del socio del negocio en el campo "**Dirección del Socio del Negocio**".
+      .. documento/documento-por-pagar-09
+      
+      .. figure:: resources/disocio.png
+         :align: center
+         :alt: Campo Dirección del Socio del Negocio
 
-        .. figure:: resources/disocio.png
-           :alt: Campo Dirección del Socio del Negocio
-
-           Campo Dirección del Socio del Negocio
+         Imagen 9. Campo Dirección del Socio del Negocio
 
 #. Seleccione el icono "**Guardar**" de la barra de herramientas para guardar los cambios realizados.
 
-    .. figure:: resources/guardarfac.png
-       :alt: Guardar Cambios
+   .. documento/documento-por-pagar-10
+   
+   .. figure:: resources/guardarfac.png
+      :align: center
+      :alt: Guardar Cambios
 
-       Guardar Cambios
+      Imagen 10. Guardar Cambios
 
 #. Seleccione la pestaña "**Línea de Factura**" y proceda al llenado de los campos correspondientes.
 
-    .. figure:: resources/linea.png
-       :alt: Línea de Factura
+   .. documento/documento-por-pagar-11
+   
+   .. figure:: resources/linea.png
+      :align: center
+      :alt: Línea de Factura
 
-       Línea de Factura
+      Imagen 11. Línea de Factura
 
-    #. Seleccione el producto en el campo "**Producto**".
+   #. Seleccione el producto en el campo "**Producto**".
 
-        .. figure:: resources/producto.png
-           :alt: Campo Producto
+      .. documento/documento-por-pagar-12
+      
+      .. figure:: resources/producto.png
+         :align: center
+         :alt: Campo Producto
 
-           Campo Producto
+         Imagen 12. Campo Producto
 
-    #. Seleccione la cantidad de productos en el campo "**Cantidad**".
+   #. Seleccione la cantidad de productos en el campo "**Cantidad**".
 
-        .. figure:: resources/cantidad.png
-           :alt: Campo Cantidad
+      .. documento/documento-por-pagar-13
+      
+      .. figure:: resources/cantidad.png
+         :align: center
+         :alt: Campo Cantidad
 
-           Campo Cantidad
+         Imagen 13. Campo Cantidad
 
-    #. Seleccione la unidad de medida en el campo "**UM**".
+   #. Seleccione la unidad de medida en el campo "**UM**".
 
-        .. figure:: resources/um.png
-           :alt: Campo UM
+      .. documento/documento-por-pagar-14
+      
+      .. figure:: resources/um.png
+         :align: center
+         :alt: Campo UM
 
-           Campo UM
+         Imagen 14. Campo UM
 
-    #. Introduzca el precio del producto en el campo "**Precio**".
+   #. Introduzca el precio del producto en el campo "**Precio**".
 
-        .. figure:: resources/precio.png
-           :alt: Campo Precio
+      .. documento/documento-por-pagar-15
+      
+      .. figure:: resources/precio.png
+         :align: center
+         :alt: Campo Precio
 
-           Campo Precio
+         Imagen 15. Campo Precio
 
-    #. Seleccione el impuesto del documento en el campo "**Impuesto**".
+   #. Seleccione el impuesto del documento en el campo "**Impuesto**".
 
-        .. figure:: resources/impuesto.png
-           :alt: Campo Impuesto
+      .. documento/documento-por-pagar-16
+      
+      .. figure:: resources/impuesto.png
+         :align: center
+         :alt: Campo Impuesto
 
-           Campo Impuesto
+         Imagen 16. Campo Impuesto
 
 #. Guarde los cambios realizados seleccionando el icono "**Guardar**" de la barra de herramientas de ADempiere.
 
-    .. figure:: resources/guardarli.png
-       :alt: Guardar Cambios
+   .. documento/documento-por-pagar-17
+   
+   .. figure:: resources/guardarli.png
+      :align: center
+      :alt: Guardar Cambios
 
-       Guardar Cambios
+      Imagen 17. Guardar Cambios
 
 #. Regrese a la ventana principal "**Factura**" y seleccione la opción "**Completar**" ubicado en la parte inferior del documento.
 
-    .. figure:: resources/ventanaycompletar.png
-       :alt: Opción Completar
+   .. documento/documento-por-pagar-18
+   
+   .. figure:: resources/ventanaycompletar.png
+      :align: center
+      :alt: Opción Completar
 
-       Opción Completar
+      Imagen 18. Opción Completar
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
-    .. figure:: resources/completar.png
-       :alt: Completar Documento
+   .. documento/documento-por-pagar-19
+   
+   .. figure:: resources/completar.png
+      :align: center
+      :alt: Completar Documento
 
-       Completar Documento
+      Imagen 19. Completar Documento
