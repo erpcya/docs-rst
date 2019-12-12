@@ -12,13 +12,15 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 
 Tabla de Contenido
 ==================
+
 .. toctree::
     :maxdepth: 2
     :numbered:
 
     general/procedures/index
-    lve/documentation-lve/index
     adempiere/index
+    lve/documentation-lve/index
+    
 
 Para Mayor Información
 ======================
