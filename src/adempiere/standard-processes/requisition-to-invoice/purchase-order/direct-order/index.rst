@@ -1,10 +1,10 @@
 
-.. _standard-processes/requisition-to-invoice/purchase-order/direct-order:
+.. _src/adempiere/standard-processes/requisition-to-invoice/purchase-order/direct-order:
 
 
-====
+===============
 Orden de Compra
-====
+===============
 
 
 .. toctree::

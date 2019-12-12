@@ -8,7 +8,7 @@ Una factura en cuentas por pagar es el documento legal que representa una deuda 
 
 En ADempiere es posible generar una factura de cuentas por pagar de forma directa, la presente documentación elaborada por la empresa ERPyA, pretende especificar a los usuarios de manera detallada cada uno de los pasos a seguir para elaborar una factura de cuentas por pagar correctamente.
 
-**Documentos por Pagar**
+**Crear Documentos por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~
 
 #.  Ubique en el menú de ADempiere la ventana "**Documentos por Pagar**", adjunto imagen para referencia.

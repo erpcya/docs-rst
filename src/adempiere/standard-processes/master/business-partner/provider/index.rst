@@ -1,10 +1,9 @@
 
 .. _standard-processes/master/business-partner/provider:
 
-
-====
+===========================
 Socio del Negocio Proveedor
-====
+===========================
 
 
 .. toctree::

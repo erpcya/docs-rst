@@ -1,10 +1,10 @@
 
-.. _standard-processes/requisition-to-invoice/invoice:
+.. _src/adempiere/standard-processes/requisition-to-invoice/invoice:
 
 
-====
+====================
 Documentos por Pagar
-====
+====================
 
 
 .. toctree::
