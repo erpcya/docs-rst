@@ -2,13 +2,13 @@
 .. _lve/documentation-lve/standard-coding/product:
 
 
-====
+==================================
 Codificación Estándar de Productos
-====
+==================================
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :numbered:
 
     product-coding

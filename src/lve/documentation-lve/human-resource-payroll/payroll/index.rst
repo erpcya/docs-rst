@@ -2,9 +2,9 @@
 .. _lve/documentation-lve/human-resource-payroll/payroll:
 
 
-====
+======
 Nómina
-====
+======
 
 
 .. toctree::
