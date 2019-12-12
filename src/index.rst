@@ -18,7 +18,7 @@ Tabla de Contenido
     :numbered:
 
     general/procedures/index
-    lve/documentation-lve/index
+    lve/index
     adempiere/index
 
 Para Mayor Información
