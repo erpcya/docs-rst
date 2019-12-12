@@ -1,3 +1,5 @@
+.. _src/lve/documentation-lve/standard-coding:
+
 ==================================
 Codificación Estándar de ADempiere
 ==================================
