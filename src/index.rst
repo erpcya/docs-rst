@@ -14,7 +14,7 @@ Tabla de Contenido
 ==================
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
     :numbered:
 
     general/procedures/index
