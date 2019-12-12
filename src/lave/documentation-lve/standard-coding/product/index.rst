@@ -1,5 +1,5 @@
 
-.. _lve/documentation-lve/standard-coding/product:
+.. _lave/documentation-lve/standard-coding/product:
 
 ==================================
 Codificación Estándar de Productos

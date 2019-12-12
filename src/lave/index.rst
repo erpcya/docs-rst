@@ -1,4 +1,4 @@
-.. _src/lve:
+.. _src/lave:
 
 ========================================
 Localización de ADempiere para Venezuela
