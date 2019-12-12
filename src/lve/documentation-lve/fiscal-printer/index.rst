@@ -1,5 +1,5 @@
 
-.. _lave/documentation-lve/fiscal-printer:
+.. _lve/documentation-lve/fiscal-printer:
 
 
 ================

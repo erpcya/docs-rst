@@ -1,4 +1,4 @@
-.. _src/lave/documentation-lve:
+.. _src/lve/documentation-lve:
 
 ==========================================================
 Documentación de la Localización de ADempiere en Venezuela
