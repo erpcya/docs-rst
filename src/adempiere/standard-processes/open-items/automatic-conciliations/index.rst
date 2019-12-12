@@ -2,9 +2,9 @@
 .. _standard-processes/open-items/automatic-conciliations:
 
 
-=======================
+====
 Conciliación Automática
-=======================
+====
 
 El proceso conciliación automática permite comparar los registros bancarios que se tienen en ADempiere con el estado de cuenta real del banco, para realizar una conciliación es necesario realizar primero una importación del extracto bancario del banco a conciliar.
 

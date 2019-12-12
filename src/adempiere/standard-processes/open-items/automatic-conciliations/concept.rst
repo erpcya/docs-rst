@@ -1,6 +1,3 @@
-.. _documento/conciliación-automática:
-
-
 **Importación del Extracto Bancario**
 -------------------------------------
 
@@ -8,273 +5,192 @@ Un extracto bancario es un estado de cuenta generado por un banco determinado ut
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión del Sistema**", luego seleccione la carpeta "**Datos**", finalmente seleccione la carpeta "**Importar Datos**", por último seleccione el proceso "**Carga de Estado de Cuentas**" y proceda al llenado de los campos correspondientes.
 
-      .. documento/conciliación-automática-01
+   .. figure:: resources/menuimportacion.png
+      :alt: Menú de ADempiere
 
-      .. figure:: resources/menuimportacion.png
-         :align: center
-         :alt: Menú de ADempiere
-
-         Imagen 1. Menú de ADempiere
+      Menú de ADempiere
 
 #. Seleccione en el campo "**Cargador de Estado de Cuenta**" el nombre del banco del cual pertenece el estado de cuenta a importar.
 
-      .. documento/conciliación-automática-02
+   .. figure:: resources/banco.png
+      :alt: Campo Cargador de Estado de Cuenta
 
-      .. figure:: resources/banco.png
-         :align: center
-         :alt: Campo Cargador de Estado de Cuenta
-   
-         Imagen 2. Campo Cargador de Estado de Cuenta
-   
+      Campo Cargador de Estado de Cuenta
+
 #. Seleccione en el campo "**Nombre del Archivo**" el archivo a importar.
-   
-      .. documento/conciliación-automática-03
 
-      .. figure:: resources/nombre.png
-         :align: center
-         :alt: Campo Nombre del Archivo
-   
-         Imagen 3. Campo Nombre del Archivo
-   
+   .. figure:: resources/nombre.png
+      :alt: Campo Nombre del Archivo
+
+      Campo Nombre del Archivo
+
 #. Seleccione la opción "**Seleccionar Archivo**" para buscar el archivo a importar.
-   
-      .. documento/conciliación-automática-04
 
-      .. figure:: resources/nueva.png
-         :align: center
-         :alt: Opción Seleccionar Archivo
-   
-         Imagen 4. Opción Seleccionar Archivo
-   
+   .. figure:: resources/nueva.png
+      :alt: Opción Seleccionar Archivo
+
+      Opción Seleccionar Archivo
+
 #. Seleccione la opción "**Cargar Archivo (Upload)**" para cargar el archivo seleccionado.
-   
-      .. documento/conciliación-automática-05
 
-      .. figure:: resources/archivo.png
-         :align: center
-         :alt: Opción Cargar Archivo
-   
-         Imagen 5. Opción Cargar Archivo
-   
+   .. figure:: resources/archivo.png
+      :alt: Opción Cargar Archivo
+
+      Opción Cargar Archivo
+
 #. Seleccione la opción "**OK**" para importar el archivo seleccionado.
-   
-      .. documento/conciliación-automática-06
 
-      .. figure:: resources/ok.png
-         :align: center
-         :alt: Opción OK
-   
-         Imagen 6. Opción OK
-   
+   .. figure:: resources/ok.png
+      :alt: Opción OK
+
+      Opción OK
+
 #. Podrá apreciar la importación exitosa en la ventana y seleccionar la opción "**OK**" para finalizar el proceso, adjunto imagen para referencia.
-   
-      .. documento/conciliación-automática-07
 
-      .. figure:: resources/finalimportacion.png
-         :align: center
-         :alt: Mensaje Exitoso
-   
-         Imagen 7. Mensaje Exitoso
-   
+   .. figure:: resources/finalimportacion.png
+      :alt: Mensaje Exitoso
+
+      Mensaje Exitoso
+
 **Conciliación**
 ----------------
 
 Es un proceso que se realiza con la finalidad de garantizar los saldos de las cuentas por cobrar y las cuentas por pagar que posee una determinada empresa, el mismo compara la información del estado de cuenta con la existente en ADempiere para corroborar que ambos coincidan y no existan errores en la contabilidad de la empresa, a continuación se explica el procedimiento que se debe realizar para generar una conciliación bancaria en ADempiere.
 
-#. Ubique en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**" y luego seleccione la ventana "**Estado de Cuenta Bancario**".
+#.  Ubique en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**" y luego seleccione la ventana "**Estado de Cuenta Bancario**".
 
-      .. documento/conciliación-automática-08
-   
-      .. figure:: resources/menuconciliacion.png
-         :align: center
-         :alt: Menú de ADempiere
+    .. figure:: resources/menuconciliacion.png
+       :alt: Menú de ADempiere
 
-         Imagen 8. Menú de ADempiere
+       Menú de ADempiere
 
-#. Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+#.  Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
-      .. documento/conciliación-automática-09
-   
-      .. figure:: resources/nuevoreg.png
-         :align: center
-         :alt: Registro Nuevo
+    .. figure:: resources/nuevoreg.png
+       :alt: Registro Nuevo
 
-         Imagen 9. Registro Nuevo
+       Registro Nuevo
 
-#. Seleccione la organización en el campo "**Organización**".
+#.  Seleccione la organización en el campo "**Organización**".
 
-      .. documento/conciliación-automática-10
-   
-      .. figure:: resources/organizacion.png
-         :align: center
-         :alt: Campo Organización
+    .. figure:: resources/organizacion.png
+       :alt: Campo Organización
 
-         Imagen 10. Campo Organización
+       Campo Organización
 
-#. Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
+#.  Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
 
-      .. documento/conciliación-automática-11
-   
-      .. figure:: resources/tipodoc.png
-         :align: center
-         :alt: Campo Tipo de Documento Destino
+    .. figure:: resources/tipodoc.png
+       :alt: Campo Tipo de Documento Destino
 
-         Imagen 11. Campo Tipo de Documento
+       Campo Tipo de Documento
 
-#. Seleccione la cuenta bancaria en el campo "**Cuenta Bancaria**".
+#.  Seleccione la cuenta bancaria en el campo "**Cuenta Bancaria**".
 
-      .. documento/conciliación-automática-12
-   
-      .. figure:: resources/cuentabancaria.png
-         :align: center
-         :alt: Campo Cuenta Bancaria
+    .. figure:: resources/cuentabancaria.png
+       :alt: Campo Cuenta Bancaria
 
-         Imagen 12. Campo Cuenta Bancaria
+       Campo Cuenta Bancaria
 
-#. Seleccione el icono "**Guardar**" en la barra de herramientas de ADempiere para guardar los cambios realizados en el documento.
+#.  Seleccione el icono "**Guardar**" en la barra de herramientas de ADempiere para guardar los cambios realizados en el documento.
 
-      .. documento/conciliación-automática-13
-   
-      .. figure:: resources/guardar.png
-         :align: center
-         :alt: Icono Guardar
+    .. figure:: resources/guardar.png
+       :alt: Icono Guardar
 
-         Imagen 13. Icono Guardar
-
+       Icono Guardar
 
       .. note::
 
-            Hasta este paso es el llenado del encabezado de la conciliación, donde se define el banco en el cual se va a realizar la conciliación de los pagos/cobros que ha tenido la empresa en un rango determinado. En adelante se procedera a realizar la conciliación.
+         Hasta este paso es el llenado del encabezado de la conciliación, donde se define el banco en el cual se va a realizar la conciliación de los pagos/cobros que ha tenido la empresa en un rango determinado. En adelante se procedera a realizar la conciliación.
 
+#.  Seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
 
-#. Seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
+    .. figure:: resources/proceso.png
+       :alt: Icono Proceso
 
-   .. documento/conciliación-automática-14
-   
-   .. figure:: resources/proceso.png
-      :align: center
-      :alt: Icono Proceso
+       Icono Proceso
 
-      Imagen 14. Icono Proceso
+#.  Seleccione la opción "**Conciliación de Estado de Cuenta**" en el menú que es desplegado por el icono "**Proceso**".
 
+    .. figure:: resources/conciliar.png
+       :alt: Menú Proceso
 
-#. Seleccione la opción "**Conciliación de Estado de Cuenta**" en el menú que es desplegado por el icono "**Proceso**".
+       Menú Proceso
 
-      .. documento/conciliación-automática-15
+    #. Se le desplegará una ventana de busqueda inteligente con campos por los cuales se filtrará la busqueda para realizar la conciliación.
 
+       .. figure:: resources/datos.png
+          :alt: Filtrar Busqueda
 
-      .. figure:: resources/conciliar.png
-         :align: center
-         :alt: Menú Proceso
+          Filtrar Busqueda
 
-         Imagen 15. Menú Proceso
+       .. note::
 
+         Puede observar que la ventana de busqueda inteligente trae precargado el campo "**Cuenta Bancaria**" con la información del banco seleccionado en la ventana principal "**Estado de Cuentas Bancario**". Los otros campos reflejados en esta ventana serán utilizados acorde al criterio de busqueda que se requiera.
 
-      #. Se le desplegará una ventana de búsqueda inteligente con campos por los cuales se filtrará la búsqueda para realizar la conciliación.
+    #. Una vez definido el criterio de busqueda, seleccione la opción "**Refrescar**" para que se muestre la información del estado de cuenta bancario importado y los pagos/cobros realizados en ADempiere.
 
-            .. documento/conciliación-automática-16
-      
-            .. figure:: resources/datos.png
-               :align: center
-               :alt: Filtrar Búsqueda
+       .. figure:: resources/refrescar.png
+          :alt: Refrescar
 
-               Imagen 16. Filtrar Búsqueda
+          Refrescar
 
+    #. Podrá apreciar los movimientos del estado de cuenta del lado izquierdo de la venta de busqueda inteligente.
 
-            .. note::
+       .. figure:: resources/movimientos.png
+          :alt: Movimientos Importados
 
-                  Puede observar que la ventana de búsqueda inteligente trae precargado el campo "**Cuenta Bancaria**" con la información del banco seleccionado en la ventana principal "**Estado de Cuentas Bancario**". Los otros campos reflejados en esta ventana serán utilizados acorde al criterio de búsqueda que se requiera.
+          Movimientos Importados
 
-      #. Una vez definido el criterio de búsqueda, seleccione la opción "**Refrescar**" para que se muestre la información del estado de cuenta bancario importado y los pagos/cobros realizados en ADempiere.
+    #. Podrá apreciar del lado derecho de la ventana de busqueda inteligente los movimientos realizados en ADempiere.
 
-            .. documento/conciliación-automática-17
-      
-            .. figure:: resources/refrescar.png
-               :align: center
-               :alt: Refrescar
+       .. figure:: resources/movimientosad.png
+          :alt: Movimientos de ADempiere
 
-               Imagen 17. Refrescar
+          Movimientos de ADempiere
 
-      #. Podrá apreciar los movimientos del estado de cuenta del lado izquierdo de la venta de búsqueda inteligente.
+    #. Seleccione la opción "**Simular Conciliación**" para buscar coincidencia entre la información reflejada en ambos lados de la ventana de busqueda inteligente.
 
-            .. documento/conciliación-automática-18
-      
-            .. figure:: resources/movimientos.png
-               :align: center
-               :alt: Movimientos Importados
+       .. figure:: resources/simular.png
+          :alt: Opción Simular Conciliación
 
-               Imagen 18. Movimientos Importados
+          Opción Simular Conciliación
 
-      #. Podrá apreciar del lado derecho de la ventana de búsqueda inteligente los movimientos realizados en ADempiere.
+    #. Podrá apreciar los movimientos con coincidencia en la parte inferior de la ventana de busqueda inteligente.
 
-            .. documento/conciliación-automática-19
-      
-            .. figure:: resources/movimientosad.png
-               :align: center
-               :alt: Movimientos de ADempiere
+       .. figure:: resources/coincidencias.png
+          :alt: Pagos con Coincidencia
 
-               Imagen 19. Movimientos de ADempiere
+          Pagos con Coincidencia
 
-      #. Seleccione la opción "**Simular Conciliación**" para buscar coincidencia entre la información reflejada en ambos lados de la ventana de búsqueda inteligente.
+         .. note::
 
-            .. documento/conciliación-automática-20
-      
-            .. figure:: resources/simular.png
-               :align: center
-               :alt: Opción Simular Conciliación
+            Si existe coincidencia entre los pagos/cobros y el extracto bancario se le mostrarán los movimientos con coincidencias, de lo contrario no se le mostrará ningun movimiento con coincidencia.
 
-               Imagen 20. Opción Simular Conciliación
+    #. Seleccione la opción "**OK**" para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de busqueda inteligente, estos movimientos automaticamente se cargarán en la pestaña "**Línea Estado Cuentas**"
 
-      #. Podrá apreciar los movimientos con coincidencia en la parte inferior de la ventana de búsqueda inteligente.
+       .. figure:: resources/okbusqueda.png
+          :alt: Opción OK
 
-            .. documento/conciliación-automática-21
-      
-            .. figure:: resources/coincidencias.png
-               :align: center
-               :alt: Pagos con Coincidencia
+          Opción OK
 
-               Imagen 21. Pagos con Coincidencia
+#.  Seleccione la pestaña "**Línea Estado Cuentas**" para verificar el registro de coincidencias de movimientos de la venta de busqueda inteligente.
 
-            .. note::
+    .. figure:: resources/linea.png
+       :alt: Pestaña Línea Estado Cuentas
 
-                  Si existe coincidencia entre los pagos/cobros y el extracto bancario se le mostrarán los movimientos con coincidencias, de lo contrario no se le mostrará ningun movimiento con coincidencia.
-
-      #. Seleccione la opción "**OK**" para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de búsqueda inteligente, estos movimientos automaticamente se cargarán en la pestaña "**Línea Estado Cuentas**"
-
-            .. documento/conciliación-automática-22
-      
-            .. figure:: resources/okbusqueda.png
-               :align: center
-               :alt: Opción OK
-
-               Imagen 22. Opción OK
-
-#. Seleccione la pestaña "**Línea Estado Cuentas**" para verificar el registro de coincidencias de movimientos de la venta de búsqueda inteligente.
-
-      .. documento/conciliación-automática-23
-   
-      .. figure:: resources/linea.png
-         :align: center
-         :alt: Pestaña Línea Estado Cuentas
-
-         Imagen 23. Pestaña Línea Estado Cuentas
+       Pestaña Línea Estado Cuentas
 
 #. Regrese a la ventana principal "**Estado Cuentas Bancario**" y seleccione la opción "**Completar**".
 
-      .. documento/conciliación-automática-24
-   
-      .. figure:: resources/ventanaycompletar.png
-         :align: center 
-         :alt: Ventana Principal y Opción Completar
+    .. figure:: resources/ventanaycompletar.png
+       :alt: Ventana Principal y Opción Completar
 
-         Imagen 24. Ventana Principal y Opción Completar
+       Ventana Principal y Opción Completar
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
-      .. documento/conciliación-automática-25
-   
-      .. figure:: resources/completar.png
-         :align: center 
-         :alt: Acción Completar Documento
+    .. figure:: resources/completar.png
+       :alt: Acción Completar Documento
 
-         Imagen 25. Acción Completar Documento
+       Acción Completar Documento

@@ -8,14 +8,14 @@ hereda el cargo seleccionado en la definición del producto financiero
 
 Vaya a la ventana de Imprimir/Exporta Pago (Adjunto Imagen)
 
-.. img:: resources/payment-menu.png
+.. figure:: resources/payment-menu.png
    :alt: Menú de Pagos
 
    alt\_text
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
-.. img:: resources/payment-pay-print.png
+.. figure:: resources/payment-pay-print.png
    :alt: Imprimir y Exportar Pagos
 
    alt\_text
@@ -25,14 +25,14 @@ Ingrese la selección de pagos generada en la sección
 `Generar Selección de Pago <generate-payment-selection.md>`__,
 seleccionando la opción de búsqueda |alt\_text|
 
-.. img:: resources/payment-pay-print-find.png
+.. figure:: resources/payment-pay-print-find.png
    :alt: Búsqueda de Selección de Pagos
 
    alt\_text
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
-.. img:: resources/payment-pay-print-search.png
+.. figure:: resources/payment-pay-print-search.png
    :alt: Búsqueda de Selección de Pagos
 
    alt\_text
@@ -40,14 +40,14 @@ A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 Seleccione la Selección de pago generada en la sección `Generar
 Selección de Pago <generate-payment-selection.md>`__
 
-.. img:: resources/payment-generate-pay-selection.png
+.. figure:: resources/payment-generate-pay-selection.png
    :alt: Generar Selección de Pagos
 
    alt\_text
 
 Seleccione la opción imprimir |alt\_text|
 
-.. img:: resources/payment-print-window.png
+.. figure:: resources/payment-print-window.png
    :alt: Imprimir Pago
 
    alt\_text
@@ -55,7 +55,7 @@ Seleccione la opción imprimir |alt\_text|
 A Continuación ADempiere habrá generado el pago y usted verá el
 siguiente reporte (Adjunto Imagen)
 
-.. img:: resources/payment-print-report.png
+.. figure:: resources/payment-print-report.png
    :alt: Reporte de Impresión de Pago
 
    alt\_text
@@ -76,14 +76,14 @@ bancaria podrá consultar con esta opción.
 
 Vaya a la ventana *“\ **Pago/Cobro”*** (Adjunto Imagen)
 
-.. img:: resources/payment-payment-menu.png
+.. figure:: resources/payment-payment-menu.png
    :alt: Menú de Pago
 
    alt\_text
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 
-.. img:: resources/payment-window.png
+.. figure:: resources/payment-window.png
    :alt: Ventana de Pago
 
    alt\_text
@@ -91,14 +91,14 @@ A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 Busque el registro desde la opción “\ ***Encontrar Registro***\ ”
 ubicada en la barra de herramientas.
 
-.. img:: resources/payment-window-search.png
+.. figure:: resources/payment-window-search.png
    :alt: Búsqueda de Pago
 
    alt\_text
 
 A continuación se desplegará el siguiente dialogo
 
-.. img:: resources/payment-search-dialog.png
+.. figure:: resources/payment-search-dialog.png
    :alt: Ventana de Búsqueda de Pago
 
    alt\_text
@@ -113,14 +113,14 @@ de caja podrá consultar con esta opción.
 
 Vaya a la ventana Caja (Adjunto Imagen)
 
-.. img:: resources/payment-cash-menu.png
+.. figure:: resources/payment-cash-menu.png
    :alt: Menú de Caja
 
    alt\_text
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 
-.. img:: resources/payment-cash-window.png
+.. figure:: resources/payment-cash-window.png
    :alt: Ventana de Caja
 
    alt\_text
@@ -128,14 +128,14 @@ A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 Busque el registro desde la opción “\ ***Encontrar Registro***\ ”
 ubicada en la barra de herramientas.
 
-.. img:: resources/payment-window-search.png
+.. figure:: resources/payment-window-search.png
    :alt: Ventana de Caja
 
    alt\_text
 
 A continuación se desplegará el siguiente dialogo
 
-.. img:: resources/payment-search-dialog.png
+.. figure:: resources/payment-search-dialog.png
    :alt: Búsqueda de Caja
 
    alt\_text
@@ -150,21 +150,21 @@ Una vez en la ventana de Préstamo
 Vaya a la opción “\ ***Visualiza Detalle(Donde es Usado)***\ ” ubicada
 en la barra de herramientas.
 
-.. img:: resources/payment-loan-search.png
+.. figure:: resources/payment-loan-search.png
    :alt: Búsqueda de Referencia de Préstamo
 
    alt\_text
 
 A continuación se desplegará el siguiente dialogo
 
-.. img:: resources/payment-loan-search-reference.png
+.. figure:: resources/payment-loan-search-reference.png
    :alt: Referencia de Préstamo
 
    alt\_text
 
 Seleccione la opción “\ ***Pagos de Préstamos***\ ”
 
-.. img:: resources/payment-loan-search-reference-selected.png
+.. figure:: resources/payment-loan-search-reference-selected.png
    :alt: Referencia de Préstamo Seleccionada
 
    alt\_text
