@@ -13,8 +13,5 @@ Los procedimientos estándares de ADempiere en la versión 3.9.2 de la localizac
     :numbered:
 
     master/index
-    quote-to-invoice/index
     requisition-to-invoice/index
-    returns/index
     open-items/index
-    material-management/index
