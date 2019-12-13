@@ -20,7 +20,7 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
 #. A continuación visualizará la ventana principal "**Socio del Negocio**", dónde debe seleccionar el icono de "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere.
 
-      .. _documento/socio-proveedor-02
+      .. documento/socio-proveedor-02
       
       .. figure:: img/ventana.png
          :align: center
@@ -40,7 +40,7 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
                Imagen 3. Campo Organización
 
-            .. warining::
+            .. warning::
 
                   Para que el socio del negocio este disponible para todas las organizaciones de la compañía, el mismo deberá estar registrado con la organización en (*) de lo contrario el socio del negocio solo estará disponible para una sola organización.
 
@@ -54,7 +54,7 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
                Imagen 4. Campo Código
 
-            .. warining::
+            .. warning::
 
                   Se recomienda que al ingresar el valor al campo "**Código**" no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
 
@@ -83,6 +83,7 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
             .. documento/socio-proveedor-07
 
             .. figure:: img/tipopers.png
+               :align: center
                :alt: Ventana de Registro de Socio del Negocio 
 
                Imagen 7. Campo Tipo de Persona
@@ -108,7 +109,7 @@ Esta pestaña le indica a ADempiere si el socio del negocio que se esta registra
 
          Imagen 8. Pestaña Proveedor
 
-      .. info:: 
+      .. note:: 
       
             La pestaña "**Proveedor**" se compone de:
 
