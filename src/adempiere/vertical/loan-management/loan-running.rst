@@ -4,11 +4,11 @@
 .. |Ejecución de Simulador| image:: resources/loan-simulator-run.png
 .. |Área de Simulación| image:: resources/loan-simulator-run-simulation-area.png
 .. |Área de Totales| image:: resources/loan-simulator-run-total-area.png
-.. |alt\_text| image:: resources/loan-run-icon.png
+.. |text| image:: resources/loan-run-icon.png
 .. |Ok| image:: resources/loan-ok-icon.png
 .. |Cancelar| image:: resources/loan-cancel-icon.png
 .. |Área de Acciones| image:: resources/loan-simulator-run-action-area.png
-.. |Área de Proceso| image:: img:: resources/loan-simulator-ask-area.png
+.. |Área de Proceso| image:: resources/loan-simulator-ask-area.png
 .. |Área de Pregunta| image:: resources/loan-simulator-ask-dialog-area.png
 .. |Área de Resultado| image:: resources/loan-simulator-result-area.png
 
@@ -67,7 +67,7 @@ Proceda a llenar los parámetros necesarios para la simulación de préstamo:
  Imagen 3. Simulador de Préstamo con Parámetros
 
 
-Seleccione la opción procesar |alt\_text|
+Seleccione la opción procesar |text|
 
 A continuación verá los siguientes resultados:
 
@@ -103,9 +103,9 @@ Generar Préstamo desde Simulación
 
 Una vez procesada la simulación:
 
- |Ejecución del Simulador|
+ |Ejecución de Simulador|
 
- Imagen 7. Ejecución del Simulador
+ Imagen 7. Ejecución de Simulador
 
 
 Seleccione la opción ok |Ok|
