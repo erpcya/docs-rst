@@ -5,7 +5,7 @@
 .. |Área de Simulación| image:: resources/loan-simulator-run-simulation-area.png
 .. |Área de Totales| image:: resources/loan-simulator-run-total-area.png
 .. |alt\_text| image:: resources/loan-run-icon.png
-.. |Ok| image:: resources/loan-ok-icon.png.png
+.. |Ok| image:: resources/loan-ok-icon.png
 .. |Cancelar| image:: resources/loan-cancel-icon.png
 .. |Área de Acciones| image:: resources/loan-simulator-run-action-area.png
 .. |Área de Proceso| image:: img:: resources/loan-simulator-ask-area.png
