@@ -8,7 +8,7 @@
 .. |Ventana Completar Préstamo| image:: resources/loan-complete-window.png
 .. |Diálogo de Completar Préstamo| image:: resources/loan-complete-dialog.png
 .. |Opción Aceptar| image:: resources/loan-ok-icon.png
-.. |Opción Cancelar| image:: resources/loan-cancel-icon.
+.. |Opción Cancelar| image:: resources/loan-cancel-icon.png
 .. |Amortización de Préstamo| image:: resources/loan-amortization.png
 .. |Búsqueda de Préstamo| image:: resources/loan-search.png
 .. |Díalogo de Búsqueda de Préstamo| image:: resources/loan-search-dialog.png
