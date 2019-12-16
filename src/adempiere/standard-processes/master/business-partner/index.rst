@@ -12,6 +12,4 @@ El socio del negocio puede ser cualquier persona, este puede tener tres (3) cond
     :maxdepth: 1
     :numbered:
 
-    client/index
     provider/index
-    employee/index

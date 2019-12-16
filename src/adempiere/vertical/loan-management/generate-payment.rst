@@ -1,183 +1,167 @@
+.. |Menú de Pagos| image:: resources/payment-menu.png
+.. |Imprimir y Exportar Pagos| image:: resources/payment-pay-print.png
+.. |Búsqueda de Selección de Pagos| image:: resources/payment-pay-print-find.png
+.. |Búsqueda de Pagos| image:: resources/payment-pay-print-search.png
+.. |Generar Selección de Pagos| image:: resources/payment-generate-pay-selection.png
+.. |Imprimir Pago| image:: resources/payment-print-window.png
+.. |Reporte de Impresión de Pago| image:: resources/payment-print-report.png
+.. |Menú de Pago| image:: resources/payment-payment-menu.png
+.. |Ventana de Pago| image:: resources/payment-window.png
+.. |Búsqueda de Pago| image:: resources/payment-window-search.png
+.. |Ventana de Búsqueda de Pago| image:: resources/payment-search-dialog.png
+.. |Menú de Caja| image:: resources/payment-cash-menu.png
+.. |Ventana de Caja| image:: resources/payment-cash-window.png
+.. |Ventana Caja| image:: resources/payment-window-search.png
+.. |Búsqueda de Caja| image:: resources/payment-search-dialog.png
+.. |Búsqueda de Referencia de Préstamo| image:: resources/payment-loan-search.png
+.. |Referencia de Préstamo| image:: resources/payment-loan-search-reference.png
+.. |Referencia de Préstamo Seleccionada| image:: resources/payment-loan-search-reference-selected.png
+.. |selección| image:: resources/payment-pay-selection-find.png
+.. |text| image:: resources/payment-print.png
+
+.. _documento/generar-pagos:
+
 Generar Pagos de Préstamo
 =========================
 
-Una vez generada la selección de pago, podrá generar los pagos de los
-préstamos (Desembolso), el pago generado como se explicó anteriormente,
-hereda el cargo seleccionado en la definición del producto financiero
-**(*Vea Configuración de Producto Financiero (Préstamo)*)** .
+Una vez generada la selección de pago, podrá generar los pagos de los préstamos (Desembolso), el pago generado como se explicó anteriormente, hereda el cargo seleccionado en la definición del producto financiero **(Vea Configuración de Producto Financiero (Préstamo))**.
 
 Vaya a la ventana de Imprimir/Exporta Pago (Adjunto Imagen)
 
-.. img:: resources/payment-menu.png
-   :alt: Menú de Pagos
+ |Menú de Pagos|
 
-   alt\_text
+ Imagen 1. Menú de Pagos
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
-.. img:: resources/payment-pay-print.png
-   :alt: Imprimir y Exportar Pagos
+ |Imprimir y Exportar Pagos|
 
-   alt\_text
+ Imagen 2. Imprimir y Exportar Pagos
 
 Ingrese la selección de pagos generada en la sección
 
-`Generar Selección de Pago <generate-payment-selection.md>`__,
-seleccionando la opción de búsqueda |alt\_text|
+`Generar Selección de Pago <generate-payment-selection.md>`__, seleccionando la opción de búsqueda |selección|
 
-.. img:: resources/payment-pay-print-find.png
-   :alt: Búsqueda de Selección de Pagos
+ |Búsqueda de Selección de Pagos|
 
-   alt\_text
+ Imagen 3. Búsqueda de Selección de Pagos
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
-.. img:: resources/payment-pay-print-search.png
-   :alt: Búsqueda de Selección de Pagos
+ |Búsqueda de Pagos|
 
-   alt\_text
+ Imagen 4. Búsqueda de Pagos
 
-Seleccione la Selección de pago generada en la sección `Generar
-Selección de Pago <generate-payment-selection.md>`__
+Seleccione la Selección de pago generada en la sección `Generar Selección de Pago <generate-payment-selection.md>`__
 
-.. img:: resources/payment-generate-pay-selection.png
-   :alt: Generar Selección de Pagos
+ |Generar Selección de Pagos|
 
-   alt\_text
+ Imagen 5. Generar Selección de Pagos
 
-Seleccione la opción imprimir |alt\_text|
+Seleccione la opción imprimir |text|
 
-.. img:: resources/payment-print-window.png
-   :alt: Imprimir Pago
+ |Imprimir Pago|
 
-   alt\_text
+ Imagen 6. Imprimir Pago
 
-A Continuación ADempiere habrá generado el pago y usted verá el
-siguiente reporte (Adjunto Imagen)
+A Continuación ADempiere habrá generado el pago y usted verá el siguiente reporte (Adjunto Imagen)
 
-.. img:: resources/payment-print-report.png
-   :alt: Reporte de Impresión de Pago
+ |Reporte de Impresión de Pago|
 
-   alt\_text
+ Imagen 7. Reporte de Impresión de Pago
 
 Consulta de Pagos de Préstamo
 =============================
 
-Existen dos posibles formas de consultar los pagos generados asociadas a
-un préstamo, a continuación serán explicadas.
+Existen dos posibles formas de consultar los pagos generados asociadas a un préstamo, a continuación serán explicadas.
 
 Ventanas en Menú
 
 Pago/Cobro
 
-Si el pago generado desde el proceso `Generar Selección de Pago (Desde
-Préstamo) <generate-payment-selection.md>`__ es generado con una cuenta
-bancaria podrá consultar con esta opción.
+Si el pago generado desde el proceso `Generar Selección de Pago (Desde Préstamo) <generate-payment-selection.md>`__ es generado con una cuenta bancaria podrá consultar con esta opción.
 
-Vaya a la ventana *“\ **Pago/Cobro”*** (Adjunto Imagen)
+Vaya a la ventana **"Pago/Cobro"** (Adjunto Imagen)
 
-.. img:: resources/payment-payment-menu.png
-   :alt: Menú de Pago
+ |Menú de Pago|
 
-   alt\_text
+ Imagen 8. Menú de Pago
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 
-.. img:: resources/payment-window.png
-   :alt: Ventana de Pago
+ |Ventana de Pago|
 
-   alt\_text
+ Imagen 9. Ventana de Pago
 
-Busque el registro desde la opción “\ ***Encontrar Registro***\ ”
-ubicada en la barra de herramientas.
+Busque el registro desde la opción “**Encontrar Registro**” ubicada en la barra de herramientas.
 
-.. img:: resources/payment-window-search.png
-   :alt: Búsqueda de Pago
+ |Búsqueda de Pago|
 
-   alt\_text
+ Imagen 10. Búsqueda de Pago
 
 A continuación se desplegará el siguiente dialogo
 
-.. img:: resources/payment-search-dialog.png
-   :alt: Ventana de Búsqueda de Pago
+ |Ventana de Búsqueda de Pago|
 
-   alt\_text
+ Imagen 11. Ventana de Búsqueda de Pago
 
-Ingrese el número de la selección generada en el proceso `Generar
-Selección de Pago (Desde Préstamo) <generate-payment-selection.md>`__
-Caja Si el pago generado desde el proceso
-
-`Generar Selección de Pago (Desde
-Préstamo) <generate-payment-selection.md>`__ es generado con una cuenta
-de caja podrá consultar con esta opción.
+Ingrese el número de la selección generada en el proceso `Generar Selección de Pago (Desde Préstamo) <generate-payment-selection.md>`__ Caja Si el pago generado desde el proceso `Generar Selección de Pago (Desde Préstamo) <generate-payment-selection.md>`__ es generado con una cuenta de caja podrá consultar con esta opción.
 
 Vaya a la ventana Caja (Adjunto Imagen)
 
-.. img:: resources/payment-cash-menu.png
-   :alt: Menú de Caja
+ |Menú de Caja|
 
-   alt\_text
+ Imagen 12. Menú de Caja
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 
-.. img:: resources/payment-cash-window.png
-   :alt: Ventana de Caja
+ |Ventana de Caja|
 
-   alt\_text
+ Imagen 13. Ventana de Caja
 
-Busque el registro desde la opción “\ ***Encontrar Registro***\ ”
-ubicada en la barra de herramientas.
+Busque el registro desde la opción “**Encontrar Registro**” ubicada en la barra de herramientas.
 
-.. img:: resources/payment-window-search.png
-   :alt: Ventana de Caja
+ |Ventana de Caja|
 
-   alt\_text
+ Imagen 14. Ventana de Caja
 
 A continuación se desplegará el siguiente dialogo
 
-.. img:: resources/payment-search-dialog.png
-   :alt: Búsqueda de Caja
+ |Búsqueda de Caja|
 
-   alt\_text
+ Imagen 15. Búsqueda de Caja
 
-Ingrese el número de la selección generada en el proceso `Generar
-Selección de Pago (Desde Préstamo) <generate-payment-selection.md>`__
+Ingrese el número de la selección generada en el proceso `Generar Selección de Pago (Desde Préstamo) <generate-payment-selection.md>`__
 
 **Ventana de Préstamo:**
+========================
 
 Una vez en la ventana de Préstamo
 
-Vaya a la opción “\ ***Visualiza Detalle(Donde es Usado)***\ ” ubicada
-en la barra de herramientas.
+Vaya a la opción “**Visualiza Detalle(Donde es Usado)**” ubicada en la barra de herramientas.
 
-.. img:: resources/payment-loan-search.png
-   :alt: Búsqueda de Referencia de Préstamo
+ |Búsqueda de Referencia de Préstamo|
 
-   alt\_text
+ Imagen 16. Búsqueda de Referencia de Préstamo
 
 A continuación se desplegará el siguiente dialogo
 
-.. img:: resources/payment-loan-search-reference.png
-   :alt: Referencia de Préstamo
+ |Referencia de Préstamo|
 
-   alt\_text
+ Imagen 17. Referencia de Préstamo
 
-Seleccione la opción “\ ***Pagos de Préstamos***\ ”
+Seleccione la opción “**Pagos de Préstamos**”
 
-.. img:: resources/payment-loan-search-reference-selected.png
-   :alt: Referencia de Préstamo Seleccionada
+ |Referencia de Préstamo Seleccionada|
 
-   alt\_text
+ Imagen 18. Referencia de Préstamo Seleccionada
 
-Esta opción lo llevará automáticamente a los pagos asociados a este
-préstamo.
+Esta opción lo llevará automáticamente a los pagos asociados a este préstamo.
 
 Contabilidad del Proceso
 ========================
 
-ADempiere contabilizará el préstamo dependiendo de la contabilidad
-configurada en el cargo heredado desde la definición del producto
-financiero (***Vea Configuración de Producto Financiero (Préstamo)***) .
+ADempiere contabilizará el préstamo dependiendo de la contabilidad configurada en el cargo heredado desde la definición del producto financiero (**Vea Configuración de Producto Financiero (Préstamo)**) .
 
 .. raw:: html
 
@@ -387,5 +371,3 @@ Total
 
    </table>
 
-.. |alt\_text| image:: resources/payment-pay-selection-find.png
-.. |alt\_text| image:: resources/payment-print.png

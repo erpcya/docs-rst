@@ -1,4 +1,4 @@
-.. |Reunión| image:: resources/customer-meet.png 
+.. |Reunión| image:: resources/customer-meet.jpeg 
 .. |Smart| image:: resources/smart.png
 
 .. _documento/revisión-cambios:
