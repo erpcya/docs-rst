@@ -85,7 +85,7 @@ Registro Nuevo de Grupo de Activo
     Imagen 9. Icono Guardar Cambios
 
 Pestaña Grupo Cuenta
---------------------
+********************
 
 #. Seleccione la pestaña "**Grupo Cuenta**" y proceda al llenado de los campos correspondientes.
 
