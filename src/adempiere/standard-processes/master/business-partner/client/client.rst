@@ -1,4 +1,4 @@
-.. |Menú de ADempiere| image:: ../resources/menusocio.png
+.. |Menú de ADempiere| image:: resources/menusocio.png
 .. |Ventana Principal Socio del Negocio| image:: resources/ventana.png 
 .. |Campo Organización| image:: resources/organizacion.png 
 .. |Campo Código| image:: resources/codigo.png 
@@ -113,12 +113,12 @@
 .. |Campo Título| image:: resources/titulo.png 
 .. |Campo Cumpleaños| image:: resources/cumple.png 
 .. |Campo Teléfono de Contacto| image:: resources/tlf.png 
-.. |Campo Teléfono Móvil| image:: resources/movil.png 
-.. |Campo Fax| image:: resources/faxcontacto.png 
+.. |Campo Teléfono Móvil Contacto| image:: resources/movil.png 
+.. |Campo Fax Contacto| image:: resources/faxcontacto.png 
 .. |Campo Tipo de Notificación| image:: resources/notificacion.png 
 .. |Campo Posición| image:: resources/posicion.png 
 .. |Campo Acceso Total Socio del Negocio| image:: resources/acceso.png 
-.. |Icono Guardar Cambios| image:: resources/campos.png 
+.. |Icono Guardar Cambios2| image:: resources/campos.png 
 
 
 .. _documento/socio-cliente:
@@ -245,7 +245,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione en el campo "**Grupo de Socio del Negocio**", el grupo de socio del negocio al que pertenezca el socio del negocio cliente que esta registrando, para este ejemplo el grupo utilizado es "**Clientes Nacionales**".
 
-        |Campo Grupo de Socio del Negocio
+        |Campo Grupo de Socio del Negocio|
         
         Imagen 18. Campo Grupo de Socio del Negocio
 
@@ -893,13 +893,13 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
     #. Introduzca en el campo "**Teléfono Móvil**", el teléfono móvil para localizar a la persona de contacto con el del socio del negocio.
 
-        |Campo Teléfono Móvil| 
+        |Campo Teléfono Móvil Contacto| 
         
         Imagen 116. Campo Teléfono Móvil
 
     #. Introduzca en el campo "**Fax**", el fax de contacto del socio del negocio.
 
-        |Campo Fax|
+        |Campo Fax Contacto|
         
         Imagen 117. Campo Fax
 
@@ -923,7 +923,7 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
     #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientras de ADempiere, para guardar el registro de los campos.
 
-        |Icono Guardar Cambios| 
+        |Icono Guardar Cambios2| 
         
         Imagen 121. Icono Guardar Cambios
 
