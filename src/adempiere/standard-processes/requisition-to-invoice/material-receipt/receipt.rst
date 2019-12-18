@@ -3,7 +3,7 @@
 **Crear Recepción de Productos**
 --------------------------
 
-#. Ubique en el menú de ADempiere la ventana "**Recepción de Productos**", adjunto imagen para referencia.
+#. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Recepción de Productos**", adjunto imagen para referencia.
 
    .. documento/recepción-productos-01
    
@@ -13,7 +13,7 @@
 
       Imagen 1. Menú de ADempiere
 
-#. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
+#. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas de ADempiere, para crear un documento nuevo.
 
    .. documento/recepción-productos-02
    
@@ -23,7 +23,7 @@
 
       Imagen 2. Registro Nuevo
 
-   #. Seleccione la organización en el campo "**Organización**".
+   #. Seleccione en el campo "**Organización**", la organización para la cual se esta realizando el documento de recepción de productos, el valor en el mismo debe ser diferente del símbolo (*).
    
       .. documento/recepción-productos-03
       
@@ -33,7 +33,7 @@
 
          Imagen 3. Campo Organización
 
-   #. Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
+   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`_ elaborado por la empresa ERPyA. 
 
       .. documento/recepción-productos-04
       
@@ -43,7 +43,7 @@
 
          Imagen 4. Campo Tipo de Documento
 
-   #. Seleccione la fecha de movimiento en el campo "**Fecha de Movimiento**".
+   #. Seleccione en el campo "**Fecha de Movimiento**", la fecha en la que se recepcionaron los productos.
 
       .. documento/recepción-productos-05
       
@@ -53,7 +53,7 @@
 
          Imagem 5. Campo Fecha de Movimiento
 
-   #. Seleccione la fecha contable en el campo "**Fecha Contable**".
+   #. Seleccione en el campo "**Fecha Contable**", la fecha de elaboración del documento.
 
       .. documento/recepción-productos-06
       
@@ -63,7 +63,7 @@
 
          Imagen 6. Campo Fecha Contable
 
-   #. Seleccione el socio del negocio en el campo "**Socio del Negocio**".
+   #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor del cual se estan recibiendo los productos.
 
       .. documento/recepción-productos-07
       
@@ -73,7 +73,7 @@
 
          Imagen 7. Campo Socio del Negocio
 
-   #. Seleccione el almacén en el campo "**Almacén**".
+   #. Seleccione en el campo "**Almacén**", el almacén en que cual se guardarán los productos que se estan recibiendo.
 
       .. documento/recepción-productos-08
       
@@ -93,7 +93,7 @@
 
          Imagen 9. Opción Crear Desde
 
-      #. Seleccione en el campo "**Crear Desde Tipo**", el tipo de documento desde donde va a crear el documento de recepción.
+      #. Seleccione en el campo "**Crear Desde Tipo**", el tipo de documento desde donde se va a crear el documento de recepción, para este ejemplo se crea desde tipo "**Factura**". 
 
          .. documento/recepción-productos-10
          
@@ -143,7 +143,7 @@
 
             Imagen 14. Opción OK
 
-#. Seleccione la opción "**Completar**" en el inferior del documento de recepción.
+#. Seleccione la opción "**Completar**" en la parte inferior derecha del documento de recepción de productos.
 
    .. documento/recepción-productos-15
    
