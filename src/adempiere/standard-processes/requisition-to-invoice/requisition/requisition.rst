@@ -1,3 +1,24 @@
+.. |Menú de ADempiere| image:: resources/menureq.png
+.. |Icono Registro Nuevo| image:: resources/nuevareq.png
+.. |Campo Organización| image:: resources/organizacion.png
+.. |Campo Tipo de Documento| image:: resources/tipodoc.png
+.. |Campo Número de Documento| image:: resources/numdoc.png
+.. |Campo Usuario| image:: resources/usuario.png
+.. |Campo Descripción| image:: resources/descripcion.png
+.. |Campo Prioridad| image:: resources/prioridad.png
+.. |Campo Fecha Requerida| image:: resources/fecha.png
+.. |Campo Almacén| image:: resources/almacen.png
+.. |Campo Lista de Precios| image:: resources/lista.png
+.. |Guardar Cambios| image:: resources/guardar.png
+.. |Línea Requisición| image:: resources/linea.png
+.. |Campo Producto| image:: resources/producto.png
+.. |Campo Cantidad| image:: resources/cantidad.png
+.. |Campo UM| image:: resources/um.png
+.. |Guardar Cambios 2| image:: resources/guardarli.png
+.. |Opción Completar| image:: resources/ventanaycompletar.png
+.. |Completar Documento| image:: resources/completar.png
+
+
 .. _documento/requisición-compra:
 
 Crear Requisición a Compra
@@ -101,7 +122,7 @@ Crear Requisición a Compra
     
 #. Seleccione el icono "**Guardar**" de la barra de herramientas de ADempiere para guardar los cambios realizados.
 
-    |Guardar Cambios| image:: resources/guardarli.png
+    |Guardar Cambios 2| image:: resources/guardarli.png
     
     Imagen 17. Guardar Cambios
     
