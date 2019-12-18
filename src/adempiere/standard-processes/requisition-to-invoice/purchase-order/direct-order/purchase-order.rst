@@ -1,7 +1,7 @@
 .. _documento/orden-de-compra:
 
 **Crear Orden de Compra**
--------------------
+--------------------------
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Órdenes de Compra**", adjunto imagen para referencia.
 
@@ -9,7 +9,6 @@
        
        .. figure:: resources/menu.png
           :align: center
-          
           :alt: Menú de ADempiere
 
           Imagen 1. Menú de ADempiere
