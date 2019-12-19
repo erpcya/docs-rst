@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/accounting/additional-costs:
+.. _src/adempiere/standard-processes/performance-analysis/additional-costs:
 
 ==================
 Costos Adicionales
