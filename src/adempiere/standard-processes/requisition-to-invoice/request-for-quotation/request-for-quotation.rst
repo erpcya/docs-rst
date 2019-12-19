@@ -32,6 +32,20 @@
 .. |Caso Solicitud 3| image:: resources/casosol3.png
 .. |Menú de ADempiere 3| image:: resources/menu3.png
 .. |Ventana Solicitud para Cotización con Respuesta| image:: resources/ventana3.png
+.. |Registro 1 por Socio del Negocio Proveedor| image:: resources/registro1.png
+.. |Pestaña Línea Respuesta 1| image:: resources/pest6.png
+.. |Registro del Producto 1| image:: resources/registro2.png
+.. |Pestaña Cantidad Respuesta 1| image:: resources/pest7.png
+.. |Campo Precio| image:: resources/precio1.png
+.. |Icono Guardar Cambios 7| image:: resources/guardar7.png
+.. |Opción Completar Verificación| image:: resources/completar1.png
+.. |Ventana Completar Verificación| image:: resources/ok2.png
+.. |Checklist Completo| image:: resources/registro3.png
+.. |Reporte de Solicitud de Cotización con Respuesta 1| image:: resources/reporte1.png
+.. |Caso Solicitud con Respuesta 2| image:: resources/registro4.png
+.. |Reporte de Solicitud de Cotización con Respuesta 2| image:: resources/reporte2.png
+.. |Caso Solicitud con Respuesta 3| image:: resources/registro5.png
+.. |Reporte de Solicitud de Cotización con Respuesta 3| image:: resources/reporte3.png
 
 .. _documento/solicitud-cotización:
 
@@ -44,7 +58,7 @@ Crear Tema de Solicitud para Cotizar
 
     Imagen 1. Menú de ADempiere
 
-#. Podra visualizar la siguiente ventana con los registros que la empresa tiene de los diferentes temas de solicitud para cotizar. Seleccione el icono "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+#. Podrá visualizar la siguiente ventana con los registros que la empresa tiene de los diferentes temas de solicitud para cotizar. Seleccione el icono "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
     |Ventana Tema de Solicitud para Cotizar|
 
@@ -153,7 +167,7 @@ Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
 Pestaña SCP (RfQ)
 +++++++++++++++++
 
-#. Podra visualizar la siguiente ventana con los registros de solicitud de cotización que la empresa tiene. Seleccione el icono "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+#. Podrá visualizar la siguiente ventana con los registros de solicitud de cotización que la empresa tiene. Seleccione el icono "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
     |Ventana Solicitud para Cotización|
 
@@ -293,7 +307,7 @@ Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total
         La forma "**Cotiza Sólo el Total**", realiza la cotización sumando el total de cada línea de la solicitud.  
 
 
-Caso 2: Solicitud para Cotización por Tipo Cótiza todas las Líneas
+Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas
 ******************************************************************
 
 #. Realice el procedimiento regular para generar una "**Solicitud para Cotización**" explicado anteriormente, con la diferencia de que debe seleccionar en el campo "**Tipo SCP (RfQ)**", la opción "**Cotiza todas las Líneas**". Al culminar todo el procedimiento hasta el envío de la notificación a los socios del negocio proveedores, el registro quedaría de la siguiente manera.
@@ -316,10 +330,138 @@ Solicitud para Cotización con Respuesta
 
     Imagen 33. Menú de ADempiere
 
-    #. Podra visualizar la ventana "**Solicitud para Cotización con Respuesta**", con los registros de cotización creados por proveedor, luego de seleccionar la opción "**Crea e Invita**", de la ventana "**Solicitud para Cotización**".
+    #. Podrá visualizar la ventana "**Solicitud para Cotización con Respuesta**", con los registros de solicitud de cotización creados luego de seleccionar la opción "**Crea e Invita**", de la ventana "**Solicitud para Cotización**".
 
-    |Ventana Solicitud para Cotización con Respuesta|
+        |Ventana Solicitud para Cotización con Respuesta|
 
-    Imagen 34. Ventana de Solicitud para Cotización con Respuesta
+        Imagen 34. Ventana de Solicitud para Cotización con Respuesta
 
+        .. note:: 
+
+            ADempiere crea tantos registros de solicitud de cotización con respuesta como proveedores tenga la solicitud de cotización realizada por la empresa. Cada registro creado de una solicitud de cotización contiene su mismo número de documento en el campo "**SCP (RfQ)**". 
+            
+            Puede cambiar la vista de la ventana con ayuda del icono "**Cambiar mono/multi registro**", ubicado en la barra de herramientas de ADempiere. De esta manera, puede visualizar en la pestaña "**Línea Respuesta**" los registros de productos por proveedor que posee la solicitud de cotización con respuesta.
+
+    #. Ubique en el registro de la solicitud de cotización con respuesta, el socio del negocio proveedor para cargar a ADempiere la respuesta de cotización por producto.
+
+        |Registro 1 por Socio del Negocio Proveedor|
+
+        Imagen 35. Registro por Socio del Negocio Proveedor
+
+Caso 1: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Líneas Seleccionadas
+**************************************************************************************
+
+Pestaña Línea Respuesta
++++++++++++++++++++++++
+
+#. Seleccione la pestaña "**Línea Respuesta**" para navegar entre los registros de productos o servicios que fueron cotizados al socio del negocio proveedor.
+
+    |Pestaña Línea Respuesta 1|
+
+    Imagen 36. Pestaña Línea Respuesta
+
+    .. note:: 
+
+        Puede visualizar en la parte inferior derecha de la pestaña, la cantidad de registros de productos cotizados que posee el socio del negocio proveedor.
+
+    #. Ubique el registro del producto para cargar la respuesta del socio del negocio proveedor.
+
+        |Registro del Producto 1|
+
+        Imagen 37. Registro del Producto Desinfectante
+
+Pestaña Cantidad Respuesta
+++++++++++++++++++++++++++
+
+#. Seleccione la pestaña "**Cantidad Respuesta**" para cargar el precio cotizado por el socio del negocio proveedor.
+
+    |Pestaña Cantidad Respuesta 1|
+
+    Imagen 38. Pestaña Cantidad Respuesta
+
+    #. Introduzca en el campo "**Precio**", la respuesta del precio cotizado por el socio del negocio proveedor.
+
+        |Campo Precio|
+
+        Imagen 39. Campo Precio
+
+    #. Seleccione el icono "**Guardar Cambios**" ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos.
+
+        |Icono Guardar Cambios 7|
+
+        Imagen 40. Icono Guardar Cambios
+
+    .. note:: 
+
+        Esta pestaña se debe seleccionar y realizar el proceso explicado antes, por cada registro que tenga la pestaña “**Línea Respuesta**”.
+
+Pestaña Respuesta
++++++++++++++++++
+
+#. Regrese a la ventana principal "**Respuesta**" y seleccione la opción "**Completar Verificación**", para completar el documento de solicitud de cotización con respuesta.
     
+    |Opción Completar Verificación|
+
+    Imagen 41. Opción Completar Verificación
+
+    #. Podrá visualizar la siguiente ventana de la opción "**Completar Verificación**", donde debe seleccionar la opción "**OK**" para completar el documento.
+
+        |Ventana Completar Verificación|
+
+        Imagen 42. Ventana Completar Verificación
+
+#. Podrá visualizar que el checklist "**Completo**" se tilda automáticamente al completar el documento.
+
+    |Checklist Completo| 
+
+    Imagen 43. Checklist Completo
+
+.. note::
+
+    Repita en cada uno de los registros de socios del negocio proveedores de la "**Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Líneas Seleccionadas**", el procedimiento explicado anteriormente.
+
+
+Consultar el Reporte de Respuesta de Solicitud para Cotización
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#. Al consultar la solicitud de cotización con respuesta de "**Caso 1: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Líneas Seleccionadas**", se obtiene el siguiente reporte.
+
+    |Reporte de Solicitud de Cotización con Respuesta 1|
+
+    Imagen 44. Reporte de Solicitud de Cotización con Respuesta Caso 1
+
+Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total
+*******************************************************************************
+
+#. Realice el procedimiento regular para generar una "**Solicitud para Cotización con Respuesta**" explicado anteriormente. 
+
+    |Caso Solicitud con Respuesta 2|
+
+    Imagen 45. Registro de la Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total 
+
+Consultar el Reporte de Respuesta de Solicitud para Cotización
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#. Al consultar la solicitud de cotización con respuesta de "**Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total**", se obtiene el siguiente reporte.
+
+    |Reporte de Solicitud de Cotización con Respuesta 2|
+
+    Imagen 46. Reporte de Solicitud de Cotización con Respuesta Caso 2
+
+Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
+**********************************************************************************
+
+#. Realice el procedimiento regular para generar una "**Solicitud para Cotización con Respuesta**" explicado anteriormente. 
+
+    |Caso Solicitud con Respuesta 3|
+
+    Imagen 45. Registro de la Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
+
+Consultar el Reporte de Respuesta de Solicitud para Cotización
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+#. Al consultar la solicitud de cotización con respuesta de "**Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas**", se obtiene el siguiente reporte.
+
+    |Reporte de Solicitud de Cotización con Respuesta 3|
+
+    Imagen 46. Reporte de Solicitud de Cotización con Respuesta Caso 3
