@@ -10,6 +10,5 @@ El proceso de devolución de cliente es realizado por la empresa con la finalida
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     customer-return

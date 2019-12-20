@@ -8,6 +8,5 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     discount-schema

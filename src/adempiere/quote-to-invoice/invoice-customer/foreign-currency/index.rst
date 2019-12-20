@@ -8,6 +8,5 @@ El presente instructivo es elaborado por la empresa ERPyA, con la finalidad de b
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     foreign-currency
