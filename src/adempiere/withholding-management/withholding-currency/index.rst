@@ -1,4 +1,4 @@
-.. _src/adempiere/withholding-currency:
+.. _src/adempiere/withholding-management/withholding-currency:
 
 ==========================================
 Retención de Cuentas por Pagar Multimoneda

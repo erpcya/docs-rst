@@ -19,4 +19,4 @@ Los procedimientos estándares de ADempiere en la versión 3.7.0, contempla los 
     returns/index
     open-items/index
     material-management/index
-    withholding-currency/index
+    withholding-management/index

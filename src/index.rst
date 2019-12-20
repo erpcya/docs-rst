@@ -13,16 +13,14 @@ Tabla de Contenido
 
 
 .. toctree::
-    :caption: Procedimientos de E.R.P. Consultores y Asociados, C.A.
+    :caption: E.R.P. Consultores y Asociados, C.A.
     :maxdepth: 3
     :numbered:
-
-    Esta sección está dedicada a las publicaciones de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ para todo lo relacionado con procedimientos relacionados con los clientes y cualquier otra forma de trabajo de interés para el cliente.
-
+    
     general/procedures/index
 
 .. toctree::
-    :caption: Procedimientos Estándares de ADempiere
+    :caption: ADempiere
     :maxdepth: 3
     :numbered:
 
