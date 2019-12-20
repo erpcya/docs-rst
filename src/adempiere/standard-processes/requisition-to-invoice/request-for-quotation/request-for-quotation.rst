@@ -46,6 +46,13 @@
 .. |Reporte de Solicitud de Cotización con Respuesta 2| image:: resources/reporte2.png
 .. |Caso Solicitud con Respuesta 3| image:: resources/registro5.png
 .. |Reporte de Solicitud de Cotización con Respuesta 3| image:: resources/reporte3.png
+.. |Registro del Caso 1| image:: resources/registro6.png
+.. |Ventana Validación de Respuestas| image:: resources/ok3.png
+.. |Registro del Caso 2| image:: resources/registro7.png
+.. |Registro del Caso 3| image:: resources/registro8.png
+.. |Checklist Ganador Seleccionado 1| image:: resources/ganador1.png
+.. |Checklist Ganador Seleccionado 2| image:: resources/ganador2.png
+.. |Checklist Ganador Seleccionado 3| image:: resources/ganador3.png
 
 .. _documento/solicitud-cotización:
 
@@ -455,7 +462,7 @@ Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las L�
 
     |Caso Solicitud con Respuesta 3|
 
-    Imagen 45. Registro de la Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
+    Imagen 47. Registro de la Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
 
 Consultar el Reporte de Respuesta de Solicitud para Cotización
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
@@ -464,4 +471,82 @@ Consultar el Reporte de Respuesta de Solicitud para Cotización
 
     |Reporte de Solicitud de Cotización con Respuesta 3|
 
-    Imagen 46. Reporte de Solicitud de Cotización con Respuesta Caso 3
+    Imagen 48. Reporte de Solicitud de Cotización con Respuesta Caso 3
+
+Solicitud para Cotización
+=========================
+
+Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
+**********************************************************************
+
+#. Ubique en la ventana "**Solicitud para Cotización**" el registro del "**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**" y seleccione la opción "**Valuación de Respuestas**".
+
+    |Registro del Caso 1|
+
+    Imagen 49. Registro del Caso 1.
+
+#. Podrá visualizar la ventana "**Validación de Respuestas**" donde debe seleccionar la opción "**OK**".
+
+    |Ventana Validación de Respuestas|
+
+    Imagen 50. Ventana Validación de Respuesta
+
+Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total
+***************************************************************
+
+#. Ubique en la ventana "**Solicitud para Cotización**" el registro del "**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**" y seleccione la opción "**Valuación de Respuestas**".
+
+    |Registro del Caso 2|
+
+    Imagen 51. Registro del Caso 2
+
+#. Podrá visualizar la ventana "**Validación de Respuestas**" donde debe seleccionar la opción "**OK**".
+
+    |Ventana Validación de Respuestas|
+
+    Imagen 52. Ventana Validación de Respuesta
+
+Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas
+******************************************************************
+
+#. Ubique en la ventana "**Solicitud para Cotización**" el registro del "**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**" y seleccione la opción "**Valuación de Respuestas**".
+
+    |Registro del Caso 3|
+
+    Imagen 53. Registro del Caso 3
+
+#. Podrá visualizar la ventana "**Validación de Respuestas**" donde debe seleccionar la opción "**OK**".
+
+    |Ventana Validación de Respuestas|
+
+    Imagen 54. Ventana Validación de Respuesta
+
+Solicitud para Cotización con Respuesta
+=======================================
+
+Caso 1: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Líneas Seleccionadas
+**************************************************************************************
+
+#. Ubique en la ventana "**Solicitud para Cotización (Con Respuesta)**" el registro del "**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**" y navegue entre los registros de la pestaña "**Línea Respuesta**" de cada socio del negocio proveedor para buscar el registro que tenga el checklist "**Ganador Seleccionado**" tildado de la siguiente manera.
+
+    |Checklist Ganador Seleccionado 1|
+
+    Imagen 55. Checklist Ganador Seleccionado
+
+Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total
+*******************************************************************************
+
+#. Ubique en la ventana "**Solicitud para Cotización (Con Respuesta)**" el registro del "**Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total**" y navegue entre los registros de cada socio del negocio proveedor para buscar el registro que tenga el checklist "**Ganador Seleccionado**" tildado de la siguiente manera.
+
+    |Checklist Ganador Seleccionado 2|
+
+    Imagen 56. Checklist Ganador Seleccionado
+
+Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
+**********************************************************************************
+
+#. Ubique en la ventana "**Solicitud para Cotización (Con Respuesta)**" el registro del "**Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas**" y navegue entre los registros de cada socio del negocio proveedor para buscar el registro que tenga el checklist "**Ganador Seleccionado**" tildado de la siguiente manera.
+
+    |Checklist Ganador Seleccionado 3|
+
+    Imagen 57. Checklist Ganador Seleccionado
