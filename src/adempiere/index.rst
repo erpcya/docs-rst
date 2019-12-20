@@ -12,11 +12,36 @@ Los procedimientos estándares de ADempiere en la versión 3.7.0, contempla los 
 
 
 .. toctree::
-    :maxdepth: 1
+    :caption: Gestión de Ventas
+    :maxdepth: 3
     :numbered:
 
     quote-to-invoice/index
+
+.. toctree::
+    :caption: Gestión de Devoluciones
+    :maxdepth: 3
+    :numbered:
+
     returns/index
+
+.. toctree::
+    :caption: Gestión de Saldos Pendientes
+    :maxdepth: 3
+    :numbered:
+
     open-items/index
+
+.. toctree::
+    :caption: Gestión de Materiales
+    :maxdepth: 3
+    :numbered:
+
     material-management/index
+
+.. toctree::
+    :caption: Gestión de Retenciones
+    :maxdepth: 3
+    :numbered:
+
     withholding-currency/index
