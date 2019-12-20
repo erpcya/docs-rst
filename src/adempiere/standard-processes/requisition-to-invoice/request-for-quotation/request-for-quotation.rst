@@ -55,8 +55,10 @@
 .. |Checklist Ganador Seleccionado 3| image:: resources/ganador3.png
 .. |Icono Proceso| image:: resources/proceso.png
 .. |Ventana Crea Orden de Compra| image:: resources/ok4.png
-.. |Orden de Compra| image:: resources/
-
+.. |Orden de Compra 1| image:: resources/compra1.png
+.. |Orden de Compra 2| image:: resources/compra2.png
+.. |Orden de Compra 3| image:: resources/compra4.png
+.. |Orden de Compra 4| image:: resources/compra3.png
 
 .. _documento/solicitud-cotización:
 
@@ -573,11 +575,15 @@ Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
 
         Imagen 59. Ventana Crea Orden de Compra
 
-#. Podrá visualizar en la ventana "**Orden de Compra**", el registro de la orden de compra creada desde el icono "**Proceso**".
+#. ADempiere genera en la ventana "**Orden de Compra**", tantas órdenes de compra como ganadores seleccionados existan. En el ejemplo de este caso existen 2 ganadores seleccionados que son los socios "**Estándar 1**" y "**Estándar 2**".
 
     |Orden de Compra 1|
 
-    Imagen 60. Registro de Orden de Compra del Caso 1
+    Imagen 60. Orden de Compra del Socio del Negocio Proveedor Estándar 1.
+
+    |Orden de Compra 2|
+
+    Imagen 61. Orden de Compra del Socio del Negocio Proveedor Estándar 2.
 
 Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total
 *******************************************************************************
@@ -586,7 +592,7 @@ Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Tota
 
     |Orden de Compra 2|
 
-    Imagen 60. Registro de Orden de Compra del Caso 2
+    Imagen 62. Registro de Orden de Compra del Caso 2
 
 Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
 **********************************************************************************
@@ -595,4 +601,4 @@ Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las L�
 
     |Orden de Compra 3|
 
-    Imagen 60. Registro de Orden de Compra del Caso 3
+    Imagen 63. Registro de Orden de Compra del Caso 3
