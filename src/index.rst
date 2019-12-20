@@ -13,15 +13,15 @@ Tabla de Contenido
 
 
 .. toctree::
-    :caption: E.R.P. Consultores y Asociados, C.A.
-    :maxdepth: 3
+    :caption: Herramienta Open Project en E.R.P. Consultores y Asociados, C.A.
+    :maxdepth: 2
     :numbered:
     
     general/procedures/index
 
 .. toctree::
     :caption: ADempiere
-    :maxdepth: 3
+    :maxdepth: 2
     :numbered:
 
     adempiere/index

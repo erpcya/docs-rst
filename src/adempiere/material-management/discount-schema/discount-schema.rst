@@ -14,7 +14,7 @@ ERPyA en beneficio del cliente modificó el estándar del esquema de descuentos 
 
          Imagen 1. Menú de ADempiere
 
-#. Podrá apreciar la siguiente ventana de esquema contable con todos los registros realizados, para este ejemplo se muestra el registro del esquema de descuentos "**Independiente**".
+#. Podrá apreciar la siguiente ventana de esquema contable con todos los registros realizados. Para este ejemplo se muestra el registro del esquema de descuentos "**Independiente**".
 
       .. documento/esquema-descuentos-02
    
@@ -23,7 +23,7 @@ ERPyA en beneficio del cliente modificó el estándar del esquema de descuentos 
 
          Imagen 2. Ventana de Esquema de Descuentos
 
-#. Seleccione la pestaña "**Descuentos**" para apreciar los registros de las diferentes monedas que tiene un mismo producto, para este ejemplo se muestra el registro del producto "**Estándar**".
+#. Seleccione la pestaña "**Descuentos**" para apreciar los diferentes registros de "**Término de Pago**2 y "**Moneda**" que tiene un mismo producto. Para este ejemplo se muestra el registro del producto "**Estándar**".
 
       .. documento/esquema-descuentos-03
       
