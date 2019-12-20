@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/open-items/cash-journal:
+.. _src/adempiere/open-items/cash-journal:
 
 =======================
 Cobranza en Multimoneda

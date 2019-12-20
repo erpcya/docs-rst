@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/quote-to-invoice:
+.. _src/adempiere/quote-to-invoice:
 
 ==============================
 Gestión de Ventas de ADempiere

@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/returns:
+.. _src/adempiere/returns:
 
 ====================================
 Gestión de Devoluciones de ADempiere

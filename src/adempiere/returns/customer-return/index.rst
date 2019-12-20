@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/returns/customer-return:
+.. _src/adempiere/returns/customer-return:
 
 ============================================
 Cerrar Autorización de Devolución de Cliente

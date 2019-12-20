@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/material-management:
+.. _src/adempiere/material-management:
 
 ==================================
 Gestión de Materiales de ADempiere

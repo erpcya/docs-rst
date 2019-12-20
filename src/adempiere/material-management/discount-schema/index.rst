@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/material-management/discount-schema:
+.. _src/adempiere/material-management/discount-schema:
 
 =====================
 Esquema de Descuentos

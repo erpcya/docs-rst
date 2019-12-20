@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/quote-to-ivoice/invoice-customer/foreign-currency:
+.. _src/adempiere/quote-to-ivoice/invoice-customer/foreign-currency:
 
 ===========================================
 Documentos de Cuentas por Cobrar en Dólares

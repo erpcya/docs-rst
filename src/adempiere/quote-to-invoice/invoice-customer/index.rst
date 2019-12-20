@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/quote-to-ivoice/invoice-customer:
+.. _src/adempiere/quote-to-ivoice/invoice-customer:
 
 =============================================
 Documentos de Cuentas por Cobrar de ADempiere
