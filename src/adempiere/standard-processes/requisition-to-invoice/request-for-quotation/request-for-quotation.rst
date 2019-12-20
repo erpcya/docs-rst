@@ -53,6 +53,10 @@
 .. |Checklist Ganador Seleccionado 1| image:: resources/ganador1.png
 .. |Checklist Ganador Seleccionado 2| image:: resources/ganador2.png
 .. |Checklist Ganador Seleccionado 3| image:: resources/ganador3.png
+.. |Icono Proceso| image:: resources/proceso.png
+.. |Ventana Crea Orden de Compra| image:: resources/ok4.png
+.. |Orden de Compra| image:: resources/
+
 
 .. _documento/solicitud-cotización:
 
@@ -550,3 +554,45 @@ Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las L�
     |Checklist Ganador Seleccionado 3|
 
     Imagen 57. Checklist Ganador Seleccionado
+
+Crear Orden de Compra 
+=====================
+
+Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
+**********************************************************************
+
+#. Ubique en la ventana "**Solicitud para Cotización**" el registro del "**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**" y seleccione la opción "**Crear Orden de Compra**", ubicada en el icono "**Proceso**" de la barra de herramientas de ADempiere.
+
+    |Icono Proceso|
+
+    Imagen 58. Icono Proceso
+    
+    #. Podrá visualizar la ventana "**Crea Orden de Compra**" donde debe seleccionar el tipo de documento a generar en el campo "**Tipo de Documento**" y la opción "**OK**".
+
+        |Ventana Crea Orden de Compra|
+
+        Imagen 59. Ventana Crea Orden de Compra
+
+#. Podrá visualizar en la ventana "**Orden de Compra**", el registro de la orden de compra creada desde el icono "**Proceso**".
+
+    |Orden de Compra 1|
+
+    Imagen 60. Registro de Orden de Compra del Caso 1
+
+Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total
+*******************************************************************************
+
+#. Realice el procedimiento regular para generar una "**Orden de Compra**" explicado anteriormente. 
+
+    |Orden de Compra 2|
+
+    Imagen 60. Registro de Orden de Compra del Caso 2
+
+Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
+**********************************************************************************
+
+#. Realice el procedimiento regular para generar una "**Orden de Compra**" explicado anteriormente. 
+
+    |Orden de Compra 3|
+
+    Imagen 60. Registro de Orden de Compra del Caso 3
