@@ -3,7 +3,7 @@
 **Esquema de Descuentos**
 ~~~~~~~~~~~~~~~~~~~~~~~~~
 
-ERPyA en beneficio del cliente modificó el estándar del esquema de descuentos en ADempiere, posibilitando con ello que un mismo producto pueda ser registrado en el esquema de descuentos varias veces con diferentes monedas asociadas, es decir, varias líneas de registro de un mismo producto con diferentes monedas, a continuación se explica el comportamiento del esquema de descuentos en ADempiere.
+ERPyA en beneficio del cliente modificó el estándar del esquema de descuentos en ADempiere, posibilitando con ello que un mismo producto pueda ser registrado en el esquema de descuentos varias veces con diferentes monedas y términos de pagos asociados, es decir, varias líneas de registro de un mismo producto con diferentes monedas y términos de pago, a continuación se explica el comportamiento del esquema de descuentos en ADempiere.
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión de Materiales**", luego seleccione la carpeta "**Reglas de Gestión de Materiales**", por último seleccione la ventana "**Esquema de Descuentos**".
 
@@ -32,11 +32,11 @@ ERPyA en beneficio del cliente modificó el estándar del esquema de descuentos 
 
          Imagen 3. Pestaña de Descuentos
 
-.. warning::
+      .. warning::
 
-      Cabe destacar que se permite el múltiple registro de producto para poder asignarle las diferentes monedas en caso de que lo requiera.
+            Cabe destacar que se permite el múltiple registro de producto para poder asignarle las diferentes monedas y términos de pago en caso de que lo requiera.
 
-#. Podrá apreciar el registro del producto "**Estándar**" con moneda "**VES**" y porcentaje de descuento "**20,0**".
+#. Podrá apreciar el registro del producto "**Estándar**" con moneda "**VES**", término de pago "**CRÉDITO 7 DÍAS**" y porcentaje de descuento "**20,0**".
 
       .. documento/esquema-descuentos-04
       
@@ -56,9 +56,9 @@ ERPyA en beneficio del cliente modificó el estándar del esquema de descuentos 
 
 .. warning::
 
-      Si el campo "**Moneda**" seleccionado en la orden de venta es igual al campo "**Moneda**" en el esquema de descuentos, ADempiere aplica a la orden de venta el porcentaje correspondiente a ese registro. 
+      Si los campos "**Moneda**" y "**Término de Pago**" seleccionados en la orden de venta, son iguales a los campos "**Moneda**" y "**Término de Pago**" en el esquema de descuentos, ADempiere aplica a la orden de venta el porcentaje correspondiente a ese registro. 
 
-      Si el registro del producto en el esquema de descuentos tiene el campo "**Moneda**" en blanco, el porcentaje introducido en el campo "**% de Descuento para Corte**" aplica para todas las monedas al momento de realizar la orden de venta. 
+      ADempiere primero evalúa la coincidencia del campo "**Moneda**", luego la coincidencia del campo "**Término de Pago**", para posteriormente aplicar a la orden de venta el porcentaje que contiene el registro del producto en el esquema de descuento.
 
 **Orden de Venta en Dólares**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -74,7 +74,7 @@ La configuración del esquema de descuento es utilizado en la orden de venta emi
 
          Imagen 6. Menú de ADempiere
 
-#. Podrá apreciar la orden de venta "**28269**" en dólares donde se ejemplifica el caso de la generación de descuento por producto.
+#. Podrá apreciar la orden de venta "**1473**" en moneda "**USD**" y término de pago "**50% DE ANTICIPO***", donde se ejemplifica el caso de la generación de descuento en dolares por producto.
 
       .. documento/esquema-descuentos-07
       
