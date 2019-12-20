@@ -23,7 +23,7 @@ ERPyA en beneficio del cliente modificó el estándar del esquema de descuentos 
 
          Imagen 2. Ventana de Esquema de Descuentos
 
-#. Seleccione la pestaña "**Descuentos**" para apreciar los diferentes registros de "**Término de Pago**2 y "**Moneda**" que tiene un mismo producto. Para este ejemplo se muestra el registro del producto "**Estándar**".
+#. Seleccione la pestaña "**Descuentos**" para apreciar los diferentes registros de "**Término de Pago**" y "**Moneda**" que tiene un mismo producto. Para este ejemplo se muestra el registro del producto "**Estándar**".
 
       .. documento/esquema-descuentos-03
       
