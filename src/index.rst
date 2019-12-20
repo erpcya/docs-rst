@@ -21,7 +21,7 @@ Tabla de Contenido
 
 .. toctree::
     :caption: Procedimientos Estándares de ADempiere
-    :maxdepth: 2
+    :maxdepth: 3
     :numbered:
 
     adempiere/index

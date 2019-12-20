@@ -1,8 +1,8 @@
 .. _src/adempiere:
 
-======================================
-Procedimientos Estándares de ADempiere
-======================================
+===========================
+Procedimientos de ADempiere
+===========================
 
 ADempiere es un ERP, CRM y SCM software libre específicamente usa la licencia GNU/GPL v2 y es por excelencia el software que usa `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__
 
@@ -12,7 +12,7 @@ Los procedimientos estándares de ADempiere en la versión 3.7.0, contempla los 
 
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
     :numbered:
 
     quote-to-invoice/index
