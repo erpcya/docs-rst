@@ -16,7 +16,6 @@ Tabla de Contenido
     :numbered:
 
     general/procedures/index
-    lve/index
     adempiere/index
 
 Para Mayor Información
