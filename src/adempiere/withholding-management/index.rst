@@ -10,4 +10,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     :maxdepth: 2
     :numbered:
 
-    withholding-currency
+    withholding-currency/index
