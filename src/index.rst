@@ -11,11 +11,19 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 Tabla de Contenido
 ==================
 
+
 .. toctree::
-    :maxdepth: 2
+    :caption: Procedimientos de E.R.P. Consultores y Asociados, C.A.
+    :maxdepth: 3
     :numbered:
 
     general/procedures/index
+
+.. toctree::
+    :caption: Procedimientos Estándares de ADempiere
+    :maxdepth: 2
+    :numbered:
+
     adempiere/index
 
 Para Mayor Información
