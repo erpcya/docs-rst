@@ -500,7 +500,7 @@ Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
 Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total
 ***************************************************************
 
-#. Ubique en la ventana "**Solicitud para Cotización**" el registro del "**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**" y seleccione la opción "**Valuación de Respuestas**".
+#. Ubique en la ventana "**Solicitud para Cotización**" el registro del "**Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total**" y seleccione la opción "**Valuación de Respuestas**".
 
     |Registro del Caso 2|
 
@@ -515,7 +515,7 @@ Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total
 Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas
 ******************************************************************
 
-#. Ubique en la ventana "**Solicitud para Cotización**" el registro del "**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**" y seleccione la opción "**Valuación de Respuestas**".
+#. Ubique en la ventana "**Solicitud para Cotización**" el registro del "**Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas**" y seleccione la opción "**Valuación de Respuestas**".
 
     |Registro del Caso 3|
 
