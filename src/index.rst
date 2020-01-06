@@ -12,11 +12,17 @@ Tabla de Contenido
 ==================
 
 .. toctree::
+    :caption: Herramienta Open Project en E.R.P. Consultores y Asociados, C.A.
+    :maxdepth: 2
+    :numbered:
+    
+    general/procedures/index
+
+.. toctree::
+    :caption: Procedimientos Estándares de ADempiere
     :maxdepth: 2
     :numbered:
 
-    general/procedures/index
-    lve/index
     adempiere/index
 
 Para Mayor Información
