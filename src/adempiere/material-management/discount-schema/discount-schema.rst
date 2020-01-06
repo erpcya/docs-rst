@@ -92,6 +92,11 @@ La configuración del esquema de descuento es utilizado en la orden de venta emi
 
          Imagen 8. Pestaña Línea de la Orden
 
+.. note::
+
+      Este ejemplo se encuentra basado en el registro del esquema de descuento mostrado anteriormente con moneda "**USD**", término de pago "**50% DE ANTICIPO**" y porcentaje de descuento "**20,0**".
+
+
 **Orden de Venta en Bolívares**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -124,3 +129,7 @@ La configuración del esquema de descuento es utilizado en la orden de venta emi
 
          Imagen 11. Pestaña Línea de la Orden
 
+.. note::
+
+      Este ejemplo se encuentra basado en el registro del esquema de descuento mostrado anteriormente con moneda "**VES**", término de pago "**Inmediato**" y porcentaje de descuento "**5,0**".
+      
