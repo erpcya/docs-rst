@@ -36,7 +36,7 @@ ERPyA en beneficio del cliente modificó el estándar del esquema de descuentos 
 
             Cabe destacar que se permite el múltiple registro de producto para poder asignarle las diferentes monedas y términos de pago en caso de que lo requiera.
 
-#. Podrá apreciar el registro del producto "**Estándar**" con moneda "**VES**", término de pago "**CRÉDITO 7 DÍAS**" y porcentaje de descuento "**20,0**".
+#. Podrá apreciar el registro del producto "**Estándar**" con moneda "**VES**", término de pago "**Inmediato**" y porcentaje de descuento "**5,0**".
 
       .. documento/esquema-descuentos-04
       
@@ -45,7 +45,7 @@ ERPyA en beneficio del cliente modificó el estándar del esquema de descuentos 
 
          Imagen 4. Pestaña de Descuentos en Moneda VES
 
-#. Podrá apreciar el registro del producto "**Estándar**" con moneda "**USD**" y porcentaje de descuento "**10,0**".
+#. Podrá apreciar el registro del producto "**Estándar**" con moneda "**USD**", término de pago "**50% DE ANTICIPO**" y porcentaje de descuento "**20,0**".
 
       .. documento/esquema-descuentos-05
       
@@ -74,7 +74,7 @@ La configuración del esquema de descuento es utilizado en la orden de venta emi
 
          Imagen 6. Menú de ADempiere
 
-#. Podrá apreciar la orden de venta "**1473**" en moneda "**USD**" y término de pago "**50% DE ANTICIPO***", donde se ejemplifica el caso de la generación de descuento en dolares por producto.
+#. Podrá apreciar la orden de venta "**1473**" en moneda "**USD**" y término de pago "**50% DE ANTICIPO**", donde se ejemplifica el caso de la generación de descuento en dolares por producto.
 
       .. documento/esquema-descuentos-07
       
@@ -106,7 +106,7 @@ La configuración del esquema de descuento es utilizado en la orden de venta emi
 
          Imagen 9. Menú de ADempiere
 
-#. Podrá apreciar la orden de venta "**28268**" en bolívares donde se ejemplifica el caso de la generación de descuento por producto.
+#. Podrá apreciar la orden de venta "**1480**" en moneda "**VES**" y término de pago "**Inmediato**", donde se ejemplifica el caso de la generación de descuento en bolívares por producto.
 
       .. documento/esquema-descuentos-10
       
