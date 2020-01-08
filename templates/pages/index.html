@@ -1,0 +1,127 @@
+{% extends "layout.html" %}
+{% set title = _('Documentación de E.R.P. Consultores y Asociados, C.A.') %}
+{% block body %}
+  <h1>ADempiere<sup>&reg;</sup> {{ release|e }} Documentación</h1>
+<p>
+    {% block description %}{{ _('Esta documentación está dirigida a los clientes de <a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a>con la finalidad de guiar al usuario en la ejecución de sus actividades diarias sobre ADempiere ERP.') }}<br />
+    <br />
+    {{ _('La misma será actualizada periódicamente en función de las nuevas versiones de ADempiere.') }}<br />
+    <br />
+    {{ _('Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de esta herramienta') }}{% endblock %}.
+</p>
+
+{% block tables %}
+<h2>Herramienta Open Project</h2>
+<table class="contentstable" align="center">
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("general/procedures/openproject/index") }}">
+                    ¿Que es Open Project?
+                </a>
+                <br />
+                <span class="linkdescr">Conoce sobre la herramienta</span>
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("general/procedures/schedule-a-meeting") }}">
+                    Acordar una Reunión
+                </a>
+                <br />
+                <span class="linkdescr">Conoce el procedimiento para agendar una reunión</span>
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("general/procedures/customer-review") }}">
+                    Revisión de Cambios con Cliente
+                </a>
+                <br />
+                <span class="linkdescr">Definir objetivo en ambas partes</span>
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("general/procedures/support-doc") }}">
+                    Documentar una Tarea / Error
+                </a>
+                <br />
+                <span class="linkdescr">Conoce el procedimiento para reportar un error</span>
+            </p>
+        </td>
+    </tr>
+</table>
+
+<h2>Procesos de ADempiere</h2>
+<table class="contentstable" align="center">
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("adempiere/quote-to-invoice/index") }}">
+                    Gestión de Ventas
+                </a>
+                <br />
+                <span class="linkdescr">Consulta documentos de gestión de ventas  <br /> como <a href="{{ pathto("adempiere/quote-to-invoice/invoice-customer/foreign-currency/index") }}"">Cuentas por Cobrar en Dólares</a></span> 
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("adempiere/returns/index") }}">
+                    Gestión de Devoluciones
+                </a>
+                <br />
+                <span class="linkdescr">Consulta documentos de gestión de devoluciones como <a href="{{ pathto("adempiere/returns/customer-return/index") }}"">Cerrar Autorización de Devolución de Cliente</a></span>
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("adempiere/open-items/index") }}">
+                    Gestión de Saldos Pendientes
+                </a>
+                <br />
+                <span class="linkdescr">Consulta documentos de gestión de saldos pendientes como <a href="{{ pathto("adempiere/open-items/cash-journal/index") }}"">Cobranza en Multimoneda</a></span>
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("adempiere/material-management/index") }}">
+                    Gestión de Materiales
+                </a>
+                <br />
+                <span class="linkdescr">Consulta documentos de gestión de materiales como <a href="{{ pathto("adempiere/material-management/discount-schema/index") }}"">Esquema de Descuentos</a></span>
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("adempiere/withholding-management/index") }}">
+                    Gestión de Retenciones
+                </a>
+                <br />
+                <span class="linkdescr">Consulta documentos de gestión de retenciones como <a href="{{ pathto("adempiere/withholding-management/withholding-currency/index") }}"">Retención de Cuentas por Pagar Multimoneda</a></span>
+            </p>
+        </td>
+    </tr>
+</table>
+
+<h2>Para Mayor Información</h2>
+<table class="contentstable">
+    <tr>
+        <td width="50%">
+            <p class="biglink">Nuestra página oficial es: <a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></p>
+            <p class="biglink">Si desea reportar un error o una mejora puede hacerlo en: <a href="https://github.com/erpcya/docs/issues">GitHub</a></p>
+        </td>
+    </tr>
+</table>
+
+{% endblock %}
+{% endblock %}
