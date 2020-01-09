@@ -8,7 +8,7 @@ Esta sección está dedicada a las publicaciones de `E.R.P. Consultores y Asocia
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
+
 
     openproject/index
     customer-review
