@@ -111,7 +111,7 @@ El usuario puede conocer la identificación o número de la tarea, el estatus, e
    
    Imagen 9. Paquete de Trabajo
 
-.. example::
+.. note::
 
    "**Ejemplo**"
 
