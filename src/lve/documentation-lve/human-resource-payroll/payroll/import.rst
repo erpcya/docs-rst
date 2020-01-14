@@ -35,7 +35,7 @@
 
 
 .. |Menú de ADempiere 7| image:: resources/menu7.png
-.. |Icono Registro Nuevo| image:: resources/nuevo3.png
+.. |Icono Registro Nuevo 3| image:: resources/nuevo3.png
 .. |Campo Organización 3| image:: resources/org3.png
 .. |Campo Tipo de Documento 2| image:: resources/tipodoc2.png
 .. |Campo Factura 1| image:: resources/factura2.png
