@@ -51,18 +51,12 @@
 .. |Campo Cuenta Bancaria 2| image:: resources/factura2.png
 .. |Opción Crear Desde| image:: resources/total2.png
 .. |Ventana del Proceso Crear Desde| image:: resources/vent2.png
-.. |Opción Comenzar Búsqueda|image:: resources/
-.. |Seleccione Documentos| image:: resources/
+.. |Opción Comenzar Búsqueda|image:: resources/busqueda.png
+.. |Seleccione Documentos| image:: resources/selec.png
 .. |Opción Completar 3| image:: resources/
 
 
 .. _documento/procedimiento-importación:
-
-
-
-=============================
-Procedimento para Importación
-=============================
 
 Relación Anticipos a Intermediarios
 ===================================
