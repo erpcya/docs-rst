@@ -21,6 +21,7 @@
 .. |Pestaña Cuenta de Caja| image:: resources/cuenta2.png
 .. |Campo Organización 1| image:: resources/org2.png
 .. |Campo No. de Cuenta| image:: resources/cuenta3.png
+.. |Contabilidad| image:: resources/contabilidad.png
 .. |Menú de ADempiere 4| image:: resources/menu4.png
 .. |Campo Organización 2| image:: resources/org1.png
 .. |Campo Tipo de Documento| image:: resources/tipodoc1.png
@@ -56,7 +57,10 @@
 Procedimento para Importación
 =============================
 
+La caja a definir funge en el procedimiento de anticipos a terceros  como un puente para el registro y pago de los anticipos a proveedores involucrados en el procedimiento de importación y para la posterior liquidación de las facturas de servicios y cierre de los anticipos.
 
+En la ventana Definición de Diario de Caja se crean todas las posibles cajas que puedan manejarse dentro de una organización (Reembolso, Caja chica), a continuación se define el procedimiento para realizar la definición de diario de caja de importación y cruce de cuentas.
+ 
 Crear Orden de Compra de Importación
 ====================================
 
@@ -87,7 +91,7 @@ Crear Tipo de Conversión
 
         Imagen 4. Icono Registro Nuevo
 
-    #. Introduzca en el campo "**Nombre**" el número de la orden de compra creada anteriormente, seguido del símbolo "**_**" y el nombre del proveedor seleccionado en dicha orden.
+    #. Introduzca en el campo "**Nombre**" el número de la orden de compra que da origen a la importación, seguido del símbolo "**_**" y el nombre del proveedor seleccionado en dicha orden.
 
         |Campo Nombre|
 
@@ -224,11 +228,21 @@ Crear Caja Importación para Gestión de Terceros
         
         Iamgen 22. Campo Organización
 
-    #. Introduzca en el campo "**No. De Cuenta**", el nombre de la caja que esta definiendo. El nombre se compone del número de la orden de compra creada anteriormente, seguido del símbolo “**_**” y el nombre del proveedor intermediario. . Para ejemplificar el registro es utilizado el nombre "**OCI-1000024_Estandar**".
+    #. Introduzca en el campo "**No. De Cuenta**", el nombre de la caja que esta definiendo. El nombre se compone del número de la orden de compra que da origen a la importación, seguido del símbolo “**_**” y el nombre del proveedor intermediario. . Para ejemplificar el registro es utilizado el nombre "**OCI-1000024_Estandar**".
         
         |Campo No. de Cuenta|
 
         Imagen 23. Campo No. De Cuenta
+
+        .. note::
+
+            Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+
+    #. Debe ingresar las combinaciones "**1.1.2.4.1.001**" y "**1.1.2.4.1.002**", en los campos "**Bancos**" y "**Banco Movimientos no Conciliados**" de la pestaña "**Contabilidad**".
+
+        |Contabilidad|
+
+        Imagen 24. Contabilidad de Definición de la Caja.
 
 .. note::
 
@@ -237,6 +251,21 @@ Crear Caja Importación para Gestión de Terceros
 
 Gestión de Caja de Intermediario
 ================================
+
+Carga de Anticipos a Intermediarios con cargo de Anticipos a Terceros
+*********************************************************************
+
+La transferencia representa un proceso en el cual se generan los pagos por concepto de anticipos al gestor(s), el mismo requiere conocimientos básicos en el proceso actual de tesorería en ADempiere. 
+
+El traslado de fondo reflejará en la cuenta de banco un egreso por el anticipo (Pago a Conciliar) y genera un ingreso en la cuenta puente (Caja #Expediente) que será utilizado para gestionar los pagos de terceros, cuando a un gestor se le conceda un anticipo, el mismo se gestionará a través de la caja creada previamente.
+
+En primer lugar se creará el anticipo gestionando un traslado de fondos mediante el proceso de transferencia  a la caja (Caja #Expediente)  y se paga desde el banco en el cual sale realmente el pago. 
+
+Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, la transferencia bancaria es el proceso mediante el cual se realizan los traslados de fondos entre cuentas(Banco Real a Caja #Expediente), a continuación se define el proceso para realizar una transferencia bancaria en ADempiere. 
+
+
+Carga de Factura de Intermediarios
+**********************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
 
@@ -303,7 +332,7 @@ Gestión de Caja de Intermediario
             Imagen 33. Acción Completar
 
 Crear Documento por Pagar
-=========================
++++++++++++++++++++++++++
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
@@ -375,8 +404,8 @@ Gestión de Caja de Intermediario
     Repita el procedimiento con todos los documentos por pagar importación realizados al socio del negocio intermediario.
 
 
-Cancelar Facturas
-=================
+Cancelación de Facturas
+***********************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
