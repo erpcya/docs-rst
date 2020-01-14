@@ -26,6 +26,9 @@
 .. |Resultado Contable 1| image:: resources/eje1.png
 .. |Resultado Contable 2| image:: resources/eje2.png
 .. |Ejemplo de Transferencia Bancaria| image:: resources/transf1.png
+
+
+
 .. |Menú de ADempiere 4| image:: resources/menu4.png
 .. |Campo Organización 2| image:: resources/org1.png
 .. |Campo Tipo de Documento| image:: resources/tipodoc1.png
@@ -317,6 +320,17 @@ Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, 
 
 Carga de Factura de Intermediarios
 **********************************
+
+Posterior a la concesión del anticipo, será justificado el anticipo relacionando los gastos (Facturas) es entonces cuando se procede a liquidar los anticipos concedidos al gestor de importación.
+La operación de anticipos a terceros está compuesta por cinco fases u operaciones las cuales no tienen porqué ser todas necesarias en el proceso de liquidación:
+
+#. Anticipo a terceros(Gestor)
+#. Carga de Facturas de Cuentas por Pagar
+#. Registrar justificantes contra anticipo a terceros(Gestor)
+#. Incremento de anticipo a terceros(Gestor)
+#. Liquidación de Anticipos y CxP
+
+En la siguiente ventana de Caja se realizan todos los pagos de las facturas pendientes por cancelar, a continuación se define el proceso de caja en ADempiere.
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
 
