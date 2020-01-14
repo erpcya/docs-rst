@@ -25,21 +25,27 @@
 .. |Campo Organización 2| image:: resources/org1.png
 .. |Campo Tipo de Documento| image:: resources/tipodoc1.png
 .. |Campo Cuenta Bancaria| image:: resources/cuenta1.png
-.. |Campo Orden de Venta| image:: resources/orden2.png
-.. |Campo Tipo de Conversión| image:: resources/conversion1.png
+.. |Campo Cargo| image:: resources/orden2.png
+.. |Campo Moneda| image:: resources/conversion1.png
 .. |Campo Total del Pago| image:: resources/total1.png
+.. |Campo Socio del Negocio| image:: resources/socio1.png
 .. |Opción Completar| image:: resources/completar2.png
 .. |Menú de ADempiere 6| image:: resources/menu6.png
-.. |Documento por Pagar| image:: factura1.png
-
-
-
+.. |Documento por Pagar| image:: resources/factura1.png
+.. |Pestaña Línea de la Factura| image:: resources/linea.png
+.. |Campo Tipo de Documento 3| image:: resources/tipodoc3.png
+.. |Campo Factura 1| image:: resources/factura3.png
+.. |Opción Completar 2| image:: resources/completar3.png
 .. |Menú de ADempiere 7| image:: resources/menu7.png
 .. |Icono Registro Nuevo 3| image:: resources/nuevo3.png
 .. |Campo Organización 3| image:: resources/org3.png
 .. |Campo Tipo de Documento 2| image:: resources/tipodoc2.png
-.. |Campo Factura 1| image:: resources/factura2.png
-.. |Campo Total de Pago 2| image:: resources/total2.png
+.. |Campo Cuenta Bancaria 2| image:: resources/factura2.png
+.. |Opción Crear Desde| image:: resources/total2.png
+.. |Ventana del Proceso Crear Desde| image:: resources/vent2.png
+.. |Opción Comenzar Búsqueda|
+.. |Seleccione Documentos|
+.. |Opción Completar 3|
 
 
 .. _documento/procedimiento-importación:
@@ -60,7 +66,7 @@ Crear Orden de Compra de Importación
 
     Imagen 1: Menú de ADempiere
 
-#. Realice el procedimiento regular para realizar una orden de compra, explicado en el material :ref: `documento/orden-de-compra` pero sin completar dicho documento que esta realizando.
+#. Realice el procedimiento regular para realizar una orden de compra, explicado en el material :ref:`documento/orden-de-compra` pero sin completar dicho documento que esta realizando.
 
     |Orden de Compra sin Completar|
 
@@ -218,8 +224,8 @@ Crear Caja Importación para Gestión de Terceros
         
         Iamgen 22. Campo Organización
 
-    #. Introduzca en el campo "**No. De Cuenta**", el nombre de la caja que esta definiendo. Para ejemplificar el registro es utilizado el nombre "**OCI-1000024_Estandar**".
-
+    #. Introduzca en el campo "**No. De Cuenta**", el nombre de la caja que esta definiendo. El nombre se compone del número de la orden de compra creada anteriormente, seguido del símbolo “**_**” y el nombre del proveedor intermediario. . Para ejemplificar el registro es utilizado el nombre "**OCI-1000024_Estandar**".
+        
         |Campo No. de Cuenta|
 
         Imagen 23. Campo No. De Cuenta
@@ -232,7 +238,7 @@ Crear Caja Importación para Gestión de Terceros
 Gestión de Caja de Intermediario
 ================================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Cash Journal**", por último seleccione la ventana "**Caja**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
 
     |Menú de ADempiere 4|
 
@@ -240,82 +246,204 @@ Gestión de Caja de Intermediario
 
     #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Caja**".
 
-        |Campo Organización|
+        |Campo Organización 2|
 
         Imagen 25. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`Tipo de Documento` elaborado por ERPyA.
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Pago Internacional**".
 
         |Campo Tipo de Documento|
 
         Imagen 26. Campo Tipo de Documento
 
-    #. Seleccione en el campo "**Cuenta Bancaria**", la caja correspondiente al registro que esta realizando. Para ejemplificar el registro es utilizada la opción "**Caja Importación**".
+    #. Seleccione en el campo "**Cuenta Bancaria**", la caja correspondiente al registro que esta realizando. Para ejemplificar el registro es utilizada la opción "**Caja Importación - --_OCI-1000024_Estandar**".
 
         |Campo Cuenta Bancaria|
 
         Imagen 27. Campo Cuenta Bancaria
 
-    #. Seleccione en el campo "**Orden de Venta**", la orden de compra correspondiente a la caja que esta registrando.
+    #. Seleccione en el campo "**Cargo**", el cargo correspondiente a la caja que esta registrando. Para ejemplificar el registro es utilizado el cargo "**Anticipo a Proveedor**".
 
-        |Campo Orden de Venta|
+        |Campo Cargo|
 
-        Imagen 28. Campo Orden de Venta
+        Imagen 28. Campo Cargo
 
-    #. Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión correspondiente a la orden de compra seleccionada.
+    #. Seleccione en el campo "**Moneda**", al moneda correspondiente a la caja que esta realizando.
 
-        |Campo Tipo de Conversión|
+        |Campo Moneda|
 
-        Imagen 29. Campo Tipo de Conversión
+        Imagen 29. Campo Moneda
+
+        .. note:: 
+
+            Al seleccionar la moneda, podrá visualizar el campo "**Tipo de Conversión**" configurado anteriormente. 
 
     #. Introduzca en el campo "**Total del Pago**", el monto correspondiente al anticipo. Para ejemplificar el registro es utilizado el monto "**90,00**".
 
         |Campo Total del Pago|
 
         Imagen 30. Campo Total del Pago
+
+    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio intermediario de la compra.
+
+        |Campo Socio del Negocio|
+
+        Imagen 31. Campo Socio del Negocio
     
     #. Seleccione la opción "**Completar**" ubicada en la parte inferior del documento.
 
         |Opción Completar|
 
-        Imagen 31. Opción Completar
+        Imagen 32. Opción Completar
 
         #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Orden de Compra**".
 
             |Acción Completar|
 
-            Imagen 32. Acción Completar
+            Imagen 33. Acción Completar
 
 Crear Documento por Pagar
 =========================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la carpeta "**Cash Journal**", por último seleccione la ventana "**Caja**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
     |Menú de ADempiere 6|
 
-    Imagen 33. Menú de ADempiere
+    Imagen 34. Menú de ADempiere
 
-#. Realice el procedimiento habitual para crear el documento por pagar, explicado en el material :ref:`documento/documento-por-pagar` elaborado por ERPyA. Podrá visualizar el documento por pagar de la siguiente manera:
+#. Realice el procedimiento habitual para crear los documentos por pagar necesarios, explicado en el material :ref:`documento/documento-por-pagar` elaborado por ERPyA. Para ejemplificar el registro se realizan dos facturas identicas con número de documento "**1000015**" y "**1000014**", moneda "**USD**", monto "**45,00**" y cargo "**Gastos Aduanales**". 
 
     |Documento por Pagar|
 
-    Imagen 34. Documento por Pagar
+    Imagen 35. Documento por Pagar
+
+    #. Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Gastos Aduanales**" utilizado para generar el documento por pagar.
+
+        |Pestaña Línea de la Factura|
+
+        Imagen 36. Pestaña Línea de la Factura
 
 .. note::
 
     Si ya se encuentra recepcionada la mercancía debe seguir el procedimiento de costos adicionales asociado a una recepción, de otro modo debe ser cargada de forma regular y ser reversada mediante un ajuste de crédito al recepcionar la mercancía, cargando un ajuste de débito con el procedimiento de costo adicional.
 
+Gestión de Caja de Intermediario
+================================
+
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
+
+    |Menú de ADempiere 4|
+
+    Imagen 37. Menú de ADempiere
+
+    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Caja**".
+
+        |Campo Organización 2|
+
+        Imagen 38. Campo Organización
+
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Egreso Caja**".
+
+        |Campo Tipo de Documento|
+
+        Imagen 39. Campo Tipo de Documento
+
+    #. Seleccione en el campo "**Factura**", la factura que será reflejada en la caja que esta realizando. Para ejemplificar el registro es utilizada la factura "**1000014**" creada anteriormente.
+
+        |Campo Factura 1|
+
+        Imagen 40. Campo Factura
+
+        .. note:: 
+
+            Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+
+    #. Seleccione la opción "**Completar**", ubicada en la parte inferior del documento.
+
+        |Opción Completar 2|
+
+        Imagen 41. Opción Completar
+
+        #. Seleccione la acción "**Completar**" y la opción "**Ok**" para completar el documento "**Caja**".
+
+            |Acción Completar|
+
+            Imagen 42. Acción Completar
+
+.. note::
+
+    Repita el procedimiento con todos los documentos por pagar importación realizados al socio del negocio intermediario.
+
+
 Cancelar Facturas
 =================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Pago/Cobro**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
     |Menú de ADempiere 7|
 
-    Imagen 35. Menú de ADempiere
+    Imagen 43. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Pago/Cobro**", donde debe seleccionar en la barra de herramientas el icono "**Registro Nuevo**".
+#. Podrá visualizar la ventana "**Cierre de Caja**", donde debe seleccionar en la barra de herramientas el icono "**Registro Nuevo**".
 
-    |Icono Registro Nuevo|
+    |Icono Registro Nuevo 3|
 
-    Imagen 36. Icono Registro Nuevo
+    Imagen 44. Icono Registro Nuevo
+
+    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento de cierre de caja.
+
+        |Campo Organización 3|
+
+        Imagen 45. Campo Organización
+
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Cierre de Caja**".
+
+        |Campo Tipo de Documento 2|
+
+        Imagen 46. Campo Tipo de Documento
+
+    #. Seleccione en el campo "**Cuenta Bancaria**", la misma caja seleccionada en el documento "**Caja**" creado.
+
+        |Campo Cuenta Bancaria 2|
+
+        Imagen 47. Campo Cuenta Bancaria
+
+    #. Seleccione el proceso "**Crear a Partir de Pagos**" para crear el cierre de caja a partir de los pagos.
+
+        |Opción Crear Desde|
+
+        Imagen 48. Proceso Crear a Partir de Pagos
+
+        #. Podrá visualizar la ventana "**Crear extracto bancario a partir de pagos**", con los campos necesarios para filtrar la búsqueda.
+
+            |Ventana del Proceso Crear Desde|
+
+            Imagen 49. Ventana del Proceso Crear a Partir de Pagos
+
+        #. Seleccione la opción "**Comenzar Búsqueda**" para buscar los documentos creados al socio del negocio intermediario.
+
+            |Opción Comenzar Búsqueda|
+
+            Imagen 50. Opción Comenzar Búsqueda
+
+        #. Seleccione los diferentes documentos con montos en negativo, creados anteriormente y la opción "**OK**" para cargar la información a la pestaña "**Línea de Cierre de Caja**".
+
+            |Seleccione Documentos|
+
+            Imagen 51. Seleccionar Documentos 
+
+            .. note::
+
+                Recuerde seleccionar el icono "**Refrescar**" en la barra de herramientas de ADempiere, para refrescar el registro en la ventana "**Cierre de Caja**".
+        
+        #. Seleccione la opción "**Completar**", para completar el documento "**Cierre de Caja**".
+
+            |Opción Completar 3|
+
+            Imagen 52. Opción Completar
+
+            #. Seleccione la acción "**Completar**" y la opción "**Ok**" para completar el documento "**Caja**".
+
+                |Acción Completar|
+
+                Imagen 42. Acción Completar
