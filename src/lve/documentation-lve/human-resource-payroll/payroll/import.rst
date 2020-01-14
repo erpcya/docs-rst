@@ -51,9 +51,9 @@
 .. |Campo Cuenta Bancaria 2| image:: resources/factura2.png
 .. |Opción Crear Desde| image:: resources/total2.png
 .. |Ventana del Proceso Crear Desde| image:: resources/vent2.png
-.. |Opción Comenzar Búsqueda|
-.. |Seleccione Documentos|
-.. |Opción Completar 3|
+.. |Opción Comenzar Búsqueda|image:: resources/
+.. |Seleccione Documentos| image:: resources/
+.. |Opción Completar 3| image:: resources/
 
 
 .. _documento/procedimiento-importación:
