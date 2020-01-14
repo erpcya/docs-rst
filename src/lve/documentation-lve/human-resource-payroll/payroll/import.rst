@@ -22,6 +22,10 @@
 .. |Campo Organización 1| image:: resources/org2.png
 .. |Campo No. de Cuenta| image:: resources/cuenta3.png
 .. |Contabilidad| image:: resources/contabilidad.png
+.. |Menú de ADempiere 8| image:: resources/menu8.png
+.. |Resultado Contable 1| image:: resources/eje1.png
+.. |Resultado Contable 2| image:: resources/eje2.png
+.. |Ejemplo de Transferencia Bancaria| image:: resources/transf1.png
 .. |Menú de ADempiere 4| image:: resources/menu4.png
 .. |Campo Organización 2| image:: resources/org1.png
 .. |Campo Tipo de Documento| image:: resources/tipodoc1.png
@@ -201,8 +205,8 @@ Asignar Tipo de Conversión a Orden de Compra de Importación
     Imagen 18. Orden de Compra Completa
 
 
-Crear Caja Importación para Gestión de Terceros
-===============================================
+Crear Definición de Caja Importación para Gestión de Terceros
+=============================================================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión del Sistema**", luego seleccione la carpeta "**Reglas de la Organización**", por último seleccione la ventana "**Definición de Diario de Caja**".
 
@@ -263,6 +267,53 @@ En primer lugar se creará el anticipo gestionando un traslado de fondos mediant
 
 Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, la transferencia bancaria es el proceso mediante el cual se realizan los traslados de fondos entre cuentas(Banco Real a Caja #Expediente), a continuación se define el proceso para realizar una transferencia bancaria en ADempiere. 
 
+#. Ubique y seleccione en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
+
+    |Menú de ADempiere 8|
+
+    Imagen 25. Menú de ADempiere
+
+    #. Realizar una transferencia bancaria con las siguientes condiciones:
+
+        #. **Banco Desde**: Banco desde la cual se cancelará el anticipo
+
+            - **Resultado**: Se realiza un egreso en Banco por el monto a cancelar
+
+            - **Resultado Contable**: 
+
+            |Resultado Contable 1|
+
+            Imagen 26. Ejemplo de Resultado Contable 1
+
+        #. **Banco a Transferir**: Cuenta caja de importación definida anteriormente.
+
+            - **Resultado**: Se realiza un Ingreso en Banco por el monto a cancelar
+
+            - **Resultado Contable**: 
+
+            |Resultado Contable 2|
+
+            Imagen 27. Ejemplo de Resultado Contable 2
+
+        #. **Socio del Negocio**: Socio del Negocio al cual se le cancelará el anticipo.
+
+        #. **Moneda**: Moneda en la cual se cancelará la transferencia
+
+        #. **Cargo**: Cargo correspondiente al anticipo "**Anticipo Tercero**" o "**Anticipo a Proveedor**".
+            
+        #. **Número del Documento**: Referencia correspondiente a la transferencia bancaria.
+
+        #. **Monto**: Monto del anticipo.
+
+        #. **Descripción**: Breve descripción sobre la transferencia.
+
+        #. **Fecha de Estado de Cuenta**: Fecha de la transferencia realizada.
+
+        #. **Fecha Contable**: Fecha de la transferencia realizada.
+
+    |Ejemplo de Transferencia Bancaria|
+
+    Imagen 26. Ejemplo de Transferencia Bancaria
 
 Carga de Factura de Intermediarios
 **********************************
