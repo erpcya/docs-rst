@@ -39,8 +39,11 @@
 .. |Documento por Pagar| image:: resources/factura1.png
 .. |Pestaña Línea de la Factura| image:: resources/linea.png
 .. |Campo Tipo de Documento 3| image:: resources/tipodoc3.png
+.. |Campo Cuenta Bancaria 3| image:: resources/cuenta4.png
 .. |Campo Factura 1| image:: resources/factura3.png
 .. |Opción Completar 2| image:: resources/completar3.png
+.. |Resultado Contable 3| image:: resources/eje3.png
+.. |Resultado Contable 4| image:: resources/eje4.png
 .. |Menú de ADempiere 7| image:: resources/menu7.png
 .. |Icono Registro Nuevo 3| image:: resources/nuevo3.png
 .. |Campo Organización 3| image:: resources/org3.png
@@ -61,12 +64,15 @@
 Procedimento para Importación
 =============================
 
-La caja a definir funge en el procedimiento de anticipos a terceros  como un puente para el registro y pago de los anticipos a proveedores involucrados en el procedimiento de importación y para la posterior liquidación de las facturas de servicios y cierre de los anticipos.
+Relación Anticipos a Intermediarios
+===================================
 
-En la ventana Definición de Diario de Caja se crean todas las posibles cajas que puedan manejarse dentro de una organización (Reembolso, Caja chica), a continuación se define el procedimiento para realizar la definición de diario de caja de importación y cruce de cuentas.
+La caja a definir funge en el procedimiento de anticipos a terceros  como un puente para el registro y pago de los anticipos a proveedores intermediarios en el proceso de importación y para la posterior liquidación de las facturas entregadas en la relación de gastos o costos de nacionalización y cierre de los anticipos.
+
+En la ventana "**Definición de Diario de Caja**" se crean todas las posibles cajas que puedan manejarse dentro de una organización (Caja Importación), a continuación se define el procedimiento para realizar la definición de diario de caja de importación y cruce de cuentas.
  
 Crear Orden de Compra de Importación
-====================================
+************************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Órdenes de Compra**".
 
@@ -74,14 +80,18 @@ Crear Orden de Compra de Importación
 
     Imagen 1: Menú de ADempiere
 
-#. Realice el procedimiento regular para realizar una orden de compra, explicado en el material :ref:`documento/orden-de-compra` pero sin completar dicho documento que esta realizando.
+#. Realice el procedimiento regular para realizar una orden de compra, explicado en el material :ref:`documento/orden-de-compra`.
 
     |Orden de Compra sin Completar|
 
     Imagen 2: Orden de Compra Importación sin Completar
 
+.. note:: 
+
+    El documento debe quedar en estado borrador.
+
 Crear Tipo de Conversión
-========================
+************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Reglas Contables**", por último seleccione la ventana "**Tipo de Conversión**".
 
@@ -107,7 +117,9 @@ Crear Tipo de Conversión
 
 
 Crear Tasa de Conversión
-========================
+************************
+
+La tasa de conversión se crea unicamente cuando se conoce el monto, el mismo se extrae de la planilla que emite la aduana.
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Reglas Contables**", por último seleccione la ventana "**Moneda**".
 
@@ -132,6 +144,10 @@ Crear Tasa de Conversión
         |Icono Registro Nuevo 2|
 
         Imagen 9. Icono Registro Nuevo
+
+        .. note::
+
+            La tasa de cambio se debe crear de dólares a bolívares y de bolívares a dólares.
 
         #. Seleccione en el campo "**Moneda Hacia**", la moneda correspondiente a la nacionalización. Para ejemplificar el registro es utilizada la moneda "**VES**".
 
@@ -168,7 +184,7 @@ Crear Tasa de Conversión
     Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
 Asignar Tipo de Conversión a Orden de Compra de Importación
-===========================================================
+***********************************************************
 
 #. Regrese a la ventana "**Órdenes de Compra**" y ubique la orden de compra que se encuentra en estado "**Borrador**", creada anteriormente.
 
@@ -204,60 +220,11 @@ Asignar Tipo de Conversión a Orden de Compra de Importación
 
     Imagen 19. Orden de Compra Completa
 
-
-Crear Definición de Caja Importación para Gestión de Terceros
-=============================================================
-
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión del Sistema**", luego seleccione la carpeta "**Reglas de la Organización**", por último seleccione la ventana "**Definición de Diario de Caja**".
-
-    |Menú de ADempiere 5|
-
-    Imagen 20. Menú de ADempiere
-
-    #. Navegue entre los registros de la ventana para ubicar el registro de la caja correspondiente. Para este ejemplo es utilizado el registro "**Caja Importación**".
-
-        |Registro de Caja Importación|
-
-        Imagen 21. Ventana de Registros de Cajas
-
-    #. Seleccione la pestaña "**Cuenta de Caja**" y luego seleccione el icono "**Registro Nuevo**", para crear un registro nuevo de caja importación.
-
-        |Pestaña Cuenta de Caja|
-
-        Imagen 22. Pestaña Cuenta de Caja
-
-    #. Seleccione en el campo "**Organización**", la organización para la cual esta definiendo la caja.
-
-        |Campo Organización 1| 
-        
-        Iamgen 23. Campo Organización
-
-    #. Introduzca en el campo "**No. De Cuenta**", el nombre de la caja que esta definiendo. El nombre se compone del número de la orden de compra que da origen a la importación, seguido del símbolo “**_**” y el nombre del proveedor intermediario. . Para ejemplificar el registro es utilizado el nombre "**OCI-1000024_Estandar**".
-        
-        |Campo No. de Cuenta|
-
-        Imagen 24. Campo No. De Cuenta
-
-        .. note::
-
-            Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
-
-    #. Debe ingresar las combinaciones "**1.1.2.4.1.001**" y "**1.1.2.4.1.002**", en los campos "**Bancos**" y "**Banco Movimientos no Conciliados**" de la pestaña "**Contabilidad**".
-
-        |Contabilidad|
-
-        Imagen 25. Contabilidad de Definición de la Caja.
-
-.. note::
-
-    Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
-
-
 Gestión de Caja de Intermediario
-================================
+********************************
 
-Carga de Anticipos a Intermediarios con cargo de Anticipos a Terceros
-*********************************************************************
+Carga de Anticipos a Intermediarios
++++++++++++++++++++++++++++++++++++
 
 La transferencia representa un proceso en el cual se generan los pagos por concepto de anticipos al gestor(s), el mismo requiere conocimientos básicos en el proceso actual de tesorería en ADempiere. 
 
@@ -277,23 +244,7 @@ Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, 
 
         #. **Banco Desde**: Banco desde la cual se cancelará el anticipo
 
-            - **Resultado**: Se realiza un egreso en Banco por el monto a cancelar
-
-            - **Resultado Contable**: A continuación se presenta un ejemplo de un resultado contable.
-
-            |Resultado Contable 1|
-
-            Imagen 27. Ejemplo de Resultado Contable 1
-
         #. **Banco a Transferir**: Cuenta caja de importación definida anteriormente.
-
-            - **Resultado**: Se realiza un Ingreso en Banco por el monto a cancelar
-
-            - **Resultado Contable**: A continuación se presenta un ejemplo de un resultado contable.
-
-            |Resultado Contable 2|
-
-            Imagen 28. Ejemplo de Resultado Contable 2
 
         #. **Socio del Negocio**: Socio del Negocio al cual se le cancelará el anticipo.
 
@@ -311,6 +262,28 @@ Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, 
 
         #. **Fecha Contable**: Fecha de la transferencia realizada.
 
+    #. Resultados:
+
+        #. **Egreso**:
+
+            - **Resultado**: Se realiza un egreso en banco por el monto a cancelar
+
+            - **Resultado Contable**: A continuación se presenta un ejemplo de un resultado contable.
+
+            |Resultado Contable 1|
+
+            Imagen 27. Ejemplo de Resultado Contable 1
+
+        #. **Ingreso**:
+
+            - **Resultado**: Se realiza un ingreso en caja por el monto a cancelar
+
+            - **Resultado Contable**: A continuación se presenta un ejemplo de un resultado contable.
+
+            |Resultado Contable 2|
+
+            Imagen 28. Ejemplo de Resultado Contable 2
+
     #. A continuación se presenta un ejemplo de la ventana "**Transferencia Bancaria**".
 
         |Ejemplo de Transferencia Bancaria|
@@ -318,14 +291,14 @@ Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, 
         Imagen 29. Ejemplo de Transferencia Bancaria
 
 Carga de Factura de Intermediarios
-**********************************
+++++++++++++++++++++++++++++++++++
 
 Posterior a la concesión del anticipo, será justificado el anticipo relacionando los gastos (Facturas) es entonces cuando se procede a liquidar los anticipos concedidos al gestor de importación.
 La operación de anticipos a terceros está compuesta por cinco fases u operaciones las cuales no tienen porqué ser todas necesarias en el proceso de liquidación:
 
 #. Anticipo a terceros(Gestor)
-#. Carga de Facturas de Cuentas por Pagar
-#. Registrar justificantes contra anticipo a terceros(Gestor)
+#. Registrar justificantes(Carga de Facturas de Cuentas por Pagar) 
+#. Relación de Pasivos(Gestor)
 #. Incremento de anticipo a terceros(Gestor)
 #. Liquidación de Anticipos y CxP
 
@@ -396,7 +369,7 @@ En la siguiente ventana de Caja se realizan todos los pagos de las facturas pend
             Imagen 39. Acción Completar
 
 Crear Documento por Pagar
-+++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
@@ -421,13 +394,18 @@ Crear Documento por Pagar
     Si ya se encuentra recepcionada la mercancía debe seguir el procedimiento de costos adicionales asociado a una recepción, de otro modo debe ser cargada de forma regular y ser reversada mediante un ajuste de crédito al recepcionar la mercancía, cargando un ajuste de débito con el procedimiento de costo adicional.
 
 Gestión de Caja de Intermediario
-================================
+********************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
 
     |Menú de ADempiere 4|
 
     Imagen 43. Menú de ADempiere
+
+    .. note::
+
+        El requerimiento principal para realizar el proceso de gestión de caja de intermediario es tener una definición de caja creada.
+
 
     #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Caja**".
 
@@ -437,7 +415,7 @@ Gestión de Caja de Intermediario
 
     #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Egreso Caja**".
 
-        |Campo Tipo de Documento|
+        |Campo Tipo de Documento 3|
 
         Imagen 45. Campo Tipo de Documento
 
@@ -470,6 +448,31 @@ Gestión de Caja de Intermediario
 
 Cancelación de Facturas
 ***********************
+
+Cuentas por pagar emite una "**Solicitud de Pago**" seleccionando la caja creada previamente y asociando todas las facturas de la relación entregada por el intermediario gestor de la importación.
+
+Tesorería ejecuta el proceso de "**Imprimir/Exportar**" llamando la solicitud de pago creada previamente.
+
+#. Resultados:
+
+    #. **Egreso**:
+
+        - **Resultado**: Se genera un egreso en caja por el monto a cancelará
+
+        - **Resultado Contable en Caja**:
+
+            |Resultado Contable 3|
+
+            Imagen 49. Ejemplo de Resultado Contable 3
+
+        - **Resultado Contable en Asignación entre Factura y Pago**:
+
+            |Resultado Contable 4|
+
+            Imagen 50. Ejemplo de Resultado Contable 4
+
+Cierre de Caja
+~~~~~~~~~~~~~~
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
@@ -540,3 +543,4 @@ Cancelación de Facturas
                 |Acción Completar|
 
                 Imagen 59. Acción Completar
+                
