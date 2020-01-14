@@ -6,6 +6,5 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 .. toctree::
     :maxdepth: 3
-    :numbered:
 
     import
