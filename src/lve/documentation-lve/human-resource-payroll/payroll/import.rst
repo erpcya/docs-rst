@@ -8,13 +8,13 @@
 .. |Pestaña Tasas de Cambio| image:: resources/pest1.png
 .. |Icono Registro Nuevo 2| image:: resources/nuevo2.png
 .. |Campo Moneda Hacia| image:: resources/moneda1.png
-.. |Campo Tipo de Conversión| image:: resources/tipoconver.png
+.. |Campo Tipo de Conversión 1| image:: resources/tipoconver.png
 .. |Campo Válido Desde| image:: resources/desde1.png
 .. |Campo Válido Hasta| image:: resources/hasta1.png
 .. |Campo Factor de Base a Destino| image:: resources/factor1.png
 .. |Campo Tipo de Conversión 2| image:: resources/tipoconver2.png
 .. |Opción Completar 1| image:: resources/completar1.png
-.. |Acción Completar| image:: resources/accion.png
+.. |Acción Completar| image:: resources/accion1.png
 .. |Orden de Compra Completa| image:: resources/resultado1.png
 .. |Menú de ADempiere 5| image:: resources/menu5.png
 .. |Registro de Caja Importación| image:: resources/caja1.png
@@ -60,7 +60,7 @@ Crear Orden de Compra de Importación
 
     Imagen 1: Menú de ADempiere
 
-#. Realice el procedimiento regular para realizar una orden de compra, explicado en el material :ref: ``documento/orden-de-compra`` pero sin completar dicho documento que esta realizando.
+#. Realice el procedimiento regular para realizar una orden de compra, explicado en el material :ref: `documento/orden-de-compra` pero sin completar dicho documento que esta realizando.
 
     |Orden de Compra sin Completar|
 
@@ -97,9 +97,9 @@ Crear Tasa de Conversión
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Reglas Contables**", por último seleccione la ventana "**Moneda**".
 
-    |Ventana Moneda|
+    |Menú de ADempiere 3|
 
-    Imagen 6. Ventana Moneda
+    Imagen 6. Menú de ADempiere
 
 #. Seleccione el registro de la moneda seleccionada en el documento "**Orden de Compra**". Para ejemplificar el registro es utilizada la moneda "**USD**".
 
@@ -127,7 +127,7 @@ Crear Tasa de Conversión
 
         #. Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión creado. Para ejemplificar el registro es utilizado el tipo de conversión "**OCI-1000024_Estandar 1**" creado anteriormente.
 
-            |Campo Tipo de Conversión|
+            |Campo Tipo de Conversión 1|
 
             Imagen 11. Campo Tipo de Conversión
 
