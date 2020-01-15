@@ -1,7 +1,7 @@
 .. _documento/documento-por-pagar:
 
 **Crear Documentos por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 #. Ubique en el menú de ADempiere la ventana "**Documentos por Pagar**", adjunto imagen para referencia.
 
