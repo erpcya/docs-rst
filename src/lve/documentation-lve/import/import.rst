@@ -16,12 +16,6 @@
 .. |Opción Completar 1| image:: resources/completar1.png
 .. |Acción Completar| image:: resources/accion1.png
 .. |Orden de Compra Completa| image:: resources/resultado1.png
-.. |Menú de ADempiere 5| image:: resources/menu5.png
-.. |Registro de Caja Importación| image:: resources/caja1.png
-.. |Pestaña Cuenta de Caja| image:: resources/cuenta2.png
-.. |Campo Organización 1| image:: resources/org2.png
-.. |Campo No. de Cuenta| image:: resources/cuenta3.png
-.. |Contabilidad| image:: resources/contabilidad.png
 .. |Menú de ADempiere 8| image:: resources/menu8.png
 .. |Resultado Contable 1| image:: resources/eje1.png
 .. |Resultado Contable 2| image:: resources/eje2.png
@@ -51,9 +45,12 @@
 .. |Campo Cuenta Bancaria 2| image:: resources/factura2.png
 .. |Opción Crear Desde| image:: resources/total2.png
 .. |Ventana del Proceso Crear Desde| image:: resources/vent2.png
-.. |Opción Comenzar Búsqueda|image:: resources/busqueda.png
+.. |Opción Comenzar Búsqueda| image:: resources/busqueda.png
 .. |Seleccione Documentos| image:: resources/selec.png
-.. |Opción Completar 3| image:: resources/
+.. |Primera Línea| image:: resources/linea1.png
+.. |Segunda Línea| image:: resources/linea2.png
+.. |Tercera Línea| image:: resources/linea3.png
+.. |Opción Completar 3| image:: resources/completar4.png
 
 
 .. _documento/procedimiento-importación:
@@ -232,7 +229,7 @@ Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, 
 
     |Menú de ADempiere 8|
 
-    Imagen 26. Menú de ADempiere
+    Imagen 20. Menú de ADempiere
 
     #. Realizar una transferencia bancaria con las siguientes condiciones:
 
@@ -244,7 +241,7 @@ Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, 
 
         #. **Moneda**: Moneda en la cual se cancelará la transferencia
 
-        #. **Cargo**: Cargo correspondiente al anticipo "**Anticipo Tercero**" o "**Anticipo a Proveedor**".
+        #. **Cargo**: Cargo correspondiente al anticipo "**Anticipo Tercero**".
             
         #. **Número del Documento**: Referencia correspondiente a la transferencia bancaria.
 
@@ -266,7 +263,7 @@ Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, 
 
             |Resultado Contable 1|
 
-            Imagen 27. Ejemplo de Resultado Contable 1
+            Imagen 21. Ejemplo de Resultado Contable 1
 
         #. **Ingreso**:
 
@@ -276,13 +273,13 @@ Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, 
 
             |Resultado Contable 2|
 
-            Imagen 28. Ejemplo de Resultado Contable 2
+            Imagen 22. Ejemplo de Resultado Contable 2
 
     #. A continuación se presenta un ejemplo de la ventana "**Transferencia Bancaria**".
 
         |Ejemplo de Transferencia Bancaria|
 
-        Imagen 29. Ejemplo de Transferencia Bancaria
+        Imagen 23. Ejemplo de Transferencia Bancaria
 
 Carga de Factura de Intermediarios
 ++++++++++++++++++++++++++++++++++
@@ -302,37 +299,37 @@ En la siguiente ventana de Caja se realizan todos los pagos de las facturas pend
 
     |Menú de ADempiere 4|
 
-    Imagen 30. Menú de ADempiere
+    Imagen 24. Menú de ADempiere
 
     #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Caja**".
 
         |Campo Organización 2|
 
-        Imagen 31. Campo Organización
+        Imagen 25. Campo Organización
 
     #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Pago Internacional**".
 
         |Campo Tipo de Documento|
 
-        Imagen 32. Campo Tipo de Documento
+        Imagen 26. Campo Tipo de Documento
 
     #. Seleccione en el campo "**Cuenta Bancaria**", la caja correspondiente al registro que esta realizando. Para ejemplificar el registro es utilizada la opción "**Caja Importación - --_OCI-1000024_Estandar**".
 
         |Campo Cuenta Bancaria|
 
-        Imagen 33. Campo Cuenta Bancaria
+        Imagen 27. Campo Cuenta Bancaria
 
-    #. Seleccione en el campo "**Cargo**", el cargo correspondiente a la caja que esta registrando. Para ejemplificar el registro es utilizado el cargo "**Anticipo a Proveedor**".
+    #. Seleccione en el campo "**Cargo**", el cargo correspondiente a la caja que esta registrando. Para ejemplificar el registro es utilizado el cargo "**Anticipo a Tercero**".
 
         |Campo Cargo|
 
-        Imagen 34. Campo Cargo
+        Imagen 28. Campo Cargo
 
     #. Seleccione en el campo "**Moneda**", al moneda correspondiente a la caja que esta realizando.
 
         |Campo Moneda|
 
-        Imagen 35. Campo Moneda
+        Imagen 29. Campo Moneda
 
         .. note:: 
 
@@ -342,25 +339,25 @@ En la siguiente ventana de Caja se realizan todos los pagos de las facturas pend
 
         |Campo Total del Pago|
 
-        Imagen 36. Campo Total del Pago
+        Imagen 30. Campo Total del Pago
 
     #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio intermediario de la compra.
 
         |Campo Socio del Negocio|
 
-        Imagen 37. Campo Socio del Negocio
+        Imagen 31. Campo Socio del Negocio
     
     #. Seleccione la opción "**Completar**" ubicada en la parte inferior del documento.
 
         |Opción Completar|
 
-        Imagen 38. Opción Completar
+        Imagen 32. Opción Completar
 
         #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Orden de Compra**".
 
             |Acción Completar|
 
-            Imagen 39. Acción Completar
+            Imagen 33. Acción Completar
 
 Crear Documento por Pagar
 ~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -369,19 +366,19 @@ Crear Documento por Pagar
 
     |Menú de ADempiere 6|
 
-    Imagen 40. Menú de ADempiere
+    Imagen 34. Menú de ADempiere
 
 #. Realice el procedimiento habitual para crear los documentos por pagar necesarios, explicado en el material :ref:`documento/documento-por-pagar` elaborado por ERPyA. Para ejemplificar el registro se realizan dos facturas identicas con número de documento "**1000015**" y "**1000014**", moneda "**USD**", monto "**45,00**" y cargo "**Gastos Aduanales**". 
 
     |Documento por Pagar|
 
-    Imagen 41. Documento por Pagar
+    Imagen 35. Documento por Pagar
 
     #. Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Gastos Aduanales**" utilizado para generar el documento por pagar.
 
         |Pestaña Línea de la Factura|
 
-        Imagen 42. Pestaña Línea de la Factura
+        Imagen 36. Pestaña Línea de la Factura
 
 .. note::
 
@@ -394,7 +391,7 @@ Gestión de Caja de Intermediario
 
     |Menú de ADempiere 4|
 
-    Imagen 43. Menú de ADempiere
+    Imagen 37. Menú de ADempiere
 
     .. note::
 
@@ -405,19 +402,25 @@ Gestión de Caja de Intermediario
 
         |Campo Organización 2|
 
-        Imagen 44. Campo Organización
+        Imagen 38. Campo Organización
 
+    #. Seleccione en el campo "**Cuenta Bancaria**" la cuenta caja correspondiente al documento que esta realizando. Para ejemplificar el registro es utilizada la opción "**Caja Importación - –_OCI-1000024_Estandar**".
+
+        |Campo Cuenta Bancaria 3|
+
+        Imagen 39. Campon Cuenta Bancaria
+        
     #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Egreso Caja**".
 
         |Campo Tipo de Documento 3|
 
-        Imagen 45. Campo Tipo de Documento
+        Imagen 40. Campo Tipo de Documento
 
     #. Seleccione en el campo "**Factura**", la factura que será reflejada en la caja que esta realizando. Para ejemplificar el registro es utilizada la factura "**1000014**" creada anteriormente.
 
         |Campo Factura 1|
 
-        Imagen 46. Campo Factura
+        Imagen 41. Campo Factura
 
         .. note:: 
 
@@ -427,13 +430,13 @@ Gestión de Caja de Intermediario
 
         |Opción Completar 2|
 
-        Imagen 47. Opción Completar
+        Imagen 42. Opción Completar
 
         #. Seleccione la acción "**Completar**" y la opción "**Ok**" para completar el documento "**Caja**".
 
             |Acción Completar|
 
-            Imagen 48. Acción Completar
+            Imagen 43. Acción Completar
 
 .. note::
 
@@ -457,13 +460,13 @@ Tesorería ejecuta el proceso de "**Imprimir/Exportar**" llamando la solicitud d
 
             |Resultado Contable 3|
 
-            Imagen 49. Ejemplo de Resultado Contable 3
+            Imagen 44. Ejemplo de Resultado Contable 3
 
         - **Resultado Contable en Asignación entre Factura y Pago**:
 
             |Resultado Contable 4|
 
-            Imagen 50. Ejemplo de Resultado Contable 4
+            Imagen 45. Ejemplo de Resultado Contable 4
 
 Cierre de Caja
 ~~~~~~~~~~~~~~
@@ -472,69 +475,93 @@ Cierre de Caja
 
     |Menú de ADempiere 7|
 
-    Imagen 49. Menú de ADempiere
+    Imagen 46. Menú de ADempiere
 
 #. Podrá visualizar la ventana "**Cierre de Caja**", donde debe seleccionar en la barra de herramientas el icono "**Registro Nuevo**".
 
     |Icono Registro Nuevo 3|
 
-    Imagen 50. Icono Registro Nuevo
+    Imagen 47. Icono Registro Nuevo
 
     #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento de cierre de caja.
 
         |Campo Organización 3|
 
-        Imagen 51. Campo Organización
+        Imagen 48. Campo Organización
 
     #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Cierre de Caja**".
 
         |Campo Tipo de Documento 2|
 
-        Imagen 52. Campo Tipo de Documento
+        Imagen 49. Campo Tipo de Documento
 
     #. Seleccione en el campo "**Cuenta Bancaria**", la misma caja seleccionada en el documento "**Caja**" creado.
 
         |Campo Cuenta Bancaria 2|
 
-        Imagen 53. Campo Cuenta Bancaria
+        Imagen 50. Campo Cuenta Bancaria
 
     #. Seleccione el proceso "**Crear a Partir de Pagos**" para crear el cierre de caja a partir de los pagos.
 
         |Opción Crear Desde|
 
-        Imagen 54. Proceso Crear a Partir de Pagos
+        Imagen 51. Proceso Crear a Partir de Pagos
 
         #. Podrá visualizar la ventana "**Crear extracto bancario a partir de pagos**", con los campos necesarios para filtrar la búsqueda.
 
             |Ventana del Proceso Crear Desde|
 
-            Imagen 55. Ventana del Proceso Crear a Partir de Pagos
+            Imagen 52. Ventana del Proceso Crear a Partir de Pagos
 
         #. Seleccione la opción "**Comenzar Búsqueda**" para buscar los documentos creados al socio del negocio intermediario.
 
             |Opción Comenzar Búsqueda|
 
-            Imagen 56. Opción Comenzar Búsqueda
+            Imagen 53. Opción Comenzar Búsqueda
 
         #. Seleccione los diferentes documentos con montos en negativo, creados anteriormente y la opción "**OK**" para cargar la información a la pestaña "**Línea de Cierre de Caja**".
 
             |Seleccione Documentos|
 
-            Imagen 57. Seleccionar Documentos 
+            Imagen 54. Seleccionar Documentos 
 
             .. note::
 
                 Recuerde seleccionar el icono "**Refrescar**" en la barra de herramientas de ADempiere, para refrescar el registro en la ventana "**Cierre de Caja**".
         
+        #. Seleccione la pestaña "**Línea de Cierre de Caja**" para visualizar los registros cargados desde el proceso "**Crear a Partir de Pagos**". En el registro del ejemplo, la pestaña contiene tres (3) líneas:
+
+            |Pestaña Línea de Cierre de Caja|
+
+            Imagen 55. Pestaña Línea de Cierre de Caja
+
+            #. Línea uno (1), registro del anticipo a intermediario realizado.
+
+                |Primera Línea|
+
+                Imagen 56. Primera línea en la pestaña "**Línea de Cierre de Caja**"
+
+            #. Línea dos (2), registro del egreso de caja realizado.
+
+                |Segunda Línea|
+
+                Imagen 57. Segunda línea en la pestaña "**Línea de Cierre de Caja**"
+
+            #. Línea tres (3), registro del egreso de caja realizado.
+
+                |Tercera Línea|
+
+                Imagen 58. Tercera línea en la pestaña "**Línea de Cierre de Caja**"
+
         #. Seleccione la opción "**Completar**", para completar el documento "**Cierre de Caja**".
 
             |Opción Completar 3|
 
-            Imagen 58. Opción Completar
+            Imagen 59. Opción Completar
 
             #. Seleccione la acción "**Completar**" y la opción "**Ok**" para completar el documento "**Caja**".
 
                 |Acción Completar|
 
-                Imagen 59. Acción Completar
+                Imagen 60. Acción Completar
                 
