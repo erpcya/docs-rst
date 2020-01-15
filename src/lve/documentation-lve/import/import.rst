@@ -386,7 +386,7 @@ Crear Documento por Pagar
     Si ya se encuentra recepcionada la mercancía debe seguir el procedimiento de costos adicionales asociado a una recepción, de otro modo debe ser cargada de forma regular y ser reversada mediante un ajuste de crédito al recepcionar la mercancía, cargando un ajuste de débito con el procedimiento de costo adicional.
 
 Cargar Relación de Facturas
-***************************
++++++++++++++++++++++++++++
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
 
@@ -445,7 +445,7 @@ Cargar Relación de Facturas
 
 
 Cancelación de Facturas
-***********************
++++++++++++++++++++++++
 
 Cuentas por pagar emite una "**Solicitud de Pago**" seleccionando la caja creada previamente y asociando todas las facturas de la relación entregada por el intermediario gestor de la importación.
 
