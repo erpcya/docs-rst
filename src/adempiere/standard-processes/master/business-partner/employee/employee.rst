@@ -1285,7 +1285,7 @@ En esta pestaña se registran los diferentes permisos solicitados por el socio d
     
     Imagen 158. Campo Válido Hasta
 
-#. Introduzca en el campo "**Número de Permisos Asignados**", el número de días correspondientes al permiso solicitado por el socio del negocio empleado. Existen tipos de permisos que tienen configurado el número de días correspondientes, como es el caso del tipo de permiso utilizado para este ejemplo.
+#. Pdrá visualizar en el campo "**Número de Permisos Asignados**", el número de permisos asignados al socio del negocio empleado.
 
     |Campo Número de Permisos Asignados| 
     
@@ -1293,7 +1293,13 @@ En esta pestaña se registran los diferentes permisos solicitados por el socio d
 
     .. warning:: 
 
-        Al seleccionar un tipo de permiso sin número de días configurado e ingresar un valor en el campo "**Número de Permisos Asignados**", los campos "**Total de Permisos**" y "**Balance**", toman automáticamente dicho valor. De igual manera, los campos "**Permisos Usados**" y "**Última Fecha de Ejecución**" se definen como campos de sólo lectura. 
+        Al seleccionar un tipo de permiso, el campo "**Numero de Permisos Asignados**" toma el valor "**1**" indicando que se esta asignando un permiso al empleado. Los campos "**Total de Permisos**" y "**Balance**", toman automáticamente dicho valor. 
+        
+        De igual manera, los campos "**Permisos Usados**" y "**Última Fecha de Ejecución**" se definen como campos de sólo lectura y toman los valores desde la ventana "**Solicitud del Permiso**". 
+
+            - **Permisos Usados**: Toma el valor "**1**" al completar el documento de la ventana "**Solicitud del Permiso**".
+
+            - "**Última Fecha de Ejecución**": Toma el valor ingresado en el campo "**Válido Desde**", de la ventana correspondiente al proceso "**Crear Permisos**", ubicado en la pestaña "**Detalle de Permiso**".
 
 #. Seleccione el icono "**Guardar Cambios**", para guardar el registro de la pestaña "**Detalle de Permiso**".
 
