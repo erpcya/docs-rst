@@ -470,7 +470,7 @@ Tesorería ejecuta el proceso de "**Imprimir/Exportar**" llamando la solicitud d
             Imagen 45. Ejemplo de Resultado Contable 4
 
 Cierre de Caja
-++++++++++++++
+--------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
