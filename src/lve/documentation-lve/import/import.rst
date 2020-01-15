@@ -47,6 +47,7 @@
 .. |Ventana del Proceso Crear Desde| image:: resources/vent2.png
 .. |Opción Comenzar Búsqueda| image:: resources/busqueda.png
 .. |Seleccione Documentos| image:: resources/selec.png
+.. |Pestaña Línea de Cierre de Caja| image:: resources/pest2.png
 .. |Primera Línea| image:: resources/linea1.png
 .. |Segunda Línea| image:: resources/linea2.png
 .. |Tercera Línea| image:: resources/linea3.png
@@ -360,7 +361,7 @@ En la siguiente ventana de Caja se realizan todos los pagos de las facturas pend
             Imagen 33. Acción Completar
 
 Crear Documento por Pagar
-~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
@@ -384,8 +385,8 @@ Crear Documento por Pagar
 
     Si ya se encuentra recepcionada la mercancía debe seguir el procedimiento de costos adicionales asociado a una recepción, de otro modo debe ser cargada de forma regular y ser reversada mediante un ajuste de crédito al recepcionar la mercancía, cargando un ajuste de débito con el procedimiento de costo adicional.
 
-Gestión de Caja de Intermediario
-********************************
+Cargar Relación de Facturas
+***************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
 
@@ -469,7 +470,7 @@ Tesorería ejecuta el proceso de "**Imprimir/Exportar**" llamando la solicitud d
             Imagen 45. Ejemplo de Resultado Contable 4
 
 Cierre de Caja
-~~~~~~~~~~~~~~
+++++++++++++++
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
