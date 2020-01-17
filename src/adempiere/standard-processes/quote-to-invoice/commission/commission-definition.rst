@@ -75,26 +75,28 @@ Pestaña Comisión
 
     #. El campo "**Base del Cálculo**" indica la regla que será tomada en cuenta para el calcular las comisiones al vendedor, el mismo contiene precargadas las siguientes opciones:
     
-        - "**Comisión Personalizada**": El vendedor comisiona según las reglas o condiciones establecidas en la empresa.
-        - "**Factura**": El vendedor comisiona por las facturas que tenga una orden de venta que tenga el vendedor asignado.
-        - "**Orden**": El vendedor comisiona por las órdenes de venta que tenga el vendedor asignado.
-        - "**Pronóstico vs Factura**": El vendedor comisiona por porcentaje, el mismo depende del estimado de ventas que tiene el vendedor y de las ventas que haya realizado.
-        - "**Pronóstico vs Orden**": El vendedor comisiona por porcentaje, el mismo depende del estimado de órdenes que tiene el vendedor y de las órdenes que tenga asignadas el vendedor.
-        - "**Recaudo**": El vendedor comisiona si todas sus facturas estan cobradas.
+        - **Comisión Personalizada**: El vendedor comisiona según las reglas o condiciones establecidas en la empresa.
+        - **Factura**: El vendedor comisiona por las facturas que tenga una orden de venta que tenga el vendedor asignado.
+        - **Orden**: El vendedor comisiona por las órdenes de venta que tenga el vendedor asignado.
+        - **Pronóstico vs Factura**: El vendedor comisiona por porcentaje, el mismo depende del estimado de ventas que tiene el vendedor y de las ventas que haya realizado.
+        - **Pronóstico vs Orden**: El vendedor comisiona por porcentaje, el mismo depende del estimado de órdenes que tiene el vendedor y de las órdenes que tenga asignadas el vendedor.
+        - **Recaudo**: El vendedor comisiona si todas sus facturas estan cobradas.
+
 
         |Campo Base de Cálculo|
 
         Imagen 7. Campo Base del Cálculo
 
-    #. El campo "**Tipo de Frecuencia**": Se usa para definir las fechas de inicio y fin del cálculo. Es decir, cada cuanto tiempo comisionará el vendedor:
+    #. El campo "**Tipo de Frecuencia** se usa para definir las fechas de inicio y fin del cálculo. Es decir, cada cuanto tiempo comisionará el vendedor:
 
-        - "**Anualmente**": Cada año (365 días). 
+        - **Anualmente**: Cada año (365 días). 
 
-        - "**Mensualmente**": Cada mes (30 días).
+        - **Mensualmente**: Cada mes (La cantidad de días puede variar según el mes).
 
-        - "**Semanalmente**": Cada semana (7 días).
+        - **Semanalmente**: Cada semana (7 días).
 
-        - "**Trimestralmente**": Cada tres meses (90 días).
+        - **Trimestralmente**: Cada tres meses (90 días).
+        
 
         |Campo Tipo de Frecuencia 1|
 
@@ -110,21 +112,21 @@ Pestaña Comisión
 
         Imagen 9. Campo Cargo
 
-    #. Checklist "**Pagado Totalmente**": Si el checklist se encuentra tildado el vendedor comisiona por las facturas pagadas en su totalidad, de lo contrario comisiona por los pagos parciales de las facturas.
+    #. Si el checklist "**Pagado Totalmente**" se encuentra tildado el vendedor comisiona por las facturas pagadas en su totalidad, de lo contrario comisiona por los pagos parciales de las facturas.
 
-    #. Checklist "**Calcular con Término de Pago**": Si el checklist se encuentra tildado la comisión es calculada en base al término de pago que tenga la factura.
+    #. Si el checklist "**Calcular con Término de Pago**" se encuentra tildado la comisión es calculada en base al término de pago que tenga la factura.
 
         |Checklist Calcular con Término de Pago|
 
         Imagen 10. Checklist Calcular con Término de Pago
 
-    #. Checklist "**Permitir Devoluciones**": Si el checklist se encuentra tildado la comisión es calculada en base a la nota de crédito que contiene asociada la factura.
+    #. Si el checklist "**Permitir Devoluciones**" se encuentra tildado la comisión es calculada en base a la nota de crédito que contiene asociada la factura.
 
         |Checklist Permitir Devoluciones|
 
         Imagen 11. Checklist Permitir Devoluciones
 
-    #. Checklist "**Lista Detalle**": Si el checklist se encuentra tildado permite que los detalles de las comisiones sean mostrados en la ventana "**Cálculo de Comisiones**".
+    #. Si el checklist "**Lista Detalle**" se encuentra tildado permite que los detalles de las comisiones sean mostrados en la ventana "**Cálculo de Comisiones**".
 
 
         |Checklist Lista Detalle|
@@ -147,7 +149,7 @@ Pestaña Línea de Comisión
 
 #. Seleccione la pestaña "**Línea de Comisión**" y proceda al llenado de los campos correspondientes.
 
-    |Línea de Comisión|
+    |Pestaña Línea de Comisión|
 
     Imagen 14. Pestaña Línea de Comisión
 
@@ -169,25 +171,25 @@ Pestaña Línea de Comisión
 
             Imagen 17. Campo Producto
 
-    #. Checklist "**Es Porcentaje**": Si el checklist se encuentra tildado, indica que la comisión es expresada en porcentaje. En caso contrario, indica que la comisión es expresada en cantidad.
+    #. Si el checklist "**Es Porcentaje**" se encuentra tildado, indica que la comisión es expresada en porcentaje. En caso contrario, indica que la comisión es expresada en cantidad.
 
         |Checklist Es Porcentaje|
 
         Imagen 18. Checklist Es Procentaje
 
-    #. Campo "**Multiplicador**": Monto de la comisión en porcentaje.
+    #. En el campo "**Multiplicador**" se introduce el monto de la comisión en porcentaje.
 
         |Campo Multiplicador|
 
         Imagen 19. Campo Multiplicador
 
-    #. Campo "**Cantidad Multiplicadora**": Monto de la comisión en cantidad.
+    #. En el campo "**Cantidad Multiplicadora**" se introduce el monto de la comisión en cantidad.
 
         |Campo Cantidad Multiplicadora|
 
         Imagen 20. Campo Cantidad Multiplicadora
 
-    #. Checklist "**Sólo Positivos**": Si el checklist se encuentra tildado, indica que no se toman en cuenta las notas de crédito para el cálculo de las comisiones.
+    #. Si el checklist "**Sólo Positivos**" se encuentra tildado, indica que no se toman en cuenta las notas de crédito para el cálculo de las comisiones.
 
         |Checklist Sólo Positivos|
 
