@@ -28,11 +28,13 @@
 Definición de Comisiones
 ========================
 
-La definicón de comisiones es una configuración que la empresa realiza en ADempiere para indicar cuando pagar una comisión y a quien pagarsela. La forma de pago de las comisiones depende de lo establecido en el grupo de comisión, la base para el cálculo, la moneda y el tipo de frecuencia.
+Una comisión es un porcentaje o cantidad de dinero que es cobrado por la venta de productos o servicios, las mismas estan sujetas a reglas o condiciones establecidas por la empresa a los vendedores. Las comisiones son pagadas a los vendedores para motivarlos a vender más productos o servicios.
+
+La definicón de comisiones es una configuración que la empresa realiza en ADempiere para indicar cuando pagar una comisión y a quien pagarsela. La forma de pago de las comisiones depende de lo establecido en el grupo de comisión, la base para el cálculo, la moneda y el tipo de frecuencia para el pago.
 
 El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente con respecto al procedimiento a seguir para realizar una definición de comisiones en la versión 3.9.2 de ADempiere, en la localización Venezuela. 
 
-Para explicar el procedimiento detalladamente, es presentado a continuación el ejemplo de una determinada empresa que necesita crear dos (2) registros de definición de comisiones (Internos y Externos), con diferentes montos de comisión y apuntando a un mismo grupo de comisión (1000000_Comisión de Venta_M). A continuación es mostrado el procedimiento de la definición de comisiones de vendedores internos de la empresa, debe realizarce el mismo procedimiento para la definición de comisiones de vendedores externos.
+Para explicar el procedimiento detalladamente, se presentará un ejemplo en el cual se definen dos (2) comisiones, comisiones internas y externas, donde las internas se refiere a las comisiones para los trabajadores que laboran dentro de la empresa y externas a las comisiones para los trabajadores que laboran fuera de la empresa. El ejemplo contempla diferentes montos de comisión y apuntando a un mismo grupo de comisión (1000000_Comisión de Venta_M). A continuación es mostrado el procedimiento de la definición de comisiones de vendedores internos de la empresa, debe realizarce el mismo procedimiento para la definición de comisiones de vendedores externos.
 
 Pestaña Comisión
 ****************
