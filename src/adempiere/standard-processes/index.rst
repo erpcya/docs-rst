@@ -17,3 +17,4 @@ Los procedimientos estándares de ADempiere en la versión 3.9.2 de la localizac
     open-items/index
     accounting/index
     returns/index
+    asset-management/index
