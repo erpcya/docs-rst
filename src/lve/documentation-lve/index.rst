@@ -13,3 +13,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
     standard-coding/index
     fiscal-printer/index
     import/index
+    report/index
