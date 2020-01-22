@@ -10,9 +10,9 @@ Los campos para filtrar la búsqueda quedan a criterio del usuario, según la ne
 
 El proceso consiste en asignar la fecha de facturación, que es el rango de tiempo para filtrar la búsqueda y el tipo de documento base, que es el documento base por el cual se rigen los diferentes tipos de documentos asociados a el, para generar según el comportamiento de cada uno, las acciones en los documentos de ADempiere. El comportamiento de los tipos de documento se encuentra explicado en el material :ref:`Tipo de Documento` elaborado por ERPyA.
 
-El tipo de documento base "**Factura de CxC**" de cuentas por cobrar tiene asociado a todos los tipos de documentos referentes a cuentas por cobrar que posee ADempiere, sin incluir los tipos de documentos "**Nota de Crédito de CxC**". 
+El tipo de documento base "**Factura de CxC**" tiene asociado a todos los tipos de documentos referentes a cuentas por cobrar que posee ADempiere, sin incluir los diferentes tipos de documentos "**Nota de Crédito**" de cuentas por cobrar, ya que esos se encuentran asociados al tipo de documento base "**Nota de Crédito de CxC**". 
 
-
+A continuación, se explica el procedimiento para generar un reporte de ventas brutas en ADempiere.
 
 .. toctree::
     :maxdepth: 3
