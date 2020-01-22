@@ -1,4 +1,9 @@
 .. |Menú de ADempiere 1| image:: resources/menu1.png
+.. |Ventana del Proceso Resumen de Facturas 1| image:: resources/
+.. |Campo Fecha de Facturación 1| image:: resources/
+.. |Campo Tipo de Documento Base 1| image:: resources/
+.. |Opción OK 1| image:: resources/
+
 .. _documento/reporte-ventas-brutas:
 
 
