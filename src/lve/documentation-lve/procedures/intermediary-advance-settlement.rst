@@ -1,5 +1,5 @@
 .. |Menú de ADempiere 1| image:: resources/menutransf.png
-.. |Ejemplo de Transferencia Bancaria| image:: resources/
+.. |Ejemplo de Transferencia Bancaria| image:: resources/transferencia.png
 .. |Menú de ADempiere 2| image:: resources/menufactura.png
 .. |Documento por Pagar 1| image:: resources/doc1.png
 .. |Pestaña Línea de la Factura 1| image:: resources/linea1.png
