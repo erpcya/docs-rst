@@ -35,6 +35,8 @@ La operación de anticipos a terceros está compuesta por cinco fases u operacio
 #. Incremento de anticipo a terceros(Gestor)
 #. Liquidación de Anticipos y CxP
 
+.. _paso/carga-anticipo:
+
 Carga de Anticipo
 *****************
 
@@ -48,7 +50,7 @@ El traslado de fondo reflejará en la cuenta de banco un egreso por el anticipo 
 
 En primer lugar se creará el anticipo gestionando un traslado de fondos mediante el proceso de transferencia  a la caja (Caja Intermediario _NumOrden_Proveedor)  y se paga desde el banco en el cual sale realmente el pago. 
 
-Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, la transferencia bancaria es el proceso mediante el cual se realizan los traslados de fondos entre cuentas(Banco Real a Caja Intermediario _NumOrden_Proveedor), a continuación se define el proceso para realizar una transferencia bancaria en ADempiere. 
+Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, la transferencia bancaria es el proceso mediante el cual se realizan los traslados de fondos entre cuentas (Banco Real a Caja Intermediario _NumOrden_Proveedor), a continuación se define el proceso para realizar una transferencia bancaria en ADempiere. 
 
 #. Ubique y seleccione en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
 
@@ -119,6 +121,8 @@ Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, 
 
         Imagen 2. Ejemplo de Transferencia Bancaria
 
+.. _paso/carga-factura-cxp:
+
 Carga de Factura de Cuentas por Pagar
 *************************************
 
@@ -172,6 +176,7 @@ Carga de Factura de Cuentas por Pagar
 
     Si ya se encuentra recepcionada la mercancía debe seguir el procedimiento de costos adicionales asociado a una recepción, de otro modo debe ser cargada de forma regular y ser reversada mediante un ajuste de crédito al recepcionar la mercancía, cargando un ajuste de débito con el procedimiento de costo adicional.
 
+.. _paso/cancelación-cruce-anticipo-cuentas:
 
 Cancelación ó Cruce de Anticipo con Cuentas por Pagar
 *****************************************************
@@ -270,6 +275,8 @@ Tesorería ejecuta el proceso de "**Imprimir/Exportar**" llamando la solicitud d
             |              |                                                                   |         27.000.000,00|          27.000.000,00|
             +--------------+-------------------------------------------------------------------+----------------------+-----------------------+
 
+.. _paso/conciliación-liquidación:
+
 Conciliación de Liquidación
 ***************************
 
@@ -279,7 +286,7 @@ Conciliación de Liquidación
 
     Imagen 17. Menú de ADempiere
 
-#. Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja` del documento "**Importación**". Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el gestor intermediario.
+#. Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja-importación` del documento "**Importación**", seleccionando la caja intermediario creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el gestor intermediario.
 
     |Cierre de Caja|
 
@@ -291,7 +298,7 @@ Conciliación de Liquidación
 
         Imagen 19. Pestaña Línea de Cierre de Caja
 
-    #. Para generar el reporte del balance de caja y visualizar los saldos abiertos que posee el gestor intermediario,seleccione en la ventana "**Cierre de Caja**", el icono "**Informe**" que se encuentra ubicado en la barra de herramientas de ADempiere.
+    #. Para generar el reporte del balance de caja y visualizar los saldos abiertos que posee el gestor intermediario, seleccione en la ventana "**Cierre de Caja**" el icono "**Informe**", que se encuentra ubicado en la barra de herramientas de ADempiere.
 
         |Icono Informe|
 

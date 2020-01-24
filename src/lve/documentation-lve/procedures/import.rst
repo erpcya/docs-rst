@@ -43,6 +43,9 @@ Importación
 La importación consiste en ingresar al país los productos comprados procedentes de una empresa que se encuentra fuera del territorio nacional. Dicha importación tiene como consecuencia para la empresa nacional la generación de gastos aduanales, sujetos al pago de tributos o al amparo de las franquicias correspondientes.
 
 El presente material elaborado por ERPyA, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la importación de productos en ADempiere, en su versión 3.9.2 para la localización Venezuela.
+
+
+.. _paso/crear-orden-importación:
  
 Crear Orden de Compra de Importación
 ************************************
@@ -62,6 +65,9 @@ Crear Orden de Compra de Importación
 .. note:: 
 
     El documento debe quedar en estado borrador.
+
+
+.. _paso/crear-conversión:
 
 Crear Tipo de Conversión
 ************************
@@ -88,6 +94,8 @@ Crear Tipo de Conversión
 
     Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
+
+.. _paso/crear-tasa:
 
 Crear Tasa de Conversión
 ************************
@@ -156,6 +164,9 @@ La tasa de conversión se crea unicamente cuando se conoce el monto, el mismo se
 
     Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
+
+.. _paso/asignar-conversión-orden:
+
 Asignar Tipo de Conversión a Orden de Compra de Importación
 ***********************************************************
 
@@ -193,6 +204,9 @@ Asignar Tipo de Conversión a Orden de Compra de Importación
 
     Imagen 19. Orden de Compra Completa
 
+
+.. _paso/crear-factura-importación:
+
 Crear Documento por Pagar
 *************************
 
@@ -207,6 +221,8 @@ Crear Documento por Pagar
     |Factura de Importación|
 
     Imagen 21. Factura de Cuentas por Pagar Importación
+
+.. _paso/crear-caja-importación:
 
 Cancelación de Factura
 **********************
@@ -257,7 +273,7 @@ Cancelación de Factura
 
             Imagen 28. Acción Completar
 
-.. _paso/cierre-caja:
+.. _paso/cierre-caja-importación:
 
 Conciliación de Pagos
 *********************
