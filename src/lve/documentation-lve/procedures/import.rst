@@ -194,7 +194,7 @@ Asignar Tipo de Conversión a Orden de Compra de Importación
     Imagen 19. Orden de Compra Completa
 
 Crear Documento por Pagar
-*************
+*************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
 
@@ -256,6 +256,8 @@ Cancelación de Factura
             |Acción Completar|
 
             Imagen 28. Acción Completar
+
+.. _paso/cierre-caja:
 
 Conciliación de Pagos
 *********************
