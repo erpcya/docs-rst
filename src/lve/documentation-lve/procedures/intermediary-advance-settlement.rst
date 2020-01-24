@@ -15,7 +15,10 @@
 .. |Opción Completar 2| image:: resources/completar4.png
 .. |Acción Completar| image:: resources/accion1.png
 .. |Menú de ADempiere 4| image:: resources/menucierre1.png
-.. 
+.. |Cierre de Caja| image:: resources/cierrecaja.png
+.. |Pestaña Línea de Cierre de Caja| image:: resources/linea4.png
+.. |Icono Informe| image:: resources/cierrecaja2.png
+.. |Reporte de Balance| image:: resources/resporte.png
 
 .. _documento/liquidación-anticipo-intermeiario:
 
@@ -23,6 +26,7 @@ Liquidación Anticipo Intermediario
 ==================================
 
 Posterior a la concesión del anticipo, será justificado el anticipo relacionando los gastos (Facturas) es entonces cuando se procede a liquidar los anticipos concedidos al gestor de importación.
+
 La operación de anticipos a terceros está compuesta por cinco fases u operaciones las cuales no tienen porqué ser todas necesarias en el proceso de liquidación:
 
 #. Anticipo a terceros(Gestor)
@@ -132,11 +136,11 @@ Carga de Factura de Cuentas por Pagar
 
         Imagen 4. Documento por Pagar
 
-    #. Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Gastos Aduanales**" utilizado para generar el documento por pagar con el monto de "**1.550.000,00**".
+        #. Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Gastos Aduanales**" utilizado para generar el documento por pagar con el monto de "**1.550.000,00**".
 
-        |Pestaña Línea de la Factura 1|
+            |Pestaña Línea de la Factura 1|
 
-        Imagen 5. Pestaña Línea de la Factura
+            Imagen 5. Pestaña Línea de la Factura
 
 
     #. Factura "**1000022**", con socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" y moneda "**VES**".
@@ -145,24 +149,24 @@ Carga de Factura de Cuentas por Pagar
 
         Imagen 6. Documento por Pagar
 
-    #. Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Flete Aduanales**" utilizado para generar el documento por pagar con el monto de "**2.400.000,00**".
+        #. Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Flete Aduanales**" utilizado para generar el documento por pagar con el monto de "**2.400.000,00**".
 
-        |Pestaña Línea de la Factura 2|
+            |Pestaña Línea de la Factura 2|
 
-        Imagen 7. Pestaña Línea de la Factura
+            Imagen 7. Pestaña Línea de la Factura
 
 
-        #. Factura "**1000023**", con socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" y moneda "**VES**".
+    #. Factura "**1000023**", con socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" y moneda "**VES**".
     
         |Documento por Pagar 3|
 
         Imagen 8. Documento por Pagar
 
-    #. Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Honorarios Profesionales**" utilizado para generar el documento por pagar con el monto de "**27.000.000,00**".
+        #. Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Honorarios Profesionales**" utilizado para generar el documento por pagar con el monto de "**27.000.000,00**".
 
-        |Pestaña Línea de la Factura 3|
+            |Pestaña Línea de la Factura 3|
 
-        Imagen 9. Pestaña Línea de la Factura
+            Imagen 9. Pestaña Línea de la Factura
 
 .. note::
 
@@ -275,9 +279,26 @@ Conciliación de Liquidación
 
     Imagen 17. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Cierre de Caja**", donde debe seleccionar en la barra de herramientas el icono "**Registro Nuevo**" y realizar el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja` del documento "**Importación**".
+#. Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja` del documento "**Importación**". Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el gestor intermediario.
 
-    |Icono Registro Nuevo 3|
+    |Cierre de Caja|
 
-    Imagen 18. Icono Registro Nuevo
+    Imagen 18. Cierre de Caja
 
+    #. Podrá apreciar en la pestaña "**Línea de Cierre de Caja**", los diferentes registros creados desde el proceso "**Crear a Partir de Pagos**".
+
+        |Pestaña Línea de Cierre de Caja|
+
+        Imagen 19. Pestaña Línea de Cierre de Caja
+
+    #. Para generar el reporte del balance de caja y visualizar los saldos abiertos que posee el gestor intermediario,seleccione en la ventana "**Cierre de Caja**", el icono "**Informe**" que se encuentra ubicado en la barra de herramientas de ADempiere.
+
+        |Icono Informe|
+
+        Imagen 20. Icono Informe
+
+        #. Podrá visualizar el balance de caja de la siguiente manera.
+
+        |Reporte de Balance|
+
+        Imagen 20. Reporte de Balance
