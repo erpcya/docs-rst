@@ -44,9 +44,9 @@ El objetivo de la elaboración de este documento radica en asegurar la calidad d
 
 En ADempiere una orden de calidad refleja los lineamientos que debe cumplir el departamento de producción en cuanto a los productos y servicios elaborados para el consumo de los socios de negocios tipo clientes.
 
-1. **Orden de Calidad**
+#. **Orden de Calidad**
 
-   1. **Definición**
+   #. **Definición**
 
       Una orden de calidad se elabora previo a la planificación de lo que la empresa requiere que se produzca, sin embargo, se debe tomar en cuenta al momento de elaborar una orden de producción o de manufactura ya que se requiere que los materiales a utilizar sean de calidad para que la producción cumpla con lo establecido en el documento orden de calidad.
 
@@ -54,7 +54,7 @@ En ADempiere una orden de calidad refleja los lineamientos que debe cumplir el d
 
          Los productos realizados deben cumplir con los requerimientos de los clientes y satisfacer sus necesidades.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la orden de calidad se define según su comportamiento, a continuación se explica el proceder de una **Orden de Calidad**:
 
@@ -75,708 +75,343 @@ En ADempiere una orden de calidad refleja los lineamientos que debe cumplir el d
       | Copias del Documento:  |        1        | Establece el número de copias a imprimir.        |
       +------------------------+-----------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
       -  Genera al departamento de producción una planificación de procesos a aplicar.
       -  Garantiza productos de calidad cuando se cumple el documento en todas sus especificaciones.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
 
-         Basado en la Norma Internacional ISO 9000:2015, Sistemas de gestión de la calidad — Fundamentos y vocabulario, donde indica en el items seis (6) referente a la planificación, lo siguiente:
+      Basado en la Norma Internacional ISO 9000:2015, Sistemas de gestión de la calidad — Fundamentos y vocabulario, donde indica en el items seis (6) referente a la planificación, lo siguiente:
 
-          **6.1 Acciones para abordar riesgos y oportunidades**
+         **6.1 Acciones para abordar riesgos y oportunidades**
 
-          6.1.1 Al planificar el sistema de gestión de la calidad, la organización debe considerar las cuestiones referidas en el apartado 4.1 y los requisitos referidos en el apartado 4.2, y determinar los riesgos y oportunidades que es necesario abordar con el fin de:
+            6.1.1 Al planificar el sistema de gestión de la calidad, la organización debe considerar las cuestiones referidas en el apartado 4.1 y los requisitos referidos en el apartado 4.2, y determinar los riesgos y oportunidades que es necesario abordar con el fin de:
 
-          1. asegurar que el sistema de gestión de la calidad pueda lograr sus resultados previstos;
-          1. aumentar los efectos deseables;
-          1. prevenir o reducir efectos no deseados;
-          1. lograr la mejora.
+               #. asegurar que el sistema de gestión de la calidad pueda lograr sus resultados previstos;
+               #. aumentar los efectos deseables;
+               #. prevenir o reducir efectos no deseados;
+               #. lograr la mejora.
 
-          6.1.2 La organización debe planificar:
+            6.1.2 La organización debe planificar:
 
-          1. las acciones para abordar estos riesgos y oportunidades;
-          1. la manera de:
-              1. integrar e implementar las acciones en sus procesos del sistema de gestión de la calidad (véase 4.4.);
-              1. evaluar la eficacia de estas acciones.
+               #. las acciones para abordar estos riesgos y oportunidades;
+               #. la manera de:
+                  #. integrar e implementar las acciones en sus procesos del sistema de gestión de la calidad (véase 4.4.);
+                  #. evaluar la eficacia de estas acciones.
 
-          Las acciones tomadas para abordar los riesgos y oportunidades deben ser proporcionales al impacto potencial en la conformidad de los productos y los servicios.
+               Las acciones tomadas para abordar los riesgos y oportunidades deben ser proporcionales al impacto potencial en la conformidad de los productos y los servicios.
 
-          NOTA 1 Las opciones para abordar los riesgos pueden incluir: evitar riesgos, asumir riesgos para perseguir una oportunidad, eliminar la fuente de riesgo, cambiar la probabilidad o las consecuencias, compartir el riesgo o mantener riesgos mediante decisiones informadas.
+               NOTA 1 Las opciones para abordar los riesgos pueden incluir: evitar riesgos, asumir riesgos para perseguir una oportunidad, eliminar la fuente de riesgo, cambiar la probabilidad o las consecuencias, compartir el riesgo o mantener riesgos mediante decisiones informadas.
 
-          NOTA 2 Las oportunidades pueden conducir a la adopción de nuevas prácticas, lanzamiento de nuevos productos, apertura de nuevos mercados, acercamiento a nuevos clientes, establecimiento de asociaciones, utilización de nuevas tecnologías y otras posibilidades deseables y viables para abordar las necesidades de la organización o las de sus clientes.
+               NOTA 2 Las oportunidades pueden conducir a la adopción de nuevas prácticas, lanzamiento de nuevos productos, apertura de nuevos mercados, acercamiento a nuevos clientes, establecimiento de asociaciones, utilización de nuevas tecnologías y otras posibilidades deseables y viables para abordar las necesidades de la organización o las de sus clientes.
 
-          **6.2 Objetivos de la calidad y planificación para lograrlos**
+         **6.2 Objetivos de la calidad y planificación para lograrlos**
 
-          6.2.1 La organización debe establecer objetivos de la calidad para las funciones y niveles pertinentes y los procesos necesarios para el sistema de gestión de la calidad.
+            6.2.1 La organización debe establecer objetivos de la calidad para las funciones y niveles pertinentes y los procesos necesarios para el sistema de gestión de la calidad.
 
-          Los objetivos de la calidad deben:
+            Los objetivos de la calidad deben:
 
-          1. ser coherentes con la política de la calidad;
-          1. ser medibles;
-          1. tener en cuenta los requisitos aplicables;
-          1. ser pertinentes para la conformidad de los productos y servicios y para el aumento de la satisfacción del cliente;
-          1. ser objeto de seguimiento;
-          1. comunicarse;
-          1. actualizarse, según corresponda.
+               #. ser coherentes con la política de la calidad;
+               #. ser medibles;
+               #. tener en cuenta los requisitos aplicables;
+               #. ser pertinentes para la conformidad de los productos y servicios y para el aumento de la satisfacción del cliente;
+               #. ser objeto de seguimiento;
+               #. comunicarse;
+               #. actualizarse, según corresponda.
 
-          La organización debe mantener información documentada sobre los objetivos de la calidad.
+            La organización debe mantener información documentada sobre los objetivos de la calidad.
 
-          6.2.2 Al planificar cómo lograr sus objetivos de la calidad, la organización debe determinar:
+            6.2.2 Al planificar cómo lograr sus objetivos de la calidad, la organización debe determinar:
 
-          1. qué se va a hacer;
-          1. qué recursos se requerirán;
-          1. quién será responsable;
-          1. cuándo se finalizará;
-          1. cómo se evaluarán los resultados.
+               #. qué se va a hacer;
+               #. qué recursos se requerirán;
+               #. quién será responsable;
+               #. cuándo se finalizará;
+               #. cómo se evaluarán los resultados.
 
-          **6.3 Planificación de los cambios**
+         **6.3 Planificación de los cambios**
 
-          Cuando la organización determine la necesidad de cambios en el sistema de gestión de la calidad, estos cambios se deben llevar a cabo de manera planificada (véase 4.4).
+            Cuando la organización determine la necesidad de cambios en el sistema de gestión de la calidad, estos cambios se deben llevar a cabo de manera planificada (véase 4.4).
 
-          La organización debe considerar:
+            La organización debe considerar:
 
-          1. el propósito de los cambios y sus consecuencias potenciales;
-          1. la integridad del sistema de gestión de la calidad;
-          1. la disponibilidad de recursos;
-          1. la asignación o reasignación de responsabilidades y autoridades.
+               #. el propósito de los cambios y sus consecuencias potenciales;
+               #. la integridad del sistema de gestión de la calidad;
+               #. la disponibilidad de recursos;
+               #. la asignación o reasignación de responsabilidades y autoridades.
 
 |Insumo del Proyecto| **Insumo del Proyecto**
 ---------------------------------------------
 
-Es el documento donde se detallan todos los materiales que el
-departamento de producción vaya a utilizar para elaborar un determinado
-proyecto, es decir, los materiales fundamentales para logar una
-producción.
+Es el documento donde se detallan todos los materiales que el departamento de producción vaya a utilizar para elaborar un determinado proyecto, es decir, los materiales fundamentales para logar una producción.
 
-Los insumos varían dependiendo del producto que la empresa vaya a
-producir y la cantidad total planificada del mismo.
+Los insumos varían dependiendo del producto que la empresa vaya a producir y la cantidad total planificada del mismo.
 
 **Tipo de Documento Insumo de Proyecto**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere el documento permite ayudar al departamento de producción
-de la empresa en cuanto al control y la organización necesaria para la
-producción, el mismo es definido según su comportamiento y especificado
-a continuación.
+En ADempiere el documento permite ayudar al departamento de producción de la empresa en cuanto al control y la organización necesaria para la producción, el mismo es definido según su comportamiento y especificado a continuación.
 
-1. **Insumo de Proyecto**
+#. **Insumo de Proyecto**
 
-   1. **Definición**
+   #. **Definición**
 
-      Es un documento necesario para la elaboración de la orden de
-      producción o de manufactura, considerándose la base para la
-      planificación de las mismas, dando inicio al proceso de producción
-      que se realiza en una determinada empresa.
+      Es un documento necesario para la elaboración de la orden de producción o de manufactura, considerándose la base para la planificación de las mismas, dando inicio al proceso de producción que se realiza en una determinada empresa.
 
       .. warning:: 
 
          El documento de insumos del proyecto contiene de manera detallada la cantidad de insumos de calidad con los que cuenta la empresa para iniciar el proceso de producción. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere el insumo de proyecto se define según su
-      comportamiento, a continuación se explica el proceder del **Insumo
-      de Proyecto**:
+      En ADempiere el insumo de proyecto se define según su comportamiento, a continuación se explica el proceder del **Insumo de Proyecto**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Insum | Gene |
-      | de   | o     | ra   |
-      | Docu | de    | un   |
-      | ment | Proye | docu |
-      | o:   | cto   | ment |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | **In |
-      |      |       | sumo |
-      |      |       | de   |
-      |      |       | Proy |
-      |      |       | ecto |
-      |      |       | **   |
-      |      |       | a    |
-      |      |       | una  |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | nume |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |     **Valor**    | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      | Tipo de Documento Base:|Insumo de Proyecto|Genera un documento de **Insumo de Proyecto** a   |
+      |                        |                  |una empresa.                                      |
+      +------------------------+------------------+--------------------------------------------------+
+      | Copias del Documento:  |         1        | Establece el número de copias a imprimir.        |
+      +------------------------+------------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera la información necesaria sobre los insumos disponibles
-         para un proyecto.
+      -  Genera la información necesaria sobre los insumos disponibles para un proyecto.
       -  Permite la elaboración de una orden de producción planeada.
       -  Permite la elaboración de una orden de manufactura.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 |Orden de Producción Planeada| **Orden de Producción Planeada**
 ---------------------------------------------------------------
 
-Una orden de producción parte del proceso de planificación de producción
-de una determinada empresa, es elaborada basandose en los materiales o
-insumos de producción con los que cuenta la misma. Una vez ya
-planificada la producción se procede a realizar la autorización, o bien,
-la orden de producción.
+Una orden de producción parte del proceso de planificación de producción de una determinada empresa, es elaborada basandose en los materiales o insumos de producción con los que cuenta la misma. Una vez ya planificada la producción se procede a realizar la autorización, o bien, la orden de producción.
 
-Por medio de este documento se lleva un control de los materiales,
-gastos, y el tiempo empleado por los trabajadores o maquinarias.
-Adicional a ello, indica los productos y la cantidad que se debe
-producir en un tiempo estimado.
+Por medio de este documento se lleva un control de los materiales, gastos, y el tiempo empleado por los trabajadores o maquinarias. Adicional a ello, indica los productos y la cantidad que se debe producir en un tiempo estimado.
 
 **Tipo de Documento Orden de Producción Planeada**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere este tipo de documento permite generar al departamento de
-producción la información necesaria para que sea distribuido
-correctamente el trabajo y puedan comenzar con el proceso de producción.
+En ADempiere este tipo de documento permite generar al departamento de producción la información necesaria para que sea distribuido correctamente el trabajo y puedan comenzar con el proceso de producción.
 
-1. **Orden de Producción Planeada**
+#. **Orden de Producción Planeada**
 
-   1. **Definición**
+   #. **Definición**
 
-      Es un tipo de documento que representa la autorización que realiza
-      el jefe de producción de una empresa, el mismo se basa en los
-      materiales adquiridos para indicar a los trabajadores el estimado
-      de productos manufacturados que se debe cumplir en el día o en el
-      mes.
+      Es un tipo de documento que representa la autorización que realiza el jefe de producción de una empresa, el mismo se basa en los materiales adquiridos para indicar a los trabajadores el estimado de productos manufacturados que se debe cumplir en el día o en el mes.
 
       .. warning:: 
       
          Es un documento utilizado por las empresas al comenzar su producción, autorizando por medio de este el inicio de la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la orden de producción planeada se define según su
-      comportamiento, a continuación se explica el proceder de una
-      **Orden de Producción Planeada**:
+      En ADempiere la orden de producción planeada se define según su comportamiento, a continuación se explica el proceder de una **Orden de Producción Planeada**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Manuf | Gene |
-      | de   | actur | ra   |
-      | Docu | ing   | un   |
-      | ment | Plann | docu |
-      | o    | ed    | ment |
-      | Base | Order | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Prod |
-      |      |       | ucci |
-      |      |       | ón   |
-      |      |       | Plan |
-      |      |       | eada |
-      |      |       | **   |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |   Manufacturing  |Genera un documento de **Orden de Producción**    |
+      |                        |       Planned    |**Planeada** a la empresa.                        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |         Si       |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |         1        |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
       -  Autoriza una producción determinada.
-      -  Controla la cantidad de materiales, gastos y tiempo invertido
-         para la producción.
+      -  Controla la cantidad de materiales, gastos y tiempo invertido para la producción.
       -  Garantiza una buena distribución de la producción.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 |Orden de Manufactura| **Orden de Manufactura**
 -----------------------------------------------
 
-Es un documento en el que se especifican los productos o servicios a
-realizar, así como la cantidad de los mismos. En una orden de
-manufactura se establecen los materiales necesarios y las fechas de
-comienzo y fin de la producción, de igual manera la fecha de entrega del
-mismo.
+Es un documento en el que se especifican los productos o servicios a realizar, así como la cantidad de los mismos. En una orden de manufactura se establecen los materiales necesarios y las fechas de comienzo y fin de la producción, de igual manera la fecha de entrega del mismo.
 
 **Tipo de Documento Orden de Manufactura**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere una orden de manufactura autoriza la producción en planta y
-especifica cada detalle necesario para la misma. Es definido según su
-comportamiento y explicado a continuación.
+En ADempiere una orden de manufactura autoriza la producción en planta y específica cada detalle necesario para la misma. Es definido según su comportamiento y explicado a continuación.
 
-1. **Orden de Manufactura**
+#. **Orden de Manufactura**
 
-   1. **Definición**
+   #. **Definición**
 
-      Es un documento utilizado por la empresa para controlar y dar
-      seguimiento a todo el proceso de manufactura que realiza la misma
-      a la hora de elaborar sus productos y servicios.
+      Es un documento utilizado por la empresa para controlar y dar seguimiento a todo el proceso de manufactura que realiza la misma a la hora de elaborar sus productos y servicios.
 
       .. warning:: 
       
          Es un documento utilizado por las empresas al comenzar su producción, autorizando por medio de este el inicio de la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la orden de manufactura se define según su
-      comportamiento, a continuación se explica el proceder de una
-      **Orden de Manufactura**:
+      En ADempiere la orden de manufactura se define según su comportamiento, a continuación se explica el proceder de una **Orden de Manufactura**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Manuf | un   |
-      | ment | actur | docu |
-      | o    | a     | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Manu |
-      |      |       | fact |
-      |      |       | ura* |
-      |      |       | *    |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Manuf | el   |
-      | del  | actur | núme |
-      | Docu | a     | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 80.0 |
-      |      |       | 00   |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | M-** |
-      |      |       | ".   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |     Orden de     |Genera un documento de **Orden de Manufactura** a |
+      |                        |   Manufactura    |la empresa.                                       |
+      +------------------------+------------------+--------------------------------------------------+
+      | Documento Controlado:  |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|     Orden de     |Genera el número de secuencia establecido para el |
+      |                        |   Manufactura    |orden de los tipo de documentos de ADempiere,     |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 80.000 y su prefijo esta compuesto por|
+      |                        |                  |las iniciales de su nombre "**OM-**".             |
+      +------------------------+------------------+--------------------------------------------------+
+      | Copias del Documento:  |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
       -  Autoriza una producción determinada.
-      -  Controla la cantidad de materiales, gastos y tiempo invertido
-         para la producción.
+      -  Controla la cantidad de materiales, gastos y tiempo invertido para la producción.
       -  Garantiza una buena distribución de la producción.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 |Producción| **Producción de Material**
 ---------------------------------------
 
-Es el resultado de varias fases de trabajo que se llevan a cabo en una
-determinada empresa, también es llamado proceso de manufactura, esta es
-la base o el recurso principal para el ingreso monetario.
+Es el resultado de varias fases de trabajo que se llevan a cabo en una determinada empresa, también es llamado proceso de manufactura, esta es la base o el recurso principal para el ingreso monetario.
 
-Todos los procesos que se llevan a cabo en una empresa estan
-relacionados directa o indirectamente con el mismo, en tal sentido, la
-mano de obra puede ser considerada como directa o indirecta dentro del
-proceso.
+Todos los procesos que se llevan a cabo en una empresa estan relacionados directa o indirectamente con el mismo, en tal sentido, la mano de obra puede ser considerada como directa o indirecta dentro del proceso.
 
-La manufactura es originada desde una planificación previa, estimando
-metas u objetivos de producción que serán producto de control dentro de
-los turnos que conforman la producción, el resultado de los mismos
-determinan la estabilidad de una empresa y la disponibilidad de los
-productos terminados para la venta.
+La manufactura es originada desde una planificación previa, estimando metas u objetivos de producción que serán producto de control dentro de los turnos que conforman la producción, el resultado de los mismos determinan la estabilidad de una empresa y la disponibilidad de los productos terminados para la venta.
 
 **Tipo de Documento Producción de Material**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere una producción de material define los productos o servicios
-elaborados por una determinada empresa, y su proceder es único en cada
-documento generado por el mismo.
+En ADempiere una producción de material define los productos o servicios elaborados por una determinada empresa, y su proceder es único en cada documento generado por el mismo.
 
-1. **Producción de Material**
+#. **Producción de Material**
 
-   1. **Definición**
+   #. **Definición**
 
-      Es el documento que refleja el resultado obtenido de la producción
-      realizada por la empresa, los productos o servicios producidos son
-      la base para el ingreso monetario, los mismos deben pasar por
-      control de calidad antes de ser expuestos al cliente, cuando la
-      producción se trata de alimentos para el consumo humano, el
-      cuidado y tratado del producto debe ser mayor.
+      Es el documento que refleja el resultado obtenido de la producción realizada por la empresa, los productos o servicios producidos son la base para el ingreso monetario, los mismos deben pasar por control de calidad antes de ser expuestos al cliente, cuando la producción se trata de alimentos para el consumo humano, el cuidado y tratado del producto debe ser mayor.
 
-      En Venezuela, el ente encargado de regir el proceso de producción
-      en el caso de los alimentos es el ministerio del poder popular
-      para la alimentación.
+      En Venezuela, el ente encargado de regir el proceso de producción en el caso de los alimentos es el ministerio del poder popular para la alimentación.
 
       .. warning:: 
       
          La producción de material no puede ser expuesta hasta que el departamento de control de calidad indique que es un producto o servicio competente para salir de la empresa en la cual fue producido.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la producción de material se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Producción de Material**:
+      En ADempiere la producción de material se define según su comportamiento, a continuación se explica el proceder de **Producción de Material**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Produ | Gene |
-      | de   | cción | ra   |
-      | Docu | de    | un   |
-      | ment | Mater | docu |
-      | o    | ial   | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Pr |
-      |      |       | oduc |
-      |      |       | ción |
-      |      |       | de   |
-      |      |       | Mate |
-      |      |       | rial |
-      |      |       | **   |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | del  |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |  Producción de   |Genera un documento de **Producción de Material** |
+      |                        |     Material     |a la empresa.                                     |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copiar Número de        |                  |**Copia el número de documento en el reverso** en |
+      |Documento en Reverso:   |       Si         |lugar de generar un nuevo número agregándole el   |
+      |                        |                  |símbolo **^** al final del número de documento,   |
+      |                        |                  |además el monto del documento pasa a **negativo**.|
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja en ADempiere la cantidad producida como producto en
-         existencia.
-      -  Permite un ingreso monetario a cambio de este por medio de
-         ventas.
-      -  Se encuentra disponible automaticamente para las ventas de la
-         empresa.
+      -  Refleja en ADempiere la cantidad producida como producto en existencia.
+      -  Permite un ingreso monetario a cambio de este por medio de ventas.
+      -  Se encuentra disponible automaticamente para las ventas de la empresa.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
    
       Basado en el decreto N° 5.246 publicado en la gaceta oficial N° 38.654 con fecha del 28 de marzo del 2007 donde estipula en su artículo 26 lo siguiente:
 
-          **Artículo 26:** Son competencias del ministerio del poder popular para la alimentación:
+         **Artículo 26:** Son competencias del ministerio del poder popular para la alimentación:
 
-          1. La regulación, formulación, seguimiento y evaluación de políticas, planificación y realización de las actividades del Ejecutivo Nacional en materia de comercio, industria, mercadeo y distribución de alimentos. 
+            #. La regulación, formulación, seguimiento y evaluación de políticas, planificación y realización de las actividades del Ejecutivo Nacional en materia de comercio, industria, mercadeo y distribución de alimentos. 
 
-          1. La regulación, formulación, seguimiento y evaluación de políticas, planificación y realización de las actividades del Ejecutivo Nacional en materia de seguridad alimentaria, en coordinación con los Ministerios del Poder Popular para la Agricultura y Tierras y del Poder Popular para el Comercio. 
+            #. La regulación, formulación, seguimiento y evaluación de políticas, planificación y realización de las actividades del Ejecutivo Nacional en materia de seguridad alimentaria, en coordinación con los Ministerios del Poder Popular para la Agricultura y Tierras y del Poder Popular para el Comercio. 
 
-          1. La regulación, formulación, seguimiento y evaluación de políticas, la planificación y realización de las actividades del Ejecutivo Nacional, en materia de seguridad alimentaria, en coordinación con los Ministerios del Poder Popular para la Agricultura y Tierras y del Poder Popular para las Industrias Ligeras y Comercio; 
+            #. La regulación, formulación, seguimiento y evaluación de políticas, la planificación y realización de las actividades del Ejecutivo Nacional, en materia de seguridad alimentaria, en coordinación con los Ministerios del Poder Popular para la Agricultura y Tierras y del Poder Popular para las Industrias Ligeras y Comercio; 
 
-          1. La regulación, formulación, seguimiento y evaluación de políticas, planificación y realización de las actividades del Ejecutivo Nacional en materia de recepción, almacenamiento, depósito, conservación, transporte, distribución, entrega, colocación y consumo de alimentos. 
+            #. La regulación, formulación, seguimiento y evaluación de políticas, planificación y realización de las actividades del Ejecutivo Nacional en materia de recepción, almacenamiento, depósito, conservación, transporte, distribución, entrega, colocación y consumo de alimentos. 
 
-          1. La planificación, coordinación, seguimiento y evaluación de las actividades empresariales del Estado en el sector de los alimentos, de la alimentación. 
+            #. La planificación, coordinación, seguimiento y evaluación de las actividades empresariales del Estado en el sector de los alimentos, de la alimentación. 
 
-          1. La participación en las negociaciones internacionales en materia de alimentos, en coordinación con los Ministerios del Poder Popular para la Agricultura y Tierras, del Poder Popular para el Comercio, y del Poder Popular para Relaciones Exteriores. 
+            #. La participación en las negociaciones internacionales en materia de alimentos, en coordinación con los Ministerios del Poder Popular para la Agricultura y Tierras, del Poder Popular para el Comercio, y del Poder Popular para Relaciones Exteriores. 
 
-          1. Dirigir la política de comercio exterior en materia de alimentos, alimentación, en coordinación con los Ministerios del Poder Popular para la Agricultura y Tierras, del Poder Popular para el Comercio, y del Poder Popular para Relaciones Exteriores. 
+            #. Dirigir la política de comercio exterior en materia de alimentos, alimentación, en coordinación con los Ministerios del Poder Popular para la Agricultura y Tierras, del Poder Popular para el Comercio, y del Poder Popular para Relaciones Exteriores. 
 
-          1. La planificación, formulación, seguimiento y evaluación de políticas, en materia de calidad de alimentos, de alimentación, en coordinación con el Ministerio del Poder Popular para la Salud. 
+            #. La planificación, formulación, seguimiento y evaluación de políticas, en materia de calidad de alimentos, de alimentación, en coordinación con el Ministerio del Poder Popular para la Salud. 
 
-          1. La regulación, formulación y promoción de estrategias, conjuntamente con los Ministerios del Poder Popular para la Agricultura y Tierras, y del Poder Popular para el Comercio, para equilibrar la oferta y la demanda de los circuitos agroalimentarios; así como la regulación de los productos alimenticios, completando los ciclos de producción y comercialización. 
+            #. La regulación, formulación y promoción de estrategias, conjuntamente con los Ministerios del Poder Popular para la Agricultura y Tierras, y del Poder Popular para el Comercio, para equilibrar la oferta y la demanda de los circuitos agroalimentarios; así como la regulación de los productos alimenticios, completando los ciclos de producción y comercialización. 
 
-          1. La formulación, planificación, coordinación, seguimiento y realización de Planes Especiales de Alimentación, de carácter excepcional. 
+            #. La formulación, planificación, coordinación, seguimiento y realización de Planes Especiales de Alimentación, de carácter excepcional. 
 
-          1. La concertación, análisis y la fijación de precios y tarifas, de productos y servicios alimenticios y nutricionales, en coordinación con los órganos y entes competentes en la materia. 
+            #. La concertación, análisis y la fijación de precios y tarifas, de productos y servicios alimenticios y nutricionales, en coordinación con los órganos y entes competentes en la materia. 
 
-          1. Ejercer la rectoría en materia de inspección, vigilancia, fiscalización y sanción sobre actividades de almacenamiento agrícola y sus actividades conexas, a través del órgano competente. 
+            #. Ejercer la rectoría en materia de inspección, vigilancia, fiscalización y sanción sobre actividades de almacenamiento agrícola y sus actividades conexas, a través del órgano competente. 
 
-          1. Lo relativo a la administración, operación, explotación silos, frigoríficos, almacenes y depósitos agrícolas, propiedad del Estado de conformidad con la Ley. 
+            #. Lo relativo a la administración, operación, explotación silos, frigoríficos, almacenes y depósitos agrícolas, propiedad del Estado de conformidad con la Ley. 
 
-          1. La regulación expedición de permisos, autorizaciones, licencias, certificados y demás trámites y actos necesarios en materia de exportación e importación en el sector de alimentos, alimentación y nutrición. 
+            #. La regulación expedición de permisos, autorizaciones, licencias, certificados y demás trámites y actos necesarios en materia de exportación e importación en el sector de alimentos, alimentación y nutrición. 
 
-          1. Lo relativo al almacenamiento, oferta, transporte y comercio de vegetales o animales o sus partes. 
+            #. Lo relativo al almacenamiento, oferta, transporte y comercio de vegetales o animales o sus partes. 
 
-          1. Coordinar con los organismos competentes, la formulación, coordinación, seguimiento y evaluación de las políticas para la adquisición, instalación y administración de maquinarias y equipos necesarios para la producción y comercialización de alimentos. 
+            #. Coordinar con los organismos competentes, la formulación, coordinación, seguimiento y evaluación de las políticas para la adquisición, instalación y administración de maquinarias y equipos necesarios para la producción y comercialización de alimentos. 
 
-          1. La dirección, administración y manejo de programas de compensaciones para el desarrollo competitivo para el sector alimentos. 
+            #. La dirección, administración y manejo de programas de compensaciones para el desarrollo competitivo para el sector alimentos. 
 
-          1. La planificación, coordinación, seguimiento y evaluación de políticas de financiamiento en el sector de producción y comercio de alimentos.
+            #. La planificación, coordinación, seguimiento y evaluación de políticas de financiamiento en el sector de producción y comercio de alimentos.
 
-          1. La inspección y vigilancia del ejercicio de toda profesión y actividad relacionada con los alimentos, la alimentación. 
+            #. La inspección y vigilancia del ejercicio de toda profesión y actividad relacionada con los alimentos, la alimentación. 
 
-          1. Formular, planificar y hacer seguimiento a la política comunicacional en materia de calidad y consumo de alimentos, su publicidad y divulgación a la población venezolana, en coordinación con la planificación y políticas de comunicación e información dictadas por el Ministerio del Poder Popular para la Comunicación e Información, y sin perjuicio de las competencias que le corresponden a este Ministerio, de conformidad con el artículo 24 del presente Decreto. 
+            #. Formular, planificar y hacer seguimiento a la política comunicacional en materia de calidad y consumo de alimentos, su publicidad y divulgación a la población venezolana, en coordinación con la planificación y políticas de comunicación e información dictadas por el Ministerio del Poder Popular para la Comunicación e Información, y sin perjuicio de las competencias que le corresponden a este Ministerio, de conformidad con el artículo 24 del presente Decreto. 
 
-          1. Las demás que le atribuyan las Leyes y otros actos normativos. 
+            #. Las demás que le atribuyan las Leyes y otros actos normativos. 
 
 |Inventario| **Inventario Físico de Material**
 ----------------------------------------------
 
-Es la comparación de la cantidad de productos en existencia que posee
-una determinada empresa en almacén con la cantidad de productos
-reflejados en ADempiere.
+Es la comparación de la cantidad de productos en existencia que posee una determinada empresa en almacén con la cantidad de productos reflejados en ADempiere.
 
-ERPyA no recomienda crear un inventario físico puesto que no es
-necesario, cuando una producción de material culmina, la cantidad
-producida queda en inventario.
+ERPyA no recomienda crear un inventario físico puesto que no es necesario, cuando una producción de material culmina, la cantidad producida queda en inventario.
 
 **Tipos de Documentos de Inventario**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere, cada inventario realizado es utilizado para controlar y
-dar seguimiento a la existencia de los productos. A continuación se
-definen los cuatro (4) documentos de inventarios según su
-comportamiento.
+En ADempiere, cada inventario realizado es utilizado para controlar y dar seguimiento a la existencia de los productos. A continuación se definen los cuatro (4) documentos de inventarios según su comportamiento.
 
-1. **Inventario Físico de Material**
+#. **Inventario Físico de Material**
 
-   1. **Definición**
+   #. **Definición**
 
-      Es un documento que permite cambiar la cantidad de productos en
-      existencia que se encuentran reflejados en ADempiere de forma
-      facil y sencilla, que solo debe ser utilizado en casos mayores,
-      cuando de verdad la situación lo amerite porque no es un proceso
-      recomendable.
+      Es un documento que permite cambiar la cantidad de productos en existencia que se encuentran reflejados en ADempiere de forma facil y sencilla, que solo debe ser utilizado en casos mayores, cuando de verdad la situación lo amerite porque no es un proceso recomendable.
 
       .. warning:: 
       
          Este proceso sirve para modificar la cantidad de productos en existencia o la inconsistencia de productos de la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere el inventario físico de material se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Inventario Físico de Material**:
+      En ADempiere el inventario físico de material se define según su comportamiento, a continuación se explica el proceder de **Inventario Físico de Material**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
       | Tipo | Inven | Gene |
       | de   | tario | ra   |
       | Docu | Físic | un   |
@@ -903,50 +538,33 @@ comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Reemplaza las cantidades de productos o servicios en existencia
-         que ADempiere contempla.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
-      -  Permite reflejar en los reportes de ADempiere los inventarios
-         realizados.
+      -  Reemplaza las cantidades de productos o servicios en existencia que ADempiere contempla.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
+      -  Permite reflejar en los reportes de ADempiere los inventarios realizados.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Inventario de Uso Interno Obsequio**
+#. **Inventario de Uso Interno Obsequio**
 
-   1. **Definición**
+   #. **Definición**
 
-      Es un documento que permite reflejar el egreso de los productos o
-      servicios que la empresa le regala a sus trabajadores para que
-      sean usados dentro o fuera de la misma, por lo tanto pertenecen a
-      consumos realizados internamente en la empresa, algunas veces son
-      realizados con la intención de agradecer a los trabajadores por
-      servicios prestados.
+      Es un documento que permite reflejar el egreso de los productos o servicios que la empresa le regala a sus trabajadores para que sean usados dentro o fuera de la misma, por lo tanto pertenecen a consumos realizados internamente en la empresa, algunas veces son realizados con la intención de agradecer a los trabajadores por servicios prestados.
 
       .. warning:: 
       
          El obsequio puede ser cualquier cosa que la empresa considere que el trabajador necesite y sea accesible.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere el inventario de uso interno obsequio se define según
-      su comportamiento, a continuación se explica el proceder de
-      **Inventario de Uso Interno Obsequio**:
+      En ADempiere el inventario de uso interno obsequio se define según su comportamiento, a continuación se explica el proceder de **Inventario de Uso Interno Obsequio**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
       | Tipo | Inven | Gene |
       | de   | tario | ra   |
       | Docu | Físic | un   |
@@ -1091,49 +709,33 @@ comportamiento.
       |      |       | esa. |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite reflejar en ADempiere el egreso físico de los productos
-         o servicios que se encuentran en un determinado almacén.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
-      -  Permite reflejar en los reportes de ADempiere los inventarios
-         realizados.
+      -  Permite reflejar en ADempiere el egreso físico de los productos o servicios que se encuentran en un determinado almacén.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
+      -  Permite reflejar en los reportes de ADempiere los inventarios realizados.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-3. **Inventario de Uso Interno Dotación**
+#. **Inventario de Uso Interno Dotación**
 
-   1. **Definición**
+   #. **Definición**
 
-      Es un documento que permite reflejar el egreso de los productos o
-      servicios que la empresa le asigna a sus departamentos o
-      trabajadores y pertenecen a consumos realizados internamente por
-      la misma, para que sirvan como herramienta para un mejor
-      desarrollo y producción.
+      Es un documento que permite reflejar el egreso de los productos o servicios que la empresa le asigna a sus departamentos o trabajadores y pertenecen a consumos realizados internamente por la misma, para que sirvan como herramienta para un mejor desarrollo y producción.
 
       .. warning:: 
       
          La dotación puede ser maquinaria, muebles, equipos, uniformes, entre otros.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere el inventario de uso interno dotación se define según
-      su comportamiento, a continuación se explica el proceder de
-      **Inventario de Uso Interno Dotación**:
+      En ADempiere el inventario de uso interno dotación se define según su comportamiento, a continuación se explica el proceder de **Inventario de Uso Interno Dotación**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
       | Tipo | Inven | Gene |
       | de   | tario | ra   |
       | Docu | Físic | un   |
@@ -1278,49 +880,33 @@ comportamiento.
       |      |       | esa. |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite reflejar en ADempiere el egreso físico de los productos
-         o servicios que se encuentran en un determinado almacén.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
-      -  Permite reflejar en los reportes de ADempiere los inventarios
-         realizados.
+      -  Permite reflejar en ADempiere el egreso físico de los productos o servicios que se encuentran en un determinado almacén.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
+      -  Permite reflejar en los reportes de ADempiere los inventarios realizados.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-4. **Inventario de Uso Interno Suministros de Oficina**
+#. **Inventario de Uso Interno Suministros de Oficina**
 
-   1. **Definición**
+   #. **Definición**
 
-      Es un documento que permite reflejar el egreso de los suministros
-      de oficina que la empresa le asigna a sus departamentos y
-      pertenecen a consumos realizados internamente por la misma, con la
-      intención de que estos sirvan como herramienta para un mejor
-      desarrollo y producción.
+      Es un documento que permite reflejar el egreso de los suministros de oficina que la empresa le asigna a sus departamentos y pertenecen a consumos realizados internamente por la misma, con la intención de que estos sirvan como herramienta para un mejor desarrollo y producción.
 
       .. warning:: 
       
          Los suministros de oficina pueden ser hojas, papel, bolígrafo, grapadoras, entre otros artículos que se consideren necesarios para un mejor rendimiento.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere el inventario de uso interno suministros de oficina
-      se define según su comportamiento, a continuación se explica el
-      proceder de **Inventario de Uso Interno Suministros de Oficina**:
+      En ADempiere el inventario de uso interno suministros de oficina se define según su comportamiento, a continuación se explica el proceder de **Inventario de Uso Interno Suministros de Oficina**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
       | Tipo | Inven | Gene |
       | de   | tario | ra   |
       | Docu | Físic | un   |
@@ -1470,65 +1056,43 @@ comportamiento.
       |      |       | esa. |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite reflejar en ADempiere el egreso físico de los productos
-         o servicios que se encuentran en un determinado almacén.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
-      -  Permite reflejar en los reportes de ADempiere los inventarios
-         realizados.
+      -  Permite reflejar en ADempiere el egreso físico de los productos o servicios que se encuentran en un determinado almacén.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
+      -  Permite reflejar en los reportes de ADempiere los inventarios realizados.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 |Orden de Distribución| **Orden de Distribución**
 -------------------------------------------------
 
-Es un documento donde se autoriza la distribución interna o externa de
-los productos o servicios elaborados por la empresa, en el cual se
-especifica la distribución de la producción. Para una orden de
-distribución se deben considerar los lugares a distribuir, el costo de
-los traslados cuando se trata de distribución externa y la cantidad de
-productos, dependiendo de la demanda que tenga el producto en dichos
-lugares.
+Es un documento donde se autoriza la distribución interna o externa de los productos o servicios elaborados por la empresa, en el cual se específica la distribución de la producción. Para una orden de distribución se deben considerar los lugares a distribuir, el costo de los traslados cuando se trata de distribución externa y la cantidad de productos, dependiendo de la demanda que tenga el producto en dichos lugares.
 
 **Tipos de Documentos de Orden de Distribución**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere se utilizan dos (2) diferentes documentos de orden de
-distribución que se definen según su comportamiento en el mismo. A
-continuación se describen las órdenes de distribución.
+En ADempiere se utilizan dos (2) diferentes documentos de orden de distribución que se definen según su comportamiento en el mismo. A continuación se describen las órdenes de distribución.
 
-1. **Orden de Distribución Interna**
+#. **Orden de Distribución Interna**
 
-   1. **Definición**
+   #. **Definición**
 
-      En este documento se indica de manera detallada en que lugares o
-      almacenes dentro de la empresa se ubicarán los productos, así como
-      también la cantidad que va dirigida a cada uno.
+      En este documento se indica de manera detallada en que lugares o almacenes dentro de la empresa se ubicarán los productos, así como también la cantidad que va dirigida a cada uno.
 
       .. warning:: 
       
          Para una orden de distribución ya sea interna o externa se debe considerar la cantidad de productos en existencia, ya que de esta va a depender su correcta distribución. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la orden de distribución interna se define según su
-      comportamiento, a continuación se explica el proceder de **Orden
-      de Distribución Interna**:
+      En ADempiere la orden de distribución interna se define según su comportamiento, a continuación se explica el proceder de **Orden de Distribución Interna**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
       | Tipo | Orden | Gene |
       | de   | de    | ra   |
       | Docu | Distr | un   |
@@ -1655,45 +1219,32 @@ continuación se describen las órdenes de distribución.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Autoriza el movimiento de los productos o servicios dentro de
-         los almacenes de la empresa.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
+      -  Autoriza el movimiento de los productos o servicios dentro de los almacenes de la empresa.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Orden de Distribución Externa**
+#. **Orden de Distribución Externa**
 
-   1. **Definición**
+   #. **Definición**
 
-      En este documento se indica de manera detallada en que lugares o
-      almacenes fuera de la empresa se ubicarán los productos, así como
-      también la cantidad que va dirigida a cada uno de ellos.
+      En este documento se indica de manera detallada en que lugares o almacenes fuera de la empresa se ubicarán los productos, así como también la cantidad que va dirigida a cada uno de ellos.
 
       .. warning:: 
       
          Para una orden de distribución ya sea interna o externa se debe considerar la cantidad de productos en existencia, ya que de esta va a depender su correcta distribución. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la orden de distribución externa se define según su
-      comportamiento, a continuación se explica el proceder de **Orden
-      de Distribución Externa**:
+      En ADempiere la orden de distribución externa se define según su comportamiento, a continuación se explica el proceder de **Orden de Distribución Externa**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
       | Tipo | Orden | Gene |
       | de   | de    | ra   |
       | Docu | Distr | un   |
@@ -1820,62 +1371,42 @@ continuación se describen las órdenes de distribución.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Autoriza el movimiento de los productos o servicios fuera de
-         los almacenes de la empresa.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
+      -  Autoriza el movimiento de los productos o servicios fuera de los almacenes de la empresa.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 |Movimiento de Material| **Movimiento de Material**
 ---------------------------------------------------
 
-Es el proceso de traslado físico de una cantidad de productos o su
-totalidad en existencia, de un lugar o almacén a otro, este es
-autorizado por medio de una orden de distribución. Se realiza un
-movimiento de material cuando la cantidad de existencia de productos en
-uno o varios de los almacenes es poca, y posea una demanda alta.
+Es el proceso de traslado físico de una cantidad de productos o su totalidad en existencia, de un lugar o almacén a otro, este es autorizado por medio de una orden de distribución. Se realiza un movimiento de material cuando la cantidad de existencia de productos en uno o varios de los almacenes es poca, y posea una demanda alta.
 
 **Tipos de Documentos de Movimiento de Material**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere, cada movimiento de material realizado es utilizado para
-controlar y dar seguimiento a la existencia de los productos. A
-continuación se definen los dos (2) documentos de movimiento de material
-según su comportamiento en ADempiere.
+En ADempiere, cada movimiento de material realizado es utilizado para controlar y dar seguimiento a la existencia de los productos. A continuación se definen los dos (2) documentos de movimiento de material según su comportamiento en ADempiere.
 
-1. **Movimiento de Material Interno**
+#. **Movimiento de Material Interno**
 
-   1. **Definición**
+   #. **Definición**
 
-      Es el documento que permite reflejar en ADempiere el proceso del
-      traslado físico de los productos realizado desde un lugar o
-      almacén a otro, dentro de la misma sucursal de la empresa.
+      Es el documento que permite reflejar en ADempiere el proceso del traslado físico de los productos realizado desde un lugar o almacén a otro, dentro de la misma sucursal de la empresa.
 
       .. warning:: 
       
          Este proceso se debe realizar cada vez que se muevan físicamente los productos, de lo contrario no estará disponible o en existencia al momento de la venta.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere el movimiento de material interno se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Movimiento de Material Interno**:
+      En ADempiere el movimiento de material interno se define según su comportamiento, a continuación se explica el proceder de **Movimiento de Material Interno**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
       | Tipo | Movim | Gene |
       | de   | iento | ra   |
       | Docu | de    | un   |
@@ -2002,48 +1533,33 @@ según su comportamiento en ADempiere.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja en ADempiere el movimiento físico de los productos o
-         servicios dentro de los almacenes de la empresa.
-      -  Permite reflejar en los reportes de ADempiere los movimientos
-         realizados.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
+      -  Refleja en ADempiere el movimiento físico de los productos o servicios dentro de los almacenes de la empresa.
+      -  Permite reflejar en los reportes de ADempiere los movimientos realizados.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Movimiento de Material Externo**
+#. **Movimiento de Material Externo**
 
-   1. **Definición**
+   #. **Definición**
 
-      Es el documento que permite reflejar en ADempiere el proceso del
-      traslado físico de los productos realizado desde un lugar o
-      almacén dentro de la empresa a otro ubicado en una sucursal
-      diferente perteneciente a la misma empresa.
+      Es el documento que permite reflejar en ADempiere el proceso del traslado físico de los productos realizado desde un lugar o almacén dentro de la empresa a otro ubicado en una sucursal diferente perteneciente a la misma empresa.
 
       .. warning:: 
       
          Este proceso se debe realizar cada vez que se muevan físicamente los productos, de lo contrario no estará disponible o en existencia al momento de la venta.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere el movimiento de material externo se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Movimiento de Material Externo**:
+      En ADempiere el movimiento de material externo se define según su comportamiento, a continuación se explica el proceder de **Movimiento de Material Externo**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
       | Tipo | Movim | Gene |
       | de   | iento | ra   |
       | Docu | de    | un   |
@@ -2170,75 +1686,47 @@ según su comportamiento en ADempiere.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja en ADempiere el movimiento físico de los productos o
-         servicios en dirección a otros almacenes en diferentes
-         sucursales de la empresa.
-      -  Permite reflejar en los reportes de ADempiere los movimientos
-         realizados.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
+      -  Refleja en ADempiere el movimiento físico de los productos o servicios en dirección a otros almacenes en diferentes sucursales de la empresa.
+      -  Permite reflejar en los reportes de ADempiere los movimientos realizados.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 |Orden de Venta| **Orden de Ventas**
 ------------------------------------
 
-Es un documento elaborado por el departamento de ventas de una
-determinada empresa, donde se autoriza la venta de productos o servicios
-especificados en la misma a un determinado socio del negocio tipo
-cliente, una orden de venta puede ser utilizada como una prefactura,
-cotización, orden de trabajo o pedido.
+Es un documento elaborado por el departamento de ventas de una determinada empresa, donde se autoriza la venta de productos o servicios especificados en la misma a un determinado socio del negocio tipo cliente, una orden de venta puede ser utilizada como una prefactura, cotización, orden de trabajo o pedido.
 
-Existen tres (3) grupos de tipos de documentos de orden de venta en
-ADempiere y cada uno de ellos define un comportamiento diferente
-detallado a continuación.
+Existen tres (3) grupos de tipos de documentos de orden de venta en ADempiere y cada uno de ellos define un comportamiento diferente detallado a continuación.
 
 **Tipos de Documentos Orden de Ventas**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere una orden de venta es un documento por medio del cual se
-pueden generar documentos de entrega y facturas. Así mismo, se pueden
-establecer reglas para la entrega y facturación de los productos y
-servicios incluidos en la orden.
+En ADempiere una orden de venta es un documento por medio del cual se pueden generar documentos de entrega y facturas. Así mismo, se pueden establecer reglas para la entrega y facturación de los productos y servicios incluidos en la orden.
 
-El documento orden de venta se compone de ocho (8) tipos de órdenes, en
-los que se encuentran orden nacional, exportaciones, intercompañía,
-empleados, indirecta, a crédito, de almacén y prepagada, en ese orden
-serán explicados los comportamientos de los tipos de órdenes.
+El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que se encuentran orden nacional, exportaciones, intercompañía, empleados, indirecta, a crédito, de almacén y prepagada, en ese orden serán explicados los comportamientos de los tipos de órdenes.
 
-1. **Orden de Venta Nacional**
+#. **Orden de Venta Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
-      Una orden de venta nacional, es realizada a socios de negocios
-      tipo clientes que se encuentren dentro del territorio de
-      Venezuela, donde se ingresan los productos o servicios referentes
-      a la venta y es emitida en moneda nacional.
+      Una orden de venta nacional, es realizada a socios de negocios tipo clientes que se encuentren dentro del territorio de Venezuela, donde se ingresan los productos o servicios referentes a la venta y es emitida en moneda nacional.
 
       .. warning:: 
       
          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la orden de venta nacional se define según su
-      comportamiento, a continuación se explica el proceder de **Orden
-      de Venta Nacional**:
+      En ADempiere la orden de venta nacional se define según su comportamiento, a continuación se explica el proceder de **Orden de Venta Nacional**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
       | Tipo | Orden | Gene |
       | de   | de    | ra   |
       | Docu | Venta | un   |
@@ -2410,50 +1898,34 @@ serán explicados los comportamientos de los tipos de órdenes.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite su contabilización cuando la compañía se encuentre
-         configurada para contabilizar compromisos.
-      -  Disminuye la cantidad de productos disponibles en el almacén y
-         aumenta la cantidad reservada.
-      -  Permite generar entregas de productos o servicios a clientes en
-         Venezuela por medio de esta.
-      -  Permite generar facturas de ventas a clientes en Venezuela por
-         medio de esta.
+      -  Permite su contabilización cuando la compañía se encuentre configurada para contabilizar compromisos.
+      -  Disminuye la cantidad de productos disponibles en el almacén y aumenta la cantidad reservada.
+      -  Permite generar entregas de productos o servicios a clientes en Venezuela por medio de esta.
+      -  Permite generar facturas de ventas a clientes en Venezuela por medio de esta.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Orden de Venta Exportación**
+#. **Orden de Venta Exportación**
 
-   1. **Definición**
+   #. **Definición**
 
-      Una orden de venta exportación, es realizada a socios de negocios
-      tipo clientes que se encuentren fuera del territorio de Venezuela,
-      donde se ingresan los productos o servicios referentes a la venta
-      y es emitida en moneda extranjera.
+      Una orden de venta exportación, es realizada a socios de negocios tipo clientes que se encuentren fuera del territorio de Venezuela, donde se ingresan los productos o servicios referentes a la venta y es emitida en moneda extranjera.
 
       .. warning:: 
       
          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la orden de venta exportación se define según su
-      comportamiento, a continuación se explica el proceder de **Orden
-      de Venta Exportación**:
+      En ADempiere la orden de venta exportación se define según su comportamiento, a continuación se explica el proceder de **Orden de Venta Exportación**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
       | Tipo | Orden | Gene |
       | de   | de    | ra   |
       | Docu | Venta | un   |
@@ -2626,18 +2098,14 @@ serán explicados los comportamientos de los tipos de órdenes.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite su contabilización cuando la compañía se encuentre
-         configurada para contabilizar compromisos.
-      -  Disminuye la cantidad de productos disponibles en el almacén y
-         aumenta la cantidad reservada.
-      -  Permite generar entregas de productos o servicios a clientes
-         fuera de Venezuela por medio de esta.
-      -  Permite generar facturas de ventas a clientes fuera de
-         Venezuela por medio de esta.
+      -  Permite su contabilización cuando la compañía se encuentre configurada para contabilizar compromisos.
+      -  Disminuye la cantidad de productos disponibles en el almacén y aumenta la cantidad reservada.
+      -  Permite generar entregas de productos o servicios a clientes fuera de Venezuela por medio de esta.
+      -  Permite generar facturas de ventas a clientes fuera de Venezuela por medio de esta.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -35196,7 +34664,7 @@ nóminas, ya que esta es muy delicada.
 
 Es un documento en el que se planifican todas las tareas que debe
 realizar el departamento de mantenimiento en la empresa de forma
-especifica, es emitido por el jefe de dicho departamento para sus
+específica, es emitido por el jefe de dicho departamento para sus
 tecnicos, este documento sirve como soporte en las auditorías que le
 realicen a la empresa.
 
