@@ -412,131 +412,20 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      | Tipo | Inven | Gene |
-      | de   | tario | ra   |
-      | Docu | Físic | un   |
-      | ment | o     | docu |
-      | o    | del   | ment |
-      | Base | Mater | o    |
-      | :    | ial   | de   |
-      |      |       | **In |
-      |      |       | vent |
-      |      |       | ario |
-      |      |       | Físi |
-      |      |       | co   |
-      |      |       | de   |
-      |      |       | Mate |
-      |      |       | rial |
-      |      |       | **   |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Inven | Gene |
-      | enci | tario | ra   |
-      | a    | Físic | el   |
-      | del  | o     | núme |
-      | Docu | de    | ro   |
-      | ment | Mater | de   |
-      | o:   | ial   | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 5    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**I |
-      |      |       | FM-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      |Tipo de Documento Base: |Inventario Físico |Genera un documento de **Inventario Físico de**   |
+      |                        |   del Material   |**Material** a la empresa.                        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|Inventario Físico |Genera el número de secuencia establecida para el |
+      |                        |    de Material   |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.005 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**IFM-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
 
@@ -565,149 +454,23 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      | Tipo | Inven | Gene |
-      | de   | tario | ra   |
-      | Docu | Físic | un   |
-      | ment | o     | docu |
-      | o    | del   | ment |
-      | Base | Mater | o    |
-      | :    | ial   | de   |
-      |      |       | **In |
-      |      |       | vent |
-      |      |       | ario |
-      |      |       | de   |
-      |      |       | Uso  |
-      |      |       | Inte |
-      |      |       | rno  |
-      |      |       | Obse |
-      |      |       | quio |
-      |      |       | **   |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Inven | Gene |
-      | enci | tario | ra   |
-      | a    | de    | el   |
-      | del  | Uso   | núme |
-      | Docu | Inter | ro   |
-      | ment | no    | de   |
-      | o:   | Obseq | secu |
-      |      | uio   | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**I |
-      |      |       | UIO- |
-      |      |       | **". |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
-      | Inte | Si    | Pert |
-      | rno: |       | enec |
-      |      |       | e    |
-      |      |       | a    |
-      |      |       | cons |
-      |      |       | umos |
-      |      |       | real |
-      |      |       | izad |
-      |      |       | os   |
-      |      |       | inte |
-      |      |       | rnam |
-      |      |       | ente |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
+      |Tipo de Documento Base: |Inventario Físico |Genera un documento de **Inventario de Uso**      |
+      |                        |   del Material   |**Interno Obsequio** a la empresa.                |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|Inventario de Uso |Genera el número de secuencia establecida para el |
+      |                        | Interno Obsequio |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**IUIO-**".       |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
+      | Interno:               |        Si        |Pertenece a consumos realizados internamente en la|
+      |                        |                  |empresa.                                          |
+      +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
 
