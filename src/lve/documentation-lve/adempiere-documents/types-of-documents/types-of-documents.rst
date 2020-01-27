@@ -499,149 +499,23 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      | Tipo | Inven | Gene |
-      | de   | tario | ra   |
-      | Docu | Físic | un   |
-      | ment | o     | docu |
-      | o    | del   | ment |
-      | Base | Mater | o    |
-      | :    | ial   | de   |
-      |      |       | **In |
-      |      |       | vent |
-      |      |       | ario |
-      |      |       | de   |
-      |      |       | Uso  |
-      |      |       | Inte |
-      |      |       | rno  |
-      |      |       | Dota |
-      |      |       | ción |
-      |      |       | **   |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Inven | Gene |
-      | enci | tario | ra   |
-      | a    | de    | el   |
-      | del  | Uso   | núme |
-      | Docu | Inter | ro   |
-      | ment | no    | de   |
-      | o:   | Dotac | secu |
-      |      | ión   | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**I |
-      |      |       | UID- |
-      |      |       | **". |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
-      | Inte | Si    | Pert |
-      | rno: |       | enec |
-      |      |       | e    |
-      |      |       | a    |
-      |      |       | cons |
-      |      |       | umos |
-      |      |       | real |
-      |      |       | izad |
-      |      |       | os   |
-      |      |       | inte |
-      |      |       | rnam |
-      |      |       | ente |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
+      |Tipo de Documento Base: |Inventario Físico |Genera un documento de **Inventario de Uso**      |
+      |                        |   del Material   |**Interno Dotación** a la empresa.                |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|Inventario de Uso |Genera el número de secuencia establecida para el |
+      |                        | Interno Dotación |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**IUID-**".       |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
+      | Interno:               |        Si        |Pertenece a consumos realizados internamente en la|
+      |                        |                  |empresa.                                          |
+      +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
 
@@ -667,157 +541,26 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
 
       En ADempiere el inventario de uso interno suministros de oficina se define según su comportamiento, a continuación se explica el proceder de **Inventario de Uso Interno Suministros de Oficina**:
 
-      +------------------------+------------------+--------------------------------------------------+
-      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
-      +========================+==================+==================================================+
-      | Tipo | Inven | Gene |
-      | de   | tario | ra   |
-      | Docu | Físic | un   |
-      | ment | o     | docu |
-      | o    | del   | ment |
-      | Base | Mater | o    |
-      | :    | ial   | de   |
-      |      |       | **In |
-      |      |       | vent |
-      |      |       | ario |
-      |      |       | de   |
-      |      |       | Uso  |
-      |      |       | Inte |
-      |      |       | rno  |
-      |      |       | Sumi |
-      |      |       | nist |
-      |      |       | ros  |
-      |      |       | de   |
-      |      |       | Ofic |
-      |      |       | ina* |
-      |      |       | *    |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Inven | Gene |
-      | enci | tario | ra   |
-      | a    | de    | el   |
-      | del  | Uso   | núme |
-      | Docu | Inter | ro   |
-      | ment | no    | de   |
-      | o:   | Sumin | secu |
-      |      | istro | enci |
-      |      | s     | a    |
-      |      | de    | esta |
-      |      | Ofici | blec |
-      |      | na    | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**I |
-      |      |       | UISO |
-      |      |       | -**" |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
-      | Inte | Si    | Pert |
-      | rno: |       | enec |
-      |      |       | e    |
-      |      |       | a    |
-      |      |       | cons |
-      |      |       | umos |
-      |      |       | real |
-      |      |       | izad |
-      |      |       | os   |
-      |      |       | inte |
-      |      |       | rnam |
-      |      |       | ente |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
+      +------------------------+-------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**      | **Comportamiento en ADempiere**                  |
+      +========================+===================+==================================================+
+      |Tipo de Documento Base: |Inventario Físico  |Genera un documento de **Inventario de Uso**      |
+      |                        |   del Material    |**Interno Suministros de Oficina** a la empresa.  |
+      +------------------------+-------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si         |Mantiene una **Secuencia de Control**.            |
+      +------------------------+-------------------+--------------------------------------------------+
+      |Secuencia del Documento:| Inventario de Uso |Genera el número de secuencia establecida para el |
+      |                        |Interno Suministros|orden de los tipos de documentos de ADempiere,    |
+      |                        |    de Oficina     |configurado en la secuencia de documentos y es    |
+      |                        |                   |incrementable en 1, en este caso la secuencia     |
+      |                        |                   |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                   |por las iniciales de su nombre "**IUISO-**".      |
+      +------------------------+-------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1          |Establece el número de copias a imprimir.         |
+      +------------------------+-------------------+--------------------------------------------------+
+      | Interno:               |        Si         |Pertenece a consumos realizados internamente en la|
+      |                        |                   |empresa.                                          |
+      +------------------------+-------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
 
@@ -856,131 +599,22 @@ En ADempiere se utilizan dos (2) diferentes documentos de orden de distribución
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Distr | un   |
-      | ment | ibuci | docu |
-      | o    | ón    | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Dist |
-      |      |       | ribu |
-      |      |       | ción |
-      |      |       | Inte |
-      |      |       | rna* |
-      |      |       | *    |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Distr | el   |
-      | del  | ibuci | núme |
-      | Docu | ón    | ro   |
-      | ment | Inter | de   |
-      | o:   | na    | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | DI-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      |Tipo de Documento Base: |     Orden de     |Genera un documento de **Orden de Distribución**  |
+      |                        |   Distribución   |**Interna** a la empresa.                         |
+      |                        |      Interna     |                                                  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|     Orden de     |Genera el número de secuencia establecida para el |
+      |                        |   Distribución   |orden de los tipos de documentos de ADempiere,    |
+      |                        |      Interna     |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**ODI-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
+
 
    #. **Implicación en ADempiere**
 
