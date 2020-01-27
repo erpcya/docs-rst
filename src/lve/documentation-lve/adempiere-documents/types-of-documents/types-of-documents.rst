@@ -1,14 +1,36 @@
-**Utilidad de los Tipos de Documentos**
-=======================================
+.. |Orden de Calidad| image:: resources/certificado.png
+.. |Insumo del Proyecto| image:: resources/insumo.jpeg
+.. |Orden de Producción Planeada| image:: resources/nuevo1.png
+.. |Orden de Manufactura| image:: resources/nuevo1.png
+.. |Producción| image:: resources/produccion.jpg
+.. |Inventario| image:: resources/inventario.png
+.. |Orden de Distribución| image:: resources/certificado.png
+.. |Movimiento de Material| image:: resources/movimientointerno.png
+.. |Orden de Venta| image:: resources/orden.png
+.. |Cuentas por Cobrar| image:: resources/cuentas.png
+.. |Nota de Crédito de Cuentas por Cobrar| image:: resources/nota.png
+.. |Cobros| image:: resources/cobro.jpg
+.. |Ventas| image:: resources/venta.png
+.. |Requisición| image:: resources/requisiciones.jpeg
+.. |Orden de Compra| image:: resources/orden.png
+.. |Cuentas por Pagar| image:: resources/cuentas.png
+.. |Nota de Crédito de Cuentas por Pagar| image:: resources/nota.png
+.. |Comisión de Ventas| image:: resources/comision.png
+.. |Selección de Pago de Cuentas por Pagar| image:: resources/seleccion.jpg
+.. |Pagos| image:: resources/pago.png
+.. |Asignación de Pagos| image:: resources/asignacion.png
+.. |Compras| image:: resources/compra.jpg
+.. |Asignar OC| image:: resources/seleccion.jpg
+.. |Extracto Bancario| image:: resources/extracto.jpeg
+.. |Nómina| image:: resources/nomina.png
+.. |Selección de Pago Nómina| image:: resources/seleccion.jpg
+.. |Orden de Mantenimiento| image:: resources/mantenimiento.jpeg
+.. |Depreciación de Activos| image:: resources/depreciacion.jpeg
+.. |Adición de Activos| image:: resources/adicion.jpeg
+.. |Venta de Activos| image:: resources/activos.jpeg
+.. |Nota de Contabilidad| image:: resources/nota.png
 
-**Preámbulo**
--------------
-
-En ADempiere los tipos de documentos definen el comportamiento de los documentos que generan transacciones administrativas y contables de una empresa, adicional a ello permite personalizar el proceder fiscal y contable de cada uno.
-
-Son creados con base en los procesos que gestiona ADempiere, en otras palabras, son utilizados durante todo el ciclo de vida de una empresa, contemplando múltiples procesos que van desde el proceso de manufactura, iniciando desde compra, recursos humanos y pasando por ventas, finanzas y control de gastos, hasta llegar a los resultados generados como asientos contables.
-
-El presente material es elaborado por ERPyA, explicará de forma eficiente al usuario la utilidad que representa la configuración de los tipos de documentos para nuestra localización Venezuela en la versión 3.92 de ADempiere.
+.. _documento/types-of-documents:
 
 |Orden de Calidad| **Orden de Calidad**
 ---------------------------------------
@@ -55,16 +77,12 @@ En ADempiere una orden de calidad refleja los lineamientos que debe cumplir el d
 
    3. **Implicación en ADempiere**
 
-      -  Genera al departamento de producción una planificación de
-         procesos a aplicar.
-      -  Garantiza productos de calidad cuando se cumple el documento en
-         todas sus especificaciones.
+      -  Genera al departamento de producción una planificación de procesos a aplicar.
+      -  Garantiza productos de calidad cuando se cumple el documento en todas sus especificaciones.
 
-      ??? info "**Implicación Fiscal**"
+   4. **Implicación Fiscal**
 
-      ::
-
-          Basado en la Norma Internacional ISO 9000:2015, Sistemas de gestión de la calidad — Fundamentos y vocabulario, donde indica en el items seis (6) referente a la planificación, lo siguiente:
+         Basado en la Norma Internacional ISO 9000:2015, Sistemas de gestión de la calidad — Fundamentos y vocabulario, donde indica en el items seis (6) referente a la planificación, lo siguiente:
 
           **6.1 Acciones para abordar riesgos y oportunidades**
 
@@ -151,11 +169,9 @@ a continuación.
       planificación de las mismas, dando inicio al proceso de producción
       que se realiza en una determinada empresa.
 
-      !!! warning "**Importancia**"
+      .. warning:: 
 
-      ::
-
-          El documento de insumos del proyecto contiene de manera detallada la cantidad de insumos de calidad con los que cuenta la empresa para iniciar el proceso de producción. 
+         El documento de insumos del proyecto contiene de manera detallada la cantidad de insumos de calidad con los que cuenta la empresa para iniciar el proceso de producción. 
 
    2. **Comportamiento**
 
@@ -213,8 +229,9 @@ a continuación.
       -  Permite la elaboración de una orden de producción planeada.
       -  Permite la elaboración de una orden de manufactura.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento legal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Orden de Producción Planeada| **Orden de Producción Planeada**
 ---------------------------------------------------------------
@@ -247,11 +264,9 @@ correctamente el trabajo y puedan comenzar con el proceso de producción.
       de productos manufacturados que se debe cumplir en el día o en el
       mes.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento utilizado por las empresas al comenzar su producción, autorizando por medio de este el inicio de la misma.
+      .. warning:: 
+      
+         Es un documento utilizado por las empresas al comenzar su producción, autorizando por medio de este el inicio de la misma.
 
    2. **Comportamiento**
 
@@ -322,8 +337,9 @@ correctamente el trabajo y puedan comenzar con el proceso de producción.
          para la producción.
       -  Garantiza una buena distribución de la producción.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Orden de Manufactura| **Orden de Manufactura**
 -----------------------------------------------
@@ -349,11 +365,9 @@ comportamiento y explicado a continuación.
       seguimiento a todo el proceso de manufactura que realiza la misma
       a la hora de elaborar sus productos y servicios.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento utilizado por las empresas al comenzar su producción, autorizando por medio de este el inicio de la misma.
+      .. warning:: 
+      
+         Es un documento utilizado por las empresas al comenzar su producción, autorizando por medio de este el inicio de la misma.
 
    2. **Comportamiento**
 
@@ -501,8 +515,9 @@ comportamiento y explicado a continuación.
          para la producción.
       -  Garantiza una buena distribución de la producción.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Producción| **Producción de Material**
 ---------------------------------------
@@ -544,11 +559,9 @@ documento generado por el mismo.
       en el caso de los alimentos es el ministerio del poder popular
       para la alimentación.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          La producción de material no puede ser expuesta hasta que el departamento de control de calidad indique que es un producto o servicio competente para salir de la empresa en la cual fue producido.
+      .. warning:: 
+      
+         La producción de material no puede ser expuesta hasta que el departamento de control de calidad indique que es un producto o servicio competente para salir de la empresa en la cual fue producido.
 
    2. **Comportamiento**
 
@@ -667,11 +680,9 @@ documento generado por el mismo.
       -  Se encuentra disponible automaticamente para las ventas de la
          empresa.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en el decreto N° 5.246 publicado en la gaceta oficial N° 38.654 con fecha del 28 de marzo del 2007 donde estipula en su artículo 26 lo siguiente:
+   4. **Implicación Fiscal**
+   
+      Basado en el decreto N° 5.246 publicado en la gaceta oficial N° 38.654 con fecha del 28 de marzo del 2007 donde estipula en su artículo 26 lo siguiente:
 
           **Artículo 26:** Son competencias del ministerio del poder popular para la alimentación:
 
@@ -746,11 +757,9 @@ comportamiento.
       cuando de verdad la situación lo amerite porque no es un proceso
       recomendable.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Este proceso sirve para modificar la cantidad de productos en existencia o la inconsistencia de productos de la empresa.
+      .. warning:: 
+      
+         Este proceso sirve para modificar la cantidad de productos en existencia o la inconsistencia de productos de la empresa.
 
    2. **Comportamiento**
 
@@ -903,8 +912,9 @@ comportamiento.
       -  Permite reflejar en los reportes de ADempiere los inventarios
          realizados.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Inventario de Uso Interno Obsequio**
 
@@ -917,11 +927,9 @@ comportamiento.
       realizados con la intención de agradecer a los trabajadores por
       servicios prestados.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          El obsequio puede ser cualquier cosa que la empresa considere que el trabajador necesite y sea accesible.
+      .. warning:: 
+      
+         El obsequio puede ser cualquier cosa que la empresa considere que el trabajador necesite y sea accesible.
 
    2. **Comportamiento**
 
@@ -1092,8 +1100,9 @@ comportamiento.
       -  Permite reflejar en los reportes de ADempiere los inventarios
          realizados.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 3. **Inventario de Uso Interno Dotación**
 
@@ -1105,11 +1114,9 @@ comportamiento.
       la misma, para que sirvan como herramienta para un mejor
       desarrollo y producción.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          La dotación puede ser maquinaria, muebles, equipos, uniformes, entre otros.
+      .. warning:: 
+      
+         La dotación puede ser maquinaria, muebles, equipos, uniformes, entre otros.
 
    2. **Comportamiento**
 
@@ -1280,8 +1287,9 @@ comportamiento.
       -  Permite reflejar en los reportes de ADempiere los inventarios
          realizados.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 4. **Inventario de Uso Interno Suministros de Oficina**
 
@@ -1293,11 +1301,9 @@ comportamiento.
       intención de que estos sirvan como herramienta para un mejor
       desarrollo y producción.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Los suministros de oficina pueden ser hojas, papel, bolígrafo, grapadoras, entre otros artículos que se consideren necesarios para un mejor rendimiento.
+      .. warning:: 
+      
+         Los suministros de oficina pueden ser hojas, papel, bolígrafo, grapadoras, entre otros artículos que se consideren necesarios para un mejor rendimiento.
 
    2. **Comportamiento**
 
@@ -1473,8 +1479,9 @@ comportamiento.
       -  Permite reflejar en los reportes de ADempiere los inventarios
          realizados.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Orden de Distribución| **Orden de Distribución**
 -------------------------------------------------
@@ -1502,11 +1509,9 @@ continuación se describen las órdenes de distribución.
       almacenes dentro de la empresa se ubicarán los productos, así como
       también la cantidad que va dirigida a cada uno.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Para una orden de distribución ya sea interna o externa se debe considerar la cantidad de productos en existencia, ya que de esta va a depender su correcta distribución. 
+      .. warning:: 
+      
+         Para una orden de distribución ya sea interna o externa se debe considerar la cantidad de productos en existencia, ya que de esta va a depender su correcta distribución. 
 
    2. **Comportamiento**
 
@@ -1657,8 +1662,9 @@ continuación se describen las órdenes de distribución.
       -  Permite su contabilización a traves de la existencia de los
          productos o servicios en almacén.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Orden de Distribución Externa**
 
@@ -1668,11 +1674,9 @@ continuación se describen las órdenes de distribución.
       almacenes fuera de la empresa se ubicarán los productos, así como
       también la cantidad que va dirigida a cada uno de ellos.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Para una orden de distribución ya sea interna o externa se debe considerar la cantidad de productos en existencia, ya que de esta va a depender su correcta distribución. 
+      .. warning:: 
+      
+         Para una orden de distribución ya sea interna o externa se debe considerar la cantidad de productos en existencia, ya que de esta va a depender su correcta distribución. 
 
    2. **Comportamiento**
 
@@ -1823,8 +1827,9 @@ continuación se describen las órdenes de distribución.
       -  Permite su contabilización a traves de la existencia de los
          productos o servicios en almacén.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Movimiento de Material| **Movimiento de Material**
 ---------------------------------------------------
@@ -1851,11 +1856,9 @@ según su comportamiento en ADempiere.
       traslado físico de los productos realizado desde un lugar o
       almacén a otro, dentro de la misma sucursal de la empresa.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Este proceso se debe realizar cada vez que se muevan físicamente los productos, de lo contrario no estará disponible o en existencia al momento de la venta.
+      .. warning:: 
+      
+         Este proceso se debe realizar cada vez que se muevan físicamente los productos, de lo contrario no estará disponible o en existencia al momento de la venta.
 
    2. **Comportamiento**
 
@@ -2008,8 +2011,9 @@ según su comportamiento en ADempiere.
       -  Permite su contabilización a traves de la existencia de los
          productos o servicios en almacén.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Movimiento de Material Externo**
 
@@ -2020,11 +2024,9 @@ según su comportamiento en ADempiere.
       almacén dentro de la empresa a otro ubicado en una sucursal
       diferente perteneciente a la misma empresa.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Este proceso se debe realizar cada vez que se muevan físicamente los productos, de lo contrario no estará disponible o en existencia al momento de la venta.
+      .. warning:: 
+      
+         Este proceso se debe realizar cada vez que se muevan físicamente los productos, de lo contrario no estará disponible o en existencia al momento de la venta.
 
    2. **Comportamiento**
 
@@ -2178,8 +2180,9 @@ según su comportamiento en ADempiere.
       -  Permite su contabilización a traves de la existencia de los
          productos o servicios en almacén.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Orden de Venta| **Orden de Ventas**
 ------------------------------------
@@ -2216,11 +2219,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       Venezuela, donde se ingresan los productos o servicios referentes
       a la venta y es emitida en moneda nacional.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
+      .. warning:: 
+      
+         Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
    2. **Comportamiento**
 
@@ -2420,8 +2421,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       -  Permite generar facturas de ventas a clientes en Venezuela por
          medio de esta.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Orden de Venta Exportación**
 
@@ -2432,11 +2434,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       donde se ingresan los productos o servicios referentes a la venta
       y es emitida en moneda extranjera.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
+      .. warning:: 
+      
+         Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
    2. **Comportamiento**
 
@@ -2637,8 +2637,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       -  Permite generar facturas de ventas a clientes fuera de
          Venezuela por medio de esta.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 3. **Orden de Venta Intercompañía**
 
@@ -2651,11 +2652,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       extranjera si la empresa se encuentra fuera del territorio de
       Venezuela.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
+      .. warning:: 
+      
+         Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
    2. **Comportamiento**
 
@@ -2858,8 +2857,9 @@ serán explicados los comportamientos de los tipos de órdenes.
          empresas, pertenecientes a un mismo consorcio por medio de
          esta.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 4. **Orden de Venta Empleado**
 
@@ -2869,11 +2869,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       productos o servicios de la empresa a sus empleados, este
       documento es emitido en moneda nacional.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
+      .. warning:: 
+      
+         Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
    2. **Comportamiento**
 
@@ -3073,8 +3071,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       -  Permite generar facturas de ventas a empleados de la empresas
          por medio de esta.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 5. **Orden de Venta Indirecta**
 
@@ -3084,11 +3083,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       vende al socio de negocio tipo cliente los productos o servicios
       con compromiso de entrega indirecta.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
+      .. warning:: 
+      
+         Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
    2. **Comportamiento**
 
@@ -3288,8 +3285,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       -  Permite generar facturas de ventas a clientes que adquieran
          compromisos de compra con entrega indirecta.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 6. **Orden a Crédito**
 
@@ -3301,11 +3299,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       documento expresa los productos y servicios vendidos, a demás del
       monto a cancelar y es utilizado en clientes seleccionados.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
+      .. warning:: 
+      
+         Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
    2. **Comportamiento**
 
@@ -3502,8 +3498,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       -  Permite generar facturas de ventas a clientes seleccionados,
          que adquieran compromisos de compra a crédito.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 7. **Orden de Almacén**
 
@@ -3514,11 +3511,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       facturas son realizadas de forma manual de acuerdo a las reglas de
       facturación que esta posee.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
+      .. warning:: 
+      
+         Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
    2. **Comportamiento**
 
@@ -3689,8 +3684,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       -  Permite generar facturas de ventas a clientes y crea notas de
          crédito a la misma, cuando el caso lo amerita.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 8. **Orden Prepagada**
 
@@ -3702,11 +3698,9 @@ serán explicados los comportamientos de los tipos de órdenes.
       el pago son generados automaticamente luego de la recepción del
       dinero correspondiente.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
+      .. warning:: 
+      
+         Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
    2. **Comportamiento**
 
@@ -3904,8 +3898,9 @@ serán explicados los comportamientos de los tipos de órdenes.
          y pagos, luego de la recepción del pago correspondiente a la
          venta.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos Cotización y Propuesta**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3924,11 +3919,9 @@ comportamientos de estos tipos de documentos.
       orden de forma manual, permitiendo con esto reservar en inventario
       los productos y servicios incluidos en el documento.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
+      .. warning:: 
+      
+         Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
    2. **Comportamiento**
 
@@ -4097,8 +4090,9 @@ comportamientos de estos tipos de documentos.
       -  Permite generar facturas de ventas a clientes según la regla
          especificada en el documento.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Propuesta**
 
@@ -4107,11 +4101,9 @@ comportamientos de estos tipos de documentos.
       Una propuesta no reserva los productos en inventario pero si puede
       convertirse en otro tipo de documento de orden de forma manual.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
+      .. warning:: 
+      
+         Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
    2. **Comportamiento**
 
@@ -4278,8 +4270,9 @@ comportamientos de estos tipos de documentos.
       -  Permite generar facturas de ventas a clientes según la regla
          especificada en el documento.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos Autorización de Devolución de Ventas**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -4298,11 +4291,9 @@ devolución requerida.
       proveedor dentro del territorio de Venezuela, indiferentemente el
       motivo que esta tenga, debe ser expresado en la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
+      .. warning:: 
+      
+         Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
    2. **Comportamiento**
 
@@ -4463,8 +4454,9 @@ devolución requerida.
          en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución proveedor.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Autorización Devolución Proveedor Importación**
 
@@ -4476,11 +4468,9 @@ devolución requerida.
       indiferentemente el motivo que esta tenga, debe ser expresado en
       la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
+      .. warning:: 
+      
+         Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
    2. **Comportamiento**
 
@@ -4643,8 +4633,9 @@ devolución requerida.
          en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución proveedor.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 3. **Autorización Devolución Proveedor Intercompañía**
 
@@ -4655,11 +4646,9 @@ devolución requerida.
       empresa perteneciente al mismo consorcio, indiferentemente el
       motivo que esta tenga, debe ser expresado en la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
+      .. warning:: 
+      
+         Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
    2. **Comportamiento**
 
@@ -4823,8 +4812,9 @@ devolución requerida.
          en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución proveedor.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 4. **Autorización Devolución Proveedor Empleados**
 
@@ -4835,11 +4825,9 @@ devolución requerida.
       trabajador de la empresa, indiferentemente el motivo que esta
       tenga, debe ser expresado en la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
+      .. warning:: 
+      
+         Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
    2. **Comportamiento**
 
@@ -5000,8 +4988,9 @@ devolución requerida.
          en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución proveedor.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 5. **Autorización Devolución Proveedor Indirecta**
 
@@ -5012,11 +5001,9 @@ devolución requerida.
       entrega indirecta, indiferentemente el motivo que esta tenga, debe
       ser expresado en la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
+      .. warning:: 
+      
+         Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
    2. **Comportamiento**
 
@@ -5166,8 +5153,9 @@ devolución requerida.
          en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución proveedor.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Cuentas por Cobrar| **Cuentas por Cobrar**
 -------------------------------------------
@@ -5203,11 +5191,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       territorio de Venezolana, esta es generada en moneda nacional y se
       encuentra regida por la ley ya que es un documento fiscal.
 
-      !!! warning "Importancia"
-
-      ::
-
-          Para ADempiere es importante porque representa los ingresos monetarios por la venta de los productos y servicios correspondientes a las operaciones principales de la empresa. Además, en ella se reflejan los impuestos asociados a la compra. 
+      .. warning:: 
+      
+         Para ADempiere es importante porque representa los ingresos monetarios por la venta de los productos y servicios correspondientes a las operaciones principales de la empresa. Además, en ella se reflejan los impuestos asociados a la compra. 
 
    2. **Comportamiento**
 
@@ -5594,11 +5580,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -5678,11 +5662,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       extranjera pero de igual manera es la garantía de propiedad del
       cliente sobre el producto.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          El cliente por lo general necesita un original como prueba de propiedad para tomar posesión de los bienes, la factura se convierte en un elemento fundamental en la prestación de servicios y venta de productos. Además, es  prueba de los impuestos asociados a la venta.
+      .. warning:: 
+      
+         El cliente por lo general necesita un original como prueba de propiedad para tomar posesión de los bienes, la factura se convierte en un elemento fundamental en la prestación de servicios y venta de productos. Además, es  prueba de los impuestos asociados a la venta.
 
    2. **Comportamiento**
 
@@ -6071,11 +6053,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -6110,11 +6090,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       donde se establecen los precios de los productos y servicios
       acordados entre las partes.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Para ADempiere es un documento sin validez legal, simplemente es un documento de común acuerdo entre comprador y vendedor.                   
+      .. warning:: 
+      
+         Para ADempiere es un documento sin validez legal, simplemente es un documento de común acuerdo entre comprador y vendedor.                   
 
    2. **Comportamiento**
 
@@ -6444,11 +6422,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**" Basado en la providencia que
-      establece las normas generales de emisión de facturas y otros
-      documentos, en gaceta oficial número 38.997, el cual estipula:
-
-      ::
+      4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -6528,11 +6504,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       de productos o servicios a otra empresa perteneciente al mismo
       consorcio.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Para ADempiere es importante porque representa los ingresos por los productos y servicios correspondientes a las operaciones principales de la empresa.
+      .. warning:: 
+      
+         Para ADempiere es importante porque representa los ingresos por los productos y servicios correspondientes a las operaciones principales de la empresa.
 
    2. **Comportamiento**
 
@@ -6912,11 +6886,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -6996,11 +6968,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       Es un documento que se asemeja a la factura nacional,
       principalmente en cuanto a la moneda en la que se emite.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Representan los saldos deudores por parte de empleados correspondiente a las operaciones principales de la empresa.
+      .. warning:: 
+      
+         Representan los saldos deudores por parte de empleados correspondiente a las operaciones principales de la empresa.
 
    2. **Comportamiento**
 
@@ -7377,11 +7347,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -7462,11 +7430,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       dependiendo de esta última la factura queda en estado
       "**Completo**" o "**En Proceso**".
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Para ADempiere es importante porque representa los ingresos por la venta de los productos y servicios correspondientes a las operaciones principales de la empresa.
+      .. warning:: 
+      
+         Para ADempiere es importante porque representa los ingresos por la venta de los productos y servicios correspondientes a las operaciones principales de la empresa.
 
    2. **Comportamiento**
 
@@ -7669,11 +7635,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -7753,11 +7717,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       proveedor, por lo tanto el cliente retira el producto en el
       establecimiento del proveedor.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento fiscal que al igual que los demás tipos de documentos requiere cuidado y seguimiento, principalmente porque esta es emita por la venta de un producto o la adquisición de un servicio que no posee el vendedor. 
+      .. warning:: 
+      
+         Es un documento fiscal que al igual que los demás tipos de documentos requiere cuidado y seguimiento, principalmente porque esta es emita por la venta de un producto o la adquisición de un servicio que no posee el vendedor. 
 
    2. **Comportamiento**
 
@@ -8134,11 +8096,9 @@ ideas serán explicados los comportamientos de los tipos de facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -8225,11 +8185,9 @@ ADempiere.
       mayormente este caso se presenta por la venta de productos o
       servicios, o por prestaciones que la empresa le hace al mismo.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Este documento permite controlar las deudas que los socios de negocios tipo clientes contraigan con la empresa por la compra de productos o servicios.
+      .. warning:: 
+      
+         Este documento permite controlar las deudas que los socios de negocios tipo clientes contraigan con la empresa por la compra de productos o servicios.
 
    2. **Comportamiento**
 
@@ -8563,11 +8521,9 @@ ADempiere.
       -  Disminuye el monto de un ajuste de crédito, creando un cruce de
          cuentas.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -8593,11 +8549,9 @@ ADempiere.
       vendidos, donde amerita que la empresa aplique un ajuste de
       crédito.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Este documento permite controlar las deudas que la empresa contraiga con los socios de negocios tipo cliente.
+      .. warning:: 
+      
+         Este documento permite controlar las deudas que la empresa contraiga con los socios de negocios tipo cliente.
 
    2. **Comportamiento**
 
@@ -8931,11 +8885,9 @@ ADempiere.
       -  Aumenta el monto de un ajuste de débito, creando un cruce de
          cuentas.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -8973,11 +8925,9 @@ indirecta.
       moneda nacional y debe llevar la descripción de su aplicación, es
       decir que debe incluir cual es el cargo o motivo de la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
+      .. warning:: 
+      
+         Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
 
    2. **Comportamiento**
 
@@ -9384,11 +9334,9 @@ indirecta.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -9414,11 +9362,9 @@ indirecta.
       exportación el monto extra con su respectiva descripción para
       hacerla llegar al cliente en el extranjero.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
+      .. warning:: 
+      
+         Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
 
    2. **Comportamiento**
 
@@ -9828,11 +9774,9 @@ indirecta.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -9858,11 +9802,9 @@ indirecta.
       aplicar a una nota de crédito, generando con ello un cruce de
       cuentas.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
+      .. warning:: 
+      
+         Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
 
    2. **Comportamiento**
 
@@ -10272,11 +10214,9 @@ indirecta.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -10302,11 +10242,9 @@ indirecta.
       total a pagar reflejado en la factura anteriormente nombrada o un
       cruce de cuentas entre las notas de crédito y débito.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
+      .. warning:: 
+      
+         Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
 
    2. **Comportamiento**
 
@@ -10713,11 +10651,9 @@ indirecta.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -10743,11 +10679,9 @@ indirecta.
       cancelar de la factura. A la nota de débito indirecta se le otorga
       un trato especial por las condiciones de compra/venta que posee.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
+      .. warning:: 
+      
+         Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
 
    2. **Comportamiento**
 
@@ -11156,11 +11090,9 @@ indirecta.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -11200,11 +11132,9 @@ comportamiento de este tipo de documento.
       cliente, para ello se deben tener configuradas las retenciones en
       ADempiere.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
    2. **Comportamiento**
 
@@ -11434,11 +11364,9 @@ comportamiento de este tipo de documento.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto a pagar de la factura de cuentas por cobrar.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
+   4. **Implicación Fiscal**
+      
+      Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
 
           Según el la ley de el Artículo 3 de la Ley del Impuesto al Valor Agregado (IVA), constituyen hechos imponibles a los fines de esta ley, las siguientes actividades, negocios jurídicos u operaciones:
 
@@ -11456,11 +11384,9 @@ comportamiento de este tipo de documento.
       ciento (%) del IVA que posee una factura emitida al cliente, para
       ello se deben tener configuradas las retenciones en ADempiere.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
    2. **Comportamiento**
 
@@ -11690,11 +11616,9 @@ comportamiento de este tipo de documento.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto a pagar de la factura de cuentas por cobrar.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
+   4. **Implicación Fiscal**
+      
+      Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
 
           Según el la ley de el Artículo 3 de la Ley del Impuesto al Valor Agregado (IVA), Constituyen hechos imponibles a los fines de esta Ley, las siguientes actividades, negocios jurídicos u operaciones:
           1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
@@ -11711,11 +11635,9 @@ comportamiento de este tipo de documento.
       una factura emitida al cliente, para ello se deben tener
       configuradas las retenciones en ADempiere.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
    2. **Comportamiento**
 
@@ -11945,11 +11867,9 @@ comportamiento de este tipo de documento.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto a pagar de la factura de cuentas por cobrar.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
+   4. **Implicación Fiscal**
+      
+      Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
 
           - **Artículo 1:** 
 
@@ -12005,11 +11925,9 @@ comportamiento de este tipo de documento.
       una factura emitida al cliente, para ello se deben tener
       configuradas las retenciones en ADempiere.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
    2. **Comportamiento**
 
@@ -12240,11 +12158,9 @@ comportamiento de este tipo de documento.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto a pagar de la factura de cuentas por cobrar.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
+   4. **Implicación Fiscal**
+      
+      Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
 5. **Retención de IVA 75% para Nota de Crédito de CxC**
 
@@ -12255,11 +12171,9 @@ comportamiento de este tipo de documento.
       al cliente, para ello se deben tener configuradas las retenciones
       en ADempiere.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
    2. **Comportamiento**
 
@@ -12496,11 +12410,9 @@ comportamiento de este tipo de documento.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto de la nota de crédito de cuentas por cobrar.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
+   4. **Implicación Fiscal**
+      
+      Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
 
           Según el la ley de el Artículo 3 de la Ley del Impuesto al Valor Agregado (IVA), constituyen hechos imponibles a los fines de esta ley, las siguientes actividades, negocios jurídicos u operaciones:
 
@@ -12519,11 +12431,9 @@ comportamiento de este tipo de documento.
       cliente, para ello se deben tener configuradas las retenciones en
       ADempiere.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
    2. **Comportamiento**
 
@@ -12760,11 +12670,9 @@ comportamiento de este tipo de documento.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto de la nota de crédito de cuentas por cobrar.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
+   4. **Implicación Fiscal**
+      
+      Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
 
           Según el la ley de el Artículo 3 de la Ley del Impuesto al Valor Agregado (IVA), constituyen hechos imponibles a los fines de esta ley, las siguientes actividades, negocios jurídicos u operaciones:
 
@@ -12782,11 +12690,9 @@ comportamiento de este tipo de documento.
       una nota de crédito emitida al cliente, para ello se deben tener
       configuradas las retenciones en ADempiere.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
    2. **Comportamiento**
 
@@ -13023,11 +12929,9 @@ comportamiento de este tipo de documento.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto a pagar de la factura de cuentas por cobrar.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
+   4. **Implicación Fiscal**
+      
+      Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
 
           - **Artículo 1:** 
 
@@ -13083,11 +12987,9 @@ comportamiento de este tipo de documento.
       una nota de crédito emitida al cliente, para ello se deben tener
       configuradas las retenciones en ADempiere.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
    2. **Comportamiento**
 
@@ -13325,11 +13227,9 @@ comportamiento de este tipo de documento.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto a pagar de la factura de cuentas por cobrar.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
+   4. **Implicación Fiscal**
+      
+      Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
 **Tipo de Documento Pago Devuelto de Cuentas por Cobrar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -13351,11 +13251,9 @@ u organización.
       documento **Pago/Cobro**, el mismo genera una devolución de
       dinero.
 
-      !!! warning "Importancia"
-
-      ::
-
-          En ADempiere este documento genera un ajuste de débito por comisión de pago devuelto. Adicional a ello habilita nuevamente la cuenta por cobrar cancelada inicialmente.
+      .. warning:: 
+      
+         En ADempiere este documento genera un ajuste de débito por comisión de pago devuelto. Adicional a ello habilita nuevamente la cuenta por cobrar cancelada inicialmente.
 
    2. **Comportamiento**
 
@@ -13592,11 +13490,9 @@ u organización.
          habilitandole nuevamente la cuenta por cobrar al socio de
          negocio tipo cliente.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Nota de Crédito de Cuentas por Cobrar| **Nota de Crédito de Cuentas por Cobrar**
 ---------------------------------------------------------------------------------
@@ -13624,11 +13520,9 @@ según su comportamiento.
       cobrar nacional, realizada al socio del negocio tipo cliente que
       se encuentra ubicado dentro del territorio de Venezuela.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
+      .. warning:: 
+      
+         Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
    2. **Comportamiento**
 
@@ -14033,11 +13927,9 @@ según su comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -14061,11 +13953,9 @@ según su comportamiento.
       cobrar exportación, realizada al socio del negocio tipo cliente
       que se encuentra ubicado fuera del territorio de Venezuela.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
+      .. warning:: 
+      
+         Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
    2. **Comportamiento**
 
@@ -14473,11 +14363,9 @@ según su comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -14501,11 +14389,9 @@ según su comportamiento.
       cobrar intercompañía, realizada a otra empresa también registrada
       en ADempiere.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
+      .. warning:: 
+      
+         Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
    2. **Comportamiento**
 
@@ -14913,11 +14799,9 @@ según su comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -14941,11 +14825,9 @@ según su comportamiento.
       cobrar empleado, realizada por la empresa a sus trabajadores por
       una determinada venta.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
+      .. warning:: 
+      
+         Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
    2. **Comportamiento**
 
@@ -15350,11 +15232,9 @@ según su comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -15378,11 +15258,9 @@ según su comportamiento.
       empresa a un socio de negocio tipo cliente cuando este adquiere un
       compromiso de compra con entrega indirecta.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
+      .. warning:: 
+      
+         Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
    2. **Comportamiento**
 
@@ -15788,11 +15666,9 @@ según su comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -15837,11 +15713,9 @@ comportamiento.
       empresa posee con los diferentes socios de negocio a nivel
       nacional.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se deben reflejar los cobros de la cuentas por cobrar a nivel nacional, que no tengan nada que ver con reembolsos, viáticos o gastos directos de la empresa.
+      .. warning:: 
+      
+         Se deben reflejar los cobros de la cuentas por cobrar a nivel nacional, que no tengan nada que ver con reembolsos, viáticos o gastos directos de la empresa.
 
    2. **Comportamiento**
 
@@ -16008,11 +15882,9 @@ comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Cobro de Cuentas por Cobrar Internacional**
 
@@ -16022,11 +15894,9 @@ comportamiento.
       empresa posee con los diferentes socios de negocio que se
       encuentran fuera del territorio de Venezuela.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se deben reflejar solamente los cobros de las cuentas por cobrar a clientes ubicados fuera de Venezuela.
+      .. warning:: 
+      
+         Se deben reflejar solamente los cobros de las cuentas por cobrar a clientes ubicados fuera de Venezuela.
 
    2. **Comportamiento**
 
@@ -16194,11 +16064,9 @@ comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 3. **Cobro de Cuentas por Cobrar Gasto Directo**
 
@@ -16208,11 +16076,9 @@ comportamiento.
       empresa posee como gastos directos. Entendiendo como gasto directo
       lo utilizado para realizar los productos o servicios.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se deben reflejar solamente los cobros referentes a los gastos directos de la empresa.
+      .. warning:: 
+      
+         Se deben reflejar solamente los cobros referentes a los gastos directos de la empresa.
 
    2. **Comportamiento**
 
@@ -16379,11 +16245,9 @@ comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 4. **Cobro de Cuentas por Cobrar Reembolso**
 
@@ -16393,11 +16257,9 @@ comportamiento.
       empresa posee como reembolso. Entendiendo como reembolso el
       reintegro monetario pagado anteriormente.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se deben reflejar solamente los cobros referentes a reembolsos de la empresa.
+      .. warning:: 
+      
+         Se deben reflejar solamente los cobros referentes a reembolsos de la empresa.
 
    2. **Comportamiento**
 
@@ -16564,11 +16426,9 @@ comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 5. **Cobro de Cuentas por Cobrar Viáticos**
 
@@ -16579,11 +16439,9 @@ comportamiento.
       dinero que se le facilita a una persona para cubrir los gastos de
       un viaje determinado.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se deben reflejar solamente los cobros referentes a viáticos de la empresa.
+      .. warning:: 
+      
+         Se deben reflejar solamente los cobros referentes a viáticos de la empresa.
 
    2. **Comportamiento**
 
@@ -16750,11 +16608,9 @@ comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Ventas| **Ventas**
 -------------------
@@ -16782,11 +16638,9 @@ continuación se describe.
       clientes ubicados dentro del territorio de Venezuela, estos serán
       entregados solo a nivel nacional.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
+      .. warning:: 
+      
+         En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
 
    2. **Comportamiento**
 
@@ -17034,8 +16888,9 @@ continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de ventas de
          ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Entrega Exportación**
 
@@ -17045,11 +16900,9 @@ continuación se describe.
       clientes ubicados en el exterior de Venezuela, estos serán
       entregados fuera del territorio de Venezuela.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
+      .. warning:: 
+      
+         En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
 
    2. **Comportamiento**
 
@@ -17299,8 +17152,9 @@ continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de ventas de
          ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 3. **Entrega Intercompañía**
 
@@ -17310,11 +17164,9 @@ continuación se describe.
       pertenecientes al mismo consorcio, la entrega de estos será
       directa de empresa a empresa.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
+      .. warning:: 
+      
+         En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
 
    2. **Comportamiento**
 
@@ -17563,8 +17415,9 @@ continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de ventas de
          ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 4. **Entrega Empleado**
 
@@ -17573,11 +17426,9 @@ continuación se describe.
       Se refiere a los productos o servicios que la empresa vende a sus
       trabajadores, la entrega de estos serán dentro de la empresa.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
+      .. warning:: 
+      
+         En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
 
    2. **Comportamiento**
 
@@ -17825,8 +17676,9 @@ continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de ventas de
          ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 5. **Entrega Indirecta**
 
@@ -17835,11 +17687,9 @@ continuación se describe.
       Se refiere a las ventas de productos o servicios que la empresa le
       hace a clientes, pero estos reciben los productos del proveedor.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
+      .. warning:: 
+      
+         En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
 
    2. **Comportamiento**
 
@@ -18087,8 +17937,9 @@ continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de ventas de
          ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos Devolución de Ventas**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -18106,11 +17957,9 @@ continuación se describe.
       por los clientes ubicados a nivel nacional. Este proceso es
       realizado cuando el cliente no esta conforme con lo recibido.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
+      .. warning:: 
+      
+         En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
 
    2. **Comportamiento**
 
@@ -18278,8 +18127,9 @@ continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de
          devoluciones de ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Devolución de Cliente Exportación**
 
@@ -18289,11 +18139,9 @@ continuación se describe.
       por los clientes ubicados fuera de Venezuela. Este proceso es
       realizado cuando el cliente no esta conforme con lo recibido.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
+      .. warning:: 
+      
+         En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
 
    2. **Comportamiento**
 
@@ -18463,8 +18311,9 @@ continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de
          devoluciones de ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 3. **Devolución de Cliente Intercompañía**
 
@@ -18474,11 +18323,9 @@ continuación se describe.
       los productos o servicios que le fueron entregados anteriormente o
       parte de ellos.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
+      .. warning:: 
+      
+         En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
 
    2. **Comportamiento**
 
@@ -18647,8 +18494,9 @@ continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de
          devoluciones de ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 4. **Devolución de Cliente Empleado**
 
@@ -18659,11 +18507,9 @@ continuación se describe.
       proceso es realizado cuando el cliente no esta conforme con lo
       recibido.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
+      .. warning:: 
+      
+         En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
 
    2. **Comportamiento**
 
@@ -18831,8 +18677,9 @@ continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de
          devoluciones de ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 5. **Devolución de Cliente Indirecta**
 
@@ -18842,11 +18689,9 @@ continuación se describe.
       servicios ya adquiridos por el mismo de forma indirecta o con
       entrega indirecta.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
+      .. warning:: 
+      
+         En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
 
    2. **Comportamiento**
 
@@ -19015,8 +18860,9 @@ continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de
          devoluciones de ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Requisición| **Requisición**
 -----------------------------
@@ -19044,11 +18890,9 @@ define según su comportamiento y se describe a continuación.
       su requisición detallando en cada uno de los campos la información
       solicitada en el documento.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Si el estado del documento no esta en "Completo", no es válido para ADempiere, por lo tanto al momento de realizar la orden de compra no se reflejará.
+      .. warning:: 
+      
+         Si el estado del documento no esta en "Completo", no es válido para ADempiere, por lo tanto al momento de realizar la orden de compra no se reflejará.
 
    2. **Comportamiento**
 
@@ -19202,8 +19046,9 @@ define según su comportamiento y se describe a continuación.
       -  Aparece reflejado de manera ordenada en la gestión de compras
          de ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Requisición de Compra Importación**
 
@@ -19216,11 +19061,9 @@ define según su comportamiento y se describe a continuación.
       requisición detallando en cada uno de los campos la información
       solicitada en el documento.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Si el estado del documento no esta en "Completo", no es válido para ADempiere, por lo tanto al momento de realizar la orden de compra no se reflejará.
+      .. warning:: 
+      
+         Si el estado del documento no esta en "Completo", no es válido para ADempiere, por lo tanto al momento de realizar la orden de compra no se reflejará.
 
    2. **Comportamiento**
 
@@ -19375,8 +19218,9 @@ define según su comportamiento y se describe a continuación.
       -  Aparece reflejado de manera ordenada en la gestión de compras
          de ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Orden de Compra| **Orden de Compra**
 -------------------------------------
@@ -19407,11 +19251,9 @@ elaborada por el departamento que necesite dichos productos o servicios.
       Venezuela, donde se ingresan los productos o servicios referentes
       a la compra y es emitida en moneda nacional.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
+      .. warning:: 
+      
+         Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
 
    2. **Comportamiento**
 
@@ -19595,8 +19437,9 @@ elaborada por el departamento que necesite dichos productos o servicios.
       -  Permite generar facturas de los productos comprados dentro de
          Venezuela por medio de esta.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Orden de Compra Importación**
 
@@ -19607,11 +19450,9 @@ elaborada por el departamento que necesite dichos productos o servicios.
       Venezuela, donde se ingresan los productos o servicios referentes
       a la compra y es emitida en moneda extranjera.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
+      .. warning:: 
+      
+         Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
 
    2. **Comportamiento**
 
@@ -19796,8 +19637,9 @@ elaborada por el departamento que necesite dichos productos o servicios.
       -  Permite generar facturas de los productos comprados fuera de
          Venezuela por medio de esta.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 3. **Orden de Compra Intercompañía**
 
@@ -19809,11 +19651,9 @@ elaborada por el departamento que necesite dichos productos o servicios.
       productos o servicios referentes a la compra y es emitida en
       moneda nacional.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
+      .. warning:: 
+      
+         Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
 
    2. **Comportamiento**
 
@@ -19998,8 +19838,9 @@ elaborada por el departamento que necesite dichos productos o servicios.
          otras empresas pertenecientes al mismo consorcio, por medio de
          esta.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 4. **Orden de Compra Empleado**
 
@@ -20010,11 +19851,9 @@ elaborada por el departamento que necesite dichos productos o servicios.
       ingresan los productos o servicios referentes a la compra y es
       emitida en moneda nacional.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
+      .. warning:: 
+      
+         Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
 
    2. **Comportamiento**
 
@@ -20196,8 +20035,9 @@ elaborada por el departamento que necesite dichos productos o servicios.
       -  Permite generar facturas de productos y servicios comprados a
          empleados de la empresa, por medio de esta.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 5. **Orden de Compra Indirecta**
 
@@ -20208,11 +20048,9 @@ elaborada por el departamento que necesite dichos productos o servicios.
       donde se ingresan los productos o servicios referentes a la compra
       y es emitida en moneda nacional.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
+      .. warning:: 
+      
+         Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
 
    2. **Comportamiento**
 
@@ -20396,8 +20234,9 @@ elaborada por el departamento que necesite dichos productos o servicios.
          servicios adquiridos con compromiso de compra con entrega
          indirecta.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos Autorización de Devolución de Compras**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -20416,11 +20255,9 @@ devolución requerida.
       cliente dentro del territorio de Venezuela, indiferentemente el
       motivo que esta tenga, debe ser expresado en la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
+      .. warning:: 
+      
+         Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
    2. **Comportamiento**
 
@@ -20579,8 +20416,9 @@ devolución requerida.
          en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución cliente.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Autorización Devolución Cliente Exportación**
 
@@ -20591,11 +20429,9 @@ devolución requerida.
       cliente fuera del territorio de Venezuela, indiferentemente el
       motivo que esta tenga, debe ser expresado en la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
+      .. warning:: 
+      
+         Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
    2. **Comportamiento**
 
@@ -20756,8 +20592,9 @@ devolución requerida.
          en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución cliente.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 3. **Autorización Devolución Cliente Intercompañía**
 
@@ -20769,11 +20606,9 @@ devolución requerida.
       indiferentemente el motivo que esta tenga, debe ser expresado en
       la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
+      .. warning:: 
+      
+         Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
    2. **Comportamiento**
 
@@ -20934,8 +20769,9 @@ devolución requerida.
          en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución cliente.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 4. **Autorización Devolución Cliente Empleado**
 
@@ -20946,11 +20782,9 @@ devolución requerida.
       realizó a los socios de negocios tipo empleado, indiferentemente
       el motivo que esta tenga, debe ser expresado en la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
+      .. warning:: 
+      
+         Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
    2. **Comportamiento**
 
@@ -21109,8 +20943,9 @@ devolución requerida.
          en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución cliente.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 5. **Autorización Devolución Cliente Indirecta**
 
@@ -21121,11 +20956,9 @@ devolución requerida.
       compromiso de entrega indirecta al cliente, indiferentemente el
       motivo que esta tenga, debe ser expresado en la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
+      .. warning:: 
+      
+         Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
    2. **Comportamiento**
 
@@ -21284,8 +21117,9 @@ devolución requerida.
          en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución cliente.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Cuentas por Pagar| **Cuentas por Pagar**
 -----------------------------------------
@@ -21322,11 +21156,9 @@ facturas.
       territorio de Venezolana, esta es generada en moneda nacional y se
       encuentra regida por la ley ya que es un documento fiscal.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
+      .. warning:: 
+      
+         Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
 
    2. **Comportamiento**
 
@@ -21504,11 +21336,9 @@ facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -21587,11 +21417,9 @@ facturas.
       diferencia de la factura nacional, esta es emitida en moneda
       extranjera.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
+      .. warning:: 
+      
+         Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
 
    2. **Comportamiento**
 
@@ -21772,11 +21600,9 @@ facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**" Basado en la providencia que
-      establece las normas generales de emisión de facturas y otros
-      documentos, en gaceta oficial número 38.997, el cual estipula:
-
-      ::
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -21802,11 +21628,9 @@ facturas.
       compromiso de compra/venta donde se establecen los precios y el
       lapso de tiempo para pagar.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Para ADempiere es un documento sin validez legal, simplemente es un documento de común acuerdo entre comprador y vendedor.
+      .. warning:: 
+      
+         Para ADempiere es un documento sin validez legal, simplemente es un documento de común acuerdo entre comprador y vendedor.
 
    2. **Comportamiento**
 
@@ -21965,11 +21789,9 @@ facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -22051,11 +21873,9 @@ facturas.
       comportamiento es igual al de la factura de cuentas por pagar
       nacional y de igual manera es emitida en moneda nacional.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
+      .. warning:: 
+      
+         Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
 
    2. **Comportamiento**
 
@@ -22235,11 +22055,9 @@ facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -22321,11 +22139,9 @@ facturas.
       productos o del cual adquirio los servicios, es emitida en moneda
       nacional al igual que la factura nacional de cuentas por pagar
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
+      .. warning:: 
+      
+         Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
 
    2. **Comportamiento**
 
@@ -22503,11 +22319,9 @@ facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -22588,11 +22402,9 @@ facturas.
       dependiendo de esta última la factura queda en estado "Completo" o
       "En Proceso".
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
+      .. warning:: 
+      
+         Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
 
    2. **Comportamiento**
 
@@ -22790,11 +22602,9 @@ facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -22874,11 +22684,9 @@ facturas.
       es intermediario del proveedor, por lo tanto el cliente retira el
       producto en el establecimiento del proveedor.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
+      .. warning:: 
+      
+         Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
 
    2. **Comportamiento**
 
@@ -23056,11 +22864,9 @@ facturas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -23147,11 +22953,9 @@ ADempiere.
       mayormente este caso se presenta por la compra de productos o
       servicios, o por prestaciones que le hacen a la empresa.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Este documento permite controlar las deudas que la empresa contrae con los socios de negocios tipo proveedor por la compra de productos o servicios.
+      .. warning:: 
+      
+         Este documento permite controlar las deudas que la empresa contrae con los socios de negocios tipo proveedor por la compra de productos o servicios.
 
    2. **Comportamiento**
 
@@ -23292,11 +23096,9 @@ ADempiere.
       -  Disminuye el monto de un ajuste de crédito, creando un cruce de
          cuentas.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -23321,11 +23123,9 @@ ADempiere.
       Suele presentarse el caso de devolución de productos o servicios
       comprados, donde amerita que se aplique un ajuste de crédito.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Este documento permite controlar las deudas de los socios de negocios tipo proveedor con la empresa.
+      .. warning:: 
+      
+         Este documento permite controlar las deudas de los socios de negocios tipo proveedor con la empresa.
 
    2. **Comportamiento**
 
@@ -23466,11 +23266,9 @@ ADempiere.
       -  Aumenta el monto de un ajuste de débito, creando un cruce de
          cuentas.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -23505,11 +23303,9 @@ empleado e indirectas.
       empresa con el proveedor, esta es emitida en moneda nacional al
       igual que la factura.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
+      .. warning:: 
+      
+         Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
 
    2. **Comportamiento**
 
@@ -23696,11 +23492,9 @@ empleado e indirectas.
       -  Disminuye el monto de una nota de crédito, creando un cruce de
          cuentas.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -23725,11 +23519,9 @@ empleado e indirectas.
       se expresa en moneda extranjera y refleja en la factura de
       importación el monto extra con su respectiva descripción.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere.
+      .. warning:: 
+      
+         Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere.
 
    2. **Comportamiento**
 
@@ -23918,11 +23710,9 @@ empleado e indirectas.
       -  Disminuye el monto de una nota de crédito, creando un cruce de
          cuentas.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -23946,11 +23736,9 @@ empleado e indirectas.
       aumento a facturas de cuentas por pagar intercompañía que
       pertenecen al mismo consorcio de la empresa.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere.
+      .. warning:: 
+      
+         Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere.
 
    2. **Comportamiento**
 
@@ -24138,11 +23926,9 @@ empleado e indirectas.
       -  Disminuye el monto de una nota de crédito, creando un cruce de
          cuentas.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -24167,11 +23953,9 @@ empleado e indirectas.
       monto de la deuda que la empresa tiene con el empleado, el mismo
       se emite en moneda nacional.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere.
+      .. warning:: 
+      
+         Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere.
 
    2. **Comportamiento**
 
@@ -24358,11 +24142,9 @@ empleado e indirectas.
       -  Disminuye el monto de una nota de crédito, creando un cruce de
          cuentas.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -24386,11 +24168,9 @@ empleado e indirectas.
       aumento en el monto a cancelar de una factura de cuentas por pagar
       indirecta cuando el documento se encuentra en estado completo.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere.
+      .. warning:: 
+      
+         Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere.
 
    2. **Comportamiento**
 
@@ -24576,11 +24356,9 @@ empleado e indirectas.
       -  Disminuye el monto de una nota de crédito, creando un cruce de
          cuentas.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -24621,11 +24399,9 @@ comportamiento en el mismo.
        proveedor, para ello se deben tener configuradas las retenciones
        en ADempiere.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
     2. **Comportamiento**
 
@@ -24856,11 +24632,9 @@ comportamiento en el mismo.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
+   4. **Implicación Fiscal**
+       
+      Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
 
            - Artículo 3: Constituyen hechos imponibles a los fines de esta Ley, las siguientes actividades, negocios jurídicos u operaciones:
                1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
@@ -24878,11 +24652,9 @@ comportamiento en el mismo.
        proveedor, para ello se deben tener configuradas las retenciones
        en ADempiere.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+       
+         En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
     2. **Comportamiento**
 
@@ -25113,11 +24885,9 @@ comportamiento en el mismo.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
+   4. **Implicación Fiscal**
+       
+      Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
 
            - Artículo 3: Constituyen hechos imponibles a los fines de esta Ley, las siguientes actividades, negocios jurídicos u operaciones:
                1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
@@ -25134,11 +24904,9 @@ comportamiento en el mismo.
        una factura emitida por el proveedor, para ello se deben tener
        configuradas las retenciones en ADempiere.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
     2. **Comportamiento**
 
@@ -25365,11 +25133,9 @@ comportamiento en el mismo.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
+   4. **Implicación Fiscal**
+       
+      Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
 
            - **Artículo 1:** 
 
@@ -25425,11 +25191,9 @@ comportamiento en el mismo.
        factura emitida por el proveedor, para ello se deben tener
        configuradas las retenciones en ADempiere.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
     2. **Comportamiento**
 
@@ -25658,11 +25422,9 @@ comportamiento en el mismo.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
+   4. **Implicación Fiscal**
+       
+      Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
 5.  **Retención de IVA 75% para Nota de Crédito de CxP**
 
@@ -25673,11 +25435,9 @@ comportamiento en el mismo.
        por el proveedor, para ello se deben tener configuradas las
        retenciones en ADempiere.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
     2. **Comportamiento**
 
@@ -25908,11 +25668,9 @@ comportamiento en el mismo.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto de la nota de crédito de cuentas por pagar.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
+   4. **Implicación Fiscal**
+      
+      Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
 
            - Artículo 3: Constituyen hechos imponibles a los fines de esta Ley, las siguientes actividades, negocios jurídicos u operaciones:
                1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
@@ -25930,11 +25688,9 @@ comportamiento en el mismo.
        proveedor, para ello se deben tener configuradas las retenciones
        en ADempiere.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
     2. **Comportamiento**
 
@@ -26166,11 +25922,9 @@ comportamiento en el mismo.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto de la nota de crédito de cuentas por pagar.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
+   4. **Implicación Fiscal**
+       
+      Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
 
            - Artículo 3: Constituyen hechos imponibles a los fines de esta Ley, las siguientes actividades, negocios jurídicos u operaciones:
                1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
@@ -26187,11 +25941,9 @@ comportamiento en el mismo.
        una nota de crédito emitida por el proveedor, para ello se deben
        tener configuradas las retenciones en ADempiere.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
     2. **Comportamiento**
 
@@ -26419,11 +26171,9 @@ comportamiento en el mismo.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto de la nota de crédito de cuentas por pagar.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
+   4. **Implicación Fiscal**
+       
+      Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
 
            - **Artículo 1:** 
 
@@ -26479,11 +26229,9 @@ comportamiento en el mismo.
        nota de crédito emitida por el proveedor, para ello se deben
        tener configuradas las retenciones en ADempiere.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
     2. **Comportamiento**
 
@@ -26711,11 +26459,9 @@ comportamiento en el mismo.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto de la nota de crédito de cuentas por pagar.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
+   4. **Implicación Fiscal**
+       
+      Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
 9.  **Declaración de IVA de Cuentas por Pagar**
 
@@ -26727,11 +26473,9 @@ comportamiento en el mismo.
        declaraciones de IVA puede causar multas y sanciones establecidas
        en la ley.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
     2. **Comportamiento**
 
@@ -26885,11 +26629,9 @@ comportamiento en el mismo.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en Gaceta Oficial N° 41.546 de fecha 14 de diciembre de 2018 la cual dicta la providencia administrativa que establece el calendario de sujetos pasivos especiales y agentes de retención para aquellas obligaciones que deben cumplirse para el año 2019: 
+   4. **Implicación Fiscal**
+       
+      Basado en Gaceta Oficial N° 41.546 de fecha 14 de diciembre de 2018 la cual dicta la providencia administrativa que establece el calendario de sujetos pasivos especiales y agentes de retención para aquellas obligaciones que deben cumplirse para el año 2019: 
 
            - **Artículo 1:** Las declaraciones de los Sujetos Pasivos Especiales notificados de esa condición en forma expresa por el Servicio Nacional Integrado de Administración Aduanera y Tributaria, relativas al Impuesto al Valor Agregado, al Impuesto Sobre la Renta, Impuesto a las Actividades de Juegos de Envite o Azar, así como el enteramiento de los montos retenidos por los Agentes de Retención en materia de Impuesto Sobre la Renta e Impuesto al Valor Agregado, deberán ser presentadas y en su caso efectuados los respectivos pagos, según el último dígito del Registro Único de Información Fiscal (R.I.F) y en las fechas de vencimiento del calendario para el año 2019 que se establece a continuación:
                1. Declaración de IVA, anticipos de IVA e ISLR, retenciones de IVA
@@ -26910,11 +26652,9 @@ comportamiento en el mismo.
        y declaraciones ISLR puede causar multas y sanciones establecidas
        en la ley.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
     2. **Comportamiento**
 
@@ -27068,11 +26808,9 @@ comportamiento en el mismo.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en Gaceta Oficial N° 41.546 de fecha 14 de diciembre de 2018 la cual dicta la providencia administrativa que establece el calendario de sujetos pasivos especiales y agentes de retención para aquellas obligaciones que deben cumplirse para el año 2019: 
+   4. **Implicación Fiscal**
+       
+      Basado en Gaceta Oficial N° 41.546 de fecha 14 de diciembre de 2018 la cual dicta la providencia administrativa que establece el calendario de sujetos pasivos especiales y agentes de retención para aquellas obligaciones que deben cumplirse para el año 2019: 
 
            - **Artículo 1:** Las declaraciones de los Sujetos Pasivos Especiales notificados de esa condición en forma expresa por el Servicio Nacional Integrado de Administración Aduanera y Tributaria, relativas al Impuesto al Valor Agregado, al Impuesto Sobre la Renta, Impuesto a las Actividades de Juegos de Envite o Azar, así como el enteramiento de los montos retenidos por los Agentes de Retención en materia de Impuesto Sobre la Renta e Impuesto al Valor Agregado, deberán ser presentadas y en su caso efectuados los respectivos pagos, según el último dígito del Registro Único de Información Fiscal (R.I.F) y en las fechas de vencimiento del calendario para el año 2019 que se establece a continuación:
                1. Declaración de IVA, anticipos de IVA e ISLR, retenciones de IVA
@@ -27093,11 +26831,9 @@ comportamiento en el mismo.
        y declaraciones municipales puede causar multas y sanciones
        establecidas en la ley.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
+      .. warning:: 
+      
+         En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
     2. **Comportamiento**
 
@@ -27252,11 +26988,9 @@ comportamiento en el mismo.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
+   4. **Implicación Fiscal**
+       
+      Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
 **Tipo de Documento Pagaré Bancario de Cuentas por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -27276,11 +27010,9 @@ El tiempo mayormente utilizado para un pagaré es 30, 60 y 90 días.
       el pagaré bancario. Este es un proceso que genera deudas a la
       empresa por prestamos solicitados.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Refleja las deudas a corto plazo que la empresa tiene con un determinado socio de negocio tipo proveedor.
+      .. warning:: 
+      
+         Refleja las deudas a corto plazo que la empresa tiene con un determinado socio de negocio tipo proveedor.
 
    2. **Comportamiento**
 
@@ -27404,11 +27136,9 @@ El tiempo mayormente utilizado para un pagaré es 30, 60 y 90 días.
          del estándar de control y seguimiento establecido en ADempiere.
       -  Genera deudas a la empresa por prestamos solicitados.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en el código de comercio, decretado en gaceta extraordinaria N° 475 del 21 de diciembre de 1955.
+   4. **Implicación Fiscal**
+      
+      Basado en el código de comercio, decretado en gaceta extraordinaria N° 475 del 21 de diciembre de 1955.
 
           - **Artículo 486:** Los pagarés o vales a la orden entre comerciantes o por actos comercio por parte del obligado, deben contener:
               - La fecha.
@@ -27449,11 +27179,9 @@ económicamente la disponibilidad de su dinero.
       empresa cancele al acreedor, debe cancelar el porcentaje de lo que
       debe más el porcentaje de intereses.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Refleja los intereses que la empresa debe pagar por retraso de pago o por préstamo. 
+      .. warning:: 
+      
+         Refleja los intereses que la empresa debe pagar por retraso de pago o por préstamo. 
 
    2. **Comportamiento**
 
@@ -27578,11 +27306,9 @@ económicamente la disponibilidad de su dinero.
       -  Genera intereses a las deudas de la empresa por prestamos
          solicitados.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos de Cuentas por Pagar Gubernamental**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -27606,11 +27332,9 @@ cumplimiento de las normativas establecidas.
       impuestos, entre otros. El incumplimiento en pago de estas deudas
       puede acarrear multas y sanciones legales establecidas en la ley.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es importante que las organizaciones cumplan con sus obligaciones con el estado ya que, los entes gubernamentales prestan un servico social a las organizaciones y estas, por así decirlo, deben pagar por la adquisición de los mismos.
+      .. warning:: 
+      
+         Es importante que las organizaciones cumplan con sus obligaciones con el estado ya que, los entes gubernamentales prestan un servico social a las organizaciones y estas, por así decirlo, deben pagar por la adquisición de los mismos.
 
    2. **Comportamiento**
 
@@ -27738,11 +27462,9 @@ cumplimiento de las normativas establecidas.
       -  Genera un incremento de las deudas de la empresa
          correspondiente a entes gubernamentales.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la Gaceta Oficial N° 30.800 en la cual se decreta la ley que establece el regimen para la conciliación, compensación y pagos de deudas entre organismos gubernamentales y entre estos y los estados o los municipios.
+   4. **Implicación Fiscal**
+      
+      Basado en la Gaceta Oficial N° 30.800 en la cual se decreta la ley que establece el regimen para la conciliación, compensación y pagos de deudas entre organismos gubernamentales y entre estos y los estados o los municipios.
 
           - **Artículo 1:** 
 
@@ -27804,11 +27526,9 @@ ese dinero se reintegra con ganancias.
       veces a futuro son recuperados. A continuación se define su
       comportamiento en el mismo.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Representan egresos monetarios por deudas o muchas veces inversiones.
+      .. warning:: 
+      
+         Representan egresos monetarios por deudas o muchas veces inversiones.
 
    2. **Comportamiento**
 
@@ -27935,11 +27655,9 @@ ese dinero se reintegra con ganancias.
       -  Genera un incremento de las deudas de la empresa
          correspondiente a gastos de la misma.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Nota de Crédito de Cuentas por Pagar| **Nota de Crédito de Cuentas por Pagar**
 -------------------------------------------------------------------------------
@@ -27967,11 +27685,9 @@ según su comportamiento.
       se encuentra ubicado dentro del territorio de Venezuela, con la
       finalidad de disminuir el monto de la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
+      .. warning:: 
+      
+         Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
    2. **Comportamiento**
 
@@ -28238,11 +27954,9 @@ según su comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -28267,11 +27981,9 @@ según su comportamiento.
       que se encuentra ubicado fuera del territorio de Venezuela, con la
       finalidad de disminuir el monto de la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
+      .. warning:: 
+      
+         Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
    2. **Comportamiento**
 
@@ -28540,11 +28252,9 @@ según su comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -28569,11 +28279,9 @@ según su comportamiento.
       mismo consorcio, con la finalidad de disminuir el monto de la
       misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
+      .. warning:: 
+      
+         Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
    2. **Comportamiento**
 
@@ -28842,11 +28550,9 @@ según su comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -28871,11 +28577,9 @@ según su comportamiento.
       venta determinada, con la finalidad de disminuir el monto de la
       misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
+      .. warning:: 
+      
+         Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
    2. **Comportamiento**
 
@@ -29142,11 +28846,9 @@ según su comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -29172,11 +28874,9 @@ según su comportamiento.
       entrega indirecta, con la finalidad de disminuir el monto de la
       factura.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
+      .. warning:: 
+      
+         Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
    2. **Comportamiento**
 
@@ -29444,11 +29144,9 @@ según su comportamiento.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
+   4. **Implicación Fiscal**
+      
+      Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
@@ -29491,11 +29189,9 @@ ventas.
       seguimiento a las comisiones que los trabajadores se ganan por las
       ventas de los productos y servicios.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Las comisiones por ventas son ofrecidas por las empresas a sus trabajadores como motivación para que estos vendan más productos y servicios.
+      .. warning:: 
+      
+         Las comisiones por ventas son ofrecidas por las empresas a sus trabajadores como motivación para que estos vendan más productos y servicios.
 
    2. **Comportamiento**
 
@@ -29647,8 +29343,9 @@ ventas.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Selección de Pago de Cuentas por Pagar| **Selección de Pago**
 --------------------------------------------------------------
@@ -29675,11 +29372,9 @@ realizarán los pagos.
       realizar la solicitud de pagos y esperar autorización de sus
       superiores para proceder a realizar la selección de pagos.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Posterior a la elaboración del documento selección de pagos y con una previa autorización se puede realizar el pago de uno, algunos o todos los documentos agrupados en la selección de pago.
+      .. warning:: 
+      
+         Posterior a la elaboración del documento selección de pagos y con una previa autorización se puede realizar el pago de uno, algunos o todos los documentos agrupados en la selección de pago.
 
    2. **Comportamiento**
 
@@ -29830,8 +29525,9 @@ realizarán los pagos.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 **Tipo de Documento Selección de Pagos de Cuentas por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -29850,11 +29546,9 @@ este proceso, se procede a realizar el pago.
       realizar la selección de pagos para luego proceder a realizar el
       pago, si tiene los permisos para realizar el proceso de pago.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Posterior a la elaboración del documento selección de pagos y con una previa autorización se puede realizar el pago de uno, algunos o todos los documentos agrupados en la selección de pago.
+      .. warning:: 
+      
+         Posterior a la elaboración del documento selección de pagos y con una previa autorización se puede realizar el pago de uno, algunos o todos los documentos agrupados en la selección de pago.
 
    2. **Comportamiento**
 
@@ -30004,11 +29698,9 @@ este proceso, se procede a realizar el pago.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Pagos| **Pagos**
 -----------------
@@ -30034,11 +29726,9 @@ comportamientos que se definen a continuación.
       socios de negocio a nivel nacional, este proceso se puede realizar
       de una, varias o todas la deudas que posee la misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Este tipo de documento no incluye las cuentas por pagar con motivo de reembolso, viáticos o gastos directos que posee la empresa. 
+      .. warning:: 
+      
+         Este tipo de documento no incluye las cuentas por pagar con motivo de reembolso, viáticos o gastos directos que posee la empresa. 
 
    2. **Comportamiento**
 
@@ -30190,11 +29880,9 @@ comportamientos que se definen a continuación.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Pago de Cuentas por Pagar Internacional**
 
@@ -30205,11 +29893,9 @@ comportamientos que se definen a continuación.
       pueden realizar bajo un proceso de selección de pagos con previa
       autorización.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Este tipo de documento no incluye las cuentas por pagar con motivo de reembolso, viáticos o gastos directos que posee la empresa. 
+      .. warning:: 
+      
+         Este tipo de documento no incluye las cuentas por pagar con motivo de reembolso, viáticos o gastos directos que posee la empresa. 
 
    2. **Comportamiento**
 
@@ -30362,11 +30048,9 @@ comportamientos que se definen a continuación.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 3. **Pago de Cuentas por Pagar Gasto Directo**
 
@@ -30377,11 +30061,9 @@ comportamientos que se definen a continuación.
       como gasto directo lo utilizado para realizar los productos o
       servicios.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Con este tipo de documento se reflejan solamente los pagos por motivo de gasto directo.
+      .. warning:: 
+      
+         Con este tipo de documento se reflejan solamente los pagos por motivo de gasto directo.
 
    2. **Comportamiento**
 
@@ -30533,11 +30215,9 @@ comportamientos que se definen a continuación.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 4. **Pago de Cuentas por Pagar Reembolso**
 
@@ -30547,11 +30227,9 @@ comportamientos que se definen a continuación.
       reembolso. Entendiendo como reembolso el reintegro monetario
       pagado anteriormente por un determinado socio de negocio.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Con este tipo de documento se reflejan solamente los pagos por motivo de reembolso.
+      .. warning:: 
+      
+         Con este tipo de documento se reflejan solamente los pagos por motivo de reembolso.
 
    2. **Comportamiento**
 
@@ -30703,11 +30381,9 @@ comportamientos que se definen a continuación.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 5. **Pago de Cuentas por Pagar Viáticos**
 
@@ -30718,11 +30394,9 @@ comportamientos que se definen a continuación.
       le facilita a una persona para cubrir los gastos de un viaje
       determinado.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Con este tipo de documento se reflejan solamente los pagos por motivo de viáticos. 
+      .. warning:: 
+      
+         Con este tipo de documento se reflejan solamente los pagos por motivo de viáticos. 
 
    2. **Comportamiento**
 
@@ -30874,11 +30548,9 @@ comportamientos que se definen a continuación.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Asignación de Pagos| **Asignación de Pagos**
 ---------------------------------------------
@@ -30905,11 +30577,9 @@ factura. Es definido según su comportamiento y explicado a continuación.
       por la empresa a un socio del negocio tipo proveedor por concepto
       de anticipo y asociarlo a una factura determinada.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Es utilizado por la empresa cuando en una compra/venta se solicita un anticipo del monto total a pagar de una factura.
+      .. warning:: 
+      
+         Es utilizado por la empresa cuando en una compra/venta se solicita un anticipo del monto total a pagar de una factura.
 
    2. **Comportamiento**
 
@@ -30976,8 +30646,9 @@ factura. Es definido según su comportamiento y explicado a continuación.
          del estándar de control y seguimiento establecido en ADempiere.
       -  Asocia un pago realizado o recibido a una factura determinada.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Compras| **Compras**
 ---------------------
@@ -31003,11 +30674,9 @@ que a continuación se describe.
       Es cuando se reciben los productos o servicios comprados a nivel
       nacional, es decir, en todo el territorio de Venezuela.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
+      .. warning:: 
+      
+         En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
 
    2. **Comportamiento**
 
@@ -31157,11 +30826,9 @@ que a continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de compras
          de ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Recepción Importación**
 
@@ -31172,11 +30839,9 @@ que a continuación se describe.
       los productos o servicios comprados para luego realizar la
       recepción de los mismos.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
+      .. warning:: 
+      
+         En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
 
    2. **Comportamiento**
 
@@ -31327,11 +30992,9 @@ que a continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de compras
          de ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 3. **Recepción Intercompañía**
 
@@ -31341,11 +31004,9 @@ que a continuación se describe.
       productos o servicios comprados a otras empresas pertenecientes al
       mismo consorcio.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
+      .. warning:: 
+      
+         En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
 
    2. **Comportamiento**
 
@@ -31496,11 +31157,9 @@ que a continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de compras
          de ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 4. **Recepción Empleado**
 
@@ -31510,11 +31169,9 @@ que a continuación se describe.
       compra a sus propios trabajadores. La recepción de la compra se
       realiza dentro de la emprea.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
+      .. warning:: 
+      
+         En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
 
    2. **Comportamiento**
 
@@ -31664,11 +31321,9 @@ que a continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de compras
          de ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 5. **Recepción Indirecta**
 
@@ -31678,11 +31333,9 @@ que a continuación se describe.
       determinado, pero se reciben los productos o servicios del
       proveedor.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
+      .. warning:: 
+      
+         En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
 
    2. **Comportamiento**
 
@@ -31832,11 +31485,9 @@ que a continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de compras
          de ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos Devolución de Compras**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -31854,11 +31505,9 @@ diferente que a continuación se describe.
       servicios adquiridos de proveedores ubicados dentro del territorio
       nacional.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
+      .. warning:: 
+      
+         En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
 
    2. **Comportamiento**
 
@@ -32022,11 +31671,9 @@ diferente que a continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de
          devoluciones de ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Devolución Proveedor Importación**
 
@@ -32036,11 +31683,9 @@ diferente que a continuación se describe.
       servicios adquiridos de proveedores ubicados fuera del territorio
       de Venezuela.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
+      .. warning:: 
+      
+         En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
 
    2. **Comportamiento**
 
@@ -32194,11 +31839,9 @@ diferente que a continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de
          devoluciones de ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 3. **Devolución Proveedor Intercompañía**
 
@@ -32208,11 +31851,9 @@ diferente que a continuación se describe.
       consorcio, los productos comprados o servicios adquiridos de la
       misma.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
+      .. warning:: 
+      
+         En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
 
    2. **Comportamiento**
 
@@ -32365,11 +32006,9 @@ diferente que a continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de
          devoluciones de ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 4. **Devolución Proveedor Empleado**
 
@@ -32378,11 +32017,9 @@ diferente que a continuación se describe.
       Se refiere a las devoluciones de productos comprados o servicios
       adquiridos de empleados de la misma empresa.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
+   .. warning:: 
+   
+      En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
 
    2. **Comportamiento**
 
@@ -32534,11 +32171,9 @@ diferente que a continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de
          devoluciones de ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 5. **Devolución Proveedor Indirecta**
 
@@ -32547,11 +32182,9 @@ diferente que a continuación se describe.
       Es cuando se devuelve al proveedor los productos comprados o
       servicios adquiridos de forma indirecta o con entrega indirecta.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
+      .. warning:: 
+      
+         En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
 
    2. **Comportamiento**
 
@@ -32703,11 +32336,9 @@ diferente que a continuación se describe.
       -  Aparece reflejado de manera ordenada en la gestión de
          devoluciones de ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Asignar OC| **Asignar OC**
 ---------------------------
@@ -32733,11 +32364,9 @@ factura.
       más recomendable es que se realice su proceso normal de asignación
       de orden de compra.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Todos los documentos de las ordenes de compra deben estar asignadas a las recepciones o facturas correspondientes cuando se realice el cierre de mes en la empresa.
+      .. warning:: 
+      
+         Todos los documentos de las ordenes de compra deben estar asignadas a las recepciones o facturas correspondientes cuando se realice el cierre de mes en la empresa.
 
    2. **Comportamiento**
 
@@ -32793,8 +32422,9 @@ factura.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento legal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Extracto Bancario| **Extracto Bancario**
 -----------------------------------------
@@ -32828,11 +32458,9 @@ y es explicado a continuación.
       Muchas veces es llamado cuadre de saldos porque se comprueba que
       las ventas cuadren exactamente con el dinero recibido.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          El cierre de caja debe hacerse diariamente en una empresa, así se puede apreciar el flujo financiero de la empresa.
+      .. warning:: 
+      
+         El cierre de caja debe hacerse diariamente en una empresa, así se puede apreciar el flujo financiero de la empresa.
 
    2. **Comportamiento**
 
@@ -32978,11 +32606,9 @@ y es explicado a continuación.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 2. **Extracto Bancario**
 
@@ -32994,11 +32620,9 @@ y es explicado a continuación.
       para comparar los reportes generados en el cierre caja de la
       misma, con el dinero disponible en la cuenta bancaria.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Mayormente el extracto bancario es generado mensualmente en las empresas, para los ultimos o primeros del mes.
+      .. warning:: 
+      
+         Mayormente el extracto bancario es generado mensualmente en las empresas, para los ultimos o primeros del mes.
 
    2. **Comportamiento**
 
@@ -33068,11 +32692,9 @@ y es explicado a continuación.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**"
-
-      ::
-
-          **No posee implicación fiscal por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Nómina| **Nómina**
 -------------------
@@ -33107,11 +32729,9 @@ actividades desempeñadas en la empresa.
        humanos que tenga los permisos necesarios para el proceso de
        nómina, la misma se debe cancelar quincenalmente.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
+      .. warning:: 
+      
+         En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
     2. **Comportamiento**
 
@@ -33268,11 +32888,9 @@ actividades desempeñadas en la empresa.
        -  Aparece reflejado de manera ordenada en la gestión de recursos
           humanos y nómina de ADempiere.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 104 y 529 donde se considera obligatorio lo siguiente:
+   4. **Implicación Fiscal**
+       
+      Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 104 y 529 donde se considera obligatorio lo siguiente:
 
            - **Artículo 104:** 
 
@@ -33300,11 +32918,9 @@ actividades desempeñadas en la empresa.
        humanos que tenga los permisos necesarios para el proceso de
        nómina.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
+      .. warning:: 
+      
+         En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
     2. **Comportamiento**
 
@@ -33456,11 +33072,9 @@ actividades desempeñadas en la empresa.
        -  Aparece reflejado de manera ordenada en la gestión de recursos
           humanos y nómina de ADempiere.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 98, 99, 100, 103, 104, 113, 123, 124, 126, 129 y 130 donde se considera obligatorio lo siguiente:
+   4. **Implicación Fiscal**
+       
+      Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 98, 99, 100, 103, 104, 113, 123, 124, 126, 129 y 130 donde se considera obligatorio lo siguiente:
 
            - **Artículo 98:**
 
@@ -33558,11 +33172,9 @@ actividades desempeñadas en la empresa.
        recursos humanos que tenga los permisos necesarios para el
        proceso de nómina.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
+      .. warning:: 
+      
+         En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
     2. **Comportamiento**
 
@@ -33715,11 +33327,9 @@ actividades desempeñadas en la empresa.
        -  Aparece reflejado de manera ordenada en la gestión de recursos
           humanos y nómina de ADempiere.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 98, 99, 100, 103, 104, 113, 123, 124, 126, 129 y 130 donde se considera obligatorio lo siguiente: donde se estipula.
+   4. **Implicación Fiscal**
+       
+      Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 98, 99, 100, 103, 104, 113, 123, 124, 126, 129 y 130 donde se considera obligatorio lo siguiente: donde se estipula.
 
            - **Artículo 98:**
 
@@ -33817,11 +33427,9 @@ actividades desempeñadas en la empresa.
        humanos que tenga los permisos necesarios para el proceso de
        nómina.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
+      .. warning:: 
+      
+         En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
     2. **Comportamiento**
 
@@ -33973,11 +33581,9 @@ actividades desempeñadas en la empresa.
        -  Aparece reflejado de manera ordenada en la gestión de recursos
           humanos y nómina de ADempiere.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 98, 99, 100, 103, 104, 113, 123, 124, 126, 129 y 130 donde se considera obligatorio lo siguiente: donde se estipula.
+   4. **Implicación Fiscal**
+       
+      Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 98, 99, 100, 103, 104, 113, 123, 124, 126, 129 y 130 donde se considera obligatorio lo siguiente: donde se estipula.
 
            - **Artículo 98:**
 
@@ -34073,11 +33679,9 @@ actividades desempeñadas en la empresa.
        los trabajadores por motivo de aumento salarial decretado a mitad
        de mes, vigente desde el inicio del mes.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
+      .. warning:: 
+      
+         En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
     2. **Comportamiento**
 
@@ -34231,11 +33835,9 @@ actividades desempeñadas en la empresa.
        -  Aparece reflejado de manera ordenada en la gestión de recursos
           humanos y nómina de ADempiere.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en su artículo 433 donde se considera obligatorio lo siguiente: donde se estipula.
+   4. **Implicación Fiscal**
+      
+      Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en su artículo 433 donde se considera obligatorio lo siguiente: donde se estipula.
 
            - **Artículo 433:**
 
@@ -34253,11 +33855,9 @@ actividades desempeñadas en la empresa.
        mismas y el número de días aumentará hasta llegar a treinta (30)
        días.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
+      .. warning:: 
+      
+         En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
     2. **Comportamiento**
 
@@ -34411,11 +34011,9 @@ actividades desempeñadas en la empresa.
        -  Aparece reflejado de manera ordenada en la gestión de recursos
           humanos y nómina de ADempiere.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 104, 121, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 203, 236, 254 y 533 donde se considera obligatorio lo siguiente: donde se estipula.
+   4. **Implicación Fiscal**
+       
+      Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 104, 121, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 203, 236, 254 y 533 donde se considera obligatorio lo siguiente: donde se estipula.
 
            - **Artículo 104:**
 
@@ -34564,11 +34162,9 @@ actividades desempeñadas en la empresa.
        La empresa cancela el acumulado de este apartado cuando el
        trabajador se retira de la empresa.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
+      .. warning:: 
+      
+         En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
     2. **Comportamiento**
 
@@ -34724,11 +34320,9 @@ actividades desempeñadas en la empresa.
        -  Aparece reflejado de manera ordenada en la gestión de recursos
           humanos y nómina de ADempiere.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 92, 93, 122, 128, 130, 141, 142, 143, 144 y 147 donde se considera obligatorio lo siguiente: donde se estipula.
+   4. **Implicación Fiscal**
+       
+      Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 92, 93, 122, 128, 130, 141, 142, 143, 144 y 147 donde se considera obligatorio lo siguiente: donde se estipula.
 
            - **Artículo 92:** 
 
@@ -34835,11 +34429,9 @@ actividades desempeñadas en la empresa.
        productos o servicios en el año. El pago de las utilidades varía
        en los trabajadores según su antigüedad en la empresa.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
+      .. warning:: 
+      
+         En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
     2. **Comportamiento**
 
@@ -34992,11 +34584,9 @@ actividades desempeñadas en la empresa.
        -  Aparece reflejado de manera ordenada en la gestión de recursos
           humanos y nómina de ADempiere.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 104, 131, 132, 133, 137, 138 y 139 donde se considera obligatorio lo siguiente: donde se estipula.
+   4. **Implicación Fiscal**
+       
+      Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 104, 131, 132, 133, 137, 138 y 139 donde se considera obligatorio lo siguiente: donde se estipula.
 
            - **Artículo 104:** 
 
@@ -35053,11 +34643,9 @@ actividades desempeñadas en la empresa.
        estipulado en la ley que la empresa le cancela a sus trabajadores
        como bonificación por rendimiento, entre otros motivos.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
+      .. warning:: 
+      
+         En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
     2. **Comportamiento**
 
@@ -35213,11 +34801,9 @@ actividades desempeñadas en la empresa.
        -  Aparece reflejado de manera ordenada en la gestión de recursos
           humanos y nómina de ADempiere.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 132, 140 y 530 donde se considera obligatorio lo siguiente: donde se estipula.
+   4. **Implicación Fiscal**
+       
+      Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 132, 140 y 530 donde se considera obligatorio lo siguiente: donde se estipula.
 
            - **Artículo 132:** 
 
@@ -35246,11 +34832,9 @@ actividades desempeñadas en la empresa.
        otros. Las empresas que pagan esta nómina, lo hacen como
        incentivo para que sus trabajadores se motiven a seguir.
 
-       !!! warning "**Importancia**"
-
-       ::
-
-           En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
+      .. warning:: 
+      
+         En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
     2. **Comportamiento**
 
@@ -35404,11 +34988,9 @@ actividades desempeñadas en la empresa.
        -  Aparece reflejado de manera ordenada en la gestión de recursos
           humanos y nómina de ADempiere.
 
-       ??? info "**Implicación Fiscal**"
-
-       ::
-
-           Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 104 y 110 donde se considera obligatorio lo siguiente: donde se estipula.
+   4. **Implicación Fiscal**
+       
+      Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 104 y 110 donde se considera obligatorio lo siguiente: donde se estipula.
 
            - **Artículo 104:** 
 
@@ -35451,11 +35033,9 @@ nóminas, ya que esta es muy delicada.
       cuentas por pagar se seleccionan las nóminas a pagar, para que
       luego se pueda proceder al pago de la selección de pagos nómina.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          El proceso del tipo de documento de selección de pagos nómina es diferente al proceso de selección de pagos de cuentas por pagar y del proceso de pago como tal.
+      .. warning:: 
+      
+         El proceso del tipo de documento de selección de pagos nómina es diferente al proceso de selección de pagos de cuentas por pagar y del proceso de pago como tal.
 
    2. **Comportamiento**
 
@@ -35607,8 +35187,9 @@ nóminas, ya que esta es muy delicada.
       -  Permite controlar los saldos abiertos de la empresa, por medio
          del estándar de control y seguimiento establecido en ADempiere.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Orden de Mantenimiento| **Orden de Mantenimiento**
 ---------------------------------------------------
@@ -35637,11 +35218,9 @@ comportamiento y explicado a continuación.
       o equipo debe realizar el mantenimiento, donde se encuentra
       ubicado y que tareas especificas debe realizar.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Cada uno de los datos incluidos en la orden de mantenimiento permite realizar el mismo de una manera eficiente, de igual manera, la elaboración del documento permite llevar un control de los diferentes mantenimientos realizados.
+      .. warning:: 
+      
+         Cada uno de los datos incluidos en la orden de mantenimiento permite realizar el mismo de una manera eficiente, de igual manera, la elaboración del documento permite llevar un control de los diferentes mantenimientos realizados.
 
    2. **Comportamiento**
 
@@ -35785,8 +35364,9 @@ comportamiento y explicado a continuación.
       -  Permite calcular y cancelar los costos correspondientes al
          mantenimiento.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento fiscal.**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Depreciación de Activos| **Depreciación de Activos**
 -----------------------------------------------------
@@ -35812,11 +35392,9 @@ especificado a continuación.
       realizado por medio de variantes como los ingresos generados y el
       costo que requiere para mejorar.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          Los activos pertenecientes a una misma clasificación deben depreciarse con el mismo metodo utilizado desde el principio.
+      .. warning:: 
+      
+         Los activos pertenecientes a una misma clasificación deben depreciarse con el mismo metodo utilizado desde el principio.
 
    2. **Comportamiento**
 
@@ -35965,8 +35543,9 @@ especificado a continuación.
       -  Permite su contabilización en la moneda nacional vigente del
          momento de la emisión del documento.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento legal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Adición de Activos| **Adición de Activos**
 -------------------------------------------
@@ -35995,11 +35574,9 @@ según su comportamiento explicado a continuación.
       activos de la empresa con la finalidad de cambiar su desempeño
       productivo o mejorarlo para beneficio económico de la empresa.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          La mejora de los activos de la empresa es una inversión a futuro cuando de maquinaria se trata.
+      .. warning:: 
+      
+         La mejora de los activos de la empresa es una inversión a futuro cuando de maquinaria se trata.
 
    2. **Comportamiento**
 
@@ -36147,8 +35724,9 @@ según su comportamiento explicado a continuación.
       -  Permite su contabilización en la moneda nacional vigente del
          momento de la emisión del documento.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento legal**
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 
 |Venta de Activos| **Venta de Activos**
 ---------------------------------------
@@ -36175,11 +35753,9 @@ definido según su comportamiento especificado a continuación.
       los activos de la empresa, independientemente del motivo que esta
       tenga.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          La venta de los activos siempre va a depender de la generación de ingresos, el tiempo de vida util o la oportunidad de adquirir un activo mejor.
+      .. warning:: 
+      
+         La venta de los activos siempre va a depender de la generación de ingresos, el tiempo de vida util o la oportunidad de adquirir un activo mejor.
 
    2. **Comportamiento**
 
@@ -36327,9 +35903,9 @@ definido según su comportamiento especificado a continuación.
       -  Permite adquirir un activo más competente y que genere a la
          empresa y mayor ingreso monetario.
 
-      !!! info "**Implicación Fiscal**" **No posee implicación fiscal
-      por no ser un documento legal**
-
+   4. **Implicación Fiscal**
+      
+      No posee implicación fiscal por no ser un documento legal.
 |Nota de Contabilidad| **Nota de Contabilidad**
 -----------------------------------------------
 
@@ -36359,11 +35935,9 @@ la misma.
       sobre todo las firmas de los involucrados como lo son el que
       elaboró, revisó, aprobó y contabilizó el documento.
 
-      !!! warning "**Importancia**"
-
-      ::
-
-          La numeración de una nota de contabilidad debe ser consecutiva para cada una de las diferentes operaciones por las cuales la empresa emite la misma.
+      .. warning:: 
+      
+         La numeración de una nota de contabilidad debe ser consecutiva para cada una de las diferentes operaciones por las cuales la empresa emite la misma.
 
    2. **Comportamiento**
 
@@ -36507,11 +36081,9 @@ la misma.
       -  Permite reflejar la operación en la contabilización de la
          empresa.
 
-      ??? info "**Implicación Fiscal**"
-
-      ::
-
-          Basado en el código de comercio, publicado en gaceta oficial n°475 del 21 de diciembre de 1955, donde estipula en su artículo 32 lo siguiente:
+   4. **Implicación Fiscal**
+      
+      Basado en el código de comercio, publicado en gaceta oficial n°475 del 21 de diciembre de 1955, donde estipula en su artículo 32 lo siguiente:
 
           **Artículo 32:**
 
@@ -36519,34 +36091,4 @@ la misma.
 
           Podrá llevar, además, todos los libros auxiliares que estimara conveniente para el mayor orden y claridad de sus operaciones. 
 
-.. |Orden de Calidad| image:: ../img/certificado.png
-.. |Insumo del Proyecto| image:: ../img/insumo.jpeg
-.. |Orden de Producción Planeada| image:: ../img/nuevo1.png
-.. |Orden de Manufactura| image:: ../img/nuevo1.png
-.. |Producción| image:: ../img/produccion.jpg
-.. |Inventario| image:: ../img/inventario.png
-.. |Orden de Distribución| image:: ../img/certificado.png
-.. |Movimiento de Material| image:: ../img/movimientointerno.png
-.. |Orden de Venta| image:: ../img/orden.png
-.. |Cuentas por Cobrar| image:: ../img/cuentas.png
-.. |Nota de Crédito de Cuentas por Cobrar| image:: ../img/nota.png
-.. |Cobros| image:: ../img/cobro.jpg
-.. |Ventas| image:: ../img/venta.png
-.. |Requisición| image:: ../img/requisiciones.jpeg
-.. |Orden de Compra| image:: ../img/orden.png
-.. |Cuentas por Pagar| image:: ../img/cuentas.png
-.. |Nota de Crédito de Cuentas por Pagar| image:: ../img/nota.png
-.. |Comisión de Ventas| image:: ../img/comision.png
-.. |Selección de Pago de Cuentas por Pagar| image:: ../img/seleccion.jpg
-.. |Pagos| image:: ../img/pago.png
-.. |Asignación de Pagos| image:: ../img/asignacion.png
-.. |Compras| image:: ../img/compra.jpg
-.. |Asignar OC| image:: ../img/seleccion.jpg
-.. |Extracto Bancario| image:: ../img/extracto.jpeg
-.. |Nómina| image:: ../img/nomina.png
-.. |Selección de Pago Nómina| image:: ../img/seleccion.jpg
-.. |Orden de Mantenimiento| image:: ../img/mantenimiento.jpeg
-.. |Depreciación de Activos| image:: ../img/depreciacion.jpeg
-.. |Adición de Activos| image:: ../img/adicion.jpeg
-.. |Venta de Activos| image:: ../img/activos.jpeg
-.. |Nota de Contabilidad| image:: ../img/nota.png
+
