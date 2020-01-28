@@ -1280,12 +1280,9 @@ En ADempiere el tipo de documento cotización y propuesta utiliza como documento
 **Tipos de Documentos Autorización de Devolución de Ventas**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Es un documento que se elabora cuando algún departamento de la empresa
-necesita realizar la devolución de uno, varios, o todos los productos de
-la venta realizada, independientemente de los motivos que conllevan a la
-devolución requerida.
+Es un documento que se elabora cuando algún departamento de la empresa necesita realizar la devolución de uno, varios, o todos los productos de la venta realizada, independientemente de los motivos que conllevan a la devolución requerida.
 
-1. **Autorización Devolución Proveedor Nacional**
+#. **Autorización Devolución Proveedor Nacional**
 
    1. **Definición**
 

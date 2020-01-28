@@ -20,7 +20,7 @@
   color: #bbb;
 }
 
-wy-table-responsive {
+.docutils > .row-even > td {
     white-space: normal !important;
 }
 
