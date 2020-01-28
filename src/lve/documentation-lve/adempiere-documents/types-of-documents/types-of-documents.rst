@@ -455,20 +455,20 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
       |Tipo de Documento Base: |Inventario Físico |Genera un documento de **Inventario de Uso**      |
-      |                        |   del Material   |**Interno Obsequio** a la empresa.                |
+      |                        |del Material      |**Interno Obsequio** a la empresa.                |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
       |Secuencia del Documento:|Inventario de Uso |Genera el número de secuencia establecida para el |
-      |                        | Interno Obsequio |orden de los tipos de documentos de ADempiere,    |
+      |                        |Interno Obsequio  |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**IUIO-**".       |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
-      | Interno:               |        Si        |Pertenece a consumos realizados internamente en la|
+      | Interno:               |Si                |Pertenece a consumos realizados internamente en la|
       |                        |                  |empresa.                                          |
       +------------------------+------------------+--------------------------------------------------+
 
