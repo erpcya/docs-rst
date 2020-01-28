@@ -24,7 +24,7 @@
 .. |Extracto Bancario| image:: resources/extracto.jpeg
 .. |Nómina| image:: resources/nomina.png
 .. |Selección de Pago Nómina| image:: resources/seleccion.jpg
-.. |Orden de Mantenimiento| image:: resources/mantenimiento.jpeg
+.. |Orden de Mantenimiento| image:: reso       urces/mantenimiento.jpeg
 .. |Depreciación de Activos| image:: resources/depreciacion.jpeg
 .. |Adición de Activos| image:: resources/adicion.jpeg
 .. |Venta de Activos| image:: resources/activos.jpeg
@@ -61,18 +61,18 @@ En ADempiere una orden de calidad refleja los lineamientos que debe cumplir el d
       +------------------------+-----------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**    | **Comportamiento en ADempiere**                  |
       +========================+=================+==================================================+
-      | Tipo de Documento Base:| Orden de Calidad| Genera una **Orden de Calidad** a una empresa.   |
+      | Tipo de Documento Base:|Orden de Calidad | Genera una **Orden de Calidad** a una empresa.   |
       +------------------------+-----------------+--------------------------------------------------+
-      | Documento Controlado:  |       Si        | Mantiene una **Secuencia de Control**.           |
+      | Documento Controlado:  |Si               | Mantiene una **Secuencia de Control**.           |
       +------------------------+-----------------+--------------------------------------------------+
-      |Secuencia del Documento:| Orden de Calidad|Genera el número de secuencia establecido para el |
+      |Secuencia del Documento:|Orden de Calidad |Genera el número de secuencia establecido para el |
       |                        |                 |orden de los tipos de documentos de ADempiere,    |
       |                        |                 |configurado en la secuencia de documentos y es    |
       |                        |                 |incrementable en 1, en este caso la secuencia     |
       |                        |                 |comienza en 87.000 y su prefijo esta compuesto por|
       |                        |                 |las iniciales de su nombre "**ORC-**".            |
       +------------------------+-----------------+--------------------------------------------------+
-      | Copias del Documento:  |        1        | Establece el número de copias a imprimir.        |
+      | Copias del Documento:  |1                | Establece el número de copias a imprimir.        |
       +------------------------+-----------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -173,7 +173,7 @@ En ADempiere el documento permite ayudar al departamento de producción de la em
       | Tipo de Documento Base:|Insumo de Proyecto|Genera un documento de **Insumo de Proyecto** a   |
       |                        |                  |una empresa.                                      |
       +------------------------+------------------+--------------------------------------------------+
-      | Copias del Documento:  |         1        | Establece el número de copias a imprimir.        |
+      | Copias del Documento:  |1                 | Establece el número de copias a imprimir.        |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -218,9 +218,9 @@ En ADempiere este tipo de documento permite generar al departamento de producci�
       |Tipo de Documento Base: |Manufacturing     |Genera un documento de **Orden de Producción**    |
       |                        |Planned           |**Planeada** a la empresa.                        |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |         Si       |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |         1        |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -260,19 +260,19 @@ En ADempiere una orden de manufactura autoriza la producción en planta y espec�
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |     Orden de     |Genera un documento de **Orden de Manufactura** a |
-      |                        |   Manufactura    |la empresa.                                       |
+      |Tipo de Documento Base: |Orden de          |Genera un documento de **Orden de Manufactura** a |
+      |                        |Manufactura       |la empresa.                                       |
       +------------------------+------------------+--------------------------------------------------+
-      | Documento Controlado:  |        Si        |Mantiene una **Secuencia de Control**.            |
+      | Documento Controlado:  |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:|     Orden de     |Genera el número de secuencia establecido para el |
-      |                        |   Manufactura    |orden de los tipo de documentos de ADempiere,     |
+      |Secuencia del Documento:|Orden de          |Genera el número de secuencia establecido para el |
+      |                        |Manufactura       |orden de los tipo de documentos de ADempiere,     |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 80.000 y su prefijo esta compuesto por|
       |                        |                  |las iniciales de su nombre "**OM-**".             |
       +------------------------+------------------+--------------------------------------------------+
-      | Copias del Documento:  |        1         |Establece el número de copias a imprimir.         |
+      | Copias del Documento:  |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -318,15 +318,15 @@ En ADempiere una producción de material define los productos o servicios elabor
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |  Producción de   |Genera un documento de **Producción de Material** |
-      |                        |     Material     |a la empresa.                                     |
+      |Tipo de Documento Base: |Producción de     |Genera un documento de **Producción de Material** |
+      |                        |Material          |a la empresa.                                     |
       +------------------------+------------------+--------------------------------------------------+
       |Copiar Número de        |                  |**Copia el número de documento en el reverso** en |
-      |Documento en Reverso:   |       Si         |lugar de generar un nuevo número agregándole el   |
+      |Documento en Reverso:   |Si                |lugar de generar un nuevo número agregándole el   |
       |                        |                  |símbolo **^** al final del número de documento,   |
       |                        |                  |además el monto del documento pasa a **negativo**.|
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
