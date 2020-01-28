@@ -66,11 +66,11 @@ En ADempiere una orden de calidad refleja los lineamientos que debe cumplir el d
       | Documento Controlado:  |       Si        | Mantiene una **Secuencia de Control**.           |
       +------------------------+-----------------+--------------------------------------------------+
       |Secuencia del Documento:| Orden de Calidad|Genera el número de secuencia establecido para el +
-      |                        |                 |orden de los tipos de documentos de ADempiere,    |
-      |                        |                 |configurado en la secuencia de documentos y es    |
-      |                        |                 |incrementable en 1, en este caso la secuencia     |
-      |                        |                 |comienza en 87.000 y su prefijo esta compuesto por|
-      |                        |                 |las iniciales de su nombre "**ORC-**".            |
+      +                        +                 +orden de los tipos de documentos de ADempiere,    +
+      +                        +                 +configurado en la secuencia de documentos y es    +
+      +                        +                 +incrementable en 1, en este caso la secuencia     +
+      +                        +                 +comienza en 87.000 y su prefijo esta compuesto por+
+      +                        +                 +las iniciales de su nombre "**ORC-**".            |
       +------------------------+-----------------+--------------------------------------------------+
       | Copias del Documento:  |        1        | Establece el número de copias a imprimir.        |
       +------------------------+-----------------+--------------------------------------------------+
