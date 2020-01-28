@@ -20,7 +20,7 @@
   color: #bbb;
 }
 
-.docutils > .row-even > td {
+.docutils > tr > td {
     white-space: normal !important;
 }
 
