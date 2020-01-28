@@ -66,10 +66,15 @@ En ADempiere una orden de calidad refleja los lineamientos que debe cumplir el d
       | Documento Controlado:  |       Si        | Mantiene una **Secuencia de Control**.           |
       +------------------------+-----------------+--------------------------------------------------+
       |Secuencia del Documento:| Orden de Calidad| Genera el número de secuencia establecido para   |
+      +------------------------+-----------------+--------------------------------------------------+
       |                                          |el orden de los tipos de documentos de ADempiere, |
+      +------------------------+-----------------+--------------------------------------------------+
       |                                          |configurado en la secuencia de documentos y es    |
+      +------------------------+-----------------+--------------------------------------------------+
       |                                          |incrementable en 1, en este caso la secuencia     |
+      +------------------------+-----------------+--------------------------------------------------+
       |                                          |comienza en 87.000 y su prefijo esta compuesto por|
+      +------------------------+-----------------+--------------------------------------------------+
       |                                          |las iniciales de su nombre "**ORC-**".            |
       +------------------------+-----------------+--------------------------------------------------+
       | Copias del Documento:  |        1        | Establece el número de copias a imprimir.        |
@@ -416,7 +421,21 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       |                        |   del Material   |**Material** a la empresa.                        |
       +------------------------+------------------+--------------------------------------------------+
       |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
-      +------------------------+------------------+--------------------------------------------------+
+      +---------------------
+      | Copi | 1     | Esta |
+      | as   |       | blec |
+      | del  |       | e    |
+      | Docu |       | el   |
+      | ment |       | núme |
+      | o:   |       | ro   |
+      |      |       | de   |
+      |      |       | copi |
+      |      |       | as   |
+      |      |       | a    |
+      |      |       | impr |
+      |      |       | imir |
+      |      |       | .    |
+      +------+-------+------+---+------------------+--------------------------------------------------+
       |Secuencia del Documento:|Inventario Físico |Genera el número de secuencia establecida para el |
       |                        |    de Material   |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
@@ -437,7 +456,21 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Inventario de Uso Interno Obsequio**
+#. **Inventario de Uso Inter
+      | Copi | 1     | Esta |
+      | as   |       | blec |
+      | del  |       | e    |
+      | Docu |       | el   |
+      | ment |       | núme |
+      | o:   |       | ro   |
+      |      |       | de   |
+      |      |       | copi |
+      |      |       | as   |
+      |      |       | a    |
+      |      |       | impr |
+      |      |       | imir |
+      |      |       | .    |
+      +------+-------+------+no Obsequio**
 
    #. **Definición**
 
@@ -614,7 +647,6 @@ En ADempiere se utilizan dos (2) diferentes documentos de orden de distribución
       |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
-
    #. **Implicación en ADempiere**
 
       -  Autoriza el movimiento de los productos o servicios dentro de los almacenes de la empresa.
@@ -707,23 +739,6 @@ En ADempiere, cada movimiento de material realizado es utilizado para controlar 
       |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
-
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
-
    #. **Implicación en ADempiere**
 
       -  Refleja en ADempiere el movimiento físico de los productos o servicios dentro de los almacenes de la empresa.
@@ -751,131 +766,20 @@ En ADempiere, cada movimiento de material realizado es utilizado para controlar 
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      | Tipo | Movim | Gene |
-      | de   | iento | ra   |
-      | Docu | de    | un   |
-      | ment | Mater | docu |
-      | o    | ial   | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Mo |
-      |      |       | vimi |
-      |      |       | ento |
-      |      |       | de   |
-      |      |       | Mate |
-      |      |       | rial |
-      |      |       | Exte |
-      |      |       | rno* |
-      |      |       | *    |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Movim | Gene |
-      | enci | iento | ra   |
-      | a    | de    | el   |
-      | del  | Mater | núme |
-      | Docu | ial   | ro   |
-      | ment | Exter | de   |
-      | o:   | no    | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**M |
-      |      |       | ME-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      |Tipo de Documento Base: |   Movimiento de  |Genera un documento de **Movimiento de Material** |
+      |                        |      Material    |**Externo** a la empresa.                         |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|   Movimiento de  |Genera el número de secuencia establecida para el |
+      |                        |      Material    |orden de los tipos de documentos de ADempiere,    |
+      |                        |      Externo     |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**MME-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
 
@@ -918,176 +822,25 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Venta | un   |
-      | ment | s     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Vent |
-      |      |       | a    |
-      |      |       | Naci |
-      |      |       | onal |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Sub  | Orden | Apli |
-      | tipo | Están | ca   |
-      | OV:  | dar   | el   |
-      |      |       | comp |
-      |      |       | orta |
-      |      |       | mien |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | una  |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | está |
-      |      |       | ndar |
-      |      |       | dent |
-      |      |       | ro   |
-      |      |       | del  |
-      |      |       | sist |
-      |      |       | ema, |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | gene |
-      |      |       | ra   |
-      |      |       | rese |
-      |      |       | rva. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Venta | el   |
-      | del  | Nacio | núme |
-      | Docu | nal   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | VN-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden de Venta Nacional**|
+      |                        |                  |a un socio del negocio tipo cliente.              |
+      +------------------------+------------------+--------------------------------------------------+
+      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar    |
+      |                        |                  |dentro del sistema, en este caso genera reserva.  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|  Orden de Venta  |Genera el número de secuencia establecida para el |
+      |                        |      Nacional    |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**OVN-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
 
@@ -1114,180 +867,28 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
 
       En ADempiere la orden de venta exportación se define según su comportamiento, a continuación se explica el proceder de **Orden de Venta Exportación**:
 
-      +------------------------+------------------+--------------------------------------------------+
-      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
-      +========================+==================+==================================================+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Venta | un   |
-      | ment | s     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Vent |
-      |      |       | a    |
-      |      |       | Expo |
-      |      |       | rtac |
-      |      |       | ión* |
-      |      |       | *    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Sub  | Orden | Apli |
-      | tipo | Están | ca   |
-      | OV:  | dar   | el   |
-      |      |       | comp |
-      |      |       | orta |
-      |      |       | mien |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | una  |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | está |
-      |      |       | ndar |
-      |      |       | dent |
-      |      |       | ro   |
-      |      |       | del  |
-      |      |       | sist |
-      |      |       | ema, |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | gene |
-      |      |       | ra   |
-      |      |       | rese |
-      |      |       | rva. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Venta | el   |
-      | del  | Expor | núme |
-      | Docu | tacio | ro   |
-      | ment | nes   | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | VE-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+-----------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                     |
+      +========================+==================+=====================================================+
+      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden de Venta Exportación**|
+      |                        |                  |a un socio del negocio tipo cliente.                 |
+      +------------------------+------------------+-----------------------------------------------------+
+      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar       |
+      |                        |                  |dentro del sistema, en este caso genera reserva.     |
+      +------------------------+------------------+-----------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.               |
+      +------------------------+------------------+-----------------------------------------------------+
+      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.        |
+      +------------------------+------------------+-----------------------------------------------------+
+      |Secuencia del Documento:|  Orden de Venta  |Genera el número de secuencia establecida para el    |
+      |                        |  Exportaciones   |orden de los tipos de documentos de ADempiere,       |
+      |                        |                  |configurado en la secuencia de documentos y es       |
+      |                        |                  |incrementable en 1, en este caso la secuencia        |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto    |
+      |                        |                  |por las iniciales de su nombre "**OVE-**".           |
+      +------------------------+------------------+-----------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.            |
+      +------------------------+------------------+-----------------------------------------------------+
 
    #. **Implicación en ADempiere**
 
@@ -1300,63 +901,44 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       
       No posee implicación fiscal por no ser un documento legal.
 
-3. **Orden de Venta Intercompañía**
+#. **Orden de Venta Intercompañía**
 
-   1. **Definición**
+   #. **Definición**
 
-      Una orden de venta intercompañía, es realizada cuando se venden
-      los productos o servicios de una empresa a otra, pertenecientes a
-      un mismo consorcio. Este documento es emitido en moneda nacional
-      si la empresa se encuentra dentro del territorio de Venezuela o
-      extranjera si la empresa se encuentra fuera del territorio de
-      Venezuela.
+      Una orden de venta intercompañía, es realizada cuando se venden los productos o servicios de una empresa a otra, pertenecientes a un mismo consorcio. Este documento es emitido en moneda nacional si la empresa se encuentra dentro del territorio de Venezuela o extranjera si la empresa se encuentra fuera del territorio de Venezuela.
 
       .. warning:: 
       
          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la orden de venta intercompañía se define según su
-      comportamiento, a continuación se explica el proceder de **Orden
-      de Venta Intercompañía**:
+      En ADempiere la orden de venta intercompañía se define según su comportamiento, a continuación se explica el proceder de **Orden de Venta Intercompañía**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Venta | un   |
-      | ment | s     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Vent |
-      |      |       | a    |
-      |      |       | Inte |
-      |      |       | rcom |
-      |      |       | pañí |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden de Venta**         |
+      |                        |                  |**Intercompañía** a un socio del negocio tipo     |
+      |                        |                  |cliente.                                          |
+      +------------------------+------------------+--------------------------------------------------+
+      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar    |
+      |                        |                  |dentro del sistema, en este caso genera reserva.  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|  Orden de Venta  |Genera el número de secuencia establecida para el |
+      |                        |      Nacional    |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**OVN-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
+
       | Sub  | Orden | Apli |
       | tipo | Están | ca   |
       | OV:  | dar   | el   |
