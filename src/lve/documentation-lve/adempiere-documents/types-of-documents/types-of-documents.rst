@@ -215,8 +215,8 @@ En ADempiere este tipo de documento permite generar al departamento de producci�
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |   Manufacturing  |Genera un documento de **Orden de Producción**    |
-      |                        |       Planned    |**Planeada** a la empresa.                        |
+      |Tipo de Documento Base: |Manufacturing     |Genera un documento de **Orden de Producción**    |
+      |                        |Planned           |**Planeada** a la empresa.                        |
       +------------------------+------------------+--------------------------------------------------+
       |Documento Controlado:   |         Si       |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
