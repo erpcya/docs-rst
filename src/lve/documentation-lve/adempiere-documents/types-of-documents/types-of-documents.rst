@@ -601,7 +601,6 @@ En ADempiere se utilizan dos (2) diferentes documentos de orden de distribución
       +========================+==================+==================================================+
       |Tipo de Documento Base: |     Orden de     |Genera un documento de **Orden de Distribución**  |
       |                        |   Distribución   |**Interna** a la empresa.                         |
-      |                        |      Interna     |                                                  |
       +------------------------+------------------+--------------------------------------------------+
       |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
@@ -642,131 +641,20 @@ En ADempiere se utilizan dos (2) diferentes documentos de orden de distribución
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Distr | un   |
-      | ment | ibuci | docu |
-      | o    | ón    | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Dist |
-      |      |       | ribu |
-      |      |       | ción |
-      |      |       | Exte |
-      |      |       | rna* |
-      |      |       | *    |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Distr | el   |
-      | del  | ibuci | núme |
-      | Docu | ón    | ro   |
-      | ment | Exter | de   |
-      | o:   | na    | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | DE-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      |Tipo de Documento Base: |     Orden de     |Genera un documento de **Orden de Distribución**  |
+      |                        |   Distribución   |**Externa** a la empresa.                         |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|     Orden de     |Genera el número de secuencia establecida para el |
+      |                        |   Distribución   |orden de los tipos de documentos de ADempiere,    |
+      |                        |      Externa     |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**ODE-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
 
@@ -804,116 +692,22 @@ En ADempiere, cada movimiento de material realizado es utilizado para controlar 
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      | Tipo | Movim | Gene |
-      | de   | iento | ra   |
-      | Docu | de    | un   |
-      | ment | Mater | docu |
-      | o    | ial   | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Mo |
-      |      |       | vimi |
-      |      |       | ento |
-      |      |       | de   |
-      |      |       | Mate |
-      |      |       | rial |
-      |      |       | Inte |
-      |      |       | rno* |
-      |      |       | *    |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Movim | Gene |
-      | enci | iento | ra   |
-      | a    | de    | el   |
-      | del  | Mater | núme |
-      | Docu | ial   | ro   |
-      | ment | Inter | de   |
-      | o:   | no    | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**M |
-      |      |       | MI-* |
-      |      |       | *".  |
+      |Tipo de Documento Base: |   Movimiento de  |Genera un documento de **Movimiento de Material** |
+      |                        |      Material    |**Interno** a la empresa.                         |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|   Movimiento de  |Genera el número de secuencia establecida para el |
+      |                        |      Material    |orden de los tipos de documentos de ADempiere,    |
+      |                        |      Interno     |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**MMI-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
+
+
       +------+-------+------+
       | Copi | 1     | Esta |
       | as   |       | blec |
