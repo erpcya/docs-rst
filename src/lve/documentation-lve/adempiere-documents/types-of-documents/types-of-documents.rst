@@ -413,32 +413,18 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
       |Tipo de Documento Base: |Inventario Físico |Genera un documento de **Inventario Físico de**   |
-      |                        |   del Material   |**Material** a la empresa.                        |
+      |                        |del Material      |**Material** a la empresa.                        |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
-      +---------------------
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+---+------------------+--------------------------------------------------+
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
       |Secuencia del Documento:|Inventario Físico |Genera el número de secuencia establecida para el |
-      |                        |    de Material   |orden de los tipos de documentos de ADempiere,    |
+      |                        |de Material       |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.005 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**IFM-**".        |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -451,21 +437,7 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Inventario de Uso Inter
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+no Obsequio**
+#. **Inventario de Uso Interno Obsequio**
 
    #. **Definición**
 
