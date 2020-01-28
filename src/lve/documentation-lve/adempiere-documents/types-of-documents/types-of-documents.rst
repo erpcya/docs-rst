@@ -925,1588 +925,355 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
       +------------------------+------------------+--------------------------------------------------+
       |Secuencia del Documento:|  Orden de Venta  |Genera el número de secuencia establecida para el |
-      |                        |      Nacional    |orden de los tipos de documentos de ADempiere,    |
+      |                        |   Intercompañía  |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
-      |                        |                  |por las iniciales de su nombre "**OVN-**".        |
+      |                        |                  |por las iniciales de su nombre "**OVIC-**".       |
       +------------------------+------------------+--------------------------------------------------+
       |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
-      | Sub  | Orden | Apli |
-      | tipo | Están | ca   |
-      | OV:  | dar   | el   |
-      |      |       | comp |
-      |      |       | orta |
-      |      |       | mien |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | una  |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | está |
-      |      |       | ndar |
-      |      |       | dent |
-      |      |       | ro   |
-      |      |       | del  |
-      |      |       | sist |
-      |      |       | ema, |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | gene |
-      |      |       | ra   |
-      |      |       | rese |
-      |      |       | rva. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Venta | el   |
-      | del  | Inter | núme |
-      | Docu | compa | ro   |
-      | ment | ñía   | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | VIC- |
-      |      |       | **". |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+   #. **Implicación en ADempiere**
 
-   3. **Implicación en ADempiere**
+      -  Permite su contabilización cuando la compañía se encuentre configurada para contabilizar compromisos.
+      -  Disminuye la cantidad de productos disponibles en el almacén y aumenta la cantidad reservada.
+      -  Permite generar entregas de productos o servicios a clientes de otras empresas, pertenecientes a un mismo consorcio por medio de esta.
+      -  Permite generar facturas de ventas a clientes de otras empresas, pertenecientes a un mismo consorcio por medio de esta.
 
-      -  Permite su contabilización cuando la compañía se encuentre
-         configurada para contabilizar compromisos.
-      -  Disminuye la cantidad de productos disponibles en el almacén y
-         aumenta la cantidad reservada.
-      -  Permite generar entregas de productos o servicios a clientes de
-         otras empresas, pertenecientes a un mismo consorcio por medio
-         de esta.
-      -  Permite generar facturas de ventas a clientes de otras
-         empresas, pertenecientes a un mismo consorcio por medio de
-         esta.
-
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-4. **Orden de Venta Empleado**
+#. **Orden de Venta Empleado**
 
-   1. **Definición**
+   #. **Definición**
 
-      Una orden de venta empleado, es realizada cuando se venden los
-      productos o servicios de la empresa a sus empleados, este
-      documento es emitido en moneda nacional.
+      Una orden de venta empleado, es realizada cuando se venden los productos o servicios de la empresa a sus empleados, este documento es emitido en moneda nacional.
 
       .. warning:: 
       
          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la orden de venta empleado se define según su
-      comportamiento, a continuación se explica el proceder de **Orden
-      de Venta Empleado**:
+      En ADempiere la orden de venta empleado se define según su comportamiento, a continuación se explica el proceder de **Orden de Venta Empleado**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Venta | un   |
-      | ment | s     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Vent |
-      |      |       | a    |
-      |      |       | Empl |
-      |      |       | eado |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Sub  | Orden | Apli |
-      | tipo | Están | ca   |
-      | OV:  | dar   | el   |
-      |      |       | comp |
-      |      |       | orta |
-      |      |       | mien |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | una  |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | está |
-      |      |       | ndar |
-      |      |       | dent |
-      |      |       | ro   |
-      |      |       | del  |
-      |      |       | sist |
-      |      |       | ema, |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | gene |
-      |      |       | ra   |
-      |      |       | rese |
-      |      |       | rva. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Venta | el   |
-      | del  | Emple | núme |
-      | Docu | ados  | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | VE-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden de Venta Empleado**|
+      |                        |                  |a un socio del negocio tipo cliente.              |
+      +------------------------+------------------+--------------------------------------------------+
+      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar    |
+      |                        |                  |dentro del sistema, en este caso genera reserva.  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|  Orden de Venta  |Genera el número de secuencia establecida para el |
+      |                        |     Empleados    |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**OVE-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite su contabilización cuando la compañía se encuentre
-         configurada para contabilizar compromisos.
-      -  Disminuye la cantidad de productos disponibles en el almacén y
-         aumenta la cantidad reservada.
-      -  Permite generar entregas de productos o servicios a empleados
-         de la empresa por medio de esta.
-      -  Permite generar facturas de ventas a empleados de la empresas
-         por medio de esta.
+      -  Permite su contabilización cuando la compañía se encuentre configurada para contabilizar compromisos.
+      -  Disminuye la cantidad de productos disponibles en el almacén y aumenta la cantidad reservada.
+      -  Permite generar entregas de productos o servicios a empleados de la empresa por medio de esta.
+      -  Permite generar facturas de ventas a empleados de la empresas por medio de esta.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-5. **Orden de Venta Indirecta**
+#. **Orden de Venta Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
-      Una orden de venta indirecta, es realizada cuando la empresa le
-      vende al socio de negocio tipo cliente los productos o servicios
-      con compromiso de entrega indirecta.
+      Una orden de venta indirecta, es realizada cuando la empresa le vende al socio de negocio tipo cliente los productos o servicios con compromiso de entrega indirecta.
 
       .. warning:: 
       
          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la orden de venta indirecta se define según su
-      comportamiento, a continuación se explica el proceder de **Orden
-      de Venta Indirecta**:
+      En ADempiere la orden de venta indirecta se define según su comportamiento, a continuación se explica el proceder de **Orden de Venta Indirecta**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Venta | un   |
-      | ment | s     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Vent |
-      |      |       | a    |
-      |      |       | Indi |
-      |      |       | rect |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Sub  | Orden | Apli |
-      | tipo | Están | ca   |
-      | OV:  | dar   | el   |
-      |      |       | comp |
-      |      |       | orta |
-      |      |       | mien |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | una  |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | está |
-      |      |       | ndar |
-      |      |       | dent |
-      |      |       | ro   |
-      |      |       | del  |
-      |      |       | sist |
-      |      |       | ema, |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | gene |
-      |      |       | ra   |
-      |      |       | rese |
-      |      |       | rva. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Venta | el   |
-      | del  | Indir | núme |
-      | Docu | ecta  | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | VI-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden de Venta**         |
+      |                        |                  |**Indirecta** a un socio del negocio tipo cliente.|
+      +------------------------+------------------+--------------------------------------------------+
+      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar    |
+      |                        |                  |dentro del sistema, en este caso genera reserva.  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|  Orden de Venta  |Genera el número de secuencia establecida para el |
+      |                        |     Indirecta    |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**OVI-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite su contabilización cuando la compañía se encuentre
-         configurada para contabilizar compromisos.
-      -  Disminuye la cantidad de productos disponibles en el almacén y
-         aumenta la cantidad reservada.
-      -  Permite generar entregas de productos o servicios a clientes
-         que adquieran compromisos de compra con entrega indirecta.
-      -  Permite generar facturas de ventas a clientes que adquieran
-         compromisos de compra con entrega indirecta.
+      -  Permite su contabilización cuando la compañía se encuentre configurada para contabilizar compromisos.
+      -  Disminuye la cantidad de productos disponibles en el almacén y aumenta la cantidad reservada.
+      -  Permite generar entregas de productos o servicios a clientes que adquieran compromisos de compra con entrega indirecta.
+      -  Permite generar facturas de ventas a clientes que adquieran compromisos de compra con entrega indirecta.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-6. **Orden a Crédito**
+#. **Orden a Crédito**
 
-   1. **Definición**
+   #. **Definición**
 
-      Una orden a crédito, es un documento elaborado por la empresa para
-      los socios de negocio tipo cliente, desde donde parten los
-      procesos de despacho y facturación que realiza la empresa, este
-      documento expresa los productos y servicios vendidos, a demás del
-      monto a cancelar y es utilizado en clientes seleccionados.
+      Una orden a crédito, es un documento elaborado por la empresa para los socios de negocio tipo cliente, desde donde parten los procesos de despacho y facturación que realiza la empresa, este documento expresa los productos y servicios vendidos, a demás del monto a cancelar y es utilizado en clientes seleccionados.
 
       .. warning:: 
       
          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la orden a crédito se define según su comportamiento,
-      a continuación se explica el proceder de **Orden a Crédito**:
+      En ADempiere la orden a crédito se define según su comportamiento, a continuación se explica el proceder de **Orden a Crédito**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Venta | un   |
-      | ment | s     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | a    |
-      |      |       | Créd |
-      |      |       | ito* |
-      |      |       | *    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Sub  | Orden | Apli |
-      | tipo | Están | ca   |
-      | OV:  | dar   | el   |
-      |      |       | comp |
-      |      |       | orta |
-      |      |       | mien |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | una  |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | está |
-      |      |       | ndar |
-      |      |       | dent |
-      |      |       | ro   |
-      |      |       | del  |
-      |      |       | sist |
-      |      |       | ema, |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | gene |
-      |      |       | ra   |
-      |      |       | rese |
-      |      |       | rva. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Crédi | el   |
-      | del  | to    | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 1    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | CR-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden a Crédito** a un   |
+      |                        |                  |socio del negocio tipo cliente.                   |
+      +------------------------+------------------+--------------------------------------------------+
+      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar    |
+      |                        |                  |dentro del sistema, en este caso genera reserva.  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:| Orden de Crédito |Genera el número de secuencia establecida para el |
+      |                        |                  |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.001 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**OCR-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite su contabilización cuando la compañía se encuentre
-         configurada para contabilizar compromisos.
-      -  Disminuye la cantidad de productos disponibles en el almacén y
-         aumenta la cantidad reservada.
-      -  Permite generar entregas de productos o servicios a clientes
-         seleccionados, que adquieran compromisos de compra a crédito.
-      -  Permite generar facturas de ventas a clientes seleccionados,
-         que adquieran compromisos de compra a crédito.
+      -  Permite su contabilización cuando la compañía se encuentre configurada para contabilizar compromisos.
+      -  Disminuye la cantidad de productos disponibles en el almacén y aumenta la cantidad reservada.
+      -  Permite generar entregas de productos o servicios a clientes seleccionados, que adquieran compromisos de compra a crédito.
+      -  Permite generar facturas de ventas a clientes seleccionados, que adquieran compromisos de compra a crédito.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-7. **Orden de Almacén**
+#. **Orden de Almacén**
 
-   1. **Definición**
+   #. **Definición**
 
-      Una orden de almacén, es un documento que genera automaticamente
-      la entrega, de ser necesario, crea una nota de crédito. Las
-      facturas son realizadas de forma manual de acuerdo a las reglas de
-      facturación que esta posee.
+      Una orden de almacén, es un documento que genera automaticamente la entrega, de ser necesario, crea una nota de crédito. Las facturas son realizadas de forma manual de acuerdo a las reglas de facturación que esta posee.
 
       .. warning:: 
       
          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la orden de almacén se define según su
-      comportamiento, a continuación se explica el proceder de **Orden
-      de Almacén**:
+      En ADempiere la orden de almacén se define según su comportamiento, a continuación se explica el proceder de **Orden de Almacén**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Venta | un   |
-      | ment | s     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Alma |
-      |      |       | cén* |
-      |      |       | *    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Almac | el   |
-      | del  | én    | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | AL-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden a Almacén** a un   |
+      |                        |                  |socio del negocio tipo cliente.                   |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:| Orden de Almacén |Genera el número de secuencia establecida para el |
+      |                        |                  |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**OAL-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
 
-      -  Permite su contabilización cuando la compañía se encuentre
-         configurada para contabilizar compromisos.
-      -  Disminuye la cantidad de productos disponibles en el almacén y
-         aumenta la cantidad reservada.
+   #. **Implicación en ADempiere**
+
+      -  Permite su contabilización cuando la compañía se encuentre configurada para contabilizar compromisos.
+      -  Disminuye la cantidad de productos disponibles en el almacén y aumenta la cantidad reservada.
       -  Permite generar entregas de productos o servicios a clientes.
-      -  Permite generar facturas de ventas a clientes y crea notas de
-         crédito a la misma, cuando el caso lo amerita.
+      -  Permite generar facturas de ventas a clientes y crea notas de crédito a la misma, cuando el caso lo amerita.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-8. **Orden Prepagada**
+#. **Orden Prepagada**
 
-   1. **Definición**
+   #. **Definición**
 
-      Una orden prepagada, es un documento que tiene como condición el
-      pago de la factura antes de la entrega de los productos o
-      servicios vendidos al socio de negocio tipo cliente. La factura y
-      el pago son generados automaticamente luego de la recepción del
-      dinero correspondiente.
+      Una orden prepagada, es un documento que tiene como condición el pago de la factura antes de la entrega de los productos o servicios vendidos al socio de negocio tipo cliente. La factura y el pago son generados automaticamente luego de la recepción del dinero correspondiente.
 
       .. warning:: 
       
          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la orden prepagada se define según su comportamiento,
-      a continuación se explica el proceder de **Orden Prepagada**:
+      En ADempiere la orden prepagada se define según su comportamiento, a continuación se explica el proceder de **Orden Prepagada**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Venta | un   |
-      | ment | s     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | Prep |
-      |      |       | agad |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Sub  | Orden | Apli |
-      | tipo | Están | ca   |
-      | OV:  | dar   | el   |
-      |      |       | comp |
-      |      |       | orta |
-      |      |       | mien |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | una  |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | está |
-      |      |       | ndar |
-      |      |       | dent |
-      |      |       | ro   |
-      |      |       | del  |
-      |      |       | sist |
-      |      |       | ema, |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | gene |
-      |      |       | ra   |
-      |      |       | rese |
-      |      |       | rva. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | Prepa | ra   |
-      | a    | gada  | el   |
-      | del  |       | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | PR-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden Prepagada** a un   |
+      |                        |                  |socio del negocio tipo cliente.                   |
+      +------------------------+------------------+--------------------------------------------------+
+      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar    |
+      |                        |                  |dentro del sistema, en este caso genera reserva.  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:| Orden Prepagada  |Genera el número de secuencia establecida para el |
+      |                        |                  |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**OPR-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite su contabilización cuando la compañía se encuentre
-         configurada para contabilizar compromisos.
-      -  Disminuye la cantidad de productos disponibles en el almacén y
-         aumenta la cantidad reservada.
-      -  Establece como condición la recepción del pago correspondiente
-         a la venta para poder generar la entrega de los productos o
-         servicios.
-      -  Permite generar los documentos de facturas de ventas a clientes
-         y pagos, luego de la recepción del pago correspondiente a la
-         venta.
+      -  Permite su contabilización cuando la compañía se encuentre configurada para contabilizar compromisos.
+      -  Disminuye la cantidad de productos disponibles en el almacén y aumenta la cantidad reservada.
+      -  Establece como condición la recepción del pago correspondiente a la venta para poder generar la entrega de los productos o servicios.
+      -  Permite generar los documentos de facturas de ventas a clientes y pagos, luego de la recepción del pago correspondiente a la venta.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos Cotización y Propuesta**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere el tipo de documento cotización y propuesta utiliza como
-documento base la orden de ventas, y se compone de dos (2) tipos de
-documentos, en los que se encuentran el documento de cotización y el
-documento de propuesta, en ese orden serán explicados los
-comportamientos de estos tipos de documentos.
+En ADempiere el tipo de documento cotización y propuesta utiliza como documento base la orden de ventas, y se compone de dos (2) tipos de documentos, en los que se encuentran el documento de cotización y el documento de propuesta, en ese orden serán explicados los comportamientos de estos tipos de documentos.
 
-1. **Cotización**
+#. **Cotización**
 
-   1. **Definición**
+   #. **Definición**
 
-      Una cotización puede convertirse en otro tipo de documento de
-      orden de forma manual, permitiendo con esto reservar en inventario
-      los productos y servicios incluidos en el documento.
+      Una cotización puede convertirse en otro tipo de documento de orden de forma manual, permitiendo con esto reservar en inventario los productos y servicios incluidos en el documento.
 
       .. warning:: 
       
          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la cotización se define según su comportamiento, a
-      continuación se explica el proceder de la **Cotización**:
+      En ADempiere la cotización se define según su comportamiento, a continuación se explica el proceder de la **Cotización**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Venta | un   |
-      | ment | s     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Co |
-      |      |       | tiza |
-      |      |       | ción |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Cotiz | Gene |
-      | enci | ación | ra   |
-      | a    |       | el   |
-      | del  |       | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 10.0 |
-      |      |       | 00   |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**C |
-      |      |       | OT-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Cotización** a un socio  |
+      |                        |                  |del negocio tipo cliente.                         |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|    Cotización    |Genera el número de secuencia establecida para el |
+      |                        |                  |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 10.000 y su prefijo esta compuesto por|
+      |                        |                  |las iniciales de su nombre "**COT-**".            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite su contabilización cuando la compañía se encuentre
-         configurada para contabilizar compromisos.
-      -  Disminuye la cantidad de productos disponibles en el almacén y
-         aumenta la cantidad reservada, cuando el documento pasa a ser
-         otro tipo de documento de tipo orden.
-      -  Permite generar entregas de productos o servicios a clientes
-         según la regla especificada en el documento.
-      -  Permite generar facturas de ventas a clientes según la regla
-         especificada en el documento.
+      -  Permite su contabilización cuando la compañía se encuentre configurada para contabilizar compromisos.
+      -  Disminuye la cantidad de productos disponibles en el almacén y aumenta la cantidad reservada, cuando el documento pasa a ser otro tipo de documento de tipo orden.
+      -  Permite generar entregas de productos o servicios a clientes según la regla especificada en el documento.
+      -  Permite generar facturas de ventas a clientes según la regla especificada en el documento.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Propuesta**
+#. **Propuesta**
 
-   1. **Definición**
+   #. **Definición**
 
-      Una propuesta no reserva los productos en inventario pero si puede
-      convertirse en otro tipo de documento de orden de forma manual.
+      Una propuesta no reserva los productos en inventario pero si puede convertirse en otro tipo de documento de orden de forma manual.
 
       .. warning:: 
       
          Es un documento que permite establecer reglas de entrega y facturación, es decir, se puede establecer cuando realizar la entrega y la facturación de los productos y servicios que comprende la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere la propuesta se define según su comportamiento, a
-      continuación se explica el proceder de la **Propuesta**:
+      En ADempiere la propuesta se define según su comportamiento, a continuación se explica el proceder de la **Propuesta**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Venta | un   |
-      | ment | s     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Pr |
-      |      |       | opue |
-      |      |       | sta* |
-      |      |       | *    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Propu | Gene |
-      | enci | esta  | ra   |
-      | a    |       | el   |
-      | del  |       | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**P |
-      |      |       | RO-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Propuesta** a un socio   |
+      |                        |                  |del negocio tipo cliente.                         |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|     Propuesta    |Genera el número de secuencia establecida para el |
+      |                        |                  |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**PRO-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite su contabilización cuando la compañía se encuentre
-         configurada para contabilizar compromisos.
-      -  Permite generar entregas de productos o servicios a clientes
-         según la regla especificada en el documento.
-      -  Permite generar facturas de ventas a clientes según la regla
-         especificada en el documento.
+      -  Permite su contabilización cuando la compañía se encuentre configurada para contabilizar compromisos.
+      -  Permite generar entregas de productos o servicios a clientes según la regla especificada en el documento.
+      -  Permite generar facturas de ventas a clientes según la regla especificada en el documento.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
