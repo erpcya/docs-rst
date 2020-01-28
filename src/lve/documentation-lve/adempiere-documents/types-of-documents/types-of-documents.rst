@@ -500,20 +500,20 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
       |Tipo de Documento Base: |Inventario Físico |Genera un documento de **Inventario de Uso**      |
-      |                        |   del Material   |**Interno Dotación** a la empresa.                |
+      |                        |del Material      |**Interno Dotación** a la empresa.                |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
       |Secuencia del Documento:|Inventario de Uso |Genera el número de secuencia establecida para el |
-      |                        | Interno Dotación |orden de los tipos de documentos de ADempiere,    |
+      |                        |Interno Dotación  |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**IUID-**".       |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
-      | Interno:               |        Si        |Pertenece a consumos realizados internamente en la|
+      | Interno:               |Si                |Pertenece a consumos realizados internamente en la|
       |                        |                  |empresa.                                          |
       +------------------------+------------------+--------------------------------------------------+
 
@@ -545,20 +545,20 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       |         **Campo**      |    **Valor**      | **Comportamiento en ADempiere**                  |
       +========================+===================+==================================================+
       |Tipo de Documento Base: |Inventario Físico  |Genera un documento de **Inventario de Uso**      |
-      |                        |   del Material    |**Interno Suministros de Oficina** a la empresa.  |
+      |                        |del Material       |**Interno Suministros de Oficina** a la empresa.  |
       +------------------------+-------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si         |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                 |Mantiene una **Secuencia de Control**.            |
       +------------------------+-------------------+--------------------------------------------------+
-      |Secuencia del Documento:| Inventario de Uso |Genera el número de secuencia establecida para el |
+      |Secuencia del Documento:|Inventario de Uso  |Genera el número de secuencia establecida para el |
       |                        |Interno Suministros|orden de los tipos de documentos de ADempiere,    |
-      |                        |    de Oficina     |configurado en la secuencia de documentos y es    |
+      |                        |de Oficina         |configurado en la secuencia de documentos y es    |
       |                        |                   |incrementable en 1, en este caso la secuencia     |
       |                        |                   |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                   |por las iniciales de su nombre "**IUISO-**".      |
       +------------------------+-------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1          |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                  |Establece el número de copias a imprimir.         |
       +------------------------+-------------------+--------------------------------------------------+
-      | Interno:               |        Si         |Pertenece a consumos realizados internamente en la|
+      | Interno:               |Si                 |Pertenece a consumos realizados internamente en la|
       |                        |                   |empresa.                                          |
       +------------------------+-------------------+--------------------------------------------------+
 
@@ -599,19 +599,19 @@ En ADempiere se utilizan dos (2) diferentes documentos de orden de distribución
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |     Orden de     |Genera un documento de **Orden de Distribución**  |
-      |                        |   Distribución   |**Interna** a la empresa.                         |
+      |Tipo de Documento Base: |Orden de          |Genera un documento de **Orden de Distribución**  |
+      |                        |Distribución      |**Interna** a la empresa.                         |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:|     Orden de     |Genera el número de secuencia establecida para el |
-      |                        |   Distribución   |orden de los tipos de documentos de ADempiere,    |
-      |                        |      Interna     |configurado en la secuencia de documentos y es    |
+      |Secuencia del Documento:|Orden de          |Genera el número de secuencia establecida para el |
+      |                        |Distribución      |orden de los tipos de documentos de ADempiere,    |
+      |                        |Interna           |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**ODI-**".        |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -640,19 +640,19 @@ En ADempiere se utilizan dos (2) diferentes documentos de orden de distribución
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |     Orden de     |Genera un documento de **Orden de Distribución**  |
-      |                        |   Distribución   |**Externa** a la empresa.                         |
+      |Tipo de Documento Base: |Orden de          |Genera un documento de **Orden de Distribución**  |
+      |                        |Distribución      |**Externa** a la empresa.                         |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:|     Orden de     |Genera el número de secuencia establecida para el |
-      |                        |   Distribución   |orden de los tipos de documentos de ADempiere,    |
-      |                        |      Externa     |configurado en la secuencia de documentos y es    |
+      |Secuencia del Documento:|Orden de          |Genera el número de secuencia establecida para el |
+      |                        |Distribución      |orden de los tipos de documentos de ADempiere,    |
+      |                        |Externa           |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**ODE-**".        |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -691,19 +691,19 @@ En ADempiere, cada movimiento de material realizado es utilizado para controlar 
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |   Movimiento de  |Genera un documento de **Movimiento de Material** |
-      |                        |      Material    |**Interno** a la empresa.                         |
+      |Tipo de Documento Base: |Movimiento de     |Genera un documento de **Movimiento de Material** |
+      |                        |Material          |**Interno** a la empresa.                         |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:|   Movimiento de  |Genera el número de secuencia establecida para el |
-      |                        |      Material    |orden de los tipos de documentos de ADempiere,    |
-      |                        |      Interno     |configurado en la secuencia de documentos y es    |
+      |Secuencia del Documento:|Movimiento de     |Genera el número de secuencia establecida para el |
+      |                        |Material Interno  |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**MMI-**".        |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -733,19 +733,19 @@ En ADempiere, cada movimiento de material realizado es utilizado para controlar 
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |   Movimiento de  |Genera un documento de **Movimiento de Material** |
-      |                        |      Material    |**Externo** a la empresa.                         |
+      |Tipo de Documento Base: |Movimiento de     |Genera un documento de **Movimiento de Material** |
+      |                        |Material          |**Externo** a la empresa.                         |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:|   Movimiento de  |Genera el número de secuencia establecida para el |
-      |                        |      Material    |orden de los tipos de documentos de ADempiere,    |
-      |                        |      Externo     |configurado en la secuencia de documentos y es    |
+      |Secuencia del Documento:|Movimiento de     |Genera el número de secuencia establecida para el |
+      |                        |Material Externo  |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**MME-**".        |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -789,24 +789,24 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden de Venta Nacional**|
+      |Tipo de Documento Base: |Orden de Ventas   |Genera un documento de **Orden de Venta Nacional**|
       |                        |                  |a un socio del negocio tipo cliente.              |
       +------------------------+------------------+--------------------------------------------------+
-      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar    |
+      |Sub Tipo OV:            |Orden Estándar    |Aplica el comportamiento de una orden estándar    |
       |                        |                  |dentro del sistema, en este caso genera reserva.  |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.     |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:|  Orden de Venta  |Genera el número de secuencia establecida para el |
-      |                        |      Nacional    |orden de los tipos de documentos de ADempiere,    |
+      |Secuencia del Documento:|Orden de Venta    |Genera el número de secuencia establecida para el |
+      |                        |Nacional          |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**OVN-**".        |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -837,24 +837,24 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       +------------------------+------------------+-----------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                     |
       +========================+==================+=====================================================+
-      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden de Venta Exportación**|
+      |Tipo de Documento Base: |Orden de Ventas   |Genera un documento de **Orden de Venta Exportación**|
       |                        |                  |a un socio del negocio tipo cliente.                 |
       +------------------------+------------------+-----------------------------------------------------+
-      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar       |
+      |Sub Tipo OV:            |Orden Estándar    |Aplica el comportamiento de una orden estándar       |
       |                        |                  |dentro del sistema, en este caso genera reserva.     |
       +------------------------+------------------+-----------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.               |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.               |
       +------------------------+------------------+-----------------------------------------------------+
-      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.        |
+      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.        |
       +------------------------+------------------+-----------------------------------------------------+
-      |Secuencia del Documento:|  Orden de Venta  |Genera el número de secuencia establecida para el    |
-      |                        |  Exportaciones   |orden de los tipos de documentos de ADempiere,       |
+      |Secuencia del Documento:|Orden de Venta    |Genera el número de secuencia establecida para el    |
+      |                        |Exportaciones     |orden de los tipos de documentos de ADempiere,       |
       |                        |                  |configurado en la secuencia de documentos y es       |
       |                        |                  |incrementable en 1, en este caso la secuencia        |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto    |
       |                        |                  |por las iniciales de su nombre "**OVE-**".           |
       +------------------------+------------------+-----------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.            |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.            |
       +------------------------+------------------+-----------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -885,25 +885,25 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden de Venta**         |
+      |Tipo de Documento Base: |Orden de Ventas   |Genera un documento de **Orden de Venta**         |
       |                        |                  |**Intercompañía** a un socio del negocio tipo     |
       |                        |                  |cliente.                                          |
       +------------------------+------------------+--------------------------------------------------+
-      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar    |
+      |Sub Tipo OV:            |Orden Estándar    |Aplica el comportamiento de una orden estándar    |
       |                        |                  |dentro del sistema, en este caso genera reserva.  |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.     |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:|  Orden de Venta  |Genera el número de secuencia establecida para el |
-      |                        |   Intercompañía  |orden de los tipos de documentos de ADempiere,    |
+      |Secuencia del Documento:|Orden de Venta    |Genera el número de secuencia establecida para el |
+      |                        |Intercompañía     |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**OVIC-**".       |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -934,24 +934,24 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden de Venta Empleado**|
+      |Tipo de Documento Base: |Orden de Ventas   |Genera un documento de **Orden de Venta Empleado**|
       |                        |                  |a un socio del negocio tipo cliente.              |
       +------------------------+------------------+--------------------------------------------------+
-      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar    |
+      |Sub Tipo OV:            |Orden Estándar    |Aplica el comportamiento de una orden estándar    |
       |                        |                  |dentro del sistema, en este caso genera reserva.  |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.     |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:|  Orden de Venta  |Genera el número de secuencia establecida para el |
-      |                        |     Empleados    |orden de los tipos de documentos de ADempiere,    |
+      |Secuencia del Documento:|Orden de Venta    |Genera el número de secuencia establecida para el |
+      |                        |Empleados         |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**OVE-**".        |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -982,24 +982,24 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden de Venta**         |
+      |Tipo de Documento Base: |Orden de Ventas   |Genera un documento de **Orden de Venta**         |
       |                        |                  |**Indirecta** a un socio del negocio tipo cliente.|
       +------------------------+------------------+--------------------------------------------------+
-      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar    |
+      |Sub Tipo OV:            |Orden Estándar    |Aplica el comportamiento de una orden estándar    |
       |                        |                  |dentro del sistema, en este caso genera reserva.  |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.     |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:|  Orden de Venta  |Genera el número de secuencia establecida para el |
-      |                        |     Indirecta    |orden de los tipos de documentos de ADempiere,    |
+      |Secuencia del Documento:|Orden de Venta    |Genera el número de secuencia establecida para el |
+      |                        |Indirecta         |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**OVI-**".        |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -1030,24 +1030,24 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden a Crédito** a un   |
+      |Tipo de Documento Base: |Orden de Ventas   |Genera un documento de **Orden a Crédito** a un   |
       |                        |                  |socio del negocio tipo cliente.                   |
       +------------------------+------------------+--------------------------------------------------+
-      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar    |
+      |Sub Tipo OV:            |Orden Estándar    |Aplica el comportamiento de una orden estándar    |
       |                        |                  |dentro del sistema, en este caso genera reserva.  |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.     |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:| Orden de Crédito |Genera el número de secuencia establecida para el |
+      |Secuencia del Documento:|Orden de Crédito  |Genera el número de secuencia establecida para el |
       |                        |                  |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.001 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**OCR-**".        |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -1078,21 +1078,21 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden a Almacén** a un   |
+      |Tipo de Documento Base: |Orden de Ventas   |Genera un documento de **Orden a Almacén** a un   |
       |                        |                  |socio del negocio tipo cliente.                   |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.     |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:| Orden de Almacén |Genera el número de secuencia establecida para el |
+      |Secuencia del Documento:|Orden de Almacén  |Genera el número de secuencia establecida para el |
       |                        |                  |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**OAL-**".        |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
 
@@ -1124,24 +1124,24 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Orden Prepagada** a un   |
+      |Tipo de Documento Base: |Orden de Ventas   |Genera un documento de **Orden Prepagada** a un   |
       |                        |                  |socio del negocio tipo cliente.                   |
       +------------------------+------------------+--------------------------------------------------+
-      |Sub Tipo OV:            |  Orden Estándar  |Aplica el comportamiento de una orden estándar    |
+      |Sub Tipo OV:            |Orden Estándar    |Aplica el comportamiento de una orden estándar    |
       |                        |                  |dentro del sistema, en este caso genera reserva.  |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.     |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:| Orden Prepagada  |Genera el número de secuencia establecida para el |
+      |Secuencia del Documento:|Orden Prepagada   |Genera el número de secuencia establecida para el |
       |                        |                  |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**OPR-**".        |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -1177,21 +1177,21 @@ En ADempiere el tipo de documento cotización y propuesta utiliza como documento
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Cotización** a un socio  |
+      |Tipo de Documento Base: |Orden de Ventas   |Genera un documento de **Cotización** a un socio  |
       |                        |                  |del negocio tipo cliente.                         |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.     |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:|    Cotización    |Genera el número de secuencia establecida para el |
+      |Secuencia del Documento:|Cotización        |Genera el número de secuencia establecida para el |
       |                        |                  |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 10.000 y su prefijo esta compuesto por|
       |                        |                  |las iniciales de su nombre "**COT-**".            |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
@@ -1222,21 +1222,21 @@ En ADempiere el tipo de documento cotización y propuesta utiliza como documento
       +------------------------+------------------+--------------------------------------------------+
       |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
       +========================+==================+==================================================+
-      |Tipo de Documento Base: |  Orden de Ventas |Genera un documento de **Propuesta** a un socio   |
+      |Tipo de Documento Base: |Orden de Ventas   |Genera un documento de **Propuesta** a un socio   |
       |                        |                  |del negocio tipo cliente.                         |
       +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |        Si        |Mantiene una **Secuencia de Control**.            |
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
       +------------------------+------------------+--------------------------------------------------+
-      |Transacción de Ventas:  |        Si        |Discrimina los tipos de documentos de ventas.     |
+      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.     |
       +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:|     Propuesta    |Genera el número de secuencia establecida para el |
+      |Secuencia del Documento:|Propuesta         |Genera el número de secuencia establecida para el |
       |                        |                  |orden de los tipos de documentos de ADempiere,    |
       |                        |                  |configurado en la secuencia de documentos y es    |
       |                        |                  |incrementable en 1, en este caso la secuencia     |
       |                        |                  |comienza en 1.000.000 y su prefijo esta compuesto |
       |                        |                  |por las iniciales de su nombre "**PRO-**".        |
       +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |        1         |Establece el número de copias a imprimir.         |
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
       +------------------------+------------------+--------------------------------------------------+
 
    #. **Implicación en ADempiere**
