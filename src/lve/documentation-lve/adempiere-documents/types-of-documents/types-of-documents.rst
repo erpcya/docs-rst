@@ -2384,51 +2384,83 @@ En ADempiere un ajuste es un documento que representa el ingreso o egreso moneta
 
       En ADempiere un ajuste de débito de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de un **Ajuste de Débito de CxC**:
 
-      +------------------------+------------------+--------------------------------------------------+
-      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
-      +========================+==================+==================================================+
-      |Tipo de Documento Base: |Factura de CxC    |Genera una **Factura de CxC Exportación** a un    |
-      |                        |                  |socio del negocio tipo cliente.                   |
-      +------------------------+------------------+--------------------------------------------------+
-      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
-      +------------------------+------------------+--------------------------------------------------+
-      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.     |
-      +------------------------+------------------+--------------------------------------------------+
-      |Sobrescribir Secuencia  |Si                |Establece una **Secuencia Temporal** para los     |
-      |al Completar:           |                  |documentos en estado borrador y a su vez una      |
-      |                        |                  |**Secuencia Definitiva** para los documentos en   |
-      |                        |                  |estado completo.                                  |
-      +------------------------+------------------+--------------------------------------------------+
-      |Secuencia del Documento:|Facturas CxC      |Genera el número de secuencia establecida para el |
-      |                        |Temporal          |orden de los tipos de documentos de ADempiere,    |
-      |                        |                  |configurado en la secuencia de documentos y es    |
-      |                        |                  |incrementable en 1, en este caso la secuencia     |
-      |                        |                  |comienza en 1.000.002 y su prefijo esta compuesto |
-      |                        |                  |por las iniciales de su nombre "**TPM-**".        |
-      +------------------------+------------------+--------------------------------------------------+
-      |Secuencia Definitiva:   |Facturas de CxC   |Genera un número de documento establecido para los|
-      |                        |Exportaciones     |documentos en estado completo.                    |
-      +------------------------+------------------+--------------------------------------------------+
-      |Sobrescribir Fecha al   |Si                |Sobrescribe la fecha introducida por la fecha en  |
-      |Completar:              |                  |la que se completa el documento.                  |
-      +------------------------+------------------+--------------------------------------------------+
-      |Copiar Número de        |Si                |**Copia el número de documento en el reverso** en |
-      |Documento en Reverso:   |                  |lugar de generar un nuevo número agregándole el   |
-      |                        |                  |símbolo **^** al final del número de documento,   |
-      |                        |                  |además el monto del documento pasa a negativo y se|
-      |                        |                  |destilda el checklist **Documento Fiscal**.       |
-      +------------------------+------------------+--------------------------------------------------+
-      |Secuencia Nro de        |Control Fiscal de |Genera el número de control fiscal establecido.   |
-      |Control:                |Facturas CxC      |                                                  |
-      +------------------------+------------------+--------------------------------------------------+
-      |Documento Fiscal:       |Si                |Genera la **Factura de CxC Exportaciones** como un|
-      |                        |                  |documento fiscal.                                 |
-      +------------------------+------------------+--------------------------------------------------+
-      |Generar Nro de Control  |Si                |Genera el número de control establecido en la     |
-      |Al Imprimir:            |                  |**Secuencia de Nro de Control**.                  |
-      +------------------------+------------------+--------------------------------------------------+
-      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
-      +------------------------+------------------+--------------------------------------------------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Factura de CxC       | Incrementa el saldo  |
+      | Base:                |                      | deudor de un socio   |
+      |                      |                      | de negocio tipo      |
+      |                      |                      | cliente              |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Ajuste de Débito CxC | Genera el número de  |
+      | Documento:           |                      | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre               |
+      |                      |                      | "**AJDBCxC-**".      |
+      +----------------------+----------------------+----------------------+
+      | Secuencia            | Ajuste de Débito CxC | Genera un número de  |
+      | Definitiva:          |                      | documento            |
+      |                      |                      | establecido para los |
+      |                      |                      | documentos en estado |
+      |                      |                      | completo.            |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia del número   |
+      | Documento en         |                      | de documento en el   |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**. |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
       
    #. **Implicación en ADempiere**
 
@@ -2474,8 +2506,7 @@ En ADempiere un ajuste es un documento que representa el ingreso o egreso moneta
       +------+-------+------+
       | **Ca | **Val | **Co |
       | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
+      | *    |       | tamiento |
       |      |       | en   |
       |      |       | ADem |
       |      |       | pier |
@@ -2784,68 +2815,53 @@ En ADempiere un ajuste es un documento que representa el ingreso o egreso moneta
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando un ajuste de crédito fiscal.
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando un ajuste de crédito fiscal.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
       -  Decrementa el saldo deudor del socio del negocio tipo cliente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Aumenta el monto de un ajuste de débito, creando un cruce de
-         cuentas.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Aumenta el monto de un ajuste de débito, creando un cruce de cuentas.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
-          - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
+         - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
-          - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
+         - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
 
-          - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
+         - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
-          - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+         - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
 **Tipos de Documentos Notas de Débito Cuentas por Cobrar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Una nota de débito en cuentas por cobrar es un documento legal que se
-aplica a una factura para aumentar el monto de la misma. Esta siempre
-nace de un documento afectado ya sea de una factura o de una nota de
-crédito.
+Una nota de débito en cuentas por cobrar es un documento legal que se aplica a una factura para aumentar el monto de la misma. Esta siempre nace de un documento afectado ya sea de una factura o de una nota de crédito.
 
-De igual manera que la factura, existen diferentes tipos de notas de
-débito de cuentas por cobrar, en este caso son cinco (5) tipos de notas
-que se utilizan en ADempiere, entre ellas nota de débito nacional,
-exportación, intercompañía, empleado y por último nota de débito
-indirecta.
+De igual manera que la factura, existen diferentes tipos de notas de débito de cuentas por cobrar, en este caso son cinco (5) tipos de notas que se utilizan en ADempiere, entre ellas nota de débito nacional, exportación, intercompañía, empleado y por último nota de débito indirecta.
 
-1. **Nota de Débito de Cuentas por Cobrar Nacional**
+#. **Nota de Débito de Cuentas por Cobrar Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
-      Una nota de débito de cuentas por cobrar nacional es emitida en
-      moneda nacional y debe llevar la descripción de su aplicación, es
-      decir que debe incluir cual es el cargo o motivo de la misma.
+      Una nota de débito de cuentas por cobrar nacional es emitida en moneda nacional y debe llevar la descripción de su aplicación, es decir que debe incluir cual es el cargo o motivo de la misma.
 
       .. warning:: 
       
          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere una nota de débito de cuentas por cobrar nacional se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Débito de CxC Nacional:**
+      En ADempiere una nota de débito de cuentas por cobrar nacional se define según su comportamiento, a continuación se explica el proceder de una **Nota de Débito de CxC Nacional:**
 
       +------+-------+------+
       | **Ca | **Val | **Co |
@@ -3232,21 +3248,16 @@ indirecta.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de débito fiscal.
-      -  Aumenta el monto total a cancelar de una factura aplicada a
-         clientes dentro de Venezuela.
-      -  Disminuye el monto de una nota de crédito, creando un cruce de
-         cuentas.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de débito fiscal.
+      -  Aumenta el monto total a cancelar de una factura aplicada a clientes dentro de Venezuela.
+      -  Disminuye el monto de una nota de crédito, creando un cruce de cuentas.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -3266,19 +3277,15 @@ indirecta.
 
 2. **Nota de Débito de Cuentas por Cobrar Exportación**
 
-   1. **Definición**
+   #. **Definición**
 
-      En ADempiere es un documento legal idéntico a la nota de débito
-      nacional, con la diferencia de que por ser de exportación su monto
-      se expresa en moneda extranjera y refleja en la factura de
-      exportación el monto extra con su respectiva descripción para
-      hacerla llegar al cliente en el extranjero.
+      En ADempiere es un documento legal idéntico a la nota de débito nacional, con la diferencia de que por ser de exportación su monto se expresa en moneda extranjera y refleja en la factura de exportación el monto extra con su respectiva descripción para hacerla llegar al cliente en el extranjero.
 
       .. warning:: 
       
          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de débito de cuentas por cobrar exportación
       se define según su comportamiento, a continuación se explica el
@@ -3671,22 +3678,16 @@ indirecta.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de débito fiscal.
-      -  Aumenta el monto total a cancelar de una factura aplicada a
-         clientes fuera de Venezuela.
-      -  Disminuye el monto de una nota de crédito, creando un cruce de
-         cuentas.
-      -  Permite su contabilización en moneda extranjera, convertida a
-         moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de débito fiscal.
+      -  Aumenta el monto total a cancelar de una factura aplicada a clientes fuera de Venezuela.
+      -  Disminuye el monto de una nota de crédito, creando un cruce de cuentas.
+      -  Permite su contabilización en moneda extranjera, convertida a moneda nacional vigente.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -3706,7 +3707,7 @@ indirecta.
 
 3. **Nota de Débito de Cuentas por Cobrar Intercompañía**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es un documento legal que se aplica a una factura de
       cuentas por cobrar intercompañía, reflejando en esta un aumento
@@ -3718,7 +3719,7 @@ indirecta.
       
          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de débito de cuentas por cobrar
       intercompañía se define según su comportamiento, a continuación se
@@ -4112,21 +4113,16 @@ indirecta.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de débito fiscal.
-      -  Aumenta el monto total a cancelar de una factura aplicada a
-         otra empresa perteneciente a un mismo consorcio.
-      -  Disminuye el monto de una nota de crédito, creando un cruce de
-         cuentas.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de débito fiscal.
+      -  Aumenta el monto total a cancelar de una factura aplicada a otra empresa perteneciente a un mismo consorcio.
+      -  Disminuye el monto de una nota de crédito, creando un cruce de cuentas.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -4146,7 +4142,7 @@ indirecta.
 
 4. **Nota de Débito de Cuentas por Cobrar Empleado**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es un documento legal aplicable a las facturas o
       notas de créditos emitidas a trabajadores de la empresa,
@@ -4158,7 +4154,7 @@ indirecta.
       
          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de débito de cuentas por cobrar empleado se
       define según su comportamiento, a continuación se explica el
@@ -4549,21 +4545,16 @@ indirecta.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de débito fiscal.
-      -  Aumenta el monto total a cancelar de una factura aplicada a un
-         empleado de la empresa.
-      -  Disminuye el monto de una nota de crédito, creando un cruce de
-         cuentas.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de débito fiscal.
+      -  Aumenta el monto total a cancelar de una factura aplicada a un empleado de la empresa.
+      -  Disminuye el monto de una nota de crédito, creando un cruce de cuentas.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -4583,7 +4574,7 @@ indirecta.
 
 5. **Nota de Débito de Cuentas por Cobrar Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento legal que se aplica a una factura emitida a un
       socio de negocio tipo cliente cuando este adquiere un compromiso
@@ -4595,7 +4586,7 @@ indirecta.
       
          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de débito de cuentas por cobrar indirecta se
       define según su comportamiento, a continuación se explica el
@@ -4987,22 +4978,16 @@ indirecta.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de débito fiscal.
-      -  Aumenta el monto total a cancelar de una factura aplicada a
-         clientes que adquieren compromiso de compra con entrega
-         indirecta.
-      -  Disminuye el monto de una nota de crédito, creando un cruce de
-         cuentas.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de débito fiscal.
+      -  Aumenta el monto total a cancelar de una factura aplicada a clientes que adquieren compromiso de compra con entrega indirecta.
+      -  Disminuye el monto de una nota de crédito, creando un cruce de cuentas.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -5035,9 +5020,9 @@ empresa como proveedor. En ADempiere son utilizadas cuatro (4)
 retenciones en cuentas por cobrar, a continuación se define el
 comportamiento de este tipo de documento.
 
-1. **Retención de IVA 75% de Cuentas por Cobrar**
+#. **Retención de IVA 75% de Cuentas por Cobrar**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es posible generar una retención del setenta y cinco
       (75) por ciento (%) del IVA que posee una factura emitida al
@@ -5048,7 +5033,7 @@ comportamiento de este tipo de documento.
       
          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una retención de IVA de cuentas por cobrar se define
       según su comportamiento, a continuación se explica el proceder de
@@ -5265,18 +5250,15 @@ comportamiento de este tipo de documento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera un documento de retención de IVA aplicado a una factura
-         de acuerdo a lo establecido en la ley del impuesto al valor
-         agregado.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         retenciones de ADempiere.
+      -  Genera un documento de retención de IVA aplicado a una factura de acuerdo a lo establecido en la ley del impuesto al valor agregado.
+      -  Aparece reflejado de manera ordenada en la gestión de retenciones de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto a pagar de la factura de cuentas por cobrar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
 
@@ -5290,7 +5272,7 @@ comportamiento de este tipo de documento.
 
 2. **Retención de IVA 100% de Cuentas por Cobrar**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es posible generar una retención del cien (100) por
       ciento (%) del IVA que posee una factura emitida al cliente, para
@@ -5300,7 +5282,7 @@ comportamiento de este tipo de documento.
       
          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una retención de IVA de cuentas por cobrar se define
       según su comportamiento, a continuación se explica el proceder de
@@ -5517,18 +5499,15 @@ comportamiento de este tipo de documento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera un documento de retención de IVA aplicado a una factura
-         de acuerdo a lo establecido en la ley del impuesto al valor
-         agregado.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         retenciones de ADempiere.
+      -  Genera un documento de retención de IVA aplicado a una factura de acuerdo a lo establecido en la ley del impuesto al valor agregado.
+      -  Aparece reflejado de manera ordenada en la gestión de retenciones de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto a pagar de la factura de cuentas por cobrar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
 
@@ -5541,7 +5520,7 @@ comportamiento de este tipo de documento.
 
 3. **Retención de ISLR de Cuentas por Cobrar**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es posible generar una retención del ISLR que posee
       una factura emitida al cliente, para ello se deben tener
@@ -5551,7 +5530,7 @@ comportamiento de este tipo de documento.
       
          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una retención de ISLR de cuentas por cobrar se define
       según su comportamiento, a continuación se explica el proceder de
@@ -5768,18 +5747,15 @@ comportamiento de este tipo de documento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera un documento de retención de ISLR aplicado a una factura
-         de acuerdo a lo establecido en la ley de impuesto sobre la
-         renta.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         retenciones de ADempiere.
+      -  Genera un documento de retención de ISLR aplicado a una factura de acuerdo a lo establecido en la ley de impuesto sobre la renta.
+      -  Aparece reflejado de manera ordenada en la gestión de retenciones de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto a pagar de la factura de cuentas por cobrar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
 
@@ -5831,7 +5807,7 @@ comportamiento de este tipo de documento.
 
 4. **Retención Municipal de Cuentas por Cobrar**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es posible generar una retención municipal que posee
       una factura emitida al cliente, para ello se deben tener
@@ -5841,7 +5817,7 @@ comportamiento de este tipo de documento.
       
          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una retención municipal de cuentas por cobrar se
       define según su comportamiento, a continuación se explica el
@@ -6059,24 +6035,21 @@ comportamiento de este tipo de documento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera un documento de retención municipal aplicado a una
-         factura de acuerdo a lo establecido en la ley de retencion
-         municipal correspondiente a cada municipio.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         retenciones de ADempiere.
+      -  Genera un documento de retención municipal aplicado a una factura de acuerdo a lo establecido en la ley de retencion municipal correspondiente a cada municipio.
+      -  Aparece reflejado de manera ordenada en la gestión de retenciones de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto a pagar de la factura de cuentas por cobrar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
 5. **Retención de IVA 75% para Nota de Crédito de CxC**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es posible generar una retención del setenta y cinco
       (75) por ciento (%) del IVA que posee una nota de crédito emitida
@@ -6087,7 +6060,7 @@ comportamiento de este tipo de documento.
       
          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una retención de IVA para nota de crédito de cuentas
       por cobrar se define según su comportamiento, a continuación se
@@ -6311,18 +6284,15 @@ comportamiento de este tipo de documento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera un documento de retención de IVA aplicado a una nota de
-         crédito de acuerdo a lo establecido en la ley del impuesto al
-         valor agregado.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         retenciones de ADempiere.
+      -  Genera un documento de retención de IVA aplicado a una nota de crédito de acuerdo a lo establecido en la ley del impuesto al valor agregado.
+      -  Aparece reflejado de manera ordenada en la gestión de retenciones de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto de la nota de crédito de cuentas por cobrar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
 
@@ -6336,7 +6306,7 @@ comportamiento de este tipo de documento.
 
 6. **Retención de IVA 100% para Nota de Crédito de CxC**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es posible generar una retención del cien (100) por
       ciento (%) del IVA que posee una nota de crédito emitida al
@@ -6347,7 +6317,7 @@ comportamiento de este tipo de documento.
       
          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una retención de IVA para nota de crédito de cuentas
       por cobrar se define según su comportamiento, a continuación se
@@ -6571,18 +6541,15 @@ comportamiento de este tipo de documento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera un documento de retención de IVA aplicado a una nota de
-         crédito de acuerdo a lo establecido en la ley del impuesto al
-         valor agregado.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         retenciones de ADempiere.
+      -  Genera un documento de retención de IVA aplicado a una nota de crédito de acuerdo a lo establecido en la ley del impuesto al valor agregado.
+      -  Aparece reflejado de manera ordenada en la gestión de retenciones de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto de la nota de crédito de cuentas por cobrar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
 
@@ -6596,7 +6563,7 @@ comportamiento de este tipo de documento.
 
 7. **Retención de ISLR para Nota de Crédito de CxC**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es posible generar una retención del ISLR que posee
       una nota de crédito emitida al cliente, para ello se deben tener
@@ -6606,7 +6573,7 @@ comportamiento de este tipo de documento.
       
          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una retención de ISLR para nota de crédito de cuentas
       por cobrar se define según su comportamiento, a continuación se
@@ -6830,18 +6797,15 @@ comportamiento de este tipo de documento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera un documento de retención de ISLR aplicado a una nota de
-         crédito de acuerdo a lo establecido en la ley de impuesto sobre
-         la renta.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         retenciones de ADempiere.
+      -  Genera un documento de retención de ISLR aplicado a una nota de crédito de acuerdo a lo establecido en la ley de impuesto sobre la renta.
+      -  Aparece reflejado de manera ordenada en la gestión de retenciones de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto a pagar de la factura de cuentas por cobrar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
 
@@ -6893,7 +6857,7 @@ comportamiento de este tipo de documento.
 
 8. **Retención Municipal para Nota de Crédito de CxC**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es posible generar una retención municipal que posee
       una nota de crédito emitida al cliente, para ello se deben tener
@@ -6903,7 +6867,7 @@ comportamiento de este tipo de documento.
       
          En ADempiere es importante realizar el proceso de retenciones ya que esta es la prueba ante el "**SENIAT**" de que se está cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una retención municipal para nota de crédito de
       cuentas por cobrar se define según su comportamiento, a
@@ -7128,18 +7092,15 @@ comportamiento de este tipo de documento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera un documento de retención municipal aplicado a una nota
-         de crédito de acuerdo a lo establecido en la ley de retencion
-         municipal correspondiente a cada municipio.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         retenciones de ADempiere.
+      -  Genera un documento de retención municipal aplicado a una nota de crédito de acuerdo a lo establecido en la ley de retencion municipal correspondiente a cada municipio.
+      -  Aparece reflejado de manera ordenada en la gestión de retenciones de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
       -  Permite controlar las retenciones a declarar.
       -  Disminuye el monto a pagar de la factura de cuentas por cobrar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
@@ -7155,9 +7116,9 @@ Cuando de transferencias se trata, suele pasar que el banco regresa la
 transferencia, causando con esto problemas con el proceso de la empresa
 u organización.
 
-1. **Pago Devuelto de Cuentas por Cobrar**
+#. **Pago Devuelto de Cuentas por Cobrar**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es posible generar un pago devuelto por medio del
       documento **Pago/Cobro**, el mismo genera una devolución de
@@ -7167,7 +7128,7 @@ u organización.
       
          En ADempiere este documento genera un ajuste de débito por comisión de pago devuelto. Adicional a ello habilita nuevamente la cuenta por cobrar cancelada inicialmente.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un pago devuelto de cuentas por cobrar se define
       según su comportamiento, a continuación se explica el proceder de
@@ -7392,17 +7353,14 @@ u organización.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
       -  Genera un ajuste de débito en las cuentas por cobrar.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Afecta los montos de los documentos factura y pago,
-         habilitandole nuevamente la cuenta por cobrar al socio de
-         negocio tipo cliente.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Afecta los montos de los documentos factura y pago, habilitandole nuevamente la cuenta por cobrar al socio de negocio tipo cliente.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -7424,9 +7382,9 @@ comportamiento.
 A continuación se definen las notas de crédito de cuentas por cobrar
 según su comportamiento.
 
-1. **Nota de Crédito de Cuentas por Cobrar Nacional**
+#. **Nota de Crédito de Cuentas por Cobrar Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento legal que se aplica a la factura de cuentas por
       cobrar nacional, realizada al socio del negocio tipo cliente que
@@ -7436,7 +7394,7 @@ según su comportamiento.
       
          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de crédito de cuentas por cobrar nacional se
       define según su comportamiento, a continuación se explica el
@@ -7827,19 +7785,15 @@ según su comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de crédito fiscal.
-      -  Disminuye el monto total a cancelar de una factura aplicada a
-         clientes dentro de Venezuela.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de crédito fiscal.
+      -  Disminuye el monto total a cancelar de una factura aplicada a clientes dentro de Venezuela.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -7859,7 +7813,7 @@ según su comportamiento.
 
 2. **Nota de Crédito de Cuentas por Cobrar Exportación**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento legal que se aplica a la factura de cuentas por
       cobrar exportación, realizada al socio del negocio tipo cliente
@@ -7869,11 +7823,9 @@ según su comportamiento.
       
          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere una nota de crédito de cuentas por cobrar exportación
-      se define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Crédito de CxC Exportación:**
+      En ADempiere una nota de crédito de cuentas por cobrar exportación se define según su comportamiento, a continuación se explica el proceder de una **Nota de Crédito de CxC Exportación:**
 
       +------+-------+------+
       | **Ca | **Val | **Co |
@@ -8262,20 +8214,15 @@ según su comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de crédito fiscal.
-      -  Disminuye el monto total a cancelar de una factura aplicada a
-         clientes fuera de Venezuela.
-      -  Permite su contabilización en moneda extranjera, convertida a
-         moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de crédito fiscal.
+      -  Disminuye el monto total a cancelar de una factura aplicada a clientes fuera de Venezuela.
+      -  Permite su contabilización en moneda extranjera, convertida a moneda nacional vigente.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -8295,7 +8242,7 @@ según su comportamiento.
 
 3. **Nota de Crédito de Cuentas por Cobrar Intercompañía**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento legal que se aplica a la factura de cuentas por
       cobrar intercompañía, realizada a otra empresa también registrada
@@ -8305,7 +8252,7 @@ según su comportamiento.
       
          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de crédito de cuentas por cobrar
       intercompañía se define según su comportamiento, a continuación se
@@ -8699,19 +8646,15 @@ según su comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de crédito fiscal.
-      -  Disminuye el monto total a cancelar de una factura aplicada a
-         empresas pertenecientes a un mismo consorcio.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de crédito fiscal.
+      -  Disminuye el monto total a cancelar de una factura aplicada a empresas pertenecientes a un mismo consorcio.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -8731,7 +8674,7 @@ según su comportamiento.
 
 4. **Nota de Crédito de Cuentas por Cobrar Empleado**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento legal que se aplica a la factura de cuentas por
       cobrar empleado, realizada por la empresa a sus trabajadores por
@@ -8741,7 +8684,7 @@ según su comportamiento.
       
          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de crédito de cuentas por cobrar empleado se
       define según su comportamiento, a continuación se explica el
@@ -9132,19 +9075,15 @@ según su comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de crédito fiscal.
-      -  Disminuye el monto total a cancelar de una factura aplicada a
-         empleados de la empresa.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de crédito fiscal.
+      -  Disminuye el monto total a cancelar de una factura aplicada a empleados de la empresa.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -9164,7 +9103,7 @@ según su comportamiento.
 
 5. **Nota de Crédito de Cuentas por Cobrar Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento legal que se aplica a una factura emitida por la
       empresa a un socio de negocio tipo cliente cuando este adquiere un
@@ -9174,7 +9113,7 @@ según su comportamiento.
       
          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de crédito de cuentas por cobrar indirecta
       se define según su comportamiento, a continuación se explica el
@@ -9565,20 +9504,15 @@ según su comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de crédito fiscal.
-      -  Disminuye el monto total a cancelar de una factura aplicada a
-         clientes que adquieren compromiso de compra con entrega
-         indirecta.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de crédito fiscal.
+      -  Disminuye el monto total a cancelar de una factura aplicada a clientes que adquieren compromiso de compra con entrega indirecta.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -9617,9 +9551,9 @@ ingresos.
 A continuación se definen los diferentes documentos de cobro según su
 comportamiento.
 
-1. **Cobro de Cuentas por Cobrar Nacional**
+#. **Cobro de Cuentas por Cobrar Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       Este tipo de documento se refiere a las cuentas por cobrar que la
       empresa posee con los diferentes socios de negocio a nivel
@@ -9629,7 +9563,7 @@ comportamiento.
       
          Se deben reflejar los cobros de la cuentas por cobrar a nivel nacional, que no tengan nada que ver con reembolsos, viáticos o gastos directos de la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un cobro de cuentas por cobrar nacional se define
       según su comportamiento, a continuación se explica el proceder de
@@ -9784,23 +9718,20 @@ comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja el ingreso monetario a la empresa por la venta de los
-         productos y servicios dentro de Venezuela.
+      -  Refleja el ingreso monetario a la empresa por la venta de los productos y servicios dentro de Venezuela.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 2. **Cobro de Cuentas por Cobrar Internacional**
 
-   1. **Definición**
+   #. **Definición**
 
       Este tipo de documento se refiere a las cuentas por cobrar que la
       empresa posee con los diferentes socios de negocio que se
@@ -9810,7 +9741,7 @@ comportamiento.
       
          Se deben reflejar solamente los cobros de las cuentas por cobrar a clientes ubicados fuera de Venezuela.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un cobro de cuentas por cobrar internacional se
       define según su comportamiento, a continuación se explica el
@@ -9965,24 +9896,20 @@ comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja el ingreso monetario a la empresa por la venta de los
-         productos y servicios fuera de Venezuela.
-      -  Permite su contabilización en moneda extranjera convertida a
-         moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Refleja el ingreso monetario a la empresa por la venta de los productos y servicios fuera de Venezuela.
+      -  Permite su contabilización en moneda extranjera convertida a moneda nacional vigente.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 3. **Cobro de Cuentas por Cobrar Gasto Directo**
 
-   1. **Definición**
+   #. **Definición**
 
       Este tipo de documento se refiere a las cuentas por cobrar que la
       empresa posee como gastos directos. Entendiendo como gasto directo
@@ -9992,7 +9919,7 @@ comportamiento.
       
          Se deben reflejar solamente los cobros referentes a los gastos directos de la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un cobro de cuentas por cobrar gasto directo se
       define según su comportamiento, a continuación se explica el
@@ -10147,23 +10074,20 @@ comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja el ingreso monetario a la empresa por gastos directos
-         que esta obtuvo.
+      -  Refleja el ingreso monetario a la empresa por gastos directos que esta obtuvo.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 4. **Cobro de Cuentas por Cobrar Reembolso**
 
-   1. **Definición**
+   #. **Definición**
 
       Este tipo de documento se refiere a las cuentas por cobrar que la
       empresa posee como reembolso. Entendiendo como reembolso el
@@ -10173,7 +10097,7 @@ comportamiento.
       
          Se deben reflejar solamente los cobros referentes a reembolsos de la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un cobro de cuentas por cobrar reembolso se define
       según su comportamiento, a continuación se explica el proceder de
@@ -10328,23 +10252,20 @@ comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja el ingreso monetario a la empresa por reembolso a la
-         misma.
+      -  Refleja el ingreso monetario a la empresa por reembolso a la misma.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 5. **Cobro de Cuentas por Cobrar Viáticos**
 
-   1. **Definición**
+   #. **Definición**
 
       Este tipo de documento se refiere a las cuentas por cobrar que la
       empresa posee como viáticos. Entiendo como viático una cantidad de
@@ -10355,7 +10276,7 @@ comportamiento.
       
          Se deben reflejar solamente los cobros referentes a viáticos de la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un cobro de cuentas por cobrar viáticos se define
       según su comportamiento, a continuación se explica el proceder de
@@ -10510,17 +10431,14 @@ comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja el ingreso monetario a la empresa por viaticos
-         correspondientes a la misma.
+      -  Refleja el ingreso monetario a la empresa por viaticos correspondientes a la misma.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -10542,9 +10460,9 @@ de los productos del almacén y la entrega a los clientes. Existen cinco
 (5) diferentes entregas y cada una define un comportamiento que a
 continuación se describe.
 
-1. **Entrega Nacional**
+#. **Entrega Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a las entregas de los productos o servicios vendidos a
       clientes ubicados dentro del territorio de Venezuela, estos serán
@@ -10554,7 +10472,7 @@ continuación se describe.
       
          En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la entrega nacional se define según su
       comportamiento, a continuación se explica el proceder de **Entrega
@@ -10792,21 +10710,19 @@ continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la entrega de los productos y servicios a los clientes
-         dentro de Venezuela.
+      -  Refleja la entrega de los productos y servicios a los clientes dentro de Venezuela.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 2. **Entrega Exportación**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a las entregas de los productos o servicios vendidos a
       clientes ubicados en el exterior de Venezuela, estos serán
@@ -10816,7 +10732,7 @@ continuación se describe.
       
          En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la entrega exportación se define según su
       comportamiento, a continuación se explica el proceder de **Entrega
@@ -11055,22 +10971,20 @@ continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la entrega de los productos y servicios a los clientes
-         fuera de Venezuela.
-      -  Permite su contabilización en moneda extranjera convertida a
-         moneda nacional vigente.
+      -  Refleja la entrega de los productos y servicios a los clientes fuera de Venezuela.
+      -  Permite su contabilización en moneda extranjera convertida a moneda nacional vigente.
       -  Aparece reflejado de manera ordenada en la gestión de ventas de
          ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 3. **Entrega Intercompañía**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a los productos o servicios vendidos entre empresas
       pertenecientes al mismo consorcio, la entrega de estos será
@@ -11080,7 +10994,7 @@ continuación se describe.
       
          En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la entrega intercompañía se define según su
       comportamiento, a continuación se explica el proceder de **Entrega
@@ -11319,21 +11233,19 @@ continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la entrega de los productos y servicios a empresas
-         pertenecientes a un mismo consorcio.
+      -  Refleja la entrega de los productos y servicios a empresas pertenecientes a un mismo consorcio.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 4. **Entrega Empleado**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a los productos o servicios que la empresa vende a sus
       trabajadores, la entrega de estos serán dentro de la empresa.
@@ -11342,7 +11254,7 @@ continuación se describe.
       
          En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la entrega empleado se define según su
       comportamiento, a continuación se explica el proceder de **Entrega
@@ -11580,21 +11492,19 @@ continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la entrega de los productos y servicios a empleados de
-         la empresa.
+      -  Refleja la entrega de los productos y servicios a empleados de la empresa.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 5. **Entrega Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a las ventas de productos o servicios que la empresa le
       hace a clientes, pero estos reciben los productos del proveedor.
@@ -11603,7 +11513,7 @@ continuación se describe.
       
          En ADempiere los documentos de entrega controlan el egreso de productos del almacén y los servicios prestados por la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la entrega indirecta se define según su
       comportamiento, a continuación se explica el proceder de **Entrega
@@ -11841,15 +11751,13 @@ continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la entrega de los productos y servicios a los clientes
-         que adquieren compromiso de compra con entrega indirecta.
+      -  Refleja la entrega de los productos y servicios a los clientes que adquieren compromiso de compra con entrega indirecta.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -11861,9 +11769,9 @@ productos a almacén por devolución de los clientes. Existen cinco (5)
 diferentes devoluciones y cada una define un comportamiento que a
 continuación se describe.
 
-1. **Devolución de Cliente Nacional**
+#. **Devolución de Cliente Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a las devoluciones de productos o servicios realizadas
       por los clientes ubicados a nivel nacional. Este proceso es
@@ -11873,7 +11781,7 @@ continuación se describe.
       
          En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la devolución de cliente nacional se define según su
       comportamiento, a continuación se explica el proceder de
@@ -12031,21 +11939,19 @@ continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la devolución de los productos y servicios de los
-         clientes dentro de Venezuela.
+      -  Refleja la devolución de los productos y servicios de los clientes dentro de Venezuela.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         devoluciones de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de devoluciones de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 2. **Devolución de Cliente Exportación**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a las devoluciones de productos o servicios realizadas
       por los clientes ubicados fuera de Venezuela. Este proceso es
@@ -12055,7 +11961,7 @@ continuación se describe.
       
          En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la devolución de cliente exportación se define según
       su comportamiento, a continuación se explica el proceder de
@@ -12214,22 +12120,19 @@ continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la devolución de los productos y servicios de los
-         clientes fuera de Venezuela.
-      -  Permite su contabilización en moneda extranjera convertida a
-         moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         devoluciones de ADempiere.
+      -  Refleja la devolución de los productos y servicios de los clientes fuera de Venezuela.
+      -  Permite su contabilización en moneda extranjera convertida a moneda nacional vigente.
+      -  Aparece reflejado de manera ordenada en la gestión de devoluciones de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 3. **Devolución de Cliente Intercompañía**
 
-   1. **Definición**
+   #. **Definición**
 
       Es cuando una empresa perteneciente al mismo consorcio, devuelve
       los productos o servicios que le fueron entregados anteriormente o
@@ -12239,7 +12142,7 @@ continuación se describe.
       
          En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la devolución de cliente intercompañía se define
       según su comportamiento, a continuación se explica el proceder de
@@ -12398,21 +12301,19 @@ continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la devolución de los productos y servicios de las
-         empresas pertenecientes al mismo consorcio.
+      -  Refleja la devolución de los productos y servicios de las empresas pertenecientes al mismo consorcio.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         devoluciones de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de devoluciones de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 4. **Devolución de Cliente Empleado**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a las devoluciones de productos o servicios realizadas
       por los socios de negocios tipo empleados de la empresa. Este
@@ -12423,7 +12324,7 @@ continuación se describe.
       
          En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la devolución de cliente empleado se define según su
       comportamiento, a continuación se explica el proceder de
@@ -12581,21 +12482,19 @@ continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la devolución de los productos y servicios de los
-         empleados de la empresa.
+      -  Refleja la devolución de los productos y servicios de los empleados de la empresa.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         devoluciones de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de devoluciones de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 5. **Devolución de Cliente Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a la devolución que el cliente realiza de productos o
       servicios ya adquiridos por el mismo de forma indirecta o con
@@ -12605,7 +12504,7 @@ continuación se describe.
       
          En ADempiere los documentos de devolución controlan el ingreso de productos al almacén por devolución de clientes.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la devolución de cliente indirecta se define según su
       comportamiento, a continuación se explica el proceder de
@@ -12763,16 +12662,13 @@ continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la devolución de los productos y servicios de los
-         clientes que adquieren compromiso de compra con entrega
-         indirecta.
+      -  Refleja la devolución de los productos y servicios de los clientes que adquieren compromiso de compra con entrega indirecta.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         devoluciones de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de devoluciones de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -12791,9 +12687,9 @@ En ADempiere es posible solicitar los productos y servicios que el
 departamento necesita por medio del documento de requisición, este se
 define según su comportamiento y se describe a continuación.
 
-1. **Requisición de Compra Nacional**
+#. **Requisición de Compra Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       El documento de requisición de compra nacional es donde se
       solicita al departamento de compra los productos o servicios
@@ -12806,7 +12702,7 @@ define según su comportamiento y se describe a continuación.
       
          Si el estado del documento no esta en "Completo", no es válido para ADempiere, por lo tanto al momento de realizar la orden de compra no se reflejará.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la requisición de compra nacional se define según su
       comportamiento, a continuación se explica el proceder de
@@ -12951,20 +12847,18 @@ define según su comportamiento y se describe a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera una solicitud de productos y servicios nacionales al
-         departamento de compras de la empresa.
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Genera una solicitud de productos y servicios nacionales al departamento de compras de la empresa.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 2. **Requisición de Compra Importación**
 
-   1. **Definición**
+   #. **Definición**
 
       El documento de requisición de compra importación es donde se
       solicita al departamento de compra los productos o servicios
@@ -12977,7 +12871,7 @@ define según su comportamiento y se describe a continuación.
       
          Si el estado del documento no esta en "Completo", no es válido para ADempiere, por lo tanto al momento de realizar la orden de compra no se reflejará.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la requisición de compra importación se define según
       su comportamiento, a continuación se explica el proceder de
@@ -13123,14 +13017,12 @@ define según su comportamiento y se describe a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera una solicitud de productos y servicios extranjeros al
-         departamento de compras de la empresa.
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Genera una solicitud de productos y servicios extranjeros al departamento de compras de la empresa.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -13154,9 +13046,9 @@ teniendo los datos de los productos que se desean solicitar al
 proveedor, de igual manera, se puede realizar desde una requisición
 elaborada por el departamento que necesite dichos productos o servicios.
 
-1. **Orden de Compra Nacional**
+#. **Orden de Compra Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       Una orden de compra nacional es realizada a los socios de negocios
       tipo proveedor que se encuentren dentro del territorio de
@@ -13167,7 +13059,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
       
          Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la orden de compra nacional se define según su
       comportamiento, a continuación se explica el proceder de la
@@ -13340,22 +13232,19 @@ elaborada por el departamento que necesite dichos productos o servicios.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite su creación a partir de una requisición de compra
-         nacional previamente realizada.
-      -  Permite generar entregas de los productos comprados dentro de
-         Venezuela por medio de esta.
-      -  Permite generar facturas de los productos comprados dentro de
-         Venezuela por medio de esta.
+      -  Permite su creación a partir de una requisición de compra nacional previamente realizada.
+      -  Permite generar entregas de los productos comprados dentro de Venezuela por medio de esta.
+      -  Permite generar facturas de los productos comprados dentro de Venezuela por medio de esta.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 2. **Orden de Compra Importación**
 
-   1. **Definición**
+   #. **Definición**
 
       Una orden de compra importación es realizada a los socios de
       negocios tipo proveedor que se encuentren fuera del territorio de
@@ -13366,7 +13255,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
       
          Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la orden de compra importación se define según su
       comportamiento, a continuación se explica el proceder de la
@@ -13540,22 +13429,19 @@ elaborada por el departamento que necesite dichos productos o servicios.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite su creación a partir de una requisición de compra
-         importación previamente realizada.
-      -  Permite generar entregas de los productos comprados fuera de
-         Venezuela por medio de esta.
-      -  Permite generar facturas de los productos comprados fuera de
-         Venezuela por medio de esta.
+      -  Permite su creación a partir de una requisición de compra importación previamente realizada.
+      -  Permite generar entregas de los productos comprados fuera de Venezuela por medio de esta.
+      -  Permite generar facturas de los productos comprados fuera de Venezuela por medio de esta.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 3. **Orden de Compra Intercompañía**
 
-   1. **Definición**
+   #. **Definición**
 
       Una orden de compra intercompañía es realizada por la empresa
       cuando el socio del negocio tipo proveedor es otra empresa
@@ -13567,7 +13453,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
       
          Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la orden de compra intercompañía se define según su
       comportamiento, a continuación se explica el proceder de la
@@ -13741,22 +13627,18 @@ elaborada por el departamento que necesite dichos productos o servicios.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite generar entregas de productos y servicios comprados a
-         otras empresas pertenecientes al mismo consorcio, por medio de
-         esta.
-      -  Permite generar facturas de productos y servicios comprados a
-         otras empresas pertenecientes al mismo consorcio, por medio de
-         esta.
+      -  Permite generar entregas de productos y servicios comprados a otras empresas pertenecientes al mismo consorcio, por medio de esta.
+      -  Permite generar facturas de productos y servicios comprados a otras empresas pertenecientes al mismo consorcio, por medio de esta.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 4. **Orden de Compra Empleado**
 
-   1. **Definición**
+   #. **Definición**
 
       Una orden de compra empleado es realizada por la empresa a los
       socios de negocios tipo empleado que posee la misma, donde se
@@ -13767,7 +13649,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
       
          Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la orden de compra empleado se define según su
       comportamiento, a continuación se explica el proceder de la
@@ -13940,20 +13822,18 @@ elaborada por el departamento que necesite dichos productos o servicios.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite generar entregas de productos y servicios comprados a
-         empleados de la empresa, por medio de esta.
-      -  Permite generar facturas de productos y servicios comprados a
-         empleados de la empresa, por medio de esta.
+      -  Permite generar entregas de productos y servicios comprados a empleados de la empresa, por medio de esta.
+      -  Permite generar facturas de productos y servicios comprados a empleados de la empresa, por medio de esta.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 5. **Orden de Compra Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
       Una orden de compra indirecta es realizada por la empresa cuando
       la misma adquiere un compromiso de compra con entrega indirecta,
@@ -13964,7 +13844,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
       
          Es un documento en el que se especifican los productos o servicios que los diferentes departamentos de la empresa necesitan para realizar su proceso dentro de la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la orden de compra indirecta se define según su
       comportamiento, a continuación se explica el proceder de la
@@ -14137,16 +14017,12 @@ elaborada por el departamento que necesite dichos productos o servicios.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite generar por medio de esta, entregas de productos y
-         servicios adquiridos con compromiso de compra con entrega
-         indirecta.
-      -  Permite generar por medio de esta, facturas de productos y
-         servicios adquiridos con compromiso de compra con entrega
-         indirecta.
+      -  Permite generar por medio de esta, entregas de productos y servicios adquiridos con compromiso de compra con entrega indirecta.
+      -  Permite generar por medio de esta, facturas de productos y servicios adquiridos con compromiso de compra con entrega indirecta.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -14158,9 +14034,9 @@ necesita devolver uno, varios, o todos los productos de la compra
 realizada, independientemente de los motivos que conlleven a la
 devolución requerida.
 
-1. **Autorización Devolución Cliente Nacional**
+#. **Autorización Devolución Cliente Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       Es el documento que autoriza la devolución de uno, varios, o todos
       los productos y servicios obtenidos por la venta realizada al
@@ -14171,7 +14047,7 @@ devolución requerida.
       
          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la autorización devolución cliente nacional se define
       según su comportamiento, a continuación se explica el proceder de
@@ -14322,19 +14198,18 @@ devolución requerida.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Autoriza la devolución de los productos y servicios incluidos
-         en el documento, luego de una evaluación de los mismos.
+      -  Autoriza la devolución de los productos y servicios incluidos en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución cliente.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 2. **Autorización Devolución Cliente Exportación**
 
-   1. **Definición**
+   #. **Definición**
 
       Es el documento que autoriza la devolución de uno, varios, o todos
       los productos y servicios obtenidos por la venta realizada al
@@ -14345,7 +14220,7 @@ devolución requerida.
       
          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la autorización devolución cliente exportación se
       define según su comportamiento, a continuación se explica el
@@ -14498,19 +14373,18 @@ devolución requerida.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Autoriza la devolución de los productos y servicios incluidos
-         en el documento, luego de una evaluación de los mismos.
+      -  Autoriza la devolución de los productos y servicios incluidos en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución cliente.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 3. **Autorización Devolución Cliente Intercompañía**
 
-   1. **Definición**
+   #. **Definición**
 
       Es el documento que autoriza la devolución de uno, varios, o todos
       los productos y servicios obtenidos por la venta que la empresa le
@@ -14522,7 +14396,7 @@ devolución requerida.
       
          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la autorización devolución cliente intercompañía se
       define según su comportamiento, a continuación se explica el
@@ -14675,19 +14549,18 @@ devolución requerida.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Autoriza la devolución de los productos y servicios incluidos
-         en el documento, luego de una evaluación de los mismos.
+      -  Autoriza la devolución de los productos y servicios incluidos en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución cliente.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 4. **Autorización Devolución Cliente Empleado**
 
-   1. **Definición**
+   #. **Definición**
 
       Es el documento que autoriza la devolución de uno, varios, o todos
       los productos y servicios obtenidos por la venta que la empresa le
@@ -14698,7 +14571,7 @@ devolución requerida.
       
          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la autorización devolución cliente Empleado se define
       según su comportamiento, a continuación se explica el proceder de
@@ -14849,19 +14722,18 @@ devolución requerida.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Autoriza la devolución de los productos y servicios incluidos
-         en el documento, luego de una evaluación de los mismos.
+      -  Autoriza la devolución de los productos y servicios incluidos en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución cliente.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 5. **Autorización Devolución Cliente Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
       Es el documento que autoriza la devolución de uno, varios, o todos
       los productos y servicios obtenidos por la venta realizada con
@@ -14872,7 +14744,7 @@ devolución requerida.
       
          Toda autorización de devolución es realizada por el jefe del departamento de compra o venta, según sea el caso.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la autorización devolución cliente indirecta se
       define según su comportamiento, a continuación se explica el
@@ -15023,13 +14895,12 @@ devolución requerida.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Autoriza la devolución de los productos y servicios incluidos
-         en el documento, luego de una evaluación de los mismos.
+      -  Autoriza la devolución de los productos y servicios incluidos en el documento, luego de una evaluación de los mismos.
       -  Permite que se genere el documento de devolución cliente.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -15059,9 +14930,9 @@ importación, pro-forma, intercompañía, empleado, manual y indirecta, en
 ese orden de ideas serán explicados los comportamientos de los tipos de
 facturas.
 
-1. **Factura de Cuentas por Pagar Nacional**
+#. **Factura de Cuentas por Pagar Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       La factura nacional es un documento que se emite por la compra de
       productos o adquisición de servicios encontrados dentro del
@@ -15072,7 +14943,7 @@ facturas.
       
          Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una factura de cuentas por pagar nacional se define
       según su comportamiento, a continuación se explica el proceder de
@@ -15240,15 +15111,13 @@ facturas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -15321,7 +15190,7 @@ facturas.
 
 2. **Factura de Cuentas por Pagar Importación**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere una factura de cuentas por pagar importación es un
       documento que se genera por la compra de productos o adquisición
@@ -15333,7 +15202,7 @@ facturas.
       
          Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una factura de cuentas por pagar importación se
       define según su comportamiento, a continuación se explica el
@@ -15503,16 +15372,13 @@ facturas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
-      -  Permite su contabilización en moneda extranjera convertida a
-         moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
+      -  Permite su contabilización en moneda extranjera convertida a moneda nacional vigente.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -15531,7 +15397,7 @@ facturas.
 
 3. **Factura de Cuentas por Pagar Pro Forma**
 
-   1. **Definición**
+   #. **Definición**
 
       Es una factura que a diferencia de la nacional, esta no es fiscal.
       Para ADempiere es una factura de estado borrador donde se plantean
@@ -15544,7 +15410,7 @@ facturas.
       
          Para ADempiere es un documento sin validez legal, simplemente es un documento de común acuerdo entre comprador y vendedor.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una factura de cuentas por pagar pro forma se define
       según su comportamiento, a continuación se explica el proceder de
@@ -15693,15 +15559,13 @@ facturas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -15777,7 +15641,7 @@ facturas.
 
 4. **Factura de Cuentas por Pagar Intercompañía**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere una factura de cuentas por pagar intercompañía se
       emite cuando la empresa le compra productos o adquiere servicios
@@ -15789,7 +15653,7 @@ facturas.
       
          Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una factura de cuentas por pagar intercompañía se
       define según su comportamiento, a continuación se explica el
@@ -15959,15 +15823,13 @@ facturas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -16044,7 +15906,7 @@ facturas.
 
 5. **Factura de Cuentas por Pagar Empleado**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es una factura donde se reflejan las deudas que la
       empresa tiene con el empleado al cual le realizo la compra de los
@@ -16055,7 +15917,7 @@ facturas.
       
          Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una factura de cuentas por pagar empleado se define
       según su comportamiento, a continuación se explica el proceder de
@@ -16223,15 +16085,13 @@ facturas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -16304,7 +16164,7 @@ facturas.
 
 6. **Factura de Cuentas por Pagar Manual**
 
-   1. **Definición**
+   #. **Definición**
 
       Es posible generar las facturas de forma manual, ADempiere brinda
       la opción de escoger las órdenes de compra de las cuales se desea
@@ -16318,7 +16178,7 @@ facturas.
       
          Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una factura de cuentas por pagar manual se define
       según su comportamiento, a continuación se explica el proceder de
@@ -16506,15 +16366,13 @@ facturas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -16587,7 +16445,7 @@ facturas.
 
 7. **Factura de Cuentas por Pagar Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento fiscal que le realiza el proveedor a la empresa
       cuando esta adquiere un compromiso de compra con entrega
@@ -16600,7 +16458,7 @@ facturas.
       
          Para ADempiere es importante porque representa los egresos monetarios por la compra de los productos y servicios. Además, en ella se reflejan los impuestos asociados a la compra.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una factura de cuentas por pagar indirecta se define
       según su comportamiento, a continuación se explica el proceder de
@@ -16768,15 +16626,13 @@ facturas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -16856,9 +16712,9 @@ crédito o de débito. A continuación se define el comportamiento de un
 ajuste de débito y un ajuste de crédito de cuentas por pagar en
 ADempiere.
 
-1. **Ajuste de Débito de Cuentas por Pagar**
+#. **Ajuste de Débito de Cuentas por Pagar**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere, este documento representa la deuda o la cantidad de
       dinero que la empresa le debe pagar al socio de negocio,
@@ -16869,7 +16725,7 @@ ADempiere.
       
          Este documento permite controlar las deudas que la empresa contrae con los socios de negocios tipo proveedor por la compra de productos o servicios.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un ajuste de débito de cuentas por pagar se define
       según su comportamiento, a continuación se explica el proceder de
@@ -16997,18 +16853,15 @@ ADempiere.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
       -  Incrementa el saldo deudor de la empresa.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Disminuye el monto de un ajuste de crédito, creando un cruce de
-         cuentas.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Disminuye el monto de un ajuste de crédito, creando un cruce de cuentas.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -17028,7 +16881,7 @@ ADempiere.
 
 2. **Ajuste de Crédito de Cuentas por Pagar**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere, este documento representa la deuda o la cantidad de
       dinero que el socio de negocio le debe reintegrar a la empresa.
@@ -17039,7 +16892,7 @@ ADempiere.
       
          Este documento permite controlar las deudas de los socios de negocios tipo proveedor con la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un ajuste de crédito de cuentas por pagar se define
       según su comportamiento, a continuación se explica el proceder de
@@ -17167,18 +17020,15 @@ ADempiere.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
       -  Decrementa el saldo deudor de la empresa.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Aumenta el monto de un ajuste de débito, creando un cruce de
-         cuentas.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Aumenta el monto de un ajuste de débito, creando un cruce de cuentas.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -17206,9 +17056,9 @@ o una nota de crédito. Actualmente en ADempiere se utilizan cinco (5)
 diferentes notas de débito como nacional, importación, intercompañía,
 empleado e indirectas.
 
-1. **Nota de Débito de Cuentas por Pagar Nacional**
+#. **Nota de Débito de Cuentas por Pagar Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere una nota de débito en cuentas por pagar nacional es
       utilizada para generar un aumento en el monto de la deuda de la
@@ -17219,7 +17069,7 @@ empleado e indirectas.
       
          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de débito de cuentas por pagar nacional se
       define según su comportamiento, a continuación se explica el
@@ -17391,20 +17241,16 @@ empleado e indirectas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
-      -  Genera un aumento en el monto total a cancelar de la factura
-         nacional.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
+      -  Genera un aumento en el monto total a cancelar de la factura nacional.
       -  Genera una nota de débito fiscal.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Disminuye el monto de una nota de crédito, creando un cruce de
-         cuentas.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Disminuye el monto de una nota de crédito, creando un cruce de cuentas.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -17424,7 +17270,7 @@ empleado e indirectas.
 
 2. **Nota de Débito de Cuentas por Pagar Importación**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es un documento legal idéntico a la nota de débito
       nacional, con la diferencia de que por ser de importación su monto
@@ -17435,7 +17281,7 @@ empleado e indirectas.
       
          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de débito de cuentas por pagar importación
       se define según su comportamiento, a continuación se explica el
@@ -17608,21 +17454,16 @@ empleado e indirectas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
-      -  Genera un aumento en el monto total a cancelar de la factura
-         importación.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
+      -  Genera un aumento en el monto total a cancelar de la factura importación.
       -  Genera una nota de débito fiscal.
-      -  Permite su contabilización en moneda extranjera convertida a
-         moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Disminuye el monto de una nota de crédito, creando un cruce de
-         cuentas.
+      -  Permite su contabilización en moneda extranjera convertida a moneda nacional vigente.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Disminuye el monto de una nota de crédito, creando un cruce de cuentas.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -17642,7 +17483,7 @@ empleado e indirectas.
 
 3. **Nota de Débito de Cuentas por Pagar Intercompañía**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere es un documento que se realiza para generar un
       aumento a facturas de cuentas por pagar intercompañía que
@@ -17652,7 +17493,7 @@ empleado e indirectas.
       
          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de débito de cuentas por pagar intercompañía
       se define según su comportamiento, a continuación se explica el
@@ -17825,20 +17666,16 @@ empleado e indirectas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
-      -  Genera un aumento en el monto total a cancelar de la factura
-         intercompañía.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
+      -  Genera un aumento en el monto total a cancelar de la factura intercompañía.
       -  Genera una nota de débito fiscal.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Disminuye el monto de una nota de crédito, creando un cruce de
-         cuentas.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Disminuye el monto de una nota de crédito, creando un cruce de cuentas.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -17858,7 +17695,7 @@ empleado e indirectas.
 
 4. **Nota de Débito de Cuentas por Pagar Empleado**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere se utiliza este documento para generar una nota de
       débito a la factura de cuentas por pagar empleado, aumentando el
@@ -17869,7 +17706,7 @@ empleado e indirectas.
       
          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de débito de cuentas por pagar empleado se
       define según su comportamiento, a continuación se explica el
@@ -18041,20 +17878,16 @@ empleado e indirectas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
-      -  Genera un aumento en el monto total a cancelar de la factura
-         empleado.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
+      -  Genera un aumento en el monto total a cancelar de la factura empleado.
       -  Genera una nota de débito fiscal.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Disminuye el monto de una nota de crédito, creando un cruce de
-         cuentas.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Disminuye el monto de una nota de crédito, creando un cruce de cuentas.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -18074,7 +17907,7 @@ empleado e indirectas.
 
 5. **Nota de Débito de Cuentas por Pagar Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento fiscal emitido en moneda nacional, que refleja un
       aumento en el monto a cancelar de una factura de cuentas por pagar
@@ -18084,7 +17917,7 @@ empleado e indirectas.
       
          Se genera a causa de gastos administrativos, interés por mora o otros gastos, aumentando de esta manera el monto de la factura y manteniendo con esto su contabilización en ADempiere.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de débito de cuentas por pagar indirecta se
       define según su comportamiento, a continuación se explica el
@@ -18255,20 +18088,16 @@ empleado e indirectas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
-      -  Genera un aumento en el monto total a cancelar de la factura
-         indirecta.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
+      -  Genera un aumento en el monto total a cancelar de la factura indirecta.
       -  Genera una nota de débito fiscal.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Disminuye el monto de una nota de crédito, creando un cruce de
-         cuentas.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Disminuye el monto de una nota de crédito, creando un cruce de cuentas.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -18304,7 +18133,7 @@ comportamiento en el mismo.
 
 1.  **Retención de IVA 75% de Cuentas por Pagar**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es posible generar una retención del setenta y cinco
        (75) por ciento (%) del IVA que posee una factura emitida por el
@@ -18315,7 +18144,7 @@ comportamiento en el mismo.
       
          En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere una Retención de IVA en cuentas por pagar se define
        según su comportamiento, a continuación se explica el proceder de
@@ -18533,18 +18362,15 @@ comportamiento en el mismo.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Genera un documento de retención de IVA aplicado a una factura
-          de acuerdo a lo establecido en la ley del impuesto al valor
-          agregado.
-       -  Aparece reflejado de manera ordenada en la gestión de
-          retenciones de ADempiere.
+       -  Genera un documento de retención de IVA aplicado a una factura  de acuerdo a lo establecido en la ley del impuesto al valor  agregado.
+       -  Aparece reflejado de manera ordenada en la gestión de  retenciones de ADempiere.
        -  Permite su contabilización en moneda nacional vigente.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
 
@@ -18557,7 +18383,7 @@ comportamiento en el mismo.
 
 2.  **Retención de IVA 100% de Cuentas por Pagar**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es posible generar una retención del cien (100) por
        ciento (%) del IVA que posee una factura emitida por el
@@ -18568,7 +18394,7 @@ comportamiento en el mismo.
        
          En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere una retención de IVA en cuentas por pagar se define
        según su comportamiento, a continuación se explica el proceder de
@@ -18786,18 +18612,15 @@ comportamiento en el mismo.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Genera un documento de retención de IVA aplicado a una factura
-          de acuerdo a lo establecido en la ley del impuesto al valor
-          agregado.
-       -  Aparece reflejado de manera ordenada en la gestión de
-          retenciones de ADempiere.
+       -  Genera un documento de retención de IVA aplicado a una factura  de acuerdo a lo establecido en la ley del impuesto al valor  agregado.
+       -  Aparece reflejado de manera ordenada en la gestión de  retenciones de ADempiere.
        -  Permite su contabilización en moneda nacional vigente.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
 
@@ -18810,7 +18633,7 @@ comportamiento en el mismo.
 
 3.  **Retención de ISLR de Cuentas por Pagar**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es posible generar una retención del ISLR que posee
        una factura emitida por el proveedor, para ello se deben tener
@@ -18820,7 +18643,7 @@ comportamiento en el mismo.
       
          En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere una retención de ISLR en cuentas por pagar se define
        según su comportamiento, a continuación se explica el proceder de
@@ -19034,18 +18857,15 @@ comportamiento en el mismo.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Genera un documento de retención de ISLR aplicado a una
-          factura de acuerdo a lo establecido en la ley de impuesto
-          sobre la renta.
-       -  Aparece reflejado de manera ordenada en la gestión de
-          retenciones de ADempiere.
+       -  Genera un documento de retención de ISLR aplicado a una  factura de acuerdo a lo establecido en la ley de impuesto  sobre la renta.
+       -  Aparece reflejado de manera ordenada en la gestión de  retenciones de ADempiere.
        -  Permite su contabilización en moneda nacional vigente.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
 
@@ -19097,7 +18917,7 @@ comportamiento en el mismo.
 
 4.  **Retención Municipal de Cuentas por Pagar**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es posible generar una retención municipal a una
        factura emitida por el proveedor, para ello se deben tener
@@ -19107,7 +18927,7 @@ comportamiento en el mismo.
       
          En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere una retención municipal en cuentas por pagar se
        define según su comportamiento, a continuación se explica el
@@ -19323,24 +19143,21 @@ comportamiento en el mismo.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Genera un documento de retención municipal aplicado a una
-          factura de acuerdo a lo establecido en la ley de retencion
-          municipal correspondiente a cada municipio.
-       -  Aparece reflejado de manera ordenada en la gestión de
-          retenciones de ADempiere.
+       -  Genera un documento de retención municipal aplicado a una  factura de acuerdo a lo establecido en la ley de retencion  municipal correspondiente a cada municipio.
+       -  Aparece reflejado de manera ordenada en la gestión de  retenciones de ADempiere.
        -  Permite su contabilización en moneda nacional vigente.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
 5.  **Retención de IVA 75% para Nota de Crédito de CxP**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es posible generar una retención del setenta y cinco
        (75) por ciento (%) del IVA que posee una nota de crédito emitida
@@ -19351,7 +19168,7 @@ comportamiento en el mismo.
       
          En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere una Retención de IVA para nota de crédito en cuentas
        por pagar se define según su comportamiento, a continuación se
@@ -19569,18 +19386,15 @@ comportamiento en el mismo.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Genera un documento de retención de IVA aplicado a una nota de
-          crédito de acuerdo a lo establecido en la ley del impuesto al
-          valor agregado.
-       -  Aparece reflejado de manera ordenada en la gestión de
-          retenciones de ADempiere.
+       -  Genera un documento de retención de IVA aplicado a una nota de  crédito de acuerdo a lo establecido en la ley del impuesto al  valor agregado.
+       -  Aparece reflejado de manera ordenada en la gestión de  retenciones de ADempiere.
        -  Permite su contabilización en moneda nacional vigente.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto de la nota de crédito de cuentas por pagar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
 
@@ -19593,7 +19407,7 @@ comportamiento en el mismo.
 
 6.  **Retención de IVA 100% para Nota de Crédito de CxP**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es posible generar una retención del cien (100) por
        ciento (%) del IVA que posee una nota de crédito emitida por el
@@ -19604,7 +19418,7 @@ comportamiento en el mismo.
       
          En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere una Retención de IVA para nota de crédito en cuentas
        por pagar se define según su comportamiento, a continuación se
@@ -19823,18 +19637,15 @@ comportamiento en el mismo.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Genera un documento de retención de IVA aplicado a una nota de
-          crédito de acuerdo a lo establecido en la ley del impuesto al
-          valor agregado.
-       -  Aparece reflejado de manera ordenada en la gestión de
-          retenciones de ADempiere.
+       -  Genera un documento de retención de IVA aplicado a una nota de  crédito de acuerdo a lo establecido en la ley del impuesto al  valor agregado.
+       -  Aparece reflejado de manera ordenada en la gestión de  retenciones de ADempiere.
        -  Permite su contabilización en moneda nacional vigente.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto de la nota de crédito de cuentas por pagar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
 
@@ -19847,7 +19658,7 @@ comportamiento en el mismo.
 
 7.  **Retención de ISLR para Nota de Crédito de CxP**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es posible generar una retención del ISLR que posee
        una nota de crédito emitida por el proveedor, para ello se deben
@@ -19857,7 +19668,7 @@ comportamiento en el mismo.
       
          En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere una retención de ISLR para nota de crédito en
        cuentas por pagar se define según su comportamiento, a
@@ -20072,18 +19883,15 @@ comportamiento en el mismo.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Genera un documento de retención de ISLR aplicado a una nota
-          de crédito de acuerdo a lo establecido en la ley de impuesto
-          sobre la renta.
-       -  Aparece reflejado de manera ordenada en la gestión de
-          retenciones de ADempiere.
+       -  Genera un documento de retención de ISLR aplicado a una nota  de crédito de acuerdo a lo establecido en la ley de impuesto  sobre la renta.
+       -  Aparece reflejado de manera ordenada en la gestión de  retenciones de ADempiere.
        -  Permite su contabilización en moneda nacional vigente.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto de la nota de crédito de cuentas por pagar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
 
@@ -20135,7 +19943,7 @@ comportamiento en el mismo.
 
 8.  **Retención Municipal para Nota de Crédito de CxP**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es posible generar una retención municipal a una
        nota de crédito emitida por el proveedor, para ello se deben
@@ -20145,7 +19953,7 @@ comportamiento en el mismo.
       
          En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere una retención municipal para nota de crédito en
        cuentas por pagar se define según su comportamiento, a
@@ -20360,24 +20168,21 @@ comportamiento en el mismo.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Genera un documento de retención municipal aplicado a una nota
-          de crédito de acuerdo a lo establecido en la ley de retencion
-          municipal correspondiente a cada municipio.
-       -  Aparece reflejado de manera ordenada en la gestión de
-          retenciones de ADempiere.
+       -  Genera un documento de retención municipal aplicado a una nota  de crédito de acuerdo a lo establecido en la ley de retencion  municipal correspondiente a cada municipio.
+       -  Aparece reflejado de manera ordenada en la gestión de  retenciones de ADempiere.
        -  Permite su contabilización en moneda nacional vigente.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto de la nota de crédito de cuentas por pagar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
 9.  **Declaración de IVA de Cuentas por Pagar**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es posible generar retenciones de IVA a proveedores,
        al ser presentadas ante el "**SENIAT**" son consideradas
@@ -20389,7 +20194,7 @@ comportamiento en el mismo.
       
          En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere una declaración de IVA de cuentas por pagar se
        define según su comportamiento, a continuación se explica el
@@ -20530,18 +20335,15 @@ comportamiento en el mismo.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Genera un documento involucrando todas las retenciones de IVA
-          que la empresa aplicó a sus proveedores de acuerdo a lo
-          establecido en la ley del impuesto al valor agregado.
-       -  Aparece reflejado de manera ordenada en la gestión de
-          retenciones de ADempiere.
+       -  Genera un documento involucrando todas las retenciones de IVA  que la empresa aplicó a sus proveedores de acuerdo a lo  establecido en la ley del impuesto al valor agregado.
+       -  Aparece reflejado de manera ordenada en la gestión de  retenciones de ADempiere.
        -  Permite su contabilización en moneda nacional vigente.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en Gaceta Oficial N° 41.546 de fecha 14 de diciembre de 2018 la cual dicta la providencia administrativa que establece el calendario de sujetos pasivos especiales y agentes de retención para aquellas obligaciones que deben cumplirse para el año 2019: 
 
@@ -20556,7 +20358,7 @@ comportamiento en el mismo.
 
 10. **Declaración de ISLR de Cuentas por Pagar**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es posible generar retenciones de ISLR a
        proveedores, al ser presentadas ante el "**SENIAT**" son
@@ -20568,7 +20370,7 @@ comportamiento en el mismo.
       
          En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere una declaración de ISLR en cuentas por pagar se
        define según su comportamiento, a continuación se explica el
@@ -20709,18 +20511,15 @@ comportamiento en el mismo.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Genera un documento involucrando todas las retenciones de ISLR
-          que la empresa aplicó a sus proveedores de acuerdo a lo
-          establecido en la ley del impuesto al valor agregado.
-       -  Aparece reflejado de manera ordenada en la gestión de
-          retenciones de ADempiere.
+       -  Genera un documento involucrando todas las retenciones de ISLR  que la empresa aplicó a sus proveedores de acuerdo a lo  establecido en la ley del impuesto al valor agregado.
+       -  Aparece reflejado de manera ordenada en la gestión de  retenciones de ADempiere.
        -  Permite su contabilización en moneda nacional vigente.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en Gaceta Oficial N° 41.546 de fecha 14 de diciembre de 2018 la cual dicta la providencia administrativa que establece el calendario de sujetos pasivos especiales y agentes de retención para aquellas obligaciones que deben cumplirse para el año 2019: 
 
@@ -20733,9 +20532,9 @@ comportamiento en el mismo.
 
            - **Artículo 2:** En el caso que cualquiera de las fechas programadas en esta Providencia Administrativa, coincida con un día declarado feriado por el Ejecutivo Nacional, Estadal o Municipal, la declaración y/o pago correspondiente deberá presentarse al día hábil siguiente.
 
-11. **Declaración Municipal de Cuentas por Pagar**
+#. **Declaración Municipal de Cuentas por Pagar**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es posible generar retenciones municipales a
        proveedores, al ser presentadas ante el "**SENIAT**" son
@@ -20747,7 +20546,7 @@ comportamiento en el mismo.
       
          En ADempiere es importante realizar el proceso para configurar las retenciones y así puedan ser generadas al momento de la retención ya que esta es la prueba ante el "**SENIAT**" de que se esta cumpliendo con lo establecido en la ley. Este documento asegura al ente público "**SENIAT**" que de verdad la empresa realizó el pago de las retenciones.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere una declaración municipal de cuentas por pagar se
        define según su comportamiento, a continuación se explica el
@@ -20889,18 +20688,15 @@ comportamiento en el mismo.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Genera un documento involucrando todas las retenciones
-          municipales que la empresa aplicó a sus proveedores de acuerdo
-          a lo establecido en la ley del impuesto al valor agregado.
-       -  Aparece reflejado de manera ordenada en la gestión de
-          retenciones de ADempiere.
+       -  Genera un documento involucrando todas las retenciones  municipales que la empresa aplicó a sus proveedores de acuerdo  a lo establecido en la ley del impuesto al valor agregado.
+       -  Aparece reflejado de manera ordenada en la gestión de  retenciones de ADempiere.
        -  Permite su contabilización en moneda nacional vigente.
        -  Permite controlar las retenciones a declarar.
        -  Aumenta el monto a pagar de la factura de cuentas por pagar.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
@@ -20913,9 +20709,9 @@ establece en el pagaré.
 
 El tiempo mayormente utilizado para un pagaré es 30, 60 y 90 días.
 
-1. **Pagaré Bancario de Cuentas por Pagar**
+#. **Pagaré Bancario de Cuentas por Pagar**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere el tipo de documento pagaré bancario es realizado en
       "**Documentos por Pagar**", seleccionando como tipo de documento
@@ -20926,7 +20722,7 @@ El tiempo mayormente utilizado para un pagaré es 30, 60 y 90 días.
       
          Refleja las deudas a corto plazo que la empresa tiene con un determinado socio de negocio tipo proveedor.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un pagaré bancario de cuentas por pagar se define
       según su comportamiento, a continuación se explica el proceder de
@@ -21039,16 +20835,14 @@ El tiempo mayormente utilizado para un pagaré es 30, 60 y 90 días.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
       -  Genera deudas a la empresa por prestamos solicitados.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en el código de comercio, decretado en gaceta extraordinaria N° 475 del 21 de diciembre de 1955.
 
@@ -21082,9 +20876,9 @@ préstamos, créditos y depósitos, donde el banco como acreedor impone a
 la empresa como deudor un porcentaje (%) de dinero extra para compensar
 económicamente la disponibilidad de su dinero.
 
-1. **Interés Bancario de Cuentas por Pagar**
+#. **Interés Bancario de Cuentas por Pagar**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere el prorcentaje de interés bancario es aplicado junto
       con el monto a pagar en el momento, es decir, cada vez que la
@@ -21095,7 +20889,7 @@ económicamente la disponibilidad de su dinero.
       
          Refleja los intereses que la empresa debe pagar por retraso de pago o por préstamo. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere los interés bancario de cuentas por pagar se definen
       según su comportamiento, a continuación se explica el proceder de
@@ -21208,17 +21002,14 @@ económicamente la disponibilidad de su dinero.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Genera intereses a las deudas de la empresa por prestamos
-         solicitados.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Genera intereses a las deudas de la empresa por prestamos solicitados.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -21232,9 +21023,9 @@ que los ayudan a regular los procesos y la conducta social de las
 personas. Así mismo, estos entes gubernamentales se encargan del
 cumplimiento de las normativas establecidas.
 
-1. **Cuentas por Pagar Gubernamental**
+#. **Cuentas por Pagar Gubernamental**
 
-   1. **Definición**
+   #. **Definición**
 
       El documento cuentas por pagar gubernamental, es definido según su
       comportamiento en ADempiere y utilizado para las deudas de la
@@ -21248,7 +21039,7 @@ cumplimiento de las normativas establecidas.
       
          Es importante que las organizaciones cumplan con sus obligaciones con el estado ya que, los entes gubernamentales prestan un servico social a las organizaciones y estas, por así decirlo, deben pagar por la adquisición de los mismos.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una cuenta por pagar gubernamental se define según su
       comportamiento, a continuación se explica el proceder de **CxP
@@ -21364,17 +21155,14 @@ cumplimiento de las normativas establecidas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Genera un incremento de las deudas de la empresa
-         correspondiente a entes gubernamentales.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Genera un incremento de las deudas de la empresa correspondiente a entes gubernamentales.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la Gaceta Oficial N° 30.800 en la cual se decreta la ley que establece el regimen para la conciliación, compensación y pagos de deudas entre organismos gubernamentales y entre estos y los estados o los municipios.
 
@@ -21430,9 +21218,9 @@ en algunas ocasiones inversiones, ya que la empresa puede gastar una
 cantidad de dinero en materia prima pero luego de la producción y venta
 ese dinero se reintegra con ganancias.
 
-1. **Cuentas por Pagar Gastos**
+#. **Cuentas por Pagar Gastos**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere los gastos representan egresos monetarios, que muchas
       veces a futuro son recuperados. A continuación se define su
@@ -21442,7 +21230,7 @@ ese dinero se reintegra con ganancias.
       
          Representan egresos monetarios por deudas o muchas veces inversiones.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere las cuentas por pagar gastos se definen según su
       comportamiento, a continuación se explica el proceder de **CxP
@@ -21557,17 +21345,14 @@ ese dinero se reintegra con ganancias.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Genera un incremento de las deudas de la empresa
-         correspondiente a gastos de la misma.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Genera un incremento de las deudas de la empresa correspondiente a gastos de la misma.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -21588,9 +21373,9 @@ comportamiento.
 A continuación se definen las notas de crédito de cuentas por pagar
 según su comportamiento.
 
-1. **Nota de Crédito de Cuentas por Pagar Nacional**
+#. **Nota de Crédito de Cuentas por Pagar Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento legal que se aplica a una factura de cuentas por
       pagar nacional emitida por un socio del negocio tipo proveedor que
@@ -21601,7 +21386,7 @@ según su comportamiento.
       
          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de crédito de cuentas por pagar nacional se
       define según su comportamiento, a continuación se explica el
@@ -21854,19 +21639,15 @@ según su comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de crédito fiscal.
-      -  Disminuye el monto total a cancelar de una factura emitida por
-         un proveedor dentro de Venezuela.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de crédito fiscal.
+      -  Disminuye el monto total a cancelar de una factura emitida por un proveedor dentro de Venezuela.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -21886,7 +21667,7 @@ según su comportamiento.
 
 2. **Nota de Crédito de Cuentas por Pagar Importacion**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento legal que se aplica a una factura de cuentas por
       pagar importación emitida por un socio del negocio tipo proveedor
@@ -21897,7 +21678,7 @@ según su comportamiento.
       
          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de crédito de cuentas por pagar importación
       se define según su comportamiento, a continuación se explica el
@@ -22151,20 +21932,15 @@ según su comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de crédito fiscal.
-      -  Disminuye el monto total a cancelar de una factura emitida por
-         un proveedor fuera de Venezuela.
-      -  Permite su contabilización en moneda extranjera convertida a
-         moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de crédito fiscal.
+      -  Disminuye el monto total a cancelar de una factura emitida por un proveedor fuera de Venezuela.
+      -  Permite su contabilización en moneda extranjera convertida a moneda nacional vigente.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -22184,7 +21960,7 @@ según su comportamiento.
 
 3. **Nota de Crédito de Cuentas por Pagar Intercompañía**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento legal que se aplica a una factura de cuentas por
       pagar intercompañía emitida por otra empresa perteneciente al
@@ -22195,7 +21971,7 @@ según su comportamiento.
       
          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de crédito de cuentas por pagar
       intercompañía se define según su comportamiento, a continuación se
@@ -22450,19 +22226,15 @@ según su comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de crédito fiscal.
-      -  Disminuye el monto total a cancelar de una factura emitida por
-         otra empresa perteneciente a un mismo consorcio.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de crédito fiscal.
+      -  Disminuye el monto total a cancelar de una factura emitida por otra empresa perteneciente a un mismo consorcio.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -22482,7 +22254,7 @@ según su comportamiento.
 
 4. **Nota de Crédito de Cuentas por Pagar Empleado**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento legal que se aplica a la factura de cuentas por
       pagar empleado realizada por el trabajador a la empresa por una
@@ -22493,7 +22265,7 @@ según su comportamiento.
       
          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de crédito de cuentas por pagar empleado se
       define según su comportamiento, a continuación se explica el
@@ -22746,19 +22518,15 @@ según su comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de crédito fiscal.
-      -  Disminuye el monto total a cancelar de una factura emitida por
-         un empleado de la empresa.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de crédito fiscal.
+      -  Disminuye el monto total a cancelar de una factura emitida por un empleado de la empresa.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -22778,7 +22546,7 @@ según su comportamiento.
 
 5. **Nota de Crédito de Cuentas por Pagar Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento legal que se aplica a una factura de cuentas por
       pagar indirecta emitida por un socio del negocio tipo proveedor a
@@ -22790,7 +22558,7 @@ según su comportamiento.
       
          Permite su contabilización generando el descuento posterior a su aplicación en la factura.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una nota de crédito de cuentas por pagar indirecta se
       define según su comportamiento, a continuación se explica el
@@ -23043,20 +22811,15 @@ según su comportamiento.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando una nota de crédito fiscal.
-      -  Disminuye el monto total a cancelar de una factura emitida por
-         un proveedor cuando la empresa adquiere un compromiso de compra
-         con entrega indirecta.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando una nota de crédito fiscal.
+      -  Disminuye el monto total a cancelar de una factura emitida por un proveedor cuando la empresa adquiere un compromiso de compra con entrega indirecta.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
@@ -23093,9 +22856,9 @@ servicios.
 A continuación se define el comportamiento del documento comisión de
 ventas.
 
-1. **Comisión de Venta**
+#. **Comisión de Venta**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento utilizado en la empresa para controlar y dar
       seguimiento a las comisiones que los trabajadores se ganan por las
@@ -23105,7 +22868,7 @@ ventas.
       
          Las comisiones por ventas son ofrecidas por las empresas a sus trabajadores como motivación para que estos vendan más productos y servicios.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la comisión de venta se define según su
       comportamiento, a continuación se explica el proceder de una
@@ -23242,20 +23005,15 @@ ventas.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
-      -  Genera una comisión sobre las ventas realizadas por el
-         trabajador.
-      -  Aumenta el monto total a pagar a un empleado de la empresa por
-         las ventas de los productos y servicios pertenecientes a la
-         misma.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
+      -  Genera una comisión sobre las ventas realizadas por el trabajador.
+      -  Aumenta el monto total a pagar a un empleado de la empresa por las ventas de los productos y servicios pertenecientes a la misma.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -23275,9 +23033,9 @@ solicita que se paguen los documentos agrupados. Un caso de solicitud de
 pagos, podría ser cuando no se sabe exactamente desde que cuenta se
 realizarán los pagos.
 
-1. **Solicitud de Pagos de Cuentas por Pagar**
+#. **Solicitud de Pagos de Cuentas por Pagar**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un proceso realizado por el departamento de cuentas por pagar o
       tesorería de una empresa. Dicho departamento se encarga de
@@ -23288,7 +23046,7 @@ realizarán los pagos.
       
          Posterior a la elaboración del documento selección de pagos y con una previa autorización se puede realizar el pago de uno, algunos o todos los documentos agrupados en la selección de pago.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la solicitud de pagos se define según su
       comportamiento, a continuación se explica el proceder de
@@ -23427,17 +23185,14 @@ realizarán los pagos.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
-      -  Agrupa los documentos por pagar que la empresa posee,
-         solicitando autorización para ser pagados.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
+      -  Agrupa los documentos por pagar que la empresa posee, solicitando autorización para ser pagados.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -23449,9 +23204,9 @@ necesarios para realizar la selección de pagos, en este documento se
 agrupan todas las cuentas por pagar que posee la empresa. Posterior a
 este proceso, se procede a realizar el pago.
 
-1. **Selección de Pagos de Cuentas por Pagar**
+#. **Selección de Pagos de Cuentas por Pagar**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un proceso realizado por el departamento de cuentas por pagar o
       tesorería de una empresa. Dicho departamento se encarga de
@@ -23462,7 +23217,7 @@ este proceso, se procede a realizar el pago.
       
          Posterior a la elaboración del documento selección de pagos y con una previa autorización se puede realizar el pago de uno, algunos o todos los documentos agrupados en la selección de pago.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la selección de pagos de cuentas por pagar se define
       según su comportamiento, a continuación se explica el proceder de
@@ -23601,16 +23356,14 @@ este proceso, se procede a realizar el pago.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
       -  Agrupa los documentos por pagar que la empresa posee.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -23630,9 +23383,9 @@ muy delicado por tratarse del egreso monetario de la empresa. En general
 son utilizados cinco (5) tipos de documentos de pago con diferentes
 comportamientos que se definen a continuación.
 
-1. **Pago de Cuentas por Pagar Nacional**
+#. **Pago de Cuentas por Pagar Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere al pago de las deudas que la empresa tiene con los
       socios de negocio a nivel nacional, este proceso se puede realizar
@@ -23642,7 +23395,7 @@ comportamientos que se definen a continuación.
       
          Este tipo de documento no incluye las cuentas por pagar con motivo de reembolso, viáticos o gastos directos que posee la empresa. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un pago de cuentas por pagar nacional se define según
       su comportamiento, a continuación se explica el proceder de un
@@ -23782,23 +23535,20 @@ comportamientos que se definen a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja el egreso monetario de la empresa por la compra de
-         productos y servicios dentro de Venezuela.
+      -  Refleja el egreso monetario de la empresa por la compra de productos y servicios dentro de Venezuela.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 2. **Pago de Cuentas por Pagar Internacional**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere al pago de las deudas que la empresa tiene con los
       socios de negocio a nivel internacional, el pago de estas se
@@ -23809,7 +23559,7 @@ comportamientos que se definen a continuación.
       
          Este tipo de documento no incluye las cuentas por pagar con motivo de reembolso, viáticos o gastos directos que posee la empresa. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un pago de cuentas por pagar internacional se define
       según su comportamiento, a continuación se explica el proceder de
@@ -23949,24 +23699,20 @@ comportamientos que se definen a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja el egreso monetario de la empresa por la compra de
-         productos y servicios fuera de Venezuela.
-      -  Permite su contabilización en moneda extranjera convertida a
-         moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Refleja el egreso monetario de la empresa por la compra de productos y servicios fuera de Venezuela.
+      -  Permite su contabilización en moneda extranjera convertida a moneda nacional vigente.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 3. **Pago de Cuentas por Pagar Gasto Directo**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a la cancelación de las cuentas por pagar
       correspondiente a los gastos directos de la empresa. Entendiendo
@@ -23977,7 +23723,7 @@ comportamientos que se definen a continuación.
       
          Con este tipo de documento se reflejan solamente los pagos por motivo de gasto directo.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un pago de cuentas por pagar gasto directo se define
       según su comportamiento, a continuación se explica el proceder de
@@ -24117,23 +23863,20 @@ comportamientos que se definen a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja el egreso monetario de la empresa por concepto de gasto
-         directo.
+      -  Refleja el egreso monetario de la empresa por concepto de gasto directo.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 4. **Pago de Cuentas por Pagar Reembolso**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a todas las cuentas por pagar que la empresa posee como
       reembolso. Entendiendo como reembolso el reintegro monetario
@@ -24143,7 +23886,7 @@ comportamientos que se definen a continuación.
       
          Con este tipo de documento se reflejan solamente los pagos por motivo de reembolso.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un pago de cuentas por pagar reembolso se define
       según su comportamiento, a continuación se explica el proceder de
@@ -24283,23 +24026,20 @@ comportamientos que se definen a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja el egreso monetario de la empresa por concepto de
-         reembolso.
+      -  Refleja el egreso monetario de la empresa por concepto de reembolso.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 5. **Pago de Cuentas por Pagar Viáticos**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a todas las cuentas por pagar que la empresa posee como
       viáticos. Entendiendo como viáticos una cantidad de dinero que se
@@ -24310,7 +24050,7 @@ comportamientos que se definen a continuación.
       
          Con este tipo de documento se reflejan solamente los pagos por motivo de viáticos. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere un pago de cuentas por pagar viáticos se define según
       su comportamiento, a continuación se explica el proceder de un
@@ -24450,17 +24190,14 @@ comportamientos que se definen a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja el egreso monetario de la empresa por concepto de
-         viáticos.
+      -  Refleja el egreso monetario de la empresa por concepto de viáticos.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -24477,9 +24214,9 @@ factura determinada y disminuir el monto total a pagar de la misma.
 En ADempiere es el documento que enlaza el pago de un anticipo con una
 factura. Es definido según su comportamiento y explicado a continuación.
 
-1. **Asignación de Pagos**
+#. **Asignación de Pagos**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento que permite asociar un pago recibido por el socio
       del negocio tipo cliente a una factura determinada a nombre del
@@ -24493,7 +24230,7 @@ factura. Es definido según su comportamiento y explicado a continuación.
       
          Es utilizado por la empresa cuando en una compra/venta se solicita un anticipo del monto total a pagar de una factura.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere una asignación de pago se define según su
       comportamiento, a continuación se explica el proceder de una
@@ -24547,18 +24284,15 @@ factura. Es definido según su comportamiento y explicado a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja el egreso o ingreso monetario por los pagos que la
-         empresa realiza o recibe como anticipos de las facturas.
+      -  Refleja el egreso o ingreso monetario por los pagos que la empresa realiza o recibe como anticipos de las facturas.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
       -  Asocia un pago realizado o recibido a una factura determinada.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -24579,9 +24313,9 @@ productos comprados por la empresa. Existen cinco (5) diferentes
 documentos de recepción y cada uno define un comportamiento diferente
 que a continuación se describe.
 
-1. **Recepción Nacional**
+#. **Recepción Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       Es cuando se reciben los productos o servicios comprados a nivel
       nacional, es decir, en todo el territorio de Venezuela.
@@ -24590,7 +24324,7 @@ que a continuación se describe.
       
          En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la recepción nacional se define según su
       comportamiento, a continuación se explica el proceder de
@@ -24729,22 +24463,19 @@ que a continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la entrada al almacén de los productos y servicios
-         comprados a proveedores dentro de Venezuela.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Refleja la entrada al almacén de los productos y servicios comprados a proveedores dentro de Venezuela.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 2. **Recepción Importación**
 
-   1. **Definición**
+   #. **Definición**
 
       Es cuando se reciben los productos o servicios comprados fuera del
       territorio de Venezuela, se realiza la importación a Venezuela de
@@ -24755,7 +24486,7 @@ que a continuación se describe.
       
          En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la recepción importación se define según su
       comportamiento, a continuación se explica el proceder de
@@ -24895,22 +24626,19 @@ que a continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la entrada al almacén de los productos y servicios
-         comprados a proveedores fuera de Venezuela.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Refleja la entrada al almacén de los productos y servicios comprados a proveedores fuera de Venezuela.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 3. **Recepción Intercompañía**
 
-   1. **Definición**
+   #. **Definición**
 
       En ADempiere una recepción intercompañía es cuando se reciben los
       productos o servicios comprados a otras empresas pertenecientes al
@@ -24920,7 +24648,7 @@ que a continuación se describe.
       
          En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la recepción intercompañía se define según su
       comportamiento, a continuación se explica el proceder de
@@ -25060,22 +24788,19 @@ que a continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la entrada al almacén de los productos y servicios
-         comprados a empresas pertenecientes al mismo consorcio.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Refleja la entrada al almacén de los productos y servicios comprados a empresas pertenecientes al mismo consorcio.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 4. **Recepción Empleado**
 
-   1. **Definición**
+   #. **Definición**
 
       Es cuando se reciben los productos y servicios que la empresa le
       compra a sus propios trabajadores. La recepción de la compra se
@@ -25085,7 +24810,7 @@ que a continuación se describe.
       
          En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la recepción empleado se define según su
       comportamiento, a continuación se explica el proceder de
@@ -25224,22 +24949,19 @@ que a continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la entrada al almacén de los productos y servicios
-         comprados a empleados de la empresa.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Refleja la entrada al almacén de los productos y servicios comprados a empleados de la empresa.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 5. **Recepción Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
       Es cuando se compran productos o servicios a un vendedor
       determinado, pero se reciben los productos o servicios del
@@ -25249,7 +24971,7 @@ que a continuación se describe.
       
          En ADempiere los documentos de recepción de compras controlan el ingreso de productos al almacén.        
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la recepción indirecta se define según su
       comportamiento, a continuación se explica el proceder de
@@ -25388,16 +25110,13 @@ que a continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la entrada al almacén de los productos y servicios
-         comprados con entrega indirecta.
-      -  Permite su contabilización a traves de la existencia de los
-         productos o servicios en almacén.
-      -  Aparece reflejado de manera ordenada en la gestión de compras
-         de ADempiere.
+      -  Refleja la entrada al almacén de los productos y servicios comprados con entrega indirecta.
+      -  Permite su contabilización a traves de la existencia de los productos o servicios en almacén.
+      -  Aparece reflejado de manera ordenada en la gestión de compras de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -25409,9 +25128,9 @@ productos comprados por la empresa. Existen cinco (5) diferentes
 documentos de devolución de compras y cada uno define un comportamiento
 diferente que a continuación se describe.
 
-1. **Devolución Proveedor Nacional**
+#. **Devolución Proveedor Nacional**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a las devoluciones de los productos comprados o
       servicios adquiridos de proveedores ubicados dentro del territorio
@@ -25421,7 +25140,7 @@ diferente que a continuación se describe.
       
          En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la devolución proveedor nacional se define según su
       comportamiento, a continuación se explica el proceder de
@@ -25575,21 +25294,19 @@ diferente que a continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la devolución de los productos y servicios comprados a
-         proveedores dentro de Venezuela.
+      -  Refleja la devolución de los productos y servicios comprados a proveedores dentro de Venezuela.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         devoluciones de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de devoluciones de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 2. **Devolución Proveedor Importación**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a las devoluciones de los productos comprados o
       servicios adquiridos de proveedores ubicados fuera del territorio
@@ -25599,7 +25316,7 @@ diferente que a continuación se describe.
       
          En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la devolución proveedor importación se define según
       su comportamiento, a continuación se explica el proceder de
@@ -25742,22 +25459,19 @@ diferente que a continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la devolución de los productos y servicios comprados a
-         proveedores fuera de Venezuela.
-      -  Permite su contabilización en moneda extranjera convertida a
-         moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         devoluciones de ADempiere.
+      -  Refleja la devolución de los productos y servicios comprados a proveedores fuera de Venezuela.
+      -  Permite su contabilización en moneda extranjera convertida a moneda nacional vigente.
+      -  Aparece reflejado de manera ordenada en la gestión de devoluciones de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 3. **Devolución Proveedor Intercompañía**
 
-   1. **Definición**
+   #. **Definición**
 
       Es cuando se devuelve a la otra empresa perteneciente al mismo
       consorcio, los productos comprados o servicios adquiridos de la
@@ -25767,7 +25481,7 @@ diferente que a continuación se describe.
       
          En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la devolución proveedor intercompañía se define según
       su comportamiento, a continuación se explica el proceder de
@@ -25910,21 +25624,19 @@ diferente que a continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la devolución de los productos y servicios comprados
-         empresas pertenecientes a un mismo consorcio.
+      -  Refleja la devolución de los productos y servicios comprados empresas pertenecientes a un mismo consorcio.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         devoluciones de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de devoluciones de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 4. **Devolución Proveedor Empleado**
 
-   1. **Definición**
+   #. **Definición**
 
       Se refiere a las devoluciones de productos comprados o servicios
       adquiridos de empleados de la misma empresa.
@@ -25933,7 +25645,7 @@ diferente que a continuación se describe.
    
       En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la devolución proveedor empleado se define según su
       comportamiento, a continuación se explica el proceder de
@@ -26075,21 +25787,19 @@ diferente que a continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la devolución de los productos y servicios comprados a
-         empleados de la empresa.
+      -  Refleja la devolución de los productos y servicios comprados a empleados de la empresa.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         devoluciones de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de devoluciones de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 5. **Devolución Proveedor Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
       Es cuando se devuelve al proveedor los productos comprados o
       servicios adquiridos de forma indirecta o con entrega indirecta.
@@ -26098,7 +25808,7 @@ diferente que a continuación se describe.
       
          En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la devolución proveedor indirecta se define según su
       comportamiento, a continuación se explica el proceder de
@@ -26240,15 +25950,13 @@ diferente que a continuación se describe.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja la devolución de los productos y servicios comprados
-         con entrega indirecta.
+      -  Refleja la devolución de los productos y servicios comprados con entrega indirecta.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Aparece reflejado de manera ordenada en la gestión de
-         devoluciones de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de devoluciones de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -26268,9 +25976,9 @@ En ADempiere el documento cumple con el proceso de asociar una recepción
 de productos y servicios a una orden de compra, así como también a una
 factura.
 
-1. **Asignar OC**
+#. **Asignar OC**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento para solventar un problema de asignación pero lo
       más recomendable es que se realice su proceso normal de asignación
@@ -26280,7 +25988,7 @@ factura.
       
          Todos los documentos de las ordenes de compra deben estar asignadas a las recepciones o facturas correspondientes cuando se realice el cierre de mes en la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere el tipo de documento asignar OC se define según su
       comportamiento, a continuación se explica el proceder del tipo de
@@ -26327,14 +26035,12 @@ factura.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera un enlace entre un documento orden de compra y un
-         documento recepción correspondiente a la misma operación.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Genera un enlace entre un documento orden de compra y un documento recepción correspondiente a la misma operación.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -26360,9 +26066,9 @@ responsable del extracto bancario.
 El tipo de documento extracto bancario se define según su comportamiento
 y es explicado a continuación.
 
-1. **Cierre de Caja**
+#. **Cierre de Caja**
 
-   1. **Definición**
+   #. **Definición**
 
       Es el reporte detallado que se realiza en la empresa comparando la
       salida de los productos y servicios con el dinero en caja, es
@@ -26374,7 +26080,7 @@ y es explicado a continuación.
       
          El cierre de caja debe hacerse diariamente en una empresa, así se puede apreciar el flujo financiero de la empresa.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere el cierre de caja se define según su comportamiento,
       a continuación se explica el proceder del **Cierre de Caja**:
@@ -26508,23 +26214,20 @@ y es explicado a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera un reporte de los movimientos de la caja realizados en
-         el día.
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
+      -  Genera un reporte de los movimientos de la caja realizados en el día.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
 2. **Extracto Bancario**
 
-   1. **Definición**
+   #. **Definición**
 
       Es el documento generado por el banco, donde se encuentran
       expresados todos los movimientos que se realizaron en un periodo
@@ -26536,7 +26239,7 @@ y es explicado a continuación.
       
          Mayormente el extracto bancario es generado mensualmente en las empresas, para los ultimos o primeros del mes.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere el extracto bancario se define según su
       comportamiento, a continuación se explica el proceder del
@@ -26595,16 +26298,14 @@ y es explicado a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
       -  Genera un reporte de los movimientos en la cuenta bancaria.
-      -  Aparece reflejado de manera ordenada en gestión de saldos
-         pendientes de ADempiere.
+      -  Aparece reflejado de manera ordenada en gestión de saldos pendientes de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -26634,7 +26335,7 @@ actividades desempeñadas en la empresa.
 
 1.  **Nómina Bono de Alimentación**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere la cancelación de la nómina del bono de alimentación
        o cesta ticket debe ser realizada por el personal de recursos
@@ -26645,7 +26346,7 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere la nómina bono de alimentación se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
@@ -26786,21 +26487,15 @@ actividades desempeñadas en la empresa.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Permite realizar la ejecución de la nómina basado en el tipo
-          de documento que se seleccione en el documento.
-       -  Permite realizar el pago del documento cuando este se
-          encuentre en estado completo, por concepto de nómina bono de
-          alimentación según lo establecido en la LOTTT, en su artículo
-          104.
-       -  Permite la visualización de los reportes del pago
-          correspondiente a cada trabajador de la empresa.
+       -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
+       -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina bono de  alimentación según lo establecido en la LOTTT, en su artículo  104.
+       -  Permite la visualización de los reportes del pago  correspondiente a cada trabajador de la empresa.
        -  Permite su contabilización en moneda nacional vigente.
-       -  Aparece reflejado de manera ordenada en la gestión de recursos
-          humanos y nómina de ADempiere.
+       -  Aparece reflejado de manera ordenada en la gestión de recursos  humanos y nómina de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 104 y 529 donde se considera obligatorio lo siguiente:
 
@@ -26822,7 +26517,7 @@ actividades desempeñadas en la empresa.
 
 2.  **Nómina Mensual**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es un listado de trabajadores de la empresa a los
        que se les cancela el sueldo cada treinta (30) días. Este proceso
@@ -26834,7 +26529,7 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere la nómina mensual se define según su comportamiento,
        a continuación se explica el proceder de **Nómina Mensual**:
@@ -26971,20 +26666,15 @@ actividades desempeñadas en la empresa.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Permite realizar la ejecución de la nómina basado en el tipo
-          de documento que se seleccione en el documento.
-       -  Permite realizar el pago del documento cuando este se
-          encuentre en estado completo, por concepto de nómina mensual
-          según lo establecido en la LOTTT, en su artículo 113.
-       -  Permite la visualización de los reportes del pago
-          correspondiente a cada trabajador de la empresa.
+       -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
+       -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 113.
+       -  Permite la visualización de los reportes del pago  correspondiente a cada trabajador de la empresa.
        -  Permite su contabilización en moneda nacional vigente.
-       -  Aparece reflejado de manera ordenada en la gestión de recursos
-          humanos y nómina de ADempiere.
+       -  Aparece reflejado de manera ordenada en la gestión de recursos  humanos y nómina de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 98, 99, 100, 103, 104, 113, 123, 124, 126, 129 y 130 donde se considera obligatorio lo siguiente:
 
@@ -27076,7 +26766,7 @@ actividades desempeñadas en la empresa.
 
 3.  **Nómina Quincenal**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es un listado de trabajadores de la empresa a los
        que se les cancela el sueldo cada quince (15) días. Este proceso
@@ -27088,7 +26778,7 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere la nómina quincenal se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
@@ -27226,20 +26916,15 @@ actividades desempeñadas en la empresa.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Permite realizar la ejecución de la nómina basado en el tipo
-          de documento que se seleccione en el documento.
-       -  Permite realizar el pago del documento cuando este se
-          encuentre en estado completo, por concepto de nómina mensual
-          según lo establecido en la LOTTT, en su artículo 126.
-       -  Permite la visualización de los reportes del pago
-          correspondiente a cada trabajador de la empresa.
+       -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
+       -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 126.
+       -  Permite la visualización de los reportes del pago  correspondiente a cada trabajador de la empresa.
        -  Permite su contabilización en moneda nacional vigente.
-       -  Aparece reflejado de manera ordenada en la gestión de recursos
-          humanos y nómina de ADempiere.
+       -  Aparece reflejado de manera ordenada en la gestión de recursos  humanos y nómina de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 98, 99, 100, 103, 104, 113, 123, 124, 126, 129 y 130 donde se considera obligatorio lo siguiente: donde se estipula.
 
@@ -27331,7 +27016,7 @@ actividades desempeñadas en la empresa.
 
 4.  **Nómina Semanal**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es un listado de trabajadores de la empresa a los
        que se les cancela el sueldo cada siete (7) días. Este proceso de
@@ -27343,7 +27028,7 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere la nómina semanal se define según su comportamiento,
        a continuación se explica el proceder de **Nómina Semanal**:
@@ -27480,20 +27165,15 @@ actividades desempeñadas en la empresa.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Permite realizar la ejecución de la nómina basado en el tipo
-          de documento que se seleccione en el documento.
-       -  Permite realizar el pago del documento cuando este se
-          encuentre en estado completo, por concepto de nómina mensual
-          según lo establecido en la LOTTT, en su artículo 113.
-       -  Permite la visualización de los reportes del pago
-          correspondiente a cada trabajador de la empresa.
+       -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
+       -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 113.
+       -  Permite la visualización de los reportes del pago  correspondiente a cada trabajador de la empresa.
        -  Permite su contabilización en moneda nacional vigente.
-       -  Aparece reflejado de manera ordenada en la gestión de recursos
-          humanos y nómina de ADempiere.
+       -  Aparece reflejado de manera ordenada en la gestión de recursos  humanos y nómina de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 98, 99, 100, 103, 104, 113, 123, 124, 126, 129 y 130 donde se considera obligatorio lo siguiente: donde se estipula.
 
@@ -27585,7 +27265,7 @@ actividades desempeñadas en la empresa.
 
 5.  **Nómina Retroactivo**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es el pago de la diferencia pendiente por cancelar a
        los trabajadores por motivo de aumento salarial decretado a mitad
@@ -27595,7 +27275,7 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere la nómina retroactivo se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
@@ -27734,20 +27414,15 @@ actividades desempeñadas en la empresa.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Permite realizar la ejecución de la nómina basado en el tipo
-          de documento que se seleccione en el documento.
-       -  Permite realizar el pago del documento cuando este se
-          encuentre en estado completo, por concepto de nómina mensual
-          según lo establecido en la LOTTT, en su artículo 433.
-       -  Permite la visualización de los reportes del pago
-          correspondiente a cada trabajador de la empresa.
+       -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
+       -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 433.
+       -  Permite la visualización de los reportes del pago  correspondiente a cada trabajador de la empresa.
        -  Permite su contabilización en moneda nacional vigente.
-       -  Aparece reflejado de manera ordenada en la gestión de recursos
-          humanos y nómina de ADempiere.
+       -  Aparece reflejado de manera ordenada en la gestión de recursos  humanos y nómina de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en su artículo 433 donde se considera obligatorio lo siguiente: donde se estipula.
 
@@ -27759,7 +27434,7 @@ actividades desempeñadas en la empresa.
 
 6.  **Nómina Vacaciones**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es el pago de quince (15) días hábiles más un (1)
        día adicional por año que la empresa cancela a sus trabajadores
@@ -27771,7 +27446,7 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere la nómina vacaciones se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
@@ -27909,21 +27584,15 @@ actividades desempeñadas en la empresa.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Permite realizar la ejecución de la nómina basado en el tipo
-          de documento que se seleccione en el documento.
-       -  Permite realizar el pago del documento cuando este se
-          encuentre en estado completo, por concepto de nómina mensual
-          según lo establecido en la LOTTT, en sus artículos 121, 190,
-          191 y 192.
-       -  Permite la visualización de los reportes del pago
-          correspondiente a cada trabajador de la empresa.
+       -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
+       -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en sus artículos 121, 190,  191 y 192.
+       -  Permite la visualización de los reportes del pago  correspondiente a cada trabajador de la empresa.
        -  Permite su contabilización en moneda nacional vigente.
-       -  Aparece reflejado de manera ordenada en la gestión de recursos
-          humanos y nómina de ADempiere.
+       -  Aparece reflejado de manera ordenada en la gestión de recursos  humanos y nómina de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 104, 121, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 203, 236, 254 y 533 donde se considera obligatorio lo siguiente: donde se estipula.
 
@@ -28063,7 +27732,7 @@ actividades desempeñadas en la empresa.
 
 7.  **Nómina de Prestaciones Sociales**
 
-    1. **Definición**
+    #. **Definición**
 
        Se refiere a un dinero que la empresa le aparta al trabajador,
        consta de cinco (5) días al comenzar a trabajar, cinco (5) días
@@ -28078,7 +27747,7 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere la nómina prestaciones sociales se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
@@ -28219,20 +27888,15 @@ actividades desempeñadas en la empresa.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Permite realizar la ejecución de la nómina basado en el tipo
-          de documento que se seleccione en el documento.
-       -  Permite realizar el pago del documento cuando este se
-          encuentre en estado completo, por concepto de nómina mensual
-          según lo establecido en la LOTTT, en su artículo 142.
-       -  Permite la visualización de los reportes del pago
-          correspondiente a cada trabajador de la empresa.
+       -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
+       -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 142.
+       -  Permite la visualización de los reportes del pago  correspondiente a cada trabajador de la empresa.
        -  Permite su contabilización en moneda nacional vigente.
-       -  Aparece reflejado de manera ordenada en la gestión de recursos
-          humanos y nómina de ADempiere.
+       -  Aparece reflejado de manera ordenada en la gestión de recursos  humanos y nómina de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 92, 93, 122, 128, 130, 141, 142, 143, 144 y 147 donde se considera obligatorio lo siguiente: donde se estipula.
 
@@ -28334,7 +27998,7 @@ actividades desempeñadas en la empresa.
 
 8.  **Nómina Utilidades**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es un bono que la empresa le paga a sus trabajadores
        por las ganacias o los intereses que esta obtuvo por la venta de
@@ -28345,7 +28009,7 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere la nómina utilidades se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
@@ -28483,20 +28147,15 @@ actividades desempeñadas en la empresa.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Permite realizar la ejecución de la nómina basado en el tipo
-          de documento que se seleccione en el documento.
-       -  Permite realizar el pago del documento cuando este se
-          encuentre en estado completo, por concepto de nómina mensual
-          según lo establecido en la LOTTT, en su artículo 131.
-       -  Permite la visualización de los reportes del pago
-          correspondiente a cada trabajador de la empresa.
+       -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
+       -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 131.
+       -  Permite la visualización de los reportes del pago  correspondiente a cada trabajador de la empresa.
        -  Permite su contabilización en moneda nacional vigente.
-       -  Aparece reflejado de manera ordenada en la gestión de recursos
-          humanos y nómina de ADempiere.
+       -  Aparece reflejado de manera ordenada en la gestión de recursos  humanos y nómina de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 104, 131, 132, 133, 137, 138 y 139 donde se considera obligatorio lo siguiente: donde se estipula.
 
@@ -28549,7 +28208,7 @@ actividades desempeñadas en la empresa.
 
 9.  **Nómina por Pagos Especiales**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere los pagos especiales son los pagos adicionales a lo
        estipulado en la ley que la empresa le cancela a sus trabajadores
@@ -28559,7 +28218,7 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere la nómina por pagos especiales se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
@@ -28700,20 +28359,15 @@ actividades desempeñadas en la empresa.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Permite realizar la ejecución de la nómina basado en el tipo
-          de documento que se seleccione en el documento.
-       -  Permite realizar el pago del documento cuando este se
-          encuentre en estado completo, por concepto de nómina mensual
-          según lo establecido en la LOTTT, en su artículo 132.
-       -  Permite la visualización de los reportes del pago
-          correspondiente a cada trabajador de la empresa.
+       -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
+       -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 132.
+       -  Permite la visualización de los reportes del pago  correspondiente a cada trabajador de la empresa.
        -  Permite su contabilización en moneda nacional vigente.
-       -  Aparece reflejado de manera ordenada en la gestión de recursos
-          humanos y nómina de ADempiere.
+       -  Aparece reflejado de manera ordenada en la gestión de recursos  humanos y nómina de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 132, 140 y 530 donde se considera obligatorio lo siguiente: donde se estipula.
 
@@ -28737,7 +28391,7 @@ actividades desempeñadas en la empresa.
 
 10. **Nómina por Comisiones**
 
-    1. **Definición**
+    #. **Definición**
 
        En ADempiere es el pago que la empresa le cancela a sus
        trabajadores por productos realizados, ventas realizadas, entre
@@ -28748,7 +28402,7 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    2. **Comportamiento**
+    #. **Comportamiento**
 
        En ADempiere la nómina por comisiones se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
@@ -28887,20 +28541,15 @@ actividades desempeñadas en la empresa.
        |      |       | .    |
        +------+-------+------+
 
-    3. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
-       -  Permite realizar la ejecución de la nómina basado en el tipo
-          de documento que se seleccione en el documento.
-       -  Permite realizar el pago del documento cuando este se
-          encuentre en estado completo, por concepto de nómina mensual
-          según lo establecido en la LOTTT, en su artículo 110.
-       -  Permite la visualización de los reportes del pago
-          correspondiente a cada trabajador de la empresa.
+       -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
+       -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 110.
+       -  Permite la visualización de los reportes del pago  correspondiente a cada trabajador de la empresa.
        -  Permite su contabilización en moneda nacional vigente.
-       -  Aparece reflejado de manera ordenada en la gestión de recursos
-          humanos y nómina de ADempiere.
+       -  Aparece reflejado de manera ordenada en la gestión de recursos  humanos y nómina de ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
        
       Basado en la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076 en sus artículos 104 y 110 donde se considera obligatorio lo siguiente: donde se estipula.
 
@@ -28936,9 +28585,9 @@ En ADempiere este proceso solo puede ser realizado por un usuario que
 posea los permisos necesarios para acceder a la información de las
 nóminas, ya que esta es muy delicada.
 
-1. **Selección de Pagos Nómina**
+#. **Selección de Pagos Nómina**
 
-   1. **Definición**
+   #. **Definición**
 
       Este proceso es similar al proceso de selección de pago de cuentas
       por pagar, con la diferencia de que en vez de seleccionar las
@@ -28949,7 +28598,7 @@ nóminas, ya que esta es muy delicada.
       
          El proceso del tipo de documento de selección de pagos nómina es diferente al proceso de selección de pagos de cuentas por pagar y del proceso de pago como tal.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la selección de pagos nómina se define según su
       comportamiento, a continuación se explica el proceder de
@@ -29090,16 +28739,14 @@ nóminas, ya que esta es muy delicada.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Aparece reflejado de manera ordenada en la gestión de saldos
-         pendientes de ADempiere.
+      -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
       -  Agrupa las nóminas por pagar que la empresa posee.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -29120,9 +28767,9 @@ tiempo de duración, los materiales necesarios, los costos aproximados,
 entre otros datos de igual importancia. Es definido según su
 comportamiento y explicado a continuación.
 
-1. **Orden de Mantenimiento**
+#. **Orden de Mantenimiento**
 
-   1. **Definición**
+   #. **Definición**
 
       Es el documento que contiene la cantidad de datos necesarios para
       que el técnico tome las decisiones necesarias al momento de
@@ -29134,7 +28781,7 @@ comportamiento y explicado a continuación.
       
          Cada uno de los datos incluidos en la orden de mantenimiento permite realizar el mismo de una manera eficiente, de igual manera, la elaboración del documento permite llevar un control de los diferentes mantenimientos realizados.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la orden de mantenimiento se define según su
       comportamiento, a continuación se explica el proceder de **Orden
@@ -29269,14 +28916,12 @@ comportamiento y explicado a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Refleja el mantenimiento realizado a las máquinas o equipos de
-         la empresa.
-      -  Permite calcular y cancelar los costos correspondientes al
-         mantenimiento.
+      -  Refleja el mantenimiento realizado a las máquinas o equipos de la empresa.
+      -  Permite calcular y cancelar los costos correspondientes al mantenimiento.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -29295,9 +28940,9 @@ utilización del activo, así como también, posterior al proceso de
 adición de activos. Es un documento definido según su comportamiento,
 especificado a continuación.
 
-1. **Depreciación de Activos**
+#. **Depreciación de Activos**
 
-   1. **Definición**
+   #. **Definición**
 
       La situación en la que se encuentre el activo de la empresa será
       el inicio del proceso de depreciación del mismo, por lo tanto, es
@@ -29308,7 +28953,7 @@ especificado a continuación.
       
          Los activos pertenecientes a una misma clasificación deben depreciarse con el mismo metodo utilizado desde el principio.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la depreciación de activos se define según su
       comportamiento, a continuación se explica el proceder de la
@@ -29446,16 +29091,13 @@ especificado a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Permite conocer la depreciación perteneciente a cada activo que
-         tiene la empresa.
-      -  Permite decidir si se aplica una adicción, un reemplazo o una
-         venta de los activos de la empresa.
-      -  Permite su contabilización en la moneda nacional vigente del
-         momento de la emisión del documento.
+      -  Permite conocer la depreciación perteneciente a cada activo que tiene la empresa.
+      -  Permite decidir si se aplica una adicción, un reemplazo o una venta de los activos de la empresa.
+      -  Permite su contabilización en la moneda nacional vigente del momento de la emisión del documento.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -29478,9 +29120,9 @@ En ADempiere es posible realizar una adición de activos tangibles e
 intangibles para revalorizar los mismos para una empresa, es definido
 según su comportamiento explicado a continuación.
 
-1. **Adición de Activos**
+#. **Adición de Activos**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento que refleja los cambios que son realizados a los
       activos de la empresa con la finalidad de cambiar su desempeño
@@ -29490,7 +29132,7 @@ según su comportamiento explicado a continuación.
       
          La mejora de los activos de la empresa es una inversión a futuro cuando de maquinaria se trata.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la adición de activos se define según su
       comportamiento, a continuación se explica el proceder de la
@@ -29626,17 +29268,14 @@ según su comportamiento explicado a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
       -  Refleja las mejoras aplicadas a los activos de la empresa.
-      -  Genera a la empresa un documento con las especificaciones de
-         los activos con los que cuenta la misma por medio de reportes.
-      -  Permite añadir a la empresa un activo nuevo por adquisición o
-         compra realizada.
-      -  Permite su contabilización en la moneda nacional vigente del
-         momento de la emisión del documento.
+      -  Genera a la empresa un documento con las especificaciones de los activos con los que cuenta la misma por medio de reportes.
+      -  Permite añadir a la empresa un activo nuevo por adquisición o compra realizada.
+      -  Permite su contabilización en la moneda nacional vigente del momento de la emisión del documento.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
@@ -29656,9 +29295,9 @@ En ADempiere es un documento utilizado para reflejar la venta de los
 activos de la empresa independientemente del motivo de la misma, es
 definido según su comportamiento especificado a continuación.
 
-1. **Venta de Activos**
+#. **Venta de Activos**
 
-   1. **Definición**
+   #. **Definición**
 
       Es un documento necesario para realizar la contabilización de la
       empresa, permitiendo con este llevar el control de las ventas de
@@ -29669,7 +29308,7 @@ definido según su comportamiento especificado a continuación.
       
          La venta de los activos siempre va a depender de la generación de ingresos, el tiempo de vida util o la oportunidad de adquirir un activo mejor.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la venta de activos se define según su
       comportamiento, a continuación se explica el proceder de la
@@ -29808,14 +29447,13 @@ definido según su comportamiento especificado a continuación.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
       -  Genera un ingreso monetario a cambio del activo.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite adquirir un activo más competente y que genere a la
-         empresa y mayor ingreso monetario.
+      -  Permite adquirir un activo más competente y que genere a la empresa y mayor ingreso monetario.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 |Nota de Contabilidad| **Nota de Contabilidad**
@@ -29835,9 +29473,9 @@ formato en la contabilidad de una determinada empresa, obteniendo de
 esta manera un control sobre aquellas que generan ingresos o egresos a
 la misma.
 
-1. **Nota de Contabilidad**
+#. **Nota de Contabilidad**
 
-   1. **Definición**
+   #. **Definición**
 
       Es el documento donde se especifican los datos de la operación de
       ingreso o egreso monetario que la empresa requiere para realizar
@@ -29851,7 +29489,7 @@ la misma.
       
          La numeración de una nota de contabilidad debe ser consecutiva para cada una de las diferentes operaciones por las cuales la empresa emite la misma.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
       En ADempiere la nota de contabilidad se define según su
       comportamiento, a continuación se explica el proceder de la **Nota
@@ -29986,14 +29624,12 @@ la misma.
       |      |       | .    |
       +------+-------+------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Genera un soporte de la operación de ingreso o egreso monetario
-         realizada.
-      -  Permite reflejar la operación en la contabilización de la
-         empresa.
+      -  Genera un soporte de la operación de ingreso o egreso monetario realizada.
+      -  Permite reflejar la operación en la contabilización de la empresa.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en el código de comercio, publicado en gaceta oficial n°475 del 21 de diciembre de 1955, donde estipula en su artículo 32 lo siguiente:
 
