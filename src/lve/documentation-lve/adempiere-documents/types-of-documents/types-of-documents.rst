@@ -2228,858 +2228,248 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
 
          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general.
 
-7. **Factura de Cuentas por Cobrar Indirecta**
+#. **Factura de Cuentas por Cobrar Indirecta**
 
-   1. **Definición**
+   #. **Definición**
 
-      Es un documento fiscal que se realiza cuando el cliente adquiere
-      un compromiso de compra con entrega indirecta. Se entiende por
-      entrega indirecta cuando el cliente le compra a un vendedor o
-      promotor que no posee el producto sino que es intermediario del
-      proveedor, por lo tanto el cliente retira el producto en el
-      establecimiento del proveedor.
+      Es un documento fiscal que se realiza cuando el cliente adquiere un compromiso de compra con entrega indirecta. Se entiende por entrega indirecta cuando el cliente le compra a un vendedor o promotor que no posee el producto sino que es intermediario del proveedor, por lo tanto el cliente retira el producto en el establecimiento del proveedor.
 
       .. warning:: 
       
          Es un documento fiscal que al igual que los demás tipos de documentos requiere cuidado y seguimiento, principalmente porque esta es emita por la venta de un producto o la adquisición de un servicio que no posee el vendedor. 
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere una factura de cuentas por cobrar indirecta se define
-      según su comportamiento, a continuación se explica el proceder de
-      una **Factura de CxC Indirecta**:
+      En ADempiere una factura de cuentas por cobrar indirecta se define según su comportamiento, a continuación se explica el proceder de una **Factura de CxC Indirecta**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Gene |
-      | de   | ra    | ra   |
-      | Docu | de    | una  |
-      | ment | CxC   | **Fa |
-      | o    |       | ctur |
-      | Base |       | a    |
-      | :    |       | de   |
-      |      |       | CxC  |
-      |      |       | Indi |
-      |      |       | rect |
-      |      |       | a**. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Factu | Gene |
-      | enci | ras   | ra   |
-      | a    | CxC   | el   |
-      | del  | Tempo | núme |
-      | Docu | ral   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 2    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**T |
-      |      |       | MP-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Secu | Factu | Gene |
-      | enci | ra    | ra   |
-      | a    | CxC   | un   |
-      | Defi | Indir | núme |
-      | niti | ectas | ro   |
-      | va:  |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | y se |
-      |      |       | dest |
-      |      |       | ilda |
-      |      |       | el   |
-      |      |       | chec |
-      |      |       | klis |
-      |      |       | t    |
-      |      |       | **Do |
-      |      |       | cume |
-      |      |       | nto  |
-      |      |       | Fisc |
-      |      |       | al** |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Contr | Gene |
-      | enci | ol    | ra   |
-      | a    | Fisca | el   |
-      | Nro  | l     | núme |
-      | de   | de    | ro   |
-      | Cont | Factu | de   |
-      | rol: | ras   | cont |
-      |      | CxC   | rol  |
-      |      |       | fisc |
-      |      |       | al   |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido. |
-      +------+-------+------+
-      | Docu | Si    | Gene |
-      | ment |       | ra   |
-      | o    |       | la   |
-      | Fisc |       | **Fa |
-      | al:  |       | ctur |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | CxC  |
-      |      |       | Indi |
-      |      |       | rect |
-      |      |       | as** |
-      |      |       | como |
-      |      |       | un   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | fisc |
-      |      |       | al.  |
-      +------+-------+------+
-      | Gene | Si    | Gene |
-      | rar  |       | ra   |
-      | Nro  |       | el   |
-      | de   |       | núme |
-      | Cont |       | ro   |
-      | rol  |       | de   |
-      | Al   |       | cont |
-      | Impr |       | rol  |
-      | imir |       | esta |
-      | :    |       | blec |
-      |      |       | ido  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | de   |
-      |      |       | Nro  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |Factura de CxC    |Genera una **Factura de CxC Indirecta**.          |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.     |
+      +------------------------+------------------+--------------------------------------------------+
+      |Sobrescribir Secuencia  |Si                |Establece una **Secuencia Temporal** para los     |
+      |al Completar:           |                  |documentos en estado borrador y a su vez una      |
+      |                        |                  |**Secuencia Definitiva** para los documentos en   |
+      |                        |                  |estado completo.                                  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|Facturas CxC      |Genera el número de secuencia establecida para el |
+      |                        |Temporal          |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.002 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**TPM-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia Definitiva:   |Facturas de CxC   |Genera un número de documento establecido para los|
+      |                        |Indirectas        |documentos en estado completo.                    |
+      +------------------------+------------------+--------------------------------------------------+      
+      |Sobrescribir Fecha al   |Si                |Sobrescribe la fecha introducida por la fecha en  |
+      |Completar:              |                  |la que se completa el documento.                  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copiar Número de        |Si                |**Copia el número de documento en el reverso** en |
+      |Documento en Reverso:   |                  |lugar de generar un nuevo número agregándole el   |
+      |                        |                  |símbolo **^** al final del número de documento,   |
+      |                        |                  |además el monto del documento pasa a negativo y se|
+      |                        |                  |destilda el checklist **Documento Fiscal**.       |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia Nro de        |Control Fiscal de |Genera el número de control fiscal establecido.   |
+      |Control:                |Facturas CxC      |                                                  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Fiscal:       |Si                |Genera la **Factura de CxC Indirectas** como un   |
+      |                        |                  |documento fiscal.                                 |
+      +------------------------+------------------+--------------------------------------------------+
+      |Generar Nro de Control  |Si                |Genera el número de control establecido en la     |
+      |Al Imprimir:            |                  |**Secuencia de Nro de Control**.                  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
 
-   3. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
-      -  Convierte el documento en un documento fiscal, al estar en
-         estado completo.
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
+      -  Convierte el documento en un documento fiscal, al estar en estado completo.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
-          - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
+         - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
-          - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
+         - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
-          - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos: 
-              1. Contener la denominación de "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de Control preimpreso. 
-              4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-              6. Fecha de emisión constituida por ocho (8) dígitos. 
-              7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-              9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-              12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
-              13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-              14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-              15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+         - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos: 
+            1. Contener la denominación de "Factura". 
+            2. Numeración consecutiva y única. 
+            3. Número de Control preimpreso. 
+            4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+            6. Fecha de emisión constituida por ocho (8) dígitos. 
+            7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+            9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+            12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
+            13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+            14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+            15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
-          - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
-              1. La denominación "Factura". 
-              2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. Número consecutivo y único.
-              4. La hora y fecha de emisión. 
-              5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br> 
-              6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-              9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-              10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-              11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br> 
+         - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
+            1. La denominación "Factura". 
+            2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            3. Número consecutivo y único.
+            4. La hora y fecha de emisión. 
+            5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br> 
+            6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+            9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br> 
 
-          - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de control preimpreso. 
-              4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-              6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-              7. Fecha de emisión, constituida por ocho (8) dígitos. 
-              8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
-              10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-              11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-              12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
-              13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+         - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
+            1. La denominación "Factura". 
+            2. Numeración consecutiva y única. 
+            3. Número de control preimpreso. 
+            4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+            6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+            7. Fecha de emisión, constituida por ocho (8) dígitos. 
+            8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+            10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
+            11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
+            13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
-          - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-              4. Número consecutivo y único. 
-              5. La hora y fecha de emisión. 
-              6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
-              7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-              9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-              10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
+         - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
+            1. La denominación "Factura". 
+            2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+            4. Número consecutivo y único. 
+            5. La hora y fecha de emisión. 
+            6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
+            7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+            9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
 
-          - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
+         - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
 
-          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general.
+         - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general.
 
 **Tipos de Documentos Ajustes de Cuentas por Cobrar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere un ajuste es un documento que representa el ingreso o
-egreso monetario de la empresa, todo va a depender si el ajuste es de
-crédito o de débito. A continuación se define el comportamiento de un
-ajuste de débito y un ajuste de crédito de cuentas por cobrar en
-ADempiere.
+En ADempiere un ajuste es un documento que representa el ingreso o egreso monetario de la empresa, todo va a depender si el ajuste es de crédito o de débito. A continuación se define el comportamiento de un ajuste de débito y un ajuste de crédito de cuentas por cobrar en ADempiere.
 
-1. **Ajuste de Débito de Cuentas por Cobrar**
+#. **Ajuste de Débito de Cuentas por Cobrar**
 
-   1. **Definición**
+   #. **Definición**
 
-      En ADempiere, este documento representa la deuda o la cantidad de
-      dinero que el socio de negocio le debe pagar a la empresa,
-      mayormente este caso se presenta por la venta de productos o
-      servicios, o por prestaciones que la empresa le hace al mismo.
+      En ADempiere, este documento representa la deuda o la cantidad de dinero que el socio de negocio le debe pagar a la empresa, mayormente este caso se presenta por la venta de productos o servicios, o por prestaciones que la empresa le hace al mismo.
 
       .. warning:: 
       
          Este documento permite controlar las deudas que los socios de negocios tipo clientes contraigan con la empresa por la compra de productos o servicios.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere un ajuste de débito de cuentas por cobrar se define
-      según su comportamiento, a continuación se explica el proceder de
-      un **Ajuste de Débito de CxC**:
+      En ADempiere un ajuste de débito de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de un **Ajuste de Débito de CxC**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Incr |
-      | de   | ra    | emen |
-      | Docu | de    | ta   |
-      | ment | CxC   | el   |
-      | o    |       | sald |
-      | Base |       | o    |
-      | :    |       | deud |
-      |      |       | or   |
-      |      |       | de   |
-      |      |       | un   |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte  |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Ajust | Gene |
-      | enci | e     | ra   |
-      | a    | de    | el   |
-      | del  | Débit | núme |
-      | Docu | o     | ro   |
-      | ment | CxC   | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**A |
-      |      |       | JDBC |
-      |      |       | xC-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Secu | Ajust | Gene |
-      | enci | e     | ra   |
-      | a    | de    | un   |
-      | Defi | Débit | núme |
-      | niti | o     | ro   |
-      | va:  | CxC   | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | del  |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +------------------------+------------------+--------------------------------------------------+
+      |         **Campo**      |    **Valor**     | **Comportamiento en ADempiere**                  |
+      +========================+==================+==================================================+
+      |Tipo de Documento Base: |Factura de CxC    |Genera una **Factura de CxC Exportación** a un    |
+      |                        |                  |socio del negocio tipo cliente.                   |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Controlado:   |Si                |Mantiene una **Secuencia de Control**.            |
+      +------------------------+------------------+--------------------------------------------------+
+      |Transacción de Ventas:  |Si                |Discrimina los tipos de documentos de ventas.     |
+      +------------------------+------------------+--------------------------------------------------+
+      |Sobrescribir Secuencia  |Si                |Establece una **Secuencia Temporal** para los     |
+      |al Completar:           |                  |documentos en estado borrador y a su vez una      |
+      |                        |                  |**Secuencia Definitiva** para los documentos en   |
+      |                        |                  |estado completo.                                  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia del Documento:|Facturas CxC      |Genera el número de secuencia establecida para el |
+      |                        |Temporal          |orden de los tipos de documentos de ADempiere,    |
+      |                        |                  |configurado en la secuencia de documentos y es    |
+      |                        |                  |incrementable en 1, en este caso la secuencia     |
+      |                        |                  |comienza en 1.000.002 y su prefijo esta compuesto |
+      |                        |                  |por las iniciales de su nombre "**TPM-**".        |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia Definitiva:   |Facturas de CxC   |Genera un número de documento establecido para los|
+      |                        |Exportaciones     |documentos en estado completo.                    |
+      +------------------------+------------------+--------------------------------------------------+
+      |Sobrescribir Fecha al   |Si                |Sobrescribe la fecha introducida por la fecha en  |
+      |Completar:              |                  |la que se completa el documento.                  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copiar Número de        |Si                |**Copia el número de documento en el reverso** en |
+      |Documento en Reverso:   |                  |lugar de generar un nuevo número agregándole el   |
+      |                        |                  |símbolo **^** al final del número de documento,   |
+      |                        |                  |además el monto del documento pasa a negativo y se|
+      |                        |                  |destilda el checklist **Documento Fiscal**.       |
+      +------------------------+------------------+--------------------------------------------------+
+      |Secuencia Nro de        |Control Fiscal de |Genera el número de control fiscal establecido.   |
+      |Control:                |Facturas CxC      |                                                  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Documento Fiscal:       |Si                |Genera la **Factura de CxC Exportaciones** como un|
+      |                        |                  |documento fiscal.                                 |
+      +------------------------+------------------+--------------------------------------------------+
+      |Generar Nro de Control  |Si                |Genera el número de control establecido en la     |
+      |Al Imprimir:            |                  |**Secuencia de Nro de Control**.                  |
+      +------------------------+------------------+--------------------------------------------------+
+      |Copias del Documento:   |1                 |Establece el número de copias a imprimir.         |
+      +------------------------+------------------+--------------------------------------------------+
+      
+   #. **Implicación en ADempiere**
 
-   3. **Implicación en ADempiere**
-
-      -  Convierte el documento en un documento fiscal al estar en
-         estado completo, generando un ajuste de débito fiscal.
-      -  Aparece reflejado de manera ordenada en la gestión de ventas de
-         ADempiere.
+      -  Convierte el documento en un documento fiscal al estar en estado completo, generando un ajuste de débito fiscal.
+      -  Aparece reflejado de manera ordenada en la gestión de ventas de ADempiere.
       -  Permite su contabilización en moneda nacional vigente.
       -  Incrementa el saldo deudor del socio del negocio tipo cliente.
-      -  Permite controlar los saldos abiertos de la empresa, por medio
-         del estándar de control y seguimiento establecido en ADempiere.
-      -  Disminuye el monto de un ajuste de crédito, creando un cruce de
-         cuentas.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Disminuye el monto de un ajuste de crédito, creando un cruce de cuentas.
 
-   4. **Implicación Fiscal**
+   #. **Implicación Fiscal**
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
-          - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
+         - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
-          - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
+         - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
 
-          - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
+         - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
-          - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+         - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
-          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
+         Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-2. **Ajuste de Crédito de Cuentas por Cobrar**
+#. **Ajuste de Crédito de Cuentas por Cobrar**
 
-   1. **Definición**
+   #. **Definición**
 
-      En ADempiere, este documento representa la deuda o la cantidad de
-      dinero que la empresa le debe reintegrar al socio de negocio.
-      Suele presentarse el caso de devolución de productos o servicios
-      vendidos, donde amerita que la empresa aplique un ajuste de
-      crédito.
+      En ADempiere, este documento representa la deuda o la cantidad de dinero que la empresa le debe reintegrar al socio de negocio. Suele presentarse el caso de devolución de productos o servicios vendidos, donde amerita que la empresa aplique un ajuste de crédito.
 
       .. warning:: 
       
          Este documento permite controlar las deudas que la empresa contraiga con los socios de negocios tipo cliente.
 
-   2. **Comportamiento**
+   #. **Comportamiento**
 
-      En ADempiere un ajuste de crédito de cuentas por cobrar se define
-      según su comportamiento, a continuación se explica el proceder de
-      un **Ajuste de Crédito de CxC**:
+      En ADempiere un ajuste de crédito de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de un **Ajuste de Crédito de CxC**:
 
       +------+-------+------+
       | **Ca | **Val | **Co |
