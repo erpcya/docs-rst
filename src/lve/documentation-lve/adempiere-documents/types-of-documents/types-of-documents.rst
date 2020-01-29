@@ -2503,317 +2503,83 @@ En ADempiere un ajuste es un documento que representa el ingreso o egreso moneta
 
       En ADempiere un ajuste de crédito de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de un **Ajuste de Crédito de CxC**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tamiento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Decr |
-      | de   | ra    | emen |
-      | Docu | de    | ta   |
-      | ment | CxC   | el   |
-      | o    |       | sald |
-      | Base |       | o    |
-      | :    |       | deud |
-      |      |       | or   |
-      |      |       | de   |
-      |      |       | un   |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte  |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Ajust | Gene |
-      | enci | e     | ra   |
-      | a    | de    | el   |
-      | del  | Crédi | núme |
-      | Docu | to    | ro   |
-      | ment | CxC   | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**A |
-      |      |       | JCCx |
-      |      |       | C-** |
-      |      |       | ".   |
-      +------+-------+------+
-      | Secu | Ajust | Gene |
-      | enci | e     | ra   |
-      | a    | de    | un   |
-      | Defi | Crédi | núme |
-      | niti | to    | ro   |
-      | va:  | CxC   | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Factura de CxC       | Decrementa el saldo  |
+      | Base:                |                      | deudor de un socio   |
+      |                      |                      | de negocio tipo      |
+      |                      |                      | cliente              |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Ajuste de Crédito    | Genera el número de  |
+      | Documento:           | CxC                  | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre               |
+      |                      |                      | "**AJCCxC-**".       |
+      +----------------------+----------------------+----------------------+
+      | Secuencia            | Ajuste de Crédito    | Genera un número de  |
+      | Definitiva:          | CxC                  | documento            |
+      |                      |                      | establecido para los |
+      |                      |                      | documentos en estado |
+      |                      |                      | completo.            |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**. |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -2863,390 +2629,101 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
       En ADempiere una nota de débito de cuentas por cobrar nacional se define según su comportamiento, a continuación se explica el proceder de una **Nota de Débito de CxC Nacional:**
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Gene |
-      | de   | ra    | ra   |
-      | Docu | de    | una  |
-      | ment | CxC   | **No |
-      | o    |       | ta   |
-      | Base |       | de   |
-      | :    |       | Débi |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | CxC  |
-      |      |       | Naci |
-      |      |       | onal |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Factu | Gene |
-      | enci | ras   | ra   |
-      | a    | CxC   | el   |
-      | del  | Tempo | núme |
-      | Docu | ral   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 2    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**T |
-      |      |       | PM-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Secu | Nota  | Gene |
-      | enci | de    | ra   |
-      | a    | Débit | un   |
-      | Defi | o     | núme |
-      | niti | CxC   | ro   |
-      | va:  | Nacio | de   |
-      |      | nal   | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | y se |
-      |      |       | dest |
-      |      |       | ilda |
-      |      |       | el   |
-      |      |       | chec |
-      |      |       | klis |
-      |      |       | t    |
-      |      |       | **Do |
-      |      |       | cume |
-      |      |       | nto  |
-      |      |       | Fisc |
-      |      |       | al** |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Contr | Gene |
-      | enci | ol    | ra   |
-      | a    | Fisca | el   |
-      | Nro  | l     | núme |
-      | de   | de    | ro   |
-      | Cont | Factu | de   |
-      | rol: | ras   | cont |
-      |      | CxC   | rol  |
-      |      |       | fisc |
-      |      |       | al   |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido. |
-      +------+-------+------+
-      | Docu | Si    | Gene |
-      | ment |       | ra   |
-      | o    |       | la   |
-      | Fisc |       | **No |
-      | al:  |       | ta   |
-      |      |       | de   |
-      |      |       | Débi |
-      |      |       | to   |
-      |      |       | CxC  |
-      |      |       | Naci |
-      |      |       | onal |
-      |      |       | **   |
-      |      |       | como |
-      |      |       | un   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | fisc |
-      |      |       | al.  |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Gene | Si    | Gene |
-      | rar  |       | ra   |
-      | Nro  |       | el   |
-      | de   |       | núme |
-      | Cont |       | ro   |
-      | rol  |       | de   |
-      | Al   |       | cont |
-      | Impr |       | rol  |
-      | imir |       | esta |
-      | :    |       | blec |
-      |      |       | ido  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | de   |
-      |      |       | Nro  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Factura de CxC       | Genera una **Nota de |
+      | Base:                |                      | Débito de CxC        |
+      |                      |                      | Nacional** a un      |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Facturas CxC         | Genera el número de  |
+      | Documento:           | Temporal             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.002 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**TPM-**".   |
+      +----------------------+----------------------+----------------------+
+      | Secuencia            | Nota de Débito CxC   | Genera un número de  |
+      | Definitiva:          | Nacional             | documento            |
+      |                      |                      | establecido para los |
+      |                      |                      | documentos en estado |
+      |                      |                      | completo.            |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**  |
+      |                      |                      | y se destilda el     |
+      |                      |                      | checklist            |
+      |                      |                      | **Documento          |
+      |                      |                      | Fiscal**.            |
+      +----------------------+----------------------+----------------------+
+      | Secuencia Nro de     | Control Fiscal de    | Genera el número de  |
+      | Control:             | Facturas CxC         | control fiscal       |
+      |                      |                      | establecido.         |
+      +----------------------+----------------------+----------------------+
+      | Documento Fiscal:    | Si                   | Genera la **Nota de  |
+      |                      |                      | Débito CxC           |
+      |                      |                      | Nacional** como un   |
+      |                      |                      | documento fiscal.    |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Generar Nro de       | Si                   | Genera el número de  |
+      | Control Al Imprimir: |                      | control establecido  |
+      |                      |                      | en la **Secuencia de |
+      |                      |                      | Nro de Control**.    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -3275,7 +2752,7 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-2. **Nota de Débito de Cuentas por Cobrar Exportación**
+#. **Nota de Débito de Cuentas por Cobrar Exportación**
 
    #. **Definición**
 
@@ -3291,392 +2768,101 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
       se define según su comportamiento, a continuación se explica el
       proceder de una **Nota de Débito de CxC Exportación:**
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Gene |
-      | de   | ra    | ra   |
-      | Docu | de    | una  |
-      | ment | CxC   | **No |
-      | o    |       | ta   |
-      | Base |       | de   |
-      | :    |       | Débi |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | CxC  |
-      |      |       | Expo |
-      |      |       | rtac |
-      |      |       | ión* |
-      |      |       | *    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Factu | Gene |
-      | enci | ras   | ra   |
-      | a    | CxC   | el   |
-      | del  | Tempo | núme |
-      | Docu | ral   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 2    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**T |
-      |      |       | PM-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Secu | Nota  | Gene |
-      | enci | de    | ra   |
-      | a    | Débit | un   |
-      | Defi | o     | núme |
-      | niti | CxC   | ro   |
-      | va:  | Expor | de   |
-      |      | tacio | docu |
-      |      | nes   | ment |
-      |      |       | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | y se |
-      |      |       | dest |
-      |      |       | ilda |
-      |      |       | el   |
-      |      |       | chec |
-      |      |       | klis |
-      |      |       | t    |
-      |      |       | **Do |
-      |      |       | cume |
-      |      |       | nto  |
-      |      |       | Fisc |
-      |      |       | al** |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Contr | Gene |
-      | enci | ol    | ra   |
-      | a    | Fisca | el   |
-      | Nro  | l     | núme |
-      | de   | de    | ro   |
-      | Cont | Factu | de   |
-      | rol: | ras   | cont |
-      |      | CxC   | rol  |
-      |      |       | fisc |
-      |      |       | al   |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido. |
-      +------+-------+------+
-      | Docu | Si    | Gene |
-      | ment |       | ra   |
-      | o    |       | la   |
-      | Fisc |       | **No |
-      | al:  |       | ta   |
-      |      |       | de   |
-      |      |       | Débi |
-      |      |       | to   |
-      |      |       | CxC  |
-      |      |       | Expo |
-      |      |       | rtac |
-      |      |       | ione |
-      |      |       | s**  |
-      |      |       | como |
-      |      |       | un   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | fisc |
-      |      |       | al.  |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Gene | Si    | Gene |
-      | rar  |       | ra   |
-      | Nro  |       | el   |
-      | de   |       | núme |
-      | Cont |       | ro   |
-      | rol  |       | de   |
-      | Al   |       | cont |
-      | Impr |       | rol  |
-      | imir |       | esta |
-      | :    |       | blec |
-      |      |       | ido  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | de   |
-      |      |       | Nro  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Factura de CxC       | Genera una **Nota de |
+      | Base:                |                      | Débito de CxC        |
+      |                      |                      | Exportación** a un   |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Facturas CxC         | Genera el número de  |
+      | Documento:           | Temporal             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.002 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**TPM-**".   |
+      +----------------------+----------------------+----------------------+
+      | Secuencia            | Nota de Débito CxC   | Genera un número de  |
+      | Definitiva:          | Exportaciones        | documento            |
+      |                      |                      | establecido para los |
+      |                      |                      | documentos en estado |
+      |                      |                      | completo.            |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**  |
+      |                      |                      | y se destilda el     |
+      |                      |                      | checklist            |
+      |                      |                      | **Documento          |
+      |                      |                      | Fiscal**.            |
+      +----------------------+----------------------+----------------------+
+      | Secuencia Nro de     | Control Fiscal de    | Genera el número de  |
+      | Control:             | Facturas CxC         | control fiscal       |
+      |                      |                      | establecido.         |
+      +----------------------+----------------------+----------------------+
+      | Documento Fiscal:    | Si                   | Genera la **Nota de  |
+      |                      |                      | Débito CxC           |
+      |                      |                      | Exportaciones** como |
+      |                      |                      | un documento fiscal. |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Generar Nro de       | Si                   | Genera el número de  |
+      | Control Al Imprimir: |                      | control establecido  |
+      |                      |                      | en la **Secuencia de |
+      |                      |                      | Nro de Control**.    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -3705,7 +2891,7 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-3. **Nota de Débito de Cuentas por Cobrar Intercompañía**
+#. **Nota de Débito de Cuentas por Cobrar Intercompañía**
 
    #. **Definición**
 
@@ -3726,392 +2912,101 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
       explica el proceder de una **Nota de Débito de CxC
       Intercompañía:**
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Gene |
-      | de   | ra    | ra   |
-      | Docu | de    | una  |
-      | ment | CxC   | **No |
-      | o    |       | ta   |
-      | Base |       | de   |
-      | :    |       | Débi |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | CxC  |
-      |      |       | Inte |
-      |      |       | rcom |
-      |      |       | pañí |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Factu | Gene |
-      | enci | ras   | ra   |
-      | a    | CxC   | el   |
-      | del  | Tempo | núme |
-      | Docu | ral   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 2    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**T |
-      |      |       | PM-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Secu | Nota  | Gene |
-      | enci | de    | ra   |
-      | a    | Débit | un   |
-      | Defi | o     | núme |
-      | niti | CxC   | ro   |
-      | va:  | Inter | de   |
-      |      | compa | docu |
-      |      | ñía   | ment |
-      |      |       | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | y se |
-      |      |       | dest |
-      |      |       | ilda |
-      |      |       | el   |
-      |      |       | chec |
-      |      |       | klis |
-      |      |       | t    |
-      |      |       | **Do |
-      |      |       | cume |
-      |      |       | nto  |
-      |      |       | Fisc |
-      |      |       | al** |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Contr | Gene |
-      | enci | ol    | ra   |
-      | a    | Fisca | el   |
-      | Nro  | l     | núme |
-      | de   | de    | ro   |
-      | Cont | Factu | de   |
-      | rol: | ras   | cont |
-      |      | CxC   | rol  |
-      |      |       | fisc |
-      |      |       | al   |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido. |
-      +------+-------+------+
-      | Docu | Si    | Gene |
-      | ment |       | ra   |
-      | o    |       | la   |
-      | Fisc |       | **No |
-      | al:  |       | ta   |
-      |      |       | de   |
-      |      |       | Débi |
-      |      |       | to   |
-      |      |       | CxC  |
-      |      |       | Inte |
-      |      |       | rcom |
-      |      |       | pañí |
-      |      |       | a**  |
-      |      |       | como |
-      |      |       | un   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | fisc |
-      |      |       | al.  |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Gene | Si    | Gene |
-      | rar  |       | ra   |
-      | Nro  |       | el   |
-      | de   |       | núme |
-      | Cont |       | ro   |
-      | rol  |       | de   |
-      | Al   |       | cont |
-      | Impr |       | rol  |
-      | imir |       | esta |
-      | :    |       | blec |
-      |      |       | ido  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | de   |
-      |      |       | Nro  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Factura de CxC       | Genera una **Nota de |
+      | Base:                |                      | Débito de CxC        |
+      |                      |                      | Intercompañía** a un |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Facturas CxC         | Genera el número de  |
+      | Documento:           | Temporal             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.002 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**TPM-**".   |
+      +----------------------+----------------------+----------------------+
+      | Secuencia            | Nota de Débito CxC   | Genera un número de  |
+      | Definitiva:          | Intercompañía        | documento            |
+      |                      |                      | establecido para los |
+      |                      |                      | documentos en estado |
+      |                      |                      | completo.            |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**  |
+      |                      |                      | y se destilda el     |
+      |                      |                      | checklist            |
+      |                      |                      | **Documento          |
+      |                      |                      | Fiscal**.            |
+      +----------------------+----------------------+----------------------+
+      | Secuencia Nro de     | Control Fiscal de    | Genera el número de  |
+      | Control:             | Facturas CxC         | control fiscal       |
+      |                      |                      | establecido.         |
+      +----------------------+----------------------+----------------------+
+      | Documento Fiscal:    | Si                   | Genera la **Nota de  |
+      |                      |                      | Débito CxC           |
+      |                      |                      | Intercompañía** como |
+      |                      |                      | un documento fiscal. |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Generar Nro de       | Si                   | Genera el número de  |
+      | Control Al Imprimir: |                      | control establecido  |
+      |                      |                      | en la **Secuencia de |
+      |                      |                      | Nro de Control**.    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -4140,7 +3035,7 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-4. **Nota de Débito de Cuentas por Cobrar Empleado**
+#. **Nota de Débito de Cuentas por Cobrar Empleado**
 
    #. **Definición**
 
@@ -4160,390 +3055,101 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
       define según su comportamiento, a continuación se explica el
       proceder de una **Nota de Débito de CxC Empleado:**
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Gene |
-      | de   | ra    | ra   |
-      | Docu | de    | una  |
-      | ment | CxC   | **No |
-      | o    |       | ta   |
-      | Base |       | de   |
-      | :    |       | Débi |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | CxC  |
-      |      |       | Empl |
-      |      |       | eado |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Factu | Gene |
-      | enci | ras   | ra   |
-      | a    | CxC   | el   |
-      | del  | Tempo | núme |
-      | Docu | ral   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 2    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**T |
-      |      |       | PM-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Secu | Nota  | Gene |
-      | enci | de    | ra   |
-      | a    | Débit | un   |
-      | Defi | o     | núme |
-      | niti | CxC   | ro   |
-      | va:  | Emple | de   |
-      |      | ado   | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | y se |
-      |      |       | dest |
-      |      |       | ilda |
-      |      |       | el   |
-      |      |       | chec |
-      |      |       | klis |
-      |      |       | t    |
-      |      |       | **Do |
-      |      |       | cume |
-      |      |       | nto  |
-      |      |       | Fisc |
-      |      |       | al** |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Contr | Gene |
-      | enci | ol    | ra   |
-      | a    | Fisca | el   |
-      | Nro  | l     | núme |
-      | de   | de    | ro   |
-      | Cont | Factu | de   |
-      | rol: | ras   | cont |
-      |      | CxC   | rol  |
-      |      |       | fisc |
-      |      |       | al   |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido. |
-      +------+-------+------+
-      | Docu | Si    | Gene |
-      | ment |       | ra   |
-      | o    |       | la   |
-      | Fisc |       | **No |
-      | al:  |       | ta   |
-      |      |       | de   |
-      |      |       | Débi |
-      |      |       | to   |
-      |      |       | CxC  |
-      |      |       | Empl |
-      |      |       | eado |
-      |      |       | **   |
-      |      |       | como |
-      |      |       | un   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | fisc |
-      |      |       | al.  |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Gene | Si    | Gene |
-      | rar  |       | ra   |
-      | Nro  |       | el   |
-      | de   |       | núme |
-      | Cont |       | ro   |
-      | rol  |       | de   |
-      | Al   |       | cont |
-      | Impr |       | rol  |
-      | imir |       | esta |
-      | :    |       | blec |
-      |      |       | ido  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | de   |
-      |      |       | Nro  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Factura de CxC       | Genera una **Nota de |
+      | Base:                |                      | Débito de CxC        |
+      |                      |                      | Empleado** a un      |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Facturas CxC         | Genera el número de  |
+      | Documento:           | Temporal             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.002 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**TPM-**".   |
+      +----------------------+----------------------+----------------------+
+      | Secuencia            | Nota de Débito CxC   | Genera un número de  |
+      | Definitiva:          | Empleado             | documento            |
+      |                      |                      | establecido para los |
+      |                      |                      | documentos en estado |
+      |                      |                      | completo.            |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**  |
+      |                      |                      | y se destilda el     |
+      |                      |                      | checklist            |
+      |                      |                      | **Documento          |
+      |                      |                      | Fiscal**.            |
+      +----------------------+----------------------+----------------------+
+      | Secuencia Nro de     | Control Fiscal de    | Genera el número de  |
+      | Control:             | Facturas CxC         | control fiscal       |
+      |                      |                      | establecido.         |
+      +----------------------+----------------------+----------------------+
+      | Documento Fiscal:    | Si                   | Genera la **Nota de  |
+      |                      |                      | Débito CxC           |
+      |                      |                      | Empleado** como un   |
+      |                      |                      | documento fiscal.    |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Generar Nro de       | Si                   | Genera el número de  |
+      | Control Al Imprimir: |                      | control establecido  |
+      |                      |                      | en la **Secuencia de |
+      |                      |                      | Nro de Control**.    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -4572,7 +3178,7 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-5. **Nota de Débito de Cuentas por Cobrar Indirecta**
+#. **Nota de Débito de Cuentas por Cobrar Indirecta**
 
    #. **Definición**
 
@@ -4592,391 +3198,101 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
       define según su comportamiento, a continuación se explica el
       proceder de una **Nota de Débito de CxC Indirecta**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Gene |
-      | de   | ra    | ra   |
-      | Docu | de    | una  |
-      | ment | CxC   | **No |
-      | o    |       | ta   |
-      | Base |       | de   |
-      | :    |       | Débi |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | CxC  |
-      |      |       | Indi |
-      |      |       | rect |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Factu | Gene |
-      | enci | ras   | ra   |
-      | a    | CxC   | el   |
-      | del  | Tempo | núme |
-      | Docu | ral   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 2    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**T |
-      |      |       | PM-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Secu | Nota  | Gene |
-      | enci | de    | ra   |
-      | a    | Débit | un   |
-      | Defi | o     | núme |
-      | niti | CxC   | ro   |
-      | va:  | Indir | de   |
-      |      | ectas | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | y se |
-      |      |       | dest |
-      |      |       | ilda |
-      |      |       | el   |
-      |      |       | chec |
-      |      |       | klis |
-      |      |       | t    |
-      |      |       | **Do |
-      |      |       | cume |
-      |      |       | nto  |
-      |      |       | Fisc |
-      |      |       | al** |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Contr | Gene |
-      | enci | ol    | ra   |
-      | a    | Fisca | el   |
-      | Nro  | l     | núme |
-      | de   | de    | ro   |
-      | Cont | Factu | de   |
-      | rol: | ras   | cont |
-      |      | CxC   | rol  |
-      |      |       | fisc |
-      |      |       | al   |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido. |
-      +------+-------+------+
-      | Docu | Si    | Gene |
-      | ment |       | ra   |
-      | o    |       | la   |
-      | Fisc |       | **No |
-      | al:  |       | ta   |
-      |      |       | de   |
-      |      |       | Débi |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | CxC  |
-      |      |       | Indi |
-      |      |       | rect |
-      |      |       | a**  |
-      |      |       | como |
-      |      |       | un   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | fisc |
-      |      |       | al.  |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Gene | Si    | Gene |
-      | rar  |       | ra   |
-      | Nro  |       | el   |
-      | de   |       | núme |
-      | Cont |       | ro   |
-      | rol  |       | de   |
-      | Al   |       | cont |
-      | Impr |       | rol  |
-      | imir |       | esta |
-      | :    |       | blec |
-      |      |       | ido  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | de   |
-      |      |       | Nro  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Factura de CxC       | Genera una **Nota de |
+      | Base:                |                      | Débito de CxC        |
+      |                      |                      | Indirecta** a un     |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Facturas CxC         | Genera el número de  |
+      | Documento:           | Temporal             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.002 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**TPM-**".   |
+      +----------------------+----------------------+----------------------+
+      | Secuencia            | Nota de Débito CxC   | Genera un número de  |
+      | Definitiva:          | Indirectas           | documento            |
+      |                      |                      | establecido para los |
+      |                      |                      | documentos en estado |
+      |                      |                      | completo.            |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**  |
+      |                      |                      | y se destilda el     |
+      |                      |                      | checklist            |
+      |                      |                      | **Documento          |
+      |                      |                      | Fiscal**.            |
+      +----------------------+----------------------+----------------------+
+      | Secuencia Nro de     | Control Fiscal de    | Genera el número de  |
+      | Control:             | Facturas CxC         | control fiscal       |
+      |                      |                      | establecido.         |
+      +----------------------+----------------------+----------------------+
+      | Documento Fiscal:    | Si                   | Genera la **Nota de  |
+      |                      |                      | Débito de CxC        |
+      |                      |                      | Indirecta** como un  |
+      |                      |                      | documento fiscal.    |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Generar Nro de       | Si                   | Genera el número de  |
+      | Control Al Imprimir: |                      | control establecido  |
+      |                      |                      | en la **Secuencia de |
+      |                      |                      | Nro de Control**.    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -5039,216 +3355,59 @@ comportamiento de este tipo de documento.
       según su comportamiento, a continuación se explica el proceder de
       una **Retención de IVA 75% de Cuentas por Cobrar**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Nota  | Reti |
-      | de   | de    | ene  |
-      | Docu | Crédi | el   |
-      | ment | to    | porc |
-      | o    | de    | enta |
-      | Base | CxC   | je   |
-      | :    |       | de   |
-      |      |       | IVA  |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | por  |
-      |      |       | un   |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | del  |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nota de Crédito de   | Retiene el           |
+      | Base:                | CxC                  | porcentaje de IVA    |
+      |                      |                      | establecido por un   |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia del número   |
+      | Documento en         |                      | de documento en el   |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**. |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -5270,7 +3429,7 @@ comportamiento de este tipo de documento.
           1. La venta de exportación de bienes muebles corporales.
           1. La exportación de servicios
 
-2. **Retención de IVA 100% de Cuentas por Cobrar**
+#. **Retención de IVA 100% de Cuentas por Cobrar**
 
    #. **Definición**
 
@@ -5288,216 +3447,59 @@ comportamiento de este tipo de documento.
       según su comportamiento, a continuación se explica el proceder de
       una **Retención de IVA 100% de Cuentas por Cobrar**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Nota  | Reti |
-      | de   | de    | ene  |
-      | Docu | Crédi | el   |
-      | ment | to    | porc |
-      | o    | de    | enta |
-      | Base | CxC   | je   |
-      | :    |       | de   |
-      |      |       | IVA  |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | por  |
-      |      |       | un   |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nota de Crédito de   | Retiene el           |
+      | Base:                | CxC                  | porcentaje de IVA    |
+      |                      |                      | establecido por un   |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**. |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -5518,7 +3520,7 @@ comportamiento de este tipo de documento.
           1. La venta de exportación de bienes muebles corporales.
           1. La exportación de servicios
 
-3. **Retención de ISLR de Cuentas por Cobrar**
+#. **Retención de ISLR de Cuentas por Cobrar**
 
    #. **Definición**
 
@@ -5536,216 +3538,59 @@ comportamiento de este tipo de documento.
       según su comportamiento, a continuación se explica el proceder de
       una **Retención de ISLR de Cuentas por Cobrar**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Nota  | Gene |
-      | de   | de    | ra   |
-      | Docu | Crédi | una  |
-      | ment | to    | rete |
-      | o    | de    | nció |
-      | Base | CxC   | n    |
-      | :    |       | de   |
-      |      |       | ISLR |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | por  |
-      |      |       | un   |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nota de Crédito de   | Genera una retención |
+      | Base:                | CxC                  | de ISLR establecido  |
+      |                      |                      | por un socio de      |
+      |                      |                      | negocio tipo         |
+      |                      |                      | cliente.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**. |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -5805,7 +3650,7 @@ comportamiento de este tipo de documento.
 
           Las empresas propiedad de la Nación, de los Estados o de los Municipios, estarán sujetas a los impuestos y normas establecidas en esta ley, cualquiera que sea la forma jurídica de su constitución, aunque las Leyes especiales referentes a tales empresas dispongan lo contrario. 
 
-4. **Retención Municipal de Cuentas por Cobrar**
+#. **Retención Municipal de Cuentas por Cobrar**
 
    #. **Definición**
 
@@ -5823,217 +3668,59 @@ comportamiento de este tipo de documento.
       define según su comportamiento, a continuación se explica el
       proceder de una **Retención Municipal de CxC**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Nota  | Gene |
-      | de   | de    | ra   |
-      | Docu | Crédi | una  |
-      | ment | to    | rete |
-      | o    | de    | nció |
-      | Base | CxC   | n    |
-      | :    |       | muni |
-      |      |       | cipa |
-      |      |       | l    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ida  |
-      |      |       | por  |
-      |      |       | un   |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nota de Crédito de   | Genera una retención |
+      | Base:                | CxC                  | municipal            |
+      |                      |                      | establecida por un   |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**. |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -6047,7 +3734,7 @@ comportamiento de este tipo de documento.
       
       Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
-5. **Retención de IVA 75% para Nota de Crédito de CxC**
+#. **Retención de IVA 75% para Nota de Crédito de CxC**
 
    #. **Definición**
 
@@ -6067,222 +3754,54 @@ comportamiento de este tipo de documento.
       explica el proceder de una **Retención de IVA 75% para Nota de
       Crédito de CxC**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Reti |
-      | de   | ra    | ene  |
-      | Docu | de    | a    |
-      | ment | CxC   | una  |
-      | o    |       | nota |
-      | Base |       | de   |
-      | :    |       | créd |
-      |      |       | ito  |
-      |      |       | el   |
-      |      |       | porc |
-      |      |       | enta |
-      |      |       | je   |
-      |      |       | de   |
-      |      |       | IVA  |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | por  |
-      |      |       | un   |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | del  |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +-------------------------+----------------+-------------------------+
+      | **Campo**               | **Valor**      | **Comportamiento en     |
+      |                         |                | ADempiere**             |
+      +=========================+================+=========================+
+      | Tipo de Documento Base: | Factura de CxC | Retiene a una nota de   |
+      |                         |                | crédito el porcentaje   |
+      |                         |                | de IVA establecido por  |
+      |                         |                | un socio de negocio     |
+      |                         |                | tipo cliente.           |
+      +-------------------------+----------------+-------------------------+
+      | Documento Controlado:   | Si             | Mantiene una            |
+      |                         |                | **Secuencia de          |
+      |                         |                | Control**.              |
+      +-------------------------+----------------+-------------------------+
+      | Transacción de Ventas:  | Si             | Discrimina los tipos de |
+      |                         |                | documentos de ventas.   |
+      +-------------------------+----------------+-------------------------+
+      | Sobrescribir Secuencia  | Si             | Establece una           |
+      | al Completar:           |                | **Secuencia Temporal**  |
+      |                         |                | para los documentos en  |
+      |                         |                | estado borrador y a su  |
+      |                         |                | vez una **Secuencia     |
+      |                         |                | Definitiva** para los   |
+      |                         |                | documentos en estado    |
+      |                         |                | completo.               |
+      +-------------------------+----------------+-------------------------+
+      | Sobrescribir Fecha al   | Si             | Sobrescribe la fecha    |
+      | Completar:              |                | introducida por la      |
+      |                         |                | fecha en la que se      |
+      |                         |                | completa el documento.  |
+      +-------------------------+----------------+-------------------------+
+      | Copiar Número de        | Si             | **Copia del número de   |
+      | Documento en Reverso:   |                | documento en el         |
+      |                         |                | reverso** en lugar de   |
+      |                         |                | generar un nuevo número |
+      |                         |                | agregándole el símbolo  |
+      |                         |                | **^** al final del      |
+      |                         |                | número de documento,    |
+      |                         |                | además el monto del     |
+      |                         |                | documento pasa a        |
+      |                         |                | **negativo**.           |
+      +-------------------------+----------------+-------------------------+
+      | Asignar Facturas        | Si             | Asigna automáticamente  |
+      | (Automático):           |                | el documento afectado.  |
+      +-------------------------+----------------+-------------------------+
+      | Copias del Documento:   | 1              | Establece el número de  |
+      |                         |                | copias a imprimir.      |
+      +-------------------------+----------------+-------------------------+
 
    #. **Implicación en ADempiere**
 
@@ -6304,7 +3823,7 @@ comportamiento de este tipo de documento.
           1. La venta de exportación de bienes muebles corporales.
           1. La exportación de servicios
 
-6. **Retención de IVA 100% para Nota de Crédito de CxC**
+#. **Retención de IVA 100% para Nota de Crédito de CxC**
 
    #. **Definición**
 
@@ -6324,222 +3843,54 @@ comportamiento de este tipo de documento.
       explica el proceder de una **Retención de IVA 100% para Nota de
       Crédito de CxC**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Reti |
-      | de   | ra    | ene  |
-      | Docu | de    | a    |
-      | ment | CxC   | una  |
-      | o    |       | nota |
-      | Base |       | de   |
-      | :    |       | créd |
-      |      |       | ito  |
-      |      |       | el   |
-      |      |       | porc |
-      |      |       | enta |
-      |      |       | je   |
-      |      |       | de   |
-      |      |       | IVA  |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | por  |
-      |      |       | un   |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | del  |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +-------------------------+----------------+-------------------------+
+      | **Campo**               | **Valor**      | **Comportamiento en     |
+      |                         |                | ADempiere**             |
+      +=========================+================+=========================+
+      | Tipo de Documento Base: | Factura de CxC | Retiene a una nota de   |
+      |                         |                | crédito el porcentaje   |
+      |                         |                | de IVA establecido por  |
+      |                         |                | un socio de negocio     |
+      |                         |                | tipo cliente.           |
+      +-------------------------+----------------+-------------------------+
+      | Documento Controlado:   | Si             | Mantiene una            |
+      |                         |                | **Secuencia de          |
+      |                         |                | Control**.              |
+      +-------------------------+----------------+-------------------------+
+      | Transacción de Ventas:  | Si             | Discrimina los tipos de |
+      |                         |                | documentos de ventas.   |
+      +-------------------------+----------------+-------------------------+
+      | Sobrescribir Secuencia  | Si             | Establece una           |
+      | al Completar:           |                | **Secuencia Temporal**  |
+      |                         |                | para los documentos en  |
+      |                         |                | estado borrador y a su  |
+      |                         |                | vez una **Secuencia     |
+      |                         |                | Definitiva** para los   |
+      |                         |                | documentos en estado    |
+      |                         |                | completo.               |
+      +-------------------------+----------------+-------------------------+
+      | Sobrescribir Fecha al   | Si             | Sobrescribe la fecha    |
+      | Completar:              |                | introducida por la      |
+      |                         |                | fecha en la que se      |
+      |                         |                | completa el documento.  |
+      +-------------------------+----------------+-------------------------+
+      | Copiar Número de        | Si             | **Copia del número de   |
+      | Documento en Reverso:   |                | documento en el         |
+      |                         |                | reverso** en lugar de   |
+      |                         |                | generar un nuevo número |
+      |                         |                | agregándole el símbolo  |
+      |                         |                | **^** al final del      |
+      |                         |                | número de documento,    |
+      |                         |                | además el monto del     |
+      |                         |                | documento pasa a        |
+      |                         |                | **negativo**.           |
+      +-------------------------+----------------+-------------------------+
+      | Asignar Facturas        | Si             | Asigna automáticamente  |
+      | (Automático):           |                | el documento afectado.  |
+      +-------------------------+----------------+-------------------------+
+      | Copias del Documento:   | 1              | Establece el número de  |
+      |                         |                | copias a imprimir.      |
+      +-------------------------+----------------+-------------------------+
 
    #. **Implicación en ADempiere**
 
@@ -6561,7 +3912,7 @@ comportamiento de este tipo de documento.
           1. La venta de exportación de bienes muebles corporales.
           1. La exportación de servicios
 
-7. **Retención de ISLR para Nota de Crédito de CxC**
+#. **Retención de ISLR para Nota de Crédito de CxC**
 
    #. **Definición**
 
@@ -6580,222 +3931,54 @@ comportamiento de este tipo de documento.
       explica el proceder de una **Retención de ISLR para Nota de
       Crédito de CxC**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Reti |
-      | de   | ra    | ene  |
-      | Docu | de    | a    |
-      | ment | CxC   | una  |
-      | o    |       | nota |
-      | Base |       | de   |
-      | :    |       | créd |
-      |      |       | ito  |
-      |      |       | el   |
-      |      |       | porc |
-      |      |       | enta |
-      |      |       | je   |
-      |      |       | de   |
-      |      |       | ISLR |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | por  |
-      |      |       | un   |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +-------------------------+----------------+-------------------------+
+      | **Campo**               | **Valor**      | **Comportamiento en     |
+      |                         |                | ADempiere**             |
+      +=========================+================+=========================+
+      | Tipo de Documento Base: | Factura de CxC | Retiene a una nota de   |
+      |                         |                | crédito el porcentaje   |
+      |                         |                | de ISLR establecido por |
+      |                         |                | un socio de negocio     |
+      |                         |                | tipo cliente.           |
+      +-------------------------+----------------+-------------------------+
+      | Documento Controlado:   | Si             | Mantiene una            |
+      |                         |                | **Secuencia de          |
+      |                         |                | Control**.              |
+      +-------------------------+----------------+-------------------------+
+      | Transacción de Ventas:  | Si             | Discrimina los tipos de |
+      |                         |                | documentos de ventas.   |
+      +-------------------------+----------------+-------------------------+
+      | Sobrescribir Secuencia  | Si             | Establece una           |
+      | al Completar:           |                | **Secuencia Temporal**  |
+      |                         |                | para los documentos en  |
+      |                         |                | estado borrador y a su  |
+      |                         |                | vez una **Secuencia     |
+      |                         |                | Definitiva** para los   |
+      |                         |                | documentos en estado    |
+      |                         |                | completo.               |
+      +-------------------------+----------------+-------------------------+
+      | Sobrescribir Fecha al   | Si             | Sobrescribe la fecha    |
+      | Completar:              |                | introducida por la      |
+      |                         |                | fecha en la que se      |
+      |                         |                | completa el documento.  |
+      +-------------------------+----------------+-------------------------+
+      | Copiar Número de        | Si             | **Copia el número de    |
+      | Documento en Reverso:   |                | documento en el         |
+      |                         |                | reverso** en lugar de   |
+      |                         |                | generar un nuevo número |
+      |                         |                | agregándole el símbolo  |
+      |                         |                | **^** al final del      |
+      |                         |                | número de documento,    |
+      |                         |                | además el monto del     |
+      |                         |                | documento pasa a        |
+      |                         |                | **negativo**.           |
+      +-------------------------+----------------+-------------------------+
+      | Asignar Facturas        | Si             | Asigna automáticamente  |
+      | (Automático):           |                | el documento afectado.  |
+      +-------------------------+----------------+-------------------------+
+      | Copias del Documento:   | 1              | Establece el número de  |
+      |                         |                | copias a imprimir.      |
+      +-------------------------+----------------+-------------------------+
 
    #. **Implicación en ADempiere**
 
@@ -6855,7 +4038,7 @@ comportamiento de este tipo de documento.
 
           Las empresas propiedad de la Nación, de los Estados o de los Municipios, estarán sujetas a los impuestos y normas establecidas en esta ley, cualquiera que sea la forma jurídica de su constitución, aunque las Leyes especiales referentes a tales empresas dispongan lo contrario. 
 
-8. **Retención Municipal para Nota de Crédito de CxC**
+#. **Retención Municipal para Nota de Crédito de CxC**
 
    #. **Definición**
 
@@ -6874,223 +4057,54 @@ comportamiento de este tipo de documento.
       continuación se explica el proceder de una **Retención Municipal
       para Nota de Crédito de CxC**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Reti |
-      | de   | ra    | ene  |
-      | Docu | de    | a    |
-      | ment | CxC   | una  |
-      | o    |       | nota |
-      | Base |       | de   |
-      | :    |       | créd |
-      |      |       | ito  |
-      |      |       | el   |
-      |      |       | porc |
-      |      |       | enta |
-      |      |       | je   |
-      |      |       | muni |
-      |      |       | cipa |
-      |      |       | l    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | id   |
-      |      |       | por  |
-      |      |       | un   |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +-------------------------+----------------+-------------------------+
+      | **Campo**               | **Valor**      | **Comportamiento en     |
+      |                         |                | ADempiere**             |
+      +=========================+================+=========================+
+      | Tipo de Documento Base: | Factura de CxC | Retiene a una nota de   |
+      |                         |                | crédito el porcentaje   |
+      |                         |                | municipal establecido   |
+      |                         |                | por un socio de negocio |
+      |                         |                | tipo cliente.           |
+      +-------------------------+----------------+-------------------------+
+      | Documento Controlado:   | Si             | Mantiene una            |
+      |                         |                | **Secuencia de          |
+      |                         |                | Control**.              |
+      +-------------------------+----------------+-------------------------+
+      | Transacción de Ventas:  | Si             | Discrimina los tipos de |
+      |                         |                | documentos de ventas.   |
+      +-------------------------+----------------+-------------------------+
+      | Sobrescribir Secuencia  | Si             | Establece una           |
+      | al Completar:           |                | **Secuencia Temporal**  |
+      |                         |                | para los documentos en  |
+      |                         |                | estado borrador y a su  |
+      |                         |                | vez una **Secuencia     |
+      |                         |                | Definitiva** para los   |
+      |                         |                | documentos en estado    |
+      |                         |                | completo.               |
+      +-------------------------+----------------+-------------------------+
+      | Sobrescribir Fecha al   | Si             | Sobrescribe la fecha    |
+      | Completar:              |                | introducida por la      |
+      |                         |                | fecha en la que se      |
+      |                         |                | completa el documento.  |
+      +-------------------------+----------------+-------------------------+
+      | Copiar Número de        | Si             | **Copia el número de    |
+      | Documento en Reverso:   |                | documento en el         |
+      |                         |                | reverso** en lugar de   |
+      |                         |                | generar un nuevo número |
+      |                         |                | agregándole el símbolo  |
+      |                         |                | **^** al final del      |
+      |                         |                | número de documento,    |
+      |                         |                | además el monto del     |
+      |                         |                | documento pasa a        |
+      |                         |                | **negativo**.           |
+      +-------------------------+----------------+-------------------------+
+      | Asignar Facturas        | Si             | Asigna automáticamente  |
+      | (Automático):           |                | el documento afectado.  |
+      +-------------------------+----------------+-------------------------+
+      | Copias del Documento:   | 1              | Establece el número de  |
+      |                         |                | copias a imprimir.      |
+      +-------------------------+----------------+-------------------------+
 
    #. **Implicación en ADempiere**
 
@@ -7134,224 +4148,58 @@ u organización.
       según su comportamiento, a continuación se explica el proceder de
       un **Pago Devuelto**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Factu | Habi |
-      | de   | ra    | lita |
-      | Docu | de    | nuev |
-      | ment | CxC   | amen |
-      | o    |       | te   |
-      | Base |       | el   |
-      | :    |       | sald |
-      |      |       | o    |
-      |      |       | deud |
-      |      |       | or   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Pago  | Gene |
-      | enci | Devue | ra   |
-      | a    | lto   | un   |
-      | Defi | CxC   | núme |
-      | niti |       | ro   |
-      | va:  |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +-----------------------+-------------------+-----------------------+
+      | **Campo**             | **Valor**         | **Comportamiento en   |
+      |                       |                   | ADempiere**           |
+      +=======================+===================+=======================+
+      | Tipo de Documento     | Factura de CxC    | Habilita nuevamente   |
+      | Base:                 |                   | el saldo deudor a un  |
+      |                       |                   | socio de negocio tipo |
+      |                       |                   | cliente.              |
+      +-----------------------+-------------------+-----------------------+
+      | Documento Controlado: | Si                | Mantiene una          |
+      |                       |                   | **Secuencia de        |
+      |                       |                   | Control**.            |
+      +-----------------------+-------------------+-----------------------+
+      | Transacción de        | Si                | Discrimina los tipos  |
+      | Ventas:               |                   | de documentos de      |
+      |                       |                   | ventas.               |
+      +-----------------------+-------------------+-----------------------+
+      | Sobrescribir          | Si                | Establece una         |
+      | Secuencia al          |                   | **Secuencia           |
+      | Completar:            |                   | Temporal** para los   |
+      |                       |                   | documentos en estado  |
+      |                       |                   | borrador y a su vez   |
+      |                       |                   | una **Secuencia       |
+      |                       |                   | Definitiva** para los |
+      |                       |                   | documentos en estado  |
+      |                       |                   | completo.             |
+      +-----------------------+-------------------+-----------------------+
+      | Secuencia Definitiva: | Pago Devuelto CxC | Genera un número de   |
+      |                       |                   | documento establecido |
+      |                       |                   | para los documentos   |
+      |                       |                   | en estado completo.   |
+      +-----------------------+-------------------+-----------------------+
+      | Sobrescribir Fecha al | Si                | Sobrescribe la fecha  |
+      | Completar:            |                   | introducida por la    |
+      |                       |                   | fecha en la que se    |
+      |                       |                   | completa el           |
+      |                       |                   | documento.            |
+      +-----------------------+-------------------+-----------------------+
+      | Copiar Número de      | Si                | **Copia el número de  |
+      | Documento en Reverso: |                   | documento en el       |
+      |                       |                   | reverso** en lugar de |
+      |                       |                   | generar un nuevo      |
+      |                       |                   | número agregándole el |
+      |                       |                   | símbolo **^** al      |
+      |                       |                   | final del número de   |
+      |                       |                   | documento, además el  |
+      |                       |                   | monto del documento   |
+      |                       |                   | pasa a **negativo**.  |
+      +-----------------------+-------------------+-----------------------+
+      | Copias del Documento: | 1                 | Establece el número   |
+      |                       |                   | de copias a imprimir. |
+      +-----------------------+-------------------+-----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -7400,390 +4248,101 @@ según su comportamiento.
       define según su comportamiento, a continuación se explica el
       proceder de una **Nota de Crédito de CxC Nacional:**
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Nota  | Gene |
-      | de   | de    | ra   |
-      | Docu | Crédi | una  |
-      | ment | to    | **No |
-      | o    | de    | ta   |
-      | Base | CxC   | de   |
-      | :    |       | Créd |
-      |      |       | ito  |
-      |      |       | de   |
-      |      |       | CxC  |
-      |      |       | Naci |
-      |      |       | onal |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Factu | Gene |
-      | enci | ras   | ra   |
-      | a    | CxC   | el   |
-      | del  | Tempo | núme |
-      | Docu | ral   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 2    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**T |
-      |      |       | PM-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Secu | Notas | Gene |
-      | enci | de    | ra   |
-      | a    | Crédi | un   |
-      | Defi | tos   | núme |
-      | niti | de    | ro   |
-      | va:  | CxC   | de   |
-      |      | Nacio | docu |
-      |      | nal   | ment |
-      |      |       | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | y se |
-      |      |       | dest |
-      |      |       | ilda |
-      |      |       | el   |
-      |      |       | chec |
-      |      |       | klis |
-      |      |       | t    |
-      |      |       | **Do |
-      |      |       | cume |
-      |      |       | nto  |
-      |      |       | Fisc |
-      |      |       | al** |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Contr | Gene |
-      | enci | ol    | ra   |
-      | a    | Fisca | el   |
-      | Nro  | l     | núme |
-      | de   | de    | ro   |
-      | Cont | Factu | de   |
-      | rol: | ras   | cont |
-      |      | CxC   | rol  |
-      |      |       | fisc |
-      |      |       | al   |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido. |
-      +------+-------+------+
-      | Docu | Si    | Gene |
-      | ment |       | ra   |
-      | o    |       | la   |
-      | Fisc |       | **No |
-      | al:  |       | ta   |
-      |      |       | de   |
-      |      |       | Débi |
-      |      |       | to   |
-      |      |       | CxC  |
-      |      |       | Naci |
-      |      |       | onal |
-      |      |       | **   |
-      |      |       | como |
-      |      |       | un   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | fisc |
-      |      |       | al.  |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Gene | Si    | Gene |
-      | rar  |       | ra   |
-      | Nro  |       | el   |
-      | de   |       | núme |
-      | Cont |       | ro   |
-      | rol  |       | de   |
-      | Al   |       | cont |
-      | Impr |       | rol  |
-      | imir |       | esta |
-      | :    |       | blec |
-      |      |       | ido  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | de   |
-      |      |       | Nro  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nota de Crédito de   | Genera una **Nota de |
+      | Base:                | CxC                  | Crédito de CxC       |
+      |                      |                      | Nacional** a un      |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Facturas CxC         | Genera el número de  |
+      | Documento:           | Temporal             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.002 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**TPM-**".   |
+      +----------------------+----------------------+----------------------+
+      | Secuencia            | Notas de Créditos de | Genera un número de  |
+      | Definitiva:          | CxC Nacional         | documento            |
+      |                      |                      | establecido para los |
+      |                      |                      | documentos en estado |
+      |                      |                      | completo.            |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**  |
+      |                      |                      | y se destilda el     |
+      |                      |                      | checklist            |
+      |                      |                      | **Documento          |
+      |                      |                      | Fiscal**.            |
+      +----------------------+----------------------+----------------------+
+      | Secuencia Nro de     | Control Fiscal de    | Genera el número de  |
+      | Control:             | Facturas CxC         | control fiscal       |
+      |                      |                      | establecido.         |
+      +----------------------+----------------------+----------------------+
+      | Documento Fiscal:    | Si                   | Genera la **Nota de  |
+      |                      |                      | Débito CxC           |
+      |                      |                      | Nacional** como un   |
+      |                      |                      | documento fiscal.    |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Generar Nro de       | Si                   | Genera el número de  |
+      | Control Al Imprimir: |                      | control establecido  |
+      |                      |                      | en la **Secuencia de |
+      |                      |                      | Nro de Control**.    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -7811,7 +4370,7 @@ según su comportamiento.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
-2. **Nota de Crédito de Cuentas por Cobrar Exportación**
+#. **Nota de Crédito de Cuentas por Cobrar Exportación**
 
    #. **Definición**
 
@@ -7827,392 +4386,101 @@ según su comportamiento.
 
       En ADempiere una nota de crédito de cuentas por cobrar exportación se define según su comportamiento, a continuación se explica el proceder de una **Nota de Crédito de CxC Exportación:**
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Nota  | Gene |
-      | de   | de    | ra   |
-      | Docu | Crédi | una  |
-      | ment | to    | **No |
-      | o    | de    | ta   |
-      | Base | CxC   | de   |
-      | :    |       | Créd |
-      |      |       | ito  |
-      |      |       | de   |
-      |      |       | CxC  |
-      |      |       | Expo |
-      |      |       | rtac |
-      |      |       | ión* |
-      |      |       | *    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Factu | Gene |
-      | enci | ras   | ra   |
-      | a    | CxC   | el   |
-      | del  | Tempo | núme |
-      | Docu | ral   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 2    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**T |
-      |      |       | PM-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Secu | Notas | Gene |
-      | enci | de    | ra   |
-      | a    | Crédi | un   |
-      | Defi | tos   | núme |
-      | niti | de    | ro   |
-      | va:  | CxC   | de   |
-      |      | Expor | docu |
-      |      | tacio | ment |
-      |      | nes   | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | y se |
-      |      |       | dest |
-      |      |       | ilda |
-      |      |       | el   |
-      |      |       | chec |
-      |      |       | klis |
-      |      |       | t    |
-      |      |       | **Do |
-      |      |       | cume |
-      |      |       | nto  |
-      |      |       | Fisc |
-      |      |       | al** |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Contr | Gene |
-      | enci | ol    | ra   |
-      | a    | Fisca | el   |
-      | Nro  | l     | núme |
-      | de   | de    | ro   |
-      | Cont | Factu | de   |
-      | rol: | ras   | cont |
-      |      | CxC   | rol  |
-      |      |       | fisc |
-      |      |       | al   |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido. |
-      +------+-------+------+
-      | Docu | Si    | Gene |
-      | ment |       | ra   |
-      | o    |       | la   |
-      | Fisc |       | **No |
-      | al:  |       | ta   |
-      |      |       | de   |
-      |      |       | Débi |
-      |      |       | to   |
-      |      |       | CxC  |
-      |      |       | Expo |
-      |      |       | rtac |
-      |      |       | ión* |
-      |      |       | *    |
-      |      |       | como |
-      |      |       | un   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | fisc |
-      |      |       | al.  |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Gene | Si    | Gene |
-      | rar  |       | ra   |
-      | Nro  |       | el   |
-      | de   |       | núme |
-      | Cont |       | ro   |
-      | rol  |       | de   |
-      | Al   |       | cont |
-      | Impr |       | rol  |
-      | imir |       | esta |
-      | :    |       | blec |
-      |      |       | ido  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | de   |
-      |      |       | Nro  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nota de Crédito de   | Genera una **Nota de |
+      | Base:                | CxC                  | Crédito de CxC       |
+      |                      |                      | Exportación** a un   |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Facturas CxC         | Genera el número de  |
+      | Documento:           | Temporal             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.002 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**TPM-**".   |
+      +----------------------+----------------------+----------------------+
+      | Secuencia            | Notas de Créditos de | Genera un número de  |
+      | Definitiva:          | CxC Exportaciones    | documento            |
+      |                      |                      | establecido para los |
+      |                      |                      | documentos en estado |
+      |                      |                      | completo.            |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**  |
+      |                      |                      | y se destilda el     |
+      |                      |                      | checklist            |
+      |                      |                      | **Documento          |
+      |                      |                      | Fiscal**.            |
+      +----------------------+----------------------+----------------------+
+      | Secuencia Nro de     | Control Fiscal de    | Genera el número de  |
+      | Control:             | Facturas CxC         | control fiscal       |
+      |                      |                      | establecido.         |
+      +----------------------+----------------------+----------------------+
+      | Documento Fiscal:    | Si                   | Genera la **Nota de  |
+      |                      |                      | Débito CxC           |
+      |                      |                      | Exportación** como   |
+      |                      |                      | un documento fiscal. |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Generar Nro de       | Si                   | Genera el número de  |
+      | Control Al Imprimir: |                      | control establecido  |
+      |                      |                      | en la **Secuencia de |
+      |                      |                      | Nro de Control**.    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -8240,7 +4508,7 @@ según su comportamiento.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-3. **Nota de Crédito de Cuentas por Cobrar Intercompañía**
+#. **Nota de Crédito de Cuentas por Cobrar Intercompañía**
 
    #. **Definición**
 
@@ -8259,392 +4527,101 @@ según su comportamiento.
       explica el proceder de una **Nota de Crédito de CxC
       Intercompañía:**
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Nota  | Gene |
-      | de   | de    | ra   |
-      | Docu | Crédi | una  |
-      | ment | to    | **No |
-      | o    | de    | ta   |
-      | Base | CxC   | de   |
-      | :    |       | Créd |
-      |      |       | ito  |
-      |      |       | de   |
-      |      |       | CxC  |
-      |      |       | Inte |
-      |      |       | rcom |
-      |      |       | pañí |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Factu | Gene |
-      | enci | ras   | ra   |
-      | a    | CxC   | el   |
-      | del  | Tempo | núme |
-      | Docu | ral   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 2    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**T |
-      |      |       | PM-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Secu | Notas | Gene |
-      | enci | de    | ra   |
-      | a    | Crédi | un   |
-      | Defi | tos   | núme |
-      | niti | de    | ro   |
-      | va:  | CxC   | de   |
-      |      | Inter | docu |
-      |      | compa | ment |
-      |      | ñía   | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | y se |
-      |      |       | dest |
-      |      |       | ilda |
-      |      |       | el   |
-      |      |       | chec |
-      |      |       | klis |
-      |      |       | t    |
-      |      |       | **Do |
-      |      |       | cume |
-      |      |       | nto  |
-      |      |       | Fisc |
-      |      |       | al** |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Contr | Gene |
-      | enci | ol    | ra   |
-      | a    | Fisca | el   |
-      | Nro  | l     | núme |
-      | de   | de    | ro   |
-      | Cont | Factu | de   |
-      | rol: | ras   | cont |
-      |      | CxC   | rol  |
-      |      |       | fisc |
-      |      |       | al   |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido. |
-      +------+-------+------+
-      | Docu | Si    | Gene |
-      | ment |       | ra   |
-      | o    |       | la   |
-      | Fisc |       | **No |
-      | al:  |       | ta   |
-      |      |       | de   |
-      |      |       | Débi |
-      |      |       | to   |
-      |      |       | CxC  |
-      |      |       | Inte |
-      |      |       | rcom |
-      |      |       | pañí |
-      |      |       | a**  |
-      |      |       | como |
-      |      |       | un   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | fisc |
-      |      |       | al.  |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Gene | Si    | Gene |
-      | rar  |       | ra   |
-      | Nro  |       | el   |
-      | de   |       | núme |
-      | Cont |       | ro   |
-      | rol  |       | de   |
-      | Al   |       | cont |
-      | Impr |       | rol  |
-      | imir |       | esta |
-      | :    |       | blec |
-      |      |       | ido  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | de   |
-      |      |       | Nro  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nota de Crédito de   | Genera una **Nota de |
+      | Base:                | CxC                  | Crédito de CxC       |
+      |                      |                      | Intercompañía** a un |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Facturas CxC         | Genera el número de  |
+      | Documento:           | Temporal             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.002 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**TPM-**".   |
+      +----------------------+----------------------+----------------------+
+      | Secuencia            | Notas de Créditos de | Genera un número de  |
+      | Definitiva:          | CxC Intercompañía    | documento            |
+      |                      |                      | establecido para los |
+      |                      |                      | documentos en estado |
+      |                      |                      | completo.            |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**  |
+      |                      |                      | y se destilda el     |
+      |                      |                      | checklist            |
+      |                      |                      | **Documento          |
+      |                      |                      | Fiscal**.            |
+      +----------------------+----------------------+----------------------+
+      | Secuencia Nro de     | Control Fiscal de    | Genera el número de  |
+      | Control:             | Facturas CxC         | control fiscal       |
+      |                      |                      | establecido.         |
+      +----------------------+----------------------+----------------------+
+      | Documento Fiscal:    | Si                   | Genera la **Nota de  |
+      |                      |                      | Débito CxC           |
+      |                      |                      | Intercompañía** como |
+      |                      |                      | un documento fiscal. |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Generar Nro de       | Si                   | Genera el número de  |
+      | Control Al Imprimir: |                      | control establecido  |
+      |                      |                      | en la **Secuencia de |
+      |                      |                      | Nro de Control**.    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -8672,7 +4649,7 @@ según su comportamiento.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-4. **Nota de Crédito de Cuentas por Cobrar Empleado**
+#. **Nota de Crédito de Cuentas por Cobrar Empleado**
 
    #. **Definición**
 
@@ -8690,390 +4667,101 @@ según su comportamiento.
       define según su comportamiento, a continuación se explica el
       proceder de una **Nota de Crédito de CxC Empleado:**
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Nota  | Gene |
-      | de   | de    | ra   |
-      | Docu | Crédi | una  |
-      | ment | to    | **No |
-      | o    | de    | ta   |
-      | Base | CxC   | de   |
-      | :    |       | Créd |
-      |      |       | ito  |
-      |      |       | de   |
-      |      |       | CxC  |
-      |      |       | Empl |
-      |      |       | eado |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Factu | Gene |
-      | enci | ras   | ra   |
-      | a    | CxC   | el   |
-      | del  | Tempo | núme |
-      | Docu | ral   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 2    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**T |
-      |      |       | PM-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Secu | Notas | Gene |
-      | enci | de    | ra   |
-      | a    | Crédi | un   |
-      | Defi | tos   | núme |
-      | niti | de    | ro   |
-      | va:  | CxC   | de   |
-      |      | Emple | docu |
-      |      | ados  | ment |
-      |      |       | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | y se |
-      |      |       | dest |
-      |      |       | ilda |
-      |      |       | el   |
-      |      |       | chec |
-      |      |       | klis |
-      |      |       | t    |
-      |      |       | **Do |
-      |      |       | cume |
-      |      |       | nto  |
-      |      |       | Fisc |
-      |      |       | al** |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Contr | Gene |
-      | enci | ol    | ra   |
-      | a    | Fisca | el   |
-      | Nro  | l     | núme |
-      | de   | de    | ro   |
-      | Cont | Factu | de   |
-      | rol: | ras   | cont |
-      |      | CxC   | rol  |
-      |      |       | fisc |
-      |      |       | al   |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido. |
-      +------+-------+------+
-      | Docu | Si    | Gene |
-      | ment |       | ra   |
-      | o    |       | la   |
-      | Fisc |       | **No |
-      | al:  |       | ta   |
-      |      |       | de   |
-      |      |       | Débi |
-      |      |       | to   |
-      |      |       | CxC  |
-      |      |       | Empl |
-      |      |       | eado |
-      |      |       | **   |
-      |      |       | como |
-      |      |       | un   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | fisc |
-      |      |       | al.  |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Gene | Si    | Gene |
-      | rar  |       | ra   |
-      | Nro  |       | el   |
-      | de   |       | núme |
-      | Cont |       | ro   |
-      | rol  |       | de   |
-      | Al   |       | cont |
-      | Impr |       | rol  |
-      | imir |       | esta |
-      | :    |       | blec |
-      |      |       | ido  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | de   |
-      |      |       | Nro  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nota de Crédito de   | Genera una **Nota de |
+      | Base:                | CxC                  | Crédito de CxC       |
+      |                      |                      | Empleado** a un      |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Facturas CxC         | Genera el número de  |
+      | Documento:           | Temporal             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.002 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**TPM-**".   |
+      +----------------------+----------------------+----------------------+
+      | Secuencia            | Notas de Créditos de | Genera un número de  |
+      | Definitiva:          | CxC Empleados        | documento            |
+      |                      |                      | establecido para los |
+      |                      |                      | documentos en estado |
+      |                      |                      | completo.            |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**  |
+      |                      |                      | y se destilda el     |
+      |                      |                      | checklist            |
+      |                      |                      | **Documento          |
+      |                      |                      | Fiscal**.            |
+      +----------------------+----------------------+----------------------+
+      | Secuencia Nro de     | Control Fiscal de    | Genera el número de  |
+      | Control:             | Facturas CxC         | control fiscal       |
+      |                      |                      | establecido.         |
+      +----------------------+----------------------+----------------------+
+      | Documento Fiscal:    | Si                   | Genera la **Nota de  |
+      |                      |                      | Débito CxC           |
+      |                      |                      | Empleado** como un   |
+      |                      |                      | documento fiscal.    |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Generar Nro de       | Si                   | Genera el número de  |
+      | Control Al Imprimir: |                      | control establecido  |
+      |                      |                      | en la **Secuencia de |
+      |                      |                      | Nro de Control**.    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -9101,7 +4789,7 @@ según su comportamiento.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-5. **Nota de Crédito de Cuentas por Cobrar Indirecta**
+#. **Nota de Crédito de Cuentas por Cobrar Indirecta**
 
    #. **Definición**
 
@@ -9119,390 +4807,101 @@ según su comportamiento.
       se define según su comportamiento, a continuación se explica el
       proceder de una **Nota de Crédito de CxC Indirecta:**
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Nota  | Gene |
-      | de   | de    | ra   |
-      | Docu | Crédi | una  |
-      | ment | to    | **No |
-      | o    | de    | ta   |
-      | Base | CxC   | de   |
-      | :    |       | Créd |
-      |      |       | ito  |
-      |      |       | de   |
-      |      |       | CxC  |
-      |      |       | Indi |
-      |      |       | rect |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Sobr | Si    | Esta |
-      | escr |       | blec |
-      | ibir |       | e    |
-      | Secu |       | una  |
-      | enci |       | **Se |
-      | a    |       | cuen |
-      | al   |       | cia  |
-      | Comp |       | Temp |
-      | leta |       | oral |
-      | r:   |       | **   |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | borr |
-      |      |       | ador |
-      |      |       | y a  |
-      |      |       | su   |
-      |      |       | vez  |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | Defi |
-      |      |       | niti |
-      |      |       | va** |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Factu | Gene |
-      | enci | ras   | ra   |
-      | a    | CxC   | el   |
-      | del  | Tempo | núme |
-      | Docu | ral   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 2    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**T |
-      |      |       | PM-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Secu | Notas | Gene |
-      | enci | de    | ra   |
-      | a    | Crédi | un   |
-      | Defi | tos   | núme |
-      | niti | de    | ro   |
-      | va:  | CxC   | de   |
-      |      | Indir | docu |
-      |      | ecta  | ment |
-      |      |       | o    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | los  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | en   |
-      |      |       | esta |
-      |      |       | do   |
-      |      |       | comp |
-      |      |       | leto |
-      |      |       | .    |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | el   |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | y se |
-      |      |       | dest |
-      |      |       | ilda |
-      |      |       | el   |
-      |      |       | chec |
-      |      |       | klis |
-      |      |       | t    |
-      |      |       | **Do |
-      |      |       | cume |
-      |      |       | nto  |
-      |      |       | Fisc |
-      |      |       | al** |
-      |      |       | .    |
-      +------+-------+------+
-      | Secu | Contr | Gene |
-      | enci | ol    | ra   |
-      | a    | Fisca | el   |
-      | Nro  | l     | núme |
-      | de   | de    | ro   |
-      | Cont | Factu | de   |
-      | rol: | ras   | cont |
-      |      | CxC   | rol  |
-      |      |       | fisc |
-      |      |       | al   |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido. |
-      +------+-------+------+
-      | Docu | Si    | Gene |
-      | ment |       | ra   |
-      | o    |       | la   |
-      | Fisc |       | **No |
-      | al:  |       | ta   |
-      |      |       | de   |
-      |      |       | Débi |
-      |      |       | to   |
-      |      |       | CxC  |
-      |      |       | Indi |
-      |      |       | rect |
-      |      |       | a**  |
-      |      |       | como |
-      |      |       | un   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | fisc |
-      |      |       | al.  |
-      +------+-------+------+
-      | Asig | Si    | Asig |
-      | nar  |       | na   |
-      | Fact |       | auto |
-      | uras |       | máti |
-      | (Aut |       | came |
-      | omát |       | nte  |
-      | ico) |       | el   |
-      | :    |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | afec |
-      |      |       | tado |
-      |      |       | .    |
-      +------+-------+------+
-      | Gene | Si    | Gene |
-      | rar  |       | ra   |
-      | Nro  |       | el   |
-      | de   |       | núme |
-      | Cont |       | ro   |
-      | rol  |       | de   |
-      | Al   |       | cont |
-      | Impr |       | rol  |
-      | imir |       | esta |
-      | :    |       | blec |
-      |      |       | ido  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | de   |
-      |      |       | Nro  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nota de Crédito de   | Genera una **Nota de |
+      | Base:                | CxC                  | Crédito de CxC       |
+      |                      |                      | Indirecta** a un     |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir         | Si                   | Establece una        |
+      | Secuencia al         |                      | **Secuencia          |
+      | Completar:           |                      | Temporal** para los  |
+      |                      |                      | documentos en estado |
+      |                      |                      | borrador y a su vez  |
+      |                      |                      | una **Secuencia      |
+      |                      |                      | Definitiva** para    |
+      |                      |                      | los documentos en    |
+      |                      |                      | estado completo.     |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Facturas CxC         | Genera el número de  |
+      | Documento:           | Temporal             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.002 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**TPM-**".   |
+      +----------------------+----------------------+----------------------+
+      | Secuencia            | Notas de Créditos de | Genera un número de  |
+      | Definitiva:          | CxC Indirecta        | documento            |
+      |                      |                      | establecido para los |
+      |                      |                      | documentos en estado |
+      |                      |                      | completo.            |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia el número de |
+      | Documento en         |                      | documento en el      |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**  |
+      |                      |                      | y se destilda el     |
+      |                      |                      | checklist            |
+      |                      |                      | **Documento          |
+      |                      |                      | Fiscal**.            |
+      +----------------------+----------------------+----------------------+
+      | Secuencia Nro de     | Control Fiscal de    | Genera el número de  |
+      | Control:             | Facturas CxC         | control fiscal       |
+      |                      |                      | establecido.         |
+      +----------------------+----------------------+----------------------+
+      | Documento Fiscal:    | Si                   | Genera la **Nota de  |
+      |                      |                      | Débito CxC           |
+      |                      |                      | Indirecta** como un  |
+      |                      |                      | documento fiscal.    |
+      +----------------------+----------------------+----------------------+
+      | Asignar Facturas     | Si                   | Asigna               |
+      | (Automático):        |                      | automáticamente el   |
+      |                      |                      | documento afectado.  |
+      +----------------------+----------------------+----------------------+
+      | Generar Nro de       | Si                   | Genera el número de  |
+      | Control Al Imprimir: |                      | control establecido  |
+      |                      |                      | en la **Secuencia de |
+      |                      |                      | Nro de Control**.    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -9569,154 +4968,44 @@ comportamiento.
       según su comportamiento, a continuación se explica el proceder de
       un **Cobro de CxC Nacional**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Cobro | Crea |
-      | de   | s     | un   |
-      | Docu | de    | docu |
-      | ment | CxC   | ment |
-      | o    |       | o    |
-      | Base |       | de   |
-      | :    |       | cobr |
-      |      |       | o    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | dete |
-      |      |       | rmin |
-      |      |       | ado. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Cobro | Gene |
-      | enci | s     | ra   |
-      | a    | CxC   | el   |
-      | del  | Nacio | núme |
-      | Docu | nales | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**C |
-      |      |       | CxCN |
-      |      |       | -**" |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Cobros de CxC        | Crea un documento de |
+      | Base:                |                      | cobro a un socio de  |
+      |                      |                      | negocio determinado. |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Cobros CxC           | Genera el número de  |
+      | Documento:           | Nacionales           | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**CCxCN-**". |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -9729,7 +5018,7 @@ comportamiento.
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Cobro de Cuentas por Cobrar Internacional**
+#. **Cobro de Cuentas por Cobrar Internacional**
 
    #. **Definición**
 
@@ -9747,167 +5036,57 @@ comportamiento.
       define según su comportamiento, a continuación se explica el
       proceder de un **Cobro de CxC Internacional**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Cobro | Crea |
-      | de   | s     | un   |
-      | Docu | de    | docu |
-      | ment | CxC   | ment |
-      | o    |       | o    |
-      | Base |       | de   |
-      | :    |       | cobr |
-      |      |       | o    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | dete |
-      |      |       | rmin |
-      |      |       | ado. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Cobro | Gene |
-      | enci | s     | ra   |
-      | a    | CxC   | el   |
-      | del  | Inter | núme |
-      | Docu | nacio | ro   |
-      | ment | nales | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**C |
-      |      |       | CxCI |
-      |      |       | -**" |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Cobros de CxC        | Crea un documento de |
+      | Base:                |                      | cobro a un socio de  |
+      |                      |                      | negocio determinado. |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Cobros CxC           | Genera el número de  |
+      | Documento:           | Internacionales      | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**CCxCI-**". |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
       -  Refleja el ingreso monetario a la empresa por la venta de los productos y servicios fuera de Venezuela.
       -  Permite su contabilización en moneda extranjera convertida a moneda nacional vigente.
       -  Aparece reflejado de manera ordenada en la gestión de saldos pendientes de ADempiere.
-      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere.
+      -  Permite controlar los saldos abiertos de la empresa, por medio del estándar de control y seguimiento establecido en ADempiere. 
 
    #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
 
-3. **Cobro de Cuentas por Cobrar Gasto Directo**
+#. **Cobro de Cuentas por Cobrar Gasto Directo**
 
    #. **Definición**
 
@@ -9925,154 +5104,44 @@ comportamiento.
       define según su comportamiento, a continuación se explica el
       proceder de un **Cobro de CxC Gasto Directo**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Cobro | Crea |
-      | de   | s     | un   |
-      | Docu | de    | docu |
-      | ment | CxC   | ment |
-      | o    |       | o    |
-      | Base |       | de   |
-      | :    |       | cobr |
-      |      |       | o    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | dete |
-      |      |       | rmin |
-      |      |       | ado. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Cobro | Gene |
-      | enci | s     | ra   |
-      | a    | CxC   | el   |
-      | del  | Gasto | núme |
-      | Docu | s     | ro   |
-      | ment | Direc | de   |
-      | o:   | tos   | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**C |
-      |      |       | CxCG |
-      |      |       | -**" |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Cobros de CxC        | Crea un documento de |
+      | Base:                |                      | cobro a un socio de  |
+      |                      |                      | negocio determinado. |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Cobros CxC Gastos    | Genera el número de  |
+      | Documento:           | Directos             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**CCxCG-**". |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -10085,7 +5154,7 @@ comportamiento.
       
       No posee implicación fiscal por no ser un documento legal.
 
-4. **Cobro de Cuentas por Cobrar Reembolso**
+#. **Cobro de Cuentas por Cobrar Reembolso**
 
    #. **Definición**
 
@@ -10103,154 +5172,44 @@ comportamiento.
       según su comportamiento, a continuación se explica el proceder de
       un **Cobro de CxC Reembolso**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Cobro | Crea |
-      | de   | s     | un   |
-      | Docu | de    | docu |
-      | ment | CxC   | ment |
-      | o    |       | o    |
-      | Base |       | de   |
-      | :    |       | cobr |
-      |      |       | o    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | dete |
-      |      |       | rmin |
-      |      |       | ado. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Cobro | Gene |
-      | enci | s     | ra   |
-      | a    | CxC   | el   |
-      | del  | Reemb | núme |
-      | Docu | olso  | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**C |
-      |      |       | CxCR |
-      |      |       | -**" |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Cobros de CxC        | Crea un documento de |
+      | Base:                |                      | cobro a un socio de  |
+      |                      |                      | negocio determinado. |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Cobros CxC Reembolso | Genera el número de  |
+      | Documento:           |                      | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**CCxCR-**". |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -10263,7 +5222,7 @@ comportamiento.
       
       No posee implicación fiscal por no ser un documento legal.
 
-5. **Cobro de Cuentas por Cobrar Viáticos**
+#. **Cobro de Cuentas por Cobrar Viáticos**
 
    #. **Definición**
 
@@ -10282,154 +5241,44 @@ comportamiento.
       según su comportamiento, a continuación se explica el proceder de
       un **Cobro de CxC Viáticos**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Cobro | Crea |
-      | de   | s     | un   |
-      | Docu | de    | docu |
-      | ment | CxC   | ment |
-      | o    |       | o    |
-      | Base |       | de   |
-      | :    |       | cobr |
-      |      |       | o    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | dete |
-      |      |       | rmin |
-      |      |       | ado. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Cobro | Gene |
-      | enci | s     | ra   |
-      | a    | CxC   | el   |
-      | del  | Viáti | núme |
-      | Docu | cos   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**C |
-      |      |       | CxCV |
-      |      |       | -**" |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+---------------------+----------------------+
+      | **Campo**            | **Valor**           | **Comportamiento en  |
+      |                      |                     | ADempiere**          |
+      +======================+=====================+======================+
+      | Tipo de Documento    | Cobros de CxC       | Crea un documento de |
+      | Base:                |                     | cobro a un socio de  |
+      |                      |                     | negocio determinado. |
+      +----------------------+---------------------+----------------------+
+      | Documento            | Si                  | Mantiene una         |
+      | Controlado:          |                     | **Secuencia de       |
+      |                      |                     | Control**.           |
+      +----------------------+---------------------+----------------------+
+      | Transacción de       | Si                  | Discrimina los tipos |
+      | Ventas:              |                     | de documentos de     |
+      |                      |                     | ventas.              |
+      +----------------------+---------------------+----------------------+
+      | Secuencia del        | Cobros CxC Viáticos | Genera el número de  |
+      | Documento:           |                     | secuencia            |
+      |                      |                     | establecido para el  |
+      |                      |                     | orden de los tipos   |
+      |                      |                     | de documentos de     |
+      |                      |                     | ADempiere,           |
+      |                      |                     | configurado en la    |
+      |                      |                     | secuencia de         |
+      |                      |                     | documentos y es      |
+      |                      |                     | incrementable en 1,  |
+      |                      |                     | en este caso la      |
+      |                      |                     | secuencia comienza   |
+      |                      |                     | en 1.000.000 y su    |
+      |                      |                     | prefijo esta         |
+      |                      |                     | compuesto por las    |
+      |                      |                     | iniciales de su      |
+      |                      |                     | nombre "**CCxCV-**". |
+      +----------------------+---------------------+----------------------+
+      | Copias del           | 1                   | Establece el número  |
+      | Documento:           |                     | de copias a          |
+      |                      |                     | imprimir.            |
+      +----------------------+---------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -10478,237 +5327,62 @@ continuación se describe.
       comportamiento, a continuación se explica el proceder de **Entrega
       Nacional**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Entre | Gene |
-      | de   | ga    | ra   |
-      | Docu | de    | una  |
-      | ment | Produ | **En |
-      | o    | cto   | treg |
-      | Base |       | a    |
-      | :    |       | Naci |
-      |      |       | onal |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Entre | Gene |
-      | enci | ga    | ra   |
-      | a    | Nacio | el   |
-      | del  | nal   | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**E |
-      |      |       | N-** |
-      |      |       | ".   |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | del  |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+---------------------+----------------------+
+      | **Campo**            | **Valor**           | **Comportamiento en  |
+      |                      |                     | ADempiere**          |
+      +======================+=====================+======================+
+      | Tipo de Documento    | Entrega de Producto | Genera una **Entrega |
+      | Base:                |                     | Nacional** a un      |
+      |                      |                     | socio de negocio     |
+      |                      |                     | tipo cliente.        |
+      +----------------------+---------------------+----------------------+
+      | Documento            | Si                  | Mantiene una         |
+      | Controlado:          |                     | **Secuencia de       |
+      |                      |                     | Control**.           |
+      +----------------------+---------------------+----------------------+
+      | Transacción de       | Si                  | Discrimina los tipos |
+      | Ventas:              |                     | de documentos de     |
+      |                      |                     | ventas.              |
+      +----------------------+---------------------+----------------------+
+      | Secuencia del        | Entrega Nacional    | Genera el número de  |
+      | Documento:           |                     | secuencia            |
+      |                      |                     | establecido para el  |
+      |                      |                     | orden de los tipos   |
+      |                      |                     | de documentos de     |
+      |                      |                     | ADempiere,           |
+      |                      |                     | configurado en la    |
+      |                      |                     | secuencia de         |
+      |                      |                     | documentos y es      |
+      |                      |                     | incrementable en 1,  |
+      |                      |                     | en este caso la      |
+      |                      |                     | secuencia comienza   |
+      |                      |                     | en 1.000.000 y su    |
+      |                      |                     | prefijo esta         |
+      |                      |                     | compuesto por las    |
+      |                      |                     | iniciales de su      |
+      |                      |                     | nombre "**EN-**".    |
+      +----------------------+---------------------+----------------------+
+      | Sobrescribir Fecha   | Si                  | Sobrescribe la fecha |
+      | al Completar:        |                     | introducida por la   |
+      |                      |                     | fecha en la que se   |
+      |                      |                     | completa el          |
+      |                      |                     | documento.           |
+      +----------------------+---------------------+----------------------+
+      | Copiar Número de     | Si                  | **Copia del número   |
+      | Documento en         |                     | de documento en el   |
+      | Reverso:             |                     | reverso** en lugar   |
+      |                      |                     | de generar un nuevo  |
+      |                      |                     | número agregándole   |
+      |                      |                     | el símbolo **^** al  |
+      |                      |                     | final del número de  |
+      |                      |                     | documento, además el |
+      |                      |                     | monto del documento  |
+      |                      |                     | pasa a **negativo**. |
+      +----------------------+---------------------+----------------------+
+      | Copias del           | 1                   | Establece el número  |
+      | Documento:           |                     | de copias a          |
+      |                      |                     | imprimir.            |
+      +----------------------+---------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -10720,7 +5394,7 @@ continuación se describe.
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Entrega Exportación**
+#. **Entrega Exportación**
 
    #. **Definición**
 
@@ -10738,238 +5412,62 @@ continuación se describe.
       comportamiento, a continuación se explica el proceder de **Entrega
       Exportación**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Entre | Gene |
-      | de   | ga    | ra   |
-      | Docu | de    | una  |
-      | ment | Produ | **En |
-      | o    | cto   | treg |
-      | Base |       | a    |
-      | :    |       | Expo |
-      |      |       | rtac |
-      |      |       | ión* |
-      |      |       | *    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Entre | Gene |
-      | enci | ga    | ra   |
-      | a    | Expor | el   |
-      | del  | tacio | núme |
-      | Docu | nes   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**E |
-      |      |       | EX-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | del  |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Entrega de Producto  | Genera una **Entrega |
+      | Base:                |                      | Exportación** a un   |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Entrega              | Genera el número de  |
+      | Documento:           | Exportaciones        | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**EEX-**".   |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia del número   |
+      | Documento en         |                      | de documento en el   |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**. |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -10982,7 +5480,7 @@ continuación se describe.
       
       No posee implicación fiscal por no ser un documento legal.
 
-3. **Entrega Intercompañía**
+#. **Entrega Intercompañía**
 
    #. **Definición**
 
@@ -11000,238 +5498,62 @@ continuación se describe.
       comportamiento, a continuación se explica el proceder de **Entrega
       Intercompañía**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Entre | Gene |
-      | de   | ga    | ra   |
-      | Docu | de    | una  |
-      | ment | Produ | **En |
-      | o    | cto   | treg |
-      | Base |       | a    |
-      | :    |       | Inte |
-      |      |       | rcom |
-      |      |       | pañí |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Entre | Gene |
-      | enci | ga    | ra   |
-      | a    | Inter | el   |
-      | del  | compa | núme |
-      | Docu | ñía   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**E |
-      |      |       | IC-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | del  |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Entrega de Producto  | Genera una **Entrega |
+      | Base:                |                      | Intercompañía** a un |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Entrega              | Genera el número de  |
+      | Documento:           | Intercompañía        | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**EIC-**".   |
+      +----------------------+----------------------+----------------------+
+      | Sobrescribir Fecha   | Si                   | Sobrescribe la fecha |
+      | al Completar:        |                      | introducida por la   |
+      |                      |                      | fecha en la que se   |
+      |                      |                      | completa el          |
+      |                      |                      | documento.           |
+      +----------------------+----------------------+----------------------+
+      | Copiar Número de     | Si                   | **Copia del número   |
+      | Documento en         |                      | de documento en el   |
+      | Reverso:             |                      | reverso** en lugar   |
+      |                      |                      | de generar un nuevo  |
+      |                      |                      | número agregándole   |
+      |                      |                      | el símbolo **^** al  |
+      |                      |                      | final del número de  |
+      |                      |                      | documento, además el |
+      |                      |                      | monto del documento  |
+      |                      |                      | pasa a **negativo**. |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -11243,7 +5565,7 @@ continuación se describe.
       
       No posee implicación fiscal por no ser un documento legal.
 
-4. **Entrega Empleado**
+#. **Entrega Empleado**
 
    #. **Definición**
 
@@ -11260,237 +5582,62 @@ continuación se describe.
       comportamiento, a continuación se explica el proceder de **Entrega
       Empleado**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Entre | Gene |
-      | de   | ga    | ra   |
-      | Docu | de    | una  |
-      | ment | Produ | **En |
-      | o    | cto   | treg |
-      | Base |       | a    |
-      | :    |       | Empl |
-      |      |       | eado |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Entre | Gene |
-      | enci | ga    | ra   |
-      | a    | Emple | el   |
-      | del  | ados  | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**E |
-      |      |       | E-** |
-      |      |       | ".   |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | del  |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+---------------------+----------------------+
+      | **Campo**            | **Valor**           | **Comportamiento en  |
+      |                      |                     | ADempiere**          |
+      +======================+=====================+======================+
+      | Tipo de Documento    | Entrega de Producto | Genera una **Entrega |
+      | Base:                |                     | Empleado** a un      |
+      |                      |                     | socio de negocio     |
+      |                      |                     | tipo cliente.        |
+      +----------------------+---------------------+----------------------+
+      | Documento            | Si                  | Mantiene una         |
+      | Controlado:          |                     | **Secuencia de       |
+      |                      |                     | Control**.           |
+      +----------------------+---------------------+----------------------+
+      | Transacción de       | Si                  | Discrimina los tipos |
+      | Ventas:              |                     | de documentos de     |
+      |                      |                     | ventas.              |
+      +----------------------+---------------------+----------------------+
+      | Secuencia del        | Entrega Empleados   | Genera el número de  |
+      | Documento:           |                     | secuencia            |
+      |                      |                     | establecido para el  |
+      |                      |                     | orden de los tipos   |
+      |                      |                     | de documentos de     |
+      |                      |                     | ADempiere,           |
+      |                      |                     | configurado en la    |
+      |                      |                     | secuencia de         |
+      |                      |                     | documentos y es      |
+      |                      |                     | incrementable en 1,  |
+      |                      |                     | en este caso la      |
+      |                      |                     | secuencia comienza   |
+      |                      |                     | en 1.000.000 y su    |
+      |                      |                     | prefijo esta         |
+      |                      |                     | compuesto por las    |
+      |                      |                     | iniciales de su      |
+      |                      |                     | nombre "**EE-**".    |
+      +----------------------+---------------------+----------------------+
+      | Sobrescribir Fecha   | Si                  | Sobrescribe la fecha |
+      | al Completar:        |                     | introducida por la   |
+      |                      |                     | fecha en la que se   |
+      |                      |                     | completa el          |
+      |                      |                     | documento.           |
+      +----------------------+---------------------+----------------------+
+      | Copiar Número de     | Si                  | **Copia del número   |
+      | Documento en         |                     | de documento en el   |
+      | Reverso:             |                     | reverso** en lugar   |
+      |                      |                     | de generar un nuevo  |
+      |                      |                     | número agregándole   |
+      |                      |                     | el símbolo **^** al  |
+      |                      |                     | final del número de  |
+      |                      |                     | documento, además el |
+      |                      |                     | monto del documento  |
+      |                      |                     | pasa a **negativo**. |
+      +----------------------+---------------------+----------------------+
+      | Copias del           | 1                   | Establece el número  |
+      | Documento:           |                     | de copias a          |
+      |                      |                     | imprimir.            |
+      +----------------------+---------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -11502,7 +5649,7 @@ continuación se describe.
       
       No posee implicación fiscal por no ser un documento legal.
 
-5. **Entrega Indirecta**
+#. **Entrega Indirecta**
 
    #. **Definición**
 
@@ -11519,237 +5666,62 @@ continuación se describe.
       comportamiento, a continuación se explica el proceder de **Entrega
       Indirecta**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Entre | Gene |
-      | de   | ga    | ra   |
-      | Docu | de    | una  |
-      | ment | Produ | **En |
-      | o    | cto   | treg |
-      | Base |       | a    |
-      | :    |       | Indi |
-      |      |       | rect |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Entre | Gene |
-      | enci | ga    | ra   |
-      | a    | Indir | el   |
-      | del  | ecta  | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**E |
-      |      |       | ID-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Sobr | Si    | Sobr |
-      | escr |       | escr |
-      | ibir |       | ibe  |
-      | Fech |       | la   |
-      | a    |       | fech |
-      | al   |       | a    |
-      | Comp |       | intr |
-      | leta |       | oduc |
-      | r:   |       | ida  |
-      |      |       | por  |
-      |      |       | la   |
-      |      |       | fech |
-      |      |       | a    |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | que  |
-      |      |       | se   |
-      |      |       | comp |
-      |      |       | leta |
-      |      |       | el   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o.   |
-      +------+-------+------+
-      | Copi | Si    | **Co |
-      | ar   |       | pia  |
-      | Núme |       | del  |
-      | ro   |       | núme |
-      | de   |       | ro   |
-      | Docu |       | de   |
-      | ment |       | docu |
-      | o    |       | ment |
-      | en   |       | o    |
-      | Reve |       | en   |
-      | rso: |       | el   |
-      |      |       | reve |
-      |      |       | rso* |
-      |      |       | *    |
-      |      |       | en   |
-      |      |       | luga |
-      |      |       | r    |
-      |      |       | de   |
-      |      |       | gene |
-      |      |       | rar  |
-      |      |       | un   |
-      |      |       | nuev |
-      |      |       | o    |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | agre |
-      |      |       | gánd |
-      |      |       | ole  |
-      |      |       | el   |
-      |      |       | símb |
-      |      |       | olo  |
-      |      |       | **^* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | fina |
-      |      |       | l    |
-      |      |       | del  |
-      |      |       | núme |
-      |      |       | ro   |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o,   |
-      |      |       | adem |
-      |      |       | ás   |
-      |      |       | el   |
-      |      |       | mont |
-      |      |       | o    |
-      |      |       | del  |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | o    |
-      |      |       | pasa |
-      |      |       | a    |
-      |      |       | **ne |
-      |      |       | gati |
-      |      |       | vo** |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+---------------------+----------------------+
+      | **Campo**            | **Valor**           | **Comportamiento en  |
+      |                      |                     | ADempiere**          |
+      +======================+=====================+======================+
+      | Tipo de Documento    | Entrega de Producto | Genera una **Entrega |
+      | Base:                |                     | Indirecta** a un     |
+      |                      |                     | socio de negocio     |
+      |                      |                     | tipo cliente.        |
+      +----------------------+---------------------+----------------------+
+      | Documento            | Si                  | Mantiene una         |
+      | Controlado:          |                     | **Secuencia de       |
+      |                      |                     | Control**.           |
+      +----------------------+---------------------+----------------------+
+      | Transacción de       | Si                  | Discrimina los tipos |
+      | Ventas:              |                     | de documentos de     |
+      |                      |                     | ventas.              |
+      +----------------------+---------------------+----------------------+
+      | Secuencia del        | Entrega Indirecta   | Genera el número de  |
+      | Documento:           |                     | secuencia            |
+      |                      |                     | establecido para el  |
+      |                      |                     | orden de los tipos   |
+      |                      |                     | de documentos de     |
+      |                      |                     | ADempiere,           |
+      |                      |                     | configurado en la    |
+      |                      |                     | secuencia de         |
+      |                      |                     | documentos y es      |
+      |                      |                     | incrementable en 1,  |
+      |                      |                     | en este caso la      |
+      |                      |                     | secuencia comienza   |
+      |                      |                     | en 1.000.000 y su    |
+      |                      |                     | prefijo esta         |
+      |                      |                     | compuesto por las    |
+      |                      |                     | iniciales de su      |
+      |                      |                     | nombre "**EID-**".   |
+      +----------------------+---------------------+----------------------+
+      | Sobrescribir Fecha   | Si                  | Sobrescribe la fecha |
+      | al Completar:        |                     | introducida por la   |
+      |                      |                     | fecha en la que se   |
+      |                      |                     | completa el          |
+      |                      |                     | documento.           |
+      +----------------------+---------------------+----------------------+
+      | Copiar Número de     | Si                  | **Copia del número   |
+      | Documento en         |                     | de documento en el   |
+      | Reverso:             |                     | reverso** en lugar   |
+      |                      |                     | de generar un nuevo  |
+      |                      |                     | número agregándole   |
+      |                      |                     | el símbolo **^** al  |
+      |                      |                     | final del número de  |
+      |                      |                     | documento, además el |
+      |                      |                     | monto del documento  |
+      |                      |                     | pasa a **negativo**. |
+      +----------------------+---------------------+----------------------+
+      | Copias del           | 1                   | Establece el número  |
+      | Documento:           |                     | de copias a          |
+      |                      |                     | imprimir.            |
+      +----------------------+---------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -11787,157 +5759,46 @@ continuación se describe.
       comportamiento, a continuación se explica el proceder de
       **Devolución de Cliente Nacional**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Recep | Gene |
-      | de   | ción  | ra   |
-      | Docu | de    | una  |
-      | ment | Produ | **De |
-      | o    | ctos  | volu |
-      | Base |       | ción |
-      | :    |       | de   |
-      |      |       | Clie |
-      |      |       | nte  |
-      |      |       | Naci |
-      |      |       | onal |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Devol | Gene |
-      | enci | ución | ra   |
-      | a    | Clien | el   |
-      | del  | tes   | núme |
-      | Docu | Nacio | ro   |
-      | ment | nal   | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**D |
-      |      |       | CN-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Recepción de         | Genera una           |
+      | Base:                | Productos            | **Devolución de      |
+      |                      |                      | Cliente Nacional** a |
+      |                      |                      | un socio de negocio  |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Devolución Clientes  | Genera el número de  |
+      | Documento:           | Nacional             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**DCN-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -11949,7 +5810,7 @@ continuación se describe.
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Devolución de Cliente Exportación**
+#. **Devolución de Cliente Exportación**
 
    #. **Definición**
 
@@ -11967,158 +5828,47 @@ continuación se describe.
       su comportamiento, a continuación se explica el proceder de
       **Devolución de Cliente Exportación**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Recep | Gene |
-      | de   | ción  | ra   |
-      | Docu | de    | una  |
-      | ment | Produ | **De |
-      | o    | ctos  | volu |
-      | Base |       | ción |
-      | :    |       | de   |
-      |      |       | Clie |
-      |      |       | nte  |
-      |      |       | Expo |
-      |      |       | rtac |
-      |      |       | ión* |
-      |      |       | *    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Devol | Gene |
-      | enci | ución | ra   |
-      | a    | Clien | el   |
-      | del  | tes   | núme |
-      | Docu | Expor | ro   |
-      | ment | tació | de   |
-      | o:   | n     | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**D |
-      |      |       | CEX- |
-      |      |       | **". |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Recepción de         | Genera una           |
+      | Base:                | Productos            | **Devolución de      |
+      |                      |                      | Cliente              |
+      |                      |                      | Exportación** a un   |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Devolución Clientes  | Genera el número de  |
+      | Documento:           | Exportación          | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**DCEX-**".  |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -12130,7 +5880,7 @@ continuación se describe.
       
       No posee implicación fiscal por no ser un documento legal.
 
-3. **Devolución de Cliente Intercompañía**
+#. **Devolución de Cliente Intercompañía**
 
    #. **Definición**
 
@@ -12148,158 +5898,47 @@ continuación se describe.
       según su comportamiento, a continuación se explica el proceder de
       **Devolución de Cliente Intercompañía**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Recep | Gene |
-      | de   | ción  | ra   |
-      | Docu | de    | una  |
-      | ment | Produ | **De |
-      | o    | ctos  | volu |
-      | Base |       | ción |
-      | :    |       | de   |
-      |      |       | Clie |
-      |      |       | nte  |
-      |      |       | Inte |
-      |      |       | rcom |
-      |      |       | pañí |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Devol | Gene |
-      | enci | ución | ra   |
-      | a    | Clien | el   |
-      | del  | tes   | núme |
-      | Docu | Inter | ro   |
-      | ment | compa | de   |
-      | o:   | ñía   | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**D |
-      |      |       | CIN- |
-      |      |       | **". |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Recepción de         | Genera una           |
+      | Base:                | Productos            | **Devolución de      |
+      |                      |                      | Cliente              |
+      |                      |                      | Intercompañía** a un |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Devolución Clientes  | Genera el número de  |
+      | Documento:           | Intercompañía        | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**DCIN-**".  |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -12311,7 +5950,7 @@ continuación se describe.
       
       No posee implicación fiscal por no ser un documento legal.
 
-4. **Devolución de Cliente Empleado**
+#. **Devolución de Cliente Empleado**
 
    #. **Definición**
 
@@ -12330,157 +5969,46 @@ continuación se describe.
       comportamiento, a continuación se explica el proceder de
       **Devolución de Cliente Empleado**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Recep | Gene |
-      | de   | ción  | ra   |
-      | Docu | de    | una  |
-      | ment | Produ | **De |
-      | o    | ctos  | volu |
-      | Base |       | ción |
-      | :    |       | de   |
-      |      |       | Clie |
-      |      |       | nte  |
-      |      |       | Empl |
-      |      |       | eado |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Devol | Gene |
-      | enci | ución | ra   |
-      | a    | Clien | el   |
-      | del  | tes   | núme |
-      | Docu | Emple | ro   |
-      | ment | ado   | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**D |
-      |      |       | CE-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Recepción de         | Genera una           |
+      | Base:                | Productos            | **Devolución de      |
+      |                      |                      | Cliente Empleado** a |
+      |                      |                      | un socio de negocio  |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Devolución Clientes  | Genera el número de  |
+      | Documento:           | Empleado             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**DCE-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -12492,7 +6020,7 @@ continuación se describe.
       
       No posee implicación fiscal por no ser un documento legal.
 
-5. **Devolución de Cliente Indirecta**
+#. **Devolución de Cliente Indirecta**
 
    #. **Definición**
 
@@ -12510,157 +6038,47 @@ continuación se describe.
       comportamiento, a continuación se explica el proceder de
       **Devolución de Cliente Indirecta**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Recep | Gene |
-      | de   | ción  | ra   |
-      | Docu | de    | una  |
-      | ment | Produ | **De |
-      | o    | ctos  | volu |
-      | Base |       | ción |
-      | :    |       | de   |
-      |      |       | Clie |
-      |      |       | nte  |
-      |      |       | Indi |
-      |      |       | rect |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Tran | Si    | Disc |
-      | sacc |       | rimi |
-      | ión  |       | na   |
-      | de   |       | los  |
-      | Vent |       | tipo |
-      | as:  |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | vent |
-      |      |       | as.  |
-      +------+-------+------+
-      | Secu | Devol | Gene |
-      | enci | ución | ra   |
-      | a    | Clien | el   |
-      | del  | tes   | núme |
-      | Docu | Indir | ro   |
-      | ment | ecta  | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**D |
-      |      |       | CI-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Recepción de         | Genera una           |
+      | Base:                | Productos            | **Devolución de      |
+      |                      |                      | Cliente Indirecta**  |
+      |                      |                      | a un socio de        |
+      |                      |                      | negocio tipo         |
+      |                      |                      | cliente.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Transacción de       | Si                   | Discrimina los tipos |
+      | Ventas:              |                      | de documentos de     |
+      |                      |                      | ventas.              |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Devolución Clientes  | Genera el número de  |
+      | Documento:           | Indirecta            | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**DCI-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -12708,144 +6126,41 @@ define según su comportamiento y se describe a continuación.
       comportamiento, a continuación se explica el proceder de
       **Requisición de Compra Nacional**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Requi | Gene |
-      | de   | sició | ra   |
-      | Docu | n     | un   |
-      | ment | de    | docu |
-      | o    | Compr | ment |
-      | Base | a     | o    |
-      | :    |       | de   |
-      |      |       | **Re |
-      |      |       | quis |
-      |      |       | ició |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | Comp |
-      |      |       | ra   |
-      |      |       | Naci |
-      |      |       | onal |
-      |      |       | **   |
-      |      |       | al   |
-      |      |       | depa |
-      |      |       | rtam |
-      |      |       | ento |
-      |      |       | .    |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Requi | Gene |
-      | enci | sició | ra   |
-      | a    | n     | el   |
-      | del  | de    | núme |
-      | Docu | Compr | ro   |
-      | ment | a     | de   |
-      | o:   | Nacio | secu |
-      |      | nal   | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 2    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**R |
-      |      |       | CN-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Requisición de       | Genera un documento  |
+      | Base:                | Compra               | de **Requisición de  |
+      |                      |                      | Compra Nacional** al |
+      |                      |                      | departamento.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Requisición de       | Genera el número de  |
+      | Documento:           | Compra Nacional      | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.002 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**RCN-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -12856,7 +6171,7 @@ define según su comportamiento y se describe a continuación.
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Requisición de Compra Importación**
+#. **Requisición de Compra Importación**
 
    #. **Definición**
 
@@ -12877,145 +6192,41 @@ define según su comportamiento y se describe a continuación.
       su comportamiento, a continuación se explica el proceder de
       **Requisición de Compra Importación**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Requi | Gene |
-      | de   | sició | ra   |
-      | Docu | n     | un   |
-      | ment | de    | docu |
-      | o    | Compr | ment |
-      | Base | a     | o    |
-      | :    |       | de   |
-      |      |       | **Re |
-      |      |       | quis |
-      |      |       | ició |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | Comp |
-      |      |       | ra   |
-      |      |       | Impo |
-      |      |       | rtac |
-      |      |       | ión* |
-      |      |       | *    |
-      |      |       | al   |
-      |      |       | depa |
-      |      |       | rtam |
-      |      |       | ento |
-      |      |       | .    |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Requi | Gene |
-      | enci | sició | ra   |
-      | a    | n     | el   |
-      | del  | de    | núme |
-      | Docu | Compr | ro   |
-      | ment | a     | de   |
-      | o:   | Impor | secu |
-      |      | tació | enci |
-      |      | n     | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 1    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**R |
-      |      |       | CI-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Requisición de       | Genera un documento  |
+      | Base:                | Compra               | de **Requisición de  |
+      |                      |                      | Compra Importación** |
+      |                      |                      | al departamento.     |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Requisición de       | Genera el número de  |
+      | Documento:           | Compra Importación   | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.001 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**RCI-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -13065,172 +6276,49 @@ elaborada por el departamento que necesite dichos productos o servicios.
       comportamiento, a continuación se explica el proceder de la
       **Orden de Compra Nacional**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Compr | un   |
-      | ment | a     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Comp |
-      |      |       | ra   |
-      |      |       | Naci |
-      |      |       | onal |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Sub  | Orden | Apli |
-      | tipo | Están | ca   |
-      | OV:  | dar   | el   |
-      |      |       | comp |
-      |      |       | orta |
-      |      |       | mien |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | una  |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | está |
-      |      |       | ndar |
-      |      |       | dent |
-      |      |       | ro   |
-      |      |       | del  |
-      |      |       | sist |
-      |      |       | ema, |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | gene |
-      |      |       | ra   |
-      |      |       | rese |
-      |      |       | rva. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Compr | el   |
-      | del  | a     | núme |
-      | Docu | Nacio | ro   |
-      | ment | nal   | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | CN-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Orden de Compra      | Genera un documento  |
+      | Base:                |                      | de **Orden de Compra |
+      |                      |                      | Nacional** a un      |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Sub tipo OV:         | Orden Estándar       | Aplica el            |
+      |                      |                      | comportamiento de    |
+      |                      |                      | una orden estándar   |
+      |                      |                      | dentro del sistema,  |
+      |                      |                      | en este caso genera  |
+      |                      |                      | reserva.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Orden de Compra      | Genera el número de  |
+      | Documento:           | Nacional             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**OCN-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -13242,7 +6330,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Orden de Compra Importación**
+#. **Orden de Compra Importación**
 
    #. **Definición**
 
@@ -13261,173 +6349,49 @@ elaborada por el departamento que necesite dichos productos o servicios.
       comportamiento, a continuación se explica el proceder de la
       **Orden de Compra Importación**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Compr | un   |
-      | ment | a     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Comp |
-      |      |       | ra   |
-      |      |       | Impo |
-      |      |       | rtac |
-      |      |       | ión* |
-      |      |       | *    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Sub  | Orden | Apli |
-      | tipo | Están | ca   |
-      | OV:  | dar   | el   |
-      |      |       | comp |
-      |      |       | orta |
-      |      |       | mien |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | una  |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | está |
-      |      |       | ndar |
-      |      |       | dent |
-      |      |       | ro   |
-      |      |       | del  |
-      |      |       | sist |
-      |      |       | ema, |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | gene |
-      |      |       | ra   |
-      |      |       | rese |
-      |      |       | rva. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Compr | el   |
-      | del  | a     | núme |
-      | Docu | Impor | ro   |
-      | ment | tacio | de   |
-      | o:   | nes   | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | CI-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Orden de Compra      | Genera un documento  |
+      | Base:                |                      | de **Orden de Compra |
+      |                      |                      | Importación** a un   |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Sub tipo OV:         | Orden Estándar       | Aplica el            |
+      |                      |                      | comportamiento de    |
+      |                      |                      | una orden estándar   |
+      |                      |                      | dentro del sistema,  |
+      |                      |                      | en este caso genera  |
+      |                      |                      | reserva.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Orden de Compra      | Genera el número de  |
+      | Documento:           | Importaciones        | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**OCI-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -13439,7 +6403,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
       
       No posee implicación fiscal por no ser un documento legal.
 
-3. **Orden de Compra Intercompañía**
+#. **Orden de Compra Intercompañía**
 
    #. **Definición**
 
@@ -13459,173 +6423,49 @@ elaborada por el departamento que necesite dichos productos o servicios.
       comportamiento, a continuación se explica el proceder de la
       **Orden de Compra Intercompañía**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Compr | un   |
-      | ment | a     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Comp |
-      |      |       | ra   |
-      |      |       | Inte |
-      |      |       | rcom |
-      |      |       | pañí |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Sub  | Orden | Apli |
-      | tipo | Están | ca   |
-      | OV:  | dar   | el   |
-      |      |       | comp |
-      |      |       | orta |
-      |      |       | mien |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | una  |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | está |
-      |      |       | ndar |
-      |      |       | dent |
-      |      |       | ro   |
-      |      |       | del  |
-      |      |       | sist |
-      |      |       | ema, |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | gene |
-      |      |       | ra   |
-      |      |       | rese |
-      |      |       | rva. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Compr | el   |
-      | del  | a     | núme |
-      | Docu | Inter | ro   |
-      | ment | compa | de   |
-      | o:   | ñía   | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | CIC- |
-      |      |       | **". |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Orden de Compra      | Genera un documento  |
+      | Base:                |                      | de **Orden de Compra |
+      |                      |                      | Intercompañía** a un |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Sub tipo OV:         | Orden Estándar       | Aplica el            |
+      |                      |                      | comportamiento de    |
+      |                      |                      | una orden estándar   |
+      |                      |                      | dentro del sistema,  |
+      |                      |                      | en este caso genera  |
+      |                      |                      | reserva.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Orden de Compra      | Genera el número de  |
+      | Documento:           | Intercompañía        | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**OCIC-**".  |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -13636,7 +6476,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
       
       No posee implicación fiscal por no ser un documento legal.
 
-4. **Orden de Compra Empleado**
+#. **Orden de Compra Empleado**
 
    #. **Definición**
 
@@ -13655,172 +6495,49 @@ elaborada por el departamento que necesite dichos productos o servicios.
       comportamiento, a continuación se explica el proceder de la
       **Orden de Compra Empleado**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Compr | un   |
-      | ment | a     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Comp |
-      |      |       | ra   |
-      |      |       | Empl |
-      |      |       | eado |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Sub  | Orden | Apli |
-      | tipo | Están | ca   |
-      | OV:  | dar   | el   |
-      |      |       | comp |
-      |      |       | orta |
-      |      |       | mien |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | una  |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | está |
-      |      |       | ndar |
-      |      |       | dent |
-      |      |       | ro   |
-      |      |       | del  |
-      |      |       | sist |
-      |      |       | ema, |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | gene |
-      |      |       | ra   |
-      |      |       | rese |
-      |      |       | rva. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Compr | el   |
-      | del  | a     | núme |
-      | Docu | Emple | ro   |
-      | ment | ados  | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | CE-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Orden de Compra      | Genera un documento  |
+      | Base:                |                      | de **Orden de Compra |
+      |                      |                      | Empleado** a un      |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Sub tipo OV:         | Orden Estándar       | Aplica el            |
+      |                      |                      | comportamiento de    |
+      |                      |                      | una orden estándar   |
+      |                      |                      | dentro del sistema,  |
+      |                      |                      | en este caso genera  |
+      |                      |                      | reserva.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Orden de Compra      | Genera el número de  |
+      | Documento:           | Empleados            | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**OCE-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -13831,7 +6548,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
       
       No posee implicación fiscal por no ser un documento legal.
 
-5. **Orden de Compra Indirecta**
+#. **Orden de Compra Indirecta**
 
    #. **Definición**
 
@@ -13850,172 +6567,49 @@ elaborada por el departamento que necesite dichos productos o servicios.
       comportamiento, a continuación se explica el proceder de la
       **Orden de Compra Indirecta**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Compr | un   |
-      | ment | a     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Or |
-      |      |       | den  |
-      |      |       | de   |
-      |      |       | Comp |
-      |      |       | ra   |
-      |      |       | Indi |
-      |      |       | rect |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Sub  | Orden | Apli |
-      | tipo | Están | ca   |
-      | OV:  | dar   | el   |
-      |      |       | comp |
-      |      |       | orta |
-      |      |       | mien |
-      |      |       | to   |
-      |      |       | de   |
-      |      |       | una  |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | está |
-      |      |       | ndar |
-      |      |       | dent |
-      |      |       | ro   |
-      |      |       | del  |
-      |      |       | sist |
-      |      |       | ema, |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | gene |
-      |      |       | ra   |
-      |      |       | rese |
-      |      |       | rva. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Compr | el   |
-      | del  | a     | núme |
-      | Docu | Indir | ro   |
-      | ment | ecta  | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | CI-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Orden de Compra      | Genera un documento  |
+      | Base:                |                      | de **Orden de Compra |
+      |                      |                      | Indirecta** a un     |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Sub tipo OV:         | Orden Estándar       | Aplica el            |
+      |                      |                      | comportamiento de    |
+      |                      |                      | una orden estándar   |
+      |                      |                      | dentro del sistema,  |
+      |                      |                      | en este caso genera  |
+      |                      |                      | reserva.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Orden de Compra      | Genera el número de  |
+      | Documento:           | Indirecta            | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**OCI-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -14053,150 +6647,43 @@ devolución requerida.
       según su comportamiento, a continuación se explica el proceder de
       la **Autorización Devolución Cliente Nacional**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Compr | un   |
-      | ment | a     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Au |
-      |      |       | tori |
-      |      |       | zaci |
-      |      |       | ón   |
-      |      |       | Devo |
-      |      |       | luci |
-      |      |       | ón   |
-      |      |       | Clie |
-      |      |       | nte  |
-      |      |       | Naci |
-      |      |       | onal |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Autor | Gene |
-      | enci | izaci | ra   |
-      | a    | ón    | el   |
-      | del  | Devol | núme |
-      | Docu | ución | ro   |
-      | ment | Clien | de   |
-      | o:   | te    | secu |
-      |      | Nacio | enci |
-      |      | nal   | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**A |
-      |      |       | DCN- |
-      |      |       | **". |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Orden de Compra      | Genera un documento  |
+      | Base:                |                      | de **Autorización    |
+      |                      |                      | Devolución Cliente   |
+      |                      |                      | Nacional** a un      |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Autorización         | Genera el número de  |
+      | Documento:           | Devolución Cliente   | secuencia            |
+      |                      | Nacional             | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**ADCN-**".  |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -14207,7 +6694,7 @@ devolución requerida.
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Autorización Devolución Cliente Exportación**
+#. **Autorización Devolución Cliente Exportación**
 
    #. **Definición**
 
@@ -14226,152 +6713,43 @@ devolución requerida.
       define según su comportamiento, a continuación se explica el
       proceder de la **Autorización Devolución Cliente Exportación**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Compr | un   |
-      | ment | a     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Au |
-      |      |       | tori |
-      |      |       | zaci |
-      |      |       | ón   |
-      |      |       | Devo |
-      |      |       | luci |
-      |      |       | ón   |
-      |      |       | Clie |
-      |      |       | nte  |
-      |      |       | Expo |
-      |      |       | rtac |
-      |      |       | ión* |
-      |      |       | *    |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Autor | Gene |
-      | enci | izaci | ra   |
-      | a    | ón    | el   |
-      | del  | Devol | núme |
-      | Docu | ución | ro   |
-      | ment | Clien | de   |
-      | o:   | te    | secu |
-      |      | Expor | enci |
-      |      | tació | a    |
-      |      | n     | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**A |
-      |      |       | DCEX |
-      |      |       | -**" |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Orden de Compra      | Genera un documento  |
+      | Base:                |                      | de **Autorización    |
+      |                      |                      | Devolución Cliente   |
+      |                      |                      | Exportación** a un   |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Autorización         | Genera el número de  |
+      | Documento:           | Devolución Cliente   | secuencia            |
+      |                      | Exportación          | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**ADCEX-**". |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+ 
 
    #. **Implicación en ADempiere**
 
@@ -14382,7 +6760,7 @@ devolución requerida.
       
       No posee implicación fiscal por no ser un documento legal.
 
-3. **Autorización Devolución Cliente Intercompañía**
+#. **Autorización Devolución Cliente Intercompañía**
 
    #. **Definición**
 
@@ -14402,152 +6780,43 @@ devolución requerida.
       define según su comportamiento, a continuación se explica el
       proceder de la **Autorización Devolución Cliente Intercompañía**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Compr | un   |
-      | ment | a     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Au |
-      |      |       | tori |
-      |      |       | zaci |
-      |      |       | ón   |
-      |      |       | Devo |
-      |      |       | luci |
-      |      |       | ón   |
-      |      |       | Clie |
-      |      |       | nte  |
-      |      |       | Inte |
-      |      |       | rcom |
-      |      |       | pañí |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Autor | Gene |
-      | enci | izaci | ra   |
-      | a    | ón    | el   |
-      | del  | Devol | núme |
-      | Docu | ución | ro   |
-      | ment | Clien | de   |
-      | o:   | te    | secu |
-      |      | Inter | enci |
-      |      | compa | a    |
-      |      | ñía   | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**A |
-      |      |       | DCIC |
-      |      |       | -**" |
-      |      |       | .    |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Orden de Compra      | Genera un documento  |
+      | Base:                |                      | de **Autorización    |
+      |                      |                      | Devolución Cliente   |
+      |                      |                      | Intercompañía** a un |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Autorización         | Genera el número de  |
+      | Documento:           | Devolución Cliente   | secuencia            |
+      |                      | Intercompañía        | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**ADCIC-**". |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -14558,7 +6827,7 @@ devolución requerida.
       
       No posee implicación fiscal por no ser un documento legal.
 
-4. **Autorización Devolución Cliente Empleado**
+#. **Autorización Devolución Cliente Empleado**
 
    #. **Definición**
 
@@ -14577,150 +6846,43 @@ devolución requerida.
       según su comportamiento, a continuación se explica el proceder de
       la **Autorización Devolución Cliente Empleado**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Compr | un   |
-      | ment | a     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Au |
-      |      |       | tori |
-      |      |       | zaci |
-      |      |       | ón   |
-      |      |       | Devo |
-      |      |       | luci |
-      |      |       | ón   |
-      |      |       | Clie |
-      |      |       | nte  |
-      |      |       | Empl |
-      |      |       | eado |
-      |      |       | **   |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Autor | Gene |
-      | enci | izaci | ra   |
-      | a    | ón    | el   |
-      | del  | Devol | núme |
-      | Docu | ución | ro   |
-      | ment | Clien | de   |
-      | o:   | te    | secu |
-      |      | Emple | enci |
-      |      | ados  | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**A |
-      |      |       | DCE- |
-      |      |       | **". |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Orden de Compra      | Genera un documento  |
+      | Base:                |                      | de **Autorización    |
+      |                      |                      | Devolución Cliente   |
+      |                      |                      | Empleado** a un      |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Autorización         | Genera el número de  |
+      | Documento:           | Devolución Cliente   | secuencia            |
+      |                      | Empleados            | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**ADCE-**".  |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -14731,7 +6893,7 @@ devolución requerida.
       
       No posee implicación fiscal por no ser un documento legal.
 
-5. **Autorización Devolución Cliente Indirecta**
+#. **Autorización Devolución Cliente Indirecta**
 
    #. **Definición**
 
@@ -14750,150 +6912,43 @@ devolución requerida.
       define según su comportamiento, a continuación se explica el
       proceder de la **Autorización Devolución Cliente Indirecta**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Compr | un   |
-      | ment | a     | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Au |
-      |      |       | tori |
-      |      |       | zaci |
-      |      |       | ón   |
-      |      |       | Devo |
-      |      |       | luci |
-      |      |       | ón   |
-      |      |       | Clie |
-      |      |       | nte  |
-      |      |       | Indi |
-      |      |       | rect |
-      |      |       | a**  |
-      |      |       | a un |
-      |      |       | soci |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | nego |
-      |      |       | cio  |
-      |      |       | tipo |
-      |      |       | clie |
-      |      |       | nte. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Autor | Gene |
-      | enci | izaci | ra   |
-      | a    | ón    | el   |
-      | del  | Devol | núme |
-      | Docu | ución | ro   |
-      | ment | Clien | de   |
-      | o:   | te    | secu |
-      |      | Indir | enci |
-      |      | ecta  | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**A |
-      |      |       | DCI- |
-      |      |       | **". |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Orden de Compra      | Genera un documento  |
+      | Base:                |                      | de **Autorización    |
+      |                      |                      | Devolución Cliente   |
+      |                      |                      | Indirecta** a un     |
+      |                      |                      | socio de negocio     |
+      |                      |                      | tipo cliente.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Autorización         | Genera el número de  |
+      | Documento:           | Devolución Cliente   | secuencia            |
+      |                      | Indirecta            | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**ADCI-**".  |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
