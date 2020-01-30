@@ -36,18 +36,19 @@
 .. _documento/types-of-documents:
 
 **Orden de Calidad** |Orden de Calidad| 
---------------------------------------
+=======================================
 
 Es un documento donde se establecen los requisitos con los que deben cumplir los productos y servicios, es utilizado para organizar, dirigir y controlar la producción de una determinada empresa, asegurando así la calidad de los productos y servicios a los clientes.
 
 El objetivo de la elaboración de este documento radica en asegurar la calidad de los productos y servicios en tres (3) fases llevadas a cabo en las empresas, en la planificación de la producción, en la producción y en la distribución de los productos, para entregar a los clientes productos y servicios que satisfagan sus necesidades.
 
 **Tipo de Documento Orden de Calidad**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------
 
 En ADempiere una orden de calidad refleja los lineamientos que debe cumplir el departamento de producción en cuanto a los productos y servicios elaborados para el consumo de los socios de negocios tipo clientes.
 
-#. **Orden de Calidad**
+**Orden de Calidad**
+~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -144,19 +145,20 @@ En ADempiere una orden de calidad refleja los lineamientos que debe cumplir el d
                #. la disponibilidad de recursos;
                #. la asignación o reasignación de responsabilidades y autoridades.
 
-|Insumo del Proyecto| **Insumo del Proyecto**
----------------------------------------------
+**Insumo del Proyecto** |Insumo del Proyecto| 
+=============================================
 
 Es el documento donde se detallan todos los materiales que el departamento de producción vaya a utilizar para elaborar un determinado proyecto, es decir, los materiales fundamentales para logar una producción.
 
 Los insumos varían dependiendo del producto que la empresa vaya a producir y la cantidad total planificada del mismo.
 
 **Tipo de Documento Insumo de Proyecto**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 En ADempiere el documento permite ayudar al departamento de producción de la empresa en cuanto al control y la organización necesaria para la producción, el mismo es definido según su comportamiento y especificado a continuación.
 
-#. **Insumo de Proyecto**
+**Insumo de Proyecto**
+~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -189,19 +191,20 @@ En ADempiere el documento permite ayudar al departamento de producción de la em
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Orden de Producción Planeada| **Orden de Producción Planeada**
----------------------------------------------------------------
+**Orden de Producción Planeada** |Orden de Producción Planeada| 
+===============================================================
 
 Una orden de producción parte del proceso de planificación de producción de una determinada empresa, es elaborada basandose en los materiales o insumos de producción con los que cuenta la misma. Una vez ya planificada la producción se procede a realizar la autorización, o bien, la orden de producción.
 
 Por medio de este documento se lleva un control de los materiales, gastos, y el tiempo empleado por los trabajadores o maquinarias. Adicional a ello, indica los productos y la cantidad que se debe producir en un tiempo estimado.
 
 **Tipo de Documento Orden de Producción Planeada**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------------
 
 En ADempiere este tipo de documento permite generar al departamento de producción la información necesaria para que sea distribuido correctamente el trabajo y puedan comenzar con el proceso de producción.
 
-#. **Orden de Producción Planeada**
+**Orden de Producción Planeada**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -236,17 +239,18 @@ En ADempiere este tipo de documento permite generar al departamento de producci�
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Orden de Manufactura| **Orden de Manufactura**
------------------------------------------------
+**Orden de Manufactura** |Orden de Manufactura| 
+===============================================
 
 Es un documento en el que se especifican los productos o servicios a realizar, así como la cantidad de los mismos. En una orden de manufactura se establecen los materiales necesarios y las fechas de comienzo y fin de la producción, de igual manera la fecha de entrega del mismo.
 
 **Tipo de Documento Orden de Manufactura**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 En ADempiere una orden de manufactura autoriza la producción en planta y específica cada detalle necesario para la misma. Es definido según su comportamiento y explicado a continuación.
 
-#. **Orden de Manufactura**
+**Orden de Manufactura**
+~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -288,8 +292,8 @@ En ADempiere una orden de manufactura autoriza la producción en planta y espec�
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Producción| **Producción de Material**
----------------------------------------
+**Producción de Material** |Producción|
+=======================================
 
 Es el resultado de varias fases de trabajo que se llevan a cabo en una determinada empresa, también es llamado proceso de manufactura, esta es la base o el recurso principal para el ingreso monetario.
 
@@ -298,11 +302,12 @@ Todos los procesos que se llevan a cabo en una empresa estan relacionados direct
 La manufactura es originada desde una planificación previa, estimando metas u objetivos de producción que serán producto de control dentro de los turnos que conforman la producción, el resultado de los mismos determinan la estabilidad de una empresa y la disponibilidad de los productos terminados para la venta.
 
 **Tipo de Documento Producción de Material**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------
 
 En ADempiere una producción de material define los productos o servicios elaborados por una determinada empresa, y su proceder es único en cada documento generado por el mismo.
 
-#. **Producción de Material**
+**Producción de Material**
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -386,19 +391,20 @@ En ADempiere una producción de material define los productos o servicios elabor
 
             #. Las demás que le atribuyan las Leyes y otros actos normativos. 
 
-|Inventario| **Inventario Físico de Material**
-----------------------------------------------
+**Inventario Físico de Material** |Inventario| 
+==============================================
 
 Es la comparación de la cantidad de productos en existencia que posee una determinada empresa en almacén con la cantidad de productos reflejados en ADempiere.
 
 ERPyA no recomienda crear un inventario físico puesto que no es necesario, cuando una producción de material culmina, la cantidad producida queda en inventario.
 
 **Tipos de Documentos de Inventario**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------
 
 En ADempiere, cada inventario realizado es utilizado para controlar y dar seguimiento a la existencia de los productos. A continuación se definen los cuatro (4) documentos de inventarios según su comportamiento.
 
-#. **Inventario Físico de Material**
+**Inventario Físico de Material**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -440,7 +446,8 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Inventario de Uso Interno Obsequio**
+**Inventario de Uso Interno Obsequio**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -485,7 +492,8 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Inventario de Uso Interno Dotación**
+**Inventario de Uso Interno Dotación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -530,7 +538,8 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Inventario de Uso Interno Suministros de Oficina**
+**Inventario de Uso Interno Suministros de Oficina**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -575,17 +584,18 @@ En ADempiere, cada inventario realizado es utilizado para controlar y dar seguim
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Orden de Distribución| **Orden de Distribución**
--------------------------------------------------
+**Orden de Distribución** |Orden de Distribución|
+=================================================
 
 Es un documento donde se autoriza la distribución interna o externa de los productos o servicios elaborados por la empresa, en el cual se específica la distribución de la producción. Para una orden de distribución se deben considerar los lugares a distribuir, el costo de los traslados cuando se trata de distribución externa y la cantidad de productos, dependiendo de la demanda que tenga el producto en dichos lugares.
 
 **Tipos de Documentos de Orden de Distribución**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------
 
 En ADempiere se utilizan dos (2) diferentes documentos de orden de distribución que se definen según su comportamiento en el mismo. A continuación se describen las órdenes de distribución.
 
-#. **Orden de Distribución Interna**
+**Orden de Distribución Interna**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -626,7 +636,8 @@ En ADempiere se utilizan dos (2) diferentes documentos de orden de distribución
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Orden de Distribución Externa**
+**Orden de Distribución Externa**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -667,17 +678,18 @@ En ADempiere se utilizan dos (2) diferentes documentos de orden de distribución
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Movimiento de Material| **Movimiento de Material**
----------------------------------------------------
+**Movimiento de Material** |Movimiento de Material|
+===================================================
 
 Es el proceso de traslado físico de una cantidad de productos o su totalidad en existencia, de un lugar o almacén a otro, este es autorizado por medio de una orden de distribución. Se realiza un movimiento de material cuando la cantidad de existencia de productos en uno o varios de los almacenes es poca, y posea una demanda alta.
 
 **Tipos de Documentos de Movimiento de Material**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------
 
 En ADempiere, cada movimiento de material realizado es utilizado para controlar y dar seguimiento a la existencia de los productos. A continuación se definen los dos (2) documentos de movimiento de material según su comportamiento en ADempiere.
 
-#. **Movimiento de Material Interno**
+**Movimiento de Material Interno**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -719,7 +731,8 @@ En ADempiere, cada movimiento de material realizado es utilizado para controlar 
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Movimiento de Material Externo**
+**Movimiento de Material Externo**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -761,21 +774,22 @@ En ADempiere, cada movimiento de material realizado es utilizado para controlar 
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Orden de Venta| **Orden de Ventas**
-------------------------------------
+**Orden de Ventas** |Orden de Venta|
+====================================
 
 Es un documento elaborado por el departamento de ventas de una determinada empresa, donde se autoriza la venta de productos o servicios especificados en la misma a un determinado socio del negocio tipo cliente, una orden de venta puede ser utilizada como una prefactura, cotización, orden de trabajo o pedido.
 
 Existen tres (3) grupos de tipos de documentos de orden de venta en ADempiere y cada uno de ellos define un comportamiento diferente detallado a continuación.
 
 **Tipos de Documentos Orden de Ventas**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 
 En ADempiere una orden de venta es un documento por medio del cual se pueden generar documentos de entrega y facturas. Así mismo, se pueden establecer reglas para la entrega y facturación de los productos y servicios incluidos en la orden.
 
 El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que se encuentran orden nacional, exportaciones, intercompañía, empleados, indirecta, a crédito, de almacén y prepagada, en ese orden serán explicados los comportamientos de los tipos de órdenes.
 
-#. **Orden de Venta Nacional**
+**Orden de Venta Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -823,7 +837,8 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Orden de Venta Exportación**
+**Orden de Venta Exportación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -871,7 +886,8 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Orden de Venta Intercompañía**
+**Orden de Venta Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -920,7 +936,8 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Orden de Venta Empleado**
+**Orden de Venta Empleado**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -968,7 +985,8 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Orden de Venta Indirecta**
+**Orden de Venta Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1016,7 +1034,8 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Orden a Crédito**
+**Orden a Crédito**
+~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1064,7 +1083,8 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Orden de Almacén**
+**Orden de Almacén**
+~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1110,7 +1130,8 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Orden Prepagada**
+**Orden Prepagada**
+~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1159,11 +1180,12 @@ El documento orden de venta se compone de ocho (8) tipos de órdenes, en los que
       No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos Cotización y Propuesta**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------
 
 En ADempiere el tipo de documento cotización y propuesta utiliza como documento base la orden de ventas, y se compone de dos (2) tipos de documentos, en los que se encuentran el documento de cotización y el documento de propuesta, en ese orden serán explicados los comportamientos de estos tipos de documentos.
 
-#. **Cotización**
+**Cotización**
+~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1208,7 +1230,8 @@ En ADempiere el tipo de documento cotización y propuesta utiliza como documento
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Propuesta**
+**Propuesta**
+~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1253,11 +1276,12 @@ En ADempiere el tipo de documento cotización y propuesta utiliza como documento
       No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos Autorización de Devolución de Ventas**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------
 
 Es un documento que se elabora cuando algún departamento de la empresa necesita realizar la devolución de uno, varios, o todos los productos de la venta realizada, independientemente de los motivos que conllevan a la devolución requerida.
 
-#. **Autorización Devolución Proveedor Nacional**
+**Autorización Devolución Proveedor Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1299,7 +1323,8 @@ Es un documento que se elabora cuando algún departamento de la empresa necesita
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Autorización Devolución Proveedor Importación**
+**Autorización Devolución Proveedor Importación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1341,7 +1366,8 @@ Es un documento que se elabora cuando algún departamento de la empresa necesita
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Autorización Devolución Proveedor Intercompañía**
+**Autorización Devolución Proveedor Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1383,7 +1409,8 @@ Es un documento que se elabora cuando algún departamento de la empresa necesita
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Autorización Devolución Proveedor Empleados**
+**Autorización Devolución Proveedor Empleados**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1425,7 +1452,8 @@ Es un documento que se elabora cuando algún departamento de la empresa necesita
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Autorización Devolución Proveedor Indirecta**
+**Autorización Devolución Proveedor Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1465,19 +1493,20 @@ Es un documento que se elabora cuando algún departamento de la empresa necesita
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Cuentas por Cobrar| **Cuentas por Cobrar**
--------------------------------------------
+**Cuentas por Cobrar** |Cuentas por Cobrar|
+===========================================
 
 Las cuentas por cobrar en ADempiere son todas aquellas deudas que los socios de negocios tipo cliente tienen con la empresa por la adquisición de servicios o compra de productos, actualmente existen cinco (5) grupos de tipos de documentos de cuentas por cobrar en ADempiere, cada uno de ellos define un comportamiento diferente y es importante para la completación de alguna transacción. A continuación se detallan los tipos de documentos de cuentas por cobrar.
 
 **Tipos de Documentos Facturas de Cuentas por Cobrar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------
 
 En ADempiere una factura de cuentas por cobrar es un documento legal que se realiza por la venta de productos o servicios de una determinada empresa, donde se incluyen los datos principales del socio de negocio tipo cliente, la empresa, y la información detallada de los productos y servicios.
 
 El documento factura en cuentas por cobrar se compone de siete (7) tipos de facturas, en los que se encuentran factura nacional, exportación, pro-forma, intercompañía, empleado, manual, y indirecta, en ese orden de ideas serán explicados los comportamientos de los tipos de facturas.
 
-#. **Factura de Cuentas por Cobrar Nacional**
+**Factura de Cuentas por Cobrar Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1623,7 +1652,8 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
 
          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general.
 
-#. **Factura de Cuentas por Cobrar Exportación**
+**Factura de Cuentas por Cobrar Exportación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1715,7 +1745,8 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
 
          - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio. 
 
-#. **Factura de Cuentas por Cobrar Pro Forma**
+**Factura de Cuentas por Cobrar Pro Forma**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1853,7 +1884,8 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
 
          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general.
 
-#. **Factura de Cuentas por Cobrar Intercompañía**
+**Factura de Cuentas por Cobrar Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -1998,7 +2030,8 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
 
          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general.
 
-#. **Factura de Cuentas por Cobrar Empleado**
+**Factura de Cuentas por Cobrar Empleado**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -2145,7 +2178,8 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
 
          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general. 
 
-#. **Factura de Cuentas por Cobrar Manual**
+**Factura de Cuentas por Cobrar Manual**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -2272,7 +2306,8 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
 
          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general.
 
-#. **Factura de Cuentas por Cobrar Indirecta**
+**Factura de Cuentas por Cobrar Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -2418,11 +2453,12 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general.
 
 **Tipos de Documentos Ajustes de Cuentas por Cobrar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------
 
 En ADempiere un ajuste es un documento que representa el ingreso o egreso monetario de la empresa, todo va a depender si el ajuste es de crédito o de débito. A continuación se define el comportamiento de un ajuste de débito y un ajuste de crédito de cuentas por cobrar en ADempiere.
 
-#. **Ajuste de Débito de Cuentas por Cobrar**
+**Ajuste de Débito de Cuentas por Cobrar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -2542,7 +2578,8 @@ En ADempiere un ajuste es un documento que representa el ingreso o egreso moneta
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-#. **Ajuste de Crédito de Cuentas por Cobrar**
+**Ajuste de Crédito de Cuentas por Cobrar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -2663,13 +2700,14 @@ En ADempiere un ajuste es un documento que representa el ingreso o egreso moneta
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
 **Tipos de Documentos Notas de Débito Cuentas por Cobrar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------------
 
 Una nota de débito en cuentas por cobrar es un documento legal que se aplica a una factura para aumentar el monto de la misma. Esta siempre nace de un documento afectado ya sea de una factura o de una nota de crédito.
 
 De igual manera que la factura, existen diferentes tipos de notas de débito de cuentas por cobrar, en este caso son cinco (5) tipos de notas que se utilizan en ADempiere, entre ellas nota de débito nacional, exportación, intercompañía, empleado y por último nota de débito indirecta.
 
-#. **Nota de Débito de Cuentas por Cobrar Nacional**
+**Nota de Débito de Cuentas por Cobrar Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -2807,7 +2845,8 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-#. **Nota de Débito de Cuentas por Cobrar Exportación**
+**Nota de Débito de Cuentas por Cobrar Exportación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -2945,7 +2984,8 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-#. **Nota de Débito de Cuentas por Cobrar Intercompañía**
+**Nota de Débito de Cuentas por Cobrar Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -3083,7 +3123,8 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-#. **Nota de Débito de Cuentas por Cobrar Empleado**
+**Nota de Débito de Cuentas por Cobrar Empleado**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -3221,7 +3262,8 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-#. **Nota de Débito de Cuentas por Cobrar Indirecta**
+**Nota de Débito de Cuentas por Cobrar Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -3360,7 +3402,7 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
 **Tipos de Documentos Retenciones Cuentas por Cobrar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------
 
 Las retenciones siempre son realizadas por el cliente, ya sea en cuentas por cobrar o cuentas por pagar, las declaraciones de retenciones son realizadas tanto por el cliente como por el proveedor.
 
