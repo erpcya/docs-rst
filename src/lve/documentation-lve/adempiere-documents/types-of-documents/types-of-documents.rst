@@ -1550,63 +1550,65 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
          - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
          - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos:
-            1. Contener la denominación de "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de Control preimpreso. 
-            4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-            6. Fecha de emisión constituida por ocho (8) dígitos. 
-            7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-            8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-            9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-            11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-            12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, si corresponde.
-            13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-            14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-            15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. Contener la denominación de "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de Control preimpreso. 
+            #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+            #. Fecha de emisión constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #.  Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+            #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, si corresponde.
+            #. Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+            #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
-            1. La denominación "Factura". 
-            2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-            3. Número consecutivo y único.
-            4. La hora y fecha de emisión. 
-            5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br><br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br><br>
-            6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-            8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-            9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-            10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-            11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura.
+            #. La denominación "Factura". 
+            #. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            #. Número consecutivo y único.
+            #. La hora y fecha de emisión. 
+            #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). 
+             La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+            #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #.  Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. 
+            Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura.
 
          - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-            1. La denominación "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de control preimpreso. 
-            4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-            6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-            7. Fecha de emisión, constituida por ocho (8) dígitos. 
-            8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-            9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
-            10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-            11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-            12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, si corresponde. 
-            13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. La denominación "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de control preimpreso. 
+            #. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+            #. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+            #. Fecha de emisión, constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+            #.  En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
+            #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, si corresponde. 
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-            1. La denominación "Factura". 
-            2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-            3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-            4. Número consecutivo y único. 
-            5. La hora y fecha de emisión. 
-            6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
-            7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-            9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-            10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir . **Implicación Fiscal**con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. 
+            #. La denominación "Factura". 
+            #. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            #. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+            #. Número consecutivo y único. 
+            #. La hora y fecha de emisión. 
+            #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+            #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #.  Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir . **Implicación Fiscal**con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. 
 
          - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
 
@@ -1688,18 +1690,18 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
          - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
          - **Artículo 17:** Las facturas que se emitan a los fines de documentar las operaciones de exportación, deben cumplir los siguientes requisitos: 
-            1. Contener la denominación "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de Control preimpresos. 
-            4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-            6. Fecha de emisión, constituida por ocho (8) dígitos. 
-            7. Nombre y Apellido o razón social del adquirente del bien o receptor del servicio.
-            8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y del monto. 
-            9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            10. Especificación del monto total de la base imponible, la alícuota aplicable y el valor total de la exportación expresado en moneda extranjera y su equivalente en moneda nacional, con indicación del tipo de cambio. 
-            11. Razón social y el número de Registro Único de Información Fiscal (RIF), de la Imprenta autorizada, y nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            12. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. Contener la denominación "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de Control preimpresos. 
+            #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+            #. Fecha de emisión, constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social del adquirente del bien o receptor del servicio.
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y del monto. 
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #.  Especificación del monto total de la base imponible, la alícuota aplicable y el valor total de la exportación expresado en moneda extranjera y su equivalente en moneda nacional, con indicación del tipo de cambio. 
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la Imprenta autorizada, y nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio. 
 
@@ -1771,63 +1773,63 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
          - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
          - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos: 
-            1. Contener la denominación de "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de Control preimpreso. 
-            4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-            6. Fecha de emisión constituida por ocho (8) dígitos. 
-            7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-            8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-            9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-            11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-            12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
-            13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-            14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-            15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. Contener la denominación de "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de Control preimpreso. 
+            #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+            #. Fecha de emisión constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #.  Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+            #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
+            #. Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+            #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
-            1. La denominación "Factura". 
-            2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-            3. Número consecutivo y único.
-            4. La hora y fecha de emisión. 
-            5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br> 
-            6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-            8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-            9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-            10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-            11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br> 
+            #. La denominación "Factura". 
+            #. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            #. Número consecutivo y único.
+            #. La hora y fecha de emisión. 
+            #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br> 
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+            #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #.  Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br> 
 
          - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-            1. La denominación "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de control preimpreso. 
-            4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-            6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-            7. Fecha de emisión, constituida por ocho (8) dígitos. 
-            8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-            9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
-            10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-            11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-            12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
-            13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. La denominación "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de control preimpreso. 
+            #. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+            #. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+            #. Fecha de emisión, constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+            #.  En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
+            #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-            1. La denominación "Factura". 
-            2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-            3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-            4. Número consecutivo y único. 
-            5. La hora y fecha de emisión. 
-            6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
-            7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-            9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-            10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
+            #. La denominación "Factura". 
+            #. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            #. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+            #. Número consecutivo y único. 
+            #. La hora y fecha de emisión. 
+            #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+            #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #.  Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
 
          - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
 
@@ -1908,63 +1910,63 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
          - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
          - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos: 
-            1. Contener la denominación de "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de Control preimpreso. 
-            4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-            6. Fecha de emisión constituida por ocho (8) dígitos. 
-            7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-            8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-            9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-            11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-            12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
-            13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-            14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-            15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. Contener la denominación de "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de Control preimpreso. 
+            #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+            #. Fecha de emisión constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #.  Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+            #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
+            #. Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+            #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
-            1. La denominación "Factura". 
-            2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-            3. Número consecutivo y único.
-            4. La hora y fecha de emisión. 
-            5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br> 
-            6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-            8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-            9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-            10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-            11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br> 
+            #. La denominación "Factura". 
+            #. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            #. Número consecutivo y único.
+            #. La hora y fecha de emisión. 
+            #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br> 
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+            #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #.  Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br> 
 
          - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-            1. La denominación "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de control preimpreso. 
-            4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-            6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-            7. Fecha de emisión, constituida por ocho (8) dígitos. 
-            8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-            9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
-            10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-            11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-            12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
-            13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. La denominación "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de control preimpreso. 
+            #. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+            #. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+            #. Fecha de emisión, constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+            #.  En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
+            #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-            1. La denominación "Factura". 
-            2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-            3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-            4. Número consecutivo y único. 
-            5. La hora y fecha de emisión. 
-            6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
-            7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-            9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-            10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
+            #. La denominación "Factura". 
+            #. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            #. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+            #. Número consecutivo y único. 
+            #. La hora y fecha de emisión. 
+            #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+            #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #.  Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
 
          - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
 
@@ -2047,63 +2049,63 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
          - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
          - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos: 
-            1. Contener la denominación de "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de Control preimpreso. 
-            4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-            6. Fecha de emisión constituida por ocho (8) dígitos. 
-            7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-            8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-            9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-            11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-            12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
-            13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-            14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-            15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. Contener la denominación de "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de Control preimpreso. 
+            #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+            #. Fecha de emisión constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #.  Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+            #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
+            #. Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+            #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
-            1. La denominación "Factura". 
-            2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-            3. Número consecutivo y único.
-            4. La hora y fecha de emisión. 
-            5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br> 
-            6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-            8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-            9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-            10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-            11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br> 
+            #. La denominación "Factura". 
+            #. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            #. Número consecutivo y único.
+            #. La hora y fecha de emisión. 
+            #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br> 
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+            #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #.  Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br> 
 
          - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-            1. La denominación "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de control preimpreso. 
-            4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-            6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-            7. Fecha de emisión, constituida por ocho (8) dígitos. 
-            8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-            9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
-            10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-            11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-            12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
-            13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. La denominación "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de control preimpreso. 
+            #. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+            #. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+            #. Fecha de emisión, constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+            #.  En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
+            #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            1#. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-            1. La denominación "Factura". 
-            2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-            3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-            4. Número consecutivo y único. 
-            5. La hora y fecha de emisión. 
-            6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
-            7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-            9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-            10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
+            #. La denominación "Factura". 
+            #. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            #. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+            #. Número consecutivo y único. 
+            #. La hora y fecha de emisión. 
+            #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+            #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #.  Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
 
          - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
 
@@ -2166,63 +2168,63 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
          - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
          - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos: 
-            1. Contener la denominación de "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de Control preimpreso. 
-            4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-            6. Fecha de emisión constituida por ocho (8) dígitos. 
-            7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-            8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-            9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-            11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-            12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
-            13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-            14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-            15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. Contener la denominación de "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de Control preimpreso. 
+            #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+            #. Fecha de emisión constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #.  Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+            #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
+            #. Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+            #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
-            1. La denominación "Factura". 
-            2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-            3. Número consecutivo y único.
-            4. La hora y fecha de emisión. 
-            5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br> 
-            6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-            8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-            9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-            10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-            11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br> 
+            #. La denominación "Factura". 
+            #. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            #. Número consecutivo y único.
+            #. La hora y fecha de emisión. 
+            #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br> 
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+            #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #.  Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br> 
 
          - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-            1. La denominación "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de control preimpreso. 
-            4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-            6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-            7. Fecha de emisión, constituida por ocho (8) dígitos. 
-            8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-            9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
-            10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-            11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-            12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
-            13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. La denominación "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de control preimpreso. 
+            #. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+            #. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+            #. Fecha de emisión, constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+            #.  En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
+            #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-            1. La denominación "Factura". 
-            2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-            3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-            4. Número consecutivo y único. 
-            5. La hora y fecha de emisión. 
-            6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
-            7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-            9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-            10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
+            #. La denominación "Factura". 
+            #. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            #. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+            #. Número consecutivo y único. 
+            #. La hora y fecha de emisión. 
+            #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+            #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #.  Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
 
          - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
 
@@ -2303,63 +2305,63 @@ El documento factura en cuentas por cobrar se compone de siete (7) tipos de fact
          - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
          - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos: 
-            1. Contener la denominación de "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de Control preimpreso. 
-            4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-            6. Fecha de emisión constituida por ocho (8) dígitos. 
-            7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-            8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-            9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-            11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-            12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
-            13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-            14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-            15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+           #. Contener la denominación de "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de Control preimpreso. 
+            #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+            #. Fecha de emisión constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #.  Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+            #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
+            #. Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+            #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
-            1. La denominación "Factura". 
-            2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-            3. Número consecutivo y único.
-            4. La hora y fecha de emisión. 
-            5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br> 
-            6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-            8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-            9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-            10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-            11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br> 
+           #. La denominación "Factura". 
+            #. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            #. Número consecutivo y único.
+            #. La hora y fecha de emisión. 
+            #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br> 
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+            #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+            #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #.  Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br> 
 
          - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-            1. La denominación "Factura". 
-            2. Numeración consecutiva y única. 
-            3. Número de control preimpreso. 
-            4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-            5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-            6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-            7. Fecha de emisión, constituida por ocho (8) dígitos. 
-            8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-            9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
-            10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-            11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-            12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
-            13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-            14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+           #. La denominación "Factura". 
+            #. Numeración consecutiva y única. 
+            #. Número de control preimpreso. 
+            #. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+            #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+            #. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+            #. Fecha de emisión, constituida por ocho (8) dígitos. 
+            #. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+            #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+            #.  En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
+            #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
+            #. Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+            #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
          - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-            1. La denominación "Factura". 
-            2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-            3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-            4. Número consecutivo y único. 
-            5. La hora y fecha de emisión. 
-            6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
-            7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-            8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-            9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-            10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
+           #. La denominación "Factura". 
+            #. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+            #. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+            #. Número consecutivo y único. 
+            #. La hora y fecha de emisión. 
+            #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
+            #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+            #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #.  Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
 
          - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
 
@@ -2875,19 +2877,19 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
-          - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
+         - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
-          - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
+         - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
 
-          - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
+         - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
-          - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+         - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
-          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
+         Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
 #. **Nota de Débito de Cuentas por Cobrar Intercompañía**
 
@@ -3012,19 +3014,19 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
-          - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
+         - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
-          - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
+         - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
 
-          - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
+         - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
-          - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+         - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
-          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
+         Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
 #. **Nota de Débito de Cuentas por Cobrar Empleado**
 
@@ -3149,19 +3151,19 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
-          - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
+         - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
-          - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
+         - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
 
-          - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
+         - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
-          - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+         - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
-          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
+         Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
 #. **Nota de Débito de Cuentas por Cobrar Indirecta**
 
@@ -3286,19 +3288,19 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
-          - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
+         - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
-          - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
+         - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
 
-          - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
+         - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
-          - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+         - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
-          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
+         Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
 **Tipos de Documentos Retenciones Cuentas por Cobrar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -3387,13 +3389,13 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
       
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
 
-          Según el la ley de el Artículo 3 de la Ley del Impuesto al Valor Agregado (IVA), constituyen hechos imponibles a los fines de esta ley, las siguientes actividades, negocios jurídicos u operaciones:
+         Según el la ley de el Artículo 3 de la Ley del Impuesto al Valor Agregado (IVA), constituyen hechos imponibles a los fines de esta ley, las siguientes actividades, negocios jurídicos u operaciones:
 
-          1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
-          1. La importación definitiva de bienes muebles.
-          1. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
-          1. La venta de exportación de bienes muebles corporales.
-          1. La exportación de servicios
+         #. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
+         #. La importación definitiva de bienes muebles.
+         #. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
+         #. La venta de exportación de bienes muebles corporales.
+         #. La exportación de servicios
 
 #. **Retención de IVA 100% de Cuentas por Cobrar**
 
@@ -3475,12 +3477,13 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
       
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
 
-          Según el la ley de el Artículo 3 de la Ley del Impuesto al Valor Agregado (IVA), Constituyen hechos imponibles a los fines de esta Ley, las siguientes actividades, negocios jurídicos u operaciones:
-          1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
-          1. La importación definitiva de bienes muebles.
-          1. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
-          1. La venta de exportación de bienes muebles corporales.
-          1. La exportación de servicios
+         Según el la ley de el Artículo 3 de la Ley del Impuesto al Valor Agregado (IVA), constituyen hechos imponibles a los fines de esta ley, las siguientes actividades, negocios jurídicos u operaciones:
+
+         #. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
+         #. La importación definitiva de bienes muebles.
+         #. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
+         #. La venta de exportación de bienes muebles corporales.
+         #. La exportación de servicios
 
 #. **Retención de ISLR de Cuentas por Cobrar**
 
@@ -3562,51 +3565,51 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
       
       Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
 
-          - **Artículo 1:** 
+         - **Artículo 1:** 
 
-          Los enriquecimientos anuales, netos y disponibles obtenidos en dinero o en especie, causarán impuestos según las normas establecidas en esta ley.
+            Los enriquecimientos anuales, netos y disponibles obtenidos en dinero o en especie, causarán impuestos según las normas establecidas en esta ley.
 
-          Salvo disposición en contrario de la presente ley, toda persona natural o jurídica, residente o domiciliada en la República Bolivariana de Venezuela, pagará impuestos sobre sus rentas de cualquier origen, sea que la causa o la fuente de ingresos esté situada dentro del país o fuera de él. Las personas naturales o jurídicas no residentes o no domiciliadas en la República Bolivariana de Venezuela estarán sujetas al impuesto establecido en esta Ley siempre que la fuente o la causa de sus enriquecimientos esté u ocurra dentro del país, aun cuando no tengan establecimiento permanente o base fija en la República Bolivariana de Venezuela. 
+            Salvo disposición en contrario de la presente ley, toda persona natural o jurídica, residente o domiciliada en la República Bolivariana de Venezuela, pagará impuestos sobre sus rentas de cualquier origen, sea que la causa o la fuente de ingresos esté situada dentro del país o fuera de él. Las personas naturales o jurídicas no residentes o no domiciliadas en la República Bolivariana de Venezuela estarán sujetas al impuesto establecido en esta Ley siempre que la fuente o la causa de sus enriquecimientos esté u ocurra dentro del país, aun cuando no tengan establecimiento permanente o base fija en la República Bolivariana de Venezuela. 
 
-          Las personas naturales o jurídicas domiciliadas o residenciadas en el extranjero que tengan un establecimiento permanente o una base fija en el país, tributarán exclusivamente por los ingresos de fuente nacional o extranjera atribuibles a dicho establecimiento permanente o base fija.
+            Las personas naturales o jurídicas domiciliadas o residenciadas en el extranjero que tengan un establecimiento permanente o una base fija en el país, tributarán exclusivamente por los ingresos de fuente nacional o extranjera atribuibles a dicho establecimiento permanente o base fija.
 
-          - **Artículo 2:** 
+         - **Artículo 2:** 
 
-          Toda persona natural o jurídica, residente o domiciliada en La República Bolivariana de Venezuela, así como las personas naturales o jurídicas domiciliadas o residenciadas en el extranjero que tengan un establecimiento permanente o una base fija en el país, podrán acreditar contra el impuesto que conforme a esta Ley les corresponda pagar, el impuesto sobre la renta que hayan pagado en el extranjero por los enriquecimientos de fuente extraterritorial por los cuales estén obligados al pago de impuesto en los términos de esta Ley.
+            Toda persona natural o jurídica, residente o domiciliada en La República Bolivariana de Venezuela, así como las personas naturales o jurídicas domiciliadas o residenciadas en el extranjero que tengan un establecimiento permanente o una base fija en el país, podrán acreditar contra el impuesto que conforme a esta Ley les corresponda pagar, el impuesto sobre la renta que hayan pagado en el extranjero por los enriquecimientos de fuente extraterritorial por los cuales estén obligados al pago de impuesto en los términos de esta Ley.
 
-          A los efectos de la acreditación prevista en este artículo, se considera impuesto sobre la renta al que grava la totalidad de la renta o los elementos de renta, incluidos los impuestos sobre las ganancias derivadas de la enajenación de bienes muebles o inmuebles, y los impuestos sobre los sueldos y salarios, así como los impuestos sobre las plusvalías. En caso de duda, la Administración Tributaria deberá determinar la naturaleza del impuesto acreditable.
+            A los efectos de la acreditación prevista en este artículo, se considera impuesto sobre la renta al que grava la totalidad de la renta o los elementos de renta, incluidos los impuestos sobre las ganancias derivadas de la enajenación de bienes muebles o inmuebles, y los impuestos sobre los sueldos y salarios, así como los impuestos sobre las plusvalías. En caso de duda, la Administración Tributaria deberá determinar la naturaleza del impuesto acreditable.
 
-          El monto del impuesto acreditable, proveniente de fuentes extranjeras a que se refiere este artículo, no podrá exceder a la cantidad que resulte de aplicar las tarifas establecidas en el Título III de esta Ley al total del enriquecimiento neto global del ejercicio de que se trate, en la proporción que el enriquecimiento neto de fuente extranjera represente del total de dicho enriquecimiento neto global.
+            El monto del impuesto acreditable, proveniente de fuentes extranjeras a que se refiere este artículo, no podrá exceder a la cantidad que resulte de aplicar las tarifas establecidas en el Título III de esta Ley al total del enriquecimiento neto global del ejercicio de que se trate, en la proporción que el enriquecimiento neto de fuente extranjera represente del total de dicho enriquecimiento neto global.
 
-          En el caso de los enriquecimientos gravados con impuestos proporcionales en los términos establecidos en esta Ley, el monto del impuesto acreditable, no podrá exceder del impuesto sobre la renta que hubiese correspondido pagar en La República Bolivariana de Venezuela por estos enriquecimientos.
+            En el caso de los enriquecimientos gravados con impuestos proporcionales en los términos establecidos en esta Ley, el monto del impuesto acreditable, no podrá exceder del impuesto sobre la renta que hubiese correspondido pagar en La República Bolivariana de Venezuela por estos enriquecimientos.
 
-          A los fines de la determinación del monto de impuesto efectivamente pagado en el extranjero acreditable en los términos establecidos en este artículo, deberá aplicarse el tipo de cambio vigente para el momento en que se produzca el pago del impuesto en el extranjero, calculado conforme a lo previsto en la Ley del Banco Central de Venezuela.
+            A los fines de la determinación del monto de impuesto efectivamente pagado en el extranjero acreditable en los términos establecidos en este artículo, deberá aplicarse el tipo de cambio vigente para el momento en que se produzca el pago del impuesto en el extranjero, calculado conforme a lo previsto en la Ley del Banco Central de Venezuela.
 
-          - **Artículo 4:** 
+         - **Artículo 4:** 
 
-          Son enriquecimientos netos los incrementos de patrimonio que resulten después de restar de los ingresos brutos, los costos y deducciones permitidos en esta Ley, sin perjuicio respecto del enriquecimiento neto de fuente territorial, del ajuste por inflación previsto en esta Ley. 
+            Son enriquecimientos netos los incrementos de patrimonio que resulten después de restar de los ingresos brutos, los costos y deducciones permitidos en esta Ley, sin perjuicio respecto del enriquecimiento neto de fuente territorial, del ajuste por inflación previsto en esta Ley. 
 
-          A los fines de la determinación del enriquecimiento neto de fuente extranjera se aplicarán las normas de la presente Ley, determinantes de los ingresos, costos y deducciones de los enriquecimientos de fuente territorial.
+            A los fines de la determinación del enriquecimiento neto de fuente extranjera se aplicarán las normas de la presente Ley, determinantes de los ingresos, costos y deducciones de los enriquecimientos de fuente territorial.
 
-          La determinación de la base imponible para el cálculo del impuesto será el resultado de sumar el enriquecimiento neto de fuente territorial al enriquecimiento neto de fuente extraterritorial. No se admitirá la imputación de pérdidas de fuente extraterritorial al enriquecimiento o pérdida de fuente territorial.
+            La determinación de la base imponible para el cálculo del impuesto será el resultado de sumar el enriquecimiento neto de fuente territorial al enriquecimiento neto de fuente extraterritorial. No se admitirá la imputación de pérdidas de fuente extraterritorial al enriquecimiento o pérdida de fuente territorial.
 
-          - **Artículo 5:** 
+         - **Artículo 5:** 
 
-          Los enriquecimientos provenientes de la cesión del uso o goce de bienes, muebles o inmuebles, incluidos los derivados de regalías y demás participaciones análogas y los dividendos, los producidos por el trabajo bajo relación de dependencia o por el libre ejercicio de profesiones no mercantiles, la enajenación de bienes inmuebles y las ganancias fortuitas, se considerarán disponibles en el momento en que son pagados. Los enriquecimientos que no estén comprendidos en la enumeración anterior, se considerarán disponibles desde que se realicen las operaciones que los producen, salvo en las cesiones de crédito y operaciones de descuento, cuyo producto sea recuperable en varias anualidades, casos en los cuales se considerará disponible para el cesionario el beneficio que proporcionalmente corresponda.
+            Los enriquecimientos provenientes de la cesión del uso o goce de bienes, muebles o inmuebles, incluidos los derivados de regalías y demás participaciones análogas y los dividendos, los producidos por el trabajo bajo relación de dependencia o por el libre ejercicio de profesiones no mercantiles, la enajenación de bienes inmuebles y las ganancias fortuitas, se considerarán disponibles en el momento en que son pagados. Los enriquecimientos que no estén comprendidos en la enumeración anterior, se considerarán disponibles desde que se realicen las operaciones que los producen, salvo en las cesiones de crédito y operaciones de descuento, cuyo producto sea recuperable en varias anualidades, casos en los cuales se considerará disponible para el cesionario el beneficio que proporcionalmente corresponda.
 
-          En todos los casos a los que se refiere este artículo, los abonos en cuenta se considerarán como pagos, salvo prueba en contrario.
+            En todos los casos a los que se refiere este artículo, los abonos en cuenta se considerarán como pagos, salvo prueba en contrario.
 
-          - **Artículo 7:** Están sometidos al régimen impositivo previsto en esta Ley:
-              1. Las personas naturales. 
-              1. Las compañías anónimas y las sociedades de responsabilidad limitada.
-              1. Las sociedades en nombre colectivo, en comandita simple, las comunidades, así como cualesquiera otras sociedades de personas, incluidas las irregulares o de hecho.
-              1. Los titulares de enriquecimientos provenientes de actividades de hidrocarburos y conexas, tales como la refinación y el transporte, sus regalistas y quienes obtengan enriquecimientos derivados de la exportación de minerales, de hidrocarburos o de sus derivados.
-              1. Las asociaciones, fundaciones, corporaciones y demás entidades jurídicas o económicas no citadas en los literales anteriores.
-              1. Los establecimientos permanentes, centros o bases fijas situados en el territorio nacional.
+         - **Artículo 7:** Están sometidos al régimen impositivo previsto en esta Ley:
+            #. Las personas naturales. 
+            #. Las compañías anónimas y las sociedades de responsabilidad limitada.
+            #. Las sociedades en nombre colectivo, en comandita simple, las comunidades, así como cualesquiera otras sociedades de personas, incluidas las irregulares o de hecho.
+            #. Los titulares de enriquecimientos provenientes de actividades de hidrocarburos y conexas, tales como la refinación y el transporte, sus regalistas y quienes obtengan enriquecimientos derivados de la exportación de minerales, de hidrocarburos o de sus derivados.
+            #. Las asociaciones, fundaciones, corporaciones y demás entidades jurídicas o económicas no citadas en los literales anteriores.
+            #. Los establecimientos permanentes, centros o bases fijas situados en el territorio nacional.
 
-          - **Artículo 13:** 
+         - **Artículo 13:** 
 
-          Las empresas propiedad de la Nación, de los Estados o de los Municipios, estarán sujetas a los impuestos y normas establecidas en esta ley, cualquiera que sea la forma jurídica de su constitución, aunque las Leyes especiales referentes a tales empresas dispongan lo contrario. 
+            Las empresas propiedad de la Nación, de los Estados o de los Municipios, estarán sujetas a los impuestos y normas establecidas en esta ley, cualquiera que sea la forma jurídica de su constitución, aunque las Leyes especiales referentes a tales empresas dispongan lo contrario. 
 
 #. **Retención Municipal de Cuentas por Cobrar**
 
@@ -3763,13 +3766,13 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
       
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
 
-          Según el la ley de el Artículo 3 de la Ley del Impuesto al Valor Agregado (IVA), constituyen hechos imponibles a los fines de esta ley, las siguientes actividades, negocios jurídicos u operaciones:
+         Según el la ley de el Artículo 3 de la Ley del Impuesto al Valor Agregado (IVA), constituyen hechos imponibles a los fines de esta ley, las siguientes actividades, negocios jurídicos u operaciones:
 
-          1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
-          1. La importación definitiva de bienes muebles.
-          1. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
-          1. La venta de exportación de bienes muebles corporales.
-          1. La exportación de servicios
+         #. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
+         #. La importación definitiva de bienes muebles.
+         #. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
+         #. La venta de exportación de bienes muebles corporales.
+         #. La exportación de servicios
 
 #. **Retención de IVA 100% para Nota de Crédito de CxC**
 
@@ -3846,13 +3849,13 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
       
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado.
 
-          Según el la ley de el Artículo 3 de la Ley del Impuesto al Valor Agregado (IVA), constituyen hechos imponibles a los fines de esta ley, las siguientes actividades, negocios jurídicos u operaciones:
+         Según el la ley de el Artículo 3 de la Ley del Impuesto al Valor Agregado (IVA), constituyen hechos imponibles a los fines de esta ley, las siguientes actividades, negocios jurídicos u operaciones:
 
-          1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
-          1. La importación definitiva de bienes muebles.
-          1. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
-          1. La venta de exportación de bienes muebles corporales.
-          1. La exportación de servicios
+         #. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
+         #. La importación definitiva de bienes muebles.
+         #. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
+         #. La venta de exportación de bienes muebles corporales.
+         #. La exportación de servicios
 
 #. **Retención de ISLR para Nota de Crédito de CxC**
 
@@ -3929,51 +3932,51 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
       
       Basado en Gaceta Oficial N° 38.628 de fecha 16 de febrero de 2007 donde se establece la ley de impuesto sobre la renta, estipulando los siguientes artículos:
 
-          - **Artículo 1:** 
+         - **Artículo 1:** 
 
-          Los enriquecimientos anuales, netos y disponibles obtenidos en dinero o en especie, causarán impuestos según las normas establecidas en esta ley.
+            Los enriquecimientos anuales, netos y disponibles obtenidos en dinero o en especie, causarán impuestos según las normas establecidas en esta ley.
 
-          Salvo disposición en contrario de la presente ley, toda persona natural o jurídica, residente o domiciliada en la República Bolivariana de Venezuela, pagará impuestos sobre sus rentas de cualquier origen, sea que la causa o la fuente de ingresos esté situada dentro del país o fuera de él. Las personas naturales o jurídicas no residentes o no domiciliadas en la República Bolivariana de Venezuela estarán sujetas al impuesto establecido en esta Ley siempre que la fuente o la causa de sus enriquecimientos esté u ocurra dentro del país, aun cuando no tengan establecimiento permanente o base fija en la República Bolivariana de Venezuela. 
+            Salvo disposición en contrario de la presente ley, toda persona natural o jurídica, residente o domiciliada en la República Bolivariana de Venezuela, pagará impuestos sobre sus rentas de cualquier origen, sea que la causa o la fuente de ingresos esté situada dentro del país o fuera de él. Las personas naturales o jurídicas no residentes o no domiciliadas en la República Bolivariana de Venezuela estarán sujetas al impuesto establecido en esta Ley siempre que la fuente o la causa de sus enriquecimientos esté u ocurra dentro del país, aun cuando no tengan establecimiento permanente o base fija en la República Bolivariana de Venezuela. 
 
-          Las personas naturales o jurídicas domiciliadas o residenciadas en el extranjero que tengan un establecimiento permanente o una base fija en el país, tributarán exclusivamente por los ingresos de fuente nacional o extranjera atribuibles a dicho establecimiento permanente o base fija.
+            Las personas naturales o jurídicas domiciliadas o residenciadas en el extranjero que tengan un establecimiento permanente o una base fija en el país, tributarán exclusivamente por los ingresos de fuente nacional o extranjera atribuibles a dicho establecimiento permanente o base fija.
 
-          - **Artículo 2:** 
+         - **Artículo 2:** 
 
-          Toda persona natural o jurídica, residente o domiciliada en La República Bolivariana de Venezuela, así como las personas naturales o jurídicas domiciliadas o residenciadas en el extranjero que tengan un establecimiento permanente o una base fija en el país, podrán acreditar contra el impuesto que conforme a esta Ley les corresponda pagar, el impuesto sobre la renta que hayan pagado en el extranjero por los enriquecimientos de fuente extraterritorial por los cuales estén obligados al pago de impuesto en los términos de esta Ley.
+            Toda persona natural o jurídica, residente o domiciliada en La República Bolivariana de Venezuela, así como las personas naturales o jurídicas domiciliadas o residenciadas en el extranjero que tengan un establecimiento permanente o una base fija en el país, podrán acreditar contra el impuesto que conforme a esta Ley les corresponda pagar, el impuesto sobre la renta que hayan pagado en el extranjero por los enriquecimientos de fuente extraterritorial por los cuales estén obligados al pago de impuesto en los términos de esta Ley.
 
-          A los efectos de la acreditación prevista en este artículo, se considera impuesto sobre la renta al que grava la totalidad de la renta o los elementos de renta, incluidos los impuestos sobre las ganancias derivadas de la enajenación de bienes muebles o inmuebles, y los impuestos sobre los sueldos y salarios, así como los impuestos sobre las plusvalías. En caso de duda, la Administración Tributaria deberá determinar la naturaleza del impuesto acreditable.
+            A los efectos de la acreditación prevista en este artículo, se considera impuesto sobre la renta al que grava la totalidad de la renta o los elementos de renta, incluidos los impuestos sobre las ganancias derivadas de la enajenación de bienes muebles o inmuebles, y los impuestos sobre los sueldos y salarios, así como los impuestos sobre las plusvalías. En caso de duda, la Administración Tributaria deberá determinar la naturaleza del impuesto acreditable.
 
-          El monto del impuesto acreditable, proveniente de fuentes extranjeras a que se refiere este artículo, no podrá exceder a la cantidad que resulte de aplicar las tarifas establecidas en el Título III de esta Ley al total del enriquecimiento neto global del ejercicio de que se trate, en la proporción que el enriquecimiento neto de fuente extranjera represente del total de dicho enriquecimiento neto global.
+            El monto del impuesto acreditable, proveniente de fuentes extranjeras a que se refiere este artículo, no podrá exceder a la cantidad que resulte de aplicar las tarifas establecidas en el Título III de esta Ley al total del enriquecimiento neto global del ejercicio de que se trate, en la proporción que el enriquecimiento neto de fuente extranjera represente del total de dicho enriquecimiento neto global.
 
-          En el caso de los enriquecimientos gravados con impuestos proporcionales en los términos establecidos en esta Ley, el monto del impuesto acreditable, no podrá exceder del impuesto sobre la renta que hubiese correspondido pagar en La República Bolivariana de Venezuela por estos enriquecimientos.
+            En el caso de los enriquecimientos gravados con impuestos proporcionales en los términos establecidos en esta Ley, el monto del impuesto acreditable, no podrá exceder del impuesto sobre la renta que hubiese correspondido pagar en La República Bolivariana de Venezuela por estos enriquecimientos.
 
-          A los fines de la determinación del monto de impuesto efectivamente pagado en el extranjero acreditable en los términos establecidos en este artículo, deberá aplicarse el tipo de cambio vigente para el momento en que se produzca el pago del impuesto en el extranjero, calculado conforme a lo previsto en la Ley del Banco Central de Venezuela.
+            A los fines de la determinación del monto de impuesto efectivamente pagado en el extranjero acreditable en los términos establecidos en este artículo, deberá aplicarse el tipo de cambio vigente para el momento en que se produzca el pago del impuesto en el extranjero, calculado conforme a lo previsto en la Ley del Banco Central de Venezuela.
 
-          - **Artículo 4:** 
+         - **Artículo 4:** 
 
-          Son enriquecimientos netos los incrementos de patrimonio que resulten después de restar de los ingresos brutos, los costos y deducciones permitidos en esta Ley, sin perjuicio respecto del enriquecimiento neto de fuente territorial, del ajuste por inflación previsto en esta Ley. 
+            Son enriquecimientos netos los incrementos de patrimonio que resulten después de restar de los ingresos brutos, los costos y deducciones permitidos en esta Ley, sin perjuicio respecto del enriquecimiento neto de fuente territorial, del ajuste por inflación previsto en esta Ley. 
 
-          A los fines de la determinación del enriquecimiento neto de fuente extranjera se aplicarán las normas de la presente Ley, determinantes de los ingresos, costos y deducciones de los enriquecimientos de fuente territorial.
+            A los fines de la determinación del enriquecimiento neto de fuente extranjera se aplicarán las normas de la presente Ley, determinantes de los ingresos, costos y deducciones de los enriquecimientos de fuente territorial.
 
-          La determinación de la base imponible para el cálculo del impuesto será el resultado de sumar el enriquecimiento neto de fuente territorial al enriquecimiento neto de fuente extraterritorial. No se admitirá la imputación de pérdidas de fuente extraterritorial al enriquecimiento o pérdida de fuente territorial.
+            La determinación de la base imponible para el cálculo del impuesto será el resultado de sumar el enriquecimiento neto de fuente territorial al enriquecimiento neto de fuente extraterritorial. No se admitirá la imputación de pérdidas de fuente extraterritorial al enriquecimiento o pérdida de fuente territorial.
 
-          - **Artículo 5:** 
+         - **Artículo 5:** 
 
-          Los enriquecimientos provenientes de la cesión del uso o goce de bienes, muebles o inmuebles, incluidos los derivados de regalías y demás participaciones análogas y los dividendos, los producidos por el trabajo bajo relación de dependencia o por el libre ejercicio de profesiones no mercantiles, la enajenación de bienes inmuebles y las ganancias fortuitas, se considerarán disponibles en el momento en que son pagados. Los enriquecimientos que no estén comprendidos en la enumeración anterior, se considerarán disponibles desde que se realicen las operaciones que los producen, salvo en las cesiones de crédito y operaciones de descuento, cuyo producto sea recuperable en varias anualidades, casos en los cuales se considerará disponible para el cesionario el beneficio que proporcionalmente corresponda.
+            Los enriquecimientos provenientes de la cesión del uso o goce de bienes, muebles o inmuebles, incluidos los derivados de regalías y demás participaciones análogas y los dividendos, los producidos por el trabajo bajo relación de dependencia o por el libre ejercicio de profesiones no mercantiles, la enajenación de bienes inmuebles y las ganancias fortuitas, se considerarán disponibles en el momento en que son pagados. Los enriquecimientos que no estén comprendidos en la enumeración anterior, se considerarán disponibles desde que se realicen las operaciones que los producen, salvo en las cesiones de crédito y operaciones de descuento, cuyo producto sea recuperable en varias anualidades, casos en los cuales se considerará disponible para el cesionario el beneficio que proporcionalmente corresponda.
 
-          En todos los casos a los que se refiere este artículo, los abonos en cuenta se considerarán como pagos, salvo prueba en contrario.
+            En todos los casos a los que se refiere este artículo, los abonos en cuenta se considerarán como pagos, salvo prueba en contrario.
 
-          - **Artículo 7:** Están sometidos al régimen impositivo previsto en esta Ley:
-              1. Las personas naturales. 
-              1. Las compañías anónimas y las sociedades de responsabilidad limitada.
-              1. Las sociedades en nombre colectivo, en comandita simple, las comunidades, así como cualesquiera otras sociedades de personas, incluidas las irregulares o de hecho.
-              1. Los titulares de enriquecimientos provenientes de actividades de hidrocarburos y conexas, tales como la refinación y el transporte, sus regalistas y quienes obtengan enriquecimientos derivados de la exportación de minerales, de hidrocarburos o de sus derivados.
-              1. Las asociaciones, fundaciones, corporaciones y demás entidades jurídicas o económicas no citadas en los literales anteriores.
-              1. Los establecimientos permanentes, centros o bases fijas situados en el territorio nacional.
+         - **Artículo 7:** Están sometidos al régimen impositivo previsto en esta Ley:
+            #. Las personas naturales. 
+            #. Las compañías anónimas y las sociedades de responsabilidad limitada.
+            #. Las sociedades en nombre colectivo, en comandita simple, las comunidades, así como cualesquiera otras sociedades de personas, incluidas las irregulares o de hecho.
+            #. Los titulares de enriquecimientos provenientes de actividades de hidrocarburos y conexas, tales como la refinación y el transporte, sus regalistas y quienes obtengan enriquecimientos derivados de la exportación de minerales, de hidrocarburos o de sus derivados.
+            #. Las asociaciones, fundaciones, corporaciones y demás entidades jurídicas o económicas no citadas en los literales anteriores.
+            #. Los establecimientos permanentes, centros o bases fijas situados en el territorio nacional.
 
-          - **Artículo 13:** 
+         - **Artículo 13:** 
 
-          Las empresas propiedad de la Nación, de los Estados o de los Municipios, estarán sujetas a los impuestos y normas establecidas en esta ley, cualquiera que sea la forma jurídica de su constitución, aunque las Leyes especiales referentes a tales empresas dispongan lo contrario. 
+            Las empresas propiedad de la Nación, de los Estados o de los Municipios, estarán sujetas a los impuestos y normas establecidas en esta ley, cualquiera que sea la forma jurídica de su constitución, aunque las Leyes especiales referentes a tales empresas dispongan lo contrario. 
 
 #. **Retención Municipal para Nota de Crédito de CxC**
 
@@ -4269,17 +4272,17 @@ A continuación se definen las notas de crédito de cuentas por cobrar según su
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
-          - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
+         - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
-          - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
+         - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
 
-          - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
+         - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
-          - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+         - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
@@ -4412,10 +4415,10 @@ A continuación se definen las notas de crédito de cuentas por cobrar según su
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
@@ -4548,10 +4551,10 @@ A continuación se definen las notas de crédito de cuentas por cobrar según su
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
@@ -4684,10 +4687,10 @@ A continuación se definen las notas de crédito de cuentas por cobrar según su
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
@@ -4820,10 +4823,10 @@ A continuación se definen las notas de crédito de cuentas por cobrar según su
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
@@ -6775,63 +6778,63 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
           - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
           - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos:
-              1. Contener la denominación de "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de Control preimpreso. 
-              4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-              6. Fecha de emisión constituida por ocho (8) dígitos. 
-              7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-              9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-              12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, si corresponde.
-              13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-              14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-              15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. Contener la denominación de "Factura". 
+              #. Numeración consecutiva y única. 
+              #. Número de Control preimpreso. 
+              #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+              #. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+              #. Fecha de emisión constituida por ocho (8) dígitos. 
+              #. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+              #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #.  Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+              #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+              #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, si corresponde.
+              #. Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+              #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+              #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+              #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
           - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
-              1. La denominación "Factura". 
-              2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. Número consecutivo y único.
-              4. La hora y fecha de emisión. 
-              5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br> <br> 
-              6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-              9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-              10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-              11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br>
+            #. La denominación "Factura". 
+              #. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+              #. Número consecutivo y único.
+              #. La hora y fecha de emisión. 
+              #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br> <br> 
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+              #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+              #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+              #.  Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+              #. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br>
 
           - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de control preimpreso. 
-              4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-              6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-              7. Fecha de emisión, constituida por ocho (8) dígitos. 
-              8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
-              10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-              11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-              12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, si corresponde. 
-              13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. La denominación "Factura". 
+              #. Numeración consecutiva y única. 
+              #. Número de control preimpreso. 
+              #. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+              #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+              #. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+              #. Fecha de emisión, constituida por ocho (8) dígitos. 
+              #. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+              #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+              #.  En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
+              #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+              #. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, si corresponde. 
+              #. Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+              #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
           - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-              4. Número consecutivo y único. 
-              5. La hora y fecha de emisión. 
-              6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
-              7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-              9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-              10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
+            #. La denominación "Factura". 
+              #. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+              #. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+              #. Número consecutivo y único. 
+              #. La hora y fecha de emisión. 
+              #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br> <br>
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+              #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+              #.  Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
 
           - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
 
@@ -6901,10 +6904,10 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
           - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
           - **Artículo 18:** Las facturas emitidas en el extranjero por personas no residentes en el país, que estén destinadas a ser empleadas como prueba del desembolso a los fines del Impuesto sobre la renta, están sujetas a las disposiciones legales del país respectivo, debiendo constar en ellas, como mínimo:
-              1. Nombre completo o razón social y domicilio del prestador del servicio o del vendedor de los bienes.
-              2. Descripción de la venta del bien o de la prestación del servicio y precio. Si el precio hace referencia a varios bienes o servicios Iguales, se deberá Indicar la cantidad.
-              3. Fecha de emisión y monto total de la operación.
-              4. Nombre completo o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. En los casos de importación de bienes se sujetarán a lo establecido en la legislación aduanera. <br> <br> En todo caso, el contribuyente está en la obligación de presentar, a requerimiento de la Administración Tributaria, una traducción al castellano de las facturas.
+            #. Nombre completo o razón social y domicilio del prestador del servicio o del vendedor de los bienes.
+              #. Descripción de la venta del bien o de la prestación del servicio y precio. Si el precio hace referencia a varios bienes o servicios Iguales, se deberá Indicar la cantidad.
+              #. Fecha de emisión y monto total de la operación.
+              #. Nombre completo o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. En los casos de importación de bienes se sujetarán a lo establecido en la legislación aduanera. <br> <br> En todo caso, el contribuyente está en la obligación de presentar, a requerimiento de la Administración Tributaria, una traducción al castellano de las facturas.
 
           - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas
           autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura
@@ -6973,63 +6976,63 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
           - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
           - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos: 
-              1. Contener la denominación de "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de Control preimpreso. 
-              4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-              6. Fecha de emisión constituida por ocho (8) dígitos. 
-              7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-              9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-              12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
-              13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-              14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-              15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. Contener la denominación de "Factura". 
+              #. Numeración consecutiva y única. 
+              #. Número de Control preimpreso. 
+              #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+              #. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+              #. Fecha de emisión constituida por ocho (8) dígitos. 
+              #. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+              #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #.  Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+              #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+              #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
+              #. Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+              #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+              #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+              #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
           - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
-              1. La denominación "Factura". 
-              2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. Número consecutivo y único.
-              4. La hora y fecha de emisión. 
-              5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br> <br>
-              6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-              9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-              10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-              11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura.  <br> <br>
+            #. La denominación "Factura". 
+              #. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+              #. Número consecutivo y único.
+              #. La hora y fecha de emisión. 
+              #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br> <br>
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+              #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+              #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+              #.  Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+              #. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura.  <br> <br>
 
           - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de control preimpreso. 
-              4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-              6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-              7. Fecha de emisión, constituida por ocho (8) dígitos. 
-              8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
-              10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-              11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-              12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
-              13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. La denominación "Factura". 
+              #. Numeración consecutiva y única. 
+              #. Número de control preimpreso. 
+              #. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+              #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+              #. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+              #. Fecha de emisión, constituida por ocho (8) dígitos. 
+              #. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+              #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+              #.  En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
+              #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+              #. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
+              #. Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+              #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
           - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-              4. Número consecutivo y único. 
-              5. La hora y fecha de emisión. 
-              6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br> <br>                
-              7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-              9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-              10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br>En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
+            #. La denominación "Factura". 
+              #. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+              #. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+              #. Número consecutivo y único. 
+              #. La hora y fecha de emisión. 
+              #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br> <br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br> <br>                
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+              #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+              #.  Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br> <br>En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios. <br> <br>
 
           - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
 
@@ -7105,63 +7108,63 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
           - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
           - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos: 
-              1. Contener la denominación de "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de Control preimpreso. 
-              4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-              6. Fecha de emisión constituida por ocho (8) dígitos. 
-              7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-              9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-              12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
-              13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-              14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-              15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+            #. Contener la denominación de "Factura". 
+              #. Numeración consecutiva y única. 
+              #. Número de Control preimpreso. 
+              #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+              #. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+              #. Fecha de emisión constituida por ocho (8) dígitos. 
+              #. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+              #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #.  Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+              #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+              #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
+              #. Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+              #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+              #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+              #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
           - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
 
-              1. La denominación "Factura". 
-              2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. Número consecutivo y único.
-              4. La hora y fecha de emisión. 
-              5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br>La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br> <br>
-              6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-              9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-              10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-              11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br><br>Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br>
+            #. La denominación "Factura". 
+              #. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+              #. Número consecutivo y único.
+              #. La hora y fecha de emisión. 
+              #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br> <br>La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br> <br>
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+              #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+              #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+              #.  Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+              #. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br><br>Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura. <br> <br>
 
           - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de control preimpreso. 
-              4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-              6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-              7. Fecha de emisión, constituida por ocho (8) dígitos. 
-              8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+            #. La denominación "Factura". 
+              #. Numeración consecutiva y única. 
+              #. Número de control preimpreso. 
+              #. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+              #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+              #. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+              #. Fecha de emisión, constituida por ocho (8) dígitos. 
+              #. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+              #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
               10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-              11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-              12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
-              13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+              #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+              #. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
+              #. Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+              #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
           - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-              4. Número consecutivo y único. 
-              5. La hora y fecha de emisión. 
-              6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br><br>La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br><br>
-              7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-              9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #. La denominación "Factura". 
+              #. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+              #. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+              #. Número consecutivo y único. 
+              #. La hora y fecha de emisión. 
+              #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente. <br><br>La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.<br><br>
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+              #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
               10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación. <br><br>En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios.<br><br>
 
           - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
@@ -7237,62 +7240,62 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
           - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
           - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos: 
-              1. Contener la denominación de "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de Control preimpreso. 
-              4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-              6. Fecha de emisión constituida por ocho (8) dígitos. 
-              7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-              9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. Contener la denominación de "Factura". 
+              #. Numeración consecutiva y única. 
+              #. Número de Control preimpreso. 
+              #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+              #. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+              #. Fecha de emisión constituida por ocho (8) dígitos. 
+              #. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+              #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
               10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-              12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
-              13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-              14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-              15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+              #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+              #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
+              #. Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+              #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+              #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+              #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
           - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
-              1. La denominación "Factura". 
-              2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. Número consecutivo y único.
-              4. La hora y fecha de emisión. 
-              5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br><br>La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br><br>
-              6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-              9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #. La denominación "Factura". 
+              #. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+              #. Número consecutivo y único.
+              #. La hora y fecha de emisión. 
+              #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br><br>La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br><br>
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+              #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+              #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
               10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-              11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación.<br><br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura.<br><br>
+              #. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación.<br><br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura.<br><br>
 
           - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de control preimpreso. 
-              4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-              6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-              7. Fecha de emisión, constituida por ocho (8) dígitos. 
-              8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+            #. La denominación "Factura". 
+              #. Numeración consecutiva y única. 
+              #. Número de control preimpreso. 
+              #. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+              #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+              #. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+              #. Fecha de emisión, constituida por ocho (8) dígitos. 
+              #. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+              #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
               10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-              11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-              12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
-              13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+              #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+              #. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
+              #. Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+              #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
           - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-              4. Número consecutivo y único. 
-              5. La hora y fecha de emisión. 
-              6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente.<br><br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.
-              7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-              9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #. La denominación "Factura". 
+              #. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+              #. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+              #. Número consecutivo y único. 
+              #. La hora y fecha de emisión. 
+              #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente.<br><br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+              #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
               10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación.<br><br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios.<br><br>
 
           - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
@@ -7370,62 +7373,62 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
           - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
           - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos: 
-              1. Contener la denominación de "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de Control preimpreso. 
-              4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-              6. Fecha de emisión constituida por ocho (8) dígitos. 
-              7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-              9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. Contener la denominación de "Factura". 
+              #. Numeración consecutiva y única. 
+              #. Número de Control preimpreso. 
+              #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+              #. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+              #. Fecha de emisión constituida por ocho (8) dígitos. 
+              #. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+              #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
               10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-              12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
-              13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-              14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-              15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+              #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+              #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
+              #. Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+              #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+              #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+              #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
           - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
-              1. La denominación "Factura". 
-              2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. Número consecutivo y único.
-              4. La hora y fecha de emisión. 
-              5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br><br>La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br><br>
-              6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-              9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #. La denominación "Factura". 
+              #. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+              #. Número consecutivo y único.
+              #. La hora y fecha de emisión. 
+              #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br><br>La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br><br>
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+              #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+              #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
               10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-              11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación.<br><br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura.<br><br>
+              #. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación.<br><br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura.<br><br>
 
           - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de control preimpreso. 
-              4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-              6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-              7. Fecha de emisión, constituida por ocho (8) dígitos. 
-              8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+            #. La denominación "Factura". 
+              #. Numeración consecutiva y única. 
+              #. Número de control preimpreso. 
+              #. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+              #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+              #. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+              #. Fecha de emisión, constituida por ocho (8) dígitos. 
+              #. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+              #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
               10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-              11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-              12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
-              13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+              #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+              #. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
+              #. Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+              #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
           - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-              4. Número consecutivo y único. 
-              5. La hora y fecha de emisión. 
-              6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente.<br><br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.
-              7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-              9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #. La denominación "Factura". 
+              #. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+              #. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+              #. Número consecutivo y único. 
+              #. La hora y fecha de emisión. 
+              #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente.<br><br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+              #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
               10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación.<br><br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios.<br><br>
 
           - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
@@ -7498,62 +7501,62 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
           - **Artículo 5:** El Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general, establecerá las normas para regular las imprentas autorizadas, las máquinas fiscales y, en general, la elaboración de las facturas y otros documentos. 
 
           - **Artículo 13:** Las facturas emitidas sobre formatos o formas libres, por los contribuyentes ordinarios del impuesto al valor agregado, deben cumplir los siguientes requisitos: 
-              1. Contener la denominación de "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de Control preimpreso. 
-              4. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
-              6. Fecha de emisión constituida por ocho (8) dígitos. 
-              7. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              8. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
-              9. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+            #. Contener la denominación de "Factura". 
+              #. Numeración consecutiva y única. 
+              #. Número de Control preimpreso. 
+              #. Total de los Números de Control asignados, expresado de la siguiente manera "desde el Nº... hasta el Nº... ". 
+              #. Nombre y Apellido o razón social, domicilio fiscal y número de Registr1nfco de Información Fiscal (RIF) del emisor. 
+              #. Fecha de emisión constituida por ocho (8) dígitos. 
+              #. Nombre y Apellido o razón social y número de Registro Único de Información Fiscal (RIF), del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF), cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+              #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. Podrá omitirse la cantidad en aquellas prestaciones de servicio que por sus características ésta no pueda expresarse. Si se trata de un bien o servicio exento, exonerado o no gravado con el impuesto al valor agregado, deberá aparecer aliado de la descripción o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E).
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
               10. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              11. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
-              12. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
-              13.Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
-              14. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
-              15.Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              16. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+              #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable. 
+              #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde.
+              #. Contener la frase "sin derecho a crédito fiscal", cuando se trate de las coplas de las facturas.
+              #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.  
+              #. Razón social y el número de Registro Único de Información Fiscal (RIF), de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+              #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
           - **Artículo 14:** Las facturas emitidas mediante Máquinas Fiscales por los contribuyentes ordinarios del Impuesto al valor agregado, deben contener la siguiente información: 
-              1. La denominación "Factura". 
-              2. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. Número consecutivo y único.
-              4. La hora y fecha de emisión. 
-              5. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br><br>La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br><br>
-              6. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              7. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
-              8. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
-              9. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+            #. La denominación "Factura". 
+              #. Nombre y apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+              #. Número consecutivo y único.
+              #. La hora y fecha de emisión. 
+              #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien o servicio, deben identificarse los mismos genéricamente. Si se tratare de productos o servicios exentos, exonerados o no sujetos del Impuesto al valor agregado, debe aparecer, junto con de la descripción de los mismos o de su precio, el carácter E separado por un espacio en blanco y entre paréntesis según el siguiente formato: (E). <br><br>La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada. <br><br>
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #. Especificación del monto total de la base imponible del impuesto al valor agregado, discriminada según la alícuota, indicando el porcentaje aplicable, así como la especificación del monto total exento o exonerado. 
+              #. Especificación del monto total del impuesto al valor agregado, discriminado según la alícuota indicando el porcentaje aplicable.
+              #. En los casos de operaciones gravadas con el impuesto al valor agregado, cuya contra- prestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deben constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
               10. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
-              11. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación.<br><br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura.<br><br>
+              #. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deben aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación.<br><br> Las facturas emitidas mediante Máquinas Fiscales darán derecho a crédito fiscal o al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la misma Imprima el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios en la propia factura.<br><br>
 
           - **Artículo 15:** Las facturas emitidas sobre formatos o formas libres, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Numeración consecutiva y única. 
-              3. Número de control preimpreso. 
-              4. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
-              5. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
-              6. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
-              7. Fecha de emisión, constituida por ocho (8) dígitos. 
-              8. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
-              9. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
+            #. La denominación "Factura". 
+              #. Numeración consecutiva y única. 
+              #. Número de control preimpreso. 
+              #. Total de los números de control asignados, expresado de la siguiente manera “desde el Nº… hasta el Nº...” 
+              #. Nombre y Apellido o razón social, domicilio fiscal y número de Registro Único de Información Fiscal (RIF) del emisor. 
+              #. La expresión "Contribuyente Formal" o "no sujeto al impuesto al valor agregado", de ser el caso.
+              #. Fecha de emisión, constituida por ocho (8) dígitos. 
+              #. Nombre y Apellido o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente del bien o receptor del servicio. Podrá prescindirse del número de Registro Único de Información Fiscal (RIF) cuando se trate de personas naturales que no requieran la factura a efectos tributarios, en cuyo caso deberá expresarse, como mínimo, el número de cédula de identidad o pasaporte, del adquirente o receptor. 
+              #. Descripción de la venta del bien o de la prestación del servicio, con indicación de la cantidad y monto. 
               10. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos.
-              11. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
-              12. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
-              13.Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
-              14. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
+              #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable. 
+              #. Indicación del valor total de la venta o la prestación del servicio, o de la suma de ambos, Si corresponde. 
+              #. Razón social y el número de Registro Único de Información Fiscal (RIF) de la imprenta autorizada, así como la nomenclatura y fecha de la Providencia Administrativa de autorización. 
+              #. Fecha de elaboración por la imprenta autorizada, constituida por ocho (8) dígitos. 
 
           - **Artículo 16:** Las facturas emitidas mediante Máquinas Fiscales, por los sujetos que no califiquen como contribuyentes ordinarios del impuesto al valor agregado, deben contener la siguiente información:
-              1. La denominación "Factura". 
-              2. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
-              3. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
-              4. Número consecutivo y único. 
-              5. La hora y fecha de emisión. 
-              6. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente.<br><br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.
-              7. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
-              8. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
-              9. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
+            #. La denominación "Factura". 
+              #. Nombre y Apellido o razón social, número de Registro Único de Información Fiscal (RIF) y domicilio fiscal del emisor. 
+              #. La expresión "contribuyente formal" o "no sujeto al impuesto al valor agregado", según sea el caso. 
+              #. Número consecutivo y único. 
+              #. La hora y fecha de emisión. 
+              #. Descripción, cantidad y monto del bien o servicio. Podrá omitirse la cantidad en las prestaciones de servicio que por sus características no puedan expresarse. En los casos en que las características técnicas de la máquina fiscal limiten la Impresión de la descripción específica del bien servicio, deben identificarse los mismos genéricamente.<br><br> La descripción del bien o servicio debe estar separada, al menos, por un carácter en blanco de su precio. En caso de que la longitud de la descripción supere una línea, el texto puede continuar en las líneas siguientes imprimiéndose el correspondiente precio en la última línea ocupada.
+              #. En los casos que se carguen o cobren conceptos en adición al precio o remuneración convenidos o se realicen descuentos, bonificaciones, anulaciones y cualquier otro ajuste al precio, deberá indicarse la descripción y valor de los mismos. 
+              #. En los casos de operaciones cuya contraprestación haya sido expresada en moneda extranjera, equivalente a la cantidad correspondiente en moneda nacional, deberán constar ambas cantidades en la factura, con indicación del monto total y del tipo de cambio aplicable.
+              #. Indicación del valor total de la venta de los bienes o de la prestación del servicio o de la suma de ambos, Si corresponde, precedido de la palabra "TOTAL" y, al menos, un espacio en blanco. 
               10. Logotipo Fiscal seguido del Número de Registro de la Máquina Fiscal, los cuales deberán aparecer en ese orden al final de la factura, en una misma línea, con al menos tres (3) espacios de separación.<br><br> En estos casos, las facturas emitidas mediante Máquinas Fiscales darán derecho al desembolso, cuando, además de cumplir con todos los requisitos establecidos en este artículo, la Máquina Fiscal sea capaz de imprimir el nombre o razón social y el número de Registro Único de Información Fiscal (RIF) del adquirente o receptor de los bienes o servicios.<br><br>
 
           - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio.
@@ -7626,10 +7629,10 @@ En ADempiere un ajuste es un documento que representa el ingreso o egreso moneta
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
@@ -7694,10 +7697,10 @@ En ADempiere un ajuste es un documento que representa el ingreso o egreso moneta
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
@@ -7778,10 +7781,10 @@ Es un documento que se aplica a una factura para aumentar el monto de la misma, 
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
@@ -7857,10 +7860,10 @@ Es un documento que se aplica a una factura para aumentar el monto de la misma, 
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
@@ -7936,10 +7939,10 @@ Es un documento que se aplica a una factura para aumentar el monto de la misma, 
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
@@ -8015,10 +8018,10 @@ Es un documento que se aplica a una factura para aumentar el monto de la misma, 
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
@@ -8094,10 +8097,10 @@ Es un documento que se aplica a una factura para aumentar el monto de la misma, 
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
@@ -8187,11 +8190,11 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
 
            - Artículo 3: Constituyen hechos imponibles a los fines de esta Ley, las siguientes actividades, negocios jurídicos u operaciones:
-               1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
-               1. La importación definitiva de bienes muebles.
-               1. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
-               1. La venta de exportación de bienes muebles corporales.
-               1. La exportación de servicios
+             #. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
+             #. La importación definitiva de bienes muebles.
+             #. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
+             #. La venta de exportación de bienes muebles corporales.
+             #. La exportación de servicios
 
 #.  **Retención de IVA 100% de Cuentas por Pagar**
 
@@ -8272,11 +8275,11 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
 
            - Artículo 3: Constituyen hechos imponibles a los fines de esta Ley, las siguientes actividades, negocios jurídicos u operaciones:
-               1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
-               1. La importación definitiva de bienes muebles.
-               1. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
-               1. La venta de exportación de bienes muebles corporales.
-               1. La exportación de servicios
+             #. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
+             #. La importación definitiva de bienes muebles.
+             #. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
+             #. La venta de exportación de bienes muebles corporales.
+             #. La exportación de servicios
 
 #. **Retención de ISLR de Cuentas por Pagar**
 
@@ -8391,12 +8394,12 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
            En todos los casos a los que se refiere este artículo, los abonos en cuenta se considerarán como pagos, salvo prueba en contrario.
 
            - **Artículo 7:** Están sometidos al régimen impositivo previsto en esta Ley:
-               1. Las personas naturales.                 
-               1. Las compañías anónimas y las sociedades de responsabilidad limitada.                
-               1. Las sociedades en nombre colectivo, en comandita simple, las comunidades, así como cualesquiera otras sociedades de personas, incluidas las irregulares o de hecho.               
-               1. Los titulares de enriquecimientos provenientes de actividades de hidrocarburos y conexas, tales como la refinación y el transporte, sus regalistas y quienes obtengan enriquecimientos derivados de la exportación de minerales, de hidrocarburos o de sus derivados.
-               1. Las asociaciones, fundaciones, corporaciones y demás entidades jurídicas o económicas no citadas en los literales anteriores.                
-               1. Los establecimientos permanentes, centros o bases fijas situados en el territorio nacional.
+             #. Las personas naturales.                 
+             #. Las compañías anónimas y las sociedades de responsabilidad limitada.                
+             #. Las sociedades en nombre colectivo, en comandita simple, las comunidades, así como cualesquiera otras sociedades de personas, incluidas las irregulares o de hecho.               
+             #. Los titulares de enriquecimientos provenientes de actividades de hidrocarburos y conexas, tales como la refinación y el transporte, sus regalistas y quienes obtengan enriquecimientos derivados de la exportación de minerales, de hidrocarburos o de sus derivados.
+             #. Las asociaciones, fundaciones, corporaciones y demás entidades jurídicas o económicas no citadas en los literales anteriores.                
+             #. Los establecimientos permanentes, centros o bases fijas situados en el territorio nacional.
 
            - **Artículo 13:** 
 
@@ -8558,11 +8561,11 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
 
            - Artículo 3: Constituyen hechos imponibles a los fines de esta Ley, las siguientes actividades, negocios jurídicos u operaciones:
-               1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
-               1. La importación definitiva de bienes muebles.
-               1. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
-               1. La venta de exportación de bienes muebles corporales.
-               1. La exportación de servicios
+             #. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
+             #. La importación definitiva de bienes muebles.
+             #. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
+             #. La venta de exportación de bienes muebles corporales.
+             #. La exportación de servicios
 
 #.  **Retención de IVA 100% para Nota de Crédito de CxP**
 
@@ -8643,11 +8646,11 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
       Basado en el decreto 206 de la Gaceta Oficial N° 5.363, donde se estipula el reglamento general del decreto con rango y fuerza de ley que establece el Impuesto al Valor Agregado: 
 
            - Artículo 3: Constituyen hechos imponibles a los fines de esta Ley, las siguientes actividades, negocios jurídicos u operaciones:
-               1. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
-               1. La importación definitiva de bienes muebles.
-               1. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
-               1. La venta de exportación de bienes muebles corporales.
-               1. La exportación de servicios
+             #. La venta de bienes muebles corporales, incluida la de partes alícuotas en los derechos de propiedad sobre ellos; así como el retiro o desincorporación de bienes muebles realizados por los contribuyentes de este impuesto.
+             #. La importación definitiva de bienes muebles.
+             #. La prestación a título oneroso de servicios independientes ejecutados o aprovechados en el país, incluyendo aquellos que provengan del exterior, en los términos de esta Ley. También constituye hecho imponible, el consumo de los servicios propios del objeto, giro o actividad del negocio, en los casos a que se refiere el numeral 4 del artículo 4 de esta Ley.
+             #. La venta de exportación de bienes muebles corporales.
+             #. La exportación de servicios
 
 #.  **Retención de ISLR para Nota de Crédito de CxP**
 
@@ -8762,12 +8765,12 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
            En todos los casos a los que se refiere este artículo, los abonos en cuenta se considerarán como pagos, salvo prueba en contrario.
 
            - **Artículo 7:** Están sometidos al régimen impositivo previsto en esta Ley:
-               1. Las personas naturales.                 
-               1. Las compañías anónimas y las sociedades de responsabilidad limitada.                
-               1. Las sociedades en nombre colectivo, en comandita simple, las comunidades, así como cualesquiera otras sociedades de personas, incluidas las irregulares o de hecho.               
-               1. Los titulares de enriquecimientos provenientes de actividades de hidrocarburos y conexas, tales como la refinación y el transporte, sus regalistas y quienes obtengan enriquecimientos derivados de la exportación de minerales, de hidrocarburos o de sus derivados.
-               1. Las asociaciones, fundaciones, corporaciones y demás entidades jurídicas o económicas no citadas en los literales anteriores.                
-               1. Los establecimientos permanentes, centros o bases fijas situados en el territorio nacional.
+             #. Las personas naturales.                 
+             #. Las compañías anónimas y las sociedades de responsabilidad limitada.                
+             #. Las sociedades en nombre colectivo, en comandita simple, las comunidades, así como cualesquiera otras sociedades de personas, incluidas las irregulares o de hecho.               
+             #. Los titulares de enriquecimientos provenientes de actividades de hidrocarburos y conexas, tales como la refinación y el transporte, sus regalistas y quienes obtengan enriquecimientos derivados de la exportación de minerales, de hidrocarburos o de sus derivados.
+             #. Las asociaciones, fundaciones, corporaciones y demás entidades jurídicas o económicas no citadas en los literales anteriores.                
+             #. Los establecimientos permanentes, centros o bases fijas situados en el territorio nacional.
 
            - **Artículo 13:** 
 
@@ -8909,10 +8912,10 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
       Basado en Gaceta Oficial N° 41.546 de fecha 14 de diciembre de 2018 la cual dicta la providencia administrativa que establece el calendario de sujetos pasivos especiales y agentes de retención para aquellas obligaciones que deben cumplirse para el año 2019: 
 
            - **Artículo 1:** Las declaraciones de los Sujetos Pasivos Especiales notificados de esa condición en forma expresa por el Servicio Nacional Integrado de Administración Aduanera y Tributaria, relativas al Impuesto al Valor Agregado, al Impuesto Sobre la Renta, Impuesto a las Actividades de Juegos de Envite o Azar, así como el enteramiento de los montos retenidos por los Agentes de Retención en materia de Impuesto Sobre la Renta e Impuesto al Valor Agregado, deberán ser presentadas y en su caso efectuados los respectivos pagos, según el último dígito del Registro Único de Información Fiscal (R.I.F) y en las fechas de vencimiento del calendario para el año 2019 que se establece a continuación:
-               1. Declaración de IVA, anticipos de IVA e ISLR, retenciones de IVA
+             #. Declaración de IVA, anticipos de IVA e ISLR, retenciones de IVA
                ![Calendario](../img/calendario.png "Calendario de Declaraciones y Retenciones") 
                ![Calendario](../img/calendario2.png "Calendario de Declaraciones y Retenciones")
-               1. Retenciones de impuesto sobre la renta
+             #. Retenciones de impuesto sobre la renta
                ![Calendario](../img/calendario3.png "Calendario de Declaraciones y Retenciones")
 
            - **Artículo 2:** En el caso que cualquiera de las fechas programadas en esta Providencia Administrativa, coincida con un día declarado feriado por el Ejecutivo Nacional, Estadal o Municipal, la declaración y/o pago correspondiente deberá presentarse al día hábil siguiente.
@@ -8976,10 +8979,10 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
       Basado en Gaceta Oficial N° 41.546 de fecha 14 de diciembre de 2018 la cual dicta la providencia administrativa que establece el calendario de sujetos pasivos especiales y agentes de retención para aquellas obligaciones que deben cumplirse para el año 2019: 
 
            - **Artículo 1:** Las declaraciones de los Sujetos Pasivos Especiales notificados de esa condición en forma expresa por el Servicio Nacional Integrado de Administración Aduanera y Tributaria, relativas al Impuesto al Valor Agregado, al Impuesto Sobre la Renta, Impuesto a las Actividades de Juegos de Envite o Azar, así como el enteramiento de los montos retenidos por los Agentes de Retención en materia de Impuesto Sobre la Renta e Impuesto al Valor Agregado, deberán ser presentadas y en su caso efectuados los respectivos pagos, según el último dígito del Registro Único de Información Fiscal (R.I.F) y en las fechas de vencimiento del calendario para el año 2019 que se establece a continuación:
-               1. Declaración de IVA, anticipos de IVA e ISLR, retenciones de IVA
+             #. Declaración de IVA, anticipos de IVA e ISLR, retenciones de IVA
                ![Calendario](../img/calendario.png "Calendario de Declaraciones y Retenciones")
                ![Calendario](../img/calendario2.png "Calendario de Declaraciones y Retenciones")
-               1. Retenciones de impuesto sobre la renta
+             #. Retenciones de impuesto sobre la renta
                ![Calendario](../img/calendario3.png "Calendario de Declaraciones y Retenciones")
 
            - **Artículo 2:** En el caso que cualquiera de las fechas programadas en esta Providencia Administrativa, coincida con un día declarado feriado por el Ejecutivo Nacional, Estadal o Municipal, la declaración y/o pago correspondiente deberá presentarse al día hábil siguiente.
@@ -9240,10 +9243,10 @@ Se refiere a las deudas con entes relacionados con el gobierno que aportan benef
 
           Se entiende por organismos gubernamentales a los efectos de esta Ley:
 
-          1. Los órganos del Poder Nacional y los Institutos Autónomos.
-          1. Las sociedades en las cuales la República, y los Institutos Autónomos tengan participación mayor del cincuenta por ciento del capital social y las fundaciones dirigidas por ellos.
-          1. Las empresas en las cuales las sociedades y fundaciones a que se refiere el ordinal anterior tengan participación mayor del cincuenta por ciento de su capital social y las fundaciones dirigidas por ellos.
-          1. Los Fondos y Patrimonios separados que se crearen de conformidad con la Ley.
+         #. Los órganos del Poder Nacional y los Institutos Autónomos.
+         #. Las sociedades en las cuales la República, y los Institutos Autónomos tengan participación mayor del cincuenta por ciento del capital social y las fundaciones dirigidas por ellos.
+         #. Las empresas en las cuales las sociedades y fundaciones a que se refiere el ordinal anterior tengan participación mayor del cincuenta por ciento de su capital social y las fundaciones dirigidas por ellos.
+         #. Los Fondos y Patrimonios separados que se crearen de conformidad con la Ley.
 
           **Parágrafo único:** 
 
@@ -9442,10 +9445,10 @@ A continuación se definen las notas de crédito de cuentas por pagar según su 
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+             #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+             #. Número y fecha de la factura que soportó la operación.
+             #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+             #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
@@ -9543,10 +9546,10 @@ A continuación se definen las notas de crédito de cuentas por pagar según su 
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+             #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+             #. Número y fecha de la factura que soportó la operación.
+             #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+             #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
@@ -9644,10 +9647,10 @@ A continuación se definen las notas de crédito de cuentas por pagar según su 
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+             #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+             #. Número y fecha de la factura que soportó la operación.
+             #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+             #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
@@ -9745,10 +9748,10 @@ A continuación se definen las notas de crédito de cuentas por pagar según su 
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
@@ -9846,10 +9849,10 @@ A continuación se definen las notas de crédito de cuentas por pagar según su 
           - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
           - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
           Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
@@ -11369,11 +11372,11 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            Para fijar el monto del salario se tendrá en cuenta:
 
-           1. La satisfacción de las necesidades materiales, sociales e intelectuales del trabajador, la trabajadora, sus familiares y dependientes, que les permitan una vida digna y decorosa.
-           1. La justa distribución de la riqueza como el reconocimiento del mayor valor del trabajo frente al capital.
-           1. La cantidad y calidad del servicio prestado.
-           1. El principio de igual salario por igual trabajo.
-           1. La equivalencia con los salarios devengados por trabajadores y trabajadoras de la localidad, o de aquellos y aquellas que presten el mismo servicio.
+           #. La satisfacción de las necesidades materiales, sociales e intelectuales del trabajador, la trabajadora, sus familiares y dependientes, que les permitan una vida digna y decorosa.
+           #. La justa distribución de la riqueza como el reconocimiento del mayor valor del trabajo frente al capital.
+           #. La cantidad y calidad del servicio prestado.
+           #. El principio de igual salario por igual trabajo.
+           #. La equivalencia con los salarios devengados por trabajadores y trabajadoras de la localidad, o de aquellos y aquellas que presten el mismo servicio.
 
            - **Artículo 103:**
 
@@ -11512,11 +11515,11 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            Para fijar el monto del salario se tendrá en cuenta:
 
-           1. La satisfacción de las necesidades materiales, sociales e intelectuales del trabajador, la trabajadora, sus familiares y dependientes, que les permitan una vida digna y decorosa.
-           1. La justa distribución de la riqueza como el reconocimiento del mayor valor del trabajo frente al capital.
-           1. La cantidad y calidad del servicio prestado.
-           1. El principio de igual salario por igual trabajo.
-           1. La equivalencia con los salarios devengados por trabajadores y trabajadoras de la localidad, o de aquellos y aquellas que presten el mismo servicio.
+           #. La satisfacción de las necesidades materiales, sociales e intelectuales del trabajador, la trabajadora, sus familiares y dependientes, que les permitan una vida digna y decorosa.
+           #. La justa distribución de la riqueza como el reconocimiento del mayor valor del trabajo frente al capital.
+           #. La cantidad y calidad del servicio prestado.
+           #. El principio de igual salario por igual trabajo.
+           #. La equivalencia con los salarios devengados por trabajadores y trabajadoras de la localidad, o de aquellos y aquellas que presten el mismo servicio.
 
            - **Artículo 103:**
 
@@ -11655,11 +11658,11 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            Para fijar el monto del salario se tendrá en cuenta:
 
-           1. La satisfacción de las necesidades materiales, sociales e intelectuales del trabajador, la trabajadora, sus familiares y dependientes, que les permitan una vida digna y decorosa.
-           1. La justa distribución de la riqueza como el reconocimiento del mayor valor del trabajo frente al capital.
-           1. La cantidad y calidad del servicio prestado.
-           1. El principio de igual salario por igual trabajo.
-           1. La equivalencia con los salarios devengados por trabajadores y trabajadoras de la localidad, o de aquellos y aquellas que presten el mismo servicio.
+           #. La satisfacción de las necesidades materiales, sociales e intelectuales del trabajador, la trabajadora, sus familiares y dependientes, que les permitan una vida digna y decorosa.
+           #. La justa distribución de la riqueza como el reconocimiento del mayor valor del trabajo frente al capital.
+           #. La cantidad y calidad del servicio prestado.
+           #. El principio de igual salario por igual trabajo.
+           #. La equivalencia con los salarios devengados por trabajadores y trabajadoras de la localidad, o de aquellos y aquellas que presten el mismo servicio.
 
            - **Artículo 103:**
 
@@ -12096,12 +12099,12 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            Las prestaciones sociales se protegerán, calcularán y pagarán de la siguiente manera:
 
-           1. **El patrono o patrona depositará a cada trabajador o trabajadora por concepto de garantía de las prestaciones sociales el equivalente a quince días cada trimestre, calculado con base al último salario devengado. El derecho a este depósito se adquiere desde el momento de iniciar el trimestre.**
-           1. **Adicionalmente y después del primer año de servicio, el patrono o patrona depositará a cada trabajador o trabajadora dos días de salario, por cada año, acumulativos hasta treinta días de salario.**
-           1. **Cuando la relación de trabajo termine por cualquier causa se calcularán las prestaciones sociales con base a treinta días por cada año de servicio o fracción superior a los seis meses calculada al último salario.**
-           1. **El trabajador o trabajadora recibirá por concepto de prestaciones sociales el monto que resulte mayor entre el total de la garantía depositada de acuerdo a lo establecido en los literales a y b, y el cálculo efectuado al final de la relación laboral de acuerdo al literal c.**
-           1. Si la relación de trabajo termina antes de los tres primeros meses, el pago que le corresponde al trabajador o trabajadora por concepto de prestaciones sociales será de cinco días de salario por mes trabajado o fracción.
-           1. El pago de las prestaciones sociales se hará dentro de los cinco días siguientes a la terminación de la relación laboral, y de no cumplirse el pago generará intereses de mora a la tasa activa determinada por el Banco Central de Venezuela, tomando como referencia los seis principales bancos del país.
+           #. **El patrono o patrona depositará a cada trabajador o trabajadora por concepto de garantía de las prestaciones sociales el equivalente a quince días cada trimestre, calculado con base al último salario devengado. El derecho a este depósito se adquiere desde el momento de iniciar el trimestre.**
+           #. **Adicionalmente y después del primer año de servicio, el patrono o patrona depositará a cada trabajador o trabajadora dos días de salario, por cada año, acumulativos hasta treinta días de salario.**
+           #. **Cuando la relación de trabajo termine por cualquier causa se calcularán las prestaciones sociales con base a treinta días por cada año de servicio o fracción superior a los seis meses calculada al último salario.**
+           #. **El trabajador o trabajadora recibirá por concepto de prestaciones sociales el monto que resulte mayor entre el total de la garantía depositada de acuerdo a lo establecido en los literales a y b, y el cálculo efectuado al final de la relación laboral de acuerdo al literal c.**
+           #. Si la relación de trabajo termina antes de los tres primeros meses, el pago que le corresponde al trabajador o trabajadora por concepto de prestaciones sociales será de cinco días de salario por mes trabajado o fracción.
+           #. El pago de las prestaciones sociales se hará dentro de los cinco días siguientes a la terminación de la relación laboral, y de no cumplirse el pago generará intereses de mora a la tasa activa determinada por el Banco Central de Venezuela, tomando como referencia los seis principales bancos del país.
 
            - **Artículo 143:** 
 
@@ -12129,10 +12132,10 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            El trabajador o trabajadora tendrá derecho al anticipo de hasta un setenta y cinco por ciento de lo depositado como garantía de sus prestaciones sociales, para satisfacer obligaciones derivadas de:
 
-           1. La construcción, adquisición, mejora o reparación de vivienda para él y su familia.
-           1. La liberación de hipoteca o cualquier otro gravamen sobre vivienda de su propiedad.
-           1. La inversión en educación para él, ella o su familia; y
-           1. Los gastos por atención médica y hospitalaria para él, ella y su familia. 
+           #. La construcción, adquisición, mejora o reparación de vivienda para él y su familia.
+           #. La liberación de hipoteca o cualquier otro gravamen sobre vivienda de su propiedad.
+           #. La inversión en educación para él, ella o su familia; y
+           #. Los gastos por atención médica y hospitalaria para él, ella y su familia. 
 
            Si las prestaciones sociales estuviesen acreditadas en la contabilidad de la entidad de trabajo, el patrono o patrona deberá otorgar al trabajador o trabajadora crédito o aval, en los supuestos indicados, hasta el monto del saldo a su favor. Si optare por avalar será a su cargo la diferencia de intereses que pudiere resultar en perjuicio del trabajador o de la trabajadora. 
 
