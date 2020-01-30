@@ -35,7 +35,7 @@
 
 .. _documento/types-of-documents:
 
-**Orden de Calidad**|Orden de Calidad| 
+**Orden de Calidad** |Orden de Calidad| 
 --------------------------------------
 
 Es un documento donde se establecen los requisitos con los que deben cumplir los productos y servicios, es utilizado para organizar, dirigir y controlar la producción de una determinada empresa, asegurando así la calidad de los productos y servicios a los clientes.
