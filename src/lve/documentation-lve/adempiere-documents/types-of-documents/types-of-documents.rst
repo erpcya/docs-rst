@@ -11693,46 +11693,17 @@ factura.
       comportamiento, a continuación se explica el proceder del tipo de
       documento **Asignar OC**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Asign | Gene |
-      | de   | ar    | ra   |
-      | Docu | OC    | un   |
-      | ment |       | docu |
-      | o:   |       | ment |
-      |      |       | o    |
-      |      |       | de   |
-      |      |       | **As |
-      |      |       | igna |
-      |      |       | r    |
-      |      |       | OC** |
-      |      |       | a    |
-      |      |       | una  |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +-----------------------+------------+---------------------------+
+      | **Campo**             | **Valor**  | **Comportamiento en       |
+      |                       |            | ADempiere**               |
+      +=======================+============+===========================+
+      | Tipo de Documento:    | Asignar OC | Genera un documento de    |
+      |                       |            | **Asignar OC** a una      |
+      |                       |            | empresa.                  |
+      +-----------------------+------------+---------------------------+
+      | Copias del Documento: | 1          | Establece el número de    |
+      |                       |            | copias a imprimir.        |
+      +-----------------------+------------+---------------------------+
 
    #. **Implicación en ADempiere**
 
@@ -11784,134 +11755,37 @@ y es explicado a continuación.
       En ADempiere el cierre de caja se define según su comportamiento,
       a continuación se explica el proceder del **Cierre de Caja**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Extra | Gene |
-      | de   | cto   | ra   |
-      | Docu | Banca | un   |
-      | ment | rio   | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Ci |
-      |      |       | erre |
-      |      |       | de   |
-      |      |       | Caja |
-      |      |       | **   |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Cierr | Gene |
-      | enci | e     | ra   |
-      | a    | de    | el   |
-      | del  | Caja  | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en 2 |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**C |
-      |      |       | C-** |
-      |      |       | ".   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +-----------------------+-------------------+-----------------------+
+      | **Campo**             | **Valor**         | **Comportamiento en   |
+      |                       |                   | ADempiere**           |
+      +=======================+===================+=======================+
+      | Tipo de Documento     | Extracto Bancario | Genera un documento   |
+      | Base:                 |                   | de **Cierre de Caja** |
+      |                       |                   | a la empresa.         |
+      +-----------------------+-------------------+-----------------------+
+      | Documento Controlado: | Si                | Mantiene una          |
+      |                       |                   | **Secuencia de        |
+      |                       |                   | Control**.            |
+      +-----------------------+-------------------+-----------------------+
+      | Secuencia del         | Cierre de Caja    | Genera el número de   |
+      | Documento:            |                   | secuencia establecido |
+      |                       |                   | para el orden de los  |
+      |                       |                   | tipos de documentos   |
+      |                       |                   | de ADempiere,         |
+      |                       |                   | configurado en la     |
+      |                       |                   | secuencia de          |
+      |                       |                   | documentos y es       |
+      |                       |                   | incrementable en 1,   |
+      |                       |                   | en este caso la       |
+      |                       |                   | secuencia comienza en |
+      |                       |                   | 2 y su prefijo esta   |
+      |                       |                   | compuesto por las     |
+      |                       |                   | iniciales de su       |
+      |                       |                   | nombre "**CC-**".     |
+      +-----------------------+-------------------+-----------------------+
+      | Copias del Documento: | 1                 | Establece el número   |
+      |                       |                   | de copias a imprimir. |
+      +-----------------------+-------------------+-----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -11924,7 +11798,7 @@ y es explicado a continuación.
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Extracto Bancario**
+#. **Extracto Bancario**
 
    #. **Definición**
 
@@ -11944,58 +11818,22 @@ y es explicado a continuación.
       comportamiento, a continuación se explica el proceder del
       **Extracto Bancario**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Extra | Gene |
-      | de   | cto   | ra   |
-      | Docu | Banca | un   |
-      | ment | rio   | docu |
-      | o    |       | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Ex |
-      |      |       | trac |
-      |      |       | to   |
-      |      |       | Banc |
-      |      |       | ario |
-      |      |       | **   |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +-----------------------+-------------------+-----------------------+
+      | **Campo**             | **Valor**         | **Comportamiento en   |
+      |                       |                   | ADempiere**           |
+      +=======================+===================+=======================+
+      | Tipo de Documento     | Extracto Bancario | Genera un documento   |
+      | Base:                 |                   | de **Extracto         |
+      |                       |                   | Bancario** a la       |
+      |                       |                   | empresa.              |
+      +-----------------------+-------------------+-----------------------+
+      | Documento Controlado: | Si                | Mantiene una          |
+      |                       |                   | **Secuencia de        |
+      |                       |                   | Control**.            |
+      +-----------------------+-------------------+-----------------------+
+      | Copias del Documento: | 1                 | Establece el número   |
+      |                       |                   | de copias a imprimir. |
+      +-----------------------+-------------------+-----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -12032,9 +11870,9 @@ trabajadores los sueldos, salarios, utilidades, comisiones, bonos,
 retroactivos, vacaciones y prestaciones sociales, como pago de las
 actividades desempeñadas en la empresa.
 
-1.  **Nómina Bono de Alimentación**
+#.  **Nómina Bono de Alimentación**
 
-    #. **Definición**
+   #. **Definición**
 
        En ADempiere la cancelación de la nómina del bono de alimentación
        o cesta ticket debe ser realizada por el personal de recursos
@@ -12045,148 +11883,49 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    #. **Comportamiento**
+   #. **Comportamiento**
 
        En ADempiere la nómina bono de alimentación se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
        Bono de Alimentación**:
 
-       +------+-------+------+
-       | **Ca | **Val | **Co |
-       | mpo* | or**  | mpor |
-       | *    |       | tami |
-       |      |       | ento |
-       |      |       | en   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e**  |
-       +======+=======+======+
-       | Tipo | Nómin | Gene |
-       | de   | a     | ra   |
-       | Docu |       | un   |
-       | ment |       | docu |
-       | o    |       | ment |
-       | Base |       | o    |
-       | :    |       | de   |
-       |      |       | **Nó |
-       |      |       | mina |
-       |      |       | Bono |
-       |      |       | de   |
-       |      |       | Alim |
-       |      |       | enta |
-       |      |       | ción |
-       |      |       | **   |
-       |      |       | a la |
-       |      |       | empr |
-       |      |       | esa. |
-       +------+-------+------+
-       | Docu | Si    | Mant |
-       | ment |       | iene |
-       | o    |       | una  |
-       | Cont |       | **Se |
-       | rola |       | cuen |
-       | do:  |       | cia  |
-       |      |       | de   |
-       |      |       | Cont |
-       |      |       | rol* |
-       |      |       | *.   |
-       +------+-------+------+
-       | Secu | Nómin | Gene |
-       | enci | a     | ra   |
-       | a    | Bono  | el   |
-       | del  | de    | núme |
-       | Docu | Alime | ro   |
-       | ment | ntaci | de   |
-       | o:   | ón    | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | esta |
-       |      |       | blec |
-       |      |       | ido  |
-       |      |       | para |
-       |      |       | el   |
-       |      |       | orde |
-       |      |       | n    |
-       |      |       | de   |
-       |      |       | los  |
-       |      |       | tipo |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | de   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e,   |
-       |      |       | conf |
-       |      |       | igur |
-       |      |       | ado  |
-       |      |       | en   |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | y es |
-       |      |       | incr |
-       |      |       | emen |
-       |      |       | tabl |
-       |      |       | e    |
-       |      |       | en   |
-       |      |       | 1,   |
-       |      |       | en   |
-       |      |       | este |
-       |      |       | caso |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | comi |
-       |      |       | enza |
-       |      |       | en   |
-       |      |       | 1.00 |
-       |      |       | 0.00 |
-       |      |       | 2    |
-       |      |       | y su |
-       |      |       | pref |
-       |      |       | ijo  |
-       |      |       | esta |
-       |      |       | comp |
-       |      |       | uest |
-       |      |       | o    |
-       |      |       | por  |
-       |      |       | las  |
-       |      |       | inic |
-       |      |       | iale |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | su   |
-       |      |       | nomb |
-       |      |       | re   |
-       |      |       | "**N |
-       |      |       | BA-* |
-       |      |       | *".  |
-       +------+-------+------+
-       | Copi | 1     | Esta |
-       | as   |       | blec |
-       | del  |       | e    |
-       | Docu |       | el   |
-       | ment |       | núme |
-       | o:   |       | ro   |
-       |      |       | de   |
-       |      |       | copi |
-       |      |       | as   |
-       |      |       | a    |
-       |      |       | impr |
-       |      |       | imir |
-       |      |       | .    |
-       +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nómina               | Genera un documento  |
+      | Base:                |                      | de **Nómina Bono de  |
+      |                      |                      | Alimentación** a la  |
+      |                      |                      | empresa.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Nómina Bono de       | Genera el número de  |
+      | Documento:           | Alimentación         | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.002 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**NBA-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
-    #. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
        -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
        -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina bono de  alimentación según lo establecido en la LOTTT, en su artículo  104.
@@ -12214,9 +11953,9 @@ actividades desempeñadas en la empresa.
 
            El patrono o patrona que viole la normativa relacionada con la Ley de Alimentación de los trabajadores y de las trabajadoras, se le impondrá una multa no menor del equivalente de sesenta unidades tributarias, ni mayor del equivalente a ciento veinte unidades tributarias.
 
-2.  **Nómina Mensual**
+#.  **Nómina Mensual**
 
-    #. **Definición**
+   #. **Definición**
 
        En ADempiere es un listado de trabajadores de la empresa a los
        que se les cancela el sueldo cada treinta (30) días. Este proceso
@@ -12228,144 +11967,43 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    #. **Comportamiento**
+   #. **Comportamiento**
 
        En ADempiere la nómina mensual se define según su comportamiento,
        a continuación se explica el proceder de **Nómina Mensual**:
 
-       +------+-------+------+
-       | **Ca | **Val | **Co |
-       | mpo* | or**  | mpor |
-       | *    |       | tami |
-       |      |       | ento |
-       |      |       | en   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e**  |
-       +======+=======+======+
-       | Tipo | Nómin | Gene |
-       | de   | a     | ra   |
-       | Docu |       | un   |
-       | ment |       | docu |
-       | o    |       | ment |
-       | Base |       | o    |
-       | :    |       | de   |
-       |      |       | **Nó |
-       |      |       | mina |
-       |      |       | Mens |
-       |      |       | ual* |
-       |      |       | *    |
-       |      |       | a la |
-       |      |       | empr |
-       |      |       | esa. |
-       +------+-------+------+
-       | Docu | Si    | Mant |
-       | ment |       | iene |
-       | o    |       | una  |
-       | Cont |       | **Se |
-       | rola |       | cuen |
-       | do:  |       | cia  |
-       |      |       | de   |
-       |      |       | Cont |
-       |      |       | rol* |
-       |      |       | *.   |
-       +------+-------+------+
-       | Secu | Nómin | Gene |
-       | enci | a     | ra   |
-       | a    | Mensu | el   |
-       | del  | al    | núme |
-       | Docu |       | ro   |
-       | ment |       | de   |
-       | o:   |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | esta |
-       |      |       | blec |
-       |      |       | ido  |
-       |      |       | para |
-       |      |       | el   |
-       |      |       | orde |
-       |      |       | n    |
-       |      |       | de   |
-       |      |       | los  |
-       |      |       | tipo |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | de   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e,   |
-       |      |       | conf |
-       |      |       | igur |
-       |      |       | ado  |
-       |      |       | en   |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | y es |
-       |      |       | incr |
-       |      |       | emen |
-       |      |       | tabl |
-       |      |       | e    |
-       |      |       | en   |
-       |      |       | 1,   |
-       |      |       | en   |
-       |      |       | este |
-       |      |       | caso |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | comi |
-       |      |       | enza |
-       |      |       | en   |
-       |      |       | 1.00 |
-       |      |       | 0.00 |
-       |      |       | 4    |
-       |      |       | y su |
-       |      |       | pref |
-       |      |       | ijo  |
-       |      |       | esta |
-       |      |       | comp |
-       |      |       | uest |
-       |      |       | o    |
-       |      |       | por  |
-       |      |       | las  |
-       |      |       | inic |
-       |      |       | iale |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | su   |
-       |      |       | nomb |
-       |      |       | re   |
-       |      |       | "**N |
-       |      |       | M-** |
-       |      |       | ".   |
-       +------+-------+------+
-       | Copi | 1     | Esta |
-       | as   |       | blec |
-       | del  |       | e    |
-       | Docu |       | el   |
-       | ment |       | núme |
-       | o:   |       | ro   |
-       |      |       | de   |
-       |      |       | copi |
-       |      |       | as   |
-       |      |       | a    |
-       |      |       | impr |
-       |      |       | imir |
-       |      |       | .    |
-       +------+-------+------+
+      +-------------------------+----------------+-------------------------+
+      | **Campo**               | **Valor**      | **Comportamiento en     |
+      |                         |                | ADempiere**             |
+      +=========================+================+=========================+
+      | Tipo de Documento Base: | Nómina         | Genera un documento de  |
+      |                         |                | **Nómina Mensual** a la |
+      |                         |                | empresa.                |
+      +-------------------------+----------------+-------------------------+
+      | Documento Controlado:   | Si             | Mantiene una            |
+      |                         |                | **Secuencia de          |
+      |                         |                | Control**.              |
+      +-------------------------+----------------+-------------------------+
+      | Secuencia del           | Nómina Mensual | Genera el número de     |
+      | Documento:              |                | secuencia establecido   |
+      |                         |                | para el orden de los    |
+      |                         |                | tipos de documentos de  |
+      |                         |                | ADempiere, configurado  |
+      |                         |                | en la secuencia de      |
+      |                         |                | documentos y es         |
+      |                         |                | incrementable en 1, en  |
+      |                         |                | este caso la secuencia  |
+      |                         |                | comienza en 1.000.004 y |
+      |                         |                | su prefijo esta         |
+      |                         |                | compuesto por las       |
+      |                         |                | iniciales de su nombre  |
+      |                         |                | "**NM-**".              |
+      +-------------------------+----------------+-------------------------+
+      | Copias del Documento:   | 1              | Establece el número de  |
+      |                         |                | copias a imprimir.      |
+      +-------------------------+----------------+-------------------------+
 
-    #. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
        -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
        -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 113.
@@ -12463,9 +12101,9 @@ actividades desempeñadas en la empresa.
 
            El pago de un salario inferior al mínimo será sancionado de acuerdo con las previsiones establecidas en esta Ley. El patrono infractor o la patrona infractora quedará obligado u obligada, además, a pagar a los trabajadores y las trabajadoras la diferencia entre el salario mínimo y lo realmente pagado, así como sus incidencias sobre los beneficios, prestaciones e indemnizaciones, por todo el tiempo en que hubiere recibido salarios más bajos que los fijados, además de pagarle el monto equivalente a los intereses que devengaría esa cantidad a la tasa activa determinada por el Banco Central de Venezuela, tomando como referencia los seis principales bancos del país.
 
-3.  **Nómina Quincenal**
+#.  **Nómina Quincenal**
 
-    #. **Definición**
+   #. **Definición**
 
        En ADempiere es un listado de trabajadores de la empresa a los
        que se les cancela el sueldo cada quince (15) días. Este proceso
@@ -12477,145 +12115,44 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    #. **Comportamiento**
+   #. **Comportamiento**
 
        En ADempiere la nómina quincenal se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
        Quincenal**:
 
-       +------+-------+------+
-       | **Ca | **Val | **Co |
-       | mpo* | or**  | mpor |
-       | *    |       | tami |
-       |      |       | ento |
-       |      |       | en   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e**  |
-       +======+=======+======+
-       | Tipo | Nómin | Gene |
-       | de   | a     | ra   |
-       | Docu |       | un   |
-       | ment |       | docu |
-       | o    |       | ment |
-       | Base |       | o    |
-       | :    |       | de   |
-       |      |       | **Nó |
-       |      |       | mina |
-       |      |       | Quin |
-       |      |       | cena |
-       |      |       | l**  |
-       |      |       | a la |
-       |      |       | empr |
-       |      |       | esa. |
-       +------+-------+------+
-       | Docu | Si    | Mant |
-       | ment |       | iene |
-       | o    |       | una  |
-       | Cont |       | **Se |
-       | rola |       | cuen |
-       | do:  |       | cia  |
-       |      |       | de   |
-       |      |       | Cont |
-       |      |       | rol* |
-       |      |       | *.   |
-       +------+-------+------+
-       | Secu | Nómin | Gene |
-       | enci | a     | ra   |
-       | a    | Quinc | el   |
-       | del  | enal  | núme |
-       | Docu |       | ro   |
-       | ment |       | de   |
-       | o:   |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | esta |
-       |      |       | blec |
-       |      |       | ido  |
-       |      |       | para |
-       |      |       | el   |
-       |      |       | orde |
-       |      |       | n    |
-       |      |       | de   |
-       |      |       | los  |
-       |      |       | tipo |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | de   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e,   |
-       |      |       | conf |
-       |      |       | igur |
-       |      |       | ado  |
-       |      |       | en   |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | y es |
-       |      |       | incr |
-       |      |       | emen |
-       |      |       | tabl |
-       |      |       | e    |
-       |      |       | en   |
-       |      |       | 1,   |
-       |      |       | en   |
-       |      |       | este |
-       |      |       | caso |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | comi |
-       |      |       | enza |
-       |      |       | en   |
-       |      |       | 1.00 |
-       |      |       | 0.00 |
-       |      |       | 8    |
-       |      |       | y su |
-       |      |       | pref |
-       |      |       | ijo  |
-       |      |       | esta |
-       |      |       | comp |
-       |      |       | uest |
-       |      |       | o    |
-       |      |       | por  |
-       |      |       | las  |
-       |      |       | inic |
-       |      |       | iale |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | su   |
-       |      |       | nomb |
-       |      |       | re   |
-       |      |       | "**N |
-       |      |       | Q-** |
-       |      |       | ".   |
-       +------+-------+------+
-       | Copi | 1     | Esta |
-       | as   |       | blec |
-       | del  |       | e    |
-       | Docu |       | el   |
-       | ment |       | núme |
-       | o:   |       | ro   |
-       |      |       | de   |
-       |      |       | copi |
-       |      |       | as   |
-       |      |       | a    |
-       |      |       | impr |
-       |      |       | imir |
-       |      |       | .    |
-       +------+-------+------+
+      +------------------------+------------------+------------------------+
+      | **Campo**              | **Valor**        | **Comportamiento en    |
+      |                        |                  | ADempiere**            |
+      +========================+==================+========================+
+      | Tipo de Documento      | Nómina           | Genera un documento de |
+      | Base:                  |                  | **Nómina Quincenal** a |
+      |                        |                  | la empresa.            |
+      +------------------------+------------------+------------------------+
+      | Documento Controlado:  | Si               | Mantiene una           |
+      |                        |                  | **Secuencia de         |
+      |                        |                  | Control**.             |
+      +------------------------+------------------+------------------------+
+      | Secuencia del          | Nómina Quincenal | Genera el número de    |
+      | Documento:             |                  | secuencia establecido  |
+      |                        |                  | para el orden de los   |
+      |                        |                  | tipos de documentos de |
+      |                        |                  | ADempiere, configurado |
+      |                        |                  | en la secuencia de     |
+      |                        |                  | documentos y es        |
+      |                        |                  | incrementable en 1, en |
+      |                        |                  | este caso la secuencia |
+      |                        |                  | comienza en 1.000.008  |
+      |                        |                  | y su prefijo esta      |
+      |                        |                  | compuesto por las      |
+      |                        |                  | iniciales de su nombre |
+      |                        |                  | "**NQ-**".             |
+      +------------------------+------------------+------------------------+
+      | Copias del Documento:  | 1                | Establece el número de |
+      |                        |                  | copias a imprimir.     |
+      +------------------------+------------------+------------------------+
 
-    #. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
        -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
        -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 126.
@@ -12713,9 +12250,9 @@ actividades desempeñadas en la empresa.
 
            El pago de un salario inferior al mínimo será sancionado de acuerdo con las previsiones establecidas en esta Ley. El patrono infractor o la patrona infractora quedará obligado u obligada, además, a pagar a los trabajadores y las trabajadoras la diferencia entre el salario mínimo y lo realmente pagado, así como sus incidencias sobre los beneficios, prestaciones e indemnizaciones, por todo el tiempo en que hubiere recibido salarios más bajos que los fijados, además de pagarle el monto equivalente a los intereses que devengaría esa cantidad a la tasa activa determinada por el Banco Central de Venezuela, tomando como referencia los seis principales bancos del país.
 
-4.  **Nómina Semanal**
+#.  **Nómina Semanal**
 
-    #. **Definición**
+   #. **Definición**
 
        En ADempiere es un listado de trabajadores de la empresa a los
        que se les cancela el sueldo cada siete (7) días. Este proceso de
@@ -12727,144 +12264,43 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    #. **Comportamiento**
+   #. **Comportamiento**
 
        En ADempiere la nómina semanal se define según su comportamiento,
        a continuación se explica el proceder de **Nómina Semanal**:
 
-       +------+-------+------+
-       | **Ca | **Val | **Co |
-       | mpo* | or**  | mpor |
-       | *    |       | tami |
-       |      |       | ento |
-       |      |       | en   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e**  |
-       +======+=======+======+
-       | Tipo | Nómin | Gene |
-       | de   | a     | ra   |
-       | Docu |       | un   |
-       | ment |       | docu |
-       | o    |       | ment |
-       | Base |       | o    |
-       | :    |       | de   |
-       |      |       | **Nó |
-       |      |       | mina |
-       |      |       | Sema |
-       |      |       | nal* |
-       |      |       | *    |
-       |      |       | a la |
-       |      |       | empr |
-       |      |       | esa. |
-       +------+-------+------+
-       | Docu | Si    | Mant |
-       | ment |       | iene |
-       | o    |       | una  |
-       | Cont |       | **Se |
-       | rola |       | cuen |
-       | do:  |       | cia  |
-       |      |       | de   |
-       |      |       | Cont |
-       |      |       | rol* |
-       |      |       | *.   |
-       +------+-------+------+
-       | Secu | Nómin | Gene |
-       | enci | a     | ra   |
-       | a    | Seman | el   |
-       | del  | al    | núme |
-       | Docu |       | ro   |
-       | ment |       | de   |
-       | o:   |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | esta |
-       |      |       | blec |
-       |      |       | ido  |
-       |      |       | para |
-       |      |       | el   |
-       |      |       | orde |
-       |      |       | n    |
-       |      |       | de   |
-       |      |       | los  |
-       |      |       | tipo |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | de   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e,   |
-       |      |       | conf |
-       |      |       | igur |
-       |      |       | ado  |
-       |      |       | en   |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | y es |
-       |      |       | incr |
-       |      |       | emen |
-       |      |       | tabl |
-       |      |       | e    |
-       |      |       | en   |
-       |      |       | 1,   |
-       |      |       | en   |
-       |      |       | este |
-       |      |       | caso |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | comi |
-       |      |       | enza |
-       |      |       | en   |
-       |      |       | 1.00 |
-       |      |       | 0.01 |
-       |      |       | 9    |
-       |      |       | y su |
-       |      |       | pref |
-       |      |       | ijo  |
-       |      |       | esta |
-       |      |       | comp |
-       |      |       | uest |
-       |      |       | o    |
-       |      |       | por  |
-       |      |       | las  |
-       |      |       | inic |
-       |      |       | iale |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | su   |
-       |      |       | nomb |
-       |      |       | re   |
-       |      |       | "**N |
-       |      |       | S-** |
-       |      |       | ".   |
-       +------+-------+------+
-       | Copi | 1     | Esta |
-       | as   |       | blec |
-       | del  |       | e    |
-       | Docu |       | el   |
-       | ment |       | núme |
-       | o:   |       | ro   |
-       |      |       | de   |
-       |      |       | copi |
-       |      |       | as   |
-       |      |       | a    |
-       |      |       | impr |
-       |      |       | imir |
-       |      |       | .    |
-       +------+-------+------+
+      +-------------------------+----------------+-------------------------+
+      | **Campo**               | **Valor**      | **Comportamiento en     |
+      |                         |                | ADempiere**             |
+      +=========================+================+=========================+
+      | Tipo de Documento Base: | Nómina         | Genera un documento de  |
+      |                         |                | **Nómina Semanal** a la |
+      |                         |                | empresa.                |
+      +-------------------------+----------------+-------------------------+
+      | Documento Controlado:   | Si             | Mantiene una            |
+      |                         |                | **Secuencia de          |
+      |                         |                | Control**.              |
+      +-------------------------+----------------+-------------------------+
+      | Secuencia del           | Nómina Semanal | Genera el número de     |
+      | Documento:              |                | secuencia establecido   |
+      |                         |                | para el orden de los    |
+      |                         |                | tipos de documentos de  |
+      |                         |                | ADempiere, configurado  |
+      |                         |                | en la secuencia de      |
+      |                         |                | documentos y es         |
+      |                         |                | incrementable en 1, en  |
+      |                         |                | este caso la secuencia  |
+      |                         |                | comienza en 1.000.019 y |
+      |                         |                | su prefijo esta         |
+      |                         |                | compuesto por las       |
+      |                         |                | iniciales de su nombre  |
+      |                         |                | "**NS-**".              |
+      +-------------------------+----------------+-------------------------+
+      | Copias del Documento:   | 1              | Establece el número de  |
+      |                         |                | copias a imprimir.      |
+      +-------------------------+----------------+-------------------------+
 
-    #. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
        -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
        -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 113.
@@ -12962,9 +12398,9 @@ actividades desempeñadas en la empresa.
 
            El pago de un salario inferior al mínimo será sancionado de acuerdo con las previsiones establecidas en esta Ley. El patrono infractor o la patrona infractora quedará obligado u obligada, además, a pagar a los trabajadores y las trabajadoras la diferencia entre el salario mínimo y lo realmente pagado, así como sus incidencias sobre los beneficios, prestaciones e indemnizaciones, por todo el tiempo en que hubiere recibido salarios más bajos que los fijados, además de pagarle el monto equivalente a los intereses que devengaría esa cantidad a la tasa activa determinada por el Banco Central de Venezuela, tomando como referencia los seis principales bancos del país.
 
-5.  **Nómina Retroactivo**
+#.  **Nómina Retroactivo**
 
-    #. **Definición**
+   #. **Definición**
 
        En ADempiere es el pago de la diferencia pendiente por cancelar a
        los trabajadores por motivo de aumento salarial decretado a mitad
@@ -12974,146 +12410,47 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    #. **Comportamiento**
+   #. **Comportamiento**
 
        En ADempiere la nómina retroactivo se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
        Retroactivo**:
 
-       +------+-------+------+
-       | **Ca | **Val | **Co |
-       | mpo* | or**  | mpor |
-       | *    |       | tami |
-       |      |       | ento |
-       |      |       | en   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e**  |
-       +======+=======+======+
-       | Tipo | Nómin | Gene |
-       | de   | a     | ra   |
-       | Docu |       | un   |
-       | ment |       | docu |
-       | o    |       | ment |
-       | Base |       | o    |
-       | :    |       | de   |
-       |      |       | **Nó |
-       |      |       | mina |
-       |      |       | Retr |
-       |      |       | oact |
-       |      |       | ivo* |
-       |      |       | *    |
-       |      |       | a la |
-       |      |       | empr |
-       |      |       | esa. |
-       +------+-------+------+
-       | Docu | Si    | Mant |
-       | ment |       | iene |
-       | o    |       | una  |
-       | Cont |       | **Se |
-       | rola |       | cuen |
-       | do:  |       | cia  |
-       |      |       | de   |
-       |      |       | Cont |
-       |      |       | rol* |
-       |      |       | *.   |
-       +------+-------+------+
-       | Secu | Nómin | Gene |
-       | enci | a     | ra   |
-       | a    | Retro | el   |
-       | del  | activ | núme |
-       | Docu | o     | ro   |
-       | ment |       | de   |
-       | o:   |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | esta |
-       |      |       | blec |
-       |      |       | ido  |
-       |      |       | para |
-       |      |       | el   |
-       |      |       | orde |
-       |      |       | n    |
-       |      |       | de   |
-       |      |       | los  |
-       |      |       | tipo |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | de   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e,   |
-       |      |       | conf |
-       |      |       | igur |
-       |      |       | ado  |
-       |      |       | en   |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | y es |
-       |      |       | incr |
-       |      |       | emen |
-       |      |       | tabl |
-       |      |       | e    |
-       |      |       | en   |
-       |      |       | 1,   |
-       |      |       | en   |
-       |      |       | este |
-       |      |       | caso |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | comi |
-       |      |       | enza |
-       |      |       | en   |
-       |      |       | 1.00 |
-       |      |       | 0.00 |
-       |      |       | 0    |
-       |      |       | y su |
-       |      |       | pref |
-       |      |       | ijo  |
-       |      |       | esta |
-       |      |       | comp |
-       |      |       | uest |
-       |      |       | o    |
-       |      |       | por  |
-       |      |       | las  |
-       |      |       | inic |
-       |      |       | iale |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | su   |
-       |      |       | nomb |
-       |      |       | re   |
-       |      |       | "**N |
-       |      |       | R-** |
-       |      |       | ".   |
-       +------+-------+------+
-       | Copi | 1     | Esta |
-       | as   |       | blec |
-       | del  |       | e    |
-       | Docu |       | el   |
-       | ment |       | núme |
-       | o:   |       | ro   |
-       |      |       | de   |
-       |      |       | copi |
-       |      |       | as   |
-       |      |       | a    |
-       |      |       | impr |
-       |      |       | imir |
-       |      |       | .    |
-       +------+-------+------+
+      +-----------------------+--------------------+-----------------------+
+      | **Campo**             | **Valor**          | **Comportamiento en   |
+      |                       |                    | ADempiere**           |
+      +=======================+====================+=======================+
+      | Tipo de Documento     | Nómina             | Genera un documento   |
+      | Base:                 |                    | de **Nómina           |
+      |                       |                    | Retroactivo** a la    |
+      |                       |                    | empresa.              |
+      +-----------------------+--------------------+-----------------------+
+      | Documento Controlado: | Si                 | Mantiene una          |
+      |                       |                    | **Secuencia de        |
+      |                       |                    | Control**.            |
+      +-----------------------+--------------------+-----------------------+
+      | Secuencia del         | Nómina Retroactivo | Genera el número de   |
+      | Documento:            |                    | secuencia establecido |
+      |                       |                    | para el orden de los  |
+      |                       |                    | tipos de documentos   |
+      |                       |                    | de ADempiere,         |
+      |                       |                    | configurado en la     |
+      |                       |                    | secuencia de          |
+      |                       |                    | documentos y es       |
+      |                       |                    | incrementable en 1,   |
+      |                       |                    | en este caso la       |
+      |                       |                    | secuencia comienza en |
+      |                       |                    | 1.000.000 y su        |
+      |                       |                    | prefijo esta          |
+      |                       |                    | compuesto por las     |
+      |                       |                    | iniciales de su       |
+      |                       |                    | nombre "**NR-**".     |
+      +-----------------------+--------------------+-----------------------+
+      | Copias del Documento: | 1                  | Establece el número   |
+      |                       |                    | de copias a imprimir. |
+      +-----------------------+--------------------+-----------------------+
 
-    #. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
        -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
        -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 433.
@@ -13131,9 +12468,9 @@ actividades desempeñadas en la empresa.
 
            Si en la convención colectiva de trabajo se estipularen cláusulas de aplicación retroactiva, las mismas beneficiarán a los trabajadores y trabajadoras activos al momento de la homologación de la convención, salvo disposición en contrario de las partes.
 
-6.  **Nómina Vacaciones**
+#.  **Nómina Vacaciones**
 
-    #. **Definición**
+   #. **Definición**
 
        En ADempiere es el pago de quince (15) días hábiles más un (1)
        día adicional por año que la empresa cancela a sus trabajadores
@@ -13145,145 +12482,47 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    #. **Comportamiento**
+   #. **Comportamiento**
 
        En ADempiere la nómina vacaciones se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
        Vacaciones**:
 
-       +------+-------+------+
-       | **Ca | **Val | **Co |
-       | mpo* | or**  | mpor |
-       | *    |       | tami |
-       |      |       | ento |
-       |      |       | en   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e**  |
-       +======+=======+======+
-       | Tipo | Nómin | Gene |
-       | de   | a     | ra   |
-       | Docu |       | un   |
-       | ment |       | docu |
-       | o    |       | ment |
-       | Base |       | o    |
-       | :    |       | de   |
-       |      |       | **Nó |
-       |      |       | mina |
-       |      |       | Vaca |
-       |      |       | cion |
-       |      |       | es** |
-       |      |       | a la |
-       |      |       | empr |
-       |      |       | esa. |
-       +------+-------+------+
-       | Docu | Si    | Mant |
-       | ment |       | iene |
-       | o    |       | una  |
-       | Cont |       | **Se |
-       | rola |       | cuen |
-       | do:  |       | cia  |
-       |      |       | de   |
-       |      |       | Cont |
-       |      |       | rol* |
-       |      |       | *.   |
-       +------+-------+------+
-       | Secu | Nómin | Gene |
-       | enci | a     | ra   |
-       | a    | Vacac | el   |
-       | del  | iones | núme |
-       | Docu |       | ro   |
-       | ment |       | de   |
-       | o:   |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | esta |
-       |      |       | blec |
-       |      |       | ido  |
-       |      |       | para |
-       |      |       | el   |
-       |      |       | orde |
-       |      |       | n    |
-       |      |       | de   |
-       |      |       | los  |
-       |      |       | tipo |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | de   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e,   |
-       |      |       | conf |
-       |      |       | igur |
-       |      |       | ado  |
-       |      |       | en   |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | y es |
-       |      |       | incr |
-       |      |       | emen |
-       |      |       | tabl |
-       |      |       | e    |
-       |      |       | en   |
-       |      |       | 1,   |
-       |      |       | en   |
-       |      |       | este |
-       |      |       | caso |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | comi |
-       |      |       | enza |
-       |      |       | en   |
-       |      |       | 1.00 |
-       |      |       | 0.00 |
-       |      |       | 8    |
-       |      |       | y su |
-       |      |       | pref |
-       |      |       | ijo  |
-       |      |       | esta |
-       |      |       | comp |
-       |      |       | uest |
-       |      |       | o    |
-       |      |       | por  |
-       |      |       | las  |
-       |      |       | inic |
-       |      |       | iale |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | su   |
-       |      |       | nomb |
-       |      |       | re   |
-       |      |       | "**N |
-       |      |       | V-** |
-       |      |       | ".   |
-       +------+-------+------+
-       | Copi | 1     | Esta |
-       | as   |       | blec |
-       | del  |       | e    |
-       | Docu |       | el   |
-       | ment |       | núme |
-       | o:   |       | ro   |
-       |      |       | de   |
-       |      |       | copi |
-       |      |       | as   |
-       |      |       | a    |
-       |      |       | impr |
-       |      |       | imir |
-       |      |       | .    |
-       +------+-------+------+
+      +-----------------------+-------------------+-----------------------+
+      | **Campo**             | **Valor**         | **Comportamiento en   |
+      |                       |                   | ADempiere**           |
+      +=======================+===================+=======================+
+      | Tipo de Documento     | Nómina            | Genera un documento   |
+      | Base:                 |                   | de **Nómina           |
+      |                       |                   | Vacaciones** a la     |
+      |                       |                   | empresa.              |
+      +-----------------------+-------------------+-----------------------+
+      | Documento Controlado: | Si                | Mantiene una          |
+      |                       |                   | **Secuencia de        |
+      |                       |                   | Control**.            |
+      +-----------------------+-------------------+-----------------------+
+      | Secuencia del         | Nómina Vacaciones | Genera el número de   |
+      | Documento:            |                   | secuencia establecido |
+      |                       |                   | para el orden de los  |
+      |                       |                   | tipos de documentos   |
+      |                       |                   | de ADempiere,         |
+      |                       |                   | configurado en la     |
+      |                       |                   | secuencia de          |
+      |                       |                   | documentos y es       |
+      |                       |                   | incrementable en 1,   |
+      |                       |                   | en este caso la       |
+      |                       |                   | secuencia comienza en |
+      |                       |                   | 1.000.008 y su        |
+      |                       |                   | prefijo esta          |
+      |                       |                   | compuesto por las     |
+      |                       |                   | iniciales de su       |
+      |                       |                   | nombre "**NV-**".     |
+      +-----------------------+-------------------+-----------------------+
+      | Copias del Documento: | 1                 | Establece el número   |
+      |                       |                   | de copias a imprimir. |
+      +-----------------------+-------------------+-----------------------+
 
-    #. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
        -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
        -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en sus artículos 121, 190,  191 y 192.
@@ -13429,9 +12668,9 @@ actividades desempeñadas en la empresa.
 
            En caso de que el patrono o patrona pague al trabajador o trabajadora un salario inferior al mínimo fijado, o no pague oportunamente el salario semanal, quincenal y las vacaciones se le impondrá una multa no menor del equivalente a ciento veinte unidades tributarias, ni mayor del equivalente a trescientas sesenta unidades tributarias.
 
-7.  **Nómina de Prestaciones Sociales**
+#.  **Nómina de Prestaciones Sociales**
 
-    #. **Definición**
+   #. **Definición**
 
        Se refiere a un dinero que la empresa le aparta al trabajador,
        consta de cinco (5) días al comenzar a trabajar, cinco (5) días
@@ -13446,148 +12685,50 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    #. **Comportamiento**
+   #. **Comportamiento**
 
        En ADempiere la nómina prestaciones sociales se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
        Prestaciones Sociales**:
 
-       +------+-------+------+
-       | **Ca | **Val | **Co |
-       | mpo* | or**  | mpor |
-       | *    |       | tami |
-       |      |       | ento |
-       |      |       | en   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e**  |
-       +======+=======+======+
-       | Tipo | Nómin | Gene |
-       | de   | a     | ra   |
-       | Docu |       | un   |
-       | ment |       | docu |
-       | o    |       | ment |
-       | Base |       | o    |
-       | :    |       | de   |
-       |      |       | **Nó |
-       |      |       | mina |
-       |      |       | Pres |
-       |      |       | taci |
-       |      |       | ones |
-       |      |       | Soci |
-       |      |       | ales |
-       |      |       | **   |
-       |      |       | a la |
-       |      |       | empr |
-       |      |       | esa. |
-       +------+-------+------+
-       | Docu | Si    | Mant |
-       | ment |       | iene |
-       | o    |       | una  |
-       | Cont |       | **Se |
-       | rola |       | cuen |
-       | do:  |       | cia  |
-       |      |       | de   |
-       |      |       | Cont |
-       |      |       | rol* |
-       |      |       | *.   |
-       +------+-------+------+
-       | Secu | Nómin | Gene |
-       | enci | a     | ra   |
-       | a    | Prest | el   |
-       | del  | acion | núme |
-       | Docu | es    | ro   |
-       | ment | Socia | de   |
-       | o:   | les   | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | esta |
-       |      |       | blec |
-       |      |       | ido  |
-       |      |       | para |
-       |      |       | el   |
-       |      |       | orde |
-       |      |       | n    |
-       |      |       | de   |
-       |      |       | los  |
-       |      |       | tipo |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | de   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e,   |
-       |      |       | conf |
-       |      |       | igur |
-       |      |       | ado  |
-       |      |       | en   |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | y es |
-       |      |       | incr |
-       |      |       | emen |
-       |      |       | tabl |
-       |      |       | e    |
-       |      |       | en   |
-       |      |       | 1,   |
-       |      |       | en   |
-       |      |       | este |
-       |      |       | caso |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | comi |
-       |      |       | enza |
-       |      |       | en   |
-       |      |       | 1.00 |
-       |      |       | 0.00 |
-       |      |       | 1    |
-       |      |       | y su |
-       |      |       | pref |
-       |      |       | ijo  |
-       |      |       | esta |
-       |      |       | comp |
-       |      |       | uest |
-       |      |       | o    |
-       |      |       | por  |
-       |      |       | las  |
-       |      |       | inic |
-       |      |       | iale |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | su   |
-       |      |       | nomb |
-       |      |       | re   |
-       |      |       | "**N |
-       |      |       | PS-* |
-       |      |       | *".  |
-       +------+-------+------+
-       | Copi | 1     | Esta |
-       | as   |       | blec |
-       | del  |       | e    |
-       | Docu |       | el   |
-       | ment |       | núme |
-       | o:   |       | ro   |
-       |      |       | de   |
-       |      |       | copi |
-       |      |       | as   |
-       |      |       | a    |
-       |      |       | impr |
-       |      |       | imir |
-       |      |       | .    |
-       +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nómina               | Genera un documento  |
+      | Base:                |                      | de **Nómina          |
+      |                      |                      | Prestaciones         |
+      |                      |                      | Sociales** a la      |
+      |                      |                      | empresa.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Nómina Prestaciones  | Genera el número de  |
+      | Documento:           | Sociales             | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.001 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**NPS-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
-    #. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
        -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
        -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 142.
@@ -13695,9 +12836,9 @@ actividades desempeñadas en la empresa.
 
            Mediante ley especial se determinará el régimen de creación, funcionamiento y supervisión del Fondo Nacional de Prestaciones Sociales.
 
-8.  **Nómina Utilidades**
+#.  **Nómina Utilidades**
 
-    #. **Definición**
+   #. **Definición**
 
        En ADempiere es un bono que la empresa le paga a sus trabajadores
        por las ganacias o los intereses que esta obtuvo por la venta de
@@ -13708,145 +12849,47 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    #. **Comportamiento**
+   #. **Comportamiento**
 
        En ADempiere la nómina utilidades se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
        Utilidades**:
 
-       +------+-------+------+
-       | **Ca | **Val | **Co |
-       | mpo* | or**  | mpor |
-       | *    |       | tami |
-       |      |       | ento |
-       |      |       | en   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e**  |
-       +======+=======+======+
-       | Tipo | Nómin | Gene |
-       | de   | a     | ra   |
-       | Docu |       | un   |
-       | ment |       | docu |
-       | o    |       | ment |
-       | Base |       | o    |
-       | :    |       | de   |
-       |      |       | **Nó |
-       |      |       | mina |
-       |      |       | Util |
-       |      |       | idad |
-       |      |       | es** |
-       |      |       | a la |
-       |      |       | empr |
-       |      |       | esa. |
-       +------+-------+------+
-       | Docu | Si    | Mant |
-       | ment |       | iene |
-       | o    |       | una  |
-       | Cont |       | **Se |
-       | rola |       | cuen |
-       | do:  |       | cia  |
-       |      |       | de   |
-       |      |       | Cont |
-       |      |       | rol* |
-       |      |       | *.   |
-       +------+-------+------+
-       | Secu | Nómin | Gene |
-       | enci | a     | ra   |
-       | a    | Utili | el   |
-       | del  | dades | núme |
-       | Docu |       | ro   |
-       | ment |       | de   |
-       | o:   |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | esta |
-       |      |       | blec |
-       |      |       | ido  |
-       |      |       | para |
-       |      |       | el   |
-       |      |       | orde |
-       |      |       | n    |
-       |      |       | de   |
-       |      |       | los  |
-       |      |       | tipo |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | de   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e,   |
-       |      |       | conf |
-       |      |       | igur |
-       |      |       | ado  |
-       |      |       | en   |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | y es |
-       |      |       | incr |
-       |      |       | emen |
-       |      |       | tabl |
-       |      |       | e    |
-       |      |       | en   |
-       |      |       | 1,   |
-       |      |       | en   |
-       |      |       | este |
-       |      |       | caso |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | comi |
-       |      |       | enza |
-       |      |       | en   |
-       |      |       | 1.00 |
-       |      |       | 0.00 |
-       |      |       | 3    |
-       |      |       | y su |
-       |      |       | pref |
-       |      |       | ijo  |
-       |      |       | esta |
-       |      |       | comp |
-       |      |       | uest |
-       |      |       | o    |
-       |      |       | por  |
-       |      |       | las  |
-       |      |       | inic |
-       |      |       | iale |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | su   |
-       |      |       | nomb |
-       |      |       | re   |
-       |      |       | "**N |
-       |      |       | U-** |
-       |      |       | ".   |
-       +------+-------+------+
-       | Copi | 1     | Esta |
-       | as   |       | blec |
-       | del  |       | e    |
-       | Docu |       | el   |
-       | ment |       | núme |
-       | o:   |       | ro   |
-       |      |       | de   |
-       |      |       | copi |
-       |      |       | as   |
-       |      |       | a    |
-       |      |       | impr |
-       |      |       | imir |
-       |      |       | .    |
-       +------+-------+------+
+      +-----------------------+-------------------+-----------------------+
+      | **Campo**             | **Valor**         | **Comportamiento en   |
+      |                       |                   | ADempiere**           |
+      +=======================+===================+=======================+
+      | Tipo de Documento     | Nómina            | Genera un documento   |
+      | Base:                 |                   | de **Nómina           |
+      |                       |                   | Utilidades** a la     |
+      |                       |                   | empresa.              |
+      +-----------------------+-------------------+-----------------------+
+      | Documento Controlado: | Si                | Mantiene una          |
+      |                       |                   | **Secuencia de        |
+      |                       |                   | Control**.            |
+      +-----------------------+-------------------+-----------------------+
+      | Secuencia del         | Nómina Utilidades | Genera el número de   |
+      | Documento:            |                   | secuencia establecido |
+      |                       |                   | para el orden de los  |
+      |                       |                   | tipos de documentos   |
+      |                       |                   | de ADempiere,         |
+      |                       |                   | configurado en la     |
+      |                       |                   | secuencia de          |
+      |                       |                   | documentos y es       |
+      |                       |                   | incrementable en 1,   |
+      |                       |                   | en este caso la       |
+      |                       |                   | secuencia comienza en |
+      |                       |                   | 1.000.003 y su        |
+      |                       |                   | prefijo esta          |
+      |                       |                   | compuesto por las     |
+      |                       |                   | iniciales de su       |
+      |                       |                   | nombre "**NU-**".     |
+      +-----------------------+-------------------+-----------------------+
+      | Copias del Documento: | 1                 | Establece el número   |
+      |                       |                   | de copias a imprimir. |
+      +-----------------------+-------------------+-----------------------+
 
-    #. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
        -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
        -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 131.
@@ -13905,9 +12948,9 @@ actividades desempeñadas en la empresa.
 
            En caso de que el patrono o la patrona y el trabajador o la trabajadora hayan convenido en que éste perciba una participación convencional que supere a la participación legal pautada en este Capítulo, el monto de ésta comprenderá aquélla, a menos que las partes hubieren convenido expresamente lo contrario. Lo mismo se hará en el supuesto de que el monto de la participación legal llegue a superar el de la participación convenida por las partes.
 
-9.  **Nómina por Pagos Especiales**
+#.  **Nómina por Pagos Especiales**
 
-    #. **Definición**
+   #. **Definición**
 
        En ADempiere los pagos especiales son los pagos adicionales a lo
        estipulado en la ley que la empresa le cancela a sus trabajadores
@@ -13917,148 +12960,49 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    #. **Comportamiento**
+   #. **Comportamiento**
 
        En ADempiere la nómina por pagos especiales se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
        por Pagos Especiales**:
 
-       +------+-------+------+
-       | **Ca | **Val | **Co |
-       | mpo* | or**  | mpor |
-       | *    |       | tami |
-       |      |       | ento |
-       |      |       | en   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e**  |
-       +======+=======+======+
-       | Tipo | Nómin | Gene |
-       | de   | a     | ra   |
-       | Docu |       | un   |
-       | ment |       | docu |
-       | o    |       | ment |
-       | Base |       | o    |
-       | :    |       | de   |
-       |      |       | **Nó |
-       |      |       | mina |
-       |      |       | por  |
-       |      |       | Pago |
-       |      |       | s    |
-       |      |       | Espe |
-       |      |       | cial |
-       |      |       | es** |
-       |      |       | a la |
-       |      |       | empr |
-       |      |       | esa. |
-       +------+-------+------+
-       | Docu | Si    | Mant |
-       | ment |       | iene |
-       | o    |       | una  |
-       | Cont |       | **Se |
-       | rola |       | cuen |
-       | do:  |       | cia  |
-       |      |       | de   |
-       |      |       | Cont |
-       |      |       | rol* |
-       |      |       | *.   |
-       +------+-------+------+
-       | Secu | Nómin | Gene |
-       | enci | a     | ra   |
-       | a    | por   | el   |
-       | del  | Pagos | núme |
-       | Docu | Espec | ro   |
-       | ment | iales | de   |
-       | o:   |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | esta |
-       |      |       | blec |
-       |      |       | ido  |
-       |      |       | para |
-       |      |       | el   |
-       |      |       | orde |
-       |      |       | n    |
-       |      |       | de   |
-       |      |       | los  |
-       |      |       | tipo |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | de   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e,   |
-       |      |       | conf |
-       |      |       | igur |
-       |      |       | ado  |
-       |      |       | en   |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | y es |
-       |      |       | incr |
-       |      |       | emen |
-       |      |       | tabl |
-       |      |       | e    |
-       |      |       | en   |
-       |      |       | 1,   |
-       |      |       | en   |
-       |      |       | este |
-       |      |       | caso |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | comi |
-       |      |       | enza |
-       |      |       | en   |
-       |      |       | 1.00 |
-       |      |       | 0.00 |
-       |      |       | 0    |
-       |      |       | y su |
-       |      |       | pref |
-       |      |       | ijo  |
-       |      |       | esta |
-       |      |       | comp |
-       |      |       | uest |
-       |      |       | o    |
-       |      |       | por  |
-       |      |       | las  |
-       |      |       | inic |
-       |      |       | iale |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | su   |
-       |      |       | nomb |
-       |      |       | re   |
-       |      |       | "**N |
-       |      |       | PE-* |
-       |      |       | *".  |
-       +------+-------+------+
-       | Copi | 1     | Esta |
-       | as   |       | blec |
-       | del  |       | e    |
-       | Docu |       | el   |
-       | ment |       | núme |
-       | o:   |       | ro   |
-       |      |       | de   |
-       |      |       | copi |
-       |      |       | as   |
-       |      |       | a    |
-       |      |       | impr |
-       |      |       | imir |
-       |      |       | .    |
-       +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nómina               | Genera un documento  |
+      | Base:                |                      | de **Nómina por      |
+      |                      |                      | Pagos Especiales** a |
+      |                      |                      | la empresa.          |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Nómina por Pagos     | Genera el número de  |
+      | Documento:           | Especiales           | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**NPE-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
-    #. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
        -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
        -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 132.
@@ -14088,9 +13032,9 @@ actividades desempeñadas en la empresa.
 
            Al patrono o patrona que no pague correctamente a sus trabajadores o trabajadoras la participación en los beneficios, o la bonificación o prima de navidad que les corresponda, se le impondrá una multa no menor del equivalente a sesenta unidades tributarias, ni mayor del equivalente a ciento veinte unidades tributarias.
 
-10. **Nómina por Comisiones**
+#. **Nómina por Comisiones**
 
-    #. **Definición**
+   #. **Definición**
 
        En ADempiere es el pago que la empresa le cancela a sus
        trabajadores por productos realizados, ventas realizadas, entre
@@ -14101,146 +13045,49 @@ actividades desempeñadas en la empresa.
       
          En ADempiere los documentos de nómina, controlan los pagos que la empresa le genera a sus trabajadores por la cancelación de los trabajos realizados para misma.
 
-    #. **Comportamiento**
+   #. **Comportamiento**
 
        En ADempiere la nómina por comisiones se define según su
        comportamiento, a continuación se explica el proceder de **Nómina
        por Comisiones**:
 
-       +------+-------+------+
-       | **Ca | **Val | **Co |
-       | mpo* | or**  | mpor |
-       | *    |       | tami |
-       |      |       | ento |
-       |      |       | en   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e**  |
-       +======+=======+======+
-       | Tipo | Nómin | Gene |
-       | de   | a     | ra   |
-       | Docu |       | un   |
-       | ment |       | docu |
-       | o    |       | ment |
-       | Base |       | o    |
-       | :    |       | de   |
-       |      |       | **Nó |
-       |      |       | mina |
-       |      |       | por  |
-       |      |       | Comi |
-       |      |       | sion |
-       |      |       | es** |
-       |      |       | a la |
-       |      |       | empr |
-       |      |       | esa. |
-       +------+-------+------+
-       | Docu | Si    | Mant |
-       | ment |       | iene |
-       | o    |       | una  |
-       | Cont |       | **Se |
-       | rola |       | cuen |
-       | do:  |       | cia  |
-       |      |       | de   |
-       |      |       | Cont |
-       |      |       | rol* |
-       |      |       | *.   |
-       +------+-------+------+
-       | Secu | Nómin | Gene |
-       | enci | a     | ra   |
-       | a    | por   | el   |
-       | del  | Comis | núme |
-       | Docu | iones | ro   |
-       | ment |       | de   |
-       | o:   |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | esta |
-       |      |       | blec |
-       |      |       | ido  |
-       |      |       | para |
-       |      |       | el   |
-       |      |       | orde |
-       |      |       | n    |
-       |      |       | de   |
-       |      |       | los  |
-       |      |       | tipo |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | de   |
-       |      |       | ADem |
-       |      |       | pier |
-       |      |       | e,   |
-       |      |       | conf |
-       |      |       | igur |
-       |      |       | ado  |
-       |      |       | en   |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | de   |
-       |      |       | docu |
-       |      |       | ment |
-       |      |       | os   |
-       |      |       | y es |
-       |      |       | incr |
-       |      |       | emen |
-       |      |       | tabl |
-       |      |       | e    |
-       |      |       | en   |
-       |      |       | 1,   |
-       |      |       | en   |
-       |      |       | este |
-       |      |       | caso |
-       |      |       | la   |
-       |      |       | secu |
-       |      |       | enci |
-       |      |       | a    |
-       |      |       | comi |
-       |      |       | enza |
-       |      |       | en   |
-       |      |       | 1.00 |
-       |      |       | 0.00 |
-       |      |       | 0    |
-       |      |       | y su |
-       |      |       | pref |
-       |      |       | ijo  |
-       |      |       | esta |
-       |      |       | comp |
-       |      |       | uest |
-       |      |       | o    |
-       |      |       | por  |
-       |      |       | las  |
-       |      |       | inic |
-       |      |       | iale |
-       |      |       | s    |
-       |      |       | de   |
-       |      |       | su   |
-       |      |       | nomb |
-       |      |       | re   |
-       |      |       | "**N |
-       |      |       | PC-* |
-       |      |       | *".  |
-       +------+-------+------+
-       | Copi | 1     | Esta |
-       | as   |       | blec |
-       | del  |       | e    |
-       | Docu |       | el   |
-       | ment |       | núme |
-       | o:   |       | ro   |
-       |      |       | de   |
-       |      |       | copi |
-       |      |       | as   |
-       |      |       | a    |
-       |      |       | impr |
-       |      |       | imir |
-       |      |       | .    |
-       +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nómina               | Genera un documento  |
+      | Base:                |                      | de **Nómina por      |
+      |                      |                      | Comisiones** a la    |
+      |                      |                      | empresa.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Nómina por           | Genera el número de  |
+      | Documento:           | Comisiones           | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**NPC-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
-    #. **Implicación en ADempiere**
+   #. **Implicación en ADempiere**
 
        -  Permite realizar la ejecución de la nómina basado en el tipo  de documento que se seleccione en el documento.
        -  Permite realizar el pago del documento cuando este se  encuentre en estado completo, por concepto de nómina mensual  según lo establecido en la LOTTT, en su artículo 110.
@@ -14303,140 +13150,41 @@ nóminas, ya que esta es muy delicada.
       comportamiento, a continuación se explica el proceder de
       **Selección de Pagos Nómina**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Selec | Gene |
-      | de   | ción  | ra   |
-      | Docu | de    | un   |
-      | ment | Pago  | docu |
-      | o    | CxP   | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Se |
-      |      |       | lecc |
-      |      |       | ión  |
-      |      |       | de   |
-      |      |       | Pago |
-      |      |       | s    |
-      |      |       | Nómi |
-      |      |       | na** |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Selec | Gene |
-      | enci | ción  | ra   |
-      | a    | de    | el   |
-      | del  | Pagos | núme |
-      | Docu | Nómin | ro   |
-      | ment | a     | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**S |
-      |      |       | PN-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Selección de Pago    | Genera un documento  |
+      | Base:                | CxP                  | de **Selección de    |
+      |                      |                      | Pagos Nómina** a la  |
+      |                      |                      | empresa.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Selección de Pagos   | Genera el número de  |
+      | Documento:           | Nómina               | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**SPN-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -14486,134 +13234,40 @@ comportamiento y explicado a continuación.
       comportamiento, a continuación se explica el proceder de **Orden
       de Mantenimiento**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Orden | Gene |
-      | de   | de    | ra   |
-      | Docu | Mante | una  |
-      | ment | nimie | **Or |
-      | o    | nto   | den  |
-      | Base |       | de   |
-      | :    |       | Mant |
-      |      |       | enim |
-      |      |       | ient |
-      |      |       | o**  |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Orden | Gene |
-      | enci | de    | ra   |
-      | a    | Mante | el   |
-      | del  | nimie | núme |
-      | Docu | nto   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 86.0 |
-      |      |       | 00   |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**O |
-      |      |       | MA-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Orden de             | Genera una **Orden   |
+      | Base:                | Mantenimiento        | de Mantenimiento** a |
+      |                      |                      | la empresa.          |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Orden de             | Genera el número de  |
+      | Documento:           | Mantenimiento        | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 86.000 y su       |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**OMA-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -14658,137 +13312,41 @@ especificado a continuación.
       comportamiento, a continuación se explica el proceder de la
       **Depreciación de Activos**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Fixed | Gene |
-      | de   | Asset | ra   |
-      | Docu | s     | una  |
-      | ment | Depre | **De |
-      | o    | ciati | prec |
-      | Base | on    | iaci |
-      | :    |       | ón   |
-      |      |       | de   |
-      |      |       | Acti |
-      |      |       | vos* |
-      |      |       | *    |
-      |      |       | a    |
-      |      |       | una  |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Depre | Gene |
-      | enci | ciaci | ra   |
-      | a    | ón    | el   |
-      | del  | de    | núme |
-      | Docu | Activ | ro   |
-      | ment | o     | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**D |
-      |      |       | AC-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Fixed Assets         | Genera una           |
+      | Base:                | Depreciation         | **Depreciación de    |
+      |                      |                      | Activos** a una      |
+      |                      |                      | empresa.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Depreciación de      | Genera el número de  |
+      | Documento:           | Activo               | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**DAC-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -14837,135 +13395,40 @@ según su comportamiento explicado a continuación.
       comportamiento, a continuación se explica el proceder de la
       **Adición de Activos**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Fixed | Gene |
-      | de   | Asset | ra   |
-      | Docu | s     | una  |
-      | ment | Docum | **Ad |
-      | o    | ent   | ició |
-      | Base |       | n    |
-      | :    |       | de   |
-      |      |       | Acti |
-      |      |       | vos* |
-      |      |       | *    |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Adici | Gene |
-      | enci | ón    | ra   |
-      | a    | de    | el   |
-      | del  | Activ | núme |
-      | Docu | os    | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**A |
-      |      |       | A-** |
-      |      |       | ".   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Fixed Assets         | Genera una **Adición |
+      | Base:                | Document             | de Activos** a la    |
+      |                      |                      | empresa.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Adición de Activos   | Genera el número de  |
+      | Documento:           |                      | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**AA-**".    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -15013,138 +13476,41 @@ definido según su comportamiento especificado a continuación.
       comportamiento, a continuación se explica el proceder de la
       **Venta de Activos**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Fixed | Gene |
-      | de   | Asset | ra   |
-      | Docu | s     | un   |
-      | ment | Dispo | docu |
-      | o    | sal   | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **Ve |
-      |      |       | nta  |
-      |      |       | de   |
-      |      |       | Acti |
-      |      |       | vos* |
-      |      |       | *    |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | Venta | Gene |
-      | enci | de    | ra   |
-      | a    | Activ | el   |
-      | del  | os    | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**V |
-      |      |       | A-** |
-      |      |       | ".   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Fixed Assets         | Genera un documento  |
+      | Base:                | Disposal             | de **Venta de        |
+      |                      |                      | Activos** a la       |
+      |                      |                      | empresa.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Venta de Activos     | Genera el número de  |
+      | Documento:           |                      | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**VA-**".    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -15155,6 +13521,7 @@ definido según su comportamiento especificado a continuación.
    #. **Implicación Fiscal**
       
       No posee implicación fiscal por no ser un documento legal.
+
 |Nota de Contabilidad| **Nota de Contabilidad**
 -----------------------------------------------
 
@@ -15194,134 +13561,40 @@ la misma.
       comportamiento, a continuación se explica el proceder de la **Nota
       de Contabilidad**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Nota  | Gene |
-      | de   | de    | ra   |
-      | Docu | Conta | una  |
-      | ment | bilid | **No |
-      | o    | ad    | ta   |
-      | Base |       | de   |
-      | :    |       | Cont |
-      |      |       | abil |
-      |      |       | idad |
-      |      |       | **   |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol* |
-      |      |       | *.   |
-      +------+-------+------+
-      | Secu | GL    | Gene |
-      | enci | Journ | ra   |
-      | a    | al    | el   |
-      | del  |       | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**G |
-      |      |       | LJ-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Nota de Contabilidad | Genera una **Nota de |
+      | Base:                |                      | Contabilidad** a la  |
+      |                      |                      | empresa.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control**.           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | GL Journal           | Genera el número de  |
+      | Documento:           |                      | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000 y su        |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**GLJ-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -15337,5 +13610,3 @@ la misma.
           Todo comerciante debe llevar en idioma castellano su contabilidad, la cual comprenderá, obligatoriamente, el libro Diario, el libro Mayor y el de Inventarios.
 
           Podrá llevar, además, todos los libros auxiliares que estimara conveniente para el mayor orden y claridad de sus operaciones. 
-
-
