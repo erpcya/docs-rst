@@ -2606,7 +2606,7 @@ En ADempiere un ajuste es un documento que representa el ingreso o egreso moneta
             #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
             #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
-          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
+         Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
 **Tipos de Documentos Notas de Débito Cuentas por Cobrar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -2738,19 +2738,19 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
       
       Basado en la providencia que establece las normas generales de emisión de facturas y otros documentos, en gaceta oficial número 38.997, el cual estipula:
 
-          - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
+         - **Artículo 1:** La providencia tiene por objeto establecer normas para la emisión de facturación, órdenes de entrega o guías de despacho, notas de débito y notas de crédito, de conformidad con la normativa Que regula la tributación nacional atribuida al Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT). 
 
-          - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
+         - **Artículo 22:** Las notas de débito o de crédito deben emitirse en el caso de ventas de bienes o prestaciones de servicios que quedaren sin efecto parcial o totalmente u originaren un ajuste, por cualquier causa, y por las cuales se otorgaron facturas. El original y las copias de las notas de débito y de crédito, deben contener el enunciado: "Nota de Débito" o "Nota de Crédito". 
 
-          - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
+         - **Artículo 23:** Las notas de débito y de crédito emitidas a través de los medios señalados en los numerales 1 y 2 del Artículo 6 de esta Providencia, deben cumplir con los requisitos previstos en el Artículo 13 o en el Artículo 15 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben hacer referencia a la fecha, número y monto de la factura que soportó la operación.
 
-          - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
-              1. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
-              1. Número y fecha de la factura que soportó la operación.
-              1. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
-              1. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
+         - **Artículo 24:** Las notas de débito y de crédito emitidas a través de Máquinas Fiscales deben tener una numeración consecutiva y única y contener los requisitos señalados en el Artículo 14 o en el Artículo 16 de esta Providencia, según sea el caso, con excepción de lo establecido en el numeral 1 de los referidos artículos. Igualmente, deben contener:
+            #. Nombre y apellido o razón social y número de Registro Único de Información Fiscal (RIF) o cédula de identidad del comprador.
+            #. Número y fecha de la factura que soportó la operación.
+            #. Número de Registro de la Máquina Fiscal a través de la cual se emitió la factura que soportó la operación. 
+            #. Número de Control de la factura que soportó la operación, Si ésta fue emitida sobre un formato o una forma libre.
 
-          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
+         Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
 #. **Nota de Débito de Cuentas por Cobrar Exportación**
 
@@ -2764,9 +2764,7 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
    #. **Comportamiento**
 
-      En ADempiere una nota de débito de cuentas por cobrar exportación
-      se define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Débito de CxC Exportación:**
+      En ADempiere una nota de débito de cuentas por cobrar exportación se define según su comportamiento, a continuación se explica el proceder de una **Nota de Débito de CxC Exportación:**
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -2895,11 +2893,7 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
    #. **Definición**
 
-      En ADempiere es un documento legal que se aplica a una factura de
-      cuentas por cobrar intercompañía, reflejando en esta un aumento
-      del monto total a pagar de la misma; de igual manera se puede
-      aplicar a una nota de crédito, generando con ello un cruce de
-      cuentas.
+      En ADempiere es un documento legal que se aplica a una factura de cuentas por cobrar intercompañía, reflejando en esta un aumento del monto total a pagar de la misma; de igual manera se puede aplicar a una nota de crédito, generando con ello un cruce de cuentas.
 
       .. warning:: 
       
@@ -2907,10 +2901,7 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
    #. **Comportamiento**
 
-      En ADempiere una nota de débito de cuentas por cobrar
-      intercompañía se define según su comportamiento, a continuación se
-      explica el proceder de una **Nota de Débito de CxC
-      Intercompañía:**
+      En ADempiere una nota de débito de cuentas por cobrar intercompañía se define según su comportamiento, a continuación se explica el proceder de una **Nota de Débito de CxC Intercompañía:**
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -3039,11 +3030,7 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
    #. **Definición**
 
-      En ADempiere es un documento legal aplicable a las facturas o
-      notas de créditos emitidas a trabajadores de la empresa,
-      dependiendo de cual se aplique, se genera un aumento en el monto
-      total a pagar reflejado en la factura anteriormente nombrada o un
-      cruce de cuentas entre las notas de crédito y débito.
+      En ADempiere es un documento legal aplicable a las facturas o notas de créditos emitidas a trabajadores de la empresa, dependiendo de cual se aplique, se genera un aumento en el monto total a pagar reflejado en la factura anteriormente nombrada o un cruce de cuentas entre las notas de crédito y débito.
 
       .. warning:: 
       
@@ -3051,9 +3038,7 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
    #. **Comportamiento**
 
-      En ADempiere una nota de débito de cuentas por cobrar empleado se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Débito de CxC Empleado:**
+      En ADempiere una nota de débito de cuentas por cobrar empleado se define según su comportamiento, a continuación se explica el proceder de una **Nota de Débito de CxC Empleado:**
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -3182,11 +3167,7 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
    #. **Definición**
 
-      Es un documento legal que se aplica a una factura emitida a un
-      socio de negocio tipo cliente cuando este adquiere un compromiso
-      de compra con entrega indirecta, incrementando así el monto a
-      cancelar de la factura. A la nota de débito indirecta se le otorga
-      un trato especial por las condiciones de compra/venta que posee.
+      Es un documento legal que se aplica a una factura emitida a un socio de negocio tipo cliente cuando este adquiere un compromiso de compra con entrega indirecta, incrementando así el monto a cancelar de la factura. A la nota de débito indirecta se le otorga un trato especial por las condiciones de compra/venta que posee.
 
       .. warning:: 
       
@@ -3194,9 +3175,7 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 
    #. **Comportamiento**
 
-      En ADempiere una nota de débito de cuentas por cobrar indirecta se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Débito de CxC Indirecta**:
+      En ADempiere una nota de débito de cuentas por cobrar indirecta se define según su comportamiento, a continuación se explica el proceder de una **Nota de Débito de CxC Indirecta**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -3324,26 +3303,15 @@ De igual manera que la factura, existen diferentes tipos de notas de débito de 
 **Tipos de Documentos Retenciones Cuentas por Cobrar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Las retenciones siempre son realizadas por el cliente, ya sea en cuentas
-por cobrar o cuentas por pagar, las declaraciones de retenciones son
-realizadas tanto por el cliente como por el proveedor.
+Las retenciones siempre son realizadas por el cliente, ya sea en cuentas por cobrar o cuentas por pagar, las declaraciones de retenciones son realizadas tanto por el cliente como por el proveedor.
 
-Se entiende por retenciones en cuentas por cobrar, la retención de un
-porcentaje (%) del monto que el cliente le va cancelar a la empresa como
-proveedor, y por declaraciones se entiende la presentación ante el
-"**SENIAT**" de las diferentes retenciones que le fueron aplicadas a la
-empresa como proveedor. En ADempiere son utilizadas cuatro (4)
-retenciones en cuentas por cobrar, a continuación se define el
-comportamiento de este tipo de documento.
+Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaje (%) del monto que el cliente le va cancelar a la empresa como proveedor, y por declaraciones se entiende la presentación ante el "**SENIAT**" de las diferentes retenciones que le fueron aplicadas a la empresa como proveedor. En ADempiere son utilizadas cuatro (4) retenciones en cuentas por cobrar, a continuación se define el comportamiento de este tipo de documento.
 
 #. **Retención de IVA 75% de Cuentas por Cobrar**
 
    #. **Definición**
 
-      En ADempiere es posible generar una retención del setenta y cinco
-      (75) por ciento (%) del IVA que posee una factura emitida al
-      cliente, para ello se deben tener configuradas las retenciones en
-      ADempiere.
+      En ADempiere es posible generar una retención del setenta y cinco (75) por ciento (%) del IVA que posee una factura emitida al cliente, para ello se deben tener configuradas las retenciones en ADempiere.
 
       .. warning:: 
       
@@ -3351,9 +3319,7 @@ comportamiento de este tipo de documento.
 
    #. **Comportamiento**
 
-      En ADempiere una retención de IVA de cuentas por cobrar se define
-      según su comportamiento, a continuación se explica el proceder de
-      una **Retención de IVA 75% de Cuentas por Cobrar**:
+      En ADempiere una retención de IVA de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de una **Retención de IVA 75% de Cuentas por Cobrar**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -3433,9 +3399,7 @@ comportamiento de este tipo de documento.
 
    #. **Definición**
 
-      En ADempiere es posible generar una retención del cien (100) por
-      ciento (%) del IVA que posee una factura emitida al cliente, para
-      ello se deben tener configuradas las retenciones en ADempiere.
+      En ADempiere es posible generar una retención del cien (100) por ciento (%) del IVA que posee una factura emitida al cliente, para ello se deben tener configuradas las retenciones en ADempiere.
 
       .. warning:: 
       
@@ -3443,9 +3407,7 @@ comportamiento de este tipo de documento.
 
    #. **Comportamiento**
 
-      En ADempiere una retención de IVA de cuentas por cobrar se define
-      según su comportamiento, a continuación se explica el proceder de
-      una **Retención de IVA 100% de Cuentas por Cobrar**:
+      En ADempiere una retención de IVA de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de una **Retención de IVA 100% de Cuentas por Cobrar**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -3524,9 +3486,7 @@ comportamiento de este tipo de documento.
 
    #. **Definición**
 
-      En ADempiere es posible generar una retención del ISLR que posee
-      una factura emitida al cliente, para ello se deben tener
-      configuradas las retenciones en ADempiere.
+      En ADempiere es posible generar una retención del ISLR que posee una factura emitida al cliente, para ello se deben tener configuradas las retenciones en ADempiere.
 
       .. warning:: 
       
@@ -3534,9 +3494,7 @@ comportamiento de este tipo de documento.
 
    #. **Comportamiento**
 
-      En ADempiere una retención de ISLR de cuentas por cobrar se define
-      según su comportamiento, a continuación se explica el proceder de
-      una **Retención de ISLR de Cuentas por Cobrar**:
+      En ADempiere una retención de ISLR de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de una **Retención de ISLR de Cuentas por Cobrar**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -3654,9 +3612,7 @@ comportamiento de este tipo de documento.
 
    #. **Definición**
 
-      En ADempiere es posible generar una retención municipal que posee
-      una factura emitida al cliente, para ello se deben tener
-      configuradas las retenciones en ADempiere.
+      En ADempiere es posible generar una retención municipal que posee una factura emitida al cliente, para ello se deben tener configuradas las retenciones en ADempiere.
 
       .. warning:: 
       
@@ -3664,9 +3620,7 @@ comportamiento de este tipo de documento.
 
    #. **Comportamiento**
 
-      En ADempiere una retención municipal de cuentas por cobrar se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Retención Municipal de CxC**:
+      En ADempiere una retención municipal de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de una **Retención Municipal de CxC**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -3738,10 +3692,7 @@ comportamiento de este tipo de documento.
 
    #. **Definición**
 
-      En ADempiere es posible generar una retención del setenta y cinco
-      (75) por ciento (%) del IVA que posee una nota de crédito emitida
-      al cliente, para ello se deben tener configuradas las retenciones
-      en ADempiere.
+      En ADempiere es posible generar una retención del setenta y cinco (75) por ciento (%) del IVA que posee una nota de crédito emitida al cliente, para ello se deben tener configuradas las retenciones en ADempiere.
 
       .. warning:: 
       
@@ -3749,10 +3700,7 @@ comportamiento de este tipo de documento.
 
    #. **Comportamiento**
 
-      En ADempiere una retención de IVA para nota de crédito de cuentas
-      por cobrar se define según su comportamiento, a continuación se
-      explica el proceder de una **Retención de IVA 75% para Nota de
-      Crédito de CxC**:
+      En ADempiere una retención de IVA para nota de crédito de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de una **Retención de IVA 75% para Nota de Crédito de CxC**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -3827,10 +3775,7 @@ comportamiento de este tipo de documento.
 
    #. **Definición**
 
-      En ADempiere es posible generar una retención del cien (100) por
-      ciento (%) del IVA que posee una nota de crédito emitida al
-      cliente, para ello se deben tener configuradas las retenciones en
-      ADempiere.
+      En ADempiere es posible generar una retención del cien (100) por ciento (%) del IVA que posee una nota de crédito emitida al cliente, para ello se deben tener configuradas las retenciones en ADempiere.
 
       .. warning:: 
       
@@ -3838,10 +3783,7 @@ comportamiento de este tipo de documento.
 
    #. **Comportamiento**
 
-      En ADempiere una retención de IVA para nota de crédito de cuentas
-      por cobrar se define según su comportamiento, a continuación se
-      explica el proceder de una **Retención de IVA 100% para Nota de
-      Crédito de CxC**:
+      En ADempiere una retención de IVA para nota de crédito de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de una **Retención de IVA 100% para Nota de Crédito de CxC**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -3916,9 +3858,7 @@ comportamiento de este tipo de documento.
 
    #. **Definición**
 
-      En ADempiere es posible generar una retención del ISLR que posee
-      una nota de crédito emitida al cliente, para ello se deben tener
-      configuradas las retenciones en ADempiere.
+      En ADempiere es posible generar una retención del ISLR que posee una nota de crédito emitida al cliente, para ello se deben tener configuradas las retenciones en ADempiere.
 
       .. warning:: 
       
@@ -3926,10 +3866,7 @@ comportamiento de este tipo de documento.
 
    #. **Comportamiento**
 
-      En ADempiere una retención de ISLR para nota de crédito de cuentas
-      por cobrar se define según su comportamiento, a continuación se
-      explica el proceder de una **Retención de ISLR para Nota de
-      Crédito de CxC**:
+      En ADempiere una retención de ISLR para nota de crédito de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de una **Retención de ISLR para Nota de Crédito de CxC**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -4042,9 +3979,7 @@ comportamiento de este tipo de documento.
 
    #. **Definición**
 
-      En ADempiere es posible generar una retención municipal que posee
-      una nota de crédito emitida al cliente, para ello se deben tener
-      configuradas las retenciones en ADempiere.
+      En ADempiere es posible generar una retención municipal que posee una nota de crédito emitida al cliente, para ello se deben tener configuradas las retenciones en ADempiere.
 
       .. warning:: 
       
@@ -4052,10 +3987,7 @@ comportamiento de este tipo de documento.
 
    #. **Comportamiento**
 
-      En ADempiere una retención municipal para nota de crédito de
-      cuentas por cobrar se define según su comportamiento, a
-      continuación se explica el proceder de una **Retención Municipal
-      para Nota de Crédito de CxC**:
+      En ADempiere una retención municipal para nota de crédito de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de una **Retención Municipal para Nota de Crédito de CxC**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -4121,22 +4053,15 @@ comportamiento de este tipo de documento.
 **Tipo de Documento Pago Devuelto de Cuentas por Cobrar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Un pago devuelto por un banco puede tener diferentes motivos, entre
-ellos se encuentra la inconsistencia de la firma registrada en el banco
-con la plasmada en el cheque. También sucede muy seguido que el saldo
-disponible en la cuenta no sea suficiente para cancelar el cheque.
+Un pago devuelto por un banco puede tener diferentes motivos, entre ellos se encuentra la inconsistencia de la firma registrada en el banco con la plasmada en el cheque. También sucede muy seguido que el saldo disponible en la cuenta no sea suficiente para cancelar el cheque.
 
-Cuando de transferencias se trata, suele pasar que el banco regresa la
-transferencia, causando con esto problemas con el proceso de la empresa
-u organización.
+Cuando de transferencias se trata, suele pasar que el banco regresa la transferencia, causando con esto problemas con el proceso de la empresa u organización.
 
 #. **Pago Devuelto de Cuentas por Cobrar**
 
    #. **Definición**
 
-      En ADempiere es posible generar un pago devuelto por medio del
-      documento **Pago/Cobro**, el mismo genera una devolución de
-      dinero.
+      En ADempiere es posible generar un pago devuelto por medio del documento **Pago/Cobro**, el mismo genera una devolución de dinero.
 
       .. warning:: 
       
@@ -4144,9 +4069,7 @@ u organización.
 
    #. **Comportamiento**
 
-      En ADempiere un pago devuelto de cuentas por cobrar se define
-      según su comportamiento, a continuación se explica el proceder de
-      un **Pago Devuelto**:
+      En ADempiere un pago devuelto de cuentas por cobrar se define según su comportamiento, a continuación se explica el proceder de un **Pago Devuelto**:
 
       +-----------------------+-------------------+-----------------------+
       | **Campo**             | **Valor**         | **Comportamiento en   |
@@ -4215,28 +4138,20 @@ u organización.
 |Nota de Crédito de Cuentas por Cobrar| **Nota de Crédito de Cuentas por Cobrar**
 ---------------------------------------------------------------------------------
 
-Es un documento que se aplica a una factura, con la finalidad de
-reflejar un descuento, un cobro de un gasto incurrido de más, o alguna
-devolución de productos que el socio de negocio tipo cliente haya
-comprado.
+Es un documento que se aplica a una factura, con la finalidad de reflejar un descuento, un cobro de un gasto incurrido de más, o alguna devolución de productos que el socio de negocio tipo cliente haya comprado.
 
 **Tipos de Documentos Nota de Crédito de Cuentas por Cobrar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere se utilizan cinco (5) diferentes notas de créditos,
-pertenecientes a las cuentas por cobrar y son definidas por su
-comportamiento.
+En ADempiere se utilizan cinco (5) diferentes notas de créditos, pertenecientes a las cuentas por cobrar y son definidas por su comportamiento.
 
-A continuación se definen las notas de crédito de cuentas por cobrar
-según su comportamiento.
+A continuación se definen las notas de crédito de cuentas por cobrar según su comportamiento.
 
 #. **Nota de Crédito de Cuentas por Cobrar Nacional**
 
    #. **Definición**
 
-      Es un documento legal que se aplica a la factura de cuentas por
-      cobrar nacional, realizada al socio del negocio tipo cliente que
-      se encuentra ubicado dentro del territorio de Venezuela.
+      Es un documento legal que se aplica a la factura de cuentas por cobrar nacional, realizada al socio del negocio tipo cliente que se encuentra ubicado dentro del territorio de Venezuela.
 
       .. warning:: 
       
@@ -4244,9 +4159,7 @@ según su comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de crédito de cuentas por cobrar nacional se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Crédito de CxC Nacional:**
+      En ADempiere una nota de crédito de cuentas por cobrar nacional se define según su comportamiento, a continuación se explica el proceder de una **Nota de Crédito de CxC Nacional:**
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -4374,9 +4287,7 @@ según su comportamiento.
 
    #. **Definición**
 
-      Es un documento legal que se aplica a la factura de cuentas por
-      cobrar exportación, realizada al socio del negocio tipo cliente
-      que se encuentra ubicado fuera del territorio de Venezuela.
+      Es un documento legal que se aplica a la factura de cuentas por cobrar exportación, realizada al socio del negocio tipo cliente que se encuentra ubicado fuera del territorio de Venezuela.
 
       .. warning:: 
       
@@ -4512,9 +4423,7 @@ según su comportamiento.
 
    #. **Definición**
 
-      Es un documento legal que se aplica a la factura de cuentas por
-      cobrar intercompañía, realizada a otra empresa también registrada
-      en ADempiere.
+      Es un documento legal que se aplica a la factura de cuentas por cobrar intercompañía, realizada a otra empresa también registrada en ADempiere.
 
       .. warning:: 
       
@@ -4522,10 +4431,7 @@ según su comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de crédito de cuentas por cobrar
-      intercompañía se define según su comportamiento, a continuación se
-      explica el proceder de una **Nota de Crédito de CxC
-      Intercompañía:**
+      En ADempiere una nota de crédito de cuentas por cobrar intercompañía se define según su comportamiento, a continuación se explica el proceder de una **Nota de Crédito de CxC Intercompañía:**
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -4653,9 +4559,7 @@ según su comportamiento.
 
    #. **Definición**
 
-      Es un documento legal que se aplica a la factura de cuentas por
-      cobrar empleado, realizada por la empresa a sus trabajadores por
-      una determinada venta.
+      Es un documento legal que se aplica a la factura de cuentas por cobrar empleado, realizada por la empresa a sus trabajadores por una determinada venta.
 
       .. warning:: 
       
@@ -4663,9 +4567,7 @@ según su comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de crédito de cuentas por cobrar empleado se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Crédito de CxC Empleado:**
+      En ADempiere una nota de crédito de cuentas por cobrar empleado se define según su comportamiento, a continuación se explica el proceder de una **Nota de Crédito de CxC Empleado:**
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -4793,9 +4695,7 @@ según su comportamiento.
 
    #. **Definición**
 
-      Es un documento legal que se aplica a una factura emitida por la
-      empresa a un socio de negocio tipo cliente cuando este adquiere un
-      compromiso de compra con entrega indirecta.
+      Es un documento legal que se aplica a una factura emitida por la empresa a un socio de negocio tipo cliente cuando este adquiere un compromiso de compra con entrega indirecta.
 
       .. warning:: 
       
@@ -4803,9 +4703,7 @@ según su comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de crédito de cuentas por cobrar indirecta
-      se define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Crédito de CxC Indirecta:**
+      En ADempiere una nota de crédito de cuentas por cobrar indirecta se define según su comportamiento, a continuación se explica el proceder de una **Nota de Crédito de CxC Indirecta:**
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -4932,31 +4830,20 @@ según su comportamiento.
 |Cobros| **Cobros**
 -------------------
 
-Son todos aquellos ingresos monetarios por las ventas de productos o
-prestación de servicios. Se realiza el cobro de todas las cuentas por
-cobrar que posee una determinada empresa según el periodo que la misma
-tenga establecida como regla del negocio, es decir, el cobro puede ser
-aplicado semanal, quincenal, mensual, entre otros.
+Son todos aquellos ingresos monetarios por las ventas de productos o prestación de servicios. Se realiza el cobro de todas las cuentas por cobrar que posee una determinada empresa según el periodo que la misma tenga establecida como regla del negocio, es decir, el cobro puede ser aplicado semanal, quincenal, mensual, entre otros.
 
 **Tipos de Documentos Cobro de Cuentas por Cobrar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere es el documento donde se refleja el ingreso monetario de la
-empresa por motivo de préstamos realizados a socios de negocios o por
-compras realizadas por dichos socios, actualmente se utilizan cinco (5)
-diferentes documentos de cobros para controlar contablemente los
-ingresos.
+En ADempiere es el documento donde se refleja el ingreso monetario de la empresa por motivo de préstamos realizados a socios de negocios o por compras realizadas por dichos socios, actualmente se utilizan cinco (5) diferentes documentos de cobros para controlar contablemente los ingresos.
 
-A continuación se definen los diferentes documentos de cobro según su
-comportamiento.
+A continuación se definen los diferentes documentos de cobro según su comportamiento.
 
 #. **Cobro de Cuentas por Cobrar Nacional**
 
    #. **Definición**
 
-      Este tipo de documento se refiere a las cuentas por cobrar que la
-      empresa posee con los diferentes socios de negocio a nivel
-      nacional.
+      Este tipo de documento se refiere a las cuentas por cobrar que la empresa posee con los diferentes socios de negocio a nivel nacional.
 
       .. warning:: 
       
@@ -4964,9 +4851,7 @@ comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere un cobro de cuentas por cobrar nacional se define
-      según su comportamiento, a continuación se explica el proceder de
-      un **Cobro de CxC Nacional**:
+      En ADempiere un cobro de cuentas por cobrar nacional se define según su comportamiento, a continuación se explica el proceder de un **Cobro de CxC Nacional**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -5022,9 +4907,7 @@ comportamiento.
 
    #. **Definición**
 
-      Este tipo de documento se refiere a las cuentas por cobrar que la
-      empresa posee con los diferentes socios de negocio que se
-      encuentran fuera del territorio de Venezuela.
+      Este tipo de documento se refiere a las cuentas por cobrar que la empresa posee con los diferentes socios de negocio que se encuentran fuera del territorio de Venezuela.
 
       .. warning:: 
       
@@ -5032,9 +4915,7 @@ comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere un cobro de cuentas por cobrar internacional se
-      define según su comportamiento, a continuación se explica el
-      proceder de un **Cobro de CxC Internacional**:
+      En ADempiere un cobro de cuentas por cobrar internacional se define según su comportamiento, a continuación se explica el proceder de un **Cobro de CxC Internacional**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -5090,9 +4971,7 @@ comportamiento.
 
    #. **Definición**
 
-      Este tipo de documento se refiere a las cuentas por cobrar que la
-      empresa posee como gastos directos. Entendiendo como gasto directo
-      lo utilizado para realizar los productos o servicios.
+      Este tipo de documento se refiere a las cuentas por cobrar que la empresa posee como gastos directos. Entendiendo como gasto directo lo utilizado para realizar los productos o servicios.
 
       .. warning:: 
       
@@ -5100,9 +4979,7 @@ comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere un cobro de cuentas por cobrar gasto directo se
-      define según su comportamiento, a continuación se explica el
-      proceder de un **Cobro de CxC Gasto Directo**:
+      En ADempiere un cobro de cuentas por cobrar gasto directo se define según su comportamiento, a continuación se explica el proceder de un **Cobro de CxC Gasto Directo**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -5158,9 +5035,7 @@ comportamiento.
 
    #. **Definición**
 
-      Este tipo de documento se refiere a las cuentas por cobrar que la
-      empresa posee como reembolso. Entendiendo como reembolso el
-      reintegro monetario pagado anteriormente.
+      Este tipo de documento se refiere a las cuentas por cobrar que la empresa posee como reembolso. Entendiendo como reembolso el reintegro monetario pagado anteriormente.
 
       .. warning:: 
       
@@ -5168,9 +5043,7 @@ comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere un cobro de cuentas por cobrar reembolso se define
-      según su comportamiento, a continuación se explica el proceder de
-      un **Cobro de CxC Reembolso**:
+      En ADempiere un cobro de cuentas por cobrar reembolso se define según su comportamiento, a continuación se explica el proceder de un **Cobro de CxC Reembolso**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -5226,10 +5099,7 @@ comportamiento.
 
    #. **Definición**
 
-      Este tipo de documento se refiere a las cuentas por cobrar que la
-      empresa posee como viáticos. Entiendo como viático una cantidad de
-      dinero que se le facilita a una persona para cubrir los gastos de
-      un viaje determinado.
+      Este tipo de documento se refiere a las cuentas por cobrar que la empresa posee como viáticos. Entiendo como viático una cantidad de dinero que se le facilita a una persona para cubrir los gastos de un viaje determinado.
 
       .. warning:: 
       
@@ -5237,9 +5107,7 @@ comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere un cobro de cuentas por cobrar viáticos se define
-      según su comportamiento, a continuación se explica el proceder de
-      un **Cobro de CxC Viáticos**:
+      En ADempiere un cobro de cuentas por cobrar viáticos se define según su comportamiento, a continuación se explica el proceder de un **Cobro de CxC Viáticos**:
 
       +----------------------+---------------------+----------------------+
       | **Campo**            | **Valor**           | **Comportamiento en  |
@@ -5294,28 +5162,18 @@ comportamiento.
 |Ventas| **Ventas**
 -------------------
 
-Son todos los egresos de productos y servicos de la empresa, donde se
-adquiere un ingreso monetario como pago de ellos. En una empresa pueden
-existir dos tipos de ventas que serían la venta de contado donde se
-cancela inmediatamente y la venta a crédito donde se cancela después,
-mayormente cuando se realiza una venta a crédito se generan intereses
-por el tiempo de tardanza del pago.
+Son todos los egresos de productos y servicos de la empresa, donde se adquiere un ingreso monetario como pago de ellos. En una empresa pueden existir dos tipos de ventas que serían la venta de contado donde se cancela inmediatamente y la venta a crédito donde se cancela después, mayormente cuando se realiza una venta a crédito se generan intereses por el tiempo de tardanza del pago.
 
 **Tipos de Documentos Entrega de Ventas**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Los documentos de entregas en ADempiere controlan el proceso de egreso
-de los productos del almacén y la entrega a los clientes. Existen cinco
-(5) diferentes entregas y cada una define un comportamiento que a
-continuación se describe.
+Los documentos de entregas en ADempiere controlan el proceso de egreso de los productos del almacén y la entrega a los clientes. Existen cinco (5) diferentes entregas y cada una define un comportamiento que a continuación se describe.
 
 #. **Entrega Nacional**
 
    #. **Definición**
 
-      Se refiere a las entregas de los productos o servicios vendidos a
-      clientes ubicados dentro del territorio de Venezuela, estos serán
-      entregados solo a nivel nacional.
+      Se refiere a las entregas de los productos o servicios vendidos a clientes ubicados dentro del territorio de Venezuela, estos serán entregados solo a nivel nacional.
 
       .. warning:: 
       
@@ -5323,9 +5181,7 @@ continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la entrega nacional se define según su
-      comportamiento, a continuación se explica el proceder de **Entrega
-      Nacional**:
+      En ADempiere la entrega nacional se define según su comportamiento, a continuación se explica el proceder de **Entrega Nacional**:
 
       +----------------------+---------------------+----------------------+
       | **Campo**            | **Valor**           | **Comportamiento en  |
@@ -5398,9 +5254,7 @@ continuación se describe.
 
    #. **Definición**
 
-      Se refiere a las entregas de los productos o servicios vendidos a
-      clientes ubicados en el exterior de Venezuela, estos serán
-      entregados fuera del territorio de Venezuela.
+      Se refiere a las entregas de los productos o servicios vendidos a clientes ubicados en el exterior de Venezuela, estos serán entregados fuera del territorio de Venezuela.
 
       .. warning:: 
       
@@ -5408,9 +5262,7 @@ continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la entrega exportación se define según su
-      comportamiento, a continuación se explica el proceder de **Entrega
-      Exportación**:
+      En ADempiere la entrega exportación se define según su comportamiento, a continuación se explica el proceder de **Entrega Exportación**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -5484,9 +5336,7 @@ continuación se describe.
 
    #. **Definición**
 
-      Se refiere a los productos o servicios vendidos entre empresas
-      pertenecientes al mismo consorcio, la entrega de estos será
-      directa de empresa a empresa.
+      Se refiere a los productos o servicios vendidos entre empresas pertenecientes al mismo consorcio, la entrega de estos será directa de empresa a empresa.
 
       .. warning:: 
       
@@ -5494,9 +5344,7 @@ continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la entrega intercompañía se define según su
-      comportamiento, a continuación se explica el proceder de **Entrega
-      Intercompañía**:
+      En ADempiere la entrega intercompañía se define según su comportamiento, a continuación se explica el proceder de **Entrega Intercompañía**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -5569,8 +5417,7 @@ continuación se describe.
 
    #. **Definición**
 
-      Se refiere a los productos o servicios que la empresa vende a sus
-      trabajadores, la entrega de estos serán dentro de la empresa.
+      Se refiere a los productos o servicios que la empresa vende a sus trabajadores, la entrega de estos serán dentro de la empresa.
 
       .. warning:: 
       
@@ -5578,9 +5425,7 @@ continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la entrega empleado se define según su
-      comportamiento, a continuación se explica el proceder de **Entrega
-      Empleado**:
+      En ADempiere la entrega empleado se define según su comportamiento, a continuación se explica el proceder de **Entrega Empleado**:
 
       +----------------------+---------------------+----------------------+
       | **Campo**            | **Valor**           | **Comportamiento en  |
@@ -5653,8 +5498,7 @@ continuación se describe.
 
    #. **Definición**
 
-      Se refiere a las ventas de productos o servicios que la empresa le
-      hace a clientes, pero estos reciben los productos del proveedor.
+      Se refiere a las ventas de productos o servicios que la empresa le hace a clientes, pero estos reciben los productos del proveedor.
 
       .. warning:: 
       
@@ -5662,9 +5506,7 @@ continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la entrega indirecta se define según su
-      comportamiento, a continuación se explica el proceder de **Entrega
-      Indirecta**:
+      En ADempiere la entrega indirecta se define según su comportamiento, a continuación se explica el proceder de **Entrega Indirecta**:
 
       +----------------------+---------------------+----------------------+
       | **Campo**            | **Valor**           | **Comportamiento en  |
@@ -5736,18 +5578,13 @@ continuación se describe.
 **Tipos de Documentos Devolución de Ventas**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Los documentos de devoluciones en ADempiere controlan el ingreso de los
-productos a almacén por devolución de los clientes. Existen cinco (5)
-diferentes devoluciones y cada una define un comportamiento que a
-continuación se describe.
+Los documentos de devoluciones en ADempiere controlan el ingreso de los productos a almacén por devolución de los clientes. Existen cinco (5) diferentes devoluciones y cada una define un comportamiento que a continuación se describe.
 
 #. **Devolución de Cliente Nacional**
 
    #. **Definición**
 
-      Se refiere a las devoluciones de productos o servicios realizadas
-      por los clientes ubicados a nivel nacional. Este proceso es
-      realizado cuando el cliente no esta conforme con lo recibido.
+      Se refiere a las devoluciones de productos o servicios realizadas por los clientes ubicados a nivel nacional. Este proceso es realizado cuando el cliente no esta conforme con lo recibido.
 
       .. warning:: 
       
@@ -5755,9 +5592,7 @@ continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la devolución de cliente nacional se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Devolución de Cliente Nacional**:
+      En ADempiere la devolución de cliente nacional se define según su comportamiento, a continuación se explica el proceder de **Devolución de Cliente Nacional**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -5814,9 +5649,7 @@ continuación se describe.
 
    #. **Definición**
 
-      Se refiere a las devoluciones de productos o servicios realizadas
-      por los clientes ubicados fuera de Venezuela. Este proceso es
-      realizado cuando el cliente no esta conforme con lo recibido.
+      Se refiere a las devoluciones de productos o servicios realizadas por los clientes ubicados fuera de Venezuela. Este proceso es realizado cuando el cliente no esta conforme con lo recibido.
 
       .. warning:: 
       
@@ -5824,9 +5657,7 @@ continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la devolución de cliente exportación se define según
-      su comportamiento, a continuación se explica el proceder de
-      **Devolución de Cliente Exportación**:
+      En ADempiere la devolución de cliente exportación se define según su comportamiento, a continuación se explica el proceder de **Devolución de Cliente Exportación**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -5884,9 +5715,7 @@ continuación se describe.
 
    #. **Definición**
 
-      Es cuando una empresa perteneciente al mismo consorcio, devuelve
-      los productos o servicios que le fueron entregados anteriormente o
-      parte de ellos.
+      Es cuando una empresa perteneciente al mismo consorcio, devuelve los productos o servicios que le fueron entregados anteriormente o parte de ellos.
 
       .. warning:: 
       
@@ -5894,9 +5723,7 @@ continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la devolución de cliente intercompañía se define
-      según su comportamiento, a continuación se explica el proceder de
-      **Devolución de Cliente Intercompañía**:
+      En ADempiere la devolución de cliente intercompañía se define según su comportamiento, a continuación se explica el proceder de **Devolución de Cliente Intercompañía**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -5954,10 +5781,7 @@ continuación se describe.
 
    #. **Definición**
 
-      Se refiere a las devoluciones de productos o servicios realizadas
-      por los socios de negocios tipo empleados de la empresa. Este
-      proceso es realizado cuando el cliente no esta conforme con lo
-      recibido.
+      Se refiere a las devoluciones de productos o servicios realizadas por los socios de negocios tipo empleados de la empresa. Este proceso es realizado cuando el cliente no esta conforme con lo recibido.
 
       .. warning:: 
       
@@ -5965,9 +5789,7 @@ continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la devolución de cliente empleado se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Devolución de Cliente Empleado**:
+      En ADempiere la devolución de cliente empleado se define según su comportamiento, a continuación se explica el proceder de **Devolución de Cliente Empleado**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6024,9 +5846,7 @@ continuación se describe.
 
    #. **Definición**
 
-      Se refiere a la devolución que el cliente realiza de productos o
-      servicios ya adquiridos por el mismo de forma indirecta o con
-      entrega indirecta.
+      Se refiere a la devolución que el cliente realiza de productos o servicios ya adquiridos por el mismo de forma indirecta o con entrega indirecta.
 
       .. warning:: 
       
@@ -6034,9 +5854,7 @@ continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la devolución de cliente indirecta se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Devolución de Cliente Indirecta**:
+      En ADempiere la devolución de cliente indirecta se define según su comportamiento, a continuación se explica el proceder de **Devolución de Cliente Indirecta**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6093,28 +5911,18 @@ continuación se describe.
 |Requisición| **Requisición**
 -----------------------------
 
-Una requisición es un documento de solicitud realizado por los
-departamentos de una empresa determinada, dirigida al departamento de
-compra de la misma. En ella se especifican los productos y servicios que
-dicho departamento necesita, así como la cantidad de los mismos.
+Una requisición es un documento de solicitud realizado por los departamentos de una empresa determinada, dirigida al departamento de compra de la misma. En ella se especifican los productos y servicios que dicho departamento necesita, así como la cantidad de los mismos.
 
 **Tipos de Documentos Requisición**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere es posible solicitar los productos y servicios que el
-departamento necesita por medio del documento de requisición, este se
-define según su comportamiento y se describe a continuación.
+En ADempiere es posible solicitar los productos y servicios que el departamento necesita por medio del documento de requisición, este se define según su comportamiento y se describe a continuación.
 
 #. **Requisición de Compra Nacional**
 
    #. **Definición**
 
-      El documento de requisición de compra nacional es donde se
-      solicita al departamento de compra los productos o servicios
-      existentes dentro del territorio de Venezuela. Es un proceso que
-      se realiza por gestión de compras, cada departamento debe realizar
-      su requisición detallando en cada uno de los campos la información
-      solicitada en el documento.
+      El documento de requisición de compra nacional es donde se solicita al departamento de compra los productos o servicios existentes dentro del territorio de Venezuela. Es un proceso que se realiza por gestión de compras, cada departamento debe realizar su requisición detallando en cada uno de los campos la información solicitada en el documento.
 
       .. warning:: 
       
@@ -6122,9 +5930,7 @@ define según su comportamiento y se describe a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere la requisición de compra nacional se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Requisición de Compra Nacional**:
+      En ADempiere la requisición de compra nacional se define según su comportamiento, a continuación se explica el proceder de **Requisición de Compra Nacional**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6175,12 +5981,7 @@ define según su comportamiento y se describe a continuación.
 
    #. **Definición**
 
-      El documento de requisición de compra importación es donde se
-      solicita al departamento de compra los productos o servicios
-      existentes fuera del territorio de Venezuela. Es un proceso que se
-      realiza por gestión de compras, cada departamento debe realizar su
-      requisición detallando en cada uno de los campos la información
-      solicitada en el documento.
+      El documento de requisición de compra importación es donde se solicita al departamento de compra los productos o servicios existentes fuera del territorio de Venezuela. Es un proceso que se realiza por gestión de compras, cada departamento debe realizar su requisición detallando en cada uno de los campos la información solicitada en el documento.
 
       .. warning:: 
       
@@ -6188,9 +5989,7 @@ define según su comportamiento y se describe a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere la requisición de compra importación se define según
-      su comportamiento, a continuación se explica el proceder de
-      **Requisición de Compra Importación**:
+      En ADempiere la requisición de compra importación se define según su comportamiento, a continuación se explica el proceder de **Requisición de Compra Importación**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6240,31 +6039,20 @@ define según su comportamiento y se describe a continuación.
 |Orden de Compra| **Orden de Compra**
 -------------------------------------
 
-Es un documento elaborado por el departamento de compra de la empresa,
-dirigido a un proveedor determinado con el fin de solicitar los
-productos y servicios necesarios en los diferentes departamentos de la
-misma.
+Es un documento elaborado por el departamento de compra de la empresa, dirigido a un proveedor determinado con el fin de solicitar los productos y servicios necesarios en los diferentes departamentos de la misma.
 
-En ADempiere se utilizan dos (2) grupos de tipos de documentos de
-órdenes de compra, cada uno de ellos se define según su comportamiento
-en el mismo.
+En ADempiere se utilizan dos (2) grupos de tipos de documentos de órdenes de compra, cada uno de ellos se define según su comportamiento en el mismo.
 
 **Tipos de Documentos Orden de Compra**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Una orden de compra en ADempiere se puede realizar de forma directa
-teniendo los datos de los productos que se desean solicitar al
-proveedor, de igual manera, se puede realizar desde una requisición
-elaborada por el departamento que necesite dichos productos o servicios.
+Una orden de compra en ADempiere se puede realizar de forma directa teniendo los datos de los productos que se desean solicitar al proveedor, de igual manera, se puede realizar desde una requisición elaborada por el departamento que necesite dichos productos o servicios.
 
 #. **Orden de Compra Nacional**
 
    #. **Definición**
 
-      Una orden de compra nacional es realizada a los socios de negocios
-      tipo proveedor que se encuentren dentro del territorio de
-      Venezuela, donde se ingresan los productos o servicios referentes
-      a la compra y es emitida en moneda nacional.
+      Una orden de compra nacional es realizada a los socios de negocios tipo proveedor que se encuentren dentro del territorio de Venezuela, donde se ingresan los productos o servicios referentes a la compra y es emitida en moneda nacional.
 
       .. warning:: 
       
@@ -6272,9 +6060,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
 
    #. **Comportamiento**
 
-      En ADempiere la orden de compra nacional se define según su
-      comportamiento, a continuación se explica el proceder de la
-      **Orden de Compra Nacional**:
+      En ADempiere la orden de compra nacional se define según su comportamiento, a continuación se explica el proceder de la **Orden de Compra Nacional**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6334,10 +6120,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
 
    #. **Definición**
 
-      Una orden de compra importación es realizada a los socios de
-      negocios tipo proveedor que se encuentren fuera del territorio de
-      Venezuela, donde se ingresan los productos o servicios referentes
-      a la compra y es emitida en moneda extranjera.
+      Una orden de compra importación es realizada a los socios de negocios tipo proveedor que se encuentren fuera del territorio de Venezuela, donde se ingresan los productos o servicios referentes a la compra y es emitida en moneda extranjera.
 
       .. warning:: 
       
@@ -6345,9 +6128,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
 
    #. **Comportamiento**
 
-      En ADempiere la orden de compra importación se define según su
-      comportamiento, a continuación se explica el proceder de la
-      **Orden de Compra Importación**:
+      En ADempiere la orden de compra importación se define según su comportamiento, a continuación se explica el proceder de la **Orden de Compra Importación**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6407,11 +6188,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
 
    #. **Definición**
 
-      Una orden de compra intercompañía es realizada por la empresa
-      cuando el socio del negocio tipo proveedor es otra empresa
-      perteneciente al mismo consorcio, en el documento se ingresan los
-      productos o servicios referentes a la compra y es emitida en
-      moneda nacional.
+      Una orden de compra intercompañía es realizada por la empresa cuando el socio del negocio tipo proveedor es otra empresa perteneciente al mismo consorcio, en el documento se ingresan los productos o servicios referentes a la compra y es emitida en moneda nacional.
 
       .. warning:: 
       
@@ -6419,9 +6196,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
 
    #. **Comportamiento**
 
-      En ADempiere la orden de compra intercompañía se define según su
-      comportamiento, a continuación se explica el proceder de la
-      **Orden de Compra Intercompañía**:
+      En ADempiere la orden de compra intercompañía se define según su comportamiento, a continuación se explica el proceder de la **Orden de Compra Intercompañía**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6480,10 +6255,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
 
    #. **Definición**
 
-      Una orden de compra empleado es realizada por la empresa a los
-      socios de negocios tipo empleado que posee la misma, donde se
-      ingresan los productos o servicios referentes a la compra y es
-      emitida en moneda nacional.
+      Una orden de compra empleado es realizada por la empresa a los socios de negocios tipo empleado que posee la misma, donde se ingresan los productos o servicios referentes a la compra y es emitida en moneda nacional.
 
       .. warning:: 
       
@@ -6491,9 +6263,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
 
    #. **Comportamiento**
 
-      En ADempiere la orden de compra empleado se define según su
-      comportamiento, a continuación se explica el proceder de la
-      **Orden de Compra Empleado**:
+      En ADempiere la orden de compra empleado se define según su comportamiento, a continuación se explica el proceder de la **Orden de Compra Empleado**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6552,10 +6322,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
 
    #. **Definición**
 
-      Una orden de compra indirecta es realizada por la empresa cuando
-      la misma adquiere un compromiso de compra con entrega indirecta,
-      donde se ingresan los productos o servicios referentes a la compra
-      y es emitida en moneda nacional.
+      Una orden de compra indirecta es realizada por la empresa cuando la misma adquiere un compromiso de compra con entrega indirecta, donde se ingresan los productos o servicios referentes a la compra y es emitida en moneda nacional.
 
       .. warning:: 
       
@@ -6563,9 +6330,7 @@ elaborada por el departamento que necesite dichos productos o servicios.
 
    #. **Comportamiento**
 
-      En ADempiere la orden de compra indirecta se define según su
-      comportamiento, a continuación se explica el proceder de la
-      **Orden de Compra Indirecta**:
+      En ADempiere la orden de compra indirecta se define según su comportamiento, a continuación se explica el proceder de la **Orden de Compra Indirecta**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6623,19 +6388,13 @@ elaborada por el departamento que necesite dichos productos o servicios.
 **Tipos de Documentos Autorización de Devolución de Compras**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Es un documento que se elabora cuando algún departamento de la empresa
-necesita devolver uno, varios, o todos los productos de la compra
-realizada, independientemente de los motivos que conlleven a la
-devolución requerida.
+Es un documento que se elabora cuando algún departamento de la empresa necesita devolver uno, varios, o todos los productos de la compra realizada, independientemente de los motivos que conlleven a la devolución requerida.
 
 #. **Autorización Devolución Cliente Nacional**
 
    #. **Definición**
 
-      Es el documento que autoriza la devolución de uno, varios, o todos
-      los productos y servicios obtenidos por la venta realizada al
-      cliente dentro del territorio de Venezuela, indiferentemente el
-      motivo que esta tenga, debe ser expresado en la misma.
+      Es el documento que autoriza la devolución de uno, varios, o todos los productos y servicios obtenidos por la venta realizada al cliente dentro del territorio de Venezuela, indiferentemente el motivo que esta tenga, debe ser expresado en la misma.
 
       .. warning:: 
       
@@ -6643,9 +6402,7 @@ devolución requerida.
 
    #. **Comportamiento**
 
-      En ADempiere la autorización devolución cliente nacional se define
-      según su comportamiento, a continuación se explica el proceder de
-      la **Autorización Devolución Cliente Nacional**:
+      En ADempiere la autorización devolución cliente nacional se define según su comportamiento, a continuación se explica el proceder de la **Autorización Devolución Cliente Nacional**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6698,10 +6455,7 @@ devolución requerida.
 
    #. **Definición**
 
-      Es el documento que autoriza la devolución de uno, varios, o todos
-      los productos y servicios obtenidos por la venta realizada al
-      cliente fuera del territorio de Venezuela, indiferentemente el
-      motivo que esta tenga, debe ser expresado en la misma.
+      Es el documento que autoriza la devolución de uno, varios, o todos los productos y servicios obtenidos por la venta realizada al cliente fuera del territorio de Venezuela, indiferentemente el motivo que esta tenga, debe ser expresado en la misma.
 
       .. warning:: 
       
@@ -6709,9 +6463,7 @@ devolución requerida.
 
    #. **Comportamiento**
 
-      En ADempiere la autorización devolución cliente exportación se
-      define según su comportamiento, a continuación se explica el
-      proceder de la **Autorización Devolución Cliente Exportación**:
+      En ADempiere la autorización devolución cliente exportación se define según su comportamiento, a continuación se explica el proceder de la **Autorización Devolución Cliente Exportación**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6764,11 +6516,7 @@ devolución requerida.
 
    #. **Definición**
 
-      Es el documento que autoriza la devolución de uno, varios, o todos
-      los productos y servicios obtenidos por la venta que la empresa le
-      realizó a otra empresa perteneciente al mismo consorcio,
-      indiferentemente el motivo que esta tenga, debe ser expresado en
-      la misma.
+      Es el documento que autoriza la devolución de uno, varios, o todos los productos y servicios obtenidos por la venta que la empresa le realizó a otra empresa perteneciente al mismo consorcio, indiferentemente el motivo que esta tenga, debe ser expresado en la misma.
 
       .. warning:: 
       
@@ -6776,9 +6524,7 @@ devolución requerida.
 
    #. **Comportamiento**
 
-      En ADempiere la autorización devolución cliente intercompañía se
-      define según su comportamiento, a continuación se explica el
-      proceder de la **Autorización Devolución Cliente Intercompañía**:
+      En ADempiere la autorización devolución cliente intercompañía se define según su comportamiento, a continuación se explica el proceder de la **Autorización Devolución Cliente Intercompañía**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6831,10 +6577,7 @@ devolución requerida.
 
    #. **Definición**
 
-      Es el documento que autoriza la devolución de uno, varios, o todos
-      los productos y servicios obtenidos por la venta que la empresa le
-      realizó a los socios de negocios tipo empleado, indiferentemente
-      el motivo que esta tenga, debe ser expresado en la misma.
+      Es el documento que autoriza la devolución de uno, varios, o todos los productos y servicios obtenidos por la venta que la empresa le realizó a los socios de negocios tipo empleado, indiferentemente el motivo que esta tenga, debe ser expresado en la misma.
 
       .. warning:: 
       
@@ -6842,9 +6585,7 @@ devolución requerida.
 
    #. **Comportamiento**
 
-      En ADempiere la autorización devolución cliente Empleado se define
-      según su comportamiento, a continuación se explica el proceder de
-      la **Autorización Devolución Cliente Empleado**:
+      En ADempiere la autorización devolución cliente Empleado se define según su comportamiento, a continuación se explica el proceder de la **Autorización Devolución Cliente Empleado**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6897,10 +6638,7 @@ devolución requerida.
 
    #. **Definición**
 
-      Es el documento que autoriza la devolución de uno, varios, o todos
-      los productos y servicios obtenidos por la venta realizada con
-      compromiso de entrega indirecta al cliente, indiferentemente el
-      motivo que esta tenga, debe ser expresado en la misma.
+      Es el documento que autoriza la devolución de uno, varios, o todos los productos y servicios obtenidos por la venta realizada con compromiso de entrega indirecta al cliente, indiferentemente el motivo que esta tenga, debe ser expresado en la misma.
 
       .. warning:: 
       
@@ -6908,9 +6646,7 @@ devolución requerida.
 
    #. **Comportamiento**
 
-      En ADempiere la autorización devolución cliente indirecta se
-      define según su comportamiento, a continuación se explica el
-      proceder de la **Autorización Devolución Cliente Indirecta**:
+      En ADempiere la autorización devolución cliente indirecta se define según su comportamiento, a continuación se explica el proceder de la **Autorización Devolución Cliente Indirecta**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -6962,37 +6698,22 @@ devolución requerida.
 |Cuentas por Pagar| **Cuentas por Pagar**
 -----------------------------------------
 
-Las cuentas por pagar en ADempiere son todas aquellas deudas que la
-empresa contrae con los socios de negocios por la adquisición de
-servicios, compra de productos, entre otros motivos. Actualmente existen
-ocho (8) grupos de tipos de documentos de cuentas por pagar en ADempiere
-y cada uno de ellos define un comportamiento diferente.
+Las cuentas por pagar en ADempiere son todas aquellas deudas que la empresa contrae con los socios de negocios por la adquisición de servicios, compra de productos, entre otros motivos. Actualmente existen ocho (8) grupos de tipos de documentos de cuentas por pagar en ADempiere y cada uno de ellos define un comportamiento diferente.
 
-A continuación se detallan los tipos de documentos de cuentas por pagar:
+A continuación se detallan los tipos de documentos de cuentas por pagar.
 
 **Tipos de Documentos Facturas de Cuentas por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere una factura de cuentas por pagar es un documento legal que
-se realiza por la compra de productos o servicios a un determinado
-proveedor, donde se incluyen los datos principales del socio de negocio
-tipo proveedor, la empresa, y la información detallada de los productos
-y servicios.
+En ADempiere una factura de cuentas por pagar es un documento legal que se realiza por la compra de productos o servicios a un determinado proveedor, donde se incluyen los datos principales del socio de negocio tipo proveedor, la empresa, y la información detallada de los productos y servicios.
 
-El documento factura en cuentas por pagar se compone de siete (7)
-diferentes facturas, en las que se encuentran factura nacional,
-importación, pro-forma, intercompañía, empleado, manual y indirecta, en
-ese orden de ideas serán explicados los comportamientos de los tipos de
-facturas.
+El documento factura en cuentas por pagar se compone de siete (7) diferentes facturas, en las que se encuentran factura nacional, importación, pro-forma, intercompañía, empleado, manual y indirecta, en ese orden de ideas serán explicados los comportamientos de los tipos de facturas.
 
 #. **Factura de Cuentas por Pagar Nacional**
 
    #. **Definición**
 
-      La factura nacional es un documento que se emite por la compra de
-      productos o adquisición de servicios encontrados dentro del
-      territorio de Venezolana, esta es generada en moneda nacional y se
-      encuentra regida por la ley ya que es un documento fiscal.
+      La factura nacional es un documento que se emite por la compra de productos o adquisición de servicios encontrados dentro del territorio de Venezolana, esta es generada en moneda nacional y se encuentra regida por la ley ya que es un documento fiscal.
 
       .. warning:: 
       
@@ -7000,9 +6721,7 @@ facturas.
 
    #. **Comportamiento**
 
-      En ADempiere una factura de cuentas por pagar nacional se define
-      según su comportamiento, a continuación se explica el proceder de
-      una **Factura de CxP Nacional**:
+      En ADempiere una factura de cuentas por pagar nacional se define según su comportamiento, a continuación se explica el proceder de una **Factura de CxP Nacional**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -7122,11 +6841,7 @@ facturas.
 
    #. **Definición**
 
-      En ADempiere una factura de cuentas por pagar importación es un
-      documento que se genera por la compra de productos o adquisición
-      de servicios del exterior que son importados a Venezuela, a
-      diferencia de la factura nacional, esta es emitida en moneda
-      extranjera.
+      En ADempiere una factura de cuentas por pagar importación es un documento que se genera por la compra de productos o adquisición de servicios del exterior que son importados a Venezuela, a diferencia de la factura nacional, esta es emitida en moneda extranjera.
 
       .. warning:: 
       
@@ -7134,9 +6849,7 @@ facturas.
 
    #. **Comportamiento**
 
-      En ADempiere una factura de cuentas por pagar importación se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Factura de CxP Importación:**
+      En ADempiere una factura de cuentas por pagar importación se define según su comportamiento, a continuación se explica el proceder de una **Factura de CxP Importación:**
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -7202,12 +6915,7 @@ facturas.
 
    #. **Definición**
 
-      Es una factura que a diferencia de la nacional, esta no es fiscal.
-      Para ADempiere es una factura de estado borrador donde se plantean
-      las condiciones de pago, y el tiempo estimado para esas
-      condiciones. En otras palabras, la factura pro forma es un
-      compromiso de compra/venta donde se establecen los precios y el
-      lapso de tiempo para pagar.
+      Es una factura que a diferencia de la nacional, esta no es fiscal. Para ADempiere es una factura de estado borrador donde se plantean las condiciones de pago, y el tiempo estimado para esas condiciones. En otras palabras, la factura pro forma es un compromiso de compra/venta donde se establecen los precios y el lapso de tiempo para pagar.
 
       .. warning:: 
       
@@ -7215,9 +6923,7 @@ facturas.
 
    #. **Comportamiento**
 
-      En ADempiere una factura de cuentas por pagar pro forma se define
-      según su comportamiento, a continuación se explica el proceder de
-      una **Factura de CxP Pro Forma**:
+      En ADempiere una factura de cuentas por pagar pro forma se define según su comportamiento, a continuación se explica el proceder de una **Factura de CxP Pro Forma**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -7336,11 +7042,7 @@ facturas.
 
    #. **Definición**
 
-      En ADempiere una factura de cuentas por pagar intercompañía se
-      emite cuando la empresa le compra productos o adquiere servicios
-      de otras empresas pertenecientes al mismo consorcio, su
-      comportamiento es igual al de la factura de cuentas por pagar
-      nacional y de igual manera es emitida en moneda nacional.
+      En ADempiere una factura de cuentas por pagar intercompañía se emite cuando la empresa le compra productos o adquiere servicios de otras empresas pertenecientes al mismo consorcio, su comportamiento es igual al de la factura de cuentas por pagar nacional y de igual manera es emitida en moneda nacional.
 
       .. warning:: 
       
@@ -7348,9 +7050,7 @@ facturas.
 
    #. **Comportamiento**
 
-      En ADempiere una factura de cuentas por pagar intercompañía se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Factura de CxP Intercompañía:**
+      En ADempiere una factura de cuentas por pagar intercompañía se define según su comportamiento, a continuación se explica el proceder de una **Factura de CxP Intercompañía:**
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -7475,10 +7175,7 @@ facturas.
 
    #. **Definición**
 
-      En ADempiere es una factura donde se reflejan las deudas que la
-      empresa tiene con el empleado al cual le realizo la compra de los
-      productos o del cual adquirio los servicios, es emitida en moneda
-      nacional al igual que la factura nacional de cuentas por pagar
+      En ADempiere es una factura donde se reflejan las deudas que la empresa tiene con el empleado al cual le realizo la compra de los productos o del cual adquirio los servicios, es emitida en moneda nacional al igual que la factura nacional de cuentas por pagar
 
       .. warning:: 
       
@@ -7486,9 +7183,7 @@ facturas.
 
    #. **Comportamiento**
 
-      En ADempiere una factura de cuentas por pagar empleado se define
-      según su comportamiento, a continuación se explica el proceder de
-      una **Factura de CxP Empleado:**
+      En ADempiere una factura de cuentas por pagar empleado se define según su comportamiento, a continuación se explica el proceder de una **Factura de CxP Empleado:**
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -7608,13 +7303,7 @@ facturas.
 
    #. **Definición**
 
-      Es posible generar las facturas de forma manual, ADempiere brinda
-      la opción de escoger las órdenes de compra de las cuales se desea
-      facturar. Una factura manual implica no realizar todo el
-      procedimiento de llenado de campos, simplemente se parte de una
-      selección de tipo de documento y acción del documento, donde
-      dependiendo de esta última la factura queda en estado "Completo" o
-      "En Proceso".
+      Es posible generar las facturas de forma manual, ADempiere brinda la opción de escoger las órdenes de compra de las cuales se desea facturar. Una factura manual implica no realizar todo el procedimiento de llenado de campos, simplemente se parte de una selección de tipo de documento y acción del documento, donde dependiendo de esta última la factura queda en estado "Completo" o "En Proceso".
 
       .. warning:: 
       
@@ -7622,9 +7311,7 @@ facturas.
 
    #. **Comportamiento**
 
-      En ADempiere una factura de cuentas por pagar manual se define
-      según su comportamiento, a continuación se explica el proceder de
-      una **Factura de CxP Manual**:
+      En ADempiere una factura de cuentas por pagar manual se define según su comportamiento, a continuación se explica el proceder de una **Factura de CxP Manual**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -7749,12 +7436,7 @@ facturas.
 
    #. **Definición**
 
-      Es un documento fiscal que le realiza el proveedor a la empresa
-      cuando esta adquiere un compromiso de compra con entrega
-      indirecta. Se entiende por entrega indirecta cuando el cliente le
-      compra a un vendedor o promotor que no posee el producto sino que
-      es intermediario del proveedor, por lo tanto el cliente retira el
-      producto en el establecimiento del proveedor.
+      Es un documento fiscal que le realiza el proveedor a la empresa cuando esta adquiere un compromiso de compra con entrega indirecta. Se entiende por entrega indirecta cuando el cliente le compra a un vendedor o promotor que no posee el producto sino que es intermediario del proveedor, por lo tanto el cliente retira el producto en el establecimiento del proveedor.
 
       .. warning:: 
       
@@ -7762,9 +7444,7 @@ facturas.
 
    #. **Comportamiento**
 
-      En ADempiere una factura de cuentas por pagar indirecta se define
-      según su comportamiento, a continuación se explica el proceder de
-      una **Factura de CxP Indirecta**:
+      En ADempiere una factura de cuentas por pagar indirecta se define según su comportamiento, a continuación se explica el proceder de una **Factura de CxP Indirecta**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -7883,20 +7563,13 @@ facturas.
 **Tipos de Documentos Ajustes de Cuentas por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere un ajuste es un documento que representa el ingreso o
-egreso monetario de la empresa, todo va a depender si el ajuste es de
-crédito o de débito. A continuación se define el comportamiento de un
-ajuste de débito y un ajuste de crédito de cuentas por pagar en
-ADempiere.
+En ADempiere un ajuste es un documento que representa el ingreso o egreso monetario de la empresa, todo va a depender si el ajuste es de crédito o de débito. A continuación se define el comportamiento de un ajuste de débito y un ajuste de crédito de cuentas por pagar en ADempiere.
 
 #. **Ajuste de Débito de Cuentas por Pagar**
 
    #. **Definición**
 
-      En ADempiere, este documento representa la deuda o la cantidad de
-      dinero que la empresa le debe pagar al socio de negocio,
-      mayormente este caso se presenta por la compra de productos o
-      servicios, o por prestaciones que le hacen a la empresa.
+      En ADempiere, este documento representa la deuda o la cantidad de dinero que la empresa le debe pagar al socio de negocio, mayormente este caso se presenta por la compra de productos o servicios, o por prestaciones que le hacen a la empresa.
 
       .. warning:: 
       
@@ -7904,9 +7577,7 @@ ADempiere.
 
    #. **Comportamiento**
 
-      En ADempiere un ajuste de débito de cuentas por pagar se define
-      según su comportamiento, a continuación se explica el proceder de
-      un **Ajuste de Débito de CxP**:
+      En ADempiere un ajuste de débito de cuentas por pagar se define según su comportamiento, a continuación se explica el proceder de un **Ajuste de Débito de CxP**:
 
       +--------------------------+-------------+--------------------------+
       | **Campo**                | **Valor**   | **Comportamiento en      |
@@ -7966,10 +7637,7 @@ ADempiere.
 
    #. **Definición**
 
-      En ADempiere, este documento representa la deuda o la cantidad de
-      dinero que el socio de negocio le debe reintegrar a la empresa.
-      Suele presentarse el caso de devolución de productos o servicios
-      comprados, donde amerita que se aplique un ajuste de crédito.
+      En ADempiere, este documento representa la deuda o la cantidad de dinero que el socio de negocio le debe reintegrar a la empresa. Suele presentarse el caso de devolución de productos o servicios comprados, donde amerita que se aplique un ajuste de crédito.
 
       .. warning:: 
       
@@ -7977,9 +7645,7 @@ ADempiere.
 
    #. **Comportamiento**
 
-      En ADempiere un ajuste de crédito de cuentas por pagar se define
-      según su comportamiento, a continuación se explica el proceder de
-      un **Ajuste de Crédito de CxP**:
+      En ADempiere un ajuste de crédito de cuentas por pagar se define según su comportamiento, a continuación se explica el proceder de un **Ajuste de Crédito de CxP**:
 
       +--------------------------+-------------+--------------------------+
       | **Campo**                | **Valor**   | **Comportamiento en      |
@@ -8038,21 +7704,13 @@ ADempiere.
 **Tipos de Documentos Notas de Débito de Cuentas por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Es un documento que se aplica a una factura para aumentar el monto de la
-misma, una nota de débito se podría realizar bajo el concepto de gastos
-administrativos y siempre nace de un documento afectado como una factura
-o una nota de crédito. Actualmente en ADempiere se utilizan cinco (5)
-diferentes notas de débito como nacional, importación, intercompañía,
-empleado e indirectas.
+Es un documento que se aplica a una factura para aumentar el monto de la misma, una nota de débito se podría realizar bajo el concepto de gastos administrativos y siempre nace de un documento afectado como una factura o una nota de crédito. Actualmente en ADempiere se utilizan cinco (5) diferentes notas de débito como nacional, importación, intercompañía, empleado e indirectas.
 
 #. **Nota de Débito de Cuentas por Pagar Nacional**
 
    #. **Definición**
 
-      En ADempiere una nota de débito en cuentas por pagar nacional es
-      utilizada para generar un aumento en el monto de la deuda de la
-      empresa con el proveedor, esta es emitida en moneda nacional al
-      igual que la factura.
+      En ADempiere una nota de débito en cuentas por pagar nacional es utilizada para generar un aumento en el monto de la deuda de la empresa con el proveedor, esta es emitida en moneda nacional al igual que la factura.
 
       .. warning:: 
       
@@ -8060,9 +7718,7 @@ empleado e indirectas.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de débito de cuentas por pagar nacional se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Débito de CxP Nacional**:
+      En ADempiere una nota de débito de cuentas por pagar nacional se define según su comportamiento, a continuación se explica el proceder de una **Nota de Débito de CxP Nacional**:
 
       +--------------------------+-------------+--------------------------+
       | **Campo**                | **Valor**   | **Comportamiento en      |
@@ -8133,10 +7789,7 @@ empleado e indirectas.
 
    #. **Definición**
 
-      En ADempiere es un documento legal idéntico a la nota de débito
-      nacional, con la diferencia de que por ser de importación su monto
-      se expresa en moneda extranjera y refleja en la factura de
-      importación el monto extra con su respectiva descripción.
+      En ADempiere es un documento legal idéntico a la nota de débito nacional, con la diferencia de que por ser de importación su monto se expresa en moneda extranjera y refleja en la factura de importación el monto extra con su respectiva descripción.
 
       .. warning:: 
       
@@ -8144,9 +7797,7 @@ empleado e indirectas.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de débito de cuentas por pagar importación
-      se define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Débito de CxP Importación**:
+      En ADempiere una nota de débito de cuentas por pagar importación se define según su comportamiento, a continuación se explica el proceder de una **Nota de Débito de CxP Importación**:
 
       +--------------------------+-------------+--------------------------+
       | **Campo**                | **Valor**   | **Comportamiento en      |
@@ -8217,9 +7868,7 @@ empleado e indirectas.
 
    #. **Definición**
 
-      En ADempiere es un documento que se realiza para generar un
-      aumento a facturas de cuentas por pagar intercompañía que
-      pertenecen al mismo consorcio de la empresa.
+      En ADempiere es un documento que se realiza para generar un aumento a facturas de cuentas por pagar intercompañía que pertenecen al mismo consorcio de la empresa.
 
       .. warning:: 
       
@@ -8227,9 +7876,7 @@ empleado e indirectas.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de débito de cuentas por pagar intercompañía
-      se define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Débito de CxP Intercompañía**:
+      En ADempiere una nota de débito de cuentas por pagar intercompañía se define según su comportamiento, a continuación se explica el proceder de una **Nota de Débito de CxP Intercompañía**:
 
       +--------------------------+-------------+--------------------------+
       | **Campo**                | **Valor**   | **Comportamiento en      |
@@ -8300,10 +7947,7 @@ empleado e indirectas.
 
    #. **Definición**
 
-      En ADempiere se utiliza este documento para generar una nota de
-      débito a la factura de cuentas por pagar empleado, aumentando el
-      monto de la deuda que la empresa tiene con el empleado, el mismo
-      se emite en moneda nacional.
+      En ADempiere se utiliza este documento para generar una nota de débito a la factura de cuentas por pagar empleado, aumentando el monto de la deuda que la empresa tiene con el empleado, el mismo se emite en moneda nacional.
 
       .. warning:: 
       
@@ -8311,9 +7955,7 @@ empleado e indirectas.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de débito de cuentas por pagar empleado se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Débito de CxP Empleado**:
+      En ADempiere una nota de débito de cuentas por pagar empleado se define según su comportamiento, a continuación se explica el proceder de una **Nota de Débito de CxP Empleado**:
 
       +--------------------------+-------------+--------------------------+
       | **Campo**                | **Valor**   | **Comportamiento en      |
@@ -8384,9 +8026,7 @@ empleado e indirectas.
 
    #. **Definición**
 
-      Es un documento fiscal emitido en moneda nacional, que refleja un
-      aumento en el monto a cancelar de una factura de cuentas por pagar
-      indirecta cuando el documento se encuentra en estado completo.
+      Es un documento fiscal emitido en moneda nacional, que refleja un aumento en el monto a cancelar de una factura de cuentas por pagar indirecta cuando el documento se encuentra en estado completo.
 
       .. warning:: 
       
@@ -8394,9 +8034,7 @@ empleado e indirectas.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de débito de cuentas por pagar indirecta se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Débito CxP Indirecta**:
+      En ADempiere una nota de débito de cuentas por pagar indirecta se define según su comportamiento, a continuación se explica el proceder de una **Nota de Débito CxP Indirecta**:
 
       +--------------------------+-------------+--------------------------+
       | **Campo**                | **Valor**   | **Comportamiento en      |
@@ -8466,27 +8104,15 @@ empleado e indirectas.
 **Tipos de Documentos Retenciones y Declaraciones de Cuentas por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Las retenciones siempre son realizadas por el cliente, ya sea en cuentas
-por cobrar o cuentas por pagar, las declaraciones de retenciones son
-realizadas tanto por el cliente como por el proveedor.
+Las retenciones siempre son realizadas por el cliente, ya sea en cuentas por cobrar o cuentas por pagar, las declaraciones de retenciones son realizadas tanto por el cliente como por el proveedor.
 
-Se entiende por retenciones en cuentas por pagar, la retención de un
-porcentaje (%) del monto que la empresa como cliente le va cancelar al
-proveedor, y por declaraciones se entiende la presentación ante el
-"**SENIAT**" de las diferentes retenciones que la empresa como cliente
-le aplicó a los proveedores. Existen actualmente en ADempiere, cuatro
-(4) diferentes documentos de retenciones y tres (3) diferentes
-documentos de declaraciones que a continuación se definen por su
-comportamiento en el mismo.
+Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje (%) del monto que la empresa como cliente le va cancelar al proveedor, y por declaraciones se entiende la presentación ante el "**SENIAT**" de las diferentes retenciones que la empresa como cliente le aplicó a los proveedores. Existen actualmente en ADempiere, cuatro (4) diferentes documentos de retenciones y tres (3) diferentes documentos de declaraciones que a continuación se definen por su comportamiento en el mismo.
 
 #.  **Retención de IVA 75% de Cuentas por Pagar**
 
    #. **Definición**
 
-       En ADempiere es posible generar una retención del setenta y cinco
-       (75) por ciento (%) del IVA que posee una factura emitida por el
-       proveedor, para ello se deben tener configuradas las retenciones
-       en ADempiere.
+       En ADempiere es posible generar una retención del setenta y cinco  (75) por ciento (%) del IVA que posee una factura emitida por el  proveedor, para ello se deben tener configuradas las retenciones  en ADempiere.
 
       .. warning:: 
       
@@ -8494,9 +8120,7 @@ comportamiento en el mismo.
 
    #. **Comportamiento**
 
-       En ADempiere una Retención de IVA en cuentas por pagar se define
-       según su comportamiento, a continuación se explica el proceder de
-       una **Retención de IVA 75% de Cuentas por Pagar**:
+       En ADempiere una Retención de IVA en cuentas por pagar se define  según su comportamiento, a continuación se explica el proceder de  una **Retención de IVA 75% de Cuentas por Pagar**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -8573,10 +8197,7 @@ comportamiento en el mismo.
 
    #. **Definición**
 
-       En ADempiere es posible generar una retención del cien (100) por
-       ciento (%) del IVA que posee una factura emitida por el
-       proveedor, para ello se deben tener configuradas las retenciones
-       en ADempiere.
+       En ADempiere es posible generar una retención del cien (100) por  ciento (%) del IVA que posee una factura emitida por el  proveedor, para ello se deben tener configuradas las retenciones  en ADempiere.
 
       .. warning:: 
        
@@ -8584,9 +8205,7 @@ comportamiento en el mismo.
 
    #. **Comportamiento**
 
-       En ADempiere una retención de IVA en cuentas por pagar se define
-       según su comportamiento, a continuación se explica el proceder de
-       una **Retención de IVA 100% de Cuentas por Pagar**:
+       En ADempiere una retención de IVA en cuentas por pagar se define  según su comportamiento, a continuación se explica el proceder de  una **Retención de IVA 100% de Cuentas por Pagar**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -8659,13 +8278,11 @@ comportamiento en el mismo.
                1. La venta de exportación de bienes muebles corporales.
                1. La exportación de servicios
 
-#.  **Retención de ISLR de Cuentas por Pagar**
+#. **Retención de ISLR de Cuentas por Pagar**
 
    #. **Definición**
 
-       En ADempiere es posible generar una retención del ISLR que posee
-       una factura emitida por el proveedor, para ello se deben tener
-       configuradas las retenciones en ADempiere.
+       En ADempiere es posible generar una retención del ISLR que posee  una factura emitida por el proveedor, para ello se deben tener  configuradas las retenciones en ADempiere.
 
       .. warning:: 
       
@@ -8673,9 +8290,7 @@ comportamiento en el mismo.
 
    #. **Comportamiento**
 
-       En ADempiere una retención de ISLR en cuentas por pagar se define
-       según su comportamiento, a continuación se explica el proceder de
-       una **Retención de ISLR de Cuentas por Pagar**:
+       En ADempiere una retención de ISLR en cuentas por pagar se define  según su comportamiento, a continuación se explica el proceder de  una **Retención de ISLR de Cuentas por Pagar**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -8791,9 +8406,7 @@ comportamiento en el mismo.
 
    #. **Definición**
 
-       En ADempiere es posible generar una retención municipal a una
-       factura emitida por el proveedor, para ello se deben tener
-       configuradas las retenciones en ADempiere.
+       En ADempiere es posible generar una retención municipal a una  factura emitida por el proveedor, para ello se deben tener  configuradas las retenciones en ADempiere.
 
       .. warning:: 
       
@@ -8801,9 +8414,7 @@ comportamiento en el mismo.
 
    #. **Comportamiento**
 
-       En ADempiere una retención municipal en cuentas por pagar se
-       define según su comportamiento, a continuación se explica el
-       proceder de una **Retención Municipal de Cuentas por Pagar**:
+       En ADempiere una retención municipal en cuentas por pagar se  define según su comportamiento, a continuación se explica el  proceder de una **Retención Municipal de Cuentas por Pagar**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -8872,10 +8483,7 @@ comportamiento en el mismo.
 
    #. **Definición**
 
-       En ADempiere es posible generar una retención del setenta y cinco
-       (75) por ciento (%) del IVA que posee una nota de crédito emitida
-       por el proveedor, para ello se deben tener configuradas las
-       retenciones en ADempiere.
+       En ADempiere es posible generar una retención del setenta y cinco  (75) por ciento (%) del IVA que posee una nota de crédito emitida  por el proveedor, para ello se deben tener configuradas las  retenciones en ADempiere.
 
       .. warning:: 
       
@@ -8883,10 +8491,7 @@ comportamiento en el mismo.
 
    #. **Comportamiento**
 
-       En ADempiere una Retención de IVA para nota de crédito en cuentas
-       por pagar se define según su comportamiento, a continuación se
-       explica el proceder de una **Retención de IVA 75% para Nota de
-       Crédito de CxP**:
+       En ADempiere una Retención de IVA para nota de crédito en cuentas  por pagar se define según su comportamiento, a continuación se  explica el proceder de una **Retención de IVA 75% para Nota de  Crédito de CxP**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -8963,10 +8568,7 @@ comportamiento en el mismo.
 
    #. **Definición**
 
-       En ADempiere es posible generar una retención del cien (100) por
-       ciento (%) del IVA que posee una nota de crédito emitida por el
-       proveedor, para ello se deben tener configuradas las retenciones
-       en ADempiere.
+       En ADempiere es posible generar una retención del cien (100) por  ciento (%) del IVA que posee una nota de crédito emitida por el  proveedor, para ello se deben tener configuradas las retenciones  en ADempiere.
 
       .. warning:: 
       
@@ -8974,10 +8576,7 @@ comportamiento en el mismo.
 
    #. **Comportamiento**
 
-       En ADempiere una Retención de IVA para nota de crédito en cuentas
-       por pagar se define según su comportamiento, a continuación se
-       explica el proceder de una **Retención de IVA 100% para Nota de
-       Crédito de CxP**:
+       En ADempiere una Retención de IVA para nota de crédito en cuentas  por pagar se define según su comportamiento, a continuación se  explica el proceder de una **Retención de IVA 100% para Nota de  Crédito de CxP**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -9054,9 +8653,7 @@ comportamiento en el mismo.
 
    #. **Definición**
 
-       En ADempiere es posible generar una retención del ISLR que posee
-       una nota de crédito emitida por el proveedor, para ello se deben
-       tener configuradas las retenciones en ADempiere.
+       En ADempiere es posible generar una retención del ISLR que posee  una nota de crédito emitida por el proveedor, para ello se deben  tener configuradas las retenciones en ADempiere.
 
       .. warning:: 
       
@@ -9064,10 +8661,7 @@ comportamiento en el mismo.
 
    #. **Comportamiento**
 
-       En ADempiere una retención de ISLR para nota de crédito en
-       cuentas por pagar se define según su comportamiento, a
-       continuación se explica el proceder de una **Retención de ISLR
-       para nota de crédito de CxP**:
+       En ADempiere una retención de ISLR para nota de crédito en  cuentas por pagar se define según su comportamiento, a  continuación se explica el proceder de una **Retención de ISLR  para nota de crédito de CxP**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -9183,9 +8777,7 @@ comportamiento en el mismo.
 
    #. **Definición**
 
-       En ADempiere es posible generar una retención municipal a una
-       nota de crédito emitida por el proveedor, para ello se deben
-       tener configuradas las retenciones en ADempiere.
+       En ADempiere es posible generar una retención municipal a una  nota de crédito emitida por el proveedor, para ello se deben  tener configuradas las retenciones en ADempiere.
 
       .. warning:: 
       
@@ -9193,10 +8785,7 @@ comportamiento en el mismo.
 
    #. **Comportamiento**
 
-       En ADempiere una retención municipal para nota de crédito en
-       cuentas por pagar se define según su comportamiento, a
-       continuación se explica el proceder de una **Retención Municipal
-       para Nota de Crédito de CxP**:
+       En ADempiere una retención municipal para nota de crédito en  cuentas por pagar se define según su comportamiento, a  continuación se explica el proceder de una **Retención Municipal  para Nota de Crédito de CxP**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -9265,11 +8854,7 @@ comportamiento en el mismo.
 
    #. **Definición**
 
-       En ADempiere es posible generar retenciones de IVA a proveedores,
-       al ser presentadas ante el "**SENIAT**" son consideradas
-       declaraciones. El incumplimiento de las retenciones y
-       declaraciones de IVA puede causar multas y sanciones establecidas
-       en la ley.
+       En ADempiere es posible generar retenciones de IVA a proveedores,  al ser presentadas ante el "**SENIAT**" son consideradas  declaraciones. El incumplimiento de las retenciones y  declaraciones de IVA puede causar multas y sanciones establecidas  en la ley.
 
       .. warning:: 
       
@@ -9277,9 +8862,7 @@ comportamiento en el mismo.
 
    #. **Comportamiento**
 
-       En ADempiere una declaración de IVA de cuentas por pagar se
-       define según su comportamiento, a continuación se explica el
-       proceder de una **Declaración de IVA de CxP**:
+       En ADempiere una declaración de IVA de cuentas por pagar se  define según su comportamiento, a continuación se explica el  proceder de una **Declaración de IVA de CxP**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -9338,11 +8921,7 @@ comportamiento en el mismo.
 
    #. **Definición**
 
-       En ADempiere es posible generar retenciones de ISLR a
-       proveedores, al ser presentadas ante el "**SENIAT**" son
-       consideradas declaraciones. El incumplimiento de las retenciones
-       y declaraciones ISLR puede causar multas y sanciones establecidas
-       en la ley.
+       En ADempiere es posible generar retenciones de ISLR a  proveedores, al ser presentadas ante el "**SENIAT**" son  consideradas declaraciones. El incumplimiento de las retenciones  y declaraciones ISLR puede causar multas y sanciones establecidas  en la ley.
 
       .. warning:: 
       
@@ -9350,9 +8929,7 @@ comportamiento en el mismo.
 
    #. **Comportamiento**
 
-       En ADempiere una declaración de ISLR en cuentas por pagar se
-       define según su comportamiento, a continuación se explica el
-       proceder de una **Declaración de ISLR de CxP**:
+       En ADempiere una declaración de ISLR en cuentas por pagar se  define según su comportamiento, a continuación se explica el  proceder de una **Declaración de ISLR de CxP**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -9411,11 +8988,7 @@ comportamiento en el mismo.
 
    #. **Definición**
 
-       En ADempiere es posible generar retenciones municipales a
-       proveedores, al ser presentadas ante el "**SENIAT**" son
-       consideradas declaraciones. El incumplimiento de las retenciones
-       y declaraciones municipales puede causar multas y sanciones
-       establecidas en la ley.
+       En ADempiere es posible generar retenciones municipales a  proveedores, al ser presentadas ante el "**SENIAT**" son  consideradas declaraciones. El incumplimiento de las retenciones  y declaraciones municipales puede causar multas y sanciones  establecidas en la ley.
 
       .. warning:: 
       
@@ -9423,9 +8996,7 @@ comportamiento en el mismo.
 
    #. **Comportamiento**
 
-       En ADempiere una declaración municipal de cuentas por pagar se
-       define según su comportamiento, a continuación se explica el
-       proceder de una **Declaración Municipal de CxP**:
+       En ADempiere una declaración municipal de cuentas por pagar se  define según su comportamiento, a continuación se explica el  proceder de una **Declaración Municipal de CxP**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -9474,9 +9045,7 @@ comportamiento en el mismo.
 **Tipo de Documento Pagaré Bancario de Cuentas por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Es un documento donde la empresa como cliente se compromete a pagar al
-proveedor una cantidad monetaria en la fecha acordada, misma fecha se
-establece en el pagaré.
+Es un documento donde la empresa como cliente se compromete a pagar al proveedor una cantidad monetaria en la fecha acordada, misma fecha se establece en el pagaré.
 
 El tiempo mayormente utilizado para un pagaré es 30, 60 y 90 días.
 
@@ -9484,10 +9053,7 @@ El tiempo mayormente utilizado para un pagaré es 30, 60 y 90 días.
 
    #. **Definición**
 
-      En ADempiere el tipo de documento pagaré bancario es realizado en
-      "**Documentos por Pagar**", seleccionando como tipo de documento
-      el pagaré bancario. Este es un proceso que genera deudas a la
-      empresa por prestamos solicitados.
+      En ADempiere el tipo de documento pagaré bancario es realizado en "**Documentos por Pagar**", seleccionando como tipo de documento el pagaré bancario. Este es un proceso que genera deudas a la empresa por prestamos solicitados.
 
       .. warning:: 
       
@@ -9495,9 +9061,7 @@ El tiempo mayormente utilizado para un pagaré es 30, 60 y 90 días.
 
    #. **Comportamiento**
 
-      En ADempiere un pagaré bancario de cuentas por pagar se define
-      según su comportamiento, a continuación se explica el proceder de
-      un **Pagaré Bancario de CxP**:
+      En ADempiere un pagaré bancario de cuentas por pagar se define según su comportamiento, a continuación se explica el proceder de un **Pagaré Bancario de CxP**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -9562,19 +9126,13 @@ El tiempo mayormente utilizado para un pagaré es 30, 60 y 90 días.
 **Tipo de Documento Interés Bancario de Cuentas por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-El interés es un dinero que se genera cuando se presentan casos de
-préstamos, créditos y depósitos, donde el banco como acreedor impone a
-la empresa como deudor un porcentaje (%) de dinero extra para compensar
-económicamente la disponibilidad de su dinero.
+El interés es un dinero que se genera cuando se presentan casos de préstamos, créditos y depósitos, donde el banco como acreedor impone a la empresa como deudor un porcentaje (%) de dinero extra para compensar económicamente la disponibilidad de su dinero.
 
 #. **Interés Bancario de Cuentas por Pagar**
 
    #. **Definición**
 
-      En ADempiere el prorcentaje de interés bancario es aplicado junto
-      con el monto a pagar en el momento, es decir, cada vez que la
-      empresa cancele al acreedor, debe cancelar el porcentaje de lo que
-      debe más el porcentaje de intereses.
+      En ADempiere el prorcentaje de interés bancario es aplicado junto con el monto a pagar en el momento, es decir, cada vez que la empresa cancele al acreedor, debe cancelar el porcentaje de lo que debe más el porcentaje de intereses.
 
       .. warning:: 
       
@@ -9582,9 +9140,7 @@ económicamente la disponibilidad de su dinero.
 
    #. **Comportamiento**
 
-      En ADempiere los interés bancario de cuentas por pagar se definen
-      según su comportamiento, a continuación se explica el proceder de
-      los **Interés Bancario de CxP**:
+      En ADempiere los interés bancario de cuentas por pagar se definen según su comportamiento, a continuación se explica el proceder de los **Interés Bancario de CxP**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -9626,24 +9182,13 @@ económicamente la disponibilidad de su dinero.
 **Tipos de Documentos de Cuentas por Pagar Gubernamental**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Se refiere a las deudas con entes relacionados con el gobierno que
-aportan beneficio social a organizaciones, es decir, son aquellos que en
-pro a brindar servicios públicos a la nación, establecen normas y leyes
-que los ayudan a regular los procesos y la conducta social de las
-personas. Así mismo, estos entes gubernamentales se encargan del
-cumplimiento de las normativas establecidas.
+Se refiere a las deudas con entes relacionados con el gobierno que aportan beneficio social a organizaciones, es decir, son aquellos que en pro a brindar servicios públicos a la nación, establecen normas y leyes que los ayudan a regular los procesos y la conducta social de las personas. Así mismo, estos entes gubernamentales se encargan del cumplimiento de las normativas establecidas.
 
 #. **Cuentas por Pagar Gubernamental**
 
    #. **Definición**
 
-      El documento cuentas por pagar gubernamental, es definido según su
-      comportamiento en ADempiere y utilizado para las deudas de la
-      empresa por los servicios prestados por entes públicos, como lo
-      son el seguro social, banavih, seniat, inces, entre otros. Estas
-      deudas son provenientes de declaraciones de retenciones,
-      impuestos, entre otros. El incumplimiento en pago de estas deudas
-      puede acarrear multas y sanciones legales establecidas en la ley.
+      El documento cuentas por pagar gubernamental, es definido según su comportamiento en ADempiere y utilizado para las deudas de la empresa por los servicios prestados por entes públicos, como lo son el seguro social, banavih, seniat, inces, entre otros. Estas deudas son provenientes de declaraciones de retenciones, impuestos, entre otros. El incumplimiento en pago de estas deudas puede acarrear multas y sanciones legales establecidas en la ley.
 
       .. warning:: 
       
@@ -9651,9 +9196,7 @@ cumplimiento de las normativas establecidas.
 
    #. **Comportamiento**
 
-      En ADempiere una cuenta por pagar gubernamental se define según su
-      comportamiento, a continuación se explica el proceder de **CxP
-      Gubernamental**:
+      En ADempiere una cuenta por pagar gubernamental se define según su comportamiento, a continuación se explica el proceder de **CxP Gubernamental**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -9739,19 +9282,13 @@ cumplimiento de las normativas establecidas.
 **Tipos de Documentos de Cuentas por Pagar Gastos**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Son todos aquellos gastos que la empresa esta en la obligación de pagar,
-como gastos pendientes o gastos acumulados. Los gastos son considerados
-en algunas ocasiones inversiones, ya que la empresa puede gastar una
-cantidad de dinero en materia prima pero luego de la producción y venta
-ese dinero se reintegra con ganancias.
+Son todos aquellos gastos que la empresa esta en la obligación de pagar, como gastos pendientes o gastos acumulados. Los gastos son considerados en algunas ocasiones inversiones, ya que la empresa puede gastar una cantidad de dinero en materia prima pero luego de la producción y venta ese dinero se reintegra con ganancias.
 
 #. **Cuentas por Pagar Gastos**
 
    #. **Definición**
 
-      En ADempiere los gastos representan egresos monetarios, que muchas
-      veces a futuro son recuperados. A continuación se define su
-      comportamiento en el mismo.
+      En ADempiere los gastos representan egresos monetarios, que muchas veces a futuro son recuperados. A continuación se define su comportamiento en el mismo.
 
       .. warning:: 
       
@@ -9759,9 +9296,7 @@ ese dinero se reintegra con ganancias.
 
    #. **Comportamiento**
 
-      En ADempiere las cuentas por pagar gastos se definen según su
-      comportamiento, a continuación se explica el proceder de **CxP
-      Gastos**:
+      En ADempiere las cuentas por pagar gastos se definen según su comportamiento, a continuación se explica el proceder de **CxP Gastos**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -9804,28 +9339,20 @@ ese dinero se reintegra con ganancias.
 |Nota de Crédito de Cuentas por Pagar| **Nota de Crédito de Cuentas por Pagar**
 -------------------------------------------------------------------------------
 
-Es un documento que se aplica a una factura con la finalidad de
-disminuir el monto de la misma, ya sea por concepto de algún tipo de
-descuento promocional o por devolución de productos comprados.
+Es un documento que se aplica a una factura con la finalidad de disminuir el monto de la misma, ya sea por concepto de algún tipo de descuento promocional o por devolución de productos comprados.
 
 **Tipos de Documentos Nota de Crédito de Cuentas por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere se utilizan cinco (5) diferentes notas de créditos,
-pertenecientes a las cuentas por pagar y son definidas por su
-comportamiento.
+En ADempiere se utilizan cinco (5) diferentes notas de créditos, pertenecientes a las cuentas por pagar y son definidas por su comportamiento.
 
-A continuación se definen las notas de crédito de cuentas por pagar
-según su comportamiento.
+A continuación se definen las notas de crédito de cuentas por pagar según su comportamiento.
 
 #. **Nota de Crédito de Cuentas por Pagar Nacional**
 
    #. **Definición**
 
-      Es un documento legal que se aplica a una factura de cuentas por
-      pagar nacional emitida por un socio del negocio tipo proveedor que
-      se encuentra ubicado dentro del territorio de Venezuela, con la
-      finalidad de disminuir el monto de la misma.
+      Es un documento legal que se aplica a una factura de cuentas por pagar nacional emitida por un socio del negocio tipo proveedor que se encuentra ubicado dentro del territorio de Venezuela, con la finalidad de disminuir el monto de la misma.
 
       .. warning:: 
       
@@ -9833,9 +9360,7 @@ según su comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de crédito de cuentas por pagar nacional se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Crédito de CxP Nacional**:
+      En ADempiere una nota de crédito de cuentas por pagar nacional se define según su comportamiento, a continuación se explica el proceder de una **Nota de Crédito de CxP Nacional**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -9928,10 +9453,7 @@ según su comportamiento.
 
    #. **Definición**
 
-      Es un documento legal que se aplica a una factura de cuentas por
-      pagar importación emitida por un socio del negocio tipo proveedor
-      que se encuentra ubicado fuera del territorio de Venezuela, con la
-      finalidad de disminuir el monto de la misma.
+      Es un documento legal que se aplica a una factura de cuentas por pagar importación emitida por un socio del negocio tipo proveedor que se encuentra ubicado fuera del territorio de Venezuela, con la finalidad de disminuir el monto de la misma.
 
       .. warning:: 
       
@@ -9939,9 +9461,7 @@ según su comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de crédito de cuentas por pagar importación
-      se define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Crédito de CxP Importación**:
+      En ADempiere una nota de crédito de cuentas por pagar importación se define según su comportamiento, a continuación se explica el proceder de una **Nota de Crédito de CxP Importación**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -10034,10 +9554,7 @@ según su comportamiento.
 
    #. **Definición**
 
-      Es un documento legal que se aplica a una factura de cuentas por
-      pagar intercompañía emitida por otra empresa perteneciente al
-      mismo consorcio, con la finalidad de disminuir el monto de la
-      misma.
+      Es un documento legal que se aplica a una factura de cuentas por pagar intercompañía emitida por otra empresa perteneciente al mismo consorcio, con la finalidad de disminuir el monto de la misma.
 
       .. warning:: 
       
@@ -10045,10 +9562,7 @@ según su comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de crédito de cuentas por pagar
-      intercompañía se define según su comportamiento, a continuación se
-      explica el proceder de una **Nota de Crédito de CxP
-      Intercompañía**:
+      En ADempiere una nota de crédito de cuentas por pagar intercompañía se define según su comportamiento, a continuación se explica el proceder de una **Nota de Crédito de CxP Intercompañía**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -10141,10 +9655,7 @@ según su comportamiento.
 
    #. **Definición**
 
-      Es un documento legal que se aplica a la factura de cuentas por
-      pagar empleado realizada por el trabajador a la empresa por una
-      venta determinada, con la finalidad de disminuir el monto de la
-      misma.
+      Es un documento legal que se aplica a la factura de cuentas por pagar empleado realizada por el trabajador a la empresa por una venta determinada, con la finalidad de disminuir el monto de la misma.
 
       .. warning:: 
       
@@ -10152,9 +9663,7 @@ según su comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de crédito de cuentas por pagar empleado se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Crédito de CxP Empleado**:
+      En ADempiere una nota de crédito de cuentas por pagar empleado se define según su comportamiento, a continuación se explica el proceder de una **Nota de Crédito de CxP Empleado**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -10247,11 +9756,7 @@ según su comportamiento.
 
    #. **Definición**
 
-      Es un documento legal que se aplica a una factura de cuentas por
-      pagar indirecta emitida por un socio del negocio tipo proveedor a
-      la empresa cuando esta adquiere un compromiso de compra con
-      entrega indirecta, con la finalidad de disminuir el monto de la
-      factura.
+      Es un documento legal que se aplica a una factura de cuentas por pagar indirecta emitida por un socio del negocio tipo proveedor a la empresa cuando esta adquiere un compromiso de compra con entrega indirecta, con la finalidad de disminuir el monto de la factura.
 
       .. warning:: 
       
@@ -10259,9 +9764,7 @@ según su comportamiento.
 
    #. **Comportamiento**
 
-      En ADempiere una nota de crédito de cuentas por pagar indirecta se
-      define según su comportamiento, a continuación se explica el
-      proceder de una **Nota de Crédito de CxP Indirecta**:
+      En ADempiere una nota de crédito de cuentas por pagar indirecta se define según su comportamiento, a continuación se explica el proceder de una **Nota de Crédito de CxP Indirecta**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -10353,29 +9856,20 @@ según su comportamiento.
 |Comisión de Ventas| **Comisión de Ventas**
 -------------------------------------------
 
-Es el documento donde se reflejan las comisiones de ventas que le
-corresponden a los trabajadores de la empresa. Las comisiones son
-incentivos que las empresas le ofrecen a sus trabajadores para que estos
-se motiven a vender más, mientras más ventas tenga una empresa más
-ganancias monetarias posee.
+Es el documento donde se reflejan las comisiones de ventas que le corresponden a los trabajadores de la empresa. Las comisiones son incentivos que las empresas le ofrecen a sus trabajadores para que estos se motiven a vender más, mientras más ventas tenga una empresa más ganancias monetarias posee.
 
 **Tipo de Documento Comisión de Ventas**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere se utiliza el documento comisión de ventas para controlar
-contablemente las comisiones por motivo de las ventas de los productos y
-servicios.
+En ADempiere se utiliza el documento comisión de ventas para controlar contablemente las comisiones por motivo de las ventas de los productos y servicios.
 
-A continuación se define el comportamiento del documento comisión de
-ventas.
+A continuación se define el comportamiento del documento comisión de ventas.
 
 #. **Comisión de Venta**
 
    #. **Definición**
 
-      Es un documento utilizado en la empresa para controlar y dar
-      seguimiento a las comisiones que los trabajadores se ganan por las
-      ventas de los productos y servicios.
+      Es un documento utilizado en la empresa para controlar y dar seguimiento a las comisiones que los trabajadores se ganan por las ventas de los productos y servicios.
 
       .. warning:: 
       
@@ -10383,9 +9877,7 @@ ventas.
 
    #. **Comportamiento**
 
-      En ADempiere la comisión de venta se define según su
-      comportamiento, a continuación se explica el proceder de una
-      **Comisión de Venta**:
+      En ADempiere la comisión de venta se define según su comportamiento, a continuación se explica el proceder de una **Comisión de Venta**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -10437,27 +9929,18 @@ ventas.
 |Selección de Pago de Cuentas por Pagar| **Selección de Pago**
 --------------------------------------------------------------
 
-Este documento permite seleccionar los documentos por pagar que posea la
-empresa, agrupándolos para luego ser pagados todos o algunos de ellos,
-dependiendo de la cantidad de pagos que sean autorizados.
+Este documento permite seleccionar los documentos por pagar que posea la empresa, agrupándolos para luego ser pagados todos o algunos de ellos, dependiendo de la cantidad de pagos que sean autorizados.
 
 **Tipo de Documento Solicitud de Pagos de Cuentas por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Es un documento que se elabora cuando no se poseen todos los datos
-necesarios para realizar la selección de pagos, en este documento se
-solicita que se paguen los documentos agrupados. Un caso de solicitud de
-pagos, podría ser cuando no se sabe exactamente desde que cuenta se
-realizarán los pagos.
+Es un documento que se elabora cuando no se poseen todos los datos necesarios para realizar la selección de pagos, en este documento se solicita que se paguen los documentos agrupados. Un caso de solicitud de pagos, podría ser cuando no se sabe exactamente desde que cuenta se realizarán los pagos.
 
 #. **Solicitud de Pagos de Cuentas por Pagar**
 
    #. **Definición**
 
-      Es un proceso realizado por el departamento de cuentas por pagar o
-      tesorería de una empresa. Dicho departamento se encarga de
-      realizar la solicitud de pagos y esperar autorización de sus
-      superiores para proceder a realizar la selección de pagos.
+      Es un proceso realizado por el departamento de cuentas por pagar o tesorería de una empresa. Dicho departamento se encarga de realizar la solicitud de pagos y esperar autorización de sus superiores para proceder a realizar la selección de pagos.
 
       .. warning:: 
       
@@ -10465,9 +9948,7 @@ realizarán los pagos.
 
    #. **Comportamiento**
 
-      En ADempiere la solicitud de pagos se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Solicitud de Pagos**:
+      En ADempiere la solicitud de pagos se define según su comportamiento, a continuación se explica el proceder de **Solicitud de Pagos**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -10519,19 +10000,13 @@ realizarán los pagos.
 **Tipo de Documento Selección de Pagos de Cuentas por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Es un documento que se elabora cuando se poseen todos los datos
-necesarios para realizar la selección de pagos, en este documento se
-agrupan todas las cuentas por pagar que posee la empresa. Posterior a
-este proceso, se procede a realizar el pago.
+Es un documento que se elabora cuando se poseen todos los datos necesarios para realizar la selección de pagos, en este documento se agrupan todas las cuentas por pagar que posee la empresa. Posterior a este proceso, se procede a realizar el pago.
 
 #. **Selección de Pagos de Cuentas por Pagar**
 
    #. **Definición**
 
-      Es un proceso realizado por el departamento de cuentas por pagar o
-      tesorería de una empresa. Dicho departamento se encarga de
-      realizar la selección de pagos para luego proceder a realizar el
-      pago, si tiene los permisos para realizar el proceso de pago.
+      Es un proceso realizado por el departamento de cuentas por pagar o tesorería de una empresa. Dicho departamento se encarga de realizar la selección de pagos para luego proceder a realizar el pago, si tiene los permisos para realizar el proceso de pago.
 
       .. warning:: 
       
@@ -10539,9 +10014,7 @@ este proceso, se procede a realizar el pago.
 
    #. **Comportamiento**
 
-      En ADempiere la selección de pagos de cuentas por pagar se define
-      según su comportamiento, a continuación se explica el proceder de
-      **Selección de Pagos de CxP**:
+      En ADempiere la selección de pagos de cuentas por pagar se define según su comportamiento, a continuación se explica el proceder de **Selección de Pagos de CxP**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -10593,26 +10066,18 @@ este proceso, se procede a realizar el pago.
 |Pagos| **Pagos**
 -----------------
 
-Son todos aquellos egresos monetarios por las compras de productos o
-adquisiciones de servicios de la empresa. Adicional a ello, se considera
-pago la cancelación de las deudas que una empresa posee con los socios
-de negocios por préstamos u otros motivos que generen cuentas por pagar.
+Son todos aquellos egresos monetarios por las compras de productos o adquisiciones de servicios de la empresa. Adicional a ello, se considera pago la cancelación de las deudas que una empresa posee con los socios de negocios por préstamos u otros motivos que generen cuentas por pagar.
 
 **Tipos de Documentos Pago de Cuentas por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere un pago es realizado previo a una autorización, siendo este
-muy delicado por tratarse del egreso monetario de la empresa. En general
-son utilizados cinco (5) tipos de documentos de pago con diferentes
-comportamientos que se definen a continuación.
+En ADempiere un pago es realizado previo a una autorización, siendo este muy delicado por tratarse del egreso monetario de la empresa. En general son utilizados cinco (5) tipos de documentos de pago con diferentes comportamientos que se definen a continuación.
 
 #. **Pago de Cuentas por Pagar Nacional**
 
    #. **Definición**
 
-      Se refiere al pago de las deudas que la empresa tiene con los
-      socios de negocio a nivel nacional, este proceso se puede realizar
-      de una, varias o todas la deudas que posee la misma.
+      Se refiere al pago de las deudas que la empresa tiene con los socios de negocio a nivel nacional, este proceso se puede realizar de una, varias o todas la deudas que posee la misma.
 
       .. warning:: 
       
@@ -10620,9 +10085,7 @@ comportamientos que se definen a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere un pago de cuentas por pagar nacional se define según
-      su comportamiento, a continuación se explica el proceder de un
-      **Pago de CxP Nacional**:
+      En ADempiere un pago de cuentas por pagar nacional se define según su comportamiento, a continuación se explica el proceder de un **Pago de CxP Nacional**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -10674,10 +10137,7 @@ comportamientos que se definen a continuación.
 
    #. **Definición**
 
-      Se refiere al pago de las deudas que la empresa tiene con los
-      socios de negocio a nivel internacional, el pago de estas se
-      pueden realizar bajo un proceso de selección de pagos con previa
-      autorización.
+      Se refiere al pago de las deudas que la empresa tiene con los socios de negocio a nivel internacional, el pago de estas se pueden realizar bajo un proceso de selección de pagos con previa autorización.
 
       .. warning:: 
       
@@ -10685,9 +10145,7 @@ comportamientos que se definen a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere un pago de cuentas por pagar internacional se define
-      según su comportamiento, a continuación se explica el proceder de
-      un **Pago de CxP Internacional**:
+      En ADempiere un pago de cuentas por pagar internacional se define según su comportamiento, a continuación se explica el proceder de un **Pago de CxP Internacional**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -10739,10 +10197,7 @@ comportamientos que se definen a continuación.
 
    #. **Definición**
 
-      Se refiere a la cancelación de las cuentas por pagar
-      correspondiente a los gastos directos de la empresa. Entendiendo
-      como gasto directo lo utilizado para realizar los productos o
-      servicios.
+      Se refiere a la cancelación de las cuentas por pagar correspondiente a los gastos directos de la empresa. Entendiendo como gasto directo lo utilizado para realizar los productos o servicios.
 
       .. warning:: 
       
@@ -10750,9 +10205,7 @@ comportamientos que se definen a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere un pago de cuentas por pagar gasto directo se define
-      según su comportamiento, a continuación se explica el proceder de
-      un **Pago de CxP Gasto Directo**:
+      En ADempiere un pago de cuentas por pagar gasto directo se define según su comportamiento, a continuación se explica el proceder de un **Pago de CxP Gasto Directo**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -10804,9 +10257,7 @@ comportamientos que se definen a continuación.
 
    #. **Definición**
 
-      Se refiere a todas las cuentas por pagar que la empresa posee como
-      reembolso. Entendiendo como reembolso el reintegro monetario
-      pagado anteriormente por un determinado socio de negocio.
+      Se refiere a todas las cuentas por pagar que la empresa posee como reembolso. Entendiendo como reembolso el reintegro monetario pagado anteriormente por un determinado socio de negocio.
 
       .. warning:: 
       
@@ -10814,9 +10265,7 @@ comportamientos que se definen a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere un pago de cuentas por pagar reembolso se define
-      según su comportamiento, a continuación se explica el proceder de
-      un **Pago de CxP Reembolso**:
+      En ADempiere un pago de cuentas por pagar reembolso se define según su comportamiento, a continuación se explica el proceder de un **Pago de CxP Reembolso**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -10868,10 +10317,7 @@ comportamientos que se definen a continuación.
 
    #. **Definición**
 
-      Se refiere a todas las cuentas por pagar que la empresa posee como
-      viáticos. Entendiendo como viáticos una cantidad de dinero que se
-      le facilita a una persona para cubrir los gastos de un viaje
-      determinado.
+      Se refiere a todas las cuentas por pagar que la empresa posee como viáticos. Entendiendo como viáticos una cantidad de dinero que se le facilita a una persona para cubrir los gastos de un viaje determinado.
 
       .. warning:: 
       
@@ -10879,9 +10325,7 @@ comportamientos que se definen a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere un pago de cuentas por pagar viáticos se define según
-      su comportamiento, a continuación se explica el proceder de un
-      **Pago de CxP Viáticos**:
+      En ADempiere un pago de cuentas por pagar viáticos se define según su comportamiento, a continuación se explica el proceder de un **Pago de CxP Viáticos**:
 
       +-----------------------+--------------------+-----------------------+
       | **Campo**             | **Valor**          | **Comportamiento en   |
@@ -10930,27 +10374,20 @@ comportamientos que se definen a continuación.
 |Asignación de Pagos| **Asignación de Pagos**
 ---------------------------------------------
 
-Es el documento que la empresa elabora previo al pago recibido o
-realizado por concepto de anticipo, con la finalidad de asociarlo a una
-factura determinada y disminuir el monto total a pagar de la misma.
+Es el documento que la empresa elabora previo al pago recibido o realizado por concepto de anticipo, con la finalidad de asociarlo a una factura determinada y disminuir el monto total a pagar de la misma.
 
 **Tipo de Documento Asignación de Pagos**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere es el documento que enlaza el pago de un anticipo con una
-factura. Es definido según su comportamiento y explicado a continuación.
+En ADempiere es el documento que enlaza el pago de un anticipo con una factura. Es definido según su comportamiento y explicado a continuación.
 
 #. **Asignación de Pagos**
 
    #. **Definición**
 
-      Es un documento que permite asociar un pago recibido por el socio
-      del negocio tipo cliente a una factura determinada a nombre del
-      mismo.
+      Es un documento que permite asociar un pago recibido por el socio del negocio tipo cliente a una factura determinada a nombre del mismo.
 
-      Adicional a ello, el documento permite reflejar un pago realizado
-      por la empresa a un socio del negocio tipo proveedor por concepto
-      de anticipo y asociarlo a una factura determinada.
+      Adicional a ello, el documento permite reflejar un pago realizado por la empresa a un socio del negocio tipo proveedor por concepto de anticipo y asociarlo a una factura determinada.
 
       .. warning:: 
       
@@ -10958,9 +10395,7 @@ factura. Es definido según su comportamiento y explicado a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere una asignación de pago se define según su
-      comportamiento, a continuación se explica el proceder de una
-      **Asignación de Pago**:
+      En ADempiere una asignación de pago se define según su comportamiento, a continuación se explica el proceder de una **Asignación de Pago**:
 
       +-----------------------+--------------------+-----------------------+
       | **Campo**             | **Valor**          | **Comportamiento en   |
@@ -10993,26 +10428,18 @@ factura. Es definido según su comportamiento y explicado a continuación.
 |Compras| **Compras**
 ---------------------
 
-Son todos los ingresos de productos y servicios, donde se entrega una
-cantidad monetaria como pago de ellos. Para que una empresa pueda
-realizar compras, necesita pasar por un proceso de análisis y selección
-de productos con la intención de conseguir la mejor calidad posible,
-siempre que el costo monetario no sea tan alto.
+Son todos los ingresos de productos y servicios, donde se entrega una cantidad monetaria como pago de ellos. Para que una empresa pueda realizar compras, necesita pasar por un proceso de análisis y selección de productos con la intención de conseguir la mejor calidad posible, siempre que el costo monetario no sea tan alto.
 
 **Tipos de Documentos Recepción de Compras**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Los documentos de recepción en ADempiere controlan el ingreso de los
-productos comprados por la empresa. Existen cinco (5) diferentes
-documentos de recepción y cada uno define un comportamiento diferente
-que a continuación se describe.
+Los documentos de recepción en ADempiere controlan el ingreso de los productos comprados por la empresa. Existen cinco (5) diferentes documentos de recepción y cada uno define un comportamiento diferente que a continuación se describe.
 
 #. **Recepción Nacional**
 
    #. **Definición**
 
-      Es cuando se reciben los productos o servicios comprados a nivel
-      nacional, es decir, en todo el territorio de Venezuela.
+      Es cuando se reciben los productos o servicios comprados a nivel nacional, es decir, en todo el territorio de Venezuela.
 
       .. warning:: 
       
@@ -11020,9 +10447,7 @@ que a continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la recepción nacional se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Recepción Nacional**:
+      En ADempiere la recepción nacional se define según su comportamiento, a continuación se explica el proceder de **Recepción Nacional**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -11074,10 +10499,7 @@ que a continuación se describe.
 
    #. **Definición**
 
-      Es cuando se reciben los productos o servicios comprados fuera del
-      territorio de Venezuela, se realiza la importación a Venezuela de
-      los productos o servicios comprados para luego realizar la
-      recepción de los mismos.
+      Es cuando se reciben los productos o servicios comprados fuera del territorio de Venezuela, se realiza la importación a Venezuela de los productos o servicios comprados para luego realizar la recepción de los mismos.
 
       .. warning:: 
       
@@ -11085,9 +10507,7 @@ que a continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la recepción importación se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Recepción Importación**:
+      En ADempiere la recepción importación se define según su comportamiento, a continuación se explica el proceder de **Recepción Importación**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -11139,9 +10559,7 @@ que a continuación se describe.
 
    #. **Definición**
 
-      En ADempiere una recepción intercompañía es cuando se reciben los
-      productos o servicios comprados a otras empresas pertenecientes al
-      mismo consorcio.
+      En ADempiere una recepción intercompañía es cuando se reciben los productos o servicios comprados a otras empresas pertenecientes al mismo consorcio.
 
       .. warning:: 
       
@@ -11149,9 +10567,7 @@ que a continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la recepción intercompañía se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Recepción Intercompañía**:
+      En ADempiere la recepción intercompañía se define según su comportamiento, a continuación se explica el proceder de **Recepción Intercompañía**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -11203,9 +10619,7 @@ que a continuación se describe.
 
    #. **Definición**
 
-      Es cuando se reciben los productos y servicios que la empresa le
-      compra a sus propios trabajadores. La recepción de la compra se
-      realiza dentro de la emprea.
+      Es cuando se reciben los productos y servicios que la empresa le compra a sus propios trabajadores. La recepción de la compra se realiza dentro de la emprea.
 
       .. warning:: 
       
@@ -11213,9 +10627,7 @@ que a continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la recepción empleado se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Recepción Empleado**:
+      En ADempiere la recepción empleado se define según su comportamiento, a continuación se explica el proceder de **Recepción Empleado**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -11267,9 +10679,7 @@ que a continuación se describe.
 
    #. **Definición**
 
-      Es cuando se compran productos o servicios a un vendedor
-      determinado, pero se reciben los productos o servicios del
-      proveedor.
+      Es cuando se compran productos o servicios a un vendedor determinado, pero se reciben los productos o servicios del proveedor.
 
       .. warning:: 
       
@@ -11277,9 +10687,7 @@ que a continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la recepción indirecta se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Recepción Indirecta**:
+      En ADempiere la recepción indirecta se define según su comportamiento, a continuación se explica el proceder de **Recepción Indirecta**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -11330,18 +10738,13 @@ que a continuación se describe.
 **Tipos de Documentos Devolución de Compras**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Los documentos de devolución en ADempiere controlan el egreso de los
-productos comprados por la empresa. Existen cinco (5) diferentes
-documentos de devolución de compras y cada uno define un comportamiento
-diferente que a continuación se describe.
+Los documentos de devolución en ADempiere controlan el egreso de los productos comprados por la empresa. Existen cinco (5) diferentes documentos de devolución de compras y cada uno define un comportamiento diferente que a continuación se describe.
 
 #. **Devolución Proveedor Nacional**
 
    #. **Definición**
 
-      Se refiere a las devoluciones de los productos comprados o
-      servicios adquiridos de proveedores ubicados dentro del territorio
-      nacional.
+      Se refiere a las devoluciones de los productos comprados o servicios adquiridos de proveedores ubicados dentro del territorio nacional.
 
       .. warning:: 
       
@@ -11349,9 +10752,7 @@ diferente que a continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la devolución proveedor nacional se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Devolución Proveedor Nacional**:
+      En ADempiere la devolución proveedor nacional se define según su comportamiento, a continuación se explica el proceder de **Devolución Proveedor Nacional**:
 
       +----------------------+---------------------+----------------------+
       | **Campo**            | **Valor**           | **Comportamiento en  |
@@ -11406,9 +10807,7 @@ diferente que a continuación se describe.
 
    #. **Definición**
 
-      Se refiere a las devoluciones de los productos comprados o
-      servicios adquiridos de proveedores ubicados fuera del territorio
-      de Venezuela.
+      Se refiere a las devoluciones de los productos comprados o servicios adquiridos de proveedores ubicados fuera del territorio de Venezuela.
 
       .. warning:: 
       
@@ -11416,9 +10815,7 @@ diferente que a continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la devolución proveedor importación se define según
-      su comportamiento, a continuación se explica el proceder de
-      **Devolución Proveedor Importación**:
+      En ADempiere la devolución proveedor importación se define según su comportamiento, a continuación se explica el proceder de **Devolución Proveedor Importación**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -11471,9 +10868,7 @@ diferente que a continuación se describe.
 
    #. **Definición**
 
-      Es cuando se devuelve a la otra empresa perteneciente al mismo
-      consorcio, los productos comprados o servicios adquiridos de la
-      misma.
+      Es cuando se devuelve a la otra empresa perteneciente al mismo consorcio, los productos comprados o servicios adquiridos de la misma.
 
       .. warning:: 
       
@@ -11481,9 +10876,7 @@ diferente que a continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la devolución proveedor intercompañía se define según
-      su comportamiento, a continuación se explica el proceder de
-      **Devolución Proveedor Intercompañía**:
+      En ADempiere la devolución proveedor intercompañía se define según su comportamiento, a continuación se explica el proceder de **Devolución Proveedor Intercompañía**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -11536,8 +10929,7 @@ diferente que a continuación se describe.
 
    #. **Definición**
 
-      Se refiere a las devoluciones de productos comprados o servicios
-      adquiridos de empleados de la misma empresa.
+      Se refiere a las devoluciones de productos comprados o servicios adquiridos de empleados de la misma empresa.
 
       .. warning:: 
       
@@ -11545,9 +10937,7 @@ diferente que a continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la devolución proveedor empleado se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Devolución Proveedor Empleado**:
+      En ADempiere la devolución proveedor empleado se define según su comportamiento, a continuación se explica el proceder de **Devolución Proveedor Empleado**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -11599,8 +10989,7 @@ diferente que a continuación se describe.
 
    #. **Definición**
 
-      Es cuando se devuelve al proveedor los productos comprados o
-      servicios adquiridos de forma indirecta o con entrega indirecta.
+      Es cuando se devuelve al proveedor los productos comprados o servicios adquiridos de forma indirecta o con entrega indirecta.
 
       .. warning:: 
       
@@ -11608,9 +10997,7 @@ diferente que a continuación se describe.
 
    #. **Comportamiento**
 
-      En ADempiere la devolución proveedor indirecta se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Devolución Proveedor Indirecta**:
+      En ADempiere la devolución proveedor indirecta se define según su comportamiento, a continuación se explica el proceder de **Devolución Proveedor Indirecta**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -11662,26 +11049,18 @@ diferente que a continuación se describe.
 |Asignar OC| **Asignar OC**
 ---------------------------
 
-Es el tipo de documento utilizado en las empresas cuando se esta
-haciendo el cierre del mes, para asignar una orden de compra a un
-documento de recepción cuando la operación no fue realizada en el
-momento de su ciclo normal en ADempiere, permitiendo con este proceso
-realizar un cruce de documentos a final del mes.
+Es el tipo de documento utilizado en las empresas cuando se esta haciendo el cierre del mes, para asignar una orden de compra a un documento de recepción cuando la operación no fue realizada en el momento de su ciclo normal en ADempiere, permitiendo con este proceso realizar un cruce de documentos a final del mes.
 
 **Tipo de Documento Asignar OC**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere el documento cumple con el proceso de asociar una recepción
-de productos y servicios a una orden de compra, así como también a una
-factura.
+En ADempiere el documento cumple con el proceso de asociar una recepción de productos y servicios a una orden de compra, así como también a una factura.
 
 #. **Asignar OC**
 
    #. **Definición**
 
-      Es un documento para solventar un problema de asignación pero lo
-      más recomendable es que se realice su proceso normal de asignación
-      de orden de compra.
+      Es un documento para solventar un problema de asignación pero lo más recomendable es que se realice su proceso normal de asignación de orden de compra.
 
       .. warning:: 
       
@@ -11689,9 +11068,7 @@ factura.
 
    #. **Comportamiento**
 
-      En ADempiere el tipo de documento asignar OC se define según su
-      comportamiento, a continuación se explica el proceder del tipo de
-      documento **Asignar OC**:
+      En ADempiere el tipo de documento asignar OC se define según su comportamiento, a continuación se explica el proceder del tipo de documento **Asignar OC**:
 
       +-----------------------+------------+---------------------------+
       | **Campo**             | **Valor**  | **Comportamiento en       |
@@ -11717,34 +11094,22 @@ factura.
 |Extracto Bancario| **Extracto Bancario**
 -----------------------------------------
 
-Es un documento donde se encuentran reflejados los movimientos que se
-realizaron en una cuenta, el mismo puede ser generado por el titular de
-la cuenta. Este documento se genera cada cierto tiempo, mayormente se
-hace mensual.
+Es un documento donde se encuentran reflejados los movimientos que se realizaron en una cuenta, el mismo puede ser generado por el titular de la cuenta. Este documento se genera cada cierto tiempo, mayormente se hace mensual.
 
-En las empresas es utilizado para comparar los valores economicos con
-los movimientos realizados.
+En las empresas es utilizado para comparar los valores economicos con los movimientos realizados.
 
 **Tipo de Documento Extracto Bancario**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere es un proceso que solo puede ser realizado por el
-departamento de finanzas, ya que para acceder al mismo se deben tener
-los permisos necesarios. Solamente el departamento de finanzas es
-responsable del extracto bancario.
+En ADempiere es un proceso que solo puede ser realizado por el departamento de finanzas, ya que para acceder al mismo se deben tener los permisos necesarios. Solamente el departamento de finanzas es responsable del extracto bancario.
 
-El tipo de documento extracto bancario se define según su comportamiento
-y es explicado a continuación.
+El tipo de documento extracto bancario se define según su comportamiento y es explicado a continuación.
 
 #. **Cierre de Caja**
 
    #. **Definición**
 
-      Es el reporte detallado que se realiza en la empresa comparando la
-      salida de los productos y servicios con el dinero en caja, es
-      decir, lo vendido en el día con el dinero existente en caja.
-      Muchas veces es llamado cuadre de saldos porque se comprueba que
-      las ventas cuadren exactamente con el dinero recibido.
+      Es el reporte detallado que se realiza en la empresa comparando la salida de los productos y servicios con el dinero en caja, es decir, lo vendido en el día con el dinero existente en caja. Muchas veces es llamado cuadre de saldos porque se comprueba que las ventas cuadren exactamente con el dinero recibido.
 
       .. warning:: 
       
@@ -11752,8 +11117,7 @@ y es explicado a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere el cierre de caja se define según su comportamiento,
-      a continuación se explica el proceder del **Cierre de Caja**:
+      En ADempiere el cierre de caja se define según su comportamiento, a continuación se explica el proceder del **Cierre de Caja**:
 
       +-----------------------+-------------------+-----------------------+
       | **Campo**             | **Valor**         | **Comportamiento en   |
@@ -11802,11 +11166,7 @@ y es explicado a continuación.
 
    #. **Definición**
 
-      Es el documento generado por el banco, donde se encuentran
-      expresados todos los movimientos que se realizaron en un periodo
-      determinado. Para una empresa es el estado de cuenta utilizado
-      para comparar los reportes generados en el cierre caja de la
-      misma, con el dinero disponible en la cuenta bancaria.
+      Es el documento generado por el banco, donde se encuentran expresados todos los movimientos que se realizaron en un periodo determinado. Para una empresa es el estado de cuenta utilizado para comparar los reportes generados en el cierre caja de la misma, con el dinero disponible en la cuenta bancaria.
 
       .. warning:: 
       
@@ -11814,9 +11174,7 @@ y es explicado a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere el extracto bancario se define según su
-      comportamiento, a continuación se explica el proceder del
-      **Extracto Bancario**:
+      En ADempiere el extracto bancario se define según su comportamiento, a continuación se explica el proceder del **Extracto Bancario**:
 
       +-----------------------+-------------------+-----------------------+
       | **Campo**             | **Valor**         | **Comportamiento en   |
@@ -11849,35 +11207,20 @@ y es explicado a continuación.
 |Nómina| **Nómina**
 -------------------
 
-Es el listado de trabajadores que desempeñan algún tipo de actividad en
-una empresa. Cada empresa debe manejar diferentes nóminas, por lo que
-son clasificadas en nómina regular, turnos mixtos, de alimentación, bono
-especial, entre otras utilizadas para cancelar las pagos
-correspondientes a los trabajadores de las empresas.
+Es el listado de trabajadores que desempeñan algún tipo de actividad en una empresa. Cada empresa debe manejar diferentes nóminas, por lo que son clasificadas en nómina regular, turnos mixtos, de alimentación, bono especial, entre otras utilizadas para cancelar las pagos correspondientes a los trabajadores de las empresas.
 
-Cada una de las nóminas descriptas anteriormente representa los pagos de
-salarios y beneficios que la empresa le hace a sus trabajadores como lo
-indica la ley orgánica del trabajo, los trabajadores y las trabajadoras,
-publicada en gaceta oficial N° 6.076. La cancelación o pago de la nómina
-se realiza dependiendo de las reglas del negocio, es decir, la empresa
-puede cancelar nómina semanal, quincenal o mensual.
+Cada una de las nóminas descriptas anteriormente representa los pagos de salarios y beneficios que la empresa le hace a sus trabajadores como lo indica la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076. La cancelación o pago de la nómina se realiza dependiendo de las reglas del negocio, es decir, la empresa puede cancelar nómina semanal, quincenal o mensual.
 
 **Tipo de Documento Nómina**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere este tipo de documento es utilizado para cancelar a los
-trabajadores los sueldos, salarios, utilidades, comisiones, bonos,
-retroactivos, vacaciones y prestaciones sociales, como pago de las
-actividades desempeñadas en la empresa.
+En ADempiere este tipo de documento es utilizado para cancelar a los trabajadores los sueldos, salarios, utilidades, comisiones, bonos, retroactivos, vacaciones y prestaciones sociales, como pago de las actividades desempeñadas en la empresa.
 
 #.  **Nómina Bono de Alimentación**
 
    #. **Definición**
 
-       En ADempiere la cancelación de la nómina del bono de alimentación
-       o cesta ticket debe ser realizada por el personal de recursos
-       humanos que tenga los permisos necesarios para el proceso de
-       nómina, la misma se debe cancelar quincenalmente.
+       En ADempiere la cancelación de la nómina del bono de alimentación  o cesta ticket debe ser realizada por el personal de recursos  humanos que tenga los permisos necesarios para el proceso de  nómina, la misma se debe cancelar quincenalmente.
 
       .. warning:: 
       
@@ -11885,9 +11228,7 @@ actividades desempeñadas en la empresa.
 
    #. **Comportamiento**
 
-       En ADempiere la nómina bono de alimentación se define según su
-       comportamiento, a continuación se explica el proceder de **Nómina
-       Bono de Alimentación**:
+       En ADempiere la nómina bono de alimentación se define según su  comportamiento, a continuación se explica el proceder de **Nómina  Bono de Alimentación**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -11957,11 +11298,7 @@ actividades desempeñadas en la empresa.
 
    #. **Definición**
 
-       En ADempiere es un listado de trabajadores de la empresa a los
-       que se les cancela el sueldo cada treinta (30) días. Este proceso
-       de nómina mensual debe ser realizado por el personal de recursos
-       humanos que tenga los permisos necesarios para el proceso de
-       nómina.
+       En ADempiere es un listado de trabajadores de la empresa a los  que se les cancela el sueldo cada treinta (30) días. Este proceso  de nómina mensual debe ser realizado por el personal de recursos  humanos que tenga los permisos necesarios para el proceso de  nómina.
 
       .. warning:: 
       
@@ -11969,8 +11306,7 @@ actividades desempeñadas en la empresa.
 
    #. **Comportamiento**
 
-       En ADempiere la nómina mensual se define según su comportamiento,
-       a continuación se explica el proceder de **Nómina Mensual**:
+       En ADempiere la nómina mensual se define según su comportamiento,  a continuación se explica el proceder de **Nómina Mensual**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -12105,11 +11441,7 @@ actividades desempeñadas en la empresa.
 
    #. **Definición**
 
-       En ADempiere es un listado de trabajadores de la empresa a los
-       que se les cancela el sueldo cada quince (15) días. Este proceso
-       de nómina quincenal debe ser realizado por el personal de
-       recursos humanos que tenga los permisos necesarios para el
-       proceso de nómina.
+       En ADempiere es un listado de trabajadores de la empresa a los  que se les cancela el sueldo cada quince (15) días. Este proceso  de nómina quincenal debe ser realizado por el personal de  recursos humanos que tenga los permisos necesarios para el  proceso de nómina.
 
       .. warning:: 
       
@@ -12117,9 +11449,7 @@ actividades desempeñadas en la empresa.
 
    #. **Comportamiento**
 
-       En ADempiere la nómina quincenal se define según su
-       comportamiento, a continuación se explica el proceder de **Nómina
-       Quincenal**:
+       En ADempiere la nómina quincenal se define según su  comportamiento, a continuación se explica el proceder de **Nómina  Quincenal**:
 
       +------------------------+------------------+------------------------+
       | **Campo**              | **Valor**        | **Comportamiento en    |
@@ -12254,11 +11584,7 @@ actividades desempeñadas en la empresa.
 
    #. **Definición**
 
-       En ADempiere es un listado de trabajadores de la empresa a los
-       que se les cancela el sueldo cada siete (7) días. Este proceso de
-       nómina semanal debe ser realizado por el personal de recursos
-       humanos que tenga los permisos necesarios para el proceso de
-       nómina.
+       En ADempiere es un listado de trabajadores de la empresa a los  que se les cancela el sueldo cada siete (7) días. Este proceso de  nómina semanal debe ser realizado por el personal de recursos  humanos que tenga los permisos necesarios para el proceso de  nómina.
 
       .. warning:: 
       
@@ -12266,8 +11592,7 @@ actividades desempeñadas en la empresa.
 
    #. **Comportamiento**
 
-       En ADempiere la nómina semanal se define según su comportamiento,
-       a continuación se explica el proceder de **Nómina Semanal**:
+       En ADempiere la nómina semanal se define según su comportamiento,  a continuación se explica el proceder de **Nómina Semanal**:
 
       +-------------------------+----------------+-------------------------+
       | **Campo**               | **Valor**      | **Comportamiento en     |
@@ -12402,9 +11727,7 @@ actividades desempeñadas en la empresa.
 
    #. **Definición**
 
-       En ADempiere es el pago de la diferencia pendiente por cancelar a
-       los trabajadores por motivo de aumento salarial decretado a mitad
-       de mes, vigente desde el inicio del mes.
+       En ADempiere es el pago de la diferencia pendiente por cancelar a  los trabajadores por motivo de aumento salarial decretado a mitad  de mes, vigente desde el inicio del mes.
 
       .. warning:: 
       
@@ -12412,9 +11735,7 @@ actividades desempeñadas en la empresa.
 
    #. **Comportamiento**
 
-       En ADempiere la nómina retroactivo se define según su
-       comportamiento, a continuación se explica el proceder de **Nómina
-       Retroactivo**:
+       En ADempiere la nómina retroactivo se define según su  comportamiento, a continuación se explica el proceder de **Nómina  Retroactivo**:
 
       +-----------------------+--------------------+-----------------------+
       | **Campo**             | **Valor**          | **Comportamiento en   |
@@ -12472,11 +11793,7 @@ actividades desempeñadas en la empresa.
 
    #. **Definición**
 
-       En ADempiere es el pago de quince (15) días hábiles más un (1)
-       día adicional por año que la empresa cancela a sus trabajadores
-       en vacaciones, estas deben ser canceladas al comienzo de las
-       mismas y el número de días aumentará hasta llegar a treinta (30)
-       días.
+       En ADempiere es el pago de quince (15) días hábiles más un (1)  día adicional por año que la empresa cancela a sus trabajadores  en vacaciones, estas deben ser canceladas al comienzo de las  mismas y el número de días aumentará hasta llegar a treinta (30)  días.
 
       .. warning:: 
       
@@ -12484,9 +11801,7 @@ actividades desempeñadas en la empresa.
 
    #. **Comportamiento**
 
-       En ADempiere la nómina vacaciones se define según su
-       comportamiento, a continuación se explica el proceder de **Nómina
-       Vacaciones**:
+       En ADempiere la nómina vacaciones se define según su  comportamiento, a continuación se explica el proceder de **Nómina  Vacaciones**:
 
       +-----------------------+-------------------+-----------------------+
       | **Campo**             | **Valor**         | **Comportamiento en   |
@@ -12672,14 +11987,9 @@ actividades desempeñadas en la empresa.
 
    #. **Definición**
 
-       Se refiere a un dinero que la empresa le aparta al trabajador,
-       consta de cinco (5) días al comenzar a trabajar, cinco (5) días
-       más uno (1), al cumplir el año y así sucesivamente, adicional a
-       ello, cada tres (3) meses la empresa va haciendo un apartado de
-       cinco (5) días más uno.
+       Se refiere a un dinero que la empresa le aparta al trabajador,  consta de cinco (5) días al comenzar a trabajar, cinco (5) días  más uno (1), al cumplir el año y así sucesivamente, adicional a  ello, cada tres (3) meses la empresa va haciendo un apartado de  cinco (5) días más uno.
 
-       La empresa cancela el acumulado de este apartado cuando el
-       trabajador se retira de la empresa.
+       La empresa cancela el acumulado de este apartado cuando el  trabajador se retira de la empresa.
 
       .. warning:: 
       
@@ -12687,9 +11997,7 @@ actividades desempeñadas en la empresa.
 
    #. **Comportamiento**
 
-       En ADempiere la nómina prestaciones sociales se define según su
-       comportamiento, a continuación se explica el proceder de **Nómina
-       Prestaciones Sociales**:
+       En ADempiere la nómina prestaciones sociales se define según su  comportamiento, a continuación se explica el proceder de **Nómina  Prestaciones Sociales**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -12840,10 +12148,7 @@ actividades desempeñadas en la empresa.
 
    #. **Definición**
 
-       En ADempiere es un bono que la empresa le paga a sus trabajadores
-       por las ganacias o los intereses que esta obtuvo por la venta de
-       productos o servicios en el año. El pago de las utilidades varía
-       en los trabajadores según su antigüedad en la empresa.
+       En ADempiere es un bono que la empresa le paga a sus trabajadores  por las ganacias o los intereses que esta obtuvo por la venta de  productos o servicios en el año. El pago de las utilidades varía  en los trabajadores según su antigüedad en la empresa.
 
       .. warning:: 
       
@@ -12851,9 +12156,7 @@ actividades desempeñadas en la empresa.
 
    #. **Comportamiento**
 
-       En ADempiere la nómina utilidades se define según su
-       comportamiento, a continuación se explica el proceder de **Nómina
-       Utilidades**:
+       En ADempiere la nómina utilidades se define según su  comportamiento, a continuación se explica el proceder de **Nómina  Utilidades**:
 
       +-----------------------+-------------------+-----------------------+
       | **Campo**             | **Valor**         | **Comportamiento en   |
@@ -12952,9 +12255,7 @@ actividades desempeñadas en la empresa.
 
    #. **Definición**
 
-       En ADempiere los pagos especiales son los pagos adicionales a lo
-       estipulado en la ley que la empresa le cancela a sus trabajadores
-       como bonificación por rendimiento, entre otros motivos.
+       En ADempiere los pagos especiales son los pagos adicionales a lo  estipulado en la ley que la empresa le cancela a sus trabajadores  como bonificación por rendimiento, entre otros motivos.
 
       .. warning:: 
       
@@ -12962,9 +12263,7 @@ actividades desempeñadas en la empresa.
 
    #. **Comportamiento**
 
-       En ADempiere la nómina por pagos especiales se define según su
-       comportamiento, a continuación se explica el proceder de **Nómina
-       por Pagos Especiales**:
+       En ADempiere la nómina por pagos especiales se define según su  comportamiento, a continuación se explica el proceder de **Nómina  por Pagos Especiales**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -13036,10 +12335,7 @@ actividades desempeñadas en la empresa.
 
    #. **Definición**
 
-       En ADempiere es el pago que la empresa le cancela a sus
-       trabajadores por productos realizados, ventas realizadas, entre
-       otros. Las empresas que pagan esta nómina, lo hacen como
-       incentivo para que sus trabajadores se motiven a seguir.
+       En ADempiere es el pago que la empresa le cancela a sus  trabajadores por productos realizados, ventas realizadas, entre  otros. Las empresas que pagan esta nómina, lo hacen como  incentivo para que sus trabajadores se motiven a seguir.
 
       .. warning:: 
       
@@ -13047,9 +12343,7 @@ actividades desempeñadas en la empresa.
 
    #. **Comportamiento**
 
-       En ADempiere la nómina por comisiones se define según su
-       comportamiento, a continuación se explica el proceder de **Nómina
-       por Comisiones**:
+       En ADempiere la nómina por comisiones se define según su  comportamiento, a continuación se explica el proceder de **Nómina  por Comisiones**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -13118,27 +12412,18 @@ actividades desempeñadas en la empresa.
 |Selección de Pago Nómina| **Selección de Pagos Nómina**
 --------------------------------------------------------
 
-La selección de pagos nómina es donde se agrupan todas las nóminas que
-posee una empresa, y que se necesitan pagar. Se realiza este
-procedimiento para no ir pagando nómina por nómina, sino que simplemente
-se agrupan en un solo documento todas las nóminas a pagar para luego
-generar el pago.
+La selección de pagos nómina es donde se agrupan todas las nóminas que posee una empresa, y que se necesitan pagar. Se realiza este procedimiento para no ir pagando nómina por nómina, sino que simplemente se agrupan en un solo documento todas las nóminas a pagar para luego generar el pago.
 
 **Tipo de Documento Selección de Pagos Nómina**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere este proceso solo puede ser realizado por un usuario que
-posea los permisos necesarios para acceder a la información de las
-nóminas, ya que esta es muy delicada.
+En ADempiere este proceso solo puede ser realizado por un usuario que posea los permisos necesarios para acceder a la información de las nóminas, ya que esta es muy delicada.
 
 #. **Selección de Pagos Nómina**
 
    #. **Definición**
 
-      Este proceso es similar al proceso de selección de pago de cuentas
-      por pagar, con la diferencia de que en vez de seleccionar las
-      cuentas por pagar se seleccionan las nóminas a pagar, para que
-      luego se pueda proceder al pago de la selección de pagos nómina.
+      Este proceso es similar al proceso de selección de pago de cuentas por pagar, con la diferencia de que en vez de seleccionar las cuentas por pagar se seleccionan las nóminas a pagar, para que luego se pueda proceder al pago de la selección de pagos nómina.
 
       .. warning:: 
       
@@ -13146,9 +12431,7 @@ nóminas, ya que esta es muy delicada.
 
    #. **Comportamiento**
 
-      En ADempiere la selección de pagos nómina se define según su
-      comportamiento, a continuación se explica el proceder de
-      **Selección de Pagos Nómina**:
+      En ADempiere la selección de pagos nómina se define según su comportamiento, a continuación se explica el proceder de **Selección de Pagos Nómina**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -13200,29 +12483,18 @@ nóminas, ya que esta es muy delicada.
 |Orden de Mantenimiento| **Orden de Mantenimiento**
 ---------------------------------------------------
 
-Es un documento en el que se planifican todas las tareas que debe
-realizar el departamento de mantenimiento en la empresa de forma
-específica, es emitido por el jefe de dicho departamento para sus
-tecnicos, este documento sirve como soporte en las auditorías que le
-realicen a la empresa.
+Es un documento en el que se planifican todas las tareas que debe realizar el departamento de mantenimiento en la empresa de forma específica, es emitido por el jefe de dicho departamento para sus tecnicos, este documento sirve como soporte en las auditorías que le realicen a la empresa.
 
 **Tipo de Documento Orden de Mantenimiento**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere el tipo de documento orden de mantenimiento indica el
-tiempo de duración, los materiales necesarios, los costos aproximados,
-entre otros datos de igual importancia. Es definido según su
-comportamiento y explicado a continuación.
+En ADempiere el tipo de documento orden de mantenimiento indica el tiempo de duración, los materiales necesarios, los costos aproximados, entre otros datos de igual importancia. Es definido según su comportamiento y explicado a continuación.
 
 #. **Orden de Mantenimiento**
 
    #. **Definición**
 
-      Es el documento que contiene la cantidad de datos necesarios para
-      que el técnico tome las decisiones necesarias al momento de
-      realizar el mantenimiento ya que la misma le indica a que máquina
-      o equipo debe realizar el mantenimiento, donde se encuentra
-      ubicado y que tareas especificas debe realizar.
+      Es el documento que contiene la cantidad de datos necesarios para que el técnico tome las decisiones necesarias al momento de realizar el mantenimiento ya que la misma le indica a que máquina o equipo debe realizar el mantenimiento, donde se encuentra ubicado y que tareas especificas debe realizar.
 
       .. warning:: 
       
@@ -13230,9 +12502,7 @@ comportamiento y explicado a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere la orden de mantenimiento se define según su
-      comportamiento, a continuación se explica el proceder de **Orden
-      de Mantenimiento**:
+      En ADempiere la orden de mantenimiento se define según su comportamiento, a continuación se explica el proceder de **Orden de Mantenimiento**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -13281,26 +12551,18 @@ comportamiento y explicado a continuación.
 |Depreciación de Activos| **Depreciación de Activos**
 -----------------------------------------------------
 
-Es el tipo de documento en el que se refleja el costo generado a lo
-largo de la utilización del activo, el mismo es restado de los ingresos
-monetarios producidos por el activo.
+Es el tipo de documento en el que se refleja el costo generado a lo largo de la utilización del activo, el mismo es restado de los ingresos monetarios producidos por el activo.
 
 **Tipo de Documento Depreciación de Activos**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere el documento es realizado a lo largo del proceso de
-utilización del activo, así como también, posterior al proceso de
-adición de activos. Es un documento definido según su comportamiento,
-especificado a continuación.
+En ADempiere el documento es realizado a lo largo del proceso de utilización del activo, así como también, posterior al proceso de adición de activos. Es un documento definido según su comportamiento, especificado a continuación.
 
 #. **Depreciación de Activos**
 
    #. **Definición**
 
-      La situación en la que se encuentre el activo de la empresa será
-      el inicio del proceso de depreciación del mismo, por lo tanto, es
-      realizado por medio de variantes como los ingresos generados y el
-      costo que requiere para mejorar.
+      La situación en la que se encuentre el activo de la empresa será el inicio del proceso de depreciación del mismo, por lo tanto, es realizado por medio de variantes como los ingresos generados y el costo que requiere para mejorar.
 
       .. warning:: 
       
@@ -13308,9 +12570,7 @@ especificado a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere la depreciación de activos se define según su
-      comportamiento, a continuación se explica el proceder de la
-      **Depreciación de Activos**:
+      En ADempiere la depreciación de activos se define según su comportamiento, a continuación se explica el proceder de la **Depreciación de Activos**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -13361,29 +12621,20 @@ especificado a continuación.
 |Adición de Activos| **Adición de Activos**
 -------------------------------------------
 
-Es el tipo de documento que permite reflejar las modificaciones que se
-apliquen a los activos de la empresa con la finalidad de mejorarlos,
-ampliando con esto su productividad, los activos de una empresa pueden
-ser los bienes y las propiedades de la misma.
+Es el tipo de documento que permite reflejar las modificaciones que se apliquen a los activos de la empresa con la finalidad de mejorarlos, ampliando con esto su productividad, los activos de una empresa pueden ser los bienes y las propiedades de la misma.
 
-De igual manera permite reflejar un activo nuevo a la empresa por la
-compra del mismo, de esta manera se reflejará su valor y la cantidad que
-hay de ese activo.
+De igual manera permite reflejar un activo nuevo a la empresa por la compra del mismo, de esta manera se reflejará su valor y la cantidad que hay de ese activo.
 
 **Tipo de Documento Adición de Activos**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere es posible realizar una adición de activos tangibles e
-intangibles para revalorizar los mismos para una empresa, es definido
-según su comportamiento explicado a continuación.
+En ADempiere es posible realizar una adición de activos tangibles e intangibles para revalorizar los mismos para una empresa, es definido según su comportamiento explicado a continuación.
 
 #. **Adición de Activos**
 
    #. **Definición**
 
-      Es un documento que refleja los cambios que son realizados a los
-      activos de la empresa con la finalidad de cambiar su desempeño
-      productivo o mejorarlo para beneficio económico de la empresa.
+      Es un documento que refleja los cambios que son realizados a los activos de la empresa con la finalidad de cambiar su desempeño productivo o mejorarlo para beneficio económico de la empresa.
 
       .. warning:: 
       
@@ -13391,9 +12642,7 @@ según su comportamiento explicado a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere la adición de activos se define según su
-      comportamiento, a continuación se explica el proceder de la
-      **Adición de Activos**:
+      En ADempiere la adición de activos se define según su comportamiento, a continuación se explica el proceder de la **Adición de Activos**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -13444,27 +12693,18 @@ según su comportamiento explicado a continuación.
 |Venta de Activos| **Venta de Activos**
 ---------------------------------------
 
-Es el tipo de documento que refleja la venta de los activos que posee un
-empresa, dicha venta puede realizarse porque el activo ya cumplió con su
-tiempo de vida util dentro de la empresa o porque se presenta la
-oportunidad de vender el activo para adquirir uno mejor y más eficiente,
-que genere mayores ingresos productivos o monetarios a la empresa.
+Es el tipo de documento que refleja la venta de los activos que posee un empresa, dicha venta puede realizarse porque el activo ya cumplió con su tiempo de vida util dentro de la empresa o porque se presenta la oportunidad de vender el activo para adquirir uno mejor y más eficiente, que genere mayores ingresos productivos o monetarios a la empresa.
 
 **Tipo de Documento Venta de Activos**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere es un documento utilizado para reflejar la venta de los
-activos de la empresa independientemente del motivo de la misma, es
-definido según su comportamiento especificado a continuación.
+En ADempiere es un documento utilizado para reflejar la venta de los activos de la empresa independientemente del motivo de la misma, es definido según su comportamiento especificado a continuación.
 
 #. **Venta de Activos**
 
    #. **Definición**
 
-      Es un documento necesario para realizar la contabilización de la
-      empresa, permitiendo con este llevar el control de las ventas de
-      los activos de la empresa, independientemente del motivo que esta
-      tenga.
+      Es un documento necesario para realizar la contabilización de la empresa, permitiendo con este llevar el control de las ventas de los activos de la empresa, independientemente del motivo que esta tenga.
 
       .. warning:: 
       
@@ -13472,9 +12712,7 @@ definido según su comportamiento especificado a continuación.
 
    #. **Comportamiento**
 
-      En ADempiere la venta de activos se define según su
-      comportamiento, a continuación se explica el proceder de la
-      **Venta de Activos**:
+      En ADempiere la venta de activos se define según su comportamiento, a continuación se explica el proceder de la **Venta de Activos**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
@@ -13525,31 +12763,18 @@ definido según su comportamiento especificado a continuación.
 |Nota de Contabilidad| **Nota de Contabilidad**
 -----------------------------------------------
 
-Es un documento utilizado por la empresa para registrar movimientos de
-los que la misma no posee ningún tipo de formato para contabilizar, el
-formato de una nota de contabilidad no puede variar, sin embargo, se
-debe especificar su clasificación cuando la empresa maneje diferentes
-operaciones que no poseen formato.
+Es un documento utilizado por la empresa para registrar movimientos de los que la misma no posee ningún tipo de formato para contabilizar, el formato de una nota de contabilidad no puede variar, sin embargo, se debe especificar su clasificación cuando la empresa maneje diferentes operaciones que no poseen formato.
 
 **Tipo de Documento Nota de Contabilidad**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-En ADempiere es un documento utilizado para reflejar operaciones sin
-formato en la contabilidad de una determinada empresa, obteniendo de
-esta manera un control sobre aquellas que generan ingresos o egresos a
-la misma.
+En ADempiere es un documento utilizado para reflejar operaciones sin formato en la contabilidad de una determinada empresa, obteniendo de esta manera un control sobre aquellas que generan ingresos o egresos a la misma.
 
 #. **Nota de Contabilidad**
 
    #. **Definición**
 
-      Es el documento donde se especifican los datos de la operación de
-      ingreso o egreso monetario que la empresa requiere para realizar
-      la contabilización de la misma, entre ellos no debe faltar el
-      nombre de la empresa que lo emite, nombre, número y fecha del
-      comprobante, la descripción del contenido del documento, pero
-      sobre todo las firmas de los involucrados como lo son el que
-      elaboró, revisó, aprobó y contabilizó el documento.
+      Es el documento donde se especifican los datos de la operación de ingreso o egreso monetario que la empresa requiere para realizar la contabilización de la misma, entre ellos no debe faltar el nombre de la empresa que lo emite, nombre, número y fecha del comprobante, la descripción del contenido del documento, pero sobre todo las firmas de los involucrados como lo son el que elaboró, revisó, aprobó y contabilizó el documento.
 
       .. warning:: 
       
@@ -13557,9 +12782,7 @@ la misma.
 
    #. **Comportamiento**
 
-      En ADempiere la nota de contabilidad se define según su
-      comportamiento, a continuación se explica el proceder de la **Nota
-      de Contabilidad**:
+      En ADempiere la nota de contabilidad se define según su comportamiento, a continuación se explica el proceder de la **Nota de Contabilidad**:
 
       +----------------------+----------------------+----------------------+
       | **Campo**            | **Valor**            | **Comportamiento en  |
