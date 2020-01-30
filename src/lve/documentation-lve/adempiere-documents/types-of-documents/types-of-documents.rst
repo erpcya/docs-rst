@@ -11353,153 +11353,44 @@ diferente que a continuación se describe.
       comportamiento, a continuación se explica el proceder de
       **Devolución Proveedor Nacional**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Entre | Gene |
-      | de   | ga    | ra   |
-      | Docu | de    | un   |
-      | ment | Produ | docu |
-      | o    | cto   | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **De |
-      |      |       | volu |
-      |      |       | ción |
-      |      |       | Prov |
-      |      |       | eedo |
-      |      |       | r    |
-      |      |       | Naci |
-      |      |       | onal |
-      |      |       | **   |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol. |
-      |      |       | **\  |
-      |      |       | opci |
-      |      |       | ón   |
-      |      |       | mant |
-      |      |       | iene |
-      |      |       | una  |
-      |      |       | **Se |
-      |      |       | cuen |
-      |      |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol. |
-      |      |       | **   |
-      +------+-------+------+
-      | Secu | Devol | Gene |
-      | enci | ución | ra   |
-      | a    | Nacio | el   |
-      | del  | nal   | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**D |
-      |      |       | N-** |
-      |      |       | ".   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+---------------------+----------------------+
+      | **Campo**            | **Valor**           | **Comportamiento en  |
+      |                      |                     | ADempiere**          |
+      +======================+=====================+======================+
+      | Tipo de Documento    | Entrega de Producto | Genera un documento  |
+      | Base:                |                     | de **Devolución      |
+      |                      |                     | Proveedor Nacional** |
+      |                      |                     | a la empresa.        |
+      +----------------------+---------------------+----------------------+
+      | Documento            | Si                  | Mantiene una         |
+      | Controlado:          |                     | \**Secuencia de      |
+      |                      |                     | Control.**opción     |
+      |                      |                     | mantiene una         |
+      |                      |                     | **Secuencia de       |
+      |                      |                     | Control.**           |
+      +----------------------+---------------------+----------------------+
+      | Secuencia del        | Devolución Nacional | Genera el número de  |
+      | Documento:           |                     | secuencia            |
+      |                      |                     | establecido para el  |
+      |                      |                     | orden de los tipos   |
+      |                      |                     | de documentos de     |
+      |                      |                     | ADempiere,           |
+      |                      |                     | configurado en la    |
+      |                      |                     | secuencia de         |
+      |                      |                     | documentos y es      |
+      |                      |                     | incrementable en 1,  |
+      |                      |                     | en este caso la      |
+      |                      |                     | secuencia comienza   |
+      |                      |                     | en 1.000.000 y su    |
+      |                      |                     | prefijo esta         |
+      |                      |                     | compuesto por las    |
+      |                      |                     | iniciales de su      |
+      |                      |                     | nombre "**DN-**".    |
+      +----------------------+---------------------+----------------------+
+      | Copias del           | 1                   | Establece el número  |
+      | Documento:           |                     | de copias a          |
+      |                      |                     | imprimir.            |
+      +----------------------+---------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -11511,7 +11402,7 @@ diferente que a continuación se describe.
       
       No posee implicación fiscal por no ser un documento legal.
 
-2. **Devolución Proveedor Importación**
+#. **Devolución Proveedor Importación**
 
    #. **Definición**
 
@@ -11529,142 +11420,42 @@ diferente que a continuación se describe.
       su comportamiento, a continuación se explica el proceder de
       **Devolución Proveedor Importación**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Entre | Gene |
-      | de   | ga    | ra   |
-      | Docu | de    | un   |
-      | ment | Produ | docu |
-      | o    | cto   | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **De |
-      |      |       | volu |
-      |      |       | ción |
-      |      |       | Prov |
-      |      |       | eedo |
-      |      |       | r    |
-      |      |       | Impo |
-      |      |       | rtac |
-      |      |       | ión* |
-      |      |       | *    |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol. |
-      |      |       | **   |
-      +------+-------+------+
-      | Secu | Devol | Gene |
-      | enci | ución | ra   |
-      | a    | Impor | el   |
-      | del  | tació | núme |
-      | Docu | n     | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**D |
-      |      |       | IM-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Entrega de Producto  | Genera un documento  |
+      | Base:                |                      | de **Devolución      |
+      |                      |                      | Proveedor            |
+      |                      |                      | Importación** a la   |
+      |                      |                      | empresa.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control.**           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Devolución           | Genera el número de  |
+      | Documento:           | Importación          | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**DIM-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -11676,7 +11467,7 @@ diferente que a continuación se describe.
       
       No posee implicación fiscal por no ser un documento legal.
 
-3. **Devolución Proveedor Intercompañía**
+#. **Devolución Proveedor Intercompañía**
 
    #. **Definición**
 
@@ -11694,142 +11485,42 @@ diferente que a continuación se describe.
       su comportamiento, a continuación se explica el proceder de
       **Devolución Proveedor Intercompañía**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Entre | Gene |
-      | de   | ga    | ra   |
-      | Docu | de    | un   |
-      | ment | Produ | docu |
-      | o    | cto   | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **De |
-      |      |       | volu |
-      |      |       | ción |
-      |      |       | Prov |
-      |      |       | eedo |
-      |      |       | r    |
-      |      |       | Inte |
-      |      |       | rcom |
-      |      |       | pañí |
-      |      |       | a**  |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol. |
-      |      |       | **   |
-      +------+-------+------+
-      | Secu | Devol | Gene |
-      | enci | ución | ra   |
-      | a    | Inter | el   |
-      | del  | compa | núme |
-      | Docu | ñía   | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**D |
-      |      |       | IN-* |
-      |      |       | *".  |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Entrega de Producto  | Genera un documento  |
+      | Base:                |                      | de **Devolución      |
+      |                      |                      | Proveedor            |
+      |                      |                      | Intercompañía** a la |
+      |                      |                      | empresa.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control.**           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Devolución           | Genera el número de  |
+      | Documento:           | Intercompañía        | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**DIN-**".   |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -11841,16 +11532,16 @@ diferente que a continuación se describe.
       
       No posee implicación fiscal por no ser un documento legal.
 
-4. **Devolución Proveedor Empleado**
+#. **Devolución Proveedor Empleado**
 
    #. **Definición**
 
       Se refiere a las devoluciones de productos comprados o servicios
       adquiridos de empleados de la misma empresa.
 
-   .. warning:: 
-   
-      En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
+      .. warning:: 
+      
+         En ADempiere los documentos de devolución controlan el egreso de productos del almacén por devolución a proveedor.
 
    #. **Comportamiento**
 
@@ -11858,141 +11549,41 @@ diferente que a continuación se describe.
       comportamiento, a continuación se explica el proceder de
       **Devolución Proveedor Empleado**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Entre | Gene |
-      | de   | ga    | ra   |
-      | Docu | de    | un   |
-      | ment | Produ | docu |
-      | o    | cto   | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **De |
-      |      |       | volu |
-      |      |       | ción |
-      |      |       | Prov |
-      |      |       | eedo |
-      |      |       | r    |
-      |      |       | Empl |
-      |      |       | eado |
-      |      |       | **   |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol. |
-      |      |       | **   |
-      +------+-------+------+
-      | Secu | Devol | Gene |
-      | enci | ución | ra   |
-      | a    | Emple | el   |
-      | del  | ados  | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**D |
-      |      |       | E-** |
-      |      |       | ".   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Entrega de Producto  | Genera un documento  |
+      | Base:                |                      | de **Devolución      |
+      |                      |                      | Proveedor Empleado** |
+      |                      |                      | a la empresa.        |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control.**           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Devolución Empleados | Genera el número de  |
+      | Documento:           |                      | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**DE-**".    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
@@ -12004,7 +11595,7 @@ diferente que a continuación se describe.
       
       No posee implicación fiscal por no ser un documento legal.
 
-5. **Devolución Proveedor Indirecta**
+#. **Devolución Proveedor Indirecta**
 
    #. **Definición**
 
@@ -12021,141 +11612,42 @@ diferente que a continuación se describe.
       comportamiento, a continuación se explica el proceder de
       **Devolución Proveedor Indirecta**:
 
-      +------+-------+------+
-      | **Ca | **Val | **Co |
-      | mpo* | or**  | mpor |
-      | *    |       | tami |
-      |      |       | ento |
-      |      |       | en   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e**  |
-      +======+=======+======+
-      | Tipo | Entre | Gene |
-      | de   | ga    | ra   |
-      | Docu | de    | un   |
-      | ment | Produ | docu |
-      | o    | cto   | ment |
-      | Base |       | o    |
-      | :    |       | de   |
-      |      |       | **De |
-      |      |       | volu |
-      |      |       | ción |
-      |      |       | Prov |
-      |      |       | eedo |
-      |      |       | r    |
-      |      |       | Indi |
-      |      |       | rect |
-      |      |       | a**  |
-      |      |       | a la |
-      |      |       | empr |
-      |      |       | esa. |
-      +------+-------+------+
-      | Docu | Si    | Mant |
-      | ment |       | iene |
-      | o    |       | una  |
-      | Cont |       | **Se |
-      | rola |       | cuen |
-      | do:  |       | cia  |
-      |      |       | de   |
-      |      |       | Cont |
-      |      |       | rol. |
-      |      |       | **   |
-      +------+-------+------+
-      | Secu | Devol | Gene |
-      | enci | ución | ra   |
-      | a    | Indir | el   |
-      | del  | ecta  | núme |
-      | Docu |       | ro   |
-      | ment |       | de   |
-      | o:   |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | esta |
-      |      |       | blec |
-      |      |       | ido  |
-      |      |       | para |
-      |      |       | el   |
-      |      |       | orde |
-      |      |       | n    |
-      |      |       | de   |
-      |      |       | los  |
-      |      |       | tipo |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | de   |
-      |      |       | ADem |
-      |      |       | pier |
-      |      |       | e,   |
-      |      |       | conf |
-      |      |       | igur |
-      |      |       | ado  |
-      |      |       | en   |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | de   |
-      |      |       | docu |
-      |      |       | ment |
-      |      |       | os   |
-      |      |       | y es |
-      |      |       | incr |
-      |      |       | emen |
-      |      |       | tabl |
-      |      |       | e    |
-      |      |       | en   |
-      |      |       | 1,   |
-      |      |       | en   |
-      |      |       | este |
-      |      |       | caso |
-      |      |       | la   |
-      |      |       | secu |
-      |      |       | enci |
-      |      |       | a    |
-      |      |       | comi |
-      |      |       | enza |
-      |      |       | en   |
-      |      |       | 1.00 |
-      |      |       | 0.00 |
-      |      |       | 0    |
-      |      |       | y su |
-      |      |       | pref |
-      |      |       | ijo  |
-      |      |       | esta |
-      |      |       | comp |
-      |      |       | uest |
-      |      |       | o    |
-      |      |       | por  |
-      |      |       | las  |
-      |      |       | inic |
-      |      |       | iale |
-      |      |       | s    |
-      |      |       | de   |
-      |      |       | su   |
-      |      |       | nomb |
-      |      |       | re   |
-      |      |       | "**D |
-      |      |       | I-** |
-      |      |       | ".   |
-      +------+-------+------+
-      | Copi | 1     | Esta |
-      | as   |       | blec |
-      | del  |       | e    |
-      | Docu |       | el   |
-      | ment |       | núme |
-      | o:   |       | ro   |
-      |      |       | de   |
-      |      |       | copi |
-      |      |       | as   |
-      |      |       | a    |
-      |      |       | impr |
-      |      |       | imir |
-      |      |       | .    |
-      +------+-------+------+
+      +----------------------+----------------------+----------------------+
+      | **Campo**            | **Valor**            | **Comportamiento en  |
+      |                      |                      | ADempiere**          |
+      +======================+======================+======================+
+      | Tipo de Documento    | Entrega de Producto  | Genera un documento  |
+      | Base:                |                      | de **Devolución      |
+      |                      |                      | Proveedor            |
+      |                      |                      | Indirecta** a la     |
+      |                      |                      | empresa.             |
+      +----------------------+----------------------+----------------------+
+      | Documento            | Si                   | Mantiene una         |
+      | Controlado:          |                      | **Secuencia de       |
+      |                      |                      | Control.**           |
+      +----------------------+----------------------+----------------------+
+      | Secuencia del        | Devolución Indirecta | Genera el número de  |
+      | Documento:           |                      | secuencia            |
+      |                      |                      | establecido para el  |
+      |                      |                      | orden de los tipos   |
+      |                      |                      | de documentos de     |
+      |                      |                      | ADempiere,           |
+      |                      |                      | configurado en la    |
+      |                      |                      | secuencia de         |
+      |                      |                      | documentos y es      |
+      |                      |                      | incrementable en 1,  |
+      |                      |                      | en este caso la      |
+      |                      |                      | secuencia comienza   |
+      |                      |                      | en 1.000.000 y su    |
+      |                      |                      | prefijo esta         |
+      |                      |                      | compuesto por las    |
+      |                      |                      | iniciales de su      |
+      |                      |                      | nombre "**DI-**".    |
+      +----------------------+----------------------+----------------------+
+      | Copias del           | 1                    | Establece el número  |
+      | Documento:           |                      | de copias a          |
+      |                      |                      | imprimir.            |
+      +----------------------+----------------------+----------------------+
 
    #. **Implicación en ADempiere**
 
