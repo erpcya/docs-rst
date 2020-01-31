@@ -3408,7 +3408,8 @@ Las retenciones siempre son realizadas por el cliente, ya sea en cuentas por cob
 
 Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaje (%) del monto que el cliente le va cancelar a la empresa como proveedor, y por declaraciones se entiende la presentación ante el "**SENIAT**" de las diferentes retenciones que le fueron aplicadas a la empresa como proveedor. En ADempiere son utilizadas cuatro (4) retenciones en cuentas por cobrar, a continuación se define el comportamiento de este tipo de documento.
 
-#. **Retención de IVA 75% de Cuentas por Cobrar**
+**Retención de IVA 75% de Cuentas por Cobrar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -3496,7 +3497,8 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
          #. La venta de exportación de bienes muebles corporales.
          #. La exportación de servicios
 
-#. **Retención de IVA 100% de Cuentas por Cobrar**
+**Retención de IVA 100% de Cuentas por Cobrar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -3584,7 +3586,8 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
          #. La venta de exportación de bienes muebles corporales.
          #. La exportación de servicios
 
-#. **Retención de ISLR de Cuentas por Cobrar**
+**Retención de ISLR de Cuentas por Cobrar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -3711,7 +3714,8 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
 
             Las empresas propiedad de la Nación, de los Estados o de los Municipios, estarán sujetas a los impuestos y normas establecidas en esta ley, cualquiera que sea la forma jurídica de su constitución, aunque las Leyes especiales referentes a tales empresas dispongan lo contrario. 
 
-#. **Retención Municipal de Cuentas por Cobrar**
+**Retención Municipal de Cuentas por Cobrar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -3791,7 +3795,8 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
       
       Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
-#. **Retención de IVA 75% para Nota de Crédito de CxC**
+**Retención de IVA 75% para Nota de Crédito de CxC**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -3874,7 +3879,8 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
          #. La venta de exportación de bienes muebles corporales.
          #. La exportación de servicios
 
-#. **Retención de IVA 100% para Nota de Crédito de CxC**
+**Retención de IVA 100% para Nota de Crédito de CxC**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -3957,7 +3963,8 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
          #. La venta de exportación de bienes muebles corporales.
          #. La exportación de servicios
 
-#. **Retención de ISLR para Nota de Crédito de CxC**
+**Retención de ISLR para Nota de Crédito de CxC**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -4079,7 +4086,8 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
 
             Las empresas propiedad de la Nación, de los Estados o de los Municipios, estarán sujetas a los impuestos y normas establecidas en esta ley, cualquiera que sea la forma jurídica de su constitución, aunque las Leyes especiales referentes a tales empresas dispongan lo contrario. 
 
-#. **Retención Municipal para Nota de Crédito de CxC**
+**Retención Municipal para Nota de Crédito de CxC**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -4155,13 +4163,14 @@ Se entiende por retenciones en cuentas por cobrar, la retención de un porcentaj
       Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
 **Tipo de Documento Pago Devuelto de Cuentas por Cobrar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------------
 
 Un pago devuelto por un banco puede tener diferentes motivos, entre ellos se encuentra la inconsistencia de la firma registrada en el banco con la plasmada en el cheque. También sucede muy seguido que el saldo disponible en la cuenta no sea suficiente para cancelar el cheque.
 
 Cuando de transferencias se trata, suele pasar que el banco regresa la transferencia, causando con esto problemas con el proceso de la empresa u organización.
 
-#. **Pago Devuelto de Cuentas por Cobrar**
+**Pago Devuelto de Cuentas por Cobrar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -4239,19 +4248,20 @@ Cuando de transferencias se trata, suele pasar que el banco regresa la transfere
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Nota de Crédito de Cuentas por Cobrar| **Nota de Crédito de Cuentas por Cobrar**
----------------------------------------------------------------------------------
+**Nota de Crédito de Cuentas por Cobrar** |Nota de Crédito de Cuentas por Cobrar|
+=================================================================================
 
 Es un documento que se aplica a una factura, con la finalidad de reflejar un descuento, un cobro de un gasto incurrido de más, o alguna devolución de productos que el socio de negocio tipo cliente haya comprado.
 
 **Tipos de Documentos Nota de Crédito de Cuentas por Cobrar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------
 
 En ADempiere se utilizan cinco (5) diferentes notas de créditos, pertenecientes a las cuentas por cobrar y son definidas por su comportamiento.
 
 A continuación se definen las notas de crédito de cuentas por cobrar según su comportamiento.
 
-#. **Nota de Crédito de Cuentas por Cobrar Nacional**
+**Nota de Crédito de Cuentas por Cobrar Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -4388,7 +4398,8 @@ A continuación se definen las notas de crédito de cuentas por cobrar según su
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
-#. **Nota de Crédito de Cuentas por Cobrar Exportación**
+**Nota de Crédito de Cuentas por Cobrar Exportación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -4525,7 +4536,8 @@ A continuación se definen las notas de crédito de cuentas por cobrar según su
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-#. **Nota de Crédito de Cuentas por Cobrar Intercompañía**
+**Nota de Crédito de Cuentas por Cobrar Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -4662,7 +4674,8 @@ A continuación se definen las notas de crédito de cuentas por cobrar según su
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-#. **Nota de Crédito de Cuentas por Cobrar Empleado**
+**Nota de Crédito de Cuentas por Cobrar Empleado**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -4799,7 +4812,8 @@ A continuación se definen las notas de crédito de cuentas por cobrar según su
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-#. **Nota de Crédito de Cuentas por Cobrar Indirecta**
+**Nota de Crédito de Cuentas por Cobrar Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -4936,19 +4950,20 @@ A continuación se definen las notas de crédito de cuentas por cobrar según su
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-|Cobros| **Cobros**
--------------------
+**Cobros** |Cobros|
+===================
 
 Son todos aquellos ingresos monetarios por las ventas de productos o prestación de servicios. Se realiza el cobro de todas las cuentas por cobrar que posee una determinada empresa según el periodo que la misma tenga establecida como regla del negocio, es decir, el cobro puede ser aplicado semanal, quincenal, mensual, entre otros.
 
 **Tipos de Documentos Cobro de Cuentas por Cobrar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------
 
 En ADempiere es el documento donde se refleja el ingreso monetario de la empresa por motivo de préstamos realizados a socios de negocios o por compras realizadas por dichos socios, actualmente se utilizan cinco (5) diferentes documentos de cobros para controlar contablemente los ingresos.
 
 A continuación se definen los diferentes documentos de cobro según su comportamiento.
 
-#. **Cobro de Cuentas por Cobrar Nacional**
+**Cobro de Cuentas por Cobrar Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5012,7 +5027,8 @@ A continuación se definen los diferentes documentos de cobro según su comporta
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Cobro de Cuentas por Cobrar Internacional**
+**Cobro de Cuentas por Cobrar Internacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5076,7 +5092,8 @@ A continuación se definen los diferentes documentos de cobro según su comporta
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Cobro de Cuentas por Cobrar Gasto Directo**
+**Cobro de Cuentas por Cobrar Gasto Directo**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5140,7 +5157,8 @@ A continuación se definen los diferentes documentos de cobro según su comporta
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Cobro de Cuentas por Cobrar Reembolso**
+**Cobro de Cuentas por Cobrar Reembolso**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5204,7 +5222,8 @@ A continuación se definen los diferentes documentos de cobro según su comporta
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Cobro de Cuentas por Cobrar Viáticos**
+**Cobro de Cuentas por Cobrar Viáticos**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5268,17 +5287,18 @@ A continuación se definen los diferentes documentos de cobro según su comporta
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Ventas| **Ventas**
--------------------
+**Ventas** |Ventas|
+===================
 
 Son todos los egresos de productos y servicos de la empresa, donde se adquiere un ingreso monetario como pago de ellos. En una empresa pueden existir dos tipos de ventas que serían la venta de contado donde se cancela inmediatamente y la venta a crédito donde se cancela después, mayormente cuando se realiza una venta a crédito se generan intereses por el tiempo de tardanza del pago.
 
 **Tipos de Documentos Entrega de Ventas**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
 Los documentos de entregas en ADempiere controlan el proceso de egreso de los productos del almacén y la entrega a los clientes. Existen cinco (5) diferentes entregas y cada una define un comportamiento que a continuación se describe.
 
-#. **Entrega Nacional**
+**Entrega Nacional**
+~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5359,7 +5379,8 @@ Los documentos de entregas en ADempiere controlan el proceso de egreso de los pr
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Entrega Exportación**
+**Entrega Exportación**
+~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5441,7 +5462,8 @@ Los documentos de entregas en ADempiere controlan el proceso de egreso de los pr
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Entrega Intercompañía**
+**Entrega Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5522,7 +5544,8 @@ Los documentos de entregas en ADempiere controlan el proceso de egreso de los pr
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Entrega Empleado**
+**Entrega Empleado**
+~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5603,7 +5626,8 @@ Los documentos de entregas en ADempiere controlan el proceso de egreso de los pr
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Entrega Indirecta**
+**Entrega Indirecta**
+~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5685,11 +5709,12 @@ Los documentos de entregas en ADempiere controlan el proceso de egreso de los pr
       No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos Devolución de Ventas**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------
 
 Los documentos de devoluciones en ADempiere controlan el ingreso de los productos a almacén por devolución de los clientes. Existen cinco (5) diferentes devoluciones y cada una define un comportamiento que a continuación se describe.
 
-#. **Devolución de Cliente Nacional**
+**Devolución de Cliente Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5754,7 +5779,8 @@ Los documentos de devoluciones en ADempiere controlan el ingreso de los producto
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Devolución de Cliente Exportación**
+**Devolución de Cliente Exportación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5820,7 +5846,8 @@ Los documentos de devoluciones en ADempiere controlan el ingreso de los producto
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Devolución de Cliente Intercompañía**
+**Devolución de Cliente Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5886,7 +5913,8 @@ Los documentos de devoluciones en ADempiere controlan el ingreso de los producto
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Devolución de Cliente Empleado**
+**Devolución de Cliente Empleado**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -5951,7 +5979,8 @@ Los documentos de devoluciones en ADempiere controlan el ingreso de los producto
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Devolución de Cliente Indirecta**
+**Devolución de Cliente Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6017,17 +6046,18 @@ Los documentos de devoluciones en ADempiere controlan el ingreso de los producto
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Requisición| **Requisición**
------------------------------
+**Requisición** |Requisición|
+=============================
 
 Una requisición es un documento de solicitud realizado por los departamentos de una empresa determinada, dirigida al departamento de compra de la misma. En ella se especifican los productos y servicios que dicho departamento necesita, así como la cantidad de los mismos.
 
 **Tipos de Documentos Requisición**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------
 
 En ADempiere es posible solicitar los productos y servicios que el departamento necesita por medio del documento de requisición, este se define según su comportamiento y se describe a continuación.
 
-#. **Requisición de Compra Nacional**
+**Requisición de Compra Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6086,7 +6116,8 @@ En ADempiere es posible solicitar los productos y servicios que el departamento 
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Requisición de Compra Importación**
+**Requisición de Compra Importación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6145,19 +6176,20 @@ En ADempiere es posible solicitar los productos y servicios que el departamento 
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Orden de Compra| **Orden de Compra**
--------------------------------------
+**Orden de Compra** |Orden de Compra|
+=====================================
 
 Es un documento elaborado por el departamento de compra de la empresa, dirigido a un proveedor determinado con el fin de solicitar los productos y servicios necesarios en los diferentes departamentos de la misma.
 
 En ADempiere se utilizan dos (2) grupos de tipos de documentos de órdenes de compra, cada uno de ellos se define según su comportamiento en el mismo.
 
 **Tipos de Documentos Orden de Compra**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 
 Una orden de compra en ADempiere se puede realizar de forma directa teniendo los datos de los productos que se desean solicitar al proveedor, de igual manera, se puede realizar desde una requisición elaborada por el departamento que necesite dichos productos o servicios.
 
-#. **Orden de Compra Nacional**
+**Orden de Compra Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6225,7 +6257,8 @@ Una orden de compra en ADempiere se puede realizar de forma directa teniendo los
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Orden de Compra Importación**
+**Orden de Compra Importación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6293,7 +6326,8 @@ Una orden de compra en ADempiere se puede realizar de forma directa teniendo los
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Orden de Compra Intercompañía**
+**Orden de Compra Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6360,7 +6394,8 @@ Una orden de compra en ADempiere se puede realizar de forma directa teniendo los
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Orden de Compra Empleado**
+**Orden de Compra Empleado**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6427,7 +6462,8 @@ Una orden de compra en ADempiere se puede realizar de forma directa teniendo los
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Orden de Compra Indirecta**
+**Orden de Compra Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6495,11 +6531,12 @@ Una orden de compra en ADempiere se puede realizar de forma directa teniendo los
       No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos Autorización de Devolución de Compras**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------
 
 Es un documento que se elabora cuando algún departamento de la empresa necesita devolver uno, varios, o todos los productos de la compra realizada, independientemente de los motivos que conlleven a la devolución requerida.
 
-#. **Autorización Devolución Cliente Nacional**
+**Autorización Devolución Cliente Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6560,7 +6597,8 @@ Es un documento que se elabora cuando algún departamento de la empresa necesita
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Autorización Devolución Cliente Exportación**
+**Autorización Devolución Cliente Exportación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6621,7 +6659,8 @@ Es un documento que se elabora cuando algún departamento de la empresa necesita
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Autorización Devolución Cliente Intercompañía**
+**Autorización Devolución Cliente Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6682,7 +6721,8 @@ Es un documento que se elabora cuando algún departamento de la empresa necesita
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Autorización Devolución Cliente Empleado**
+**Autorización Devolución Cliente Empleado**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6743,7 +6783,8 @@ Es un documento que se elabora cuando algún departamento de la empresa necesita
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Autorización Devolución Cliente Indirecta**
+**Autorización Devolución Cliente Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6804,21 +6845,22 @@ Es un documento que se elabora cuando algún departamento de la empresa necesita
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Cuentas por Pagar| **Cuentas por Pagar**
------------------------------------------
+**Cuentas por Pagar** |Cuentas por Pagar|
+=========================================
 
 Las cuentas por pagar en ADempiere son todas aquellas deudas que la empresa contrae con los socios de negocios por la adquisición de servicios, compra de productos, entre otros motivos. Actualmente existen ocho (8) grupos de tipos de documentos de cuentas por pagar en ADempiere y cada uno de ellos define un comportamiento diferente.
 
 A continuación se detallan los tipos de documentos de cuentas por pagar.
 
 **Tipos de Documentos Facturas de Cuentas por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------
 
 En ADempiere una factura de cuentas por pagar es un documento legal que se realiza por la compra de productos o servicios a un determinado proveedor, donde se incluyen los datos principales del socio de negocio tipo proveedor, la empresa, y la información detallada de los productos y servicios.
 
 El documento factura en cuentas por pagar se compone de siete (7) diferentes facturas, en las que se encuentran factura nacional, importación, pro-forma, intercompañía, empleado, manual y indirecta, en ese orden de ideas serán explicados los comportamientos de los tipos de facturas.
 
-#. **Factura de Cuentas por Pagar Nacional**
+**Factura de Cuentas por Pagar Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -6954,7 +6996,8 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
 
          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general. 
 
-#. **Factura de Cuentas por Pagar Importación**
+**Factura de Cuentas por Pagar Importación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -7027,7 +7070,8 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
 
          - **Artículo 19:** Los emisores de facturas sobre formas libres elaboradas por Imprentas autorizadas, o a través de máquinas fiscales, pueden contar con dispositivos de lectura de códigos de barra u otros mecanismos electrónicos que faciliten la captura de los datos relativos a la Identificación del adquirente del bien o receptor del servicio. 
 
-#. **Factura de Cuentas por Pagar Pro Forma**
+**Factura de Cuentas por Pagar Pro Forma**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -7162,7 +7206,8 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
           Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia
           Administrativa de carácter general. 
 
-#. **Factura de Cuentas por Pagar Intercompañía**
+**Factura de Cuentas por Pagar Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -7299,7 +7344,8 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
 
          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general. 
 
-#. **Factura de Cuentas por Pagar Empleado**
+**Factura de Cuentas por Pagar Empleado**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -7433,7 +7479,8 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
 
          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general. 
 
-#. **Factura de Cuentas por Pagar Manual**
+**Factura de Cuentas por Pagar Manual**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -7570,7 +7617,8 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
 
          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general. 
 
-#. **Factura de Cuentas por Pagar Indirecta**
+**Factura de Cuentas por Pagar Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -7703,11 +7751,12 @@ El documento factura en cuentas por pagar se compone de siete (7) diferentes fac
          - **Artículo 40:** Las facturas y otros documentos que se emitan no deben tener tachaduras ni enmendaduras, salvo en los casos que autorice el Servicio Nacional Integrado de Administración Aduanera y Tributaria (SENIAT), mediante Providencia Administrativa de carácter general. 
 
 **Tipos de Documentos Ajustes de Cuentas por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------
 
 En ADempiere un ajuste es un documento que representa el ingreso o egreso monetario de la empresa, todo va a depender si el ajuste es de crédito o de débito. A continuación se define el comportamiento de un ajuste de débito y un ajuste de crédito de cuentas por pagar en ADempiere.
 
-#. **Ajuste de Débito de Cuentas por Pagar**
+**Ajuste de Débito de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -7776,7 +7825,8 @@ En ADempiere un ajuste es un documento que representa el ingreso o egreso moneta
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
-#. **Ajuste de Crédito de Cuentas por Pagar**
+**Ajuste de Crédito de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -7846,11 +7896,12 @@ En ADempiere un ajuste es un documento que representa el ingreso o egreso moneta
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
 **Tipos de Documentos Notas de Débito de Cuentas por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------
 
 Es un documento que se aplica a una factura para aumentar el monto de la misma, una nota de débito se podría realizar bajo el concepto de gastos administrativos y siempre nace de un documento afectado como una factura o una nota de crédito. Actualmente en ADempiere se utilizan cinco (5) diferentes notas de débito como nacional, importación, intercompañía, empleado e indirectas.
 
-#. **Nota de Débito de Cuentas por Pagar Nacional**
+**Nota de Débito de Cuentas por Pagar Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -7930,7 +7981,8 @@ Es un documento que se aplica a una factura para aumentar el monto de la misma, 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
-#. **Nota de Débito de Cuentas por Pagar Importación**
+**Nota de Débito de Cuentas por Pagar Importación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -8010,7 +8062,8 @@ Es un documento que se aplica a una factura para aumentar el monto de la misma, 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
-#. **Nota de Débito de Cuentas por Pagar Intercompañía**
+**Nota de Débito de Cuentas por Pagar Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -8090,7 +8143,8 @@ Es un documento que se aplica a una factura para aumentar el monto de la misma, 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
-#. **Nota de Débito de Cuentas por Pagar Empleado**
+**Nota de Débito de Cuentas por Pagar Empleado**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -8170,7 +8224,8 @@ Es un documento que se aplica a una factura para aumentar el monto de la misma, 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
-#. **Nota de Débito de Cuentas por Pagar Indirecta**
+**Nota de Débito de Cuentas por Pagar Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -8251,13 +8306,14 @@ Es un documento que se aplica a una factura para aumentar el monto de la misma, 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas.
 
 **Tipos de Documentos Retenciones y Declaraciones de Cuentas por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------------------
 
 Las retenciones siempre son realizadas por el cliente, ya sea en cuentas por cobrar o cuentas por pagar, las declaraciones de retenciones son realizadas tanto por el cliente como por el proveedor.
 
 Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje (%) del monto que la empresa como cliente le va cancelar al proveedor, y por declaraciones se entiende la presentación ante el "**SENIAT**" de las diferentes retenciones que la empresa como cliente le aplicó a los proveedores. Existen actualmente en ADempiere, cuatro (4) diferentes documentos de retenciones y tres (3) diferentes documentos de declaraciones que a continuación se definen por su comportamiento en el mismo.
 
-#. **Retención de IVA 75% de Cuentas por Pagar**
+**Retención de IVA 75% de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -8342,7 +8398,8 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
              #. La venta de exportación de bienes muebles corporales.
              #. La exportación de servicios
 
-#. **Retención de IVA 100% de Cuentas por Pagar**
+**Retención de IVA 100% de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -8427,7 +8484,8 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
              #. La venta de exportación de bienes muebles corporales.
              #. La exportación de servicios
 
-#. **Retención de ISLR de Cuentas por Pagar**
+**Retención de ISLR de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -8552,7 +8610,8 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
 
            Las empresas propiedad de la Nación, de los Estados o de los Municipios, estarán sujetas a los impuestos y normas establecidas en esta ley, cualquiera que sea la forma jurídica de su constitución, aunque las Leyes especiales referentes a tales empresas dispongan lo contrario. 
 
-#. **Retención Municipal de Cuentas por Pagar**
+**Retención Municipal de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -8629,7 +8688,8 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
        
       Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
-#. **Retención de IVA 75% para Nota de Crédito de CxP**
+**Retención de IVA 75% para Nota de Crédito de CxP**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -8714,7 +8774,8 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
              #. La venta de exportación de bienes muebles corporales.
              #. La exportación de servicios
 
-#. **Retención de IVA 100% para Nota de Crédito de CxP**
+**Retención de IVA 100% para Nota de Crédito de CxP**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -8799,7 +8860,8 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
              #. La venta de exportación de bienes muebles corporales.
              #. La exportación de servicios
 
-#. **Retención de ISLR para Nota de Crédito de CxP**
+**Retención de ISLR para Nota de Crédito de CxP**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -8924,7 +8986,8 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
 
            Las empresas propiedad de la Nación, de los Estados o de los Municipios, estarán sujetas a los impuestos y normas establecidas en esta ley, cualquiera que sea la forma jurídica de su constitución, aunque las Leyes especiales referentes a tales empresas dispongan lo contrario. 
 
-#. **Retención Municipal para Nota de Crédito de CxP**
+**Retención Municipal para Nota de Crédito de CxP**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -9001,7 +9064,8 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
        
       Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
-#. **Declaración de IVA de Cuentas por Pagar**
+**Declaración de IVA de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -9069,7 +9133,8 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
 
          - **Artículo 2:** En el caso que cualquiera de las fechas programadas en esta Providencia Administrativa, coincida con un día declarado feriado por el Ejecutivo Nacional, Estadal o Municipal, la declaración y/o pago correspondiente deberá presentarse al día hábil siguiente.
 
-#. **Declaración de ISLR de Cuentas por Pagar**
+**Declaración de ISLR de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -9137,7 +9202,8 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
 
          - **Artículo 2:** En el caso que cualquiera de las fechas programadas en esta Providencia Administrativa, coincida con un día declarado feriado por el Ejecutivo Nacional, Estadal o Municipal, la declaración y/o pago correspondiente deberá presentarse al día hábil siguiente.
 
-#. **Declaración Municipal de Cuentas por Pagar**
+**Declaración Municipal de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -9196,13 +9262,14 @@ Se entiende por retenciones en cuentas por pagar, la retención de un porcentaje
       Este dependerá del municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. 
 
 **Tipo de Documento Pagaré Bancario de Cuentas por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------------
 
 Es un documento donde la empresa como cliente se compromete a pagar al proveedor una cantidad monetaria en la fecha acordada, misma fecha se establece en el pagaré.
 
 El tiempo mayormente utilizado para un pagaré es 30, 60 y 90 días.
 
-#. **Pagaré Bancario de Cuentas por Pagar**
+**Pagaré Bancario de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -9282,11 +9349,12 @@ El tiempo mayormente utilizado para un pagaré es 30, 60 y 90 días.
             - Los gastos judiciales que hubiesen desembolsado. 
 
 **Tipo de Documento Interés Bancario de Cuentas por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------------------
 
 El interés es un dinero que se genera cuando se presentan casos de préstamos, créditos y depósitos, donde el banco como acreedor impone a la empresa como deudor un porcentaje (%) de dinero extra para compensar económicamente la disponibilidad de su dinero.
 
-#. **Interés Bancario de Cuentas por Pagar**
+**Interés Bancario de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -9338,11 +9406,12 @@ El interés es un dinero que se genera cuando se presentan casos de préstamos, 
       No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos de Cuentas por Pagar Gubernamental**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------------------------
 
 Se refiere a las deudas con entes relacionados con el gobierno que aportan beneficio social a organizaciones, es decir, son aquellos que en pro a brindar servicios públicos a la nación, establecen normas y leyes que los ayudan a regular los procesos y la conducta social de las personas. Así mismo, estos entes gubernamentales se encargan del cumplimiento de las normativas establecidas.
 
-#. **Cuentas por Pagar Gubernamental**
+**Cuentas por Pagar Gubernamental**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -9438,11 +9507,12 @@ Se refiere a las deudas con entes relacionados con el gobierno que aportan benef
           El incumplimiento reiterado de las obligaciones que los organismos gubernamentales mantengan entre sí en los términos de esta Ley, generará responsabilidad de las máximas autoridades de los organismos respectivos en los términos de las leyes correspondientes.
 
 **Tipos de Documentos de Cuentas por Pagar Gastos**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------------
 
 Son todos aquellos gastos que la empresa esta en la obligación de pagar, como gastos pendientes o gastos acumulados. Los gastos son considerados en algunas ocasiones inversiones, ya que la empresa puede gastar una cantidad de dinero en materia prima pero luego de la producción y venta ese dinero se reintegra con ganancias.
 
-#. **Cuentas por Pagar Gastos**
+**Cuentas por Pagar Gastos**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -9494,19 +9564,20 @@ Son todos aquellos gastos que la empresa esta en la obligación de pagar, como g
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Nota de Crédito de Cuentas por Pagar| **Nota de Crédito de Cuentas por Pagar**
--------------------------------------------------------------------------------
+**Nota de Crédito de Cuentas por Pagar** |Nota de Crédito de Cuentas por Pagar|
+===============================================================================
 
 Es un documento que se aplica a una factura con la finalidad de disminuir el monto de la misma, ya sea por concepto de algún tipo de descuento promocional o por devolución de productos comprados.
 
 **Tipos de Documentos Nota de Crédito de Cuentas por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------
 
 En ADempiere se utilizan cinco (5) diferentes notas de créditos, pertenecientes a las cuentas por pagar y son definidas por su comportamiento.
 
 A continuación se definen las notas de crédito de cuentas por pagar según su comportamiento.
 
-#. **Nota de Crédito de Cuentas por Pagar Nacional**
+**Nota de Crédito de Cuentas por Pagar Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -9608,7 +9679,8 @@ A continuación se definen las notas de crédito de cuentas por pagar según su 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-#. **Nota de Crédito de Cuentas por Pagar Importacion**
+**Nota de Crédito de Cuentas por Pagar Importacion**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -9710,7 +9782,8 @@ A continuación se definen las notas de crédito de cuentas por pagar según su 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-#. **Nota de Crédito de Cuentas por Pagar Intercompañía**
+**Nota de Crédito de Cuentas por Pagar Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -9812,7 +9885,8 @@ A continuación se definen las notas de crédito de cuentas por pagar según su 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-#. **Nota de Crédito de Cuentas por Pagar Empleado**
+**Nota de Crédito de Cuentas por Pagar Empleado**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -9914,7 +9988,8 @@ A continuación se definen las notas de crédito de cuentas por pagar según su 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-#. **Nota de Crédito de Cuentas por Pagar Indirecta**
+**Nota de Crédito de Cuentas por Pagar Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10016,19 +10091,20 @@ A continuación se definen las notas de crédito de cuentas por pagar según su 
 
          Lo anterior con intención de controlar el proceso de generación de notas de débito aplicadas a facturas
 
-|Comisión de Ventas| **Comisión de Ventas**
--------------------------------------------
+**Comisión de Ventas** |Comisión de Ventas|
+===========================================
 
 Es el documento donde se reflejan las comisiones de ventas que le corresponden a los trabajadores de la empresa. Las comisiones son incentivos que las empresas le ofrecen a sus trabajadores para que estos se motiven a vender más, mientras más ventas tenga una empresa más ganancias monetarias posee.
 
 **Tipo de Documento Comisión de Ventas**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 En ADempiere se utiliza el documento comisión de ventas para controlar contablemente las comisiones por motivo de las ventas de los productos y servicios.
 
 A continuación se define el comportamiento del documento comisión de ventas.
 
-#. **Comisión de Venta**
+**Comisión de Venta**
+~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10089,17 +10165,18 @@ A continuación se define el comportamiento del documento comisión de ventas.
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Selección de Pago de Cuentas por Pagar| **Selección de Pago**
---------------------------------------------------------------
+**Selección de Pago** |Selección de Pago de Cuentas por Pagar|
+==============================================================
 
 Este documento permite seleccionar los documentos por pagar que posea la empresa, agrupándolos para luego ser pagados todos o algunos de ellos, dependiendo de la cantidad de pagos que sean autorizados.
 
 **Tipo de Documento Solicitud de Pagos de Cuentas por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------
 
 Es un documento que se elabora cuando no se poseen todos los datos necesarios para realizar la selección de pagos, en este documento se solicita que se paguen los documentos agrupados. Un caso de solicitud de pagos, podría ser cuando no se sabe exactamente desde que cuenta se realizarán los pagos.
 
-#. **Solicitud de Pagos de Cuentas por Pagar**
+**Solicitud de Pagos de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10161,11 +10238,12 @@ Es un documento que se elabora cuando no se poseen todos los datos necesarios pa
       No posee implicación fiscal por no ser un documento legal.
 
 **Tipo de Documento Selección de Pagos de Cuentas por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------------------
 
 Es un documento que se elabora cuando se poseen todos los datos necesarios para realizar la selección de pagos, en este documento se agrupan todas las cuentas por pagar que posee la empresa. Posterior a este proceso, se procede a realizar el pago.
 
-#. **Selección de Pagos de Cuentas por Pagar**
+**Selección de Pagos de Cuentas por Pagar**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10226,17 +10304,18 @@ Es un documento que se elabora cuando se poseen todos los datos necesarios para 
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Pagos| **Pagos**
------------------
+**Pagos** |Pagos|
+=================
 
 Son todos aquellos egresos monetarios por las compras de productos o adquisiciones de servicios de la empresa. Adicional a ello, se considera pago la cancelación de las deudas que una empresa posee con los socios de negocios por préstamos u otros motivos que generen cuentas por pagar.
 
 **Tipos de Documentos Pago de Cuentas por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-------------------------------------------------
 
 En ADempiere un pago es realizado previo a una autorización, siendo este muy delicado por tratarse del egreso monetario de la empresa. En general son utilizados cinco (5) tipos de documentos de pago con diferentes comportamientos que se definen a continuación.
 
-#. **Pago de Cuentas por Pagar Nacional**
+**Pago de Cuentas por Pagar Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10296,7 +10375,8 @@ En ADempiere un pago es realizado previo a una autorización, siendo este muy de
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Pago de Cuentas por Pagar Internacional**
+**Pago de Cuentas por Pagar Internacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10356,7 +10436,8 @@ En ADempiere un pago es realizado previo a una autorización, siendo este muy de
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Pago de Cuentas por Pagar Gasto Directo**
+**Pago de Cuentas por Pagar Gasto Directo**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10416,7 +10497,8 @@ En ADempiere un pago es realizado previo a una autorización, siendo este muy de
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Pago de Cuentas por Pagar Reembolso**
+**Pago de Cuentas por Pagar Reembolso**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10476,7 +10558,8 @@ En ADempiere un pago es realizado previo a una autorización, siendo este muy de
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Pago de Cuentas por Pagar Viáticos**
+**Pago de Cuentas por Pagar Viáticos**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10534,17 +10617,18 @@ En ADempiere un pago es realizado previo a una autorización, siendo este muy de
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Asignación de Pagos| **Asignación de Pagos**
----------------------------------------------
+**Asignación de Pagos** |Asignación de Pagos|
+=============================================
 
 Es el documento que la empresa elabora previo al pago recibido o realizado por concepto de anticipo, con la finalidad de asociarlo a una factura determinada y disminuir el monto total a pagar de la misma.
 
 **Tipo de Documento Asignación de Pagos**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------
 
 En ADempiere es el documento que enlaza el pago de un anticipo con una factura. Es definido según su comportamiento y explicado a continuación.
 
-#. **Asignación de Pagos**
+**Asignación de Pagos**
+~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10588,17 +10672,18 @@ En ADempiere es el documento que enlaza el pago de un anticipo con una factura. 
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Compras| **Compras**
----------------------
+**Compras** |Compras|
+=====================
 
 Son todos los ingresos de productos y servicios, donde se entrega una cantidad monetaria como pago de ellos. Para que una empresa pueda realizar compras, necesita pasar por un proceso de análisis y selección de productos con la intención de conseguir la mejor calidad posible, siempre que el costo monetario no sea tan alto.
 
 **Tipos de Documentos Recepción de Compras**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------
 
 Los documentos de recepción en ADempiere controlan el ingreso de los productos comprados por la empresa. Existen cinco (5) diferentes documentos de recepción y cada uno define un comportamiento diferente que a continuación se describe.
 
-#. **Recepción Nacional**
+**Recepción Nacional**
+~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10658,7 +10743,8 @@ Los documentos de recepción en ADempiere controlan el ingreso de los productos 
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Recepción Importación**
+**Recepción Importación**
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10718,7 +10804,8 @@ Los documentos de recepción en ADempiere controlan el ingreso de los productos 
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Recepción Intercompañía**
+**Recepción Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10778,7 +10865,8 @@ Los documentos de recepción en ADempiere controlan el ingreso de los productos 
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Recepción Empleado**
+**Recepción Empleado**
+~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10838,7 +10926,8 @@ Los documentos de recepción en ADempiere controlan el ingreso de los productos 
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Recepción Indirecta**
+**Recepción Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10899,11 +10988,12 @@ Los documentos de recepción en ADempiere controlan el ingreso de los productos 
       No posee implicación fiscal por no ser un documento legal.
 
 **Tipos de Documentos Devolución de Compras**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 
 Los documentos de devolución en ADempiere controlan el egreso de los productos comprados por la empresa. Existen cinco (5) diferentes documentos de devolución de compras y cada uno define un comportamiento diferente que a continuación se describe.
 
-#. **Devolución Proveedor Nacional**
+**Devolución Proveedor Nacional**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -10966,7 +11056,8 @@ Los documentos de devolución en ADempiere controlan el egreso de los productos 
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Devolución Proveedor Importación**
+**Devolución Proveedor Importación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -11027,7 +11118,8 @@ Los documentos de devolución en ADempiere controlan el egreso de los productos 
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Devolución Proveedor Intercompañía**
+**Devolución Proveedor Intercompañía**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -11088,7 +11180,8 @@ Los documentos de devolución en ADempiere controlan el egreso de los productos 
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Devolución Proveedor Empleado**
+**Devolución Proveedor Empleado**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -11148,7 +11241,8 @@ Los documentos de devolución en ADempiere controlan el egreso de los productos 
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Devolución Proveedor Indirecta**
+**Devolución Proveedor Indirecta**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -11209,17 +11303,18 @@ Los documentos de devolución en ADempiere controlan el egreso de los productos 
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Asignar OC| **Asignar OC**
----------------------------
+**Asignar OC** |Asignar OC|
+===========================
 
 Es el tipo de documento utilizado en las empresas cuando se esta haciendo el cierre del mes, para asignar una orden de compra a un documento de recepción cuando la operación no fue realizada en el momento de su ciclo normal en ADempiere, permitiendo con este proceso realizar un cruce de documentos a final del mes.
 
 **Tipo de Documento Asignar OC**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------
 
 En ADempiere el documento cumple con el proceso de asociar una recepción de productos y servicios a una orden de compra, así como también a una factura.
 
-#. **Asignar OC**
+**Asignar OC**
+~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -11254,21 +11349,22 @@ En ADempiere el documento cumple con el proceso de asociar una recepción de pro
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Extracto Bancario| **Extracto Bancario**
------------------------------------------
+**Extracto Bancario** |Extracto Bancario|
+=========================================
 
 Es un documento donde se encuentran reflejados los movimientos que se realizaron en una cuenta, el mismo puede ser generado por el titular de la cuenta. Este documento se genera cada cierto tiempo, mayormente se hace mensual.
 
 En las empresas es utilizado para comparar los valores economicos con los movimientos realizados.
 
 **Tipo de Documento Extracto Bancario**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------
 
 En ADempiere es un proceso que solo puede ser realizado por el departamento de finanzas, ya que para acceder al mismo se deben tener los permisos necesarios. Solamente el departamento de finanzas es responsable del extracto bancario.
 
 El tipo de documento extracto bancario se define según su comportamiento y es explicado a continuación.
 
-#. **Cierre de Caja**
+**Cierre de Caja**
+~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -11325,7 +11421,8 @@ El tipo de documento extracto bancario se define según su comportamiento y es e
       
       No posee implicación fiscal por no ser un documento legal.
 
-#. **Extracto Bancario**
+**Extracto Bancario**
+~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -11367,19 +11464,20 @@ El tipo de documento extracto bancario se define según su comportamiento y es e
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Nómina| **Nómina**
--------------------
+**Nómina** |Nómina|
+===================
 
 Es el listado de trabajadores que desempeñan algún tipo de actividad en una empresa. Cada empresa debe manejar diferentes nóminas, por lo que son clasificadas en nómina regular, turnos mixtos, de alimentación, bono especial, entre otras utilizadas para cancelar las pagos correspondientes a los trabajadores de las empresas.
 
 Cada una de las nóminas descriptas anteriormente representa los pagos de salarios y beneficios que la empresa le hace a sus trabajadores como lo indica la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076. La cancelación o pago de la nómina se realiza dependiendo de las reglas del negocio, es decir, la empresa puede cancelar nómina semanal, quincenal o mensual.
 
 **Tipo de Documento Nómina**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------
 
 En ADempiere este tipo de documento es utilizado para cancelar a los trabajadores los sueldos, salarios, utilidades, comisiones, bonos, retroactivos, vacaciones y prestaciones sociales, como pago de las actividades desempeñadas en la empresa.
 
-#. **Nómina Bono de Alimentación**
+**Nómina Bono de Alimentación**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -11457,7 +11555,8 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            El patrono o patrona que viole la normativa relacionada con la Ley de Alimentación de los trabajadores y de las trabajadoras, se le impondrá una multa no menor del equivalente de sesenta unidades tributarias, ni mayor del equivalente a ciento veinte unidades tributarias.
 
-#. **Nómina Mensual**
+**Nómina Mensual**
+~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -11600,7 +11699,8 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            El pago de un salario inferior al mínimo será sancionado de acuerdo con las previsiones establecidas en esta Ley. El patrono infractor o la patrona infractora quedará obligado u obligada, además, a pagar a los trabajadores y las trabajadoras la diferencia entre el salario mínimo y lo realmente pagado, así como sus incidencias sobre los beneficios, prestaciones e indemnizaciones, por todo el tiempo en que hubiere recibido salarios más bajos que los fijados, además de pagarle el monto equivalente a los intereses que devengaría esa cantidad a la tasa activa determinada por el Banco Central de Venezuela, tomando como referencia los seis principales bancos del país.
 
-#. **Nómina Quincenal**
+**Nómina Quincenal**
+~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -11743,7 +11843,8 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            El pago de un salario inferior al mínimo será sancionado de acuerdo con las previsiones establecidas en esta Ley. El patrono infractor o la patrona infractora quedará obligado u obligada, además, a pagar a los trabajadores y las trabajadoras la diferencia entre el salario mínimo y lo realmente pagado, así como sus incidencias sobre los beneficios, prestaciones e indemnizaciones, por todo el tiempo en que hubiere recibido salarios más bajos que los fijados, además de pagarle el monto equivalente a los intereses que devengaría esa cantidad a la tasa activa determinada por el Banco Central de Venezuela, tomando como referencia los seis principales bancos del país.
 
-#. **Nómina Semanal**
+**Nómina Semanal**
+~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -11886,7 +11987,8 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            El pago de un salario inferior al mínimo será sancionado de acuerdo con las previsiones establecidas en esta Ley. El patrono infractor o la patrona infractora quedará obligado u obligada, además, a pagar a los trabajadores y las trabajadoras la diferencia entre el salario mínimo y lo realmente pagado, así como sus incidencias sobre los beneficios, prestaciones e indemnizaciones, por todo el tiempo en que hubiere recibido salarios más bajos que los fijados, además de pagarle el monto equivalente a los intereses que devengaría esa cantidad a la tasa activa determinada por el Banco Central de Venezuela, tomando como referencia los seis principales bancos del país.
 
-#. **Nómina Retroactivo**
+**Nómina Retroactivo**
+~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -11952,7 +12054,8 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            Si en la convención colectiva de trabajo se estipularen cláusulas de aplicación retroactiva, las mismas beneficiarán a los trabajadores y trabajadoras activos al momento de la homologación de la convención, salvo disposición en contrario de las partes.
 
-#. **Nómina Vacaciones**
+**Nómina Vacaciones**
+~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -12146,7 +12249,8 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            En caso de que el patrono o patrona pague al trabajador o trabajadora un salario inferior al mínimo fijado, o no pague oportunamente el salario semanal, quincenal y las vacaciones se le impondrá una multa no menor del equivalente a ciento veinte unidades tributarias, ni mayor del equivalente a trescientas sesenta unidades tributarias.
 
-#. **Nómina de Prestaciones Sociales**
+**Nómina de Prestaciones Sociales**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -12307,7 +12411,8 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            Mediante ley especial se determinará el régimen de creación, funcionamiento y supervisión del Fondo Nacional de Prestaciones Sociales.
 
-#. **Nómina Utilidades**
+**Nómina Utilidades**
+~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -12414,7 +12519,8 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            En caso de que el patrono o la patrona y el trabajador o la trabajadora hayan convenido en que éste perciba una participación convencional que supere a la participación legal pautada en este Capítulo, el monto de ésta comprenderá aquélla, a menos que las partes hubieren convenido expresamente lo contrario. Lo mismo se hará en el supuesto de que el monto de la participación legal llegue a superar el de la participación convenida por las partes.
 
-#. **Nómina por Pagos Especiales**
+**Nómina por Pagos Especiales**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -12494,7 +12600,8 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            Al patrono o patrona que no pague correctamente a sus trabajadores o trabajadoras la participación en los beneficios, o la bonificación o prima de navidad que les corresponda, se le impondrá una multa no menor del equivalente a sesenta unidades tributarias, ni mayor del equivalente a ciento veinte unidades tributarias.
 
-#. **Nómina por Comisiones**
+**Nómina por Comisiones**
+~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -12572,17 +12679,18 @@ En ADempiere este tipo de documento es utilizado para cancelar a los trabajadore
 
            **Los aumentos de productividad en una entidad de trabajo y la mejora de la producción, causarán una más alta remuneración para los trabajadores y las trabajadoras. A estos fines, el patrono o patrona y el sindicato o, cuando no exista éste, sus trabajadores y trabajadoras acordarán, con relación a los procesos de producción en un departamento, sección o puesto de trabajo, planes y programas orientados a mejorar tanto la calidad del producto como la productividad y en ellos considerarán los incentivos para los y las participantes, según su contribución.**
 
-|Selección de Pago Nómina| **Selección de Pagos Nómina**
---------------------------------------------------------
+**Selección de Pagos Nómina** |Selección de Pago Nómina|
+========================================================
 
 La selección de pagos nómina es donde se agrupan todas las nóminas que posee una empresa, y que se necesitan pagar. Se realiza este procedimiento para no ir pagando nómina por nómina, sino que simplemente se agrupan en un solo documento todas las nóminas a pagar para luego generar el pago.
 
 **Tipo de Documento Selección de Pagos Nómina**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-----------------------------------------------
 
 En ADempiere este proceso solo puede ser realizado por un usuario que posea los permisos necesarios para acceder a la información de las nóminas, ya que esta es muy delicada.
 
-#. **Selección de Pagos Nómina**
+**Selección de Pagos Nómina**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -12643,17 +12751,18 @@ En ADempiere este proceso solo puede ser realizado por un usuario que posea los 
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Orden de Mantenimiento| **Orden de Mantenimiento**
----------------------------------------------------
+**Orden de Mantenimiento** |Orden de Mantenimiento|
+===================================================
 
 Es un documento en el que se planifican todas las tareas que debe realizar el departamento de mantenimiento en la empresa de forma específica, es emitido por el jefe de dicho departamento para sus tecnicos, este documento sirve como soporte en las auditorías que le realicen a la empresa.
 
 **Tipo de Documento Orden de Mantenimiento**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------------
 
 En ADempiere el tipo de documento orden de mantenimiento indica el tiempo de duración, los materiales necesarios, los costos aproximados, entre otros datos de igual importancia. Es definido según su comportamiento y explicado a continuación.
 
-#. **Orden de Mantenimiento**
+**Orden de Mantenimiento**
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -12711,17 +12820,18 @@ En ADempiere el tipo de documento orden de mantenimiento indica el tiempo de dur
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Depreciación de Activos| **Depreciación de Activos**
------------------------------------------------------
+**Depreciación de Activos** |Depreciación de Activos|
+=====================================================
 
 Es el tipo de documento en el que se refleja el costo generado a lo largo de la utilización del activo, el mismo es restado de los ingresos monetarios producidos por el activo.
 
 **Tipo de Documento Depreciación de Activos**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 
 En ADempiere el documento es realizado a lo largo del proceso de utilización del activo, así como también, posterior al proceso de adición de activos. Es un documento definido según su comportamiento, especificado a continuación.
 
-#. **Depreciación de Activos**
+**Depreciación de Activos**
+~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -12781,19 +12891,20 @@ En ADempiere el documento es realizado a lo largo del proceso de utilización de
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Adición de Activos| **Adición de Activos**
--------------------------------------------
+**Adición de Activos** |Adición de Activos|
+===========================================
 
 Es el tipo de documento que permite reflejar las modificaciones que se apliquen a los activos de la empresa con la finalidad de mejorarlos, ampliando con esto su productividad, los activos de una empresa pueden ser los bienes y las propiedades de la misma.
 
 De igual manera permite reflejar un activo nuevo a la empresa por la compra del mismo, de esta manera se reflejará su valor y la cantidad que hay de ese activo.
 
 **Tipo de Documento Adición de Activos**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+----------------------------------------
 
 En ADempiere es posible realizar una adición de activos tangibles e intangibles para revalorizar los mismos para una empresa, es definido según su comportamiento explicado a continuación.
 
-#. **Adición de Activos**
+**Adición de Activos**
+~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -12853,17 +12964,18 @@ En ADempiere es posible realizar una adición de activos tangibles e intangibles
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Venta de Activos| **Venta de Activos**
----------------------------------------
+**Venta de Activos** |Venta de Activos|
+=======================================
 
 Es el tipo de documento que refleja la venta de los activos que posee un empresa, dicha venta puede realizarse porque el activo ya cumplió con su tiempo de vida util dentro de la empresa o porque se presenta la oportunidad de vender el activo para adquirir uno mejor y más eficiente, que genere mayores ingresos productivos o monetarios a la empresa.
 
 **Tipo de Documento Venta de Activos**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+--------------------------------------
 
 En ADempiere es un documento utilizado para reflejar la venta de los activos de la empresa independientemente del motivo de la misma, es definido según su comportamiento especificado a continuación.
 
-#. **Venta de Activos**
+**Venta de Activos**
+~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
@@ -12923,17 +13035,18 @@ En ADempiere es un documento utilizado para reflejar la venta de los activos de 
       
       No posee implicación fiscal por no ser un documento legal.
 
-|Nota de Contabilidad| **Nota de Contabilidad**
------------------------------------------------
+**Nota de Contabilidad** |Nota de Contabilidad|
+===============================================
 
 Es un documento utilizado por la empresa para registrar movimientos de los que la misma no posee ningún tipo de formato para contabilizar, el formato de una nota de contabilidad no puede variar, sin embargo, se debe especificar su clasificación cuando la empresa maneje diferentes operaciones que no poseen formato.
 
 **Tipo de Documento Nota de Contabilidad**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+------------------------------------------
 
 En ADempiere es un documento utilizado para reflejar operaciones sin formato en la contabilidad de una determinada empresa, obteniendo de esta manera un control sobre aquellas que generan ingresos o egresos a la misma.
 
-#. **Nota de Contabilidad**
+**Nota de Contabilidad**
+~~~~~~~~~~~~~~~~~~~~~~~~
 
    #. **Definición**
 
