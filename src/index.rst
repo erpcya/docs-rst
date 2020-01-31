@@ -23,14 +23,21 @@ Tabla de Contenido
     :maxdepth: 2
     :numbered:
 
-    lve/documentation-lve/index
+    lve/documentation-lve/human-resource-payroll/index
+    lve/documentation-lve/standard-coding/index
+    lve/documentation-lve/fiscal-printer/index
+    lve/documentation-lve/adempiere-documents/index
 
 .. toctree::
     :caption: PROCEDIMIENTOS DE ADEMPIERE
     :maxdepth: 2
     :numbered:
 
-    adempiere/index
+    adempiere/vertical/index
+    adempiere/standard-processes/master/index
+    adempiere/standard-processes/requisition-to-invoice/index
+    adempiere/standard-processes/open-items/index
+    adempiere/standard-processes/accounting/index
 
 Para Mayor Información
 ======================
