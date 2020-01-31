@@ -10,3 +10,4 @@ Esta documentación está destinada a definir la utilidad de cada uno de los doc
     :maxdepth: 2
 
     types-of-documents/index
+    charges/index
