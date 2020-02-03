@@ -14,7 +14,7 @@
 .. |Campo Tipo de Documento| image:: resources/tipodoc1.png
 .. |Campo Cuenta Bancaria| image:: resources/cuentab1.png
 .. |Campo Nombre de Referencia| image:: resources/nombre1.png
-.. 
+.. |Menú de ADempiere 5| image:: resources/
 
 .. _paso/transferencia-anticipo-transito:
 
@@ -183,7 +183,6 @@ Solicitud de Pago
 
     Imagen 12. Campo Tipo de Documento 
 
-
 #. Seleccione en el campo "**Cuenta Bancaria**", la cuenta caja creada al socio del negocio proveedor en tránsito al cual se le realizó la transferencia bancaria.
 
     |Campo Cuenta Bancaria|
@@ -204,6 +203,26 @@ Solicitud de Pago
 Selección de Pago
 =================
 
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", por último seleccione la ventana "**Selección de Pago**".
+
+    |Menú de ADempiere 4|
+
+    Imagen 9. Menú de ADempiere
+
+#. Podrá visualiazar la ventana "**Selección de Pago**", donde debe seleccionar el icono "**Registro Nuevo**" para crear una solicitud de pago en ADempiere.
+
+    |Icono Registro Nuevo|
+
+    Imagen 10. Icono Registro Nuevo
+
+#. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Solicitud de Pago**".
+
+    |Campo Organización|
+    
+    Imagen 11. Campo Organización
+
+#. 
+
 .. _paso/cancelacion-factura-anticipo-transito:
 
 Cancelación de Factura
@@ -214,7 +233,47 @@ Cancelación de Factura
 Imprimir/Exportar Pagos
 ***********************
 
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", por último seleccione la ventana "**Imprimir/Exportar Pagos**".
+
+    |Menú de ADempiere 5|
+
+    Imagen 12. Menú de ADempiere
+
+#. Seleccione en el campo "**Selección de Pago**", la selección de pago "****" realizada anteriormente.
+
+    |Campo Selección de Pago|
+
+    Imagen 13. Campo Selección de Pago
+
+#. Seleccione en el campo "**Regla de Pago**", la regla de pago correspondiente a la forma de pago realizada.
+
+    |Campo Regla de Pago|
+
+    Imagen 14. Campo Regla de Pago
+
+#. Seleccione la opción "**Imprimir**" si la regla de pago corresponde a "**Cheque**", de lo contrario debe seleccionar la opción "**Exportar Registros**" para que sea generado el documento en formato "**.txt**". Para ejemplificar el registro es utilizada la opción "**Exportar Registros**".
+
+    |Opción Exportar Registros|
+
+    Imagen 15. Opción Exportar Registros
+
+.. note:: 
+
+    El documento generado por ADempiere en formato "**.txt**" es utilizado por el usuario para importarlo al banco correspondiente. 
+
 .. _paso/cierre-caja-anticipo-transito:
 
 Cierre de Caja
 **************
+
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
+
+    |Menú de ADempiere 2|
+
+    Imagen 5. Menú de ADempiere
+
+#. Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja-importación` del documento "**Importación**", seleccionando la caja proveedores en transito creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el socio del negocio proveedor.
+
+    |Cierre de Caja|
+
+    Imagen 6. Cierre de Caja
