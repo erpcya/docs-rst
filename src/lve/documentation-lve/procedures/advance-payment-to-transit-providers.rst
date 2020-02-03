@@ -1,7 +1,7 @@
 .. |Menú de ADempiere 1| image:: resources/menutransf.png
-.. |Transferencia Bancaria| image:: resources/
-.. |Documento Pago Cobro| image:: resources/
-.. |Documento Caja| image:: resources/
+.. |Transferencia Bancaria| image:: resources/transferencia2.png
+.. |Documento Pago Cobro| image:: resources/pagocobro1.png
+.. |Documento Caja| image:: resources/docaja1.png
 .. |Menú de ADempiere 2| image:: resources/menucierre1.png
 .. |Cierre de Caja| image:: resources/
 .. |Menú de ADempiere 3| image:: resources/menufactura.png
@@ -47,7 +47,7 @@ Transferencia Bancaria
 
         - **Moneda**: VES
 
-        - **Cargo**: Anticipo a Tercero
+        - **Cargo**: Anticipo Tercero
 
         - **No. del Documento**: 0111245859
 
