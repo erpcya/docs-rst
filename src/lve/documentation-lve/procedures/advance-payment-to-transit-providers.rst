@@ -1,20 +1,28 @@
-.. _documento/anticipo-a-proveedores-en-transito:
-
 .. |Menú de ADempiere 1| image:: resources/menutransf.png
 .. |Transferencia Bancaria| image:: resources/
 .. |Documento Pago Cobro| image:: resources/
 .. |Documento Caja| image:: resources/
-.. |Menú de ADempiere 2| image:: resources/menucierre.png
+.. |Menú de ADempiere 2| image:: resources/menucierre1.png
 .. |Cierre de Caja| image:: resources/
-.. |Menú de ADempiere 3| image:: resources/menudocpagar.png
+.. |Menú de ADempiere 3| image:: resources/menufactura.png
 .. |Documento por Pagar 1| image:: resources/
 .. |Menú de ADempiere 4| image:: resources/menusolicitud.png
 .. |Icono Registro Nuevo| image:: resources/nuevasoli.png
-.. |Campo Organización| image:: resources/org1.png
-.. |Campo Tipo de Documento| image:: resources/tipodoc1.png
+.. |Campo Organización| image:: resources/org4.png
+.. |Campo Tipo de Documento| image:: resources/tipodoc4.png
 .. |Campo Cuenta Bancaria| image:: resources/cuentab1.png
-.. |Campo Nombre de Referencia| image:: resources/nombre1.png
+.. |Campo Nombre de Referencia| image:: resources/nombre2.png
 .. |Menú de ADempiere 5| image:: resources/
+
+
+.. _documento/anticipo-a-proveedores-en-transito:
+
+Anticipo a Proveedores en Tránsito
+==================================
+
+Un anticipo a proveedor es el pago de una parte o un porcentaje del monto total de una compra o venta, realizado por adelantado. El mismo tiene la finalidad de asegurar los productos o servicios que el comprador requiere y por los cuales el vendedor amerita un anticipo para cubrir diferentes gastos.
+
+En ADempiere es posible reflejar los anticipos realizados a proveedores en tránsito, permitiendo por medio de este, el control de los saldos abiertos que tienen los proveedores.
 
 .. _paso/transferencia-anticipo-transito:
 
@@ -31,7 +39,7 @@ Transferencia Bancaria
 
     #. Para realizar el procedimiento se debe tomar en cuenta lo siguiente:
 
-        - **Banco Desde**: 0105-0000000000000000
+        - **Cuenta Bancaria Desde**: 0105-0000000000000000
 
         - **Cuenta Bancaria a Transferir**: Proveedores en Tránsito - --_00000
 
