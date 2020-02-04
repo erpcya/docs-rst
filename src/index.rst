@@ -14,7 +14,6 @@ Tabla de Contenido
 .. toctree::
     :caption: E.R.P. CONSULTORES Y ASOCIADOS, C.A.
     :maxdepth: 2
-    :numbered:
 
     general/procedures/index
 
