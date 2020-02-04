@@ -9,4 +9,5 @@ Esta documentación está destinada a definir la utilidad de cada uno de los doc
 .. toctree::
     :maxdepth: 2
 
+    business-partner-group/index
     types-of-documents/index
