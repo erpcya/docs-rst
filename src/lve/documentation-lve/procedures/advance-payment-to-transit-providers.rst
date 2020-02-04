@@ -23,6 +23,8 @@
 .. |Opción Exportar Registros| image:: resources/exportareg1.png
 .. |Mensaje de Confirmación| image:: resources/confirmacion1.png
 .. |Mensaje para Confirmar Documento| image:: resources/confirmacion2.png
+.. |Documento Pago Nacional| image:: resources/docaja2.png
+.. |Documento Asignación| image:: resources/docasignacion1.png
 .. |Cierre de Caja 2| image:: resources/cierrecaja4.png
 
 
@@ -297,6 +299,49 @@ Imprimir/Exportar Pagos
     |Mensaje para Confirmar Documento|
 
     Imagen 17. Mensaje para Confirmar Documento
+
+#. Al seleccionar la opción "**OK**, se genera un documento en "**Caja**" que representa el egreso en la caja seleccionada y un documento en "**Consulta de Asignación**".
+
+        #. **Egreso**:
+
+            - **Resultado**: Se realiza un egreso en caja.
+
+                |Documento Pago Nacional|
+
+                Imagen 3. Documento de Egreso en Pago/Cobro
+
+            - **Resultado Contable**: A continuación se presenta un ejemplo de un resultado contable.
+
+                +--------------+------------------------------------------------------------+----------------------+-----------------------+
+                | Organización |                         Cuenta                             | Débito Contabilizado | Crédito Contabilizado |
+                +==============+============================================================+======================+=======================+
+                | Organización |2.1.4.1.3.002 - SELECCIÓN DE PAGOS                          |        200.001.332,00|                   0,00|
+                +--------------+------------------------------------------------------------+----------------------+-----------------------+
+                | Organización |1.1.2.2.001 - ANTICIPOS A PROVEEDORES NACIONALES            |                  0,00|         200.001.332,00|
+                +--------------+------------------------------------------------------------+----------------------+-----------------------+
+                |              |                                                            |        200.001.332,00|         200.001.332,00|
+                +--------------+------------------------------------------------------------+----------------------+-----------------------+
+
+        #. **Asignación**:
+
+            - **Resultado**: Se realiza una asignación de pago.
+
+                |Documento Asignación|
+
+                Imagen 4. Documento Asignación
+
+            - **Resultado Contable**: A continuación se presenta un ejemplo de un resultado contable.
+
+                +--------------+------------------------------------------------------------+----------------------+-----------------------+
+                | Organización |                         Cuenta                             | Débito Contabilizado | Crédito Contabilizado |
+                +==============+============================================================+======================+=======================+
+                | Organización |2.1.1.1.1.001 - CUENTAS POR PAGAR PROVEEDORES NACIONALES    |        200.001.332,00|                   0,00|
+                +--------------+------------------------------------------------------------+----------------------+-----------------------+
+                | Organización |2.1.4.1.3.002 - SELECCIÓN DE PAGOS                          |                  0,00|         200.001.332,00|
+                +--------------+------------------------------------------------------------+----------------------+-----------------------+
+                |              |                                                            |        200.001.332,00|         200.001.332,00|
+                +--------------+------------------------------------------------------------+----------------------+-----------------------+
+
 
 .. _paso/cierre-caja-anticipo-transito:
 
