@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/accounting/fixed-assets:
+.. _src/adempiere/standard-processes/asset-management/fixed-assets:
 
 =============
 Activos Fijos
