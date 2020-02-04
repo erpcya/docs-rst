@@ -89,8 +89,6 @@ Un socio del negocio en ADempiere puede pertenecer a cualquier grupo de socios d
 | Grupos de      | El **Socio del | El **Socio del | El **Socio del |
 | Socios del     | Negocio        | Negocio        | Negocio        |
 | Negocio:       | Cliente**      | Proveedor**    | Empleado**     |
-|                | puede          | puede          | puede          |
-|                | pertenecer a:  | pertenecer a:  | pertenecer a:  |
 +================+================+================+================+
 | Grupo de       |                | |Check|        |                |
 | Socios del     |                |                |                |
