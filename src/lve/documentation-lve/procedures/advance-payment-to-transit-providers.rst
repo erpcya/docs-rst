@@ -3,16 +3,27 @@
 .. |Documento Pago Cobro| image:: resources/pagocobro1.png
 .. |Documento Caja| image:: resources/docaja1.png
 .. |Menú de ADempiere 2| image:: resources/menucierre1.png
-.. |Cierre de Caja| image:: resources/
+.. |Cierre de Caja| image:: resources/cierrecaja3.png
 .. |Menú de ADempiere 3| image:: resources/menufactura.png
-.. |Documento por Pagar 1| image:: resources/
+.. |Documento por Pagar 1| image:: resources/docpagar1.png
 .. |Menú de ADempiere 4| image:: resources/menusolicitud.png
 .. |Icono Registro Nuevo| image:: resources/nuevasoli.png
 .. |Campo Organización| image:: resources/org4.png
 .. |Campo Tipo de Documento| image:: resources/tipodoc4.png
 .. |Campo Cuenta Bancaria| image:: resources/cuentab1.png
 .. |Campo Nombre de Referencia| image:: resources/nombre2.png
-.. |Menú de ADempiere 5| image:: resources/
+.. |Icono Guardar Cambios| image:: resources/iconoguardar1.png
+.. |Crear Desde Factura 1| image:: resources/creardesde2.png
+.. |Opción Comenzar Búsqueda| image:: resources/vent3.png
+.. |Selección de Factura y Opción OK| image:: resources/selecfacturas1.png
+.. |Opción Completar 1| image:: resources/completar5.png
+.. |Acción Completar y Opción OK| image:: resources/acción1.png
+.. |Menú de ADempiere 5| image:: resources/menuimprimir.png
+.. |Campo Selección de Pago| image: resources/selecpagos2.png
+.. |Opción Exportar Registros| image:: resources/exportareg1.png
+.. |Mensaje de Confirmación| image:: resources/confirmacion1.png
+.. |Mensaje para Confirmar Documento| image:: resources/confirmacion2.png
+.. |Cierre de Caja 2| image:: resources/cierrecaja4.png
 
 
 .. _documento/anticipo-a-proveedores-en-transito:
@@ -139,7 +150,7 @@ Carga de Facturas
 
     Imagen 7. Menú de ADempiere
 
-#. Realice el procedimiento regular para generar un documento por pagar explicado en el material :ref:`documento/documento-por-pagar`, utilizando el cargo "**Transporte**".
+#. Realice el procedimiento regular para generar un documento por pagar explicado en el material :ref:`documento/documento-por-pagar`, utilizando el cargo "**Transporte de Personal**".
 
     |Documento por Pagar 1|
 
@@ -173,7 +184,7 @@ Solicitud de Pago
 
     Imagen 9. Menú de ADempiere
 
-#. Podrá visualiazar la ventana "**Selección de Pago**", donde debe seleccionar el icono "**Registro Nuevo**" para crear una solicitud de pago en ADempiere.
+#. Podrá visualizar la ventana "**Selección de Pago**", donde debe seleccionar el icono "**Registro Nuevo**" para crear una solicitud de pago en ADempiere.
 
     |Icono Registro Nuevo|
 
@@ -203,33 +214,45 @@ Solicitud de Pago
 
     Imagen 14. Campo Nombre de Referencia
 
-#. 
+#. Seleccione el icono "**Guardar Cambios**", para guardar el registro de los campos en la ventana.
 
+    |Icono Guardar Cambios|
 
-.. _paso/seleccion-pago-anticipo-transito:
+    Imagen 15. Icono Guardar Cambios 
 
-Selección de Pago
-=================
+#. Seleccione el proceso "**Crear Desde Factura**", para crear la solicitud de pago desde el documento por pagar.
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", por último seleccione la ventana "**Selección de Pago**".
+    |Crear Desde Factura|
 
-    |Menú de ADempiere 4|
+    Imagen 14. Proceso Crear Desde Factura
 
-    Imagen 9. Menú de ADempiere
+    #. Podrá visualizar la ventana del proceso "**Crear Desde Factura**", donde debe seleccionar la opción "**Comenzar Búsqueda**" para buscar los registros de documentos por pagar.
 
-#. Podrá visualiazar la ventana "**Selección de Pago**", donde debe seleccionar el icono "**Registro Nuevo**" para crear una solicitud de pago en ADempiere.
+        |Opción Comenzar Búsqueda|
 
-    |Icono Registro Nuevo|
+        Imagen 15. Opción Comenzar Búsqueda
 
-    Imagen 10. Icono Registro Nuevo
+    #. Seleccione el documento por pagar y la opción "**OK**" para cargar los datos del documento seleccionado a la ventana "**Selección de Pago**".
 
-#. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Solicitud de Pago**".
+        |Selección de Factura y Opción OK|
 
-    |Campo Organización|
-    
-    Imagen 11. Campo Organización
+        Imagen 16. Selección de Factura y Opción OK
 
-#. 
+    .. note:: 
+
+        Recuerde seleccionar el icono "**Refrescar**" para actualizar la ventana y se pueda visualizar el registro creado desde el proceso "**Crear Desde Factura**".
+
+#. Seleccione la opción "**Completar**" ubicado en la parte inferior derecha del documento.
+
+    |Opción Completar 1|
+
+    Imagen 17. Opción Completar
+
+    #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Solicitud de Pago**".
+
+        |Acción Completar y Opción OK|
+
+        Imagen 18. Acción Completar y Opción OK
 
 .. _paso/cancelacion-factura-anticipo-transito:
 
@@ -247,17 +270,11 @@ Imprimir/Exportar Pagos
 
     Imagen 12. Menú de ADempiere
 
-#. Seleccione en el campo "**Selección de Pago**", la selección de pago "****" realizada anteriormente.
+#. Seleccione en el campo "**Selección de Pago**", la solicitud de pago "**SOP-1000342**" realizada anteriormente.
 
     |Campo Selección de Pago|
 
     Imagen 13. Campo Selección de Pago
-
-#. Seleccione en el campo "**Regla de Pago**", la regla de pago correspondiente a la forma de pago realizada.
-
-    |Campo Regla de Pago|
-
-    Imagen 14. Campo Regla de Pago
 
 #. Seleccione la opción "**Imprimir**" si la regla de pago corresponde a "**Cheque**", de lo contrario debe seleccionar la opción "**Exportar Registros**" para que sea generado el documento en formato "**.txt**". Para ejemplificar el registro es utilizada la opción "**Exportar Registros**".
 
@@ -265,9 +282,21 @@ Imprimir/Exportar Pagos
 
     Imagen 15. Opción Exportar Registros
 
-.. note:: 
+    .. note:: 
 
-    El documento generado por ADempiere en formato "**.txt**" es utilizado por el usuario para importarlo al banco correspondiente. 
+        El documento generado por ADempiere en formato "**.txt**" es utilizado por el usuario para importarlo al banco correspondiente. 
+
+#. Podrá visualizar el siguiente mensaje de confirmación donde debe seleccionar la opción "**OK**".
+
+    |Mensaje de Confirmación|
+
+    Imagen 16. Mensaje de Confirmación
+
+#. Luego de revisar el documento generado en formato "**.txt**", puede seleccionar la opción "**OK**" en el mensaje.
+
+    |Mensaje para Confirmar Documento|
+
+    Imagen 17. Mensaje para Confirmar Documento
 
 .. _paso/cierre-caja-anticipo-transito:
 
@@ -282,6 +311,6 @@ Cierre de Caja
 
 #. Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja-importación` del documento "**Importación**", seleccionando la caja proveedores en transito creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el socio del negocio proveedor.
 
-    |Cierre de Caja|
+    |Cierre de Caja 2|
 
     Imagen 6. Cierre de Caja
