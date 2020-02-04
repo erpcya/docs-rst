@@ -38,7 +38,7 @@ En ADempiere es posible reflejar los anticipos realizados a proveedores en trán
 .. _paso/transferencia-anticipo-transito:
 
 Transferencia Bancaria
-======================
+----------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
 
@@ -142,7 +142,7 @@ El cierre de caja es realizado para indicar a ADempiere que al socio del negocio
 .. _paso/carga-factura-anticipo-transito:
 
 Carga de Facturas
-=================
+-----------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
@@ -176,7 +176,7 @@ Carga de Facturas
 .. _paso/solicitud-pago-anticipo-transito:
 
 Solicitud de Pago
-=================
+-----------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", por último seleccione la ventana "**Selección de Pago**".
 
@@ -257,7 +257,7 @@ Solicitud de Pago
 .. _paso/cancelacion-factura-anticipo-transito:
 
 Cancelación de Factura
-======================
+----------------------
 
 .. _paso/imprimir-exportar-anticipo-transito:
 
