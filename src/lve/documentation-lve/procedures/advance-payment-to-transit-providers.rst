@@ -17,9 +17,9 @@
 .. |Opción Comenzar Búsqueda| image:: resources/vent3.png
 .. |Selección de Factura y Opción OK| image:: resources/selecfacturas1.png
 .. |Opción Completar 1| image:: resources/completar5.png
-.. |Acción Completar y Opción OK| image:: resources/acción1.png
+.. |Acción Completar y Opción OK| image:: resources/accion1.png
 .. |Menú de ADempiere 5| image:: resources/menuimprimir.png
-.. |Campo Selección de Pago| image: resources/selecpagos2.png
+.. |Campo Selección de Pago| image:: resources/selecpagos2.png
 .. |Opción Exportar Registros| image:: resources/exportareg1.png
 .. |Mensaje de Confirmación| image:: resources/confirmacion1.png
 .. |Mensaje para Confirmar Documento| image:: resources/confirmacion2.png
