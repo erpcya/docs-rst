@@ -1,4 +1,4 @@
-.. |Check| image:: ../resources/check.png
+.. |Check| image:: resources/check.png
 .. |Grupo de Socios del Negocio en ADempiere| image:: resources/adempiere.png
 
 .. _documento/grupo-socio-negocio:
