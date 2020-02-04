@@ -20,6 +20,10 @@
   color: #bbb;
 }
 
+.wy-table-responsive table th {
+  white-space: normal !important;
+}
+
 .wy-table-responsive table td {
     white-space: normal !important;
 }
