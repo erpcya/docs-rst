@@ -13,14 +13,14 @@ Tabla de Contenido
 
 .. toctree::
     :caption: E.R.P. CONSULTORES Y ASOCIADOS, C.A.
-    :maxdepth: 2
+    :maxdepth: 3
     :numbered:
 
     general/procedures/index
 
 .. toctree::
     :caption: LOCALIZACIÓN VENEZUELA
-    :maxdepth: 2
+    :maxdepth: 3
     :numbered:
 
     lve/index
@@ -32,7 +32,7 @@ Tabla de Contenido
 
 .. toctree::
     :caption: PROCEDIMIENTOS DE ADEMPIERE
-    :maxdepth: 2
+    :maxdepth: 3
     :numbered:
 
     adempiere/index
