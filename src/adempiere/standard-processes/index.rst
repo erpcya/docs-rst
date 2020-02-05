@@ -17,3 +17,4 @@ Los procedimientos estándares de ADempiere en la versión 3.9.2 de la localizac
     requisition-to-invoice/index
     open-items/index
     asset-management/index
+    material-management/index
