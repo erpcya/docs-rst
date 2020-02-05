@@ -26,6 +26,7 @@ Tabla de Contenido
     lve/documentation-lve/standard-coding/index
     lve/documentation-lve/fiscal-printer/index
     lve/documentation-lve/adempiere-documents/index
+    lve/documentation-lve/procedures/index
 
 .. toctree::
     :caption: PROCEDIMIENTOS DE ADEMPIERE
@@ -34,9 +35,10 @@ Tabla de Contenido
 
     adempiere/vertical/index
     adempiere/standard-processes/master/index
+    adempiere/standard-processes/quote-to-invoice/index
     adempiere/standard-processes/requisition-to-invoice/index
     adempiere/standard-processes/open-items/index
-    adempiere/standard-processes/accounting/index
+    adempiere/standard-processes/asset-management/index
 
 Para Mayor Información
 ======================
