@@ -53,7 +53,7 @@ Generar **"Reporte de Memoria Fiscal por días"**.
    :align: center
    :alt: Reporte de Memoria Fiscal por mes
 
-    Imagen 4. Reporte de Memoria Fiscal por mes
+   Imagen 4. Reporte de Memoria Fiscal por mes
 
 Para emitir este reporte debe presionar las teclas "**Dump Fecha**" y "**OK**" al mismo tiempo durante 2 o 3 segundos.
 
