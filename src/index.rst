@@ -17,7 +17,6 @@ Tabla de Contenido
     :numbered:
 
     general/procedures/procedures-openproject/index
-    general/procedures/procedures-openproject/index
 
 .. toctree::
     :caption: LOCALIZACIÓN DE ADEMPIERE (VENEZUELA)
