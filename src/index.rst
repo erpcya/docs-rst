@@ -14,6 +14,7 @@ Tabla de Contenido
 .. toctree::
     :caption: E.R.P. CONSULTORES Y ASOCIADOS, C.A.
     :maxdepth: 2
+    :numbered:
 
     general/procedures/index
 
@@ -22,21 +23,14 @@ Tabla de Contenido
     :maxdepth: 2
     :numbered:
 
-    lve/documentation-lve/human-resource-payroll/index
-    lve/documentation-lve/standard-coding/index
-    lve/documentation-lve/fiscal-printer/index
-    lve/documentation-lve/adempiere-documents/index
+    lve/index
 
 .. toctree::
     :caption: PROCEDIMIENTOS DE ADEMPIERE
     :maxdepth: 2
     :numbered:
 
-    adempiere/vertical/index
-    adempiere/standard-processes/master/index
-    adempiere/standard-processes/requisition-to-invoice/index
-    adempiere/standard-processes/open-items/index
-    adempiere/standard-processes/accounting/index
+    adempiere/index
 
 Para Mayor Información
 ======================
