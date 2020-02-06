@@ -13,14 +13,14 @@ Tabla de Contenido
 
 .. toctree::
     :caption: E.R.P. CONSULTORES Y ASOCIADOS, C.A.
-    :maxdepth: 3
+    :maxdepth: 2
     :numbered:
 
     general/procedures/procedures-openproject/index
 
 .. toctree::
     :caption: LOCALIZACIÓN VENEZUELA
-    :maxdepth: 3
+    :maxdepth: 2
     :numbered:
 
     lve/documentation-lve/human-resource-payroll/index
@@ -31,7 +31,7 @@ Tabla de Contenido
 
 .. toctree::
     :caption: PROCEDIMIENTOS DE ADEMPIERE
-    :maxdepth: 3
+    :maxdepth: 2
     :numbered:
 
     adempiere/vertical/index
