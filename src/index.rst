@@ -20,7 +20,7 @@ Tabla de Contenido
     general/procedures/procedures-openproject/index
 
 .. toctree::
-    :caption: LOCALIZACIÓN VENEZUELA
+    :caption: LOCALIZACIÓN DE ADEMPIERE PARA VENEZUELA
     :maxdepth: 2
     :numbered:
 
