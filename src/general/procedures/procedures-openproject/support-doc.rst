@@ -135,15 +135,25 @@ La prioridad de atención de las tareas o errores reportados pudiera ser determi
 
 Al momento de crear una tarea o error se debe tomar en cuenta que es obligatorio llenar los siguientes campos:
 
-- **Asunto:** Marcado en color rojo como lo muestra la siguiente imagen debe tener un texto que indique el problema o el cambio a desarrollar de manera resumida. |Asunto de Solicitud|
+- **Asunto:** Marcado en color rojo como lo muestra la siguiente imagen debe tener un texto que indique el problema o el cambio a desarrollar de manera resumida. 
 
-- **Descripción:** Marcado en color azul como lo muestra la siguiente imagen debe tener una descripción detallada de la funcionalidad o los pasos para emular el error, **¡Está prohibído dejar este campo vacío o con un comentario poco detallado!** Tome en cuenta la imagen como punto de partida. |Descripción de Solicitud|
+   |Asunto de Solicitud|
 
-- **Asignado:** Marcado con color azul en la siguiente imagen debe contener la persona a quien se le asignará la tarea o error. De igual manera se debe llenar el responsable si existe. |Responsable y Asignado de Solicitud|
+- **Descripción:** Marcado en color azul como lo muestra la siguiente imagen debe tener una descripción detallada de la funcionalidad o los pasos para emular el error, **¡Está prohibído dejar este campo vacío o con un comentario poco detallado!** Tome en cuenta la imagen como punto de partida.
 
-- **Fecha de Vencimiento:** Marcado con color rojo indica la fecha de entrega de la actividad, tome en cuenta que si no conoce la prioridad del requerimiento deberá consultarlo con su supervisor. |Fecha de Vencimiento de Solicitud|
+   |Descripción de Solicitud|
 
-- **Prioridad:** Marcado con color azul indica la prioridad del caso, recuerde no exagerar con esto, no todos los casos son urgentes. |Prioridad de Solicitud|
+- **Asignado:** Marcado con color azul en la siguiente imagen debe contener la persona a quien se le asignará la tarea o error. De igual manera se debe llenar el responsable si existe. 
+
+   |Responsable y Asignado de Solicitud|
+
+- **Fecha de Vencimiento:** Marcado con color rojo indica la fecha de entrega de la actividad, tome en cuenta que si no conoce la prioridad del requerimiento deberá consultarlo con su supervisor. 
+
+   |Fecha de Vencimiento de Solicitud|
+
+- **Prioridad:** Marcado con color azul indica la prioridad del caso, recuerde no exagerar con esto, no todos los casos son urgentes. 
+
+   |Prioridad de Solicitud|
 
 **Recuerde que su trabajo comienza por documentar cualquier problema o mejora, no debe esperar a que se lo digan. Es su obligación documentar cada una de las tareas.**
 

@@ -1,4 +1,4 @@
-.. _src/general/procedures:
+.. _src/general/procedures/procedures-openproject:
 
 ================================================================
 Herramienta Open Project en E.R.P. Consultores y Asociados, C.A
