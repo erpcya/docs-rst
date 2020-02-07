@@ -37,8 +37,3 @@ Tabla de Contenido
     adempiere/vertical/index
     adempiere/standard-processes/index
 
-Para Mayor Información
-======================
-
--  Nuestra página oficial es: http://erpya.com
--  Si desea reportar un error o una mejora puede hacerlo en: https://github.com/erpcya/docs/issues
