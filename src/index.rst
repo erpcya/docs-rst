@@ -11,14 +11,12 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 .. toctree::
     :caption: E.R.P. CONSULTORES Y ASOCIADOS, C.A.
     :maxdepth: 2
-    :numbered:
 
     general/procedures-openproject/index
 
 .. toctree::
     :caption: LOCALIZACIÓN DE ADEMPIERE (VENEZUELA)
     :maxdepth: 2
-    :numbered:
 
     lve/human-resource-payroll/index
     lve/standard-coding/index
@@ -29,7 +27,6 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 .. toctree::
     :caption: PROCEDIMIENTOS DE ADEMPIERE
     :maxdepth: 2
-    :numbered:
 
     adempiere/vertical/index
     adempiere/master/index
