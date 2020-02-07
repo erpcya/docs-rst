@@ -1,4 +1,4 @@
-.. _src/lve/documentation-lve/adempiere-documents:
+.. _src/lve/adempiere-documents:
 
 ===================================
 Utilidad de Documentos en ADempiere

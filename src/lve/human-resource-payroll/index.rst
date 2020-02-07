@@ -1,4 +1,4 @@
-.. _src/lve/documentation-lve/human-resource-payroll:
+.. _src/lve/human-resource-payroll:
 
 ====================================
 Gestión de Recursos Humanos y Nómina

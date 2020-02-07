@@ -13,18 +13,18 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     :maxdepth: 2
     :numbered:
 
-    general/procedures/procedures-openproject/index
+    general/procedures-openproject/index
 
 .. toctree::
     :caption: LOCALIZACIÓN DE ADEMPIERE (VENEZUELA)
     :maxdepth: 2
     :numbered:
 
-    lve/documentation-lve/human-resource-payroll/index
-    lve/documentation-lve/standard-coding/index
-    lve/documentation-lve/fiscal-printer/index
-    lve/documentation-lve/adempiere-documents/index
-    lve/documentation-lve/procedures/index
+    lve/human-resource-payroll/index
+    lve/standard-coding/index
+    lve/fiscal-printer/index
+    lve/adempiere-documents/index
+    lve/procedures/index
 
 .. toctree::
     :caption: PROCEDIMIENTOS DE ADEMPIERE

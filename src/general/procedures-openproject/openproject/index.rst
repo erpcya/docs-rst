@@ -1,5 +1,5 @@
 
-.. _src/general/procedures/procedures-openproject/openproject:
+.. _src/general/procedures-openproject/openproject:
 
 ================
 **Open Project**

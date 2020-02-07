@@ -1,4 +1,4 @@
-.. _src/lve/documentation-lve/procedures:
+.. _src/lve/procedures:
 
 ==============
 Procedimientos

@@ -1,5 +1,5 @@
 
-.. _lve/documentation-lve/adempiere-documents/types-of-documents:
+.. _lve/adempiere-documents/types-of-documents:
 
 =======================================
 **Utilidad de los Tipos de Documentos**

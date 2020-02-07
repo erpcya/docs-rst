@@ -1,5 +1,5 @@
 
-.. _src/lve/documentation-lve/human-resource-payroll/human-resource/cash-refund:
+.. _src/lve/human-resource-payroll/human-resource/cash-refund:
 
 
 ==============
