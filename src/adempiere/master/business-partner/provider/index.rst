@@ -9,6 +9,5 @@ Un socio del negocio proveedor es aquella persona que provee de productos y serv
 
 .. toctree::
     :maxdepth: 3
-    :numbered:
 
     partner-provider

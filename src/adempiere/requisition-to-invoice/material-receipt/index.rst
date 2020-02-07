@@ -12,6 +12,5 @@ La presente documentación elaborada por la empresa ERPyA, pretende especificar 
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     receipt

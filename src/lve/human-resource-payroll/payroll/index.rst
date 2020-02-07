@@ -9,6 +9,5 @@ Nómina
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     bonus-cancellation-with-intermediary

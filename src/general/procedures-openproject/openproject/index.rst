@@ -12,6 +12,5 @@ El presente documento elaborado por la empresa ERPyA pretende explicar de forma 
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     openproject

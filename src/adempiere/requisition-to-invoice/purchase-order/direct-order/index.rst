@@ -12,6 +12,5 @@ En ADempiere es posible generar una orden de compra directa, la presente documen
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     purchase-order
