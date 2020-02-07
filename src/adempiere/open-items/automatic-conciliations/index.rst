@@ -1,5 +1,5 @@
 
-.. _src/adempiere/standard-processes/open-items/automatic-conciliations:
+.. _src/adempiere/open-items/automatic-conciliations:
 
 
 =======================

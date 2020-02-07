@@ -1,5 +1,5 @@
 
-.. _src/adempiere/standard-processes/requisition-to-invoice/material-receipt:
+.. _src/adempiere/requisition-to-invoice/material-receipt:
 
 
 ======================

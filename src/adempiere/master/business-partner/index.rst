@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/master/business-partner:
+.. _src/adempiere/master/business-partner:
 
 ===============================
 Socios del Negocio de ADempiere

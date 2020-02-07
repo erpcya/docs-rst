@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/asset-management:
+.. _src/adempiere/asset-management:
 
 ==================
 Gestión de Activos

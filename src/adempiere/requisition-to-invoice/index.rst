@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/requisition-to-invoice:
+.. _src/adempiere/requisition-to-invoice:
 
 ===============================
 Gestión de Compras de ADempiere

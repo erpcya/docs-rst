@@ -1,5 +1,5 @@
 
-.. _standard-processes/master/business-partner/provider:
+.. _master/business-partner/provider:
 
 ===========================
 Socio del Negocio Proveedor

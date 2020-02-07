@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/requisition-to-invoice/purchase-order:
+.. _src/adempiere/requisition-to-invoice/purchase-order:
 
 ==============================
 Órdenes de Compra de ADempiere

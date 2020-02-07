@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/open-items:
+.. _src/adempiere/open-items:
 
 =========================================
 Gestión de Saldos Pendientes de ADempiere

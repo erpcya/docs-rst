@@ -1,5 +1,5 @@
 
-.. _standard-processes/master/business-partner/client:
+.. _master/business-partner/client:
 
 =========================
 Socio del Negocio Cliente
