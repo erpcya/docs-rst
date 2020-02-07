@@ -133,4 +133,4 @@
 
 .. note::
 
-   Podrá visualizar que la búsqueda inteligente "**Generar Factura desde Orden de Salida**", genera una factura por socio del negocio; agrupando por línea de factura según su código, todos los productos que las diferentes órdenes de salida seleccionadas contienen y sumando en cada línea de la factura todas las cantidades pertenecientes a un mismo código de producto.
+   Podrá visualizar que la búsqueda inteligente "**Generar Factura desde Orden de Salida**", genera una factura por socio del negocio; agrupando en una sola línea de la factura la cantidad total de un mismo producto que se ubique en diferentes órdenes de ventas.
