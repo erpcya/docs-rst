@@ -8,7 +8,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     human-resource/index
     payroll/index
