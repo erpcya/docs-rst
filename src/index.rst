@@ -35,5 +35,11 @@ Tabla de Contenido
     :numbered:
 
     adempiere/vertical/index
-    adempiere/standard-processes/index
+    adempiere/standard-processes/master/index
+    adempiere/standard-processes/quote-to-invoice/index
+    adempiere/standard-processes/requisition-to-invoice/index
+    adempiere/standard-processes/open-items/index
+    adempiere/standard-processes/asset-management/index
+
+
 
