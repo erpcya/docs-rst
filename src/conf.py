@@ -75,6 +75,8 @@ language = None
 # This pattern also affects html_static_path and html_extra_path .
 exclude_patterns = []
 
+#extensions = ['rst2pdf.pdfbuilder']
+#  pdf_documents = [('index', 'rst2pdf', 'Sample rst2pdf doc', 'Your Name')]
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
