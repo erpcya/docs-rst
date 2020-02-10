@@ -362,7 +362,7 @@ En esta ventana se registran los precios y reglas de compras por socios del nego
 
    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor del producto que esta registrando.
 
-      .. figure:: resources/proveedor
+      .. figure:: resources/proveedor.png
          :alt: Campo Socio del Negocio Proveedor
 
          Imagen 50. Campo Socio del Negocio Proveedor
