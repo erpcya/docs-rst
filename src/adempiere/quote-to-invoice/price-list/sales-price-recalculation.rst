@@ -27,6 +27,25 @@
 .. |Versión de Lista de Precios 3| image:: resources/version-precio3.png
 .. |Precio del Producto 3| image:: resources/precio-producto3.png
 .. |Menú de ADempiere 3| image:: resources/menu-factura-manual.png
+.. |Generar Factura Manual 1| image:: resources/generar-factura1.png
+.. |Factura Generada en Preparar 2| image:: resources/factura-generada1.png
+.. |Versión de Lista de Precios 4| image:: resources/version-precio4.png
+.. |Precio del Producto 4| image:: resources/precio-producto4.png
+.. |Completar Factura 1| image:: resources/completar-factura1.png
+.. |Monto de la Factura Actualizado 1| image:: resources/monto-factura1.png
+.. |Lista de Precio con Recalcular Destildado 1| image:: resources/list-destild.png
+.. |Versión de Lista de Precio con Recalcular Destildado 1| image:: resources/vers-destild1.png
+.. |Precio del Producto con Recalcular Destildado 1| image:: resources/precio-prod-destild1.png
+.. |Orden de Venta 2| image:: resources/orden-en-preparar1.png
+.. |Versión de Lista de Precio con Recalcular Destildado 2| image:: resources/vers-destild2.png
+.. |Precio del Producto con Recalcular Destildado 2| image:: resources/precio-prod-destild2.png
+.. |Opción Preparar Orden de Venta con Recalcular Destildado| image:: resources/completar-orden1.png
+.. |Monto No Actualizado de la Orden de Venta 1| image:: resources/monto-no-act1.png
+.. |Generar Factura Manual 2| image:: resources/generar-factura2.png
+.. |Versión de Lista de Precio con Recalcular Destildado 3| image:: resources/vers-destild3.png
+.. |Precio del Producto con Recalcular Destildado 3| image:: resources/precio-prod-destild3.png
+.. |Completar Factura 2| image:: resources/completar-factura2.png
+.. |Monto del Documento por Cobrar| image:: resources/monto-factura2.png
 
 
 .. _documento/recálculo-precios-ventas:
@@ -285,9 +304,21 @@ Generar Facturas (Manual)
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por ultimo seleccione la ventana "**Generar Facturas (Manual)**". 
 
+    |Menú de ADempiere 3|
+
+    Imagen 29. Menú de ADempiere
+
     #. Realice el procedimiento regular para generar una factura manual en ADempiere, considerando que en el mismo se debe seleccionar la orden de venta creada anteriormente "**OVARA-29102**" y el estado del documento debe ser "**Preparar**". A continuación se muestra un ejemplo del procedimiento realizado para generar una factura manual.
 
+        |Generar Factura Manual 1| 
+
+        Imagen 30. Generar Factura Manual con Acción del Documento "**Preparar**"
+
     #. Podrá visualizar que el monto de la factura es actualizado automáticamente al generar la misma.
+
+        |Factura Generada en Preparar 2| 
+        
+        Imagen 31. Factura Generada en Preparar
 
 .. note::
 
@@ -298,17 +329,39 @@ Agregar Versión de Lista de Precios
 
 #. Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso :ref:`paso/agregar-versión-precios`.
 
+    |Versión de Lista de Precios 4| 
+
+    Imagen 32. Cuarta Versión de Lista de Precios en el Día
+
 Agregar Precio del Producto
 +++++++++++++++++++++++++++
 
 #. Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso :ref:`paso/agregar-precio-producto`.
 
-Cambiar Estado de Documento Factura Manual
-******************************************
+    |Precio del Producto 4| 
 
-#. Actualice el estado del documento seleccionado la opción "**Completar**" ubicada en la parte inferior derecha del documento "**Factura  **".
+    Imagen 33. Cuarta Versión de Precios del Producto en el Día
+
+Cambiar Estado de Documento por Cobrar Generado
+***********************************************
+
+#. Actualice el estado del documento seleccionado la opción "**Completar**" ubicada en la parte inferior derecha del documento "**TMP-224851**".
+
+    |Completar Factura 1| 
+
+    Imagen 34. Completar Documento por Cobrar
+
+    #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el "**Documento por Cobrar**".
+
+        |Acción Completar y Opción OK 2|
+
+        Imagen 35. Acción Completar y Opción OK
 
 #. Podrá visualizar que el monto de la factura es actualizado automáticamente según el último registro en la versión de lista de precio.
+
+    |Monto de la Factura Actualizado 1|
+
+    Imagen 36. Monto de la Factura Actualizado 
 
 .. note::
 
@@ -322,59 +375,122 @@ Proceso con Checklist Destildado
 Configuración de Lista de Precios
 *********************************
 
-#. Realice el procedimiento regular para agregar un nuevo registro de lista de precios sin tildar el checklist "**Recalcular Precio en Ventas**", explicado en el proceso :ref:`paso/configurar-lista-precios` .
+#. Realice el procedimiento regular para agregar un nuevo registro de lista de precios sin tildar el checklist "**Recalcular Precio en Ventas**", explicado en el proceso :ref:`paso/configurar-lista-precios`.
+
+|Lista de Precio con Recalcular Destildado 1|
+
+Imagen 37. Lista de Precio con "**Checklist Recalcular Precio en Venta**" Destildado
 
 Agregar Versión de Lista de Precios
 +++++++++++++++++++++++++++++++++++
 
 #. Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso :ref:`paso/agregar-versión-precios`.
 
+|Versión de Lista de Precio con Recalcular Destildado 1|
+
+Imagen 38. Versión de Lista de Precio con "**Checklist Recalcular Precio en Venta**" Destildado
+
 Agregar Precio del Producto
 +++++++++++++++++++++++++++
 
 #. Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso :ref:`paso/agregar-precio-producto`.
 
+|Precio del Producto con Recalcular Destildado 1| 
+
+Imagen 39. Precio del Producto de la Versión de Lista de Precio con "**Checklist Recalcular Precio en Venta**" Destildado
+
 Crear Orden de Venta 
 ********************
 
-#. Realice el procedimiento regular para generar una orden de venta, explicado en el proceso :ref:`paso/crear-orden-venta`.
+#. Realice el procedimiento regular para generar una orden de venta en estado "**En Proceso**", explicado en el proceso :ref:`paso/crear-orden-venta`.
+
+|Orden de Venta 2| 
+
+Imagen 40. Orden de Venta con estado del documento "**En Proceso**"
 
 Agregar Versión de Lista de Precios
 ***********************************
 
 #. Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso :ref:`paso/agregar-versión-precios`.
 
+|Versión de Lista de Precio con Recalcular Destildado 2| 
+
+Imagen 41. Versión de Lista de Precio con "**Checklist Recalcular Precio en Venta**" Destildado
+
 Agregar Precio del Producto
 +++++++++++++++++++++++++++
 
 #. Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso :ref:`paso/agregar-precio-producto`.
 
+|Precio del Producto con Recalcular Destildado 2| 
+
+Imagen 42. Precio del Producto de la Versión de Lista de Precio con "**Checklist Recalcular Precio en Venta**" Destildado
+
 Cambiar Estado de Documento Orden de Venta
 ******************************************
 
-#. Actualice el estado del documento seleccionado la opción "**Completar**" ubicada en la parte inferior derecha del documento "**Orden de Compra  **".
+#. Ubique la orden de compra creada anteriormente para actualizar el estado del documento seleccionado la opción "**Preparar**" ubicada en la parte inferior derecha del documento "**OVARA-29104**".
+
+    |Opción Preparar Orden de Venta con Recalcular Destildado| 
+
+    Imagen 43. Opción Preparar Orden de Venta.
+
+    #. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Orden de Venta**".
+
+        |Acción Completar y Opción OK 2| 
+
+        Imagen 44. Acción Completar y Opción OK.
 
 #. Podrá visualizar que el monto de la orden de venta no es actualizado automáticamente ya que el checklist "**Recalcular Precio en Ventas**" de la lista de precios seleccionada no se encuentra tildado.
+
+    |Monto No Actualizado de la Orden de Venta 1| 
+
+    Imagen 45. Monto Actualizado de la Orden de Venta
 
 Generar Facturas (Manual)
 *************************
 
 #. Realice el procedimiento regular para generar una factura manual, explicado en el proceso :ref:`paso/generar-factura-manual`.
 
+|Generar Factura Manual 2| 
+
+Imagen 46. Factura Generada en estado "**Preparar**", desde la ventana "**Generar Factura (Manual)**"
+
 Agregar Versión de Lista de Precios
 ***********************************
 
 #. Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso :ref:`paso/agregar-versión-precios`.
+
+|Versión de Lista de Precio con Recalcular Destildado 3| 
+
+Imagen 47. Versión de Lista de Precio con "**Checklist Recalcular Precio en Venta**" Destildado
 
 Agregar Precio del Producto
 +++++++++++++++++++++++++++
 
 #. Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso :ref:`paso/agregar-precio-producto`.
 
-Cambiar Estado de Documento Factura Manual
-******************************************
+|Precio del Producto con Recalcular Destildado 3| 
 
-#. Actualice el estado del documento seleccionado la opción "**Completar**" ubicada en la parte inferior derecha del documento "**Factura  **".
+Imagen 48. Precio del Producto de la Versión de Lista de Precio con "**Checklist Recalcular Precio en Venta**" Destildado 
+
+Cambiar Estado de Documento por Cobrar Generado
+***********************************************
+
+#. Actualice el estado del documento seleccionado la opción "**Completar**" ubicada en la parte inferior derecha del documento "**TMP-224852**".
+
+    |Completar Factura 2| 
+
+    Imagen 49. Opción Completar Factura
+
+    #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el "**Documento por Cobrar**".
+
+        |Acción Completar y Opción OK 2|
+
+        Imagen 50. Acción Completar y Opción OK
 
 #. Podrá visualizar que el monto de la factura no es actualizado automáticamente ya que el checklist "**Recalcular Precio en Ventas**" de la lista de precios seleccionada no se encuentra tildado.
 
+    |Monto del Documento por Cobrar| 
+
+    Imagen 51. Monto del Documento por Cobrar no Actualizado
