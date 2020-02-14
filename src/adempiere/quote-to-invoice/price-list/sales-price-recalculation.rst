@@ -21,8 +21,8 @@
 .. |Acción Completar y Opción OK| image:: resources/ac-preparar.png
 .. |Versión de Lista de Precios 2| image:: resources/version-precio2.png
 .. |Precio del Producto 2| image:: resources/precio-producto2.png
-.. |Opción Preparar Orden de Venta 2| image:: resources/
-.. |Acción Completar y Opción OK 2| image:: resources/
+.. |Opción Preparar Orden de Venta 2| image:: resources/op-preparar1.png
+.. |Acción Completar y Opción OK 2| image:: resources/ac-completar.png
 .. |Monto Actualizado de la Orden de Venta 1| image:: resources/precio-act1.png
 .. |Versión de Lista de Precios 3| image:: resources/version-precio3.png
 .. |Precio del Producto 3| image:: resources/precio-producto3.png
