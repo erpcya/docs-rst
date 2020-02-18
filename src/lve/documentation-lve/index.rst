@@ -8,9 +8,11 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
 
 .. toctree::
     :maxdepth: 2
+    :numbered:
 
     human-resource-payroll/index
     standard-coding/index
     fiscal-printer/index
     import/index
     report/index
+    procedures/index
