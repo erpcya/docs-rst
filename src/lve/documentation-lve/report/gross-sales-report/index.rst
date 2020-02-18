@@ -1,4 +1,4 @@
-.. |Ventana Resumen de Facturas| image:: resources/vent1.png
+.. |Ventana Resumen de Facturas 1| image:: resources/vent1.png
 
 ==================================================================================
 Generar Reporte de Ventas Brutas desde el Proceso Resumen de Facturas de ADempiere
@@ -10,7 +10,7 @@ El proceso para generar reportes de resumen de facturas permite generar múltipl
 
 La ventana "**Resumen de Facturas**" cuenta con 23 campos que ofrecen al usuario diferentes opciones para generar los reportes de los documentos que contengan similitud con los campos seleccionados en la misma.
 
-    |Ventana Resumen de Facturas|
+    |Ventana Resumen de Facturas 1|
 
     Imagen 1. Ventana Resumen de Facturas
 
