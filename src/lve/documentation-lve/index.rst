@@ -13,4 +13,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
     human-resource-payroll/index
     standard-coding/index
     fiscal-printer/index
+    import/index
+    report/index
     procedures/index

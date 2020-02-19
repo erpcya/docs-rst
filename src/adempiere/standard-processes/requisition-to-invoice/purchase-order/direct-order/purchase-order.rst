@@ -9,7 +9,6 @@
        
        .. figure:: resources/menu.png
           :align: center
-          
           :alt: Menú de ADempiere
 
           Imagen 1. Menú de ADempiere
