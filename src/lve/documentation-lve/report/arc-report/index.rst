@@ -17,4 +17,5 @@ A continuación, se explica el procedimiento para generar un reporte de ARC en A
 .. toctree::
     :maxdepth: 3
 
-    gross-sales-report
+    arc-report
+    detailed-arc-report
