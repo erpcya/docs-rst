@@ -1,6 +1,6 @@
 .. |Menú de ADempiere 1| image:: resources/menu-arc1.png
 .. |Ventana ARC 1| image:: resources/vent-arc1.png
-.. |Campo Socio del Negocio 1| image:: resources/socio1.png
+.. |Campo Socio del Negocio 1| image:: resources/socio-1.png
 .. |Campo Fecha Contable 1| image:: resources/fecha-contable1.png
 .. |Campo Tipo de Retención 1| image:: resources/tipo-retencion1.png
 .. |Opción OK 1| image:: resources/opcion-ok1.png

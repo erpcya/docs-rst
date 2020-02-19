@@ -1,5 +1,5 @@
 .. |Menú de ADempiere 1| image:: resources/menu-arc2.png
-.. |Ventana ARC con Datos Cargados|image:: resources/vent-arc2.png
+.. |Ventana ARC con Datos Cargados| image:: resources/vent-arc2.png
 .. |Reporte ARC 2| image:: resources/resultado2.png
 
 .. _documento/reporte-arc-detallado:
