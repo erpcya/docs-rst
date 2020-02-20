@@ -10,3 +10,4 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
     :maxdepth: 3
 
     gross-sales-report/index
+    arc-report/index
