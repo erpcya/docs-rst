@@ -1,23 +1,86 @@
+.. |Orden de Compra 1| image:: resources/orden-compra1.png
+.. |Factura de Compra 1| image:: resources/factura-pagar1.png
+.. |Recepción 1| image:: resources/recepcion1.png
+.. |Saldos Abiertos a la Fecha 1| image:: resources/saldosA1.png
+.. |Menú de ADempiere 1| image:: resources/menu-aut-dev.png
+.. |Icono Registro Nuevo 1| image:: resources/nuevo1.png
+.. |Campo Organización 1| image:: resources/org1.png
+.. |Campo Tipo de Documento 1| image:: resources/tipo-doc1.png
+.. |Campo Tipo Autorización Devolución 1| image:: resources/tipo-aut1.png
+.. |Campo Socio del Negocio 1| image:: resources/socio1.png
+.. |Campo Dirección del Socio del Negocio 1| image:: resources/direc-socio1.png
+.. |Icono Proceso 1| image:: resources/icono-proceso1.png
+.. |Ventana del Proceso 1| image:: resources/vent-proceso1.png
+.. |Opción Comenzar Búsqueda 1| image:: resources/comenz-bus1.png
+.. |Seleccionar Recepción y Opción OK 1| image:: resources/selec-ok1.png
+.. |Pestaña Línea de Autorización 1| image:: resources/pest-lin-aut1.png
+.. |Opción Completar 1| image:: resources/completar1.png
+.. |Acción Completar 1| image:: resources/accion-completar.png
+.. |Menú de ADempiere 2| image:: resources/menu-dev-pro.png
+.. |Icono Registro Nuevo 2| image:: resources/nuevo2.png
+.. |Campo Organización 2| image:: resources/org2.png
+.. |Campo Tipo de Documento 2| image:: resources/tipo-doc2.png
+.. |Campo Socio del Negocio 2| image:: resources/socio2.png
+.. |Icono Proceso 2| image:: resources/icono-proceso2.png
+.. |Ventana del Proceso 2| image:: resources/vent-proceso2.png
+.. |Opción Comenzar Búsqueda 2| image:: resources/comenz-bus2.png
+.. |Seleccionar Recepción y Opción OK 2| image:: resources/selec-ok2.png
+.. |Pestaña Línea de Autorización 2| image:: resources/pest-lin-ent.png
+.. |Opción Completar| image:: resources/completar2.png
+.. |Generar Facturas desde Recibos 1| image:: resources/generar-nota1.png
+.. |Ventana Generar Facturas desde Recibos y Seleccionar Opción OK| image:: resources/vent-generar-nota1.png
+.. |Nota de Crédito 1| image:: resources/nota-credito1.png
+.. |Campo Documento Afectado| image:: resources/factura-afectada1.png
+.. |Opción Completar 3| image:: resources/completar3.png
+.. |Saldos Abiertos a la Fecha 2| image:: resources/saldosA2.png
+.. |Detalle de Transacciones| image:: resources/deta-trans1.png
+
 .. _documento/devolucion-proveedor:
 
 **Autorización de Devolución a Proveedor**
 ------------------------------------------
 
-Es el documento elaborado por la empresa luego de una evaluación de la condición de los productos comprados o servicios adquiridos del proveedor, cuando estos no se encuentran en buenas condiciones o simplemente no cumplen con lo requerido, el mismo autoriza la devolución de uno, varios, o todos los productos o servicios adquiridos del proveedor. A continuación se define el proceso para la creación de una autorización de devolución a proveedor en ADempiere.
+Es el documento elaborado por la empresa luego de una evaluación de la condición de los productos comprados o servicios adquiridos del proveedor, cuando estos no se encuentran en buenas condiciones o simplemente no cumplen con lo requerido, el mismo autoriza la devolución de uno, varios, o todos los productos o servicios adquiridos del proveedor. 
 
-#. Ubique en el menú de ADempiere la ventana "**Gestión de Devoluciones**" y seleccione la ventana "**Autorización de Devolución a Proveedor**".
+Para realizar una devolución a proveedor deben existir los documentos "**Orden de Compra**", "**Documento por Pagar**" y "**Recepción**". Para ejemplificar el registro de la devolución a proveedor se tienen los siguientes documentos.
 
-    .. figure:: ../resources/menu.png
-       :alt: Menú de ADempiere
+    #. Puede visualizar el documento "**Orden de Compra**" en estado "**Completo**", con monto "**10.000.000,00**".
 
-       Imagen 1. Menú
+        |Orden de Compra 1|
+
+        Imagen 1. Documento Orden de Compra
+
+    #. Puede visualizar el "**Documento por Pagar**" en estado "**Completo**", con monto "**10.000.000,00**".
+
+        |Factura de Compra 1|
+
+        Imagen 2. Documento por Pagar
+
+    #. Puede visualizar el documento de "**Recepción**" en estado "**Completo**", con monto "**10.000.000,00**".
+
+        |Recepción 1|
+
+        Imagen 3. Documento de Recepción
+
+Al consultar saldos abiertos se puede visualizar el saldo correspondiente al monto del documento por pagar mostrado anteriormente.
+
+    |Saldos Abiertos a la Fecha 1|
+
+    Imagen 4. Saldos Abiertos
+
+A continuación se define el proceso para la creación de una autorización de devolución a proveedor en ADempiere.
+
+#. Ubique en el menú de ADempiere la ventana "**Gestión de Compras**", luego seleccione la ventana "**Orden de Devolución (Proveedor)**".
+
+    |Menú de ADempiere 1|
+
+    Imagen 5. Menú de ADempiere
 
 #. Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
-    .. figure:: ../resources/regnuevo.png
-       :alt: Registro Nuevo
+    |Icono Registro Nuevo 1|
 
-       Imagen 2. Ventana de Registro
+    Imagen 6. Icono de Registro Nuevo
 
     .. warning::
    
@@ -25,95 +88,89 @@ Es el documento elaborado por la empresa luego de una evaluación de la condici�
 
     #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Autorización de Devolución a Proveedor**".
 
-        .. figure:: ../resources/organizacion.png
-           :alt: Campo Organización
+        |Campo Organización 1|
 
-           Imagen 3. Campo Organización
+        Imagen 7. Campo Organización
 
-    #. Introduzca en el campo "**Nombre**", el nombre del documento que que esta realizando.
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`tipo-documento` elaborado por ERPyA. Para este ejemplo el tipo de documento es "**Autorización Devolución Proveedor Nacional**".
 
-        .. figure:: ../resources/nombre.png
-           :alt: Campo Nombre
 
-           Imagen 4. Campo Nombre
+        |Campo Tipo de Documento 1|
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`__ elaborado por la empresa ERPyA. Para este ejemplo el tipo de documento es "**Autorización Devolución Proveedor Nacional**".
-
-        .. figure:: ../resources/tipodoc.png
-           :alt: Campo Tipo de Documento
-
-           Imagen 5. Campo Tipo de Documento
+        Imagen 8. Campo Tipo de Documento
 
     #. Seleccione en el campo "**Tipo Autorización Devolución**", el motivo o la condición del producto por el cual es requerida una autorización de devolución. Para este ejemplo el tipo de autorización es "**Dañado**".
 
-        .. figure:: ../resources/tipoauto.png
-           :alt: Campo Tipo Autorización Devolución
+        |Campo Tipo Autorización Devolución 1|
 
-           Imagen 6. Campo Tipo Autorización Devolución
+        Imagen 9. Campo Tipo Autorización Devolución
 
-    #. Seleccione en el campo "**Recibo**", el documento de recepción del producto a devolver. Para este ejemplo el documento de recepción es "**RN-1000238**".
+    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor al cual se le realizará la devolución.
  
-        .. figure:: ../resources/recibo.png
-           :alt: Campo Recibo
 
-           Imagen 7. Campo Recibo
+        |Campo Socio del Negocio 1| 
 
-    #. Seleccione el agente de compañía en el campo "**Agente de Compañía**", para este ejemplo el agente de compañía es "**Estándar**".
+        Imagen 10. Campo Socio del Negocio
 
-        .. figure:: ../resources/agente.png
-           :alt: Campo Agente de Compañía
+    #. Seleccione la dirección de localización del socio del negocio, en el campo "**Dirección del Socio del Negocio**".
 
-           Imagen 8. Campo Agente de Compañía
+        |Campo Dirección del Socio del Negocio 1|
+
+        Imagen 11. Dirección del Socio del Negocio
 
         .. warning:: 
       
             Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono "**Guardar**" en la barra de herramientas de ADempiere, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo "**No. del Documento**".
 
-#. Seleccione la pestaña "**Línea Autorización Devolución**" y proceda al llenado de los campos correspondientes, .
+    #. Seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere, luego seleccione la opción "**Crear Orden de Devolución desde Entrega / Recibo**" para crear la orden de devolución desde la recepción del producto.
 
-    .. figure:: ../resources/linea.png
-       :alt: Línea Autorización Devolución
+        |Icono Proceso 1|
 
-       Imagen 9. Pestaña Línea Autorización Devolución
+        Imagen 12. Icono Proceso
 
-    #. Introduzca en el campo "**Descripción**", la descripción correspondiente a la pestaña "**Línea Autorización Devolución**".
+        #. Podrá visualizar la siguiente ventana del proceso, donde debe seleccionar el documento de recepción donde se encuentra el producto.
 
-        .. figure:: ../resources/descripcionlinea.png
-           :alt: Campo Descripción
+            |Ventana del Proceso 1|
 
-           Imagen 10. Campo Descripción
+            Imagen 13. Ventana del Proceso y Selección del Documento de Recepción
 
-    #. Seleccione en el campo "**Línea Entrega / Recibo**", la línea del documento de recepción perteneciente al producto a devolver. Para este ejemplo la linea de recibo es "**10\_10.0000\_INUC-000007 - Botellón\_RN-1000238 - 2019-11-13 00:00:00**".
+        #. Seleccione la opción "**Comenzar Búsqueda**" para buscar las líneas del documento de recepción seleccionado.
 
-        .. figure:: ../resources/lineaentrega.png
-           :alt: Campo Línea Entrega / Recibo
+            |Opción Comenzar Búsqueda 1|
 
-           Imagen 11. Campo Línea Entrega / Recibo
+            Imagen 14. Opción Comenzar Búsqueda
 
-   #. Introduzca en el campo "**Cantidad**", la cantidad del producto a devolver. Para este ejemplo la cantidad de productos autorizados a devolver es "**5**".
+        #. Seleccione la línea del documento de recepción donde se encuentra el producto que se va a devolver, luego seleccione la opción "**OK**" para cargar el registro a la pestaña "**Línea de Autorización**".
 
-        .. figure:: ../resources/cantidad.png
-           :alt: Campo Cantidad
+            |Seleccionar Recepción y Opción OK 1|
 
-           Imagen 12. Campo Cantidad
+            Imagen 15. Seleccionar Línea con el Producto a Devolver
 
-    .. warning::
-    
-        Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono "**Guardar**" en la barra de herramientas de ADempiere.
+        .. warning::
+        
+            Recuerde actualizar el registro de la ventana con ayuda del icono "**Refrescar**" ubicado en la barra de herramientas de ADempiere.
+
+    #. Seleccione la pestaña "**Línea de Autorización**" para verificar que los datos fueron cargados correctamente.
+
+        |Pestaña Línea de Autorización 1|
+
+        Imagen 16. Pestaña Línea de Autorización
+
+    .. note::
+
+        Si la cantidad de productos a devolver es menor a la cantidad de productos recepcionados, recuerde ingresar en el campo "**Cantidad**", el valor o la cantidad de productos a devolver.
 
 #. Regrese a la ventana principal "**Autorización Devolución Proveedor**", seleccione la opción "**Completar**" en la parte inferior del documento.
 
-    .. figure:: ../resources/completar.png
-       :alt: Opción Completar
+    |Opción Completar 1|
 
-       Imagen 13. Opción Completar
+    Imagen 17. Opción Completar
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
-    .. figure:: ../resources/accion.png
-       :alt: Acción Completar
+    |Acción Completar 1|
 
-       Imagen 14. Acción Completar
+    Imagen 18. Acción Completar
 
 **Devolución a Proveedor**
 --------------------------
@@ -122,17 +179,15 @@ Es el documento que refleja la devolución de uno, varios, o todos los productos
 
 #. Ubique en el menú de ADempiere la ventana "**Gestión de Devoluciones**" y seleccione la ventana "**Devolución a Proveedor**".
 
-    .. figure:: ../resources/menudevo.png
-       :alt: Menú de ADempiere
+    |Menú de ADempiere 2|
 
-       Imagen 15. Menú de ADempiere
+    Imagen 19. Menú de ADempiere
 
 #. Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
-    .. figure:: ../resources/nuevadevo.png
-       :alt: Registro Nuevo
+    |Icono Registro Nuevo 2|
 
-       Imagen 16. Ventana de Registro
+    Imagen 20. Icono Registro Nuevo
 
     .. warning::
    
@@ -140,232 +195,129 @@ Es el documento que refleja la devolución de uno, varios, o todos los productos
 
     #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Devolución a Proveedor**".
 
-        .. figure:: ../resources/orgdevo.png
-           :alt: Campo Organización
+        |Campo Organización 2|
 
-           Imagen 17. Campo Organización
+        Imagen 21. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`__ elaborado por la empresa ERPyA. Para este ejemplo el tipo de documento es "**Devolución a Proveedor Nacional**".
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`tipo-documento` elaborado por ERPyA. Para este ejemplo el tipo de documento es "**Devolución a Proveedor Nacional**".
 
-        .. figure:: ../resources/tipodocdevo.png
-           :alt: Campo Tipo de Documento
+        |Campo Tipo de Documento 2|
 
-           Imagen 18. Campo Tipo de Documento
+        Imagen 22. Campo Tipo de Documento
 
-    #. Seleccione en el campo "**Autorización Devolución**", la autorización de devolución a proveedor que contiene el producto a devolver. Para este ejemplo la autorización de devolución es "**ADPN-1000000**".
+    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor al cual se le ralizará la devolución del producto.
 
-        .. figure:: ../resources/autodevo.png
-           :alt: Campo Autorización Devolución
+        |Campo Socio del Negocio 2|
 
-           Imagen 19. Campo Autorización Devolución
+        Imagen 23. Campo Socio del Negocio
 
         .. warning::
-      
-            Al seleccionar la autorización de devolución a proveedor, trae del documento "**Autorización de Devolución a Proveedor**" los datos, "**Socio del Negocio**" y "**Dirección del Socio del Negocio**".
-
-    #. Seleccione en el campo "**Fecha de Movimiento**", la fecha en la que fue movida el producto del almacén.
-
-        .. figure:: ../resources/fechamov.png
-           :alt: Campo Fecha de Movimiento
-
-           Imagen 20. Campo Fecha de Movimiento
-
-    #. Seleccione en el campo "**Fecha Contable**", la fecha de elaboración del documento.
-
-        .. figure:: ../resources/fechacon.png
-           :alt: Campo Fecha Contable
-
-           Imagen 21. Campo Fecha Contable
-
-    .. warning::
    
-        Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono "**Guardar**" en la barra de herramientas de ADempiere.
+            Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono "**Guardar**" en la barra de herramientas de ADempiere, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo "**No. del Documento**".
 
-#. Seleccione la pestaña "**Línea de la Entrega**" y proceda al llenado de los campos correspondientes.
+    #. Seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere, luego seleccione la opción "**Crear Orden de Devolución desde Entrega / Recibo**" para crear la devolución a proveedor desde la orden de devolución del producto.
 
-    .. figure:: ../resources/lineadevo.png
-       :alt: Pestaña Línea de Entrega
+        |Icono Proceso 2|
 
-       Imagen 22. Pestaña Línea de Entrega
+        Imagen 24. Icono Proceso
 
-    #. Seleccione en el campo "**Línea Autorización Devolución**", la línea de la autorización de la devolución perteneciente al producto a devolver. Para este ejemplo es "**ADPN-1000000\_10 - 10.0000 - INUC-000007 - Botellón - RN-1000238 - 2019-11-13 00:00:00**".
+        #. Podrá visualizar la siguiente ventana del proceso, donde debe seleccionar el documento de autorización de devolución creado anteriormente.
 
-        .. figure:: ../resources/lineaauto.png
-           :alt: Campo Línea Autorización Devolución
+            |Ventana del Proceso 2|
 
-           Imagen 23. Campo Línea Autorización Devolución
+            Imagen 25. Ventana del Proceso y Selección del Documento de Recepción
 
-    #. Seleccione en el campo "**Ubicación**", la ubicación del producto en la compañía. Para este ejemplo la ubicación es "**Comercialización**".
+        #. Seleccione la opción "**Comenzar Búsqueda**" para buscar las líneas del documento de autorización seleccionado.
 
-        .. figure:: ../resources/ubicacion.png
-           :alt: Campo Ubicación
+            |Opción Comenzar Búsqueda 2|
 
-           Imagen 24. Campo Ubicación
+            Imagen 26. Opción Comenzar Búsqueda
 
-    .. warning::
-   
-        Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono "**Guardar**" en la barra de herramientas de ADempiere.
+        #. Seleccione la línea del documento de autorización de devolución donde se encuentra el producto que se va a devolver, luego seleccione la opción "**OK**" para cargar el registro a la pestaña "**Línea de Devolución**".
+
+            |Seleccionar Recepción y Opción OK 2|
+
+            Imagen 27. Seleccionar Línea con el Producto a Devolver
+
+        .. warning::
+        
+            Recuerde actualizar el registro de la ventana con ayuda del icono "**Refrescar**" ubicado en la barra de herramientas de ADempiere.
+
+    #. Seleccione la pestaña "**Línea de Autorización**" para verificar que los datos fueron cargados correctamente.
+
+        |Pestaña Línea de Autorización 2|
+
+        Imagen 28. Pestaña Línea de Autorización
 
 #. Regrese a la ventana principal "**Devolución a Proveedor**", seleccione la opción "**Completar**" en la parte inferior del documento.
 
-    .. figure:: ../resources/completardevo.png
-       :alt: Opción Completar
+    |Opción Completar|
 
-       Imagen 25. Opción Completar
-
-#. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
-
-    .. figure:: ../resources/accion.png
-       :alt: Acción Completar
-
-       Imagen 26. Acción Completar
-
-**Nota de Crédito a Proveedor**
--------------------------------
-
-#. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**" y seleccione la ventana "**Documentos por Pagar**".
-
-    .. figure:: ../resources/menunota.png
-       :alt: Menú de ADempiere
-
-       Imagen 27. Menú de Adempiere
-
-#. Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos.
-
-    .. figure:: ../resources/nuevanota.png
-       :alt: Registro Nuevo
-
-       Imagen 28. Registro Nuevo
-
-    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Nota de Crédito a Proveedor**".
-
-        .. figure:: ../resources/orgnota.png
-           :alt: Campo Organización
-
-           Imagen 29. Campo Organización
-
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`__ elaborado por la empresa ERPyA. Para este ejemplo el tipo de documento es "**Nota de Crédito de Cuentas por Pagar Nacional**".
-
-        .. figure:: ../resources/tiponota.png
-           :alt: Campo Tipo de Documento Destino
-
-           Imagen 30. Campo Tipo de Documento Destino
-
-    #. Seleccione en el campo "**Fecha de Facturación**", la fecha de facturación a ser impresa en el documento.
-
-        .. figure:: ../resources/fechafacnota.png
-           :alt: Campo Fecha de Facturación
-
-           Imagen 31. Campo Fecha de Facturación
-
-    #. Seleccione en el campo "**Fecha Contable**", la fecha de elaboración del documento.
-
-        .. figure:: ../resources/fechaconota.png
-           :alt: Campo Fecha Contable
-
-           Imagen 32. Campo Fecha Contable
-
-    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor de la factura por pagar a la cual se le aplicará la nota de crédito. Para este ejemplo el socio es "**Proveedor Estándar**".
-
-        .. figure:: ../resources/socionota.png
-           :alt: Campo Socio del Negocio
-
-           Imagen 33. Campo Socio del Negocio
-
-    #. Seleccione en el campo "**Dirección de Socio del Negocio**", la dirección de localización del socio del negocio seleccionado anteriormente.
-
-        .. figure:: ../resources/dsocionota.png
-           :alt: Campo Dirección del Socio del Negocio
-
-           Imagen 34. Campo Dirección del Socio del Negocio
-
-    #. Seleccione en el campo "**Lista de Precios**", la lista de precios seleccionada en la factura por pagar a la cual se le aplicará la nota de crédito. Para este ejemplo la lista de precios es "**Compra (VES)**".
-
-        .. figure:: ../resources/listaprecios.png
-           :alt: Campo Lista de Precios
-
-           Imagen 35. Campo Lista de Precios
-
-    #. Seleccione la opción "**Crear Desde Pedido / Recibo**" para crear la nota de crédito al socio del negocio a partir de una autorización de devolución a proveedor.
-
-        .. figure:: ../resources/creardesde.png
-           :alt: Opción Crear Desde
- 
-           Imagen 36. Opción Crear Desde
-
-        #. Seleccione en el campo "**Crear Desde Tipo**" la opción "**RMA**" para filtrar la busqueda desde autorización de devolución a proveedor.
-
-            .. figure:: ../resources/busquedaint.png
-               :alt: Campo Crear Desde Tipo
-
-               Imagen 37. Campo Crear Desde Tipo
-
-        #. Seleccione en el campo "**Autorización Devolución**" el número de documento de autorización desde donde creará la nota de crédito a proveedor, para este ejemplo el documento es "**ADPN-1000000**".
-
-            .. figure:: ../resources/numfactura.png
-               :alt: Documento Factura
-
-               Imagen 38. Documento Factura
-
-        #. Seleccione la opción "**Comenzar Busqueda**" para buscar el documento seleccionado.
-
-            .. figure:: ../resources/ok.png
-               :alt: Opción Comenzar Busqueda
-
-               Imagen 39. Opción Comenzar Busqueda
-
-    #. Seleccione el documento y la opción "**OK**" para cargar los datos del documento seleccionado a la pestaña "**Línea de Factura**".
-
-        .. figure:: ../resources/final.png
-           :alt: Opción OK
-
-           Imagen 40. Opción OK
-
-        .. warning::
-      
-            Actualice o refresque el registro de la ventana "**Documentos por Pagar**", con ayuda del icono "**Refrescar**" ubicado en la barra de herramientas de ADempiere. De esta manera se actualiza dicha ventana con la información cargada desde la ventana de busqueda inteligente desplegada de la opción "**Crear Desde Pedido / Recibo**".
-
-    #. Seleccione en el campo "**Documento para Asignar**", el documento de factura por pagar al cual será aplicado la nota de crédito. Para este ejemplo el documento es la factura número "**1000093**".
-
-        .. figure:: ../resources/selecfac.png
-           :alt: Campo Documento para Asignar
-
-           Imagen 41. Campo Documento para Asignar
-
-    .. warning::
-   
-        Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono "**Guardar**" en la barra de herramientas de ADempiere, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo "**No. del Documento**".
-
-#. Seleccione la opción "**Completar**" en la parte inferior del documento.
-
-    .. figure:: ../resources/completarnota.png
-       :alt: Opción Completar
-
-       Imagen 42. Opción Completar
+    Imagen 29. Opción Completar
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
-    .. figure:: ../resources/accion.png
-       :alt: Opción OK
+    |Acción Completar 1|
 
-       Imagen 43. Opción OK
+    Imagen 30. Acción Completar
+
+#. Seleccione la opción "**Generar Facturas desde Recibos**", para generar el documento "**Nota de Crédito**" desde la ventana "**Devolución a Proveedor**".
+
+    |Generar Facturas desde Recibos 1|
+
+    Imagen 31. Generar Facturas desde Recibos
+
+    #. Podrá visualizar la siguiente ventana donde debe seleccionar la opción "**OK**".
+
+        |Ventana Generar Facturas desde Recibos y Seleccionar Opción OK|
+
+        Imagen 32. Ventana Generar Facturas desde Recibos y Seleccionar Opción OK
+
+.. note::
+
+    El documento "**Nota de Crédito**" es generado en estado "**Borrador**", el número del mismo se puede visualizar en la parte inferior derecha de la ventana "**Devolución a Proveedor**".
+
+**Completar Nota de Crédito Generada**
+--------------------------------------
+
+#. Podrá visualizar el documento "**Nota de Crédito**" generado desde la ventana "**Devolución a Proveedor**", al buscar el mismo con número de documento "**1000080**".
+
+    |Nota de Crédito 1|
+
+    Imagen 33. Nota de Crédito
+
+    #. Seleccione en el campo "**Factura Afectada**", el documento por pagar al cual le será aplicada la nota de crédito. Para ejemplificar el registro, es seleccionada la factura "**1000076**".
+
+        |Campo Documento Afectado|
+
+        Imagen 34. Campo Factura Afectada
+
+    #. Seleccione la opción "**Completar**" ubicada en la parte inferior derecha del documento.
+
+        |Opción Completar 3|
+
+        Imagen 35. Opción Completar
+
+        #. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Nota de Crédito**".
+
+            |Acción Completar 1|
+
+            Imagen 36. Acción Completar
 
 **Consultar Saldos Abiertos**
 -----------------------------
 
 #. Al consultar saldos abiertos se verifica que la nota de crédito haya sido aplicada a la factura, generando un descuento al saldo abierto de la factura de cuentas por pagar de la siguiente manera.
 
-    .. figure:: ../resources/saldos.png
-       :alt: Saldos Abiertos a la Fecha
+    |Saldos Abiertos a la Fecha 2|
 
-       Imagen 44. Saldos Abiertos a la Fecha
+    Imagen 37. Saldos Abiertos a la Fecha
 
 **Consultar Detalle de Transacciones**
 --------------------------------------
 
 #. Al consultar los detalles de transacciones se verifican los movimientos de entrada de productos por medio de una recepción, generando con ello un aumento al total de productos. De igual manera es reflejada la salida de productos por medio de una devolución a proveedor, generando con ello un descuento al total de productos en existencia.
 
-    .. figure:: ../resources/detran.png
-       :alt: Detalle de Transacciones
+    |Detalle de Transacciones|
 
-       Imagen 45. Detalle de Transacciones
+    Imagen 38. Detalle de Transacciones
