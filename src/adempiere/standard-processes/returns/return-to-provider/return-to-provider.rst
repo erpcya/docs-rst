@@ -122,7 +122,7 @@ A continuación se define el proceso para la creación de una autorización de d
       
             Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono "**Guardar**" en la barra de herramientas de ADempiere, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo "**No. del Documento**".
 
-    #. Seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere, luego seleccione la opción "**Crear Orden de Devolución desde Entrega / Recibo**" para crear la orden de devolución desde la recepción del producto.
+    #. Seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere, luego seleccione la opción "**Crear Orden de Devolución desde Entrega / Recibo**" para crear la "**Orden de Devolución**" desde la recepción del producto.
 
         |Icono Proceso 1|
 
@@ -133,6 +133,10 @@ A continuación se define el proceso para la creación de una autorización de d
             |Ventana del Proceso 1|
 
             Imagen 13. Ventana del Proceso y Selección del Documento de Recepción
+
+            .. note:: 
+
+                El campo "**Socio del Negocio**" viene precargado con la información seleccionada en el campo "**Socio del Negocio**" ubicado en la ventana "**Orden de Devolución (Proveedor)**". Al seleccionar el identificador del campo "**Entrega / Recibo**" podrá visualizar las diferentes recepciones asociadas al socio del negocio que se encuentra seleccionado en dicho campo, permitiendole seleccionar la línea del documento de recepción donde se encuentra el producto involucrado en la devolución.
 
         #. Seleccione la opción "**Comenzar Búsqueda**" para buscar las líneas del documento de recepción seleccionado.
 
@@ -215,7 +219,7 @@ Es el documento que refleja la devolución de uno, varios, o todos los productos
    
             Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono "**Guardar**" en la barra de herramientas de ADempiere, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo "**No. del Documento**".
 
-    #. Seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere, luego seleccione la opción "**Crear Orden de Devolución desde Entrega / Recibo**" para crear la devolución a proveedor desde la orden de devolución del producto.
+    #. Seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere, luego seleccione la opción "**Crear Orden de Devolución desde Entrega / Recibo**" para crear la "**Devolución a Proveedor**" desde la "**Orden de Devolución**" del producto.
 
         |Icono Proceso 2|
 
@@ -226,6 +230,10 @@ Es el documento que refleja la devolución de uno, varios, o todos los productos
             |Ventana del Proceso 2|
 
             Imagen 25. Ventana del Proceso y Selección del Documento de Recepción
+
+            .. note:: 
+
+                El campo "**Socio del Negocio**" viene precargado con la información seleccionada en el campo "**Socio del Negocio**" ubicado en la ventana "**Devolución a Proveedor**". Al seleccionar el identificador del campo "**Orden de Venta**" podrá visualizar las diferentes autorizaciones de devoluciones asociadas al socio del negocio que se encuentra seleccionado en dicho campo, permitiendole seleccionar la línea del documento de autorización de devolución a proveedor, donde se encuentra el producto involucrado en la devolución.
 
         #. Seleccione la opción "**Comenzar Búsqueda**" para buscar las líneas del documento de autorización seleccionado.
 
