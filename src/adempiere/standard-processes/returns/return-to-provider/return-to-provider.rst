@@ -40,9 +40,9 @@
 **Autorización de Devolución a Proveedor**
 ------------------------------------------
 
-Es el documento elaborado por la empresa luego de una evaluación de la condición de los productos comprados o servicios adquiridos del proveedor, cuando estos no se encuentran en buenas condiciones o simplemente no cumplen con lo requerido, el mismo autoriza la devolución de uno, varios, o todos los productos o servicios adquiridos del proveedor. 
+Es el documento elaborado por la empresa luego de una evaluación de la condición de los productos o materiales comprados al proveedor, cuando estos no se encuentran en buenas condiciones o simplemente no cumplen con lo requerido, el mismo autoriza la devolución de uno, varios, o todos los productos o materiales comprados. 
 
-Para realizar una devolución a proveedor deben existir los documentos "**Orden de Compra**", "**Documento por Pagar**" y "**Recepción**". Para ejemplificar el registro de la devolución a proveedor se tienen los siguientes documentos.
+Para realizar una devolución a proveedor deben existir los documentos "**Orden de Compra**", "**Factura de Cuentas por Pagar**" y "**Recepción**". Para ejemplificar el registro de la devolución a proveedor se tienen los siguientes documentos.
 
     #. Puede visualizar el documento "**Orden de Compra**" en estado "**Completo**", con monto "**10.000.000,00**".
 
@@ -50,11 +50,11 @@ Para realizar una devolución a proveedor deben existir los documentos "**Orden 
 
         Imagen 1. Documento Orden de Compra
 
-    #. Puede visualizar el "**Documento por Pagar**" en estado "**Completo**", con monto "**10.000.000,00**".
+    #. Puede visualizar el "**Factura de Cuentas por Pagar**" en estado "**Completo**", con monto "**10.000.000,00**".
 
         |Factura de Compra 1|
 
-        Imagen 2. Documento por Pagar
+        Imagen 2. Factura de Cuentas por Pagar
 
     #. Puede visualizar el documento de "**Recepción**" en estado "**Completo**", con monto "**10.000.000,00**".
 
@@ -62,7 +62,7 @@ Para realizar una devolución a proveedor deben existir los documentos "**Orden 
 
         Imagen 3. Documento de Recepción
 
-Al consultar saldos abiertos se puede visualizar el saldo correspondiente al monto del documento por pagar mostrado anteriormente.
+Al consultar saldos abiertos se puede visualizar el saldo correspondiente al monto de la factura de cuentas por pagar mostrado anteriormente.
 
     |Saldos Abiertos a la Fecha 1|
 
@@ -175,7 +175,7 @@ A continuación se define el proceso para la creación de una autorización de d
 **Devolución a Proveedor**
 --------------------------
 
-Es el documento que refleja la devolución de uno, varios, o todos los productos comprados o servicios adquiridos de un proveedor determinado. A continuación se define el proceso para la creación de una devolución a proveedor en ADempiere.
+Es el documento que refleja la devolución de uno, varios, o todos los productos o materiales comprados a un proveedor determinado. A continuación se define el proceso para la creación de una devolución a proveedor en ADempiere.
 
 #. Ubique en el menú de ADempiere la ventana "**Gestión de Devoluciones**" y seleccione la ventana "**Devolución a Proveedor**".
 
@@ -286,7 +286,7 @@ Es el documento que refleja la devolución de uno, varios, o todos los productos
 
     Imagen 33. Nota de Crédito
 
-    #. Seleccione en el campo "**Factura Afectada**", el documento por pagar al cual le será aplicada la nota de crédito. Para ejemplificar el registro, es seleccionada la factura "**1000076**".
+    #. Seleccione en el campo "**Factura Afectada**", la factura de cuentas por pagar al cual le será aplicada la nota de crédito. Para ejemplificar el registro, es seleccionada la factura "**1000076**".
 
         |Campo Documento Afectado|
 
