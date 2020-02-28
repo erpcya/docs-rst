@@ -12,3 +12,4 @@ Esta documentación está destinada a definir el manejo de retenciones a socios 
     withholding-iva/index
     withholding-islr/index
     withholding-municipality/index
+    withholding-declaration-cxp/index
