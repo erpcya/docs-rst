@@ -8,7 +8,6 @@ Esta documentación está destinada a definir el manejo de retenciones a socios 
 
 .. toctree::
     :maxdepth: 1
-    :numbered:
 
     withholding-iva/index
     withholding-islr/index
