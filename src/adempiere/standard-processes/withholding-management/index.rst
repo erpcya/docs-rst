@@ -13,3 +13,4 @@ La versión 3.9.2 de ADempiere en la localización Venezuela, contempla la docum
     :numbered:
 
     withholding-iva/index
+    withholding-islr/index
