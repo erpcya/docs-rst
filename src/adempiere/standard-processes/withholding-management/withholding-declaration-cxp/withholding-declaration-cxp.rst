@@ -20,6 +20,9 @@
 
 .. _documento/declaración-retención-cxp:
 
+
+.. _paso/generar-declaración-retenciones:
+
 **Generar Declaraciones de Retenciones**
 ========================================
 
@@ -80,6 +83,8 @@
 .. note::
 
     El proceso genera un documento por pagar de tipo "**Declaración Municipal de Cuentas por Pagar**", "**Declaración de ISLR de Cuentas por Pagar**" o "**Declaración de IVA de Cuentas por Pagar**", según la opción seleccionada en el campo "**Tipo de Retención**". El mismo es generado en estado "**Completo**" y con la sumatoria del monto total de todas las retenciones seleccionadas.
+
+.. _paso/consultar-declaración-retenciones:
 
 **Consultar Declaración de Retenciones**
 ========================================
@@ -170,3 +175,7 @@
         |Archivo o Documento Exportado 1|
 
         Imagen 18. Archivo o Documento Exportado 
+
+.. note::
+
+    La declaración de las retenciones municipales de cuentas por pagar, varia según el municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. En ADempiere, dicha declaración es generada realizando los procesos :ref:`paso/generar-declaración-retenciones` y :ref:`paso/consultar-declaración-retenciones`, anteriormente explicados en el presente material.
