@@ -10,4 +10,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     :maxdepth: 2
 
     cash-journal/index
-
+    procedure-for-account-distribution/procedure-for-distribution-of-national-suppliers-account-to-international-suppliers
