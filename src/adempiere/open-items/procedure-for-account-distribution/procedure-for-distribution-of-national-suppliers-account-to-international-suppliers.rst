@@ -18,7 +18,7 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 **Configuración de la Distribución Contable**
 =============================================
 
-#. ERPyA realizó la configuración contable necesaria para que sean generados los anticipos en multimoneda, quedando de la siguiente manera.
+#. ERPyA realizó la configuración de la distribución contable de la seguiente manera.
 
     |Configucación Contable|
 
@@ -30,8 +30,11 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
         Imagen 2. Pestaña Línea
 
+**Procedimiento**
+=================
+
 **Orden de Compra**
-===================
+-------------------
 
 #. Para ejemplificar el cambio realizado es generada una "**Orden de compra**", con el socio del negocio "**SOCIO ESTÁNDAR**", en moneda "**VES**" y monto total "**290.000,00**", quedando el documento de la siguiente manera.
 
@@ -40,7 +43,7 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
     Imagen 3. Orden de Compra
 
 **Orden de Pago**
-=================
+-----------------
 
 #. Al realizar el procedimiento regular para generar una "**Orden de Pago**", utilizando el tipo de documento "**Orden de Pago (Ant mult)**" y la moneda del anticipo "**USD**", el documento quedaría de la siguiente manera.
 
@@ -53,7 +56,7 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
     Recuerde que la moneda seleccionada debe ser la moneda del anticipo y que la tasa de conversión debe estar actualizada.
 
 **Selección de Pago**
-=====================
+---------------------
 
 #. Luego se procede a realizar el procedimiento regular de "**Imprimir/Exportar**", obteniendo como resultado el siguiente documento.
 
@@ -68,7 +71,7 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
     Imagen 6. Pestaña Línea de Selección de Pago
 
 **Consultar Pago Generado con Resultado Contable**
-==================================================
+--------------------------------------------------
 
 #. Al consultar el pago generado en la ventana "**Pago/Cobro**", podrá visualizar el pago generado por el monto del anticipo.
 
