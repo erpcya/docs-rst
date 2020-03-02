@@ -1,26 +1,42 @@
 .. _documento/formato-de-importación-de-nómina:
 
-================================
-Formato de Importación de Nómina
-================================
+==================================
+Formatos de Importación de Nóminas
+==================================
 
-ADempiere contempla un estándar para la importación de las diferentes nóminas que son utilizadas por el mismo, las mismas se encuentran agrupadas por nómina anticipo de prestaciones sociales, nómina anticipo de vacaciones, nómina de utilidades, nómina de vacaciones y nóminas regular.
+ADempiere contempla diferentes formatos de importación para las nóminas que son utilizadas por el mismo, estos formatos se encuentran agrupados según la nómina a la que pertenecen, los mismos se encuentran agrupados por:
+
+- Nómina Anticipo de Prestaciones Sociales
+- Nómina Anticipo de Vacaciones
+- Nómina de Utilidades
+- Nómina de Vacaciones
+- Nóminas Regulares.
 
 Nómina Anticipo de Prestaciones Sociales
 ========================================
 
+ERPyA requiere los siguientes formatos de importación de "**Nómina Anticipo de Prestaciones Sociales**".
+
 Anticipo de Prestaciones Sociales
 ---------------------------------
 
-Corresponde al monto otorgado a cada empleado por concepto de anticipo de sus prestaciones sociales 
+Corresponde al monto otorgado a cada empleado por concepto de anticipo de sus prestaciones sociales.
 
-Los datos deben ser registrados de la siguiente manera:
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
-* Registre los datos siguiendo estrictamente los formatos detallados en el "**Comentario**" del encabezado de cada columna.
+- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a la "**Nómina de Anticipo de Prestaciones Sociales (NAPS)**".
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    - **V**: Venezolano
+    - **E**: Extranjero
 
-* Registre a todos los empleados utilizando el proceso de "**Nómina de Anticipo de Prestaciones Sociales (NAPS)**".
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
 
-* El valor correspondiente para este concepto será de tipo "**MONTO**", por lo tanto registre el valor en la columna "**Monto**". 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios), solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 Formato de Importación 
 **********************
@@ -37,15 +53,21 @@ El formato para la importación de la nómina de anticipo de prestaciones social
 |NAPS              |          |AS_APS            |            |        |     |                 |                |           |
 +------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
 |NAPS              |          |AS_APS            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+  
 
-Comentarios
-***********
+Nómina Anticipo de Vacaciones
+=============================
 
-Los campos del formato de importación definido anteriormente, deben ser llenados considerando los siguientes puntos:
+ERPyA requiere los siguientes formatos de importación de "**Nómina Anticipo de Vacaciones**".
 
-- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
-    - **NAPS**: Nómina Anticipo de Prestaciones Sociales.
+Días Anticipo de Vacaciones
+---------------------------
+
+Representa los días otorgados a los empleados por concepto de anticipo de sus vacaciones.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a la "**Nómina de Anticipo de Vacaciones (NAV)**".
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -53,27 +75,11 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
-
-Nómina Anticipo de Vacaciones
-=============================
-
-Días Anticipo de Vacaciones
----------------------------
-
-Representa los días otorgados a los empleados por concepto de anticipo de sus vacaciones 
-
-Los datos deben ser registrados de la siguiente manera:
-
-* Registre los datos siguiendo estrictamente los formatos detallados en el “**Comentario**” del encabezado de cada columna
-
-* Registre a todos los Empleados utilizando el proceso de "**Nómina de Anticipo de Vacaciones (NAV)**"
-
-* El valor correspondiente para este concepto será de tipo “**CANTIDAD**”, por lo tanto registre los datos en la columna "**CANTIDAD**".
 
 Formato de Importación 
 **********************
@@ -92,28 +98,11 @@ El formato para la importación de la nómina de anticipo de vacaciones es el si
 |NAV               |          |CR_DAV            |            |        |     |                 |                |           |
 +------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
 
-Comentarios
-***********
-
-Los campos del formato de importación definido anteriormente, deben ser llenados considerando los siguientes puntos:
-
-- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
-    - **NAV**: Nómina Anticipo de Vacaciones.
-- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
-    - **V**: Venezolano
-    - **E**: Extranjero
-
-    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
-        - **V10000000**
-        
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 Nómina de Utilidades
 ====================
+
+ERPyA requiere los siguientes formatos de importación de "**Nómina de Utilidades**".
 
 Fecha de Utilidades Anteriores
 ------------------------------
@@ -159,8 +148,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -213,14 +202,14 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
-Nóminas Regular
-===============
+Nóminas Regulares
+=================
 
 Acumulado Días Trabajados en el Año
 -----------------------------------
@@ -271,8 +260,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -326,8 +315,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -381,8 +370,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -436,8 +425,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -491,8 +480,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -546,8 +535,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -601,8 +590,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -656,8 +645,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -711,8 +700,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -766,8 +755,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -825,8 +814,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -880,8 +869,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -935,8 +924,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -992,8 +981,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -1049,8 +1038,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -1110,8 +1099,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -1171,8 +1160,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
@@ -1230,8 +1219,8 @@ Los campos del formato de importación definido anteriormente, deben ser llenado
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema. "**No se Debe Modificar**".
-- **VÁLIDO DESDE**: La fecha valido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
