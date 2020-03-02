@@ -1,3 +1,5 @@
+.. |Configucación Contable| image:: resources/distribucion1.png
+.. |Pestaña Línea de la Distribución| image:: resources/distribucion2.png
 .. |Orden de Compra| image:: resources/orden-compra.png
 .. |Orden de Pago| image:: resources/orden-pago.png
 .. |Selección de Pago| image:: resources/seleccion-pago.png
@@ -5,13 +7,28 @@
 .. |Pago Generado| image:: resources/pago.png
 .. |Resultado Contable| image:: resources/resultado-contable.png
 
-.. _documento/procedimiento-para-distribución-de-cuenta:
+.. _documento/procedimiento-para-anticipos-en-multimonedas-con-distribución-contable:
 
-====================================================================================================
-**Procedimiento para Distribución de Cuenta "Proveedores Nacionales a Proveedores Internacionales"**
-====================================================================================================
+==========================================================================
+**Procedimiento para Anticipos en Multimonedas con Distribución Contable**
+==========================================================================
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar un "**Procedimiento para Distribución de Cuenta "Proveedores Nacionales a Proveedores Internacionales"**", en la versión 3.7.0 de ADempiere. El cambio fue realizado en ADempiere con la finalidad de reflejar en el mismo, los diferentes anticipos realizados en multimoneda.
+El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes para realizar el "**Procedimiento para Anticipos en Multimoneda con Distribución Contable**", considerando la distribución entre cuentas nacionales e internacionales en la versión 3.7.0 de ADempiere. El cambio fue realizado en el mismo con la finalidad de reflejar los diferentes anticipos realizados en multimoneda en la cuenta contable correspondiente.
+
+**Configuración de la Distribución Contable**
+=============================================
+
+#. ERPyA realizó la configuración contable necesaria para que sean generados los anticipos en multimoneda, quedando de la siguiente manera.
+
+    |Configucación Contable|
+
+    Imagen 1. Configucación Contable
+
+    #. Podrá visualizar en la pestaña "**Línea**", los detalles de la línea de la distribución.
+
+        |Pestaña Línea de la Distribución|
+
+        Imagen 2. Pestaña Línea
 
 **Orden de Compra**
 ===================
@@ -20,7 +37,7 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
     |Orden de Compra|
 
-    Imagen 1. Orden de Compra
+    Imagen 3. Orden de Compra
 
 **Orden de Pago**
 =================
@@ -29,26 +46,26 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
     |Orden de Pago|
 
-    Imagen 2. Orden de Pago
+    Imagen 4. Orden de Pago
 
 .. note::
 
-    Recuerde que la moneda seleccionada debe ser la moneda del anticipo.
+    Recuerde que la moneda seleccionada debe ser la moneda del anticipo y que la tasa de conversión debe estar actualizada.
 
 **Selección de Pago**
 =====================
 
-#. Luego se procede a realizar el procedimiento regular para generar una "**Selección de Pago (Manual)**", obteniendo como resultado el siguiente documento.
+#. Luego se procede a realizar el procedimiento regular de "**Imprimir/Exportar**", obteniendo como resultado el siguiente documento.
 
     |Selección de Pago|
 
-    Imagen 3. Selección de Pago
+    Imagen 5. Selección de Pago
 
 #. Podrá visualizar en la pestaña "**Línea de Selección de Pago**", la orden de pago creada anteriormente con su respectivo monto.
 
     |Línea de Selección de Pago|
 
-    Imagen 4. Pestaña Línea de Selección de Pago
+    Imagen 6. Pestaña Línea de Selección de Pago
 
 **Consultar Pago Generado con Resultado Contable**
 ==================================================
@@ -57,7 +74,7 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
     |Pago Generado|
 
-    Imagen 5. Pago Generado
+    Imagen 7. Pago Generado
 
     .. note::
 
@@ -67,7 +84,7 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
     |Resultado Contable|
 
-    Imagen 6. Resultado Contable del Pago
+    Imagen 8. Resultado Contable del Pago
 
 .. note::
 
