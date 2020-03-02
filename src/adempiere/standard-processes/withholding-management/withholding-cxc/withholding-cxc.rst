@@ -17,11 +17,8 @@
 
 .. _documento/retenciones-cxc:
 
-**Retención de IVA de Cuentas por Cobrar**
-==========================================
-
-**Documento por Cobrar**
-------------------------
+**Procesar Retención de Documento por Cobrar**
+----------------------------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la ventana "**Documento por Cobrar**".
 
