@@ -11,4 +11,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
     commission/commission-definition
     commission/commission-run
+    generate-invoice-from-departure-order/index
 
