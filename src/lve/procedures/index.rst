@@ -11,5 +11,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 
     import
     intermediary-advance-settlement
+    advance-payment-to-transit-providers
 
 

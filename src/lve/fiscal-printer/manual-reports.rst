@@ -47,13 +47,13 @@ Generar **"Reporte de Memoria Fiscal por días"**.
     Estas instrucciones se detallan en la Página 15 de el `Manual de Fabricante. <http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf>`_
 
 
-.. documento/generar-reporte-04
+    .. documento/generar-reporte-04
 
-.. figure:: resorces/print-report-by-month.png
-   :align: center
-   :alt: Reporte de Memoria Fiscal por mes
+    .. figure:: resorces/print-report-by-month.png
+       :align: center
+       :alt: Reporte de Memoria Fiscal por mes
 
-   Imagen 4. Reporte de Memoria Fiscal por mes
+       Imagen 4. Reporte de Memoria Fiscal por mes
 
 Para emitir este reporte debe presionar las teclas "**Dump Fecha**" y "**OK**" al mismo tiempo durante 2 o 3 segundos.
 
