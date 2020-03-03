@@ -44,7 +44,7 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
                   Para que el socio del negocio este disponible para todas las organizaciones de la compañía, el mismo deberá estar registrado con la organización en (*) de lo contrario el socio del negocio solo estará disponible para una sola organización.
 
-      #. resourcesdsocio-proveedora el código de identificación, cédula o rif del socio del negocio en el campo "**Código**", el valor resourcesdsocio-proveedordo en este campo automáticamente se reflejará en el campo "**Número Identificación**".
+      #. Introduzca el código de identificación, cédula o rif del socio del negocio en el campo "**Código**", el valor introducido en este campo automáticamente se reflejará en el campo "**Número Identificación**".
 
             .. documento/socio-proveedor-04
 
@@ -58,7 +58,7 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
                   Se recomienda que al ingresar el valor al campo "**Código**" no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
 
-      #. resourcesdsocio-proveedora el nombre del socio del negocio proveedor en el campo "**Nombre**".
+      #. Introduzca el nombre del socio del negocio proveedor en el campo "**Nombre**".
 
             .. documento/socio-proveedor-05
 
@@ -68,7 +68,7 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
                Imagen 5. Campo Nombre
 
-      #. Seleccione en el campo "**Grupo de Socio del Negocio**", el grupo de socio del negocio al que pertenezca el socio del negocio proveedor que esta registrando, para este ejemplo el grupo utilizado es "**Proveedores Nacionales**".
+      #. Seleccione el grupo de socio del negocio al que pertenezca el socio del negocio proveedor que esta registrando, para este ejemplo el grupo utilizado es "**Proveedores Nacionales**".
 
             .. documento/socio-proveedor-06
 
@@ -222,7 +222,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
 
          Imagen 17. Campo Tarjeta de Crédito
 
-#. resourcesdsocio-proveedora en el campo "**Número**", el número de tarjeta de crédito del socio del negocio proveedor que esta registrando.
+#. Introduzca en el campo "**Número**", el número de tarjeta de crédito del socio del negocio proveedor que esta registrando.
 
       .. documento/socio-proveedor-18
 
@@ -232,7 +232,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
 
          Imagen 18. Campo Número
 
-#. resourcesdsocio-proveedora en el campo "**Código Verificación**", el código de verificación de la tarjeta de crédito del socio del negocio proveedor que esta registrando, este código son los últimos tres números del reverso de la tarjeta.
+#. Introduzca en el campo "**Código Verificación**", el código de verificación de la tarjeta de crédito del socio del negocio proveedor que esta registrando, este código son los últimos tres números del reverso de la tarjeta.
 
       .. documento/socio-proveedor-19
 
@@ -242,7 +242,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
 
          Imagen 19. Campo Código Verificación
 
-#. resourcesdsocio-proveedora en el campo "**Mes de Expiración**", el mes de expiración de la tarjeta de crédito del socio del negocio proveedor que esta registrando.
+#. Introduzca en el campo "**Mes de Expiración**", el mes de expiración de la tarjeta de crédito del socio del negocio proveedor que esta registrando.
 
       .. documento/socio-proveedor-20
 
@@ -252,7 +252,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
 
          Imagen 20. Campo Mes de Expiración
 
-#. resourcesdsocio-proveedora el año de expiración de la tarjeta de crédito del socio del negocio proveedor que esta registrando en el campo "**Año de Expiración**".
+#. Introduzca el año de expiración de la tarjeta de crédito del socio del negocio proveedor que esta registrando en el campo "**Año de Expiración**".
 
       .. documento/socio-proveedor-21
 
@@ -262,7 +262,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
 
          Imagen 21. Campo Año de Expiración
 
-#. resourcesdsocio-proveedora el nombre de referencia de la tarjeta en el campo "**Nombre**", en este campo va el nombre del titular de la tarjeta de crédito que esta registrando.
+#. Introduzca el nombre de referencia de la tarjeta en el campo "**Nombre**", en este campo va el nombre del titular de la tarjeta de crédito que esta registrando.
 
       .. documento/socio-proveedor-22
 
@@ -319,7 +319,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
 
          Imagen 26. Campo Tipo de Cuenta Bancaria
 
-#. resourcesdsocio-proveedora en el campo "**No. De Cuenta**", el número de cuenta del socio del negocio proveedor que esta registrando.
+#. Introduzca en el campo "**No. De Cuenta**", el número de cuenta del socio del negocio proveedor que esta registrando.
 
       .. documento/socio-proveedor-27
 
@@ -329,7 +329,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
 
          Imagen 27. Campo No. De Cuenta
 
-#. resourcesdsocio-proveedora en el campo "**Nombre**", el nombre del titular de la cuenta bancaria que esta registrando.
+#. Introduzca en el campo "**Nombre**", el nombre del titular de la cuenta bancaria que esta registrando.
 
       .. documento/socio-proveedor-28
 
@@ -387,7 +387,7 @@ En esta pestaña se registran todos los datos de contacto que se tengan del soci
 
          Imagen 31. Pestaña Contacto
 
-#. resourcesdsocio-proveedora en el campo "**Nombre**", el nombre del socio del negocio contacto para las transacciones entre las empresas.
+#. Introduzca en el campo "**Nombre**", el nombre del socio del negocio contacto para las transacciones entre las empresas.
 
       .. documento/socio-proveedor-32
 
@@ -397,7 +397,7 @@ En esta pestaña se registran todos los datos de contacto que se tengan del soci
 
          Imagen 32. Campo Nombre
 
-#. resourcesdsocio-proveedora en el campo "**Email**", el email del socio del negocio contacto para las transacciones entre las empresas.
+#. Introduzca en el campo "**Email**", el email del socio del negocio contacto para las transacciones entre las empresas.
 
       .. documento/socio-proveedor-33
 
@@ -407,7 +407,7 @@ En esta pestaña se registran todos los datos de contacto que se tengan del soci
 
          Imagen 33. Campo Email
 
-#. resourcesdsocio-proveedora en el campo "**Teléfono**", el teléfono del socio del negocio contacto para las transacciones entre las empresas.
+#. Introduzca en el campo "**Teléfono**", el teléfono del socio del negocio contacto para las transacciones entre las empresas.
 
       .. documento/socio-proveedor-34
 

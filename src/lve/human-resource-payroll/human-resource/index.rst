@@ -10,4 +10,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
     :maxdepth: 2
 
     cash-refund/index
+    cash-per-diems/index
 
