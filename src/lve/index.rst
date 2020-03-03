@@ -10,6 +10,7 @@ ADempiere es un ERP, CRM y SCM software libre específicamente usa la licencia G
 
 .. toctree::
     :maxdepth: 2
+    :numbered:
 
     documentation-lve/index
 

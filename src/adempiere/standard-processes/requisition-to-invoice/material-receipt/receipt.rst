@@ -1,7 +1,7 @@
 .. _documento/recepción-productos:
 
 **Crear Recepción de Productos**
---------------------------------
+--------------------------
 
 #. Ubique en el menú de ADempiere la ventana "**Recepción de Productos**", adjunto imagen para referencia.
 
