@@ -12,4 +12,4 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
     :maxdepth: 2
     :numbered:
 
-    pay-order.rst
+    pay-order
