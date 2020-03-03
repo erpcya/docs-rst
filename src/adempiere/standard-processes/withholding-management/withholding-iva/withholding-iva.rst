@@ -38,13 +38,13 @@
 
 .. _documento/retención-iva:
 
-Configuración Esencial
-======================
+**Configuración Esencial**
+==========================
 
 La configuración esencial de las retenciones en ADempiere, permite que sea ejecutada la estimación de la retención a un socio del negocio proveedor al completar el documento de cuentas por pagar en ADempiere, la misma consta de dos procesos explicados a continuación.
 
-Configuración de la Tasa de Impuesto
-====================================
+**Configuración de la Tasa de Impuesto**
+****************************************
 
 La aplicación de retención de IVA en un documento de cuentas por pagar parte de la selección de IVA en el campo "**Impuesto**", el mismo debe ser configurado desde la ventana "**Tasa de Impuesto**", o acercando dicho campo en la línea de la factura. Para que se ejecute la estimación de la retención, es necesario configurar la tasa de impuesto.
 
@@ -82,8 +82,8 @@ La aplicación de retención de IVA en un documento de cuentas por pagar parte d
 
     Este proceso debe ser realizado cada vez que se vaya a aplicar un impuesto de IVA diferente en cada documento por pagar.
 
-Configuración del Socio de Negocio
-==================================
+**Configuración del Socio de Negocio**
+======================================
 
 ADempiere permite seleccionar por socio del negocio el porcentaje de IVA a aplicar en los documentos de compra/venta del mismo, a continuación se explica el procedimiento para seleccionar el IVA en un socio del negocio determinado.
 
@@ -137,8 +137,8 @@ ADempiere permite seleccionar por socio del negocio el porcentaje de IVA a aplic
 
     Solo debe tildar la retención que no se aplicará al socio del negocio proveedor que esta configurando y guarde los cambios realizados en el socio del negocio con ayuda del icono "**Guardar Cambios**" de la barra de herramientas de ADempiere.
 
-Ejecución de la Estimación de Retenciones
-=========================================
+**Ejecución de la Estimación de Retenciones**
+=============================================
 
 #. Ubique la factura ya realizada al socio del negocio, la misma debe estar en estado "**Completo**", para este ejemplo se utiliza la factura número "**1000034**" del socio del negocio proveedor "**Standard Standard**".
 
@@ -180,8 +180,8 @@ Ejecución de la Estimación de Retenciones
 
     ADempiere le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
 
-Generación de la Retención de IVA Fiscal
-========================================
+**Generación de la Retención de IVA Fiscal**
+============================================
 
 #. Ubique la carpeta "**Manejo de Retenciones**" en el menú de ADempiere, luego seleccione la ventana de busqueda inteligente "**Generar Retenciones**".
 
@@ -225,8 +225,8 @@ Generación de la Retención de IVA Fiscal
     
     Imagen 25. Mensaje OK
 
-Imprimir Documento de la Retención Aplicada al Socio del Negocio
-================================================================
+**Imprimir Documento de la Retención Aplicada al Socio del Negocio**
+====================================================================
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
 
