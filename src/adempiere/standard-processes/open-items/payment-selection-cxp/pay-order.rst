@@ -20,13 +20,6 @@
 **Orden de Pago**
 =================
 
-Es un documento que se elabora cuando no se poseen todos los datos necesarios para realizar la selección de pagos de cuentas por pagar, en este documento se solicita autorización para que paguen los documentos agrupados de cuentas por pagar que posee la empresa. Un caso de orden de pago, podría ser cuando no se sabe exactamente desde que cuenta se realizarán los pagos.
-
-El proceso es realizado por el departamento de cuentas por pagar o tesorería de una empresa. Dicho departamento se encarga de realizar la orden de pago y esperar autorización de sus superiores para proceder a realizar la selección de pagos.
-
-**Procedimiento para Crear una Orden de Pago**
-----------------------------------------------
-
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Selección de Pagos**".
 
     |Menú de ADempiere|
