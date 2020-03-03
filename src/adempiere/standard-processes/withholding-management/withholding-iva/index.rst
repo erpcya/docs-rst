@@ -1,8 +1,8 @@
 .. _src/adempiere/standard-processes/withholding-management/withholding-iva:
 
-=============================
-Retención de IVA en ADempiere
-=============================
+==================================================
+Retención de IVA de Cuentas por Pagar en ADempiere
+==================================================
 
 Las retenciones de Impuesto al Valor Agregado (IVA) en Venezuela son impuestos aplicados a productos o servicios gravados de un documento por pagar, por su parte, la retención de IVA comprende un resguardo de los impuestos generados en el pasivo que deben efectuar los contribuyentes, posteriormente según el calendario contemplado en el Portal del SENIAT declarar el acumulado de las retenciones generadas durante el periodo quincenal.
 
@@ -14,6 +14,5 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
 .. toctree::
     :maxdepth: 1
-    :numbered:
 
     withholding-iva
