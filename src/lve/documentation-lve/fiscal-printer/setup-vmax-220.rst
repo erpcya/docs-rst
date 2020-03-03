@@ -16,7 +16,7 @@ Es necesario ingresar a ADempiere desde la versión de escritorio, para un corre
     :param ADEMPIERE_HOME: (Ruta de ADempiere).
     :param JAVA_HOME: (Ruta de Instalación de JAVA). 
 
-.. Nota:: 
+.. note:: 
 
         Es recomendable colocar un acceso directo en el escritorio, para ejecutar con mayor Facilidad ADempiere.
 
