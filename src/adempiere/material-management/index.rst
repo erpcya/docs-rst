@@ -8,7 +8,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     product/index
 
