@@ -11,3 +11,4 @@ Nómina
     :maxdepth: 2
 
     bonus-cancellation-with-intermediary
+    arcv-report/index
