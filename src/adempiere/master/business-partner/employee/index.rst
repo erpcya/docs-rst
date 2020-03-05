@@ -13,6 +13,5 @@ Dentro de sus funcionalidades, ADempiere permite a las organizaciones realizar d
 
 .. toctree::
     :maxdepth: 3
-    :numbered:
 
     employee
