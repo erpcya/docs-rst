@@ -15,8 +15,8 @@
  
 .. _documento/préstamo:
  
-Préstamo
-========
+**Préstamo**
+============
 
 El préstamo en ADempiere pueden ser generados de dos formas, en la definición del proceso anterior se explicó cómo generar el préstamo desde la simulación, ahora aprenderá cómo crear un préstamo en la ventana de préstamo.
 
@@ -105,8 +105,8 @@ A continuación se desplegará el siguiente dialogo
 
 Si desea completar el préstamo seleccione la opción ok |Opción Aceptar|, caso contrario seleccione la opción cancelar |Opción Cancelar|
 
-Amortización
-============
+**Amortización**
+================
 
 Vaya a la pestaña **Amortización** (Adjunto Imagen)
 
@@ -116,8 +116,8 @@ Vaya a la pestaña **Amortización** (Adjunto Imagen)
 
 Los registros de esta pestaña son autogenerados al completar el préstamo en la ventana de préstamo o generando el préstamo desde el simulador.
 
-Consulta de Préstamo
-====================
+**Consulta de Préstamo**
+========================
 
 Si el préstamo fue generado desde el simulador o directamente creado en la ventana podrá consultarlo en la ventana **Préstamo**. Una vez en la ventana de **Préstamo** busque el registro desde la opción **Encontrar Registro** ubicada en la barra de herramientas.
 

@@ -2,9 +2,9 @@
 .. _src/adempiere/requisition-to-invoice/material-receipt:
 
 
-======================
-Recepción de Productos
-======================
+==========================
+**Recepción de Productos**
+==========================
 
 Una recepción de productos en ADempiere, es el proceso por el cual los productos procedentes de un proveedor llegan al almacén de una compañía u organización determinada. 
 
