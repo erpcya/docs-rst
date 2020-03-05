@@ -1,8 +1,8 @@
 .. _src/lve/documentation-lve/adempiere-documents/charges:
 
-===============================
-Utilidad de los Tipos de Cargos
-===============================
+===================================
+**Utilidad de los Tipos de Cargos**
+===================================
 
 En ADempiere los tipos de cargos se encuentran conformados por diferentes cargos y su aplicación en documentos específicos generan ajustes de débito o crédito a los mismos.
 
