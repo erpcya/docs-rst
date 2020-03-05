@@ -23,15 +23,15 @@
 .. _documento/generar-selección-pagos:
 
 
-Generar Selección de Pago
-=========================
+**Generar Selección de Pago**
+=============================
 
 La selección de pago en ADempiere actúa como una orden de pago, agrupando varios préstamos pendientes por cancelar, la funcionalidad o simplicidad del proceso dependerá de la configuración del documento en la cuenta bancaria o cuenta de caja (**Vea Configuración Esencial para el Proceso de Préstamo**).
 
 Fué creado un Smart Browser permitiendo al usuario seleccionar múltiples préstamos y generar de manera eficiente y segura un pago o varios pagos discriminando por préstamo si el usuario así lo desea.
 
-Interpretando la Ventana
-========================
+**Interpretando la Ventana**
+============================
 
 Panel de Parámetros de **Consulta de Préstamos:** En este panel dispone de los parámetros que serán de filtro para consultar los préstamos pendientes por cancelar.
 
@@ -51,8 +51,8 @@ Panel de **Datos para Generar la Selección de Pago**: En este panel indicará l
 
  Imagen 3. Proceso de Selección de Pagos
 
-Selección de Pago
-=================
+**Selección de Pago**
+=====================
 
 Vaya a la ventana de Préstamo(Adjunto Imagen)
 
@@ -128,8 +128,8 @@ Si seleccionó la opción OK el sistema generará la(s) selección(es) de forma 
 
  Imagen 11. Selección de Pagos Generada
 
-Consulta de Selección de Pago de Préstamo
-=========================================
+**Consulta de Selección de Pago de Préstamo**
+=============================================
 
 Existen dos posibles formas de consultar las selecciones de pago asociadas a un préstamo, a continuación serán explicadas:
 

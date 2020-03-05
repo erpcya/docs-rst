@@ -123,8 +123,8 @@
 
 .. _documento/socio-cliente:
 
-Proceso de Registro del Socio del Negocio
------------------------------------------
+**Proceso de Registro del Socio del Negocio**
+---------------------------------------------
 
 #. En el menú de ADempiere, ubique y seleccione la carpeta "**Relación con Socio del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**" y finalmente seleccione la ventana "**Socio del Negocio**". 
 
@@ -132,8 +132,8 @@ Proceso de Registro del Socio del Negocio
     
     Imagen 1. Menú de ADempiere
 
-Ventana Socio del Negocio
--------------------------
+**Ventana Socio del Negocio**
+-----------------------------
 
 En esta ventana se registran los datos principales que la empresa requiere del socio del negocio cliente. Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
 
@@ -361,8 +361,8 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio. 
 
-Pestaña Cliente
-***************
+**Pestaña Cliente**
+*******************
 
 En esta pestaña es registrada la información que la empresa requiere del socio del negocio cliente al momento de una venta al mismo. Cada uno de los campos que la misma contiene son necesarios en algún punto de la transacción de ventas.
 
@@ -502,8 +502,8 @@ En esta pestaña es registrada la información que la empresa requiere del socio
         
         Imagen 58. Campo Tiempo de Gracia Cobro
 
-Pestaña Cuenta Bancaria
-***********************
+**Pestaña Cuenta Bancaria**
+***************************
 
 En esta pestaña se registran los datos bancarios del socio del negocio cliente, con el checklist "**Activo**" se pueden registrar los datos de la tarjeta de crédito del socio del negocio. Así mismo, con el checklist "**ACH**" se pueden registrar los datos de la cuenta bancaria del socio del negocio.
 
@@ -513,8 +513,8 @@ En esta pestaña se registran los datos bancarios del socio del negocio cliente,
     
     Imagen 59. Pestaña Cuenta Bancaria
 
-Checklist Activo
-++++++++++++++++
+**Checklist Activo**
+++++++++++++++++++++
 
 #. Seleccione en el campo "**Tarjeta de Crédito**", el tipo de tarjeta de crédito que posee el socio del negocio cliente que esta registrando.
 
@@ -550,8 +550,8 @@ Checklist Activo
 
         Este proceso se realiza con la finalidad de registrar la tarjeta de crédito del socio del negocio. 
 
-Checklist ACH
-+++++++++++++
+**Checklist ACH**
++++++++++++++++++
 
 #. Para registros de cuentas bancarias, tilde el checklist "**ACH**", a continuación se reflejarán los campos para el registro de la cuenta bancaria del socio del negocio.
 
@@ -659,8 +659,8 @@ Checklist ACH
     
     Imagen 81. Campo Código Postal Verificado
 
-Pestaña Localización
-********************
+**Pestaña Localización**
+************************
 
 La localización de un socio del negocio cliente es muy importante por diferentes motivos, ya que las transacciones de ventas serán realizadas al mismo, en esta pestaña se deben registrar con exactitud los datos de la dirección del socio del negocio.
 
@@ -766,8 +766,8 @@ La localización de un socio del negocio cliente es muy importante por diferente
                 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
 
-Pestaña Contacto
-****************
+**Pestaña Contacto**
+********************
 
 En esta pestaña se registran todos los datos de contacto que se posea el socio del negocio cliente. De igual manera, es creado su usuario de acceso en ADempiere.
 
