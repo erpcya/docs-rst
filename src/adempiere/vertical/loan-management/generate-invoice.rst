@@ -24,8 +24,8 @@
 .. _documento/generar-factura-préstamo:
 
 
-Generar Factura desde Préstamo
-==============================
+**Generar Factura desde Préstamo**
+==================================
 
 El documento por cobrar a generar (Fiscal o no Fiscal) será emitido por concepto de cuota vencida, con los siguientes conceptos dependiendo del préstamo inicial solicitado(Producto Financiero) y su configuración **(Vea Configuración de Producto Financiero (Préstamo))**:
 
@@ -40,8 +40,8 @@ El documento por cobrar a generar (Fiscal o no Fiscal) será emitido por concept
 
 Sin embargo existen casos en los cuales el solicitante retarda la cancelación de cuotas vencidas en estos casos ADempiere calcula intereses moratorios sobre la cuota vencida generando así una línea más en el documento.
 
-Interpretando la Ventana
-========================
+**Interpretando la Ventana**
+============================
 
 Panel de Parámetros de **Consulta de Amortización:** En este panel dispone de los parámetros que serán de filtro para consultar las cuotas pendientes por Facturar.
 
@@ -61,8 +61,8 @@ Panel de **Datos para Generar la Factura**: En este panel indicará los datos pa
 
  Imagen 3. Interpretando la Ventana
 
-Generar Factura desde Préstamo
-==============================
+**Generar Factura desde Préstamo**
+==================================
 
 **Generar Factura desde Préstamo**
 
@@ -138,8 +138,8 @@ Si seleccionó la opción OK el sistema generará la(s) factura(s) de forma exit
 
  Imagen 11. Documentos Generados
 
-Consulta de Factura de Préstamo
-===============================
+**Consulta de Factura de Préstamo**
+===================================
 
 Existen dos posibles formas de consultar las facturas generadas asociadas a un préstamo, a continuación serán explicadas.
 
@@ -195,8 +195,8 @@ Seleccione la opción “**Documento por Cobrar de Cuota**”
 
 Esta opción lo llevará automáticamente a los pagos asociados a este préstamo.
 
-Contabilidad del Proceso
-========================
+**Contabilidad del Proceso**
+============================
 
 ADempiere contabilizará el Documento por Cobrar dependiendo de la definición del producto financiero (**Vea Configuración de Producto Financiero (Préstamo)**), a continuación se detalla:
 

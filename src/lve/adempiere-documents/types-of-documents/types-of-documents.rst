@@ -33,7 +33,7 @@
 .. |Calendario2| image:: resources/calendario2.png
 .. |Calendario3| image:: resources/calendario3.png
 
-.. _documento/types-of-documents:
+.. _documento/tipo-documento:
 
 **Orden de Calidad** |Orden de Calidad| 
 =======================================
