@@ -43,7 +43,7 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
             Imagen 3. Campo Organización
 
-      #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`__ elaborado por la empresa ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Solicitud de Pagos de Cuentas por Pagar**".
+      #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Solicitud de Pagos de Cuentas por Pagar**".
 
          .. documento/caja-reembolso-04
 
@@ -206,7 +206,7 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
             Imagen 19. Campo Organización
 
-      #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`__ elaborado por la empresa ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Selección de Pagos de Cuentas por Pagar**".
+      #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Selección de Pagos de Cuentas por Pagar**".
 
          .. documento/caja-reembolso-20
          
@@ -458,7 +458,7 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
          Imagen 44. Campo Organización
 
-   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`__ elaborado por la empresa ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Cierre de Caja Reembolso**".
+   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Cierre de Caja Reembolso**".
 
       .. documento/caja-reembolso-45
       
@@ -738,7 +738,7 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
          Imagen 71. Campo Organización
 
-   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`__ elaborado por la empresa ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Cierre de Caja Reembolso**".
+   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Cierre de Caja Reembolso**".
 
       .. documento/caja-reembolso-72
       

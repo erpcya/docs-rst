@@ -75,14 +75,14 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
 
          Imagen 9. Campo UM Almacenamiento
 
-   #. Seleccione en el campo "**Categoría del Producto**", la categoría a la cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento `Utilidad Categoría de Producto <http://elcamino.erp.local:55888/documentation-lve/adempiere-documents/products-category/products-category/>`__ elaborado por la empresa ERPyA.
+   #. Seleccione en el campo "**Categoría del Producto**", la categoría a la cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/categoría-producto` elaborado por ERPyA.
 
       .. figure:: resources/categ.png
          :alt: Campo Categoría del Producto
 
          Imagen 10. Campo Categoría del Producto
 
-   #. Seleccione en el campo "**Grupo de Producto**", el grupo al cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento `Utilidad Grupo de Producto <http://elcamino.erp.local:55888/documentation-lve/adempiere-documents/products-group/products-group/>`__ elaborado por la empresa ERPyA.
+   #. Seleccione en el campo "**Grupo de Producto**", el grupo al cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/grupo-de-producto` elaborado por ERPyA.
 
       .. figure:: resources/grupo.png
          :alt: Campo Grupo de Producto

@@ -25,7 +25,7 @@
 
          Imagen 3. Campo Organización
 
-#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por la empresa ERPyA.
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA.
 
       .. figure:: resources/tipodoc.png
          :alt: Campo Tipo de Documento Destino
