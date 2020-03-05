@@ -166,6 +166,4 @@ Si desea ver cómo generar un archivo gif vaya a `Crear un Video y Comprimirlo c
 
 A continuación se encuentra un ejemplo proveniente de `Open Project <http://project.erpya.com/projects/soporte-sos/work_packages/2905/activity>`__
 
-   Open Project
-
 

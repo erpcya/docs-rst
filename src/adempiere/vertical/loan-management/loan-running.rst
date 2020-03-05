@@ -14,11 +14,11 @@
 
 .. _documento/ejecución:
 
-Ejecución
-=========
+**Ejecución**
+=============
 
-Simulación
-----------
+**Simulación**
+--------------
 
 La simulación de préstamos es ideal para realizar cálculos rápidos y consultas de préstamos a solicitantes, generando una tabla simulada de amortización completa, además de monto total estimado de impuesto a pagar, monto total estimado de interés a pagar y cuota fija estimada.
 
@@ -77,8 +77,8 @@ A continuación verá los siguientes resultados:
  Imagen 4. Ejecución de Simulador
 
 
-Interpretando la Ventana
-------------------------
+**Interpretando la Ventana**
+----------------------------
 
 Panel de resultados de **Amortización Estimada:**
 
@@ -98,8 +98,8 @@ Los totales estimados le indicarán al solicitante el Total de Interés, Total d
  Imagen 6. Área de Totales
 
 
-Generar Préstamo desde Simulación
----------------------------------
+**Generar Préstamo desde Simulación**
+-------------------------------------
 
 Una vez procesada la simulación:
 
