@@ -1,10 +1,8 @@
-
 .. _src/lve/documentation-lve/human-resource-payroll/payroll:
 
-
-======
-Nómina
-======
+==========
+**Nómina**
+==========
 
 
 .. toctree::

@@ -4,9 +4,9 @@
 
 .. _src/adempiere/standard-processes/withholding-management/withholding-islr:
 
-===================================================
-Retención de ISLR de Cuentas por Pagar en ADempiere
-===================================================
+=======================================================
+**Retención de ISLR de Cuentas por Pagar en ADempiere**
+=======================================================
 
 Las retenciones de impuesto sobre la renta (ISLR) en Venezuela son impuestos aplicados a productos o servicios gravados de un documento por pagar, por su parte, la retención de ISLR comprende un resguardo de los impuestos generados en el pasivo que deben efectuar los contribuyentes, posteriormente según el calendario contemplado en el Portal del SENIAT declarar el acumulado de las retenciones generadas. 
 

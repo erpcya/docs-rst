@@ -47,8 +47,8 @@
 
 .. _documento/devolución-cliente:
 
-Autorización de Devolución (Cliente)
-====================================
+**Autorización de Devolución (Cliente)**
+========================================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la ventana "**Orden de Devolución (Cliente)**".
 
@@ -68,7 +68,7 @@ Autorización de Devolución (Cliente)
         
         Imagen 3. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`_ elaborado por la empresa ERPyA.
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA.
 
         |Campo Tipo de Documento Destino| 
         
@@ -182,8 +182,8 @@ Autorización de Devolución (Cliente)
         
         Imagen 22. Acción Completar
 
-Devolución (Cliente)
-====================
+**Devolución (Cliente)**
+========================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Entregas**", por último seleccione la ventana de búsqueda inteligente "**Generar Entregas Desde Líneas de Orden**".
 
@@ -243,8 +243,8 @@ Devolución (Cliente)
 
     La elaboración de este proceso permite ingresar nuevamente los productos seleccionados anteriormente al almacén de la empresa.
 
-Nota de Crédito por Devolución (Cliente)
-========================================
+**Nota de Crédito por Devolución (Cliente)**
+============================================
 
 #. Para generar el documento "**Nota de Crédito por Devolución (Cliente)**", debe existir obligatoriamente una factura para aplicar la nota de crédito. Para ejemplificar el registro de la devolución de cliente se utiliza la factura número "**84884**".
 
@@ -318,8 +318,8 @@ Nota de Crédito por Devolución (Cliente)
     
     Imagen 43. Pestaña del Documento Nota de Crédito
 
-Consultar Saldos Abiertos
-=========================
+**Consultar Saldos Abiertos**
+=============================
 
 #. Al consultar saldos abiertos se verifica que la nota de crédito haya sido aplicada a la factura, generando con ello un descuento al saldo abierto del socio del negocio de la siguiente manera.
 
@@ -327,8 +327,8 @@ Consultar Saldos Abiertos
     
     Imagen 44. Consultar Saldos Abiertos
     
-Consultar Detalle de Transacciones
-==================================
+**Consultar Detalle de Transacciones**
+======================================
 
 #. Al consultar los detalles de transacciones se verifican los movimientos de salida de productos por medio de una entrega, generando con ello un descuento al total de productos. De igual manera es reflejada la entrada del mismo producto por medio de una devolución de cliente, generando con ello un aumento al total de productos en existencia.
 

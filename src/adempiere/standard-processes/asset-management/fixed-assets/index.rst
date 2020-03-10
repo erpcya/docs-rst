@@ -1,8 +1,8 @@
 .. _src/adempiere/standard-processes/asset-management/fixed-assets:
 
-=============
-Activos Fijos
-=============
+=================
+**Activos Fijos**
+=================
 
 El activo fijo se refiere a los bienes que poseen las empresas, estos pueden ser tangibles, intangibles e inversiones en compañías.
 
