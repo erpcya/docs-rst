@@ -19,7 +19,7 @@
 .. _documento/selección-de-pago:
 
 **Selección de Pago de Cuentas por Pagar**
-------------------------------------------
+==========================================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Selección de Pagos**".
 
