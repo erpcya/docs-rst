@@ -12,8 +12,8 @@
 
 .. _documento/calculo-comisiones:
 
-Cálculo de Comisiones de Ventas
-===============================
+**Cálculo de Comisiones de Ventas**
+===================================
 
 El cálculo de las comisiones tiene como requerimiento principal tener configurada una definición de comisiones. Dicho cálculo de comisión toma en cuenta el tipo de frecuencia que tiene seleccionada la definición de comisión, así el grupo de comisión de la misma contenga otro tipo de frecuencia diferente.
 
@@ -21,8 +21,8 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
 Continuando con el ejemplo planteado en el documento :ref:`documento/definicion-comisiones`, se realiza de la siguiente manera el cálculo de las comisiones de los vendedores internos. Es necesario repetir el procedimiento para calcular las comisiones de los vendedores externos.
 
-Pestaña Ejecución de Comisión
-*****************************
+**Pestaña Ejecución de Comisión**
+*********************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Reglas de Ventas y Mercadotecnia**", por último seleccione la ventana "**Cálculo de Comisiones**".
 
@@ -82,8 +82,8 @@ Pestaña Ejecución de Comisión
 
     Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de ADempiere.
 
-Pestaña Total Comisión
-**********************
+**Pestaña Total Comisión**
+**************************
 
 #. Seleccione la pestaña "**Total Comisión**" para visualizar el total general de las comisiones.
 
@@ -95,8 +95,8 @@ Pestaña Total Comisión
 
     Esta pestaña es de sólo lectura, el contenido de sus campos se agrega de forma automática según lo configurado en la definición de comisiones.
 
-Pestaña Detalle de Comisión
-***************************
+**Pestaña Detalle de Comisión**
+*******************************
 
 #. Seleccione la pestaña "**Detalle de Comisión**" para visualizar el total de la comisiones por cada venta.
 

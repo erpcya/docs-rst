@@ -1,10 +1,8 @@
-
 .. _src/lve/documentation-lve/human-resource-payroll/human-resource/collection-cash:
 
-
-=============
-Caja Cobranza
-=============
+=================
+**Caja Cobranza**
+=================
 
 El requerimiento principal para realizar el proceso de gestión de caja cobranza es tener una definición de caja creada, para esto contacte a un consultor de **E.R.P. Consultores y Asociados**. El procedimiento consta en reflejar en ADempiere el pago realizado por el socio del negocio cliente, por concepto de abono o anticipo de una orden de venta o factura de cuentas por cobrar. Dicho procedimiento se realiza registrando diariamente el cobro en caja y posteriormente el cierre de la misma. 
 

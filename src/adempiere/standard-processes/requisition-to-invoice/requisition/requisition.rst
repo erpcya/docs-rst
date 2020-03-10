@@ -21,8 +21,8 @@
 
 .. _documento/requisición-compra:
 
-Crear Requisición a Compra
-==========================
+**Crear Requisición a Compra**
+==============================
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Requisición**", adjunto imagen para referencia.
 

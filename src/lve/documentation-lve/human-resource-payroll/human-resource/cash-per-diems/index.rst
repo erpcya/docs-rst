@@ -1,9 +1,8 @@
-
 .. _src/lve/documentation-lve/human-resource-payroll/human-resource/cash-per-diems:
 
-=============
-Caja Viáticos
-=============
+=================
+**Caja Viáticos**
+=================
 
 ADempiere permite controlar el dinero que la empresa le asigna a sus trabajadores seleccionados, por medio de la caja creada a cada uno de ellos. El proceso "**Caja Viáticos**" es realizado con la finalidad de facilitar un dinero a un empleado y pueda ser utilizado para solventar situaciones de viajes laborales, por ende debe reflejarse en su caja correspondiente.
 
