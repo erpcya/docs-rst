@@ -1,10 +1,8 @@
-
 .. _src/lve/documentation-lve/human-resource-payroll/payroll:
 
-
-======
-Nómina
-======
+==========
+**Nómina**
+==========
 
 
 .. toctree::
@@ -12,3 +10,4 @@ Nómina
     :numbered:
 
     bonus-cancellation-with-intermediary
+    arcv-report/index

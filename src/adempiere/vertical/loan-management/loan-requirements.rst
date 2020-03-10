@@ -1,7 +1,7 @@
 .. _documento/objetivo-principal:
 
-Objetivo Principal y Sustentación
-=================================
+**Objetivo Principal y Sustentación**
+=====================================
 
 Financieramente los préstamos son operaciones en la que una entidad otorga una determinada cantidad de dinero solicitada previamente por un agente, quien adquiere un compromiso de pago, definiendo según la tipología del préstamo la forma de pago e intereses en un plazo específico.
 
@@ -19,8 +19,8 @@ Basados en estas premisas ADempiere fue adecuado, convirtiendolo así en una her
 
 El material desarrollado propone la definición de un procedimiento previamente estudiado y modelado por consultores expertos en ADempiere, para configuración de ADempiere con enfoques en gestiones financieras.
 
-Requerimientos
-==============
+**Requerimientos**
+==================
 
 #. Adempiere 3.90
 #. Aplicación de Cambios (Gestión Financiera).

@@ -13,8 +13,8 @@ Generar Reportes Manualmente en la impresora
 
 En en caso de error o cuando se confirma que se trabo la impresora durante una impresión, se hace necesario generar un reporte para consolidar que la data de ADempiere concuerda con la almacenada en la impresora, por motivos de de seguridad o auditoria, se hace conveniente generarlo a través de la impresora misma.
 
-Generar Reporte "X".
----------------------------
+**Generar Reporte "X".**
+------------------------
 
     .. documento/generar-reporte-02
 
@@ -26,8 +26,8 @@ Generar Reporte "X".
 
 Se hace a través de la combinación de los botones "**OK**" + "**X**" Se debe mantener pulsados ambos hasta que la impresión inicie.
 
-Generar Reporte "Z".
----------------------------
+**Generar Reporte "Z".**
+------------------------
 
     .. documento/generar-reporte-03
 
@@ -39,21 +39,21 @@ Generar Reporte "Z".
 
 Se hace a través de la combinación de los botones "**OK**" + "**Z**" Se debe mantener pulsados ambos hasta que la impresión inicie.
 
-Generar **"Reporte de Memoria Fiscal por días"**.
-----------------------------------------------------
+**Generar "Reporte de Memoria Fiscal por días".**
+-------------------------------------------------
 
 .. note::
 
     Estas instrucciones se detallan en la Página 15 de el `Manual de Fabricante. <http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf>`_
 
 
-.. documento/generar-reporte-04
+    .. documento/generar-reporte-04
 
-.. figure:: resorces/print-report-by-month.png
-   :align: center
-   :alt: Reporte de Memoria Fiscal por mes
+    .. figure:: resorces/print-report-by-month.png
+       :align: center
+       :alt: Reporte de Memoria Fiscal por mes
 
-    Imagen 4. Reporte de Memoria Fiscal por mes
+       Imagen 4. Reporte de Memoria Fiscal por mes
 
 Para emitir este reporte debe presionar las teclas "**Dump Fecha**" y "**OK**" al mismo tiempo durante 2 o 3 segundos.
 
@@ -114,8 +114,8 @@ Despues de cargar los parametros de impresion inmediatamente iniciara la impresi
 
        Imagen 9. Generar Reporte
 
-Generar **"Reporte de Memoria Fiscal por mes"**.
----------------------------------------------------
+**Generar "Reporte de Memoria Fiscal por mes".**
+------------------------------------------------
 
 .. warning::
 

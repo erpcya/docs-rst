@@ -120,8 +120,8 @@ Confirmada alguna de las situaciones previamente descrita, puede identificarse c
 
 A Continuación se detalla de una manera más Gráfica como proceder con los caso de error de los cuales se tiene registro.
 
-Primer caso Impreso Correctamente a través de la impresora y Factura no Completada en ADempiere.
-------------------------------------------------------------------------------------------------
+**Primer caso Impreso Correctamente a través de la impresora y Factura no Completada en ADempiere.**
+----------------------------------------------------------------------------------------------------
 
 Existe un proceso "**Autorizar Documento Fiscal**" para reactivar el completar el documento ADempiere, este se usa de la siguiente manera:
       
@@ -155,8 +155,8 @@ El primer campo de la ventana desplegada sirve para seleccionar el Documento a r
 
 Para el caso actual debe usarse la opción "**Completar el Documento(Sin Impresión)**". Esta opción permite completar el documento existente en ADempiere y de esta manera generar el documento, que respalde el que se encuentra impreso.
 
-Segundo caso la Factura impresa esta Anulada pero se encuentra Completada Correctamente en ADempiere.
------------------------------------------------------------------------------------------------------
+**Segundo caso la Factura impresa esta Anulada pero se encuentra Completada Correctamente en ADempiere.**
+---------------------------------------------------------------------------------------------------------
 
 Se requiere el Aplicar el Proceso "**Autorizar Documento Fiscal**" a la factura no generada, seleccionando la opción Anular.
       
@@ -198,8 +198,8 @@ Esto se debe hacer para evitar que el documento impreso anulado tenga una refere
 
          Imagen 9. Resultado del proceso
 
-Tercer Caso Completado Correctamente en ADempiere pero no se realiza la impresión
----------------------------------------------------------------------------------
+**Tercer Caso Completado Correctamente en ADempiere pero no se realiza la impresión**
+-------------------------------------------------------------------------------------
 
 Cuando esto sucede se debe aplicar el mismo proceso de "**Autorizar Documento Fiscal**" , utilizando la opción "**Reimprimir**".
       
@@ -225,8 +225,8 @@ En campo de la ventana seleccionar el Documento a reimprimir, en el segundo perm
 
 Luego acceder a la ventana donde esta la factura en cuestión, e imprimir manualmente usando el botón "**Imprimir Factura en Impresora Fiscal**".
 
-Cuarto Caso El Documento impreso quedo incompleto y en ADempiere el Documento tiene un es Incompleto o No-valido
-----------------------------------------------------------------------------------------------------------------
+**Cuarto Caso El Documento impreso quedo incompleto y en ADempiere el Documento tiene un es Incompleto o No-valido**
+--------------------------------------------------------------------------------------------------------------------
 
 El documento en ADempiere es necesario Anularlo. La forma de solventar esta falla es proceder en dos etapas en la primera se aplica el proceso con la factura afectada seleccionando el parámetro "**Completar (Sin Impresión)**".
       

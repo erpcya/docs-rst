@@ -16,12 +16,12 @@ Es necesario ingresar a ADempiere desde la versión de escritorio, para un corre
     :param ADEMPIERE_HOME: (Ruta de ADempiere).
     :param JAVA_HOME: (Ruta de Instalación de JAVA). 
 
-.. Nota:: 
+.. note:: 
 
         Es recomendable colocar un acceso directo en el escritorio, para ejecutar con mayor Facilidad ADempiere.
 
-Configurar la impresora requiere los siguientes pasos:
-------------------------------------------------------
+**Configurar la impresora requiere los siguientes pasos:**
+----------------------------------------------------------
 
 #. Ingresar a ADempiere con el Rol asignado correspondiente.
 
@@ -90,8 +90,8 @@ Se desplegara una ventana donde se debe seleccionar el directorio de instalació
 
            Imagen 4. Diálogo de Configuracion de Dispositivo
 
-Crear el nuevo Dispositivo (impresora):
----------------------------------------
+**Crear el nuevo Dispositivo (impresora):**
+-------------------------------------------
 
 #. Abrir la Ventana Dispositivo ubicada en el menú **Administración de Sistema** / **Reglas Generales** / **Configuración de Dispositivo**.
 
@@ -131,8 +131,8 @@ Agregando los siguientes Valores en sus correspondientes campos:
 
            Imagen 5. Dispositivo
 
-Configuración de uso de Dispositivo:
-------------------------------------
+**Configuración de uso de Dispositivo:**
+----------------------------------------
 
 Luego de los pasos anteriores es necesario acceder a la Pestaña Configuración de uso de Dispositivo, en esta ventana se establece la manera en la que ADempire se comunicara con el dispositivo creado.
 
