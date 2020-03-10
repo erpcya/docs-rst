@@ -16,6 +16,7 @@ Los procedimientos estándares de ADempiere en la versión 3.9.2 de la localizac
     quote-to-invoice/index
     requisition-to-invoice/index
     open-items/index
+    performance-analysis/index
     accounting/index
     returns/index
     withholding-management/index
