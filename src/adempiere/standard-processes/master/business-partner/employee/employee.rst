@@ -712,6 +712,7 @@ En una empresa los empleados presentan atributos diferentes, los mismos son defi
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos). 
 
+
 **Pestaña Días Libres de la Semana**
 ************************************
 
@@ -740,6 +741,7 @@ En la pestaña "**Días Libres de la Semana**" se deben seleccionar los checklis
 .. warning:: 
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos). 
+
 
 **Pestaña Detalle de Pago**
 ***************************
@@ -781,6 +783,7 @@ La pestaña "**Detalle de Pago**", muestra de forma resumida la información de 
     |Pestaña Información de Contrato Detalle| 
     
     Imagen 87. Pestaña Información de Contrato 
+
 
 **Pestaña Cuenta Bancaria**
 ***************************
@@ -849,6 +852,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio empleado
 
     Si el empleado posee otra cuenta bancaria para registrar, seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere en la pestaña "**Cuenta Bancaria**" y proceda al llenado de los campos explicados anteriormente.
 
+
 **Pestaña Experiencia Laboral**
 *******************************
 
@@ -906,6 +910,7 @@ La experiencia laboral de las personas forman su hoja de vida laboral, en cada e
     
     Si el empleado posee otras referencias laborales para registrar, seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere en la pestaña "**Experiencia Laboral**" y proceda al llenado de los campos explicados anteriormente.
 
+
 **Pestaña Educación**
 *********************
 
@@ -958,6 +963,7 @@ El Estado asume la educación como proceso esencial para promover, fortalecer y 
 .. warning:: 
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos). 
+
 
 **Pestaña Dependientes**
 ************************
@@ -1053,6 +1059,7 @@ En esta pestaña se registran los datos de cada uno de los familiares que depend
 .. warning:: 
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos). 
+
 
 **Pestaña Localización**
 ************************
@@ -1150,6 +1157,7 @@ La localización de un socio del negocio es muy importante para una empresa por 
 .. warning:: 
                 
     Si el empleado posee otra dirección de localización para registrar, seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere en la pestaña "**Localización**" y proceda al llenado de los campos explicados anteriormente.
+
 
 **Pestaña Detalle de Seguro**
 *****************************
@@ -1255,6 +1263,7 @@ En esta pestaña se registra toda la información del socio del negocio empleado
 .. warning:: 
 
     Si el empleado posee otro seguro para registrar, seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere en la pestaña "**Detalle de Seguro**" y proceda al llenado de los campos explicados anteriormente.
+
 
 **Pestaña Detalle de Permiso**
 ******************************
