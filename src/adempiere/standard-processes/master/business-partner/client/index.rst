@@ -1,9 +1,9 @@
 
 .. _standard-processes/master/business-partner/client:
 
-=========================
-Socio del Negocio Cliente
-=========================
+=============================
+**Socio del Negocio Cliente**
+=============================
 
 Un socio del negocio cliente es aquella persona, empresa u organización, que compra o adquiere los productos y servicios que necesita para su consumo o producción. Dichas compras pueden ser realizadas constantemente o por una necesidad puntual.
 

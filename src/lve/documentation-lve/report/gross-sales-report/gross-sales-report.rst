@@ -7,8 +7,8 @@
 
 .. _documento/reporte-ventas-brutas:
 
-Generar Reporte
-===============
+**Generar Reporte**
+===================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Consulta de Facturas**", por último seleccione el reporte "**Resumen de Facturas**".
 

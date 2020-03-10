@@ -1,8 +1,8 @@
 .. _src/adempiere/standard-processes/withholding-management/withholding-cxc:
 
-==============================================
-Retenciones de Cuentas por Cobrar en ADempiere
-==============================================
+==================================================
+**Retenciones de Cuentas por Cobrar en ADempiere**
+==================================================
 
 Las retenciones en Venezuela son impuestos aplicados a productos o servicios gravados de un documento por pagar, por su parte, las retenciones en las cuentas por cobrar comprende un resguardo de los impuestos generados en el pasivo que deben efectuar los contribuyentes, posteriormente según el calendario contemplado en el portal del SENIAT declarar el acumulado de las retenciones generadas.
 

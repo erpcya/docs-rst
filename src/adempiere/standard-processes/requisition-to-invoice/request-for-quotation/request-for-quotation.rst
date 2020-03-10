@@ -62,8 +62,8 @@
 
 .. _documento/solicitud-cotización:
 
-Crear Tema de Solicitud para Cotizar
-====================================
+**Crear Tema de Solicitud para Cotizar**
+========================================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Tema de Solicitud para Cotizar**".
 
@@ -89,8 +89,8 @@ Crear Tema de Solicitud para Cotizar
 
         Imagen 4. Icono Guardar Cambios
 
-Pestaña Suscriptor
-******************
+**Pestaña Suscriptor**
+**********************
 
 #. Seleccione la pestaña "**Suscriptor**" y proceda al llenado de los campos correspondientes.
 
@@ -130,8 +130,8 @@ Pestaña Suscriptor
 
         Imagen 9. Registros de la Pestaña Suscriptor
 
-Pestaña Restricción
-*******************
+**Pestaña Restricción**
+***********************
 
 #. Seleccione la pestaña "**Restricción**" y proceda al llenado de los campos correspondientes.
 
@@ -159,8 +159,8 @@ Pestaña Restricción
 
             Para registrar otro producto, debe seleccionar el icono "**Registro Nuevo**" ubicado en la barra de herramientas de ADempiere y repetir el procedimiento realizado antes.  
 
-Solicitud para Cotización
-=========================
+**Solicitud para Cotización**
+=============================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Solicitud para Cotización**".
 
@@ -174,11 +174,11 @@ Solicitud para Cotización
     
     Para ejemplificar el registro del presente documento, es presentado un caso por cada forma de cotización.
 
-Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
-**********************************************************************
+**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**
+**************************************************************************
 
-Pestaña SCP (RfQ)
-+++++++++++++++++
+**Pestaña SCP (RfQ)**
++++++++++++++++++++++
 
 #. Podrá visualizar la siguiente ventana con los registros de solicitud de cotización que la empresa tiene. Seleccione el icono "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
@@ -232,8 +232,8 @@ Pestaña SCP (RfQ)
 
         Imagen 21. Icono Guardar Cambios
 
-Pestaña Línea
-+++++++++++++
+**Pestaña Línea**
++++++++++++++++++
 
 #. Seleccione la pestaña "**Línea**" y proceda al llenado de los campos correspondientes.
 
@@ -259,8 +259,8 @@ Pestaña Línea
 
             Para registrar otro producto, debe seleccionar el icono "**Registro Nuevo**" ubicado en la barra de herramientas de ADempiere y repetir el procedimiento realizado antes. Para ejemplificar el caso se registran tres (3) productos que son "**Desinfectante**", "**Cera**" y "**Desengrasante**". 
 
-Pestaña Cantidad
-++++++++++++++++
+**Pestaña Cantidad**
+++++++++++++++++++++
 
 #. Seleccione la pestaña "**Cantidad**" y proceda al llenado de los campos correspondientes.
 
@@ -290,8 +290,8 @@ Pestaña Cantidad
 
         Esta pestaña se debe seleccionar y realizar el proceso explicado antes, por cada registro que tenga la pestaña "**Línea**".
 
-Pestaña SCP (RfQ)
-+++++++++++++++++
+**Pestaña SCP (RfQ)**
++++++++++++++++++++++
 
 #. Regrese a la ventana principal "**SCP (RfQ)**" y seleccione la opción "**Crea e Invita**", para enviar la notifiación vía correo electrónico a los socios del negocio proveedores agrupados en el tema de solicitud realizado anteriormente.
 
@@ -306,8 +306,8 @@ Pestaña SCP (RfQ)
         Imagen 30. Ventana Crea e Invita
 
 
-Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total
-***************************************************************
+**Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total**
+*******************************************************************
 
 #. Realice el procedimiento regular para generar una "**Solicitud para Cotización**" explicado anteriormente, con la diferencia de que debe seleccionar en el campo "**Tipo SCP (RfQ)**", la opción "**Cotiza Sólo el Total**". Al culminar todo el procedimiento hasta el envío de la notificación a los socios del negocio proveedores, el registro quedaría de la siguiente manera.
 
@@ -320,8 +320,8 @@ Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total
         La forma "**Cotiza Sólo el Total**", realiza la cotización sumando el total de cada línea de la solicitud.  
 
 
-Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas
-******************************************************************
+**Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas**
+**********************************************************************
 
 #. Realice el procedimiento regular para generar una "**Solicitud para Cotización**" explicado anteriormente, con la diferencia de que debe seleccionar en el campo "**Tipo SCP (RfQ)**", la opción "**Cotiza todas las Líneas**". Al culminar todo el procedimiento hasta el envío de la notificación a los socios del negocio proveedores, el registro quedaría de la siguiente manera.
 
@@ -334,8 +334,8 @@ Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas
         La forma "**Cotiza todas las Líneas**", realiza la cotización comparando la igualdad que existe entre la cantidad de productos o servicios solicitados y la cantidad de productos o servicios ofertados por el proveedor.
 
 
-Solicitud para Cotización con Respuesta
-=======================================
+**Solicitud para Cotización con Respuesta**
+===========================================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Solicitud para Cotización**".
 
@@ -361,11 +361,11 @@ Solicitud para Cotización con Respuesta
 
         Imagen 35. Registro por Socio del Negocio Proveedor
 
-Caso 1: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Líneas Seleccionadas
-**************************************************************************************
+**Caso 1: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Líneas Seleccionadas**
+******************************************************************************************
 
-Pestaña Línea Respuesta
-+++++++++++++++++++++++
+**Pestaña Línea Respuesta**
++++++++++++++++++++++++++++
 
 #. Seleccione la pestaña "**Línea Respuesta**" para navegar entre los registros de productos o servicios que fueron cotizados al socio del negocio proveedor.
 
@@ -383,8 +383,8 @@ Pestaña Línea Respuesta
 
         Imagen 37. Registro del Producto Desinfectante
 
-Pestaña Cantidad Respuesta
-++++++++++++++++++++++++++
+**Pestaña Cantidad Respuesta**
+++++++++++++++++++++++++++++++
 
 #. Seleccione la pestaña "**Cantidad Respuesta**" para cargar el precio cotizado por el socio del negocio proveedor.
 
@@ -408,8 +408,8 @@ Pestaña Cantidad Respuesta
 
         Esta pestaña se debe seleccionar y realizar el proceso explicado antes, por cada registro que tenga la pestaña “**Línea Respuesta**”.
 
-Pestaña Respuesta
-+++++++++++++++++
+**Pestaña Respuesta**
++++++++++++++++++++++
 
 #. Regrese a la ventana principal "**Respuesta**" y seleccione la opción "**Completar Verificación**", para completar el documento de solicitud de cotización con respuesta.
     
@@ -434,8 +434,8 @@ Pestaña Respuesta
     Repita en cada uno de los registros de socios del negocio proveedores de la "**Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Líneas Seleccionadas**", el procedimiento explicado anteriormente.
 
 
-Consultar el Reporte de Respuesta de Solicitud para Cotización
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+**Consultar el Reporte de Respuesta de Solicitud para Cotización**
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #. Al consultar la solicitud de cotización con respuesta de "**Caso 1: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Líneas Seleccionadas**", se obtiene el siguiente reporte.
 
@@ -443,8 +443,8 @@ Consultar el Reporte de Respuesta de Solicitud para Cotización
 
     Imagen 44. Reporte de Solicitud de Cotización con Respuesta Caso 1
 
-Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total
-*******************************************************************************
+**Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total**
+***********************************************************************************
 
 #. Realice el procedimiento regular para generar una "**Solicitud para Cotización con Respuesta**" explicado anteriormente. 
 
@@ -452,8 +452,8 @@ Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Tota
 
     Imagen 45. Registro de la Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total 
 
-Consultar el Reporte de Respuesta de Solicitud para Cotización
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+**Consultar el Reporte de Respuesta de Solicitud para Cotización**
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #. Al consultar la solicitud de cotización con respuesta de "**Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total**", se obtiene el siguiente reporte.
 
@@ -461,8 +461,8 @@ Consultar el Reporte de Respuesta de Solicitud para Cotización
 
     Imagen 46. Reporte de Solicitud de Cotización con Respuesta Caso 2
 
-Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
-**********************************************************************************
+**Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas**
+**************************************************************************************
 
 #. Realice el procedimiento regular para generar una "**Solicitud para Cotización con Respuesta**" explicado anteriormente. 
 
@@ -470,8 +470,8 @@ Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las L�
 
     Imagen 47. Registro de la Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
 
-Consultar el Reporte de Respuesta de Solicitud para Cotización
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+**Consultar el Reporte de Respuesta de Solicitud para Cotización**
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 #. Al consultar la solicitud de cotización con respuesta de "**Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas**", se obtiene el siguiente reporte.
 
@@ -479,11 +479,11 @@ Consultar el Reporte de Respuesta de Solicitud para Cotización
 
     Imagen 48. Reporte de Solicitud de Cotización con Respuesta Caso 3
 
-Solicitud para Cotización
-=========================
+**Solicitud para Cotización**
+=============================
 
-Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
-**********************************************************************
+**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**
+**************************************************************************
 
 #. Ubique en la ventana "**Solicitud para Cotización**" el registro del "**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**" y seleccione la opción "**Valuación de Respuestas**".
 
@@ -497,8 +497,8 @@ Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
 
     Imagen 50. Ventana Validación de Respuesta
 
-Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total
-***************************************************************
+**Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total**
+*******************************************************************
 
 #. Ubique en la ventana "**Solicitud para Cotización**" el registro del "**Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total**" y seleccione la opción "**Valuación de Respuestas**".
 
@@ -512,8 +512,8 @@ Caso 2: Solicitud para Cotización por Tipo Cotiza Sólo el Total
 
     Imagen 52. Ventana Validación de Respuesta
 
-Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas
-******************************************************************
+**Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas**
+**********************************************************************
 
 #. Ubique en la ventana "**Solicitud para Cotización**" el registro del "**Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas**" y seleccione la opción "**Valuación de Respuestas**".
 
@@ -527,11 +527,11 @@ Caso 3: Solicitud para Cotización por Tipo Cótiza todas las Líneas
 
     Imagen 54. Ventana Validación de Respuesta
 
-Solicitud para Cotización con Respuesta
-=======================================
+**Solicitud para Cotización con Respuesta**
+===========================================
 
-Caso 1: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Líneas Seleccionadas
-**************************************************************************************
+**Caso 1: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Líneas Seleccionadas**
+******************************************************************************************
 
 #. Ubique en la ventana "**Solicitud para Cotización (Con Respuesta)**" el registro del "**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**" y navegue entre los registros de la pestaña "**Línea Respuesta**" de cada socio del negocio proveedor para buscar el registro que tenga el checklist "**Ganador Seleccionado**" tildado de la siguiente manera.
 
@@ -539,8 +539,8 @@ Caso 1: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Líneas Selec
 
     Imagen 55. Checklist Ganador Seleccionado
 
-Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total
-*******************************************************************************
+**Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total**
+***********************************************************************************
 
 #. Ubique en la ventana "**Solicitud para Cotización (Con Respuesta)**" el registro del "**Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total**" y navegue entre los registros de cada socio del negocio proveedor para buscar el registro que tenga el checklist "**Ganador Seleccionado**" tildado de la siguiente manera.
 
@@ -548,8 +548,8 @@ Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Tota
 
     Imagen 56. Checklist Ganador Seleccionado
 
-Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
-**********************************************************************************
+**Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas**
+**************************************************************************************
 
 #. Ubique en la ventana "**Solicitud para Cotización (Con Respuesta)**" el registro del "**Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas**" y navegue entre los registros de cada socio del negocio proveedor para buscar el registro que tenga el checklist "**Ganador Seleccionado**" tildado de la siguiente manera.
 
@@ -557,11 +557,11 @@ Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las L�
 
     Imagen 57. Checklist Ganador Seleccionado
 
-Crear Orden de Compra 
-=====================
+**Crear Orden de Compra**
+=========================
 
-Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
-**********************************************************************
+**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**
+**************************************************************************
 
 #. Ubique en la ventana "**Solicitud para Cotización**" el registro del "**Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas**" y seleccione la opción "**Crear Orden de Compra**", ubicada en el icono "**Proceso**" de la barra de herramientas de ADempiere.
 
@@ -585,8 +585,8 @@ Caso 1: Solicitud para Cotización por Tipo Cotiza Líneas Seleccionadas
 
     Imagen 61. Orden de Compra del Socio del Negocio Proveedor Estándar 2.
 
-Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total
-*******************************************************************************
+**Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Total**
+***********************************************************************************
 
 #. Realice el procedimiento regular para generar una "**Orden de Compra**" explicado anteriormente. 
 
@@ -594,8 +594,8 @@ Caso 2: Solicitud para Cotización (Con Respuesta) por Tipo Cotiza Sólo el Tota
 
     Imagen 62. Registro de Orden de Compra del Caso 2
 
-Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas
-**********************************************************************************
+**Caso 3: Solicitud para Cotización (Con Respuesta) por Tipo Cótiza todas las Líneas**
+**************************************************************************************
 
 #. Realice el procedimiento regular para generar una "**Orden de Compra**" explicado anteriormente. 
 

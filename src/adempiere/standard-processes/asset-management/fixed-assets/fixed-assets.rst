@@ -24,8 +24,8 @@
 
 .. _documento/activo-fijo:
 
-Ventana Grupo de Activos Fijos
-------------------------------
+**Ventana Grupo de Activos Fijos**
+----------------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Activos**", luego seleccione la ventana "**Grupo de Activo Fijo**". 
 
@@ -39,8 +39,8 @@ Ventana Grupo de Activos Fijos
 
         Imagen 2. Ventana Principal Grupo de Activo
 
-Registro Nuevo de Grupo de Activo
----------------------------------
+**Registro Nuevo de Grupo de Activo**
+-------------------------------------
 
 #. Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere.
 
@@ -84,8 +84,8 @@ Registro Nuevo de Grupo de Activo
 
     Imagen 9. Icono Guardar Cambios
 
-Pestaña Grupo Cuenta
-********************
+**Pestaña Grupo Cuenta**
+************************
 
 #. Seleccione la pestaña "**Grupo Cuenta**" y proceda al llenado de los campos correspondientes.
 

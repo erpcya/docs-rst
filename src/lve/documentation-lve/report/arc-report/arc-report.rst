@@ -8,8 +8,8 @@
 
 .. _documento/reporte-arc:
 
-Generar Reporte ARC
-===================
+**Generar Reporte ARC**
+=======================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Localización Venezuela**", luego seleccione el proceso "**ARC**".
 

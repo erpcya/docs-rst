@@ -1,8 +1,8 @@
 .. |Ventana Resumen de Facturas 1| image:: resources/vent1.png
 
-==================================================================================
-Generar Reporte de Ventas Brutas desde el Proceso Resumen de Facturas de ADempiere
-==================================================================================
+======================================================================================
+**Generar Reporte de Ventas Brutas desde el Proceso Resumen de Facturas de ADempiere**
+======================================================================================
 
 ADempiere contiene diversas funcionalidades que ayudan a la compañía en cuanto al fujo de trabajo de las diferentes organizaciones, entre ellas se encuentran los procesos que permiten generar reportes según lo requerido por la organización. 
 
