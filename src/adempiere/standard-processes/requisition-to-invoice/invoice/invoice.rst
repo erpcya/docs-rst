@@ -1,9 +1,9 @@
 .. _documento/documento-por-pagar:
 
 **Crear Documentos por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-#. Ubique en el menú de ADempiere la ventana "**Documentos por Pagar**", adjunto imagen para referencia.
+#. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**", adjunto imagen para referencia.
 
    .. documento/documento-por-pagar-01
    
@@ -13,7 +13,7 @@
 
       Imagen 1. Menú de ADempiere
 
-#. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas.
+#. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas de ADempiere, para crear un documento nuevo.
 
    .. documento/documento-por-pagar-02
    
@@ -23,7 +23,7 @@
 
       Imagen 2. Registro Nuevo
 
-   #. Seleccione la organización en el campo "**Organización**".
+   #. Seleccione en el campo "**Organización**", la organización para la cual se esta realizando el documento por pagar de productos o servicios, el valor en el mismo debe ser diferente del símbolo (*).
 
       .. documento/documento-por-pagar-03
       
@@ -33,7 +33,7 @@
 
          Imagen 3. Campo Organización
 
-   #. Seleccione el tipo de documento destino en el campo "**Tipo de Documento Destino**".
+   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`_ elaborado por la empresa ERPyA.
    
       .. documento/documento-por-pagar-04
       
@@ -43,7 +43,7 @@
 
          Imagen 4. Campo Tipo de Documento
 
-   #. Introduzca el número del documento en el campo "**No. de Documento**".
+   #. Introduzca el número del documento en el campo "**No. de Documento**", el mismo no es obligatorio ya que ADempiere genera un número de secuencia automáticamente al ser guardado el registro del documento.
 
       .. documento/documento-por-pagar-05
       
@@ -53,7 +53,7 @@
 
          Imagen 5. Campo Número de Documento
 
-   #. Seleccione la fecha de la facturación en el campo "**Fecha Facturación**".
+   #. Seleccione en el campo "**Fecha Facturación**", la fecha que posee el documento por pagar en físico.
 
       .. documento/documento-por-pagar-06
       
@@ -63,7 +63,7 @@
 
          Imagen 6. Campo Fecha Facturación
 
-   #. Seleccione la fecha contable en el campo "**Fecha Contable**".
+   #. Seleccione en el campo "**Fecha Contable**", la fecha en la cual se esta realizando el documento por pagar en ADempiere.
 
       .. documento/documento-por-pagar-07
       
@@ -73,7 +73,7 @@
 
          Imagen 7. Campo Fecha Contable
 
-   #. Seleccione el socio del negocio en el campo "**Socio del Negocio**".
+   #. Seleccione el socio del negocio proveedor en el campo "**Socio del Negocio**".
 
       .. documento/documento-por-pagar-08
       
@@ -93,7 +93,7 @@
 
          Imagen 9. Campo Dirección del Socio del Negocio
 
-#. Seleccione el icono "**Guardar**" de la barra de herramientas para guardar los cambios realizados.
+#. Seleccione el icono "**Guardar**" de la barra de herramientas de ADempiere, para guardar los cambios realizados. 
 
    .. documento/documento-por-pagar-10
    
@@ -113,7 +113,7 @@
 
       Imagen 11. Línea de Factura
 
-   #. Seleccione el producto en el campo "**Producto**".
+   #. Seleccione en el campo "**Producto**", el producto o servicio comprado.
 
       .. documento/documento-por-pagar-12
       
@@ -123,7 +123,7 @@
 
          Imagen 12. Campo Producto
 
-   #. Seleccione la cantidad de productos en el campo "**Cantidad**".
+   #. Seleccione en el campo "**Cantidad**", la cantidad comprada del producto seleccionado.
 
       .. documento/documento-por-pagar-13
       
@@ -133,7 +133,7 @@
 
          Imagen 13. Campo Cantidad
 
-   #. Seleccione la unidad de medida en el campo "**UM**".
+   #. Seleccione en el campo "**UM**", la unidad de medida del producto seleccionado.
 
       .. documento/documento-por-pagar-14
       
@@ -143,7 +143,7 @@
 
          Imagen 14. Campo UM
 
-   #. Introduzca el precio del producto en el campo "**Precio**".
+   #. Introduzca en el campo "**Precio**", el precio unitario del producto.
 
       .. documento/documento-por-pagar-15
       
@@ -153,7 +153,7 @@
 
          Imagen 15. Campo Precio
 
-   #. Seleccione el impuesto del documento en el campo "**Impuesto**".
+   #. Seleccione en el campo "**Impuesto**", el impuesto a aplicar al documento.
 
       .. documento/documento-por-pagar-16
       
@@ -173,7 +173,7 @@
 
       Imagen 17. Guardar Cambios
 
-#. Regrese a la ventana principal "**Factura**" y seleccione la opción "**Completar**" ubicado en la parte inferior del documento.
+#. Regrese a la ventana principal "**Factura**" y seleccione la opción "**Completar**" ubicada en la parte inferior derecha del documento por pagar.
 
    .. documento/documento-por-pagar-18
    
