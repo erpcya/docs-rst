@@ -4,191 +4,23 @@
 **Formatos de Importación de Nóminas**
 ======================================
 
-ADempiere contempla diferentes formatos de importación para las nóminas que son utilizadas por el mismo, estos formatos se encuentran agrupados según la nómina a la que pertenecen, los mismos se encuentran agrupados por:
+ADempiere requiere diferentes formatos de importación para ejecutar sus nóminas, dichos formatos se agrupan según la nómina a la que pertenecen:
 
-- Nómina Anticipo de Prestaciones Sociales
-- Nómina Anticipo de Vacaciones
-- Nómina de Utilidades
-- Nómina de Vacaciones
 - Nóminas Regulares.
-
-**Nómina Anticipo de Prestaciones Sociales**
-============================================
-
-ERPyA requiere los siguientes formatos de importación de "**Nómina Anticipo de Prestaciones Sociales**".
-
-**Anticipo de Prestaciones Sociales**
--------------------------------------
-
-Corresponde al monto otorgado a cada empleado por concepto de anticipo de sus prestaciones sociales.
-
-Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
-
-- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a la "**Nómina de Anticipo de Prestaciones Sociales (NAPS)**".
-- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
-    - **V**: Venezolano
-    - **E**: Extranjero
-
-    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
-        - **V10000000**
-
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
-- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios), solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
-
-**Formato de Importación**
-**************************
-
-El formato para la importación de la nómina de anticipo de prestaciones sociales es el siguiente:
-
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|NAPS              |          |AS_APS            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NAPS              |          |AS_APS            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NAPS              |          |AS_APS            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NAPS              |          |AS_APS            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+  
-
-**Nómina Anticipo de Vacaciones**
-=================================
-
-ERPyA requiere los siguientes formatos de importación de "**Nómina Anticipo de Vacaciones**".
-
-**Días Anticipo de Vacaciones**
--------------------------------
-
-Representa los días otorgados a los empleados por concepto de anticipo de sus vacaciones.
-
-Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
-
-- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a la "**Nómina de Anticipo de Vacaciones (NAV)**".
-- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
-    - **V**: Venezolano
-    - **E**: Extranjero
-
-    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
-        - **V10000000**
-        
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
-- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
-
-**Formato de Importación**
-**************************
-
-El formato para la importación de la nómina de anticipo de vacaciones es el siguiente:
-
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|NAV               |          |CR_DAV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NAV               |          |CR_DAV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NAV               |          |CR_DAV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NAV               |          |CR_DAV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-
-**Nómina de Utilidades**
-========================
-
-ERPyA requiere los siguientes formatos de importación de "**Nómina de Utilidades**".
-
-**Fecha de Utilidades Anteriores**
-----------------------------------
-
-Representa a la última fecha de utilidades anteriores de los empleados.
-
-Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
-
-- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a la "**Nómina de Utilidades (NU)**".
-- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
-    - **V**: Venezolano
-    - **E**: Extranjero
-
-    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
-        - **V10000000**
-        
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
-- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
-
-**Formato de Importación**
-**************************
-
-El formato para la importación de la nómina de utilidades es el siguiente:
-
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|NU                |          |CR_FUA            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NU                |          |CR_FUA            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NU                |          |CR_FUA            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NU                |          |CR_FUA            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-
-**Nómina de Vacaciones**
-========================
-
-**Fecha de Vacaciones Anteriores**
-----------------------------------
-
-Representa a la última fecha de inicio de vacaciones de los empleados.
-
-Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
-
-- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a la "**Nómina de Vacaciones (NV)**".
-- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
-    - **V**: Venezolano
-    - **E**: Extranjero
-
-    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
-        - **V10000000**
-        
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
-- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
-
-**Formato de Importación**
-**************************
-
-El formato para la importación de la nómina de vacaciones es el siguiente:
-
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|NV                |          |IN_FIV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NV                |          |IN_FIV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NV                |          |IN_FIV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NV                |          |IN_FIV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+- Nómina de Vacaciones
+- Nómina de Utilidades
+- Nómina Anticipo de Vacaciones
+- Nómina Anticipo de Prestaciones Sociales
 
 **Nóminas Regulares**
 =====================
 
+ERPyA requiere los siguientes formatos de importación de "**Nóminas Regulares**".
+
 **Acumulado Días Trabajados en el Año**
 ---------------------------------------
 
-Representa la cantidad de días que lleva acumulados el empleado, desde el inicio de su periodo anual, o en su defecto desde la fecha de ingreso del empleado. Este concepto será almacenado con la finalidad de que sea utilizado para el cálculo del promedio de salario utilidades. 
+Representa la cantidad de días que lleva acumulados el empleado, desde el inicio de su periodo anual, siendo este el inicio de los días que acumula para las utilidades, o en su defecto desde la fecha de ingreso del empleado. Este concepto será almacenado con la finalidad de que sea utilizado para el cálculo del promedio de salario utilidades. 
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
@@ -199,6 +31,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -209,8 +42,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 **Formato de Importación**
 **************************
@@ -243,6 +76,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -253,8 +87,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 **Formato de Importación**
 **************************
@@ -287,6 +121,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -297,8 +132,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 **Formato de Importación**
 **************************
@@ -331,6 +166,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -341,8 +177,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 **Formato de Importación**
 **************************
@@ -375,6 +211,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -385,8 +222,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 **Formato de Importación**
 **************************
@@ -419,6 +256,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -429,8 +267,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 **Formato de Importación**
 **************************
@@ -463,6 +301,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -473,8 +312,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 **Formato de Importación**
 **************************
@@ -507,6 +346,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -517,8 +357,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 **Formato de Importación**
 **************************
@@ -551,6 +391,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -561,8 +402,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 **Formato de Importación**
 **************************
@@ -584,7 +425,7 @@ El formato para la importación de las nóminas semanal, quincenal, mensual, sem
 **Acumulado Utilidades**
 ------------------------
 
-Representa el monto acumulado para el cálculo de las utilidades de cada empleado, desde el inicio de su periodo anual, o en su defecto desde la fecha de ingreso del empleado. Este concepto será almacenado con la finalidad de que sea utilizado para el cálculo del promedio de salario utilidades. 
+Representa el monto acumulado para el cálculo de las utilidades de cada empleado, desde el inicio de su periodo anual, siendo este el inicio de los días que acumula para las utilidades, o en su defecto desde la fecha de ingreso del empleado. Este concepto será almacenado con la finalidad de que sea utilizado para el cálculo del promedio de salario utilidades. 
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
@@ -595,6 +436,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -605,8 +447,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 **Formato de Importación**
 **************************
@@ -639,6 +481,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -649,8 +492,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 * Si el empleado posee más de tres (3) meses trabajando en la empresa debe cargar el valor de los días hábiles laborados durante el periodo de nómina a partir de los tres (3) meses anteriores (nómina por nómina debe cargar cuántos días laboró), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.
 
@@ -687,6 +530,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -697,8 +541,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 **Formato de Importación**
 **************************
@@ -731,6 +575,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -741,8 +586,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 **Formato de Importación**
 **************************
@@ -775,6 +620,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -785,8 +631,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 * Debe registrar el valor de la provisión durante los doce (12) meses anteriores del empleado (nómina por nómina).
 
@@ -821,6 +667,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -831,8 +678,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 * Debe registrar el valor de la provisión durante los tres (3) meses anteriores del empleado (nómina por nómina)
 
@@ -867,6 +714,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -877,8 +725,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 * Si el empleado posee más de seis (6) meses trabajando en la empresa debe cargar el valor del salario integral a partir de los seis (6) meses anteriores (nómina por nómina debe cargar cual fué su salario integral), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.
 
@@ -917,6 +765,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -927,8 +776,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 * Si el empleado posee más de tres (3) meses trabajando en la empresa debe cargar el valor del salario normal a partir de los tres (3) meses anteriores (nómina por nómina debe cargar cual fué su salario normal), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.
 
@@ -967,6 +816,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NSM**: Nómina Semanal Mixta
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
     - **E**: Extranjero
@@ -977,8 +827,8 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 - **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
 - **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar una coma (,) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera dd/mm/yyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
 * Por ser un Promedio se necesitan los siguientes valores
     * Si el empleado posee más de un (1) año trabajando en la empresa debe cargar el valor del salario normal mensual a partir de los doce (12) meses anteriores (mes por mes debe llenar una hoja de cálculo con estos datos), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.
@@ -1000,3 +850,179 @@ El formato para la importación de las nóminas semanal, quincenal, mensual, sem
 +------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
 |                  |          |CR_SNM            |            |        |     |                 |                |           |
 +------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+
+**Nómina de Vacaciones**
+========================
+
+ERPyA requiere el siguiente formato de importación de "**Nómina Anticipo de Prestaciones Sociales**".
+
+**Fecha de Vacaciones Anteriores**
+----------------------------------
+
+Representa a la última fecha de inicio de vacaciones de los empleados.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, para este caso utilizaremos la "**Nómina de Vacaciones (NV)**" para todos los empleados.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+        
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de vacaciones es el siguiente:
+
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
++==================+==========+==================+============+========+=====+=================+================+===========+
+|NV                |          |IN_FIV            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NV                |          |IN_FIV            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NV                |          |IN_FIV            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NV                |          |IN_FIV            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+
+**Nómina de Utilidades**
+========================
+
+ERPyA requiere el siguiente formato de importación de "**Nómina de Utilidades**".
+
+**Fecha de Utilidades Anteriores**
+----------------------------------
+
+Representa a la última fecha de utilidades anteriores de los empleados.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, para este caso utilizaremos la "**Nómina de Utilidades (NU)**" para todos los empleados.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+        
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de utilidades es el siguiente:
+
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
++==================+==========+==================+============+========+=====+=================+================+===========+
+|NU                |          |CR_FUA            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NU                |          |CR_FUA            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NU                |          |CR_FUA            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NU                |          |CR_FUA            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+
+**Nómina Anticipo de Vacaciones**
+=================================
+
+ERPyA requiere el siguiente formato de importación de "**Nómina Anticipo de Vacaciones**".
+
+**Días Anticipo de Vacaciones**
+-------------------------------
+
+Representa los días otorgados a los empleados por concepto de anticipo de sus vacaciones.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, para este caso utilizaremos la "**Nómina de Anticipo de Vacaciones (NAV)**" para todos los empleados.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+        
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de anticipo de vacaciones es el siguiente:
+
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
++==================+==========+==================+============+========+=====+=================+================+===========+
+|NAV               |          |CR_DAV            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NAV               |          |CR_DAV            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NAV               |          |CR_DAV            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NAV               |          |CR_DAV            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+
+**Nómina Anticipo de Prestaciones Sociales**
+============================================
+
+ERPyA requiere el siguiente formato de importación de "**Nómina Anticipo de Prestaciones Sociales**".
+
+**Anticipo de Prestaciones Sociales**
+-------------------------------------
+
+Corresponde al monto otorgado a cada empleado por concepto de anticipo de sus prestaciones sociales.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, para este caso utilizaremos la "**Nómina de Anticipo de Prestaciones Sociales (NAPS)**" para todos los empleados.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios), solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de anticipo de prestaciones sociales es el siguiente:
+
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
++==================+==========+==================+============+========+=====+=================+================+===========+
+|NAPS              |          |AS_APS            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NAPS              |          |AS_APS            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NAPS              |          |AS_APS            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
+|NAPS              |          |AS_APS            |            |        |     |                 |                |           |
++------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+  
