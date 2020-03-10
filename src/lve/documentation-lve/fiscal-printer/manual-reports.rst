@@ -1,7 +1,7 @@
 .. _documento/generar-reporte:
 
-Generar Reportes Manualmente en la impresora
-============================================
+**Generar Reportes Manualmente en la impresora**
+================================================
 
     .. documento/generar-reporte-01
 
