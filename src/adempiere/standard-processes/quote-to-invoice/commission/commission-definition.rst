@@ -25,8 +25,8 @@
 
 .. _documento/definicion-comisiones:
 
-Definición de Comisiones
-========================
+**Definición de Comisiones**
+============================
 
 Una comisión es un porcentaje o cantidad de dinero que es cobrado por la venta de productos o servicios, las mismas estan sujetas a reglas o condiciones establecidas por la empresa a los vendedores. Las comisiones son pagadas a los vendedores para motivarlos a vender más productos o servicios.
 
@@ -36,8 +36,8 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 
 Para explicar el procedimiento detalladamente, se presentará un ejemplo en el cual se definen dos (2) comisiones, comisiones internas y externas, donde las internas se refiere a las comisiones para los trabajadores que laboran dentro de la empresa y externas a las comisiones para los trabajadores que laboran fuera de la empresa. El ejemplo contempla diferentes montos de comisión y apuntando a un mismo grupo de comisión (1000000_Comisión de Venta_M). A continuación es mostrado el procedimiento de la definición de comisiones de vendedores internos de la empresa, debe realizarce el mismo procedimiento para la definición de comisiones de vendedores externos.
 
-Pestaña Comisión
-****************
+**Pestaña Comisión**
+********************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Reglas de Ventas y Mercadotecnia**", por último seleccione la ventana "**Definición de Comisiones**".
 
@@ -146,8 +146,8 @@ Pestaña Comisión
 
     Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de ADempiere.
 
-Pestaña Línea de Comisión
-*************************
+**Pestaña Línea de Comisión**
+*****************************
 
 #. Seleccione la pestaña "**Línea de Comisión**" y proceda al llenado de los campos correspondientes.
 
@@ -201,8 +201,8 @@ Pestaña Línea de Comisión
 
     Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de ADempiere.
 
-Pestaña Representantes de Ventas
-********************************
+**Pestaña Representantes de Ventas**
+************************************
 
 #. Seleccione la pestaña "**Representantes de Ventas**" y proceda al llenado de los campos correspondientes.
 

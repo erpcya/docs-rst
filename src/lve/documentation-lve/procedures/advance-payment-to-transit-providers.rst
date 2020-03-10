@@ -30,8 +30,8 @@
 
 .. _documento/anticipo-a-proveedores-en-transito:
 
-Anticipo a Proveedores en Tránsito
-==================================
+**Anticipo a Proveedores en Tránsito**
+======================================
 
 Un anticipo a proveedor es el pago de una parte o un porcentaje del monto total de una compra o venta, realizado por adelantado. El mismo tiene la finalidad de asegurar los productos o servicios que el comprador requiere y por los cuales el vendedor amerita un anticipo para cubrir diferentes gastos.
 
@@ -39,8 +39,8 @@ En ADempiere es posible reflejar los anticipos realizados a proveedores en trán
 
 .. _paso/transferencia-anticipo-transito:
 
-Transferencia Bancaria
-----------------------
+**Transferencia Bancaria**
+--------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
 
@@ -124,8 +124,8 @@ Transferencia Bancaria
 
 .. _paso/cierre-caja-anticipo-transito:
 
-Cierre de Caja
-**************
+**Cierre de Caja**
+******************
 
 El cierre de caja es realizado para indicar a ADempiere que al socio del negocio "**Proveedor Estándar**", se le realizó una transferencia bancaria como anticipo a su caja "**Proveedores en Tránsito - --_00000**", por el monto de "**200.001.332,00**".
 
@@ -143,8 +143,8 @@ El cierre de caja es realizado para indicar a ADempiere que al socio del negocio
 
 .. _paso/carga-factura-anticipo-transito:
 
-Carga de Facturas
------------------
+**Carga de Facturas**
+---------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
@@ -177,8 +177,8 @@ Carga de Facturas
 
 .. _paso/solicitud-pago-anticipo-transito:
 
-Solicitud de Pago
------------------
+**Solicitud de Pago**
+---------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", por último seleccione la ventana "**Selección de Pago**".
 
@@ -258,13 +258,13 @@ Solicitud de Pago
 
 .. _paso/cancelacion-factura-anticipo-transito:
 
-Cancelación de Factura
-----------------------
+**Cancelación de Factura**
+--------------------------
 
 .. _paso/imprimir-exportar-anticipo-transito:
 
-Imprimir/Exportar Pagos
-***********************
+**Imprimir/Exportar Pagos**
+***************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", por último seleccione la ventana "**Imprimir/Exportar Pagos**".
 
@@ -345,8 +345,8 @@ Imprimir/Exportar Pagos
 
 .. _paso/cierre-caja-anticipo-transito:
 
-Cierre de Caja
-**************
+**Cierre de Caja**
+******************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 

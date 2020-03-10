@@ -1,6 +1,6 @@
-====================================
-Generar Reporte de ARCV en ADempiere
-====================================
+========================================
+**Generar Reporte de ARCV en ADempiere**
+========================================
 
 ADempiere posee diferentes funcionalidades que le permiten a las organizaciones, ejecutar procesos necesarios para completar su flujo de trabajo. Entre dichas funcionalidades se encuentra el proceso para generar los reportes de nómina de los empleados.
 

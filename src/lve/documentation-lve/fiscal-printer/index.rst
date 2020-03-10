@@ -2,9 +2,9 @@
 .. _lve/documentation-lve/fiscal-printer:
 
 
-================
-Impresora Fiscal
-================
+====================
+**Impresora Fiscal**
+====================
 
 Comprende todo lo relacionado con la emisión de documentos a través de un dispositivo fiscal (Impresora), el mismo puede conectarse a ADempiere por medio de un controlador desarrollado por `E.R.P. Consultores y Asociados, C.A. <http://erpya.com>`__
 

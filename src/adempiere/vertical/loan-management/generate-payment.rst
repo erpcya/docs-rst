@@ -21,8 +21,8 @@
 
 .. _documento/generar-pagos:
 
-Generar Pagos de Préstamo
-=========================
+**Generar Pagos de Préstamo**
+=============================
 
 Una vez generada la selección de pago, podrá generar los pagos de los préstamos (Desembolso), el pago generado como se explicó anteriormente, hereda el cargo seleccionado en la definición del producto financiero **(Vea Configuración de Producto Financiero (Préstamo))**.
 
@@ -70,8 +70,8 @@ A Continuación ADempiere habrá generado el pago y usted verá el siguiente rep
 
  Imagen 7. Reporte de Impresión de Pago
 
-Consulta de Pagos de Préstamo
-=============================
+**Consulta de Pagos de Préstamo**
+=================================
 
 Existen dos posibles formas de consultar los pagos generados asociadas a un préstamo, a continuación serán explicadas.
 
@@ -158,8 +158,8 @@ Seleccione la opción “**Pagos de Préstamos**”
 
 Esta opción lo llevará automáticamente a los pagos asociados a este préstamo.
 
-Contabilidad del Proceso
-========================
+**Contabilidad del Proceso**
+============================
 
 ADempiere contabilizará el préstamo dependiendo de la contabilidad configurada en el cargo heredado desde la definición del producto financiero (**Vea Configuración de Producto Financiero (Préstamo)**) .
 
