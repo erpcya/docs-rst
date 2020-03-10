@@ -11,5 +11,5 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
     :maxdepth: 2
     :numbered:
 
-    automatic-conciliations/index
     payment-selection-cxp/index
+    automatic-conciliations/index
