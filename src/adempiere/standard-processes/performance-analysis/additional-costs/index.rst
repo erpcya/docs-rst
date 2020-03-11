@@ -1,5 +1,6 @@
 .. _src/adempiere/standard-processes/performance-analysis/additional-costs:
 
+
 ======================
 **Costos Adicionales**
 ======================

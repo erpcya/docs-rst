@@ -224,7 +224,7 @@ El cierre de caja es realizado para indicar a ADempiere que al socio del negocio
 
 #. Seleccione el proceso "**Crear Desde Factura**", para crear la solicitud de pago desde el documento por pagar.
 
-    |Crear Desde Factura|
+    |Crear Desde Factura 1|
 
     Imagen 14. Proceso Crear Desde Factura
 
@@ -343,7 +343,7 @@ El cierre de caja es realizado para indicar a ADempiere que al socio del negocio
                 +--------------+------------------------------------------------------------+----------------------+-----------------------+
 
 
-.. _paso/cierre-caja-anticipo-transito:
+.. _paso/cierre-caja-final-anticipo-transito:
 
 **Cierre de Caja**
 ******************
