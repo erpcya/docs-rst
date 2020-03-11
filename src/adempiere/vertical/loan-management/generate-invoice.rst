@@ -187,7 +187,7 @@ A continuación se desplegará el siguiente dialogo
 
  Imagen 17. Lista de Referencias
 
-Seleccione la opción “**Documento por Cobrar de Cuota **”
+Seleccione la opción “**Documento por Cobrar de Cuota**”
 
  |Lista de Referencias Seleccionadas|
 

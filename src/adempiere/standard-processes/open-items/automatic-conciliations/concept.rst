@@ -203,9 +203,9 @@
       #. Podrá apreciar en la parte inferior derecha del documento, la cantidad de movimientos cargados a la pestaña "**Línea Estado Cuentas**".
 
             .. figure:: resources/numerolinea.png
-            :alt: Pestaña Línea Estado Cuentas
+               :alt: Pestaña Línea Estado Cuentas
 
-            Imagen 26. Pestaña Línea Estado Cuentas
+               Imagen 26. Pestaña Línea Estado Cuentas
 
 .. note::
 
