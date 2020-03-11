@@ -117,7 +117,7 @@ Esta pestaña le indica a ADempiere si el socio del negocio que se esta registra
         
                   - Los datos principales del socio del negocio donde los campos "**Compañía**", "**Organización**", "**Código**" y "**Nombre**", vienen cargados de la ventana principal "**Socio del Negocio**". 
         
-                  - Ademas posee un grupo de campos que definen la configuración de retenciones a aplicar al socio del negocio, dichos campos se encuentran explicados en los documentos `Retenciones IVA <>`_, `Retenciones ISLR <>`_ y `Retenciones Municipales <>`_.
+                  - Ademas posee un grupo de campos que definen la configuración de retenciones a aplicar al socio del negocio, dichos campos se encuentran explicados en los documentos :ref:`documento/retención-iva`, :ref:`documento/retención-islr` y :ref:`documento/retención-municipal`.
 
 #. Seleccione el checklist "**Proveedor**" para habilitar en ADempiere el socio del negocio como proveedor de la compañía u organización. 
 

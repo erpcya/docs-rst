@@ -77,7 +77,7 @@
       Imagen 9. Factura Generada desde la Orden de Salida
 
 **Generar Factura desde Orden de Salida Consolidado en un Documento**
---------------------------------------------------------------------
+---------------------------------------------------------------------
 
 #. Realice el procedimiento regular explicado anteriormente en :ref:`documento/generar-factura-orden-salida`, luego de seleccionar las órdenes de salida por las cuales será generada la factura, tilde el checklist "**Consolidado en un Documento**" y la opción "**OK**" para generar las facturas por socios del negocio asociados a las órdenes de ventas seleccionadas.
 
