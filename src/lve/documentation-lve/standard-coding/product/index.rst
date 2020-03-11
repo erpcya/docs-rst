@@ -9,6 +9,5 @@ Se ha definido la codificación para categoría, grupo y producto bajo criterios
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     product-coding

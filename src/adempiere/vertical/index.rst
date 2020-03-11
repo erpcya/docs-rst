@@ -9,6 +9,5 @@ Las verticales son vertientes del core de ADempiere para un negocio específico 
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     loan-management/index

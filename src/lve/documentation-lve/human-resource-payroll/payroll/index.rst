@@ -12,7 +12,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     payroll-import-format
     bonus-cancellation-with-intermediary

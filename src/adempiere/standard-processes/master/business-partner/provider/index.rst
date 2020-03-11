@@ -15,6 +15,5 @@ De igual manera, un proveedor externo puede ser un proveedor internacional, este
 
 .. toctree::
     :maxdepth: 3
-    :numbered:
 
     partner-provider

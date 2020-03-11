@@ -12,6 +12,5 @@ En el caso de que el checklist no se encuentre tildado, el proceso "**Generar Fa
 
 .. toctree::
     :maxdepth: 1
-    :numbered:
 
     generate-invoice-from-departure-order

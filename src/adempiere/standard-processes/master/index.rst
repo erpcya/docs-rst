@@ -10,6 +10,5 @@ La versión 3.9.2 de ADempiere en la localización Venezuela, contempla la docum
 
 .. toctree::
     :maxdepth: 1
-    :numbered:
 
     business-partner/index

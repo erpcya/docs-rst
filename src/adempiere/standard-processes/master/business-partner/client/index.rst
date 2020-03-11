@@ -13,6 +13,5 @@ Un cliente puede presentarse bajo tres condiciones, el cliente que compra el pro
 
 .. toctree::
     :maxdepth: 3
-    :numbered:
 
     client

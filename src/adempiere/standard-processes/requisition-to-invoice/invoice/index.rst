@@ -12,6 +12,5 @@ En ADempiere es posible generar una factura de cuentas por pagar de forma direct
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     invoice

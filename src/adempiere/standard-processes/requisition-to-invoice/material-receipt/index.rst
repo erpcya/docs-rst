@@ -14,6 +14,5 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     receipt
