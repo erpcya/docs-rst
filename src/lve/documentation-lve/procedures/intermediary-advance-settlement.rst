@@ -18,7 +18,7 @@
 .. |Cierre de Caja| image:: resources/cierrecaja.png
 .. |Pestaña Línea de Cierre de Caja| image:: resources/linea4.png
 .. |Icono Informe| image:: resources/cierrecaja2.png
-.. |Reporte de Balance| image:: resources/resporte.png
+.. |Reporte de Balance| image:: resources/reporte.png
 
 .. _documento/liquidación-anticipo-intermeiario:
 
