@@ -46,7 +46,7 @@
 .. _documento/caja-cobranza:
 
 **Caja**
-========
+--------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
 
@@ -123,7 +123,7 @@
 .. _paso/cierre-caja-cobranza:
 
 **Cierre de Caja**
-==================
+------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
@@ -211,7 +211,7 @@
 .. _paso/depósito-caja-cobranza:
 
 **Deposito de Caja**
-====================
+--------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Depósito de Caja**".
 
@@ -316,7 +316,7 @@
 .. _paso/consulta-egreso-caja-cobranza:
 
 **Consultar Documento de Egreso Generado**
-------------------------------------------
+******************************************
 
 #. Al consultar del documento de egreso generado en la ventana "**Caja**", con ayuda del número de documento generado en la parte inferior izquierda de la ventana de búsqueda inteligente "**Depósito de Caja**", se puede visualizar el registro de la siguiente manera.
 
@@ -327,7 +327,7 @@
 .. _paso/consulta-cobro-caja-cobranza:
 
 **Consultar Documento de Cobro Generado**
------------------------------------------
+*****************************************
 
 #. Al consultar del documento de cobro generado en la ventana "**Pago/Cobro**", con ayuda del número de documento generado en la parte inferior izquierda de la ventana de búsqueda inteligente "**Depósito de Caja**", se puede visualizar el registro de la siguiente manera.
 
@@ -338,7 +338,7 @@
 .. _paso/cierre-caja-administrativo-cobranza:
 
 **Cierre de Caja (Administrativo)**
-===================================
+-----------------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
@@ -385,6 +385,6 @@
             Imagen 47. Acción Completar
 
 **Cobros sin Identificar**
-==========================
+--------------------------
 
 Para identificar los cobros sin registros en ADempiere, se debe realizar el procedimiento explicado en el proceso :ref:`paso/cobros-sin-registros` del documento "**Conciliaciones Automáticas**".

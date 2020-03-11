@@ -14,5 +14,6 @@ A continuación se explica detalladamente el procedimiento que se debe realizar 
 
 .. toctree::
     :maxdepth: 2
+    :numbered:
 
     collection-cash
