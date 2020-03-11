@@ -162,8 +162,8 @@
 
 .. _documento/socio-empleado:
 
-Proceso de Registro del Socio del Negocio Empleado
---------------------------------------------------
+**Proceso de Registro del Socio del Negocio Empleado**
+------------------------------------------------------
 
 #. En el menú de ADempiere, ubique y seleccione la carpeta "**Gestión de Recursos Humanos y Nómina**", luego seleccione la carpeta "**Recursos Humanos**", por último seleccione la carpeta "**Configuración de Empleado**" y la ventana "**Empleado (Todos)**".
 
@@ -171,8 +171,8 @@ Proceso de Registro del Socio del Negocio Empleado
     
     Imagen 1. Menú de ADempiere
 
-Ventana Principal Empleado
---------------------------
+**Ventana Principal Empleado**
+------------------------------
 
 En la ventana "**Empleado (Todos)**", se registran todos los datos personales y laborales que la empresa requiere del socio del negocio empleado, los mismos son utilizados y actualizados a lo largo de su período laboral en dicha empresa. La información del empleado desde el momento en el que inicia su período laboral, hasta el momento actual o el momento en el que termina, se encuentra distribuida en la ventana principal "**Empleado**" y sus (11) once pestañas, explicadas a continuación. 
 
@@ -340,8 +340,8 @@ En la ventana "**Empleado (Todos)**", se registran todos los datos personales y 
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos). 
 
-Pestaña Información de Contrato
-*******************************
+**Pestaña Información de Contrato**
+***********************************
 
 La información ingresada en esta pestaña puede variar al momento de la elaboración del contrato, dependiendo de la situación en la que se encuentre el socio del negocio que esta registrando. Un mismo socio del negocio puede tener un "**Estado Marital**" en un contrato y otro en su siguiente contrato, lo mismo sucede con cada uno de los grupos de campos que contiene la pestaña "**Información de Contrato**".
 
@@ -639,8 +639,8 @@ La información ingresada en esta pestaña puede variar al momento de la elabora
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos). 
 
-Pestaña Atributo de Empleado
-****************************
+**Pestaña Atributo de Empleado**
+********************************
 
 En una empresa los empleados presentan atributos diferentes, los mismos son definidas en la pestaña "**Atributo de Empleado**" para que sean aplicados a la nómina al momento de la ejecución. Los valores de algunos factores de la nómina varían según el socio del negocio empleado, dichos valores son utilizados para aplicar algún concepto de asignación o deducción a la nómina del mismo.
 
@@ -712,8 +712,9 @@ En una empresa los empleados presentan atributos diferentes, los mismos son defi
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos). 
 
-Pestaña Días Libres de la Semana
-********************************
+
+**Pestaña Días Libres de la Semana**
+************************************
 
 Según lo establecido en el artículo 173 de la LOTTT, una jornada de trabajo no excederá de cinco días a la semana y el trabajador o trabajadora tendrá derecho a dos días de descanso, continuos y remunerados durante cada semana de labor.
 
@@ -741,8 +742,9 @@ En la pestaña "**Días Libres de la Semana**" se deben seleccionar los checklis
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos). 
 
-Pestaña Detalle de Pago
-***********************
+
+**Pestaña Detalle de Pago**
+***************************
 
 La pestaña "**Detalle de Pago**", muestra de forma resumida la información de pago seleccionada para el socio del negocio empleado que esta registrando. Cualquier modificación que se realice en los campos de esta pestaña modificará el valor de esos campos en la pestaña "**Información de Contrato**" y viceversa. 
 
@@ -782,8 +784,9 @@ La pestaña "**Detalle de Pago**", muestra de forma resumida la información de 
     
     Imagen 87. Pestaña Información de Contrato 
 
-Pestaña Cuenta Bancaria
-***********************
+
+**Pestaña Cuenta Bancaria**
+***************************
 
 En esta pestaña se registran los datos bancarios del socio del negocio empleado, esta información es necesaria para cancelar al empleado las remuneraciones correspondientes por los servicios prestados a la empresa.
 
@@ -849,8 +852,9 @@ En esta pestaña se registran los datos bancarios del socio del negocio empleado
 
     Si el empleado posee otra cuenta bancaria para registrar, seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere en la pestaña "**Cuenta Bancaria**" y proceda al llenado de los campos explicados anteriormente.
 
-Pestaña Experiencia Laboral
-***************************
+
+**Pestaña Experiencia Laboral**
+*******************************
 
 La experiencia laboral de las personas forman su hoja de vida laboral, en cada empresa la persona adquiere conocimientos referente al entorno que las rodea y las actividades que en la misma se realizan. En la pestaña "**Experiencia Laboral**", se registran las diferentes experiencias laborales que ha tenido el socio del negocio empleado que esta registrando.
 
@@ -906,8 +910,9 @@ La experiencia laboral de las personas forman su hoja de vida laboral, en cada e
     
     Si el empleado posee otras referencias laborales para registrar, seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere en la pestaña "**Experiencia Laboral**" y proceda al llenado de los campos explicados anteriormente.
 
-Pestaña Educación
-*****************
+
+**Pestaña Educación**
+*********************
 
 La ley órganica de educación en su artículo 4 de educación y cultura, establece la educación como derecho humano y deber social fundamental orientada al desarrollo del potencial creativo de cada ser humano en condiciones históricamente determinadas, constituye el eje central en la creación, transmisión y reproducción de las diversas manifestaciones y valores culturales, invenciones, expresiones, representaciones y características propias para apreciar, asumir y transformar la realidad.
 
@@ -959,8 +964,9 @@ El Estado asume la educación como proceso esencial para promover, fortalecer y 
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos). 
 
-Pestaña Dependientes
-********************
+
+**Pestaña Dependientes**
+************************
 
 En esta pestaña se registran los datos de cada uno de los familiares que dependen o no del socio del negocio empleado que esta registrando, esta información es utilizada por la empresa para asuntos de seguros, actividades recreativas y sociales, becas, donaciones, pagos, entre otros motivos.
 
@@ -1054,8 +1060,9 @@ En esta pestaña se registran los datos de cada uno de los familiares que depend
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos). 
 
-Pestaña Localización
-********************
+
+**Pestaña Localización**
+************************
 
 La localización de un socio del negocio es muy importante para una empresa por diferentes motivos. Si el socio del negocio es un empleado de la misma, se deben registrar con exactitud los datos de la dirección por alguna situación fuera de control como una emergencia o otro suceso capaz de afectar el funcionamiento cotidiano de la empresa, así como también, el rendimiento del empleado en la misma.
 
@@ -1151,8 +1158,9 @@ La localización de un socio del negocio es muy importante para una empresa por 
                 
     Si el empleado posee otra dirección de localización para registrar, seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere en la pestaña "**Localización**" y proceda al llenado de los campos explicados anteriormente.
 
-Pestaña Detalle de Seguro
-*************************
+
+**Pestaña Detalle de Seguro**
+*****************************
 
 En esta pestaña se registra toda la información del socio del negocio empleado, con respecto a los diferentes seguros que pueda tener. En la misma se detallan los montos de cobertura, el saldo disponible del seguro y otros detalles de igual importancia. 
 
@@ -1256,8 +1264,9 @@ En esta pestaña se registra toda la información del socio del negocio empleado
 
     Si el empleado posee otro seguro para registrar, seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere en la pestaña "**Detalle de Seguro**" y proceda al llenado de los campos explicados anteriormente.
 
-Pestaña Detalle de Permiso
-**************************
+
+**Pestaña Detalle de Permiso**
+******************************
 
 En esta pestaña se registran los diferentes permisos solicitados por el socio del negocio empleado, así como las suspenciones del mismo. En cada registro de permiso o suspención se detallan los días exactos para cada uno.
 
@@ -1307,6 +1316,6 @@ En esta pestaña se registran los diferentes permisos solicitados por el socio d
     
     Imagen 160. Icono Guardar Cambios
 
-!!! note "**NOTA:**"
+.. note::
         
     Este procedimiento realizado aplica solo para los **Socios del Negocio** que cumplan el rol de **Empleado** en una compañía.

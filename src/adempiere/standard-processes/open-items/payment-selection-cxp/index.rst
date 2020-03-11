@@ -1,8 +1,8 @@
 .. _src/adempiere/standard-processes/open-items/payment-selection:
 
-======================================
-Selección de Pago de Cuentas por Pagar
-======================================
+==========================================
+**Selección de Pago de Cuentas por Pagar**
+==========================================
 
 Este documento permite seleccionar los documentos por pagar que posea la empresa, agrupándolos para luego ser pagados todos o algunos de ellos, dependiendo de la cantidad de pagos que sean autorizados.
 

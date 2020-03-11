@@ -18,12 +18,12 @@
 .. |Cierre de Caja| image:: resources/cierrecaja.png
 .. |Pestaña Línea de Cierre de Caja| image:: resources/linea4.png
 .. |Icono Informe| image:: resources/cierrecaja2.png
-.. |Reporte de Balance| image:: resources/resporte.png
+.. |Reporte de Balance| image:: resources/reporte.png
 
 .. _documento/liquidación-anticipo-intermeiario:
 
-Liquidación Anticipo Intermediario
-==================================
+**Liquidación Anticipo Intermediario**
+======================================
 
 Posterior a la concesión del anticipo, será justificado el anticipo relacionando los gastos (Facturas) es entonces cuando se procede a liquidar los anticipos concedidos al gestor de importación.
 
@@ -37,8 +37,8 @@ La operación de anticipos a terceros está compuesta por cinco fases u operacio
 
 .. _paso/carga-anticipo:
 
-Carga de Anticipo
-*****************
+**Carga de Anticipo**
+*********************
 
 La transferencia representa un proceso en el cual se generan los pagos por concepto de anticipos al gestor(s), el mismo requiere conocimientos básicos en el proceso actual de tesorería en ADempiere. 
 
@@ -123,8 +123,8 @@ Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, 
 
 .. _paso/carga-factura-cxp:
 
-Carga de Factura de Cuentas por Pagar
-*************************************
+**Carga de Factura de Cuentas por Pagar**
+*****************************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
@@ -178,8 +178,8 @@ Carga de Factura de Cuentas por Pagar
 
 .. _paso/cancelación-cruce-anticipo-cuentas:
 
-Cancelación ó Cruce de Anticipo con Cuentas por Pagar
-*****************************************************
+**Cancelación ó Cruce de Anticipo con Cuentas por Pagar**
+*********************************************************
 
 La caja a definir funge en el procedimiento de anticipos a terceros como un puente para el registro y pago de los anticipos a proveedores intermediarios en el proceso de importación y para la posterior liquidación de las facturas entregadas en la relación de gastos o costos de nacionalización y cierre de los anticipos.
 
@@ -205,7 +205,7 @@ En la siguiente ventana de "**Caja**" se realizan todos los pagos de las factura
 
         |Campo Cuenta Bancaria 1|
 
-        Imagen 12. Campon Cuenta Bancaria
+        Imagen 12. Campo Cuenta Bancaria
         
     #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Pago Nacional**".
 
@@ -277,8 +277,8 @@ Tesorería ejecuta el proceso de "**Imprimir/Exportar**" llamando la solicitud d
 
 .. _paso/conciliación-liquidación:
 
-Conciliación de Liquidación
-***************************
+**Conciliación de Liquidación**
+*******************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 

@@ -2,9 +2,9 @@
 .. _src/adempiere/standard-processes/requisition-to-invoice/request-for-quotation:
 
 
-===================================
-Solicitud de Cotización a Proveedor
-===================================
+=======================================
+**Solicitud de Cotización a Proveedor**
+=======================================
 
 Una solicitud de cotización a proveedor es una requisición de productos o servicios enviada a los socios del negocio proveedores, la misma tiene como requerimiento principal la definición del tema correspondiente a la solicitud de cotización que se realiza. 
 

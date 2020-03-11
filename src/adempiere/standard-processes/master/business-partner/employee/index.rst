@@ -1,9 +1,10 @@
 
 .. _standard-processes/master/business-partner/employee:
 
-===========================
-Socio del Negocio Empleado
-===========================
+
+==============================
+**Socio del Negocio Empleado**
+==============================
 
 Un socio del negocio empleado es aquella persona que presta sus servicios como trabajador en una determinada empresa u organización, desempeñando un cargo y recibiendo un salario a cambio de sus servicios. En Venezuela los empleados de una organización se encuentra respaldados por la LOTTT, la forma de pago y condiciones de trabajo es acordada por ambas partes de acuerdo a lo establecido en dicha ley.
 

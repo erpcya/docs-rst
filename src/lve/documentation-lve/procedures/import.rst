@@ -37,8 +37,8 @@
 
 .. _documento/importación:
 
-Importación
-===========
+**Importación**
+===============
 
 La importación consiste en ingresar al país los productos comprados procedentes de una empresa que se encuentra fuera del territorio nacional. Dicha importación tiene como consecuencia para la empresa nacional la generación de gastos aduanales, sujetos al pago de tributos o al amparo de las franquicias correspondientes.
 
@@ -47,8 +47,8 @@ El presente material elaborado por ERPyA, pretende ofrecerle una explicación ef
 
 .. _paso/crear-orden-importación:
  
-Crear Orden de Compra de Importación
-************************************
+**Crear Orden de Compra de Importación**
+****************************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Órdenes de Compra**".
 
@@ -69,8 +69,8 @@ Crear Orden de Compra de Importación
 
 .. _paso/crear-conversión:
 
-Crear Tipo de Conversión
-************************
+**Crear Tipo de Conversión**
+****************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Reglas Contables**", por último seleccione la ventana "**Tipo de Conversión**".
 
@@ -97,8 +97,8 @@ Crear Tipo de Conversión
 
 .. _paso/crear-tasa:
 
-Crear Tasa de Conversión
-************************
+**Crear Tasa de Conversión**
+****************************
 
 La tasa de conversión se crea unicamente cuando se conoce el monto, el mismo se extrae de la planilla que emite la aduana.
 
@@ -167,8 +167,8 @@ La tasa de conversión se crea unicamente cuando se conoce el monto, el mismo se
 
 .. _paso/asignar-conversión-orden:
 
-Asignar Tipo de Conversión a Orden de Compra de Importación
-***********************************************************
+**Asignar Tipo de Conversión a Orden de Compra de Importación**
+***************************************************************
 
 #. Regrese a la ventana "**Órdenes de Compra**" y ubique la orden de compra que se encuentra en estado "**Borrador**", creada anteriormente.
 
@@ -207,8 +207,8 @@ Asignar Tipo de Conversión a Orden de Compra de Importación
 
 .. _paso/crear-factura-importación:
 
-Crear Documento por Pagar
-*************************
+**Crear Documento por Pagar**
+*****************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
 
@@ -224,8 +224,8 @@ Crear Documento por Pagar
 
 .. _paso/crear-caja-importación:
 
-Cancelación de Factura
-**********************
+**Cancelación de Factura**
+**************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
 
@@ -239,7 +239,7 @@ Cancelación de Factura
 
         Imagen 23. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`Tipo de Documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Pago Internacional**".
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Pago Internacional**".
 
         |Campo Tipo de Documento|
 
@@ -275,8 +275,8 @@ Cancelación de Factura
 
 .. _paso/cierre-caja-importación:
 
-Conciliación de Pagos
-*********************
+**Conciliación de Pagos**
+*************************
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
@@ -296,7 +296,7 @@ Conciliación de Pagos
 
         Imagen 31. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`Tipo de Documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Cierre de Caja**".
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Cierre de Caja**".
 
         |Campo Tipo de Documento 2|
 

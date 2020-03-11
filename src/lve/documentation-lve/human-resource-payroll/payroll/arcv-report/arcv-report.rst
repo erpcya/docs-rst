@@ -7,8 +7,8 @@
 
 .. _documento/reporte-arcv:
 
-Generar Reporte ARCV
-====================
+**Generar Reporte ARCV**
+========================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Recursos Humanos y Nómina**", luego seleccione la carpeta "**Nómina**", después seleccione la carpeta "**Reporte de Nómina**", por último seleccione la ventana "**Reporte de Nómina**".
 

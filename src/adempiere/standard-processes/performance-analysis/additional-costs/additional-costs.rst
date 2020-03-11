@@ -13,8 +13,8 @@
 
 .. _documento/costos-adicionales:
 
-Documentos por Pagar
-====================
+**Documentos por Pagar**
+========================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
@@ -116,8 +116,9 @@ Documentos por Pagar
         
         Imagen 10. Opción Completar
 
-Consultar Costos Adicionales
-============================
+
+**Consultar Costos Adicionales**
+================================
 
 #. Ubique en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Gestión de Costos**", por último seleccione el reporte "**Detalle Costo del Producto**".  
 
