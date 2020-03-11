@@ -17,4 +17,3 @@ A continuación se explica detalladamente el procedimiento que se debe realizar 
     :numbered:
 
     collection-cash
-    
