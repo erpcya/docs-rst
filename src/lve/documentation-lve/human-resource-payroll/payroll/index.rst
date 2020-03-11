@@ -16,5 +16,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
 
     payroll-import-format
     bonus-cancellation-with-intermediary
+    loans-to-employees/index
     arcv-report/index
     
