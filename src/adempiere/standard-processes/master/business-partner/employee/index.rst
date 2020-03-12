@@ -1,7 +1,6 @@
 
 .. _standard-processes/master/business-partner/employee:
 
-
 ==============================
 **Socio del Negocio Empleado**
 ==============================
