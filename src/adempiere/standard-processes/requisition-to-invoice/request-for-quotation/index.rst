@@ -14,6 +14,5 @@ En ADempiere es posible generar una solicitud de cotización a partir de una req
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     request-for-quotation

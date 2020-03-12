@@ -10,6 +10,5 @@ El presente material elaborado por ERPyA pretende explicar de forma detallada la
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     openproject

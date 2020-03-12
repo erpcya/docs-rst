@@ -14,7 +14,6 @@ Una conciliación automática es un proceso que se realiza con la finalidad de g
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     concept
     conciliation

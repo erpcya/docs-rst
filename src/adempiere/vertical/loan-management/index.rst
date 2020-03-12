@@ -8,7 +8,6 @@ El préstamo en ADempiere pueden ser generados de dos formas, en la definición 
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     loan-requirements
     loan-running
