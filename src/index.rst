@@ -23,9 +23,9 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     lve/human-resource-payroll/index
     lve/standard-coding/index
     lve/fiscal-printer/index
-    lve/report/index
     lve/adempiere-documents/index
     lve/procedures/index
+    lve/report/index
 
 .. toctree::
     :caption: PROCEDIMIENTOS DE ADEMPIERE
@@ -42,6 +42,3 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/withholding-management/index
     adempiere/asset-management/index
     adempiere/material-management/index
-
-
-

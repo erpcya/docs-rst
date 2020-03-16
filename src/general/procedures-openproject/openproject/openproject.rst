@@ -8,9 +8,7 @@
 .. |Interfaz del Proyecto| image:: resources/interfaz.png
 .. |Paquete de Trabajo| image:: resources/paquete.png
 
-
 .. _documento/openproject:
-
 
 **Inicio de Sesión**
 --------------------

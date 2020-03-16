@@ -25,7 +25,7 @@
 
          Imagen 3. Campo Organización
 
-#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por la empresa ERPyA.
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA.
 
       .. figure:: resources/tipodoc.png
          :alt: Campo Tipo de Documento Destino
@@ -203,9 +203,9 @@
       #. Podrá apreciar en la parte inferior derecha del documento, la cantidad de movimientos cargados a la pestaña "**Línea Estado Cuentas**".
 
             .. figure:: resources/numerolinea.png
-            :alt: Pestaña Línea Estado Cuentas
+               :alt: Pestaña Línea Estado Cuentas
 
-            Imagen 26. Pestaña Línea Estado Cuentas
+               Imagen 26. Pestaña Línea Estado Cuentas
 
 .. note::
 

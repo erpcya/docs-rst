@@ -7,6 +7,8 @@ El proceso "**Crear pagos desde Estado de Cuenta**" es realizado por consecuenci
 
 El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la creación de pagos y cobros sin registros en ADempiere, partiendo desde el registro de pagos / cobros existentes en el extracto bancario importado, obteniendo un resultado exitoso al momento de conciliación de cuentas en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
+.. _paso/cobros-sin-registros:
+
 **Pagos/Cobros sin registros en ADempiere**
 -------------------------------------------
 

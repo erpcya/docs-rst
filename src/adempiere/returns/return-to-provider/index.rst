@@ -12,6 +12,5 @@ A continuación se especifican los pasos a seguir para generar en ADempiere una 
 
 .. toctree::
     :maxdepth: 1
-    :numbered:
 
     return-to-provider

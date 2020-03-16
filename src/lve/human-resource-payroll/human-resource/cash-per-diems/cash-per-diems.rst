@@ -132,7 +132,7 @@
 
          Campo Organización
 
-   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`tipo-documento` elaborado por la empresa ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Cierre de Caja Viáticos**".
+   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Cierre de Caja Viáticos**".
 
       .. figure:: resources/tipodoc1.png
          :alt: Campo Tipo de Documento
@@ -223,7 +223,7 @@
 
             Campo Organización
 
-      #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`__ elaborado por la empresa ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Solicitud de Pagos de Cuentas por Pagar**".
+      #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Solicitud de Pagos de Cuentas por Pagar**".
 
          .. figure:: resources/tipodoc2.png
             :alt: Campo Tipo de Documento
@@ -338,7 +338,7 @@
 
             Campo Organización
 
-      #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`__ elaborado por la empresa ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Selección de Pagos de Cuentas por Pagar**".
+      #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Selección de Pagos de Cuentas por Pagar**".
 
          .. figure:: resources/tipodoc3.png
             :alt: Campo Tipo de Documento
@@ -634,7 +634,7 @@
 
          Campo Organización
 
-   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento `Tipo de Documento <>`__ elaborado por la empresa ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Cierre de Caja Viáticos**".
+   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Cierre de Caja Viáticos**".
 
       .. figure:: resources/tipodoc1.png
          :alt: Campo Tipo de Documento

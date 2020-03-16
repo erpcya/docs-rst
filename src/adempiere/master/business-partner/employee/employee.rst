@@ -1308,5 +1308,5 @@ En esta pestaña se registran los diferentes permisos solicitados por el socio d
     Imagen 160. Icono Guardar Cambios
 
 .. note::
-
+        
     Este procedimiento realizado aplica solo para los **Socios del Negocio** que cumplan el rol de **Empleado** en una compañía.
