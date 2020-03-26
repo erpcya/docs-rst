@@ -1,18 +1,18 @@
-.. |Menú de ADempiere| image:: resources/
-.. |Ventana Reporte de Nómina| image:: resources/
-.. |Campo Organización| image:: resources/
-.. |Campo Contrato de Nómina| image:: resources/
-.. |Campo Nómina del Empleado| image:: resources/
-.. |Campo Proceso Nómina| image:: resources/
-.. |Campo Departamento Nómina| image:: resources/
-.. |Campo Puesto Nómina| image:: resources/
-.. |Campo Estado del Empleado| image:: resources/
-.. |Campo Socio del Negocio| image:: resources/
-.. |Campo Fecha Contable| image:: resources/
-.. |Campo Estado del Documento| image:: resources/
-.. |Campo Configuración del Reporte de Nómina| image:: resources/
-.. |Opción OK para generar el reporte| image:: resources/
-.. |Reporte de Nómina| image:: resources/
+.. |Menú de ADempiere| image:: resources/menu-reporte-nomina.png
+.. |Ventana Reporte de Nómina| image:: resources/vent-reporte-nomina.png
+.. |Campo Organización| image:: resources/campo-organizacion.png
+.. |Campo Contrato de Nómina| image:: resources/campo-contrato-nomina.png
+.. |Campo Nómina del Empleado| image:: resources/campo-nomina-empleado.png
+.. |Campo Proceso Nómina| image:: resources/campo-proceso-nomina.png
+.. |Campo Departamento Nómina| image:: resources/campo-depart-nomina.png
+.. |Campo Puesto Nómina| image:: resources/campo-puesto-nomina.png
+.. |Campo Estado del Empleado| image:: resources/campo-estado-empleado.png
+.. |Campo Socio del Negocio| image:: resources/campo-socio-negocio.png
+.. |Campo Fecha Contable| image:: resources/campo-fecha.png
+.. |Campo Estado del Documento| image:: resources/campo-estado-documento.png
+.. |Campo Configuración del Reporte de Nómina| image:: resources/conf-reporte-nomina.png
+.. |Opción OK para generar el reporte| image:: resources/opcion-ok.png
+.. |Reporte de Nómina| image:: resources/reporte-nomina.png
 
 .. _documento/reporte-de-nómina:
 
@@ -105,13 +105,13 @@
 
     Imagen 13. Campo Configuración del Reporte de Nómina
 
-#. Seleccionar la opción "**OK**" para finalmente generar el reporte de nómina en base a los seleccionado en los diferentes campos que contiene la ventana "**Reporte de Nómina**".
+#. Seleccionar la opción "**OK**", ubicada en la parte inferior derecha de la ventana para finalmente generar el reporte de nómina en base a lo seleccionado en los diferentes campos que contiene dicha ventana "**Reporte de Nómina**".
 
     |Opción OK para generar el reporte|
 
     Imagen 14. Opción Ok para Generar el Reporte
 
-#. El reporte puede ser visualizado de la siguiente manera según lo indicado en los campos anteriormente explicados.
+#. El reporte puede ser visualizado de la siguiente manera según lo seleccionado en los campos anteriormente explicados.
 
     |Reporte de Nómina|
 
