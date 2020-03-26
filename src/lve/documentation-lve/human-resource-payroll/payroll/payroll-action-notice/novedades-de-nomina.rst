@@ -1,17 +1,17 @@
-.. |Menú de ADempiere| image:: resources/
-.. |Campo Proceso de Nómina| image:: resources/
-.. |Campo Socio del Negocio| image:: resources/
-.. |Campo Fecha| image:: resources/
-.. |Campo Conceptos de Tipo Incidencias| image:: resources/
-.. |Campo Descripción| image:: resources/
-.. |Opción OK| image:: resources/
+.. |Menú de ADempiere| image:: resources/menu.png
+.. |Campo Proceso de Nómina| image:: resources/campo-proceso-nomina.png
+.. |Campo Socio del Negocio| image:: resources/campo-socio-del-negocio.png
+.. |Campo Fecha| image:: resources/campo-fecha.png
+.. |Campo Conceptos de Tipo Incidencias| image:: resources/campo-concepto-nomina.png
+.. |Campo Descripción| image:: resources/campo-descripcion.png
+.. |Opción OK| image:: resources/opcion-ok.png
 
 .. _documento/novedades-de-nómina:
 
 **Cargar Incidencias**
 ======================
 
-#. Seleccione en el menú de ADempiere, la carpeta "**Gestión de Recursos Humanos**", luego seleccione la carptea "**Nómina**", por último seleccione la ventana "**Novedades de Nómina**".
+#. Seleccione en el menú de ADempiere, la carpeta "**Gestión de Recursos Humanos y Nómina**", luego seleccione la carptea "**Nómina**", por último seleccione la ventana "**Novedades de Nómina**".
 
     |Menú de ADempiere|
 
