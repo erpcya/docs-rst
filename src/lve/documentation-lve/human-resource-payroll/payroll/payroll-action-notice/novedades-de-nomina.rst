@@ -17,7 +17,7 @@
 
     Imagen 1. Menú de ADempiere
 
-#. Seleccione en el campo "**Proceso Nómina**", el proceso de nómina realizado previamente. Dicho proceso se encuentra explicado en el documento :ref:`documento/procesar-nómina` elaborado por ERPyA.
+#. Seleccione en el campo "**Proceso Nómina**", el proceso de nómina realizado previamente. Dicho proceso se encuentra explicado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por ERPyA.
 
     |Campo Proceso de Nómina|
 
