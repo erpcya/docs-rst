@@ -17,5 +17,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
     bonus-cancellation-with-intermediary
     loans-to-employees/index
     arcv-report/index
-    payroll-report
+    payroll-report/index
     

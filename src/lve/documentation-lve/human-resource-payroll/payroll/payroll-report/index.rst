@@ -7,4 +7,4 @@ El presente material elaborado por ERPyA pretende ofrecerle una explicación efi
 .. toctree::
     :maxdepth: 3
 
-    payroll-report
+    payroll-process-report
