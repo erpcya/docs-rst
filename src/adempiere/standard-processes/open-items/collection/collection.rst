@@ -22,7 +22,7 @@
 **Procedimiento para Realizar un Cobro en ADempiere**
 ====================================================
 
-Para ejemplificar el procedimiento de generar un cobro en ADempiere, es utilizada la factura por cobrar "**1000099**".
+Para ejemplificar el procedimiento de generar un cobro en ADempiere, es utilizada la factura por cobrar "**88**".
 
     |Factura a Cobrar|
 
