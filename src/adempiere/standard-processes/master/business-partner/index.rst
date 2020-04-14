@@ -4,11 +4,14 @@
 **Socios del Negocio de ADempiere**
 ===================================
 
-Esta documentación está destinada a definir cada uno de los socios del negocio de ADempiere para las organizaciones, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
+El socio del negocio generalmente es un sujeto jurídico o natural con el que la organización establece una alianza temporal o permanente a fin de obtener un beneficio común.
 
-Las funcionalidades de ADempiere le permite a sus organizaciones mantener una buena relación con los socios del negocio. 
+En ADempiere no es la excepción, en este sentido, es un participante obligatorio en una transacción administrativa, este puede actuar como cliente, proveedor y empleado, es decir, no existe una transacción de egreso(Compras) o ingreso (Ventas) sin la previa definición del proveedor o cliente (Socio del Negocio), no existe una nómina sin un empleado (Socio del Negocio), en otras palabras, es obligatorio la previa configuración de esta entidad en ADempiere para emitir transacciones administrativas y contables.
 
-El socio del negocio puede ser cualquier persona, este puede tener tres (3) condiciones ya que puede ser proveedor, cliente o empleado. La versión 3.9.2 de ADempiere en la localización Venezuela, contempla los siguiente documentos de socios del negocio.
+Este registro tiene un rol determinante en los asientos contables generados en ADempiere, desempeñándose como una de las dimensiones contables más relevantes, permitiendo agrupar la información de forma eficiente para facilitar el control de aquello que deseamos cuantificar,por tal motivo, la correcta definición determinará los resultados en los asientos y reportes contables de los que disponen nuestros clientes, cabe considerar, que estos valores son heredados de forma predeterminada desde el grupo de Socio de Negocio seleccionado en este registro, no obstante, el usuario tiene la opción de modificar la configuración contable para casos excepcionales.
+
+En esta ocasión ERPyA pretende ofrecerle una guía fácil para la definición básica de un socio de negocio en ADempiere, dentro de este orden de ideas, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
+
 
 .. toctree::
     :maxdepth: 1
@@ -16,4 +19,4 @@ El socio del negocio puede ser cualquier persona, este puede tener tres (3) cond
 
     provider/index
     employee/index
-    client/index
+    customer/index
