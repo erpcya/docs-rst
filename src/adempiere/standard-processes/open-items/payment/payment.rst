@@ -23,7 +23,7 @@
 **Procedimiento para Realizar un Pago en ADempiere**
 ====================================================
 
-Para **ejemplificar** el procedimiento de generar un pago en ADempiere, es utilizada la factura por pagar "**1000099**".
+Para **ejemplificar**  el procedimiento de generar un pago en ADempiere, es utilizada la factura por pagar "**1000099**".
 
     |Factura a Pagar|
 
