@@ -14,7 +14,10 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
     :maxdepth: 2
 
     payroll-import-format
+    procesar-nomina
+    procedure-to-process-payroll
     payroll-action-notice/index
+    master
     bonus-cancellation-with-intermediary
     loans-to-employees/index
     arcv-report/index
