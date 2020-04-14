@@ -23,7 +23,7 @@
 **Procedimiento para Realizar un Pago en ADempiere**
 ====================================================
 
-Para ejemplificar el procedimiento de generar un pago en ADempiere, es utilizada la factura por pagar "**1000099**".
+Para **ejemplificar** el procedimiento de generar un pago en ADempiere, es utilizada la factura por pagar "**1000099**".
 
     |Factura a Pagar|
 
@@ -47,7 +47,7 @@ Para ejemplificar el procedimiento de generar un pago en ADempiere, es utilizada
 
     Imagen 4. Campo Organización
 
-#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. 
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA.
 
     |Campo Tipo de Documento|
 
@@ -65,7 +65,7 @@ Para ejemplificar el procedimiento de generar un pago en ADempiere, es utilizada
 
     Imagen 7. Campo Descripción
 
-#. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor al cual le será realizado el pago. 
+#. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor al cual le será realizado el pago.
 
     |Campo Socio del Negocio Proveedor|
 
@@ -89,7 +89,7 @@ Para ejemplificar el procedimiento de generar un pago en ADempiere, es utilizada
 
     Imagen 11. Campo Total del Pago
 
-#. Seleccione en el campo "**Moneda**", la moneda correspondiente al pago que se esta realizando. 
+#. Seleccione en el campo "**Moneda**", la moneda correspondiente al pago que se esta realizando.
 
     |Campo Moneda|
 
