@@ -12,3 +12,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
     cash-refund/index
     cash-per-diems/index
     collection-cash/index
+    cash-closing/index
