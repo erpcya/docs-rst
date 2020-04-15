@@ -1,4 +1,5 @@
-.. _src/adempiere/standard-processes/master/business-partner:
+.. _src/adempiere/standard-processes/master/business-partner
+.. _ERPyA: http://erpya.com
 
 ===================================
 **Socios del Negocio de ADempiere**
@@ -10,7 +11,7 @@ En ADempiere no es la excepción, en este sentido, es un participante obligatori
 
 Este registro tiene un rol determinante en los asientos contables generados en ADempiere, desempeñándose como una de las dimensiones contables más relevantes, permitiendo agrupar la información de forma eficiente para facilitar el control de aquello que deseamos cuantificar,por tal motivo, la correcta definición determinará los resultados en los asientos y reportes contables de los que disponen nuestros clientes, cabe considerar, que estos valores son heredados de forma predeterminada desde el grupo de Socio de Negocio seleccionado en este registro, no obstante, el usuario tiene la opción de modificar la configuración contable para casos excepcionales.
 
-En esta ocasión ERPyA pretende ofrecerle una guía fácil para la definición básica de un socio de negocio en ADempiere, dentro de este orden de ideas, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
+En esta ocasión `ERPyA`_ pretende ofrecerle una guía fácil para la definición básica de un socio de negocio en ADempiere, dentro de este orden de ideas, es importante seguir paso a paso cada procedimiento, de ello dependerá el éxito de los registros resultantes.
 
 
 .. toctree::
