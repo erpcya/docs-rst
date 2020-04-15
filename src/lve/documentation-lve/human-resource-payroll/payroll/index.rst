@@ -22,4 +22,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
     loans-to-employees/index
     arcv-report/index
     payroll-report/index
-    
+    procedure-to-process-payroll/index
