@@ -8,18 +8,36 @@ La misma será actualizada periódicamente en función de las nuevas versiones d
 
 Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de esta herramienta.
 
-**Tabla de Contenido**
-======================
+.. toctree::
+    :caption: E.R.P. CONSULTORES Y ASOCIADOS, C.A.
+    :maxdepth: 2
+    :numbered:
+
+    general/procedures-openproject/index
 
 .. toctree::
+    :caption: LOCALIZACIÓN DE ADEMPIERE (VENEZUELA)
     :maxdepth: 2
+    :numbered:
 
-    general/procedures/index
-    lve/index
-    adempiere/index
+    lve/human-resource-payroll/index
+    lve/standard-coding/index
+    lve/fiscal-printer/index
+    lve/procedures/index
+    lve/report/index
 
-**Para Mayor Información**
-==========================
+.. toctree::
+    :caption: PROCEDIMIENTOS DE ADEMPIERE
+    :maxdepth: 2
+    :numbered:
 
--  Nuestra página oficial es: http://erpya.com
--  Si desea reportar un error o una mejora puede hacerlo en: https://github.com/erpcya/docs/issues
+    adempiere/vertical/index
+    adempiere/master/index
+    adempiere/quote-to-invoice/index
+    adempiere/requisition-to-invoice/index
+    adempiere/open-items/index
+    adempiere/perfomance-analysis/index
+    adempiere/returns/index
+    adempiere/withholding-management/index
+    adempiere/asset-management/index
+    adempiere/material-management/index
