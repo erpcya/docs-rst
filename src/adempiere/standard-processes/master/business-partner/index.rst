@@ -1,6 +1,7 @@
 .. _src/adempiere/standard-processes/master/business-partner
 .. _ERPyA: http://erpya.com
 
+
 ===================================
 **Socios del Negocio de ADempiere**
 ===================================
