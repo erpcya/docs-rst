@@ -23,7 +23,6 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     lve/human-resource-payroll/index
     lve/standard-coding/index
     lve/fiscal-printer/index
-    lve/adempiere-documents/index
     lve/procedures/index
     lve/report/index
 
