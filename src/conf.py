@@ -17,11 +17,10 @@
 # sys.path.insert(0, os.path.abspath('.'))
 
 
-
 # -- Project information -----------------------------------------------------
 
-project = 'ERPYA'
-copyright = '2020, ADempiere ERP'
+project = 'docs'
+copyright = '2019, ADempiere ERP'
 author = 'E.R.P. Consultores y Asociados, C.A.'
 
 # The short X.Y version
@@ -32,12 +31,6 @@ release = '3.9.2'
 # Html logo in drawer.
 # Fit in the drawer at the width of image is 240 px.
 html_logo = 'static/ERP_Logo.png'
-
-html_title = " ".join([project, version, "Documentation"])
-
-templates_path = ["../templates"]
-
-html_additional_pages = {"download": "pages/download.html", "index": "pages/index.html"}
 
 # -- General configuration ---------------------------------------------------
 
@@ -75,8 +68,6 @@ language = None
 # This pattern also affects html_static_path and html_extra_path .
 exclude_patterns = []
 
-#extensions = ['rst2pdf.pdfbuilder']
-#  pdf_documents = [('index', 'rst2pdf', 'Sample rst2pdf doc', 'Your Name')]
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
@@ -86,7 +77,7 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#html_theme = 'theme.css'
+#html_theme = 'sphinx_materialdesign_theme'
 #html_theme_path = ['/usr/local/lib/python2.7/site-packages']
 
 
@@ -120,7 +111,7 @@ pygments_style = 'sphinx'
 # relative to this directory. They are copied after the builtin static files,
 # so a file named "default.css" will overwrite the builtin "default.css".
 #html_static_path = ['_staticstatic']
-html_static_path = ['static']
+
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.
 #
@@ -189,9 +180,3 @@ texinfo_documents = [
      author, 'DocsErpya', 'One line description of project.',
      'Miscellaneous'),
 ]
-
-html_css_files = [
-    'css/style.css',
-]
-def setup(app):
-    app.add_stylesheet("css/style.css")
