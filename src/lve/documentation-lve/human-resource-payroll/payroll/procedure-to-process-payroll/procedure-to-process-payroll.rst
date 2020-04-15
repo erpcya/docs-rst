@@ -14,6 +14,8 @@
 
 .. _documento/procedimiento-para-procesar-nómina:
 
+
+==================
 **Proceso Nómina**
 ==================
 
@@ -35,7 +37,7 @@
 
     Imagen 3. Campo Organización
 
-#. Introduzca en el campo "**Nombre**", el nombre de la nómina que se requiere procesar con su respectivo rango de tiempo (desde/hasta). 
+#. Introduzca en el campo "**Nombre**", el nombre de la nómina que se requiere procesar con su respectivo rango de tiempo (desde/hasta).
 
     |Campo Nombre|
 
@@ -85,7 +87,7 @@
 
     Imagen 10. Campo Tipo de Conversión
 
-#. Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos de la ventana "**Proceso Nómina**". 
+#. Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos de la ventana "**Proceso Nómina**".
 
 
     |Selección de Icono Guardar|
