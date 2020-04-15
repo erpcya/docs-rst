@@ -12,4 +12,5 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
 
     payment-selection-cxp/index
     payment/index
+    recover/index
     automatic-conciliations/index
