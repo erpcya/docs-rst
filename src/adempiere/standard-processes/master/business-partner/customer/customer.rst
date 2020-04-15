@@ -123,44 +123,6 @@
 
 .. _documento/socio-cliente:
 
-===================================
-**Socio de Negocio Cliente**
-===================================
-
-Si es usted un usuario en etapa de iniciación le recomendamos leer el capitulo anterior, Socios del Negocio de ADempiere, donde respondimos la interrogante común: **¿Qué es un Socio de Negocio?**, esto con la intención de proveer en este material una información más digerible.
-
-Como resultado de lo anteriormente expuesto, se puede concluir que un socio de negocio que actua como cliente, es una entidad juridica o natural que adquiere productos o servicios provenientes de la empresa,estos pueden ser:
-
-**Clientes Nacionales:** Realizan transacciones que generan ingresos a la empresa (Ventas) dentro del territorio.
-
-**Clientes Internacionales:** Realizan transacciones que generan ingresos a la empresa(Ventas) fuera del territorio, esto se conoce como exportación.
-
-Esta categorización en ADempiere es conocida como **Grupo de Socio de Negocio** y es la base contable (en su mayoría) para las operaciones emitidas a partir de este registro maestro, no obstante, el usuario tiene la opción de realizar configuraciones excepcionales para ciertos clientes.
-
-Ahora bien, si es usted usuario de ADempiere, seguramente se ha hecho preguntas que le han complicado la operatividad de algún modo. Para facilitar su día a día `ERPyA`_ quiere responder algunas preguntas frecuentes con las que nos topamos en nuestra experiencia como consulteres e implementadores de ADempiere:
-
-**¿Si un socio de negocio es proveedor o empleado, y ahora va a fugir como cliente, debo crearlo nuevamente?**
-
-**¿Si la categoría es por ejemplo Cliente Nacional, como actua contablemente siendo proveedor?**
-
-**¿Cómo agrupo por vendedor a mis clientes para emitir un reporte?**
-
-**¿Que columnas configuradas en el cliente es información transferida a la orden de venta?**
-
-**¿Cómo configuro un descuento para el cliente?**
-
-**¿Cómo configuro la morosidad en ADempiere?**
-
-**¿Cómo bloqueo el Limite de crédito para el cliente?**
-
-**¿Cómo configuro un cliente excento de impuesto?**
-
-Para concluir el preámbulo, le invitamos a tomar en cuenta cada una de estas acotaciones, de seguro serán de utilidad, y a futuro le garantizará un eficiente manejo de una herramienta tan potente como lo es ADempiere.
-
-
-
-
-
 
 **Proceso de Registro del Socio del Negocio**
 ---------------------------------------------
