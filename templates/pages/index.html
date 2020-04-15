@@ -1,0 +1,161 @@
+{% extends "layout.html" %}
+{% set title = _('Documentación de E.R.P. Consultores y Asociados, C.A.') %}
+{% block body %}
+  <h1>ADempiere<sup>&reg;</sup> {{ release|e }} Documentación</h1>
+<p>
+    {% block description %}{{ _('Esta documentación está dirigida a los clientes de <a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a>con la finalidad de guiar al usuario en la ejecución de sus actividades diarias sobre ADempiere ERP.') }}<br />
+    <br />
+    {{ _('La misma será actualizada periódicamente en función de las nuevas versiones de ADempiere.') }}<br />
+    <br />
+    {{ _('Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de esta herramienta') }}{% endblock %}.
+</p>
+
+{% block tables %}
+<h2>Herramienta Open Project</h2>
+<table class="contentstable" align="center">
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("general/procedures-openproject/openproject/index.html") }}">
+                    ¿Que es Open Project?
+                </a>
+                <br />
+                <span class="linkdescr">Conoce sobre la herramienta</span>
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("general/procedures-openproject/schedule-a-meeting.html") }}">
+                    Acordar una Reunión
+                </a>
+                <br />
+                <span class="linkdescr">Conoce el procedimiento para agendar una reunión</span>
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("general/procedures-openproject/customer-review.html") }}">
+                    Revisión de Cambios con Cliente
+                </a>
+                <br />
+                <span class="linkdescr">Definir objetivo en ambas partes</span>
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("general/procedures-openproject/support-doc.html") }}">
+                    Documentar una Tarea / Error
+                </a>
+                <br />
+                <span class="linkdescr">Conoce el procedimiento para reportar un error</span>
+            </p>
+        </td>
+    </tr>
+</table>
+
+
+<h2>Localización de ADempiere en Venezuela</h2>
+<table class="contentstable" align="center">
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("lve/human-resource-payroll/index.html") }}">
+                    Gestión de Recursos Humanos
+                </a>
+                <br />
+                <span class="linkdescr">Consulta documentos de gestión de recursos humanos como <a href="{{ pathto("lve/human-resource-payroll/human-resource/cash-refund/index.html") }}"">Caja Reembolso</a> y documentos de nómina como <a href="{{ pathto("lve/human-resource-payroll/payroll/bonus-cancellation-with-intermediary.html") }}"">Procedimiento para Cancelación de Bono de Alimentación con </br> Pagos a Terceros</a></span> 
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("lve/standard-coding/index.html") }}">
+                    Codificación Estándar de ADempiere 
+                </a>
+                <br />
+                <span class="linkdescr">Consulta el documento <a href="{{ pathto("lve/standard-coding/product/index.html") }}"">Codificación Estándar de Productos</a> para conocer el estándar de codificación de productos en ADempiere para la localización Venezuela</span>
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("lve/fiscal-printer/index.html") }}">
+                    Impresora Fiscal
+                </a>
+                <br />
+                <span class="linkdescr">Consulta documentos como <a href="{{ pathto("lve/fiscal-printer/commons-errors-fiscal-printer.html") }}"">Errores Comunes </br> de la Impresora Fiscal</a>, <a href="{{ pathto("lve/fiscal-printer/manual-reports.html") }}"">Generar Reportes Manualmente en la Impresora</a> y <a href="{{ pathto("lve/fiscal-printer/setup-vmax-220.html") }}"">Configuración </br> de Impresora Fiscal VMax 220 para Usar con ADempiere</a></span>
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("lve/adempiere-documents/index.html") }}">
+                    Utilidad de Documentos en ADempiere 
+                </a>
+                <br />
+                <span class="linkdescr">Consulta documentos como <a href="{{ pathto("lve/adempiere-documents/types-of-documents/index.html") }}"">Utilidad de los Tipos de Documentos</a> para conocer el comportamiento de los mismos en ADempiere</span>
+            </p>
+        </td>
+    </tr>
+</table>
+
+<h2>Procesos de ADempiere</h2>
+<table class="contentstable" align="center">
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("adempiere/master/index.html") }}">
+                    Maestros de ADempiere
+                </a>
+                <br />
+                <span class="linkdescr">Consulta documentos de socios del negocio </br> de ADempiere como <a href="{{ pathto("adempiere/master/business-partner/provider/index.html") }}"">Socio del Negocio Proveedor</a></span> 
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("adempiere/requisition-to-invoice/index.html") }}">
+                    Gestión de Compras de ADempiere 
+                </a>
+                <br />
+                <span class="linkdescr">Consulta documentos de compras como <a href="{{ pathto("adempiere/requisition-to-invoice/purchase-order/direct-order/index.html") }}"">Orden de Compra</a>, <a href="{{ pathto("adempiere/requisition-to-invoice/invoice/index.html") }}"">Documentos por Pagar</a> y <a href="{{ pathto("adempiere/requisition-to-invoice/material-receipt/index.html") }}"">Recepción de Productos</a></span>
+            </p>
+        </td>
+    </tr>
+
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("adempiere/open-items/index.html") }}">
+                    Gestión de Saldos Pendientes </br> de ADempiere
+                </a>
+                <br />
+                <span class="linkdescr">Consulta documentos como <a href="{{ pathto("adempiere/open-items/automatic-conciliations/index.html") }}"">Conciliación </br> Automática</a> y conoce el procedimiento a seguir para realizar una conciliación en ADempiere</span>
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("adempiere/vertical/index.html") }}">
+                    Verticales
+                </a>
+                <br />
+                <span class="linkdescr">Conoce sobre la <a href="{{ pathto("adempiere/vertical/loan-management/index.html") }}"">Gestión de Préstamos e Inversiones</a></span> 
+            </p>
+        </td>
+    </tr>
+</table>
+
+<h2>Para Mayor Información</h2>
+<table class="contentstable">
+    <tr>
+        <td width="50%">
+            <p class="biglink">Nuestra página oficial es: <a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></p>
+            <p class="biglink">Si desea reportar un error o una mejora puede hacerlo en: <a href="https://github.com/erpcya/docs/issues">GitHub</a></p>
+        </td>
+    </tr>
+</table>
+
+{% endblock %}
+{% endblock %}
