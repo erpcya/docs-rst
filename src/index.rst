@@ -14,7 +14,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 .. toctree::
     :maxdepth: 2
 
-    general/procedures/index
+    general/procedures-openproject/index
     lve/index
     adempiere/index
 
