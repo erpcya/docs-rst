@@ -17,6 +17,10 @@ __ http://www.python.org/
 `Python <http://www.python.org/>`_
 
 <a href ="http://www.python.org/" target="_blank">Python ESTE</a>
+
+`Python <http://www.python.org/ target="_blank">`_
+
+`Python <http://www.python.org/>`_blank
 .. toctree::
     :maxdepth: 1
 
