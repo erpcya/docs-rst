@@ -18,8 +18,8 @@
 .. |Opción Completar| image:: resources/ventanaycompletar.png
 .. |Completar Documento| image:: resources/completar.png
 
-
 .. _documento/requisición-compra:
+.. _ERPyA: http://erpya.com
 
 **Crear Requisición a Compra**
 ==============================
@@ -42,7 +42,7 @@
     
     Imagen 3. Campo Organización
 
-#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA.
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
 
     |Campo Tipo de Documento| image:: resources/tipodoc.png
     

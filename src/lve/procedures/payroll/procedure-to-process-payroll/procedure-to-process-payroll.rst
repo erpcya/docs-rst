@@ -13,7 +13,7 @@
 .. |Campo Tipo de Documento Destino| image:: resources/tipo-doc-proceso-nomina.png
 
 .. _documento/procedimiento-para-procesar-nómina:
-
+.. _ERPyA: http://erpya.com
 
 ==================
 **Proceso Nómina**
@@ -43,7 +43,7 @@
 
     Imagen 4. Campo Nombre
 
-#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA.
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
 
     |Campo Tipo de Documento Destino|
 

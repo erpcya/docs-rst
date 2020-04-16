@@ -9,6 +9,7 @@
 .. |Paquete de Trabajo| image:: resources/paquete.png
 
 .. _documento/openproject:
+.. _ERPyA: http://erpya.com
 
 **Inicio de Sesión**
 --------------------
@@ -26,7 +27,7 @@
  
    Imagen 2. Inicio de Sesión
 
-#. Introduzca el usuario y la contraseña que le fue facilitado por la empresa ERPyA en los campos correspondientes, luego seleccione el boton "**Ingresar**" para acceder al OpenProject. 
+#. Introduzca el usuario y la contraseña que le fue facilitado por la empresa `ERPyA`_ en los campos correspondientes, luego seleccione el boton "**Ingresar**" para acceder al OpenProject. 
 
    |Ingresar a OpenProject| 
  

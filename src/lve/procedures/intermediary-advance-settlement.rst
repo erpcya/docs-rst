@@ -21,6 +21,7 @@
 .. |Reporte de Balance| image:: resources/reporte.png
 
 .. _documento/liquidación-anticipo-intermeiario:
+.. _ERPyA: http://erpya.com
 
 **Liquidación Anticipo Intermediario**
 ======================================
@@ -132,7 +133,7 @@ Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, 
 
     Imagen 3. Menú de ADempiere
 
-#. Realice el procedimiento habitual para crear los documentos por pagar necesarios, explicado en el material :ref:`documento/documento-por-pagar` elaborado por ERPyA. Para ejemplificar el registro se realizan tres facturas como relación entregada por el intermediario gestor de la importacióncon.
+#. Realice el procedimiento habitual para crear los documentos por pagar necesarios, explicado en el material :ref:`documento/documento-por-pagar` elaborado por `ERPyA`_. Para ejemplificar el registro se realizan tres facturas como relación entregada por el intermediario gestor de la importacióncon.
 
     #. Factura "**1000020**", con socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" y moneda "**VES**".
     
@@ -207,7 +208,7 @@ En la siguiente ventana de "**Caja**" se realizan todos los pagos de las factura
 
         Imagen 12. Campo Cuenta Bancaria
         
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizada la opción "**Pago Nacional**".
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Pago Nacional**".
 
         |Campo Tipo de Documento 1|
 

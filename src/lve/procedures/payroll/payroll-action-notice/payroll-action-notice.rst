@@ -7,6 +7,7 @@
 .. |Opción OK| image:: resources/opcion-ok.png
 
 .. _documento/novedades-de-nómina:
+.. _ERPyA: http://erpya.com
 
 **Cargar Incidencias**
 ======================
@@ -17,7 +18,7 @@
 
     Imagen 1. Menú de ADempiere
 
-#. Seleccione en el campo "**Proceso Nómina**", el proceso de nómina realizado previamente. Dicho proceso se encuentra explicado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por ERPyA.
+#. Seleccione en el campo "**Proceso Nómina**", el proceso de nómina realizado previamente. Dicho proceso se encuentra explicado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_.
 
     |Campo Proceso de Nómina|
 

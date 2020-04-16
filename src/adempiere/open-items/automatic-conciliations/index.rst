@@ -1,12 +1,11 @@
-
 .. _src/adempiere/open-items/automatic-conciliations:
-
+.. _ERPyA: http://erpya.com
 
 ==============================
 **Conciliaciones Automáticas**
 ==============================
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar una conciliación en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar una conciliación en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 Un extracto bancario es un estado de cuenta generado por un banco determinado, utilizado por la empresa para realizar sus operaciones o transacciones, el documento es generado por lapsos que la mayoria de las veces es mensual. La importación del extracto bancario, valga la redundancia, es importar a ADempiere el estado de cuenta generado por el banco.
 

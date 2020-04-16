@@ -9,5 +9,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 .. toctree::
     :maxdepth: 2
 
-    product/index
+    internal-use-inventory/index
 

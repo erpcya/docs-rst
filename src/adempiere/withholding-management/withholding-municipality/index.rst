@@ -1,4 +1,5 @@
 .. _src/adempiere/withholding-management/withholding-municipality:
+.. _ERPyA: http://erpya.com
 
 =========================================================
 **Retención Municipal de Cuentas por Pagar en ADempiere**
@@ -10,7 +11,7 @@ ADempiere permite auto-generar una estimación de retenciones municipales a los 
 
 Estas bondades de ADempiere dependerán de la oportuna configuración del proveedor en el cual debe indicar el porcentaje de retención municipal a aplicar al proveedor, el mismo puede variar según lo establecido en la ley de retención municipal correspondiente a cada municipio, donde se encuentre el socio del negocio al cual el proveedor le brinda el servicio ya que en cada municipio varía la retención del mismo.
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para configurar y obtener un resultado exitoso al momento de generar la estimación de retenciones y posteriormente el documento de retención municipal en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para configurar y obtener un resultado exitoso al momento de generar la estimación de retenciones y posteriormente el documento de retención municipal en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 .. toctree::
     :maxdepth: 1

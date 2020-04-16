@@ -1,4 +1,5 @@
 .. _documento/producto:
+.. _ERPyA: http://erpya.com
 
 **Proceso de Registro del Producto**
 ------------------------------------
@@ -33,7 +34,7 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
       
          Para que el producto este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el producto solo estará disponible para una sola organización. 
 
-   #. Introduzca en el campo "**Código**", el código para el producto que esta registrando, este código es definido por un estándar de códificación establecido en ERPyA para `Codificar los Productos <http://elcamino.erp.local:55888/documentation-lve/coding/product-coding/product-coding/>`__.
+   #. Introduzca en el campo "**Código**", el código para el producto que esta registrando, este código es definido por un estándar de códificación establecido en `ERPyA`_ para `Codificar los Productos <http://elcamino.erp.local:55888/documentation-lve/coding/product-coding/product-coding/>`__.
 
       .. figure:: resources/codigo.png
          :alt: Campo Código
@@ -75,14 +76,14 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
 
          Imagen 9. Campo UM Almacenamiento
 
-   #. Seleccione en el campo "**Categoría del Producto**", la categoría a la cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/categoría-producto` elaborado por ERPyA.
+   #. Seleccione en el campo "**Categoría del Producto**", la categoría a la cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/categoría-producto` elaborado por `ERPyA`_.
 
       .. figure:: resources/categ.png
          :alt: Campo Categoría del Producto
 
          Imagen 10. Campo Categoría del Producto
 
-   #. Seleccione en el campo "**Grupo de Producto**", el grupo al cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/grupo-de-producto` elaborado por ERPyA.
+   #. Seleccione en el campo "**Grupo de Producto**", el grupo al cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/grupo-de-producto` elaborado por `ERPyA`_.
 
       .. figure:: resources/grupo.png
          :alt: Campo Grupo de Producto
