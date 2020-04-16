@@ -2,7 +2,7 @@
 .. _ERPyA: http://erpya.com
 
 =========================
-**Maestros de ADempiere**
+**Datos Maestros**
 =========================
 
 ADempiere requiere una gestión de datos maestros exigente en pro de la integridad de las transacciones futuras, que garantiza una información limpia, fiable y accesible.
