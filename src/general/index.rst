@@ -14,4 +14,5 @@ Ahora bien, para ello generalmente recurrimos a herramientas tecnologicas, para 
 .. toctree::
     :maxdepth: 1
 
-    procedures-openproject/index
+    procedures-standards/index
+    openproject/index
