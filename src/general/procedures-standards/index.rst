@@ -1,4 +1,4 @@
-.. _src/general/procedures:
+.. _src/general/procedures-standards:
 
 ==========================================================
 **Procedimientos Estándares**
