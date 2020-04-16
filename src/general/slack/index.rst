@@ -3,11 +3,12 @@
 .. _Slack:
 
 ======================================
-**Procedimientos Estándares de ERPyA**
+**Slack**
 ======================================
 
 Agregar introducción
 `ERPyA`_
+
 .. toctree::
     :maxdepth: 1
 
