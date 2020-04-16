@@ -1,17 +1,18 @@
-.. _src/lve:
+.. _src/lve
+.. _ERPyA: http://erpya.com
 
-============================================
-**Localización de ADempiere para Venezuela**
-============================================
+==========================
+**Localización Venezuela**
+==========================
 
-Esta documentación está destinada a definir cada uno de los procedimientos estándares de ADempiere para la localización Venezuela, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
+`ERPyA`_ es considerado pionero en integración y contribuidor a la comunidad de ADempiere,con una amplia trayectoria en desarrollo, modelado e integración de este potente ERP con la legislación Venezolana.
 
-ADempiere es un ERP, CRM y SCM software libre específicamente usa la licencia GNU/GPL v2 y es por excelencia el software que usa `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__
+En esta oportunidad queremos ofrecer a los lectores una amplia gama de documentos estructurados, en los cuales se explicarán de forma eficiente y detallada cada contribución que implique un cambio propio de Venezuela, adicional a ello interpretación de configuraciones locales utilizados para facilitar y hacer eficiente nuestras implementaciones.
 
 .. toctree::
-    :maxdepth: 2
-    :numbered:
+    :maxdepth: 1
 
-    documentation-lve/index
-
-
+    fiscal-printer/index
+    procedures/index
+    report/index
+    standard-coding/index
