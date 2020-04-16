@@ -1,7 +1,7 @@
 .. _src/adempiere/open-items:
 
 =============================================
-**Gestión de Saldos Pendientes de ADempiere**
+**Gestión de Saldos Pendientes**
 =============================================
 
 Esta documentación está destinada a definir cada uno de los procedimientos para la gestión de los saldos pendientes de ADempiere para cualquier organización,
