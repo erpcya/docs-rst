@@ -10,21 +10,35 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 
 .. toctree::
     :caption: DOCUMENTACIÓN ESTÁNDAR
-    :maxdepth: 2
+    :maxdepth: 1
     :numbered:
 
-    general/index
+    procedures-standards/index
+    openproject/index
+    slack/index
 
 .. toctree::
     :caption: ADEMPIERE ERP/CRM
-    :maxdepth: 2
+    :maxdepth: 1
     :numbered:
 
-    adempiere/index
+    master/index
+    material-management/index
+    quote-to-invoice/index
+    requisition-to-invoice/index
+    withholding-management
+    open-items/index
+    returns/index
+    loan-management/index
+    asset-management/index
+    performance-analysis/index
 
 .. toctree::
     :caption: LOCALIZACIÓN VENEZUELA
-    :maxdepth: 2
+    :maxdepth: 1
     :numbered:
 
-    lve/index
+    fiscal-printer/index
+    procedures/index
+    report/index
+    standard-coding/index
