@@ -19,6 +19,6 @@ ADempiere por su condición de ERP ofrece todo lo que una compañía requiere en
     withholding-management
     open-items/index
     returns/index
+    loan-management/index
     asset-management/index
     performance-analysis/index
-    
