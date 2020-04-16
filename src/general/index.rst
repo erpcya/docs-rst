@@ -1,13 +1,15 @@
 .. _src/general
 .. _ERPyA: http://erpya.com
 
-=====================================
-**Procedimientos Generales**
-=====================================
+======================================
+**Procedimientos Estándares de ERPyA**
+======================================
 
-La mayor parte de las empresas adquieren distintos software para cubrir las diferentes necesidades de sus organizaciones,pero tarde se dan cuenta de lo complicado que es  compartir y unificar la información que cada modulo y organización obtienen.
+Los procesos internos de una organización es el conjunto de actividades estandarizados a modo de generar armonia en el trabajo realizado por las personas que allí trabajan, y finalmente cumplir los objetivos de gestión.
 
-ADempiere por su condición de ERP ofrece todo lo que una compañía requiere en un unico software, `ERPyA`_ quiere ofrecer a sus lectores una amplia gama de documentos estructurados para usuarios de alta y baja experiencia en el manejo de Software ERP, en los cuales se explicarán de forma eficiente y detallada cada proceso de este potente sistema, definiendo paso a paso la gestión de cada uno, sus implicaciones contables, administrativas y fiscales y finalmente la emisión de resultados que le permitira un obtimo control de sus operaciones.
+Ahora bien, para ello generalmente recurrimos a herramientas tecnologicas, para implementarlas se debe elaborar un manuales procedimentales, en los cuales se detalla las actividades y responsabilidades de los involucrados, para dar cumplimiento a los objetivos organizacionales.
+
+`ERPyA`_ quiere ofrecer a sus lectores una amplia gama de documentos estructurados para nuestros clientes, en los cuales se explicarán de forma eficiente y detallada cada herramienta utilizada para facilitar y hacer eficiente nuestra gestión de soporte e implementación.
 
 .. toctree::
     :maxdepth: 1
