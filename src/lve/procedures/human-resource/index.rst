@@ -1,4 +1,4 @@
-.. _src/lve/documentation-lve/human-resource-payroll/human-resource:
+.. _src/lve/procedures/human-resource:
 
 ===============================
 **Gestión de Recursos Humanos**
@@ -11,4 +11,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
 
     cash-refund/index
     cash-per-diems/index
-    collection-cash/index
+    cash-closing/index
