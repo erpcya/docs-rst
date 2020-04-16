@@ -9,10 +9,22 @@ La misma será actualizada periódicamente en función de las nuevas versiones d
 Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de esta herramienta.
 
 .. toctree::
-    :caption: E.R.P. CONSULTORES Y ASOCIADOS, C.A.
+    :caption: DOCUMENTACIÓN ESTÁNDAR
     :maxdepth: 2
     :numbered:
 
     general/index
+
+.. toctree::
+    :caption: ADEMPIERE ERP/CRM
+    :maxdepth: 2
+    :numbered:
+
     adempiere/index
+
+.. toctree::
+    :caption: LOCALIZACIÓN VENEZUELA
+    :maxdepth: 2
+    :numbered:
+
     lve/index
