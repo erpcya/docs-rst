@@ -1,22 +1,21 @@
-.. |Factura a Cobrar| image:: resources/
-.. |Menú de ADempiere| image:: resources/menu-pago.png
-.. |Icono Registro Nuevo| image:: resources/icono-nuevo.png
-.. |Campo Organización| image:: resources/org-pago.png
-.. |Campo Tipo de Documento| image:: resources/
-.. |Campo Cuenta Bancaria| image:: resources/
-.. |Campo Descripción| image:: resources/
-.. |Campo Socio del Negocio Proveedor| image:: resources/
-.. |Identificador del Campo Factura| image:: resources/
-.. |Selección de Factura y Opción OK| image:: resources/
-.. |Campo Total del Cobro| image:: resources/
-.. |Campo Moneda| image:: resources/
-.. |Campo Tipo de Pago| image:: resources/
-.. |Icono Guardar Cambios| image:: resources/
-.. |Opción Completar| image:: resources/
-.. |Acción Completar| image:: resources/
-.. |Icono Visualiza Detalle| image:: resources/
-.. |Pestaña Asignación| image:: resources/
-.. |Pestaña Asignaciones| image:: resources/
+.. |Factura a Cobrar| image:: resources/vent-documento-por-cobrar.png
+.. |Menú de ADempiere| image:: resources/menu-cobro.png
+.. |Icono Registro Nuevo| image:: resources/icono-registro-nuevo.png
+.. |Campo Organización| image:: resources/campo-organizacion.png
+.. |Campo Tipo de Documento| image:: resources/campo-tipo-documento.png
+.. |Campo Cuenta Bancaria| image:: resources/campo-cuenta-bancaria.png
+.. |Campo Descripción| image:: resources/campo-descripcion.png
+.. |Campo Socio del Negocio Cliente| image:: resources/campo-socio-cliente.png
+.. |Identificador del Campo Factura| image:: resources/campo-factura.png
+.. |Selección de Factura y Opción OK| image:: resources/seleccion-factura-opcion-ok.png
+.. |Campo Total del Cobro| image:: resources/campo-total-pago.png
+.. |Campo Moneda| image:: resources/campo-moneda.png
+.. |Campo Tipo de Pago| image:: resources/campo-tipo-pago.png
+.. |Opción Completar| image:: resources/opcion-completar.png
+.. |Acción Completar| image:: resources/accion-completar.png
+.. |Icono Visualiza Detalle| image:: resources/menu-icono-visualizar-detalle.png
+.. |Pestaña Asignación| image:: resources/pest-asignacion.png
+.. |Pestaña Asignaciones| image:: resources/pest-asignaciones.png
 
 .. _documento/cobro:
 .. _ERPyA: http://erpya.com
@@ -24,7 +23,7 @@
 **Procedimiento para Realizar un Cobro en ADempiere**
 ====================================================
 
-Para ejemplificar el procedimiento de generar un cobro en ADempiere, es utilizada la factura por cobrar "**1000099**".
+Para ejemplificar el procedimiento de generar un cobro en ADempiere, es utilizada la factura por cobrar "**88**".
 
     |Factura a Cobrar|
 
@@ -68,7 +67,7 @@ Para ejemplificar el procedimiento de generar un cobro en ADempiere, es utilizad
 
 #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio cliente al cual le será realizado el cobro. 
 
-    |Campo Socio del Negocio Proveedor|
+    |Campo Socio del Negocio Cliente|
 
     Imagen 8. Campo Socio del Negocio
 
@@ -102,11 +101,9 @@ Para ejemplificar el procedimiento de generar un cobro en ADempiere, es utilizad
 
     Imagen 13. Campo Tipo de Pago
 
-#. Seleccione el icono "**Guardar Cambios**", para guardar el registro de los campos en la ventana "**Pago/Cobro**".
+    .. note::
 
-    |Icono Guardar Cambios|
-
-    Imagen 14. Icono Guardar Cambios
+        Recuerde guardar el registro de los campos seleccionando el icono "**Guardar Cambios**", ubicado en el barra de herramientas de ADempiere.
 
 #. Seleccione la opción "**Completar**", ubicada en la parte inferior derecha de la ventana.
 
