@@ -1,4 +1,5 @@
-.. _src/adempiere/open-items/payment-selection:
+.. _src/adempiere/open-items/payment-selection-cxp:
+.. _ERPyA: http://erpya.com
 
 ==========================================
 **Selección de Pago de Cuentas por Pagar**
@@ -10,7 +11,7 @@ Una orden de pago es un documento que se elabora cuando no se poseen todos los d
 
 El proceso es realizado por el departamento de cuentas por pagar o tesorería de una empresa. Dicho departamento se encarga de realizar la orden de pago y esperar autorización de sus superiores para proceder a realizar la selección de pagos.
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar una orden de pago y posteriormente una selección de pago de cuentas por pagar, generando por último un imprimir/exportar para culminar el procedimiento de manera exitosa en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar una orden de pago y posteriormente una selección de pago de cuentas por pagar, generando por último un imprimir/exportar para culminar el procedimiento de manera exitosa en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 .. toctree::
     :maxdepth: 2

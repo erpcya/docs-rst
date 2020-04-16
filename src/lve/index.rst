@@ -13,7 +13,6 @@ En esta oportunidad queremos ofrecer a los lectores una amplia gama de documento
     :maxdepth: 1
 
     fiscal-printer/index
-    human-resource-payroll/index
     procedures/index
     report/index
     standard-coding/index

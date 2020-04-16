@@ -16,6 +16,7 @@
 .. |Acción Completar| image:: resources/accion-completar.png
 
 .. _documento/orden-de-pago:
+.. _ERPyA: http://erpya.com
 
 **Orden de Pago**
 =================
@@ -38,7 +39,7 @@
 
         Imagen 3. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Orden de Pago**".
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. Para ejemplificar el registro es utilizado el tipo de documento "**Orden de Pago**".
 
         |Campo Tipo de Documento 1|
 

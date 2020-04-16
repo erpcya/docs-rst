@@ -1,4 +1,5 @@
 .. _documento/orden-de-venta:
+.. _ERPyA: http://erpya.com
 
 **Crear Orden de Venta**
 ========================
@@ -24,7 +25,7 @@
 
          Imagen 3. Campo Organización
 
-   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por la empresa ERPyA.
+   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
 
       .. figure:: resources/tipodoc.png
          :alt: Campo Tipo de Documento Destino

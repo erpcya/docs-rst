@@ -17,6 +17,7 @@
 .. |Acción Completar| image:: resources/accion-completar.png
 
 .. _documento/selección-de-pago:
+.. _ERPyA: http://erpya.com
 
 **Selección de Pago de Cuentas por Pagar**
 ==========================================
@@ -39,7 +40,7 @@
 
         Imagen 3. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`tipo-documento` elaborado por ERPyA. Para ejemplificar el registro es utilizado el tipo de documento "**Selección de Pagos de Cuentas por Pagar**".
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`tipo-documento` elaborado por `ERPyA`_. Para ejemplificar el registro es utilizado el tipo de documento "**Selección de Pagos de Cuentas por Pagar**".
 
         |Campo Tipo de Documento 1|
 

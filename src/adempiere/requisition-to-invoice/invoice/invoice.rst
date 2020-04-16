@@ -1,4 +1,5 @@
 .. _documento/documento-por-pagar:
+.. _ERPyA: http://erpya.com
 
 **Crear Documentos por Pagar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -33,7 +34,7 @@
 
          Imagen 3. Campo Organización
 
-   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA.
+   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
    
       .. documento/documento-por-pagar-04
       

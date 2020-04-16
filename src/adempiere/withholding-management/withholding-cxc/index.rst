@@ -1,4 +1,5 @@
 .. _src/adempiere/withholding-management/withholding-cxc:
+.. _ERPyA: http://erpya.com
 
 ==================================================
 **Retenciones de Cuentas por Cobrar en ADempiere**
@@ -10,7 +11,7 @@ ADempiere permite auto-generar por medio del proceso "**Procesar Retenciones CxC
 
 El procedimiento para aplicar retenciones a las facturas de cuentas por cobrar consiste en transcribir el comprobante de retención facilitado por el socio del negocio cliente que aplico la retención.
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener un resultado exitoso al momento de procesar las retenciones y posteriormente generar el documento de retención de cuentas por cobrar en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener un resultado exitoso al momento de procesar las retenciones y posteriormente generar el documento de retención de cuentas por cobrar en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 .. toctree::
     :maxdepth: 1

@@ -11,13 +11,14 @@
 .. |Pestaña Detalle Comisión| image:: resources/pest4.png
 
 .. _documento/calculo-comisiones:
+.. _ERPyA: http://erpya.com
 
 **Cálculo de Comisiones de Ventas**
 ===================================
 
 El cálculo de las comisiones tiene como requerimiento principal tener configurada una definición de comisiones. Dicho cálculo de comisión toma en cuenta el tipo de frecuencia que tiene seleccionada la definición de comisión, así el grupo de comisión de la misma contenga otro tipo de frecuencia diferente.
 
-El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente con respecto al procedimiento a seguir para realizar el cálculo de comisiones en la versión 3.9.2 de ADempiere, en la localización Venezuela. 
+El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente con respecto al procedimiento a seguir para realizar el cálculo de comisiones en la versión 3.9.2 de ADempiere, en la localización Venezuela. 
 
 Continuando con el ejemplo planteado en el documento :ref:`documento/definicion-comisiones`, se realiza de la siguiente manera el cálculo de las comisiones de los vendedores internos. Es necesario repetir el procedimiento para calcular las comisiones de los vendedores externos.
 
@@ -42,7 +43,7 @@ Continuando con el ejemplo planteado en el documento :ref:`documento/definicion-
 
             Imagen 3. Campo Organización
 
-        #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por ERPyA.
+        #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
 
             |Campo Tipo de Documento| 
 

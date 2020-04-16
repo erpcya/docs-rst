@@ -19,7 +19,7 @@
 .. |Archivo o Documento Exportado 1| image:: resources/doc-generado.png
 
 .. _documento/declaración-retención-cxp:
-
+.. _ERPyA: http://erpya.com
 
 .. _paso/generar-declaración-retenciones:
 
@@ -62,7 +62,7 @@
 
         .. note::
 
-            El campo "**F. Documento**" es la fecha contable que tomará el documento de declaración de retenciones al culminar el proceso "**Generar Declaración de Retenciones**". ERPyA recomienda ingresar la fecha en la que se declara la retención.
+            El campo "**F. Documento**" es la fecha contable que tomará el documento de declaración de retenciones al culminar el proceso "**Generar Declaración de Retenciones**". `ERPyA`_ recomienda ingresar la fecha en la que se declara la retención.
 
     #. Seleccione las diferentes retenciones a declarar y posteriormente seleccione la opción "**OK**" para culminar el proceso "**Generar Declaración de Retenciones**".
 
