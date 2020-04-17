@@ -2,7 +2,7 @@
 .. _ERPyA: http://erpya.com
 
 ===================================
-**Socios del Negocio de ADempiere**
+**Socios del Negocio**
 ===================================
 
 El socio del negocio generalmente es un sujeto jurídico o natural con el que la organización establece una alianza temporal o permanente a fin de obtener un beneficio común.
