@@ -2,10 +2,14 @@ Procedimiento para Actualizar cliente local de Impresora Fiscal PNP
 ===================================================================
 
 Previo a la Actualización es necesario;
+---------------------------------------
 
--  Hacer un respaldo del StartPrintService.bat.
+-  Hacer un respaldo del **StartPrintService.bat**.
 
--  Detener el StartPrintService.bat, en caso de estar ejecutándose
+-  Detener el **StartPrintService.bat**, en caso de estar ejecutándose
+
+Aplicar Actualización
+---------------------
 
 Los siguientes pasos permiten actualizar el cliente local de la
 Impresora Fiscal PNP:
@@ -15,6 +19,9 @@ Impresora Fiscal PNP:
 
 2. Descomprimir el archivo **LocalPrinting-PnP.zip** en el directorio
    C: , permitiendole reemplazar los archivos existentes.
+
+Verificar Instalación
+---------------------
 
 Luego es necesario comprobar que la actualización fue exitosa:
 
@@ -36,8 +43,8 @@ Tipo de comando Fiscal Obtener Estado de Impresora
 En caso de error de conexión retorna un error de **Timeout**. Revisar lo
 siguiente:
 
-1. Que la impresora este encendida y conectada en un puerto COM.
-2. Que el archivo StartPrintService.bat este en ejecución.
+1. Que la impresora este encendida y conectada en un puerto **COM**.
+2. Que el archivo **StartPrintService.bat** este en ejecución.
 3. Revisar en ADempiere la configuración de la impresora en la Ventana
    registro de Aplicación Asegurándose que los parámetros
    **PrinterName** y **PortName** sean los correctos.

@@ -1,8 +1,8 @@
-Instalar Impresoras Fiscal PNP
-==============================
+Instalar Impresora Fiscal PNP
+=============================
 
-Previo a la instalación:
-------------------------
+Configuración Previo a la instalación:
+--------------------------------------
 
 -  Registrar en ADempiere Seriales y Modelos de las impresoras que van a
    ser usadas(incluso las de respaldo).
@@ -15,17 +15,20 @@ A nivel de Servidor:
 Para la Instalación del servicio de impresión para la Impresora Fiscal
 es necesario tener instalado lo siguiente:
 
-En Cada Estación con Windows donde de emplee la impresora fiscal se debe hacer lo siguiente:
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+Configuración en Cada Estación con Windows donde se emplee la impresora fiscal:
+-------------------------------------------------------------------------------
 
-1. Instalar el JAVA JDK8 y agregarlo a las Variables de Entorno.
+1. Instalar el **JAVA** **JDK8** y agregarlo a las Variables de Entorno.
 
 2. Instalar Librería **pnpdll.dll** de impresora Fiscal (en System32).
 
 3. Realizar Pruebas de Conectividad entren la impresora fiscal y el
-   equipo con la aplicación testdllpnp.exe.
+   equipo con la aplicación **testdllpnp.exe**.
 
-Lo primero a realizar dentro de la aplicación testdllpnp.exe es
+Prueba de Conectividad con la impresora fiscal:
+-----------------------------------------------
+
+Lo primero a realizar dentro de la aplicación **testdllpnp.exe** es
 seleccionar el puerto **COM** donde Esta conectada la Impresora, después
 cargar la librería **pnpdll.dll** pulsar los botones en el siguiente
 orden:
@@ -49,13 +52,13 @@ orden:
 | 4               | Cierra Puerto   | Ninguno         | OK              |
 +-----------------+-----------------+-----------------+-----------------+
 
-En caso de no de no obtener ningún resultado o este se TO, se deben
+En caso de no de no obtener ningún resultado o este ser **TO**, se deben
 chequear, el puerto serial o si librería de la impresora esta instalada
 correctamente.
 
 A partir de lo obtenido en la luego de aplicar el comando ultimo,se debe
 tomar en cuenta el cuarto valor en el siguiente ejemplo se observar como
-“00”.
+**00**.
 
 ::
 
@@ -96,8 +99,12 @@ Si el Código del Código luego de aplicar el comando Últimos es 00 se
 Procede a realizar un prueba de Impresión.
 
 Imprimir Reporte X.
+-------------------
 
-Nuevamente desde **testdllpnp.exe**.
+Para determinar que la impresora funciona correctamente, tanto
+mecánicamente como por software se necesita realizar una impresión,
+usando nuevamente la aplicación **testdllpnp.exe**, con la combinación
+de instrucciones:
 
 ========= ============= ========= =========
 Secuencia Botón         Parámetro Resultado
@@ -117,19 +124,19 @@ Configurar Cliente de cola de Impresión
 
 2. Los equipos no se deben Suspender solo se de cerrar
 
-3. Configurara para que inicie con el Arranque de Windows el Script
-   StartPrintService.bat
+3. Ejecutar con el Arranque de Windows el Script
+   **StartPrintService.bat**
 
-Con el Script StartPrintService.bat ejecutándose realizar las siguientes
-pruebas:
+Con el Script **StartPrintService.bat** ejecutándose realizar las
+siguientes pruebas:
 
 1. Revisar en ADempiere la configuración de la impresora en registro de
-   Aplicación Asegurándose que los parámetros PrinterName y PortName
-   sean los correctos.
+   Aplicación ubicandola a través del serial de la impresora,
+   confirmando que los parámetros PrinterName y PortName sean los
+   correctos.
 
-2. Ingresando con el usuario designado y ubicar el proceso
-   **Configuración de Impresora Fiscal** y ejecutar el proceso con los
-   parámetros:
+2. Ingresando como compañía ubicar el proceso **Configuración de
+   Impresora Fiscal** y ejecutar el proceso con los parámetros:
 
 ====================== ===============================
 Parámetro              Valor
@@ -139,9 +146,9 @@ Tipo de comando Fiscal Obtener Estado de Impresora
 ====================== ===============================
 
 Esto retorna el mismo resultado que el comando Estatus de
-testdllpnp.exe), en caso de error de conexión retorna un error de
-Timeout. Revisar lo siguiente: Que el archivo StartPrintService.bat este
-en ejecución.
+**testdllpnp.exe**, en caso de error de conexión retorna un error de
+Timeout. Revisar lo siguiente: Que el archivo **StartPrintService.bat**
+este en ejecución.
 
 6. Para el caso donde la conexión se ejecuta correctamente, se procede a
    realizar una impresión de control usando el Proceso **Imprimir

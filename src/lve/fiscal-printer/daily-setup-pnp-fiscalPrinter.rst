@@ -10,8 +10,8 @@ Verificación por impresora al inicio del día:
 Con el Script **StartPrintService.bat** ejecutándose en la estación
 donde se encuentra la impresora fiscal realizar las siguientes pruebas:
 
-Ingresando como compañía ubicar el proceso **Configuración de Impresora
-Fiscal** y ejecutar el proceso con los parámetros:
+Ingresando con el usuario asignado, ubicar el proceso **Configuración de
+Impresora Fiscal** y ejecutar el proceso con los parámetros:
 
 ====================== ===============================
 Parámetro              Valor
@@ -132,7 +132,8 @@ El ejecutar proceso con el comando Obtener Estado de Impresora, resulta
 útil para verificar la conexión entre ADempiere y la Impresora, ademas
 con el valor obtenido con el campo 4, se obtiene el estado actual de la
 impresora donde el valor ideal deber ser 00, ya que cualquier otro
-estado se puede interpretar como un error, y amerita revisión.
+estado se puede interpretar como un error, y es necesaria una revisión
+mas a fondo.
 
 -  Estando Verificada la comunicación entre ADempiere y la Impresora
    Fiscal se debe usar Proceso Imprimir Reporte Fiscal :
