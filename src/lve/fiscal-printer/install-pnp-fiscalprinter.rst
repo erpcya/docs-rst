@@ -1,0 +1,157 @@
+Instalar Impresoras Fiscal PNP
+==============================
+
+Previo a la instalación:
+------------------------
+
+-  Registrar en ADempiere Seriales y Modelos de las impresoras que van a
+   ser usadas(incluso las de respaldo).
+
+A nivel de Servidor:
+
+-  Habilitar Puerto 50043 (Comunicación de servicio de cola de
+   impresión)
+
+Para la Instalación del servicio de impresión para la Impresora Fiscal
+es necesario tener instalado lo siguiente:
+
+En Cada Estación con Windows donde de emplee la impresora fiscal se debe hacer lo siguiente:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+1. Instalar el JAVA JDK8 y agregarlo a las Variables de Entorno.
+
+2. Instalar Librería **pnpdll.dll** de impresora Fiscal (en System32).
+
+3. Realizar Pruebas de Conectividad entren la impresora fiscal y el
+   equipo con la aplicación testdllpnp.exe.
+
+Lo primero a realizar dentro de la aplicación testdllpnp.exe es
+seleccionar el puerto **COM** donde Esta conectada la Impresora, después
+cargar la librería **pnpdll.dll** pulsar los botones en el siguiente
+orden:
+
++-----------------+-----------------+-----------------+-----------------+
+| Secuencia       | Botón           | Parámetro       | Resultado       |
++=================+=================+=================+=================+
+| 1               | Abre Puerto     | Ninguno         | OK              |
++-----------------+-----------------+-----------------+-----------------+
+| 2               | Estatus         | ‘N’             | OK              |
++-----------------+-----------------+-----------------+-----------------+
+| 3               | Ultimo          | Ninguno         | Lista de        |
+|                 |                 |                 | Caracteres (    |
+|                 |                 |                 | Ej.             |
+|                 |                 |                 | 0000,0000,44,00 |
+|                 |                 |                 | ,45,200312,1434 |
+|                 |                 |                 | 27,0035,0000,00 |
+|                 |                 |                 | 053574,00000662 |
+|                 |                 |                 | ,0815)          |
++-----------------+-----------------+-----------------+-----------------+
+| 4               | Cierra Puerto   | Ninguno         | OK              |
++-----------------+-----------------+-----------------+-----------------+
+
+En caso de no de no obtener ningún resultado o este se TO, se deben
+chequear, el puerto serial o si librería de la impresora esta instalada
+correctamente.
+
+A partir de lo obtenido en la luego de aplicar el comando ultimo,se debe
+tomar en cuenta el cuarto valor en el siguiente ejemplo se observar como
+“00”.
+
+::
+
+      0000,0000,44,00,45,200312,143427,0035,0000,00053574,00000662,0815
+
+De acuerdo con el valor antes mencionado se puede verificar los
+siguientes códigos:
+
++-----------------------------------+-----------------------------------+
+| Código                            | Significado                       |
++===================================+===================================+
+| 00                                | Impresora lista para abrir una    |
+|                                   | factura.                          |
++-----------------------------------+-----------------------------------+
+| 01                                | Factura fiscal en curso.          |
+|                                   | Esperando por un ítem,            |
+|                                   | cerrar/cancelar la factura.       |
++-----------------------------------+-----------------------------------+
+| 02                                | Documento no fiscal en curso.     |
+|                                   | Esperando por línea de texto,     |
+|                                   | cerrar el documento.              |
++-----------------------------------+-----------------------------------+
+| 04                                | Mas de un día desde el último     |
+|                                   | reporte Z. Es necesario un        |
+|                                   | reporte Z. Para poder realizar    |
+|                                   | una venta se deberá efectuar      |
+|                                   | previamente un reporte Z.         |
++-----------------------------------+-----------------------------------+
+| 08                                | Equipo bloqueado a la espera de   |
+|                                   | impresión de cierre Z. Esto       |
+|                                   | ocurre solo en caso de producirse |
+|                                   | un error durante la impresión de  |
+|                                   | un cierre Z. Por ejemplo, si se   |
+|                                   | acaba el papel                    |
++-----------------------------------+-----------------------------------+
+
+Si el Código del Código luego de aplicar el comando Últimos es 00 se
+Procede a realizar un prueba de Impresión.
+
+Imprimir Reporte X.
+
+Nuevamente desde **testdllpnp.exe**.
+
+========= ============= ========= =========
+Secuencia Botón         Parámetro Resultado
+========= ============= ========= =========
+1         Abre Puerto   Ninguno   OK
+2         Reporte X     Ninguno   OK
+3         Cierra Puerto Ninguno   OK
+========= ============= ========= =========
+
+Inmediatamente iniciara a imprimir el Reporte X.
+
+Configurar Cliente de cola de Impresión
+---------------------------------------
+
+1. | Descomprimir el archivo **LocalPrinting-PnP.zip** en el directorio
+     C:
+
+2. Los equipos no se deben Suspender solo se de cerrar
+
+3. Configurara para que inicie con el Arranque de Windows el Script
+   StartPrintService.bat
+
+Con el Script StartPrintService.bat ejecutándose realizar las siguientes
+pruebas:
+
+1. Revisar en ADempiere la configuración de la impresora en registro de
+   Aplicación Asegurándose que los parámetros PrinterName y PortName
+   sean los correctos.
+
+2. Ingresando con el usuario designado y ubicar el proceso
+   **Configuración de Impresora Fiscal** y ejecutar el proceso con los
+   parámetros:
+
+====================== ===============================
+Parámetro              Valor
+====================== ===============================
+Impresora Fiscal       Seleccionar Impresora a Revisar
+Tipo de comando Fiscal Obtener Estado de Impresora
+====================== ===============================
+
+Esto retorna el mismo resultado que el comando Estatus de
+testdllpnp.exe), en caso de error de conexión retorna un error de
+Timeout. Revisar lo siguiente: Que el archivo StartPrintService.bat este
+en ejecución.
+
+6. Para el caso donde la conexión se ejecuta correctamente, se procede a
+   realizar una impresión de control usando el Proceso **Imprimir
+   Reporte Fiscal** con los parámetros:
+
+====================== ===============================
+Parámetro              Valor
+====================== ===============================
+Impresora Fiscal       Seleccionar Impresora a Revisar
+Tipo de comando Fiscal Reporte X
+====================== ===============================
+
+Si inicia la impresión todo esta correctamente configurado y funcional.
