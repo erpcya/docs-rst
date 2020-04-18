@@ -3,33 +3,30 @@
 {% block body %}
   <h1>ADempiere<sup>&reg;</sup> {{ release|e }} Documentación</h1>
 <p>
-    {% block description %}{{ _('Esta documentación está dirigida a los clientes de <a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a>con la finalidad de guiar al usuario en la ejecución de sus actividades diarias sobre ADempiere ERP.') }}<br />
-    <br />
-    {{ _('La misma será actualizada periódicamente en función de las nuevas versiones de ADempiere.') }}<br />
-    <br />
-    {{ _('Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de esta herramienta') }}{% endblock %}.
+    {% block description %}{{ _('La mayor parte de las empresas adquieren distintos software para cubrir las diferentes necesidades de sus organizaciones,pero tarde se dan cuenta de lo complicado que es compartir y unificar la información que cada modulo y organización obtienen.') }}<br />
+     <br />
+    {{ _('ADempiere por su condición de ERP ofrece todo lo que una compañía necesita en un único software, <a href="http://erpya.com/">ERPyA</a> quiere ofrecer a sus lectores una amplia gama de documentos estructurados para usuarios de alta y baja experiencia en el manejo de Software ERP, en los cuales se explicarán de forma eficiente y detallada cada proceso de este potente sistema, definiendo paso a paso la gestión de cada uno, sus implicaciones contables, administrativas y fiscales y finalmente la emisión de resultados que le permitirá un optimo control de sus operaciones.') }}{% endblock %}.
 </p>
-
 {% block tables %}
-<h2>Herramienta Open Project</h2>
+<h2>Procedimientos Estandarizados por ERPyA</h2>
 <table class="contentstable" align="center">
     <tr>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("general/procedures-openproject/openproject/index.html") }}">
+                <a class="biglink" href="{{ pathto("general/openproject/index.html") }}">
                     ¿Que es Open Project?
                 </a>
                 <br />
-                <span class="linkdescr">Conoce sobre la herramienta</span>
+                <span class="linkdescr">¡Hey! tenemos para tí un instructivo experto de nuestra herramienta para gestión de proyectos, con la que logramos de forma ágil y eficiente el feedback con nuestros clientes.</span>
             </p>
         </td>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("general/procedures-openproject/schedule-a-meeting.html") }}">
-                    Acordar una Reunión
+                <a class="biglink" href="{{ pathto("general/procedures-standards/schedule-a-meeting.html") }}">
+                    ¿Quieres agendar una reunión?
                 </a>
                 <br />
-                <span class="linkdescr">Conoce el procedimiento para agendar una reunión</span>
+                <span class="linkdescr">Las reuniones con clientes, es uno de los grandes problemas de las empresas, puesto que en ocasiones resultan improductivas,  <a href="http://erpya.com/">ERPyA</a> ha modelado un procedimiento para garantizar la armonía, ¡Conocelo!</span>
             </p>
         </td>
     </tr>
@@ -37,20 +34,20 @@
     <tr>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("general/procedures-openproject/customer-review.html") }}">
-                    Revisión de Cambios con Cliente
+                <a class="biglink" href="{{ pathto("general/slack/index.html") }}">
+                    ¿Quieres conocer Slack?
                 </a>
                 <br />
-                <span class="linkdescr">Definir objetivo en ambas partes</span>
+                <span class="linkdescr">Generalmente cuando contactas al servicio de soporte por teléfono, Help Desk, formulario Web o correo electrónico se vuelve tan protocolar que tiende a ser agotador, queremos contarte la metodología de <a href="http://erpya.com/">ERPyA</a>.</span>
             </p>
         </td>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("general/procedures-openproject/support-doc.html") }}">
+                <a class="biglink" href="{{ pathto("general/procedures-standards/support-doc.html") }}">
                     Documentar una Tarea / Error
                 </a>
                 <br />
-                <span class="linkdescr">Conoce el procedimiento para reportar un error</span>
+                <span class="linkdescr">Nuestro equipo de soporte tiene la responsabilidad de responder oportunamente y dar soluciones efectivas a nuestros clientes, para esto se debe registrar los detalles sobre el incidente o problema, puedes conocer nuestras recomendaciones aquí.</span>
             </p>
         </td>
     </tr>
@@ -66,13 +63,13 @@
                     Gestión de Recursos Humanos
                 </a>
                 <br />
-                <span class="linkdescr">Consulta documentos de gestión de recursos humanos como <a href="{{ pathto("lve/human-resource-payroll/human-resource/cash-refund/index.html") }}"">Caja Reembolso</a> y documentos de nómina como <a href="{{ pathto("lve/human-resource-payroll/payroll/bonus-cancellation-with-intermediary.html") }}"">Procedimiento para Cancelación de Bono de Alimentación con </br> Pagos a Terceros</a></span> 
+                <span class="linkdescr">Consulta documentos de gestión de recursos humanos como <a href="{{ pathto("lve/human-resource-payroll/human-resource/cash-refund/index.html") }}"">Caja Reembolso</a> y documentos de nómina como <a href="{{ pathto("lve/human-resource-payroll/payroll/bonus-cancellation-with-intermediary.html") }}"">Procedimiento para Cancelación de Bono de Alimentación con </br> Pagos a Terceros</a></span>
             </p>
         </td>
         <td width="50%">
             <p class="biglink">
                 <a class="biglink" href="{{ pathto("lve/standard-coding/index.html") }}">
-                    Codificación Estándar de ADempiere 
+                    Codificación Estándar de ADempiere
                 </a>
                 <br />
                 <span class="linkdescr">Consulta el documento <a href="{{ pathto("lve/standard-coding/product/index.html") }}"">Codificación Estándar de Productos</a> para conocer el estándar de codificación de productos en ADempiere para la localización Venezuela</span>
@@ -102,13 +99,13 @@
                     Maestros de ADempiere
                 </a>
                 <br />
-                <span class="linkdescr">Consulta documentos de socios del negocio </br> de ADempiere como <a href="{{ pathto("adempiere/master/business-partner/provider/index.html") }}"">Socio del Negocio Proveedor</a></span> 
+                <span class="linkdescr">Consulta documentos de socios del negocio </br> de ADempiere como <a href="{{ pathto("adempiere/master/business-partner/provider/index.html") }}"">Socio del Negocio Proveedor</a></span>
             </p>
         </td>
         <td width="50%">
             <p class="biglink">
                 <a class="biglink" href="{{ pathto("adempiere/requisition-to-invoice/index.html") }}">
-                    Gestión de Compras de ADempiere 
+                    Gestión de Compras de ADempiere
                 </a>
                 <br />
                 <span class="linkdescr">Consulta documentos de compras como <a href="{{ pathto("adempiere/requisition-to-invoice/purchase-order/direct-order/index.html") }}"">Orden de Compra</a>, <a href="{{ pathto("adempiere/requisition-to-invoice/invoice/index.html") }}"">Documentos por Pagar</a> y <a href="{{ pathto("adempiere/requisition-to-invoice/material-receipt/index.html") }}"">Recepción de Productos</a></span>
@@ -132,7 +129,7 @@
                     Verticales
                 </a>
                 <br />
-                <span class="linkdescr">Conoce sobre la <a href="{{ pathto("adempiere/vertical/loan-management/index.html") }}"">Gestión de Préstamos e Inversiones</a></span> 
+                <span class="linkdescr">Conoce sobre la <a href="{{ pathto("adempiere/vertical/loan-management/index.html") }}"">Gestión de Préstamos e Inversiones</a></span>
             </p>
         </td>
     </tr>
