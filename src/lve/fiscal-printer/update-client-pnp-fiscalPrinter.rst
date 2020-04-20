@@ -1,7 +1,7 @@
 .. _documento/actualizar-cliente-impresora-pnp:
 
-Procedimiento para Actualizar cliente de cola de impresión local para la Impresora Fiscal PNP
-===================================================================
+Actualizar cliente de cola de impresión local para la Impresora Fiscal PNP
+==========================================================================
 
 #. **Previo a la Actualización es necesario:**
 
@@ -47,7 +47,12 @@ Procedimiento para Actualizar cliente de cola de impresión local para la Impres
    
       #. Que el archivo **StartPrintService.bat** este en ejecución. 
    
-    Si luego revisar los dos puntos anteriores, no se detecta la falla es necesario consultar el error con el equipo técnico de **E.R.P. Consultores y Asociados, C.A.**
+        .. warning::
+
+            "**Si Persiste el Problema**"
+
+            Si el problema persiste, luego revisar los dos puntos anteriores y no se detecta la falla es necesario consultar el error con el equipo técnico de **E.R.P. Consultores y Asociados, C.A.**
+
 
    Para el caso donde la conexión se ejecuta correctamente, se procede a realizar una impresión de control usando el Proceso **Imprimir Reporte Fiscal** con los parámetros: 
 
