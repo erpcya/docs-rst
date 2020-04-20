@@ -23,15 +23,19 @@ Verificación por impresora al inicio del día:
 
    Respuesta al Comando Obtener Estado:
 
-   ::
+
+   .. code-block:: text
 
       ** PFabrepuerto:Transmisión/recepción fue correcta PFestatus:Transmisión/recepción fue correcta PFultimo:0000,0000,44,00,45,200312,143427,0035,0000,00053574,00000662,0815 PFcierrapuerto:Transmisión/recepción fue correcta
 
+
    Donde se tiene la siguiente información útil acerca de la Impresora:
 
-      ::
+
+      .. code-block:: text
 
          PFultimo: 0000,0000,44,00,45,200312,143427,0035,0000,00053574,00000662,0815
+
 
       -  Campo 1 Estado Impresora <0000>
       -  Campo 2 Estado Fiscal <0000>
