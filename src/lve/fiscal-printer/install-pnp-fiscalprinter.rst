@@ -1,7 +1,8 @@
-.. _documento/errores-impresora:
+.. _documento/instalar-impresora-fiscal-pnp:
 
 ``Instalar Impresora Fiscal PNP``
 =================================
+
 
 Para la Instalación del servicio de impresión para la Impresora Fiscal es necesario tener instalado lo siguiente:
 
@@ -43,9 +44,14 @@ Para la Instalación del servicio de impresión para la Impresora Fiscal es nece
    | 4               | Cierra Puerto   | Ninguno         | OK              |
    +-----------------+-----------------+-----------------+-----------------+
 
-   |testdllpnp|
+   .. documento/errores-impresora-01
    
-   Imagen 1. Aplicacion testdllpnp
+   .. figure:: resources/test-pnp-fiscal-printer.png
+      :align: center
+      :alt: Aplicación testdllpnp
+
+      Imagen 1. Aplicación testdllpnp
+   
 
    En caso de no de no obtener ningún resultado o este ser **TO**, se deben
    chequear, el puerto serial o que librería de la impresora esta instalada
