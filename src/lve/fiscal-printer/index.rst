@@ -1,4 +1,3 @@
-
 .. _lve/documentation-lve/fiscal-printer:
 
 
@@ -13,6 +12,8 @@ Actualmente se tiene soporte para las marcas:
 -  `The Factory HKA <https://www.thefactoryhka.com/ve/>`__
 -  `Hasar <https://impresorasfiscalespanama.com/>`__
 -  `VMax <http://www.elepos.com.ve/eleposveweb/index.htm>`__
+-  `Desarrollos PnP, C.A. <http://desarrollospnp.com/>`__ 
+
 
 .. toctree::
     :maxdepth: 2
@@ -20,4 +21,7 @@ Actualmente se tiene soporte para las marcas:
     commons-errors-fiscal-printer
     manual-reports
     setup-vmax-220
-
+    install-pnp-fiscal-printer
+    daily-setup-pnp-fiscalPrinter
+    update-client-pnp-fiscalPrinter
+    
