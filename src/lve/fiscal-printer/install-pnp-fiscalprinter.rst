@@ -1,6 +1,5 @@
-.. |testdllpnp| image:: resources/test-pnp-fiscal-printer.png
+.. _documento/errores-impresora:
 
-=================================
 ``Instalar Impresora Fiscal PNP``
 =================================
 
