@@ -61,7 +61,7 @@ Para la Instalación del servicio de impresión para la Impresora Fiscal es nece
    tomar en cuenta el cuarto valor en el siguiente ejemplo se observar como
    **00**.
 
-   ::
+    .. code-block:: text
 
          0000,0000,44,00,45,200312,143427,0035,0000,00053574,00000662,0815
 
