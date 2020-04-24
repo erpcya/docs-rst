@@ -349,6 +349,10 @@ La información ingresada en esta pestaña puede variar al momento de la elabora
 
     |Pestaña Información de Contrato|
 
+    .. warning::
+
+        La Información de Contrato se debe realizar con la Organización a la Pertenezca el empleado, por eso debe Cambiar La Organización de (*) a la Organización Principal del Empleado.
+
     Imagen 25. Pestaña Información de Contrato
 
     #. Introduzca en el campo "**Nombre**", los (2) dos nombres de la persona a quien va emitido el contrato.
@@ -391,19 +395,19 @@ La información ingresada en esta pestaña puede variar al momento de la elabora
 
             El código de seguridad social se refiere al código del seguro social del empleado, es decir, la cédula del empleado.
 
-    #. Seleccione en el campo "**Nacionalidad**", la nacionalidad de la persona a quien va emitido el contrato. Para ejemplificar el registro se utiliza la nacionalidad "**Venezuela**".
+    #. Seleccione en el campo "**Nacionalidad**", la nacionalidad de la persona a quien va emitido el contrato.
 
         |Campo Nacionalidad|
 
         Imagen 30. Campo Nacionalidad
 
-    #. Introduzca en el campo "**Marca de Identificación**", una descripción que identifica al socio del negocio empleado. Para ejemplificar el registro es utilizada la descripción "**Alta con tatuaje en todo el brazo**".
+    #. Introduzca en el campo "**Marca de Identificación**", una descripción que identifica al socio del negocio empleado.
 
         |Campo Marca de Identificación|
 
         Imagen 31. Campo Marca de Identificación
 
-    #. Introduzca en el campo "**Estado Marital**", el estado marital de la persona a quien va emitido el contrato. Para ejemplificar el registro se utiliza el estado marital "**Casado**".
+    #. Introduzca en el campo "**Estado Marital**", el estado marital de la persona a quien va emitido el contrato.
 
         |Campo Estado Marital2|
 
@@ -427,7 +431,7 @@ La información ingresada en esta pestaña puede variar al momento de la elabora
 
         Imagen 35. Campo Fecha de Nacimiento de Esposo(a)
 
-    #. Introduzca en el campo "**Código de Validación**", el código de marcaje del empleado en la empresa. Para ejemplificar el registro es utilizado el código "**0001**".
+    #. Introduzca en el campo "**Código de Validación**", el código de marcaje del empleado en la empresa.
 
         |Campo Código de Validación|
 
@@ -643,7 +647,7 @@ La información ingresada en esta pestaña puede variar al momento de la elabora
 **Pestaña Atributo de Empleado**
 ********************************
 
-En una empresa los empleados presentan atributos diferentes, los mismos son definidas en la pestaña "**Atributo de Empleado**" para que sean aplicados a la nómina al momento de la ejecución. Los valores de algunos factores de la nómina varían según el socio del negocio empleado, dichos valores son utilizados para aplicar algún concepto de asignación o deducción a la nómina del mismo.
+En una empresa los empleados poseen caracteristicas diferentes, Estas caracteristicas en Adempiere son llamadas Atributos. Un Atributo puede ser el Salario Diario de cada Empleado, El factor ARI, Una Deducción por un Préstamo, etc. Los mismos son definidos en la pestaña "**Atributo de Empleado**" para que sean aplicados a la nómina al momento de la ejecución. Los valores de estos atributos varian según el tipo de Concepto de Nómina. Cabe Destacar que un empleados puede poseer diferentes atributos.
 
 #. Seleccione la pestaña "**Atributo de Empleado**" y proceda al llenado de los campos correspondientes.
 
@@ -657,7 +661,7 @@ En una empresa los empleados presentan atributos diferentes, los mismos son defi
 
         Imagen 71. Campo Relación con Socios del Negocio
 
-    #. Seleccione en el campo "**Concepto Nómina**", las asignaciones o deducciones que definen la nómina del socio del negocio que esta registrando.
+    #. Seleccione en el campo "**Concepto Nómina**", el Concepto de Nómina con el cual le creará el atributo al empleado.
 
         |Campo Concepto Nómina|
 
@@ -665,7 +669,7 @@ En una empresa los empleados presentan atributos diferentes, los mismos son defi
 
         .. warning::
 
-            Al seleccionar cualquier valor en este campo podrá apreciar un grupo de campos necesarios para el registro de atributos del socio del negocio que se esta registrando.
+          Al seleccionar cualquier valor en este campo podrá apreciar una serie de conceptos definidos por Adempiere y que se consideran atributos de cada empleado
 
     #. Introduzca en el campo "**Descripción**", una breve descripción del registro de concepto de nómina que esta realizando.
 
@@ -791,7 +795,7 @@ La pestaña "**Detalle de Pago**", muestra de forma resumida la información de 
 
 En esta pestaña se registran los datos bancarios del socio del negocio empleado, esta información es necesaria para cancelar al empleado las remuneraciones correspondientes por los servicios prestados a la empresa.
 
-#. Seleccione la pestaña "**Cuenta Bancaria**" que se encuentra ubicada del lado izquierdo de la ventana socio del negocio y proceda al llenado de los campos correspondientes.
+#. Seleccione la pestaña "**Cuenta Bancaria**" que se encuentra ubicada del lado izquierdo de la ventana socio del negocio y proceda al llenado de los campos correspondientes. Debe tildar la Opción que dice ACH para que aparezcan los campos que se describen a continuación. Recuerde que el llenado de está cuenta Bancaria es la Cuenta Nómina del empleado, utilizada para el pago de su nómina
 
     |Pestaña Cuenta Bancaria|
 
