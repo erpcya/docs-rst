@@ -13,6 +13,7 @@
 .. |Campo Configuración del Reporte de Nómina| image:: resources/conf-reporte-nomina.png
 .. |Opción OK para generar el reporte| image:: resources/opcion-ok.png
 .. |Reporte de Nómina| image:: resources/reporte-nomina.png
+.. |Campo Plantilla de Reporte de Nómina| image:: resources/plantilla.png
 
 .. _documento/reporte-de-nómina:
 
@@ -25,7 +26,7 @@
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Reporte de Nómina**", con diferentes campos que permiten generar el reporte de nómina de acuerdo a lo requerido por el usuario en su momento.
+#. Podrá visualizar en la ventana "**Reporte de Nómina**", los diferentes campos que permiten generar el reporte de nómina de acuerdo a lo requerido por el usuario en su momento. Cabe destacar que estos campos son filtros  los cuales nos permiten obtener la información más precisa del reporte que deseamos visualizar. No es obligatorio llenar todos campos , usted escogerá los que más se adapten a la información que usted desea obtener. A continuación se detallan cada uno de ellos
 
     |Ventana Reporte de Nómina|
 
@@ -59,6 +60,10 @@
 
     Imagen 6. Campo Proceso Nómina
 
+      .. note::
+
+      El número de Documento del Proceso de Nómina lo encontrará en la Ventana Proceso de Nómina en el campo que dice Número de Documento.
+
 #. Seleccione en el campo "**Departamento Nómina**", el departamento al cual pertenece el empleado y por el cual se va a generar el reporte de nómina.
 
     |Campo Departamento Nómina|
@@ -89,9 +94,6 @@
 
     Imagen 11. Campo Fecha Contable
 
-    .. note::
-
-        Si deseas obtener un reporte por un rango de fecha puedes determinar las fechas, si no se coloca un rango de fecha le van aparecer todos los recibos de pagos de todas las nóminas que tenga procesadas el empleado.
 
 #. Seleccionar en el campo "**Estado del Documento**", el estado en el que se encuentra el documento de pago por el cual se va a generar el reporte de nómina.
 
@@ -99,20 +101,26 @@
 
     Imagen 12. Campo Estado del Documento
 
-#. Seleccionar en el campo "**Configuración del Reporte de Nómina**", la opción "**Nómina Regular**", para visualizar en el reporte de nómina los recibos de pagos de la nómina semanal, quicenal o quincenal mixta de cada empleado de la organización seleccionada anteriormente.
+#. Seleccionar en el campo "**Configuración del Reporte de Nómina**", este campo es obligatorio llenarlo para obtener el reporte de Nómina, existe una gran Cantidad de Reportes de Nóminas, los mismos estan configurados dependiendo del tipo de nómina que necesite visualizar, por ejemplo la Configuración de Reporte de Nómina llamada "**Nómina Regular**", es el reporte que se utiliza cuando queremos ver los resultados de las Nóminas Regulares (Nómina Semanal, Nómina Semanal Mixta, Nómina Quicenal,Nómina Quincenal Mixta, Nómina Mensual y Nómina Mensual Mixta) de cada empleado de la organización seleccionada anteriormente.
 
     |Campo Configuración del Reporte de Nómina|
 
     Imagen 13. Campo Configuración del Reporte de Nómina
 
+#. Seleccionar en el Campo "**Plantilla de Reporte de Nómina**" las diferentes formatos con los que se puede visulizar un reporte de Nómina.
+
+    |Campo Plantilla de Reporte de Nómina|
+
+    Imagen 14. Campo Plantilla de Reporte de Nómina
+
 #. Seleccionar la opción "**OK**", ubicada en la parte inferior derecha de la ventana para finalmente generar el reporte de nómina en base a lo seleccionado en los diferentes campos que contiene dicha ventana "**Reporte de Nómina**".
 
     |Opción OK para generar el reporte|
 
-    Imagen 14. Opción Ok para Generar el Reporte
+    Imagen 15. Opción Ok para Generar el Reporte
 
-#. El reporte puede ser visualizado de la siguiente manera según lo seleccionado en los campos anteriormente explicados.
+#. El reporte que se visualiza a continuación es un "**Recibo de Pago**". Es una de los tipos de reporte que encontrará en Adempiere.
 
     |Reporte de Nómina|
 
-    Imagen 15. Reporte de Nómina
+    Imagen 16. Reporte de Nómina
