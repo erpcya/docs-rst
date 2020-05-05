@@ -17,3 +17,4 @@ Ahora bien, para ello generalmente recurrimos a herramientas tecnologicas, para 
     procedures-standards/index
     openproject/index
     slack/index
+    rst/index
