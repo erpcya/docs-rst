@@ -99,6 +99,12 @@ Para la Instalación del servicio de impresión para la Impresora Fiscal es nece
    Si el Código del Código luego de aplicar el comando Últimos es 00 se
    Procede a realizar un prueba de Impresión.
    
+    .. warning::
+
+      "**Antes de continuar debe cerrar testdllpnp.exe**"
+
+      Si esto no se realiza, la aplicación continuara ocupando el puerto serial, causando problemas de comunicación entre el Cliente de Cola de Impresion y la impresora. 
+
 
 #. **Imprimir Reporte X**
    
@@ -122,7 +128,7 @@ Para la Instalación del servicio de impresión para la Impresora Fiscal es nece
 #. **Configurar Cliente de cola de Impresión**:
    
 
-   #. | Descomprimir el archivo **LocalPrinting-PnP.zip** en el directorio **C** de Windows
+   #. Descomprimir el archivo **LocalPrinting-PnP.zip** en diretorio **C:\PrintService** en de Windows.
 
    #. Los equipos no se deben Suspender solo se de cerrar
 
@@ -132,7 +138,7 @@ Para la Instalación del servicio de impresión para la Impresora Fiscal es nece
    siguientes pruebas:
 
 
-   #. Ingresando como compañía ubicar el proceso **Configuración de
+   #. Ingresando en **ADempiere** como compañía ubicar el proceso **Configuración de
       Impresora Fiscal** y ejecutar el proceso con los parámetros:
 
    ====================== ===============================
