@@ -15,4 +15,4 @@ _ERPyA cuenta con un espacio de trabajo bajo esta popular y gran herramienta , d
 .. toctree::
     :maxdepth: 1
 
-    _Slack
+    slack
