@@ -8,17 +8,44 @@ Actualizar cliente de cola de impresión local para la Impresora Fiscal PNP
 
    -  Hacer un respaldo del **StartPrintService.bat**.
 
-   -  Detener el **StartPrintService.bat**, en caso de estar ejecutándose
+   -  Detener el Servico de Cola de Impresión (**StartPrintService.bat**), en caso de estar ejecutándose al inicio de Windows es posible que no pueda visualizarlo directamente, para detenerlo en este caso hay 2 opciones:
+
+      - Eliminar el Script al inicio de Windows y reiniciar el equipo.
+
+      - Detener el Script desde el Command Promt de Windows (**CMD**) con las siguientes instrucciones:
+
+
+      .. code-block:: batch
+
+            ## Consultar Servicios en el Puerto deseado    
+      
+            netstat -oan |findstr 50043
+
+            ## Obtener PID del servcio en ejecucion
+
+            tasklist /svc /FI "PID eq ####"
+
+            ## Detener Servcio en ejecucion
+
+            taskkill /f /PID ####
+
+
+ .. warning::
+
+      "**Antes de continuar debe esta detenido El Servicio de Cola de Impresion**"
+
+      Si esto no se realiza, no podra modificar o alterar el contenido de la carpeta **PrintService**. 
 
 
 #. **Aplicar Actualización**
 
    Los siguientes pasos permiten actualizar el cliente local de la Impresora Fiscal PNP:
 
-
    #. Descargar el Archivo **LocalPrinting-PnP.zip** el cual **E.R.P. Consultores y Asociados, C.A.** les proporcionara.
 
-   #. Descomprimir el archivo **LocalPrinting-PnP.zip** en el directorio C: , reemplazando los archivos existentes.
+   #. Eliminar el contenido dentro de la carpeta **PrintService** que se encuentra en el Directorio C:\
+
+   #. Descomprimir el archivo **LocalPrinting-PnP.zip** en el directorio C:\ dentro del la carpeta **PrintService** , reemplazando los archivos existentes.
 
 
 #. **Verificar Instalación**
@@ -32,7 +59,7 @@ Actualizar cliente de cola de impresión local para la Impresora Fiscal PNP
    siguientes pruebas: 
 
 
-   Ingresando como compañía ubicar el proceso **Configuración de Impresora Fiscal** y ejecutar el proceso con los parámetros:
+   Ingresando a **ADempiere** como compañía ubicar el proceso **Configuración de Impresora Fiscal** y ejecutar el proceso con los parámetros:
 
       ====================== ===============================
       Parámetro              Valor
