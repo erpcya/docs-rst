@@ -3,33 +3,30 @@
 {% block body %}
   <h1>ADempiere<sup>&reg;</sup> {{ release|e }} Documentación</h1>
 <p>
-    {% block description %}{{ _('Esta documentación está dirigida a los clientes de <a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a>con la finalidad de guiar al usuario en la ejecución de sus actividades diarias sobre ADempiere ERP.') }}<br />
-    <br />
-    {{ _('La misma será actualizada periódicamente en función de las nuevas versiones de ADempiere.') }}<br />
-    <br />
-    {{ _('Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de esta herramienta') }}{% endblock %}.
+    {% block description %}{{ _('La mayor parte de las empresas adquieren distintos software para cubrir las diferentes necesidades de sus organizaciones,pero tarde se dan cuenta de lo complicado que es compartir y unificar la información que cada modulo y organización obtienen.') }}<br />
+     <br />
+    {{ _('ADempiere por su condición de ERP ofrece todo lo que una compañía necesita en un único software, <a href="http://erpya.com/">ERPyA</a> quiere ofrecer a sus lectores una amplia gama de documentos estructurados para usuarios de alta y baja experiencia en el manejo de Software ERP, en los cuales se explicarán de forma eficiente y detallada cada proceso de este potente sistema, definiendo paso a paso la gestión de cada uno, sus implicaciones contables, administrativas y fiscales y finalmente la emisión de resultados que le permitirá un optimo control de sus operaciones.') }}{% endblock %}.
 </p>
-
 {% block tables %}
-<h2>Herramienta Open Project</h2>
+<h2>Procedimientos Estandarizados por ERPyA</h2>
 <table class="contentstable" align="center">
     <tr>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("general/procedures-openproject/openproject/index.html") }}">
+                <a class="biglink" href="{{ pathto("general/openproject/index") }}">
                     ¿Que es Open Project?
                 </a>
                 <br />
-                <span class="linkdescr">Conoce sobre la herramienta</span>
+                <span class="linkdescr">¡Hey! tenemos para tí un instructivo experto de nuestra herramienta para gestión de proyectos, con la que logramos de forma ágil y eficiente el feedback con nuestros clientes.</span>
             </p>
         </td>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("general/procedures-openproject/schedule-a-meeting.html") }}">
-                    Acordar una Reunión
+                <a class="biglink" href="{{ pathto("general/standard-procedures/schedule-a-meeting") }}">
+                    ¿Quieres agendar una reunión?
                 </a>
                 <br />
-                <span class="linkdescr">Conoce el procedimiento para agendar una reunión</span>
+                <span class="linkdescr">Las reuniones con clientes, es uno de los grandes problemas de las empresas, puesto que en ocasiones resultan improductivas,  <a href="http://erpya.com/">ERPyA</a> ha modelado un procedimiento para garantizar la armonía, ¡Conocelo!</span>
             </p>
         </td>
     </tr>
@@ -37,45 +34,45 @@
     <tr>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("general/procedures-openproject/customer-review.html") }}">
-                    Revisión de Cambios con Cliente
+                <a class="biglink" href="{{ pathto("general/slack/index") }}">
+                    ¿Quieres conocer Slack?
                 </a>
                 <br />
-                <span class="linkdescr">Definir objetivo en ambas partes</span>
+                <span class="linkdescr">Generalmente cuando contactas al servicio de soporte por teléfono, Help Desk, formulario Web o correo electrónico se vuelve tan protocolar que tiende a ser agotador, queremos contarte la metodología de <a href="http://erpya.com/">ERPyA</a>.</span>
             </p>
         </td>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("general/procedures-openproject/support-doc.html") }}">
-                    Documentar una Tarea / Error
+                <a class="biglink" href="{{ pathto("general/standard-procedures/support-doc") }}">
+                    ¿Cómo reportar tus incidentes?
                 </a>
                 <br />
-                <span class="linkdescr">Conoce el procedimiento para reportar un error</span>
+                <span class="linkdescr">Nuestro equipo de soporte tiene la responsabilidad de responder oportunamente y dar soluciones efectivas a nuestros clientes, para esto es necesario un reporte detallado sobre el incidente o problema, puedes conocer nuestras recomendaciones aquí.</span>
             </p>
         </td>
     </tr>
 </table>
 
 
-<h2>Localización de ADempiere en Venezuela</h2>
+<h2>Localización Venezuela ADempiere</h2>
 <table class="contentstable" align="center">
     <tr>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("lve/human-resource-payroll/index.html") }}">
+                <a class="biglink" href="{{ pathto("lve/human-resource-payroll/index") }}">
                     Gestión de Recursos Humanos
                 </a>
                 <br />
-                <span class="linkdescr">Consulta documentos de gestión de recursos humanos como <a href="{{ pathto("lve/human-resource-payroll/human-resource/cash-refund/index.html") }}"">Caja Reembolso</a> y documentos de nómina como <a href="{{ pathto("lve/human-resource-payroll/payroll/bonus-cancellation-with-intermediary.html") }}"">Procedimiento para Cancelación de Bono de Alimentación con </br> Pagos a Terceros</a></span> 
+                <span class="linkdescr">El mundo empresarial en Venezuela requiere estrategias y herramienta que permitan obtener resultados efectivos, por ende, se hace necesario contar con personal dispuesto y capacitado para alcanzar metas, esto ha obligado a <a href="http://erpya.com/">ERPyA</a> a idear procedimientos que den solución a metodologías empleadas para beneficiar a empleados como lo es: capacitacitación, remuneración, incentivos, alimentación, dotación, reembolsos y recreación. ¿Quieres conocerlos?</span>
             </p>
         </td>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("lve/standard-coding/index.html") }}">
-                    Codificación Estándar de ADempiere 
+                <a class="biglink" href="{{ pathto("lve/standard-coding/index") }}">
+                    Codificación Estándar
                 </a>
                 <br />
-                <span class="linkdescr">Consulta el documento <a href="{{ pathto("lve/standard-coding/product/index.html") }}"">Codificación Estándar de Productos</a> para conocer el estándar de codificación de productos en ADempiere para la localización Venezuela</span>
+                <span class="linkdescr"><a href="http://erpya.com/">ERPyA</a> al implantar ADempiere estandar, pretende establecer normas claras y precisas en los métodos y formas de ejecutar un proceso concreto, estas normas en ocasiones no pretende burocratizar, sino prever problemas y soluciones, para el caso de administración, contabilidad, recursos humanos y nómina, se plantea la codificación estandar como indispensable para la buena administración.</span>
             </p>
         </td>
     </tr>
@@ -83,11 +80,20 @@
     <tr>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("lve/fiscal-printer/index.html") }}">
+                <a class="biglink" href="{{ pathto("lve/fiscal-printer/index") }}">
                     Impresora Fiscal
                 </a>
                 <br />
                 <span class="linkdescr">Consulta documentos como <a href="{{ pathto("lve/fiscal-printer/commons-errors-fiscal-printer.html") }}"">Errores Comunes </br> de la Impresora Fiscal</a>, <a href="{{ pathto("lve/fiscal-printer/manual-reports.html") }}"">Generar Reportes Manualmente en la Impresora</a> y <a href="{{ pathto("lve/fiscal-printer/setup-vmax-220.html") }}"">Configuración </br> de Impresora Fiscal VMax 220 para Usar con ADempiere</a></span>
+            </p>
+        </td>
+        <td width="50%">
+            <p class="biglink">
+                <a class="biglink" href="{{ pathto("lve/standard-coding/index") }}">
+                    Gestión de Nóminas
+                </a>
+                <br />
+                <span class="linkdescr">El proceso de creación de nómina en ADempiere comienza en cada período de pago, estos están definido en la LOTTT, en tal sentido, el formato estándar de <a href="http://erpya.com/">ERPyA</a> para una nómina está regulado por la legislación venezolana vigente, en la que se establece una estructura mínima respetada: Nómina Quincenal, Nómina Semanal, Nómina Mensual, Nómina de Bono de Alimentación, Vacaciones, Utilidades y Liquidación. El diseño tiene el propósito de controlar la información de nómina de la empresa, ¿Quieres conocer a fondo esta definición?</span>
             </p>
         </td>
     </tr>
@@ -98,20 +104,20 @@
     <tr>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("adempiere/master/index.html") }}">
+                <a class="biglink" href="{{ pathto("adempiere/master/index") }}">
                     Maestros de ADempiere
                 </a>
                 <br />
-                <span class="linkdescr">Consulta documentos de socios del negocio </br> de ADempiere como <a href="{{ pathto("adempiere/master/business-partner/provider/index.html") }}"">Socio del Negocio Proveedor</a></span> 
+                <span class="linkdescr">Los datos maestros comprenden registros que dan origen a las transacciones, por los tanto no son modificables de forma regular,en tal sentido <a href="http://erpya.com/">ERPyA</a> te explica como crear tus maestros de forma ideal evitando así duplicidad e inconsistencia en los datos.</span>
             </p>
         </td>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("adempiere/requisition-to-invoice/index.html") }}">
-                    Gestión de Compras de ADempiere 
+                <a class="biglink" href="{{ pathto("adempiere/requisition-to-invoice/index") }}">
+                    Gestión de Compras
                 </a>
                 <br />
-                <span class="linkdescr">Consulta documentos de compras como <a href="{{ pathto("adempiere/requisition-to-invoice/purchase-order/direct-order/index.html") }}"">Orden de Compra</a>, <a href="{{ pathto("adempiere/requisition-to-invoice/invoice/index.html") }}"">Documentos por Pagar</a> y <a href="{{ pathto("adempiere/requisition-to-invoice/material-receipt/index.html") }}"">Recepción de Productos</a></span>
+                <span class="linkdescr">En <a href="http://erpya.com/">ERPyA</a>, queremos garantizar el flujo productivo y administrativo de la empresa, es por esto que se hace fundamental una eficiente gestión de compras, que no es otra cosa que la adquisición de bienes o servicios, aquí te mostraremos como gestionar tus compras nacionales e internacionales en ADempiere ERP.</span>
             </p>
         </td>
     </tr>
@@ -119,20 +125,20 @@
     <tr>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("adempiere/open-items/index.html") }}">
-                    Gestión de Saldos Pendientes </br> de ADempiere
+                <a class="biglink" href="{{ pathto("adempiere/open-items/index") }}">
+                    Gestión de Saldos Pendientes </br>
                 </a>
                 <br />
-                <span class="linkdescr">Consulta documentos como <a href="{{ pathto("adempiere/open-items/automatic-conciliations/index.html") }}"">Conciliación </br> Automática</a> y conoce el procedimiento a seguir para realizar una conciliación en ADempiere</span>
+                <span class="linkdescr">La gestión de saldos pendientes en ADempiere   te brinda la posibilidad de manejar las ordenes de pagos, selección de pagos, pagos, cobros, conciliaciones automaticas, cartera de morosidad y deudas pendientes de la empresa,<a href="http://erpya.com/">ERPyA</a> quiere enseñarte como gestionar tus saldos pendientes en ADempiere.</span>
             </p>
         </td>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("adempiere/vertical/index.html") }}">
-                    Verticales
+                <a class="biglink" href="{{ pathto("adempiere/vertical/index") }}">
+                    Gestión de Ventas
                 </a>
                 <br />
-                <span class="linkdescr">Conoce sobre la <a href="{{ pathto("adempiere/vertical/loan-management/index.html") }}"">Gestión de Préstamos e Inversiones</a></span> 
+                <span class="linkdescr">El proceso de ventas es la secuencia de fases para convertir una oportunidad en una venta, desde que se genera una cotización o propuesta hasta que se concluye la venta, si quieres saber como ADempiere contempla este proceso tan importante <a href="http://erpya.com/">ERPyA</a> te lo explica.</span>
             </p>
         </td>
     </tr>

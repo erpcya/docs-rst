@@ -11,6 +11,8 @@
 .. |Campo Socio del Negocio| image:: resources/socio-proceso-nomina.png
 .. |Campo Tipo de Conversión| image:: resources/tip-conv-proceso-nomina.png
 .. |Campo Tipo de Documento Destino| image:: resources/tipo-doc-proceso-nomina.png
+.. |Selección de la acción Completar y opción OK| image:: resources/completar.png
+.. |Campo Periodo de Nómina| image:: resources/periodo.png
 
 .. _documento/procedimiento-para-procesar-nómina:
 .. _ERPyA: http://erpya.com
@@ -51,7 +53,7 @@
 
     .. note::
 
-        Los tipos de documentos de nómina se encuentran agrupados según su comportamiento, el comportamiento de las nóminas semanal y la semanal mixta se encuentran definidos en el tipo de documento "**Nómina Semanal**". De igual forma ocurre con las diferentes nóminas utilizadas en ADempiere.
+        Los tipos de documentos de nómina se encuentran agrupados según su comportamiento, la Nóminas Semanal y la Nómina Semanal Mixta se encuentran definidas en el Tipo de Documento "**Nómina Semanal**". De igual forma ocurre con las diferentes nóminas regulares utilizadas en Adempiere.
 
 #. Seleccione en el campo "**Fecha Contable**", la fecha correspondiente a la fecha final del periodo de la nómina seleccionada, es decir la fecha hasta ingresada en el campo "**Nombre**".
 
@@ -59,49 +61,61 @@
 
     Imagen 6. Campo Fecha Contable
 
-#. Seleccione la nómina que se requiere procesar en el campo "**Nómina**". En este campo no se encuentran unidas las nóminas como en el campo "**Tipo de Documento Destino**", por lo tanto se puede seleccionar la opción "**Nómina Semanal**" para ejemplificar el registro que se esta realizando.
+#. Seleccione la nómina que se requiere procesar en el campo "**Nómina**". En este campo no se encuentran unidas las nóminas como en el campo "**Tipo de Documento Destino**", por lo tanto se puede seleccionar la opción "**Nómina Semanal Mixta**" para ejemplificar el registro que se esta realizando.
 
     |Campo Nómina|
 
     Imagen 7. Campo Nómina
 
-#. Seleccione en el campo "**Socio del Negocio**", el socio del negocio empleado al cual se le va a procesar la nómina que se esta registrando.
+#. Seleccione el "**Periodo de Nómina**". Las nóminas regulares poseen sus periodos de nómina ya sean semanales, quincenales o mensuales, usted debe elegir en este campo el periodo correspondiente a la nómina que este ejecutando.
+
+    |Campo Periodo de Nómina|
+
+    Imagen 8. Campo Periodo de Nómina
+
+#. Seleccione en el campo "**Socio del Negocio**", el socio del negocio es el empleado al cual se le va a procesar la nómina que se esta registrando.
 
     |Campo Socio del Negocio|
 
-    Imagen 8. Campo Socio del Negocio
+    Imagen 9. Campo Socio del Negocio
 
     .. note::
 
-        Este campo es utilizado cuando se le va a procesar la nómina a un solo empleado de la organización.
+        Este campo es utilizado cuando se le va a procesar la nómina a un solo empleado de la organización.Si usted desea procesar la nómina a todo el personal que tiene asignado la Nómina Semanal Mixta no seleccione a ningun Socio de Negocio.
 
 #. Seleccione en el campo "**Moneda**", la moneda correspondiente al pago del empleado de la organización.
 
     |Campo Moneda|
 
-    Imagen 9. Campo Moneda
+    Imagen 10. Campo Moneda
 
 #. Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión correspondiente a la moneda seleccionada para el pago.
 
     |Campo Tipo de Conversión|
 
-    Imagen 10. Campo Tipo de Conversión
+    Imagen 11. Campo Tipo de Conversión
 
 #. Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos de la ventana "**Proceso Nómina**".
 
 
     |Selección de Icono Guardar|
 
-    Imagen 11. Selección de Icono Guardar Cambios
+    Imagen 12. Selección de Icono Guardar Cambios
 
 #. Seleccione la opción "**Completar**", ubicada en la parte inferior derecha de la ventana "**Proceso Nómina**", para preparar la nómina registrada.
 
     |Opción Completar|
 
-    Imagen 12. Opción Completar
+    Imagen 13. Opción Completar
 
 #. Seleccione la acción "**Preparar**" y la opción "**OK**" para preparar el documento.
 
     |Selección de la acción Preparar y opción OK|
 
-    Imagen 12. Selección de la acción preparar y la opción OK.
+    Imagen 14. Selección de la acción preparar y la opción OK.
+
+#. Puede preparar la nómina cuantas veces sean necesarios. Cuando este seguro de que tiene todos los cálculos correctos proceda a completar la Nómina.
+
+    |Selección de la acción Completar y opción OK|
+
+    Imagen 15. Selección de la acción Completar y la opción OK.
