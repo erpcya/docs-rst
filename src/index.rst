@@ -13,7 +13,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     :maxdepth: 1
     :numbered:
 
-    general/procedures-standards/index
+    general/standard-procedures/index
     general/openproject/index
     general/slack/index
     general/rst/index
