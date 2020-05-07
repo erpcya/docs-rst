@@ -19,18 +19,18 @@
 .. |Acceso| image:: resources/Acceso.png
 
 
-Para poder acceder al espacio de trabajo de **`ERPyA`_** se debe tener una cuenta asociada, para ello primeramente debes contar con una invitación el cual llegará a la cuenta de correo electrónico qué le facilites a los consultores de **_ERPyA**, posterior a ello debes ser miembro de un canal privado de la empresa a la qué pertenezca para qué puedas interactuar bajo el espacio de trabajo de `ERPyA`_.
+Para poder acceder al espacio de trabajo de `ERPyA`_ se debe tener una cuenta asociada, para ello primeramente debes contar con una invitación el cual llegará a la cuenta de correo electrónico qué le facilites a los consultores de `ERPyA`_, posterior a ello debes ser miembro de un canal privado de la empresa a la qué pertenezca para qué puedas interactuar bajo el espacio de trabajo de `ERPyA`_.
 
 .. note::
 
-    La invitación es realizada por el equipo de trabajo de **`ERPyA`_**
+    La invitación es realizada por el equipo de trabajo de `ERPyA`_
 
-    Para poder cumplir con los aspectos anteriormente mencionados, a continuación se detalla el paso a paso para poder crear una cuenta y acceder al espacio de trabajo del slack de **`ERPyA`_**
+    Para poder cumplir con los aspectos anteriormente mencionados, a continuación se detalla el paso a paso para poder crear una cuenta y acceder al espacio de trabajo del slack de `ERPyA`_
 
 **Crear Cuenta en Slack**
 -------------------------
 
-#. En la cuenta del correo electrónico llegará un mensaje con la invitación realizada por **`ERPyA`_**
+#. En la cuenta del correo electrónico llegará un mensaje con la invitación realizada por `ERPyA`_
 
 #. Al abrir el correo de la invitación aparecerá un mensaje invitandote a unirte al espacio de trabajo, dar click al botón “**Únete ahora**” para poder crear una cuenta.
 
@@ -48,9 +48,9 @@ Para poder acceder al espacio de trabajo de **`ERPyA`_** se debe tener una cuent
 
         Imagen 2. Crear Cuenta Usuario
 
-    .. note::
+        .. note::
 
-        Se recomienda colocar como nombre y apellido la inicial de ambos en mayúscula y continuar con minúscula, el nombre qué coloques es el nombre a mostrar en los mensajes que envíes en slack.
+            Se recomienda colocar como nombre y apellido la inicial de ambos en mayúscula y continuar con minúscula, el nombre qué coloques es el nombre a mostrar en los mensajes que envíes en slack.
 
     #. Colocar la contraseña en el campo **“Contraseña”**  la cual se utilizará para acceder al slack, esta debe contemplar  lo indicado por el slack el cual no puede tener menos de 6 caracteres.
 
@@ -58,9 +58,9 @@ Para poder acceder al espacio de trabajo de **`ERPyA`_** se debe tener una cuent
 
         Imagen 3. Crear Cuenta Contraseña
 
-    .. note::
+        .. note::
 
-        La contraseña a colocar queda a criterio de la persona qué esté creando la cuenta, se recomienda colocar contraseñas fáciles de recordar, y qué la persona suela  utilizar comúnmente.
+            La contraseña a colocar queda a criterio de la persona qué esté creando la cuenta, se recomienda colocar contraseñas fáciles de recordar, y qué la persona suela  utilizar comúnmente.
 
     #. Una vez llenado los campos **“Nombre Completo”** y **“Contraseña”** dar click al botón **“Crear Cuenta”**
 
@@ -68,11 +68,11 @@ Para poder acceder al espacio de trabajo de **`ERPyA`_** se debe tener una cuent
 
         Imagen 4. Crear Cuenta botón
 
-    .. note::
+        .. note::
 
-        Al dar click al botón **“Crear Cuenta”** te redireccionará al espacio de trabajo de **`ERPyA`_**
+            Al dar click al botón **“Crear Cuenta”** te redireccionará al espacio de trabajo de `ERPyA`_
 
-#. Se mostrará la siguiente vista, donde te dará la bienvenida al espacio de trabajo de **`ERPyA`_** y una series de opciónes para que pongas en marcha y al día la cuenta en Slack
+#. Se mostrará la siguiente vista, donde te dará la bienvenida al espacio de trabajo de `ERPyA`_ y una series de opciónes para que pongas en marcha y al día la cuenta en Slack
 
     |Inicio de Sesión Bienvenida|
 
@@ -114,7 +114,7 @@ Para poder acceder al espacio de trabajo de **`ERPyA`_** se debe tener una cuent
 
             Imagen 12. Identificación Mensajes
 
-    #. Dentro de la opción **“Canales”** podrá observar los canales privados el cual va a pertenecer, al posicionarse dentro del canal privado podrá comenzar a interactuar con el equipo de trabajo de **`ERPyA`_**
+    #. Dentro de la opción **“Canales”** podrá observar los canales privados el cual va a pertenecer, al posicionarse dentro del canal privado podrá comenzar a interactuar con el equipo de trabajo de `ERPyA`_
 
         |Descripción del Canal|
 
@@ -123,7 +123,7 @@ Para poder acceder al espacio de trabajo de **`ERPyA`_** se debe tener una cuent
 **Inicio de Sesión**
 --------------------
 
-Si deseas conectarte nuavemente al espacio de trabajo de slack de **`ERPyA`_**, debes realizar los siguientes pasos:
+Si deseas conectarte nuavemente al espacio de trabajo de slack de `ERPyA`_, debes realizar los siguientes pasos:
 
 #. Ingresar en el navegador de tu preferencia la URL donde se encuentra alojado el espacio de trabajo de `ERPyA`_
 
@@ -135,7 +135,7 @@ Si deseas conectarte nuavemente al espacio de trabajo de slack de **`ERPyA`_**, 
 
         Dar click a esta opción para acceder a la URL de `Slack`_
 
-    #. Al colocar la URL del espacio de trabajo de **`ERPyA`_**  mostrará la siguiente vista donde se colocara la crenciales de acceso.
+    #. Al colocar la URL del espacio de trabajo de `ERPyA`_  mostrará la siguiente vista donde se colocara la crenciales de acceso.
 
         |Acceso|
 
@@ -149,4 +149,4 @@ Si deseas conectarte nuavemente al espacio de trabajo de slack de **`ERPyA`_**, 
 
 .. note::
 
-    Te envitamos a que también descargues la aplicación en tu teléfono móvil o en tu equipo a traves de **"`Google Play Store`_"**
+    Te envitamos a que también descargues la aplicación en tu teléfono móvil o en tu equipo a traves de `Google Play Store`_
