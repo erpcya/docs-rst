@@ -25,7 +25,7 @@ Para poder acceder al espacio de trabajo de `ERPyA`_ se debe tener una cuenta as
 
     La invitación es realizada por el equipo de trabajo de `ERPyA`_
 
-    Para poder cumplir con los aspectos anteriormente mencionados, a continuación se detalla el paso a paso para poder crear una cuenta y acceder al espacio de trabajo del slack de `ERPyA`_
+Para poder cumplir con los aspectos anteriormente mencionados, a continuación se detalla el paso a paso para poder crear una cuenta y acceder al espacio de trabajo del slack de `ERPyA`_
 
 **Crear Cuenta en Slack**
 -------------------------
