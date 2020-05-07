@@ -1,8 +1,8 @@
-.. _src/general/procedures-standards:
+.. _src/general/standard-procedures:
 
-==========================================================
+=============================
 **Procedimientos Estándares**
-==========================================================
+=============================
 
 Los procedimientos es un conjunto de reglas para controlar y garantizar resultados, en este sentido `ERPyA`_ ha establecido a lo largo de su trayectoria estándares que han garantizado la armonía y sincronización en implementación y gestión de soporte.
 

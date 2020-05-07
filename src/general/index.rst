@@ -14,6 +14,7 @@ Ahora bien, para ello generalmente recurrimos a herramientas tecnologicas, para 
 .. toctree::
     :maxdepth: 1
 
-    procedures-standards/index
+    standard-procedures/index
     openproject/index
     slack/index
+    rst/index
