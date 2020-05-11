@@ -23,4 +23,4 @@ ERPyA pretende ofrecer una explicación eficiente a nuestros clientes del proced
 
     concept
     conciliation
-    Bank-Statement-Download
+    Download
