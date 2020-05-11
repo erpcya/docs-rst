@@ -119,3 +119,7 @@
     |Selección de la acción Completar y opción OK|
 
     Imagen 15. Selección de la acción Completar y la opción OK.
+
+#. Al finalizar el Proceso de Nómina, puede ver los Resultados en los siguientes enlaces:
+
+    * Proceso de Nómina Semanal:  :ref:`documento/nomina-semanal:`
