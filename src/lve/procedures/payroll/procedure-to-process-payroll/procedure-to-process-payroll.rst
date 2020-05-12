@@ -123,3 +123,5 @@
 #. Al finalizar el Proceso de Nómina, puede ver los Resultados en los siguientes enlaces:
 
     * Proceso de Nómina Semanal:  :ref:`documento/nomina-semanal:`
+    * Proceso de Nómina Quincenal:  :ref:`documento/nomina-quincenal:`
+    * Proceso de Nómina Mensual:  :ref:`documento/nomina-mensual:`
