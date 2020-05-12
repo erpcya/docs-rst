@@ -37,7 +37,7 @@
 
 .. _ERPyA: http://erpya.com
 
-.. _documento/socio-cliente:
+.. _documento/socio-negocio:
 
 
 **Proceso de Registro del Socio del Negocio**
