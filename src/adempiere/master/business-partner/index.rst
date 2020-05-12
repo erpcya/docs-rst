@@ -15,9 +15,6 @@ En esta ocasión `ERPyA`_ pretende ofrecerle una guía fácil para la definició
 
 
 .. toctree::
-    :maxdepth: 1
-    :numbered:
+    :maxdepth: 3
 
-    provider/index
-    employee/index
-    customer/index
+    business-partner
