@@ -1,6 +1,3 @@
-.. _documento/weekly-payroll:
-.. _ERPyA: http://erpya.com
-
 
 .. |Nómina Semanal| image:: resources/semanal.png
 .. |Recibo de Pago Nómina Semanal| image:: resources/recibosemanal.png
@@ -9,6 +6,9 @@
 .. |Retenciones Nómina Semanal| image:: resources/retencionessemanal.png
 .. |Aportes Nómina Semanal| image:: resources/aportessemanal.png
 .. |Provisiones Nómina Semanal| image:: resources/provisionessemanal.png
+
+.. _documento/nomina-semanal:
+.. _ERPyA: http://erpya.com
 
 
 ======================
