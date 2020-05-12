@@ -15,4 +15,6 @@ En esta ocasión `ERPyA`_ pretende ofrecerle una guía fácil para la definició
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 3
+
+    business-partner
