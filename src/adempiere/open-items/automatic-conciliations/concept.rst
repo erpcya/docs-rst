@@ -1,6 +1,6 @@
 .. _documento/conciliacion-automatica:
 .. _ERPyA: http://erpya.com
-.. _importación: https://docs.erpya.com/es/latest/adempiere/open-items/automatic-conciliations/concept.html#importacion-de-extracto-bancario
+.. _importación: https://docs.erpya.com/es/latest/ADempiere/open-items/automatic-conciliations/concept.html#importacion-de-extracto-bancario
 
 **Crear Conciliación Automática**
 ---------------------------------
@@ -58,7 +58,7 @@ Para poder crear una conciliación automática en ADempiere debe seguir los sigu
 
 Para que ADempiere pueda conciliar y verificar los pagos/cobros en una cuenta bancaria y los registrados pagos/cobros en ADempiere, se debe importar el extracto bancario generado del banco para ello se deben seguir los siguientes pasos:
 
-#. Ya estando posicionados en la ventana **"Estado de Cuenta bancario"** seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
+#. Ya estanto posicionados en la ventana **"Estado de Cuenta bancario"** seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
 
       .. figure:: resources/proceso.png
          :alt: Icono Proceso
@@ -129,7 +129,7 @@ Para que ADempiere pueda conciliar y verificar los pagos/cobros en una cuenta ba
 
 Una vez seleccionado el banco con el que se realizará la conciliación bancaria e importado el extracto bancario se procede a realizar la conciliación automática:
 
-#. Estando posicionados en la ventana **"Estado de Cuenta bancario"** Seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
+#. Estanto posicionados en la ventana **"Estado de Cuenta bancario"** Seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
 
       .. figure:: resources/proceso.png
          :alt: Icono Proceso
@@ -211,6 +211,227 @@ Una vez seleccionado el banco con el que se realizará la conciliación bancaria
 
      Al seleccionar "Ok" ADempiere lo llevara nuavamente a la ventana principal "Estado de Cuenta Bancario".
 
+**Coincidencia bancarias**
+~~~~~~~~~~~~~~~~~~~~~~~~
+
+Al momento de realizar la conciliación bancaria ADempiere maneja una serie verficaciónes para poder encontrar las coincidencias bancarias, los datos que toma ADempire tanto en los movimientos del extracto bancario como los movimientos registrados en ADempiere son los siguintes por banco:
+
+* **Banco Banesco**
+
++------------------------+---------------------------+
+| Movimientos Bancarios  | Movimientos ADempiere     |
++========================+===========================+
+|N° Refrencia Bancaria   | N° Documento en ADempiere |
++------------------------+---------------------------+
+|Monto                   | Monto                     |
++------------------------+---------------------------+
+|Moneda                  | Moneda                    |
++------------------------+---------------------------+
+
+#. **N° de referencia bancaria / N° de documento en ADempiere:**
+ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.
+
+#. **Monto:**
+ADempiere se encarga de buscar y verificar que los montos del movimiento bancarío como el monto del regitro en ADempiere coincidan.
+
+#. **Moneda:**
+ADempiere se encarga de buscar y verificar que la moneda del movimiento bancarío con la moneda del regitro en ADempiere coincidan, ejemplo : **VES / VES**, **USD / USD**
+
+ .. note ::
+
+        Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrara ninguna coincidencia.
+
+
+* **Banco Mercantil**
+
+
++------------------------+---------------------------+
+| Movimientos Bancarios  | Movimientos ADempiere     |
++========================+===========================+
+|N° Refrencia Bancaria   | N° Documento en ADempiere |
++------------------------+---------------------------+
+|Monto                   | Monto                     |
++------------------------+---------------------------+
+|Moneda                  | Moneda                    |
++------------------------+---------------------------+
+
+#. **N° de referencia bancaria / N° de documento en ADempiere:**
+ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.
+
+#. **Monto:**
+ADempiere se encarga de buscar y verificar que los montos del movimiento bancarío como el monto del regitro en ADempiere coincidan.
+
+#. **Moneda:**
+
+ADempiere se encarga de buscar y verificar que la moneda del movimiento bancarío con la moneda del regitro en ADempiere coincidan, ejemplo : **VES / VES**, **USD / USD**
+
+ .. note ::
+
+        Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrara ninguna coincidencia.
+
+
+* **Banco Bancaribe**
+
++-------------------------+-----------------------------+
+| Movimientos Bancarios   | Movimientos ADempiere       |
++=========================+=============================+
+|* N° Refrencia Bancaria  | * N° Documento en ADempiere |
+|* Memo                   | * Descripción               |
+|* N° Cheque              | * N° Cheque                 |
++-------------------------+-----------------------------+
+|Monto                    | Monto                       |
++-------------------------+-----------------------------+
+|Moneda                   | Moneda                      |
++-------------------------+-----------------------------+
+
+Para las conciliaciones del banco **Bancaribe** este puede tomar tanto el N° de refencia bancaria con el número de documento en ADempiere, el memo con la descipción del registro en ADempiere, ó el número de cheque con el número de cheque en ADempiere.
+
+ #. **N° de referencia bancaria / N° de documento en ADempiere:**
+ ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.
+
+ #. **Memo / Descripción:**
+  ADempiere se encarga de buscar y verificar que tanto en el memo que se encuentra en el movimiento del extracto bancario coincida con la descripción del registro en ADempiere.
+
+ #. **N° Cheque / N° Cheque:**
+ADempiere se encarga de buscar y verificar que tanto en el n° de cheque del movimiento del extracto bancario coincida con el n° de cheque de ADempiere.
+
+ #. **Monto:**
+ ADempiere se encarga de buscar y verificar que los montos del movimiento bancarío como el monto del regitro en ADempiere coincidan.
+
+ #. **Moneda:**
+ ADempiere se encarga de buscar y verificar que la moneda del movimiento bancarío con la moneda del regitro en ADempiere coincidan, ejemplo : **VES / VES**, **USD / USD**
+
+ .. note ::
+
+        Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrara ninguna coincidencia.
+
+*  **Banco Provincial**
+
+ +------------------------+---------------------------+
+ | Movimientos Bancarios  | Movimientos ADempiere     |
+ +========================+===========================+
+ |N° Refrencia Bancaria   | N° Documento en ADempiere |
+ +------------------------+---------------------------+
+ |Monto                   | Monto                     |
+ +------------------------+---------------------------+
+ |Moneda                  | Moneda                    |
+ +------------------------+---------------------------+
+
+ #. **N° de referencia bancaria / N° de documento en ADempiere:**
+ ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.
+
+ #. **Monto:**
+ ADempiere se encarga de buscar y verificar que los montos del movimiento bancarío como el monto del regitro en ADempiere coincidan.
+
+ #. **Moneda:**
+ ADempiere se encarga de buscar y verificar que la moneda del movimiento bancarío con la moneda del regitro en ADempiere coincidan, ejemplo : **VES / VES**, **USD / USD**
+
+ .. note ::
+
+        Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrara ninguna coincidencia.
+
+* **Banco de Venezuela**
+
+ +------------------------+---------------------------+
+ | Movimientos Bancarios  | Movimientos ADempiere     |
+ +========================+===========================+
+ |N° Refrencia Bancaria   | N° Documento en ADempiere |
+ +------------------------+---------------------------+
+ |Monto                   | Monto                     |
+ +------------------------+---------------------------+
+ |Moneda                  | Moneda                    |
+ +------------------------+---------------------------+
+
+ #. **N° de referencia bancaria / N° de documento en ADempiere:**
+ ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.
+
+ #. **Monto:**
+ ADempiere se encarga de buscar y verificar que los montos del movimiento bancarío como el monto del regitro en ADempiere coincidan.
+
+ #. **Moneda:**
+ ADempiere se encarga de buscar y verificar que la moneda del movimiento bancarío con la moneda del regitro en ADempiere coincidan, ejemplo : **VES / VES**, **USD / USD**
+
+  .. note ::
+
+        Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrara ninguna coincidencia.
+
+* **Banco Banplus**
+
+
+ +------------------------+---------------------------+
+ | Movimientos Bancarios  | Movimientos ADempiere     |
+ +========================+===========================+
+ |N° Refrencia Bancaria   | N° Documento en ADempiere |
+ +------------------------+---------------------------+
+ |Monto                   | Monto                     |
+ +------------------------+---------------------------+
+ |Moneda                  | Moneda                    |
+ +------------------------+---------------------------+
+
+ #. **N° de referencia bancaria / N° de documento en ADempiere:**
+ ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.
+
+ #. **Monto:**
+ ADempiere se encarga de buscar y verificar que los montos del movimiento bancarío como el monto del regitro en ADempiere coincidan.
+
+ #. **Moneda:**
+ ADempiere se encarga de buscar y verificar que la moneda del movimiento bancarío con la moneda del regitro en ADempiere coincidan, ejemplo : **VES / VES**, **USD / USD**
+
+  .. note ::
+
+        Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrara ninguna coincidencia.
+
+* **Banco del Tesoro**
+
+ +------------------------+---------------------------+
+ | Movimientos Bancarios  | Movimientos ADempiere     |
+ +========================+===========================+
+ |N° Refrencia Bancaria   | N° Documento en ADempiere |
+ +------------------------+---------------------------+
+ |Monto                   | Monto                     |
+ +------------------------+---------------------------+
+ |Moneda                  | Moneda                    |
+ +------------------------+---------------------------+
+
+ #. **N° de referencia bancaria / N° de documento en ADempiere:**
+ ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.
+
+ #. **Monto:**
+ ADempiere se encarga de buscar y verificar que los montos del movimiento bancarío como el monto del regitro en ADempiere coincidan.
+
+ #. **Moneda:**
+ ADempiere se encarga de buscar y verificar que la moneda del movimiento bancarío con la moneda del regitro en ADempiere coincidan, ejemplo : **VES / VES**, **USD / USD**
+
+  .. note ::
+
+        Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrara ninguna coincidencia.
+
+* **Banco Nacional del Crédito**
+
+ +------------------------+---------------------------+
+ | Movimientos Bancarios  | Movimientos ADempiere     |
+ +========================+===========================+
+ |N° Refrencia Bancaria   | N° Documento en ADempiere |
+ +------------------------+---------------------------+
+ |Monto                   | Monto                     |
+ +------------------------+---------------------------+
+ |Moneda                  | Moneda                    |
+ +------------------------+---------------------------+
+
+ #. **N° de referencia bancaria / N° de documento en ADempiere:**
+ ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.
+
+ #. **Monto:**
+ ADempiere se encarga de buscar y verificar que los montos del movimiento bancarío como el monto del regitro en ADempiere coincidan.
+
+ #. **Moneda:**
+ ADempiere se encarga de buscar y verificar que la moneda del movimiento bancarío con la moneda del regitro en ADempiere coincidan, ejemplo : **VES / VES**, **USD / USD**
+
+  .. note ::
+
+        Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrara ninguna coincidencia.
+
+
 **Revisión de Conciliaciones**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -226,7 +447,7 @@ Una vez aplicado el proceso de conciliación automática, se debe verificar que 
 
 
 
-      #. Podrá apreciar en la parte inferior derecha del documento, la cantidad de movimientos cargados a la pestaña "**Línea Estado Cuentas**", , estos deben coincidir con la catidad de movimietos que se refleja al momento de hacer la _importación del extracto bancario
+      #. Podrá apreciar en la parte inferior derecha del documento, la cantidad de movimientos cargados a la pestaña "**Línea Estado Cuentas**", estos deben coincidir con la catidad de movimietos que se refleja al momento de hacer la _importación del extracto bancario
 
             .. figure:: resources/numerolinea.png
                :alt: Pestaña Línea Estado Cuentas
@@ -241,7 +462,7 @@ Una vez aplicado el proceso de conciliación automática, se debe verificar que 
 **Crear Pagos Desde Línea de Estado de Cuenta**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Si al realizar la conciliación existen movimientos sin registros en ADempiere, se debe realizar el proceso "**Crear pagos desde Estado de Cuenta**" para generar los pagos/cobros correspondientes a cada uno de los movimientos, el mismo es explicado en el documento :ref:`documento/crear-pagos-desde-estado-de-cuenta`.
+Si al realizar la conciliación existen movimientos sin registros en ADempiere, se debe realizar el proceso "**Crear pagos desde Estado de Cuenta**" para generar los pagos/cobros correspondientes a cada uno de los movimientos,ya que es muy importante que todos los movimientos bancarios concidan en su totalidad con los registros en ADempiere o que los mismos logren ser identificados, ya que de lo contrario la conciliación no podra ser completada en ADempiere, del mismo modo este processo tambíen  es explicado en el documento :ref:`documento/crear-pagos-desde-estado-de-cuenta`.
 
 En el caso de que existan movimientos con registros en ADempiere pero sin documentos de pagos/cobros asociados en la línea, se debe seleccionar de la siguiente manera el documento "**Pago/Cobro**".
 
