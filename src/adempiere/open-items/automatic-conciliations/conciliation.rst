@@ -1,15 +1,10 @@
 .. _documento/crear-pagos-desde-estado-de-cuenta:
 .. _ERPyA: http://erpya.com
 
-.. |Estado de Cuenta| image:: resources/Estado_Cuenta1.png
-.. |Grupo de Estado| image:: resources/Grupo_Estado.png
-.. |Botón Completar| image:: resources/Boton_Completar.png
-
 **Crear pagos desde Estado de Cuenta**
 --------------------------------------
 
-El proceso "**Crear pagos desde Estado de Cuenta**" es realizado por consecuencia de la existencia de pagos/cobros que se encuentran en el extracto bancario y al momento de la conciliación y no se encuentra ninguna coincidencia con los movimientos registrados en ADempiere; el mismo parte del proceso de conciliación automática, donde ADempiere al importar el extracto bancario  verificar los movimientos registrado en ADempiere este realiza una verificación de coincidencias de pagos/cobros en ambos lados, mayormente se encuentran muchos movimientos en el extracto bancario que no han sido registrados en ADempiere y no solo es por que no se lleve un buen control de los registros si no que los extractos bancarios poseen detalladamente otros tipo de transacciones como comisiones bancarias que en algunos casos no son regisrados en ADempiere, pero para este tipo de caso, se encuentra este proceso, ya que es muy importante que todos los movimientos bancarios concidan en su totalidad con los regisros en ADempiere o que los mismos logren ser identificados, ya que de lo contrario la conciliación no podra ser completada en ADempiere.
-
+El proceso "**Crear pagos desde Estado de Cuenta**" es realizado por consecuencia de la existencia de pagos y cobros que se encuentran en el extracto bancario al momento de la conciliación y no se encuentran registrados en ninguna parte de ADempiere; el mismo parte del proceso de conciliación automática, donde ADempiere importa del extracto bancario a la "**Línea Estado Cuentas**" todos los movimientos de pagos y cobros que posee el extracto bancario. Este procedimiento solo puede realizarce antes de completar el documento "**Conciliación Bancaria**".
 
 El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la creación de pagos y cobros sin registros en ADempiere, partiendo desde el registro de pagos / cobros existentes en el extracto bancario importado, obteniendo un resultado exitoso al momento de conciliación de cuentas en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
@@ -18,7 +13,7 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 **Pagos/Cobros sin registros en ADempiere**
 -------------------------------------------
 
-Los pagos o cobros sin registro en ADempiere pueden presentarse en las empresas a causa de diferentes motivos los cuales pueden ser que no fueron resgitrados a tiempo o correctamente o la cuenta bancaria a recibido un cobro por adelantado y este no ha sido notificado al personal que lleva los registros de los pagos/cobros en ADempiere, el registro de los mismos puede realizarce de tres formas explicadas a continuación.
+Los pagos o cobros sin registro en ADempiere pueden presentarse en las empresas a causa de diferentes motivos, el registro de los mismos puede realizarce de tres formas explicadas a continuación.
 
 #. Luego de realizar el proceso de conciliación, ubique la "**Línea Estado Cuentas**".
 
@@ -41,24 +36,21 @@ Los pagos o cobros sin registro en ADempiere pueden presentarse en las empresas 
 
          Imagen 3. Opción Crear Pago desde Estado de Cuenta
 
-   #. Podrá visualizar la siguiente ventana de busqueda inteligente con los "**Pagos/Cobros**" que no tuvieron coincidencias al momento de conciliar.
+   #. Podrá visualizar la siguiente ventana de busqueda inteligente con los registros sin documentos de "**Pagos/Cobros**" asociados.
 
       .. figure:: resources/ventana.png
          :alt: Ventana de Busqueda Inteligente
 
          Imagen 4. Ventana de Busqueda Inteligente
 
-
-    #. Hasta este punto solo se puede visualizar los movimientos bancarios sin conciliar, pero la mayoria de estos movimientos bancarios pertenecen a otros tipos de transacciones como lo son los  "**Cargos Bancarios**", "**Otro Tipo de Pagos**" y  los "**Pagos sin Identificar**", estas transacciones bancarias deben ser identificadas para poder completar la conciliación bancaria.
-".
+.. note:: 
+   
+      Existen tres (3) diferentes casos de identificación de pagos/cobros en el proceso "**Crear Pago desde Estado de Cuenta**", dichos casos son seleccionados en el campo "**Tipo de Transacción**", representados en el mismo por tres (3) opciones "**Cargo Bancario**", "**Otro Tipo de Pago**" y "**Pago sin Identificar**".
 
 **Pagos o Cobros de Comisiones**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Para las transacciones bancarias que pertenezcan a **"Cargos Bancarios"** ya estando dentro de la opción "**Crear Pago desde Estado de Cuenta**" se debe realizar loz siguientes pasos:
-
-
-#. En la ventana de busqueda inteligente del "**Crear Pago desde Estado de Cuenta**" seleccione el o los pagos/cobros correspondientes a las comisiones.
+#. En la ventana de busqueda inteligente seleccione el o los pagos/cobros correspondientes a las comisiones.
 
       .. figure:: resources/seleccioncaso1.png
          :alt: Selección de Pagos/Cobros
@@ -99,8 +91,6 @@ Para las transacciones bancarias que pertenezcan a **"Cargos Bancarios"** ya est
 
 **Otros Tipos de Pagos o Cobros**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-Para las transacciones bancarias que pertenezcan a **"Otro tipo de Pagos o Cobros"** ya estando dentro de la opción "**Crear Pago desde Estado de Cuenta**" se debe realizar loz siguientes pasos:
 
 #. En la ventana de busqueda inteligente seleccione el o los pagos/cobros correspondientes a otros tipos de pagos.
 
@@ -144,10 +134,8 @@ Para las transacciones bancarias que pertenezcan a **"Otro tipo de Pagos o Cobro
 
          Imagen 15. Documento de Pago/Cobro Creado desde el Proceso
 
-
-**Pagos o Cobros sin Identificar**
+**Pagos o Cobros Sin Identificar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-Para las transacciones bancarias que pertenezcan a **"Pagos o Cobros sin Identificar"** ya estando dentro de la opción "**Crear Pago desde Estado de Cuenta**" se debe realizar loz siguientes pasos:
 
 #. En la ventana de busqueda inteligente seleccione el o los pagos/cobros con procedencia desconocida.
 
@@ -177,39 +165,6 @@ Para las transacciones bancarias que pertenezcan a **"Pagos o Cobros sin Identif
 
          Imagen 19. Documento de Pago/Cobro Creado desde el Proceso
 
+.. warning::
 
-
-**Completar Conciliación Bancaria**
-  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-
-    Una vez identificado todos los movimientos bancarios y concialiado correctamente se puede completar la conciliación Bancaria, para ello debe seguir los siguientes pasos:
-
-#. Debe posicionarse en la ventana padre **"Estado de Cuenta Bancario"**.
-
-    |Estado de Cuenta|
-
-      Imagen 20. Estado de Cuenta
-
-#. Ubicar al finalizar la ventana en el grupo de campo **"Estado"** y el botón que debe tener por nombre **"Completar"**
-
-    |Grupo de Estado|
-
-    Imagen 21. Grupo de Estado
-
-.. note ::
-
-    El nombre del botón cambiará dependiendo del estado en el que se encuentre el documento si el documento se ecnuentra en estado **"Borrador"**  la acción a mostrar en el botón es **"Completar"** caso que se está aplicando para este documento, si el estado del documento esta en estado **"Completo"** el botón cambiara su nombre a la posible siguiente acción que se pueda aplicar en el documento.
-
-
-#. Dar click a botón **"Completar"** y tildar *Ok** para la acción de documento seleccionada.
-
-    |Botón Completar|
-
-      Imagen 21. Botón Completar
-
-
-Al aplicar esta acción **"Completar"** el documento pasara a esta completo y este no podra ser modificado.
-
-.. note ::
-
-    Es muy importante tener en cuanta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que ADempiere tome como válido los datos cargados en el documento.
+      ADempiere selecciona el socio del negocio que tiene registrado como "**Socio del Negocio Desconocido**".
