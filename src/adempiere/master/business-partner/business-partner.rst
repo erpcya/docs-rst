@@ -64,7 +64,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione la organización en el campo "**Organización**".
 
-    La Organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el Socio de negocio, si la organización es (*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente este únicamente estará disponible para la organización seleccionada.
+    La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el Socio de negocio, si la organización es (*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
 
         |Campo Organización|
 
@@ -76,29 +76,29 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca el código de Socio del Negocio en el campo "**Código**".
 
-    El código se refiere al número de identificación que acredite la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF.
+    El código es un dato único e irrepetible que protege la entrada de los registros, evitando la duplicidad de los mismos, generalmente se refiere al número de identificación que acredite la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF.
+
+ .. note:
+
+	Si no es ingresado un dato en este campo ADempiere genera un dato de tipo numérico autoincrementable.
 
         |Campo Código|
 
         Imagen 4. Campo Código
 
-        .. note::
-
-            Este campo mantiene incidencia en el campo **Número de Identificación**, es decir, al guardar el registro copia el código en este campo.
-
         .. warning::
 
-            Se recomienda que al ingresar el valor en el campo "**Código**" no se ingrese caracteres especiales como puntos, guiones u otros que alteren el registro.
+            Se recomienda no ingresar caracteres especiales como puntos, guiones u otros que alteren el registro en este campo.
 
-     #. Seleccione el Socio de Negocio Padre en el campo "**Socio de Negocio Padre**".
+     #. Seleccione el socio de negocio padre en el campo "**Socio de Negocio Padre**".
 
-    Socio de Negocio Padre no es un campo obligatorio, sin embargo, es un campo que permite la agrupación de sub-entidades dependientes de un socio de negocio, para explicarlo mejor veamos el siguiente ejemplo:
+    El socio de negocio padre no es un campo obligatorio, sin embargo, es un campo que permite la agrupación de sub-entidades dependientes (socios de negocios hijos) de un socio de negocio, para explicarlo mejor veamos el siguiente ejemplo:
 
-        Imaginemos un proveedor de tipo cadena cuyo nombre es **Cadena Unica C.A**, esta tendrá dos tiendas fisicas, **Cadena Unica Centro C.A** y **Cadena Unica Oriente C.A** respectivamente. Para este caso el **Socio de Negocio Padre** es **Cadena Unica C.A**,quedando agrupado de forma que las dos tiendas serán hijas de **Cadena Unica C.A**, de esta forma al emitir reportes financieros podríamos generarlos desde el Socio de Negocio Padre (**Cadena Unica C.A**), agrupando todos los saldos de las tiendas por el padre ó podría generar los reportes unicamente por tienda.
+        Imaginemos un proveedor de tipo cadena cuyo nombre es **Cadena Única C.A**, esta tendrá dos tiendas físicas, **Cadena Unica Centro C.A** y **Cadena Única Oriente C.A** respectivamente. Para este caso el **Socio de Negocio Padre** es **Cadena Única C.A**,quedando agrupado de forma que las dos tiendas serán hijas de **Cadena Única C.A**, de esta forma al emitir reportes financieros podríamos generarlos desde el Socio de Negocio Padre (**Cadena Única C.A**), agrupando todos los saldos de las tiendas por el padre ó podría generar los reportes únicamente por tienda.
 
         .. note::
 
-        Generalmente esta opción es utlizada para franquicias, cadenas o corporaciones.
+        Generalmente esta opción es utilizada para franquicias, cadenas o corporaciones.
 
 
 
@@ -110,9 +110,9 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
         Imagen 5. Campo Nombre
 
-    #. Introduzca el Nombre 2 del socio del negocio en el campo "**Nombre 2**".
+    #. Introduzca el nombre 2 del socio del negocio en el campo "**Nombre 2**".
 
-    El nombre 2 varia su uso dependiendo de la naturaleza del Socio del Negocio (Cliente, Proveedor o Empleado), si es un cliente o un proveedor es opcional, y generalmente se utiliza para colocar la denominación comercial, por el contrario, si es un empleado es obligatorio, siendo este campo que correspondiente al apellido, el mismo será impreso en los reportes administrativos y jurídicos.
+    El nombre 2 varía su uso dependiendo de la naturaleza del socio del negocio (Cliente, Proveedor o Empleado), si es un cliente o un proveedor es opcional, y generalmente se utiliza para colocar la denominación comercial, por el contrario, si es un empleado es obligatorio, siendo este campo correspondiente al apellido, el mismo será impreso en los reportes administrativos y jurídicos.
 
         |Campo Nombre 2|
 
@@ -120,7 +120,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca una breve descripción referente al socio del negocio cliente en el campo "**Descripción**".
 
-    La descripción no es un campo obligatorio,sin embargo, le permite dejar descripciones o notas de interes para el registro.
+    La descripción no es un campo obligatorio,sin embargo, le permite dejar descripciones o notas de interés para el registro.
 
         |Campo Descripción|
 
@@ -136,15 +136,15 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione en el campo "**Estado de Crédito**".
 
-    El estado del crédito no es un campo obligatorio, sin embargo, le permite definir el comportamiento para la gestión del crédito del socio de negocio, actua conjuntamente con el campo **Saldo Actual** y **Limite de Crédito** ubicado en la pestaña **Cliente**, este puede variar entre las siguiente opciones dependiendo de las necesidades:
+    El estado del crédito no es un campo obligatorio, sin embargo, le permite definir el comportamiento para la gestión del crédito del socio de negocio, actúa conjuntamente con el campo **Saldo Actual** y **Límite de Crédito** ubicado en la pestaña **Cliente**, este puede variar entre las siguiente opciones dependiendo de las necesidades:
 
-        #. **Sin Verificación de Crédito:** Establecido de forma manual, omite la evaluación para los socios de negocios a los que no se evalua el crédito, equivalente a **Sin limite de Crédito**.
+        #. **Sin Verificación de Crédito:** Establecido de forma manual, omite la evaluación para los socios de negocios a los que no se evalúa el crédito, equivalente a **Sin límite de Crédito**.
 
-        #. **Crédito Correcto:** Activa la gestión de crédito por estar dentro del limite de cŕedito.
+        #. **Crédito Correcto:** Activa la gestión de crédito por estar dentro del límite de cŕedito.
 
-        #. **Crédito Verificación:** Es establecido de forma automatica por ADempiere al evaluar el crédito, cuando el saldo actual está por encima del 90% del limite de crédito.
+        #. **Crédito Verificación:** Es establecido de forma automática por ADempiere al evaluar el crédito, cuando el saldo actual está por encima del % de crédito en verificación (por defecto es 90%) del límite de crédito pero no alcanza el 100%.
 
-        #. **Crédito Retenido:** Es establecido de forma automatica por ADempiere al evaluar el crédito, cuando el saldo actual está por encima del limite de crédito, bloqueando la posibilidad de completar ordenes de ventas, completar facturas y emitir entregas.
+        #. **Crédito Retenido:** Es establecido de forma automática por ADempiere al evaluar el crédito, cuando el saldo actual está por encima del límite de crédito, bloqueando la posibilidad de completar ordenes de ventas, completar facturas y emitir entregas.
 
         #. **Crédito Detenido:** Establecido de forma manual, bloqueando la posibilidad de completar ordenes de ventas, completar facturas y emitir entregas.
 
@@ -152,13 +152,19 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
         Imagen 9. Campo Estado de Crédito
 
-    #. Podra visualizar el saldo actual que posee el cliente en el campo "**Saldo Actual**.
+    #. Podrá visualizar el saldo actual que posee el cliente en el campo "**Saldo Actual**.
 
-    El saldo actual es un campo solo lectura, actualizado de forma automatica, aumentando o disminuyendo al emitir cuentas por cobrar o cuentas por pagar, controlando el estado de crédito.
+    El saldo actual es un campo solo lectura, actualizado de forma automática, aumentando o disminuyendo al emitir cuentas por cobrar o cuentas por pagar, controlando el estado de crédito.
 
         |Campo Saldo Actual|
 
         Imagen 10. Campo Saldo Actual
+
+    #. Podrá visualizar el número de identificación autogenerado a partir del campo **código** en el campo “**Número de Identificación**”.
+
+    El número de identificación se refiere al número que acredita la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF, este campo mantiene incidencia en la generación de documentos fiscales como facturas, retenciones y comprobantes ARC.
+
+
 
     #. Seleccione el checklist "**Exento de Impuesto en Venta**".
 
@@ -185,7 +191,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca el código DUNS del socio del negocio en el campo "**DUNS**".
 
-    El número DUNS (Data Universal Numbering System o Sistema Universal de Numeración de Datos) es un un número de identificación proporciona la identidad única a cada empresa a nivel internacional.
+    El código DUNS no es un campo obligatorio, sin embargo, le permite introducir el número DUNS (Data Universal Numbering System o Sistema Universal de Numeración de Datos), el mismo es un un número de identificación proporciona la identidad única a cada empresa a nivel internacional.
 
         |Campo DUNS|
 
@@ -193,7 +199,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca el número de referencia socio del negocio en el campo "**No. de Referencia**".
 
-    El número de Referencia es un número fijo que utiliza el socio de negocio para gestiones administrativas, este tiene incidencia en las ordenes de compra o venta dependiendo la naturaleza de la entidad, siendo establecido de forma automatica en las mismas.
+    El número de Referencia no es un campo obligatorio, sin embargo, le permite introducir un número fijo que utiliza el socio de negocio para gestiones administrativas, este tiene incidencia en las órdenes de compra o venta dependiendo la naturaleza de la entidad, siendo establecido de forma automática en las mismas.
 
         |Campo No. de Referencia|
 
@@ -201,54 +207,59 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca el código NAICS o SIC del socio del negocio en el campo "**NAICS/SIC**".
 
-    El código NAICS (American Industry Classification System ó Sistema de Clasificación Industrial de América del Norte) es un código utilizado en los Estados Unidos, Canadá y México para clasificar la industria y actividad.
+    El código NAICS/SIC no es un campo obligatorio, sin embargo, le permite introducir el código NAICS (American Industry Classification System ó Sistema de Clasificación Industrial de América del Norte), este es un código utilizado en los Estados Unidos, Canadá y México para clasificar la industria y actividades económicas.
 
         |Campo NAICS/SIC|
 
         Imagen 16. Campo NAICS/SIC
 
-    #. Introduzca en el campo "**Valuación ABC**", la clasificación de importancia que posee el socio del negocio cliente.
+    #. Introduzca la valuación ABC en el campo "**Valuación ABC**".
+
+    La valuación ABC no es un campo obligatorio, sin embargo, le permite establecer una evaluación clasificatoria del socio de negocio cliente.
 
         |Campo Valuación ABC|
 
         Imagen 17. Campo Valuación ABC
 
     #. Seleccione el grupo de socio del negocio en el campo "**Grupo de Socio del Negocio**".
-    El grupo de Socio del Negocio, permite categorizar sus socios de negocio de una forma especifica, lo cual es eficiente a la hora de emitir asientos contables y reportes, para entenderlo mejor veamos el siguiente ejemplo:
 
-            Imaginemos que tenemos una cartera de clientes que manejan diferentes monedas, para categorizar de forma especifica sería: **Clientes Nacionales** y **Clientes Internacionales**, de esta forma podría emitir reportes de cuentas por cobrar para clientes nacionales e Internacionales respectivamente.
+    El grupo de Socio del Negocio, permite categorizar sus socios de negocio de una forma específica, lo cual es eficiente a la hora de emitir asientos contables y reportes, para entenderlo mejor veamos el siguiente ejemplo:
 
-    Adicionalmente, define en el socio de negocio funciones y parametros a partir de la categoria, entre las que se encuentran:
+            Imaginemos que tenemos una cartera de clientes que manejan diferentes monedas, para categorizar de forma específica sería: **Clientes Nacionales** y **Clientes Internacionales**, de esta forma podría emitir reportes de cuentas por cobrar para clientes nacionales e Internacionales respectivamente.
 
-        #. Impresión a Color: Define el color con los que serán mostrados en el arbol.
+    Adicionalmente, define en el socio de negocio funciones y parámetros a partir de la categoría, entre las que se encuentran:
 
-        #. Info Confidencial: Permite ingresar información confidencial en solicitudes Web.
+        #. **Impresión a Color:** Define el color con los que serán mostrados en el arbol.
 
-        #. Lista de Precios Venta: Define lista de precios empleada en ordenes de venta y factura de cuentas por cobrar.
+        #. **Info Confidencial:** Permite ingresar información confidencial en solicitudes Web.
 
-        #. Lista de Precios Compra: Define lista de precios empleada en ordenes de compra y factura de cuentas por pagar.
+        #. **Lista de Precios Venta:** Define lista de precios empleada en ordenes de venta y factura de cuentas por cobrar.
 
-        #. Esquema de Descuento OV: Define esquema de descuento empleado en ordenes de venta y factura de cuentas por cobrar.
+        #. **Lista de Precios Compra:** Define lista de precios empleada en ordenes de compra y factura de cuentas por pagar.
 
-        #. Esquema de Descuento OC: Define esquema de descuento empleado en ordenes de compra y factura de cuentas por pagar.
+        #. **Esquema de Descuento OV:** Define esquema de descuento empleado en ordenes de venta y factura de cuentas por cobrar.
 
-        #. Porcentaje de Crédito en Verificación de Cliente: Define el porcentaje de crédito disponible para la evaluación del crédito previo a que un socio de negocio pase de crédito correcto a crédito en verificación.
+        #. **Esquema de Descuento OC:** Define esquema de descuento empleado en ordenes de compra y factura de cuentas por pagar.
 
-        #. Porcentaje de Tolerancia OC/Factura: Define el porcentaje de diferencia que puede existir entre el precio de la orden de compra y el precio de la factura de cuentas por pagar, porcentaje de holgura con el cual podría ser completados estos documentos sin pasar por el flujo de aprobación.
+        #. **Porcentaje de Crédito en Verificación de Cliente:** Define el porcentaje de crédito disponible para la evaluación del crédito previo a que un socio de negocio pase de crédito correcto a crédito en verificación.
 
-        #. Contabilidad: Define cuentas contables en la que se realizarán los asientos contables dependiendo de la naturaleza del socio de negocio (Clientes o Proveedores).
+        #. **Porcentaje de Tolerancia OC/Factura:** Define el porcentaje de diferencia que puede existir entre el precio de la orden de compra y el precio de la factura de cuentas por pagar, porcentaje de holgura con el cual podría ser completados estos documentos sin pasar por el flujo de aprobación.
+
+        #. **Contabilidad:** Define cuentas contables en la que se realizarán los asientos contables dependiendo de la naturaleza del socio de negocio (Clientes o Proveedores).
 
         |Campo Grupo de Socio del Negocio|
 
         Imagen 18. Campo Grupo de Socio del Negocio
 
-    #. Seleccione en el campo "**Tipo de Cuenta**", el tipo de cuenta o negocio que posee el socio del negocio cliente.
+    #. Seleccione el tipo de cuenta en el campo "**Tipo de Cuenta**".
+
+    El tipo de cuenta no es un campo obligatorio, sin embargo, le permite a los vendedores conocer con perfección las características de sus clientes y los diferentes tipos de clientes definidos en la empresa y así realizar un mejor estudio de mercado.
 
         |Campo Tipo de Cuenta|
 
         Imagen 19. Campo Tipo de Cuenta
 
-    #. Seleccione en el campo "**Lenguaje**", el lenguaje a utilizar en los documentos que serán generados al socio del negocio cliente.
+    #. Seleccione el lenguaje en el campo "**Lenguaje**".
 
      El lenguaje no es un campo obligatorio, sin embargo, define el idioma con que será impreso los formatos de impresión asociados a este Socio de Negocio.
 
@@ -256,7 +267,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
         Imagen 20. Campo Lenguaje
 
-    #. Seleccione en el campo "**Tipo de Industria**", el tipo de industria que clasifica al socio del negocio empleado.
+    #. Seleccione el tipo de industria en el campo "**Tipo de Industria**".
 
     El tipo de industria no es un campo obligatorio, sin embargo, define la tipología de industria en la que se encuentra el Socio de Negocio.
 
@@ -264,7 +275,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
         Imagen 21. Campo Tipo de Industria
 
-    #. Seleccione en el campo "**Segmento**", el segmento del socio del negocio cliente.
+    #. Seleccione el segmento en el campo "**Segmento**".
 
     El segmento no es un campo obligatorio, sin embargo, permite segmentar socios de negocios de manera rigurosa, identificar patrones que pueden ser usados para asignar un segmento.
 
@@ -282,7 +293,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca  la dirección de la página web en el campo "**Dirección Web**".
 
-    La dirección Web no es un campo obligatoro, sin embargo, permite registrar el sitio web del socio del negocio (Cliente y Proveedores) en el cual se administra la información de contacto de la empresa para solucionar sus inquietudes, realizar compras y gestión de solicitudes, aprovechando oportunidades de negocio que se encuentran en la red.
+    La dirección Web no es un campo obligatorio, sin embargo, permite registrar el sitio web del socio del negocio (Cliente y Proveedores) en el cual se administra la información de contacto de la empresa para solucionar sus inquietudes, realizar compras y gestión de solicitudes, aprovechando oportunidades de negocio que se encuentran en la red.
 
         |Campo Dirección Web|
 
@@ -298,23 +309,25 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione la opción "**Liga Organización**", para ejecutar el proceso.
 
-    El proceso Liga Organización es ejecutado para los casos en los que son generados documentos en una organización A con una organización B, para entenderlo mejor veamos el siguiente ejemplo:
+    El proceso liga organización es ejecutado para los casos en los que la organización en gestión requiere generar documentos o solicitudes que son cubiertas por otra organización, para entenderlo mejor veamos el siguiente ejemplo:
 
-        Imaginemos que tenemos una organización (**Inversión del Norte**) la misma emite una orden de compra que será liquidada por la organización (**Inversión del Sur**), para este caso existirá un proveedor **Inversión del Sur C.A** en la organización **Inversión del Norte**, este proveedor entonces es ligado a la organización **Inversión del Sur**, esto con el fin de emitir la orden de compra que requiere la organización **Inversión del Norte** sea emitida con el socio de negocio del la organización **Inversión del Sur C.A**.
+        Imaginemos que tenemos una organización (**Inversión del Norte**) donde existe un proveedor **Inversión del Sur C.A**, este es ligado a la organización **Inversión del Sur**.
 
-    Para ejecutar este proceso debe tomar en cuenta los siguientes parametros:
+Cuando **Inversión del Norte** emite una orden de compra configurada para emitir contra documento con el proveedor **Inversión del Sur C.A**, es emitida una orden de venta para **Inversión del Norte** que satisface la orden de compra.
 
-        #. Organización Existente: Seleccione una orgnización existente, si el campo queda vacio, se creará una organización con el nombre del socio de negocio de forma automatica.
+    Para ejecutar este proceso debe tomar en cuenta los siguientes parámetros:
 
-        #. Tipo de Organización: Seleccione tipo de orgazación previa definición.
+        #. **Organización Existente:** Seleccione una organización existente, si el campo queda vacío, se creará una organización con el nombre del socio de negocio de forma automática.
+        
+        #. **Tipo de Organización:** Seleccione tipo de organización previa definición.
 
-        #. Limite de Acceso al Rol: Seleccione un rol existente si desea que solo un rol especifico tenga acceso a esta organización, si el campo queda vacio, el rol ClientAdmin y ClientUser tendrán acceso a esta organización.
+        #. **Límite de Acceso al Rol:** Seleccione un rol existente si desea que sólo un rol específico tenga acceso a esta organización, si el campo queda vacío, el rol ClientAdmin y ClientUser tendrán acceso a esta organización.
 
     Seleccione la opción **OK** y será ejecutado el proceso.
 
         .. note::
 
-            Las configuraciones por limite de acceso a rol es modificable desde los roles.
+            Las configuraciones por límite de acceso a rol es modificable desde los roles.
 
         |Campo Liga Organización|
 
@@ -322,7 +335,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
         .. warning::
 
-            La organización puede ser ligada unicamente a un socio de negocio, para corregir error en la asignación de la organización, ejecute el proceso: **Desliga de Socio de Negocio a organización.**
+            La organización puede ser ligada únicamente a un socio de negocio, para corregir un error en la asignación de la organización, ejecute el proceso: **Desliga de Socio de Negocio a organización.**
 
     #. Introduzca el valor de ingresos en el campo "**Valor Esperado**".
 
@@ -332,9 +345,9 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
         Imagen 27. Campo Valor Esperado
 
-    #.  Podra visualizar el valor total de transacciones que posee el cliente en el campo "**Valor Total Transacciones**", el monto total de la primera venta realizada al socio del negocio cliente.
+    #.  Podrá visualizar el valor total de transacciones que posee el cliente en el campo "**Valor Total Transacciones**".
 
-    El valor total transacciones es un campo solo lectura, actualizado de forma automatica, sumando cada ingreso generado por este cliente, el mismo permite evaluar la rentabilidad de un cliente potencial.
+    El valor total transacciones es un campo solo lectura, actualizado de forma automática, sumando cada ingreso generado por este cliente, el mismo permite evaluar la rentabilidad de un cliente potencial.
 
         |Campo Valor Total Transacciones|
 
@@ -350,7 +363,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca la cantidad de empleados en el campo "**Empleados**".
 
-    Empleados no es un campo obligatorio, sin embargo, le permite evaluar la cantidad de empleados de una empresa prospecto, funge como información informativa para ser utilizada en cotizaciones por ejemplo.
+    Empleados no es un campo obligatorio, sin embargo, le permite evaluar la cantidad de empleados de una empresa prospecto, funge como un dato informativo para ser utilizada en cotizaciones por ejemplo.
 
         |Campo Empleados|
 
@@ -360,8 +373,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     La participación no es un campo obligatorio, sin embargo, le permite mantener el control porcentualmente de la proporción obtenidas de las compras del cliente en la producción o distribución de productos o servicios.
 
-
-    Esto genera fedelización del cliente, dando la oportunidad de evaluar promociones y descuentos para aquellor clientes en los cuales su participación sea alta, y a su vez, mayor oportunidad en el aumento de la cartera de cliente creando programas para ventas cruzadas y sugestivas, comercializando así más productos y servicios.
+    Esto puede generar fidelización del cliente, dando la oportunidad de evaluar promociones y descuentos para aquellos clientes en los cuales su participación sea alta, y a su vez, mayor oportunidad en el aumento de la cartera de cliente creando programas para ventas cruzadas y sugestivas, comercializando así más productos y servicios.
 
         |Campo Participación|
 
@@ -369,9 +381,9 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca  el número de ventas total en el campo "**Volumen de Ventas**".
 
-    El volumen de ventas no es un campo obligatorio, sin embargo, permite registrar el numero de ventas efectivas de un cliente, estas cifras generalmente son auditadas en reuniones directivas para evaluar la rentabilidad y expansión del negocio o si por el contrario sus ventas disminuyen.
+    El volumen de ventas no es un campo obligatorio, sin embargo, permite registrar el número de ventas efectivas de un cliente, estas cifras generalmente son auditadas en reuniones directivas para evaluar la rentabilidad y expansión del negocio o si por el contrario sus ventas disminuyen.
 
-    Adicionalmente este datos es producto de supervisión para controlar volumen de ventas en comparación a pronosticos de ventas, estableciendo una estimación de cantidades mínimas a vender para mantener un equilibrio en la organización.
+    Adicionalmente este datos es producto de supervisión para controlar volumen de ventas en comparación a pronósticos de ventas, estableciendo una estimación de cantidades mínimas a vender para mantener un equilibrio en la organización.
 
         |Campo Volumen de Ventas|
 
@@ -379,7 +391,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca la fecha de la primera venta en el campo "**Primera Venta**".
 
-    La primera venta no es un campo obligatorio, sin embargo, permite registrar la fecha de la primera venta de forma informativa, util para evaluar descuentos y promociones por aniversarios.
+    La primera venta no es un campo obligatorio, sin embargo, permite registrar la fecha de la primera venta de forma informativa, útil para evaluar descuentos y promociones por aniversarios.
 
         |Campo Primera Venta|
 
@@ -387,15 +399,15 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione el tipo de persona en el campo "**Tipo de Persona**.
 
-    El tipo de persona se refiere a la forma legal como está esta constituida una organización, entre las cuales tenemos las siguientes opciones:
+    El tipo de persona se refiere a la forma legal como está está constituida una organización, entre las cuales tenemos las siguientes opciones:
 
-        #. Juridica Domiciliada: Persona Jurídica Domiciliada es una empresa constituida dentro del territorio nacional, que cumple sus obligaciones y resguarda la empresa con su patrimonio.
+        #. **Jurídica Domiciliada:** Persona Jurídica Domiciliada es una empresa constituida dentro del territorio nacional, que cumple sus obligaciones y resguarda la empresa con su patrimonio.
 
-        #. Juridica No Domiciliada: Persona Jurídica No Domiciliada es una empresa constituida fuera del territorio nacional, que cumple sus obligaciones y resguarda la empresa con su patrimonio.
+        #. **Jurídica No Domiciliada:** Persona Jurídica No Domiciliada es una empresa constituida fuera del territorio nacional, que cumple sus obligaciones y resguarda la empresa con su patrimonio.
 
-        #. Natural Residente: Persona Natural Residente es una persona residente en el país que asume  las obligaciones, responsabilidades y resguarda las obligaciones con patrimonio propio.
+        #. **Natural Residente:** Persona Natural Residente es una persona residente en el país que asume  las obligaciones, responsabilidades y resguarda las obligaciones con patrimonio propio.
 
-        #. Natural No Residente: Persona Natural No Residente es una persona residente fuera del país, que asume las obligaciones, responsabilidades y resguarda las obligaciones con patrimonio propio.
+        #. **Natural No Residente:** Persona Natural No Residente es una persona residente fuera del país, que asume las obligaciones, responsabilidades y resguarda las obligaciones con patrimonio propio.
 
         |Campo Tipo de Persona|
 
