@@ -1,9 +1,9 @@
 .. _src/adempiere/performance-analysis
 .. _ERPyA: http://erpya.com
 
-======================================
+====================
 **Gestión Contable**
-======================================
+====================
 
 En publicaciones previas hemos dejado claro la importancia que ha tenido para las pequeñas y medianas empresas la intervención de un ERP como ADempiere para automatizar y aceleran los procesos, y finalmente obtener información financiera confiable que facilite la toma de decisiones. Definitivamente las tareas manuales y los software  aislados no satisfacen las necesidades que tienen los departamentos de contabilidad, en especial para las empresas en constante crecimiento donde el volumen de tareas aumenta notoriamente.
 
@@ -19,3 +19,5 @@ El propósito de `ERPyA`_ es apoyar a nuestros clientes, dar respuestas rápidas
     :maxdepth: 2
 
     additional-costs/index
+    gl-journal-batch/index
+
