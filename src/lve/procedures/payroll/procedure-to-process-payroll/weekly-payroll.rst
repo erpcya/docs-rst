@@ -14,17 +14,17 @@
  **NÓMINA SEMANAL**
 ======================
 
-Para procesar una Nómina Semanal debemos realizar el proceso de nómina estándar mencionado en el documento: Proceso de Nómina ubicado en el siguiente enlace :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo semanal, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
+Para procesar una “**Nómina Semanal**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo semanal, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 #. Estatus del documento:
 
         #. Seleccione **Nómina Semanal** en el campo "**Tipo de Documento**".
 
-            El Tipo de Documento le permitirá definir la acción del documento que esté registrando en ADempiere.
+            El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
 
         #. Seleccione **Nómina Semanal** en el Campo "**Nómina**"
 
-            La Nómina Semanal define el comportamiento de la nómina, para este caso tiene las siguientes características:
+            La nómina semanal define el comportamiento de la nómina, para este caso tiene las siguientes características:
 
                 #. Regla de Pago: Débito Directo
                 #. Contrato de Nómina: Contrato Semanal
@@ -32,11 +32,11 @@ Para procesar una Nómina Semanal debemos realizar el proceso de nómina estánd
 
         #. Seleccione el período semanal correspondiente a la nómina que se está ejecutando en el campo "**Período Nómina**"
 
-              El Período de Nómina define el período laborado que le está siendo cancelado al empleado, disponiendo de los períodos creado en la definición de Nómina Semanal.
+              El período de nómina define el período laborado que le está siendo cancelado al empleado, disponiendo de los períodos creados en la definición de nómina semanal.
 
         #. Seleccione la fecha “Hasta” o el último día del período que seleccionó anteriormente en el campo "**Fecha Contable**"
 
-              A través de la "**Fecha Contable**" se determina contablemente la fecha de pago de la Nómina Semanal en ejecución, por tal motivo se recomienda colocar la fecha “Hasta” o el último día del período que seleccionó anteriormente.
+              A través de la fecha contable se determina contablemente la fecha de pago de la nómina semanal en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
 
       |Nómina Semanal|
@@ -46,7 +46,7 @@ Para procesar una Nómina Semanal debemos realizar el proceso de nómina estánd
 
 #. Incidencias:
 
-      Para esta nómina no son obligatorias las incidencias, pero en ADempiere se cuentan con las siguientes incidencias disponibles para la Nómina Semanal:
+      Para esta nómina no son obligatorias las incidencias, pero en ADempiere se cuentan con las siguientes incidencias disponibles para la nómina semanal:
 
 
       +-------------------------------------------------------+----------------------+----------------+
@@ -82,7 +82,7 @@ Para procesar una Nómina Semanal debemos realizar el proceso de nómina estánd
       +-------------------------------------------------------+----------------------+----------------+
 
 
-      Para conocer cómo registrar una Incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
+      Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
 
 #. Resultados:
 
