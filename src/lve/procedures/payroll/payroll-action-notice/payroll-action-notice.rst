@@ -14,13 +14,13 @@
 **Cargar Incidencias**
 ======================
 
-#. Seleccione en el menú de ADempiere, la carpeta "**Gestión de Recursos Humanos y Nómina**", luego seleccione la carptea "**Nómina**", por último seleccione la ventana "**Novedades de Nómina**".
+#. Seleccione en el menú de ADempiere, la carpeta "**Gestión de Recursos Humanos y Nómina**", luego seleccione la carpeta "**Nómina**", por último seleccione la ventana "**Novedades de Nómina**".
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Seleccione en el campo "**Proceso Nómina**", el proceso de nómina actual al cual le cargará las incidencias de los Empleados. Dicho proceso se encuentra explicado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_.
+#. Seleccione en el campo "**Proceso Nómina**", el proceso de nómina actual al cual le cargará las incidencias de los empleados. Dicho proceso se encuentra explicado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_.
 
     |Campo Proceso de Nómina|
 
@@ -34,7 +34,7 @@
 
     .. note::
 
-        En este campo encontrará todos los Socios de Negocios que tengan registrado la nómina que se está procesando, tome especial atención el Empleado que seleccionará para que proceda a cargar su incidencia
+        En este campo encontrará todos los socios de negocios que tengan registrado la nómina que se está procesando, tome especial atención el empleado que seleccionará para que proceda a cargar su incidencia
 
 #. Seleccione en el campo "**Fecha**", la fecha en la que se le cargará la incidencia al socio del negocio empleado seleccionado.
 
@@ -42,7 +42,7 @@
 
     Imagen 4. Campo Fecha
 
-#. Seleccione en el campo "**Concepto Nómina**", la incidencia que se le cargará al Socio del Negocio Empleado seleccionado.
+#. Seleccione en el campo "**Concepto Nómina**", la incidencia que se le cargará al socio de negocio empleado seleccionado.
 
     |Campo Conceptos de Tipo Incidencias|
 
@@ -53,7 +53,7 @@
         En este campo se muestran todas las incidencias, sin importar el tipo de nómina con el que fue generado el documento proceso de nómina seleccionado.
 
 
-#. Introduzca el valor de la Incidencia que seleccionó en el campo que aparece a continuación.
+#. Introduzca el valor de la incidencia que seleccionó en el campo que aparece a continuación.
 
     |Campo Monto Incidencias|
 
@@ -61,7 +61,7 @@
 
     .. note::
 
-        Este campo se habilita para agregar valor de la Incidencia que seleccionó. Existen Incidencias cuyo valor es de Tipo "**Monto**", Otra que son de Tipo "**Cantidad**" y otras Incidencia que de Tipo "**Fecha**" en el Campo que Dice "**Tipo de Columna**" le indica el valor de la incidencia que seleccionó
+        Este campo se habilita para agregar valor de la incidencia que seleccionó. Existen incidencias cuyo valor es de tipo "**Monto**", otras que son de tipo "**Cantidad**" y otras incidencias que de tipo "**Fecha**" en el campo que dice "**Tipo de Columna**" le indica el valor de la incidencia que seleccionó
 
 #. Introduzca en el campo "**Descripción**", una breve descripción de la incidencia que se le cargará al socio del negocio empleado.
 
@@ -75,7 +75,7 @@
 
     Imagen 8. Opción OK
 
-#. Por último podrá visualizar la forma como queda generada la Incidencia lista para que sea procesada durante la Nómina.
+#. Por último podrá visualizar la forma como queda generada la Incidencia lista para que sea procesada durante la nómina.
 
     |Campo Incidencia Generada|
 
