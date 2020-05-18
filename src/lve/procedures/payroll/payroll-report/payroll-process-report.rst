@@ -26,7 +26,7 @@
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar en la ventana "**Reporte de Nómina**", los diferentes campos que permiten generar el reporte de nómina de acuerdo a lo requerido por el usuario en su momento. Cabe destacar que estos campos son filtros  los cuales nos permiten obtener la información más precisa del reporte que deseamos visualizar. No es obligatorio llenar todos campos , usted escogerá los que más se adapten a la información que usted desea obtener. A continuación se detallan cada uno de ellos
+#. Podrá visualizar en la ventana "**Reporte de Nómina**", los diferentes campos que permiten generar el reporte de nómina de acuerdo a lo requerido por el usuario en su momento. Cabe destacar que estos campos son filtros  los cuales nos permiten obtener la información más precisa del reporte que deseamos visualizar. No es obligatorio llenar todos campos, usted escogerá los que más se adapten a la información que usted desea obtener. A continuación se detallan cada uno de ellos
 
     |Ventana Reporte de Nómina|
 
@@ -62,7 +62,7 @@
 
       .. note::
 
-      El número de Documento del Proceso de Nómina lo encontrará en la Ventana Proceso de Nómina en el campo que dice Número de Documento.
+      El número de documento del proceso de nómina lo encontrará en la ventana proceso de nómina en el campo que dice número de documento.
 
 #. Seleccione en el campo "**Departamento Nómina**", el departamento al cual pertenece el empleado y por el cual se va a generar el reporte de nómina.
 
@@ -101,13 +101,13 @@
 
     Imagen 12. Campo Estado del Documento
 
-#. Seleccionar en el campo "**Configuración del Reporte de Nómina**", este campo es obligatorio llenarlo para obtener el reporte de Nómina, existe una gran Cantidad de Reportes de Nóminas, los mismos estan configurados dependiendo del tipo de nómina que necesite visualizar, por ejemplo la Configuración de Reporte de Nómina llamada "**Nómina Regular**", es el reporte que se utiliza cuando queremos ver los resultados de las Nóminas Regulares (Nómina Semanal, Nómina Semanal Mixta, Nómina Quicenal,Nómina Quincenal Mixta, Nómina Mensual y Nómina Mensual Mixta) de cada empleado de la organización seleccionada anteriormente.
+#. Seleccionar en el campo "**Configuración del Reporte de Nómina**", este campo es obligatorio llenarlo para obtener el reporte de Nómina, existe una gran cantidad de reportes de nóminas, los mismos están configurados dependiendo del tipo de nómina que necesite visualizar, por ejemplo la configuración de reporte de nómina llamada "**Nómina Regular**", es el reporte que se utiliza cuando queremos ver los resultados de las nóminas regulares (Nómina Semanal, Nómina Semanal Mixta, Nómina Quincenal,Nómina Quincenal Mixta, Nómina Mensual y Nómina Mensual Mixta) de cada empleado de la organización seleccionada anteriormente.
 
     |Campo Configuración del Reporte de Nómina|
 
     Imagen 13. Campo Configuración del Reporte de Nómina
 
-#. Seleccionar en el Campo "**Plantilla de Reporte de Nómina**" las diferentes formatos con los que se puede visulizar un reporte de Nómina.
+#. Seleccionar en el campo "**Plantilla de Reporte de Nómina**" las diferentes formatos con los que se puede visualizar un reporte de Nómina.
 
     |Campo Plantilla de Reporte de Nómina|
 
