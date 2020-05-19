@@ -16,23 +16,30 @@
  **NÓMINA MENSUAL**
 ======================
 
-Para procesar una Nómina Mensual debemos realizar el proceso de nómina estándar mencionado en el documento: Proceso de Nómina ubicado en el siguiente enlace :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere Requiere para crear una nómina de tipo mensual, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
+Para procesar una “**Nómina Mensual**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo mensual, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
-#. Estatus del Documento:
+#. Estatus del documento:
 
-        #. Seleccione en el campo "**Tipo de Documento**" Nómina Mensual, este tipo de documento le permitirá definir la acción del documento que este registrando en ADempiere.
+        #. Seleccione **Nómina Mensual** en el campo "**Tipo de Documento**".
 
-        #. Seleccione la Nómina Mensual en el Campo "**Nómina**"
+            El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
 
-            Nómina Mensual define el comportamiento de la nómina, para este caso tiene las siguientes caracteristicas:
+        #. Seleccione **Nómina Mensual** en el campo "**Nómina**"
+
+            La nómina mensual define el comportamiento de la nómina, para este caso tiene las siguientes características:
 
                 #. Regla de Pago: Débito Directo
                 #. Contrato de Nómina: Contrato Mensual
                 #. Cargo: Sueldos y Salarios por Pagar
 
-        #. El periodo de nómina define el periodo laborado que le está siendo cancelado al empleado, disponiendo de los periodos creado en la definición de nómina mensual debe seleccionar en el campo "**Periodo**" el periodo correspondiente a la nómina que desee ejecutar
+        #. Seleccione el período mensual correspondiente a la nómina que se está ejecutando en el campo "**Período Nómina**"
 
-        #. A traves de la "**Fecha Contable**" se determina contablemente la fecha de Pago de la Nómina Mensual en ejecución, por tal motivo se recomienda colocar la fecha “Hasta” o el último día del periodo que selecciono anteriormente.
+              El período de nómina define el período laborado que le está siendo cancelado al empleado, disponiendo de los períodos creados en la definición de nómina mensual.
+
+        #. Seleccione la fecha “Hasta” o el último día del período que seleccionó anteriormente en el campo "**Fecha Contable**"
+
+              A través de la fecha contable se determina contablemente la fecha de pago de la nómina mensual en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
+
 
       |Nómina Mensual|
 
@@ -41,7 +48,7 @@ Para procesar una Nómina Mensual debemos realizar el proceso de nómina estánd
 
 #. Incidencias:
 
-      Para esta nómina no son obligatorias las incidencias, pero en ADempiere se cuentan con las siguientes incidencias disponibles para la Nómina Mensual:
+      Para esta nómina no son obligatorias las incidencias, pero en ADempiere se cuentan con las siguientes incidencias disponibles para la nómina mensual:
 
       +-------------------------------------------------------+----------------------+----------------+
       |           **INCIDENCIA**                              |     **CÓDIGO**       |    **TIPO**    |
@@ -89,7 +96,7 @@ Para procesar una Nómina Mensual debemos realizar el proceso de nómina estánd
 
          - **Nómina**: Nómina Mensual
 
-         - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
+         - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
          - **Configuración de Reporte de Nómina**: Nómina Regular
 
@@ -102,7 +109,7 @@ Para procesar una Nómina Mensual debemos realizar el proceso de nómina estánd
 
          - **Nómina**: Nómina Mensual
 
-         - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
+         - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
          - **Configuración de Reporte de Nómina**: Nómina Regular
 
@@ -117,7 +124,7 @@ Para procesar una Nómina Mensual debemos realizar el proceso de nómina estánd
 
          - **Nómina**: Nómina Mensual
 
-         - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
+         - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
          - **Configuración de Reporte de Nómina**: Nómina Regular
 
@@ -132,7 +139,7 @@ Para procesar una Nómina Mensual debemos realizar el proceso de nómina estánd
 
          - **Nómina**: Nómina Mensual
 
-         - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
+         - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
          - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
@@ -145,7 +152,7 @@ Para procesar una Nómina Mensual debemos realizar el proceso de nómina estánd
 
            - **Nómina**: Nómina Mensual
 
-           - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
+           - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
            - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
@@ -158,7 +165,7 @@ Para procesar una Nómina Mensual debemos realizar el proceso de nómina estánd
 
          - **Nómina**: Nómina Mensual
 
-         - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
+         - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
          - **Configuración de Reporte de Nómina**: Provisiones
 
@@ -169,4 +176,4 @@ Para procesar una Nómina Mensual debemos realizar el proceso de nómina estánd
 
         .. note::
 
-            Cabe destacar que los Reportes de Aportes, Retenciones, Provisiones se deben pasar al Departamento de Contabilidad
+            Cabe destacar que los reportes de Aportes, Retenciones, Provisiones se deben pasar al Departamento de Contabilidad
