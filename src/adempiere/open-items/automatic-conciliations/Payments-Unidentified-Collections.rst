@@ -6,7 +6,7 @@
 
 
 **Pagos o Cobros sin Identificar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Al momento de hacer la conciliaciòn bancaria la mayorìa de las veces suelen haber movimientos en el extracto bancario qué se desconocen de donde provienen, y para ADempiere todos los movimiento qué tiene el extracto bancario deben ser identificados ó asociados a un **"Pago/Cobro"** ya qué  de no ser identificados ADempiere  no permitirá completar la conciliación bancaria, el cual implica qué dentro de ADempiere no se ha realizado ninguna conciliación.
 
@@ -15,16 +15,16 @@ Para los movimientos bancarios qué se desconocen de dónde proviene, en ADempie
 
 .. note ::
 
-	los **"Pago/Cobro"**qué se pasen a ser no identificados, luego podrán ser identificados una vez se verifique su procedencia.
+	Los **"Pago/Cobro"**qué se pasen a ser no identificados, luego podrán ser identificados una vez se verifique su procedencia.
 
 
 Para poder llevar estas transacciones bancarias a **"Pagos o Cobros sin Identificar"**  se debe realizar los siguientes pasos:
 
 #. Debe dirigirse a la ventana padre **”Estado de Cuenta Bancario”** .
 
-        |Estado de Cuenta|
+      |Estado de Cuenta|
 
-        Imagen 1. Estado de Cuenta
+      Imagen 1. Estado de Cuenta
 
 
 #. Seleccione el icono **”Proceso”**, en la barra de herramientas de ADempiere.
@@ -47,9 +47,9 @@ Para poder llevar estas transacciones bancarias a **"Pagos o Cobros sin Identifi
 
       |movimientos|
 
-      Imagen 4. movimientos
+      Imagen 4. Movimientos
 
-#. seleccione el o los **"Pago/Cobro"** con procedencia desconocida.
+#. Seleccione el o los **"Pago/Cobro"** con procedencia desconocida.
 
 
 #. Seleccione en el campo "**Tipo de Transacción**" la opción "**Pago Sin Identificar**".
@@ -66,7 +66,9 @@ Para poder llevar estas transacciones bancarias a **"Pagos o Cobros sin Identifi
 
          Imagen 18. Opción OK
 
-..  note :: Al seleccionar la opción "**OK**"  ADempiere a  lo llevará a la ventana padre **”Estado de Cuenta Bancario”**; ADempiere creará un **"Pago/Cobro"** con las mismas características del movimiento bancario desconocido en cuanto monto, fecha , y moneda.
+..  note :: 
+
+      Al seleccionar la opción "**OK**"  ADempiere a  lo llevará a la ventana padre **”Estado de Cuenta Bancario”**; ADempiere creará un **"Pago/Cobro"** con las mismas características del movimiento bancario desconocido en cuanto monto, fecha , y moneda.
 
 #. Podrá visualizar el **"Pago/Cobro"** no identificado en la pestaña **”Línea Estado de Cuentas”** el cual contará con las siguientes caracteristicas:
 
@@ -80,7 +82,7 @@ Pago no identificado””**
 
 .. note ::
 
-el n° de documento a mostrar debe coincidir con el n° qué se muestra el campo **”N° de Referencia”** el cual es el número de la referencia bancaria de ese movimiento.
+      El n° de documento a mostrar debe coincidir con el n° qué se muestra el campo **”N° de Referencia”** el cual es el número de la referencia bancaria de ese movimiento.
 
 
 #. En el grupo de campos **“Referencia”**  debe aparecer como **”Socio de Negocio**””  **”Pagos/Cobros Sin Identificar”**, este es un socio de negocio qué tomará temporalmente el **"Pago/Cobro"** sin identificar.
@@ -89,4 +91,4 @@ el n° de documento a mostrar debe coincidir con el n° qué se muestra el campo
 
 .. note ::
 
-	el socio de negocio **”Pagos/Cobros Sin Identificar”** es un socio de negocio qué toma temporalmente el **"Pago/Cobro"**"** sin identificar, el cual más adelante será modificado una vez se desee identificar ese **"Pago/Cobro"**
+      El socio de negocio **”Pagos/Cobros Sin Identificar”** es un socio de negocio qué toma temporalmente el **"Pago/Cobro"**"** sin identificar, el cual más adelante será modificado una vez se desee identificar ese **"Pago/Cobro"**
