@@ -1,5 +1,5 @@
-.. _master/business-partner/customer:
 .. _ERPyA: http://erpya.com
+.. _master/business-partner/customer:
 
 =============================
 **Socio del Negocio Cliente**
@@ -52,5 +52,5 @@ Para concluir el preámbulo, le invitamos a tomar en cuenta cada una de estas ac
 
 .. toctree::
     :maxdepth: 3
-
+    
     customer
