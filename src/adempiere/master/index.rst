@@ -24,7 +24,7 @@ Con este ejemplo visualizamos la gravedad que implica la falta de integración y
 **Tabla de Contenido**
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     business-partner/index
     product/index

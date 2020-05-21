@@ -430,3 +430,7 @@ Cuando **Inversión del Norte** emite una orden de compra configurada para emiti
 .. warning::
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
+
+:ref:`master/business-partner/provider`
+:ref:`master/business-partner/customer`
+:ref:`master/business-partner/employee`
