@@ -11,3 +11,11 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
     :maxdepth: 2
 
     procedure-to-process-payroll
+
+.. toctree::
+    :maxdepth: 2
+
+      weekly-payroll
+      biweekly-payroll
+      monthly-payroll
+      mixed-weekly-payroll
