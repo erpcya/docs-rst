@@ -428,6 +428,10 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
 :ref:`master/business-partner/provider`
 
+otro 
+
 :ref:`master/business-partner/customer`
+
+y otro 
 
 :ref:`master/business-partner/employee`
