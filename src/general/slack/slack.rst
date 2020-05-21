@@ -1,4 +1,4 @@
-.. _src/general/slack
+.. _src/general/slack:
 .. _ERPyA: http://erpya.com
 .. _Slack: https://erp.slack.com/
 .. _Google Play Store: https://play.google.com/store/apps/details?id=com.Slack
