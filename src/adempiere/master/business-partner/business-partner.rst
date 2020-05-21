@@ -39,9 +39,9 @@
 
 .. _documento/socio-negocio:
 
-
-**Proceso de Registro del Socio del Negocio**
-=============================================
+=====================================================
+**Proceso General de Registro del Socio del Negocio**
+=====================================================
 
 #. En el menú de ADempiere, ubique y seleccione la carpeta "**Relación con Socio del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**" y finalmente seleccione la ventana "**Socio del Negocio**".
 
@@ -49,10 +49,7 @@
 
     Imagen 1. Menú de ADempiere
 
-**Ventana Socio del Negocio**
------------------------------
-
-En esta ventana se registran los datos principales que la empresa requiere del socio del negocio cliente. Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
+    En esta ventana se registran los datos principales que la empresa requiere del socio del negocio cliente. Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
 
 #. A continuación visualizará la ventana "**Socio del Negocio**", dónde debe seleccionar el icono de "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere.
 
