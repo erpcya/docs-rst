@@ -15,7 +15,7 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 .. toctree::
     :maxdepth: 2
 
-      weekly-payroll
-      biweekly-payroll
-      monthly-payroll
-      mixed-weekly-payroll
+    weekly-payroll
+    biweekly-payroll
+    monthly-payroll
+    mixed-weekly-payroll
