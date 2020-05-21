@@ -426,12 +426,8 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
 
-:ref:`master/business-partner/provider`
-
-otro 
-
 :ref:`master/business-partner/customer`
 
-y otro 
+:ref:`master/business-partner/provider`
 
 :ref:`master/business-partner/employee`
