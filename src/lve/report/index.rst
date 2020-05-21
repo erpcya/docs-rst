@@ -9,7 +9,7 @@ Un reporte es un informe detallado o preciso sobre algún tema en específico, s
 El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar reportes en ADempiere, en su versión 3.9.2 para la localización Venezuela.
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 1
 
     gross-sales-report/index
     arc-report/index

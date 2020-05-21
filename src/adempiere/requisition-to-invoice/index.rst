@@ -9,8 +9,9 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 .. toctree::
     :maxdepth: 1
 
+    request-for-quotation/index
     requisition/index
     purchase-order/index
     invoice/index
     material-receipt/index
-    request-for-quotation/index
+    
