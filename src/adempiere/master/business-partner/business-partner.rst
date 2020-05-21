@@ -423,8 +423,9 @@
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
 
-#. :ref:`master/business-partner/customer`
-
-#. :ref:`master/business-partner/provider`
-
-#. :ref:`master/business-partner/employee`
+.. toctree::
+    :maxdepth: 2
+    
+    provider/index
+    customer/index
+    employee/index

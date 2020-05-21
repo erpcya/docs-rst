@@ -18,6 +18,3 @@ En esta ocasión `ERPyA`_ pretende ofrecerle una guía fácil para la definició
     :maxdepth: 2
 
     business-partner
-    provider/index
-    customer/index
-    employee/index
