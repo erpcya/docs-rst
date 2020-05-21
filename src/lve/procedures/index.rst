@@ -10,7 +10,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
     :maxdepth: 1
 
     payroll/index
-    sales/index
     import
     intermediary-advance-settlement
     advance-payment-to-transit-providers

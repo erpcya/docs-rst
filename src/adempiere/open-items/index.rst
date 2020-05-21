@@ -16,5 +16,6 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
     collection/index
     cash-refund/index
     cash-per-diems/index
+    collection-cash/index
     cash-closing/index
     automatic-conciliations/index
