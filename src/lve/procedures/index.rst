@@ -9,7 +9,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 .. toctree::
     :maxdepth: 1
 
-    human-resource/index
     payroll/index
     sales/index
     import

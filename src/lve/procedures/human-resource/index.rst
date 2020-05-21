@@ -9,6 +9,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos est
 .. toctree::
     :maxdepth: 1
 
-    cash-refund/index
-    cash-per-diems/index
-    cash-closing/index
+

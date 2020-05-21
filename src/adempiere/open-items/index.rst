@@ -14,4 +14,7 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
     payment-selection-cxp/index
     payment/index
     collection/index
+    cash-refund/index
+    cash-per-diems/index
+    cash-closing/index
     automatic-conciliations/index

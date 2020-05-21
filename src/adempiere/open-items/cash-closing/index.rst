@@ -1,4 +1,4 @@
-.. _src/lve/procedures/human-resource/cash-closing:
+.. _src/adempiere/open-items/cash-closing:
 .. _ERPyA: http://erpya.com
 
 ==================
