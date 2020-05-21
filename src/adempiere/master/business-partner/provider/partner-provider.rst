@@ -1,7 +1,7 @@
 .. _documento/socio-proveedor:
 
 **Proceso de Registro del Socio del Negocio**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+---------------------------------------------
 
 #. En el menú de ADempiere, ubique y seleccione la carpeta "**Relación con Socios del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**" y finalmente seleccione la ventana "**Socio del Negocio**", adjunto imagen para referencia.
 
@@ -14,7 +14,7 @@
          Imagen 1. Menú de ADempiere
 
 **Ventana Socio del Negocio**
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+-----------------------------
 
 En esta ventana se registran los datos principales del socio del negocio. Cada uno de los campos con el símbolo (*) son campos obligatorios para el registro.
 
@@ -95,7 +95,7 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
       Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio. 
 
 **Pestaña Proveedor**
-'''''''''''''''''''''
+*********************
 
 Esta pestaña le indica a ADempiere si el socio del negocio que se esta registrando es un proveedor. 
 
@@ -195,7 +195,7 @@ Esta pestaña le indica a ADempiere si el socio del negocio que se esta registra
                Imagen 15. Campo Exento de (IGTF)
 
 **Pestaña Cuenta Bancaria**
-'''''''''''''''''''''''''''
+***************************
 
 En esta pestaña se registran los datos bancarios del socio del negocio proveedor, con el checklist "**Activo**" se pueden registrar los datos de la tarjeta de crédito del socio del negocio. Así mismo, con el checklist "**ACH**" se pueden registrar los datos de la cuenta bancaria del socio del negocio.
 
@@ -210,7 +210,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
          Imagen 16. Pestaña Cuenta Bancaria
 
 **Checklist Activo**
-********************
+++++++++++++++++++++
 
 #. Seleccione en el campo "**Tarjeta de Crédito**", el tipo de tarjeta de crédito que posee el socio del negocio proveedor que esta registrando.
 
@@ -277,7 +277,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
       Este proceso se realiza con la finalidad de registrar la tarjeta de crédito del socio del negocio.
 
 **Checklist ACH**
-*****************
++++++++++++++++++
 
 #. Para registros de cuentas bancarias, tilde el checklist "**ACH**", a continuación se reflejarán los campos para el registro de la cuenta bancaria del socio del negocio proveedor.
 
@@ -344,7 +344,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
       Este proceso se realiza con la finalidad de registrar la cuenta bancaria del socio del negocio proveedor.
 
 **Pestaña Localización**
-''''''''''''''''''''''''
+************************
 
 La localización de un socio del negocio es muy importante por diferentes motivos y más si el socio del negocio es proveedor. Ya que las transacciones de compras serán realizadas al mismo, en esta pestaña se deben registrar con exactitud los datos de la dirección del socio del negocio.
 
@@ -373,7 +373,7 @@ La localización de un socio del negocio es muy importante por diferentes motivo
       Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
 
 **Pestaña Contacto**
-''''''''''''''''''''
+********************
 
 En esta pestaña se registran todos los datos de contacto que se tengan del socio del negocio proveedor.
 

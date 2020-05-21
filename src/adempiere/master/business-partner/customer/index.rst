@@ -1,4 +1,3 @@
-
 .. _master/business-partner/customer:
 .. _ERPyA: http://erpya.com
 

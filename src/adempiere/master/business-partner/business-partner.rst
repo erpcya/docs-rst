@@ -64,7 +64,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione la organización en el campo "**Organización**".
 
-    La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el Socio de negocio, si la organización es (*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
+        La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el Socio de negocio, si la organización es (*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
 
         |Campo Organización|
 
@@ -76,11 +76,11 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca el código de Socio del Negocio en el campo "**Código**".
 
-    El código es un dato único e irrepetible que protege la entrada de los registros, evitando la duplicidad de los mismos, generalmente se refiere al número de identificación que acredite la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF.
+        El código es un dato único e irrepetible que protege la entrada de los registros, evitando la duplicidad de los mismos, generalmente se refiere al número de identificación que acredite la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF.
 
- .. note:
+        .. note:
 
-	Si no es ingresado un dato en este campo ADempiere genera un dato de tipo numérico autoincrementable.
+            Si no es ingresado un dato en este campo ADempiere genera un dato de tipo numérico autoincrementable.
 
         |Campo Código|
 
@@ -90,21 +90,19 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
             Se recomienda no ingresar caracteres especiales como puntos, guiones u otros que alteren el registro en este campo.
 
-     #. Seleccione el socio de negocio padre en el campo "**Socio de Negocio Padre**".
+    #. Seleccione el socio de negocio padre en el campo "**Socio de Negocio Padre**".
 
-    El socio de negocio padre no es un campo obligatorio, sin embargo, es un campo que permite la agrupación de sub-entidades dependientes (socios de negocios hijos) de un socio de negocio, para explicarlo mejor veamos el siguiente ejemplo:
+        El socio de negocio padre no es un campo obligatorio, sin embargo, es un campo que permite la agrupación de sub-entidades dependientes (socios de negocios hijos) de un socio de negocio, para explicarlo mejor veamos el siguiente ejemplo:
 
         Imaginemos un proveedor de tipo cadena cuyo nombre es **Cadena Única C.A**, esta tendrá dos tiendas físicas, **Cadena Unica Centro C.A** y **Cadena Única Oriente C.A** respectivamente. Para este caso el **Socio de Negocio Padre** es **Cadena Única C.A**,quedando agrupado de forma que las dos tiendas serán hijas de **Cadena Única C.A**, de esta forma al emitir reportes financieros podríamos generarlos desde el Socio de Negocio Padre (**Cadena Única C.A**), agrupando todos los saldos de las tiendas por el padre ó podría generar los reportes únicamente por tienda.
 
         .. note::
 
-        Generalmente esta opción es utilizada para franquicias, cadenas o corporaciones.
-
-
+            Generalmente esta opción es utilizada para franquicias, cadenas o corporaciones.
 
     #. Introduzca el nombre del socio del negocio  en el campo "**Nombre**".
 
-    El nombre se refiere a la razón social, siendo esta el nombre ó la denominación con la que está registrado en los documentos legales, el nombre es utilizado a nivel administrativo, formal y jurídico.
+        El nombre se refiere a la razón social, siendo esta el nombre ó la denominación con la que está registrado en los documentos legales, el nombre es utilizado a nivel administrativo, formal y jurídico.
 
         |Campo Nombre|
 
@@ -112,7 +110,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca el nombre 2 del socio del negocio en el campo "**Nombre 2**".
 
-    El nombre 2 varía su uso dependiendo de la naturaleza del socio del negocio (Cliente, Proveedor o Empleado), si es un cliente o un proveedor es opcional, y generalmente se utiliza para colocar la denominación comercial, por el contrario, si es un empleado es obligatorio, siendo este campo correspondiente al apellido, el mismo será impreso en los reportes administrativos y jurídicos.
+        El nombre 2 varía su uso dependiendo de la naturaleza del socio del negocio (Cliente, Proveedor o Empleado), si es un cliente o un proveedor es opcional, y generalmente se utiliza para colocar la denominación comercial, por el contrario, si es un empleado es obligatorio, siendo este campo correspondiente al apellido, el mismo será impreso en los reportes administrativos y jurídicos.
 
         |Campo Nombre 2|
 
@@ -120,7 +118,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca una breve descripción referente al socio del negocio cliente en el campo "**Descripción**".
 
-    La descripción no es un campo obligatorio,sin embargo, le permite dejar descripciones o notas de interés para el registro.
+        La descripción no es un campo obligatorio,sin embargo, le permite dejar descripciones o notas de interés para el registro.
 
         |Campo Descripción|
 
@@ -128,7 +126,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione el checklist "**Entidad Acumulada**".
 
-    Entidad acumulada no es un campo obligatorio, sin embargo, le permite definir al socio del negocio como entidad sumaria, lo que significa que si el socio de negocio tiene este check activo será un **Socio de Negocio Padre**.
+        Entidad acumulada no es un campo obligatorio, sin embargo, le permite definir al socio del negocio como entidad sumaria, lo que significa que si el socio de negocio tiene este check activo será un **Socio de Negocio Padre**.
 
         |Campo Entidad Acumulada|
 
@@ -136,7 +134,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione en el campo "**Estado de Crédito**".
 
-    El estado del crédito no es un campo obligatorio, sin embargo, le permite definir el comportamiento para la gestión del crédito del socio de negocio, actúa conjuntamente con el campo **Saldo Actual** y **Límite de Crédito** ubicado en la pestaña **Cliente**, este puede variar entre las siguiente opciones dependiendo de las necesidades:
+        El estado del crédito no es un campo obligatorio, sin embargo, le permite definir el comportamiento para la gestión del crédito del socio de negocio, actúa conjuntamente con el campo **Saldo Actual** y **Límite de Crédito** ubicado en la pestaña **Cliente**, este puede variar entre las siguiente opciones dependiendo de las necesidades:
 
         #. **Sin Verificación de Crédito:** Establecido de forma manual, omite la evaluación para los socios de negocios a los que no se evalúa el crédito, equivalente a **Sin límite de Crédito**.
 
@@ -154,7 +152,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Podrá visualizar el saldo actual que posee el cliente en el campo "**Saldo Actual**.
 
-    El saldo actual es un campo solo lectura, actualizado de forma automática, aumentando o disminuyendo al emitir cuentas por cobrar o cuentas por pagar, controlando el estado de crédito.
+        El saldo actual es un campo solo lectura, actualizado de forma automática, aumentando o disminuyendo al emitir cuentas por cobrar o cuentas por pagar, controlando el estado de crédito.
 
         |Campo Saldo Actual|
 
@@ -162,13 +160,11 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Podrá visualizar el número de identificación autogenerado a partir del campo **código** en el campo “**Número de Identificación**”.
 
-    El número de identificación se refiere al número que acredita la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF, este campo mantiene incidencia en la generación de documentos fiscales como facturas, retenciones y comprobantes ARC.
-
-
+        El número de identificación se refiere al número que acredita la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF, este campo mantiene incidencia en la generación de documentos fiscales como facturas, retenciones y comprobantes ARC.
 
     #. Seleccione el checklist "**Exento de Impuesto en Venta**".
 
-    Exento de Impuesto de Venta, no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de ventas, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de venta con el producto en cuestión con impuesto (0%).
+        Exento de Impuesto de Venta, no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de ventas, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de venta con el producto en cuestión con impuesto (0%).
 
         |Campo Exento de Impuesto en Venta|
 
@@ -176,7 +172,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione el checklist "**Exento de Impuesto en Compra**", para definir al socio del negocio como exento de impuesto.
 
-    Exento de Impuesto de Compra,  no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de compras, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de compra con el producto en cuestión con impuesto (0%).
+        Exento de Impuesto de Compra,  no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de compras, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de compra con el producto en cuestión con impuesto (0%).
 
         |Campo Exento de Impuesto en Compra|
 
@@ -184,14 +180,13 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione el grupo de impuestos en el campo "**Grupo de Impuestos**".
 
-
         |Campo Grupo de Impuestos|
 
         Imagen 13. Campo Grupo de Impuestos
 
     #. Introduzca el código DUNS del socio del negocio en el campo "**DUNS**".
 
-    El código DUNS no es un campo obligatorio, sin embargo, le permite introducir el número DUNS (Data Universal Numbering System o Sistema Universal de Numeración de Datos), el mismo es un un número de identificación proporciona la identidad única a cada empresa a nivel internacional.
+        El código DUNS no es un campo obligatorio, sin embargo, le permite introducir el número DUNS (Data Universal Numbering System o Sistema Universal de Numeración de Datos), el mismo es un un número de identificación proporciona la identidad única a cada empresa a nivel internacional.
 
         |Campo DUNS|
 
@@ -199,7 +194,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca el número de referencia socio del negocio en el campo "**No. de Referencia**".
 
-    El número de Referencia no es un campo obligatorio, sin embargo, le permite introducir un número fijo que utiliza el socio de negocio para gestiones administrativas, este tiene incidencia en las órdenes de compra o venta dependiendo la naturaleza de la entidad, siendo establecido de forma automática en las mismas.
+        El número de Referencia no es un campo obligatorio, sin embargo, le permite introducir un número fijo que utiliza el socio de negocio para gestiones administrativas, este tiene incidencia en las órdenes de compra o venta dependiendo la naturaleza de la entidad, siendo establecido de forma automática en las mismas.
 
         |Campo No. de Referencia|
 
@@ -207,7 +202,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca el código NAICS o SIC del socio del negocio en el campo "**NAICS/SIC**".
 
-    El código NAICS/SIC no es un campo obligatorio, sin embargo, le permite introducir el código NAICS (American Industry Classification System ó Sistema de Clasificación Industrial de América del Norte), este es un código utilizado en los Estados Unidos, Canadá y México para clasificar la industria y actividades económicas.
+        El código NAICS/SIC no es un campo obligatorio, sin embargo, le permite introducir el código NAICS (American Industry Classification System ó Sistema de Clasificación Industrial de América del Norte), este es un código utilizado en los Estados Unidos, Canadá y México para clasificar la industria y actividades económicas.
 
         |Campo NAICS/SIC|
 
@@ -215,7 +210,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca la valuación ABC en el campo "**Valuación ABC**".
 
-    La valuación ABC no es un campo obligatorio, sin embargo, le permite establecer una evaluación clasificatoria del socio de negocio cliente.
+        La valuación ABC no es un campo obligatorio, sin embargo, le permite establecer una evaluación clasificatoria del socio de negocio cliente.
 
         |Campo Valuación ABC|
 
@@ -223,11 +218,11 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione el grupo de socio del negocio en el campo "**Grupo de Socio del Negocio**".
 
-    El grupo de Socio del Negocio, permite categorizar sus socios de negocio de una forma específica, lo cual es eficiente a la hora de emitir asientos contables y reportes, para entenderlo mejor veamos el siguiente ejemplo:
+        El grupo de Socio del Negocio, permite categorizar sus socios de negocio de una forma específica, lo cual es eficiente a la hora de emitir asientos contables y reportes, para entenderlo mejor veamos el siguiente ejemplo:
 
-            Imaginemos que tenemos una cartera de clientes que manejan diferentes monedas, para categorizar de forma específica sería: **Clientes Nacionales** y **Clientes Internacionales**, de esta forma podría emitir reportes de cuentas por cobrar para clientes nacionales e Internacionales respectivamente.
+        Imaginemos que tenemos una cartera de clientes que manejan diferentes monedas, para categorizar de forma específica sería: **Clientes Nacionales** y **Clientes Internacionales**, de esta forma podría emitir reportes de cuentas por cobrar para clientes nacionales e Internacionales respectivamente.
 
-    Adicionalmente, define en el socio de negocio funciones y parámetros a partir de la categoría, entre las que se encuentran:
+        Adicionalmente, define en el socio de negocio funciones y parámetros a partir de la categoría, entre las que se encuentran:
 
         #. **Impresión a Color:** Define el color con los que serán mostrados en el arbol.
 
@@ -253,7 +248,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione el tipo de cuenta en el campo "**Tipo de Cuenta**".
 
-    El tipo de cuenta no es un campo obligatorio, sin embargo, le permite a los vendedores conocer con perfección las características de sus clientes y los diferentes tipos de clientes definidos en la empresa y así realizar un mejor estudio de mercado.
+        El tipo de cuenta no es un campo obligatorio, sin embargo, le permite a los vendedores conocer con perfección las características de sus clientes y los diferentes tipos de clientes definidos en la empresa y así realizar un mejor estudio de mercado.
 
         |Campo Tipo de Cuenta|
 
@@ -261,7 +256,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione el lenguaje en el campo "**Lenguaje**".
 
-     El lenguaje no es un campo obligatorio, sin embargo, define el idioma con que será impreso los formatos de impresión asociados a este Socio de Negocio.
+        El lenguaje no es un campo obligatorio, sin embargo, define el idioma con que será impreso los formatos de impresión asociados a este Socio de Negocio.
 
         |Campo Lenguaje|
 
@@ -269,7 +264,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione el tipo de industria en el campo "**Tipo de Industria**".
 
-    El tipo de industria no es un campo obligatorio, sin embargo, define la tipología de industria en la que se encuentra el Socio de Negocio.
+        El tipo de industria no es un campo obligatorio, sin embargo, define la tipología de industria en la que se encuentra el Socio de Negocio.
 
         |Campo Tipo de Industria|
 
@@ -277,7 +272,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione el segmento en el campo "**Segmento**".
 
-    El segmento no es un campo obligatorio, sin embargo, permite segmentar socios de negocios de manera rigurosa, identificar patrones que pueden ser usados para asignar un segmento.
+        El segmento no es un campo obligatorio, sin embargo, permite segmentar socios de negocios de manera rigurosa, identificar patrones que pueden ser usados para asignar un segmento.
 
         |Campo Segmento|
 
@@ -285,7 +280,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione el grupo de ventas en el campo "**Grupo de Ventas**".
 
-    El grupo de ventas no es un campo obligatorio, sin embargo, permite categorizar al socio de negocio en un grupo de venta con objetivos referente a marketing y promociones.
+        El grupo de ventas no es un campo obligatorio, sin embargo, permite categorizar al socio de negocio en un grupo de venta con objetivos referente a marketing y promociones.
 
         |Campo Grupo de Ventas|
 
@@ -293,7 +288,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Introduzca  la dirección de la página web en el campo "**Dirección Web**".
 
-    La dirección Web no es un campo obligatorio, sin embargo, permite registrar el sitio web del socio del negocio (Cliente y Proveedores) en el cual se administra la información de contacto de la empresa para solucionar sus inquietudes, realizar compras y gestión de solicitudes, aprovechando oportunidades de negocio que se encuentran en la red.
+        La dirección Web no es un campo obligatorio, sin embargo, permite registrar el sitio web del socio del negocio (Cliente y Proveedores) en el cual se administra la información de contacto de la empresa para solucionar sus inquietudes, realizar compras y gestión de solicitudes, aprovechando oportunidades de negocio que se encuentran en la red.
 
         |Campo Dirección Web|
 
@@ -301,7 +296,7 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione el checklist "**Prospecto Activo**".
 
-    Prospecto Activo no es un campo obligatorio, por defecto está establecido en falso, sin embargo al seleccionarlo indica que el socio de negocio de tipo cliente está activo.
+        Prospecto Activo no es un campo obligatorio, por defecto está establecido en falso, sin embargo al seleccionarlo indica que el socio de negocio de tipo cliente está activo.
 
         |Campo Prospecto Activo|
 
@@ -309,13 +304,13 @@ En esta ventana se registran los datos principales que la empresa requiere del s
 
     #. Seleccione la opción "**Liga Organización**", para ejecutar el proceso.
 
-    El proceso liga organización es ejecutado para los casos en los que la organización en gestión requiere generar documentos o solicitudes que son cubiertas por otra organización, para entenderlo mejor veamos el siguiente ejemplo:
+        El proceso liga organización es ejecutado para los casos en los que la organización en gestión requiere generar documentos o solicitudes que son cubiertas por otra organización, para entenderlo mejor veamos el siguiente ejemplo:
 
         Imaginemos que tenemos una organización (**Inversión del Norte**) donde existe un proveedor **Inversión del Sur C.A**, este es ligado a la organización **Inversión del Sur**.
 
-Cuando **Inversión del Norte** emite una orden de compra configurada para emitir contra documento con el proveedor **Inversión del Sur C.A**, es emitida una orden de venta para **Inversión del Norte** que satisface la orden de compra.
+        Cuando **Inversión del Norte** emite una orden de compra configurada para emitir contra documento con el proveedor **Inversión del Sur C.A**, es emitida una orden de venta para **Inversión del Norte** que satisface la orden de compra.
 
-    Para ejecutar este proceso debe tomar en cuenta los siguientes parámetros:
+        Para ejecutar este proceso debe tomar en cuenta los siguientes parámetros:
 
         #. **Organización Existente:** Seleccione una organización existente, si el campo queda vacío, se creará una organización con el nombre del socio de negocio de forma automática.
         
@@ -323,7 +318,7 @@ Cuando **Inversión del Norte** emite una orden de compra configurada para emiti
 
         #. **Límite de Acceso al Rol:** Seleccione un rol existente si desea que sólo un rol específico tenga acceso a esta organización, si el campo queda vacío, el rol ClientAdmin y ClientUser tendrán acceso a esta organización.
 
-    Seleccione la opción **OK** y será ejecutado el proceso.
+        Seleccione la opción **OK** y será ejecutado el proceso.
 
         .. note::
 
@@ -339,7 +334,7 @@ Cuando **Inversión del Norte** emite una orden de compra configurada para emiti
 
     #. Introduzca el valor de ingresos en el campo "**Valor Esperado**".
 
-    El valor esperado no es un campo obligatorio, sin embargo, permite ingresar un monto informativo de la rentabilidad esperada, basada en una estimación ingresos de un cliente.
+        El valor esperado no es un campo obligatorio, sin embargo, permite ingresar un monto informativo de la rentabilidad esperada, basada en una estimación ingresos de un cliente.
 
         |Campo Valor Esperado|
 
@@ -347,7 +342,7 @@ Cuando **Inversión del Norte** emite una orden de compra configurada para emiti
 
     #.  Podrá visualizar el valor total de transacciones que posee el cliente en el campo "**Valor Total Transacciones**".
 
-    El valor total transacciones es un campo solo lectura, actualizado de forma automática, sumando cada ingreso generado por este cliente, el mismo permite evaluar la rentabilidad de un cliente potencial.
+        El valor total transacciones es un campo solo lectura, actualizado de forma automática, sumando cada ingreso generado por este cliente, el mismo permite evaluar la rentabilidad de un cliente potencial.
 
         |Campo Valor Total Transacciones|
 
@@ -355,7 +350,7 @@ Cuando **Inversión del Norte** emite una orden de compra configurada para emiti
 
     #. Introduzca el costo de adquisición en el campo "**Costo de Adquisición**".
 
-    El costo de adquisición no es un campo obligatorio, sin embargo, permite registrar el monto total correspondiente al costo generado para lograr convertir un prospecto a cliente.
+        El costo de adquisición no es un campo obligatorio, sin embargo, permite registrar el monto total correspondiente al costo generado para lograr convertir un prospecto a cliente.
 
         |Campo Costo de Adquisición|
 
@@ -363,7 +358,7 @@ Cuando **Inversión del Norte** emite una orden de compra configurada para emiti
 
     #. Introduzca la cantidad de empleados en el campo "**Empleados**".
 
-    Empleados no es un campo obligatorio, sin embargo, le permite evaluar la cantidad de empleados de una empresa prospecto, funge como un dato informativo para ser utilizada en cotizaciones por ejemplo.
+        Empleados no es un campo obligatorio, sin embargo, le permite evaluar la cantidad de empleados de una empresa prospecto, funge como un dato informativo para ser utilizada en cotizaciones por ejemplo.
 
         |Campo Empleados|
 
@@ -371,9 +366,9 @@ Cuando **Inversión del Norte** emite una orden de compra configurada para emiti
 
     #. Introduzca el porcentaje de participación en el campo "**Participación**".
 
-    La participación no es un campo obligatorio, sin embargo, le permite mantener el control porcentualmente de la proporción obtenidas de las compras del cliente en la producción o distribución de productos o servicios.
+        La participación no es un campo obligatorio, sin embargo, le permite mantener el control porcentualmente de la proporción obtenidas de las compras del cliente en la producción o distribución de productos o servicios.
 
-    Esto puede generar fidelización del cliente, dando la oportunidad de evaluar promociones y descuentos para aquellos clientes en los cuales su participación sea alta, y a su vez, mayor oportunidad en el aumento de la cartera de cliente creando programas para ventas cruzadas y sugestivas, comercializando así más productos y servicios.
+        Esto puede generar fidelización del cliente, dando la oportunidad de evaluar promociones y descuentos para aquellos clientes en los cuales su participación sea alta, y a su vez, mayor oportunidad en el aumento de la cartera de cliente creando programas para ventas cruzadas y sugestivas, comercializando así más productos y servicios.
 
         |Campo Participación|
 
@@ -381,9 +376,9 @@ Cuando **Inversión del Norte** emite una orden de compra configurada para emiti
 
     #. Introduzca  el número de ventas total en el campo "**Volumen de Ventas**".
 
-    El volumen de ventas no es un campo obligatorio, sin embargo, permite registrar el número de ventas efectivas de un cliente, estas cifras generalmente son auditadas en reuniones directivas para evaluar la rentabilidad y expansión del negocio o si por el contrario sus ventas disminuyen.
+        El volumen de ventas no es un campo obligatorio, sin embargo, permite registrar el número de ventas efectivas de un cliente, estas cifras generalmente son auditadas en reuniones directivas para evaluar la rentabilidad y expansión del negocio o si por el contrario sus ventas disminuyen.
 
-    Adicionalmente este datos es producto de supervisión para controlar volumen de ventas en comparación a pronósticos de ventas, estableciendo una estimación de cantidades mínimas a vender para mantener un equilibrio en la organización.
+        Adicionalmente este datos es producto de supervisión para controlar volumen de ventas en comparación a pronósticos de ventas, estableciendo una estimación de cantidades mínimas a vender para mantener un equilibrio en la organización.
 
         |Campo Volumen de Ventas|
 
@@ -391,7 +386,7 @@ Cuando **Inversión del Norte** emite una orden de compra configurada para emiti
 
     #. Introduzca la fecha de la primera venta en el campo "**Primera Venta**".
 
-    La primera venta no es un campo obligatorio, sin embargo, permite registrar la fecha de la primera venta de forma informativa, útil para evaluar descuentos y promociones por aniversarios.
+        La primera venta no es un campo obligatorio, sin embargo, permite registrar la fecha de la primera venta de forma informativa, útil para evaluar descuentos y promociones por aniversarios.
 
         |Campo Primera Venta|
 
@@ -399,7 +394,7 @@ Cuando **Inversión del Norte** emite una orden de compra configurada para emiti
 
     #. Seleccione el tipo de persona en el campo "**Tipo de Persona**.
 
-    El tipo de persona se refiere a la forma legal como está está constituida una organización, entre las cuales tenemos las siguientes opciones:
+        El tipo de persona se refiere a la forma legal como está está constituida una organización, entre las cuales tenemos las siguientes opciones:
 
         #. **Jurídica Domiciliada:** Persona Jurídica Domiciliada es una empresa constituida dentro del territorio nacional, que cumple sus obligaciones y resguarda la empresa con su patrimonio.
 
@@ -413,9 +408,9 @@ Cuando **Inversión del Norte** emite una orden de compra configurada para emiti
 
         Imagen 32. Campo Tipo de Persona
 
-   #. Adjunte el logo de la empresa en el campo "**Logo**".
+    #. Adjunte el logo de la empresa en el campo "**Logo**".
 
-   El logo no es un campo obligatorio, sin embargo permite guardar logotipos de socios de negocios.
+        El logo no es un campo obligatorio, sin embargo permite guardar logotipos de socios de negocios.
 
         |Campo Logo|
 
@@ -432,5 +427,7 @@ Cuando **Inversión del Norte** emite una orden de compra configurada para emiti
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
 
 :ref:`master/business-partner/provider`
+
 :ref:`master/business-partner/customer`
+
 :ref:`master/business-partner/employee`
