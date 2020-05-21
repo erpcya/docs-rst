@@ -11,9 +11,9 @@
 .. _ERPyA: http://erpya.com
 
 
-===========================
- **NÓMINA SEMANAL MIXTA**
-===========================
+=========================
+ **Nómina Semanal Mixta**
+=========================
 
 Para procesar una Nómina Semanal Mixta debemos realizar el proceso de nómina mecionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. con los siguientes datos:
 
