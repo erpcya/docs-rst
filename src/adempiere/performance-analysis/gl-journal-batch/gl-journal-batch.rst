@@ -8,7 +8,7 @@
 .. |Campo Fecha Contable| image:: resources/campo-fecha-contable.png
 .. |Campo Cifra de Control| image:: resources/campo-cifra-control.png
 .. |Pestaña Nota Contable| image:: resources/pest-nota-contable.png
-.. |Campo Descripción de la Pestaña Nota Contable| image:: resources/campo-descripcion.pest.png
+.. |Campo Descripción de la Pestaña Nota Contable| image:: resources/campo-descripcion-pest.png
 .. |Pestaña Línea| image:: resources/pest-linea.png
 .. |Icono del Campo Combinación| image:: resources/identificador-combinacion.png
 .. |Ventana Combinación y Selección del Identificador del Campo Cuenta| image:: resources/ventana-combinacion.png
@@ -20,6 +20,7 @@
 .. |Pestaña Lote y Opción Completar| image:: resources/pest-lote-completar.png
 .. |Acción Completar y Opción OK| image:: resources/accion-completar.png
 
+.. _ERPyA: http://erpya.com
 .. _documento/nota-de-contabilidad:
 
 **Nota de Contabilidad**
