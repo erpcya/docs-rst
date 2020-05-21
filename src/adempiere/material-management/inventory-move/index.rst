@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/material-management/inventory-move:
+.. _src/adempiere/material-management/inventory-move:
 .. _ERPyA: http://erpya.com
 
 ============================

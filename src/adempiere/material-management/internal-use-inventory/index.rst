@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/material-management/internal-use-inventory:
+.. _src/adempiere/material-management/internal-use-inventory:
 .. _ERPyA: http://erpya.com
 
 =============================

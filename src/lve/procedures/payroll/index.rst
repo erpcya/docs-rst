@@ -1,8 +1,8 @@
-.. _src/lve/documentation-lve/human-resource-payroll/payroll:
+.. _src/lve/procedures/payroll:
 
-=====================
-**Gestión de Nómina**
-=====================
+======================
+**Gestión de Nóminas**
+======================
 
 La nómina es el listado de trabajadores que desempeñan algún tipo de actividad en una empresa. Cada empresa debe manejar diferentes nóminas, por lo que son clasificadas en nómina regular, bono de alimentación, pagos especiales, entre otras utilizadas para cancelar las pagos correspondientes a los trabajadores de las empresas.
 

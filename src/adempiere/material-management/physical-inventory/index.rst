@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/material-management/physical-inventory:
+.. _src/adempiere/material-management/physical-inventory:
 .. _ERPyA: http://erpya.com
 
 =====================

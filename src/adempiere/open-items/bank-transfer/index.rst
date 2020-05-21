@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/open-items/bank-transfer:
+.. _src/adempiere/open-items/bank-transfer:
 .. _ERPyA: http://erpya.com
 
 =======================================

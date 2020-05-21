@@ -1,4 +1,4 @@
-.. _src/adempiere/standard-processes/master:
+.. _src/adempiere/master:
 .. _ERPyA: http://erpya.com
 
 ==================
