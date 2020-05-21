@@ -1,16 +1,17 @@
-.. _documento/descarga-extracto-bancario:
 .. _ERPyA: http://erpya.com
-.._BBVA Provincial: https://www.provincial.com/
-.._NetCash: https://www.provincial.com/empresas/nomina-empresas/net-cash.jsp#menu-1-7
-.._Banco de Venezuela: http://www.bancodevenezuela.com/
-.._Banco del Tesoro: http://www.bt.gob.ve/
-.._Banesco Banco Universal: https://www.banesco.com/
-.._Banesco Online: https://www.banesco.com/paginas-relacionadas/consulta-tu-estado-de-cuenta-en-banesconline
-.._Mercantil Banco: https://www.mercantilbanco.com/
-.._Empresas: https://www.mercantilbanco.com/mercprod/content/empresas/promociones/439051_ECD_emp.html
-.._Bancaribe: https://www.bancaribe.com.ve/
-.._Mi Estado de Cuenta Digital: https://www.bancaribe.com.ve/zona-de-informacion-para-cada-mercado/empresas/cuentas-empresas/mi-estado-de-cuenta-digital-empresas
+.. _BBVA Provincial: https://www.provincial.com/
+.. _NetCash: https://www.provincial.com/empresas/nomina-empresas/net-cash.jsp#menu-1-7
+.. _Banco de Venezuela: http://www.bancodevenezuela.com/
+.. _Banco del Tesoro: http://www.bt.gob.ve/
+.. _Banesco Banco Universal: https://www.banesco.com/
+.. _Banesco Online: https://www.banesco.com/paginas-relacionadas/consulta-tu-estado-de-cuenta-en-banesconline
+.. _Mercantil Banco: https://www.mercantilbanco.com/
+.. _Empresas: https://www.mercantilbanco.com/mercprod/content/empresas/promociones/439051_ECD_emp.html
+.. _Bancaribe: https://www.bancaribe.com.ve/
+.. _Mi Estado de Cuenta Digital: https://www.bancaribe.com.ve/zona-de-informacion-para-cada-mercado/empresas/cuentas-empresas/mi-estado-de-cuenta-digital-empresas
 .. _Conciliaciones Automáticas: https://docs.erpya.com/es/latest/adempiere/open-items/automatic-conciliations/concept/#importacion-de-extracto-bancario
+
+.. _documento/descarga-extracto-bancario:
 
 **Descarga Extrato Bancario**
 ---------------------------------
