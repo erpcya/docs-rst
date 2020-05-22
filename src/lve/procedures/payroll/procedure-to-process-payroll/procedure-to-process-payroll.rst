@@ -131,3 +131,4 @@
     monthly-payroll
     mixed-weekly-payroll
     mixed-biweekly-payroll
+    mixed-monthly-payroll
