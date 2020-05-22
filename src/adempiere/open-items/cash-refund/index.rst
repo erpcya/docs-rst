@@ -1,4 +1,4 @@
-.. _src/lve/documentation-lve/human-resource-payroll/human-resource/cash-refund:
+.. _src/adempiere/open-items/cash-refund:
 .. _ERPyA: http://erpya.com
 
 ==================

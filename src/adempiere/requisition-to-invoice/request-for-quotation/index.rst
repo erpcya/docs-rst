@@ -1,4 +1,3 @@
-
 .. _src/adempiere/requisition-to-invoice/request-for-quotation:
 
 

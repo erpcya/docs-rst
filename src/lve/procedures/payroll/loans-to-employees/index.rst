@@ -1,4 +1,4 @@
-.. _src/lve/documentation-lve/human-resource-payroll/payroll/loans-to-employees:
+.. _src/lve/procedures/payroll/loans-to-employees:
 .. _ERPyA: http://erpya.com
 
 =========================

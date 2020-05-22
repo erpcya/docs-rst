@@ -1,4 +1,4 @@
-.. _src/lve/documentation-lve/human-resource-payroll/human-resource/cash-per-diems:
+.. _src/adempiere/open-items/cash-per-diems:
 .. _ERPyA: http://erpya.com
 
 =================

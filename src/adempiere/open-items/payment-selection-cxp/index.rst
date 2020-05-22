@@ -1,9 +1,9 @@
 .. _src/adempiere/open-items/payment-selection-cxp:
 .. _ERPyA: http://erpya.com
 
-==========================================
-**Selección de Pago de Cuentas por Pagar**
-==========================================
+=================================================
+**Órdenes de Pago de Cuentas por Pagar por Lote**
+=================================================
 
 Este documento permite seleccionar los documentos por pagar que posea la empresa, agrupándolos para luego ser pagados todos o algunos de ellos, dependiendo de la cantidad de pagos que sean autorizados.
 

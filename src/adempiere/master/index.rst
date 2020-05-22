@@ -1,9 +1,9 @@
-.. _src/adempiere/standard-processes/master:
+.. _src/adempiere/master:
 .. _ERPyA: http://erpya.com
 
-=========================
+==================
 **Datos Maestros**
-=========================
+==================
 
 ADempiere requiere una gestión de datos maestros exigente en pro de la integridad de las transacciones futuras, que garantiza una información limpia, fiable y accesible.
 
@@ -24,7 +24,7 @@ Con este ejemplo visualizamos la gravedad que implica la falta de integración y
 **Tabla de Contenido**
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     business-partner/index
     product/index

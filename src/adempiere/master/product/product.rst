@@ -1,4 +1,5 @@
 .. _documento/producto:
+.. _Codificar los Productos: https://docs.erpya.com/es/latest/lve/standard-coding/product/
 .. _ERPyA: http://erpya.com
 
 **Proceso de Registro del Producto**
@@ -34,7 +35,7 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
       
          Para que el producto este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el producto solo estará disponible para una sola organización. 
 
-   #. Introduzca en el campo "**Código**", el código para el producto que esta registrando, este código es definido por un estándar de códificación establecido en `ERPyA`_ para `Codificar los Productos <http://elcamino.erp.local:55888/documentation-lve/coding/product-coding/product-coding/>`__.
+   #. Introduzca en el campo "**Código**", el código para el producto que esta registrando, este código es definido por un estándar de códificación establecido en `ERPyA`_ para `Codificar los Productos`_.
 
       .. figure:: resources/codigo.png
          :alt: Campo Código

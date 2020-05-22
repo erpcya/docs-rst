@@ -1,4 +1,4 @@
-.. _src/adempiere/requisition:
+.. _src/adempiere/requisition-to-invoice/requisition:
 .. _ERPyA: http://erpya.com
 
 ========================
