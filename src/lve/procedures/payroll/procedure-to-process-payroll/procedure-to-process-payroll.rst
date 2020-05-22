@@ -125,7 +125,9 @@
 .. toctree::
     :maxdepth: 2
 
-      weekly-payroll
-      biweekly-payroll
-      monthly-payroll
-      mixed-weekly-payroll
+    weekly-payroll
+    biweekly-payroll
+    monthly-payroll
+    mixed-weekly-payroll
+    mixed-biweekly-payroll
+    mixed-monthly-payroll
