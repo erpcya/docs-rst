@@ -11,7 +11,7 @@
 .. _Mi Estado de Cuenta Digital: https://www.bancaribe.com.ve/zona-de-informacion-para-cada-mercado/empresas/cuentas-empresas/mi-estado-de-cuenta-digital-empresas
 .. _Conciliaciones Automáticas: https://docs.erpya.com/es/latest/adempiere/open-items/automatic-conciliations/concept/#importacion-de-extracto-bancario
 
-.. |BANCO PROVINCIAL SEPTIEMBRE 2019| image:: resources/SEPTIEMBRE2019PROVINCIAL.csv
+.. _BANCO PROVINCIAL SEPTIEMBRE 2019: resources/SEPTIEMBRE2019PROVINCIAL.csv
 .. |BANCO DE VENEZUELA OCTUBRE 2019| image:: resources/OCTUBRE2019Venezuela.fix.txt
 .. |BANCO BANESCO OCTUBRE 2019| image:: resources/OCTUBRE2019BANESCO.qif
 .. |BANCO MERCANTIL OCTUBRE 2019| image:: resources/Octubre2019Mercantil.Mt940.txt
