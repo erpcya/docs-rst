@@ -220,7 +220,7 @@ Es el documento que refleja la devolución de uno, varios, o todos los productos
    
             Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono "**Guardar**" en la barra de herramientas de ADempiere, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo "**No. del Documento**".
 
-    #. Seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere, luego seleccione la opción "**Crear Orden de Devolución desde Entrega / Recibo**" para crear la "**Devolución a Proveedor**" desde la "**Orden de Devolución**" del producto.
+    #. Seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere, luego seleccione la opción "**Crear Devolución Desde Orden (ADM)**" para crear la "**Devolución a Proveedor**" desde la "**Orden de Devolución**" del producto.
 
         |Icono Proceso 2|
 

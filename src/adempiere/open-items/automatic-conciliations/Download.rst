@@ -11,6 +11,10 @@
 .. _Mi Estado de Cuenta Digital: https://www.bancaribe.com.ve/zona-de-informacion-para-cada-mercado/empresas/cuentas-empresas/mi-estado-de-cuenta-digital-empresas
 .. _Conciliaciones Automáticas: https://docs.erpya.com/es/latest/adempiere/open-items/automatic-conciliations/concept/#importacion-de-extracto-bancario
 
+.. |BANCO PROVINCIAL SEPTIEMBRE 2019| image:: resources/SEPTIEMBRE2019PROVINCIAL.csv
+.. |BANCO DE VENEZUELA OCTUBRE 2019| image:: resources/OCTUBRE2019Venezuela.fix.txt
+.. |BANCO BANESCO OCTUBRE 2019| image:: resources/OCTUBRE2019BANESCO.qif
+.. |BANCO MERCANTIL OCTUBRE 2019| image:: resources/Octubre2019Mercantil.Mt940.txt
 .. _documento/descarga-extracto-bancario:
 
 **Descarga Extrato Bancario**
@@ -30,13 +34,13 @@ Para poder hacer la descarga del extracto bancario del `BBVA Provincial`_ debe i
 
     Haga click al `NetCash`_ para poder visualizar el paso a paso para las descragas de archivos, al dar click a la opción anteriormente comentada este lo redireccionara a la plataforma web del banco.
 
-`ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario ["BANCO PROVINCIAL SEPTIEMBRE 2019"](../resources/SEPTIEMBRE2019PROVINCIAL.csv), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+`ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario |BANCO PROVINCIAL SEPTIEMBRE 2019|, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
 #. **Extracto Bancario Venezuela**
 
 Para poder hacer la descarga del extracto bancario del `Banco de Venezuela`_ debe iniciar sesión en el banco, una vez ingrese al banco siga las siguientes instrucciones indicadas bajo la platafoma Web del banco `Banco de Venezuela`_, el estado de cuenta bancario a descargar de este banco debe ser bajo los formatos **"fix.txt"**, cualquiera de esos dos formatos son válidos para que ADempiere acepte la importación del extracto bancario.
 
-`ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario ["BANCO DE VENEZUELA OCTUBRE 2019"](../resources/OCTUBRE2019Venezuela.fix.txt), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+`ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario |BANCO DE VENEZUELA OCTUBRE 2019|, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
 #. **Extracto Bancario Tesoro**
 
@@ -46,7 +50,7 @@ Para poder hacer la descarga del extracto bancario del `Banco del Tesoro`_ debe 
 
 Para poder hacer la descarga del extracto bancario de `Banesco Banco Universal`_ debe iniciar sesión en el banco, una vez ingrese al banco siga las instrucciones indicadas bajo la platafoma Web `Banesco Online`_ donde se describe el paso a paso de como realizar la descarga de archivos o movimientos bancarios; el estado de cuenta bancario a descargar de este banco debe ser en el formato **"qif."**,el cual es el formato que aceptara ADempiere al momento de realizar la importación del extracto bancario.
 
-`ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario ["BANCO BANESCO OCTUBRE 2019"](../resources/OCTUBRE2019BANESCO.qif), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+`ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario |BANCO BANESCO OCTUBRE 2019|, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
 .. note::
 
@@ -56,7 +60,7 @@ Para poder hacer la descarga del extracto bancario de `Banesco Banco Universal`_
 
 Para poder hacer la descarga del extracto bancario de `Mercantil Banco`_ debe iniciar sesión en el banco, una vez ingrese al banco siga las instrucciones indicadas bajo la platafoma Web en el apartado de `Empresas`_ donde se describe el paso a paso de como realizar la descarga de archivos o movimientos bancarios; el estado de cuenta bancario a descargar de este banco debe ser bajo los formatos **"Mt940.txt"**cualquiera de esos dos formatos son válidos para que ADempiere acepte la importación del extracto bancario.
 
-`ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario ["BANCO MERCANTIL OCTUBRE 2019"](../resources/Octubre2019Mercantil.Mt940.txt), con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+`ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario |BANCO MERCANTIL OCTUBRE 2019|, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
 .. note::
 
