@@ -11,7 +11,6 @@
 .. _Mi Estado de Cuenta Digital: https://www.bancaribe.com.ve/zona-de-informacion-para-cada-mercado/empresas/cuentas-empresas/mi-estado-de-cuenta-digital-empresas
 .. _Conciliaciones Automáticas: https://docs.erpya.com/es/latest/adempiere/open-items/automatic-conciliations/concept/#importacion-de-extracto-bancario
 
-.. _BANCO PROVINCIAL SEPTIEMBRE 2019: resources/SEPTIEMBRE2019PROVINCIAL.csv
 .. |BANCO DE VENEZUELA OCTUBRE 2019| image:: resources/OCTUBRE2019Venezuela.fix.txt
 .. |BANCO BANESCO OCTUBRE 2019| image:: resources/OCTUBRE2019BANESCO.qif
 .. |BANCO MERCANTIL OCTUBRE 2019| image:: resources/Octubre2019Mercantil.Mt940.txt
@@ -34,7 +33,12 @@ Para qué un extracto bancario pueda ser importado en ADempiere esté debe cumpl
 
         Haga click al `NetCash`_ para poder visualizar el paso a paso para las descragas de archivos, al dar click a la opción anteriormente comentada este lo redireccionara a la plataforma web del banco.
 
-    `ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario `BANCO PROVINCIAL SEPTIEMBRE 2019`_, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+    `ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+
+.. toctree::
+    :maxdepth: 2
+
+    SEPTIEMBRE2019PROVINCIAL.csv
 
 #. **Extracto Bancario Venezuela**
 
