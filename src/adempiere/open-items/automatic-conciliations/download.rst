@@ -35,11 +35,6 @@ Para qué un extracto bancario pueda ser importado en ADempiere esté debe cumpl
 
     `ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
-.. toctree::
-    :maxdepth: 2
-
-    SEPTIEMBRE2019PROVINCIAL.csv
-
 #. **Extracto Bancario Venezuela**
 
     Para poder hacer la descarga del extracto bancario del `Banco de Venezuela`_ debe iniciar sesión en el banco, una vez ingrese al banco siga las siguientes instrucciones indicadas bajo la platafoma Web del banco `Banco de Venezuela`_, el estado de cuenta bancario a descargar de este banco debe ser bajo los formatos "**fix.txt**", cualquiera de esos dos formatos son válidos para que ADempiere acepte la importación del extracto bancario.
@@ -85,3 +80,8 @@ Para qué un extracto bancario pueda ser importado en ADempiere esté debe cumpl
     Ningún estado de cuenta bancario puede ser modificado o convertido manualmente a cualquiera de los formatos nombrados anteriormente, el usuario solo debe descargar el estado de cuenta bancario en los formatos indicados e importarlos a ADempiere.
 
 Para realizar la importación del estracto bancario este proceso se explica en el documento `Conciliaciones Automáticas`_ elaborado por `ERPyA`_.
+
+.. toctree::
+    :maxdepth: 2
+
+    SEPTIEMBRE2019PROVINCIAL.csv
