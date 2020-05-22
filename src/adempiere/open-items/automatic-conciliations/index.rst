@@ -21,6 +21,6 @@ ERPyA pretende ofrecer una explicación eficiente a nuestros clientes del proced
 .. toctree::
     :maxdepth: 2
 
-    concept
+    download
     conciliation
-    Download
+    create-payments-from-account-statement
