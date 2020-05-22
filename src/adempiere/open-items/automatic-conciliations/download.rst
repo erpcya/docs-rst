@@ -34,7 +34,7 @@ Para qué un extracto bancario pueda ser importado en ADempiere esté debe cumpl
 
         Haga click al `NetCash`_ para poder visualizar el paso a paso para las descragas de archivos, al dar click a la opción anteriormente comentada este lo redireccionara a la plataforma web del banco.
 
-    `ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario |BANCO PROVINCIAL SEPTIEMBRE 2019|, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+    `ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario `BANCO PROVINCIAL SEPTIEMBRE 2019`_, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
 #. **Extracto Bancario Venezuela**
 
