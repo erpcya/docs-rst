@@ -14,3 +14,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     sales-order/index
     invoice-customer/index
     generate-invoice-from-departure-order/index
+    consultation-of-product-prices
