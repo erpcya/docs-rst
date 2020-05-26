@@ -1,10 +1,10 @@
 .. _ERPyA: http://erpya.com
-.. |Menú de ADempiere| image:: resources/menu-ordenes-venta.png
-.. |Pantalla de ADempiere con la Información de la Carperta Órdenes de Venta| image:: resources/carpeta-ordenes-venta.png
-.. |Ubicar la Ventana Consulta de Precios| image:: resources/ubicar-formulario.png
-.. |Ventana Consulta de Precios| image:: resources/vent-consultar-precio.png
-.. |Campo Código del Producto| image:: resources/campo-codigo-producto.png
-.. |Campos Nombre, Precio Lista y Total del Impuesto del Producto| image:: resources/resultado-busqueda.png
+.. |Menú de ADempiere| image:: resources/sales-orders-menu.png
+.. |Pantalla de ADempiere con la Información de la Carperta Órdenes de Venta| image:: resources/sales-order-folder.png
+.. |Ubicar la Ventana Consulta de Precios| image:: resources/locate-form.png
+.. |Ventana Consulta de Precios| image:: resources/window-check-price.png
+.. |Campo Código del Producto| image:: resources/product-code-field.png
+.. |Campos Nombre, Precio Lista y Total del Impuesto del Producto| image:: resources/search-result.png
 
 .. _documento/consulta-precios-productos:
 
