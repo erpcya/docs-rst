@@ -1,7 +1,7 @@
 .. _ERPyA: http://erpya.com
-.. |Menú de ADempiere| image:: resources/menu-informe-financiero.png
-.. |Ventana Informe Financiero| image:: resources/vent-informe-financiero.png
-.. |Ventana Crear Informe| image:: resources/vent-crear-informe.png
+.. |Menú de ADempiere| image:: resources/financial-report-menu.png
+.. |Ventana Informe Financiero| image:: resources/financial-report-window.png
+.. |Ventana Crear Informe| image:: resources/create-report-window.png
 
 .. _documento/informe-financiero:
 

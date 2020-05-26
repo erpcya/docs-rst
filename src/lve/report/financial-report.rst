@@ -1,9 +1,9 @@
 .. _ERPyA: http://erpya.com
-.. |Ventana Informe| image:: resources/vent-informe.png
-.. |Campo Formato de Impresión| image:: resources/campo-formato-impresion.png
-.. |Primer Reporte| image:: resources/balance-comprobacion.png
-.. |Segundo Reporte| image:: resources/balance-general.png
-.. |Tercer Reporte| image:: resources/estado-resultado.png
+.. |Ventana Informe| image:: resources/report-window.png
+.. |Campo Formato de Impresión| image:: resources/print-format-field.png
+.. |Primer Reporte| image:: resources/checking-balance.png
+.. |Segundo Reporte| image:: resources/balance-sheet.png
+.. |Tercer Reporte| image:: resources/result-state.png
 
 .. _documento/informe-financiero-configurado:
 
