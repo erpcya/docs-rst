@@ -132,3 +132,5 @@
     mixed-weekly-payroll
     mixed-biweekly-payroll
     mixed-monthly-payroll
+    payroll-food-voucher
+    vacation-payroll
