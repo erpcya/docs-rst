@@ -1,9 +1,10 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/menu-ordenes-venta.png
 .. |Pantalla de ADempiere con la Información de la Carperta Órdenes de Venta| image:: resources/carpeta-ordenes-venta.png
 .. |Ubicar la Ventana Consulta de Precios| image:: resources/ubicar-formulario.png
-.. |Ventana Consulta de Precios| image:: resources/
-.. |Campo Código del Producto| image:: resources/
-.. |Campos Nombre, Precio Lista y Total del Impuesto del Producto| image:: resources/
+.. |Ventana Consulta de Precios| image:: resources/vent-consultar-precio.png
+.. |Campo Código del Producto| image:: resources/campo-codigo-producto.png
+.. |Campos Nombre, Precio Lista y Total del Impuesto del Producto| image:: resources/resultado-busqueda.png
 
 .. _documento/consulta-precios-productos:
 
@@ -15,38 +16,42 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 
 ADempiere permite que sea realizada una búsqueda de precios de productos a través del código del mismo, en la ventana "**Consulta de Precios**". A continuación se explica de manera detallada el procedimiento a seguir para el mismo.
 
-Ubique en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**".
+#. Ubique en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**".
 
-|Menú de ADempiere|
+    |Menú de ADempiere|
 
-Imagen 1. Menú de ADempiere
+    Imagen 1. Menú de ADempiere
 
-Podrá visualizar del lado derecho de la pantalla, las diferentes opciones que contempla la ventana "**Órdenes de Venta**".
+#. Podrá visualizar del lado derecho de la pantalla, las diferentes opciones que contempla la ventana "**Órdenes de Venta**".
 
-|Pantalla de ADempiere con la Información de la Carperta Órdenes de Venta|
+    |Pantalla de ADempiere con la Información de la Carperta Órdenes de Venta|
 
-Imagen 2. Pantalla de ADempiere con la Información de la Carperta Órdenes de Venta
+    Imagen 2. Pantalla de ADempiere con la Información de la Carperta Órdenes de Venta
 
-Navegue entre las opciones que contempla la carpeta "**Órdenes de Venta**" y seleccione el formulario "**Consulta de Precios**", ubicado en la parte inferior de la misma.
+#. Navegue entre las opciones que contempla la carpeta "**Órdenes de Venta**" y seleccione el formulario "**Consulta de Precios**", ubicado en la parte inferior de la misma.
 
-|Ubicar la Ventana Consulta de Precios|
+    |Ubicar la Ventana Consulta de Precios|
 
-Imagen 3. Ubicar la Ventana Consulta de Precios
+    Imagen 3. Ubicar la Ventana Consulta de Precios
 
-Una vez ubicado en la ventana "**Consulta de Precios**", puede apreciar diferentes campos relacionados con la información básica de los productos.
+#. Una vez ubicado en la ventana "**Consulta de Precios**", puede apreciar diferentes campos relacionados con la información básica de los productos.
 
-|Ventana Consulta de Precios|
+    |Ventana Consulta de Precios|
 
-Imagen 4. Ventana Consulta de Precios
+    Imagen 4. Ventana Consulta de Precios
 
-Introduzca en el campo "**Código**", el código correspondiente al producto al cual se requiere consultar el precio.
+    .. note::
 
-|Campo Código del Producto|
+        Este formulario permite verificar el precio y el almacenamiento del producto según la lista de precios disponible para la organización.
 
-Imagen 5. Campo Código del Producto
+#. Introduzca en el campo "**Código**", el código correspondiente al producto al cual se requiere consultar el precio.
 
-Luego de ingresar el código y seleccionar la tecla "**Enter**" en su teclado, podrá visualizar el nombre, el precio lista y precio total del impuesto del producto en los campos correspondientes.
+    |Campo Código del Producto|
 
-|Campos Nombre, Precio Lista y Total del Impuesto del Producto|
+    Imagen 5. Campo Código del Producto
 
-Imagen 6. Campos Nombre, Precio Lista y Total del Impuesto del Producto
+#. Luego de ingresar el código y seleccionar la tecla "**Enter**" en el equipo, podrá visualizar el nombre completo del producto, el precio lista sin impuesto agregado, el total del impuesto del producto y el gran total del producto que corresponde a la sumatoria del precio lista mas el total del impuesto.
+
+    |Campos Nombre, Precio Lista y Total del Impuesto del Producto|
+
+    Imagen 6. Campos Nombre, Precio Lista y Total del Impuesto del Producto
