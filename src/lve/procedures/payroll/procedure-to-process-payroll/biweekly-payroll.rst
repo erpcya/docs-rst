@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Nómina Quincenal| image:: resources/quincenal1.png
 .. |Recibo de Pago Nómina Quincenal| image:: resources/reciboquincenal.png
 .. |Detalle de Pago Nómina Quincenal| image:: resources/detallequincenal.png
@@ -6,10 +7,9 @@
 .. |Aportes Nómina Quincenal| image:: resources/aportesquincenal.png
 .. |Provisiones Nómina Quincenal| image:: resources/provisionesquincenal.png
 
-
-.. _documento/nomina-quincenal:
-.. _ERPyA: http://erpya.com
-
+.. _documento/nomina-quincenal-mixta:
+.. _documento/novedades-de-nómina:
+.. _documento/reporte-de-nómina:
 
 =====================
  **Nómina Quincenal**
@@ -33,11 +33,11 @@ Para procesar una “**Nómina Quincenal**” debemos realizar el proceso de nó
 
         #. Seleccione el período quincenal correspondiente a la nómina que se está ejecutando en el campo "**Período Nómina**"
 
-              El período de nómina define el período laborado que le está siendo cancelado al empleado, disponiendo de los períodos creados en la definición de nómina quincenal.
+            El período de nómina define el período laborado que le está siendo cancelado al empleado, disponiendo de los períodos creados en la definición de nómina quincenal.
 
         #. Seleccione la fecha “**Hasta**” o el último día del período que seleccionó anteriormente en el campo "**Fecha Contable**"
 
-              A través de la "**Fecha Contable**" se determina contablemente la fecha de pago de la nómina quincenal en ejecución, por tal motivo se recomienda colocar la fecha “Hasta” o el último día del período que seleccionó anteriormente.
+            A través de la "**Fecha Contable**" se determina contablemente la fecha de pago de la nómina quincenal en ejecución, por tal motivo se recomienda colocar la fecha “Hasta” o el último día del período que seleccionó anteriormente.
 
 
 #. Incidencias:

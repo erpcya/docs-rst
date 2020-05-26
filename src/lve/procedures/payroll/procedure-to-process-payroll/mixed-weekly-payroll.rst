@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Nómina Semanal Mixta| image:: resources/semanalmixta.png
 .. |Recibo de Pago Nómina Semanal Mixta| image:: resources/recibosemanalmixta.png
 .. |Detalle de Pago Nómina Semanal Mixta| image:: resources/detallesemanalmixta.png
@@ -8,7 +9,8 @@
 
 
 .. _documento/nomina-semanal-mixta:
-.. _ERPyA: http://erpya.com
+.. _documento/novedades-de-nómina:
+.. _documento/reporte-de-nómina:
 
 
 =========================
@@ -20,13 +22,13 @@ Para procesar una Nómina Semanal Mixta debemos realizar el proceso de nómina m
 #. Estatus del Documento:
 
 
-      - **Tipo de Documento**: Nómina Semanal
+    - **Tipo de Documento**: Nómina Semanal
 
-      - **Nómina**: Nómina Semanal Mixta
+    - **Nómina**: Nómina Semanal Mixta
 
-      - **Periodo**: Escoga el Periodo Semanal correspondiente a la nómina que 	desee ejecutar
+    - **Periodo**: Escoga el Periodo Semanal correspondiente a la nómina que 	desee ejecutar
 
-      - **Fecha Contable**: Será la fecha “Hasta” o el último día del periodo que seleccióno anteriormente
+    - **Fecha Contable**: Será la fecha “Hasta” o el último día del periodo que seleccióno anteriormente
 
       |Nómina Semanal Mixta|
 
