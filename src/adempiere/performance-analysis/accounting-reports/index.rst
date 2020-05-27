@@ -11,4 +11,3 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
     :maxdepth: 2
 
     financial-report
-    statement-of-accounts
