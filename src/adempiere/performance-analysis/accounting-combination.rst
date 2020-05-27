@@ -1,5 +1,5 @@
 .. |Ventana Combinación| image:: resources/combination-window.png
-.. |Campo Alias| image:: resources/alias field of combination window
+.. |Campo Alias| image:: resources/alias-field-of-combination-window.png
 .. |Campo Organización| image:: resources/
 .. |Campo Actividad| image:: resources/
 .. |Campo Socio del Negocio| image:: resources/
@@ -81,7 +81,7 @@ Para realizar una configuración de combinación contable en ADempiere, se debe 
 
         Imagen 19. Campo Descripción de la Pestaña Línea
 
-.. topic:: Como puede decir usted
+.. note:: **Como puede decir usted**
 
     Primera forma
 
