@@ -7,9 +7,7 @@
 .. |Aportes Nómina Quincenal| image:: resources/aportesquincenal.png
 .. |Provisiones Nómina Quincenal| image:: resources/provisionesquincenal.png
 
-.. _documento/nomina-quincenal-mixta:
-.. _documento/novedades-de-nómina:
-.. _documento/reporte-de-nómina:
+.. _documento/nomina-quincenal:
 
 =====================
  **Nómina Quincenal**
@@ -77,13 +75,13 @@ Para procesar una “**Nómina Quincenal**” debemos realizar el proceso de nó
       | Otras Deducciones                                     |      ("IN_FI")       |     Monto      |
       +-------------------------------------------------------+----------------------+----------------+
 
-      Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
+      Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
 
 #. Resultados:
 
     _"**Reportes**
 
-    Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina:` con los datos adicionales que se indican a continuación para cada reporte
+    Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina` con los datos adicionales que se indican a continuación para cada reporte
 
 
         _"**Recibo de Pago**

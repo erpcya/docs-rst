@@ -7,10 +7,7 @@
 .. |Aportes Nómina Mensual| image:: resources/aportesmensual.png
 .. |Provisiones Nómina Mensual| image:: resources/provisionesmensual.png
 
-
 .. _documento/nomina-mensual:
-.. _documento/novedades-de-nómina:
-.. _documento/reporte-de-nómina:
 
 ===================
  **Nómina Mensual**
@@ -83,13 +80,13 @@ Para procesar una “**Nómina Mensual**” debemos realizar el proceso de nómi
       +-------------------------------------------------------+----------------------+----------------+
 
 
-    Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
+    Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
 
 #. Resultados:
 
     - "**Reportes**"
 
-    Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina:` con los datos adicionales que se indican a continuación para cada reporte
+    Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina` con los datos adicionales que se indican a continuación para cada reporte
 
         - "**Recibo de Pago**"
 

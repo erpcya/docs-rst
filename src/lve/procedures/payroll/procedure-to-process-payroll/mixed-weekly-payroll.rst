@@ -7,11 +7,7 @@
 .. |Aportes Nómina Semanal Mixta| image:: resources/aportessemanalmixta.png
 .. |Provisiones Nómina Semanal Mixta| image:: resources/provisionessemanalmixta.png
 
-
 .. _documento/nomina-semanal-mixta:
-.. _documento/novedades-de-nómina:
-.. _documento/reporte-de-nómina:
-
 
 =========================
  **Nómina Semanal Mixta**
@@ -71,13 +67,13 @@ Para procesar una Nómina Semanal Mixta debemos realizar el proceso de nómina m
       +-------------------------------------------------------+----------------------+----------------+
 
 
-      Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
+      Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
 
 #. Resultados:
 
     _"**Reportes**"
 
-    Para visualizar los Reportes de Nóminas  puede seguir los pasos que se encuentran en el Documento :ref:`documento/reporte-de-nómina:` con los datos adicionales que se indican a continuación para cada Reporte
+    Para visualizar los Reportes de Nóminas  puede seguir los pasos que se encuentran en el Documento :ref:`documento/reporte-de-nómina` con los datos adicionales que se indican a continuación para cada Reporte
 
 
         _"**Recibo de Pago**"
