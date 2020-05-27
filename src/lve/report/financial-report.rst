@@ -12,7 +12,7 @@
 
 En función de los requerimientos del cliente y con la finalidad de brindar apoyo en las actividades que el mismo realiza, `ERPyA`_ realizó las configuraciones necesarias en los formatos de impresión para que el usuario pueda obtener tres (3) diferentes informes financieros.
 
-#. Para generar el reporte, debe realizar el procedimiento explicado en el documento :ref:`documento/informe-financiero`, elaborado por `ERPyA`_. 
+#. Para generar el reporte, debe realizar el procedimiento explicado en el documento :ref:`documento/informe-financiero` en la sección ADempiere, elaborado por `ERPyA`_. 
 
 #. Luego de que haya culminado el procedimiento, podrá visualizar la ventana "**Informe**" con el reporte financiero. 
 
