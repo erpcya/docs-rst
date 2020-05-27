@@ -18,6 +18,7 @@ El propósito de `ERPyA`_ es apoyar a nuestros clientes, dar respuestas rápidas
 .. toctree::
     :maxdepth: 1
 
+    accounting-combination
     costing/index
     gl-journal-batch/index
     accounting-reports/index
