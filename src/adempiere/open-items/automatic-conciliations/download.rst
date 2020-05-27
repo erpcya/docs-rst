@@ -16,11 +16,11 @@
 **Descarga Extracto Bancario**
 -----------------------------
 
-Para qué un extracto bancario pueda ser importado en ADempiere esté debe cumplir por Banco un formato en específico para qué la importación sea exitosa,  el siguiente material explica el procedimiento para descargar los formatos correctos de los estados de cuentas bancarios:
+Para que un extracto bancario pueda ser importado en ADempiere este debe cumplir por Banco un formato en específico para que la importación sea exitosa,  el siguiente material explica el procedimiento para descargar los formatos correctos de los estados de cuentas bancarios:
 
 .. note::
 
-    La descarga de cada estado de cuenta bancario va a variar según el banco qué esté utilizando, la descargas de estos archivos son datos confidenciales el cual el agente autorizado tendrá el acceso a los bancos de la compañía para poder realizar dicho procedimiento.
+    La descarga de cada estado de cuenta bancario va a variar según el banco que este utilizando, la descargas de estos archivos son datos confidenciales el cual el agente autorizado tendrá el acceso a los bancos de la compañía para poder realizar dicho procedimiento.
 
 #. **Extracto Bancario Provincial**
 
