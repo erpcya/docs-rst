@@ -10,14 +10,15 @@
 El proceso **”Crear Pagos desde Estado de Cuenta”** es realizado por consecuencia de la existencia de **”Pagos/Cobros”** que se encuentran en el extracto bancario y al momento de la conciliación no se encuentra ninguna coincidencia con los movimientos registrados en ADempiere; el mismo parte del proceso de conciliación automática donde al importar el extracto bancario  verifica  los movimientos registrado en ADempiere, este realiza una verificación de coincidencias de **”Pagos/Cobros”** en ambos lados (Movimientos del extracto / Movimientos en ADempiere), mayormente se encuentran muchos movimientos en el extracto bancario que no han sido registrados en ADempiere y no solo es por que no se lleve un buen control de los registros si no que los extractos bancarios poseen detalladamente otros tipo de transacciones como comisiones bancarias que en algunos casos no son registrados en ADempiere o poseen movimientos bancarios qué se desconoce su procedencia, pero para este tipo de casos se encuentra el proceso **”Crear Pagos desde Estado de Cuenta”**, ya que es muy importante que todos los movimientos bancarios coincidan en su totalidad con los registros en ADempiere o que los mismos logren ser identificados, ya que de lo contrario la conciliación no podrá ser completada en ADempiere.
 
 
-El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la creación de pagos y cobros sin registros en ADempiere, partiendo desde el proceso del Conciliación Automática´registro de pagos / cobros existentes en el extracto bancario importado, obteniendo un resultado exitoso al momento de conciliación de cuentas en la versión 3.9.2 de ADempiere en la localización Venezuela.
+El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la creación de pagos y cobros sin registros en ADempiere, partiendo desde el proceso de Conciliación Automática registro de pagos / cobros existentes en el extracto bancario importado, obteniendo un resultado exitoso al momento de conciliación de cuentas en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 .. _paso/cobros-sin-registros:
 
 **Pagos/Cobros sin registros en ADempiere**
 -------------------------------------------
 
-Los pagos o cobros sin registro en ADempiere pueden presentarse en las empresas a causa de diferentes motivos los cuales pueden ser que no fueron registrados a tiempo o correctamente o la cuenta bancaria a recibido un cobro por adelantado y este no ha sido notificado al personal que lleva los registros de los pagos/cobros en ADempiere, el registro de los mismos puede realizarse de tres formas explicadas a continuación.
+Los pagos o cobros sin registro en ADempiere pueden presentarse en las empresas a causa de diferentes motivos los cuales pueden ser que no fueron registrados a tiempo o correctamente, o la cuenta bancaria a recibido un cobro por adelantado y este no ha sido notificado al personal que lleva los registros de los pagos/cobros en ADempiere, el registro de los mismos puede realizarse de tres formas explicadas a continuación.
+
 
 #. Luego de realizar el proceso de conciliación, ubique la "**Línea Estado Cuentas**".
 
@@ -47,8 +48,9 @@ Los pagos o cobros sin registro en ADempiere pueden presentarse en las empresas 
 
          Imagen 4. Ventana de Búsqueda Inteligente
 
+..  note ::
 
-    #. Hasta este punto solo se puede visualizar los movimientos bancarios sin conciliar, pero la mayoría de estos movimientos bancarios pertenecen a otros tipos de transacciones como lo son los  "**Cargos Bancarios**", "**Otro Tipo de Pagos**" y  los "**Pagos sin Identificar**", estas transacciones bancarias deben ser identificadas para poder completar la conciliación bancaria.
+“ Hasta este punto solo se puede visualizar los movimientos bancarios sin conciliar, pero la mayoría de estos movimientos bancarios pertenecen a otros tipos de transacciones como lo son los  "**Cargos Bancarios**", "**Otro Tipo de Pagos**" y  los "**Pagos sin Identificar**", estas transacciones bancarias deben ser identificadas para poder completar la conciliación bancaria.
 ".
 
 **Pagos o Cobros de Comisiones**
@@ -89,12 +91,44 @@ Para las transacciones bancarias que pertenezcan a **"Cargos Bancarios"** ya est
 
             Si ADempiere refleja el error "* No encontrado * Factura / Socio del Negocio", es porque está buscando una factura asignada al pago/cobro o un socio del negocio asociado al banco y no existe registro de ello. En este caso, es necesario abrir registro del banco y seleccionar un socio del negocio.
 
-#. Al buscar el registro podrá visualizar el documento "**Pago/Cobro**" creado automáticamente desde el proceso "**Crear Pagos desde Estado de Cuentas**".
 
-      .. figure:: resources/pagocaso1.png
-         :alt: Documento de Pago/Cobro Creado desde el Proceso
+#. Podrá visualizar el **"Pago/Cobro"** de cargos bancarios en la pestaña **”Línea Estado de Cuentas”**,como la pestaña cuenta con varios registro esté puede ser ubicado por el monto del movimiento bancario.
 
-         Imagen 9. Documento de Pago/Cobro Creado desde el Proceso
+
+#. Al ubicar el registro esté debe contar con las siguientes características:
+
+
+#. En el campo **”Pago”**  debe tener asociado el N° del documento del **"Pago/Cobro"** qué se creó al momento de aplicar el proceso **”Cargo Bancario”**
+
+
+
+.. note ::
+
+el n° de documento a mostrar en el campo **”Pago”** debe coincidir con el n° qué se muestra el campo **”N° de Referencia”** el cual es el número de la referencia bancaria de ese movimiento.
+
+
+#. En el grupo de campos **“Referencia”** podrá visualizar lo siguiente:
+
+#. En el campo**”Socio de Negocio**”” debe aparecer el banco con el qué se está trabajando la conciliación
+
+.. note ::
+
+	Para este caso el socio del negocio a mostrar es el banco **”Banesco”** por qué es el banco con el qué se está trabajando la conciliación, pero ese socio de negocio va a variar según el banco con el qué esté trabajando la conciliación, sí está trabajando con el banco **”Mercantil”** tomara ese banco, si está  trabajando la conciliación con el banco **”Banesco”** tomara **”Banesco”** y así sucesivamente.
+
+		#. En el campo **”Cuenta Beneficiario TEF”** debe aparecer **”COMISION TRF OTROS BCOS”**
+
+		#. En el campo **”Cantidad TEF”** debe aparecer el mismo monto del movimiento bancario.
+
+.. note ::
+	el monto qué aparece en el campo **”Cantidad TEF”** debe ser el mismo monto qué aparece en el campo **”Total de la Transacción”**
+
+#. Si desea verificar el  registro del pago/cobro generado en ADempiere puede realizarlo tildado el campo **”Pago”** y lo llevará a la ventana "**Pago/Cobro**" de ADempiere
+
+#. Puede presionar click derecho y seleccionar la opción **”Acercar”** y lo llevará a la ventana "**Pago/Cobro**" de ADempiere
+
+#. Al encontrarse en la ventana "**Pago/Cobro**" puede observar qué el registro contará con los mimos datos anteriormente mencionados qué se encuentran en grupo de campos **“Referencia”**
+
+
 
 **Otros Tipos de Pagos o Cobros**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -135,6 +169,39 @@ Para las transacciones bancarias que pertenezcan a **"Otro tipo de Pagos o Cobro
          :alt: Opción OK
 
          Imagen 14. Opción OK
+
+#. Podrá visualizar el **"Pago/Cobro"** no identificado en la pestaña **”Línea Estado de Cuentas”** el cual contará con las siguientes caracteristicas:
+
+#. La descripción de la **“Línea Estado de Cuenta”** debe tener como descripción **””
+Pago no identificado””**
+
+
+#. En el campo **”Pago”**  debe tener asociado el N° del documento del **"Pago/Cobro"** qué se creó al momento de aplicar el proceso **”Pago Sin Identificar”**
+
+
+
+
+
+.. note ::
+
+el n° de documento a mostrar debe coincidir con el n° qué se muestra el campo **”N° de Referencia”** el cual es el número de la referencia bancaria de ese movimiento.
+
+
+#. En el grupo de campos **“Referencia”**  debe aparecer como **”Socio de Negocio**””  **”Pagos/Cobros Sin Identificar”**, este es un socio de negocio qué tomará temporalmente el **"Pago/Cobro"** sin identificar.
+
+
+
+.. note ::
+
+	el socio de negocio **”Pagos/Cobros Sin Identificar”** es un socio de negocio qué toma temporalmente el **"Pago/Cobro"**"** sin identificar, el cual más adelante será modificado una vez se desee identificar ese **"Pago/Cobro"**
+
+
+
+
+
+
+
+
 
 #. Al buscar el registro podrá visualizar el documento "**Pago/Cobro**" creado automáticamente desde el proceso "**Crear Pagos desde Estado de Cuentas**".
 

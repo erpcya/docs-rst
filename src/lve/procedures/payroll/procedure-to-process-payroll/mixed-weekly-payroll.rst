@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Nómina Semanal Mixta| image:: resources/semanalmixta.png
 .. |Recibo de Pago Nómina Semanal Mixta| image:: resources/recibosemanalmixta.png
 .. |Detalle de Pago Nómina Semanal Mixta| image:: resources/detallesemanalmixta.png
@@ -6,10 +7,7 @@
 .. |Aportes Nómina Semanal Mixta| image:: resources/aportessemanalmixta.png
 .. |Provisiones Nómina Semanal Mixta| image:: resources/provisionessemanalmixta.png
 
-
 .. _documento/nomina-semanal-mixta:
-.. _ERPyA: http://erpya.com
-
 
 =========================
  **Nómina Semanal Mixta**
@@ -20,13 +18,13 @@ Para procesar una Nómina Semanal Mixta debemos realizar el proceso de nómina m
 #. Estatus del Documento:
 
 
-      - **Tipo de Documento**: Nómina Semanal
+    - **Tipo de Documento**: Nómina Semanal
 
-      - **Nómina**: Nómina Semanal Mixta
+    - **Nómina**: Nómina Semanal Mixta
 
-      - **Periodo**: Escoga el Periodo Semanal correspondiente a la nómina que 	desee ejecutar
+    - **Periodo**: Escoga el Periodo Semanal correspondiente a la nómina que 	desee ejecutar
 
-      - **Fecha Contable**: Será la fecha “Hasta” o el último día del periodo que seleccióno anteriormente
+    - **Fecha Contable**: Será la fecha “Hasta” o el último día del periodo que seleccióno anteriormente
 
       |Nómina Semanal Mixta|
 
@@ -69,13 +67,13 @@ Para procesar una Nómina Semanal Mixta debemos realizar el proceso de nómina m
       +-------------------------------------------------------+----------------------+----------------+
 
 
-      Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
+      Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
 
 #. Resultados:
 
     _"**Reportes**"
 
-    Para visualizar los Reportes de Nóminas  puede seguir los pasos que se encuentran en el Documento :ref:`documento/reporte-de-nómina:` con los datos adicionales que se indican a continuación para cada Reporte
+    Para visualizar los Reportes de Nóminas  puede seguir los pasos que se encuentran en el Documento :ref:`documento/reporte-de-nómina` con los datos adicionales que se indican a continuación para cada Reporte
 
 
         _"**Recibo de Pago**"
