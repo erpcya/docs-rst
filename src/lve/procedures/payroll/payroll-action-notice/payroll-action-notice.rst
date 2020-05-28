@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/menu.png
 .. |Campo Proceso de Nómina| image:: resources/campo-proceso-nomina.png
 .. |Campo Socio del Negocio| image:: resources/campo-socio-del-negocio.png
@@ -9,8 +10,8 @@
 .. |Campo Incidencia Generada| image:: resources/incidencia-generada.png
 
 .. _documento/novedades-de-nómina:
-.. _ERPyA: http://erpya.com
 
+======================
 **Cargar Incidencias**
 ======================
 

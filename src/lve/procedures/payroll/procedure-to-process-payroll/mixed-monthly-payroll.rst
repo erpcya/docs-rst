@@ -7,14 +7,10 @@
 .. |Aportes Nómina Mensual Mixta| image:: resources/aportesmensualmixta.png
 .. |Provisiones Nómina Mensual Mixta| image:: resources/provisionesmensualmixta.png
 
-
 .. _documento/nomina-mensual-mixta:
-.. _documento/novedades-de-nómina:
-.. _documento/reporte-de-nómina:
-
 
 ============================
- **Nómina Semanal Mixta**
+ **Nómina Mensual Mixta**
 ============================
 
 Para procesar una “**Nómina Mensual Mixta**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo mensual mixta, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
@@ -82,13 +78,13 @@ Para procesar una “**Nómina Mensual Mixta**” debemos realizar el proceso de
       +-------------------------------------------------------+----------------------+----------------+
 
 
-    Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
+    Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
 
 #. Resultados:
 
     - "**Reportes**"
 
-        Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina:` con los datos adicionales que se indican a continuación para cada Reporte
+        Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina` con los datos adicionales que se indican a continuación para cada Reporte
 
         - “**Recibo de Pago**”
 

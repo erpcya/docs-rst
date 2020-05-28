@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Selección de la acción Preparar y opción OK| image:: resources/accion-preparar.png
 .. |Campo Fecha Contable| image:: resources/f-cont-proceso-nomina.png
 .. |Selección de Icono Guardar| image:: resources/icono-guardar.png
@@ -15,7 +16,6 @@
 .. |Campo Periodo de Nómina| image:: resources/periodo.png
 
 .. _documento/procedimiento-para-procesar-nómina:
-.. _ERPyA: http://erpya.com
 
 ==================
 **Proceso Nómina**

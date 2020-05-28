@@ -1,18 +1,17 @@
 .. _ERPyA: http://erpya.com
+.. |Nómina Vacaciones| image:: resources/vacaciones2.png
 .. |Recibo de Pago Nómina Vacaciones| image:: resources/recibovacaciones.png
 .. |Detalle de Pago Nómina Vacaciones| image:: resources/detallevacaciones.png
 .. |Resumen de Pago Nómina Vacaciones| image:: resources/resumenvacaciones.png
 .. |Retenciones Nómina Vacaciones| image:: resources/retencionesvacaciones.png
 .. |Aportes Nómina Vacaciones| image:: resources/aportesvacaciones.png
+.. |Incidencia Nómina Vacaciones| image:: resources/incidenciavacaciones1.png
 
 .. _documento/nomina-vacaciones:
-.. _documento/novedades-de-nómina:
-.. _documento/reporte-de-nómina:
 
-
-============================
+========================
  **Nómina Vacaciones**
-============================
+========================
 
 Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de vacaciones, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
@@ -61,13 +60,17 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
       +-------------------------------------------------------+----------------------+----------------+
 
 
-    Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
+    Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
+
+    |Incidencia Nómina Vacaciones|
+
+    Imagen 2. Incidencia Vacaciones
 
 #. Resultados:
 
     - "**Reportes**"
 
-        Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina:` con los datos adicionales que se indican a continuación para cada reporte
+        Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina` con los datos adicionales que se indican a continuación para cada reporte
 
 
         - “**Recibo de Pago**”
