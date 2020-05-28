@@ -9,3 +9,5 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 
 .. toctree::
     :maxdepth: 1
+
+    product

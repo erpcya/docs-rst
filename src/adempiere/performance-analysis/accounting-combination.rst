@@ -5,11 +5,7 @@
 .. |Campo Socio del Negocio| image:: resources/business-partner-field-of-combination-window.png
 .. |Campo Combinación| image:: resources/combination-field-of-combination-window.png
 .. |Campo Cuenta| image:: resources/combination-window-account-field.png
-.. |Selección de Cuenta y Opción Ok| image:: resources/
-
-
-
-
+.. |Selección de Cuenta y Opción Ok| image:: resources/account-selection-and-option-ok.png
 .. |Campo Centro de Costos| image:: resources/combination-window-cost-center-field.png
 .. |Campo Producto| image:: resources/combination-window-product-field.png
 .. |Icono Guardar| image:: resources/combination-window-save-icon.png
@@ -32,31 +28,31 @@ Para realizar una configuración de combinación contable en ADempiere, se debe 
 
         |Campo Alias|
 
-        Imagen 2. Campo Alias
+        Imagen 2. Campo Alias de la Ventana Combinación
 
     #. Seleccione en el campo "**Organización**, la organización para la cual esta realizando la configuración contable.
 
         |Campo Organización|
 
-        Imagen 3. Campo Organización
+        Imagen 3. Campo Organización de la Ventana Combinación
 
     #. Seleccione en el campo "**Actividad**", la actividad para la cual esta realizando la configuración contable.
 
         |Campo Actividad|
 
-        Imagen 4. Campo Actividad
+        Imagen 4. Campo Actividad de la Ventana Combinación
 
     #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio para el cual esta realizando la configuración contable.
 
         |Campo Socio del Negocio|
 
-        Imagen 5. Campo Socio del Negocio
+        Imagen 5. Campo Socio del Negocio de la Ventana Combinación
 
     #. Introduzca en el campo "**Combinación**", el nombre de la combinación contable que esta configurando. 
 
         |Campo Combinación|
 
-        Imagen 6. Campo Combinación
+        Imagen 6. Campo Combinación de la Ventana Combinación
 
         .. note::
 
@@ -66,7 +62,7 @@ Para realizar una configuración de combinación contable en ADempiere, se debe 
 
         |Campo Cuenta|
 
-        Imagen 7. Campo Cuenta
+        Imagen 7. Campo Cuenta de la Ventana Combinación
 
 
             #. Seleccione la cuenta en la que se desea hacer el movimiento y la opción "**OK**" para cargar la convinación de la misma a la ventana "**Combinación**".
@@ -79,13 +75,13 @@ Para realizar una configuración de combinación contable en ADempiere, se debe 
 
         |Campo Centro de Costos|
 
-        Imagen 9. Campo Centro de Costos
+        Imagen 9. Campo Centro de Costos de la Ventana Combinación
 
     #. Seleccione en el campo "**Producto**", el producto al cual le será aplicado la combinación contable que esta configurando.
 
         |Campo Producto|
 
-        Imagen 10. Campo Producto
+        Imagen 10. Campo Producto de la Ventana Combinación
 
         #. Seleccione el icono "**Guardar**", ubicado del lado derecho de la ventana "**Combinación**".
 
