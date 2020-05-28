@@ -7,9 +7,7 @@
 .. |Aportes Nómina Semanal| image:: resources/aportessemanal.png
 .. |Provisiones Nómina Semanal| image:: resources/provisionessemanal.png
 
-.. _documento/nomina-quincenal-mixta:
-.. _documento/novedades-de-nómina:
-.. _documento/reporte-de-nómina:
+.. _documento/nomina-semanal:
 
 ===================
  **Nómina Semanal**

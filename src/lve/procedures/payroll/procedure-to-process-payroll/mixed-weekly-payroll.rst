@@ -13,18 +13,29 @@
  **Nómina Semanal Mixta**
 =========================
 
-Para procesar una Nómina Semanal Mixta debemos realizar el proceso de nómina mecionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. con los siguientes datos:
+    Para procesar una “**Nómina Semanal Mixta**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo semanal mixta, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
-#. Estatus del Documento:
+#. Estatus del documento:
 
+    #. Seleccione **Nómina Semanal** en el campo "**Tipo de Documento**".
 
-    - **Tipo de Documento**: Nómina Semanal
+        El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
 
-    - **Nómina**: Nómina Semanal Mixta
+    #. Seleccione **Nómina Semanal Mixta** en el campo "**Nómina**"
 
-    - **Periodo**: Escoga el Periodo Semanal correspondiente a la nómina que 	desee ejecutar
+        La nómina semanal mixta define el comportamiento de la nómina, para este caso tiene las siguientes características:
 
-    - **Fecha Contable**: Será la fecha “Hasta” o el último día del periodo que seleccióno anteriormente
+            #. Regla de Pago: Débito Directo
+            #. Contrato de Nómina: Contrato Semanal
+            #. Cargo: Sueldos y Salarios por Pagar
+
+    #. Seleccione el período semanal correspondiente a la nómina que se está ejecutando en el campo "**Período Nómina**"
+
+        El período de nómina define el período laborado que le está siendo cancelado al empleado, disponiendo de los períodos creados en la definición de nómina semanal.
+
+    #. Seleccione la fecha “Hasta” o el último día del período que seleccionó anteriormente en el campo "**Fecha Contable**"
+
+        A través de la fecha contable se determina contablemente la fecha de pago de la nómina semanal en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
       |Nómina Semanal Mixta|
 
