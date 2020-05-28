@@ -1,4 +1,4 @@
-.. _src/adempiere/performance-analysis/additional-costs:
+.. _src/adempiere/performance-analysis/costing/additional-costs:
 .. _ERPyA: http://erpya.com
 
 ======================

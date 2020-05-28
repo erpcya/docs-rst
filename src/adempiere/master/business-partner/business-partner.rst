@@ -61,7 +61,7 @@
 
     #. Seleccione la organización en el campo "**Organización**".
 
-        La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el Socio de negocio, si la organización es (*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
+        La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el socio de negocio, si la organización es (*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
 
         |Campo Organización|
 
@@ -71,7 +71,7 @@
 
             Generalmente los **Socios de Negocios** son registros compartidos entre entidades organizacionales, por esta razón `ERPyA`_ recomienda la creación con organización (*) para evitar duplicidad e inconvenientes contables, de esta forma garantizamos la homogeneidad de los datos maestros.
 
-    #. Introduzca el código de Socio del Negocio en el campo "**Código**".
+    #. Introduzca el código de socio del negocio en el campo "**Código**".
 
         El código es un dato único e irrepetible que protege la entrada de los registros, evitando la duplicidad de los mismos, generalmente se refiere al número de identificación que acredite la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF.
 
@@ -97,7 +97,7 @@
 
             Generalmente esta opción es utilizada para franquicias, cadenas o corporaciones.
 
-    #. Introduzca el nombre del socio del negocio  en el campo "**Nombre**".
+    #. Introduzca el nombre del socio del negocio en el campo "**Nombre**".
 
         El nombre se refiere a la razón social, siendo esta el nombre ó la denominación con la que está registrado en los documentos legales, el nombre es utilizado a nivel administrativo, formal y jurídico.
 
@@ -155,7 +155,7 @@
 
         Imagen 10. Campo Saldo Actual
 
-    #. Podrá visualizar el número de identificación autogenerado a partir del campo **código** en el campo “**Número de Identificación**”.
+    #. Podrá visualizar el número de identificación autogenerado a partir del campo **Código** en el campo “**Número de Identificación**”.
 
         El número de identificación se refiere al número que acredita la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF, este campo mantiene incidencia en la generación de documentos fiscales como facturas, retenciones y comprobantes ARC.
 
@@ -169,7 +169,7 @@
 
     #. Seleccione el checklist "**Exento de Impuesto en Compra**", para definir al socio del negocio como exento de impuesto.
 
-        Exento de Impuesto de Compra,  no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de compras, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de compra con el producto en cuestión con impuesto (0%).
+        Exento de Impuesto de Compra, no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de compras, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de compra con el producto en cuestión con impuesto (0%).
 
         |Campo Exento de Impuesto en Compra|
 
@@ -337,7 +337,7 @@
 
         Imagen 27. Campo Valor Esperado
 
-    #.  Podrá visualizar el valor total de transacciones que posee el cliente en el campo "**Valor Total Transacciones**".
+    #. Podrá visualizar el valor total de transacciones que posee el cliente en el campo "**Valor Total Transacciones**".
 
         El valor total transacciones es un campo solo lectura, actualizado de forma automática, sumando cada ingreso generado por este cliente, el mismo permite evaluar la rentabilidad de un cliente potencial.
 
@@ -371,7 +371,7 @@
 
         Imagen 31. Campo Participación
 
-    #. Introduzca  el número de ventas total en el campo "**Volumen de Ventas**".
+    #. Introduzca el número de ventas total en el campo "**Volumen de Ventas**".
 
         El volumen de ventas no es un campo obligatorio, sin embargo, permite registrar el número de ventas efectivas de un cliente, estas cifras generalmente son auditadas en reuniones directivas para evaluar la rentabilidad y expansión del negocio o si por el contrario sus ventas disminuyen.
 

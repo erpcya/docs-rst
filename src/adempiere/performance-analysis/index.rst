@@ -1,4 +1,4 @@
-.. _src/adempiere/performance-analysis
+.. _src/adempiere/performance-analysis:
 .. _ERPyA: http://erpya.com
 
 ====================
@@ -18,6 +18,7 @@ El propósito de `ERPyA`_ es apoyar a nuestros clientes, dar respuestas rápidas
 .. toctree::
     :maxdepth: 1
 
-    additional-costs/index
+    costing/index
     gl-journal-batch/index
+    accounting-reports/index
 
