@@ -134,3 +134,4 @@
     mixed-monthly-payroll
     payroll-food-voucher
     vacation-payroll
+    payroll-special-payments
