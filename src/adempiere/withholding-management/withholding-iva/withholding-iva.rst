@@ -38,8 +38,8 @@
 
 .. _documento/retención-iva:
 
-**Configuración Esencial**
-==========================
+**Configuración Esencial de la Retención de IVA**
+=================================================
 
 La configuración esencial de las retenciones en ADempiere, permite que sea ejecutada la estimación de la retención a un socio del negocio proveedor al completar el documento de cuentas por pagar en ADempiere, la misma consta de dos procesos explicados a continuación.
 

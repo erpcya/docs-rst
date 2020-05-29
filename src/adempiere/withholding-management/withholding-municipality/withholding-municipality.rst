@@ -33,8 +33,8 @@
 
 .. _documento/retención-municipal:
 
-**Configuración Esencial**
-==========================
+**Configuración Esencial de la Retención Municipal**
+====================================================
 
 ADempiere permite seleccionar por socio del negocio la retención municipal a aplicar en los documentos de compra/venta del mismo, a continuación se explica el procedimiento para seleccionar la retención municipal en un socio del negocio determinado.
 

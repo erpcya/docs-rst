@@ -1,3 +1,38 @@
+.. |Menú de ADempiere| image:: resources/menu.png
+.. |Ventana de Registro de Socio del Negocio| image:: resources/ventana.png
+.. |Campo Organización| image:: resources/organizacion.png
+.. |Campo Código| image:: resources/codigo.png
+.. |Campo Nombre| image:: resources/nombre.png
+.. |Campo Grupo de Socio del Negocio| image:: resources/grupo.png
+.. |Campo Tipo de Persona| image:: resources/tipopers.png
+.. |Pestaña Proveedor| image:: resources/pestproveedor.png
+.. |Checklist Proveedor| image:: resources/checklist.png
+.. |Grupo de Campos Generados por el Checklist Proveedor| image:: resources/campos.png
+.. |Campo Regla de Pago| image:: resources/regla.png
+.. |Campo Lista de Precios de Compra| image:: resources/lista.png
+.. |Campo Término de Pago Orden de Compra| image:: resources/termino.png
+.. |Campo Esquema de Descuento en OC| image:: resources/esq.png
+.. |Campo Exento de (IGTF)| image:: resources/igtf.png 
+.. |Pestaña Cuenta Bancaria| image:: resources/pestcuenta.png
+.. |Campo Tarjeta de Crédito| image:: resources/tipotarjeta.png
+.. |Campo Número| image:: resources/nutarjeta.png
+.. |Campo Código Verificación| image:: resources/codverificacion.png
+.. |Campo Mes de Expiración| image:: resources/mesexpiracion.png
+.. |Campo Año de Expiración| image:: resources/anoexpiracion.png
+.. |Campo Nombre de Referencia de la Tarjeta| image:: resources/nomcuenta.png
+.. |Checklist ACH| image:: resources/ACH.png
+.. |Campo Banco| image:: resources/banco.png
+.. |Ventana Bancos| image:: resources/ventcuentas.png
+.. |Campo Tipo de Cuenta Bancaria| image:: resources/tipocuenta.png
+.. |Campo No. De Cuenta| image:: resources/numcuenta.png
+.. |Campo Nombre del Titular de la Cuenta| image:: resources/nomcuenta2.png
+.. |Pestaña Localización| image:: resources/pestlocalizacion.png
+.. |Ventana de Localización| image:: resources/ventlocalizacion.png
+.. |Pestaña Contacto| image:: resources/pestcontacto.png
+.. |Campo Nombre de Contacto| image:: resources/nombcontacto.png
+.. |Campo Email| image:: resources/emailcontacto.png
+.. |Campo Teléfono| image:: resources/telecontacto.png
+
 .. _documento/socio-proveedor:
 
 **Proceso de Registro del Socio del Negocio**
@@ -5,13 +40,9 @@
 
 #. En el menú de ADempiere, ubique y seleccione la carpeta "**Relación con Socios del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**" y finalmente seleccione la ventana "**Socio del Negocio**", adjunto imagen para referencia.
 
-      .. documento/socio-proveedor-01
-      
-      .. figure:: img/menu.png
-         :align: center
-         :alt: Menú de ADempiere
+      |Menú de ADempiere|
 
-         Imagen 1. Menú de ADempiere
+      Imagen 1. Menú de ADempiere
 
 **Ventana Socio del Negocio**
 -----------------------------
@@ -20,25 +51,17 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
 #. A continuación visualizará la ventana principal "**Socio del Negocio**", dónde debe seleccionar el icono de "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere.
 
-      .. documento/socio-proveedor-02
-      
-      .. figure:: img/ventana.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
+      |Ventana de Registro de Socio del Negocio|
 
-         Imagen 2. Ventana Principal de Registro del Socio del Negocio
+      Imagen 2. Ventana Principal de Registro del Socio del Negocio
 
 #. Proceda al llenado de los campos necesarios que a continuación se detallan.
 
       #. Seleccione en el campo "**Organización**", la organización para la cual se esta registrando el socio del negocio proveedor.
 
-            .. documento/socio-proveedor-03
+            |Campo Organización|
 
-            .. figure:: img/organizacion.png
-               :align: center
-               :alt: Ventana de Registro de Socio del Negocio
-
-               Imagen 3. Campo Organización
+            Imagen 3. Campo Organización
 
             .. warning::
 
@@ -46,13 +69,9 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
       #. Introduzca el código de identificación, cédula o rif del socio del negocio en el campo "**Código**", el valor introducido en este campo automáticamente se reflejará en el campo "**Número Identificación**".
 
-            .. documento/socio-proveedor-04
+            |Campo Código|
 
-            .. figure:: img/codigo.png
-               :align: center
-               :alt: Ventana de Registro de Socio del Negocio
-
-               Imagen 4. Campo Código
+            Imagen 4. Campo Código
 
             .. warning::
 
@@ -60,33 +79,22 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
       #. Introduzca el nombre del socio del negocio proveedor en el campo "**Nombre**".
 
-            .. documento/socio-proveedor-05
+            |Campo Nombre|
 
-            .. figure:: img/nombre.png
-               :align: center
-               :alt: Ventana de Registro de Socio del Negocio
-
-               Imagen 5. Campo Nombre
+            Imagen 5. Campo Nombre
 
       #. Seleccione el grupo de socio del negocio al que pertenezca el socio del negocio proveedor que esta registrando, para este ejemplo el grupo utilizado es "**Proveedores Nacionales**".
 
-            .. documento/socio-proveedor-06
+            |Campo Grupo de Socio del Negocio|
 
-            .. figure:: img/grupo.png
-               :align: center
-               :alt: Ventana de Registro de Socio del Negocio
 
-               Imagen 6. Campo Grupo de Socio del Negocio
+            Imagen 6. Campo Grupo de Socio del Negocio
 
       #. Seleccione en el campo "**Tipo de Persona**, el tipo de persona al que pertenece el socio del negocio que se esta registrando, este campo obligatorio permite la configuración esencial de las retenciones a generar al mismo.
 
-            .. documento/socio-proveedor-07
+            |Campo Tipo de Persona|
 
-            .. figure:: img/tipopers.png
-               :align: center
-               :alt: Ventana de Registro de Socio del Negocio 
-
-               Imagen 7. Campo Tipo de Persona
+            Imagen 7. Campo Tipo de Persona
 
 #. Seleccione el icono "**Guardar Cambios**" ubicado en la barra de herramientas para guardar los datos ingresados.
 
@@ -101,13 +109,9 @@ Esta pestaña le indica a ADempiere si el socio del negocio que se esta registra
 
 #. Seleccione la pestaña "**Proveedor**" que se encuentra del lado izquierdo de la ventana principal "**Socio del Negocio**".
 
-      .. documento/socio-proveedor-08
+      |Pestaña Proveedor|
 
-      .. figure:: img/pestproveedor.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 8. Pestaña Proveedor
+      Imagen 8. Pestaña Proveedor
 
       .. note:: 
       
@@ -121,13 +125,9 @@ Esta pestaña le indica a ADempiere si el socio del negocio que se esta registra
 
 #. Seleccione el checklist "**Proveedor**" para habilitar en ADempiere el socio del negocio como proveedor de la compañía u organización. 
 
-      .. documento/socio-proveedor-09
+      |Checklist Proveedor|
 
-      .. figure:: img/checklist.png
-         :align: center 
-         :alt: Ventana de Registro del Socio del Negocio
-
-         Imagen 9. Checklist Proveedor
+      Imagen 9. Checklist Proveedor
 
       .. warning::
 
@@ -135,64 +135,40 @@ Esta pestaña le indica a ADempiere si el socio del negocio que se esta registra
 
 #. Al tildar el checklist "**Proveedor**" podrá apreciar un grupo de campos necesarios para la compra de productos al mismo, dichos campos no son obligatorios ya que pueden ser definidos en el documento "**Orden de Compra**" al momento de su elaboración.
 
-      .. documento/socio-proveedor-10
+      |Grupo de Campos Generados por el Checklist Proveedor|
 
-      .. figure:: img/campos.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 10. Grupo de Campos Generados por el Checklist Proveedor
+      Imagen 10. Grupo de Campos Generados por el Checklist Proveedor
 
 
       #. El campo "**Regla de Pago**" establece la regla de pago definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la regla de pago utilizada es "**A Crédito**". 
 
-            .. documento/socio-proveedor-11
+            |Campo Regla de Pago|
 
-            .. figure:: img/regla.png
-               :align: center
-               :alt: Ventana de Registro de Socio del Negocio
-
-               Imagen 11. Campo Regla de Pago
+            Imagen 11. Campo Regla de Pago
 
       #. El campo "**Lista de Precios de Compra**" establece la lista de precios definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la lista de precios utilizada es "**Compra (VES)**".
 
-            .. documento/socio-proveedor-12
+            |Campo Lista de Precios de Compra|
 
-            .. figure:: img/lista.png
-               :align: center
-               :alt: Ventana de Registro de Socio del Negocio
-
-               Imagen 12. Campo Lista de Precios de Compra
+            Imagen 12. Campo Lista de Precios de Compra
 
       #. El campo "**Término Pago Orden de Compra**" establece el término de pago definitivo para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo el término de pago utilizado es "**Crédito a 15 días**".
 
-            .. documento/socio-proveedor-13
+            |Campo Término de Pago Orden de Compra|
 
-            .. figure:: img/termino.png
-               :align: center 
-               :alt: Ventana de Registro de Socio del Negocio
-
-               Imagen 13. Campo Término de Pago Orden de Compra
+            Imagen 13. Campo Término de Pago Orden de Compra
 
       #. El campo "**Esquema del Descuento en OC**" establece el descuento definitivo para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo el esquema de descuento utilizado es "**Compras Porcentaje Simple**".
 
-            .. documento/socio-proveedor-14
+            |Campo Esquema de Descuento en OC|
 
-            .. figure:: img/esq.png
-               :align: center
-               :alt: Ventana de Registro de Socio del Negocio
-
-               Imagen 14. Campo Esquema de Descuento en OC
+            Imagen 14. Campo Esquema de Descuento en OC
 
       #. El campo "**Exento de (IGTF)**" establece que no se aplicará el impuesto "**IGTF**" al socio del negocio proveedor que se esta registrando
 
-            .. documento/socio-proveedor-15
+            |Campo Exento de (IGTF)|
 
-            .. figure:: img/igtf.png 
-               :align: center
-               :alt: Ventana de Registro de Socio del Negocio
-
-               Imagen 15. Campo Exento de (IGTF)
+            Imagen 15. Campo Exento de (IGTF)
 
 **Pestaña Cuenta Bancaria**
 ***************************
@@ -201,76 +177,48 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
 
 #. Seleccione la pestaña "**Cuenta Bancaria**" que se encuentra ubicada del lado izquierdo de la ventana socio del negocio. Por defecto se encuentra tildado el checklist "**Activo**".
 
-      .. documento/socio-proveedor-16
+      |Pestaña Cuenta Bancaria|
 
-      .. figure:: img/pestcuenta.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 16. Pestaña Cuenta Bancaria
+      Imagen 16. Pestaña Cuenta Bancaria
 
 **Checklist Activo**
 ++++++++++++++++++++
 
 #. Seleccione en el campo "**Tarjeta de Crédito**", el tipo de tarjeta de crédito que posee el socio del negocio proveedor que esta registrando.
 
-      .. documento/socio-proveedor-17
+      |Campo Tarjeta de Crédito|
 
-      .. figure:: img/tipotarjeta.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 17. Campo Tarjeta de Crédito
+      Imagen 17. Campo Tarjeta de Crédito
 
 #. Introduzca en el campo "**Número**", el número de tarjeta de crédito del socio del negocio proveedor que esta registrando.
 
-      .. documento/socio-proveedor-18
+      |Campo Número|
 
-      .. figure:: img/nutarjeta.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 18. Campo Número
+      Imagen 18. Campo Número
 
 #. Introduzca en el campo "**Código Verificación**", el código de verificación de la tarjeta de crédito del socio del negocio proveedor que esta registrando, este código son los últimos tres números del reverso de la tarjeta.
 
-      .. documento/socio-proveedor-19
+      |Campo Código Verificación|
 
-      .. figure:: img/codverificacion.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 19. Campo Código Verificación
+      Imagen 19. Campo Código Verificación
 
 #. Introduzca en el campo "**Mes de Expiración**", el mes de expiración de la tarjeta de crédito del socio del negocio proveedor que esta registrando.
 
-      .. documento/socio-proveedor-20
+      |Campo Mes de Expiración|
 
-      .. figure:: img/mesexpiracion.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 20. Campo Mes de Expiración
+      Imagen 20. Campo Mes de Expiración
 
 #. Introduzca el año de expiración de la tarjeta de crédito del socio del negocio proveedor que esta registrando en el campo "**Año de Expiración**".
 
-      .. documento/socio-proveedor-21
+      |Campo Año de Expiración|
 
-      .. figure:: img/anoexpiracion.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 21. Campo Año de Expiración
+      Imagen 21. Campo Año de Expiración
 
 #. Introduzca el nombre de referencia de la tarjeta en el campo "**Nombre**", en este campo va el nombre del titular de la tarjeta de crédito que esta registrando.
 
-      .. documento/socio-proveedor-22
+      |Campo Nombre de Referencia de la Tarjeta|
 
-      .. figure:: img/nomcuenta.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 22. Campo Nombre
+      Imagen 22. Campo Nombre de Referencia de la Tarjeta
 
 .. warning::
 
@@ -281,63 +229,39 @@ En esta pestaña se registran los datos bancarios del socio del negocio proveedo
 
 #. Para registros de cuentas bancarias, tilde el checklist "**ACH**", a continuación se reflejarán los campos para el registro de la cuenta bancaria del socio del negocio proveedor.
 
-      .. documento/socio-proveedor-23
+      |Checklist ACH|
 
-      .. figure:: img/ACH.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 23. Checklist ACH
+      Imagen 23. Checklist ACH
 
 #. En el campo "**Banco**" seleccione el banco a registrar con ayuda del icono identificador (adjunto imagen).
 
-      .. documento/socio-proveedor-24
+      |Campo Banco|
 
-      .. figure:: img/banco.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 24. Campo Banco
+      Imagen 24. Campo Banco
 
 #. A continuación visualizará la siguiente ventana con los diferentes bancos, dónde debe seleccionar el banco que posee el socio del negocio proveedor y la opción "**OK**" para cargar los datos a la ventana.
 
-      .. documento/socio-proveedor-25
+      |Ventana Bancos|
 
-      .. figure:: img/ventcuentas.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 25. Ventana Bancos
+      Imagen 25. Ventana Bancos
 
 #. Seleccione en el campo "**Tipo de Cuenta Bancaria**", el tipo de cuenta correspondiente a la cuenta del socio del negocio proveedor.
 
-      .. documento/socio-proveedor-26
+      |Campo Tipo de Cuenta Bancaria|
 
-      .. figure:: img/tipocuenta.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 26. Campo Tipo de Cuenta Bancaria
+      Imagen 26. Campo Tipo de Cuenta Bancaria
 
 #. Introduzca en el campo "**No. De Cuenta**", el número de cuenta del socio del negocio proveedor que esta registrando.
 
-      .. documento/socio-proveedor-27
+      |Campo No. De Cuenta|
 
-      .. figure:: img/numcuenta.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 27. Campo No. De Cuenta
+      Imagen 27. Campo No. De Cuenta
 
 #. Introduzca en el campo "**Nombre**", el nombre del titular de la cuenta bancaria que esta registrando.
 
-      .. documento/socio-proveedor-28
+      |Campo Nombre del Titular de la Cuenta|
 
-      .. figure:: img/nomcuenta2.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 28. Campo Nombre
+      Imagen 28. Campo Nombre del Titular de la Cuenta
 
 .. warning::
 
@@ -350,23 +274,15 @@ La localización de un socio del negocio es muy importante por diferentes motivo
 
 #. Seleccione la pestaña "**Localización**" que se encuentra ubicada del lado izquierdo de la ventana socio del negocio.
 
-      .. documento/socio-proveedor-29
+      |Pestaña Localización|
 
-      .. figure:: img/pestlocalizacion.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 29. Pestaña Localización
+      Imagen 29. Pestaña Localización
 
 #. A continuación visualizará la siguiente ventana, dónde debe resourcesdsocio-proveedorr la dirección exacta del socio del negocio proveedor que esta registrando.
 
-      .. documento/socio-proveedor-30
+      |Ventana de Localización|
 
-      .. figure:: img/ventlocalizacion.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 30. Ventana de Localización
+      Imagen 30. Ventana de Localización
 
 .. warning::
 
@@ -379,43 +295,27 @@ En esta pestaña se registran todos los datos de contacto que se tengan del soci
 
 #. Seleccione la pestaña "**Contacto**" que se encuentra ubicada del lado izquierdo de la ventana socio del negocio, para proceder a llenar los campos necesarios.
 
-      .. documento/socio-proveedor-31
+      |Pestaña Contacto|
 
-      .. figure:: img/pestcontacto.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 31. Pestaña Contacto
+      Imagen 31. Pestaña Contacto
 
 #. Introduzca en el campo "**Nombre**", el nombre del socio del negocio contacto para las transacciones entre las empresas.
 
-      .. documento/socio-proveedor-32
+      |Campo Nombre de Contacto|
 
-      .. figure:: img/nombcontacto.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 32. Campo Nombre
+      Imagen 32. Campo Nombre de Contacto
 
 #. Introduzca en el campo "**Email**", el email del socio del negocio contacto para las transacciones entre las empresas.
 
-      .. documento/socio-proveedor-33
+      |Campo Email|
 
-      .. figure:: img/emailcontacto.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 33. Campo Email
+      Imagen 33. Campo Email
 
 #. Introduzca en el campo "**Teléfono**", el teléfono del socio del negocio contacto para las transacciones entre las empresas.
 
-      .. documento/socio-proveedor-34
+      |Campo Teléfono|
 
-      .. figure:: img/telecontacto.png
-         :align: center
-         :alt: Ventana de Registro de Socio del Negocio
-
-         Imagen 34. Campo Teléfono
+      Imagen 34. Campo Teléfono
 
 .. note::
 
