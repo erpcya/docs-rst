@@ -135,3 +135,4 @@
     payroll-food-voucher
     vacation-payroll
     payroll-special-payments
+    profit-payroll
