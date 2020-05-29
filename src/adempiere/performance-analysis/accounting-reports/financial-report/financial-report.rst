@@ -29,7 +29,7 @@
 
     .. note::
     
-        Dicha ventana cuenta con tres diferentes formatos de impresión previamente configurados por `ERPyA`_ y explicados en el documento :ref:`documento/informe-financiero-configurado` en la sección localización Venezuela, con la finanlidad de que el usuario pueda visualizar tres diferentes informes que se adapten a los requerimientos del mismo.
+        Dicha ventana cuenta con tres diferentes formatos de impresión previamente configurados por `ERPyA`_ y explicados en los documentos :ref:`documento/balance-comprobación`, :ref:`documento/balance-general` y :ref:`documento/estado-resultado`, con la finanlidad de que el usuario pueda visualizar tres diferentes informes que se adapten a los requerimientos del mismo.
 
 #. El reporte de informe financiero es generado a través de la selección del proceso "**Crear Informe**", el cual se encuentra ubicado en la parte inferior de la ventana "**Informe Financiero**". 
 
@@ -145,3 +145,10 @@
     Imagen 16. Ventana Crear Informe
 
 #. A continuación podrá visualizar los tres diferentes informes financieros que pueden ser generados desde dicha ventana.
+
+.. toctree::
+    :maxdepth: 1
+
+    checking-balance
+    balance-sheet
+    statement-of-income

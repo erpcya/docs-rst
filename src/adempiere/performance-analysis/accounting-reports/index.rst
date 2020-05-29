@@ -27,7 +27,7 @@ Sin embargo, aun cuando existen factores relevantes al medir el flujo de efectiv
 
   #. Libros Diarios.
 
-  #. Estado de Cuenta o Mayor Analitico.
+  #. Estado de Cuenta o Mayor Analítico.
 
   #. Libro de Inventarios.
 
@@ -39,6 +39,6 @@ Sin embargo, aun cuando existen factores relevantes al medir el flujo de efectiv
 
 
 .. toctree::
-    :maxdepth: 2
-
-    financial-report
+    :maxdepth: 1
+    
+    financial-report/index
