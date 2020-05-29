@@ -38,6 +38,10 @@ Para procesar una “**Nómina Quincenal**” debemos realizar el proceso de nó
             A través de la "**Fecha Contable**" se determina contablemente la fecha de pago de la nómina quincenal en ejecución, por tal motivo se recomienda colocar la fecha “Hasta” o el último día del período que seleccionó anteriormente.
 
 
+        |Nómina Quincenal|
+
+        Imagen 1. Nómina Quincenal
+
 #. Incidencias:
 
       Para esta nómina no son obligatorias las incidencias, pero en ADempiere se cuentan con las siguientes incidencias disponibles para la Nómina Quincenal:

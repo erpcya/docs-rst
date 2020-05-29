@@ -35,9 +35,9 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
 
     #. Seleccione el “**Socio de Negocio Empleado**” a quién se le procesa la nómina de vacaciones en el campo "**Socio de Negocio**"
 
-        .. note::
+    .. note::
 
-            Si son vacaciones colectivas a todo el personal no debe seleccionar ningún socio de negocio, deje este campo en blanco para que le procese la nómina de vacaciones a todo el personal.
+        Si son vacaciones colectivas a todo el personal no debe seleccionar ningún socio de negocio, deje este campo en blanco para que le procese la nómina de vacaciones a todo el personal.
 
     |Nómina Vacaciones|
 
@@ -83,7 +83,7 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
 
         |Recibo de Pago Nómina Vacaciones|
 
-        Imagen 2. Recibo de Pago Nómina Vacaciones
+        Imagen 3. Recibo de Pago Nómina Vacaciones
 
         - “**Detalle de Pago**”
 
@@ -97,7 +97,7 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
 
         |Detalle de Pago Nómina Vacaciones|
 
-        Imagen 3. Detalle de Pago Nómina de Vacaciones
+        Imagen 4. Detalle de Pago Nómina de Vacaciones
 
         - “**Resumen de Pago**”
 
@@ -112,7 +112,7 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
 
         |Resumen de Pago Nómina Vacaciones|
 
-        Imagen 4. Resumen de Pago Nómina de Nómina de Vacaciones
+        Imagen 5. Resumen de Pago Nómina de Nómina de Vacaciones
 
         - “**Retenciones**”
 
@@ -124,7 +124,7 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
 
         |Retenciones Nómina Vacaciones|
 
-        Imagen 5. Retenciones de Nómina de Vacaciones
+        Imagen 6. Retenciones de Nómina de Vacaciones
 
         - “**Aportes**”
 
@@ -136,7 +136,7 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
 
         |Aportes Nómina Vacaciones|
 
-        Imagen 6. Aportes Nómina de Vacaciones
+        Imagen 7. Aportes Nómina de Vacaciones
 
         .. note::
 

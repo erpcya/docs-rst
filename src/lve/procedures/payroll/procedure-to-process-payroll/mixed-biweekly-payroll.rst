@@ -1,8 +1,9 @@
 .. _ERPyA: http://erpya.com
+.. |Nómina Quincenal Mixta| image::resources/quincenalmixta.png
 .. |Recibo de Pago Nómina Quincenal Mixta| image:: resources/reciboquincenalmixta.png
 .. |Detalle de Pago Nómina Quincenal Mixta| image:: resources/detallequincenalmixtaa.png
 .. |Resumen de Pago Nómina Quincenal Mixta| image:: resources/resumenquincenalmixta.png
-.. |Retenciones Nómina Quincenal Mixta| image:: resources/retencionequincenalmixta.png
+.. |Retenciones de Nómina Quincenal Mixta| image:: resources/retencionesquincenalmixta.png
 .. |Aportes Nómina Quincenal Mixta| image:: resources/aportesquincenalmixta.png
 .. |Provisiones Nómina Quincenal Mixta| image:: resources/provisionesquincenalmixta.png
 
@@ -96,9 +97,9 @@
 
             - **Configuración de Reporte de Nómina**: Nómina Regular
 
-    |Recibo de Pago Nómina Quincenal Mixta|
+        |Recibo de Pago Nómina Quincenal Mixta|
 
-    Imagen 2. Recibo de Pago Nómina Quincenal Mixta
+        Imagen 2. Recibo de Pago Nómina Quincenal Mixta
 
         - "**Detalle de Pago**"
 

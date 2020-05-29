@@ -10,7 +10,7 @@
  **Nómina Bono de Alimentación**
 ===============================
 
-    Para procesar una “**Nómina de Bono de Alimentación **” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de bono de alimentación, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
+    Para procesar una “**Nómina de Bono de Alimentación**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de bono de alimentación, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 #. Estatus del Documento:
 
@@ -40,9 +40,7 @@
 
 #. Incidencias:
 
-    Para esta nómina las incidencias serán extraídas de  aquellas qué se procesaron en las nóminas regulares del empleado durante ese periodo determinado.
-
-	Las incidencias qué se tomarán de las nóminas regulares del trabajador son las siguientes:
+    Para esta nómina las incidencias serán extraídas de  aquellas qué se procesaron en las nóminas regulares del empleado durante ese periodo determinado. Las incidencias qué se tomarán de las nóminas regulares del trabajador son las siguientes:
 
       +-------------------------------------------------------+----------------------+----------------+
       |           **INCIDENCIA**                              |     **CÓDIGO**       |    **TIPO**    |
