@@ -39,9 +39,9 @@
 
 .. _documento/socio-negocio:
 
-=====================================================
-**Proceso General de Registro del Socio del Negocio**
-=====================================================
+=====================
+**Socio del Negocio**
+=====================
 
 #. En el menú de ADempiere, ubique y seleccione la carpeta "**Relación con Socio del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**" y finalmente seleccione la ventana "**Socio del Negocio**".
 
