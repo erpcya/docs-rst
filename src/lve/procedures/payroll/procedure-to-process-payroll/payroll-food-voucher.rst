@@ -6,9 +6,9 @@
 
 .. _documento/nomina-bono-alimentación:
 
-===============================
+================================
  **Nómina Bono de Alimentación**
-===============================
+================================
 
     Para procesar una “**Nómina de Bono de Alimentación**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de bono de alimentación, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
@@ -64,13 +64,13 @@
 
             - **Nómina**: Nómina Bono de Alimentación
 
-         	- **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-         	- **Configuración de Reporte de Nómina**: Bono de Alimentación
+            - **Configuración de Reporte de Nómina**: Bono de Alimentación
 
-            |Recibo de Pago Nómina Bono de Alimentación|
+        |Recibo de Pago Nómina Bono de Alimentación|
 
-            Imagen 2. Recibo de Pago Nómina Bono de Alimentación
+        Imagen 2. Recibo de Pago Nómina Bono de Alimentación
 
 
         - “**Detalle de Pago**”
@@ -83,9 +83,9 @@
 
             - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-            |Detalle de Pago Nómina Bono de Alimentación|
+        |Detalle de Pago Nómina Bono de Alimentación|
 
-            Imagen 3. Detalle de Pago Nómina Bono de Alimentación
+        Imagen 3. Detalle de Pago Nómina Bono de Alimentación
 
 
         - “**Resumen de Pago**”
@@ -99,6 +99,6 @@
             - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
 
-            |Resumen de Pago Nómina Bono de Alimentación|
+        |Resumen de Pago Nómina Bono de Alimentación|
 
-            Imagen 4. Resumen de Pago Nómina de Nómina de Vacaciones
+        Imagen 4. Resumen de Pago Nómina de Nómina de Vacaciones

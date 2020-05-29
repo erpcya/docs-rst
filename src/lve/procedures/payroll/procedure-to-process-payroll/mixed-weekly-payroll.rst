@@ -82,88 +82,87 @@
 
 #. Resultados:
 
-    _"**Reportes**"
+    - "**Reportes**"
 
     Para visualizar los Reportes de Nóminas  puede seguir los pasos que se encuentran en el Documento :ref:`documento/reporte-de-nómina` con los datos adicionales que se indican a continuación para cada Reporte
 
 
-        _"**Recibo de Pago**"
+        - "**Recibo de Pago**"
 
+            - **Nómina**: Nómina Semanal Mixta
 
-        - **Nómina**: Nómina Semanal Mixta
+            - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
 
-        - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
-
-        - **Configuración de Reporte de Nómina**: Nómina Regular
+            - **Configuración de Reporte de Nómina**: Nómina Regular
 
         |Recibo de Pago Nómina Semanal Mixta|
 
         Imagen 2. Recibo de Pago Nómina Semanal Mixta
 
 
-        _"**Detalle de Pago**"
+        - "**Detalle de Pago**"
 
-        - **Nómina**: Nómina Semanal Mixta
+            - **Nómina**: Nómina Semanal Mixta
 
-        - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
 
-        - **Configuración de Reporte de Nómina**: Nómina Regular
+            - **Configuración de Reporte de Nómina**: Nómina Regular
 
-        - **Plantilla de Reporte de Nómina**: Detalle de Pago
+            - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
         |Detalle de Pago Nómina Semanal Mixta|
 
         Imagen 3. Detalle de Pago Nómina Semanal Mixta
 
 
-        _"**Resumen de Pago**"
+        - "**Resumen de Pago**"
 
-        - **Nómina**: Nómina Semanal Mixta
+            - **Nómina**: Nómina Semanal Mixta
 
-        - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
 
-        - **Configuración de Reporte de Nómina**: Nómina Regular
+            - **Configuración de Reporte de Nómina**: Nómina Regular
 
-        - **Plantilla de Reporte de Nómina**: Resumen de Pago
+            - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
         |Resumen de Pago Nómina Semanal Mixta|
 
         Imagen 4. Resumen de Pago Nómina Semanal Mixta
 
 
-        _"**Retenciones**"
+        - "**Retenciones**"
 
-        - **Nómina**: Nómina Semanal Mixta
+            - **Nómina**: Nómina Semanal Mixta
 
-        - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
 
-        - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
+            - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
         |Retenciones Nómina Semanal Mixta|
 
         Imagen 5. Retenciones de Nómina Semanal Mixta
 
 
-        _"**Aportes**"
+        - "**Aportes**"
 
-        - **Nómina**: Nómina Semanal Mixta
+            - **Nómina**: Nómina Semanal Mixta
 
-        - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
 
-        - **Configuración de Reporte de Nómina**: Aportes Parafiscales
+            - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
         |Aportes Nómina Semanal Mixta|
 
         Imagen 6. Aportes Nómina Semanal Mixta
 
 
-        _** Provisiones**
+        - "**Provisiones**"
 
-        - **Nómina**: Nómina Semanal Mixta
+            - **Nómina**: Nómina Semanal Mixta
 
-        - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubica el número de documento del proceso de nómina que está ejecutando.
 
-        - **Configuración de Reporte de Nómina**: Provisiones
+            - **Configuración de Reporte de Nómina**: Provisiones
 
         |Provisiones Nómina Semanal Mixta|
 

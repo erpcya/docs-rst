@@ -13,7 +13,7 @@
  **Nómina Vacaciones**
 ========================
 
-Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de vacaciones, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
+    Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de vacaciones, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 
 #. Estatus del Documento:
@@ -56,7 +56,7 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
       +-------------------------------------------------------+----------------------+----------------+
       |           **INCIDENCIA**                              |     **CÓDIGO**       |    **TIPO**    |
       +=======================================================+======================+================+
-      | Fecha de Inicio de Vacaciones                         |     ("IN_FIV")        |    Fecha    |
+      | Fecha de Inicio de Vacaciones                         |     ("IN_FIV")       |     Fecha      |
       +-------------------------------------------------------+----------------------+----------------+
 
 
@@ -77,9 +77,9 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
 
             - **Nómina**: Nómina de Vacaciones
 
-         	- **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-         	- **Configuración de Reporte de Nómina**: Vacaciones
+            - **Configuración de Reporte de Nómina**: Vacaciones
 
         |Recibo de Pago Nómina Vacaciones|
 
