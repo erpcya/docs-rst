@@ -11,11 +11,6 @@
 .. |Campo Descripción de la Pestaña Nota Contable| image:: resources/campo-descripcion-pest.png
 .. |Pestaña Línea| image:: resources/pest-linea.png
 .. |Icono del Campo Combinación| image:: resources/identificador-combinacion.png
-.. |Ventana Combinación y Selección del Identificador del Campo Cuenta| image:: resources/ventana-combinacion.png
-.. |Selección de Cuenta y Opción Ok| image:: resources/seleccion-cuenta.png
-.. |Campo Organización de la Ventana Combinación| image:: resources/campo-organizacion-combinacion.png
-.. |Icono Guardar de la Ventana Combinación| image:: resources/icono-guardar-combinacion.png
-.. |Opción OK de la Ventana Combinación| image:: resources/opcion-ok-combinacion.png
 .. |Campo Descripción de la Pestaña Línea| image:: resources/campo-descripcion-linea.png
 .. |Pestaña Lote y Opción Completar| image:: resources/pest-lote-completar.png
 .. |Acción Completar y Opción OK| image:: resources/accion-completar.png
@@ -106,56 +101,28 @@
 
     Imagen 12. Pestaña Línea  
 
-    #. Seleccione con ayuda del identificador del campo "**Combinación**", la cuenta afectada en el movimiento que se va a realizar.
+    #. Seleccione en en el campo "**Combinanción**", la combinación contable correspondiente al procedimiento que esta realizando, la misma puede ser seleccionada con ayuda del identificador del campo "**Combinación**". 
 
         |Icono del Campo Combinación|
 
         Imagen 13. Icono del Campo Combinación
 
-        #. Podrá visualizar la ventana "**Combinación**", donde debe seleccionar la cuenta en la que se desea hacer el movimiento, la misma puede ser seleccionada con ayuda del identificador del campo "**Cuenta**".
-
-            |Ventana Combinación y Selección del Identificador del Campo Cuenta|
-
-            Imagen 14. Identificador del Campo Cuenta
-
-            #. Seleccione la cuenta en la que se desea hacer el movimiento y la opción "**OK**" para cargar la convinación de la misma a la ventana "**Combinación**".
-
-                |Selección de Cuenta y Opción Ok|
-
-                Imagen 15. Selección de Cuenta y Opción Ok
-        
-        #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando la nota contable.
-
-            |Campo Organización de la Ventana Combinación| 
-
-            Imagen 16. Campo Organización de la Ventana Combinación
-
-        #. Seleccione el icono "**Guardar**", ubicado del lado derecho de la ventana "**Combinación**".
-
-            |Icono Guardar de la Ventana Combinación| 
-
-            Imagen 17. Icono Guardar de la Ventana Combinación
-
-        #. Seleccione la opción "**OK**", para cargar a la ventana "**Diario Contable**", la información ingresada en la ventana "**Combinación**".
-
-            |Opción OK de la Ventana Combinación|
-
-            Imagen 18. Opción OK de la Ventana Combinación
+        #. Realice el procedimiento para regular para crear una combinación contable, explicado en el documento :ref:`documento/combinación-contable`, elaborado por `ERPyA`_.
 
     #. Introduzca en el campo "**Descripción**", el nombre descriptivo del movimiento a realizar.
 
         |Campo Descripción de la Pestaña Línea|
 
-        Imagen 19. Campo Descripción de la Pestaña Línea
+        Imagen 14. Campo Descripción de la Pestaña Línea
 
 #. Regrese a la pestaña principal "**Lote**" y seleccione la opción "**Completar**", ubicado en la parte inferior derecha de la ventana.
 
     |Pestaña Lote y Opción Completar|
 
-    Imagen 20. Pestaña Lote y Opción Completar
+    Imagen 15. Pestaña Lote y Opción Completar
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Nota de Contabilidad**".
 
     |Acción Completar y Opción OK|
 
-    Imagen 21. Acción Completar y Opción OK 
+    Imagen 16. Acción Completar y Opción OK 
