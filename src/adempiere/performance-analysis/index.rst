@@ -18,6 +18,7 @@ El propósito de `ERPyA`_ es apoyar a nuestros clientes, dar respuestas rápidas
 .. toctree::
     :maxdepth: 1
 
+    type-of-application
     accounting-combination
     accounting-setup-master/index
     costing/index
