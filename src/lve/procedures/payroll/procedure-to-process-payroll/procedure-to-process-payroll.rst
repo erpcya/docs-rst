@@ -136,3 +136,4 @@
     vacation-payroll
     payroll-special-payments
     profit-payroll
+    weekly-payroll
