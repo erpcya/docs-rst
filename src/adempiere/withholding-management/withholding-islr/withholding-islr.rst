@@ -38,8 +38,8 @@
 
 .. _documento/retención-islr:
 
-**Configuración Esencial**
-==========================
+**Configuración Esencial de la Retención de ISLR**
+==================================================
 
 ADempiere permite seleccionar por socio del negocio la retención de ISLR a aplicar en los documentos de compra/venta del mismo, a continuación se explica el procedimiento para seleccionar el ISLR en un socio del negocio determinado.
 
