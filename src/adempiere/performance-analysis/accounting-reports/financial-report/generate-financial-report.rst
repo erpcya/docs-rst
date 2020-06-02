@@ -11,10 +11,10 @@
 .. |Campo Tipo de Aplicación| image:: resources/field-of-application-of-the-financial-report.png
 .. |Campo Desplegar fuentes Fuentes| image:: resources/field-display-sources-sources-of-the-financial-report.png
 .. |Campo Lista Transacciones| image:: resources/financial-report-transaction-list-field.png
-.. |Campo Lista Fuentes Primero| image:: resources/field-list-soaurces-first-of-the-financial-report.png
+.. |Campo Lista Fuentes Primero| image:: resources/field-list-sources-first-of-the-financial-report.png
 .. |Campo Reportando Jerarquías| image:: resources/field-reporting-hierarchies-of-financial-reporting.png
-.. |Organigrama Venta| image:: resources/OrganigramaVenta.png
-.. |Cubo de información| image:: resources/CubodeInformación.png
+.. |Organigrama Venta| image:: resources/organization-chart-sale.png
+.. |Cubo de información| image:: resources/information-cube.png
 .. |Campo Cubo Informe| image:: resources/financial-report-cube-field.png
 .. |Ventana Crear Informe| image:: resources/create-report-window.png
 
@@ -168,10 +168,10 @@
 
         |Campo Cubo Informe|
 
-        Imagen 16. Campo Cubo Informe
+        Imagen 17. Campo Cubo Informe
 
 #. Luego de verificar los campos que contiene la ventana, el usuario debe seleccionar la opción "**OK**", para que sea generado el informe.
 
     |Ventana Crear Informe|
 
-    Imagen 16. Ventana Crear Informe
+    Imagen 18. Ventana Crear Informe
