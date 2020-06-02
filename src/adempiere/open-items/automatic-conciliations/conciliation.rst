@@ -138,17 +138,17 @@ Una vez seleccionado el banco con el que se realizará la conciliación bancaria
 
 #. Seleccione la opción "**Conciliación de Estado de Cuenta**" en el menú que es desplegado por el icono "**Proceso**".
 
-      .. figure:: resources/conciliar.png
-         :alt: Menú Proceso
+        .. figure:: resources/conciliar.png
+            :alt: Menú Proceso
 
          Imagen 17. Menú Proceso
 
       #. Se le desplegará una ventana de búsqueda inteligente con campos por los cuales se filtrará la búsqueda para realizar la conciliación.
 
-      .. figure:: resources/datos.png
-         :alt: Filtrar Busqueda
+          .. figure:: resources/datos.png
+              :alt: Filtrar Busqueda
 
-         Imagen 18. Filtrar Busqueda
+          Imagen 18. Filtrar Busqueda
 
       .. note::
 
@@ -180,11 +180,11 @@ Una vez seleccionado el banco con el que se realizará la conciliación bancaria
             .. figure:: resources/simular.png
                :alt: Opción Simular Conciliación
 
-               Imagen 22. Opción Simular Conciliación
+            Imagen 22. Opción Simular Conciliación
 
-.. note::
+               ..  note::
 
-    La simulación de conciliación consiste en verificar las coincidencias  que tenga los pagos/cobros del extracto bancario con los registrados en ADempiere, está verificación parte en identificar qué los números de referencia de la transacciones bancarias coinciden con el número de documento del registro en ADempiere, qué ambos montos sean iguales y qué estén trabajando con la misma moneda , sí ambos movimientos (los del extracto bancario y los de ADempiere) coinciden en su totalidad con estas tres características “N° referencias / N° Documento , monto /monto, moneda/moneda” ADempiere identificara y lo marcará como una  coincidencia.
+                    La simulación de conciliación consiste en verificar las coincidencias  que tenga los pagos/cobros del extracto bancario con los registrados en ADempiere, está verificación parte en identificar qué los números de referencia de la transacciones bancarias coinciden con el número de documento del registro en ADempiere, qué ambos montos sean iguales y qué estén trabajando con la misma moneda , sí ambos movimientos (los del extracto bancario y los de ADempiere) coinciden en su totalidad con estas tres características “N° referencias / N° Documento , monto /monto, moneda/moneda” ADempiere identificara y lo marcará como una  coincidencia.
 
 
   #. Podrá apreciar los movimientos con coincidencia en la parte inferior de la ventana de búsqueda inteligente.
@@ -192,12 +192,11 @@ Una vez seleccionado el banco con el que se realizará la conciliación bancaria
             .. figure:: resources/coincidencias.png
                :alt: Pagos con Coincidencia
 
-               Imagen 23. Pagos con Coincidencia
+            Imagen 23. Pagos con Coincidencia
 
+            ..  note::
 
-      .. note::
-      
-          Si existe coincidencia entre los pagos/cobros y el extracto bancario se le mostrarán los movimientos con coincidencias, de lo contrario no se le mostrará ningún movimiento con coincidencia.
+              Si existe coincidencia entre los pagos/cobros y el extracto bancario se le mostrarán los movimientos con coincidencias, de lo contrario no se le mostrará ningún movimiento con coincidencia.
 
       #. Seleccione la opción "**OK**" para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de búsqueda inteligente. Automáticamente se importan en la pestaña "**Línea Estado Cuentas**", todos movimientos del extracto bancario los que han sido identificados y los que no tengan registro en ADempiere.
 
@@ -206,9 +205,9 @@ Una vez seleccionado el banco con el que se realizará la conciliación bancaria
 
                Imagen 24. Opción OK
 
-.. note::
+               ..  note::
 
-    El extracto bancario puede poseer algunos registros que no  han sido cargados en ADempiere, estos pueden ser cobros no identificados, comisiones bancarias entre otros, los cuales no van ser identificados al momento de hacer la simulación, sin embargo para estos pagos/cobros no conciliados se aplicará un proceso que se detalla en el documento :ref:`documento/crear-pagos-desde-estado-de-cuenta`.
+                  El extracto bancario puede poseer algunos registros que no  han sido cargados en ADempiere, estos pueden ser cobros no identificados, comisiones bancarias entre otros, los cuales no van ser identificados al momento de hacer la simulación, sin embargo para estos pagos/cobros no conciliados se aplicará un proceso que se detalla en el documento :ref:`documento/crear-pagos-desde-estado-de-cuenta`.
 
      Al seleccionar "Ok" ADempiere lo llevará nuevamente a la ventana principal "Estado de Cuenta Bancario".
 
