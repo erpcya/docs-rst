@@ -98,7 +98,7 @@
 
     #. Seleccione el tipo de aplicación en el campo "**Tipo de Aplicación**".
 
-      El tipo de aplicación no es un campo obligatorio, sin embargo, le permite filtrar la información por tipo de aplicación, que generalmente es utilizado para clasificar el tipo de contabilidad aplicado, el tipo de aplicación establecido por defecto es actual, basado en la configuración previa en las "**Columnas de Informe**" asociada al informe financiero, no obstante, podrá seleccionar entre, actual, presupuesto, reserva, compromiso y estadística, es decir, el informe financiero podrá emitir saldos contables de un tipo de aplicación específico al seleccionarlo, si por el contrario, el campo está vacío **ADempiere** mostrará la información contable del tipo de aplicación "**Actual**".
+        El tipo de aplicación no es un campo obligatorio, sin embargo, le permite filtrar la información por tipo de aplicación, que generalmente es utilizado para clasificar el tipo de contabilidad aplicado, el tipo de aplicación establecido por defecto es actual, basado en la configuración previa en las "**Columnas de Informe**" asociada al informe financiero, no obstante, podrá seleccionar entre, actual, presupuesto, reserva, compromiso y estadística, es decir, el informe financiero podrá emitir saldos contables de un tipo de aplicación específico al seleccionarlo, si por el contrario, el campo está vacío **ADempiere** mostrará la información contable del tipo de aplicación "**Actual**".
 
         |Campo Tipo de Aplicación|
 
@@ -116,17 +116,17 @@
 
         Lista Transacciones es un campo dependiente del campo "**Desplegar fuentes Fuentes**", es decir solo estará habilitado cuando el campo "**Desplegar fuentes Fuentes**" esté establecido con la opción "**Si**","**Lista Transacciones**" no es un campo obligatorio, sin embargo, le permite visualizar el débito o crédito de las transacciones que dan origen al saldo de las cuentas detalles y a su vez a las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción "**Si**", el informe financiero mostrará el monto de las transacciones que componen cada cuenta, si por el contrario, la opción seleccionada es "**No**" o el campo está vacío **ADempiere** mostrará el saldo contable únicamente de las cuentas detalles.
 
-            |Campo Lista Transacciones|
+        |Campo Lista Transacciones|
 
-            Imagen 12. Campo Lista Transacciones
+        Imagen 12. Campo Lista Transacciones
 
     #.  Seleccione la opción **Si** o **No** en el campo **Listas Fuentes Primero**.
 
         Listas Fuentes Primero se encuentra por defecto con la opción "**No**", no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción "**Desplegar fuentes Fuentes**" y "**Lista Transacciones**" de forma que si la opción seleccionada en el campo "**Listas Fuentes Primero**" es "**Si** las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el "**Grupo de Líneas del Informe**" asociado al informe financiero, si por el contrario, el campo está vacío **ADempiere** mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el "**Grupo de Líneas del Informe**" asociado al informe financiero.
 
-           |Campo Lista Fuentes Primero|
+        |Campo Lista Fuentes Primero|
 
-            Imagen 13. Checklist Lista Fuentes Primero
+        Imagen 13. Checklist Lista Fuentes Primero
 
     #. Seleccione el informe por jerarquía en  el campo **Reportando Jerarquías**.
 
@@ -134,9 +134,9 @@
 
             Imaginemos una organización cuya estructura en ventas está definida de la siguiente forma:
 
-                |Organigrama Venta|
+            |Organigrama Venta|
 
-                Imagen 14. Organigrama Ventas
+            Imagen 14. Organigrama Ventas
 
             Si se desea ver un informe para realizar un análisis de desempeño de la entidad en la organización seguramente se evaluarán resultados en cuentas como  ingresos, cuentas por cobrar, compromisos, costos y gastos asociado al departamento, región de ventas o incluso al empleado(gerente de ventas o vendedor), para esto **ADempiere** permite la creación de jerarquías para cualquier elemento seleccionado en el esquema contable y de esta forma reportar por estructuras y roles definidos previamente en "**Informe de Jerarquías**".
 
@@ -158,17 +158,17 @@
 
         El cubo de informe no es un campo obligatorio, sin embargo, le permite generar un informe financiero con una información analizada en línea en una base de datos multidimensional de gran volumen, es decir, muestra datos procesados con una gran agilidad y rapidez reduciendo a gran escala el tiempo y los recursos empleados en el análisis, para explicarlo mejor veamos el siguiente ejemplo:
 
-        Imaginemos una empresa en la que requiere dentro de una escala de tiempo incluir datos de un periodo contable, este llevaría por nombre "**Junio 2020**", en el que se desean medir otras dimensiones del cubo para alcanzar información referente a un proyecto, los productos por categorías, y costos en los que incurre la empresa para alcanzar el proyecto.
+            Imaginemos una empresa en la que requiere dentro de una escala de tiempo incluir datos de un periodo contable, este llevaría por nombre "**Junio 2020**", en el que se desean medir otras dimensiones del cubo para alcanzar información referente a un proyecto, los productos por categorías, y costos en los que incurre la empresa para alcanzar el proyecto.
 
-          |Cubo de información|
+            |Cubo de información|
 
-          Imagen 16. Cubo de información
+            Imagen 16. Cubo de información
 
-        Este cruce de la información permite analizar diversas situaciones y resultados llevando a cabo consultas de los datos masivos de manera eficiente y ligera para  tomar decisiones acertadas.
+            Este cruce de la información permite analizar diversas situaciones y resultados llevando a cabo consultas de los datos masivos de manera eficiente y ligera para  tomar decisiones acertadas.
 
         |Campo Cubo Informe|
 
-        Imagen 15. Campo Cubo Informe
+        Imagen 16. Campo Cubo Informe
 
 #. Luego de verificar los campos que contiene la ventana, el usuario debe seleccionar la opción "**OK**", para que sea generado el informe.
 
