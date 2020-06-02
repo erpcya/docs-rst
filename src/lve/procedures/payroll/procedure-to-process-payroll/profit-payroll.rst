@@ -4,14 +4,14 @@
 .. |Detalle de Pago Nómina  Utilidades| image:: resources/detalleutilidades.png
 .. |Resumen de Pago Nómina  Utilidades| image:: resources/resumenutilidades.png
 .. |Retenciones Nómina  Utilidades| image:: resources/retencionesutilidades.png
-.. |Aportes Nómina  Utilidades| image:: resources/aportesutilidades.png
+.. |Aportes Nómina  Utilidades| image:: resources/aporteutilidades.png
 .. |Incidencia Nómina  Utilidades| image:: resources/incidenciautilidades.png
 
 .. _documento/nomina-utilidades:
 
-=======================
- **Nómina Utilidades**
-=======================
+=====================
+**Nómina Utilidades**
+=====================
 
 Para procesar una “**Nómina de Utilidades**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de vacaciones, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
