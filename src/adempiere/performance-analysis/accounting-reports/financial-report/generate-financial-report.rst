@@ -20,6 +20,10 @@
 
 .. _documento/informe-financiero:
 
+==============================
+**Generar Informe Financiero**
+==============================
+
 #. Para generar un informe financiero el usuario debe ubicarse en el menú de ADempiere. Debe seleccionar la carpeta "**Análisis de Desempeño**", luego debe seleccionar la carpeta "**Informes Financieros**" y por último la ventana "**Informe Financiero**".
 
     |Menú de ADempiere|
@@ -178,12 +182,3 @@
     |Ventana Crear Informe|
 
     Imagen 16. Ventana Crear Informe
-
-#. A continuación podrá visualizar los tres diferentes informes financieros que pueden ser generados desde dicha ventana.
-
-.. toctree::
-    :maxdepth: 1
-
-    checking-balance
-    balance-sheet
-    statement-of-income
