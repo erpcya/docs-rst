@@ -42,3 +42,4 @@ Sin embargo, aun cuando existen factores relevantes al medir el flujo de efectiv
     :maxdepth: 1
     
     financial-report/index
+    detailed-reports/index

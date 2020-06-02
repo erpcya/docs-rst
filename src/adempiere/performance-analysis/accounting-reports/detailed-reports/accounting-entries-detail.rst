@@ -31,7 +31,6 @@
 
 .. _documento/detalles-de-asientos-contables:
 
-==================================
 **Detalles de Asientos Contables**
 ==================================
 
