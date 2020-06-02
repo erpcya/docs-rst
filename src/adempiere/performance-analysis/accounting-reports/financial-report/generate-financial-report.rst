@@ -112,22 +112,15 @@
 
         Imagen 11. Campo Desplegar fuentes Fuentes
 
-
     #. Seleccione la opción **Si** o **No** en el campo "**Lista Transacciones**".
 
         Lista Transacciones es un campo dependiente del campo "**Desplegar fuentes Fuentes**", es decir solo estará habilitado cuando el campo "**Desplegar fuentes Fuentes**" esté establecido con la opción "**Si**","**Lista Transacciones**" no es un campo obligatorio, sin embargo, le permite visualizar el débito o crédito de las transacciones que dan origen al saldo de las cuentas detalles y a su vez a las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción "**Si**", el informe financiero mostrará el monto de las transacciones que componen cada cuenta, si por el contrario, la opción seleccionada es "**No**" o el campo está vacío **ADempiere** mostrará el saldo contable únicamente de las cuentas detalles.
-
 
             |Campo Lista Transacciones|
 
             Imagen 12. Campo Lista Transacciones
 
-
-            .. note::
-
-                Este campo permite listar los documentos involucrados en las transacciones contempladas en el informe financiero que requiere generar.
-
-        #.  Seleccione la opción **Si** o **No** en el campo **Listas Fuentes Primero**.
+    #.  Seleccione la opción **Si** o **No** en el campo **Listas Fuentes Primero**.
 
         Listas Fuentes Primero se encuentra por defecto con la opción "**No**", no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción "**Desplegar fuentes Fuentes**" y "**Lista Transacciones**" de forma que si la opción seleccionada en el campo "**Listas Fuentes Primero**" es "**Si** las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el "**Grupo de Líneas del Informe**" asociado al informe financiero, si por el contrario, el campo está vacío **ADempiere** mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el "**Grupo de Líneas del Informe**" asociado al informe financiero.
 
@@ -159,17 +152,17 @@
 
         |Campo Reportando Jerarquías|
 
-        Imagen 14. Campo Reportando Jerarquías
+        Imagen 15. Campo Reportando Jerarquías
 
     #. Seleccione el cubo de informe en el campo **Cubo Informe**.
 
-    El cubo de informe no es un campo obligatorio, sin embargo, le permite generar un informe financiero con una información analizada en línea en una base de datos multidimensional de gran volumen, es decir, muestra datos procesados con una gran agilidad y rapidez reduciendo a gran escala el tiempo y los recursos empleados en el análisis, para explicarlo mejor veamos el siguiente ejemplo:
+        El cubo de informe no es un campo obligatorio, sin embargo, le permite generar un informe financiero con una información analizada en línea en una base de datos multidimensional de gran volumen, es decir, muestra datos procesados con una gran agilidad y rapidez reduciendo a gran escala el tiempo y los recursos empleados en el análisis, para explicarlo mejor veamos el siguiente ejemplo:
 
         Imaginemos una empresa en la que requiere dentro de una escala de tiempo incluir datos de un periodo contable, este llevaría por nombre "**Junio 2020**", en el que se desean medir otras dimensiones del cubo para alcanzar información referente a un proyecto, los productos por categorías, y costos en los que incurre la empresa para alcanzar el proyecto.
 
-        |Cubo de información|
+          |Cubo de información|
 
-        Imagen 15. Cubo de información
+          Imagen 16. Cubo de información
 
         Este cruce de la información permite analizar diversas situaciones y resultados llevando a cabo consultas de los datos masivos de manera eficiente y ligera para  tomar decisiones acertadas.
 
