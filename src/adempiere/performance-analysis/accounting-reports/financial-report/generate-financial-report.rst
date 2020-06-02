@@ -20,7 +20,6 @@
 
 .. _documento/informe-financiero:
 
-==============================
 **Generar Informe Financiero**
 ==============================
 
