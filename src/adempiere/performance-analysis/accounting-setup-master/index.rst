@@ -12,3 +12,6 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 
     charge
     product
+    business-partner-customer
+    business-partner-provider
+    business-partner-employee
