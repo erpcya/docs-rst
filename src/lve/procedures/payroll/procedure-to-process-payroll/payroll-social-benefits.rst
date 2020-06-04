@@ -29,7 +29,7 @@ Para procesar una “**Nómina de Prestaciones Sociales**” debemos realizar el
 
     #. Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
 
-    ..note::
+    .. note::
 
         La nómina de prestaciones sociales está configurada para que procese la asignación de garantía de prestaciones cada 3 meses al empleado, y la asignación de antiguedad de prestaciones cada año a partir del segundo año de servicio del empleado.
 
