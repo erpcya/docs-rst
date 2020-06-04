@@ -16,9 +16,9 @@ ADempiere por su condición de ERP ofrece todo lo que una compañía requiere en
     material-management/index
     quote-to-invoice/index
     requisition-to-invoice/index
-    withholding-management/index
     open-items/index
     returns/index
     loan-management/index
     asset-management/index
     performance-analysis/index
+    human-resources-management/index

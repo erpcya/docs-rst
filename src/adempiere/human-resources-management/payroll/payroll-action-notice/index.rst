@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/lve/procedures/payroll/payroll-action-notice:
+.. .. _src/adempiere/human-resources-management/payroll/payroll-action-notice:
 
 =======================
 **Novedades de Nómina**
