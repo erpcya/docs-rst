@@ -12,7 +12,7 @@
 .. |Campo Lista de Precios de Compra| image:: resources/lista.png
 .. |Campo Término de Pago Orden de Compra| image:: resources/termino.png
 .. |Campo Esquema de Descuento en OC| image:: resources/esq.png
-.. |Campo Exento de (IGTF)| image:: resources/igtf.png 
+.. |Campo Exento de (IGTF)| image:: resources/igtf.png
 .. |Pestaña Cuenta Bancaria| image:: resources/pestcuenta.png
 .. |Campo Tarjeta de Crédito| image:: resources/tipotarjeta.png
 .. |Campo Número| image:: resources/nutarjeta.png
@@ -100,12 +100,12 @@ En esta ventana se registran los datos principales del socio del negocio. Cada u
 
 .. warning::
 
-      Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio. 
+      Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
 
 **Pestaña Proveedor**
 *********************
 
-Esta pestaña le indica a ADempiere si el socio del negocio que se esta registrando es un proveedor. 
+Esta pestaña le indica a ADempiere si el socio del negocio que se esta registrando es un proveedor.
 
 #. Seleccione la pestaña "**Proveedor**" que se encuentra del lado izquierdo de la ventana principal "**Socio del Negocio**".
 
@@ -113,17 +113,17 @@ Esta pestaña le indica a ADempiere si el socio del negocio que se esta registra
 
       Imagen 8. Pestaña Proveedor
 
-      .. note:: 
-      
+      .. note::
+
             La pestaña "**Proveedor**" se compone de:
 
                   - Un checklist "**Proveedor**".
-        
-                  - Los datos principales del socio del negocio donde los campos "**Compañía**", "**Organización**", "**Código**" y "**Nombre**", vienen cargados de la ventana principal "**Socio del Negocio**". 
-        
+
+                  - Los datos principales del socio del negocio donde los campos "**Compañía**", "**Organización**", "**Código**" y "**Nombre**", vienen cargados de la ventana principal "**Socio del Negocio**".
+
                   - Ademas posee un grupo de campos que definen la configuración de retenciones a aplicar al socio del negocio, dichos campos se encuentran explicados en los documentos :ref:`documento/retención-iva`, :ref:`documento/retención-islr` y :ref:`documento/retención-municipal`.
 
-#. Seleccione el checklist "**Proveedor**" para habilitar en ADempiere el socio del negocio como proveedor de la compañía u organización. 
+#. Seleccione el checklist "**Proveedor**" para habilitar en ADempiere el socio del negocio como proveedor de la compañía u organización.
 
       |Checklist Proveedor|
 
@@ -140,7 +140,7 @@ Esta pestaña le indica a ADempiere si el socio del negocio que se esta registra
       Imagen 10. Grupo de Campos Generados por el Checklist Proveedor
 
 
-      #. El campo "**Regla de Pago**" establece la regla de pago definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la regla de pago utilizada es "**A Crédito**". 
+      #. El campo "**Regla de Pago**" establece la regla de pago definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la regla de pago utilizada es "**A Crédito**".
 
             |Campo Regla de Pago|
 
