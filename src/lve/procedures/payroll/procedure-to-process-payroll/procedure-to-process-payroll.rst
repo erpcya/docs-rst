@@ -136,3 +136,6 @@
     vacation-payroll
     payroll-special-payments
     profit-payroll
+    payroll-social-benefits
+    payroll-advance-social-benefits
+    payroll-liquidation

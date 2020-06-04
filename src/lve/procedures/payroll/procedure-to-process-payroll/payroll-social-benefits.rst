@@ -27,11 +27,11 @@ Para procesar una “**Nómina de Prestaciones Sociales**” debemos realizar el
             #. Regla de Pago: Débito Directo
             #. Cargo: Sueldos y Salarios por Pagar
 
-    #. Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable*
+    #. Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
 
     ..note::
-	   Está nómina está establecida para que procese la asignación de garantía de presentaciones cada 3 meses al empleado, y la asignación de antiguedad de prestaciones cada año y a partir del segundo año de prestación de servicio del empleado.
 
+        La nómina de prestaciones sociales está configurada para que procese la asignación de garantía de prestaciones cada 3 meses al empleado, y la asignación de antiguedad de prestaciones cada año a partir del segundo año de servicio del empleado.
 
       |Nómina Prestaciones Sociales|
 
@@ -39,7 +39,7 @@ Para procesar una “**Nómina de Prestaciones Sociales**” debemos realizar el
 
     .. warning::
 
-        Está nómina  por ser una nómina especial no debe registrarse con período
+        Esta nómina  por ser una nómina especial no debe registrarse con período
 
 
 #. Incidencias:
