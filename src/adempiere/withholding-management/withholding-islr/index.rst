@@ -1,9 +1,9 @@
+.. _ERPyA: http://erpya.com
 .. |Tabla de Retención de ISLR 1| image:: resources/tabla-islr1.png
 .. |Tabla de Retención de ISLR 2| image:: resources/tabla-islr2.png
 .. |Tabla de Retención de ISLR 3| image:: resources/tabla-islr3.png
 
 .. _src/adempiere/withholding-management/withholding-islr:
-.. _ERPyA: http://erpya.com
 
 =======================================================
 **Retención de ISLR de Cuentas por Pagar en ADempiere**

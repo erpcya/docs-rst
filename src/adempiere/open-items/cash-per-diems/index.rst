@@ -1,5 +1,5 @@
-.. _src/adempiere/open-items/cash-per-diems:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/open-items/cash-per-diems:
 
 =================
 **Caja Viáticos**

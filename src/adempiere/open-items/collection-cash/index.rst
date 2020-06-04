@@ -1,5 +1,5 @@
-.. _src/lve/procedures/sales/collection-cash:
 .. _ERPyA: http://erpya.com
+.. _src/lve/procedures/sales/collection-cash:
 
 =================
 **Caja Cobranza**

@@ -1,6 +1,6 @@
-.. _src/general/slack
 .. _ERPyA: http://erpya.com
 .. _Slack: https://erp.slack.com/
+.. _src/general/slack:
 
 =========
 **Slack**

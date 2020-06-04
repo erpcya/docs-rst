@@ -1,5 +1,5 @@
-.. _src/adempiere/open-items/automatic-conciliations:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/open-items/automatic-conciliations:
 
 ==============================
 **Conciliaciones Automáticas**

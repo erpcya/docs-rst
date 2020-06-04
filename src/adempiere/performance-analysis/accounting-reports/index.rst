@@ -1,5 +1,5 @@
-.. _src/adempiere/performance-analysis/accounting-reports:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/performance-analysis/accounting-reports:
 
 ======================
 **Reportes Contables**

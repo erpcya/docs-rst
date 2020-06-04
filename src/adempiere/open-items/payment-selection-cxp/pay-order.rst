@@ -15,8 +15,8 @@
 .. |Opción Completar 1| image:: resources/completar1.png
 .. |Acción Completar| image:: resources/accion-completar.png
 
-.. _documento/orden-de-pago:
 .. _ERPyA: http://erpya.com
+.. _documento/orden-de-pago:
 
 **Orden de Pago**
 =================

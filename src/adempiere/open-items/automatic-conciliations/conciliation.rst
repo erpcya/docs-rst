@@ -1,6 +1,6 @@
-.. _documento/conciliacion-automatica:
 .. _ERPyA: http://erpya.com
 .. _importación: https://docs.erpya.com/es/latest/ADempiere/open-items/automatic-conciliations/concept.html#importacion-de-extracto-bancario
+.. _documento/conciliacion-automatica:
 
 **Crear Conciliación Automática**
 ---------------------------------
@@ -211,8 +211,8 @@ Una vez seleccionado el banco con el que se realizará la conciliación bancaria
 
      Al seleccionar "Ok" ADempiere lo llevará nuevamente a la ventana principal "Estado de Cuenta Bancario".
 
-**Coincidencia bancarias**
-~~~~~~~~~~~~~~~~~~~~~~~~
+**Coincidencia Bancarias**
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Al momento de realizar la conciliación bancaria ADempiere maneja una serie verificaciones para poder encontrar las coincidencias bancarias, los datos que toma ADempiere tanto en los movimientos del extracto bancario como los movimientos registrados en ADempiere son los siguientes por banco:
 
@@ -497,5 +497,3 @@ En el caso de que existan movimientos con registros en ADempiere pero sin docume
          :alt: Acción Completar Documento
 
          Imagen 30. Acción Completar Documento
-.. _documento/conciliacion-automatica:
-.. _ERPyA: http://erpya.com

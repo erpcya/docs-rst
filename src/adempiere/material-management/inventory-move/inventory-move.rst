@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Reporte Detalle Almacenamiento Antes| image:: resources/detalle-almacenamiento-antes.png
 .. |Menú de ADempiere| image:: resources/menu-movimiento-inventario.png
 .. |Ventana Movimiento de Inventario| image:: resources/ventana-movimiento-inventario.png
@@ -19,7 +20,6 @@
 .. |Reporte Detalle Almacenamiento Después| image:: resources/detalle-alamacenamiento-despues.png
 
 .. _documento/movimiento-inventario:
-.. _ERPyA: http://erpya.com
 
 **Procedimiento para Realizar un Movimiento de Inventario en ADempiere**
 ========================================================================

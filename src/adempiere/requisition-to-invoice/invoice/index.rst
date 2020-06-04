@@ -1,5 +1,5 @@
-.. _src/adempiere/requisition-to-invoice/invoice:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/requisition-to-invoice/invoice:
 
 ========================
 **Documentos por Pagar**

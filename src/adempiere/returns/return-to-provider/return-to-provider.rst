@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Orden de Compra 1| image:: resources/orden-compra1.png
 .. |Factura de Compra 1| image:: resources/factura-pagar1.png
 .. |Recepción 1| image:: resources/recepcion1.png
@@ -36,7 +37,6 @@
 .. |Detalle de Transacciones| image:: resources/deta-trans1.png
 
 .. _documento/devolucion-proveedor:
-.. _ERPyA: http://erpya.com
 
 **Autorización de Devolución a Proveedor**
 ------------------------------------------

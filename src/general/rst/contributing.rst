@@ -1,7 +1,7 @@
+.. _ERPyA: http://erpya.com
 .. |Clonar o Descargar| image:: resources/img12.png
 
 .. _documento/contribuir-documento:
-.. _ERPyA: http://erpya.com
 
 =================================
 **Contribuir a la Documentación**

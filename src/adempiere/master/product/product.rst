@@ -1,6 +1,6 @@
-.. _documento/producto:
 .. _Codificar los Productos: https://docs.erpya.com/es/latest/lve/standard-coding/product/
 .. _ERPyA: http://erpya.com
+.. _documento/producto:
 
 **Proceso de Registro del Producto**
 ------------------------------------

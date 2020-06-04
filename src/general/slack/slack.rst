@@ -1,8 +1,6 @@
-.. _src/general/slack:
 .. _ERPyA: http://erpya.com
 .. _Slack: https://erp.slack.com/
 .. _Google Play Store: https://play.google.com/store/apps/details?id=com.Slack
-
 .. |Invitación Slack| image:: resources/Invitación2.png
 .. |Crear Cuenta Usuario| image:: resources/Crear_Cuenta_Usuario.png
 .. |Crear Cuenta Contraseña| image:: resources/Crear_Cuenta_Contraseña.png
@@ -25,6 +23,7 @@
 .. |Canal de Soporte a Empresa ERP en Slack| image:: resources/canalERP.png
 .. |Mensajes del canal de Soporte a Empresa ERP en Slack| image:: resources/opcionesSlack.png
 .. |Ticket de Soporte a Empresa en Slack| image:: resources/OSTicket.png
+.. _documento/slack:
 
 **Instalación de Slack**
 ========================

@@ -1,5 +1,5 @@
-.. _src/adempiere:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere:
 
 =====================
 **ADempiere ERP/CRM**

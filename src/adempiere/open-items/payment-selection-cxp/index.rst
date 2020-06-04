@@ -1,5 +1,5 @@
-.. _src/adempiere/open-items/payment-selection-cxp:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/open-items/payment-selection-cxp:
 
 =================================================
 **Órdenes de Pago de Cuentas por Pagar por Lote**

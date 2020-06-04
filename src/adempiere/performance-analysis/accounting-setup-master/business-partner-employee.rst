@@ -8,7 +8,6 @@
 .. |Campo Pago Anticipado a Empleados| image:: resources/advance-payment-to-employees-field-of-the-employee-accounting-tab-of-the-business-partner-window.png
 .. |Combinación Contable del Campo Pago Anticipado a Empleados| image:: resources/accounting-combination-of-the-advance-payment-to-employees-field-of-the-employee-accounting-tab-of-the-business-partner-window.png
 
-
 .. _documento/configuración-contable-socio-del-negocio-empleado:
 
 **Configuración Contable del Socio del Negocio Empleado**

@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/documento-por-cobrar.png
 .. |Ventana Documento por Cobrar| image:: resources/vent-documento-por-cobrar.png
 .. |Icono Registro Nuevo| image:: resources/icono-registro-nuevo.png
@@ -19,9 +20,7 @@
 .. |Campo Neto de Línea| image:: resources/campo-neto-linea.png
 .. |Pestaña Factura| image:: resources/pest-factura.png
 .. |Acción Completar y Opción OK| image:: resources/completar-factura.png
-
 .. _documento/documento-por-cobrar:
-.. _ERPyA: http://erpya.com
 
 **Crear Documentos por Pagar**
 ==============================

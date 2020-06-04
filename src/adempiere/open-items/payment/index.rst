@@ -1,5 +1,5 @@
-.. _src/adempiere/open-items/payment:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/open-items/payment:
 
 ========
 **Pago**

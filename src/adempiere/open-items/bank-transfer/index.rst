@@ -1,5 +1,5 @@
-.. _src/adempiere/open-items/bank-transfer:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/open-items/bank-transfer:
 
 =======================================
 **Transferencia Bancaria en ADempiere**

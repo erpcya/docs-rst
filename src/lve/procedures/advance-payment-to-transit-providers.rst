@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere 1| image:: resources/menutransf.png
 .. |Transferencia Bancaria| image:: resources/transferencia2.png
 .. |Documento Pago Cobro| image:: resources/pagocobro1.png
@@ -28,7 +29,6 @@
 .. |Cierre de Caja 2| image:: resources/cierrecaja4.png
 
 .. _documento/anticipo-a-proveedores-en-transito:
-.. _ERPyA: http://erpya.com
 
 **Anticipo a Proveedores en Tránsito**
 ======================================

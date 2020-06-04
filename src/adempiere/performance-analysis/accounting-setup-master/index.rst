@@ -1,5 +1,5 @@
-.. _src/adempiere/performance-analysis/accounting-setup-master:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/performance-analysis/accounting-setup-master:
 
 =====================================
 **Configuración Contable (Maestros)**

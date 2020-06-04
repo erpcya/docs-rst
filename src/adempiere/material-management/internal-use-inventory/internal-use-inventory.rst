@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Detalle de Almacenamiento Antes| image:: resources/detalle-almacenamiento-antes.png
 .. |Menú de ADempiere| image:: resources/menu-inventario-uso-interno.png
 .. |Ventana Inventario Uso Interno| image:: resources/vent-inventario-uso-interno.png
@@ -18,7 +19,6 @@
 .. |Detalle de Almacenamiento después del Movimiento| image:: resources/detalle-almacenamiento-despues.png
 
 .. _documento/inventario-uso-interno:
-.. _ERPyA: http://erpya.com
 
 **Procedimiento para Realizar un Inventario de Uso Interno en ADempiere**
 =========================================================================

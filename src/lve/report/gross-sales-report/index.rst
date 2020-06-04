@@ -1,5 +1,6 @@
-.. |Ventana Resumen de Facturas 1| image:: resources/vent1.png
 .. _ERPyA: http://erpya.com
+.. |Ventana Resumen de Facturas 1| image:: resources/vent1.png
+.. _src/lve/report/gross-sales-report:
 
 ======================================================================================
 **Generar Reporte de Ventas Brutas desde el Proceso Resumen de Facturas de ADempiere**

@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/menureq.png
 .. |Icono Registro Nuevo| image:: resources/nuevareq.png
 .. |Campo Organización| image:: resources/organizacion.png
@@ -19,7 +20,6 @@
 .. |Completar Documento| image:: resources/completar.png
 
 .. _documento/requisición-compra:
-.. _ERPyA: http://erpya.com
 
 **Crear Requisición a Compra**
 ==============================
