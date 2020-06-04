@@ -1,56 +1,73 @@
 .. _ERPyA: http://erpya.com
 .. _master/business-partner/customer:
 
-=============================
-**Socio del Negocio Cliente**
-=============================
+============
+**Clientes**
+============
 
-Si es usted un usuario en etapa de iniciación le recomendamos leer el capitulo anterior, Socios del Negocio de ADempiere, donde respondimos la interrogante común: **¿Qué es un Socio de Negocio?**, esto con la intención de proveer en este material una información más digerible.
+Si es usted un usuario en etapa de iniciación le recomendamos leer el capítulo anterior, Socios del Negocio de ADempiere, donde respondimos la interrogante común: **¿Qué es un Socio de Negocio?**, esto con la intención de proveer en este material una información más digerible.
 
 Como resultado de lo anteriormente expuesto, se puede concluir que un socio de negocio que actúa como cliente, es una entidad jurídica o natural que adquiere productos o servicios provenientes de la empresa,estos pueden ser:
 
-**Clientes Nacionales:** Realizan transacciones que generan ingresos a la empresa (Ventas) dentro del territorio.
+    #. **Clientes Nacionales:** Realizan transacciones que generan ingresos a la empresa (Ventas) dentro del territorio.
 
-**Clientes Internacionales:** Realizan transacciones que generan ingresos a la empresa(Ventas) fuera del territorio, esto se conoce como exportación.
+    #. **Clientes Internacionales:** Realizan transacciones que generan ingresos a la empresa(Ventas) fuera del territorio, esto se conoce como exportación.
 
 Esta categorización en ADempiere es conocida como **Grupo de Socio de Negocio** y es la base contable (en su mayoría) para las operaciones emitidas a partir de este registro maestro, no obstante, el usuario tiene la opción de realizar configuraciones excepcionales para ciertos clientes.
 
+Para este caso, usted tendría por categoría diferentes cuentas contables, Cuenta por Cobrar Nacionales y Cuenta por Cobrar Internacionales respectivamente.
+
 Ahora bien, si es usted usuario de ADempiere, seguramente se ha hecho preguntas que le han complicado la operativa de algún modo. Para facilitar su día a día `ERPyA`_ quiere responder algunas preguntas frecuentes con las que nos topamos en nuestra experiencia como consultores e implementadores de ADempiere:
 
-1) **¿Si un socio de negocio es proveedor o empleado, y ahora va a fugir como cliente, debo crearlo nuevamente?**
+#. **¿Si un socio de negocio es proveedor o empleado, y ahora funge como cliente, debo crearlo nuevamente?**
 
-    No,esto ha ocasionado en innumerables oportunidades duplicidades de registros e incongruencias en resultados. Bastará con ubicar con el código del socio del negocio al mismo y configurar como lo indica este material.
+    No, esto ha ocasionado en innumerables oportunidades duplicidades de registros e incongruencias en resultados. Bastará con ubicar con el código del socio del negocio al mismo y configurar como lo indica este material.
 
-2) **¿Si la categoría es por ejemplo Cliente Nacional, como actúa contablemente siendo cliente y proveedor?**
+#. **Si la categoría es por ejemplo Cliente Nacional, ¿cómo actúa contablemente siendo cliente y proveedor?**
 
-    Pues bien, la categoría generalmente hace referencia a la agrupación contable a la que pertenece el socio de negocio cuando es registrado por primera vez, la misma contempla en su definición las cuentas contables a establecer en la pestaña de cliente y en la de proveedor, esto de alguna manera solventa la inquietud de no poder colocar dos tres grupos de socios de negocios, si desea conocer más como opera esta agrupación de la que hablo vaya a **Grupo de Socio de Negocio**.
+    Pues bien, la categoría generalmente hace referencia a la agrupación contable a la que pertenece el socio de negocio cuando es registrado por primera vez, la misma contempla en su definición las cuentas contables a establecer en la pestaña de cliente y en la de proveedor, esto de alguna manera solventa la inquietud de no poder colocar dos tres grupos de socios de negocios, si desea conocer más del ¿cómo opera esta agrupación? de la que hablo vaya a **Grupo de Socio de Negocio**.
 
-3) **¿Cómo agrupo por vendedor a mis clientes para emitir un reporte?**
-    ADempiere le ofrece al usuario dos opciones, la primera es por Región de Ventas, asignando una región a un cliente, a su vez esta depende de un asesor de ventas, permitiendo mayor facilidad en el mantenimiento de estas por ausencia de vendedores.
+#. **¿Cómo agrupar por vendedor a mis clientes para emitir un reporte?**
 
-    La región de venta está ligada directamente a la localización del cliente, así, si su cliente posee más de una dirección física podría configurar más de un asesor al cliente, si desea profundizar más el tema, le invitamos a ver nuestro instructivo de Regiones de Ventas.
+    Para ofrecer una eficiente administración en distribución y seguimiento de clientes y pedidos generados, ADempiere ofrece al usuario dos opciones:
 
-    La segunda opción, le permite asignar un vendedor especifico al cliente directamente, omitiendo configuraciones en la localización.
+        #. **Por Región de Ventas:**  De esta forma se asigna la región de venta a un cliente, a su vez, ésta depende de un asesor de ventas.Esto permite una mayor facilidad en el mantenimiento por ausencia de vendedores, si su cliente posee más de una dirección podría configurar más de un asesor.
 
-4) **¿Que columnas configuradas en el cliente es información transferida a la orden de venta?**
+        #. **Por Asesor Especifico:** De esta forma se asigna un vendedor especifico al cliente directamente, omitiendo configuraciones en la localización.
 
-    Existen multiples reglas que permiten predefinir valores en transacciones dependiendo de la configuración del cliente, ejemplo de ello es la regla de facturación, regla de entrega, descuentos, vendedor, regla de pago y otras columnas que se definen en este material.
+#. **¿Qué columnas configuradas en el cliente es información transferida a la orden de venta?**
 
-5) **¿Cómo configuro un descuento para el cliente?**
+    Existen múltiples reglas que permiten predefinir valores en transacciones dependiendo de la configuración:
 
-    ADempiere le permite aplicar un Esquema de Descuentos(previamente configurado) al cliente, en este sentido, el usuario podrá definir reglas especificas aplicando % de descuentos planos o basado en volumen,si desea profundizar más el tema, le invitamos a ver nuestro instructivo de Esquema de Descuentos.
+        #. **Regla de facturación:** Define si la facturación después del pedido será después de la entrega, programada con el cliente o inmediatamente.
 
-6) **¿Cómo configuro la morosidad en ADempiere?**
+        #. **Regla de entrega:** Define si la entrega después del pedido será después del cobro, a disponibilidad del producto o forzado.
 
-7) **¿Cómo bloqueo el Limite de crédito para el cliente?**
+        #. **Descuentos:** Define esquemas de descuentos basados en volumen de ventas, promociones o % estáticos.
+
+        #. **Vendedor o Asesor de Ventas:** Define el agente que garantiza la satisfacción y el cumplimiento de las demandas del cliente.
+
+        #. **Regla de pago:** Define la metodología con la que generalmente el cliente cancela sus deudas.
+
+        #. **Programas de Pago:** Define esquemas de pagos y estructuras de cuotas para la cancelación de sus deudas.
+
+        #. **Lista de Precio:** Define lista de precio y moneda con la que generalmente el cliente cancela sus deudas
+
+    Entre muchos otros campos más que son predeterminados desde el socio de negocio, pasando por la orden de venta y la factura, ellos definen comportamientos en funcionalidades versátiles dentro de ADempiere.
+
+#. **¿Cómo configuro un descuento para el cliente?**
+
+    ADempiere le permite aplicar un Esquema de Descuentos(previamente configurado) al cliente, en este sentido, el usuario podrá definir reglas específicas aplicando % de descuentos planos o basado en volumen, si desea profundizar más el tema, le invitamos a ver nuestro instructivo de **Esquema de Descuentos**.
+
+#. **¿Cómo bloqueo el límite de crédito para el cliente?**
 
     Podrá configurar estados de crédito para definir el comportamiento del análisis del crédito en el Socio de Negocio, el mismo actúa junto al **Saldo Actual** y **Límite de Crédito** para realizar la evaluación, si desea profundizar más el tema, le invitamos a ver nuestro instructivo de Socio del Negocio.
 
-8) **¿Cómo configuro un cliente exento de impuesto?**
+#. **¿Cómo configuro un cliente exento de impuesto?**
 
 Para concluir el preámbulo, le invitamos a tomar en cuenta cada una de estas acotaciones, de seguro serán de utilidad, y a futuro le garantizará un eficiente manejo de una herramienta tan potente como lo es ADempiere.
 
 .. toctree::
     :maxdepth: 3
-    
+
     customer
