@@ -12,8 +12,8 @@
 .. |Opción Completar| image:: resources/opcion-completar-cierre-caja.png
 .. |Acción Completar y Opción OK| image:: resources/accion-completar-opcion-ok.png
 
-.. _documento/procedimiento-para-realizar-un-cierre-de-caja:
 .. _ERPyA: http://erpya.com
+.. _documento/procedimiento-para-realizar-un-cierre-de-caja:
 
 **Procedimiento para Realizar un Cierre de Caja en ADempiere**
 ==============================================================

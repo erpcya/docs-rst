@@ -1,5 +1,5 @@
-.. _src/adempiere/master:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/master:
 
 ==================
 **Datos Maestros**

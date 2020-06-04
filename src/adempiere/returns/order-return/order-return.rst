@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/menu1.png 
 .. |Icono Registro Nuevo| image:: resources/ventana1.png 
 .. |Campo Organización| image:: resources/org1.png 
@@ -45,7 +46,6 @@
 .. |Consultar Detalle de Transacciones| image:: resources/trans.png 
 
 .. _documento/devolución-cliente:
-.. _ERPyA: http://erpya.com
 
 **Autorización de Devolución (Cliente)**
 ========================================

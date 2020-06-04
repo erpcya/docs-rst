@@ -18,8 +18,8 @@
 .. |Pestaña Asignación| image:: resources/asignacion.png
 .. |Pestaña Asignaciones| image:: resources/asignacion2.png
 
-.. _documento/pago:
 .. _ERPyA: http://erpya.com
+.. _documento/pago:
 
 **Procedimiento para Realizar un Pago en ADempiere**
 ====================================================

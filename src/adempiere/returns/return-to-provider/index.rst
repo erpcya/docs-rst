@@ -1,5 +1,5 @@
-.. _src/adempiere/returns/returns-to-provider:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/returns/returns-to-provider:
 
 =======================================
 **Devolución a Proveedor en ADempiere**

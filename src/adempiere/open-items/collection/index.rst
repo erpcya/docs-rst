@@ -1,5 +1,5 @@
-.. _src/adempiere/open-items/collection:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/open-items/collection:
 
 =========
 **Cobro**

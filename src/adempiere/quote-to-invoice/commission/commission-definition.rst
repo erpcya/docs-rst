@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere 1| image:: resources/menu1.png
 .. |Icono Registro Nuevo 1| image:: resources/nuevo1.png
 .. |Campo Organización 1| image:: resources/org1.png 
@@ -23,7 +24,6 @@
 .. |Campo Socio del Negocio| image:: resources/socio1.png
 
 .. _documento/definicion-comisiones:
-.. _ERPyA: http://erpya.com
 
 **Definición de Comisiones**
 ============================

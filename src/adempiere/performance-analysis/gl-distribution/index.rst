@@ -1,5 +1,5 @@
-.. _src/adempiere/performance-analysis/gl-distribution:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/performance-analysis/gl-distribution:
 
 =========================
 **Distribución Contable**

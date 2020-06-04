@@ -1,5 +1,5 @@
-.. _src/adempiere/quote-to-invoice/invoice-customer:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/quote-to-invoice/invoice-customer:
 
 =========================
 **Documentos por Cobrar**

@@ -1,5 +1,5 @@
-.. _src/adempiere/performance-analysis/accounting-reports/financial-report:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/performance-analysis/accounting-reports/financial-report:
 
 ======================
 **Informe Financiero**

@@ -119,6 +119,7 @@
 .. |Campo Posición| image:: resources/posicion.png
 .. |Campo Acceso Total Socio del Negocio| image:: resources/acceso.png
 .. |Icono Guardar Cambios2| image:: resources/campos.png
+
 .. _ERPyA: http://erpya.com
 
 .. _documento/socio-cliente:

@@ -1,5 +1,5 @@
-.. _src/adempiere/requisition-to-invoice/material-receipt:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/requisition-to-invoice/material-receipt:
 
 ==========================
 **Recepción de Productos**

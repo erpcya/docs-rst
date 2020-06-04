@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere 1| image:: resources/menutransf.png
 .. |Ejemplo de Transferencia Bancaria| image:: resources/transferencia.png
 .. |Menú de ADempiere 2| image:: resources/menufactura.png
@@ -21,7 +22,6 @@
 .. |Reporte de Balance| image:: resources/reporte.png
 
 .. _documento/liquidación-anticipo-intermeiario:
-.. _ERPyA: http://erpya.com
 
 **Liquidación Anticipo Intermediario**
 ======================================

@@ -1,7 +1,7 @@
-.. _src/adempiere/performance-analysis/accounting-element:
 .. _ERPyA: http://erpya.com
 .. |Estructura de Cuentas| image:: resources/Structure-AccountStructure-Account.png
 
+.. _src/adempiere/performance-analysis/accounting-element:
 
 =====================
 **Elemento Contable**

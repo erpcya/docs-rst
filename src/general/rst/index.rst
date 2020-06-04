@@ -1,5 +1,5 @@
-.. _src/general/rst:
 .. _ERPyA: http://erpya.com
+.. _src/general/rst:
 
 ================================
 **Herramienta RestructuredText**

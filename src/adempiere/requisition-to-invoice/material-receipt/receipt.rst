@@ -1,5 +1,5 @@
-.. _documento/recepción-productos:
 .. _ERPyA: http://erpya.com
+.. _documento/recepción-productos:
 
 **Crear Recepción de Productos**
 --------------------------------

@@ -1,5 +1,5 @@
-.. _src/adempiere/master/business-partner:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/master/business-partner:
 
 ======================
 **Socios del Negocio**

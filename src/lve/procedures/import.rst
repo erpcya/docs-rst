@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere 1| image:: resources/menu1.png 
 .. |Orden de Compra sin Completar| image:: resources/orden1.png 
 .. |Menú de ADempiere 2| image:: resources/menu2.png 
@@ -36,7 +37,6 @@
 .. |Opción Completar 3| image:: resources/completar3.png
 
 .. _documento/importación:
-.. _ERPyA: http://erpya.com
 
 **Importación**
 ===============

@@ -1,5 +1,5 @@
-.. _src/adempiere/quote-to-invoice/generate-invoice-from-departure-order:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/quote-to-invoice/generate-invoice-from-departure-order:
 
 =========================================
 **Generar Factura desde Orden de Salida**

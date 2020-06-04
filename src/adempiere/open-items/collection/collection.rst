@@ -17,8 +17,8 @@
 .. |Pestaña Asignación| image:: resources/pest-asignacion.png
 .. |Pestaña Asignaciones| image:: resources/pest-asignaciones.png
 
-.. _documento/cobro:
 .. _ERPyA: http://erpya.com
+.. _documento/cobro:
 
 **Procedimiento para Realizar un Cobro en ADempiere**
 ====================================================
