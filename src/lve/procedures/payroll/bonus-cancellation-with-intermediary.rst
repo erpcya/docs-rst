@@ -1,6 +1,6 @@
 .. _documento/cancelación-bono-intermediario:
 
-**Cancelación de pasivo con Intermediarios**
+**Cancelación de Pasivo con Intermediarios**
 ===============================================================================
 
 **Creación de Nómina**
