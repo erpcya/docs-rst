@@ -19,8 +19,8 @@
 .. _ERPyA: http://erpya.com
 .. _documento/selección-de-pago:
 
-**Selección de Pago de Cuentas por Pagar**
-==========================================
+**Registro desde Selección de Pago**
+====================================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Selección de Pagos**".
 

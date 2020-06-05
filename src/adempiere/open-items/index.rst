@@ -11,7 +11,8 @@ es importante seguir al pie de la letra cada uno de los procedimientos descritos
     :maxdepth: 2
 
     bank-transfer/index
-    payment-selection-cxp/index
+    payment-selection/index
+    print-export/index
     payment/index
     collection/index
     cash-refund/index

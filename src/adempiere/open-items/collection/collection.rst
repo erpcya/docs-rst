@@ -20,8 +20,8 @@
 .. _ERPyA: http://erpya.com
 .. _documento/cobro:
 
-**Procedimiento para Realizar un Cobro en ADempiere**
-====================================================
+**Registro de Cobro**
+=====================
 
 Para ejemplificar el procedimiento de generar un cobro en ADempiere, es utilizada la factura por cobrar "**88**".
 

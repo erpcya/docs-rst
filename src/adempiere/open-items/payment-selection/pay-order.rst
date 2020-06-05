@@ -18,8 +18,8 @@
 .. _ERPyA: http://erpya.com
 .. _documento/orden-de-pago:
 
-**Orden de Pago**
-=================
+**Registro desde Factura**
+==========================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Selección de Pagos**".
 
