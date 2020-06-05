@@ -22,8 +22,8 @@
 .. |Acción Completar y Opción OK| image:: resources/completar-factura.png
 .. _documento/documento-por-cobrar:
 
-**Crear Documentos por Pagar**
-==============================
+**Registro de Documento por Cobrar**
+====================================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Documentos por Cobrar**".
 

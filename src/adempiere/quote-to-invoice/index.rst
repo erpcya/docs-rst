@@ -9,8 +9,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 .. toctree::
     :maxdepth: 2
 
-    commission/commission-definition
-    commission/commission-run
+    commission/index
     sales-order/index
     invoice-customer/index
-    generate-invoice-from-departure-order/index
+    generate-invoice-from-departure-order

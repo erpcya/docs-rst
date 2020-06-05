@@ -1,8 +1,8 @@
 .. _ERPyA: http://erpya.com
 .. _documento/orden-de-venta:
 
-**Crear Orden de Venta**
-========================
+**Registro de Orden de Venta**
+==============================
 
 #. Ubique y seleccione en el menú de ADempiere la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la ventana "**Órdenes de Venta**".
 
