@@ -1,9 +1,9 @@
 .. _ERPyA: http://erpya.com
 .. _master/business-partner/customer:
 
-============
+===========
 **Cliente**
-============
+===========
 
 Si es usted un usuario en etapa de iniciación le recomendamos leer el capítulo anterior, Socios del Negocio de ADempiere, donde respondimos la interrogante común: **¿Qué es un Socio de Negocio?**, esto con la intención de proveer en este material una información más digerible.
 
@@ -68,6 +68,6 @@ Ahora bien, si es usted usuario de ADempiere, seguramente se ha hecho preguntas 
 Para concluir el preámbulo, le invitamos a tomar en cuenta cada una de estas acotaciones, de seguro serán de utilidad, y a futuro le garantizará un eficiente manejo de una herramienta tan potente como lo es ADempiere.
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     customer

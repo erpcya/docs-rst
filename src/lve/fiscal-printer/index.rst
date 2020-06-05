@@ -16,7 +16,7 @@ Actualmente se tiene soporte para las marcas:
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     commons-errors-fiscal-printer
     manual-reports

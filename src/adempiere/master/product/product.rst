@@ -3,7 +3,7 @@
 .. _documento/producto:
 
 **Registro de Producto**
-------------------------------------
+========================
 
 #. En el menú de ADempiere, ubique y seleccione la carpeta "**Gestión de Materiales**", luego seleccione la carpeta "**Reglas de Gestión de Materiales**" y finalmente seleccione la ventana "**Producto**", adjunto imagen para referencia.
 
@@ -11,9 +11,6 @@
       :alt: Menú de ADempiere
 
       Imagen 1. Menú de ADempiere
-
-**Ventana Producto**
-~~~~~~~~~~~~~~~~~~~~
 
 En esta ventana se registran los datos principales que la empresa requiere conocer de los productos, con la finalidad de ser utilizada al momento de realizar alguna compra / venta con dicho producto. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
 

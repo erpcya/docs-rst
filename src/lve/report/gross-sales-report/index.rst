@@ -25,6 +25,6 @@ El tipo de documento base "**Factura de CxC**" tiene asociado a todos los tipos 
 A continuación, se explica el procedimiento para generar un reporte de ventas brutas en ADempiere.
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     gross-sales-report

@@ -12,6 +12,6 @@ El proceso para realizar una devolución a proveedor parte de una autorización 
 A continuación se especifican los pasos a seguir para generar en ADempiere una devolución de productos o materiales comprados al proveedor por una determinada empresa.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     return-to-provider

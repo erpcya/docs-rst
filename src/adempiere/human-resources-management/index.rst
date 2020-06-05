@@ -7,7 +7,7 @@
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     human-resources-management/index
     payroll/index

@@ -1,8 +1,8 @@
 .. _master/business-partner/vendor:
 
-===============================
-**Socio del Negocio Proveedor**
-===============================
+=============
+**Proveedor**
+=============
 
 Un socio del negocio proveedor es aquella persona u organización que provee de productos y servicios a otra que lo necesite para su consumo, los transforme para su venta o los compre para venderlos sin modificaciones.
 
@@ -13,6 +13,6 @@ Un proveedor interno puede ser un proveedor nacional, este puede presentarse baj
 De igual manera, un proveedor externo puede ser un proveedor internacional, este puede presentarse bajo dos (2) condiciones, proveedor cliente internacional de la organización o simplemente proveedor internacional. A continuación se define el proceso para la creación de socio del negocio proveedor en ADempiere.
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     partner-vendor

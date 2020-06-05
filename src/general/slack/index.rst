@@ -24,6 +24,6 @@ En el presente material elaborado por `ERPyA`_ se pretende explicar de manera ex
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     slack

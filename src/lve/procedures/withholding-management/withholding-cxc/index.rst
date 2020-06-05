@@ -14,6 +14,6 @@ El procedimiento para aplicar retenciones a las facturas de cuentas por cobrar c
 El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para obtener un resultado exitoso al momento de procesar las retenciones y posteriormente generar el documento de retención de cuentas por cobrar en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     withholding-cxc

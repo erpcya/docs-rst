@@ -39,7 +39,7 @@ Sin embargo, aun cuando existen factores relevantes al medir el flujo de efectiv
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     
     financial-report/index
     detailed-reports/index

@@ -15,7 +15,7 @@ Adicional a ello, ADempiere permite que sea generado un reporte de ARC más deta
 A continuación, se explica el procedimiento para generar un reporte de ARC en ADempiere.
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     arc-report
     detailed-arc-report

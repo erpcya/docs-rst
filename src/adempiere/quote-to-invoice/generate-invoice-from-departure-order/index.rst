@@ -12,6 +12,6 @@ El proceso "**Generar Facturas desde Orden de Salida**" cuenta con el checklist 
 En el caso de que el checklist no se encuentre tildado, el proceso "**Generar Facturas desde Orden de Salida**" es ejecutado de forma regular, generando tantas facturas como órdenes de venta tenga la orden de salida.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     generate-invoice-from-departure-order

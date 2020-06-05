@@ -9,7 +9,7 @@ Esta documentación está destinada a definir la gestión de devoluciones de ADe
 La versión 3.9.2 de ADempiere en la localización Venezuela, contempla la documentación de los siguientes maestros necesarios para generar de manera existosa las transacciones del mismo.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     order-return/index
     return-to-provider/index
