@@ -44,6 +44,14 @@ En ADempiere los códigos de las cuentas son conformados con números con la sig
 
     Imagen 1. Estructura de Cuentas Contables
 
+Para este ejemplo podríamos establecer la siguiente figura:
+
++------------+-----------------------+-------------+--------+-----------------+
+| Activos    | Activos Corrientes    | Disponibles | Banco  |Cuenta Bancaria  |
++============+=======================+=============+========+=================+
+| 1          | 1                     | 1           | 0001   | 0001            |
++------------+-----------------------+-------------+--------+-----------------+
+
 El elemento contable es necesario para la definición del esquema contable, que a su vez define el óptimo funcionamiento de ADempiere, esto es porque cada transacción administrativa generará un asiento contable y por ende son requeridas las cuentas contables.
 
 En esta oportunidad `ERPyA`_ ha diseñado para usted un material en el cual se define detalladamente esta ventana que frecuentemente será visitada por usted, que ha decidido incursionar en el uso de ADempiere ERP.

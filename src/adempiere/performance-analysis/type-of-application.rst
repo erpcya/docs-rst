@@ -12,12 +12,11 @@
 **Tipo de Aplicación**
 ======================
 
-Administrar la contabilidad de una empresa es una labor  a la vez, es una tarea costosa si no se cuenta con la herramienta adecuada, requiere un gran número de recursos, tanto humano, como habilidades que permita un eficiente manejo de técnicas en materia financiera, puesto que genera una gran demanda de la organización del contador a cargo.
+Administrar la contabilidad de una empresa es una labor costosa, que requiere un gran número de recursos en gestión humana y habilidades que permita un eficiente manejo de técnicas en materia financiera, puesto que genera una gran demanda en la organización del contador a cargo.
 
-Por esta razón, **ADempiere** ha desarrollado una estructura especialmente pensada para entidades contables y financieras, bajo la modalidad de manejo multi-contable. Para esto se implementa el tipo de aplicación que define el comportamiento contable de cada transacción agrupando por tipo de contabilidad cada una.
+Por esta razón, **ADempiere** ha desarrollado una estructura especialmente pensada para entidades contables y financieras, bajo la modalidad de manejo multi-contable. Para esto se implementa el tipo de aplicación que define el comportamiento contable de cada transacción agrupando por tipo de contabilidad.
 
-
-Cuando hablamos de tipo de aplicación en gestión contable, se refiere a la forma en la que los asientos contables son aplicado en balances, dicho de otro modo, esta figura define la categoria de la contabilidad, por ejemplo, contabilidad presupuestaria o contabilida de reservas, de esta manera se puede determinar si un asiento por ejemplo pertenece al presupuesto contable o a una reserva contable. Para entenderlo hemos querido plantear el siguiente ejemplo:
+Cuando hablamos de tipo de aplicación en gestión contable, se refiere a la forma en la que los asientos contables son aplicado en balances, dicho de otro modo, esta figura define la categoria de la contabilidad, por ejemplo, contabilidad presupuestaria o contabilida de reservas, de esta manera se puede determinar si un asiento por ejemplo pertenece al presupuesto contable o a una reserva contable, para explicarlo se plantea el siguiente ejemplo:
 
     Imaginemos una empresa, en la cual se realiza la planificación operativa anual, presupuestando los ingresos, los costos y gastos que se estiman obtener durante el ejercicio fiscal, el mismo genera los siguientes resultados:
 
@@ -27,11 +26,11 @@ Cuando hablamos de tipo de aplicación en gestión contable, se refiere a la for
     | 1000.000   | 800        | 1200      |
     +------------+------------+-----------+
 
-    Sin embargo, la empresa querrá conocer en que medida se acerca o se aleja del presupuesto, para ello se requerirá comparar la contabilidad real con la estimación realizada, esta contabilidad real es generada de forma predeterminada al ejecutar una factura de cuenta por pagar que sea justificada con un gasto o un costo, afectando la contabilida de gasto y costo respectivamente, o bien, al generar una factura de cuentas por cobrar, afectando la contabilida de ingresos.
+    Sin embargo, la empresa querrá conocer en que medida se acerca o se aleja del presupuesto los resultados obtenidos, para ello se requerirá comparar la contabilidad real con la estimación realizada, esta contabilidad real es generada de forma predeterminada al ejecutar una factura de cuenta por pagar que es justificada con un gasto o un costo, afectando la contabilida de gasto y costo respectivamente, o bien, al generar una factura de cuentas por cobrar, afectando la contabilida de ingresos.
 
-Con base en el ejemplo anterior, con la utilización del tipo de aplicación el contador podrá establecer porcentualmente cuanto es la proximidad a la estimación, puesto que ADempiere le permite generar informes financieros comparativo con la contabilidad actual y la contabilidad presupuestaria.
+Con base en el ejemplo anterior, con la utilización del tipo de aplicación el contador podrá establecer porcentualmente cuanto es la proximidad a la estimación, puesto que **ADempiere** le permite generar informes financieros comparativos con la contabilidad actual y la contabilidad presupuestaria.
 
-Los tipos de aplicación de los que ADempiere le permite disponer, son los siguientes:
+Los tipos de aplicación de los que **ADempiere** le permite disponer, son los siguientes:
 
     #. **Actual:** Se refiere a la contabilidad de gestión, su principal objetivo es medir resultados en tiempo real, y de esta forma se conoce el estado financiero actual de la empresa, esto garantiza la toma de decisiones acertivas.
 
@@ -61,7 +60,7 @@ Los tipos de aplicación de los que ADempiere le permite disponer, son los sigui
 
     .. note::
 
-    El tipo de aplicación **actual** es predeterminado en toda transacción realizada y reportes generados desde ADempiere.
+        El tipo de aplicación **actual** es predeterminado en toda transacción realizada y reportes generados desde ADempiere.
 
     #. **Compromisos:** Se refiere a compromisos mutuos que asume o genera la empresa, generalmente asociados a un contrato o un documento que avala el mismo, como una orden de venta (**adquiere un compromiso con el cliente**) u orden de compra (**genera un compromiso con el proveedor**).
 
