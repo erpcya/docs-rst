@@ -39,7 +39,7 @@
 .. _documento/devolucion-proveedor:
 
 **Autorización de Devolución a Proveedor**
-------------------------------------------
+==========================================
 
 Es el documento elaborado por la empresa luego de una evaluación de la condición de los productos o materiales comprados al proveedor, cuando estos no se encuentran en buenas condiciones o simplemente no cumplen con lo requerido, el mismo autoriza la devolución de uno, varios, o todos los productos o materiales comprados. 
 
@@ -178,7 +178,7 @@ A continuación se define el proceso para la creación de una autorización de d
     Imagen 18. Acción Completar
 
 **Devolución a Proveedor**
---------------------------
+==========================
 
 Es el documento que refleja la devolución de uno, varios, o todos los productos o materiales comprados a un proveedor determinado. A continuación se define el proceso para la creación de una devolución a proveedor en ADempiere.
 
@@ -287,7 +287,7 @@ Es el documento que refleja la devolución de uno, varios, o todos los productos
     El documento "**Nota de Crédito**" es generado en estado "**Borrador**", el número del mismo se puede visualizar en la parte inferior derecha de la ventana "**Devolución a Proveedor**".
 
 **Completar Nota de Crédito Generada**
---------------------------------------
+======================================
 
 #. Podrá visualizar el documento "**Nota de Crédito**" generado desde la ventana "**Devolución a Proveedor**", al buscar el mismo con número de documento "**1000080**".
 
@@ -314,7 +314,7 @@ Es el documento que refleja la devolución de uno, varios, o todos los productos
             Imagen 36. Acción Completar
 
 **Consultar Saldos Abiertos**
------------------------------
+=============================
 
 #. Al consultar saldos abiertos se verifica que la nota de crédito haya sido aplicada a la factura, generando un descuento al saldo abierto de la factura de cuentas por pagar de la siguiente manera.
 
@@ -323,7 +323,7 @@ Es el documento que refleja la devolución de uno, varios, o todos los productos
     Imagen 37. Saldos Abiertos a la Fecha
 
 **Consultar Detalle de Transacciones**
---------------------------------------
+======================================
 
 #. Al consultar los detalles de transacciones se verifican los movimientos de entrada de productos por medio de una recepción, generando con ello un aumento al total de productos. De igual manera es reflejada la salida de productos por medio de una devolución a proveedor, generando con ello un descuento al total de productos en existencia.
 
