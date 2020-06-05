@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. _src/adempiere/open-items:
 
 ================================
@@ -5,7 +6,7 @@
 ================================
 
 Esta documentación está destinada a definir cada uno de los procedimientos para la gestión de los saldos pendientes de ADempiere para cualquier organización,
-es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
+es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del `ERPyA`_.
 
 .. toctree::
     :maxdepth: 2
