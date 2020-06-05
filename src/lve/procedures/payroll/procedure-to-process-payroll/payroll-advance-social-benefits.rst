@@ -36,12 +36,12 @@ Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos re
 
     .. warning::
 
-        Está nómina  por ser una nómina especial no debe registrarse con período
+        Esta nómina  por ser una nómina especial no debe registrarse con período
 
 
 #. Incidencias:
 
-          Para está nómina es obligatorio registrar la incidencia llamada "**Anticipo de Prestaciones Sociales**" para conocer el monto de anticipo otorgado a cada empleado, cabe destacar que esta incidencia debe registrarse al socio de negocio empleado al cual se le procesará la nómina de anticipo de prestaciones sociales
+          Para esta nómina es obligatorio registrar la incidencia llamada "**Anticipo de Prestaciones Sociales**" para conocer el monto de anticipo otorgado a cada empleado, cabe destacar que esta incidencia debe registrarse al socio de negocio empleado al cual se le procesará la nómina de anticipo de prestaciones sociales
 
 
       +-------------------------------------------------------+----------------------+----------------+
@@ -55,7 +55,7 @@ Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos re
 
     |Incidencia Nómina Anticipo de Prestaciones Sociales|
 
-    Imagen 2. Incidencia Nómina Anticipo de Préstaciones Sociales
+    Imagen 2. Incidencia Nómina Anticipo de Prestaciones Sociales
 
 
 #. Resultados:
@@ -75,7 +75,7 @@ Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos re
 
         |Recibo de Pago Nómina Anticipo Prestaciones Sociales|
 
-        Imagen 2. Recibo de Pago Nómina Anticipo Prestaciones Sociales
+        Imagen 3. Recibo de Pago Nómina Anticipo Prestaciones Sociales
 
 
         - “**Detalle de Pago**”
@@ -90,7 +90,7 @@ Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos re
 
         |Detalle de Pago Nómina Anticipo Prestaciones Sociales|
 
-        Imagen 3. Detalle de Pago Nómina Anticipo Prestaciones Sociales
+        Imagen 4. Detalle de Pago Nómina Anticipo Prestaciones Sociales
 
 
         - “**Resumen de Pago**”
@@ -106,4 +106,4 @@ Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos re
 
         |Resumen de Pago Nómina Anticipo Prestaciones Sociales|
 
-        Imagen 4. Resumen de Pago Nómina Anticipo Prestaciones Sociales
+        Imagen 5. Resumen de Pago Nómina Anticipo Prestaciones Sociales
