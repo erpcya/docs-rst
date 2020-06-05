@@ -2,7 +2,7 @@
 .. _ERPyA: http://erpya.com
 .. _documento/producto:
 
-**Proceso de Registro del Producto**
+**Registro de Producto**
 ------------------------------------
 
 #. En el menú de ADempiere, ubique y seleccione la carpeta "**Gestión de Materiales**", luego seleccione la carpeta "**Reglas de Gestión de Materiales**" y finalmente seleccione la ventana "**Producto**", adjunto imagen para referencia.
@@ -32,8 +32,8 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
          Imagen 3. Campo Organización
 
       .. warning::
-      
-         Para que el producto este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el producto solo estará disponible para una sola organización. 
+
+         Para que el producto este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el producto solo estará disponible para una sola organización.
 
    #. Introduzca en el campo "**Código**", el código para el producto que esta registrando, este código es definido por un estándar de códificación establecido en `ERPyA`_ para `Codificar los Productos`_.
 
@@ -398,7 +398,7 @@ En esta ventana se registran los precios y reglas de compras por socios del nego
          Imagen 54. Campo Fecha de Efectividad del Precio
 
    #. Introduzca en el campo "**Precio OC**", el precio unitario del producto para una orden de compra.
-      
+
       .. figure:: resources/precioc.png
          :alt: Campo Precio OC
 
@@ -504,4 +504,3 @@ En esta ventana se registran las conversiones de las diferentes unidades de medi
       :alt: Icono Guardar Cambios
 
       Imagen 68. Icono Guardar Cambios
-

@@ -2,7 +2,7 @@
 .. _master/business-partner/customer:
 
 ============
-**Clientes**
+**Cliente**
 ============
 
 Si es usted un usuario en etapa de iniciación le recomendamos leer el capítulo anterior, Socios del Negocio de ADempiere, donde respondimos la interrogante común: **¿Qué es un Socio de Negocio?**, esto con la intención de proveer en este material una información más digerible.
