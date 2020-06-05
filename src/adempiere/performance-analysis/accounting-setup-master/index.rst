@@ -13,6 +13,6 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
     charge
     product
     business-partner-customer
-    business-partner-provider
+    business-partner-vendor
     business-partner-employee
     payroll-concept-catalog

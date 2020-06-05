@@ -14,8 +14,8 @@
 .. |Icono Guardar Cambios de la Pestaña Contabilidad de Concepto| image:: resources/save-icon-changes-tab-concept-accounting.png
 .. _documento/configuración-contable-del-catálogo-de-conceptos:
 
-**Configuración Contable del Catálogo de Conceptos**
-====================================================
+**Catálogo de Conceptos**
+=========================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Recursos Humanos y Nómina**", luego seleccione la carpeta "**Nómina**", por último seleccione la ventana "**Catálogo de Conceptos**".
 

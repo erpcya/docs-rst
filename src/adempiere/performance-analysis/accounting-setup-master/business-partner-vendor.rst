@@ -11,8 +11,8 @@
 .. |Combinación Contable del Campo Anticipo del Proveedor| image:: resources/accounting-combination-of-vendor-advance-field-from-vendor-accounting-tab-of-business-partner-window.png
 .. _documento/configuración-contable-socio-del-negocio-proveedor:
 
-**Configuración Contable del Socio del Negocio Proveedor**
-==========================================================
+**Proveedor**
+=============
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Relación con Socios del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**", por último seleccione la ventana "**Socio del Negocio**".
 

@@ -27,12 +27,13 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/material-management/index
     adempiere/quote-to-invoice/index
     adempiere/requisition-to-invoice/index
-    adempiere/open-items/index
     adempiere/returns/index
+    adempiere/open-items/index
     adempiere/loan-management/index
+    adempiere/human-resources-management/index
     adempiere/asset-management/index
     adempiere/performance-analysis/index
-    adempiere/human-resources-management/index
+
 
 .. toctree::
     :caption: LOCALIZACIÓN VENEZUELA
