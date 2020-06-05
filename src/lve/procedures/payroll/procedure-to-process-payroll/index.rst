@@ -22,4 +22,4 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
     profit-payroll
     payroll-advance-social-benefits
     payroll-social-benefits
-    vacation-payroll
+    payroll-liquidation
