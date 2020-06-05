@@ -16,12 +16,14 @@ Asimismo, ofrece opciones con las cuales la empresa puede acceder a datos estad�
 El propósito de `ERPyA`_ es apoyar a nuestros clientes, dar respuestas rápidas y eficientes a sus problemas con el manejo de información para permitir la toma de decisiones y minimizar los costes.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     type-of-application
+    accounting-element/index
+    accounting-dimensions
     accounting-combination
     accounting-setup-master/index
     costing/index
     gl-journal-batch/index
     accounting-reports/index
-    accounting-element/index
+

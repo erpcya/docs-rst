@@ -10,8 +10,8 @@
 
 .. _documento/configuración-contable-cargo:
 
-**Configuración Contable del Cargo**
-====================================
+**Cargo**
+=========
 
 #. Ubique en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Reglas Contables**", por último seleccione la ventana "**Cargo**".
 

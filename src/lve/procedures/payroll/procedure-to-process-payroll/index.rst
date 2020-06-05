@@ -10,4 +10,16 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 .. toctree::
     :maxdepth: 2
 
-    procedure-to-process-payroll
+    weekly-payroll
+    biweekly-payroll
+    monthly-payroll
+    mixed-weekly-payroll
+    mixed-biweekly-payroll
+    mixed-monthly-payroll
+    payroll-food-voucher
+    vacation-payroll
+    payroll-special-payments
+    profit-payroll
+    payroll-advance-social-benefits
+    payroll-social-benefits
+    vacation-payroll

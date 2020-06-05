@@ -16,7 +16,7 @@ Para esto generalmente se requieren soluciones de edición y de presentación pe
 Es por ello que `ERPyA`_ ha diseñado para usted una gama de instructivos en los que detallaremos la utilidad y los resultados de esta funcionalidad.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     generate-financial-report
     checking-balance
