@@ -6,8 +6,6 @@
 .. |Campo Esquema Contable de la Pestaña Contabilidad de Concepto| image:: resources/accounting-schema-field-from-the-concept-accounting-tab.png
 .. |Campo Nómina de la Pestaña Contabilidad de Concepto| image:: resources/payroll-field-of-the-concept-accounting-tab.png
 .. |Campo Grupo de Socio del Negocio de la Pestaña Contabilidad de Concepto| image:: resources/business-group-field-of-concept-accounting-tab.png
-
-
 .. |Campo Cuenta Gastos Nómina de la Pestaña Contabilidad de Concepto| image:: resources/field-account-payroll-expenses-tab-concept-accounting.png
 .. |Combinación Contable del Campo Cuenta Gastos Nómina de la Pestaña Contabilidad de Concepto| image:: resources/accounting-combination-of-payroll-expense-account-field-from-concept-accounting-tab.png
 .. |Campo Cuenta Ingresos Nómina de la Pestaña Contabilidad de Concepto| image:: resources/field-account-payroll-income-tab-concept-accounting.png
