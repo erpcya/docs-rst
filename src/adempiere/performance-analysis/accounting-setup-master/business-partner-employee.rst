@@ -10,8 +10,8 @@
 
 .. _documento/configuración-contable-socio-del-negocio-empleado:
 
-**Configuración Contable del Socio del Negocio Empleado**
-=========================================================
+**Empleado**
+============
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Relación con Socios del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**", por último seleccione la ventana "**Socio del Negocio**".
 

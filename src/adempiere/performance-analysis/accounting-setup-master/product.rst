@@ -32,8 +32,8 @@
 
 .. _documento/configuración-contable-producto:
 
-**Configuración Contable del Producto**
-=======================================
+**Producto**
+============
 
 #. Ubique en el menú de ADempiere, la carpeta "**Gestión de Materiales**", luego seleccione la carpeta "**Reglas de Gestión de Materiales**", por último seleccione la ventana "**Producto**".
 
