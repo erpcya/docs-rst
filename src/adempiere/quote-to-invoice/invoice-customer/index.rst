@@ -1,9 +1,9 @@
 .. _ERPyA: http://erpya.com
 .. _src/adempiere/quote-to-invoice/invoice-customer:
 
-=========================
-**Documentos por Cobrar**
-=========================
+========================
+**Documento por Cobrar**
+========================
 
 Una factura en cuentas por cobrar, es el documento legal que representa una deuda contraída por un cliente determinado con la compañía u organización, por la compra de productos y servicios que el mismo necesita de forma directa o indirecta.
 

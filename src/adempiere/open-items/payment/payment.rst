@@ -21,8 +21,8 @@
 .. _ERPyA: http://erpya.com
 .. _documento/pago:
 
-**Procedimiento para Realizar un Pago en ADempiere**
-====================================================
+**Registro de Pago**
+====================
 
 Para ejemplificar el procedimiento de generar un pago en ADempiere, es utilizada la factura por pagar "**1000099**".
 

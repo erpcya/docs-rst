@@ -11,8 +11,8 @@
 
 .. _documento/Imprimir-Exportar:
 
-**Imprimir / Exportar Pagos**
-=============================
+**Registro de Imprimir / Exportar Pagos**
+=========================================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione ventana "**Imprimir / Exportar Pagos**".
 

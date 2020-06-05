@@ -16,8 +16,8 @@
 
 .. _documento/crear-orden-compra-desde-requisición:
 
-**Procedimiento para Crear Orden de Compra desde Requisición**
-==============================================================
+**Registro de Orden de Compra desde Requisición**
+=================================================
 
 #. Para ejemplificar el registro de crear orden de compra desde requisición, es utilizado el documento de requisición "**RCN-1000004**".
 
