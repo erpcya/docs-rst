@@ -19,9 +19,11 @@ El propósito de `ERPyA`_ es apoyar a nuestros clientes, dar respuestas rápidas
     :maxdepth: 2
 
     type-of-application
+    accounting-element/index
+    accounting-dimensions
     accounting-combination
     accounting-setup-master/index
     costing/index
     gl-journal-batch/index
     accounting-reports/index
-    accounting-element/index
+
