@@ -11,6 +11,6 @@ La selección de los campos queda a criterio del usuario, según la necesidad o 
 A continuación, se explica el procedimiento para generar un reporte de ARCV en ADempiere.
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     arcv-report

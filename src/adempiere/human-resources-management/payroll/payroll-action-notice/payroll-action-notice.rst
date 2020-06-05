@@ -11,9 +11,9 @@
 
 .. _documento/novedades-de-nómina:
 
-======================
-**Cargar Incidencias**
-======================
+===========================
+**Registro de Incidencias**
+===========================
 
 #. Seleccione en el menú de ADempiere, la carpeta "**Gestión de Recursos Humanos y Nómina**", luego seleccione la carpeta "**Nómina**", por último seleccione la ventana "**Novedades de Nómina**".
 

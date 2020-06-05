@@ -17,9 +17,9 @@
 
 .. _documento/procedimiento-para-procesar-nómina:
 
-==================
-**Proceso Nómina**
-==================
+======================
+**Registro de Nómina**
+======================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Recursos Humanos y Nómina**", luego seleccione la carpeta "**Nómina**", por último seleccione la ventana "**Proceso Nómina**".
 

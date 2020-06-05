@@ -10,7 +10,7 @@
 En esta oportunidad queremos ofrecer a los lectores una amplia gama de documentos estructurados, en los cuales se explicarán de forma eficiente y detallada cada contribución que implique un cambio propio de Venezuela, adicional a ello interpretación de configuraciones locales utilizados para facilitar y hacer eficiente nuestras implementaciones.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     fiscal-printer/index
     procedures/index

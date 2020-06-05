@@ -32,6 +32,6 @@ Así mismo existen casos en los que los proveedores son exonerados de la retenci
 El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para configurar y obtener un resultado exitoso al momento de generar la estimación de retenciones y posteriormente el documento de retención de ISLR en la versión 3.9.2 de ADempiere en la localización Venezuela.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     
     withholding-islr

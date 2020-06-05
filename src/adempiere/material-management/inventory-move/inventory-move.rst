@@ -21,8 +21,8 @@
 
 .. _documento/movimiento-inventario:
 
-**Procedimiento para Realizar un Movimiento de Inventario en ADempiere**
-========================================================================
+**Registro de Movimiento de Inventario**
+========================================
 
 Para ejemplificar el procedimiento es generado el reporte "**Detalle de Almacenamiento**" del producto "**Bolígrafo**" en el almacén "**Insumos de Oficina**", el mismo es visualizado de la siguiente manera antes del movimiento de inventario.
 

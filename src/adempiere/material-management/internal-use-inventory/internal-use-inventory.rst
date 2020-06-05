@@ -20,8 +20,8 @@
 
 .. _documento/inventario-uso-interno:
 
-**Procedimiento para Realizar un Inventario de Uso Interno en ADempiere**
-=========================================================================
+**Registo de Inventario de Uso Interno**
+========================================
 
 Para ejemplificar el inventario de uso interno, es generado el reporte "**Detalle de Almacenamiento**" del producto "**Bolígrafo**" en el almacén "**Insumos de Oficina**", el mismo es visualizado de la siguiente manera.
 
