@@ -17,15 +17,9 @@ Por esta razón, **ADempiere** ha desarrollado una estructura especialmente pens
 
 Cuando hablamos de tipo de aplicación en gestión contable, se refiere a la forma en la que los asientos contables son aplicado en balances, dicho de otro modo, esta figura define la categoría de la contabilidad, por ejemplo, contabilidad presupuestaria o contabilidad de reservas, de esta manera se puede determinar si un asiento por ejemplo pertenece al presupuesto contable o a una reserva contable, para explicarlo se plantea el siguiente ejemplo:
 
-    Imaginemos una empresa, en la cual se realiza la planificación operativa anual, presupuestado los ingresos, los costos y gastos que se estiman obtener durante el ejercicio fiscal, el mismo genera los siguientes resultados:
+    Imaginemos una empresa, en la cual se realiza la planificación operativa anual, presupuestado los ingresos, los costos y gastos que se estiman obtener durante el ejercicio fiscal.
 
-    +------------+------------+-----------+
-    | Ingresos   | Costos     | Gastos    |
-    +============+============+===========+
-    | 1000.000   | 800        | 1200      |
-    +------------+------------+-----------+
-
-    Sin embargo, la empresa querrá conocer en qué medida se acerca o se aleja del presupuesto los resultados obtenidos, para ello se requerirá comparar la contabilidad real con la estimación realizada, esta contabilidad real es generada de forma predeterminada al ejecutar una factura de cuenta por pagar que es justificada con un gasto o un costo, afectando la contabilidad de gasto y costo respectivamente, o bien, al generar una factura de cuentas por cobrar, afectando la contabilidad de ingresos.
+    La empresa querrá conocer en qué medida se acerca o se aleja del presupuesto los resultados obtenidos, para ello se requerirá comparar la contabilidad real con la estimación realizada, esta contabilidad real es generada de forma predeterminada al ejecutar una factura de cuenta por pagar que es justificada con un gasto o un costo, afectando la contabilidad de gasto y costo respectivamente, o bien, al generar una factura de cuentas por cobrar, afectando la contabilidad de ingresos.
 
     Con base en el ejemplo anterior, con la utilización del tipo de aplicación el contador podrá establecer porcentualmente cuanto es la proximidad a la estimación, puesto que **ADempiere** le permite generar informes financieros comparativos con la contabilidad actual y la contabilidad presupuestaria.
 
@@ -36,19 +30,33 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
     Este tipo de aplicación se base en la exposición del desempeño desde los registros transaccionales que causan los hechos contables de la empresa, como lo es:
 
         #. Documento por Pagar
+
         #. Documento por Cobrar
+
         #. Pagos
+
         #. Cobros
+
         #. Entregas
+
         #. Recibos
+
         #. Conciliaciones Bancarias
+
         #. Nóminas
+
         #. Inventarios Físicos
+
         #. Movimientos Contables
+
         #. Producción
+
         #. Inventario de Uso Interno
+
         #. Asignaciones de Pagos
+
         #. Asignaciones de Inventario
+
         #. Notas Contables
 
     El resultado con este tipo de aplicación sería el siguiente asiento:
@@ -66,6 +74,7 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
     De esta manera al generar un documento que compromete el inventario por precios convenidos, se refleja en balance los activos o pasivos derivados de los registros transaccionales, como lo es:
 
         #. Orden de Compra
+
         #. Orden de Venta
 
     El resultado con este tipo de aplicación sería el siguiente asiento:
@@ -98,9 +107,9 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
     El resultado con este tipo de aplicación sería el siguiente asiento:
 
-    |Información Contable Presupuesto|
+      |Información Contable Presupuesto|
 
-    Imagen 4. Información Contable Presupuesto
+      Imagen 4. Información Contable Presupuesto
 
     #. **Reserva:** Se refiere a reservas realizadas previendo contingencias en contabilidad, este tipo de pasivos es una posible obligación, es considerada un provisión que tiene fundamentos en experiencias pasadas.
 
@@ -116,4 +125,4 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
     Imagen 5. Información Contable Reserva
 
-Esta funcionalidad complementa a **ADempiere** permitiendo a la directiva de la empresa establecer un visión versátil de la empresa, emitiendo resultados con múltiples escenarios, si quieres conocer más de :ref:`documento/Gestión Contable` en nuestra plataforma de aprendizaje.
+Esta funcionalidad complementa a **ADempiere**, permitiendo a la directiva de la empresa establecer una visión versátil, emitiendo resultados con múltiples escenarios, si quieres conocer más de :ref:`documento/Gestión Contable`, visita nuestra plataforma de aprendizaje.
