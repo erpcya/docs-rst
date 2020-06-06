@@ -29,35 +29,35 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
     Este tipo de aplicación se base en la exposición del desempeño desde los registros transaccionales que causan los hechos contables de la empresa, como lo es:
 
-        #. Documento por Pagar
+        #. **Documento por Pagar**
 
-        #. Documento por Cobrar
+        #. **Documento por Cobrar**
 
-        #. Pagos
+        #. **Pagos**
 
-        #. Cobros
+        #. **Cobros**
 
-        #. Entregas
+        #. **Entregas**
 
-        #. Recibos
+        #. **Recibos**
 
-        #. Conciliaciones Bancarias
+        #. **Conciliaciones Bancarias**
 
-        #. Nóminas
+        #. **Nóminas**
 
-        #. Inventarios Físicos
+        #. **Inventarios Físicos**
 
-        #. Movimientos Contables
+        #. **Movimientos Contables**
 
-        #. Producción
+        #. **Producción**
 
-        #. Inventario de Uso Interno
+        #. **Inventario de Uso Interno**
 
-        #. Asignaciones de Pagos
+        #. **Asignaciones de Pagos**
 
-        #. Asignaciones de Inventario
+        #. **Asignaciones de Inventario**
 
-        #. Notas Contables
+        #. **Notas Contables**
 
     El resultado con este tipo de aplicación sería el siguiente asiento:
 
@@ -69,13 +69,13 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
         El tipo de aplicación **actual** es predeterminado en toda transacción realizada y reportes generados desde **ADempiere**.
 
-    #. **Compromisos:** Se refiere a compromisos mutuos que asume o genera la empresa, generalmente asociados a un contrato o un documento que avala el mismo, como una orden de venta (**adquiere un compromiso con el cliente**) u orden de compra (**genera un compromiso con el proveedor**).
+    #. **Compromiso:** Se refiere a compromisos mutuos que asume o genera la empresa, generalmente asociados a un contrato o un documento que avala el mismo, como una orden de venta (**adquiere un compromiso con el cliente**) u orden de compra (**genera un compromiso con el proveedor**).
 
     De esta manera al generar un documento que compromete el inventario por precios convenidos, se refleja en balance los activos o pasivos derivados de los registros transaccionales, como lo es:
 
-        #. Orden de Compra
+        #. **Orden de Compra**
 
-        #. Orden de Venta
+        #. **Orden de Venta**
 
     El resultado con este tipo de aplicación sería el siguiente asiento:
 
@@ -89,7 +89,7 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
     Este tipo de aplicación no compromete cuentas reales, ni cuentas nominales, genera hechos contables referenciales derivados de los registros transaccionales, como lo es:
 
-        #. Nota Contable
+        #. **Nota Contable**
 
     El resultado con este tipo de aplicación sería el siguiente asiento:
 
@@ -103,7 +103,7 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
     Este tipo de aplicación no compromete cuentas reales, ni cuentas nominales, genera hechos contables referenciales derivados de los registros transaccionales, como lo es:
 
-        #. Nota Contable
+        #. **Nota Contable**
 
     El resultado con este tipo de aplicación sería el siguiente asiento:
 
@@ -117,7 +117,7 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
     Estos pasivos son generados como una provisión, generando un hecho contable que estima una compra derivado de registros transaccionales, como lo es:
 
-        #. Requisión a Compra
+        #. **Requisión a Compra**
 
     El resultado con este tipo de aplicación sería el siguiente asiento:
 

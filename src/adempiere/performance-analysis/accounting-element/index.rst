@@ -46,11 +46,11 @@ En ADempiere los códigos de las cuentas son conformados con números con la sig
 
 Para este ejemplo podríamos establecer la siguiente figura:
 
-+------------+-----------------------+-------------+--------+-----------------+
-| Activos    | Activos Corrientes    | Disponibles | Banco  |Cuenta Bancaria  |
-+============+=======================+=============+========+=================+
-| 1          | 1                     | 1           | 0001   | 0001            |
-+------------+-----------------------+-------------+--------+-----------------+
++------------+---------------------+-------------+--------+-----------------+
+| Activos    |Corrientes  | Disponibles | Banco  |Cuenta Bancaria  |
++============+============+=============+========+=================+
+| 1          | 1          | 1           | 0001   | 0001            |
++------------+------------+-------------+--------+-----------------+
 
 El elemento contable es necesario para la definición del esquema contable, que a su vez define el óptimo funcionamiento de ADempiere, esto es porque cada transacción administrativa generará un asiento contable y por ende son requeridas las cuentas contables.
 
