@@ -1,8 +1,8 @@
-<<<<<<< HEAD
+.. _ERPyA: http://erpya.com
 .. _documento/orden-de-compra:
 
-**Orden de Compra**
---------------------------
+**Registro de Orden de Compra Directa**
+=======================================
 
 Una Orden de Compra en ADempiere, es un tipo de documento emitido por la empresa para realizar pedidos a sus diferentes proveedores. En ella se detalla: la cantidad a comprar, el tipo de producto, precio y condiciones de pago, así como también la forma de entrega.
 Para el registro de un documento en ADempiere debe tener en cuenta que existen campos que son de carácter obligatorio, estos campos están identificados con el carácter especial:(*) de color rojo.
@@ -11,15 +11,6 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 .. warning::
 
 	Asegúrese  de que cada campo que se encuentre identificado como carácter obligatorio, contenga la información requerida, de lo contrario no podrá completar el registro.
-
-
-=======
-.. _ERPyA: http://erpya.com
-.. _documento/orden-de-compra:
->>>>>>> master
-
-**Registro de Orden de Compra Directa**
-=======================================
 
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Órdenes de Compra**", adjunto imagen para referencia.
@@ -88,7 +79,7 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 
 	 				  Imagen 6. Campo Descripción
 
-		#. Seleccione el tipo de documento a generar, en el campo "**Tipo de Documento Destino**", la selección de éste define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra definido en el documento: :ref:`documento/tipo-documento elaborado por `ERPyA`_
+		#. Seleccione el tipo de documento a generar, en el campo "**Tipo de Documento Destino**", la selección de éste define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra definido en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_
 
 				.. documento/orden-de-compra-07
 
@@ -237,7 +228,7 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 
 		 					.. documento/orden-de-compra-21
 
-							.. figure:: resources/Terminodepago.png
+							.. figure:: resources/terminodepago.png
 								 :align: center
 								 :alt: Campo Término de pago
 
