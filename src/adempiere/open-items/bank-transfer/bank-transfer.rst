@@ -18,6 +18,7 @@
 
 .. _documento/procedimiento-para-realizar-una-transferencia-bancaria:
 
+
 **Registro de Transferencia Bancaria**
 ======================================
 

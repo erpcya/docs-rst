@@ -75,7 +75,7 @@
 
         El código es un dato único e irrepetible que protege la entrada de los registros, evitando la duplicidad de los mismos, generalmente se refiere al número de identificación que acredite la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF.
 
-        .. note:
+        .. note::
 
             Si no es ingresado un dato en este campo ADempiere genera un dato de tipo numérico autoincrementable.
 

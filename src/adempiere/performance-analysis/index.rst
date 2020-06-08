@@ -1,5 +1,6 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/performance-analysis:
+.. _src/adempiere/performance-analysis
+.. _documento/Gestión Contable:
 
 ====================
 **Gestión Contable**
@@ -26,4 +27,3 @@ El propósito de `ERPyA`_ es apoyar a nuestros clientes, dar respuestas rápidas
     costing/index
     gl-journal-batch/index
     accounting-reports/index
-
