@@ -58,9 +58,6 @@
 
       Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja. De igual manera, es creado un cobro en caja y un pago en pago/cobro. Adicional a ello, el monto de la caja reembolso queda en cero (0).
 
-**Cierre de Caja**
-------------------
-
 #. Realice el procedimiento regular para generar un cierre de caja, explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_, seleccionando en el campo "**Tipo de Documento**" la opción "**Cierre de Caja Reembolso**".
 
    |Cierre de Caja Final|
