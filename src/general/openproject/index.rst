@@ -1,5 +1,5 @@
-.. _general/openproject:
 .. _ERPyA: http://erpya.com
+.. _general/openproject:
 
 ================
 **Open Project**

@@ -1,8 +1,8 @@
-.. _documento/recepción-productos:
 .. _ERPyA: http://erpya.com
+.. _documento/recepción-productos:
 
-**Crear Recepción de Productos**
---------------------------------
+**Registro de Recepción de Productos**
+======================================
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Recepción de Productos**", adjunto imagen para referencia.
 

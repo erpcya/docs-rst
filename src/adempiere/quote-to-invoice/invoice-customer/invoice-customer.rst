@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/documento-por-cobrar.png
 .. |Ventana Documento por Cobrar| image:: resources/vent-documento-por-cobrar.png
 .. |Icono Registro Nuevo| image:: resources/icono-registro-nuevo.png
@@ -19,12 +20,10 @@
 .. |Campo Neto de Línea| image:: resources/campo-neto-linea.png
 .. |Pestaña Factura| image:: resources/pest-factura.png
 .. |Acción Completar y Opción OK| image:: resources/completar-factura.png
-
 .. _documento/documento-por-cobrar:
-.. _ERPyA: http://erpya.com
 
-**Crear Documentos por Pagar**
-==============================
+**Registro de Documento por Cobrar**
+====================================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Documentos por Cobrar**".
 

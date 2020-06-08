@@ -1,5 +1,6 @@
-.. _src/adempiere/open-items/cash-closing:
 .. _ERPyA: http://erpya.com
+
+.. _src/adempiere/open-items/cash-closing:
 
 ==================
 **Cierre de Caja**

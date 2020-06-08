@@ -1,5 +1,6 @@
-.. |Ventana Resumen de Facturas 1| image:: resources/vent1.png
 .. _ERPyA: http://erpya.com
+.. |Ventana Resumen de Facturas 1| image:: resources/vent1.png
+.. _src/lve/report/gross-sales-report:
 
 ======================================================================================
 **Generar Reporte de Ventas Brutas desde el Proceso Resumen de Facturas de ADempiere**
@@ -24,6 +25,6 @@ El tipo de documento base "**Factura de CxC**" tiene asociado a todos los tipos 
 A continuación, se explica el procedimiento para generar un reporte de ventas brutas en ADempiere.
 
 .. toctree::
-    :maxdepth: 3
+    :maxdepth: 2
 
     gross-sales-report

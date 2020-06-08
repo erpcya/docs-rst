@@ -43,8 +43,9 @@
 .. |Seleccionar Cobros y Opción OK 3| image:: resources/selec-ok3.png
 .. |Opción Completar 2| image:: resources/completar3.png
 
-.. _documento/caja-cobranza:
+
 .. _ERPyA: http://erpya.com
+.. _documento/caja-cobranza:
 
 **Caja**
 --------

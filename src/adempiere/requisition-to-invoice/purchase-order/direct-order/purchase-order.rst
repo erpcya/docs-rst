@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .. _documento/orden-de-compra:
 
 **Orden de Compra**
@@ -12,9 +13,13 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 	Asegúrese  de que cada campo que se encuentre identificado como carácter obligatorio, contenga la información requerida, de lo contrario no podrá completar el registro.
 
 
+=======
+.. _ERPyA: http://erpya.com
+.. _documento/orden-de-compra:
+>>>>>>> master
 
-**Crear Orden de Compra**
---------------------------
+**Registro de Orden de Compra Directa**
+=======================================
 
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Órdenes de Compra**", adjunto imagen para referencia.

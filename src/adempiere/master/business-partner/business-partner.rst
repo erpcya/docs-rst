@@ -39,9 +39,9 @@
 
 .. _documento/socio-negocio:
 
-=====================
-**Socio del Negocio**
-=====================
+=================================
+**Registro de Socio del Negocio**
+=================================
 
 #. En el menú de ADempiere, ubique y seleccione la carpeta "**Relación con Socio del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**" y finalmente seleccione la ventana "**Socio del Negocio**".
 
@@ -75,7 +75,7 @@
 
         El código es un dato único e irrepetible que protege la entrada de los registros, evitando la duplicidad de los mismos, generalmente se refiere al número de identificación que acredite la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF.
 
-        .. note:
+        .. note::
 
             Si no es ingresado un dato en este campo ADempiere genera un dato de tipo numérico autoincrementable.
 
@@ -310,7 +310,7 @@
         Para ejecutar este proceso debe tomar en cuenta los siguientes parámetros:
 
         #. **Organización Existente:** Seleccione una organización existente, si el campo queda vacío, se creará una organización con el nombre del socio de negocio de forma automática.
-        
+
         #. **Tipo de Organización:** Seleccione tipo de organización previa definición.
 
         #. **Límite de Acceso al Rol:** Seleccione un rol existente si desea que sólo un rol específico tenga acceso a esta organización, si el campo queda vacío, el rol ClientAdmin y ClientUser tendrán acceso a esta organización.
@@ -425,7 +425,7 @@
 
 .. toctree::
     :maxdepth: 2
-    
-    provider/index
+
+    vendor/index
     customer/index
     employee/index

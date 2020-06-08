@@ -19,8 +19,8 @@
 .. _ERPyA: http://erpya.com
 .. _documento/inventario-físico:
 
-**Procedimiento para Realizar un Inventario Físico en ADempiere**
-=================================================================
+**Registro de Inventario Físico**
+=================================
 
 Para visualizar completamente el procedimiento del inventario físico, es generado el reporte "**Detalle de Almacenamiento**" seleccionando la ubicación donde será realizado el inventario físico y el producto por el cual es realizado dicho inventario. Ejemplificando el caso, el reporte puede ser visualizado de la siguiente manera.
 

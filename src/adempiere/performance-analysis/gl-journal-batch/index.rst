@@ -1,5 +1,5 @@
-.. _src/adempiere/performance-analysis/gl-journal-batch:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/performance-analysis/gl-journal-batch:
 
 ===================
 **Diario Contable**

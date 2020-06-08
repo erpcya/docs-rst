@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Pantalla Principal| image:: resources/principal.png
 .. |Inicio de Sesión| image:: resources/inicio.png
 .. |Ingresar a OpenProject| image:: resources/ingresar.png 
@@ -9,7 +10,6 @@
 .. |Paquete de Trabajo| image:: resources/paquete.png
 
 .. _documento/openproject:
-.. _ERPyA: http://erpya.com
 
 **Inicio de Sesión**
 --------------------

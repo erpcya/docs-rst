@@ -1,8 +1,8 @@
-.. _documento/documento-por-pagar:
 .. _ERPyA: http://erpya.com
+.. _documento/documento-por-pagar:
 
-**Crear Documentos por Pagar**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+**Registro de Documento por Pagar**
+===================================
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**", adjunto imagen para referencia.
 

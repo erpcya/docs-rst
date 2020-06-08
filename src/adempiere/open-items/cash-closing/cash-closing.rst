@@ -12,11 +12,11 @@
 .. |Opción Completar| image:: resources/opcion-completar-cierre-caja.png
 .. |Acción Completar y Opción OK| image:: resources/accion-completar-opcion-ok.png
 
-.. _documento/procedimiento-para-realizar-un-cierre-de-caja:
 .. _ERPyA: http://erpya.com
+.. _documento/procedimiento-para-realizar-un-cierre-de-caja:
 
-**Procedimiento para Realizar un Cierre de Caja en ADempiere**
-==============================================================
+**Registro de Cierre de Caja**
+==============================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 

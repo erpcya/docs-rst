@@ -1,5 +1,5 @@
-.. _src/adempiere/performance-analysis/costing:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/performance-analysis/costing:
 
 =====================
 **Gestión de Costos**

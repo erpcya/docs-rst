@@ -18,8 +18,9 @@
 
 .. _documento/procedimiento-para-realizar-una-transferencia-bancaria:
 
-**Procedimiento para Realizar una Transferencia Bancaria en ADempiere**
-=======================================================================
+
+**Registro de Transferencia Bancaria**
+======================================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
     

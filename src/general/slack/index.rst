@@ -1,6 +1,6 @@
-.. _src/general/slack
 .. _ERPyA: http://erpya.com
 .. _Slack: https://erp.slack.com/
+.. _src/general/slack:
 
 =========
 **Slack**
@@ -24,6 +24,6 @@ En el presente material elaborado por `ERPyA`_ se pretende explicar de manera ex
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     slack

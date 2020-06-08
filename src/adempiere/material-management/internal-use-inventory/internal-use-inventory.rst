@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Detalle de Almacenamiento Antes| image:: resources/detalle-almacenamiento-antes.png
 .. |Menú de ADempiere| image:: resources/menu-inventario-uso-interno.png
 .. |Ventana Inventario Uso Interno| image:: resources/vent-inventario-uso-interno.png
@@ -18,10 +19,9 @@
 .. |Detalle de Almacenamiento después del Movimiento| image:: resources/detalle-almacenamiento-despues.png
 
 .. _documento/inventario-uso-interno:
-.. _ERPyA: http://erpya.com
 
-**Procedimiento para Realizar un Inventario de Uso Interno en ADempiere**
-=========================================================================
+**Registo de Inventario de Uso Interno**
+========================================
 
 Para ejemplificar el inventario de uso interno, es generado el reporte "**Detalle de Almacenamiento**" del producto "**Bolígrafo**" en el almacén "**Insumos de Oficina**", el mismo es visualizado de la siguiente manera.
 

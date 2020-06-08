@@ -1,5 +1,5 @@
-.. _src/adempiere/performance-analysis/costing/additional-costs:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/performance-analysis/costing/additional-costs:
 
 ======================
 **Costos Adicionales**

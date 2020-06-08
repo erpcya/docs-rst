@@ -1,5 +1,5 @@
-.. _src/adempiere/material-management/internal-use-inventory:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/material-management/internal-use-inventory:
 
 =============================
 **Inventario de Uso Interno**

@@ -1,39 +1,3 @@
-.. |Menú de ADempiere| image:: resources/menusocio.png
-.. |Ventana Principal Socio del Negocio| image:: resources/ventana.png
-.. |Campo Organización| image:: resources/organizacion.png
-.. |Campo Código| image:: resources/codigo.png
-.. |Campo Nombre| image:: resources/nombre.png
-.. |Campo Nombre 2| image:: resources/nombre2.png
-.. |Campo Descripción| image:: resources/descripcion.png
-.. |Campo Entidad Acumulada| image:: resources/entiacumu.png
-.. |Campo Estado de Crédito| image:: resources/estacredi.png
-.. |Campo Saldo Actual| image:: resources/saldoac.png
-.. |Campo Exento de Impuesto en Venta| image:: resources/exventa.png
-.. |Campo Exento de Impuesto en Compra| image:: resources/excompra.png
-.. |Campo Grupo de Impuestos| image:: resources/gruimpu.png
-.. |Campo DUNS| image:: resources/duns.png
-.. |Campo No. de Referencia| image:: resources/norefe.png
-.. |Campo NAICS/SIC| image:: resources/naics.png
-.. |Campo Valuación ABC| image:: resources/abc.png
-.. |Campo Grupo de Socio del Negocio| image:: resources/grupo.png
-.. |Campo Tipo de Cuenta| image:: resources/cuentasocio.png
-.. |Campo Lenguaje| image:: resources/lenguaje.png
-.. |Campo Tipo de Industria| image:: resources/tipoindsocio.png
-.. |Campo Segmento| image:: resources/segmento.png
-.. |Campo Grupo de Ventas| image:: resources/gruventas.png
-.. |Campo Dirección Web| image:: resources/direccionpag.png
-.. |Campo Prospecto Activo| image:: resources/prospecto.png
-.. |Campo Liga Organización| image:: resources/ligaorg.png
-.. |Campo Valor Esperado| image:: resources/esperado.png
-.. |Campo Valor Total Transacciones| image:: resources/transacciones.png
-.. |Campo Costo de Adquisición| image:: resources/costo.png
-.. |Campo Empleados| image:: resources/empleados.png
-.. |Campo Participación| image:: resources/participacion.png
-.. |Campo Tipo de Persona| image:: resources/tipoper.png
-.. |Campo Volumen de Ventas| image:: resources/ventas.png
-.. |Campo Primera Venta| image:: resources/fecha.png
-.. |Campo Logo| image:: resources/logocliente.png
-.. |Icono Guardar Cambios| image:: resources/guardar.png
 .. |Pestaña Cliente| image:: resources/cliente.png
 .. |Checklist Cliente| image:: resources/check.png
 .. |Campo Copias del Documento| image:: resources/copias.png
@@ -119,265 +83,29 @@
 .. |Campo Posición| image:: resources/posicion.png
 .. |Campo Acceso Total Socio del Negocio| image:: resources/acceso.png
 .. |Icono Guardar Cambios2| image:: resources/campos.png
-.. _ERPyA: http://erpya.com
 
+.. _ERPyA: http://erpya.com
 .. _documento/socio-cliente:
 
 
-**Proceso de Registro del Socio del Negocio**
----------------------------------------------
+**Registro de Cliente**
+=======================
 
-#. En el menú de ADempiere, ubique y seleccione la carpeta "**Relación con Socio del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**" y finalmente seleccione la ventana "**Socio del Negocio**".
+Para registrar un cliente, es necesario que sea realizado el procedimiento regular explicado en el documento :ref:`documento/socio-negocio`, elaborado por `ERPyA`_.
 
-    |Menú de ADempiere|
+#. Luego de culminar el procedimieto de registro de socio del negocio, seleccione la pestaña "**Cliente**" que se encuentra del lado izquierdo de la ventana socio del negocio, para identificar al socio del negocio como cliente de la empresa.
 
-    Imagen 1. Menú de ADempiere
-
-**Ventana Socio del Negocio**
------------------------------
-
-En esta ventana se registran los datos principales que la empresa requiere del socio del negocio cliente. Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
-
-#. A continuación visualizará la ventana "**Socio del Negocio**", dónde debe seleccionar el icono de "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere.
-
-    |Ventana Principal Socio del Negocio|
-
-    Imagen 2. Ventana Principal Socio del Negocio
-
-#. Proceda al llenado de los campos necesarios que a continuación se detallan.
-
-    #. Seleccione en el campo "**Organización**", la organización para la cual se esta registrando el socio del negocio cliente.
-
-        |Campo Organización|
-
-        Imagen 3. Campo Organización
-
-        .. warning::
-
-            Para que el socio del negocio este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el socio del negocio solo estará disponible para una sola organización.
-
-    #. Introduzca el código de identificación, cédula o rif del socio del negocio en el campo "**Código**", el valor introducido en este campo automáticamente se reflejará en el campo "**Número Identificación**".
-
-        |Campo Código|
-
-        Imagen 4. Campo Código
-
-        .. warning::
-
-            Se recomienda que al ingresar el valor al campo "**Código**" no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
-
-    #. Introduzca el nombre del socio del negocio cliente en el campo "**Nombre**".
-
-        |Campo Nombre|
-
-        Imagen 5. Campo Nombre
-
-    #. Introduzca el apellido del socio del negocio cliente en el campo "**Nombre 2**".
-
-        |Campo Nombre 2|
-
-        Imagen 6. Campo Nombre 2
-
-    #. Introduzca una breve descripción referente al socio del negocio cliente en el campo "**Descripción**".
-
-        |Campo Descripción|
-
-        Imagen 7. Campo Descripción
-
-    #. Seleccione el checklist "**Entidad Acumulada**", para definir al socio del negocio como entidad sumaria.
-
-        |Campo Entidad Acumulada|
-
-        Imagen 8. Campo Entidad Acumulada
-
-    #. Seleccione en el campo "**Estado de Crédito**", el estado del crédito que posee el socio del negocio cliente que esta registrando. Para ejemplificar el registro es utilizada la opción "**Crédito Correcto**".
-
-        |Campo Estado de Crédito|
-
-        Imagen 9. Campo Estado de Crédito
-
-    #. Podra visualizar el saldo actual que posee el cliente en el campo "**Saldo Actual**.
-
-        |Campo Saldo Actual|
-
-        Imagen 10. Campo Saldo Actual
-
-    #. Seleccione el checklist "**Exento de Impuesto en Venta**", para definir al socio del negocio como exento de impuesto.
-
-        |Campo Exento de Impuesto en Venta|
-
-        Imagen 11. Campo Exento de Impuesto en Venta
-
-    #. Seleccione el checklist "**Exento de Impuesto en Compra**", para definir al socio del negocio como exento de impuesto.
-
-        |Campo Exento de Impuesto en Compra|
-
-        Imagen 12. Campo Exento de Impuesto en Compra
-
-    #. Seleccione en el campo "**Grupo de Impuestos**", el grupo de impuestos.
-
-        |Campo Grupo de Impuestos|
-
-        Imagen 13. Campo Grupo de Impuestos
-
-    #. Introduzca en el campo "**DUNS**", el código DUNS del socio del negocio cliente.
-
-        |Campo DUNS|
-
-        Imagen 14. Campo DUNS
-
-    #. Introduzca en el campo "**No. de Referencia**", el número de socio del negocio cliente.
-
-        |Campo No. de Referencia|
-
-        Imagen 15. Campo No. de Referencia
-
-    #. Introduzca en el campo "**NAICS/SIC**", el código NAICS o SIC del socio del negocio cliente.
-
-        |Campo NAICS/SIC|
-
-        Imagen 16. Campo NAICS/SIC
-
-    #. Introduzca en el campo "**Valuación ABC**", la clasificación de importancia que posee el socio del negocio cliente.
-
-        |Campo Valuación ABC|
-
-        Imagen 17. Campo Valuación ABC
-
-    #. Seleccione en el campo "**Grupo de Socio del Negocio**", el grupo de socio del negocio al que pertenezca el socio del negocio cliente que esta registrando, para este ejemplo el grupo utilizado es "**Clientes Nacionales**".
-
-        |Campo Grupo de Socio del Negocio|
-
-        Imagen 18. Campo Grupo de Socio del Negocio
-
-    #. Seleccione en el campo "**Tipo de Cuenta**", el tipo de cuenta o negocio que posee el socio del negocio cliente.
-
-        |Campo Tipo de Cuenta|
-
-        Imagen 19. Campo Tipo de Cuenta
-
-    #. Seleccione en el campo "**Lenguaje**", el lenguaje a utilizar en los documentos que serán generados al socio del negocio cliente.
-
-        |Campo Lenguaje|
-
-        Imagen 20. Campo Lenguaje
-
-    #. Seleccione en el campo "**Tipo de Industria**", el tipo de industria que clasifica al socio del negocio empleado.
-
-        |Campo Tipo de Industria|
-
-        Imagen 21. Campo Tipo de Industria
-
-    #. Seleccione en el campo "**Segmento**", el segmento del socio del negocio cliente.
-
-        |Campo Segmento|
-
-        Imagen 22. Campo Segmento
-
-    #. Seleccione en el campo "**Grupo de Ventas**", el grupo de ventas del socio del negocio cliente.
-
-        |Campo Grupo de Ventas|
-
-        Imagen 23. Campo Grupo de Ventas
-
-    #. Introduzca en el campo "**Dirección Web**", la dirección de la página web de contacto del socio del negocio cliente.
-
-        |Campo Dirección Web|
-
-        Imagen 24. Campo Dirección Web
-
-    #. Seleccione el checklist "**Prospecto Activo**" si el socio del negocio cliente es un prospecto activo.
-
-        |Campo Prospecto Activo|
-
-        Imagen 25. Campo Prospecto Activo
-
-    #. Seleccione la opción "**Liga Organización**", para integrar el socio del negocio a una organización.
-
-        |Campo Liga Organización|
-
-        Imagen 26. Campo Liga Organización
-
-    #. Introduzca en el campo "**Valor Esperado**", el total de los ingresos esperados por parte del socio del negocio cliente.
-
-        |Campo Valor Esperado|
-
-        Imagen 27. Campo Valor Esperado
-
-    #. Podrá visualizar en el campo "**Valor Total Transacciones**", el monto total de la primera venta realizada al socio del negocio cliente.
-
-        |Campo Valor Total Transacciones|
-
-        Imagen 28. Campo Valor Total Transacciones
-
-    #. Introduzca en el campo "**Costo de Adquisición**", el costo asociado con hacer de este prospecto un cliente.
-
-        |Campo Costo de Adquisición|
-
-        Imagen 29. Campo Costo de Adquisición
-
-    #. Introduzca en el campo "**Empleados**", la cantidad de empleados que posee el socio del negocio cliente.
-
-        |Campo Empleados|
-
-        Imagen 30. Campo Empleados
-
-    #. Introduzca en el campo "**Participación**", el porcentaje del socio del negocio cliente.
-
-        |Campo Participación|
-
-        Imagen 31. Campo Participación
-
-    #. Seleccione en el campo "**Tipo de Persona**, el tipo de persona al que pertenece el socio del negocio que esta registrando, este campo obligatorio permite la configuración esencial de las retenciones. Para ejemplificar el registro es utilizada la opción "**Persona Jurídica Domiciliada**".
-
-        |Campo Tipo de Persona|
-
-        Imagen 32. Campo Tipo de Persona
-
-    #. Introduzca en el campo "**Volumen de Ventas**", el número de ventas total para un socio del negocio.
-
-        |Campo Volumen de Ventas|
-
-        Imagen 33. Campo Volumen de Ventas
-
-    #. Podrá apreciar en el campo "**Primera Venta**", la fecha de la primera venta realizada al socio del negocio cliente.
-
-        |Campo Primera Venta|
-
-        Imagen 34. Campo Primera Venta
-
-    #. Seleccione en el campo "**Logo**", el logo de la empresa del socio del negocio cliente que esta registrando.
-
-        |Campo Logo|
-
-        Imagen 35. Campo Logo
-
-    #. Seleccione el icono "**Guardar Cambios**" ubicado en la barra de herramientas para guardar los datos ingresados.
-
-        |Icono Guardar Cambios|
-
-        Imagen 36. Icono Guardar Cambios
-
-.. warning::
-
-    Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
-
-**Pestaña Cliente**
-*******************
-
-En esta pestaña es registrada la información que la empresa requiere del socio del negocio cliente al momento de una venta al mismo. Cada uno de los campos que la misma contiene son necesarios en algún punto de la transacción de ventas.
-
-#. Seleccione la pestaña "**Cliente**" que se encuentra del lado izquierdo de la ventana socio del negocio.
+    En esta pestaña es registrada la información que la empresa requiere del socio del negocio cliente al momento de una venta al mismo. Cada uno de los campos que la misma contiene son necesarios en algún punto de la transacción de ventas.
 
     |Pestaña Cliente|
 
-    Imagen 37. Pestaña Cliente
+    Imagen 1. Pestaña Cliente
 
 #. A continuación visualizará la siguiente imagen, dónde debe tildar el checklist "**Cliente**".
 
     |Checklist Cliente|
 
-    Imagen 38. Checklist Cliente
+    Imagen 2. Checklist Cliente
 
     .. warning::
 
@@ -387,121 +115,121 @@ En esta pestaña es registrada la información que la empresa requiere del socio
 
         |Campo Copias del Documento|
 
-        Imagen 39. Campo Copias del Documento
+        Imagen 3. Campo Copias del Documento
 
     #. Seleccione en el campo "**Regla de Facturación**", la regla establecida para facturar al socio del negocio cliente.
 
         |Campo Regla de Facturación|
 
-        Imagen 40. Campo Regla de Facturación
+        Imagen 4. Campo Regla de Facturación
 
     #. Seleccione en el campo "**Programa de Facturación**", la frecuencia usada cuando se generan las facturas.
 
         |Campo Programa de Facturación|
 
-        Imagen 41. Campo Programa de Facturación
+        Imagen 5. Campo Programa de Facturación
 
     #. Seleccione en el campo "**Regla de Entrega**", la regla establecida para entregar al cliente los productos o servicios.
 
         |Campo Regla de Entrega|
 
-        Imagen 42. Campo Regla de Entrega
+        Imagen 6. Campo Regla de Entrega
 
     #. Seleccione en el campo "**Vía de Entrega**", como serán entregados los productos o servicios de la orden.
 
         |Campo Vía de Entrega|
 
-        Imagen 43. Campo Vía de Entrega
+        Imagen 7. Campo Vía de Entrega
 
     #. Seleccione en el campo "**Lista de Precios**", la lista de precios establecida para las ventas al socio del negocio cliente que esta registrando.
 
         |Campo Lista de Precios|
 
-        Imagen 44. Campo Lista de Precios
+        Imagen 8. Campo Lista de Precios
 
     #. Seleccione en el campo "**Esq List Precios/Desc**", el esquema para calcular el porcentaje de descuento comercial.
 
         |Campo Esq List Precios/Desc|
 
-        Imagen 45. Campo Esq List Precios/Desc
+        Imagen 9. Campo Esq List Precios/Desc
 
     #. Podrá apreciar en el campo "**% Descuento**", el porcentaje de descuento configurado en el esquema de descuento.
 
         |Campo % Descuento|
 
-        Imagen 46. Campo % Descuento
+        Imagen 10. Campo % Descuento
 
     #. Seleccione en el campo "**Regla de Pago**", la forma de pago de las facturas establecida para el socio del negocio cliente que esta registrando.
 
         |Campo Regla de Pago|
 
-        Imagen 47. Campo Regla de Pago
+        Imagen 11. Campo Regla de Pago
 
     #. Seleccione en el campo "**Término de Pago**", las condiciones de pago de las facturas establecida para el socio del negocio que esta registrando.
 
         |Campo Término de Pago|
 
-        Imagen 48. Campo Término de Pago
+        Imagen 12. Campo Término de Pago
 
     #. Seleccione en el campo "**Agente Comercial**", asignado a la región donde se encuentra el socio del negocio cliente.
 
         |Campo Agente Comercial|
 
-        Imagen 49. Campo Agente Comercial
+        Imagen 13. Campo Agente Comercial
 
     #. Seleccione en el campo "**Morosidad**", la regla de morocidad para facturas vencidas.
 
         |Campo Morosidad|
 
-        Imagen 50. Campo Morosidad
+        Imagen 14. Campo Morosidad
 
     #. Introduzca en el campo "**Referencia de Orden de Socio del Negocio**", el número estándar de referencia para las órdenes de compra.
 
         |Campo Referencia de Orden de Socio del Negocio|
 
-        Imagen 51. Campo Referencia de Orden de Socio del Negocio
+        Imagen 15. Campo Referencia de Orden de Socio del Negocio
 
     #. Seleccione el checklist "**Imprimir Descuento**", si desea imprimir en la factura y en la orden de venta el descuento aplicado.
 
         |Campo Imprimir Descuento|
 
-        Imagen 52. Campo Imprimir Descuento
+        Imagen 16. Campo Imprimir Descuento
 
     #. Introduzca en el campo "**Descripción de Orden**", una descripción estándar para se utilizadas en las órdenes a generar al socio del negocio cliente que esta registrando.
 
         |Campo Descripción de Orden|
 
-        Imagen 53. Campo Descripción de Orden
+        Imagen 17. Campo Descripción de Orden
 
     #. Seleccione en el campo "**Formato de Impresión**", el formato de impresión a utilizar en las facturas del socio del negocio cliente.
 
         |Campo Formato de Impresión|
 
-        Imagen 54. Campo Formato de Impresión
+        Imagen 18. Campo Formato de Impresión
 
     #. Introduzca en el campo "**Mín de Vida útil %**", tiempo mínimo de vida útil que tienen los productos.
 
         |Campo Mín de Vida útil %|
 
-        Imagen 55. Campo Mín de Vida útil %
+        Imagen 19. Campo Mín de Vida útil %
 
     #. Introduzca en el campo "**Límite de Crédito**", el límite de crédito establecido para el socio del negocio cliente que esta registrando.
 
         |Campo Límite de Crédito|
 
-        Imagen 56. Campo Límite de Crédito
+        Imagen 20. Campo Límite de Crédito
 
     #. Podrá visualizar en el campo "**Crédito Usado**", el crédito usado por el socio del negocio cliente que esta registrando.
 
         |Campo Crédito Usado|
 
-        Imagen 57. Campo Crédito Usado
+        Imagen 21. Campo Crédito Usado
 
     #. Introduzca en el campo "**Tiempo Gracia Cobro**", los días de gracia que tiene el socio del negocio antes de que el agente comercial le realice el cobro.
 
         |Campo Tiempo de Gracia Cobro|
 
-        Imagen 58. Campo Tiempo de Gracia Cobro
+        Imagen 22. Campo Tiempo de Gracia Cobro
 
 **Pestaña Cuenta Bancaria**
 ***************************
@@ -512,7 +240,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio cliente,
 
     |Pestaña Cuenta Bancaria|
 
-    Imagen 59. Pestaña Cuenta Bancaria
+    Imagen 23. Pestaña Cuenta Bancaria
 
 **Checklist Activo**
 ++++++++++++++++++++
@@ -521,31 +249,31 @@ En esta pestaña se registran los datos bancarios del socio del negocio cliente,
 
     |Campo Tarjeta de Crédito|
 
-    Imagen 60. Campo Tarjeta de Crédito
+    Imagen 24. Campo Tarjeta de Crédito
 
 #. Introduzca en el campo "**Número**", el número de tarjeta de crédito del socio del negocio cliente que esta registrando.
 
     |Campo Número|
 
-    Imagen 61. Campo Número
+    Imagen 25. Campo Número
 
 #. Introduzca en el campo "**Código Verificación**", el código de verificación de la tarjeta de crédito del socio del negocio cliente que esta registrando, este código son los últimos tres números del reverso de la tarjeta.
 
     |Campo Código de Verificación|
 
-    Imagen 62. Campo Código de Verificación
+    Imagen 26. Campo Código de Verificación
 
 #. Introduzca en el campo "**Mes de Expiración**", el mes de expiración de la tarjeta de crédito del socio del negocio cliente que esta registrando.
 
     |Campo Mes de Expiración|
 
-    Imagen 63. Campo Mes de Expiración
+    Imagen 27. Campo Mes de Expiración
 
 #. Introduzca el año de expiración de la tarjeta de crédito del socio del negocio cliente que esta registrando en el campo "**Año de Expiración**".
 
     |Campo Año de Expiración|
 
-    Imagen 64. Campo Año de Expiración
+    Imagen 28. Campo Año de Expiración
 
     .. warning::
 
@@ -558,37 +286,37 @@ En esta pestaña se registran los datos bancarios del socio del negocio cliente,
 
     |Checklist ACH|
 
-    Imagen 65. Checklist ACH
+    Imagen 29. Checklist ACH
 
 #. Introduzca en el campo "**IBAN**", el código IBAN conformado por el código del país (2 dígitos) más el código de control de la localidad donde se encuentra la sucursal del banco (2 dígitos). Para ejemplificar el registro es utilizado el código "**VE21**".
 
     |Campo IBAN|
 
-    Imagen 66. Campo IBAN
+    Imagen 30. Campo IBAN
 
 #. En el campo "**Banco**" seleccione el banco a registrar con ayuda del ícono identificador (adjunto imagen).
 
     |Campo Banco|
 
-    Imagen 67. Campo Banco
+    Imagen 31. Campo Banco
 
     #. A continuación visualizará la siguiente ventana con los diferentes bancos, dónde debe seleccionar el banco que posee el socio del negocio cliente y la opción "**OK**" para cargar los datos al formulario.
 
         |Opción OK|
 
-        Imagen 68. Opción OK
+        Imagen 32. Opción OK
 
 #. Seleccione el tipo de cuenta correspondiente a la cuenta del socio del negocio cliente en el campo "**Tipo de Cuenta Bancaria**".
 
     |Campo Tipo de Cuenta Bancaria|
 
-    Imagen 69. Campo Tipo de Cuenta Bancaria
+    Imagen 33. Campo Tipo de Cuenta Bancaria
 
 #. Introduzca en el campo "**No. De Cuenta**", el número de cuenta del socio del negocio cliente que esta registrando.
 
     |Campo No. De Cuenta|
 
-    Imagen 70. Campo No. De Cuenta
+    Imagen 34. Campo No. De Cuenta
 
     .. warning::
 
@@ -598,67 +326,67 @@ En esta pestaña se registran los datos bancarios del socio del negocio cliente,
 
     |Campo Nombre de Titular de Cuenta|
 
-    Imagen 71. Campo Nombre de Titular de Cuenta
+    Imagen 35. Campo Nombre de Titular de Cuenta
 
 #. Introduzca en el campo "**Dirección**", la dirección de la entidad bancaria poseedora de la tarjeta de crédito.
 
     |Campo Dirección de Entidad Bancaria|
 
-    Imagen 72. Campo Dirección de Entidad Bancaria
+    Imagen 36. Campo Dirección de Entidad Bancaria
 
 #. Introduzca en el campo "**Ciudad**", el nombre de la ciudad donde se encuentra la entidad bancaria poseedora de la tarjeta de crédito.
 
     |Campo Ciudad de Entidad Bancaria|
 
-    Imagen 73. Campo Ciudad de Entidad Bancaria
+    Imagen 37. Campo Ciudad de Entidad Bancaria
 
 #. Introduzca en el campo "**Código Postal**", el código postal de la ciudad donde se encuentra la entidad bancaria poseedora de la tarjeta de crédito.
 
     |Campo Código Postal|
 
-    Imagen 74. Campo Código Postal
+    Imagen 38. Campo Código Postal
 
 #. Introduzca en el campo "**Estado**", el nombre del estado donde se encuentra la entidad bancaria poseedora de la tarjeta de crédito.
 
     |Campo Estado de Entidad Bancaria|
 
-    Imagen 75. Campo Estado de Entidad Bancaria
+    Imagen 39. Campo Estado de Entidad Bancaria
 
 #. Introduzca en el campo "**País Cuenta**", el nombre del país donde se encuentra la entidad bancaria poseedora de la tarjeta de crédito.
 
     |Campo País Cuenta|
 
-    Imagen 76. Campo País Cuenta
+    Imagen 40. Campo País Cuenta
 
 #. Introduzca en el campo "**Licencia de Conducir**", el número de licencia de conducir del socio del negocio cliente que esta registrando.
 
     |Campo Licencia de Conducir|
 
-    Imagen 77. Campo Licencia de Conducir
+    Imagen 41. Campo Licencia de Conducir
 
 #. Introduzca en el campo "**No. Seguro Social**", el número de cédula del titular de la tarjeta de crédito o cuenta bancaria que esta registrando.
 
     |Campo No. Seguro Social|
 
-    Imagen 78. Campo No. Seguro Social
+    Imagen 42. Campo No. Seguro Social
 
 #. Introduzca en el campo "**Cta. Correo Electrónico**", el correo electrónico asociado a la tarjeta de crédito o cuenta bancaria que esta registrando.
 
     |Campo Cta. Correo Electrónico|
 
-    Imagen 79. Campo Cta. Correo Electrónico
+    Imagen 43. Campo Cta. Correo Electrónico
 
 #. Seleccione en el campo "**Dirección Verificada**", si la dirección de la entidad bancaria se encuentra verificada.
 
     |Campo Dirección Verificada|
 
-    Imagen 80. Campo Dirección Verificada
+    Imagen 44. Campo Dirección Verificada
 
 #. Seleccione en el campo "**Código Postal Verificado**", si el código postal de la entidad bancaria se encuentra verificado.
 
     |Campo Código Postal Verificado|
 
-    Imagen 81. Campo Código Postal Verificado
+    Imagen 45. Campo Código Postal Verificado
 
 **Pestaña Localización**
 ************************
@@ -669,61 +397,61 @@ La localización de un socio del negocio cliente es muy importante por diferente
 
     |Pestaña Localización|
 
-    Imagen 82. Pestaña Localización
+    Imagen 46. Pestaña Localización
 
 #. Introduzca en el campo "**Localización / Dirección**", la dirección de localización del socio del negocio cliente con ayuda del identificador.
 
     |Campo Localización / Dirección|
 
-    Imagen 83. Campo Localización / Dirección
+    Imagen 47. Campo Localización / Dirección
 
     #. Seleccione en el campo "**País**", el país donde se encuentra domiciliado el socio del negocio que esta registrando.
 
         |Campo País|
 
-        Imagen 84. Campo País
+        Imagen 48. Campo País
 
     #. Seleccione en el campo "**Estado**", el estado donde se encuentra domiciliado el socio del negocio que esta registrando.
 
         |Campo Estado|
 
-        Imagen 85. Campo Estado
+        Imagen 49. Campo Estado
 
     #. Seleccione en el campo "**Ciudad**", la ciudad donde se encuentra domiciliado el socio del negocio que esta registrando.
 
         |Campo Ciudad|
 
-        Imagen 86. Campo Ciudad
+        Imagen 50. Campo Ciudad
 
     #. Introduzca la dirección detallada del socio del negocio cliente en el campo "**Dirección 1**" y seleccione la opción "**OK**".
 
         |Campo Dirección 1|
 
-        Imagen 87. Campo Dirección 1
+        Imagen 51. Campo Dirección 1
 
 #. Introduzca en el campo "**Teléfono**", el número de teléfono local para contactar al socio del negocio cliente.
 
     |Campo Teléfono|
 
-    Imagen 88. Campo Teléfono
+    Imagen 52. Campo Teléfono
 
 #. Introduzca en el campo "**Teléfono Móvil**", el número de teléfono móvil para contactar al socio del negocio cliente.
 
     |Campo Teléfono Móvil|
 
-    Imagen 89. Campo Teléfono Móvil
+    Imagen 53. Campo Teléfono Móvil
 
 #. Introduzca en el campo "**Fax**", el fax para contactar al socio del negocio cliente.
 
     |Campo Fax|
 
-    Imagen 90. Campo Fax
+    Imagen 54. Campo Fax
 
 #. Introduzca en el campo "**ISDN**", el ISDN para contactar al socio del negocio cliente.
 
     |Campo ISDN|
 
-    Imagen 91. ISDN
+    Imagen 55. ISDN
 
 #. Podrá apreciar tildados los checklist "**Dirección Entregar-A**", "**Dirección Facturar-A**", "**Dirección Pagar-Desde**" y "**Dirección Remitir-A**", indicando cada uno de ellos un comportamiento diferente.
 
@@ -731,37 +459,37 @@ La localización de un socio del negocio cliente es muy importante por diferente
 
         |Campo Dirección Entregar-A|
 
-        Imagen 92. Campo Dirección Entregar-A
+        Imagen 56. Campo Dirección Entregar-A
 
     #. El checklist "**Dirección Facturar-A**" establece la localización ingresada como la dirección para facturar.
 
         |Campo Dirección Facturar-A|
 
-        Imagen 93. Campo Dirección Facturar-A
+        Imagen 57. Campo Dirección Facturar-A
 
     #. El checklist "**Dirección Pagar-Desde**" establece la localización ingresada como la dirección desde donde paga las facturas el socio del negocio y donde son enviadas las cartas de morosidad.
 
         |Campo Dirección Pagar-Desde|
 
-        Imagen 94. Campo Dirección Pagar-Desde
+        Imagen 58. Campo Dirección Pagar-Desde
 
     #. El checklist "**Dirección Remitir-A**" establece la localización ingresada como la dirección para el envío de los pagos.
 
         |Campo Dirección Remitir-A|
 
-        Imagen 95. Dirección Remitir-A
+        Imagen 59. Dirección Remitir-A
 
 #. Seleccione en el campo "**Región de Ventas**", la región o área de ventas en la que se encuentra localizado el socio del negocio cliente.
 
     |Campo Región de Ventas|
 
-    Imagen 96. Campo Región de Ventas
+    Imagen 60. Campo Región de Ventas
 
 #. Introduzca en el campo "**Código SICA**", el código SICA del socio del negocio cliente.
 
     |Campo Código SICA|
 
-    Imagen 97. Campo Código SICA
+    Imagen 61. Campo Código SICA
 
 .. warning::
 
@@ -776,7 +504,7 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
     |Pestaña Contacto|
 
-    Imagen 98. Pestaña Contacto
+    Imagen 62. Pestaña Contacto
 
     .. warning::
 
@@ -786,147 +514,147 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
         |Campo Nombre de Contacto|
 
-        Imagen 99. Nombre de Contacto
+        Imagen 63. Nombre de Contacto
 
     #. Introduzca en el campo "**Descripción**", una breve descripción de la persona de contacto con el socio del negocio cliente que esta registrando.
 
         |Campo Descripción Persona|
 
-        Imagen 100. Campo Descripción
+        Imagen 64. Campo Descripción
 
     #. Introduzca en el campo "**Comentarios**", los comentarios o información adicional sobre el registro de la persona de contacto con el socio del negocio cliente.
 
         |Campo Comentarios|
 
-        Imagen 101. Campo Comentarios
+        Imagen 65. Campo Comentarios
 
     #. El checklist "**Activo**", indica que el registro se encuentra activo en el sistema.
 
         |Checklist Activo|
 
-        Imagen 102. Checklist Activo
+        Imagen 66. Checklist Activo
 
     #. Seleccione el checklist "**Es Gerente de Proyecto**", para indicar que la persona de contacto con el socio del negocio cliente es gerente de proyecto.
 
         |Campo Es Gerente de Proyecto|
 
-        Imagen 103. Campo Es Gerente de Proyecto
+        Imagen 67. Campo Es Gerente de Proyecto
 
     #. Seleccione el checklist "**Es Miembro de un Proyecto**", para indicar que la persona de contacto con el socio del negocio cliente es miembro de un proyecto.
 
         |Campo Es Miembro de un Proyecto|
 
-        Imagen 104. Campo Es Miembro de un Proyecto
+        Imagen 68. Campo Es Miembro de un Proyecto
 
     #. Seleccione el checklist "**Usuario de Autenticación**" para que sean reflejados los campos necesarios para crear el usuario del socio del negocio cliente.
 
         |Campo Usuario de Autenticación|
 
-        Imagen 105. Usuario de Autenticación
+        Imagen 69. Usuario de Autenticación
 
         #. Seleccione el checklist "**Usuario Interno**", para indicar que la persona de contacto con el socio del negocio cliente es usuario interno.
 
             |Campo Usuario Interno|
 
-            Imagen 106. Campo Usuario Interno
+            Imagen 70. Campo Usuario Interno
 
         #. Introduzca en el campo **Código**, el usuario de la persona de contacto con el socio del negocio cliente para ingresar a ADempiere.
 
             |Campo Código Usuario|
 
-            Imagen 107. Campo Código
+            Imagen 71. Campo Código
 
             .. warning::
 
-                ERP tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
+                `ERPyA`_ tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
         #. Introduzca en el campo "**Contraseña**", la contraseña de la persona de contacto con el socio del negocio cliente para ingresar a ADempiere.
 
             |Campo Contraseña|
 
-            Imagen 108. Campo Contraseña
+            Imagen 72. Campo Contraseña
 
             .. warning::
 
-                ERP tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
+                `ERPyA`_ tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
         #. Seleccione el checklist "**Usuario de Tienda Web**", para indicar que la persona de contacto con el socio del negocio es usuario de tienda web.
 
             |Checklist Usuario de Tienda Web|
 
-            Imagen 109. Checklist Usuario de Tienda Web
+            Imagen 73. Checklist Usuario de Tienda Web
 
     #. Introduzca en el campo "**Email**", el correo electrónico de la persona de contacto con el socio del negocio para las transacciones entre las empresas.
 
         |Campo Email|
 
-        Imagen 110. Campo Email
+        Imagen 74. Campo Email
 
     #. Seleccione en el campo "**Saludo**", la forma de saludar a la persona de contacto con el socio del negocio en los documentos a ser enviados.
 
         |Campo Saludo|
 
-        Imagen 111. Campo Saludo
+        Imagen 75. Campo Saludo
 
     #. Seleccione en el campo "**Dirección del Socio del Negocio**, la dirección de ubicación de la persona de contacto con el socio del negocio.
 
         |Campo Dirección del Socio del Negocio|
 
-        Imagen 112. Campo Dirección del Socio del Negocio
+        Imagen 76. Campo Dirección del Socio del Negocio
 
     #. Introduzca en el campo "**Título**", el nombre del socio del negocio cliente.
 
         |Campo Título|
 
-        Imagen 113. Campo Título
+        Imagen 77. Campo Título
 
     #. Seleccione en el campo "**Cumpleaños**", la fecha de nacimiento de la persona de contacto con el socio del negocio.
 
         |Campo Cumpleaños|
 
-        Imagen 114. Campo Cumpleaños
+        Imagen 78. Campo Cumpleaños
 
     #. Introduzca en el campo "**Teléfono**", el teléfono para localizar a la persona de contacto con el socio del negocio para las transacciones entre las empresas.
 
         |Campo Teléfono de Contacto|
 
-        Imagen 115. Campo Teléfono de Contacto
+        Imagen 79. Campo Teléfono de Contacto
 
     #. Introduzca en el campo "**Teléfono Móvil**", el teléfono móvil para localizar a la persona de contacto con el del socio del negocio.
 
         |Campo Teléfono Móvil Contacto|
 
-        Imagen 116. Campo Teléfono Móvil
+        Imagen 80. Campo Teléfono Móvil
 
     #. Introduzca en el campo "**Fax**", el fax de contacto del socio del negocio.
 
         |Campo Fax Contacto|
 
-        Imagen 117. Campo Fax
+        Imagen 81. Campo Fax
 
     #. Seleccione en el campo "**Tipo de Notificación**", la forma de enviar notificaciones a la persona de contacto con el socio del negocio.
 
         |Campo Tipo de Notificación|
 
-        Imagen 118. Campo Tipo de Notificación
+        Imagen 82. Campo Tipo de Notificación
 
     #. Seleccione en el campo "**Posición**", la posición de trabajo de la persona de contacto con el socio del negocio.
 
         |Campo Posición|
 
-        Imagen 119. Campo Posición
+        Imagen 83. Campo Posición
 
     #. Podrá apreciar el checklist "**Acceso Total Socio del Negocio**", que al estar tildado indica que la persona de contacto con el socio del negocio cliente posee acceso total a su rol.
 
         |Campo Acceso Total Socio del Negocio|
 
-        Imagen 120. Campo Acceso Total Socio del Negocio
+        Imagen 84. Campo Acceso Total Socio del Negocio
 
     #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientras de ADempiere, para guardar el registro de los campos.
 
         |Icono Guardar Cambios2|
 
-        Imagen 121. Icono Guardar Cambios
+        Imagen 85. Icono Guardar Cambios
 
 .. note::
 
