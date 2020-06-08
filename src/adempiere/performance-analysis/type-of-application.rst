@@ -29,7 +29,7 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
     #. **Actual:** Se refiere a la contabilidad de gestión o real, su principal objetivo es medir resultados en tiempo real, y de esta forma se conoce el estado financiero actual de la empresa, esto garantiza la toma de decisiones acertadas.
     
-     Este tipo de aplicación se base en la exposición del desempeño desde los registros transaccionales que causan los hechos contables de la empresa, como lo es:
+        Este tipo de aplicación se base en la exposición del desempeño desde los registros transaccionales que causan los hechos contables de la empresa, como lo es:
 
         #. **Documento por Pagar**
 
