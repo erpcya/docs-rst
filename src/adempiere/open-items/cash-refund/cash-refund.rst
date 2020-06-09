@@ -24,7 +24,7 @@
 
    Imagen 2. Selección de Pago
 
-#. Por último, realice el procedimiento regular para generar un imprimir/exportar pagos, explicado en el documento :ref:`documento/documento/Imprimir-Exportar`, elaborado por `ERPyA`_.
+#. Por último, realice el procedimiento regular para generar un imprimir/exportar pagos, explicado en el documento :ref:`documento/Imprimir-Exportar`, elaborado por `ERPyA`_.
 
    |Imprimir Exportar Pagos|
 
