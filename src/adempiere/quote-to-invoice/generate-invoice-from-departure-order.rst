@@ -1,7 +1,6 @@
 .. _ERPyA: http://erpya.com
 .. _documento/generar-factura-orden-salida:
 
-=========================================
 **Generar Factura desde Orden de Salida**
 =========================================
 
@@ -67,7 +66,7 @@ A continuación se explica el procedimiento que debe ser realizado para generar 
          Imagen 7. Ventana de Confirmación y Opción OK
 
 **Consultar Facturas Generadas**
-********************************
+--------------------------------
 
 #. Al consultar el registro en la ventana "**Documentos por Cobrar**", puede visualizar la factura de cuentas por cobrar generada desde la orden de salida.
 
@@ -77,7 +76,7 @@ A continuación se explica el procedimiento que debe ser realizado para generar 
       Imagen 8. Factura desde Orden de Salida
 
 **Imprimir Facturas Generadas**
-*******************************
+-------------------------------
 
 #. Al imprimir el registro en la ventana "**Documentos por Cobrar**", seleccionando el icono "**Imprimir**" ubicado en la barra de herramientas de ADempiere, podrá visualizar de la siguiente manera la factura de ventas generada desde la orden de salida. 
 
@@ -87,7 +86,7 @@ A continuación se explica el procedimiento que debe ser realizado para generar 
       Imagen 9. Factura Generada desde la Orden de Salida
 
 **Generar Factura desde Orden de Salida Consolidado en un Documento**
----------------------------------------------------------------------
+=====================================================================
 
 #. Realice el procedimiento regular explicado anteriormente en :ref:`documento/generar-factura-orden-salida`, luego de seleccionar las órdenes de salida por las cuales será generada la factura, tilde el checklist "**Consolidado en un Documento**" y la opción "**OK**" para generar las facturas por socios del negocio asociados a las órdenes de ventas seleccionadas.
 
@@ -104,7 +103,7 @@ A continuación se explica el procedimiento que debe ser realizado para generar 
          Imagen 11. Ventana de Confirmación y Opción OK
 
 **Consultar Facturas Generadas**
-********************************
+--------------------------------
 
 #. Al consultar el registro en la ventana "**Documentos por Cobrar**", puede visualizar las facturas de cuentas por cobrar generadas desde la orden de salida.
 
@@ -123,7 +122,7 @@ A continuación se explica el procedimiento que debe ser realizado para generar 
          Imagen 13. Factura Número 85933 Generada desde la Orden de Salida
 
 **Imprimir Facturas Generadas**
-*******************************
+-------------------------------
 
 #. Al imprimir el registro en la ventana "**Documentos por Cobrar**", seleccionando el icono "**Imprimir**" ubicado en la barra de herramientas de ADempiere, podrá visualizar de la siguiente manera la factura de ventas generada desde la orden de salida. 
 
