@@ -745,6 +745,7 @@ En la pestaña "**Días Libres de la Semana**" se deben seleccionar los checklis
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).
 
+.. _documento/pestaña-detalle-de-pago:
 
 **Pestaña Detalle de Pago**
 ***************************
