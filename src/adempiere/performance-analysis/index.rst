@@ -1,6 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/adempiere/performance-analysis
-.. _documento/Gestión Contable:
+.. _src/adempiere/performance-analysis:
 
 ====================
 **Gestión Contable**

@@ -127,4 +127,4 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
         Imagen 5. Información Contable Reserva
 
-Esta funcionalidad complementa a **ADempiere**, permitiendo a la directiva de la empresa establecer una visión versátil, emitiendo resultados con múltiples escenarios, si quieres conocer más de :ref:`documento/Gestión Contable`, visita nuestra plataforma de aprendizaje.
+Esta funcionalidad complementa a **ADempiere**, permitiendo a la directiva de la empresa establecer una visión versátil, emitiendo resultados con múltiples escenarios, si quieres conocer más de :ref:`src/adempiere/performance-analysis`, visita nuestra plataforma de aprendizaje.
