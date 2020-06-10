@@ -1,13 +1,13 @@
 .. _ERPyA: http://erpya.com
 .. |Transferencia Bancaria| image:: resources/bank-transfer.png
 .. |Primer Cierre de Caja Viáticos| image:: resources/cash-closing.png
-.. |Orden de Pago| image:: resources/
-.. |Selección de Pago| image:: resources/
-.. |Imprimir Exportar Pagos| image:: resources/
-.. |Pestaña Pago Generado| image:: resources/
-.. |Registo en Caja Viáticos| image:: resources/
-.. |Transferencia Bancaria| image:: resources/
-.. |Último Cierre de Caja Viáticos| image:: resources/
+.. |Orden de Pago| image:: resources/per-diem-cash-payment-order.png
+.. |Selección de Pago| image:: resources/selection-of-per-diem-cash-payment.png
+.. |Imprimir Exportar Pagos| image:: resources/print-export-per-diem-cash-payments.png
+.. |Pestaña Pago Generado| image:: resources/payment-generated-tab-of-the-payment-selection-window.png
+.. |Registo en Caja Viáticos| image:: resources/check-registration-in-per-diem-box.png
+.. |Transferencia Bancaria por Restante de Viáticos| image:: resources/bank-transfer-for-remainder-of-viaticos.png
+.. |Último Cierre de Caja Viáticos| image:: resources/closing-cash-box.png
 .. _documento/caja-viaticos:
 
 **Registro de Caja Viáticos**
@@ -69,7 +69,7 @@
 
 #. Realice el procedimiento regular para generar una transferencia bancaria, explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_.
 
-   |Transferencia Bancaria|
+   |Transferencia Bancaria por Restante de Viáticos|
 
    Imagen 8. Transferencia Bancaria
 
