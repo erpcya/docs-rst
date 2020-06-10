@@ -13,8 +13,8 @@
 
 .. _documento/descarga-extracto-bancario:
 
-**Descarga Extracto Bancario**
------------------------------
+**Descarga de Extracto Bancario desde Banco**
+=============================================
 
 Para que un extracto bancario pueda ser importado en ADempiere este debe cumplir por Banco un formato en específico para que la importación sea exitosa,  el siguiente material explica el procedimiento para descargar los formatos correctos de los estados de cuentas bancarios:
 
@@ -48,9 +48,9 @@ Para que un extracto bancario pueda ser importado en ADempiere este debe cumplir
 
     `ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario :download:`BANCO BANESCO OCTUBRE 2019 <OCTUBRE2019BANESCO.qif>`, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
-.. note::
+    .. note::
 
-    Haga click en `Banesco Online`_ para poder visualizar el paso a paso para las descargas de archivos, al dar click a la opción anteriormente comentada este lo redireccionará a la plataforma web del banco.
+        Haga click en `Banesco Online`_ para poder visualizar el paso a paso para las descargas de archivos, al dar click a la opción anteriormente comentada este lo redireccionará a la plataforma web del banco.
 
 #. **Extracto Bancario Mercantil**
 
@@ -58,9 +58,9 @@ Para que un extracto bancario pueda ser importado en ADempiere este debe cumplir
 
     `ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario :download:`BANCO MERCANTIL OCTUBRE 2019 <Octubre2019Mercantil.Mt940.txt>`, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
-.. note::
+    .. note::
 
-    Haga click en `Empresas`_ para poder visualizar el paso a paso para las descargas de archivos, al dar click a la opción anteriormente comentada este lo redireccionará a la plataforma web del banco.
+        Haga click en `Empresas`_ para poder visualizar el paso a paso para las descargas de archivos, al dar click a la opción anteriormente comentada este lo redireccionará a la plataforma web del banco.
 
 #. **Extracto Bancario Bancaribe**
 
