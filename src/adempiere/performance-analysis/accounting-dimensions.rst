@@ -45,3 +45,7 @@ Las entidades con las que ADempiere permite dimensionar son las siguientes:
     #. Usuario2 (**Definición a criterio del cliente**)
 
     #. Usuario3 (**Definición a criterio del cliente**)
+
+    #. Usuario4 (**Definición a criterio del cliente**)
+    
+    #. Usuario5 (**Definición a criterio del cliente**)
