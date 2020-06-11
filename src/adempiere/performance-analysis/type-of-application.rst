@@ -1,176 +1,130 @@
 .. _ERPyA: http://erpya.com
-.. |Menú de ADempiere| image:: resources/financial-report-menu.png
-.. |Ventana Informe Financiero| image:: resources/financial-report-window.png
-.. |Campo Período| image:: resources/financial-reporting-period-field.png
-.. |Campo Organización| image:: resources/organization-field-of-financial-reporting.png
-.. |Campo Socio del Negocio| image:: resources/business-partner-field-of-financial-reporting.png
-.. |Campo Producto| image:: resources/financial-report-product-field.png
-.. |Campo Actividad| image:: resources/financial-reporting-activity-field.png
-.. |Campo Región de Ventas| image:: resources/sales-region-field-of-the-financial-report.png
-.. |Campo Centro de Costos| image:: resources/cost-center-field-of-the-financial-report.png
-.. |Campo Tipo de Aplicación| image:: resources/field-of-application-of-the-financial-report.png
-.. |Campo Desplegar fuentes Fuentes| image:: resources/field-display-sources-sources-of-the-financial-report.png
-.. |Campo Lista Transacciones| image:: resources/financial-report-transaction-list-field.png
-.. |Campo Lista Fuentes Primero| image:: resources/field-list-sources-first-of-the-financial-report.png
-.. |Campo Reportando Jerarquías| image:: resources/field-reporting-hierarchies-of-financial-reporting.png
-.. |Organigrama Venta| image:: resources/organization-chart-sale.png
-.. |Cubo de información| image:: resources/information-cube.png
-.. |Campo Cubo Informe| image:: resources/financial-report-cube-field.png
-.. |Ventana Crear Informe| image:: resources/create-report-window.png
+.. |Información Contable Actual| image:: resources/Info-Accounting01.png
+.. |Información Contable Presupuesto| image:: resources/Info-Accounting02.png
+.. |Información Contable Compromiso| image:: resources/Info-Accounting03.png
+.. |Información Contable Estadística| image:: resources/Info-Accounting04.png
+.. |Información Contable Reserva| image:: resources/Info-Accounting05.png
 
-.. _documento/informe-financiero:
+.. _documento/tipo-de-aplicación:
 
-**Generar Informe Financiero**
-==============================
+======================
+**Tipo de Aplicación**
+======================
 
-#. Para generar un informe financiero el usuario debe ubicarse en el menú de ADempiere. Debe seleccionar la carpeta "**Análisis de Desempeño**", luego debe seleccionar la carpeta "**Informes Financieros**" y por último la ventana "**Informe Financiero**".
+Administrar la contabilidad de una empresa es una labor costosa, que requiere un gran número de recursos en gestión humana y habilidades que permita un eficiente manejo de técnicas en materia financiera, puesto que genera gran demanda en la organización del contador a cargo.
 
-    |Menú de ADempiere|
+Por esta razón, **ADempiere** ha desarrollado una estructura especialmente pensada para entidades contables y financieras, bajo la modalidad de manejo multi-contable. Para esto se implementa el tipo de aplicación que define el comportamiento contable de cada transacción agrupando por tipo de contabilidad.
 
-    Imagen 1. Menú de ADempiere
+Cuando hablamos de tipo de aplicación en gestión contable, se refiere a la forma en la que los asientos contables son aplicado en balances, dicho de otro modo, esta figura define la categoría de la contabilidad, por ejemplo, contabilidad presupuestaria o contabilidad de reservas, de esta manera se puede determinar si un asiento por ejemplo pertenece al presupuesto contable o a una reserva contable, para explicarlo se plantea el siguiente ejemplo:
 
+    Imaginemos una empresa, en la cual se realiza la planificación operativa anual, presupuestando los ingresos, costos y gastos que se estiman obtener durante el ejercicio fiscal.
 
-#. El reporte de informe financiero es generado a través de la selección del proceso "**Crear Informe**", el cual se encuentra ubicado en la parte inferior de la ventana "**Informe Financiero**".
+    Seguramente, la empresa querrá conocer en qué medida se acercan o se alejan del presupuesto, los resultados obtenidos durante la operatividad, para ello se requerirá comparar la contabilidad real con la estimación realizada.
 
-    |Ventana Informe Financiero|
+    La contabilidad real es generada de forma predeterminada al ejecutar una factura de cuenta por pagar que es justificada con un gasto o un costo, afectando la contabilidad de gasto y costo respectivamente, o bien, al generar una factura de cuentas por cobrar, afectando la contabilidad de ingresos.
 
-    Imagen 2. Ventana Informe Financiero
+    Con base en el ejemplo anterior, con la utilización del tipo de aplicación el contador podrá establecer porcentualmente cuanto es la proximidad a la estimación con respecto a los resultados, puesto que **ADempiere** le permite generar informes financieros comparativos por tipo de aplicación.
 
-#. Al seleccionar el proceso, el usuario podrá visualizar la ventana "**Crear Informe**", esta ventana cuenta con diferentes campos que permiten filtrar la información en base a los campos que sean seleccionados, a continuación detallaremos cada uno de los campos:
+Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son los siguientes:
 
+    #. **Actual:** Se refiere a la contabilidad de gestión o real, su principal objetivo es medir resultados en tiempo real, y de esta forma se conoce el estado financiero actual de la empresa, esto garantiza la toma de decisiones acertadas.
+    
+        Este tipo de aplicación se base en la exposición del desempeño desde los registros transaccionales que causan los hechos contables de la empresa, como lo es:
 
-    #. Seleccione el periodo en el campo "**Período**".
+        #. **Documento por Pagar**
 
-        El periodo no es un campo obligatorio, sin embargo, le permite definir el rango de fecha en el cual desea emitir los saldos contables para su informe financiero,recordando que cada periodo está previamente configurado y representa un determinado tiempo en el cual se registran y se reconocen operaciones económicas.
+        #. **Documento por Cobrar**
 
-        |Campo Período|
+        #. **Pagos**
 
-        Imagen 3. Campo Período
+        #. **Cobros**
 
-    #. Seleccione la organización en el campo "**Organización**".
+        #. **Entregas**
 
-        La organización no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por organización cuando existe más de una, es decir, el informe financiero podrá emitir saldos contables de una organización al seleccionarla, si por el contrario, el campo está vacío **ADempiere** mostrará la información contable de todas las organizaciones.
+        #. **Recibos**
 
-        |Campo Organización|
+        #. **Conciliaciones Bancarias**
 
-        Imagen 4. Campo Organización
+        #. **Nóminas**
 
-    #. Seleccione el socio de negocio en el campo "**Socio de Negocio**".
+        #. **Inventarios Físicos**
 
-        El socio de negocio no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por socio de negocio según su naturaleza, cliente, proveedor o empleado, es decir, el informe financiero podrá emitir saldos contables de un socio de negocio al seleccionarlo, si por el contrario, el campo está vacío **ADempiere** mostrará la información contable de todos los socios de negocios.
+        #. **Movimientos Contables**
 
-        |Campo Socio del Negocio|
+        #. **Producción**
 
-        Imagen 5. Campo Socio del Negocio
+        #. **Inventario de Uso Interno**
 
-    #. Seleccione el producto en el campo "**Producto**".
+        #. **Asignaciones de Pagos**
 
-        El producto no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por producto, es decir, el informe financiero podrá emitir saldos contables de un producto al seleccionarlo, si por el contrario, el campo está vacío **ADempiere** mostrará la información contable de todos los productos.
+        #. **Asignaciones de Inventario**
 
-        |Campo Producto|
+        #. **Notas Contables**
 
-        Imagen 6. Campo Producto
+        El resultado con este tipo de aplicación, sería el siguiente:
 
-    #. Seleccione la actividad en el campo "**Actividad**".
+        |Información Contable Actual|
 
-        La actividad no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por actividad, que generalmente es utilizada en contabilidad para distribución de los costos y gastos según las actividades que se desarrollan en la empresa, es decir, el informe financiero podrá emitir saldos contables de una actividad al seleccionarla, si por el contrario, el campo está vacío **ADempiere** mostrará la información contable de todas las actividades.
+        Imagen 1. Información Contable Actual
 
-        |Campo Actividad|
+        .. note::
 
-        Imagen 7. Campo Actividad
+            El tipo de aplicación **actual**, es predeterminado en toda transacción realizada y reportes generados desde **ADempiere**.
 
-    #. Seleccione la región de venta en el campo "**Región de Venta**".
+    #. **Compromiso:** Se refiere a compromisos mutuos que asume o genera la empresa, generalmente asociados a un contrato o un documento que avala el mismo, como una orden de venta (**adquiere un compromiso con el cliente**) u orden de compra (**genera un compromiso con el proveedor**).
 
-        La región de venta no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por región de venta, que generalmente es utilizada para clasificar las zonas en las cuales la empresa establece negocios, es decir, el informe financiero podrá emitir saldos contables de una región de venta al seleccionarla, si por el contrario, el campo está vacío **ADempiere** mostrará la información contable de todas las regiones.
+        De esta manera al generar un documento que compromete el inventario por precios convenidos, se refleja en balance los activos o pasivos derivados de los registros transaccionales, como lo es:
 
-        |Campo Región de Ventas|
+        #. **Orden de Compra**
 
-        Imagen 8. Campo Región de Ventas
+        #. **Orden de Venta**
 
-    #. Seleccione el centro de costo en el campo "**Centro de Costo**".
+        El resultado con este tipo de aplicación, sería el siguiente:
 
-        El centro de costo no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por centro de costo, que generalmente es utilizado para segmentar los costos que genera una organización, permitiendo definir la ganancia o pérdida que le pueden añadir de forma directa o indirecta a una empresa, es decir, el informe financiero podrá emitir saldos contables de una región de venta al seleccionarla, si por el contrario, el campo está vacío **ADempiere** mostrará la información contable de todos los centros de costos.
+        |Información Contable Compromiso|
 
-        |Campo Centro de Costos|
+        Imagen 2. Información Contable Compromisos
 
-        Imagen 9. Campo Centro de Costos
+    #. **Estadística:** Se refiere a registros contables basados en cálculos estadísticos, que establecen un análisis de criterios económicos predictivo y confiable, generalmente es utilizada para medir varianza de costos en producción.
 
-    #. Seleccione el tipo de aplicación en el campo "**Tipo de Aplicación**".
+        Permite comparar resultados del pasado en la empresa con los obtenidos en la actualidad, como por ejemplo, comparar ingresos obtenidos en una estadística anual, también, establece resultados que ayudan a :ref:`documento/informe-financiero` para toma de decisiones.
 
-        El tipo de aplicación no es un campo obligatorio, sin embargo, le permite filtrar la información por tipo de aplicación, que generalmente es utilizado para clasificar el tipo de contabilidad aplicado, el tipo de aplicación establecido por defecto es actual, basado en la configuración previa en las "**Columnas de Informe**" asociada al informe financiero, no obstante, podrá seleccionar entre, actual, presupuesto, reserva, compromiso y estadística, es decir, el informe financiero podrá emitir saldos contables de un tipo de aplicación específico al seleccionarlo, si por el contrario, el campo está vacío **ADempiere** mostrará la información contable del tipo de aplicación "**Actual**", para más información consulte el documento :ref:`documento/tipo-de-aplicación`.
+        Este tipo de aplicación no compromete cuentas reales, ni cuentas nominales, **genera hechos contables referenciales** derivados de los registros transaccionales, como lo es:
 
-        |Campo Tipo de Aplicación|
+        #. **Nota Contable**
 
-        Imagen 10. Campo Tipo de Aplicación
+        El resultado con este tipo de aplicación sería el siguiente asiento:
 
-    #. Seleccione la opción **Si** o **No** en el campo "**Desplegar fuentes Fuentes**".
+        |Información Contable Estadística|
 
-        Desplegar fuentes Fuentes no es un campo obligatorio, sin embargo, le permite visualizar el saldo de las cuentas detalle que dan origen al saldo de las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción "**Si**", el informe financiero mostrará el saldo de las cuentas de mayor y el saldo de las cuentas detalle que componen esta cuenta, si por el contrario, la opción seleccionada es "**No**" o el campo está vacío **ADempiere** mostrará el saldo contable únicamente de las cuentas definidas previamente en el "**Grupo de Líneas del Informe**" asociado al informe financiero.
+        Imagen 3. Información Contable Estadística
 
-        |Campo Desplegar fuentes Fuentes|
+    #. **Presupuesto:** Se refiere a registros contables basados en una predicción de los resultados y el flujo de caja que se espera obtener en el futuro periodo fiscal.
 
-        Imagen 11. Campo Desplegar fuentes Fuentes
+        Este tipo de aplicación estima generalmente cuentas reales y nominales, emitiendo una visión con respecto a la utilidad o perdida del periodo fiscal venidero, se convierte entonces en el objetivo que la empresa espera cumplir.
 
-    #. Seleccione la opción **Si** o **No** en el campo "**Lista Transacciones**".
+        Este tipo de aplicación no compromete cuentas reales, ni cuentas nominales, **genera hechos contables referenciales** derivados de los registros transaccionales, como lo es:
 
-        Lista Transacciones es un campo dependiente del campo "**Desplegar fuentes Fuentes**", es decir solo estará habilitado cuando el campo "**Desplegar fuentes Fuentes**" esté establecido con la opción "**Si**","**Lista Transacciones**" no es un campo obligatorio, sin embargo, le permite visualizar el débito o crédito de las transacciones que dan origen al saldo de las cuentas detalles y a su vez a las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción "**Si**", el informe financiero mostrará el monto de las transacciones que componen cada cuenta, si por el contrario, la opción seleccionada es "**No**" o el campo está vacío **ADempiere** mostrará el saldo contable únicamente de las cuentas detalles.
+        #. **Nota Contable**
 
-        |Campo Lista Transacciones|
+        El resultado con este tipo de aplicación sería el siguiente asiento:
 
-        Imagen 12. Campo Lista Transacciones
+        |Información Contable Presupuesto|
 
-    #.  Seleccione la opción **Si** o **No** en el campo **Listas Fuentes Primero**.
+        Imagen 4. Información Contable Presupuesto
 
-        Listas Fuentes Primero se encuentra por defecto con la opción "**No**", no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción "**Desplegar fuentes Fuentes**" y "**Lista Transacciones**" de forma que si la opción seleccionada en el campo "**Listas Fuentes Primero**" es "**Si** las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el "**Grupo de Líneas del Informe**" asociado al informe financiero, si por el contrario, el campo está vacío **ADempiere** mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el "**Grupo de Líneas del Informe**" asociado al informe financiero.
+    #. **Reserva:** Se refiere a reservas realizadas previendo contingencias en contabilidad, este tipo de pasivos es una posible obligación y es considerada un provisión que tiene fundamentos en experiencias pasadas.
 
-        |Campo Lista Fuentes Primero|
+        La contabilidad en esta aplicación genera incertidumbre porque alude a una advertencia en la operatividad, un ejemplo de ello podría ser, estimar la compra de un inventario que funge como insumo para la producción.
 
-        Imagen 13. Checklist Lista Fuentes Primero
+        Estos pasivos son generados como una provisión, generando un hecho contable que estima una compra derivada del registro transaccional:
 
-    #. Seleccione el informe por jerarquía en  el campo **Reportando Jerarquías**.
+        #. **Requisión a Compra**
 
-        Reportando Jerarquías no es un campo obligatorio, sin embargo, le permite generar un informe financiero basado en la configuración realizada en un informe por jerarquía previamente, para explicarlo mejor veamos el siguiente ejemplo:
+        El resultado con este tipo de aplicación sería el siguiente asiento:
 
-            Imaginemos una organización cuya estructura en ventas está definida de la siguiente forma:
+        |Información Contable Reserva|
 
-            |Organigrama Venta|
+        Imagen 5. Información Contable Reserva
 
-            Imagen 14. Organigrama Ventas
-
-            Si se desea ver un informe para realizar un análisis de desempeño de la entidad en la organización seguramente se evaluarán resultados en cuentas como  ingresos, cuentas por cobrar, compromisos, costos y gastos asociado al departamento, región de ventas o incluso al empleado(gerente de ventas o vendedor), para esto **ADempiere** permite la creación de jerarquías para cualquier elemento seleccionado en el esquema contable y de esta forma reportar por estructuras y roles definidos previamente en "**Informe de Jerarquías**".
-
-            Basados en lo anteriormente expuesto, en este ejemplo se crearía una jerarquía asociando los siguientes árboles:
-
-                #. **Arbol de Actividad**: La actividad se refiere a la actividad realizada en la organización, podemos decir entonces que funge como un departamento, en este árbol se definirá la estructura del organigrama en cuestión.
-
-                #. **Árbol de Cuentas**: Las cuentas contables a evaluar para el ejemplo son las cuentas de ingreso, cuentas por cobrar, compromisos, costos y gastos, se definirá entonces un árbol con estas cuentas.
-
-            De esta forma se definirán todos los árboles necesarios para el ejemplo, para profundizar a cerca de la creación de un **Informe de Jerarquías** vaya al instructivo que `ERPyA`_ ha diseñado para usted.
-
-            Al generar el informe financiero con esta definición usted podrá observar un reporte basado en la estructura del informe de jerarquías con el saldo de las cuentas y las actividades fijadas en el mismo.
-
-        |Campo Reportando Jerarquías|
-
-        Imagen 15. Campo Reportando Jerarquías
-
-    #. Seleccione el cubo de informe en el campo **Cubo Informe**.
-
-        El cubo de informe no es un campo obligatorio, sin embargo, le permite generar un informe financiero con una información analizada en línea en una base de datos multidimensional de gran volumen, es decir, muestra datos procesados con una gran agilidad y rapidez reduciendo a gran escala el tiempo y los recursos empleados en el análisis, para explicarlo mejor veamos el siguiente ejemplo:
-
-            Imaginemos una empresa en la que requiere dentro de una escala de tiempo incluir datos de un periodo contable, este llevaría por nombre "**Junio 2020**", en el que se desean medir otras dimensiones del cubo para alcanzar información referente a un proyecto, los productos por categorías, y costos en los que incurre la empresa para alcanzar el proyecto.
-
-            |Cubo de información|
-
-            Imagen 16. Cubo de información
-
-            Este cruce de la información permite analizar diversas situaciones y resultados llevando a cabo consultas de los datos masivos de manera eficiente y ligera para  tomar decisiones acertadas.
-
-        |Campo Cubo Informe|
-
-        Imagen 17. Campo Cubo Informe
-
-#. Luego de verificar los campos que contiene la ventana, el usuario debe seleccionar la opción "**OK**", para que sea generado el informe.
-
-    |Ventana Crear Informe|
-
-    Imagen 18. Ventana Crear Informe
+Esta funcionalidad complementa a **ADempiere**, permitiendo a la directiva de la empresa establecer una visión versátil, emitiendo resultados con múltiples escenarios, si quieres conocer más de :ref:`src/adempiere/performance-analysis`, visita nuestra plataforma de aprendizaje.
