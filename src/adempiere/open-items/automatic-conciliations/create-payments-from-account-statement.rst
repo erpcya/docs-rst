@@ -11,7 +11,7 @@
 .. |Socio de Negocio Otro Tipo de Pago| image:: resources/Another_t_payment_SN.png
 .. |Cargo Otro Tipo de Pago| image:: resources/Otro_t_pago_Cargo.png
 .. |Campo Pago Otro tipo de Pago| image:: resources/Otro_t_pago_Pago.png
-.. |Campo Socio Negocio Otro tipo de Pagos| image:: resources/Otro_t_pago_Pago.png
+.. |Campo Socio Negocio Otro tipo de Pagos| image:: resources/Otro_t_pago_Campo_SN.png
 .. |OK Otro Tipo de Pago| image:: resources/okcaso3.png
 .. |Campo Referencia TEF| image:: resources/Otro_t_pago_ReferenciaTEF.png
 .. |Campo Cantidad TEF Otro tipo de Pagos| image:: resources/Otro_t_pago_CantidadTEF.png
@@ -91,17 +91,17 @@ Para aquellos movimientos que pertenezcan a comisiones bancarias estos deben ser
 
     #. Seleccione en el campo "**Tipo de Transacción**" la opción "**Cargo Bancario**".
 
-    .. figure:: resources/cargobancario.png
-       :alt: Campo Tipo de Transacción
+        .. figure:: resources/cargobancario.png
+           :alt: Campo Tipo de Transacción
 
-    Imagen 6. Campo Tipo de Transacción
+        Imagen 6. Campo Tipo de Transacción
 
     #. Seleccione en el campo "**Cargo**" el cargo de comisión correspondiente, para este ejemplo es "**Comisión FLAT**".
 
-    .. figure:: resources/cargocaso1.png
-       :alt: Campo Cargo
+        .. figure:: resources/cargocaso1.png
+           :alt: Campo Cargo
 
-    Imagen 7. Campo Cargo
+        Imagen 7. Campo Cargo
 
 #. Seleccione la opción "**OK**" para generar automáticamente el documento de pago/cobro en ADempiere.
 
