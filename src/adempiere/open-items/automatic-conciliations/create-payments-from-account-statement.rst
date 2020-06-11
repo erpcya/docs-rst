@@ -14,7 +14,8 @@
 .. |Campo Socio Negocio Otro tipo de Pagos| image:: resources/Otro_t_pago_Pago.png
 .. |OK Otro Tipo de Pago| image:: resources/okcaso3.png
 .. |Campo Referencia TEF| image:: resources/Otro_t_pago_ReferenciaTEF.png
-.. |Campo Cantidad TEF Otro tipo de Pagos| image:: resources/Otro_t_pago_ReferenciaTEF.png
+.. |Campo Cantidad TEF Otro tipo de Pagos| image:: resources/Otro_t_pago_CantidadTEF.png
+.. |Acercar Otro tipo de Pagos| image:: resources/Otro_t_pago_Acercar.png
 .. |Pago/Cobro Otro tipo de Pagos| image:: resources/Otro_t_pago_Ventana_Pago-Cobro.png
 .. |Movimientos Bancarios Pagos sin Identificar| image:: resources/movimientos_No_Conciliados.png
 .. |Selección Pago sin Identificar| image:: resources/Selección_CobrosinIdentificar.png
@@ -243,7 +244,7 @@ Para aquellos movimientos que se encuentran en el extracto bancario que al momen
 
             |Campo Referencia TEF|
 
-            Imagen 22. |Campo Referencia TEF|
+            Imagen 22. Campo Referencia TEF
 
         #. En el campo "**Cantidad TEF**" debe aparecer el mismo monto del movimiento bancario.
 
@@ -286,7 +287,7 @@ Para poder llevar estas transacciones bancarias a "**Pagos o Cobros sin Identifi
 
     |Movimientos Bancarios Pagos sin Identificar|
 
-    Imagen 26. Movimientos Bancarios Pagos sin Identificar|
+    Imagen 26. Movimientos Bancarios Pagos sin Identificar
 
 #. Seleccione el o los "**Pago/Cobro**" con procedencia desconocida.
 
@@ -310,7 +311,7 @@ Para poder llevar estas transacciones bancarias a "**Pagos o Cobros sin Identifi
 
         Al seleccionar la opción "**OK**"  ADempiere creará un "**Pago/Cobro**" con las mismas características del movimiento bancario desconocido en cuanto monto, fecha, y moneda.
 
-#. Podrá visualizar el "**Pago/Cobro** creado de "**Otro Tipo de Pago**" en la pestaña "**Línea Estado de Cuentas**", como la pestaña cuenta con varios registros, esté puede ser ubicado por el monto del movimiento bancario.
+#. Podrá visualizar el "**Pago/Cobro** creado de "**Pago sin Identificar**" en la pestaña "**Línea Estado de Cuentas**", como la pestaña cuenta con varios registros, esté puede ser ubicado por el monto del movimiento bancario.
 
 #. Al ubicar el registro esté debe contar con las siguientes características:
 

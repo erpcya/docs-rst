@@ -209,7 +209,7 @@ Una vez seleccionado el banco con el que se realizará la conciliación bancaria
 
     El extracto bancario puede poseer algunos registros que no han sido cargados en ADempiere, estos pueden ser cobros no identificados, comisiones bancarias entre otros, los cuales no van ser identificados al momento de hacer la simulación, sin embargo para estos pagos/cobros no conciliados se aplicará un proceso que se detalla en el documento :ref:`documento/crear-pagos-desde-estado-de-cuenta`.
 
-Al seleccionar "Ok" ADempiere lo llevará nuevamente a la ventana principal "Estado de Cuenta Bancario".
+Al seleccionar "**Ok**" ADempiere lo llevará nuevamente a la ventana principal "**Estado de Cuenta Bancario**".
 
 **Coincidencia Bancarias**
 --------------------------
