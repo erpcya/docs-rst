@@ -97,7 +97,7 @@
 
     #. Seleccione el tipo de aplicación en el campo "**Tipo de Aplicación**".
 
-        El tipo de aplicación no es un campo obligatorio, sin embargo, le permite filtrar la información por tipo de aplicación, que generalmente es utilizado para clasificar el tipo de contabilidad aplicado, el tipo de aplicación establecido por defecto es actual, basado en la configuración previa en las "**Columnas de Informe**" asociada al informe financiero, no obstante, podrá seleccionar entre, actual, presupuesto, reserva, compromiso y estadística, es decir, el informe financiero podrá emitir saldos contables de un tipo de aplicación específico al seleccionarlo, si por el contrario, el campo está vacío **ADempiere** mostrará la información contable del tipo de aplicación "**Actual**".
+        El tipo de aplicación no es un campo obligatorio, sin embargo, le permite filtrar la información por tipo de aplicación, que generalmente es utilizado para clasificar el tipo de contabilidad aplicado, el tipo de aplicación establecido por defecto es actual, basado en la configuración previa en las "**Columnas de Informe**" asociada al informe financiero, no obstante, podrá seleccionar entre, actual, presupuesto, reserva, compromiso y estadística, es decir, el informe financiero podrá emitir saldos contables de un tipo de aplicación específico al seleccionarlo, si por el contrario, el campo está vacío **ADempiere** mostrará la información contable del tipo de aplicación "**Actual**". Para profundizar más este tema vaya a el documento: :ref:`documento/tipo-de-aplicación`
 
         |Campo Tipo de Aplicación|
 
