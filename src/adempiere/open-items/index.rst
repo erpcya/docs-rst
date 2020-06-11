@@ -17,7 +17,8 @@ y así obtener resultados exitosos; esta documentación está destinada a defini
     :maxdepth: 2
 
     bank-transfer/index
-    payment-selection-cxp/index
+    payment-selection/index
+    print-export/index
     payment/index
     collection/index
     cash-refund/index

@@ -1,22 +1,22 @@
 .. _ERPyA: http://erpya.com
-.. |Menú de ADempiere| image:: resources/
-.. |Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Campo Agente Comercial de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Campo Fecha de la Orden de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Campo Fecha Prometida de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Campo Socio del Negocio de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Campo Producto de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Opción Comenzar Búsqueda de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Selección de Líneas de la Orden de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Campo Fecha de Facturación de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Checklist Consolidado en un Documento de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Campo Organización de la Trans de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Campo Acción en el Documento de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Campo Tipo de Documento Destino de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Checklist Agregar Línea de Referencia en Factura de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Opción OK de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/
-.. |Consulta de Facturas Generadas| image:: resources/
-.. |Imprimir de Facturas Generadas| image:: resources/
+.. |Menú de ADempiere| image:: resources/menu-generate-invoice-from-order-lines.png
+.. |Ventana Generar Factura desde Líneas de la Orden| image:: resources/generate-invoice-from-order-lines-window.png
+.. |Campo Agente Comercial de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/commercial-agent-field-of-the-generate-invoice-window-from-order-lines.png
+.. |Campo Fecha de la Orden de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/order-date-field-of-the-generate-invoice-window-from-order-lines.png
+.. |Campo Fecha Prometida de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/promised-date-field-of-the-generate-invoice-window-from-order-lines.png
+.. |Campo Socio del Negocio de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/business-partner-field-of-the-generate-invoice-window-from-order-lines.png
+.. |Campo Producto de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/product-field-of-the-generate-invoice-window-from-order-lines.png
+.. |Opción Comenzar Búsqueda de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/option-to-start-searching-the-window-generate-invoice-from-order-lines.png
+.. |Selección de Líneas de la Orden de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/selection-of-order-lines-in-the-window-generate-invoice-from-order-lines.png
+.. |Campo Fecha de Facturación de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/billing-date-field-of-the-generate-invoice-from-order-lines-window.png
+.. |Checklist Consolidado en un Documento de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/consolidated-checklist-in-a-document-of-the-window-generate-invoice-from-order-lines.png
+.. |Campo Organización de la Trans de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/organization-field-of-the-window-trans-generate-invoice-from-order-lines.png
+.. |Campo Acción en el Documento de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/action-field-in-the-window-document-generate-invoice-from-order-lines.png
+.. |Campo Tipo de Documento Destino de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/destination-document-type-field-of-the-generate-invoice-window-from-order-lines.png
+.. |Checklist Agregar Línea de Referencia en Factura de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/checklist-add-reference-line-in-invoice-of-the-window-generate-invoice-from-order-lines.png
+.. |Opción OK de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/ok-option-of-the-window-generate-invoice-from-order-lines.png
+.. |Consulta de Facturas Generadas| image:: resources/query-invoices-generated-from-the-smart-search-window-generate-invoice-from-order-lines.png
+.. |Imprimir Facturas Generadas| image:: resources/print-invoices-generated-from-the-smart-search-window-generate-invoice-from-order-lines.png
 .. _documento/generar-factura-desde-líneas-de-la-orden:
 
 **Generar Factura desde Líneas de la Orden**
