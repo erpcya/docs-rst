@@ -22,11 +22,15 @@
 .. |Selección Pago sin Identificar| image:: resources/Selección_CobrosinIdentificar.png
 .. |Pago Cobro sin Identificar| image:: resources/Tipo_Transacción_Pago_sin_Identificar.png
 .. |OK Pago Cobro sin Identificar| image:: resources/Pagos_sin_Identificar_OK.png
-.. |Descripción Pago Cobro sin Identificar| image:: resources/
-.. |Campo Pago Cobro sin Identificar| image:: resources/
-.. |Referencia Pago Cobro sin Identificar| image:: resources/
-.. |Acercar Pago Cobro sin Identificar| image:: resources/
-.. |Pago/Cobro Sin identificar| image:: resources/
+.. |Descripción Pago Cobro sin Identificar| image:: resources/Pagos_sin_Identificar_Descripcion.png
+.. |Campo Pago Cobro sin Identificar| image:: resources/Pagos_sin_Identificar_Pago.png
+.. |Referencia Pago Cobro sin Identificar| image:: resources/Pagos_sin_Identificar_Sn.png
+.. |Acercar Pago Cobro sin Identificar| image:: resources/Pagos_sin_Identificar_Acercar.png
+.. |Pago/Cobro Sin identificar| image:: resources/Pagos_sin_Identificar_Ventana_Pago.png
+.. |Estado de Cuenta| image:: resources/Ventana_Estado_Cuentas.png
+.. |Grupo de Estado| image:: resources/Grupo_Campo_Estado.png
+.. |Botón Completar| image:: resources/opcion_completar.png
+
 
 **Crear Pagos desde Estado de Cuenta**
 --------------------------------------
@@ -177,7 +181,7 @@ Para aquellos movimientos que se encuentran en el extracto bancario que al momen
 
 ..  note::
 
-Para este caso se tomará como ejemplo un préstamo bancario, el cual el socio de negocio al que se le realizó el préstamo hizo un abono, en su momento esta transferencia no había sido notificada por ello no se realizó el registro del pago/cobro en ADempiere, pero como se sabe de dónde proviene ese movimiento bancario este entraría dentro de la tipo de transacción **"Otro tipo de Pago"**.
+    Para este caso se tomará como ejemplo un préstamo bancario, el cual el socio de negocio al que se le realizó el préstamo hizo un abono, en su momento esta transferencia no había sido notificada por ello no se realizó el registro del pago/cobro en ADempiere, pero como se sabe de dónde proviene ese movimiento bancario este entraría dentro de la tipo de transacción **"Otro tipo de Pago"**.
 
 #. En la ventana de búsqueda inteligente "**Crear Pago desde Estado de Cuenta**" seleccione el o los pagos/cobros correspondientes a otros tipos de pagos.
 
@@ -270,6 +274,7 @@ Para este caso se tomará como ejemplo un préstamo bancario, el cual el socio d
     Imagen 25. Pago/Cobro Otro tipo de Pagos
 
 
+
 **Pagos o Cobros sin Identificar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -280,7 +285,7 @@ Para los movimientos bancarios que se desconocen de dónde proviene, en ADempier
 
 .. note ::
 
-Los **"Pago/Cobro"**que se pasen a ser no identificados, luego podrán ser identificados una vez se verifique su procedencia.
+    Los **"Pago/Cobro"**que se pasen a ser no identificados, luego podrán ser identificados una vez se verifique su procedencia.
 
 
 Para poder llevar estas transacciones bancarias a **"Pagos o Cobros sin Identificar"**  ya estando dentro de la opción "**Crear Pago desde Estado de Cuenta**" se debe realizar los siguientes pasos:
@@ -310,6 +315,7 @@ Para poder llevar estas transacciones bancarias a **"Pagos o Cobros sin Identifi
 	Imagen 29. Ok Pago Cobro sin Identificar
 
     ..  note::
+        
         Al seleccionar la opción "**OK**"  ADempiere creará un **"Pago/Cobro"** con las mismas características del movimiento bancario desconocido en cuanto monto, fecha , y moneda.
 
 #. Podrá visualizar el **"Pago/Cobro"** creado de "**Otro Tipo de Pago**" en la pestaña **”Línea Estado de Cuentas”**, como la pestaña cuenta con varios registros, esté puede ser ubicado por el monto del movimiento bancario.
@@ -361,7 +367,7 @@ Pago no identificado””**
 **Completar Conciliación Bancaria**
   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-    Una vez identificado todos los movimientos bancarios y conciliado correctamente se puede completar la conciliación Bancaria, para ello debe seguir los siguientes pasos:
+Una vez identificado todos los movimientos bancarios y conciliado correctamente se puede completar la conciliación Bancaria, para ello debe seguir los siguientes pasos:
 
 #. Debe posicionarse en la ventana padre **"Estado de Cuenta Bancario"**.
 
