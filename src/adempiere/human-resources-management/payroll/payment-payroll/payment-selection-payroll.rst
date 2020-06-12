@@ -87,3 +87,7 @@
 	|Completar la Selección|
 
 	Imagen 7. Completar la Selección
+
+	..note::
+
+    Para este ejemplo de Selección de Pago se utilizó la cuenta de la caja asociada al Banco Nacional de Crédito.
