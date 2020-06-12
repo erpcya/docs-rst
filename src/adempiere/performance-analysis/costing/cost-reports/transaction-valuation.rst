@@ -40,6 +40,10 @@
 
         Imagen 4. Campo Almacén de la Ventana Valoración de la Transacción
 
+        .. note::
+
+            Para simular el proceso y generar el reporte de valoración de inventario, se deja el campo "**Almacén**" en blanco, indicando de esta manera que la búsqueda de la información se debe realizar en todos los almacenes registrados en ADempiere.
+
     #. Seleccione en el campo "**Fecha de Movimiento**", el rango de fechas en el que se realizó el movimiento del producto y por el cual el usuario requiere filtrar la información.
 
         |Campo Fecha de Movimiento de la Ventana Valoración de la Transacción|
@@ -51,6 +55,10 @@
         |Campo Producto de la Ventana Valoración de la Transacción|
 
         Imagen 6. Campo Producto de la Ventana Valoración de la Transacción
+
+        .. note::
+
+            Para simular el proceso y generar el reporte de valoración de inventario, se selecciona como ejemplo el producto "**Cucharilla**".
 
     #. Seleccione en el campo "**Categoría del Producto**", la categoría a la que pertenece el producto seleccionado y por la cual el usuario requiere filtrar la información.
 
