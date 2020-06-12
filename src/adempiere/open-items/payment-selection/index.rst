@@ -5,13 +5,13 @@
 **Selección de Pago**
 =====================
 
-Este documento permite seleccionar los documentos por pagar que posea la empresa, agrupándolos para luego ser pagados todos o algunos de ellos, dependiendo de la cantidad de pagos que sean autorizados.
+Una selección de pagos en ADempiere no es más que la agrupación de documentos de CxP o de compras que se necesitan ser cancelados ya sean en su totalidad o de manera parcial, dentro de la selección de pagos se encuentran los tipos de documentos **”Orden de Pago”** y la **” Selección de Pagos de Cuentas por Pagar”**, los cuales son utilizados para seguir los canales regulares entre los departamentos de compras, cuenta por pagar y tesorería.  
 
-Una orden de pago es un documento que se elabora cuando no se poseen todos los datos necesarios para realizar la selección de pagos de cuentas por pagar, en este documento se solicita autorización para que paguen los documentos agrupados de cuentas por pagar que posee la empresa. Un caso de orden de pago, podría ser cuando no se sabe exactamente desde que cuenta se realizarán los pagos.
+La **”Orden de Pago”** es utilizada para crear aquellas  solicitud de pago de los documentos pendientes por pagar, comúnmente es utilizada por los departamentos de compras y de cuentas pagar, ya qué ellos solo se encargan de agrupar aquellos documentos los cuales necesitan qué sean cancelados.
 
-El proceso es realizado por el departamento de cuentas por pagar o tesorería de una empresa. Dicho departamento se encarga de realizar la orden de pago y esperar autorización de sus superiores para proceder a realizar la selección de pagos.
+La **” Selección de Pagos de Cuentas por Pagar”** es utilizada cuando se define cuales son los documentos que sí se les generará el pago y desde qué cuenta bancaria de la compañía saldrán la cancelación de los documentos seleccionados; la selección parte de la agrupación de facturas asociada a en la **”Orden de Pago”** este procedimiento es comúnmente realizado por el departamento de tesorería, ya qué ellos son los encargados de llevar los saldos en banco lo cual le permite tener una toma de decisión del banco a utilizar para  saldar una factura de CxP o realizar un anticipo a proveedores.
 
-El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar y obtener un resultado exitoso al momento de generar una orden de pago y posteriormente una selección de pago de cuentas por pagar para culminar el procedimiento de manera exitosa en la versión 3.9.2 de ADempiere en la localización Venezuela.
+Para conocer mejor este procedimiento de la selección de pagos `ERPyA`_  ofrece una explicación eficiente y sencilla de este proceso para así  obtener un resultado exitoso al momento de generar una orden de pago y posteriormente una selección de pago de cuentas por pagar para culminar el procedimiento de manera exitosa en la versión 3.9.2 de ADempiere en la localización Venezuela. 
 
 .. toctree::
     :maxdepth: 2
