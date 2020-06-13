@@ -18,90 +18,127 @@
 .. _ERPyA: http://erpya.com
 .. _documento/nota-de-contabilidad:
 
+========================
 **Nota de Contabilidad**
 ========================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la ventana "**Diario Contable**".
 
     |Menú de ADempiere|
-    
+
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la siguiente ventana donde debe seleccionar el icono "**Registro Nuevo**", para crear un nuevo registro de diario contable en ADempiere.
+#. Podrá visualizar la siguiente ventana.
+
+    |Ventana Diario Contable y Icono Registro Nuevo|
+
+-----------------
+**Lote Contable**
+-----------------
+
+#. Seleccione el icono "**Registro Nuevo**", para crear un nuevo registro de diario contable en ADempiere.
 
     |Ventana Diario Contable y Icono Registro Nuevo|
 
     Imagen 2. Ventana Diario Contable y Icono Registro Nuevo
 
-    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el diario contable.
+    #. Seleccione la organización en el campo "**Organización**".
+
+        La organización es un campo obligatorio, le permite determinar, a que organización corresponde el lote contable, para dimensionar o clasificar el asiento contable por organización, para profundizar más este tema vaya a el documento: :ref:`documento/dimensiones-contable`.
 
         |Campo Organización|
 
         Imagen 3. Campo Organización
 
-    #. Introduzca en el campo "**Descripción**", el nombre descriptivo del conjunto de movimientos a realizar. 
+    #. Introduzca una descripción clara en el campo "**Descripción**".
+
+        La descripción es un campo obligatorio, que le ayudará a determinar en reportes detallados el motivo o justificación por el cual existe el asiento, es por ello que recomendamos definir una descripción clara y precisa del lote contable, ya que la misma será mostrada en reportes de auditorias.
 
         |Campo Descripción|
 
         Imagen 4. Campo Descripción
 
-    #. Seleccione en el campo "**Tipo de Aplicación**", el tipo de total (actual, compromisos, estadística, presupuesto, reserva) que esta nota contable actualizó. 
+    #. Seleccione un tipo de aplicación en el campo "**Tipo de Aplicación**".
+
+        El tipo de aplicación es un campo obligatorio, le permite clasificar el lote contable por tipo de aplicación, este es establecido actual por defecto, para profundizar más este tema vaya a el documento: :ref:`documento/tipo-de-aplicación`
 
         |Campo Tipo de Aplicación|
 
         Imagen 5. Campo Tipo de Aplicación
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. 
+    #. Seleccione un tipo de documento en el campo "**Tipo de Documento**".
+
+        El tipo de documento es un campo obligatorio, que  define el comportamiento del documento que se esta elaborando, para profundizar más este tema vaya a el documento: :ref:`documento/tipo-documento`.
 
         |Campo Tipo de Documento|
 
         Imagen 6. Campo Tipo de Documento
 
-    #. Seleccione en el campo "**F. Documento**", la fecha en la cual fue generado el documento.
+    #. Seleccione la fecha en el campo "**F. Documento**".
+
+        La fecha de documento es un campo obligatorio, que  le permite filtrar por rango de fecha los lotes contables realizados.
 
         |Campo Fecha del Documento|
 
         Imagen 7. Campo Fecha del Documento
 
-    #. Seleccione en el campo "**Fecha Contable**", la fecha a ser usada en las cuentas de contabilidad general generadas desde este documento.
+    #. Seleccione la fecha en el campo "**Fecha Contable**".
+
+        La fecha contable es un campo obligatorio, que le permite establecer un limite contable para las notas contables dependientes de este lote contable.
 
         |Campo Fecha Contable|
 
         Imagen 8. Campo Fecha Contable
 
-    #. Introduzca en el campo "**Cifra de Control**", el monto total correspondiente al débito o crédito.
+    #. Introduzca un monto en el campo "**Cifra de Control**".
+
+        La cifra control no es un campo obligatorio, sin embargo le permite validar que el monto total del débito sea igual a la cifra control, esta validación es ejecutada cuando el monto es diferente a cero.
 
         |Campo Cifra de Control|
-        
+
         Imagen 9. Campo Cifra de Control
-        
+
     .. note::
-        
+
         Recuerde guardar el registro de los campos con ayuda del icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
-#. Seleccione la pestaña "**Nota Contable**" y proceda al llenado de los campos correspondientes para especificar una descripción para cada movimiento.
+#. Seleccione la pestaña "**Nota Contable**".
+
+-----------------
+**Nota Contable**
+-----------------
+
+#. Proceda al llenado de los campos correspondientes para especificar una descripción para cada movimiento.
 
     |Pestaña Nota Contable|
 
     Imagen 10. Pestaña Nota Contable
 
-    #. Introduzca en el campo "**Descripción**", el nombre descriptivo del movimiento a realizar. 
+    #. Introduzca una descripción clara en el campo "**Descripción**".
+
+        La descripción es un campo obligatorio, que le ayudará a determinar en reportes detallados el motivo o justificación por el cual existe el asiento, es por ello que recomendamos definir una descripción clara y precisa de la nota contable, ya que la misma será mostrada en reportes de auditorias.
 
         |Campo Descripción de la Pestaña Nota Contable|
 
         Imagen 11. Campo Descripción de la Pestaña Nota Contable
 
     .. note::
-        
+
         Recuerde guardar el registro de los campos con ayuda del icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+
+#. Seleccione la pestaña "**Línea**".
+
+-----------------
+**Línea**
+-----------------
 
 #. Seleccione la pestaña "**Línea**" y proceda al llenado de los campos correspondientes para definir cada uno de los movimientos.
 
     |Pestaña Línea|
 
-    Imagen 12. Pestaña Línea  
+    Imagen 12. Pestaña Línea
 
-    #. Seleccione en en el campo "**Combinanción**", la combinación contable correspondiente al procedimiento que esta realizando, la misma puede ser seleccionada con ayuda del identificador del campo "**Combinación**". 
+    #. Seleccione en en el campo "**Combinanción**", la combinación contable correspondiente al procedimiento que esta realizando, la misma puede ser seleccionada con ayuda del identificador del campo "**Combinación**".
 
         |Icono del Campo Combinación|
 
