@@ -1,4 +1,4 @@
-.. |Menú de ADempiere| image:: resources/menu.png
+.. |Menú de ADempiere| image:: resources/payment-selection-menu.png
 .. |Icono Registro Nuevo 1| image:: resources/icono-nuevo2.png
 .. |Campo Organización 1| image:: resources/org2.png
 .. |Campo Tipo de Documento 1| image:: resources/tipo-doc2.png
