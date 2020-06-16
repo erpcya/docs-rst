@@ -11,7 +11,7 @@ En contabilidad una nota contable simboliza un documento que se origina internam
 
 Generalmente estos registros carecen de soportes administrativos que justifiquen su origen o procedencia, en consecuencia, se hace necesario la realización de asientos contables que corrijan o ajusten los créditos y débitos faltantes en los balances.
 
-ADempiere por ser un software **ERP** no apoya la realización de notas contables, puesto que ofrece una gama amplia de procesos administrativos que a su vez generan hechos contables que sustituyen esta práctica.
+ADempiere por ser un software **ERP** no apoya la realización de notas contables, puesto que ofrece una gama amplia de procesos administrativos que a su vez generan los hechos contables que sustituyen los asientos contables manuales.
 
 Sin embargo, ADempiere cuenta con una solución llamada "**Diario Contable**" que permite la creación de registros contables en lotes, es decir, usted podrá esquematizar más de un periodo contable con asientos en un solo diario de contabilidad, para entenderlo mejor veamos el siguiente ejemplo:
 
@@ -71,7 +71,9 @@ Si se aplica el ejemplo anterior en un diario contable en ADempiere quedará de 
 
     Imagen 1. Estructura de Diario Contable Aplicando el Ejemplo
 
-De esta manera tendríamos un lote contable, con doce notas contables y las líneas necesarias realizando los asientos correspondientes a cada mes, en las que se cargan y abonan las cuentas correspondientes para balancear la nota contable, cabe acotar, que si no se encuentra balanceada la nota contable no podrá completar el registro.
+De esta manera tendríamos un lote contable, con doce notas contables y las líneas necesarias realizando los asientos correspondientes a cada mes, en las que se cargan y abonan las cuentas correspondientes para balancear el diario contable, cabe acotar, si su diario está desbalanceado y la configuración de la compañía no permite el desbalanceo, este no podrá ser completado.
+
+Adicionalmente, esta funcionalidad permite la realización de lotes de asientos agrupados por monedas o esquemas contables, recordando que ADempiere puede manejar la contabilización en múltiples esquemas y monedas.
 
 Pese a que usted cuenta con esta bondad, no se recomienda la realización de notas contables para procesos contemplados en ADempiere, puesto cada transacción administrativa registra los hechos contables de forma automática, en consecuencia se sugiere sea utilizado solo en casos excepcionales.
 
