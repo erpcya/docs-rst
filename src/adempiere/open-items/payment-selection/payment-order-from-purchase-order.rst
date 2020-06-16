@@ -8,8 +8,6 @@
 .. |Campo Fecha de Pago de la Ventana Selección de Pago| image:: resources/payment-date-field-of-the-payment-selection-window.png
 .. |Campo Moneda de la Ventana Selección de Pago| image:: resources/currency-field-of-the-payment-selection-window.png
 .. |Campo Nombre de Referencia de la Ventana Selección de Pago| image:: resources/reference-name-field-of-the-payment-selection-window.png
-
-
 .. |Campo Descripción de la Ventana Selección de Pago| image:: resources/description-field-of-the-payment-selection-window.png
 .. |Opción Crear Desde Orden de la Ventana Selección de Pago| image:: resources/option-to-create-from-order-of-the-payment-selection-window.png
 .. |Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden| image:: resources/smart-search-window-of-create-from-order-process.png
