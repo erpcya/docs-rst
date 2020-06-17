@@ -66,7 +66,7 @@
 
 #. Podrá visualizar la siguiente ventana.
 
-    |Ventana Diario Contable y Icono Registro Nuevo|
+    |Ventana Diario Contable|
 
 **Lote Contable**
 -----------------
@@ -103,7 +103,7 @@
 
         .. note::
 
-          Por defecto ADempiere establece el tipo de aplicación actual.
+            Por defecto ADempiere establece el tipo de aplicación actual.
 
     #. Seleccione un tipo de documento en el campo "**Tipo de Documento**".
 
@@ -151,7 +151,7 @@
 
         .. note::
 
-          Por defecto ADempiere establece el periodo correspondiente a la fecha actual.
+            Por defecto ADempiere establece el periodo correspondiente a la fecha actual.
 
     #. Seleccione la moneda en el campo "**Moneda**".
 
@@ -169,7 +169,7 @@
 
         .. note::
 
-          Por defecto ADempiere establece la moneda del esquema principal de la compañía actual.
+            Por defecto ADempiere establece la moneda del esquema principal de la compañía actual.
 
     #. Introduzca un monto en el campo "**Cifra de Control**".
 
@@ -261,7 +261,7 @@
 
     #. Seleccione el tipo de documento en el campo "**Tipo de Documento**".
 
-         El tipo de documento es un campo obligatorio, le permite definir el comportamiento del documento que se está elaborando, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo, para profundizar más este tema vaya a el documento: :ref:`documento/tipo-documento`.
+        El tipo de documento es un campo obligatorio, le permite definir el comportamiento del documento que se está elaborando, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo, para profundizar más este tema vaya a el documento: :ref:`documento/tipo-documento`.
 
             |Campo Tipo de Documento de la Pestaña Nota Contable de la Ventana Diario Contable|
 
@@ -392,7 +392,7 @@
 
             **¡Recuerde!**
 
-            Debe realizar este procedimiento por cada debito o crédito que desee aplicar a cada cuenta.
+                Debe realizar este procedimiento por cada debito o crédito que desee aplicar a cada cuenta.
 
     #. Seleccione el socio de negocio en el campo "**Socio del Negocio**".
 
@@ -406,7 +406,7 @@
 
             **¡Recuerde!**
 
-            El socio de negocio debe estar registrado previamente en ADempiere.
+                El socio de negocio debe estar registrado previamente en ADempiere.
 
     #. Seleccione en el campo "**Producto**", el producto correspondiente al registro que está realizando.
 
@@ -420,7 +420,7 @@
 
             **¡Recuerde!**
 
-            El producto debe estar registrado previamente en ADempiere.
+                El producto debe estar registrado previamente en ADempiere.
 
     #. Seleccione la actividad ABC en el campo "**Actividad**".
 
@@ -434,7 +434,7 @@
 
             **¡Recuerde!**
 
-            La actividad ABC debe estar registrada previamente en ADempiere.
+                La actividad ABC debe estar registrada previamente en ADempiere.
 
     #. Seleccione el centro de costo en el campo "**Centro de Costos**".
 
@@ -448,7 +448,7 @@
 
             **¡Recuerde!**
 
-            El centro de costo debe estar registrado previamente en ADempiere.
+                El centro de costo debe estar registrado previamente en ADempiere.
 
     #. Seleccione un alias de una combinación contable en el campo "**Alias**".
 
