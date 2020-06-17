@@ -66,8 +66,8 @@
 
     Imagen 2. Menú de ADempiere
 
-**Pestaña Distribución Contable**
----------------------------------
+**Distribución Contable**
+-------------------------
 
 #. Podrá visualizar la carpeta "**Distribución Contable**", con los diferentes registros de distribución que se encuentran en ADempiere.
 
@@ -215,8 +215,8 @@
 
     Recuerde guardar el registro de los campos de la pestaña antes de posicionarse en otra pestaña de la misma ventana, seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de ADempiere.
 
-**Pestaña Línea**
------------------
+**Línea**
+---------
 
 #. Seleccione la pestaña "**Línea**", para crear los registros de distribución requeridos.
 
