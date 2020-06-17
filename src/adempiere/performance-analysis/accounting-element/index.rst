@@ -55,3 +55,8 @@ Para este ejemplo podríamos establecer la siguiente figura:
 El elemento contable es necesario para la definición del esquema contable, que a su vez define el óptimo funcionamiento de ADempiere, esto es porque cada transacción administrativa generará un asiento contable y por ende son requeridas las cuentas contables.
 
 En esta oportunidad `ERPyA`_ ha diseñado para usted un material en el cual se define detalladamente esta ventana que frecuentemente será visitada por usted, que ha decidido incursionar en el uso de ADempiere ERP.
+
+.. toctree::
+    :maxdepth: 2
+
+    accounting-element
