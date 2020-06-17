@@ -1,3 +1,9 @@
+.. |Cierre de Caja| image:: resources/cierredecaja1.png
+.. |Campo crear a partir de caja| image:: resources/cierredecaja2.png
+.. |Búsqueda de Parámetros| image:: resources/filtrocierredecaja.png
+.. |Selección de Pagos| image:: resources/lineacierredecaja.png
+.. |Saldo Final| image:: resources/saldofinalcierre.png
+.. |Completar el Cierre de Caja| image:: resources/Completarcierre.png
 .. _documento/cierre-de-caja-nómina:
 
 ==========================
@@ -37,7 +43,7 @@ Nos Dirigimos a la ventana Cierre de Caja, ubicado en el menú “** Gestión de
 
 #. Posteriormente aparecen los movimientos que tenga registrados en su caja, en la fecha que determinó en su búsqueda. En este caso nos aparecen el pago generado a los empleados en la selección de pago y por otro lado tendremos el monto total de la transferencia que realizamos con el monto total de la nómina.
 
-    |Pagos a Cruzar|
+    |Selección de Pagos|
 
     Imagen 4. Pagos a Cruzar
 
@@ -47,7 +53,7 @@ Nos Dirigimos a la ventana Cierre de Caja, ubicado en el menú “** Gestión de
 
 #. Seleccione todos los pagos de los empleados y el monto de la transferencia bancaria
 
-#. Seguidamente nos dirigimos a la ventana principal de nuestro cierre de caja y en la línea del cierre de caja veremos los movimientos seleccionados para nuestro cierre de caja
+#. Seguidamente nos dirigimos a la ventana principal de nuestro cierre de caja y en la pestaña llamada línea del cierre de caja visualizaremos los movimientos seleccionados para el cierre de la caja
 
 #. Por último nos dirigimos a la ventana principal de nuestro cierre de caja y en el campo “**Saldo Final**” nos debe quedar un saldo de cero (0), eso quiere decir que los montos de la caja están correctos, el egreso de dinero que salió de nuestra caja para el pago de la nómina de los empleados y en monto ingresado a nuestra caja a través de la transferencia bancaria está correcto.
 
@@ -57,7 +63,7 @@ Nos Dirigimos a la ventana Cierre de Caja, ubicado en el menú “** Gestión de
 
 .. warning::
 
-    Cabe destacar que la caja siempre debe quedar en cero 0. Sí no es así posiblemente esté realizando un procedimiento incorrecto
+    Cabe destacar que el saldo final del cierre de la caja siempre debe quedar en cero 0. Sí no es así posiblemente esté realizando un procedimiento incorrecto
 
 #. Al finalizar este proceso proceda a finalizar el proceso completando su cierre de caja. 
 
