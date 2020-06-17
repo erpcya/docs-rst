@@ -52,3 +52,4 @@ Para que pueda conocer cómo y cuándo usar esta funcionalidad `ERPyA`_ ha estru
 .. toctree::
     :maxdepth: 2
 
+    gl-distribution
