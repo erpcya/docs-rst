@@ -58,6 +58,15 @@
 **Diario de Nota Contable**
 ===========================
 
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la ventana "**Diario Contable**".
+
+    |Menú de ADempiere|
+
+    Imagen 1. Menú de ADempiere
+
+#. Podrá visualizar la siguiente ventana.
+
+    |Ventana Diario Contable y Icono Registro Nuevo|
 
 **Lote Contable**
 -----------------
@@ -92,9 +101,9 @@
 
             Imagen 6. Campo Tipo de Aplicación de la Pestaña Lote Contable de la Ventana Diario Contable
 
-        ..note::
+        .. note::
 
-            Por defecto ADempiere establece el tipo de aplicación actual.
+          Por defecto ADempiere establece el tipo de aplicación actual.
 
     #. Seleccione un tipo de documento en el campo "**Tipo de Documento**".
 
@@ -140,9 +149,9 @@
 
             Imagen 11. Campo Período de la Pestaña Lote Contable de la Ventana Diario Contable
 
-        ..note::
+        .. note::
 
-            Por defecto ADempiere establece el periodo correspondiente a la fecha actual.
+          Por defecto ADempiere establece el periodo correspondiente a la fecha actual.
 
     #. Seleccione la moneda en el campo "**Moneda**".
 
@@ -158,9 +167,9 @@
 
             Imagen 12. Campo Moneda de la Pestaña Lote Contable de la Ventana Diario Contable
 
-        ..note::
+        .. note::
 
-            Por defecto ADempiere establece la moneda del esquema principal de la compañía actual.
+          Por defecto ADempiere establece la moneda del esquema principal de la compañía actual.
 
     #. Introduzca un monto en el campo "**Cifra de Control**".
 
@@ -440,7 +449,7 @@
             **¡Recuerde!**
 
             El centro de costo debe estar registrado previamente en ADempiere.
-  
+
     #. Seleccione un alias de una combinación contable en el campo "**Alias**".
 
         El alias no es un campo obligatorio, sin embargo, le permite seleccionar un alias asociado a una combinación contable, para establecer la combinación en el campo **combinación contable**, para profundizar más este tema vaya a el documento: :ref:`documento/combinación-contable`.
