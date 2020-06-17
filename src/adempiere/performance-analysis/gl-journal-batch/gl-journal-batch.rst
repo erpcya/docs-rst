@@ -431,20 +431,16 @@
 
         El centro de costo no es un campo obligatorio, sin embargo, le permite definir un centro de costo que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: :ref:`documento/dimensiones-contable`.
 
-            |Campo Actividad de la Pestaña Línea de la Ventana Diario Contable|
+        |Campo Centro de Costos de la Pestaña Línea de la Ventana Diario Contable|
 
-            Imagen 37. Campo Actividad de la Pestaña Línea de la Ventana Diario Contable
+        Imagen 38. Campo Centro de Costos de la Pestaña Línea de la Ventana Diario Contable
 
         .. note::
 
             **¡Recuerde!**
 
             El centro de costo debe estar registrado previamente en ADempiere.
-
-            |Campo Centro de Costos de la Pestaña Línea de la Ventana Diario Contable|
-
-            Imagen 38. Campo Centro de Costos de la Pestaña Línea de la Ventana Diario Contable
-
+  
     #. Seleccione un alias de una combinación contable en el campo "**Alias**".
 
         El alias no es un campo obligatorio, sin embargo, le permite seleccionar un alias asociado a una combinación contable, para establecer la combinación en el campo **combinación contable**, para profundizar más este tema vaya a el documento: :ref:`documento/combinación-contable`.
