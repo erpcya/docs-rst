@@ -12,11 +12,11 @@
 
 	El último paso que debemos seguir para terminar de registrar el proceso de pago de nómina en ADempiere es el cierre de caja, donde llamaremos los pagos registrados en nuestra selección de pago y se cruzaran con la transferencia bancaria que realizamos previamente. Recuerde que para poder realizar este paso debemos de tener completo los pasos realizados anteriormente los cuales son: Seleccion de Pago, Imprimir Exportar Pagos de Nómina y la Transferencia Bancaria.
 
-Nos Dirigimos a la ventana Cierre de Caja, ubicado en el menú “** Gestión de Saldos Pendientes**”  en el sub directorio “**Diario de Caja**”, registramos los datos de la siguiente manera:
+Nos Dirigimos a la ventana Cierre de Caja, ubicado en el menú “**Gestión de Saldos Pendientes**”  en el sub directorio “**Diario de Caja**”, registramos los datos de la siguiente manera:
 
 #. Seleccionamos en el campo “**Cuenta de la Caja**” el nombre de la cuenta que se dispone para registrar los pagos de  la nómina, en este caso será una caja y estará identificada porque indica el nombre del banco y al final la palabra tránsito.
 
-#. Seleccionamos el “**Tipo de Documento**” denominado “**Cierre de Caja Nómina**”, ese tipo de documento indica el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento:ref: `documento/tipo-documento` elaborado por ERPyA. 
+#. Seleccionamos el “**Tipo de Documento**” denominado “**Cierre de Caja Nómina**”, ese tipo de documento indica el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento:ref:`documento/tipo-documento` elaborado por ERPyA. 
 
 #. Seleccione en el Campo “**Nombre**” un nombre referente a ese cierre de caja.
 
