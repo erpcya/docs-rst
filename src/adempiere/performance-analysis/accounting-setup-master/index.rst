@@ -16,3 +16,6 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
     business-partner-vendor
     business-partner-employee
     payroll-concept-catalog
+    bank-account
+    cash
+    tax
