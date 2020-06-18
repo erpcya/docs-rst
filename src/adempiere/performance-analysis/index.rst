@@ -26,4 +26,5 @@ El propósito de `ERPyA`_ es apoyar a nuestros clientes, dar respuestas rápidas
     accounting-setup-master/index
     costing/index
     gl-journal-batch/index
+    gl-journal-batch/test
     accounting-reports/index
