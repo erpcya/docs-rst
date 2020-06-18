@@ -229,9 +229,9 @@
 
 .. note::
 
-    ¡Recuerde!
+    **¡Recuerde!**
 
-    Para ADempiere, un documento que no se encuentre en estado "**Completo**", es un documento "**No Válido**", posterior a ser completado este documento podrá ser reactivado mientras el periodo contable esté activo.
+        Para ADempiere, un documento que no se encuentre en estado "**Completo**", es un documento "**No Válido**", posterior a ser completado este documento podrá ser reactivado mientras el periodo contable esté activo.
 
 
 **Nota Contable**
@@ -466,7 +466,7 @@
 
     #. Seleccione la combinación contable en el campo "**Combinación**".
 
-        La combinación no es un campo obligatorio, sin embargo, le permite crear una nueva combinación contable o seleccionar una nueva, recordando que este campo es actualizado automáticamente, al establecer el campo **cuenta contable** o un **alias* explicados previamente, para profundizar más este tema vaya a el documento: :ref:`documento/combinación-contable`.
+        La combinación no es un campo obligatorio, sin embargo, le permite crear una nueva combinación contable o seleccionar una nueva, recordando que este campo es actualizado automáticamente, al establecer el campo **cuenta contable** o un **alias** explicados previamente, para profundizar más este tema vaya a el documento: :ref:`documento/combinación-contable`.
 
             |Combinación Contable del Campo Combinación de la Pestaña Línea de la Ventana Diario Contable|
 
