@@ -1,11 +1,18 @@
+
+.. |Recibo de Nómina| image:: resources/recibopago11.png
+.. |Detalle de Pago 1| image:: resources/DetalledePago11.png
+.. |Detalle de Pago 2| image:: resources/Detalledepago22.png
+
 .. _documento/nomina-regular:
 
 ===================
 **Nómina Regular**
 ===================
 
-El reporte de nómina regular representa los datos principales de todo proceso de nómina regular, en él usted podrá visualizar las asignaciones y las deducciones procesadas en las diferentes nóminas regulares del empleado.  Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento:ref:`documento/reporte-de-nómina` donde podrá encontrar los campos que se utilizan si desea visualizar un reporte de nómina.
+El reporte de nómina regular contiene los datos principales de todo proceso de nómina regular, representando primeramente los datos principales de cada uno de los empleados. Tambien en él usted podrá visualizar las asignaciones y las deducciones procesadas en las diferentes nóminas regulares del empleado.  Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento :ref:`documento/reporte-de-nómina` donde podrá encontrar los campos que se utilizan si desea visualizar un reporte de nómina.
 
+
+  
 Entre las asignaciones que se pueden visualizar en el reporte de nómina regular se encuentran:
 
 
@@ -72,12 +79,11 @@ Entre las asignaciones que se pueden visualizar en el reporte de nómina regular
     |                                               | venezolana                                    |
     +-----------------------------------------------+-----------------------------------------------+
 
-
     .. note::
 
-        Cabe destacar que no la asignaciones apareceran en su reporte de nómina regular sino aquellas que esten configuradas para para ese tipo de nómina.
+        Cabe destacar que no la asignaciones apareceran en su reporte de nómina regular sino aquellas que sean configuradas para para ese tipo de nómina.
 
-Entre las asignaciones que se pueden visualizar en el reporte de nómina regular se encuentran:
+Entre las deducciones que se pueden visualizar en el reporte de nómina regular se encuentran:
 
     +-----------------------------------------------+-----------------------------------------------+
     |           **DEDUCCIONES**                     |             **REFERENCIA**                    |
@@ -111,5 +117,127 @@ Entre las asignaciones que se pueden visualizar en el reporte de nómina regular
     .. note::
 
         Cabe destacar que no la deducciones apareceran en su reporte de nómina regular sino aquellas que esten configuradas para para ese tipo de nómina.
+
+
+
+     Para este reporte están configurados 3 tipos de plantillas
+
+ 
+ #. Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina.
+
+
+        Entre los datos personales que usted puede visualizar se encuentran los siguientes:
+
+    +-----------------------------------------------+-----------------------------------------------+
+    |       **Datos Personales**                    |             **REFERENCIA**                    |
+    +===============================================+===============================================+
+    |  Nombre de la Compañía                        | Corresponde al nombre de la compañía          |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Fecha Contable                               | Es la Fecha que registró en su proceso de     |
+    |                                               | nómina                                        |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Nombre del Proceso de Nómina                 | Será el nombre que registró en su proceso de  |
+    |                                               | nómina                                        |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Período de Nómina                            | Será el período que registró en su proceso de |
+    |                                               | nómina                                        |
+    +-----------------------------------------------+-----------------------------------------------+   
+    |  Nombre y Apellido  del Empleado              | Corresponde al nombre y apellido registrado en|
+    |                                               | la ventana Empleados (Todos)                  |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Cédula del Empleado                          | Corresponde al número de identificación del   |
+    |                                               | empleado registrado en la ventana Empleados   |
+    |                                               | (Todos)                                       |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Fecha de Ingreso                             | Corresponde a la fecha de ingreso del         |
+    |                                               | trabajador registrada en la pestaña           |
+    |                                               | información del contrato de la ventana        |
+    |                                               | Empleados (Todos)                             |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Fecha de Egreso                              | Corresponde a la fecha de egreso del          |
+    |                                               | trabajador registrada en la pestaña           |
+    |                                               | información del contrato de la ventana        |
+    |                                               | Empleados (Todos) esta información se registra| 
+    |                                               | cuando usted conoce la fecha de retiro del    |
+    |                                               | trabajador, de lo contrario en el campo       |
+    |                                               | no aparecerá información                      |      
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Salario Diario                               | Corresponde a el monto del salario diario     |
+    |                                               | registrado en la en la pestaña información    |
+    |                                               | del contrato de la ventana Empleados (Todos)  |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Salario Mensual                              | Corresponde a el monto del salario mensual    |
+    |                                               | registrado en la en la pestaña información    |
+    |                                               | del contrato de la ventana Empleados (Todos)  |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Departamento                                 | Corresponde a el Departamento al que pertenece|
+    |                                               | el empleado registrado en la en la pestaña    |
+    |                                               | información del contrato de la ventana        |
+    |                                               | Empleados (Todos)                             |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Cargo                                        | Corresponde a el cargo desempeñado por        |
+    |                                               | el empleado registrado en la en la pestaña    |
+    |                                               | información del contrato de la ventana        |
+    |                                               | Empleados (Todos)                             |
+    +-----------------------------------------------+-----------------------------------------------+
+  
+
+.. note::
+    Para realizar cualquier modificación que requiera realizar de estos campos puede utilizar el siguiente documento :ref:`documento/socio-empleado` 
+  
     
-    
+Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fué impreso el recibo.
+ 
+ 
+ En el ejemplo presentado se evidencia una nómina mensual  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
+
+
+    |Recibo de Nómina|
+
+    Imagen 1. Recibo de Pago
+
+#. Detalle de Pago: Seleccione esta plantilla de reporte de nómina regular si desea conocer de manera detallada todos los montos de nómina de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos del totales de las nóminas procesadas a todos los empleados.
+
+Los campos podrá visualizar en este reporte son:
+
+    +-----------------------------------------------+-----------------------------------------------+
+    |          **Parámetros**                       |             **REFERENCIA**                    |
+    +===============================================+===============================================+
+    |  Contrato                                     | Correspone a el contrato configurado para la  |
+    |                                               | nómina en ejecución                           |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
+    |                                               | procesada                                     |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Trabajador                                   | Identifica el nombre de cada uno de los       |
+    |                                               | empleados                                     |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
+    |                                               | en este caso aparecerá el nombre de las       |
+    |                                               | asignaciones y deducciones mencionadas        |
+    |                                               | anteriormente                                 |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Asignaciones                                 | Corresponde a los montos obtenidos por        |
+    |                                               | concepto de asignaciones al empleado          |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Deducciones                                  | Corresponde a los montos obtenidos por        |
+    |                                               | concepto de deducciones al empleado           |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Total                                        | Corresponde al monto total obtenido por       |
+    |                                               | concepto                                      |
+    +-----------------------------------------------+-----------------------------------------------+
+ 
+ 
+ En el siguiente ejemplo presentado se evidencia una nómina mensual  procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente. 
+ 
+    |Detalle de Pago 1|
+
+    Imagen 2. Detalle de Pago. 1 Nómina Diferentes Empleado.
+
+
+
+ En el ejemplo presentado se evidencia detalle de pago del reporte de nómina regular de 2 nóminas mensuales procesada al mismo empleado y en ella se evidencian las asignaciones y las deducciones obtenidas, así como se encuentran todos los datos qué detallamos anteriormente. 
+ 
+    |Detalle de Pago 2|
+
+    Imagen 3. Detalle de Pago. 2 Nóminas mismo Empleado.
