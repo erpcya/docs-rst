@@ -20,3 +20,4 @@
     :maxdepth: 2
 
     payroll-process-report
+    regular-payroll

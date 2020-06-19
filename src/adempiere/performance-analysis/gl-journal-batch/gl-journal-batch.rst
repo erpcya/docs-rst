@@ -540,13 +540,21 @@
 
             Imagen 48. Campo Crédito Contabilizado de la Pestaña Línea de la Ventana Diario Contable
 
-    #. Seleccione en el campo "**UM**", la unidad de medida del producto seleccionado.
+    #. Seleccione la unidad de medida en el campo "**UM**".
+
+        La unidad  de medida no es un campo obligatorio, sin embargo es utilizada para contabilizar cuentas de orden, utilizadas para registrar transacciones y valores contingentes que sirven para controlar los resultados de ciertas operaciones, estas cuentas no afectarán su balance, para comprenderlo mejor veamos el siguiente ejemplo:
+
+            Imaginemos una empresa que maneja inventario en consignación, para conocer su cuantia es necesario manejar una cuenta que no altere la totalidad de la cuenta de activos, esto por no ser un inventario perteneciente a la empresa.
+
+            En tal sentido se contabiliza las cantidades del inventario en cuentas de orden, para mantener el control de la mercancia y a su vez reconocer el valor ajeno, sin alterar el balance.
 
             |Campo UM de la Pestaña Línea de la Ventana Diario Contable|
 
             Imagen 49. Campo UM de la Pestaña Línea de la Ventana Diario Contable
 
-    #. Seleccione en el campo "**Cantidad**", el valor o cantidad del producto seleccionado.
+    #. Ingrese la cantidad en el campo "**Cantidad**".
+
+        La cantidad no es un campo obligatorio, sin embargo es utilizada para ingresar la cantidad cuentas de orden, utilizadas para registrar transacciones y valores contingentes que sirven para controlar los resultados de ciertas operaciones.
 
             |Campo Cantidad de la Pestaña Línea de la Ventana Diario Contable|
 
