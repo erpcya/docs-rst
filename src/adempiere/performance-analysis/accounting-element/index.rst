@@ -13,7 +13,7 @@ Esta estructura actúa como el plan de cuentas contable, presentando una lista d
 
 El método consiste en asignar un número decimal que nos permita asociar la clasificación de las cuentas:
 
-    #. **Cuentas Reales**: Son denominadas así las cuentas que mantienen saldo durante y posterior a un periodo contable y que son conservadas en el balances. Generalmente estas cuentas son útiles para :ref:`documento/informe-financiero`, dentro de estas cuentas se encuentran::
+    #. **Cuentas Reales**: Son denominadas así las cuentas que mantienen saldo durante y posterior a un periodo contable y que son conservadas en el balances. Generalmente estas cuentas son útiles para :ref:`documento/informe-financiero`, dentro de estas cuentas se encuentran:
 
         #. **Activos:** Se refiere a los bienes de los que una empresa dispone y tiene derechos, sean tangibles o intangibles.
 

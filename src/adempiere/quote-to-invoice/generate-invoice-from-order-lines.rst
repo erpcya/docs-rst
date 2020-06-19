@@ -7,13 +7,13 @@
 .. |Campo Socio del Negocio de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/business-partner-field-of-the-generate-invoice-window-from-order-lines.png
 .. |Campo Producto de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/product-field-of-the-generate-invoice-window-from-order-lines.png
 .. |Opción Comenzar Búsqueda de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/option-to-start-searching-the-window-generate-invoice-from-order-lines.png
-
-
-
-
 .. |Selección de Líneas de la Orden de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/selection-of-order-lines-in-the-window-generate-invoice-from-order-lines.png
 .. |Campo Fecha de Facturación de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/billing-date-field-of-the-generate-invoice-from-order-lines-window.png
 .. |Checklist Consolidado en un Documento de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/consolidated-checklist-in-a-document-of-the-window-generate-invoice-from-order-lines.png
+
+
+
+
 .. |Campo Organización de la Trans de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/organization-field-of-the-window-trans-generate-invoice-from-order-lines.png
 .. |Campo Acción en el Documento de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/action-field-in-the-window-document-generate-invoice-from-order-lines.png
 .. |Campo Tipo de Documento Destino de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/destination-document-type-field-of-the-generate-invoice-window-from-order-lines.png

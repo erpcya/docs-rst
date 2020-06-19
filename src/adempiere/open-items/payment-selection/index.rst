@@ -17,4 +17,5 @@ Para conocer mejor este procedimiento de la selección de pagos `ERPyA`_  ofrece
     :maxdepth: 2
 
     pay-order
+    payment-order-from-purchase-order
     payment-selection-cxp
