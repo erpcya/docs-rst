@@ -1,8 +1,8 @@
 .. _ERPyA: http://erpya.com
 
-===================
-**Punto de Ventas**
-===================
+===============
+**Gestión PDV**
+===============
 
 ADempiere ofrece una solución a pequeñas empresas que requieran manejar transacciones con sus clientes de manera agil y eficiente, y a su vez proporcionar un buen servicio al cliente.
 
