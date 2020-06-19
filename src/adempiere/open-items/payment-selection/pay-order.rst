@@ -1,5 +1,6 @@
 .. _ERPyA: http://erpya.com
-.. |Menú de ADempiere| image:: resources/payment-selection-menu.png
+
+.. |Menú de ADempiere| image:: resources/menu.png
 .. |Icono Registro Nuevo 1| image:: resources/icono-nuevo1.png
 .. |Campo Organización 1| image:: resources/org1.png
 .. |Campo Tipo de Documento 1| image:: resources/tipo-doc1.png
@@ -23,8 +24,9 @@
 .. |Total de Abierto| image:: resources/
 .. |Diferencia Monto| image:: resources/
 .. |Total a Cancelar| image:: resources/
-..  |Grupo de Estado| image:: resources/
-..  |Botón Completar| image:: resources/
+.. |Grupo de Estado| image:: resources/
+.. |Botón Completar| image:: resources/
+.. |Regla de Pago| image:: resources/
 
 
 .. _documento/orden-de-pago:
@@ -32,7 +34,7 @@
 **Registro desde Factura**
 ==========================
 
-Para realizar una orden de pagos de las facturas que estén pendientes por pagar se deben aplicar los siguientes pasos:
+Para realizar una **”Orden de Pagos”** en ADempiere el cual permite montar una solicitud de  todas aquellas  facturas que estén pendientes por pagar, se deben aplicar los siguientes pasos:
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Selección de Pagos**".
 
@@ -40,63 +42,67 @@ Para realizar una orden de pagos de las facturas que estén pendientes por pagar
 
     Imagen 1. Menú de ADempiere
 
-    #. Podrá visualizar la ventana "**Selección de Pago**", en la cual debe seleccionar el icono "**Registro Nuevo**" ubicado en la barra de herramientas de ADempiere.
+#. Podrá visualizar la ventana "**Selección de Pago**", en la cual debe seleccionar el icono "**Registro Nuevo**" ubicado en la barra de herramientas de ADempiere.
 
-        |Icono Registro Nuevo 1|
+    |Icono Registro Nuevo 1|
 
-        Imagen 2. Icono Registro Nuevo
+    Imagen 2. Icono Registro Nuevo
 
-    #. Seleccione en el campo "**Organización**", la organización para la cual está realizando el documento "**Orden de Pago**".
+#. Seleccione en el campo "**Organización**", la organización para la cual está realizando el documento "**Orden de Pago**".
 
-        |Campo Organización 1|
+    Al seleccionar la organización con la que trabajará el registro a crear bajo estará disponible únicamente bajo esa organización  seleccionada, aunque la decisión de la organización a trabajar quedará al momento que inicie sesión en ADempiere. 
 
-        Imagen 3. Campo Organización
+    |Campo Organización 1|
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. Para ejemplificar el registro es utilizado el tipo de documento "**Orden de Pago**".
+    Imagen 3. Campo Organización
 
-        |Campo Tipo de Documento 1|
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. Para ejemplificar el registro es utilizado el tipo de documento "**Orden de Pago**".
 
-        Imagen 4. Campo Tipo de Documento
+    |Campo Tipo de Documento 1|
 
-    #. Seleccione en el campo "**F. Documento**", la fecha en la cual se está generando el documento de orden de pago.
+    Imagen 4. Campo Tipo de Documento
 
-        |Campo F. Documento 1|
+#. Seleccione en el campo "**F. Documento**", la fecha en la cual se está generando el documento de orden de pago.
 
-        Imagen 5. Campo F. Documento
+    |Campo F. Documento 1|
 
-    #. Seleccione en el campo "**Fecha de Pago**", la fecha en la cual se debe realizar el pago.
+    Imagen 5. Campo F. Documento
 
-        |Campo Fecha de Pago 1|
+#. Seleccione en el campo "**Fecha de Pago**", la fecha en la cual se debe realizar el pago.
 
-        Imagen 6. Campo Fecha de Pago
+    |Campo Fecha de Pago 1|
 
-    #. Seleccione en el campo "**Moneda**", la moneda para realizar la orden de pago.
+    Imagen 6. Campo Fecha de Pago
 
-        |Campo Moneda 1|
+#. Seleccione en el campo "**Moneda**", la moneda para realizar la orden de pago.
 
-        Imagen 7. Campo Moneda
+    |Campo Moneda 1|
 
-    #. Introduzca en el campo "**Nombre de Referencia**", un nombre de referencia para la orden de pago que está realizando.
+    Imagen 7. Campo Moneda
 
-        |Campo Nombre de Referencia 1|
+#. Introduzca en el campo "**Nombre de Referencia**", un nombre de referencia para la orden de pago que está realizando.
 
-        Imagen 8. Campo Nombre de Referencia
+    La información a colocar en este campo es una pequeña referencia de la orden pago que se esté creando por ejemplo : **”Pago proveedores Servicios”**.
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción referente a la orden de pago que está realizando.
+    |Campo Nombre de Referencia 1|
 
-        |Campo Descripción 1|
+    Imagen 8. Campo Nombre de Referencia
 
-        Imagen 9. Campo Descripción
+#. Introduzca en el campo "**Descripción**", una breve descripción referente a la orden de pago que está realizando.
 
-         .. note::
+    La información a colocar en este campo es una pequeña descripción de la orden de pago que se esté realizando por ejemplo: **”Pagos a proveedores primera semana de Junio”**
 
-            La referencia a colocar en este campo queda a criterio del usuario.
+    |Campo Descripción 1|
 
-    #. Seleccione la opción "**Crear Desde Factura**", para crear la orden de pago desde la factura.
+    Imagen 9. Campo Descripción
 
-        |Campo Crear Desde Factura 1|
+#. Seleccione la opción "**Crear Desde Factura**", para crear la orden de pago desde la factura.
 
-        Imagen 10. Opción Crear desde factura
+    |Campo Crear Desde Factura 1|
+
+    Imagen 10. Opción Crear desde factura
+
+#. Al seleccionar el botón "**Crear Desde Factura**", se desplegará otra ventana llamada Smart Browser (Ventana de Búsqueda Inteligente) donde podrá ubicar a las facturas que estén pendientes por pagar.
 
     #. Podrá observar la siguiente ventana de búsqueda inteligente  una serie de campos para ser utilizados como criterio de búsqueda.
 
@@ -112,17 +118,19 @@ Para realizar una orden de pagos de las facturas que estén pendientes por pagar
 
         #. Al tildar la opción "**Comenzar Búsqueda**", se desplegará en la parte inferior de la ventana las facturas que están pendientes por pagar.
 
+            Las facturas que se visualicen dependerá del criterio de búsqueda que se utilice, ejemplo:
+               
+                - Si se utiliza un criterio de búsqueda por socio del negocio, las facturas a mostrar sería solo y únicamente por ese socio de negocio.
+
+                - Si se utiliza un criterio de búsqueda por fecha, se mostrarán todas las facturas que estén bajo la fecha seleccionada.
+
+                - Las facturas a mostrar son únicamente aquellas facturas que tengan pagos pendientes, sí ya una factura a sido salda no se mostrará en esta ventana.
+
+                - Las facturas deben encontrarse en estado **”Completo”** de lo contrario no aparecerán en esta ventana. 
+
             |Listado de Facturas|
 
             Imagen 13. Listado de Facturas 
-
-            .. note::
-
-                Las facturas que se visualicen dependerá del criterio de búsqueda que se utilice, ejemplo:
-               
-                    - Si se utiliza un criterio de búsqueda por socio del negocio, las facturas a mostrar sería solo y únicamente por ese socio de negocio.
-
-                    - Si se utiliza un criterio de búsqueda por fecha, se mostrarán todas las facturas que estén bajo la fecha seleccionada.
 
         #. Seleccione las facturas que deseen asociar a la "**Orden de Pago**". 
         
@@ -154,41 +162,47 @@ Para realizar una orden de pagos de las facturas que estén pendientes por pagar
 
         En la pestaña "**Línea de Selección de Pago**" deberán aparecer las misma cantidad de facturas seleccionadas desde la opción "**Crear Desde Factura**".
 
-    #. Podrá observar que en cada registro de la pestaña "**Línea de Selección de Pago**" aparecerán las siguientes características:
+#. Podrá observar que en cada registro de la pestaña "**Línea de Selección de Pago**" aparecerán las siguientes características:
 
-        #. En el campo **"Socio del Negocio"** debe aparecer el socio de negocio de la factura que se encuentra asociada al registro de la línea.
+    #. En el campo **"Socio del Negocio"** debe aparecer el socio de negocio de la factura que se encuentra asociada al registro de la línea.
 
-            |Socio de Negocio Factura|
+        |Socio de Negocio Factura|
 
-            Imagen 18. Socio de Negocio Factura
+        Imagen 18. Socio de Negocio Factura
 
-        #. En el campo **"Factura"** debe aparecer el número del documento de la factura seleccionada desde opción "**Crear Desde Factura**".
+	#. En el campo **”Regla de Pago”** se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
 
-            |Factura Cuentas por Pagar|
+	    |Regla de Pago|
+	
+	    Imagen 19. Regla de Pago
 
-            Imagen 19. Factura Cuentas por Pagar
+    #. En el campo **"Factura"** debe aparecer el número del documento de la factura seleccionada desde opción "**Crear Desde Factura**".
 
-        #. En el campo **"Total del Pago"** debe aparecer el monto a pagar de la factura, este monto puede ser editado ya que en algunos casos las facturas suelen ser pagadas de forma parcial, todo dependerá del acuerdo de pagos que tenga la compañía con el proveedor.
+        |Factura Cuentas por Pagar|
 
-            |Total de Pago|
+        Imagen 20. Factura Cuentas por Pagar
 
-            Imagen 20. Total de Pago
+    #. En el campo **"Total del Pago"** debe aparecer el monto a pagar de la factura, este monto puede ser editado ya que en algunos casos las facturas suelen ser pagadas de forma parcial, todo dependerá del acuerdo de pagos que tenga la compañía con el proveedor.
 
-        #. En el campo **"Total Abierto"** debe aparecer el total abierto que tiene la factura, si la factura ha sido pagada de manera parcial el total pendiente por pagar aparecerá en este campo.
+        |Total de Pago|
 
-            |Total de Abierto|
+        Imagen 21. Total de Pago
 
-            Imagen 21. Total de Abierto
+    #. En el campo **"Total Abierto"** debe aparecer el total abierto que tiene la factura, si la factura ha sido pagada de manera parcial el total pendiente por pagar aparecerá en este campo.
 
-        #. En el campo **"Diferencia monto"** debe aparecer la diferencia que pueda tener una factura entre el total abierto y el total a pagar.
+        |Total de Abierto|
 
-            |Diferencia Monto|
+        Imagen 22. Total de Abierto
 
-            Imagen 22. Diferencia Monto
+    #. En el campo **"Diferencia monto"** debe aparecer la diferencia que pueda tener una factura entre el total abierto y el total a pagar.
 
-            .. note::
+        |Diferencia Monto|
 
-                El resultado o valor a mostrar en este campo dependerá de los valores colocados en el campo **"Total del Pago"** y **"Total Abierto"**, si los valores de saldo en ambos campos son iguales este campo debe estar en cero (0).
+        Imagen 23. Diferencia Monto
+
+        .. note::
+
+             El resultado o valor a mostrar en este campo dependerá de los valores colocados en el campo **"Total del Pago"** y **"Total Abierto"**, si los valores de saldo en ambos campos son iguales este campo debe estar en cero (0).
 
 #. Una vez definido el monto que se desea pagar en cada factura y verificado que las facturas seleccionadas desde la opción "**Crear Desde Factura**" estén en la pestaña "**Línea de Selección de Pago**" se puede completar la **"Orden de Pago"** para ello regrese a la ventana principal "**Selección de Pago**" .
 
@@ -196,7 +210,7 @@ Para realizar una orden de pagos de las facturas que estén pendientes por pagar
 
     |Grupo de Estado|
 
-    Imagen 23. Grupo de Estado
+    Imagen 24. Grupo de Estado
 
     .. note::
 
@@ -206,12 +220,18 @@ Para realizar una orden de pagos de las facturas que estén pendientes por pagar
 
     |Botón Completar|
 
-    Imagen 24. Botón Completar
+    Imagen 25. Botón Completar
 
-Al aplicar esta acción "**Completar**" el documento pasará a esta completo y este no podrá ser modificado.
+#. Al aplicar esta acción "**Completar**" el documento pasará a esta completo y este no podrá ser modificado.
 
-.. note::
+    .. note::
 
-    Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que ADempiere tome como válido los datos cargados en el documento.
+        Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que ADempiere tome como válido los datos cargados en el documento.
+
+
+Hasta este punto llegaría el registro de factura a través de la ventana **”Selección de Pago”** con el tipo de documento **”Orden de Pago”** ya que solo se está creando la solicitud de los facturas que están pendientes por pagar y necesitan ser canceladas, en este paso a pesar de que se complete el documento esto no quiere decir que se han generado los pagos, para poder generar los pagos correspondientes a las facturas asociadas a la **”Orden de Pago”** se necesita completar el procedimiento :ref:`documento/selección-de-pago` y el :ref:`documento/Imprimir-Exportar`
+
+
+
 
 
