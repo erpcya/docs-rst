@@ -4,30 +4,60 @@
 .. |Seleccionar Terminal PDV| image:: resources/select-terminal-pdv.png
 .. |Seleccionar la Opción OK| image:: resources/select-the-ok-option-from-the-window-select-terminal-pdv.png
 .. |Ventana Punto de Venta| image:: resources/point-of-sale-window.png
-.. |Icono Registro Nuevo| image:: resources/new-record-icon.png
-.. |Icono Imprimir| image:: resources/print-icon.png
-.. |Icono Tipo de Documento| image:: resources/document-type-icon.png
-.. |Icono Información de Producto| image:: resources/product-information-icon.png
-.. |Icono Cliente| image:: resources/customer-icon.png
-.. |Icono Proceso| image:: resources/process-icon.png
-.. |Opción Cerrar Caja del Punto de Venta| image:: resources/option-close-point-of-sale-box.png
-.. |Opción Generate Inmediate Invoice| image:: resources/option-to-generate-immediate-invoice.png
-.. |Opción Completar Orden Prepagada| image:: resources/option-to-complete-prepaid-order.png
-.. |Opción Anular Transacción de Venta| image:: resources/option-to-cancel-sale-transaction.png
-.. |Opción Crear Retiro de POS| image:: resources/option-to-create-pos-withdrawal.png
-.. |Opción Imprimir| image:: resources/print-option.png
-.. |Opción Crear Nueva Orden de Devolución| image:: resources/option-to-create-new-return-order.png
-.. |Icono Registros Históricos| image:: resources/historical-records-icon.png
-.. |Icono Registro Anterior| image:: resources/previous-record-icon.png
-.. |Icono Próximo Registro| image:: resources/next-record-icon.png
-.. |Icono Pago| image:: resources/payment-icon.png
-.. |Icono Cancel Order| image:: resources/cancel-order-icon.png
-.. |Icono Finalizar Ventana| image:: resources/end-window-icon.png
-.. |Icono Borrar Línea| image:: resources/delete-line-icon.png
-.. |Icono Añadir| image:: resources/add-icon.png
-.. |Icono Menos| image:: resources/minus-icon.png
-.. |Icono Registro Anterior 2| image:: resources/previous-record-icon-2.png
-.. |Icono Próximo Registro 2| image:: resources/next-record-icon-2.png
+.. |Icono Registro Nuevo de la Barra de Herramientas del Punto de Venta| image:: resources/new-record-icon.png
+.. |Icono Imprimir de la Barra de Herramientas del Punto de Venta| image:: resources/print-icon.png
+.. |Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta| image:: resources/document-type-icon.png
+.. |Icono Información de Producto de la Barra de Herramientas del Punto de Venta| image:: resources/product-information-icon.png
+.. |Icono Cliente de la Barra de Herramientas del Punto de Venta| image:: resources/customer-icon.png
+.. |Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta| image:: resources/point-of-sale-toolbar-customer-icon-business-partner-window.png
+.. |Información de los Clientes en la Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta| image:: resources/customer-information-in-the-business-partner-window-of-the-customer-icon-on-the-point-of-sale-toolbar.png
+.. |Iconos de la Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta| image:: resources/point-of-sale-toolbar-customer-icon-business-partner-window-icons.png
+.. |Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/process-icon.png
+.. |Opción Cerrar Caja del Punto de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-close-point-of-sale-box.png
+.. |Opción Generar Factura Inmediata del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-to-generate-immediate-invoice.png
+.. |Opción Completar Orden Prepagada del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-to-complete-prepaid-order.png
+.. |Opción Anular Transacción de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-to-cancel-sale-transaction.png
+.. |Opción Crear Retiro de POS del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-to-create-pos-withdrawal.png
+.. |Opción Imprimir del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/print-option.png
+.. |Opción Crear Nueva Orden de Devolución del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-to-create-new-return-order.png
+.. |Icono Registros Históricos de la Barra de Herramientas del Punto de Venta| image:: resources/historical-records-icon.png
+.. |Icono Registro Anterior de la Barra de Herramientas del Punto de Venta| image:: resources/previous-record-icon.png
+.. |Icono Próximo Registro de la Barra de Herramientas del Punto de Venta| image:: resources/next-record-icon.png
+.. |Icono Pago de la Barra de Herramientas del Punto de Venta| image:: resources/payment-icon.png
+.. |Icono Cancel Order de la Barra de Herramientas del Punto de Venta| image:: resources/cancel-order-icon.png
+.. |Icono Finalizar Ventana de la Barra de Herramientas del Punto de Venta| image:: resources/end-window-icon.png
+.. |Carga de Productos en el Panel de Búsqueda de Productos| image:: resources/product-loading-by-search.png
+.. |Campo Código del Producto del Panel de Búsqueda de Productos| image:: resources/product-code-field-of-the-product-search-panel.png
+.. |Campo Nombre del Producto del Panel de Búsqueda de Productos| image:: resources/product-name-field-in-the-product-search-panel.png
+.. |Campo Disponibilidad del Producto del Panel de Búsqueda de Productos| image:: resources/product-availability-field-of-the-product-search-panel.png
+.. |Campo Precio Estándar del Producto del Panel de Búsqueda de Productos| image:: resources/standard-product-price-field-of-the-product-search-panel.png
+.. |Campo Precio de Lista del Producto del Panel de Búsqueda de Productos| image:: resources/product-list-price-field-of-the-product-search-panel.png
+.. |Sección Información de Producto de la Ventana Punto de Venta| image:: resources/product-information-section-of-the-point-of-sale-window.png
+.. |Campo Código del Producto de la Sección Información de Producto de la Ventana Punto de Venta| image:: resources/product-code-field-in-the-product-information-section-of-the-point-of-sale-window.png
+.. |Campo Precio del Producto de la Sección Información de Producto de la Ventana Punto de Venta| image:: resources/product-price-field-in-the-product-information-section-of-the-point-of-sale-window.png
+.. |Campo Nombre del Producto de la Sección Información de Producto de la Ventana Punto de Venta| image:: resources/product-name-field-in-the-product-information-section-of-the-point-of-sale-window.png
+.. |Campo Unidad de Medida del Producto de la Sección Información de Producto de la Ventana Punto de Venta| image:: resources/unit-of-measure-field-of-the-product-in-the-product-information-section-of-the-point-of-sale-window.png
+.. |Campo Categoría del Producto de la Sección Información de Producto de la Ventana Punto de Venta| image:: resources/product-category-field-from-the-product-information-section-of-the-point-of-sale-window.png
+.. |Campo Categoría del Impuesto del Producto de la Sección Información de Producto de la Ventana Punto de Venta| image:: resources/product-tax-category-field-of-the-product-information-section-of-the-point-of-sale-window.png
+.. |Barra de Edición de Productos de la Ventana Punto de Venta| image:: resources/product-edit-bar-of-the-point-of-sale-window.png
+.. |Icono Borrar Línea de la Barra de Edición de Productos| image:: resources/delete-line-icon.png
+.. |Icono Añadir de la Barra de Edición de Productos| image:: resources/add-icon.png
+.. |Icono Menos de la Barra de Edición de Productos| image:: resources/minus-icon.png
+.. |Icono Registro Anterior de la Barra de Edición de Productos| image:: resources/previous-record-icon-2.png
+.. |Icono Próximo Registro de la Barra de Edición de Productos| image:: resources/next-record-icon-2.png
+.. |Campo Cantidad Ordenada de la Barra de Edición de Productos| image:: resources/ordered-quantity-field.png
+.. |Campo Precio Actual de la Barra de Edición de Productos| image:: resources/current-price-field.png
+.. |Campo Descuentos de la Barra de Edición de Productos| image:: resources/discounts-field.png
+.. |Grupo de Campos Línea de Productos| image:: resources/group-of-fields-product-line.png
+.. |Icono Eliminar Línea| image:: resources/delete-line-icon.png
+.. |Columna Nombre del Producto| image:: resources/product-name-column.png
+.. |Columna Cantidad Ordenada| image:: resources/column-quantity-ordered.png
+.. |Columna Unidad de Medida| image:: resources/column-unit-of-measure.png
+.. |Columna Precio Actual| image:: resources/current-price-column.png
+.. |Columna Descuentos| image:: resources/discounts-column.png
+.. |Columna Neto de Línea| image:: resources/line-net-column.png
+.. |Columna Impuesto| image:: resources/tax-column.png
+.. |Columna Gran Total| image:: resources/grand-total-column.png
 .. |Grupo de Campos Información de Orden| image:: resources/field-group-order-information.png
 .. |Campo Documento No| image:: resources/document-field-no.png
 .. |Campo Tipo de Documento| image:: resources/document-type-field.png
@@ -39,20 +69,6 @@
 .. |Campo Impuesto| image:: resources/tax-field.png
 .. |Campo Gran Total| image:: resources/grand-total-field.png
 .. |Información del Socio del Negocio Cliente| image:: resources/client-business-partner-information.png
-.. |Campo Cantidad Ordenada| image:: resources/ordered-quantity-field.png
-.. |Campo Precio Actual| image:: resources/current-price-field.png
-.. |Campo Descuentos| image:: resources/discounts-field.png
-.. |Grupo de Campos Línea de Productos| image:: resources/group-of-fields-product-line.png
-.. |Icono Eliminar Línea| image:: resources/delete-line-icon.png
-.. |Columna Nombre del Producto| image:: resources/product-name-column.png
-.. |Columna Cantidad Ordenada| image:: resources/column-quantity-ordered.png
-.. |Columna Unidad de Medida| image:: resources/column-unit-of-measure.png
-.. |Columna Precio Actual| image:: resources/current-price-column.png
-.. |Columna Descuentos| image:: resources/discounts-column.png
-.. |Columna Neto de Línea| image:: resources/line-net-column.png
-.. |Columna Impuesto| image:: resources/tax-column.png
-.. |Columna Gran Total| image:: resources/grand-total-column.png
-.. |Carga de Productos por Búsqueda| image:: resources/product-loading-by-search.png
 .. |Catálogo de Productos| image:: resources/product-catalog.png
 
 .. _documento/interfaz-del-punto-de-venta:
@@ -84,314 +100,437 @@
 
     Imagen 4. Seleccionar la Opción OK
 
-    #. Podrá visualizar la ventana "**Punto de Venta**" con diferentes iconos, campos y opciones, que permiten el correcto funcionamiento del mismo. 
+#. Podrá visualizar la ventana "**Punto de Venta**" con diferentes iconos, campos y opciones, que permiten el correcto funcionamiento del mismo. 
     
-        |Ventana Punto de Venta|
+    |Ventana Punto de Venta|
         
-        Imagen 5. Ventana Punto de Venta
-        
-    #. La ventana "**Punto de Venta**", cuenta con los siguientes iconos explicados a continuación de manera detallada.
+    Imagen 5. Ventana Punto de Venta
 
-        - "**Registro Nuevo**": Permite crear un nuevo registro de orden de venta en el punto de venta configurado para el vendedor, la forma más facil de realizar este proceso es por medio de la tecla de acceso directo "**F2**".
+**Barra de Herramientas del Punto de Venta**
+--------------------------------------------
 
-            |Icono Registro Nuevo|
+Contiene los iconos principales de las ventanas de ADempiere para realizar una gestión exitosa del punto de venta al momento de la venta de los productos. Dicha ventana cuenta con los siguientes iconos explicados a continuación.
 
-            Imagen 6. Icono Registro Nuevo
+#. "**Icono Registro Nuevo**": Permite crear un nuevo registro de orden de venta en el punto de venta configurado para el vendedor, la forma más facil de realizar este proceso es por medio de la tecla de acceso directo "**F2**".
 
-        - "**Imprimir**": Permite visualizar en una ventana diferente a la ventana "**Punto de Venta**", el reporte de la orden de venta que esta realizando con diferentes opciones por medio de las cuales el usuario puede acercar, alejar, guardar e imprimir el documento de orden de venta creado en el punto de venta previmente configurado para el vendedor. Esta acción se puede ejecutar por medio de la tecla de acceso directo "**F12**".
+    |Icono Registro Nuevo de la Barra de Herramientas del Punto de Venta|
 
-            |Icono Imprimir|
+    Imagen 6. Icono Registro Nuevo de la Barra de Herramientas del Punto de Venta
 
-            Imagen 7. Icono Imprimir
+#. "**Icono Imprimir**": Permite visualizar en la ventana "**Informe**", el reporte de la orden de venta que esta realizando, en la cual cuenta con diferentes opciones por medio de las cuales el usuario puede acercar, alejar, guardar e imprimir el documento de orden de venta creado en el punto de venta previmente configurado para el vendedor. Esta acción se puede ejecutar por medio de la tecla de acceso directo "**F12**".
 
-        - "**Tipo de Documento**": Permite cambiar el tipo de documento cargado por defecto, el mismo define el comportamiento del documento que se esta generando y se encuentra explicado en el material :ref:`documento/tipo-documento` elaborado por `ERPyA`_. Adicional a ello, se puede ejecutar esta acción seleccionando la tecla "**F10**".
+    |Icono Imprimir de la Barra de Herramientas del Punto de Venta|
 
-            |Icono Tipo de Documento|
+    Imagen 7. Icono Imprimir de la Barra de Herramientas del Punto de Venta
 
-            Imagen 8. Icono Tipo de Documento
+#. "**Icono Tipo de Documento**": Permite cambiar el tipo de documento cargado por defecto, el mismo define el comportamiento del documento que se esta generando y se encuentra explicado en el material :ref:`documento/tipo-documento` elaborado por `ERPyA`_. Adicional a ello, se puede ejecutar esta acción seleccionando la tecla "**F10**".
 
-        - "**Información de Producto**": Permite agregar los productos a la orden de venta que se esta realizando, por medio de la selección de los mismos en la ventana desplegada "**Información de Producto**". De igual manera, se puede ejecutar esta acción seleccionando la convinación de las teclas "**Alt+I**".
+    |Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta|
 
-            |Icono Información de Producto|
+    Imagen 8. Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta
 
-            Imagen 9. Icono Información de Producto
+#. "**Icono Información de Producto**": Permite realizar una búsqueda de los productos para consultar su información, por medio de la selección de los mismos en la ventana desplegada "**Información de Producto**". De igual manera, se puede ejecutar esta acción seleccionando la convinación de las teclas "**Alt+I**".
 
-        - "**Cliente**": Despliega una ventana que permite cambiar el cliente por defecto, con el fin de crear documentos personalizados. La selección de este icono permite la visualización de la ventana "**Socio del Negocio**", con diferentes campos que pueden ser utilizados como filtros de búsqueda de clientes ya registrados, la información de los mismos puede ser visualizada debajo del grupo de campo "**Entrar Consulta**". Adicional a ello, la ventana cuenta con seis (6) iconos que permiten el registro de un nuevo cliente, la modificación de los registros existentes, el borrado de la consulta o búsqueda realizada, la recarga de la ventana para que sean actualizados los registros, la aceptación del cliente seleccionado y la cancelación de la selección del cliente. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+B**".
+    |Icono Información de Producto de la Barra de Herramientas del Punto de Venta|
 
-            |Icono Cliente|
+    Imagen 9. Icono Información de Producto de la Barra de Herramientas del Punto de Venta
 
-            Imagen 10. Icono Cliente
+#. "**Icono Cliente**": Despliega una ventana que permite cambiar el cliente por defecto, con el fin de crear documentos personalizados. 
 
-        - "**Proceso**": Permite realizar diversas acciones desde la selección de las diferentes opciones que contempla el menú del icono. A continuación se explica cada una.
+    |Icono Cliente de la Barra de Herramientas del Punto de Venta|
 
-            |Icono Proceso|
+    Imagen 10. Icono Cliente de la Barra de Herramientas del Punto de Venta
 
-            Imagen 11. Icono Proceso
+    #. La selección de este icono permite la visualización de la ventana "**Socio del Negocio**", con diferentes campos que pueden ser utilizados como filtros de búsqueda de clientes ya registrados.
 
-            - "**Cerrar Caja Cerrar Caja del Punto de Venta**": Permite realizar el cierre del punto de venta a través de la ventana de búsqueda inteligente "**Cierre del Punto de Ventas**".
+        |Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta|
 
-                |Opción Cerrar Caja del Punto de Venta|
+        Imagen 11. Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta
+    
+    #. La información de los clientes puede ser visualizada debajo del grupo de campo "**Entrar Consulta**".
+    
+        |Información de los Clientes en la Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta|
 
-                Imagen 12. Cerrar Caja del Punto de Venta
+        Imagen 12. Información de los Clientes en la Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta
+    
+    #. Adicional a ello, la ventana cuenta con seis (6) iconos que permiten el registro de un nuevo cliente, la modificación de los registros existentes, el borrado de la consulta o búsqueda realizada, la recarga de la ventana para que sean actualizados los registros, la aceptación del cliente seleccionado y la cancelación de la selección del cliente. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+B**".
 
-            - "**Generate Inmediate Invoice**":
+        |Iconos de la Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta|
 
-                |Opción Generate Inmediate Invoice|
+        Imagen 13. Iconos de la Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta
 
-                Imagen 13. Opción Generate Inmediate Invoice
+#. "**Icono Proceso**": Permite realizar diversas acciones desde la selección de las diferentes opciones que contempla el menú de dicho icono. A continuación se explica cada una de las opciones del "**Icono Proceso**".
 
-            - "**Completar Orden Prepagada**":
+    |Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
-                |Opción Completar Orden Prepagada|
+    Imagen 14. Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-                Imagen 14. Opción Completar Orden Prepagada
+    #. "**Opción Cerrar Caja del Punto de Venta**": Permite realizar el cierre del punto de venta a través de la ventana de búsqueda inteligente "**Cierre del Punto de Ventas**".
 
-            - "**Anular Transacción de Venta**": Este proceso permite revertir la transaccion de venta
+        |Opción Cerrar Caja del Punto de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
-                |Opción Anular Transacción de Venta|
+        Imagen 15. Cerrar Caja del Punto de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-                Imagen 15. Opción Anular Transacción de Venta
+    #. "**Opción Generar Factura Inmediata**": Permite generar una factura desde el punto de venta.
 
-            - "**Crear Retiro de POS**":
+        |Opción Generar Factura Inmediata del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
-                |Opción Crear Retiro de POS|
+        Imagen 16. Opción Generar Factura Inmediata del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-                Imagen 16. Opción Crear Retiro de POS 
+    #. "**Opción Completar Orden Prepagada**": Permite completar una orden prepagada desde el punto de venta.
 
-            - "**&Imprimir**":
+        |Opción Completar Orden Prepagada del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
-                |Opción Imprimir|
+        Imagen 17. Opción Completar Orden Prepagada del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-                Imagen 17. Opción &Imprimir
+    #. "**Opción Anular Transacción de Venta**": Este proceso permite revertir la transaccion de venta.
 
-            - "**Crear Nueva Orden de Devolución**":
+        |Opción Anular Transacción de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
-                |Opción Crear Nueva Orden de Devolución|
+        Imagen 18. Opción Anular Transacción de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-                Imagen 18. Opción Crear Nueva Orden de Devolución
+    #. "**Opción Crear Retiro de POS**": Permite realizar un retiro de punto de venta.
 
-        - "**Registros Históricos**": Permite realizar una búsqueda de todas las órdenes de venta realizadas, según lo seleccionado en los campos o filtros de búsqueda de la ventana "**Orden de Venta**" desplegada por el icono "**Registros Históricos**". Esta acción se puede ejecutar seleccionando la tecla "**F9**".
+        |Opción Crear Retiro de POS del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
-            |Icono Registros Históricos|
+        Imagen 19. Opción Crear Retiro de POS del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-            Imagen 19. Icono Registros Históricos
+    #. "**Opción Imprimir**": Permite generar un reporte para visualizar la orden de venta que esta realizando en  el punto de venta. Dicho reporte es visualizado en la ventana "**Informe**".
 
-        - "**Registro Anterior**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados antes que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Left**".
+        |Opción Imprimir del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
-            |Icono Registro Anterior|
+        Imagen 20. Opción Imprimir del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-            Imagen 20. Icono Registro Anterior
+    #. "**Opción Crear Nueva Orden de Devolución**":
 
-        - "**Próximo Registro**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados despues que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Right**".
+        |Opción Crear Nueva Orden de Devolución del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
-            |Icono Próximo Registro|
+        Imagen 21. Opción Crear Nueva Orden de Devolución del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-            Imagen 21. Icono Próximo Registro
+#. "**Icono Registros Históricos**": Permite realizar una búsqueda de todas las órdenes de venta realizadas, según lo seleccionado en los campos o filtros de búsqueda de la ventana "**Orden de Venta**" desplegada por el icono "**Registros Históricos**". Esta acción se puede ejecutar seleccionando la tecla "**F9**".
 
-        - "**Pago**": Esta acción se puede ejecutar seleccionando la tecla "**F4**".
+    |Icono Registros Históricos de la Barra de Herramientas del Punto de Venta|
 
-            |Icono Pago|
+    Imagen 22. Icono Registros Históricos de la Barra de Herramientas del Punto de Venta
 
-            Imagen 22. Icono Pago
+#. "**Icono Registro Anterior**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados antes que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Left**".
 
-        - "**Anular Orden**": Permite cancelar o anular la orden de venta que esta realizando el usuario vendedor, al seleccionar este icono dicha orden dejará de estar disponible. Esta acción se puede ejecutar seleccionando la tecla "**F3**".
+    |Icono Registro Anterior de la Barra de Herramientas del Punto de Venta|
 
-            |Icono Cancel Order|
+    Imagen 23. Icono Registro Anterior de la Barra de Herramientas del Punto de Venta
 
-            Imagen 23. Icono Cancel Order 
+#. "**Icono Próximo Registro**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados despues que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Right**".
 
-        - "**Finalizar Ventana**": Permite cerrar la ventana "**Punto de Venta**" en la cual se encuentra el usuario vendedor. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+L**".
+    |Icono Próximo Registro de la Barra de Herramientas del Punto de Venta|
 
-            |Icono Finalizar Ventana|
+    Imagen 24. Icono Próximo Registro de la Barra de Herramientas del Punto de Venta
 
-            Imagen 24. Icono Finalizar Ventana 
-            
-        - "**Borrar Línea**": Permite borrar el registro del producto creado en la línea seleccionada de la orden de venta. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+F3**".
+#. "**Icono Pago**": Esta acción se puede ejecutar seleccionando la tecla "**F4**".
 
-            |Icono Borrar Línea|
+    |Icono Pago de la Barra de Herramientas del Punto de Venta|
 
-            Imagen 25. Icono Borrar Línea
+    Imagen 25. Icono Pago de la Barra de Herramientas del Punto de Venta
 
-        - "**Añadir**": Permite sumar a la cantidad ordenada del producto seleccionado, la cantidad ingresada en el campo "**Cantidad Ordenada**". Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+0**".
+#. "**Icono Anular Orden**": Permite cancelar o anular la orden de venta que esta realizando el usuario vendedor, al seleccionar este icono dicha orden dejará de estar disponible. Esta acción se puede ejecutar seleccionando la tecla "**F3**".
 
-            |Icono Añadir|
+    |Icono Cancel Order de la Barra de Herramientas del Punto de Venta|
 
-            Imagen 26. Icono Añadir
+    Imagen 26. Icono Cancel Order de la Barra de Herramientas del Punto de Venta
 
-        - "**Menos**": Permite restar a la cantidad ordenada del producto seleccionado, la cantidad ingresada en el campo "**Cantidad Ordenada**". Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+0**".
+#. "**Icono Finalizar Ventana**": Permite cerrar la ventana "**Punto de Venta**" en la cual se encuentra el usuario vendedor. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+L**".
 
-            |Icono Menos|
+    |Icono Finalizar Ventana de la Barra de Herramientas del Punto de Venta|
 
-            Imagen 27. Icono Menos
+    Imagen 27. Icono Finalizar Ventana de la Barra de Herramientas del Punto de Venta
 
-        - "**Registro Anterior**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados antes que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Up**".
+**Panel de Búsqueda de Productos**
+----------------------------------
 
-            |Icono Registro Anterior 2|
+Permite realizar una búsqueda por código de producto, de todos los productos para la venta registrados en ADempiere que tengan coincidencia con lo que se introduzca en el campo "**Código**".
 
-            Imagen 28. Icono Registro Anterior
+    |Carga de Productos en el Panel de Búsqueda de Productos|
 
-        - "**Próximo Registro**":  Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados despues que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Down**".
+    Imagen 28. Carga de Productos por Búsqueda
 
-            |Icono Próximo Registro 2|
+    .. note::
 
-            Imagen 29. Icono Próximo Registro
+        Esta acción se ejecuta automáticamente al ingresar el código del producto en el campo "**Código**".
 
-    #. Adicional a ello, la ventana "**Punto de Venta**", cuenta con los siguientes campos explicados de forma detallada.
+#. "**Campo Código**": Permite buscar el producto por el código de identificación del mismo.
 
-        - "**Grupo de Campos Información de Orden**": Contiene la información relacionada al encabezado de la orden de venta que esta realizando el usuario vendedor.
+    |Campo Código del Producto del Panel de Búsqueda de Productos|
 
-            |Grupo de Campos Información de Orden|
+    Imagen 29. Campo Código del Producto del Panel de Búsqueda de Productos
 
-            Imagen 30. Grupo de Campos Información de Orden
+#. "**Campo Producto**": Permite buscar el producto por el nombre del mismo.
 
-            - "**Documento No.**": Muestra el número de documento de la orden de venta que esta realizando el usuario vendedor. 
+    |Campo Nombre del Producto del Panel de Búsqueda de Productos|
 
-                |Campo Documento No|
+    Imagen 30. Campo Nombre del Producto del Panel de Búsqueda de Productos
 
-                Imagen 31. Campo Documento No 
+#. "**Campo Disponible**": Muestra la disponibilidad del producto buscado.
 
-            - "**Tipo de Documento**": Muestra el tipo de documento con el cual fue creada la orden de venta desde el punto de venta.
+    |Campo Disponibilidad del Producto del Panel de Búsqueda de Productos|
 
-                |Campo Tipo de Documento|
+    Imagen 31. Campo Disponibilidad del Producto del Panel de Búsqueda de Productos
 
-                Imagen 32. Campo Tipo de Documento
+#. "**Campo Precio Estándar**": Muestra el precio estándar del producto buscado.
 
-            - "**Estado del Documento**": Muestra el estado del documento en el que se encuentra la orden de venta que esta realizando el usuario vendedor.
+    |Campo Precio Estándar del Producto del Panel de Búsqueda de Productos|
 
-                |Campo Estado del Documento|
+    Imagen 32. Campo Precio Estándar del Producto del Panel de Búsqueda de Productos
 
-                Imagen 33. Campo Estado del Documento
+#. "**Campo Precio de Lista**": Muestra el precio de lista del producto buscado.
 
-            - "**Agente Comercial**": Muestra el nombre y el apellido del usuario vendedor relacionado a la orden de venta.
+    |Campo Precio de Lista del Producto del Panel de Búsqueda de Productos|
 
-                |Campo Agente Comercial|
+    Imagen 33. Campo Precio de Lista del Producto del Panel de Búsqueda de Productos
 
-                Imagen 34. Campo Agente Comercial
+**Sección Información de Producto**
+-----------------------------------
 
-        - "**Grupo de Campos Totales (Bs.S)**": Contiene la información detallada de los montos totales de la orden y la fecha de la creación de la misma.
+Luego de incluir los productos a la orden de venta, se visualizará su información principal en la sección "**Información de Producto**" de la ventana "**Punto de Venta**".
 
-            |Grupo de Campos Totales Bs.S|
+    |Sección Información de Producto de la Ventana Punto de Venta|
 
-            Imagen 35. Grupo de Campos Totales Bs.S 
+    Imagen 34. Sección Información de Producto de la Ventana Punto de Venta
 
-            - "**Fecha de la Orden**": Muestra la fecha en la cual fue creada la orden de venta.
+#. "**Código del Producto**": Muestra el código identificador del producto seleccionado.
+    
+    |Campo Código del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
-                |Campo Fecha de la Orden|
+    Imagen 35. Campo Código del Producto de la Sección Información de Producto de la Ventana Punto de Venta
 
-                Imagen 36. Campo Fecha de la Orden
+#. "**Precio del Producto**": Muestra los precios estándar y en lista de precios para la venta del producto seleccionado.
 
-            - "**Subtotal**": Muestra el total del pago sin impuestos de la orden de venta.
+    |Campo Precio del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
-                |Campo Subtotal|
+    Imagen 36. Campo Precio del Producto de la Sección Información de Producto de la Ventana Punto de Venta
 
-                Imagen 37. Campo Subtotal
+#. "**Nombre del Producto**": Muestra el nombre del producto seleccionado.
 
-            - "**Impuesto**": Muestra el total de impuestos de la orden de venta.
+    |Campo Nombre del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
-                |Campo Impuesto|
+    Imagen 37. Campo Nombre del Producto de la Sección Información de Producto de la Ventana Punto de Venta
 
-                Imagen 38. Campo Impuesto
+#. "**Unidad de Medida del Producto**": Muestra la unidad de medida en la que se presenta el producto seleccionado.
 
-            - "**Gran Total**": Muestra el total a pagar por el cliente, el mismo se compone de la sumatoria del monto del subtotal más el monto del impuesto.
+    |Campo Unidad de Medida del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
-                |Campo Gran Total|
+    Imagen 38. Campo Unidad de Medida del Producto de la Sección Información de Producto de la Ventana Punto de Venta
 
-                Imagen 39. Campo Gran Total
+#. "**Categoría del Producto**": Muestra la categoría a la que pertenece el producto seleccionado.
 
-        - "**Información del Socio del Negocio Cliente**": Muestra la información del socio del negocio cliente que esta comprando los productos ingresados al documento "**Orden de Venta**" realizada por el usuario vendedor.
+    |Campo Categoría del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
-            |Información del Socio del Negocio Cliente|
+    Imagen 39. Campo Categoría del Producto de la Sección Información de Producto de la Ventana Punto de Venta
 
-            Imagen 40. Información del Socio del Negocio Cliente
+#. "**Categoría del Impuesto del Producto**": Muestra la categoría del impuesto a la que pertenece el producto seleccionado.
 
-        - "**Cantidad Ordenada**": Corresponde a la cantidad de productos ordenados por el socio del negocio cliente, la misma puede modificarse desde los iconos "**Añadir**", "**Menos**" y "**Calculadora**", el último icono nombrado se encuentra ubicado del lado derecho del campo "**Cantidad Ordenada**".
+    |Campo Categoría del Impuesto del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
-            |Campo Cantidad Ordenada|
+    Imagen 40. Campo Categoría del Impuesto del Producto de la Sección Información de Producto de la Ventana Punto de Venta
 
-            Imagen 41. Campo Cantidad Ordenada
+**Barra de Edición de Productos**
+---------------------------------
 
-        - "**Precio Actual**": Corresponde al precio unitario para la venta que tiene el producto seleccionado, el mismo puede ser modificado con ayuda del icono "**Calculadora**" que se encuentra ubicado del lado derecho del campo "**Precio Actual**".
+Contiene los campos para modificar la cantidad del producto a vender, el precio actual y el descuento del producto. Adicional a ello, contiene el icono para eliminar la línea de la orden donde se encuentra el producto, los iconos para sumar y restar la cantidad del producto a vender, los botones de navegación entre las líneas de la orden.
 
-            |Campo Precio Actual|
+    |Barra de Edición de Productos de la Ventana Punto de Venta|
 
-            Imagen 42. Campo Precio Actual
+    Imagen 41. Barra de Edición de Productos de la Ventana Punto de Venta
 
-        - "**Descuentos**": Corresponde al descuento que será aplicado al producto seleccionado al momento de la venta del mismo.
+#. "**Icono Borrar Línea**": Permite borrar el registro del producto creado en la línea seleccionada de la orden de venta. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+F3**".
 
-            |Campo Descuentos|
+    |Icono Borrar Línea de la Barra de Edición de Productos de la Ventana Punto de Venta|
 
-            Imagen 43. Campo Descuentos
+    Imagen 42. Icono Borrar Línea de la Barra de Edición de Productos de la Ventana Punto de Venta
 
-        - "**Línea de Productos**": Es el espacio establecido para el listado de los productos seleccionados o ingresados en la orden de venta, en el cual se detalla el nombre del producto, la cantidad ordenada, la unidad de medida del producto, el precio unitario, el descuento del mismo, el neto de la línea, el impuesto y el gran total de la cantidad ordenada del producto.
+#. "**Icono Añadir**": Permite sumar a la cantidad ordenada del producto seleccionado, la cantidad ingresada en el campo "**Cantidad Ordenada**". Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+0**".
 
-            |Grupo de Campos Línea de Productos|
+    |Icono Añadir de la Barra de Edición de Productos|
 
-            Imagen 44. Grupo de Campos Línea de Productos
+    Imagen 43. Icono Añadir de la Barra de Edición de Productos
 
-            - "**Icono Eliminar Línea**": Permite borrar el registro de la línea de la orden de venta.
+#. "**Icono Menos**": Permite restar a la cantidad ordenada del producto seleccionado, la cantidad ingresada en el campo "**Cantidad Ordenada**". Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+0**".
 
-                |Icono Eliminar Línea|
+    |Icono Menos de la Barra de Edición de Productos|
 
-                Imagen 45. Icono Eliminar Línea
+    Imagen 44. Icono Menos de la Barra de Edición de Productos
 
-            - "**Columna Nombre del Producto**": Columna en la cual se muestran los nombres de los productos agregados en las diferentes líneas de la orden de venta.
+#. "**Icono Registro Anterior**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados antes que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Up**".
 
-                |Columna Nombre del Producto|
+    |Icono Registro Anterior de la Barra de Edición de Productos|
 
-                Imagen 46. Columna Nombre del Producto
+    Imagen 45. Icono Registro Anterior de la Barra de Edición de Productos
 
-            - "**Columna Cantidad Ordenada**": Columna en la cual se muestran las cantidades ordenadas de los productos agregados en las diferentes líneas de la orden de venta, las mismas pueden ser modificadas con ayuda del icono "**Calculadora**" ubicado del lado derecho del campo.
+#. "**Icono Próximo Registro**":  Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados despues que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Down**".
 
-                |Columna Cantidad Ordenada|
+    |Icono Próximo Registro de la Barra de Edición de Productos|
 
-                Imagen 47. Columna Cantidad Ordenada
+    Imagen 46. Icono Próximo Registro de la Barra de Edición de Productos
 
-            - "**Columna UM**": Columna en la cual se muestra la unidad de medida en la que se venderán los productos agregados en las diferentes líneas de la orden de venta.
+#. "**Campo Cantidad Ordenada**": Corresponde a la cantidad de productos ordenados por el socio del negocio cliente, la misma puede modificarse desde los iconos "**Añadir**", "**Menos**" y "**Calculadora**", el último icono nombrado se encuentra ubicado del lado derecho del campo "**Cantidad Ordenada**".
 
-                |Columna Unidad de Medida|
+    |Campo Cantidad Ordenada de la Barra de Edición de Productos|
 
-                Imagen 48. Columna Unidad de Medida
+    Imagen 47. Campo Cantidad Ordenada de la Barra de Edición de Productos
 
-            - "**Columna Precio Actual**": Columna en la cual se muestra el precio unitario de los productos agregados en las diferentes líneas de la orden de venta.
+#. "**Campo Precio Actual**": Corresponde al precio unitario para la venta que tiene el producto seleccionado, el mismo puede ser modificado con ayuda del icono "**Calculadora**" que se encuentra ubicado del lado derecho del campo "**Precio Actual**".
 
-                |Columna Precio Actual|
+    |Campo Precio Actual de la Barra de Edición de Productos|
 
-                Imagen 49. Columna Precio Actual
+    Imagen 48. Campo Precio Actual de la Barra de Edición de Productos
 
-            - "**Columna Descuentos**": Columna en la cual se muestra el descuento de los productos agregados en las diferentes líneas de la orden de venta.
+#. "**Campo Descuentos**": Corresponde al descuento que será aplicado al producto seleccionado al momento de la venta del mismo.
 
-                |Columna Descuentos|
+    |Campo Descuentos de la Barra de Edición de Productos|
 
-                Imagen 50. Columna Descuentos
+    Imagen 49. Campo Descuentos de la Barra de Edición de Productos
 
-            - "**Columna Neto de Línea**": Columna en la cual se muestra el monto total sin impuestos, de los productos agregados en las diferentes líneas la orden de venta.
+**Línea de la Orden de Venta**
+------------------------------
 
-                |Columna Neto de Línea|
+Es el espacio establecido para el listado de los productos seleccionados o ingresados en la orden de venta, en el cual se detalla el nombre del producto, la cantidad ordenada, la unidad de medida del producto, el precio unitario, el descuento del mismo, el neto de la línea, el impuesto y el gran total de la cantidad ordenada del producto.
 
-                Imagen 51. Columna Neto de Línea
+    |Grupo de Campos Línea de Productos|
 
-            - "**Columna Impuesto**": Columna en la cual se muestra el impuesto de las diferentes líneas de la orden de venta.
+    Imagen 50. Grupo de Campos Línea de Productos
 
-                |Columna Impuesto|
+    - "**Icono Eliminar Línea**": Permite borrar el registro de la línea de la orden de venta.
 
-                Imagen 52. Columna Impuesto
+        |Icono Eliminar Línea|
 
-            - "**Columna Gran Total**": Columna en la cual se muestra el monto total con impuestos, de las diferentes líneas de la orden de venta. 
+        Imagen 51. Icono Eliminar Línea
 
-                |Columna Gran Total|
+    - "**Columna Nombre del Producto**": Columna en la cual se muestran los nombres de los productos agregados en las diferentes líneas de la orden de venta.
 
-                Imagen 53. Columna Gran Total
+        |Columna Nombre del Producto|
 
-    #. Finalmente, la ventana "**Punto de Venta**", cuenta con las siguientes opciones explicadas a continuación.
+        Imagen 52. Columna Nombre del Producto
 
-        - "**Carga de Productos por Búsqueda**": Permite realizar una búsqueda por código de producto, de todos los productos para la venta registrados en ADempiere que tengan coincidencia con lo que se introduzca en el campo "**Producto**". Esta acción se ejecuta automáticamente al ingresar el código del producto en el campo "**Código**".
+    - "**Columna Cantidad Ordenada**": Columna en la cual se muestran las cantidades ordenadas de los productos agregados en las diferentes líneas de la orden de venta, las mismas pueden ser modificadas con ayuda del icono "**Calculadora**" ubicado del lado derecho del campo.
 
-            |Carga de Productos por Búsqueda|
+        |Columna Cantidad Ordenada|
 
-            Imagen 54. Carga de Productos por Búsqueda
+        Imagen 53. Columna Cantidad Ordenada
 
-        - "**Catálogo de Productos**": Permite que los productos sean cargados a la orden de venta mediante la selección de los mismos.
+    - "**Columna UM**": Columna en la cual se muestra la unidad de medida en la que se venderán los productos agregados en las diferentes líneas de la orden de venta.
 
-            |Catálogo de Productos|
+        |Columna Unidad de Medida|
 
-            Imagen 55. Catálogo de Productos
+        Imagen 54. Columna Unidad de Medida
+
+    - "**Columna Precio Actual**": Columna en la cual se muestra el precio unitario de los productos agregados en las diferentes líneas de la orden de venta.
+
+        |Columna Precio Actual|
+
+        Imagen 55. Columna Precio Actual
+
+    - "**Columna Descuentos**": Columna en la cual se muestra el descuento de los productos agregados en las diferentes líneas de la orden de venta.
+
+        |Columna Descuentos|
+
+        Imagen 56. Columna Descuentos
+
+    - "**Columna Neto de Línea**": Columna en la cual se muestra el monto total sin impuestos, de los productos agregados en las diferentes líneas la orden de venta.
+
+        |Columna Neto de Línea|
+
+        Imagen 57. Columna Neto de Línea
+
+    - "**Columna Impuesto**": Columna en la cual se muestra el impuesto de las diferentes líneas de la orden de venta.
+
+        |Columna Impuesto|
+
+        Imagen 58. Columna Impuesto
+
+    - "**Columna Gran Total**": Columna en la cual se muestra el monto total con impuestos, de las diferentes líneas de la orden de venta. 
+
+        |Columna Gran Total|
+
+        Imagen 59. Columna Gran Total
+
+**Información de la Orden**
+---------------------------
+
+Contiene la información relacionada al encabezado de la orden de venta que esta realizando el usuario vendedor.
+
+    |Grupo de Campos Información de Orden|
+
+    Imagen 60. Grupo de Campos Información de Orden
+
+    - "**Documento No.**": Muestra el número de documento de la orden de venta que esta realizando el usuario vendedor. 
+
+        |Campo Documento No|
+
+        Imagen 61. Campo Documento No 
+
+    - "**Tipo de Documento**": Muestra el tipo de documento con el cual fue creada la orden de venta desde el punto de venta.
+
+        |Campo Tipo de Documento|
+
+        Imagen 62. Campo Tipo de Documento
+
+    - "**Estado del Documento**": Muestra el estado del documento en el que se encuentra la orden de venta que esta realizando el usuario vendedor.
+
+        |Campo Estado del Documento|
+
+        Imagen 63. Campo Estado del Documento
+
+    - "**Agente Comercial**": Muestra el nombre y el apellido del usuario vendedor relacionado a la orden de venta.
+
+        |Campo Agente Comercial|
+
+        Imagen 64. Campo Agente Comercial
+
+**Totales (Bs.S)**
+------------------
+
+Contiene la información detallada de los montos totales de la orden y la fecha de la creación de la misma.
+
+    |Grupo de Campos Totales Bs.S|
+
+    Imagen 65. Grupo de Campos Totales Bs.S 
+
+    - "**Fecha de la Orden**": Muestra la fecha en la cual fue creada la orden de venta.
+
+        |Campo Fecha de la Orden|
+
+        Imagen 66. Campo Fecha de la Orden
+
+    - "**Subtotal**": Muestra el total del pago sin impuestos de la orden de venta.
+
+        |Campo Subtotal|
+
+        Imagen 67. Campo Subtotal
+
+    - "**Impuesto**": Muestra el total de impuestos de la orden de venta.
+
+        |Campo Impuesto|
+
+        Imagen 68. Campo Impuesto
+
+    - "**Gran Total**": Muestra el total a pagar por el cliente, el mismo se compone de la sumatoria del monto del subtotal más el monto del impuesto.
+
+        |Campo Gran Total|
+
+        Imagen 69. Campo Gran Total
+
+**Panel de Búsqueda de Socio del Negocio Cliente**
+--------------------------------------------------
+
+Muestra la información del socio del negocio cliente que esta comprando los productos ingresados al documento "**Orden de Venta**" realizada por el usuario vendedor.
+
+    |Información del Socio del Negocio Cliente|
+
+    Imagen 70. Información del Socio del Negocio Cliente
+
+**Catálogo de Productos**
+-------------------------
+
+Permite que los productos sean cargados a la orden de venta mediante la selección de los mismos.
+
+    |Catálogo de Productos|
+
+    Imagen 71. Catálogo de Productos
