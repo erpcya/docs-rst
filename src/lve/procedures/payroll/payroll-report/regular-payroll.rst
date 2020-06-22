@@ -1,7 +1,8 @@
-
 .. |Recibo de Nómina| image:: resources/recibopago11.png
 .. |Detalle de Pago 1| image:: resources/DetalledePago11.png
 .. |Detalle de Pago 2| image:: resources/Detalledepago22.png
+.. |Resumen de Pago 1| image:: resources/resumendepago11.png
+.. |Resumen de Pago 2| image:: resources/resumendepago22.png
 
 .. _documento/nomina-regular:
 
@@ -120,16 +121,16 @@ Entre las deducciones que se pueden visualizar en el reporte de nómina regular 
 
 
 
-     Para este reporte están configurados 3 tipos de plantillas
 
- 
- #. Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina.
+Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
+
+#.Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina.
 
 
-        Entre los datos personales que usted puede visualizar se encuentran los siguientes:
+        Entre los datos personales que usted puede visualizar en el encabezado de su recibo de pago de la nómina regular se encuentran los siguientes:
 
     +-----------------------------------------------+-----------------------------------------------+
-    |       **Datos Personales**                    |             **REFERENCIA**                    |
+    |       **DATOS PERSONALES**                    |             **REFERENCIA**                    |
     +===============================================+===============================================+
     |  Nombre de la Compañía                        | Corresponde al nombre de la compañía          |
     +-----------------------------------------------+-----------------------------------------------+
@@ -182,14 +183,15 @@ Entre las deducciones que se pueden visualizar en el reporte de nómina regular 
     +-----------------------------------------------+-----------------------------------------------+
   
 
-.. note::
-    Para realizar cualquier modificación que requiera realizar de estos campos puede utilizar el siguiente documento :ref:`documento/socio-empleado` 
+    .. note::
+    
+        Para realizar cualquier modificación que requiera realizar de estos campos puede utilizar el siguiente documento :ref:`documento/socio-empleado` 
   
     
-Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fué impreso el recibo.
+    Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fué impreso el recibo.
  
  
- En el ejemplo presentado se evidencia una nómina mensual  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
+    En el ejemplo presentado se evidencia una nómina mensual  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
 
     |Recibo de Nómina|
@@ -198,10 +200,10 @@ Por último se detallará el montol total de las asignaciones, el total de deduc
 
 #. Detalle de Pago: Seleccione esta plantilla de reporte de nómina regular si desea conocer de manera detallada todos los montos de nómina de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos del totales de las nóminas procesadas a todos los empleados.
 
-Los campos podrá visualizar en este reporte son:
+    Los campos podrá visualizar en este reporte son:
 
     +-----------------------------------------------+-----------------------------------------------+
-    |          **Parámetros**                       |             **REFERENCIA**                    |
+    |          **PARÁMETROS**                       |             **REFERENCIA**                    |
     +===============================================+===============================================+
     |  Contrato                                     | Correspone a el contrato configurado para la  |
     |                                               | nómina en ejecución                           |
@@ -228,16 +230,59 @@ Los campos podrá visualizar en este reporte son:
     +-----------------------------------------------+-----------------------------------------------+
  
  
- En el siguiente ejemplo presentado se evidencia una nómina mensual  procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente. 
+    En el siguiente ejemplo presentado se evidencia una nómina mensual  procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente. 
  
     |Detalle de Pago 1|
 
-    Imagen 2. Detalle de Pago. 1 Nómina Diferentes Empleado.
+    Imagen 2. Detalle de Pago. Misma nómina con diferentes empleados.
 
 
-
- En el ejemplo presentado se evidencia detalle de pago del reporte de nómina regular de 2 nóminas mensuales procesada al mismo empleado y en ella se evidencian las asignaciones y las deducciones obtenidas, así como se encuentran todos los datos qué detallamos anteriormente. 
+    En el ejemplo presentado se evidencia detalle de pago del reporte de nómina regular de 2 nóminas mensuales procesada al mismo empleado y en ella se evidencian las asignaciones y las deducciones obtenidas, así como se encuentran todos los datos qué detallamos anteriormente. 
  
     |Detalle de Pago 2|
 
-    Imagen 3. Detalle de Pago. 2 Nóminas mismo Empleado.
+    Imagen 3. Detalle de Pago. Diferentes nóminas procesadas al mismo empleado.
+
+
+#. Resumen de Pago:  Seleccione esta plantilla de reporte de nómina para conocer de manera resumida las asignaciones y deducciones agrupadas en todas en un  mismo reporte omitiendo algunos detalle que usted pudiera encontrar en la plantilla Detalle de Pago. Esta plantilla le presentará por cada uno de los concepto un monto total por cada empleado:
+
+    Los campos podrá visualizar en este reporte son:
+
+    +-----------------------------------------------+-----------------------------------------------+
+    |          **PARÁMETROS**                       |             **REFERENCIA**                    |
+    +===============================================+===============================================+
+    |  Contrato                                     | Correspone a el contrato configurado para la  |
+    |                                               | nómina en ejecución                           |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
+    |                                               | procesada                                     |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Trabajador                                   | Identifica el nombre de cada uno de los       |
+    |                                               | empleados                                     |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
+    |                                               | en este caso aparecerá el nombre de las       |
+    |                                               | asignaciones y deducciones mencionadas        |
+    |                                               | anteriormente                                 |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Mes                                          | Corresponde al monto otorgado por el empleado |
+    |                                               | por el concepto de asignación o durante ese   |
+    |                                               | mes                                           |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Total                                        | Corresponde al monto total obtenido por       |
+    |                                               | concepto                                      |
+    +-----------------------------------------------+-----------------------------------------------+
+
+   En el siguiente ejemplo presentado se evidencia una nómina mensual  procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina regular utilizando la plantilla de resumen de pagos
+ 
+    |Resumen de Pago 1|
+
+    Imagen 4. Resumen de Pago. Misma nómina con diferentes empleados.
+
+
+
+    En el ejemplo presentado se evidencia detalle de pago del reporte de nómina regular de 2 nóminas mensuales procesada al mismo empleado y en ella se evidencian las asignaciones y las deducciones obtenidas, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina regular utilizando la plantilla de resumen de pagos 
+ 
+    |Resumen de Pago 2|
+
+    Imagen 5. Resumen de Pago. Diferentes nóminas procesadas al mismo empleado.
