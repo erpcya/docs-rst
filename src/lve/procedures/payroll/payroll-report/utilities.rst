@@ -130,7 +130,7 @@ Adicionalmente dentro de los conceptos encontrará datos como:
    +-----------------------------------------------+-----------------------------------------------+
    |          **PARÁMETROS**                       |             **REFERENCIA**                    |
    +===============================================+===============================================+
-   |  Contrato                                     | Correspone a el contrato configurado para la  |
+   |  Contrato                                     | Corresponde a el contrato configurado para la  |
    |                                               | nómina en ejecución                           |
    +-----------------------------------------------+-----------------------------------------------+
    |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
@@ -171,7 +171,7 @@ Adicionalmente dentro de los conceptos encontrará datos como:
    +-----------------------------------------------+-----------------------------------------------+
    |          **PARÁMETROS**                       |             **REFERENCIA**                    |
    +===============================================+===============================================+
-   |  Contrato                                     | Correspone a el contrato configurado para la  |
+   |  Contrato                                     | Corresponde a el contrato configurado para la |
    |                                               | nómina en ejecución                           |
    +-----------------------------------------------+-----------------------------------------------+
    |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
