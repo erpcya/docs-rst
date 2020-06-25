@@ -18,7 +18,6 @@
 .. |Pestaña Línea de Selección de Pago| image:: resources/payment-selection-line-tab.png
 .. |Pestaña Selección de Pago y Opción Completar| image:: resources/payment-selection-tab-and-complete-option.png
 .. |Acción Completar y Opción OK| image:: resources/action-complete-and-option-ok.png
-.. _documento/orden-de-pago-desde-orden:
 .. |Campo de Búsqueda Socio de Negocio OC| image:: resources/
 .. |Check de Búsqueda Transacción de Ventas| image:: resources/
 .. |Campo de Búsqueda Regla de Pago| image:: resources/
@@ -33,7 +32,7 @@
 .. |Campo N° Línea| image:: resources/
 .. |Campo Descripción en Línea Selección| image:: resources/
 .. |Socio de Negocio Orden| image:: resources/
-..|Campo Cuenta Bancaria Socio del Negocio| image:: resources/
+.. |Campo Cuenta Bancaria Socio del Negocio| image:: resources/
 .. |Factura Cuentas por Pagar “Orden” | image:: resources/
 .. |Campo Orden de Compra desde Línea Selección| image:: resources/
 .. |Campo Movimento de Nómina “Orden”| image:: resources/
@@ -52,7 +51,7 @@
 .. |Botón Completar “Orden”| image:: resources/
 .. |Campo Moneda "Crear desde Orden| image:: resources/
 
-
+.. _documento/orden-de-pago-desde-orden:
 
 **Registro desde Orden**
 ========================
