@@ -65,9 +65,6 @@ Para este reporte están configurados 3 tipos de plantillas
    |  Nombre del Proceso de Nómina                 | Será el nombre que registró en su proceso de  |
    |                                               | nómina                                        |
    +-----------------------------------------------+-----------------------------------------------+
-   |  Período de Nómina                            | Será el período que registró en su proceso de |
-   |                                               | nómina                                        |
-   +-----------------------------------------------+-----------------------------------------------+  
    |  Nombre y Apellido  del Empleado              | Corresponde al nombre y apellido registrado en|
    |                                               | la ventana Empleados (Todos)                  |
    +-----------------------------------------------+-----------------------------------------------+

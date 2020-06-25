@@ -250,7 +250,7 @@ Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
     +-----------------------------------------------+-----------------------------------------------+
     |          **PARÁMETROS**                       |             **REFERENCIA**                    |
     +===============================================+===============================================+
-    |  Contrato                                     | Correspone a el contrato configurado para la  |
+    |  Contrato                                     | Corresponde a el contrato configurado para la |
     |                                               | nómina en ejecución                           |
     +-----------------------------------------------+-----------------------------------------------+
     |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
