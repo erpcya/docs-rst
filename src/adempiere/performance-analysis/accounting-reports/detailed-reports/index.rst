@@ -15,3 +15,4 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
     trial-balance
     journal-entry-journal
     accounting-entry-by-period
+    unconciled-accounting-records
