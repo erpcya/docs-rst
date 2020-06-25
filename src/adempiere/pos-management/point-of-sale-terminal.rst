@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/point-of-sale-terminal-menu.png
 .. |Ventana Terminal PDV| image:: resources/point-of-sale-terminal-window.png
 .. |Campo Organización de la Ventana Terminal PDV| image:: resources/organization-field-of-the-terminal-window-point-of-sale.png
@@ -20,7 +21,7 @@
 .. |Campo Diseño de Teclado Numérico en Pantalla de la Ventana Terminal PDV| image:: resources/field-numeric-keyboard-layout-on-point-of-sale-terminal-window-screen.png
 .. |Campo Nombre Impresión de la Ventana Terminal PDV| image:: resources/field-name-print-window-terminal-point-of-sale.png
 .. |Campo Registradora de la Ventana Terminal PDV| image:: resources/cash-register-field-window-terminal-point-of-sale.png
-.. |Campo Escalas Electronicas de la Ventana Terminal PDV| image:: resources/field-electronic-scales-of-the-terminal-window-point-of-sale.png
+.. |Campo Escalas Electrónicas de la Ventana Terminal PDV| image:: resources/field-electronic-scales-of-the-terminal-window-point-of-sale.png
 .. |Campo Código de Solicitud de Medida de la Ventana Terminal PDV| image:: resources/field-measurement-request-code-of-the-point-of-sale-terminal-window.png
 .. |Campo PIN POS Requerido de la Ventana Terminal PDV| image:: resources/required-pos-pin-field-of-the-point-of-sale-terminal-window.png
 .. |Campo Tiempo de Entrada de PIN de la Ventana Terminal PDV| image:: resources/field-entry-time-of-window-terminal-point-of-sale.png
@@ -106,19 +107,19 @@
 
             Imagen 11. Campo Cuenta Bancaria de la Ventana Terminal PDV
 
-        #. Seleccione en el campo "**Transferir transacción de caja a banco**",
+        #. Seleccione en el campo "**Transferir transacción de caja a banco**", la cuenta a la cual serán transferidas todas las transacciones de la caja.
 
             |Campo Transferir transacción de caja a banco de la Ventana Terminal PDV|
 
             Imagen 12. Campo Transferir Transacción de Caja a Banco de la Ventana Terminal PDV
 
-        #. Seleccione en el campo "**Tipo de Documento**",
+        #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. 
 
             |Campo Tipo de Documento de la Ventana Terminal PDV|
 
             Imagen 13. Campo Tipo de Documento de la Ventana Terminal PDV
 
-        #. Seleccione en el campo "**Regla de Facturación**",
+        #. Seleccione en el campo "**Regla de Facturación**", el método utilizado para generar las facturas al cliente.
 
             |Campo Regla de Facturación de la Ventana Terminal PDV|
 
@@ -130,7 +131,7 @@
 
             Imagen 15. Campo Almacén de la Ventana Terminal PDV
 
-        #. Seleccione en el campo "**Regla de Entrega**", 
+        #. Seleccione en el campo "**Regla de Entrega**", el método utilizado para generar las entregas de productos al cliente.
 
             |Campo Regla de Entrega de la Ventana Terminal PDV|
 
@@ -142,29 +143,41 @@
 
             Imagen 17. Campo PDV Disposición de la Llave de la Ventana Terminal PDV
         
-        #. El checklist "**Habilitar Búsqueda de Productos POS**",
+        #. El checklist "**Habilitar Búsqueda de Productos POS**", permite la búsqueda de los productos.
 
             |Checklist Habilitar Búsqueda de Productos POS de la Ventana Terminal PDV|
 
             Imagen 18. Checklist Habilitar Búsqueda de Productos POS de la Ventana Terminal PDV
 
-        #. Seleccione en el campo "**Diseño de Teclado en Pantalla**", 
+        #. Seleccione en el campo "**Diseño de Teclado en Pantalla**", el diseño clave para utilizar el teclado en pantalla para campos de texto.
 
             |Campo Diseño de Teclado en Pantalla de la Ventana Terminal PDV|
 
             Imagen 19. Campo Diseño de Teclado en Pantalla de la Ventana Terminal PDV
 
-        #. Seleccione en el campo "**Diseño de Teclado Numérico en Pantalla**",
+            .. note::
+
+                Si el campo se encuentra vacío, no se utilizará el teclado en pantalla.
+
+        #. Seleccione en el campo "**Diseño de Teclado Numérico en Pantalla**", el diseño clave para utilizar el teclado en pantalla para campos númericos.
 
             |Campo Diseño de Teclado Numérico en Pantalla de la Ventana Terminal PDV|
 
             Imagen 20. Campo Diseño de Teclado Numérico en Pantalla de la Ventana Terminal PDV
 
-        #. Introduzca en el campo "**Nombre Impresión**", 
+            .. note::
+
+                Si el campo se encuentra vacío, no se utilizará el teclado en pantalla.
+
+        #. Introduzca en el campo "**Nombre Impresión**", el nombre de la impresora asiganada para el terminal que esta configurando.
 
             |Campo Nombre Impresión de la Ventana Terminal PDV|
 
             Imagen 21. Campo Nombre Impresión de la Ventana Terminal PDV
+
+            .. note::
+
+                Si el campo se encuentra vacío, se utiliza la impresora por defecto.
 
         #. Introduzca en el campo "**Registradora**", 
 
@@ -172,31 +185,35 @@
 
             Imagen 22. Campo Registradora de la Ventana Terminal PDV
 
-        #. Introduzca en el campo "**Escalas Electronicas**", 
+        #. Introduzca en el campo "**Escalas Electrónicas**", la ruta para las escalas electrónicas del dispositivo.
 
-            |Campo Escalas Electronicas de la Ventana Terminal PDV|
+            |Campo Escalas Electrónicas de la Ventana Terminal PDV|
 
-            Imagen 23. Campo Escalas Electronicas de la Ventana Terminal PDV
+            Imagen 23. Campo Escalas Electrónicas de la Ventana Terminal PDV
 
-        #. Introduzca en el campo "**Código de Solicitud de Medida**, 
+        #. Introduzca en el campo "**Código de Solicitud de Medida**, las medidas de balanzas electrónicas de dispositivos.
 
             |Campo Código de Solicitud de Medida de la Ventana Terminal PDV|
 
             Imagen 24. Campo Código de Solicitud de Medida de la Ventana Terminal PDV
 
-        #. Seleccione el checklist "**PIN POS Requerido**",
+        #. Seleccione el checklist "**PIN POS Requerido**", para indicar que un PIN de supervisor es obligatorio para ejecutar algunas tareas.
 
             |Campo PIN POS Requerido de la Ventana Terminal PDV|
 
             Imagen 25. Campo PIN POS Requerido de la Ventana Terminal PDV
 
-        #. Introduzca en el campo "**Tiempo de Entrada de PIN**", 
+        #. Introduzca en el campo "**Tiempo de Entrada de PIN**", la cantidad de tiempo desde la visualización inicial hasta que el cuadro de diálogo de entrada de PIN se agota.
 
             |Campo Tiempo de Entrada de PIN de la Ventana Terminal PDV|
 
             Imagen 26. Campo Tiempo de Entrada de PIN de la Ventana Terminal PDV
 
-        #. Introduzca en el campo "**Clase Para Impresión de Ticket**", 
+            .. note::
+
+                La cantidad de tiempo debe ser ingresado en milisegundos.
+
+        #. Introduzca en el campo "**Clase Para Impresión de Ticket**", el nombre de la clase para la impresión del ticket.
 
             |Campo Clase Para Impresión de Ticket de la Ventana Terminal PDV|
 
@@ -226,13 +243,13 @@
 
             Imagen 31. Campo Supervisor de la Ventana Terminal PDV
 
-        #. Seleccione el checklist "**Vendedor de Pasillo**",
+        #. Seleccione el checklist "**Vendedor de Pasillo**", para indicar que el socio del negocio empleado es un vendedor de pasillo.
 
             |Checklist Vendedor de Pasillo de la Ventana Terminal PDV|
 
             Imagen 32. Checklist Vendedor de Pasillo de la Ventana Terminal PDV
 
-        #. Seleccione el checklist "**POS Compartido**", 
+        #. Seleccione el checklist "**POS Compartido**", para indicar que el punto de venta es compartido.
 
             |Checklist POS Compartido de la Ventana Terminal PDV|
 

@@ -6,6 +6,17 @@
 .. |Información de los Productos Cargados a la Orden de Venta del Punto de Venta| image:: resources/information-of-the-products-loaded-to-the-point-of-sale-sales-order.png
 .. |Sumar Restar o Ingresar Cantidad de Productos a Vender| image:: resources/add-subtract-or-enter-quantity-of-products-to-sell.png
 .. |Precio Actual de Productos a Vender| image:: resources/current-price-of-products-to-sell.png
+.. |Icono Pago de la Ventana Punto de Venta| image:: resources/point-of-sale-window-payment-icon.png
+.. |Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/payment-method-field-of-the-regular-payment-icon-of-the-point-of-sale-window.png
+.. |Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/regular-payment-currency-field-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/regular-payment-amount-field-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/regular-payment-ok-option-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/payment-method-field-of-the-special-payment-icon-in-the-point-of-sale-window.png
+.. |Campo Moneda del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/field-special-payment-currency-of-the-payment-icon-of-the-point-of-sale-window.png
+.. |Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/field-special-payment-amount-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/another-form-of-payment-of-the-special-payment-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta| image:: resources/remove-a-payment-method-from-the-payment-icon-in-the-point-of-sale-window.png
+.. |Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/payment-option-ok-of-the-point-of-sale-window-payment-icon.png
 .. |Icono Imprimir de la Ventana Punto de Venta| image:: resources/point-of-sale-window-print-icon.png
 .. |Icono Imprimir de la Ventana Informe| image:: resources/report-window-print-icon.png
 .. |Grupos de Campos Información de la Orden y Totales de la Ventana Punto de Venta| image:: resources/field-groups-order-information-and-point-of-sale-window-totals.png
@@ -71,20 +82,94 @@
 
         Imagen 8. Precio Actual de Productos a Vender
 
-    #. Luego de haber cargado todos los productos de la venta en la orden, debe seleccionar el icono "**Imprimir**" para visualizar el reporte de la orden de venta en la ventana "**Informe**".
+    #. Luego de haber cargado todos los productos de la venta en la orden, debe seleccionar el icono "**Pago**" para generar el cobro de los mismos.
+
+        |Icono Pago de la Ventana Punto de Venta|
+
+        Imagen 9. Icono Pago de la Ventana Punto de Venta
+
+        La selección de este icono, habilita el recuadro del cobro, mostrando el total a pagar de la orden, los campos para ingresar la forma de pago, la moneda y el monto. Así como también, las opciones para agregar otro pago o eliminar un pago existente.
+        
+        El cobro de los productos cargados en la orden de venta se puede ejecutar de diferentes formas explicadas a continuación.
+
+        #. Procedimiento regular con una forma de pago y una moneda específica.
+
+            #. Seleccione en el campo "**Forma de Pago**", la forma utilizada por el cliente para pagar los productos cargados en la orden de venta.
+
+                |Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta|
+
+                Imagen 10. Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta
+
+            #. Seleccione en el campo "**Moneda**", la moneda utilizada por el cliente para pagar los productos cargados en la orden de venta.
+
+                |Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta|
+
+                Imagen 11. Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta
+
+            #. Introduzca en el campo "**Monto**", el monto pagado por el cliente con la forma de pago y moneda seleccionada.
+
+                |Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta|
+
+                Imagen 12. Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta
+
+            #. Seleccione la opción "**OK**", para generar el cobro de los productos cargados en la orden de venta.
+
+                |Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta|
+
+                Imagen 13. Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta
+
+        #. Procedimiento especial con diferentes formas de pago y monedas.
+
+            #. Seleccione en el campo "**Forma de Pago**", la forma utilizada por el cliente para pagar los productos cargados en la orden de venta.
+
+                |Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta|
+
+                Imagen 14. Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
+
+            #. Seleccione en el campo "**Moneda**", la moneda utilizada por el cliente para pagar los productos cargados en la orden de venta.
+
+                |Campo Moneda del Pago Especial del Icono Pago de la Ventana Punto de Venta|
+
+                Imagen 15. Campo Moneda del Pago Especial del Icono Pago de la Ventana Punto de Venta
+
+            #. Introduzca en el campo "**Monto**", el monto pagado por el cliente con la forma de pago y moneda seleccionada.
+
+                |Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta|
+
+                Imagen 16. Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta
+
+            #. Seleccione el icono "**Más**", para habilitar otro grupo de campos de pago e ingresar la otra forma de pago en el campo "**Forma de Pago**" y la otra moneda en el campo "**Moneda**", para terminar de cancelar el pago con el monto ingresado en el campo "**Monto**".
+
+                |Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta|
+
+                Imagen 17. Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
+
+            #. Para eliminar una forma de pago ya seleccionada previamente, seleccione el icono "**Menos**".
+
+                |Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta|
+
+                Imagen 18. Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta
+
+            #. Seleccione la opción "**OK**", para generar el cobro de los productos cargados en la orden de venta.
+
+                |Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta|
+
+                Imagen 19. Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta
+
+    #. Luego de haber generado el pago de todos los productos de la venta, debe seleccionar el icono "**Imprimir**" para visualizar el reporte de la orden de venta en la ventana "**Informe**".
 
         |Icono Imprimir de la Ventana Punto de Venta|
 
-        Imagen 9. Icono Imprimir de la Ventana Punto de Venta
+        Imagen 20. Icono Imprimir de la Ventana Punto de Venta
 
         #. Al generar el reporte, tendrá la posibilidad de imprimir la orden de venta seleccionando el icono "**Imprimir**", de la ventana "**Informe**".
 
             |Icono Imprimir de la Ventana Informe|
 
-            Imagen 10. Icono Imprimir de la Ventana Informe
+            Imagen 21. Icono Imprimir de la Ventana Informe
         
     #. Al mismo tiempo podrá visualizar la información de la orden y los totales de la misma, en los grupos de campos "**Información de Orden**" y "**Totales Bs.S**".
 
         |Grupos de Campos Información de la Orden y Totales de la Ventana Punto de Venta|
 
-        Imagen 11. Grupos de Campos Información de la Orden y Totales de la Ventana Punto de Venta
+        Imagen 22. Grupos de Campos Información de la Orden y Totales de la Ventana Punto de Venta

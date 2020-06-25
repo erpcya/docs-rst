@@ -15,4 +15,5 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
 .. toctree::
     :maxdepth: 2
 
+    point-of-sale-terminal
     opening-cash
