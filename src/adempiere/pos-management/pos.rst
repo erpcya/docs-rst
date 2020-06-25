@@ -7,17 +7,16 @@
 .. |Sumar Restar o Ingresar Cantidad de Productos a Vender| image:: resources/add-subtract-or-enter-quantity-of-products-to-sell.png
 .. |Precio Actual de Productos a Vender| image:: resources/current-price-of-products-to-sell.png
 .. |Icono Pago de la Ventana Punto de Venta| image:: resources/point-of-sale-window-payment-icon.png
-
-.. |Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/
-.. |Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/
-.. |Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/
-.. |Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/
-.. |Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/
-.. |Campo Moneda del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/
-.. |Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/
-.. |Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/
-.. |Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta| image:: resources/
-.. |Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/
+.. |Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/payment-method-field-of-the-regular-payment-icon-of-the-point-of-sale-window.png
+.. |Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/regular-payment-currency-field-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/regular-payment-amount-field-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/regular-payment-ok-option-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/payment-method-field-of-the-special-payment-icon-in-the-point-of-sale-window.png
+.. |Campo Moneda del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/field-special-payment-currency-of-the-payment-icon-of-the-point-of-sale-window.png
+.. |Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/field-special-payment-amount-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/another-form-of-payment-of-the-special-payment-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta| image:: resources/remove-a-payment-method-from-the-payment-icon-in-the-point-of-sale-window.png
+.. |Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/payment-option-ok-of-the-point-of-sale-window-payment-icon.png
 .. |Icono Imprimir de la Ventana Punto de Venta| image:: resources/point-of-sale-window-print-icon.png
 .. |Icono Imprimir de la Ventana Informe| image:: resources/report-window-print-icon.png
 .. |Grupos de Campos Información de la Orden y Totales de la Ventana Punto de Venta| image:: resources/field-groups-order-information-and-point-of-sale-window-totals.png
@@ -145,7 +144,7 @@
 
                 Imagen 17. Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
-            #. Seleccione el icono "**Menos**", para eliminar una forma de pago ya seleccionada previamente.
+            #. Para eliminar una forma de pago ya seleccionada previamente, seleccione el icono "**Menos**".
 
                 |Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta|
 
