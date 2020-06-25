@@ -10,66 +10,65 @@
 **Nómina Regular**
 ===================
 
-El reporte de nómina regular contiene los datos principales de todo proceso de nómina regular, representando primeramente los datos principales de cada uno de los empleados. Tambien en él usted podrá visualizar las asignaciones y las deducciones procesadas en las diferentes nóminas regulares del empleado.  Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento :ref:`documento/reporte-de-nómina` donde podrá encontrar los campos que se utilizan si desea visualizar un reporte de nómina.
+El reporte de nómina regular contiene los datos principales de todo proceso de nómina regular, representando primeramente los datos de cada uno de los empleados. Tambien en él usted podrá visualizar las asignaciones y las deducciones procesadas en las diferentes nóminas regulares del empleado.  Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento :ref:`documento/reporte-de-nómina` donde se detallan los campos utilizados para visualizar un reporte de nómina.
 
 
-  
-Entre las asignaciones que se pueden visualizar en el reporte de nómina regular se encuentran:
+  Entre las asignaciones que se pueden visualizar en el reporte de nómina regular se encuentran:
 
 
     +-----------------------------------------------+-----------------------------------------------+
     |           **ASIGNACIONES**                    |             **REFERENCIA**                    |
     +===============================================+===============================================+
-    | Asignación Salario Base                       | Resulta de la Multiplicación de los Días      |
+    | Asignación Salario Base                       | Resulta de la multiplicación de los días      |
     |                                               | trabajados por el salario diario del Empleado |
     |                                               | empleado                                      |
     +-----------------------------------------------+-----------------------------------------------+
-    | Asignación Días de Descanso                   | Resulta de la Multiplicación de los Días      |
+    | Asignación Días de Descanso                   | Resulta de la multiplicación de los días      |
     |                                               | de descanso por el promedio salario normal    |
     |                                               | parcial                                       |
     +-----------------------------------------------+-----------------------------------------------+
-    | Asignación Sábados en Descanso                | Resulta de la Multiplicación de los Días      |
-    |                                               | Sábados en Descanso por el promedio salario   |
+    | Asignación Sábados en Descanso                | Resulta de la multiplicación de los días      |
+    |                                               | sábados en descanso por el promedio salario   |
     |                                               | normal parcial                                |
     +-----------------------------------------------+-----------------------------------------------+
-    | Asignación Domingos en Descanso               | Resulta de la Multiplicación de los Días      |
-    |                                               | Domingos en Descanso por el promedio salario  |
+    | Asignación Domingos en Descanso               | Resulta de la multiplicación de los días      |
+    |                                               | domingos en descanso por el promedio salario  |
     |                                               | normal parcial                                |
     +-----------------------------------------------+-----------------------------------------------+
-    | Asignación Días de Descanso Trabajado         | Resulta de la Multiplicación de los Días de   |
-    |                                               | Descanso Trabajados por el promedio salario   |
+    | Asignación Días de Descanso Trabajado         | Resulta de la multiplicación de los días de   |
+    |                                               | descanso trabajados por el promedio salario   |
     |                                               | normal por el porcentaje adicional que se debe|
     |                                               | incrementar, según lo establecido por la      |
     |                                               | legislación venezolana                        |
     +-----------------------------------------------+-----------------------------------------------+
-    | Asignación Días Sábados Trabajado             | Resulta de la Multiplicación de los Días de   |
-    |                                               | Sábados Trabajados por el promedio salario    |
+    | Asignación Días Sábados Trabajado             | Resulta de la multiplicación de los días de   |
+    |                                               | sábados trabajados por el promedio salario    |
     |                                               | normal por el porcentaje adicional que se debe|
     |                                               | incrementar, según lo establecido por la      |
     |                                               | legislación venezolana                        |
     +-----------------------------------------------+-----------------------------------------------+
-    | Asignación Días Domingo Trabajado             | Resulta de la Multiplicación de los Días de   |
-    |                                               | Domingos Trabajados por el promedio salario   |
+    | Asignación Días Domingo Trabajado             | Resulta de la multiplicación de los días de   |
+    |                                               | domingos trabajados por el promedio salario   |
     |                                               | normal por el porcentaje adicional que se debe|
     |                                               | incrementar, según lo establecido por la      |
     |                                               | legislación venezolana                        |
     +-----------------------------------------------+-----------------------------------------------+
-    | Asignación Horas Extras Diurnas               | Resulta de la Multiplicación de las Horas     |
-    |                                               | Extras Diurnas por el salario hora por el     |
+    | Asignación Horas Extras Diurnas               | Resulta de la multiplicación de las horas     |
+    |                                               | extras diurnas por el salario hora por el     |
     |                                               | porcentaje adicional que se debe incrementar, |
     |                                               | según lo establecido por la legislación       |
     |                                               | venezolana                                    |
     +-----------------------------------------------+-----------------------------------------------+
-    | Asignación Horas Nocturnas Trabajadas         | Resulta de la Multiplicación de las Horas     |
-    |                                               | Extras Nocturnas Trabajadas por el salario    |
+    | Asignación Horas Nocturnas Trabajadas         | Resulta de la multiplicación de las horas     |
+    |                                               | extras nocturnas trabajadas por el salario    |
     |                                               | hora                                          |
     +-----------------------------------------------+-----------------------------------------------+
-    | Asignación Horas Extras Nocturnas             | Resulta de la Multiplicación de la asignación |
+    | Asignación Horas Extras Nocturnas             | Resulta de la multiplicación de la asignación |
     |                                               | horas nocturnas trabajadas por el porcentaje  |
     |                                               | adicional que se debe incrementar, según lo   |
     |                                               | establecido por la legislación venezolana     |
     +-----------------------------------------------+-----------------------------------------------+
-    | Asignación Bono Nocturno                      | Resulta de la Multiplicación de la asignación |
+    | Asignación Bono Nocturno                      | Resulta de la multiplicación de la asignación |
     |                                               | horas extras nocturnas por el porcentaje      |
     |                                               | adicional de bono nocturno que se debe        |
     |                                               | incrementar, según lo establecido por la      |
@@ -127,14 +126,14 @@ Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
 #.Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina.
 
 
-        Entre los datos personales que usted puede visualizar en el encabezado de su recibo de pago de la nómina regular se encuentran los siguientes:
+    Entre los datos personales que usted puede visualizar en el encabezado de su recibo de pago de la nómina regular se encuentran los siguientes:
 
     +-----------------------------------------------+-----------------------------------------------+
     |       **DATOS PERSONALES**                    |             **REFERENCIA**                    |
     +===============================================+===============================================+
     |  Nombre de la Compañía                        | Corresponde al nombre de la compañía          |
     +-----------------------------------------------+-----------------------------------------------+
-    |  Fecha Contable                               | Es la Fecha que registró en su proceso de     |
+    |  Fecha Contable                               | Es la fecha que registró en su proceso de     |
     |                                               | nómina                                        |
     +-----------------------------------------------+-----------------------------------------------+
     |  Nombre del Proceso de Nómina                 | Será el nombre que registró en su proceso de  |
@@ -171,7 +170,7 @@ Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
     |                                               | registrado en la en la pestaña información    |
     |                                               | del contrato de la ventana Empleados (Todos)  |
     +-----------------------------------------------+-----------------------------------------------+
-    |  Departamento                                 | Corresponde a el Departamento al que pertenece|
+    |  Departamento                                 | Corresponde a el departamento al que pertenece|
     |                                               | el empleado registrado en la en la pestaña    |
     |                                               | información del contrato de la ventana        |
     |                                               | Empleados (Todos)                             |
@@ -188,10 +187,10 @@ Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
         Para realizar cualquier modificación que requiera realizar de estos campos puede utilizar el siguiente documento :ref:`documento/socio-empleado` 
   
     
-    Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fué impreso el recibo.
+    Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fue impreso el recibo.
  
  
-    En el ejemplo presentado se evidencia una nómina mensual  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
+    En el ejemplo presentado se evidencia una nómina mensual  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
 
 
     |Recibo de Nómina|

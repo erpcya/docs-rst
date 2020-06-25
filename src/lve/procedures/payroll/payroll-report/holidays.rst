@@ -1,10 +1,10 @@
-.. _documento/nomina-regular:
+.. _documento/vacaciones:
 
 ===============
 **Vacaciones**
 ===============
 
-El Reporte de Vacaciones lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de vacaciones, en él usted podrá visualizar las asignaciones y las deducciones dentro de la nómina de vacaciones del empleado.   Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de vacaciones :ref:`documento/reporte-de-nómina`
+El Reporte de Vacaciones lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de vacaciones, en él usted podrá visualizar las asignaciones y las deducciones dentro de la nómina de vacaciones del empleado.   Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de vacaciones :ref:`documento/nómina-de-vacaciones`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
 
 Entre las asignaciones que se pueden visualizar en el reporte de vacaciones se encuentran:
 
@@ -30,7 +30,6 @@ Entre las asignaciones que se pueden visualizar en el reporte de vacaciones se e
     |                                               | Feriados durante el periodo vacacional por el |
     |                                               | salario promedio diario de vacaciones         |
     +-----------------------------------------------+-----------------------------------------------+
- 
    
 
  .. note::
@@ -130,7 +129,7 @@ Para este reporte están configurados 3 tipos de plantillas
  Adicionalmente dentro de los Conceptos encontrará datos como:   
 
     +-----------------------------------------------+-----------------------------------------------+
-    |       **DATOS ADICIONALES**                    |             **REFERENCIA**                    |
+    |       **DATOS ADICIONALES**                   |             **REFERENCIA**                    |
     +===============================================+===============================================+
     |  Fecha de Inicio de Vacaciones                | Corresponde a la fecha registrada por el      |
     |                                               | cliente donde indica la fecha de salida de    |
@@ -140,7 +139,7 @@ Para este reporte están configurados 3 tipos de plantillas
     |                                               | periodo de las vacaciones el empleado         |
     +-----------------------------------------------+-----------------------------------------------+
     |  Fecha de Reintegro de Vacaciones             | Corresponde a la fecha de reintegro del       |
-    |                                               | empleado                                       |
+    |                                               | empleado                                      |
     +-----------------------------------------------+-----------------------------------------------+
     |  Días de Anticipo                             | Corresponde a los días de anticipo de         |
     |                                               |  vacaciones otorgados al empleado             |
@@ -148,10 +147,10 @@ Para este reporte están configurados 3 tipos de plantillas
 
     .. note::
     
-        Si desea conocer cómo registrar la fecha de inicio de vacaciones puede seguir los pasos indicados en el documento :ref:`documento/nomina-vacaciones` 
+        Si desea conocer cómo registrar la fecha de inicio de vacaciones puede seguir los pasos indicados en el documento :ref:`documento/novedades-de-nómina:` 
 
    
-    Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fué impreso el recibo.
+    Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fue impreso el recibo.
  
  
     En el ejemplo presentado se evidencia una nómina de vacaciones  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
@@ -160,3 +159,78 @@ Para este reporte están configurados 3 tipos de plantillas
     |Recibo de Nómina|
 
     Imagen 1. Recibo de Pago
+
+
+#. Detalle de Pago: Seleccione esta plantilla de reporte de nómina de vacaciones si desea conocer de manera detallada todos los montos de nómina de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos totales de las nóminas de vacaciones procesadas a los empleados.
+
+   Los campos podrá visualizar en este reporte son:
+
+   +-----------------------------------------------+-----------------------------------------------+
+   |          **PARÁMETROS**                       |             **REFERENCIA**                    |
+   +===============================================+===============================================+
+   |  Contrato                                     | Correspone a el contrato configurado para la  |
+   |                                               | nómina en ejecución                           |
+   +-----------------------------------------------+-----------------------------------------------+
+   |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
+   |                                               | procesada, para este caso será nómina de      |
+   |                                               | vacaciones                                    |
+   +-----------------------------------------------+-----------------------------------------------+
+   |  Trabajador                                   | Identifica el nombre de cada uno de los       |
+   |                                               | empleados                                     |
+   +-----------------------------------------------+-----------------------------------------------+
+   |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
+   |                                               | en este caso aparecerá el nombre de las       |
+   |                                               | asignaciones y deducciones mencionadas        |
+   |                                               | anteriormente                                 |
+   +-----------------------------------------------+-----------------------------------------------+
+   |  Asignaciones                                 | Corresponde a los montos obtenidos por        |
+   |                                               | concepto de asignaciones al empleado          |
+   +-----------------------------------------------+-----------------------------------------------+
+   |  Deducciones                                  | Corresponde a los montos obtenidos por        |
+   |                                               | concepto de deducciones al empleado           |
+   +-----------------------------------------------+-----------------------------------------------+
+   |  Total                                        | Corresponde al monto total obtenido por       |
+   |                                               | concepto                                      |
+   +-----------------------------------------------+-----------------------------------------------+
+   
+   En el siguiente ejemplo presentado se evidencia una nómina de vacaciones procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
+
+   |Detalle de Pago 1|
+
+   Imagen 2. Detalle de Pago. Misma nómina de vacaciones con diferentes empleados.
+
+#. Resumen de Pago:  Seleccione esta plantilla de reporte de vacaciones para conocer de manera resumida las asignaciones y deducciones agrupadas en un  mismo reporte omitiendo algunos detalle que usted puede encontrar en la plantilla Detalle de Pago. Esta plantilla presentará por cada uno de los concepto un monto total por cada empleado:
+
+   Los campos que podrá visualizar en este reporte son:
+
+   +-----------------------------------------------+-----------------------------------------------+
+   |          **PARÁMETROS**                       |             **REFERENCIA**                    |
+   +===============================================+===============================================+
+   |  Contrato                                     | Correspone a el contrato configurado para la  |
+   |                                               | nómina en ejecución                           |
+   +-----------------------------------------------+-----------------------------------------------+
+   |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
+   |                                               | procesada, para este caso nómina de           |
+   |                                               | vacaciones                                    |
+   +-----------------------------------------------+-----------------------------------------------+
+   |  Trabajador                                   | Identifica el nombre de cada uno de los       |
+   |                                               | empleados                                     |
+   +-----------------------------------------------+-----------------------------------------------+
+   |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
+   |                                               | en este caso aparecerá el nombre de las       |
+   |                                               | asignaciones y deducciones mencionadas        |
+   |                                               | anteriormente                                 |
+   +-----------------------------------------------+-----------------------------------------------+
+   |  Mes                                          | Corresponde al monto otorgado por el empleado |
+   |                                               | por el concepto de asignación o durante ese   |
+   |                                               | mes                                           |
+   +-----------------------------------------------+-----------------------------------------------+
+   |  Total                                        | Corresponde al monto total obtenido por       |
+   |                                               | concepto                                      |
+   +-----------------------------------------------+-----------------------------------------------+
+
+  En el siguiente ejemplo presentado se evidencia una nómina de vacaciones procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina de vacaciones utilizando la plantilla de resumen de pagos
+   
+|Resumen de Pago 1|
+
+   Imagen 4. Resumen de Pago. Misma nómina con diferentes empleados.
