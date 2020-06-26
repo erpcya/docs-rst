@@ -10,5 +10,6 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 .. toctree::
     :maxdepth: 2
 
+    material-costs
     additional-costs
     cost-reports/index

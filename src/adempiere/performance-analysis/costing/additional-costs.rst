@@ -14,7 +14,6 @@
 
 .. _documento/costos-adicionales:
 
-======================
 **Costos Adicionales**
 ======================
 
@@ -27,7 +26,7 @@ El proceso de costos adicionales de un producto, es realizado desde la ventana "
 Un producto puede tener costos adicionales por flete, servicios de impresión, entre otros casos que son calculados según la tipología empleada por la empresa. Para ejemplificar la definición anterior, se explica el costo adicional que puede tener un producto por flete. 
 
 **Documentos por Pagar**
-========================
+------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
@@ -131,7 +130,7 @@ Un producto puede tener costos adicionales por flete, servicios de impresión, e
 
 
 **Consultar Costos Adicionales**
-================================
+--------------------------------
 
 #. Ubique en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Gestión de Costos**", por último seleccione el reporte "**Detalle Costo del Producto**".  
 
