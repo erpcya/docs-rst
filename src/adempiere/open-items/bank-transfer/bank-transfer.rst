@@ -1,5 +1,3 @@
-.. _documento/procedimiento-para-realizar-una-transferencia-bancaria:
-
 .. |Menú de ADempiere| image:: resources/menu-transferencia.png
 .. |Ventana Transferencia Bancaria| image:: resources/vent-transf-bancaria.png
 .. |Campo Cuenta Bancaria Desde| image:: resources/campo-cuenta-desde.png
@@ -13,17 +11,17 @@
 .. |Campo Descripción| image:: resources/campo-descripcion.png
 .. |Campo Fecha de Estado de Cuenta| image:: resources/campo-fecha-estado-cuenta.png
 .. |Campo Fecha Contable| image:: resources/campo-fecha-contable.png
+.. |Campo Conciliar Automáticamente| image:: resources/field-reconcile-automatically.png
 .. |Opción OK| image:: resources/opcion-ok.png
 .. |Resultado de Transferencia| image:: resources/resultado-transferencia.png
 .. |Documento Ingreso Generado en Caja| image:: resources/documneto-en-caja.png
 .. |Documento Egreso Generado en Banco| image:: resources/documento-en-pago-cobro.png
-.. |Campo Conciliar Automáticamente| image:: resources/
-.. |Pago en Ventana Pago/Cobro| image:: resources/
-.. |Pago en Ventana Caja| image:: resources/
-.. |Cobro en Ventana Pago/Cobro| image:: resources/
-.. |Cobro en Ventana Caja| image:: resources/
+.. |Pago en Ventana Pago/Cobro| image:: resources/payment-in-payment-collection-window.png
+.. |Pago en Ventana Caja| image:: resources/payment-in-window-box.png
+.. |Cobro en Ventana Pago/Cobro| image:: resources/collection-in-payment-collection-window.png
+.. |Cobro en Ventana Caja| image:: resources/cash-in-window-box.png
 
-
+.. _documento/procedimiento-para-realizar-una-transferencia-bancaria:
 
 **Registro de Transferencia Bancaria**
 ======================================
@@ -155,13 +153,13 @@ Para realizar una transferencia bancaria en ADempiere deben seguir los siguiente
 **Consultar Egreso Generado de la Transferencia Bancaria**
 ==========================================================
 
-#. Si en la transferencia bancaria en el campo "**Cuenta Bancaria a Transferir**" fue seleccionada una cuenta bancaria el pago caerá en la ventana **"Pago/Cobro"** y tendrá como número de documento el número colocado en el campo **"No. del Documento"** de la transacción bancaria.
+#. Si en la transferencia bancaria en el campo "**Cuenta Bancaria Desde**" fue seleccionada una cuenta bancaria el pago caerá en la ventana **"Pago/Cobro"** y tendrá como número de documento el número colocado en el campo **"No. del Documento"** de la transacción bancaria.
 
     |Pago en Ventana Pago/Cobro|
 
     Imagen 17. Pago en Ventana Pago/Cobro
 
-#. Si en la transferencia bancaria en el campo "**Cuenta Bancaria a Transferir**" fue seleccionada un cuenta de caja el pago caerá en la ventana **"Caja"** y tendrá como número de documento el número colocado en el campo **"No. del Documento"** de la transacción bancaria.
+#. Si en la transferencia bancaria en el campo "**Cuenta Bancaria Desde**" fue seleccionada una cuenta de caja el pago caerá en la ventana **"Caja"** y tendrá como número de documento el número colocado en el campo **"No. del Documento"** de la transacción bancaria.
 
     |Pago en Ventana Caja|
 
