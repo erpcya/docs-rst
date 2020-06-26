@@ -11,3 +11,5 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
     :maxdepth: 2
 
     transaction-valuation
+    product-cost-detail
+    cost-transaction-detail
