@@ -18,6 +18,7 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
     mixed-monthly-payroll
     payroll-food-voucher
     vacation-payroll
+    holiday-advance-payroll
     payroll-special-payments
     profit-payroll
     payroll-advance-social-benefits
