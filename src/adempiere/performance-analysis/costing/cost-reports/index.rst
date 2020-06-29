@@ -10,4 +10,7 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 .. toctree::
     :maxdepth: 2
 
+    product-cost-inquiry
     transaction-valuation
+    product-cost-detail
+    cost-transaction-detail
