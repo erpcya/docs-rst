@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Factura a Pagar| image:: resources/factura-pagar.png
 .. |Menú de ADempiere| image:: resources/menu-pago.png
 .. |Icono Registro Nuevo| image:: resources/icono-nuevo.png
@@ -18,7 +19,6 @@
 .. |Pestaña Asignación| image:: resources/asignacion.png
 .. |Pestaña Asignaciones| image:: resources/asignacion2.png
 
-.. _ERPyA: http://erpya.com
 .. _documento/pago:
 
 **Registro de Pago**
