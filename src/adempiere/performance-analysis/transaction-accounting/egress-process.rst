@@ -1,4 +1,19 @@
 .. _ERPyA: http://erpya.com
+.. |Opción Contabilizado de la Ventana Requisición| image:: resources/option-posted-from-the-requisition-window.png
+.. |Asiento Contable de la Ventana Requisición| image:: resources/requisition-window-accounting-entry.png
+.. |Opción Contabilizado de la Ventana Ordenes de Compra| image:: resources/option-posted-from-the-purchase-orders-window.png
+.. |Asiento Contable de la Ventana Ordenes de Compra| image:: resources/window-entry-window-purchase-orders.png
+.. |Opción Contabilizado de la Ventana Documentos por Pagar| image:: resources/option-posted-from-the-documents-payable-window.png
+.. |Asiento Contable de la Ventana Documentos por Pagar| image:: resources/window-accounting-entry-documents-payable.png
+.. |Opción Contabilizado de la Ventana Facturas Asignadas a Recepciones| image:: resources/option-posted-from-the-invoices-assigned-to-receipts-window.png
+.. |Asiento Contable de la Ventana Facturas Asignadas a Recepciones| image:: resources/window-accounting-entry-invoices-assigned-to-receptions.png
+.. |Opción Contabilizado de la Ventana Recepción de Productos| image:: resources/option-posted-in-the-product-reception-window.png
+.. |Asiento Contable de la Ventana Recepción de Productos| image:: resources/window-accounting-entry-receiving-products.png
+.. |Opción Contabilizado de la Ventana Pago Cobro| image:: resources/option-posted-from-the-payment-payment-window.png
+.. |Asiento Contable de la Ventana Pago Cobro| image:: resources/window-accounting-window-payment-collection.png
+.. |Opción Contabilizado de la Ventana Estado de Cuentas Bancario| image:: resources/option-posted-from-the-bank-account-status-window.png
+.. |Asiento Contable de la Ventana Estado de Cuentas Bancario| image:: resources/accounting-entry-in-the-bank-statement-window.png
+
 .. _documento/contabilidad-de-transacciones-del-proceso-de-egreso:
 
 **Proceso de Egreso**
@@ -60,17 +75,17 @@
 
 #. Realice el procedimiento regular para generar una asignación en ADempiere, el mismo es explicado en el documento :ref:`documento/asignar-orden-de-compra-recepción-factura`, elaborado por `ERPyA`_.
 
-#. Luego de que el documento de asignación se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "****".
+#. Luego de realizar por completo el procedimiento de asignación, seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Facturas Asignadas a Recepciones**".
 
-    |Opción Contabilizado de la Ventana|
+    |Opción Contabilizado de la Ventana Facturas Asignadas a Recepciones|
 
-    Imagen 7. Opción Contabilizado de la Ventana
+    Imagen 7. Opción Contabilizado de la Ventana Facturas Asignadas a Recepciones
 
 #. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Asignar OC-Recibo-Factura**".
 
-    |Asiento Contable de la Ventana Asignar OC-Recibo-Factura|
+    |Asiento Contable de la Ventana Facturas Asignadas a Recepciones|
 
-    Imagen 8. Asiento Contable de la Ventana Asignar OC-Recibo-Factura
+    Imagen 8. Asiento Contable de la Ventana Facturas Asignadas a Recepciones
 
 **Recepción**
 -------------

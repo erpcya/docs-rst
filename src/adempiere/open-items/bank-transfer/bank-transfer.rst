@@ -172,7 +172,7 @@ Para realizar una transferencia bancaria en ADempiere deben seguir los siguiente
 
     |Cobro en Ventana Pago/Cobro|
 
-    Imagen 19. |Cobro en Ventana Pago/Cobro|
+    Imagen 19. Cobro en Ventana Pago/Cobro
 
     .. note::
 
