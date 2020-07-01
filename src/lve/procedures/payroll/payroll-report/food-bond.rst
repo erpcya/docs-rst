@@ -1,5 +1,9 @@
 .. _documento/bono-de-alimentación:
 
+.. |Recibo de Nómina| image:: resources/recibobonoalimentacion.png
+.. |Detalle de Pago| image:: resources/detallebonodealimentacion2.png
+.. |Resumen de Pago| image:: resources/resumenbonoalimentacion33.png
+
 ========================
 **Bono de Alimentación**
 ========================
@@ -161,7 +165,7 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
    
    En el siguiente ejemplo presentado se evidencia una nómina de bono de alimentación procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
-   |Detalle de Pago 1|
+   |Detalle de Pago|
 
    Imagen 2. Detalle de Pago. Misma nómina de Bono de Alimentación con diferentes empleados.
 
@@ -197,7 +201,7 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
 
   En el siguiente ejemplo presentado se evidencia una nómina de bono de alimentación procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina de bono de alimentación utilizando la plantilla de resumen de pagos
    
-|Resumen de Pago 1|
+|Resumen de Pago|
 
    Imagen 3. Resumen de Pago. Misma nómina con diferentes empleados.
 
