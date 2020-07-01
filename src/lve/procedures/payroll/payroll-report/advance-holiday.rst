@@ -1,49 +1,65 @@
-.. _documento/bono-de-alimentación:
+.. _documento/anticipo-vacaciones:
 
-.. |Recibo de Nómina| image:: resources/recibobonoalimentacion.png
-.. |Detalle de Pago| image:: resources/detallebonodealimentacion2.png
-.. |Resumen de Pago| image:: resources/resumenbonoalimentacion33.png
+.. |Recibo de Pago Nómina Anticipo de Vacaciones| image:: resources/reciboanticipovacaciones33.png
+.. |Detalle de Pago Nómina Anticipo de Vacaciones| image:: resources/detalleanticipovacaciones11.png
+.. |Resumen de Pago Nómina Anticipo de Vacaciones| image:: resources/resumenanticipovacaciones11.png
 
-========================
-**Bono de Alimentación**
-========================
+===========================
+**Anticipo de Vacaciones**
+===========================
 
-El Reporte de Bono de Alimentación lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de bono de alimentación, en él usted podrá visualizar las asignaciones y las deducciones dentro de la nómina de bono de alimentación del empleado.   Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de bono de alimentación :ref:`documento/bono-de-alimentación`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
+El Reporte de Anticipo de Vacaciones lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de anticipo de vacaciones, en él usted podrá visualizar las asignaciones y las deducciones calculados en está nómina.   Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de anticipo vacaciones :ref:`documento/nómina-de-anticipo-de-vacaciones`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-anticipo-de-nómina`
 
-Entre las asignaciones que se pueden visualizar en el reporte de bono de alimentación se encuentran:
+Entre las asignaciones que se pueden visualizar en el reporte de anticipo de vacaciones se encuentran:
+
 
     +-----------------------------------------------+-----------------------------------------------+
     |           **ASIGNACIONES**                    |             **REFERENCIA**                    |
     +===============================================+===============================================+
-    | Asignación Bono de Alimentación               | Resulta de la Multiplicación del total de días|
-    |                                               | del mes por el salario diario de bono de      |
-    |                                               | alimentación estipulado según gaceta oficial  |
+    | Asignación Días Anticipo de Vacaciones        | Resulta de la Multiplicación del total de días|
+    |                                               | regulares otorgados al empleado de anticipo   |
+    |                                               | por el salario promedio diario de vacaciones  |
     +-----------------------------------------------+-----------------------------------------------+
+    | Asignación Días de Descanso                   | Resulta de la Multiplicación del total de días|
+    |                                               | de descanso otorgados al empleado  durante    |
+    |                                               | el anticipo de sus vacaciones por el salario  |
+    |                                               | promedio diario de vacaciones                 |
+    +-----------------------------------------------+-----------------------------------------------+
+    | Asignación Feriados en Descanso               | Resulta de la Multiplicación del total de días|
+    |                                               | feriados otorgados al empleado  durante       |
+    |                                               | el anticipo de sus vacaciones por el salario  |
+    |                                               | promedio diario de vacaciones                 |
+    +-----------------------------------------------+-----------------------------------------------+
+   
+
+ .. note::
+
+        Cabe destacar que no todas asignaciones apareceran en su reporte de anticipo de vacaciones por ejemplo no siempre exitirá la asignación feriados en descanso sino cuando esten estipulados en el periodo de anticipo de vacaciones o en su defecto tampoco existirán los días de descanso si durante el periodo de días que tomo cómo anticipo no abarcan estos días. 
+
 
 Entre las deducciones que se pueden visualizar en el reporte de vacaciones se encuentran:
 
     +-----------------------------------------------+-----------------------------------------------+
     |           **DEDUCCIONES**                     |             **REFERENCIA**                    |
     +===============================================+===============================================+
-    | Deducción Ausencias Injustificadas            | Resulta de la multiplicación del salario      |
-    |                                               | diario de bono de alimentación por la cantidad|
-    |                                               | de ausencias injsutificadas procesadas en la  |
-    |                                               | nómina regular del empleado.                  |
+    | Deducción S.S.O.                              | Representa la cantidad a retener a el         |
+    |                                               | empleado para el pago del S.S.O. Obligatorio  |
     +-----------------------------------------------+-----------------------------------------------+
-    |  Deducción Faltas Injustificadas              | Resulta de la multiplicación del salario      |
-    |                                               | hora de bono de alimentación por la cantidad  |
-    |                                               | de faltas injsutificadas procesadas en la     |
-    |                                               | nómina regular del empleado.                  |
+    | Deducción R.P.E.                              | Representa la cantidad a retener a el         |
+    |                                               | empleado para el pago del R.P.E.              |
     +-----------------------------------------------+-----------------------------------------------+
-    |  Deducción Retardos                           | Resulta de la multiplicación del salario      |
-    |                                               | por minuto de bono de alimentación por la     |
-    |                                               | cantidad de minutos de retardos procesadas en |
-    |                                               | la nómina regular del empleado.               |
+    | Deducción F.A.O.V                             | Representa la cantidad a retener a el         |
+    |                                               | empleado para el pago del BANAVIH             |
+    +-----------------------------------------------+-----------------------------------------------+
+    | Deducción I.S.L.R                             | Representa la cantidad a retener a el         |
+    |                                               | empleado para la Declaración del I.S.L.R      |
     +-----------------------------------------------+-----------------------------------------------+
 
-    Para este reporte están configurados 3 tipos de plantillas
+   
+  
+Para este reporte están configurados 3 tipos de plantillas
 
-#. Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina de bono de alimentación procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina de vacaciones. 
+#.Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina de anticipo de vacaciones procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina de anticipo de vacaciones. 
 
     Entre los datos personales que usted puede visualizar en el encabezado de su recibo de pago de vacaciones se encuentran los siguientes:
 
@@ -56,11 +72,8 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
     |                                               | nómina                                        |
     +-----------------------------------------------+-----------------------------------------------+
     |  Nombre del Proceso de Nómina                 | Será el nombre que registró en su proceso de  |
-    |                                               | nómina de bono de alimentación                |
+    |                                               | nómina                                        |
     +-----------------------------------------------+-----------------------------------------------+
-    |  Período de Nómina                            | Será el período que registró en su proceso de |
-    |                                               | nómina de bono de alimentación                |
-    +-----------------------------------------------+-----------------------------------------------+   
     |  Nombre y Apellido  del Empleado              | Corresponde al nombre y apellido registrado en|
     |                                               | la ventana Empleados (Todos)                  |
     +-----------------------------------------------+-----------------------------------------------+
@@ -111,29 +124,37 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
     +-----------------------------------------------+-----------------------------------------------+
     |       **DATOS ADICIONALES**                   |             **REFERENCIA**                    |
     +===============================================+===============================================+
-    |  Salario Diario de Bono de Alimentación       | Corresponde a el salario diario estipulado    |
-    |                                               | según gaceta oficial para el pago de bono del |
-    |                                               | de alimentación                               |
+    |  Fecha de Inicio de Anticipo Vacaciones       | Corresponde a la fecha registrada por el      |
+    |                                               | cliente donde indica la fecha de salida de    |
+    |                                               | de anticipo de vacaciones del empleado        |
     +-----------------------------------------------+-----------------------------------------------+
-    |  Días Bono de Alimentación                    | Corresponde a los días a cancelar por concepto|
-    |                                               | de bono de alimentación                       |
+    |  Fecha de Culminación de Anticipo Vacaciones  | Corresponde a la fecha de culminación del     |
+    |                                               | periodo de anticipo dde vacaciones el empleado|
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Fecha de Reintegro de Anticipo Vacaciones    | Corresponde a la fecha de reintegro del       |
+    |                                               | anticipo de vacaciones empleado               |
     +-----------------------------------------------+-----------------------------------------------+
    
+
+    .. note::
+    
+        Si desea conocer cómo registrar la fecha de inicio de anticipo de vacaciones puede seguir los pasos indicados en el documento :ref:`documento/novedades-de-nómina:` 
 
    
     Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fue impreso el recibo.
  
  
-    En el ejemplo presentado se evidencia una nómina de bono de alimentación  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
+    En el ejemplo presentado se evidencia una nómina de anticipo de vacaciones  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
 
-    |Recibo de Nómina|
+    |Recibo de Pago Nómina Anticipo de Vacaciones|
 
-    Imagen 1. Recibo de Pago
+    Imagen 1. Recibo de Pago Nómina Anticipo de Vacaciones
 
-#. Detalle de Pago: Seleccione esta plantilla de reporte de bono de alimentación si desea conocer de manera detallada las asignaciones y las deducciones de la nómina de bono de alimentación procesada, esta plantilla le ayudará al jefe de nómina a tener los montos totales de la nómina procesada, asi mismo presentará de manera resumida un cuadro en donde se evidencia lo obtenido por cada empleado. 
 
-   Los campos que podrá visualizar en este reporte son:
+#. Detalle de Pago: Seleccione esta plantilla de reporte de nómina de anticipo de vacaciones si desea conocer de manera detallada todos los montos de  de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos totales de las nóminas de anticipo de vacaciones procesadas a los empleados.
+
+   Los campos podrá visualizar en este reporte son:
 
    +-----------------------------------------------+-----------------------------------------------+
    |          **PARÁMETROS**                       |             **REFERENCIA**                    |
@@ -143,7 +164,7 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
    +-----------------------------------------------+-----------------------------------------------+
    |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
    |                                               | procesada, para este caso será nómina de      |
-   |                                               | vacaciones                                    |
+   |                                               | anticipo de vacaciones                        |
    +-----------------------------------------------+-----------------------------------------------+
    |  Trabajador                                   | Identifica el nombre de cada uno de los       |
    |                                               | empleados                                     |
@@ -163,13 +184,13 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
    |                                               | concepto                                      |
    +-----------------------------------------------+-----------------------------------------------+
    
-   En el siguiente ejemplo presentado se evidencia una nómina de bono de alimentación procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
+   En el siguiente ejemplo presentado se evidencia una nómina de anticipo de vacaciones procesada a 1 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
-   |Detalle de Pago|
+   |Detalle de Pago Nómina Anticipo de Vacaciones|
 
-   Imagen 2. Detalle de Pago. Misma nómina de Bono de Alimentación con diferentes empleados.
+   Imagen 2. Detalle de Pago Nómina Anticipo de Vacaciones
 
-#. Resumen de Pago:  Seleccione esta plantilla de reporte de bono de alimentación  para conocer de manera resumida las asignaciones y deducciones agrupadas en un  mismo reporte omitiendo algunos detalle que usted puede encontrar en la plantilla Detalle de Pago. Esta plantilla presentará por cada uno de los concepto un monto total mensual por cada empleado:
+#. Resumen de Pago:  Seleccione esta plantilla de reporte de anticipo de vacaciones para conocer de manera resumida las asignaciones y deducciones agrupadas en un  mismo reporte omitiendo algunos detalle que usted puede encontrar en la plantilla Detalle de Pago. Esta plantilla presentará por cada uno de los concepto un monto total por cada empleado:
 
    Los campos que podrá visualizar en este reporte son:
 
@@ -181,7 +202,7 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
    +-----------------------------------------------+-----------------------------------------------+
    |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
    |                                               | procesada, para este caso nómina de           |
-   |                                               | vacaciones                                    |
+   |                                               | anticipo de vacaciones                        |
    +-----------------------------------------------+-----------------------------------------------+
    |  Trabajador                                   | Identifica el nombre de cada uno de los       |
    |                                               | empleados                                     |
@@ -199,10 +220,8 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
    |                                               | concepto                                      |
    +-----------------------------------------------+-----------------------------------------------+
 
-  En el siguiente ejemplo presentado se evidencia una nómina de bono de alimentación procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina de bono de alimentación utilizando la plantilla de resumen de pagos
+  En el siguiente ejemplo presentado se evidencia una nómina de anticipo de vacaciones procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina de anticipo de vacaciones utilizando la plantilla de resumen de pagos
    
-|Resumen de Pago|
+|Resumen de Pago Nómina Anticipo de Vacaciones|
 
-   Imagen 3. Resumen de Pago. Misma nómina con diferentes empleados.
-
-
+   Imagen 3. Resumen de Pagos.
