@@ -37,6 +37,9 @@
 .. |Campo Estado del Documento de la Ventana Entregas Cliente| image:: resources/document-status-field-of-the-client-deliveries-window.png
 .. |Campo En Negociación de la Ventana Entregas Cliente| image:: resources/field-in-negotiation-of-the-client-deliveries-window.png
 .. |Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/delivery-line-tab-of-the-customer-deliveries-window.png
+
+
+
 .. |Campo Línea de la Orden de Venta de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/sales-order-line-field-of-the-delivery-line-tab-of-the-customer-deliveries-window.png
 .. |Campo No. Línea de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/field-no-line-of-the-tab-line-of-delivery-of-the-window-deliveries-customer.png
 .. |Campo Producto de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/product-field-of-the-delivery-line-tab-of-the-customer-deliveries-window.png
@@ -45,15 +48,14 @@
 .. |Campo Descripción de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/description-field-of-the-delivery-line-tab-of-the-customer-deliveries-window.png
 .. |Campo Cantidad de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/quantity-field-of-the-delivery-line-tab-of-the-customer-deliveries-window.png
 .. |Campo UM de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/um-field-of-the-delivery-line-tab-of-the-customer-deliveries-window.png
-
-
 .. |Campo Cantidad de Recolección de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/pickup-quantity-field-from-the-delivery-line-tab-of-the-customer-deliveries-window.png
 .. |Campo Cantidad a Recibir de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/amount-field-to-receive-from-the-delivery-line-tab-of-the-customer-deliveries-window.png
 .. |Campo Cantidad Confirmada de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/confirmed-quantity-field-of-the-delivery-line-tab-of-the-customer-deliveries-window.png
 .. |Campo Cantidad Desperdicio de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/waste-quantity-field-of-the-delivery-line-tab-of-the-customer-deliveries-window.png
 .. |Campo Centro de Costos de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/cost-center-field-of-the-delivery-line-tab-of-the-customer-deliveries-window.png
 .. |Campo Actividad de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/activity-field-of-the-delivery-line-tab-of-the-customer-deliveries-window.png
-
+.. |Pestaña Entrega de la Ventana Entregas Cliente y Opción Completar| image:: resources/delivery-tab-of-the-client-deliveries-window-and-complete-option.png
+.. |Acción Completar y Opción Ok| image:: resources/action-complete-and-option-ok.png
 
 .. _documento/entregas-cliente:
 
@@ -300,4 +302,6 @@
 
     Imagen 39. Pestaña Línea de la Entrega de la Ventana Entregas Cliente
 
+    #. Seleccione en el campo "**Línea Orden de Venta**", la línea de la orden de venta seleccionada en el campo "**Orden de Venta**", de la pestaña "**Entrega**", de la ventana "**Entregas (Cliente)**".
+    #. Podrá visualizar en el campo "**No Línea**", el número de línea correspondiente al registro que esta realizando.
     #. 
