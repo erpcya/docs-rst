@@ -37,9 +37,6 @@
 .. |Campo Estado del Documento de la Ventana Entregas Cliente| image:: resources/document-status-field-of-the-client-deliveries-window.png
 .. |Campo En Negociación de la Ventana Entregas Cliente| image:: resources/field-in-negotiation-of-the-client-deliveries-window.png
 .. |Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/delivery-line-tab-of-the-customer-deliveries-window.png
-
-
-
 .. |Campo Línea de la Orden de Venta de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/sales-order-line-field-of-the-delivery-line-tab-of-the-customer-deliveries-window.png
 .. |Campo No. Línea de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/field-no-line-of-the-tab-line-of-delivery-of-the-window-deliveries-customer.png
 .. |Campo Producto de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente| image:: resources/product-field-of-the-delivery-line-tab-of-the-customer-deliveries-window.png
@@ -303,5 +300,97 @@
     Imagen 39. Pestaña Línea de la Entrega de la Ventana Entregas Cliente
 
     #. Seleccione en el campo "**Línea Orden de Venta**", la línea de la orden de venta seleccionada en el campo "**Orden de Venta**", de la pestaña "**Entrega**", de la ventana "**Entregas (Cliente)**".
+
+        |Campo Línea de la Orden de Venta de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 40. Campo Línea de la Orden de Venta de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
     #. Podrá visualizar en el campo "**No Línea**", el número de línea correspondiente al registro que esta realizando.
-    #. 
+
+        |Campo No. Línea de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 41. Campo No. Línea de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
+    #. Seleccione en el campo "**Producto**", el producto correspondiente a la entrega que esta realizando.
+
+        |Campo Producto de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 42. Campo Producto de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
+    #. Seleccione en el campo "**Instancia Conjunto de Atributos**", la instancia de conjunto de atributos del producto.
+
+        |Campo Instancia Conjunto de Atributos de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 43. Campo Instancia Conjunto de Atributos de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
+    #. Seleccione en el campo "**Ubicación**", la ubicación específica del producto seleccionado en el campo "**Producto**".
+
+        |Campo Ubicación de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 44. Campo Ubicación de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
+    #. Introduzca en el campo "**Descripción**", una breve descripción de la entrega del producto que esta realizando.
+
+        |Campo Descripción de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 45. Campo Descripción de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
+    #. Seleccione en el campo "**Cantidad**", la cantidad del producto que se encuentra entregando.
+
+        |Campo Cantidad de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 46. Campo Cantidad de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
+    #. Seleccione en el campo "**UM**", la unidad de medida del producto que se encuentra entregando.
+
+        |Campo UM de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 47. Campo UM de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
+    #. En el campo "**Cantidad de Recolección**", podrá visualizar la cantidad de productos de recolección.
+
+        |Campo Cantidad de Recolección de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 48. Campo Cantidad de Recolección de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
+    #. En el campo "**Cantidad a Recibir**", podrá visualizar la cantidad de productos a recibir.
+
+        |Campo Cantidad a Recibir de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 49. Campo Cantidad a Recibir de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
+    #. En el campo "**Cantidad Confirmada**", podrá visualizar la cantidad confirmada de productos.
+
+        |Campo Cantidad Confirmada de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 50. Campo Cantidad Confirmada de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
+    #. En el campo "**Cantidad Desperdicio**", podrá visualizar la cantidad de desperdicio de productos.
+
+        |Campo Cantidad Desperdicio de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 51. Campo Cantidad Desperdicio de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
+    #. Seleccione en el campo "**Centro de Costos**", el centro de costos para la entrega de los productos.
+
+        |Campo Centro de Costos de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 52. Campo Centro de Costos de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente
+
+    #. Seleccione en el campo "**Actividad**", la actividad correspondiente a la entrega que esta realizando.
+
+        |Campo Actividad de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+
+        Imagen 53. |Campo Actividad de la Pestaña Línea de la Entrega de la Ventana Entregas Cliente|
+    
+#. Seleccione la pestaña principal "**Entrega**" y la opción "**Completar**", ubicada en la parte inferior de la ventana "**Entregas (Cliente)**".
+        
+    |Pestaña Entrega de la Ventana Entregas Cliente y Opción Completar|
+
+    Imagen 54. Pestaña Entrega de la Ventana Entregas Cliente y Opción Completar
+
+    #. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Entrega**".
+
+        |Acción Completar y Opción Ok|
+    
+        Imagen 55. Acción Completar y Opción Ok

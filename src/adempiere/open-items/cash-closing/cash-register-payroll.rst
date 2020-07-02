@@ -47,9 +47,9 @@ Nos Dirigimos a la ventana Cierre de Caja, ubicado en el menú “**Gestión de 
 
     Imagen 4. Pagos a Cruzar
 
-..note:: 
+    .. note:: 
 
-	Cabe destacar que en el ejemplo que presentamos se evidencia la transferencia realizada y el pago de un solo empleado que fue con el que realizamos el proceso de nómina, sólo para este caso en específico, en su proceso le deben aparecer todos los empleados qué le procesaron la nómina
+        Cabe destacar que en el ejemplo que presentamos se evidencia la transferencia realizada y el pago de un solo empleado que fue con el que realizamos el proceso de nómina, sólo para este caso en específico, en su proceso le deben aparecer todos los empleados qué le procesaron la nómina
 
 #. Seleccione todos los pagos de los empleados y el monto de la transferencia bancaria
 

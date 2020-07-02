@@ -1,6 +1,4 @@
 .. _ERPyA: http://erpya.com
-.. |Estado de Cuenta| image:: resources/Estado_Cuenta.png
-.. |movimientos| image:: resources/movimientos_No_Conciliados.png
 .. |Campo Pago Comisiones| image:: resources/Commissions_Field_Payment.png
 .. |Campo Socio Negocio Comisiones| image:: resources/Commissions_SN_field.png
 .. |Campo Cuenta Beneficiario TEF| image:: resources/Commissions_Field_AccountB.png
@@ -29,6 +27,16 @@
 .. |Estado de Cuenta| image:: resources/Ventana_Estado_Cuentas.png
 .. |Grupo de Estado| image:: resources/Grupo_Campo_Estado.png
 .. |Botón Completar| image:: resources/opcion_completar.png
+.. |Pestaña Estado Cuentas para Pagos Cobros sin Registros| image:: resources/lineacaso1.png
+.. |Icono Proceso para Pagos Cobros sin Registros| image:: resources/iconoproceso.png
+.. |Opción Crear Pago desde Estado de Cuenta para Pagos Cobros sin Registros| image:: resources/crearpago.png
+.. |Ventana de Búsqueda Inteligente| image:: resources/ventana.png
+.. |Selección de Pagos Cobros desde la Opción Crear Pago desde Estado de Cuenta| image:: resources/seleccioncaso1.png
+.. |Opción Cargo Bancario del Campo Tipo de Transacción| image:: resources/cargobancario.png
+.. |Opción Comisión FLAT del Campo Cargo| image:: resources/cargocaso1.png
+.. |Opción OK para Crear Pagos Cobros de Comisiones| image:: resources/okcaso1.png
+.. |Selección de Pagos Cobros de Otros Tipos de Pagos Cobros| image:: resources/seleccioncaso3.png
+
 .. _documento/crear-pagos-desde-estado-de-cuenta:
 
 **Crear Pagos desde Estado de Cuenta**
@@ -47,30 +55,26 @@ Los pagos o cobros sin registro en ADempiere pueden presentarse en las empresas 
 
 #. Luego de realizar el proceso de conciliación, ubique la pestaña "**Línea Estado Cuentas**".
 
-    .. figure:: resources/lineacaso1.png
-       :alt: Pago o Cobro de Comisiones
-
-    Imagen 1. Pago o Cobro de Comisiones
+    |Pestaña Estado Cuentas para Pagos Cobros sin Registros|
+    
+    Imagen 1. Pestaña Estado Cuentas para Pagos Cobros sin Registros
 
 #. Seleccione el icono "**Proceso**", en la barra de herramientas de ADempiere.
 
-    .. figure:: resources/iconoproceso.png
-       :alt: Icono Proceso
-
-    Imagen 2. Icono Proceso
+    |Icono Proceso para Pagos Cobros sin Registros|
+    
+    Imagen 2. Icono Proceso para Pagos Cobros sin Registros
 
 #. Seleccione la opción "**Crear Pago desde Estado de Cuenta**".
 
-    .. figure:: resources/crearpago.png
-       :alt: Opción Crear Pago desde Estado de Cuenta
-
+    |Opción Crear Pago desde Estado de Cuenta para Pagos Cobros sin Registros|
+    
     Imagen 3. Opción Crear Pago desde Estado de Cuenta
 
     #. Podrá visualizar la siguiente ventana de búsqueda inteligente con los "**Pagos/Cobros**" que no tuvieron coincidencias al momento de conciliar.
 
-        .. figure:: resources/ventana.png
-           :alt: Ventana de Busqueda Inteligente
-
+        |Ventana de Búsqueda Inteligente|
+        
         Imagen 4. Ventana de Búsqueda Inteligente
 
 .. note::
@@ -84,31 +88,27 @@ Para aquellos movimientos que pertenezcan a comisiones bancarias estos deben ser
 
 #. En la ventana de búsqueda inteligente de "**Crear Pago desde Estado de Cuenta**" seleccione el o los pagos/cobros correspondientes a las comisiones.
 
-    .. figure:: resources/seleccioncaso1.png
-       :alt: Selección de Pagos/Cobros
-
+    |Selección de Pagos Cobros desde la Opción Crear Pago desde Estado de Cuenta|
+    
     Imagen 5. Selección de Pagos/Cobros
 
     #. Seleccione en el campo "**Tipo de Transacción**" la opción "**Cargo Bancario**".
 
-        .. figure:: resources/cargobancario.png
-           :alt: Campo Tipo de Transacción
-
-        Imagen 6. Campo Tipo de Transacción
+        |Opción Cargo Bancario del Campo Tipo de Transacción|
+        
+        Imagen 6. Opción Cargo Bancario del Campo Tipo de Transacción
 
     #. Seleccione en el campo "**Cargo**" el cargo de comisión correspondiente, para este ejemplo es "**Comisión FLAT**".
 
-        .. figure:: resources/cargocaso1.png
-           :alt: Campo Cargo
-
+        |Opción Comisión FLAT del Campo Cargo|
+        
         Imagen 7. Campo Cargo
 
 #. Seleccione la opción "**OK**" para generar automáticamente el documento de pago/cobro en ADempiere.
 
-    .. figure:: resources/okcaso1.png
-       :alt: Opción OK
-
-    Imagen 8. Opción OK
+    |Opción OK para Crear Pagos Cobros de Comisiones|
+    
+    Imagen 8. Opción OK para Crear Pagos Cobros de Comisiones
 
 .. warning::
 
@@ -181,8 +181,7 @@ Para aquellos movimientos que se encuentran en el extracto bancario que al momen
 
 #. En la ventana de búsqueda inteligente "**Crear Pago desde Estado de Cuenta**" seleccione el o los pagos/cobros correspondientes a otros tipos de pagos.
 
-    .. figure:: resources/seleccioncaso3.png
-       :alt: Selección de Pagos/Cobros
+    |Selección de Pagos Cobros de Otros Tipos de Pagos Cobros|
     
     Imagen 15. Selección de Pagos/Cobros
 

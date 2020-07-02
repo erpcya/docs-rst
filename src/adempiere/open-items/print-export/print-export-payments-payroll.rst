@@ -5,9 +5,8 @@
 
 .. _documento/imprimir-exportar-pagos-nomina:
 
-==================================
-**Imprimir Exportar Pagos Nómina**
-==================================
+**Registro de Imprimir / Exportar Pagos de Nómina**
+===================================================
 
     Es un proceso que permite generar un lote de pagos asociados a una selección de pagos, esto se puede realizar de 2 maneras 
 

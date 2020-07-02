@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Factura a Cobrar| image:: resources/vent-documento-por-cobrar.png
 .. |Menú de ADempiere| image:: resources/menu-cobro.png
 .. |Icono Registro Nuevo| image:: resources/icono-registro-nuevo.png
@@ -17,7 +18,6 @@
 .. |Pestaña Asignación| image:: resources/pest-asignacion.png
 .. |Pestaña Asignaciones| image:: resources/pest-asignaciones.png
 
-.. _ERPyA: http://erpya.com
 .. _documento/cobro:
 
 **Registro de Cobro**

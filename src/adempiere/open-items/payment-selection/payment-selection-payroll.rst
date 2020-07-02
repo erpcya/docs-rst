@@ -8,9 +8,8 @@
 
 .. _documento/seleccion-pago-de-nómina:
 
-=================================
-**Selección de Pagos de Nómina**
-=================================
+**Registro desde Nómina**
+=========================
 
     La selección de pagos de nómina representa una de las formas que requiere ADempiere para que usted registre el pago de la nómina a los empleados, luego de que usted completó la nómina de los empleados y está seguro de que todos los cálculos obtenidos son correctos, previa visualización en el reporte de nómina, debe comenzar el proceso donde registre los pagos de cada uno de los empleados.
 
