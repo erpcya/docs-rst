@@ -48,7 +48,7 @@ Para procesar una “**Nómina de Prestaciones Sociales**” debemos realizar el
 
 #. Resultados:
 
-    - **Reportes**
+    -**Reportes**
 
         Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina:` con los datos adicionales que se indican a continuación para cada reporte
 
@@ -56,14 +56,14 @@ Para procesar una “**Nómina de Prestaciones Sociales**” debemos realizar el
 
             - **Nómina**: Nómina Prestaciones Sociales
 
-         	- **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-         	- **Configuración de Reporte de Nómina**: Préstaciones Sociales
+            - **Configuración de Reporte de Nómina**: Préstaciones Sociales
 
 
-        |Recibo de Pago Nómina Prestaciones Sociales|
+            |Recibo de Pago Nómina Prestaciones Sociales|
 
-        Imagen 2. Recibo de Pago Nómina Prestaciones Sociales
+            Imagen 2. Recibo de Pago Nómina Prestaciones Sociales
 
 
         - “**Detalle de Pago**”
@@ -76,9 +76,9 @@ Para procesar una “**Nómina de Prestaciones Sociales**” debemos realizar el
 
             - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-        |Detalle de Pago Nómina Prestaciones Sociales|
+            |Detalle de Pago Nómina Prestaciones Sociales|
 
-        Imagen 3. Detalle de Pago Nómina Prestaciones Sociales
+            Imagen 3. Detalle de Pago Nómina Prestaciones Sociales
 
 
         - “**Resumen de Pago**”
@@ -92,6 +92,6 @@ Para procesar una “**Nómina de Prestaciones Sociales**” debemos realizar el
             - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
 
-        |Resumen de Pago Nómina Prestaciones Sociales|
+            |Resumen de Pago Nómina Prestaciones Sociales|
 
-        Imagen 4. Resumen de Pago Nómina Prestaciones Sociales
+            Imagen 4. Resumen de Pago Nómina Prestaciones Sociales

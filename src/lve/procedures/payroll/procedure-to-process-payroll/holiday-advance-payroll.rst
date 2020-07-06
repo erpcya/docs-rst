@@ -11,10 +11,10 @@
 
 
 =================================
-**NÓMINA ANTICIPO DE VACACIONES**
+**Nómina Anticipo de Vacaciones**
 =================================
 
-Para procesar una “**Nómina de Anticipo de Vacaciones**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de anticipo de vacaciones, el comportamiento de esta nómina destaca que solo existirá la asignación de días de disfrute de vacaciones, la asignación de bono vacacional y cualquier otra asignación estarán  representadas solamente en la nómina de vacaciones, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
+Para procesar una “**Nómina de Anticipo de Vacaciones**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de anticipo de vacaciones, en el comportamiento de está nómina usted evidenciará la asignación de días de disfrute de vacaciones, mientras que la asignación de bono vacacional estará representada solamente en la nómina de vacaciones, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 
 #. Estatus del Documento:
@@ -60,8 +60,7 @@ Para procesar una “**Nómina de Anticipo de Vacaciones**” debemos realizar e
       +-------------------------------------------------------+----------------------+----------------+
     
     
-   
-      Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
+         Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
 
         |Novedades Anticipo de Vacaciones|
 
