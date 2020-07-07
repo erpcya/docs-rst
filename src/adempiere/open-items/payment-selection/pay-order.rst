@@ -11,13 +11,6 @@
 .. |Campo Moneda del Documento Orden de Pago desde Factura| image:: resources/document-currency-field-payment-order-from-order.png
 .. |Campo Nombre de Referencia del Documento Orden de Pago desde Factura| image:: resources/field-reference-name-of-the-payment-order-document-from-order.png
 .. |Campo Descripción del Documento Orden de Pago desde Factura| image:: resources/document-description-field-payment-order-from-order.png
-
-
-
-
-
-
-
 .. |Opción Crear Desde Factura del Documento Orden de Pago desde Factura| image:: resources/option-to-create-from-invoice-of-the-payment-order-document-from-invoice.png
 .. |Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura| image:: resources/smart-search-window-of-the-create-from-invoice-process.png
 .. |Campo Cuenta Bancaria de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura| image:: resources/bank-account-field-of-the-smart-search-window-of-the-create-from-invoice-process.png
@@ -56,7 +49,7 @@
 .. |Campo Regla de Pago del Documento Orden de Pago desde Factura| image:: resources/payment-rule-field-of-the-payment-order-document-from-invoice.png
 .. |Campo Programa de Pago del Documento Orden de Pago desde Factura| image:: resources/payment-program-field-of-the-payment-order-document-from-invoice.png
 .. |Campo Cargo del Documento Orden de Pago desde Factura| image:: resources/field-charge-document-payment-order-from-invoice.png
-.. |Checklist Anticipo del Documento Orden de Pago desde Factura| image:: resources/active-checklist-of-the-payment-order-document-from-invoice.png
+.. |Checklist Anticipo del Documento Orden de Pago desde Factura| image:: resources/checklist-advance-payment-of-the-payment-order-document-from-invoice.png
 .. |Checklist Transacción de Ventas del Documento Orden de Pago desde Factura| image:: resources/checklist-sales-transaction-document-payment-order-from-invoice.png
 .. |Campo Importe Fuente del Documento Orden de Pago desde Factura| image:: resources/field-source-amount-of-the-document-payment-order-from-invoice.png
 .. |Campo Tipo de Conversión del Documento Orden de Pago desde Factura| image:: resources/conversion-type-field-of-the-payment-order-document-from-invoice.png
@@ -67,8 +60,7 @@
 .. |Campo Total de Descuento del Documento Orden de Pago desde Factura| image:: resources/total-discount-field-of-the-payment-order-document-from-invoice.png
 .. |Diferencia Monto del Documento Orden de Pago desde Factura| image:: resources/difference-amount-of-document-payment-order-from-invoice.png
 .. |Grupo de Estado del Documento Orden de Pago desde Factura| image:: resources/document-status-group-payment-order-from-invoice.png
-.. |Botón Completar del Documento Orden de Pago desde Factura| image:: resources/button-complete-document-payment-order-from-invoice.png
-
+.. |Botón Completar del Documento Orden de Pago desde Factura| image:: resources/button-complete-document-payment-order-from-order.png
 
 .. _documento/orden-de-pago:
 
