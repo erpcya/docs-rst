@@ -281,21 +281,47 @@ Para realizar una "**Orden de Pagos**" en ADempiere el cual permite montar una s
 
             Imagen 31. Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-    #. Dependiendo del criterio de búsqueda seleccionado tilde la opción "**Comenzar Búsqueda**", para buscar las facturas de los socios del negocio proveedores.
+    #. Campo de búsqueda **”Fecha de Vencimiento”** este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de vencimiento **”Desde”** y el segundo como fecha de vencimiento **”Hasta”**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) ADempiere mostrará únicamente las facturas que están asociadas bajo ese rango de fechas, como por ejemplo:  
 
         |Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
         Imagen 32. Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-    #. Al tildar la opción "**Comenzar Búsqueda**", se desplegará en la parte inferior de la ventana las facturas que están pendientes por pagar.
+        Imagen 20. Campo de búsqueda Fecha de Vencimiento
+
+    #. Campo de búsqueda **”Días de Vencimiento”** este campo es utilizado para colocar los días de vencimiento de una factura; estos días de vencimiento son configurados en la factura y aplica más que todo para aquellas facturas las cuales cuentan con una regla  de pago a crédito.
+ 
+        |Campo de búsqueda Días de Vencimiento|
+
+        Imagen 21. Campo de búsqueda Días de Vencimiento
+
+    #. Campo de búsqueda **”Socio de Negocio”**, este campo puede ser utilizado si desea ubicar las facturas que estén asociadas a un socio de negocio en específico.
+
+        |Campo de Búsqueda Socio de Negocio “Factura”|
+
+        Imagen 22. Campo de Búsqueda Socio de Negocio “Factura”
+
+     #. Campo de búsqueda **”Tipo de Documento”**, este es un campo de búsqueda tipo lista  el cual al tildarlo mostrará una serie de opciones de los tipos de documentos que se encuentran asociados para los documentos de cuentas por pagar, la opción a seleccionar en este campo le indicará a ADempiere qué al momento de realizar la búsqueda ubique y muestre solo las facturas que estén bajo el tipo de documento seleccionado en ese campo, como por ejemplo:
+
+        Si se selecciona el tipo de documento **”Factura de Cuentas por Pagar Nacional”** ADempiere mostrará cuando se realice la búsqueda únicamente las facturas que estén asociadas a ese tipo de documento.
+
+        |Campo de Búsqueda Tipo de Documento Facturas|
+
+        Imagen 23. Campo de Búsqueda Tipo de Documento Facturas
+
+    #. Campo de búsqueda **”Asignar Requerimientos”** este es un campo tipo lista, el cual contiene una serie de opciones el cual indica a ADempiere que dependiendo del requerimiento seleccionado ADempiere ubicara las facturas,  dentro de los requerimientos de este campo están:
+
+        **Ninguno:** Si se selecciona este criterio de búsqueda, ADempiere ubicara todas las facturas en ADempiere , es decir ubicar las facturas que estén con órdenes o sin órdenes con recepciones o sin recepciones.
+
+        ** Orden de Compra**:  si se selecciona este criterio de búsqueda, ADempiere ubicara solo y únicamente las facturas que estén asociadas a una orden de compra, de lo contrario no mostrará ninguna factura.
 
         Las facturas que se visualicen dependerá del criterio de búsqueda que se utilice, ejemplo:
             
             - Si se utiliza un criterio de búsqueda por socio del negocio, las facturas a mostrar sería solo y únicamente por ese socio de negocio.
 
-            - Si se utiliza un criterio de búsqueda por fecha, se mostrarán todas las facturas que estén bajo la fecha seleccionada.
+        **Recibo:** Si se selecciona este criterio de búsqueda, ADempiere ubicara solo y únicamente las facturas que tengan asociada una recepción, de lo contrario no mostrará ninguna factura.
 
-            - Las facturas a mostrar son únicamente aquellas facturas que tengan pagos pendientes, sí ya una factura a sido salda no se mostrará en esta ventana.
+        |Campo de Búsqueda Asignar Requerimientos|
 
             - Las facturas deben encontrarse en estado "**Completo**" de lo contrario no aparecerán en esta ventana. 
 
@@ -511,7 +537,7 @@ Para realizar una "**Orden de Pagos**" en ADempiere el cual permite montar una s
 
         Imagen 62. Botón Completar del Documento Orden de Pago desde Factura
 
-#. Al aplicar esta acción "**Completar**" el documento pasará a esta completo y este no podrá ser modificado.
+#. Al aplicar esta acción "**Completar**" el documento pasará a estar completo y este no podrá ser modificado.
 
     .. note::
 
