@@ -11,5 +11,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 .. toctree::
     :maxdepth: 2
 
-    human-resources-management/index
+    human-resources
     payroll/index

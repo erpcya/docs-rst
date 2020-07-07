@@ -151,7 +151,7 @@ Para realizar una transferencia bancaria en ADempiere deben seguir los siguiente
    De igual manera, cuando se está trabajando las transferencias bancarias con cajas es creado un documento de cobro en la ventana "**Caja**" reflejando el ingreso a la cuenta seleccionada en el campo "**Cuenta Bancaria a Transferir**" y un pago en la ventana "**Pago/Cobro**" reflejando el egreso de la cuenta seleccionada en el campo "**Cuenta bancaria desde**".
 
 **Consultar Egreso Generado de la Transferencia Bancaria**
-==========================================================
+----------------------------------------------------------
 
 #. Si en la transferencia bancaria en el campo "**Cuenta Bancaria Desde**" fue seleccionada una cuenta bancaria el pago caerá en la ventana **"Pago/Cobro"** y tendrá como número de documento el número colocado en el campo **"No. del Documento"** de la transacción bancaria.
 
@@ -166,7 +166,7 @@ Para realizar una transferencia bancaria en ADempiere deben seguir los siguiente
     Imagen 18. Pago en Ventana Caja
 
 **Consultar Ingreso Generado de la transferencia Bancaria**
-===========================================================
+-----------------------------------------------------------
 
 #. Si en la transferencia bancaria en el campo "**Cuenta Bancaria a Transferir**" fue seleccionada una cuenta bancaria el cobro caerá en la ventana **"Pago/Cobro"**, si en el campo **"Documento Destino"** de la transferencia bancaria se colocó el número de la transacción este mismo debe aparecer como el número de documento del campo **"No. del Documento"** en la ventana **"Pago/Cobro"**.
 

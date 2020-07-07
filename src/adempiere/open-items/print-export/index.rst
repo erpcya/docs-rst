@@ -11,3 +11,4 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
     :maxdepth: 2
 
     print-export
+    print-export-payments-payroll
