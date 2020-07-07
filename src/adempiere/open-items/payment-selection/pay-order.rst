@@ -309,7 +309,7 @@ Para realizar una "**Orden de Pagos**" en ADempiere el cual permite montar una s
 
             Imagen 34. Seleccionar Facturas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-        #. Al seleccionar la factura indique cual es el total que se desea cancelar al proveedor de esa factura.
+    #. Al seleccionar la factura indique cual es el total que se desea cancelar al proveedor de esa factura.
 
             |Total a Cancelar de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 

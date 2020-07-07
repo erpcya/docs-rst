@@ -60,6 +60,8 @@
 
 En muchas ocasiones se necesitan realizar anticipos a proveedores, una vez que se concrete la compra dependiendo de las reglas del negocio con la que cuente la compañía y el proveedor se realizan anticipos, los anticipos son aquellos pagos que se generan antes de una factura, por ello como ya existe una compra a un proveedor y se requiere aplicar un anticipo; para aplicar un anticipo a proveedores en ADempiere y realizar una  "**Orden de Pago**" a través de una "**Orden de Compra**" se deben aplicar los siguientes pasos.
 
+
+
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Selección de Pago**".
 
     |Menú de ADempiere para el Documento Orden de Pago desde Orden|
