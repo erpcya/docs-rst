@@ -10,9 +10,4 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 .. toctree::
     :maxdepth: 2
     
-    payment-selection-payroll
-    print-export-payments-payroll
-    bank-transfer-payroll
-    cash-register-payroll
-
-    
+    payment-payroll

@@ -67,7 +67,7 @@
         Imagen 8. Comprobante de Relación de Pago
 
 **Consultar Documento de Pago Generado**
-========================================
+----------------------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Pago/Cobro**".
 
