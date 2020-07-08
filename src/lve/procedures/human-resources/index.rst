@@ -10,3 +10,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
    :maxdepth: 2
 
    purchase-order-labor-obligation
+   document-payable-labor-obligation
