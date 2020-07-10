@@ -12,4 +12,5 @@ En `ERPyA`_, actualmente nos encontramos implementando una herramienta para que 
 .. toctree::
     :maxdepth: 2
 
-    e-commerce-images
+    default-theme
+    custom-theme
