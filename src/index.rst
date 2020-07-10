@@ -23,6 +23,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     :maxdepth: 2
     :numbered:
 
+    adempiere/basic-steps/index
     adempiere/master/index
     adempiere/material-management/index
     adempiere/quote-to-invoice/index
