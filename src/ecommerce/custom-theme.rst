@@ -55,19 +55,21 @@
 +-----------------------------------+--------------------------------------------------------+
 | **Número**                        | **Archivo de configuración**                           |
 +===================================+========================================================+
-| 1                                 | (carpetaDelTema)/resource/promoted_offers.json         |
-|                                   | sección “mainBanners”                                  |
+|1                                  |(carpetaDelTema)/resource/promoted_offers.json          |
+|                                   |sección “mainBanners”                                   |
 |                                   |                                                        |
-|                                   | -  Título                                              |
-|                                   | -  Subtítulo                                           |
-|                                   | -  Descripción                                         |
-|                                   | -  Texto del botón                                     |
-|                                   | -  Enlace a donde dirige                               |
-|                                   | -  Nombre del Slot (Los Slots disponibles son:         |
-|                                   |       -  banner-A                                      |
-|                                   |       -  banner-B                                      |
-|                                   |       -  banner-C                                      |
-|                                   |       -  banner-D                                      |
+|                                   |-  Título                                               |
+|                                   |-  Subtítulo                                            |
+|                                   |-  Descripción                                          |
+|                                   |-  Texto del botón                                      |
+|                                   |-  Enlace a donde dirige                                |
+|                                   |-  Nombre del Slot                                      |
+|                                   |-  Los Slots disponibles son:                           |
+|                                   |                                                        |
+|                                   |	-  banner-A                                          |
+|                                   |	-  banner-B                                          |
+|                                   |	-  banner-C                                          |
+|                                   |	-  banner-D                                          |
 +-----------------------------------+--------------------------------------------------------+
 | 2                                 | Imágenes:                                              |
 |                                   |                                                        |
