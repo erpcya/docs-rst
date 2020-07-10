@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. _src/adempiere/open-items:
 
 ================================
