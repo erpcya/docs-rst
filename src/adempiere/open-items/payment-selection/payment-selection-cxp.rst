@@ -41,7 +41,7 @@ Para realizar una "**Selección de Pago**" la cual se encarga de definir de qué
 
     .. note:: 
 
-        Es muy importante tener en cuenta que para poder seguir el paso a paso que se detalla a continuación se debe tener previamente cargada en ADempiere la "**Orden de Pago**" si no se encuentra cargado en ADempiere pueden consultar el instructivo :ref:`documento/orden-de-pago`
+        Es muy importante tener en cuenta que para poder seguir el paso a paso que se detalla a continuación se debe tener previamente cargada en ADempiere la "**Orden de Pago**" si no se encuentra cargado en ADempiere pueden consultar el instructivo :ref:`documento/orden-de-pago` o :ref:`documento/orden-de-pago-desde-orden`
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Selección de Pagos**".
 
@@ -135,17 +135,21 @@ Para realizar una "**Selección de Pago**" la cual se encarga de definir de qué
 
         #. Campo "**Factura**", permite filtrar la búsqueda por la factura previamente realizada.
 
+            Es decir al colocar una factura en específico en el campo "**Factura**", ADempiere traerá la **"Orden de Pago"** que ese asociada a esa factura.
+
             |Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
             Imagen 14. Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-        #. Campo "**Regla de Pago**", permite filtrar la búsqueda por la regla de pago previamente seleccionada en la factura.
+        #. Campo "**Regla de Pago**", permite filtrar la búsqueda de los documentos que posean la regla de pago seleccionada y que se encuentren asociada a una **"Orden de Pago"**.
 
             |Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
             Imagen 15. Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
         #. Campo "**Orden de Venta**", permite filtrar la búsqueda por la orden de venta previamente realizada.
+
+            Es decir al colocar una orden en específico en el campo "**Orden de Venta**", ADempiere traerá las ordenes que se encuentren asociada a una **"Orden de Pago"**.
 
             |Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
@@ -200,6 +204,30 @@ Para realizar una "**Selección de Pago**" la cual se encarga de definir de qué
         En la pestaña "**Línea de Selección de Pago**" deberán aparecer las misma cantidad de los documentos  seleccionadas desde la opción "**Crear Desde Selección de Pago**".
 
 #. Podrá observar que en cada registro de la pestaña "**Línea de Selección de Pago**" aparecerán las siguientes características:
+
+     #. Campo "**Selección de Pago**" debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la selección de pago.
+
+        |Campo Selección de Pago del Documento |
+
+        Imagen 30. Campo Selección de Pago del Documento Seleccion de Pago
+
+    #. Campo "**No. Línea**" este campo define el número de línea de cada registro asociado a la pestaña "**Lńea Selección de Pago**", cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pestaña, cada registro debe estar en 10, 20 y 30.
+
+        |Campo No Línea del Documento Seleccion de Pago|
+
+        Imagen 31. Campo N° Línea del Documento Seleccion de Pago
+
+    #. Campo "**Descripción**" este campo puede ser utilizado si se requiere dar una descripción en el registro de la línea.
+
+        |Campo Descripción de la línea del Documento Seleccion de Pago|
+
+        Imagen 32. Campo Descripción de la línea del Documento Seleccion de Pago
+
+    #. Checklist "**Activo**" esté check indica si el registro de la línea está activo o no.
+
+            |Checklist Activo del Documento Seleccion de Pago|
+
+            Imagen 33. Checklist Activo del Documento Seleccion de Pago
 
     #. En el campo "**Socio del Negocio**" debe aparecer el socio de negocio del documento que se encuentra asociada al registro de la línea.
 
