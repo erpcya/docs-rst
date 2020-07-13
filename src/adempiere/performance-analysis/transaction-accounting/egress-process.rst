@@ -141,7 +141,7 @@
 
     |Opción Contabilizado de la Ventana Consulta de Asignación|
 
-    Imagen 14. Opción Contabilizado de la Ventana Consulta dAsignacióne 
+    Imagen 14. Opción Contabilizado de la Ventana Consulta de Asignación
 
 #. Podrá visualizar el asiento contable generado por la transacción anteriormente explicada.
 
