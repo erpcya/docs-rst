@@ -11,3 +11,4 @@ El presente material se encuentra dirigido a cada uno de los usuarios de ADempie
 
     login
     user-interface
+    interface-icons
