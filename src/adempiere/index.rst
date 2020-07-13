@@ -12,7 +12,6 @@ ADempiere por su condición de ERP ofrece todo lo que una compañía requiere en
 .. toctree::
     :maxdepth: 2
 
-    basic-steps/index
     master/index
     material-management/index
     quote-to-invoice/index
