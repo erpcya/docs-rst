@@ -11,6 +11,9 @@
 .. |Asiento Contable de la Ventana Recepción de Productos| image:: resources/window-accounting-entry-receiving-products.png
 .. |Opción Contabilizado de la Ventana Pago Cobro| image:: resources/option-posted-from-the-payment-payment-window.png
 .. |Asiento Contable de la Ventana Pago Cobro| image:: resources/window-accounting-window-payment-collection.png
+.. |Asignación Factura Pago| image:: resources/invoice-payment-allocation.png
+.. |Opción Contabilizado de la Ventana Consulta de Asignación| image:: resources/posted-option-from-the-assignment-query-window.png
+.. |Asiento Contable de la Asignación Factura Pago| image:: resources/accounting-entry-of-the-invoice-payment-allocation.png
 .. |Opción Contabilizado de la Ventana Estado de Cuentas Bancario| image:: resources/option-posted-from-the-bank-account-status-window.png
 .. |Asiento Contable de la Ventana Estado de Cuentas Bancario| image:: resources/accounting-entry-in-the-bank-statement-window.png
 
@@ -121,6 +124,31 @@
 
     Imagen 12. Asiento Contable de la Ventana Pago Cobro
 
+**Asignación de Factura/Pago**
+------------------------------
+
+#. Ubique el documento de factura por pagar asociado al pago y seleccione la pestaña "**Pagos Asignados**" para visualizar la asignación generada por la transacción realizada entre la factura y el pago.
+
+    |Asignación Factura Pago|
+
+    Imagen 13. Asignación Factura Pago
+
+    .. note::
+
+        La asignación "**Factura/Pago**", es generada automáticamente después de completar el documento "**Pago**", asociado a la factura.
+
+#. Al hacer clic contrario sobre el campo "**Asignación**" en la pestaña "**Pagos Asignados**" de la ventana "**Documentos por Pagar**" y seleccionar la opción "**Acercar**", podrá visualizar el documento de asignación donde debe seleccionar la opción "**Contabilizado**", ubicado en la parte inferior de la ventana "**Consulta de Asignación**".
+
+    |Opción Contabilizado de la Ventana Consulta de Asignación|
+
+    Imagen 14. Opción Contabilizado de la Ventana Consulta de Asignación
+
+#. Podrá visualizar el asiento contable generado por la transacción anteriormente explicada.
+
+    |Asiento Contable de la Asignación Factura Pago|
+
+    Imagen 15. Asiento Contable de la Asignación Factura/Pago 
+
 **Conciliación**
 ----------------
 
@@ -130,10 +158,10 @@
 
     |Opción Contabilizado de la Ventana Estado de Cuentas Bancario|
 
-    Imagen 13. Opción Contabilizado de la Ventana Estado de Cuentas Bancario
+    Imagen 16. Opción Contabilizado de la Ventana Estado de Cuentas Bancario
 
 #. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Estado de Cuentas Bancario**".
 
     |Asiento Contable de la Ventana Estado de Cuentas Bancario|
 
-    Imagen 14. Asiento Contable de la Ventana Estado de Cuentas Bancario
+    Imagen 17. Asiento Contable de la Ventana Estado de Cuentas Bancario

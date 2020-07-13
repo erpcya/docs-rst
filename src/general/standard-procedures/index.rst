@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. _src/general/standard-procedures:
 
 =============================
