@@ -22,7 +22,7 @@
 .. |Informe| image:: resources/report.png
 .. |Documentos e informes| image:: resources/documents-and-reports.png
 .. |Imprimir| image:: resources/to-print.png
-.. |Bloquea Registro Privado| image:: resources/block-private-registration.png
+.. |Bloquea Registro| image:: resources/block-private-registration.png
 .. |Visualiza detalle| image:: resources/visualize-detail.png
 .. |Flujos de trabajo| image:: resources/workflows.png
 .. |Chequee solicitudes| image:: resources/check-requests.png
