@@ -120,6 +120,10 @@ Los favoritos sirven para guardar de una manera rápida y sencilla, los document
 
     Imagen 11. Favoritos
 
+    .. note::
+    
+        Para seleccionar un documento como favorito deberá mantener el mismo presionado y deslizarlo hasta el menú de favoritos.
+
 **Icono Eliminar de la Sección Favoritos**
 ******************************************
 
