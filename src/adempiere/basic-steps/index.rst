@@ -14,3 +14,4 @@ El presente material se encuentra dirigido a cada uno de los usuarios de ADempie
     interface-icons
     toolbar
     quick-access
+    props
