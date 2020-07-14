@@ -35,7 +35,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -86,7 +86,9 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en
+
+, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -137,7 +139,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -188,7 +190,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -239,7 +241,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -290,7 +292,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -341,7 +343,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -392,7 +394,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -443,7 +445,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -494,7 +496,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -532,7 +534,7 @@ El formato para la importación de las nóminas semanal, quincenal, mensual, sem
 **Días Totales de la Nómina**
 -----------------------------
 
-El concepto días totales de la nómina (días hábiles laborados), se utiliza para calcular el promedio del salario en las vacaciones. Cabe destacar que los datos de este formulario son necesarios los tres (3) meses anteriores para los procesos de "**Nómina Semanal Mixta (NSM)**", "**Nómina Quincenal Mixta (NQM)**" o "**Nómina Mensual Mixta (NMM)**".  Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación del sistema.
+El concepto días totales de la nómina (días hábiles laborados), se utiliza para calcular el promedio del salario en las vacaciones. Cabe destacar que los datos de este formulario son necesarios los tres (3) meses anteriores para los procesos de "**Nómina Semanal Mixta (NSM)**", "**Nómina Quincenal Mixta (NQM)**" o "**Nómina Mensual Mixta (NMM)**".  Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación de ADempiere.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
@@ -546,7 +548,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -601,7 +603,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -652,7 +654,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -703,7 +705,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -754,7 +756,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -791,7 +793,7 @@ El formato para la importación de las nóminas semanal, quincenal, mensual, sem
 **Salario Integral**
 --------------------
 
-Se utiliza para promediar el salario integral de los empleados. Cabe destacar que los datos de este formulario son necesarios solamente si existen procesos de "**Nóminas Semanales Mixta (NSM)**", "**Nóminas Quincenales Mixta (NQM)**" o "**Nóminas Mensuales Mixta (NMM)**". Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación del sistema.
+Se utiliza para promediar el salario integral de los empleados. Cabe destacar que los datos de este formulario son necesarios solamente si existen procesos de "**Nóminas Semanales Mixta (NSM)**", "**Nóminas Quincenales Mixta (NQM)**" o "**Nóminas Mensuales Mixta (NMM)**". Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación del ADempiere.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
@@ -805,7 +807,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -848,7 +850,7 @@ El formato para la importación de las nóminas semanal, quincenal, mensual, sem
 **Salario Normal**
 ------------------
 
-Se utiliza para promediar el salario normal de los empleados. Cabe destacar que los datos de este formulario son necesarios para los procesos de "**Nómina Semanal Mixta (NSM)**", "**Nómina Quincenal Mixta (NQM)**" o "**Nómina Mensual Mixta (NMM)**". Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación del sistema.
+Se utiliza para promediar el salario normal de los empleados. Cabe destacar que los datos de este formulario son necesarios para los procesos de "**Nómina Semanal Mixta (NSM)**", "**Nómina Quincenal Mixta (NQM)**" o "**Nómina Mensual Mixta (NMM)**". Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación de ADempiere.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
@@ -862,7 +864,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -919,7 +921,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -972,7 +974,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -1015,7 +1017,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -1049,6 +1051,93 @@ El formato para la importación de la nómina de vacaciones es el siguiente:
 |            |      NV           |      CR_FSV       |          |            |       |          |                 |                |           |
 +------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
 
+**Total de Asignaciones de la Nómina de Vacaciones Anterior**
+--------------------------------------------------------------
+
+Representa monto total devengado por el empleado por concepto de sus vacaciones anteriores. Ese dato debe ser suministrado para que ADempiere lo tome en cuenta al momento de calcular las utilidades del empleado, por ejemplo "si su periodo de utilidades está entre el primero de noviembre de 2019 hasta el 31 de octubre de 2020",  debe suministrar la información de las vacaciones que se procesaron durante ese período para que ese saldo pueda considerarse al momento de procesar su nómina de utilidades.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+        
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de utilidades es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| MONTO | CANTIDAD |FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+=======+==========+=================+================+===========+
+|            |      NV           |       CR_TA       |          |            |       |          |                 |                |           |
++------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
+|            |      NV           |       CR_TA       |          |            |       |          |                 |                |           |
++------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
+|            |      NV           |       CR_TA       |          |            |       |          |                 |                |           |
++------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
+|            |      NV           |       CR_TA       |          |            |       |          |                 |                |           |
++------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
+
+
+**Días Totales de Vacaciones de la Nómina de Vacaciones Anterior**
+-------------------------------------------------------------------
+
+
+Representa el total de días (Días de disfrutes de vacaciones, días de descanso y días feriados) otorgados por el empleado durante el periodo de vacaciones anteriores. Ese dato debe ser suministrado para que ADempiere lo tome en cuenta al momento de calcular las utilidades del empleado, por ejemplo "si su periodo de utilidades está entre el primero de noviembre de 2019 hasta el 31 de octubre de 2020",  debe suministrar la información de las vacaciones que se procesaron durante ese período para que ese saldo pueda considerarse al momento de procesar su nómina de utilidades.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+        
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de utilidades es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| MONTO | CANTIDAD |FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+=======+==========+=================+================+===========+
+|            |      NV           |      CR_DVT       |          |            |       |          |                 |                |           |
++------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
+|            |      NV           |      CR_DVT       |          |            |       |          |                 |                |           |
++------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
+|            |      NV           |      CR_DVT       |          |            |       |          |                 |                |           |
++------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
+|            |      NV           |      CR_DVT       |          |            |       |          |                 |                |           |
++------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
 
 **Nómina de Utilidades**
 ========================
@@ -1064,7 +1153,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -1098,6 +1187,7 @@ El formato para la importación de la nómina de utilidades es el siguiente:
 |            |      NU           |      CR_FUA       |          |            |       |          |                 |                |           |
 +------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
 
+
 **Nómina Anticipo de Vacaciones**
 =================================
 
@@ -1112,7 +1202,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -1160,7 +1250,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -1209,7 +1299,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -1253,7 +1343,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -1297,7 +1387,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -1314,7 +1404,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
-* Se debe registrar un formato indicando la porción de garantía de prestaciones del mes anterior y otro formato indicando el penultimo mes a la implementación del sistema que le correspondio al empleado por concepto de sus garantía de prestaciones.
+* Se debe registrar un formato indicando la porción de garantía de prestaciones del mes anterior y otro formato indicando el penultimo mes a la implementación de ADempiere que le correspondio al empleado por concepto de sus garantía de prestaciones.
 
 **Formato de Importación**
 **************************
@@ -1342,7 +1432,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
 
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -1359,7 +1449,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
-* Se debe registrar un formato indicando la porción de intereses de garantía de prestaciones del mes anterior y otro formato indicando el penultimo mes a la implementación del sistema que le correspondio al empleado por concepto de sus garantía de prestaciones.
+* Se debe registrar un formato indicando la porción de intereses de garantía de prestaciones del mes anterior y otro formato indicando el penultimo mes a la implementación de ADempiere que le correspondio al empleado por concepto de sus garantía de prestaciones.
 
 **Formato de Importación**
 **************************
