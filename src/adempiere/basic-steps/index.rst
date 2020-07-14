@@ -1,8 +1,8 @@
 .. _src/adempiere/basic-steps:
 
-=====================
-**Gestiones Básicas**
-=====================
+==================
+**Gestión Básica**
+==================
 
 El presente material se encuentra dirigido a cada uno de los usuarios de ADempiere para cualquier organización. Se explicará de forma sencilla y eficiente las gestiones básicas, herramientas y utilerías que podrá utilizar para interactuar con el sistema.
 
@@ -12,3 +12,4 @@ El presente material se encuentra dirigido a cada uno de los usuarios de ADempie
     login
     user-interface
     interface-icons
+    toolbar
