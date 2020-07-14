@@ -15,7 +15,7 @@
 .. |Campo Nombre de ventana de búsqueda “Selección de Pago”| image:: resources/
 .. |Tildar selección de pago| image:: resources/
 .. |Botón Ok| image:: resources/
-.. |Campos Cargados Desde la Selección de Pago| image:: resources/
+.. |Campos Cargados Desde la Selección de Pago| 
 
 
 
