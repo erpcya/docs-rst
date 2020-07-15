@@ -1,5 +1,4 @@
 .. |Buscar| image:: resources/look-for.png
-.. |Expandir Árbol| image:: resources/expand-tree.png
 .. |Calculadora| image:: resources/calculator.png
 .. |Reiniciar Cache| image:: resources/reset-cache.png
 .. |Reiniciar Contraseña| image:: resources/reset-password.png
@@ -16,12 +15,6 @@ En ADempiere la utilería no es más que un conjunto de instrumentos o herramien
     |Buscar|
 
     Imagen 1. Buscar
-
-#. **Expandir Árbol:** Es una herramienta que le permitirá contraer el menú para solo visualizar las carpetas o desplegarlo para visualizar las carpetas y sus subcarpetas y documentos.
-
-    |Expandir Árbol|
-
-    Imagen 2. Expandir Árbol
 
 #. **Calculadora:** En ADempiere contamos con una herramienta básica que le permitirá realizar una operación matemática dentro de un campo.
 
