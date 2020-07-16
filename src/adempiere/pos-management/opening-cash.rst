@@ -10,21 +10,21 @@
 **Apertura de Caja**
 ====================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la carpeta "**Punto de Venta**". Para finalizar, seleccione el proceso "**Apertura de Punto de Venta**".
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Transferencia Bancaria**", con diferentes campos que permiten simular las transferencias monetarias entre las cuantas bancarias y cajas registradas en ADempiere.
+#. Podrá visualizar la ventana "**Apertura de Punto de Venta**", con diferentes campos que permiten simular las transferencias monetarias entre las cuantas bancarias y cajas registradas en ADempiere.
 
-    |Ventana Transferencia Bancaria|
+    |Ventana Apertura de Punto de Venta|
 
-    Imagen 2. Ventana Transferencia Bancaria
+    Imagen 2. Ventana Apertura de Punto de Venta
 
-    #. Realice el proceso regular para generar una transferencia bancaria, dicho procedimiento se encuentra explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_. 
+    #. Realice en la ventana "**Apertura de Punto de Venta**", el proceso regular para generar una transferencia bancaria, dicho procedimiento se encuentra explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_. 
     
-    #. Para la apertura de una caja, es necesario que sean cumplidas las siguientes restricciones en la ventana "**Transferencia Bancaria**".
+    #. Para la apertura de una caja, es necesario que sean cumplidas las siguientes restricciones en la ventana "**Apertura de Punto de Venta**".
 
         #. En el campo **Terminal PDV**, se encuentra el terminal configurado para el socio del negocio empleado.
 

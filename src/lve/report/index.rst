@@ -13,4 +13,4 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
     :maxdepth: 2
 
     gross-sales-report/index
-    arc-report/index
+    arc-report/inde
