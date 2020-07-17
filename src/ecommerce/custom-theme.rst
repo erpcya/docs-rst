@@ -183,7 +183,11 @@
 +-----------------------------------+-------------------------------------------------------+
 
 
-Listado de imágenes y resolución
+**Listado de imágenes y resolución**
+------------------------------------
+.. note::
+
+        A continuación le dejamos un :download:`ejemplo <resources/assets-capybara.zip>` de la estructura de las imagenes.
 
 +----------------------------------------+--------------------------------------------------+-----------------------+
 | **Nombre del archivo**                 | **Ruta del archivo**                             | **Resolución**        |

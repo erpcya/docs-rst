@@ -148,7 +148,12 @@
 |                                   | /theme/components/core/blocks/Footer/Footer.vue           |
 +-----------------------------------+-----------------------------------------------------------+
 
-Listado de imágenes y resolución
+**Listado de imágenes y resolución**
+------------------------------------
+
+.. note::
+
+        A continuación le dejamos un :download:`ejemplo <resources/assets-default.zip>` de la estructura de las imagenes.
 
 +-----------------------+----------------------------------------+-----------------------+
 | **Nombre del archivo**| **Ruta del archivo**                   | **Resolución**        |
