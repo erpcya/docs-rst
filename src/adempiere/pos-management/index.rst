@@ -17,3 +17,4 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
 
     point-of-sale-terminal
     opening-cash
+

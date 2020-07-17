@@ -1,4 +1,4 @@
-.. |Menú de ADempiere| image:: resources/
+.. |Menú de ADempiere| image:: resources/point-of-sale-menu.png
 .. |Opción Cerrar Caja del Punto de Venta| image:: resources/
 .. |Ventana Cierre de Caja del Punto de Venta| image:: resources/
 .. |Campo Terminal PDV del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
@@ -24,13 +24,13 @@
 **Cierre de Caja del Punto de Venta**
 =====================================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la carpeta "**Punto de Venta**". Para finalizar, seleccione el proceso "**Punto de Venta**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la carpeta "**Punto de Venta**". Para finalizar, seleccione la ventana "**Punto de Venta**".
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Luego de realizar desde el punto de venta todas las tomas de pedido del día, seleccione la opción "**Cerrar Caja del Punto de Venta**", ubicada en el menú desplegado por el icono "**Proceso**" de la ventana "**Punto de Venta**".
+#. Luego de realizar desde el punto de venta todas las tomas de pedido del día, seleccione la opción "**Cerrar Caja del Punto de Venta**", ubicada en el menú desplegado por el icono "**Proceso**" de la barra de herramientas de la ventana "**Punto de Venta**".
 
     |Opción Cerrar Caja del Punto de Venta|
 
