@@ -1,14 +1,14 @@
-.. |Menú de ADempiere| image:: resource/summary-daily-billing-menu.png
-.. |Ventana Facturación Diaria Resumida| image:: resource/summary-daily-billing-window.png
-.. |Campo Fecha de Facturación de la Ventana Facturación Diaria Resumida| image:: resource/billing-date-field-in-the-summarized-daily-billing-window.png
-.. |Campo Estado del Documento de la Ventana Facturación Diaria Resumida| image:: resource/document-status-field-in-the-summarized-daily-billing-window.png
-.. |Campo Transacción de Ventas de la Ventana Facturación Diaria Resumida| image:: resource/sales-transaction-field-of-the-summarized-daily-billing-window.png
-.. |Campo Documento Fiscal de la Ventana Facturación Diaria Resumida| image:: resource/tax-document-field-of-the-summarized-daily-billing-window.png
-.. |Campo Secuencia del Documento de la Ventana Facturación Diaria Resumida| image:: resource/document-sequence-field-of-the-summarized-daily-billing-window.png
-.. |Campo Secuencia de Nro de Control de la Ventana Facturación Diaria Resumida| image:: resource/control-number-sequence-field-of-the-summarized-daily-billing-window.png
-.. |Campo Tipo de Documento Base de la Ventana Facturación Diaria Resumida| image:: resource/base-document-type-field-of-the-summarized-daily-billing-window.png
-.. |Opciòn OK de la Ventana Facturación Diaria Resumida| image:: resource/ok-option-in-the-summary-daily-billing-window.png
-.. |Reporte Facturación Diaria Resumida| image:: resource/summary-daily-billing-report.png
+.. |Menú de ADempiere| image:: resources/summary-daily-billing-menu.png
+.. |Ventana Facturación Diaria Resumida| image:: resources/summary-daily-billing-window.png
+.. |Campo Fecha de Facturación de la Ventana Facturación Diaria Resumida| image:: resources/billing-date-field-in-the-summarized-daily-billing-window.png
+.. |Campo Estado del Documento de la Ventana Facturación Diaria Resumida| image:: resources/document-status-field-in-the-summarized-daily-billing-window.png
+.. |Campo Transacción de Ventas de la Ventana Facturación Diaria Resumida| image:: resources/sales-transaction-field-of-the-summarized-daily-billing-window.png
+.. |Campo Documento Fiscal de la Ventana Facturación Diaria Resumida| image:: resources/tax-document-field-of-the-summarized-daily-billing-window.png
+.. |Campo Secuencia del Documento de la Ventana Facturación Diaria Resumida| image:: resources/document-sequence-field-of-the-summarized-daily-billing-window.png
+.. |Campo Secuencia de Nro de Control de la Ventana Facturación Diaria Resumida| image:: resources/control-number-sequence-field-of-the-summarized-daily-billing-window.png
+.. |Campo Tipo de Documento Base de la Ventana Facturación Diaria Resumida| image:: resources/base-document-type-field-of-the-summarized-daily-billing-window.png
+.. |Opciòn OK de la Ventana Facturación Diaria Resumida| image:: resources/ok-option-in-the-summary-daily-billing-window.png
+.. |Reporte Facturación Diaria Resumida| image:: resources/summary-daily-billing-report.png
 
 .. _documento/facturación-diaria-resumida:
 
