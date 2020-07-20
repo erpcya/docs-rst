@@ -8,23 +8,11 @@
 .. |Comprobante de Relación de Pago 1| image:: resources/comprobante1.png
 .. |Menú de ADempiere 2| image:: resources/menu-pago.png
 .. |Pago Generado| image:: resources/pago-generado.png
-.. |Ventana Imprimir Exportar| image:: resources/
-.. |Campo Selección de Pago| image:: resources/
-.. |Búsqueda Selección de Pago Directa| image:: resources/
-.. |Campo N° de documento de ventana de búsqueda “Selección de Pago”| image:: resources/
-.. |Campo Nombre de ventana de búsqueda “Selección de Pago”| image:: resources/
-.. |Tildar selección de pago| image:: resources/
-.. |Botón Ok| image:: resources/
-.. |Campos Cargados Desde la Selección de Pago| 
-
-
 
 .. _documento/Imprimir-Exportar:
 
 **Registro de Imprimir / Exportar Pagos**
 =========================================
-
-Para poder generar los pagos de los documentos asociados a una selección de pago, se deben realizar los siguientes pasos:
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione ventana "**Imprimir / Exportar Pagos**".
 
@@ -32,75 +20,29 @@ Para poder generar los pagos de los documentos asociados a una selección de pag
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Imprimir / Exportar Pagos**" el cual cuenta con los siguientes campos:
+    #. Podrá visualizar la ventana "**Imprimir / Exportar Pagos**" y proceder al llenado de los campos correspondientes.
 
-    |Ventana Imprimir Exportar|
+        |Ventana Imprimir Exportar|
 
-    Imagen 2. Ventana Imprimir / Exportar Pagos
+        Imagen 2. Ventana Imprimir / Exportar Pagos
 
-#. Campo **”Selección de Pago”**,este es un campo tipo búsqueda el cual es utilizado para ubicar las selección de pagos de cuentas por pagar, el cual contiene los documentos los cuales se les generarán los pagos.
+    #. Seleccione el número del documento de la selección de pago realizada anteriormente, con ayuda del identificador del campo "**Selección de Pago**".
 
-    |Campo Selección de Pago|
+        |Identificador del Campo Selección de Pago|
 
-    Imagen 3. Campo Selección de Pago
+        Imagen 3. Identificador del Campo Selección de Pago
 
-#. Para ubicar la selección de pago está se puede realizar de dos maneras:
+        #. Podrá visualizar la ventana del identificador, en la cual debe seleccionar la selección de pago y la opción "**OK**" para cargar los datos de la selección de pago a la ventana "**Imprimir / Exportar Pagos**".
 
-    #. La primera opción es colocar directamente dentro del campo **”Selección de Pago”** el número de documento de la **”Selección de Pagos de Cuentas por Pagar”**, al realizar dicho procedimiento en  ADempiere traerá automáticamente la selección de pago.
+            |Seleccionar la Selección de Pago y Opción OK|
 
-        |Búsqueda Selección de Pago Directa|
+            Imagen 4. Campo Selección de Pago
 
-        Imagen 4. Búsqueda Selección de Pago Directa
-
-	#. La segunda opción es tildar el botón de búsqueda que se encuentra al finalizar el campo **”Selección de Pago”** el cual tiene un ícono de una flecha hacia abajo, al tildar está opción se desplegará una ventana de búsqueda inteligente el cual posee los siguientes campos de búsqueda, los cuales pueden ser utilizados para ubicar la selección de pagos de cuentas por pagar.
-
-	    #. Campo **”N° de Documento”** en este campo se puede colocar el número de documento de la selección de pago.
-
-            |Campo N° de documento de ventana de búsqueda “Selección de Pago”|
-
-            Imagen 5. Campo N° de documento de ventana de búsqueda “Selección de Pago”
-
-        .. note::
-
-            Es importante recordar que ADempiere cuenta con un comodín de búsqueda el cual es signo porcentual “**(%)**” el cual puede ser utilizado dentro de un campo de búsqueda colocando un valor de búsqueda con el signo del porcentaje estando al inicio y final de la palabra o valor que se desea buscar ejemplo: %77% .
-  
-            Esto permite realizar búsquedas más extensa del valor que se esté colocando, es decir sí en el campo “**N° de Documento**” es colocado %77% ADempiere ubicará todas las selecciones de pagos que contengan ese valor en el número de documento, ya sea que se encuentre al iniciar , al final o en la parte central.
-
-        #. Campo **”Nombre”** 
-
-            |Campo Nombre de ventana de búsqueda “Selección de Pago”|
-
-            Imagen 6. Campo Nombre de ventana de búsqueda “Selección de Pago”
-
-    #. Dependiendo de la opción de búsqueda que se utilice, en la parte central de esta ventana se mostrará la o las selecciones de pagos que ubique ADempiere, tilde la selección de pago con la que desea trabajar.
-
-        |Tildar selección de pago|
-
-        Imagen 7. Tildar selección de pago
-
-    #.Al tildar la selección de pago, presione el botón **“Ok”** de la ventana de búsqueda, al tildar el botón ADempiere lo llevará nuevamente a la ventana **”Imprimir/Exportar Pagos”**
-
-        |Botón Ok |
-
-        Imagen 8. Botón Ok
-
-    #. Podrá Observar que el campo  **”Selección de Pago”** se encuentra el número de documento de la selección de pago de cuentas por pagar.
+    #. Podrá visualizar ventana "**Imprimir / Exportar Pagos**" con los registros cargados desde el identificador del campo "**Selección de Pago**".
 
         |Campos Cargados Desde la Selección de Pago|
 
-        Imagen 9. Ventana de Registro guardado
-
-#. Campo **”Cuenta Bancaria”**
-
-#. Campo **”Regla de Pago ”**
-
-#. Campo **”Documento No.”**
-
-#. Campo **”Saldo Actual”**
-
-#. Campo **”Moneda”**
-
-#. Campo **”Número de Pagos”**
+        Imagen 5. Ventana de Registro guardado
 
     #. Seleccione la opción "**Imprimir Registros**", para imprimir el registro del pago realizado a la factura desde la selección de pago.
 
