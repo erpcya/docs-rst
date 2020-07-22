@@ -4,7 +4,7 @@
 **Porción Mensual Prestaciones Sociales**
 =========================================
 
-El Reporte Porción Mensual de Prestaciones Sociales lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de prestaciones sociales, en él usted podrá visualizar la porción de garantía de prestaciones y la porción de intereses de prestaciones de garantía que fueron calculadas a cada uno de los empleado durante la nómina de prestaciones sociales procesada. Un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
+El Reporte Porción Mensual de Prestaciones Sociales lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de prestaciones sociales, en él usted podrá visualizar la porción de garantía de prestaciones y la porción de intereses de prestaciones de garantía que fueron calculadas a cada uno de los empleados. Un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
 
 Los conceptos configurados para este concepto son los siguientes:
 
@@ -22,7 +22,7 @@ Los conceptos configurados para este concepto son los siguientes:
 
 Para este reporte están configurados 2 tipos de plantillas
 
-#. Resumen de Pago: Seleccione esta plantilla de reporte porción mensual pagos especiales si desea conocer de manera detallada la porción calculada al empleado durante la nómina en ejecución o durante el periodo que usted desee visualizar, esta plantilla le ayudará al jefe de nómina a tener los montos totales de dichos conceptos, asi mismo presentará de manera resumida un cuadro en donde se evidencia lo obtenido por cada empleado. 
+#. Resumen de Pago: Seleccione esta plantilla de reporte porción mensual de prestaciones sociales si desea conocer de manera detallada la porción calculada al empleado durante la nómina en ejecución o durante el periodo que usted desee visualizar, esta plantilla le ayudará al jefe de nómina a tener los montos totales de dichos conceptos, asi mismo presentará de manera resumida un cuadro en donde se evidencia lo obtenido por cada empleado. 
 
    Los campos que podrá visualizar en este reporte son:
 
@@ -34,7 +34,7 @@ Para este reporte están configurados 2 tipos de plantillas
    +-----------------------------------------------+-----------------------------------------------+
    |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
    |                                               | procesada, para este caso será nómina de      |
-   |                                               | vacaciones                                    |
+   |                                               | prestaciones sociales                         |
    +-----------------------------------------------+-----------------------------------------------+
    |  Trabajador                                   | Identifica el nombre de cada uno de los       |
    |                                               | empleados                                     |
@@ -50,7 +50,7 @@ Para este reporte están configurados 2 tipos de plantillas
    +-----------------------------------------------+-----------------------------------------------+
    |  Porción Mensual Intereses Prestaciones       | Corresponde al monto obtenidos por            |
    |  de garantía                                  | concepto de la porción intereses de           |
-   |                                               | prestaciones de garantía
+   |                                               | prestaciones de garantía                      |
    +-----------------------------------------------+-----------------------------------------------+
    |  Total                                        | Corresponde al monto total obtenido por       |
    |                                               | concepto                                      |
@@ -58,9 +58,9 @@ Para este reporte están configurados 2 tipos de plantillas
    
    En el siguiente ejemplo presentado se evidencia una nómina prestaciones sociales procesada a 2 empleados y en ella se evidencian los conceptos de prestaciones de garantía e intereses de prestaciones de garantía del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
-   |Detalle de Pago 1|
+   |Detalle de Pago|
 
-   Imagen 1. Resumen de Pago. Misma nómina de Pagos Especiales con diferentes empleados.
+   Imagen 1. Resumen de Pago. Misma nómina de Prestaciones Sociales con diferentes empleados.
 
 #. Resumen de Pago Mensual:  Seleccione esta plantilla de reporte de poción mensual de prestaciones sociales para conocer de manera mensual el valor de los conceptos que se procesaron anteriormente. Esta plantilla presentará por cada uno de los concepto un monto total mensual por cada empleado:
 
@@ -71,7 +71,7 @@ Para este reporte están configurados 2 tipos de plantillas
    +===============================================+===============================================+
    |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
    |                                               | procesada, para este caso nómina de           |
-   |                                               | vacaciones                                    |
+   |                                               | prestacioes sociales                          |
    +-----------------------------------------------+-----------------------------------------------+
    |  Trabajador                                   | Identifica el nombre de cada uno de los       |
    |                                               | empleados                                     |
@@ -90,9 +90,9 @@ Para este reporte están configurados 2 tipos de plantillas
    |                                               | concepto                                      |
    +-----------------------------------------------+-----------------------------------------------+
 
-En el siguiente ejemplo presentado se evidencia una nómina de prestaciones sociales  procesada a 2 empleados y en ella se evidencian el valor correspondiente por cada concepto de nómina configurada, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de porción mensual de prestaciones sociales. 
+   En el siguiente ejemplo presentado se evidencia una nómina de prestaciones sociales  procesada a 2 empleados y en ella se evidencian el valor correspondiente por cada concepto de nómina configurada, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de porción mensual de prestaciones sociales. 
    
-|Resumen de Pago 1|
+   |Resumen de Pago|
 
-Imagen 2. Resumen de Pago. Misma nómina con diferentes empleados.
+   Imagen 2. Resumen de Pago. Misma nómina con diferentes empleados.
 
