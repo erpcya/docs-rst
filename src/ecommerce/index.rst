@@ -13,4 +13,6 @@ En `ERPyA`_, actualmente nos encontramos implementando una herramienta para que 
     :maxdepth: 2
 
     default-theme
+    images-default-theme
     custom-theme
+    images-custom-theme

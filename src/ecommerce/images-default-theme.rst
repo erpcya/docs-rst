@@ -17,136 +17,60 @@
    :width: 6.5in
    :height: 1.34722in
 
-.. _documento/tema-por-defecto:
+.. _documento/imagenes-tema-por-defecto:
 
-**Tema por defecto**
-====================
+**Información de imágenes del tema por defecto**
+================================================
 
 |image0|
 
-+-----------------------------------+----------------------------------------------+
-| **Número**                        | **Archivo de configuración**                 |
-+===================================+==============================================+
-| 1                                 | /theme/resource/main-image.json              |
-|                                   |                                              |
-|                                   | -  Título                                    |
-|                                   | -  Subtítulo                                 |
-|                                   | -  Imagen con resolución de 2000x838 px      |
-|                                   |                                              |
-|                                   | La ubicación de la imagen es:                |
-|                                   | /theme/assets/full_width_banner.jpg          |
-+-----------------------------------+----------------------------------------------+
-| 2                                 | /theme/assets/logo.png                       |
-+-----------------------------------+----------------------------------------------+
-| 3                                 | (carpetaPrincipal)/config/local.json         |
-+-----------------------------------+----------------------------------------------+
++------------+--------------------------------------------------------------------+
+| **Número** | **Descripción**                                                    |
++============+====================================================================+
+|1           |Es la imagen principal de la aplicación la cual puede ser una imagen|
+|            |estática o un conjunto de imágenes que pasarán una a una como una   |
+|            |presentación de diapositivas.                                       |
+|            |                                                                    |
+|            |Ubicación de la imagen:  /theme/assets/full_width_banner.jpg        |
++------------+--------------------------------------------------------------------+
+|2           |Es el logo que representa a la compañía.                            |
+|            |                                                                    |
+|            |Ubicación de la imagen: /theme/assets/logo.png                      |
++------------+--------------------------------------------------------------------+
+|3           |Título de la página, acompañado del nombre de la compañía           |
++------------+--------------------------------------------------------------------+
 
 |image1|
 
 +------------+----------------------------------------------------------------+
-| **Número** | **Archivo de configuración**                                   |
+| **Número** | **Descripción**                                                |
 +============+================================================================+
-| 1          | /theme/resource/promoted_offers.json                           |
+| 1          |Sección de promociones y/u ofertas.                             |
 |            |                                                                |
-|            | -  Título                                                      |
-|            | -  Subtítulo                                                   |
-|            | -  Imagen con resolución de 600 x 800 px                       |
-|            | -  Enlace a donde dirige                                       |
+|            |Ubicación de la imágenes:                                       |
 |            |                                                                |
-|            | La ubicación de la imagen es: /theme/assets/ban1.jpg           |
+|            |  - /theme/assets/ban1.jpg                                      |
+|            |  - /theme/assets/ban2.jpg                                      |
+|            |  - /theme/assets/ban3.jpg                                      |
 +------------+----------------------------------------------------------------+
-| 2          | /theme/resource/promoted_offers.json                           |
-|            |                                                                |
-|            | -  Título                                                      |
-|            | -  Subtítulo                                                   |
-|            | -  Imagen con resolución de 600 x 400 px                       |
-|            | -  Enlace a donde dirige                                       |
-|            |                                                                |
-|            | La ubicación de la imagen es: /theme/assets/ban2.jpg           |
-+------------+----------------------------------------------------------------+
-| 3          | /theme/resource/promoted_offers.json                           |
-|            |                                                                |
-|            | -  Título                                                      |
-|            | -  Subtítulo                                                   |
-|            | -  Imagen con resolución 600 x 400 px                          |
-|            | -  Enlace a donde dirige                                       |
-|            |                                                                |
-|            | La ubicación de la imagen es: /theme/assets/ban3.jpg           |
-+------------+----------------------------------------------------------------+
-
-|image2|
-
-+-----------------------------------+-----------------------------------+
-| **Número**                        | **Archivo de configuración**      |
-+===================================+===================================+
-| 1                                 | Esta sección se carga             |
-|                                   | dinámicamente del gestor de       |
-|                                   | tienda (Magento) y muestra los 8  |
-|                                   | productos nuevos según la         |
-|                                   | información del campo “Set        |
-|                                   | Product as New From To”           |
-|                                   | suministrada al momento de        |
-|                                   | registrar el producto.            |
-+-----------------------------------+-----------------------------------+
 
 |image3|
 
-+-----------------------------------+--------------------------------------------------------------+
-| **Número**                        | **Archivo de configuración**                                 |
-+===================================+==============================================================+
-| 1                                 | Estas imágenes se cargan estáticamente desde el archivo      |
-|                                   | /theme/components/theme/blocks/TileLinks/TileLinks           |
-|                                   |                                                              |
-|                                   | La ubicación de las imágenes es:                             |
-|                                   |                                                              |
-|                                   | -  /theme/assets/ig/ig01.png                                 |
-|                                   | -  /theme/assets/ig/ig02.png                                 |
-|                                   | -  /theme/assets/ig/ig03.png                                 |
-|                                   | -  /theme/assets/ig/ig04.png                                 |
-|                                   | -  /theme/assets/ig/ig05.png                                 |
-|                                   | -  /theme/assets/ig/ig06.png                                 |
-|                                   |                                                              |
-|                                   | Todas con resolución 372 x 372 px                            |
-+-----------------------------------+--------------------------------------------------------------+
-
-|image4|
-
-+-----------------------------------+------------------------------------------+
-| **Número**                        | **Archivo de configuración**             |
-+===================================+==========================================+
-| 1                                 | Este texto se cambia en los              |
-|                                   | archivos de traducción ubicado en        |
-|                                   | /theme/resource/i18n/en-US.csv           |
-|                                   |                                          |
-|                                   | **NOTA:** El nombre del archivo          |
-|                                   | puede variar según el idioma             |
-|                                   | configurado                              |
-+-----------------------------------+------------------------------------------+
-| 2                                 | El texto dentro del botón se             |
-|                                   | configura en el archivo de               |
-|                                   | traducción.                              |
-|                                   |                                          |
-|                                   | /theme/resource/i18n/en-US.csv           |
-|                                   |                                          |
-|                                   | **NOTA:** El nombre del archivo          |
-|                                   | puede variar según el idioma             |
-|                                   | configurado                              |
-+-----------------------------------+------------------------------------------+
-
-|image5|
-
-+-----------------------------------+-----------------------------------------------------------+
-| **Número**                        | **Archivo de configuración**                              |
-+===================================+===========================================================+
-| 1                                 | La información de estas páginas                           |
-|                                   | se obtienen desde el gestor de la                         |
-|                                   | tienda (Magento)                                          |
-+-----------------------------------+-----------------------------------------------------------+
-| 2                                 | Los enlaces de redes sociales se                          |
-|                                   | configuran directamente en el                             |
-|                                   | código fuente en el archivo                               |
-|                                   | /theme/components/core/blocks/Footer/Footer.vue           |
-+-----------------------------------+-----------------------------------------------------------+
++------------+----------------------------------------------------------------+
+| **Número** | **Descripción**                                                |
++============+================================================================+
+| 1          |Esta es una sección de galería de imágenes en la que se pueden  |
+|            |mostrar algunos productos destacados de la compañía             |
+|            |                                                                |
+|            |La ubicación de las imágenes es:                                |
+|            |                                                                |
+|            | -  /theme/assets/ig/ig01.png                                   |
+|            | -  /theme/assets/ig/ig02.png                                   |
+|            | -  /theme/assets/ig/ig03.png                                   |
+|            | -  /theme/assets/ig/ig04.png                                   |
+|            | -  /theme/assets/ig/ig05.png                                   |
+|            | -  /theme/assets/ig/ig06.png                                   |
++------------+----------------------------------------------------------------+
 
 **Listado de imágenes y resolución**
 ------------------------------------

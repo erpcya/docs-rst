@@ -130,7 +130,7 @@
 | **Número**                        | **Archivo de configuración**      |
 +===================================+===================================+
 | 1                                 | Esta sección se carga             |
-|                                   | dinamicamente del gestor de       |
+|                                   | dinámicamente del gestor de       |
 |                                   | tienda (Magento) muestra los 8    |
 |                                   | productos nuevos según la         |
 |                                   | información del campo “ Set       |
@@ -187,7 +187,7 @@
 ------------------------------------
 .. note::
 
-        A continuación le dejamos un :download:`ejemplo <resources/assets-capybara.zip>` de la estructura de las imagenes.
+        A continuación le dejamos un :download:`ejemplo <resources/assets-capybara.zip>` de la estructura de las imágenes.
 
 +----------------------------------------+--------------------------------------------------+-----------------------+
 | **Nombre del archivo**                 | **Ruta del archivo**                             | **Resolución**        |
