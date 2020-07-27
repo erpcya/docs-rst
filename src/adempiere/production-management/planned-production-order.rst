@@ -19,8 +19,8 @@
 .. |Opción Completar de la Pestaña Lote de Producción de la Ventana Órdenes de Producción Planeadas| image:: resources/complete-option-from-the-production-batch-tab-of-the-planned-production-orders-window.png
 .. |Acción Completar y Opción OK| image:: resources/action-complete-and-option-ok.png
 .. |Campo Cantidad Ordenada Luego de Completar el Documento| image:: resources/field-ordered-quantity-set-to-complete-the-document.png
-.. |Pestaña Producción de la Ventana Órdenes de Producción Planeadas| image:: resources/
-.. |Pestaña Línea de Producción de la Ventana Órdenes de Producción Planeadas| image:: resources/
+.. |Pestaña Producción de la Ventana Órdenes de Producción Planeadas| image:: resources/production-tab-of-planned-production-orders-window.png
+.. |Pestaña Línea de Producción de la Ventana Órdenes de Producción Planeadas| image:: resources/production-line-tab-of-planned-production-orders-window.png
 .. _documento/orden-de-producción-planeada:
 
 **Orden de Producción Planeada**

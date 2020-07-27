@@ -5,7 +5,6 @@
 .. |Asiento Contable de la Ventana Inventario Uso Interno| image:: resources/accounting-window-entry-inventory-internal-use.png
 .. |Opción Contabilizado de la Ventana Movimiento de Inventario| image:: resources/inventory-movement-window-posted-option.png
 .. |Asiento Contable de la Ventana Movimiento de Inventario| image:: resources/inventory-movement-window-accounting-entry.png
-
 .. |Opción Contabilizado de la Ventana Producción| image:: resources/production-window-posted-option.png
 .. |Asiento Contable de la Ventana Producción| image:: resources/production-window-accounting-entry.png
 
