@@ -14,6 +14,7 @@ ADempiere por su condición de ERP ofrece todo lo que una compañía requiere en
 
     basic-steps/index
     master/index
+    quality-management
     material-management/index
     quote-to-invoice/index
     pos-management/index

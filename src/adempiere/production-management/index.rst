@@ -10,4 +10,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     :maxdepth: 2
 
     planned-production-order
-    production/index
+    production
