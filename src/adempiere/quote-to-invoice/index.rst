@@ -10,6 +10,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     :maxdepth: 2
 
     commission/index
+    sales-region/index
     sales-order/index
     invoice-customer/index
     generate-invoice-from-departure-order
