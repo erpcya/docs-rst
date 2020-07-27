@@ -10,15 +10,12 @@
 .. |Selección de Líneas de la Orden de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/selection-of-order-lines-in-the-window-generate-invoice-from-order-lines.png
 .. |Campo Fecha de Facturación de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/billing-date-field-of-the-generate-invoice-from-order-lines-window.png
 .. |Checklist Consolidado en un Documento de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/consolidated-checklist-in-a-document-of-the-window-generate-invoice-from-order-lines.png
-
-
-
-
 .. |Campo Organización de la Trans de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/organization-field-of-the-window-trans-generate-invoice-from-order-lines.png
 .. |Campo Acción en el Documento de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/action-field-in-the-window-document-generate-invoice-from-order-lines.png
 .. |Campo Tipo de Documento Destino de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/destination-document-type-field-of-the-generate-invoice-window-from-order-lines.png
 .. |Checklist Agregar Línea de Referencia en Factura de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/checklist-add-reference-line-in-invoice-of-the-window-generate-invoice-from-order-lines.png
 .. |Opción OK de la Ventana Generar Factura desde Líneas de la Orden| image:: resources/ok-option-of-the-window-generate-invoice-from-order-lines.png
+.. |Resultado del Proceso| image:: resources/result-of-the-process.png
 .. |Consulta de Facturas Generadas| image:: resources/query-invoices-generated-from-the-smart-search-window-generate-invoice-from-order-lines.png
 .. |Imprimir Facturas Generadas| image:: resources/print-invoices-generated-from-the-smart-search-window-generate-invoice-from-order-lines.png
 .. _documento/generar-factura-desde-líneas-de-la-orden:
@@ -26,13 +23,13 @@
 **Generar Factura desde Líneas de la Orden**
 ============================================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Generar Factura desde Líneas de la Orden**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Genera Factura desde Líneas de la Orden**".
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Generar Factura desde Líneas de la Orden**" y proceder al llenado de los campos correspondientes para filtrar la búsqueda.
+#. Podrá visualizar la ventana "**Genera Factura desde Líneas de la Orden**" y proceder al llenado de los campos correspondientes para filtrar la búsqueda.
 
     |Ventana Generar Factura desde Líneas de la Orden|
 
@@ -126,6 +123,12 @@
 
         Imagen 16. Opción OK de la Ventana Generar Factura desde Líneas de la Orden
 
+#. Podrá visualizar en la parte inferior de la ventana "**Genera Factura desde Líneas de la Orden**", el resultado del proceso realizado anteriormente.
+
+    |Resultado del Proceso|
+
+    Imagen 17. Resultado del Proceso Realizado
+
 **Consultar Facturas Generadas**
 --------------------------------
 
@@ -133,7 +136,7 @@
 
     |Consulta de Facturas Generadas|
 
-    Imagen 17. Consulta de Facturas Generadas
+    Imagen 18. Consulta de Facturas Generadas
 
 **Imprimir Facturas Generadas**
 -------------------------------
@@ -142,4 +145,4 @@
 
     |Imprimir Facturas Generadas|
 
-    Imagen 18. Imprimir Facturas Generadas
+    Imagen 19. Imprimir Facturas Generadas
