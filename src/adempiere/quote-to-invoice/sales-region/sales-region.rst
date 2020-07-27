@@ -15,8 +15,8 @@
 
 .. _documento/región-de-ventas:
 
-**Región de Ventas**
-====================
+**Registro de Región de Ventas**
+================================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Reglas de Ventas y Mercadotecnia**", por último seleccione la ventana "**Región de Ventas**".
 
