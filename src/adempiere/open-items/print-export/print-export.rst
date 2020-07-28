@@ -1,30 +1,13 @@
-.. |Menú de ADempiere| image:: resources/menu-print-export.png
-.. |Ventana Imprimir Exportar| image:: resources/window-print-export.png
-.. |Identificador del Campo Selección de Pago| image:: resources/payment-selection-field-identifier.png
-.. |Búsqueda Selección de Pago Directa| image:: resources/search-direct-payment-selection.png
-.. |Campo Nro de documento de ventana de búsqueda Selección de Pago| image:: resources/document-number-field-of-search-window-payment-selection.png
-.. |Campo Nombre de ventana de búsqueda Selección de Pago| image:: resources/payment-selection-search-window-name-field.png
-.. |Tildar selección de pago| image:: resources/tick-payment-selection.png
-.. |Botón Ok| image:: resources/ok-button.png
-.. |Campos Cargados Desde la Selección de Pago| image:: resources/fields-loaded-from-the-payment-selection.png
-.. |Campo Cuenta Bancaria| image:: resources/bank-account-field.png
-.. |Campo Regla de Pago| image:: resources/payment-rule-field.png
-.. |Campo Documento Nro| image:: resources/document-field-number.png
-.. |Campo Saldo Actual| image:: resources/opening-balance-field.png
-.. |Campo Moneda| image:: resources/currency-field.png
-.. |Campo Número de Pagos| image:: resources/field-number-of-payments.png
-.. |Opciones Imprimir Exportar Pagos| image:: resources/options-print-export-payments.png
-.. |Opción Exportar Registros| image:: resources/option-to-export-records.png
-.. |Ventana para Ubicar el Txt| image:: resources/window-to-locate-the-txt.png
-.. |Mensaje Número de Registro de Líneas Guardadas| image:: resources/message-record-number-of-saved-lines.png
-.. |Mensaje Impresión Correcta| image:: resources/correct-print-message.png
-.. |Opción Encontrar Registro| image:: resources/find-record-option.png
-.. |Ventana de búsqueda Encontrar Registros| image:: resources/search-window-find-records.png
-.. |Ventana Selección de Pago| image:: resources/payment-selection-window.png
-.. |Pestaña Pago Generado| image:: resources/payment-tab-generated.png
-.. |Campo Pago de la Pestaña Pago Generado| image:: resources/payment-field-of-the-generated-payment-tab.png
-.. |Opción acercar del campo Pago| image:: resources/option-to-zoom-in-the-payment-field.png
-.. |Ventana Pago Cobro desde el acercar| image:: resources/window-payment-collection-from-the-zoom-in.png
+.. |Menú de ADempiere| image:: resources/menu3.png
+.. |Ventana Imprimir Exportar| image:: resources/vent-imp-exp1.png
+.. |Identificador del Campo Selección de Pago| image:: resources/ident-selec-pago.png
+.. |Seleccionar la Selección de Pago y Opción OK| image:: resources/selec-pago-ok2.png
+.. |Campos Cargados Desde la Selección de Pago| image:: resources/camp-cargados.png
+.. |Opción Imprimir| image:: resources/imprimir.png
+.. |Mensaje de Confirmación| image:: resources/msj-confir.png
+.. |Comprobante de Relación de Pago 1| image:: resources/comprobante1.png
+.. |Menú de ADempiere 2| image:: resources/menu-pago.png
+.. |Pago Generado| image:: resources/pago-generado.png
 
 .. _documento/Imprimir-Exportar:
 
