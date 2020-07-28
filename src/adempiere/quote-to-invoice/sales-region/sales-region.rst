@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/sales-region-menu.png
 .. |Ventana Región de Ventas| image:: resources/sales-region-window.png
 .. |Icono Registro Nuevo de la Ventana Región de Ventas| image:: resources/new-record-icon-in-the-sales-region-window.png
