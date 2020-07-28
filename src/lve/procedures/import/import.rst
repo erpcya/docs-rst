@@ -1,9 +1,7 @@
 .. _ERPyA: http://erpya.com
 .. |Menú de ADempiere 1| image:: resources/menu1.png 
 .. |Orden de Compra sin Completar| image:: resources/orden1.png 
-.. |Menú de ADempiere 2| image:: resources/menu2.png 
-.. |Icono Registro Nuevo| image:: resources/nuevo1.png
-.. |Campo Nombre| image:: resources/nombre1.png
+.. |Campo Nombre| image:: resources/conversion-type-window-name-field.png
 .. |Menú de ADempiere 3| image:: resources/menu3.png
 .. |Ventana Moneda| image:: resources/vent1.png
 .. |Pestaña Tasas de Cambio| image:: resources/pest1.png
@@ -68,34 +66,15 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
     El documento debe quedar en estado borrador.
 
 
-.. _paso/crear-conversión:
-
 **Crear Tipo de Conversión**
 ****************************
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Reglas Contables**", por último seleccione la ventana "**Tipo de Conversión**".
+#. Realice el procedimiento regular para crear el tipo de conversión necesaria, dicho procedimiento se encuentra explicado en el documento :ref:`paso/crear-conversión`, elaborado por `ERPyA`_.
 
-    |Menú de ADempiere 2|
+    |Campo Nombre|
 
-    Imagen 3: Menú de ADempiere
-
-    #. Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere.
-
-        |Icono Registro Nuevo|
-
-        Imagen 4. Icono Registro Nuevo
-
-    #. Introduzca en el campo "**Nombre**" el número de la orden de compra que da origen a la importación, seguido del símbolo "**_**" y el nombre del proveedor seleccionado en dicha orden.
-
-        |Campo Nombre|
-
-        Imagen 5. Campo Nombre
-
-.. note:: 
-
-    Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
-
-
+    Imagen 3. Tipo de Conversión
+    
 .. _paso/crear-tasa:
 
 **Crear Tasa de Conversión**
