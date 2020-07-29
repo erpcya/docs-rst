@@ -1,4 +1,7 @@
 .. _documento/utilidades:
+.. |Recibo de Nómina| image:: resources/reciboutilidades33.png
+.. |Detalle de Pago 1| image:: resources/detalleUtilidades33.png
+.. |Resumen de Pago 1| image:: resources/resumenutilidades33.png
 
 ===============
 **Utilidades**
@@ -123,6 +126,10 @@ Adicionalmente dentro de los conceptos encontrará datos como:
 
    En el ejemplo presentado se evidencia una nómina de utilidades procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
+   |Recibo de Nómina|
+   
+   Imagen 1. Recibo de Pago
+
 #. Detalle de Pago: Seleccione esta plantilla de reporte de nómina de utilidades si desea conocer de manera detallada todos los montos de nómina de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos totales de las nóminas procesadas a todos los empleados.
 
    Los campos podrá visualizar en este reporte son:
@@ -158,7 +165,7 @@ Adicionalmente dentro de los conceptos encontrará datos como:
    En el siguiente ejemplo presentado se evidencia una nómina de utilidades procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
    
    
-    |Detalle de Pago 1|
+   |Detalle de Pago 1|
 
    Imagen 2. Detalle de Pago. Misma nómina con diferentes empleados.
 
@@ -196,7 +203,7 @@ Adicionalmente dentro de los conceptos encontrará datos como:
 
   En el siguiente ejemplo presentado se evidencia una nómina de utilidades  procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente para el reporte de nómina de utilidades utilizando la plantilla de resumen de pagos
    
-|Resumen de Pago 1|
+   |Resumen de Pago 1|
 
    Imagen 3. Resumen de Pago. Misma nómina con diferentes empleados.
 
