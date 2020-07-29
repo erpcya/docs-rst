@@ -1,0 +1,4 @@
+.. _documento/rol:
+
+**Rol**
+=======
