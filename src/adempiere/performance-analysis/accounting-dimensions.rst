@@ -76,50 +76,50 @@ Finalmente, esta funcionalidad es implementada desde los reportes contables deta
 
     Imagen 4. Menú de ADempiere
 
-**Pestaña Dimensión Organización**
-==================================
+**Dimensión Organización**
+--------------------------
 
     |Pestaña Dimensión Organización|
 
     Imagen 5. Pestaña Dimensión Organización
 
-**Pestaña Dimensión Región de Ventas**
-======================================
+**Dimensión Región de Ventas**
+------------------------------
 
     |Pestaña Dimensión Región de Ventas|
 
     Imagen 6. Pestaña Dimensión Región de Ventas
 
-**Pestaña Dimensión Actividad**
-===============================
+**Dimensión Actividad**
+-----------------------
 
     |Pestaña Dimensión Actividad|
 
     Imagen 7. Pestaña Dimensión Actividad
 
-**Pestaña Dimensión Proyecto**
-==============================
+**Dimensión Proyecto**
+----------------------
 
     |Pestaña Dimensión Proyecto|
 
     Imagen 8. Pestaña Dimensión Proyecto
 
-**Pestaña Dimensión Socio del Negocio**
-=======================================
+**Dimensión Socio del Negocio**
+-------------------------------
 
     |Pestaña Dimensión Socio del Negocio|
 
     Imagen 9. Pestaña Dimensión Socio del Negocio
 
-**Pestaña Dimensión Producto**
-==============================
+**Dimensión Producto**
+----------------------
 
     |Pestaña Dimensión Producto|
 
     Imagen 10. Pestaña Dimensión Producto
 
-**Pestaña Dimensión Campaña**
-=============================
+**Dimensión Campaña**
+---------------------
 
     |Pestaña Dimensión Campaña|
 
