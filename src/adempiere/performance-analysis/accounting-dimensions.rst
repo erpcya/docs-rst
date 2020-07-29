@@ -13,8 +13,6 @@
 
 .. _documento/dimensiones-contable:
 
-
-=========================
 **Dimensiones Contables**
 =========================
 
