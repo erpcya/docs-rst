@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Pestaña Cliente| image:: resources/cliente.png
 .. |Checklist Cliente| image:: resources/check.png
 .. |Campo Copias del Documento| image:: resources/copias.png
@@ -84,9 +85,7 @@
 .. |Campo Acceso Total Socio del Negocio| image:: resources/acceso.png
 .. |Icono Guardar Cambios2| image:: resources/campos.png
 
-.. _ERPyA: http://erpya.com
 .. _documento/socio-cliente:
-
 
 **Registro de Cliente**
 =======================
@@ -388,6 +387,8 @@ En esta pestaña se registran los datos bancarios del socio del negocio cliente,
 
     Imagen 45. Campo Código Postal Verificado
 
+.. _documento/pestaña-localización-del-cliente:
+
 **Pestaña Localización**
 ************************
 
@@ -484,6 +485,10 @@ La localización de un socio del negocio cliente es muy importante por diferente
     |Campo Región de Ventas|
 
     Imagen 60. Campo Región de Ventas
+
+    .. note::
+
+        Para conocer más sobre las regiones de ventas que puede tener una compañía u organización, visite el documento :ref:`documento/región-de-ventas`, elaborado por `ERPyA`_.
 
 #. Introduzca en el campo "**Código SICA**", el código SICA del socio del negocio cliente.
 
