@@ -2,11 +2,17 @@
 .. |Ejemplo de Dimensión| image:: resources/previous-accounting-dimension.png
 .. |Dimensión Contable| image:: resources/Dimension-Accounting.png
 .. |Dimensión Socio de Negocio| image:: resources/current-accounting-dimension.png
+.. |Menú de ADempiere| image:: resources/accounting-dimensions-menu.png
+.. |Pestaña Dimensión Organización| image:: resources/accounting-dimensions-window.png
+.. |Pestaña Dimensión Región de Ventas| image:: resources/sales-region-dimension-tab.png
+.. |Pestaña Dimensión Actividad| image:: resources/activity-dimension-tab.png
+.. |Pestaña Dimensión Proyecto| image:: resources/project-dimension-tab.png
+.. |Pestaña Dimensión Socio del Negocio| image:: resources/business-partner-dimension-tab.png
+.. |Pestaña Dimensión Producto| image:: resources/product-dimension-tab.png
+.. |Pestaña Dimensión Campaña| image:: resources/campaign-dimension-tab.png
 
 .. _documento/dimensiones-contable:
 
-
-=========================
 **Dimensiones Contables**
 =========================
 
@@ -38,7 +44,6 @@ Las entidades con las que ADempiere permite dimensionar los diferentes hechos co
 
     #. **Socio de negocio**: Representa un sujeto jurídico o natural con el que la organización establece una alianza temporal o permanente, este puede ser un proveedor, cliente, accionista o empleado. Para profundizar más este tema vaya a el documento: :ref:`documento/socio-negocio`.
 
-
     #. **Producto**: Representa el resultado obtenido de una producción, que es utilizado durante la compra o la venta,  este puede ser servicio o artículo. Para profundizar más este tema vaya a el documento: :ref:`documento/producto`.
 
     #. **Región de Venta**: Representa una zona de venta o conjunto de clientes o prospectos que son asignados a un vendedor y con las que la empresa puede establecer un negocio. Para profundizar más este tema vaya a el documento: :ref:`documento/region-ventas`.
@@ -66,3 +71,56 @@ Las entidades con las que ADempiere permite dimensionar los diferentes hechos co
 Se puede decir entonces que una dimensión es el respaldo que da una entidad a un hecho contable, este sustituye la segmentación de cuentas contables mediante creación de cuentas detalles, en consecuencia, los asientos contables son generados a partir de las transacciones en las cuales intervienen las entidades consideradas dimensiones.
 
 Finalmente, esta funcionalidad es implementada desde los reportes contables detallados hasta los informes financieros, permitiendo esquematizar la información de forma segmentada por entidad.
+
+    |Menú de ADempiere|
+
+    Imagen 4. Menú de ADempiere
+
+**Pestaña Dimensión Organización**
+==================================
+
+    |Pestaña Dimensión Organización|
+
+    Imagen 5. Pestaña Dimensión Organización
+
+**Pestaña Dimensión Región de Ventas**
+======================================
+
+    |Pestaña Dimensión Región de Ventas|
+
+    Imagen 6. Pestaña Dimensión Región de Ventas
+
+**Pestaña Dimensión Actividad**
+===============================
+
+    |Pestaña Dimensión Actividad|
+
+    Imagen 7. Pestaña Dimensión Actividad
+
+**Pestaña Dimensión Proyecto**
+==============================
+
+    |Pestaña Dimensión Proyecto|
+
+    Imagen 8. Pestaña Dimensión Proyecto
+
+**Pestaña Dimensión Socio del Negocio**
+=======================================
+
+    |Pestaña Dimensión Socio del Negocio|
+
+    Imagen 9. Pestaña Dimensión Socio del Negocio
+
+**Pestaña Dimensión Producto**
+==============================
+
+    |Pestaña Dimensión Producto|
+
+    Imagen 10. Pestaña Dimensión Producto
+
+**Pestaña Dimensión Campaña**
+=============================
+
+    |Pestaña Dimensión Campaña|
+
+    Imagen 11. Pestaña Dimensión Campaña

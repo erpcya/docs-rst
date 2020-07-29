@@ -1,3 +1,6 @@
+.. |Detalle de Pago 1| image:: resources/detallepagosespeciales33.png
+.. |Resumen de Pago 1| image:: resources/resumenpagosespeciales33.png
+
 .. _documento/pagos-especiales:
 
 ====================

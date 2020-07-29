@@ -1,4 +1,7 @@
 .. _documento/vacaciones:
+.. |Recibo de Nómina| image:: resources/recibovacaciones33.png
+.. |Detalle de Pago 1| image:: resources/detallevacaciones33.png
+.. |Resumen de Pago 1| image:: resources/resumenvacaciones33.png
 
 ===============
 **Vacaciones**
@@ -142,11 +145,7 @@ Para este reporte están configurados 3 tipos de plantillas
     |                                               |  vacaciones otorgados al empleado             |
     +-----------------------------------------------+-----------------------------------------------+   
 
-    .. note::
-    
-        Si desea conocer cómo registrar la fecha de inicio de vacaciones puede seguir los pasos indicados en el documento :ref:`documento/novedades-de-nómina:` 
-
-   
+      
     Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fue impreso el recibo.
  
  
@@ -230,4 +229,4 @@ Para este reporte están configurados 3 tipos de plantillas
    
 |Resumen de Pago 1|
 
-   Imagen 4. Resumen de Pago. Misma nómina con diferentes empleados.
+Imagen 3. Resumen de Pago. Misma nómina con diferentes empleados.

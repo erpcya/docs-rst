@@ -22,4 +22,8 @@ Entre los Reportes de Nómina que se pueden encontrar dentro de ADempiere se enc
     payroll-process-report
     regular-payroll
     food-bond
+    specialpayments
+    holidays
     advance-holiday
+    utilities
+    
