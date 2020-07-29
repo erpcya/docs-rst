@@ -24,6 +24,7 @@ El propósito de `ERPyA`_ es apoyar a nuestros clientes, dar respuestas rápidas
     accounting-dimensions
     accounting-combination
     conversion-type
+    conversion-rate
     gl-distribution/index
     accounting-setup-master/index
     transaction-accounting/index
