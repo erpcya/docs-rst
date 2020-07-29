@@ -1,5 +1,5 @@
-.. |Adiestramiento Personal Existente| image:: resources/adiestramiento3.png
-.. |Dieta Diaria para Trabajadores| imgage:: resources/dietadiaria4.jpg
+.. |Adiestramiento de Personal Existente| image:: resources/adiestramiento3.png
+.. |Dieta Diaria para Trabajadores| image:: resources/dietadiaria4.jpg
 .. |Capacitación de Personal Nuevo Ingreso| image:: resources/adiestramiento6.jpg
 .. |Guardería Matrícula de Dependiente de Personal| image:: resources/guarderianueva2.jpg
 .. |HCM de Personal| image:: resources/hcm.png
@@ -24,8 +24,8 @@
 
 .. _documento/cargos:
 
-**Cargo**
-=========
+**Cargos**
+==========
 
 En ADempiere los tipos de cargos se encuentran conformados por diferentes cargos y su aplicación en documentos específicos generan ajustes de débito o crédito a los mismos.
 
