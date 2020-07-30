@@ -23,7 +23,7 @@
 .. |Servicio de Telefonía| image:: resources/telephone-service.jpg
 .. |Servicio de Televisora| image:: resources/television-service.jpg
 .. |Servicio de Vigilancia| image:: resources/surveillance-service.png
-.. |Antigüedad por Pagar| image:: resources/seniority-payable.jpeg
+.. |Antiguedad por Pagar| image:: resources/seniority-payable.jpg
 .. |Aporte INCES| image:: resources/inces.png
 .. |Aporte RPE| image:: resources/SSO.png
 .. |Aporte RPVH| image:: resources/banavih.jpg
@@ -748,7 +748,7 @@ Actualmente ADempiere utiliza catorce (14) diferentes cargos en el tipo de cargo
 
         Se refiere al pago que las empresas le realizan a sus trabajadores como beneficio por años de prestación de servicio ininterrumpidos cumplidos en la mismas.
 
-        |Antigüedad por Pagar|
+        |Antiguedad por Pagar|
 
         Imagen 26. Antigüedad por Pagar
 
