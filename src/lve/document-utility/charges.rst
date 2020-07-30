@@ -1,26 +1,84 @@
-.. |Adiestramiento de Personal Existente| image:: resources/adiestramiento3.png
-.. |Dieta Diaria para Trabajadores| image:: resources/dietadiaria4.jpg
-.. |Capacitación de Personal Nuevo Ingreso| image:: resources/adiestramiento6.jpg
-.. |Guardería Matrícula de Dependiente de Personal| image:: resources/guarderianueva2.jpg
-.. |HCM de Personal| image:: resources/hcm.png
-.. |Hospedaje de Personal| image:: resources/descarga.jpeg
-.. |Juguetes de Dependiente de Personal| image:: resources/juguetes.jpeg
-.. |Obsequios de Personal| image:: resources/regalos.jpg
-.. |Pack de Alimentos de Personal| image:: resources/pack.jpg
-.. |Recreación de Personal| image:: resources/recreacion.jpg
-.. |Servicio Funerario de Personal| image:: resources/funeraria.png
-.. |Taxi Extra Tiempos de Personal| image:: resources/transporte.jpg
-.. |Transporte de Personal| image:: resources/transporte.jpg
-.. |Uniforme de Personal| image:: resources/uniforme.jpg
-.. |Útiles Escolares de Dependientes de Personal| image:: resources/utiles.png
-.. |Viáticos de Personal| image:: resources/viaticos.png
-.. |Servicio de Agua| image:: resources/agua.jpg
-
-
-
-
-
-
+.. |Adiestramiento de Personal Existente| image:: resources/training-of-existing-personnel.png 
+.. |Dieta Diaria para Trabajadores| image:: resources/daily-diet-for-workers.jpg
+.. |Capacitación de Personal Nuevo Ingreso| image:: resources/new-staff-training.jpg
+.. |Guardería Matrícula de Dependiente de Personal| image:: resources/nursery-staff-clerk-enrollment.jpg
+.. |HCM de Personal| image:: resources/hcm-staff.png
+.. |Hospedaje de Personal| image:: resources/staff-accommodation.jpeg
+.. |Juguetes de Dependiente de Personal| image:: resources/staff-clerk-toys.jpeg
+.. |Obsequios de Personal| image:: resources/staff-gifts.jpg
+.. |Pack de Alimentos de Personal| image:: resources/personal-food-pack.jpg
+.. |Recreación de Personal| image:: resources/personal-recreation.jpg
+.. |Servicio Funerario de Personal| image:: resources/personal-funeral-service.png
+.. |Taxi Extra Tiempos de Personal| image:: resources/personal-transportation.jpg
+.. |Transporte de Personal| image:: resources/personal-transportation.jpg
+.. |Uniforme de Personal| image:: resources/staff-uniform.jpg
+.. |Útiles Escolares de Dependientes de Personal| image:: resources/school-supplies-from-staff-dependents.png 
+.. |Viáticos de Personal| image:: resources/per-diem.png
+.. |Servicio de Agua| image:: resources/water-service.jpg
+.. |Servicio de Agua Potable| image:: resources/drinking-water.png
+.. |Servicio de Aseo Urbano| image:: resources/urban-cleaning-service.jpg
+.. |Servicio de Internet| image:: resources/internet-service.jpg
+.. |Servicio de Limpieza y Mantenimiento| image:: resources/cleaning-and-maintenace-service.jpg
+.. |Servicio de Luz| image:: resources/light-service.jpg
+.. |Servicio de Telefonía| image:: resources/telephone-service.jpg
+.. |Servicio de Televisora| image:: resources/television-service.jpg
+.. |Servicio de Vigilancia| image:: resources/surveillance-service.png
+.. |Antigüedad por Pagar| image:: resources/seniority-payable.jpeg
+.. |Aporte INCES| image:: resources/inces.png
+.. |Aporte RPE| image:: resources/SSO.png
+.. |Aporte RPVH| image:: resources/banavih.jpg
+.. |Aporte SSO| image:: resources/SSO.png
+.. |Bono Alimentación| image:: resources/food-voucher.jpg
+.. |Retención INCES| image:: resources/inces.png
+.. |Retención ISLR| image:: resources/islr.png
+.. |Retención RPE| image:: resources/SSO.png
+.. |Retención RPVH| image:: resources/banavih.jpg
+.. |Retención SSO| image:: resources/SSO.png
+.. |Sueldos y Salarios por Pagar| image:: resources/wages-and-salaries-payable.png
+.. |Utilidades por Pagar| image:: resources/profits-payable.jpeg
+.. |Vacaciones por Pagar| image:: resources/vacation-payable.png
+.. |Marketin Redes Sociales| image:: resources/social-media-marketing.jpg
+.. |Publicidad en Revista Periódico| image:: resources/newspaper-magazine-advertising.png
+.. |Publicidad Radio| image:: resources/radio-advertising.jpeg
+.. |Publicidad Televisión| image:: resources/television-advertising.jpg
+.. |Publicidad en Vallas| image:: resources/billboard-advertising.png
+.. |Artículos de Limpieza| image:: resources/cleaning-articles.jpg
+.. |Combustible y Lubricantes| image:: resources/fuel-and-lubricants.png
+.. |Donaciones| image:: resources/donations.png
+.. |Encomienda| image:: resources/commission.png
+.. |Equipos Tecnológicos| image:: resources/technological-equipments.jpg
+.. |Honorarios Profesionales| image:: resources/professional-fees.png
+.. |Impuestos, Tasas y Contribuciones| image:: resources/taxes-fees-and-contributions.png
+.. |Insumos de Oficina| image:: resources/office-supplies.jpg
+.. |Intereses Moratorios de Compra| image:: resources/late-purchase-interest.jpeg
+.. |Mantenimiento de Equipos| image:: resources/equipment-maintenance.jpg
+.. |Periódicos, Libros y Revistas| image:: resources/newspapers-books-and-magazines.png
+.. |Póliza de Seguro| image:: resources/insurance-policy.jpeg
+.. |Reembolso de Caja Chica| image:: resources/petty-cash-refund.jpg
+.. |Reparación de Edificación e Instalaciones| image:: resources/building-and-facilities-repair.png
+.. |Reparación de Vehículos| image:: resources/vehicle-repair.jpeg
+.. |Reproducción| image:: resources/reproduction.jpg
+.. |Servicios de Informática| image:: resources/computer-services.png
+.. |Servicios Legales| image:: resources/legal-services.png
+.. |Cancelación de Cuentas| image:: resources/cancellation-of-accounts.png
+.. |Cheque Devuelto| image:: resources/returned-check.png
+.. |Comisión FLAT| image:: resources/flat-commission.jpg
+.. |Cuota Mantenimiento Mensual| image:: resources/flat-commission.jpg
+.. |Emisión de Chequera| image:: resources/checkbook-issue.png
+.. |Emisión de Estados de Cuentas| image:: resources/issuance-of-account-statements.png
+.. |IGTF| image:: resources/flat-commission.jpg
+.. |Impuesto de Activos de Empresas| image:: resources/business-asset-tax.png
+.. |Impuesto de la Ley Orgánica Antidrogas| image:: resources/organic-drug-law-tax.png
+.. |Impuesto Ley del Deporte| image:: resources/sports-law-tax.jpg
+.. |Impuesto LOCTI| image:: resources/locti-tax.jpg
+.. |Impuesto Municipal| image:: resources/council-tax.jpg
+.. |Impuesto Sobre la Renta| image:: resources/islr.png
+.. |Intereses| image:: resources/interests.jpeg
+.. |Intereses Moratorios| image:: resources/default-interest.jpg
+.. |Multas y Sanciones| image:: resources/legal-services.png
+.. |Servicio de Abono a Nómina| image:: resources/payroll-service.png
+.. |Suspensión de Cheques| image:: resources/returned-check.png
+.. |Suspensión de Chequera| image:: resources/checkbook-issue.png
 
 .. _documento/cargos:
 
@@ -513,155 +571,147 @@ Actualmente ADempiere utiliza nueve (9) diferentes cargos en el tipo de cargo "*
 
 #. **Servicio de Agua Potable**
 
-#. **Definición**
+    #. **Definición**
 
-Es el suministro de agua potable embotellada para el consumo de los trabajadores de una determinada empresa, la misma es surtida semanal, quincenal o mensual de acuerdo a su consumo.
+        Es el suministro de agua potable embotellada para el consumo de los trabajadores de una determinada empresa, la misma es surtida semanal, quincenal o mensual de acuerdo a su consumo.
 
-.. figure:: ../resources/aguapotable.png
-:alt: Servicio de Agua Potable
+        |Servicio de Agua Potable|
 
-Servicio de Agua Potable
+        Imagen 18. Servicio de Agua Potable
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Servicio de Agua Potable**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo proveedor con la finalidad de pagarle al   mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Servicio de Agua Potable**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo proveedor con la finalidad de pagarle al   mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente al servicio de agua potable suministrado en una empresa determinda.
+        Permite reflejar el gasto referente al servicio de agua potable suministrado en una empresa determinda.
 
 #. **Servicio de Aseo Urbano**
 
-#. **Definición**
+    #. **Definición**
 
-Es el servicio de recolección de basura generada por la empresa en general, la misma es ubicada en un lugar especifico de la empresa para facilitar su canalización a los botaderos o lugares correspondientes.
+        Es el servicio de recolección de basura generada por la empresa en general, la misma es ubicada en un lugar especifico de la empresa para facilitar su canalización a los botaderos o lugares correspondientes.
 
-.. figure:: ../resources/aseo.jpg
-:alt: Servicio de Aseo Urbano
+        |Servicio de Aseo Urbano|
 
-Servicio de Aseo Urbano
+        Imagen 19. Servicio de Aseo Urbano
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Servicio de Aseo Urbano**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo proveedor con la finalidad de pagarle al   mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Servicio de Aseo Urbano**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo proveedor con la finalidad de pagarle al   mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente al servicio de aseo urbano correspondiente a una empresa determinada.
+        Permite reflejar el gasto referente al servicio de aseo urbano correspondiente a una empresa determinada.
 
 #. **Servicio de Internet**
 
-#. **Definición**
+    #. **Definición**
 
-Es el suministro de internet en los diferentes departamentos u oficinas de una determinada empresa, el mismo es adquirido mediante un contrato de servicio.
+        Es el suministro de internet en los diferentes departamentos u oficinas de una determinada empresa, el mismo es adquirido mediante un contrato de servicio.
 
-.. figure:: ../resources/serviciointernet.jpg
-:alt: Servicio de Internet
+        |Servicio de Internet|
 
-Servicio de Internet
+        Imagen 20. Servicio de Internet
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Servicio de Internet**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo proveedor con la finalidad de pagarle al   mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Servicio de Internet**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo proveedor con la finalidad de pagarle al   mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente al servicio de internet suministrado en un empresa determinada.
+        Permite reflejar el gasto referente al servicio de internet suministrado en un empresa determinada.
 
 #. **Servicio de Limpieza y Mantenimiento**
 
-#. **Definición**
+    #. **Definición**
 
-Es el servicio adquirido por una empresa determinada para la limpieza de sus diferentes departamentos u oficinas, así como también para la limpieza y mantenimiento de sus equipos y maquinarias.
+        Es el servicio adquirido por una empresa determinada para la limpieza de sus diferentes departamentos u oficinas, así como también para la limpieza y mantenimiento de sus equipos y maquinarias.
 
-.. figure:: ../resources/serlimpieza.jpg
-:alt: Servicio de Limpieza y Mantenimiento
+        |Servicio de Limpieza y Mantenimiento|
 
-Servicio de Limpieza y Mantenimiento
+        Imagen 21. Servicio de Limpieza y Mantenimiento
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Servicio de Limpieza y   Mantenimiento**" es utilizado por la empresa para generar un   ajuste de débito al socio de negocio tipo proveedor con la   finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Servicio de Limpieza y   Mantenimiento**" es utilizado por la empresa para generar un   ajuste de débito al socio de negocio tipo proveedor con la   finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente al servicio de limpieza y mantenimiento suministrado en una determinada empresa. 
+        Permite reflejar el gasto referente al servicio de limpieza y mantenimiento suministrado en una determinada empresa. 
 
 #. **Servicio de Luz**
 
-#. **Definición**
+    #. **Definición**
 
-Es el suministro de energía eléctrica adquirida en una empresa determinada, la misma es necesaria para cumplir con sus propositos o metas de producción.
+        Es el suministro de energía eléctrica adquirida en una empresa determinada, la misma es necesaria para cumplir con sus propositos o metas de producción.
 
-.. figure:: ../resources/serviciobasicos.jpg
-:alt: Servicio de Luz
+        |Servicio de Luz|
 
-Servicio de Luz
+        Imagen 22. Servicio de Luz
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Servicio de Luz**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo proveedor con la finalidad de pagarle al   mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Servicio de Luz**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo proveedor con la finalidad de pagarle al   mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente al servicio de luz suministrado en una empresa determinada.
+        Permite reflejar el gasto referente al servicio de luz suministrado en una empresa determinada.
 
 #. **Servicio de Telefonía**
 
-#. **Definición**
+    #. **Definición**
 
-Es el suministro de telefonía en los diferentes departamentos u oficinas de una determinada empresa, el mismo es adquirido mediante un contrato de servicio.
+        Es el suministro de telefonía en los diferentes departamentos u oficinas de una determinada empresa, el mismo es adquirido mediante un contrato de servicio.
 
-.. figure:: ../resources/telefono.jpg
-:alt: Servicio de Telefonía
+        |Servicio de Telefonía|
 
-Servicio de Telefonía
+        Imagen 23. Servicio de Telefonía
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Servicio de Telefonía**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo proveedor con la finalidad de pagarle al   mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Servicio de Telefonía**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo proveedor con la finalidad de pagarle al   mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente al servicio de telefonía suministrado en una determinada empresa. 
+        Permite reflejar el gasto referente al servicio de telefonía suministrado en una determinada empresa. 
 
 #. **Servicio de Televisora**
 
-#. **Definición**
+    #. **Definición**
 
-Es el suministro de televisión por cable y satelital en los diferentes departamentos u oficinas de una determinada empresa, el mismo es adquirido mediante un contrato de servicio.
+        Es el suministro de televisión por cable y satelital en los diferentes departamentos u oficinas de una determinada empresa, el mismo es adquirido mediante un contrato de servicio.
 
-.. figure:: ../resources/televisor.jpg
-:alt: Servicio de Televisora
+        |Servicio de Televisora|
 
-Servicio de Televisora
+        Imagen 24. Servicio de Televisora
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Servicio de Televisora**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo proveedor con la finalidad de pagarle al   mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Servicio de Televisora**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo proveedor con la finalidad de pagarle al   mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente al servicio de televisora suministrado en una determinada empresa.
+        Permite reflejar el gasto referente al servicio de televisora suministrado en una determinada empresa.
 
 #. **Servicio de Vigilancia**
 
-#. **Definición**
+    #. **Definición**
 
-Es el servicio adquirido por una empresa determinada con la finalidad de tener una buena supervisión y seguridad en las diferentes áreas que conforman la misma.
+        Es el servicio adquirido por una empresa determinada con la finalidad de tener una buena supervisión y seguridad en las diferentes áreas que conforman la misma.
 
-.. figure:: ../resources/vigilancia.png
-:alt: Servicio de Vigilancia
+        |Servicio de Vigilancia|
 
-Servicio de Vigilancia
+        Imagen 25. Servicio de Vigilancia
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Servicio de Vigilancia**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo tipo proveedor con la finalidad de   pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Servicio de Vigilancia**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo tipo proveedor con la finalidad de   pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente al servicio de vigilancia suministrado en una empresa determinada.
+        Permite reflejar el gasto referente al servicio de vigilancia suministrado en una empresa determinada.
 
 **Tipo de Cargo Nómina**
 ------------------------
@@ -694,271 +744,257 @@ Actualmente ADempiere utiliza catorce (14) diferentes cargos en el tipo de cargo
 
 #. **Antigüedad por Pagar**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al pago que las empresas le realizan a sus trabajadores como beneficio por años de prestación de servicio ininterrumpidos cumplidos en la mismas.
+        Se refiere al pago que las empresas le realizan a sus trabajadores como beneficio por años de prestación de servicio ininterrumpidos cumplidos en la mismas.
 
-.. figure:: ../resources/antiguedad.jpeg
-:alt: Antigüedad por Pagar
+        |Antigüedad por Pagar|
 
-Antigüedad por Pagar
+        Imagen 26. Antigüedad por Pagar
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Antigüedad por Pagar**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio tipo empleado.
+        -  En cuentas por pagar el cargo "**Antigüedad por Pagar**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio tipo empleado.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar los pagos referentes a la antigüedad que tienen los diferentes trabajadores de las empresas.
+        Permite reflejar los pagos referentes a la antigüedad que tienen los diferentes trabajadores de las empresas.
 
 #. **Aporte INCES**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al pago trimestral que las empresas le realizan al Instituto Nacional de Capacitación y Educación Socialista (INCES) al tener cinco (5) o más trabajadores cumpliendo actividades para las mismas.
+        Se refiere al pago trimestral que las empresas le realizan al Instituto Nacional de Capacitación y Educación Socialista (INCES) al tener cinco (5) o más trabajadores cumpliendo actividades para las mismas.
 
-.. figure:: ../resources/inces.png
-:alt: Aporte INCES
+        |Aporte INCES|
 
-Aporte INCES
+        Imagen 27. Aporte INCES
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Aporte INCES**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio.
+        -  En cuentas por pagar el cargo "**Aporte INCES**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el pago referente al aporte INCES que la empresa realiza trimestralmente.
+        Permite reflejar el pago referente al aporte INCES que la empresa realiza trimestralmente.
 
 #. **Aporte RPE**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al pago que las empresas hacen al Instituto Venezolano de los Seguros Sociales (IVSS) por cada empleado que tienen cumpliendo actividades para las mismas.
+        Se refiere al pago que las empresas hacen al Instituto Venezolano de los Seguros Sociales (IVSS) por cada empleado que tienen cumpliendo actividades para las mismas.
 
-.. figure:: ../resources/SSO.png
-:alt: Aporte RPE
+        |Aporte RPE|
 
-Aporte RPE
+        Imagen 28. Aporte RPE
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Aporte RPE**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio.
+        -  En cuentas por pagar el cargo "**Aporte RPE**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el pago referente al aporte RPE que la empresa realiza correspondiente a cada trabajador.
+        Permite reflejar el pago referente al aporte RPE que la empresa realiza correspondiente a cada trabajador.
 
 #. **Aporte RPVH**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al pago que las empresas hacen al Fondo de Ahorro Obligatorio y Voluntario para la Vivienda (FAOV) por cada empleado que tienen cumpliendo actividades para las mismas.
+        Se refiere al pago que las empresas hacen al Fondo de Ahorro Obligatorio y Voluntario para la Vivienda (FAOV) por cada empleado que tienen cumpliendo actividades para las mismas.
 
-.. figure:: ../resources/banavih.jpg
-:alt: Aporte RPVH
+        |Aporte RPVH|
 
-Aporte RPVH
+        Imagen 29. Aporte RPVH
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Aporte RPVH**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio.
+        -  En cuentas por pagar el cargo "**Aporte RPVH**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el pago referente al aporte RPVH que la empresa realiza correspondiente a cada trabajador.
+        Permite reflejar el pago referente al aporte RPVH que la empresa realiza correspondiente a cada trabajador.
 
 #. **Aporte SSO**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al pago que las empresas hacen al Instituto Venezolano de los Seguros Sociales (IVSS) por cada empleado que tienen cumpliendo actividades para las mismas.
+        Se refiere al pago que las empresas hacen al Instituto Venezolano de los Seguros Sociales (IVSS) por cada empleado que tienen cumpliendo actividades para las mismas.
 
-.. figure:: ../resources/SSO.png
-:alt: Aporte SSO
+        |Aporte SSO|
 
-Aporte SSO
+        Imagen 30. Aporte SSO
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Aporte SSO**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio.
+        -  En cuentas por pagar el cargo "**Aporte SSO**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el pago referente al aporte SSO que la empresa realiza correspondiente a cada trabajador.
+        Permite reflejar el pago referente al aporte SSO que la empresa realiza correspondiente a cada trabajador.
 
 #. **Bono Alimentación**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al pago que las empresas le realizan a sus trabajadores como beneficio de una alimentación balanceada para obtener mayor productividad por causa del buen estado nutricional de los mismos.
+        Se refiere al pago que las empresas le realizan a sus trabajadores como beneficio de una alimentación balanceada para obtener mayor productividad por causa del buen estado nutricional de los mismos.
 
-.. figure:: ../resources/alimentacion.jpg
-:alt: Bono Alimentación
+        |Bono Alimentación|
 
-Bono Alimentación
+        Imagen 31. Bono Alimentación
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Bono de Alimentación**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio tipo empleado.
+        -  En cuentas por pagar el cargo "**Bono de Alimentación**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio tipo empleado.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar los pagos referentes al bono de alimentación de los diferentes trabajadores de las empresas.
+        Permite reflejar los pagos referentes al bono de alimentación de los diferentes trabajadores de las empresas.
 
 #. **Retención INCES**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al porcentaje de retención que la empresa le aplica a cada uno de sus trabajadores, destinado al aporte INCES.
+        Se refiere al porcentaje de retención que la empresa le aplica a cada uno de sus trabajadores, destinado al aporte INCES.
 
-.. figure:: ../resources/inces.png
-:alt: Retención INCES
+        |Retención INCES|
 
-Retención INCES
+        Imagen 32. Retención INCES
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Retención INCES**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de que el mismo le pague el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Retención INCES**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de que el mismo le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar la retención referente a INCES que la empresa aplica a cada trabajador de la misma.
+        Permite reflejar la retención referente a INCES que la empresa aplica a cada trabajador de la misma.
 
 #. **Retención ISLR**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al porcentaje de retención que la empresa le aplica a cada uno de sus socios de negocios tipo proveedores, así como también, el porcentaje de retención que cada uno de los socios de negocios tipo clientes le aplica a la empresa, el monto aplicado en ambas partes es destinado al ente "**SENIAT**".
+        Se refiere al porcentaje de retención que la empresa le aplica a cada uno de sus socios de negocios tipo proveedores, así como también, el porcentaje de retención que cada uno de los socios de negocios tipo clientes le aplica a la empresa, el monto aplicado en ambas partes es destinado al ente "**SENIAT**".
 
-.. figure:: ../resources/islr.png
-:alt: Retención ISLR
+        |Retención ISLR|
 
-Retención ISLR
+        Imagen 33. Retención ISLR
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Retención ISLR**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de retener un porcentaje de dinero.
+        -  En cuentas por cobrar el cargo "**Retención ISLR**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de retener un porcentaje de dinero.
 
--  En cuentas por pagar el cargo "**Retención ISLR**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de retener un porcentaje de dinero.
+        -  En cuentas por pagar el cargo "**Retención ISLR**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de retener un porcentaje de dinero.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar la retención referente al ISLR aplicada como cliente o por el cliente.
+        Permite reflejar la retención referente al ISLR aplicada como cliente o por el cliente.
 
 #. **Retención RPE**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al porcentaje de retención que la empresa le aplica a cada uno de sus trabajadores, destinado al aporte RPE.
+        Se refiere al porcentaje de retención que la empresa le aplica a cada uno de sus trabajadores, destinado al aporte RPE.
 
-.. figure:: ../resources/SSO.png
-:alt: Retención RPE
+        |Retención RPE|
 
-Retención RPE
+        Imagen 34. Retención RPE
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Retención RPE**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de retener un porcentaje de dinero.
+        -  En cuentas por cobrar el cargo "**Retención RPE**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de retener un porcentaje de dinero.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar la retención referente a RPE que la empresa aplica a cada trabajador de la misma.
+        Permite reflejar la retención referente a RPE que la empresa aplica a cada trabajador de la misma.
 
 #. **Retención RPVH**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al porcentaje de retención que la empresa le aplica a cada uno de sus trabajadores, destinado al aporte RPVH.
+        Se refiere al porcentaje de retención que la empresa le aplica a cada uno de sus trabajadores, destinado al aporte RPVH.
 
-.. figure:: ../resources/banavih.jpg
-:alt: Retención RPVH
+        |Retención RPVH|
 
-Retención RPVH
+        Imagen 35. Retención RPVH
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Retención RPVH**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de retener un porcentaje de dinero.
+        -  En cuentas por cobrar el cargo "**Retención RPVH**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de retener un porcentaje de dinero.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar la retención referente a RPVH que la empresa aplica a cada trabajador de la misma.
+        Permite reflejar la retención referente a RPVH que la empresa aplica a cada trabajador de la misma.
 
 #. **Retención SSO**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al porcentaje de retención que la empresa le aplica a cada uno de sus trabajadores, destinado al aporte SSO.
+        Se refiere al porcentaje de retención que la empresa le aplica a cada uno de sus trabajadores, destinado al aporte SSO.
 
-.. figure:: ../resources/SSO.png
-:alt: Retención SSO
+        |Retención SSO|
 
-Retención SSO
+        Imagen 36. Retención SSO
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Retención SSO**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de retener un porcentaje de dinero.
+        -  En cuentas por cobrar el cargo "**Retención SSO**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de retener un porcentaje de dinero.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar la retención referente a SSO que la empresa aplica a cada trabajador de la misma.
+        Permite reflejar la retención referente a SSO que la empresa aplica a cada trabajador de la misma.
 
 #. **Sueldos y Salarios por Pagar**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al pago que la empresa realiza a cada uno de los trabajadores por las actividades que cumplen para la misma durante su jornada laboral.
+        Se refiere al pago que la empresa realiza a cada uno de los trabajadores por las actividades que cumplen para la misma durante su jornada laboral.
 
-.. figure:: ../resources/pago.png
-:alt: Sueldos y Salarios por Pagar
+        |Sueldos y Salarios por Pagar|
 
-Sueldos y Salarios por Pagar
+        Imagen 37. Sueldos y Salarios por Pagar
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Sueldos y Salarios por Pagar**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio tipo empleado.
+        -  En cuentas por pagar el cargo "**Sueldos y Salarios por Pagar**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio tipo empleado.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar los pagos referentes a los sueldos y salarios de los diferentes trabajadores de las empresas.
+        Permite reflejar los pagos referentes a los sueldos y salarios de los diferentes trabajadores de las empresas.
 
 #. **Utilidades por Pagar**
 
-#. **Definición**
+    #. **Definición**
 
-Es utilizado en una empresa determinada para reflejar el pago realizado a cada uno de sus trabajadores por las vacaciones que le corresponden según lo establecido en el artículo 131 de la LOTTT.
+        Es utilizado en una empresa determinada para reflejar el pago realizado a cada uno de sus trabajadores por las vacaciones que le corresponden según lo establecido en el artículo 131 de la LOTTT.
 
-.. figure:: ../resources/utilidades.jpeg
-:alt: Utilidades por Pagar
+        |Utilidades por Pagar|
 
-Utilidades por Pagar
+        Imagen 38. Utilidades por Pagar
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Utilidades por Pagar**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio tipo empleado.
+        -  En cuentas por pagar el cargo "**Utilidades por Pagar**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio tipo empleado.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar los pagos referentes a las utilidades de los diferentes trabajadores de las empresas.
+        Permite reflejar los pagos referentes a las utilidades de los diferentes trabajadores de las empresas.
 
 #. **Vacaciones por Pagar**
 
-#. **Definición**
+    #. **Definición**
 
-Es utilizado en una empresa determinada para reflejar el pago realizado a cada uno de sus trabajadores por las vacaciones que le corresponden según lo establecido en el artículo 190 de la LOTTT.
+        Es utilizado en una empresa determinada para reflejar el pago realizado a cada uno de sus trabajadores por las vacaciones que le corresponden según lo establecido en el artículo 190 de la LOTTT.
 
-.. figure:: ../resources/vacaciones.png
-:alt: Vacaciones por Pagar
+        |Vacaciones por Pagar|
 
-Vacaciones por Pagar
+        Imagen 39. Vacaciones por Pagar
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Vacaciones por Pagar**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio tipo empleado.
+        -  En cuentas por pagar el cargo "**Vacaciones por Pagar**" es utilizado por la empresa para generar un ajuste de débito con la finalidad de que la misma le pague el dinero que le debe al socio del negocio tipo empleado.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar los pagos referentes a las vacaciones de los diferentes trabajadores de las empresas.
+        Permite reflejar los pagos referentes a las vacaciones de los diferentes trabajadores de las empresas.
 
 **Tipo de Cargo Publicidad**
 ----------------------------
@@ -1014,98 +1050,93 @@ Actualmente ADempiere utiliza cinco (5) diferentes cargos en el tipo de cargo "*
 
 #. **Marketing Redes Sociales**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a la propaganda o publicidad que reciben las empresas por medio de las diferentes redes sociales, con la finalidad de llegar a los clientes o futuros clientes de las mismas.
+        Se refiere a la propaganda o publicidad que reciben las empresas por medio de las diferentes redes sociales, con la finalidad de llegar a los clientes o futuros clientes de las mismas.
 
-.. figure:: ../resources/redes.jpg
-:alt: Marketin Redes Sociales
+        |Marketin Redes Sociales|
 
-Marketing Redes Sociales
+        Imagen 40. Marketing Redes Sociales
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Marketing Redes Sociales**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo tipo proveedor con la finalidad de   pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Marketing Redes Sociales**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo tipo proveedor con la finalidad de   pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la publicidad de marketing en redes sociales, de una empresa determinada.
+        Permite reflejar el gasto referente a la publicidad de marketing en redes sociales, de una empresa determinada.
 
 #. **Publicidad en Revista/Periódico**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a la propaganda o publicidad que reciben las empresas por medio de las diferentes revistas o periódicos, con la finalidad de llegar a los clientes o futuros clientes de las mismas.
+        Se refiere a la propaganda o publicidad que reciben las empresas por medio de las diferentes revistas o periódicos, con la finalidad de llegar a los clientes o futuros clientes de las mismas.
 
-.. figure:: ../resources/periodico.png
-:alt: Publicidad en Revista/Periódico
+        |Publicidad en Revista Periódico|
 
-Publicidad en Revista/Periódico
+        Imagen 41. Publicidad en Revista/Periódico
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Publicidad en   Revista/Periódico**" es utilizado por la empresa para generar   un ajuste de débito al socio de negocio tipo tipo proveedor con   la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Publicidad en   Revista/Periódico**" es utilizado por la empresa para generar   un ajuste de débito al socio de negocio tipo tipo proveedor con   la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la publicidad en revistas y periódicos de una empresa determinada.
+        Permite reflejar el gasto referente a la publicidad en revistas y periódicos de una empresa determinada.
 
 #. **Publicidad Radio**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a la propaganda o publicidad que reciben las empresas por medio de las diferentes emisoras de radio, con la finalidad de llegar a los clientes o futuros clientes de las mismas.
+        Se refiere a la propaganda o publicidad que reciben las empresas por medio de las diferentes emisoras de radio, con la finalidad de llegar a los clientes o futuros clientes de las mismas.
 
-.. figure:: ../resources/radio.jpeg
-:alt: Publicidad Radio
+        |Publicidad Radio|
 
-Publicidad Radio
+        Imagen 42. Publicidad Radio
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Publicidad Radio**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo tipo proveedor con la finalidad de   pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Publicidad Radio**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo tipo proveedor con la finalidad de   pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la publicidad en radio de una empresa determinada.
+        Permite reflejar el gasto referente a la publicidad en radio de una empresa determinada.
 
 #. **Publicidad Televisión**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a la propaganda o publicidad que reciben las empresas por medio de los diferentes canales de televisión, con la finalidad de llegar a los clientes o futuros clientes de las mismas.
+        Se refiere a la propaganda o publicidad que reciben las empresas por medio de los diferentes canales de televisión, con la finalidad de llegar a los clientes o futuros clientes de las mismas.
 
-.. figure:: ../resources/tv.jpg
-:alt: Publicidad Televisión
+        |Publicidad Televisión|
 
-Publicidad Televisión
+        Imagen 43. Publicidad Televisión
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Publicidad Televisión**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo tipo proveedor con la finalidad de   pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Publicidad Televisión**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo tipo proveedor con la finalidad de   pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la publicidad en televisión de una empresa determinada.
+        Permite reflejar el gasto referente a la publicidad en televisión de una empresa determinada.
 
 #. **Publicidad en Vallas**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a la propaganda o publicidad que reciben las empresas por medio de diferentes vallas publicitarias, con la finalidad de llegar a los clientes o futuros clientes de las mismas.
+        Se refiere a la propaganda o publicidad que reciben las empresas por medio de diferentes vallas publicitarias, con la finalidad de llegar a los clientes o futuros clientes de las mismas.
 
-.. figure:: ../resources/exterior.png
-:alt: Publicidad en Vallas
+        |Publicidad en Vallas|
 
-Publicidad en Vallas
+        Imagen 44. Publicidad en Vallas
 
-#. **Implicación en ADempiere**
+    #. **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Publicidad en Vallas**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo tipo proveedor con la finalidad de   pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Publicidad en Vallas**" es   utilizado por la empresa para generar un ajuste de débito al   socio de negocio tipo tipo proveedor con la finalidad de   pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la publicidad en vallas de una empresa determinada.
+        Permite reflejar el gasto referente a la publicidad en vallas de una empresa determinada.
 
 **Tipo de Cargo Administrativos**
 ---------------------------------
@@ -1166,355 +1197,337 @@ Actualmente ADempiere utiliza dieciocho (18) diferentes cargos en el tipo de car
 
 #. **Artículos de Limpieza**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto realizado por la compra de productos o artículos de limpieza utilizados en toda la empresa en general.
+        Se refiere al gasto realizado por la compra de productos o artículos de limpieza utilizados en toda la empresa en general.
 
-.. figure:: ../resources/limpieza.jpg
-:alt: Artículos de Limpieza
+        |Artículos de Limpieza|
 
-Artículos de Limpieza
+        Imagen 45. Artículos de Limpieza
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Artículos de Limpieza**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Artículos de Limpieza**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los artículos de limpieza utilizados en una determinada empresa.
+        Permite reflejar el gasto referente a los artículos de limpieza utilizados en una determinada empresa.
 
 #. **Combustible y Lubricantes**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto realizado por la compra de combustible y lubricantes para los diferentes carros de la empresa.
+        Se refiere al gasto realizado por la compra de combustible y lubricantes para los diferentes carros de la empresa.
 
-.. figure:: ../resources/combustibles.png
-:alt: Combustible y Lubricantes
+        |Combustible y Lubricantes|
 
-Combustible y Lubricantes
+        Imagen 46. Combustible y Lubricantes
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Combustible y Lubricantes**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Combustible y Lubricantes**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a combustibles y lubricantes utilizados en los carros o camiones de una empresa determinada.
+        Permite reflejar el gasto referente a combustibles y lubricantes utilizados en los carros o camiones de una empresa determinada.
 
 #. **Donaciones**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a los diferentes gastos que las empresas realizan para todas aquellas donaciones que las mismas hacen.
+        Se refiere a los diferentes gastos que las empresas realizan para todas aquellas donaciones que las mismas hacen.
 
-.. figure:: ../resources/donacion.png
-:alt: Donaciones
+        |Donaciones|
 
-Donaciones
+        Imagen 47. Donaciones
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Donaciones**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Donaciones**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a las donaciones realizadas por una empresa.
+        Permite reflejar el gasto referente a las donaciones realizadas por una empresa.
 
 #. **Encomienda**
 
-#. **Definición**
+    #. **Definición**
 
-.. figure:: ../resources/procesos.png
-:alt: Encomienda
+        |Encomienda|
 
-Encomienda
+        Imagen 48. Encomienda
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Encomienda**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Encomienda**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por cobrar el cargo "**Encomienda**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo cliente con la finalidad de que el mismo le pague el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Encomienda**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo cliente con la finalidad de que el mismo le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los envios o entregas a domicilio realizados por una determinada empresa.
+        Permite reflejar el gasto referente a los envios o entregas a domicilio realizados por una determinada empresa.
 
 #. **Equipos Tecnológicos**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto que las empresas realizan por la compra de los equipos tecnológicos necesarios en cada una de las áreas de las mismas.
+        Se refiere al gasto que las empresas realizan por la compra de los equipos tecnológicos necesarios en cada una de las áreas de las mismas.
 
-.. figure:: ../resources/equipostec.jpg
-:alt: Equipos Tecnológicos
+        |Equipos Tecnológicos|
 
-Equipos Tecnológicos
+        Imagen 49. Equipos Tecnológicos
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Equipos Tecnológicos**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Equipos Tecnológicos**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los equipos tecnológicos utilizados en una determinada empresa.
+        Permite reflejar el gasto referente a los equipos tecnológicos utilizados en una determinada empresa.
 
 #. **Honorarios Profesionales**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al pago que las empresas realizan a los trabajadores por profesión, el mismo aplica para los socios de negocios tipo empleados así como para los socios de negocios que le presten algún servicio.
+        Se refiere al pago que las empresas realizan a los trabajadores por profesión, el mismo aplica para los socios de negocios tipo empleados así como para los socios de negocios que le presten algún servicio.
 
-.. figure:: ../resources/honorarios.png
-:alt: Honorarios Profesionales
+        |Honorarios Profesionales|
 
-Honorarios Profesionales
+        Imagen 50. Honorarios Profesionales
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Honorarios Profesionales**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Honorarios Profesionales**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los honorarios profesionales de los trabajadores en una determinada empresa.
+        Permite reflejar el gasto referente a los honorarios profesionales de los trabajadores en una determinada empresa.
 
 #. **Impuestos, Tasas y Contribuciones**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto que tienen las diferentes empresas por el pago de impuestos, tasas y contribuciones determinadas.
+        Se refiere al gasto que tienen las diferentes empresas por el pago de impuestos, tasas y contribuciones determinadas.
 
-.. figure:: ../resources/pagar.png
-:alt: Impuestos, Tasas y Contribuciones
+        |Impuestos, Tasas y Contribuciones|
 
-Impuestos, Tasas y Contribuciones
+        Imagen 51. Impuestos, Tasas y Contribuciones
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Impuestos, Tasas y Contribuciones**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Impuestos, Tasas y Contribuciones**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los impuestos, tasas y contribuciones de una determinada empresa.
+        Permite reflejar el gasto referente a los impuestos, tasas y contribuciones de una determinada empresa.
 
 #. **Insumos de Oficina**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto de las diferentes empresas por la compra de insumos de oficina para todos sus departamentos o áreas que los requieran.
+        Se refiere al gasto de las diferentes empresas por la compra de insumos de oficina para todos sus departamentos o áreas que los requieran.
 
-.. figure:: ../resources/oficina.jpg
-:alt: Insumos de Oficina
+        |Insumos de Oficina|
 
-Insumos de Oficina
+        Imagen 52. Insumos de Oficina
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Insumos de Oficina**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Insumos de Oficina**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los insumos de oficina utilizados en una determinada empresa.
+        Permite reflejar el gasto referente a los insumos de oficina utilizados en una determinada empresa.
 
 #. **Intereses Moratorios de Compra**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto que realizan todas aquellas empresas que se tardan en pagar el monto de las compras realizadas, mismas que generan intereses en beneficio del acreedor.
+        Se refiere al gasto que realizan todas aquellas empresas que se tardan en pagar el monto de las compras realizadas, mismas que generan intereses en beneficio del acreedor.
 
-.. figure:: ../resources/mora.jpeg
-:alt: Intereses Moratorios de Compra
+        |Intereses Moratorios de Compra|
 
-Intereses Moratorios de Compra
+        Imagen 53. Intereses Moratorios de Compra
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Intereses Moratorios de Compra**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Intereses Moratorios de Compra**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los intereses moratorios de compra de una determinada empresa.
+        Permite reflejar el gasto referente a los intereses moratorios de compra de una determinada empresa.
 
 #. **Matenimiento de Equipos**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto que las empresas realizan por el pago del mantenimiento de los diferentes equipos que las mismas poseen en sus departamentos o áreas.
+        Se refiere al gasto que las empresas realizan por el pago del mantenimiento de los diferentes equipos que las mismas poseen en sus departamentos o áreas.
 
-.. figure:: ../resources/mantenimiento.jpg
-:alt: Mantenimiento de Equipos
+        |Mantenimiento de Equipos|
 
-Mantenimiento de Equipos
+        Imagen 54. Mantenimiento de Equipos
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Mantenimiento de Equipos**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Mantenimiento de Equipos**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente al mantenimiento de los equipos utilizados en una determinada empresa.
+        Permite reflejar el gasto referente al mantenimiento de los equipos utilizados en una determinada empresa.
 
 #. **Periódicos, Libros y Revistas**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto que las empresas realizan por la compra de periódicos, libros y revistas para las mismas.
+        Se refiere al gasto que las empresas realizan por la compra de periódicos, libros y revistas para las mismas.
 
-.. figure:: ../resources/libro.png
-:alt: Periódicos, Libros y Revistas
+        |Periódicos, Libros y Revistas|
 
-Periódicos, Libros y Revistas
+        Imagen 55. Periódicos, Libros y Revistas
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Periódicos, Libros y Revistas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Periódicos, Libros y Revistas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los periódicos, libros y revistas utilizados en una determinada empresa.
+        Permite reflejar el gasto referente a los periódicos, libros y revistas utilizados en una determinada empresa.
 
 #. **Póliza de Seguro**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto que las empresas realizan mensualmente como pago de la adquisición de una póliza de seguro para resguardar la misma.
+        Se refiere al gasto que las empresas realizan mensualmente como pago de la adquisición de una póliza de seguro para resguardar la misma.
 
-.. figure:: ../resources/seguro.jpeg
-:alt: Póliza de Seguro
+        |Póliza de Seguro|
 
-Póliza de Seguro
+        Imagen 56. Póliza de Seguro
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Póliza de Seguro**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Póliza de Seguro**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la póliza de seguro de una determinada empresa.
+        Permite reflejar el gasto referente a la póliza de seguro de una determinada empresa.
 
 #. **Reembolso de Caja Chica**
 
-#. **Definición**
+    #. **Definición**
 
-Los gastos realizados por los diferentes trabajadores de las empresas cuando en ocasiones pagan de su dinero personal, son reintegrados a los mismos por medio de este cargo en la caja correspondiente de cada uno.
+        Los gastos realizados por los diferentes trabajadores de las empresas cuando en ocasiones pagan de su dinero personal, son reintegrados a los mismos por medio de este cargo en la caja correspondiente de cada uno.
 
-.. figure:: ../resources/reembolso.jpg
-:alt: Reembolso de Caja Chica
+        |Reembolso de Caja Chica|
 
-Reembolso de Caja Chica
+        Imagen 57. Reembolso de Caja Chica
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "Reembolso de Caja Chica" es utilizado por un socio de negocio tipo empleado para generar un ajuste de crédito a la empresa con la finalidad de que la misma le reintegre el dinero.
+        -  En cuentas por cobrar el cargo "Reembolso de Caja Chica" es utilizado por un socio de negocio tipo empleado para generar un ajuste de crédito a la empresa con la finalidad de que la misma le reintegre el dinero.
 
--  En cuentas por cobrar el cargo "Reembolso de Caja Chica" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo cliente con la finalidad de que el mismo le pague el dinero que le debe.
+        -  En cuentas por cobrar el cargo "Reembolso de Caja Chica" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo cliente con la finalidad de que el mismo le pague el dinero que le debe.
 
--  En cuentas por pagar el cargo "Reembolso de Caja Chica" es utilizado por la empresa para generar un ajuste de crédito a un socio de negocio tipo cliente con la finalidad de que el mismo le reintegre el dinero.
+        -  En cuentas por pagar el cargo "Reembolso de Caja Chica" es utilizado por la empresa para generar un ajuste de crédito a un socio de negocio tipo cliente con la finalidad de que el mismo le reintegre el dinero.
 
--  En cuentas por pagar el cargo "Reembolso de Caja Chica" es utilizado por el socio de negocio tipo empleado para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "Reembolso de Caja Chica" es utilizado por el socio de negocio tipo empleado para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el pago referente al reembolso de caja chica de cada trabajador.
+        Permite reflejar el pago referente al reembolso de caja chica de cada trabajador.
 
 #. **Reparación de Edificación e Instalaciones**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto realizado por la compra de materiales o por la mano de obra para las reparaciones o instalaciones en la edificación u empresa.
+        Se refiere al gasto realizado por la compra de materiales o por la mano de obra para las reparaciones o instalaciones en la edificación u empresa.
 
-.. figure:: ../resources/instalaciones.png
-:alt: Reparación de Edificación e Instalaciones
+        |Reparación de Edificación e Instalaciones|
 
-Reparación de Edificación e Instalaciones
+        Imagen 58. Reparación de Edificación e Instalaciones
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Reparación de Edificación e Instalaciones**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Reparación de Edificación e Instalaciones**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo proveedor con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto realizado referente a la reparación e instalaciones en la empresa.
+        Permite reflejar el gasto realizado referente a la reparación e instalaciones en la empresa.
 
 #. **Reparación de Vehículos**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto realizado por la reparación de los diferentes vehículos de las empresas u organizaciones.
+        Se refiere al gasto realizado por la reparación de los diferentes vehículos de las empresas u organizaciones.
 
-.. figure:: ../resources/reparacion.jpeg
-:alt: Reparación de Vahículos
+        |Reparación de Vehículos|
 
-Reparación de Vehículos
+        Imagen 59. Reparación de Vehículos
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Reparación de Vehículos**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Reparación de Vehículos**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la reparación de los vehículos de la empresa.
+        Permite reflejar el gasto referente a la reparación de los vehículos de la empresa.
 
 #. **Reproducción**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a todos aquellos gastos por impresiones, fotocopias, entre otros tipos de reproducciones que son realizados por las diferentes empresas siendo estos necesarios para las gestiones que las mismas realizan.
+        Se refiere a todos aquellos gastos por impresiones, fotocopias, entre otros tipos de reproducciones que son realizados por las diferentes empresas siendo estos necesarios para las gestiones que las mismas realizan.
 
-.. figure:: ../resources/fotocopia.jpg
-:alt: Reproducción
+        |Reproducción|
 
-Reproducción
+        Imagen 60. Reproducción
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Reproducción**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de que el mismo le pague el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Reproducción**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de que el mismo le pague el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Reproducción**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Reproducción**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a las impresiones, fotocopias, entre otros tipos de reproducciones que realizan las empresas.
+        Permite reflejar el gasto referente a las impresiones, fotocopias, entre otros tipos de reproducciones que realizan las empresas.
 
 #. **Servicios de Informática**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto realizado por los servicios de informática implementados en los diferentes departamentos de las empresas.
+        Se refiere al gasto realizado por los servicios de informática implementados en los diferentes departamentos de las empresas.
 
-.. figure:: ../resources/informatica.png
-:alt: Servicios de Informática
+        |Servicios de Informática|
 
-Servicios de Informática
+        Imagen 61. Servicios de Informática
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Servicios de Informática**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de que el mismo le pague el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Servicios de Informática**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de que el mismo le pague el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Servicios de Informática**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Servicios de Informática**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los servicios de informática implementados en las empresas.
+        Permite reflejar el gasto referente a los servicios de informática implementados en las empresas.
 
 #. **Servicios Legales**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto realizado por los diferentes servicios legales suministrados en las empresas.
+        Se refiere al gasto realizado por los diferentes servicios legales suministrados en las empresas.
 
-.. figure:: ../resources/legales.png
-:alt: Servicios Legales
+        |Servicios Legales|
 
-Servicios Legales
+        Imagen 62. Servicios Legales
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Servicios Legales**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Servicios Legales**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los servicios legales suministrados en las empresas.
+        Permite reflejar el gasto referente a los servicios legales suministrados en las empresas.
 
 **Tipo de Cargo Bancario**
 --------------------------
@@ -1539,387 +1552,368 @@ Actualmente ADempiere utiliza diecinueve (19) diferentes cargos en el tipo de ca
 
 #. **Cancelación de Cuentas**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al pago que realiza una determinada empresa por la cancelación de la cuenta por pagar que la misma tiene pendiente con un socio de negocio.
+        Se refiere al pago que realiza una determinada empresa por la cancelación de la cuenta por pagar que la misma tiene pendiente con un socio de negocio.
 
-.. figure:: ../resources/cancelacion.png
-:alt: Cancelación de Cuentas
+        |Cancelación de Cuentas|
 
-Cancelación de Cuentas
+        Imagen 63. Cancelación de Cuentas
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Cancelación de Cuentas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo cliente con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Cancelación de Cuentas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo cliente con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Cancelación de Cuentas**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Cancelación de Cuentas**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el pago referente a la cancelación de las cuentas pendientes que tiene la empresa.
+        Permite reflejar el pago referente a la cancelación de las cuentas pendientes que tiene la empresa.
 
 #. **Cheque Devuelto**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al pago o cobro que realiza una determinada empresa a un socio de negocio por cheque devuelto.
+        Se refiere al pago o cobro que realiza una determinada empresa a un socio de negocio por cheque devuelto.
 
-.. figure:: ../resources/cheque.png
-:alt: Cheque Devuelto
+        |Cheque Devuelto|
 
-Cheque Devuelto
+        Imagen 64. Cheque Devuelto
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Cheque Devuelto**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de que el mismo le pague el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Cheque Devuelto**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de que el mismo le pague el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Cheque Devuelto**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Cheque Devuelto**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el pago o cobro referente a cheques devueltos que posee una determinada empresa.
+        Permite reflejar el pago o cobro referente a cheques devueltos que posee una determinada empresa.
 
 #. **Comisión FLAT**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a la comisión cobrada una sola vez por un negocio, es decir, al momento de la adquisición del mismo.
+        Se refiere a la comisión cobrada una sola vez por un negocio, es decir, al momento de la adquisición del mismo.
 
-.. figure:: ../resources/cobro.jpg
-:alt: Comisión FLAT
+        |Comisión FLAT|
 
-Comisión FLAT
+        Imagen 65. Comisión FLAT
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Comisión FLAT**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Comisión FLAT**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Comisión FLAT**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Comisión FLAT**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la comisión FLAT de un determinado negocio.
+        Permite reflejar el gasto referente a la comisión FLAT de un determinado negocio.
 
 #. **Cuota Mantenimiento Mensual**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto que tiene una determinada empresa por mantenimiento mensual de las diferentes cuentas que posee.
+        Se refiere al gasto que tiene una determinada empresa por mantenimiento mensual de las diferentes cuentas que posee.
 
-.. figure:: ../resources/cobro.jpg
-:alt: Cuota Mantenimiento Mensual
+        |Cuota Mantenimiento Mensual|
 
-Cuota Mantenimiento Mensual
+        Imagen 66. Cuota Mantenimiento Mensual
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Cuota de Mantenimiento Mensual**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Cuota de Mantenimiento Mensual**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la cuota de mantenimiento mensual por las diferentes cuentas que posee la empresa.
+        Permite reflejar el gasto referente a la cuota de mantenimiento mensual por las diferentes cuentas que posee la empresa.
 
 #. **Emisión de Chequera**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto que tienen las empresas cuando necesitan solicitar nuevas chequeras a los diferentes bancos en los que poseen cuentas.
+        Se refiere al gasto que tienen las empresas cuando necesitan solicitar nuevas chequeras a los diferentes bancos en los que poseen cuentas.
 
-.. figure:: ../resources/chequeras.png
-:alt: Emisión de Chequera
+        |Emisión de Chequera|
 
-Emisión de Chequera
+        Imagen 67. Emisión de Chequera
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Emisión de Chequera**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Emisión de Chequera**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la emisión de chequeras de las diferentes cuentas que poseen las empresas.
+        Permite reflejar el gasto referente a la emisión de chequeras de las diferentes cuentas que poseen las empresas.
 
 #. **Emisión de Estados de Cuentas**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto que tienen las empresas cuando necesitan solicitar los estados de cuentas a los diferentes bancos en los que poseen cuentas.
+        Se refiere al gasto que tienen las empresas cuando necesitan solicitar los estados de cuentas a los diferentes bancos en los que poseen cuentas.
 
-.. figure:: ../resources/cuenta.png
-:alt: Emisión de Estados de Cuentas
+        |Emisión de Estados de Cuentas|
 
-Emisión de Estados de Cuentas
+        Imagen 68. Emisión de Estados de Cuentas
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Emisión de Estados de Cuentas**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Emisión de Estados de Cuentas**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la emisión de estados de cuentas de las diferentes cuentas que poseen las empresas.
+        Permite reflejar el gasto referente a la emisión de estados de cuentas de las diferentes cuentas que poseen las empresas.
 
 #. **IGTF**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al porcentaje que los bancos recibirán de las diferentes cuentas que poseen las personas jurídicas o aquellos contribuyentes especiales del SENIAT, cuando realizan algun débito o retiro alto.
+        Se refiere al porcentaje que los bancos recibirán de las diferentes cuentas que poseen las personas jurídicas o aquellos contribuyentes especiales del SENIAT, cuando realizan algun débito o retiro alto.
 
-.. figure:: ../resources/cobro.jpg
-:alt: IGTF
+        |IGTF|
 
-IGTF
+        Imagen 69. IGTF
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**IGTF**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**IGTF**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por pagar el cargo "**IGFT**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**IGFT**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente al IGTF de las diferentes empresas.
+        Permite reflejar el gasto referente al IGTF de las diferentes empresas.
 
 #. **Impuesto de Activos de Empresas**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto que tienen las empresas por el pago de impuestos de los diferentes activos que poseen.
+        Se refiere al gasto que tienen las empresas por el pago de impuestos de los diferentes activos que poseen.
 
-.. figure:: ../resources/activos.png
-:alt: Impuesto de Activos de Empresas
+        |Impuesto de Activos de Empresas|
 
-Impuesto de Activos de Empresas
+        Imagen 70. Impuesto de Activos de Empresas
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Impuesto de Activos de Empresas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Impuesto de Activos de Empresas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Impuesto de Activos de Empresas**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Impuesto de Activos de Empresas**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los impuestos de activos de empresas. 
+        Permite reflejar el gasto referente a los impuestos de activos de empresas. 
 
 #. **Impuesto de la Ley Orgánica Antidrogas**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a los pagos que deben realizar las empresas que ocupen cincuenta (50) trabajadores o más, el mismo debe efectuarse dentro de los sesenta (60) días continuos de finalizado el ejercicio fiscal.
+        Se refiere a los pagos que deben realizar las empresas que ocupen cincuenta (50) trabajadores o más, el mismo debe efectuarse dentro de los sesenta (60) días continuos de finalizado el ejercicio fiscal.
 
-.. figure:: ../resources/drogas.png
-:alt: Impuesto de la Ley Orgánica Antidrogas
+        |Impuesto de la Ley Orgánica Antidrogas|
 
-Impuesto de la Ley Orgánica Antidrogas
+        Imagen 71. Impuesto de la Ley Orgánica Antidrogas
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Impuesto de la Ley Orgánica Antidrogas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Impuesto de la Ley Orgánica Antidrogas**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Impuesto de la Ley Orgánica Antidrogas**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Impuesto de la Ley Orgánica Antidrogas**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los impuestos de la ley orgánica antidrogas.
+        Permite reflejar el gasto referente a los impuestos de la ley orgánica antidrogas.
 
 #. **Impuesto Ley del Deporte**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a los pagos y declaraciones que realizan las empresas con fines de lucro dentro de los ciento veinte (120) días continuos de finalizado el ejercicio fiscal.
+        Se refiere a los pagos y declaraciones que realizan las empresas con fines de lucro dentro de los ciento veinte (120) días continuos de finalizado el ejercicio fiscal.
 
-.. figure:: ../resources/deporte.jpg
-:alt: Impuesto Ley del Deporte
+        |Impuesto Ley del Deporte|
 
-Impuesto Ley del Deporte
+        Imagen 72. Impuesto Ley del Deporte
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Impuesto Ley del Deporte**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Impuesto Ley del Deporte**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Impuesto Ley del Deporte**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Impuesto Ley del Deporte**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los impuestos de la ley del deporte.
+        Permite reflejar el gasto referente a los impuestos de la ley del deporte.
 
 #. **Impuesto LOCTI**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a los pagos y declaraciones que realizan las empresas dentro del segundo trimestre de cada año, el porcentaje del mismo depende de la actividad económica de la empresa.
+        Se refiere a los pagos y declaraciones que realizan las empresas dentro del segundo trimestre de cada año, el porcentaje del mismo depende de la actividad económica de la empresa.
 
-.. figure:: ../resources/locti.jpg
-:alt: Impuesto LOCTI
+        |Impuesto LOCTI|
 
-Impuesto LOCTI
+        Imagen 73. Impuesto LOCTI
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Impuesto LOCTI**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Impuesto LOCTI**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Impuesto LOCTI**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Impuesto LOCTI**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los impuestos de la LOCTI.
+        Permite reflejar el gasto referente a los impuestos de la LOCTI.
 
 #. **Impuesto Municipal**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a los pagos y declaraciones que realizan las empresas de acuerdo a su actividad y al porcentaje de retención que manejen los diferentes municipios.
+        Se refiere a los pagos y declaraciones que realizan las empresas de acuerdo a su actividad y al porcentaje de retención que manejen los diferentes municipios.
 
-.. figure:: ../resources/municipal.jpg
-:alt: Impuesto Municipal
+        |Impuesto Municipal|
 
-Impuesto Municipal
+        Imagen 74. Impuesto Municipal
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Impuesto Municipal**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Impuesto Municipal**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Impuesto Municipal**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Impuesto Municipal**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los impuestos municipales.
+        Permite reflejar el gasto referente a los impuestos municipales.
 
 #. **Impuesto Sobre la Renta**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a los pagos y declaraciones que realizan las empresas del treinta y cuatro por ciento (34%) de la renta neta fiscal.
+        Se refiere a los pagos y declaraciones que realizan las empresas del treinta y cuatro por ciento (34%) de la renta neta fiscal.
 
-.. figure:: ../resources/islr.png
-:alt: Impuesto Sobre la Renta
+        |Impuesto Sobre la Renta|
 
-Impuesto Sobre la Renta
+        Imagen 75. Impuesto Sobre la Renta
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Impuesto Sobre la Renta**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Impuesto Sobre la Renta**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Impuesto Sobre la Renta**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Impuesto Sobre la Renta**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente al impuesto sobre la renta.
+        Permite reflejar el gasto referente al impuesto sobre la renta.
 
 #. **Intereses**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a los intereses que se generan de las cuentas por cobrar y las cuentas pagar de las empresas.
+        Se refiere a los intereses que se generan de las cuentas por cobrar y las cuentas pagar de las empresas.
 
-.. figure:: ../resources/intereses.jpeg
-:alt: Intereses
+        |Intereses|
 
-Intereses
+        Imagen 76. Intereses
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Intereses**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Intereses**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Intereses**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Intereses**" es utilizado por el socio de negocio para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los intereses que deben cobrar o pagar las empresas.
+        Permite reflejar el gasto referente a los intereses que deben cobrar o pagar las empresas.
 
 #. **Intereses Moratorios**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a los montos que deben ser pagados o cobrados por demoras o impuntualidad de pagos de las empresas.
+        Se refiere a los montos que deben ser pagados o cobrados por demoras o impuntualidad de pagos de las empresas.
 
-.. figure:: ../resources/moratorios.jpg
-:alt: Intereses Moratorios
+        |Intereses Moratorios|
 
-Intereses Moratorios
+        Imagen 77. Intereses Moratorios
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Intereses Moratorios**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Intereses Moratorios**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Intereses Moratorios**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Intereses Moratorios**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a los intereses moratorios que deben cobrar o pagar las empresas.
+        Permite reflejar el gasto referente a los intereses moratorios que deben cobrar o pagar las empresas.
 
 #. **Multas y Sanciones**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere a las multas y sanciones aplicadas a la empresa por faltas que la misma realice, así como también por incumplicidad de las leyes por parte de la misma.
+        Se refiere a las multas y sanciones aplicadas a la empresa por faltas que la misma realice, así como también por incumplicidad de las leyes por parte de la misma.
 
-.. figure:: ../resources/legales.png
-:alt: Multas y Sanciones
+        |Multas y Sanciones|
 
-Multas y Sanciones
+        Imagen 78. Multas y Sanciones
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por cobrar el cargo "**Multas y Sanciones**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por cobrar el cargo "**Multas y Sanciones**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio con la finalidad de pagarle al mismo el dinero que le debe.
 
--  En cuentas por pagar el cargo "**Multas y Sanciones**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Multas y Sanciones**" es utilizado por el socio de negocio tipo cliente para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a las multas y sanciones que deben pagar las empresas.
+        Permite reflejar el gasto referente a las multas y sanciones que deben pagar las empresas.
 
 #. **Servicio de Abono a Nómina**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al pago de la nómina que las empresas le realizan a sus trabajadores indiferentemente del periodo que las mismas utilicen para pagar.
+        Se refiere al pago de la nómina que las empresas le realizan a sus trabajadores indiferentemente del periodo que las mismas utilicen para pagar.
 
-.. figure:: ../resources/nomina.png
-:alt: Servicio de Abono a Nómina
+        |Servicio de Abono a Nómina|
 
-Servicio de Abono a Nómina
+        Imagen 79. Servicio de Abono a Nómina
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Servicio de Abono a Nómina**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de pagarle al mismo el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Servicio de Abono a Nómina**" es utilizado por la empresa para generar un ajuste de débito al socio de negocio tipo empleado con la finalidad de pagarle al mismo el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente al servicio de abono a nómina de la empresa.
+        Permite reflejar el gasto referente al servicio de abono a nómina de la empresa.
 
 #. **Suspensión de Cheques**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto que tienen las empresas cuando necesitan solicitar la suspensión de cheques a los diferentes bancos en los que poseen cuentas.
+        Se refiere al gasto que tienen las empresas cuando necesitan solicitar la suspensión de cheques a los diferentes bancos en los que poseen cuentas.
 
-.. figure:: ../resources/cheque.png
-:alt: Suspensión de Cheques
+        |Suspensión de Cheques|
 
-Suspensión de Cheques
+        Imagen 80. Suspensión de Cheques
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Suspensión de Cheques**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Suspensión de Cheques**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la suspensión de cheques de las diferentes cuentas que poseen las empresas.
+        Permite reflejar el gasto referente a la suspensión de cheques de las diferentes cuentas que poseen las empresas.
 
 #. **Suspensión de Chequera**
 
-#. **Definición**
+    #. **Definición**
 
-Se refiere al gasto que tienen las empresas cuando necesitan solicitar la suspensión de chequeras a los diferentes bancos en los que poseen cuentas.
+        Se refiere al gasto que tienen las empresas cuando necesitan solicitar la suspensión de chequeras a los diferentes bancos en los que poseen cuentas.
 
-.. figure:: ../resources/chequeras.png
-:alt: Suspensión de Chequera
+        |Suspensión de Chequera|
 
-Suspensión de Chequera
+        Imagen 81. Suspensión de Chequera
 
-#.  **Implicación en ADempiere**
+    #.  **Implicación en ADempiere**
 
--  En cuentas por pagar el cargo "**Suspensión de Chequera**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
+        -  En cuentas por pagar el cargo "**Suspensión de Chequera**" es utilizado por el socio de negocio tipo proveedor para generar un ajuste de débito a la empresa con la finalidad de que la misma le pague el dinero que le debe.
 
-.. warning:: 
+    .. warning:: 
 
-Permite reflejar el gasto referente a la suspensión de chequeras de las diferentes cuentas que poseen las empresas.
+        Permite reflejar el gasto referente a la suspensión de chequeras de las diferentes cuentas que poseen las empresas.
