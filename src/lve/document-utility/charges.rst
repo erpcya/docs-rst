@@ -82,8 +82,8 @@
 
 .. _documento/cargos:
 
-**Cargos**
-==========
+**Tipos de Cargos**
+===================
 
 En ADempiere los tipos de cargos se encuentran conformados por diferentes cargos y su aplicación en documentos específicos generan ajustes de débito o crédito a los mismos.
 
@@ -91,8 +91,8 @@ Entendiendo como cargo, los diferentes conceptos por medio de los cuales se gene
 
 El presente material es elaborado por la empresa ERPyA, el mismo explicará de forma eficiente al usuario la utilidad que representan los tipos de cargos y los diferentes cargos que los conforman, para nuestra localización Venezuela en la versión 3.92 de ADempiere.
 
-**Tipo de Cargo Recursos Humanos**
-----------------------------------
+**Recursos Humanos**
+--------------------
 
 El tipo de cargo "**Recursos Humanos**" se refiere netamente al personal de la empresa, en este se agrupan todos los cargos que pueden o no acreditar a todo el personal de la misma.
 
@@ -499,8 +499,8 @@ Actualmente ADempiere utiliza diecisiete (17) diferentes cargos en tipo de cargo
 
         Permite reflejar el gasto referente a los viáticos de los trabajadores de la empresa.
 
-**Tipo de Cargo Servicios Básicos**
------------------------------------
+**Servicios Básicos**
+---------------------
 
 El tipo de cargo "**Servicios Básicos**" se refiere a todos aquellos servicios que son pagados por las empresas, en este se agrupan todos los cargos que acreditan a las empresas por posesión de los mismos, sin embargo las desacreditan monetariamente por el pago correspondiente a cada servicio.
 
@@ -713,8 +713,8 @@ Actualmente ADempiere utiliza nueve (9) diferentes cargos en el tipo de cargo "*
 
         Permite reflejar el gasto referente al servicio de vigilancia suministrado en una empresa determinada.
 
-**Tipo de Cargo Nómina**
-------------------------
+**Nómina**
+----------
 
 El tipo de cargo "**Nómina**" se refiere a todos aquellos pagos realizados por las empresas en beneficio de sus empleados, en este se agrupan todos los cargos que acreditan a los trabajadores de las mismas.
 
@@ -996,8 +996,8 @@ Actualmente ADempiere utiliza catorce (14) diferentes cargos en el tipo de cargo
 
         Permite reflejar los pagos referentes a las vacaciones de los diferentes trabajadores de las empresas.
 
-**Tipo de Cargo Publicidad**
-----------------------------
+**Publicidad**
+--------------
 
 El tipo de cargo "**Publicidad**" se refiere a toda aquella publicidad que es pagada por las empresas, en este tipo de cargo se agrupan todos los cargos que acreditan a las empresas por publicidad y propaganda, sin embargo las desacreditan monetariamente por el pago correspondiente a cada publicidad.
 
@@ -1138,8 +1138,8 @@ Actualmente ADempiere utiliza cinco (5) diferentes cargos en el tipo de cargo "*
 
         Permite reflejar el gasto referente a la publicidad en vallas de una empresa determinada.
 
-**Tipo de Cargo Administrativos**
----------------------------------
+**Administrativos**
+-------------------
 
 El tipo de cargo "**Administrativos**" se refiere a todos aquellos gastos pagados por las empresas para la adquisición de beneficios para la misma, en este se agrupan todos los cargos que acreditan a las empresas por beneficios o adquisiciones, sin embargo las desacreditan monetariamente por el pago correspondiente a cada beneficio o adquisición.
 
@@ -1529,8 +1529,8 @@ Actualmente ADempiere utiliza dieciocho (18) diferentes cargos en el tipo de car
 
         Permite reflejar el gasto referente a los servicios legales suministrados en las empresas.
 
-**Tipo de Cargo Bancario**
---------------------------
+**Bancario**
+------------
 
 El tipo de cargo "**Bancario**" se refiere a todos aquellos pagos que las empresas realiza por imposición u obligación, en este se agrupan todos los cargos que desacreditan monetariamente a las empresas por deudas obtenidas por obligación.
 

@@ -2,8 +2,8 @@
 
 .. _documento/categoria-productos:
 
-**Categoría de Productos**
-==========================
+**Categorías de Productos**
+===========================
 
 La categoría de producto es una agrupación de los productos que posee una determinada empresa, la misma se realiza según las caracteristicas de cada producto y genera una implicación en la contabilidad de dicha empresa.
 
@@ -11,8 +11,8 @@ El presente documento elaborado por la empresa ERPyA pretende explicar a los usu
 
 La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) tipos de categorías de productos definidos a continuación, cada producto perteneciente a una categoría hereda sus parámetros contables.
 
-**Categoría de Producto Activos Fijos**
----------------------------------------
+**Activos Fijos**
+-----------------
 
 #. **Definición**
 
@@ -30,8 +30,8 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Categoría de Producto Comercialización Importada**
-----------------------------------------------------
+**Comercialización Importada**
+------------------------------
 
 #. **Definición**
 
@@ -49,8 +49,8 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Categoría de Producto Comercialización Nacional**
----------------------------------------------------
+**Comercialización Nacional**
+-----------------------------
 
 #. **Definición**
 
@@ -68,8 +68,8 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Categoría de Producto Desperdicio**
--------------------------------------
+**Desperdicio**
+---------------
 
 #. **Definición**
 
@@ -87,8 +87,8 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Categoría de Producto Dotaciones**
-------------------------------------
+**Dotaciones**
+--------------
 
 #. **Definición**
 
@@ -106,8 +106,8 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Categoría de Producto Herramientas**
---------------------------------------
+**Herramientas**
+----------------
 
 #. **Definición**
 
@@ -125,8 +125,8 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Categoría de Producto Implementos POP**
------------------------------------------
+**Implementos POP**
+-------------------
 
 #. **Definición**
 
@@ -144,8 +144,8 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Categoría de Producto Insumos de Oficina**
---------------------------------------------
+**Insumos de Oficina**
+----------------------
 
 #. **Definición**
 
@@ -163,8 +163,8 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Categoría de Producto Insumos de Producción**
------------------------------------------------
+**Insumos de Producción**
+-------------------------
 
 #. **Definición**
 
@@ -182,8 +182,8 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Categoría de Producto Insumos de Reparación**
------------------------------------------------
+**Insumos de Reparación**
+-------------------------
 
 #. **Definición**
 
@@ -201,8 +201,8 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Categoría de Producto Material en Proceso**
----------------------------------------------
+**Material en Proceso**
+-----------------------
 
 #. **Definición**
 
@@ -220,8 +220,8 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Categoría de Producto Material Semielaborado**
-------------------------------------------------
+**Material Semielaborado**
+--------------------------
 
 #. **Definición**
 
@@ -239,8 +239,8 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Categoría de Producto Producto Terminado**
---------------------------------------------
+**Producto Terminado**
+----------------------
 
 #. **Definición**
 

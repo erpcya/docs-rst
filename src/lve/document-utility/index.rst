@@ -9,9 +9,9 @@ Esta documentación está destinada a definir la utilidad de cada uno de los doc
 .. toctree::
     :maxdepth: 2
 
-    product-group
+    product-group/index
     product-category
     group-of-business-partners
     charges
-    document-type
-    roles
+    document-type/index
+    roles/index

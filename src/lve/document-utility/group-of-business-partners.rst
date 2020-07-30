@@ -3,8 +3,8 @@
 
 .. _documento/grupo-socio-negocio:
 
-**Grupo de Socios del Negocio**
-===============================
+**Grupos de Socios del Negocio**
+================================
 
 ADempiere permite agrupar los socios del negocio por categorías que distinguen unos grupos de socios de otros, la clasificación o agrupación de un socio del negocio se realiza al momento del registro del mismo. Un socio del negocio puede ser cliente, proveedor o empleado, a su vez estos se pueden agrupar por banco, clientes nacionales, clientes internacionales, empleados, gobierno, proveedores nacionales y proveedores internacionales, dependiendo de la función que el socio del negocio cumple para una determinada empresa.
 
@@ -14,8 +14,8 @@ En ADempiere es posible clasificar o agrupar los socios del negocio que se vayan
 
 La agrupación de los socios del negocio se realiza de forma sencilla en la ventana "**Socio del Negocio**", seleccionando en el campo desplegable "**Grupo de Socio del Negocio**" el grupo al cual va a pertenecer el socio que se encuentra en el proceso de registro. A continuación se definen los diferentes grupos de socios del negocio que contempla ADempiere.
 
-**Grupo de Socio del Negocio Banco**
-------------------------------------
+**Banco**
+---------
 
 #. **Definición**
 
@@ -25,8 +25,8 @@ La agrupación de los socios del negocio se realiza de forma sencilla en la vent
 
 	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio banco.
 
-**Grupo de Socio del Negocio Clientes Nacionales**
---------------------------------------------------
+**Clientes Nacionales**
+-----------------------
 
 #. **Definición**
 
@@ -36,8 +36,8 @@ La agrupación de los socios del negocio se realiza de forma sencilla en la vent
 
 	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio clientes nacionales.
 
-**Grupo de Socio del Negocio Clientes Internacionales**
--------------------------------------------------------
+**Clientes Internacionales**
+----------------------------
 
 #. **Definición**
 
@@ -47,8 +47,8 @@ La agrupación de los socios del negocio se realiza de forma sencilla en la vent
 
 	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio clientes internacionales.
 
-**Grupo de Socio del Negocio Empleados**
-----------------------------------------
+**Empleados**
+-------------
 
 #. **Definición**
 
@@ -58,8 +58,8 @@ La agrupación de los socios del negocio se realiza de forma sencilla en la vent
 
 	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio empleados.
 
-**Grupo de Socio del Negocio Gobierno**
----------------------------------------
+**Gobierno**
+------------
 
 #. **Definición**
 
@@ -69,8 +69,8 @@ La agrupación de los socios del negocio se realiza de forma sencilla en la vent
 
 	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio gobierno.
 
-**Grupo de Socio del Negocio Proveedores Nacionales**
------------------------------------------------------
+**Proveedores Nacionales**
+--------------------------
 
 #. **Definición**
 
@@ -80,8 +80,8 @@ La agrupación de los socios del negocio se realiza de forma sencilla en la vent
 
 	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio proveedores nacionales.
 
-**Grupo de Socio del Negocio Proveedores Internacionales**
-----------------------------------------------------------
+**Proveedores Internacionales**
+-------------------------------
 
 #. **Definición**
 
