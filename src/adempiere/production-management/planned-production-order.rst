@@ -26,6 +26,9 @@
 **Orden de Producción Planeada**
 ================================
 
+**Registro de Orden de Producción Planeada**
+--------------------------------------------
+
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Materiales**", luego seleccione la carpeta "**Producción Ligera**", por último seleccione la ventana "**Órdenes de Producción Planeadas**".
 
     |Menú de ADempiere|
@@ -150,8 +153,8 @@
 
     Imagen 20. Campo Cantidad Ordenada Luego de Completar el Documento
 
-**Producción**
---------------
+**Consulta de Producción**
+--------------------------
 
 #. Por cada producción completada en la pestaña "**Encabezado de Producción**", de la ventana "**Producción**", es generado automáticamente un registro general en la pestaña "**Producción**", de la ventana "**Órdenes de Producción Planeadas**".
 

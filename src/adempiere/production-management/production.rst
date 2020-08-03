@@ -25,8 +25,11 @@
 
 .. _documento/producción:
 
+**Producción**
+==============
+
 **Registro de Producción**
-==========================
+--------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Materiales**", luego seleccione la ventana "**Producción**".
 
