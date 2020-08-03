@@ -26,6 +26,11 @@
 **Orden de Producción Planeada**
 ================================
 
+Una orden de producción parte del proceso de planificación de producción de una determinada empresa, es elaborada basandose en los materiales o insumos de producción con los que cuenta la misma. Una vez ya planificada la producción se procede a realizar la autorización, o bien, la orden de producción.
+
+Por medio de este documento se lleva un control de los materiales, gastos, y el tiempo empleado por los trabajadores o maquinarias. Adicional a ello, indica los productos y la cantidad que se debe producir en un tiempo estimado.
+
+
 **Registro de Orden de Producción Planeada**
 --------------------------------------------
 
