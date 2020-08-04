@@ -12,6 +12,7 @@ En esta oportunidad queremos ofrecer a los lectores una amplia gama de documento
 .. toctree::
     :maxdepth: 2
 
+    document-utility/index
     fiscal-printer/index
     procedures/index
     report/index
