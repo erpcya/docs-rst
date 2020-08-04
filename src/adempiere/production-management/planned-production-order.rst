@@ -26,6 +26,14 @@
 **Orden de Producción Planeada**
 ================================
 
+Una orden de producción parte del proceso de planificación de producción de una determinada empresa, es elaborada basandose en los materiales o insumos de producción con los que cuenta la misma. Una vez ya planificada la producción se procede a realizar la autorización, o bien, la orden de producción.
+
+Por medio de este documento se lleva un control de los materiales, gastos, y el tiempo empleado por los trabajadores o maquinarias. Adicional a ello, indica los productos y la cantidad que se debe producir en un tiempo estimado.
+
+
+**Registro de Orden de Producción Planeada**
+--------------------------------------------
+
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Materiales**", luego seleccione la carpeta "**Producción Ligera**", por último seleccione la ventana "**Órdenes de Producción Planeadas**".
 
     |Menú de ADempiere|
@@ -150,8 +158,8 @@
 
     Imagen 20. Campo Cantidad Ordenada Luego de Completar el Documento
 
-**Producción**
---------------
+**Consulta de Producción**
+--------------------------
 
 #. Por cada producción completada en la pestaña "**Encabezado de Producción**", de la ventana "**Producción**", es generado automáticamente un registro general en la pestaña "**Producción**", de la ventana "**Órdenes de Producción Planeadas**".
 
