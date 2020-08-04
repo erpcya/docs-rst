@@ -10,7 +10,7 @@ Esta documentación está destinada a definir la utilidad de cada uno de los doc
     :maxdepth: 2
 
     product-group
-    product-category/index
+    product-category
     group-of-business-partners/index
     charges/index
     document-type/index

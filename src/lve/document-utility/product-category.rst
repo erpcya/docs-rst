@@ -87,44 +87,6 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Dotaciones**
---------------
-
-#. **Definición**
-
-    Son todos aquellos productos o implementos que la empresa suministra a los trabajadores en sus diferentes áreas o departamentos que los necesiten para el cumplimiento de las actividades en la misma.
-
-#. **Codificación de la Categoría de Producto**
-
-    La categoría de producto dotaciones se encuentra identificada en ADempiere por un código único, el mismo se compone de las tres primeras letras de la categoría del producto, en este caso el código es "**DOT**" porque la categoría del producto es "**DOTACIONES**".
-
-#. **Implicación en ADempiere**
-
-    -  Distingue los bienes y servicios que una empresa posee como dotaciones.
-    -  Define las reglas contables de los productos que pertenecen a esta categoría.
-    -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
-    -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
-    -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
-
-**Herramientas**
-----------------
-
-#. **Definición**
-
-    Son utensilios o servicios que ayudan o permiten a los trabajadores de la empresa realizar las diferentes actividades necesarias dentro de la misma para el cumplimiento sus objetivos.
-
-#. **Codificación de la Categoría de Producto**
-
-    La categoría de producto herramientas se encuentra identificada en ADempiere por un código único, el mismo se compone de las tres primeras letras de la categoría del producto, en este caso el código es "**HER**" porque la categoría del producto es "**HERRAMIENTAS**".
-
-#. **Implicación en ADempiere**
-
-    -  Distingue los bienes y servicios que una empresa posee como herramientas.
-    -  Define las reglas contables de los productos que pertenecen a esta categoría.
-    -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
-    -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
-    -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
-
 **Implementos POP**
 -------------------
 
@@ -139,25 +101,6 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
 #. **Implicación en ADempiere**
 
     -  Distingue los bienes y servicios que una empresa posee como implementos POP.
-    -  Define las reglas contables de los productos que pertenecen a esta categoría.
-    -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
-    -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
-    -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
-
-**Insumos de Oficina**
-----------------------
-
-#. **Definición**
-
-    Son todos los artículos u objetos que los trabajadores necesitan y la empresa compra para proveer a sus diferentes áreas o departamentos con la finalidad de que cumplan con las actividades dentro de la misma.
-
-#. **Codificación de la Categoría de Producto**
-
-    La categoría de producto insumos de oficina se encuentra identificada en ADempiere por un código único, el mismo se compone de las dos primeras letras de la primera palabra "**INSUMOS**" y de la primera letra de la segunda palabra "**OFICINA**", en este caso el código es "**INO**" porque la categoría del producto es "**INSUMOS DE OFICINA**".
-
-#. **Implicación en ADempiere**
-
-    -  Distingue los bienes y servicios que una empresa posee como insumos de oficina.
     -  Define las reglas contables de los productos que pertenecen a esta categoría.
     -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
@@ -182,20 +125,39 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Insumos de Reparación**
--------------------------
+**Material en Consignación Importados**
+---------------------------------------
 
 #. **Definición**
 
-    Son todos los artículos u objetos que se necesita en una reparación de productos o servicios y la empresa compra para provee a sus diferentes áreas o departamentos con la finalidad de que cumplan con la producción planificada dentro de la misma.
+    Se conoce como producto  en consignación los productos almacenados en la compañía perteneciente a un proveedor, productos que no pueden ser contabilizados.
 
 #. **Codificación de la Categoría de Producto**
 
-    La categoría de producto insumos de reparación se encuentra identificada en ADempiere por un código único, el mismo se compone de las dos primeras letras de la primera palabra "**INSUMOS**" y de la primera letra de la segunda palabra "**REPARACIÓN**", en este caso el código es "**INR**" porque la categoría del producto es "**INSUMOS DE REPARACIÓN**".
+    La categoría de producto material en consignación importados se encuentra identificada en ADempiere por un código único, el mismo se compone de la primera letra de la primera palabra "**MATERIAL**", de las dos primeras letras de la segunda palabra "**CONSIGNACIÓN**" y de la primera letra de la tercera palabra "**IMPORTADOS**", en este caso el código es "**MCOI**" porque la categoría del producto es "**MATERIAL EN CONSIGNACIÓN IMPORTADOS**".
 
 #. **Implicación en ADempiere**
 
-    -  Distingue los bienes y servicios que una empresa posee como insumos de reparación.
+    -  Distingue los bienes y servicios que una empresa posee como material en consignación importados.
+    -  Define las reglas contables de los productos que pertenecen a esta categoría.
+    -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
+    -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
+    -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
+
+**Material en Consignación Nacional**
+-------------------------------------
+
+#. **Definición**
+
+    Se conoce como producto  en consignación los productos almacenados en la compañía perteneciente a un proveedor, productos que no pueden ser contabilizados.
+
+#. **Codificación de la Categoría de Producto**
+
+    La categoría de producto material en consignación importados se encuentra identificada en ADempiere por un código único, el mismo se compone de la primera letra de la primera palabra "**MATERIAL**", de las dos primeras letras de la segunda palabra "**CONSIGNACIÓN**" y de la primera letra de la tercera palabra "**NACIONAL**", en este caso el código es "**MCON**" porque la categoría del producto es "**MATERIAL EN CONSIGNACIÓN NACIONAL**".
+
+#. **Implicación en ADempiere**
+
+    -  Distingue los bienes y servicios que una empresa posee como material en consignación nacional.
     -  Define las reglas contables de los productos que pertenecen a esta categoría.
     -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
@@ -253,6 +215,101 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
 #. **Implicación en ADempiere**
 
     -  Distingue los bienes y servicios que una empresa posee como producto terminado.
+    -  Define las reglas contables de los productos que pertenecen a esta categoría.
+    -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
+    -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
+    -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
+
+**Suministros de Dotaciones**
+-----------------------------
+
+#. **Definición**
+
+    Son todos aquellos productos o implementos que la empresa suministra a los trabajadores en sus diferentes áreas o departamentos que los necesiten para el cumplimiento de las actividades en la misma.
+
+#. **Codificación de la Categoría de Producto**
+
+    La categoría de producto suministros de dotaciones se encuentra identificada en ADempiere por un código único, el mismo se compone de las tres primeras letras de la palabra "**DOTACIONES**", en este caso el código es "**DOT**" porque la categoría del producto es "**SUMINISTROS DE DOTACIONES**".
+
+#. **Implicación en ADempiere**
+
+    -  Distingue los bienes y servicios que una empresa posee como dotaciones.
+    -  Define las reglas contables de los productos que pertenecen a esta categoría.
+    -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
+    -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
+    -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
+
+**Suministros de Herramientas**
+-------------------------------
+
+#. **Definición**
+
+    Son utensilios o servicios que ayudan o permiten a los trabajadores de la empresa realizar las diferentes actividades necesarias dentro de la misma para el cumplimiento sus objetivos.
+
+#. **Codificación de la Categoría de Producto**
+
+    La categoría de producto suministros de herramientas se encuentra identificada en ADempiere por un código único, el mismo se compone de las tres primeras letras de la palabra "**HERRAMIENTAS**", en este caso el código es "**HER**" porque la categoría del producto es "**SUMINISTROS DE HERRAMIENTAS**".
+
+#. **Implicación en ADempiere**
+
+    -  Distingue los bienes y servicios que una empresa posee como herramientas.
+    -  Define las reglas contables de los productos que pertenecen a esta categoría.
+    -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
+    -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
+    -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
+
+**Insumos de Oficina**
+----------------------
+
+#. **Definición**
+
+    Son todos los artículos u objetos que los trabajadores necesitan y la empresa compra para proveer a sus diferentes áreas o departamentos con la finalidad de que cumplan con las actividades dentro de la misma.
+
+#. **Codificación de la Categoría de Producto**
+
+    La categoría de producto insumos de oficina se encuentra identificada en ADempiere por un código único, el mismo se compone de las dos primeras letras de la primera palabra "**INSUMOS**" y de la primera letra de la segunda palabra "**OFICINA**", en este caso el código es "**INO**" porque la categoría del producto es "**INSUMOS DE OFICINA**".
+
+#. **Implicación en ADempiere**
+
+    -  Distingue los bienes y servicios que una empresa posee como insumos de oficina.
+    -  Define las reglas contables de los productos que pertenecen a esta categoría.
+    -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
+    -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
+    -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
+
+**Insumos de Reparación**
+-------------------------
+
+#. **Definición**
+
+    Son todos los artículos u objetos que se necesita en una reparación de productos o servicios y la empresa compra para provee a sus diferentes áreas o departamentos con la finalidad de que cumplan con la producción planificada dentro de la misma.
+
+#. **Codificación de la Categoría de Producto**
+
+    La categoría de producto insumos de reparación se encuentra identificada en ADempiere por un código único, el mismo se compone de las dos primeras letras de la primera palabra "**INSUMOS**" y de la primera letra de la segunda palabra "**REPARACIÓN**", en este caso el código es "**INR**" porque la categoría del producto es "**INSUMOS DE REPARACIÓN**".
+
+#. **Implicación en ADempiere**
+
+    -  Distingue los bienes y servicios que una empresa posee como insumos de reparación.
+    -  Define las reglas contables de los productos que pertenecen a esta categoría.
+    -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
+    -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
+    -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
+
+**Insumos de Reparación**
+-------------------------
+
+#. **Definición**
+
+    Son todos los artículos u objetos que se necesita en una reparación de productos o servicios y la empresa compra para provee a sus diferentes áreas o departamentos con la finalidad de que cumplan con la producción planificada dentro de la misma.
+
+#. **Codificación de la Categoría de Producto**
+
+    La categoría de producto insumos de reparación se encuentra identificada en ADempiere por un código único, el mismo se compone de las dos primeras letras de la primera palabra "**INSUMOS**" y de la primera letra de la segunda palabra "**REPARACIÓN**", en este caso el código es "**INR**" porque la categoría del producto es "**INSUMOS DE REPARACIÓN**".
+
+#. **Implicación en ADempiere**
+
+    -  Distingue los bienes y servicios que una empresa posee como insumos de reparación.
     -  Define las reglas contables de los productos que pertenecen a esta categoría.
     -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
