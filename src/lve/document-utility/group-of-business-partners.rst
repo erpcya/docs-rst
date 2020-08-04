@@ -14,6 +14,17 @@ En ADempiere es posible clasificar o agrupar los socios del negocio que se vayan
 
 La agrupación de los socios del negocio se realiza de forma sencilla en la ventana "**Socio del Negocio**", seleccionando en el campo desplegable "**Grupo de Socio del Negocio**" el grupo al cual va a pertenecer el socio que se encuentra en el proceso de registro. A continuación se definen los diferentes grupos de socios del negocio que contempla ADempiere.
 
+**Accionista**
+--------------
+
+#. **Definición**
+
+	Personas que poseen acciones en una sociedad financiera, comercial o industrial.
+	
+#. **Implicación en ADempiere**
+
+	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio accionista.
+
 **Banco**
 ---------
 
@@ -25,17 +36,6 @@ La agrupación de los socios del negocio se realiza de forma sencilla en la vent
 
 	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio banco.
 
-**Clientes Nacionales**
------------------------
-
-#. **Definición**
-
-	El grupo de socios del negocio clientes nacionales, es creado con la intención de agrupar todos los clientes localizados en Venezuela, registrados en ADempiere como socios del negocio tipo cliente y empleado.
-
-#. **Implicación en ADempiere**
-
-	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio clientes nacionales.
-
 **Clientes Internacionales**
 ----------------------------
 
@@ -46,6 +46,17 @@ La agrupación de los socios del negocio se realiza de forma sencilla en la vent
 #. **Implicación en ADempiere**
 
 	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio clientes internacionales.
+
+**Clientes Nacionales**
+-----------------------
+
+#. **Definición**
+
+	El grupo de socios del negocio clientes nacionales, es creado con la intención de agrupar todos los clientes localizados en Venezuela, registrados en ADempiere como socios del negocio tipo cliente y empleado.
+
+#. **Implicación en ADempiere**
+
+	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio clientes nacionales.
 
 **Empleados**
 -------------
@@ -69,16 +80,27 @@ La agrupación de los socios del negocio se realiza de forma sencilla en la vent
 
 	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio gobierno.
 
-**Proveedores Nacionales**
---------------------------
+**Intercompañías**
+------------------
 
 #. **Definición**
 
-	El grupo de socios del negocio proveedores nacionales, es creado con la intención de agrupar todos proveedores localizados en Venezuela, registrados en ADempiere como socios del negocio tipo proveedor y empleado.
+	Los grupos económicos se constituyen como una alianza estratégica de mercado con el fin de unir fuerzas de infraestructura, publicidad, canales de distribución, entre otros.
 
 #. **Implicación en ADempiere**
 
-	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio proveedores nacionales.
+	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio intercompañías.
+
+**Productores**
+---------------
+
+#. **Definición**
+
+	Productores son encargados de la comercialización agrícola, que permite que los productos perecederos sean abastecidos.
+
+#. **Implicación en ADempiere**
+
+	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio productores.
 
 **Proveedores Internacionales**
 -------------------------------
@@ -90,6 +112,17 @@ La agrupación de los socios del negocio se realiza de forma sencilla en la vent
 #. **Implicación en ADempiere**
 
 	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio proveedores internacionales.
+
+**Proveedores Nacionales**
+--------------------------
+
+#. **Definición**
+
+	El grupo de socios del negocio proveedores nacionales, es creado con la intención de agrupar todos proveedores localizados en Venezuela, registrados en ADempiere como socios del negocio tipo proveedor y empleado.
+
+#. **Implicación en ADempiere**
+
+	-  Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio proveedores nacionales.
 
 **Comportamiento de la Selección del Grupo de Socio del Negocio en ADempiere**
 ------------------------------------------------------------------------------
