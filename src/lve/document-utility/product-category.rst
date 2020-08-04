@@ -296,25 +296,6 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Insumos de Reparación**
--------------------------
-
-#. **Definición**
-
-    Son todos los artículos u objetos que se necesita en una reparación de productos o servicios y la empresa compra para provee a sus diferentes áreas o departamentos con la finalidad de que cumplan con la producción planificada dentro de la misma.
-
-#. **Codificación de la Categoría de Producto**
-
-    La categoría de producto insumos de reparación se encuentra identificada en ADempiere por un código único, el mismo se compone de las dos primeras letras de la primera palabra "**INSUMOS**" y de la primera letra de la segunda palabra "**REPARACIÓN**", en este caso el código es "**INR**" porque la categoría del producto es "**INSUMOS DE REPARACIÓN**".
-
-#. **Implicación en ADempiere**
-
-    -  Distingue los bienes y servicios que una empresa posee como insumos de reparación.
-    -  Define las reglas contables de los productos que pertenecen a esta categoría.
-    -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
-    -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
-    -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
-
 **Importancia de la Categoría de Productos**
 --------------------------------------------
 
