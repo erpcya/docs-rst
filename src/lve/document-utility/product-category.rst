@@ -229,11 +229,11 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
 
 #. **Codificación de la Categoría de Producto**
 
-    La categoría de producto suministros de dotaciones se encuentra identificada en ADempiere por un código único, el mismo se compone de las tres primeras letras de la palabra "**DOTACIONES**", en este caso el código es "**DOT**" porque la categoría del producto es "**SUMINISTROS DE DOTACIONES**".
+    La categoría de producto suministros de dotaciones se encuentra identificada en ADempiere por un código único, el mismo se compone de las dos primeras letras de la palabra "**SUMINISTROS**" y de la primera letra de la palabra "**DOTACIONES**" en este caso el código es "**SUD**" porque la categoría del producto es "**SUMINISTROS DE DOTACIONES**".
 
 #. **Implicación en ADempiere**
 
-    -  Distingue los bienes y servicios que una empresa posee como dotaciones.
+    -  Distingue los bienes y servicios que una empresa posee como suministros de dotaciones.
     -  Define las reglas contables de los productos que pertenecen a esta categoría.
     -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
@@ -248,18 +248,18 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
 
 #. **Codificación de la Categoría de Producto**
 
-    La categoría de producto suministros de herramientas se encuentra identificada en ADempiere por un código único, el mismo se compone de las tres primeras letras de la palabra "**HERRAMIENTAS**", en este caso el código es "**HER**" porque la categoría del producto es "**SUMINISTROS DE HERRAMIENTAS**".
+    La categoría de producto suministros de herramientas se encuentra identificada en ADempiere por un código único, el mismo se compone de las dos primeras letras de la palabra "**SUMINISTROS**" y de la primera letra de la palabra "**HERRAMIENTAS**", en este caso el código es "**SUH**" porque la categoría del producto es "**SUMINISTROS DE HERRAMIENTAS**".
 
 #. **Implicación en ADempiere**
 
-    -  Distingue los bienes y servicios que una empresa posee como herramientas.
+    -  Distingue los bienes y servicios que una empresa posee como suministros de herramientas.
     -  Define las reglas contables de los productos que pertenecen a esta categoría.
     -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Insumos de Oficina**
-----------------------
+**Suministros de Oficina**
+---------------------------
 
 #. **Definición**
 
@@ -267,18 +267,18 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
 
 #. **Codificación de la Categoría de Producto**
 
-    La categoría de producto insumos de oficina se encuentra identificada en ADempiere por un código único, el mismo se compone de las dos primeras letras de la primera palabra "**INSUMOS**" y de la primera letra de la segunda palabra "**OFICINA**", en este caso el código es "**INO**" porque la categoría del producto es "**INSUMOS DE OFICINA**".
+    La categoría de producto suministros de oficina se encuentra identificada en ADempiere por un código único, el mismo se compone de las dos primeras letras de la primera palabra "**SUMINISTROS**" y de la primera letra de la segunda palabra "**OFICINA**", en este caso el código es "**SUO**" porque la categoría del producto es "**SUMINISTROS DE OFICINA**".
 
 #. **Implicación en ADempiere**
 
-    -  Distingue los bienes y servicios que una empresa posee como insumos de oficina.
+    -  Distingue los bienes y servicios que una empresa posee como suministros de oficina.
     -  Define las reglas contables de los productos que pertenecen a esta categoría.
     -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
     -  Copia la configuración contable de la categoría a los productos existentes en ADempiere.
 
-**Insumos de Reparación**
--------------------------
+**Suministros de Reparación**
+-----------------------------
 
 #. **Definición**
 
@@ -286,11 +286,11 @@ La empresa ERPyA en la configuración de ADempiere tiene como base trece (13) ti
 
 #. **Codificación de la Categoría de Producto**
 
-    La categoría de producto insumos de reparación se encuentra identificada en ADempiere por un código único, el mismo se compone de las dos primeras letras de la primera palabra "**INSUMOS**" y de la primera letra de la segunda palabra "**REPARACIÓN**", en este caso el código es "**INR**" porque la categoría del producto es "**INSUMOS DE REPARACIÓN**".
+    La categoría de producto suministros de reparación se encuentra identificada en ADempiere por un código único, el mismo se compone de las dos primeras letras de la primera palabra "**SUMINISTROS**" y de la primera letra de la segunda palabra "**REPARACIÓN**", en este caso el código es "**SUR**" porque la categoría del producto es "**SUMINISTROS DE REPARACIÓN**".
 
 #. **Implicación en ADempiere**
 
-    -  Distingue los bienes y servicios que una empresa posee como insumos de reparación.
+    -  Distingue los bienes y servicios que una empresa posee como suministros de reparación.
     -  Define las reglas contables de los productos que pertenecen a esta categoría.
     -  Define el metodo de costeo de los productos que pertenecen a esta categoría.
     -  Afecta los precios de los productos que pertenecen a esta categoría por medio del descuento comercial concedido.
