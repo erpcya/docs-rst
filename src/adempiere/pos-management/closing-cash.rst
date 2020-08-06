@@ -1,23 +1,25 @@
 .. |Menú de ADempiere| image:: resources/point-of-sale-menu.png
-.. |Opción Cerrar Caja del Punto de Venta| image:: resources/
-.. |Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Campo Terminal PDV del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Campo Cuenta Bancaria del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Campo Fecha de la Transacción del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Campo Tipo de Pago del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Campo Cobros del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Opción Comenzar Búsqueda para Filtrar la Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Listado de Todos los Cobros Realizados por las Órdenes de Ventas del Punto de Venta| image:: resources/
-.. |Campo Terminal PDV de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Campo Cuenta Bancaria de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Campo Fecha de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Campo Total de la Línea de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Campo Total Pagado de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Campo Total Abierto de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Campo Diferencia Monto de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Checklist Sobre Sub Pago de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Campo Cargo de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
-.. |Opción OK de la Ventana Cierre de Caja del Punto de Venta| image:: resources/
+.. |Opción Cerrar Caja del Punto de Venta| image:: resources/option-close-point-of-sale-box.png
+.. |Ventana Cierre de Caja del Punto de Venta| image:: resources/point-of-sale-box-closing-window.png
+.. |Campo Terminal PDV del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/pos-terminal-search-filter-field-field-close-checkout-window.png
+.. |Campo Cuenta Bancaria del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/bank-account-field-of-the-search-filter-of-the-cash-register-window-of-the-point-of-sale.png
+.. |Campo Fecha de la Transacción del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/transaction-date-field-of-the-search-filter-of-the-point-of-sale-checkout-window.png
+.. |Campo Tipo de Pago del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/payment-type-field-of-the-point-of-sale-window-closing-box-filter.png
+.. |Campo Cobros del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/charges-field-of-the-search-filter-of-the-window-closing-box-of-the-point-of-sale.png
+.. |Opción Comenzar Búsqueda para Filtrar la Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/option-start-search-to-filter-the-search-of-the-point-of-sale-box-closing-window.png
+
+
+.. |Listado de Todos los Cobros Realizados por las Órdenes de Ventas del Punto de Venta| image:: resources/listing-of-all-collections-made-by-sales-orders-from-the-point-of-sale.png
+.. |Campo Terminal PDV de la Ventana Cierre de Caja del Punto de Venta| image:: resources/pos-terminal-window-field-pos-box-closure.png
+.. |Campo Cuenta Bancaria de la Ventana Cierre de Caja del Punto de Venta| image:: resources/bank-account-field-of-the-point-of-sale-cashier-window.png
+.. |Campo Fecha de la Transacción de la Ventana Cierre de Caja del Punto de Venta| image:: resources/transaction-date-field-of-the-point-of-sale-cash-closing-window.png
+.. |Campo Total de la Línea de la Ventana Cierre de Caja del Punto de Venta| image:: resources/total-field-of-the-line-of-the-point-of-sale-cashier-window.png
+.. |Campo Total Pagado de la Ventana Cierre de Caja del Punto de Venta| image:: resources/total-paid-field-of-the-point-of-sale-cashier-closing-window.png
+.. |Campo Total Abierto de la Ventana Cierre de Caja del Punto de Venta| image:: resources/full-window-open-field-cashier-point-of-sale.png
+.. |Campo Diferencia Monto de la Ventana Cierre de Caja del Punto de Venta| image:: resources/field-difference-amount-of-window-closing-cash-point-of-sale.png
+.. |Checklist Sobre Sub Pago de la Ventana Cierre de Caja del Punto de Venta| image:: resources/checklist-about-sub-payment-of-the-window-cashier-closing-of-the-point-of-sale.png
+.. |Campo Cargo de la Ventana Cierre de Caja del Punto de Venta| image:: resources/field-charge-of-the-point-of-sale-cashier-window.png
+.. |Opción OK de la Ventana Cierre de Caja del Punto de Venta| image:: resources/ok-option-of-the-point-of-sale-cashier-window.png
 
 .. _documento/cierre-de-caja-punto-de-venta:
 

@@ -340,7 +340,7 @@ Contiene los campos para modificar la cantidad del producto a vender, el precio 
 
 #. "**Icono Borrar Línea**": Permite borrar el registro del producto creado en la línea seleccionada de la orden de venta. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+F3**".
 
-    |Icono Borrar Línea de la Barra de Edición de Productos de la Ventana Punto de Venta|
+    |Icono Borrar Línea de la Barra de Edición de Productos|
 
     Imagen 42. Icono Borrar Línea de la Barra de Edición de Productos de la Ventana Punto de Venta
 
