@@ -356,7 +356,7 @@ En muchas ocasiones se necesitan realizar anticipos a proveedores, una vez que s
         
             Imagen 39. Campo Regla de Pago del Documento Orden de Pago desde Orden
 
-        #. Campo "**Programa de Pago de Factura**", se debe seleccionar el programa de pago que posea la factura.
+        #. Campo "**Programa de Pago de Factura**", se debe seleccionar el programa de pago que posea la factura, para este caso como estamos trabajando con ordenes no aplica este campo.
 
             |Campo Programa de Pago del Documento Orden de Pago desde Orden|
 
@@ -402,13 +402,13 @@ En muchas ocasiones se necesitan realizar anticipos a proveedores, una vez que s
 
                 Estos dos campos "**Tasa de Cambio**" y "**Tipo deConversióń**" son utilizados en el caso de que se esté trabajando con documentos en moneda extranjera y se necesiten realizar los pagos con la moneda nacional.
 
-        #. Campo "**Total del Pago**" debe aparecer el monto a pagar de la factura, este monto puede ser editado ya que en algunos casos las facturas suelen ser pagadas de forma parcial, todo dependerá del acuerdo de pagos que tenga la compañía con el proveedor.
+        #. Campo "**Total del Pago**" debe aparecer el monto a pagar de la orden, este monto puede ser editado ya para este caso el anticipo a realizar puede ser por el total o solo una parte del total de la orden, todo dependerá del acuerdo de pagos que tenga la compañía con el proveedor.
 
             |Campo Total de Pago del Documento Orden de Pago desde Orden|
 
             Imagen 47. Total de Pago del Documento Orden de Pago desde Orden
 
-        #. Campo "**Total Abierto**" debe aparecer el total abierto que tiene la factura, si la factura ha sido pagada de manera parcial el total pendiente por pagar aparecerá en este campo.
+        #. Campo "**Total Abierto**" debe aparecer el total abierto que tiene la orden.
 
             |Total Abierto del Documento Orden de Pago desde Orden|
 
@@ -426,7 +426,7 @@ En muchas ocasiones se necesitan realizar anticipos a proveedores, una vez que s
 
             Imagen 50. Campo Total de Descuento del Documento Orden de Pago desde Orden
 
-        #. En el campo "**Diferencia monto**" debe aparecer la diferencia que pueda tener una factura entre el total abierto y el total a pagar.
+        #. En el campo "**Diferencia monto**" debe aparecer la diferencia que pueda tener la orden entre el total abierto y el total a pagar.
 
             |Diferencia Monto del Documento Orden de Pago desde Orden|
 
