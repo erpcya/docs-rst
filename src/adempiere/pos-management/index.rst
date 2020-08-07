@@ -17,4 +17,8 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
 
     point-of-sale-terminal
     opening-cash
+    point-of-sale-interface
+    pos
+    withdrawal-of-funds-from-the-point-of-sale
+    closing-cash/index
 

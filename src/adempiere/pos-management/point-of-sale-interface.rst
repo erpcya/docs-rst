@@ -4,10 +4,13 @@
 .. |Seleccionar Terminal PDV| image:: resources/select-terminal-pdv.png
 .. |Seleccionar la Opción OK| image:: resources/select-the-ok-option-from-the-window-select-terminal-pdv.png
 .. |Ventana Punto de Venta| image:: resources/point-of-sale-window.png
+.. |Barra de Herramientas del Punto de Venta| image:: resources/point-of-sale-toolbar.png
 .. |Icono Registro Nuevo de la Barra de Herramientas del Punto de Venta| image:: resources/new-record-icon.png
 .. |Icono Imprimir de la Barra de Herramientas del Punto de Venta| image:: resources/print-icon.png
 .. |Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta| image:: resources/document-type-icon.png
+.. |Ventana Tipo de Documento del Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta| image:: resources/document-type-window-document-type-icon.png
 .. |Icono Información de Producto de la Barra de Herramientas del Punto de Venta| image:: resources/product-information-icon.png
+.. |Ventana Información de Producto del Icono Información de Producto de la Barra de Herramientas del Punto de Venta| image:: resources/product-information-window-of-the-product-information-icon.png
 .. |Icono Cliente de la Barra de Herramientas del Punto de Venta| image:: resources/customer-icon.png
 .. |Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta| image:: resources/point-of-sale-toolbar-customer-icon-business-partner-window.png
 .. |Información de los Clientes en la Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta| image:: resources/customer-information-in-the-business-partner-window-of-the-customer-icon-on-the-point-of-sale-toolbar.png
@@ -15,7 +18,7 @@
 .. |Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/process-icon.png
 .. |Opción Cerrar Caja del Punto de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-close-point-of-sale-box.png
 .. |Opción Generar Factura Inmediata del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-to-generate-immediate-invoice.png
-.. |Opción Completar Orden Prepagada del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-to-complete-prepaid-order.png
+.. |Opción Completar Orden Preparada del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-to-complete-prepaid-order.png
 .. |Opción Anular Transacción de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-to-cancel-sale-transaction.png
 .. |Opción Crear Retiro de POS del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-to-create-pos-withdrawal.png
 .. |Opción Imprimir del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/print-option.png
@@ -27,11 +30,7 @@
 .. |Icono Cancel Order de la Barra de Herramientas del Punto de Venta| image:: resources/cancel-order-icon.png
 .. |Icono Finalizar Ventana de la Barra de Herramientas del Punto de Venta| image:: resources/end-window-icon.png
 .. |Carga de Productos en el Panel de Búsqueda de Productos| image:: resources/product-loading-by-search.png
-.. |Campo Código del Producto del Panel de Búsqueda de Productos| image:: resources/product-code-field-of-the-product-search-panel.png
-.. |Campo Nombre del Producto del Panel de Búsqueda de Productos| image:: resources/product-name-field-in-the-product-search-panel.png
-.. |Campo Disponibilidad del Producto del Panel de Búsqueda de Productos| image:: resources/product-availability-field-of-the-product-search-panel.png
-.. |Campo Precio Estándar del Producto del Panel de Búsqueda de Productos| image:: resources/standard-product-price-field-of-the-product-search-panel.png
-.. |Campo Precio de Lista del Producto del Panel de Búsqueda de Productos| image:: resources/product-list-price-field-of-the-product-search-panel.png
+.. |Resultado de Búsqueda en el Panel de Búsqueda de Producto| image:: resources/search-result-in-product-search-panel.png
 .. |Sección Información de Producto de la Ventana Punto de Venta| image:: resources/product-information-section-of-the-point-of-sale-window.png
 .. |Campo Código del Producto de la Sección Información de Producto de la Ventana Punto de Venta| image:: resources/product-code-field-in-the-product-information-section-of-the-point-of-sale-window.png
 .. |Campo Precio del Producto de la Sección Información de Producto de la Ventana Punto de Venta| image:: resources/product-price-field-in-the-product-information-section-of-the-point-of-sale-window.png
@@ -49,7 +48,6 @@
 .. |Campo Precio Actual de la Barra de Edición de Productos| image:: resources/current-price-field.png
 .. |Campo Descuentos de la Barra de Edición de Productos| image:: resources/discounts-field.png
 .. |Grupo de Campos Línea de Productos| image:: resources/group-of-fields-product-line.png
-.. |Icono Eliminar Línea| image:: resources/delete-line-icon.png
 .. |Columna Nombre del Producto| image:: resources/product-name-column.png
 .. |Columna Cantidad Ordenada| image:: resources/column-quantity-ordered.png
 .. |Columna Unidad de Medida| image:: resources/column-unit-of-measure.png
@@ -111,6 +109,10 @@
 
 Contiene los iconos principales de las ventanas de ADempiere para realizar una gestión exitosa del punto de venta al momento de la venta de los productos. Dicha ventana cuenta con los siguientes iconos explicados a continuación.
 
+    |Barra de Herramientas del Punto de Venta|
+
+    Imagen 6. Barra de Herramientas del Punto de Venta
+
 #. "**Icono Registro Nuevo**": Permite crear un nuevo registro de orden de venta en el punto de venta configurado para el vendedor, la forma más facil de realizar este proceso es por medio de la tecla de acceso directo "**F2**".
 
     |Icono Registro Nuevo de la Barra de Herramientas del Punto de Venta|
@@ -129,11 +131,23 @@ Contiene los iconos principales de las ventanas de ADempiere para realizar una g
 
     Imagen 8. Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta
 
+    #. La selección de este icono permite la visualización de la ventana "**Tipo de Documento**", para seleccionar el tipo de documento con el cual requiere generar el documento.
+
+        |Ventana Tipo de Documento del Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta|
+
+        Imagen 9. Ventana Tipo de Documento del Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta
+
 #. "**Icono Información de Producto**": Permite realizar una búsqueda de los productos para consultar su información, por medio de la selección de los mismos en la ventana desplegada "**Información de Producto**". De igual manera, se puede ejecutar esta acción seleccionando la convinación de las teclas "**Alt+I**".
 
     |Icono Información de Producto de la Barra de Herramientas del Punto de Venta|
 
     Imagen 9. Icono Información de Producto de la Barra de Herramientas del Punto de Venta
+
+    #. La selección de este icono permite la visualización de la ventana "**Información de Producto**", para buscar el producto con el cual requiere generar el documento.
+
+    |Ventana Información de Producto del Icono Información de Producto de la Barra de Herramientas del Punto de Venta|
+
+    Imagen 10. Ventana Información de Producto del Icono Información de Producto de la Barra de Herramientas del Punto de Venta
 
 #. "**Icono Cliente**": Despliega una ventana que permite cambiar el cliente por defecto, con el fin de crear documentos personalizados. 
 
@@ -177,11 +191,11 @@ Contiene los iconos principales de las ventanas de ADempiere para realizar una g
 
         Imagen 16. Opción Generar Factura Inmediata del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-    #. "**Opción Completar Orden Prepagada**": Permite completar una orden prepagada desde el punto de venta.
+    #. "**Opción Completar Orden Preparada**": Permite completar una orden preparada desde el punto de venta.
 
-        |Opción Completar Orden Prepagada del Icono Proceso de la Barra de Herramientas del Punto de Venta|
+        |Opción Completar Orden Preparada del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
-        Imagen 17. Opción Completar Orden Prepagada del Icono Proceso de la Barra de Herramientas del Punto de Venta
+        Imagen 17. Opción Completar Orden Preparada del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
     #. "**Opción Anular Transacción de Venta**": Este proceso permite revertir la transaccion de venta.
 
@@ -256,35 +270,19 @@ Permite realizar una búsqueda por código de producto, de todos los productos p
 
         Esta acción se ejecuta automáticamente al ingresar el código del producto en el campo "**Código**".
 
-#. "**Campo Código**": Permite buscar el producto por el código de identificación del mismo.
+#. "**Coincidencia por Código de Producto**": Permite buscar el producto por el código de identificación del mismo.
 
-    |Campo Código del Producto del Panel de Búsqueda de Productos|
+#. "**Coincidencia por Nombre de Producto**": Permite buscar el producto por el nombre del mismo.
 
-    Imagen 29. Campo Código del Producto del Panel de Búsqueda de Productos
+#. "**Coincidencia por Disponibilidad de Producto**": Muestra la disponibilidad del producto buscado.
 
-#. "**Campo Producto**": Permite buscar el producto por el nombre del mismo.
+#. "**Coincidencia por Precio Estándar de Producto**": Muestra el precio estándar del producto buscado.
 
-    |Campo Nombre del Producto del Panel de Búsqueda de Productos|
+#. "**Coincidencia por Precio de Lista de Producto**": Muestra el precio de lista del producto buscado.
 
-    Imagen 30. Campo Nombre del Producto del Panel de Búsqueda de Productos
+    |Resultado de Búsqueda en el Panel de Búsqueda de Producto|
 
-#. "**Campo Disponible**": Muestra la disponibilidad del producto buscado.
-
-    |Campo Disponibilidad del Producto del Panel de Búsqueda de Productos|
-
-    Imagen 31. Campo Disponibilidad del Producto del Panel de Búsqueda de Productos
-
-#. "**Campo Precio Estándar**": Muestra el precio estándar del producto buscado.
-
-    |Campo Precio Estándar del Producto del Panel de Búsqueda de Productos|
-
-    Imagen 32. Campo Precio Estándar del Producto del Panel de Búsqueda de Productos
-
-#. "**Campo Precio de Lista**": Muestra el precio de lista del producto buscado.
-
-    |Campo Precio de Lista del Producto del Panel de Búsqueda de Productos|
-
-    Imagen 33. Campo Precio de Lista del Producto del Panel de Búsqueda de Productos
+    Imagen 29. Resultado de Búsqueda en el Panel de Búsqueda de Producto
 
 **Sección Información de Producto**
 -----------------------------------
@@ -342,7 +340,7 @@ Contiene los campos para modificar la cantidad del producto a vender, el precio 
 
 #. "**Icono Borrar Línea**": Permite borrar el registro del producto creado en la línea seleccionada de la orden de venta. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+F3**".
 
-    |Icono Borrar Línea de la Barra de Edición de Productos de la Ventana Punto de Venta|
+    |Icono Borrar Línea de la Barra de Edición de Productos|
 
     Imagen 42. Icono Borrar Línea de la Barra de Edición de Productos de la Ventana Punto de Venta
 
@@ -396,12 +394,6 @@ Es el espacio establecido para el listado de los productos seleccionados o ingre
     |Grupo de Campos Línea de Productos|
 
     Imagen 50. Grupo de Campos Línea de Productos
-
-    - "**Icono Eliminar Línea**": Permite borrar el registro de la línea de la orden de venta.
-
-        |Icono Eliminar Línea|
-
-        Imagen 51. Icono Eliminar Línea
 
     - "**Columna Nombre del Producto**": Columna en la cual se muestran los nombres de los productos agregados en las diferentes líneas de la orden de venta.
 

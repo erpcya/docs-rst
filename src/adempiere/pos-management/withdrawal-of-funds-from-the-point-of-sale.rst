@@ -1,11 +1,8 @@
 .. |Menú de ADempiere| image:: resources/point-of-sale-menu.png
-.. |Opción Crear Retiro de POS| image:: resources/point-of-sale-window.png
+.. |Opción Crear Retiro de POS| image:: resources/option-to-create-pos-withdrawal.png 
 .. |Ventana Retiros de Puntos de Venta| image:: resources/point-of-sale-withdrawals-window.png
-
-.. |Campo de la Ventana Retiros de Puntos de Venta| image:: resources/
-.. |Campo de la Ventana Retiros de Puntos de Venta| image:: resources/
-
 .. |Listado de Referencia de la Ventana Retiros de Puntos de Venta| image:: resources/point-of-sale-withdrawals-window-reference-list.png
+.. |Campo Monto del Listado de Referencia de la Ventana Retiros de Puntos de Venta| image:: resources/currency-field-of-the-reference-list-of-the-point-of-sale-withdrawals-window.png
 .. |Campo Terminal PDV de la Ventana Retiros de Puntos de Venta| image:: resources/pos-terminal-field-of-the-point-of-sale-withdrawals-window.png
 .. |Campo Socio del Negocio de la Ventana Retiros de Puntos de Venta| image:: resources/business-partner-field-of-the-point-of-sale-withdrawals-window.png
 .. |Campo No del Documento de la Ventana Retiros de Puntos de Venta| image:: resources/document-no-field-of-the-point-of-sale-withdrawals-window.png
@@ -19,12 +16,17 @@
 .. |Campo Cargo de la Ventana Retiros de Puntos de Venta| image:: resources/charge-field-of-the-point-of-sale-withdrawals-window.png
 .. |Campo Moneda de la Ventana Retiros de Puntos de Venta| image:: resources/currency-field-of-the-window-withdrawals-of-points-of-sale.png
 .. |Opción OK de la Ventana Retiros de Puntos de Venta| image:: resources/option-ok-of-the-window-withdrawals-of-points-of-sale.png
+.. |Número de Documento del Retiro de Fondos| image:: resources/withdrawal-document-number.png
 .. |Documento de Pago Generado en Caja| image:: resources/cash-payment-document-generated.png
+.. |Pago Creado desde la Ventana Retiros de Puntos de Venta| image:: resources/payment-created-from-point-of-sale-withdrawals-window.png
+.. |Cobro Creado desde la Ventana Retiros de Puntos de Venta| image:: resources/collection-created-from-the-window-withdrawals-of-points-of-sale.png
 
 .. _documento/retiro-de-fondos-de-punto-de-venta:
 
 **Retiro de Fondos de Punto de Venta**
 ======================================
+
+Un retiro de fondos es realizado cuando por algún motivo se saca dinero de alguna de las cajas donde es realizado el proceso de venta de productos, la mayoria de las veces suele suceder por un alivio de caja, cancelación de un gasto, entre otros. A continuación es explicado el procedimiento regular para reflejar en ADempiere, un retiro de fondos.
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la carpeta "**Punto de Venta**". Para finalizar, seleccione la ventana "**Punto de Venta**".
 
@@ -32,41 +34,52 @@
 
     Imagen 1. Menú de ADempiere
 
-#. Luego de realizar desde el punto de venta todas las tomas de pedido del día, seleccione la opción "**Crear Retiro de POS**", ubicada en el menú desplegado por el icono "**Proceso**" de la barra de herramientas de la ventana "**Punto de Venta**".
+#. Si en el transcurso del día, se presenta un retiro de fondos en alguna de las cajas en la cual se encuentran realizando transacciones desde el punto de venta, seleccione la opción "**Crear Retiro de POS**", ubicada en el menú desplegado por el icono "**Proceso**" de la barra de herramientas de la ventana "**Punto de Venta**".
 
     |Opción Crear Retiro de POS|
 
     Imagen 2. Opción Crear Retiro de POS
 
-#. Podrá visualizar la ventana "**Retiros de Puntos de Venta**", con diferentes campos que permiten filtrar la búsqueda de información según lo requerido por el socio del negocio vendedor que esta realizando el retiro de fondos.
+#. Podrá visualizar la ventana "**Retiros de Puntos de Venta**", en la cual el socio del negocio vendedor debe reflejar el retiro de fondos de la caja donde se encuentra realizando sus operaciones de venta.
 
     |Ventana Retiros de Puntos de Venta|
 
     Imagen 3. Ventana Retiros de Puntos de Venta
 
-    #. Seleccione en el campo 
-
-        |Campo de la Ventana Retiros de Puntos de Venta|
-
-        Imagen 4. Campo de la Ventana Retiros de Puntos de Venta
-
-    #. Seleccione en el campo 
-
-        |Campo de la Ventana Retiros de Puntos de Venta|
-
-        Imagen 5. Campo de la Ventana Retiros de Puntos de Venta
-
-#. Podrá visualizar un listado de referencia con los diferentes tipos de pagos que contempla ADempiere, donde debe indicar el monto recibido por cada forma de pago.
+#. En dicha ventana podrá visualizar un listado de referencia con las diferentes formas de pago que contempla ADempiere.
 
     |Listado de Referencia de la Ventana Retiros de Puntos de Venta|
 
     Imagen 6. Listado de Referencia de la Ventana Retiros de Puntos de Venta
 
+    Como ejemplo del proceso de retiro de fondos desde el punto de venta se tienen las siguientes transacciones en "**Caja 01**":
+
+    - Transacciones del punto de venta del día "**05/08/2020**".
+        - **Apertura de Caja**
+            - 1.000.000,00 en Moneda "**VES**"
+            - 100,00 en Moneda "**USD**"
+        - **Formas de Pago Recibidas por Ventas**
+            - Efectivo en Moneda "**VES**"
+                - 482.000,00
+                - 298.000,00
+            - Transferencia en Moneda "**USD**"
+                - 1,00
+                - 18,00
+            - Pago Móvil en Moneda "**VES**"
+                - 1.500.000,00
+                - 3.100.000,00
+
+#. Introduzca en el campo "**Monto**" del listado de referencia, el monto correspondiente al retiro de fondos por cada forma de pago en una misma moneda. Para este caso, se ingresa en el campo "**Monto**" de la forma de pago "**Efectivo**", correspondiente a la moneda "**VES**", el monto total de "**780.000,00**".
+
+    |Campo Monto del Listado de Referencia de la Ventana Retiros de Puntos de Venta|
+
+    Imagen 6. Campo Monto del Listado de Referencia de la Ventana Retiros de Puntos de Venta
+
     .. note::
 
-        Es importante que este procedimiento sea realizado por moneda, es dicir, que sean ingresados los montos recibidos por cada forma de pago en una misma moneda. 
+        Es importante que este procedimiento sea realizado por moneda, es decir, que sean ingresados los montos retirados por cada forma de pago en una misma moneda. 
 
-        Para cargar los montos recibidos por cada forma de pago en una moneda diferente se debe realizar otro retiro de fondos.
+        Para cargar los montos retirados por cada forma de pago en una moneda diferente se debe realizar otro retiro de fondos.
 
 #. En el grupo de campos "**Parámetro**", podrá visualizar los siguientes campos:
 
@@ -76,7 +89,7 @@
 
         Imagen 7. Campo Terminal PDV de la Ventana Retiros de Puntos de Venta
 
-    #. En el campo "**Socio del Negocio**", debe seleccionar el socio del negocio.
+    #. En el campo "**Socio del Negocio**", debe seleccionar el socio del negocio vendedor asociado al terminal PDV.
 
         |Campo Socio del Negocio de la Ventana Retiros de Puntos de Venta|
 
@@ -87,6 +100,10 @@
         |Campo No del Documento de la Ventana Retiros de Puntos de Venta|
 
         Imagen 9. Campo No. del Documento de la Ventana Retiros de Puntos de Venta
+
+        .. note::
+
+            Si no es ingresado ningún valor en este campo, ADempiere tomará el número de idenficación correspondiente a la secuencia del tipo de documento a generar.
 
     #. En el campo "**Descripción**", se debe ingresar una breve descripción del retiro de punto de venta que esta realizando.
 
@@ -124,13 +141,13 @@
 
         Imagen 15. Campo Tipo de Documento de la Ventana Retiros de Puntos de Venta
 
-    #. En el campo "**Tipo Contra-Documento**", podrá visualizar el tipo de contra documento con el cual será generado el documento "**Pago**" en la ventana "**Caja**".
+    #. En el campo "**Tipo Contra-Documento**", podrá visualizar el tipo de contra documento a ser generado el documento "**Pago**" en la ventana "**Caja**".
 
         |Campo Tipo Contra Documento de la Ventana Retiros de Puntos de Venta|
 
         Imagen 16. Campo Tipo Contra-Documento de la Ventana Retiros de Puntos de Venta
 
-    #. Seleccione en el campo "**Cargo**", el cargo correspondiente al retiro de fondos que se encuentra realizando desde el punto de venta.
+    #. Seleccione en el campo "**Cargo**", el cargo que justifica el retiro de fondos del dinero de la caja. Para este caso, es utilizado como ejemplo el cargo "**Servicio de Luz**".
 
         |Campo Cargo de la Ventana Retiros de Puntos de Venta|
 
@@ -142,7 +159,7 @@
 
         Imagen 18. Campo Moneda de la Ventana Retiros de Puntos de Venta
 
-#. Seleccione la opción "**OK**", para realizar el retiro de fondos del punto de venta con los cobros seleccionados y generar el documento "**Pago**", en la ventana "**Caja**".
+#. Seleccione la opción "**OK**", para reflejar en ADempiere el retiro de fondos del punto de venta y generar en la ventana "**Caja**" los documentos que avalan dicha transacción.
 
     |Opción OK de la Ventana Retiros de Puntos de Venta|
 
@@ -150,13 +167,35 @@
 
 .. note::
 
-    Todos los retiros de fondos realizados en el punto de venta, crean un documento de pago en la ventana "**Caja**".
+    Por cada retiro de fondo realizado desde el punto de venta, ADempiere crea en la ventana "**Caja**" los siguientes documentos:
+    
+        - Un documento de pago asociando en el campo "**Cuenta**", la caja seleccionada en el campo "**Cuenta Bancaria**" de la ventana "**Retiros de Puntos de Venta**".
 
-**Consulta de Retiro de Fondos de Punto de Venta**
---------------------------------------------------
+        - De igual manera crea un documento de cobro asociando en el campo "**Cuenta**", la caja seleccionada en el campo "**Transferir transacción de caja a banco**", de la ventana "**Retiros de Puntos de Venta**".
 
-#. Ubique el documento de pago generado en la ventana "**Caja**", con ayuda del número de documento ingresado en el campo "**No. del Documento**", de la ventana "**Retiros de Puntos de Venta**".
+**Consulta de Pago y Cobro Generados en Caja**
+----------------------------------------------
+
+#. Ubique los registros creados por el retiro de fondos en la ventana "**Caja**", con ayuda del número de documento ingresado en el campo "**No. del Documento**", de la ventana "**Retiros de Puntos de Venta**".
+
+    |Número de Documento del Retiro de Fondos|
+
+    Imagen 20. Número de Documento del Retiro de Fondos
+
+#. Podrá visualizar en la parte inferior derecha de la ventana "**Caja**", el número de registros creados con el valor ingresado en el campo "**No. del Documento**", de la ventana "**Retiros de Puntos de Venta**".
 
     |Documento de Pago Generado en Caja|
 
     Imagen 20. Documento de Pago Generado en Caja
+
+#. Podrá visualizar el registro de "**Pago**" creado desde la ventana "**Retiros de Puntos de Venta**".
+
+    |Pago Creado desde la Ventana Retiros de Puntos de Venta|
+
+    Imagen 21. Pago Creado desde la Ventana Retiros de Puntos de Venta
+
+#. Seleccione el icono "**Próximo Registro**", ubicado en la barra de herramientas para visualizar el registro de "**Cobro**" creado desde la ventana "**Retiros de Puntos de Venta**".
+
+    |Cobro Creado desde la Ventana Retiros de Puntos de Venta|
+
+    Imagen 22. Cobro Creado desde la Ventana Retiros de Puntos de Venta
