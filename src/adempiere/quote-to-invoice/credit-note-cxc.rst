@@ -37,13 +37,13 @@
 .. |Campo Descripción de la Línea de la Nota de Crédito de CxC| image:: resources/description-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png
 .. |Campo Cantidad de la Nota de Crédito de CxC| image:: resources/amount-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png
 .. |Campo UM de la Nota de Crédito de CxC| image:: resources/um-field-of-the-invoice-line-tab-of-the-credit-note-cxc.png
-.. |Campo Precio de la Nota de Crédito de CxC| image:: resources/price field of the line tab of the credit note invoice cxc.png
+.. |Campo Precio de la Nota de Crédito de CxC| image:: resources/price-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png
 .. |Campo Precio Actual de la Nota de Crédito de CxC| image:: resources/current-price-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png
 .. |Campo Precio de Lista de la Nota de Crédito de CxC| image:: resources/list-price-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png
 .. |Campo Impuesto de la Nota de Crédito de CxC| image:: resources/tax-field-of-the-line-tab-of-the-credit-memo-cxc.png
-.. |Campo Factura Afectada de la Nota de Crédito de CxC| image:: resources/affected-invoice-field-of-the-invoice-line-tab-of-the-credit-note-cxc.png
-.. |Campo Actividad de la Nota de Crédito de CxC| image:: resources/activity-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png
-.. |Campo Centro de Costos de la Nota de Crédito de CxC| image:: resources/cost-center-field-of-the-line-tab-of-the-credit-memo-cxc.png
+.. |Campo Factura Afectada de la Pestaña de la Nota de Crédito de CxC| image:: resources/affected-invoice-field-of-the-invoice-line-tab-of-the-credit-note-cxc.png
+.. |Campo Actividad de la Pestaña de la Nota de Crédito de CxC| image:: resources/activity-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png
+.. |Campo Centro de Costos de la Pestaña de la Nota de Crédito de CxC| image:: resources/cost-center-field-of-the-line-tab-of-the-credit-memo-cxc.png
 .. |Campo Amortización de Préstamo de la Nota de Crédito de CxC| image:: resources/loan-amortization-field-of-the-line-tab-of-the-credit-memo-cxc-invoice.png
 .. |Campo Activo Fijo de la Nota de Crédito de CxC| image:: resources/fixed-asset-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png
 .. |Campo Neto de Línea de la Nota de Crédito de CxC| image:: resources/net-field-of-line-of-the-line-tab-of-the-credit-memo-invoice-cxc.png
@@ -328,19 +328,19 @@
 
     #. Seleccione en el campo "**Factura Afectada**", la factura afectada para asignar la nota automáticamente.
 
-        |Campo Factura Afectada de la Nota de Crédito de CxC|
+        |Campo Factura Afectada de la Pestaña de la Nota de Crédito de CxC|
 
         Imagen 44. Campo Factura Afectada de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar
 
     #. Seleccione en el campo "**Actividad**", la actividad correspondiente al registro que se encuentra realizando.
 
-        |Campo Actividad de la Nota de Crédito de CxC|
+        |Campo Actividad de la Pestaña de la Nota de Crédito de CxC|
 
         Imagen 45. Campo Actividad de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar 
 
     #. Seleccione en el campo "**Centro de Costos**", el centro de costos correspondiente al registro que se encuentra realizando.
 
-        |Campo Centro de Costos de la Nota de Crédito de CxC|
+        |Campo Centro de Costos de la Pestaña de la Nota de Crédito de CxC|
 
         Imagen 46. Campo Centro de Costos de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar 
 
