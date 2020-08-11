@@ -61,6 +61,13 @@
 **Nota de Crédito**
 ===================
 
+Es un documento que se aplica a una factura, con la finalidad de reflejar un descuento, un cobro de un gasto incurrido de más, o alguna devolución de productos que el socio de negocio tipo cliente haya comprado.
+
+A continuación es explicado el procedimiento para registrar en ADempiere una nota de crédito de cuentas por cobrar.
+
+**Registro de Nota de Crédito**
+-------------------------------
+
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Documentos por Cobrar**".
 
     |Menú de ADempiere|
@@ -412,4 +419,3 @@
     |Pestaña Asignaciones de la Nota de Crédito de CxC|
 
     Imagen 57. Pestaña Asignaciones de la Ventana Consulta de Asignación
-    

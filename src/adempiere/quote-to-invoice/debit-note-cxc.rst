@@ -8,8 +8,6 @@
 .. |Campo Referencia de Orden de Socio del Negocio de la Ventana Documentos por Cobrar| image:: resources/business-partner-order-reference-field-of-the-documents-receivable-window.png
 .. |Campo Descripción de la Ventana Documentos por Cobrar| image:: resources/field-description-of-the-documents-receivable-window.png
 .. |Campo Tipo de Documento Destino de la Nota de Débito de CxC| image:: resources/destination-document-type-field-of-the-cxc-debit-note.png
-
-
 .. |Checklist Auto Servicio de la Nota de Débito de CxC| image:: resources/cxc-debit-note-self-service-checklist.png
 .. |Campo Fecha de Facturación de la Nota de Débito de CxC| image:: resources/invoice-date-field-of-debit-note-cxc.png
 .. |Campo Fecha Contable de la Nota de Débito de CxC| image:: resources/accounting-date-field-of-debit-note-cxc.png
@@ -58,13 +56,17 @@
 .. |Registro de Asignación de Nota de Débito de CxC| image:: resources/cxc-debit-memo-assignment-record.png
 .. |Pestaña Asignaciones de la Nota de Débito de CxC| image:: resources/cxc-debit-memo-assignments-tab.png
 
-
-
-
 .. _documento/nota-de-débito-cxc:
 
 **Nota de Débito**
 ==================
+
+Una nota de débito en cuentas por cobrar es un documento legal que se aplica a una factura para aumentar el monto de la misma. Esta siempre nace de un documento afectado ya sea de una factura o de una nota de crédito.
+
+A continuación es explicado el procedimiento para registrar en ADempiere una nota de débito de cuentas por cobrar.
+
+**Registro de Nota de Débito**
+------------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Documentos por Cobrar**".
 
@@ -417,4 +419,3 @@
     |Pestaña Asignaciones de la Nota de Débito de CxC|
 
     Imagen 57. Pestaña Asignaciones de la Ventana Consulta de Asignación
-    
