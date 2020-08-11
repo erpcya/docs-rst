@@ -53,7 +53,7 @@
 .. |Pestaña Principal Factura de la Nota de Débito de CxC| image:: resources/main-tab-debit-note-invoice-cxc.png
 .. |Opción Completar de la Nota de Débito de CxC| image:: resources/complete-option-of-the-invoice-tab-of-the-debit-note-cxc.png
 .. |Acción Completar y Opción OK| image:: resources/action-complete-and-option-ok.png
-.. |Factura de la Nota de Crédito CxC| image:: resources/cxc-debit-memo-invoice.png
+.. |Factura de la Nota de débito CxC| image:: resources/cxc-debit-memo-invoice.png
 .. |Acercar Asignación de Pago de la Nota de Débito de CxC| image:: resources/zoom-in-on-payment-assignment-of-the-cxc-debit-note.png
 .. |Registro de Asignación de Nota de Débito de CxC| image:: resources/cxc-debit-memo-assignment-record.png
 .. |Pestaña Asignaciones de la Nota de Débito de CxC| image:: resources/cxc-debit-memo-assignments-tab.png
@@ -313,7 +313,7 @@
 
         Imagen 40. Campo Precio de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar
 
-    #. Podrá visualizar en el campo "**Precio Actual**", el precio 
+    #. Podrá visualizar en el campo "**Precio Actual**", el precio actual ingresado en el campo "**Precio**".
 
         |Campo Precio Actual de la Nota de Débito de CxC|
 
@@ -361,7 +361,7 @@
 
         Imagen 48. Campo Activo Fijo de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar
 
-    #. Podrá visualizar en el campo "**Neto de Línea **", el neto de la línea.
+    #. Podrá visualizar en el campo "**Neto de Línea**", el neto de la línea.
 
         |Campo Neto de Línea de la Nota de Débito de CxC|
 

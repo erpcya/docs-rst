@@ -308,7 +308,7 @@
 
         Imagen 40. Campo Precio de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar
 
-    #. Podrá visualizar en el campo "**Precio Actual**", el precio 
+    #. Podrá visualizar en el campo "**Precio Actual**", el precio actual ingresado en el campo "**Precio**".
 
         |Campo Precio Actual de la Nota de Crédito de CxC|
 
