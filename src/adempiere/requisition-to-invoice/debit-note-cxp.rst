@@ -1,3 +1,38 @@
+.. |Menú de ADempiere| image:: resources/documents-payable-menu.png
+.. |Ventana Documentos por Pagar| image:: resources/documents-payable-window.png
+.. |Icono Registro Nuevo de la Ventana Documentos por Pagar| image:: resources/new-record-icon-in-the-documents-payable-window.png
+.. |Campo Organización de la Nota de Débito de CxP| image:: resources/window-organization-field-documents-payable.png
+.. |Campo Orden de Compra de la Nota de Débito de CxP| image:: resources/purchase-order-field-of-the-payables-window.png
+.. |Campo Fecha de la Orden de la Nota de Débito de CxP| image:: resources/date-field-of-the-order-of-the-payables-window.png
+.. |Campo Nro del Documento de la Nota de Débito de CxP| image:: resources/document-number-field-of-the-papers-payable-window.png
+.. |Campo Referencia de Orden de Socio del Negocio de la Nota de Débito de CxP| image:: resources/business-partner-order-reference-field-of-the-payables-window.png
+.. |Campo Descripción de la Nota de Débito de CxP| image:: resources/documents-payable-window-description-field.png
+.. |Campo Tipo de Documento Destino de la Nota de Débito de CxP| image:: resources/cxp-debit-note-document-type-field.png
+.. |Campo Fecha de Facturación de la Nota de Débito de CxP| image:: resources/cxp-debit-note-billing-date-field.png
+.. |Campo Fecha Contable de la Nota de Débito de CxP| image:: resources/cxp-debit-memo-posting-date-field.png
+.. |Campo Socio del Negocio de la Nota de Débito de CxP| image:: resources/cxp-debit-memo-business-partner-field.png
+.. |Campo Dirección de Socio del Negocio de la Nota de Débito de CxP| image:: resources/cxp-debit-memo-business-partner-address-field.png
+.. |Campo Usuario de la Nota de Débito de CxP| image:: resources/cxp-debit-note-user-field.png
+.. |Campo Lista de Precios de la Nota de Débito de CxP| image:: resources/cxp-debit-note-pricelist-field.png
+.. |Campo Moneda de la Nota de Débito de CxP| image:: resources/currency-field-of-the-cxp-debit-note.png
+.. |Campo Agente Compañía de la Nota de Débito de CxP| image:: resources/
+.. |Checklist Imprimir Descuento de la Nota de Débito de CxP| image:: resources/
+.. |Opción Cheque de la Nota de Débito de CxP| image:: resources/
+.. |Opción Crear Desde Factura de la Nota de Débito de CxP| image:: resources/
+.. |Opción Generar Recibos desde Facturas de la Nota de Débito de CxP| image:: resources/
+.. |Checklist Documento Fiscal de la Nota de Débito de CxP| image:: resources/
+.. |Campo Control Nro de la Nota de Débito de CxP| image:: resources/
+.. |Campo Código Sunagro de la Nota de Débito de CxP| image:: resources/
+.. |Campo Lista de la Nota de Débito de CxP| image:: resources/
+.. |Campo Región de Ventas de la Nota de Débito de CxP| image:: resources/
+.. |Campo Factura Afectada de la Nota de Débito de CxP| image:: resources/
+.. |Checklist No Aplica Retención de IVA de la Nota de Débito de CxP| image:: resources/
+.. |Campo Centro de Costos de la Nota de Débito de CxP| image:: resources/
+.. |Campo Concepto de Retención de ISLR de la Nota de Débito de CxP| image:: resources/
+.. |Campo Actividad de la Nota de Débito de CxP| image:: resources/
+.. |Campo Retención de Terceros de la Nota de Débito de CxP| image:: resources/
+.. |Icono Guardar Cambios de la Nota de Débito de CxP| image:: resources/
+
 .. _documento/nota-de-débito-cxp:
 
 **Nota de Débito**
@@ -181,6 +216,42 @@ A continuación es explicado el procedimiento para generar en ADempiere, una not
         |Campo Factura Afectada de la Nota de Débito de CxP|
 
         Imagen 28. Campo Factura Afectada de la Ventana Documentos por Pagar
+
+    #. Al tildar el checklist "**No Aplica Retención de I.V.A**", no es aplicada la retención al documento que se encuentra realizando.
+
+        |Checklist No Aplica Retención de IVA de la Nota de Débito de CxP|
+
+        Imagen 29. Checklist No Aplica Retención de IVA de la Ventana Documentos por Pagar
+    
+    #. Seleccione en el campo "**Centro de Costos**", el centro de costos correspondiente para el registro que se encuentra realizando.
+
+        |Campo Centro de Costos de la Nota de Débito de CxP|
+
+        Imagen 30. Campo Centro de Costos de la Ventana Documentos por Pagar
+
+    #. Seleccione en el campo "**Concepto de Retención de I.S.L.R**", el concepto de retención que requiere aplicar al registro que se encuentra realizando.
+
+        |Campo Concepto de Retención de ISLR de la Nota de Débito de CxP|
+
+        Imagen 31. Campo Concepto de Retención de ISLR de la Ventana Documentos por Pagar
+
+    #. Seleccione en el campo "**Actividad**", la actividad correspondiente al registro que se encuentra realizando.
+
+        |Campo Actividad de la Nota de Débito de CxP|
+
+        Imagen 32. Campo Actividad de la Ventana Documentos por Pagar
+
+    #. Seleccione en el campo "**Retención de Terceros**", la retención correspondiente al registro que se encuentra realizando.
+
+        |Campo Retención de Terceros de la Nota de Débito de CxP|
+
+        Imagen 33. Campo Retención de Terceros de la Ventana Documentos por Pagar
+
+    #. Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña "**Factura**".
+
+        |Icono Guardar Cambios de la Nota de Débito de CxP|
+
+        Imagen 34. Icono Guardar Cambios de la Ventana Documentos por Pagar
 
 
 **Consultar Asignación de Nota de Débito Aplicada**
