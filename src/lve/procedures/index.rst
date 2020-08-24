@@ -9,6 +9,8 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 .. toctree::
     :maxdepth: 2
 
+    human-resources/index
     payroll/index
     import/index
     withholding-management/index
+
