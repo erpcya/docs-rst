@@ -11,7 +11,7 @@ RUN pip install sphinx && \
     git clone https://github.com/carlosaparadam/docs.git && \
     cd docs/src && \
     echo "Make Documentation..." && \
-    make html && \
+    make htmlad && \
     make epub
 
 FROM nginx:alpine as frontend
