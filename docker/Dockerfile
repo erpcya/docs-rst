@@ -7,7 +7,7 @@ RUN pip install sphinx && \
     pip install sphinx_rtd_theme  && \
     cd /home/docs  && \
     echo "Clone Repository..." && \
-    git clone --branch $BUILD_TAG  https://github.com/carlosaparadam/docs.git && \
+    git clone https://github.com/carlosaparadam/docs.git && \
     cd docs/src && \
     echo "Make Documentation..." && \
     make html && \
