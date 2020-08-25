@@ -1,5 +1,5 @@
 FROM readthedocs/build:latest as build
-MANTAINER Carlos Parada "cparada@erpya.com"
+MAINTAINER Carlos Parada "cparada@erpya.com"
 
 ARG BUILD_TAG
 
