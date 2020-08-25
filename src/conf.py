@@ -16,6 +16,76 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+import sys
+import os
+import datetime
+import inspect
+import warnings
+
+warnings.simplefilter('ignore', DeprecationWarning)
+
+import pkg_resources
+import pylons_sphinx_themes
+
+# skip raw nodes
+from sphinx.writers.text import TextTranslator
+from sphinx.writers.latex import LaTeXTranslator
+
+from docutils import nodes
+from docutils import utils
+from docutils.parsers.rst import Directive
+
+
+def raw(*arg):
+    raise nodes.SkipNode
+TextTranslator.visit_raw = raw
+
+
+# make sure :app:`Pyramid` doesn't mess up LaTeX rendering
+def nothing(*arg):
+    pass
+LaTeXTranslator.visit_inline = nothing
+LaTeXTranslator.depart_inline = nothing
+
+book = os.environ.get('BOOK')
+
+# General configuration
+# ---------------------
+
+# Add any Sphinx extension module names here, as strings. They can be extensions
+# coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
+extensions = [
+    'repoze.sphinx.autointerface',
+    'sphinx.ext.autodoc',
+    'sphinx.ext.doctest',
+    'sphinx.ext.intersphinx',
+    'sphinx.ext.viewcode',
+    'sphinxcontrib.autoprogram',
+    # enable pylons_sphinx_latesturl when this branch is no longer "latest"
+    # 'pylons_sphinx_latesturl',
+    ]
+
+# Looks for objects in external projects
+intersphinx_mapping = {
+    'colander': ('https://docs.pylonsproject.org/projects/colander/en/latest/', None),
+    'cookbook': ('https://docs.pylonsproject.org/projects/pyramid-cookbook/en/latest/', None),
+    'deform': ('https://docs.pylonsproject.org/projects/deform/en/latest/', None),
+    'jinja2': ('https://docs.pylonsproject.org/projects/pyramid-jinja2/en/latest/', None),
+    'pylonswebframework': ('https://docs.pylonsproject.org/projects/pylons-webframework/en/latest/', None),
+    'python': ('https://docs.python.org/3/', None),
+    'pytest': ('https://docs.pytest.org/en/latest/', None),
+    'sqla': ('https://docs.sqlalchemy.org/en/latest/', None),
+    'tm': ('https://docs.pylonsproject.org/projects/pyramid-tm/en/latest/', None),
+    'toolbar': ('https://docs.pylonsproject.org/projects/pyramid-debugtoolbar/en/latest/', None),
+    'transaction': ('https://transaction.readthedocs.io/en/latest/', None),
+    'tutorials': ('https://docs.pylonsproject.org/projects/pyramid-tutorials/en/latest/', None),
+    'venusian': ('https://docs.pylonsproject.org/projects/venusian/en/latest/', None),
+    'webtest': ('https://docs.pylonsproject.org/projects/webtest/en/latest/', None),
+    'zcml': (
+    'https://docs.pylonsproject.org/projects/pyramid-zcml/en/latest/', None),
+}
+
+
 
 
 # -- Project information -----------------------------------------------------
@@ -25,9 +95,10 @@ copyright = '2020, ADempiere ERP'
 author = 'E.R.P. Consultores y Asociados, C.A.'
 
 # The short X.Y version
-version = '1.0'
-# The full version, including alpha/beta/rc tags
-release = '3.9.2'
+version = pkg_resources.get_distribution('pyramid').version
+
+# The full version, including alpha/beta/rc tags.
+release = version
 
 # Html logo in drawer.
 # Fit in the drawer at the width of image is 240 px.
@@ -48,8 +119,8 @@ html_additional_pages = {"download": "pages/download.html", "index": "pages/inde
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.doctest'
-]
+#extensions = ['sphinx.ext.doctest'
+#]
 
 # Add any paths that contain templates here, relative to this directory.
 #templates_path = ['_statictemplates']
@@ -89,7 +160,26 @@ pygments_style = 'sphinx'
 html_theme = 'sphinx_rtd_theme'
 #html_theme_path = ['/usr/local/lib/python2.7/site-packages']
 
+if book:
+    pygments_style = 'bw'
 
+html_theme_options = dict(
+    github_url='https://github.com/Pylons/pyramid',
+    # On master branch and new branch still in
+    # pre-release status: true; else: false.
+    in_progress='true',
+    # On branches previous to "latest": true; else: false.
+    outdated='false',
+    )
+
+# Control display of sidebars
+html_sidebars = {'**': [
+    'localtoc.html',
+    'ethicalads.html',
+    'relations.html',
+    'sourcelink.html',
+    'searchbox.html',
+]}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
