@@ -4,7 +4,8 @@ MAINTAINER Carlos Parada "cparada@erpya.com"
 ARG BUILD_TAG
 
 RUN pip install sphinx && \
-    pip install sphinx_rtd_theme  && \
+    pip install sphinx_rtd_theme && \
+    pip install sphinx-versions && \
     cd /home/docs  && \
     echo "Clone Repository..." && \
     git clone https://github.com/carlosaparadam/docs.git && \
