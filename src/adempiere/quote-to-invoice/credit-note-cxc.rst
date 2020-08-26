@@ -363,7 +363,7 @@ A continuación es explicado el procedimiento para registrar en ADempiere una no
 
         Imagen 48. Campo Activo Fijo de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar
 
-    #. Podrá visualizar en el campo "**Neto de Línea **", el neto de la línea.
+    #. Podrá visualizar en el campo "**Neto de Línea**", el neto de la línea.
 
         |Campo Neto de Línea de la Nota de Crédito de CxC|
 

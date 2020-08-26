@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/documents-payable-menu.png
 .. |Ventana Documentos por Pagar| image:: resources/documents-payable-window.png
 .. |Icono Registro Nuevo de la Ventana Documentos por Pagar| image:: resources/new-record-icon-in-the-documents-payable-window.png
@@ -15,23 +16,49 @@
 .. |Campo Usuario de la Nota de Crédito de CxP| image:: resources/cxp-credit-note-user-field.png
 .. |Campo Lista de Precios de la Nota de Crédito de CxP| image:: resources/cxp-credit-note-pricelist-field.png
 .. |Campo Moneda de la Nota de Crédito de CxP| image:: resources/currency-field-of-the-cxp-credit-note.png
-.. |Campo Agente Compañía de la Nota de Crédito de CxP| image:: resources/
-.. |Checklist Imprimir Descuento de la Nota de Crédito de CxP| image:: resources/
-.. |Opción Cheque de la Nota de Crédito de CxP| image:: resources/
-.. |Opción Crear Desde Factura de la Nota de Crédito de CxP| image:: resources/
-.. |Opción Generar Recibos desde Facturas de la Nota de Crédito de CxP| image:: resources/
-.. |Checklist Documento Fiscal de la Nota de Crédito de CxP| image:: resources/
-.. |Campo Control Nro de la Nota de Crédito de CxP| image:: resources/
-.. |Campo Código Sunagro de la Nota de Crédito de CxP| image:: resources/
-.. |Campo Lista de la Nota de Crédito de CxP| image:: resources/
-.. |Campo Región de Ventas de la Nota de Crédito de CxP| image:: resources/
-.. |Campo Factura Afectada de la Nota de Crédito de CxP| image:: resources/
-.. |Checklist No Aplica Retención de IVA de la Nota de Crédito de CxP| image:: resources/
-.. |Campo Centro de Costos de la Nota de Crédito de CxP| image:: resources/
-.. |Campo Concepto de Retención de ISLR de la Nota de Crédito de CxP| image:: resources/
-.. |Campo Actividad de la Nota de Crédito de CxP| image:: resources/
-.. |Campo Retención de Terceros de la Nota de Crédito de CxP| image:: resources/
-.. |Icono Guardar Cambios de la Nota de Crédito de CxP| image:: resources/
+.. |Campo Agente Compañía de la Nota de Crédito de CxP| image:: resources/cxp-credit-memo-company-agent-field.png
+.. |Checklist Imprimir Descuento de la Nota de Crédito de CxP| image:: resources/checklist-print-cxp-credit-note-discount.png
+.. |Opción Cheque de la Nota de Crédito de CxP| image:: resources/cxp-credit-note-check-option.png
+.. |Opción Crear Desde Factura de la Nota de Crédito de CxP| image:: resources/option-create-from-cxp-credit-note-invoice.png
+.. |Opción Generar Recibos desde Facturas de la Nota de Crédito de CxP| image:: resources/option-generate-receipts-from-cxp-credit-note-invoices.png
+.. |Checklist Documento Fiscal de la Nota de Crédito de CxP| image:: resources/checklist-fiscal-document-of-the-credit-note-of-cxp.png
+.. |Campo Control Nro de la Nota de Crédito de CxP| image:: resources/control-field-number-of-the-cxp-credit-note.png
+.. |Campo Código Sunagro de la Nota de Crédito de CxP| image:: resources/sunagro-code-field-of-the-cxp-credit-note.png
+.. |Campo Lista de la Nota de Crédito de CxP| image:: resources/cxp-credit-memo-list-field.png
+.. |Campo Región de Ventas de la Nota de Crédito de CxP| image:: resources/cxp-credit-memo-sales-region-field.png
+.. |Campo Factura Afectada de la Nota de Crédito de CxP| image:: resources/affected-invoice-field-of-the-cxp-credit-note.png
+.. |Checklist No Aplica Retención de IVA de la Nota de Crédito de CxP| image:: resources/checklist-does-not-apply-vat-withholding-of-the-cxp-credit-note.png
+.. |Campo Centro de Costos de la Nota de Crédito de CxP| image:: resources/cxp-credit-memo-cost-center-field.png
+.. |Campo Concepto de Retención de ISLR de la Nota de Crédito de CxP| image:: resources/cxp-credit-note-islr-withholding-concept-field.png
+.. |Campo Actividad de la Nota de Crédito de CxP| image:: resources/cxp-credit-memo-activity-field.png
+.. |Campo Retención de Terceros de la Nota de Crédito de CxP| image:: resources/third-party-retention-field-of-cxp-credit-memo.png
+.. |Icono Guardar Cambios de la Nota de Crédito de CxP| image:: resources/save-changes-to-cxp-credit-note-icon.png
+.. |Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/cxp-credit-memo-invoice-line-tab.png
+.. |Campo Nro Línea de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/field-number-line-of-the-line-tab-of-the-cxp-credit-note-invoice.png
+.. |Campo Producto de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/product-field-of-the-line-tab-of-the-cxp-credit-memo-invoice.png
+.. |Campo Cargo de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/charge-field-of-the-line-tab-of-the-cxp-credit-note-invoice.png
+.. |Campo Descripción de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/field-description-of-the-line-tab-of-the-cxp-credit-note-invoice.png
+.. |Campo Cantidad de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/amount-field-of-the-line-tab-of-the-credit-note-invoice-cxp.png
+.. |Campo UM de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/um-field-of-the-line-tab-of-the-cxp-credit-note-invoice.png
+.. |Campo Precio de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/price-field-of-the-line-tab-of-the-cxp-credit-note-invoice.png
+.. |Campo Precio Actual de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/current-price-field-of-the-line-tab-of-the-cxp-credit-memo-invoice.png
+.. |Campo Precio de Lista de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/list-price-field-of-cxp-credit-memo-invoice-line-tab.png
+.. |Campo Impuesto de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/tax-field-of-the-line-tab-of-the-cxp-credit-note-invoice.png
+.. |campo total del impuesto de la pestaña línea de factura de la nota de crédito de cxp| image:: resources/total-tax-field-on-the-invoice-line-tab-of-the-cxp-credit-memo.png
+.. |Campo Factura Afectada de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/affected-invoice-field-of-the-invoice-line-tab-of-the-cxp-credit-memo.png
+.. |Campo Actividad de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/activity-field-of-the-line-tab-of-the-cxp-credit-note-invoice.png
+.. |Campo Centro de Costos de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/cost-center-field-of-the-line-tab-of-the-cxp-credit-memo-invoice.png
+.. |Campo Neto de Línea de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/line-net-field-of-cxp-credit-memo-invoice-line-tab.png
+.. |Campo Total de la Línea de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/total-field-of-the-line-of-the-invoice-line-tab-of-the-cxp-credit-memo.png
+.. |Icono Guardar Cambios de la Pestaña Línea de la Factura de la Nota de Crédito de CxP| image:: resources/save-changes-icon-of-cxp-credit-note-invoice-line-tab.png
+.. |Pestaña Principal Factura de la Nota de Crédito de CxP| image:: resources/cxp-credit-note-invoice-main-tab.png
+.. |Opción Completar de la Nota de Crédito de CxP| image:: resources/cxp-credit-note-complete-option.png
+.. |Acción Completar y Opción OK de la Nota de Crédito de CxP| image:: resources/action-complete-and-ok-option-of-the-cxp-credit-note.png
+.. |Registro de la Factura de la Nota de Crédito CxP| image:: resources/cxp-credit-memo-invoice-record.png
+.. |Acercar Asignación de Nota de Crédito de CxP| image:: resources/zoom-in-assigning-the-cxp-credit-note.png
+.. |Registro de Asignación de Nota de Crédito de CxP| image:: resources/cxp-credit-memo-assignment-record.png
+.. |Pestaña Asignaciones de Nota de Crédito de CxP| image:: resources/cxp-credit-memo-assignments-tab.png
+
 
 .. _documento/nota-de-crédito-cxp:
 
@@ -253,9 +280,158 @@ A continuación es explicado el procedimiento para generar en ADempiere, una not
 
         Imagen 34. Icono Guardar Cambios de la Ventana Documentos por Pagar
 
+**Línea de la Factura**
+-----------------------
 
-**Consultar Asignación de nota de crédito Aplicada**
+#. Seleccione la pestaña "**Línea de la Factura**", para cargar los detalles de la nota de crédito que se encuentra realizando.
+
+    |Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+    Imagen 35. Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Podrá visualizar en el campo "**No. Línea**", el número de línea correspondiente al registro que se encuentra realizando en la pestaña "**Línea de la Factura**".
+
+        |Campo Nro Línea de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 36. Campo No Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+        
+    #. Seleccione en el campo "**Producto**", el producto por el cual se encuentra aplicando la nota de crédito.
+
+        |Campo Producto de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 37. Campo Producto de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Seleccione en el campo "**Cargo**", el cargo por el cual se encuentra aplicando la nota de crédito.
+
+        |Campo Cargo de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 38. Campo Cargo de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Introduzca en el campo "**Descripción**", una breve descripción correspondiente al registro que se encuentra realizando.
+
+        |Campo Descripción de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 39. Campo Descripción de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+    
+    #. Seleccione en el campo "**Cantidad**", la cantidad correspondiente al registro que se encuentra realizando.
+
+        |Campo Cantidad de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 40. Campo Cantidad de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Seleccione en el campo "**UM**", la unidad de medida relacionada al registro que se encuentra realizando.
+
+        |Campo UM de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 41. Campo UM de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Introduzca en el campo "**Precio**", el precio correspondiente a la nota de crédito que se encuentra realizando.
+
+        |Campo Precio de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 42. Campo Precio de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Podrá visualizar en el campo "**Precio Actual**", el precio actual ingresado en el campo "**Precio**".
+
+        |Campo Precio Actual de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 43. Campo Precio Actual de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Podrá visualizar en el campo "**Precio de Lista**", el precio de lista oficial.
+
+        |Campo Precio de Lista de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 44. Campo Precio de Lista de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Seleccione en el campo "**Impuesto**", el tipo de impuesto a aplicar en el registro que se encuentra realizando.
+
+        |Campo Impuesto de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 45. Campo Impuesto de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Podrá visualizar en el campo "**Total Impuesto**", el monto total del impuesto aplicado al documento que se encuentra realizando.
+
+        |campo total del impuesto de la pestaña línea de factura de la nota de crédito de cxp|
+
+        Imagen 46. Campo Total Impuesto de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Seleccione en el campo "**Factura Afectada**", la factura afectada para asignar la nota automáticamente.
+
+        |Campo Factura Afectada de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 47. Campo Factura Afectada de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Seleccione en el campo "**Actividad**", la actividad correspondiente al registro que se encuentra realizando.
+
+        |Campo Actividad de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 48. Campo Actividad de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Seleccione en el campo "**Centro de Costos**", el centro de costos correspondiente al registro que se encuentra realizando.
+
+        |Campo Centro de Costos de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 49. Campo Centro de Costos de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Podrá visualizar en el campo "**Neto de Línea**", el neto de la línea.
+
+        |Campo Neto de Línea de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 50. Campo Neto de Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Podrá visualizar en el campo "**Total de la Línea**", el resultado de la sumatoria del valor en el campo "**Neto de Línea**" más el valor en el campo "**Total del Impuesto**".
+
+        |Campo Total de la Línea de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 51. Campo Total de la Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña "**Línea de la Factura**".
+
+        |Icono Guardar Cambios de la Pestaña Línea de la Factura de la Nota de Crédito de CxP|
+
+        Imagen 52. Icono Guardar Cambios de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+
+    #. Seleccione la pestaña principal "**Factura**" y ubique la opción "**Completar**", en la parte inferior derecha de la ventana.
+
+        |Pestaña Principal Factura de la Nota de Crédito de CxP|
+
+        Imagen 53. Pestaña Principal Factura de la Ventana Documentos por Pagar
+
+    #. Seleccione la opción "**Completar**", para completar el documento "**Nota de Crédito de CxC**".
+
+        |Opción Completar de la Nota de Crédito de CxP|
+
+        Imagen 54. Opción Completar de la Ventana Documentos por Pagar
+
+    #. Seleccione la acción "**Completar**" y la opción "**OK**", para culminar el proceso.
+
+        |Acción Completar y Opción OK de la Nota de Crédito de CxP|
+
+        Imagen 55. Acción Completar y Opción OK de la Ventana Documentos por Pagar
+
+**Consultar Asignación de Nota de Crédito Aplicada**
 ---------------------------------------------------
 
-**Consultar Saldos Abiertos**
------------------------------
+#. Ubique el registro de la factura asociada a la nota de crédito, en este caso se ubica la factura "**1000108**" y posteriormente seleccione la pestaña "**Pagos Asignados**".
+
+    |Registro de la Factura de la Nota de Crédito CxP|
+
+    Imagen 56. Registro de la Factura Asociada a la Nota de Crédito de CxP
+
+#. Haga clic contrario en el campo "**Asignación**" y seleccione la opción "**Acercar**" en el menú visualizado.
+
+    |Acercar Asignación de Nota de Crédito de CxP|
+
+    Imagen 57. Acercar Asignación de Nota de Crédito de CxP
+
+#. Podrá visualizar el registro de la asignación creada al completar el documento "**Nota de Crédito de CxC**".
+
+    |Registro de Asignación de Nota de Crédito de CxP|
+
+    Imagen 58. Registro de Asignación de Nota de Crédito de CxP
+
+#. Seleccione la pestaña "**Asignaciones**", para visualizar la información del monto de la nota de crédito aplicada a la factura.
+
+    |Pestaña Asignaciones de Nota de Crédito de CxP|
+
+    Imagen 59. Pestaña Asignaciones de la Ventana Consulta de Asignación
