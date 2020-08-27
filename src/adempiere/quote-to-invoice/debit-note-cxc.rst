@@ -1,3 +1,5 @@
+.. _ERPyA: http://erpya.com
+
 .. |Menú de ADempiere| image:: resources/documents-receivable-menu.png
 .. |Ventana Documentos por Cobrar| image:: resources/documents-receivable-window.png
 .. |Icono Registro Nuevo de la Ventana Documentos por Cobrar| image:: resources/new-record-icon-in-the-documents-receivable-window.png

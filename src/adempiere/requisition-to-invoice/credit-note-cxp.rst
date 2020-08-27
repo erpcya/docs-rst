@@ -1,4 +1,5 @@
 .. _ERPyA: http://erpya.com
+
 .. |Menú de ADempiere| image:: resources/documents-payable-menu.png
 .. |Ventana Documentos por Pagar| image:: resources/documents-payable-window.png
 .. |Icono Registro Nuevo de la Ventana Documentos por Pagar| image:: resources/new-record-icon-in-the-documents-payable-window.png
@@ -397,7 +398,7 @@ A continuación es explicado el procedimiento para generar en ADempiere, una not
 
         Imagen 53. Pestaña Principal Factura de la Ventana Documentos por Pagar
 
-    #. Seleccione la opción "**Completar**", para completar el documento "**Nota de Crédito de CxC**".
+    #. Seleccione la opción "**Completar**", para completar el documento "**Nota de Crédito de CxP**".
 
         |Opción Completar de la Nota de Crédito de CxP|
 
@@ -424,7 +425,7 @@ A continuación es explicado el procedimiento para generar en ADempiere, una not
 
     Imagen 57. Acercar Asignación de Nota de Crédito de CxP
 
-#. Podrá visualizar el registro de la asignación creada al completar el documento "**Nota de Crédito de CxC**".
+#. Podrá visualizar el registro de la asignación creada al completar el documento "**Nota de Crédito de CxP**".
 
     |Registro de Asignación de Nota de Crédito de CxP|
 
