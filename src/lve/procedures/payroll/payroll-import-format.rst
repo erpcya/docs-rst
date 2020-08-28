@@ -1517,7 +1517,7 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 El formato para la importación de la nómina de prestaciones sociales es el siguiente:
 
-+------------+-------------------+-------------------+----------+------------+-------+----------+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 |ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
 +============+===================+===================+==========+============+==================+=======+=========+================+===========+
 |            |       NPS         |      CR_PMIPG     |          |            |                  |       |         |                |           |
@@ -1527,4 +1527,137 @@ El formato para la importación de la nómina de prestaciones sociales es el sig
 |            |       NPS         |      CR_PMIPG     |          |            |                  |       |         |                |           |
 +------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 |            |       NPS         |      CR_PMIPG     |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+**Promedio Salario Vacaciones**
+-------------------------------
+
+Corresponde al salario que se utilizará para calcular las vacaciones al empleado si fuese el caso.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+   - **V**: Venezolano
+   - **E**: Extranjero
+
+   Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+       - **V10000000**
+      
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de prestaciones sociales es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |       NPS         |      CR_PSV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+
+**Promedio Salario Prestaciones**
+---------------------------------
+
+Corresponde al salario que se utilizará para calcular las prestaciones sociales al empleado si fuese el caso.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+   - **V**: Venezolano
+   - **E**: Extranjero
+
+   Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+       - **V10000000**
+      
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de prestaciones sociales es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |       NPS         |      CR_PSP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+**Promedio Salario Utilidades**
+-------------------------------
+
+Corresponde al salario que se utilizará para calcular las utilidades al empleado si fuese el caso.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+   - **V**: Venezolano
+   - **E**: Extranjero
+
+   Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+       - **V10000000**
+      
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de prestaciones sociales es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |       NPS         |      CR_PSU       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSU       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSU       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSU       |          |            |                  |       |         |                |           |
 +------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
