@@ -7,7 +7,17 @@
 **Transferencia Bancaria de Nómina**
 =====================================
 
-Luego de completar la selección de pago y de generar los pagos de nómina en la ventana imprimir exportar pagos procedemos a realizar la transferencia bancaria, ubicamos en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione "**Transferencia Bancaria**". Este proceso es realizado con la finalidad que la empresa cancele a la cuenta de caja el monto total cancelado a los empleados por la nómina procesada, para ellos debemos registrar la transferencia bancaria de la siguiente manera.
+Luego de completar la selección de pago y de generar los pagos de nómina en la ventana imprimir exportar pagos procedemos a realizar la transferencia bancaria, ubicamos en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione "**Transferencia Bancaria**". Este proceso es realizado con la finalidad que la empresa cancele a la cuenta de caja el monto total cancelado a los empleados por la nómina procesada..
+
+Cabe acotar que debe realizar la transferencia según el monto transferido a cada empleado
+
+    #. Si usted utiliza un txt para transferirle a todo el personal puede realizar una transferencia por el monto total del pago a los trabajadores.
+    #. Si usted paga particularmente a cada uno de sus empleados debe realizar una transferencia por cada pago que fué realizado para cada uno de sus empleados.
+
+.. warning::
+
+        Recuerde que al realizar la transferencia usted esta es registrando cada uno de los pagos que salen del banco. Por tal motivo debe tener especial cuidado en cuanto a monto y a número de referencia
+
 
 #. Seleccione en el campo "**Cuenta Bancaria Desde**" el nombre la cuenta bancaria original que utiliza la compañía para cancelar la nómina a los empleado. Esa será la cuenta que emitirá la transferencia bancaria.
 
@@ -19,7 +29,7 @@ Luego de completar la selección de pago y de generar los pagos de nómina en la
 
 #. Seleccione en el campo "**Cargo**" el cargo denominado Efectivo en Tránsito Nómina, esté cargo se utiliza para indicar contablemente el registro del pago de la nómina.
 
-#. Seleccione en el campo "**No. del Documento**" debe registrar el mismo número de documento que le generó la selección de pago creada para la cancelación de su proceso de nómina.
+#. Seleccione en el campo "**No. del Documento**" debe registrar el mismo número de documento que le generó la selección de pago creada para la cancelación de su proceso de nómina. En caso de que realice transferencia bancarias particulares debe registrar el número de referencia de la transferencia.
 
 #. Seleccione en el campo "**Documento Destino**" el mismo número de documento que registró en el campo Nro. del Documento.
 
