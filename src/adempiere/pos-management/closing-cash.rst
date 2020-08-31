@@ -62,11 +62,11 @@
 
         Imagen 6. Campo Fecha de la Transacción del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta
 
-    #. Seleccione en el campo "**Tipo de Pago**", el tipo de pago por el cual requiere filtrar las tomas de pedido realizadas.
+    #. Seleccione en el campo "**Tipo de Licitación**", el tipo de pago por el cual requiere filtrar las tomas de pedido realizadas.
 
         |Campo Tipo de Pago del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta|
 
-        Imagen 7. Campo Tipo de Pago del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta
+        Imagen 7. Campo Tipo de Licitación del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta
 
     #. Indique en el campo "**Cobros**", si las tomas de pedido realizadas fueron cobradas o no.
 
@@ -80,7 +80,7 @@
 
         Imagen 9. Opción Comenzar Búsqueda para Filtrar la Búsqueda de la Ventana Cierre de Caja del Punto de Venta
 
-    #. Podrá visualizar el listado de todos los cobros realizados por las órdenes de ventas POS generadas desde el punto de venta, donde debe seleccionar las órdenes ya canceladas por el cliente.
+    #. Podrá visualizar el listado de todos los cobros realizados por las órdenes de ventas POS generadas desde el punto de venta. Así como también, las transacciones de apertura y retiros de fondos que se realicen en la caja durante el día, para realizar el cierre de caja debe seleccionar todos los registros de transacciones que contiene la misma.
 
         |Listado de Todos los Cobros Realizados por las Órdenes de Ventas del Punto de Venta|
 
