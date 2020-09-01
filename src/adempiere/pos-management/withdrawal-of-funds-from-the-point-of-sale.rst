@@ -20,6 +20,8 @@
 .. |Documento de Pago Generado en Caja| image:: resources/cash-payment-document-generated.png
 .. |Pago Creado desde la Ventana Retiros de Puntos de Venta| image:: resources/payment-created-from-point-of-sale-withdrawals-window.png
 .. |Cobro Creado desde la Ventana Retiros de Puntos de Venta| image:: resources/collection-created-from-the-window-withdrawals-of-points-of-sale.png
+.. |Registro de Retiro Generado en Caja Administrativa| image:: resources/withdrawal-record-generated-in-administrative-box.png
+.. |Registro de Retiro Generado en Caja 04| image:: resources/withdrawal-record-generated-in-cash-04.png
 
 .. _documento/retiro-de-fondos-de-punto-de-venta:
 
@@ -52,24 +54,18 @@ Un retiro de fondos es realizado cuando por algún motivo se saca dinero de algu
 
     Imagen 6. Listado de Referencia de la Ventana Retiros de Puntos de Venta
 
-    Como ejemplo del proceso de retiro de fondos desde el punto de venta se tienen las siguientes transacciones en "**Caja 01**":
+    Como ejemplo del proceso de retiro de fondos desde el punto de venta se tienen las siguientes transacciones en "**Caja 04**":
 
-    - Transacciones del punto de venta del día "**05/08/2020**".
+    - Transacciones del punto de venta del día "**01/09/2020**".
         - **Apertura de Caja**
             - 1.000.000,00 en Moneda "**VES**"
-            - 100,00 en Moneda "**USD**"
         - **Formas de Pago Recibidas por Ventas**
             - Efectivo en Moneda "**VES**"
-                - 482.000,00
-                - 298.000,00
-            - Transferencia en Moneda "**USD**"
-                - 1,00
-                - 18,00
-            - Pago Móvil en Moneda "**VES**"
-                - 1.500.000,00
-                - 3.100.000,00
+                - 348.000,00
+            - Transferencia en Moneda "**VES**"
+                - 466.000,00
 
-#. Introduzca en el campo "**Monto**" del listado de referencia, el monto correspondiente al retiro de fondos por cada forma de pago en una misma moneda. Para este caso, se ingresa en el campo "**Monto**" de la forma de pago "**Efectivo**", correspondiente a la moneda "**VES**", el monto total de "**780.000,00**".
+#. Introduzca en el campo "**Monto**" del listado de referencia, el monto correspondiente al retiro de fondos por cada forma de pago en una misma moneda. Para este caso, se ingresa en el campo "**Monto**" de la forma de pago "**Efectivo**", correspondiente a la moneda "**VES**", el monto total de "**1.348.000,00**". Adicional a ello, se ingresa en el campo "**Monto**" de la forma de pago "**Cuenta**", correspondiente a la moneda "**VES**", el monto total de "**466.000,00**" y en el campo "**No. de Referencia**", el número de referencia de la transferencia "**0002**".
 
     |Campo Monto del Listado de Referencia de la Ventana Retiros de Puntos de Venta|
 
@@ -199,3 +195,20 @@ Un retiro de fondos es realizado cuando por algún motivo se saca dinero de algu
     |Cobro Creado desde la Ventana Retiros de Puntos de Venta|
 
     Imagen 22. Cobro Creado desde la Ventana Retiros de Puntos de Venta
+
+**Consultar Registro en Cierre de Caja**
+----------------------------------------
+
+#. Cada forma de pago y moneda por la que se realiza un retiro de fondos, se genera un documento de egreso y uno de ingreso en la ventana "**Caja**". Por cada documento generado se crea una línea con el mismo asociado, en la pestaña "**Línea de Cierre de Caja**", de la ventana "**Cierre de Caja**" correspondiente a los registros creados en estado "**Borrador** al realizar la apertura de caja. 
+
+    #. Registro de "**Caja Administrativa**" en la ventana "**Cierre de Caja**".
+
+        |Registro de Retiro Generado en Caja Administrativa|
+
+        Imagen 23. Registro de Retiro Generado en Caja Administrativa
+
+    #. Registro de "**Caja 04**" en la ventana "**Cierre de Caja**".
+
+        |Registro de Retiro Generado en Caja 04|
+
+        Imagen 24. Registro de Retiro Generado en Caja 04

@@ -7,8 +7,6 @@
 .. |Campo Tipo de Pago del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/payment-type-field-of-the-point-of-sale-window-closing-box-filter.png
 .. |Campo Cobros del Filtro de Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/charges-field-of-the-search-filter-of-the-window-closing-box-of-the-point-of-sale.png
 .. |Opción Comenzar Búsqueda para Filtrar la Búsqueda de la Ventana Cierre de Caja del Punto de Venta| image:: resources/option-start-search-to-filter-the-search-of-the-point-of-sale-box-closing-window.png
-
-
 .. |Listado de Todos los Cobros Realizados por las Órdenes de Ventas del Punto de Venta| image:: resources/listing-of-all-collections-made-by-sales-orders-from-the-point-of-sale.png
 .. |Campo Terminal PDV de la Ventana Cierre de Caja del Punto de Venta| image:: resources/pos-terminal-window-field-pos-box-closure.png
 .. |Campo Cuenta Bancaria de la Ventana Cierre de Caja del Punto de Venta| image:: resources/bank-account-field-of-the-point-of-sale-cashier-window.png
@@ -20,6 +18,8 @@
 .. |Checklist Sobre Sub Pago de la Ventana Cierre de Caja del Punto de Venta| image:: resources/checklist-about-sub-payment-of-the-window-cashier-closing-of-the-point-of-sale.png
 .. |Campo Cargo de la Ventana Cierre de Caja del Punto de Venta| image:: resources/field-charge-of-the-point-of-sale-cashier-window.png
 .. |Opción OK de la Ventana Cierre de Caja del Punto de Venta| image:: resources/ok-option-of-the-point-of-sale-cashier-window.png
+.. |Cierre de Caja 04 Completada| image:: resources/box-closure-04-completed.png
+.. |Pestaña Línea de Cierre de Caja 04 Completada| image:: resources/box-closing-line-tab-04-completed.png
 
 .. _documento/cierre-de-caja-punto-de-venta:
 
@@ -102,7 +102,7 @@
 
         #. En el campo "**Fecha de la Transacción**", el rango de fecha en el cual fue realizada la toma de pedido por medio del punto de venta.
 
-            |Campo Fecha de la Ventana Cierre de Caja del Punto de Venta|
+            |Campo Fecha de la Transacción de la Ventana Cierre de Caja del Punto de Venta|
 
             Imagen 13. Campo Fecha de la Ventana Cierre de Caja del Punto de Venta
 
@@ -124,11 +124,15 @@
 
             Imagen 16. Campo Total Abierto de la Ventana Cierre de Caja del Punto de Venta
 
-        #. En el campo "**Diferencia Monto**", 
+        #. En el campo "**Diferencia Monto**", podrá visualizar la diferencia del monto existente entre el retiro y el resultado del total pagado menos el total de la línea. 
 
             |Campo Diferencia Monto de la Ventana Cierre de Caja del Punto de Venta|
 
             Imagen 17. Campo Diferencia Monto de la Ventana Cierre de Caja del Punto de Venta
+
+            .. note::
+
+                El valor de este campo proviene de la fórmula (Total Retiro en Cierre de Caja + (Total Pagado - Total de la Línea)).
 
         #. Tilde el checklist "**Sobre/Sub Pago**", para indicar que existe un sobre pago (no contabilizado) o un sub pago (pago parcial).
 
@@ -136,14 +140,42 @@
 
             Imagen 18. Checklist Sobre/Sub Pago de la Ventana Cierre de Caja del Punto de Venta
 
+            .. note::
+
+                Si el punto de venta tuvo pagos de más (Sobre) o de menos (Sub), ADempiere calcula la diferencia. Para el caso expuesto en el presente material, no es necesario seleccionar el checklist.
+
         #. Seleccione en el campo "**Cargo**", el cargo correspondiente al cierre de caja que se encuentra realizando desde el punto de venta.
 
             |Campo Cargo de la Ventana Cierre de Caja del Punto de Venta|
 
             Imagen 19. Campo Cargo de la Ventana Cierre de Caja del Punto de Venta
 
+            .. note::
+
+                Cuando existen pagos de más (Sobre) o de menos (Sub), se selecciona un cargo y ADempiere genera una linea en el cierre contra el cargo seleccionado, permitiendo cuadrar la caja del día. Para el caso expuesto en el presente material, no es necesario seleccionar ningún cargo.
+
     #. Seleccione la opción "**OK**", para realizar el cierre de caja del punto de venta con los cobros seleccionados y generar el documento pertinente en la ventana "**Cierre de Caja**".
 
         |Opción OK de la Ventana Cierre de Caja del Punto de Venta|
 
         Imagen 20. Opción OK de la Ventana Cierre de Caja del Punto de Venta
+
+
+**Consultar Registro en Cierre de Caja**
+----------------------------------------
+
+#. Al ejecutar el proceso "**Cerrar de Caja del Punto de Venta**", se completa el registro con la cuenta "**Caja 04**", creado en la ventana "**Cierre de Caja**", llevando la misma a cero (0) nuevamente.
+    
+    |Cierre de Caja 04 Completada|
+
+    Imagen 21. Cierre de Caja 04 Completada
+
+#. Podrá visualizar en la pestaña "**Línea de Cierre de Caja**", los registros que fueron creados automáticamente a lo largo del día según las transacciones que fueron realizadas en la caja. Basicamente estos son:
+
+    - **Apertura**: Crea el registro de cierre de caja (Caja 04), asociando en la línea del mismo el documento de ingreso generado en caja.
+    - **Cobros**: Crea en la línea de cierre de caja (Caja 04), un registro por cada documento de cobro generado en caja, asociando el documento a la línea.
+    - **Retiro de Fondos**: Crea en la línea de cierre de caja (Caja 04), un registro por cada documento de egreso generado en caja, asociando el documento a la línea.
+    
+    |Pestaña Línea de Cierre de Caja 04 Completada|
+    
+    Imagen 22. Pestaña Línea de Cierre de Caja 04 Completada

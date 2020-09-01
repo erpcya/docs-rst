@@ -30,6 +30,7 @@
 .. |Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar| image:: resources/paid-invoices-tab-of-the-documents-receivable-window.png
 .. |Opción Acercar el Campo Pago de la Pestaña Facturas Pagadas| image:: resources/option-zoom-the-payment-field-of-the-paid-invoices-tab.png
 .. |Documento de Cobro Generado en Caja| image:: resources/cash-collection-document.png
+.. |Cobro Generado en Cierre de Caja| image:: resources/collection-generated-at-closing-of-cash.png
 
 .. _documento/punto-de-venta:
 
@@ -265,3 +266,13 @@
     |Documento de Cobro Generado en Caja|
 
     Imagen 31. Documento de Cobro Generado en Caja
+
+**Consultar Registro en Cierre de Caja**
+----------------------------------------
+
+#. Cada cobro desde el punto de venta genera un documento de ingreso en la ventana "**Caja**", por cada documento de cobro generado se crea una línea con el cobro asociado en la pestaña "**Línea de Cierre de Caja**", de la ventana "**Cierre de Caja**" correspondiente al registro de la "**Caja 04**", creado en estado "**Borrador** al realizar la apertura de caja. 
+
+    |Cobro Generado en Cierre de Caja|
+
+    Imagen 32. Cobro Generado en Cierre de Caja
+
