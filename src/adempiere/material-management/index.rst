@@ -12,3 +12,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     inventory-move/index
     internal-use-inventory/index
     physical-inventory/index
+    lmd
