@@ -20,6 +20,11 @@
 .. |Opción OK de la Ventana Cierre de Caja del Punto de Venta| image:: resources/ok-option-of-the-point-of-sale-cashier-window.png
 .. |Cierre de Caja 04 Completada| image:: resources/box-closure-04-completed.png
 .. |Pestaña Línea de Cierre de Caja 04 Completada| image:: resources/box-closing-line-tab-04-completed.png
+.. |Cierre de Caja Administrativa en Borrador| image:: resources/draft-administrative-box-closure.png
+.. |Pestaña Línea de Cierre de Caja Administrativa en Borrador| image:: resources/draft-administrative-box-closing-line-tab.png
+.. |Pestaña Principal Cierre de Caja| image:: resources/cash-close-main-tab.png
+.. |Opción Completar del Cierre de Caja Administrativa| image:: resources/complete-administrative-cash-closure-option.png
+.. |Acción Completar y Opción OK del Cierre de Caja| image:: resources/action-complete-and-cash-close-option-ok.png
 
 .. _documento/cierre-de-caja-punto-de-venta:
 
@@ -179,3 +184,36 @@
     |Pestaña Línea de Cierre de Caja 04 Completada|
     
     Imagen 22. Pestaña Línea de Cierre de Caja 04 Completada
+
+**Completar Registro en Cierre de Caja**
+----------------------------------------
+
+#. Ubique el registro de la "**Caja Administrativa**" generado en la ventna "**Cierre de Caja**", el cual se encuentra en estado "**Borrador**".
+
+    |Cierre de Caja Administrativa en Borrador|
+
+    Imagen 23. Cierre de Caja Administrativa en Estado Borrador
+
+#. Al seleccionar la pestaña "**Línea de Cierre de Caja**", podrá visualizar las líneas creadas con los registros asociados de apertura y retiro, ejecutados a lo largo del proceso de punto de venta.
+
+    |Pestaña Línea de Cierre de Caja Administrativa en Borrador|
+
+    Imagen 24. Pestaña Línea de Cierre de Caja
+
+#. Regrese a la pestaña principal "**Cierre de Caja**", para ejecutar el cierre de la misma.
+
+    |Pestaña Principal Cierre de Caja|
+
+    Imagen 25. Pestaña Principal Cierre de Caja
+
+#. Seleccione la opción "**Completar**", para completar el cierre de caja de la "**Caja Administrativa**".
+
+    |Opción Completar del Cierre de Caja Administrativa|
+
+    Imagen 26. Opción Completar del Cierre de Caja
+
+#. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el registro.
+
+    |Acción Completar y Opción OK del Cierre de Caja|
+
+    Imagen 27. Acción Completar y Opción OK del Cierre de Caja
