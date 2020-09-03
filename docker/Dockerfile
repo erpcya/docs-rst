@@ -7,13 +7,17 @@ RUN pip install sphinx && \
     pip install sphinx_rtd_theme && \
     pip install sphinx-versions && \
     pip install gitpython && \
-    pip install git+https://github.com/Holzhaus/sphinx-multiversion.git && \
     cd /home/docs  && \
     echo "Clone Repository..." && \
     git clone https://github.com/carlosaparadam/docs.git && \
     cd docs/src && \
     echo "Make Documentation..." && \
-    make htmlad && \
+    make html && \
+    make htmladmaster && \
+    git checkout -b adempiere-3.7 && \
+    make htmlad37 && \
+    git checkout -b 4.0.0 && \
+    make htmlad40 && \
     make epub
 
 FROM nginx:alpine as frontend
