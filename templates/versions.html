@@ -7,47 +7,18 @@
       <span class="fa fa-caret-down"></span>
     </span>
     <div class="rst-other-versions">
-      {% if languages|length >= 1 %}
-      <dl>
-        <dt>{{ _('Languages') }}</dt>
-        {% for slug, url in languages %}
-          {% if slug == current_language %} <strong> {% endif %}
-          <dd><a href="{{ url }}">{{ slug }}</a></dd>
-          {% if slug == current_language %} </strong> {% endif %}
-        {% endfor %}
-      </dl>
-      {% endif %}
-      {% if versions|length >= 1 %}
       <dl>
         <dt>{{ _('Versions') }}</dt>
         
-       <strong> <dd><a href="/latest">latest</a></dd>
-        <dd><a href="/4.0">4.0</a></dd>
-        <dd><a href="/adempiere-3.7">ADempiere-3.7</a></dd> </strong> 
+       <strong> <dd><a href="/latest/">latest</a></dd>
+        <dd><a href="/4.0/">4.0</a></dd>
+        <dd><a href="/adempiere-3.7/">ADempiere-3.7</a></dd> </strong> 
        
       </dl>
       {% endif %}
-      {% if downloads|length >= 1 %}
-      <dl>
-        <dt>{{ _('Downloads') }}</dt>
-        {% for type, url in downloads %}
-          <dd><a href="{{ url }}">{{ type }}</a></dd>
-        {% endfor %}
-      </dl>
-      {% endif %}
-      {% if READTHEDOCS %}
-      <dl>
-        <dt>{{ _('On Read the Docs') }}</dt>
-          <dd>
-            <a href="//{{ PRODUCTION_DOMAIN }}/projects/{{ slug }}/?fromdocs={{ slug }}">{{ _('Project Home') }}</a>
-          </dd>
-          <dd>
-            <a href="//{{ PRODUCTION_DOMAIN }}/builds/{{ slug }}/?fromdocs={{ slug }}">{{ _('Builds') }}</a>
-          </dd>
-      </dl>
-      {% endif %}
-      <hr/>
-      {% trans %}Free document hosting provided by <a href="http://www.readthedocs.org">Read the Docs</a>.{% endtrans %}
+     
+    <hr/>
+    
  
     </div>
   </div>
