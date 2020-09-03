@@ -1,0 +1,111 @@
+.. _ERPyA: http://erpya.com
+.. |Menú de ADempiere| image:: resources/menu-generate-manual-deliveries.png
+.. |Ventana Generar Entregas Manual| image:: resources/window-generate-manual-deliveries.png
+.. |Campo Almacén de la Ventana Generar Entregas Manual| image:: resources/warehouse-field-of-the-generate-manual-deliveries-window.png
+.. |Campo Socio del Negocio de la Ventana Generar Entregas Manual| image:: resources/business-partner-field-of-the-generate-manual-deliveries-window.png
+.. |Campo Tipo de Documento de la Ventana Generar Entregas Manual| image:: resources/document-type-field-of-the-generate-manual-submissions-window.png
+.. |Campo Acción del Documento de la Ventana Generar Entregas Manual| image:: resources/document-action-field-of-the-generate-manual-submissions-window.png
+.. |Órdenes de Venta con Coincidencia en la Búsqueda| image:: resources/sales-orders-matching-search.png
+.. |Selección de Órdenes de Venta para Generar Entregas| image:: resources/selection-of-sales-orders-to-generate-deliveries.png
+.. |Opción OK de la Ventana Generar Entregas Manual| image:: resources/ok-option-of-the-window-generate-manual-deliveries.png
+.. |Mensaje de Imprimir Entregas| image:: resources/print-delivery-message.png
+.. |reporte de entregas para imprimir| image:: resources/delivery-report-to-print.png
+.. |Resultado del Proceso Generar Entregas Manual| image:: resources/result-of-the-process-generate-manual-deliveries.png
+.. |Ventana Encontrar Registro de Entregas Generadas| image:: resources/window-find-log-of-generated-deliveries.png
+.. |Documento de Entrega Manual Generada| image:: resources/generated-manual-delivery-document.png
+
+.. _documento/generar-entregas-manual:
+
+**Generar Entregas (Manual)**
+=============================
+
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Entregas**", por último seleccione la ventana "**Generar Entregas (Manual)**".
+
+    |Menú de ADempiere|
+
+    Imagen 1. Menú de ADempiere
+
+#. Podrá visualizar la ventana "**Generar Entregas (Manual)**", con diferentes campos que permiten filtrar la búsqueda de información automáticamente.
+
+    |Ventana Generar Entregas Manual|
+
+    Imagen 2. Ventana Generar Entregas Manual
+
+#. Seleccione en el campo "**Almacén**", el almacén asociado a la orden de venta por la cual requiere generar la entrega.
+
+    |Campo Almacén de la Ventana Generar Entregas Manual|
+
+    Imagen 3. Campo Almacén de la Ventana Generar Entregas Manual
+
+#. Seleccione en el campo "**Socio del Negocio**", el socio del negocio que se encuentra asociado a la orden de venta por la cual requiere generar la entrega.
+
+    |Campo Socio del Negocio de la Ventana Generar Entregas Manual|
+
+    Imagen 4. Campo Socio del Negocio de la Ventana Generar Entregas Manual
+
+#. Seleccione en el campo "**Tipo de Documento**", el tipo de documento por el cual requiere filtrar la información.
+
+    |Campo Tipo de Documento de la Ventana Generar Entregas Manual|
+
+    Imagen 5. Campo Tipo de Documento de la Ventana Generar Entregas Manual
+
+    .. note::
+
+        Para el ejemplo planteado en el presente material,es seleccionada la opción "**Orden**", ya que se requiere generar la entrega desde la orden de venta.
+
+#. Seleccione en el campo "**Acción del Documento**", la acción de documento con la cual requiere generar la entrega.
+
+    |Campo Acción del Documento de la Ventana Generar Entregas Manual|
+
+    Imagen 6. Campo Acción del Documento de la Ventana Generar Entregas Manual
+
+#. Luego de haber establecido los filtros de búsqueda necesarios, podrá visualizar las órdenes de venta que tienen coincidencia con la información ingresada en los campos de la ventana.
+
+    |Órdenes de Venta con Coincidencia en la Búsqueda|
+
+    Imagen 7. Órdenes de Venta con Coincidencia en la Búsqueda
+
+#. Seleccione las órdenes de venta a las cuales le requiere generar entrega.
+
+    |Selección de Órdenes de Venta para Generar Entregas|
+
+    Imagen 8. Selección de Órdenes de Venta para Generar Entregas
+
+#. Seleccione la opción "**OK**", para completar el proceso y generar las entregas de las órdenes seleccionadas.
+
+    |Opción OK de la Ventana Generar Entregas Manual|
+
+    Imagen 9. Opción OK de la Ventana Generar Entregas Manual
+
+#. Al culminar el proceso se generan las entregas de las órdenes de venta seleccionadas, mostrando una ventana con el mensaje "**Imprimir Entregas**". Luego se debe seleccionar la opción "**OK**", para generar el reporte de las mismas y poder imprimirlas.
+
+    |Mensaje de Imprimir Entregas|
+    
+    Imagen 10. Mensaje para Imprimir Entregas
+
+#. Podrá visualizar la ventana del reporte "**Generar Entregas (Manual)**", con el nombre del reporte para descargar en formato "**.pdf**", el número de páginas que contiene el reporte y las opciones para actualizar, descargar o imprimir el reporte.
+
+    |reporte de entregas para imprimir|
+
+    Imagen 11. Reporte de Entregas para Imprimir
+
+#. Luego de imprimir las entregas, el proceso se regresa a la ventana "**Generar Entregas (Manual)**", con el resultado de las entregas generadas, donde se muestra la cantidad de entregas creadas, la fecha exacta en la que fueron creadas y el número de documento de cada una.
+
+    |Resultado del Proceso Generar Entregas Manual|
+
+    Imagen 12. Resultado del Proceso Generar Entregas Manual
+
+**Consultar Entregas Generadas**
+--------------------------------
+
+#. Para consultar la entrega generada en la ventana "**Entregas (Cliente)**" se debe seleccionar el icono "**Encontrar Registro**" ubicado en la barra de herramientas de ADempiere, para luego ingresar en el campo "**No del Documento**", el número de documento de la entrega detallado en el resultado del proceso realizado antes y finalmente seleccionar la opción "**OK**" para realizar la búsqueda.
+
+    |Ventana Encontrar Registro de Entregas Generadas|
+
+    Imagen 13. Ventana Encontrar Registro Entrega
+
+#. Podrá visualizar el documento de entrega generado. El mismo es generado en el estado seleccionado en el campo "**Acción en el Documento**", de la ventana "**Generar Entregas (Manual)**".
+
+    |Documento de Entrega Manual Generada|
+
+    Imagen 14. Documento de Entrega Generada

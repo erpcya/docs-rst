@@ -12,3 +12,4 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 
     shipment-customer
     generate-delivery-from-order-lines
+    generate-manual-deliveries
