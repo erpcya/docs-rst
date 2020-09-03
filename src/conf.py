@@ -92,17 +92,7 @@ pygments_style = 'sphinx'
 html_theme = 'sphinx_rtd_theme'
 #html_theme_path = ['/usr/local/lib/python2.7/site-packages']
 
-if book:
-    pygments_style = 'bw'
 
-html_theme_options = dict(
-    github_url='https://github.com/Pylons/pyramid',
-    # On master branch and new branch still in
-    # pre-release status: true; else: false.
-    in_progress='true',
-    # On branches previous to "latest": true; else: false.
-    outdated='false',
-    )
 
 # Control display of sidebars
 html_sidebars = {'**': [
