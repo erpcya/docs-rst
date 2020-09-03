@@ -15,3 +15,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     invoice/index
     material-receipt/index
     assign-purchase-order-receipt-invoice
+    credit-note-cxp
+    debit-note-cxp
