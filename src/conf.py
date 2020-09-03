@@ -27,7 +27,7 @@ copyright = '2020, ADempiere ERP'
 author = 'E.R.P. Consultores y Asociados, C.A.'
 
 # The short X.Y version
-version = 1.0
+version = '1.0'
 
 # The full version, including alpha/beta/rc tags.
 release = '3.9.3'
