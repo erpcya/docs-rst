@@ -27,7 +27,7 @@ copyright = '2020, ADempiere ERP'
 author = 'E.R.P. Consultores y Asociados, C.A.'
 scv_greatest_tag = True
 
-scv_whitelist_branches = ('master', 'adempiere-3.7')
+scv_whitelist_branches = ('master')
 # The short X.Y version
 version = '1.0'
 
