@@ -54,12 +54,12 @@ clean:
 	rm -rf $(BUILDDIR)/*
 
 html:
-	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html/master
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
 htmlad:
-	sphinx-versioning build -r master -w master . $(BUILDDIR)/html
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html/adempiere-3.7
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
