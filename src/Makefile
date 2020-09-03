@@ -59,7 +59,7 @@ html:
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
 htmlad:
-	sphinx-versioning build -r master -w master -w adempiere-3.7 docs/src $(BUILDDIR)/html
+	sphinx-versioning build -r master -w master $(BUILDDIR)/html
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 
