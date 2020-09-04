@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/point-of-sale-menu.png
 .. |Opción Crear Retiro de POS| image:: resources/option-to-create-pos-withdrawal.png 
 .. |Ventana Retiros de Puntos de Venta| image:: resources/point-of-sale-withdrawals-window.png
@@ -36,7 +37,7 @@ Un retiro de fondos es realizado cuando por algún motivo se saca dinero de algu
 
     Imagen 1. Menú de ADempiere
 
-#. Si en el transcurso del día, se presenta un retiro de fondos en alguna de las cajas en la cual se encuentran realizando transacciones desde el punto de venta, seleccione la opción "**Crear Retiro de POS**", ubicada en el menú desplegado por el icono "**Proceso**" de la barra de herramientas de la ventana "**Punto de Venta**".
+#. Si en el transcurso del día, se presenta un retiro de fondos en alguna de las cajas en la cual se encuentran realizando transacciones desde el punto de venta, seleccione la opción "**Crear Retiro de POS**", ubicada en el menú desplegado por el icono "**Proceso**" de la barra de herramientas de la ventana "**Punto de Venta**", explicada en el documento :ref:`documento/paso-barra-de-herramientas` elaborado por `ERPyA`_.
 
     |Opción Crear Retiro de POS|
 
@@ -143,7 +144,7 @@ Un retiro de fondos es realizado cuando por algún motivo se saca dinero de algu
 
         Imagen 16. Campo Tipo Contra-Documento de la Ventana Retiros de Puntos de Venta
 
-    #. Seleccione en el campo "**Cargo**", el cargo que justifica el retiro de fondos del dinero de la caja. Para este caso, es utilizado como ejemplo el cargo "**Servicio de Luz**".
+    #. Seleccione en el campo "**Cargo**", el cargo que justifica el retiro de fondos del dinero de la caja. Para este caso, es utilizado como ejemplo el cargo "**Efectivo en Tránsito Administración Ventas**".
 
         |Campo Cargo de la Ventana Retiros de Puntos de Venta|
 

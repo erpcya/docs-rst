@@ -31,19 +31,19 @@
 
     Imagen 2. Ventana Generar Entregas Manual
 
-#. Seleccione en el campo "**Almacén**", el almacén asociado a la orden de venta por la cual requiere generar la entrega.
+#. Seleccione en el campo "**Almacén**", el almacén asociado a las órdenes de venta a las cuales le requiere generar entregas.
 
     |Campo Almacén de la Ventana Generar Entregas Manual|
 
     Imagen 3. Campo Almacén de la Ventana Generar Entregas Manual
 
-#. Seleccione en el campo "**Socio del Negocio**", el socio del negocio que se encuentra asociado a la orden de venta por la cual requiere generar la entrega.
+#. Seleccione en el campo "**Socio del Negocio**", el socio del negocio que se encuentra asociado a las órdenes de venta a las cuales le requiere generar entregas.
 
     |Campo Socio del Negocio de la Ventana Generar Entregas Manual|
 
     Imagen 4. Campo Socio del Negocio de la Ventana Generar Entregas Manual
 
-#. Seleccione en el campo "**Tipo de Documento**", el tipo de documento por el cual requiere filtrar la información.
+#. Seleccione en el campo "**Tipo de Documento**", el tipo de documento que se encuentra asociado a las órdenes de venta a las cuales le requiere generar entregas.
 
     |Campo Tipo de Documento de la Ventana Generar Entregas Manual|
 
@@ -51,9 +51,9 @@
 
     .. note::
 
-        Para el ejemplo planteado en el presente material,es seleccionada la opción "**Orden**", ya que se requiere generar la entrega desde la orden de venta.
+        Para el ejemplo planteado en el presente material, es seleccionada la opción "**Orden**", ya que se requiere generar las entregas desde las órdenes de venta.
 
-#. Seleccione en el campo "**Acción del Documento**", la acción de documento con la cual requiere generar la entrega.
+#. Seleccione en el campo "**Acción del Documento**", la acción de documento con la cual requiere generar las entregas.
 
     |Campo Acción del Documento de la Ventana Generar Entregas Manual|
 
@@ -65,7 +65,7 @@
 
     Imagen 7. Órdenes de Venta con Coincidencia en la Búsqueda
 
-#. Seleccione las órdenes de venta a las cuales le requiere generar entrega.
+#. Seleccione las órdenes de venta para generar las entregas de cada una de ellas.
 
     |Selección de Órdenes de Venta para Generar Entregas|
 
@@ -77,7 +77,7 @@
 
     Imagen 9. Opción OK de la Ventana Generar Entregas Manual
 
-#. Al culminar el proceso se generan las entregas de las órdenes de venta seleccionadas, mostrando una ventana con el mensaje "**Imprimir Entregas**". Luego se debe seleccionar la opción "**OK**", para generar el reporte de las mismas y poder imprimirlas.
+#. Al culminar el proceso se generan las entregas de las órdenes de venta seleccionadas, mostrando una ventana con el mensaje "**Imprimir Entregas**". Luego se debe seleccionar la opción "**OK**", para generar el documento con el reporte de las mismas y poder imprimirlas.
 
     |Mensaje de Imprimir Entregas|
     
@@ -88,6 +88,10 @@
     |reporte de entregas para imprimir|
 
     Imagen 11. Reporte de Entregas para Imprimir
+
+    .. note::
+
+        El procedimiento genera una entrega por cada orden de venta seleccionada y muestra en el documento del reporte una página por cada entrega generada.
 
 #. Luego de imprimir las entregas, el proceso se regresa a la ventana "**Generar Entregas (Manual)**", con el resultado de las entregas generadas, donde se muestra la cantidad de entregas creadas, la fecha exacta en la que fueron creadas y el número de documento de cada una.
 
@@ -104,7 +108,7 @@
 
     Imagen 13. Ventana Encontrar Registro Entrega
 
-#. Podrá visualizar el documento de entrega generado. El mismo es generado en el estado seleccionado en el campo "**Acción en el Documento**", de la ventana "**Generar Entregas (Manual)**".
+#. Podrá visualizar el documento de entrega buscado. El mismo es generado con el estado de documento seleccionado en el campo "**Acción en el Documento**", de la ventana "**Generar Entregas (Manual)**".
 
     |Documento de Entrega Manual Generada|
 

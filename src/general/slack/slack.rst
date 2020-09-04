@@ -1,7 +1,7 @@
 .. _ERPyA: http://erpya.com
 .. _Slack: https://erp.slack.com/
 .. _Google Play Store: https://play.google.com/store/apps/details?id=com.Slack
-.. |Invitación Slack| image:: resources/Invitación2.png
+.. |Invitación Slack| image:: resources/Invitacion2.png
 .. |Crear Cuenta Usuario| image:: resources/Crear_Cuenta_Usuario.png
 .. |Crear Cuenta Contraseña| image:: resources/Crear_Cuenta_Contraseña.png
 .. |Crear Cuenta botón| image:: resources/Crear_Cuenta_boton.png
