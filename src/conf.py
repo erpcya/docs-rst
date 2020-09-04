@@ -118,7 +118,7 @@ html_context['current_language'] = current_language
 from git import Repo
 repo = Repo( search_parent_directories=True )
 
- if 'current_version' in os.environ:
+if 'current_version' in os.environ:
    # get the current_version env var set by buildDocs.sh
    current_version = os.environ['current_version']
 else:
