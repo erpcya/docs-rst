@@ -9,7 +9,7 @@ RUN pip install sphinx && \
     pip install gitpython && \
     cd /home/docs  && \
     echo "Clone Repository..." && \
-    git clone https://github.com/carlosaparadam/docs.git && \
+    git clone https://github.com/erpcya/docs.git && \
     cd docs/src && \
     echo "Make Documentation..." && \
     make html && \
