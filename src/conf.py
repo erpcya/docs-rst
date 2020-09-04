@@ -156,7 +156,7 @@ today_fmt = "%B %d, %Y"
  # settings for EPUB
 epub_basename = 'target'
 
- html_context['downloads'] = list()
+html_context['downloads'] = list()
 html_context['downloads'].append( ('pdf', '/' +REPO_NAME+ '/' +current_language+ '/' +current_version+ '/' +project+ '-docs_' +current_language+ '_' +current_version+ '.pdf') )
 
  html_context['downloads'].append( ('epub', '/' +REPO_NAME+ '/' +current_language+ '/' +current_version+ '/' +project+ '-docs_' +current_language+ '_' +current_version+ '.epub') )
