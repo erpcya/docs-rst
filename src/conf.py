@@ -97,7 +97,7 @@ except NameError:
    html_context = dict()
 html_context['display_lower_left'] = True
 
- if 'REPO_NAME' in os.environ:
+if 'REPO_NAME' in os.environ:
    REPO_NAME = os.environ['REPO_NAME']
 else:
    REPO_NAME = ''
