@@ -12,5 +12,5 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 
     process-payroll/index
     payroll-action-notice/index
-    payment-payroll
+    payment-payroll/index
     payroll-report/index

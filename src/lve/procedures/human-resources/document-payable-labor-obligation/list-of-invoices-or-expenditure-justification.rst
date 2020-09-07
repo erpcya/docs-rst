@@ -12,7 +12,7 @@ Para relacionar las facturas que presenta un empleado para justificar un gasto q
 
 #. Si el empleado presenta en físico su factura
 
-    #. Registre un **Documento por Pagar Obligación Laboral** con la información suministrada en el documento :ref:`documentos/documento-por-pagar-obligación-laboral`
+    #. Registre un **Documento por Pagar Obligación Laboral** con la información suministrada en el documento :ref:`documento/documento-por-pagar-obligación-laboral`.
     
     #.  Si una de las facturas abulta el monto otorgado por el empleado y dicho monto no será reembolsado por el cliente se debe justificar ese monto registrando el documento por pagar siguiendo los datos que se explican en el documento :ref:`documento/registros-de-montos-no-reembolsables-para-viáticos-y-reembolsos`
 
