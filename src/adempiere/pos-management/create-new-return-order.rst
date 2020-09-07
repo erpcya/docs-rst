@@ -22,7 +22,7 @@
 
 El proceso "**Crear Nueva Orden de Devolución**" del punto de venta, se utiliza para las devoluciones parciales de productos. Dicho proceso genera una autorización de devolución que permite elegir los productos que se van a devolver y su cantidad.
 
-Adicional a ello, los documentos "**Orden de Devolución**", "**Devolución**" y "**Nota de Crédito**" son generados automáticamente en estado "**Completo**".
+Adicional a ello, los documentos "**Orden de Devolución**", "**Devolución**" y "**Nota de Crédito**" son generados automáticamente en estado "**Completo**", al seleccionar el icono "**Pagar**", ubicado en la barra de herramientas de la ventana "**Punto de Venta**".
 
 Para ejecutar correctamente el proceso "**Crear Nueva Orden de Devolución**", se debe realizar el siguiente procedimiento.
 
@@ -76,7 +76,7 @@ Para ejecutar correctamente el proceso "**Crear Nueva Orden de Devolución**", s
 
         Para el ejemplo expuesto en el presente caso, se tenia vendida la cantidad de "**10**" unidades del producto "**CEMENTO GRIS GENERICO ( SACOS )**" y se esta realizando la devolución de "**5**" unidades.
 
-#. Luego se ingresar y verificar las modificaciones de los productos a vender y su cantidad correspondiente, se debe seleccionar el icono "**Pagar**", ubicado en la barra de herramientas de la ventana "**Punto de Venta**", explicada en el documento :ref:`documento/paso-barra-de-herramientas` elaborado por `ERPyA`_. 
+#. Luego de ingresar y verificar las modificaciones de los productos a vender y su cantidad correspondiente, se debe seleccionar el icono "**Pagar**", ubicado en la barra de herramientas de la ventana "**Punto de Venta**", explicada en el documento :ref:`documento/paso-barra-de-herramientas` elaborado por `ERPyA`_. 
 
     |Selección de Opción Pagar Completar la Orden de Devolución|
 
