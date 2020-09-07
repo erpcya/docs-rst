@@ -244,9 +244,9 @@ locale_dirs = ['locale/']
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'ADempiereDocs.tex', 'E.R.P. Consultores y Asociados, C.A.', 'Documentation E.R.P. Consultores y Asociados, C.A.', 'manual'),
-]
+#latex_documents = [
+#    (master_doc, 'ADempiereDocs.tex', 'E.R.P. Consultores y Asociados, C.A.', 'Documentation E.R.P. Consultores y Asociados, C.A.', 'manual'),
+#]
 
 pdf_documents = [('ADempiereDocs', u'rst2pdf', u'ADempiereDocs', u'Documentation E.R.P. Consultores y Asociados, C.A'),]
 
