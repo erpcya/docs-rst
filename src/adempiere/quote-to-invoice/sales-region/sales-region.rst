@@ -14,7 +14,7 @@
 .. |Árbol de Regiones de Ventas de la Ventana Región de Ventas| image:: resources/tree-of-sales-regions-in-the-sales-region-window.png
 .. |Asignar Región de Ventas a Localización| image:: resources/assign-sales-region-to-location.png
 
-.. _documento/región-de-ventas:
+.. _documento/region-ventas:
 
 **Registro de Región de Ventas**
 ================================

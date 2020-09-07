@@ -21,7 +21,7 @@
 **Creación de Pago**
 --------------------
 
-#. Se crea el pago desde el proceso de caja transitoria siguiendo los pasos detallados en :ref:`documento/Pago-Nominas`, o realizando las siguientes excepciones:
+#. Se crea el pago desde el proceso de caja transitoria siguiendo los pasos detallados en :ref:`documento/pago-de-nómina`, o realizando las siguientes excepciones:
 
     #. Crear selección de pago con "**Caja Transito Bono de Alimentación**".
 

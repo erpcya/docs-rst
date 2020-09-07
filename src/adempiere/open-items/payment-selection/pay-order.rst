@@ -403,7 +403,7 @@ Para realizar una "**Orden de Pagos**" en ADempiere el cual permite montar una s
 
             Imagen 44. Campo Cuenta Bancaria Socio del Negocio del Documento Orden de Pago desde Factura
 
-        #. Campo "**Orden de Compra**" para este caso no debe aparecer ninguna información ya que se está trabajando son con facturas, sí requiere realizar una "**Orden de Pago**" y asociar órdenes verificar el instructivo :ref:`_documento/orden-de-pago-desde-orden`.
+        #. Campo "**Orden de Compra**" para este caso no debe aparecer ninguna información ya que se está trabajando son con facturas, sí requiere realizar una "**Orden de Pago**" y asociar órdenes verificar el instructivo :ref:`documento/orden-de-pago-desde-orden`.
 
             |Campo Orden de Compra del Documento Orden de Pago desde Factura|
 

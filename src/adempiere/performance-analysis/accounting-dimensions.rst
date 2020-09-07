@@ -48,11 +48,11 @@ Las entidades con las que ADempiere permite dimensionar los diferentes hechos co
 
     #. **Región de Venta**: Representa una zona de venta o conjunto de clientes o prospectos que son asignados a un vendedor y con las que la empresa puede establecer un negocio. Para profundizar más este tema vaya a el documento: :ref:`documento/region-ventas`.
 
-    #. **Actividad**: Representa las actividades realizadas en la empresa, generalmente un departamento, permitiendo determinar el costo o el gasto de cada actividad. Para profundizar más este tema vaya a el documento: :ref:`documento/actividad`.
+    #. **Actividad**: Representa las actividades realizadas en la empresa, generalmente un departamento, permitiendo determinar el costo o el gasto de cada actividad.
 
-    #. **Proyecto**: Representa la planificación de actividades relacionadas al cumplimiento de un objetivo específico, generalmente delimitado por fases y tareas. Para profundizar más este tema vaya a el documento: :ref:`documento/proyecto`.
+    #. **Proyecto**: Representa la planificación de actividades relacionadas al cumplimiento de un objetivo específico, generalmente delimitado por fases y tareas.
 
-    #. **Campaña**: Representa la agrupación de actividades realizadas con la finalidad de lograr un determinado objetivo. Para profundizar más este tema vaya a el documento: :ref:`documento/campaña`.
+    #. **Campaña**: Representa la agrupación de actividades realizadas con la finalidad de lograr un determinado objetivo.
 
     #. **Elementos Personalizados:** A menudo los clientes han preguntado ¿Cómo hacemos si nosotros manejamos una dimensión u otro elemento para medir nuestro desempeño?.
 
