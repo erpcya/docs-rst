@@ -9,7 +9,6 @@
 .. |Selección de Opción Pagar Completar la Orden de Devolución| image:: resources/option-selection-pay-complete-return-order.png
 .. |Mensaje de Proceso Finalizado| image:: resources/process-finished-message.png
 .. |Nota de Crédito Generada del proceso Crear Nueva Orden de Devolución| image:: resources/credit-note-generated-from-the-create-new-return-order-process.png
-
 .. |consulta de orden de devolución generada del proceso crear nueva orden de devolución| image:: resources/return-order-query-generated-from-the-create-new-return-order-process.png
 .. |consulta de devolución generada del proceso crear nueva orden de devolución| image:: resources/return-query-generated-from-process-create-new-return-order.png
 .. |consulta de nota de crédito generada del proceso crear nueva orden de devolución| image:: resources/credit-memo-query-generated-from-process-create-new-return-order.png
