@@ -1,4 +1,3 @@
-.. _ERPyA: http://erpya.com
 .. |Diagrama de Proceso Punto de Venta| image:: resources/point-of-sale-process-diagram.png
 
 ===============
