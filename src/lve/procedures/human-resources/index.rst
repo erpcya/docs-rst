@@ -9,5 +9,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 .. toctree::
    :maxdepth: 2
 
-   purchase-order-labor-obligation
-   document-payable-labor-obligation/purchase-order-labor-obligation
+   purchase-order-labor-obligation/purchase-order-labor-obligation
+   document-payable-labor-obligation/index
+   
