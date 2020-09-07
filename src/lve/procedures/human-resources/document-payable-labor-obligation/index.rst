@@ -11,4 +11,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
    
    document-payable-labor-obligation
    records-of-non-refundable-amounts-for-viatics-and-refunds
+   list-of-invoices-or-expenditure-justification
    
