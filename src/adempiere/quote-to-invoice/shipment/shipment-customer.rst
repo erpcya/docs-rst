@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/customer-deliveries-menu.png
 .. |Ventana Entregas Cliente| image:: resources/customer-deliveries-window.png
 .. |Icono Registro Nuevo de la Ventana Entregas Cliente| image:: resources/new-registration-icon-in-the-client-deliveries-window.png
