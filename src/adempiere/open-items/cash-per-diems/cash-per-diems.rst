@@ -13,39 +13,42 @@
 **Registro de Caja Viáticos**
 ==============================
 
+**Viáticos Mayor al Gasto**
+---------------------------
+
+**Transferencia Bancaria por Viáticos**
+***************************************
+
 #. Realice el procedimiento regular para generar una transferencia bancaria, explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_.
 
    |Transferencia Bancaria|
 
    Imagen 1. Transferencia Bancaria
 
-#. Realice el procedimiento regular para generar un cierre de caja, explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_, seleccionando en el campo "**Tipo de Documento**" la opción "**Cierre de Caja Viáticos**".
-
-   |Primer Cierre de Caja Viáticos|
-
-   Imagen 2. Cierre de Caja Viáticos
-
    .. note::
 
       Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja viáticos. De igual manera, es creado un cobro en caja y un pago en pago/cobro.
+
+**Relación de Facturas (Recursos Humanos)**
+*******************************************
 
 #. Realice el procedimiento regular para generar una orden de pago, explicado en el documento :ref:`documento/orden-de-pago`, elaborado por `ERPyA`_.
 
    |Orden de Pago|
 
-   Imagen 3. Orden de Pago
+   Imagen 2. Orden de Pago
 
 #. Luego realice el procedimiento regular para generar una selección de pago, igualmente explicado en el documento :ref:`documento/selección-de-pago`, elaborado por `ERPyA`_.
 
    |Selección de Pago|
 
-   Imagen 4. Selección de Pago
+   Imagen 3. Selección de Pago
 
 #. Por último, realice el procedimiento regular para generar un imprimir/exportar pagos, explicado en el documento :ref:`documento/Imprimir-Exportar`, elaborado por `ERPyA`_.
 
    |Imprimir Exportar Pagos|
 
-   Imagen 5. Imprimir Exportar Pagos
+   Imagen 4. Imprimir Exportar Pagos
 
    .. note::
 
@@ -55,23 +58,38 @@
 
       |Pestaña Pago Generado|
       
-      Imagen 6. Pestaña Pago Generado
+      Imagen 5. Pestaña Pago Generado
 
    #. Al consultar el registro creado en caja, se puede apreciar el registro de la selección de pago de la siguiente manera.
 
       |Registo en Caja Viáticos|
 
-      Imagen 7. Registo en Caja Viáticos
+      Imagen 6. Registo en Caja Viáticos
+
+**Cierre de Caja En Borrador**
+******************************
+
+#. Realice el procedimiento regular para generar un cierre de caja, explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_, seleccionando en el campo "**Tipo de Documento**" la opción "**Cierre de Caja Viáticos**".
+
+   |Primer Cierre de Caja Viáticos|
+
+   Imagen 7. Cierre de Caja Viáticos
 
    .. warning::
 
-      Si el monto total de la transferencia bancaria realizada anteriormente a la caja viáticos del empleado es mayor al monto total gastado por el mismo, es necesario que se realice una transferencia bancaria por el excedente del monto, antes de realizar el cierre de la caja viáticos del empleado nuevamente. 
+      Si el monto total de la transferencia bancaria realizada anteriormente a la caja viáticos del empleado es mayor al monto total gastado por el mismo, es necesario que el cierre de caja se genere en estado "**Borrador**" y se proceda a realizar una transferencia bancaria por el excedente del monto, antes de realizar el cierre de la caja viáticos del empleado nuevamente. 
+
+**Transferencia Bancaria por Excedente**
+****************************************
 
 #. Realice el procedimiento regular para generar una transferencia bancaria, explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_.
 
    |Transferencia Bancaria por Restante de Viáticos|
 
    Imagen 8. Transferencia Bancaria
+
+**Completar Cierre de Caja**
+****************************
 
 #. Realice el procedimiento regular para generar un cierre de caja, explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_, seleccionando en el campo "**Tipo de Documento**" la opción "**Cierre de Caja Viáticos**".
 
@@ -81,8 +99,9 @@
 
    |Último Cierre de Caja Viáticos|
 
-   Imagen 2. Cierre de Caja Viáticos
+   Imagen 9. Cierre de Caja Viáticos
 
 .. note::
 
    Al realizar el proceso de transferencia bancaria, es generado un ingreso a banco y un egreso de caja viáticos. De igual manera, es creado un pago en caja y un cobro en pago/cobro.
+
