@@ -488,7 +488,7 @@ La localización de un socio del negocio cliente es muy importante por diferente
 
     .. note::
 
-        Para conocer más sobre las regiones de ventas que puede tener una compañía u organización, visite el documento :ref:`documento/región-de-ventas`, elaborado por `ERPyA`_.
+        Para conocer más sobre las regiones de ventas que puede tener una compañía u organización, visite el documento :ref:`documento/region-ventas`, elaborado por `ERPyA`_.
 
 #. Introduzca en el campo "**Código SICA**", el código SICA del socio del negocio cliente.
 
