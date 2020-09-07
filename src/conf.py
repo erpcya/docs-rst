@@ -50,7 +50,7 @@ html_additional_pages = {"download": "pages/download.html", "index": "pages/inde
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.doctest'
+extensions = ['sphinx.ext.doctest','rst2pdf.pdfbuilder'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -247,6 +247,9 @@ locale_dirs = ['locale/']
 latex_documents = [
     (master_doc, 'ADempiereDocs.tex', 'E.R.P. Consultores y Asociados, C.A.', 'Documentation E.R.P. Consultores y Asociados, C.A.', 'manual'),
 ]
+
+pdf_documents = [('ADempiereDocs', u'rst2pdf', u'ADempiereDocs', u'Documentation E.R.P. Consultores y Asociados, C.A'),]
+
 
 
 # -- Options for manual page output ------------------------------------------
