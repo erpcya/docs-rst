@@ -62,7 +62,7 @@ Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos re
 
     - **Reportes**
 
-        Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina:` con los datos adicionales que se indican a continuación para cada reporte
+        Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina` con los datos adicionales que se indican a continuación para cada reporte
 
         - “**Recibo de Pago**”
 
