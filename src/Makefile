@@ -58,7 +58,7 @@ html:
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 rinoh:
-	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/html/
+	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf/
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 htmlad37:
