@@ -11,7 +11,7 @@
 **Nómina Prestaciones Sociales**
 =================================
 
-Para procesar una “**Nómina de Prestaciones Sociales**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de prestaciones sociales, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
+La “**Nómina de Prestaciones Sociales**”, se debe procesar los primeros cinco días de cada mes, con la finalidad que procese la asignación de garantía a todos aquellos empleados que cumplieron su trismestre en el mes inmediatamente anterior a la nómina de prestaciones sociales, así mismo, también obtendremos asignación de antiguedad de prestaciones de aquellos empleados que cumplen su año durante el mes anterior, para ello, debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de prestaciones sociales, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 
 #. Estatus del Documento:
@@ -31,7 +31,7 @@ Para procesar una “**Nómina de Prestaciones Sociales**” debemos realizar el
 
     .. note::
 
-        La nómina de prestaciones sociales está configurada para que procese la asignación de garantía de prestaciones cada 3 meses al empleado, y la asignación de antiguedad de prestaciones cada año a partir del segundo año de servicio del empleado.
+        La nómina de prestaciones sociales está configurada para que procese la asignación de garantía de prestaciones cuando el empleado cumpla su trimestre, y la asignación de antiguedad de prestaciones cada año a partir del segundo año de servicio del empleado.
 
       |Nómina Prestaciones Sociales|
 
