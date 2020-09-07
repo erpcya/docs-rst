@@ -16,7 +16,7 @@
 **Anular Transacción de Venta**
 ===============================
 
-El proceo "**Anular Transacción de Venta**", permite anular la venta realizada desde el punto de venta. Al mismo tiempo genera de manera automática y en estado "**Completo**", los documentos "**Orden de Devolución**", "**Devolución**" y "**Nota de Crédito**", para ello se debe realizar el siguiente procedimiento.
+El proceo "**Anular Transacción de Venta**", permite realizar la devolución total de la venta, generando de manera automática y en estado "**Completo**", los documentos "**Orden de Devolución**", "**Devolución**" y "**Nota de Crédito**", para ello se debe realizar el siguiente procedimiento.
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la carpeta "**Punto de Venta**". Para finalizar, seleccione la ventana "**Punto de Venta**".
 
