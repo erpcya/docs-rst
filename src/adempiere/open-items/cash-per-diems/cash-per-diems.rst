@@ -31,8 +31,8 @@ En el registro de caja viáticos de una empresa u organización, se pueden prese
 
       Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja viáticos. De igual manera, es creado un cobro en caja y un pago en pago/cobro.
 
-**Relación de Facturas (Recursos Humanos)**
-*******************************************
+**Relación de Facturas**
+************************
 
 #. Realice el procedimiento regular para generar una orden de pago, explicado en el documento :ref:`documento/orden-de-pago`, elaborado por `ERPyA`_.
 

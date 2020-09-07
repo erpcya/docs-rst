@@ -25,6 +25,6 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
     pos
     void-sales-transaction
     create-new-return-order
-    
+    complete-ready-order
     withdrawal-of-funds-from-the-point-of-sale
     closing-cash
