@@ -13,6 +13,8 @@
 **Registro de Caja Viáticos**
 ==============================
 
+En el registro de caja viáticos de una empresa u organización, se pueden presentar diversos acontecimientos que permiten ejecutar el proceso de diferentes maneras. Siendo una de ellas, el registro de caja viáticos cuando los viáticos son mayor al gasto.
+
 **Viáticos Mayor al Gasto**
 ---------------------------
 
