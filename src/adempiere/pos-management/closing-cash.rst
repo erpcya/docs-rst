@@ -130,7 +130,7 @@
 
             Imagen 16. Campo Total Abierto de la Ventana Cierre de Caja del Punto de Venta
 
-        #. En el campo "**Diferencia Monto**", podrá visualizar la diferencia del monto existente entre el retiro y el resultado del total pagado menos el total de la línea. 
+        #. En el campo "**Diferencia Monto**", podrá visualizar el monto resultante de la sumatoria del monto total de la apertura más el resultado del total cobrado menos el total de los retiros. 
 
             |Campo Diferencia Monto de la Ventana Cierre de Caja del Punto de Venta|
 
@@ -138,7 +138,7 @@
 
             .. note::
 
-                El valor de este campo proviene de la fórmula (Total Retiro en Cierre de Caja + (Total Pagado - Total de la Línea)).
+                El valor de este campo proviene de la fórmula (Total de la Apertura + (Total de los Cobros - Total de los Retiros)).
 
         #. Tilde el checklist "**Sobre/Sub Pago**", para indicar que existe un sobre pago (no contabilizado) o un sub pago (pago parcial).
 
