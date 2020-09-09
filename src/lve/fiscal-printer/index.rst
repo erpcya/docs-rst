@@ -21,7 +21,7 @@ Actualmente se tiene soporte para las marcas:
     commons-errors-fiscal-printer
     manual-reports
     setup-vmax-220
-    install-pnp-fiscal-printer
+    install-pnp-fiscalprinter
     daily-setup-pnp-fiscalPrinter
     update-client-pnp-fiscalPrinter
     
