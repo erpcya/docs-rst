@@ -1,15 +1,14 @@
+.. |Acordar una Reunión| image:: resources/meeting.png
+.. |Enviar para Revisar| image:: resources/send-to-review-calendar.png
+
 .. _documento/acordar-reunión:
 
 **Acordar una Reunión**
 =======================
 
-.. documento/acordar-reunión-01
+|Acordar una Reunión|
 
-.. figure:: resources/meeting.png
-   :align: center
-   :alt: Acordar una Reunión
-
-   Imagen 1. Acordar Reunión
+Imagen 1. Acordar Reunión
 
 **Justificación** 
 -----------------
@@ -44,11 +43,7 @@ A pesar de las múltiples herramientas que posee `E.R.P. Consultores y Asociados
 
 Si desea enviar una notificación por correo desde la agenda lo puede hacer presionando el botón *Enviar para Revisión* 
 
-.. documento/acordar-reunión-03
-
-.. figure:: resources/send-to-review-calendar.png
-   :align: center
-   :alt: Enviar para Revisar
+|Enviar para Revisar|
 
 **¿De qué manera se debe agendar una reunión?**
 -----------------------------------------------
