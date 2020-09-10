@@ -142,7 +142,7 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
 
     |Campo Almacenado de la Ventana Producto|
 
-    Imagen 16. Campo Almacenado de la Ventana Producto
+    Imagen 16. Checklist Almacenado de la Ventana Producto
 
 #. Seleccione en el campo "**Ubicación**", la ubicación de almacenamiento dentro de la empresa del producto que esta registrando.
 
