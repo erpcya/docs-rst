@@ -11,3 +11,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
     cash-journal/index
     procedure-for-account-distribution/procedure-for-distribution-of-national-suppliers-account-to-international-suppliers
+    automatic-payment-order-adjustment/automatic-payment-order-adjustment
