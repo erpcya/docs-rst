@@ -7,7 +7,7 @@
 **Utilidades**
 ===============
 
-El Reporte de Utilidades lo utilizamos cuando queremos visualizar la nómina de utilidades, en él usted podrá visualizar las asignaciones y las deducciones dentro de la nómina de utilidades del empleado. Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de utilidades :ref:`documento/nómina-de-utilidades`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
+El Reporte de Utilidades lo utilizamos cuando queremos visualizar la nómina de utilidades, en él usted podrá visualizar las asignaciones y las deducciones dentro de la nómina de utilidades del empleado. Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de utilidades :ref:`documento/nomina-utilidades`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
 
 
 Entre las asignaciones que se pueden visualizar en el reporte de utilidades se encuentran:

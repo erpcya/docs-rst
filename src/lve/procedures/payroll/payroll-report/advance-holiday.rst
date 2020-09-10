@@ -8,7 +8,7 @@
 **Anticipo de Vacaciones**
 ===========================
 
-El Reporte de Anticipo de Vacaciones lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de anticipo de vacaciones, en él usted podrá visualizar las asignaciones y las deducciones calculados en está nómina.   Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de anticipo vacaciones :ref:`documento/nómina-de-anticipo-de-vacaciones`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-anticipo-de-nómina`
+El Reporte de Anticipo de Vacaciones lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de anticipo de vacaciones, en él usted podrá visualizar las asignaciones y las deducciones calculados en está nómina. Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de anticipo vacaciones :ref:`documento/nomina-anticipo-vacaciones`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
 
 Entre las asignaciones que se pueden visualizar en el reporte de anticipo de vacaciones se encuentran:
 
@@ -138,7 +138,7 @@ Para este reporte están configurados 3 tipos de plantillas
 
     .. note::
     
-        Si desea conocer cómo registrar la fecha de inicio de anticipo de vacaciones puede seguir los pasos indicados en el documento :ref:`documento/novedades-de-nómina:` 
+        Si desea conocer cómo registrar la fecha de inicio de anticipo de vacaciones puede seguir los pasos indicados en el documento :ref:`documento/novedades-de-nómina` 
 
    
     Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fue impreso el recibo.

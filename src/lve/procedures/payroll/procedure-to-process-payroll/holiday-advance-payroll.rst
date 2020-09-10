@@ -1,6 +1,4 @@
-.. _documento/nomina-anticipo-vacaciones:
 .. _ERPyA: http://erpya.com
-
 .. |Nómina Anticipo de Vacaciones| image:: resources/anticipodevacaciones22.png
 .. |Novedades Anticipo de Vacaciones| image:: resources/novedadanticipovacaciones.png
 .. |Recibo de Pago Nómina Anticipo de Vacaciones| image:: resources/reciboanticipovacaciones33.png
@@ -9,6 +7,7 @@
 .. |Retenciones Nómina Anticipo de Vacaciones| image:: resources/retencionesanticipovacaciones11.png
 .. |Aportes Nómina Anticipo de Vacaciones| image:: resources/aportesanticipovacaciones11.png
 
+.. _documento/nomina-anticipo-vacaciones:
 
 =================================
 **Nómina Anticipo de Vacaciones**
@@ -60,7 +59,7 @@ Para procesar una “**Nómina de Anticipo de Vacaciones**” debemos realizar e
       +-------------------------------------------------------+----------------------+----------------+
     
     
-         Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
+        Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
 
         |Novedades Anticipo de Vacaciones|
 
@@ -70,7 +69,7 @@ Para procesar una “**Nómina de Anticipo de Vacaciones**” debemos realizar e
 
     _"**Reportes**"
 
-    Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina:` con los datos adicionales que se indican a continuación para cada reporte
+    Para visualizar los reportes de nóminas puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina` con los datos adicionales que se indican a continuación para cada reporte
 
         “**Recibo de Pago**”
 

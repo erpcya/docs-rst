@@ -17,7 +17,7 @@
 .. |Campo Cantidad del Movimiento| image:: resources/campo-cantidad.png
 .. |Pestaña Movimiento| image:: resources/pest-movimiento-y-completar.png
 .. |Acción Completar y Opción OK| image:: resources/accion-completar.png
-.. |Reporte Detalle Almacenamiento Después| image:: resources/detalle-alamacenamiento-despues.png
+.. |Reporte Detalle Almacenamiento Después| image:: resources/detalle-almacenamiento-despues.png
 
 .. _documento/movimiento-inventario:
 

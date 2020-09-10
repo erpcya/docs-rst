@@ -7,6 +7,7 @@
 .. |Campo Agente Comercial de la Ventana Terminal PDV| image:: resources/field-commercial-agent-terminal-window-point-of-sale.png
 .. |Campo Retraso de Cierre de Sesión Automático de la Ventana Terminal PDV| image:: resources/field-automatic-logout-delay-window-terminal-point-of-sale.png
 .. |Campo Lista de Precios de la Ventana Terminal PDV| image:: resources/price-list-field-of-the-point-of-sale-terminal-window.png
+.. |Checklist Modifique el Precio de la Ventana Terminal PDV| image:: resources/checklist-modify-the-price-of-the-pos-terminal-window.png
 .. |Campo Caja Menor de la Ventana Terminal PDV| image:: resources/retail-box-field-of-the-point-of-sale-terminal-window.png
 .. |Campo Plantilla Socio del Negocio de la Ventana Terminal PDV| image:: resources/field-of-business-partner-window-terminal-point-of-sale-template.png
 .. |Campo Cuenta Bancaria de la Ventana Terminal PDV| image:: resources/bank-account-field-of-the-point-of-sale-terminal-window.png
@@ -89,71 +90,77 @@
 
             Imagen 8. Campo Lista de Precios de la Ventana Terminal PDV
 
+        #. Seleccione el checklist "**Modifique el Precio**", para permitir que los precios de venta puedan ser modificados en la caja que se encuentra configurando.
+
+            |Checklist Modifique el Precio de la Ventana Terminal PDV|
+
+            Imagen 9. Checklist Modifique el Precio de la Ventana Terminal PDV
+
         #. Seleccione en el campo "**Caja Menor**", la caja menor de la organización para registrar en ella las transacciones de caja chica.
 
             |Campo Caja Menor de la Ventana Terminal PDV|
 
-            Imagen 9. Campo Caja Menor de la Ventana Terminal PDV
+            Imagen 10. Campo Caja Menor de la Ventana Terminal PDV
 
         #. Seleccione en el campo "**Plantilla Socio del Negocio**", el socio del negocio creado para ser utilizado en el registro de los nuevos clientes de forma rápida.
 
             |Campo Plantilla Socio del Negocio de la Ventana Terminal PDV|
 
-            Imagen 10. Campo Plantilla Socio del Negocio de la Ventana Terminal PDV
+            Imagen 11. Campo Plantilla Socio del Negocio de la Ventana Terminal PDV
 
         #. Seleccione en el campo "**Cuenta Bancaria**", la cuenta caja creada para registrar las transacciones efectuadas por el vendedor, durante la gestión de orden, facturación y cobro de los productos.
 
             |Campo Cuenta Bancaria de la Ventana Terminal PDV|
 
-            Imagen 11. Campo Cuenta Bancaria de la Ventana Terminal PDV
+            Imagen 12. Campo Cuenta Bancaria de la Ventana Terminal PDV
 
         #. Seleccione en el campo "**Transferir transacción de caja a banco**", la cuenta a la cual serán transferidas todas las transacciones de la caja.
 
             |Campo Transferir transacción de caja a banco de la Ventana Terminal PDV|
 
-            Imagen 12. Campo Transferir Transacción de Caja a Banco de la Ventana Terminal PDV
+            Imagen 13. Campo Transferir Transacción de Caja a Banco de la Ventana Terminal PDV
 
         #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. 
 
             |Campo Tipo de Documento de la Ventana Terminal PDV|
 
-            Imagen 13. Campo Tipo de Documento de la Ventana Terminal PDV
+            Imagen 14. Campo Tipo de Documento de la Ventana Terminal PDV
 
         #. Seleccione en el campo "**Regla de Facturación**", el método utilizado para generar las facturas al cliente.
 
             |Campo Regla de Facturación de la Ventana Terminal PDV|
 
-            Imagen 14. Campo Regla de Facturación de la Ventana Terminal PDV
+            Imagen 15. Campo Regla de Facturación de la Ventana Terminal PDV
 
         #. Seleccione en el campo "**Almacén**", el lugar de almacenamiento de los productos destinados para la venta.
 
             |Campo Almacén de la Ventana Terminal PDV|
 
-            Imagen 15. Campo Almacén de la Ventana Terminal PDV
+            Imagen 16. Campo Almacén de la Ventana Terminal PDV
 
         #. Seleccione en el campo "**Regla de Entrega**", el método utilizado para generar las entregas de productos al cliente.
 
             |Campo Regla de Entrega de la Ventana Terminal PDV|
 
-            Imagen 16. Campo Regla de Entrega de la Ventana Terminal PDV
+            Imagen 17. Campo Regla de Entrega de la Ventana Terminal PDV
 
         #. Seleccione en el campo "**PDV Disposición de la Llave**", la disposición de la llave para el funcionamiento del punto de venta.
 
             |Campo PDV Disposición de la Llave de la Ventana Terminal PDV|
 
-            Imagen 17. Campo PDV Disposición de la Llave de la Ventana Terminal PDV
+            Imagen 18. Campo PDV Disposición de la Llave de la Ventana Terminal PDV
         
         #. El checklist "**Habilitar Búsqueda de Productos POS**", permite la búsqueda de los productos.
 
             |Checklist Habilitar Búsqueda de Productos POS de la Ventana Terminal PDV|
 
-            Imagen 18. Checklist Habilitar Búsqueda de Productos POS de la Ventana Terminal PDV
+            Imagen 19. Checklist Habilitar Búsqueda de Productos POS de la Ventana Terminal PDV
 
         #. Seleccione en el campo "**Diseño de Teclado en Pantalla**", el diseño clave para utilizar el teclado en pantalla para campos de texto.
 
             |Campo Diseño de Teclado en Pantalla de la Ventana Terminal PDV|
 
-            Imagen 19. Campo Diseño de Teclado en Pantalla de la Ventana Terminal PDV
+            Imagen 20. Campo Diseño de Teclado en Pantalla de la Ventana Terminal PDV
 
             .. note::
 
@@ -163,7 +170,7 @@
 
             |Campo Diseño de Teclado Numérico en Pantalla de la Ventana Terminal PDV|
 
-            Imagen 20. Campo Diseño de Teclado Numérico en Pantalla de la Ventana Terminal PDV
+            Imagen 21. Campo Diseño de Teclado Numérico en Pantalla de la Ventana Terminal PDV
 
             .. note::
 
@@ -173,7 +180,7 @@
 
             |Campo Nombre Impresión de la Ventana Terminal PDV|
 
-            Imagen 21. Campo Nombre Impresión de la Ventana Terminal PDV
+            Imagen 22. Campo Nombre Impresión de la Ventana Terminal PDV
 
             .. note::
 
@@ -183,80 +190,84 @@
 
             |Campo Registradora de la Ventana Terminal PDV|
 
-            Imagen 22. Campo Registradora de la Ventana Terminal PDV
+            Imagen 23. Campo Registradora de la Ventana Terminal PDV
 
         #. Introduzca en el campo "**Escalas Electrónicas**", la ruta para las escalas electrónicas del dispositivo.
 
             |Campo Escalas Electrónicas de la Ventana Terminal PDV|
 
-            Imagen 23. Campo Escalas Electrónicas de la Ventana Terminal PDV
+            Imagen 24. Campo Escalas Electrónicas de la Ventana Terminal PDV
 
         #. Introduzca en el campo "**Código de Solicitud de Medida**, las medidas de balanzas electrónicas de dispositivos.
 
             |Campo Código de Solicitud de Medida de la Ventana Terminal PDV|
 
-            Imagen 24. Campo Código de Solicitud de Medida de la Ventana Terminal PDV
+            Imagen 25. Campo Código de Solicitud de Medida de la Ventana Terminal PDV
 
         #. Seleccione el checklist "**PIN POS Requerido**", para indicar que un PIN de supervisor es obligatorio para ejecutar algunas tareas.
 
             |Campo PIN POS Requerido de la Ventana Terminal PDV|
 
-            Imagen 25. Campo PIN POS Requerido de la Ventana Terminal PDV
+            Imagen 26. Campo PIN POS Requerido de la Ventana Terminal PDV
 
         #. Introduzca en el campo "**Tiempo de Entrada de PIN**", la cantidad de tiempo desde la visualización inicial hasta que el cuadro de diálogo de entrada de PIN se agota.
 
             |Campo Tiempo de Entrada de PIN de la Ventana Terminal PDV|
 
-            Imagen 26. Campo Tiempo de Entrada de PIN de la Ventana Terminal PDV
+            Imagen 27. Campo Tiempo de Entrada de PIN de la Ventana Terminal PDV
 
             .. note::
 
                 La cantidad de tiempo debe ser ingresado en milisegundos.
 
-        #. Introduzca en el campo "**Clase Para Impresión de Ticket**", el nombre de la clase para la impresión del ticket.
+        #. En el campo "**Clase Para Impresión de Ticket**", se debe ingresar el nombre de la clase para la impresión del ticket.
 
             |Campo Clase Para Impresión de Ticket de la Ventana Terminal PDV|
 
-            Imagen 27. Campo Clase Para Impresión de Ticket de la Ventana Terminal PDV
+            Imagen 28. Campo Clase Para Impresión de Ticket de la Ventana Terminal PDV
+
+            .. note::
+
+                La información correspondiente a este campo debe ser ingresada por los consultores de `ERPyA`_.
 
         #. Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión de moneda establecida para la lista de precios de venta seleccionada anteriormente.
 
             |Campo Tipo de Conversión de la Ventana Terminal PDV|
 
-            Imagen 28. Campo Tipo de Conversión de la Ventana Terminal PDV
+            Imagen 29. Campo Tipo de Conversión de la Ventana Terminal PDV
 
         #. Seleccione en el campo "**Impresora Fiscal**", la impresora fiscal asignada a la caja, taquilla o auto-servicio, para imprimir las diferentes órdenes de venta emitidas por las mismas.
 
             |Campo Impresora Fiscal de la Ventana Terminal PDV|
 
-            Imagen 29. Campo Impresora Fiscal de la Ventana Terminal PDV
+            Imagen 30. Campo Impresora Fiscal de la Ventana Terminal PDV
 
         #. Seleccione en el campo "**Tipo de Documento para Orden de Devolución**", el tipo de documento establecido para las devoluciones de los clientes.
 
             |Campo Tipo de Documento para Orden de Devolución de la Ventana Terminal PDV|
 
-            Imagen 30. Campo Tipo de Documento para Orden de Devolución
+            Imagen 31. Campo Tipo de Documento para Orden de Devolución
 
         #. Seleccione en el campo "**Supervisor**", el supervisor del vendedor para el cual se esta configurando el terminal PDV. 
 
             |Campo Supervisor de la Ventana Terminal PDV|
 
-            Imagen 31. Campo Supervisor de la Ventana Terminal PDV
+            Imagen 32. Campo Supervisor de la Ventana Terminal PDV
 
         #. Seleccione el checklist "**Vendedor de Pasillo**", para indicar que el socio del negocio empleado es un vendedor de pasillo.
 
             |Checklist Vendedor de Pasillo de la Ventana Terminal PDV|
 
-            Imagen 32. Checklist Vendedor de Pasillo de la Ventana Terminal PDV
+            Imagen 33. Checklist Vendedor de Pasillo de la Ventana Terminal PDV
 
         #. Seleccione el checklist "**POS Compartido**", para indicar que el punto de venta es compartido.
 
             |Checklist POS Compartido de la Ventana Terminal PDV|
 
-            Imagen 33. Checklist POS Compartido de la Ventana Terminal PDV
+            Imagen 34. Checklist POS Compartido de la Ventana Terminal PDV
 
         #. Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos de la ventana "**Terminal PDV**".
 
             |Icono Guardar Cambios de la Ventana Terminal PDV|
 
-            Imagen 34. Icono Guardar Cambios de la Ventana Terminal PDV
+            Imagen 35. Icono Guardar Cambios de la Ventana Terminal PDV
