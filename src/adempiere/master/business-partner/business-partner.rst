@@ -239,5 +239,5 @@
     :maxdepth: 2
 
     vendor/index
-    customer/index
-    employee/index
+
+

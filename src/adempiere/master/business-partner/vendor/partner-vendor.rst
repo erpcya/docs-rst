@@ -18,8 +18,6 @@
 .. |Campo Cta Correo Electrónico del Titular de la Cuenta de la Pestaña Cuenta Bancaria del Registro Proveedor| image:: resources/cta-field-email-of-the-account-holder-of-the-bank-account-tab-of-the-supplier-record.png
 .. |Icono Guardar Cambios de la Pestaña Cuenta Bancaria del Registro Proveedor| image:: resources/save-changes-icon-on-the-bank-account-tab-of-the-supplier-record.png
 .. |Pestaña Localización del Registro Proveedor| image:: resources/provider-record-location-tab.png
-
-
 .. |Campo Ubicación Dirección de la Pestaña Localización del Registro Proveedor| image:: resources/location-field-address-of-the-vendor-record-location-tab.png
 .. |Ventana de Localización de la Pestaña Localización del Registro Proveedor| image:: resources/location-window-of-the-vendor-record-location-tab.png
 .. |Campo Nombre de la Pestaña Localización del Registro Proveedor| image:: resources/field-name-of-the-supplier-record-location-tab.png
@@ -37,6 +35,7 @@
 .. |Campo Tipo de Notificación de Contacto de la Pestaña Contacto del Registro Proveedor| image:: resources/contact-notification-type-field-of-the-contact-tab-of-the-supplier-record.png
 .. |Campo Email de la Pestaña Contacto del Registro Proveedor| image:: resources/email-field-of-the-contact-tab-of-the-supplier-record.png
 .. |Campo Teléfono de la Pestaña Contacto del Registro Proveedor| image:: resources/telephone-field-of-the-contact-tab-of-the-supplier-record.png
+.. |Campo Teléfono Móvil de la Pestaña Contacto del Registro Proveedor| image:: resources/mobile-phone-field-of-the-contact-tab-of-the-supplier-record.png
 .. |Campo Último Contacto de la Pestaña Contacto del Registro Proveedor| image:: resources/last-contact-field-of-the-contact-tab-of-the-supplier-record.png
 .. |Campo Resultado Final de la Pestaña Contacto del Registro Proveedor| image:: resources/final-result-field-of-the-contact-tab-of-the-supplier-record.png
 .. |Icono Guardar Cambios de la Pestaña Contacto del Registro Proveedor| image:: resources/icon-save-changes-of-the-contact-tab-of-the-supplier-record.png
