@@ -6,6 +6,8 @@
 .. |Campo Moneda Hacia de la Ventana Tasa de Cambio| image:: resources/currency-to-field-of-the-exchange-rate-window.png
 .. |Campo Válido Desde de la Ventana Tasa de Cambio| image:: resources/field-valid-from-exchange-rate-window.png
 .. |Campo Factor de Destino a Base de la Ventana Tasa de Cambio| image:: resources/target-factor-field-based-on-the-exchange-rate-window.png
+.. |Icono Guardar Cambios de la Ventana Tasa de Cambio| image:: resources/save-changes-icon-in-the-exchange-rate-window.png
+.. |Registro Creado Automáticamente de la Ventana Tasa de Cambio| image:: resources/record-created-automatically-from-the-exchange-rate-window.png
 
 .. _documento/conversión-monetaria-manual:
 
@@ -64,6 +66,14 @@
 
         Imagen 12. Campo Factor de Destino a Base de la Pestaña Tasas de Cambio
 
-.. note:: 
+#. Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la ventana "**Tasa de Cambio**".
 
-    Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+    |Icono Guardar Cambios de la Ventana Tasa de Cambio|
+
+    Imagen 13. Icono Guardar Cambios de la Ventana Tasa de Cambio
+
+#. Al guardar el registro de la tasa de cambio, ADempiere crea de manera automática el registro de tasa de conversión contraria.
+
+    |Registro Creado Automáticamente de la Ventana Tasa de Cambio|
+
+    Imagen 14. Registro Creado Automáticamente de la Ventana Tasa de Cambio
