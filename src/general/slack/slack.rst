@@ -1,18 +1,18 @@
 .. _ERPyA: http://erpya.com
 .. _Slack: https://erp.slack.com/
 .. _Google Play Store: https://play.google.com/store/apps/details?id=com.Slack
-.. |Invitación Slack| image:: resources/Invitación2.png
+.. |Invitación Slack| image:: resources/Invitacion2.png
 .. |Crear Cuenta Usuario| image:: resources/Crear_Cuenta_Usuario.png
-.. |Crear Cuenta Contraseña| image:: resources/Crear_Cuenta_Contraseña.png
+.. |Crear Cuenta Contraseña| image:: resources/Crear_Cuenta_Contrasena.png
 .. |Crear Cuenta botón| image:: resources/Crear_Cuenta_boton.png
-.. |Inicio de Sesión Bienvenida| image:: resources/Inicio_Sesión_bienvenida_Mejorado.png
-.. |Menú Slack| image:: resources/Menú_Mejorado.png
+.. |Inicio de Sesión Bienvenida| image:: resources/Inicio_Sesion_bienvenida_Mejorado.png
+.. |Menú Slack| image:: resources/Menu_Mejorado.png
 .. |Nombre Espacio Trabajo| image:: resources/Slack_Espacio_trabajo.png
 .. |Nombre Usuario| image:: resources/Slack_Usuario.png
 .. |Estatus| image:: resources/Slack_Usuario.png
 .. |Identificación Canales| image:: resources/Slack_Canales.png
 .. |Identificación Mensajes| image:: resources/Slack_Mensajes.png
-.. |Descripción del Canal| image:: resources/Descripción_Canal_Defenitivo.png
+.. |Descripción del Canal| image:: resources/Descripcion_Canal_Defenitivo.png
 .. |URL Slack| image:: resources/URL_Slack.png
 .. |Acceso| image:: resources/Acceso.png
 .. |Búscador de Slack| image:: resources/buscador.png

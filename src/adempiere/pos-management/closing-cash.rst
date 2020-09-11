@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/point-of-sale-menu.png
 .. |Opción Cerrar Caja del Punto de Venta| image:: resources/option-close-point-of-sale-box.png
 .. |Ventana Cierre de Caja del Punto de Venta| image:: resources/point-of-sale-box-closing-window.png
@@ -37,7 +38,7 @@
 
     Imagen 1. Menú de ADempiere
 
-#. Luego de realizar desde el punto de venta todas las tomas de pedido del día, seleccione la opción "**Cerrar Caja del Punto de Venta**", ubicada en el menú desplegado por el icono "**Proceso**" de la barra de herramientas de la ventana "**Punto de Venta**".
+#. Luego de realizar desde el punto de venta todas las tomas de pedido del día, seleccione la opción "**Cerrar Caja del Punto de Venta**", ubicada en el menú desplegado por el icono "**Proceso**" de la barra de herramientas de la ventana "**Punto de Venta**", explicada en el documento :ref:`documento/paso-barra-de-herramientas` elaborado por `ERPyA`_.
 
     |Opción Cerrar Caja del Punto de Venta|
 
@@ -129,7 +130,7 @@
 
             Imagen 16. Campo Total Abierto de la Ventana Cierre de Caja del Punto de Venta
 
-        #. En el campo "**Diferencia Monto**", podrá visualizar la diferencia del monto existente entre el retiro y el resultado del total pagado menos el total de la línea. 
+        #. En el campo "**Diferencia Monto**", podrá visualizar el monto resultante de la sumatoria del monto total de la apertura más el resultado del total cobrado menos el total de los retiros. 
 
             |Campo Diferencia Monto de la Ventana Cierre de Caja del Punto de Venta|
 
@@ -137,7 +138,7 @@
 
             .. note::
 
-                El valor de este campo proviene de la fórmula (Total Retiro en Cierre de Caja + (Total Pagado - Total de la Línea)).
+                El valor de este campo proviene de la fórmula (Total de la Apertura + (Total de los Cobros - Total de los Retiros)).
 
         #. Tilde el checklist "**Sobre/Sub Pago**", para indicar que existe un sobre pago (no contabilizado) o un sub pago (pago parcial).
 

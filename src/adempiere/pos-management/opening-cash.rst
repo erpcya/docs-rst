@@ -45,7 +45,7 @@
 
         #. En el campo "**Moneda**", se debe seleccionar la moneda utilizada en la transferencia del dinero.
 
-        #. En el campo "**Cargo**", se debe seleccionar el cargo "**Efectivo en Transito Administración Ventas**".
+        #. En el campo "**Cargo**", se debe seleccionar el cargo "**Efectivo en Tránsito Administración Ventas**".
 
         #. En el campo "**No. del Documento**", se debe ingresar el nombre seguido de la fecha del proceso que esta registrando. En este caso, un ejemplo sería: "**Egreso-Apertura01/09/2020**".
 

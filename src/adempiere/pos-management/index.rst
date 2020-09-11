@@ -1,4 +1,3 @@
-.. _ERPyA: http://erpya.com
 .. |Diagrama de Proceso Punto de Venta| image:: resources/point-of-sale-process-diagram.png
 
 ===============
@@ -24,5 +23,8 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
     opening-cash
     point-of-sale-interface
     pos
+    void-sales-transaction
+    create-new-return-order
+    complete-ready-order
     withdrawal-of-funds-from-the-point-of-sale
     closing-cash

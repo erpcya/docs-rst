@@ -24,6 +24,15 @@
 .. |Opción Imprimir del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/print-option.png
 .. |Opción Crear Nueva Orden de Devolución del Icono Proceso de la Barra de Herramientas del Punto de Venta| image:: resources/option-to-create-new-return-order.png
 .. |Icono Registros Históricos de la Barra de Herramientas del Punto de Venta| image:: resources/historical-records-icon.png
+.. |Ventana Orden de Venta Desplegada por el Icono Registros Históricos de la Barra de Herramientas del Punto de Venta| image:: resources/sales-order-window-displayed-by-the-historical-records-icon-of-the-point-of-sale-toolbar.png
+.. |Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos| image:: resources/group-of-fields-enter-query-of-the-sales-order-window-displayed-by-the-historical-records-icon-of-the-point-of-sale-toolbar.png
+.. |Campo Documento Nro del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos| image:: resources/document-field-number-of-the-group-of-fields-enter-consultation-of-the-sales-order-window-displayed-by-the-historical-records-icon-of-the-point-of-sale-toolbar.png
+.. |Campo Socio del Negocio del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos| image:: resources/business-partner-field-of-the-group-of-fields-enter-query-of-the-sales-order-window-displayed-by-the-historical-records-icon-of-the-point-of-sale-toolbar.png
+.. |Campos Fecha Desde Hasta del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos| image:: resources/date-from-and-to-fields-of-the-group-of-fields-enter-query-of-the-sales-order-window-displayed-by-the-historical-records-icon-of-the-point-of-sale-toolbar.png
+.. |Checklist Procesado del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos| image:: resources/processed-checklist-of-the-group-of-fields-enter-query-of-the-sales-order-window-displayed-by-the-historical-records-icon-of-the-point-of-sale-toolbar.png
+.. |Checklist Vendedor de Pasillo del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos| image:: resources/aisle-vendor-checklist-of-the-group-of-fields-enter-query-of-the-sales-order-window-displayed-by-the-historical-records-icon-of-the-point-of-sale-toolbar.png
+.. |Resultado de Búsqueda de Registros Históricos| image:: resources/historical-records-search-result.png
+.. |Opciones de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos| image:: resources/options-of-the-sales-order-window-displayed-by-the-historical-records-icon.png
 .. |Icono Registro Anterior de la Barra de Herramientas del Punto de Venta| image:: resources/previous-record-icon.png
 .. |Icono Próximo Registro de la Barra de Herramientas del Punto de Venta| image:: resources/next-record-icon.png
 .. |Icono Pago de la Barra de Herramientas del Punto de Venta| image:: resources/payment-icon.png
@@ -103,6 +112,8 @@
     |Ventana Punto de Venta|
         
     Imagen 5. Ventana Punto de Venta
+
+.. _documento/paso-barra-de-herramientas:
 
 **Barra de Herramientas del Punto de Venta**
 --------------------------------------------
@@ -221,11 +232,65 @@ Contiene los iconos principales de las ventanas de ADempiere para realizar una g
 
         Imagen 21. Opción Crear Nueva Orden de Devolución del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-#. "**Icono Registros Históricos**": Permite realizar una búsqueda de todas las órdenes de venta realizadas, según lo seleccionado en los campos o filtros de búsqueda de la ventana "**Orden de Venta**" desplegada por el icono "**Registros Históricos**". Esta acción se puede ejecutar seleccionando la tecla "**F9**".
+#. "**Icono Registros Históricos**": Despliega una ventana que permite realizar una búsqueda de todas las órdenes de venta realizadas, según lo seleccionado en los campos o filtros de búsqueda de dicha desplegada por el icono "**Registros Históricos**". Esta acción se puede ejecutar seleccionando la tecla "**F9**".
 
     |Icono Registros Históricos de la Barra de Herramientas del Punto de Venta|
 
     Imagen 22. Icono Registros Históricos de la Barra de Herramientas del Punto de Venta
+
+    #. La selección de este icono permite la visualización de la ventana "**Orden de Venta**", con diferentes campos que pueden ser utilizados como filtros de búsqueda de las órdenes ya registradas.
+
+        |Ventana Orden de Venta Desplegada por el Icono Registros Históricos de la Barra de Herramientas del Punto de Venta|
+
+        Imagen 23. Ventana Orden de Venta Desplegada por el Icono Registros Históricos de la Barra de Herramientas del Punto de Venta
+
+    #. El grupo de campos "**Entrar Consulta**", permite filtrar la búsqueda de información de la siguiente manera:
+
+        |Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos|
+
+        Imagen 24. Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos
+
+        - Se puede filtrar la información con ayuda del número de documento de la orden, ingresando en el mismo en el campo "**Documento No.**".
+
+            |Campo Documento Nro del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos|
+
+            Imagen 25. Campo Documento No. del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos
+
+        - Se puede filtrar la información con ayuda del socio del negocio de la orden, ingresando en el mismo en el campo "**Socio del Negocio**".
+
+            |Campo Socio del Negocio del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos|
+
+            Imagen 26. Campo Socio del Negocio del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos
+
+        - Se puede filtrar la información por rango de fecha, seleccionando el checklist "**Fecha**", para que se habiliten los campos "**Desde**" y "**Hasta**, e ingresando en dichos campos el rango de fecha para buscar la orden.
+
+            |Campos Fecha Desde Hasta del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos|
+
+            Imagen 27. Campos Fecha Desde Hasta del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos
+
+        - Se puede filtrar la información por ordenes procesadas desde el punto de venta, seleccionando el checklist "**Procesado**".
+
+            |Checklist Procesado del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos|
+
+            Imagen 28. Checklist Procesado del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos
+
+        - Se puede filtrar la información por las ordenes de venta realizadas por el socio del negocio tildado como vendedor de pasillo en la configuración del terminal, seleccionando el checklist "**Vendedor de Pasillo**".
+
+            |Checklist Vendedor de Pasillo del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos|
+
+            Imagen 29. Checklist Vendedor de Pasillo del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos
+
+    #. Podrá visualizar el resultado de la búsqueda de las órdenes, debajo del grupo de campo "**Entrar Consulta**".
+
+        |Resultado de Búsqueda de Registros Históricos|
+
+        Imagen 30. Resultado de Búsqueda de Registros Históricos
+
+    #. Adicional a ello, la ventana cuenta con seis (6) iconos que permiten un nuevo registro, la modificación de los registros existentes, el borrado de la consulta o búsqueda realizada, la recarga de la ventana para que sean actualizados los registros, la aceptación del registro seleccionado y la cancelación de la selección del registro.
+
+        |Opciones de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos|
+
+        Imagen 31. Opciones de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos
 
 #. "**Icono Registro Anterior**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados antes que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Left**".
 
@@ -257,6 +322,8 @@ Contiene los iconos principales de las ventanas de ADempiere para realizar una g
 
     Imagen 27. Icono Finalizar Ventana de la Barra de Herramientas del Punto de Venta
 
+.. _documento/paso-panel-de-búsqueda-de-productos:
+
 **Panel de Búsqueda de Productos**
 ----------------------------------
 
@@ -283,6 +350,8 @@ Permite realizar una búsqueda por código de producto, de todos los productos p
     |Resultado de Búsqueda en el Panel de Búsqueda de Producto|
 
     Imagen 29. Resultado de Búsqueda en el Panel de Búsqueda de Producto
+
+.. _documento/paso-sección-información-de-producto:
 
 **Sección Información de Producto**
 -----------------------------------
@@ -328,6 +397,8 @@ Luego de incluir los productos a la orden de venta, se visualizará su informaci
     |Campo Categoría del Impuesto del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
     Imagen 40. Campo Categoría del Impuesto del Producto de la Sección Información de Producto de la Ventana Punto de Venta
+
+.. _documento/paso-barra-de-edición-de-productos:
 
 **Barra de Edición de Productos**
 ---------------------------------
@@ -386,6 +457,8 @@ Contiene los campos para modificar la cantidad del producto a vender, el precio 
 
     Imagen 49. Campo Descuentos de la Barra de Edición de Productos
 
+.. _documento/paso-línea-de-la-orden-de-venta:
+
 **Línea de la Orden de Venta**
 ------------------------------
 
@@ -443,6 +516,8 @@ Es el espacio establecido para el listado de los productos seleccionados o ingre
 
         Imagen 59. Columna Gran Total
 
+.. _documento/paso-información-de-la-orden:
+
 **Información de la Orden**
 ---------------------------
 
@@ -475,6 +550,8 @@ Contiene la información relacionada al encabezado de la orden de venta que esta
         |Campo Agente Comercial|
 
         Imagen 64. Campo Agente Comercial
+
+.. _documento/paso-totales-bs:
 
 **Totales (Bs.S)**
 ------------------
@@ -509,6 +586,8 @@ Contiene la información detallada de los montos totales de la orden y la fecha 
 
         Imagen 69. Campo Gran Total
 
+.. _documento/paso-panel-de-búsqueda-de-socio-cliente:
+
 **Panel de Búsqueda de Socio del Negocio Cliente**
 --------------------------------------------------
 
@@ -517,6 +596,8 @@ Muestra la información del socio del negocio cliente que esta comprando los pro
     |Información del Socio del Negocio Cliente|
 
     Imagen 70. Información del Socio del Negocio Cliente
+
+.. _documento/paso-catálogo-de-productos:
 
 **Catálogo de Productos**
 -------------------------

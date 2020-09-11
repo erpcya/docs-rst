@@ -3,7 +3,6 @@
 
 .. _documento/revisión-cambios:
 
-
 **Revisión de Cambios con cliente**      
 ===================================
 
@@ -28,6 +27,8 @@ Aún cuando el cambio sea de urgencia es importante tomar tiempo para definir de
 
 En función de lo anteriormente expuesto, se establece el siguiente procedimiento que le ayudará a determinar el alcance de la solicitud:
 
+.. _documento/definición-del-cliente:
+
 **Definición del Cliente**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -46,12 +47,14 @@ Consiste en la información proporcionada por el cliente la misma debe ser sóli
 Consiste en la asignación y notificación de la creación de la tarea a un supervisor de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ para informar que la solicitud fue creada en el gestor de proyecto `Open Project <http://project.erpya.com/>`__, previo a este paso se asume un desconocimiento por parte de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ de la definición del requerimiento.
 
 **Definición de la Solución de E.R.P. Consultores y Asociados, C.A.**
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. _documento/verificación-de-definición-de-la-solicitud:
 
 **Verificación de Definición de la Solicitud**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Para definir un desarrollo inicialmente es escencial conocer el alcance, esto dependerá de la optima `Definición del Cliente <https://docs.erpya.com/general/procedures/customer-review/#definicion-de-la-solicitud>`__, recordando que es el equivalente al objetivo del desarrollo, por lo que es necesario en esta etapa evaluar si la definición sigue el método `SMART <https://blog.hubspot.es/marketing/5-ejemplos-de-metas-inteligentes-para-tu-empresa>`__.
+Para definir un desarrollo inicialmente es escencial conocer el alcance, esto dependerá de la optima :ref:`documento/definición-del-cliente`, recordando que es el equivalente al objetivo del desarrollo, por lo que es necesario en esta etapa evaluar si la definición sigue el método `SMART <https://blog.hubspot.es/marketing/5-ejemplos-de-metas-inteligentes-para-tu-empresa>`__.
 
 Ahora bien, ¿Qué significa esto?
 
@@ -84,7 +87,7 @@ Para el cumpliento de la metodología y definición de objetivos inteligentes,se
 **Asignación de Responsabilidades**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Posterior a la verificación del requerimiento, `Verificación de Definición de la Solicitud <https://docs.erpya.com/general/procedures/customer-review/#verificacion-de-definicion-de-la-solicitud>`__, es necesario asignar responsables para el seguimiento,modelado, ejecución y cumplimiento del desarrollo, para ello hemos pensado en una matriz **RASCI** ejecutada en el gestor de proyecto `Open Project <http://project.erpya.com/>`__, esta matríz asigna responsable del seguimiento del desarrollo, de esta forma se distribuirá responsabilidades entre los participantes del desarrollo, adicionalmente definiremos límites en el alcance.
+Posterior a la verificación del requerimiento, :ref:`documento/verificación-de-definición-de-la-solicitud`, es necesario asignar responsables para el seguimiento,modelado, ejecución y cumplimiento del desarrollo, para ello hemos pensado en una matriz **RASCI** ejecutada en el gestor de proyecto `Open Project <http://project.erpya.com/>`__, esta matríz asigna responsable del seguimiento del desarrollo, de esta forma se distribuirá responsabilidades entre los participantes del desarrollo, adicionalmente definiremos límites en el alcance.
 
 - **R** (Responsible) – **Responsable:** Persona responsable de su ejecución por parte de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__, directamente, conjuntamente o supervisando al equipo.
 
@@ -110,6 +113,8 @@ Es importante acotar, el estado **Por Definir** se mantendrá durante el proceso
 
 El responsable de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__, gestor del proyecto debe asignar la tarea al departamento pertinente, para transferir la tarea a la siguiente etapa, en la cual se procederá a modelar la solución del requerimiento.
 
+.. _documento/definición-de-la-solución:
+
 **Definición de la Solución**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
@@ -117,9 +122,9 @@ Esta etapa como lo indica su nombre consiste en definir con una redacción clara
 
 Este es el método que utilizamos cuando redactamos una oferta, la misma se encuentra muy vinculada a una RFQ (Request For Quotation), que no es más que una solicitud de información, proceso empresarial estándar donde el propósito es recabar información escrita referente a una cotización.
 
-Es importante describir el alcance del desarrollo mediante palabras concisas y directas, asegurándose que el documento generado contenga todos los puntos para que el objetivo pueda ser considerado `SMART <https://docs.erpya.com/general/procedures/customer-review/#verificacion-de-definicion-de-la-solicitud>`__.
+Es importante describir el alcance del desarrollo mediante palabras concisas y directas, asegurándose que el documento generado contenga todos los puntos para que el objetivo pueda ser considerado `SMART <https://blog.hubspot.es/marketing/5-ejemplos-de-metas-inteligentes-para-tu-empresa>`__.
 
-Al realizar la redacción es importante incluir lo que forma parte del alcance con bases en el requerimiento del cliente, esto dependerá de la optima `Definición del Cliente <https://docs.erpya.com/general/procedures/customer-review/#definición-de-la-solicitud>`__, los puntos no considerados en la redacción no serán contemplados en el desarrollo de la solución.
+Al realizar la redacción es importante incluir lo que forma parte del alcance con bases en el requerimiento del cliente, esto dependerá de la optima :ref:`documento/definición-del-cliente`, los puntos no considerados en la redacción no serán contemplados en el desarrollo de la solución.
 
 **Explicar la funcionalidad a Desarrollar**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -140,28 +145,31 @@ Debe ser específico en este punto ya que es muy importante que el cliente entie
 **Solicitud de confirmación del cliente**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Posterior a la definición de la propuesta por parte de Soporte, `Definición de Solución <https://docs.erpya.com/general/procedures/customer-review/#definicion-de-la-solucion>`__ por parte de el responsable de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__, la tarea debe ser asignada al aprobador por parte del cliente, esperando del mismo la aprobación de la solución planteada ó rechazo de la misma:
+Posterior a la definición de la propuesta por parte de Soporte, :ref:`documento/definición-de-la-solución` por parte de el responsable de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__, la tarea debe ser asignada al aprobador por parte del cliente, esperando del mismo la aprobación de la solución planteada ó rechazo de la misma:
 
-- **Aprobación**
+.. _documento/confirmación-del-cliente:
 
-   - **Soporte:** El Soporte solicitará en un comentario la aprobación de la tarea mediante un comentario realizando una pregunta concreta:
+**Aprobación**
+^^^^^^^^^^^^^^
 
-      - **¿Está de acuerdo con el cambio propuesto?**
-      - Asigna la tarea al Aprobador.
+- **Soporte:** El Soporte solicitará en un comentario la aprobación de la tarea mediante un comentario realizando una pregunta concreta:
+   - **¿Está de acuerdo con el cambio propuesto?**
+   - Asigna la tarea al Aprobador.
 
-   - **Aprobador:** El aprobador responderá la tarea aprobando la solución planteada con una respuesta concreta:
+- **Aprobador:** El aprobador responderá la tarea aprobando la solución planteada con una respuesta concreta:
+   - **Estoy de acuerdo con el cambio propuesto**
+   - Caso contrario, no será válida la aprobación del cambio, en consecuencia no iniciará el desarrollo hasta no aprobar siguiendo el protocolo.
 
-      - **Estoy de acuerdo con el cambio propuesto**
-      - Caso contrario, no será válida la aprobación del cambio, en consecuencia no iniciará el desarrollo hasta no aprobar siguiendo el protocolo.
+**Rechazo**
+^^^^^^^^^^^
 
-- **Rechazo**
+- **Soporte:** El Soporte solicitará en un comentario la aprobación de la tarea mediante un comentario realizando una pregunta concreta:
+   - **¿Está de acuerdo con el cambio propuesto?**
+   - Asigna la tarea al Aprobador.
 
-   - **Soporte:** El Soporte solicitará en un comentario la aprobación de la tarea mediante un comentario realizando una pregunta concreta:
+- **Aprobador:** El aprobador responderá la tarea rechazando la solución planteada, indicando la causa por la cual no es valida, en tal sentido será necesaria la especificación o de ser necesaria la redefinición del requerimiento, preveendo la transparencia del mismo, este caso conlleva a la re-definición de la propuesta por parte de Soporte, :ref:`documento/definición-de-la-solución`, volviendo a iterar en el proceso de definición hasta conseguir la aprobación que da paso a la siguiente etapa.
 
-      - **¿Está de acuerdo con el cambio propuesto?**
-      - Asigna la tarea al Aprobador.
-
-   - **Aprobador:** El aprobador responderá la tarea rechazando la solución planteada, indicando la causa por la cual no es valida, en tal sentido será necesaria la especificación o de ser necesaria la redefinición del requerimiento, preveendo la transparencia del mismo, este caso conlleva a la re-definición de la propuesta por parte de Soporte, `Definición de Solución <https://docs.erpya.com/general/procedures/customer-review/#definición-de-la-solicitud>`__, volviendo a iterar en el proceso de definición hasta conseguir la aprobación que da paso a la siguiente etapa.
+.. _documento/inicio-de-desarrollo:
 
 **Inicio del desarrollo**
 -------------------------
@@ -169,12 +177,12 @@ Posterior a la definición de la propuesta por parte de Soporte, `Definición de
 **Definición de fecha de inicio**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Unicamente despúes de tener la aprobación del cliente `Confirmación del Cliente <https://docs.erpya.com/general/procedures/customer-review/#solicitud-de-confirmacion-del-cliente>`__ comienza la etapa en la cual se estiman tiempos a partir del objetivo y de los recursos necesarios y disponibles, estableciendo una duración a cada tarea, pautando una fecha de inicio y fecha de vencimiento, este proceso al igual que todos los anterior dependen en gran manera del detalle y la calidad de la información de la que se disponga.
+Unicamente despúes de tener la aprobación del cliente :ref:`documento/confirmación-del-cliente` comienza la etapa en la cual se estiman tiempos a partir del objetivo y de los recursos necesarios y disponibles, estableciendo una duración a cada tarea, pautando una fecha de inicio y fecha de vencimiento, este proceso al igual que todos los anterior dependen en gran manera del detalle y la calidad de la información de la que se disponga.
 
 **Cambiar el estado de la tarea**
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-Cuando el cliente haya aprobado la solución planteada en el gestor de proyecto `Open Project <http://project.erpya.com/>`__ y posteriormente la tarea se encuentra en la fase previa al desarrollo, `Inicio del Desarrollo <https://docs.erpya.com/general/procedures/customer-review/#inicio-del-desarrollo>`__, el responsable de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ está obligado a cambiar el estado actual, **Por Definir** al estado **En Espera (Técnico)**.
+Cuando el cliente haya aprobado la solución planteada en el gestor de proyecto `Open Project <http://project.erpya.com/>`__ y posteriormente la tarea se encuentra en la fase previa al desarrollo, :ref:`documento/inicio-de-desarrollo`, el responsable de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ está obligado a cambiar el estado actual, **Por Definir** al estado **En Espera (Técnico)**.
 
 
 

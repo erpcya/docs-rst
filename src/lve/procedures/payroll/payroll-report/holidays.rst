@@ -7,7 +7,7 @@
 **Vacaciones**
 ===============
 
-El Reporte de Vacaciones lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de vacaciones, en él usted podrá visualizar las asignaciones y las deducciones dentro de la nómina de vacaciones del empleado.   Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de vacaciones :ref:`documento/nómina-de-vacaciones`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
+El Reporte de Vacaciones lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de vacaciones, en él usted podrá visualizar las asignaciones y las deducciones dentro de la nómina de vacaciones del empleado. Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de vacaciones :ref:`documento/nomina-vacaciones`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
 
 Entre las asignaciones que se pueden visualizar en el reporte de vacaciones se encuentran:
 

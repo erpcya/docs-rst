@@ -225,25 +225,22 @@ Para realizar una "**Orden de Pagos**" en ADempiere el cual permite montar una s
 
                 Para saber más sobre el campo "**Fecha Facturación**" y qué acción implica sobre un documento por pagar, visitar el documento :ref:`documento/documento-por-pagar`.
         
-        #. Campo "**Fecha de Vencimiento**", la fecha de vencimiento del pago de la factura.
+        #. Campo de búsqueda **”Fecha de Vencimiento”** este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de vencimiento **”Desde”** y el segundo como fecha de vencimiento **”Hasta”**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) ADempiere mostrará únicamente las facturas que están asociadas bajo ese rango de fechas, como por ejemplo:  
+
+            Si se coloca en el campo fecha desde, la fecha **”18/06/2020”** y el campo fecha hasta **”20/06/2020”**, ADempiere mostrar las facturas que estén bajo ese rango de fechas; la fecha de vencimiento de una factura aplica más que todo para aquellas facturas las cuales cuentan con una regla de pago.
+
 
             |Campo Fecha de Vencimiento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
             Imagen 23. Campo Fecha de Vencimiento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-        #. Campo "**Días de Vencimiento**", los días de vencimiento para el pago de la factura.
+        #. Campo de búsqueda **”Días de Vencimiento”** este campo es utilizado para colocar los días de vencimiento de una factura; estos días de vencimiento son configurados en la factura y aplica más que todo para aquellas facturas las cuales cuentan con una regla  de pago a crédito.
 
             |Campo Días de Vencimiento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
             Imagen 24. Campo Días de Vencimiento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-        #. Podrá visualizar en el campo "**Saldo Actual**", el saldo actual de la cuenta bancaria seleccionada en el campo "**Cuenta Bancaria**".
-
-            |Campo Saldo Actual de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
-
-            Imagen 25. Campo Saldo Actual de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-
-        #. Campo "**Socio de Negocio**", este campo puede ser utilizado si desea ubicar las facturas que estén asociadas a un socio de negocio en específico.
+         #. Campo de búsqueda **”Socio de Negocio”**, este campo puede ser utilizado si desea ubicar las facturas que estén asociadas a un socio de negocio en específico.
 
             |Campo Socio de Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
@@ -257,90 +254,62 @@ Para realizar una "**Orden de Pagos**" en ADempiere el cual permite montar una s
 
             Imagen 27. Campo Tipo de Documento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-        #. Campo "**Asignar Requerimientos**", este campo puede ser utilizado si desea ubicar las facturas que cumplan con un requerimiento en específico.
+        #. Campo de búsqueda **”Asignar Requerimientos”** este es un campo tipo lista, el cual contiene una serie de opciones el cual indica a ADempiere que dependiendo del requerimiento seleccionado ADempiere ubicara las facturas,  dentro de los requerimientos de este campo están:
+
+            **- Ninguno:** Si se selecciona este criterio de búsqueda, ADempiere ubicara todas las facturas en ADempiere , es decir ubicar las facturas que estén con órdenes o sin órdenes con recepciones o sin recepciones.
+
+            **- Orden de Compra**:  si se selecciona este criterio de búsqueda, ADempiere ubicara solo y únicamente las facturas que estén asociadas a una orden de compra, de lo contrario no mostrará ninguna factura.
+
+            **- Orden de Compra y Recibo:** Si se selecciona este criterio de búsqueda, ADempiere ubicara solo y únicamente las facturas que tengan asociada una orden de compra y una recepción , de lo contrario no mostrará ninguna factura.
+
+            **- Recibo:** Si se selecciona este criterio de búsqueda, ADempiere ubicara solo y únicamente las facturas que tengan asociada una recepción, de lo contrario no mostrará ninguna factura.
+
 
             |Campo Asignar Requerimientos de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
             Imagen 28. Campo Asignar Requerimientos de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-        #. Campo "**Sólo Descuento**", este campo puede ser utilizado si desea ubicar las facturas que obtienen descuentos en pagos. 
+        #. Campo de búsqueda **”Sólo Descuento”** Este campo es un campo tipo lista el cual indica sí requiere aplicar para la condición de búsqueda que muestre solo las facturas con descuento o que no muestre ninguna factura que contenga aplicado un descuento. 
 
             |Campo Sólo Descuento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
             Imagen 29. Campo Sólo Descuento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-        #. Campo "**Grupo de Socio del Negocio**", este campo puede ser utilizado si desea ubicar las facturas que estén asociadas a un grupo de socio de negocio en específico.
+        #. Campo de búsqueda **”Grupo de Socio del Negocio”** Este es un campo tipo lista el cual al seleccionar cualquiera de las opciones a mostrar de un grupo de socio del negocio, se mostrará solo y únicamente las facturas que estén asociada a ese grupo de socio del negocio.
 
             |Campo Grupo de Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
             Imagen 30. Campo Grupo de Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
 
-        #. Campo "**Factura**", este campo puede ser utilizado si desea ubicar una factura en específico.
+        #. Campo de búsqueda **”Factura”** Este campo tipo búsqueda permite ubicar una factura en específico , para que al momento de tildar la opción comenzar la búsqueda esté muestre únicamente la información de la factura ubicada dentro de esté campo de búsqueda.
 
             |Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
             Imagen 31. Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
+          #. Dependiendo del criterio de búsqueda seleccionado tilde la opción "**Comenzar Búsqueda**", para buscar las facturas de los socios del negocio proveedores.
 
-    #. Campo de búsqueda **”Fecha de Vencimiento”** este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de vencimiento **”Desde”** y el segundo como fecha de vencimiento **”Hasta”**, al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) ADempiere mostrará únicamente las facturas que están asociadas bajo ese rango de fechas, como por ejemplo:  
+            |Opción Comenzar Búsqueda 1|
 
-        |Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
+            Imagen 20. Opción Comenzar Búsqueda
 
-        Imagen 32. Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
+        #. Al tildar la opción "**Comenzar Búsqueda**", se desplegará en la parte inferior de la ventana las facturas que están pendientes por pagar.
+    
+            |Listado de Facturas|
 
-        Imagen 20. Campo de búsqueda Fecha de Vencimiento
-
-    #. Campo de búsqueda **”Días de Vencimiento”** este campo es utilizado para colocar los días de vencimiento de una factura; estos días de vencimiento son configurados en la factura y aplica más que todo para aquellas facturas las cuales cuentan con una regla  de pago a crédito.
- 
-        |Campo de búsqueda Días de Vencimiento|
-
-        Imagen 21. Campo de búsqueda Días de Vencimiento
-
-    #. Campo de búsqueda **”Socio de Negocio”**, este campo puede ser utilizado si desea ubicar las facturas que estén asociadas a un socio de negocio en específico.
-
-        |Campo de Búsqueda Socio de Negocio “Factura”|
-
-        Imagen 22. Campo de Búsqueda Socio de Negocio “Factura”
-
-     #. Campo de búsqueda **”Tipo de Documento”**, este es un campo de búsqueda tipo lista  el cual al tildarlo mostrará una serie de opciones de los tipos de documentos que se encuentran asociados para los documentos de cuentas por pagar, la opción a seleccionar en este campo le indicará a ADempiere qué al momento de realizar la búsqueda ubique y muestre solo las facturas que estén bajo el tipo de documento seleccionado en ese campo, como por ejemplo:
-
-        Si se selecciona el tipo de documento **”Factura de Cuentas por Pagar Nacional”** ADempiere mostrará cuando se realice la búsqueda únicamente las facturas que estén asociadas a ese tipo de documento.
-
-        |Campo de Búsqueda Tipo de Documento Facturas|
-
-        Imagen 23. Campo de Búsqueda Tipo de Documento Facturas
-
-    #. Campo de búsqueda **”Asignar Requerimientos”** este es un campo tipo lista, el cual contiene una serie de opciones el cual indica a ADempiere que dependiendo del requerimiento seleccionado ADempiere ubicara las facturas,  dentro de los requerimientos de este campo están:
-
-        **Ninguno:** Si se selecciona este criterio de búsqueda, ADempiere ubicara todas las facturas en ADempiere , es decir ubicar las facturas que estén con órdenes o sin órdenes con recepciones o sin recepciones.
-
-        ** Orden de Compra**:  si se selecciona este criterio de búsqueda, ADempiere ubicara solo y únicamente las facturas que estén asociadas a una orden de compra, de lo contrario no mostrará ninguna factura.
-
-        Las facturas que se visualicen dependerá del criterio de búsqueda que se utilice, ejemplo:
-            
-            - Si se utiliza un criterio de búsqueda por socio del negocio, las facturas a mostrar sería solo y únicamente por ese socio de negocio.
-
-        **Recibo:** Si se selecciona este criterio de búsqueda, ADempiere ubicara solo y únicamente las facturas que tengan asociada una recepción, de lo contrario no mostrará ninguna factura.
-
-        |Campo de Búsqueda Asignar Requerimientos|
-
-            - Las facturas deben encontrarse en estado "**Completo**" de lo contrario no aparecerán en esta ventana. 
-
-        |Listado de Facturas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
-
-        Imagen 33. Listado de Facturas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
+            Imagen 21. Listado de Facturas 
 
         #. Seleccione las facturas que deseen asociar a la "**Orden de Pago**". 
-            
-            |Seleccionar Facturas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
+        
+            |Seleccionar Factura y Opción OK 1|
 
-            Imagen 34. Seleccionar Facturas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
+            Imagen 22. Seleccionar Factura y Opción OK
 
-    #. Al seleccionar la factura indique cual es el total que se desea cancelar al proveedor de esa factura.
+        #. Al seleccionar la factura indique cual es el total que se desea cancelar al proveedor de esa factura.
 
-            |Total a Cancelar de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
+        |Total a Cancelar|
 
-            Imagen 35. Total a Cancelar de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-            
+        Imagen 23. Total a Cancelar
+    
     #. Seleccione la opción "**OK**", para cargar a la pestaña "**Línea de Selección de Pago**" la información de las facturas seleccionadas.
 
         |Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
@@ -403,7 +372,7 @@ Para realizar una "**Orden de Pagos**" en ADempiere el cual permite montar una s
 
             Imagen 44. Campo Cuenta Bancaria Socio del Negocio del Documento Orden de Pago desde Factura
 
-        #. Campo "**Orden de Compra**" para este caso no debe aparecer ninguna información ya que se está trabajando son con facturas, sí requiere realizar una "**Orden de Pago**" y asociar órdenes verificar el instructivo :ref:`_documento/orden-de-pago-desde-orden`.
+        #. Campo "**Orden de Compra**" para este caso no debe aparecer ninguna información ya que se está trabajando son con facturas, sí requiere realizar una "**Orden de Pago**" y asociar órdenes verificar el instructivo :ref:`documento/orden-de-pago-desde-orden`.
 
             |Campo Orden de Compra del Documento Orden de Pago desde Factura|
 

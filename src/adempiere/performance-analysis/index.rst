@@ -24,7 +24,7 @@ El propósito de `ERPyA`_ es apoyar a nuestros clientes, dar respuestas rápidas
     unposted-documents
     accounting-dimensions
     accounting-combination
-    currency-conversion
+    currency-conversion/index
     gl-distribution/index
     accounting-setup-master/index
     transaction-accounting/index
