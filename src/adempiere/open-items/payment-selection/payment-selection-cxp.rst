@@ -205,29 +205,13 @@ Para realizar una "**Selección de Pago**" la cual se encarga de definir de qué
 
 #. Podrá observar que en cada registro de la pestaña "**Línea de Selección de Pago**" aparecerán las siguientes características:
 
-     #. Campo "**Selección de Pago**" debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la selección de pago.
-
-        |Campo Selección de Pago del Documento |
-
-        Imagen 30. Campo Selección de Pago del Documento Seleccion de Pago
+    #. Campo "**Selección de Pago**" debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la selección de pago.
 
     #. Campo "**No. Línea**" este campo define el número de línea de cada registro asociado a la pestaña "**Lńea Selección de Pago**", cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pestaña, cada registro debe estar en 10, 20 y 30.
 
-        |Campo No Línea del Documento Seleccion de Pago|
-
-        Imagen 31. Campo N° Línea del Documento Seleccion de Pago
-
     #. Campo "**Descripción**" este campo puede ser utilizado si se requiere dar una descripción en el registro de la línea.
 
-        |Campo Descripción de la línea del Documento Seleccion de Pago|
-
-        Imagen 32. Campo Descripción de la línea del Documento Seleccion de Pago
-
     #. Checklist "**Activo**" esté check indica si el registro de la línea está activo o no.
-
-            |Checklist Activo del Documento Seleccion de Pago|
-
-            Imagen 33. Checklist Activo del Documento Seleccion de Pago
 
     #. En el campo "**Socio del Negocio**" debe aparecer el socio de negocio del documento que se encuentra asociada al registro de la línea.
 

@@ -474,7 +474,7 @@ La información ingresada en esta pestaña puede variar al momento de la elabora
 
             .. warning::
 
-            La fecha final del contrato depende del lapso de duración de contratos que las empresas tengan establecido como políticas de contratación.
+                La fecha final del contrato depende del lapso de duración de contratos que las empresas tengan establecido como políticas de contratación.
 
     #. Seleccione el checklist "**Gerente**", para indicar que el socio del negocio que esta registrando es un gerente.
 

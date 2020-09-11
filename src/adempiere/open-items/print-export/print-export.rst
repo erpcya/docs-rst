@@ -48,7 +48,7 @@ Para poder generar los pagos de los documentos asociados a una selección de pag
 
 #. Campo **”Selección de Pago”**,este es un campo tipo búsqueda el cual es utilizado para ubicar las selección de pagos de cuentas por pagar, el cual contiene los documentos los cuales se les generarán los pagos.
 
-    |Campo Selección de Pago|
+    |Identificador del Campo Selección de Pago|
 
     Imagen 3. Campo Selección de Pago
 
@@ -108,7 +108,7 @@ Para poder generar los pagos de los documentos asociados a una selección de pag
 
     .. note::
 
-    Para realizar la creación de una selección de pagos de cuentas por pagar visite el documento :ref:`documento/selección-de-pago`.
+        Para realizar la creación de una selección de pagos de cuentas por pagar visite el documento :ref:`documento/selección-de-pago`.
 
 #. Campo **”Regla de Pago ”** este campo debe traer la regla de pago establecida en la selección de pagos de cuentas por pagar.
 Cabe destacar, que dependiendo de la regla de pago con la que cuente la selección de pago se definirá la acción que se utilizará para generar los pagos.
@@ -273,7 +273,7 @@ Para ubicar en ADempiere los pagos generados de una selección de pagos a travé
 
         .. note::
 
-        Recuerde que toda ventana en ADempiere cuenta en la barra de herramientas la opción de búsqueda "**Encontrar Registros**" la cual puede ser utilizada para ubicar la selección de pagos.
+            Recuerde que toda ventana en ADempiere cuenta en la barra de herramientas la opción de búsqueda "**Encontrar Registros**" la cual puede ser utilizada para ubicar la selección de pagos.
 
     #.Una vez ubicada la selección de pago tilde la ventana **"Pago Generado"**, dentro de esta pestaña podrá observar un resumen de los pagos generados por socios de negocios con los que cuenta la selección de pago.
 

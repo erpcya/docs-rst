@@ -9,7 +9,7 @@
 .. |Campo Socio del Negocio Cliente| image:: resources/campo-socio-cliente.png
 .. |Identificador del Campo Factura| image:: resources/campo-factura.png
 .. |Selección de Factura y Opción OK| image:: resources/seleccion-factura-opcion-ok.png
-.. |Campo Total del Cobro| image:: resources/campo-total-pago.png
+.. |Campo Total del Pago| image:: resources/campo-total-pago.png
 .. |Campo Moneda| image:: resources/campo-moneda.png
 .. |Campo Tipo de Pago| image:: resources/campo-tipo-pago.png
 .. |Opción Completar| image:: resources/opcion-completar.png

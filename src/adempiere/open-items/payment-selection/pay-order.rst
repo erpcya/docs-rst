@@ -34,7 +34,7 @@
 .. |Listado de Facturas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura| image:: resources/list-of-invoices-in-the-intelligent-search-window-of-the-create-from-invoice-process.png
 .. |Seleccionar Facturas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura| image:: resources/select-invoices-from-the-intelligent-search-window-of-the-create-from-invoice-process.png
 .. |Total a Cancelar de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura| image:: resources/total-to-cancel-from-the-intelligent-search-window-of-the-create-from-invoice-process.png
-.. |Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura| image:: resources/ok option-in-the-smart-search-window-of-the-create-from-invoice-process.png
+.. |Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura| image:: resources/ok-option-in-the-smart-search-window-of-the-create-from-invoice-process.png
 .. |Icono Refrescar del Documento Orden de Pago desde Factura| image:: resources/refresh-icon-of-the-payment-order-document-from-invoice.png
 .. |Pestaña Línea de Selección de Pago del Documento Orden de Pago desde Factura| image:: resources/payment-selection-line-tab-of-the-payment-order-document-from-invoice.png
 .. |Campo Selección de Pago del Documento Orden de Pago desde Factura| image:: resources/payment-selection-field-of-the-payment-order-document-from-invoice.png
@@ -286,27 +286,28 @@ Para realizar una "**Orden de Pagos**" en ADempiere el cual permite montar una s
             |Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
             Imagen 31. Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura
-          #. Dependiendo del criterio de búsqueda seleccionado tilde la opción "**Comenzar Búsqueda**", para buscar las facturas de los socios del negocio proveedores.
 
-            |Opción Comenzar Búsqueda 1|
+        #. Dependiendo del criterio de búsqueda seleccionado tilde la opción "**Comenzar Búsqueda**", para buscar las facturas de los socios del negocio proveedores.
+
+            |Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
             Imagen 20. Opción Comenzar Búsqueda
 
         #. Al tildar la opción "**Comenzar Búsqueda**", se desplegará en la parte inferior de la ventana las facturas que están pendientes por pagar.
     
-            |Listado de Facturas|
+            |Listado de Facturas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
             Imagen 21. Listado de Facturas 
 
         #. Seleccione las facturas que deseen asociar a la "**Orden de Pago**". 
         
-            |Seleccionar Factura y Opción OK 1|
+            |Seleccionar Facturas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
             Imagen 22. Seleccionar Factura y Opción OK
 
         #. Al seleccionar la factura indique cual es el total que se desea cancelar al proveedor de esa factura.
 
-        |Total a Cancelar|
+        |Total a Cancelar de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura|
 
         Imagen 23. Total a Cancelar
     
