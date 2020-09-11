@@ -26,4 +26,5 @@ Entre los Reportes de Nómina que se pueden encontrar dentro de ADempiere se enc
     holidays
     advance-holiday
     utilities
+    generate-banavih-txt
     

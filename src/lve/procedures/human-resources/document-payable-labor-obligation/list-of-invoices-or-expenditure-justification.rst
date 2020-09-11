@@ -1,9 +1,8 @@
-.. _documento/relación-de-facturas-o-justificación-de-gastos;
-
 .. |Registro de Caja| image:: resources/box.png
 .. |Completar Caja| image:: resources/completer.png
 .. |Cargo| image:: resources/position.png
 
+.. _documento/relación-de-facturas-o-justificación-de-gastos:
 
 **Relación de Facturas o Justificación de Gastos**
 ==================================================
