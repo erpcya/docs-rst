@@ -121,7 +121,7 @@ Cabe destacar, que dependiendo de la regla de pago con la que cuente la selecci�
 
     Para las reglas de pagos **“Cheque”** si ADempiere está debidamente configurado está regla de pago bajo el banco con el que se esté trabajando, ADempiere irá incrementado su secuencia del número de documento con el número de cheque que realmente debe salir por ese banco.
 
-        |Campo Documento No|
+        |Campo Documento Nro|
 
         Imagen 12. Documento No
 
@@ -183,7 +183,7 @@ Cabe destacar, que dependiendo de la regla de pago con la que cuente la selecci�
 
 #. Para generar los pagos de la selección de pago se pueden ADempiere cuenta con las siguientes opciones **"Exportar Registros"**, **"Imprimir"** dependiendo de la regla de pago con la que se encuentre trabajando la selección de pago se deben utilizar las siguientes opciones:
 
-    |Opciones Imprimir/Exportar Pagos|
+    |Opciones Imprimir Exportar Pagos|
 
     Imagen 16. Opciones Imprimir/Exportar Pagos
 
