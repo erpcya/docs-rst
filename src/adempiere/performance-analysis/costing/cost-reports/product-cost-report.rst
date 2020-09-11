@@ -4,7 +4,7 @@
 .. |Campo Categoría del Producto de la Ventana del Reporte para Generar el Informe de Costo del Producto| image:: resources/product-category-field-of-the-report-window-to-generate-the-product-cost-report.png
 .. |Campo Código de la Ventana del Reporte para Generar el Informe de Costo del Producto| image:: resources/code-field-of-the-report-window-to-generate-the-product-cost-report.png
 .. |Opción OK de la Ventana del Reporte para Generar el Informe de Costo del Producto| image:: resources/ok-option-in-the-report-window-to-generate-the-product-cost-report.png
-.. |Reporte de Informe de Costo del Producto| image:: resources/product-cost-report-report.png
+
 
 .. _documento/informe-de-costos-del-producto:
 
@@ -47,8 +47,3 @@
 
     Imagen 6. Opción OK de la Ventana del Reporte para Generar el Informe de Costo del Producto
 
-#. Podrá visualizar de la siguiente manera el informe de costo del producto.
-
-    |Reporte de Informe de Costo del Producto|
-
-    Imagen 7. Informe de Costo del Producto

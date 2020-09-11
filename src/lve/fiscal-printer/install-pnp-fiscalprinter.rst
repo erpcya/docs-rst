@@ -1,6 +1,6 @@
 .. _documento/instalar-impresora-fiscal-pnp:
 
-``Instalar Impresora Fiscal PNP``
+**Instalar Impresora Fiscal PNP**
 =================================
 
 

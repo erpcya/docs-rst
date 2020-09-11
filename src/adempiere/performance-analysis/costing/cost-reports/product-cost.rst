@@ -7,7 +7,6 @@
 .. |Campo Código de la Ventana del Reporte Costo del Producto| image:: resources/code-field-of-the-product-cost-report-window.png
 .. |Campo Elemento de Costo de la Ventana del Reporte Costo del Producto| image:: resources/cost-element-field-of-the-product-cost-report-window.png
 .. |Opción OK de la Ventana del Reporte Costo del Producto| image:: resources/ok-option-of-the-product-cost-report-window.png
-.. |Reporte Costo del Producto| image:: resources/product-cost-report.png
 
 .. _documento/reporte-de-costo-del-producto:
 
@@ -68,8 +67,3 @@
 
     Imagen 9. Opción OK de la Ventana del Reporte Costo del Producto
 
-#. Podrá visualizar de la siguiente manera el reporte de costo del producto.
-
-    |Reporte Costo del Producto|
-
-    Imagen 10. Reporte Costo del Producto
