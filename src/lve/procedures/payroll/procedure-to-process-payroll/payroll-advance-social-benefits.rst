@@ -30,7 +30,7 @@ Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos re
     #. Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
 
 
-      |Nómina Anticipo Prestaciones Sociales|
+      |Nómina Anticipo de Prestaciones Sociales|
 
       Imagen 1. Nómina Anticipo Prestaciones Sociales
 

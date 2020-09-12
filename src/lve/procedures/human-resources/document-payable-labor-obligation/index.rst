@@ -1,4 +1,4 @@
-.. _src/lve/procedures/human-resources:
+.. _src/lve/procedures/human-resources/document-payable-labor-obligation:
  
 ===========================================
 **Documentos por Pagar Obligación Laboral**

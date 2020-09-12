@@ -29,7 +29,7 @@ A continuación se explica el procedimiento que debe ser realizado para generar 
     #. Seleccione en el campo "**Orden de Salida**", la orden de salida de la cual se va a filtrar la búsqueda.
 
         .. figure:: resources/salida.png
-        :alt: Campo Orden de Salida
+           :alt: Campo Orden de Salida
 
         Imagen 3. Campo Orden de Salida
 
@@ -40,28 +40,28 @@ A continuación se explica el procedimiento que debe ser realizado para generar 
     #. Seleccione la opción "**Comenzar Búsqueda**" para realizar la búsqueda de los documentos según los filtros indicados.
 
         .. figure:: resources/busq.png
-        :alt: Opción Comenzar Búsqueda
+           :alt: Opción Comenzar Búsqueda
 
         Imagen 4. Opción Comenzar Búsqueda
 
     #. Seleccione la orden de salida por la cual será generada la factura.
 
         .. figure:: resources/seleccionar.png
-        :alt: Seleccionar Orden de Salida
+           :alt: Seleccionar Orden de Salida
 
         Imagen 5. Seleccionar Orden de Salida
 
     #. Seleccione la opción "**OK**", para generar la factura desde la orden de salida seleccionada.
 
         .. figure:: resources/opcionOk.png
-        :alt: Opción OK 
+           :alt: Opción OK 
 
         Imagen 6. Opción OK
 
     #. Podrá visualizar la siguiente ventana de confirmación donde debe seleccionar la opción "**OK**".
 
         .. figure:: resources/resultado.png
-        :alt: Ventana de Confirmación y Opción OK
+           :alt: Ventana de Confirmación y Opción OK
 
         Imagen 7. Ventana de Confirmación y Opción OK
 
@@ -110,14 +110,14 @@ A continuación se explica el procedimiento que debe ser realizado para generar 
     #. Documento por Cobrar "**85932**" correspondiente al socio del negocio "**Socio Estándar 1**".
 
         .. figure:: resources/factura3.png
-        :alt: Factura Número 85932 Generada desde la Orden de Salida
+           :alt: Factura Número 85932 Generada desde la Orden de Salida
 
         Imagen 12. Factura Número 85932 Generada desde la Orden de Salida
 
     #. Documento por Cobrar "**85933**" correspondiente al socio del negocio "**Socio Estándar 2**".
 
         .. figure:: resources/factura4.png
-        :alt: Factura Número 85933 Generada desde la Orden de Salida
+           :alt: Factura Número 85933 Generada desde la Orden de Salida
 
         Imagen 13. Factura Número 85933 Generada desde la Orden de Salida
 
@@ -129,14 +129,14 @@ A continuación se explica el procedimiento que debe ser realizado para generar 
     #. Factura "**85932**" correspondiente al socio del negocio "**Socio Estándar 1**".
 
         .. figure:: resources/factura5.png
-        :alt: Factura Número 85932 Generada desde la Orden de Salida
+           :alt: Factura Número 85932 Generada desde la Orden de Salida
 
         Imagen 14. Factura Número 85932 Generada desde la Orden de Salida
 
     #. Factura "**85933**" correspondiente al socio del negocio "**Socio Estándar 2**".
 
         .. figure:: resources/factura6.png
-        :alt: Factura Número 85933 Generada desde la Orden de Salida
+           :alt: Factura Número 85933 Generada desde la Orden de Salida
 
         Imagen 15. Factura Número 85933 Generada desde la Orden de Salida
 
