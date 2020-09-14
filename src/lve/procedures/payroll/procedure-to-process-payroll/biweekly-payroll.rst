@@ -9,9 +9,9 @@
 
 .. _documento/nomina-quincenal:
 
-=====================
- **Nómina Quincenal**
-=====================
+====================
+**Nómina Quincenal**
+====================
 
     Para procesar una “**Nómina Quincenal**” debemos realizar el proceso de nómina estándar mencionado en el documento  :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo quincenal, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 

@@ -66,10 +66,10 @@
 |                                   |-  Nombre del Slot                                      |
 |                                   |-  Los Slots disponibles son:                           |
 |                                   |                                                        |
-|                                   |	-  banner-A                                           |
-|                                   |	-  banner-B                                           |
-|                                   |	-  banner-C                                           |
-|                                   |	-  banner-D                                           |
+|                                   |   -  banner-A                                          |
+|                                   |   -  banner-B                                          |
+|                                   |   -  banner-C                                          |
+|                                   |   -  banner-D                                          |
 +-----------------------------------+--------------------------------------------------------+
 | 2                                 | Imágenes:                                              |
 |                                   |                                                        |

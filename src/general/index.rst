@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/general
+.. _src/general:
 
 ======================================
 **Procedimientos Estándares de ERPyA**

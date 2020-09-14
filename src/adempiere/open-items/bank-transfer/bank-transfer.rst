@@ -14,7 +14,7 @@
 .. |Campo Conciliar Automáticamente| image:: resources/field-reconcile-automatically.png
 .. |Opción OK| image:: resources/opcion-ok.png
 .. |Resultado de Transferencia| image:: resources/resultado-transferencia.png
-.. |Documento Ingreso Generado en Caja| image:: resources/documneto-en-caja.png
+.. |Documento Ingreso Generado en Caja| image:: resources/documento-en-caja.png
 .. |Documento Egreso Generado en Banco| image:: resources/documento-en-pago-cobro.png
 .. |Pago en Ventana Pago/Cobro| image:: resources/payment-in-payment-collection-window.png
 .. |Pago en Ventana Caja| image:: resources/payment-in-window-box.png

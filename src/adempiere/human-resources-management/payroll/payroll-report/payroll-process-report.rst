@@ -61,7 +61,7 @@
 
     Imagen 6. Campo Proceso Nómina
 
-      .. note::
+    .. note::
 
       El número de documento del proceso de nómina lo encontrará en la ventana proceso de nómina en el campo que dice número de documento.
 

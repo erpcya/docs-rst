@@ -46,7 +46,7 @@ En ADempiere los códigos de las cuentas son conformados con números con la sig
 
 Para este ejemplo podríamos establecer la siguiente figura:
 
-+------------+---------------------+-------------+--------+-----------------+
++------------+------------+-------------+--------+-----------------+
 | Activos    |Corrientes  | Disponibles | Banco  |Cuenta Bancaria  |
 +============+============+=============+========+=================+
 | 1          | 1          | 1           | 0001   | 0001            |

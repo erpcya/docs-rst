@@ -17,7 +17,7 @@
    :width: 6.5in
    :height: 1.25in
 
-.. _documento/tema-personalizado:
+.. _documento/información-de-imágenes-del-tema-personalizado:
 
 **Información de imágenes del tema personalizado**
 ==================================================
@@ -36,7 +36,7 @@
 +------------+------------------------------------------------------------------------+
 |3           |Es la sección principal de la aplicación la cual consta de un conjunto  |
 |            |de imágenes que pasarán una a una como una presentación de diapositivas.|
-|            | Ubicación de las imágenes:                                             |
+|            |Ubicación de las imágenes:                                              |
 |            |                                                                        |
 |            | -  /theme/assets/banner/webp/full_width_banner2.webp                   |
 |            | -  /theme/assets/banner/png/full_width_banner2.png                     |
