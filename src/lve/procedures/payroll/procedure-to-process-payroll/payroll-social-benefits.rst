@@ -33,9 +33,9 @@ Para procesar una “**Nómina de Prestaciones Sociales**” debemos realizar el
 
         La nómina de prestaciones sociales está configurada para que procese la asignación de garantía de prestaciones cada 3 meses al empleado, y la asignación de antiguedad de prestaciones cada año a partir del segundo año de servicio del empleado.
 
-      |Nómina Prestaciones Sociales|
+    |Nómina Prestaciones Sociales|
 
-      Imagen 1. Nómina Prestaciones Sociales
+    Imagen 1. Nómina Prestaciones Sociales
 
     .. warning::
 

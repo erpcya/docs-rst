@@ -5,7 +5,6 @@
 .. |Resumen de Pago Nómina  Utilidades| image:: resources/resumenutilidades.png
 .. |Retenciones Nómina  Utilidades| image:: resources/retencionesutilidades.png
 .. |Aportes Nómina  Utilidades| image:: resources/aporteutilidades.png
-.. |Incidencia Nómina  Utilidades| image:: resources/incidenciautilidades.png
 
 .. _documento/nomina-utilidades:
 
