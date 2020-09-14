@@ -8,7 +8,7 @@ Los montos no reembolsables son aquellos montos que no son reconocidos por la co
 
 #. Debe ubicar cual de las facturas presentadas por el empleado es la que le abulta el saldo que le fue otorgado a traves de la transferencia bancaria para el consumo de viáticos o reembolsos.
 
-#. Para registrar la factura debe realizar los pasos que se indican en el documento :ref:`documentos/documento-por-pagar-obligación-laboral`
+#. Para registrar la factura debe realizar los pasos que se indican en el documento :ref:`documento/documento-por-pagar-obligación-laboral`
 
 #. Debe registrar las líneas de las factura de la siguiente manera
 

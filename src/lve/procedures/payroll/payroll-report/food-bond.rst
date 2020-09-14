@@ -8,7 +8,7 @@
 **Bono de Alimentación**
 ========================
 
-El Reporte de Bono de Alimentación lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de bono de alimentación, en él usted podrá visualizar las asignaciones y las deducciones dentro de la nómina de bono de alimentación del empleado.   Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de bono de alimentación :ref:`documento/bono-de-alimentación`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
+El Reporte de Bono de Alimentación lo utilizamos cuando queremos visualizar unicamente los resultados de la nómina de bono de alimentación, en él usted podrá visualizar las asignaciones y las deducciones dentro de la nómina de bono de alimentación del empleado. Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de bono de alimentación :ref:`documento/nomina-bono-alimentación`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
 
 Entre las asignaciones que se pueden visualizar en el reporte de bono de alimentación se encuentran:
 

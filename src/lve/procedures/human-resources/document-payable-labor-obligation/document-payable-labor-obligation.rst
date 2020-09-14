@@ -1,7 +1,7 @@
-.. _documento/documento-por-pagar-obligación-laboral:
-
 .. |Tipo de Documento| image:: resources/Documentosporpagar.png
 .. |Cargo| image:: resources/cargodoc.png
+
+.. _documento/documento-por-pagar-obligación-laboral:
  
 ===========================================
 **Documento por Pagar Obligación Laboral**

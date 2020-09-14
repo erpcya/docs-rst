@@ -4,7 +4,7 @@
 **Liquidación**
 ===============
 
-El Reporte de Liquidación lo utilizamos cuando queremos visualizar la nómina de liquidación, en él usted podrá visualizar las asignaciones y las deducciones dentro de la nómina de liquidación del empleado. Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de liquidación :ref:`documento/nómina-de-liquidación`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
+El Reporte de Liquidación lo utilizamos cuando queremos visualizar la nómina de liquidación, en él usted podrá visualizar las asignaciones y las deducciones dentro de la nómina de liquidación del empleado. Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento proceso de nómina de liquidación :ref:`documento/nomina-liquidacion`, un documento que tambien le ayudará a identificar cada uno de los campos que se utilizan para obtener un reporte de nómina es el documento :ref:`documento/reporte-de-nómina`
 
 Entre las asignaciones que se pueden visualizar en el reporte de liquidación se encuentran:
 
