@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. |Nómina Mensual Mixta| image:: resources/mensualmixta.png
+.. |Nomina Mensual Mixta| image:: resources/mensualmixta.png
 .. |Recibo de Pago Nómina Mensual Mixta| image:: resources/recibosmensualmixta.png
 .. |Detalle de Pago Nómina Mensual Mixta| image:: resources/detallemensualmixta.png
 .. |Resumen de Pago Nómina Mensual Mixta| image:: resources/resumenmensualmixta.png
@@ -38,7 +38,7 @@
         A través de la fecha contable se determina contablemente la fecha de pago de la nómina mensual en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
 
-      |Nómina Mensual Mixta|
+      |Nomina Mensual Mixta|
 
       Imagen 1. Nómina Mensual Mixta
 
