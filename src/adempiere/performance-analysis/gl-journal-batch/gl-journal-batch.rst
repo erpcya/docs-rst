@@ -107,7 +107,7 @@
 
     #. Seleccione un tipo de documento en el campo "**Tipo de Documento**".
 
-        El tipo de documento es un campo obligatorio, le permite definir el comportamiento del documento que se está elaborando, para profundizar más este tema vaya a el documento: :ref:`documento/tipo-documento`.
+        El tipo de documento es un campo obligatorio, le permite definir el comportamiento del documento que se está elaborando, para profundizar más este tema vaya a el documento: **Tipo de Documento**.
 
             |Campo Tipo de Documento de la Pestaña Lote Contable de la Ventana Diario Contable|
 
@@ -261,7 +261,7 @@
 
     #. Seleccione el tipo de documento en el campo "**Tipo de Documento**".
 
-        El tipo de documento es un campo obligatorio, le permite definir el comportamiento del documento que se está elaborando, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo, para profundizar más este tema vaya a el documento: :ref:`documento/tipo-documento`.
+        El tipo de documento es un campo obligatorio, le permite definir el comportamiento del documento que se está elaborando, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo, para profundizar más este tema vaya a el documento: **Tipo de Documento**.
 
             |Campo Tipo de Documento de la Pestaña Nota Contable de la Ventana Diario Contable|
 

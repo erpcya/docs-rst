@@ -58,7 +58,7 @@ Por medio de este documento se lleva un control de los materiales, gastos, y el 
 
             Imagen 4. Campo Organización de la Ventana Órdenes de Producción Planeadas
 
-        #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. 
+        #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. 
 
             |Campo Tipo de Documento de la Ventana Órdenes de Producción Planeadas|
             

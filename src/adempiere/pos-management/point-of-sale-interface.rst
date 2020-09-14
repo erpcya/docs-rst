@@ -136,7 +136,7 @@ Contiene los iconos principales de las ventanas de ADempiere para realizar una g
 
     Imagen 7. Icono Imprimir de la Barra de Herramientas del Punto de Venta
 
-#. "**Icono Tipo de Documento**": Permite cambiar el tipo de documento cargado por defecto, el mismo define el comportamiento del documento que se esta generando y se encuentra explicado en el material :ref:`documento/tipo-documento` elaborado por `ERPyA`_. Adicional a ello, se puede ejecutar esta acción seleccionando la tecla "**F10**".
+#. "**Icono Tipo de Documento**": Permite cambiar el tipo de documento cargado por defecto, el mismo define el comportamiento del documento que se esta generando y se encuentra explicado en el material **Tipo de Documento** elaborado por `ERPyA`_. Adicional a ello, se puede ejecutar esta acción seleccionando la tecla "**F10**".
 
     |Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta|
 

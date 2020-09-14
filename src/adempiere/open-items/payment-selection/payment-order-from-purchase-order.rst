@@ -94,7 +94,7 @@ En muchas ocasiones se necesitan realizar anticipos a proveedores, una vez que s
 
     Imagen 5. Campo Número de Documento del Documento Orden de Pago desde Orden
 
-#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. Para ejemplificar el registro es utilizado el tipo de documento "**Orden de Pago**". 
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizado el tipo de documento "**Orden de Pago**". 
 
     |Campo Tipo de Documento del Documento Orden de Pago desde Orden|
 
