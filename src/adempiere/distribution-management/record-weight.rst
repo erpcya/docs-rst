@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/weight-record-menu.png
 .. |Ventana Registro de Peso| image:: resources/weight-log-window.png
 .. |Icono Registro Nuevo de la Ventana Registro de Peso| image:: resources/new-record-icon-in-the-weight-record-window.png

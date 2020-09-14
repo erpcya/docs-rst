@@ -18,7 +18,7 @@
 .. |Campo Prioridad| image:: resources/prioridad.png
 .. |Campo Lista de Precios| image:: resources/campolistadeprecios.png
 .. |Campo Moneda| image:: resources/cmoneda.png
-.. |Campo Agente Compañia| image:: resources/Agentecompañia.png
+.. |Campo Agente Compania| image:: resources/Agentecompania.png
 .. |Campo Término de Pago| image:: resources/terminodepago.png
 .. |Línea de la Orden de Compra| image:: resources/linea.png
 .. |Campo Cantidad| image:: resources/cantidad.png
@@ -26,7 +26,7 @@
 .. |Campo Cantidad Facturada| image:: resources/cantidadfacturada.png
 .. |Campo Cantidad Reservada| image:: resources/cantidadreservada.png
 .. |Campo Cantidad Entregada| image:: resources/cantidadentregada.png
-.. |Campo Cantidad| image:: resources/cantidad.png
+.. |Ingresar en Campo Cantidad| image:: resources/cantidad.png
 .. |Campo UM| image:: resources/unidmedida.png
 .. |Campo Precio| image:: resources/precio.png
 .. |Campo Precio Costo| image:: resources/preciocosto.png
@@ -34,8 +34,8 @@
 .. |Campo Precio Lista| image:: resources/preciolista.png
 .. |Campo Impuesto| image:: resources/impuesto.png
 .. |Campo Descuento| image:: resources/descuento.png
-.. |Campo Precio| image:: resources/precio.png
-.. |Campo Impuesto| image:: resources/impuesto.png
+.. |Ingresar en Campo Precio| image:: resources/precio.png
+.. |Ingresar en Campo Impuesto| image:: resources/impuesto.png
 .. |Opción Completar| image:: resources/ventanaycompletar.png
 
 .. _documento/orden-de-compra:
@@ -177,7 +177,7 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 
 		#. "**Agente de la Compañía**", será el agente de compras para el documento.
 
-			|Campo Agente Compañia|
+			|Campo Agente Compania|
 
 			Imagen 20. Campo Agente Compañía
 
@@ -242,7 +242,7 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 
 	#. Seleccione en el campo "**Cantidad**", la cantidad a ordenar del producto o servicio seleccionado.
 
-		|Campo Cantidad|
+		|Ingresar en Campo Cantidad|
 
 		Imagen 28. Campo Cantidad
 
@@ -292,13 +292,13 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 
 	#. Introduzca el precio unitario del producto seleccionando en el campo "**Precio**", este precio es el establecido por el socio del negocio proveedor.
 
-		|Campo Precio|
+		|Ingresar en Campo Precio|
 
 		Imagen 36. Campo Precio
 
 	#. Seleccione el impuesto en el campo "**Impuesto**", este puede variar dependiendo del impuesto aplicable al producto seleccionado.
 
-		|Campo Impuesto|
+		|Ingresar en Campo Impuesto|
 
 		Imagen 37 Campo Impuesto
 

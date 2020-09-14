@@ -10,7 +10,7 @@
 .. |Menú de ADempiere| image:: resources/conversion-rate-menu.png
 .. |Ventana Moneda| image:: resources/coin-window.png
 .. |Pestaña Tasas de Cambio| image:: resources/exchange-rates-tab.png
-.. |Icono Registro Nuevo| image:: resources/new-registration-icon-from-the-exchange-rates-tab.png
+.. |Icono Registro Nuevo Tasas| image:: resources/new-registration-icon-from-the-exchange-rates-tab.png
 .. |Campo Moneda Hacia| image:: resources/currency-field-towards-the-exchange-rates-tab.png
 .. |Campo Tipo de Conversión| image:: resources/conversion-rate-field-of-the-exchange-rates-tab.png
 .. |Campo Válido Desde| image:: resources/field-valid-from-the-exchange-rates-tab.png
@@ -121,7 +121,7 @@ La tasa de conversión se crea unicamente cuando se conoce el monto, el mismo se
 
     #. Seleccione el icono "**Registro Nuevo**" para crear un nuevo registro de tasas de cambio.
 
-        |Icono Registro Nuevo|
+        |Icono Registro Nuevo Tasas|
 
         Imagen 13. Icono Registro Nuevo de la Pestaña Tasas de Cambio
 

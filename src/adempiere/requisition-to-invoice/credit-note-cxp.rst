@@ -411,7 +411,7 @@ A continuación es explicado el procedimiento para generar en ADempiere, una not
         Imagen 55. Acción Completar y Opción OK de la Ventana Documentos por Pagar
 
 **Consultar Asignación de Nota de Crédito Aplicada**
----------------------------------------------------
+----------------------------------------------------
 
 #. Ubique el registro de la factura asociada a la nota de crédito, en este caso se ubica la factura "**1000108**" y posteriormente seleccione la pestaña "**Pagos Asignados**".
 
