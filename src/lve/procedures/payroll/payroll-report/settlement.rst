@@ -183,10 +183,6 @@ Adicionalmente dentro de los Conceptos encontrará datos como:
 
     En el siguiente ejemplo presentado se evidencia una nómina de liquidación procesada a  1 empleado y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
 
-    |Detalle de Pago 1|
-
-    Imagen 2. Detalle de Pago. Misma nómina con el mismo empleado.
-
 
 #. Resumen de Pago:  Seleccione esta plantilla de reporte de liquidación para conocer de manera resumida las asignaciones y deducciones agrupadas en todas en un  mismo reporte omitiendo algunos detalle que usted pudiera encontrar en la plantilla Detalle de Pago. Esta plantilla le presentará por cada uno de los concepto un monto total por cada empleado:
 
@@ -218,7 +214,3 @@ Adicionalmente dentro de los Conceptos encontrará datos como:
     +-----------------------------------------------+-----------------------------------------------+
 
     En el siguiente ejemplo presentado se evidencia una nómina de liquidación  procesada a  1 empleado, en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente para el reporte de nómina regular utilizando la plantilla de resumen de pagos
-
-    |Resumen de Pago 1|
-
-    Imagen 3. Resumen de Pago. Misma nómina con diferentes empleados.

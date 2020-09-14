@@ -137,13 +137,7 @@ Para este reporte están configurados 3 tipos de plantillas
    En el siguiente ejemplo presentado se evidencia una nómina de prestaciones sociales procesada a  2 empleados y en ella se evidencian las asignaciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
    
    
-   |Detalle de Pago 1|
-
-   Imagen 2. Detalle de Pago. Misma nómina con diferentes empleados.
-
-
-
-#. Resumen de Pago: Seleccione esta plantilla de reporte de prestaciones sociales si desea conocer de manera detallada las asignaciónes calculadas al empleado durante la nómina en ejecución o durante el periodo que usted desee visualizar, esta plantilla le ayudará al jefe de nómina a tener los montos totales de dichos conceptos, asi mismo presentará de manera resumida un cuadro en donde se evidencia lo obtenido por cada empleado. 
+ #. Resumen de Pago: Seleccione esta plantilla de reporte de prestaciones sociales si desea conocer de manera detallada las asignaciónes calculadas al empleado durante la nómina en ejecución o durante el periodo que usted desee visualizar, esta plantilla le ayudará al jefe de nómina a tener los montos totales de dichos conceptos, asi mismo presentará de manera resumida un cuadro en donde se evidencia lo obtenido por cada empleado. 
 
    Los campos que podrá visualizar en este reporte son:
 
@@ -171,7 +165,4 @@ Para este reporte están configurados 3 tipos de plantillas
 
    En el siguiente ejemplo presentado se evidencia una nómina prestaciones sociales procesada a 2 empleados y en ella se evidencian los conceptos de asignaciones calculados a dichos empleados, así como se encuentran todos los datos qué detallamos anteriormente.
 
-   |Resumen de Pago 1|
-
-   Imagen 1. Resumen de Pago. Misma nómina de Prestaciones Sociales con diferentes empleados.
-
+   

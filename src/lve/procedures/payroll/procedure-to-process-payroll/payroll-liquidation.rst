@@ -1,13 +1,5 @@
 .. _ERPyA: http://erpya.com
 
-.. |Nómina Liquidación| image:: resources/liquidacion.png
-.. |Recibo de Pago Nómina Liquidación| image:: resources/reciboliquidación.png
-.. |Detalle de Pago Nómina Liquidación| image:: resources/detalleliquidacion.png
-.. |Resumen de Pago Nómina Liquidación| image:: resources/resumenliquidacion.png
-.. |Retenciones Nómina Liquidación| image:: resources/retencionesliquidacion.png
-.. |Aportes Nómina Liquidación| image:: resources/aportesliquidacion.png
-
-
 .. _documento/nomina-liquidacion:
 
 ======================
@@ -32,9 +24,6 @@
 
     #. Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
 
-    |Nómina Liquidación|
-
-    Imagen 1. Nómina de Liquidación
 
     .. warning::
 
@@ -55,10 +44,7 @@
 
     Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
 
-    |Incidencia Nómina de Liquidación|
-
-    Imagen 2. Incidencia Nómina de Liquidación
-
+    
 
 #. Resultados:
 
@@ -75,9 +61,7 @@
          	- **Configuración de Reporte de Nómina**: Liquidación
 
 
-        |Recibo de Pago Liquidación|
-
-        Imagen 3. Recibo de Pago Nómina Liquidación
+        |       
 
 
         - “**Detalle de Pago**”
@@ -90,10 +74,7 @@
 
             - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
-        |Detalle de Pago Nómina Liquidación|
-
-        Imagen 4. Detalle de Pago Nómina Liquidación
-
+       
 
         - “**Resumen de Pago**”
 
@@ -105,9 +86,7 @@
 
             - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
-        |Resumen de Pago Nómina Liquidación|
-
-        Imagen 5. Resumen de Pago Nómina Liquidación
+    
 
         - "**Retenciones**"
 
@@ -117,9 +96,7 @@
 
             - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
-        |Retenciones Nómina Liquidación|
-
-        Imagen 6. Retenciones de Nómina Liquidación
+       
 
         - "**Aportes**"
 
@@ -129,9 +106,7 @@
 
             - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
-        |Aportes Nómina Liquidación|
-
-        Imagen 6. Aportes de Nómina Liquidación
+        
 
     .. note::
 
