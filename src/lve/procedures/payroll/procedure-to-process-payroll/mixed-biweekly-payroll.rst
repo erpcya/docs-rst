@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. |Nómina Quincenal Mixta| image::resources/quincenalmixta.png
+.. |Nómina Quincenal Mixta| image:: resources/quincenalmixta.png
 .. |Recibo de Pago Nómina Quincenal Mixta| image:: resources/reciboquincenalmixta.png
 .. |Detalle de Pago Nómina Quincenal Mixta| image:: resources/detallequincenalmixtaa.png
 .. |Resumen de Pago Nómina Quincenal Mixta| image:: resources/resumenquincenalmixta.png
@@ -9,9 +9,9 @@
 
 .. _documento/nomina-quincenal-mixta:
 
-===========================
- **Nómina Quincenal Mixta**
-===========================
+==========================
+**Nómina Quincenal Mixta**
+==========================
 
     Para procesar una “**Nómina Quincenal Mixta**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo quincenal mixta, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 

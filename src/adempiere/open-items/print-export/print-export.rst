@@ -133,7 +133,7 @@ Cabe destacar, que dependiendo de la regla de pago con la que cuente la selecci�
 
 #. Campo **”Moneda”** es la moneda con la que se emitirán los pagos, la moneda a mostrar es la misma que tiene asociada selección de pago de cuentas por pagar.
 
-    | Campo Moneda|
+    |Campo Moneda|
 
     Imagen 14 . Campo Moneda
 
@@ -253,7 +253,7 @@ Para ubicar en ADempiere los pagos generados de una selección de pagos a travé
 
         Si no puede utilizar cualquiera de los criterios de búsqueda que le ofrece la ventana.
 
-        |Venta de búsqueda Encontrar Registros|
+        |Ventana de búsqueda Encontrar Registros|
 
         Imagen 23. Venta de búsqueda Encontrar Registros
 
