@@ -27,9 +27,9 @@ Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos re
     #. Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
 
 
-      |Nomina Anticipo de Prestaciones Sociales|
+        |Nomina Anticipo de Prestaciones Sociales|
 
-      Imagen 1. Nómina Anticipo Prestaciones Sociales
+        Imagen 1. Nómina Anticipo Prestaciones Sociales
 
     .. warning::
 
@@ -38,22 +38,16 @@ Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos re
 
 #. Incidencias:
 
-          Para esta nómina es obligatorio registrar la incidencia llamada "**Anticipo de Prestaciones Sociales**" para conocer el monto de anticipo otorgado a cada empleado, cabe destacar que esta incidencia debe registrarse al socio de negocio empleado al cual se le procesará la nómina de anticipo de prestaciones sociales
+    Para esta nómina es obligatorio registrar la incidencia llamada "**Anticipo de Prestaciones Sociales**" para conocer el monto de anticipo otorgado a cada empleado, cabe destacar que esta incidencia debe registrarse al socio de negocio empleado al cual se le procesará la nómina de anticipo de prestaciones sociales
+
+    +-------------------------------------------------------+----------------------+----------------+
+    |           **INCIDENCIA**                              |     **CÓDIGO**       |    **TIPO**    |
+    +=======================================================+======================+================+
+    | Anticipo de Prestaciones Sociales                     |     ("IN_APS")       |     Monto      |
+    +-------------------------------------------------------+----------------------+----------------+
 
 
-      +-------------------------------------------------------+----------------------+----------------+
-      |           **INCIDENCIA**                              |     **CÓDIGO**       |    **TIPO**    |
-      +=======================================================+======================+================+
-      | Anticipo de Prestaciones Sociales                     |     ("IN_APS")       |     Monto      |
-      +-------------------------------------------------------+----------------------+----------------+
-
-
-    Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
-
-    |Incidencia Nomina Anticipo de Prestaciones Sociales|
-
-    Imagen 2. Incidencia Nómina Anticipo de Prestaciones Sociales
-
+    Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`.
 
 #. Resultados:
 
@@ -90,6 +84,3 @@ Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos re
             - **Configuración de Reporte de Nómina**: Anticipo Prestaciones Sociales
 
             - **Plantilla de Reporte de Nómina**: Resumen de Pago
-
-
-        
