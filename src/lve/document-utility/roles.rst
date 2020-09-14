@@ -312,7 +312,6 @@ Posterior a ello, el mismo puede acceder sólo a la información necesaria para 
     - **Cierre de Caja**
     - **Solicitud de Permiso**
 
-.. note::
 
 
 
@@ -695,8 +694,11 @@ Posterior a ello, el mismo puede acceder sólo a la información necesaria para 
     +----------------------+--------------------+-----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
     |Compañía Estándar User|Organización        |El rol de compañía estándar user puede crear y generar documentos en estado **Espera Condición de Completar**, **Completar**,|                                                                                  |
     |                      |                    |**Aprobar**, **Rechazar**, **Aplicar**, **Anular**, **Cerrar**, **Reversar-Corregir**, **Reversar-Causación**, **Invalidar**,|No posee un rol incluido por ser el rol estándar con acceso a todo en ADempiere.  |
-    |                      |                    | **Reactivar**, **<Ninguno>**, **Preparar**, **Desbloquear**.                                                                |                                                                                  |
+    |                      |                    |**Reactivar**, **<Ninguno>**, **Preparar**, **Desbloquear**.                                                                 |                                                                                  |
     +----------------------+--------------------+-----------------------------------------------------------------------------------------------------------------------------+----------------------------------------------------------------------------------+
+
+
+
 
     ======================================================== ======================================================== ======================================================== ========================================================
 

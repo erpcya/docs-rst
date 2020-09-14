@@ -18,6 +18,9 @@
 .. |Ventana para Ubicar el Txt| image:: resources/window-to-locate-the-txt.png
 .. |Mensaje Número de Registro de Líneas Guardadas| image:: resources/message-record-number-of-saved-lines.png
 .. |Mensaje Impresión Correcta| image:: resources/correct-print-message.png
+.. |Mensaje de Confirmación| image:: resources/
+.. |Comprobante de Relación de Pago| image:: resources/
+.. |Menú de ADempiere 2| image:: resources/menu-pago.png
 .. |Ventana Selección de Pago| image:: resources/payment-selection-window.png
 .. |Opción Encontrar Registro| image:: resources/find-record-option.png
 .. |Ventana de búsqueda Encontrar Registros| image:: resources/search-window-find-records.png
@@ -135,7 +138,7 @@ Cabe destacar, que dependiendo de la regla de pago con la que cuente la selecci�
 
     |Campo Moneda|
 
-    Imagen 14 . Campo Moneda
+    Imagen 14. Campo Moneda
 
 #. Campo **”Número de Pagos”** debe mostrar los pagos a generar por cada uno de los documentos asociados en la selección de pagos de cuentas por pagar,los pagos a generar dependen de las siguientes características:
 
@@ -203,31 +206,31 @@ Cabe destacar, que dependiendo de la regla de pago con la que cuente la selecci�
 
             |Mensaje Número de Registro de Líneas Guardadas|
 
-            Imagen 18. Mensaje Número de Registro de Líneas Guardadas
+            Imagen 19. Mensaje Número de Registro de Líneas Guardadas
 
         #. Una vez tildada la opción ok de la ventana del número de registro de líneas guardadas, ADempiere mostrará el siguiente mensaje donde indica que la impresión ha sido correcta, es decir que los pagos se han generado correctamente.
 
             |Mensaje Impresión Correcta|
 
-            Imagen 19. Mensaje Impresión Correcta 
+            Imagen 20. Mensaje Impresión Correcta 
 
-    #. Para las selecciones de pago que cuenten con las reglas de pago **""A crédito, Cheque,Tarjeta de crédito""** se debe utilizar la opción **"Imprimir"**, esta opción genera los pagos de los documentos asociados a la selección de pago y le permitirá imprimir el cheque desde ADempiere.
+    #. Para las selecciones de pago que cuenten con las reglas de pago "**A crédito, Cheque, Tarjeta de crédito**" se debe utilizar la opción "**Imprimir**", esta opción genera los pagos de los documentos asociados a la selección de pago y le permitirá imprimir el cheque desde ADempiere.
 
-        |Opción Imprimir|
+        |Opciones Imprimir Exportar Pagos|
 
-        Imagen 18. Opción Imprimir
+        Imagen 21. Opción Imprimir
 
     #. Podrá visualizar la siguiente ventana con el mensaje de confirmación, en la cual debe seleccionar la opción "**OK**".
 
         |Mensaje de Confirmación|
 
-        Imagen 19. Ventana con Mensaje de Confirmación
+        Imagen 22. Ventana con Mensaje de Confirmación
 
     #. ADempiere genera el documento del registro del pago realizado a la factura desde la selección de pago.
 
         |Comprobante de Relación de Pago|
 
-        Imagen 20. Comprobante de Relación de Pago
+        Imagen 23. Comprobante de Relación de Pago
 
 **Consultar Documento de Pago Generado**
 ----------------------------------------
@@ -239,13 +242,13 @@ Para ubicar en ADempiere los pagos generados de una selección de pagos a travé
 
         |Menú de ADempiere 2|
 
-        Imagen 21. Menú de ADempiere
+        Imagen 24. Menú de ADempiere
 
     #. Ubique en la barra de herramientas de ADempiere la opción **"Encontrar Registro"**.
 
         |Opción Encontrar Registro|
 
-        Imagen 22. Opción Encontrar Registro
+        Imagen 25. Opción Encontrar Registro
 
     #. Al tildar la opción de la barra de herramientas de ADempiere **"Encontrar Registro"** ADempiere mostrará una ventana de búsqueda la cual cuenta con varios criterios de búsquedas los cuales pueden ser utilizados para encontrar el pago o los pagos que se deseen ubicar.
 
@@ -255,13 +258,13 @@ Para ubicar en ADempiere los pagos generados de una selección de pagos a travé
 
         |Ventana de búsqueda Encontrar Registros|
 
-        Imagen 23. Venta de búsqueda Encontrar Registros
+        Imagen 26. Ventana de búsqueda Encontrar Registros
 
     #. Dependiendo de los criterios de búsqueda utilizados, podrá observar en la ventana el pago generado.
 
         |Pago Generado|
 
-        Imagen 24. Pago Generado
+        Imagen 27. Pago Generado
 
 #. Otra opción de búsqueda es ubicar los pagos desde la venta **"Selección de Pagos"**, para ello realice los siguientes pasos:
 
@@ -269,7 +272,7 @@ Para ubicar en ADempiere los pagos generados de una selección de pagos a travé
 
         |Ventana Selección de Pago|
 
-        Imagen 25. Ventana Selección de Pago
+        Imagen 28. Ventana Selección de Pago
 
         .. note::
 
@@ -279,25 +282,25 @@ Para ubicar en ADempiere los pagos generados de una selección de pagos a travé
 
         |Pestaña Pago Generado|
 
-        Imagen 26. Pestaña Pago Generado
+        Imagen 29. Pestaña Pago Generado
 
     #. Para visualizar mejor el pago generado ubique dentro de la pestaña y dentro del registro del socio del negocio en el que se encuentre posicionado, el campo **"Pago"**, ese campo mostrará el número de documento del pago generado al socio del negocio, 
 
         |Campo Pago de la Pestaña Pago Generado|
 
-        Imagen 27. Campo Pago de la Pestaña Pago Generado
+        Imagen 30. Campo Pago de la Pestaña Pago Generado
     
     #. Ubíquese dentro del campo **”Pago”**,  de click derecho y seleccione la opción acercar.
 
         |Opción acercar del campo Pago|
 
-        Imagen 28. Opción acercar del campo Pago
+        Imagen 31. Opción acercar del campo Pago
 
     #. Al tildar la opción acercar, ADempiere lo llevará a la ventana "**Pago/Cobro**" y podrá ver de manera detallada los datos asociados a ese pago.
 
-        |Ventana Pago/Cobro desde el acercar|
+        |Ventana Pago Cobro desde el acercar|
 
-        Imagen 29. Ventana Pago/Cobro desde el acercar
+        Imagen 32. Ventana Pago/Cobro desde el acercar
 
 
 

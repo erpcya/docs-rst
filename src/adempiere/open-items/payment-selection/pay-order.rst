@@ -34,7 +34,7 @@
 .. |Listado de Facturas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura| image:: resources/list-of-invoices-in-the-intelligent-search-window-of-the-create-from-invoice-process.png
 .. |Seleccionar Facturas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura| image:: resources/select-invoices-from-the-intelligent-search-window-of-the-create-from-invoice-process.png
 .. |Total a Cancelar de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura| image:: resources/total-to-cancel-from-the-intelligent-search-window-of-the-create-from-invoice-process.png
-.. |Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura| image:: resources/ok-option-in-the-smart-search-window-of-the-create-from-invoice-process.png
+.. |Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Factura| image:: resources/option-in-the-smart-search-window-of-the-create-from-invoice-process.png
 .. |Icono Refrescar del Documento Orden de Pago desde Factura| image:: resources/refresh-icon-of-the-payment-order-document-from-invoice.png
 .. |Pestaña Línea de Selección de Pago del Documento Orden de Pago desde Factura| image:: resources/payment-selection-line-tab-of-the-payment-order-document-from-invoice.png
 .. |Campo Selección de Pago del Documento Orden de Pago desde Factura| image:: resources/payment-selection-field-of-the-payment-order-document-from-invoice.png

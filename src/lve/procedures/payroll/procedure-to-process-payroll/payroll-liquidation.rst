@@ -10,9 +10,9 @@
 
 .. _documento/nomina-liquidacion:
 
-========================
-**Nómina  Liquidación**
-========================
+======================
+**Nómina Liquidación**
+======================
 
     Para procesar una “**Nómina de Liquidación**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de liquidación, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 

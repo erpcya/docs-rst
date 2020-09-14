@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/quality-analysis-menu.png
 .. |Ventana Análisis de Calidad| image:: resources/quality-analysis-window.png
 .. |Icono Registro Nuevo de la Ventana Análisis de Calidad| image:: resources/new-record-icon-in-the-quality-analysis-window.png

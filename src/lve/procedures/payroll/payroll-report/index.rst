@@ -19,7 +19,6 @@ Entre los Reportes de Nómina que se pueden encontrar dentro de ADempiere se enc
 .. toctree::
     :maxdepth: 2
 
-    payroll-process-report
     regular-payroll
     food-bond
     specialpayments

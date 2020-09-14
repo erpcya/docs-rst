@@ -4,7 +4,6 @@
 .. |Pestaña Línea de la Orden de Compra| image:: resources/purchase-order-line-tab.png
 .. |Recepción de Producto| image:: resources/reception.png
 .. |Pestaña Línea del Recibo| image:: resources/reception-line-tab.png
-.. |Ventana Producto| image:: resources/product-window.png
 .. |Tipo de Costo Estándar| image:: resources/standard-cost-type-of-product-window-cost-tab.png
 .. |Tipo de Costo Facturación Promedio| image:: resources/type-of-average-billing-cost-from-the-cost-tab-of-the-product-window.png
 

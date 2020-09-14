@@ -11,5 +11,5 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
 
 .. toctree::
     :maxdepth: 2
-
-  unidentified-payment-collection-identification
+    
+    unidentified-payment-collection-identification

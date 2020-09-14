@@ -3,7 +3,6 @@
 .. |Checklist Obtener Tasas para la Moneda del Esquema Contable del Proceso Obtener Tasas de Cambio desde Proveedor| image:: resources/checklist-obtain-rates-for-the-currency-of-the-accounting-scheme-of-the-process-obtain-exchange-rates-from-provider.png
 .. |Campo Fecha de la Transacción del Proceso Obtener Tasas de Cambio desde Proveedor| image:: resources/date-field-of-the-transaction-of-the-obtain-exchange-rates-from-provider-process.png
 .. |Opción OK del Proceso Obtener Tasas de Cambio desde Proveedor| image:: resources/option-ok-of-the-process-obtain-exchange-rates-from-provider.png
-.. |Resultado del Proceso Obtener Tasas de Cambio desde Proveedor| image:: resources/result-of-the-process-obtain-exchange-rates-from-provider.png
 
 .. _documento/conversión-monetaria-automática:
 
@@ -45,10 +44,5 @@
 
         Imagen 5. Opción OK del Proceso Obtener Tasas de Cambio desde Proveedor
 
-#. Al ejecutar el proceso "**Obtener Tasas de Cambio desde Proveedor**", podrá visualizar el resultado de la siguiente manera.
-
-    |Resultado del Proceso Obtener Tasas de Cambio desde Proveedor|
-
-    Imagen 6. Resultado del Proceso Obtener Tasas de Cambio desde Proveedor
 
     
