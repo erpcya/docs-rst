@@ -18,8 +18,9 @@
 .. |Ventana para Ubicar el Txt| image:: resources/window-to-locate-the-txt.png
 .. |Mensaje Número de Registro de Líneas Guardadas| image:: resources/message-record-number-of-saved-lines.png
 .. |Mensaje Impresión Correcta| image:: resources/correct-print-message.png
-.. |Mensaje de Confirmación| image:: resources/
-.. |Comprobante de Relación de Pago| image:: resources/
+.. |Opción Imprimir Pagos| image:: resources/print-payments-option.png
+.. |Mensaje de Confirmación| image:: resources/confirmation-message.png
+.. |Comprobante de Relación de Pago| image:: resources/proof-of-payment-relationship.png
 .. |Menú de ADempiere 2| image:: resources/menu-pago.png
 .. |Ventana Selección de Pago| image:: resources/payment-selection-window.png
 .. |Opción Encontrar Registro| image:: resources/find-record-option.png
@@ -216,7 +217,7 @@ Cabe destacar, que dependiendo de la regla de pago con la que cuente la selecci�
 
     #. Para las selecciones de pago que cuenten con las reglas de pago "**A crédito, Cheque, Tarjeta de crédito**" se debe utilizar la opción "**Imprimir**", esta opción genera los pagos de los documentos asociados a la selección de pago y le permitirá imprimir el cheque desde ADempiere.
 
-        |Opciones Imprimir Exportar Pagos|
+        |Opción Imprimir Pagos|
 
         Imagen 21. Opción Imprimir
 
@@ -262,11 +263,11 @@ Para ubicar en ADempiere los pagos generados de una selección de pagos a travé
 
     #. Dependiendo de los criterios de búsqueda utilizados, podrá observar en la ventana el pago generado.
 
-        |Pago Generado|
+        |Ventana Pago Cobro desde el acercar|
 
         Imagen 27. Pago Generado
 
-#. Otra opción de búsqueda es ubicar los pagos desde la venta **"Selección de Pagos"**, para ello realice los siguientes pasos:
+#. Otra opción de búsqueda es ubicar los pagos desde la ventana **"Selección de Pagos"**, para ello realice los siguientes pasos:
 
     #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Selección de Pagos**" y ubique la selección de pagos con la que trabajo en el proceso de imprimir/exportar pagos.
 
@@ -278,7 +279,7 @@ Para ubicar en ADempiere los pagos generados de una selección de pagos a travé
 
             Recuerde que toda ventana en ADempiere cuenta en la barra de herramientas la opción de búsqueda "**Encontrar Registros**" la cual puede ser utilizada para ubicar la selección de pagos.
 
-    #.Una vez ubicada la selección de pago tilde la ventana **"Pago Generado"**, dentro de esta pestaña podrá observar un resumen de los pagos generados por socios de negocios con los que cuenta la selección de pago.
+    #.Una vez ubicada la selección de pago tilde la pestaña **"Pago Generado"**, dentro de esta pestaña podrá observar un resumen de los pagos generados por socios de negocios con los que cuenta la selección de pago.
 
         |Pestaña Pago Generado|
 
