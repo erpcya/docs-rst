@@ -1,1 +1,0 @@
-.. _documento/configuración-contable-del-puesto-de-nómina:

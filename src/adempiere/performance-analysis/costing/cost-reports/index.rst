@@ -11,6 +11,9 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
     :maxdepth: 2
 
     product-cost-inquiry
+    product-cost-report
+    product-cost
+    inventory-valuation-at-effective-date
     transaction-valuation
     product-cost-detail
     cost-transaction-detail
