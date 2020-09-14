@@ -11,13 +11,13 @@ Es elemental garantizar que los integrantes de **stakeholders** estén conformes
 
 Un gran desafío para los gestores de la empresa es encontrar objetivos comunes entre todos los miembros de los stakeholders que inciden en la organización para garantizar un crecimiento sustentable, para esto es necesario e imprescindible contar con reportes que reflejen la situación económica de la compañía, uno de estos reportes financieros suele ser los estados financieros, estos cuentan generalmente con cuatro componentes básicos:
 
-  #. Balance de Comprobación.
+    #. Balance de Comprobación.
 
-  #. Estado de Situación Financiera o Balance General.
+    #. Estado de Situación Financiera o Balance General.
 
-  #. Estado de Resultados.
+    #. Estado de Resultados.
 
-  #. Estado de Flujos de Efectivo.
+    #. Estado de Flujos de Efectivo.
 
 **ADempiere** contempla una solución a esta necesidad, donde además de estados financieros se incluyen reportes que evidencia en detalle las transacciones realizadas durante el ejercicio, así como las operaciones que incorporan a los saldos en los estados financieros básicos.
 
@@ -25,17 +25,17 @@ Es importante acotar, que en ocasiones es necesario preparar otros reportes fina
 
 Sin embargo, aun cuando existen factores relevantes al medir el flujo de efectivo o la rentabilidad, es aún más importante conocer la situación real del negocio,  generando información adicional de forma detallada, con los reportes que ADempiere ofrece para nuestros clientes:
 
-  #. Libros Diarios.
+    #. Libros Diarios.
 
-  #. Estado de Cuenta o Mayor Analítico.
+    #. Estado de Cuenta o Mayor Analítico.
 
-  #. Libro de Inventarios.
+    #. Libro de Inventarios.
 
-  #. Libro de Impuestos y Retenciones.
+    #. Libro de Impuestos y Retenciones.
 
-  #. Detalles de Costos.
+    #. Detalles de Costos.
 
-  A continuación, `ERPyA`_  desea ofrecer a sus clientes un material en el cual explicaremos de forma detallada las consideraciones, bondades y herramientas que **ADempiere** brinda para interpretar información contable que ayudará a complementar el análisis, permitiendo una visión clara a la hora de tomar decisiones en su empresa.
+    A continuación, `ERPyA`_  desea ofrecer a sus clientes un material en el cual explicaremos de forma detallada las consideraciones, bondades y herramientas que **ADempiere** brinda para interpretar información contable que ayudará a complementar el análisis, permitiendo una visión clara a la hora de tomar decisiones en su empresa.
 
 
 .. toctree::
