@@ -71,7 +71,7 @@ Para ejemplificar el inventario de uso interno, es generado el reporte "**Detall
 
             Imagen 8. Campo Fecha de Movimiento
 
-        #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por la empresa `ERPyA`_.
+        #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por la empresa `ERPyA`_.
 
             |Tipo de Documento|
 

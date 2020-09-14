@@ -92,7 +92,7 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 
 		Imagen 6. Campo Descripción
 
-	#. Seleccione el tipo de documento a generar, en el campo "**Tipo de Documento Destino**", la selección de éste define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra definido en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_
+	#. Seleccione el tipo de documento a generar, en el campo "**Tipo de Documento Destino**", la selección de éste define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra definido en el documento **Tipo de Documento** elaborado por `ERPyA`_
 
 		|Campo Tipo de Documento Destino|
 

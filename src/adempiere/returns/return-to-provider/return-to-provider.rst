@@ -93,7 +93,7 @@ A continuación se define el proceso para la creación de una autorización de d
 
         Imagen 7. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. Para este ejemplo el tipo de documento es "**Autorización Devolución Proveedor Nacional**".
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para este ejemplo el tipo de documento es "**Autorización Devolución Proveedor Nacional**".
 
 
         |Campo Tipo de Documento 1|
@@ -204,7 +204,7 @@ Es el documento que refleja la devolución de uno, varios, o todos los productos
 
         Imagen 21. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. Para este ejemplo el tipo de documento es "**Devolución a Proveedor Nacional**".
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para este ejemplo el tipo de documento es "**Devolución a Proveedor Nacional**".
 
         |Campo Tipo de Documento 2|
 

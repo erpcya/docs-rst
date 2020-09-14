@@ -16,7 +16,7 @@ Nos Dirigimos a la ventana Cierre de Caja, ubicado en el menú “**Gestión de 
 
 #. Seleccionamos en el campo “**Cuenta de la Caja**” el nombre de la cuenta que se dispone para registrar los pagos de  la nómina, en este caso será una caja y estará identificada porque indica el nombre del banco y al final la palabra tránsito.
 
-#. Seleccionamos el “**Tipo de Documento**” denominado “**Cierre de Caja Nómina**”, ese tipo de documento indica el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento:ref:`documento/tipo-documento` elaborado por ERPyA. 
+#. Seleccionamos el “**Tipo de Documento**” denominado “**Cierre de Caja Nómina**”, ese tipo de documento indica el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento**Tipo de Documento** elaborado por ERPyA. 
 
 #. Seleccione en el Campo “**Nombre**” un nombre referente a ese cierre de caja.
 

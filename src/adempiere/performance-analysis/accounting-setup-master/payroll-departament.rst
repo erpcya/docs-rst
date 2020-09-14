@@ -1,1 +1,0 @@
-.. _documento/configuración-contable-del-departamento-de-nómina:
