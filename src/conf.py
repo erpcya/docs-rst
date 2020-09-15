@@ -92,7 +92,7 @@ html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 #html_theme_path = ['/usr/local/lib/python2.7/site-packages']
 
-html_theme_options = {"canonical_url": "http://docs.erpya.com/en/stable/"}
+html_theme_options = {"canonical_url": "http://docs.erpya.com/en/latest/"}
 
 # Control display of sidebars
 html_sidebars = {'**': [
@@ -154,7 +154,7 @@ htmlhelp_basename = 'DocsErpya'
 
 # -- Options for LaTeX output ------------------------------------------------
 
-latex_elements = {
+latex_elements = {"papersize": "a4paper"
     # The paper size ('letterpaper' or 'a4paper').
     #
     # 'papersize': 'letterpaper',
@@ -178,9 +178,8 @@ locale_dirs = ['locale/']
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-#latex_documents = [
-#    (master_doc, 'ADempiereDocs.tex', 'E.R.P. Consultores y Asociados, C.A.', 'Documentation E.R.P. Consultores y Asociados, C.A.', 'manual'),
-#]
+
+latex_documents = [("master_doc", "ADempiereDocs.tex", "E.R.P. Consultores y Asociados, C.A.", "Documentation E.R.P. Consultores y Asociados, C.A.", "manual")]
 
 #pdf_documents = [('index', u'rst2pdf', u'ADempiereDocs', u'Documentation E.R.P. Consultores y Asociados, C.A'),]
 
