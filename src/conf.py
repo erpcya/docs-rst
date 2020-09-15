@@ -92,7 +92,7 @@ html_theme = "sphinx_rtd_theme"
 html_theme_path = [sphinx_rtd_theme.get_html_theme_path()]
 #html_theme_path = ['/usr/local/lib/python2.7/site-packages']
 
-html_theme_options = {"http://docs.erpya.com/en/latest/"}
+#html_theme_options = {"http://docs.erpya.com/en/latest/"}
 
 # Control display of sidebars
 html_sidebars = {'**': [
