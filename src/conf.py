@@ -179,7 +179,7 @@ locale_dirs = ['locale/']
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 
-latex_documents = [("master_doc", "ADempiereDocs.tex", "E.R.P. Consultores y Asociados, C.A.", "Documentation E.R.P. Consultores y Asociados, C.A.", "manual")]
+#latex_documents = [("master_doc", "ADempiereDocs.tex", "E.R.P. Consultores y Asociados, C.A.", "Documentation E.R.P. Consultores y Asociados, C.A.", "manual")]
 
 #pdf_documents = [('index', u'rst2pdf', u'ADempiereDocs', u'Documentation E.R.P. Consultores y Asociados, C.A'),]
 
