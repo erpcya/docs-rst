@@ -16,3 +16,4 @@ El próximo material otorga a nuestros lectores información sobre políticas, f
     customer-review
     schedule-a-meeting
     support-doc
+    compress-mp4
