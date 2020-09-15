@@ -1,4 +1,4 @@
-.. |Kazam| image:: resources/kazam.png
+.. |Kazam| image:: resources/Kazam.png
 .. |options-list| image:: resources/key-mon-list.png
 
 .. _documento/generar-videos-comprimidos-como-gif:
