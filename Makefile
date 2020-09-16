@@ -54,10 +54,25 @@ clean:
 	rm -rf $(BUILDDIR)/*
 
 html:
-	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html/
 	@echo
 	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
-
+rinoh:
+	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf/
+	@echo
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+htmlad37:
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html/adempiere-3.7
+	@echo
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+htmladmaster:
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html/master
+	@echo
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+htmlad40:
+	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html/4.0.0
+	@echo
+	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."	
 dirhtml:
 	$(SPHINXBUILD) -b dirhtml $(ALLSPHINXOPTS) $(BUILDDIR)/dirhtml
 	@echo
@@ -115,7 +130,7 @@ latex:
 	      "(use \`make latexpdf' here to do that automatically)."
 
 latexpdf:
-	$(SPHINXBUILD) -b latex $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	$(SPHINXBUILD) -b latex  $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	@echo "Running LaTeX files through pdflatex..."
 	$(MAKE) -C $(BUILDDIR)/latex all-pdf
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
