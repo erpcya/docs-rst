@@ -27,21 +27,3 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/master/index
 
 
-
-.. toctree::
-    :caption: LOCALIZACIÓN VENEZUELA
-    :maxdepth: 2
-    :numbered:
-
-    lve/document-utility/index
-    lve/fiscal-printer/index
-    lve/procedures/index
-    lve/report/index
-    lve/standard-coding/index
-
-.. toctree::
-    :caption: E-commerce
-    :maxdepth: 2
-    :numbered:
-
-    ecommerce/index
