@@ -52,7 +52,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     lve/standard-coding/index
 
 .. toctree::
-    :caption: Ecommerce
+    :caption: E-commerce
     :maxdepth: 2
     :numbered:
 
