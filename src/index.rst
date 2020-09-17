@@ -27,10 +27,6 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/master/index
     adempiere/open-items/index
 
-
-
-
-
 .. toctree::
     :caption: LOCALIZACIÓN VENEZUELA
     :maxdepth: 2
