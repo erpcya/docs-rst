@@ -82,6 +82,10 @@
 
     Imagen 9. Campo Descripción
 
+.. note::
+
+    Recuerde seleccionar el icono "**Guardar Cambios**", ubicada en la barra de herramientas de ADempiere, para guardar el registro de los campos de la ventana "**Planificación de Visita**".
+
 #. Seleccione la pestaña "**Línea de Planificación**", para crear los diferentes registros de planificación de visitas correspondiente al tipo de visita seleccionada en el campo "**Tipo de Visita**".
 
     |pestaña línea de planificación|
@@ -169,6 +173,10 @@
     |grupo de checklist de la semana|
 
     Imagen 23. Grupo de Checklist
+
+.. note::
+
+    Recuerde seleccionar el icono "**Guardar Cambios**", ubicada en la barra de herramientas de ADempiere, para guardar el registro de los campos de la ventana "**Planificación de Visita**".
 
 #. Seleccione la pestaña "**Secuencia**", para visualizar la secuencia de los diferentes registros de planificación de visitas correspondiente al tipo de visita seleccionada en el campo "**Tipo de Visita**".
 
