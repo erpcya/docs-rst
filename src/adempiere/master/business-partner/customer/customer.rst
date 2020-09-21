@@ -27,7 +27,7 @@
 .. |Campo Teléfono de la Pestaña Localización del Registro Cliente| image:: resources/phone-field-of-the-provider-record-location-tab.png
 .. |Campo Teléfono Móvil de la Pestaña Localización del Registro Cliente| image:: resources/mobile-phone-field-of-the-provider-record-location-tab.png
 .. |Checklist Dirección Entregar-A de la Pestaña Localización del Registro Cliente| image:: resources/address-checklist-deliver-to-from-the-supplier-record-location-tab.png
-.. |Checklist Facturar-A de la Pestaña Localización del Registro Cliente| image:: resources/checklist address-bill-to-from-the-tab-location-of-the-supplier-record.png
+.. |Checklist Facturar-A de la Pestaña Localización del Registro Cliente| image:: resources/address-bill-to-from-the-tab-location-of-the-supplier-record.png
 .. |Campo Código SICA de la Pestaña Localización del Registro Cliente| image:: resources/physical-code-field-of-the-supplier-record-location-tab.png
 .. |Icono Guardar Cambios de la Pestaña Localización del Registro Cliente| image:: resources/save-changes-icon-on-the-vendor-record-location-tab.png
 .. |Pestaña Contacto del Registro Cliente| image:: resources/supplier-record-contact-tab.png
@@ -72,60 +72,64 @@ Para registrar un cliente, es necesario que sea realizado el procedimiento regul
 
         |Campo Regla de Facturación de la Pestaña Cliente|
 
-        Imagen 4. Campo Regla de Facturación
+        Imagen 3. Campo Regla de Facturación
 
     #. Seleccione en el campo "**Regla de Entrega**", la regla establecida para entregar al cliente los productos o servicios.
 
         |Campo Regla de Entrega de la Pestaña Cliente|
 
-        Imagen 6. Campo Regla de Entrega
+        Imagen 4. Campo Regla de Entrega
 
     #. Seleccione en el campo "**Lista de Precios**", la lista de precios establecida para las ventas al socio del negocio cliente que esta registrando.
 
         |Campo Lista de Precios de la Pestaña Cliente|
 
-        Imagen 8. Campo Lista de Precios
+        Imagen 5. Campo Lista de Precios
 
     #. Seleccione en el campo "**Regla de Pago**", la forma de pago de las facturas establecida para el socio del negocio cliente que esta registrando.
 
         |Campo Regla de Pago de la Pestaña Cliente|
 
-        Imagen 11. Campo Regla de Pago
+        Imagen 6. Campo Regla de Pago
 
     #. Seleccione en el campo "**Término de Pago**", las condiciones de pago de las facturas establecida para el socio del negocio que esta registrando.
 
         |Campo Término de Pago de la Pestaña Cliente|
 
-        Imagen 12. Campo Término de Pago
+        Imagen 7. Campo Término de Pago
 
     #. Introduzca en el campo "**Descripción de Orden**", una descripción estándar para se utilizadas en las órdenes a generar al socio del negocio cliente que esta registrando.
 
         |Campo Descripción de Orden de la Pestaña Cliente|
 
-        Imagen 17. Campo Descripción de Orden
+        Imagen 8. Campo Descripción de Orden
 
     #. Introduzca en el campo "**Límite de Crédito**", el límite de crédito establecido para el socio del negocio cliente que esta registrando.
 
         |Campo Límite de Crédito de la Pestaña Cliente|
 
-        Imagen 20. Campo Límite de Crédito
+        Imagen 9. Campo Límite de Crédito
 
     #. Podrá visualizar en el campo "**Crédito Usado**", el crédito usado por el socio del negocio cliente que esta registrando.
 
         |Campo Crédito Usado de la Pestaña Cliente|
 
-        Imagen 21. Campo Crédito Usado
+        Imagen 10. Campo Crédito Usado
+
+.. warning::
+
+    Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.
 
 **Pestaña Cuenta Bancaria**
 ***************************
 
-En esta pestaña se registran los datos bancarios del socio del negocio cliente, con el checklist "**Activo**" se pueden registrar los datos de la tarjeta de crédito del socio del negocio. Así mismo, con el checklist "**ACH**" se pueden registrar los datos de la cuenta bancaria del socio del negocio.
+En esta pestaña se registran los datos bancarios del socio del negocio cliente, con el checklist "**ACH**" se pueden registrar los datos de la cuenta bancaria del socio del negocio.
 
 #. Seleccione la pestaña "**Cuenta Bancaria**" que se encuentra ubicada del lado izquierdo de la ventana socio del negocio. Por defecto se encuentra tildado el checklist "**Activo**".
 
     |Pestaña Cuenta Bancaria del Registro Cliente|
 
-    Imagen 23. Pestaña Cuenta Bancaria
+    Imagen 11. Pestaña Cuenta Bancaria
 
 **Checklist ACH**
 +++++++++++++++++
@@ -134,37 +138,37 @@ En esta pestaña se registran los datos bancarios del socio del negocio cliente,
 
     |Checklist ACH de la Pestaña Cuenta Bancaria del Registro Cliente|
 
-    Imagen 29. Checklist ACH
+    Imagen 12. Checklist ACH
 
 #. Seleccione en el campo "**Uso de Cuenta**", la opción que define como es usada la cuenta banco del socio del negocio.
 
     |Campo Uso de Cuenta de la Pestaña Cuenta Bancaria del Registro Cliente|
 
-    Imagen 10. Campo Uso de Cuenta
+    Imagen 13. Campo Uso de Cuenta
 
 #. En el campo "**Banco**" seleccione el banco a registrar con ayuda del ícono identificador (adjunto imagen).
 
     |Campo Banco de la Pestaña Cuenta Bancaria del Registro Cliente|
 
-    Imagen 31. Campo Banco
+    Imagen 14. Campo Banco
 
     #. A continuación visualizará la siguiente ventana con los diferentes bancos, dónde debe seleccionar el banco que posee el socio del negocio cliente y la opción "**OK**" para cargar los datos al formulario.
 
         |Ventana Bancos de la Pestaña Cuenta Bancaria del Registro Cliente|
 
-        Imagen 32. Opción OK
+        Imagen 15. Opción OK
 
 #. Seleccione el tipo de cuenta correspondiente a la cuenta del socio del negocio cliente en el campo "**Tipo de Cuenta Bancaria**".
 
     |Campo Tipo de Cuenta Bancaria de la Pestaña Cuenta Bancaria del Registro Cliente|
 
-    Imagen 33. Campo Tipo de Cuenta Bancaria
+    Imagen 16. Campo Tipo de Cuenta Bancaria
 
 #. Introduzca en el campo "**No. De Cuenta**", el número de cuenta del socio del negocio cliente que esta registrando.
 
     |Campo Nro De Cuenta de la Pestaña Cuenta Bancaria del Registro Cliente|
 
-    Imagen 34. Campo No. De Cuenta
+    Imagen 17. Campo No. De Cuenta
 
     .. warning::
 
@@ -174,25 +178,25 @@ En esta pestaña se registran los datos bancarios del socio del negocio cliente,
 
     |Campo CI RIF del Titular de la Cuenta de la Pestaña Cuenta Bancaria del Registro Cliente|
 
-    Imagen 15. Campo C.I./R.I.F. del Titular de la Cuenta
+    Imagen 18. Campo C.I./R.I.F. del Titular de la Cuenta
 
 #. Introduzca el nombre de referencia en el campo "**Nombre**", en este campo va el nombre del titular de la tarjeta de crédito o de la cuenta bancaria que esta registrando.
 
     |Campo Nombre del Titular de la Cuenta de la Pestaña Cuenta Bancaria del Registro Cliente|
 
-    Imagen 35. Campo Nombre de Titular de Cuenta
+    Imagen 19. Campo Nombre de Titular de Cuenta
 
 #. Introduzca en el campo "**Cta. Correo Electrónico**", la cuenta de correo electrónico del titular de la cuenta bancaria que esta registrando.
 
     |Campo Cta Correo Electrónico del Titular de la Cuenta de la Pestaña Cuenta Bancaria del Registro Cliente|
 
-    Imagen 17. Campo Cta Correo Electrónico del Titular de la Cuenta
+    Imagen 20. Campo Cta Correo Electrónico del Titular de la Cuenta
 
 #. Seleccione el icono "**Guardar Cambios**" ubicado en la barra de herramientas para guardar los datos ingresados.
 
     |Icono Guardar Cambios de la Pestaña Cuenta Bancaria del Registro Cliente|
 
-    Imagen 18. Icono Guardar Cambios de la Pestaña Cuenta Bancaria
+    Imagen 21. Icono Guardar Cambios de la Pestaña Cuenta Bancaria
 
 .. warning::
 
@@ -209,25 +213,25 @@ La localización de un socio del negocio cliente es muy importante por diferente
 
     |Pestaña Localización del Registro Cliente|
 
-    Imagen 46. Pestaña Localización
+    Imagen 22. Pestaña Localización
 
 #. Introduzca en el campo "**Localización / Dirección**", la dirección de localización del socio del negocio cliente con ayuda del identificador.
 
     |Campo Ubicación Dirección de la Pestaña Localización del Registro Cliente|
 
-    Imagen 47. Campo Localización / Dirección
+    Imagen 23. Campo Localización / Dirección
 
         #. A continuación visualizará la siguiente ventana, dónde debe introducir la dirección exacta del socio del negocio cliente que esta registrando.
 
             |Ventana de Localización de la Pestaña Localización del Registro Cliente|
 
-            Imagen 21. Ventana de Localización
+            Imagen 24. Ventana de Localización
 
 #. Introduzca en el campo "**Nombre**", el nombre de la localización del socio del negocio.
 
     |Campo Nombre de la Pestaña Localización del Registro Cliente|
 
-    Imagen 22. Campo Nombre
+    Imagen 25. Campo Nombre
 
     .. note::
 
@@ -237,13 +241,13 @@ La localización de un socio del negocio cliente es muy importante por diferente
 
     |Campo Teléfono de la Pestaña Localización del Registro Cliente|
 
-    Imagen 52. Campo Teléfono
+    Imagen 26. Campo Teléfono
 
 #. Introduzca en el campo "**Teléfono Móvil**", el número de teléfono móvil para contactar al socio del negocio cliente.
 
     |Campo Teléfono Móvil de la Pestaña Localización del Registro Cliente|
 
-    Imagen 53. Campo Teléfono Móvil
+    Imagen 27. Campo Teléfono Móvil
 
 #. Podrá apreciar tildados los checklist "**Dirección Entregar-A**" y "**Dirección Facturar-A**", indicando cada uno de ellos un comportamiento diferente.
 
@@ -251,25 +255,25 @@ La localización de un socio del negocio cliente es muy importante por diferente
 
         |Checklist Dirección Entregar-A de la Pestaña Localización del Registro Cliente|
 
-        Imagen 56. Campo Dirección Entregar-A
+        Imagen 28. Campo Dirección Entregar-A
 
     #. El checklist "**Dirección Facturar-A**" establece la localización ingresada como la dirección para facturar.
 
         |Checklist Facturar-A de la Pestaña Localización del Registro Cliente|
 
-        Imagen 57. Campo Dirección Facturar-A
+        Imagen 29. Campo Dirección Facturar-A
 
 #. Introduzca en el campo "**Código SICA**", el código SICA del socio del negocio cliente.
 
     |Campo Código SICA de la Pestaña Localización del Registro Cliente|
 
-    Imagen 61. Campo Código SICA
+    Imagen 30. Campo Código SICA
 
 #. Seleccione el icono "**Guardar Cambios**" ubicado en la barra de herramientas para guardar los datos ingresados.
 
     |Icono Guardar Cambios de la Pestaña Localización del Registro Cliente|
 
-    Imagen 28. Icono Guardar Cambios de la Pestaña Localización
+    Imagen 31. Icono Guardar Cambios de la Pestaña Localización
 
 .. warning::
 
@@ -278,13 +282,13 @@ La localización de un socio del negocio cliente es muy importante por diferente
 **Pestaña Contacto**
 ********************
 
-En esta pestaña se registran todos los datos de contacto que se posea el socio del negocio cliente. De igual manera, es creado su usuario de acceso en ADempiere.
+En esta pestaña se registran todos los datos de contacto que se posea el socio del negocio cliente.
 
 #. Seleccione la pestaña "**Contacto**" que se encuentra ubicada del lado izquierdo de la ventana socio del negocio, para proceder a llenar los campos necesarios.
 
     |Pestaña Contacto del Registro Cliente|
 
-    Imagen 62. Pestaña Contacto
+    Imagen 32. Pestaña Contacto
 
     .. warning::
 
@@ -294,67 +298,67 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
         |Campo Nombre de Contacto de la Pestaña Contacto del Registro Cliente|
 
-        Imagen 63. Nombre de Contacto
+        Imagen 33. Nombre de Contacto
 
     #. Introduzca en el campo "**Descripción**", una breve descripción de la persona de contacto con el socio del negocio cliente que esta registrando.
 
         |Campo Descripción de Contacto de la Pestaña Contacto del Registro Cliente|
 
-        Imagen 64. Campo Descripción
+        Imagen 34. Campo Descripción
 
     #. Introduzca en el campo "**Comentarios**", los comentarios o información adicional sobre el registro de la persona de contacto con el socio del negocio cliente.
 
         |Campo Comentarios de Contacto de la Pestaña Contacto del Registro Cliente|
 
-        Imagen 65. Campo Comentarios
+        Imagen 35. Campo Comentarios
 
     #. Seleccione en el campo "**Cumpleaños**", la fecha de nacimiento de la persona de contacto con el socio del negocio.
 
         |Campo Cumpleaños de Contacto de la Pestaña Contacto del Registro Cliente|
 
-        Imagen 33. Campo Cumpleaños
+        Imagen 36. Campo Cumpleaños
 
     #. Seleccione en el campo "**Tipo de Notificación**", el tipo de notificación para los correos o avisos.
 
         |Campo Tipo de Notificación de Contacto de la Pestaña Contacto del Registro Cliente|
 
-        Imagen 34. Campo Tipo de Notificación
+        Imagen 37. Campo Tipo de Notificación
         
     #. Introduzca en el campo "**Email**", el correo electrónico de la persona de contacto con el socio del negocio para las transacciones entre las empresas.
 
         |Campo Email de la Pestaña Contacto del Registro Cliente|
 
-        Imagen 74. Campo Email
+        Imagen 38. Campo Email
 
     #. Introduzca en el campo "**Teléfono**", el teléfono para localizar a la persona de contacto con el socio del negocio para las transacciones entre las empresas.
 
         |Campo Teléfono de la Pestaña Contacto del Registro Cliente|
 
-        Imagen 79. Campo Teléfono de Contacto
+        Imagen 39. Campo Teléfono de Contacto
 
     #. Introduzca en el campo "**Teléfono Móvil**", el teléfono móvil para localizar a la persona de contacto con el del socio del negocio.
 
         |Campo Teléfono Móvil de la Pestaña Contacto del Registro Cliente|
 
-        Imagen 80. Campo Teléfono Móvil
+        Imagen 40. Campo Teléfono Móvil
 
     #. Podrá visualizar en el campo "**Último Contacto**", la última vez que fue contactado el individuo de contacto del socio del negocio.
 
         |Campo Último Contacto de la Pestaña Contacto del Registro Cliente|
 
-        Imagen 38. Campo Último Contacto
+        Imagen 41. Campo Último Contacto
 
     #. Podrá visualizar en el campo "**Resultado Final**", el resultado del último contacto realizado al individuo de contacto del socio del negocio.
 
         |Campo Resultado Final de la Pestaña Contacto del Registro Cliente|
 
-        Imagen 39. Campo Resultado Final
+        Imagen 42. Campo Resultado Final
 
     #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientras de ADempiere, para guardar el registro de los campos.
 
         |Icono Guardar Cambios de la Pestaña Contacto del Registro Cliente|
 
-        Imagen 85. Icono Guardar Cambios
+        Imagen 43. Icono Guardar Cambios
 
 .. note::
 

@@ -24,7 +24,7 @@
 .. |Campo Teléfono de la Pestaña Localización del Registro Proveedor| image:: resources/phone-field-of-the-provider-record-location-tab.png
 .. |Campo Teléfono Móvil de la Pestaña Localización del Registro Proveedor| image:: resources/mobile-phone-field-of-the-provider-record-location-tab.png
 .. |Checklist Dirección Entregar-A de la Pestaña Localización del Registro Proveedor| image:: resources/address-checklist-deliver-to-from-the-supplier-record-location-tab.png
-.. |Checklist Facturar-A de la Pestaña Localización del Registro Proveedor| image:: resources/checklist address-bill-to-from-the-tab-location-of-the-supplier-record.png
+.. |Checklist Facturar-A de la Pestaña Localización del Registro Proveedor| image:: resources/address-bill-to-from-the-tab-location-of-the-supplier-record.png
 .. |Campo Código SICA de la Pestaña Localización del Registro Proveedor| image:: resources/physical-code-field-of-the-supplier-record-location-tab.png
 .. |Icono Guardar Cambios de la Pestaña Localización del Registro Proveedor| image:: resources/save-changes-icon-on-the-vendor-record-location-tab.png
 .. |Pestaña Contacto del Registro Proveedor| image:: resources/supplier-record-contact-tab.png
