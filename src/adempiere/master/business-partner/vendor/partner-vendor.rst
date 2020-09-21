@@ -63,7 +63,7 @@ Para registrar un proveedor, es necesario que sea realizado el procedimiento reg
 
         - Los datos principales del socio del negocio donde el campo "**Nombre**", viene cargado de la pestaña principal "**Socio del Negocio**".
 
-        - Ademas posee un grupo de campos que definen la configuración de retenciones a aplicar al socio del negocio, dichos campos se encuentran explicados en los documentos :ref:`documento/retención-iva`, :ref:`documento/retención-islr` y :ref:`documento/retención-municipal`.
+        - Ademas posee un grupo de campos que definen la configuración de retenciones a aplicar al socio del negocio.
 
 #. Seleccione el checklist "**Proveedor**" para habilitar en ADempiere el socio del negocio como proveedor de la compañía u organización.
 
