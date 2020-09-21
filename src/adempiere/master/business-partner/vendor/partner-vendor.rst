@@ -108,7 +108,7 @@ Para registrar un proveedor, es necesario que sea realizado el procedimiento reg
 **Pestaña Cuenta Bancaria**
 ***************************
 
-En esta pestaña se registran los datos bancarios del socio del negocio proveedor, con el checklist "**Activo**" se pueden registrar los datos de la tarjeta de crédito del socio del negocio. Así mismo, con el checklist "**ACH**" se pueden registrar los datos de la cuenta bancaria del socio del negocio.
+En esta pestaña se registran los datos bancarios del socio del negocio proveedor, con el checklist "**ACH**" se pueden registrar los datos de la cuenta bancaria del socio del negocio.
 
 #. Seleccione la pestaña "**Cuenta Bancaria**" que se encuentra ubicada del lado izquierdo de la ventana socio del negocio. Por defecto se encuentra tildado el checklist "**Activo**".
 
