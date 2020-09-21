@@ -196,7 +196,7 @@ En esta pestaña se registran los datos bancarios del socio del negocio cliente,
 
 .. warning::
 
-    Este proceso se realiza con la finalidad de registrar la cuenta bancaria del socio del negocio proveedor.
+    Este proceso se realiza con la finalidad de registrar la cuenta bancaria del socio del negocio cliente.
 
 .. _documento/pestaña-localización-del-cliente:
 
