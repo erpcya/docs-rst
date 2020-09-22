@@ -36,7 +36,6 @@
 .. |campo cantidad facturada de la ventana órdenes de compra| image:: resources/invoiced-quantity-field-of-the-purchase-orders-window.png
 .. |campo neto de línea de la ventana órdenes de compra| image:: resources/net-field-of-purchase-order-window-line.png
 .. |campo procesado de la ventana órdenes de compra| image:: resources/processed-field-of-the-purchase-orders-window.png
-
 .. |pestaña orden de compra| image:: resources/purchase-order-tab.png
 .. |campo total de líneas| image:: resources/total-field-of-lines.png
 .. |campo gran total| image:: resources/grand-total-field.png
