@@ -25,11 +25,8 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 
     adempiere/basic-steps/index
     adempiere/master/index
+    adempiere/requisition-to-invoice/index
     adempiere/open-items/index
-
-
-
-
 
 .. toctree::
     :caption: LOCALIZACIÓN VENEZUELA
@@ -38,6 +35,4 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 
     lve/document-utility/index
     lve/fiscal-printer/index
-
-
     lve/standard-coding/index

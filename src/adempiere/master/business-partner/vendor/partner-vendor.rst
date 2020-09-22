@@ -24,7 +24,7 @@
 .. |Campo Teléfono de la Pestaña Localización del Registro Proveedor| image:: resources/phone-field-of-the-provider-record-location-tab.png
 .. |Campo Teléfono Móvil de la Pestaña Localización del Registro Proveedor| image:: resources/mobile-phone-field-of-the-provider-record-location-tab.png
 .. |Checklist Dirección Entregar-A de la Pestaña Localización del Registro Proveedor| image:: resources/address-checklist-deliver-to-from-the-supplier-record-location-tab.png
-.. |Checklist Facturar-A de la Pestaña Localización del Registro Proveedor| image:: resources/checklist address-bill-to-from-the-tab-location-of-the-supplier-record.png
+.. |Checklist Facturar-A de la Pestaña Localización del Registro Proveedor| image:: resources/address-bill-to-from-the-tab-location-of-the-supplier-record.png
 .. |Campo Código SICA de la Pestaña Localización del Registro Proveedor| image:: resources/physical-code-field-of-the-supplier-record-location-tab.png
 .. |Icono Guardar Cambios de la Pestaña Localización del Registro Proveedor| image:: resources/save-changes-icon-on-the-vendor-record-location-tab.png
 .. |Pestaña Contacto del Registro Proveedor| image:: resources/supplier-record-contact-tab.png
@@ -63,7 +63,7 @@ Para registrar un proveedor, es necesario que sea realizado el procedimiento reg
 
         - Los datos principales del socio del negocio donde el campo "**Nombre**", viene cargado de la pestaña principal "**Socio del Negocio**".
 
-        - Ademas posee un grupo de campos que definen la configuración de retenciones a aplicar al socio del negocio, dichos campos se encuentran explicados en los documentos :ref:`documento/retención-iva`, :ref:`documento/retención-islr` y :ref:`documento/retención-municipal`.
+        - Ademas posee un grupo de campos que definen la configuración de retenciones a aplicar al socio del negocio.
 
 #. Seleccione el checklist "**Proveedor**" para habilitar en ADempiere el socio del negocio como proveedor de la compañía u organización.
 
@@ -108,7 +108,7 @@ Para registrar un proveedor, es necesario que sea realizado el procedimiento reg
 **Pestaña Cuenta Bancaria**
 ***************************
 
-En esta pestaña se registran los datos bancarios del socio del negocio proveedor, con el checklist "**Activo**" se pueden registrar los datos de la tarjeta de crédito del socio del negocio. Así mismo, con el checklist "**ACH**" se pueden registrar los datos de la cuenta bancaria del socio del negocio.
+En esta pestaña se registran los datos bancarios del socio del negocio proveedor, con el checklist "**ACH**" se pueden registrar los datos de la cuenta bancaria del socio del negocio.
 
 #. Seleccione la pestaña "**Cuenta Bancaria**" que se encuentra ubicada del lado izquierdo de la ventana socio del negocio. Por defecto se encuentra tildado el checklist "**Activo**".
 
