@@ -170,7 +170,7 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 
         Imagen 18. Campo Prioridad
 
-    #. "**Almacén**, en el cual se requiere el producto o servicio (Es de Carácter Obligatorio).
+    #. Seleccione en el campo "**Almacén**, en el cual se requiere el producto o servicio (Es de Carácter Obligatorio).
 
         |campo almacen de la ventana órdenes de compra|
 
@@ -182,13 +182,15 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 
         Imagen 20. Campo Regla de Facturación
 
-    #. "**Término de pago**", indica las condiciones, método y tiempo de pago de la compra.
+    #. Seleccione en el campo "**Término de pago**", indica las condiciones, método y tiempo de pago de la compra.
 
         |campo término de pago de la ventana órdenes de compra|
 
         Imagen 21. Campo Término de Pago
 
-    #. "**Lista de Precios**", siempre debe ser Compras, esta determina el precio, margen y costo de los artículos comprados.
+    #. Seleccione en el campo "**Lista de Precios**", la lista de precios utilizada para la compra. 
+    
+        Esta siempre debe ser "**Compras**" y determina el precio, margen y costo de los artículos comprados.
 
         |campo lista de precios de la ventana órdenes de compra|
 
