@@ -103,7 +103,7 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 
         Imagen 7. Campo Referencia de Orden de Socio del Negocio
 
-    #. En el campo "**Descripción**", Puede introduzca una breve descripción referente a la orden de compra que se está realizando, este campo es opcional.
+    #. En el campo "**Descripción**", introduzca una breve descripción referente a la orden de compra que se está realizando, este campo es opcional.
 
         |campo descripción de la ventana órdenes de compra|
 

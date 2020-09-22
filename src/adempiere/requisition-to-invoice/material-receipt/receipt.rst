@@ -1,20 +1,26 @@
 .. _ERPyA: http://erpya.com
-.. |Menú de ADempiere| image:: resources/menurecep.png
-.. |Icono de Registro Nuevo| image:: resources/regnuevo.png
-.. |Campo Organización| image:: resources/organizacion.png
-.. |Campo Tipo de Documento| image:: resources/tidoc.png
-.. |Campo Fecha de Movimiento| image:: resources/fechamov.png
-.. |Campo Fecha Contable| image:: resources/fechacon.png
-.. |Campo Socio del Negocio| image:: resources/socio.png
-.. |Campo Almacén| image:: resources/almacen.png
-.. |Opción Crear Desde| image:: resources/creardesde.png
-.. |Campo Crear Desde Tipo| image:: resources/creardetipo.png
-.. |Campo Factura| image:: resources/selecfac.png
-.. |Opción Comenzar Búsqueda| image:: resources/comenzar.png
-.. |Selección de Factura| image:: resources/seleccion.png
-.. |Opción OK para Cargar Factura| image:: resources/ok.png
-.. |Opción Completar| image:: resources/opcioncom.png
-.. |Completar Documento| image:: resources/completar.png
+.. |menú de adempiere| image:: resources/product-reception-menu.png
+.. |ventana recepción de productos| image:: resources/product-reception-window.png
+.. |icono de registro nuevo de la ventana recepción de productos| image:: resources/new-registration-icon-in-the-product-reception-window.png
+.. |campo organización de la ventana recepción de productos| image:: resources/field-organization-of-the-product-reception-window.png
+.. |campo nro del documento de la ventana recepción de productos| image:: resources/document-field-number-of-the-product-receipt-window.png
+.. |campo referencia de orden de socio del negocio de la ventana recepción de productos| image:: resources/business-partner-order-reference-field-of-product-receipt-window.png
+.. |campo descripción de la ventana recepción de productos| image:: resources/field-description-of-the-product-reception-window.png
+.. |campo fecha de movimiento de la ventana recepción de productos| image:: resources/movement-date-field-of-the-product-receipt-window.png
+.. |campo prioridad de la ventana recepción de productos| image:: resources/priority-field-of-the-product-reception-window.png
+.. |campo socio del negocio de la ventana recepción de productos| image:: resources/business-partner-field-of-product-receipt-window.png
+.. |campo tipo de documento de la ventana recepción de productos| image:: resources/document-type-field-of-the-product-receipt-window.png
+.. |campo dirección del socio del negocio de la ventana recepción de productos| image:: resources/business-partner-address-field-of-the-product-receipt-window.png
+.. |campo usuario de la ventana recepción de productos| image:: resources/user-field-of-the-product-reception-window.png
+.. |campo almacén de la ventana recepción de productos| image:: resources/field-warehouse-window-product-reception.png
+.. |campo regla de entrega de la ventana recepción de productos| image:: resources/delivery-rule-field-of-the-product-receipt-window.png
+.. |campo orden de compra de la ventana recepción de productos| image:: resources/purchase-order-field-of-the-product-receipt-window.png
+.. |selección de orden y opción ok| image:: resources/order-selection-and-option-ok.png
+.. |icono refrescar de la ventana recepción de productos| image:: resources/refresh-window-icon-product-reception.png
+.. |pestaña línea del recibo de la ventana recepción de productos| image:: resources/receipt-line-tab-of-the-product-receipt-window.png
+.. |campo tipo de movimiento de la ventana recepción de productos| image:: resources/field-type-of-movement-of-the-product-reception-window.png
+.. |opción procesar recepción en el icono proceso| image:: resources/option-process-reception-in-the-process-icon.png
+.. |Opción Completar| image:: resources/option-complete.png
 
 .. _documento/recepción-productos:
 
@@ -23,96 +29,132 @@
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Recepción de Productos**", adjunto imagen para referencia.
 
-   |Menú de ADempiere|
+    |menú de adempiere|
 
-   Imagen 1. Menú de ADempiere
+    Imagen 1. Menú de ADempiere
+
+#. Podrá visualizar la ventana "**Recepción de Productos**", con todos los registros de recepciones en ADempiere.
+
+    |ventana recepción de productos|
+
+    Imagen 2. Ventana Recepción de Productos
 
 #. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas de ADempiere, para crear un documento nuevo.
 
-   |Icono de Registro Nuevo|
+    |icono de registro nuevo de la ventana recepción de productos|
 
-   Imagen 2. Registro Nuevo
+    Imagen 3. Registro Nuevo
 
-   #. Seleccione en el campo "**Organización**", la organización para la cual se esta realizando el documento de recepción de productos, el valor en el mismo debe ser diferente del símbolo (*).
-   
-      |Campo Organización|
+#. Seleccione en el campo "**Organización**", la organización para la cual se esta realizando el documento de recepción de productos, el valor en el mismo debe ser diferente del símbolo (*).
 
-      Imagen 3. Campo Organización
+    |campo organización de la ventana recepción de productos|
 
-   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. 
+    Imagen 4. Campo Organización
 
-      |Campo Tipo de Documento|
+#. En el campo "**No. de Documento**", no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de la recepción de productos.
 
-      Imagen 4. Campo Tipo de Documento
+    |campo nro del documento de la ventana recepción de productos|
 
-   #. Seleccione en el campo "**Fecha de Movimiento**", la fecha en la que se recepcionaron los productos.
+    Imagen 5. Campo No. del Documento
 
-      |Campo Fecha de Movimiento|
+#. Introduzca en el campo "**Referencia de Orden de Socio del Negocio**", la referencia de orden del socio del negocio.
 
-      Imagem 5. Campo Fecha de Movimiento
+    |campo referencia de orden de socio del negocio de la ventana recepción de productos|
 
-   #. Seleccione en el campo "**Fecha Contable**", la fecha de elaboración del documento.
+    Imagen 6. Campo Referencia de Orden de Socio del Negocio
 
-      |Campo Fecha Contable|
+#. En el campo "**Descripción**", introduzca una breve descripción referente a la recepción de productos que se está realizando, este campo es opcional.
 
-      Imagen 6. Campo Fecha Contable
+    |campo descripción de la ventana recepción de productos|
 
-   #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor del cual se estan recibiendo los productos.
+    Imagen 7. Campo Descripción
 
-      |Campo Socio del Negocio|
+#. Seleccione en el campo "**Fecha de Movimiento**", la fecha en la que se recepcionaron los productos.
 
-      Imagen 7. Campo Socio del Negocio
+    |campo fecha de movimiento de la ventana recepción de productos|
 
-   #. Seleccione en el campo "**Almacén**", el almacén en que cual se guardarán los productos que se estan recibiendo.
+    Imagem 8. Campo Fecha de Movimiento
 
-      |Campo Almacén|
+#. Seleccione la prioridad de la recepción en el campo "**Prioridad**", este campo indica la urgencia de los productos incluidos en el documento, sin embargo, el documento trae predeterminado la opción "**Media**".
 
-      Imagen 8. Campo Almacén
+    |campo prioridad de la ventana recepción de productos|
 
-   #. Selecione la opción "**Crear Desde**" para crear el documento de recepción desde una factura o una orden de compra.
+    Imagen 9. Campo Prioridad
 
-      |Opción Crear Desde|
+#. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor del cual se estan recibiendo los productos.
 
-      Imagen 9. Opción Crear Desde
+    |campo socio del negocio de la ventana recepción de productos|
 
-      #. Seleccione en el campo "**Crear Desde Tipo**", el tipo de documento desde donde se va a crear el documento de recepción, para este ejemplo se crea desde tipo "**Factura**". 
+    Imagen 10. Campo Socio del Negocio
 
-         |Campo Crear Desde Tipo|
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento "**Tipo de Documento**" elaborado por `ERPyA`_. 
 
-         Imagen 10. Campo Crear Desde Tipo
+    |campo tipo de documento de la ventana recepción de productos|
 
-      #. Seleccione en el campo "**Factura**", la factura desde donde va a crear el documento de recepción.
+    Imagen 11. Campo Tipo de Documento
 
-         |Campo Factura|
+#. Seleccione en el campo "**Dirección del Socio del Negocio**", la dirección de localización del socio del negocio seleccionado.
 
-         Imagen 11. Campo Factura
+    |campo dirección del socio del negocio de la ventana recepción de productos|
 
-      #. Seleccione la opción "**Comenzar Búsqueda**" para buscar la factura a seleccionar.
+    Imagen 12. Campo Dirección del Socio del Negocio
 
-         |Opción Comenzar Búsqueda|
+#. Seleccione en el campo "**Usuario**", el usuario del socio del negocio seleccionado.
 
-         Imagen 12. Opción Comenzar Búsqueda
+    |campo usuario de la ventana recepción de productos|
 
-      #. Seleccione la factura desde donde va a crear el documento de recepción.
+    Imagen 13. Campo Usuario
 
-         |Selección de Factura|
+#. Seleccione en el campo "**Almacén**", el almacén en que cual se guardarán los productos que se estan recibiendo.
 
-         Imagen 13. Selección de Factura
+    |campo almacén de la ventana recepción de productos|
 
-      #. Seleccione la opción "**OK**" para cargar la factura al documento de recepción.
+    Imagen 14. Campo Almacén
 
-         |Opción OK para Cargar Factura|
+#. Seleccione en el campo "**Regla de Entrega**", la regla de entrega utilizada para la recepción de los productos.
 
-         Imagen 14. Opción OK
+    |campo regla de entrega de la ventana recepción de productos|
 
-#. Seleccione la opción "**Completar**" en la parte inferior derecha del documento de recepción de productos.
+    Imagen 15. Campo Regla de Entrega
 
-   |Opción Completar|
+#. Seleccione el identificador ubicado del lado derecho del campo "**Orden de Compra**", para seleccionar la orden de compra por la cual se recepcionaron los productos.
 
-   Imagen 15. Opción Completar
+    |campo orden de compra de la ventana recepción de productos|
 
-#. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
+    Imagen 16. Campo Orden de Compra
 
-   |Completar Documento|
+    #. Podrá visualizar la ventana "**Información de Orden**", con las diferentes órdenes de compra registradas en ADempiere. Debe seleccionar la orden de compra por la cual se recepcionaron los productos y la opción "**OK**", para la cargar a la ventana "**Recepción de Productos**", la información que dicha orden contiene.
 
-   Imagen 16. Completar Documento
+        |selección de orden y opción ok|
+
+        Imagen 17. Selección de Orden y Opción OK
+
+#. Seleccione el icono "**Refrescar**", para refrescar la ventana y cargar a la misma, la información de la orden de compra seleccionada. 
+
+    |icono refrescar de la ventana recepción de productos|
+
+    Imagen 18. Icono Refrescar
+
+#. Para revisar y confirmar la información cargada desde la orden de compra, seleccione la pestaña "**Línea del Recibo**".
+
+    |pestaña línea del recibo de la ventana recepción de productos|
+
+    Imagen 19. Pestaña Línea del Recibo
+
+#. Seleccione en el campo "**Tipo de Movimiento**", el método de movimiento de inventario correspondiente a la recepción de los productos.
+
+    |campo tipo de movimiento de la ventana recepción de productos|
+
+    Imagen 20. Campo Tipo de Movimiento
+
+#. Seleccione la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+
+    |opción procesar recepción en el icono proceso|
+
+    Imagen 21. Opción Procesar Recepción en el Icono Proceso
+
+#. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Recepción de Productos**".
+
+    |Opción Completar|
+
+    Imagen 22. Opción Completar
