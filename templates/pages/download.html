@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 {% set title = 'Download' %}
-{% set url = 'https://media.readthedocs.org/%s/erpya/%s/erpya.%s' %}
+{% set url = 'https://docs.erpya.com/download/%s.%s' %}
 {% if git_branch == 'master' %}
   {% set rtd_ver = 'latest' %}
 {% else %}
@@ -14,16 +14,8 @@
 
 <table class="docutils">
   <tr>
-     <td>PDF (A4 paper size)</td>
-     <td><a href="{{ url|format('pdf', rtd_ver, 'pdf') }}">Download</a> (~1 MB)</td>
-  </tr>
-  <tr>
-     <td>HTML</td>
-     <td><a href="{{ url|format('htmlzip', rtd_ver, 'zip') }}">Download</a> (~5 MB)</td>
-  </tr>
-  <tr>
     <td>EPUB</td>
-    <td><a href="{{ url|format('epub', rtd_ver, 'epub') }}">Download</a> (~1 MB)</td>
+    <td><a href="{{ url|format('ERPYA', 'epub') }}">Download</a> (~150 MB)</td>
   </tr>
 </table>
 
