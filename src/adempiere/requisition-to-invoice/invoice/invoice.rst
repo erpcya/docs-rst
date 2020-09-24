@@ -65,33 +65,129 @@
 
     Imagen 2. Registro Nuevo
 
-#. Seleccione en el campo "**Organización**", la organización para la cual se esta realizando el documento por pagar de productos o servicios, el valor en el mismo debe ser diferente del símbolo (*).
+    #. Seleccione en el campo "**Organización**", la organización para la cual se esta realizando el documento por pagar de productos o servicios, el valor en el mismo debe ser diferente del símbolo (*).
 
-    |campo organizacion de la ventana documentos por pagar|
+        |campo organizacion de la ventana documentos por pagar|
 
-    Imagen 3. Campo Organización
+        Imagen 3. Campo Organización
 
-#. En el campo "**No. de Documento**", no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de la recepción de productos.
+    #. En el campo "**No. de Documento**", no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de la recepción de productos.
 
-    |campo nro del documento de la ventana documentos por pagar|
+        |campo nro del documento de la ventana documentos por pagar|
 
-    Imagen 4. Campo No. del Documento
+        Imagen 4. Campo No. del Documento
 
-#. Introduzca en el campo "**Control No**", el número de control fiscal establecido para el documento que se encuentra realizando.
+    #. Introduzca en el campo "**Control No**", el número de control fiscal establecido para el documento que se encuentra realizando.
 
-    |campo control nro de la ventana documentos por pagar|
+        |campo control nro de la ventana documentos por pagar|
 
-    Imagen 5. Campo Control No.
+        Imagen 5. Campo Control No.
 
-#. Introduzca en el campo "**Descripción**", una breve descripción referente al documento por pagar que se encuentra realizando.
+    #. Introduzca en el campo "**Descripción**", una breve descripción referente al documento por pagar que se encuentra realizando.
 
+        |campo descripcion de la ventana documentos por pagar|
 
+        Imagen 6. Campo Descripción
 
+    #. Seleccione en el campo "**Fecha Facturación**", la fecha que posee el documento por pagar en físico.
 
+        |campo fecha de facturacion de la ventana documentos por pagar|
 
+        Imagen 7. Campo Fecha de Facturación
 
+    #. En el campo "**Referencia de Orden de Socio del Negocio**", se puede ingresar la referencia de orden del socio del negocio para esta transacción específica. Frecuentemente los números de orden de compras se dan para ser impresas en las facturas como una referencia más fácil. Un número estándar puede ser definido en la ventana "**Socio del Negocio (Cliente)**".
 
+        |campo referencia de orden de socio del negocio de la ventana documentos por pagar|
 
+        Imagen 8. Campo Referencia de Orden de Socio del Negocio
+
+    #. Seleccione el socio del negocio proveedor en el campo "**Socio del Negocio**".
+
+        |campo socio del negocio de la ventana documentos por pagar|
+
+        Imagen 9. Campo Socio del Negocio
+
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
+
+        |campo tipo de documento de la ventana documentos por pagar|
+
+        Imagen 10. Campo Tipo de Documento
+
+    #. Podrá visualizar en el campo "**Dirección del Socio del Negocio**", la dirección de localización del socio del negocio proveedor.
+
+        |campo direccion del socio del negocio de la ventana documentos por pagar|
+
+        Imagen 11. Campo Dirección del Socio del Negocio
+
+    #. De igual manera, puede visualizar en el campo "**Usuario**", el usuario en ADempiere del socio del negocio seleccionado anteriormente.
+
+        |campo usuario de la ventana documentos por pagar|
+
+        Imagen 12. Campo Usuario
+
+    #. Seleccione en el campo "**Factura Afectada**", la factura afectada para ser asignada automáticamente al registro que se encuentra realizando.
+
+        |campo factura afectada de la ventana documentos por pagar|
+
+        Imagen 13. Campo Factura Afectada
+
+    #. Seleccione en el campo "**Lista de Precios**", la lista de precios con la cual requiere generar el documento por pagar.
+
+        |campo lista de precios de la ventana documentos por pagar|
+
+        Imagen 14. Campo Lista de Precios
+
+    #. Podrá visualizar en el campo "**Moneda**", la moneda definida para la lista de precios seleccionada.
+
+        |campo moneda de la ventana documentos por pagar|
+
+        Imagen 15. Campo Moneda
+
+    #. El checklist "**Documento Fiscal**", se tilda automáticamente al completar el documento, indicando que el mismo es un documento fiscal.
+
+        |checklist documento fiscal de la ventana documentos por pagar|
+
+        Imagen 16. Checklist Documento Fiscal
+
+.. note::
+
+    Recuerde guardar el registro de los campos de la ventana antes de cambiar a otra pestaña. Esto se puede realizar seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+
+**Línea de la Factura**
+-----------------------
+
+#. Seleccione la pestaña "**Línea de Factura**", para proceder a cargar los productos o servicios correspondientes al documento por pagar que se encuentra realizando.
+
+    |pestaña linea de factura de la ventana documentos por pagar|
+
+    Imagen 17. Pestaña Línea de Factura
+
+    #. Podrá visualizar en el campo "**Factura**",
+
+    |campo factura de la pestaña linea de factura|
+    |campo nro linea de la pestaña linea de factura|
+    |campo producto de la pestaña linea de factura|
+    |campo cargo de la pestaña linea de factura|
+    |campo descripcion de la pestaña linea de factura|
+    |campo cantidad de la pestaña linea de factura|
+    |campo um de la pestaña linea de factura|
+    |campo precio de la pestaña linea de factura|
+    |campo cantidad facturada de la pestaña linea de factura|
+    |campo precio de lista de la pestaña linea de factura|
+    |campo precio actual de la pestaña linea de factura|
+    |campo factura afectada de la pestaña linea de factura|
+    |campo impuesto de la pestaña linea de factura|
+    |campo neto de linea de la pestaña linea de factura|
+    |checklist procesado de la pestaña linea de factura|
+    |pestaña principal factura|
+    |campo orden de compra de la ventana documentos por pagar|
+    |checklist pagado de la ventana documentos por pagar|
+    |campo total lineas de la ventana documentos por pagar|
+    |campo gran total de la ventana documentos por pagar|
+    |campo estado del documento de la ventana documentos por pagar|
+    |campo tipo de documento de la ventana documentos por pagar|
+    |opcion procesar factura del icono proceso|
+    |completar documento|
 
 
 
@@ -119,20 +215,18 @@
     Imagen 4. Campo Orden de Compra
 
 
-#. En el campo "**Referencia de Orden de Socio del Negocio**", se puede ingresar la referencia de orden del socio del negocio para esta transacción específica. Frecuentemente los números de orden de compras se dan para ser impresas en las facturas como una referencia más fácil. Un número estándar puede ser definido en la ventana "**Socio del Negocio (Cliente)**".
 
     |Campo Referencia de Orden de Socio del Negocio|
 
     Imagen 6. Campo Referencia de Orden de Socio del Negocio
 
-#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
 
     |Campo Tipo de Documento Destino|
 
     Imagen 7. Campo Tipo de Documento
 
 
-#. Seleccione en el campo "**Fecha Facturación**", la fecha que posee el documento por pagar en físico.
+
 
     |Campo Fecha de Facturación|
 
@@ -144,31 +238,28 @@
 
     Imagen 10. Campo Fecha Contable
 
-#. Seleccione el socio del negocio proveedor en el campo "**Socio del Negocio**".
+
 
     |Campo Socio del Negocio|
 
     Imagen 11. Campo Socio del Negocio
 
-#. Podrá visualizar en el campo "**Dirección del Socio del Negocio**", la dirección de localización del socio del negocio proveedor.
 
     |Campo Dirección del Socio del Negocio|
 
     Imagen 12. Campo Dirección del Socio del Negocio
 
-#. De igual manera, puede visualizar en el campo "**Usuario**", el usuario en ADempiere del socio del negocio seleccionado anteriormente.
 
     |Campo Usuario|
 
     Imagen 13. Campo Usuario
 
-#. Seleccione en el campo "**Lista de Precios**", la lista de precios con la cual requiere generar el documento por pagar.
 
     |Campo Lista de Precios|
 
     Imagen 14. Campo Lists de Precios
 
-#. Podrá visualizar en el campo "**Moneda**", la moneda definida para la lista de precios seleccionada.
+
 
     |Campo Moneda|
     
@@ -229,7 +320,6 @@
 
     Imagen 25. Campo Región de Ventas
 
-#. Seleccione en el campo "**Factura Afectada**", la factura afectada para ser asignada automáticamente al registro que se encuentra realizando.
 
     |Campo Factura Afectada|
 
@@ -271,8 +361,7 @@
 
 Imagen 32. Guardar Cambios
 
-**Línea de la Factura**
------------------------
+
 
 #. Seleccione la pestaña "**Línea de Factura**" y proceda al llenado de los campos correspondientes.
 
