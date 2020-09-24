@@ -73,8 +73,8 @@
 
     Imagen 6. Asiento Contable de la Ventana Documentos por Pagar
 
-**Asignación**
---------------
+**Asignación Factura/Recepción**
+--------------------------------
 
 #. Realice el procedimiento regular para generar una asignación en ADempiere, el mismo es explicado en el documento :ref:`documento/asignar-orden-de-compra-recepción-factura`, elaborado por `ERPyA`_.
 

@@ -3,6 +3,9 @@
 .. |Asiento Contable de la Ventana Órdenes de Venta| image:: resources/window-accounting-entry-sales-orders.png
 .. |Opción Contabilizado de la Ventana Documentos por Cobrar| image:: resources/accounting-option-of-the-documents-receivable-window.png
 .. |Asiento Contable de la Ventana Documentos por Cobrar| image:: resources/window-accounting-entry-receivables.png
+.. |Opción Acercar de la Pestaña Facturas Pagadas| image:: resources/zoom-option-of-the-paid-invoices-tab.png
+.. |Opción Contabilizado de la Ventana Consulta de Asignación| image:: resources/posted-option-of-the-allocation-query-window.png
+.. |Asiento Contable de la Ventana Consulta de Asignación| image:: resources/allocation-query-window-accounting-entry.png
 .. |Opción Contabilizado de la Ventana Entregas Cliente| image:: resources/option-posted-from-the-customer-deliveries-window.png
 .. |Asiento Contable de la Ventana Entregas Cliente| image:: resources/window-accounting-window-customer-deliveries.png
 .. |Opción Contabilizado de la Ventana Pago Cobro del Proceso de Ingreso| image:: resources/option-posted-from-the-payment-payment-window-of-the-entry-process.png
@@ -83,6 +86,27 @@
 
     Imagen 8. Asiento Contable de la Ventana Pago/Cobro
 
+**Asignación de Factura/Cobro**
+-------------------------------
+
+#. Luego de haber registrado el cobro de la factura por cobrar, ADempiere genera de manera automática la asignación entre el cobro y la factura. Para visualizar el mismo se debe ubicar en la pestaña "**Facturas Pagadas**" de la ventana "**Documentos por Pagar**" y seleccionar la opción "**Acercar**" desplegada al hacer clic contrario sobre el campo "**Asignación**". 
+
+    |Opción Acercar de la Pestaña Facturas Pagadas|
+
+    Imagen 9. Opción Acercar de la Pestaña Facturas Pagadas
+
+#. Luego de ubicar la asignación entre el cobro y la factura, en la ventana "**Consulta de Asignación**", se debe seleccionar la opción "**Contabilizado**" de dicha ventana.
+
+    |Opción Contabilizado de la Ventana Consulta de Asignación|
+
+    Imagen 10. Opción Contabilizado de la Ventana Consulta de Asignación
+
+#. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Consulta de Asignación**".
+
+    |Asiento Contable de la Ventana Consulta de Asignación|
+
+    Imagen 11. Asiento Contable de la Ventana Consulta de Asignación
+
 **Conciliación**
 ----------------
 
@@ -92,10 +116,10 @@
 
     |Opción Contabilizado de la Ventana Estado de Cuentas Bancario del Proceso de Ingreso|
 
-    Imagen 9. Opción Contabilizado de la Ventana Estado de Cuentas Bancario
+    Imagen 12. Opción Contabilizado de la Ventana Estado de Cuentas Bancario
 
 #. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Estado de Cuentas Bancario**".
 
     |Asiento Contable de la Ventana Estado de Cuentas Bancario del Proceso de Ingreso|
 
-    Imagen 10. Asiento Contable de la Ventana Estado de Cuentas Bancario
+    Imagen 13. Asiento Contable de la Ventana Estado de Cuentas Bancario
