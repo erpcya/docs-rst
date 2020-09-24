@@ -14,4 +14,5 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 .. toctree::
     :maxdepth: 2
 
-    receipt
+    reception-from-order
+    reception-from-invoice
