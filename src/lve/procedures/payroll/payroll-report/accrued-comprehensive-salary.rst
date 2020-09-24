@@ -1,25 +1,55 @@
-.. _documento/devengado-salario-integral:
 
-.. |Detalle de Pago Devengado por Salario Integral| image:: resources/detalleanticipovacaciones11.png
+.. |Parámetros para generar el reporte| image:: resources/integralsalaryreportparameters.png
+.. |Reporte Devengado Salario Integral| image:: resources/integralsalary.png
+
+.. _documento/devengado-salario-integral:
 
 ==============================
 **Devengado Salario Integral**
 ==============================
 
 
-El reporte "** Devengado Salario Integral**" se refiere al monto que devengo el trabajador por concepto de su salario integral en la nómina regular procesada. El Salario Integral es el salario que devenga el trabajador durante su nómina regular más la suma de las  alícuotas de vacaciones y las alicuotas de utilidades. 
+El reporte "**Devengado Salario Integral**" se refiere al monto que devengo el trabajador en su nómina regular y que integra todos los conceptos salariales procesados para dichas nóminas. El Salario Integral corresponde al monto total que devenga el trabajador durante su nómina regular más la suma de su  alícuota de vacaciones y su alícuota de utilidades. 
 
-Para obtener dicho reporte debemos seleccionar los siguientes campos:
+Para obtener dicho reporte debemos seleccionar los siguientes campos principales:
 
-#. **Nómina**: Seleccionamos la nómina regular del trabajador
 
-#. **Proceso de Nómina**: Puede seleccionar el proceso de nómina regular en la que desee conocer cuál fue el monto obtenido por concepto de su salario integral.
+   +---------------------------------+-------------------------------------------------------------+
+   |      **PARÁMETROS**             |                       **REFERENCIA**                        |
+   +=================================+=============================================================+
+   | Organización                    | Seleccione la Organización a la cual pertenece  la nómina o |
+   |                                 | el socio de negocio que desea solicitar el reporte          |
+   +---------------------------------+-------------------------------------------------------------+
+   | Nómina                          | Selecciones entre los distintos tipos de nómina, aquella que|
+   |                                 | desea visualizar el reporte, este filtro lo puede usar si   |
+   |                                 | quiere visualizar varias nóminas de un mismo tipo y no una  |
+   |                                 | en específico                                               |
+   +-------------------------------- +-------------------------------------------------------------+
+   | Proceso de Nómina               | Seleccione el proceso de nómina en específico basado en el  |
+   |                                 | tipo de nómina que seleccionó anteriormente  (Tambien puede |
+   |                                 | ubicarlo en la ventana proceso de nómina)                   |
+   +---------------------------------+-------------------------------------------------------------+
+   | Socio del Negocio               | Seleccione el nombre del socio del negocio que necesite     |
+   |                                 | visualizar la información. Si desea ver la información de   |
+   |                                 | todos los socios de negocios deje en campo en blanco        |
+   +---------------------------------+-------------------------------------------------------------+
+   | Fecha Contable                  | Seleccione la fecha contable entre el rango desde, hasta    |
+   |                                 | si selecciona un proceso específico de nómina no debe       |
+   |                                 | utilizar este  filtro ya que se traerá la fecha  o          |
+   |                                 | periodo que tenga la nómina en particular                   |
+   +---------------------------------+-------------------------------------------------------------+
+   |  Estado del Documento           | Siempre es recomendable utilizar el estado COMPLETO, para   |
+   |                                 | que el reporte todo en cuenta solo los procesos de nóminas  |
+   |                                 | en estado Completo no los anulados, ni en borrador          |
+   +---------------------------------+-------------------------------------------------------------+
+   | Configuración del Reporte de    | Seleccione en este caso Devengado Salario Integral          |
+   | Nómina.                         |                                                             |
+   +---------------------------------+-------------------------------------------------------------+
 
-#. **Configuración del Reporte de Nómina**: Devengado Salario Integral
+   |Parámetros para generar el reporte|
 
-Para este reporte está configurado la plantilla "**Resumen de Pago**"
+   Imagen 1. Parámetros para generar el reporte 
 
-#. "**Resumen de Pago**": Seleccione esta plantilla de reporte de nómina para conocer de manera resumida el valor del concepto que desea visualizar 
 
 Los campos que podrá visualizar en este reporte son:
 
@@ -55,3 +85,6 @@ En el siguiente ejemplo se presenta  el monto devengado salario integral  por el
 
 Si desea conocer el valor de dicho concepto durante varias nóminas, no seleccione el proceso de nómina y coloca un parametros de fechas con la finalidad de que pueda visualizar el monto obtenido durante varios procesos de nómina
 
+   |Reporte Devengado Salario Integral|
+
+   Imagen 2. Reporte Devengado Salario Integral 
