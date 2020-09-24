@@ -25,5 +25,8 @@ Entre los Reportes de Nómina que se pueden encontrar dentro de ADempiere se enc
     holidays
     advance-holiday
     utilities
+    accrued-comprehensive-salary
+    accrued-normal-salary
+    accumulated-salary-for-utilities
     generate-banavih-txt
     

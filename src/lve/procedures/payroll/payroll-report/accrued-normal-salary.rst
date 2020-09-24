@@ -1,25 +1,51 @@
+
+.. |Parámetros para generar el reporte| image:: resources/reportparametersearningnormalsalary.png
+.. |Reporte Devengado Salario Integral| image:: resources/normalsalary.png
+
 .. _documento/devengado-salario-normal:
 
-.. |Detalle de Pago Devengado por Salario Integral| image:: resources/detalleanticipovacaciones11.png
 
 ============================
 **Devengado Salario Normal**
 ============================
 
 
-El reporte "** Devengado Salario Normal**" se refiere al monto que devengo el trabajador por concepto de su salario normal en la nómina regular procesada. El Salario Normal es el salario que devengó el trabajador de forma regular y permanente durante cada uno de sus procesos de nóminas. Para ADempiere el salario normal está representado por el salario base más los salario obtenido en sus días de descanso de su periodo de nómina.
+El reporte "** Devengado Salario Normal**" se refiere al salario que devengó el trabajador de forma regular y permanente durante cada uno de sus procesos de nóminas. Para ADempiere el salario normal está representado por el salario base más los salarios obtenidos en sus días de descanso de su periodo de nómina.
 
 Para obtener dicho reporte debemos seleccionar los siguientes campos:
 
-#. **Nómina**: Seleccionamos la nómina regular del trabajador
+ +---------------------------------+-------------------------------------------------------------+
+   |      **PARÁMETROS**             |                       **REFERENCIA**                        |
+   +=================================+=============================================================+
+   | Organización                    | Seleccione la Organización a la cual pertenece  la nómina o |
+   |                                 | el socio de negocio que desea solicitar el reporte          |
+   +---------------------------------+-------------------------------------------------------------+
+   | Nómina                          | Selecciones entre los distintos tipos de nómina, aquella que|
+   |                                 | desea visualizar el reporte, este filtro lo puede usar si   |
+   |                                 | quiere visualizar varias nóminas de un mismo tipo y no una  |
+   |                                 | en específico                                               |
+   +-------------------------------- +-------------------------------------------------------------+
+   | Proceso de Nómina               | Seleccione el proceso de nómina en específico basado en el  |
+   |                                 | tipo de nómina que seleccionó anteriormente  (Tambien puede |
+   |                                 | ubicarlo en la ventana proceso de nómina)                   |
+   +---------------------------------+-------------------------------------------------------------+
+   | Socio del Negocio               | Seleccione el nombre del socio del negocio que necesite     |
+   |                                 | visualizar la información. Si desea ver la información de   |
+   |                                 | todos los socios de negocios deje en campo en blanco        |
+   +---------------------------------+-------------------------------------------------------------+
+   | Fecha Contable                  | Seleccione la fecha contable entre el rango desde, hasta    |
+   |                                 | si selecciona un proceso específico de nómina no debe       |
+   |                                 | utilizar este  filtro ya que se traerá la fecha  o          |
+   |                                 | periodo que tenga la nómina en particular                   |
+   +---------------------------------+-------------------------------------------------------------+
+   |  Estado del Documento           | Siempre es recomendable utilizar el estado COMPLETO, para   |
+   |                                 | que el reporte todo en cuenta solo los procesos de nóminas  |
+   |                                 | en estado Completo no los anulados, ni en borrador          |
+   +---------------------------------+-------------------------------------------------------------+
+   | Configuración del Reporte de    | Seleccione en este caso Salario Acumulado para Utilidades   |
+   | Nómina.                         |                                                             |
+   +---------------------------------+-------------------------------------------------------------+
 
-#. **Proceso de Nómina**: Puede seleccionar el proceso de nómina regular en la que desee conocer cuál fue el monto obtenido por concepto de su salario normal.
-
-#. **Configuración del Reporte de Nómina**: Devengado Salario Normal
-
-Para este reporte está configurado la plantilla "**Resumen de Pago**"
-
-#. "**Resumen de Pago**": Seleccione esta plantilla de reporte de nómina para conocer de manera resumida el valor del concepto que desea visualizar 
 
 Los campos que podrá visualizar en este reporte son:
 
