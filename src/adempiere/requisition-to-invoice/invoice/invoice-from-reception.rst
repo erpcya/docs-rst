@@ -16,22 +16,14 @@
 .. |campo lista de precios de la ventana documentos por pagar| image:: resources/price-list-field-of-the-payables-window.png
 .. |campo moneda de la ventana documentos por pagar| image:: resources/currency-field-of-the-payables-window.png
 .. |checklist documento fiscal de la ventana documentos por pagar| image:: resources/checklist-fiscal-document-of-the-window-documents-payable.png
-.. |pestaña linea de factura de la ventana documentos por pagar| image:: resources/invoice-line-tab-of-the-documents-payable-window.png
-.. |campo factura de la pestaña linea de factura| image:: resources/invoice-field-of-the-invoice-line-tab.png
-.. |campo nro linea de la pestaña linea de factura| image:: resources/field-number-line-of-the-invoice-line-tab.png
-.. |campo producto de la pestaña linea de factura| image:: resources/product-field-of-the-invoice-line-tab.png
-.. |campo cargo de la pestaña linea de factura| image:: resources/charge-field-of-the-invoice-line-tab.png
-.. |campo descripcion de la pestaña linea de factura| image:: resources/field-description-of-the-invoice-line-tab.png
-.. |campo cantidad de la pestaña linea de factura| image:: resources/amount-field-of-the-invoice-line-tab.png
-.. |campo um de la pestaña linea de factura| image:: resources/um-field-of-the-invoice-line-tab.png
-.. |campo precio de la pestaña linea de factura| image:: resources/price-field-of-the-invoice-line-tab.png
-.. |campo cantidad facturada de la pestaña linea de factura| image:: resources/invoiced-amount-field-of-the-invoice-line-tab.png
-.. |campo precio de lista de la pestaña linea de factura| image:: resources/list-price-field-of-the-invoice-line-tab.png
-.. |campo precio actual de la pestaña linea de factura| image:: resources/current-price-field-of-the-invoice-line-tab.png
-.. |campo factura afectada de la pestaña linea de factura| image:: resources/affected-invoice-field-of-the-invoice-line-tab.png
-.. |campo impuesto de la pestaña linea de factura| image:: resources/tax-field-of-the-invoice-line-tab.png
-.. |campo neto de linea de la pestaña linea de factura| image:: resources/net-line-field-of-invoice-line-tab.png
-.. |checklist procesado de la pestaña linea de factura| image:: resources/processed-checklist-from-the-invoice-line-tab.png
+.. |opcion crear desde para factura desde recepcion del icono proceso| image:: resources/option-create-from-for-invoice-from-reception-of-the-process-icon.png
+.. |ventana crear desde factura| image:: resources/create-from-invoice-window.png
+.. |campo crear desde tipo de la ventana crear desde| image:: resources/field-create-from-window-type-create-from.png
+.. |campo entrega recibo de la ventana crear desde| image:: resources/delivery-receipt-field-of-the-create-from-window.png
+.. |opcion comenzar busqueda de la ventana crear desde| image:: resources/option-start-window-search-create-from.png
+.. |seleccion de entrega y opcion ok de la ventana crear desde| image:: resources/delivery-selection-and-ok-option-from-the-create-from-window.png
+.. |icono refrescar de la ventana documentos por pagar| image:: resources/icon-refresh-of-the-window-documents-payable.png
+.. |pestaña linea de factura para entrega de la ventana documentos por pagar| image:: resources/invoice-line-tab-for-delivery-of-the-documents-payable-window.png
 .. |pestaña principal factura| image:: resources/main-tab-invoice.png
 .. |campo orden de compra de la ventana documentos por pagar| image:: resources/purchase-order-field-of-the-payables-window.png
 .. |checklist pagado de la ventana documentos por pagar| image:: resources/paid-checklist-from-the-payable-papers-window.png
@@ -44,8 +36,8 @@
 
 .. _documento/documento-por-pagar:
 
-**Registro de Documento por Pagar**
-===================================
+**Registro de Factura desde Recepción**
+=======================================
 
 #. Ubique en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**", adjunto imagen para referencia.
 
@@ -149,162 +141,93 @@
 
         Imagen 16. Checklist Documento Fiscal
 
-.. note::
+        .. note::
 
-    Recuerde guardar el registro de los campos de la ventana antes de cambiar a otra pestaña. Esto se puede realizar seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+            Recuerde guardar el registro de los campos de la ventana antes de cambiar a otra pestaña. Esto se puede realizar seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+
+    #. Seleccione la opción "**Crear Desde Factura**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+
+        |opcion crear desde para factura desde recepcion del icono proceso|
+        
+        Imagen 17. Opción Crear Desde Factura del Icono Proceso
+
+    #. Podrá visualizar la ventana "**Crear Desde una Orden / ADM / Factura / Recepción en una Factura**", que permite crear un documento por pagar desde una orden, autorización de devolución, factura o recepción.
+
+        |ventana crear desde factura|
+
+        Imagem 18. Ventana Crear Desde una Orden / ADM / Factura / Recepción en una Factura
+
+        #. Seleccione en el campo "**Crear Desde Tipo**", la opción desde la cual requiere generar el documento por pagar. Para este ejemplo es utilizada la opción "**Entrega/Recepción**".
+
+            |campo crear desde tipo de la ventana crear desde|
+
+            Imagen 19. Campo Crear Desde Tipo
+
+        #. Seleccione en el campo "**Entrega/Recibo**", el número de documento correspondiente a la recepción desde la cual requiere generar el documento por pagar.
+
+            |campo entrega recibo de la ventana crear desde|
+
+            Imagen 20. Campo Entrega/Recibo
+
+        #. Seleccione la opción "**Comenzar Búsqueda**", para filtar la información en base a lo seleccionado anteriormente.
+
+            |opcion comenzar busqueda de la ventana crear desde|
+
+            Imagen 21. Opción Comenzar Búsqueda
+
+        #. Seleccione el registro de la recepción y la opción "**OK**", para cargar a la ventana "**Documentos por Pagar**", la información del registro seleccionado.
+
+            |seleccion de entrega y opcion ok de la ventana crear desde|
+
+            Imagen 22. Selección de Registro y Opción OK
+
+    #. Seleccione el icono "**Refrescar**", ubicado en la barra de herramientas de ADempiere, para refrescar la ventana "**Documentos por Pagar**" y sea cargada la información de la recepción.
+
+        |icono refrescar de la ventana documentos por pagar|
+
+        Imagen 23. Icono Refrescar
 
 **Línea de la Factura**
 -----------------------
 
-#. Seleccione la pestaña "**Línea de Factura**", para proceder a cargar los productos o servicios correspondientes al documento por pagar que se encuentra realizando.
+#. Seleccione la pestaña "**Línea de Factura**", para confirmar la información cargada desde la ventana "**Crear Desde una Orden / ADM / Factura / Recepción en una Factura**", correspondientes al documento por pagar que se encuentra realizando.
 
-    |pestaña linea de factura de la ventana documentos por pagar|
+    |pestaña linea de factura para entrega de la ventana documentos por pagar|
 
-    Imagen 17. Pestaña Línea de Factura
-
-    #. Podrá visualizar en el campo "**Factura**", el número de registro del documento por pagar al que pertenece la línea que se encuentra realizando.
-
-        |campo factura de la pestaña linea de factura|
-
-        Imagen 18. Campo Factura
-
-    #. De igual manera, podrá visualizar en el campo "**No. Línea**", el número de línea correspondiente al registro en el cual se encuentra ubicado.
-
-        |campo nro linea de la pestaña linea de factura|
-
-        Imagen 19. Campo No. del Documento
-
-    #. Seleccione en el campo "**Producto**", el producto o servicio comprado por el cual se encuentra realizando el documento por pagar.
-
-        |campo producto de la pestaña linea de factura|
-
-        Imagen 20. Campo Producto
-
-    #. Seleccione en el campo "**Cargo**", el cargo por el cual se encuentra realizando el documento por pagar.
-
-        |campo cargo de la pestaña linea de factura|
-
-        Imagen 21. Campo Cargo
-
-    #. Introduzca en el campo "**Descripción**", una breve descripción referente al registro que se encuentra realizando.
-
-        |campo descripcion de la pestaña linea de factura|
-
-        Imagen 22. Campo Descripción
-
-    #. Seleccione en el campo "**Cantidad**", la cantidad comprada del producto seleccionado.
-
-        |campo cantidad de la pestaña linea de factura|
-
-        Imagen 23. Campo Cantidad
-
-    #. Seleccione en el campo "**UM**", la unidad de medida del producto seleccionado.
-
-        |campo um de la pestaña linea de factura|
-
-        Imagen 24. Campo UM
-
-    #. Introduzca en el campo "**Precio**", el precio real del producto.
-
-        |campo precio de la pestaña linea de factura|
-
-        Imagen 25. Campo Precio
-
-        .. note::
-
-            El precio ingreso es convertido al precio real basado en la conversión de la unidad de medida seleccionada en el campo "**UM**".
-
-    #. Podrá visualizar en el campo "**Cantidad Facturada**", la cantidad factura del producto seleccionado.
-
-        |campo cantidad facturada de la pestaña linea de factura|
-
-        Imagen 26. Campo Cantidad Facturada
-
-    #. Introduzca en el campo "**Precio de Lista**", el precio oficial del producto.
-
-        |campo precio de lista de la pestaña linea de factura|
-
-        Imagen 27. Campo Precio de Lista
-
-        .. note::
-
-            El precio actual indica el precio oficial para un producto en la moneda fuente. 
-
-    #. Podrá visualizar en el campo "**Precio Actual**", el precio unitario del producto.
-
-        |campo precio actual de la pestaña linea de factura|
-
-        Imagen 28. Precio Actual
-
-        .. note::
-
-            El precio actual indica el precio para un producto en la moneda fuente.
-
-    #. Seleccione en el campo "**Factura Afectada**", la factura afectada para ser asignada automáticamente al registro que se encuentra realizando.
-
-        |campo factura afectada de la pestaña linea de factura|
-
-        Imagen 29. Campo Factura Afectada
-
-    #. Seleccione en el campo "**Impuesto**", el impuesto a aplicar al registro o línea de registro que se encuentra realizando.
-
-        |campo impuesto de la pestaña linea de factura|
-
-        Imagen 30. Campo Impuesto
-
-    #. Podra visualizar en el campo "**Neto de Línea**", el total neto de la línea basado en la cantidad y el precio actual.
-
-        |campo neto de linea de la pestaña linea de factura|
-
-        Imagen 31. Campo Neto de Línea
-
-        .. note::
-    
-            El total neto de la línea se obtiene de la operación (Cantidad * Precio Actual) sin fletes ni cargos. Cualquier cargo adicional o flete no es incluido.
-
-    #. El checklkist "**Procesado**", indica que un documento ha sido procesado.
-
-        |checklist procesado de la pestaña linea de factura|
-
-        Imagen 32. Checklist Procesado
-
-.. note::
-
-    Recuerde guardar el registro de los campos de la ventana antes de cambiar a otra pestaña. Esto se puede realizar seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
-
+    Imagen 24. Pestaña Línea de Factura
 
 **Factura**
 -----------
 
-#. Regrese a la ventana principal "**Factura**", ubicando la parte inferior del documento por pagar.
+#. Regrese a la ventana principal "**Factura**", para completar el documento por pagar que se encuentra realizando.
 
     |pestaña principal factura|
 
-    Imagen 33. Pestaña Principal Factura
+    Imagen 25. Pestaña Principal Factura
 
     #. En el campo "**Orden de Compra**", se muestra el número de documento de la orden de compra asociada al documento por pagar.
 
         |campo orden de compra de la ventana documentos por pagar|
 
-        Imagen 34. Campo Orden de Compra
+        Imagen 26. Campo Orden de Compra
 
-    #. El checklist "**Pagado**", indica que el documento ya fue pagado.
+    #. El checklist "**Pagado**", indica si el documento ya fue pagado.
 
         |checklist pagado de la ventana documentos por pagar|
 
-        Imagen 35. Checklist Pagado
+        Imagen 27. Checklist Pagado
 
     #. Podrá visualizar en el campo "**Total de Líneas**", la sumatoria total de todos los netos de línea sin impuestos ni cargos, que contiene el documento por pagar.
 
         |campo total lineas de la ventana documentos por pagar|
 
-        Imagen 36. Campo Total de Líneas
+        Imagen 28. Campo Total de Líneas
 
     #. De igual manera, podrá visualizar en el campo "**Gran Total**", la sumatoria de todos los montos reflejados en el campo "**Total de la Línea**", de todas las líneas que contiene el documento por pagar.
 
         |campo gran total de la ventana documentos por pagar|
 
-        Imagen 37. Campo Gran Total
+        Imagen 29. Campo Gran Total
 
         .. note::
 
@@ -314,22 +237,22 @@
 
         |campo estado del documento de la ventana documentos por pagar|
 
-        Imagen 38. Campo Estado del Documento
+        Imagen 30. Campo Estado del Documento
 
     #. El campo "**Tipo de Documento**", indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.
 
         |campo tipo de documento en la ventana documentos por pagar|
 
-        Imagen 39. Campo Tipo de Documento
+        Imagen 31. Campo Tipo de Documento
 
     #. Seleccione la opción "**Procesar Factura**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
         |opcion procesar factura del icono proceso|
 
-        Imagen 40. Opción Procesar Factura del Icono Proceso
+        Imagen 32. Opción Procesar Factura del Icono Proceso
 
     #. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Orden de Compra**".
 
         |completar documento|
 
-        Imagen 41. Completar Documento
+        Imagen 33. Completar Documento

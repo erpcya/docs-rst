@@ -11,3 +11,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
     purchase-order/index
     material-receipt/index
+    invoice/index
