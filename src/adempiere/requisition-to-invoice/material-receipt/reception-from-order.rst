@@ -28,10 +28,10 @@
 .. |opción procesar recepción en el icono proceso| image:: resources/option-process-reception-in-the-process-icon.png
 .. |Opción Completar| image:: resources/option-complete.png
 
-.. _documento/recepción-productos:
+.. _documento/recepción-desde-orden:
 
-**Registro de Recepción de Productos**
-======================================
+**Registro de Recepción Desde Orden**
+=====================================
 
 #. Ubique en el menú de ADempiere la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Recepción de Productos**", adjunto imagen para referencia.
 

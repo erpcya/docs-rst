@@ -13,4 +13,5 @@ En ADempiere es posible generar una factura de cuentas por pagar de forma direct
     :maxdepth: 2
 
     invoice
+    invoice-from-order
     invoice-from-reception
