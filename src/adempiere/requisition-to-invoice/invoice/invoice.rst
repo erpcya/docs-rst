@@ -111,6 +111,7 @@
 
 
 
+
 #. En el campo "**Orden de Compra**", se muestra el número de documento de la orden de compra asociada al documento por pagar.
 
     |Campo Orden de Compra|
