@@ -19,9 +19,9 @@
 .. |opcion crear desde para factura desde recepcion del icono proceso| image:: resources/option-create-from-for-invoice-from-reception-of-the-process-icon.png
 .. |ventana crear desde factura| image:: resources/create-from-invoice-window.png
 .. |campo crear desde tipo de la ventana crear desde| image:: resources/field-create-from-window-type-create-from.png
-.. |campo entrega recibo de la ventana crear desde| image:: resources/delivery-receipt-field-of-the-create-from-window.png
-.. |opcion comenzar busqueda de la ventana crear desde| image:: resources/option-start-window-search-create-from.png
-.. |seleccion de entrega y opcion ok de la ventana crear desde| image:: resources/delivery-selection-and-ok-option-from-the-create-from-window.png
+.. |campo orden de venta de la ventana crear desde| image:: resources/sales-order-field-of-the-create-from-window.png
+.. |opcion comenzar busqueda de orden de la ventana crear desde| image:: resources/option-start-window-order-search-create-from.png
+.. |seleccion de orden y opcion ok de la ventana crear desde| image:: resources/order-selection-and-ok-option-from-the-create-from-window.png
 .. |icono refrescar de la ventana documentos por pagar| image:: resources/icon-refresh-of-the-window-documents-payable.png
 .. |pestaña linea de factura para entrega de la ventana documentos por pagar| image:: resources/invoice-line-tab-for-delivery-of-the-documents-payable-window.png
 .. |pestaña principal factura| image:: resources/main-tab-invoice.png
@@ -34,10 +34,10 @@
 .. |opcion procesar factura del icono proceso| image:: resources/option-process-invoice-process-icon.png
 .. |completar documento| image:: resources/complete-document.png
 
-.. _documento/factura-desde-recepcion:
+.. _documento/factura-desde-orden:
 
-**Registro de Factura desde Recepción**
-=======================================
+**Registro de Factura desde Orden**
+===================================
 
 #. Ubique en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**", adjunto imagen para referencia.
 
@@ -157,31 +157,31 @@
 
         Imagem 18. Ventana Crear Desde una Orden / ADM / Factura / Recepción en una Factura
 
-        #. Seleccione en el campo "**Crear Desde Tipo**", la opción desde la cual requiere generar el documento por pagar. Para este ejemplo es utilizada la opción "**Entrega/Recepción**".
+        #. Seleccione en el campo "**Crear Desde Tipo**", la opción desde la cual requiere generar el documento por pagar. Para este ejemplo es utilizada la opción "**Orden**".
 
             |campo crear desde tipo de la ventana crear desde|
 
             Imagen 19. Campo Crear Desde Tipo
 
-        #. Seleccione en el campo "**Entrega/Recibo**", el número de documento correspondiente a la recepción desde la cual requiere generar el documento por pagar.
+        #. Seleccione en el campo "**Orden de Venta**", el número de documento correspondiente a la orden desde la cual requiere generar el documento por pagar.
 
-            |campo entrega recibo de la ventana crear desde|
+            |campo orden de venta de la ventana crear desde|
 
-            Imagen 20. Campo Entrega/Recibo
+            Imagen 20. Campo Orden de Venta
 
         #. Seleccione la opción "**Comenzar Búsqueda**", para filtar la información en base a lo seleccionado anteriormente.
 
-            |opcion comenzar busqueda de la ventana crear desde|
+            |opcion comenzar busqueda de orden de la ventana crear desde|
 
             Imagen 21. Opción Comenzar Búsqueda
 
-        #. Seleccione el registro de la recepción y la opción "**OK**", para cargar a la ventana "**Documentos por Pagar**", la información del registro seleccionado.
+        #. Seleccione el registro de la orden y la opción "**OK**", para cargar a la ventana "**Documentos por Pagar**", la información del registro seleccionado.
 
-            |seleccion de entrega y opcion ok de la ventana crear desde|
+            |seleccion de orden y opcion ok de la ventana crear desde|
 
             Imagen 22. Selección de Registro y Opción OK
 
-    #. Seleccione el icono "**Refrescar**", ubicado en la barra de herramientas de ADempiere, para refrescar la ventana "**Documentos por Pagar**" y sea cargada la información de la recepción.
+    #. Seleccione el icono "**Refrescar**", ubicado en la barra de herramientas de ADempiere, para refrescar la ventana "**Documentos por Pagar**" y sea cargada la información de la orden.
 
         |icono refrescar de la ventana documentos por pagar|
 
