@@ -1,14 +1,14 @@
-.. |menú de adempiere| image:: resouces/price-list-outline-menu.png
-.. |ventana esquema de lista de precios| image:: resouces/price-list-schema-window.png
-.. |pestaña línea de esquema| image:: resouces/outline-line-tab.png
-.. |campo tipo de conversión| image:: resouces/conversion-type-field.png
-.. |campo porcentaje descuento sobre precio de lista| image:: resouces/field-percentage-discount-on-list-price.png
-.. |menú de adempiere 2| image:: resouces/price-list-menu.png
-.. |ventana lista de precios| image:: resouces/price-list-window.pnh
-.. |pestaña versión| image:: resouces/version-tab.png
-.. |campo esq list precios desc| image:: resouces/field-esq-list-prices-desc.png
-.. |campo lista de precios base| image:: resouces/base-price-list-field.png
-.. |crear lista de precios| image:: resouces/create-price-list.png
+.. |menú de adempiere| image:: resources/price-list-outline-menu.png
+.. |ventana esquema de lista de precios| image:: resources/price-list-schema-window.png
+.. |pestaña línea de esquema| image:: resources/outline-line-tab.png
+.. |campo tipo de conversión| image:: resources/conversion-type-field.png
+.. |campo porcentaje descuento sobre precio de lista| image:: resources/field-percentage-discount-on-list-price.png
+.. |menú de adempiere 2| image:: resources/price-list-menu.png
+.. |ventana lista de precios| image:: resources/price-list-window.pnh
+.. |pestaña versión| image:: resources/version-tab.png
+.. |campo esq list precios desc| image:: resources/field-esq-list-prices-desc.png
+.. |campo lista de precios base| image:: resources/base-price-list-field.png
+.. |crear lista de precios| image:: resources/create-price-list.png
 .. |mensaje de confirmación| image:: resources/confirmation-message.png
 
 .. _documento/proceso-automático-lista-de-precios:
