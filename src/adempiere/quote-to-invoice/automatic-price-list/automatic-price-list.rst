@@ -13,7 +13,7 @@
 
 .. _documento/proceso-automático-lista-de-precios:
 
-**Proceso Automático de Lsita de Precios**
+**Proceso Automático de Lista de Precios**
 ==========================================
 
 .. _documento/configuración-inicial-lista-precios:
@@ -27,7 +27,7 @@
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá viualizar la ventana "**Esquema de Lsita de Precios**", con el registro del esquema de lista de precios definida para la organización.
+#. Podrá viualizar la ventana "**Esquema de Lista de Precios**", con el registro del esquema de lista de precios definida para la organización.
 
     |ventana esquema de lista de precios|
 
