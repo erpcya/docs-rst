@@ -4,7 +4,7 @@
 .. |campo tipo de conversión| image:: resources/conversion-type-field.png
 .. |campo porcentaje descuento sobre precio de lista| image:: resources/field-percentage-discount-on-list-price.png
 .. |menú de adempiere 2| image:: resources/price-list-menu.png
-.. |ventana lista de precios| image:: resources/price-list-window.pnh
+.. |ventana lista de precios| image:: resources/price-list-window.png
 .. |pestaña versión| image:: resources/version-tab.png
 .. |campo esq list precios desc| image:: resources/field-esq-list-prices-desc.png
 .. |campo lista de precios base| image:: resources/base-price-list-field.png
