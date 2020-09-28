@@ -1,4 +1,43 @@
 .. _ERPyA: http://erpya.com
+.. |Menú de ADempiere| image:: resources/sales order menu.png
+.. |Ventana Órdenes de Venta| image:: resources/sell order window.png
+.. |Icono Registro Nuevo| image:: resources/new record icon.png
+.. |Campo Organización| image:: resources/organization field.png
+.. |campo nro del documento de la ventana órdenes de venta| image:: resources/field number of the document of the sales orders window.png
+.. |campo referencia de orden de socio del negocio de la ventana órdenes de venta| image:: resources/business partner order reference field of the sales orders window.png
+.. |campo descripción de la ventana órdenes de venta| image:: resources/field description of the sales orders window.png
+.. |campo fecha de la orden de la ventana órdenes de venta| image:: resources/order date field of the sales orders window.png
+.. |Campo Socio del Negocio| image:: resources/business partner field.png
+.. |Campo Tipo de Documento| image:: resources/document type field.png
+.. |Campo Dirección del Socio del Negocio| image:: resources/business partner address field.png
+.. |Campo Dirección Factura| image:: resources/invoice address field.png
+.. |Campo Usuario| image:: resources/user field.png
+.. |Campo Contacto Entrega Directa| image:: resources/field contact direct delivery.png
+.. |Campo Almacén| image:: resources/
+.. |Campo Lista de Precios| image:: resources/
+.. |Campo Moneda| image:: resources/
+.. |línea de la orden de la ventana órdenes de venta| image:: resources/
+.. |Campo Producto| image:: resources/
+.. |Campo Descripción| image:: resources/
+.. |Campo Cantidad| image:: resources/
+.. |Campo UM| image:: resources/
+.. |Campo Precio| image:: resources/
+.. |campo cantidad ordenada de la ventana órdenes de venta| image:: resources/
+.. |campo descuento de la ventana órdenes de venta| image:: resources/
+.. |Campo Impuesto| image:: resources/
+.. |campo cantidad reservada de la ventana órdenes de venta| image:: resources/
+.. |campo cantidad entregada de la ventana órdenes de venta| image:: resources/
+.. |campo cantidad facturada de la ventana órdenes de venta| image:: resources/
+.. |campo pmvp de la ventana órdenes de venta| image:: resources/
+.. |Campo Neto de Línea| image:: resources/
+.. |campo procesado de la ventana órdenes de venta| image:: resources/
+.. |pestaña orden| image:: resources/
+.. |campo total de líneas| image:: resources/
+.. |campo gran total| image:: resources/
+.. |campo estado del documento| image:: resources/
+.. |campo tipo de documento| image:: resources/
+.. |opción procesar orden en el icono proceso| image:: resources/
+.. |Opción Completar| image:: resources/
 
 .. _documento/orden-de-venta:
 
@@ -183,7 +222,7 @@
 
     #. El campo "**Cantidad Entregada**, indica la cantidad de un producto que ha sido entregado.
 
-        campo cantidad entregada de la ventana órdenes de venta
+        |campo cantidad entregada de la ventana órdenes de venta|
 
         Imagen 28. Campo Cantidad Entregada
 
@@ -225,34 +264,34 @@
 
         |campo total de líneas|
 
-        Imagen 39. Campo Total del Líneas
+        Imagen 34. Campo Total del Líneas
 
     #. El campo "**Gran Total**", indica el total del documento incluyendo impuestos y totales de fletes.
 
         |campo gran total|
 
-        Imagen 40. Campo Gran Total
+        Imagen 35. Campo Gran Total
 
     #. El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
         |campo estado del documento|
 
-        Imagen 41. Campo Estado de Documento
+        Imagen 36. Campo Estado de Documento
 
     #. El campo "**Tipo de Documento**", indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.
 
         |campo tipo de documento|
 
-        Imagen 42. Campo Tipo de Documento
+        Imagen 37. Campo Tipo de Documento
 
 #. Seleccione la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
     |opción procesar orden en el icono proceso|
 
-    Imagen 43. Opción Procesar Orden en el Icono Proceso
+    Imagen 38. Opción Procesar Orden en el Icono Proceso
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Orden de Compra**".
 
     |Opción Completar|
 
-    Imagen 44. Opción Completar
+    Imagen 39. Opción Completar
