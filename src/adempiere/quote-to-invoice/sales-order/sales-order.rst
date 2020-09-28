@@ -1,43 +1,4 @@
 .. _ERPyA: http://erpya.com
-.. |Menú de ADempiere| image:: resources/menu.png
-.. |Icono Registro Nuevo| image:: resources/ventana.png
-.. |Campo Organización| image:: resources/org.png
-.. |Campo Tipo de Documento| image:: resources/tipodoc.png
-.. |Campo Fecha de la Orden| image:: resources/feorden.png
-.. |Campo Fecha Prometida| image:: resources/fepro.png
-.. |Campo Socio del Negocio| image:: resources/socio.png
-.. |Campo Socio del Negocio a Facturar| image:: resources/sociofa.png
-.. |Campo Dirección del Socio del Negocio| image:: resources/direcsocio.png
-.. |Campo Dirección Factura| image:: resources/direcfac.png
-.. |Campo Usuario| image:: resources/usuario.png
-.. |Campo Contacto Entrega Directa| image:: resources/contdirec.png
-.. |Campo Regla de Entrega| image:: resources/reglaent.png
-.. |Campo Prioridad| image:: resources/prioridad.png
-.. |Campo Almacén| image:: resources/almacen.png
-.. |Campo Entrega Directa| image:: resources/entrega.png
-.. |Campo Vía de Entrega| image:: resources/via.png
-.. |Campo Regla de Costo de Flete| image:: resources/regla.png
-.. |Campo Regla de Facturación| image:: resources/reglafac.png
-.. |Campo Lista de Precios| image:: resources/lista.png
-.. |Campo Moneda| image:: resources/moneda.png
-.. |Campo Agente Comercial| image:: resources/agente.png
-.. |Campo Imprimir Descuento| image:: resources/imprimir.png
-.. |Campo Término de Pago| image:: resources/termino.png
-.. |Campo Código de Promoción| image:: resources/promocion.png
-.. |Campo Tipo de Pago| image:: resources/tipopago.png
-.. |Campo Centro de Costos| image:: resources/centro.png
-.. |Campo Actividad| image:: resources/actividad.png
-.. |Icono Guardar Cambios| image:: resources/guardar.png
-.. |Pestaña Línea de la Orden| image:: resources/linea.png
-.. |Campo Producto| image:: resources/producto.png
-.. |Campo Descripción| image:: resources/descripcion.png
-.. |Campo Cantidad| image:: resources/cantidad.png
-.. |Campo UM| image:: resources/um.png
-.. |Campo Precio| image:: resources/precio.png
-.. |Campo Impuesto| image:: resources/impuesto.png
-.. |Campo Neto de Línea| image:: resources/neto.png
-.. |Pestaña Principal Orden y Opción OK| image:: resources/completar.png
-.. |Acción Completar y Opción OK| image:: resources/ok.png
 
 .. _documento/orden-de-venta:
 
@@ -46,234 +7,252 @@
 
 #. Ubique y seleccione en el menú de ADempiere la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la ventana "**Órdenes de Venta**".
 
-   |Menú de ADempiere|
+    |Menú de ADempiere|
 
-   Imagen 1. Menú de ADempiere
+    Imagen 1. Menú de ADempiere
+
+#. Podrá visualizar la ventana "**Órdenes de Venta**", con todos los registros de órdenes de venta cargados a ADempiere.
+
+    |Ventana Órdenes de Venta|
+
+    Imagen 2. Ventana Órdenes de Venta
 
 #. Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere, para realizar un nuevo documento.
 
-   |Icono Registro Nuevo|
+    |Icono Registro Nuevo|
 
-   Imagen 2. Icono Registro Nuevo
+    Imagen 3. Icono Registro Nuevo
 
-   #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Orden de Venta**".
+    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Orden de Venta**".
 
-      |Campo Organización|
+        |Campo Organización|
 
-      Imagen 3. Campo Organización
+        Imagen 4. Campo Organización
 
-   #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
+        .. warning::
 
-      |Campo Tipo de Documento|
+            El valor en el campo organización debe ser diferente del símbolo (*) ya que éste símbolo hace referencia a todas las organizaciones.
 
-      Imagen 4. Campo Tipo de Documento Destino
+    #. En el campo "**No. de Documento**", no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de orden de venta.
 
-   #. Seleccione en el campo "**Fecha de la Orden**", la fecha en la que es ordenado por el cliente el producto o servicio.
+        |campo nro del documento de la ventana órdenes de venta|
 
-      |Campo Fecha de la Orden|
+        Imagen 5. Campo No. del Documento
 
-      Imagen 5. Campo Fecha de la Orden
+    #. Introduzca en el campo "**Referencia de Orden de Socio del Negocio**", la referencia de orden del socio del negocio.
 
-   #. Seleccione en el campo "**Fecha Prometida**", la fecha en la que es prometido el producto o servicio al cliente.
+        |campo referencia de orden de socio del negocio de la ventana órdenes de venta|
 
-      |Campo Fecha Prometida|
+        Imagen 6. Campo Referencia de Orden de Socio del Negocio
 
-      Imagen 6. Campo Fecha Prometida
+    #. En el campo "**Descripción**", introduzca una breve descripción referente a la orden de venta que se está realizando, este campo es opcional.
 
-   #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio cliente al cual se le realizará la venta.
+        |campo descripción de la ventana órdenes de venta|
 
-      |Campo Socio del Negocio|
+        Imagen 7. Campo Descripción
 
-      Imagen 7. Campo Socio del Negocio
+    #. Seleccione en el campo "**Fecha de la Orden**", la fecha de elaboración del documento "**Orden de Venta**".
 
-   #. Seleccione en el campo "**Socio del Negocio a Facturar**", el socio del negocio a ser impreso en la factura.
+        |campo fecha de la orden de la ventana órdenes de venta|
 
-      |Campo Socio del Negocio a Facturar|
+        Imagen 8. Campo Fecha de la Orden
 
-      Imagen 8. Campo Socio del Negocio a Facturar
+    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio cliente al cual se le realizará la venta.
 
-   #. Seleccione en el campo "**Dirección del Socio del Negocio**", la dirección de localización del socio del negocio.
+        |Campo Socio del Negocio|
 
-      |Campo Dirección del Socio del Negocio|
+        Imagen 9. Campo Socio del Negocio
 
-      Imagen 9. Campo Dirección del Socio del Negocio
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento "**Tipo de Documento**" elaborado por `ERPyA`_.
 
-   #. Seleccione en el campo "**Dirección Factura**", la dirección a ser impresa en la factura para la entrega del producto o servicio.
+        |Campo Tipo de Documento|
 
-      |Campo Dirección Factura|
+        Imagen 10. Campo Tipo de Documento Destino
 
-      Imagen 10. Campo Dirección Factura
+    #. Seleccione en el campo "**Dirección del Socio del Negocio**", la dirección de localización del socio del negocio.
 
-   #. Seleccione en el campo "**Usuario**", el usuario de contacto con el socio del negocio cliente al cual se le realizará la venta.
+        |Campo Dirección del Socio del Negocio|
 
-      |Campo Usuario|
+        Imagen 11. Campo Dirección del Socio del Negocio
 
-      Imagen 11. Campo Usuario
+    #. Seleccione en el campo "**Dirección Factura**", la dirección a ser impresa en la factura para la entrega del producto o servicio.
 
-   #. Seleccione en el campo "**Contacto Entrega Directa**", el usuario de contacto con el socio del negocio cliente al cual se le realizará la venta.
+        |Campo Dirección Factura|
 
-      |Campo Contacto Entrega Directa|
+        Imagen 12. Campo Dirección Factura
 
-      Imagen 12. Campo Contacto Entrega Directa
+    #. Seleccione en el campo "**Usuario**", el usuario de contacto con el socio del negocio cliente al cual se le realizará la venta.
 
-   #. Seleccione en el campo "**Regla de Entrega**", la opción de cómo serán entregados los productos y servicios al socio del negocio cliente.
+        |Campo Usuario|
 
-      |Campo Regla de Entrega|
+        Imagen 13. Campo Usuario
 
-      Imagen 13. Campo Regla de Entrega
+    #. Seleccione en el campo "**Contacto Entrega Directa**", el usuario de contacto con el socio del negocio cliente al cual se le realizará la venta.
 
-   #. Seleccione en el campo "**Prioridad**", la prioridad que tiene la orden de venta que se esta realizando.
+        |Campo Contacto Entrega Directa|
 
-      |Campo Prioridad|
+        Imagen 14. Campo Contacto Entrega Directa
 
-      Imagen 14. Campo Prioridad
+    #. Seleccione en el campo "**Almacén**", el almacén donde se encuentra el producto o servicio que se va a vender.
 
-   #. Seleccione en el campo "**Almacén**", el almacén donde se encuentra el producto o servicio que se va a vender.
+        |Campo Almacén|
 
-      |Campo Almacén|
+        Imagen 15. Campo Almacén
 
-      Imagen 15. Campo Almacén
+    #. Seleccione en el campo "**Lista de Precios**", la lista de precios que será utilizada para la venta de los productos y servicios al socio del negocio cliente.
 
-   #. Seleccione el checklist "**Entrega Directa**", para indicar que el documento será enviado del vendedor directamente al socio del negocio cliente.
+        |Campo Lista de Precios|
 
-      |Campo Entrega Directa|
+        Imagen 16. Campo Lista de Precios
 
-      Imagen 16. Campo Entrega Directa
+    #. Seleccione en el campo "**Moneda**", la moneda que será utilizada para la venta de los productos y servicios al socio del negocio cliente.
 
-   #. Seleccione en el campo "**Vía de Entrega**", la opción de cómo serán entregados los productos y servicios al socio del negocio cliente.
+        |Campo Moneda|
 
-      |Campo Vía de Entrega|
+        Imagen 17. Campo Moneda
 
-      Imagen 17. Campo Vía de Entrega
+    .. warning::
 
-   #. Seleccione en el campo "**Regla de Costo de Flete**", la regla para cargar los costos del flete de los productos y servicios al socio del negocio cliente.
+        Recuerde guardar el registro de la ventana, seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas, una vez guardado el nuevo registro, podrá avanzar a la pestaña "**Línea de la Orden**".
 
-      |Campo Regla de Costo de Flete|
+#. Seleccione la pestaña "**Línea de la Orden**" y proceda a seleccionar el "**Producto o Servicio**" a vender. Si la orden de venta contiene varios productos, el campo "**Nro. de Línea**", indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer producto, deberá seleccionar el icono "**Registro Nuevo**", incrementando así el número de líneas por productos en el documento.
 
-      Imagen 18. Campo Regla de Costo de Flete
+    .. warning::
 
-   #. Seleccione en el campo "**Regla de Facturación**", la opción de cómo serán facturados los productos y servicios al socio del negocio cliente.
+        El campo "**Orden de Venta**", viene precargado de la pestaña principal "**Orden**".
 
-      |Campo Regla de Facturación|
+    |línea de la orden de la ventana órdenes de venta|
 
-      Imagen 19. Campo Regla de Facturación
+    Imagen 18. Pestaña Línea de la Orden
 
-   #. Seleccione en el campo "**Lista de Precios**", la lista de precios que será utilizada para la venta de los productos y servicios al socio del negocio cliente.
+    #. Seleccione en el campo "**Producto**", el producto o servicio a vender al socio del negocio cliente.
 
-      |Campo Lista de Precios|
+        |Campo Producto|
 
-      Imagen 20. Campo Lista de Precios
+        Imagen 19. Campo Producto
 
-   #. Seleccione en el campo "**Moneda**", la moneda que será utilizada para la venta de los productos y servicios al socio del negocio cliente.
+    #. Introduzca en el campo "**Descripción**", una breve descripción sobre el producto o servicio seleccionado para la venta.
 
-      |Campo Moneda|
+        |Campo Descripción|
 
-      Imagen 21. Campo Moneda
+        Imagen 20. Campo Descripción
 
-   #. Seleccione en el campo "**Agente Comercial**", el agente comercial o vendedor asignado a la región de ventas del socio del negocio cliente.
+    #. Seleccione en el campo "**Cantidad**", la cantidad a vender del producto o servicio seleccionado.
 
-      |Campo Agente Comercial|
+        |Campo Cantidad|
 
-      Imagen 22. Campo Agente Comercial
+        Imagen 21. Campo Cantidad
 
-   #. Seleccione el checklist "**Imprimir Descuento**", para imprimir el descuento en los documentos de orden de venta y factura.
+    #. Seleccione en el campo "**UM**", la unidad de medida a vender del producto o servicio seleccionado.
 
-      |Campo Imprimir Descuento|
+        |Campo UM|
 
-      Imagen 23. Campo Imprimir Descuento
+        Imagen 22. Campo UM
 
-   #. Seleccione en el campo "**Término de Pago**", la opción de cómo serán pagados los productos y servicios por el socio del negocio cliente.
+    #. Introduzca en el campo "**Precio**", el precio por unidad de medida del producto o servicio seleccionado para la venta.
 
-      |Campo Término de Pago|
+        |Campo Precio|
 
-      Imagen 24. Campo Término de Pago
+        Imagen 23. Campo Precio
 
-   #. Introduzca en el campo "**Código de Promoción**", el código de promoción existente al momento de la venta.
+    #. El campo "**Cantidad Ordenada**", indica la cantidad de un producto que fue ordenada.
 
-      |Campo Código de Promoción|
+        |campo cantidad ordenada de la ventana órdenes de venta|
 
-      Imagen 25. Campo Código de Promoción
+        Imagen 24. Campo Cantidad Ordenada
 
-   #. Seleccione en el campo "**Tipo de Pago**", el tipo del pago de los documentos de orden de venta y factura.
+    #. Introduzca en el campo "**% Descuento**", el descuento aplicado a la venta.
+    
+        El campo "**% Descuento**", indica el descuento aplicado o tomado como un porcentaje.
 
-      |Campo Tipo de Pago|
+        |campo descuento de la ventana órdenes de venta|
 
-      Imagen 26. Campo Tipo de Pago
+        Imagen 25. Campo Descuento
 
-   #. Seleccione en el campo "**Centro de Costos**", el elemento definido para la combinación de cuentas.
+    #. Seleccione en el campo "**Impuesto**", el impuesto a ser aplicado al producto o servicio seleccionado.
 
-      |Campo Centro de Costos|
+        |Campo Impuesto|
 
-      Imagen 27. Campo Cantro de Costos
+        Imagen 26. Campo Impuesto
 
-   #. Seleccione en el campo "**Actividad**", la actividad del negocio utilizada para el costeo.
+    #. El campo "**Cantidad Reservada**, indica la cantidad del producto que ha sido reservado para otras órdenes.
 
-      |Campo Actividad|
+        |campo cantidad reservada de la ventana órdenes de venta|
 
-      Imagen 28. Campo Actividad
+        Imagen 27. Campo Cantidad Reservada
 
-#. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere, para guardar el registro de la pestaña "**Orden**".
+    #. El campo "**Cantidad Entregada**, indica la cantidad de un producto que ha sido entregado.
 
-      |Icono Guardar Cambios|
+        campo cantidad entregada de la ventana órdenes de venta
 
-      Imagen 29. Icono Guardar
+        Imagen 28. Campo Cantidad Entregada
 
-#. Seleccione la pestaña "**Línea de la Orden**" y proceda al llenado de los campos correspondientes.
+    #. El campo "**Cantidad Facturada**, indica la cantidad de un producto que ha sido facturado.
 
-      |Pestaña Línea de la Orden|
+        |campo cantidad facturada de la ventana órdenes de venta|
 
-      Imagen 30. Pestaña Línea de la Orden
+        Imagen 29. Campo Cantidad Facturada
 
-   #. Seleccione en el campo "**Producto**", el producto o servicio a vender al socio del negocio cliente.
+    #. El campo "**PMVP**, indica el precio marcado de venta al público.
 
-      |Campo Producto|
+        |campo pmvp de la ventana órdenes de venta|
 
-      Imagen 31. Campo Producto
+        Imagen 30. Campo PMVP
 
-   #. Introduzca en el campo "**Descripción**", una breve descripción sobre el producto o servicio seleccionado para la venta.
+    #. Podrá apreciar en el campo "**Neto de Línea**", el monto neto del producto por la cantidad ingresada.
 
-      |Campo Descripción|
+        |Campo Neto de Línea|
 
-      Imagen 32. Campo Descripción
+        Imagen 31. Campo Neto de Línea
 
-   #. Seleccione en el campo "**Cantidad**", la cantidad a vender del producto o servicio seleccionado.
+    #. El checklkist "**Procesado**, indica que un documento ha sido procesado.
 
-      |Campo Cantidad|
+        |campo procesado de la ventana órdenes de venta|
 
-      Imagen 33. Campo Cantidad
+        Imagen 32. Campo Procesado
 
-   #. Seleccione en el campo "**UM**", la unidad de medida a vender del producto o servicio seleccionado.
+    .. warning::
 
-      |Campo UM|
+        Recuerde guardar el registro de la pestaña "**Línea de la Orden**" con el icono "**Guardar Cambios**" de la barra de herramientas de ADempiere, antes de cambiar a la ventana principal "**Orden**".
 
-      Imagen 34. Campo UM
+#. Regrese a la pestaña principal "**Orden**" para completar el documento que se encuentra realizando.
 
-   #. Introduzca en el campo "**Precio**", el precio por unidad de medida del producto o servicio seleccionado para la venta.
+    |pestaña orden|
 
-      |Campo Precio|
+    Imagen 33. Pestaña Orden
 
-      Imagen 35. Campo Precio
+    #. El campo "**Total de Líneas**", indica el total de todas las líneas en la moneda del documento.
 
-   #. Seleccione en el campo "**Impuesto**", el impuesto a ser aplicado al producto o servicio seleccionado.
+        |campo total de líneas|
 
-      |Campo Impuesto|
+        Imagen 39. Campo Total del Líneas
 
-      Imagen 36. Campo Impuesto
+    #. El campo "**Gran Total**", indica el total del documento incluyendo impuestos y totales de fletes.
 
-   #. Podrá apreciar en el campo "**Neto de Línea**", el monto neto del producto por la cantidad ingresada.
+        |campo gran total|
 
-      |Campo Neto de Línea|
+        Imagen 40. Campo Gran Total
 
-      Imagen 37. Campo Neto de Línea
+    #. El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
-#. Regrese a la ventana principal "**Orden**" y seleccione la opción "**Completar**".
+        |campo estado del documento|
 
-      |Pestaña Principal Orden y Opción OK|
+        Imagen 41. Campo Estado de Documento
 
-      Imagen 38. Opción Completar
+    #. El campo "**Tipo de Documento**", indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.
 
-   #. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento.
+        |campo tipo de documento|
 
-      |Acción Completar y Opción OK|
+        Imagen 42. Campo Tipo de Documento
 
-      Imagen 39. Opción Completar
+#. Seleccione la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+
+    |opción procesar orden en el icono proceso|
+
+    Imagen 43. Opción Procesar Orden en el Icono Proceso
+
+#. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Orden de Compra**".
+
+    |Opción Completar|
+
+    Imagen 44. Opción Completar
