@@ -12,39 +12,39 @@
 .. |Campo Socio del Negocio| image:: resources/business-partner-field.png
 .. |Campo Tipo de Documento Destino| image:: resources/destination-document-type-field.png
 .. |Campo Dirección del Socio del Negocio| image:: resources/business-partner-address-field.png
-.. |campo usuario| image:: resources/
-.. |campo regla de pago| image:: resources/
-.. |Campo Término de Pago| image:: resources/
-.. |campo factura afectada| image:: resources/
-.. |Campo Lista de Precios| image:: resources/
-.. |Campo Moneda| image:: resources/
-.. |checklist documento fiscal| image:: resources/
-.. |checklist impreso en impresora fiscal| image:: resources/
-.. |campo impresora fiscal| image:: resources/
-.. |campo nro documento fiscal| image:: resources/
-.. |Pestaña Línea de la Factura| image:: resources/
-.. |campo factura| image:: resources/
-.. |Campo Producto| image:: resources/
-.. |campo descripción| image:: resources/
-.. |Campo Cantidad| image:: resources/
-.. |Campo UM| image:: resources/
-.. |Campo Precio| image:: resources/
-.. |campo cantidad facturada| image:: resources/
-.. |campo precio de lista| image:: resources/
-.. |campo precio actual| image:: resources/
-.. |campo factura afectada| image:: resources/
-.. |Campo Impuesto| image:: resources/
-.. |Campo Neto de Línea| image:: resources/
-.. |checklist procesado| image:: resources/
-.. |Pestaña Factura| image:: resources/
-.. |campo orden de venta| image:: resources/
-.. |checklist pagado| image:: resources/
-.. |campo total de líneas| image:: resources/
-.. |campo gran total| image:: resources/
-.. |campo estado del documento| image:: resources/
-.. |campo tipo de documento| image:: resources/
-.. |opción procesar factura del icono proceso| image:: resources/
-.. |Acción Completar y Opción OK| image:: resources/
+.. |campo usuario| image:: resources/user-field.png
+.. |campo regla de pago| image:: resources/payment-rule-field.png
+.. |Campo Término de Pago| image:: resources/payment-term-field.png
+.. |campo factura afectada| image:: resources/affected-invoice-field.png
+.. |Campo Lista de Precios| image:: resources/price-list-field.png
+.. |Campo Moneda| image:: resources/currency-field.png
+.. |checklist documento fiscal| image:: resources/tax-document-checklist.png
+.. |checklist impreso en impresora fiscal| image:: resources/checklist-printed-on-fiscal-printer.png
+.. |campo impresora fiscal| image:: resources/fiscal-printer-field.png
+.. |campo nro documento fiscal| image:: resources/fiscal-document-number-field.png
+.. |Pestaña Línea de la Factura| image:: resources/invoice-line-tab.png
+.. |campo factura| image:: resources/invoice-field.png
+.. |Campo Producto| image:: resources/product-field.png
+.. |campo descripción| image:: resources/description-field.png
+.. |Campo Cantidad| image:: resources/quantity-field.png
+.. |Campo UM| image:: resources/field-um.png
+.. |Campo Precio| image:: resources/price-field.png
+.. |campo cantidad facturada| image:: resources/invoiced-amount-field.png
+.. |campo precio de lista| image:: resources/list-price-field.png
+.. |campo precio actual| image:: resources/current-price-field.png
+.. |campo factura afectada| image:: resources/affected-invoice-field.pnf
+.. |Campo Impuesto| image:: resources/imposed-field.png
+.. |Campo Neto de Línea| image:: resources/net-field-of-line.png
+.. |checklist procesado| image:: resources/processed-checklist.png
+.. |Pestaña Factura| image:: resources/invoice-tab.png
+.. |campo orden de venta| image:: resources/sales-order-field.png
+.. |checklist pagado| image:: resources/paid-checklist.png
+.. |campo total de líneas| image:: resources/total-field-of-lines.png
+.. |campo gran total| image:: resources/grand-total-field.png
+.. |campo estado del documento| image:: resources/document-status-field.png
+.. |campo tipo de documento| image:: resources/document-type-field.png
+.. |opción procesar factura del icono proceso| image:: resources/process-icon-invoice-process-option.png
+.. |Acción Completar y Opción OK| image:: resources/action-complete-and-option-ok.png
 
 .. _documento/documento-por-cobrar:
 
