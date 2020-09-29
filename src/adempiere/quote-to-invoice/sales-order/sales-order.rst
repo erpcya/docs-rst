@@ -1,43 +1,46 @@
 .. _ERPyA: http://erpya.com
-.. |Menú de ADempiere| image:: resources/sales order menu.png
-.. |Ventana Órdenes de Venta| image:: resources/sell order window.png
-.. |Icono Registro Nuevo| image:: resources/new record icon.png
-.. |Campo Organización| image:: resources/organization field.png
-.. |campo nro del documento de la ventana órdenes de venta| image:: resources/field number of the document of the sales orders window.png
-.. |campo referencia de orden de socio del negocio de la ventana órdenes de venta| image:: resources/business partner order reference field of the sales orders window.png
-.. |campo descripción de la ventana órdenes de venta| image:: resources/field description of the sales orders window.png
-.. |campo fecha de la orden de la ventana órdenes de venta| image:: resources/order date field of the sales orders window.png
-.. |Campo Socio del Negocio| image:: resources/business partner field.png
-.. |Campo Tipo de Documento| image:: resources/document type field.png
-.. |Campo Dirección del Socio del Negocio| image:: resources/business partner address field.png
-.. |Campo Dirección Factura| image:: resources/invoice address field.png
-.. |Campo Usuario| image:: resources/user field.png
-.. |Campo Contacto Entrega Directa| image:: resources/field contact direct delivery.png
-.. |Campo Almacén| image:: resources/
-.. |Campo Lista de Precios| image:: resources/
-.. |Campo Moneda| image:: resources/
-.. |línea de la orden de la ventana órdenes de venta| image:: resources/
-.. |Campo Producto| image:: resources/
-.. |Campo Descripción| image:: resources/
-.. |Campo Cantidad| image:: resources/
-.. |Campo UM| image:: resources/
-.. |Campo Precio| image:: resources/
-.. |campo cantidad ordenada de la ventana órdenes de venta| image:: resources/
-.. |campo descuento de la ventana órdenes de venta| image:: resources/
-.. |Campo Impuesto| image:: resources/
-.. |campo cantidad reservada de la ventana órdenes de venta| image:: resources/
-.. |campo cantidad entregada de la ventana órdenes de venta| image:: resources/
-.. |campo cantidad facturada de la ventana órdenes de venta| image:: resources/
-.. |campo pmvp de la ventana órdenes de venta| image:: resources/
-.. |Campo Neto de Línea| image:: resources/
-.. |campo procesado de la ventana órdenes de venta| image:: resources/
-.. |pestaña orden| image:: resources/
-.. |campo total de líneas| image:: resources/
-.. |campo gran total| image:: resources/
-.. |campo estado del documento| image:: resources/
-.. |campo tipo de documento| image:: resources/
-.. |opción procesar orden en el icono proceso| image:: resources/
-.. |Opción Completar| image:: resources/
+.. |Menú de ADempiere| image:: resources/sales-order-menu.png
+.. |Ventana Órdenes de Venta| image:: resources/sell-order-window.png
+.. |Icono Registro Nuevo| image:: resources/new-record-icon.png
+.. |Campo Organización| image:: resources/organization-field.png
+.. |campo nro del documento de la ventana órdenes de venta| image:: resources/field-number-of-the-document-of-the-sales-orders-window.png
+.. |campo referencia de orden de socio del negocio de la ventana órdenes de venta| image:: resources/business-partner-order-reference-field-of-the-sales-orders-window.png
+.. |campo descripción de la ventana órdenes de venta| image:: resources/field-description-of-the-sales-orders-window.png
+.. |campo fecha de la orden de la ventana órdenes de venta| image:: resources/order-date-field-of-the-sales-orders-window.png
+.. |Campo Socio del Negocio| image:: resources/business-partner-field.png
+.. |Campo Tipo de Documento| image:: resources/document-type-field.png
+.. |Campo Dirección del Socio del Negocio| image:: resources/business-partner-address-field.png
+.. |Campo Dirección Factura| image:: resources/invoice-address-field.png
+.. |Campo Usuario| image:: resources/user-field.png
+.. |Campo Contacto Entrega Directa| image:: resources/field-contact-direct-delivery.png
+.. |Campo Almacén| image:: resources/warehouse-field.png
+.. |Campo Lista de Precios| image:: resources/price-list-field.png
+.. |campo término de pago| image:: resources/payment-term-field.png
+.. |Campo Moneda| image:: resources/currency-field.png
+.. |línea de la orden de la ventana órdenes de venta| image:: resources/sales-order-window-order-line.png
+.. |Campo Producto| image:: resources/product-field.png
+.. |Campo Descripción| image:: resources/description-field.png
+.. |Campo Cantidad| image:: resources/quantity-field.png
+.. |Campo UM| image:: resources/field-um.png
+.. |Campo Precio| image:: resources/price-field.png
+.. |campo cantidad ordenada de la ventana órdenes de venta| image:: resources/ordered-quantity-field-of-the-sales-orders-window.png
+.. |campo descuento de la ventana órdenes de venta| image:: resources/discount-field-of-the-sales-orders-window.png
+.. |Campo Impuesto| image:: resources/imposed-field.png
+.. |campo cantidad reservada de la ventana órdenes de venta| image:: resources/reserved-quantity-field-of-the-sales-orders-window.png
+.. |campo cantidad entregada de la ventana órdenes de venta| image:: resources/delivered-quantity-field-of-the-sales-orders-window.png
+.. |campo cantidad facturada de la ventana órdenes de venta| image:: resources/invoiced-quantity-field-of-the-sales-orders-window.png
+.. |campo pmvp de la ventana órdenes de venta| image:: resources/pmvp-field-of-the-sales-orders-window.png
+.. |Campo Neto de Línea| image:: resources/net-field-of-line.png
+.. |campo procesado de la ventana órdenes de venta| image:: resources/processed-field-of-the-sales-orders-window.png
+.. |pestaña orden| image:: resources/order-tab.png
+.. |campo total de líneas| image:: resources/total-field-of-lines.png
+.. |campo gran total| image:: resources/grand-total-field.png
+.. |campo estado del documento| image:: resources/document-status-field.png
+.. |campo para tipo de documento| image:: resources/field-for-document-type.png
+.. |opción procesar orden en el icono proceso| image:: resources/option-process-order-in-process-icon.png
+.. |Opción Completar| image:: resources/option-complete.png
+.. |factura generada| image:: resources/invoice-generated.png
+.. |consulta factura generada| image:: resources/check-generated-invoic.png
 
 .. _documento/orden-de-venta:
 
@@ -114,7 +117,7 @@
 
         Imagen 11. Campo Dirección del Socio del Negocio
 
-    #. Seleccione en el campo "**Dirección Factura**", la dirección a ser impresa en la factura para la entrega del producto o servicio.
+    #. Seleccione en el campo "**Dirección Factura**", la dirección a ser impresa en la factura para la entrega del producto.
 
         |Campo Dirección Factura|
 
@@ -132,23 +135,29 @@
 
         Imagen 14. Campo Contacto Entrega Directa
 
-    #. Seleccione en el campo "**Almacén**", el almacén donde se encuentra el producto o servicio que se va a vender.
+    #. Seleccione en el campo "**Almacén**", el almacén donde se encuentra el producto que se va a vender.
 
         |Campo Almacén|
 
         Imagen 15. Campo Almacén
 
-    #. Seleccione en el campo "**Lista de Precios**", la lista de precios que será utilizada para la venta de los productos y servicios al socio del negocio cliente.
+    #. Seleccione en el campo "**Lista de Precios**", la lista de precios que será utilizada para la venta de los productos al socio del negocio cliente.
 
         |Campo Lista de Precios|
 
         Imagen 16. Campo Lista de Precios
 
-    #. Seleccione en el campo "**Moneda**", la moneda que será utilizada para la venta de los productos y servicios al socio del negocio cliente.
+    #. Seleccione en el campo "**Término de Pago**", las condiciones de pago que indican el método y tiempo de pago para esta transacción.
+
+        |campo término de pago|
+
+        Imagen 17. Campo Término de Pago
+
+    #. Seleccione en el campo "**Moneda**", la moneda que será utilizada para la venta de los productos al socio del negocio cliente.
 
         |Campo Moneda|
 
-        Imagen 17. Campo Moneda
+        Imagen 18. Campo Moneda
 
     .. warning::
 
@@ -162,43 +171,43 @@
 
     |línea de la orden de la ventana órdenes de venta|
 
-    Imagen 18. Pestaña Línea de la Orden
+    Imagen 19. Pestaña Línea de la Orden
 
-    #. Seleccione en el campo "**Producto**", el producto o servicio a vender al socio del negocio cliente.
+    #. Seleccione en el campo "**Producto**", el producto a vender al socio del negocio cliente.
 
         |Campo Producto|
 
-        Imagen 19. Campo Producto
+        Imagen 20. Campo Producto
 
     #. Introduzca en el campo "**Descripción**", una breve descripción sobre el producto o servicio seleccionado para la venta.
 
         |Campo Descripción|
 
-        Imagen 20. Campo Descripción
+        Imagen 21. Campo Descripción
 
     #. Seleccione en el campo "**Cantidad**", la cantidad a vender del producto o servicio seleccionado.
 
         |Campo Cantidad|
 
-        Imagen 21. Campo Cantidad
+        Imagen 22. Campo Cantidad
 
     #. Seleccione en el campo "**UM**", la unidad de medida a vender del producto o servicio seleccionado.
 
         |Campo UM|
 
-        Imagen 22. Campo UM
+        Imagen 23. Campo UM
 
     #. Introduzca en el campo "**Precio**", el precio por unidad de medida del producto o servicio seleccionado para la venta.
 
         |Campo Precio|
 
-        Imagen 23. Campo Precio
+        Imagen 24. Campo Precio
 
     #. El campo "**Cantidad Ordenada**", indica la cantidad de un producto que fue ordenada.
 
         |campo cantidad ordenada de la ventana órdenes de venta|
 
-        Imagen 24. Campo Cantidad Ordenada
+        Imagen 25. Campo Cantidad Ordenada
 
     #. Introduzca en el campo "**% Descuento**", el descuento aplicado a la venta.
     
@@ -206,49 +215,49 @@
 
         |campo descuento de la ventana órdenes de venta|
 
-        Imagen 25. Campo Descuento
+        Imagen 26. Campo Descuento
 
     #. Seleccione en el campo "**Impuesto**", el impuesto a ser aplicado al producto o servicio seleccionado.
 
         |Campo Impuesto|
 
-        Imagen 26. Campo Impuesto
+        Imagen 27. Campo Impuesto
 
     #. El campo "**Cantidad Reservada**, indica la cantidad del producto que ha sido reservado para otras órdenes.
 
         |campo cantidad reservada de la ventana órdenes de venta|
 
-        Imagen 27. Campo Cantidad Reservada
+        Imagen 28. Campo Cantidad Reservada
 
     #. El campo "**Cantidad Entregada**, indica la cantidad de un producto que ha sido entregado.
 
         |campo cantidad entregada de la ventana órdenes de venta|
 
-        Imagen 28. Campo Cantidad Entregada
+        Imagen 29. Campo Cantidad Entregada
 
     #. El campo "**Cantidad Facturada**, indica la cantidad de un producto que ha sido facturado.
 
         |campo cantidad facturada de la ventana órdenes de venta|
 
-        Imagen 29. Campo Cantidad Facturada
+        Imagen 30. Campo Cantidad Facturada
 
     #. El campo "**PMVP**, indica el precio marcado de venta al público.
 
         |campo pmvp de la ventana órdenes de venta|
 
-        Imagen 30. Campo PMVP
+        Imagen 31. Campo PMVP
 
     #. Podrá apreciar en el campo "**Neto de Línea**", el monto neto del producto por la cantidad ingresada.
 
         |Campo Neto de Línea|
 
-        Imagen 31. Campo Neto de Línea
+        Imagen 32. Campo Neto de Línea
 
     #. El checklkist "**Procesado**, indica que un documento ha sido procesado.
 
         |campo procesado de la ventana órdenes de venta|
 
-        Imagen 32. Campo Procesado
+        Imagen 33. Campo Procesado
 
     .. warning::
 
@@ -258,40 +267,52 @@
 
     |pestaña orden|
 
-    Imagen 33. Pestaña Orden
+    Imagen 34. Pestaña Orden
 
     #. El campo "**Total de Líneas**", indica el total de todas las líneas en la moneda del documento.
 
         |campo total de líneas|
 
-        Imagen 34. Campo Total del Líneas
+        Imagen 35. Campo Total del Líneas
 
     #. El campo "**Gran Total**", indica el total del documento incluyendo impuestos y totales de fletes.
 
         |campo gran total|
 
-        Imagen 35. Campo Gran Total
+        Imagen 36. Campo Gran Total
 
     #. El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
         |campo estado del documento|
 
-        Imagen 36. Campo Estado de Documento
+        Imagen 37. Campo Estado de Documento
 
     #. El campo "**Tipo de Documento**", indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.
 
         |campo tipo de documento|
 
-        Imagen 37. Campo Tipo de Documento
+        Imagen 38. Campo Tipo de Documento
 
 #. Seleccione la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
     |opción procesar orden en el icono proceso|
 
-    Imagen 38. Opción Procesar Orden en el Icono Proceso
+    Imagen 39. Opción Procesar Orden en el Icono Proceso
 
-#. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Orden de Compra**".
+#. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Orden de Venta**".
 
     |Opción Completar|
 
-    Imagen 39. Opción Completar
+    Imagen 40. Opción Completar
+
+#. Al completar el documento "**Orden de Venta**", se genera de manera automática y en estado "**Completo**", el documento de factura por cobrar con la orden de venta asociada.
+
+    |factura generada|
+
+    Imagem 41. Número de Factura Generada
+
+#. Dicha factura por cobrar se puede visualizar en la ventana "**Documentos por Cobrar**", al buscar la misma por el número de documento generado en la parte inferior izquierda de la ventana "**Órdenes de Venta**".
+
+    |consulta factura generada|
+
+    Imagen 42. Consulta de Factura Generada
