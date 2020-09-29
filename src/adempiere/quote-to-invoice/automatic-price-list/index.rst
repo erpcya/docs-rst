@@ -10,3 +10,4 @@ Esta documentación está destinada a definir las listas de precios en ADempiere
     :maxdepth: 2
 
     automatic-price-list
+    create-product-entries

@@ -9,6 +9,7 @@
 .. |campo esq list precios desc| image:: resources/field-esq-list-prices-desc.png
 .. |campo lista de precios base| image:: resources/base-price-list-field.png
 .. |crear lista de precios| image:: resources/create-price-list.png
+.. |opción crear lista de precios desde el proceso| image:: resources/option-create-price-list-from-process.png
 .. |mensaje de confirmación| image:: resources/confirmation-message.png
 
 .. _documento/proceso-automático-lista-de-precios:
@@ -100,8 +101,14 @@
 
     Imagen 11. Opción Crear Lista de Precios
 
+#. También puede acceder al proceso, seleccionando la opción "**Crear Lista de Precios**" desplegada del icono "**Proceso** ubicado en la barra de herramientas de ADempiere.
+
+    |opción crear lista de precios desde el proceso|
+
+    Imagem 12. Opción Crear Lista de Precios desde el Icono Proceso
+
 #. ADempiere mostrará la ventana "**Crear Lista de Precios**", con el mensaje de confimración "**Crear precios basado en parámetros de esta versión**", donde debe seleccionar la opción "**OK**" para ejecutar el proceso.
 
     |mensaje de confirmación|
 
-    Imagen 12. Mensaje de Confirmación
+    Imagen 13. Mensaje de Confirmación
