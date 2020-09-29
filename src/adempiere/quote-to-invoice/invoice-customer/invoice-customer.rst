@@ -1,25 +1,51 @@
 .. _ERPyA: http://erpya.com
-.. |Menú de ADempiere| image:: resources/documento-por-cobrar.png
-.. |Ventana Documento por Cobrar| image:: resources/vent-documento-por-cobrar.png
-.. |Icono Registro Nuevo| image:: resources/icono-registro-nuevo.png
-.. |Campo Organización| image:: resources/campo-organizacion.png
-.. |Campo Tipo de Documento Destino| image:: resources/campo-tipo-documento.png
-.. |Campo Fecha de Facturación| image:: resources/campo-fecha-facturacion.png
-.. |Campo Fecha Contable| image:: resources/campo-fecha-contable.png
-.. |Campo Socio del Negocio| image:: resources/campo-socio-cliente.png
-.. |Campo Dirección del Socio del Negocio| image:: resources/campo-direccion-socio-cliente.png
-.. |Campo Lista de Precios| image:: resources/campo-lista-precios.png
-.. |Campo Moneda| image:: resources/campo-moneda.png
-.. |Campo Término de Pago| image:: resources/campo-termino-pago.png
-.. |Pestaña Línea de la Factura| image:: resources/pest-linea-factura.png
-.. |Campo Producto| image:: resources/campo-producto.png
-.. |Campo Cantidad| image:: resources/campo-cantidad.png
-.. |Campo UM| image:: resources/campo-um.png
-.. |Campo Precio| image:: resources/campo-precio.png
-.. |Campo Impuesto| image:: resources/campo-impuesto.png
-.. |Campo Neto de Línea| image:: resources/campo-neto-linea.png
-.. |Pestaña Factura| image:: resources/pest-factura.png
-.. |Acción Completar y Opción OK| image:: resources/completar-factura.png
+.. |Menú de ADempiere| image:: resources/menu-document-receivable.png
+.. |Ventana Documento por Cobrar| image:: resources/document-receivable-window.png
+.. |Icono Registro Nuevo| image:: resources/new-record-icon.png
+.. |Campo Organización| image:: resources/organization-field.png
+
+.. |campo nro del documento| image:: resources/document-number-field.png
+.. |campo control nro| image:: resources/control-field-number.png
+.. |campo descripción| image:: resources/description-field.png
+.. |campo fecha de facturación| image:: resources/billing-date-field.png
+.. |campo referencia de orden de socio del negocio| image:: resources/business-partner-order-reference-field.png
+.. |Campo Socio del Negocio| image:: resources/business-partner-field.png
+.. |Campo Tipo de Documento Destino| image:: resources/destination-document-type-field.png
+.. |Campo Dirección del Socio del Negocio| image:: resources/business-partner-address-field.png
+.. |campo usuario| image:: resources/
+.. |campo regla de pago| image:: resources/
+.. |Campo Término de Pago| image:: resources/
+.. |campo factura afectada| image:: resources/
+.. |Campo Lista de Precios| image:: resources/
+.. |Campo Moneda| image:: resources/
+.. |checklist documento fiscal| image:: resources/
+.. |checklist impreso en impresora fiscal| image:: resources/
+.. |campo impresora fiscal| image:: resources/
+.. |campo nro documento fiscal| image:: resources/
+.. |Pestaña Línea de la Factura| image:: resources/
+.. |campo factura| image:: resources/
+.. |Campo Producto| image:: resources/
+.. |campo descripción| image:: resources/
+.. |Campo Cantidad| image:: resources/
+.. |Campo UM| image:: resources/
+.. |Campo Precio| image:: resources/
+.. |campo cantidad facturada| image:: resources/
+.. |campo precio de lista| image:: resources/
+.. |campo precio actual| image:: resources/
+.. |campo factura afectada| image:: resources/
+.. |Campo Impuesto| image:: resources/
+.. |Campo Neto de Línea| image:: resources/
+.. |checklist procesado| image:: resources/
+.. |Pestaña Factura| image:: resources/
+.. |campo orden de venta| image:: resources/
+.. |checklist pagado| image:: resources/
+.. |campo total de líneas| image:: resources/
+.. |campo gran total| image:: resources/
+.. |campo estado del documento| image:: resources/
+.. |campo tipo de documento| image:: resources/
+.. |opción procesar factura del icono proceso| image:: resources/
+.. |Acción Completar y Opción OK| image:: resources/
+
 .. _documento/documento-por-cobrar:
 
 **Registro de Documento por Cobrar**
