@@ -14,15 +14,15 @@
 .. |Campo Tipo de Pago| image:: resources/payment-type-field.png
 .. |Campo Total del Pago| image:: resources/total-payment-field.png
 .. |Campo Moneda| image:: resources/currency-field.png
+.. |checklist sobre sub pagos| image:: resources/checklist-on-subpayments.png
+.. |totales con sobre sub pago| image:: resources/totals-with-overpayment.png
+.. |total del ajuste| image:: resources/total-fit.png
 .. |Campo Referencia| image:: resources/reference-field.png
 .. |Campo Estado del Documento| image:: resources/document-status-field.png
 .. |Campo Banco| image:: resources/field-bank.png
 .. |Checklist Procesado| image:: resources/processed-checklist.png
 .. |Opción Procesar Pago del Icono Proceso| image:: resources/option-process-icon-payment-process.png
 .. |Acción Completar| image:: resources/action-complete.png
-.. |Icono Visualiza Detalle| image:: resources/icon-displays-detail.png
-.. |Pestaña Asignación| image:: resources/assignment-tab.png
-.. |Pestaña Asignaciones| image:: resources/assignments-tab.png
 
 .. _documento/cobro:
 
@@ -119,69 +119,60 @@ Para ejemplificar el procedimiento de generar un cobro en ADempiere, es utilizad
 
         Imagen 15. Campo Moneda
 
+    #. El checklist "**Sobre/sub Pagos**", indica sobre pago (no contabilizado) o sub pago (pago parcial).
+
+        |checklist sobre sub pagos|
+
+        Imagen 16. Checklist Sobre Sub Pagos
+
+    #. El campo "**Totales con Sobre Sub Pago**", indica sobre pago (no contabilizado) o sub pago (pago parcial).
+
+        |totales con sobre sub pago|
+
+        Imagen 17. Campo Totales con Sobre/Sub Pagos
+
+    #. El campo "**Total del Ajuste**", indica el total a ser ajustado como incobrable.
+
+        |total del ajuste|
+
+        Imagen 18. Campo Total del Ajuste
+
     #. Introduzca en el campo "**Referencia**" la referencia correspondiente a la transacción generada por la forma de pago utilizada.
 
         |Campo Referencia|
 
-        Imagen 16. Campo Referencia
+        Imagen 19. Campo Referencia
 
     #. El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Pago**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
         |Campo Estado del Documento|
 
-        Imagen 17. Campo Estado del Documento
+        Imagen 20. Campo Estado del Documento
 
     #. Seleccione en el campo "**Banco**", el banco para esta organización o para un socio del negocio con quien esta organización efectúa transacciones.
 
         |Campo Banco|
 
-        Imagen 18. Campo Banco
+        Imagen 21. Campo Banco
 
     #. El checklist "**Procesado**", indica que un documento ha sido procesado.
 
         |Checklist Procesado|
 
-        Imagen 19. Checklist Procesado
-
-    #. Seleccione la opción "**Procesar Pago**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
-
-        |Opción Procesar Pago del Icono Proceso|
-
-        Imagen 20. Opción Procesar Pago del Icono Proceso
+        Imagen 22. Checklist Procesado
 
     .. note::
 
         Recuerde guardar el registro de los campos seleccionando el icono "**Guardar Cambios**", ubicado en el barra de herramientas de ADempiere.
 
-#. Seleccione la opción "**Completar**", ubicada en la parte inferior derecha de la ventana.
+ #. Seleccione la opción "**Procesar Pago**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
-    |Opción Completar|
+    |Opción Procesar Pago del Icono Proceso|
 
-    Imagen 21. Opción Completar Documento
+    Imagen 23. Opción Procesar Pago del Icono Proceso
 
-    #. Seleccione la accion "**Completar**" y la opción "**OK**", para completar el documento "**Cobro**" que esta realizando.
+#. Seleccione la accion "**Completar**" y la opción "**OK**", para completar el documento "**Cobro**" que esta realizando.
 
-        |Acción Completar|
+    |Acción Completar|
 
-        Imagen 22. Acción Completar Documento
-
-**Consultar Asignación**
-========================
-
-#. Seleccione el icono "**Visualiza Detalle**" en el documento "**Cobro**" generado anteriormente, para visualizar donde es usado el documento. Luego seleccione la opción "**Consulta de Asignación**" en el menú desplegado por el icono "**Visualiza Detalle**".
-
-    |Icono Visualiza Detalle|
-
-    Imagen 23. Icono Visualiza Detalle
-
-#. Podrá visualizar la ventana "**Consulta de Asignación**", con el registro nuevo de la asignación de pago generado al completar el documento "**Cobro**".
-
-    |Pestaña Asignación|
-
-    Imagen 24. Pestaña Asignación
-
-#. En la pestaña "**Asignaciones**" podrá visualizar la información de asignación de pago de la factura por cobrar seleccionada en el documento "**Cobro**" y el cobro realizado anteriormente.
-
-    |Pestaña Asignaciones|
-
-    Imagen 25. Pestaña Asignaciones
+    Imagen 24. Acción Completar Documento
