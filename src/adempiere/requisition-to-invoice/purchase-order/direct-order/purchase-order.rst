@@ -327,7 +327,7 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 
         Recuerde guardar el registro de la pestaña "**Línea Orden Compra**" con el icono "**Guardar Cambios**" de la barra de herramientas de ADempiere, antes de cambiar a la ventana principal "**Orden de Compra**".
 
-#. Regrese a la pestaña principal "**Orden de Compra**" para completar el documento que se e.ncuentra realizando.
+#. Regrese a la pestaña principal "**Orden de Compra**" para completar el documento que se encuentra realizando.
 
     |pestaña orden de compra|
 

@@ -63,91 +63,91 @@
 
     |icono registro nuevo de la ventana documentos por pagar|
 
-    Imagen 2. Registro Nuevo
+    Imagen 3. Registro Nuevo
 
     #. Seleccione en el campo "**Organización**", la organización para la cual se esta realizando el documento por pagar de productos o servicios, el valor en el mismo debe ser diferente del símbolo (*).
 
         |campo organizacion de la ventana documentos por pagar|
 
-        Imagen 3. Campo Organización
+        Imagen 4. Campo Organización
 
     #. En el campo "**No. de Documento**", no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de documento por pagar.
 
         |campo nro del documento de la ventana documentos por pagar|
 
-        Imagen 4. Campo No. del Documento
+        Imagen 5. Campo No. del Documento
 
     #. Introduzca en el campo "**Control No**", el número de control fiscal establecido para el documento que se encuentra realizando.
 
         |campo control nro de la ventana documentos por pagar|
 
-        Imagen 5. Campo Control No.
+        Imagen 6. Campo Control No.
 
     #. Introduzca en el campo "**Descripción**", una breve descripción referente al documento por pagar que se encuentra realizando.
 
         |campo descripcion de la ventana documentos por pagar|
 
-        Imagen 6. Campo Descripción
+        Imagen 7. Campo Descripción
 
     #. Seleccione en el campo "**Fecha Facturación**", la fecha que posee el documento por pagar en físico.
 
         |campo fecha de facturacion de la ventana documentos por pagar|
 
-        Imagen 7. Campo Fecha de Facturación
+        Imagen 8. Campo Fecha de Facturación
 
-    #. En el campo "**Referencia de Orden de Socio del Negocio**", se puede ingresar la referencia de orden del socio del negocio para esta transacción específica. Frecuentemente los números de orden de compras se dan para ser impresas en las facturas como una referencia más fácil. Un número estándar puede ser definido en la ventana "**Socio del Negocio (Cliente)**".
+    #. En el campo "**Referencia de Orden de Socio del Negocio**", se puede ingresar la referencia de orden del socio del negocio para esta transacción específica. Frecuentemente los números de orden de compras se dan para ser impresas en las facturas como una referencia más fácil.
 
         |campo referencia de orden de socio del negocio de la ventana documentos por pagar|
 
-        Imagen 8. Campo Referencia de Orden de Socio del Negocio
+        Imagen 9. Campo Referencia de Orden de Socio del Negocio
 
     #. Seleccione el socio del negocio proveedor en el campo "**Socio del Negocio**".
 
         |campo socio del negocio de la ventana documentos por pagar|
 
-        Imagen 9. Campo Socio del Negocio
+        Imagen 10. Campo Socio del Negocio
 
     #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento "**Tipo de Documento**" elaborado por `ERPyA`_.
 
         |campo tipo de documento de la ventana documentos por pagar|
 
-        Imagen 10. Campo Tipo de Documento
+        Imagen 11. Campo Tipo de Documento
 
     #. Podrá visualizar en el campo "**Dirección del Socio del Negocio**", la dirección de localización del socio del negocio proveedor.
 
         |campo direccion del socio del negocio de la ventana documentos por pagar|
 
-        Imagen 11. Campo Dirección del Socio del Negocio
+        Imagen 12. Campo Dirección del Socio del Negocio
 
     #. De igual manera, puede visualizar en el campo "**Usuario**", el usuario en ADempiere del socio del negocio seleccionado anteriormente.
 
         |campo usuario de la ventana documentos por pagar|
 
-        Imagen 12. Campo Usuario
+        Imagen 13. Campo Usuario
 
     #. Seleccione en el campo "**Factura Afectada**", la factura afectada para ser asignada automáticamente al registro que se encuentra realizando.
 
         |campo factura afectada de la ventana documentos por pagar|
 
-        Imagen 13. Campo Factura Afectada
+        Imagen 14. Campo Factura Afectada
 
     #. Seleccione en el campo "**Lista de Precios**", la lista de precios con la cual requiere generar el documento por pagar.
 
         |campo lista de precios de la ventana documentos por pagar|
 
-        Imagen 14. Campo Lista de Precios
+        Imagen 15. Campo Lista de Precios
 
     #. Podrá visualizar en el campo "**Moneda**", la moneda definida para la lista de precios seleccionada.
 
         |campo moneda de la ventana documentos por pagar|
 
-        Imagen 15. Campo Moneda
+        Imagen 16. Campo Moneda
 
     #. El checklist "**Documento Fiscal**", indica que el registro de documento por pagar es considerado un documento fiscal y se utiliza para las facturas declaradas.
 
         |checklist documento fiscal de la ventana documentos por pagar|
 
-        Imagen 16. Checklist Documento Fiscal
+        Imagen 17. Checklist Documento Fiscal
 
 .. note::
 
@@ -160,55 +160,55 @@
 
     |pestaña linea de factura de la ventana documentos por pagar|
 
-    Imagen 17. Pestaña Línea de Factura
+    Imagen 18. Pestaña Línea de Factura
 
     #. Podrá visualizar en el campo "**Factura**", el número de registro del documento por pagar al que pertenece la línea que se encuentra realizando.
 
         |campo factura de la pestaña linea de factura|
 
-        Imagen 18. Campo Factura
+        Imagen 19. Campo Factura
 
     #. De igual manera, podrá visualizar en el campo "**No. Línea**", el número de línea correspondiente al registro en el cual se encuentra ubicado.
 
         |campo nro linea de la pestaña linea de factura|
 
-        Imagen 19. Campo No. del Documento
+        Imagen 20. Campo No. del Documento
 
     #. Seleccione en el campo "**Producto**", el producto o servicio comprado por el cual se encuentra realizando el documento por pagar.
 
         |campo producto de la pestaña linea de factura|
 
-        Imagen 20. Campo Producto
+        Imagen 21. Campo Producto
 
     #. Seleccione en el campo "**Cargo**", el cargo por el cual se encuentra realizando el documento por pagar.
 
         |campo cargo de la pestaña linea de factura|
 
-        Imagen 21. Campo Cargo
+        Imagen 22. Campo Cargo
 
     #. Introduzca en el campo "**Descripción**", una breve descripción referente al registro que se encuentra realizando.
 
         |campo descripcion de la pestaña linea de factura|
 
-        Imagen 22. Campo Descripción
+        Imagen 23. Campo Descripción
 
     #. Seleccione en el campo "**Cantidad**", la cantidad comprada del producto seleccionado.
 
         |campo cantidad de la pestaña linea de factura|
 
-        Imagen 23. Campo Cantidad
+        Imagen 24. Campo Cantidad
 
     #. Seleccione en el campo "**UM**", la unidad de medida del producto seleccionado.
 
         |campo um de la pestaña linea de factura|
 
-        Imagen 24. Campo UM
+        Imagen 25. Campo UM
 
     #. Introduzca en el campo "**Precio**", el precio real del producto.
 
         |campo precio de la pestaña linea de factura|
 
-        Imagen 25. Campo Precio
+        Imagen 26. Campo Precio
 
         .. note::
 
@@ -218,13 +218,13 @@
 
         |campo cantidad facturada de la pestaña linea de factura|
 
-        Imagen 26. Campo Cantidad Facturada
+        Imagen 27. Campo Cantidad Facturada
 
     #. Introduzca en el campo "**Precio de Lista**", el precio oficial del producto.
 
         |campo precio de lista de la pestaña linea de factura|
 
-        Imagen 27. Campo Precio de Lista
+        Imagen 28. Campo Precio de Lista
 
         .. note::
 
@@ -234,7 +234,7 @@
 
         |campo precio actual de la pestaña linea de factura|
 
-        Imagen 28. Precio Actual
+        Imagen 29. Precio Actual
 
         .. note::
 
@@ -244,19 +244,19 @@
 
         |campo factura afectada de la pestaña linea de factura|
 
-        Imagen 29. Campo Factura Afectada
+        Imagen 30. Campo Factura Afectada
 
     #. Seleccione en el campo "**Impuesto**", el impuesto a aplicar al registro o línea de registro que se encuentra realizando.
 
         |campo impuesto de la pestaña linea de factura|
 
-        Imagen 30. Campo Impuesto
+        Imagen 31. Campo Impuesto
 
     #. Podra visualizar en el campo "**Neto de Línea**", el total neto de la línea basado en la cantidad y el precio actual.
 
         |campo neto de linea de la pestaña linea de factura|
 
-        Imagen 31. Campo Neto de Línea
+        Imagen 32. Campo Neto de Línea
 
         .. note::
     
@@ -266,7 +266,7 @@
 
         |checklist procesado de la pestaña linea de factura|
 
-        Imagen 32. Checklist Procesado
+        Imagen 33. Checklist Procesado
 
 .. note::
 
@@ -280,56 +280,56 @@
 
     |pestaña principal factura|
 
-    Imagen 33. Pestaña Principal Factura
+    Imagen 34. Pestaña Principal Factura
 
     #. En el campo "**Orden de Compra**", se muestra el número de documento de la orden de compra asociada al documento por pagar.
 
         |campo orden de compra de la ventana documentos por pagar|
 
-        Imagen 34. Campo Orden de Compra
+        Imagen 35. Campo Orden de Compra
 
     #. El checklist "**Pagado**", indica que el documento ya fue pagado.
 
         |checklist pagado de la ventana documentos por pagar|
 
-        Imagen 35. Checklist Pagado
+        Imagen 36. Checklist Pagado
 
     #. Podrá visualizar en el campo "**Total de Líneas**", la sumatoria total de todos los netos de línea sin impuestos ni cargos, que contiene el documento por pagar.
 
         |campo total lineas de la ventana documentos por pagar|
 
-        Imagen 36. Campo Total de Líneas
+        Imagen 37. Campo Total de Líneas
 
     #. De igual manera, podrá visualizar en el campo "**Gran Total**", la sumatoria de todos los montos reflejados en el campo "**Total de la Línea**", de todas las líneas que contiene el documento por pagar.
 
         |campo gran total de la ventana documentos por pagar|
 
-        Imagen 37. Campo Gran Total
+        Imagen 38. Campo Gran Total
 
         .. note::
 
             El gran total identifica el total incluyendo impuestos y totales de fletes en la moneda del documento.
 
-    #. El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+    #. El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Factura**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
         |campo estado del documento de la ventana documentos por pagar|
 
-        Imagen 38. Campo Estado del Documento
+        Imagen 39. Campo Estado del Documento
 
     #. El campo "**Tipo de Documento**", indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.
 
         |campo tipo de documento en la ventana documentos por pagar|
 
-        Imagen 39. Campo Tipo de Documento
+        Imagen 40. Campo Tipo de Documento
 
     #. Seleccione la opción "**Procesar Factura**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
         |opcion procesar factura del icono proceso|
 
-        Imagen 40. Opción Procesar Factura del Icono Proceso
+        Imagen 41. Opción Procesar Factura del Icono Proceso
 
     #. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Orden de Compra**".
 
         |completar documento|
 
-        Imagen 41. Completar Documento
+        Imagen 42. Completar Documento
