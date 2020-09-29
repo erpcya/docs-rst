@@ -92,6 +92,10 @@
 
     Imagen 10. Selección de Movimiento y Opción OK
 
+    .. note::
+
+        Recuerde que para visualizar de manera detallada los registros cargados al cierre de caja que se encuentra realizando, debe seleccionar la pestaña "**Línea de Cierre de Caja**".
+
 #. Seleccione el icono "**Refrescar**" en la barra de herramientas de ADempiere, para refrescar el registro en la ventana "**Cierre de Caja**".
 
     |Icono Refrescar|

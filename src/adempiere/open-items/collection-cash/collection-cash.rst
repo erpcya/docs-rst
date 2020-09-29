@@ -157,7 +157,7 @@
         
         Imagen 17. Referencia 
 
-    #. El campo "**Estado del Documento**", indica el estado del documento en este momento. Para cambiar el estado de documento, utilice el campo acción de documento.
+    #. El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Pago**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
         |estado del documento|
 
