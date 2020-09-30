@@ -63,11 +63,11 @@
 
     Imagen 2. Ventana Documento por Cobrar
 
-    #. Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere para crear un nuevo registro de factura de cuentas por cobrar.
+#. Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere para crear un nuevo registro de factura de cuentas por cobrar.
 
-        |Icono Registro Nuevo|
+    |Icono Registro Nuevo|
 
-        Imagen 3. Icono Registro Nuevo
+    Imagen 3. Icono Registro Nuevo
 
     #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento por cobrar.
 
@@ -75,57 +75,130 @@
 
         Imagen 4. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
+    #. En el campo "**No. de Documento**", no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de documento por cobrar.
 
-        |Campo Tipo de Documento Destino|
+        |campo nro del documento|
 
-        Imagen 5. Campo Tipo de Documento Destino
+        Imagen 5. Campo Nro del Documento
+    
+    #. En el campo "**Control Nro**", no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de control para el documento, al seleccionar la opción guardar del nuevo registro de documento por cobrar.
+
+        |campo control nro|
+
+        Imagen 6. Campo Control Nro
+
+    #. En el campo "**Descripción**", introduzca una breve descripción referente al documento por cobrar que se está realizando, este campo es opcional.
+
+        |campo descripción|
+
+        Imagen 7. Campo Descripción
 
     #. Introduzca en el campo "**Fecha de Facturación**", la fecha en la cual se realiza la venta y facturación del producto o servicio.
 
-        |Campo Fecha de Facturación|
+        |campo fecha de facturación|
 
-        Imagen 6. Campo Fecha de Facturación
+        Imagen 8. Campo Fecha de Facturación
 
-    #. Introduzca en el campo "**Fecha Contable**", la fecha en la cual se realiza la venta y facturación del producto o servicio.
+    #. Introduzca en el campo "**Referencia de Orden de Socio del Negocio**", la referencia de orden del socio del negocio.
 
-        |Campo Fecha Contable|
+        |campo referencia de orden de socio del negocio|
 
-        Imagen 7. Campo Fecha Contable
+        Imagen 9. Campo Referencia de Orden de Socio del Negocio
 
     #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio cliente al cual se le realiza la venta del producto o servicio.
 
         |Campo Socio del Negocio|
 
-        Imagen 8. Campo Socio del Negocio
+        Imagen 10. Campo Socio del Negocio
+
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento "**Tipo de Documento**" elaborado por `ERPyA`_.
+
+        |Campo Tipo de Documento Destino|
+
+        Imagen 11. Campo Tipo de Documento Destino
 
     #. Seleccione en el campo "**Dirección del Socio del Negocio**", la dirección de localización del socio del negocio cliente al cual se le realiza la venta del producto o servicio.
 
         |Campo Dirección del Socio del Negocio|
 
-        Imagen 9. Campo Dirección del Socio del Negocio
+        Imagen 12. Campo Dirección del Socio del Negocio
 
-    #. Seleccione en el campo "**Lista de Precios**", la lista de precios que será utilizada para la venta del producto o servicio.
+    #. Seleccione en el campo "**Usuario**", el usuario de contacto con el socio del negocio cliente al cual se le realizará la venta.
 
-        |Campo Lista de Precios|
+        |campo usuario|
 
-        Imagen 10. Campo Lista de Precios
+        Imagen 13. Campo Usuario
 
-    #. Podrá visualizar en el campo "**Moneda**", la moneda utilizada para la venta del producto o servicio, esta va a depender de la lista de precios seleccionada.
+    #. Seleccione en el campo "**Regla de Pago**", la regla para el pago de los productos o servicios.
 
-        |Campo Moneda|
+        |campo regla de pago|
 
-        Imagen 11. Campo Moneda
+        Imagen 14. Campo Regla de Pago
 
     #. Seleccione en el campo "**Término de Pago**", el término o la condición establecida para el pago del producto o servicio.
 
         |Campo Término de Pago|
 
-        Imagen 12. Campo Término de Pago
+        Imagen 15. Campo Término de Pago
 
-    .. note::
+    #. Seleccione en el campo "**Factura Afectada**", la factura afectada para ser asignada automáticamente al registro que se encuentra realizando.
 
-        Recuerde guardar el registro de los campos con ayuda del icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+        |campo factura afectada|
+
+        Imagen 16. Campo Factura Afectada
+
+    #. Seleccione en el campo "**Lista de Precios**", la lista de precios que será utilizada para la venta del producto o servicio.
+
+        |Campo Lista de Precios|
+
+        Imagen 17. Campo Lista de Precios
+
+    #. Podrá visualizar en el campo "**Moneda**", la moneda utilizada para la venta del producto o servicio, esta va a depender de la lista de precios seleccionada.
+
+        |Campo Moneda|
+
+        Imagen 18. Campo Moneda
+
+    #. El checklist "**Documento Fiscal**", indica que el registro de documento por cobrar es considerado un documento fiscal y se utiliza para las facturas declaradas.
+
+        |checklist documento fiscal|
+
+        Imagen 19. Checklist Documento Fiscal
+
+    #. El checklist "**Impreso en Impresora Fiscal**", indica que el registro de documento por cobrar es impreso en impresora fiscal.
+
+        |checklist impreso en impresora fiscal|
+
+        Imagen 20. Checklist Impreso en Impresora Fiscal
+
+
+.. |campo impresora fiscal| image:: resources/fiscal-printer-field.png
+.. |campo nro documento fiscal| image:: resources/fiscal-document-number-field.png
+
+.. |Pestaña Línea de la Factura| image:: resources/invoice-line-tab.png
+.. |campo factura| image:: resources/invoice-field.png
+.. |Campo Producto| image:: resources/product-field.png
+.. |campo descripción| image:: resources/description-field.png
+.. |Campo Cantidad| image:: resources/quantity-field.png
+.. |Campo UM| image:: resources/field-um.png
+.. |Campo Precio| image:: resources/price-field.png
+.. |campo cantidad facturada| image:: resources/invoiced-amount-field.png
+.. |campo precio de lista| image:: resources/list-price-field.png
+.. |campo precio actual| image:: resources/current-price-field.png
+.. |campo factura afectada| image:: resources/affected-invoice-field.pnf
+.. |Campo Impuesto| image:: resources/imposed-field.png
+.. |Campo Neto de Línea| image:: resources/net-field-of-line.png
+.. |checklist procesado| image:: resources/processed-checklist.png
+.. |Pestaña Factura| image:: resources/invoice-tab.png
+.. |campo orden de venta| image:: resources/sales-order-field.png
+.. |checklist pagado| image:: resources/paid-checklist.png
+.. |campo total de líneas| image:: resources/total-field-of-lines.png
+.. |campo gran total| image:: resources/grand-total-field.png
+.. |campo estado del documento| image:: resources/document-status-field.png
+.. |campo tipo de documento| image:: resources/document-type-field.png
+.. |opción procesar factura del icono proceso| image:: resources/process-icon-invoice-process-option.png
+.. |Acción Completar y Opción OK|
+
 
 #. Seleccione la pestaña "**Línea de la Factura**" y proceda al llenado de los campos correspondientes.
 
