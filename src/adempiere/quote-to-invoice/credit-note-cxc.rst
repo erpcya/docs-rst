@@ -47,10 +47,17 @@
 .. |opción procesar factura del icono proceso nota de crédito| image:: resources/option-process-invoice-from-credit-note-process-icon.png
 .. |Acción Completar y Opción OK| image:: resources/action-complete-and-option-ok.png
 
-.. _documento/documento-por-cobrar:
+.. _documento/nota-crédito-cxc:
 
-**Registro de Documento por Cobrar**
-====================================
+**Nota de Crédito**
+===================
+
+Es un documento que se aplica a una factura, con la finalidad de reflejar un descuento, un cobro de un gasto incurrido de más, o alguna devolución de productos que el socio de negocio tipo cliente haya comprado.
+
+A continuación es explicado el procedimiento para registrar en ADempiere una nota de crédito de cuentas por cobrar.
+
+**Registro de Nota de Crédito**
+-------------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Documentos por Cobrar**".
 
@@ -188,6 +195,9 @@
 
         Recuerde guardar el registro de los campos con ayuda del icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
+**Línea de la Factura**
+***********************
+
 #. Seleccione la pestaña "**Línea de la Factura**" para cargar los detalles de la nota de crédito que se encuentra realizando.
 
     |Pestaña Línea de la Factura nota de crédito|
@@ -281,6 +291,9 @@
     .. note::
 
         Recuerde guardar el registro de los campos con ayuda del icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+
+**Factura**
+***********
 
 #. Seleccione la pestaña principal "**Factura**", para proceder a completar el registro.
 
