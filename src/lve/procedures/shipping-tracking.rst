@@ -44,6 +44,10 @@ Se crea la factura del servicio de personal shopper, donde se reflejan los otros
     - "**Monto Base Convertido**"
     - "**IVA 16%**"
 
+    .. note::
+
+        Si requiere del material que explica el procedimiento detallado para crear una factura, puede visualizar el mismo en el documento :ref:`documento/documento-por-cobrar`.
+
 Adicional a ello, se crea el cobro del servicio en la caja "**Cobranza USD**", ubicada en la ventana "**Caja**", considerando los siguientes datos:
 
     .. warning::
@@ -56,12 +60,20 @@ Adicional a ello, se crea el cobro del servicio en la caja "**Cobranza USD**", u
     - "**Moneda**": USD
     - "**Se deja tildado él “Sobre sub-pago”**"
 
+    .. note::
+
+        Si requiere del material que explica el procedimiento detallado para crear una cobranza, puede visualizar el mismo en el documento :ref:`documento/caja-cobranza`.
+
 **Intercambio de Dólares**
 **************************
 
 Este procedimiento consta en realizar el intercambio de los dólares en efectivo a dólares electrónicos. Para ello, se registra la transferencia en ADempiere desde la ventana "**Transferencia Bancaria**", donde se envía desde la cuenta "**Compras USD**" a la cuenta "**Caja Intercambio**".
 
 Por último, el dinero vuelve en dólares electrónicos desde la cuenta "**Caja Intercambio**" a la cuenta "**Compras USD**". Para ello, se debe realizar nuevamente una transferencia bancaria.
+
+.. note::
+
+    Si requiere del material que explica el procedimiento detallado para realizar una transferencia, puede visualizar el mismo en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`.
 
 **Relación de Facturas**
 ************************
@@ -87,6 +99,10 @@ Adicional a ello, se debe hacer un cierre de caja para relacionar las compras, c
     - Al relacionar las cajas debe realizar la búsqueda por el cargo "**Compra Exterior**" y el socio del negocio "**Cliente**".
 
     - Podrá visualizar el registro de ingreso de los mil doscientos dólares (1200$) y los egresos de las compras relacionadas previamente. Estos registros se deben seleccionar para cruzar los saldos y sí hay diferencia eso lo debe reflejar el cierre de caja que se está realizando.
+
+    .. note::
+
+        Si requiere del material que explica el procedimiento detallado para realizar un cierre de caja, puede visualizar el mismo en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`.
 
 **Cobro del Envío de la Compra**
 ********************************

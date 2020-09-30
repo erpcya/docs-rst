@@ -316,7 +316,7 @@
 
         Imagen 43. Campo Tipo de Documento
 
-    #. Seleccione la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+    #. Seleccione la opción "**Procesar Factura**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
         |opción procesar factura del icono proceso|
 
