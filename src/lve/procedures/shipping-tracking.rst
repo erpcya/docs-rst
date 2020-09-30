@@ -59,9 +59,9 @@ Adicional a ello, se crea el cobro del servicio en la caja "**Cobranza USD**", u
 **Intercambio de Dólares**
 **************************
 
-Este procedimiento consta en realizar el intercambio de los dólares en efectivo a transferencia por dólares electrónicos. Para ello, se registra la transferencia en ADempiere desde la ventana "**Transferencia Bancaria**", donde se envía desde la cuenta "**Compras USD**" a la cuenta "**Caja Intercambio**".
+Este procedimiento consta en realizar el intercambio de los dólares en efectivo a dólares electrónicos. Para ello, se registra la transferencia en ADempiere desde la ventana "**Transferencia Bancaria**", donde se envía desde la cuenta "**Compras USD**" a la cuenta "**Caja Intercambio**".
 
-Por último, el dinero vuelve en dólares electrónicos desde la cuenta "**Depósito Directo**" a la cuenta "**Compras USD**". Para ello, se debe realizar nuevamente una transferencia bancaria.
+Por último, el dinero vuelve en dólares electrónicos desde la cuenta "**Caja Intercambio**" a la cuenta "**Compras USD**". Para ello, se debe realizar nuevamente una transferencia bancaria.
 
 **Relación de Facturas**
 ************************

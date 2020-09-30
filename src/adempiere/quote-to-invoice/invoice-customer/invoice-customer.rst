@@ -3,7 +3,6 @@
 .. |Ventana Documento por Cobrar| image:: resources/document-receivable-window.png
 .. |Icono Registro Nuevo| image:: resources/new-record-icon.png
 .. |Campo Organización| image:: resources/organization-field.png
-
 .. |campo nro del documento| image:: resources/document-number-field.png
 .. |campo control nro| image:: resources/control-field-number.png
 .. |campo descripción| image:: resources/description-field.png
@@ -25,14 +24,14 @@
 .. |Pestaña Línea de la Factura| image:: resources/invoice-line-tab.png
 .. |campo factura| image:: resources/invoice-field.png
 .. |Campo Producto| image:: resources/product-field.png
-.. |campo descripción| image:: resources/description-field.png
+.. |campo descripción línea| image:: resources/field-description-line.png
 .. |Campo Cantidad| image:: resources/quantity-field.png
 .. |Campo UM| image:: resources/field-um.png
 .. |Campo Precio| image:: resources/price-field.png
 .. |campo cantidad facturada| image:: resources/invoiced-amount-field.png
 .. |campo precio de lista| image:: resources/list-price-field.png
 .. |campo precio actual| image:: resources/current-price-field.png
-.. |campo factura afectada| image:: resources/affected-invoice-field.pnf
+.. |campo factura afectada línea| image:: resources/line-affected-invoice-field.png
 .. |Campo Impuesto| image:: resources/imposed-field.png
 .. |Campo Neto de Línea| image:: resources/net-field-of-line.png
 .. |checklist procesado| image:: resources/processed-checklist.png
@@ -171,89 +170,160 @@
 
         Imagen 20. Checklist Impreso en Impresora Fiscal
 
+    #. Podrá visualizar en el campo "**Impresora Fiscal**", la impresora fiscal definida para la impresión del documento que se encuentra realizando.
 
-.. |campo impresora fiscal| image:: resources/fiscal-printer-field.png
-.. |campo nro documento fiscal| image:: resources/fiscal-document-number-field.png
+        |campo impresora fiscal|
 
-.. |Pestaña Línea de la Factura| image:: resources/invoice-line-tab.png
-.. |campo factura| image:: resources/invoice-field.png
-.. |Campo Producto| image:: resources/product-field.png
-.. |campo descripción| image:: resources/description-field.png
-.. |Campo Cantidad| image:: resources/quantity-field.png
-.. |Campo UM| image:: resources/field-um.png
-.. |Campo Precio| image:: resources/price-field.png
-.. |campo cantidad facturada| image:: resources/invoiced-amount-field.png
-.. |campo precio de lista| image:: resources/list-price-field.png
-.. |campo precio actual| image:: resources/current-price-field.png
-.. |campo factura afectada| image:: resources/affected-invoice-field.pnf
-.. |Campo Impuesto| image:: resources/imposed-field.png
-.. |Campo Neto de Línea| image:: resources/net-field-of-line.png
-.. |checklist procesado| image:: resources/processed-checklist.png
-.. |Pestaña Factura| image:: resources/invoice-tab.png
-.. |campo orden de venta| image:: resources/sales-order-field.png
-.. |checklist pagado| image:: resources/paid-checklist.png
-.. |campo total de líneas| image:: resources/total-field-of-lines.png
-.. |campo gran total| image:: resources/grand-total-field.png
-.. |campo estado del documento| image:: resources/document-status-field.png
-.. |campo tipo de documento| image:: resources/document-type-field.png
-.. |opción procesar factura del icono proceso| image:: resources/process-icon-invoice-process-option.png
-.. |Acción Completar y Opción OK|
+        Imagen 21. Campo Impresora Fiscal
 
+    #. Podrá visualizar en el campo "**Nro Documento Fiscal**", el número de documento fiscal para el documento que se encuentra realizando.
 
-#. Seleccione la pestaña "**Línea de la Factura**" y proceda al llenado de los campos correspondientes.
+        |campo nro documento fiscal|
 
-    |Pestaña Línea de la Factura|
-
-    Imagen 13. Pestaña Línea de la Factura
-
-    #. Seleccione en el campo "**Producto**", el producto o servicio que será vendido al socio del negocio cliente.
-
-        |Campo Producto|
-
-        Imagen 14. Campo Producto
-
-    #. Seleccione en el campo "**Cantidad**", la cantidad de productos o servicios que serán vendidos al socio del negocio cliente.
-
-        |Campo Cantidad|
-
-        Imagen 15. Campo Cantidad
-
-    #. Seleccione en el campo "**UM**", la unidad de medida del producto que será vendido al socio del negocio cliente.
-
-        |Campo UM|
-
-        Imagen 16. Campo UM
-
-    #. Podrá visualizar en el campo "**Precio**", el precio unitario del producto o servicio seleccionado para la venta al socio del negocio cliente.
-
-        |Campo Precio|
-
-        Imagen 17. Campo Precio
-
-    #. Seleccione en el campo "**Impuesto**", el impuesto correspondiente a la venta del producto o servicio seleccionado.
-
-        |Campo Impuesto|
-
-        Imagen 18. Campo Impuesto
-
-    #. Podrá visualizar en el campo "**Neto de Línea**", el resultado del cálculo del valor en el campo "**Precio**" por el valor ingresado en el campo "**Cantidad**".
-
-        |Campo Neto de Línea|
-
-        Imagen 19. Campo Neto de Línea
+        Imagen 22. Campo Nro Documento Fiscal
 
     .. note::
 
         Recuerde guardar el registro de los campos con ayuda del icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
-#. Seleccione la pestaña principal "**Factura**" y luego seleccione la opción "**Completar**" ubicada en la parte inferior del documento por cobrar.
+#. Seleccione la pestaña "**Línea de la Factura**" y proceda al llenado de los campos correspondientes.
+
+    |Pestaña Línea de la Factura|
+
+    Imagen 23. Pestaña Línea de la Factura
+
+    #. Podrá visualizar en el campo "**Factura**", el número de registro al que pertenece el registro de la línea en el que se encuentra.
+
+        |campo factura|
+
+        Imagen 24. Campo Factura
+
+    #. Seleccione en el campo "**Producto**", el producto o servicio que será vendido al socio del negocio cliente.
+
+        |Campo Producto|
+
+        Imagen 25. Campo Producto
+
+    #. Introduzca en el campo "**Descripción**", una breve descripción referente al registro que se encuentra realizando.
+
+        |campo descripción línea|
+
+        Imagen 26. Campo Descripción
+
+    #. Seleccione en el campo "**Cantidad**", la cantidad de productos o servicios que serán vendidos al socio del negocio cliente.
+
+        |Campo Cantidad|
+
+        Imagen 27. Campo Cantidad
+
+    #. Seleccione en el campo "**UM**", la unidad de medida del producto que será vendido al socio del negocio cliente.
+
+        |Campo UM|
+
+        Imagen 28. Campo UM
+
+    #. Introduzca en el campo "**Precio**", el precio unitario del producto o servicio seleccionado para la venta al socio del negocio cliente.
+
+        |Campo Precio|
+
+        Imagen 29. Campo Precio
+
+    #. El campo "**Cantidad Facturada**, indica la cantidad de un producto que ha sido facturado.
+
+        |campo cantidad facturada|
+
+        Imagen 30. Campo Cantidad Factura
+
+    #. El campo "**Precio de Lista**", indica el precio de lista oficial en la moneda del documento.
+
+        |campo precio de lista|
+
+        Imagen 31. Campo Precio de Lista
+
+    #. El campo "**Precio Actual**", indica el precio para un producto en la moneda fuente.
+
+        |campo precio actual|
+
+        Imagen 32. Campo Precio Actual
+
+    #. Seleccione en el campo "**Factura Afectada**", la factura afectada para ser asignada automáticamente al registro que se encuentra realizando.
+
+        |campo factura afectada línea|
+
+        Imagen 33. Campo Factura Afectada
+
+    #. Seleccione en el campo "**Impuesto**", el impuesto correspondiente a la venta del producto o servicio seleccionado.
+
+        |Campo Impuesto|
+
+        Imagen 34. Campo Impuesto
+
+    #. Podrá visualizar en el campo "**Neto de Línea**", el resultado del cálculo del valor en el campo "**Precio**" por el valor ingresado en el campo "**Cantidad**".
+
+        |Campo Neto de Línea|
+
+        Imagen 35. Campo Neto de Línea
+
+    #. El checklist "**Procesado**", indica que el registro fue procesado.
+
+        |checklist procesado|
+
+        Imagen 36. Checklist Procesado
+
+    .. note::
+
+        Recuerde guardar el registro de los campos con ayuda del icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+
+#. Seleccione la pestaña principal "**Factura**", para proceder a completar el registro.
 
     |Pestaña Factura|
+    
+    Imagen 37. Pestaña Factura
 
-    Imagen 20. Pestaña Factura
+    #. Podrá visualizar en el campo "**Orden de Venta**", la orden de venta asociada al registro que se encuentra realizando.
 
+        |campo orden de venta|
+
+        Imagen 38. Campo Orden de Venta
+
+    #. El checklist "**Pagado**", indica que el registro ya fue pagado.
+
+        |checklist pagado|
+
+        Imagen 39. Checklist Pagado
+
+    #. El campo "**Total de Líneas**", indica el total de todas las líneas en la moneda del documento.
+
+        |campo total de líneas|
+
+        Imagen 40. Campo Total de Líneas
+
+    #. El campo "**Gran Total**", indica el total incluyendo impuestos y totales de fletes en la moneda del documento.
+
+        |campo gran total|
+
+        Imagen 41. Campo Gran Total
+
+    #. El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Factura**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+
+        |campo estado del documento|
+
+        Imagen 42. Campo Estado del Documento
+
+    #. El campo "**Tipo de Documento**", indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.
+
+        |campo tipo de documento|
+
+        Imagen 43. Campo Tipo de Documento
+
+    #. Seleccione la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+
+        |opción procesar factura del icono proceso|
+
+        Imagen 44. Opción Procesar Factura del Icono Proceso
+    
     #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
         |Acción Completar y Opción OK|
 
-        Imagen 21. Acción Completar y Opción OK
+        Imagen 45. Acción Completar y Opción OK
