@@ -5,7 +5,6 @@
 .. |Asiento Contable del Pago de la Nómina| image:: resources/payroll-payment-accounting-entry.png
 
 
-
 .. _documento/contabilidad-de-transacciones-del-proceso-de-nómina:
 
 **Proceso de Nómina Regular**
@@ -38,5 +37,5 @@
 
     |Asiento Contable del Pago de la Nómina|
 
-    Imagen 3=4. Asiento Contable del Pago de la Nómina
+    Imagen 4. Asiento Contable del Pago de la Nómina
 
