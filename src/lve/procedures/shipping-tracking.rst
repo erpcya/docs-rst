@@ -130,3 +130,85 @@ Adicional a ello, se debe realizar el cierre de la caja "**Cobranza USD**", con 
 
 
     Para ver toda la relación se va a detalle de caja y ubica por socio de negocio, cobros.
+
+
+**Recibo de Dólares Electrónicos**
+----------------------------------
+
+Cuando el cliente adquiere el servico "**Personal Shopper**" por primera vez e indica que el pago será realizado por completo con dólares electrónicos. Suponiendo que su monto total disponible sea de mil trecientos dólares (1300$), se deben realizar dos (2) cobranzas para indicar lo siguiente:
+
+    - 1 caja cobranza llamando a la factura del servicio de personal Shopper
+    - 1 caja cobranza por el valor de las compras
+    - 1 cierre de caja por cada cobranza
+    - 1 depósito de caja 
+    - 1 cierre de caja para regresar la misma al saldo inicial cero (0)
+    - 1 transferencia bancaria por el valor de las compras
+
+Para registrar el proceso correctamente en ADempiere, es necesario seguir el siguiente procedimiento:
+
+**Factura del Servicio Personal Shopper**
+*****************************************
+
+Suponiendo que el servicio de personal shopper tiene un valor de cien dólares (100$). Se crea la factura del servicio de personal shopper, donde se refleja el costo del mismo en la caja "**Compras_USD**", ubicada en la ventana "**Caja**", considerando los siguientes datos:
+
+    .. warning::
+    
+        Mientras tanto va hacer en bolívares (Bs), hasta se defina si va hacer en dólares ($) y si en el formato de impresión va a salir convertido.
+
+    - "**Tipo de Documento Destino**": Factura de Cuentas por Cobrar Nacional
+    - "**Socio del Negocio**": Cliente
+    - "**Moneda**": VES
+    - "**Producto (Tipo Servicio)**": Personal Shopper
+    - "**Monto Base Convertido**"
+    - "**IVA 16%**"
+
+    .. note::
+
+        Si requiere del material que explica el procedimiento detallado para crear una factura, puede visualizar el mismo en el documento :ref:`documento/documento-por-cobrar`
+
+**Registro de Servicio Personal Shopper**
+*****************************************
+
+El procedimiento consta en realizar dos cobranzas para reflejar por separado el valor de las compras y el valor del servicio personal shopper. Si requiere del material que explica el procedimiento detallado para crear una cobranza, puede visualizar el mismo en el documento :ref:`documento/caja-cobranza`. Recuerde que debe considerar los siguientes puntos al momento de la elaboración de cada cobranza.
+
+Registrar el cobro de las compras en la caja "**Compras_USD**", ubicada en la ventana "**Caja**", considerando los siguientes datos:
+
+    - "**Diario de Caja**": Compras_USD
+    - "**Tipo de documento**": Cobro Nacional 
+    - "**Socio del Negocio**": La persona que está transfiriendo los dólares ($)
+    - "**Cargo**": Compra Exterior
+    - "**Total de Pago**": 1200 
+    - "**Moneda**": USD
+
+    Recuerde que en este registro se va a colocar solo el monto que queda de la resta de servicio de personal shopper.
+
+    .. note::
+
+        El valor de personal shopper lo indica "**Ana**" y ya es un valor que se tiene bajo una negociación entre "**Ana**" y "**El Cliente**", Ana saca ese valor del servicio del personal shopper en base.
+
+    No debe olvidar realizar por completo el procedimiento regular explicado en el documento :ref:`documento/caja-cobranza`. Recuerde que el mismo culmina luego de completar el segundo cierre de caja, correspondiente a la caja cobranza creada previamente, con la finalidad de llevar la misma a su saldo inicial. Adicional a ello, debe realizar el depósito a la cuenta "**Bofa de Ana**" y en el mismo se debe tildar el checklist "**Dividir Depósito**", para que sea habilitado el campo "**No. de Documento**", donde se ingresa el número de referencia.
+
+
+Luego, se debe registrar el cobro del servicio de personal shopper, donde se reflejan los cien dólares (100$), en la caja "**Compras_USD**", ubicada en la ventana "**Caja**", considerando los siguientes datos:
+
+    .. warning::
+    
+        Debe haber una tasa cargada con el valor de la tasa de la factura
+
+    - "**Diario de Caja**": Cobranza USD
+    - "**Tipo de Documento**": Cobro Nacional
+    - "**Socio del Negocio**": Mismo Cliente
+    - "**Factura**": La factura creada por el servicio de personal shopper
+    - "**Moneda**": USD
+    - "**Se deja tildado él “Sobre sub-pago”**"
+
+
+    .. note::
+
+        Recuerde que el valor de personal shopper lo indica "**Ana**" y ya es un valor que se tiene bajo una negociación entre "**Ana**" y "**El Cliente**", Ana saca ese valor del servicio del personal shopper en base.
+
+    No debe olvidar realizar por completo el procedimiento regular explicado en el documento :ref:`documento/caja-cobranza`. Recuerde que el mismo culmina luego de completar el segundo cierre de caja, correspondiente a la caja cobranza creada previamente, con la finalidad de llevar la misma a su saldo inicial. Adicional a ello, debe realizar el depósito a la cuenta "**Bofa de Ana**" y en el mismo se debe tildar el checklist "**Dividir Depósito**", para que sea habilitado el campo "**No. de Documento**", donde se ingresa el número de referencia.
+
+
+
+Finalmente, se registra la transferencia en ADempiere desde la ventana "**Transferencia Bancaria**", donde se envía desde la cuenta caja "**Bofa Ana**" a la cuenta caja "**Compras USD**", con el socio de negocio el cliente y por el monto de las compras. Si requiere del material que explica el procedimiento detallado para realizar una transferencia, puede visualizar el mismo en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`.
