@@ -9,7 +9,6 @@
 .. |campo fecha de facturación| image:: resources/billing-date-field.png
 .. |campo referencia de orden de socio del negocio| image:: resources/business-partner-order-reference-field.png
 .. |Campo Socio del Negocio| image:: resources/business-partner-field.png
-
 .. |Campo Tipo de Documento Destino nota de débito| image:: resources/debit-memo-destination-document-type-field.png
 .. |Campo Dirección del Socio del Negocio nota de débito| image:: resources/business-partner-address-field-debit-note.png
 .. |campo usuario nota de débito| image:: resources/debit-note-user-field.png
@@ -215,6 +214,10 @@ A continuación es explicado el procedimiento para registrar en ADempiere una no
         |Campo producto nota de débito|
 
         Imagen 25. Campo Producto
+
+        .. warning::
+
+            Si la nota de débito es por un concepto especial, como es el caso de gastos administrativos, sustituya el producto por un cargo que justifique la nota.
 
     #. Seleccione en el campo "**Cargo**", el cargo por el cual se encuentra aplicando la nota de débito.
 

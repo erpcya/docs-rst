@@ -9,7 +9,6 @@
 .. |campo fecha de facturacion de la ventana documentos por pagar| image:: resources/invoice-date-field-of-the-documents-payable-window.png
 .. |campo referencia de orden de socio del negocio de la ventana documentos por pagar| image:: resources/business-partner-order-reference-field-of-the-payables-window.png
 .. |campo socio del negocio de la ventana documentos por pagar| image:: resources/business-partner-field-of-payables-window.png
-
 .. |campo tipo de documento de la ventana documentos por pagar débito| image:: resources/document-type-field-of-the-documents-payable-debit-window.png
 .. |campo direccion del socio del negocio de la ventana documentos por pagar débito| image:: resources/field-address-of-the-business-partner-of-the-window-documents-payable-debit.png
 .. |campo usuario de la ventana documentos por pagar débito| image:: resources/user-field-of-documents-payable-debit-window.png
@@ -190,7 +189,7 @@ A continuación es explicado el procedimiento para generar en ADempiere, una not
 
         .. warning::
 
-            Si la nota de crédito es por un concepto especial, como es el caso de descuento en precio o diferencia cambiaria, sustituya el producto por un cargo que justifique la nota.
+            Si la nota de débito es por un concepto especial, como es el caso de gastos administrativos, sustituya el producto por un cargo que justifique la nota.
 
     #. Seleccione en el campo "**Cargo**", el cargo por el cual se encuentra aplicando la nota de débito.
 

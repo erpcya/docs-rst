@@ -9,7 +9,6 @@
 .. |campo fecha de facturación| image:: resources/billing-date-field.png
 .. |campo referencia de orden de socio del negocio| image:: resources/business-partner-order-reference-field.png
 .. |Campo Socio del Negocio| image:: resources/business-partner-field.png
-
 .. |Campo Tipo de Documento Destino nota de crédito| image:: resources/credit-memo-destination-document-type-field.png
 .. |Campo Dirección del Socio del Negocio nota de crédito| image:: resources/business-partner-address-field-credit-note.png
 .. |campo usuario nota de crédito| image:: resources/credit-note-user-field.png
@@ -216,6 +215,10 @@ A continuación es explicado el procedimiento para registrar en ADempiere una no
 
         Imagen 25. Campo Producto
 
+        .. warning::
+
+            Si la nota de crédito es por un concepto especial, como es el caso de descuento en precio o diferencia cambiaria, sustituya el producto por un cargo que justifique la nota.
+
     #. Seleccione en el campo "**Cargo**", el cargo por el cual se encuentra aplicando la nota de crédito.
 
         |Campo cargo nota de crédito|
@@ -226,67 +229,67 @@ A continuación es explicado el procedimiento para registrar en ADempiere una no
 
         |campo descripción línea nota de crédito|
 
-        Imagen 26. Campo Descripción
+        Imagen 27. Campo Descripción
 
     #. Seleccione en el campo "**Cantidad**", la cantidad relacionada al registro que se encuentra realizando.
 
         |Campo Cantidad nota de crédito|
 
-        Imagen 27. Campo Cantidad
+        Imagen 28. Campo Cantidad
 
     #. Seleccione en el campo "**UM**", la unidad de medida relacionada al registro que se encuentra realizando.
 
         |Campo UM nota de crédito|
 
-        Imagen 28. Campo UM
+        Imagen 29. Campo UM
 
     #. Introduzca en el campo "**Precio**", el precio correspondiente a la nota de crédito que se encuentra realizando.
 
         |Campo Precio nota de crédito|
 
-        Imagen 29. Campo Precio
+        Imagen 30. Campo Precio
 
     #. El campo "**Cantidad Facturada**, indica la cantidad de un producto que ha sido facturado.
 
         |campo cantidad facturada nota de crédito|
 
-        Imagen 30. Campo Cantidad Factura
+        Imagen 31. Campo Cantidad Factura
 
     #. El campo "**Precio de Lista**", indica el precio de lista oficial en la moneda del documento.
 
         |campo precio de lista nota de crédito|
 
-        Imagen 31. Campo Precio de Lista
+        Imagen 32. Campo Precio de Lista
 
     #. El campo "**Precio Actual**", indica el precio para un producto en la moneda fuente.
 
         |campo precio actual nota de crédito|
 
-        Imagen 32. Campo Precio Actual
+        Imagen 33. Campo Precio Actual
 
     #. Seleccione en el campo "**Factura Afectada**", la factura a la cual le será aplicada la nota de crédito que se encuentra realizando.
 
         |campo factura afectada línea nota de crédito|
 
-        Imagen 33. Campo Factura Afectada
+        Imagen 34. Campo Factura Afectada
 
     #. Seleccione en el campo "**Impuesto**", el impuesto correspondiente a la nota de crédito que se encuentra realizando.
 
         |Campo Impuesto nota de crédito|
 
-        Imagen 34. Campo Impuesto
+        Imagen 35. Campo Impuesto
 
     #. Podrá visualizar en el campo "**Neto de Línea**", el resultado del cálculo del valor en el campo "**Precio**" por el valor ingresado en el campo "**Cantidad**".
 
         |Campo Neto de Línea nota de crédito|
 
-        Imagen 35. Campo Neto de Línea
+        Imagen 36. Campo Neto de Línea
 
     #. El checklist "**Procesado**", indica que el registro fue procesado.
 
         |checklist procesado nota de crédito|
 
-        Imagen 36. Checklist Procesado
+        Imagen 37. Checklist Procesado
 
     .. note::
 
@@ -299,52 +302,52 @@ A continuación es explicado el procedimiento para registrar en ADempiere una no
 
     |Pestaña Factura nota de crédito|
     
-    Imagen 37. Pestaña Factura
+    Imagen 38. Pestaña Factura
 
     #. Podrá visualizar en el campo "**Orden de Venta**", la orden de venta asociada al registro que se encuentra realizando.
 
         |campo orden de venta nota de crédito|
 
-        Imagen 38. Campo Orden de Venta
+        Imagen 39. Campo Orden de Venta
 
     #. El checklist "**Pagado**", indica que el registro ya fue pagado.
 
         |checklist pagado nota de crédito|
 
-        Imagen 39. Checklist Pagado
+        Imagen 40. Checklist Pagado
 
     #. El campo "**Total de Líneas**", indica el total de todas las líneas en la moneda del documento.
 
         |campo total de líneas nota de crédito|
 
-        Imagen 40. Campo Total de Líneas
+        Imagen 41. Campo Total de Líneas
 
     #. El campo "**Gran Total**", indica el total incluyendo impuestos y totales de fletes en la moneda del documento.
 
         |campo gran total nota de crédito|
 
-        Imagen 41. Campo Gran Total
+        Imagen 42. Campo Gran Total
 
     #. El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Factura**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
         |campo estado del documento nota de crédito|
 
-        Imagen 42. Campo Estado del Documento
+        Imagen 43. Campo Estado del Documento
 
     #. El campo "**Tipo de Documento**", indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.
 
         |campo tipo de documento nota de crédito|
 
-        Imagen 43. Campo Tipo de Documento
+        Imagen 44. Campo Tipo de Documento
 
     #. Seleccione la opción "**Procesar Factura**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
         |opción procesar factura del icono proceso nota de crédito|
 
-        Imagen 44. Opción Procesar Factura del Icono Proceso
+        Imagen 45. Opción Procesar Factura del Icono Proceso
     
     #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
         |Acción Completar y Opción OK|
 
-        Imagen 45. Acción Completar y Opción OK
+        Imagen 46. Acción Completar y Opción OK
