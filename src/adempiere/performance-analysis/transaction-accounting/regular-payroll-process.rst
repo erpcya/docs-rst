@@ -10,12 +10,9 @@
 **Proceso de Nómina Regular**
 =============================
 
-**Nómina Semanal, Quincenal y Mensual**
----------------------------------------
+#. Realice el procedimiento regular para procesar las nóminas en ADempiere, el mismo se encuentra explicado en el documento :ref:`documento/procedimiento-para-procesar-nómina`, elaborado por `ERPyA`_.
 
-#. Realice el procedimiento regular para procesar las nóminas semanal, quincenal y mensual en ADempiere, los mismos se encuentran explicados en los documentos :ref:`documento/nomina-semanal`, :ref:`documento/nomina-quincenal` y :ref:`documento/nomina-mensual`, elaborado por `ERPyA`_.
-
-#. Luego de que se encuentran procesadas las nóminas semanal, quincenal y mensual, seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Proceso Nómina**".
+#. Luego de que se encuentren procesadas las nóminas, seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Proceso Nómina**".
 
     |Opción Contabilizado de la Ventana Proceso Nómina|
 
@@ -27,7 +24,7 @@
 
     Imagen 2. Asiento Contable de la Nómina
 
-#. Al culminar los pagos de las nóminas semanal, quincenal y mensual, seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Caja**". Dicho procedimiento de pago de nómina se encuentra explicado en el documento :ref:`documento/pago-de-nómina`.
+#. Al culminar los pagos de las nóminas procesadas, seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Caja**". Dicho procedimiento de pago de nómina se encuentra explicado en el documento :ref:`documento/pago-de-nómina`.
 
     |opción contabilizado de la ventana caja nómina|
 
