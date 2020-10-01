@@ -4,10 +4,7 @@
 .. |opción contabilizado de la ventana caja nómina| image:: resources/posted-option-from-the-payroll-window.png
 .. |Asiento Contable del Pago de la Nómina| image:: resources/payroll-payment-accounting-entry.png
 
-.. |Opción Contabilizado de la Ventana Proceso Nómina Mixta| image:: resources/posted-option-from-the-mixed-payroll-process-window.png
-.. |Asiento Contable de la Nómina Mixta| image:: resources/accounting-entry-of-mixed-payroll.png
-.. |opción contabilizado de la ventana caja nómina mixta| image:: resources/posted-option-from-the-mixed-payroll-window.png
-.. |Asiento Contable del Pago de la Nómina Mixta| image:: resources/accounting-entry-of-the-mixed-payroll-payment.png
+
 
 .. _documento/contabilidad-de-transacciones-del-proceso-de-nómina:
 
@@ -43,31 +40,3 @@
 
     Imagen 3=4. Asiento Contable del Pago de la Nómina
 
-**Nómina Semanal Mixta, Quincenal Mixta y Mensual Mixta**
----------------------------------------------------------
-
-#. Realice el procedimiento regular para procesar las nóminas semanal mixta, quincenal mixta y mensual mixta en ADempiere, los mismos se encuentran explicados en los documentos :ref:`documento/nomina-semanal-mixta`, :ref:`documento/nomina-quincenal-mixta` y :ref:`documento/nomina-mensual-mixta`, elaborado por `ERPyA`_.
-
-#. Luego de que se encuentran procesadas las nóminas semanal mixta, quincenal mixta y mensual mixta, seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Poceso Nómina**".
-
-    |Opción Contabilizado de la Ventana Proceso Nómina Mixta|
-
-    Imagen 5. Opción Contabilizado de la Nómina
-
-#. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Poceso Nómina**".
-
-    |Asiento Contable de la Nómina Mixta|
-
-    Imagen 6. Asiento Contable de la Nómina
-
-#. Al culminar los pagos de las nóminas semanal, quincenal y mensual, seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Caja**". Dicho procedimiento de pago de nómina se encuentra explicado en el documento :ref:`documento/pago-de-nómina`.
-
-    |opción contabilizado de la ventana caja nómina mixta|
-
-    Imagen 7. Opción Contabilizado de la Ventana Caja
-
-#. Adicional a ello, se genera un asiento contable por la transacción de pago de las nóminas.
-
-    |Asiento Contable del Pago de la Nómina Mixta|
-
-    Imagen 8. Asiento Contable del Pago de la Nómina
