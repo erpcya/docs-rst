@@ -137,12 +137,9 @@ Adicional a ello, se debe realizar el cierre de la caja "**Cobranza USD**", con 
 
 Cuando el cliente adquiere el servico "**Personal Shopper**" por primera vez e indica que el pago será realizado por completo con dólares electrónicos. Suponiendo que su monto total disponible sea de mil trecientos dólares (1300$), se deben realizar dos (2) cobranzas para indicar lo siguiente:
 
-    - 1 caja cobranza llamando a la factura del servicio de personal Shopper
-    - 1 caja cobranza por el valor de las compras
-    - 1 cierre de caja por cada cobranza
-    - 1 depósito de caja 
-    - 1 cierre de caja para regresar la misma al saldo inicial cero (0)
-    - 1 transferencia bancaria por el valor de las compras
+    - Una (1) caja cobranza llamando a la factura del servicio "**Personal Shopper**".
+    - Una (1) caja cobranza por el valor de las compras llamando al cargo "**Compra Exterior**".
+    - Una (1) transferencia bancaria por el valor de las compras.
 
 Para registrar el proceso correctamente en ADempiere, es necesario seguir el siguiente procedimiento:
 
@@ -211,4 +208,4 @@ Luego, se debe registrar el cobro del servicio de personal shopper, donde se ref
 
 
 
-Finalmente, se registra la transferencia en ADempiere desde la ventana "**Transferencia Bancaria**", donde se envía desde la cuenta caja "**Bofa Ana**" a la cuenta caja "**Compras USD**", con el socio de negocio el cliente y por el monto de las compras. Si requiere del material que explica el procedimiento detallado para realizar una transferencia, puede visualizar el mismo en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`.
+Finalmente, se registra la transferencia en ADempiere desde la ventana "**Transferencia Bancaria**", donde se envía desde la cuenta caja "**Bofa Ana**" a la cuenta caja "**Compras USD**", con el socio de negocio el cliente y el monto de las compras. Si requiere del material que explica el procedimiento detallado para realizar una transferencia, puede visualizar el mismo en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`.
