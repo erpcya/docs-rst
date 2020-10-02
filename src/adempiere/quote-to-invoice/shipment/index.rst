@@ -11,5 +11,3 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
     :maxdepth: 2
 
     shipment-customer
-    generate-delivery-from-order-lines
-    generate-manual-deliveries
