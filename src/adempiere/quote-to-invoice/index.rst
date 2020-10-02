@@ -11,5 +11,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
     sales-order/index
     invoice-customer/index
+    shipment/index
     credit-note-cxc
     debit-note-cxc

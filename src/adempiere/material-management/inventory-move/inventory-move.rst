@@ -25,7 +25,7 @@
 **Registro de Movimiento de Inventario**
 ========================================
 
-Para ejemplificar el procedimiento es generado el reporte "**Detalle de Almacenamiento**" del producto "**Bolígrafo**" en el almacén "**Insumos de Oficina**", el mismo es visualizado de la siguiente manera antes del movimiento de inventario.
+Para ejemplificar el procedimiento es generado el reporte "**Detalle de Almacenamiento**" del producto "**Estándar**" en el almacén "**Insumos de Oficina**", el mismo es visualizado de la siguiente manera antes del movimiento de inventario.
 
     |Reporte Detalle Almacenamiento Antes|
 
@@ -150,7 +150,7 @@ Para ejemplificar el procedimiento es generado el reporte "**Detalle de Almacena
 **Consultar Reporte de Almacenamiento**Completar
 =======================================
 
-#. Al generar el reporte "**Detalle de Almacenamiento**" del producto "**Bolígrafo**" en el almacén "**Insumos de Oficina**", el mismo es visualizado de la siguiente manera después del movimiento de inventario.
+#. Al generar el reporte "**Detalle de Almacenamiento**" del producto "**Estándar**" en el almacén "**Insumos de Oficina**", el mismo es visualizado de la siguiente manera después del movimiento de inventario.
 
     |Reporte Detalle Almacenamiento Después|
 
