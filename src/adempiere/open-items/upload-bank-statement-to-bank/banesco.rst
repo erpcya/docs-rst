@@ -127,7 +127,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
     HDRBANESCO        ED  95BPAYMULP
     01SCV                                9  1000024                            20201005000000
-    021000024                                        Compaa Estndar                     000001867000000VES 0134000000000000000               BANESCO    20201005
+    021000024                                        Compaa Estndar                     000001867000000VES 01340000000000000000               BANESCO    20201005
     0300000000                      000000505000000VES01140000000000000000          0114          J297599070       Bolivariana de Puertos  ( Bolipuertos)  S A                                                                                                                                                                                                                                    425
     0300000001                      000000353500000VES01140000000000000000          0114          J002443731       Dhl Express Aduanas Venezuela CA                                                                                                                                                                                                                                               425
     0300000002                      000000402500000VES01140000000000000000          0114          V0000000         Estndar                                                               estandar@ejmplo.com                                                                                                                                                                                      425
@@ -152,7 +152,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
     - **Nombre del Ordenante**: Nombre de la Empresa sin acentos o caracteres especiales. En el ejemplo anterior el valor correspondiente es **Compaa Estndar**.
     - **Montos Total a Debitar/Abonar**: Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. El monto del débito debe cuadrar con la sumatoria de los créditos. En el ejemplo anterior el valor correspondiente es **000001867000000**.
     - **Moneda**: Siglas correspondiente a la moneda del débito. En el ejemplo anterior el valor correspondiente es **VES**.
-    - **Número de Cuenta a Débitar**: Número de cuenta en Banesco que este registrada o asociada a EDI y desde la cual saldra el dinero. En el ejemplo anterior el valor correspondiente es **0134000000000000000**.
+    - **Número de Cuenta a Débitar**: Número de cuenta en Banesco que este registrada o asociada a EDI y desde la cual saldra el dinero. En el ejemplo anterior el valor correspondiente es **01340000000000000000**.
 
 .. warning::
 
