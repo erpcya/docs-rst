@@ -1,6 +1,6 @@
 
 .. |Parámetros para generar el reporte| image:: resources/reportparametersearningnormalsalary.png
-.. |Reporte Devengado Salario Integral| image:: resources/normalsalary.png
+.. |Reporte Devengado Salario Normal| image:: resources/normalsalary.png
 
 .. _documento/devengado-salario-normal:
 
@@ -14,7 +14,7 @@ El reporte "** Devengado Salario Normal**" se refiere al salario que devengó el
 
 Para obtener dicho reporte debemos seleccionar los siguientes campos:
 
- +---------------------------------+-------------------------------------------------------------+
+   +---------------------------------+-------------------------------------------------------------+
    |      **PARÁMETROS**             |                       **REFERENCIA**                        |
    +=================================+=============================================================+
    | Organización                    | Seleccione la Organización a la cual pertenece  la nómina o |
@@ -24,7 +24,7 @@ Para obtener dicho reporte debemos seleccionar los siguientes campos:
    |                                 | desea visualizar el reporte, este filtro lo puede usar si   |
    |                                 | quiere visualizar varias nóminas de un mismo tipo y no una  |
    |                                 | en específico                                               |
-   +-------------------------------- +-------------------------------------------------------------+
+   +---------------------------------+-------------------------------------------------------------+
    | Proceso de Nómina               | Seleccione el proceso de nómina en específico basado en el  |
    |                                 | tipo de nómina que seleccionó anteriormente  (Tambien puede |
    |                                 | ubicarlo en la ventana proceso de nómina)                   |
@@ -42,9 +42,13 @@ Para obtener dicho reporte debemos seleccionar los siguientes campos:
    |                                 | que el reporte todo en cuenta solo los procesos de nóminas  |
    |                                 | en estado Completo no los anulados, ni en borrador          |
    +---------------------------------+-------------------------------------------------------------+
-   | Configuración del Reporte de    | Seleccione en este caso Salario Acumulado para Utilidades   |
+   | Configuración del Reporte de    | Seleccione en este caso Devengado Salario Normal            |
    | Nómina.                         |                                                             |
    +---------------------------------+-------------------------------------------------------------+
+
+|Parámetros para generar el reporte|
+
+Imagen 1. Parámetros para generar el reporte 
 
 
 Los campos que podrá visualizar en este reporte son:
@@ -81,3 +85,6 @@ En el siguiente ejemplo se presenta  el monto devengado por salario normal  por 
 
 Si desea conocer el valor de dicho concepto durante varias nóminas, no seleccione en el campo proceso de nómina y coloca un parametros de fechas con la finalidad de que pueda visualizar el monto obtenido durante varios procesos de nómina
 
+|Reporte Devengado Salario Normal|
+
+Imagen 2. Reporte Devengado Salario Normal
