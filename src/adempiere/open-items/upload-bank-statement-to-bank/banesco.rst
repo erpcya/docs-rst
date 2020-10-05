@@ -152,7 +152,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
     - **Nombre del Ordenante**: Nombre de la Empresa sin acentos o caracteres especiales. En el ejemplo anterior el valor correspondiente es **Compaa Estndar**.
     - **Montos Total a Debitar/Abonar**: Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. El monto del débito debe cuadrar con la sumatoria de los créditos. En el ejemplo anterior el valor correspondiente es **000001867000000**.
     - **Moneda**: Siglas correspondiente a la moneda del débito. En el ejemplo anterior el valor correspondiente es **VES**.
-    - **Número de Cuenta a Débitar**: Número de cuenta en Banesco que este registrada o asociada a EDI y desde la cual saldra el dinero. En el ejemplo anterior el valor correspondiente es **Compaa Estndar**.
+    - **Número de Cuenta a Débitar**: Número de cuenta en Banesco que este registrada o asociada a EDI y desde la cual saldra el dinero. En el ejemplo anterior el valor correspondiente es **0134000000000000000**.
 
 .. warning::
 
