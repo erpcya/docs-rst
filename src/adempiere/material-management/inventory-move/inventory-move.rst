@@ -8,6 +8,7 @@
 .. |campo referencia de orden de socio del negocio| image:: resources/business-partner-order-reference-field.png
 .. |Campo Fecha de Movimiento| image:: resources/movement-date-field.png
 .. |Campo Tipo de Documento| image:: resources/document-type-field.png
+.. |campo socio del negocio| image:: resources/business-partner-field.png
 .. |Campo Descripción| image:: resources/description-field.png
 .. |Pestaña Línea de Movimiento| image:: resources/motion-line-tab.png
 .. |campo movimiento| image:: resources/motion-field.png
@@ -79,11 +80,17 @@ Para ejemplificar el procedimiento es generado el reporte "**Detalle de Almacena
 
         Imagen 9. Campo Tipo de Documento
 
+    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio al cual se esta realizando la entrega de los productos relacionados al movimiento de inventario.
+
+        |campo socio del negocio|
+
+        Imagen 10. Campo Socio del Negocio
+
     #. Introduzca en el campo "**Descripción**", una breve descripción del movimiento de inventario que esta realizando.
 
         |Campo Descripción|
 
-        Imagen 10. Campo Descripción
+        Imagen 11. Campo Descripción
 
     .. note::
 
@@ -93,66 +100,66 @@ Para ejemplificar el procedimiento es generado el reporte "**Detalle de Almacena
 
     |Pestaña Línea de Movimiento|
 
-    Imagen 11. Pestaña Línea de Movimiento
+    Imagen 12. Pestaña Línea de Movimiento
 
     #. Podrá visualizar en el campo "**Movimiento**", el número de registro al que pertenece el registro de la línea en el que se encuentra.
 
         |campo movimiento|
 
-        Imagen 12. Campo Movimiento
+        Imagen 13. Campo Movimiento
 
     #. Seleccione en el campo "**Producto**", el producto involucrado en el movimiento de inventario.
 
         |Campo Producto|
 
-        Imagen 13. Campo Producto
+        Imagen 14. Campo Producto
 
     #. Seleccione en el campo "**Cantidad del Movimiento**", la cantidad de productos involucrados en el movimiento de inventario.
 
         |Campo Cantidad del Movimiento|
 
-        Imagen 14. Campo Cantidad del Movimiento
+        Imagen 15. Campo Cantidad del Movimiento
 
     #. Seleccione en el campo "**Ubicación**", la ubicación exacta donde se encuentra localizado el producto.
 
         |Campo Ubicación|
 
-        Imagen 15. Campo Ubicación
+        Imagen 16. Campo Ubicación
 
     #. Seleccione en el campo "**A Ubicación**", la ubicación exacta donde será almacenado o donde va dirigido el producto.
 
         |Campo A Ubicación|
 
-        Imagen 16. Campo A Ubicación
+        Imagen 17. Campo A Ubicación
 
     #. Introduzca en el campo "**Descripción**", una breve descripción del movimiento de inventario que esta realizando.
 
         |Campo Descripción línea|
 
-        Imagen 17. Campo Descripción
+        Imagen 18. Campo Descripción
 
     .. note::
 
         Recuerde guardar los cambios realizados en los campos de la pestaña "**Línea del Movimiento**", seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de ADempiere.
 
-#. Seleccione la pestaña principal "**Movimiento**", luego seleccione la opción "**Procesar Movimiento**" desplegada al seleccionar el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+#. Seleccione la pestaña principal "**Movimiento**", luego seleccione la opción "**Procesar Movimientos**" desplegada al seleccionar el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
     |Pestaña Movimiento|
 
-    Imagen 18. Pestaña Movimiento y Opción Procesar Movimiento
+    Imagen 19. Pestaña Movimiento y Opción Procesar Movimiento
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Movimiento de Inventario**".
 
     |Acción Completar y Opción OK|
 
-    Imagen 19. Acción Completar y Opción OK 
+    Imagen 20. Acción Completar y Opción OK 
 
-**Consultar Reporte de Almacenamiento**Completar
+**Consultar Reporte de Almacenamiento**
 =======================================
 
 #. Al generar el reporte "**Detalle de Almacenamiento**" del producto "**Estándar**" en el almacén "**Insumos de Oficina**", el mismo es visualizado de la siguiente manera después del movimiento de inventario.
 
     |Reporte Detalle Almacenamiento Después|
 
-    Imagen 20. Reporte Detalle Almacenamiento Después del Movimiento
+    Imagen 21. Reporte Detalle Almacenamiento Después del Movimiento
 
