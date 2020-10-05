@@ -15,3 +15,4 @@ El presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación 
     egress-process
     entry-process
     inventory-process
+    regular-payroll-process

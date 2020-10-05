@@ -380,7 +380,7 @@
 
     #. Seleccione la cuenta en el campo "**Cuenta**".
 
-        La cuenta es un campo obligatorio, le permite definir la cuenta contable en la cual abona o carga el saldo, recordando que una cuenta es utilizada para aplicar o un debito o un crédito a la vez.
+        La cuenta es un campo obligatorio, le permite definir la cuenta contable en la cual abona o carga el saldo, recordando que una cuenta es utilizada para aplicar o un débito o un crédito a la vez.
 
         Esta cuenta tiene incidencias en el campo combinación contable, cuando es guardado el registro establece la :ref:`documento/combinación-contable` de forma automática.
 
@@ -392,7 +392,7 @@
 
             **¡Recuerde!**
 
-                Debe realizar este procedimiento por cada debito o crédito que desee aplicar a cada cuenta.
+                Debe realizar este procedimiento por cada débito o crédito que desee aplicar a cada cuenta.
 
     #. Seleccione el socio de negocio en el campo "**Socio del Negocio**".
 
