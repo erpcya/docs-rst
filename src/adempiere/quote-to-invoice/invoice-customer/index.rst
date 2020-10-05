@@ -13,4 +13,3 @@ En ADempiere es posible generar una factura de cuentas por cobrar de forma direc
     :maxdepth: 2
 
     invoice-customer
-    generate-invoice-from-order-lines

@@ -18,5 +18,7 @@ Por ello, `ERPyA`_ presenta la siguiente guía con instrucciones claras y precis
 
     currency-conversion/index
     bank-transfer/index
+    payment/index
+    collection/index
     collection-cash/index
     cash-closing/index

@@ -10,3 +10,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     :maxdepth: 2
 
     sales-order/index
+    invoice-customer/index
+    shipment/index
+    credit-note-cxc
+    debit-note-cxc

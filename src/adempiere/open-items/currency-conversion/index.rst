@@ -12,3 +12,4 @@ ADempiere permite definir diferentes conversiones monetarias y estas a su vez, d
 
     manual-currency-conversion
     automatic-currency-conversion
+    automatic-conversion-by-type

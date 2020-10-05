@@ -1,30 +1,35 @@
 .. _ERPyA: http://erpya.com
-.. |Factura a Pagar| image:: resources/factura-pagar.png
-.. |Menú de ADempiere| image:: resources/menu-pago.png
-.. |Icono Registro Nuevo| image:: resources/icono-nuevo.png
-.. |Campo Organización| image:: resources/org-pago.png
-.. |Campo Tipo de Documento| image:: resources/tipo-doc-pago.png
-.. |Campo Cuenta Bancaria| image:: resources/cuenta-ban.png
-.. |Campo Descripción| image:: resources/desc-pago.png
-.. |Campo Socio del Negocio Proveedor| image:: resources/socio-pro.png
-.. |Identificador del Campo Factura| image:: resources/ident-factura.png
-.. |Selección de Factura y Opción OK| image:: resources/selec-fac-op-ok.png
-.. |Campo Total del Pago| image:: resources/monto-pago.png
-.. |Campo Moneda| image:: resources/moneda.png
-.. |Campo Tipo de Pago| image:: resources/tipo-pago.png
-.. |Icono Guardar Cambios| image:: resources/guardar.png
-.. |Opción Completar| image:: resources/completar.png
-.. |Acción Completar| image:: resources/accion-completar.png
-.. |Icono Visualiza Detalle| image:: resources/icono-vis-det.png
-.. |Pestaña Asignación| image:: resources/asignacion.png
-.. |Pestaña Asignaciones| image:: resources/asignacion2.png
+.. |Factura a Pagar| image:: resources/invoice-payable.png
+.. |Menú de ADempiere| image:: resources/menu-payment-collection.png
+.. |Icono Registro Nuevo| image:: resources/new-record-icon.png
+.. |Campo Organización| image:: resources/organization-field.png
+.. |Campo Cuenta Bancaria| image:: resources/bank-account-field.png
+.. |Campo nro del documento| image:: resources/document-number-field.png
+.. |Campo fecha de la transacción| image:: resources/transaction-date-field.png
+.. |Campo Tipo de Documento| image:: resources/document-type-field.png
+.. |Campo Socio del Negocio Proveedor| image:: resources/business-partner-field.png
+.. |Campo Descripción| image:: resources/description-field.png
+.. |Identificador del Campo Factura| image:: resources/invoice-field-identifier.png
+.. |Selección de Factura y Opción OK| image:: resources/invoice-selection-and-option-ok.png
+.. |Campo Tipo de Pago| image:: resources/payment-type-field.png
+.. |Campo Total del Pago| image:: resources/total-payment-field.png
+.. |Campo Moneda| image:: resources/currency-field.png
+.. |checklist sobre sub pagos| image:: resources/checklist-on-subpayments.png
+.. |totales con sobre sub pago| image:: resources/totals-with-overpayment.png
+.. |total del ajuste| image:: resources/total-fit.png
+.. |Campo Referencia| image:: resources/reference-field.png
+.. |Campo Estado del Documento| image:: resources/document-status-field.png
+.. |Campo Banco| image:: resources/field-bank.png
+.. |Checklist Procesado| image:: resources/processed-checklist.png
+.. |Opción Procesar Pago del Icono Proceso| image:: resources/option-process-icon-payment-process.png
+.. |Acción Completar| image:: resources/action-complete.png
 
 .. _documento/pago:
 
 **Registro de Pago**
 ====================
 
-Para ejemplificar el procedimiento de generar un pago en ADempiere, es utilizada la factura por pagar "**1000099**".
+Para ejemplificar el procedimiento de generar un pago en ADempiere, es utilizada la factura por pagar "**1000123**".
 
     |Factura a Pagar|
 
@@ -42,101 +47,132 @@ Para ejemplificar el procedimiento de generar un pago en ADempiere, es utilizada
 
     Imagen 3. Icono Registro Nuevo
 
-#. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Pago**".
+    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Pago**".
 
-    |Campo Organización|
+        |Campo Organización|
 
-    Imagen 4. Campo Organización
+        Imagen 4. Campo Organización
 
-#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. 
+    #. Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria a la cual será realizado el pago.
 
-    |Campo Tipo de Documento|
+        |Campo Cuenta Bancaria|
 
-    Imagen 5. Campo Tipo de Documento
+        Imagen 5. Campo Cuenta Bancaria
 
-#. Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria a la cual será realizado el pago.
+    #. Introduzca en el campo "**No. del Documento**", el número de documento correspondiente a la secuencia del tipo de documento que se encuentre realizando.
 
-    |Campo Cuenta Bancaria|
+        |Campo nro del documento|
 
-    Imagen 6. Campo Cuenta Bancaria
+        Imagen 6. Campo No. del Documento
 
-#. Introduzca en el campo "**Descripción**", una breve descripción referente al pago que será realizado.
+    #. Seleccione en el campo "**Fecha de la Transacción**", la fecha en la que se encuentra realizando la transacción del pago.
 
-    |Campo Descripción|
+        |Campo fecha de la transacción|
 
-    Imagen 7. Campo Descripción
+        Imagen 7. Campo Fecha de la Transacción
 
-#. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor al cual le será realizado el pago. 
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento "**Tipo de Documento**" elaborado por `ERPyA`_. 
 
-    |Campo Socio del Negocio Proveedor|
+        |Campo Tipo de Documento|
 
-    Imagen 8. Campo Socio del Negocio
+        Imagen 8. Campo Tipo de Documento
 
-#. Seleccione la factura a pagar en el campo "**Factura**", la misma puede ser seleccionada con ayuda del identificador de dicho campo.
+    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor al cual le será realizado el pago. 
 
-    |Identificador del Campo Factura|
+        |Campo Socio del Negocio Proveedor|
 
-    Imagen 9. Identificador del Campo Factura
+        Imagen 9. Campo Socio del Negocio
 
-#. Podrá visualizar la siguiente ventana de información de factura, donde debe seleccionar la factura a pagar y la opción "**OK**" para cargar los datos a la ventana "**Pago/Cobro**".
+    #. Introduzca en el campo "**Descripción**", una breve descripción referente al pago que será realizado.
 
-    |Selección de Factura y Opción OK|
+        |Campo Descripción|
 
-    Imagen 10. Selección de Factura y Opción OK
+        Imagen 10. Campo Descripción
 
-#. Podrá visualizar en el campo "**Total del Pago**" el monto total de la factura, mismo monto total que se va a cancelar con el documento "**Pago**" que se esta realizando.
+    #. Seleccione la factura a pagar en el campo "**Factura**", la misma puede ser seleccionada con ayuda del identificador de dicho campo.
 
-    |Campo Total del Pago|
+        |Identificador del Campo Factura|
 
-    Imagen 11. Campo Total del Pago
+        Imagen 11. Identificador del Campo Factura
 
-#. Seleccione en el campo "**Moneda**", la moneda correspondiente al pago que se esta realizando. 
+    #. Podrá visualizar la siguiente ventana de información de factura, donde debe seleccionar la factura a pagar y la opción "**OK**" para cargar los datos a la ventana "**Pago/Cobro**".
 
-    |Campo Moneda|
+        |Selección de Factura y Opción OK|
 
-    Imagen 12. Campo Moneda
+        Imagen 12. Selección de Factura y Opción OK
 
-#. Seleccione en el campo "**Tipo de Pago**", la forma utilizada para el pago.
+        #. Seleccione en el campo "**Tipo de Pago**", la forma de pago utilizada para cancelar la factura seleccionada.
 
-    |Campo Tipo de Pago|
+        |Campo Tipo de Pago|
 
-    Imagen 13. Campo Tipo de Pago
+        Imagen 13. Campo Tipo de Pago
 
-#. Seleccione el icono "**Guardar Cambios**", para guardar el registro de los campos en la ventana "**Pago/Cobro**".
+    #. Podrá visualizar en el campo "**Total del Pago**" el monto total de la factura, mismo monto total que se va a cancelar con el documento "**Pago**" que se esta realizando.
 
-    |Icono Guardar Cambios|
+        |Campo Total del Pago|
 
-    Imagen 14. Icono Guardar Cambios
+        Imagen 14. Campo Total del Pago
 
-#. Seleccione la opción "**Completar**", ubicada en la parte inferior derecha de la ventana.
+    #. Seleccione en el campo "**Moneda**", la moneda correspondiente al pago que se esta realizando. 
 
-    |Opción Completar|
+        |Campo Moneda|
 
-    Imagen 15. Opción Completar Documento
+        Imagen 15. Campo Moneda
 
-    #. Seleccione la accion "**Completar**" y la opción "**OK**", para completar el documento "**Pago**" que esta realizando.
+    #. El checklist "**Sobre/sub Pagos**", indica sobre pago (no contabilizado) o sub pago (pago parcial).
 
-        |Acción Completar|
+        |checklist sobre sub pagos|
 
-        Imagen 16. Acción Completar Documento
+        Imagen 16. Checklist Sobre Sub Pagos
 
-**Consultar Asignación**
-========================
+    #. El campo "**Totales con Sobre Sub Pago**", indica sobre pago (no contabilizado) o sub pago (pago parcial).
 
-#. Seleccione el icono "**Visualiza Detalle**" en el documento "**Pago**" generado anteriormente, para visualizar donde es usado el documento. Luego seleccione la opción "**Consulta de Asignación**" en el menú desplegado por el icono "**Visualiza Detalle**".
+        |totales con sobre sub pago|
 
-    |Icono Visualiza Detalle|
+        Imagen 17. Campo Totales con Sobre/Sub Pagos
 
-    Imagen 17. Icono Visualiza Detalle
+    #. El campo "**Total del Ajuste**", indica el total a ser ajustado como incobrable.
 
-#. Podrá visualizar la ventana "**Consulta de Asignación**", con el registro nuevo de la asignación de pago generado al completar el documento "**Pago**".
+        |total del ajuste|
 
-    |Pestaña Asignación|
+        Imagen 18. Campo Total del Ajuste
 
-    Imagen 18. Pestaña Asignación
+    #. Introduzca en el campo "**Referencia**" la referencia correspondiente a la transacción generada por la forma de pago utilizada.
 
-#. En la pestaña "**Asignaciones**" podrá visualizar la información de asignación de pago de la factura por pagar seleccionada en el documento "**Pago**" y el pago realizado anteriormente.
+        |Campo Referencia|
 
-    |Pestaña Asignaciones|
+        Imagen 19. Campo Referencia
 
-    Imagen 19. Pestaña Asignaciones
+    #. El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Pago**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+
+        |Campo Estado del Documento|
+
+        Imagen 20. Campo Estado del Documento
+
+    #. Seleccione en el campo "**Banco**", el banco para esta organización o para un socio del negocio con quien esta organización efectúa transacciones.
+
+        |Campo Banco|
+
+        Imagen 21. Campo Banco
+
+    #. El checklist "**Procesado**", indica que un documento ha sido procesado.
+
+        |Checklist Procesado|
+
+        Imagen 22. Checklist Procesado
+
+    .. note::
+
+        Recuerde guardar el registro de los campos seleccionando el icono "**Guardar Cambios**", ubicado en el barra de herramientas de ADempiere.
+
+#. Seleccione la opción "**Procesar Pago**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+
+    |Opción Procesar Pago del Icono Proceso|
+
+    Imagen 23. Opción Procesar Pago del Icono Proceso
+
+#. Seleccione la accion "**Completar**" y la opción "**OK**", para completar el documento "**Cobro**" que esta realizando.
+
+    |Acción Completar|
+
+    Imagen 24. Acción Completar Documento
