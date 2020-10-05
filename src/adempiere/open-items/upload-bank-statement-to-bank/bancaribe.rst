@@ -1,4 +1,5 @@
 .. _ERPyA: http://erpya.com
+
 .. _documento/banco-bancaribe:
 
 **Banco del Caribe**
@@ -97,11 +98,3 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
     - **Monto**: Monto del pago enviado, bajo el formato separadores de miles con "**,**" y decimales con "**.**"
     - **Nombre del Tercero**: Nombre del titular de la cuenta beneficiaria. Este posee un límite de treinta (30) caracteres.
 
-**Archivos para Desafiliar Cuentas del Banco**
-----------------------------------------------
-
-
-
-:download:`DESBANCO_DEL_CARIBE_OBCO20161103150506 <DESBANCO_DEL_CARIBE_OBCO20161103150506.txt>`
-
-:download:`DESBANCO_DEL_CARIBE_MBCO20161103150506 <DESBANCO_DEL_CARIBE_MBCO20161103150506.txt>`
