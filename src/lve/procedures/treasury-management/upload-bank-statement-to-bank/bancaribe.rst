@@ -9,39 +9,6 @@ Para la exportación de los archivos desde ADempiere al banco del caribe, `ERPyA
 
 El banco cuenta con el documento :download:`Estructura del txt de Bancaribe <Estuctura_TXT_Bancaribe.pdf>`, que explica algunos formatos que sirven de ayuda para la construcción el archivo a cargar.
 
-**Archivos para Afiliar Cuentas al Banco**
-------------------------------------------
-
-El documento en formato "**.pdf**", facilitado por el banco del caribe contiene un ejemplo de documento en formato "**.txt**" que permite afiliar al banco del caribe, otras cuentas pertenecientes al mismo banco. Dicho documento se puede descargar en el enlace :download:`AFIBANCO_DEL_CARIBE_MBCO20161103115203 <AFIBANCO_DEL_CARIBE_MBCO20161103115203.txt>` y visualizar de la siguiente manera:
-
-::
-
-    01140000000000000000/ESTÁNDAR/V000000000
-    01140000000000000000/SOCIO ESTÁNDAR/V000000001
-
-**Descripción del Archivo**
-
-    - **Número de Cuenta del Tercero**: Número de cuenta del banco a afiliar. Este se compone de veinte (20) dígitos.
-    - **Nombre del Tercero**: Nombre del titular de la cuenta a afiliar. Este posee un límite de treinta (30) caracteres.
-    - **Cédula o RIF**: Cédula o RIF del titular de la cuenta. Es importante colocar la letra inicial en mayúscula (V, E P, J, G).
-
-
-Adicional a ello, posee un ejemplo de documento en formato "**.txt**" que permite afiliar al banco del caribe, cuentas pertenecientes a otros bancos. Dicho documento se puede descargar en el enlace :download:`AFIBANCO_DEL_CARIBE_OBCO20161103115203 <AFIBANCO_DEL_CARIBE_OBCO20161103115203.txt>` y visualizar de la siguiente manera:
-
-::
-
-    3/ESTÁNDAR/V000000000/01910000000000000000/* No encontrado * Te/estandar@ejemplo.com
-    3/SOCIO ESTÁNDAR/V000000001/01340000000000000000/* No encontrado * Te/* No encontrado * Cta. Correo Electr?nic
-
-**Descripción del Archivo**
-
-    - **Afiliación de Cuentas**: Se debe colocar siempre el número tres (3) para indicar una afiliación de cuentas.
-    - **Nombre del Tercero**: Nombre del titular de la cuenta a afiliar. Este posee un límite de treinta (30) caracteres.
-    - **Cédula o RIF**: Cédula o RIF del titular de la cuenta. Es importante colocar la letra inicial en mayúscula (V, E P, J, G).
-    - **Número de Cuenta del Tercero**: Número de cuenta del banco a afiliar. Este se compone de veinte (20) dígitos.
-    - **Teléfono del Tercero**: Se debe indicar el código de área, seguido del número de teléfono, sin separadores, ni espacios.
-    - **Correo Electrónico del Tercero**: Se debe indicar la dirección de correo electrónico del titular de la cuenta, en caso de no conocerlo colocar una genérica o propia.
-
 **Archivos para Pagos o Cobros a Otros Bancos**
 -----------------------------------------------
 
