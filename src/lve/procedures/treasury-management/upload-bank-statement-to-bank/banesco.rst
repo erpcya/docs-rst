@@ -121,7 +121,7 @@ Al ejecutar el proceso de selección de pago de las siguientes facturas en ADemp
 - Factura "**1000125**" al socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" por monto total de "**5.000.000,00**". 
 - Factura "**1000126**" al socio del negocio "**Servicio Nacional Integrado de Administración (SENIAT) **" por monto total de "**6.000.000,00**". 
 
-Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos realizados desde el banco del caribe a otros bancos, el mismo se puede descargar en el enlace :download:`Banesco Banco Universal C.A. <Banesco_Banco_Universal_CA_1000025.txt>` y visualizar de la siguiente manera:
+Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco banesco a terceros en el mismo banco, así como también a terceros en otros bancos, el mismo se puede descargar en el enlace :download:`Archivo de Pago de Proveedores del Banesco Banco Universal C.A. <Banesco_Banco_Universal_CA_1000025.txt>` y visualizar de la siguiente manera:
 
 ::
 
@@ -139,7 +139,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
     - **Tipo de Registro de Control**: HDR 
     - **Asociado Comercial**: Banesco
     - **Estándar EDIFACT**: E
-    - **Versión del Estándar**: D
+    - **Versión del Estándar**: D  95B
     - **Tipo del Documento**: PAYMUL
     - **Producción**: P
     - **Tipo de Registro de Encabezado**: 01
@@ -169,3 +169,65 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
     - **Total de Débitos**: Cantidad de débitos que contiene el documento, este debe tener quince (15) posiciones con números enteros. Si el valor no cubro los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda. En el ejemplo anterior el valor correspondiente es **000000000000001**.
     - **Total de Créditos**: Cantidad de créditos que contiene el documento, este debe tener quince (15) posiciones con números enteros. Si el valor no cubro los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda. En el ejemplo anterior el valor correspondiente es **000000000000004**.
     - **Monto Total a Pagar**: Monto total de la orden de pago, este debe cuadrar con la sumatoria de los créditos. Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. En el ejemplo anterior el valor correspondiente es **000001852500000**.
+
+**Banesco Nómina**
+------------------
+
+**Archivos para Pagos o Cobros**
+********************************
+
+Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-15**" procesada en ADempiere, con los siguientes empleados:
+
+- Socio del Negocio "**Empleado Estándar Uno**", con cédula de identidad "**V000000001**", perteneciente a la nómina "**Quincenal**".
+- Socio del Negocio "**Empleado Estándar Dos**", con cédula de identidad "**V000000002**", perteneciente a la nómina "**Quincenal**".
+- Socio del Negocio "**Empleado Estándar Tres**", con cédula de identidad "**V000000003**", perteneciente a la nómina "**Quincenal**".
+- Socio del Negocio "**Empleado Estándar Cuatro**", con cédula de identidad "**V000000004**", perteneciente a la nómina "**Quincenal**".
+
+Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco banesco a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace :download:`Archivo de Pago de Nómina del Banesco Banco Universal C.A. <Banesco_Banco_Universal_CA_1000027.txt>` y visualizar de la siguiente manera:
+
+::
+
+    HDRBANESCO        ED  95BPAYMULP
+    01SAL                                9  1000027                            20201015000000
+    021000027                       J000000000       Compaa Estndar                     000000172537848VES 0134000000000000000               BANESCO    20201015
+    0300000000                      000000043134462VES01340000000000000000          0134          V000000001       Empleado Estndar                                                      empleado-estándar@ejemplo.com                                                                                                                                                                            42 
+    0300000001                      000000043134462VES01020000000000000000          0102          V000000002       Empleado Estndar Dos                                                  empleado-estándar-dos@ejemplo.com                                                                                                                                                                        425
+    0300000002                      000000043134462VES01340000000000000000          0134          V000000003       Empleado Estndar Tres                                                 empleado-estándar-tres@ejemplo.com                                                                                                                                                                       42 
+    0300000003                      000000043134462VES01050000000000000000          0105          V000000004       Empleado Estndar Cuatro                                               empleado-estándar-cuatro@ejemplo.com                                                                                                                                                                     425
+    06000000000000001000000000000004000000172537848
+
+**Descripción del Archivo**
+
+    - **Tipo de Registro de Control**: HDR 
+    - **Asociado Comercial**: Banesco
+    - **Estándar EDIFACT**: E
+    - **Versión del Estándar**: D  95B
+    - **Tipo del Documento**: PAYMUL
+    - **Producción**: P
+    - **Tipo de Registro de Encabezado**: 01
+    - **Tipo de Transacción**: SAL
+    - **Condición de Orden de Pago**: 9
+    - **Número de la Orden de Pago**: Número de referencia que identifica el documento **PAYMUL**. En el ejemplo anterior el valor correspondiente es **1000027**.
+    - **Fecha de la Creación de la Orden de Pago**: Fecha en la que se genera el documento **PAYMUL**, en formato **AAAAMMDDHHMMSS**. En el ejemplo anterior el valor correspondiente es **20201015000000**.
+    - **Tipo de Registro de Débito**: 02
+    - **Nro. de Referencia del Débito**: Número de referencia que identifica el débito. Este campo será el utilizado para efectos de conciliación. En el ejemplo anterior el valor correspondiente es **1000027**.
+    - **R.I.F. del Ordenante**: El valor debe comenzar con la letra del R.I.F. (J o G), no debe contener ningún separador y debe estar en mayúscula.
+    - **Nombre del Ordenante**: Nombre de la Empresa sin acentos o caracteres especiales. En el ejemplo anterior el valor correspondiente es **Compaa Estndar**.
+    - **Montos Total a Debitar/Abonar**: Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. El monto del débito debe cuadrar con la sumatoria de los créditos. En el ejemplo anterior el valor correspondiente es **000000172537848**.
+    - **Moneda**: Siglas correspondiente a la moneda del débito. En el ejemplo anterior el valor correspondiente es **VES**.
+    - **Número de Cuenta a Débitar**: Número de cuenta en Banesco que este registrada o asociada a EDI y desde la cual saldra el dinero. En el ejemplo anterior el valor correspondiente es **01340000000000000000**.
+    - **Código del Banco Ordenando**: En el ejemplo anterior el valor correspondiente es **BANESCO**.
+    - **Fecha Efectiva del Pago**: Fecha en la cual el banco va a efectuar el débito y sus créditos asociados. En el ejemplo anterior el valor correspondiente es **20201015**.
+    - **Tipo de Registro de Crédito**: 03 (Este se repite tantas veces como registros "abonos" sean).
+    - **Número de Recibo o Referencia de Pago**: El número de referencia identifica al crédito, debe ser de ocho (8) posiciones numéricas. En el ejemplo anterior los valores correspondiente son **00000000**, **00000001**, **00000002** y **00000003**.
+    - **Monto a Pagar**: Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. Si el monto a pagar no cubre los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda.
+    - **Moneda**: Siglas correspondiente a la moneda del crédito. En el ejemplo anterior el valor correspondiente es **VES**.
+    - **Número de Cuenta a Acréditar**: Número de cuenta a la cual va a ingresar el dinero. En el ejemplo anterior los valores correspondiente son **01340000000000000000**, **01020000000000000000**, **01340000000000000000** y **01050000000000000000**.
+    - **Banco Beneficiario**: Código banco Swift. En el ejemplo anterior el valor correspondiente es **0134**, **0102**, **0134** y **0105**.
+    - **Cédula de Identidad del Beneficiario**: El valor debe comenzar con la letra de la cédula (V, E, J, G), no debe contener ningún separador y se debe considerar lo siguiente. Si la cédula es mayor a diez millones (V10000000) se debe colocar un creo (0) por delante, quedando de la siguiente manera (V010000000). Si la cédula es menor a diez millones (V10000000) se debe colocar dos ceros (0) por delante, quedando de la siguiente manera (V009000000). En el ejemplo anterior los valores correspondiente son **V000000001**, **V000000002**, **V000000003** y **V000000004**.
+    - **Nombre del Beneficiario**: Nombre de la persona, empresa u organización a la cual se le va a efectuar el crédito.
+    - **Forma de Pago**: 425 indica pagos a proveedores en otros bancos, mientras que 42 indica abono en cuenta (terceros en el mismo banco).
+    - **Tipo de Registro de Totales**: 06
+    - **Total de Débitos**: Cantidad de débitos que contiene el documento, este debe tener quince (15) posiciones con números enteros. Si el valor no cubro los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda. En el ejemplo anterior el valor correspondiente es **000000000000001**.
+    - **Total de Créditos**: Cantidad de créditos que contiene el documento, este debe tener quince (15) posiciones con números enteros. Si el valor no cubro los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda. En el ejemplo anterior el valor correspondiente es **000000000000004**.
+    - **Monto Total a Pagar**: Monto total de la orden de pago, este debe cuadrar con la sumatoria de los créditos. Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. En el ejemplo anterior el valor correspondiente es **000000172537848**.
