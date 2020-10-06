@@ -142,17 +142,34 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
     - **Versión del Estándar**: D
     - **Tipo del Documento**: PAYMUL
     - **Producción**: P
-    - **Tipo de Registro**: 01
+    - **Tipo de Registro de Encabezado**: 01
     - **Tipo de Transacción**: SCV
     - **Condición de Orden de Pago**: 9
     - **Número de la Orden de Pago**: Número de referencia que identifica el documento **PAYMUL**. En el ejemplo anterior el valor correspondiente es **1000024**.
     - **Fecha de la Creación de la Orden de Pago**: Fecha en la que se genera el documento **PAYMUL**, en formato **AAAAMMDDHHMMSS**. En el ejemplo anterior el valor correspondiente es **20201005000000**.
     - **Tipo de Registro de Débito**: 02
     - **Nro. de Referencia del Débito**: Número de referencia que identifica el débito. Este campo será el utilizado para efectos de conciliación. En el ejemplo anterior el valor correspondiente es **1000024**.
+    - **R.I.F. del Ordenante**: El valor debe comenzar con la letra del R.I.F. (J o G), no debe contener ningún separador y debe estar en mayúscula.
     - **Nombre del Ordenante**: Nombre de la Empresa sin acentos o caracteres especiales. En el ejemplo anterior el valor correspondiente es **Compaa Estndar**.
     - **Montos Total a Debitar/Abonar**: Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. El monto del débito debe cuadrar con la sumatoria de los créditos. En el ejemplo anterior el valor correspondiente es **000001867000000**.
     - **Moneda**: Siglas correspondiente a la moneda del débito. En el ejemplo anterior el valor correspondiente es **VES**.
     - **Número de Cuenta a Débitar**: Número de cuenta en Banesco que este registrada o asociada a EDI y desde la cual saldra el dinero. En el ejemplo anterior el valor correspondiente es **01340000000000000000**.
+    - **Código del Banco Ordenando**: En el ejemplo anterior el valor correspondiente es **BANESCO**.
+    - **Fecha Efectiva del Pago**: Fecha en la cual el banco va a efectuar el débito y sus créditos asociados. En el ejemplo anterior el valor correspondiente es **AAAAMMDD**.
+    - **Tipo de Registro de Crédito**: 03 (Este se repite tantas veces como registros "abonos" sean).
+    - **Número de Recibo o Referencia de Pago**: El número de referencia identifica al crédito, debe ser de ocho (8) posiciones numéricas. En el ejemplo anterior los valores correspondiente son **00000000**, **00000001**, **00000002** y **00000003**.
+    - **Monto a Pagar**: Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. Si el monto a pagar no cubre los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda.
+    - **Moneda**: Siglas correspondiente a la moneda del crédito. En el ejemplo anterior el valor correspondiente es **VES**.
+    - **Número de Cuenta a Acréditar**: Número de cuenta a la cual va a ingresar el dinero. En el ejemplo anterior los valores correspondiente son **01140000000000000000**, **01140000000000000000**, **01140000000000000000** y **01140000000000000000**.
+    - **Banco Beneficiario**: Código banco Swift. En el ejemplo anterior el valor correspondiente es **0114**.
+    - **Cédula de Identidad del Beneficiario**: El valor debe comenzar con la letra de la cédula (V, E, J, G), no debe contener ningún separador y se debe considerar lo siguiente. Si la cédula es mayor a diez millones (V10000000) se debe colocar un creo (0) por delante, quedando de la siguiente manera (V010000000). Si la cédula es menor a diez millones (V10000000) se debe colocar dos ceros (0) por delante, quedando de la siguiente manera (V009000000). En el ejemplo anterior los valores correspondiente son **J297599070**, **J002443731**, **V0000000** y **G200003030**.
+    - **Nombre del Beneficiario**: Nombre de la persona, empresa u organización a la cual se le va a efectuar el crédito.
+    - **Forma de Pago**: 425 indica pagos a proveedores en otros bancos.
+    - **Tipo de Registro de Totales**: 06
+    - **Total de Débitos**: Cantidad de débitos que contiene el documento, este debe tener quince (15) posiciones con números enteros. Si el valor no cubro los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda. En el ejemplo anterior el valor correspondiente es **000000000000001**.
+    - **Total de Créditos**: Cantidad de créditos que contiene el documento, este debe tener quince (15) posiciones con números enteros. Si el valor no cubro los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda. En el ejemplo anterior el valor correspondiente es **000000000000001**.
+    - **Monto Total a Pagar**: Monto total de la orden de pago, este debe cuadrar con la sumatoria de los créditos. Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. En el ejemplo anterior el valor correspondiente es **000001867000000**.
+
 
 .. warning::
 
