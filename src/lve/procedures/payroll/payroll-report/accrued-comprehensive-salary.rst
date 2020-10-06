@@ -15,7 +15,7 @@ Para obtener dicho reporte debemos seleccionar los siguientes campos principales
 
 
    +---------------------------------+-------------------------------------------------------------+
-   |      **PARÁMETROS**             |                       **REFERENCIA**                        |
+   |      **PARÁMETROS**             |                       **Referencia**                        |
    +=================================+=============================================================+
    | Organización                    | Seleccione la Organización a la cual pertenece  la nómina o |
    |                                 | el socio de negocio que desea solicitar el reporte          |
@@ -24,7 +24,7 @@ Para obtener dicho reporte debemos seleccionar los siguientes campos principales
    |                                 | desea visualizar el reporte, este filtro lo puede usar si   |
    |                                 | quiere visualizar varias nóminas de un mismo tipo y no una  |
    |                                 | en específico                                               |
-   +-------------------------------- +-------------------------------------------------------------+
+   +---------------------------------+-------------------------------------------------------------+
    | Proceso de Nómina               | Seleccione el proceso de nómina en específico basado en el  |
    |                                 | tipo de nómina que seleccionó anteriormente  (Tambien puede |
    |                                 | ubicarlo en la ventana proceso de nómina)                   |
