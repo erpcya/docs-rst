@@ -110,8 +110,8 @@ Adicional a ello, cuenta con el documento :download:`Código Swift Actualizado <
 **Banesco Proveedores**
 -----------------------
 
-**Archivos para Pagos o Cobros a Otros Bancos**
-***********************************************
+**Archivos para Pagos o Cobros**
+********************************
 
 Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere: 
 
@@ -129,9 +129,9 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
     01SCV                                9  1000025                            20201006000000
     021000025                       J000000000       Compaa Estndar                     000001852500000VES 0134000000000000000               BANESCO    20201006
     0300000000                      000000402500000VES01140000000000000000          0114          V0000000         Estndar                                                               estandar@ejmplo.com                                                                                                                                                                                      425
-    0300000001                      000000600000000VES01750000000000000000          0175          G200003030       Servicio Nacional Integrado de Administracin (SENIAT)                                                                                                                                                                                                                          425
+    0300000001                      000000600000000VES01340000000000000000          0134          G200003030       Servicio Nacional Integrado de Administracin (SENIAT)                                                                                                                                                                                                                          42 
     0300000002                      000000500000000VES01630000000000000000          0163          J297599070       Bolivariana de Puertos  ( Bolipuertos)  S A                                                                                                                                                                                                                                    425
-    0300000003                      000000350000000VES01020000000000000000          0102          J002443731       Dhl Express Aduanas Venezuela CA                                                                                                                                                                                                                                               425
+    0300000003                      000000350000000VES01340000000000000000          0134          J002443731       Dhl Express Aduanas Venezuela CA                                                                                                                                                                                                                                               42 
     06000000000000001000000000000004000001852500000
 
 **Descripción del Archivo**
@@ -164,7 +164,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
     - **Banco Beneficiario**: Código banco Swift. En el ejemplo anterior el valor correspondiente es **0114**, **0175**, **0163** y **0102**.
     - **Cédula de Identidad del Beneficiario**: El valor debe comenzar con la letra de la cédula (V, E, J, G), no debe contener ningún separador y se debe considerar lo siguiente. Si la cédula es mayor a diez millones (V10000000) se debe colocar un creo (0) por delante, quedando de la siguiente manera (V010000000). Si la cédula es menor a diez millones (V10000000) se debe colocar dos ceros (0) por delante, quedando de la siguiente manera (V009000000). En el ejemplo anterior los valores correspondiente son **V0000000**, **G200003030**, **J297599070** y **J002443731**.
     - **Nombre del Beneficiario**: Nombre de la persona, empresa u organización a la cual se le va a efectuar el crédito.
-    - **Forma de Pago**: 425 indica pagos a proveedores en otros bancos.
+    - **Forma de Pago**: 425 indica pagos a proveedores en otros bancos, mientras que 42 indica abono en cuenta (terceros en el mismo banco).
     - **Tipo de Registro de Totales**: 06
     - **Total de Débitos**: Cantidad de débitos que contiene el documento, este debe tener quince (15) posiciones con números enteros. Si el valor no cubro los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda. En el ejemplo anterior el valor correspondiente es **000000000000001**.
     - **Total de Créditos**: Cantidad de créditos que contiene el documento, este debe tener quince (15) posiciones con números enteros. Si el valor no cubro los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda. En el ejemplo anterior el valor correspondiente es **000000000000004**.
