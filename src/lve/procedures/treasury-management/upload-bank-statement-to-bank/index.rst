@@ -12,3 +12,4 @@
 
     bancaribe
     banesco
+    banplus
