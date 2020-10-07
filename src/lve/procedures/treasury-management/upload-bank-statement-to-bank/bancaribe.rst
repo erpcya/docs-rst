@@ -20,7 +20,7 @@ Al ejecutar el proceso de selección de pago de las siguientes facturas en ADemp
 - Factura "**1000110**" al socio del negocio "**Servicio Nacional Integrado de Administración (SENIAT) **" por monto total de "**2.000.000,00**". 
 - Factura "**1000111**" al socio del negocio "**Estándar**" por monto total de "**1.515.000,00**". 
 
-Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco del caribe a otros bancos, el mismo se puede descargar en el enlace :download:`Banco del Caribe CA Banco Universal 1000022 <Banco_del_Caribe_CA_Banco_Universal_1000022.txt>` y visualizar de la siguiente manera:
+Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco del caribe a otros bancos, el mismo se puede descargar en el enlace :download:`Banco del Caribe CA Banco Universal <Banco_del_Caribe_CA_Banco_Universal_1000022.txt>` y visualizar de la siguiente manera:
 
 ::
 
@@ -50,7 +50,7 @@ Al ejecutar el proceso de selección de pago de las siguientes facturas en ADemp
 - Factura "**1000115**" al socio del negocio "**Servicio Nacional Integrado de Administración (SENIAT) **" por monto total de "**2.000.000,00**". 
 - Factura "**1000116**" al socio del negocio "**Estándar**" por monto total de "**1.515.000,00**". 
 
-Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco del caribe a terceros en el mismo banco. Este documento se puede descargar en el enlace :download:`Banco del Caribe CA Banco Universal 1000023 <Banco_del_Caribe_CA_Banco_Universal_1000023.txt>` y visualizar de la siguiente manera:
+Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco del caribe a terceros en el mismo banco. Este documento se puede descargar en el enlace :download:`Archivo de Pago del Banco del Caribe CA Banco Universal <Banco_del_Caribe_CA_Banco_Universal_1000023.txt>` y visualizar de la siguiente manera:
 
 ::
 
