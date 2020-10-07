@@ -42,21 +42,21 @@ Adicional a ello, cuenta con el documento :download:`Pagos Masivos <PagosMasivos
 
 Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere: 
 
-- Factura "** **" al socio del negocio "**Estándar**" por monto total de "**1.000.000,00**". 
-- Factura "** **" al socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" por monto total de "**4.000.000,00**". 
-- Factura "** **" al socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" por monto total de "**2.500.000,00**". 
-- Factura "** **" al socio del negocio "**Servicio Nacional Integrado de Administración (SENIAT) **" por monto total de "**2.000.000,00**". 
-- Factura "** **" al socio del negocio "**Estándar**" por monto total de "**1.515.000,00**". 
+- Factura "**1000132**" al socio del negocio "**Estándar**" por monto total de "**1.500.000,00**". 
+- Factura "**1000133**" al socio del negocio "**Estándar**" por monto total de "**2.500.000,00**". 
+- Factura "**1000134**" al socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" por monto total de "**3.500.000,00**". 
+- Factura "**1000135**" al socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" por monto total de "**5.000.000,00**". 
+- Factura "**1000136**" al socio del negocio "**Servicio Nacional Integrado de Administración (SENIAT)100013**" por monto total de "**6.000.000,00**". 
 
-Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco banesco a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace :download:`Banco Banplus <Banplus_Banco_Universal_CA_1000028.txt>` y visualizar de la siguiente manera:
+Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banplus a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace :download:`Banco Banplus <Banplus_Banco_Universal_CA_1000028.txt>` y visualizar de la siguiente manera:
 
 ::
 
     J000000000;0174000000000000000;4;1850000000;20201007;1000028
     01;0000000;Estndar;01340000000000000000;400000000;0;estandar@ejmplo.com;SI
-    04;20000303;Servicio Nacional Integrado de Administr;01340000000000000000;600000000;1;;SI
-    04;29759907;Bolivariana de Puertos  ( Bolipuertos)  ;01340000000000000000;500000000;2;;SI
-    04;00244373;Dhl Express Aduanas Venezuela CA;01340000000000000000;350000000;3;;SI
+    04;20000303;Servicio Nacional Integrado de Administr;01020000000000000000;600000000;1;;SI
+    04;29759907;Bolivariana de Puertos  ( Bolipuertos)  ;01740000000000000000;500000000;2;;SI
+    04;00244373;Dhl Express Aduanas Venezuela CA;01050000000000000000;350000000;3;;SI
 
 **Descripción del Archivo**
 
@@ -75,14 +75,14 @@ Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-16**"
 - Socio del Negocio "**Empleado Estándar Tres**", con cédula de identidad "**V000000003**", perteneciente a la nómina "**Quincenal**".
 - Socio del Negocio "**Empleado Estándar Cuatro**", con cédula de identidad "**V000000004**", perteneciente a la nómina "**Quincenal**".
 
-Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco banesco a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace :download:`Archivo de Pago de Nómina del Banplus <Banplus_Banco_Universal_CA_1000030.txt>` y visualizar de la siguiente manera:
+Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banplus a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace :download:`Archivo de Pago de Nómina del Banplus <Banplus_Banco_Universal_CA_1000030.txt>` y visualizar de la siguiente manera:
 
 ::
 
     J000000000;0174000000000000000;4;172537848;20201007;1000030
     01;00000000;Empleado Estndar;01340000000000000000;43134462;0;empleado-estándar@ejemplo.com;SI
     01;00000000;Empleado Estndar Dos;01020000000000000000;43134462;1;empleado-estándar-dos@ejemplo.com;SI
-    01;00000000;Empleado Estndar Tres;01340000000000000000;43134462;2;empleado-estándar-tres@ejemplo.com;SI
+    01;00000000;Empleado Estndar Tres;01740000000000000000;43134462;2;empleado-estándar-tres@ejemplo.com;SI
     01;00000000;Empleado Estndar Cuatro;01050000000000000000;43134462;3;empleado-estándar-cuatro@ejemplo.com;SI
 
 **Descripción del Archivo**
