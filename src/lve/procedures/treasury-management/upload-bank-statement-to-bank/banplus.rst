@@ -60,7 +60,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
 **Descripción del Archivo**
 
-La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento :download:`Pagos Masivos <PagosMasivos.xlsx>`. De igual manera, se encuentra explicada en las tablas que contiene el presente documento, al inicio del mismo.
+La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento :download:`Pagos Masivos <PagosMasivos.xls>`. De igual manera, se encuentra explicada en las tablas que contiene el presente documento, al inicio del mismo.
 
 **Banplus Nómina**
 ------------------
@@ -87,4 +87,4 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
 **Descripción del Archivo**
 
-La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento :download:`Pagos Masivos <PagosMasivos.xlsx>`. De igual manera, se encuentra explicada en las tablas que contiene el presente documento, al inicio del mismo.
+La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento :download:`Pagos Nómina <Banplus_PagoNomina_TXT.xls>`. De igual manera, se encuentra explicada en las tablas que contiene el presente documento, al inicio del mismo.
