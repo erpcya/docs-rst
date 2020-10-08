@@ -9,4 +9,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 .. toctree::
     :maxdepth: 2
 
-    upload-bank-statement-to-bank/index
+    upload-bank-statement-to-bank/batch-payments
