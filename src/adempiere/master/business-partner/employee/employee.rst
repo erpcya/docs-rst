@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/menu.png
 .. |Ventana Principal Empleados (Todos)| image:: resources/ventana.png
 .. |Campo Compañía| image:: resources/comp.png
@@ -158,8 +159,6 @@
 .. |Campo Válido Hasta Permiso| image:: resources/hastapermiso.png
 .. |Campo Número de Permisos Asignados| image:: resources/numpermiso.png
 .. |Icono Guardar Cambios6| image:: resources/guardarpermiso.png
-
-.. _ERPyA: http://erpya.com
 
 .. _documento/socio-empleado:
 

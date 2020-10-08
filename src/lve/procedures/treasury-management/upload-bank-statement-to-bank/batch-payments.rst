@@ -28,6 +28,10 @@ Principalmente, el servicio de ADempiere debe contar con la siguiente configurac
 
     Imagen 1. Configuración Bancaria de la Ventana Socio del Negocio
 
+    .. note::
+
+        Si desconoce el procedimiento para cargar en ADempiere la información bancaria del socio del negocio, puede consultar los documentos :ref:`documento/socio-proveedor` y :ref:`documento/socio-empleado`.
+
 **Generación de Archivo**
 *************************
 
@@ -50,6 +54,10 @@ Al momento de generar el archivo en formato "**.txt**", ADempiere toma de la pes
     |ventana imprimir exportar pagos|
 
     Imagen 4. Ventana Imprimir/Exportar Pagos
+
+    .. note::
+
+        Si desconoce los procedimientos para registrar en ADempiere los pagos de nómina y los pagos a proveedores, puede consultar el documento :ref:`documento/pago-de-nómina`, para cancelar la nómina de los empleados. Adicional a ello, puede consultar los documentos :ref:`documento/orden-de-pago-desde-orden`, :ref:`documento/orden-de-pago`, :ref:`documento/selección-de-pago` y :ref:`documento/Imprimir-Exportar`, para cancelar las cuentas por pagar a proveedores.
 
 **Resultado Obtenido**
 **********************

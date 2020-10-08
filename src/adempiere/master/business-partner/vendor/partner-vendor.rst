@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Pestaña Proveedor| image:: resources/pestproveedor.png
 .. |Checklist Proveedor| image:: resources/checklist.png
 .. |Grupo de Campos Generados por el Checklist Proveedor| image:: resources/campos.png
@@ -26,7 +27,6 @@
 .. |Campo Email| image:: resources/emailcontacto.png
 .. |Campo Teléfono| image:: resources/telecontacto.png
 
-.. _ERPyA: http://erpya.com
 .. _documento/socio-proveedor:
 
 **Registro de Proveedor**
