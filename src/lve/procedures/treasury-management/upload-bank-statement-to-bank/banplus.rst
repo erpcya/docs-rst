@@ -46,7 +46,7 @@ Al ejecutar el proceso de selección de pago de las siguientes facturas en ADemp
 - Factura "**1000133**" al socio del negocio "**Estándar**" por monto total de "**2.500.000,00**". 
 - Factura "**1000134**" al socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" por monto total de "**3.500.000,00**". 
 - Factura "**1000135**" al socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" por monto total de "**5.000.000,00**". 
-- Factura "**1000136**" al socio del negocio "**Servicio Nacional Integrado de Administración (SENIAT)100013**" por monto total de "**6.000.000,00**". 
+- Factura "**1000136**" al socio del negocio "**Servicio Nacional Integrado de Administración (SENIAT)**" por monto total de "**6.000.000,00**". 
 
 Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banplus a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace :download:`Banco Banplus <Banplus_Banco_Universal_CA_1000028.txt>` y visualizar de la siguiente manera:
 

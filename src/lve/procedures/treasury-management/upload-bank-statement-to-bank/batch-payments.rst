@@ -18,19 +18,19 @@ Este proceso permite que se realice una gran cantidad de pagos a diferentes soci
 
 Principalmente, el servicio de ADempiere debe contar con la siguiente configuración por socio del negocio, en la pestaña "**Cuenta Bancaria**" del registro del mismo. Esta configuración se debe cumplir de manera "**Obligatoria**" para los socios que cumplen los roles de proveedor y empleado.
 
-    - "**Banco**": Banco donde el socio del negocio posee una cuenta bancaria. Este puede ser "**BFC Banco Fondo Común, C.A. Banco Universal**".
-    - "**No. De Cuenta**": Número de cuenta bancaria del socio del negocio en el banco indicado anteriormente. Un ejemplo de este campo puede ser "**01510000000000000000**".
-    - "**Nombre**": Nombre del socio del negocio titular de la cuenta bancaria indicada anteriormente. Para este ejemplo se tiene como nombre "**Proveedor Estándar**".
-    - "**No. Seguro Social**": Número de cédula de identidad o registro de información fiscal (RIF), del socio del negocio titular de la cuenta bancaria. Un ejemplo de este campo puede ser "**V00000000**" o "**J000000000**".
-    - "**Cta. Correo Electrónico**": La dirección de correo electrónico del titular de la cuenta bancaria indicada anteriormente.
+- "**Banco**": Banco donde el socio del negocio posee una cuenta bancaria. Este puede ser "**BFC Banco Fondo Común, C.A. Banco Universal**".
+- "**No. De Cuenta**": Número de cuenta bancaria del socio del negocio en el banco indicado anteriormente. Un ejemplo de este campo puede ser "**01510000000000000000**".
+- "**Nombre**": Nombre del socio del negocio titular de la cuenta bancaria indicada anteriormente. Para este ejemplo se tiene como nombre "**Proveedor Estándar**".
+- "**No. Seguro Social**": Número de cédula de identidad o registro de información fiscal (RIF), del socio del negocio titular de la cuenta bancaria. Un ejemplo de este campo puede ser "**V00000000**" o "**J000000000**".
+- "**Cta. Correo Electrónico**": La dirección de correo electrónico del titular de la cuenta bancaria indicada anteriormente.
 
     |pestaña cuenta bancaria de la ventana socio del negocio|
 
     Imagen 1. Configuración Bancaria de la Ventana Socio del Negocio
 
-    .. note::
+.. note::
 
-        Si desconoce el procedimiento para cargar en ADempiere la información bancaria del socio del negocio, puede consultar los documentos :ref:`documento/socio-proveedor` y :ref:`documento/socio-empleado`.
+    Si desconoce el procedimiento para cargar en ADempiere la información bancaria del socio del negocio, puede consultar los documentos :ref:`documento/socio-proveedor` y :ref:`documento/socio-empleado`.
 
 **Generación de Archivo**
 *************************

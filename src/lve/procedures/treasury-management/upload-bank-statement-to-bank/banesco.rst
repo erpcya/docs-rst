@@ -119,7 +119,7 @@ Al ejecutar el proceso de selección de pago de las siguientes facturas en ADemp
 - Factura "**1000123**" al socio del negocio "**Estándar**" por monto total de "**2.525.000,00**". 
 - Factura "**1000124**" al socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" por monto total de "**3.500.000,00**". 
 - Factura "**1000125**" al socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" por monto total de "**5.000.000,00**". 
-- Factura "**1000126**" al socio del negocio "**Servicio Nacional Integrado de Administración (SENIAT) **" por monto total de "**6.000.000,00**". 
+- Factura "**1000126**" al socio del negocio "**Servicio Nacional Integrado de Administración (SENIAT)**" por monto total de "**6.000.000,00**". 
 
 Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco banesco a terceros en el mismo banco, así como también a terceros en otros bancos, el mismo se puede descargar en el enlace :download:`Archivo de Pago de Proveedores del Banesco Banco Universal C.A. <Banesco_Banco_Universal_CA_1000025.txt>` y visualizar de la siguiente manera:
 
