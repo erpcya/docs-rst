@@ -1,0 +1,5 @@
+J000000000;0174000000000000000;4;172537848;20201007;1000030
+01;00000000;Empleado Estndar;01340000000000000000;43134462;0;empleado-estándar@ejemplo.com;SI
+01;00000000;Empleado Estndar Dos;01020000000000000000;43134462;1;empleado-estándar-dos@ejemplo.com;SI
+01;00000000;Empleado Estndar Tres;01740000000000000000;43134462;2;empleado-estándar-tres@ejemplo.com;SI
+01;00000000;Empleado Estndar Cuatro;01050000000000000000;43134462;3;empleado-estándar-cuatro@ejemplo.com;SI
