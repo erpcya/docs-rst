@@ -5,7 +5,7 @@
 **Banco Occidental de Descuento**
 =================================
 
-Para la exportación de los archivos desde ADempiere al banco occidental de descuento, `ERPyA`_ soporta el siguiente formato facilitado por el banco, que pueden ser descargado. El documento :download:`Formato Archivo Ordenes de Pago <Formato_Pagos_BOD.xlsx>`, explica el formato que sirve de ayuda para la construcción el archivo a cargar.
+Para la exportación de los archivos desde ADempiere al banco occidental de descuento, `ERPyA`_ soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento :download:`Formato Archivo Ordenes de Pago <Formato_Pagos_BOD.xlsx>`, explica el formato que sirve de ayuda para la construcción el archivo a cargar.
 
 Adicional a ello, se puede visualizar dicho documento de la siguiente manera, luego de descargarlo.
 
