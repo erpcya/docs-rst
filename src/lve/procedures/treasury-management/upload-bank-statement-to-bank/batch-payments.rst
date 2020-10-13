@@ -108,3 +108,4 @@ El archivo en formato "**.txt**" generado por ADempiere, debe ser cargado al ban
     banplus
     bfc
     bod
+    exterior

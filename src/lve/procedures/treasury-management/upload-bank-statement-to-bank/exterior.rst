@@ -7,7 +7,7 @@
 
 Para la exportación de los archivos desde ADempiere al banco exterior, `ERPyA`_ soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.
 
-El banco cuenta con los documentos :download:`Archivo de Pago a Proveedores <Asistente_Integral_Estructura_Pago_a_Proveedores.pdf>` y :download:`Archivo de Afiliación y Pago de Proveedores y Nómina <Pago_Nomina_y_Proveedores.pdf>`, que explican los formatos para la construcción el archivo a cargar.
+El banco cuenta con los documentos :download:`Archivo de Pago a Proveedores <Asistente_Integral_Estructura_Pago_a_Proveedores.pdf>` y :download:`Archivo de Afiliación y Pago de Proveedores y Nómina <Pago_Nomina_y_Proveedores.pdf>`, que explican los formatos para la construcción del archivo a cargar.
 
 +---+-------------------------------------+--------------+-------------+--------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------+
 |   | **Nombre del Campo**                | **Formato**  | **Longitud**| **Posición** | **Obligatorio** | **Observaciones**                                                                                                     | **Ejemplo**               |
@@ -54,17 +54,24 @@ El banco cuenta con los documentos :download:`Archivo de Pago a Proveedores <Asi
 +---+-------------------------------------+--------------+-------------+--------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------+
 | 4 |Código del Banco                     |Numérico      |    3        |    193 a 195 |     SI          |Código del banco a abonar sin el “0” inicial.                                                                          |151, 134, 134, 174         |
 +---+-------------------------------------+--------------+-------------+--------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------+
-| 5 |Cuenta Abonar                        |Numérico      |    20       |    196 a 215 |     SI          |Numero de la cuenta a acreditar. Obligatorio para Abono en cuenta mismo banco, otros bancos y tarjetas de       |01160000000000000000,      |
-|   |                                     |              |             |              |                 |crédito, si el beneficiario no está registrado                                                                  |01340000000000000000,      |
-|   |                                     |              |             |              |                 |                                                                                                                |01340000000000000000,      |
-|   |                                     |              |             |              |                 |                                                                                                                |01740000000000000000       |
-+---+-------------------------------------+--------------+-------------+--------------+-----------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
-| 6 |Correo del Beneficiario              |Alfanumérico  |    60       |    216 a 275 |     SI          |Código del Banco.                                                                                               |0116, 0134, 0134 0174      |
-+---+-------------------------------------+--------------+-------------+--------------+-----------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
-| 7 |Referencia                           |Numérico      |    8        |    276 a 283 |     NO*         |Fecha de pago. Debe estar en formato yyyymmdd                                                                   |20201012                   |
-+---+-------------------------------------+--------------+-------------+--------------+-----------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
-| 8 |CEDULA/RIF                           |Alfanumérico  |    10       |    284 a 293 |     SI          |Monto del pago. Incluye los decimales. Monto expresado en ejemplo: Bs. 14.000,75                                |000000400000000,           |
-+---+-------------------------------------+--------------+-------------+--------------+-----------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
+| 5 |Cuenta Abonar                        |Numérico      |    20       |    196 a 215 |     SI          |Numero de la cuenta a acreditar. Obligatorio para abono en cuenta mismo banco y otros bancos                           |01160000000000000000,      |
+|   |                                     |              |             |              |                 |                                                                                                                       |01340000000000000000,      |
+|   |                                     |              |             |              |                 |                                                                                                                       |01340000000000000000,      |
+|   |                                     |              |             |              |                 |                                                                                                                       |01740000000000000000       |
++---+-------------------------------------+--------------+-------------+--------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------+
+| 6 |Correo del Beneficiario              |Alfanumérico  |    60       |    216 a 275 |     SI          |Correo electrónico del baneficiario. Se rellena con espacios a la derecha                                              |estandar@ejmplo.com,       |
+|   |                                     |              |             |              |                 |                                                                                                                       |seniat@ejemplo.com,        |
+|   |                                     |              |             |              |                 |                                                                                                                       |bolipuertos@ejemplo.com,   |
+|   |                                     |              |             |              |                 |                                                                                                                       |dhl@ejemplo.com            |
++---+-------------------------------------+--------------+-------------+--------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------+
+| 7 |Referencia                           |Numérico      |    8        |    276 a 283 |     NO*         |Campo obligatorio para realizar pagos TEBCA, se deberá insertar el N° Orden de Servicio. Se rellena con espacios a     |01000038                   |
+|   |                                     |              |             |              |                 |la izquierda                                                                                                           |                           |
++---+-------------------------------------+--------------+-------------+--------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------+
+| 8 |CEDULA/RIF                           |Alfanumérico  |    10       |    284 a 293 |     SI          |Identificación de la empresa/persona beneficiario. (Requiere 10 caracteres obligatorios). Se rellena con ceros a la    |V000000000                 |
+|   |                                     |              |             |              |                 |izquierda                                                                                                              |G200003030,                |
+|   |                                     |              |             |              |                 |                                                                                                                       |J297599070,                |
+|   |                                     |              |             |              |                 |                                                                                                                       |J002443731                 |
++---+-------------------------------------+--------------+-------------+--------------+-----------------+-----------------------------------------------------------------------------------------------------------------------+---------------------------+
 
 **Exterior Proveedores**
 ------------------------
@@ -92,10 +99,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
 **Descripción del Archivo**
 
-- **
-
-
-
+La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento :download:`Archivo de Pago a Proveedores <Asistente_Integral_Estructura_Pago_a_Proveedores.pdf>`. De igual manera, se encuentra explicada en la tabla que contiene el presente documento, al inicio del mismo.
 
 **Exterior Nómina**
 -------------------
@@ -103,7 +107,7 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 **Archivos para Pagos o Cobros**
 ********************************
 
-Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-15**" procesada en ADempiere, con los siguientes empleados:
+Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-18**" procesada en ADempiere, con los siguientes empleados:
 
 - Socio del Negocio "**Empleado Estándar Uno**", con cédula de identidad "**V000000001**", perteneciente a la nómina "**Quincenal**".
 - Socio del Negocio "**Empleado Estándar Dos**", con cédula de identidad "**V000000002**", perteneciente a la nómina "**Quincenal**".
@@ -121,3 +125,5 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
     Empleado Estndar Dos                                        000043134462NQ-18                                                                                                                   10201020000000000000000empleado-estándar-dos@ejemplo.com                           01000040V000000002
 
 **Descripción del Archivo**
+
+La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento :download:`Archivo de Afiliación y Pago de Proveedores y Nómina <Pago_Nomina_y_Proveedores.pdf>`. De igual manera, se encuentra explicada en la tabla que contiene el presente documento, al inicio del mismo.
