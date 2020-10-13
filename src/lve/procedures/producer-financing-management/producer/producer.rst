@@ -1,12 +1,12 @@
 .. |Menú de Productor| image:: resources/producer-menu.png
 .. |ventana productor| image:: resources/producer-window.png
-.. |icono registros nuevo de la ventana productor| image:: resources/
-.. |campo organización de la ventana productor| image:: resources/
-.. |campo código de la ventana productor| image:: resources/
-.. |campo número de identificación de la ventana productor| image:: resources/
-.. |campo saludo de la ventana productor| image:: resources/
-.. |campo nombre de la ventana productor| image:: resources/
-.. |campo nombre dos de la ventana productor| image:: resources/
+.. |icono registros nuevo de la ventana productor| image:: resources/new-records-icon-in-the-producer-window.png
+.. |campo organización de la ventana productor| image:: resources/producer-window-organization-field.png
+.. |campo código de la ventana productor| image:: resources/producer-window-code-field.png
+.. |campo número de identificación de la ventana productor| image:: resources/producer-window-identification-number-field.png
+.. |campo saludo de la ventana productor| image:: resources/producer-window-greeting-field.png
+.. |campo nombre de la ventana productor| image:: resources/producer-window-name-field.png
+.. |campo nombre dos de la ventana productor| image:: resources/name-field-two-of-the-producer-window.png
 .. |Campo Descripción| image:: resources/
 .. |Campo Estado de Crédito| image:: resources/
 .. |Campo Saldo Actual| image:: resources/
