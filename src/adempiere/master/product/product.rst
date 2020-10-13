@@ -359,12 +359,16 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
 
 #. Seleccione en el campo "**Almacén**", el almacén relacionado con el registro que se encuentra realizando.
 
+   Este campo identifica un punto único donde los productos son almacenados
+
    .. figure:: resources/campo-almacen.png
       :alt: Campo Almacén
 
       Imagen 50. Campo Almacén
 
 #. Seleccione en el campo "**Ubicación**", la ubicación exacta en el almacén relacionada con el registro que se encuentra realizando.
+
+   Este campo indica en que parte del almacén se localiza el producto
 
    .. figure:: resources/campo-ubicacion.png
       :alt: Campo Ubicación
@@ -373,12 +377,16 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
 
 #. Seleccione en el campo "**Tipo de Reabastecimiento**", el tipo de reabastecimiento relacionado con el registro que se encuentra realizando.
 
+   Método para re-ordenar un producto. El tipo de reabastecimiento indica si este producto será manualmente reordenado; ordenado cuando la cantidad esté por debajo de la cantidad mínima u ordenado cuando esté debajo de la cantidad máxima.
+
    .. figure:: resources/tipo-reabastecimiento.png
       :alt: Campo Tipo de Reabastecimiento
 
       Imagen 52. Campo Tipo de Reabastecimiento
 
 #. Seleccione en el campo "**Nivel Mínimo**", el nivel mínimo relacionado con el registro que se encuentra realizando.
+
+   Este campo indica la cantidad mínima de este producto a ser almacenada en inventario
 
    .. figure:: resources/campo-nivel-minimo.png
       :alt: Campo Nivel Mínimo
@@ -387,12 +395,16 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
 
 #. Seleccione en el campo "**Nivel Máximo**", el nivel máximo relacionado con el registro que se encuentra realizando.
 
+   Este campo indica la cantidad máxima de este producto a ser almacenada en inventario
+
    .. figure:: resources/campo-nivel-maximo.png
       :alt: Campo Nivel Máximo
 
       Imagen 54. Campo Nivel Mínimo
 
 #. Seleccione en el campo "**Almacén Fuente**", el almacén fuente relacionado con el registro que se encuentra realizando.
+
+   Almacén opcional para reabastecimiento. Si se define, este almacén será seleccionado para reabastecimiento de producto
 
    .. figure:: resources/campo-almacen-fuente.png
       :alt: Campo Almacén Fuente
@@ -423,91 +435,91 @@ En esta ventana se registran los precios y reglas de compras por socios del nego
    .. figure:: resources/lineacompras.png
       :alt: Pestaña Compras
 
-      Imagen 56. Pestaña Compras
+      Imagen 57. Pestaña Compras
 
    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor del producto que esta registrando.
 
       .. figure:: resources/proveedor.png
          :alt: Campo Socio del Negocio Proveedor
 
-         Imagen 57. Campo Socio del Negocio Proveedor
+         Imagen 58. Campo Socio del Negocio Proveedor
 
    #. Introduzca en el campo "**UPC/EAN**", el código de barras correspondiente al producto que esta registrando.
 
       .. figure:: resources/upclinea.png
          :alt: Campo UPC/EAN
 
-         Imagen 58. Campo UPC/EAN
+         Imagen 59. Campo UPC/EAN
 
    #. Seleccione en el campo "**Moneda**", la moneda utilizada para la compra del producto que esta registrando.
 
       .. figure:: resources/moneda.png
          :alt: Campo Moneda
 
-         Imagen 59. Campo Moneda
+         Imagen 60. Campo Moneda
 
    #. Introduzca en el campo "**Precio de Lista**", el precio del producto en la moneda seleccionada.
 
       .. figure:: resources/plista.png
          :alt: Campo Precio de Lista
 
-         Imagen 60. Campo Precio de Lista
+         Imagen 61. Campo Precio de Lista
 
    #. Seleccione en el campo "**Fecha de Efectividad del Precio**", la fecha en la que el precio ingresado es válido.
 
       .. figure:: resources/fecha.png
          :alt: Campo Fecha de Efectividad del Precio
 
-         Imagen 61. Campo Fecha de Efectividad del Precio
+         Imagen 62. Campo Fecha de Efectividad del Precio
 
    #. Introduzca en el campo "**Precio OC**", el precio unitario del producto para una orden de compra.
 
       .. figure:: resources/precioc.png
          :alt: Campo Precio OC
 
-         Imagen 62. Campo Precio OC
+         Imagen 63. Campo Precio OC
 
    #. Seleccione en el campo "**UM**", la unidad de medida para realizar la compra del producto que esta registrando.
 
       .. figure:: resources/umcompras.png
          :alt: Campo UM
 
-         Imagen 63. Campo UM
+         Imagen 64. Campo UM
 
    #. Introduzca en el campo "**Mínimo a Ordenar**", la cantidad mínima a ordenar en la unidad de medida seleccionada del producto que esta registrando.
 
       .. figure:: resources/ordenarmi.png
          :alt: Campo Mínimo a Ordenar
 
-         Imagen 64. Campo Mínimo a Ordenar
+         Imagen 65. Campo Mínimo a Ordenar
 
    #. Introduzca en el campo "**Múltiplo a Ordenar**", el número de productos que contiene la unidad de medida seleccionada.
 
       .. figure:: resources/ordenarma.png
          :alt: Campo Múltiplo a Ordenar
 
-         Imagen 65. Campo Múltiplo a Ordenar
+         Imagen 66. Campo Múltiplo a Ordenar
 
    #. Introduzca en el campo "**Tiempo de Entrega Prometido**", el número de días existentes entre la fecha de la orden y la fecha prometida de la entrega.
 
       .. figure:: resources/entregapro.png
          :alt: Campo Tiempo de Entrega Prometido
 
-         Imagen 66. Campo Tiempo de Entrega Prometido
+         Imagen 67. Campo Tiempo de Entrega Prometido
 
    #. Introduzca en el campo "**Costo por Orden**", el costo por la orden para el producto que esta registrando.
 
       .. figure:: resources/costo.png
          :alt: Campo Costo por Orden
 
-         Imagen 67. Campo Costo por Orden
+         Imagen 68. Campo Costo por Orden
 
 #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere.
 
    .. figure:: resources/guardarco.png
       :alt: Icono Guardar Cambios
 
-      Imagen 68. Icono Guardar Cambios
+      Imagen 69. Icono Guardar Cambios
 
 **Pestaña Precio**
 ^^^^^^^^^^^^^^^^^^
@@ -519,21 +531,21 @@ En esta ventana se registran las listas de precios utilizadas por la empresa, co
    .. figure:: resources/lineaprecios.png
       :alt: Pestaña Precio
 
-      Imagen 69. Pestaña Precio
+      Imagen 70. Pestaña Precio
 
    #. Seleccione en el campo "**Versión de Lista de Precios**", la lista de precios que será utilizada para el producto que esta registrando.
 
       .. figure:: resources/preciov.png
          :alt: Campo Versión de Lista de Precios
 
-         Imagen 70. Campo Versión de Lista de Precios
+         Imagen 71. Campo Versión de Lista de Precios
 
 #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere.
 
    .. figure:: resources/guardarpre.png
       :alt: Icono Guardar Cambios
 
-      Imagen 71. Icono Guardar Cambios
+      Imagen 72. Icono Guardar Cambios
 
 **Pestaña Conversión Unidad de Medida**
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -545,25 +557,25 @@ En esta ventana se registran las conversiones de las diferentes unidades de medi
    .. figure:: resources/lineamedida.png
       :alt: Pestaña Conversión Unidad de Medida
 
-      Imagen 72. Pestaña Conversión Unidad de Medida
+      Imagen 73. Pestaña Conversión Unidad de Medida
 
    #. Seleccione en el campo "**UM Destino**", la unidad de medida a la cual será realizada la conversión.
 
       .. figure:: resources/umdestino.png
          :alt: Campo UM Destino
 
-         Imagen 73. Campo UM Destino
+         Imagen 74. Campo UM Destino
 
    #. Introduzca en el campo "**Factor de Destino a Base**", el número de productos que contiene la unidad de medida seleccionada.
 
       .. figure:: resources/factor.png
          :alt: Pestaña Conversión Unidad de Medida
 
-         Imagen 74. Campo Factor de Destino a Base
+         Imagen 75. Campo Factor de Destino a Base
 
 #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere.
 
    .. figure:: resources/guardaruni.png
       :alt: Icono Guardar Cambios
 
-      Imagen 75. Icono Guardar Cambios
+      Imagen 76. Icono Guardar Cambios
