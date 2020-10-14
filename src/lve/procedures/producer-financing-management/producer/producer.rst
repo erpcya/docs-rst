@@ -46,6 +46,8 @@
 .. |Campo Tipo de Notificación| image:: resources/notification-type-field.png
 .. |Campo Posición| image:: resources/position-field.png
 .. |Campo Acceso Total Socio del Negocio| image:: resources/full-access-field-business-partner.png
+.. |pestaña finca de la ventana productor| image:: resources/farm-tab-of-the-producer-window.png
+.. |pestaña lote de finca de la ventana productor| image:: resources/farm-lot-tab-of-the-producer-window.png
 
 .. _documento/productor:
 
@@ -400,3 +402,18 @@ En esta pestaña se registran todos los datos de contacto que se posea el produc
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana productor.
 
+
+**Pestaña Finca**
+-----------------
+
+#. Al seleccionar el productor en el registro de una finca, se carga de manera automática en la pestaña "**Finca**" de la ventana "**Productor**", los datos registrados en la pestaña "**Finca**", de la ventana "**Finca**".
+
+    |pestaña finca de la ventana productor|
+
+    Imagen 48. Pestaña Finca de la Ventana Productor
+
+#. Si el registro de la finca contiene información en la pestaña "**Lote de Finca**", esta se carga de manera automática a la pestaña "**Lote**" de la ventana "**Productor**".
+
+    |pestaña lote de finca de la ventana productor|
+
+    Imagen 49. Pestaña Lote de Finca de la Ventana Productor
