@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere 1| image:: resources/menu-gen-dec-ret-iva.png
 .. |Ventana Generar Declaración de Retenciones| image:: resources/vent-gen-dec-ret-iva.png
 .. |Campo Tipo de Retención 1| image:: resources/campo-tipo-ret1.png
@@ -19,7 +20,6 @@
 .. |Archivo o Documento Exportado 1| image:: resources/doc-generado.png
 
 .. _documento/declaración-retención-cxp:
-.. _ERPyA: http://erpya.com
 
 .. _paso/generar-declaración-retenciones:
 

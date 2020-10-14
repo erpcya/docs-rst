@@ -1,5 +1,5 @@
-.. _src/adempiere/withholding-management/withholding-cxc:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/withholding-management/withholding-cxc:
 
 ==================================================
 **Retenciones de Cuentas por Cobrar en ADempiere**

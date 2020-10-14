@@ -11,6 +11,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 
     human-resources/index
     payroll/index
+    producer-financing-management
     treasury-management/index
     import/index
     withholding-management/index

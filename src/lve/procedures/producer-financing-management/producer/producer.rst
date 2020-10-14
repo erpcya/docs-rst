@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de Productor| image:: resources/producer-menu.png
 .. |ventana productor| image:: resources/producer-window.png
 .. |icono registros nuevo de la ventana productor| image:: resources/new-records-icon-in-the-producer-window.png
@@ -7,44 +8,44 @@
 .. |campo saludo de la ventana productor| image:: resources/producer-window-greeting-field.png
 .. |campo nombre de la ventana productor| image:: resources/producer-window-name-field.png
 .. |campo nombre dos de la ventana productor| image:: resources/name-field-two-of-the-producer-window.png
-.. |Campo Descripción| image:: resources/
-.. |Campo Estado de Crédito| image:: resources/
-.. |Campo Saldo Actual| image:: resources/
-.. |Campo Exento de Impuesto en Venta| image:: resources/
-.. |Campo Exento de Impuesto en Compra| image:: resources/
-.. |Campo Grupo de Socio del Negocio| image:: resources/
-.. |checklist productor proveedor cliente| image:: resources/
-.. |Pestaña Localización| image:: resources/
-.. |Campo Localización / Dirección| image:: resources/
-.. |Campo País| image:: resources/
-.. |Campo Estado| image:: resources/
-.. |Campo Ciudad| image:: resources/
-.. |Campo Dirección 1| image:: resources/
-.. |Campo Teléfono| image:: resources/
-.. |Campo Teléfono Móvil| image:: resources/
-.. |Campo Fax| image:: resources/
-.. |Campo ISDN| image:: resources/
-.. |Campo Dirección Entregar-A| image:: resources/
-.. |Campo Dirección Facturar-A| image:: resources/
-.. |Campo Dirección Pagar-Desde| image:: resources/
-.. |Campo Dirección Remitir-A| image:: resources/
-.. |Campo Región de Ventas| image:: resources/
-.. |Pestaña Contacto| image:: resources/
-.. |Campo Nombre de Contacto| image:: resources/
-.. |Campo Descripción Persona| image:: resources/
-.. |Campo Comentarios| image:: resources/
-.. |Checklist Activo| image:: resources/
-.. |Campo Email| image:: resources/
-.. |Campo Saludo| image:: resources/
-.. |Campo Dirección del Socio del Negocio| image:: resources/
-.. |Campo Título| image:: resources/
-.. |Campo Cumpleaños| image:: resources/
-.. |Campo Teléfono de Contacto| image:: resources/
-.. |Campo Teléfono Móvil Contacto| image:: resources/
-.. |Campo Fax Contacto| image:: resources/
-.. |Campo Tipo de Notificación| image:: resources/
-.. |Campo Posición| image:: resources/
-.. |Campo Acceso Total Socio del Negocio| image:: resources/
+.. |Campo Descripción| image:: resources/description-field.png
+.. |Campo Estado de Crédito| image:: resources/credit-status-field.png
+.. |Campo Saldo Actual| image:: resources/current-balance-field.png
+.. |Campo Exento de Impuesto en Venta| image:: resources/field-exempt-from-tax-for-sale.png
+.. |Campo Exento de Impuesto en Compra| image:: resources/field-exempt-from-tax-on-purchase.png
+.. |Campo Grupo de Socio del Negocio| image:: resources/business-partner-group-field.png
+.. |checklist productor proveedor cliente| image:: resources/producer-supplier-client-checklist.png
+.. |Pestaña Localización| image:: resources/location-tab.png
+.. |Campo Localización / Dirección| image:: resources/address-location-field.png
+.. |Campo País| image:: resources/country-field.png
+.. |Campo Estado| image:: resources/state-field.png
+.. |Campo Ciudad| image:: resources/city-field.png
+.. |Campo Dirección 1| image:: resources/address-field-1.png
+.. |Campo Teléfono| image:: resources/field-phone.png
+.. |Campo Teléfono Móvil| image:: resources/field-mobile-phone.png
+.. |Campo Fax| image:: resources/fax-field.png
+.. |Campo ISDN| image:: resources/isdn-field.png
+.. |Campo Dirección Entregar-A| image:: resources/address-deliver-to.png
+.. |Campo Dirección Facturar-A| image:: resources/address-bill-to.png
+.. |Campo Dirección Pagar-Desde| image:: resources/address-pay-from.png
+.. |Campo Dirección Remitir-A| image:: resources/address-refer-to.png
+.. |Campo Región de Ventas| image:: resources/sales-region-field.png
+.. |Pestaña Contacto| image:: resources/contact-tab.png
+.. |Campo Nombre de Contacto| image:: resources/contact-name-field.png
+.. |Campo Descripción Persona| image:: resources/field-description-person.png
+.. |Campo Comentarios| image:: resources/comments-field.png
+.. |Checklist Activo| image:: resources/active-checklist.png
+.. |Campo Email| image:: resources/email-field.png
+.. |Campo Saludo| image:: resources/field-greeting.png
+.. |Campo Dirección del Socio del Negocio| image:: resources/business-partner-address-field.png
+.. |Campo Título| image:: resources/title-field.png
+.. |Campo Cumpleaños| image:: resources/birthday-field.png
+.. |Campo Teléfono de Contacto| image:: resources/contact-phone-field.png
+.. |Campo Teléfono Móvil Contacto| image:: resources/field-mobile-phone-contact.png
+.. |Campo Fax Contacto| image:: resources/contact-fax-field.png
+.. |Campo Tipo de Notificación| image:: resources/notification-type-field.png
+.. |Campo Posición| image:: resources/position-field.png
+.. |Campo Acceso Total Socio del Negocio| image:: resources/full-access-field-business-partner.png
 
 .. _documento/productor:
 
