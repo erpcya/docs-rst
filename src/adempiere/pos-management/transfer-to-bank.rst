@@ -10,7 +10,7 @@
 .. |opcion comenzar busqueda de la ventana deposito a caja| image:: resources/option-start-window-search-deposit-to-cash.png
 .. |listado de movimientos de la ventana deposito a caja| image:: resources/list-of-movements-of-the-deposit-to-cash-window.png
 .. |seleccion de movimiento a depositar de la ventana deposito a caja| image:: resources/selection-of-movement-to-deposit-from-the-deposit-to-cash-window.png
-.. |campo fecha para de la transaccion de la ventana deposito a caja| image:: resources/date-field-for-the-transaction-of-the-deposit-to-cash-window.png
+.. |campo fecha para la transaccion de la ventana deposito a caja| image:: resources/date-field-for-the-transaction-of-the-deposit-to-cash-window.png
 .. |campo cuenta bancaria a depositar de la ventana deposito a caja| image:: resources/field-bank-account-to-deposit-of-the-window-deposit-to-cash.png
 .. |campo socio del negocio a depositar de la ventana deposito a caja| image:: resources/business-partner-field-to-deposit-from-the-deposit-to-cash-window.png
 .. |campo nro del documento de la ventana deposito a caja| image:: resources/field-number-of-the-document-of-the-window-deposit-to-cash.png
