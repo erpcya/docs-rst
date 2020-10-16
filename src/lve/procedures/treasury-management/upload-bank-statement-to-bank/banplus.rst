@@ -9,7 +9,7 @@ Para la exportación de los archivos desde ADempiere al banco banplus, `ERPyA`_ 
 
 El banco cuenta con los documentos :download:`Banplus On line <Banplus_On_line.pdf>`, :download:`Archivos de Pagos <PANTALLAS_SERVICIO_NOMINA_PLUS.ppt>` y :download:`Archivos de Pagos <PANTALLAS_SERVICIO_NOMINA_PLUS.ppt.pptx>` que explican los formatos para la construcción el archivo a cargar.
 
-Adicional a ello, cuenta con el documento :download:`Pagos Masivos <PagosMasivos.xlsx>`, mismo que se puede visualizar de la siguiente manera, luego de descargarlo.
+Adicional a ello, cuenta con el documento :download:`Pagos Masivos <PagosMasivos.xls>`, mismo que se puede visualizar de la siguiente manera, luego de descargarlo.
 
     +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
     |                                                                                  **Servicio de Pagos**                                                                              |
