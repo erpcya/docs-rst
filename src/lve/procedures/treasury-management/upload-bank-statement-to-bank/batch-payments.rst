@@ -103,10 +103,11 @@ El archivo en formato "**.txt**" generado por ADempiere, debe ser cargado al ban
 .. toctree::
     :maxdepth: 2
 
-    bancaribe
-    banesco
-    banplus
-    bfc
-    bod
-    exterior
-    venezuela
+    bancaribe/bancaribe
+    banesco/banesco
+    banplus/banplus
+    bfc/bfc
+    bod/bod
+    exterior/exterior
+    venezuela/venezuela
+    bnc/bnc

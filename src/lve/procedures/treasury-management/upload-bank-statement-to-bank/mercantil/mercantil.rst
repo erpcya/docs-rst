@@ -43,27 +43,59 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 |1  |Tipo de Registro                               |Numérico     |1       |Si          |1           |Número que identifica al tipo de registro. Valor fijo: 1       |
 +---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
 |2  |Identificación del Banco                       |Alfanumérico |12      |Si          |2-13        |Código Swift del Banco Mercantil. Valor fijo: BAMRVECA         |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
 |3  |Número de Archivo del Cliente ó Número de Lote |Alfanumérico |15      |Si          |14-28       |Número de control irrepetible que le asigna la Empresa a un    |
 |   |                                               |             |        |            |            |grupo de registros de detalle que se encuentran en el archivo  |
 |   |                                               |             |        |            |            |que envía a Banco Mercantil. Valor fijo: 1000038               |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
 |4  |Tipo de Producto                               |Alfanumérico |5       |Si          |29-33       |Identificación del producto. Valor fijo: PROVE                 |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
 |5  |Tipo de Pago                                   |Numérico     |10      |Si          |34-43       |Identifica el tipo de pago que efectúa la empresa. Esto        |
 |   |                                               |             |        |            |            |equivale a pago a proveedores. Valor Fijo: 0000000062          |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
 |6  |Tipo de Identificación                         |Alfanumérico |1       |Si          |44          |Naturaleza del ente pagador. Valor fijo: J = jurídico          |
 |   |                                               |             |        |            |            |G = Gobierno; V = Venezolano; E = Extranjero; P= Pasaporte     |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
 |7  |Número de Identificación                       |Numérico     |15      |Si          |45-59       |Número de RIF del ente pagador. Este campo debe venir alineado |
 |   |                                               |             |        |            |            |de derecha a izquierda y completar con ceros los espacios      |
 |   |                                               |             |        |            |            |faltantes.                                                     |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
 |8  |Cantidad Total Registros de Detalle            |Numérico     |8       |Si          |60-67       |Cantidad total de registros tipo 2 de pagos (Detalle) incluidos|
 |   |                                               |             |        |            |            |en el archivo.                                                 |
-|9  |Monto Total Registros de Detalle               |Numérico     |15,2    |Si          |68-84       |
-|10 |Fecha Valor                                    |Numérico     |8       |Si          |85-92       |
-|11 |Código Cuenta Cliente                          |Numérico     |20      |Si          |93-112      |
-|12 |Área Reservada                                 |Numérico     |7       |Si          |113-119     |
-|13 |Número Serial Nota Empresa                     |Numérico     |8       |No          |120-127     |
 +---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
-
-
+|9  |Monto Total Registros de Detalle               |Numérico     |15,2    |Si          |68-84       |Monto que conforma la suma de cada uno de los montos           |
+|   |                                               |             |        |            |            |especificados en los registros de pagos (Detalle) incluidos en |
+|   |                                               |             |        |            |            |el Archivo.                                                    |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
+|10 |Fecha Valor                                    |Numérico     |8       |Si          |85-92       |Fecha en que el Banco Mercantil efectuará la gestión indicada  |
+|   |                                               |             |        |            |            |por la Empresa. Esta fecha no debe ser menor a la fecha de     |
+|   |                                               |             |        |            |            |envío, ni mayor a treinta días calendarios contados a partir de|
+|   |                                               |             |        |            |            |la fecha de envío.                                             |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
+|11 |Código Cuenta Cliente                          |Numérico     |20      |Si          |93-112      |Número de la cuenta bancaria (Corriente, Ahorro, Máxima) que   |
+|   |                                               |             |        |            |            |tiene la Empresa en el Banco Mercantil, en la cual se aplicará |
+|   |                                               |             |        |            |            |el débito producto de la gestión que realizará el Banco        |
+|   |                                               |             |        |            |            |Mercantil.                                                     |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
+|12 |Área Reservada                                 |Numérico     |7       |Si          |113-119     |Valor fijo: Ceros                                              |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
+|13 |Número Serial Nota Empresa                     |Numérico     |8       |No          |120-127     |Número irrepetible que la empresa requiere aparezca como parte |
+|   |                                               |             |        |            |            |del serial de la nota de débito, cuando el monto de la misma   |
+|   |                                               |             |        |            |            |esta conformada por la suma total de la gestión realizada por  |
+|   |                                               |             |        |            |            |el banco mercantil. Si la empresa no suministra este dato, el  |
+|   |                                               |             |        |            |            |banco mercantil asignará un número aleatorio. Esto aplica      |
+|   |                                               |             |        |            |            |únicamente para las empresas que requieran que el sistema      |
+|   |                                               |             |        |            |            |realice un solo débito global por todas los pagos realizados.  |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
+|14 |Código Respuesta (Dato de Salida)              |Numérico     |4       |No          |128-131     |Código que le asigna el banco mercantil al archivo como        |
+|   |                                               |             |        |            |            |resultado de la gestión realizada.                             |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
+|15 |Fecha Proceso (Dato de Salida)                 |Numérico     |8       |No          |132-139     |Fecha en que el banco mercantil efectuó la gestión indicada por|
+|   |                                               |             |        |            |            |la empresa. Esta información es generada por el banco mercantil|
+|   |                                               |             |        |            |            |como respuesta de la gestión realizada.                        |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
+|16 |Área Reservada                                 |Numérico     |261     |Si          |140-400     |Valor fijo: Ceros                                              |
++---+-----------------------------------------------+-------------+--------+------------+------------+---------------------------------------------------------------+
 
 
 **Mercantil Nómina**
