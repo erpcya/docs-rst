@@ -14,8 +14,8 @@ Adicional a ello, cuenta con el documento :download:`Archivos de Pagos <CODIGOS_
 **Mercantil Proveedores**
 -------------------------
 
-**Archivos para Pagos o Cobros**
-********************************
+**Archivo para Pagos**
+**********************
 
 Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere: 
 
@@ -101,8 +101,8 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 **Mercantil Nómina**
 --------------------
 
-**Archivos para Pagos o Cobros**
-********************************
+**Archivo para Pagos**
+**********************
 
 Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-19**" procesada en ADempiere, con los siguientes empleados:
 

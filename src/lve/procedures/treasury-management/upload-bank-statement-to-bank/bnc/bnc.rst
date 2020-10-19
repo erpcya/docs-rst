@@ -1,11 +1,14 @@
+.. _ERPyA: http://erpya.com
+
 .. _documento/banco-bnc:
 
 **Banco Nacional de Crédito**
 =============================
 
+Para la exportación de los archivos desde ADempiere al banco nacional de crédito, `ERPyA`_ soporta el siguiente formato facilitado por el banco, que puede ser descargado para su análisis y adaptación.
 
-**Archivos para Pagos de Nómina**
-*********************************
+**Archivo para Pagos de Nómina**
+********************************
 
 Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-19**" procesada en ADempiere, con los siguientes empleados:
 

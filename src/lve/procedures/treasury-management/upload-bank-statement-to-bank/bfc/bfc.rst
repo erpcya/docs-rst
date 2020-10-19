@@ -12,8 +12,8 @@ El banco cuenta con el documento :download:`Intructivo TXT Proveedores <Instruct
 **BFC Proveedores**
 -------------------
 
-**Archivos para Pagos o Cobros**
-********************************
+**Archivo para Pagos**
+**********************
 
 Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere: 
 

@@ -76,8 +76,8 @@ El banco cuenta con los documentos :download:`Archivo de Pago a Proveedores <Asi
 **Exterior Proveedores**
 ------------------------
 
-**Archivos para Pagos o Cobros**
-********************************
+**Archivo para Pagos**
+**********************
 
 Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere: 
 
@@ -104,8 +104,8 @@ La descripción del archivo anteriormente generado por el pago, se encuentra exp
 **Exterior Nómina**
 -------------------
 
-**Archivos para Pagos o Cobros**
-********************************
+**Archivo para Pagos**
+**********************
 
 Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-18**" procesada en ADempiere, con los siguientes empleados:
 

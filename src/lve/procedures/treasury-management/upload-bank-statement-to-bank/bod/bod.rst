@@ -113,8 +113,8 @@ Adicional a ello, se puede visualizar dicho documento de la siguiente manera, lu
 | 7 |FILLER                               |      187     |          |            |     SI        |Uso futuro                                                                                                      |                           |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 
-**Archivos para Pagos o Cobros**
---------------------------------
+**Archivo para Pagos**
+----------------------
 
 Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere: 
 

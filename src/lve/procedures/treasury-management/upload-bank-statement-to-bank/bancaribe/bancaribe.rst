@@ -9,8 +9,8 @@ Para la exportación de los archivos desde ADempiere al banco del caribe, `ERPyA
 
 El banco cuenta con el documento :download:`Estructura del txt de Bancaribe <Estuctura_TXT_Bancaribe.pdf>`, que explica algunos formatos que sirven de ayuda para la construcción el archivo a cargar.
 
-**Archivos para Pagos o Cobros a Otros Bancos**
------------------------------------------------
+**Archivo para Pagos a Otros Bancos**
+-------------------------------------
 
 Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere: 
 
@@ -39,8 +39,8 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
     Se debe realizar una archivo para cuentas del banco bancaribe y otro archivo para cuentas de otros bancos.
 
-**Archivos para Pagos o Cobros del Mismo Banco del Caribe**
------------------------------------------------------------
+**Archivo para Pagos del Mismo Banco del Caribe**
+-------------------------------------------------
 
 Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere: 
 
