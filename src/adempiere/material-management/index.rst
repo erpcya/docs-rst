@@ -13,4 +13,3 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     internal-use-inventory/index
     physical-inventory/index
     ldm
-    replenishment-process
