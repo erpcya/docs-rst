@@ -49,7 +49,7 @@
 .. |Icono Guardar Cambios Pestaña Producto| image:: resources/guardar.png
 .. |Pestaña Reabastecer| image:: resources/pest-reabastecer.png
 .. |Campo Almacén| image:: resources/campo-almacen.png
-.. |Campo Ubicación| image:: resources/campo-ubicacion.png
+.. |Campo Ubicación Reabastecer| image:: resources/campo-ubicacion.png
 .. |Campo Tipo de Reabastecimiento| image:: resources/tipo-reabastecimiento.png
 .. |Campo Nivel Mínimo| image:: resources/campo-nivel-minimo.png
 .. |Campo Nivel Máximo| image:: resources/campo-nivel-maximo.png
@@ -58,12 +58,12 @@
 .. |Icono Guardar Cambios Pestaña Reabastecer| image:: resources/guardar-reabastecer.png
 .. |Pestaña Compras| image:: resources/lineacompras.png
 .. |Campo Socio del Negocio Proveedor| image:: resources/proveedor.png
-.. |Campo UPC/EAN| image:: resources/upclinea.png
+.. |Campo UPC/EAN Compras| image:: resources/upclinea.png
 .. |Campo Moneda| image:: resources/moneda.png
 .. |Campo Precio de Lista| image:: resources/plista.png
 .. |Campo Fecha de Efectividad del Precio| image:: resources/fecha.png
 .. |Campo Precio OC| image:: resources/precioc.png
-.. |Campo UM| image:: resources/umcompras.png
+.. |Campo UM Compras| image:: resources/umcompras.png
 .. |Campo Mínimo a Ordenar| image:: resources/ordenarmi.png
 .. |Campo Múltiplo a Ordenar| image:: resources/ordenarma.png
 .. |Campo Tiempo de Entrega Prometido| image:: resources/entregapro.png
@@ -74,8 +74,9 @@
 .. |Icono Guardar Cambios Pestaña Precio| image:: resources/guardarpre.png
 .. |Pestaña Conversión Unidad de Medida| image:: resources/lineamedida.png
 .. |Campo UM Destino| image:: resources/umdestino.png
-.. |Pestaña Conversión Unidad de Medida| image:: resources/factor.png
+.. |Campo Factor de Destino a Base| image:: resources/factor.png
 .. |Icono Guardar Cambios Pestaña Conversión| image:: resources/guardaruni.png
+
 .. _documento/producto:
 
 **Registro de Producto**
@@ -375,6 +376,8 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
 
     Imagen 48. Icono Guardar Cambios
 
+.. _paso/reabastecer-producto:
+
 **Pestaña Reabastecer**
 -----------------------
 
@@ -396,7 +399,7 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
 
         Este campo indica en que parte del almacén se localiza el producto
 
-        |Campo Ubicación|
+        |Campo Ubicación Reabastecer|
 
         Imagen 51. Campo Ubicación
 
@@ -463,7 +466,7 @@ En esta ventana se registran los precios y reglas de compras por socios del nego
 
     #. Introduzca en el campo "**UPC/EAN**", el código de barras correspondiente al producto que esta registrando.
 
-        |Campo UPC/EAN|
+        |Campo UPC/EAN Compras|
 
         Imagen 60. Campo UPC/EAN
 
@@ -493,7 +496,7 @@ En esta ventana se registran los precios y reglas de compras por socios del nego
 
     #. Seleccione en el campo "**UM**", la unidad de medida para realizar la compra del producto que esta registrando.
 
-        |Campo UM|
+        |Campo UM Compras|
 
         Imagen 65. Campo UM
 
@@ -569,7 +572,7 @@ En esta ventana se registran las conversiones de las diferentes unidades de medi
 
     #. Introduzca en el campo "**Factor de Destino a Base**", el número de productos que contiene la unidad de medida seleccionada.
 
-        |Pestaña Conversión Unidad de Medida|
+        |Campo Factor de Destino a Base|
 
         Imagen 76. Campo Factor de Destino a Base
 
