@@ -1,4 +1,5 @@
 .. _ERPyA: http://erpya.com
+.. |diagrama de apertura de caja pos| image:: resources/opening-cash.png
 .. |Menú de ADempiere| image:: resources/menu-opening-point-of-sale.png
 .. |Ventana Apertura de Punto de Venta| image:: resources/window-opening-point-of-sale.png
 .. |Transferencia Bancaria de Apertura de Caja| image:: resources/cash-transfer-bank-opening.png
@@ -9,11 +10,29 @@
 .. |Registro del Cierre de Caja 04| image:: resources/cash-closure-record-04.png
 .. |Pestaña Línea de Cierre de Caja 04| image:: resources/cash-closure-line-04-tab.png
 
-
 .. _documento/apertura-de-caja:
 
 **Apertura de Caja**
 ====================
+
+El proceso de apertura de caja consta en realizar una transferencia bancaria desde un proceso específico del punto de venta. Permitiendo con ello, realizar un egreso de la caja administrativa del punto de venta y posteriormente, un ingreso a la caja en la cual serán realizadas las operaciones de venta. Dichos movimientos son reflejados en la ventana "**Caja**", por medio de los documentos "**Pago Nacional**" y "**Cobro Nacional**".
+
+Este procedimiento crea un registro en la ventana "**Cierre de Caja**", con la cuenta "**Caja Administrativa**", desde la cual egresa el dinero. En la línea del mismo, se asocia el registro de "**Pago Nacional**", generado en la ventana "**Caja**" por la apertura.
+
+Adicional a ello, crea un registro en dicha ventana "**Cierre de Caja**", con la cuenta "**Caja POS**", a la cual ingresa el dinero. De igual manera, se asocia en la línea del registro, el "**Cobro Nacional**", generado en "**Caja**" por la apertura.
+
+Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso "**Apertura de Caja POS**", con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.
+
+    |diagrama de apertura de caja pos|
+
+    Imagen 1. Diagrama de Apertura de Caja POS
+
+.. warning::
+
+    Recuerde que este proceso se debe realizar antes de iniciar las ventas del día. Adicional a ello, es un proceso necesario al momento del cierre de caja.
+
+**Ejecución del Proceso**
+-------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la carpeta "**Punto de Venta**". Para finalizar, seleccione el proceso "**Apertura de Punto de Venta**".
 
