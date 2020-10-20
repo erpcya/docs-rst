@@ -38,13 +38,13 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
     |Menú de ADempiere|
 
-    Imagen 1. Menú de ADempiere
+    Imagen 2. Menú de ADempiere
 
 #. Podrá visualizar la ventana "**Apertura de Punto de Venta**", con diferentes campos que permiten simular las transferencias monetarias entre las cuentas bancarias y cajas registradas en ADempiere.
 
     |Ventana Apertura de Punto de Venta|
 
-    Imagen 2. Ventana Apertura de Punto de Venta
+    Imagen 3. Ventana Apertura de Punto de Venta
 
     #. Realice en la ventana "**Apertura de Punto de Venta**", el proceso regular para generar una transferencia bancaria, dicho procedimiento se encuentra explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_. 
     
@@ -80,7 +80,7 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         |Transferencia Bancaria de Apertura de Caja|
 
-        Imagen 3. Transferencia Bancaria de Apertura de Caja
+        Imagen 4. Transferencia Bancaria de Apertura de Caja
 
         .. note::
 
@@ -95,13 +95,13 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         |Egreso Generado de la Transferencia Bancaria de Apertura de Caja|
 
-        Imagen 4. Egreso Generado de la Transferencia Bancaria de Apertura de Caja
+        Imagen 5. Egreso Generado de la Transferencia Bancaria de Apertura de Caja
 
     #. El ingreso generado en la cuenta "**Caja 04**" como cobro nacional, con toda la información suministrada en el proceso ejecutado en la ventana "**Apertura de Punto de Venta**".
 
         |Ingreso Generado de la Transferencia Bancaria de Apertura de Caja|
 
-        Imagen 5. Ingreso Generado de la Transferencia Bancaria de Apertura de Caja
+        Imagen 6. Ingreso Generado de la Transferencia Bancaria de Apertura de Caja
 
 **Consultar Registros Creados en la Ventana Cierre de Caja**
 ------------------------------------------------------------
@@ -122,13 +122,13 @@ Al realizar una apertura de caja se crean dos registros en estado "**Borrador**"
 
     |Registro del Cierre de Caja Administrativa|
 
-    Imagen 6. Registro del Cierre de Caja Administrativa
+    Imagen 7. Registro del Cierre de Caja Administrativa
 
     El mismo contiene en la pestaña "**Línea de Cierre de Caja**", el registro del egreso por la apertura de caja realizada y contiene asociado el documento de egreso generado en la ventana "**Caja**".
 
     |Pestaña Línea de Cierre de Caja Administrativa|
 
-    Imagen 7. Pestaña Línea de Cierre de Caja Administrativa
+    Imagen 8. Pestaña Línea de Cierre de Caja Administrativa
 
 **Caja 04**
 ***********
@@ -144,10 +144,10 @@ Al realizar una apertura de caja se crean dos registros en estado "**Borrador**"
 
     |Registro del Cierre de Caja 04|
 
-    Imagen 8. Registro del Cierre de Caja 04
+    Imagen 9. Registro del Cierre de Caja 04
 
     El mismo contiene en la pestaña "**Línea de Cierre de Caja**", el registro del ingreso por la apertura de caja realizada y contiene asociado el documento de ingreso generado en la ventana "**Caja**".
 
     |Pestaña Línea de Cierre de Caja 04|
 
-    Imagen 9. Pestaña Línea de Cierre de Caja 04
+    Imagen 10. Pestaña Línea de Cierre de Caja 04
