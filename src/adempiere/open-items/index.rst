@@ -5,7 +5,7 @@
 **Gestión de Saldos Pendientes**
 ================================
 
-Para que una compañía evolucione debe contar con una buena estructura y administración efectiva de los costos, la gestión y toma de decisiones en cada una de las actividades administrativas van dejando resultados financieros los cuales deben ser controlados para poder llevar a cabo una buena gestión de los saldos en cuanto a gastos e ingresos en una empresa; para ello deben contar no solo con una buena planificación o financiamiento  sí no que también contar con buenas herramientas de trabajo que les permita incrementar el valor de la compañía y garantizar la supervivencia económica.
+Para que una compañía evolucione debe contar con una buena estructura y administración efectiva de los costos, la gestión y toma de decisiones en cada una de las actividades administrativas van dejando resultados financieros los cuales deben ser controlados para poder llevar a cabo una buena gestión de los saldos en cuanto a gastos e ingresos en una empresa; para ello deben contar no solo con una buena planificación o financiamiento sí no que también contar con buenas herramientas de trabajo que les permita incrementar el valor de la compañía y garantizar la supervivencia económica.
 
 Del mismo modo, contar con una buena herramienta de trabajo permite tener actualizada y centralizada toda la información financiera, fomentar la integridad de los datos, permitir una mejor visualización de estrategias de costos, y la determinación del impacto financiero en una compañía.
 
