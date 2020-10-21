@@ -110,8 +110,8 @@ Adicional a ello, cuenta con el documento :download:`Código Swift Actualizado <
 **Banesco Proveedores**
 -----------------------
 
-**Archivos para Pagos o Cobros**
-********************************
+**Archivo para Pagos**
+**********************
 
 Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere: 
 
@@ -174,8 +174,8 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 **Banesco Nómina**
 ------------------
 
-**Archivos para Pagos o Cobros**
-********************************
+**Archivo para Pagos**
+**********************
 
 Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-15**" procesada en ADempiere, con los siguientes empleados:
 

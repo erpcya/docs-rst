@@ -9,7 +9,7 @@ Para la exportación de los archivos desde ADempiere al banco banplus, `ERPyA`_ 
 
 El banco cuenta con los documentos :download:`Banplus On line <Banplus_On_line.pdf>`, :download:`Archivos de Pagos <PANTALLAS_SERVICIO_NOMINA_PLUS.ppt>` y :download:`Archivos de Pagos <PANTALLAS_SERVICIO_NOMINA_PLUS.ppt.pptx>` que explican los formatos para la construcción el archivo a cargar.
 
-Adicional a ello, cuenta con el documento :download:`Pagos Masivos <PagosMasivos.xlsx>`, mismo que se puede visualizar de la siguiente manera, luego de descargarlo.
+Adicional a ello, cuenta con el documento :download:`Pagos Masivos <PagosMasivos.xls>`, mismo que se puede visualizar de la siguiente manera, luego de descargarlo.
 
     +-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
     |                                                                                  **Servicio de Pagos**                                                                              |
@@ -37,8 +37,8 @@ Adicional a ello, cuenta con el documento :download:`Pagos Masivos <PagosMasivos
 **Banplus Proveedores**
 -----------------------
 
-**Archivos para Pagos o Cobros**
-********************************
+**Archivo para Pagos**
+**********************
 
 Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere: 
 
@@ -65,8 +65,8 @@ La descripción del archivo anteriormente generado por el pago, se encuentra exp
 **Banplus Nómina**
 ------------------
 
-**Archivos para Pagos o Cobros**
-********************************
+**Archivo para Pagos**
+**********************
 
 Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-16**" procesada en ADempiere, con los siguientes empleados:
 

@@ -11,8 +11,7 @@ Para garantizar dichos movimientos de dinero se aplican operaciones como las con
 
 ADempiere cuenta con un proceso de conciliaciones automáticas el cual permite de una manera rápida y eficaz comparar los movimientos generados a través de movimientos bancarios con los movimientos registrados en ADempiere.
 
-
-Una conciliación automática es un proceso que se realiza con la finalidad de garantizar los saldos de las cuentas por cobrar y las cuentas por pagar que posee una empresa, el mismo compara la información del estado de cuenta  real del banco con los registros y movimientos  bancarios existentes en ADempiere para corroborar que ambos coincidan y no existan errores en los saldos bancarios y en la contabilidad de la empresa.
+Una conciliación automática es un proceso que se realiza con la finalidad de garantizar los saldos de las cuentas por cobrar y las cuentas por pagar que posee una empresa, el mismo compara la información del estado de cuenta real del banco con los registros y movimientos bancarios existentes en ADempiere para corroborar que ambos coincidan y no existan errores en los saldos bancarios y en la contabilidad de la empresa.
 
 `ERPyA`_ pretende ofrecer una explicación eficiente a nuestros clientes del procedimiento de conciliación automática a través de una guía fácil y sencilla para así obtener resultados exitosos al momento de generar una conciliación en la versión 3.9.2 de ADempiere en la localización Venezuela. A continuación se explica el procedimiento que se debe realizar para generar una conciliación bancaria de manera automática en ADempiere.
 
