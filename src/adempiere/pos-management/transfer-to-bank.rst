@@ -1,4 +1,5 @@
 .. _ERPyA: http://erpya.com
+.. |diagrama de traspaso a banco pos| image:: resources/transfer-to-bank.png
 .. |menu deposito a caja| image:: resources/deposit-to-cash-menu.png
 .. |ventana deposito a caja| image:: resources/deposit-to-cash-window.png
 .. |campo tipo de banco de la ventana deposito a caja| image:: resources/bank-type-field-of-the-deposit-to-cash-window.png
@@ -39,6 +40,12 @@ Si por el contrario, se tiene solamente transacciones por pago móvil y transfer
 
 Finalmente, se puede presentar el caso en el que se tengan todos los tipos de pago anteriormente nombrados. Para ello se debe realizar primeramente el proceso :ref:`documento/deposito-a-caja`, para reflejar en ADempiere las transacciones por tarjeta de débito o crédito. Luego se debe realizar el proceso :ref:`documento/transferencia-bancaria-por-depositos`, para reflejar en ADempiere las transacciones por pago móvil y transferencia bancaria. Por último el proceso :ref:`documento/cierre-de-caja-por-depositos`, para ejecutar el cruce de los saldos y poder llevar la cuenta caja a cero (0) nuevamente.
 
+Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso "**Traspaso a Banco**", con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.
+
+    |diagrama de traspaso a banco pos|
+
+    Imagen 1. Diagrama de Traspaso a Banco POS
+
 Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
 .. _documento/deposito-a-caja:
@@ -50,25 +57,25 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
     |menu deposito a caja|
 
-    Imagen 1. Menú de ADempiere
+    Imagen 2. Menú de ADempiere
 
 #. Podrá visualizar la ventana de búsqueda inteligente "**Depósito de Caja**", que permite realizar el proceso de depósito de las diferentes cajas registradas en ADempiere. Esta ventana cuenta con diferentes campos que le permiten al ususario filtrar la búsqueda de registros en base a lo que sea seleccionado en los mismos.
 
     |ventana deposito a caja|
 
-    Imagen 2. Ventana de Depósito a Caja
+    Imagen 3. Ventana de Depósito a Caja
 
 #. Podrá visualizar en el campo "**Tipo de Banco**", el tipo de banco que define el comportamiento de la ventana de búsqueda inteligente "**Depósito de Caja**".
 
     |campo tipo de banco de la ventana deposito a caja|
 
-    Imagen 3. Campo Tipo de Banco
+    Imagen 4. Campo Tipo de Banco
 
 #. Seleccione en el campo "**Cuenta Bancaria**", la cuenta caja por la cual requiere filtar la búsqueda de la información. 
 
     |campo cuenta bancaria de la ventana deposito a caja|
 
-    Imagen 4. Campo Cuenta Bancaria
+    Imagen 5. Campo Cuenta Bancaria
 
     .. note::
 
@@ -78,97 +85,97 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
     |campo socio del negocio de la ventana deposito a caja|
 
-    Imagen 5. Campo Socio del Negocio 
+    Imagen 6. Campo Socio del Negocio 
 
 #. Seleccione en el campo "**Tipo de Pago**", el tipo de pago por el cual requiere filtrar la búsqueda de la información.
 
     |campo tipo de pago de la ventana deposito a caja|
 
-    Imagen 6. Campo Tipo de Pago
+    Imagen 7. Campo Tipo de Pago
 
 #. Seleccione en el campo "**Tipo de Documento**", el tipo de documento por el cual requiere filtar la búsquedade de la información.
 
     |campo tipo de documento de la ventana deposito a caja|
 
-    Imagen 7. Campo Tipo de Documento
+    Imagen 8. Campo Tipo de Documento
 
 #. Seleccione en el campo "**Fecha de la Transacción**", la fecha de la transacción por la cual requiere filtrar la búsqueda de la información.
 
     |campo fecha de la transaccion de la ventana deposito a caja|
 
-    Imagen 8. Campo Fecha de la Transacción
+    Imagen 9. Campo Fecha de la Transacción
 
 #. Seleccione la opción "**Comenzar Búsqueda**", para filtrar la búsqueda de la información en base a lo seleccionado en los campos anteriormente explicados.
 
     |opcion comenzar busqueda de la ventana deposito a caja|
 
-    Imagen 9. Opción Comenzar Búsqueda
+    Imagen 10. Opción Comenzar Búsqueda
 
 #. Podrá visualizar el listado de las transacciones registradas en ADempiere, en base a lo seleccionado en los campos anteriormente explicados.
 
     |listado de movimientos de la ventana deposito a caja|
 
-    Imagen 10. Listado de Transacciones de ADempiere
+    Imagen 11. Listado de Transacciones de ADempiere
 
 #. Seleccione la transacción involucrada en el depósito que se encuentra realizando.
 
     |seleccion de movimiento a depositar de la ventana deposito a caja|
 
-    Imagen 11. Selección de Transacción a Depositar 
+    Imagen 12. Selección de Transacción a Depositar 
 
 #. Seleccione en el campo "**Fecha de la Transacción**", la fecha con la cual se va a generar el depósito de caja que se encuentra realizando.
 
     |campo fecha para la transaccion de la ventana deposito a caja|
 
-    Imagen 12. Campo Fecha de la Transacción
+    Imagen 13. Campo Fecha de la Transacción
 
 #. Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria a la cual se va a realizar el depósito de caja que se encuentra realizando.
 
     |campo cuenta bancaria a depositar de la ventana deposito a caja|
 
-    Imagen 13. Campo Cuenta Bancaria
+    Imagen 14. Campo Cuenta Bancaria
 
 #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio involucrado en el depósito que se encuentra realizando.
 
     |campo socio del negocio a depositar de la ventana deposito a caja|
 
-    Imagen 14. Campo Socio del Negocio
+    Imagen 15. Campo Socio del Negocio
 
 #. Introduzca en el campo "**No. del Documento**", el número de documento con el cual se va a generar el depósito de caja que se encuentra realizando.
 
     |campo nro del documento de la ventana deposito a caja|
 
-    Imagen 15. Campo No. de Documento
+    Imagen 16. Campo No. de Documento
 
 #. Seleccione el checklist "**Dividir Depósito**", si requiere dividir el depósito de caja que se encuentra realizando. Para este caso, no es necesario tildar el checklist "**Dividir Depósito**".
 
     |checklist dividir deposito de la ventana deposito a caja|
 
-    Imagen 16. Checklist Dividir Depósito
+    Imagen 17. Checklist Dividir Depósito
 
 #. Seleccione en el campo "**Cargo**", el cargo correspondiente al depósito de caja que se encuentra realizando. Para este caso se utiliza el cargo "**Efectivo en Transito Administración Ventas**".
 
     |campo cargo de la ventana deposito a caja|
 
-    Imagen 17. Campo Cargo
+    Imagen 18. Campo Cargo
 
 #. Seleccione en el campo "**Tipo de Documento para Retiros**", el tipo de documento para retiros. Para este caso, no es necesario seleccionar el tipo de documento para retiros.
 
     |campo tipo de documento para retiros de la ventana deposito a caja|
 
-    Imagen 18. Campo Tipo de Documento para Retiros
+    Imagen 19. Campo Tipo de Documento para Retiros
 
 #. Seleccione en el campo "**Tipo de Documento para Depósito**", el tipo de documento para depósito. Para este caso, no es necesario seleccionar el tipo de documento para depósito.
 
     |campo tipo de documento para deposito de la ventana deposito a caja|
 
-    Imagen 19. Campo Tipo de Documento
+    Imagen 20. Campo Tipo de Documento
 
 #. Seleccione la opción "**OK**", para ejecutar el proceso y realizar el depósito de caja a banco.
 
     |opcion ok de la ventana deposito a caja|
 
-    Imagen 20. Opción OK
+    Imagen 21. Opción OK
 
 **Consultar Egreso e Ingreso Generado del Depósito**
 ****************************************************
@@ -177,13 +184,13 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
     |consulta de egreso en caja por deposito|
 
-    Imagen 21. Egreso Generado en Caja 
+    Imagen 22. Egreso Generado en Caja 
 
 #. Al consultar el documento de ingreso generado en la ventana "**Pago/Cobro**", con ayuda del número de documento ingresado en el campo "**No. del Documento**" de la ventana "**Depósito de Caja**".
 
     |consulta de ingreso en banco por deposito|
 
-    Imagen 22. Ingreso Generado en Banco
+    Imagen 23. Ingreso Generado en Banco
 
 .. _documento/transferencia-bancaria-por-depositos:
 
@@ -206,7 +213,7 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
     |transferencia bancaria de caja a banco por depositos|
 
-    Imagen 23. Transferencia Bancaria 
+    Imagen 24. Transferencia Bancaria 
 
     .. warning::
 
@@ -219,13 +226,13 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
     |consulta de egreso en caja por transferencia de deposito|
 
-    Imagen 24. Egreso Generado en Caja 
+    Imagen 25. Egreso Generado en Caja 
 
 #. Al consultar el documento de ingreso generado en la ventana "**Pago/Cobro**", con ayuda del número de documento ingresado en el campo "**Documento Destino**" de la ventana "**Transferencia Bancaria**".
 
     |consulta de ingreso en banco por por transferencia de deposito|
 
-    Imagen 25. Ingreso Generado en Banco
+    Imagen 26. Ingreso Generado en Banco
 
 .. _documento/cierre-de-caja-por-depositos:
 
@@ -249,4 +256,4 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
     |cierre de caja completo por traspaso a banco|
 
-    Imagen 26. Cierre de Caja
+    Imagen 27. Cierre de Caja

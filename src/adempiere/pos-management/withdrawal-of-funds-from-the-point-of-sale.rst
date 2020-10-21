@@ -1,4 +1,5 @@
 .. _ERPyA: http://erpya.com
+.. |diagrama de retiro de fondos pos| image:: resources/withdrawal-of-funds-from-the-point-of-sale.png
 .. |Menú de ADempiere| image:: resources/point-of-sale-menu.png
 .. |Opción Crear Retiro de POS| image:: resources/option-to-create-pos-withdrawal.png 
 .. |Ventana Retiros de Puntos de Venta| image:: resources/point-of-sale-withdrawals-window.png
@@ -31,29 +32,40 @@
 
 Un retiro de fondos es realizado cuando por algún motivo se saca dinero de alguna de las cajas donde es realizado el proceso de venta de productos, la mayoria de las veces suele suceder por un alivio de caja, cancelación de un gasto, entre otros. A continuación es explicado el procedimiento regular para reflejar en ADempiere, un retiro de fondos.
 
+Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso "**Retiro de Fondos**", con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.
+
+    |diagrama de retiro de fondos pos|
+
+    Imagen 1. Diagrama de Retiro de Fondos POS
+
+A continuación, se específica el procedimiento que se debe realizar para retirar correctamente los fondos de caja POS.
+
+**Ejecución del Proceso**
+-------------------------
+
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la carpeta "**Punto de Venta**". Para finalizar, seleccione la ventana "**Punto de Venta**".
 
     |Menú de ADempiere|
 
-    Imagen 1. Menú de ADempiere
+    Imagen 2. Menú de ADempiere
 
 #. Si en el transcurso del día, se presenta un retiro de fondos en alguna de las cajas en la cual se encuentran realizando transacciones desde el punto de venta, seleccione la opción "**Crear Retiro de POS**", ubicada en el menú desplegado por el icono "**Proceso**" de la barra de herramientas de la ventana "**Punto de Venta**", explicada en el documento :ref:`documento/paso-barra-de-herramientas` elaborado por `ERPyA`_.
 
     |Opción Crear Retiro de POS|
 
-    Imagen 2. Opción Crear Retiro de POS
+    Imagen 3. Opción Crear Retiro de POS
 
 #. Podrá visualizar la ventana "**Retiros de Puntos de Venta**", en la cual el socio del negocio vendedor debe reflejar el retiro de fondos de la caja donde se encuentra realizando sus operaciones de venta.
 
     |Ventana Retiros de Puntos de Venta|
 
-    Imagen 3. Ventana Retiros de Puntos de Venta
+    Imagen 4. Ventana Retiros de Puntos de Venta
 
 #. En dicha ventana podrá visualizar un listado de referencia con las diferentes formas de pago que contempla ADempiere.
 
     |Listado de Referencia de la Ventana Retiros de Puntos de Venta|
 
-    Imagen 6. Listado de Referencia de la Ventana Retiros de Puntos de Venta
+    Imagen 5. Listado de Referencia de la Ventana Retiros de Puntos de Venta
 
     Como ejemplo del proceso de retiro de fondos desde el punto de venta se tienen las siguientes transacciones en "**Caja 04**":
 
@@ -183,19 +195,19 @@ Un retiro de fondos es realizado cuando por algún motivo se saca dinero de algu
 
     |Documento de Pago Generado en Caja|
 
-    Imagen 20. Documento de Pago Generado en Caja
+    Imagen 21. Documento de Pago Generado en Caja
 
 #. Podrá visualizar el registro de "**Pago**" creado desde la ventana "**Retiros de Puntos de Venta**".
 
     |Pago Creado desde la Ventana Retiros de Puntos de Venta|
 
-    Imagen 21. Pago Creado desde la Ventana Retiros de Puntos de Venta
+    Imagen 22. Pago Creado desde la Ventana Retiros de Puntos de Venta
 
 #. Seleccione el icono "**Próximo Registro**", ubicado en la barra de herramientas para visualizar el registro de "**Cobro**" creado desde la ventana "**Retiros de Puntos de Venta**".
 
     |Cobro Creado desde la Ventana Retiros de Puntos de Venta|
 
-    Imagen 22. Cobro Creado desde la Ventana Retiros de Puntos de Venta
+    Imagen 23. Cobro Creado desde la Ventana Retiros de Puntos de Venta
 
 **Consultar Registro en Cierre de Caja**
 ----------------------------------------
@@ -206,10 +218,10 @@ Un retiro de fondos es realizado cuando por algún motivo se saca dinero de algu
 
         |Registro de Retiro Generado en Caja Administrativa|
 
-        Imagen 23. Registro de Retiro Generado en Caja Administrativa
+        Imagen 24. Registro de Retiro Generado en Caja Administrativa
 
     #. Registro de "**Caja 04**" en la ventana "**Cierre de Caja**".
 
         |Registro de Retiro Generado en Caja 04|
 
-        Imagen 24. Registro de Retiro Generado en Caja 04
+        Imagen 25. Registro de Retiro Generado en Caja 04
