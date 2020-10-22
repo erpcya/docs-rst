@@ -107,7 +107,7 @@ Para la demostración práctica del instalador se usará **Setup_LocalPrinting-T
  
           |Directorio de instalación|
  
-          Imagen 6. Ventana Directorio
+          Imagen 6. Ventana Directorio de instalación
  
    Finalizando la instalación está la Ventana de Finalización de instalación
  
