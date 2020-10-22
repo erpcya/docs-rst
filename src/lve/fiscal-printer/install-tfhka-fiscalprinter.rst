@@ -101,19 +101,19 @@ Para la demostración práctica del instalador se usará **Setup_LocalPrinting-T
  
           |Licencia|
  
-          Imagen 5. Ventana de Configuración de Parámetros de impresora
+          Imagen 5. Ventana de Licencia
  
    Continuando con la instalación se observa la ventana de selección del Directorio de instalación, para ambos tipos de instaladores esto se debe dejar como está por defecto.
  
           |Directorio de instalación|
  
-          Imagen 6. Ventana de Configuración de Parámetros de impresora
+          Imagen 6. Ventana Directorio
  
    Finalizando la instalación está la Ventana de Finalización de instalación
  
           |Ventana de Finalización|
  
-          Imagen 7. Ventana de Configuración de Parámetros de impresora
+          Imagen 7. Ventana de Finalización de instalación
  
  
   .. note::
