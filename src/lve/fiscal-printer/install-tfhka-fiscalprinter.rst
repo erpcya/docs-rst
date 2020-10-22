@@ -2,7 +2,7 @@
 .. |Perifericos| image:: resorces/fiscal-printer-peripherals.png
 .. |Ventana de Bienvenida| image:: resorces/welcome.png
 .. |Ventana de Configuración| image:: resorces/service-settings.png
-.. |Licencia| image:: resources/license.png
+.. |Licencia| image:: resorces/license.png
 .. |Directorio de instalación| image:: resorces/installation-folder.png
 .. |Ventana de Finalización| image:: resorces/finish-page.png
  
