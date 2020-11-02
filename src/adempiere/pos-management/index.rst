@@ -20,6 +20,7 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
     :maxdepth: 2
 
     point-of-sale-terminal
+    generate-report-x-y
     opening-cash
     point-of-sale-interface
     pos
