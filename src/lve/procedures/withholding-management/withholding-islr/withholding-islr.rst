@@ -198,8 +198,8 @@ ADempiere permite asociar de tres (3) formas la retención de ISLR a aplicar en 
 
     ADempiere le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
 
-**Generación de la Retención de ISLR Fiscal**
-=============================================
+**Generar Retención de ISLR Fiscal**
+====================================
 
 #. Ubique la carpeta "**Manejo de Retenciones**" en el menú de ADempiere, luego seleccione la ventana de busqueda inteligente "**Generar Retenciones**".
 

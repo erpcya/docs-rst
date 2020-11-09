@@ -16,7 +16,7 @@ En dicho reporte se indica la fecha y la hora en la cual se genera, el total de 
 Al terminar las ventas del día y luego de cuadrar la caja de ventas, se debe generar el reporte "**Z**", indicando con este un cierre en la impresora fiscal.
 
 **Ejecución del Proceso**
-=========================
+-------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Sistema**", luego seleccione la carpeta "**Reglas Generales**", por último seleccione la carpeta "**Fiscal Device**". Finalmenete seleccione el reporte "**Imprimir Reporte Fiscal**".
 

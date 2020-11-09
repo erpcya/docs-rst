@@ -180,8 +180,8 @@ ADempiere permite seleccionar por socio del negocio el porcentaje de IVA a aplic
 
     ADempiere le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
 
-**Generación de la Retención de IVA Fiscal**
-============================================
+**Generar Retención de IVA Fiscal**
+===================================
 
 #. Ubique la carpeta "**Manejo de Retenciones**" en el menú de ADempiere, luego seleccione la ventana de busqueda inteligente "**Generar Retenciones**".
 
