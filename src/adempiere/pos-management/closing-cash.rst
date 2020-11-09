@@ -134,33 +134,47 @@ A continuación, se específica el procedimiento que se debe realizar para ejecu
 
             Imagen 14. Campo Fecha de la Ventana Cierre de Caja del Punto de Venta
 
-        #. En el campo "**Total de la Línea**", la cantidad total de la línea con impuestos incluidos.
+        #. Para calcular el valor correspondiente a los siguientes campos, ADempiere realiza la conversión de todos los montos de los pagos y cobros de la caja, a la moneda de la caja para luego realizar los respectivos cálculos y obtener el valor de cada uno.
 
-            |Campo Total de la Línea de la Ventana Cierre de Caja del Punto de Venta|
+            #. En el campo "**Total de la Línea**", la cantidad total de la línea con impuestos incluidos.
 
-            Imagen 15. Campo Total de la Línea de la Ventana Cierre de Caja del Punto de Venta
+                |Campo Total de la Línea de la Ventana Cierre de Caja del Punto de Venta|
 
-        #. En el campo "**Total Pagado**", la monto total pagado de las órdenes de venta realizadas desde el punto de venta.
+                Imagen 15. Campo Total de la Línea de la Ventana Cierre de Caja del Punto de Venta
 
-            |Campo Total Pagado de la Ventana Cierre de Caja del Punto de Venta|
+                .. note::
 
-            Imagen 16. Campo Total Pagado de la Ventana Cierre de Caja del Punto de Venta
+                    El valor de este campo proviene de la sumatoria del gran total de todas las órdenes de venta.
 
-        #. En el campo "**Total Abierto**", el monto total abierto de las órdenes de venta realizadas desde el punto de venta.
+            #. En el campo "**Total Pagado**", la monto total pagado de las órdenes de venta realizadas desde el punto de venta.
 
-            |Campo Total Abierto de la Ventana Cierre de Caja del Punto de Venta|
+                |Campo Total Pagado de la Ventana Cierre de Caja del Punto de Venta|
 
-            Imagen 17. Campo Total Abierto de la Ventana Cierre de Caja del Punto de Venta
+                Imagen 16. Campo Total Pagado de la Ventana Cierre de Caja del Punto de Venta
 
-        #. En el campo "**Diferencia Monto**", podrá visualizar el monto resultante de la sumatoria del monto total de la apertura más el resultado del total cobrado menos el total de los retiros. 
+                .. note::
 
-            |Campo Diferencia Monto de la Ventana Cierre de Caja del Punto de Venta|
+                    El valor de este campo proviene de la sumatoria de todos los cobros y pagos realizados en la caja, convertidos a la moneda de la caja, (Cobros Convertidos a la Moneda de la Caja + Pagos Convertidos a la Moneda de la Caja).
 
-            Imagen 18. Campo Diferencia Monto de la Ventana Cierre de Caja del Punto de Venta
+            #. En el campo "**Total Abierto**", el monto total abierto de las órdenes de venta realizadas desde el punto de venta.
 
-            .. note::
+                |Campo Total Abierto de la Ventana Cierre de Caja del Punto de Venta|
 
-                El valor de este campo proviene de la fórmula (Total de la Apertura + (Total de los Cobros - Total de los Retiros)).
+                Imagen 17. Campo Total Abierto de la Ventana Cierre de Caja del Punto de Venta
+
+                .. note::
+
+                    Este valor proviene de la sumatoria de todos los montos pendientes por cobrar cuando las ordenes de ventas son a crédito.
+
+            #. En el campo "**Diferencia Monto**", podrá visualizar el monto resultante de la sumatoria del monto total de la apertura más el resultado del total cobrado menos el total de los retiros. 
+
+                |Campo Diferencia Monto de la Ventana Cierre de Caja del Punto de Venta|
+
+                Imagen 18. Campo Diferencia Monto de la Ventana Cierre de Caja del Punto de Venta
+
+                .. note::
+
+                    El valor de este campo proviene de la sumatoria de todos los montos pendientes por cobrar de las órdenes de venta, para el cálculo del mismo se emplea la fórmula (Total de la Apertura + (Total de los Cobros - Total de los Retiros)).
 
         #. Tilde el checklist "**Sobre/Sub Pago**", para indicar que existe un sobre pago (no contabilizado) o un sub pago (pago parcial).
 

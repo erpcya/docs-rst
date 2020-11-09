@@ -1,3 +1,7 @@
+.. |selección de pagos para notificar| image:: resources/selection-of-payments-to-notify.png
+.. |opción enviar notificación a proveedores| image:: resources/option-send-notification-to-suppliers.png
+.. |ventana enviar notificación de pago| image:: resources/send-payment-notification-window.png
+
 .. _documento/notificación-de-pago:
 
 **Notificación de Pago**
@@ -5,7 +9,7 @@
 
 Para notificar a los socios del negocio proveedores incluidos en la selección de pagos, el pago realizados a los mismos, se debe realizar el siguiente procedimiento.
 
-#. Ubique el registro de la selección de pagos para notificar a los proveedores del pago realizado. Para este ejemplo, es utilizada la selección de pagos "****".
+#. Ubique el registro de la selección de pagos para notificar a los proveedores del pago realizado. Para este ejemplo, es utilizada la selección de pagos "**1000044**".
 
     |selección de pagos para notificar|
 
