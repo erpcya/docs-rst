@@ -141,8 +141,8 @@ ADempiere permite seleccionar por socio del negocio la retención municipal a ap
 
       ADempiere le genera al usuario por medio del icono "**Visualiza Detalle**", las alertas donde indica cuales fueron las retenciones aplicadas (**Retención Generada**) y cuales retenciones no fueron aplicadas (**Log**) según la configuración que tiene un socio del negocio determinado.
 
-**Generación de la Retención Municipal Fiscal**
-===============================================
+**Generar Retención Municipal Fiscal**
+======================================
 
 #. Ubique en el menú de ADempiere la carpeta "**Manejo de Retenciones**" y seleccione la ventana de busqueda inteligente "**Generar Retenciones**".
 

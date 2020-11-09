@@ -55,6 +55,10 @@
 
         Imagen 3. Icono Visualiza Detalle
 
+        .. note::
+
+            La estimación de la retención se puede visualizar cuando el documento por cobrar se encuentre en estado "**Completo**".
+
     #. Podrá visualizar la ventana "**Retención Generada**" con la estimación de la retención generada de manera automática por ADempiere.
 
         |Estimación de Retención de Cuentas por Cobrar|
@@ -85,8 +89,12 @@
 
         Imagen 8. Grupo de Campos Referencia de la Estimación de Retención
 
-**Generación de la Retención**
-------------------------------
+    .. note::
+
+        Hasta este punto, solo se ve un precálculo o una estimación de la retención a aplicar a este documento por cobrar.
+
+**Generar Retención**
+---------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Manejo de Retenciones**", luego seleccione la ventana de búsqueda inteligente "**Generar Retenciones**".
 
@@ -203,6 +211,10 @@
     |opción ok de la ventana generar retenciones|
 
     Imagen 24. Opción OK de la Ventana Generar Retenciones
+
+.. note::
+
+    En este punto, si fueron generadas las retenciones, el cual rebaja parte de la cuenta por cobrar. Para mayor información puede consultar el reporte "**Saldos Abiertos**".
 
 **Consultar e Imprimir el Documento por Cobrar Generado**
 ---------------------------------------------------------
