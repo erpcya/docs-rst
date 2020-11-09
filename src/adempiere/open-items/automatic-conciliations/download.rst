@@ -85,7 +85,7 @@ Para que un extracto bancario pueda ser importado en ADempiere este debe cumplir
     `ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario :download:`Banplus 2017 <Banplus_Estado_de_cuenta.txt>`, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
 
-    De la misma manera, los bancos que no han sido mencionados bajo este material pueden ser descargados e importados en ADempiere bajo los formatos "**QIF**", "**MT940**" y "**OFX / OFC**".
+De la misma manera, los bancos que no han sido mencionados bajo este material pueden ser descargados e importados en ADempiere bajo los formatos "**QIF**", "**MT940**" y "**OFX / OFC**".
 
 .. note::
 
