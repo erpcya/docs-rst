@@ -20,11 +20,11 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
     :maxdepth: 2
 
     point-of-sale-terminal
+    generate-report-x-y
     opening-cash
     point-of-sale-interface
     pos
     void-sales-transaction
-    create-new-return-order
     complete-ready-order
     withdrawal-of-funds-from-the-point-of-sale
     closing-cash

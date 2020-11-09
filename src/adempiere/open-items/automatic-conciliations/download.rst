@@ -8,6 +8,8 @@
 .. _Mercantil Banco: https://www.mercantilbanco.com/
 .. _Empresas: https://www.mercantilbanco.com/mercprod/content/empresas/promociones/439051_ECD_emp.html
 .. _Bancaribe: https://www.bancaribe.com.ve/
+.. _Banco Nacional de Crédito: http://www.bnc.com.ve/
+.. _Banplus: https://www.banplus.com/site/p_contenido.php
 .. _Mi Estado de Cuenta Digital: https://www.bancaribe.com.ve/zona-de-informacion-para-cada-mercado/empresas/cuentas-empresas/mi-estado-de-cuenta-digital-empresas
 .. _Conciliaciones Automáticas: https://docs.erpya.com/es/latest/adempiere/open-items/automatic-conciliations/conciliation.html#importacion-de-extracto-bancario
 
@@ -24,7 +26,7 @@ Para que un extracto bancario pueda ser importado en ADempiere este debe cumplir
 
 #. **Extracto Bancario Provincial**
 
-    Para poder hacer la descarga del extracto bancario del `BBVA Provincial`_ debe iniciar sesión en el banco, una vez ingrese al banco siga las siguientes instrucciones indicadas bajo la plataforma Web del banco `BBVA Provincial`_ en la opción del `NetCash`_ donde se describe el paso a paso de como realizar la descarga de archivos o movimientos bancarios; el estado de cuenta bancario a descargar de este banco debe ser en el formato "**.csv**",el cual es el formato que aceptara ADempiere al momento de realizar la importación del extracto bancario.
+    Para poder hacer la descarga del extracto bancario del `BBVA Provincial`_ debe iniciar sesión en el banco, una vez ingrese al banco siga las siguientes instrucciones indicadas bajo la plataforma Web del banco `BBVA Provincial`_ en la opción del `NetCash`_ donde se describe el paso a paso de como realizar la descarga de archivos o movimientos bancarios; el estado de cuenta bancario a descargar de este banco debe ser en el formato "**.csv**", el cual es el formato que aceptara ADempiere al momento de realizar la importación del extracto bancario.
 
     .. note::
 
@@ -70,7 +72,20 @@ Para que un extracto bancario pueda ser importado en ADempiere este debe cumplir
 
         Haga click en `Mi Estado de Cuenta Digital`_ para poder visualizar el paso a paso para las descargas de archivos, al dar click a la opción anteriormente comentada este lo redireccionará a la plataforma web del banco.
 
-    De la misma manera, los bancos que no han sido mencionados bajo este material pueden ser descargados e importados en ADempiere bajo los formatos "**QIF**", "**MT940**" y "**OFX / OFC**".
+#. **Extracto Bancario BNC**
+
+    Para poder hacer la descarga del extracto bancario del `Banco Nacional de Crédito`_ debe iniciar sesión en el banco, una vez ingrese al banco siga las siguientes instrucciones indicadas bajo la plataforma Web del banco `Banco Nacional de Crédito`_, el estado de cuenta bancario a descargar de este banco debe ser bajo el formato "**.tsv**", el cual es el formato que aceptara ADempiere al momento de realizar la importación del extracto bancario.
+
+    `ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario :download:`BNC 2017 <BNC_TKR.tsv>`, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+
+#. **Extracto Bancario Banplus**
+
+    Para poder hacer la descarga del extracto bancario del `Banplus`_ debe iniciar sesión en el banco, una vez ingrese al banco siga las siguientes instrucciones indicadas bajo la plataforma Web del banco `Banplus`_, el estado de cuenta bancario a descargar de este banco debe ser bajo el formato "**.txt**", el cual es el formato que aceptara ADempiere al momento de realizar la importación del extracto bancario.
+
+    `ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario :download:`Banplus 2017 <Banplus_Estado_de_cuenta.txt>`, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
+
+
+De la misma manera, los bancos que no han sido mencionados bajo este material pueden ser descargados e importados en ADempiere bajo los formatos "**QIF**", "**MT940**" y "**OFX / OFC**".
 
 .. note::
 
