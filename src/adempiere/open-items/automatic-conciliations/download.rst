@@ -46,7 +46,11 @@ Para que un extracto bancario pueda ser importado en ADempiere este debe cumplir
 
 #. **Extracto Bancario Banesco**
 
-    Para poder hacer la descarga del extracto bancario de `Banesco Banco Universal`_ debe iniciar sesión en el banco, una vez ingrese al banco siga las instrucciones indicadas bajo la plataforma Web `Banesco Online`_ donde se describe el paso a paso de como realizar la descarga de archivos o movimientos bancarios; el estado de cuenta bancario a descargar de este banco debe ser en el formato "**qif.**",el cual es el formato que aceptara ADempiere al momento de realizar la importación del extracto bancario.
+    Para poder hacer la descarga del extracto bancario de `Banesco Banco Universal`_ debe iniciar sesión en el banco, una vez ingrese al banco siga las instrucciones indicadas bajo la plataforma Web `Banesco Online`_ donde se describe el paso a paso de como realizar la descarga de archivos o movimientos bancarios; el estado de cuenta bancario a descargar de este banco debe ser en el formato "**qif.**", el cual es el formato que aceptara ADempiere al momento de realizar la importación del extracto bancario.
+
+    .. warning::
+    
+        Para la exportación del extracto bancario en formato "**qif.**", es necesario ingresar a banesco y seleccionar la opción "**Consultas**". Luego se debe seleccionar la opción "**Cuentas**", llenar los parámetros y seleccionar la opción "**Exportar**". Finalmente, se debe seleccionar la opción "**Quicken/Money**" para exportar el archivo en formato "**qif.**"
 
     `ERPyA`_ ofrece a nuestros clientes el ejemplo de extracto bancario :download:`BANCO BANESCO OCTUBRE 2019 <OCTUBRE2019BANESCO.qif>`, con la finalidad de que sea descargado y utilizado para realizar el proceso de conciliación automática en ADempiere.
 
