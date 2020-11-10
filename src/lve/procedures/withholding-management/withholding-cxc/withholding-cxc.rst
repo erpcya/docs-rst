@@ -206,6 +206,10 @@
 
     Imagen 23. Campo Número del Documento
 
+    .. warning::
+
+        El monto estimado de la retención debe ser verificado antes de generar el documento de retención, ya que el este monto puede variar por céntimos o decimales, según el comprobante facilitado por el socio cliente que aplico la retención. 
+
 #. Seleccione la opción "**OK**", para procesar la retención y generar en la ventana "**Documento por Cobrar**", el documento de retención con las indicaciones ingresadas en la ventana del proceso "**Generar Retenciones**", con el número de documento ingresado en el campo "**No. del Documento**".
 
     |opción ok de la ventana generar retenciones|
