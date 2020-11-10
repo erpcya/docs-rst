@@ -194,27 +194,27 @@
 
         Imagen 23. Campo Monto de Retención Convertido
 
+    .. warning::
+
+        El monto estimado de la retención debe ser verificado antes de generar el documento de retención, ya que el este monto puede variar por céntimos o decimales, según el comprobante facilitado por el socio cliente que aplico la retención. 
+
 #. Seleccione en el campo "**F. Documento**", la fecha del comprobante de retención facilitado por el socio del negocio cliente que aplico la retención. 
 
     |campo fecha de documento a generar|
 
-    Imagen 22. Campo Fecha de Documento a Generar
+    Imagen 24. Campo Fecha de Documento a Generar
 
 #. Introduzca en el campo "**No. del Documento**", el número del documento del comprobante de retención facilitado por el socio del negocio cliente que aplico la retención.
 
     |campo número del documento a generar|
 
-    Imagen 23. Campo Número del Documento
-
-    .. warning::
-
-        El monto estimado de la retención debe ser verificado antes de generar el documento de retención, ya que el este monto puede variar por céntimos o decimales, según el comprobante facilitado por el socio cliente que aplico la retención. 
+    Imagen 25. Campo Número del Documento
 
 #. Seleccione la opción "**OK**", para procesar la retención y generar en la ventana "**Documento por Cobrar**", el documento de retención con las indicaciones ingresadas en la ventana del proceso "**Generar Retenciones**", con el número de documento ingresado en el campo "**No. del Documento**".
 
     |opción ok de la ventana generar retenciones|
 
-    Imagen 24. Opción OK de la Ventana Generar Retenciones
+    Imagen 26. Opción OK de la Ventana Generar Retenciones
 
 .. note::
 
@@ -227,7 +227,7 @@
 
     |Retención de IVA Cuentas por Cobrar|
 
-    Imagen 25. Documento de Retención de IVA Cuentas por Cobrar Generado.
+    Imagen 27. Documento de Retención de IVA Cuentas por Cobrar Generado.
 
     .. note::
 
@@ -237,19 +237,19 @@
 
     |líneas de la retención|
 
-    Imagen 26. Líneas de la Retención
+    Imagen 28. Líneas de la Retención
 
 #. Regrese a la pestaña principal "**Factura**" y seleccione en el icono "**Imprimir**" ubicado en la barra de herramientas de ADempiere, para visualizar el documento en PDF y poder imprimir el mismo.
 
     |Icono Imprimir|
 
-    Imagen 27. Icono Imprimir
+    Imagen 29. Icono Imprimir
 
 #. El PDF del documento "**Retención de IVA CxC**" quedaría de la siguiente manera.
 
     |PDF Retención de IVA CxC|
 
-    Imagen 28. PDF del Documento Retención de IVA CxC
+    Imagen 30. PDF del Documento Retención de IVA CxC
 
 .. note::
 
