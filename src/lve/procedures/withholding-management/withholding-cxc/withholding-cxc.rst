@@ -138,7 +138,7 @@
 
     Imagen 15. Campo Moneda Hacia
 
-#. Seleccione en el campo "**Factura Fuente**", la factura por la cual requiere filtrar la información para generar la retención..
+#. Seleccione en el campo "**Factura Fuente**", la factura por la cual requiere filtrar la información para generar la retención.
 
     |Campo Factura Fuente de la retención|
 
