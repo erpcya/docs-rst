@@ -20,9 +20,10 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
     :maxdepth: 2
 
     point-of-sale-terminal
+    point-of-sale-interface
+    daily-pdv-procedure
     generate-report-x-y
     opening-cash
-    point-of-sale-interface
     pos
     void-sales-transaction
     complete-ready-order
