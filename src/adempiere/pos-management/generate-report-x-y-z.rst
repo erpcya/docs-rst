@@ -4,7 +4,7 @@
 .. |campo tipo de comando fiscal de la ventana imprimir reporte fiscal| image:: resources/fiscal-command-type-field-of-the-window-print-fiscal-report.png
 .. |opción ok de la ventana imprimir reporte fiscal| image:: resources/ok-option-of-the-window-print-fiscal-report.png
 
-.. _documento/generar-reporte-x-y:
+.. _documento/generate-report-x-y-z:
 
 **Imprimir Reportes X y Z**
 ===========================

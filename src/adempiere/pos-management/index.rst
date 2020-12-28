@@ -22,7 +22,7 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
     point-of-sale-terminal
     point-of-sale-interface
     daily-pdv-procedure
-    generate-report-x-y
+    generate-report-x-y-z
     opening-cash
     pos
     void-sales-transaction
