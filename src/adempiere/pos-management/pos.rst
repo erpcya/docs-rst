@@ -107,6 +107,8 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
     #. Si requiere consultar la información de los productos, puede realizarlo con ayuda del icono "**Información de Producto**".
 
+        Este icono permite consultar la información de los productos en cuanto a categoría, código, nombre, UPC/EAN (código de barra), UM (unidad de medida), precios, disponibilidad, cantidad en existencia, cantidad reservada, cantidad ordenada y proveedor.
+
         |Carga de Productos desde el Icono Información de Producto|
 
         Imagen 9. Carga de Productos desde el Icono Información de Producto
@@ -135,6 +137,10 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
     #. El precio de venta del producto puede ser modificado con ayuda del icono "**Calculadora**" ubicado del lado derecho del campo "**Precio Actual**".
 
+        .. note::
+
+            Este campo requiere la confirmación del supervisor de la caja mediante un PIN establecido previamente.
+
         |Precio Actual de Productos a Vender|
 
         Imagen 13. Precio Actual de Productos a Vender
@@ -150,7 +156,7 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
     La selección de este icono, habilita el recuadro del cobro, mostrando el total a pagar de la orden, los campos para ingresar la forma de pago, la moneda y el monto. Así como también, las opciones para agregar otro pago o eliminar un pago existente.
     
-    El cobro de los productos cargados en la orden de venta se puede ejecutar de diferentes formas explicadas a continuación.
+    El cobro de los productos cargados en la orden de venta se puede ejecutar de diferentes formas, explicadas a continuación.
 
 **Procedimiento Regular con una Forma de Pago y una Moneda Específica**
 ***********************************************************************
