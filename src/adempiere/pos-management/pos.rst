@@ -155,6 +155,12 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
     Imagen 14. Icono Pago de la Ventana Punto de Venta
 
     La selección de este icono, habilita el recuadro del cobro, mostrando el total a pagar de la orden, los campos para ingresar la forma de pago, la moneda y el monto. Así como también, las opciones para agregar otro pago o eliminar un pago existente.
+
+    El check "**Cobro Completo**", debe ser utilizado cuando se presente un caso de cobro de monto con decimales y se requiera realizar un cobro completo para posteriormente generar el egreso por el cambio del mismo. ADempiere, refleja en el campo "**Cambio**", el monto correspondiente al cambio que debe ser entregado al cliente.
+
+    .. note::
+    
+        Un ejemplo del caso expuesto anteriormente puede ser cuando el monto a pagar en divisas, contiene decimales. Para ello, se tilda el check "**Cobro Completo**" y se ingresa el monto real a cobrar en el campo "**Monto**".
     
     El cobro de los productos cargados en la orden de venta se puede ejecutar de diferentes formas, explicadas a continuación.
 
