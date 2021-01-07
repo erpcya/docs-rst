@@ -11,7 +11,7 @@
 .. |Encontrar registro| image:: resources/find-record.png
 .. |Anexo| image:: resources/annexed.png
 .. |Comentario| image:: resources/commentary.png
-.. |Cambiar mono multi|  image:: resources/change-mono-multi.png
+.. |Cambiar mono multi| image:: resources/change-mono-multi.png
 .. |Registros históricos| image:: resources/historical-records.png
 .. |Registros padre| image:: resources/parent-records.png
 .. |Registro detallado| image:: resources/detailed-records.png
