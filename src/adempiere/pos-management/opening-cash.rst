@@ -23,13 +23,17 @@ Adicional a ello, crea un registro en dicha ventana "**Cierre de Caja**", con la
 
 Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso "**Apertura de Caja POS**", con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.
 
+    .. note::
+
+        Recuerde que este proceso se debe realizar antes de iniciar las ventas del día. Adicional a ello, es un proceso necesario al momento del cierre de caja.
+
     |diagrama de apertura de caja pos|
 
     Imagen 1. Diagrama de Apertura de Caja POS
 
 .. warning::
 
-    Recuerde que este proceso se debe realizar antes de iniciar las ventas del día. Adicional a ello, es un proceso necesario al momento del cierre de caja.
+    No debe realizar el proceso de apertura de caja si no es entregado fisicamente el dinero en la respectiva caja. De lo contrario, los saldos de la caja en ADempiere no tendrán ninguna coincidencia con los saldos que existen fisicamente en la caja.
 
 **Ejecución del Proceso**
 -------------------------
@@ -50,33 +54,39 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
     
     #. Para la apertura de una caja, es necesario que sean cumplidas las siguientes restricciones en la ventana "**Apertura de Punto de Venta**".
 
-        #. En el campo **Terminal PDV**, se encuentra el terminal configurado para el socio del negocio empleado.
+        #. En el campo **Terminal PDV**, se encuentran los diferentes terminales configurados para los socios del negocio que cumplen con el rol de empleados de la organización. En este campo se debe seleccionar el terminal al cual se le realizará la apertura de la caja. 
 
-        #. En el campo **Cuenta Bancaria**", se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia. En este caso, se debe seleccionar la cuenta "**Caja Administrativa**".
+        #. En el campo **Caja**", se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia. En este caso, se debe seleccionar la cuenta "**Caja Administrativa**".
             
-        #. En el campo "**Cuenta Bancaria a Transferir**", se encuentra la cuenta caja destino seleccionada en el terminal PDV como cuenta bancaria a la cual se realizará la transferencia. En este caso, un ejemplo sería: "**Caja 04**".
+        #. En el campo "**Caja a Transferir**", se encuentra la cuenta caja destino seleccionada en el terminal PDV como cuenta bancaria a la cual se realizará la transferencia. El valor de este campo se carga de manera automática, al seleccionar el terminal de la caja en el campo "**Terminal PDV**". En este caso, un ejemplo sería: "**Caja 04**".
 
             .. note::
 
-                Recuerde que la cuenta a seleccionar debe ser la cuenta correspondiente a la caja donde realizará las operaciones de ventas el socio del negocio empleado.
+                Recuerde que el terminal a seleccionar en el campo "**Terminal PDV**", debe ser el terminal correspondiente a la caja donde realizará las operaciones de ventas el socio del negocio empleado.
             
-        #. En el campo "**Socio del Negocio**", se debe seleccionar el socio del negocio empleado que realizará las operaciones en la caja seleccionada en el campo "**Cuenta Bancaria a Transferir**". En este caso, un ejemplo sería: "**Vendedor**".
+        #. En el campo "**Socio del Negocio**", se carga de manera automática el socio del negocio empleado que realizará las operaciones en la caja indicada en el campo "**Caja a Transferir**", previamente configurado en el terminal seleccionado en el campo "**Terminal PDV**". En este caso, un ejemplo sería: "**Vendedor**".
 
-        #. En el campo "**Moneda**", se debe seleccionar la moneda utilizada en la transferencia del dinero.
+        #. En el campo "**Tipo de Conversión**", se carga de manera automática el tipo de conversión establecido en el terminal de la caja. 
 
-        #. En el campo "**Cargo**", se debe seleccionar el cargo "**Efectivo en Tránsito Administración Ventas**".
+        #. En el campo "**Moneda**", se debe seleccionar la moneda a ser utilizada en la transferencia del dinero.
 
-        #. En el campo "**No. del Documento**", se debe ingresar el nombre seguido de la fecha del proceso que esta registrando. En este caso, un ejemplo sería: "**Egreso-Apertura01/09/2020**".
+            .. note::
 
-        #. En el campo "**Documento Destino**", se debe ingresar el nombre seguido de la fecha del proceso que esta registrando. En este caso, un ejemplo sería: "**Ingreso-Apertura01/09/2020**".
+                Se debe realizar una transferencia por moneda, cuando se necesite aperturar la caja con más de una moneda.
+
+        #. En el campo "**Cargo**", se debe seleccionar el cargo "**Efectivo en Tránsito Administración**".
+
+        #. En el campo "**No. del Documento**", se debe ingresar el número de documento con el cual será generado el egreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: "**Egreso-Apertura01/09/2020**".
+
+        #. En el campo "**Documento Destino**", se debe ingresar el número de documento con el cual será generado el ingreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: "**Ingreso-Apertura01/09/2020**".
 
         #. En el campo "**Monto**", se debe ingresar el monto total de la transferencia en la moneda seleccionada. En este caso, un ejemplo sería: "**1.000.000,00**.
 
         #. En el campo "**Descripción**", se debe ingresar una descripción breve que explique de forma puntual la transferencia. En este caso, un ejemplo sería: "**Transferencia para Caja 04 por Apertura01/09/2020**".
         
-        #. En el campo "**Fecha de Estado de Cuenta**", la fecha en la que se esta realizando la transacción.
+        #. En el campo "**Fecha de Estado de Cuenta**", ADempiere establece la fecha en la que se esta realizando la transacción. Esta indica la fecha en la cual será generado el estado de cuenta que se encuentra procesando. 
 
-        #. En el campo "**Fecha Contable**", la fecha en la que se esta realizando la transacción.
+        #. En el campo "**Fecha Contable**", ADempiere establece la fecha en la que se esta realizando la transacción. Esta indica la fecha a ser usada en las cuentas de contabilidad general generadas desde este proceso.
 
         |Transferencia Bancaria de Apertura de Caja|
 
