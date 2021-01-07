@@ -27,25 +27,25 @@ En ADempiere la utilería no es más que un conjunto de instrumentos o herramien
 
     |Calculadora|
 
-    Imagen 3. Calculadora
+    Imagen 2. Calculadora
 
 #. **Reinicia Cache:** Permitirá cerrar todas las ventanas,	para reiniciar cache ingrese reinicia caché en el buscador rápido del menú explicado anteriormente y reinicie.
 
     |Reiniciar Cache|
 
-    Imagen 4. Reiniciar Cache
+    Imagen 3. Reiniciar Cache
 
 #. **Reinicia Contraseña:** Permitirá cambiar la contraseña del usuario, para reiniciar contraseña ingrese reinicia contraseña en el buscador rápido del menú explicado anteriormente y reinicie.
 
     |Reiniciar Contraseña|
 
-    Imagen 5. Reiniciar Contraseña
+    Imagen 4. Reiniciar Contraseña
 
 #. **Flujo de Trabajo Activo:** Cuando se genera el siguiente mensaje como consecuencia de un flujo de trabajo activo en ADempiere.
 
     |Flujo de Trabajo Activo|
 
-    Imagen 6. Flujo de Trabajo Activo
+    Imagen 5. Flujo de Trabajo Activo
 
     Es necesario anular dicho flujo de trabajo. Para ello se debe realizar el siguiente procedimiento.
 
@@ -53,7 +53,7 @@ En ADempiere la utilería no es más que un conjunto de instrumentos o herramien
 
         |icono flujo de trabajo activo|
 
-        Imagen 7. Icono Flujo de Trabajo Activo
+        Imagen 6. Icono Flujo de Trabajo Activo
 
         .. note::
 
@@ -63,28 +63,28 @@ En ADempiere la utilería no es más que un conjunto de instrumentos o herramien
 
         |ubicar registro a anular|
 
-        Imagen 9. Flujo de Trabajo a anular
+        Imagen 7. Flujo de Trabajo a anular
 
     #. Luego de haber ubicado el flujo de trabajo activo, debe seleccionar la opción "**Manejador de Procesos**".
 
         |opción manejador de procesos|
 
-        Imagen 10. Opción Manejador de Procesos
+        Imagen 8. Opción Manejador de Procesos
 
         #. Podrá visualizar la ventana "**Manejador de Procesos**", que se utiliza para actualizar o detener el proceso de flujo de trabajo.
 
             |ventana manejador de procesos|
 
-            Imagen 11. Ventana Manejador de Procesos
+            Imagen 9. Ventana Manejador de Procesos
 
         #. Seleccione el check "**Anular Proceso**", para anular el flujo de trabajo.
 
             |check anular proceso|
 
-            Imagen 12. Check Anular Proceso
+            Imagen 10. Check Anular Proceso
 
         #. Finalmente, seleccione la opción "**OK**", para ejecutar la acción requerida de acuerdo a lo indicado en la ventana "**Manejador de Procesos**".
 
             |opción ok|
 
-            Imagen 13. Opción OK
+            Imagen 11. Opción OK
