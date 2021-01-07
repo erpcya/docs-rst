@@ -3,8 +3,7 @@
 .. |Reiniciar Cache| image:: resources/reset-cache.png
 .. |Reiniciar Contraseña| image:: resources/reset-password.png
 .. |Flujo de Trabajo Activo| image:: resources/active-workflows.png
-.. |menú de flujo de trabajo| image:: resources/workflow-menu.png
-.. |ventana proceso de flujo de trabajo| image:: resources/workflow-process-window.png
+.. |icono flujo de trabajo activo| image:: resources/active-workflow-icon.png
 .. |ubicar registro a anular| image:: resources/locate-record-to-be-canceled.png
 .. |opción manejador de procesos| image:: resources/process-handler-option.png
 .. |ventana manejador de procesos| image:: resources/process-manager-window.png
@@ -42,27 +41,25 @@ En ADempiere la utilería no es más que un conjunto de instrumentos o herramien
 
     Imagen 5. Reiniciar Contraseña
 
-#. **Flujo de Trabajo Activo:** En ADempiere, el flujo de trabajo activo es aquel que en el campo "**Estado de Flujo de Trabajo**", de la ventana "**Proceso de Flujo de Trabajo**", se encuentra la opción "**Corriendo**".
+#. **Flujo de Trabajo Activo:** Cuando se genera el siguiente mensaje como consecuencia de un flujo de trabajo activo en ADempiere.
 
     |Flujo de Trabajo Activo|
 
     Imagen 6. Flujo de Trabajo Activo
 
-    Para anular un flujo de trabajo activo se debe realizar el siguiente procedimiento.
+    Es necesario anular dicho flujo de trabajo. Para ello se debe realizar el siguiente procedimiento.
 
-    #. Ubique en el menú de ADempiere la carpeta "**Gestión del Sistema**", luego seleccione la carpeta "**Reglas Generales**", por último seleccione la carpeta "**Flujo de Trabajo**" y finalmente seleccione la ventana "**Proceso de Flujo de Trabajo**".
+    #. Seleccione el icono "**Flujos de Trabajos Activos**", ubicado en la barra de herramientas de la ventana en la cual fue presentado el mensaje de flujo de trabajo activo.
 
-        |menú de flujo de trabajo|
+        |icono flujo de trabajo activo|
 
-        Imagen 7. Menú de ADempiere
+        Imagen 7. Icono Flujo de Trabajo Activo
 
-    #. Podrá visualizar la ventana "**Proceso de Flujo de Trabajo**", con los diferentes registros de flujos de trabajo que se encuentran en estado "**Anulado**", "**Completo**", "**Corriendo**", "**No Iniciado**", "**Suspendido**" y "**Terminado**".
+        .. note::
 
-        |ventana proceso de flujo de trabajo|
+            En ADempiere, el flujo de trabajo activo es aquel que en el campo "**Estado de Flujo de Trabajo**", de la ventana "**Proceso de Flujo de Trabajo**", se encuentra la opción "**Corriendo**".
 
-        Imagen 8. Ventana Proceso de Flujo de Trabajo
-
-    #. Para anular un flujo de trabajo activo, debe ubicar el registro del mismo. Dicho registro debe decir "**Corriendo**", en el campo "**Estado de Flujo de Trabajo**".
+    #. Podrá visualizar la ventana "**Proceso de Flujo de Trabajo**", con el registro del flujo de trabajo activo.
 
         |ubicar registro a anular|
 
