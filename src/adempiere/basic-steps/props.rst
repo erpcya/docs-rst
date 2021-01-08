@@ -9,6 +9,11 @@
 .. |ventana manejador de procesos| image:: resources/process-manager-window.png
 .. |check anular proceso| image:: resources/check-abort-process.png
 .. |opción ok| image:: resources/ok-option-to-cancel-active-workflow.png
+.. |flujo de trabajo terminado| image:: resources/finished-workflow.png
+.. |opción manejador de actividades| image:: resources/activity-manager-option.png
+.. |ventana manejador de actividades| image:: resources/activity-manager-window.png
+.. |check anular proceso de actividades| image:: resources/check-cancel-activity-process.png
+.. |opción ok de actividades| image:: resources/ok-option-of-activities.png
 
 .. _documento/utilería-de-adempiere:
 
@@ -65,26 +70,62 @@ En ADempiere la utilería no es más que un conjunto de instrumentos o herramien
 
         Imagen 7. Flujo de Trabajo a anular
 
-    #. Luego de haber ubicado el flujo de trabajo activo, debe seleccionar la opción "**Manejador de Procesos**".
+        #. Luego de haber ubicado el flujo de trabajo activo, debe seleccionar la opción "**Manejador de Procesos**".
 
-        |opción manejador de procesos|
+            |opción manejador de procesos|
 
-        Imagen 8. Opción Manejador de Procesos
+            Imagen 8. Opción Manejador de Procesos
 
-        #. Podrá visualizar la ventana "**Manejador de Procesos**", que se utiliza para actualizar o detener el proceso de flujo de trabajo.
+            #. Podrá visualizar la ventana "**Manejador de Procesos**", que se utiliza para actualizar o detener el proceso de flujo de trabajo.
 
-            |ventana manejador de procesos|
+                |ventana manejador de procesos|
 
-            Imagen 9. Ventana Manejador de Procesos
+                Imagen 9. Ventana Manejador de Procesos
 
-        #. Seleccione el check "**Anular Proceso**", para anular el flujo de trabajo.
+            #. Seleccione el check "**Anular Proceso**", para anular el flujo de trabajo.
 
-            |check anular proceso|
+                |check anular proceso|
 
-            Imagen 10. Check Anular Proceso
+                Imagen 10. Check Anular Proceso
 
-        #. Finalmente, seleccione la opción "**OK**", para ejecutar la acción requerida de acuerdo a lo indicado en la ventana "**Manejador de Procesos**".
+            #. Finalmente, seleccione la opción "**OK**", para ejecutar la acción requerida de acuerdo a lo indicado en la ventana "**Manejador de Procesos**".
 
-            |opción ok|
+                |opción ok|
 
-            Imagen 11. Opción OK
+                Imagen 11. Opción OK
+
+    #. En el caso de que continue el mismo mensaje de flujo de trabajo activo, ubique nuevamente el registro de flujo de trabajo, con la ayuda del icono "**Flujos de Trabajos Activos**", desde la ventana en la cual fue presentado dicho mensaje. Posteriormente podrá visualizar la ventana "**Proceso de Flujo de Trabajo**", con el registro del flujo de trabajo activo.
+
+        |ubicar registro a anular|
+
+        Imagen 12. Flujo de Trabajo a anular
+
+        #. Seleccione la pestaña "**Actividad**", para visualizar el registro que se encuentra en estado "**Terminado**".
+
+            |flujo de trabajo terminado|
+
+            Imagen 13. Flujo de Trabajo 
+
+        #. Luego seleccione la opción "**Manejador de Actividades**".
+
+            |opción manejador de actividades|
+
+            Imagen 14. Opción Manejador de Actividades
+
+            #. Podrá visualizar la ventana "**Manejador de Actividades**", que se utiliza para actualizar o detener la actividad del flujo de trabajo.
+
+                |ventana manejador de actividades|
+
+                Imagen 15. Ventana Manejador de Actividades
+
+            #. Seleccione el check "**Anular Proceso**", para anular el flujo de trabajo.
+
+                |check anular proceso de actividades|
+
+                Imagen 16. Check Anular Proceso
+
+            #. Finalmente, seleccione la opción "**OK**", para ejecutar la acción requerida de acuerdo a lo indicado en la ventana "**Manejador de Actividades**".
+
+                |opción ok de actividades|
+
+                Imagen 16. Opción OK
