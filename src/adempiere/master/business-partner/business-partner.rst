@@ -32,6 +32,7 @@
 .. |Campo Tipo de Persona| image:: resources/tipoper.png
 .. |Campo Volumen de Ventas| image:: resources/ventas.png
 .. |Campo Primera Venta| image:: resources/fecha.png
+.. |check entrega directa| image:: resources/check-direct-delivery.png
 .. |Campo Logo| image:: resources/logocliente.png
 .. |Icono Guardar Cambios| image:: resources/guardar.png
 
@@ -379,7 +380,7 @@
 
         |Campo Volumen de Ventas|
 
-        Imagen 33. Campo Volumen de Ventas
+        Imagen 32. Campo Volumen de Ventas
 
     #. Introduzca la fecha de la primera venta en el campo "**Primera Venta**".
 
@@ -387,7 +388,15 @@
 
         |Campo Primera Venta|
 
-        Imagen 34. Campo Primera Venta
+        Imagen 33. Campo Primera Venta
+
+    #. Seleccione el check "**Entrega Directa**".
+    
+        El check entrega directa no es un campo obligatorio, sin embargo, permite registrar el socio de forma informativa, útil para generar reportes e indicar que los envíos de las notas se envían del vendedor directamente al cliente.
+
+        |check entrega directa|
+
+        Imagen 34. Check Entrega Directa
 
     #. Seleccione el tipo de persona en el campo "**Tipo de Persona**.
 
@@ -403,7 +412,7 @@
 
         |Campo Tipo de Persona|
 
-        Imagen 32. Campo Tipo de Persona
+        Imagen 35. Campo Tipo de Persona
 
     #. Adjunte el logo de la empresa en el campo "**Logo**".
 
@@ -411,13 +420,13 @@
 
         |Campo Logo|
 
-        Imagen 35. Campo Logo
+        Imagen 36. Campo Logo
 
 #. Seleccione el icono "**Guardar Cambios**" ubicado en la barra de herramientas para guardar los datos ingresados.
 
         |Icono Guardar Cambios|
 
-        Imagen 36. Icono Guardar Cambios
+        Imagen 37. Icono Guardar Cambios
 
 .. warning::
 
