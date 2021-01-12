@@ -19,8 +19,10 @@
 .. |icono refrescar| image:: resources/refresh-icon.png
 .. |pestaña línea de factura| image:: resources/invoice-line-tab.png
 .. |pestaña principal factura| image:: resources/main-tab-invoice.png
-.. |opción completar| image:: resources/option-complete.png
-.. |acción completar y opción ok| image:: resources/action-complete-and-option-ok.png
+.. |icono imprimir de la ventana documento por pagar| image:: resources/print-icon-of-document-payable-window.png
+.. |ventana factura de ventas| image:: resources/sales-invoice-window.png
+.. |icono imprimir de la ventana factura de ventas| image:: resources/sales-invoice-window-print-icon.png
+
 
 .. _documento/relación-de-ventas-en-consignación:
 
@@ -153,14 +155,20 @@
 
     Imagen 20. Pestaña Principal Factura
 
-#. Seleccione la opción "**Completar**", ubicada en la parte inferior derecha de la ventana "**Documentos por Pagar**".
+#. Seleccione el icono "**Imprimir**", ubicado en la barra de herramientas de ADempiere.
 
-    |opción completar|
+    |icono imprimir de la ventana documento por pagar|
 
-    Imagen 21. Opción Completar
+    Imagen 21. Icono Imprimir
 
-#. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento.
+#. Podrá visualizar la ventana "**Factura de Ventas**", con el reporte del documento por pagar creado anteriormente en estado "**Borrador**".
 
-    |acción completar y opción ok|
+    |ventana factura de ventas|
 
-    Imagen 22. Acción Completar y Opción OK
+    Imagen 22. Ventana Factura de Ventas
+
+#. Seleccione el icono "**Imprimir**", de la ventana "**Factura de Ventas**".
+
+    |icono imprimir de la ventana factura de ventas|
+
+    Imagen 23. Icono Imprimir
