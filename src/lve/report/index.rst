@@ -15,3 +15,5 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
     gross-sales-report/index
     arc-report/index
     summary-daily-billing
+    sale-of-products-by-supplier
+    invoice-details-and-margin

@@ -14,5 +14,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
     producer-financing-management/index
     treasury-management/index
     import/index
+    consignment-management/index
     withholding-management/index
 
