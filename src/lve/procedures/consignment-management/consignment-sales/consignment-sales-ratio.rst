@@ -22,7 +22,6 @@
 .. |icono imprimir de la ventana documento por pagar| image:: resources/print-icon-of-document-payable-window.png
 .. |ventana factura de ventas| image:: resources/sales-invoice-window.png
 .. |icono imprimir de la ventana factura de ventas| image:: resources/sales-invoice-window-print-icon.png
-
 .. |reporte detalles de facturas y margen| image:: resources/report-details-of-invoices-and-margin.png
 .. |ubicar prefactura| image:: resources/locate-pre-invoice.png
 .. |numero de documento en pre factura| image:: resources/pre-invoice-document-number.png
@@ -47,6 +46,8 @@
 ======================================
 
 Para la relación de las ventas en consignación, es obligatoria la configuración de las mismas. Dicha configuración se encuentra explicada en el material :ref:`documento/configuración-de-ventas-en-consignación`, elaborado por `ERPyA`_.
+
+Adicional a ello, la venta no debe estar incluida en ningún documento por pagar. De lo contrario, el registro no podrá ser visualizado al momento ser cargada la información a la pestaña "**Línea de Factura**", de la ventana "**Documentos por Pagar**".
 
 .. _paso/generar-reporte-de-venta-de-productos-por-proveedor:
 
