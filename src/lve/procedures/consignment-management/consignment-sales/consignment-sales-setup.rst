@@ -16,7 +16,7 @@ Para relacionar en ADempiere las ventas de productos en consignación, es necesa
 
     El registro del socio del negocio proveedor se encuentra explicado de manera detallada en el material :ref:`documento/socio-proveedor`, elaborado por `ERPyA`_.
 
-|socio del megocio proveedor|
+|socio del negocio proveedor|
 
 Imagen 1. Socio del Negocio Proveedor
 

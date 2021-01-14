@@ -18,8 +18,6 @@
 **Venta de Productos por Proveedor**
 ====================================
 
-Éste reporte permite vizualizar las ventas realizadas, agrupandolas por proveedor y productos.
-
 #. Seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la carpeta "**Consulta de Facturas**". Finalmente, seleccione el reporte "**Venta de Productos por Proveedor**".
 
     |menú de reporte venta de productos por proveedor|
