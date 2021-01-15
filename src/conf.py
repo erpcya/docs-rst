@@ -27,9 +27,8 @@ copyright = '2020, ADempiere ERP'
 author = 'E.R.P. Consultores y Asociados, C.A.'
 # The short X.Y version
 version = '1.0'
-
-# The full version, including alpha/beta/rc tags.
-release = '3.9.3'
+# The full version, including alpha/beta/rc tags
+release = '4.0.0'
 
 # Html logo in drawer.
 # Fit in the drawer at the width of image is 240 px.
