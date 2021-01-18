@@ -173,6 +173,8 @@ La manufactura es originada desde una planificación previa, estimando metas u o
 
             Imagen 21. Campo Ubicación del Producto de la Pestaña Encabezado de Producción de la Ventana Producción
 
+#. Seleccione la opción preparar para que sea tildada la opción "**Registros Creados**", esto como resultado de haber creado las líneas de consumo en la "**Pestaña Línea de Producción**".
+
 #. Seleccione la opción "**Completar**", para completar el documento "**Producción**" realizado.
 
     |Opción Completar de la Pestaña Encabezado de Producción de la Ventana Producción|
