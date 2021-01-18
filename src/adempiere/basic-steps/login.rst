@@ -2,22 +2,18 @@
 .. |Campo Usuario| image:: resources/user-field.png
 .. |Campo Contraseña del Usuario| image:: resources/user-password-field.png
 .. |Campo Lenguaje para Acceso| image:: resources/language-field-for-access.png
-.. |Checklist Recuérdame| image:: resources/checklist-remember-me.png
-.. |Opción OK para Iniciar Sesión| image:: resources/ok-option-to-login.png
-.. |Ventana Login o Iniciar Sesión en ADempiere con Rol del Usuario| image:: resources/login-window-or-login-in-adempiere-with-user-role.png
-.. |Campo Rol del Usuario| image:: resources/role-field.png
-.. |Campo Compañía| image:: resources/company-field.png
-.. |Campo Organización| image:: resources/organization-field.png
-.. |Campo Almacén| image:: resources/warehouse-field.png
-.. |Opción OK| image:: resources/option-ok.png
+.. |Opción Acceso para Iniciar Sesión| image:: resources/access-option-to-login.png
 .. |Interrogante se te olvidó tu contraseña| image:: resources/question-mark-you-forgot-your-password.png
-.. |Ventana Login o Iniciar Sesión en ADempiere para Recuperar Contraseña| image:: resources/login-window-or-login-adempiere-to-recover-password.png
+.. |ventana olvido su contraseña| image:: resources/login-window-or-login-adempiere-to-recover-password.png
 .. |Opción OK para Recuperar Contraseña| image:: resources/ok-option-to-recover-password.png
-.. |Correo Recibido de ADempiere| image:: resources/mail-received-from-adempiere.png
-.. |Pestaña Cargada Automáticamente| image:: resources/automatically-loaded-tab.png
-.. |Campo Nueva Contraseña| image:: resources/new-password-field.png
-.. |Campo Repita la Nueva Contraseña| image:: resources/field-repeat-new-password.png
-.. |Opción Ok para Guardar la Contraseña| image:: resources/ok-option-to-save-password.png
+.. |opción formulario de acceso| image:: resources/access-form-option.png
+.. |opción registrarse| image:: resources/register-option.png
+.. |formulario registrar usuario| image:: resources/register-user-form.png
+.. |campo nombre del formulario registrar usuario| image:: resources/field-name-of-the-form-register-user.png
+.. |campo usuario del formulario registrar usuario| image:: resources/user-field-of-the-register-user-form.png
+.. |campo correo electrónico del formulario registrar usuario| image:: resources/email-field-of-the-register-user-form.png
+.. |opción enviar del formulario registrar usuario| image:: resources/send-option-of-the-register-user-form.png
+.. |opción formulario de acceso del formulario registrar usuario| image:: resources/access-form-option-of-the-register-user-form.png
 
 .. _documento/inicio-de-sesión-en-adempiere:
 
@@ -32,17 +28,17 @@ Para acceder o iniciar sesión en ADempiere, el usuario requiere lo siguiente:
 
 - Credenciales de acceso (Facilitadas por un consultor de ERPyA)
 
-    - Usuario: Estandar
+    - Usuario: uEstandar
 
-    - Clave: Estandar
+    - Clave: uEstandar
 
 - Rol asignado al usuario creado por ERPyA
 
-#. Al ingresar a la url del servicio de ADempiere facilitada por un consultor de ERPyA, podrá visualizar la ventana "**Login**" o "**Iniciar Sesión**", la cual cuenta con los campos necesarios para iniciar sesión en el idioma que el usuario lo requiera.
+#. Al ingresar a la url del servicio de ADempiere facilitada por un consultor de ERPyA, podrá visualizar el formulario de acceso, el cual cuenta con los campos necesarios para iniciar sesión en el idioma que el usuario lo requiera.
 
     |Ventana Login o Iniciar Sesión en ADempiere con Credenciales de Acceso|
 
-    Imagen 1. Ventana Login o Iniciar Sesión en ADempiere
+    Imagen 1. Formulario de Acceso a ADempiere
 
 #. Introduzca en el campo "**Usuario**", el usuario previamente facilitado por el consultor de ERPyA.
 
@@ -62,101 +58,86 @@ Para acceder o iniciar sesión en ADempiere, el usuario requiere lo siguiente:
 
     Imagen 4. Campo Lenguaje para Acceso
 
-#. De igual manera, la ventana cuenta con el checklist "**Recordar mis datos**", que al tildar el mismo serán recordadas las credenciales de acceso del usuario.
-
-    |Checklist Recuérdame|
-
-    Imagen 5. Checklist Recordar mis datos
-
 #. Seleccione la opción "**OK**", para cargar las credenciales de acceso y proceder a detallar el rol, la organización, compañía y almacén para ingresar a ADempiere.
 
     |Opción OK para Iniciar Sesión|
 
-    Imagen 6. Opción OK para Cargar las Credenciales
-
-#. Podrá visualizar la ventana "**Login**" o "**Iniciar Sesión**", con los campos competentes al rol del usuario.
-
-    |Ventana Login o Iniciar Sesión en ADempiere con Rol del Usuario|
-
-    Imagen 7. Ventana Login o Iniciar Sesión en ADempiere con Rol del Usuario
-
-#. Seleccione en el campo "**Rol**", el rol que cumple el usuario dentro de la organización.
-
-    |Campo Rol del Usuario|
-
-    Imagen 8. Campo Rol del Usuario
-
-#. Seleccione en el campo "**Compañía**", la compañía para la cual trabaja el usuario.
-
-    |Campo Compañía|
-
-    Imagen 9. Campo Compañía
-
-#. Seleccione en el campo "**Organización**", la organización para la cual trabaja el usuario.
-
-    |Campo Organización|
-
-    Imagen 10. Campo Organización
-
-#. Seleccione en el campo "**Almacén**", el almacén para el requiere acceder el usuario. 
-
-    |Campo Almacén|
-
-    Imagen 11. Campo Almacén
-
-#. Por último, para iniciar sesión en el servicio de ADempiere, debe seleccionar la opción "**OK**".
-
-    |Opción OK|
-
-    Imagen 12. Opción OK para acceder a ADempiere
+    Imagen 5. Opción OK para Cargar las Credenciales
 
 **Recuperar Contraseña**
 ------------------------
 
-#. Si el usuario no recuerda la contraseña para iniciar sesión puede recuperarla seleccionando la interrogante **¿Se te olvidó tu contraseña?**.
+#. Si el usuario no recuerda la contraseña para iniciar sesión puede recuperarla seleccionando la interrogante **¿Olvidó su Contraseña?**.
 
     |Interrogante se te olvidó tu contraseña|
 
-    Imagen 13. Interrogante ¿Se te Olvidó tu Contraseña?
+    Imagen 6. Interrogante ¿Olvidó su Contraseña?
 
-#. Podrá visualizar la ventana "**Login**" o "**Iniciar Sesión**", con el campo "**ID de usuario**", donde debe ingresar el usuario de acceso al servicio de ADempiere.
+#. Podrá visualizar el formulario "**Olvidó su Contraseña**", con el campo "**Usuario o Correo**", donde debe ingresar el usuario de acceso al servicio de ADempiere.
 
-    |Ventana Login o Iniciar Sesión en ADempiere para Recuperar Contraseña|
+    |ventana olvido su contraseña|
 
-    Imagen 14. Ventana Login o Iniciar Sesión en ADempiere para Recuperar Contraseña
+    Imagen 7. Ventana Olvidó su Contraseña 
 
-#. Seleccione la opción "**OK**", para que ADempiere envie por correo electrónico, la verificación de usuario y la URL para cambiar la contraseña.
+#. Seleccione la opción "**Enviar**", para que ADempiere envie por correo electrónico, la verificación de usuario y la URL para cambiar la contraseña.
 
     |Opción OK para Recuperar Contraseña|
 
-    Imagen 15. Opción OK para Recuperar Contraseña
+    Imagen 8. Opción Enviar para Recuperar Contraseña
 
-#. Ubique el nuevo mensaje recibido en su correo electrónico y seleccione la opción "**Verify Token**".
+#. La opción "**Formulario de Acceso**", permite regresar nuevamente al formulario de acceso.
 
-    |Correo Recibido de ADempiere|
+    |opción formulario de acceso|
 
-    Imagen 16. Correo Recibido de ADempiere
+    Imagen 9. Opción Formulario de Acceso
 
-#. Automáticamente se cargará una pestaña en el navegador, con la url indicada en el correo recibido. En dicha pestaña podrá visualizar la ventana "**Login**" o "**Iniciar Sesión**" con los campos necesarios para crear una nueva contraseña.
+**Registrarse**
+---------------
 
-    |Pestaña Cargada Automáticamente|
+#. Si el usuario requiere registrarse, también puede hacerlo seleccionando la opción "**Registrarse**".
 
-    Imagen 17. Pestaña Cargada Automáticamente
+    |opción registrarse|
 
-#. Introduzca en el campo "**Nueva Contraseña**", la contraseña para iniciar sesión en ADempiere.
+    Imagen 10. Opción Registrarse
+    
+#. Podrá visualizar el formulario "**Registrar Usuario**", con los campos necesarios para crear el usuario en ADempiere.
 
-    |Campo Nueva Contraseña|
+    |formulario registrar usuario|
 
-    Imagen 18. Campo Nueva Contraseña
+    Imagen 11. Formulario Registrar Usuario
 
-#. Introduzca en el campo "**Repita la Nueva Contraseña**", la contraseña ingresada en el campo "**Nueva Contraseña**", para iniciar sesión en ADempiere.
+#. Introduzca en el campo "**Nombre**", el nombre de la persona que se esta registrando.
 
-    |Campo Repita la Nueva Contraseña|
+    |campo nombre del formulario registrar usuario|
 
-    Imagen 19. Campo Repita la Nueva Contraseña
+    Imagen 12. campo Nombre del Formulario Registrar Usuario
 
-#. Seleccione la opción "**OK**", para guardar la nueva contraseña ingresada.
+#. Introduzca en el campo "**Usuario**", el usuario para el acceso a ADempiere.
 
-    |Opción Ok para Guardar la Contraseña|
+    |campo usuario del formulario registrar usuario|
 
-    Imagen 20. Opción Ok para Guardar la Contraseña
+    Imagen 13. Campo Usuario del Formulario Registrar Usuario
+
+#. Introduzca en el campo "**Correo Electrónico**", el correo electrónico del usuario que se esta registrando.
+
+    En dicho correo será enviado un mensaje con la contraseña de acceso a ADempiere.
+
+    |campo correo electrónico del formulario registrar usuario|
+
+    Imagen 14. Campo Correo Electrónico del Formulario Registrar Usuario
+
+#. Seleccione la opción "**Enviar**", para crear el usuario en ADempiere y enviar la información al correo ingresado previamente.
+
+    |opción enviar del formulario registrar usuario|
+
+    Imagen 15. Opción OK del Formulario Registrar Usuario
+
+    .. note::
+
+        Al finalizar el proceso, ADempiere regresa de manera automática al formulario de acceso.
+
+#. La opción "**Formulario de Acceso**", permite regresar nuevamente al formulario de acceso.
+
+    |opción formulario de acceso del formulario registrar usuario|
+
+    Imagen 16. Opción Formulario de Acceso
