@@ -58,11 +58,11 @@ Para acceder o iniciar sesión en ADempiere, el usuario requiere lo siguiente:
 
     Imagen 4. Campo Lenguaje para Acceso
 
-#. Seleccione la opción "**OK**", para cargar las credenciales de acceso y proceder a detallar el rol, la organización, compañía y almacén para ingresar a ADempiere.
+#. Seleccione la opción "**Acceso**", para cargar las credenciales de acceso y proceder a detallar el rol, la organización, compañía y almacén para ingresar a ADempiere.
 
-    |Opción OK para Iniciar Sesión|
+    |Opción Acceso para Iniciar Sesión|
 
-    Imagen 5. Opción OK para Cargar las Credenciales
+    Imagen 5. Opción Acceso para Cargar las Credenciales
 
 **Recuperar Contraseña**
 ------------------------
