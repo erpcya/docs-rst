@@ -1,5 +1,8 @@
 .. _ERPyA: http://erpya.com
-.. |Menú de ADempiere| image:: resources/point-of-sale-terminal-menu.png
+.. |Menú de terminal pdv| image:: resources/point-of-sale-terminal-menu.png
+.. |carpeta órdenes de venta con carpeta punto de venta| image:: resources/sales-order-folder-with-point-of-sale-folder.png
+.. |selección de la ventana terminal pdv| image:: resources/pdv-terminal-window-selection.png
+
 .. |Ventana Terminal PDV| image:: resources/point-of-sale-terminal-window.png
 .. |Campo Organización de la Ventana Terminal PDV| image:: resources/organization-field-of-the-terminal-window-point-of-sale.png
 .. |Campo Nombre de la Ventana Terminal PDV| image:: resources/point-of-sale-terminal-window-field.png
@@ -46,11 +49,23 @@ Adicional a ello, se define la impresora, el tipo de conversión, la lista de pr
 
 A continuación se explica el procedimiento a seguir para configurar correctamente el terminal del punto de venta.
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la carpeta "**Punto de Venta**", finalmente seleccione la ventana "**Terminal PDV**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**" y luego seleccione la carpeta "**Órdenes de Venta**".
 
-    |Menú de ADempiere|
+    |Menú de terminal pdv|
 
     Imagen 1. Menú de ADempiere
+
+#. Podrá visualizar la carpeta "**Órdenes de Venta**", con diferentes ventanas, procesos y reportes. Además, contiene la carpeta "**Punto de Venta**", que a su vez contiene ventanas, procesos y formularios.
+
+    |carpeta órdenes de venta con carpeta punto de venta|
+
+    Imagen 2. Carpeta Órdenes de Venta
+
+#. Finalmente, seleccione la ventana "**Terminal PDV**", que se encuentra dentro de la carpeta "**Punto de Venta**".
+
+    |selección de la ventana terminal pdv|
+
+    Imagen 3. Selección de la Ventana Terminal PDV
 
 #. Podrá visualizar la ventana "**Terminal PDV**" con diferentes campos que permiten una configuración de la caja, taquilla o auto-servicio en el cual se gestiona la orden, facturación y cobro de los productos por medio del punto de venta.
 

@@ -20,13 +20,13 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
     :maxdepth: 2
 
     point-of-sale-terminal
-    point-of-sale-interface
-    daily-pdv-procedure
-    generate-report-x-y-z
-    opening-cash
-    pos
-    void-sales-transaction
-    complete-ready-order
-    withdrawal-of-funds-from-the-point-of-sale
-    closing-cash
-    transfer-to-bank
+    point-of-sale-interface/index
+    daily-pdv-procedure/index
+    generate-report-x-y-z/index
+    opening-cash/index
+    pos/index
+    void-sales-transaction/index
+    complete-ready-order/index
+    withdrawal-of-funds-from-the-point-of-sale/index
+    closing-cash/index
+    transfer-to-bank/index
