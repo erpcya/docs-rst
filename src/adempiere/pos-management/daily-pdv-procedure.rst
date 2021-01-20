@@ -23,7 +23,7 @@ Antes de emitir facturas desde el punto de venta, se deben realizar los siguient
 
 #. Ejecutar con permisos de "**Administrador**", la impresora fiscal de cada caja.
 
-#. Generar los reportes "**X**", de cada caja. Dicho procedimiento se encuentra explicado en el documento :ref:`documento/generar-reporte-x-y-z`.
+#. Generar los reportes "**X**", de cada caja. Dicho procedimiento se encuentra explicado en el documento :ref:`documento/generate-report-x-y-z`.
 
 #. Realizar el procedimiento de apertura de caja, el mismo se encuentra explicado en el documento :ref:`documento/apertura-de-caja`. Dicho procedimiento se debe realizar sólo si es entregado físicamente el dinero a la caja.
 
