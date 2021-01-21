@@ -19,12 +19,12 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
 .. toctree::
     :maxdepth: 2
 
-    point-of-sale-terminal
-    point-of-sale-interface/index
+    point-of-sale-terminal/index
+    point-of-sale-interface
     daily-pdv-procedure/index
     generate-report-x-y-z/index
     opening-cash/index
-    pos/index
+    pos
     void-sales-transaction/index
     complete-ready-order/index
     withdrawal-of-funds-from-the-point-of-sale/index
