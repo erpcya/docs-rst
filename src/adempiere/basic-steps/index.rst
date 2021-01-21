@@ -13,5 +13,5 @@ El presente material se encuentra dirigido a cada uno de los usuarios de ADempie
     user-interface
     interface-icons
     toolbar
-    quick-access
+    quick-access/index
     props

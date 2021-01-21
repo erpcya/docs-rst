@@ -46,6 +46,7 @@
 .. |selección de producto en categoría| image:: resources/product-selection-in-category.png
 .. |producto cargado desde catálogo de productos| image:: resources/product-loaded-from-product-catalog.png
 .. |opción regresar del catálogo de productos| image:: resources/option-return-from-product-catalog.png
+.. |icono inicio para regresar al catálogo de productos| image:: resources/home-icon-to-return-to-the-product-catalog.png
 .. |ocultar catálogo de productos| image:: resources/hide-product-catalog.png
 
 .. _documento/interfaz-del-punto-de-venta:
@@ -108,6 +109,10 @@ Para buscar un socio del negocio desde el formulario del punto de venta, se debe
         |ventana de búsqueda de socios del negocio|
 
         Imagen 7. Ventana de búsqueda de Socios del Negocio
+
+        .. note::
+
+            Al tener registrados muchos socios del negocio, se muestra por páginas, la información de todos los socios del negocio. Indicando en la parte inferior de la ventana, el total de socios del negocio registrados, las páginas para navegar y la cantidad de páginas por la consulta.
 
     #. Introduzca en el campo "**Código**", el número de identificación del socio del negocio por el cual requiere filtrar la búsqueda.
 
@@ -387,6 +392,12 @@ Dicho catálogo permite que los productos sean cargados a la línea de la orden 
     |opción regresar del catálogo de productos|
 
     Imagen 47. Opción Regresar del Catálogo de Productos
+
+#. De igual manera, puede regresar a la vista principal del catálogo de productos, seleccionando el icono "**Inicio**", ubicado debajo del nombre de la categoría o grupo de productos.
+
+    |icono inicio para regresar al catálogo de productos|
+
+    Imagen 48. Icono Inicio
 
 #. Seleccione nuevamente el icono "**<**", para ocultar el catálogo de productos.
 
