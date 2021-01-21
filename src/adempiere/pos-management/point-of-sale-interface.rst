@@ -45,6 +45,7 @@
 .. |selección de categoría de producto| image:: resources/product-category-selection.png
 .. |selección de producto en categoría| image:: resources/product-selection-in-category.png
 .. |producto cargado desde catálogo de productos| image:: resources/product-loaded-from-product-catalog.png
+.. |opción regresar del catálogo de productos| image:: resources/option-return-from-product-catalog.png
 .. |ocultar catálogo de productos| image:: resources/hide-product-catalog.png
 
 .. _documento/interfaz-del-punto-de-venta:
@@ -381,8 +382,14 @@ Dicho catálogo permite que los productos sean cargados a la línea de la orden 
 
     Imagen 46. Producto Cargado desde Catálogo de productos
 
+#. Para salir de la categoría en la que se encuentra, debe seleccionar la opción "**Catálogo Principal**", para regresar a la vista principal del catálogo de productos.
+
+    |opción regresar del catálogo de productos|
+
+    Imagen 47. Opción Regresar del Catálogo de Productos
+
 #. Seleccione nuevamente el icono "**<**", para ocultar el catálogo de productos.
 
     |ocultar catálogo de productos|
 
-    Imagen 47. Ocultar Catálogo de Productos
+    Imagen 48. Ocultar Catálogo de Productos
