@@ -4,6 +4,7 @@
 .. |Artículos Recientes| image:: resources/recent-articles.png
 .. |Tareas Pendientes| image:: resources/pending-tasks.png
 .. |Aviso| image:: resources/notice.png
+.. |proceso culminado| image:: resources/process-completed.png
 .. |Solicitud| image:: resources/request.png
 .. |Calendarios| image:: resources/calendar.png
 
@@ -61,12 +62,18 @@ Muestra todos los procesos o documentos que el usuario tiene pendientes por fina
 
     Imagen 6. Notificaciones
 
+    Luego de ejecutar un algún proceso, podrá visualizar el mismo de la siguiente manera
+
+    |proceso culminado|
+
+    Imagem 7. Proceso Culminado
+
 **Pantalla Completa**
 *********************
 
     |Solicitud|
 
-    Imagen 7. Pantalla Completa
+    Imagen 8. Pantalla Completa
 
     .. note::
 
@@ -79,4 +86,4 @@ Se visualiza el calendario con intervalos de días, meses y años.
 
     |Calendarios|
 
-    Imagen 8. Calendarios
+    Imagen 9. Calendarios
