@@ -71,13 +71,13 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         El formulario "**Punto de Venta**", crea de manera automática un registro nuevo de "**Orden de Venta**", al cargar un producto al mismo.
 
-#. Ingrese la información del socio del negocio "**Cliente**", en el campo "**Socio de Negocios**". Dicho procedimiento se encuentra explicado en el proceso :ref:``, del material :ref:`documento/interfaz-del-punto-de-venta`, elaborado por `ERPyA`_.
+#. Ingrese la información del socio del negocio "**Cliente**", en el campo "**Socio de Negocios**". Dicho procedimiento se encuentra explicado en el proceso :ref:`documento/paso-panel-de-socio-de-negocios`, del material :ref:`documento/interfaz-del-punto-de-venta`, elaborado por `ERPyA`_.
 
     |selección del cliente en el formulario punto de venta|
 
     Imagen 6. Selección del Cliente en el Formulario Punto de Venta
 
-#. Proceda a cargar los productos desde el catálogo de productos. Dicho procedimiento se encuentra explicado en el proceso :ref:``, del material :ref:`documento/interfaz-del-punto-de-venta`, elaborado por `ERPyA`_.
+#. Proceda a cargar los productos desde el catálogo de productos. Dicho procedimiento se encuentra explicado en el proceso :ref:`documento/paso-catálogo-de-productos`, del material :ref:`documento/interfaz-del-punto-de-venta`, elaborado por `ERPyA`_.
 
     |carga de productos desde catálogo de productos del formulario punto de venta|
 
@@ -87,7 +87,7 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         Recuerde que en el catálogo de productos, cada categoría, grupo y producto se encuentra identificado por su nombre e imagen correspondiente al mismo, según la configuración de llave de disposición establecida previamente para el punto de ventas. Dicha configuración se encuentra explicada de manera detallada en el material :ref:``, elaborado por `ERPyA`_.
 
-#. Si lo desea, puede ingresar los productos a la orden de venta ingresando el código o nombre del mismo en el panel de búsqueda de productos. Dicho panel se encuentra explicado de manera detallada en el material :ref:``, elaborado por `ERPyA`_.
+#. Si lo desea, puede ingresar los productos a la orden de venta ingresando el código o nombre del mismo en el panel de búsqueda de productos. Dicho panel se encuentra explicado de manera detallada en el material :ref:`documento/paso-panel-de-búsqueda-de-productos`, elaborado por `ERPyA`_.
 
     |carga de productos desde el panel de búsqueda de productos del formulario punto de venta|
 

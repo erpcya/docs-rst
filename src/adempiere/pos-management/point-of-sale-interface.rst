@@ -40,6 +40,12 @@
 .. |icono buscar productos| image:: resources/search-products-icon.png
 .. |resultado de búsqueda de productos por icono| image:: resources/product-search-result-by-icon.png
 .. |resultado de búsqueda del producto del icono buscar| image:: resources/search-icon-product-search-result.png
+.. |icono menor que del formulario punto de venta| image:: resources/icon-smaller-than-point-of-sale-form.png
+.. |catálogo de productos| image:: resources/product-catalog.png
+.. |selección de categoría de producto| image:: resources/product-category-selection.png
+.. |selección de producto en categoría| image:: resources/product-selection-in-category.png
+.. |producto cargado desde catálogo de productos| image:: resources/product-loaded-from-product-catalog.png
+.. |ocultar catálogo de productos| image:: resources/hide-product-catalog.png
 
 .. _documento/interfaz-del-punto-de-venta:
 
@@ -333,3 +339,50 @@ Permite realizar una búsqueda rápida de todos los productos para la venta regi
         |resultado de búsqueda del producto del icono buscar|
 
         Imagen 41. Resultado de Búsqueda del Producto en el Icono
+
+.. _documento/paso-catálogo-de-productos:
+
+**Catálogo de Productos**
+-------------------------
+
+El catálogo de productos en el punto de ventas, puede ser configurado dependiendo de los requerimientos del usuario, este se puede configurar por categorías o grupos de productos. Para ello es necesario crear las categorías on grupos de productos, registrando sus respectivos productos en cada uno y estableciendo el orden de los mismos.
+
+Luego de crear y configurar las categorías o grupos de productos, se procede a crear el catálogo de productos y agregar al mismo las diferentes categorías o grupos creados anteriormente, estableciendo su respectivo orden.
+
+Dicho catálogo permite que los productos sean cargados a la línea de la orden de venta mediante la selección de los mismos. Para ello, se debe realizar lo siguiente:
+
+#. Seleccione el icono "**<**" ubicado del lado derecho del formulario "**Punto de Venta**", para mostrar el catálogo de productos previamente configurado.
+
+    |icono menor que del formulario punto de venta|
+
+    Imagen 42. Icono < 
+
+#. Podrá visualizar un panel en la parte derecha del formulario "**Punto de Venta**", con el catálogo de productos previemante configurado.
+
+    |catálogo de productos|
+
+    Imagen 43. Catálogo de Productos
+
+#. En el catálogo de productos se visualizan las categorías o grupos de productos, donde se debe seleccionar la categoría o grupo en el cual se encuentra el producto.
+
+    |selección de categoría de producto|
+
+    Imagen 44. Selección de Categoría de Producto
+
+#. Seleccione el producto que requiere agregar a la línea de la orden que se encuentra realizando.
+
+    |selección de producto en categoría|
+
+    Imagen 45. Selección de Producto en la Categoría
+
+#. Podrá visualizar de la siguiente manera el producto cargado a la línea de la orden desde el catálogo de productos.
+
+    |producto cargado desde catálogo de productos|
+
+    Imagen 46. Producto Cargado desde Catálogo de productos
+
+#. Seleccione nuevamente el icono "**<**", para ocultar el catálogo de productos.
+
+    |ocultar catálogo de productos|
+
+    Imagen 47. Ocultar Catálogo de Productos
