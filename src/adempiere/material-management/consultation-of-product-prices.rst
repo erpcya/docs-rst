@@ -1,9 +1,10 @@
 .. _ERPyA: http://erpya.com
-
+.. |menú de consulta de producto| image:: resources/product-inquiry-menu.png
+.. |ventana del formulario consulta de precios| image:: resources/price-inquiry-form-window.png
+.. |consulta de precios| image:: resources/price-checking.png
 
 .. _documento/consulta-precios-productos:
 
-====================================
 **Consulta de Precios de Productos**
 ====================================
 
@@ -13,7 +14,7 @@ ADempiere permite que sea realizada una búsqueda de precios de productos a trav
 
 #. Ubique en el menú de ADempiere, la carpeta "**Gestión de Ventas**", el formulario "**Consulta de Precios**", ubicado en la parte inferior de la misma.
 
-    |menú de adempiere|
+    |menú de consulta de producto|
 
     Imagen 1. Menú de ADempiere
 
@@ -23,24 +24,12 @@ ADempiere permite que sea realizada una búsqueda de precios de productos a trav
 
     Imagen 2. Ventana del Formulario Consulta de Precios
 
-#. Una vez ubicado en la ventana "**Consulta de Precios**", puede apreciar diferentes campos relacionados con la información básica de los productos.
+#. Haga clic sobre la imagen de la ventana y posteriormente ubique el código de barra del producto en el lector de código, para que el mismo pueda reflejar la información del producto.
 
-    |Ventana Consulta de Precios|
+    |consulta de precios|
 
     Imagen 4. Ventana Consulta de Precios
 
     .. note::
 
-        Este formulario permite verificar el precio y el almacenamiento del producto según la lista de precios disponible para la organización.
-
-#. Introduzca en el campo "**Código**", el código correspondiente al producto al cual se requiere consultar el precio.
-
-    |Campo Código del Producto|
-
-    Imagen 5. Campo Código del Producto
-
-#. Luego de ingresar el código y seleccionar la tecla "**Enter**" en el equipo, podrá visualizar el nombre completo del producto, el precio lista sin impuesto agregado, el total del impuesto del producto y el gran total del producto que corresponde a la sumatoria del precio lista mas el total del impuesto.
-
-    |Campos Nombre, Precio Lista y Total del Impuesto del Producto|
-
-    Imagen 6. Campos Nombre, Precio Lista y Total del Impuesto del Producto
+        Este formulario permite visualizar el nombre del producto, su precio sin impuesto y el total del impuesto del mismo, Adicional a ello, muestra el monto total del producto en la moneda base y su monto convertido según la lista de precios disponible para la organización.
