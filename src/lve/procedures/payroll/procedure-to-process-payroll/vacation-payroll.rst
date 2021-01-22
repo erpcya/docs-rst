@@ -1,21 +1,19 @@
+.. _ERPyA: http://erpya.com
 .. |Nómina Vacaciones| image:: resources/vacaciones2.png
 .. |Recibo de Pago Nómina Vacaciones| image:: resources/recibovacaciones.png
 .. |Detalle de Pago Nómina Vacaciones| image:: resources/detallevacaciones.png
 .. |Resumen de Pago Nómina Vacaciones| image:: resources/resumenvacaciones.png
 .. |Retenciones Nómina Vacaciones| image:: resources/retencionesvacaciones.png
 .. |Aportes Nómina Vacaciones| image:: resources/aportesvacaciones.png
-
-
+.. |Incidencia Nómina Vacaciones| image:: resources/incidenciavacaciones1.png
 
 .. _documento/nomina-vacaciones:
-.. _ERPyA: http://erpya.com
 
+========================
+ **Nómina Vacaciones**
+========================
 
-============================
- **NÓMINA VACACIONES**
-============================
-
-Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de vacaciones, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
+    Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de vacaciones, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 
 #. Estatus del Documento:
@@ -23,72 +21,71 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
 
     #. Seleccione “**Nómina Vacaciones**” en el campo “**Tipo de Documento**”
 
- 	     El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
+ 	  El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
 
     #. Seleccione “**Nómina Vacaciones**” en el campo “**Nómina**”
 
-	     La nómina de vacaciones define el comportamiento de la nómina, para este caso por ser una nómina especial cuenta con las siguientes características:
+	   La nómina de vacaciones define el comportamiento de la nómina, para este caso por ser una nómina especial cuenta con las siguientes características:
 
-                #. Regla de Pago: Débito Directo
-                #. Contrato de Nómina: Contrato Mensual
-                #. Cargo: Vacaciones por Pagar
-
+            #. Regla de Pago: Débito Directo
+            #. Contrato de Nómina: Contrato Mensual
+            #. Cargo: Vacaciones por Pagar
 
     #. Seleccione la fecha en la qué esté ejecutando la nómina en el campo "**Fecha Contable**"
 
     #. Seleccione el “**Socio de Negocio Empleado**” a quién se le procesa la nómina de vacaciones en el campo "**Socio de Negocio**"
 
-      .. note::
+    .. note::
 
-            Si son vacaciones colectivas a todo el personal no debe seleccionar ningún socio de negocio, deje este campo en blanco para que le procese la nómina de vacaciones a todo el personal.
+        Si son vacaciones colectivas a todo el personal no debe seleccionar ningún socio de negocio, deje este campo en blanco para que le procese la nómina de vacaciones a todo el personal.
 
+    |Nómina Vacaciones|
 
-      |Nómina Vacaciones|
+    Imagen 1. Nómina de Vacaciones
 
-      Imagen 1. Nómina de Vacaciones
+    .. warning::
 
-      .. warning::
-
-          Está nómina  por ser una nómina especial no debe registrarse con período
+        Está nómina  por ser una nómina especial no debe registrarse con período
 
 
 #. Incidencias:
 
-      Para está nómina es obligatorio registrar la incidencia llamada "**Fecha de Inicio de Vacaciones**" para conocer el día a partir del cúal saldrá de vacaciones el empleado y el sistema pueda calcular su fecha de regreso, cabe destacar que esta incidencia debe registrarse al socio de negocio empleado al cual se le procesará la nómina de vacaciones
+    Para está nómina es obligatorio registrar la incidencia llamada "**Fecha de Inicio de Vacaciones**" para conocer el día a partir del cúal saldrá de vacaciones el empleado y el sistema pueda calcular su fecha de regreso, cabe destacar que esta incidencia debe registrarse al socio de negocio empleado al cual se le procesará la nómina de vacaciones
 
 
       +-------------------------------------------------------+----------------------+----------------+
       |           **INCIDENCIA**                              |     **CÓDIGO**       |    **TIPO**    |
       +=======================================================+======================+================+
-      | Fecha de Inicio de Vacaciones                         |     ("IN_FIV")        |    Fecha    |
+      | Fecha de Inicio de Vacaciones                         |     ("IN_FIV")       |     Fecha      |
       +-------------------------------------------------------+----------------------+----------------+
 
 
+    Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
 
+    |Incidencia Nómina Vacaciones|
 
-      Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
+    Imagen 2. Incidencia Vacaciones
 
 #. Resultados:
 
-    _"**Reportes**"
+    - "**Reportes**"
 
-        Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina:` con los datos adicionales que se indican a continuación para cada reporte
+        Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina` con los datos adicionales que se indican a continuación para cada reporte
 
 
-      - “**Recibo de Pago**”
+        - “**Recibo de Pago**”
 
-         	- **Nómina**: Nómina de Vacaciones
+            - **Nómina**: Nómina de Vacaciones
 
-         	- **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-         	- **Configuración de Reporte de Nómina**: Vacaciones
+            - **Configuración de Reporte de Nómina**: Vacaciones
 
         |Recibo de Pago Nómina Vacaciones|
 
-        Imagen 2. Recibo de Pago Nómina Vacaciones
+        Imagen 3. Recibo de Pago Nómina Vacaciones
 
-
-      - “**Detalle de Pago**”
+        - “**Detalle de Pago**”
 
             - **Nómina**: Nómina de Vacaciones
 
@@ -100,10 +97,9 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
 
         |Detalle de Pago Nómina Vacaciones|
 
-        Imagen 3. Detalle de Pago Nómina de Vacaciones
+        Imagen 4. Detalle de Pago Nómina de Vacaciones
 
-
-      - “**Resumen de Pago**”
+        - “**Resumen de Pago**”
 
             - **Nómina**: Nómina de Vacaciones
 
@@ -116,9 +112,9 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
 
         |Resumen de Pago Nómina Vacaciones|
 
-        Imagen 4. Resumen de Pago Nómina de Nómina de Vacaciones
+        Imagen 5. Resumen de Pago Nómina de Nómina de Vacaciones
 
-      - “**Retenciones**”
+        - “**Retenciones**”
 
             - **Nómina**: Nómina de Vacaciones
 
@@ -128,9 +124,9 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
 
         |Retenciones Nómina Vacaciones|
 
-        Imagen 5. Retenciones de Nómina de Vacaciones
+        Imagen 6. Retenciones de Nómina de Vacaciones
 
-      - “**Aportes**”
+        - “**Aportes**”
 
             - **Nómina**: Nómina de Vacaciones
 
@@ -140,7 +136,7 @@ Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de
 
         |Aportes Nómina Vacaciones|
 
-        Imagen 6. Aportes Nómina de Vacaciones
+        Imagen 7. Aportes Nómina de Vacaciones
 
         .. note::
 

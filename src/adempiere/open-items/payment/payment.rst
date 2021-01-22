@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Factura a Pagar| image:: resources/factura-pagar.png
 .. |Menú de ADempiere| image:: resources/menu-pago.png
 .. |Icono Registro Nuevo| image:: resources/icono-nuevo.png
@@ -19,10 +20,9 @@
 .. |Pestaña Asignaciones| image:: resources/asignacion2.png
 
 .. _documento/pago:
-.. _ERPyA: http://erpya.com
 
-**Procedimiento para Realizar un Pago en ADempiere**
-====================================================
+**Registro de Pago**
+====================
 
 Para ejemplificar el procedimiento de generar un pago en ADempiere, es utilizada la factura por pagar "**1000099**".
 
@@ -48,7 +48,7 @@ Para ejemplificar el procedimiento de generar un pago en ADempiere, es utilizada
 
     Imagen 4. Campo Organización
 
-#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. 
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. 
 
     |Campo Tipo de Documento|
 

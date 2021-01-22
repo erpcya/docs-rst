@@ -1,12 +1,12 @@
 .. _documento/cancelación-bono-intermediario:
 
-**Procedimiento para Cancelación de Bono de Alimentación con Pagos a Terceros**
+**Cancelación de Pasivo con Intermediarios**
 ===============================================================================
 
 **Creación de Nómina**
 ----------------------
 
-#. Se crea la nómina de forma regular, el proceso generará el siguiente asiento contable.
+#. Se crea la nómina de forma regular siguiendo los pasos detallados en :ref:`documento/procedimiento-para-procesar-nómina`, el proceso generará el siguiente asiento contable.
 
    +----------------------------------------------------+----------------------------+-----------------------------+
    | **Cuenta**                                         | **Débito Contabilizado**   | **Crédito Contabilizado**   |
@@ -21,9 +21,9 @@
 **Creación de Pago**
 --------------------
 
-#. Se crea el pago desde el proceso de caja transitoria
+#. Se crea el pago desde el proceso de caja transitoria siguiendo los pasos detallados en :ref:`documento/pago-de-nómina`, o realizando las siguientes excepciones:
 
-    #. Crear selección de pago a Caja Transito Bono de Alimentación.
+    #. Crear selección de pago con "**Caja Transito Bono de Alimentación**".
 
     #. Generar el TXT desde el proceso “**Imprimir/Exportar**”, esto generará los pagos de cada empleado cancelando el pasivo de “**Bono de Alimentación por Pagar**” y abonando a la cuenta “**Cuentas por Pagar a Tercero**” generando el siguiente asiento contable.
 
@@ -40,15 +40,19 @@
 **Creación de la Factura**
 --------------------------
 
-#. Se crea la factura de cuenta por pagar al intermediario, registrando las líneas de la siguiente forma:
+#. Se crea la factura de cuenta por pagar al intermediario de forma regular siguiendo los pasos detallados en :ref:`documento/documento-por-pagar`, registrando las líneas de la siguiente forma:
 
-    #. **Comisiones:** Comisiones de Venta.
+    #. Seleccione el cargo asociado al gasto optando entre las siguientes opciones:
 
-    #. **Emisión:** Emisión de Tarjetas.
+        #. **Comisiones:** Se refiere al gasto generado por concepto de comisiones de venta.
 
-    #. **Cargos Adicionales:** Otros Cargos por gastos adicionales.
+        #. **Emisión:** Se refiere al gasto generado por concepto de emisión de tarjetas.
 
-    #. **Pago de Intermediarios:** Esta línea carga a la cuenta “**Cuentas por Pagar a Tercero**” y abona a “**Cuentas por Pagar Proveedores**”, generando el siguiente asiento contable.
+        #. **Cargos Adicionales:** Se refiere al gasto generado por concepto de otros cargos por gastos adicionales.
+
+        #. **Pago de Intermediarios:** Se refiere al gasto generado por concepto de pagos a terceros que fungen como intermediaros entre el pago al empleado y el empleador.
+
+        Esta línea carga a la cuenta “**Cuentas por Pagar a Tercero**” y abona a “**Cuentas por Pagar Proveedores**”, generando el siguiente asiento contable.
 
    +------------------------------------------------------------+----------------------------+-----------------------------+
    | **Cuenta**                                                 | **Débito Contabilizado**   | **Crédito Contabilizado**   |

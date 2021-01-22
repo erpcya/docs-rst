@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/menu1.png 
 .. |Icono Registro Nuevo| image:: resources/ventana1.png 
 .. |Campo Organización| image:: resources/org1.png 
@@ -45,7 +46,6 @@
 .. |Consultar Detalle de Transacciones| image:: resources/trans.png 
 
 .. _documento/devolución-cliente:
-.. _ERPyA: http://erpya.com
 
 **Autorización de Devolución (Cliente)**
 ========================================
@@ -68,7 +68,7 @@
         
         Imagen 3. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_.
 
         |Campo Tipo de Documento Destino| 
         

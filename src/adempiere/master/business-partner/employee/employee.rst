@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/menu.png
 .. |Ventana Principal Empleados (Todos)| image:: resources/ventana.png
 .. |Campo Compañía| image:: resources/comp.png
@@ -159,20 +160,16 @@
 .. |Campo Número de Permisos Asignados| image:: resources/numpermiso.png
 .. |Icono Guardar Cambios6| image:: resources/guardarpermiso.png
 
-
 .. _documento/socio-empleado:
 
-**Proceso de Registro del Socio del Negocio Empleado**
-------------------------------------------------------
+**Registro de Empleado**
+========================
 
 #. En el menú de ADempiere, ubique y seleccione la carpeta "**Gestión de Recursos Humanos y Nómina**", luego seleccione la carpeta "**Recursos Humanos**", por último seleccione la carpeta "**Configuración de Empleado**" y la ventana "**Empleado (Todos)**".
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
-
-**Ventana Principal Empleado**
-------------------------------
 
 En la ventana "**Empleado (Todos)**", se registran todos los datos personales y laborales que la empresa requiere del socio del negocio empleado, los mismos son utilizados y actualizados a lo largo de su período laboral en dicha empresa. La información del empleado desde el momento en el que inicia su período laboral, hasta el momento actual o el momento en el que termina, se encuentra distribuida en la ventana principal "**Empleado**" y sus (11) once pestañas, explicadas a continuación.
 
@@ -476,7 +473,7 @@ La información ingresada en esta pestaña puede variar al momento de la elabora
 
             .. warning::
 
-            La fecha final del contrato depende del lapso de duración de contratos que las empresas tengan establecido como políticas de contratación.
+                La fecha final del contrato depende del lapso de duración de contratos que las empresas tengan establecido como políticas de contratación.
 
     #. Seleccione el checklist "**Gerente**", para indicar que el socio del negocio que esta registrando es un gerente.
 
@@ -747,6 +744,7 @@ En la pestaña "**Días Libres de la Semana**" se deben seleccionar los checklis
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).
 
+.. _documento/pestaña-detalle-de-pago:
 
 **Pestaña Detalle de Pago**
 ***************************

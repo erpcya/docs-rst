@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Nómina Quincenal| image:: resources/quincenal1.png
 .. |Recibo de Pago Nómina Quincenal| image:: resources/reciboquincenal.png
 .. |Detalle de Pago Nómina Quincenal| image:: resources/detallequincenal.png
@@ -6,16 +7,13 @@
 .. |Aportes Nómina Quincenal| image:: resources/aportesquincenal.png
 .. |Provisiones Nómina Quincenal| image:: resources/provisionesquincenal.png
 
-
 .. _documento/nomina-quincenal:
-.. _ERPyA: http://erpya.com
 
+====================
+**Nómina Quincenal**
+====================
 
-=====================
- **Nómina Quincenal**
-=====================
-
-Para procesar una “**Nómina Quincenal**” debemos realizar el proceso de nómina estándar mencionado en el documento  :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo quincenal, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
+    Para procesar una “**Nómina Quincenal**” debemos realizar el proceso de nómina estándar mencionado en el documento  :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo quincenal, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 #. Estatus del documento:
 
@@ -33,12 +31,16 @@ Para procesar una “**Nómina Quincenal**” debemos realizar el proceso de nó
 
         #. Seleccione el período quincenal correspondiente a la nómina que se está ejecutando en el campo "**Período Nómina**"
 
-              El período de nómina define el período laborado que le está siendo cancelado al empleado, disponiendo de los períodos creados en la definición de nómina quincenal.
+            El período de nómina define el período laborado que le está siendo cancelado al empleado, disponiendo de los períodos creados en la definición de nómina quincenal.
 
         #. Seleccione la fecha “**Hasta**” o el último día del período que seleccionó anteriormente en el campo "**Fecha Contable**"
 
-              A través de la "**Fecha Contable**" se determina contablemente la fecha de pago de la nómina quincenal en ejecución, por tal motivo se recomienda colocar la fecha “Hasta” o el último día del período que seleccionó anteriormente.
+            A través de la "**Fecha Contable**" se determina contablemente la fecha de pago de la nómina quincenal en ejecución, por tal motivo se recomienda colocar la fecha “Hasta” o el último día del período que seleccionó anteriormente.
 
+
+        |Nómina Quincenal|
+
+        Imagen 1. Nómina Quincenal
 
 #. Incidencias:
 
@@ -77,88 +79,88 @@ Para procesar una “**Nómina Quincenal**” debemos realizar el proceso de nó
       | Otras Deducciones                                     |      ("IN_FI")       |     Monto      |
       +-------------------------------------------------------+----------------------+----------------+
 
-      Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
+      Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
 
 #. Resultados:
 
-    _"**Reportes**
+    - "**Reportes**
 
-    Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina:` con los datos adicionales que se indican a continuación para cada reporte
+    Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina` con los datos adicionales que se indican a continuación para cada reporte
 
 
-        _"**Recibo de Pago**
+        - "**Recibo de Pago**
 
-        - **Nómina**: Nómina Quincenal
+            - **Nómina**: Nómina Quincenal
 
-        - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-        - **Configuración de Reporte de Nómina**: Nómina Regular
+            - **Configuración de Reporte de Nómina**: Nómina Regular
 
         |Recibo de Pago Nómina Quincenal|
 
         Imagen 2. Recibo de Pago Nómina Quincenal
 
 
-        _"**Detalle de Pago**"
+        - "**Detalle de Pago**"
 
-        - **Nómina**: Nómina Quincenal
+            - **Nómina**: Nómina Quincenal
 
-        - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-        - **Configuración de Reporte de Nómina**: Nómina Regular
+            - **Configuración de Reporte de Nómina**: Nómina Regular
 
-        - **Plantilla de Reporte de Nómina**: Detalle de Pago
+            - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
         |Detalle de Pago Nómina Quincenal|
 
         Imagen 3. Detalle de Pago Nómina Quincenal
 
 
-        _"**Resumen de Pago**"
+        - "**Resumen de Pago**"
 
-        - **Nómina**: Nómina Quincenal
+            - **Nómina**: Nómina Quincenal
 
-        - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-        - **Configuración de Reporte de Nómina**: Nómina Regular
+            - **Configuración de Reporte de Nómina**: Nómina Regular
 
-        - **Plantilla de Reporte de Nómina**: Resumen de Pago
+            - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
         |Resumen de Pago Nómina Quincenal|
 
         Imagen 4. Resumen de Pago Nómina Quincenal
 
-        _"**Retenciones**"
+        - "**Retenciones**"
 
-        - **Nómina**: Nómina Quincenal
+            - **Nómina**: Nómina Quincenal
 
-        - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-        - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
+            - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
         |Retenciones Nómina Quincenal|
 
         Imagen 5. Retenciones de Nómina Quincenal
 
-        _"**Aportes**
+        - "**Aportes**
 
-        -**Nómina**: Nómina Quincenal
+            -**Nómina**: Nómina Quincenal
 
-        -**Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            -**Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-        -**Configuración de Reporte de Nómina**: Aportes Parafiscales
+            -**Configuración de Reporte de Nómina**: Aportes Parafiscales
 
         |Aportes Nómina Quincenal|
 
         Imagen 6. Aportes de Nómina Quincenal
 
-        _ "**Provisiones**"
+        - "**Provisiones**"
 
-        - **Nómina**: Nómina Quincenal
+            - **Nómina**: Nómina Quincenal
 
-        - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-        - **Configuración de Reporte de Nómina**: Provisiones
+            - **Configuración de Reporte de Nómina**: Provisiones
 
         |Provisiones Nómina Quincenal|
 

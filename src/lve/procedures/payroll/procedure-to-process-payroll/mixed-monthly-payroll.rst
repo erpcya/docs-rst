@@ -1,4 +1,5 @@
-.. |Nómina Mensual Mixta| image:: resources/mensualmixta.png
+.. _ERPyA: http://erpya.com
+.. |Nomina Mensual Mixta| image:: resources/mensualmixta.png
 .. |Recibo de Pago Nómina Mensual Mixta| image:: resources/recibosmensualmixta.png
 .. |Detalle de Pago Nómina Mensual Mixta| image:: resources/detallemensualmixta.png
 .. |Resumen de Pago Nómina Mensual Mixta| image:: resources/resumenmensualmixta.png
@@ -6,50 +7,44 @@
 .. |Aportes Nómina Mensual Mixta| image:: resources/aportesmensualmixta.png
 .. |Provisiones Nómina Mensual Mixta| image:: resources/provisionesmensualmixta.png
 
-
 .. _documento/nomina-mensual-mixta:
-.. _ERPyA: http://erpya.com
-
 
 ============================
- **NÓMINA MENSUAL MIXTA**
+ **Nómina Mensual Mixta**
 ============================
 
-Para procesar una “**Nómina Mensual Mixta**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo mensual mixta, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
+    Para procesar una “**Nómina Mensual Mixta**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo mensual mixta, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 #. Estatus del documento:
 
-        #. Seleccione **Nómina Mensual** en el campo "**Tipo de Documento**".
+    #. Seleccione **Nómina Mensual** en el campo "**Tipo de Documento**".
 
-            El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
+        El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
 
-        #. Seleccione **Nómina Mensua Mixtal** en el campo "**Nómina**"
+    #. Seleccione **Nómina Mensua Mixtal** en el campo "**Nómina**"
 
-            La nómina mensual mixta define el comportamiento de la nómina, para este caso tiene las siguientes características:
+        La nómina mensual mixta define el comportamiento de la nómina, para este caso tiene las siguientes características:
 
-                #. Regla de Pago: Débito Directo
-                #. Contrato de Nómina: Contrato Mensual
-                #. Cargo: Sueldos y Salarios por Pagar
+            #. Regla de Pago: Débito Directo
+            #. Contrato de Nómina: Contrato Mensual
+            #. Cargo: Sueldos y Salarios por Pagar
 
-        #. Seleccione el período mensual correspondiente a la nómina que se está ejecutando en el campo "**Período Nómina**"
+    #. Seleccione el período mensual correspondiente a la nómina que se está ejecutando en el campo "**Período Nómina**"
 
-              El período de nómina define el período laborado que le está siendo cancelado al empleado, disponiendo de los períodos creados en la definición de nómina mensual.
+        El período de nómina define el período laborado que le está siendo cancelado al empleado, disponiendo de los períodos creados en la definición de nómina mensual.
 
-        #. Seleccione la fecha “Hasta” o el último día del período que seleccionó anteriormente en el campo "**Fecha Contable**"
+    #. Seleccione la fecha “Hasta” o el último día del período que seleccionó anteriormente en el campo "**Fecha Contable**"
 
-              A través de la fecha contable se determina contablemente la fecha de pago de la nómina mensual en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
+        A través de la fecha contable se determina contablemente la fecha de pago de la nómina mensual en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
 
-      |Nómina Mensual Mixta|
+      |Nomina Mensual Mixta|
 
       Imagen 1. Nómina Mensual Mixta
 
-
-
-
 #. Incidencias:
 
-      Para esta nómina no son obligatorias las incidencias, pero en ADempiere se cuentan con las siguientes incidencias disponibles para la nómina mensual mixta:
+    Para esta nómina no son obligatorias las incidencias, pero en ADempiere se cuentan con las siguientes incidencias disponibles para la nómina mensual mixta:
 
 
       +-------------------------------------------------------+----------------------+----------------+
@@ -83,96 +78,94 @@ Para procesar una “**Nómina Mensual Mixta**” debemos realizar el proceso de
       +-------------------------------------------------------+----------------------+----------------+
 
 
-      Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina:`
+    Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
 
 #. Resultados:
 
-+ "**Reportes**"
+    - "**Reportes**"
 
-    Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina:` con los datos adicionales que se indican a continuación para cada Reporte
+        Para visualizar los reportes de nóminas  puede seguir los pasos que se encuentran en el documento :ref:`documento/reporte-de-nómina` con los datos adicionales que se indican a continuación para cada Reporte
 
+        - “**Recibo de Pago**”
 
+            - **Nómina**: Nómina Mensual Mixta
 
-    - “**Recibo de Pago**”
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-         	- **Nómina**: Nómina Mensual Mixta
-
-         	- **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
-
-         	- **Configuración de Reporte de Nómina**: Nómina Regular
+            - **Configuración de Reporte de Nómina**: Nómina Regular
 
         |Recibo de Pago Nómina Mensual Mixta|
 
         Imagen 2. Recibo de Pago Nómina Mensual Mixta
 
 
-    - “**Detalle de Pago**”
+        - “**Detalle de Pago**”
 
-          - **Nómina**: Nómina Mensual Mixta
+            - **Nómina**: Nómina Mensual Mixta
 
-          - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-          - **Configuración de Reporte de Nómina**: Nómina Regular
+            - **Configuración de Reporte de Nómina**: Nómina Regular
 
-          - **Plantilla de Reporte de Nómina**: Detalle de Pago
+            - **Plantilla de Reporte de Nómina**: Detalle de Pago
 
         |Detalle de Pago Nómina Mensual Mixta|
 
         Imagen 3. Detalle de Pago Nómina Mensual Mixta
 
 
-   - “**Resumen de Pago**”
+        - “**Resumen de Pago**”
 
-  	    - **Nómina**: Nómina Mensual Mixta
+  	         - **Nómina**: Nómina Mensual Mixta
 
-   	    - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+   	        - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-       	- **Configuración de Reporte de Nómina**: Nómina Regular
+       	    - **Configuración de Reporte de Nómina**: Nómina Regular
 
-       	- **Plantilla de Reporte de Nómina**: Resumen de Pago
+       	    - **Plantilla de Reporte de Nómina**: Resumen de Pago
 
 
         |Resumen de Pago Nómina Mensual Mixta|
 
         Imagen 4. Resumen de Pago Nómina Mensual Mixta
 
-   - “**Retenciones**”
+        - “**Retenciones**”
 
-       - **Nómina**: Nómina Mensual
+            - **Nómina**: Nómina Mensual
 
-       - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-       - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
+            - **Configuración de Reporte de Nómina**: Retenciones Parafiscales
 
-      |Retenciones Nómina Mensual Mixta|
+        |Retenciones Nómina Mensual Mixta|
 
-      Imagen 5. Retenciones Nómina Mensual Mixta
+        Imagen 5. Retenciones Nómina Mensual Mixta
 
-   - "**Aportes**"
+        - "**Aportes**"
 
-    	 - **Nómina**: Nómina Mensual Mixta
+            - **Nómina**: Nómina Mensual Mixta
 
-       - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-       - **Configuración de Reporte de Nómina**: Aportes Parafiscales
+            - **Configuración de Reporte de Nómina**: Aportes Parafiscales
 
 
-       |Aportes Nómina Mensual Mixta|
+        |Aportes Nómina Mensual Mixta|
 
-       Imagen 6. Aportes Nómina Mensual Mixta
+        Imagen 6. Aportes Nómina Mensual Mixta
 
-   - "**Provisiones**"
+        - "**Provisiones**"
 
-      - **Nómina**: Nómina Mensual Mixta
+            - **Nómina**: Nómina Mensual Mixta
 
-      - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
+            - **Proceso de Nómina**: Ubique el número de documento del proceso de nómina que está ejecutando.
 
-      - **Configuración de Reporte de Nómina**: Provisiones
+            - **Configuración de Reporte de Nómina**: Provisiones
 
-      |Provisiones Nómina Mensual Mixta|
+        |Provisiones Nómina Mensual Mixta|
 
-      Imagen 7. Provisiones de Nómina Mensual Mixta
+        Imagen 7. Provisiones de Nómina Mensual Mixta
 
-      .. note::
+        .. note::
 
-          Cabe destacar que los reportes de Aportes, Retenciones, Provisiones se deben pasar al Departamento de Contabilidad
+            Cabe destacar que los reportes de Aportes, Retenciones, Provisiones se deben pasar al Departamento de Contabilidad

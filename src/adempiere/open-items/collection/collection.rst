@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Factura a Cobrar| image:: resources/vent-documento-por-cobrar.png
 .. |Menú de ADempiere| image:: resources/menu-cobro.png
 .. |Icono Registro Nuevo| image:: resources/icono-registro-nuevo.png
@@ -8,7 +9,7 @@
 .. |Campo Socio del Negocio Cliente| image:: resources/campo-socio-cliente.png
 .. |Identificador del Campo Factura| image:: resources/campo-factura.png
 .. |Selección de Factura y Opción OK| image:: resources/seleccion-factura-opcion-ok.png
-.. |Campo Total del Cobro| image:: resources/campo-total-pago.png
+.. |Campo Total del Pago| image:: resources/campo-total-pago.png
 .. |Campo Moneda| image:: resources/campo-moneda.png
 .. |Campo Tipo de Pago| image:: resources/campo-tipo-pago.png
 .. |Opción Completar| image:: resources/opcion-completar.png
@@ -18,10 +19,9 @@
 .. |Pestaña Asignaciones| image:: resources/pest-asignaciones.png
 
 .. _documento/cobro:
-.. _ERPyA: http://erpya.com
 
-**Procedimiento para Realizar un Cobro en ADempiere**
-====================================================
+**Registro de Cobro**
+=====================
 
 Para ejemplificar el procedimiento de generar un cobro en ADempiere, es utilizada la factura por cobrar "**88**".
 
@@ -47,7 +47,7 @@ Para ejemplificar el procedimiento de generar un cobro en ADempiere, es utilizad
 
     Imagen 4. Campo Organización
 
-#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. 
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. 
 
     |Campo Tipo de Documento|
 

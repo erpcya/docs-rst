@@ -1,5 +1,5 @@
-.. _src/adempiere/master:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/master:
 
 ==================
 **Datos Maestros**
@@ -20,11 +20,7 @@ Con este ejemplo visualizamos la gravedad que implica la falta de integración y
 .. note:: Sugerimos crear los registros maestros con organización **"*"** para asegurar la disponibilidad en multiples organizaciones.
 
 
-
-**Tabla de Contenido**
-
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
-    business-partner/index
-    product/index
+    reports/index

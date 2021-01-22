@@ -1,9 +1,9 @@
-.. _src/adempiere/returns/returns-to-provider:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/returns/returns-to-provider:
 
-=======================================
-**Devolución a Proveedor en ADempiere**
-=======================================
+==========================
+**Devolución a Proveedor**
+==========================
 
 En ADempiere es posible generar una devolución de los productos o materiales comprados a un proveedor determinado, el presente material elaborado por `ERPyA`_ pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para realizar una "**Devolución a Proveedor**" de la forma correcta.
 
@@ -12,6 +12,6 @@ El proceso para realizar una devolución a proveedor parte de una autorización 
 A continuación se especifican los pasos a seguir para generar en ADempiere una devolución de productos o materiales comprados al proveedor por una determinada empresa.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
     return-to-provider

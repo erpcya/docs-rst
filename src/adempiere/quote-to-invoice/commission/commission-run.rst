@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/menu2.png
 .. |Icono Registro Nuevo| image:: resources/nuevo2.png
 .. |Campo Organización| image:: resources/org2.png
@@ -9,9 +10,7 @@
 .. |Campo Fecha Final| image:: resources/fechafin1.png
 .. |Pestaña Total Comisión| image:: resources/pest3.png
 .. |Pestaña Detalle Comisión| image:: resources/pest4.png
-
 .. _documento/calculo-comisiones:
-.. _ERPyA: http://erpya.com
 
 **Cálculo de Comisiones de Ventas**
 ===================================
@@ -43,7 +42,7 @@ Continuando con el ejemplo planteado en el documento :ref:`documento/definicion-
 
             Imagen 3. Campo Organización
 
-        #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
+        #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_.
 
             |Campo Tipo de Documento| 
 

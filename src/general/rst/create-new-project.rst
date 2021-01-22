@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Usuario en GitHub| image:: resources/img1.png 
 .. |Perfil de ERPyA| image:: resources/img2.png 
 .. |Fork| image:: resources/img3.png 
@@ -11,7 +12,6 @@
 .. |Proyectos Creados| image:: resources/img11.png 
 
 .. _documento/nuevo-proyecto:
-.. _ERPyA: http://erpya.com
 
 ======================================
 **Crear un Proyecto en Read the Docs**

@@ -1,5 +1,6 @@
-.. _src/adempiere/open-items/cash-closing:
 .. _ERPyA: http://erpya.com
+
+.. _src/adempiere/open-items/cash-closing:
 
 ==================
 **Cierre de Caja**
@@ -17,3 +18,4 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
     :maxdepth: 2
 
     cash-closing
+    cash-register-payroll

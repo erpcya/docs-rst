@@ -16,12 +16,14 @@ Actualmente se tiene soporte para las marcas:
 
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
 
+    add-java-to-path
     commons-errors-fiscal-printer
     manual-reports
     setup-vmax-220
-    install-pnp-fiscal-printer
+    install-pnp-fiscalprinter
     daily-setup-pnp-fiscalPrinter
     update-client-pnp-fiscalPrinter
+    install-tfhka-fiscalprinter
     

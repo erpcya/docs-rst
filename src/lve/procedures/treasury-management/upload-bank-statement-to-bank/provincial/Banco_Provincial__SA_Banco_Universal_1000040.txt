@@ -1,0 +1,4 @@
+V000000000001 01340000000000000000 0000043134462 00000000 Empleado Estndar                    empleado-estándar@ejemplo.com      
+V000000000002 01020000000000000000 0000043134462 00000001 Empleado Estndar Dos                empleado-estándar-dos@ejemplo.com  
+V000000000003 01080000000000000000 0000043134462 00000002 Empleado Estndar Tres               empleado-estándar-tres@ejemplo.com 
+V000000000004 01910000000000000000 0000043134462 00000003 Empleado Estndar Cuatro             empleado-estándar-cuatro@ejemplo.co

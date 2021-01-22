@@ -32,6 +32,7 @@
 .. |Campo Tipo de Persona| image:: resources/tipoper.png
 .. |Campo Volumen de Ventas| image:: resources/ventas.png
 .. |Campo Primera Venta| image:: resources/fecha.png
+.. |check entrega directa| image:: resources/check-direct-delivery.png
 .. |Campo Logo| image:: resources/logocliente.png
 .. |Icono Guardar Cambios| image:: resources/guardar.png
 
@@ -39,9 +40,9 @@
 
 .. _documento/socio-negocio:
 
-=====================================================
-**Proceso General de Registro del Socio del Negocio**
-=====================================================
+=================================
+**Registro de Socio del Negocio**
+=================================
 
 #. En el menú de ADempiere, ubique y seleccione la carpeta "**Relación con Socio del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**" y finalmente seleccione la ventana "**Socio del Negocio**".
 
@@ -61,7 +62,7 @@
 
     #. Seleccione la organización en el campo "**Organización**".
 
-        La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el Socio de negocio, si la organización es (*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
+        La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el socio de negocio, si la organización es (*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
 
         |Campo Organización|
 
@@ -71,11 +72,11 @@
 
             Generalmente los **Socios de Negocios** son registros compartidos entre entidades organizacionales, por esta razón `ERPyA`_ recomienda la creación con organización (*) para evitar duplicidad e inconvenientes contables, de esta forma garantizamos la homogeneidad de los datos maestros.
 
-    #. Introduzca el código de Socio del Negocio en el campo "**Código**".
+    #. Introduzca el código de socio del negocio en el campo "**Código**".
 
         El código es un dato único e irrepetible que protege la entrada de los registros, evitando la duplicidad de los mismos, generalmente se refiere al número de identificación que acredite la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF.
 
-        .. note:
+        .. note::
 
             Si no es ingresado un dato en este campo ADempiere genera un dato de tipo numérico autoincrementable.
 
@@ -97,7 +98,7 @@
 
             Generalmente esta opción es utilizada para franquicias, cadenas o corporaciones.
 
-    #. Introduzca el nombre del socio del negocio  en el campo "**Nombre**".
+    #. Introduzca el nombre del socio del negocio en el campo "**Nombre**".
 
         El nombre se refiere a la razón social, siendo esta el nombre ó la denominación con la que está registrado en los documentos legales, el nombre es utilizado a nivel administrativo, formal y jurídico.
 
@@ -155,7 +156,7 @@
 
         Imagen 10. Campo Saldo Actual
 
-    #. Podrá visualizar el número de identificación autogenerado a partir del campo **código** en el campo “**Número de Identificación**”.
+    #. Podrá visualizar el número de identificación autogenerado a partir del campo **Código** en el campo “**Número de Identificación**”.
 
         El número de identificación se refiere al número que acredita la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF, este campo mantiene incidencia en la generación de documentos fiscales como facturas, retenciones y comprobantes ARC.
 
@@ -169,7 +170,7 @@
 
     #. Seleccione el checklist "**Exento de Impuesto en Compra**", para definir al socio del negocio como exento de impuesto.
 
-        Exento de Impuesto de Compra,  no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de compras, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de compra con el producto en cuestión con impuesto (0%).
+        Exento de Impuesto de Compra, no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de compras, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de compra con el producto en cuestión con impuesto (0%).
 
         |Campo Exento de Impuesto en Compra|
 
@@ -310,7 +311,7 @@
         Para ejecutar este proceso debe tomar en cuenta los siguientes parámetros:
 
         #. **Organización Existente:** Seleccione una organización existente, si el campo queda vacío, se creará una organización con el nombre del socio de negocio de forma automática.
-        
+
         #. **Tipo de Organización:** Seleccione tipo de organización previa definición.
 
         #. **Límite de Acceso al Rol:** Seleccione un rol existente si desea que sólo un rol específico tenga acceso a esta organización, si el campo queda vacío, el rol ClientAdmin y ClientUser tendrán acceso a esta organización.
@@ -337,7 +338,7 @@
 
         Imagen 27. Campo Valor Esperado
 
-    #.  Podrá visualizar el valor total de transacciones que posee el cliente en el campo "**Valor Total Transacciones**".
+    #. Podrá visualizar el valor total de transacciones que posee el cliente en el campo "**Valor Total Transacciones**".
 
         El valor total transacciones es un campo solo lectura, actualizado de forma automática, sumando cada ingreso generado por este cliente, el mismo permite evaluar la rentabilidad de un cliente potencial.
 
@@ -371,7 +372,7 @@
 
         Imagen 31. Campo Participación
 
-    #. Introduzca  el número de ventas total en el campo "**Volumen de Ventas**".
+    #. Introduzca el número de ventas total en el campo "**Volumen de Ventas**".
 
         El volumen de ventas no es un campo obligatorio, sin embargo, permite registrar el número de ventas efectivas de un cliente, estas cifras generalmente son auditadas en reuniones directivas para evaluar la rentabilidad y expansión del negocio o si por el contrario sus ventas disminuyen.
 
@@ -379,7 +380,7 @@
 
         |Campo Volumen de Ventas|
 
-        Imagen 33. Campo Volumen de Ventas
+        Imagen 32. Campo Volumen de Ventas
 
     #. Introduzca la fecha de la primera venta en el campo "**Primera Venta**".
 
@@ -387,7 +388,15 @@
 
         |Campo Primera Venta|
 
-        Imagen 34. Campo Primera Venta
+        Imagen 33. Campo Primera Venta
+
+    #. Seleccione el check "**Entrega Directa**".
+    
+        El check entrega directa no es un campo obligatorio, sin embargo, permite registrar el socio de forma informativa, útil para generar reportes e indicar que los envíos de las notas se envían del vendedor directamente al cliente.
+
+        |check entrega directa|
+
+        Imagen 34. Check Entrega Directa
 
     #. Seleccione el tipo de persona en el campo "**Tipo de Persona**.
 
@@ -403,7 +412,7 @@
 
         |Campo Tipo de Persona|
 
-        Imagen 32. Campo Tipo de Persona
+        Imagen 35. Campo Tipo de Persona
 
     #. Adjunte el logo de la empresa en el campo "**Logo**".
 
@@ -411,13 +420,13 @@
 
         |Campo Logo|
 
-        Imagen 35. Campo Logo
+        Imagen 36. Campo Logo
 
 #. Seleccione el icono "**Guardar Cambios**" ubicado en la barra de herramientas para guardar los datos ingresados.
 
         |Icono Guardar Cambios|
 
-        Imagen 36. Icono Guardar Cambios
+        Imagen 37. Icono Guardar Cambios
 
 .. warning::
 
@@ -425,7 +434,7 @@
 
 .. toctree::
     :maxdepth: 2
-    
-    provider/index
+
+    vendor/index
     customer/index
     employee/index

@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/documento-por-cobrar.png
 .. |Ventana Documento por Cobrar| image:: resources/vent-documento-por-cobrar.png
 .. |Icono Registro Nuevo| image:: resources/icono-registro-nuevo.png
@@ -19,12 +20,10 @@
 .. |Campo Neto de Línea| image:: resources/campo-neto-linea.png
 .. |Pestaña Factura| image:: resources/pest-factura.png
 .. |Acción Completar y Opción OK| image:: resources/completar-factura.png
-
 .. _documento/documento-por-cobrar:
-.. _ERPyA: http://erpya.com
 
-**Crear Documentos por Pagar**
-==============================
+**Registro de Documento por Cobrar**
+====================================
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Documentos por Cobrar**".
 
@@ -50,7 +49,7 @@
 
         Imagen 4. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_.
 
         |Campo Tipo de Documento Destino|
 

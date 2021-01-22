@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Menú de ADempiere| image:: resources/menu.png
 .. |Icono Registro Nuevo 1| image:: resources/icono-nuevo.png
 .. |Campo Organización 1| image:: resources/organizacion.png
@@ -16,7 +17,6 @@
 .. |Acción Completar| image:: resources/accion-completar.png
 
 .. _documento/préstamos-a-empleados:
-.. _ERPyA: http://erpya.com
 
 **Orden de Pago Obligaciones Laborales**
 ========================================
@@ -39,7 +39,7 @@
 
         Imagen 3. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_. Para ejemplificar el registro es utilizado el tipo de documento "**Orden de Pago Obligaciones Laborales**".
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizado el tipo de documento "**Orden de Pago Obligaciones Laborales**".
 
         |Campo Tipo de Documento 1|
 

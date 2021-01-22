@@ -11,6 +11,7 @@ ADempiere requiere diferentes formatos de importación para ejecutar sus nómina
 - Nómina de Utilidades
 - Nómina Anticipo de Vacaciones
 - Nómina Anticipo de Prestaciones Sociales
+- Nómina de Prestaciones Sociales
 
 **Nóminas Regulares**
 =====================
@@ -24,7 +25,10 @@ Representa la cantidad de días que lleva acumulados el empleado, desde el inici
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -32,35 +36,42 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se debe modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
-        
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |AC_DTA            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_DTA            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_DTA            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_DTA            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|           |                    |    AC_DTA         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_DTA         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_DTA         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_DTA         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
 
 **Acumulado Provisión Antigüedad de Prestaciones**
 --------------------------------------------------
@@ -69,7 +80,10 @@ Representa al monto total que lleva acumulado cada empleado  por concepto de pro
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -77,35 +91,41 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se debe modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+   
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |AC_PAP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PAP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PAP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PAP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |    AC_PAP         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PAP         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PAP         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PAP         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Acumulado Provisión Bono Vacacional**
 ---------------------------------------
@@ -114,7 +134,10 @@ Representa al monto total que lleva acumulado cada empleado por concepto de prov
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+   
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -122,35 +145,40 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |AC_PBV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PBV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PBV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PBV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|           |                    |    AC_PBV         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PBV         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PBV         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PBV         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Acumulado Provisión Disfrute de Vacaciones**
 ----------------------------------------------
@@ -159,7 +187,10 @@ Representa al monto total que lleva acumulado cada empleado por concepto de prov
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -167,35 +198,41 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |AC_PDV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PDV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PDV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PDV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |    AC_PDV         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PDV         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PDV         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PDV         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Acumulado Provisión Garantía de Prestaciones**
 ------------------------------------------------
@@ -204,7 +241,10 @@ Representa al monto total que lleva acumulado cada empleado por concepto de prov
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -212,35 +252,40 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |AC_PGP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PGP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PGP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PGP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |    AC_PGP         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PGP         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PGP         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PGP         |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Acumulado Provisión Intereses Prestaciones de Antigüedad**
 ------------------------------------------------------------
@@ -249,7 +294,10 @@ Representa al monto total que lleva acumulado cada empleado por concepto de prov
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+   
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -257,35 +305,40 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |AC_PIPA           |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PIPA           |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PIPA           |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PIPA           |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |    AC_PIPA        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PIPA        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PIPA        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PIPA        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Acumulado Provisión Intereses Prestaciones de Garantía**
 ----------------------------------------------------------
@@ -294,7 +347,10 @@ Representa al monto total que lleva acumulado cada empleado por concepto de prov
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -302,35 +358,41 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |AC_PIPG           |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PIPG           |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PIPG           |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PIPG           |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |    AC_PIPG        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PIPG        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PIPG        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |    AC_PIPG        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Acumulado Provisión Literal C**
 ---------------------------------
@@ -339,7 +401,10 @@ Representa al monto total que lleva acumulado cada empleado por concepto de prov
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -347,35 +412,41 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |AC_PLC            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PLC            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PLC            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PLC            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |     AC_PLC        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |     AC_PLC        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |     AC_PLC        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |     AC_PLC        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Acumulado Provisión Utilidades**
 ----------------------------------
@@ -384,7 +455,10 @@ Representa al monto total que lleva acumulado cada empleado por concepto de prov
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -392,35 +466,41 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |AC_PUT            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PUT            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PUT            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_PUT            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |     AC_PUT        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |     AC_PUT        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |     AC_PUT        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |     AC_PUT        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Acumulado Utilidades**
 ------------------------
@@ -429,7 +509,10 @@ Representa el monto acumulado para el cálculo de las utilidades de cada emplead
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -437,44 +520,54 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |AC_UT             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_UT             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_UT             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |AC_UT             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |      AC_UT        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      AC_UT        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      AC_UT        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      AC_UT        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
 
 **Días Totales de la Nómina**
 -----------------------------
 
-El concepto días totales de la nómina (días hábiles laborados), se utiliza para calcular el promedio del salario en las vacaciones. Cabe destacar que los datos de este formulario son necesarios los tres (3) meses anteriores para los procesos de "**Nómina Semanal Mixta (NSM)**", "**Nómina Quincenal Mixta (NQM)**" o "**Nómina Mensual Mixta (NMM)**".  Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación del sistema.
+El concepto días totales de la nómina (días hábiles laborados), se utiliza para calcular el promedio del salario en las vacaciones. Cabe destacar que los datos de este formulario son necesarios los tres (3) meses anteriores para los procesos de "**Nómina Semanal Mixta (NSM)**", "**Nómina Quincenal Mixta (NQM)**" o "**Nómina Mensual Mixta (NMM)**".  Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación de ADempiere.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -482,18 +575,24 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 
 * Si el empleado posee más de tres (3) meses trabajando en la empresa debe cargar el valor de los días hábiles laborados durante el periodo de nómina a partir de los tres (3) meses anteriores (nómina por nómina debe cargar cuántos días laboró), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.
 
@@ -504,17 +603,17 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |CR_DTN            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |CR_DTN            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |CR_DTN            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |CR_DTN            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |     CR_DTN        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |     CR_DTN        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |     CR_DTN        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |     CR_DTN        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Provisión Antigüedad de Prestaciones**
 ----------------------------------------
@@ -523,7 +622,10 @@ Representa la provisión calculada a cada empleado durante los 12 meses anterior
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+   
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -531,35 +633,41 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |PR_AP             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |PR_AP             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |PR_AP             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |PR_AP             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |      PR_AP        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      PR_AP        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      PR_AP        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      PR_AP        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Provisión Garantía de Prestaciones**
 --------------------------------------
@@ -568,7 +676,10 @@ Representa la provisión calculada a cada empleado durante los tres (3) meses an
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -576,35 +687,41 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |PR_GP             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |PR_GP             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |PR_GP             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |PR_GP             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |      PR_GP        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      PR_GP        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      PR_GP        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      PR_GP        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Provisión Intereses Antigüedad de Prestaciones**
 --------------------------------------------------
@@ -613,7 +730,10 @@ Representa la provisión calculada a cada empleado durante los doce (12) meses a
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -621,37 +741,41 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+   
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
-* Debe registrar el valor de la provisión durante los doce (12) meses anteriores del empleado (nómina por nómina).
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |PR_IAP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |PR_IAP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |PR_IAP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |PR_IAP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |      PR_IPA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      PR_IPA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      PR_IPA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      PR_IPA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Provisión Intereses Garantía de Prestaciones**
 ------------------------------------------------
@@ -660,7 +784,10 @@ Representa la provisión calculada a cada empleado durante los tres (3) meses an
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -668,46 +795,52 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
 
-* Debe registrar el valor de la provisión durante los tres (3) meses anteriores del empleado (nómina por nómina)
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |PR_IGP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |PR_IGP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |PR_IGP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |PR_IGP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |      PR_IPG       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      PR_IPG       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      PR_IPG       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      PR_IPG       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Salario Integral**
 --------------------
 
-Se utiliza para promediar el salario integral de los empleados. Cabe destacar que los datos de este formulario son necesarios solamente si existen procesos de "**Nóminas Semanales Mixta (NSM)**", "**Nóminas Quincenales Mixta (NQM)**" o "**Nóminas Mensuales Mixta (NMM)**". Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación del sistema.
+Se utiliza para promediar el salario integral de los empleados. Cabe destacar que los datos de este formulario son necesarios solamente si existen procesos de "**Nóminas Semanales Mixta (NSM)**", "**Nóminas Quincenales Mixta (NQM)**" o "**Nóminas Mensuales Mixta (NMM)**". Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación del ADempiere.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -715,18 +848,23 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 - **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 
 * Si el empleado posee más de seis (6) meses trabajando en la empresa debe cargar el valor del salario integral a partir de los seis (6) meses anteriores (nómina por nómina debe cargar cual fué su salario integral), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.
 
@@ -739,26 +877,29 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |CR_SIP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |CR_SIP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |CR_SIP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |CR_SIP            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |      CR_SIP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      CR_SIP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      CR_SIP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      CR_SIP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Salario Normal**
 ------------------
 
-Se utiliza para promediar el salario normal de los empleados. Cabe destacar que los datos de este formulario son necesarios para los procesos de "**Nómina Semanal Mixta (NSM)**", "**Nómina Quincenal Mixta (NQM)**" o "**Nómina Mensual Mixta (NMM)**". Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación del sistema.
+Se utiliza para promediar el salario normal de los empleados. Cabe destacar que los datos de este formulario son necesarios para los procesos de "**Nómina Semanal Mixta (NSM)**", "**Nómina Quincenal Mixta (NQM)**" o "**Nómina Mensual Mixta (NMM)**". Sí su proceso de nómina es "**Nómina Semanal (NS)**", "**Nómina Quincenal (NM)**" o "**Nómina Mensual (NM)**", debe suministrar los datos solamente del mes anterior al momento de la implementación de ADempiere.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -766,18 +907,23 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+   
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 
 * Si el empleado posee más de tres (3) meses trabajando en la empresa debe cargar el valor del salario normal a partir de los tres (3) meses anteriores (nómina por nómina debe cargar cual fué su salario normal), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.
 
@@ -790,17 +936,17 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |CR_SN             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |CR_SN             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |CR_SN             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |CR_SN             |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |      CR_SN        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      CR_SN        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      CR_SN        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      CR_SN        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Salario Normal Mensual**
 --------------------------
@@ -809,7 +955,10 @@ El concepto acumulado promedio salario variable se utiliza para promediar el sal
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
 - **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.
+    
     - **NS**: Nómina Semanal
     - **NQ**: Nómina Quincenal
     - **NM**: Nómina Mensual
@@ -817,18 +966,23 @@ Los datos correspondientes a los campos del formato de importación deben ser re
     - **NQM**: Nómina Quincenal Mixta
     - **NMM**: Nómina Mensual Mixta
 
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+   
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 
 * Por ser un Promedio se necesitan los siguientes valores
     * Si el empleado posee más de un (1) año trabajando en la empresa debe cargar el valor del salario normal mensual a partir de los doce (12) meses anteriores (mes por mes debe llenar una hoja de cálculo con estos datos), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.
@@ -839,22 +993,23 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
 El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|                  |          |CR_SNM            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |CR_SNM            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |CR_SNM            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|                  |          |CR_SNM            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |                   |      CR_SNM       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      CR_SNM       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      CR_SNM       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |                   |      CR_SNM       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Nómina de Vacaciones**
 ========================
 
-ERPyA requiere el siguiente formato de importación de "**Nómina Anticipo de Prestaciones Sociales**".
+ERPyA requiere el siguiente formato de importación de "**Nómina de Vacaciones**".
+
 
 **Fecha de Vacaciones Anteriores**
 ----------------------------------
@@ -863,37 +1018,178 @@ Representa a la última fecha de inicio de vacaciones de los empleados.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
-- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, para este caso utilizaremos la "**Nómina de Vacaciones (NV)**" para todos los empleados.
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de la nómina de vacaciones es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|NV                |          |IN_FIV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NV                |          |IN_FIV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NV                |          |IN_FIV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NV                |          |IN_FIV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+-------+----------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |       NV          |      CR_FVA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NV          |      CR_FVA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NV          |      CR_FVA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NV          |      CR_FVA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+**Fecha Real de Salida de Vacaciones**
+--------------------------------------
+
+Representa la fecha real que le correspondia salir a los trabajadores, basandose en la fecha que registro en la fecha de vacaciones anteriores registrada en el cuadro anteriores 
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+        
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de vacaciones es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |      NV           |      CR_FSV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NV           |      CR_FSV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NV           |      CR_FSV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NV           |      CR_FSV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+**Total de Asignaciones de la Nómina de Vacaciones Anterior**
+--------------------------------------------------------------
+
+Representa monto total devengado por el empleado por concepto de sus vacaciones anteriores. Ese dato debe ser suministrado para que ADempiere lo tome en cuenta al momento de calcular las utilidades del empleado, por ejemplo "si su periodo de utilidades está entre el primero de noviembre de 2019 hasta el 31 de octubre de 2020",  debe suministrar la información de las vacaciones que se procesaron durante ese período para que ese saldo pueda considerarse al momento de procesar su nómina de utilidades.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+        
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de utilidades es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |      NV           |       CR_TA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NV           |       CR_TA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NV           |       CR_TA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NV           |       CR_TA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+
+**Días Totales de Vacaciones de la Nómina de Vacaciones Anterior**
+-------------------------------------------------------------------
+
+
+Representa el total de días (Días de disfrutes de vacaciones, días de descanso y días feriados) otorgados por el empleado durante el periodo de vacaciones anteriores. Ese dato debe ser suministrado para que ADempiere lo tome en cuenta al momento de calcular las utilidades del empleado, por ejemplo "si su periodo de utilidades está entre el primero de noviembre de 2019 hasta el 31 de octubre de 2020",  debe suministrar la información de las vacaciones que se procesaron durante ese período para que ese saldo pueda considerarse al momento de procesar su nómina de utilidades.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+        
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de utilidades es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |      NV           |      CR_DVT       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NV           |      CR_DVT       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NV           |      CR_DVT       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NV           |      CR_DVT       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Nómina de Utilidades**
 ========================
@@ -907,37 +1203,44 @@ Representa a la última fecha de utilidades anteriores de los empleados.
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
-- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, para este caso utilizaremos la "**Nómina de Utilidades (NU)**" para todos los empleados.
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+   
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de la nómina de utilidades es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|NU                |          |CR_FUA            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NU                |          |CR_FUA            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NU                |          |CR_FUA            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NU                |          |CR_FUA            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |      NU           |      CR_FUA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NU           |      CR_FUA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NU           |      CR_FUA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NU           |      CR_FUA       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
 
 **Nómina Anticipo de Vacaciones**
 =================================
@@ -951,37 +1254,42 @@ Representa los días otorgados a los empleados por concepto de anticipo de sus v
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
-- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, para este caso utilizaremos la "**Nómina de Anticipo de Vacaciones (NAV)**" para todos los empleados.
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
     - **V**: Venezolano
     - **E**: Extranjero
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
         
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
 
 **Formato de Importación**
 **************************
 
 El formato para la importación de la nómina de anticipo de vacaciones es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|NAV               |          |CR_DAV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NAV               |          |CR_DAV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NAV               |          |CR_DAV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NAV               |          |CR_DAV            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |      NAV          |      CR_DAV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NAV          |      CR_DAV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NAV          |      CR_DAV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NAV          |      CR_DAV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
 
 **Nómina Anticipo de Prestaciones Sociales**
 ============================================
@@ -995,7 +1303,197 @@ Corresponde al monto otorgado a cada empleado por concepto de anticipo de sus pr
 
 Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
 
-- **NOMBRE DEL PROCESO**: Seleccione el nombre del proceso de nómina, para este caso utilizaremos la "**Nómina de Anticipo de Prestaciones Sociales (NAPS)**" para todos los empleados.
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+        
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de anticipo de prestaciones sociales es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |      NAPS         |      AS_AP        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NAPS         |      AS_AP        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NAPS         |      AS_AP        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |      NAPS         |      AS_AP        |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+
+**Nómina de Prestaciones Sociales**
+============================================
+
+ERPyA requiere el siguiente formato de importación para la "**Nómina de Prestaciones Sociales**".
+
+**Acumulado por Prestaciones de Garantía**
+------------------------------------------
+
+Corresponde al monto total que lleva acumulado el empleado por concepto de sus prestaciones de garantía.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+        
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de prestaciones sociales es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |       NPS         |      AC_AGP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      AC_AGP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      AC_AGP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      AC_AGP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+
+**Acumulado por Prestaciones de Antiguedad**
+--------------------------------------------
+
+Corresponde al monto total que lleva acumulado el empleado por concepto de sus prestaciones de antiguedad.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+    
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+        
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de prestaciones sociales es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |       NPS         |      AC_AAP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      AC_AAP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      AC_AAP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      AC_AAP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+
+**Porción Mensual Prestaciones de Garantía**
+---------------------------------------------
+
+Corresponde a la porción mensual de los 2 meses anteriores de las prestaciones de garantía.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+   
+    - **V**: Venezolano
+    - **E**: Extranjero
+
+    Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+        - **V10000000**
+        
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+* Se debe registrar un formato indicando la porción de garantía de prestaciones del mes anterior y otro formato indicando el penultimo mes a la implementación de ADempiere que le correspondio al empleado por concepto de sus garantía de prestaciones.
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de prestaciones sociales es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |       NPS         |      CR_PMPG      |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PMPG      |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PMPG      |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PMPG      |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+**Porción Mensual Intereses Prestaciones de Garantía**
+------------------------------------------------------
+
+Corresponde a la porción mensual de los 2 meses anteriores de los intereses de prestaciones de garantía.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
 
 - **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
     - **V**: Venezolano
@@ -1003,26 +1501,163 @@ Los datos correspondientes a los campos del formato de importación deben ser re
 
     Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
         - **V10000000**
-
-- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en el sistema, dicho concepto **No se Debe Modificar**.
+        
 - **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
-- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios), solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
 - **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
-- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+* Se debe registrar un formato indicando la porción de intereses de garantía de prestaciones del mes anterior y otro formato indicando el penultimo mes a la implementación de ADempiere que le correspondio al empleado por concepto de sus garantía de prestaciones.
 
 **Formato de Importación**
 **************************
 
-El formato para la importación de la nómina de anticipo de prestaciones sociales es el siguiente:
+El formato para la importación de la nómina de prestaciones sociales es el siguiente:
 
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NOMBRE DEL PROCESO|No. CÉDULA|CONCEPTO DE NÓMINA|VÁLIDO DESDE|CANTIDAD|MONTO|FECHA DE SERVICIO|MENSAJE DE TEXTO|DESCRIPCIÓN|
-+==================+==========+==================+============+========+=====+=================+================+===========+
-|NAPS              |          |AS_APS            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NAPS              |          |AS_APS            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NAPS              |          |AS_APS            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+
-|NAPS              |          |AS_APS            |            |        |     |                 |                |           |
-+------------------+----------+------------------+------------+--------+-----+-----------------+----------------+-----------+  
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |       NPS         |      CR_PMIPG     |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PMIPG     |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PMIPG     |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PMIPG     |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+**Promedio Salario Vacaciones**
+-------------------------------
+
+Corresponde al salario que se utilizará para calcular las vacaciones al empleado si fuese el caso.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+   - **V**: Venezolano
+   - **E**: Extranjero
+
+   Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+       - **V10000000**
+      
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de prestaciones sociales es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |       NPS         |      CR_PSV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSV       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+
+**Promedio Salario Prestaciones**
+---------------------------------
+
+Corresponde al salario que se utilizará para calcular las prestaciones sociales al empleado si fuese el caso.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+   - **V**: Venezolano
+   - **E**: Extranjero
+
+   Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+       - **V10000000**
+      
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de prestaciones sociales es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |       NPS         |      CR_PSP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSP       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+
+**Promedio Salario Utilidades**
+-------------------------------
+
+Corresponde al salario que se utilizará para calcular las utilidades al empleado si fuese el caso.
+
+Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:
+
+- **ORGANIZACIÓN**: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización "*"
+
+- **CONCEPTO DE NÓMINA**: Indica el nombre del concepto que está creado en ADempiere, dicho concepto **No se Debe Modificar**.
+
+- **No. CÉDULA**: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:
+   - **V**: Venezolano
+   - **E**: Extranjero
+
+   Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:
+       - **V10000000**
+      
+- **VÁLIDO DESDE**: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.
+
+- **FECHA DE SERVICIO**: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.
+
+- **MONTO**: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+- **CANTIDAD**: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.
+
+
+**Formato de Importación**
+**************************
+
+El formato para la importación de la nómina de prestaciones sociales es el siguiente:
+
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|ORGANIZACIÓN| NOMBRE DEL PROCESO|CONCEPTO DE NÓMINA |No. CÉDULA|VÁLIDO DESDE| FECHA DE SERVICIO| MONTO |CANTIDAD |MENSAJE DE TEXTO|DESCRIPCIÓN|
++============+===================+===================+==========+============+==================+=======+=========+================+===========+
+|            |       NPS         |      CR_PSU       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSU       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSU       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+
+|            |       NPS         |      CR_PSU       |          |            |                  |       |         |                |           |
++------------+-------------------+-------------------+----------+------------+------------------+-------+---------+----------------+-----------+

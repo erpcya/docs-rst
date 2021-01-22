@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |Reporte Detalle Almacenamiento Antes| image:: resources/detalle-almacenamiento-antes.png
 .. |Menú de ADempiere| image:: resources/menu-movimiento-inventario.png
 .. |Ventana Movimiento de Inventario| image:: resources/ventana-movimiento-inventario.png
@@ -16,13 +17,12 @@
 .. |Campo Cantidad del Movimiento| image:: resources/campo-cantidad.png
 .. |Pestaña Movimiento| image:: resources/pest-movimiento-y-completar.png
 .. |Acción Completar y Opción OK| image:: resources/accion-completar.png
-.. |Reporte Detalle Almacenamiento Después| image:: resources/detalle-alamacenamiento-despues.png
+.. |Reporte Detalle Almacenamiento Después| image:: resources/detalle-almacenamiento-despues.png
 
 .. _documento/movimiento-inventario:
-.. _ERPyA: http://erpya.com
 
-**Procedimiento para Realizar un Movimiento de Inventario en ADempiere**
-========================================================================
+**Registro de Movimiento de Inventario**
+========================================
 
 Para ejemplificar el procedimiento es generado el reporte "**Detalle de Almacenamiento**" del producto "**Bolígrafo**" en el almacén "**Insumos de Oficina**", el mismo es visualizado de la siguiente manera antes del movimiento de inventario.
 
@@ -76,7 +76,7 @@ Para ejemplificar el procedimiento es generado el reporte "**Detalle de Almacena
 
             Imagen 8. Campo Descripción
 
-        #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por la empresa `ERPyA`_.
+        #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por la empresa `ERPyA`_.
 
             |Campo Tipo de Documento|
 

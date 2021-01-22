@@ -1,93 +1,90 @@
-.. _documento/actualizar-cliente-impresora-pnp:
+.. _documento/actualizar-impresora-fiscal-pnp:
 
-Actualizar cliente de cola de impresión local para la Impresora Fiscal PNP
-==========================================================================
-
-#. **Previo a la Actualización es necesario:**
+**Actualizar Cliente de cola de impresión para Impresora Fiscal PNP**
+=====================================================================
 
 
-   -  Hacer un respaldo del **StartPrintService.bat**.
+Para la actualización del cliente de cola de impresión para la Impresora Fiscal es necesario lo siguiente:
 
-   -  Detener el Servico de Cola de Impresión (**StartPrintService.bat**), en caso de estar ejecutándose al inicio de Windows es posible que no pueda visualizarlo directamente, para detenerlo en este caso hay 2 opciones:
-
-      - Eliminar el Script al inicio de Windows y reiniciar el equipo.
-
-      - Detener el Script desde el Command Promt de Windows (**CMD**) con las siguientes instrucciones:
-
-
-      .. code-block:: batch
-
-            ## Consultar Servicios en el Puerto deseado    
-      
-            netstat -oan |findstr 50043
-
-            ## Obtener PID del servcio en ejecucion
-
-            tasklist /svc /FI "PID eq ####"
-
-            ## Detener Servcio en ejecucion
-
-            taskkill /f /PID ####
-
-
- .. warning::
-
-      "**Antes de continuar debe esta detenido El Servicio de Cola de Impresion**"
-
-      Si esto no se realiza, no podra modificar o alterar el contenido de la carpeta **PrintService**. 
-
-
-#. **Aplicar Actualización**
-
-   Los siguientes pasos permiten actualizar el cliente local de la Impresora Fiscal PNP:
-
-   #. Descargar el Archivo **LocalPrinting-PnP.zip** el cual **E.R.P. Consultores y Asociados, C.A.** les proporcionara.
-
-   #. Eliminar el contenido dentro de la carpeta **PrintService** que se encuentra en el Directorio C:\
-
-   #. Descomprimir el archivo **LocalPrinting-PnP.zip** en el directorio C:\ dentro del la carpeta **PrintService** , reemplazando los archivos existentes.
-
-
-#. **Verificar Instalación**
-
-   Luego es necesario comprobar que la actualización fue exitosa:
-
-
-   #. Ejecutar el Script **StartPrintService.bat**. 
    
-   #. Con el Script **StartPrintService.bat** ejecutándose realizar las
-   siguientes pruebas: 
+#. **Requisitos**:
 
+   #. Descargar el Archivo **Setup_LocalPrintingPnP.exe**
 
-   Ingresando a **ADempiere** como compañía ubicar el proceso **Configuración de Impresora Fiscal** y ejecutar el proceso con los parámetros:
+   #. Conocer en qué Puerto **COM** está conectada la impresora (El puerto debe estar entre 1 y 4)
+   
+   #. Detener el Cliente de cola de impresión en ejecución, en el escritorio de Windows se tiene acceso directo **LocalPrinting-PnP.ink**, el cual permite detener el cliente de cola de impresión al ejecutarlo, para ello usar el siguiente parámetro:
+   
+    ====================== ===============================
+    Parámetro              Valor
+    ====================== ===============================
+    2                      Detiene el Cliente de Cola de Impresión
+    ====================== ===============================
+   
+#. **Ejecutar Setup_LocalPrintingPnP.exe con privilegios de Administrador**:
+   
+   
+   Seguir los pasos del instalador y colocar los siguientes parámetros:
+      
+    =================  ================= =====================================================================================================================
+    Parámetro          Valor             Descripción    
+    =================  ================= =====================================================================================================================
+    Host               LOCALHOST         Dirección Web o IP del Servidor donde Está Alojado ADempiere
+    Port               50043             Puerto de Comunicaciones del Servidor de cola de impresión, no cambiar      
+    Reconnect          true              Habilitar reconexión Automática     
+    Interval           3000              Tiempo de reconexión     
+    Printer Type       300               Tipo de impresora fiscal, colocar 200 si la impresora es del tipo PF-200 o 300 si la impresora es del tipo PF-300-II    
+    Printer Name       TESTPRINTER01     Este Nombre se le asigna en adempiere al momento de registrar las impresoras
+    =================  ================= =====================================================================================================================
+
+   .. note::
+
+       Es importante que al momento de iniciar el ejecutable se use con privilegios de Administrador, en caso de no ser así este mismo no tendrá los permisos para instalar las librerías necesarias
+
+   
+   Luego de aplicar el instalador ubicar el acceso directo **LocalPrinting-PnP.ink** en el escritorio de Windows, para iniciar el cliente de cola de impresión nuevamente, se debe usar el siguiente parámetro:
+   
+    ====================== ===============================
+    Parámetro              Valor
+    ====================== ===============================
+    1                      Inicia el Cliente de Cola de Impresión
+    ====================== ===============================
+   
+   
+#. **Verificar Correcto funcionamiento luego de la instalación**:
+   
+   Hacer doble click en el acceso directo **LocalPrinting-PnP.ink** con privilegios de Administrador en el menú que se observa en la ventana de la consola Windows selecciona la opción 1, esto iniciara el cliente de cola de impresión.
+   
+#. **Obtener Estado Actual de Impresora Fiscal**:
+
+   #. Ingresando en **ADempiere** como compañía ubicar el proceso **Configuración de Impresora Fiscal** y ejecutar el proceso con los parámetros:
 
       ====================== ===============================
       Parámetro              Valor
       ====================== ===============================
-      Impresora Fiscal       Seleccionar Impresora a Revisar
+      Impresora Fiscal       Seleccionar Impresora a Emplear para la prueba
       Tipo de comando Fiscal Obtener Estado de Impresora
       ====================== ===============================
 
-   En caso de error de conexión retorna un error de **Timeout**. Revisar lo siguiente:
+      Del proceso se obtiene la siguiente respuesta:
+      
+      .. code-block:: text
 
-      #. Que la impresora este encendida y conectada en un puerto **COM**.
+         ** Impresora lista para abrir una factura, abrir un documento no fiscal, hacer un reporte Z o un reporte de memoria fiscal**
+
+
+#. **Imprimir Reporte X**   
    
-      #. Que el archivo **StartPrintService.bat** este en ejecución. 
+   #. Para el caso donde la conexión se ejecuta correctamente, se procede a realizar una impresión de control usando el Proceso **Imprimir Reporte Fiscal** con los parámetros:
+
+      ====================== ===============================
+      Parámetro              Valor
+      ====================== ===============================
+      Impresora Fiscal       Seleccionar Impresora a Emplear para la prueba
+      Tipo de comando Fiscal Reporte X
+      ====================== ===============================
+
+      Al iniciar la impresión todo está correctamente configurado y funcional.
    
-        .. warning::
-
-            "**Si Persiste el Problema**"
-
-            Si el problema persiste, luego revisar los dos puntos anteriores y no se detecta la falla es necesario consultar el error con el equipo técnico de **E.R.P. Consultores y Asociados, C.A.**
 
 
-   Para el caso donde la conexión se ejecuta correctamente, se procede a realizar una impresión de control usando el Proceso **Imprimir Reporte Fiscal** con los parámetros: 
-
-   ====================== ===============================
-   Parámetro              Valor
-   ====================== ===============================
-   Impresora Fiscal       Seleccionar Impresora a Revisar
-   Tipo de comando Fiscal Reporte X
-   ====================== ===============================
-
-   Si inicia la impresión todo esta correctamente configurado y funcional.

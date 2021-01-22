@@ -1,5 +1,5 @@
-.. _src/adempiere/master/product:
 .. _ERPyA: http://erpya.com
+.. _src/adempiere/master/product:
 
 ============
 **Producto**

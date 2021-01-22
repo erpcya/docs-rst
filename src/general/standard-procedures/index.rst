@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. _src/general/standard-procedures:
 
 =============================
@@ -9,9 +10,10 @@ Los procedimientos es un conjunto de reglas para controlar y garantizar resultad
 El próximo material otorga a nuestros lectores información sobre políticas, funciones, sistemas y procedimientos de las distintas actividades que se realizan en `ERPyA`_.
 
 .. toctree::
-    :maxdepth: 1
+    :maxdepth: 2
     :numbered:
 
     customer-review
     schedule-a-meeting
     support-doc
+    compress-mp4

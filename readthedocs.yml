@@ -6,3 +6,4 @@ $ cat environment.yml
 name: pyfme
 dependencies:
   - numpy >=1.7
+autobuild: tags
