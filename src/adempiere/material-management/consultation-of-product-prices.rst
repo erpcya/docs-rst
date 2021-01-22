@@ -1,10 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. |Menú de ADempiere| image:: resources/sales-orders-menu.png
-.. |Pantalla de ADempiere con la Información de la Carperta Órdenes de Venta| image:: resources/sales-order-folder.png
-.. |Ubicar la Ventana Consulta de Precios| image:: resources/locate-form.png
-.. |Ventana Consulta de Precios| image:: resources/window-check-price.png
-.. |Campo Código del Producto| image:: resources/product-code-field.png
-.. |Campos Nombre, Precio Lista y Total del Impuesto del Producto| image:: resources/search-result.png
+
 
 .. _documento/consulta-precios-productos:
 
@@ -12,27 +7,21 @@
 **Consulta de Precios de Productos**
 ====================================
 
-El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para consultar los precios de los productos registrados en ADempiere, en su versión 4.0.0 para la localización Venezuela.
+El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para consultar los precios de los productos registrados en ADempiere.
 
-ADempiere permite que sea realizada una búsqueda de precios de productos a través del código del mismo, en la ventana "**Consulta de Precios**". A continuación se explica de manera detallada el procedimiento a seguir para el mismo.
+ADempiere permite que sea realizada una búsqueda de precios de productos a través del código de barra del mismo, en la ventana "**Consulta de Precios**". A continuación se explica de manera detallada el procedimiento a seguir para el mismo.
 
-#. Ubique en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**".
+#. Ubique en el menú de ADempiere, la carpeta "**Gestión de Ventas**", el formulario "**Consulta de Precios**", ubicado en la parte inferior de la misma.
 
-    |Menú de ADempiere|
+    |menú de adempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar del lado derecho de la pantalla, las diferentes opciones que contempla la ventana "**Órdenes de Venta**".
+#. Podrá visualizar la ventana del formulario "**Consulta de Precios**".
 
-    |Pantalla de ADempiere con la Información de la Carperta Órdenes de Venta|
+    |ventana del formulario consulta de precios|
 
-    Imagen 2. Pantalla de ADempiere con la Información de la Carperta Órdenes de Venta
-
-#. Navegue entre las opciones que contempla la carpeta "**Órdenes de Venta**" y seleccione el formulario "**Consulta de Precios**", ubicado en la parte inferior de la misma.
-
-    |Ubicar la Ventana Consulta de Precios|
-
-    Imagen 3. Ubicar la Ventana Consulta de Precios
+    Imagen 2. Ventana del Formulario Consulta de Precios
 
 #. Una vez ubicado en la ventana "**Consulta de Precios**", puede apreciar diferentes campos relacionados con la información básica de los productos.
 
