@@ -10,3 +10,4 @@ Esta documentación está destinada a definir el procedimiento correcto para gen
     :maxdepth: 2
 
     business-partner-directory
+    record-export
