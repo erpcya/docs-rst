@@ -25,36 +25,6 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 
     adempiere/basic-steps/index
     adempiere/master/index
-    adempiere/quality-management/index
     adempiere/material-management/index
-    adempiere/production-management/index
-    adempiere/distribution-management/index
-    adempiere/quote-to-invoice/index
-    adempiere/customer-relations/index
     adempiere/pos-management/index
-    adempiere/requisition-to-invoice/index
-    adempiere/returns/index
-    adempiere/open-items/index
-    adempiere/loan-management/index
-    adempiere/human-resources-management/index
-    adempiere/asset-management/index
-    adempiere/performance-analysis/index
 
-
-.. toctree::
-    :caption: LOCALIZACIÓN VENEZUELA
-    :maxdepth: 2
-    :numbered:
-
-    lve/document-utility/index
-    lve/fiscal-printer/index
-    lve/procedures/index
-    lve/report/index
-    lve/standard-coding/index
-
-.. toctree::
-    :caption: E-commerce
-    :maxdepth: 2
-    :numbered:
-
-    ecommerce/index

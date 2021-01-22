@@ -9,8 +9,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 .. toctree::
     :maxdepth: 2
 
-    inventory-move/index
-    internal-use-inventory/index
-    physical-inventory/index
-    ldm
-    replenishment-process/index
+    product-inquiry
