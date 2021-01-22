@@ -118,7 +118,3 @@
         |seleccionar formato a exportar|
 
         Imagen 12. Seleccionar Formato a Exportar
-
-.. note::
-
-    En la versión 3.9.2 de ADempiere, al ejecutar un proceso o generar un reporte con mucha información, la ventana queda "**Procesando**" y no permite ejecutar otros procesos. Mientras que la versión 4.0.0, permite ejecutar procesos en una ventana y al mismo tiempo, generar reportes o ejecutar otros procesos.
