@@ -27,4 +27,5 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/master/index
     adempiere/material-management/index
     adempiere/pos-management/index
+    adempiere/open-items/index
 

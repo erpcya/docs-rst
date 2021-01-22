@@ -6,20 +6,12 @@
 .. |Campo Moneda| image:: resources/campo-moneda.png
 .. |Campo Cargo| image:: resources/campo-cargo.png
 .. |Campo No. del Documento| image:: resources/campo-n-documento.png
-.. |Campo Documento Destino| image:: resources/campo-documento-destino.png
 .. |Campo Monto| image:: resources/campo-monto.png
-.. |Campo Descripción| image:: resources/campo-descripcion.png
 .. |Campo Fecha de Estado de Cuenta| image:: resources/campo-fecha-estado-cuenta.png
 .. |Campo Fecha Contable| image:: resources/campo-fecha-contable.png
 .. |Campo Conciliar Automáticamente| image:: resources/field-reconcile-automatically.png
-.. |Opción OK| image:: resources/opcion-ok.png
-.. |Resultado de Transferencia| image:: resources/resultado-transferencia.png
-.. |Documento Ingreso Generado en Caja| image:: resources/documento-en-caja.png
-.. |Documento Egreso Generado en Banco| image:: resources/documento-en-pago-cobro.png
-.. |Pago en Ventana Pago/Cobro| image:: resources/payment-in-payment-collection-window.png
-.. |Pago en Ventana Caja| image:: resources/payment-in-window-box.png
-.. |Cobro en Ventana Pago/Cobro| image:: resources/collection-in-payment-collection-window.png
-.. |Cobro en Ventana Caja| image:: resources/cash-in-window-box.png
+.. |acciones y ejecutar| image:: resources/actions-and-execute.png
+
 
 .. _documento/procedimiento-para-realizar-una-transferencia-bancaria:
 
@@ -40,7 +32,7 @@ Para realizar una transferencia bancaria en ADempiere deben seguir los siguiente
 
     Imagen 2. Ventana Transferencia Bancaria
 
-#.  Seleccione en el campo "**Cuenta bancaria desde**", la cuenta a debitar el monto de la transferencia realizada.
+#.  Seleccione en el campo "**Cuenta Bancaria Desde**", la cuenta a debitar el monto de la transferencia realizada.
 
     |Campo Cuenta Bancaria Desde|
 
@@ -90,29 +82,13 @@ Para realizar una transferencia bancaria en ADempiere deben seguir los siguiente
 
     .. note::
 
-        El número de documento a colocar en este campo es el número de la transferencia bancaria realizada del banco colocado en el  campo "**Cuenta bancaria desde**".
-
-#.  Introduzca en el campo "**Documento Destino**", la referencia correspondiente a la transferencia bancaria realizada.
-
-    |Campo Documento Destino|
-
-    Imagen 9. Campo Documento Destino 
-
-    .. note::
-
-        El número de documento a colocar en este campo es el número de la transferencia bancaria realizada al banco seleccionado en el campo "**Cuenta Bancaria a Transferir**" (banco destino),el llenado de este campo aplicaría para aquellas transacciones de intercompañía el cual el personal que esté realizado el procedimiento conozca el número de transferencia en ambas cuentas bancarias (Banco a emisor/banco destino), si se desconoce el número de transferencia simplemente no se coloca, este campo no es un campo obligatorio por ello se puede obviar el llenado de este campo.
+        El número de documento a colocar en este campo es el número de la transferencia bancaria realizada del banco.
 
 #.  Introduzca en el campo "**Monto**", el monto total de la transferencia bancaria realizada.
 
     |Campo Monto|
 
     Imagen 10. Campo Monto 
-
-#.  Introduzca en el campo "**Descripción**", una breve descripción referente a la transferencia entre cuentas que está realizando.
-
-    |Campo Descripción|
-
-    Imagen 11. Campo Descripción
 
 #. Introduzca en el campo "**Fecha de Estado de Cuenta**", la fecha de la transferencia bancaria realizada.
 
@@ -126,68 +102,14 @@ Para realizar una transferencia bancaria en ADempiere deben seguir los siguiente
 
     Imagen 13. Campo Fecha Contable
 
-#. Si desea que los pagos/cobros que se generen de esta transferencia bancarias se concilien de una vez puede tildar la opción **"Conciliar Automáticamente"**, si no tilda esta opción los pagos/cobros no se conciliaran y deberán ser conciliados a través :ref:`documento/conciliacion-automatica`
+#. Si desea que los pagos/cobros que se generen de esta transferencia bancarias se concilien de una vez puede tildar la opción **"Conciliar Automáticamente"**, si no tilda esta opción los pagos/cobros no se conciliaran y deberán ser conciliados a través del proceso "**Conciliación Automática**".
 
     |Campo Conciliar Automáticamente|
 
     Imagen 14. Campo Conciliar Automáticamente
 
-#. Seleccione la opción "**OK**", para generar en ADempiere la transferencia entre cuentas bancarias.
+#. Para completar el proceso, se debe posicionar sobre el campo "**Acciones**" y luego se debe posicionar sobre la opción "**Ejecutar**", para generar en ADempiere la transferencia entre cuentas bancarias.
 
-    |Opción OK|
+    |acciones y ejecutar|
 
-    Imagen 15. Opción OK 
-
-#. Podrá apreciar el resultado del proceso de la siguiente manera.
-
-    |Resultado de Transferencia|
-
-    Imagen 16. Resultado de Transferencia
-
-.. note::
-
-   Al realizar el proceso de transferencia bancaria, es generado un egreso en la cuenta seleccionada en el campo "**Cuenta bancaria desde**" y un ingreso en la cuenta seleccionada en el campo "**Cuenta Bancaria a Transferir**". 
-   
-   De igual manera, cuando se está trabajando las transferencias bancarias con cajas es creado un documento de cobro en la ventana "**Caja**" reflejando el ingreso a la cuenta seleccionada en el campo "**Cuenta Bancaria a Transferir**" y un pago en la ventana "**Pago/Cobro**" reflejando el egreso de la cuenta seleccionada en el campo "**Cuenta bancaria desde**".
-
-**Consultar Egreso Generado de la Transferencia Bancaria**
-----------------------------------------------------------
-
-#. Si en la transferencia bancaria en el campo "**Cuenta Bancaria Desde**" fue seleccionada una cuenta bancaria el pago caerá en la ventana **"Pago/Cobro"** y tendrá como número de documento el número colocado en el campo **"No. del Documento"** de la transacción bancaria.
-
-    |Pago en Ventana Pago/Cobro|
-
-    Imagen 17. Pago en Ventana Pago/Cobro
-
-#. Si en la transferencia bancaria en el campo "**Cuenta Bancaria Desde**" fue seleccionada una cuenta de caja el pago caerá en la ventana **"Caja"** y tendrá como número de documento el número colocado en el campo **"No. del Documento"** de la transacción bancaria.
-
-    |Pago en Ventana Caja|
-
-    Imagen 18. Pago en Ventana Caja
-
-**Consultar Ingreso Generado de la transferencia Bancaria**
------------------------------------------------------------
-
-#. Si en la transferencia bancaria en el campo "**Cuenta Bancaria a Transferir**" fue seleccionada una cuenta bancaria el cobro caerá en la ventana **"Pago/Cobro"**, si en el campo **"Documento Destino"** de la transferencia bancaria se colocó el número de la transacción este mismo debe aparecer como el número de documento del campo **"No. del Documento"** en la ventana **"Pago/Cobro"**.
-
-    |Cobro en Ventana Pago/Cobro|
-
-    Imagen 19. Cobro en Ventana Pago/Cobro
-
-    .. note::
-
-        Si en el campo **"Documento Destino"** de la transferencia bancaria no se colocó el número de la transacción, el número de documento a mostrar del cobro en la ventana **"Pago/Cobro"** será el mismo que se número colocado en el campo **"No. del Documento"** de la transferencia bancaria.
-
-#. Si en la transferencia bancaria en el campo "**Cuenta Bancaria a Transferir**" fue seleccionada una cuenta de caja el cobro caerá en la ventana **"Caja"**, si en el campo **"Documento Destino"** de la transferencia bancaria se colocó el número de la transacción este mismo debe aparecer como el número de documento del campo **"No. del Documento"** en la ventana **"Caja"**.
-
-    |Cobro en Ventana Caja|
-
-    Imagen 20. Cobro en Ventana Caja
-
-    .. note::
-
-        Si en el campo **"Documento Destino"** de la transferencia bancaria no se colocó el número de la transacción, el número de documento a mostrar del cobro en la ventana **"Caja"** será el mismo que se número colocado en el campo **"No. del Documento"** de la transferencia bancaria. 
-
-
-
-
+    Imagen 15. Campo Acciones y Opción Ejecutar 

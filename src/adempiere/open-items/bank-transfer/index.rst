@@ -13,4 +13,4 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
     :maxdepth: 2
 
     bank-transfer
-    bank-transfer-payroll
+

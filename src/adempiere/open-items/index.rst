@@ -17,12 +17,4 @@ Por ello, `ERPyA`_ presenta la siguiente guía con instrucciones claras y precis
     :maxdepth: 2
 
     bank-transfer/index
-    payment-selection/index
-    print-export/index
-    payment/index
-    collection/index
-    cash-refund/index
-    cash-per-diems/index
-    collection-cash/index
-    cash-closing/index
-    automatic-conciliations/index
+
