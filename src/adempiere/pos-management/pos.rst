@@ -5,7 +5,7 @@
 .. |selección de formulario punto de venta| image:: resources/point-of-sale-form-selection.png
 .. |ventana del formulario punto de venta| image:: resources/point-of-sale-form-window.png
 .. |selección del cliente en el formulario punto de venta| image:: resources/customer-selection-in-the-point-of-sale-form.png
-.. |carga de productos desde catálogo de productos del formulario punto de venta| image:: resources/loading-products-from-the-product-catalog-of-the-point-of-sale-form.png
+.. |carga de productos desde catálogo de productos del formulario punto de venta| image:: resources/product-catalog.png
 .. |carga de productos desde el panel de búsqueda de productos del formulario punto de venta| image:: resources/loading-products-from-the-product-search-panel-of-the-point-of-sale-form.png
 .. |opción información del producto del formulario punto de venta| image:: resources/product-information-option-of-the-point-of-sale-form.png
 .. |información del producto del formulario punto de venta| image:: resources/product-information-from-the-point-of-sale-form.png
@@ -117,6 +117,12 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         Imagen 12. Campo Cantidad de la Opción Editar Cantidades del Producto
 
+#. Para eliminar el producto de la línea de la orden, seleccione la opción "**Opciones**" al final de la lína del producto y luego seleccione la opción "**Eliminar**".
+
+    |opción eliminar producto del formulario punto de venta|
+
+    Imagen 13. Opción Eliminar Producto
+
 #. En la parte inferior derecha del formulario "**Punto de Venta**", se puede visualizar la siguiente información:
 
     - El campo "**Orden**", indica el número de la orden que se encuentra realizando.
@@ -132,46 +138,40 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
     |información de la orden de venta del formulario punto de venta|
 
-    Imagen 16. Información de la Orden de Venta
+    Imagen 14. Información de la Orden de Venta
 
 #. Para visualizar el monto total de la orden de venta convertido en otra moneda, haga clic sobre el monto de la orden en el campo "**Total**".
 
     |monto total de la orden de venta|
 
-    Imagen 17. Campo Total  
+    Imagen 15. Campo Total  
 
     #. Podrá visualizar la ventana del total de la orden, con el campo "**Moneda**", donde debe seleccionar la moneda a la cual requiere realizar la conversión.
 
         |ventana con campo moneda para convertir|
 
-        Imagen 18. Ventana Convertir Cantidad
+        Imagen 16. Ventana Convertir Cantidad
 
     #. En el encabezado de la ventana, se muestra el monto total de la orden, convertido a la moneda seleccionada previamente.
 
         |monto total de la orden convertido|
 
-        Imagen 19. Monto Total Convertido
-
-#. Para eliminar el producto de la línea de la orden, seleccione la opción "**Opciones**" al final de la lína del producto y luego seleccione la opción "**Eliminar**".
-
-    |opción eliminar producto del formulario punto de venta|
-
-    Imagen 20. Opción Eliminar Producto
+        Imagen 17. Monto Total Convertido
 
 #. Para posicionarse en cualquier línea de producto de la orden que se encuentra realizando, puede hacer clic sobre la misma o seleccionar los iconos de "**Posicionamiento**" ubicados en la parte inferior izquierda del formulario "**Punto de Venta**". Donde el primer icono permite posicionarse en el "**Registro Anterior**", y el segundo icono permite posicionarse en el "**Registro Siguiente**".
 
     |iconos de posicionamiento del formulario punto de venta|
 
-    Imagen 21. Iconos de Posicionamiento
+    Imagen 18. Iconos de Posicionamiento
 
 #. De igual manera, puede eliminar el registro del producto donde se encuentra posicionado, seleccionando el icono "**Eliminar**" ubicado en la parte inferior izquierda del formulario "**Punto de Venta**".
 
     |icono eliminar producto del formulario punto de venta|
 
-    Imagen 22. Icono Eliminar 
+    Imagen 19. Icono Eliminar 
 
 #. Seleccione el icono "**Cobrar**", para realizar el cobro de la orden de venta que se encuentra realizando.
 
     |icono cobrar del formulario punto de venta|
 
-    Imagen 23. Icono Cobrar
+    Imagen 20. Icono Cobrar

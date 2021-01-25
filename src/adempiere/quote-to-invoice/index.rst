@@ -9,13 +9,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 .. toctree::
     :maxdepth: 2
 
-    commission/index
-    sales-region/index
-    automatic-price-list/index
-    sales-order/index
     invoice-customer/index
-    generate-invoice-from-departure-order
-    shipment/index
-    credit-note-cxc
-    debit-note-cxc
-    consultation-of-product-prices

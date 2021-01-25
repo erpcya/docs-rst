@@ -19,7 +19,7 @@
 .. |icono más para registro de socio del negocio| image:: resources/plus-icon-for-business-partner-registration.png
 .. |ventana de registro de socio del negocio| image:: resources/business-partner-registration-window.png
 .. |campo código del registro nuevo del cliente| image:: resources/code-field-of-the-new-customer-record.png
-.. |campo nombre del registro nuevo del cliente| image:: resources/name field-of-the-new-customer-record.png
+.. |campo nombre del registro nuevo del cliente| image:: resources/name-field-of-the-new-customer-record.png
 .. |campo nombre dos del registro nuevo del cliente| image:: resources/field-name-two-of-the-new-customer-record.png
 .. |campo email del registro nuevo del cliente| image:: resources/email-field-of-the-new-customer-record.png
 .. |campo teléfono del registro nuevo del cliente| image:: resources/phone-field-of-the-new-customer-record.png

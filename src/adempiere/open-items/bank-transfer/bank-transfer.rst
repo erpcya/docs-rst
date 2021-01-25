@@ -88,28 +88,28 @@ Para realizar una transferencia bancaria en ADempiere deben seguir los siguiente
 
     |Campo Monto|
 
-    Imagen 10. Campo Monto 
+    Imagen 9. Campo Monto 
 
 #. Introduzca en el campo "**Fecha de Estado de Cuenta**", la fecha de la transferencia bancaria realizada.
 
     |Campo Fecha de Estado de Cuenta|
 
-    Imagen 12. Campo Fecha de Estado de Cuenta
+    Imagen 10. Campo Fecha de Estado de Cuenta
 
 #. Introduzca en el campo "**Fecha Contable**", la fecha de la transferencia bancaria realizada.
 
     |Campo Fecha Contable|
 
-    Imagen 13. Campo Fecha Contable
+    Imagen 11. Campo Fecha Contable
 
 #. Si desea que los pagos/cobros que se generen de esta transferencia bancarias se concilien de una vez puede tildar la opción **"Conciliar Automáticamente"**, si no tilda esta opción los pagos/cobros no se conciliaran y deberán ser conciliados a través del proceso "**Conciliación Automática**".
 
     |Campo Conciliar Automáticamente|
 
-    Imagen 14. Campo Conciliar Automáticamente
+    Imagen 12. Campo Conciliar Automáticamente
 
 #. Para completar el proceso, se debe posicionar sobre el campo "**Acciones**" y luego se debe posicionar sobre la opción "**Ejecutar**", para generar en ADempiere la transferencia entre cuentas bancarias.
 
     |acciones y ejecutar|
 
-    Imagen 15. Campo Acciones y Opción Ejecutar 
+    Imagen 13. Campo Acciones y Opción Ejecutar 
