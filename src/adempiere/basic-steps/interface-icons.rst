@@ -71,10 +71,10 @@ Uno de los procesos que contempla ADempiere es el siguiente:
 
     Imagen 4. Ejemplo de un Proceso
 
-|Icono de un Navegador Inteligente| **Navegador Inteligente**
--------------------------------------------------------------
+|Icono de un Navegador Inteligente| **Navegador Inteligente (Smart Browser)**
+-----------------------------------------------------------------------------
 
-El navegador inteligente se encuentra representado por el icono |Icono de un Navegador Inteligente| en el menú de ADempiere. Adicional a ello, permite realizar una búsqueda a partir de ciertos parámetros.
+El navegador inteligente (smart browser), se encuentra representado por el icono |Icono de un Navegador Inteligente| en el menú de ADempiere. Adicional a ello, permite realizar una búsqueda a partir de ciertos parámetros.
 
 Uno de los navegadores inteligentes que contempla ADempiere es el siguiente:
 
