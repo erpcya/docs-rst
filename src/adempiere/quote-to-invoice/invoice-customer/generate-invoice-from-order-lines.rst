@@ -18,18 +18,26 @@
 .. |Resultado del Proceso| image:: resources/result-of-the-process.png
 .. |Consulta de Facturas Generadas| image:: resources/query-invoices-generated-from-the-smart-search-window-generate-invoice-from-order-lines.png
 .. |Imprimir Facturas Generadas| image:: resources/print-invoices-generated-from-the-smart-search-window-generate-invoice-from-order-lines.png
+
 .. _documento/generar-factura-desde-líneas-de-la-orden:
+
 
 **Generar Factura desde Líneas de la Orden**
 ============================================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Genera Factura desde Líneas de la Orden**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**".
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Genera Factura desde Líneas de la Orden**" y proceder al llenado de los campos correspondientes para filtrar la búsqueda.
+#. Podrá visualizar la ventana "**Facturas de Ventas**", con diferentes procesos, smart browser y ventanas que permiten al usuario realizar los procedimientos requeridos. En la cual, debe seleccionar el smart browser "**Genera Factura desde Líneas de la Orden**".
+
+    |ventana facturas de ventas|
+
+    Imagen 2. Ventana Facturas de Ventas
+
+#. Podrá visualizar la ventana del smart browser "**Genera Factura desde Líneas de la Orden**", donde puede indicar en el grupo de campos "**Criterio de Búsqueda**", las columnas opcionales para utilizar como campos o filtros de la búsqueda.
 
     |Ventana Generar Factura desde Líneas de la Orden|
 
