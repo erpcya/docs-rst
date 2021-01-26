@@ -40,7 +40,7 @@ A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
 Ingrese la selección de pagos generada en la sección
 
-`Generar Selección de Pago <generate-payment-selection.md>`__, seleccionando la opción de búsqueda |selección|
+:ref:`documento/generar-selección-pagos`, seleccionando la opción de búsqueda |selección|
 
  |Búsqueda de Selección de Pagos|
 
@@ -52,7 +52,7 @@ A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
  Imagen 4. Búsqueda de Pagos
 
-Seleccione la Selección de pago generada en la sección `Generar Selección de Pago <generate-payment-selection.md>`__
+Seleccione la Selección de pago generada en la sección :ref:`documento/generar-selección-pagos`
 
  |Generar Selección de Pagos|
 
@@ -79,7 +79,7 @@ Ventanas en Menú
 
 Pago/Cobro
 
-Si el pago generado desde el proceso `Generar Selección de Pago (Desde Préstamo) <generate-payment-selection.md>`__ es generado con una cuenta bancaria podrá consultar con esta opción.
+Si el pago generado desde el proceso :ref:`documento/generar-selección-pagos` es generado con una cuenta bancaria podrá consultar con esta opción.
 
 Vaya a la ventana **"Pago/Cobro"** (Adjunto Imagen)
 
@@ -105,7 +105,7 @@ A continuación se desplegará el siguiente dialogo
 
  Imagen 11. Ventana de Búsqueda de Pago
 
-Ingrese el número de la selección generada en el proceso `Generar Selección de Pago (Desde Préstamo) <generate-payment-selection.md>`__ Caja Si el pago generado desde el proceso `Generar Selección de Pago (Desde Préstamo) <generate-payment-selection.md>`__ es generado con una cuenta de caja podrá consultar con esta opción.
+Ingrese el número de la selección generada en el proceso :ref:`documento/generar-selección-pagos` Caja Si el pago generado desde el proceso :ref:`documento/generar-selección-pagos` es generado con una cuenta de caja podrá consultar con esta opción.
 
 Vaya a la ventana Caja (Adjunto Imagen)
 
@@ -131,7 +131,7 @@ A continuación se desplegará el siguiente dialogo
 
  Imagen 15. Búsqueda de Caja
 
-Ingrese el número de la selección generada en el proceso `Generar Selección de Pago (Desde Préstamo) <generate-payment-selection.md>`__
+Ingrese el número de la selección generada en el proceso :ref:`documento/generar-selección-pagos`
 
 **Ventana de Préstamo:**
 ========================

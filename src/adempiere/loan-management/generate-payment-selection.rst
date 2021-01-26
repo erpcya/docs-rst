@@ -159,12 +159,12 @@ A continuación se desplegará el siguiente dialogo
 
  Imagen 15. Selección de Pagos Generada
 
-Ingrese el número de la selección generada en el proceso `Generar Selección de Pago (Desde Préstamo) <generate-payment-selection.md>`__.
+Ingrese el número de la selección generada en el proceso :ref:`documento/generar-pagos`.
 
 **Ventana de Préstamo:**
 ========================
 
-`Una vez en la ventana de Préstamo <loan.md>`__
+Una vez en la ventana de Préstamo :ref:`documento/préstamo`.
 
 Vaya a la opción “**Visualiza Detalle(Donde es Usado)**” ubicada en la barra de herramientas.
 

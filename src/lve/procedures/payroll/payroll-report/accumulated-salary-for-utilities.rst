@@ -44,10 +44,10 @@ Para este reporte está configurado la plantilla "**Resumen de Pago**"
    +-----------------------------------------------+-----------------------------------------------+
    |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
    |                                               | en este caso aparecerá el nombre de las       |
-   |                                               | acumulado utilidades                         |
+   |                                               | acumulado utilidades                          |
    +-----------------------------------------------+-----------------------------------------------+
    |  Mes                                          | Corresponde al monto otorgado por el empleado |
-   |                                               | por el concepto acumulado utilidades         |
+   |                                               | por el concepto acumulado utilidades          |
    +-----------------------------------------------+-----------------------------------------------+
    |  Total                                        | Corresponde al monto total obtenido por       |
    |                                               | concepto                                      |
