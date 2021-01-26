@@ -12,7 +12,7 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 
 ADempiere permite que sea realizada una búsqueda de precios de productos a través del código de barra del mismo, en la ventana "**Consulta de Precios**". A continuación se explica de manera detallada el procedimiento a seguir para el mismo.
 
-#. Ubique en el menú de ADempiere, la carpeta "**Gestión de Ventas**", el formulario "**Consulta de Precios**", ubicado en la parte inferior de la misma.
+#. Ubique en el menú de ADempiere, la carpeta "**Gestión de Ventas**", el formulario "**Consulta de Precios**".
 
     |menú de consulta de producto|
 

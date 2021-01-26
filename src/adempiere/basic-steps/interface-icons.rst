@@ -14,6 +14,9 @@
    :width: 20px
    :height: 20px
 .. |Ejemplo de un Proceso| image:: resources/example-of-a-process.png
+.. |Icono de un Navegador Inteligente| image:: resources/smart-browser-icon.png
+   :width: 20px
+   :height: 20px
 .. |Ejemplo de un Navegador Inteligente| image:: resources/smart-browser-example.png
 
 .. _documento/iconos-de-la-interfaz:
@@ -68,10 +71,10 @@ Uno de los procesos que contempla ADempiere es el siguiente:
 
     Imagen 4. Ejemplo de un Proceso
 
-|Icono de una Ventana| **Navegador Inteligente**
-------------------------------------------------
+|Icono de un Navegador Inteligente| **Navegador Inteligente (Smart Browser)**
+-----------------------------------------------------------------------------
 
-El navegador inteligente se encuentra representado por el icono |Icono de una Ventana| en el menú de ADempiere. Adicional a ello, permite realizar una búsqueda a partir de ciertos parámetros.
+El navegador inteligente (smart browser), se encuentra representado por el icono |Icono de un Navegador Inteligente| en el menú de ADempiere. Adicional a ello, permite realizar una búsqueda a partir de ciertos parámetros.
 
 Uno de los navegadores inteligentes que contempla ADempiere es el siguiente:
 

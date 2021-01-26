@@ -34,7 +34,7 @@
     
     Imagen 3. Selección del Reporte Directorio de Socios del Negocio
     
-#. Podrá visualizar la ventana del reporte "**Directorio de Socios del Negocio**", con el campo "**Columnas Opcionales**", en el cual se deben tildar los campos que se requiere visualizar en el reporte.
+#. Podrá visualizar la ventana del reporte "**Directorio de Socios del Negocio**", con el campo "**Columnas Opcionales**", en el cual se pueden tildar los campos que se requieren para filtrar la información en el reporte.
 
     |campos a visualizar en el reporte directorio de socios del negocio|
 
