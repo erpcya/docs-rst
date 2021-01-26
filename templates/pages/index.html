@@ -5,7 +5,9 @@
 <p>
     {% block description %}{{ _('La mayor parte de las empresas adquieren distintos software para cubrir las diferentes necesidades de sus organizaciones, pero tarde se dan cuenta de lo complicado que es compartir y unificar la información que cada modulo y organización obtienen.') }}<br />
      <br />
-    {{ _('ADempiere por su condición de ERP ofrece todo lo que una compañía necesita en un único software, <a href="http://erpya.com/">ERPyA</a> quiere ofrecer a sus lectores una amplia gama de documentos estructurados para usuarios de alta y baja experiencia en el manejo de Software ERP, en los cuales se explicarán de forma eficiente y detallada cada proceso de este potente sistema, definiendo paso a paso la gestión de cada uno, sus implicaciones contables, administrativas y fiscales y finalmente la emisión de resultados que le permitirá un optimo control de sus operaciones. ') }}{% endblock %}.
+    {{ _('ADempiere por su condición de ERP ofrece todo lo que una compañía necesita en un único software, <a href="http://erpya.com/">ERPyA</a> quiere ofrecer a sus lectores una amplia gama de documentos estructurados para usuarios de alta y baja experiencia en el manejo de Software ERP, en los cuales se explicarán de forma eficiente y detallada cada proceso de este potente sistema, definiendo paso a paso la gestión de cada uno, sus implicaciones contables, administrativas y fiscales y finalmente la emisión de resultados que le permitirá un optimo control de sus operaciones.<br />
+    <br />
+    La presente versión, cuenta con un entorno práctico y amigable, dashboard dinámico, ventanas con multivistas integradas y búsquedas automáticas. Dicha versión permite la ejecución de procesos y búsquedas al mismo tiempo. Así mismo, contiene otras mejoras que permiten agilizar los procesos realizados por el usuario en su día a día') }}{% endblock %}.
 </p>
 {% block tables %}
 <h2>Procedimientos Estandarizados por ERPyA</h2>
@@ -54,19 +56,21 @@
 </table>
 
 <h2>Novedades</h2>
-<a>La presente versión, cuenta con un entorno práctico y amigable, dashboard dinámico, ventanas con multivistas integradas y búsquedas automáticas. Dicha versión permite la ejecución de procesos y búsquedas al mismo tiempo. Así mismo, contiene otras mejoras que permiten agilizar los procesos realizados por el usuario en su día a día.</a>
+
 <table class="contentstable" align="center">
     <tr>
         <td width="50%">
             <p class="biglink">
+                <a class="biglink" href="{{ pathto("") }}">
                     Funcionalidad
+                </a>
                 <br />
                 <span class="linkdescr">
                     <a class="biglink" href="{{ pathto("adempiere/basic-steps/login") }}">- Login sin Rol </a><br />
                     <a class="biglink" href="{{ pathto("adempiere/pos-management/index") }}">- Punto de Venta bajo Nueva Arquitectura </a><br />
                     <a class="biglink" href="{{ pathto("adempiere/pos-management/pos") }}">- POS Multi-moneda </a><br />
                     <a class="biglink" href="{{ pathto("adempiere/material-management/product-inquiry") }}">- Búsqueda de Productos con Inventario y Precio </a><br />
-                    <a class="biglink" href="{{ pathto("adempiere/pos-management/point-of-sale-interface#registro-de-socio-del-negocio") }}">- Creación Rápida del Socio del Negocio </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/pos-management/point-of-sale-interface.html#registro-de-socio-del-negocio") }}">- Creación Rápida del Socio del Negocio </a><br />
                     <a class="biglink" href="{{ pathto("adempiere/master/reports/business-partner-directory") }}">- Parámetros de Reportes Personalizados </a><br />
                     <a class="biglink" href="{{ pathto("adempiere/master/reports/business-partner-directory") }}">- Cambio de Formato de Impresión más Sencillo </a><br />
                     <a class="biglink" href="{{ pathto("adempiere/master/reports/business-partner-directory") }}">- Exportación de Datos en Múltiples Formatos </a><br />
@@ -77,7 +81,9 @@
 
         <td width="50%">
             <p class="biglink">
+                <a class="biglink" href="{{ pathto("") }}">
                     Estética
+                </a>
                 <br />
                 <span class="linkdescr">
                     <a class="biglink" href="{{ pathto("adempiere/basic-steps/login") }}">- UI más Amigable </a><br />
@@ -97,7 +103,9 @@
     <tr>
         <td width="50%">
             <p class="biglink">
-                    Usabilidad
+                <a class="biglink" href="{{ pathto("") }}">
+                    Usabilidad 
+                </a>
                 <br />
                 <span class="linkdescr">
                     - Más Práctico para Ejecutar Procesos <br />
@@ -111,7 +119,9 @@
 
         <td width="50%">
             <p class="biglink">
+                <a class="biglink" href="{{ pathto("") }}">
                     Rendimiento
+                </a>
                 <br />
                 <span class="linkdescr">
                     - Incorporación de Límite en las Consultas (50 Registros Máximo por Página)
@@ -128,7 +138,9 @@
     <tr>
         <td width="50%">
             <p class="biglink">
+                <a class="biglink" href="{{ pathto("") }}">
                     Seguridad
+                </a>
                 <br />
                 <span class="linkdescr">
                     - Implementación de Token para Acceso de Terceros
