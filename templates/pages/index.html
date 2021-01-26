@@ -5,10 +5,7 @@
 <p>
     {% block description %}{{ _('La mayor parte de las empresas adquieren distintos software para cubrir las diferentes necesidades de sus organizaciones, pero tarde se dan cuenta de lo complicado que es compartir y unificar la información que cada modulo y organización obtienen.') }}<br />
      <br />
-    {{ _('ADempiere por su condición de ERP ofrece todo lo que una compañía necesita en un único software, <a href="http://erpya.com/">ERPyA</a> quiere ofrecer a sus lectores una amplia gama de documentos estructurados para usuarios de alta y baja experiencia en el manejo de Software ERP, en los cuales se explicarán de forma eficiente y detallada cada proceso de este potente sistema, definiendo paso a paso la gestión de cada uno, sus implicaciones contables, administrativas y fiscales y finalmente la emisión de resultados que le permitirá un optimo control de sus operaciones.
-    <br />
-     <br />
-    La presente versión, cuenta con un entorno práctico y amigable, dashboard dinámico, ventanas con multivistas integradas y búsquedas automáticas. Dicha versión permite la ejecución de procesos y búsquedas al mismo tiempo. Así mismo, contiene otras mejoras que permiten agilizar los procesos realizados por el usuario en su día a día. ') }}{% endblock %}.
+    {{ _('ADempiere por su condición de ERP ofrece todo lo que una compañía necesita en un único software, <a href="http://erpya.com/">ERPyA</a> quiere ofrecer a sus lectores una amplia gama de documentos estructurados para usuarios de alta y baja experiencia en el manejo de Software ERP, en los cuales se explicarán de forma eficiente y detallada cada proceso de este potente sistema, definiendo paso a paso la gestión de cada uno, sus implicaciones contables, administrativas y fiscales y finalmente la emisión de resultados que le permitirá un optimo control de sus operaciones. ') }}{% endblock %}.
 </p>
 {% block tables %}
 <h2>Procedimientos Estandarizados por ERPyA</h2>
@@ -20,7 +17,7 @@
                     ¿Que es Open Project?
                 </a>
                 <br />
-                <span class="linkdescr">¡Hey! tenemos para tí un instructivo experto de nuestra herramienta para gestión de proyectos, con la que logramos de forma ágil y eficiente el feedback con nuestros clientes.</span>
+                <span class="linkdescr">¡Hey! tenemos para tí un instructivo experto de nuestra herramienta para gestión de proyectos, con la que logramos de forma ágil y eficiente el feedback con nuestros clientes. </span>
             </p>
         </td>
         <td width="50%">
@@ -56,19 +53,95 @@
     </tr>
 </table>
 
-<h2>Procesos de ADempiere</h2>
+<h2>Novedades</h2>
+<a>La presente versión, cuenta con un entorno práctico y amigable, dashboard dinámico, ventanas con multivistas integradas y búsquedas automáticas. Dicha versión permite la ejecución de procesos y búsquedas al mismo tiempo. Así mismo, contiene otras mejoras que permiten agilizar los procesos realizados por el usuario en su día a día.</a>
 <table class="contentstable" align="center">
     <tr>
         <td width="50%">
             <p class="biglink">
-                <a class="biglink" href="{{ pathto("adempiere/master/index") }}">
-                    Maestros de ADempiere
-                </a>
+                    Funcionalidad
                 <br />
-                <span class="linkdescr">Los datos maestros comprenden registros que dan origen a las transacciones, por los tanto no son modificables de forma regular,en tal sentido <a href="http://erpya.com/">ERPyA</a> te explica como crear tus maestros de forma ideal evitando así duplicidad e inconsistencia en los datos.</span>
+                <span class="linkdescr">
+                    <a class="biglink" href="{{ pathto("adempiere/basic-steps/login") }}">- Login sin Rol </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/pos-management/index") }}">- Punto de Venta bajo Nueva Arquitectura </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/pos-management/pos") }}">- POS Multi-moneda </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/material-management/product-inquiry") }}">- Búsqueda de Productos con Inventario y Precio </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/pos-management/point-of-sale-interface#registro-de-socio-del-negocio") }}">- Creación Rápida del Socio del Negocio </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/master/reports/business-partner-directory") }}">- Parámetros de Reportes Personalizados </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/master/reports/business-partner-directory") }}">- Cambio de Formato de Impresión más Sencillo </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/master/reports/business-partner-directory") }}">- Exportación de Datos en Múltiples Formatos </a><br />
+                    - Ejecución de Procesos y Búsquedas en Segundo Plano<br />
+                    </span>
+            </p>
+        </td>
+
+        <td width="50%">
+            <p class="biglink">
+                    Estética
+                <br />
+                <span class="linkdescr">
+                    <a class="biglink" href="{{ pathto("adempiere/basic-steps/login") }}">- UI más Amigable </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/basic-steps/user-interface") }}">- Dashboard Dinámico </a><br />
+                    <a class="biglink" href="{{ pathto("open-items/bank-transfer/index") }}">- Procesos más Intuitivos </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/master/reports/business-partner-directory") }}">- Reportes más Intuitivos </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/master/reports/record-export") }}">- Ventanas con Multivistas Integradas </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/master/reports/record-export") }}">- Paginación por Ventana </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/basic-steps/user-interface") }}">- Notificación de Procesos Culminados </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/master/reports/record-export") }}">- Exportación de Registros del Lado del Cliente </a><br />
+                    </span>
             </p>
         </td>
     </tr>
+
+
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                    Usabilidad
+                <br />
+                <span class="linkdescr">
+                    - Más Práctico para Ejecutar Procesos <br />
+                    <a class="biglink" href="{{ pathto("adempiere/pos-management/index") }}">- POS más Amigable </a><br />
+                    - Se Guarda la Última Preferencia por Proceso
+                    <a class="biglink" href="{{ pathto("adempiere/basic-steps/toolbar") }}">- Incorporación de Referencias, Acciones y Relaciones como Estándar para Navegar entre Opciones </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/basic-steps/props") }}">- Manejo de Notas Integradas con la Ventana </a><br />
+                </span>
+            </p>
+        </td>
+
+        <td width="50%">
+            <p class="biglink">
+                    Rendimiento
+                <br />
+                <span class="linkdescr">
+                    - Incorporación de Límite en las Consultas (50 Registros Máximo por Página)
+                    - Mejora en Caché del Lado del Cliente: Procesos, Ventanas Smart Browser
+                    - Ventanas de Millones de Registros son Consultadas en Segundos
+                    - Incorporación de Proxy para Distribución de Carga con el Backend y Posible Balanceo
+                    - Implementación de Middleware para Caché y Redimensionado de Imágenes
+                </span>
+            </p>
+        </td>
+    </tr>
+
+
+    <tr>
+        <td width="50%">
+            <p class="biglink">
+                    Seguridad
+                <br />
+                <span class="linkdescr">
+                    - Implementación de Token para Acceso de Terceros
+                    - Capa de Seguridad Adicional entre el Cliente Web y el Backend
+                    - El cliente no tiene manera de saber dónde están alojados los datos o el Backend de ADempiere
+                    <a class="biglink" href="{{ pathto("adempiere/basic-steps/login") }}"></a>- Reinicio de Password </a><br />
+                    <a class="biglink" href="{{ pathto("adempiere/basic-steps/props") }}"></a>- Bitácora de Cambio Integrada a la Ventana </a><br />
+                </span>
+            </p>
+        </td>
+
+    </tr>
+
 </table>
 
 <h2>Para Mayor Información</h2>

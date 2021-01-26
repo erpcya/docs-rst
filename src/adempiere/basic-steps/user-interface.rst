@@ -56,7 +56,7 @@ Muestra todos los procesos o documentos que el usuario tiene pendientes por fina
     Imagen 5. Tareas Pendientes
 
 **Notificaciones**
-******************
+------------------
 
     |Aviso|
 
@@ -69,7 +69,7 @@ Muestra todos los procesos o documentos que el usuario tiene pendientes por fina
     Imagem 7. Proceso Culminado
 
 **Pantalla Completa**
-*********************
+---------------------
 
     |Solicitud|
 

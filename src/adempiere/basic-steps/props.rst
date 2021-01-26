@@ -14,13 +14,19 @@
 
 En ADempiere la utilería no es más que un conjunto de instrumentos o herramientas que tienen algún tipo de utilidad, es decir, que sirven para un fin en específico, a continuación se definen cada uno de ellos.
 
-#. **Buscar:** Le permitirá realizar una búsqueda de un documento en específico.
+**Buscardor**
+-------------
+
+Le permitirá realizar una búsqueda de un documento en específico.
 
     |Buscar|
 
     Imagen 1. Buscar
 
-#. **Reinicia Cache:** Permitirá cerrar todas las ventanas,	para reiniciar cache ingrese reinicia caché en el buscador rápido del menú explicado anteriormente y reinicie.
+**Reinicia Cache**
+------------------
+
+Permitirá cerrar todas las ventanas. Para reiniciar cache ingrese reinicia caché en el buscador rápido explicado anteriormente y reinicie.
 
     |Reiniciar Cache|
 
@@ -38,7 +44,10 @@ En ADempiere la utilería no es más que un conjunto de instrumentos o herramien
 
         Imagen 4. Reinicio Exitoso del Cache
 
-#. **Manejo de Notas:** Permite agregar notas a los registros de las ventanas. Para acceder a la opción de notas de un registro, debe realizar el siguiente procedimiento.
+**Manejo de Notas**
+-------------------
+
+Permite agregar notas a los registros de las ventanas. Para acceder a la opción de notas de un registro, debe realizar el siguiente procedimiento.
 
     #. Ubique el registro al que requiere agregar la nota.
 
@@ -58,7 +67,10 @@ En ADempiere la utilería no es más que un conjunto de instrumentos o herramien
 
         Imagen 7. Ingresar Nota y Opción OK
 
-#. **Bitácora de Cambios:** Guarda todos los cambios realizados en los registros de las ventanas, indicando el socio del negocio que realizó el cambio, el campo que fue modificado con su valor anterior y su valor actual, la fecha y la hora exacta en la que el mismo fue realizado. Para acceder a la bitácora de cambios de un registro, debe realizar el siguiente procedimiento.
+**Bitácora de Cambios**
+-----------------------
+
+Guarda todos los cambios realizados en los registros de las ventanas, indicando el socio del negocio que realizó el cambio, el campo que fue modificado con su valor anterior y su valor actual, la fecha y la hora exacta en la que el mismo fue realizado. Para acceder a la bitácora de cambios de un registro, debe realizar el siguiente procedimiento.
 
     #. Ubique el registro al que requiere consultarle la bitácora.
 
