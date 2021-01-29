@@ -1,0 +1,4 @@
+G000200003030 01020000000000000000 0000394400000 00000101 Servicio Nacional Integrado de Admi                                    
+J000000000001 01050000000000000000 0000348000000 00000102 Dhl Express Aduanas Venezuela CA                                       
+J000000000002 01340000000000000000 0000220000000 00000103 Bolivariana de Puertos  ( Bolipuert                                    
+J000000000004 01050000000000000000 0000294640000 00000104 Proveedor Estndar                   proveedor-estandar@gmail.com       
