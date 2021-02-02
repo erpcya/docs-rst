@@ -1,5 +1,5 @@
 .. _ERPyA: http://erpya.com
-.. _src/general/released-versions:
+.. _src/general/release-notes:
 
 ========================
 **Notas de Liberación ADempiere ERP**
