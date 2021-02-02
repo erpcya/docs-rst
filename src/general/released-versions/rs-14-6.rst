@@ -2,6 +2,7 @@
 ==========
 
 **Soporte a versiones:**
+------------------------
 
 - FiscalPrinter:
  
@@ -22,6 +23,7 @@
  - Versión de Liberación: rs-2.5
   
 **Requerimientos:**
+-------------------
 
 Antes de aplicar esta versión se debe consiferar tener los siguientes servicios
 
@@ -37,6 +39,7 @@ Antes de aplicar esta versión se debe consiferar tener los siguientes servicios
  - Reconexión con el servidor
  
 **Nota crítica:**
+-----------------
 
 - Al montar la versión 1.2.6 de FiscalPrinter es obligatorio tener la versión de liberación rs-2.2 de FiscalPrinter-Listener, si no se tiene configurado el listener los documentos impresos no serán actualizados
 - A partir de esta versión se debe cambiar la configuración de los documentos fiscales:
@@ -46,6 +49,7 @@ Antes de aplicar esta versión se debe consiferar tener los siguientes servicios
  - Desde el POS se usará el "Manejador de Impresión de Tickets" "Print Ticket Handler"
 
 **Detalle Técnico:**
+--------------------
 
 - FiscalPrinter-API:
   
@@ -66,6 +70,7 @@ Antes de aplicar esta versión se debe consiferar tener los siguientes servicios
  - Soporte a la versión 1.3.3 de Fiscal Printer API
 
 **Novedades:**
+--------------
 
 - **Mejoras:**
  
