@@ -2,7 +2,7 @@
 ===========
 
 **Soporte a versiones:**
-**********************
+------------------------
 
 - FiscalPrinter:
  
@@ -26,7 +26,7 @@
  - Versión: 1.0.9
   
 **Información de interés:**
-**************************
+---------------------------
 
 Antes de aplicar esta versión se debe considerar tener los siguientes servicios
 
@@ -47,7 +47,7 @@ Antes de aplicar esta versión se debe considerar tener los siguientes servicios
  - Corrige problema con documentos por pagar multi-moneda
 
 **Nota crítica:**
-*****************
+-----------------
 
 - Se deben aplicar los siguientes XML's
  
@@ -66,7 +66,7 @@ Antes de aplicar esta versión se debe considerar tener los siguientes servicios
  - Todos los documentos de orden de compra de consignación deben tener obligatoriamente marcado en verdadero el campo **"Entrega Directa"**
 
 **Detalle Técnico:**
-********************
+--------------------
 
 - FiscalPrinter: 
  
@@ -90,7 +90,7 @@ Antes de aplicar esta versión se debe considerar tener los siguientes servicios
  - Fixed error with default organization for Sales Order updated from POS
 
 **Novedades:**
-**************
+--------------
 
 - **Mejoras:**
  
