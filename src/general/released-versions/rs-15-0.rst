@@ -2,6 +2,7 @@
 ===========
 
 **Soporte a versiones:**
+------------------------
 
 - ADempiereBase:
  
@@ -15,16 +16,19 @@
 - Exchange-Operation-System: 1.1.2
 
 **Nota crítica:**
+-----------------
 
 - Este cambio afecta la tasa de conversión para la validación de tasa duplicada
 
 **Detalle Técnico:**
+--------------------
 
 - Exchange-Operation-System: Add validation for currency rates only for specific columns
 
 **Novedades:**
+--------------
 
-- Correcciones:
+- **Correcciones:**
  
  - Ya la validación de tasa duplicada solamente aplica cuando se cambian los siguientes campos:
   
