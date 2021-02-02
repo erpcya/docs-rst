@@ -8,6 +8,10 @@
 **Información de Productos**
 ============================
 
+ADempiere permite realizar una búsqueda avanzada de productos a través del código o nombre del mismo, en la ventana de consulta "**Información de Productos**". Para ello, fue realizada la creación y configuración del usuario "**consulta**", con la finalidad de que el mismo pueda realizar una consulta detallada de los productos con sus respectivos precios y cantidades en existencia.
+
+El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para consultar la información de los productos registrados en ADempiere.
+
 #. Ubique en el menú de ADempiere, la ventana de consulta "**Información de Productos**".
 
     |menú de información de productos|
