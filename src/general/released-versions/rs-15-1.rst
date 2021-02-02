@@ -27,6 +27,6 @@
 **Novedades:**
 --------------
 
-- Correcciones:
+- **Correcciones:**
  
  - Ya los documentos no contabilizan en negativo cuando en el esquema contable no está seleccionada la opción "Permitir Contabilización en Negativo"
