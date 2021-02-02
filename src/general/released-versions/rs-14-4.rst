@@ -2,6 +2,7 @@
 ===========
 
 **Soporte a versiones:**
+------------------------
 
 - FiscalPrinter:
 
@@ -17,6 +18,7 @@
  - Versión de Liberación: rs-18.5
 
 **Requerimientos:**
+-------------------
 
 Antes de aplicar esta versión se debe aplicar los siguientes XML's
 
@@ -29,10 +31,12 @@ Antes de aplicar esta versión se debe aplicar los siguientes XML's
  - Montar el nuevo servicio de Impresión Fiscal
 
 **Nota crítica:**
+-----------------
 
 Es obligatorio aplicar los XML's antes del cambio puesto que se requieren para:
 
 **Detalle Técnico:**
+--------------------
 
 - FiscalPrinter: 
 
@@ -51,6 +55,7 @@ Es obligatorio aplicar los XML's antes del cambio puesto que se requieren para:
  - Corrección de nombres de transacciones cuando se POInfo y POInfoColumn
 
 **Novedades:**
+--------------
 
 - **Mejoras:**
  
