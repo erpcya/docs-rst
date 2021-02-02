@@ -2,10 +2,12 @@
 ==========
 
 **Soporte a versiones:**
+------------------------
 
 - Additional-Reports: 1.0.0
 
 **Requerimientos:**
+-------------------
 
 Antes de aplicar esta versión se debe aplicar los siguientes XML's
 
@@ -16,6 +18,7 @@ Antes de aplicar esta versión se debe aplicar los siguientes XML's
   - 05780_Add_Statement_Of_Account_Parameters.xml
 
 **Nota crítica:**
+-----------------
 
 Es obligatorio aplicar los XML's antes del cambio puesto que se requieren para:
 
@@ -25,6 +28,7 @@ Es obligatorio aplicar los XML's antes del cambio puesto que se requieren para:
  - Agrega moneda como columna a la tabla temporal de estado de cuenta
 
 **Novedades:**
+--------------
 
 - Se agrega soporte a estado de cuentas por socio de negocio en función de una moneda a convertir (por defecto la moneda de la compañía)
 - Se eliminan dependencias no utilizadas en CST-STD
