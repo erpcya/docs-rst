@@ -2,6 +2,7 @@
 ===========
 
 **Soporte a versiones:**
+**********************
 
 - FiscalPrinter:
  
