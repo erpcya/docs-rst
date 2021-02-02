@@ -1,4 +1,4 @@
-**Versión: rs-14.1**
+**rs-14.1**
 ===================
 
 **Soporte a versiones:**
