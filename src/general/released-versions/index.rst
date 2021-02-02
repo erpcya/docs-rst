@@ -2,7 +2,7 @@
 .. _src/general/released-versions:
 
 ========================
-**Detalle de Versiones**
+**Notas de Liberación ADempiere ERP**
 ========================
 
 `ERPyA`_ presenta el siguiente material que otorga a nuestros lectores, la información necesaria sobre las versiones de ADempiere que han sido liberadas.
@@ -36,4 +36,6 @@
     rs-16-5
     rs-16-6
     rs-16-7
+    rs-16-8
+    rs-16-9
 
