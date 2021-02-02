@@ -2,13 +2,13 @@
 .. _src/general/released-versions:
 
 =======================
-**Versiones Liberadas**
+**Detalle **
 =======================
 
 `ERPyA`_ presenta el siguiente material que otorga a nuestros lectores, la información necesaria sobre las versiones de ADempiere que han sido liberadas.
 
 .. toctree::
-    :maxdepth: 2
+    :maxdepth: 1
 
     rs-14-1
     rs-14-2
