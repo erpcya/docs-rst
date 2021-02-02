@@ -2,6 +2,7 @@
 ==========
 
 **Soporte a versiones:**
+------------------------
 
 - ADempiereBase:
  
@@ -13,6 +14,7 @@
 - Consigned-Material: 1.0.8
 
 **Nota crítica:**
+-----------------
 
 - Este cambio afecta la contabilización de los documentos cuando un documento está en negativo
 - La contabilización de los documentos en consignación quedan en cero para los siguientes:
@@ -22,11 +24,13 @@
  - Cotejar Factura
 
 **Detalle Técnico:**
+--------------------
 
 - CST-STD: Change Fixed error with build path
 - Consigned-Material: Remove fact records from consigned material
 
 **Novedades:**
+--------------
 
 - Correcciones:
  
