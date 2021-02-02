@@ -1,0 +1,45 @@
+Versión: rs-14.5
+Soporte a versiones:
+- FiscalPrinter:
+  - Librería: org.erpya.adempiere.fiscal-printer.fiscal-printer-client
+  - Versión: 1.2.6
+- FiscalPrinter-API:
+  - Librería: org.erpya.fiscal-printer.tools.fiscal-printer-api
+  - Versión: 1.3.1
+- FiscalPrinter-Server:
+  - Versión de Liberación: rs-3.5
+- FiscalPrinter-Listener:
+  - Versión de Liberación: rs-2.3
+
+Requerimientos:
+Antes de aplicar esta versión se debe aplicar los siguientes XML's
+- FiscalPrinter: 
+  - 07000_Change_Column_Type_for_Fiscal_Print_Date.xml
+- FiscalPrinter-Server:
+ - Montar el nuevo servicio de Impresión Fiscal
+ - Soporte a Reconexión con el servidor
+
+Nota crítica:
+- Al montar la versión 1.2.6 de FiscalPrinter es obligatorio tener la versión de liberación rs-2.2 de FiscalPrinter-Listener, si no se tiene configurado el listener los documentos impresos no serán actualizados
+- A partir de esta versión se debe cambiar la configuración de los documentos fiscales:
+  - La configuración "Imprimir Después de Completar" se debe deshacer
+  - La forma de imprimir un documento fiscal será a través del botón / proceso de "Imprimir Factura En Impresora Fiscal"
+  - Desde el POS se usará el "Manejador de Impresión de Tickets" "Print Ticket Handler"
+
+Detalle Técnico:
+- FiscalPrinter-API:
+  - Se agrega soporte a setup basado en Impresora, Base de Datos, Escuchador y Servidor
+- FiscalPrinter: 
+  - Se remueve el soporte a devolver datos de la impresión fiscal y el tiempo de espera prolongado
+- FiscalPrinter-Server:
+  - Validación de error cuando no existe conexión al servidor RethinkDB
+- FiscalPrinter-Listener:
+  - Soporte a guardar la fecha y hora de impresión del documento fiscal
+  - Corrección de número de documento <Serie de Impresora>-<null>
+
+Novedades:
+- Mejoras:
+  - Se disminuye el tiempo de espera entre ADempiere y el servidor de impresión fiscal
+  - El envío del documento fiscal se convierte en un envío asíncrono
+  - Se disminuye el consumo de memoria en espera de respuesta de impresora fiscal en ADempiere
+  - Se elimina transacción bloqueante mientras se espera respuesta de documento
