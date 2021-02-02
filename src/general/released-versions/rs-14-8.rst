@@ -2,6 +2,7 @@
 ===========
 
 **Soporte a versiones:**
+------------------------
 
 - ADempiereBase:
  
@@ -12,6 +13,7 @@
  - Versión de Liberación: rs-18.8
 
 **Nota crítica:**
+-----------------
 
 - Se debe verificar que existan los siguientes XML's y si no existen se deben aplicar para cada una de las instalaciones (Los XML's se encuentran en el directoriio migration/393lts-394lts de ADempiereBase):
  
@@ -35,6 +37,7 @@
   - 07240_Change_Deposit_from_Cash_References.xml
 
 **Detalle Técnico:**
+--------------------
 
 - ADempiereBase: 
  
@@ -45,6 +48,7 @@
  - Add compatibility with 3.9.3-rs-3.9 of ERPyA granted version
 
 **Novedades:**
+--------------
 
 - Mejoras:
  
