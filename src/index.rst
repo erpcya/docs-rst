@@ -17,7 +17,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     general/openproject/index
     general/slack/index
     general/rst/index
-    general/released-versions/index
+    general/release-notes/index
 
 .. toctree::
     :caption: ADEMPIERE ERP/CRM
