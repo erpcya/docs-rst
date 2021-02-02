@@ -1,0 +1,32 @@
+Versión: rs-15.2
+Soporte a versiones:
+- ADempiereBase:
+  - Versión de Liberación: 3.9.3-rs-3.9
+- CST-STD
+  - Versión de Liberación: rs-19.2
+- Consigned-Material: 1.0.8
+- Exchange-Operation-System: 1.1.2
+- Cash-Management: 1.0.3
+
+Nota crítica:
+- Para que este cambio funcione es necesario aplicar los siguientes XML's:
+    - Cash-Management:
+        - 06460_Add_Cash_Management_Entity_Type.xml
+        - 06470_Add_Cash_Management_Definition.xml
+        - 06940_Add_Functionality_Setup.xml
+        - 07070_Add_Link_Column_for_Tab.xml
+        - 07080_Add_Payment_Refund_functionality.xml
+
+Detalle Técnico:
+- CST-STD: Just a little change that set client from role when a token is generated
+from a role. This prevent a "Token Not Found" message
+- Cash-Management: Add Payment refund report
+
+Novedades:
+- Correcciones:
+    - El token generado desde un usuario y rol ya establece la compañía basado en el rol seleccionado y no desde el contexto
+- Mejoras
+  - Con la nueva versión de Manejo de Caja se puede:
+    - Crear Pago / Cobro o Caja con operaciones normales asociados a un socio de negocio para reembolso
+    - Se puede decidir si usar el proceso normal para reembolso de cajas o usar el modelo de socio de negocio de reembolso
+    - Se tiene un nuevo reporte para el "Detalle de Reembolso"

@@ -1,0 +1,16 @@
+Versión: rs-14.2
+Soporte a versiones:
+- Additional-Reports: 1.0.0
+Requerimientos:
+Antes de aplicar esta versión se debe aplicar los siguientes XML's
+- Additional-Reports: 
+  - 05470_Add_Bank_Balnce_to_Date_Report.xml
+  - 05480_Add_Statement_Of_Account.xml
+  - 05780_Add_Statement_Of_Account_Parameters.xml
+Nota crítica:
+Es obligatorio aplicar los XML's antes del cambio puesto que se requieren para:
+- Additional-Reports: 
+  - Agrega soporte a conversión de Estado de Cuenta de Socio de negocio en función de una moneda de parámetro
+  - Agrega moneda como columna a la tabla temporal de estado de cuenta
+Novedades:
+- Se agrega soporte a estado de cuentas por socio de negocio en función de una moneda a convertir (por defecto la moneda de la compañía)
