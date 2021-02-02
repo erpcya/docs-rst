@@ -1,9 +1,9 @@
 .. _ERPyA: http://erpya.com
 .. _src/general/released-versions:
 
-=======================
-**Detalle **
-=======================
+========================
+**Detalle de Versiones**
+========================
 
 `ERPyA`_ presenta el siguiente material que otorga a nuestros lectores, la información necesaria sobre las versiones de ADempiere que han sido liberadas.
 
