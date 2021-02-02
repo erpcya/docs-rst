@@ -1,24 +1,36 @@
-Versión: rs-15.0
-Soporte a versiones:
+**rs-15.0**
+===========
+
+**Soporte a versiones:**
+
 - ADempiereBase:
-  - Versión de Liberación: 3.9.3-rs-3.9
+ 
+ - Versión de Liberación: 3.9.3-rs-3.9
+
 - CST-STD
-  - Versión de Liberación: rs-19.0
+ 
+ - Versión de Liberación: rs-19.0
+
 - Consigned-Material: 1.0.8
 - Exchange-Operation-System: 1.1.2
 
-Nota crítica:
+**Nota crítica:**
+
 - Este cambio afecta la tasa de conversión para la validación de tasa duplicada
 
-Detalle Técnico:
+**Detalle Técnico:**
+
 - Exchange-Operation-System: Add validation for currency rates only for specific columns
 
-Novedades:
+**Novedades:**
+
 - Correcciones:
-  - Ya la validación de tasa duplicada solamente aplica cuando se cambian los siguientes campos:
-    - Válido Desde
-    - Válido Hasta
-    - Organización
-    - Tipo de Conversión
-    - Moneda (Desde)
-    - Moneda (Hasta)
+ 
+ - Ya la validación de tasa duplicada solamente aplica cuando se cambian los siguientes campos:
+  
+  - Válido Desde
+  - Válido Hasta
+  - Organización
+  - Tipo de Conversión
+  - Moneda (Desde)
+  - Moneda (Hasta)
