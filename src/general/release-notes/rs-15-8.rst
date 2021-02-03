@@ -5,11 +5,11 @@
 ------------------------
 
 - ADempiereBase:
- 
+
  - Versión de Liberación: 3.9.3-rs-4.0
 
 - CST-STD
- 
+
  - Versión de Liberación: rs-19.3
 - Consigned-Material: 1.1.1
 - Exchange-Operation-System: 1.1.3
@@ -29,7 +29,7 @@
 
 Nota crítica:
 - Se deben aplicar los siguientes XML's:
-    - RawMaterialReceipt: 06510_Add_Freight_Order_for_Quality_Analysis.xml
+ - RawMaterialReceipt: 06510_Add_Freight_Order_for_Quality_Analysis.xml
 
 **Nota crítica:**
 -----------------
@@ -54,8 +54,8 @@ Nota crítica:
 **Novedades:**
 --------------
 
-- Correcciones:
- 
+- **Correcciones:**
+
  - Ahora se recalcula el monto del crédito en el Programa de Asistencia al Productor
  - Corrección de lista de precio para generar orden de venta desde Hoja Técnica
  - Generación de recibo express desde Registro de Peso cuando está asociado a una Orden de Flete
