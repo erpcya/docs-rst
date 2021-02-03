@@ -176,34 +176,115 @@
 
         Imagen 18. Archivo o Documento Exportado 
 
-    #. Al abrir el archivo podrá visualizarlo de la siguiente manera
-
-        ::
-
-            J000000006	202101	2020-06-15	C	01	J000000779	10739	00-012468	12713872.59	10960234.99	1753637.60	0	20210110058697	0.00	16.00	0
-            J000000006	202101	2020-08-27	C	01	J000000779	11048	00-012798	10086543.36	8695296.00	1391247.36	0	20210110058701	0.00	16.00	0
-            J000000006	202101	2020-10-13	C	01	J000000779	11236	00-012997	171375555.12	147737547.49	23638007.63	0	20210110058700	0.00	16.00	0
-            J000000006	202101	2020-12-22	C	01	J000000605	00007014	00-008546	22554057.84	19443153.31	2333178.40	0	20210110058704	0.00	16.00	0
-
-    #. Dicho archivo contiene la siguiente descripción, explicada de manera detallada en el documento :download:`Formato_TXT_IVA.pdf`
-
-        - **RIF del Agente de Retención**, en el archivo el rif del agente de retención es "**J000000006**"
-        - **Periodo Impositivo**, en el archivo el periodo de facturación es "**202101**"
-        - **Fecha de Factura**, en el archivo las fechas de las facturas son "**2020-06-15**", "**2020-08-27**", "**2020-10-13**", "**2020-12-22**"
-        - **Tipo de Operación**, este puede ser "**C = compre; V = ventas**", en el archivo el tipo de operación es "**C**"
-        - **Tipo de Documento**, este puede ser "**01 = Factura; 02 = Nota de Debito; 03 = Notas de Créditos**", en el archivo el tipo de documento es "**01**"
-        - **Rif del Proveedor**, en el archivo los rif de los proveedores son "**J000000779**", "**J000000605**"
-        - **Número de Factura**, en el archivo los números de facturas son "**10739**", "**11048**", "**11236**", "**00007014**"
-        - **Número de Control**, en el archivo los números de control de las facturas son "**00-012468**", "**00-012798**", "**00-012997**", "**00-008546**"
-        - **Monto Total de la Factura**, en el archivo los montos totales de las facturas son "**12713872.59**", "**10086543.36**", "**171375555.12**", "**22554057.84**"
-        - **Total Base del Impuesto**, en el archivo los totales base de los impuestos son "**10960234.99**", "**8695296.00**", "**147737547.49**", "**19443153.31**"
-        - **Monto del IVA Retenido**, en el archivo los montos del IVA retenidos son "**1753637.60**", "**1391247.36**", "**23638007.63**", "**2333178.40**"
-        - **Número de Documento Afectado**, esta es la factura que dio origen a la nota de crédito o nota de débito. En el archivo el número de documento afectado es "**0**"
-        - **Números de Comprobante de Retención**, en el archivo los números de comprobantes de retenciones son "**20210110058697**", "**20210110058701**", "**20210110058700**", "**20210110058704**"
-        - **Monto Exento del IVA**, en el archivo el monto exento del IVA es "**0.00**"
-        - **Alícuota**", en el archivo la alícuota es "**16.00**"
-        - **Numero de Expediente**, en el archivo el número de expediente es "**0**"
-
 .. note::
 
     La declaración de las retenciones municipales de cuentas por pagar, varia según el municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. En ADempiere, dicha declaración es generada realizando los procesos :ref:`paso/generar-declaración-retenciones` y :ref:`paso/consultar-declaración-retenciones`, anteriormente explicados en el presente material.
+
+**Archivo TXT de IVA Exportado**
+--------------------------------
+
+#. Al abrir el archivo podrá visualizarlo de la siguiente manera
+
+    ::
+
+        J000000006	202101	2020-06-15	C	01	J000000779	10739	00-012468	12713872.59	10960234.99	1753637.60	0	20210110058697	0.00	16.00	0
+        J000000006	202101	2020-08-27	C	01	J000000779	11048	00-012798	10086543.36	8695296.00	1391247.36	0	20210110058701	0.00	16.00	0
+        J000000006	202101	2020-10-13	C	01	J000000779	11236	00-012997	171375555.12	147737547.49	23638007.63	0	20210110058700	0.00	16.00	0
+        J000000006	202101	2020-12-22	C	01	J000000605	00007014	00-008546	22554057.84	19443153.31	2333178.40	0	20210110058704	0.00	16.00	0
+
+#. Dicho archivo contiene la siguiente descripción, explicada de manera detallada en el documento :download:`Formato_TXT_IVA.pdf`
+
+    - **RIF del Agente de Retención**, en el archivo el rif del agente de retención es "**J000000006**"
+    - **Periodo Impositivo**, en el archivo el periodo de facturación es "**202101**"
+    - **Fecha de Factura**, en el archivo las fechas de las facturas son "**2020-06-15**", "**2020-08-27**", "**2020-10-13**", "**2020-12-22**"
+    - **Tipo de Operación**, este puede ser "**C = compre; V = ventas**", en el archivo el tipo de operación es "**C**"
+    - **Tipo de Documento**, este puede ser "**01 = Factura; 02 = Nota de Debito; 03 = Notas de Créditos**", en el archivo el tipo de documento es "**01**"
+    - **Rif del Proveedor**, en el archivo los rif de los proveedores son "**J000000779**", "**J000000605**"
+    - **Número de Factura**, en el archivo los números de facturas son "**10739**", "**11048**", "**11236**", "**00007014**"
+    - **Número de Control**, en el archivo los números de control de las facturas son "**00-012468**", "**00-012798**", "**00-012997**", "**00-008546**"
+    - **Monto Total de la Factura**, en el archivo los montos totales de las facturas son "**12713872.59**", "**10086543.36**", "**171375555.12**", "**22554057.84**"
+    - **Total Base del Impuesto**, en el archivo los totales base de los impuestos son "**10960234.99**", "**8695296.00**", "**147737547.49**", "**19443153.31**"
+    - **Monto del IVA Retenido**, en el archivo los montos del IVA retenidos son "**1753637.60**", "**1391247.36**", "**23638007.63**", "**2333178.40**"
+    - **Número de Documento Afectado**, esta es la factura que dio origen a la nota de crédito o nota de débito. En el archivo el número de documento afectado es "**0**"
+    - **Números de Comprobante de Retención**, en el archivo los números de comprobantes de retenciones son "**20210110058697**", "**20210110058701**", "**20210110058700**", "**20210110058704**"
+    - **Monto Exento del IVA**, en el archivo el monto exento del IVA es "**0.00**"
+    - **Alícuota**", en el archivo la alícuota es "**16.00**"
+    - **Numero de Expediente**, en el archivo el número de expediente es "**0**"
+
+**Archivo XML de ISLR Exportado**
+---------------------------------
+
+#. Al abrir el archivo podrá visualizarlo de la siguiente manera
+
+    ::
+
+        <?xml version="1.0" encoding="ISO-8859-1" standalone="no"?>
+        <RelacionRetencionesISLR Periodo="202101" RifAgente="J000000006">
+        <DetalleRetencion>
+        <RifRetenido>V000000765</RifRetenido>
+        <NumeroFactura>004208</NumeroFactura>
+        <NumeroControl>00003708</NumeroControl>
+        <FechaOperacion>04/01/2021</FechaOperacion>
+        <CodigoConcepto>061</CodigoConcepto>
+        <MontoOperacion>100000000</MontoOperacion>
+        <PorcentajeRetencion>3</PorcentajeRetencion>
+        </DetalleRetencion>
+        <DetalleRetencion>
+        <RifRetenido>J000000071</RifRetenido>
+        <NumeroFactura>09201</NumeroFactura>
+        <NumeroControl>000009201</NumeroControl>
+        <FechaOperacion>07/01/2021</FechaOperacion>
+        <CodigoConcepto>055</CodigoConcepto>
+        <MontoOperacion>350630417.88</MontoOperacion>
+        <PorcentajeRetencion>2</PorcentajeRetencion>
+        </DetalleRetencion>
+        <DetalleRetencion>
+        <RifRetenido>J000000071</RifRetenido>
+        <NumeroFactura>09202</NumeroFactura>
+        <NumeroControl>000009202</NumeroControl>
+        <FechaOperacion>07/01/2021</FechaOperacion>
+        <CodigoConcepto>055</CodigoConcepto>
+        <MontoOperacion>211893850.52</MontoOperacion>
+        <PorcentajeRetencion>2</PorcentajeRetencion>
+        </DetalleRetencion>
+        <DetalleRetencion>
+        <RifRetenido>V000000523</RifRetenido>
+        <NumeroFactura>001653</NumeroFactura>
+        <NumeroControl>00001403</NumeroControl>
+        <FechaOperacion>07/01/2021</FechaOperacion>
+        <CodigoConcepto>053</CodigoConcepto>
+        <MontoOperacion>28524126.97</MontoOperacion>
+        <PorcentajeRetencion>1</PorcentajeRetencion>
+        </DetalleRetencion>
+        <DetalleRetencion>
+        <RifRetenido>V000000266</RifRetenido>
+        <NumeroFactura>0595</NumeroFactura>
+        <NumeroControl>00000595</NumeroControl>
+        <FechaOperacion>08/01/2021</FechaOperacion>
+        <CodigoConcepto>053</CodigoConcepto>
+        <MontoOperacion>79540800</MontoOperacion>
+        <PorcentajeRetencion>1</PorcentajeRetencion>
+        </DetalleRetencion>
+        <DetalleRetencion>
+        <RifRetenido>V000000917</RifRetenido>
+        <NumeroFactura>000281</NumeroFactura>
+        <NumeroControl>00000281</NumeroControl>
+        <FechaOperacion>08/01/2021</FechaOperacion>
+        <CodigoConcepto>053</CodigoConcepto>
+        <MontoOperacion>10530804</MontoOperacion>
+        <PorcentajeRetencion>1</PorcentajeRetencion>
+        </DetalleRetencion>
+        </RelacionRetencionesISLR>
+
+
+#. Dicho archivo contiene la siguiente descripción, explicada de manera detallada en el documento :download:`Formato_XML_ISLR.pdf`
+
+    - **RifAgente:** Número de registro de información fiscal (RIF) del agente de retención. El primer carácter corresponde a una letra (V,E,J,P,G) y los 9 restantes a números. En el ejemplo anterior el rif del agente es "**J000000006**"
+    - **Periodo:** Corresponde al año y mes de la declaración (AAAAMM). En el ejemplo anterior el periodo es "**202101**"
+    - **RifRetenido:** Número de registro de información fiscal (RIF) del sujeto retenido. El primer carácter corresponde a una letra (V,E,J,P,G) y los 9 restantes a números. En el ejemplo anterior los rif de los sujetos retenidos son "**V000000765**", "**J000000071**", "**J000000071**", "**V000000523**", "**V000000266**", "**V000000917**"
+    - **NumeroFactura:** Número de la factura que recibe el agente de retención. En caso de no poseer número de factura debe colocar 0 (cero). En caso de poseer más de diez (10) dígitos, coloque los últimos diez. En el ejemplo anterior los números de facturas son "**004208**", "**09201**", "**09202**", "**001653**", "**0595**", "**000281**"
+    - **NumeroControl:** Número de control que recibe el agente de retención. Sólo debe colocar los dígitos correspondientes al secuencial numérico. De no existir número de control debe colocar NA. En el ejemplo anterior los números de control son "**00-003708**", "**00-0009201**", "**00-0009202**", "**00-001403**", "**00-000595**", "**00-000281**"
+    - **FechaOperacion:** Fecha en la que fue efectuada la operación. En el ejemplo anterior la fecha de operación es "**08/01/2021**"
+    - **CodigoConcepto:** Código del concepto de retención. En el ejemplo anterior, el código de concepto es "**053**"
+    - **MontoOperacion:** Monto total de la operación sobre el cual se va a aplicar la retención. El separador para los valores decimales es el punto (.). Sólo se permiten 02 posiciones decimales. En el ejemplo anterior los montos de la operación son "**100000000	**", "**350630417,88**", "**211893850,52**", "**28524126,97**", "**79540800**", "**10530804**"
+    - **PorcentajeRetencion:** Porcentaje de retención que se aplicará. En el ejemplo anterior los porcentajes de retenciones son "**3**", "**2**", "**2**", "**1**", "**1**", "**1**"
