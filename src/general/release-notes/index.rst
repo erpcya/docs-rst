@@ -40,3 +40,4 @@ Las notas de liberación muestran todo el histórico de cambios en las versiones
     rs-16-9
     rs-17-0
     rs-17-1
+    rs-17-2
