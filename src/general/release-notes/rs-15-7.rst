@@ -1,14 +1,21 @@
-Versión: rs-15.8
-Soporte a versiones:
+**rs-15.7**
+===========
+
+**Soporte a versiones:**
+------------------------
+
 - ADempiereBase:
-  - Versión de Liberación: 3.9.3-rs-4.0
+ 
+ - Versión de Liberación: 3.9.3-rs-4.0
+
 - CST-STD
-  - Versión de Liberación: rs-19.3
+ 
+ - Versión de Liberación: rs-19.3
 - Consigned-Material: 1.1.1
 - Exchange-Operation-System: 1.1.3
 - Cash-Management: 1.0.4
 - Currency-Convert-Documents: 1.0.3
-- Farmer-Assistance-Program: 1.0.6
+- Farmer-Assistance-Program: 1.0.5
 - RethinkDB-Replicator-Client: 1.0.7
 - Third-Party-Access: 1.0.1
 - FiscalPrinter: 1.3.1
@@ -20,21 +27,26 @@ Soporte a versiones:
 - Additional-Reports: 1.0.1
 - LVE: 1.2.3
 
-Nota crítica:
-- Se deben aplicar los siguientes XML's:
-    - RawMaterialReceipt: 06510_Add_Freight_Order_for_Quality_Analysis.xml
+**Nota crítica:**
+-----------------
 
-Detalle Técnico:
+- Se deben aplicar los siguientes XML's:
+ 
+ - Additional-Reports: 05790_Add_Currency_for_Statement_of_Account.xml
+
+**Detalle Técnico:**
+--------------------
+
 - CST-STD: Remove unnecessary patches and add compatibility with 3.9.3-rs-4.0 from a role. This prevent a "Token Not Found" message
 - Cash-Management: Remove Functionality Setup Implementation for replace by core setup
 - Consigned-Material: Remove: Functionality Setup Implementation for replace by core setup
 - Currency-Convert-Documents: Functionality Setup Implementation for replace by core setup
-- Farmer-Assistance-Program: Fixed multiple errors for functionality
+- Farmer-Assistance-Program: Add 1.0.5 version for library, Add deployment setup
 - RethinkDB-Replicator-Client: Functionality Setup Implementation for replace by core setup
 - Third-Party-Access: Add Deploy for Third Party Access
 - Exchange-Operation-System: Rename validators from org.spin.model.validator.ConversionRate to org.spin.eos.model.validator.ConversionRate and org.spin.model.validator.ExchangeOperationSystem to org.spin.eos.model.validator.ExchangeOperationSystem
 - FiscalPrinter: Add Deploy for Fiscal Printer
-- RawMaterialReceipt: Add Freight order for receipt
+- RawMaterialReceipt: Add Deploy for Raw Material Receipt
 - Sales-Force-Management: Add Deploy for Sales force Managhement
 - Delivery-Management-Service: Add Deploy for Delivery Management Service
 - Travel-Agency-Management: Add Deploy for Travel Agency Management
@@ -42,9 +54,10 @@ Detalle Técnico:
 - LVE: Se agrega configuración para LVE
 - Additional-Reports: Add support to multi-currency for account statement
 
-Novedades:
-- Correcciones:
-    - Ahora se recalcula el monto del crédito en el Programa de Asistencia al Productor
-    - Corrección de lista de precio para generar orden de venta desde Hoja Técnica
-    - Generación de recibo express desde Registro de Peso cuando está asociado a una Orden de Flete
-    - Validación al reactivar cultivo con referencia en Crédito de Productor
+**Novedades:**
+--------------
+
+- Cambios menores:
+ 
+ - Se agrega la moneda al estado de cuentas por socio de negocio
+ - Ahora se puede generar el Estado de Cuentas de Socio de Negocios en múltiples monedas
