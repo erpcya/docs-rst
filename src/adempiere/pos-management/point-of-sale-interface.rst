@@ -48,6 +48,23 @@
 .. |opción regresar del catálogo de productos| image:: resources/option-return-from-product-catalog.png
 .. |icono inicio para regresar al catálogo de productos| image:: resources/home-icon-to-return-to-the-product-catalog.png
 .. |ocultar catálogo de productos| image:: resources/hide-product-catalog.png
+.. |selección de icono mayor que del formulario punto de venta|
+.. |carpetas del panel de procesos|
+.. |carpeta orden de venta del formulario punto de venta|
+.. |opción nueva orden|
+.. |opción histórico de órdenes|
+.. |opción generar factura inmediata|
+.. |opción completar orden preparada|
+.. |opción anular transacción de venta|
+.. |opción crear retiro de punto de venta|
+.. |opción imprimir documento|
+.. |opción crear nueva orden de devolución|
+.. |opción cancelar orden|
+.. |opción apertura de caja|
+.. |opción retiro de efectivo|
+.. |opción cierre de caja|
+.. |opción cambiar punto de venta|
+.. |opción lista de productos y precios|
 
 .. _documento/interfaz-del-punto-de-venta:
 
@@ -410,25 +427,118 @@ Dicho catálogo permite que los productos sean cargados a la línea de la orden 
 **Opciones Rápidas del Punto de Ventas**
 ----------------------------------------
 
-El punto de ventas contiene un panel de opciones rápidas que permite acceder a diferentes procesos y ejecutarlos según sea el requerimiento del usuario en dicho momento. El panel cuenta con tres carpetas que contienen los procesos en base a su función.
+El punto de ventas contiene un panel de opciones rápidas que permite acceder a diferentes procesos y ejecutarlos según sea el requerimiento del usuario en dicho momento. El panel cuenta con tres carpetas que contienen los procesos en base a su función. Para acceder al panel y sus diferentes opciones, debe realizar lo siguiente.
 
-- **Orden de Venta:** Esta carpeta contiene todos los procesos necesarios para realizar correctamente la gestión de ventas desde el formulario "**Punto de Venta**". Dichos procesos se explican a continuación.
-    - **Nueva Orden:** Al seleccionar esta opción, se crea un nuevo registro en el formulario para crear una nueva orden de venta.
-    - **Histórico de Órdenes:** Esta opción permite realizar una búsqueda de las diferentes órdenes de venta, sin importar el estado de documento en el que se encuentren.
-    - **Generar Factura Inmediata:** Al seleccionar esta opción, permite generar una factura desde el punto de venta.
-    - **Completar Orden Preparada:** Esta opción permite imprimir una factura desde el punto de venta, sin realizar ningún tipo de cobro.
-    - **Anular Transacción de Venta:** Al seleccionar esta opción, se anula la transacción de venta realizada, generando una "**Orden de Devolución**", una "**Devolución**" y una "**Nota de Crédito**", para reflejar el ingreso de los productos por la devolución y el egreso monetario recibido por la venta de dichos productos.
-    - **Crear Retiro de Punto de Venta:** Esta opción permite acceder al proceso de retiro de fondos del punto de venta.
-    - **Imprimir Documento:** Al seleccionar esta opción, cuando la orden de venta se encuentra en estado "**Borrador**", se genera un reporte para visualizar la orden de venta que esta realizando en el punto de venta. Dicho reporte es visualizado en la ventana “**Informe**”. Al seleccionar esta opción, cuando la orden de venta se encuentra en estado "**Completo**", se imprime la orden de venta. 
-    - **Crear Nueva Orden de Devolución:** Esta opción permite realizar una devolución parcial de la venta realizada.
-    - **Cancelar Orden**: Al seleccionar esta opción, se cancela o anula la orden de venta que esta realizando el usuario vendedor y dicha orden deja de estar disponible.
+#. Seleccione el icono "**>**" ubicado del lado izquierdo del formulario "**Punto de Venta**", para mostrar el panel de acceso a los procesos del punto.
 
-- **Gestión de Caja:**
+    |selección de icono mayor que del formulario punto de venta|
 
-    - **Apertura de Caja:** Esta opción permite realizar el retiro monetario de la caja.
-    - **Cierre de Caja:** Esta opción permite acceder al proceso de cierre de caja del punto de venta.
+    Imagen 49. Icono >
 
-- **Opciones Generales:**
+#. Podrá visualizar el panel con tres carpetas.
 
-    - **Cambiar Punto de Venta:** Esta opción permite cambiar de punto de venta (Terminal PDV), sin necesidad de cerrar sesión y volver a iniciar.
-    - **Lista de Productos y Precios:** Esta opción permite realizar una consulta detallada de los productos como la del icono "**Buscar**", del panel de búsqueda de productos del punto de venta, explicado en el procedimiento :ref:`documento/paso-panel-de-búsqueda-de-productos`, del presente material.
+    |carpetas del panel de procesos|
+
+    Imagen 50. Carpetas del Panel de Procesos
+
+#. Seleccione la carpeta "**Orden de Venta**", para acceder a los diferentes procesos que contiene el punto de venta.
+
+    Esta carpeta contiene todos los procesos necesarios para realizar correctamente la gestión de ventas desde el formulario "**Punto de Venta**". 
+
+    |carpeta orden de venta del formulario punto de venta|
+
+    Imagen 51. Carpeta Orden de Venta
+
+    Dichos procesos se explican a continuación.
+
+    #. Seleccione la opción **Nueva Orden:** Al seleccionar esta opción, se crea un nuevo registro en el formulario para crear una nueva orden de venta.
+
+        |opción nueva orden|
+
+        Imagen 52. Opción Nueva 
+
+    #. Seleccione la opción **Histórico de Órdenes:** Esta opción permite realizar una búsqueda de las diferentes órdenes de venta, sin importar el estado de documento en el que se encuentren.
+
+        |opción histórico de órdenes|
+
+        Imagen 53. Opción Histórico de Órdenes
+
+    #. Seleccione la opción **Generar Factura Inmediata:** Al seleccionar esta opción, permite generar una factura desde el punto de venta.
+
+        |opción generar factura inmediata|
+
+        Imagen 54. Opción Generar Factura Inmediata 
+
+    #. Seleccione la opción **Completar Orden Preparada:** Esta opción permite imprimir una factura desde el punto de venta, sin realizar ningún tipo de cobro.
+
+        |opción completar orden preparada|
+
+        Imagen 55. Opción Completar Orden Preparada
+
+    #. Seleccione la opción **Anular Transacción de Venta:** Al seleccionar esta opción, se anula la transacción de venta realizada, generando una "**Orden de Devolución**", una "**Devolución**" y una "**Nota de Crédito**", para reflejar el ingreso de los productos por la devolución y el egreso monetario recibido por la venta de dichos productos.
+
+        |opción anular transacción de venta|
+
+        Imagen 56. Opción Anular Transacción de Venta
+
+    #. Seleccione la opción **Crear Retiro de Punto de Venta:** Esta opción permite acceder al proceso de retiro de fondos del punto de venta.
+
+        |opción crear retiro de punto de venta|
+
+        Imagen 57. Opción Crear Retiro
+
+    #. Seleccione la opción **Imprimir Documento:** Al seleccionar esta opción, cuando la orden de venta se encuentra en estado "**Borrador**", se genera un reporte para visualizar la orden de venta que esta realizando en el punto de venta. Dicho reporte es visualizado en la ventana “**Informe**”. Al seleccionar esta opción, cuando la orden de venta se encuentra en estado "**Completo**", se imprime la orden de venta. 
+
+        |opción imprimir documento|
+
+        Imagen 58. Opción Imprimir Documento
+
+    #. Seleccione la opción **Crear Nueva Orden de Devolución:** Esta opción permite realizar una devolución parcial de la venta realizada.
+
+        |opción crear nueva orden de devolución|
+
+        Imagen 59. Opción Crear Nueva Orden de Devolución
+
+    #. Seleccione la opción **Cancelar Orden**: Al seleccionar esta opción, se cancela o anula la orden de venta que esta realizando el usuario vendedor y dicha orden deja de estar disponible.
+
+        |opción cancelar orden|
+
+        Imagen 60. Opción Cancelar Orden
+
+#. Seleccione la carpeta "**Gestión de Caja**", para acceder a los procesos de apertura retiro y cierre de caja contiene el punto de venta.
+
+    #. Seleccione la opción "**Apertura de Caja**", para realizar el proceso de apertura de caja del punto de venta.
+    
+        Esta opción permite realizar el ingreso monetario de la caja por concepto de apertura de la misma.
+
+        |opción apertura de caja|
+
+        Imagen 61. Opción Apertura de Caja
+
+    #. Seleccione la opción "**Retiro de Efectivo**", para realizar el proceso de retiro de dinero de la caja.
+
+        |opción retiro de efectivo|
+
+        Imagen 62. Opción Retiro de Efectivo
+
+    #. Seleccione la opción "**Cierre de Caja**", para realizar el proceso de cierre del cajad del punto de venta.
+
+        |opción cierre de caja|
+
+        Imagen 63. Opción Cierre de Caja
+
+#. Seleccione la carpeta "**Opciones Generales**", para acceder a los procesos generales del punto de venta.
+
+    #. Seleccione la opción "**Cambiar Punto de Venta**", para cambiar de punto de venta (Terminal PDV), sin necesidad de cerrar sesión y volver a iniciar.
+
+        Para cambiar de rol, simplemente se debe seleccionar la opción "**Cambiar Punto de Venta**" y finalmente seleccionar el terminal del punto de venta con el cual requiere realizar sus operaciones.
+
+        |opción cambiar punto de venta|
+
+        Imagen 64. Opción Cambiar Punto de Venta 
+
+    #. Seleccione la opción "**Lista de Productos y Precios**", para realizar una consulta detallada de los productos como la consulta del icono "**Buscar**", del panel de búsqueda de productos del punto de venta, explicado en el procedimiento :ref:`documento/paso-panel-de-búsqueda-de-productos`, del presente material.
+
+        |opción lista de productos y precios|
+
+        Imagen 65. Opción Lista de Productos y Precios
