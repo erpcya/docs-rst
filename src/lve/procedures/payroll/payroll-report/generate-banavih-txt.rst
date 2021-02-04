@@ -20,15 +20,30 @@ recursos a retener como aportes al fondo, en los siguientes pasos se mencionan e
 
 #. Posteriormente debe darle en el check list **OK**
 
- |Reporte|
+    |Reporte|
 
-        Imagen 1. Parámetros para obtener archivo 
+    Imagen 1. Parámetros para obtener archivo 
 
-Posteriormente puede ubicar en sus carpeta de descarga el archivo generado con el nombre que estará estructurado de la siguiente manera: la letra “N”,número de Cuenta Nomina (20 dígitos), Mes de la nómina (en formato MM),Año de la nómina (en formato AAAA).
+Posteriormente puede ubicar en su carpeta de descarga, el archivo generado con el nombre que estará estructurado de la siguiente manera: la letra “**N**”, el número de cuenta nómina (**20 dígitos**), el mes de la nómina (**en formato MM**), el año de la nómina (**en formato AAAA**).
 
-    Ejemplo: N03210951248430000001052009.txt 
+Se presenta como ejemplo, un archivo que puede descargar en el enlace :download:`N01050000000000000001012021.txt`, para corroborar que coincida la estructura con el documento generado de ADempiere.
 
-Por último verifica que su txt esté correctamente y procede a subir el archivo al portal. 
+Al descargar el mismo, se puede visualizar de la siguiente manera.
+
+::
+
+    V,000000052,EMPLEADO,ESTANDAR ,UNO,,1259500010,19102020,
+    V,00000091,EMPLEADO,ESTANDAR ,UNO,NUEVO ,1259500010,01032020,
+    V,00000055,EMPLEADO,ESTANDAR ,OTRO,NUEVO ,1259500010,01102019,
+    V,00000032,EMPLEADO,ESTANDAR ,DOS,,1259500010,12022019,
+    V,00000054,EMPLEADO,ESTANDAR ,DOS,NUEVO ,1259500010,23012020,
+    V,00000032,EMPLEADO,ESTANDAR ,OTRO,DOS ,1259500010,01022020,
+
+Adicional a ello, se explica la extructura del mismo:
+
+    - Primeramente se muestra el tipo de persona del empleado, seguido de su número de identificación. Luego se muestra el nombre completo del empleado, seguido del salario integral mensual del mismo. Finalmente se muestra la fecha de ingreso del empleado a la organización y si posee fecha final o de salida, esta se refleja luego de la fecha de ingreso. Los valores anteriormente nombrados, son separados en el archivo con el signo "**,**".
+
+Luego de verificar que su txt esté correctamente, puede proceder a subir el archivo al portal.
 
 
 
