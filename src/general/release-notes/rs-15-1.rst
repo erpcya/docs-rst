@@ -1,0 +1,32 @@
+**rs-15.1**
+==========
+
+**Soporte a versiones:**
+------------------------
+
+- ADempiereBase:
+ - Versión de Liberación: 3.9.3-rs-3.9
+
+- CST-STD
+ 
+ - Versión de Liberación: rs-19.1
+
+- Consigned-Material: 1.0.8
+- Exchange-Operation-System: 1.1.2
+
+**Nota crítica:**
+-----------------
+
+- Este cambio afecta la tasa de conversión para la validación de tasa duplicada
+
+**Detalle Técnico:**
+--------------------
+
+- Exchange-Operation-System: Add validation for currency rates only for specific columns
+
+**Novedades:**
+--------------
+
+- **Correcciones:**
+ 
+ - Ya los documentos no contabilizan en negativo cuando en el esquema contable no está seleccionada la opción "Permitir Contabilización en Negativo"
