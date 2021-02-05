@@ -3,6 +3,7 @@
 .. |ventana órdenes de venta del punto de venta| image:: resources/point-of-sale-sales-orders-window.png
 .. |selección de formulario punto de venta| image:: resources/point-of-sale-form-selection.png
 .. |ventana del formulario punto de venta| image:: resources/point-of-sale-form-window.png
+.. |campo estado del documento| image:: resources/document-status-field.png
 .. |panel de socio de negocios| image:: resources/business-partner-panel.png
 .. |icono buscar socio de negocios del formulario punto de venta| image:: resources/search-point-of-sale-form-business-partner-icon.png
 .. |ventana de búsqueda de socios del negocio| image:: resources/business-partner-search-window.png
@@ -48,23 +49,53 @@
 .. |opción regresar del catálogo de productos| image:: resources/option-return-from-product-catalog.png
 .. |icono inicio para regresar al catálogo de productos| image:: resources/home-icon-to-return-to-the-product-catalog.png
 .. |ocultar catálogo de productos| image:: resources/hide-product-catalog.png
-.. |selección de icono mayor que del formulario punto de venta|
-.. |carpetas del panel de procesos|
-.. |carpeta orden de venta del formulario punto de venta|
-.. |opción nueva orden|
-.. |opción histórico de órdenes|
-.. |opción generar factura inmediata|
-.. |opción completar orden preparada|
-.. |opción anular transacción de venta|
-.. |opción crear retiro de punto de venta|
-.. |opción imprimir documento|
-.. |opción crear nueva orden de devolución|
-.. |opción cancelar orden|
-.. |opción apertura de caja|
-.. |opción retiro de efectivo|
-.. |opción cierre de caja|
-.. |opción cambiar punto de venta|
-.. |opción lista de productos y precios|
+.. |sección líneas de la orden| image:: resources/order-lines-section.png
+.. |opción información del producto del formulario punto de venta| image:: resources/product-information-option-of-the-point-of-sale-form.png
+.. |información del producto del formulario punto de venta| image:: resources/product-information-from-the-point-of-sale-form.png
+.. |opción editar cantidades del producto del formulario punto de venta| image:: resources/option-edit-product-quantities-of-the-point-of-sale-form.png
+.. |campo cantidad de la opción editar cantidades del producto| image:: resources/quantity-field-of-the-edit-product-quantities-option.png
+.. |monto total de la orden de venta| image:: resources/total-amount-of-the-sales-order.png
+.. |ventana con campo moneda para convertir| image:: resources/window-with-currency-field-to-convert.png
+.. |monto total de la orden convertido| image:: resources/total-amount-of-the-converted-order.png
+.. |opción eliminar producto del formulario punto de venta| image:: resources/option-remove-product-from-point-of-sale-form.png
+.. |iconos de posicionamiento del formulario punto de venta| image:: resources/point-of-sale-form-positioning-icons.png
+.. |icono eliminar producto del formulario punto de venta| image:: resources/icon-remove-product-from-point-of-sale-form.png
+.. |información de la orden de venta del formulario punto de venta| image:: resources/sales-order-information-from-the-point-of-sale-form.png
+.. |icono cobrar del formulario punto de venta| image:: resources/point-of-sale-window-collection-icon.png
+.. |selección de icono mayor que del formulario punto de venta| image:: resources/icon-selection-greater-than-point-of-sale-form.png
+.. |carpetas del panel de procesos| image:: resources/process-panel-folders.png
+.. |carpeta orden de venta del formulario punto de venta| image:: resources/sales-order-folder-of-the-point-of-sale-form.png
+.. |opción nueva orden| image:: resources/new-order-option.png
+.. |opción histórico de órdenes| image:: resources/order-history-option.png
+.. |ventana histórico de órdenes| image:: resources/order-history-window.png
+.. |campo número del documento de la ventana histórico de órdenes| image:: resources/document-number-field-of-the-order-history-window.png
+.. |campo socio del negocio de la ventana histórico de órdenes| image:: resources/business-partner-field-of-the-order-history-window.png
+.. |campo gran total de la ventana histórico de órdenes| image:: resources/grand-total-field-of-order-history-window.png
+.. |campo total abierto de la ventana histórico de órdenes| image:: resources/total-open-field-of-the-order-history-window.png
+.. |campo pagado de la ventana histórico de órdenes| image:: resources/paid-field-of-order-history-window.png
+.. |campo procesado de la ventana histórico de órdenes| image:: resources/processed-field-of-the-order-history-window.png
+.. |campo vendedor de pasillo de la ventana histórico de órdenes| image:: resources/order-history-window-aisle-vendor-field.png
+.. |campo facturado de la ventana histórico de órdenes| image:: resources/invoiced-field-of-the-order-history-window.png
+.. |campo fecha de la orden de la ventana histórico de órdenes| image:: resources/order-date-field-of-the-order-history-window.png
+.. |campo agente comercial de la ventana histórico de órdenes| image:: resources/commercial-agent-field-of-the-order-history-window.png
+.. |resultados de la búsqueda de la orden| image:: resources/order-search-results.png
+.. |opción generar factura inmediata| image:: resources/option-generate-immediate-invoice.png
+.. |opción completar orden preparada| image:: resources/option-complete-ready-order.png
+.. |opción anular transacción de venta| image:: resources/option-to-void-sale-transaction.png
+.. |opción crear retiro de punto de venta| image:: resources/option-create-point-of-sale-withdrawal.png
+.. |opción imprimir documento| image:: resources/print-document-option.png
+.. |opción crear nueva orden de devolución| image:: resources/option-create-new-return-order.png
+.. |opción cancelar orden| image:: resources/option-cancel-order.png
+.. |carpeta gestión de caja| image:: resources/box-management-folder.png
+.. |opción apertura de caja| image:: resources/box-opening-option.png
+.. |opción retiro de efectivo| image:: resources/cash-withdrawal-option.png
+.. |opción cierre de caja| image:: resources/cash-closure-option.png
+.. |carpeta opciones generales| image:: resources/general-options-folder.png
+.. |opción cambiar punto de venta| image:: resources/option-change-point-of-sale.png
+.. |opciones de punto de venta| image:: resources/point-of-sale-options.png
+.. |resultado de cambio de punto de venta| image:: resources/result-of-change-of-point-of-sale.png
+.. |opción lista de productos y precios| image:: resources/option-list-of-products-and-prices.png
+.. |ocultar panel de procesos| image:: resources/hide-process-panel.png
 
 .. _documento/interfaz-del-punto-de-venta:
 
@@ -109,6 +140,8 @@ Permite realizar una búsqueda detallada de todos los socios del negocio registr
 .. note::
 
     La acción de búsqueda se ejecuta automáticamente al ingresar el valor en el campo o filtro de búsqueda.
+
+.. _documento/paso-búsqueda-de-socio-de-negocios-en-el-panel:
 
 **Búsqueda de Socio del Negocio**
 *********************************
@@ -190,6 +223,8 @@ Para buscar un socio del negocio desde el formulario del punto de venta, se debe
         |cliente desde campo socio del negocio|
 
         Imagen 17. Cliente desde Campo Socio del Negocio
+
+.. _documento/paso-registro-de-socio-de-negocios-en-el-panel:
 
 **Registro de Socio del Negocio**
 *********************************
@@ -363,6 +398,19 @@ Permite realizar una búsqueda rápida de todos los productos para la venta regi
 
         Imagen 41. Resultado de Búsqueda del Producto en el Icono
 
+.. _documento/paso-estado-del-documento:
+
+**Estado de la Orden**
+----------------------
+
+#. El formulario "**Punto de Venta**" cuenta con el campo "**Estado del Documento**", este se encuentra ubicado del lado derecho del campo "**Socio del Negocio**".
+
+    Este campo incica el estado en el que se encuentra el registro de la orden en el cual se encuentra ubicado.
+
+    |campo estado del documento|
+
+    Imagen 42. Campo Estado del Documento
+
 .. _documento/paso-catálogo-de-productos:
 
 **Catálogo de Productos**
@@ -378,49 +426,153 @@ Dicho catálogo permite que los productos sean cargados a la línea de la orden 
 
     |icono menor que del formulario punto de venta|
 
-    Imagen 42. Icono < 
+    Imagen 43. Icono < 
 
 #. Podrá visualizar un panel en la parte derecha del formulario "**Punto de Venta**", con el catálogo de productos previemante configurado.
 
     |catálogo de productos|
 
-    Imagen 43. Catálogo de Productos
+    Imagen 44. Catálogo de Productos
 
 #. En el catálogo de productos se visualizan las categorías o grupos de productos, donde se debe seleccionar la categoría o grupo en el cual se encuentra el producto.
 
     |selección de categoría de producto|
 
-    Imagen 44. Selección de Categoría de Producto
+    Imagen 45. Selección de Categoría de Producto
 
 #. Seleccione el producto que requiere agregar a la línea de la orden que se encuentra realizando.
 
     |selección de producto en categoría|
 
-    Imagen 45. Selección de Producto en la Categoría
+    Imagen 46. Selección de Producto en la Categoría
 
 #. Podrá visualizar de la siguiente manera el producto cargado a la línea de la orden desde el catálogo de productos.
 
     |producto cargado desde catálogo de productos|
 
-    Imagen 46. Producto Cargado desde Catálogo de productos
+    Imagen 47. Producto Cargado desde Catálogo de productos
 
 #. Para salir de la categoría en la que se encuentra, debe seleccionar la opción "**Catálogo Principal**", para regresar a la vista principal del catálogo de productos.
 
     |opción regresar del catálogo de productos|
 
-    Imagen 47. Opción Regresar del Catálogo de Productos
+    Imagen 48. Opción Regresar del Catálogo de Productos
 
 #. De igual manera, puede regresar a la vista principal del catálogo de productos, seleccionando el icono "**Inicio**", ubicado debajo del nombre de la categoría o grupo de productos.
 
     |icono inicio para regresar al catálogo de productos|
 
-    Imagen 48. Icono Inicio
+    Imagen 49. Icono Inicio
 
-#. Seleccione nuevamente el icono "**<**", para ocultar el catálogo de productos.
+#. Seleccione nuevamente el icono "**>**", para ocultar el catálogo de productos.
 
     |ocultar catálogo de productos|
 
-    Imagen 48. Ocultar Catálogo de Productos
+    Imagen 50. Ocultar Catálogo de Productos
+
+.. _documento/paso-líneas-de-la-orden:
+
+**Líneas de la Orden**
+----------------------
+
+#. Podrá visualizar los productos cargados a la orden con su respectiva información en la sección de líneas de la orden, ubicada en el centro del formulario.
+
+    |sección líneas de la orden|
+
+    Imagen 51. Sección Líneas de la Orden
+
+#. Para visualizar la información del producto cargado a la línea de la orden, seleccione la opción "**Opciones**" al final de la lína del producto y luego seleccione la opción "**Información de Producto**".
+
+    |opción información del producto del formulario punto de venta|
+
+    Imagen 52. Opción Información del Producto
+
+    #. Podrá visualizar la siguiente ventana con la información del producto.
+
+        |información del producto del formulario punto de venta|
+
+        Imagen 53. Información del Producto
+
+#. Para modificar la cantidad del producto cargado a la línea de la orden, seleccione la opción "**Opciones**" al final de la lína del producto y luego seleccione la opción "**Editar Cantidades**".
+
+    |opción editar cantidades del producto del formulario punto de venta|
+
+    Imagen 54. Opción Editar Cantidades del Producto
+
+    #. Podrá visualizar una ventana con el campo "**Cantidad**", donde puede modificar la cantidad del producto para ingresar la cantidad requerida.
+
+        |campo cantidad de la opción editar cantidades del producto|
+
+        Imagen 55. Campo Cantidad de la Opción Editar Cantidades del Producto
+
+#. Para eliminar el producto de la línea de la orden, seleccione la opción "**Opciones**" al final de la lína del producto y luego seleccione la opción "**Eliminar**".
+
+    |opción eliminar producto del formulario punto de venta|
+
+    Imagen 56. Opción Eliminar Producto
+
+.. _documento/paso-información-de-la-orden:
+
+**Información de la Orden**
+---------------------------
+
+#. En la parte inferior derecha del formulario "**Punto de Venta**", se puede visualizar la siguiente información:
+
+    - El campo "**Orden**", indica el número de la orden que se encuentra realizando.
+    - El campo "**Fecha**", indica la fecha en la cual se esta realizando la orden de venta. Esta fecha no puede ser modificada, recuerde que las transacciones realizadas desde el punto de venta serán generadas a la fecha que se indica en este campo.
+    - El campo "**Tipo**", indica el tipo de documento con el cual se esta generando la orden de venta que se encuentra realizando.
+    - El campo "**Cantidad de Árticulo**", la cantidad total de los árticulos que posee la orden de venta.
+    - El campo "**Cantidad de Líneas**", la cantidad total de líneas de productos que posee la orden de venta.
+    - El campo "**Vendedor**", indica el nombre del agente comercial (vendedor) que se encuentra realizando la orden de venta.
+    - El campo "**Sub-Total**", indica el monto total de la orden sin impuestos.
+    - El campo "**Descuento**", indica el monto total del descuento aplicado a la orden.
+    - El campo "**Impuesto**", indica el monto total del impuesto aplicado a la orden.
+    - El campo "**Total**", indica el monto total de la orden con descuento e impuestos.
+
+    |información de la orden de venta del formulario punto de venta|
+
+    Imagen 57. Información de la Orden de Venta
+
+#. Para visualizar el monto total de la orden de venta convertido en otra moneda, haga clic sobre el monto de la orden en el campo "**Total**".
+
+    |monto total de la orden de venta|
+
+    Imagen 58. Campo Total  
+
+    #. Podrá visualizar la ventana del total de la orden, con el campo "**Moneda**", donde debe seleccionar la moneda a la cual requiere realizar la conversión.
+
+        |ventana con campo moneda para convertir|
+
+        Imagen 59. Ventana Convertir Cantidad
+
+    #. En el encabezado de la ventana, se muestra el monto total de la orden, convertido a la moneda seleccionada previamente.
+
+        |monto total de la orden convertido|
+
+        Imagen 60. Monto Total Convertido
+
+.. _documento/paso-opciones-del-punto-de-ventas:
+
+**Opciones del Punto de Venta**
+-------------------------------
+
+#. Para posicionarse en cualquier línea de producto de la orden que se encuentra realizando, puede hacer clic sobre la misma o seleccionar los iconos de "**Posicionamiento**" ubicados en la parte inferior izquierda del formulario "**Punto de Venta**". Donde el primer icono permite posicionarse en el "**Registro Anterior**", y el segundo icono permite posicionarse en el "**Registro Siguiente**".
+
+    |iconos de posicionamiento del formulario punto de venta|
+
+    Imagen 61. Iconos de Posicionamiento
+
+#. De igual manera, puede eliminar el registro del producto donde se encuentra posicionado, seleccionando el icono "**Eliminar**" ubicado en la parte inferior izquierda del formulario "**Punto de Venta**".
+
+    |icono eliminar producto del formulario punto de venta|
+
+    Imagen 62. Icono Eliminar 
+
+#. Seleccione el icono "**Cobrar**", para realizar el cobro de la orden de venta que se encuentra realizando.
+
+    |icono cobrar del formulario punto de venta|
+
+    Imagen 63. Icono Cobrar
 
 .. _documento/paso-opciones-rápidas-del-punto-de-ventas:
 
@@ -433,13 +585,13 @@ El punto de ventas contiene un panel de opciones rápidas que permite acceder a 
 
     |selección de icono mayor que del formulario punto de venta|
 
-    Imagen 49. Icono >
+    Imagen 64. Icono >
 
 #. Podrá visualizar el panel con tres carpetas.
 
     |carpetas del panel de procesos|
 
-    Imagen 50. Carpetas del Panel de Procesos
+    Imagen 65. Carpetas del Panel de Procesos
 
 #. Seleccione la carpeta "**Orden de Venta**", para acceder a los diferentes procesos que contiene el punto de venta.
 
@@ -447,65 +599,145 @@ El punto de ventas contiene un panel de opciones rápidas que permite acceder a 
 
     |carpeta orden de venta del formulario punto de venta|
 
-    Imagen 51. Carpeta Orden de Venta
+    Imagen 66. Carpeta Orden de Venta
 
     Dichos procesos se explican a continuación.
 
-    #. Seleccione la opción **Nueva Orden:** Al seleccionar esta opción, se crea un nuevo registro en el formulario para crear una nueva orden de venta.
+    #. Seleccione la opción **Nueva Orden** para crear un nuevo registro en el formulario "**Punto de Venta**" y poder proceder a crear una nueva orden de venta.
 
         |opción nueva orden|
 
-        Imagen 52. Opción Nueva 
+        Imagen 67. Opción Nueva
 
-    #. Seleccione la opción **Histórico de Órdenes:** Esta opción permite realizar una búsqueda de las diferentes órdenes de venta, sin importar el estado de documento en el que se encuentren.
+        .. note::
+
+            Esta opción se encuentra disponible solo cuando se encuentre ubicado en algún registro de orden de venta en el formulario "**Punto de Venta**".
+
+    #. Seleccione la opción **Histórico de Órdenes** para realizar una búsqueda de las diferentes órdenes de venta, sin importar el estado de documento en el que se encuentren.
 
         |opción histórico de órdenes|
 
-        Imagen 53. Opción Histórico de Órdenes
+        Imagen 68. Opción Histórico de Órdenes
+
+        #. Podrá visualizar la ventana "**Histórico de Órdenes**", con diferentes campos que permiten filtrar la búsqueda de información en base a lo que sea ingresado en los mismos.
+
+            |ventana histórico de órdenes|
+
+            Imagen 69. Ventana Histórico de Órdenes
+
+        #. Ingrese en el campo "**No. del Documento**", el número de documento de la orden que requiere ubicar.
+
+            |campo número del documento de la ventana histórico de órdenes|
+
+            Imagen 70. Campo No. Del Documento
+
+        #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio cliente de la orden que requiere ubicar.
+
+            |campo socio del negocio de la ventana histórico de órdenes|
+
+            Imagen 71. Campo Socio del Negocio
+
+        #. Introduzca en el campo "**Gran Total**", el monto total de la orden que requiere ubicar.
+
+            |campo gran total de la ventana histórico de órdenes|
+
+            Imagen 72. Campo Gran Total
+
+        #. Introduzca en el campo "**Total Abierto**", el monto total por pagar de la orden que requiere ubicar.
+
+            |campo total abierto de la ventana histórico de órdenes|
+
+            Imagen 73. Campo Total Abierto
+
+        #. Indique en el campo "**Pagado**", si la orden que requiere ubicar fue pagada.
+
+            |campo pagado de la ventana histórico de órdenes|
+
+            Imagen 74. Campo Pagado
+
+        #. Indique en el campo "**Procesado**", si la orden que requiere ubicar fue procesada.
+
+            |campo procesado de la ventana histórico de órdenes|
+
+            Imagen 75. Campo Procesado
+
+        #. Indique en el campo "**Vendedor de Pasillo**", si la orden fue creada por un vendedor de pasillo.
+
+            |campo vendedor de pasillo de la ventana histórico de órdenes|
+
+            Imagen 76. Campo Vendedor de Pasillo
+
+        #. Indique en el campo "**Facturado**", si la orden que requiere ubicar fue facturada.
+
+            |campo facturado de la ventana histórico de órdenes|
+
+            Imagen 77. Campo Facturado
+
+        #. Introduzca en los campo "**Fecha de la Orden**", el rango de fecha en la que fue creada la orden que requiere ubicar.
+
+            |campo fecha de la orden de la ventana histórico de órdenes|
+
+            Imagen 78. Campo Fecha de la Orden
+
+        #. Seleccione en el campo "**Agente Comercial**", el nombre del vendedor que realizó la orden que requiere ubicar.
+
+            |campo agente comercial de la ventana histórico de órdenes|
+
+            Imagen 79. Campo Agente Comercial
+
+        #. Al ingresar algún valor en los campos o filtros de búsqueda anteriormente explicados, la búsqueda se realiza de manera automática y el resultado de la misma se refleja en la tabla ubicada debajo de dichos campos o filtros.
+
+            |resultados de la búsqueda de la orden|
+
+            Imagen 80. Resultados de la Búsqueda
 
     #. Seleccione la opción **Generar Factura Inmediata:** Al seleccionar esta opción, permite generar una factura desde el punto de venta.
 
         |opción generar factura inmediata|
 
-        Imagen 54. Opción Generar Factura Inmediata 
+        Imagen 81. Opción Generar Factura Inmediata 
 
     #. Seleccione la opción **Completar Orden Preparada:** Esta opción permite imprimir una factura desde el punto de venta, sin realizar ningún tipo de cobro.
 
         |opción completar orden preparada|
 
-        Imagen 55. Opción Completar Orden Preparada
+        Imagen 82. Opción Completar Orden Preparada
 
     #. Seleccione la opción **Anular Transacción de Venta:** Al seleccionar esta opción, se anula la transacción de venta realizada, generando una "**Orden de Devolución**", una "**Devolución**" y una "**Nota de Crédito**", para reflejar el ingreso de los productos por la devolución y el egreso monetario recibido por la venta de dichos productos.
 
         |opción anular transacción de venta|
 
-        Imagen 56. Opción Anular Transacción de Venta
+        Imagen 83. Opción Anular Transacción de Venta
 
     #. Seleccione la opción **Crear Retiro de Punto de Venta:** Esta opción permite acceder al proceso de retiro de fondos del punto de venta.
 
         |opción crear retiro de punto de venta|
 
-        Imagen 57. Opción Crear Retiro
+        Imagen 84. Opción Crear Retiro
 
     #. Seleccione la opción **Imprimir Documento:** Al seleccionar esta opción, cuando la orden de venta se encuentra en estado "**Borrador**", se genera un reporte para visualizar la orden de venta que esta realizando en el punto de venta. Dicho reporte es visualizado en la ventana “**Informe**”. Al seleccionar esta opción, cuando la orden de venta se encuentra en estado "**Completo**", se imprime la orden de venta. 
 
         |opción imprimir documento|
 
-        Imagen 58. Opción Imprimir Documento
+        Imagen 85. Opción Imprimir Documento
 
     #. Seleccione la opción **Crear Nueva Orden de Devolución:** Esta opción permite realizar una devolución parcial de la venta realizada.
 
         |opción crear nueva orden de devolución|
 
-        Imagen 59. Opción Crear Nueva Orden de Devolución
+        Imagen 86. Opción Crear Nueva Orden de Devolución
 
     #. Seleccione la opción **Cancelar Orden**: Al seleccionar esta opción, se cancela o anula la orden de venta que esta realizando el usuario vendedor y dicha orden deja de estar disponible.
 
         |opción cancelar orden|
 
-        Imagen 60. Opción Cancelar Orden
+        Imagen 87. Opción Cancelar Orden
 
 #. Seleccione la carpeta "**Gestión de Caja**", para acceder a los procesos de apertura retiro y cierre de caja contiene el punto de venta.
+
+    |carpeta gestión de caja|
+
+    Imagen 88. Carpeta Gestión de Caja
 
     #. Seleccione la opción "**Apertura de Caja**", para realizar el proceso de apertura de caja del punto de venta.
     
@@ -513,21 +745,25 @@ El punto de ventas contiene un panel de opciones rápidas que permite acceder a 
 
         |opción apertura de caja|
 
-        Imagen 61. Opción Apertura de Caja
+        Imagen 89. Opción Apertura de Caja
 
     #. Seleccione la opción "**Retiro de Efectivo**", para realizar el proceso de retiro de dinero de la caja.
 
         |opción retiro de efectivo|
 
-        Imagen 62. Opción Retiro de Efectivo
+        Imagen 90. Opción Retiro de Efectivo
 
     #. Seleccione la opción "**Cierre de Caja**", para realizar el proceso de cierre del cajad del punto de venta.
 
         |opción cierre de caja|
 
-        Imagen 63. Opción Cierre de Caja
+        Imagen 91. Opción Cierre de Caja
 
 #. Seleccione la carpeta "**Opciones Generales**", para acceder a los procesos generales del punto de venta.
+
+    |carpeta opciones generales|
+
+    Imagen 92. Carpeta Opciones Generales
 
     #. Seleccione la opción "**Cambiar Punto de Venta**", para cambiar de punto de venta (Terminal PDV), sin necesidad de cerrar sesión y volver a iniciar.
 
@@ -535,10 +771,29 @@ El punto de ventas contiene un panel de opciones rápidas que permite acceder a 
 
         |opción cambiar punto de venta|
 
-        Imagen 64. Opción Cambiar Punto de Venta 
+        Imagen 93. Opción Cambiar Punto de Venta 
+
+        #. Podrá visualizar los diferentes terminales de punto de venta configurados para el usuario con el cual inicio sesión. Seleccione la opción del punto de venta con el cual requiere realizar las ventas.
+
+            |opciones de punto de venta|
+
+            Imagen 94. Opciones de Punto de Venta
+
+        #. Al seleccionar cualquiera de los terminales de punto de venta, podrá visualizar el cambio en el campo "**Punto de Venta**" del formulario "**Punto de Venta**".
+
+            |resultado de cambio de punto de venta|
+
+            Imagen 95. Resultado de Cambio de Punto de Venta
 
     #. Seleccione la opción "**Lista de Productos y Precios**", para realizar una consulta detallada de los productos como la consulta del icono "**Buscar**", del panel de búsqueda de productos del punto de venta, explicado en el procedimiento :ref:`documento/paso-panel-de-búsqueda-de-productos`, del presente material.
 
         |opción lista de productos y precios|
 
-        Imagen 65. Opción Lista de Productos y Precios
+        Imagen 96. Opción Lista de Productos y Precios
+
+#. Seleccione nuevamente el icono "**<**", para ocultar el panel.
+
+    |ocultar panel de procesos|
+
+    Imagen 97. Ocultar Panel de Opciones Rápidas
+
