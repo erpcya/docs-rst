@@ -7,19 +7,9 @@
 .. |selección del cliente en el formulario punto de venta| image:: resources/customer-selection-in-the-point-of-sale-form.png
 .. |carga de productos desde catálogo de productos del formulario punto de venta| image:: resources/product-catalog.png
 .. |carga de productos desde el panel de búsqueda de productos del formulario punto de venta| image:: resources/loading-products-from-the-product-search-panel-of-the-point-of-sale-form.png
-.. |opción información del producto del formulario punto de venta| image:: resources/product-information-option-of-the-point-of-sale-form.png
-.. |información del producto del formulario punto de venta| image:: resources/product-information-from-the-point-of-sale-form.png
-.. |opción editar cantidades del producto del formulario punto de venta| image:: resources/option-edit-product-quantities-of-the-point-of-sale-form.png
-.. |campo cantidad de la opción editar cantidades del producto| image:: resources/quantity-field-of-the-edit-product-quantities-option.png
-.. |monto total de la orden de venta| image:: resources/total-amount-of-the-sales-order.png
-.. |ventana con campo moneda para convertir| image:: resources/window-with-currency-field-to-convert.png
-.. |monto total de la orden convertido| image:: resources/total-amount-of-the-converted-order.png
-.. |opción eliminar producto del formulario punto de venta| image:: resources/option-remove-product-from-point-of-sale-form.png
-.. |iconos de posicionamiento del formulario punto de venta| image:: resources/point-of-sale-form-positioning-icons.png
-.. |icono eliminar producto del formulario punto de venta| image:: resources/icon-remove-product-from-point-of-sale-form.png
-.. |información de la orden de venta del formulario punto de venta| image:: resources/sales-order-information-from-the-point-of-sale-form.png
-.. |icono cobrar del formulario punto de venta| image:: resources/point-of-sale-window-collection-icon.png
-
+.. |líneas de la orden de venta en el formulario| image:: resources/sales-order-lines-in-the-form.png
+.. |opciones del formulario del punto de venta| image:: resources/point-of-sale-form-options.png
+.. |información de la orden de venta| image:: resources/sales-order-information.png
 
 .. _documento/punto-de-venta:
 
@@ -93,85 +83,20 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
     Imagen 8. Carga de Productos desde el Panel de Búsqueda de Productos
 
-#. Para visualizar la información del producto cargado a la línea de la orden, seleccione la opción "**Opciones**" al final de la lína del producto y luego seleccione la opción "**Información de Producto**".
+#. Podrá visualizar en las líneas de la orden, los productos cargados con su respesctivo precio, cantidad, porcentaje de descuento y total del producto. Esta sección se encuentra explicada de manera detallada en el material :ref:`documento/paso-líneas-de-la-orden`, elaborado por `ERPyA`_.
 
-    |opción información del producto del formulario punto de venta|
+    |líneas de la orden de venta en el formulario|
 
-    Imagen 9. Opción Información del Producto
+    Imagen 9. Líneas de la Orden
 
-    #. Podrá visualizar la siguiente ventana con la información del producto.
+#. Para posicionarse sobre un registro de la línea de la orden, eliminar el mismo o cobrar la orden de venta, puede realizarlo con ayuda de las opciones que contiene el punto de venta. Dichas opciones se encuentran explicadas en el material :ref:`documento/paso-opciones-del-punto-de-ventas`, elaborado por `ERPyA`_.
 
-        |información del producto del formulario punto de venta|
+    |opciones del formulario del punto de venta|
 
-        Imagen 10. Información del Producto
+    Imagen 10. Opciones del Punto de Venta
 
-#. Para modificar la cantidad del producto cargado a la línea de la orden, seleccione la opción "**Opciones**" al final de la lína del producto y luego seleccione la opción "**Editar Cantidades**".
+#. La información del registro de la orden en el que se encuentra, puede ser visualizada en la parte inferior derecha del formulario. Dicha sección se encuentra explicada de el material :ref:`documento/paso-información-de-la-orden`, elaborado por `ERPyA`_.
 
-    |opción editar cantidades del producto del formulario punto de venta|
+    |información de la orden de venta|
 
-    Imagen 11. Opción Editar Cantidades del Producto
-
-    #. Podrá visualizar una ventana con el campo "**Cantidad**", donde puede modificar la cantidad del producto para ingresar la cantidad requerida.
-
-        |campo cantidad de la opción editar cantidades del producto|
-
-        Imagen 12. Campo Cantidad de la Opción Editar Cantidades del Producto
-
-#. Para eliminar el producto de la línea de la orden, seleccione la opción "**Opciones**" al final de la lína del producto y luego seleccione la opción "**Eliminar**".
-
-    |opción eliminar producto del formulario punto de venta|
-
-    Imagen 13. Opción Eliminar Producto
-
-#. En la parte inferior derecha del formulario "**Punto de Venta**", se puede visualizar la siguiente información:
-
-    - El campo "**Orden**", indica el número de la orden que se encuentra realizando.
-    - El campo "**Fecha**", indica la fecha en la cual se esta realizando la orden de venta. Esta fecha no puede ser modificada, recuerde que las transacciones realizadas desde el punto de venta serán generadas a la fecha que se indica en este campo.
-    - El campo "**Tipo**", indica el tipo de documento con el cual se esta generando la orden de venta que se encuentra realizando.
-    - El campo "**Cantidad de Árticulo**", la cantidad total de los árticulos que posee la orden de venta.
-    - El campo "**Cantidad de Líneas**", la cantidad total de líneas de productos que posee la orden de venta.
-    - El campo "**Vendedor**", indica el nombre del agente comercial (vendedor) que se encuentra realizando la orden de venta.
-    - El campo "**Sub-Total**", indica el monto total de la orden sin impuestos.
-    - El campo "**Descuento**", indica el monto total del descuento aplicado a la orden.
-    - El campo "**Impuesto**", indica el monto total del impuesto aplicado a la orden.
-    - El campo "**Total**", indica el monto total de la orden con descuento e impuestos.
-
-    |información de la orden de venta del formulario punto de venta|
-
-    Imagen 14. Información de la Orden de Venta
-
-#. Para visualizar el monto total de la orden de venta convertido en otra moneda, haga clic sobre el monto de la orden en el campo "**Total**".
-
-    |monto total de la orden de venta|
-
-    Imagen 15. Campo Total  
-
-    #. Podrá visualizar la ventana del total de la orden, con el campo "**Moneda**", donde debe seleccionar la moneda a la cual requiere realizar la conversión.
-
-        |ventana con campo moneda para convertir|
-
-        Imagen 16. Ventana Convertir Cantidad
-
-    #. En el encabezado de la ventana, se muestra el monto total de la orden, convertido a la moneda seleccionada previamente.
-
-        |monto total de la orden convertido|
-
-        Imagen 17. Monto Total Convertido
-
-#. Para posicionarse en cualquier línea de producto de la orden que se encuentra realizando, puede hacer clic sobre la misma o seleccionar los iconos de "**Posicionamiento**" ubicados en la parte inferior izquierda del formulario "**Punto de Venta**". Donde el primer icono permite posicionarse en el "**Registro Anterior**", y el segundo icono permite posicionarse en el "**Registro Siguiente**".
-
-    |iconos de posicionamiento del formulario punto de venta|
-
-    Imagen 18. Iconos de Posicionamiento
-
-#. De igual manera, puede eliminar el registro del producto donde se encuentra posicionado, seleccionando el icono "**Eliminar**" ubicado en la parte inferior izquierda del formulario "**Punto de Venta**".
-
-    |icono eliminar producto del formulario punto de venta|
-
-    Imagen 19. Icono Eliminar 
-
-#. Seleccione el icono "**Cobrar**", para realizar el cobro de la orden de venta que se encuentra realizando.
-
-    |icono cobrar del formulario punto de venta|
-
-    Imagen 20. Icono Cobrar
+    Imagen 11. Información de la Orden
