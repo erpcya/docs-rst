@@ -62,6 +62,9 @@
 .. |icono eliminar producto del formulario punto de venta| image:: resources/icon-remove-product-from-point-of-sale-form.png
 .. |información de la orden de venta del formulario punto de venta| image:: resources/sales-order-information-from-the-point-of-sale-form.png
 .. |icono cobrar del formulario punto de venta| image:: resources/point-of-sale-window-collection-icon.png
+.. |opción punto de venta del formulario| image:: resources/form-point-of-sale-option.png
+.. |seleccionar terminal pdv del formulario| image:: resources/select-pdv-terminal-from-the-form.png
+.. |cambio de terminal pdv en el formulario| image:: resources/change-terminal-pdv-in-the-form.png
 .. |selección de icono mayor que del formulario punto de venta| image:: resources/icon-selection-greater-than-point-of-sale-form.png
 .. |carpetas del panel de procesos| image:: resources/process-panel-folders.png
 .. |carpeta orden de venta del formulario punto de venta| image:: resources/sales-order-folder-of-the-point-of-sale-form.png
@@ -477,6 +480,8 @@ Dicho catálogo permite que los productos sean cargados a la línea de la orden 
 
 #. Podrá visualizar los productos cargados a la orden con su respectiva información en la sección de líneas de la orden, ubicada en el centro del formulario.
 
+    Dicha sección cuenta con cinco columnas que muestran el nombre del producto, el precio unitario, la cantidad cargada del mismo, su porcentaje de descuento y el total a pagar del producto. Adicional a ello, cuenta con la opción "**Opciones**" en cada línea de producto cargado a la orden, que permite realizar diferentes acciones.
+
     |sección líneas de la orden|
 
     Imagen 51. Sección Líneas de la Orden
@@ -573,6 +578,24 @@ Dicho catálogo permite que los productos sean cargados a la línea de la orden 
     |icono cobrar del formulario punto de venta|
 
     Imagen 63. Icono Cobrar
+
+#. Para cambiar de terminal PDV en el formulario del punto de venta, seleccione la opción "**Punto de Venta**" ubicada en la parte inferior izquierda del formulario.
+
+    |opción punto de venta del formulario|
+
+    Imagen 64. Opción Punto de Venta
+
+    #. Seleccione el terminal PDV con el que requiere realizar las operaciones de venta.
+
+        |seleccionar terminal pdv del formulario|
+
+        Imagen 65. Seleccionar Terminal PDV
+
+    #. Podrá visualizar el cambio de terminal de la siguiente manera.
+
+        |cambio de terminal pdv en el formulario|
+
+        Imagen 66. Cambio de Terminal PDV
 
 .. _documento/paso-opciones-rápidas-del-punto-de-ventas:
 
