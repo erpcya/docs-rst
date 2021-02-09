@@ -16,6 +16,7 @@
 .. |campo fecha del movimiento de la ventana entrega de activos| image:: resources/movement-date-field-of-the-asset-delivery-window.png
 .. |campo descripción de la ventana entrega de activos| image:: resources/asset-delivery-window-description-field.png
 .. |opción ok de la ventana entrega de activos| image:: resources/ok-option-of-the-asset-delivery-window.png
+.. |destildar check en posesión de la ventana entrega de activos| image:: resources/uncheck-check-in-possession-of-the-asset-delivery-window.png
 .. |check activo devuelto a la organización| image:: resources/active-check-returned-to-organization.png
 
 .. _documento/entrega-de-activos:
@@ -131,8 +132,21 @@
 
         Imagen 18. Opción OK
 
-#. Para devolver el activo a la organización debe realizar el mismo procedimiento explicado anteriormente, pero tildando el check "**Activo Devuelto a la Organización**".
+.. _documento/devolución-de-activos:
+
+**Devolución de Activos**
+======================
+
+#. Para devolver el activo a la organización debe realizar el mismo procedimiento explicado en el proceso :ref:`documento/entrega-de-activos`, destildando el check "**En Posesión**", para filtrar por los activos que no se encuentran en posesión de la organización.
+
+    |destildar check en posesión de la ventana entrega de activos|
+
+    Imagen 19. Check En Posesión
+
+#. Adicional a ello, debe tildar el check "**Activo Devuelto a la Organización**".
 
     |check activo devuelto a la organización|
 
-    Imagen 19. Check Activo Devuelto a la Organización
+    Imagen 20. Check Activo Devuelto a la Organización
+
+#. Finalmente puede proceder a culminar el proceso.
