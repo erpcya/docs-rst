@@ -16,6 +16,16 @@
 .. |Campo Válido Desde| image:: resources/field-valid-from-the-exchange-rates-tab.png
 .. |Campo Válido Hasta| image:: resources/field-valid-up-to-the-exchange-rates-tab.png
 .. |Campo Factor de Base a Destino| image:: resources/base-factor-to-destination-field-of-the-exchange-rates-tab.png
+.. |menú de tasa de cambio| image:: resources/exchange-rate-menu.png
+.. |ventana tasa de cambio| image:: resources/exchange-rate-window.png
+.. |icono registro nuevo de la tasa de cambio| image:: resources/new-record-exchange-rate-icon.png
+.. |campo organización de la tasa de cambio| image:: resources/exchange-rate-organization-field.png
+.. |campo moneda de la tasa de cambio| image:: resources/exchange-rate-currency-field.png
+.. |campo moneda hacia de la tasa de cambio| image:: resources/currency-to-field-of-exchange-rate.png
+.. |campo tipo de conversión de la tasa de cambio| image:: resources/exchange-rate-conversion-type-field.png
+.. |campo válido desde de la tasa de cambio| image:: resources/field-valid-from-exchange-rate.png
+.. |campo válido hasta de la tasa de cambio| image:: resources/field-valid-up-to-the-exchange-rate.png
+.. |campo factor de destino a base de la tasa de cambio| image:: resources/target-factor-field-based-on-exchange-rate.png
 
 .. _documento/conversión-monetaria:
 
@@ -94,12 +104,10 @@
 
     Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
-.. _paso/crear-tasa:
+.. _paso/crear-tasa-desde-ventana-moneda:
 
-**Tasa de Conversión**
-----------------------
-
-La tasa de conversión se crea unicamente cuando se conoce el monto, el mismo se extrae de la planilla que emite la aduana.
+**Tasa de Conversión desde la Ventana Moneda**
+----------------------------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Reglas Contables**", por último seleccione la ventana "**Moneda**".
 
@@ -158,6 +166,76 @@ La tasa de conversión se crea unicamente cuando se conoce el monto, el mismo se
             |Campo Factor de Base a Destino|
 
             Imagen 12. Campo Factor de Base a Destino de la Pestaña Tasas de Cambio
+
+.. note:: 
+
+    Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+
+
+.. _paso/crear-tasa-desde-ventana-moneda:
+
+**Tasa de Conversión desde la Ventana Tasa de Cambio**
+------------------------------------------------------
+
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Reglas Contables**", por último seleccione la ventana "**Tasa de Cambio**".
+
+    |menú de tasa de cambio|
+
+    Imagen 13. Menú de ADempiere
+
+#. Podrá visualizar la ventana "**Tasa de Cambio**", con diferentes campos que permiten registrar las tasas de cambio según el tipo de conversión.
+
+    |ventana tasa de cambio|
+
+    Imagen 14. Ventana Tasa de Cambio
+
+#. Seleccione el icono "**Registro Nuevo**", para crear un nuevo registro de tasa de cambio según el tipo de conversión.
+
+    |icono registro nuevo de la tasa de cambio|
+
+    Imagen 15. Icono Registro Nuevo
+
+#. Seleccione en el campo "**Organización**", la organización para la cual se encuentra realizando el registro de tasa de cambio.
+
+    |campo organización de la tasa de cambio|
+
+    Imagen 16. Campo Organización
+
+#. Seleccione en el campo "**Moneda**", la moneda origen de la conversión.
+
+    |campo moneda de la tasa de cambio|
+
+    Imagen 17. Campo Moneda
+
+#. Seleccione en el campo "**Moneda Hacia**", la moneda destino de la conversión.
+
+    |campo moneda hacia de la tasa de cambio|
+
+    Imagen 18. Campo Moneda Hacia
+
+#. Seleccione en el campo "**Tipo de Conversión**", el tipo de conversion de la tasa de cambio que se encuentra registrando.
+
+    |campo tipo de conversión de la tasa de cambio|
+
+    Imagen  19. Campo Tipo de Conversión
+
+#. Seleccione en el campo "**Válido Desde**", la fecha de inicio del periodo de validez de la tasa de cambio.
+
+    |campo válido desde de la tasa de cambio|
+
+    Imagen 20. Campo Válido Desde
+
+#. Seleccione en el campo "**Válido Hasta**", la fecha final del periodo de validez de la tasa de cambio.
+
+    |campo válido hasta de la tasa de cambio|
+
+    Imagen 21. Campo Válido Hasta
+
+#. Introduzca en el campo "**Factor de Destino a Base**", la tasa por la que serán multiplicados los montos de las transacciones donde sea utilizado el tipo de conversión seleccionado anteriormente. Para ejemplificar el registro es utilizada la tasa "**82.000,0**".
+
+    |campo factor de destino a base de la tasa de cambio|
+
+    Imagen 22. Campo Factor de Destino a Base
 
 .. note:: 
 
