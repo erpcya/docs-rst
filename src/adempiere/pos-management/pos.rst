@@ -3,35 +3,31 @@
 .. |Menú de ADempiere| image:: resources/point-of-sale-menu.png
 .. |Ventana Selecciona Terminal PDV| image:: resources/window-select-terminal-pdv.png
 .. |Icono Registro Nuevo de la Ventana Punto de Venta| image:: resources/new-registration-icon-in-the-point-of-sale-window.png
-.. |Verificar Valores por Defecto del Registro Nuevo| image:: resources/check-default-values-of-new-record.png
-.. |Carga de Productos desde el Catálogo de Productos| image:: resources/loading-products-from-the-product-catalog.png
-.. |Panel de Búsqueda de Productos| image:: resources/product-search-panel.png
-.. |Listado de Productos desde el Panel de Búsqueda de Productos| image:: resources/product-listing-from-the-product-search-panel.png
-.. |Carga de Productos desde el Icono Información de Producto| image:: resources/loading-products-from-the-product-information-icon.png
-.. |Información de los Productos Cargados a la Orden de Venta del Punto de Venta| image:: resources/information-of-the-products-loaded-to-the-point-of-sale-sales-order.png
-.. |Productos Cargados a la Línea de la Orden| image:: resources/products-loaded-to-the-order-line.png
-.. |Sumar Restar o Ingresar Cantidad de Productos a Vender| image:: resources/add-subtract-or-enter-quantity-of-products-to-sell.png
-.. |Precio Actual de Productos a Vender| image:: resources/current-price-of-products-to-sell.png
+.. |seleccionar cliente para la venta| image:: resources/select-customer-for-sale.png
+.. |carga de productos para la venta| image:: resources/loading-products-for-sale.png
+.. |información de los productos| image:: resources/product-information.png
+.. |modificar cantidad de productos a vender| image:: resources/modify-quantity-of-products-to-sell.png
+.. |información y montos totales de la orden| image:: resources/order-information-and-totals.png
 .. |Icono Pago de la Ventana Punto de Venta| image:: resources/point-of-sale-window-payment-icon.png
+.. |recuadro del cobro| image:: resources/collection-box.png
 .. |Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/payment-method-field-of-the-regular-payment-icon-of-the-point-of-sale-window.png
 .. |Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/regular-payment-currency-field-of-the-payment-icon-in-the-point-of-sale-window.png
 .. |Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/regular-payment-amount-field-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |check cobro completo| image:: resources/check-full-charge.png
 .. |Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta| image:: resources/regular-payment-ok-option-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |cancelar cobro| image:: resources/cancel-payment.png
+
 .. |Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/payment-method-field-of-the-special-payment-icon-in-the-point-of-sale-window.png
 .. |Campo Moneda del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/field-special-payment-currency-of-the-payment-icon-of-the-point-of-sale-window.png
 .. |Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/field-special-payment-amount-of-the-payment-icon-in-the-point-of-sale-window.png
+.. |campo número de referencia del pago| image:: resources/payment-reference-number-field.png
+.. |campo banco del pago| image:: resources/payment-bank-field.png
 .. |Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/another-form-of-payment-of-the-special-payment-of-the-payment-icon-in-the-point-of-sale-window.png
 .. |Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta| image:: resources/remove-a-payment-method-from-the-payment-icon-in-the-point-of-sale-window.png
 .. |Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/payment-option-ok-of-the-point-of-sale-window-payment-icon.png
-.. |Icono Imprimir de la Ventana Punto de Venta| image:: resources/point-of-sale-window-print-icon.png
-.. |Icono Imprimir de la Ventana Informe| image:: resources/report-window-print-icon.png
-.. |Grupos de Campos Información de la Orden y Totales de la Ventana Punto de Venta| image:: resources/field-groups-order-information-and-point-of-sale-window-totals.png
-.. |Reporte de la Factura de la Venta| image:: resources/sales-invoice-report.png
-.. |Documento de Cobro Generado en la Ventana Documentos por Cobrar| image:: resources/collection-document-generated-in-the-documents-receivable-window.png
-.. |Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar| image:: resources/paid-invoices-tab-of-the-documents-receivable-window.png
-.. |Opción Acercar el Campo Pago de la Pestaña Facturas Pagadas| image:: resources/option-zoom-the-payment-field-of-the-paid-invoices-tab.png
-.. |Documento de Cobro Generado en Caja| image:: resources/cash-collection-document.png
-.. |Cobro Generado en Cierre de Caja| image:: resources/collection-generated-at-closing-of-cash.png
+
+
+
 
 .. _documento/punto-de-venta:
 
@@ -85,6 +81,10 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         Imagen 5. Seleccionar Cliente para la Venta
 
+        .. note::
+
+            Recuerde que debe cambiar la información del socio "**Cliente Unico**" por la información del cliente real de la venta, ya que esta información saldrá impresa en la factura fiscal generada al concluir la venta.
+
     #. Puede proceder a cargar los productos desde el :ref:`documento/paso-catálogo-de-productos`. De igual manera, puede realizar este proceso desde el :ref:`documento/paso-panel-de-búsqueda-de-productos`
 
         |carga de productos para la venta|
@@ -105,6 +105,10 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
     #. Finalmente, podrá visualizar la :ref:`documento/paso-información-de-la-orden` y sus :ref:`documento/paso-totales-bs`.
 
+        |información y montos totales de la orden|
+
+        Imagen 9. Información y Montos Totales de la Orden
+
 **Cobrar Pedido**
 -----------------
 
@@ -115,6 +119,10 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
     Imagen 9. Icono Pago de la Ventana Punto de Venta
 
     La selección de este icono, habilita el recuadro del cobro, mostrando el total a pagar de la orden, los campos para ingresar la forma de pago, la moneda y el monto. Así como también, las opciones para agregar otro pago o eliminar un pago existente.
+
+        |recuadro del cobro|
+
+        Imagen 10. Recuadro del Cobro
 
     Adicional a ello, se muestra los siguientes campos:
 
@@ -130,14 +138,14 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
             Cuando el monto a pagar en efectivo es en divisas y con decimales, se tilda el check "**Cobro Completo**" y se ingresa el monto real a cobrar en el campo "**Monto**". 
 
-            Suponiendo que el día "**10/02/2021**", se tiene la orden de venta "**OPOS-5183**" con monto total a pagar de "**71.735.122,92**" y el cliente decide cancelar con dólares en efectivo, los siguientes datos serían:
+            Suponiendo que el día "**10/02/2021**", se tiene la orden de venta "**OPOS-5184**" con monto total a pagar de "**75.917.563,54**" y el cliente decide cancelar con dólares en efectivo, los siguientes datos serían:
 
             - **Tasa de Cambio USD:** 1.933.493,43
             - **Forma de Pago Seleccionada:** Caja (efectivo)
             - **Moneda Seleccionada:** USD
-            - **Monto Total de la Orden en Moneda USD:** 37,101301616525 (monto resultante del "**Monto Total de la Orden**" entre la "**Tasa de Cambio**" de la moneda seleccionada)
-            - **Monto Real a Pagar:** 38,00 (monto que debe ser ingresado en el campo "**Monto**")
-            - **Cambio en Moneda VES:** 1.737.627,42 (cambio que debe ser entregado al cliente)
+            - **Monto Total de la Orden en Moneda USD:** 39,264453844045 (monto resultante del "**Monto Total de la Orden**" entre la "**Tasa de Cambio**" de la moneda seleccionada)
+            - **Monto Real a Pagar:** 40,00 (monto que debe ser ingresado en el campo "**Monto**")
+            - **Cambio en Moneda VES:** 1.422.173,66 (cambio que debe ser entregado al cliente)
             - **Cobro Completo:** SI (tildar)
 
     El cobro de los productos cargados en la orden de venta se puede ejecutar de diferentes formas, explicadas a continuación.
@@ -151,6 +159,12 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         Imagen 10. Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta
 
+        .. note::
+
+            Para la forma de pago "**Caja**", no es obligatorio ingresar un valor en el campo "**No. de Referencia**". Sin embargo, se utiliza para ingresar el serial del billete recibido o cualquier otra forma de identificación del cobro.
+
+            Adicional a ello, para las otras formas de pago si es un valor obligatorio y corresponde al número de referencia de la transacción efectuada en el banco. Este valor es necesario al momento de realizar las conciliaciones bancarias.
+
     #. Seleccione en el campo "**Moneda**", la moneda utilizada por el cliente para pagar los productos cargados en la orden de venta.
 
         |Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta|
@@ -163,11 +177,23 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         Imagen 12. Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta
 
+    #. Tilde el check "**Cobro Completo**", para que posteriormente sea generado el egreso por el cambio del monto pagado por el cliente.
+
+        |check cobro completo|
+
+        Imagen 13. Check Cobro Completo del Pago Regular del Icono Pago de la Ventana Punto de Venta
+
     #. Seleccione la opción "**OK**", para generar el cobro de los productos cargados en la orden de venta.
 
         |Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta|
 
         Imagen 13. Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta
+
+    #. Seleccione el icono "**Cancelar**", para cancelar el registro del cobro que encuentra realizando.
+
+        |cancelar cobro|
+
+        Imagen 14. Cancelar Cobro
 
 **Procedimiento Especial con Diferentes Formas de Pago y Monedas**
 ******************************************************************
@@ -177,6 +203,12 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
         |Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta|
 
         Imagen 14. Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
+
+        .. note::
+
+            Para la forma de pago "**Caja**", no es obligatorio ingresar un valor en el campo "**No. de Referencia**". Sin embargo, se utiliza para ingresar el serial del billete recibido o cualquier otra forma de identificación del cobro.
+
+            Adicional a ello, para las otras formas de pago si es un valor obligatorio y corresponde al número de referencia de la transacción efectuada en el banco. Este valor es necesario al momento de realizar las conciliaciones bancarias.
 
     #. Seleccione en el campo "**Moneda**", la moneda utilizada por el cliente para pagar los productos cargados en la orden de venta.
 
@@ -190,11 +222,27 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         Imagen 16. Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
-    #. Seleccione el icono "**Más**", para habilitar otro grupo de campos de pago e ingresar la otra forma de pago en el campo "**Forma de Pago**" y la otra moneda en el campo "**Moneda**", para terminar de cancelar el pago con el monto ingresado en el campo "**Monto**".
+    #. Introduzca en el campo "**No. de Referencia**", el número de referencia correspondiente a la transacción efectuada en el banco.
+
+        |campo número de referencia del pago|
+
+        Imagen 17. Campo No. de Referencia
+
+    #. Seleccione en el campo "**Banco**", el banco donde fue efectuada la transacción.
+
+        |campo banco del pago|
+
+        Imagen 18. Campo Banco
+
+    #. Seleccione el icono "**Más**", para habilitar otro grupo de campos de pago e ingresar la siguiente forma de pago utilizada por el cliente para terminar de cancelar la orden de venta.
 
         |Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta|
 
         Imagen 17. Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
+
+        .. note::
+
+            Si requiere cargar otra forma de pago adicional a las dos anteriores, puede seleccionar nuevamente el icono "**Más**" y proceder a cargar el cobro con dicha forma de pago.
 
     #. Para eliminar una forma de pago ya seleccionada previamente, seleccione el icono "**Menos**".
 
@@ -216,42 +264,4 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
     
     Es importante resaltar que al completar el proceso, todos los documentos son generados en estado "**Completo**".
 
-**Consultar Factura Generada**
-------------------------------
-
-#. Ubique el documento de cobro generado en la ventana "**Documentos por Cobrar**", ingresando el número de documento mostrado en el reporte de la factura de la venta, entre la información del tipo de documento y la fecha.
-
-    |Documento de Cobro Generado en la Ventana Documentos por Cobrar|
-
-    Imagen 20. Documento de Cobro Generado en la Ventana Documentos por Cobrar
-
-**Consultar Cobro Generado**
-----------------------------
-
-#. Ubique el documento de cobro generado en la ventana "**Documentos por Cobrar**" y luego seleccione la pestaña "**Facturas Pagadas**", para visualizar las asignaciones de los diferentes documentos de cobro generados en la ventana "**Caja**".
-
-    |Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar|
-
-    Imagen 21. Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar
-
-#. Seleccione el icono "**Cambiar Mono/Multi Registro**" ubicado en la barra de herramientas de ADempiere para cambiar la vista y visualizar la línea del registro de asignación del cobro que requiere acercar, posteriormente haga clic contrario sobre el campo "**Pago**" y seleccione la opción "**Acercar**".
-
-    |Opción Acercar el Campo Pago de la Pestaña Facturas Pagadas|
-
-    Imagen 22. Opción Acercar el Campo Pago de la Pestaña Facturas Pagadas
-
-#. Podrá visualizar de la siguiente manera el registro del cobro en la ventana "**Caja**".
-
-    |Documento de Cobro Generado en Caja|
-
-    Imagen 23. Documento de Cobro Generado en Caja
-
-**Consultar Registro en Cierre de Caja**
-----------------------------------------
-
-#. Cada cobro desde el punto de venta genera un documento de ingreso en la ventana "**Caja**", por cada documento de cobro generado se crea una línea con el cobro asociado en la pestaña "**Línea de Cierre de Caja**", de la ventana "**Cierre de Caja**" correspondiente al registro de la "**Caja 04**", creado en estado "**Borrador** al realizar la apertura de caja. 
-
-    |Cobro Generado en Cierre de Caja|
-
-    Imagen 24. Cobro Generado en Cierre de Caja
 
