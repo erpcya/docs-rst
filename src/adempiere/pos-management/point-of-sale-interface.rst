@@ -148,7 +148,7 @@ Contiene los iconos principales de las ventanas de ADempiere para realizar una g
 
         Imagen 9. Ventana Tipo de Documento del Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta
 
-#. "**Icono Información de Producto**": Permite realizar una búsqueda de los productos para consultar su información, por medio de la selección de los mismos en la ventana desplegada "**Información de Producto**". De igual manera, se puede ejecutar esta acción seleccionando la convinación de las teclas "**Alt+I**".
+#. "**Icono Información de Producto**": Permite realizar una búsqueda de los productos para consultar su información, en cuanto a categoría, código, nombre, UPC/EAN (código de barra), UM (unidad de medida), precios, disponibilidad, cantidad en existencia, cantidad reservada, cantidad ordenada y proveedor, por medio de la selección de los mismos en la ventana desplegada "**Información de Producto**". De igual manera, se puede ejecutar esta acción seleccionando la convinación de las teclas "**Alt+I**".
 
     |Icono Información de Producto de la Barra de Herramientas del Punto de Venta|
 
@@ -353,8 +353,8 @@ Permite realizar una búsqueda por código de producto, de todos los productos p
 
 .. _documento/paso-sección-información-de-producto:
 
-**Sección Información de Producto**
------------------------------------
+**Sección de Información de Producto**
+--------------------------------------
 
 Luego de incluir los productos a la orden de venta, se visualizará su información principal en la sección "**Información de Producto**" de la ventana "**Punto de Venta**".
 
@@ -588,8 +588,8 @@ Contiene la información detallada de los montos totales de la orden y la fecha 
 
 .. _documento/paso-panel-de-búsqueda-de-socio-cliente:
 
-**Panel de Búsqueda de Socio del Negocio Cliente**
---------------------------------------------------
+**Panel de Socio del Negocio Cliente**
+--------------------------------------
 
 Muestra la información del socio del negocio cliente que esta comprando los productos ingresados al documento "**Orden de Venta**" realizada por el usuario vendedor.
 
