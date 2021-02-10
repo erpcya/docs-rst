@@ -54,11 +54,11 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
     
     #. Para la apertura de una caja, es necesario que sean cumplidas las siguientes restricciones en la ventana "**Apertura de Punto de Venta**".
 
-        #. En el campo **Terminal PDV**, se encuentran los diferentes terminales configurados para los socios del negocio que cumplen con el rol de empleados de la organización. En este campo se debe seleccionar el terminal al cual se le realizará la apertura de la caja. 
+        #. En el campo **Terminal PDV**, se encuentran los diferentes terminales configurados para los socios del negocio que cumplen con el rol de empleados de la organización. En este campo se debe seleccionar el terminal al cual se le realizará la apertura de la caja. Un ejemplo sería "**PDV Caja 01 **".
 
-        #. En el campo **Caja**", se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia. En este caso, se debe seleccionar la cuenta "**Caja Administrativa**".
+        #. En el campo **Caja**", se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia. En este caso, se debe seleccionar la cuenta caja "**Administración POS**".
             
-        #. En el campo "**Caja a Transferir**", se encuentra la cuenta caja destino seleccionada en el terminal PDV como cuenta bancaria a la cual se realizará la transferencia. El valor de este campo se carga de manera automática, al seleccionar el terminal de la caja en el campo "**Terminal PDV**". En este caso, un ejemplo sería: "**Caja 04**".
+        #. En el campo "**Caja a Transferir**", se encuentra la cuenta caja destino seleccionada en el terminal PDV como cuenta bancaria a la cual se realizará la transferencia. El valor de este campo se carga de manera automática, al seleccionar el terminal de la caja en el campo "**Terminal PDV**". En este caso, un ejemplo sería: "**Caja 01**".
 
             .. note::
 
@@ -68,7 +68,7 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         #. En el campo "**Tipo de Conversión**", se carga de manera automática el tipo de conversión establecido en el terminal de la caja. 
 
-        #. En el campo "**Moneda**", se debe seleccionar la moneda a ser utilizada en la transferencia del dinero.
+        #. En el campo "**Moneda**", se debe seleccionar la moneda a ser utilizada en la transferencia del dinero. En este caso, un ejemplo sería: "**USD**"
 
             .. note::
 
@@ -76,13 +76,13 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         #. En el campo "**Cargo**", se debe seleccionar el cargo "**Efectivo en Tránsito Administración**".
 
-        #. En el campo "**No. del Documento**", se debe ingresar el número de documento con el cual será generado el egreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: "**Egreso-Apertura01/09/2020**".
+        #. En el campo "**No. del Documento**", se debe ingresar el número de documento con el cual será generado el egreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: "**Egreso-Apertura10/02/2021**".
 
-        #. En el campo "**Documento Destino**", se debe ingresar el número de documento con el cual será generado el ingreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: "**Ingreso-Apertura01/09/2020**".
+        #. En el campo "**Documento Destino**", se debe ingresar el número de documento con el cual será generado el ingreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: "**Ingreso-Apertura10/02/2021**".
 
-        #. En el campo "**Monto**", se debe ingresar el monto total de la transferencia en la moneda seleccionada. En este caso, un ejemplo sería: "**1.000.000,00**.
+        #. En el campo "**Monto**", se debe ingresar el monto total de la transferencia en la moneda seleccionada. En este caso, un ejemplo sería: "**100,00**.
 
-        #. En el campo "**Descripción**", se debe ingresar una descripción breve que explique de forma puntual la transferencia. En este caso, un ejemplo sería: "**Transferencia para Caja 04 por Apertura01/09/2020**".
+        #. En el campo "**Descripción**", se debe ingresar una descripción breve que explique de forma puntual la transferencia. En este caso, un ejemplo sería: "**Apertura de Caja 1 del 10/02/2021 por 100 USD**".
         
         #. En el campo "**Fecha de Estado de Cuenta**", ADempiere establece la fecha en la que se esta realizando la transacción. Esta indica la fecha en la cual será generado el estado de cuenta que se encuentra procesando. 
 
@@ -118,46 +118,46 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
 Al realizar una apertura de caja se crean dos registros en estado "**Borrador**", en la ventana "**Cierre de Caja**", uno para cada caja involucrada en el proceso ejecutado en la ventana "**Apertura de Punto de Venta**".
 
-**Caja Administrativa**
-***********************
+**Caja Administración POS**
+***************************
 
-#. El registro con la cuenta "**Caja Administrativa**", se crea automáticamente con las siguientes restricciones:
+#. El registro con la cuenta "**Caja Administración POS**", se crea automáticamente con las siguientes restricciones:
 
-    - **Cuenta**: La cuenta "**Caja Administrativa**", previamente seleccionada en el campo "**Cuenta Bancaria**" de la ventana "**Apertura de Punto de Venta**". 
-    - **Nombre**: La descripción "**Transferencia para Caja 04 por Apertura01/09/2020**", previamente ingresada en el campo "**Descripción**" de la ventana "**Apertura de Punto de Venta**".
-    - **Fecha del Registro**: La fecha "**01/09/2020**", en la cual fue ejecutado el proceso de apertura desde la ventana "**Apertura de Punto de Venta**".
+    - **Cuenta**: La cuenta "**Caja Administración Ventas - --_Administración POS**", previamente seleccionada en el campo "**Caja**" de la ventana "**Apertura de Punto de Venta**". 
+    - **Nombre**: La descripción "**Apertura de Caja 1 del 10/02/2021 por 100 USD**", previamente ingresada en el campo "**Descripción**" de la ventana "**Apertura de Punto de Venta**".
+    - **Fecha del Registro**: La fecha "**10/02/2021**", en la cual fue ejecutado el proceso de apertura desde la ventana "**Apertura de Punto de Venta**".
     - **Saldo Inicial**: El saldo "**0,00**", con el que inicia la caja.
-    - **Diferencia Edo. De Cuenta**: El monto de "**-1.000.000,00**", de diferencia entre el saldo final del estado de cuentas y el saldo final actual.
-    - **Saldo Final**: El monto de "**-1.000.000,00**", correspondiente al saldo final o al cierre. El saldo final es el resultado de ajustar el saldo inicial por cualquier pago o desembolso.
+    - **Diferencia Edo. De Cuenta**: El monto de "**-193.349.343,00**", de diferencia entre el saldo final del estado de cuentas y el saldo final actual.
+    - **Saldo Final**: El monto de "**-193.349.343,00**", correspondiente al saldo final o al cierre. El saldo final es el resultado de ajustar el saldo inicial por cualquier pago o desembolso.
 
     |Registro del Cierre de Caja Administrativa|
 
-    Imagen 7. Registro del Cierre de Caja Administrativa
+    Imagen 7. Registro del Cierre de Caja Administración POS
 
     El mismo contiene en la pestaña "**Línea de Cierre de Caja**", el registro del egreso por la apertura de caja realizada y contiene asociado el documento de egreso generado en la ventana "**Caja**".
 
     |Pestaña Línea de Cierre de Caja Administrativa|
 
-    Imagen 8. Pestaña Línea de Cierre de Caja Administrativa
+    Imagen 8. Pestaña Línea de Cierre de Caja Administración POS
 
-**Caja 04**
+**Caja 01**
 ***********
 
-#. El registro con la cuenta "**Caja 04**", se crea automáticamente con las siguientes restricciones:
+#. El registro con la cuenta "**Caja 01**", se crea automáticamente con las siguientes restricciones:
 
-    - **Cuenta**: La cuenta "**Caja 04**", previamente seleccionada en el campo "**Cuenta Bancaria a Transferir**" de la ventana "**Apertura de Punto de Venta**".
-    - **Nombre**: La descripción "**Transferencia para Caja 04 por Apertura01/09/2020**", previamente ingresada en el campo "**Descripción**" de la ventana "**Apertura de Punto de Venta**".
+    - **Cuenta**: La cuenta "**Caja POS - --_Caja PDV 01**", previamente seleccionada en el campo "**Caja a Transferir**" de la ventana "**Apertura de Punto de Venta**".
+    - **Nombre**: La descripción "**Apertura de Caja 1 del 10/02/2021 por 100 USD**", previamente ingresada en el campo "**Descripción**" de la ventana "**Apertura de Punto de Venta**".
     - **Fecha del Registro**: La fecha "**01/09/2020**", en la cual fue ejecutado el proceso de apertura desde la ventana "**Apertura de Punto de Venta**".
     - **Saldo Inicial**: El saldo "**0,00**", con el que inicia la caja.
-    - **Diferencia Edo. De Cuenta**: El monto de "**1.000.000,00**", de diferencia entre el saldo final del estado de cuentas y el saldo final actual.
-    - **Saldo Final**: El monto de "**1.000.000,00**", correspondiente al saldo final o al cierre. El saldo final es el resultado de ajustar el saldo inicial por cualquier pago o desembolso.
+    - **Diferencia Edo. De Cuenta**: El monto de "**193.349.343,00**", de diferencia entre el saldo final del estado de cuentas y el saldo final actual.
+    - **Saldo Final**: El monto de "**193.349.343,00**", correspondiente al saldo final o al cierre. El saldo final es el resultado de ajustar el saldo inicial por cualquier pago o desembolso.
 
     |Registro del Cierre de Caja 04|
 
-    Imagen 9. Registro del Cierre de Caja 04
+    Imagen 9. Registro del Cierre de Caja 01
 
     El mismo contiene en la pestaña "**Línea de Cierre de Caja**", el registro del ingreso por la apertura de caja realizada y contiene asociado el documento de ingreso generado en la ventana "**Caja**".
 
     |Pestaña Línea de Cierre de Caja 04|
 
-    Imagen 10. Pestaña Línea de Cierre de Caja 04
+    Imagen 10. Pestaña Línea de Cierre de Caja 01
