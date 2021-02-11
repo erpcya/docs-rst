@@ -56,8 +56,14 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         #. En el campo **Terminal PDV**, se encuentran los diferentes terminales configurados para los socios del negocio que cumplen con el rol de empleados de la organización. En este campo se debe seleccionar el terminal al cual se le realizará la apertura de la caja. Un ejemplo sería "**PDV Caja 01 **".
 
-        #. En el campo **Caja**", se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia. En este caso, se debe seleccionar la cuenta caja "**Administración POS**".
-            
+        #. En el campo **Caja**", se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia. 
+
+            #. Si la transferencia a realizar es en bolivares, se debe seleccionar la cuenta caja "**Administración VES**".
+
+            #. Si la transferencia a realizar es en dolares, se debe seleccionar la cuenta caja "**Administración USD**".
+
+            #. Si la transferencia a realizar es en euros, se debe seleccionar la cuenta caja "**Administración EUR**".
+
         #. En el campo "**Caja a Transferir**", se encuentra la cuenta caja destino seleccionada en el terminal PDV como cuenta bancaria a la cual se realizará la transferencia. El valor de este campo se carga de manera automática, al seleccionar el terminal de la caja en el campo "**Terminal PDV**". En este caso, un ejemplo sería: "**Caja 01**".
 
             .. note::

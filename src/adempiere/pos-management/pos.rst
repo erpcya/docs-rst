@@ -24,6 +24,13 @@
 .. |Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/another-form-of-payment-of-the-special-payment-of-the-payment-icon-in-the-point-of-sale-window.png
 .. |Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta| image:: resources/remove-a-payment-method-from-the-payment-icon-in-the-point-of-sale-window.png
 .. |Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta| image:: resources/payment-option-ok-of-the-point-of-sale-window-payment-icon.png
+.. |Documento de Cobro Generado en la Ventana Documentos por Cobrar| image:: resources/collection-document-generated-in-the-documents-receivable-window.png
+.. |Documento acercado| image:: resources/document-zoomed.png
+.. |Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar| image:: resources/paid-invoices-tab-of-the-documents-receivable-window.png
+.. |copiar número de documento| image:: resources/copy-document-number.png
+.. |Documento de Cobro Generado en Caja| image:: resources/cash-collection-document.png
+.. |Cobro Generado en Cierre de Caja| image:: resources/collection-generated-at-closing-of-cash.png
+
 
 .. _documento/punto-de-venta:
 
@@ -261,3 +268,47 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
     Es importante resaltar que al completar el proceso, todos los documentos son generados en estado "**Completo**".
 
 
+**Consultar Factura Generada**
+------------------------------
+
+#. Ubique la orden de venta generada en la ventana "**Órdenes de Venta**", luego seleccione el icono "**Visualiza Detalle (Donde es Usado)**" y finalmente haga clic sobre la opción "**Documentos por Cobrar**", para acercar la factura de la venta.
+
+    |Documento de Cobro Generado en la Ventana Documentos por Cobrar|
+
+    Imagen 20. Orden de Venta
+
+#. Al acercar el documento por cobrar, podrá visualizarlo de la siguiente manera
+
+    |Documento acercado|
+
+    Imagen 21. Factura por Cobrar
+
+**Consultar Cobro Generado**
+----------------------------
+
+#. Ubique el documento de cobro generado en la ventana "**Documentos por Cobrar**" y luego seleccione la pestaña "**Facturas Pagadas**", para visualizar las asignaciones de los diferentes documentos de cobro generados en la ventana "**Caja**".
+
+    |Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar|
+
+    Imagen 22. Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar
+
+#. Seleccione el icono "**Cambiar Mono/Multi Registro**" ubicado en la barra de herramientas de ADempiere para cambiar la vista y visualizar la línea del registro de asignación del cobro que requiere acercar, posteriormente copie el valor del campo "**Pago**".
+
+    |copiar número de documento|
+
+    Imagen 23. Icono Cambiar Mono/Multi Registro y Copiar Número del Cobro
+
+#. Ubique el registro del cobro en la ventana "**Caja**", con ayuda del valor copiado anteriormente del campo "**Pago**".
+
+    |Documento de Cobro Generado en Caja|
+
+    Imagen 24. Documento de Cobro Generado en Caja
+
+**Consultar Registro en Cierre de Caja**
+----------------------------------------
+
+#. Cada cobro desde el punto de venta genera un documento de ingreso en la ventana "**Caja**", por cada documento de cobro generado se crea una línea con el cobro asociado en la pestaña "**Línea de Cierre de Caja**", de la ventana "**Cierre de Caja**" correspondiente al registro de la "**Caja 04**", creado en estado "**Borrador** al realizar la apertura de caja. 
+
+    |Cobro Generado en Cierre de Caja|
+
+    Imagen 25. Cobro Generado en Cierre de Caja

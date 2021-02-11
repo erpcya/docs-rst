@@ -1,5 +1,4 @@
 .. _ERPyA: http://erpya.com
-
 .. |Menú de ADempiere| image:: resources/point-of-sale-menu.png
 .. |Opción Crear Retiro Detallado de POS| image:: resources/option-create-detailed-pos-withdrawal.png
 .. |Ventana Retiro de Caja Detallado| image:: resources/detail-cash-withdrawal-window.png
@@ -46,7 +45,7 @@ A continuación, se específica el procedimiento que se debe realizar para retir
 
     Imagen 2. Menú de ADempiere
 
-#. Si en el transcurso del día, se presenta un retiro de fondos en alguna de las cajas en la cual se encuentran realizando transacciones desde el punto de venta, seleccione la opción "**Retiro de Caja Detallado**", ubicada en el menú desplegado por el icono "**Proceso**" de la barra de herramientas de la ventana "**Punto de Venta**", explicada en el documento :ref:`documento/paso-barra-de-herramientas` elaborado por `ERPyA`_.
+#. Si en el transcurso del día, se presenta un retiro de fondos en alguna de las cajas en la cual se encuentran realizando transacciones desde el punto de venta, seleccione la opción "**Retiro de Caja (Detallado)**", ubicada en el menú desplegado por el icono "**Proceso**" de la barra de herramientas de la ventana "**Punto de Venta**", explicada en el documento :ref:`documento/paso-barra-de-herramientas` elaborado por `ERPyA`_.
 
     |Opción Crear Retiro Detallado de POS|
 
@@ -155,7 +154,7 @@ A continuación, se específica el procedimiento que se debe realizar para retir
 
         Imagen 17. Campo No. del Documento
 
-    #. Tilde el check "**Dividir Depósitos**", para generar un documento de egreso de la caja POS y tantos documentos de ingreso administrativos como movimientos seleccionados.
+    #. En el caso de los retiros en moneda "**VES**", tilde el check "**Dividir Depósitos**", para generar un documento de egreso de la caja POS con la suma de todos los cobros y tantos documentos de ingreso a la caja administrativos como movimientos seleccionados en el proceso.
 
         |check dividir depósitos del retiro detallado|
 
