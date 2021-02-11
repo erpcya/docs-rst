@@ -18,6 +18,7 @@
 .. |Campo Total Abierto de la Ventana Cierre de Caja del Punto de Venta| image:: resources/full-window-open-field-cashier-point-of-sale.png
 .. |Campo Diferencia Monto de la Ventana Cierre de Caja del Punto de Venta| image:: resources/field-difference-amount-of-window-closing-cash-point-of-sale.png
 .. |Checklist Sobre Sub Pago de la Ventana Cierre de Caja del Punto de Venta| image:: resources/checklist-about-sub-payment-of-the-window-cashier-closing-of-the-point-of-sale.png
+.. |campo diferentes estado de cuenta de la ventana cierre de caja| image:: resources/different-account-statement-field-of-the-cash-register-window.png
 .. |Campo Cargo de la Ventana Cierre de Caja del Punto de Venta| image:: resources/field-charge-of-the-point-of-sale-cashier-window.png
 .. |Opción OK de la Ventana Cierre de Caja del Punto de Venta| image:: resources/ok-option-of-the-point-of-sale-cashier-window.png
 .. |Cierre de Caja 04 Completada| image:: resources/box-closure-04-completed.png
@@ -176,6 +177,12 @@ A continuación, se específica el procedimiento que se debe realizar para ejecu
 
                     El valor de este campo proviene de la sumatoria de todos los montos pendientes por cobrar de las órdenes de venta, para el cálculo del mismo se emplea la fórmula (Total de la Apertura + (Total de los Cobros - Total de los Retiros)).
 
+            #. El campo "**Diferencia Edo. de Cuenta**", muestra el saldo que posee la cuenta caja en la que se encuentra realizando el proceso "**Cierre de Caja**".
+
+                |campo diferentes estado de cuenta de la ventana cierre de caja|
+
+                Imagen 19. Campo Diferencia Edo. de Cuenta
+
         #. Tilde el checklist "**Sobre/Sub Pago**", para indicar que existe un sobre pago (no contabilizado) o un sub pago (pago parcial).
 
             |Checklist Sobre Sub Pago de la Ventana Cierre de Caja del Punto de Venta|
@@ -231,7 +238,7 @@ A continuación, se específica el procedimiento que se debe realizar para ejecu
 
     Imagen 24. Cierre de Caja Administrativa en Estado Borrador
 
-#. Al seleccionar la pestaña "**Línea de Cierre de Caja**", podrá visualizar las líneas creadas con los registros asociados de apertura y retiro, ejecutados a lo largo del proceso de punto de venta.
+#. Al seleccionar la pestaña "**Línea de Cierre de Caja**", podrá visualizar las líneas creadas con los registros asociados de apertura si fue utilizada la caja para realizar apertura y retiro si fueron realizados retiros en la moneda de la caja en la que se encuentra.
 
     |Pestaña Línea de Cierre de Caja Administrativa en Borrador|
 
