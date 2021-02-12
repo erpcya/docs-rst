@@ -20,15 +20,13 @@
 .. |campo cargo de la ventana deposito a caja| image:: resources/field-charge-of-the-window-deposit-to-cash.png
 .. |campo tipo de documento para retiros de la ventana deposito a caja| image:: resources/document-type-field-for-withdrawals-from-the-deposit-to-cash-window.png
 .. |campo tipo de documento para deposito de la ventana deposito a caja| image:: resources/field-type-of-document-for-deposit-of-the-window-deposit-to-cash.png
+.. |check conciliar automáticamente del depósito de caja| image:: resources/check-automatically-reconcile-cash-deposit.png
 .. |opcion ok de la ventana deposito a caja| image:: resources/option-ok-from-the-window-deposit-to-cash.png
 .. |consulta de egreso en caja por deposito| image:: resources/check-out-checkout-by-deposit.png
 .. |consulta de ingreso en banco por deposito| image:: resources/bank-deposit-inquiry.png
-
 .. |transferencia bancaria de caja a banco por depositos| image:: resources/bank-transfer-from-cash-to-bank-for-deposits.png
 .. |consulta de egreso en caja por transferencia de deposito| image:: resources/consultation-of-cash-out-by-deposit-transfer.png
 .. |consulta de ingreso en banco por por transferencia de deposito| image:: resources/bank-deposit-inquiry-by-deposit-transfer.png
-
-
 .. |cierre de caja completo por traspaso a banco| image:: resources/full-cash-closing-by-bank-transfer.png
 
 .. _documento/traspaso-a-banco:
@@ -63,7 +61,7 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
     Imagen 2. Menú de ADempiere
 
-#. Podrá visualizar la ventana de búsqueda inteligente "**Depósito de Caja**", que permite realizar el proceso de depósito de las diferentes cajas registradas en ADempiere. Esta ventana cuenta con diferentes campos que le permiten al ususario filtrar la búsqueda de registros en base a lo que sea seleccionado en los mismos.
+#. Podrá visualizar la ventana de búsqueda inteligente "**Depósito de Caja**", que permite realizar el proceso de depósito de las diferentes cajas registradas en ADempiere. Esta ventana cuenta con diferentes campos que le permiten al usuario filtrar la búsqueda de registros en base a lo que sea seleccionado en los mismos.
 
     |ventana deposito a caja|
 
@@ -179,6 +177,12 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
     Imagen 20. Campo Tipo de Documento
 
+#. El check "**Conciliar Automáticamente**", permite que sea creado un registro de cierre de caja con la cuenta caja administrativa seleccionada anteriormente y asocia al mismo el registro del egreso que genera en la ventana "**Caja**". Para este caso, es necesario destildar el check para crear el cierre de caja de manera manual según lo requerido por el usuario.
+
+    |check conciliar automáticamente del depósito de caja|
+
+    Imagen 21. Check Conciliar Automáticamente
+
 #. Seleccione la opción "**OK**", para ejecutar el proceso y realizar el depósito de caja a banco.
 
     |opcion ok de la ventana deposito a caja|
@@ -218,7 +222,6 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
     - "**Descripción**": Una breve descripción relacionada a la transferencia que requiere generar. Para este ejemplo es utilizado como descripción "**Transferencia bancaria por pago de factura TMP- 0004910**".
     - "**Fecha de Estado de Cuenta**": La fecha en la cual se encuentra realizando la transferencia bancaria.
     - "**Fecha Contable**": La fecha en la cual se encuentra realizando la transferencia bancaria.
-    - "**Check Conciliar Automáticamente**": Tildarlo para conciliar de manera automática los registros de la transacción.
 
     |transferencia bancaria de caja a banco por depositos|
 
@@ -256,7 +259,7 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
         - "**Cuenta**": Caja Administración Ventas - --_Administración VES 
         - "**Tipo de Documento**": Cierre de Caja de Administrativo
-        - "**Fecha de Estado de Cuenta**": La fecha correspondiente al día de las ventas.
+        - "**Fecha de Estado de Cuenta**": La fecha correspondiente al día de las transacciones de cobro por las ventas.
 
     Recuerde cargar las transacciones seleccionando la opción "**Crear a Partir de Caja**", donde debe seleccionar los movimientos creados en la ventana "**Caja**", obtenidos como resultado de los procesos :ref:`documento/deposito-a-caja` y :ref:`documento/transferencia-bancaria-por-depositos`, previamente realizados.
 
