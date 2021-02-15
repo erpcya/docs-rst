@@ -1,0 +1,51 @@
+.. _documento/versión-17-9:
+
+**rs-17.9**
+===========
+
+**Fecha de Liberación:** 2021-02-15
+
+**Soporte a versiones:**
+------------------------
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-20.1
+- Consigned-Material: 1.1.4
+- Exchange-Operation-System: 1.1.3
+- Cash-Management: 1.0.4
+- Currency-Convert-Documents: 1.0.3
+- Farmer-Assistance-Program: 1.0.7
+- RethinkDB-Replicator-Client: 1.0.9
+- Third-Party-Access: 1.0.1
+- FiscalPrinter: 1.3.2
+- RawMaterialReceipt: 1.0.5
+- Sales-Force-Management: 1.0.2
+- Delivery-Management-Service: 1.0.1
+- Travel-Agency-Management: 1.0.5
+- Withholding: 1.0.8
+- Additional-Reports: 1.0.1
+- Migration-Tools: 1.0.1
+- LVE: 1.2.6
+
+**Nota crítica:**
+-----------------
+
+- Se deben aplicar los siguientes XML's:
+
+ - ADempiereBase:
+   - 07640_Update_Currency_for_Venezuela.xml
+   - 07650_Add_Order_Line_Reference_for_Financial_Transaction.xml
+
+**Detalle Técnico:**
+--------------------
+
+- ADempiereBase: New release 3.9.3-rs-4.3 granted by E.R.P. Consultores y Asociados, C.A.
+
+
+**Novedades:**
+--------------
+
+- **Mejoras:**
+
+ - Se agrega moneda por defecto para Venezuela
+ - Se agrega referencia a orden de venta en transacciones Financieras
