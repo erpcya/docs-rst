@@ -187,7 +187,7 @@ A continuación, se específica el procedimiento que se debe realizar para ejecu
 
             |Checklist Sobre Sub Pago de la Ventana Cierre de Caja del Punto de Venta|
 
-            Imagen 19. Checklist Sobre/Sub Pago de la Ventana Cierre de Caja del Punto de Venta
+            Imagen 20. Checklist Sobre/Sub Pago de la Ventana Cierre de Caja del Punto de Venta
 
             .. note::
 
@@ -197,7 +197,7 @@ A continuación, se específica el procedimiento que se debe realizar para ejecu
 
             |Campo Cargo de la Ventana Cierre de Caja del Punto de Venta|
 
-            Imagen 20. Campo Cargo de la Ventana Cierre de Caja del Punto de Venta
+            Imagen 21. Campo Cargo de la Ventana Cierre de Caja del Punto de Venta
 
             .. note::
 
@@ -207,27 +207,27 @@ A continuación, se específica el procedimiento que se debe realizar para ejecu
 
         |Opción OK de la Ventana Cierre de Caja del Punto de Venta|
 
-        Imagen 21. Opción OK de la Ventana Cierre de Caja del Punto de Venta
+        Imagen 22. Opción OK de la Ventana Cierre de Caja del Punto de Venta
 
 
 **Consultar Registro en Cierre de Caja**
 ----------------------------------------
 
-#. Al ejecutar el proceso "**Cerrar de Caja del Punto de Venta**", se completa el registro con la cuenta "**Caja 04**", creado en la ventana "**Cierre de Caja**", llevando la misma a cero (0) nuevamente.
+#. Al ejecutar el proceso "**Cerrar de Caja del Punto de Venta**", se completa el registro con la cuenta "**Caja 01**", creado en la ventana "**Cierre de Caja**", llevando la misma a cero (0) nuevamente.
     
     |Cierre de Caja 04 Completada|
 
-    Imagen 22. Cierre de Caja 04 Completada
+    Imagen 23. Cierre de Caja 01 Completada
 
 #. Podrá visualizar en la pestaña "**Línea de Cierre de Caja**", los registros que fueron creados automáticamente a lo largo del día según las transacciones que fueron realizadas en la caja. Basicamente estos son:
 
-    - **Apertura**: Crea el registro de cierre de caja (Caja 04), asociando en la línea del mismo el documento de ingreso generado en caja.
-    - **Cobros**: Crea en la línea de cierre de caja (Caja 04), un registro por cada documento de cobro generado en caja, asociando el documento a la línea.
-    - **Retiro de Fondos**: Crea en la línea de cierre de caja (Caja 04), un registro por cada documento de egreso generado en caja, asociando el documento a la línea.
+    - **Apertura**: Crea el registro de cierre de caja (Caja 01), asociando en la línea del mismo el documento de ingreso generado en caja.
+    - **Cobros**: Crea en la línea de cierre de caja (Caja 01), un registro por cada documento de cobro generado en caja, asociando el documento a la línea.
+    - **Retiro de Fondos**: Crea en la línea de cierre de caja (Caja 01), un registro por cada documento de egreso generado en caja, asociando el documento a la línea.
     
     |Pestaña Línea de Cierre de Caja 04 Completada|
     
-    Imagen 23. Pestaña Línea de Cierre de Caja 04 Completada
+    Imagen 24. Pestaña Línea de Cierre de Caja 01 Completada
 
 **Completar Registro en Cierre de Caja**
 ----------------------------------------
@@ -236,28 +236,28 @@ A continuación, se específica el procedimiento que se debe realizar para ejecu
 
     |Cierre de Caja Administrativa en Borrador|
 
-    Imagen 24. Cierre de Caja Administrativa en Estado Borrador
+    Imagen 25. Cierre de Caja Administrativa en Estado Borrador
 
 #. Al seleccionar la pestaña "**Línea de Cierre de Caja**", podrá visualizar las líneas creadas con los registros asociados de apertura si fue utilizada la caja para realizar apertura y retiro si fueron realizados retiros en la moneda de la caja en la que se encuentra.
 
     |Pestaña Línea de Cierre de Caja Administrativa en Borrador|
 
-    Imagen 25. Pestaña Línea de Cierre de Caja
+    Imagen 26. Pestaña Línea de Cierre de Caja
 
 #. Regrese a la pestaña principal "**Cierre de Caja**", para ejecutar el cierre de la misma.
 
     |Pestaña Principal Cierre de Caja|
 
-    Imagen 26. Pestaña Principal Cierre de Caja
+    Imagen 27. Pestaña Principal Cierre de Caja
 
 #. Seleccione la opción "**Completar**", para completar el cierre de caja de la "**Caja Administrativa**".
 
     |Opción Completar del Cierre de Caja Administrativa|
 
-    Imagen 27. Opción Completar del Cierre de Caja
+    Imagen 28. Opción Completar del Cierre de Caja
 
 #. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el registro.
 
     |Acción Completar y Opción OK del Cierre de Caja|
 
-    Imagen 28. Acción Completar y Opción OK del Cierre de Caja
+    Imagen 29. Acción Completar y Opción OK del Cierre de Caja

@@ -119,13 +119,13 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
     |Icono Pago de la Ventana Punto de Venta|
 
-    Imagen 9. Icono Pago de la Ventana Punto de Venta
+    Imagen 10. Icono Pago de la Ventana Punto de Venta
 
     La selección de este icono, habilita el recuadro del cobro, mostrando el total a pagar de la orden, los campos para ingresar la forma de pago, la moneda y el monto. Así como también, las opciones para agregar otro pago o eliminar un pago existente.
 
         |recuadro del cobro|
 
-        Imagen 10. Recuadro del Cobro
+        Imagen 11. Recuadro del Cobro
 
     Adicional a ello, se muestra los siguientes campos:
 
@@ -160,7 +160,7 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         |Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta|
 
-        Imagen 10. Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta
+        Imagen 12. Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta
 
         .. note::
 
@@ -172,31 +172,31 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         |Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta|
 
-        Imagen 11. Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta
+        Imagen 13. Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta
 
     #. Introduzca en el campo "**Monto**", el monto pagado por el cliente con la forma de pago y moneda seleccionada.
 
         |Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta|
 
-        Imagen 12. Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta
+        Imagen 14. Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta
 
     #. Tilde el check "**Cobro Completo**", para que posteriormente sea generado el egreso por el cambio del monto pagado por el cliente.
 
         |check cobro completo|
 
-        Imagen 13. Check Cobro Completo del Pago Regular del Icono Pago de la Ventana Punto de Venta
+        Imagen 15. Check Cobro Completo del Pago Regular del Icono Pago de la Ventana Punto de Venta
 
     #. Seleccione la opción "**OK**", para generar el cobro de los productos cargados en la orden de venta.
 
         |Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta|
 
-        Imagen 13. Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta
+        Imagen 16. Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta
 
     #. Seleccione el icono "**Cancelar**", para cancelar el registro del cobro que encuentra realizando.
 
         |cancelar cobro|
 
-        Imagen 14. Cancelar Cobro
+        Imagen 17. Cancelar Cobro
 
 **Procedimiento Especial con Diferentes Formas de Pago y Monedas**
 ******************************************************************
@@ -205,7 +205,7 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         |Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta|
 
-        Imagen 14. Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
+        Imagen 18. Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
         .. note::
 
@@ -217,31 +217,31 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         |Campo Moneda del Pago Especial del Icono Pago de la Ventana Punto de Venta|
 
-        Imagen 15. Campo Moneda del Pago Especial del Icono Pago de la Ventana Punto de Venta
+        Imagen 19. Campo Moneda del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
     #. Introduzca en el campo "**Monto**", el monto pagado por el cliente con la forma de pago y moneda seleccionada.
 
         |Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta|
 
-        Imagen 16. Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta
+        Imagen 20. Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
     #. Introduzca en el campo "**No. de Referencia**", el número de referencia correspondiente a la transacción efectuada en el banco.
 
         |campo número de referencia del pago|
 
-        Imagen 17. Campo No. de Referencia
+        Imagen 21. Campo No. de Referencia
 
     #. Seleccione en el campo "**Banco**", el banco donde fue efectuada la transacción.
 
         |campo banco del pago|
 
-        Imagen 18. Campo Banco
+        Imagen 22. Campo Banco
 
     #. Seleccione el icono "**Más**", para habilitar otro grupo de campos de pago e ingresar la siguiente forma de pago utilizada por el cliente para terminar de cancelar la orden de venta.
 
         |Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta|
 
-        Imagen 17. Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
+        Imagen 23. Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
         .. note::
 
@@ -251,13 +251,13 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
         |Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta|
 
-        Imagen 18. Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta
+        Imagen 24. Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta
 
     #. Seleccione la opción "**OK**", para generar el cobro de los productos cargados en la orden de venta.
 
         |Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta|
 
-        Imagen 19. Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta
+        Imagen 25. Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta
 
 .. note::
 
@@ -275,13 +275,13 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
     |Documento de Cobro Generado en la Ventana Documentos por Cobrar|
 
-    Imagen 20. Orden de Venta
+    Imagen 26. Orden de Venta
 
 #. Al acercar el documento por cobrar, podrá visualizarlo de la siguiente manera
 
     |Documento acercado|
 
-    Imagen 21. Factura por Cobrar
+    Imagen 27. Factura por Cobrar
 
 **Consultar Cobro Generado**
 ----------------------------
@@ -290,19 +290,19 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
     |Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar|
 
-    Imagen 22. Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar
+    Imagen 28. Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar
 
 #. Seleccione el icono "**Cambiar Mono/Multi Registro**" ubicado en la barra de herramientas de ADempiere para cambiar la vista y visualizar la línea del registro de asignación del cobro que requiere acercar, posteriormente copie el valor del campo "**Pago**".
 
     |copiar número de documento|
 
-    Imagen 23. Icono Cambiar Mono/Multi Registro y Copiar Número del Cobro
+    Imagen 29. Icono Cambiar Mono/Multi Registro y Copiar Número del Cobro
 
 #. Ubique el registro del cobro en la ventana "**Caja**", con ayuda del valor copiado anteriormente del campo "**Pago**".
 
     |Documento de Cobro Generado en Caja|
 
-    Imagen 24. Documento de Cobro Generado en Caja
+    Imagen 30. Documento de Cobro Generado en Caja
 
 **Consultar Registro en Cierre de Caja**
 ----------------------------------------
@@ -311,4 +311,4 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
     |Cobro Generado en Cierre de Caja|
 
-    Imagen 25. Cobro Generado en Cierre de Caja
+    Imagen 31. Cobro Generado en Cierre de Caja

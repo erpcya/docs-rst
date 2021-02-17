@@ -1,6 +1,5 @@
 .. _ERPyA: http://erpya.com
 .. |diagrama de traspaso a banco pos| image:: resources/transfer-to-bank.png
-
 .. |menu deposito a caja| image:: resources/deposit-to-cash-menu.png
 .. |ventana deposito a caja| image:: resources/deposit-to-cash-window.png
 .. |campo tipo de banco de la ventana deposito a caja| image:: resources/bank-type-field-of-the-deposit-to-cash-window.png
