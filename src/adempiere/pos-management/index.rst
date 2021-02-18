@@ -27,6 +27,7 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
     pos
     void-sales-transaction
     complete-ready-order
+    cancel-tax-invoice
     detailed-point-of-sale-withdrawal
     closing-cash
     transfer-to-bank

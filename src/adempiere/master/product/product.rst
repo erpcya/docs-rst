@@ -447,10 +447,16 @@ En esta ventana se registran los datos principales que la empresa requiere conoc
 
     Imagen 57. Icono Guardar Cambios
 
+.. _paso/pestaña-compras-producto:
+
 **Pestaña Compras**
 -------------------
 
 En esta ventana se registran los precios y reglas de compras por socios del negocio, con la finalidad de ser utilizada al momento de realizar alguna compra de dicho producto. Cada uno de los campos con el símbolo (\*) son obligatorios para el registro.
+
+.. warning::
+
+    Para el caso de la mercancía en consignación, esta pestaña no debe ser modificada por ningún motivo, ya que la información de la misma es cargada desde la última orden de compra procesada en la que se encuentre dicho producto.
 
 #. Seleccione la pestaña "**Compras**", ubicada del lado izquierdo de la ventana "**Producto**" y proceda al llenado de los campos correspondientes.
 
