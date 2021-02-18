@@ -19,6 +19,7 @@
 .. |campo cargo de la ventana deposito a caja| image:: resources/field-charge-of-the-window-deposit-to-cash.png
 .. |campo tipo de documento para retiros de la ventana deposito a caja| image:: resources/document-type-field-for-withdrawals-from-the-deposit-to-cash-window.png
 .. |campo tipo de documento para deposito de la ventana deposito a caja| image:: resources/field-type-of-document-for-deposit-of-the-window-deposit-to-cash.png
+.. |check conciliar automáticamente del depósito de caja| image:: resources/check-automatically-reconcile-cash-deposit.png
 .. |opcion ok de la ventana deposito a caja| image:: resources/option-ok-from-the-window-deposit-to-cash.png
 .. |consulta de egreso en caja por deposito| image:: resources/check-out-checkout-by-deposit.png
 .. |consulta de ingreso en banco por deposito| image:: resources/bank-deposit-inquiry.png
@@ -36,7 +37,7 @@ El procedimiento para registrar en ADempiere un traspaso monetario desde una caj
 
 Cuando se tiene solamente transacciones por tarjeta de débito o crédito, efectuadas por medio del punto de venta. Se debe realizar el proceso :ref:`documento/deposito-a-caja` y por último el proceso :ref:`documento/cierre-de-caja-por-depositos`, para llevar la caja a cero (0) nuevamente.
 
-Si por el contrario, se tiene solamente transacciones por pago móvil y transferencia bancaria. Se debe realizar el proceso :ref:`documento/transferencia-bancaria-por-depositos` y por último el proceso :ref:`documento/cierre-de-caja-por-depositos`, para llevar la caja a cero (0) nuevamente.
+Si por el contrario, se tiene solamente transacciones por pago móvil y transferencia bancaria. Se debe realizar el proceso :ref:`documento/transferencia-bancaria-por-depositos` por cada una de las transacciones y por último el proceso :ref:`documento/cierre-de-caja-por-depositos`, para llevar la caja a cero (0) nuevamente.
 
 Finalmente, se puede presentar el caso en el que se tengan todos los tipos de pago anteriormente nombrados. Para ello se debe realizar primeramente el proceso :ref:`documento/deposito-a-caja`, para reflejar en ADempiere las transacciones por tarjeta de débito o crédito. Luego se debe realizar el proceso :ref:`documento/transferencia-bancaria-por-depositos`, para reflejar en ADempiere las transacciones por pago móvil y transferencia bancaria. Por último el proceso :ref:`documento/cierre-de-caja-por-depositos`, para ejecutar el cruce de los saldos y poder llevar la cuenta caja a cero (0) nuevamente.
 
@@ -59,7 +60,7 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
     Imagen 2. Menú de ADempiere
 
-#. Podrá visualizar la ventana de búsqueda inteligente "**Depósito de Caja**", que permite realizar el proceso de depósito de las diferentes cajas registradas en ADempiere. Esta ventana cuenta con diferentes campos que le permiten al ususario filtrar la búsqueda de registros en base a lo que sea seleccionado en los mismos.
+#. Podrá visualizar la ventana de búsqueda inteligente "**Depósito de Caja**", que permite realizar el proceso de depósito de las diferentes cajas registradas en ADempiere. Esta ventana cuenta con diferentes campos que le permiten al usuario filtrar la búsqueda de registros en base a lo que sea seleccionado en los mismos.
 
     |ventana deposito a caja|
 
@@ -71,7 +72,7 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
     Imagen 4. Campo Tipo de Banco
 
-#. Seleccione en el campo "**Cuenta Bancaria**", la cuenta caja por la cual requiere filtar la búsqueda de la información. 
+#. Seleccione en el campo "**Cuenta Bancaria**", la cuenta caja por la cual requiere filtar la búsqueda de la información. Para este caso, se utiliza la cuenta "**Caja Administración Ventas - --_Administración VES**".
 
     |campo cuenta bancaria de la ventana deposito a caja|
 
@@ -135,7 +136,7 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
     Imagen 14. Campo Cuenta Bancaria
 
-#. Seleccione en el campo "**Socio del Negocio**", el socio del negocio involucrado en el depósito que se encuentra realizando.
+#. Seleccione en el campo "**Socio del Negocio**", el socio del negocio involucrado en el depósito que se encuentra realizando. En este caso, el socio del negocio es la misma empresa.
 
     |campo socio del negocio a depositar de la ventana deposito a caja|
 
@@ -143,11 +144,15 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
 #. Introduzca en el campo "**No. del Documento**", el número de documento con el cual se va a generar el depósito de caja que se encuentra realizando.
 
+    Este campo se utiliza cuando se va a realizar un depósito que involucra una sola transacción. Cuando se va a realizar un depósito con más de una transacción, se recomienda tildar el check dividir depósito.
+
     |campo nro del documento de la ventana deposito a caja|
 
     Imagen 16. Campo No. de Documento
 
-#. Seleccione el checklist "**Dividir Depósito**", si requiere dividir el depósito de caja que se encuentra realizando. Para este caso, no es necesario tildar el checklist "**Dividir Depósito**".
+#. Seleccione el checklist "**Dividir Depósito**", si requiere dividir el depósito de caja que se encuentra realizando. 
+
+    Este check permite generar tantos depósitos como movimientos sean seleccionados en el proceso, respetando su número de documento. Para este caso, no es necesario tildar el checklist "**Dividir Depósito**".
 
     |checklist dividir deposito de la ventana deposito a caja|
 
@@ -170,6 +175,12 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
     |campo tipo de documento para deposito de la ventana deposito a caja|
 
     Imagen 20. Campo Tipo de Documento
+
+#. El check "**Conciliar Automáticamente**", permite que sea creado un registro de cierre de caja con la cuenta caja administrativa seleccionada anteriormente y asocia al mismo el registro del egreso que genera en la ventana "**Caja**". Para este caso, es necesario destildar el check para crear el cierre de caja de manera manual según lo requerido por el usuario.
+
+    |check conciliar automáticamente del depósito de caja|
+
+    Imagen 21. Check Conciliar Automáticamente
 
 #. Seleccione la opción "**OK**", para ejecutar el proceso y realizar el depósito de caja a banco.
 
@@ -199,15 +210,15 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
 #. Realice el procedimiento regular para registrar una transferencia bancaria en ADempiere, el mismo se encuentra explicado de manera detallada en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_. Considerando las siguientes restricciones:
 
-    - "**Cuenta Bancaria Desde**": La caja desde la cual requiere realizar la transferencia. Para este ejemplo es utilizada la caja "**Caja Administrativa**".
-    - "**Cuenta Bancaria a Transferir**": El banco al cual requiere realizar la transferencia. Para este ejemplo es utilizado el banco "**Mercantil**".
-    - "**Socio del Negocio**": El socio del negocio involucrado en la transferencia bancaria. Para este ejemplo es utilizado el socio "**Estándar**".
+    - "**Cuenta Bancaria Desde**": La caja desde la cual requiere realizar la transferencia. Para este ejemplo es utilizada la caja "**Caja Administración Ventas - --_Administración VES**".
+    - "**Cuenta Bancaria a Transferir**": El banco al cual requiere realizar la transferencia. Para este ejemplo es utilizado el banco "**Banco Provincial  S.A. Banco Universal - 0108_01080000000000000019**".
+    - "**Socio del Negocio**": El socio del negocio involucrado en la transferencia bancaria. Para este ejemplo es utilizado el socio "**Compañía Estándar**".
     - "**Moneda**": La moneda con la cual requiere realizar la transferencia. Para este ejemplo es utilizada la moneda "**VES**".
     - "**Cargo**": El cargo que jistifica el movimiento monetario. Para este ejemplo es utilizado el cargo "**Efectivo en Tránsito Administración Venta**".
-    - "**No. del Documento**": El número de documento con el que será generado el egreso de la caja. Para este ejemplo es utilizado el número "**0003**".
-    - "**Documento Destino**": El número de documento con el que será generado el ingreso del banco. Para este ejemplo es utilizado el número "**0004**".
-    - "**Monto**": El monto correspondiente a la transferencia bancaria que requiere generar. Para este ejemplo es utilizado el monto "**348.000,00**".
-    - "**Descripción**": Una breve descripción relacionada a la transferencia que requiere generar. Para este ejemplo es utilizado como descripción "**Transferencia de caja a banco**".
+    - "**No. del Documento**": El número de documento con el que será generado el egreso de la caja. Para este ejemplo es utilizado el número "**4321**".
+    - "**Documento Destino**": El número de documento con el que será generado el ingreso del banco. Para este ejemplo es utilizado el número "**4321**".
+    - "**Monto**": El monto correspondiente a la transferencia bancaria que requiere generar. Para este ejemplo es utilizado el monto "**5.917.563,54**".
+    - "**Descripción**": Una breve descripción relacionada a la transferencia que requiere generar. Para este ejemplo es utilizado como descripción "**Transferencia bancaria por pago de factura TMP- 0004910**".
     - "**Fecha de Estado de Cuenta**": La fecha en la cual se encuentra realizando la transferencia bancaria.
     - "**Fecha Contable**": La fecha en la cual se encuentra realizando la transferencia bancaria.
 
@@ -241,18 +252,15 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
 #. Realice el procedimiento regular para registrar un cierre de caja en ADempiere, el mismo se encuentra explicado de manera detallada en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_. 
 
-    .. note::
-
-        Se selecciona la caja administrativa para llevar esta a cero (0) nuevamente, transfiriendo el saldo de la caja al banco.
+    Se selecciona la caja administrativa para llevar esta a cero (0) nuevamente, transfiriendo el saldo de la caja al banco. Este proceso se debe realizar por cada caja administrativa a la que igreso dinero por las ventas del día.
 
     En la ejecución del procedimiento de cierre de caja, se debe considerar las siguientes restricciones:
 
-    - "**Cuenta**": Caja Administrativa.
-    - "**Tipo de Documento**": Extracto Bancario
+        - "**Cuenta**": Caja Administración Ventas - --_Administración VES 
+        - "**Tipo de Documento**": Cierre de Caja de Administrativo
+        - "**Fecha de Estado de Cuenta**": La fecha correspondiente al día de las transacciones de cobro por las ventas.
 
-    .. warning::
-
-        Recuerde cargar las transacciones seleccionando la opción "**Crear a Partir de Caja**", donde debe seleccionar los movimientos creados en la ventana "**Caja**", obtenidos como resultado de los procesos :ref:`documento/deposito-a-caja` y :ref:`documento/transferencia-bancaria-por-depositos`, previamente realizados.
+    Recuerde cargar las transacciones seleccionando la opción "**Crear a Partir de Caja**", donde debe seleccionar los movimientos creados en la ventana "**Caja**", obtenidos como resultado de los procesos :ref:`documento/deposito-a-caja` y :ref:`documento/transferencia-bancaria-por-depositos`, previamente realizados.
 
     |cierre de caja completo por traspaso a banco|
 

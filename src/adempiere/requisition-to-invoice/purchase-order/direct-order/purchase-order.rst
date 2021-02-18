@@ -131,7 +131,7 @@ Para el registro de un documento en ADempiere debe tener en cuenta que existen c
 
 			Imagen 12 . Campo Almacén
 
-		#. "**Entrega Directa**, Indica que el Proveedor realizará la entrega directamente al Cliente.
+		#. "**Entrega Directa**, Indica que el proveedor realizará la entrega directamente al cliente.
 
 			|Campo Entrega Directa|
 

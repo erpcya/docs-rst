@@ -34,7 +34,7 @@ Para relacionar en ADempiere las ventas de productos en consignación, es necesa
 
     .. note::
 
-        El registro de la orden de compra se encuentra explicado de manera detallada en el material :ref:`documento/producto`, elaborado por `ERPyA`_.
+        El registro de la orden de compra se encuentra explicado de manera detallada en el material :ref:`documento/orden-de-compra`, elaborado por `ERPyA`_.
 
     |orden de compra|
 
