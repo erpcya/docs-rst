@@ -19,6 +19,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     general/rst/index
     general/release-notes/index
 
+
 .. toctree::
     :caption: ADEMPIERE ERP/CRM
     :maxdepth: 2
