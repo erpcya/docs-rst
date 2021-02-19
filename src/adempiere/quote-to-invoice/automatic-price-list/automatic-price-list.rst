@@ -56,10 +56,10 @@
 
     Recuerde guardar el registro de los campos de la ventana, seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
-.. _documento/ejecución-proceso-lista-precios:
+.. _documento/crear-lista-precios:
 
-**Ejecución del Proceso**
--------------------------
+**Crear Lista de Precios**
+--------------------------
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Materiales**", luego seleccione la carpeta "**Reglas de Gestión de Materiales**", por último seleccione la ventana "**Lista de Precios**".
 
@@ -86,6 +86,8 @@
     Imagen 9. Campo Esq. List. Precios/Desc
 
 #. Seleccione en el campo "**Lista de Precios Base**", la lista de precios base para aplicar el % de descuento de sobre precios.
+
+    Este campo no es obligatorio y permite generar la lista de precios en base a otra.
 
     |campo lista de precios base|
 
