@@ -187,7 +187,7 @@ En el siguiente enlace puede descargar un ejemplo del mismo para visualizarlo me
     Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
 
-.. _paso/crear-tasa-desde-ventana-moneda:
+.. _paso/crear-tasa-desde-ventana-tasa-de-cambio:
 
 **Tasa de Conversión desde la Ventana Tasa de Cambio**
 ------------------------------------------------------

@@ -28,6 +28,7 @@
 .. |Registro de Retiro Generado en Caja Administrativa| image:: resources/withdrawal-record-generated-in-administrative-cash.png
 .. |Registro de Retiro Generado en Caja 01| image:: resources/withdrawal-record-generated-in-cash-01.png
 
+.. _documento/retiro-detallado-punto-de-venta:
 
 **Retiro Detallado de Punto de Venta**
 ======================================

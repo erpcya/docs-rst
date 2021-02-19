@@ -3,3 +3,19 @@
 **rnd-02.1**
 ============
 
+**Soporte a versiones:**
+------------------------
+
+- latest
+
+**Novedades:**
+--------------
+
+- Se agrega la documentación :ref:`src/general/release-notes`
+
+- Se actualiza la documentación :ref:`documento/txt-con-pagos-en-lotes`, agregando el estándar del :ref:`documento/banco-mercantil` y el :ref:`documento/banco-provincial`, que se debe tener para generar un extracto bancario desde ADempiere y poder cargar el mismo al banco requerido por el usuario. 
+
+- Se actualiza la documentación :ref:`documento/generar-txt-banavih`, agregando el estándar del archivo "**.txt**" que se debe generar para posteriormente proceder a subir el archivo al portal.
+
+- Se actualiza la documentación :ref:`src/adempiere/withholding-management/withholding-declaration-cxp`, para agregar el estandar del :ref:`paso/archivo-txt-iva-exportado` y del :ref:`paso/archivo-xml-islr-exportado`.
+
