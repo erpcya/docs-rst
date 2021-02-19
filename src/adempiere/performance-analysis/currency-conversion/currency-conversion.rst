@@ -32,14 +32,17 @@
 **Conversión Manual**
 =====================
 
+La conversión manual consiste en crear en ADempiere los tipos de conversión con los cuales va a trabajar la empresa. Esta funcionalidad permite lo siguiente:
 
+- **Tasa de Conversión Diaria:** Al trabajar con diferentes monedas en los procesos de compra/venta de la organización, se vuelve obligatoría la creación de las tasas de cambio diariamente en los diferentes tipos de conversión con los que trabaja dicha organización. Adicional a ello, la fecha final del rango o periodo de la tasa de cambio, siempre debe ser igual a la fecha de inicio de dicho rango o periodo. 
 
+En el caso de que el usuario intente crear una tasa de cambio con el mismo tipo de conversión y moneda utilizado previamente el mismo día, al intentar guardar el registro existirá una validación que no permitirá completar el proceso.
 
+- **Crear Tasa Recíproca:** Esta funcionalidad permite que al guardar el registro sea creada de manera automática una tasa de cambio como reverso.
 
+.. note::
 
-
-
-
+    Un ejemplo de este caso puede ser cuando el usuario crea una tasa de cambio de moneda "**VES**" a moneda "**USD**" con una tasa multiplicadora 2 entonces automáticamente se creará una tasa de cambio de moneda "**USD**" a "**VES**" con la tasa multiplicadora 0.5
 
 .. _paso/crear-conversión:
 
