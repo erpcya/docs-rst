@@ -23,6 +23,7 @@
 .. |ventana factura de ventas| image:: resources/sales-invoice-window.png
 .. |icono imprimir de la ventana factura de ventas| image:: resources/sales-invoice-window-print-icon.png
 .. |reporte detalles de facturas y margen| image:: resources/report-details-of-invoices-and-margin.png
+.. |reporte detalles de facturas y margen convertido| image:: resources/report-invoice-details-and-converted-margin.png
 .. |ubicar prefactura| image:: resources/locate-pre-invoice.png
 .. |numero de documento en pre factura| image:: resources/pre-invoice-document-number.png
 .. |fecha de facturación de pre factura| image:: resources/pre-invoice-billing-date.png
@@ -230,6 +231,12 @@ Adicional a ello, la venta no debe estar incluida en ningún documento por pagar
     |reporte detalles de facturas y margen|
 
     Imagen 24. Reporte Detalles de Facturas y Margen
+
+#. Seleccione en el campo "**Formato de Impresión**", el formato de impresión "**Relación de Productos en Consignación**", para visualizar el reporte "**Detalles de Facturas y Margen**", convertido.
+
+    |reporte detalles de facturas y margen convertido|
+
+    Imagen 25. Reporte Detalles de Facturas y Margen Convertido
 
     .. warning::
 

@@ -87,6 +87,12 @@ A continuación, se específica el procedimiento que se debe realizar para anula
 
 #. De igual manera, se puede visualizar en la ventana "**Devolución Cliente**", el registro generado desde el proceso anteriormente explicado.
 
+    Este documento se genera de manera automática, cuando existe un documento de entrega asociado a la venta.
+
+    .. note::
+
+        Recuerde que dicho documento de entrega se puede generar de manera automática según la configuración del tipo de documento, como se indica en el material :ref:`src/adempiere/pos-management`.
+
     |consulta de devolución generada|
 
     Imagen 10. Consulta de Devolución Generada
