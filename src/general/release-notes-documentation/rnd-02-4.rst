@@ -1,0 +1,18 @@
+.. _documento/versión-febrero-4s:
+
+**rnd-02.4**
+============
+
+**Soporte a versiones:**
+------------------------
+
+- latest
+
+**Novedades:**
+--------------
+
+- Se actualiza la documentación de la :ref:`src/lve/procedures/consignment-sales`, para agregar el reporte "**Detalles de Facturas y Margen**" convertido.
+
+- Se actualiza la documentación de la :ref:`src/adempiere/pos-management`, para agregar la configuración que debe tener el tipo de documento "**Orden POS**", para generar las entregas de manera automática al completar la venta. Adicional a ello, se indica en el documento :ref:`documento/anular-transacción-de-venta`, que el documento de devolución es creado de manera automática cuando existe un documento de entrega.
+
+- Se actualiza la documentación :ref:`src/lve/report`, para agregar el documento :ref:`documento/detalles-factura-y-margen-según-compras` en el cual se indica la manera correcta de generar dicho reporte.
