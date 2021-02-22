@@ -91,7 +91,7 @@ A continuación, se específica el procedimiento que se debe realizar para anula
 
     .. note::
 
-        Recuerde que dicho documento se puede generar de manera automática según la configuración del tipo de documento, como se indica en el material :ref:`src/adempiere/pos-management`.
+        Recuerde que dicho documento de entrega se puede generar de manera automática según la configuración del tipo de documento, como se indica en el material :ref:`src/adempiere/pos-management`.
 
     |consulta de devolución generada|
 
