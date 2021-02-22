@@ -180,6 +180,8 @@
 
     La declaración de las retenciones municipales de cuentas por pagar, varia según el municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. En ADempiere, dicha declaración es generada realizando los procesos :ref:`paso/generar-declaración-retenciones` y :ref:`paso/consultar-declaración-retenciones`, anteriormente explicados en el presente material.
 
+.. _paso/archivo-txt-iva-exportado:
+
 **Archivo TXT de IVA Exportado**
 --------------------------------
 
@@ -210,6 +212,8 @@
     - **Monto Exento del IVA**, en el archivo el monto exento del IVA es "**0.00**"
     - **Alícuota**", en el archivo la alícuota es "**16.00**"
     - **Numero de Expediente**, en el archivo el número de expediente es "**0**"
+
+.. _paso/archivo-xml-islr-exportado:
 
 **Archivo XML de ISLR Exportado**
 ---------------------------------

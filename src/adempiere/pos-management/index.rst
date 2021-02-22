@@ -1,5 +1,7 @@
 .. |Diagrama de Proceso Punto de Venta| image:: resources/point-of-sale-process-diagram.png
 
+.. _src/adempiere/pos-management:
+
 ===============
 **Gestión PDV**
 ===============

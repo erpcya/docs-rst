@@ -135,7 +135,7 @@
 .. _documento/devolución-de-activos:
 
 **Devolución de Activos**
-======================
+=========================
 
 #. Para devolver el activo a la organización debe realizar el mismo procedimiento explicado en el proceso :ref:`documento/entrega-de-activos`, destildando el check "**En Posesión**", para filtrar por los activos que no se encuentran en posesión de la organización.
 
