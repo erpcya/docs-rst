@@ -7,6 +7,7 @@
 
 Las notas de liberación de documentación, muestran todo el histórico de cambios en las versiones liberadas bajo autoría de `ERPyA`_. Para ver en detalle cada versión liberada solo seleccione uno de los siguientes índices:
 
-    - :ref:`documento/versión-febrero-1s`
-    - :ref:`documento/versión-febrero-2s`
-    - :ref:`documento/versión-febrero-3s`
+    - :ref:`documento/versión-3-9-2-rs-1-3`
+    - :ref:`documento/versión-3-9-2-rs-1-2`
+    - :ref:`documento/versión-3-9-2-rs-1-1`
+    - :ref:`documento/versión-3-9-2-rs-1-0`
