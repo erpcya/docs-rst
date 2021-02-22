@@ -11,4 +11,3 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 
     create-purchase-orders-from-requisitions/index
     direct-order/index
-    
