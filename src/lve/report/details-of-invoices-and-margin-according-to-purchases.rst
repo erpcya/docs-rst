@@ -3,7 +3,7 @@
 .. |campo organización del reporte detalles de facturas y margen según compras| image:: resources/field-organization-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
 .. |campo grupo de socio del negocio del reporte detalles de facturas y margen según compras| image:: resources/business-partner-group-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
 .. |campo socio del negocio del reporte detalles de facturas y margen según compras| image:: resources/business-partner-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
-..-|campo transacción de ventas del reporte detalles de facturas y margen según compras| image:: resources/sales-transaction-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo transacción de ventas del reporte detalles de facturas y margen según compras| image:: resources/sales-transaction-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
 .. |campo tipo de documento destino del reporte detalles de facturas y margen según compras| image:: resources/field-type-of-document-destination-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
 .. |campo categoría del producto del reporte detalles de facturas y margen según compras| image:: resources/product-category-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
 .. |campo grupo de producto del reporte detalles de facturas y margen según compras| image:: resources/product-group-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
