@@ -30,11 +30,11 @@ Para relacionar en ADempiere las ventas de productos en consignación, es necesa
 
     Imagen 2. Producto
 
-#. La orden de compra debe tener tildado el check "**Entrega Directa**".
+#. La orden de compra debe estar realizada con el tipo de documento "**Orden de Compra Consignación**", tener tildado el check "**Entrega Directa**" y estar en estado "**Completo**".
 
     .. note::
 
-        El registro de la orden de compra se encuentra explicado de manera detallada en el material :ref:`documento/orden-de-compra`, elaborado por `ERPyA`_.
+        El registro de la orden de compra para el proceso de consignación, se encuentra explicado de manera detallada en el material :ref:`documento/orden-de-compra-multimoneda`, elaborado por `ERPyA`_.
 
     |orden de compra|
 

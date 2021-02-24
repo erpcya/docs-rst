@@ -1,3 +1,4 @@
+.. |caso de coincidencia de tasas a la fecha| image:: resources/rate-coincidence-case-to-date.png
 .. |Menú de ADempiere 2| image:: resources/conversion-type-menu.png
 .. |Ventana Tipo de Conversión| image:: resources/conversion-type-window.png
 .. |Icono Registro Nuevo| image:: resources/new-record-icon-in-the-conversion-type-window.png
@@ -38,7 +39,7 @@ La conversión manual consiste en crear en ADempiere los tipos de conversión co
 
 En el caso de que el usuario intente crear una tasa de cambio con el mismo tipo de conversión y moneda utilizado previamente el mismo día, al intentar guardar el registro existirá una validación que no permitirá completar el proceso.
 
-    |caso de coincidencia de tasas a la fecha| image:: resources/rate-coincidence-case-to-date.png
+    |caso de coincidencia de tasas a la fecha|
 
     Imagen 1. Ejemplo de Validación
 
