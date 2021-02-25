@@ -154,6 +154,10 @@
 
         Imagen 16. Check Entrega Directa
 
+        .. warning::
+
+            De no ser tildado el check "**Entrega Directa**", no se podrá generar un documento por pagar (factura) con una moneda diferente a la moneda con la que fue realizada la orden de compra.
+
         Al tildar el check "**Entrega Directa**", se habilitan los siguientes campos
 
         #. Seleccione en el campo "**Socio del Negocio Entrega Directa**", el socio del negocio al cual serán entregados los productos incluidos en la orden.
@@ -236,9 +240,9 @@
 
         Imagen 28. Campo Término de Pago
 
-.. warning::
+    .. warning::
 
-    Recuerde guardar el registro de la ventana, seleccionando el icono "**Guardar**" ubicado en la barra de herramientas, una vez guardado el nuevo registro, podrá avanzar a la pestaña "**Línea Orden Compra**".
+        Recuerde guardar el registro de la ventana, seleccionando el icono "**Guardar**" ubicado en la barra de herramientas, una vez guardado el nuevo registro, podrá avanzar a la pestaña "**Línea Orden Compra**".
 
 #. Seleccione la pestaña "**Línea Orden Compra**" y proceda al llenado de los campos seleccionando el producto o servicio a ordenar. Si la orden de compra contiene varios productos, el campo "**Nro. de Línea**"", indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer producto, deberá seleccionar el icono "**Registro Nuevo**", incrementando así el número de líneas por productos en el documento.
 
@@ -250,105 +254,105 @@
 
     Imagen 29. Línea Orden Compra
 
-#. Seleccione en el campo "**Producto**", el producto correspondiente a la orden de compra que se encuentra realizando.
+    #. Seleccione en el campo "**Producto**", el producto correspondiente a la orden de compra que se encuentra realizando.
 
-    |campo producto orden multimoneda|
+        |campo producto orden multimoneda|
 
-    Imagen 30. Campo Producto
+        Imagen 30. Campo Producto
 
-#. Introduzca en el campo "**Cantidad**", la cantidad del producto seleccionado.
+    #. Introduzca en el campo "**Cantidad**", la cantidad del producto seleccionado.
 
-    |campo cantidad orden multimoneda|
+        |campo cantidad orden multimoneda|
 
-    Imagen 31. Campo Cantidad
+        Imagen 31. Campo Cantidad
 
-#. Seleccione en el campo "**Unidad de Medida**", la unidad de medida del producto seleccionado.
+    #. Seleccione en el campo "**Unidad de Medida**", la unidad de medida del producto seleccionado.
 
-    Esta unidad de medida puede ser unidad, gramos, kilos, toneladas, entre otras.
+        Esta unidad de medida puede ser unidad, gramos, kilos, toneladas, entre otras.
 
-    |campo unidad de medida orden multimoneda|
+        |campo unidad de medida orden multimoneda|
 
-    Imagen 32. Campo Unidad de Medida
+        Imagen 32. Campo Unidad de Medida
 
-#. En el campo "**Cantidad Ordenada**", se indica la cantidad ordenada del producto seleccionado.
+    #. En el campo "**Cantidad Ordenada**", se indica la cantidad ordenada del producto seleccionado.
 
-    Este campo toma de manera automática, el valor ingresado en el campo "**Cantidad**".
+        Este campo toma de manera automática, el valor ingresado en el campo "**Cantidad**".
 
-    |campo cantidad ordenada orden multimoneda|
+        |campo cantidad ordenada orden multimoneda|
 
-    Imagen 33. Campo Cantidad Ordenada
+        Imagen 33. Campo Cantidad Ordenada
 
-#. En el campo "**Cantidad Entregada**", se indica la cantidad del producto que ha sido recepcionada.
+    #. En el campo "**Cantidad Entregada**", se indica la cantidad del producto que ha sido recepcionada.
 
-    Este campo estará en cero (0), hasta que sea generado un documento de recepción con dicho producto, asociando la orden de compra.
+        Este campo estará en cero (0), hasta que sea generado un documento de recepción con dicho producto, asociando la orden de compra.
 
-    |campo cantidad entregada orden multimoneda|
+        |campo cantidad entregada orden multimoneda|
 
-    Imagen 34. Campo Cantidad Entregada
+        Imagen 34. Campo Cantidad Entregada
 
-#. En el campo "**Cantidad Reservada**", se indica la cantidad del producto que ha sido reservado para otras órdenes.
+    #. En el campo "**Cantidad Reservada**", se indica la cantidad del producto que ha sido reservado para otras órdenes.
 
-    |campo cantidad reservada orden multimoneda|
+        |campo cantidad reservada orden multimoneda|
 
-    Imagen 35. Campo Cantidad Reservada
+        Imagen 35. Campo Cantidad Reservada
 
-#. Seleccione en el campo "**Cantidad Facturada**, la cantidad de un producto que ha sido facturado.
+    #. Seleccione en el campo "**Cantidad Facturada**, la cantidad de un producto que ha sido facturado.
 
-    Este campo estará en cero (0), hasta que sea generado un documento de cuentas por pagar (factura) con dicho producto, asociando la orden de compra.
+        Este campo estará en cero (0), hasta que sea generado un documento de cuentas por pagar (factura) con dicho producto, asociando la orden de compra.
 
-    |campo cantidad facturada orden multimoneda|
+        |campo cantidad facturada orden multimoneda|
 
-    Imagen 36. Campo Cantidad Facturada
+        Imagen 36. Campo Cantidad Facturada
 
-#. Introduzca en el campo "**Precio**", el precio del producto seleccionado.
+    #. Introduzca en el campo "**Precio**", el precio del producto seleccionado.
 
-    Este precio está basado en la unidad de medida del producto, lo que quiere decir, que si el producto seleccionado tiene unidad de medida "**Caja**" y dicha caja contiene seis (6) unidades,ADempiere tomará el precio ingresado como precio de la caja y no como precio de cada unidad que compone la caja.
+        Este precio está basado en la unidad de medida del producto, lo que quiere decir, que si el producto seleccionado tiene unidad de medida "**Caja**" y dicha caja contiene seis (6) unidades,ADempiere tomará el precio ingresado como precio de la caja y no como precio de cada unidad que compone la caja.
 
-    |campo precio orden multimoneda|
+        |campo precio orden multimoneda|
 
-    Imagen 37. Campo Precio
+        Imagen 37. Campo Precio
 
-#. Introduzca en el campo "**Precio de Costo**", el precio de costo del producto seleccionado.
+    #. Introduzca en el campo "**Precio de Costo**", el precio de costo del producto seleccionado.
 
-    Este precio indica el precio por unidad de medida, incluyendo todos los costos (fletes, traslados, entre otros)
+        Este precio indica el precio por unidad de medida, incluyendo todos los costos (fletes, traslados, entre otros)
 
-    |campo precio costo orden multimoneda|
+        |campo precio costo orden multimoneda|
 
-    Imagen 38. Campo Precio Costo
+        Imagen 38. Campo Precio Costo
 
-#. En el campo "**Precio Actual**", se indica el precio para un producto en la moneda fuente.
+    #. En el campo "**Precio Actual**", se indica el precio para un producto en la moneda fuente.
 
-    |campo precio actual orden multimoneda|
+        |campo precio actual orden multimoneda|
 
-    Imagen 39. Campo Precio Actual
+        Imagen 39. Campo Precio Actual
 
-#. Introduzca en el campo "**Precio Lista**", el precio de lista oficial en la moneda del documento.
+    #. Introduzca en el campo "**Precio Lista**", el precio de lista oficial en la moneda del documento.
 
-    |campo precio lista orden multimoneda|
+        |campo precio lista orden multimoneda|
 
-    Imagen 40. Campo Precio Lista
+        Imagen 40. Campo Precio Lista
 
-#. Seleccione en el campo "**Impuesto**", el tipo de impuesto para esta línea del documento.
+    #. Seleccione en el campo "**Impuesto**", el tipo de impuesto para esta línea del documento.
 
-    |campo impuesto orden multimoneda|
+        |campo impuesto orden multimoneda|
 
-    Imagen 41. Campo Impuesto
+        Imagen 41. Campo Impuesto
 
-#. Introduzca en el campo "**Descuento**", el descuento aplicado o tomado como un porcentaje.
+    #. Introduzca en el campo "**Descuento**", el descuento aplicado o tomado como un porcentaje.
 
-    |campo descuento orden multimoneda|
+        |campo descuento orden multimoneda|
 
-    Imagen 42. Campo Descuento
+        Imagen 42. Campo Descuento
 
-#. En el campo "**Neto de Línea**", se indica el total neto de la línea basado en la cantidad y el precio actual. Cualquier cargo adicional o flete no es incluido.
+    #. En el campo "**Neto de Línea**", se indica el total neto de la línea basado en la cantidad y el precio actual. Cualquier cargo adicional o flete no es incluido.
 
-    |campo neto de línea orden multimoneda|
+        |campo neto de línea orden multimoneda|
 
-    Imagen 43. Campo Neto de Línea
+        Imagen 43. Campo Neto de Línea
 
-.. warning::
+    .. warning::
 
-    Recuerde guardar el registro de la pestaña "**Línea Orden Compra**" con el icono "**Guardar**" de la barra de herramientas de ADempiere, antes de cambiar a la ventana principal "**Orden de Compra**".
+        Recuerde guardar el registro de la pestaña "**Línea Orden Compra**" con el icono "**Guardar**" de la barra de herramientas de ADempiere, antes de cambiar a la ventana principal "**Orden de Compra**".
 
 #. Regrese a la pestaña principal "**Orden de Compra**" y seleccione la opción "**Completar**" ubicada en la parte inferior derecha del documento.
 
