@@ -1,0 +1,18 @@
+.. _documento/versión-3-9-2-rs-1-4:
+
+**3.9.2-rs-1.4**
+================
+
+**Soporte a versiones:**
+------------------------
+
+- mini-erp
+
+**Novedades:**
+--------------
+
+- Se actualiza la documentación :ref:`src/lve/procedures`, para agregar el documento :ref:`documento/boletería`, en el cual se explica el procedimiento de registro de viajero, registro de boleto y generación de factura desde boletos.
+
+- **Mejoras:**
+
+ - Se pueden generar facturas de cuentas por cobrar desde el proceso "**Crear Factura Desde Boleto**", sin importar el socio del negocio seleccionado en la factura. Esta funcionalidad fue liberada en la versión :ref:`documento/versión-18-9`, en el cual se agrega el campo "**Viajero**" como filtro o campo de búsqueda en dicho proceso.
