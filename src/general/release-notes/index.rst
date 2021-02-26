@@ -7,6 +7,23 @@
 
 Las notas de liberación muestran todo el histórico de cambios en las versiones liberadas bajo autoría de `ERPyA`_. Para ver en detalle cada versión liberada solo seleccione uno de los siguientes índices:
 
+    - :ref:`documento/versión-19-0`
+    - :ref:`documento/versión-18-9`
+    - :ref:`documento/versión-18-8`
+    - :ref:`documento/versión-18-7`
+    - :ref:`documento/versión-18-6`
+    - :ref:`documento/versión-18-5`
+    - :ref:`documento/versión-18-4`
+    - :ref:`documento/versión-18-3`
+    - :ref:`documento/versión-18-2`
+    - :ref:`documento/versión-18-1`
+    - :ref:`documento/versión-18-0`
+    - :ref:`documento/versión-17-9`
+    - :ref:`documento/versión-17-8`
+    - :ref:`documento/versión-17-7`
+    - :ref:`documento/versión-17-6`
+    - :ref:`documento/versión-17-5`
+    - :ref:`documento/versión-17-4`
     - :ref:`documento/versión-17-3`
     - :ref:`documento/versión-17-2`
     - :ref:`documento/versión-17-1`
