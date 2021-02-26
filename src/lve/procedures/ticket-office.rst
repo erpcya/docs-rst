@@ -101,7 +101,6 @@
 .. |campo viajero del proceso crear factura desde boleto| image:: resources/traveler-field-of-the-create-invoice-from-ticket-process.png
 .. |opción comenzar búsqueda del proceso crear factura desde boleto| image:: resources/option-start-process-search-create-invoice-from-ticket.png
 .. |selección del boleto y opción ok| image:: resources/ticket-selection-and-option-ok.png
-
 .. |icono refrescar de la ventana documentos por cobrar| image:: resources/icon-refresh-of-the-window-documents-receivable.png
 .. |documento por cobrar en estado completo| image:: resources/document-receivable-in-complete-state.png
 .. |icono imprimir de la ventana documentos por cobrar| image:: resources/print-icon-of-the-documents-receivable-window.png
