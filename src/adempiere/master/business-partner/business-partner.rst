@@ -183,7 +183,7 @@
 
         Imagen 14. Campo Grupo de Ventas de la Pestaña Principal Socio del Negocio
 
-    #. Seleccione en el campo "**Estado de Crédito**".
+    #. Seleccione el estado de crédito en el campo "**Estado de Crédito**".
 
         El estado del crédito no es un campo obligatorio, sin embargo, le permite definir el comportamiento para la gestión del crédito del socio de negocio, actúa conjuntamente con el campo **Saldo Actual** y **Límite de Crédito** ubicado en la pestaña **Cliente**, este puede variar entre las siguiente opciones dependiendo de las necesidades:
 
