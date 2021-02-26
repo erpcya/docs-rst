@@ -32,6 +32,8 @@
 
 - Se deben aplicar los siguientes XML's:
 
+ - Travel-Agency-Management:05850_Add_Traveler_as_Query_Criteria_for_SB_Create_From_Ticket.xml
+
 
 **Detalle Técnico:**
 --------------------
