@@ -26,3 +26,4 @@ Con este ejemplo visualizamos la gravedad que implica la falta de integración y
     business-partner/index
     product/index
     reason-for-trip/index
+    carrier/index
