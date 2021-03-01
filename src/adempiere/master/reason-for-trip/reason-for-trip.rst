@@ -1,11 +1,11 @@
-.. |menú de motivo de viaje| image:: resources/
-.. |ventana motivo de viaje| image:: resources/
-.. |icono registro nuevo de la ventana motivo de viaje| image:: resources/
-.. |campo organización de la ventana motivo de viaje| image:: resources/
-.. |campo código de la ventana motivo de viaje| image:: resources/
-.. |campo nombre de la ventana motivo de viaje| image:: resources/
-.. |campo descripción de la ventana motivo de viaje| image:: resources/
-.. |icono guardar cambios de la ventana motivo de viaje| image:: resources/
+.. |menú de motivo de viaje| image:: resources/travel-motive-menu.png
+.. |ventana motivo de viaje| image:: resources/window-reason-for-travel.png
+.. |icono registro nuevo de la ventana motivo de viaje| image:: resources/new-window-registration-icon-travel-reason.png
+.. |campo organización de la ventana motivo de viaje| image:: resources/field-window-organization-reason-for-trip.png
+.. |campo código de la ventana motivo de viaje| image:: resources/field-code-of-the-trip-reason-window.png
+.. |campo nombre de la ventana motivo de viaje| image:: resources/window-name-field-trip-reason.png
+.. |campo descripción de la ventana motivo de viaje| image:: resources/field-description-of-trip-reason-window.png
+.. |icono guardar cambios de la ventana motivo de viaje| image:: resources/icon-save-changes-of-the-trip-reason-window.png
 
 
 .. _documento/motivo-de-viaje:
@@ -37,7 +37,9 @@
 
     Imagen 4. Campo Organización
 
-#. Introduzca en el campo "**Codigo**", el código correspondiente al registro
+#. Introduzca en el campo "**Codigo**", el código correspondiente al registro.
+
+    Si no es ingresado ningún valor en este campo, al guardar el registro ADempiere asigna de manera automática el número de secuencia correspondiente al registro.
 
     |campo código de la ventana motivo de viaje|
 
@@ -60,3 +62,7 @@
     |icono guardar cambios de la ventana motivo de viaje|
 
     Imagen 8 . Icono Guardar Cambios
+
+.. note::
+
+    Por cada motivo de viaje que requiere registrar, debe realizar el mismo procedimento explicado anteriormente.
