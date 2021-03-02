@@ -59,7 +59,7 @@ El procedimiento de boletería parte de una previa configuración en la cual se 
 
     - :ref:`src/adempiere/master/carrier` Deben estar definidas las diferentes empresas responsables de realizar el viaje. De no cumplir con ello, se debe realizar el procedimiento explicado en el material :ref:`documento/transportista`. 
 
-    - :ref:`src/adempiere/master/travel-tax` Deben estar definidos los diferentes impuestos de viaje con los que trabaja la organización. De no cumplir con ello, se debe realizar el procedimiento explicado en el material :ref:`documento/impuesto-de-viaje`. 
+    - :ref:`src/adempiere/master/travel-tax` Deben estar definidos los diferentes impuestos de viaje con los que trabaja la organización. De no cumplir con ello, se debe realizar el procedimiento explicado en el material :ref:`documento/impuesto-de-viaje`. Cada impuesto de viaje varia según el tipo de boleto.
 
         .. warning::
 

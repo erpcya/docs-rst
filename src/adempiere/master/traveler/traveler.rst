@@ -88,11 +88,11 @@
 
     Imagen 4. Campo Organización
 
-#. Introduzca en el campo "**Código**", el código del cliente viajero que se encuentra registrando.
+#. Introduzca en el campo "**Código**", el código del cliente viajero que se encuentra registrando. El mismo no debe contener guiones (-), ni puntos (.).
 
     .. note::
 
-        Si no es ingresado ningún valor en este campo, al guardar el registro ADempiere asigna de manera automática un código según la secuencia de registros que se tenga en el momento.
+        Si no es ingresado ningún valor en este campo, al guardar el registro ADempiere asigna de manera automática un código según la secuencia de registros que se tenga en el momento. La información de este campo, es cargada de manera automática en el campo "**Número Identificación**" o viceversa.
 
     |campo código de la ventana viajero|
 
@@ -140,7 +140,7 @@
 
     Imagen 12. Campo Saldo Actual 
 
-#. En el campo "**Número Identificación**", podrá visualizar la información ingresada en el campo "**Código**".
+#. En el campo "**Número Identificación**", podrá visualizar la información ingresada en el campo "**Código**" o viceversa. El mismo no debe contener guiones (-), ni puntos (.).
 
     |campo número identificación de la ventana viajero|
 
@@ -253,6 +253,10 @@
     |pestaña detalle del viajero de la ventana viajero|
 
     Imagen 31. Pestaña Detalle del Viajero
+
+    .. note::
+
+        En esta pestaña se agrega la información de referente al pasaporte del viajero y los datos fiscales del pasaporte.
 
 #. Introduzca en el campo "**Pasaporte**", el pasaporte del cliente viajero que se encuentra registrando.
 
