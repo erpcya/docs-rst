@@ -9,5 +9,8 @@ Esta documentación está destinada a definir las listas de precios en ADempiere
 .. toctree::
     :maxdepth: 2
 
-    automatic-price-list
+    price-list-schema-configuration
+    base-price-list-setup
+    create-price-list-from-another-price-list
+    create-price-list-from-last-oc-processed
     create-product-entries
