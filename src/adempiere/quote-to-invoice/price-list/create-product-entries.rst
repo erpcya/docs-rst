@@ -52,6 +52,14 @@
 
 #. Al seleccionar el registro del producto se habilitan los tres (3) campos referente a los precios de los productos. Introduzca en cada uno de ellos, los diferentes precios que corresponden a la lista de precios que se encuentra realizando.
 
+    Recuerde que debe ingresar los precios del producto considerando lo siguiente:
+
+    - En el campo "**Precio de Lista**", se debe indicar el precio de lista oficial en la moneda del documento.
+
+    - En el campo "**Precio Estándar**", se debe indicar el precio estándar o normal para un producto en esta lista de precios.
+
+    - En el campo "**Precio Límite**", se debe indicar el pprecio más bajo para un producto establecido en la moneda de la lista de precio.
+
     |ingresar precios de productos|
 
     Imagen 6. Ingresar Precios de Productos

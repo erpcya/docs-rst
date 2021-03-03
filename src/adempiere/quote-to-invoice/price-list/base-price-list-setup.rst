@@ -25,7 +25,7 @@
 .. |campo pmvp de la pestaña precio de producto| image:: resources/pmvp-field-of-the-product-price-tab.png
 .. |icono guardar cambios de la pestaña precio de producto| image:: resources/icon-save-changes-of-the-product-price-tab.png
 
-.. _documento/configuración de lista de precios base:
+.. _documento/configuración-de-lista-de-precios-base:
 
 **Configuración de Lista de Precios Base**
 ==========================================
@@ -51,7 +51,6 @@
     |registro de ventas usd para lista de precios base|
 
     Imagen 3. Lista de Precios Ventas (USD)
-
 
 #. Seleccione la pestaña "**Versión**", para crear la versión de lista de precios base.
 
@@ -111,6 +110,11 @@
     
         Para cargar los precios de los productos en la lista de precios base, puede realizar desde la opción "**Crear Lista de Precios**", o de manera manual desde la pestaña "**Precio del Producto**".
 
+.. _documento/paso-crear-precios-desde-crear-lista-de-precios:
+
+**Crear Precios desde Crear Lista de Precios**
+----------------------------------------------
+
 #. Para cargar los precios de los productos desde la opción "**Crear Lista de Precios**", debe realizar lo siguiente.
 
     Esta opción permite crear los precios de los productos desde la última orden de compra procesada, basandose en el tipo de conversión, descuento y margen de ganancia, previamente configurado en el esquema de descuento. 
@@ -122,6 +126,10 @@
         |opción crear lista de precios para lista de precios base|
 
         Imagen 12. Opción Crear Lista de Precios
+
+        .. note::
+
+            También puede acceder al proceso, seleccionando la opción "**Crear Lista de Precios**" desplegada del icono "**Proceso** ubicado en la barra de herramientas de ADempiere.
 
     #. Podrá visualizar la ventana "**Crear Lista de Precios**", con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
@@ -161,7 +169,7 @@
 
         Imagen 17. Campo Clase de Producto
 
-    #. Seleccione en el camp "**Clasificación de Producto**", la clasificación por la cual requiere generar la lista de precios.
+    #. Seleccione en el campo "**Clasificación de Producto**", la clasificación por la cual requiere generar la lista de precios.
 
         Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las clasificaciones de productos.
 
@@ -174,6 +182,15 @@
         |opción ok de la ventana crear lista de precios para lista de precios base|
 
         Imagen 19. Opción OK
+
+    .. note::
+
+        Para verificar los precios de los productos puede seleccionar la pestaña "**Precio de Producto**", de la ventana "**Lista de Precios**", de la versión previamente creada.
+
+.. _documento/paso-crear-precios-desde-pestaña-precio-de-producto:
+
+**Crear Precios desde Pestaña Precio de Producto**
+--------------------------------------------------
 
 #. Para cargar los precios de los productos de manera manual, debe realizar lo siguiente.
 
@@ -191,11 +208,15 @@
 
     #. Introduzca en el campo "**Precio de Lista**", el precio de lista del producto.
 
+        El precio de lista es el precio de lista oficial en la moneda del documento.
+
         |campo precio de lista de la pestaña precio de producto|
 
         Imagen 22. Campo Precio de Lista 
 
     #. Introduzca en el campo "**Precio Estándar**", el precio estándar del producto.
+
+        El precio estándar indica el precio estándar o normal para un producto en esta lista de precios.
 
         |campo precio estándar de la pestaña precio de producto|
 
@@ -203,11 +224,15 @@
 
     #. Introduzca en el campo "**Precio Límite**", el precio límite del producto.
 
+        El límite de precio indica el precio más bajo para un producto establecido en la moneda de la lista de precio.
+
         |campo precio límite de la pestaña precio de producto|
 
         Imagen 24. Campo Precio Límite 
 
     #. Introduzca en el campo "**PMVP**", el PMVP del producto.
+
+        El PMVP indica el precio marcado de venta al público.
 
         |campo pmvp de la pestaña precio de producto|
 

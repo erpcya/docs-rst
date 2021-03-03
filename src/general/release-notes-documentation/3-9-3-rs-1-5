@@ -1,0 +1,19 @@
+.. _documento/versión-3-9-3-rs-1-5:
+
+**3.9.3-rs-1.5**
+================
+
+**Soporte a versiones:**
+------------------------
+
+- mini-erp
+- latest
+
+**Novedades:**
+--------------
+
+- Se actualiza la documentación de :ref:`src/adempiere/master`, en la versión del branch "**Mini-ERP**" de la documentación, con la finalidad de agregar los documentos :ref:`src/adempiere/master/traveler`, :ref:`src/adempiere/master/reason-for-trip`, :ref:`src/adempiere/master/carrier`, :ref:`src/adempiere/master/terminal`, :ref:`src/adempiere/master/travel-tax` y :ref:`src/adempiere/master/ticket-type`, en los cuales se explican las configuraciones, procesos o registros que se deben tener de manera obligatoria para realizar correctamente el procedimiento de :ref:`documento/boletería` en ADempiere.
+
+- Se actualiza la documentación :ref:`src/adempiere/quote-to-invoice/price-list`, en la versión del branch "**latest**" de la documentación, con la finalidad de redefinir los procesos de listas de precios de ADempiere, donde se establecen los documentos :ref:`documento/configuración-del-esquema-de-lista-de-precios`, :ref:`documento/configuración-de-lista-de-precios-base`, :ref:`documento/crear-lista-de-precios-desde-otra-lista-de-precios`, :ref:`documento/crear-lista-de-precios-desde-última-oc-procesada` y :ref:`documento/crear-entradas-de-productos-en-lista-de-precios`.
+
+- 
