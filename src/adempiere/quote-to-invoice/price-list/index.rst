@@ -1,4 +1,4 @@
-.. _src/adempiere/quote-to-invoice/automatic-price-list:
+.. _src/adempiere/quote-to-invoice/price-list:
 
 =====================
 **Lista de Precios**
