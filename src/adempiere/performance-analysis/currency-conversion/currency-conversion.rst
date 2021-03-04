@@ -51,11 +51,11 @@ En el caso de que el usuario intente crear una tasa de cambio con el mismo tipo 
 
 .. only:: html
 
-    .. figure:: resources/tasa-cambio-reciproca.mp4
+    .. figure:: resources/tasa-cambio-reciproca.gif
 
     Video 1. Tasa de Cambio
 
-En el siguiente enlace puede descargar un ejemplo del mismo para visualizarlo mejor :download:`Convert Video <tasa-cambio-reciproca.mp4>`
+En el siguiente enlace puede descargar un ejemplo del mismo para visualizarlo mejor :download:`Convert Video <tasa-cambio-reciproca.gif>`
 
 .. _paso/crear-conversión:
 
