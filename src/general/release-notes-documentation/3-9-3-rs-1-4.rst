@@ -11,7 +11,7 @@
 **Novedades:**
 --------------
 
-- Se actualiza la documentación :ref:`src/lve/procedures`, para agregar el documento **Boletería**, en el cual se explica el procedimiento de registro de viajero, registro de boleto y generación de factura desde boletos.
+- Se actualiza la documentación :ref:`src/lve/procedures`, para agregar el documento "**Boletería**", en el cual se explica el procedimiento de registro de viajero, registro de boleto y generación de factura desde boletos.
 
 - **Mejoras:**
 
