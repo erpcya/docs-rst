@@ -29,6 +29,7 @@
 .. |campo segmento del reporte detalle de la orden| image:: resources/segment-field-of-the-order-detail-report.png
 .. |campo tipo de industria del reporte detalle de la orden| image:: resources/field-type-of-industry-of-the-order-detail-report.png
 .. |campo región de ventas del reporte detalle de la orden| image:: resources/sales-region-field-of-the-order-detail-report.png
+.. |opción ok del reporte detalle de la orden| image:: resources/ok-option-of-the-order-detail-report.png
 .. |reporte detalle de la orden| image:: resources/order-detail-report.png
 
 .. _documento/reporte-detalle-de-la-orden:
@@ -221,6 +222,12 @@
     |campo región de ventas del reporte detalle de la orden|
 
     Imagen 31. Campo Región de Ventas
+
+#. Seleccione la opción "**OK**", para generar el reporte "**Detalle de la Orden**", en base a los campos seleccionados anteriormente.
+
+    |opción ok del reporte detalle de la orden|
+
+    Imagen 32. Opción OK
 
 #. Podrá visualizar el reporte de la siguiente manera. La información del mismo puede variar dependiendo de los campos o filtros de búsqueda seleccionados.
 

@@ -16,4 +16,4 @@
 
 - Se actualiza la documentación :ref:`src/adempiere/quote-to-invoice/price-list`, en la versión del branch "**latest**" de la documentación, con la finalidad de redefinir los procesos de listas de precios de ADempiere, donde se establecen los documentos :ref:`documento/configuración-del-esquema-de-lista-de-precios`, :ref:`documento/configuración-de-lista-de-precios-base`, :ref:`documento/crear-lista-de-precios-desde-otra-lista-de-precios`, :ref:`documento/crear-lista-de-precios-desde-última-oc-procesada` y :ref:`documento/crear-entradas-de-productos-en-lista-de-precios`.
 
-- Se actualiza la documentación :ref:`src/lve/report`, en la versión del branch "**latest**" de la documentación, para agregar el documento :ref:`documento/reporte-detalle-de-la-orden`.
+- Se actualiza la documentación :ref:`src/lve/report`, en la versión del branch "**latest**" de la documentación, para agregar los documentos :ref:`documento/reporte-detalle-de-la-orden` y :ref:`documento/reporte-detalle-de-la-orden`.
