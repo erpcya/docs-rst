@@ -9,6 +9,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 .. toctree::
     :maxdepth: 2
 
+    price-list/index
     sales-order/index
     invoice-customer/index
     shipment/index
