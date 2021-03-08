@@ -32,6 +32,9 @@
 .. |campo gran total de la ventana órdenes de venta| image:: resources/grand-total-field-of-the-sales-orders-window.png
 .. |opción completar de la ventana órdenes de venta| image:: resources/complete-option-of-the-sales-orders-window.png
 .. |acción preparar y opción ok de la ventana órdenes de venta| image:: resources/prepare-action-and-ok-option-of-the-sales-orders-window.png
+.. |icono imprimir de la ventana órdenes de venta| image:: resources/print-icon-from-the-sales-orders-window.png
+.. |ventana reporte de orden con reporte de propuesta| image:: resources/order-report-window-with-proposal-report.png
+
 
 .. _documento/propuesta:
 
@@ -243,3 +246,19 @@
     |acción preparar y opción ok de la ventana órdenes de venta|
 
     Imagen 34. Acción Preparar y Opción OK
+
+    .. note::
+
+        El documento "**Propuesta**", debe quedar en estado "**En Proceso**", para ello se debe seleccionar la opción "**Preparar**". 
+
+#. Seleccione el icono "**Imprimir**", ubicado en la barra de herramientas de ADempiere.
+
+    |icono imprimir de la ventana órdenes de venta|
+
+    Imagen 35. Icono Imprimirpara generar el reporte 
+
+#. Podrá visualizar la ventana "**Informe**", con el reporte del documento "**Propuesta**", donde puede seleccionar el icono imprimir del mismo para generar el documento impreso.
+
+    |ventana informe con reporte de propuesta|
+
+    Imagen 36. Reporte de Propuesta
