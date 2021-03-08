@@ -78,6 +78,11 @@
 .. |Campo Gran Total| image:: resources/grand-total-field.png
 .. |Información del Socio del Negocio Cliente| image:: resources/client-business-partner-information.png
 .. |Catálogo de Productos| image:: resources/product-catalog.png
+.. |selección de categoría o grupo de productos| image:: resources/selection-of-category-or-product-group.png
+.. |selección de producto desde categoría o grupo| image:: resources/product-selection-from-category-or-group.png
+.. |producto cargado desde categoría o grupo| image:: resources/product-loaded-from-category-or-group.png
+.. |opción regresar de categoría o grupo| image:: resources/option-to-return-from-category-or-group.png
+
 
 .. _documento/interfaz-del-punto-de-venta:
 
@@ -609,8 +614,35 @@ Muestra la información del socio del negocio cliente que esta comprando los pro
 **Catálogo de Productos**
 -------------------------
 
-Permite que los productos sean cargados a la orden de venta mediante la selección de los mismos.
+Permite que los productos sean cargados a la orden de venta mediante la selección de los mismos. El catálogo de productos se puede configurar de manera que los mismos se agrupen por categoría, combos u ofertas, permitiendo un mejor orden y ubicación al momento de cargarlos a la orden de venta. Adicional a ello, el catálogo de productos se puede configurar de manera sencilla, sin agrupacipón, combos u ofertas.
 
     |Catálogo de Productos|
 
     Imagen 79. Catálogo de Productos
+
+    - **Uso del Catálogo de Productos Agrupado**
+
+        Para agregar un producto a las líneas de la orden desde el punto de venta mediante el catálogo de productos, se debe seleccionar la categoría o grupo al que pertenece dicho producto.
+
+            |selección de categoría o grupo de productos|
+
+            Imagen 80. Selección de Categoría o Grupo de Producto
+
+        Luego debe seleccionar el recuadro con la opción del producto que requiere cargar a las líneas de la orden.
+
+            |selección de producto desde categoría o grupo|
+
+            Imagen 81. Selección de Producto
+
+        Podrá visualizar el producto cargado de la siguiente manera.
+
+            |producto cargado desde categoría o grupo|
+
+            Imagen 82. Producto Cargado
+
+        Para regresar al menú principal del catálogo de productos, seleccione el recuadro con la opción "**Regresar**".
+
+            |opción regresar de categoría o grupo|
+
+            Imagen 83. Opción Regresar
+ 
