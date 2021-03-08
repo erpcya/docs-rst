@@ -95,6 +95,20 @@ Adicional a ello, la venta no debe estar incluida en ningún documento por pagar
 
 #. Podrá visualizar la ventana del proceso con diferentes campos que permiten filtrar la información de las ventas.
 
+    .. note::
+
+        La información a ser visualizada en el presente proceso, va a depender de las siguientes condiciones:
+
+        - La información cargada en la orden de compra, dicha orden debe estar en estado "**Completo**".
+
+        - La información visualizada en el reporte :ref:`documento/venta-de-productos-por-proveedor`.
+
+        De no coincidir la información del reporte con la información visualizada en el presente proceso, debe realizar lo siguiente:
+
+            - Verificar que se cumpla con la :ref:`documento/configuración-de-ventas-en-consignación`.
+            - Verificar que el producto se encuentre incluido en una orden de compra, esto lo puede realizar generando el reporte :ref:`documento/reporte-detalle-de-la-orden`.
+            - Verificar que el producto no se encuentre en otro documento por pagar, esto lo puede realizar generando el reporte :ref:`documento/detalles-factura-y-margen`.
+
     |ventana del proceso crear líneas desde facturas de entrega directa|
 
     Imagen 4. Ventana del Proceso Crear Líneas desde Facturas de Entrega Directa

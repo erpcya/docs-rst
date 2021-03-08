@@ -158,7 +158,7 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
 
     Imagen 17. Checklist Dividir Depósito
 
-#. Seleccione en el campo "**Cargo**", el cargo correspondiente al depósito de caja que se encuentra realizando. Para este caso se utiliza el cargo "**Efectivo en Transito Administración Ventas**".
+#. Seleccione en el campo "**Cargo**", el cargo correspondiente al depósito de caja que se encuentra realizando. Para este caso se utiliza el cargo "**Efectivo en Tránsito Administración**".
 
     |campo cargo de la ventana deposito a caja|
 
@@ -214,7 +214,7 @@ Cada uno de los procesos nombrados anteriormente son explicados a continuación.
     - "**Cuenta Bancaria a Transferir**": El banco al cual requiere realizar la transferencia. Para este ejemplo es utilizado el banco "**Banco Provincial  S.A. Banco Universal - 0108_01080000000000000019**".
     - "**Socio del Negocio**": El socio del negocio involucrado en la transferencia bancaria. Para este ejemplo es utilizado el socio "**Compañía Estándar**".
     - "**Moneda**": La moneda con la cual requiere realizar la transferencia. Para este ejemplo es utilizada la moneda "**VES**".
-    - "**Cargo**": El cargo que jistifica el movimiento monetario. Para este ejemplo es utilizado el cargo "**Efectivo en Tránsito Administración Venta**".
+    - "**Cargo**": El cargo que justifica el movimiento monetario. Para este caso es utilizado el cargo "**Efectivo en Tránsito Administración**".
     - "**No. del Documento**": El número de documento con el que será generado el egreso de la caja. Para este ejemplo es utilizado el número "**4321**".
     - "**Documento Destino**": El número de documento con el que será generado el ingreso del banco. Para este ejemplo es utilizado el número "**4321**".
     - "**Monto**": El monto correspondiente a la transferencia bancaria que requiere generar. Para este ejemplo es utilizado el monto "**5.917.563,54**".

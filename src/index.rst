@@ -28,8 +28,8 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 
     adempiere/basic-steps/index
     adempiere/master/index
-    adempiere/quality-management/index
     adempiere/material-management/index
+    adempiere/farmer-assistance-management/index
     adempiere/production-management/index
     adempiere/distribution-management/index
     adempiere/quote-to-invoice/index

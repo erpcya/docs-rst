@@ -1,0 +1,29 @@
+.. _documento/versión-3-9-3-rs-1-5:
+
+**3.9.3-rs-1.5**
+================
+
+**Soporte a versiones:**
+------------------------
+
+- mini-erp
+- latest
+
+**Novedades:**
+--------------
+
+- Se actualiza la documentación de :ref:`src/adempiere/master`, en la versión del branch "**Mini-ERP**" de la documentación, con la finalidad de agregar los documentos "**Viajero**", "**Motivo de Viaje**", "**Transportista**", "**Terminal**", "**Impuesto de Viaje**" y "**Tipo de Boleto**", en los cuales se explican las configuraciones, procesos o registros que se deben tener de manera obligatoria para realizar correctamente el procedimiento de "**Boletería**" en ADempiere.
+
+- Se actualiza la documentación :ref:`src/adempiere/quote-to-invoice/price-list`, en la versión del branch "**latest**" de la documentación, con la finalidad de redefinir los procesos de listas de precios de ADempiere, donde se establecen los documentos :ref:`documento/configuración-del-esquema-de-lista-de-precios`, :ref:`documento/configuración-de-lista-de-precios-base`, :ref:`documento/crear-lista-de-precios-desde-otra-lista-de-precios`, :ref:`documento/crear-lista-de-precios-desde-última-oc-procesada` y :ref:`documento/crear-entradas-de-productos-en-lista-de-precios`.
+
+- Se actualiza la documentación :ref:`src/lve/report`, en la versión del branch "**latest**" de la documentación, para agregar los documentos :ref:`documento/reporte-detalle-de-la-orden` y :ref:`documento/reporte-detalle-de-caja`.
+
+- Se actualiza la documentación "**Gestión de Ventas**", en la versión del branch "**Mini-ERP**" de la documentación, con la finalidad de agregar los diferentes documentos referentes a "**Lista de Precios**", donde se establecen los documentos "**Configuración de Lista de Precios Base**", "**Crear Lista de Precios desde otra Lista de Precios**", "**Crear Lista de Precios desde Última OC Procesada**" y "**Crear Entradas de Productos en Lista de Precios**".
+
+- Se actualiza la documentación :ref:`src/adempiere/quote-to-invoice`, en la versión del branch "**latest**" de la documentación, para agregar el documento :ref:`src/adempiere/quote-to-invoice/proposal`.
+
+- Se modifica la documentación "**Gestión de Calidad**", en la versión del branch "**latest**" de la documentación, para ser ingresada dentro de la documentación :ref:`src/adempiere/production-management`, con el nombre de :ref:`src/adempiere/qa`.
+
+- Se modifica la documentación "**Gestión Agrícola**", en la versión del branch "**latest**" de la documentación, para ser ingresada a "**ADEMPIERE ERP/CRM**", con el nombre de :ref:`src/lve/procedures/farmer-assistance-management`.
+
+- Se actualiza la documentación :ref:`src/lve/procedures/farmer-assistance-management`, en la versión del branch "**latest**" de la documentación, con la finalidad de agregar el documento :ref:`documento/tipo-de-observación`.

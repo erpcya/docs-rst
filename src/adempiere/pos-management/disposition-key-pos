@@ -2,8 +2,8 @@
 
 .. _documento/pdv-llave-de-disposición:
 
-**Catálogo de Productos**
-=========================
+**PDV Llave de Disposición o Catálogo de Productos**
+====================================================
 
 El catálogo de productos en el punto de ventas, puede ser configurado dependiendo de los requerimientos del usuario, este se puede configurar por categorías o grupos de productos. Para ello es necesario crear las categorías on grupos de productos, registrando sus respectivos productos en cada uno y estableciendo el orden de los mismos.
 

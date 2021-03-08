@@ -18,3 +18,5 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
     sale-of-products-by-supplier
     invoice-details-and-margin
     details-of-invoices-and-margin-according-to-purchases
+    order-detail
+    cash-detail-report

@@ -11,7 +11,8 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
 
     commission/index
     sales-region/index
-    automatic-price-list/index
+    price-list/index
+    proposal/index
     sales-order/index
     invoice-customer/index
     generate-invoice-from-departure-order
