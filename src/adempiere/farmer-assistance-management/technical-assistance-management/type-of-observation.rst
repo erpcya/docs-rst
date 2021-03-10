@@ -54,7 +54,7 @@ A continuación, se explica el procedimiento que se debe realizar para generar d
 
     |campo organización de la ventana tipo de observación|
 
-    Imagen 3. Campo Organización
+    Imagen 4. Campo Organización
 
 #. Introduzca en el campo "**Código**", el código correspondiente al registro de tipo de observación que se encuentra realizando.
 
@@ -62,25 +62,25 @@ A continuación, se explica el procedimiento que se debe realizar para generar d
 
     |campo código de la ventana tipo de observación|
 
-    Imagen 4. Campo Código
+    Imagen 5. Campo Código
 
 #. Introduzca en el campo "**Nombre**", el nombre correspondiente al registro de tipo de observación que se encuentra realizando.
 
     |campo nombre de la ventana tipo de observación|
 
-    Imagen 5. Campo Nombre
+    Imagen 6. Campo Nombre
 
 #. Introduzca en el campo "**Descripción**", una breve descripción referente al registro de tipo de observación que se encuentra realizando.
 
     |campo descripción de la ventana tipo de observación|
 
-    Imagen 6. Campo Descripción
+    Imagen 7. Campo Descripción
 
 #. Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
     |icono guardar cambios de la ventana tipo de observación|
 
-    Imagen 7. Icono Guardar Cambios
+    Imagen 8. Icono Guardar Cambios
 
 **Productos Sugeridos**
 =======================
@@ -89,25 +89,25 @@ A continuación, se explica el procedimiento que se debe realizar para generar d
 
     |pestaña productos sugeridos de la ventana tipo de observación|
 
-    Imagen 8. Pestaña Productos Sugeridos
+    Imagen 9. Pestaña Productos Sugeridos
 
 #. Introduzca en el campo "**Nombre**", el nombre correspondiente al producto sugerido que se encuentra registrando.
 
     |campo nombre de la pestaña productos sugeridos de la ventana tipo de observación|
 
-    Imagen 9. Campo Nombre
+    Imagen 10. Campo Nombre
 
 #. Introduzca en el campo "**Comentarios**", el comentario que requiere agregar al registro de producto sugerido que se encuentra realizando.
 
     |campo comentario de la pestaña productos sugeridos de la ventana tipo de observación|
 
-    Imagen 10. Campo Comentarios
+    Imagen 11. Campo Comentarios
 
 #. Seleccione en el campo "**Rubro**", el rubro correspondiente al producto sugerido que se encuentra registrando.
 
     |campo rubro de la pestaña productos sugeridos de la ventana tipo de observación|
 
-    Imagen 11. Campo Rubro
+    Imagen 12. Campo Rubro
 
     #. Al seleccionar un rubro en el campo "**Rubro**", se habilita el campo "**Etapa del Cultivo**".
 
@@ -115,7 +115,7 @@ A continuación, se explica el procedimiento que se debe realizar para generar d
 
         |campo etapa del cultivo de la pestaña productos sugeridos de la ventana tipo de observación|
 
-        Imagen 12. Campo Etapa del Cultivo
+        Imagen 13. Campo Etapa del Cultivo
 
         .. note::
 

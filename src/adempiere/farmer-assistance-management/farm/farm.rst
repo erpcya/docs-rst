@@ -112,6 +112,10 @@
 
         Imagen 14. Campo Área de la Ventana Finca
 
+        .. note::
+
+            El valor de este campo debe ser diferente de cero (0), corresponde al área de la finca que se encuentra registrando y es utilizado como requerimiento de ADempiere al momento de reflejar la finca a seleccionar en los documentos de "**Cultivo**" y "**Hoja Técnica**".
+
     #. Tilde el checklist "**Control de la División Agrícola**", para indicar que el registro de la finca contiene lotes o sub-divisiones.
 
         |checklist control de la división agrícola de la ventana finca|

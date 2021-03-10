@@ -12,4 +12,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
    headings/index
    producer/index
    farm/index
-   type-of-observation
+   culture/culture
+   technical-assistance-management/index
