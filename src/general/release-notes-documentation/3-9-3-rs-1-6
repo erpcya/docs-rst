@@ -11,6 +11,8 @@
 **Novedades:**
 --------------
 
-- Se actualiza la documentación de :ref:`src/lve/procedures/farmer-assistance-management`, en la versión del branch "**latest**" de la documentación, con la finalidad de agregar los documentos :ref:`documento/cultivo` y :ref:`src/lve/procedures/farmer-assistance-management/technical-assistance-management`.
+- Se actualiza la documentación de :ref:`src/lve/procedures/farmer-assistance-management`, en la versión del branch "**latest**" de la documentación, con la finalidad de agregar los documentos :ref:`src/lve/procedures/farmer-assistance-management/financing-management` y :ref:`src/lve/procedures/farmer-assistance-management/technical-assistance-management`.
 
-- Se actualiza la documentación :ref:`src/lve/procedures/farmer-assistance-management/technical-assistance-management`, en la versión del branch "**latest**" de la documentación, con la finalidad de agregar los documentos :ref:`documento/hoja-técnica` y :ref:`documento/generar-orden-de-venta-desde-hoja-técnica`. Adicional a ello, se mueve el documento :ref:`documento/tipo-de-observación`, desde la :ref:`src/lve/procedures/farmer-assistance-management` para la :ref:`src/lve/procedures/farmer-assistance-management/technical-assistance-management`.
+- Se actualiza la documentación :ref:`src/lve/procedures/farmer-assistance-management/technical-assistance-management`, en la versión del branch "**latest**" de la documentación, con la finalidad de agregar los documentos :ref:`documento/cultivo`, :ref:`documento/hoja-técnica` y :ref:`documento/generar-orden-de-venta-desde-hoja-técnica`. Adicional a ello, se mueve el documento :ref:`documento/tipo-de-observación`, desde la :ref:`src/lve/procedures/farmer-assistance-management` para la :ref:`src/lve/procedures/farmer-assistance-management/technical-assistance-management`.
+
+- Se actualiza la documentación :ref:`src/lve/procedures/farmer-assistance-management/financing-management`, en la versión del branch "**latest**" de la documentación, con la finalidad de agregar los documentos :ref:`documento/definición-de-costo-de-cultivo` y :ref:`documento/crédito-del-productor`.
