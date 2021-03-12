@@ -54,7 +54,7 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
     
     #. Para la apertura de una caja, es necesario que sean cumplidas las siguientes restricciones en la ventana "**Apertura de Punto de Venta**".
 
-        #. En el campo **Terminal PDV**, se encuentran los diferentes terminales configurados para los socios del negocio que cumplen con el rol de empleados de la organización. En este campo se debe seleccionar el terminal al cual se le realizará la apertura de la caja. Un ejemplo sería "**PDV Caja 01 **".
+        #. En el campo **Terminal PDV**, se encuentran los diferentes terminales configurados para los socios del negocio que cumplen con el rol de empleados de la organización. En este campo se debe seleccionar el terminal al cual se le realizará la apertura de la caja. Un ejemplo sería "**PDV Caja 01**".
 
         #. En el campo **Caja**", se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia. 
 

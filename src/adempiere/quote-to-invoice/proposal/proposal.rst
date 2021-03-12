@@ -35,6 +35,7 @@
 .. |icono imprimir de la ventana órdenes de venta| image:: resources/print-icon-from-the-sales-orders-window.png
 .. |ventana reporte de orden con reporte de propuesta| image:: resources/order-report-window-with-proposal-report.png
 
+.. _ERPyA: http://erpya.com
 
 .. _documento/propuesta:
 
@@ -259,6 +260,6 @@
 
 #. Podrá visualizar la ventana "**Informe**", con el reporte del documento "**Propuesta**", donde puede seleccionar el icono imprimir del mismo para generar el documento impreso.
 
-    |ventana informe con reporte de propuesta|
+    |ventana reporte de orden con reporte de propuesta|
 
     Imagen 36. Reporte de Propuesta

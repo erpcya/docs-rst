@@ -14,6 +14,8 @@
 .. |consulta de orden de venta generada desde el proceso generar orden de venta desde hoja técnica| image:: resources/sales-order-query-generated-from-the-process-generate-sales-order-from-technical-sheet.png
 
 
+.. _ERPyA: http://erpya.com
+
 .. _documento/generar-orden-de-venta-desde-hoja-técnica:
 
 **Generar Orden de Venta desde Hoja Técnica**
@@ -34,7 +36,7 @@ Para generar una órdenes de venta desde una hoja técnica, es obligatorio que e
     Imagen 2. Ventana Hoja Técnica
 
 #. Ubica el registro de "**Hoja Técnica**", desde el cual requiere generar el documento "**Orden de Venta**". 
-old
+
     |registro de hoja técnica en estado completo|
 
     Imagen 3. Registro de Hoja Técnica

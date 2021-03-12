@@ -70,7 +70,7 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 **Crear Tasa de Conversión**
 ****************************
 
-#. Realice el procedimiento regular para crear la tasa de conversión necesaria, dicho procedimiento se encuentra explicado en el documento :ref:`paso/crear-tasa`, elaborado por `ERPyA`_.
+#. Realice el procedimiento regular para crear la tasa de conversión necesaria, dicho procedimiento se encuentra explicado en el documento :ref:`paso/crear-tasa-desde-ventana-moneda`, elaborado por `ERPyA`_.
 
     |Campo Factor de Base a Destino|
 

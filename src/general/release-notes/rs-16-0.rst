@@ -8,11 +8,11 @@
 
 - ADempiereBase:
 
- - Versión de Liberación: 3.9.3-rs-4.0
+    - Versión de Liberación: 3.9.3-rs-4.0
 
 - CST-STD
 
- - Versión de Liberación: rs-19.3
+    - Versión de Liberación: rs-19.3
 
 - Consigned-Material: 1.1.1
 - Exchange-Operation-System: 1.1.3
@@ -36,9 +36,10 @@
 
 - Se deben aplicar los siguientes XML's:
 
- - Migration-Tools:
-  - 07250_Add_Entity_Type_for_Migration_Tools_Functionality.xml
-  - 07260_Add_migration_tools_functionality.xml
+    - Migration-Tools:
+
+        - 07250_Add_Entity_Type_for_Migration_Tools_Functionality.xml
+        - 07260_Add_migration_tools_functionality.xml
 
 **Detalle Técnico:**
 --------------------
@@ -50,4 +51,4 @@
 
 - **Mejoras:**
 
- - Se agrega soporte a copia de tablas y sus referencias de diccionario
+    - Se agrega soporte a copia de tablas y sus referencias de diccionario
