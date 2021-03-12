@@ -8,10 +8,11 @@
 
 - ADempiereBase:
 
-  - Versión de Liberación: 3.9.3-rs-4.0
+    - Versión de Liberación: 3.9.3-rs-4.0
+
 - CST-STD
 
-  - Versión de Liberación: rs-19.4
+    - Versión de Liberación: rs-19.4
 
 - Consigned-Material: 1.1.2
 - Exchange-Operation-System: 1.1.3
@@ -39,4 +40,5 @@
 --------------
 
 - **Novedades:**
- - Se establece el precio limite de compra en las facturas de ventas desde las compras del producto
+
+    - Se establece el precio limite de compra en las facturas de ventas desde las compras del producto

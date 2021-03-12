@@ -8,10 +8,11 @@
 
 - ADempiereBase:
 
- - Versión de Liberación: 3.9.3-rs-4.0
+    - Versión de Liberación: 3.9.3-rs-4.0
+
 - CST-STD
 
-  - Versión de Liberación: rs-19.4
+    - Versión de Liberación: rs-19.4
 
 - Consigned-Material: 1.1.1
 - Exchange-Operation-System: 1.1.3
@@ -40,4 +41,4 @@
 
 - **Mejoras:**
 
- - Se crean automáticamente los campos en las pestañas customizadas cuando las mismas son creadas después de crear la ventana
+    - Se crean automáticamente los campos en las pestañas customizadas cuando las mismas son creadas después de crear la ventana
