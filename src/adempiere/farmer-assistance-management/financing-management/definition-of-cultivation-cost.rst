@@ -19,6 +19,8 @@
 .. |pestaña principal definición y opción completar| image:: resources/main-tab-definition-and-option-complete.png
 .. |acción completar y opción ok| image:: resources/action-complete-and-option-ok.png
 
+.. _ERPyA: http://erpya.com
+
 .. _documento/definición-de-costo-de-cultivo:
 
 **Definición de Costo de Cultivo**
@@ -94,7 +96,7 @@
 
     Imagen 11. Campo Monto 
 
-#. Seleccione en el campo "**Tipo de Conversión **", el tipo de conversión correspondiente al registro que se encuentra realizando.
+#. Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión correspondiente al registro que se encuentra realizando.
 
     |campo tipo de conversión de la ventana definición de costo de cultivo|
 
