@@ -39,6 +39,9 @@
 .. |pestaña principal hoja técnica y opción completar| image:: resources/main-tab-technical-sheet-and-complete-option.png
 .. |acción completar y opción ok de la pestaña principal hoja técnica| image:: resources/action-complete-and-option-ok-of-the-main-tab-technical-sheet.png
 
+
+.. _ERPyA: http://erpya.com
+
 .. _documento/hoja-técnica:
 
 **Hoja Técnica**

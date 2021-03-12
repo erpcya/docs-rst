@@ -22,6 +22,9 @@
 .. |opción completar de la ventana cultivo| image:: resources/complete-option-of-the-crop-window.png
 .. |acción completar y opción ok de la ventana cultivo| image:: resources/complete-action-and-ok-option-of-the-crop-window.png
 
+
+.. _ERPyA: http://erpya.com
+
 .. _documento/cultivo:
 
 **Cultivo**
