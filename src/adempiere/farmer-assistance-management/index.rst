@@ -13,4 +13,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
    producer/index
    farm/index
    technical-assistance-management/index
-   financing-management
+   financing-management/index

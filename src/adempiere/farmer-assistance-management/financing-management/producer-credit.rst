@@ -28,6 +28,8 @@
 .. |pestaña principal crédito productor y opción completar| image:: resources/main-tab-producer-credit-and-complete-option.png
 .. |acción completar y opción ok| image:: resources/action-complete-and-option-ok.png
 
+.. _ERPyA: http://erpya.com
+
 .. _documento/crédito-del-productor:
 
 **Crédito del Productor**
