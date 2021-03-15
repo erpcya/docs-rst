@@ -21,7 +21,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     general/release-notes/index
     general/release-notes-documentation/index
 
-    :caption: ADEMPIERE ERP/CRM
+
 
     adempiere/basic-steps/index
     adempiere/master/index
@@ -40,15 +40,12 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/asset-management/index
     adempiere/performance-analysis/index
 
-    :caption: LOCALIZACIÓN VENEZUELA
 
     lve/document-utility/index
     lve/fiscal-printer/index
     lve/procedures/index
     lve/report/index
     lve/standard-coding/index
-
-    :caption: E-commerce
 
     ecommerce/index
 
