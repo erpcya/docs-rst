@@ -1,35 +1,3 @@
-
-\documentclass{article}
-
-\usepackage{alphalph}
-\usepackage{enumitem}
-
-\makeatletter
-\newcommand{\AlphAlphFmt}[1]{\@alphfmt{#1}}  % Define the \AlphAlph wrapper for enumitem 
-\newcommand{\@alphfmt}[1]{\AlphAlph{\value{#1}}}  % Internal representation 
-\AddEnumerateCounter{\AlphAlphFmt}{\@alphfmt}{AAA} % Register this new format
-\makeatother
-
-\newlist{mcenum}{enumerate}{2}
-\setlist[mcenum,1]{label={(\AlphAlphFmt*)}}
-
-
-\usepackage{pgffor}
-\usepackage{multicol}
-
-\begin{document}
-
-\begin{multicols}{2}
-\begin{mcenum}
-\foreach \x in {1,...,60} {%
-  \item Question \x 
-}
-\end{mcenum}
-\end{multicols}
-
-\end{document}
-
-
 =========================================================
 **Documentación de E.R.P. Consultores y Asociados, C.A.**
 =========================================================
@@ -90,3 +58,4 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 
     ecommerce/index
 
+    
