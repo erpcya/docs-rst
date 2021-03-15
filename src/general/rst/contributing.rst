@@ -384,7 +384,7 @@ directorio por funcionalidad,
         
                 - fiscal-printer/
                 
-                    - setup-vmax-220.md
+                    - setup-vmax-220.rst
                 
                 - withholding/
                 
@@ -416,7 +416,7 @@ llamado "**resources**" dentro del directorio "**fiscal-printer**", el resultado
 
                     - resources/
                 
-                    - setup-vmax-220.md
+                    - setup-vmax-220.rst
                 
                 - withholding/
                 
