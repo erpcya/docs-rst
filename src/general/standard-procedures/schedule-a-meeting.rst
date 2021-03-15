@@ -1,3 +1,9 @@
+.. _ERPyA: http://erpya.com
+.. _Slack: https://erpya.slack.com
+.. _OpenProject: http://project.erpya.com/ 
+.. _OSTicket: http://helpdesk.erpya.com/ 
+
+
 .. |Acordar una Reunión| image:: resources/meeting.png
 .. |Enviar para Revisar| image:: resources/send-to-review-calendar.png
 
@@ -23,17 +29,17 @@ Las reuniones deben tomarse como una herramienta para aclarar cualquier duda rel
 **Cual es el medio para agendar una reunión?**
 ----------------------------------------------
 
-`E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ tiene distintos medios de comunicación entre los cuales se encuentran: 
+`ERPyA`_ tiene distintos medios de comunicación entre los cuales se encuentran: 
 
-- `Slack <https://erpya.slack.com>`__: Es un chat dinámico que permite la integración con distintas herramientas corporativas (sin guardar historia de conversación pasada una semana). 
+- `Slack`_: Es un chat dinámico que permite la integración con distintas herramientas corporativas (sin guardar historia de conversación pasada una semana). 
 
-- `Open Project <http://project.erpya.com/>`__: Utilizado con el fin de llevar el control de cada una de las solicitudes de los clientes así como sus vencimientos y estados. 
+- `OpenProject`_: Utilizado con el fin de llevar el control de cada una de las solicitudes de los clientes así como sus vencimientos y estados. 
 
-- `OSTicket <http://helpdesk.erpya.com/>`__: Usado como plataforma de tickets con la cual el cliente puede ver el historial de sus solicitudes y su solución. 
+- `OSTicket`_: Usado como plataforma de tickets con la cual el cliente puede ver el historial de sus solicitudes y su solución. 
 
 - Correo: Utilizado muchas veces cuando el cliente no tiene acceso a Slack o a la plataforma de Tickets.
 
-A pesar de las múltiples herramientas que posee `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ siempre se debe utilizar el `Open Project <http://project.erpya.com/>`__ para agendar una reunión, si desconoce la forma para crear una reunión puede ver el siguiente gif
+A pesar de las múltiples herramientas que posee `ERPyA`_ siempre se debe utilizar el `OpenProject`_ para agendar una reunión, si desconoce la forma para crear una reunión puede ver el siguiente gif
 
 .. only:: html
 
@@ -48,15 +54,15 @@ Si desea enviar una notificación por correo desde la agenda lo puede hacer pres
 **¿De qué manera se debe agendar una reunión?**
 -----------------------------------------------
 
-Normalmente las conversaciones entre `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ y los clientes es a través de `Slack <https://erpya.slack.com>`__ o por teléfono. De cualquier manera para que pueda existir una reunión se debe seguir el siguiente procedimiento:
+Normalmente las conversaciones entre `ERPyA`_ y los clientes es a través de `Slack`_ o por teléfono. De cualquier manera para que pueda existir una reunión se debe seguir el siguiente procedimiento:
 
--  Convocar la reunión a través de `Slack <https://erpya.slack.com>`__, Correo o por teléfono.
+-  Convocar la reunión a través de `Slack`_, Correo o por teléfono.
 
 -  El cliente y el personal de sistemas deben acordar la cita de manera que puedan cumplir en la medida de lo posible.
 
 -  Confirmar la reunión: Antes de cualquier otro paso se debe confirmar la asistencia a la reunión, **si no existe confirmación entonces no existirá reunión**.
 
--  Crear la reunión en `Open Project <http://project.erpya.com/>`__: **Es muy importante que se defina bien la hora, los participantes y la agenda para el día de la reunión**
+-  Crear la reunión en `OpenProject`_: **Es muy importante que se defina bien la hora, los participantes y la agenda para el día de la reunión**
 
 -  Después de crear la reunión se debe compartir el URL generado de la misma (el URL del ejemplo es este: http://project.erpya.com/meetings/22)
 
@@ -88,7 +94,7 @@ Las reglas de Percolate para las reuniones:
 
 #. No traigas ordenadores ni teléfonos).
 
-Para el caso de `E.R.P. Consultores y Asociados, C.A. <http://erpya.com/>`__ es conveniente que las reuniones no excedan los **45 minutos**, las reuniones extensas solo crean cansancio y en lugar de ayudar a avanzar solo generan un ambiente que no ayuda a la toma de decisiones.
+Para el caso de `ERPyA`_ es conveniente que las reuniones no excedan los **45 minutos**, las reuniones extensas solo crean cansancio y en lugar de ayudar a avanzar solo generan un ambiente que no ayuda a la toma de decisiones.
 
 **Como escriben los autores de Reinicia, cada minuto que evitas pasar en una reunión es un minuto en el que puedes hacer trabajo de verdad. O, mejor, en irte a casa a tu hora.**
 

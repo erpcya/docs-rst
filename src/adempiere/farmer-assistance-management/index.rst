@@ -12,5 +12,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
    headings/index
    producer/index
    farm/index
-   culture/culture
    technical-assistance-management/index
+   financing-management/index
