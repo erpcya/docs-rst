@@ -1,3 +1,8 @@
+.. _The Factory HKA: https://www.thefactoryhka.com/ve/ 
+.. _Hasar: https://impresorasfiscalespanama.com/ 
+.. _VMax: http://www.elepos.com.ve/eleposveweb/index.htm 
+.. _Desarrollos PnP C.A: http://desarrollospnp.com 
+
 .. _lve/fiscal-printer:
 
 
@@ -9,10 +14,10 @@ Comprende todo lo relacionado con la emisión de documentos a través de un disp
 
 Actualmente se tiene soporte para las marcas:
 
--  `The Factory HKA <https://www.thefactoryhka.com/ve/>`__
--  `Hasar <https://impresorasfiscalespanama.com/>`__
--  `VMax <http://www.elepos.com.ve/eleposveweb/index.htm>`__
--  `Desarrollos PnP, C.A. <http://desarrollospnp.com/>`__ 
+- `The Factory HKA`_
+- `Hasar`_
+- `VMax`_
+- `Desarrollos PnP C.A`_
 
 
 .. toctree::

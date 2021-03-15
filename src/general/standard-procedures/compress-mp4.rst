@@ -1,3 +1,8 @@
+.. _Kazam: https://launchpad.net/kazam 
+.. _key-mon: https://code.google.com/archive/p/key-mon/downloads
+.. _Peek: https://github.com/phw/peek 
+
+
 .. |Kazam| image:: resources/Kazam.png
 .. |options-list| image:: resources/key-mon-list.png
 
@@ -9,7 +14,7 @@
 **Instalando Kazam**
 --------------------
 
-Para grabar la pantalla de la computadora se puede usar cualquier grabador, en este caso se usa Kazam como ejemplo. Puede consultar los detalles de la aplicación en `https://launchpad.net/kazam <https://launchpad.net/kazam>`__
+Para grabar la pantalla de la computadora se puede usar cualquier grabador, en este caso se usa Kazam como ejemplo. Puede consultar los detalles de la aplicación en `Kazam`_.
 
 **Desde el Terminal de Linux**
 ******************************
@@ -100,8 +105,8 @@ Peek es un grabador de pantalla simple con una interfaz fácil de usar.
 
 :download:`peek <peek-recording-itself.gif>`
 
-**Instalando `Peek <https://github.com/phw/peek>`__**
-*****************************************************
+**Instalando `Peek`_**
+**********************
 
 ::
 
@@ -113,7 +118,7 @@ Peek es un grabador de pantalla simple con una interfaz fácil de usar.
 
 Key-mon es un plugin que permite dibujar pequeños círculos alrededor de los clics del mouse.
 
-- Dirigirse a la pagina oficial de descargas de este plugin `key-mon <https://code.google.com/archive/p/key-mon/downloads>`__.
+- Dirigirse a la pagina oficial de descargas de este plugin `key-mon`_.
 - Elegir de la siguiente lista la version y la extensión del archivo deseado.
 
     .. note::
