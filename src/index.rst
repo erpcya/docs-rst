@@ -22,6 +22,9 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     general/release-notes-documentation/index
 
 
+.. toctree::
+    :caption: ADEMPIERE ERP/CRM
+    :maxdepth: 2
 
     adempiere/basic-steps/index
     adempiere/master/index
@@ -41,11 +44,19 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/performance-analysis/index
 
 
+.. toctree::
+    :caption: LOCALIZACIÓN VENEZUELA
+    :maxdepth: 2
+
     lve/document-utility/index
     lve/fiscal-printer/index
     lve/procedures/index
     lve/report/index
     lve/standard-coding/index
+
+.. toctree::
+    :caption: E-commerce
+    :maxdepth: 2
 
     ecommerce/index
 
