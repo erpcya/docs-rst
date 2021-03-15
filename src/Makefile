@@ -217,7 +217,7 @@ pseudoxml:
 
 \begin{multicols}{2}
 \begin{mcenum}
-\foreach \x in {1,...,60} {%
+\foreach \x in {1,...,100} {%
   \item Question \x 
 }
 \end{mcenum}
