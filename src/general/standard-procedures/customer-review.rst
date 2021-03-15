@@ -46,7 +46,6 @@ Consiste en la información proporcionada por el cliente la misma debe ser sóli
 **Asignación de tarea**
 ^^^^^^^^^^^^^^^^^^^^^^^
 
-
 Consiste en la asignación y notificación de la creación de la tarea a un supervisor de `ERPyA`_ para informar que la solicitud fue creada en el gestor de proyecto `OpenProject`_, previo a este paso se asume un desconocimiento por parte de `ERPyA`_ de la definición del requerimiento.
 
 **Definición de la Solución de E.R.P. Consultores y Asociados, C.A.**
