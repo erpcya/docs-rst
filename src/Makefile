@@ -194,3 +194,33 @@ pseudoxml:
 	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
+
+\documentclass{article}
+
+\usepackage{alphalph}
+\usepackage{enumitem}
+
+\makeatletter
+\newcommand{\AlphAlphFmt}[1]{\@alphfmt{#1}}  % Define the \AlphAlph wrapper for enumitem 
+\newcommand{\@alphfmt}[1]{\AlphAlph{\value{#1}}}  % Internal representation 
+\AddEnumerateCounter{\AlphAlphFmt}{\@alphfmt}{AAA} % Register this new format
+\makeatother
+
+\newlist{mcenum}{enumerate}{2}
+\setlist[mcenum,1]{label={(\AlphAlphFmt*)}}
+
+
+\usepackage{pgffor}
+\usepackage{multicol}
+
+\begin{document}
+
+\begin{multicols}{2}
+\begin{mcenum}
+\foreach \x in {1,...,60} {%
+  \item Question \x 
+}
+\end{mcenum}
+\end{multicols}
+
+\end{document}
