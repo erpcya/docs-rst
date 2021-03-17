@@ -162,6 +162,7 @@ latex_elements = {
     # Additional stuff for the LaTeX preamble.
     #
     # 'preamble': '',
+    'packages': r'\usepackage{enumitem}'
 
     # Latex figure (float) alignment
     #
