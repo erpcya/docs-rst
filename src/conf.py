@@ -174,6 +174,10 @@ latex_elements = {
 
     # Additional stuff for the LaTeX preamble.
     #
+    'preamble': 
+    """\\def\\thempfootnote{\\arabic{mpfootnote}}
+    """,
+    
     # 'preamble': '',
 
     # Latex figure (float) alignment
