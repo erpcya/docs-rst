@@ -53,6 +53,8 @@ html_additional_pages = {"download": "pages/download.html", "index": "pages/inde
 # extensions = ['sphinx.ext.doctest'
 # ]
 
+latex_show_urls = 'footnote'
+
 extensions = [
 #    'sphinx.ext.autodoc',
     'sphinx.ext.intersphinx',
