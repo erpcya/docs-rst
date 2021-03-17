@@ -29,8 +29,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/basic-steps/index
     adempiere/master/index
     adempiere/material-management/index
-    adempiere/farmer-assistance-management/index
-
+    adempiere/returns/index
 
 
 .. toctree::
