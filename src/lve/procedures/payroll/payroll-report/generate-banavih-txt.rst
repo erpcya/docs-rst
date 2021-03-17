@@ -1,6 +1,6 @@
-.. _documento/generar-txt-banavih:
-
 .. |Reporte| image:: resources/banavih.png
+
+.. _documento/generar-txt-banavih:
 
 **Generar TXT de Banavih**
 ==========================
