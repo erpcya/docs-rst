@@ -177,7 +177,7 @@ latex_elements = {
     'preamble': 
     """\\def\\thempfootnote{\\arabic{mpfootnote}}
     """,
-    
+    'packages': r'\usepackage{enumitem}'
     # 'preamble': '',
 
     # Latex figure (float) alignment
