@@ -16,6 +16,10 @@
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
+
+
+
+
 # -- Project information -----------------------------------------------------
 
 project = 'ERPYA'
@@ -48,7 +52,6 @@ html_additional_pages = {"download": "pages/download.html", "index": "pages/inde
 # ones.
 extensions = ['sphinx.ext.doctest'
 ]
-
 
 # Add any paths that contain templates here, relative to this directory.
 #templates_path = ['_statictemplates']
