@@ -50,8 +50,19 @@ html_additional_pages = {"download": "pages/download.html", "index": "pages/inde
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.doctest'
+#extensions = ['sphinx.ext.doctest'
+#]
+extensions = [
+#    'sphinx.ext.autodoc',
+    'sphinx.ext.intersphinx',
+#    'sphinx.ext.mathjax',
 ]
+intersphinx_mapping = {'python': ('http://docs.python.org/3', None),
+#   'numpy': ('http://docs.scipy.org/doc/numpy/', None),
+#   'scipy': ('http://docs.scipy.org/doc/scipy/reference/', None),
+#   'matplotlib': ('http://matplotlib.sourceforge.net/', None)
+}
+
 
 # Add any paths that contain templates here, relative to this directory.
 #templates_path = ['_statictemplates']
@@ -151,18 +162,22 @@ htmlhelp_basename = 'DocsErpya'
 # -- Options for LaTeX output ------------------------------------------------
 
 latex_elements = {
-# The paper size ('letterpaper' or 'a4paper').
-#'papersize': 'letterpaper',
-# The font size ('10pt', '11pt' or '12pt').
-#'pointsize': '10pt',
-# Additional stuff for the LaTeX preamble.
-'preamble': 
-"""\\def\\thempfootnote{\\arabic{mpfootnote}}
-""",
-# Latex figure (float) alignment
-#'figure_align': 'htbp',
-}
+    # The paper size ('letterpaper' or 'a4paper').
+    #
+    # 'papersize': 'letterpaper',
 
+    # The font size ('10pt', '11pt' or '12pt').
+    #
+    # 'pointsize': '10pt',
+
+    # Additional stuff for the LaTeX preamble.
+    'preamble': 
+    """\\def\\thempfootnote{\\arabic{mpfootnote}}
+    """,
+    # Latex figure (float) alignment
+    #
+    # 'figure_align': 'htbp',
+}
 
 
 locale_dirs = ['locale/']
