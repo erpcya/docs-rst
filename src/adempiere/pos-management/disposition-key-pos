@@ -1,0 +1,149 @@
+.. _ERPyA: http://erpya.com
+
+.. _documento/pdv-llave-de-disposición:
+
+**PDV Llave de Disposición o Catálogo de Productos**
+====================================================
+
+El catálogo de productos en el punto de ventas, puede ser configurado dependiendo de los requerimientos del usuario, este se puede configurar por categorías o grupos de productos. Para ello es necesario crear las categorías on grupos de productos, registrando sus respectivos productos en cada uno y estableciendo el orden de los mismos.
+
+Luego de crear y configurar las categorías o grupos de productos, se procede a crear el catálogo de productos y agregar al mismo las diferentes categorías o grupos creados anteriormente, estableciendo su respectivo orden.
+
+El catálogo de productos se muestra en la ventana "**Punto de Venta**", al seleccionar el mismo en el campo "**PDV Disposición de la llave**", de la ventana "**Terminal PDV**", como lo indica el material :ref:`documento/configuración-de-terminal-punto-de-venta`, elaborado por `ERPyA`_.
+
+El procedimiento para realizar la configuración del catálogo de productos del punto de venta, se explica a continuación de manera detalla.
+
+.. _paso/llave-de-disposición:
+
+**Configuración de Llave de Disposición**
+-----------------------------------------
+
+#. Seleccione la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**" y por último, seleccione la carpeta "**Punto de Venta**". Finalmente, seleccione la ventana "**PDV de Llave de Disposición**".
+
+    |menú de pdv llave de disposición|
+
+    Imagen 1. Menú de ADempiere
+
+#. Podrá visualizar la ventana "**PDV de Llave de Disposición**", con diferentes campos que permiten configurar el catálogo de productos del punto de venta.
+
+    |ventana pdv de llave de disposición|
+
+    Imagen 2. Ventana PDV de Llave de Disposición
+
+#. Para crear las categorías o grupos de productos, debe realizar lo siguiente:
+
+    #. Seleccione en el campo "**Organización**", la organización para la cual requiere configurar el catálogo de productos del punto de venta.
+
+        |campo organización de la ventana pdv de llave de disposición|
+
+        Imagen 3. Campo Organización
+
+    #. Introduzca en el campo "**Nombre**", el nombre de la categoría o el grupo de productos que requiere agregar en el catálogo de productos del punto de venta.
+
+        |campo nombre de la ventana pdv de llave de disposición|
+
+        Imagen 4. Campo Nombre
+
+    #. Introduzca en el campo "**Descripción**", una breve descripción de la categoría o el grupo de productos que requiere agregar en el catálogo de productos del punto de venta.
+
+        |campo descripción de la ventana pdv de llave de disposición|
+
+        Imagen 5. Campo Descripción
+
+    #. Seleccione en campo "**Tipo de Diseño de Clave de POS**", el tipo de diseño de clave de punto de venta que requiere utilizar en el punto de venta.
+
+        |campo tipo de diseño de clave de pos de la ventana pdv de llave de disposición|
+
+        Imagen 6. Campo Tipo de Diseño de Clave de POS
+
+    #. Introduzca en el campo "**Columna**", el número de columnas que requiere que contenga la categoría o grupo de productos del punto de venta.
+
+        |campo columna de la ventana pdv de llave de disposición|
+
+        Imagen 7. Campo Columna
+
+    #. Seleccione en el campo "**Impresión a Color**", el color de fondo para los recuadros de los productos del catálogo de productos.
+
+        |campo impresión a color de la ventana pdv de llave de disposición|
+
+        Imagen 8. Campo Impresión a Color
+
+    #. Seleccione en el campo "**Fuente de Impresión**", el tipo de fuente para los nombres de los productos del catálogo de productos.
+
+        |campo fuente de impresión de la ventana pdv de llave de disposición|
+
+        Imagem 9. Campo Fuente de Impresión
+
+#. Seleccione el icono "**Guardar**", ubicado en la barra de herramientas de ADempiere, para guardar el registro de la categoría o grupo de productos.
+
+    |icono guardar de la ventana pdv de llave de disposición|
+
+    Imagen 10. Icono Guardar
+
+**Llave PDV**
+-------------
+
+#. Seleccione la pestaña "**Llave PDV**" y proceda a registrar los productos de la categoría o grupo de productos del catálogo de productos.
+
+    |pestaña llave pdv de la ventana pdv de llave de disposición|
+
+    Imagen 11. Pestaña Llave PDV 
+
+    #. Introduzca en el campo "**Nombre**", el nombre del producto que requiere agregar a la categoría o grupo de productos del catálogo de productos.
+
+        |campo nombre de la pestaña llave pdv|
+
+        Imagen 12. Campo Nombre
+
+    #. Introduzca en el campo "**Descripción**", una breve descripción del producto que requiere agregar a la categoría o grupo de productos del catálogo de productos.
+
+        |campo descripción de la pestaña llave pdv|
+
+        Imagen 13. Campo Descripción
+
+    #. Seleccione en el campo "**Producto**", el producto que requiere agregar a la categoría o grupo de productos del catálogo de productos.
+
+        |campo producto de la pestaña llave pdv|
+
+        Imagen 14. Campo Producto
+
+    #. Introduzca en el campo "**Cantidad**", la cantidad del producto que requiere agregar a la línea de la orden de venta al momento de seleccionar el mismo en el punto de venta.
+
+        |campo cantidad de la pestaña llave pdv|
+
+        Imagen 15. Campo Cantidad
+
+    #. Seleccione en el campo "**Impresión a Color**", el color de fondo para el recuadro del producto seleccionado anteriormente.
+
+        |campo impresión a color de la pestaña llave pdv|
+
+        Imagen 16. Campo Impresión a Color
+
+        .. note::
+
+            Si no es seleccionado ningún valor en el campo "**Impresión a Color**", ADempiere toma por defecto el valor ingresado en el campo "**Impresión a Color**", de la pestaña principal "**Llave de PDV Layout**".
+
+    #. Seleccione en el campo "**Fuente de Impresión**", el tipo de fuente para el nombre del producto seleccionado anteriormente.
+
+        |campo fuente de impresión de la pestaña llave pdv|
+
+        Imagen 17. Campo Fuente de Impresión
+
+        .. note::
+
+            Si no es seleccionado ningún valor en el campo "**Fuente de Impresión**", ADempiere toma por defecto el valor ingresado en el campo "**Fuente de Impresión**", de la pestaña principal "**Llave de PDV Layout**".
+
+    #. Introduzca en el campo "**Tramo de Columna**", la cantidad de columnas que ocupará el recuadro del producto en el configuración de la categoría o grupo de productos.
+
+        |campo tramo de columna de la pestaña llave pdv|
+
+        Imagen 18. Campo Tramo de Columna
+
+    #. Introduzca en el campo "**Intervalo de Filas**", la cantidad de filas que ocupará el recuadro del producto en el configuración de la categoría o grupo de productos.
+
+        |campo intervalo de filas de la pestaña llave pdv|
+
+        Imagen 18. Campo Intervalo de Filas
+
+**Secuencia Clave**
+-------------------
