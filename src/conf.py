@@ -50,7 +50,8 @@ html_additional_pages = {"download": "pages/download.html", "index": "pages/inde
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
-extensions = ['sphinx.ext.doctest'
+with latex_show_urls = 'footnote' 
+extensions = ['sphinx.ext.doctest', 'sphinx.ext.intersphinx'
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -161,7 +162,8 @@ latex_elements = {
 
     # Additional stuff for the LaTeX preamble.
     #
-    # 'preamble': '',
+    'preamble': '\\def\\thempfootnote{\\arabic{mpfootnote}}',
+
     'packages': r'\usepackage{enumitem}'
 
     # Latex figure (float) alignment
