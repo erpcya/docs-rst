@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v1
-    - uses: ammaraskar/sphinx-action@09/12/2020
+    - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "pip install sphinx_rtd_theme"
         docs-folder: "src/"
@@ -25,7 +25,7 @@ jobs:
 #      with:
 #        name: DocumentationHTML
 #        path: src/_build/html/
-    - uses: ammaraskar/sphinx-action@09/12/2020
+    - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
         build-command: "make latexpdf"
@@ -47,7 +47,7 @@ jobs:
         # The above command will fail if no changes were present, so we ignore
         # that.
     - name: Push changes
-      uses: ad-m/github-push-action@09/12/2020
+      uses: ad-m/github-push-action@master
       with:
         branch: gh-pages
         directory: gh-pages
