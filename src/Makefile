@@ -8,7 +8,7 @@ SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
 SPHINXPROJ    = Docs
-SOURCEDIR     = src
+SOURCEDIR     = .
 
 
 # User-friendly check for sphinx-build
@@ -52,11 +52,13 @@ help:
 
 clean:
 	rm -rf $(BUILDDIR)/*
+%: Makefile
+	@$(SPHINXBUILD) -M $@ "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
 
-html:
-	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html/
-	@echo
-	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
+#html:
+#	$(SPHINXBUILD) -b html $(ALLSPHINXOPTS) $(BUILDDIR)/html/
+#	@echo
+#	@echo "Build finished. The HTML pages are in $(BUILDDIR)/html."
 rinoh:
 	$(SPHINXBUILD) -b pdf $(ALLSPHINXOPTS) $(BUILDDIR)/pdf/
 	@echo
@@ -132,7 +134,7 @@ latex:
 latexpdf:
 	$(SPHINXBUILD) -b latex  $(ALLSPHINXOPTS) $(BUILDDIR)/latex
 	@echo "Running LaTeX files through pdflatex..."
-	$(MAKE) -C $(BUILDDIR)/latex all-pdf 
+	$(MAKE) -C $(BUILDDIR)/latex all-pdf
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
 
 latexpdfja:
@@ -194,4 +196,3 @@ pseudoxml:
 	$(SPHINXBUILD) -b pseudoxml $(ALLSPHINXOPTS) $(BUILDDIR)/pseudoxml
 	@echo
 	@echo "Build finished. The pseudo-XML files are in $(BUILDDIR)/pseudoxml."
-
