@@ -26,39 +26,39 @@ Cuando hablamos de tipo de aplicación en gestión contable, se refiere a la for
 
 Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son los siguientes:
 
-**Actual:** Se refiere a la contabilidad de gestión o real, su principal objetivo es medir resultados en tiempo real, y de esta forma se conoce el estado financiero actual de la empresa, esto garantiza la toma de decisiones acertadas.
+#. **Actual:** Se refiere a la contabilidad de gestión o real, su principal objetivo es medir resultados en tiempo real, y de esta forma se conoce el estado financiero actual de la empresa, esto garantiza la toma de decisiones acertadas.
 
     Este tipo de aplicación se base en la exposición del desempeño desde los registros transaccionales que causan los hechos contables de la empresa, como lo es:
 
-    **Documento por Pagar**
+    #. **Documento por Pagar**
 
-    **Documento por Cobrar**
+    #. **Documento por Cobrar**
 
-    **Pagos**
+    #. **Pagos**
 
-    **Cobros**
+    #. **Cobros**
 
-    **Entregas**
+    #. **Entregas**
 
-    **Recibos**
+    #. **Recibos**
 
-    **Conciliaciones Bancarias**
+    #. **Conciliaciones Bancarias**
 
-    **Nóminas**
+    #. **Nóminas**
 
-    **Inventarios Físicos**
+    #. **Inventarios Físicos**
 
-    **Movimientos Contables**
+    #. **Movimientos Contables**
 
-    **Producción**
+    #. **Producción**
 
-    **Inventario de Uso Interno**
+    #. **Inventario de Uso Interno**
 
-    **Asignaciones de Pagos**
+    #. **Asignaciones de Pagos**
 
-    **Asignaciones de Inventario**
+    #. **Asignaciones de Inventario**
 
-    **Notas Contables**
+    #. **Notas Contables**
 
     El resultado con este tipo de aplicación, sería el siguiente:
 
@@ -70,13 +70,13 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
         El tipo de aplicación **actual**, es predeterminado en toda transacción realizada y reportes generados desde **ADempiere**.
 
-**Compromiso:** Se refiere a compromisos mutuos que asume o genera la empresa, generalmente asociados a un contrato o un documento que avala el mismo, como una orden de venta (**adquiere un compromiso con el cliente**) u orden de compra (**genera un compromiso con el proveedor**).
+#. **Compromiso:** Se refiere a compromisos mutuos que asume o genera la empresa, generalmente asociados a un contrato o un documento que avala el mismo, como una orden de venta (**adquiere un compromiso con el cliente**) u orden de compra (**genera un compromiso con el proveedor**).
 
     De esta manera al generar un documento que compromete el inventario por precios convenidos, se refleja en balance los activos o pasivos derivados de los registros transaccionales, como lo es:
 
-    **Orden de Compra**
+    #. **Orden de Compra**
 
-    **Orden de Venta**
+    #. **Orden de Venta**
 
     El resultado con este tipo de aplicación, sería el siguiente:
 
@@ -84,13 +84,13 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
     Imagen 2. Información Contable Compromisos
 
-**Estadística:** Se refiere a registros contables basados en cálculos estadísticos, que establecen un análisis de criterios económicos predictivo y confiable, generalmente es utilizada para medir varianza de costos en producción.
+#. **Estadística:** Se refiere a registros contables basados en cálculos estadísticos, que establecen un análisis de criterios económicos predictivo y confiable, generalmente es utilizada para medir varianza de costos en producción.
 
     Permite comparar resultados del pasado en la empresa con los obtenidos en la actualidad, como por ejemplo, comparar ingresos obtenidos en una estadística anual, también, establece resultados que ayudan a :ref:`documento/informe-financiero` para toma de decisiones.
 
     Este tipo de aplicación no compromete cuentas reales, ni cuentas nominales, **genera hechos contables referenciales** derivados de los registros transaccionales, como lo es:
 
-    **Nota Contable**
+    #. **Nota Contable**
 
     El resultado con este tipo de aplicación sería el siguiente asiento:
 
@@ -98,13 +98,13 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
     Imagen 3. Información Contable Estadística
 
-**Presupuesto:** Se refiere a registros contables basados en una predicción de los resultados y el flujo de caja que se espera obtener en el futuro periodo fiscal.
+#. **Presupuesto:** Se refiere a registros contables basados en una predicción de los resultados y el flujo de caja que se espera obtener en el futuro periodo fiscal.
 
     Este tipo de aplicación estima generalmente cuentas reales y nominales, emitiendo una visión con respecto a la utilidad o perdida del periodo fiscal venidero, se convierte entonces en el objetivo que la empresa espera cumplir.
 
     Este tipo de aplicación no compromete cuentas reales, ni cuentas nominales, **genera hechos contables referenciales** derivados de los registros transaccionales, como lo es:
 
-    **Nota Contable**
+    #. **Nota Contable**
 
     El resultado con este tipo de aplicación sería el siguiente asiento:
 
@@ -112,13 +112,13 @@ Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son lo
 
     Imagen 4. Información Contable Presupuesto
 
-**Reserva:** Se refiere a reservas realizadas previendo contingencias en contabilidad, este tipo de pasivos es una posible obligación y es considerada un provisión que tiene fundamentos en experiencias pasadas.
+#. **Reserva:** Se refiere a reservas realizadas previendo contingencias en contabilidad, este tipo de pasivos es una posible obligación y es considerada un provisión que tiene fundamentos en experiencias pasadas.
 
     La contabilidad en esta aplicación genera incertidumbre porque alude a una advertencia en la operatividad, un ejemplo de ello podría ser, estimar la compra de un inventario que funge como insumo para la producción.
 
     Estos pasivos son generados como una provisión, generando un hecho contable que estima una compra derivada del registro transaccional:
 
-    **Requisión a Compra**
+    #. **Requisión a Compra**
 
     El resultado con este tipo de aplicación sería el siguiente asiento:
 
