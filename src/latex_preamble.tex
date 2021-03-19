@@ -9,10 +9,10 @@
 \makeatother
 
 \newlist{mcenum}{enumerate}{2}
-\setlist[mcenum,1]{label={(\AlphAlphFmt*)}}
-\setlist [enumerate, 1] {label = \ arabic *.}
-\setlist [enumerate, 2] {label = \ alph *.}
-\setlistdepth{99}
+\settrivlist[mcenum,1]{label={(\AlphAlphFmt*)}}
+\settrivlist [enumerate, 1] {label = \ arabic *.}
+\setltrivlist [enumerate, 2] {label = \ alph *.}
+\settrivlistdepth{99}
 
 \usepackage{pgffor}
 \usepackage{multicol}
