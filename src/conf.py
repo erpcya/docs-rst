@@ -152,7 +152,7 @@ htmlhelp_basename = 'DocsErpya'
 # fh = open('latex_preamble.tex', 'r+')
 # PREAMBLE = fh.read()
 # fh.close()
-# latex_elements = {
+latex_elements = {
     # Additional stuff for the LaTeX preamble.
     #'preamble': PREAMBLE,
     # The paper size ('letterpaper' or 'a4paper').
@@ -170,7 +170,7 @@ htmlhelp_basename = 'DocsErpya'
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
-# }
+}
 
 
 locale_dirs = ['locale/']
