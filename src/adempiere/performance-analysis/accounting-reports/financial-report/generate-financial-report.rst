@@ -141,9 +141,9 @@
 
             Basados en lo anteriormente expuesto, en este ejemplo se crearía una jerarquía asociando los siguientes árboles:
 
-                #. **Arbol de Actividad**: La actividad se refiere a la actividad realizada en la organización, podemos decir entonces que funge como un departamento, en este árbol se definirá la estructura del organigrama en cuestión.
+                - **Arbol de Actividad**: La actividad se refiere a la actividad realizada en la organización, podemos decir entonces que funge como un departamento, en este árbol se definirá la estructura del organigrama en cuestión.
 
-                #. **Árbol de Cuentas**: Las cuentas contables a evaluar para el ejemplo son las cuentas de ingreso, cuentas por cobrar, compromisos, costos y gastos, se definirá entonces un árbol con estas cuentas.
+                - **Árbol de Cuentas**: Las cuentas contables a evaluar para el ejemplo son las cuentas de ingreso, cuentas por cobrar, compromisos, costos y gastos, se definirá entonces un árbol con estas cuentas.
 
             De esta forma se definirán todos los árboles necesarios para el ejemplo, para profundizar a cerca de la creación de un **Informe de Jerarquías** vaya al instructivo que `ERPyA`_ ha diseñado para usted.
 
