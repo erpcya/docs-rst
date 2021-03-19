@@ -1,4 +1,12 @@
-\usepackage{enumitem}
-\setlist [enumerate, 1] {label = \ arabic *.}
-\setlist [enumerate, 2] {label = \ alph *.}
-\setlistdepth{99}
+\begin{enumerate}
+\item first item of first enumerate
+  \begin{itemize}
+  \item first item of first itemize
+    \begin{enumerate}
+    \item first item of second enumerate
+    ...
+    \end{enumerate}
+  ...
+  \end{itemize}
+...
+\end{enumerate}
