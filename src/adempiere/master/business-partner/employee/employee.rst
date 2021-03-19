@@ -279,47 +279,47 @@ En la ventana "**Empleado (Todos)**", se registran todos los datos personales y 
 
         Imagen 15. Campo Lugar de Nacimiento (Localización)
 
-        #. Seleccione en el campo "**País**", el país donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el país "**Venezuela**".
+    #. Seleccione en el campo "**País**", el país donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el país "**Venezuela**".
 
-            |Campo País|
+        |Campo País|
 
-            Imagen 16. Campo País
+        Imagen 16. Campo País
 
-        #. Seleccione en el campo "**Estado**", el estado donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el estado "**Portuguesa**".
+    #. Seleccione en el campo "**Estado**", el estado donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el estado "**Portuguesa**".
 
-            |Campo Estado|
+        |Campo Estado|
 
-            Imagen 17. Campo Estado
+        Imagen 17. Campo Estado
 
-        #. Seleccione en el campo "**Ciudad**", la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la ciudad "**Araure**".
+    #. Seleccione en el campo "**Ciudad**", la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la ciudad "**Araure**".
 
-            |Campo Ciudad|
+        |Campo Ciudad|
 
-            Imagen 18. Campo Ciudad
+        Imagen 18. Campo Ciudad
 
-        #. Introduzca en el campo "**Dirección 1**", la dirección detallada del lugar donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la dirección "**Av Dr Rafael Caldera**".
+    #. Introduzca en el campo "**Dirección 1**", la dirección detallada del lugar donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la dirección "**Av Dr Rafael Caldera**".
 
-            |Campo Dirección 1|
+        |Campo Dirección 1|
 
-            Imagen 19. Campo Dirección 1
+        Imagen 19. Campo Dirección 1
 
-        #. Introduzca en el campo "**Dirección 2**", el nombre del lugar donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el nombre "**Hospital J.M. Casal Ramos**".
+    #. Introduzca en el campo "**Dirección 2**", el nombre del lugar donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el nombre "**Hospital J.M. Casal Ramos**".
 
-            |Campo Dirección 2|
+        |Campo Dirección 2|
 
-            Imagen 20. Campo Dirección 2
+        Imagen 20. Campo Dirección 2
 
-        #. Introduzca en el campo "**Código Postal**", el código postal de la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el código "**3301**".
+    #. Introduzca en el campo "**Código Postal**", el código postal de la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el código "**3301**".
 
-            |Campo Código Postal|
+        |Campo Código Postal|
 
-            Imagen 21. Campo Código Postal
+        Imagen 21. Campo Código Postal
 
-        #. Seleccione la opción "**OK**", para cargar el registro al campo "**Lugar de Nacimiento**".
+    #. Seleccione la opción "**OK**", para cargar el registro al campo "**Lugar de Nacimiento**".
 
-            |Opción OK|
+        |Opción OK|
 
-            Imagen 22. Opción OK
+        Imagen 22. Opción OK
 
     #. Seleccione en el campo "**Estado Marital**", el estado civil del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el estado marital "**Casado**".
 
@@ -434,58 +434,57 @@ La información ingresada en esta pestaña puede variar al momento de la elabora
 
         Imagen 36. Código de Validación
 
-
     #. Seleccione en el campo "**Nómina**", la nómina regular establecida para cada Empleado. Adempiere presenta las siguientes nóminas cuando el empleado posee un Salario Fijo (Nómina Semanal, Nómina Quincenal y Nómina Mensual), en cambio si el Empleado Posee un Salario Variable se encuentras disponibles (Nómina Semanal Mixta, Nómina Quincenal Mixta y Nómina Mensual Mixta)
 
-         |Campo Nómina|
+        |Campo Nómina|
 
-         Imagen 37. Campo Nómina
+        Imagen 37. Campo Nómina
 
     #. Seleccione en el campo "**Departamento Nómina**", el departamento al que pertenece el socio del negocio que esta resgistrando.
 
-          |Campo Departamento Nómina|
+        |Campo Departamento Nómina|
 
-          Imagen 38. Campo Departamento Nómina
+        Imagen 38. Campo Departamento Nómina
 
     #. Seleccione en el campo "**Puesto Nómina**", el puesto que tiene el socio del negocio que esta registrando.
 
-            |Campo Puesto Nómina|
+        |Campo Puesto Nómina|
 
-            Imagen 39. Campo Puesto Nómina
+        Imagen 39. Campo Puesto Nómina
 
     #. Seleccione en el campo "**Tipo de Trabajo**", el trabajo a desempeñar por el empleado en la empresa.
 
-            |Campo Tipo de Trabajo|
+        |Campo Tipo de Trabajo|
 
-            Imagen 4. Campo Tipo de Trabajo
+        Imagen 4. Campo Tipo de Trabajo
 
     #. Introduzca en el campo "**Fecha de Inicio**", la fecha de inicio del contrato que se esta creando.
 
-            |Campo Fecha de Inicio|
+        |Campo Fecha de Inicio|
 
-            Imagen 4. Campo Fecha de Inicio
+        Imagen 4. Campo Fecha de Inicio
 
-   #. Seleccione en el campo "**Fecha Final**", la fecha de culminación del contrato del socio del negocio que esta registrando.
+    #. Seleccione en el campo "**Fecha Final**", la fecha de culminación del contrato del socio del negocio que esta registrando.
 
-            |Campo Fecha Final|
+        |Campo Fecha Final|
 
-            Imagen 42. Campo Fecha Final
+        Imagen 42. Campo Fecha Final
 
-            .. warning::
+        .. warning::
 
-                La fecha final del contrato depende del lapso de duración de contratos que las empresas tengan establecido como políticas de contratación.
+            La fecha final del contrato depende del lapso de duración de contratos que las empresas tengan establecido como políticas de contratación.
 
     #. Seleccione el checklist "**Gerente**", para indicar que el socio del negocio que esta registrando es un gerente.
 
-          |Campo Gerente|
+        |Campo Gerente|
 
-          Imagen 43. Campo Gerente
+        Imagen 43. Campo Gerente
 
     #. Seleccione en el campo "**Grupo de Trabajo**", el grupo de trabajo al que pertenece el socio del negocio que esta registrando.
 
-            |Campo Grupo de Trabajo|
+        |Campo Grupo de Trabajo|
 
-            Imagen 44. Campo Grupo de Trabajo
+        Imagen 44. Campo Grupo de Trabajo
 
     #. Seleccione en el campo "**Tipo de Empleado**", el tipo de empleado al que pertenece el socio del negocio que esta registrando.
 
@@ -652,63 +651,63 @@ En una empresa los empleados poseen caracteristicas diferentes, Estas caracteris
 
     Imagen 70. Pestaña Atributo de Empleado
 
-    #. Seleccione en el campo "**Relación con Socios del Negocio**", el socio del negocio correspondiente.
+#. Seleccione en el campo "**Relación con Socios del Negocio**", el socio del negocio correspondiente.
 
-        |Campo Relación con Socios del Negocio|
+    |Campo Relación con Socios del Negocio|
 
-        Imagen 71. Campo Relación con Socios del Negocio
+    Imagen 71. Campo Relación con Socios del Negocio
 
-    #. Seleccione en el campo "**Concepto Nómina**", el Concepto de Nómina con el cual le creará el atributo al empleado.
+#. Seleccione en el campo "**Concepto Nómina**", el Concepto de Nómina con el cual le creará el atributo al empleado.
 
-        |Campo Concepto Nómina|
+    |Campo Concepto Nómina|
 
-        Imagen 72. Campo Concepto Nómina
+    Imagen 72. Campo Concepto Nómina
 
-        .. warning::
+    .. warning::
 
-          Al seleccionar cualquier valor en este campo podrá apreciar una serie de conceptos definidos por Adempiere y que se consideran atributos de cada empleado
+        Al seleccionar cualquier valor en este campo podrá apreciar una serie de conceptos definidos por Adempiere y que se consideran atributos de cada empleado
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción del registro de concepto de nómina que esta realizando.
+#. Introduzca en el campo "**Descripción**", una breve descripción del registro de concepto de nómina que esta realizando.
 
-        |Campo Descripción Concepto|
+    |Campo Descripción Concepto|
 
-        Imagen 73. Campo Descripción
+    Imagen 73. Campo Descripción
 
-    #. Introduzca en el campo "**No. de Referencia**", el número de referencia del socio del negocio que esta registrando.
+#. Introduzca en el campo "**No. de Referencia**", el número de referencia del socio del negocio que esta registrando.
 
-        |Campo No. de Referencia|
+    |Campo No. de Referencia|
 
-        Imagen 74. Campo No. de Referencia
+    Imagen 74. Campo No. de Referencia
 
-    #. Introduzca en el campo "**Monto**", el monto correspondiente al registro que esta realizando.
+#. Introduzca en el campo "**Monto**", el monto correspondiente al registro que esta realizando.
 
-        |Campo Monto|
+    |Campo Monto|
 
-        Imagen 75. Campo Monto
+    Imagen 75. Campo Monto
 
-    #. Introduzca en el campo "**Valor Máximo**", el valor máximo para el registro que esta realizando.
+#. Introduzca en el campo "**Valor Máximo**", el valor máximo para el registro que esta realizando.
 
-        |Campo Valor Máximo|
+    |Campo Valor Máximo|
 
-        Imagen 76. Campo Valor Máximo
+    Imagen 76. Campo Valor Máximo
 
-    #. Introduzca en el campo "**Valor Mínimo**", el valor mínimo para el registro que esta realizando.
+#. Introduzca en el campo "**Valor Mínimo**", el valor mínimo para el registro que esta realizando.
 
-        |Campo Valor Mínimo|
+    |Campo Valor Mínimo|
 
-        Imagen 77. Campo Valor Mínimo
+    Imagen 77. Campo Valor Mínimo
 
-    #. Seleccione en el campo "**Válido Desde**", la fecha de inicio de aplicación del registro que esta realizando.
+#. Seleccione en el campo "**Válido Desde**", la fecha de inicio de aplicación del registro que esta realizando.
 
-        |Campo Válido Desde|
+    |Campo Válido Desde|
 
-        Imagen 78. Campo Válido Desde
+    Imagen 78. Campo Válido Desde
 
-    #. Seleccione en el campo "**Válido Hasta**", la fecha final de aplicación del registro que se esta realizando.
+#. Seleccione en el campo "**Válido Hasta**", la fecha final de aplicación del registro que se esta realizando.
 
-        |Campo Válido Hasta|
+    |Campo Válido Hasta|
 
-        Imagen 79. Campo Válido Hasta
+    Imagen 79. Campo Válido Hasta
 
 .. warning::
 
@@ -728,17 +727,17 @@ En la pestaña "**Días Libres de la Semana**" se deben seleccionar los checklis
 
     Imagen 80. Pestaña Días Libres de la Semana
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción de los días libres que le corresponden al socio del negocio que esta registrando. Este campo es opcional, sin embargo, sirve de referencia para el registro del socio del negocio empleado en la empresa cuando se utilizan turnos rotativos.
+#. Introduzca en el campo "**Descripción**", una breve descripción de los días libres que le corresponden al socio del negocio que esta registrando. Este campo es opcional, sin embargo, sirve de referencia para el registro del socio del negocio empleado en la empresa cuando se utilizan turnos rotativos.
 
-        |Campo Descripción2|
+    |Campo Descripción2|
 
-        Imagen 81. Campo Descripción
+    Imagen 81. Campo Descripción
 
-    #. Seleccione los checklist correspondientes a los días libres del socio del negocio empleado que esta registrando. Para ejemplificar el registro se tildan los días "**Sábado**" y "**Domingo**".
+#. Seleccione los checklist correspondientes a los días libres del socio del negocio empleado que esta registrando. Para ejemplificar el registro se tildan los días "**Sábado**" y "**Domingo**".
 
-        |Checklist Días Libres de la Semana|
+    |Checklist Días Libres de la Semana|
 
-        Imagen 82. Checklist Días Libres de la Semana
+    Imagen 82. Checklist Días Libres de la Semana
 
 .. warning::
 
@@ -787,7 +786,6 @@ La pestaña "**Detalle de Pago**", muestra de forma resumida la información de 
 
     Imagen 87. Pestaña Información de Contrato
 
-
 **Pestaña Cuenta Bancaria**
 ***************************
 
@@ -799,51 +797,51 @@ En esta pestaña se registran los datos bancarios del socio del negocio empleado
 
     Imagen 88. Pestaña Cuenta Bancaria
 
-    #. En el campo "**Banco**" seleccione el banco a registrar con ayuda del ícono identificador (adjunto imagen).
+#. En el campo "**Banco**" seleccione el banco a registrar con ayuda del ícono identificador (adjunto imagen).
 
-        |Campo Banco|
+    |Campo Banco|
 
-        Imagen 89. Campo Banco
+    Imagen 89. Campo Banco
 
-        #. A continuación podrá apreciar la siguiente ventana con los diferentes bancos, dónde debe seleccionar el banco que posee el socio del negocio empleado y la opción "**OK**" para cargar los datos al formulario.
+#. A continuación podrá apreciar la siguiente ventana con los diferentes bancos, dónde debe seleccionar el banco que posee el socio del negocio empleado y la opción "**OK**" para cargar los datos al formulario.
 
-            |Opción Ok|
+    |Opción Ok|
 
-            Imagen 90. Opción OK
+    Imagen 90. Opción OK
 
-    #. Seleccione en el campo "**Tipo de Cuenta Bancaria**", el tipo de cuenta bancaria correspondiente a la cuenta que esta registrando. Para ejemplificar el registro es utilizado el tipo de cuenta corriente.
+#. Seleccione en el campo "**Tipo de Cuenta Bancaria**", el tipo de cuenta bancaria correspondiente a la cuenta que esta registrando. Para ejemplificar el registro es utilizado el tipo de cuenta corriente.
 
-        |Campo Tipo de Cuenta Bancaria|
+    |Campo Tipo de Cuenta Bancaria|
 
-        Imagen 91. Campo Tipo de Cuenta Bancaria
+    Imagen 91. Campo Tipo de Cuenta Bancaria
 
-    #. Introduzca en el campo "**No. De Cuenta**", el número de cuenta bancaria que esta registrando.
+#. Introduzca en el campo "**No. De Cuenta**", el número de cuenta bancaria que esta registrando.
 
-        |Campo No. De Cuenta|
+    |Campo No. De Cuenta|
 
-        Imagen 92. Campo No. De Cuenta
+    Imagen 92. Campo No. De Cuenta
 
-    #. Introduzca el código de identificación, cédula o rif del titular de la cuenta bancaria que esta registrando, en el campo "**No. Seguro Social**".
+#. Introduzca el código de identificación, cédula o rif del titular de la cuenta bancaria que esta registrando, en el campo "**No. Seguro Social**".
 
-        |Campo No. Seguro Social Cuenta|
+    |Campo No. Seguro Social Cuenta|
 
-        Imagen 93. Campo No. Seguro Social
+    Imagen 93. Campo No. Seguro Social
 
-        .. warning::
+    .. warning::
 
-            Se recomienda que al ingresar el valor al campo "**No. Seguro Social**" no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
+        Se recomienda que al ingresar el valor al campo "**No. Seguro Social**" no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
 
-    #. Introduzca el nombre de referencia en el campo "**Nombre**", en este campo va el nombre del titular de la cuenta bancaria que esta registrando.
+#. Introduzca el nombre de referencia en el campo "**Nombre**", en este campo va el nombre del titular de la cuenta bancaria que esta registrando.
 
-        |Campo Nombre Titular|
+    |Campo Nombre Titular|
 
-        Imagen 94. Campo Nombre Titular
+    Imagen 94. Campo Nombre Titular
 
-    #. Introduzca en el campo "**Cta. Correo Electrónico**", el correo electrónico asociado a la cuenta bancaria que esta registrando.
+#. Introduzca en el campo "**Cta. Correo Electrónico**", el correo electrónico asociado a la cuenta bancaria que esta registrando.
 
-        |Campo Cta. Correo Electrónico|
+    |Campo Cta. Correo Electrónico|
 
-        Imagen 95. Campo Cta. Correo Electrónico
+    Imagen 95. Campo Cta. Correo Electrónico
 
 #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere.
 
@@ -854,7 +852,6 @@ En esta pestaña se registran los datos bancarios del socio del negocio empleado
 .. warning::
 
     Si el empleado posee otra cuenta bancaria para registrar, seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere en la pestaña "**Cuenta Bancaria**" y proceda al llenado de los campos explicados anteriormente.
-
 
 **Pestaña Experiencia Laboral**
 *******************************
@@ -867,41 +864,41 @@ La experiencia laboral de las personas forman su hoja de vida laboral, en cada e
 
     Imagen 97. Pestaña Experiencia Laboral
 
-    #. Introduzca en el campo "**Compañía**", el nombre de la empresa en la cual trabajo el socio del negocio empleado que esta registrando.
+#. Introduzca en el campo "**Compañía**", el nombre de la empresa en la cual trabajo el socio del negocio empleado que esta registrando.
 
-        |Campo Compañía Experiencia|
+    |Campo Compañía Experiencia|
 
-        Imagen 98. Campo Compañía
+    Imagen 98. Campo Compañía
 
-    #. Seleccione en el campo "**Desde Fecha**", la fecha en la cual comenzo a realizar sus actividades laborales en la empresa.
+#. Seleccione en el campo "**Desde Fecha**", la fecha en la cual comenzo a realizar sus actividades laborales en la empresa.
 
-        |Campo Desde Fecha|
+    |Campo Desde Fecha|
 
-        Imagen 99. Campo Desde Fecha
+    Imagen 99. Campo Desde Fecha
 
-    #. Seleccione en el campo "**A Fecha**", la fecha en la cual termino de realizar sus actividades laborales en la empresa.
+#. Seleccione en el campo "**A Fecha**", la fecha en la cual termino de realizar sus actividades laborales en la empresa.
 
-        |Campo A Fecha|
+    |Campo A Fecha|
 
-        Imagen 100. Campo A Fecha
+    Imagen 100. Campo A Fecha
 
-    #. Introduzca en el campo "**Designación (Enlazado)**",
+#. Introduzca en el campo "**Designación (Enlazado)**",
 
-        |Campo Designación (Enlazado)|
+    |Campo Designación (Enlazado)|
 
-        Imagen 101. Campo Designación (Enlazado)
+    Imagen 101. Campo Designación (Enlazado)
 
-    #. Introduzca en el campo "**Designación (Retirado)**",
+#. Introduzca en el campo "**Designación (Retirado)**",
 
-        |Campo Designación (Retirado)|
+    |Campo Designación (Retirado)|
 
-        Imagen 102. Campo Designación (Retirado)
+    Imagen 102. Campo Designación (Retirado)
 
-    #. Introduzca en el campo "**Comentarios**", cualquier información relevante con respecto a la experiencia en la empresa.
+#. Introduzca en el campo "**Comentarios**", cualquier información relevante con respecto a la experiencia en la empresa.
 
-        |Campo Comentarios|
+    |Campo Comentarios|
 
-        Imagen 103. Campo Comentarios
+    Imagen 103. Campo Comentarios
 
 #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere, para guardar los cambios realizados en la pestaña "**Experiencia Laboral**".
 
@@ -927,46 +924,45 @@ El Estado asume la educación como proceso esencial para promover, fortalecer y 
 
     Imagen 105. Pestaña Educación
 
-    #. Seleccione en el campo "**Grado Académico**", del grado académico del socio del negocio empleado que esta registrando.
+#. Seleccione en el campo "**Grado Académico**", del grado académico del socio del negocio empleado que esta registrando.
 
-        |Campo Grado Académico2|
+    |Campo Grado Académico2|
 
-        Imagen 106. Campo Grado Académico
+    Imagen 106. Campo Grado Académico
 
-    #. Introduzca en el campo "**Colegio**", el nombre de la institución o colegio donde obtuvo el grado académico que esta registrando.
+#. Introduzca en el campo "**Colegio**", el nombre de la institución o colegio donde obtuvo el grado académico que esta registrando.
 
-        |Campo Colegio|
+    |Campo Colegio|
 
-        Imagen 107. Campo Colegio
+    Imagen 107. Campo Colegio
 
-    #. Introduzca en el campo "**Dirección de Escuela / Colegio**", la dirección de la institución o colegio donde obtuvo el grado académico que esta registrando.
+#. Introduzca en el campo "**Dirección de Escuela / Colegio**", la dirección de la institución o colegio donde obtuvo el grado académico que esta registrando.
 
-        |Campo Dirección de Escuela / Colegio|
+    |Campo Dirección de Escuela / Colegio|
 
-        Imagen 108. Campo Dirección de Escuela / Colegio
+    Imagen 108. Campo Dirección de Escuela / Colegio
 
-    #. Introduzca en el campo "**Duración**", el tiempo de duración para obtener el grado académico seleccionado.
+#. Introduzca en el campo "**Duración**", el tiempo de duración para obtener el grado académico seleccionado.
 
-        |Campo Duración|
+    |Campo Duración|
 
-        Imagen 109. Campo Duración
+    Imagen 109. Campo Duración
 
-    #. Introduzca en el campo "**Fecha de Finalización**", el año en el cual obtuvo el grado académico seleccionado.
+#. Introduzca en el campo "**Fecha de Finalización**", el año en el cual obtuvo el grado académico seleccionado.
 
-        |Campo Fecha de Finalización|
+    |Campo Fecha de Finalización|
 
-        Imagen 110. Campo Fecha de Finalización
+    Imagen 110. Campo Fecha de Finalización
 
-    #. Introduzca en el campo "**Comentarios**", cualquier información relevante para el registro.
+#. Introduzca en el campo "**Comentarios**", cualquier información relevante para el registro.
 
-        |Campo Comentario|
+    |Campo Comentario|
 
-        Imagen 111. Campo Comentarios
+    Imagen 111. Campo Comentarios
 
 .. warning::
 
     Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).
-
 
 **Pestaña Dependientes**
 ************************
@@ -979,85 +975,85 @@ En esta pestaña se registran los datos de cada uno de los familiares que depend
 
     Imagen 112. Pestaña Dependientes
 
-    #. Seleccione en el campo "**Relación de Empleados**", la relación que tiene el dependiente con el socio del negocio empleado que esta registrando. Para ejemplificar el registro es utilizada la opción "**Hijo (a)**".
+#. Seleccione en el campo "**Relación de Empleados**", la relación que tiene el dependiente con el socio del negocio empleado que esta registrando. Para ejemplificar el registro es utilizada la opción "**Hijo (a)**".
 
-        |Campo Relación de Empleados|
+    |Campo Relación de Empleados|
 
-        Imagen 113. Campo Relación de Empleados
+    Imagen 113. Campo Relación de Empleados
 
-    #. Introduzca el código de identificación, cédula o rif del dependiente que esta registrando, en el campo "**Código**".
+#. Introduzca el código de identificación, cédula o rif del dependiente que esta registrando, en el campo "**Código**".
 
-        |Campo Código2|
+    |Campo Código2|
 
-        Imagen 114. Campo Código
-
-        .. warning::
-
-            Se recomienda que al ingresar el valor al campo "**Código**" no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
-
-    #. Introduzca en el campo "**Nombre**", el nombre completo del dependiente que esta registrando.
-
-        |Campo Nombre Dependiente|
-
-        Imagen 115. Campo Nombre Dependiente
-
-    #. Seleccione en el campo "**Socio del Negocio Relacionado**", el socio del negocio empleado que esta registrando.
-
-        |Campo Socio del Negocio Relacionado|
-
-        Imagen 116. Campo Socio del Negocio Relacionado
+    Imagen 114. Campo Código
 
     .. warning::
 
-        El campo "**Socio del Negocio Relacionado**", es utilizado cuando se va a realizar algún pago a un dependiente del socio del negocio empleado que esta registrando. Se selecciona el socio del negocio empleado porque sus datos bancarios se encuentran registrados y validados.
+        Se recomienda que al ingresar el valor al campo "**Código**" no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
 
-    #. Seleccione en el campo "**Cumpleaños**", la fecha de nacimiento del dependiente que esta registrando.
+#. Introduzca en el campo "**Nombre**", el nombre completo del dependiente que esta registrando.
 
-        |Campo Cumpleaños Dependiente|
+    |Campo Nombre Dependiente|
 
-        Imagen 117. Campo Cumpleaños Dependiente
+    Imagen 115. Campo Nombre Dependiente
 
-    #. Seleccione en el campo "**Genero**", el genero del dependiente que esta registrando.
+#. Seleccione en el campo "**Socio del Negocio Relacionado**", el socio del negocio empleado que esta registrando.
 
-        |Campo Genero Dependiente|
+    |Campo Socio del Negocio Relacionado|
 
-        Imagen 118. Campo Genero
+    Imagen 116. Campo Socio del Negocio Relacionado
 
-    #. Seleccione en el campo "**Profesión**", la profesión del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.
+.. warning::
 
-        |Campo Profesión Dependiente|
+    El campo "**Socio del Negocio Relacionado**", es utilizado cuando se va a realizar algún pago a un dependiente del socio del negocio empleado que esta registrando. Se selecciona el socio del negocio empleado porque sus datos bancarios se encuentran registrados y validados.
 
-        Imagen 119. Campo Profesión
+#. Seleccione en el campo "**Cumpleaños**", la fecha de nacimiento del dependiente que esta registrando.
 
-    #. Seleccione en el campo "**Identificador de la Carrera**", la carrera del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.
+    |Campo Cumpleaños Dependiente|
 
-        |Campo Identificador de la Carrera Dependiente|
+    Imagen 117. Campo Cumpleaños Dependiente
 
-        Imagen 120. Campo Identificador de la Carrera
+#. Seleccione en el campo "**Genero**", el genero del dependiente que esta registrando.
 
-    #. Seleccione en el campo "**Grado Académico**", el grado académico del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.
+    |Campo Genero Dependiente|
 
-        |Campo Grado Académico3|
+    Imagen 118. Campo Genero
 
-        Imagen 121. Campo Grado Académico
+#. Seleccione en el campo "**Profesión**", la profesión del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.
 
-    #. Seleccione en el campo "**Grado**", el grado de instrucción del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.
+    |Campo Profesión Dependiente|
 
-        |Campo Grado Dependiente|
+    Imagen 119. Campo Profesión
 
-        Imagen 122. Campo Grado Dependiente
+#. Seleccione en el campo "**Identificador de la Carrera**", la carrera del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.
 
-    #. Tilde el checklist "**Estudiante Activo**", si el dependiente que esta registrando se encuentra cursando estudios en la actualidad. Esta opción no es obligatoria, debe ser seleccionada solo si el dependiente se encuentra estudiando.
+    |Campo Identificador de la Carrera Dependiente|
 
-        |Checklist Estudiante Activo|
+    Imagen 120. Campo Identificador de la Carrera
 
-        Imagen 123. Checklist Estudiante Activo
+#. Seleccione en el campo "**Grado Académico**", el grado académico del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.
 
-    #. Tilde el checklist "**Becado**", si el dependiente que esta registrando se encuentra becado. Esta opción no es obligatoria, debe ser seleccionada solo si el dependiente se encuentra becado.
+    |Campo Grado Académico3|
 
-        |Checklist Becado|
+    Imagen 121. Campo Grado Académico
 
-        Imagen 124. Checklist Becado
+#. Seleccione en el campo "**Grado**", el grado de instrucción del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.
+
+    |Campo Grado Dependiente|
+
+    Imagen 122. Campo Grado Dependiente
+
+#. Tilde el checklist "**Estudiante Activo**", si el dependiente que esta registrando se encuentra cursando estudios en la actualidad. Esta opción no es obligatoria, debe ser seleccionada solo si el dependiente se encuentra estudiando.
+
+    |Checklist Estudiante Activo|
+
+    Imagen 123. Checklist Estudiante Activo
+
+#. Tilde el checklist "**Becado**", si el dependiente que esta registrando se encuentra becado. Esta opción no es obligatoria, debe ser seleccionada solo si el dependiente se encuentra becado.
+
+    |Checklist Becado|
+
+    Imagen 124. Checklist Becado
 
 .. warning::
 
@@ -1075,81 +1071,81 @@ La localización de un socio del negocio es muy importante para una empresa por 
 
     Imagen 125. Pestaña Localización
 
-    #. Seleccione en el campo "**Tipo de Contacto**", el tipo de contacto de la localización a registrar para el socio del negocio empleado. Para ejemplificar el registro es utilizada la opción "**Primaria**".
+#. Seleccione en el campo "**Tipo de Contacto**", el tipo de contacto de la localización a registrar para el socio del negocio empleado. Para ejemplificar el registro es utilizada la opción "**Primaria**".
 
-        |Campo Tipo de Contrato|
+    |Campo Tipo de Contrato|
 
-        Imagen 126. Campo Tipo de Contrato
+    Imagen 126. Campo Tipo de Contrato
 
-        .. note::
+    .. note::
 
-            En esta pestaña el campo "**Tipo de Contacto**" posee dos opciones, la opción "**Primaria**" se utiliza para registrar la dirección principal del socio del negocio empleado que esta registrando, esta opción también es utilizada para registrar la dirección de residencia o hospedaje temporal del empleado cuando el mismo posee otra dirección fija. En el caso de la dirección fija, la misma es registrada con la opción "**Emergencia**".
+        En esta pestaña el campo "**Tipo de Contacto**" posee dos opciones, la opción "**Primaria**" se utiliza para registrar la dirección principal del socio del negocio empleado que esta registrando, esta opción también es utilizada para registrar la dirección de residencia o hospedaje temporal del empleado cuando el mismo posee otra dirección fija. En el caso de la dirección fija, la misma es registrada con la opción "**Emergencia**".
 
-    #. Introduzca en el campo "**Persona de Contacto**", el nombre de la persona de contacto de la localización a registrar para el socio del negocio empleado.
+#. Introduzca en el campo "**Persona de Contacto**", el nombre de la persona de contacto de la localización a registrar para el socio del negocio empleado.
 
-        |Campo Persona de Contacto|
+    |Campo Persona de Contacto|
 
-        Imagen 127. Campo Persona de Contacto
+    Imagen 127. Campo Persona de Contacto
 
-    #. Seleccione en el campo "**Localización / Dirección**" con ayuda del identificador, la localización referente al tipo de contacto seleccionado.
+#. Seleccione en el campo "**Localización / Dirección**" con ayuda del identificador, la localización referente al tipo de contacto seleccionado.
 
-        |Campo Localización / Dirección|
+    |Campo Localización / Dirección|
 
-        Imagen 128. Campo Localización / Dirección
+    Imagen 128. Campo Localización / Dirección
 
-        #. Seleccione en el campo "**País**", el país donde se encuentra domiciliado el socio del negocio que esta registrando.
+    #. Seleccione en el campo "**País**", el país donde se encuentra domiciliado el socio del negocio que esta registrando.
 
-            |Campo País Localización|
+        |Campo País Localización|
 
-            Imagen 129. Campo País Localización
+        Imagen 129. Campo País Localización
 
-        #. Seleccione en el campo "**Estado**", el estado donde se encuentra domiciliado el socio del negocio que esta registrando.
+    #. Seleccione en el campo "**Estado**", el estado donde se encuentra domiciliado el socio del negocio que esta registrando.
 
-            |Campo Estado Localización|
+        |Campo Estado Localización|
 
-            Imagen 130. Campo Estado Localización
+        Imagen 130. Campo Estado Localización
 
-        #. Seleccione en el campo "**Ciudad**", la ciudad donde se encuentra domiciliado el socio del negocio que esta registrando.
+    #. Seleccione en el campo "**Ciudad**", la ciudad donde se encuentra domiciliado el socio del negocio que esta registrando.
 
-            |Campo Ciudad Localización|
+        |Campo Ciudad Localización|
 
-            Imagen 131. Campo Ciudad Localización
+        Imagen 131. Campo Ciudad Localización
 
-        #. Introduzca la dirección detallada del socio del negocio empleado en el campo "**Dirección 1**" y seleccione la opción "**OK**".
+    #. Introduzca la dirección detallada del socio del negocio empleado en el campo "**Dirección 1**" y seleccione la opción "**OK**".
 
-            |Campo Dirección 1 Localización|
+        |Campo Dirección 1 Localización|
 
-            Imagen 132. Campo Dirección 1 Localización
+        Imagen 132. Campo Dirección 1 Localización
 
-    #. Introduzca en el campo "**Teléfono**", el número de teléfono local de la dirección seleccionada.
+#. Introduzca en el campo "**Teléfono**", el número de teléfono local de la dirección seleccionada.
 
-        |Campo Teléfono Localización|
+    |Campo Teléfono Localización|
 
-        Imagen 133. Campo Teléfono
+    Imagen 133. Campo Teléfono
 
-    #. Introduzca en el campo "**Teléfono Móvil**", el número de teléfono móvil de la persona de contacto.
+#. Introduzca en el campo "**Teléfono Móvil**", el número de teléfono móvil de la persona de contacto.
 
-        |Campo Teléfono Móvil Localización|
+    |Campo Teléfono Móvil Localización|
 
-        Imagen 134. Campo Teléfono Móvil
+    Imagen 134. Campo Teléfono Móvil
 
-    #. Introduzca en el campo "**Teléfono Móvil**", el número de teléfono móvil alternativo de la persona de contacto.
+#. Introduzca en el campo "**Teléfono Móvil**", el número de teléfono móvil alternativo de la persona de contacto.
 
-        |Campo Teléfono Móvil Alternativo|
+    |Campo Teléfono Móvil Alternativo|
 
-        Imagen 135. Campo Teléfono Móvil Alternativo
+    Imagen 135. Campo Teléfono Móvil Alternativo
 
-    #. Introduzca en el campo "**Fax**", el fax de la persona de contacto.
+#. Introduzca en el campo "**Fax**", el fax de la persona de contacto.
 
-        |Campo Fax Localización|
+    |Campo Fax Localización|
 
-        Imagen 136. Campo Fax Localización
+    Imagen 136. Campo Fax Localización
 
-    #. Introduzca en el campo "**Email**", el email de la persona de contacto.
+#. Introduzca en el campo "**Email**", el email de la persona de contacto.
 
-        |Campo Email Localización|
+    |Campo Email Localización|
 
-        Imagen 137. Campo Email Localización
+    Imagen 137. Campo Email Localización
 
 #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere, para guardar los cambios realizados en la pestaña "**Localización**".
 
@@ -1173,89 +1169,89 @@ En esta pestaña se registra toda la información del socio del negocio empleado
 
     Imagen 139. Pestaña Detalle de Seguro
 
-    #. Seleccione en el campo "**Identificador del Tipo de Seguro**", el tipo de seguro que esta registrando al socio del negocio empleado. Para ejemplificar el registro es utilizado el tipo de seguro "**Seguro de Salud o Enfermedad_SS-100005**".
+#. Seleccione en el campo "**Identificador del Tipo de Seguro**", el tipo de seguro que esta registrando al socio del negocio empleado. Para ejemplificar el registro es utilizado el tipo de seguro "**Seguro de Salud o Enfermedad_SS-100005**".
 
-        |Campo Identificador del Tipo de Seguro|
+    |Campo Identificador del Tipo de Seguro|
 
-        Imagen 140. Campo Identificador del Tipo de Seguro
+    Imagen 140. Campo Identificador del Tipo de Seguro
 
-    #. Seleccione en el campo "**Período Nómina**", el período de la nómina. Para ejemplificar el registro es utilizado el período de nómina "**01/10/2019 Hacia 31/10/2019**".
+#. Seleccione en el campo "**Período Nómina**", el período de la nómina. Para ejemplificar el registro es utilizado el período de nómina "**01/10/2019 Hacia 31/10/2019**".
 
-        |Campo Período Nómina|
+    |Campo Período Nómina|
 
-        Imagen 141. Campo Período Nómina
+    Imagen 141. Campo Período Nómina
 
-    #. Introduzca en el campo "**Plan de Seguro**", el plan de seguro que esta registrando al socio del negocio empleado.
+#. Introduzca en el campo "**Plan de Seguro**", el plan de seguro que esta registrando al socio del negocio empleado.
 
-        |Campo Plan de Seguro|
+    |Campo Plan de Seguro|
 
-        Imagen 142. Campo Plan de Seguro
+    Imagen 142. Campo Plan de Seguro
 
-    #. Introduzca en el campo "**Referencia**", la referencia del seguro que esta registrando al socio del negocio empleado. Para ejemplificar el registro es utilizada la cédula del socio del negocio empleado.
+#. Introduzca en el campo "**Referencia**", la referencia del seguro que esta registrando al socio del negocio empleado. Para ejemplificar el registro es utilizada la cédula del socio del negocio empleado.
 
-        |Campo Referencia|
+    |Campo Referencia|
 
-        Imagen 143. Campo Referencia
+    Imagen 143. Campo Referencia
 
-    #. Seleccione en el campo "**Fecha Último Pago**", la fecha del último pago realizado al seguro.
+#. Seleccione en el campo "**Fecha Último Pago**", la fecha del último pago realizado al seguro.
 
-        |Campo Fecha Último Pago|
+    |Campo Fecha Último Pago|
 
-        Imagen 144. Campo Fecha Último Pago
+    Imagen 144. Campo Fecha Último Pago
 
-    #. Seleccione en el campo "**Frecuencia de Pago**", la frecuencia establecida para pagar el seguro.
+#. Seleccione en el campo "**Frecuencia de Pago**", la frecuencia establecida para pagar el seguro.
 
-        |Campo Frecuencia de Pago|
+    |Campo Frecuencia de Pago|
 
-        Imagen 145. Campo Frecuencia de Pago
+    Imagen 145. Campo Frecuencia de Pago
 
-    #. Seleccione en el campo "**Última Fecha de Prima**", la última fecha de pago de la prima.
+#. Seleccione en el campo "**Última Fecha de Prima**", la última fecha de pago de la prima.
 
-        |Campo Última Fecha de Prima|
+    |Campo Última Fecha de Prima|
 
-        Imagen 146. Campo Última Fecha de Prima
+    Imagen 146. Campo Última Fecha de Prima
 
-    #. Introduzca en el campo "**Nombre del Asegurador**", el nombre de la empresa que ofrece el seguro.
+#. Introduzca en el campo "**Nombre del Asegurador**", el nombre de la empresa que ofrece el seguro.
 
-        |Campo Nombre del Asegurador|
+    |Campo Nombre del Asegurador|
 
-        Imagen 147. Campo Nombre del Asegurador
+    Imagen 147. Campo Nombre del Asegurador
 
-    #. Seleccione en el campo "**Fecha de Pago**", la proxima fecha establecida para pagar el seguro.
+#. Seleccione en el campo "**Fecha de Pago**", la proxima fecha establecida para pagar el seguro.
 
-        |Campo Fecha de Pago|
+    |Campo Fecha de Pago|
 
-        Imagen 148. Campo Fecha de Pago
+    Imagen 148. Campo Fecha de Pago
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción del registro del seguro.
+#. Introduzca en el campo "**Descripción**", una breve descripción del registro del seguro.
 
-        |Campo Descripción3|
+    |Campo Descripción3|
 
-        Imagen 149. Campo Descripción
+    Imagen 149. Campo Descripción
 
-    #. Introduzca en el campo "**Monto de Prima**", el monto establecido para pagar frecuentemente. El valor de este campo varía según el asegurador y el contrato de seguro.
+#. Introduzca en el campo "**Monto de Prima**", el monto establecido para pagar frecuentemente. El valor de este campo varía según el asegurador y el contrato de seguro.
 
-        |Campo Monto de Prima|
+    |Campo Monto de Prima|
 
-        Imagen 150. Campo Monto de Prima
+    Imagen 150. Campo Monto de Prima
 
-    #. Introduzca en el campo "**Cantidad de Cobertura**", el monto total establecido por el seguro para la disposición del empleado cuando lo necesite. El valor de este campo varía según el asegurador y el contrato de seguro.
+#. Introduzca en el campo "**Cantidad de Cobertura**", el monto total establecido por el seguro para la disposición del empleado cuando lo necesite. El valor de este campo varía según el asegurador y el contrato de seguro.
 
-        |Campo Cantidad de Cobertura|
+    |Campo Cantidad de Cobertura|
 
-        Imagen 151. Campo Cantidad de Cobertura
+    Imagen 151. Campo Cantidad de Cobertura
 
-    #. Introduzca en el campo "**Cantidad Reclamada**", el monto total utilizado por el empleado.
+#. Introduzca en el campo "**Cantidad Reclamada**", el monto total utilizado por el empleado.
 
-        |Campo Cantidad Reclamada|
+    |Campo Cantidad Reclamada|
 
-        Imagen 152. Campo Cantidad Reclamada
+    Imagen 152. Campo Cantidad Reclamada
 
-    #. Podrá apreciar en el campo "**Saldo de Cuenta**", el monto total restante para la disposición del empleado cuando lo necesite. El valor de este campo es el resultante de la resta entre el valor del campo "**Cantidad de Cobertura**" y el valor del campo "**Cantidad Reclamada**".
+#. Podrá apreciar en el campo "**Saldo de Cuenta**", el monto total restante para la disposición del empleado cuando lo necesite. El valor de este campo es el resultante de la resta entre el valor del campo "**Cantidad de Cobertura**" y el valor del campo "**Cantidad Reclamada**".
 
-        |Campo Saldo de Cuenta|
+    |Campo Saldo de Cuenta|
 
-        Imagen 153. Campo Saldo de Cuenta
+    Imagen 153. Campo Saldo de Cuenta
 
 #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere para guardar el registro de la pestaña.
 
@@ -1309,9 +1305,9 @@ En esta pestaña se registran los diferentes permisos solicitados por el socio d
 
         De igual manera, los campos "**Permisos Usados**" y "**Última Fecha de Ejecución**" se definen como campos de sólo lectura y toman los valores desde la ventana "**Solicitud del Permiso**".
 
-            - **Permisos Usados**: Toma el valor "**1**" al completar el documento de la ventana "**Solicitud del Permiso**".
+        - **Permisos Usados**: Toma el valor "**1**" al completar el documento de la ventana "**Solicitud del Permiso**".
 
-            - "**Última Fecha de Ejecución**": Toma el valor ingresado en el campo "**Válido Desde**", de la ventana correspondiente al proceso "**Crear Permisos**", ubicado en la pestaña "**Detalle de Permiso**".
+        - "**Última Fecha de Ejecución**": Toma el valor ingresado en el campo "**Válido Desde**", de la ventana correspondiente al proceso "**Crear Permisos**", ubicado en la pestaña "**Detalle de Permiso**".
 
 #. Seleccione el icono "**Guardar Cambios**", para guardar el registro de la pestaña "**Detalle de Permiso**".
 

@@ -26,104 +26,104 @@ Cuando hablamos de tipo de aplicación en gestión contable, se refiere a la for
 
 Los tipos de aplicación de los cuales **ADempiere** le permite disponer, son los siguientes:
 
-    #. **Actual:** Se refiere a la contabilidad de gestión o real, su principal objetivo es medir resultados en tiempo real, y de esta forma se conoce el estado financiero actual de la empresa, esto garantiza la toma de decisiones acertadas.
-    
-        Este tipo de aplicación se base en la exposición del desempeño desde los registros transaccionales que causan los hechos contables de la empresa, como lo es:
+#. **Actual:** Se refiere a la contabilidad de gestión o real, su principal objetivo es medir resultados en tiempo real, y de esta forma se conoce el estado financiero actual de la empresa, esto garantiza la toma de decisiones acertadas.
 
-        #. **Documento por Pagar**
+    Este tipo de aplicación se base en la exposición del desempeño desde los registros transaccionales que causan los hechos contables de la empresa, como lo es:
 
-        #. **Documento por Cobrar**
+    #. **Documento por Pagar**
 
-        #. **Pagos**
+    #. **Documento por Cobrar**
 
-        #. **Cobros**
+    #. **Pagos**
 
-        #. **Entregas**
+    #. **Cobros**
 
-        #. **Recibos**
+    #. **Entregas**
 
-        #. **Conciliaciones Bancarias**
+    #. **Recibos**
 
-        #. **Nóminas**
+    #. **Conciliaciones Bancarias**
 
-        #. **Inventarios Físicos**
+    #. **Nóminas**
 
-        #. **Movimientos Contables**
+    #. **Inventarios Físicos**
 
-        #. **Producción**
+    #. **Movimientos Contables**
 
-        #. **Inventario de Uso Interno**
+    #. **Producción**
 
-        #. **Asignaciones de Pagos**
+    #. **Inventario de Uso Interno**
 
-        #. **Asignaciones de Inventario**
+    #. **Asignaciones de Pagos**
 
-        #. **Notas Contables**
+    #. **Asignaciones de Inventario**
 
-        El resultado con este tipo de aplicación, sería el siguiente:
+    #. **Notas Contables**
 
-        |Información Contable Actual|
+    El resultado con este tipo de aplicación, sería el siguiente:
 
-        Imagen 1. Información Contable Actual
+    |Información Contable Actual|
 
-        .. note::
+    Imagen 1. Información Contable Actual
 
-            El tipo de aplicación **actual**, es predeterminado en toda transacción realizada y reportes generados desde **ADempiere**.
+    .. note::
 
-    #. **Compromiso:** Se refiere a compromisos mutuos que asume o genera la empresa, generalmente asociados a un contrato o un documento que avala el mismo, como una orden de venta (**adquiere un compromiso con el cliente**) u orden de compra (**genera un compromiso con el proveedor**).
+        El tipo de aplicación **actual**, es predeterminado en toda transacción realizada y reportes generados desde **ADempiere**.
 
-        De esta manera al generar un documento que compromete el inventario por precios convenidos, se refleja en balance los activos o pasivos derivados de los registros transaccionales, como lo es:
+#. **Compromiso:** Se refiere a compromisos mutuos que asume o genera la empresa, generalmente asociados a un contrato o un documento que avala el mismo, como una orden de venta (**adquiere un compromiso con el cliente**) u orden de compra (**genera un compromiso con el proveedor**).
 
-        #. **Orden de Compra**
+    De esta manera al generar un documento que compromete el inventario por precios convenidos, se refleja en balance los activos o pasivos derivados de los registros transaccionales, como lo es:
 
-        #. **Orden de Venta**
+    #. **Orden de Compra**
 
-        El resultado con este tipo de aplicación, sería el siguiente:
+    #. **Orden de Venta**
 
-        |Información Contable Compromiso|
+    El resultado con este tipo de aplicación, sería el siguiente:
 
-        Imagen 2. Información Contable Compromisos
+    |Información Contable Compromiso|
 
-    #. **Estadística:** Se refiere a registros contables basados en cálculos estadísticos, que establecen un análisis de criterios económicos predictivo y confiable, generalmente es utilizada para medir varianza de costos en producción.
+    Imagen 2. Información Contable Compromisos
 
-        Permite comparar resultados del pasado en la empresa con los obtenidos en la actualidad, como por ejemplo, comparar ingresos obtenidos en una estadística anual, también, establece resultados que ayudan a :ref:`documento/informe-financiero` para toma de decisiones.
+#. **Estadística:** Se refiere a registros contables basados en cálculos estadísticos, que establecen un análisis de criterios económicos predictivo y confiable, generalmente es utilizada para medir varianza de costos en producción.
 
-        Este tipo de aplicación no compromete cuentas reales, ni cuentas nominales, **genera hechos contables referenciales** derivados de los registros transaccionales, como lo es:
+    Permite comparar resultados del pasado en la empresa con los obtenidos en la actualidad, como por ejemplo, comparar ingresos obtenidos en una estadística anual, también, establece resultados que ayudan a :ref:`documento/informe-financiero` para toma de decisiones.
 
-        #. **Nota Contable**
+    Este tipo de aplicación no compromete cuentas reales, ni cuentas nominales, **genera hechos contables referenciales** derivados de los registros transaccionales, como lo es:
 
-        El resultado con este tipo de aplicación sería el siguiente asiento:
+    #. **Nota Contable**
 
-        |Información Contable Estadística|
+    El resultado con este tipo de aplicación sería el siguiente asiento:
 
-        Imagen 3. Información Contable Estadística
+    |Información Contable Estadística|
 
-    #. **Presupuesto:** Se refiere a registros contables basados en una predicción de los resultados y el flujo de caja que se espera obtener en el futuro periodo fiscal.
+    Imagen 3. Información Contable Estadística
 
-        Este tipo de aplicación estima generalmente cuentas reales y nominales, emitiendo una visión con respecto a la utilidad o perdida del periodo fiscal venidero, se convierte entonces en el objetivo que la empresa espera cumplir.
+#. **Presupuesto:** Se refiere a registros contables basados en una predicción de los resultados y el flujo de caja que se espera obtener en el futuro periodo fiscal.
 
-        Este tipo de aplicación no compromete cuentas reales, ni cuentas nominales, **genera hechos contables referenciales** derivados de los registros transaccionales, como lo es:
+    Este tipo de aplicación estima generalmente cuentas reales y nominales, emitiendo una visión con respecto a la utilidad o perdida del periodo fiscal venidero, se convierte entonces en el objetivo que la empresa espera cumplir.
 
-        #. **Nota Contable**
+    Este tipo de aplicación no compromete cuentas reales, ni cuentas nominales, **genera hechos contables referenciales** derivados de los registros transaccionales, como lo es:
 
-        El resultado con este tipo de aplicación sería el siguiente asiento:
+    #. **Nota Contable**
 
-        |Información Contable Presupuesto|
+    El resultado con este tipo de aplicación sería el siguiente asiento:
 
-        Imagen 4. Información Contable Presupuesto
+    |Información Contable Presupuesto|
 
-    #. **Reserva:** Se refiere a reservas realizadas previendo contingencias en contabilidad, este tipo de pasivos es una posible obligación y es considerada un provisión que tiene fundamentos en experiencias pasadas.
+    Imagen 4. Información Contable Presupuesto
 
-        La contabilidad en esta aplicación genera incertidumbre porque alude a una advertencia en la operatividad, un ejemplo de ello podría ser, estimar la compra de un inventario que funge como insumo para la producción.
+#. **Reserva:** Se refiere a reservas realizadas previendo contingencias en contabilidad, este tipo de pasivos es una posible obligación y es considerada un provisión que tiene fundamentos en experiencias pasadas.
 
-        Estos pasivos son generados como una provisión, generando un hecho contable que estima una compra derivada del registro transaccional:
+    La contabilidad en esta aplicación genera incertidumbre porque alude a una advertencia en la operatividad, un ejemplo de ello podría ser, estimar la compra de un inventario que funge como insumo para la producción.
 
-        #. **Requisión a Compra**
+    Estos pasivos son generados como una provisión, generando un hecho contable que estima una compra derivada del registro transaccional:
 
-        El resultado con este tipo de aplicación sería el siguiente asiento:
+    #. **Requisión a Compra**
 
-        |Información Contable Reserva|
+    El resultado con este tipo de aplicación sería el siguiente asiento:
 
-        Imagen 5. Información Contable Reserva
+    |Información Contable Reserva|
+
+    Imagen 5. Información Contable Reserva
 
 Esta funcionalidad complementa a **ADempiere**, permitiendo a la directiva de la empresa establecer una visión versátil, emitiendo resultados con múltiples escenarios, si quieres conocer más de :ref:`src/adempiere/performance-analysis`, visita nuestra plataforma de aprendizaje.
