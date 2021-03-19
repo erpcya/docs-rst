@@ -170,7 +170,7 @@ htmlhelp_basename = 'DocsErpya'
     # Latex figure (float) alignment
     #
     # 'figure_align': 'htbp',
-}
+# }
 
 
 locale_dirs = ['locale/']
