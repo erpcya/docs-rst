@@ -1,7 +1,6 @@
 
 \usepackage{alphalph}
 \usepackage{enumitem}
-\usepackage{arabic}
 
 \makeatletter
 \newcommand{\AlphAlphFmt}[1]{\@alphfmt{#1}}  % Define the \AlphAlph wrapper for enumitem 
@@ -11,7 +10,9 @@
 
 \newlist{mcenum}{enumerate}{2}
 \setlist[mcenum,1]{label={(\AlphAlphFmt*)}}
-
+\setlist [enumerate, 1] {label = \ arabic *.}
+\setlist [enumerate, 2] {label = \ alph *.}
+\setlistdepth{99}
 
 \usepackage{pgffor}
 \usepackage{multicol}
