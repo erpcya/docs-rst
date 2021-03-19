@@ -6,9 +6,9 @@ name: docs-deploy
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ 09/12/2020 ]
   pull_request:
-    branches: [ master ]
+    branches: [ 09/12/2020 ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -21,10 +21,10 @@ jobs:
         pre-build-command: "pip install sphinx_rtd_theme"
         docs-folder: "src/"
         build-command: "sphinx-build -b html . _build/html"
-    - uses: actions/upload-artifact@v1
-      with:
-        name: DocumentationHTML
-        path: src/_build/html/
+#    - uses: actions/upload-artifact@v1
+#      with:
+#        name: DocumentationHTML
+#        path: src/_build/html/
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"

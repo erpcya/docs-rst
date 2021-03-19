@@ -39,9 +39,9 @@
 
 Para realizar una "**Selección de Pago**" la cual se encarga de definir de qué cuenta bancaria de la compañía saldrán los pagos pendientes a proveedores se deben realizar los siguientes pasos:
 
-    .. note:: 
+.. note:: 
 
-        Es muy importante tener en cuenta que para poder seguir el paso a paso que se detalla a continuación se debe tener previamente cargada en ADempiere la "**Orden de Pago**" si no se encuentra cargado en ADempiere pueden consultar el instructivo :ref:`documento/orden-de-pago` o :ref:`documento/orden-de-pago-desde-orden`
+    Es muy importante tener en cuenta que para poder seguir el paso a paso que se detalla a continuación se debe tener previamente cargada en ADempiere la "**Orden de Pago**" si no se encuentra cargado en ADempiere pueden consultar el instructivo :ref:`documento/orden-de-pago` o :ref:`documento/orden-de-pago-desde-orden`
 
 #. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la ventana "**Selección de Pagos**".
 
@@ -117,75 +117,75 @@ Para realizar una "**Selección de Pago**" la cual se encarga de definir de qué
 
     Imagen 11. Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-    #. Los campos a visualizar en el smart browser son los siguientes:
+#. Los campos a visualizar en el smart browser son los siguientes:
 
-        #. Campo "**Selección de Pago**", permite filtrar la búsqueda por la orden de pago previamente realizada. Para este caso seleccione el criterio de búsqueda "**Selección de Pago**" para ubicar las "**Orden de Pago**" la cual tiene los documentos que necesitan ser cancelados.
+    #. Campo "**Selección de Pago**", permite filtrar la búsqueda por la orden de pago previamente realizada. Para este caso seleccione el criterio de búsqueda "**Selección de Pago**" para ubicar las "**Orden de Pago**" la cual tiene los documentos que necesitan ser cancelados.
 
-            Al desplegar el campo "**Selección de Pago**" podrá observar las "**Órdenes de Pago**" qué se encuentran en estado completo, o también las "**Órdenes de Pago**" que los documentos que posee aún no se encuentran asociados en su totalidad con una orden "**Selección de Pago**" ya que dependiendo de la forma de pago y el saldo con el que cuente el banco asociado a la selección de pago en la ventana padre se decide cuales son los documentos que serán cancelados por ese banco.
+        Al desplegar el campo "**Selección de Pago**" podrá observar las "**Órdenes de Pago**" qué se encuentran en estado completo, o también las "**Órdenes de Pago**" que los documentos que posee aún no se encuentran asociados en su totalidad con una orden "**Selección de Pago**" ya que dependiendo de la forma de pago y el saldo con el que cuente el banco asociado a la selección de pago en la ventana padre se decide cuales son los documentos que serán cancelados por ese banco.
 
-            |Campo Selección de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+        |Campo Selección de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-            Imagen 12. Campo Selección de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+        Imagen 12. Campo Selección de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-        #. Campo "**Socio del Negocio**", permite filtrar la búsqueda por el socio del negocio seleccionado.
+    #. Campo "**Socio del Negocio**", permite filtrar la búsqueda por el socio del negocio seleccionado.
 
-            |Campo Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+        |Campo Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-            Imagen 13. Campo Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+        Imagen 13. Campo Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-        #. Campo "**Factura**", permite filtrar la búsqueda por la factura previamente realizada.
+    #. Campo "**Factura**", permite filtrar la búsqueda por la factura previamente realizada.
 
-            Es decir al colocar una factura en específico en el campo "**Factura**", ADempiere traerá la **"Orden de Pago"** que ese asociada a esa factura.
+        Es decir al colocar una factura en específico en el campo "**Factura**", ADempiere traerá la **"Orden de Pago"** que ese asociada a esa factura.
 
-            |Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+        |Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-            Imagen 14. Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+        Imagen 14. Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-        #. Campo "**Regla de Pago**", permite filtrar la búsqueda de los documentos que posean la regla de pago seleccionada y que se encuentren asociada a una **"Orden de Pago"**.
+    #. Campo "**Regla de Pago**", permite filtrar la búsqueda de los documentos que posean la regla de pago seleccionada y que se encuentren asociada a una **"Orden de Pago"**.
 
-            |Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+        |Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-            Imagen 15. Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+        Imagen 15. Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-        #. Campo "**Orden de Venta**", permite filtrar la búsqueda por la orden de venta previamente realizada.
+    #. Campo "**Orden de Venta**", permite filtrar la búsqueda por la orden de venta previamente realizada.
 
-            Es decir al colocar una orden en específico en el campo "**Orden de Venta**", ADempiere traerá las ordenes que se encuentren asociada a una **"Orden de Pago"**.
+        Es decir al colocar una orden en específico en el campo "**Orden de Venta**", ADempiere traerá las ordenes que se encuentren asociada a una **"Orden de Pago"**.
 
-            |Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+        |Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-            Imagen 16. Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+        Imagen 16. Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-        #. Campo "**Cargo**", permite filtrar la búsqueda por el cargo previamente seleccionado en la factura.
+    #. Campo "**Cargo**", permite filtrar la búsqueda por el cargo previamente seleccionado en la factura.
 
-            |Campo Cargo de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+        |Campo Cargo de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-            Imagen 17. Campo Cargo de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+        Imagen 17. Campo Cargo de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-    #. Dependiendo del criterio de búsqueda seleccionado tilde la opción "**Comenzar Búsqueda**", para ubicar los documentos los cuales pertenecerán a la selección de pagos para ser cancelados.
+#. Dependiendo del criterio de búsqueda seleccionado tilde la opción "**Comenzar Búsqueda**", para ubicar los documentos los cuales pertenecerán a la selección de pagos para ser cancelados.
 
-        |Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+    |Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-        Imagen 18. Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+    Imagen 18. Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-    #. Al tildar la opción "**Comenzar Búsqueda**", se desplegará en la parte inferior de la ventana los documentos asociados a la "**Orden de Pagos**" seleccionada anteriormente.
+#. Al tildar la opción "**Comenzar Búsqueda**", se desplegará en la parte inferior de la ventana los documentos asociados a la "**Orden de Pagos**" seleccionada anteriormente.
 
-        |Listado de Documento por Pagar de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+    |Listado de Documento por Pagar de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-        Imagen 19. Listado de Documento por Pagar de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+    Imagen 19. Listado de Documento por Pagar de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-    #. Seleccione los documentos que deseen asociar a la "**Selección de Pago**". 
+#. Seleccione los documentos que deseen asociar a la "**Selección de Pago**". 
 
-        La selección de los documentos dependerá de la toma de decisión que tenga el personal de tesorería, ya que dependiendo del banco asociado a la selección de pago ellos sabrán qué documentos podrán ser cancelados por ese banco y la regla de pago con la que contará ya que estos deben ser agrupados sí los pagos serán por transferencia solo se deben seleccionar los documentos que se les generarán los pagos por transferencia (Débito Directo) sí en tal caso serán cancelados por cheques deben ser seleccionado solo los que serán cancelados por esa regla de pago; si los documentos asociados a la "**Orden de Pago**" no son seleccionados en su totalidad para esta selección de pago, estos pueden ser asociados en otra seleccion de pago. 
-        
-        |Seleccionar Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+    La selección de los documentos dependerá de la toma de decisión que tenga el personal de tesorería, ya que dependiendo del banco asociado a la selección de pago ellos sabrán qué documentos podrán ser cancelados por ese banco y la regla de pago con la que contará ya que estos deben ser agrupados sí los pagos serán por transferencia solo se deben seleccionar los documentos que se les generarán los pagos por transferencia (Débito Directo) sí en tal caso serán cancelados por cheques deben ser seleccionado solo los que serán cancelados por esa regla de pago; si los documentos asociados a la "**Orden de Pago**" no son seleccionados en su totalidad para esta selección de pago, estos pueden ser asociados en otra seleccion de pago. 
+    
+    |Seleccionar Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-        Imagen 20. Seleccionar Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+    Imagen 20. Seleccionar Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-    #. Seleccione la opción "**OK**", para cargar a la pestaña "**Línea de Selección de Pago**" la información de la solicitud de pago realizada anteriormente.
+#. Seleccione la opción "**OK**", para cargar a la pestaña "**Línea de Selección de Pago**" la información de la solicitud de pago realizada anteriormente.
 
-        |Opción OK de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+    |Opción OK de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-        Imagen 21. Opción OK de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+    Imagen 21. Opción OK de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
 #. Seleccione el icono "**Refrescar**", ubicado en la barra de herramientas de ADempiere para refrescar la ventana y pueda visualizar la información cargada desde la opción "**Crear Desde Selección de Pago**".
 
@@ -235,29 +235,29 @@ Para realizar una "**Selección de Pago**" la cual se encarga de definir de qué
 
         ADempiere cuenta cuenta con cinco (5) reglas de pagos, las cuales debe ser utilizadas de las siguientes manera:
 
-            Para lo pagos que serán generados a través de transferencia bancarias se deben tildar las siguientes reglas de pago:
+        Para lo pagos que serán generados a través de transferencia bancarias se deben tildar las siguientes reglas de pago:
 
-                - A crédito.
-                - Débito directo.
-                - Depósito directo.
+        - A crédito.
+        - Débito directo.
+        - Depósito directo.
 
-            Para los pagos que serán generados a través de cheques o tarjetas se deben utilizar las siguientes reglas de pago:
-        
-                - A crédito.
-                - Cheque.
-                - Tarjeta de crédito.
+        Para los pagos que serán generados a través de cheques o tarjetas se deben utilizar las siguientes reglas de pago:
+
+        - A crédito.
+        - Cheque.
+        - Tarjeta de crédito.
  
         En una "**Selección de Pagos de Cuentas por Pagar**" no se pueden mezclar los métodos de pagos es decir, si los pagos a realizar son solo transferencia bancaria solamente se deben seleccionar los documentos que se les realizará  los pagos por transferencia bancaria y asociar las reglas de pagos correspondientes, si los pagos a generar son a través de cheques o tarjetas sólo se deben crear una selección de pagos para este método de pago,  no se pueden asociar asociar un método de pago de transferencia con cheques ya que esto alteraría el proceso de :ref:`documento/Imprimir-Exportar`
 
-	    |Regla de Pago del Documento Registro desde Selección de Pago|
-	
-	    Imagen 27. Regla de Pago del Documento Registro desde Selección de Pago
+        |Regla de Pago del Documento Registro desde Selección de Pago|
+
+        Imagen 27. Regla de Pago del Documento Registro desde Selección de Pago
 
     #. El Checklist "**Anticipo**" aparecerá tildado cuando el documento que se encuentre en la línea sea una orden de compra, de lo contrario no aparecerá tildado.
 
-	    |Checklist Anticipo del Documento Registro desde Selección de Pago|
+        |Checklist Anticipo del Documento Registro desde Selección de Pago|
 
-	    Imagen 28. Checklist Anticipo del Documento Registro desde Selección de Pago
+        Imagen 28. Checklist Anticipo del Documento Registro desde Selección de Pago
 
     #. En el campo "**Total del Pago**" debe aparecer el monto a pagar del documento asociado a la línea, el monto a mostrar es el mismo que fue establecido en la "**Orden de Pago**"
             

@@ -258,6 +258,7 @@ Las imágenes pueden ser llamadas en la documentación de dos (2) formas:
 "**Ejemplo de ruta de la imagen**":
 
     ``.. |Inicio de Sesión en GitHub| image:: img/img1.png``
+
     ``.. |Perfil de ERPyA en GitHub| image:: img/img2.png``
 
 .. note::
