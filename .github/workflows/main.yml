@@ -50,12 +50,16 @@ jobs:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> Update main.yml
         name: DocumentationPDF
         path: src/_build/latex/erpya.pdf
 =======
         name: Documentation
         path: src/_build/latex/ERPYA.pdf
 >>>>>>> Update main.yml
+<<<<<<< HEAD
 =======
         name: Documentation
         path: src/_build/latex/ERPYA.pdf
@@ -63,6 +67,8 @@ jobs:
 =======
         name: DocumentationPDF
         path: src/_build/latex/erpya.pdf
+>>>>>>> Update main.yml
+=======
 >>>>>>> Update main.yml
     - name: Commit documentation changes
       run: |
