@@ -32,8 +32,13 @@ jobs:
         docs-folder: "src/"
     - uses: actions/upload-artifact@v1
       with:
+<<<<<<< HEAD
         name: DocumentationPDF
         path: src/_build/latex/erpya.pdf
+=======
+        name: Documentation
+        path: src/_build/latex/ERPYA.pdf
+>>>>>>> Update main.yml
     - name: Commit documentation changes
       run: |
         git clone https://github.com/erpcya/docs.git --branch gh-pages --single-branch gh-pages
