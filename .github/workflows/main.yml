@@ -41,8 +41,13 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
 <<<<<<< HEAD
+<<<<<<< HEAD
         name: DocumentationPDF
         path: src/_build/latex/erpya.pdf
+=======
+        name: Documentation
+        path: src/_build/latex/ERPYA.pdf
+>>>>>>> Update main.yml
 =======
         name: Documentation
         path: src/_build/latex/ERPYA.pdf
