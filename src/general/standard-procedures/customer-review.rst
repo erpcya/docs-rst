@@ -10,9 +10,9 @@
 **Revisión de Cambios con cliente**      
 ===================================
 
-   |Reunión| 
+    |Reunión| 
 
-   Imagen 1. Reunión
+    Imagen 1. Reunión
 
 
 **Justificación**
@@ -70,9 +70,9 @@ Ahora bien, ¿Qué significa esto?
 
 - **T** (Time-related) – **A Tiempo:** La estimación de tiempo debe ser limitada, con base en los resultados esperados, establecer una fecha límite permite evaluar el cumplimiento. 
 
- |Smart|
+    |Smart|
 
- Imagen 2. Smart
+    Imagen 2. Smart
 
 Para el cumpliento de la metodología y definición de objetivos inteligentes,se deben plantear las siguientes interrogantes para cada una de las cinco caracteristicas:
 
@@ -155,18 +155,24 @@ Posterior a la definición de la propuesta por parte de Soporte, :ref:`documento
 ^^^^^^^^^^^^^^
 
 - **Soporte:** El Soporte solicitará en un comentario la aprobación de la tarea mediante un comentario realizando una pregunta concreta:
+
    - **¿Está de acuerdo con el cambio propuesto?**
+
    - Asigna la tarea al Aprobador.
 
 - **Aprobador:** El aprobador responderá la tarea aprobando la solución planteada con una respuesta concreta:
+
    - **Estoy de acuerdo con el cambio propuesto**
+
    - Caso contrario, no será válida la aprobación del cambio, en consecuencia no iniciará el desarrollo hasta no aprobar siguiendo el protocolo.
 
 **Rechazo**
 ^^^^^^^^^^^
 
 - **Soporte:** El Soporte solicitará en un comentario la aprobación de la tarea mediante un comentario realizando una pregunta concreta:
+
    - **¿Está de acuerdo con el cambio propuesto?**
+
    - Asigna la tarea al Aprobador.
 
 - **Aprobador:** El aprobador responderá la tarea rechazando la solución planteada, indicando la causa por la cual no es valida, en tal sentido será necesaria la especificación o de ser necesaria la redefinición del requerimiento, preveendo la transparencia del mismo, este caso conlleva a la re-definición de la propuesta por parte de Soporte, :ref:`documento/definición-de-la-solución`, volviendo a iterar en el proceso de definición hasta conseguir la aprobación que da paso a la siguiente etapa.

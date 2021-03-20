@@ -18,11 +18,8 @@
 .. |Búsqueda| image:: resources/pay-selection-init-search.png
 .. |OK| image:: resources/loan-ok-icon.png
 .. |cancelar| image:: resources/loan-cancel-icon.png  
- 
-
 
 .. _documento/generar-factura-préstamo:
-
 
 **Generar Factura desde Préstamo**
 ==================================
@@ -43,100 +40,98 @@ Sin embargo existen casos en los cuales el solicitante retarda la cancelación d
 **Interpretando la Ventana**
 ============================
 
-Panel de Parámetros de **Consulta de Amortización:** En este panel dispone de los parámetros que serán de filtro para consultar las cuotas pendientes por Facturar.
+- Panel de Parámetros de **Consulta de Amortización:** En este panel dispone de los parámetros que serán de filtro para consultar las cuotas pendientes por Facturar.
 
- |Consulta de Amortización|
+    |Consulta de Amortización|
 
- Imagen 1. Consulta de Amortización
+    Imagen 1. Consulta de Amortización
 
-Panel de resultados **Para Selección de Cuotas**: En este panel seleccionará las cuotas pendientes por Facturar.
+- Panel de resultados **Para Selección de Cuotas**: En este panel seleccionará las cuotas pendientes por Facturar.
 
- |Para Selección de Cuotas|
- 
- Imagen 2. Para Selección de Cuotas
+    |Para Selección de Cuotas|
 
-Panel de **Datos para Generar la Factura**: En este panel indicará los datos para generar la factura.
+    Imagen 2. Para Selección de Cuotas
 
- |Interpretando la Ventana|
+- Panel de **Datos para Generar la Factura**: En este panel indicará los datos para generar la factura.
 
- Imagen 3. Interpretando la Ventana
+    |Interpretando la Ventana|
+
+    Imagen 3. Interpretando la Ventana
 
 **Generar Factura desde Préstamo**
 ==================================
-
-**Generar Factura desde Préstamo**
 
 Se creó un Smart Browser permitiendo al usuario seleccionar múltiples cuotas de un préstamo en específico y generar de manera eficiente y segura, agrupando varias cuotas en una factura, ó discriminando por cuota si el usuario así lo desea de esta forma será generada una factura por cuota.
 
 Vaya a la ventana Generar Factura (Desde Préstamo) (Adjunto Imagen)
 
- |Menú de Factura|
+    |Menú de Factura|
 
- Imagen 4. Menú de Factura
+    Imagen 4. Menú de Factura
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
- |Generar Factura|
+    |Generar Factura|
 
- Imagen 5. Generar Factura
+    Imagen 5. Generar Factura
 
-Proceda a llenar los Parámetros de **Consulta de Cuotas** necesarios para generar la factura:
+Proceda a llenar los parámetros de **Consulta de Cuotas** necesarios para generar la factura:
 
-**Socio de Negocio:** Es un parámetro obligatorio, filtrará los préstamos pendientes por cobrar con el Socio del Negocio indicado.
+    - **Socio de Negocio:** Es un parámetro obligatorio, filtrará los préstamos pendientes por cobrar con el Socio del Negocio indicado.
 
-**Acuerdo Financiero(Préstamo):** Es un parámetro obligatorio, filtrará las cuotas pendientes por cobrar del Préstamos indicado.
+    - **Acuerdo Financiero(Préstamo):** Es un parámetro obligatorio, filtrará las cuotas pendientes por cobrar del Préstamos indicado.
 
-**Fecha Inicio:** filtrará las cuotas pendientes por cobrar en el Rango de fecha indicada.
+    - **Fecha Inicio:** filtrará las cuotas pendientes por cobrar en el Rango de fecha indicada.
 
-**Fecha Final:** filtrará las cuotas pendientes por cobrar en el Rango de fecha indicada.
+    - **Fecha Final:** filtrará las cuotas pendientes por cobrar en el Rango de fecha indicada.
 
-**Fecha de Vencimiento:** filtrará las cuotas pendientes por cobrar en el Rango de fecha indicada.
+    - **Fecha de Vencimiento:** filtrará las cuotas pendientes por cobrar en el Rango de fecha indicada.
 
-Vencido: Si selecciona la opción SI, filtrará las cuotas vencidas, Si selecciona la opción NO, filtrará las cuotas no vencidas.
+    - **Vencido:** Si selecciona la opción **SI**, filtrará las cuotas vencidas, si selecciona la opción **NO**, filtrará las cuotas no vencidas.
 
-**Seleccione la opción comenzar búsqueda** 
+    - **Seleccione la opción comenzar búsqueda** 
 
- |Búsqueda|
+        |Búsqueda|
 
- Imagen 6. Búsqueda
+        Imagen 6. Búsqueda
 
-A continuación verá los siguientes resultados:
+    A continuación verá los siguientes resultados:
 
- |Comenzar Búsqueda|
+        |Comenzar Búsqueda|
 
- Imagen 7. Comenzar Búsqueda
+        Imagen 7. Comenzar Búsqueda
 
-Seleccione la cuota que desea facturar:
+    Seleccione la cuota que desea facturar:
 
- |Resultado de Búsqueda|
+        |Resultado de Búsqueda|
 
- Imagen 8. Resultado de Búsqueda
+        Imagen 8. Resultado de Búsqueda
 
-Proceda a llenar los ***Datos para Generar la Factura***.
+Proceda a llenar los **Datos para Generar la Factura**.
 
- |Llenando Datos|
+    |Llenando Datos|
 
- Imagen 9. Llenando Datos
+    Imagen 9. Llenando Datos
 
-**Tipo de Documento Destino:** Seleccione el tipo de Documento con el que desea sea generada el Documento por Cobrar.
+    - **Tipo de Documento Destino:** Seleccione el tipo de Documento con el que desea sea generada el Documento por Cobrar.
 
-**Fecha de Facturación:** Indique la fecha en la cual será facturada la cuota.
+    - **Fecha de Facturación:** Indique la fecha en la cual será facturada la cuota.
 
-**Dividir Factura:** Esta opción debe ser marcada si desea dividir las facturas por cuota, de lo contrario se generará una factura consolidada con las cuotas seleccionadas.
+    - **Dividir Factura:** Esta opción debe ser marcada si desea dividir las facturas por cuota, de lo contrario se generará una factura consolidada con las cuotas seleccionadas.
 
-**Acción de Documento:** Indique la acción de documento con la cual desea generar la selección.
+    - **Acción de Documento:** Indique la acción de documento con la cual desea generar la selección.
 
- |Datos para Facturar|
+    |Datos para Facturar|
 
- Imagen 10. Datos para Facturar
+    Imagen 10. Datos para Facturar
 
 Si desea generar la selección de pago seleccione la opción ok |OK|, caso contrario seleccione la opción cancelar |cancelar|
 
 Si seleccionó la opción OK el sistema generará la(s) factura(s) de forma exitosa generando el siguiente mensaje indicando el número(s) de la(s) factura(s) generada.
 
- |Documentos Generados|
+    |Documentos Generados|
 
- Imagen 11. Documentos Generados
+    Imagen 11. Documentos Generados
 
 **Consulta de Factura de Préstamo**
 ===================================
@@ -147,27 +142,27 @@ Ventanas en Documento por Cobrar
 
 Vaya a la ventana Documento por Cobrar (Adjunto Imagen)
 
- |Factura|
+    |Factura|
 
- Imagen 12. Menú de Factura
+    Imagen 12. Menú de Factura
 
 A continuación se desplegará la siguiente ventana (Adjunto Imagen).
 
- |Ventana de Factura|
+    |Ventana de Factura|
 
- Imagen 13. Ventana de Factura
+    Imagen 13. Ventana de Factura
 
 Busque el registro desde la opción “**Encontrar Registro**” ubicada en la barra de herramientas.
 
- |Buscar Factura|
+    |Buscar Factura|
 
- Imagen 14. Buscar Factura
+    Imagen 14. Buscar Factura
 
 A continuación se desplegará el siguiente dialogo
 
- |Diálogo de Búsqueda|
+    |Diálogo de Búsqueda|
 
- Imagen 15. Diálogo de Búsqueda
+    Imagen 15. Diálogo de Búsqueda
 
 Ingrese el número de la selección generada en el proceso **Generar Factura (Desde Préstamo)**
 
@@ -177,34 +172,34 @@ Una vez en la ventana de Préstamo
 
 Vaya a la opción “**Visualiza Detalle(Donde es Usado)**” ubicada en la barra de herramientas.
 
- |Referencias de Factura|
+    |Referencias de Factura|
 
- Imagen 16. Referencias de Factura
+    Imagen 16. Referencias de Factura
 
 A continuación se desplegará el siguiente dialogo
 
- |Lista de Referencias|
+    |Lista de Referencias|
 
- Imagen 17. Lista de Referencias
+    Imagen 17. Lista de Referencias
 
 Seleccione la opción “**Documento por Cobrar de Cuota**”
 
- |Lista de Referencias Seleccionadas|
+    |Lista de Referencias Seleccionadas|
 
- Imagen 18. Lista de Referencias Seleccionadas
+    Imagen 18. Lista de Referencias Seleccionadas
 
 Esta opción lo llevará automáticamente a los pagos asociados a este préstamo.
 
 **Contabilidad del Proceso**
 ============================
 
-ADempiere contabilizará el Documento por Cobrar dependiendo de la definición del producto financiero (**Vea Configuración de Producto Financiero (Préstamo)**), a continuación se detalla:
+ADempiere contabilizará el documento por cobrar dependiendo de la definición del producto financiero (**Vea Configuración de Producto Financiero (Préstamo)**), a continuación se detalla:
 
-**Capital:** Contabilidad definida en el producto asociado en producto financiero.
+- **Capital:** Contabilidad definida en el producto asociado en producto financiero.
 
-**Interés:** Contabilidad definida en el cargo asociado en la tasa financiera relacionada en el producto financiero.
+- **Interés:** Contabilidad definida en el cargo asociado en la tasa financiera relacionada en el producto financiero.
 
-**IVA:** Contabilidad definida en la tasa de impuesto asociada en el cargo perteneciente a la tasa financiera relacionada en el producto financiero.
+- **IVA:** Contabilidad definida en la tasa de impuesto asociada en el cargo perteneciente a la tasa financiera relacionada en el producto financiero.
 
 .. raw:: html
 

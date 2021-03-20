@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 {% set title = 'Download' %}
-{% set url = 'https://docs.erpya.com/download/%s.%s' %}
+{% set url = 'https://github.com/erpcya/docs/%s/erpcya/%s/erpcya.%s' %}
 {% if git_branch == 'master' %}
   {% set rtd_ver = 'latest' %}
 {% else %}
@@ -10,12 +10,20 @@
 {% block body %}
 <h1>Descargar Documentación de ADempiere {{ release }} </h1>
 
-<p> Seleccione para Descargar </p>
+<p>Para descargar un archivo que contenga todos los documentos para esta versión de ADempiere en uno de varios formatos, siga uno de los enlaces de esta tabla.</p>
 
 <table class="docutils">
-
+  <tr>
+     <td>PDF (A4 paper size)</td>
+     <td><a href="{{ url|format('pdf', rtd_ver, 'pdf') }}">Descargar</a> (~1 MB)</td>
+  </tr>
+  <tr>
+     <td>HTML</td>
+     <td><a href="{{ url|format('htmlzip', rtd_ver, 'zip') }}">Descargar</a> (~5 MB)</td>
+  </tr>
+  <tr>
     <td>EPUB</td>
-    <td><a href="{{ url|format('ERPYA', 'epub') }}">Descargar</a> (~150 MB)</td>
+    <td><a href="{{ url|format('epub', rtd_ver, 'epub') }}">Descargar</a> (~1 MB)</td>
   </tr>
 </table>
 
