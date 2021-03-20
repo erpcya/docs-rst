@@ -21,22 +21,22 @@ jobs:
         pre-build-command: "pip install sphinx_rtd_theme"
         docs-folder: "src/"
         build-command: "sphinx-build -b html . _build/html"
-#    - uses: actions/upload-artifact@v1
-#      with:
-#        name: DocumentationHTML
-#        path: src/_build/html/
+    - uses: actions/upload-artifact@v1
+      with:
+        name: DocumentationHTML
+        path: src/_build/html/
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
         build-command: "make latexpdf"
         docs-folder: "src/"
-#    - uses: actions/upload-artifact@v1
-#      with:
-#        name: Documentation
-#        path: src/_build/latex/pdfexample.pdf
+    - uses: actions/upload-artifact@v1
+      with:
+        name: Documentation
+        path: src/_build/latex/pdfexample.pdf
     - name: Commit documentation changes
       run: |
-        git clone https://github.com/raul-mz/docs-2.git --branch gh-pages --single-branch gh-pages
+        git clone https://github.com/TaniaLucena/docs-1.git --branch gh-pages --single-branch gh-pages
         cp -r src/_build/html/* gh-pages/
         cd gh-pages
         touch .nojekyll
