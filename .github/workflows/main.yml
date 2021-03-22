@@ -26,7 +26,7 @@ jobs:
 #        name: DocumentationHTML
 #        path: src/_build/html/
     - uses: ammaraskar/sphinx-action@master
-      with:
+#      with:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
         build-command: "make latexpdf"
         docs-folder: "src/"
