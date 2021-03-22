@@ -32,7 +32,7 @@ jobs:
         docs-folder: "src/"
     - uses: actions/upload-artifact@v1
       with:
-      name: Documentation
+      name: Documentation 
       path: src/_build/latex/ERPYA.pdf
     - name: Commit documentation changes
       run: |
