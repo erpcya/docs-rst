@@ -32,8 +32,8 @@ jobs:
         docs-folder: "src/"
     - uses: actions/upload-artifact@v1
       with:
-        name: Documentation 
-        path: src/_build/latex/ERPCYA.pdf
+        name: DocumentationPDF
+        path: src/_build/ERPCYA.pdf
     - name: Commit documentation changes
       run: |
         git clone https://github.com/TaniaLucena/docs.git --branch gh-pages --single-branch gh-pages
