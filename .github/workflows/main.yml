@@ -33,7 +33,7 @@ jobs:
     - uses: actions/upload-artifact@master
       with:
         name: DocumentationPDF
-        path: src/_build/latex/pdf/
+        path: src/_build/latex/ERPYA.pdf
     - name: Commit documentation changes
       run: |
         git clone https://github.com/TaniaLucena/docs-1.git --branch gh-pages --single-branch gh-pages
