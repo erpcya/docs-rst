@@ -1,12 +1,15 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{imakeidx}
-\makeindex[columns=3, title=Alphabetical Index, intoc]
+\usepackage{alphalph}
+\usepackage{enumitem}
+\makeindex[columns=3, title=Alphabetical Index]
 
 \begin{document}
 
 \tableofcontents
 
+\graphicspath{ {/docs-1/src/index.rst/} }
 \section{index.rst}
 
 \index{Index!nested}
