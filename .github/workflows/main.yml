@@ -15,25 +15,25 @@ jobs:
   docs:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v1
+    - uses: actions/checkout@v1master
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "pip install sphinx_rtd_theme"
         docs-folder: "src/"
         build-command: "sphinx-build -b html . _build/html"
-#    - uses: actions/upload-artifact@v1
-#      with:
-#        name: DocumentationHTML
-#        path: src/_build/html/
+    - uses: actions/upload-artifact@v1
+      with:
+        name: DocumentationHTML
+        path: src/_build/html/
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
         build-command: "make latexpdf"
         docs-folder: "src/"
     - uses: actions/upload-artifact@v1
-#      with:
+      with:
       name: Documentation 
-#      path: src/_build/latex/ERPYA.pdf
+      path: src/_build/latex/ERPYA.pdf
     - name: Commit documentation changes
       run: |
         git clone https://github.com/TaniaLucena/docs.git --branch gh-pages --single-branch gh-pages
