@@ -1,6 +1,6 @@
 {% extends "layout.html" %}
 {% set title = 'Download' %}
-{% set url = 'https://docs.erpya.com/download/%s.%s' %}
+{% set url = 'https://media.readthedocs.org/%s/couchdb/%s/couchdb.%s' %}
 {% if git_branch == 'master' %}
   {% set rtd_ver = 'latest' %}
 {% else %}
@@ -8,17 +8,26 @@
 {% endif %}
 
 {% block body %}
-<h1>Descargar Documentación de ADempiere {{ release }} </h1>
+<h1>Download ADempiere {{ release }} Documentation</h1>
 
-<p> Seleccione para Descargar </p>
+<p>To download an archive containing all the documents for this version of
+CouchDB in one of various formats, follow one of links in this table</p>
 
 <table class="docutils">
   <tr>
+     <td>PDF (A4 paper size)</td>
+     <td><a href="{{ url|format('pdf', rtd_ver, 'pdf') }}">Download</a> (~1 MB)</td>
+  </tr>
+  <tr>
+     <td>HTML</td>
+     <td><a href="{{ url|format('htmlzip', rtd_ver, 'zip') }}">Download</a> (~5 MB)</td>
+  </tr>
+  <tr>
     <td>EPUB</td>
-    <td><a href="{{ url|format('erpya', 'epub') }}">Descargar</a> (~150 MB)</td>
+    <td><a href="{{ url|format('epub', rtd_ver, 'epub') }}">Download</a> (~1 MB)</td>
   </tr>
 </table>
 
-<p>Estos archivos contienen todo el contenido de la documentación.</p>
+<p>These archives contain all the content of the documentation.</p>
 
 {% endblock %}
