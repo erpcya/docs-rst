@@ -22,10 +22,10 @@
 Requerimientos para instalar el cliente de cola de impresión TFHKA:
 
 
-#. **Hardware**:
+**Hardware**:
 
 
-    #. Impresora Fiscal, debe poseerse los componentes descritos en la siguiente imagen
+    Impresora Fiscal, debe poseerse los componentes descritos en la siguiente imagen
 
 
         |Impresora Fiscal|
@@ -33,7 +33,7 @@ Requerimientos para instalar el cliente de cola de impresión TFHKA:
         Imagen 1. A) Impresora Fiscal, B) Fuente de Alimentación, C) Conector USB Impresora Fiscal
 
 
-    #. Periféricos de la Impresora Fiscal (Display Kit, Gaveta Caja registradora), Algunos pueden ser opcionales ya que a pesar de no tener todos se puede iniciar el la el cliente de cola de impresión.
+    Periféricos de la Impresora Fiscal (Display Kit, Gaveta Caja registradora), Algunos pueden ser opcionales ya que a pesar de no tener todos se puede iniciar el la el cliente de cola de impresión.
 
         |Perifericos|
 
@@ -44,16 +44,16 @@ Requerimientos para instalar el cliente de cola de impresión TFHKA:
             La **Gaveta Caja registradora** y la **Pantalla de visualización para impresora fiscal**, se deben conectar directamente en la impresora fiscal, mientras que el Escáner de Código de Barras se debe conectar directamente en el PC.
 
 
-#. **Software**:
+**Software**:
  
  
-    #. Driver de Impresora Fiscal
+    Driver de Impresora Fiscal
 
 
-    #. Instalar el JDK de JAVA 8 añadiendolo a las variables de entorno **JAVA_HOME** y **PATH**. En caso de desconocer cómo hacer esto en el siguiente link se muestra como hacerlo :ref:`documento/agregar-java-8-al-path`,.
+    Instalar el JDK de JAVA 8 añadiendolo a las variables de entorno **JAVA_HOME** y **PATH**. En caso de desconocer cómo hacer esto en el siguiente link se muestra como hacerlo :ref:`documento/agregar-java-8-al-path`,.
     
     
-    #. Descargar la versión adecuada del instalador del cliente de cola de impresión dependiendo del sistema operativo empleado:
+    Descargar la versión adecuada del instalador del cliente de cola de impresión dependiendo del sistema operativo empleado:
     
     
         - Para el sistema operativo Windows 7:   
@@ -81,7 +81,7 @@ Requerimientos para instalar el cliente de cola de impresión TFHKA:
             Los instaladores serán suministrados por E.R.P. Consultores y Asociados, C.A.
 
 
-#. **Procedimiento de la instalación**:
+**Procedimiento de la instalación**:
 
 
     En caso de cumplir lo anteriormente descrito y Una vez conectada la Impresora a la pc, ademas teniendo a disposición el dominio hacia el que va apuntar el cliente de cola de impresión es necesario conocer los siguientes valores.
@@ -108,7 +108,7 @@ Requerimientos para instalar el cliente de cola de impresión TFHKA:
             
         Imagen 7. Ventana Administrador de Dispositivos Actualizados luego de conectar la impresora.
       
-    #. **Ejecutar Setup_LocalPrintingPnP.exe con privilegios de Administrador**:
+    **Ejecutar Setup_LocalPrintingPnP.exe con privilegios de Administrador**:
 
     Para la demostración práctica del instalador se usará **Setup_LocalPrinting-TFHKA-Windows10.exe**, este se debe iniciar con privilegios de Administrador, esto lo puedes hacer haciendo click derecho sobre el icono del instalador y seleccionando la opción Ejecutar como Administrador, una vez hecho esto se desplegará la siguiente ventana:
     
@@ -179,7 +179,7 @@ Requerimientos para instalar el cliente de cola de impresión TFHKA:
         Imagen 15. Icono creado luego instalar el cliente de cola de impresión utilizando el instalador de Windows 10
  
 
-#. **Ejecutar PrintService.exe con privilegios de Administrador**:
+**Ejecutar PrintService.exe con privilegios de Administrador**:
  
 
     .. note::
@@ -218,13 +218,13 @@ Requerimientos para instalar el cliente de cola de impresión TFHKA:
     ====================== ============================================
 
 
-#. **Verificar Correcto funcionamiento luego de la instalación**:
+**Verificar Correcto funcionamiento luego de la instalación**:
 
 
     Hacer doble click en el acceso directo **LocalPrinting-TFHKA.ink** con privilegios de Administrador, para la versión de Windows 7 se desplegará un menú en la consola selecciona la opción 1, esto iniciará el cliente de cola de impresión, mientras que para el caso de Windows 10 se abrirá la consola iniciando el servicio de cola de impresión.
 
 
-#. **Imprimir Reporte X** 
+**Imprimir Reporte X** 
 
     Para el caso donde la conexión se ejecuta correctamente, se procede a realizar una impresión de control usando el Proceso **Imprimir Reporte Fiscal** con los parámetros:
 

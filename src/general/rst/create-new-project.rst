@@ -23,11 +23,11 @@ Para realizar una contribución a la documentación de `ERPyA`_ realice el proce
 
 Las credenciales para que el usuario pueda iniciar sesión en "**Read the Docs**" son:
 
-#. **Usuario**: Primera letra del primer nombre, seguido del primer apellido con la primera letra en mayúscula. El usuario no debe tener espacios en blanco o caracteres especiales.
+**Usuario**: Primera letra del primer nombre, seguido del primer apellido con la primera letra en mayúscula. El usuario no debe tener espacios en blanco o caracteres especiales.
 
     - **Ejemplo**: uEstandar
 
-#. **Contraseña**: La misma información establecida en el campo usuario, sin espacios en blanco o caracteres especiales.
+**Contraseña**: La misma información establecida en el campo usuario, sin espacios en blanco o caracteres especiales.
 
     - **Ejemplo**: uEstandar
 

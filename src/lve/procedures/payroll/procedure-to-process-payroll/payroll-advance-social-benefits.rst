@@ -11,20 +11,20 @@
 Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de anticipo prestaciones sociales, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 
-#. Estatus del Documento:
+Estatus del Documento:
 
-    #. Seleccione “**Nómina Prestaciones Sociales**” en el campo “**Tipo de Documento**”
+    Seleccione “**Nómina Prestaciones Sociales**” en el campo “**Tipo de Documento**”
 
         El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
 
-    #. Selecciones “**Nómina de Anticipo Prestaciones Sociales**” en el campo “**Nómina**”
+    Selecciones “**Nómina de Anticipo Prestaciones Sociales**” en el campo “**Nómina**”
 
         La nómina de anticipo prestaciones sociales define el comportamiento de la nómina, para este caso por ser una nómina especial cuenta con las siguientes características:
 
-            #. Regla de Pago: Débito Directo
-            #. Cargo: Sueldos y Salarios por Pagar
+            Regla de Pago: Débito Directo
+            Cargo: Sueldos y Salarios por Pagar
 
-    #. Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
+    Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
 
 
         |Nomina Anticipo de Prestaciones Sociales|
@@ -36,7 +36,7 @@ Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos re
         Esta nómina  por ser una nómina especial no debe registrarse con período
 
 
-#. Incidencias:
+Incidencias:
 
     Para esta nómina es obligatorio registrar la incidencia llamada "**Anticipo de Prestaciones Sociales**" para conocer el monto de anticipo otorgado a cada empleado, cabe destacar que esta incidencia debe registrarse al socio de negocio empleado al cual se le procesará la nómina de anticipo de prestaciones sociales
 
@@ -49,7 +49,7 @@ Para procesar una “**Nómina de Anticipo Prestaciones Sociales**” debemos re
 
     Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`.
 
-#. Resultados:
+Resultados:
 
     - **Reportes**
 

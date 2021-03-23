@@ -14,15 +14,15 @@ A continuación se indica cómo configurar las variables JAVA_HOME y Path. Reque
  
  
  
-#. **Software**:
+**Software**:
  
   - Instalar el JDK de JAVA 8 y conocer la ruta de instalación, Ej: "C:\Program Files\Java\jdk1.8.0_221\bin"
  
  
-#. **Procedimiento**:
+**Procedimiento**:
  
  
-#. **Configurar la variable JAVA_HOME**
+**Configurar la variable JAVA_HOME**
  
 Configurar la variable JAVA_HOME, es una variable de entorno del sistema que informa al sistema operativo sobre la ruta donde se encuentra instalado Java.
  
@@ -68,7 +68,7 @@ Escribiremos en las cajas de texto que se muestran lo siguiente:
  
  
  
-#. **Configurar la variable PATH**
+**Configurar la variable PATH**
  
 Agregar JAVA_HOME a la variable PATH, esta variable de entorno del sistema informa al sistema operativo sobre la ruta de distintos directorios esenciales para el funcionamiento del ordenador. Vamos a añadir al contenido de la variable PATH el lugar donde se encuentran los ficheros ejecutables de Java necesarios para su ejecución, como el compilador (javac.exe) y el intérprete (java.exe).
  

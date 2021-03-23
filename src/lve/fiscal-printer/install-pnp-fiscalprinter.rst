@@ -7,17 +7,17 @@
 Para la Instalación del servicio de impresión para la Impresora Fiscal es necesario lo siguiente:
 
    
-#. **Configuración en Cada Estación con Windows donde se emplee la impresora fiscal**:
+**Configuración en Cada Estación con Windows donde se emplee la impresora fiscal**:
    
 
-   #. Instalar el **JAVA** **JDK8** y agregarlo a las Variables de Entorno (En caso de no cumplir con este requisito, no se debe continuar con la instalación).
+   Instalar el **JAVA** **JDK8** y agregarlo a las Variables de Entorno (En caso de no cumplir con este requisito, no se debe continuar con la instalación).
 
-   #. Descargar los Archivos Setup_LocalPrintingPnP.exe y PrintService.exe.
+   Descargar los Archivos Setup_LocalPrintingPnP.exe y PrintService.exe.
 
-   #. Conocer en que Puerto COM esta conectada la impresora (El puerto debe estar entre 1 y 4)
+   Conocer en que Puerto COM esta conectada la impresora (El puerto debe estar entre 1 y 4)
    
    
-#. **Ejecutar Setup_LocalPrintingPnP.exe con privilegios de Administrador**:
+**Ejecutar Setup_LocalPrintingPnP.exe con privilegios de Administrador**:
    
    
    Seguir los pasos del instalador y colocar los siguientes parámetros:
@@ -38,7 +38,7 @@ Para la Instalación del servicio de impresión para la Impresora Fiscal es nece
        Es importante que al momento de iniciar el ejecutable se use con privilegios de Administrador, en caso de no ser así este mismo no tendrá los permisos para instalar las librerías necesarias
 
 
-#. **Ejecutar PrintService.exe con privilegios de Administrador**:
+**Ejecutar PrintService.exe con privilegios de Administrador**:
 
     Seguir los pasos del instalador y colocar los siguientes parámetros:
 
@@ -70,13 +70,13 @@ Para la Instalación del servicio de impresión para la Impresora Fiscal es nece
     ====================== ===============================
    
    
-#. **Verificar Correcto funcionamiento luego de la instalación**:
+**Verificar Correcto funcionamiento luego de la instalación**:
    
    Hacer doble click en el acceso directo **LocalPrinting-PnP.ink** con privilegios de Administrador En el menú que se observa en la consola selecciona la opción 1, esto iniciara el cliente de cola de impresión
    
-#. **Obtener Estado Actual de Impresora Fiscal**:
+**Obtener Estado Actual de Impresora Fiscal**:
 
-   #. Ingresando en **ADempiere** como compañía ubicar el proceso **Configuración de Impresora Fiscal** y ejecutar el proceso con los parámetros:
+   Ingresando en **ADempiere** como compañía ubicar el proceso **Configuración de Impresora Fiscal** y ejecutar el proceso con los parámetros:
 
       ====================== ===============================
       Parámetro              Valor
@@ -92,9 +92,9 @@ Para la Instalación del servicio de impresión para la Impresora Fiscal es nece
          ** Impresora lista para abrir una factura, abrir un documento no fiscal, hacer un reporte Z o un reporte de memoria fiscal**
 
 
-#. **Imprimir Reporte X**   
+**Imprimir Reporte X**   
    
-   #. Para el caso donde la conexión se ejecuta correctamente, se procede a realizar una impresión de control usando el Proceso **Imprimir Reporte Fiscal** con los parámetros:
+   Para el caso donde la conexión se ejecuta correctamente, se procede a realizar una impresión de control usando el Proceso **Imprimir Reporte Fiscal** con los parámetros:
 
       ====================== ===============================
       Parámetro              Valor

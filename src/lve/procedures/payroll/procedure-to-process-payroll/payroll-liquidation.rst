@@ -17,20 +17,20 @@
     Para procesar una “**Nómina de Liquidación**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de liquidación, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 
-#. Estatus del Documento:
+Estatus del Documento:
 
-    #. Seleccione “**Nómina Liquidación**” en el campo “**Tipo de Documento**”
+    Seleccione “**Nómina Liquidación**” en el campo “**Tipo de Documento**”
 
         El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
 
-    #. Selecciones “**Nómina Liquidación**” en el campo “**Nómina**”
+    Selecciones “**Nómina Liquidación**” en el campo “**Nómina**”
 
         La nómina de liquidación define el comportamiento de la nómina, para este caso por ser una nómina especial cuenta con las siguientes características:
 
-            #. Regla de Pago: Débito Directo
-            #. Cargo: Sueldos y Salarios por Pagar
+            Regla de Pago: Débito Directo
+            Cargo: Sueldos y Salarios por Pagar
 
-    #. Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
+    Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
 
 
     .. warning::
@@ -42,7 +42,7 @@
     Imagen 1. Nómina de Liquidación   
 
 
-#. Incidencias:
+Incidencias:
 
     Para esta nómina es obligatorio registrar la incidencia llamada "**Fecha de Egreso del Trabajador**" para conocer la fecha de egreso del trabajador, cabe destacar que esta incidencia debe registrarse al socio de negocio empleado al cual se le procesa la nómina de liquidación
 
@@ -61,7 +61,7 @@
     Imagen 2. Incidencia Nómina de Liquidación
 
 
-#. Resultados:
+Resultados:
 
     - "**Reportes**"
 

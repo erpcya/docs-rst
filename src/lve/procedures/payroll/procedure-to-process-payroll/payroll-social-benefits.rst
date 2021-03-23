@@ -14,20 +14,20 @@
 Para procesar una “**Nómina de Prestaciones Sociales**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de prestaciones sociales, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 
-#. Estatus del Documento:
+Estatus del Documento:
 
-    #. Seleccione “**Nómina Prestaciones Sociales**” en el campo “**Tipo de Documento**”
+    Seleccione “**Nómina Prestaciones Sociales**” en el campo “**Tipo de Documento**”
 
         El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
 
-    #. Selecciones “**Nómina de Prestaciones Sociales**” en el campo “**Nómina**”
+    Selecciones “**Nómina de Prestaciones Sociales**” en el campo “**Nómina**”
 
         La nómina de prestaciones sociales define el comportamiento de la nómina, para este caso por ser una nómina especial cuenta con las siguientes características:
 
-            #. Regla de Pago: Débito Directo
-            #. Cargo: Sueldos y Salarios por Pagar
+            Regla de Pago: Débito Directo
+            Cargo: Sueldos y Salarios por Pagar
 
-    #. Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
+    Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
 
     .. note::
 
@@ -42,11 +42,11 @@ Para procesar una “**Nómina de Prestaciones Sociales**” debemos realizar el
         Esta nómina  por ser una nómina especial no debe registrarse con período
 
 
-#. Incidencias:
+Incidencias:
 
       Para esta nómina no son necesarias las incidencias.
 
-#. Resultados:
+Resultados:
 
     -**Reportes**
 

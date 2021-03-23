@@ -16,24 +16,24 @@
     Para procesar una “**Nómina de Vacaciones**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de vacaciones, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 
-#. Estatus del Documento:
+Estatus del Documento:
 
 
-    #. Seleccione “**Nómina Vacaciones**” en el campo “**Tipo de Documento**”
+    Seleccione “**Nómina Vacaciones**” en el campo “**Tipo de Documento**”
 
  	  El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
 
-    #. Seleccione “**Nómina Vacaciones**” en el campo “**Nómina**”
+    Seleccione “**Nómina Vacaciones**” en el campo “**Nómina**”
 
 	   La nómina de vacaciones define el comportamiento de la nómina, para este caso por ser una nómina especial cuenta con las siguientes características:
 
-            #. Regla de Pago: Débito Directo
-            #. Contrato de Nómina: Contrato Mensual
-            #. Cargo: Vacaciones por Pagar
+            Regla de Pago: Débito Directo
+            Contrato de Nómina: Contrato Mensual
+            Cargo: Vacaciones por Pagar
 
-    #. Seleccione la fecha en la qué esté ejecutando la nómina en el campo "**Fecha Contable**"
+    Seleccione la fecha en la qué esté ejecutando la nómina en el campo "**Fecha Contable**"
 
-    #. Seleccione el “**Socio de Negocio Empleado**” a quién se le procesa la nómina de vacaciones en el campo "**Socio de Negocio**"
+    Seleccione el “**Socio de Negocio Empleado**” a quién se le procesa la nómina de vacaciones en el campo "**Socio de Negocio**"
 
     .. note::
 
@@ -48,7 +48,7 @@
         Está nómina  por ser una nómina especial no debe registrarse con período
 
 
-#. Incidencias:
+Incidencias:
 
     Para está nómina es obligatorio registrar la incidencia llamada "**Fecha de Inicio de Vacaciones**" para conocer el día a partir del cúal saldrá de vacaciones el empleado y el sistema pueda calcular su fecha de regreso, cabe destacar que esta incidencia debe registrarse al socio de negocio empleado al cual se le procesará la nómina de vacaciones
 
@@ -66,7 +66,7 @@
 
     Imagen 2. Incidencia Vacaciones
 
-#. Resultados:
+Resultados:
 
     - "**Reportes**"
 

@@ -152,7 +152,7 @@ Para este reporte están configurados 3 tipos de plantillas
     Imagen 1. Recibo de Pago Nómina Anticipo de Vacaciones
 
 
-#. Detalle de Pago: Seleccione esta plantilla de reporte de nómina de anticipo de vacaciones si desea conocer de manera detallada todos los montos de  de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos totales de las nóminas de anticipo de vacaciones procesadas a los empleados.
+Detalle de Pago: Seleccione esta plantilla de reporte de nómina de anticipo de vacaciones si desea conocer de manera detallada todos los montos de  de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos totales de las nóminas de anticipo de vacaciones procesadas a los empleados.
 
    Los campos podrá visualizar en este reporte son:
 
@@ -190,7 +190,7 @@ Para este reporte están configurados 3 tipos de plantillas
 
    Imagen 2. Detalle de Pago Nómina Anticipo de Vacaciones
 
-#. Resumen de Pago:  Seleccione esta plantilla de reporte de anticipo de vacaciones para conocer de manera resumida las asignaciones y deducciones agrupadas en un  mismo reporte omitiendo algunos detalle que usted puede encontrar en la plantilla Detalle de Pago. Esta plantilla presentará por cada uno de los concepto un monto total por cada empleado:
+Resumen de Pago:  Seleccione esta plantilla de reporte de anticipo de vacaciones para conocer de manera resumida las asignaciones y deducciones agrupadas en un  mismo reporte omitiendo algunos detalle que usted puede encontrar en la plantilla Detalle de Pago. Esta plantilla presentará por cada uno de los concepto un monto total por cada empleado:
 
    Los campos que podrá visualizar en este reporte son:
 

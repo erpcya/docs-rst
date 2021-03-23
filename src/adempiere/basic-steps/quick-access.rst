@@ -19,43 +19,43 @@ En ADempiere contamos con una serie de accesos rápidos que le permitirá al usu
 
 A continuación se definen los distintos tipos de accesos rápidos que este posee.
 
-#. **Acercar:** Le permitirá realizar una búsqueda rápida de un registro.
+**Acercar:** Le permitirá realizar una búsqueda rápida de un registro.
 
    |Acercar|
 
    Imagen 2. Opción Acercar
 
-#. **Refrescar:** Le permitirá actualizar el campo donde se encuentra ubicado.
+**Refrescar:** Le permitirá actualizar el campo donde se encuentra ubicado.
 
     |Refrescar|
 
     Imagen 3. Opción Refrescar
 
-#. **Valor de Preferencia:** Permitirá darle un valor preferencial al campo.
+**Valor de Preferencia:** Permitirá darle un valor preferencial al campo.
 
    |Valor de Preferencia|
 
    Imagen 4. Opción Valor de Preferencia
 
-#. **Registro Nuevo:** Permitirá realizar un registro nuevo referente al campo donde se encuentra ubicado.
+**Registro Nuevo:** Permitirá realizar un registro nuevo referente al campo donde se encuentra ubicado.
 
     |Registro Nuevo|
 
     Imagen 5. Opción Registro Nuevo
 
-#. **Actualizar:** Permitirá realizar modificaciones al registro del campo donde se encuentra ubicado.
+**Actualizar:** Permitirá realizar modificaciones al registro del campo donde se encuentra ubicado.
 
    |Actualizar|
 
    Imagen 6. Opción Actualizar
 
-#. **Bitácora Cambios:** Permitirá visualizar los cambios que se le ha realizado al campo donde se encuentra ubicad.
+**Bitácora Cambios:** Permitirá visualizar los cambios que se le ha realizado al campo donde se encuentra ubicad.
       
     |Bitácora Cambios|
 
     Imagen 7. Opción Bitácora de Cambios
 
-#. **Accesos Rápidos del Teclado:** Le permitirá realizar diferentes operaciones desde accesos rápido en las siguientes teclas.
+**Accesos Rápidos del Teclado:** Le permitirá realizar diferentes operaciones desde accesos rápido en las siguientes teclas.
 
     +-----------------+---------------------------------------------------------------------------------------------+
     |    **Tecla**    |                                      **Función**                                            |

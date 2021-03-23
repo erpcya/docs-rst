@@ -7,13 +7,13 @@
 Para la actualización del cliente de cola de impresión para la Impresora Fiscal es necesario lo siguiente:
 
    
-#. **Requisitos**:
+**Requisitos**:
 
-   #. Descargar el Archivo **Setup_LocalPrintingPnP.exe**
+   Descargar el Archivo **Setup_LocalPrintingPnP.exe**
 
-   #. Conocer en qué Puerto **COM** está conectada la impresora (El puerto debe estar entre 1 y 4)
+   Conocer en qué Puerto **COM** está conectada la impresora (El puerto debe estar entre 1 y 4)
    
-   #. Detener el Cliente de cola de impresión en ejecución, en el escritorio de Windows se tiene acceso directo **LocalPrinting-PnP.ink**, el cual permite detener el cliente de cola de impresión al ejecutarlo, para ello usar el siguiente parámetro:
+   Detener el Cliente de cola de impresión en ejecución, en el escritorio de Windows se tiene acceso directo **LocalPrinting-PnP.ink**, el cual permite detener el cliente de cola de impresión al ejecutarlo, para ello usar el siguiente parámetro:
    
     ====================== ===============================
     Parámetro              Valor
@@ -21,7 +21,7 @@ Para la actualización del cliente de cola de impresión para la Impresora Fisca
     2                      Detiene el Cliente de Cola de Impresión
     ====================== ===============================
    
-#. **Ejecutar Setup_LocalPrintingPnP.exe con privilegios de Administrador**:
+**Ejecutar Setup_LocalPrintingPnP.exe con privilegios de Administrador**:
    
    
    Seguir los pasos del instalador y colocar los siguientes parámetros:
@@ -51,13 +51,13 @@ Para la actualización del cliente de cola de impresión para la Impresora Fisca
     ====================== ===============================
    
    
-#. **Verificar Correcto funcionamiento luego de la instalación**:
+**Verificar Correcto funcionamiento luego de la instalación**:
    
    Hacer doble click en el acceso directo **LocalPrinting-PnP.ink** con privilegios de Administrador en el menú que se observa en la ventana de la consola Windows selecciona la opción 1, esto iniciara el cliente de cola de impresión.
    
-#. **Obtener Estado Actual de Impresora Fiscal**:
+**Obtener Estado Actual de Impresora Fiscal**:
 
-   #. Ingresando en **ADempiere** como compañía ubicar el proceso **Configuración de Impresora Fiscal** y ejecutar el proceso con los parámetros:
+   Ingresando en **ADempiere** como compañía ubicar el proceso **Configuración de Impresora Fiscal** y ejecutar el proceso con los parámetros:
 
       ====================== ===============================
       Parámetro              Valor
@@ -73,9 +73,9 @@ Para la actualización del cliente de cola de impresión para la Impresora Fisca
          ** Impresora lista para abrir una factura, abrir un documento no fiscal, hacer un reporte Z o un reporte de memoria fiscal**
 
 
-#. **Imprimir Reporte X**   
+**Imprimir Reporte X**   
    
-   #. Para el caso donde la conexión se ejecuta correctamente, se procede a realizar una impresión de control usando el Proceso **Imprimir Reporte Fiscal** con los parámetros:
+   Para el caso donde la conexión se ejecuta correctamente, se procede a realizar una impresión de control usando el Proceso **Imprimir Reporte Fiscal** con los parámetros:
 
       ====================== ===============================
       Parámetro              Valor

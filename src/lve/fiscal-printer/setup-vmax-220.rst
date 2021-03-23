@@ -23,7 +23,7 @@ Es necesario ingresar a ADempiere desde la versión de escritorio, para un corre
 **Configurar la impresora requiere los siguientes pasos:**
 ----------------------------------------------------------
 
-#. Ingresar a ADempiere con el Rol asignado correspondiente.
+Ingresar a ADempiere con el Rol asignado correspondiente.
 
         .. documento/configuración-impresora-01
 
@@ -33,9 +33,9 @@ Es necesario ingresar a ADempiere desde la versión de escritorio, para un corre
 
            Imagen 1. Inicio de Sesión
 
-#. Posicionarse en el menú de ADempiere.
+Posicionarse en el menú de ADempiere.
 
-#. Ingresar al directorio **Administración de Sistema** / **ReglasGenerales** / **Configuración de Dispositivo**.
+Ingresar al directorio **Administración de Sistema** / **ReglasGenerales** / **Configuración de Dispositivo**.
 
         .. documento/configuración-impresora-02
         
@@ -45,7 +45,7 @@ Es necesario ingresar a ADempiere desde la versión de escritorio, para un corre
 
            Imagen 2. Menú Fiscal
 
-#. Abrir la Ventana Configuración de Dispositivo.
+Abrir la Ventana Configuración de Dispositivo.
 
         .. documento/configuración-impresora-03
         
@@ -55,7 +55,7 @@ Es necesario ingresar a ADempiere desde la versión de escritorio, para un corre
 
            Imagen 3. Configuración de Dispositivo
 
-#. Crear un Nuevo Registro
+Crear un Nuevo Registro
 
 Agregando los siguientes Valores en sus correspondientes campos:
 
@@ -93,9 +93,9 @@ Se desplegara una ventana donde se debe seleccionar el directorio de instalació
 **Crear el nuevo Dispositivo (impresora):**
 -------------------------------------------
 
-#. Abrir la Ventana Dispositivo ubicada en el menú **Administración de Sistema** / **Reglas Generales** / **Configuración de Dispositivo**.
+Abrir la Ventana Dispositivo ubicada en el menú **Administración de Sistema** / **Reglas Generales** / **Configuración de Dispositivo**.
 
-#. Crear un Nuevo Registro
+Crear un Nuevo Registro
 
 Agregando los siguientes Valores en sus correspondientes campos:
 

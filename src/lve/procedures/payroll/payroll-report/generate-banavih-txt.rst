@@ -8,17 +8,17 @@
 El txt de Banavih es uno de los archivos que necesitamos subir al portal de FAOV en línea, el cual debe contener la información necesaria de la nómina procesada para el cálculo de los
 recursos a retener como aportes al fondo, en los siguientes pasos se mencionan el proceso que debemos seguir para generar este archivo desde ADempiere.
 
-#. Seleccione la ventana reporte de nómina, ubicado en el menú Gestión de Recursos Humanos, sub carpeta reporte de nómina
+Seleccione la ventana reporte de nómina, ubicado en el menú Gestión de Recursos Humanos, sub carpeta reporte de nómina
 
-#. Para obtener el reporte debe seleccionar los siguientes item
+Para obtener el reporte debe seleccionar los siguientes item
 
-#. Seleccione en el campo **Nómina** la nómina que le va a generar el reporte (Semanal, Quincenal, Mensual)
+Seleccione en el campo **Nómina** la nómina que le va a generar el reporte (Semanal, Quincenal, Mensual)
 
-#. Selecciones el rango de la fecha en que desees solicitar el archivo en el campo **Fecha**
+Selecciones el rango de la fecha en que desees solicitar el archivo en el campo **Fecha**
 
-#. Seleccione en el campo **Configuración Reporte de Nómina** BANAVIH es el nombre del reporte configurado para obtener el archivo.
+Seleccione en el campo **Configuración Reporte de Nómina** BANAVIH es el nombre del reporte configurado para obtener el archivo.
 
-#. Posteriormente debe darle en el check list **OK**
+Posteriormente debe darle en el check list **OK**
 
     |Reporte|
 

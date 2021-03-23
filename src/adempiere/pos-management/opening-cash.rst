@@ -38,61 +38,61 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 **Ejecución del Proceso**
 -------------------------
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la carpeta "**Punto de Venta**". Para finalizar, seleccione el proceso "**Apertura de Punto de Venta**".
+Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la carpeta "**Punto de Venta**". Para finalizar, seleccione el proceso "**Apertura de Punto de Venta**".
 
     |Menú de ADempiere|
 
     Imagen 2. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Apertura de Punto de Venta**", con diferentes campos que permiten simular las transferencias monetarias entre las cuentas bancarias y cajas registradas en ADempiere.
+Podrá visualizar la ventana "**Apertura de Punto de Venta**", con diferentes campos que permiten simular las transferencias monetarias entre las cuentas bancarias y cajas registradas en ADempiere.
 
     |Ventana Apertura de Punto de Venta|
 
     Imagen 3. Ventana Apertura de Punto de Venta
 
-    #. Realice en la ventana "**Apertura de Punto de Venta**", el proceso regular para generar una transferencia bancaria, dicho procedimiento se encuentra explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_. 
+    Realice en la ventana "**Apertura de Punto de Venta**", el proceso regular para generar una transferencia bancaria, dicho procedimiento se encuentra explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_. 
     
-    #. Para la apertura de una caja, es necesario que sean cumplidas las siguientes restricciones en la ventana "**Apertura de Punto de Venta**".
+    Para la apertura de una caja, es necesario que sean cumplidas las siguientes restricciones en la ventana "**Apertura de Punto de Venta**".
 
-        #. En el campo **Terminal PDV**, se encuentran los diferentes terminales configurados para los socios del negocio que cumplen con el rol de empleados de la organización. En este campo se debe seleccionar el terminal al cual se le realizará la apertura de la caja. Un ejemplo sería "**PDV Caja 01**".
+        En el campo **Terminal PDV**, se encuentran los diferentes terminales configurados para los socios del negocio que cumplen con el rol de empleados de la organización. En este campo se debe seleccionar el terminal al cual se le realizará la apertura de la caja. Un ejemplo sería "**PDV Caja 01**".
 
-        #. En el campo **Caja**", se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia. 
+        En el campo **Caja**", se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia. 
 
-            #. Si la transferencia a realizar es en bolivares, se debe seleccionar la cuenta caja "**Administración VES**".
+            Si la transferencia a realizar es en bolivares, se debe seleccionar la cuenta caja "**Administración VES**".
 
-            #. Si la transferencia a realizar es en dolares, se debe seleccionar la cuenta caja "**Administración USD**".
+            Si la transferencia a realizar es en dolares, se debe seleccionar la cuenta caja "**Administración USD**".
 
-            #. Si la transferencia a realizar es en euros, se debe seleccionar la cuenta caja "**Administración EUR**".
+            Si la transferencia a realizar es en euros, se debe seleccionar la cuenta caja "**Administración EUR**".
 
-        #. En el campo "**Caja a Transferir**", se encuentra la cuenta caja destino seleccionada en el terminal PDV como cuenta bancaria a la cual se realizará la transferencia. El valor de este campo se carga de manera automática, al seleccionar el terminal de la caja en el campo "**Terminal PDV**". En este caso, un ejemplo sería: "**Caja 01**".
+        En el campo "**Caja a Transferir**", se encuentra la cuenta caja destino seleccionada en el terminal PDV como cuenta bancaria a la cual se realizará la transferencia. El valor de este campo se carga de manera automática, al seleccionar el terminal de la caja en el campo "**Terminal PDV**". En este caso, un ejemplo sería: "**Caja 01**".
 
             .. note::
 
                 Recuerde que el terminal a seleccionar en el campo "**Terminal PDV**", debe ser el terminal correspondiente a la caja donde realizará las operaciones de ventas el socio del negocio empleado.
             
-        #. En el campo "**Socio del Negocio**", se carga de manera automática el socio del negocio empleado que realizará las operaciones en la caja indicada en el campo "**Caja a Transferir**", previamente configurado en el terminal seleccionado en el campo "**Terminal PDV**". En este caso, un ejemplo sería: "**Vendedor**".
+        En el campo "**Socio del Negocio**", se carga de manera automática el socio del negocio empleado que realizará las operaciones en la caja indicada en el campo "**Caja a Transferir**", previamente configurado en el terminal seleccionado en el campo "**Terminal PDV**". En este caso, un ejemplo sería: "**Vendedor**".
 
-        #. En el campo "**Tipo de Conversión**", se carga de manera automática el tipo de conversión establecido en el terminal de la caja. 
+        En el campo "**Tipo de Conversión**", se carga de manera automática el tipo de conversión establecido en el terminal de la caja. 
 
-        #. En el campo "**Moneda**", se debe seleccionar la moneda a ser utilizada en la transferencia del dinero. En este caso, un ejemplo sería: "**USD**"
+        En el campo "**Moneda**", se debe seleccionar la moneda a ser utilizada en la transferencia del dinero. En este caso, un ejemplo sería: "**USD**"
 
             .. note::
 
                 Se debe realizar una transferencia por moneda, cuando se necesite aperturar la caja con más de una moneda.
 
-        #. En el campo "**Cargo**", se debe seleccionar el cargo "**Efectivo en Tránsito Administración**".
+        En el campo "**Cargo**", se debe seleccionar el cargo "**Efectivo en Tránsito Administración**".
 
-        #. En el campo "**No. del Documento**", se debe ingresar el número de documento con el cual será generado el egreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: "**Egreso-Apertura10/02/2021**".
+        En el campo "**No. del Documento**", se debe ingresar el número de documento con el cual será generado el egreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: "**Egreso-Apertura10/02/2021**".
 
-        #. En el campo "**Documento Destino**", se debe ingresar el número de documento con el cual será generado el ingreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: "**Ingreso-Apertura10/02/2021**".
+        En el campo "**Documento Destino**", se debe ingresar el número de documento con el cual será generado el ingreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: "**Ingreso-Apertura10/02/2021**".
 
-        #. En el campo "**Monto**", se debe ingresar el monto total de la transferencia en la moneda seleccionada. En este caso, un ejemplo sería: "**100,00**.
+        En el campo "**Monto**", se debe ingresar el monto total de la transferencia en la moneda seleccionada. En este caso, un ejemplo sería: "**100,00**.
 
-        #. En el campo "**Descripción**", se debe ingresar una descripción breve que explique de forma puntual la transferencia. En este caso, un ejemplo sería: "**Apertura de Caja 1 del 10/02/2021 por 100 USD**".
+        En el campo "**Descripción**", se debe ingresar una descripción breve que explique de forma puntual la transferencia. En este caso, un ejemplo sería: "**Apertura de Caja 1 del 10/02/2021 por 100 USD**".
         
-        #. En el campo "**Fecha de Estado de Cuenta**", ADempiere establece la fecha en la que se esta realizando la transacción. Esta indica la fecha en la cual será generado el estado de cuenta que se encuentra procesando. 
+        En el campo "**Fecha de Estado de Cuenta**", ADempiere establece la fecha en la que se esta realizando la transacción. Esta indica la fecha en la cual será generado el estado de cuenta que se encuentra procesando. 
 
-        #. En el campo "**Fecha Contable**", ADempiere establece la fecha en la que se esta realizando la transacción. Esta indica la fecha a ser usada en las cuentas de contabilidad general generadas desde este proceso.
+        En el campo "**Fecha Contable**", ADempiere establece la fecha en la que se esta realizando la transacción. Esta indica la fecha a ser usada en las cuentas de contabilidad general generadas desde este proceso.
 
         |Transferencia Bancaria de Apertura de Caja|
 
@@ -105,15 +105,15 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 **Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta**
 ------------------------------------------------------------------------
 
-#. Al buscar entre los registros de la ventana "**Caja**", los valores ingresados en los campos "**No. del Documento**" y "**Documento Destino**", de la ventana "**Apertura de Punto de Venta**", se pueden visualizar dos (2) registros resultantes de la transferencia bancaria, entre ellos se encuentran.
+Al buscar entre los registros de la ventana "**Caja**", los valores ingresados en los campos "**No. del Documento**" y "**Documento Destino**", de la ventana "**Apertura de Punto de Venta**", se pueden visualizar dos (2) registros resultantes de la transferencia bancaria, entre ellos se encuentran.
 
-    #. El egreso generado en la cuenta "**Caja Administrativa**" como pago nacional, con toda la información suministrada en el proceso ejecutado en la ventana "**Apertura de Punto de Venta**".
+    El egreso generado en la cuenta "**Caja Administrativa**" como pago nacional, con toda la información suministrada en el proceso ejecutado en la ventana "**Apertura de Punto de Venta**".
 
         |Egreso Generado de la Transferencia Bancaria de Apertura de Caja|
 
         Imagen 5. Egreso Generado de la Transferencia Bancaria de Apertura de Caja
 
-    #. El ingreso generado en la cuenta "**Caja 04**" como cobro nacional, con toda la información suministrada en el proceso ejecutado en la ventana "**Apertura de Punto de Venta**".
+    El ingreso generado en la cuenta "**Caja 04**" como cobro nacional, con toda la información suministrada en el proceso ejecutado en la ventana "**Apertura de Punto de Venta**".
 
         |Ingreso Generado de la Transferencia Bancaria de Apertura de Caja|
 
@@ -127,7 +127,7 @@ Al realizar una apertura de caja se crean dos registros en estado "**Borrador**"
 **Caja Administración POS**
 ***************************
 
-#. El registro con la cuenta "**Caja Administración POS**", se crea automáticamente con las siguientes restricciones:
+El registro con la cuenta "**Caja Administración POS**", se crea automáticamente con las siguientes restricciones:
 
     - **Cuenta**: La cuenta "**Caja Administración Ventas - --_Administración POS**", previamente seleccionada en el campo "**Caja**" de la ventana "**Apertura de Punto de Venta**". 
     - **Nombre**: La descripción "**Apertura de Caja 1 del 10/02/2021 por 100 USD**", previamente ingresada en el campo "**Descripción**" de la ventana "**Apertura de Punto de Venta**".
@@ -149,7 +149,7 @@ Al realizar una apertura de caja se crean dos registros en estado "**Borrador**"
 **Caja 01**
 ***********
 
-#. El registro con la cuenta "**Caja 01**", se crea automáticamente con las siguientes restricciones:
+El registro con la cuenta "**Caja 01**", se crea automáticamente con las siguientes restricciones:
 
     - **Cuenta**: La cuenta "**Caja POS - --_Caja PDV 01**", previamente seleccionada en el campo "**Caja a Transferir**" de la ventana "**Apertura de Punto de Venta**".
     - **Nombre**: La descripción "**Apertura de Caja 1 del 10/02/2021 por 100 USD**", previamente ingresada en el campo "**Descripción**" de la ventana "**Apertura de Punto de Venta**".

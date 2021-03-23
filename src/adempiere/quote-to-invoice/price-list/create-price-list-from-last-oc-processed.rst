@@ -42,13 +42,13 @@ De igual manera, se tiene la tasa de cambio de "**VES**" a "**USD**" y viceversa
 
 En base a las especificaciones nombradas anteriormente, se procede a explicar el procedimiento a seguir para generar la lista de precios desde la última orden de compra procesada.
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Materiales**", luego seleccione la carpeta "**Reglas de Gestión de Materiales**", por último seleccione la ventana "**Lista de Precios**". 
+Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Materiales**", luego seleccione la carpeta "**Reglas de Gestión de Materiales**", por último seleccione la ventana "**Lista de Precios**". 
 
     |menú de lista de precios|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Lista de Precios**", con todos los registros de listas de precios de compras y ventas.
+Podrá visualizar la ventana "**Lista de Precios**", con todos los registros de listas de precios de compras y ventas.
 
     |ventana lista de precios|
 
@@ -58,25 +58,25 @@ En base a las especificaciones nombradas anteriormente, se procede a explicar el
 
         La información de los campos que contiene la pestaña "**Lista de Precios**", no debe ser modificada por ningún motivo. De igual manera, no se debe tildar o destildar ningún check de los que contiene dicha pestaña.
 
-#. Ubique el registro de lista de precios de "**Ventas (VES)**".
+Ubique el registro de lista de precios de "**Ventas (VES)**".
 
     |registro de ventas ves para lista de precios desde última oc procesada|
 
     Imagen 3. Lista de Precios Ventas (VES)
 
-#. Seleccione la pestaña "**Versión**".
+Seleccione la pestaña "**Versión**".
 
     |pestaña versión para lista de precios desde última oc procesada|
 
     Imagen 4. Pestaña Versión
 
-#. Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere.
 
     |icono registro nuevo para lista de precios desde última oc procesada|
 
     Imagen 5. Icono Registro Nuevo 
 
-#. Seleccione en el campo "**Organización**", la organización para la cual se encuentra realizando el registro.
+Seleccione en el campo "**Organización**", la organización para la cual se encuentra realizando el registro.
 
     |campo organización para lista de precios desde última oc procesada|
 
@@ -86,7 +86,7 @@ En base a las especificaciones nombradas anteriormente, se procede a explicar el
 
         La organización seleccionada en la lista de precios, debe coincidir con la organización seleccionada en la tasa de cambio creada a la fecha. Si la lista de precios esta creada con organización (*), las tasas de cambio a utilizar deben estar creadas con organización (*).
 
-#. Introduzca en el campo "**Nombre**", el nombre correspondiente a la versión de lista de precios que se encuentra creando.
+Introduzca en el campo "**Nombre**", el nombre correspondiente a la versión de lista de precios que se encuentra creando.
 
     Este campo contiene como nombre por defecto, la fecha y la hora en el cual fue creado el registro.
 
@@ -94,31 +94,31 @@ En base a las especificaciones nombradas anteriormente, se procede a explicar el
 
     Imagen 7. Campo Nombre
 
-#. Introduzca en el campo "**Descripción**", una breve descripción correspondiente al registro que se encuentra realizando.
+Introduzca en el campo "**Descripción**", una breve descripción correspondiente al registro que se encuentra realizando.
 
     |campo descripción para lista de precios desde última oc procesada|
 
     Imagen 8. Campo Descripción
 
-#. Seleccione en el campo "**Esq List Precios/Desc**", el esquema de descuento correspondiente.
+Seleccione en el campo "**Esq List Precios/Desc**", el esquema de descuento correspondiente.
 
     |campo esquema de lista de precios descuento para lista de precios desde última oc procesada|
 
     Imagen 9. Campo Esq List Precios/Desc
 
-#. Seleccione en el campo "**Válido Desde**", la fecha de inicio del periodo de validez del registro que se encuentra realizando.
+Seleccione en el campo "**Válido Desde**", la fecha de inicio del periodo de validez del registro que se encuentra realizando.
 
     |campo válido desde para lista de precios desde última oc procesada|
 
     Imagen 10. Campo Válido Desde
 
-#. Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
     |icono guardar cambios para lista de precios desde última oc procesada|
 
     Imagen 11. Icono Guardar Cambios
 
-#. Seleccione la opción "**Crear Lista de Precios**".
+Seleccione la opción "**Crear Lista de Precios**".
 
     Esta opción permite crear los precios de los productos desde la última orden de compra procesada, basandose en el tipo de conversión, descuento y margen de ganancia, previamente configurado en el esquema de descuento. 
 
@@ -132,13 +132,13 @@ En base a las especificaciones nombradas anteriormente, se procede a explicar el
 
         También puede acceder al proceso, seleccionando la opción "**Crear Lista de Precios**" desplegada del icono "**Proceso** ubicado en la barra de herramientas de ADempiere.
 
-#. Podrá visualizar la ventana "**Crear Lista de Precios**", con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
+Podrá visualizar la ventana "**Crear Lista de Precios**", con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
 
     |ventana crear lista de precios para lista de precios desde última oc procesada|
 
     Imagen 13. Ventana Crear Lista de Precios
 
-#. Seleccione en el campo "**Producto**", el producto por el cual requiere generar la lista de precios.
+Seleccione en el campo "**Producto**", el producto por el cual requiere generar la lista de precios.
 
     Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todos los productos.
 
@@ -146,7 +146,7 @@ En base a las especificaciones nombradas anteriormente, se procede a explicar el
 
     Imagen 14. Campo Producto
 
-#. Seleccione en el campo "**Categoría del Producto**", la categoría del producto por la cual requiere generar la lista de precios.
+Seleccione en el campo "**Categoría del Producto**", la categoría del producto por la cual requiere generar la lista de precios.
 
     Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las categorías de productos.
 
@@ -154,7 +154,7 @@ En base a las especificaciones nombradas anteriormente, se procede a explicar el
 
     Imagen 15. Campo Categoría del Producto
 
-#. Seleccione en el campo "**Grupo de Producto**", el grupo de producto por el cual requiere generar la lista de precios.
+Seleccione en el campo "**Grupo de Producto**", el grupo de producto por el cual requiere generar la lista de precios.
 
     Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todos los grupos de productos.
 
@@ -162,7 +162,7 @@ En base a las especificaciones nombradas anteriormente, se procede a explicar el
 
     Imagen 16. Campo Grupo de Producto
 
-#. Seleccione en el campo "**Clase de Producto**", la clase de producto por la cual requiere generar la lista de precios.
+Seleccione en el campo "**Clase de Producto**", la clase de producto por la cual requiere generar la lista de precios.
 
     Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las clases de productos.
 
@@ -170,7 +170,7 @@ En base a las especificaciones nombradas anteriormente, se procede a explicar el
 
     Imagen 17. Campo Clase de Producto
 
-#. Seleccione en el campo "**Clasificación de Producto**", la clasificación por la cual requiere generar la lista de precios.
+Seleccione en el campo "**Clasificación de Producto**", la clasificación por la cual requiere generar la lista de precios.
 
     Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las clasificaciones de productos.
 
@@ -178,13 +178,13 @@ En base a las especificaciones nombradas anteriormente, se procede a explicar el
 
     Imagen 18. Campo Clasificación de Producto
 
-#. Seleccione la opción "**OK**", para ejecutar el proceso y generar la lista de precios en base a lo seleccionado.
+Seleccione la opción "**OK**", para ejecutar el proceso y generar la lista de precios en base a lo seleccionado.
 
     |opción ok de la ventana crear lista de precios para lista de precios desde última oc procesada|
 
     Imagen 19. Opción OK
 
-#. Seleccione la pestaña "**Precio de Producto**" para verificar los precios de los productos, creados desde la pestaña "**Compras**" de cada producto.
+Seleccione la pestaña "**Precio de Producto**" para verificar los precios de los productos, creados desde la pestaña "**Compras**" de cada producto.
 
     |pestaña precio de producto para la lista de precios desde última oc procesada|
 

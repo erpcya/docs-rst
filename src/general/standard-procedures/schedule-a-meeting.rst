@@ -71,28 +71,28 @@ Normalmente las conversaciones entre `ERPyA`_ y los clientes es a través de `Sl
 **¿Qué se debe tomar en cuenta antes de la reunión?**
 -----------------------------------------------------
 
-#. Una agenda clara de los puntos a tratar: Es muy importante tener claro cual es la agenda de la reunión, esto ayudará a los participantes a prepararse para no tomar tiempo de la reunión en repaso de tareas olvidadas
+Una agenda clara de los puntos a tratar: Es muy importante tener claro cual es la agenda de la reunión, esto ayudará a los participantes a prepararse para no tomar tiempo de la reunión en repaso de tareas olvidadas
 
-#. El objetivo final de la reunión: Es muy bueno que cada uno de los participantes pueda conocer lo que se logrará al finalizar la reunión (Toma de decisión entre otros).
+El objetivo final de la reunión: Es muy bueno que cada uno de los participantes pueda conocer lo que se logrará al finalizar la reunión (Toma de decisión entre otros).
 
-#. El tiempo máximo de la reunión: Permitirá planificar el trabajo de cada uno de los participantes, hay personas que tienen actividades con un horario estricto y no se pueden solapar con una reunión con exceso de tiempo.
+El tiempo máximo de la reunión: Permitirá planificar el trabajo de cada uno de los participantes, hay personas que tienen actividades con un horario estricto y no se pueden solapar con una reunión con exceso de tiempo.
 
 **¿Cuanto es el tiempo máximo para una reunión?**
 -------------------------------------------------
 
 Las reglas de Percolate para las reuniones: 
 
-#. ¿Realmente hace falta una reunión? 
+¿Realmente hace falta una reunión? 
 
-#. Por norma, las reuniones deben durar 15 minutos. 
+Por norma, las reuniones deben durar 15 minutos. 
 
-#. Sin espectadores. 
+Sin espectadores. 
 
-#. Di de entrada tu objetivo. 
+Di de entrada tu objetivo. 
 
-#. Decide tareas y asígnalas. 
+Decide tareas y asígnalas. 
 
-#. No traigas ordenadores ni teléfonos).
+No traigas ordenadores ni teléfonos).
 
 Para el caso de `ERPyA`_ es conveniente que las reuniones no excedan los **45 minutos**, las reuniones extensas solo crean cansancio y en lugar de ayudar a avanzar solo generan un ambiente que no ayuda a la toma de decisiones.
 

@@ -12,11 +12,11 @@ El Salario Acumulado para Utilidades representa el monto total devengado por el 
 
 Para obtener dicho reporte debemos configurarlo con los siguientes campos:
 
-#. **Nómina**: Seleccionamos la nómina regular del trabajador
+**Nómina**: Seleccionamos la nómina regular del trabajador
 
-#. **Proceso de Nómina**: Seleccione el proceso de nómina regular en la que desee conocer cuál fue el monto obtenido por concepto acumulado utilidades.
+**Proceso de Nómina**: Seleccione el proceso de nómina regular en la que desee conocer cuál fue el monto obtenido por concepto acumulado utilidades.
 
-#. **Configuración del Reporte de Nómina**: **Salario Acumulado Utilidades**
+**Configuración del Reporte de Nómina**: **Salario Acumulado Utilidades**
 
 |Reporte Salario para Utilidades|
 
@@ -25,7 +25,7 @@ Imagen 1. Parámetros para obtener el reporte salario para utilidades.
 
 Para este reporte está configurado la plantilla "**Resumen de Pago**"
 
-#. "**Resumen de Pago**": Está plantilla de reporte de nómina nos permitirá conocer de manera resumida el monto del concepto **Acumulado Utilidades**. Presentará por cada uno  de los empleados un monto total de este concepto
+"**Resumen de Pago**": Está plantilla de reporte de nómina nos permitirá conocer de manera resumida el monto del concepto **Acumulado Utilidades**. Presentará por cada uno  de los empleados un monto total de este concepto
 
    Los campos que podrá visualizar en este reporte son:
 

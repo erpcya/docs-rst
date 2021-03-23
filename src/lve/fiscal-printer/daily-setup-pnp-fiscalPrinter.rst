@@ -8,9 +8,9 @@ Verificación por impresora al inicio del día:
 ---------------------------------------------
 
 
-#. Ejecutar con el Arranque de Windows el Script **StartPrintService.bat**
+Ejecutar con el Arranque de Windows el Script **StartPrintService.bat**
 
-#. Con el Script **StartPrintService.bat** ejecutándose en la estación donde se encuentra la impresora fiscal realizar las siguientes pruebas:
+Con el Script **StartPrintService.bat** ejecutándose en la estación donde se encuentra la impresora fiscal realizar las siguientes pruebas:
 
    Ingresando con el usuario asignado, ubicar el proceso **Configuración de Impresora Fiscal** y ejecutar el proceso con los parámetros:
 
@@ -52,10 +52,10 @@ Verificación por impresora al inicio del día:
 
       Descripción de los campos:
 
-      #. Campo 3: Contiene el valor de secuencia almacenado en la memoria
+      Campo 3: Contiene el valor de secuencia almacenado en la memoria
          fiscal que será utilizado para validar el próximo comando.
 
-      #. Campo 4: Contiene un código Hexadecimal de dos bytes que indica el
+      Campo 4: Contiene un código Hexadecimal de dos bytes que indica el
          estado actual de la impresora:
 
          +-----------------------------------+-----------------------------------+
@@ -116,22 +116,22 @@ Verificación por impresora al inicio del día:
          |                                   | de DESARROLLOS PNP, C.A.          |
          +-----------------------------------+-----------------------------------+
 
-      #. Campo 5: Contiene un código hexadecimal de dos bytes que indica cual
+      Campo 5: Contiene un código hexadecimal de dos bytes que indica cual
          fue el último comando procesado con éxito.
 
-      #. Campo 6: Fecha en la impresora fiscal. Formato “AAMMDD”
+      Campo 6: Fecha en la impresora fiscal. Formato “AAMMDD”
 
-      #. Campo 7: Hora en la impresora fiscal. Formato “HHMMSS”
+      Campo 7: Hora en la impresora fiscal. Formato “HHMMSS”
 
-      #. Campo 8: Facturas fiscales emitidos en el periodo.
+      Campo 8: Facturas fiscales emitidos en el periodo.
 
-      #. Campo 9: Documentos no fiscales emitidos en el periodo.
+      Campo 9: Documentos no fiscales emitidos en el periodo.
 
-      #. Campo 10: Facturas fiscales acumuladas.
+      Campo 10: Facturas fiscales acumuladas.
 
-      #. Campo 11: Documentos no fiscales acumulados.
+      Campo 11: Documentos no fiscales acumulados.
 
-      #. Campo 12: Es el Número del último reporte Z efectuado.
+      Campo 12: Es el Número del último reporte Z efectuado.
 
    El ejecutar proceso con el comando Obtener Estado de Impresora, resulta
    útil para verificar la conexión entre ADempiere y la Impresora, ademas
@@ -139,7 +139,7 @@ Verificación por impresora al inicio del día:
    impresora donde el valor ideal deber ser 00, ya que cualquier otro
    estado se puede interpretar como un error, y es necesaria una revisión
    mas a fondo.
-#.  Estando Verificada la comunicación entre ADempiere y la Impresora Fiscal se debe usar el Proceso **Imprimir Reporte Fiscal** :
+ Estando Verificada la comunicación entre ADempiere y la Impresora Fiscal se debe usar el Proceso **Imprimir Reporte Fiscal** :
 
    ====================== ===============================
    Parámetro              Valor

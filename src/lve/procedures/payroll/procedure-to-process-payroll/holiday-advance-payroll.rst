@@ -16,24 +16,24 @@
 Para procesar una “**Nómina de Anticipo de Vacaciones**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de anticipo de vacaciones, en el comportamiento de está nómina usted evidenciará la asignación de días de disfrute de vacaciones, mientras que la asignación de bono vacacional estará representada solamente en la nómina de vacaciones, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
 
-#. Estatus del Documento:
+Estatus del Documento:
 
 
-    #. Seleccione “**Nómina  Vacaciones**” en el campo “**Tipo de Documento**”
+    Seleccione “**Nómina  Vacaciones**” en el campo “**Tipo de Documento**”
 
  	    El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
 
-    #. Selecciones “**Nómina Anticipo de Vacaciones**” en el campo “**Nómina**”
+    Selecciones “**Nómina Anticipo de Vacaciones**” en el campo “**Nómina**”
 
 	    La nómina de anticipo de vacaciones define el comportamiento de la nómina, para este caso por ser una nómina especial cuenta con las siguientes características:
 
-            #. Regla de Pago: Débito Directo
-            #. Contrato de Nómina: Contrato Mensual
-            #. Cargo: Vacaciones por Pagar
+            Regla de Pago: Débito Directo
+            Contrato de Nómina: Contrato Mensual
+            Cargo: Vacaciones por Pagar
 
-    #. Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
+    Seleccione la fecha en la que esté ejecutando la nómina en el campo **Fecha Contable**
 
-    #. Seleccione el “**Socio de Negocio Empleado**” a quién se le procesa la nómina de anticipo de vacaciones en el campo **Socio de Negocio**:
+    Seleccione el “**Socio de Negocio Empleado**” a quién se le procesa la nómina de anticipo de vacaciones en el campo **Socio de Negocio**:
    
 
       |Nómina Anticipo de Vacaciones|
@@ -45,7 +45,7 @@ Para procesar una “**Nómina de Anticipo de Vacaciones**” debemos realizar e
         Está nómina  por ser una nómina especial no debe registrarse con período
 
 	
-#. Incidencias:
+Incidencias:
 
       Para esta nómina son obligatorias las incidencias, es decir, que antes de procesar la nómina de vacaciones debe registrar al empleado las siguientes incidencias 
 
@@ -65,7 +65,7 @@ Para procesar una “**Nómina de Anticipo de Vacaciones**” debemos realizar e
 
         Imagen 2. Novedades Anticipo de Vacaciones 
 
-#. Resultados:
+Resultados:
 
     _"**Reportes**"
 
