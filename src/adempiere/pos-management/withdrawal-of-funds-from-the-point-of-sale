@@ -70,12 +70,19 @@ En dicha ventana podrá visualizar un listado de referencia con las diferentes f
     Como ejemplo del proceso de retiro de fondos desde el punto de venta se tienen las siguientes transacciones en "**Caja 04**":
 
     - Transacciones del punto de venta del día "**01/09/2020**".
+
         - **Apertura de Caja**
+
             - 1.000.000,00 en Moneda "**VES**"
+
         - **Formas de Pago Recibidas por Ventas**
+
             - Efectivo en Moneda "**VES**"
+
                 - 348.000,00
+
             - Transferencia en Moneda "**VES**"
+
                 - 466.000,00
 
 Introduzca en el campo "**Monto**" del listado de referencia, el monto correspondiente al retiro de fondos por cada forma de pago en una misma moneda. Para este caso, se ingresa en el campo "**Monto**" de la forma de pago "**Efectivo**", correspondiente a la moneda "**VES**", el monto total de "**1.348.000,00**". Adicional a ello, se ingresa en el campo "**Monto**" de la forma de pago "**Cuenta**", correspondiente a la moneda "**VES**", el monto total de "**466.000,00**" y en el campo "**No. de Referencia**", el número de referencia de la transferencia "**0002**".

@@ -58,23 +58,32 @@ Podrá visualizar la ventana "**Retiro de Caja (Detallado)**", con diferentes ca
 
     Imagen 3. Ventana Retiro de Caja (Detallado)
 
-    .. note::
+    Como ejemplo del proceso de retiro de fondos desde el punto de venta se tienen las siguientes transacciones en "**Caja 01**":
 
-        Como ejemplo del proceso de retiro de fondos desde el punto de venta se tienen las siguientes transacciones en "**Caja 01**":
+    - Transacciones del punto de venta del día "**10/02/2021**".
 
-        - Transacciones del punto de venta del día "**10/02/2021**".
-            - **Apertura de Caja**
-                - 100,00 en Moneda "**USD**"
-            - **Formas de Pago Recibidas por Ventas**
-                - Efectivo en Moneda "**USD**"
-                    - 10,00
-                - Transferencia en Moneda "**VES**"
-                    - 5.917.563,54
-                - Pago Móvil en Moneda "**VES**"
-                    - 70.000.000,00
-                - Débito Directo en Moneda "**VES**"
-                    - 40.577.378,71
-  
+        - **Apertura de Caja**
+
+            - 100,00 en Moneda "**USD**"
+
+        - **Formas de Pago Recibidas por Ventas**
+
+            - Efectivo en Moneda "**USD**"
+
+                - 10,00
+
+            - Transferencia en Moneda "**VES**"
+
+                - 5.917.563,54
+
+            - Pago Móvil en Moneda "**VES**"
+
+                - 70.000.000,00
+
+            - Débito Directo en Moneda "**VES**"
+
+                - 40.577.378,71
+
     El retiro detallado de la caja, se debe realizar por moneda. Para el caso de la moneda "**VES**", se debe tildar de manera **Obligatoria**, el check "**Dividir Depósitos**", para que ADempiere genere un egreso de caja POS por el total de los movimientos con dicha moneda y un ingreso a caja administrativa por cada uno de los movimientos de cobro de dicha moneda.
 
 En el campo "**Terminal PDV**", podrá visualizar el terminal asociado al punto de venta desde el que accedió al proceso.
