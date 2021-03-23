@@ -149,7 +149,7 @@ htmlhelp_basename = 'DocsErpya'
 
 
 # -- Options for LaTeX output ------------------------------------------------
-fh = open('latex_preamble.tex', 'r+')
+fh = open('index.rst', 'r+')
 PREAMBLE = fh.read()
 fh.close()
 latex_elements = {
