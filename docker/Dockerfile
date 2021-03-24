@@ -1,4 +1,4 @@
-FROM readthedocs/build:latest as build
+FROM readthedocs/build:mini-erp as build
 MAINTAINER Carlos Parada "cparada@erpya.com"
 
 ARG BUILD_TAG
@@ -14,8 +14,8 @@ RUN pip install sphinx && \
     echo "Make Documentation..." && \
     make html && \
     make htmladmaster && \
-    git checkout -b adempiere-3.7 && \
-    make htmlad37 && \
+    git checkout -b mini-erp && \
+    make htmladmini-erp && \
     git checkout -b 4.0.0 && \
     make htmlad40 && \
     make epub
