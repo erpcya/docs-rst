@@ -139,7 +139,8 @@ Con el Script **StartPrintService.bat** ejecutándose en la estación donde se e
    impresora donde el valor ideal deber ser 00, ya que cualquier otro
    estado se puede interpretar como un error, y es necesaria una revisión
    mas a fondo.
- Estando Verificada la comunicación entre ADempiere y la Impresora Fiscal se debe usar el Proceso **Imprimir Reporte Fiscal** :
+
+Estando Verificada la comunicación entre ADempiere y la Impresora Fiscal se debe usar el Proceso **Imprimir Reporte Fiscal** :
 
    ====================== ===============================
    Parámetro              Valor
