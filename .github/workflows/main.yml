@@ -6,9 +6,9 @@ name: docs-deploy
 # events but only for the master branch
 on:
   push:
-    branches: [ 09/12/2020 ]
+    branches: [ master ]
   pull_request:
-    branches: [ 09/12/2020 ]
+    branches: [ master ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -21,10 +21,10 @@ jobs:
         pre-build-command: "pip install sphinx_rtd_theme"
         docs-folder: "src/"
         build-command: "sphinx-build -b html . _build/html"
- #   - uses: actions/upload-artifact@v1
- #     with:
- #       name: DocumentationHTML
- #       path: src/_build/html/
+    - uses: actions/upload-artifact@v1
+      with:
+        name: DocumentationHTML
+        path: src/_build/html/
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
@@ -36,7 +36,7 @@ jobs:
         path: src/_build/latex/erpya.pdf
     - name: Commit documentation changes
       run: |
-        git clone https://github.com/TaniaLucena/docs-1.git --branch gh-pages --single-branch gh-pages
+        git clone https://github.com/erpcya/docs.git --branch gh-pages --single-branch gh-pages
         cp -r src/_build/html/* gh-pages/
         cd gh-pages
         touch .nojekyll
