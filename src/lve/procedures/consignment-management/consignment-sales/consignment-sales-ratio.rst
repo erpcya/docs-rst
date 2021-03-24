@@ -76,10 +76,13 @@ Realice el procedimiento regular para crear un documento por pagar, dicho proced
 
         El documento por pagar deber ser creado bajo las siguientes restricciones:
 
-            - **Descripción:** Indicar el rango de fecha utilizado para generar el reporte "**Venta de Productos por Proveedor**".
-            - **Fecha de Facturación**: Fecha en la cual se crea el registro de factura por pagar (pre-factura)
-            - **Lista de Precios:** Compras (VES)
-            - **Tipo de Conversión:** BCV
+        - **Descripción:** Indicar el rango de fecha utilizado para generar el reporte "**Venta de Productos por Proveedor**".
+
+        - **Fecha de Facturación**: Fecha en la cual se crea el registro de factura por pagar (pre-factura)
+
+        - **Lista de Precios:** Compras (VES)
+
+        - **Tipo de Conversión:** BCV
 
 Luego de cargar la información necesaria en la pestaña principal "**Factura**", seleccione el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
