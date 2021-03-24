@@ -28,7 +28,7 @@
 
 Para realizar una transferencia bancaria en ADempiere deben seguir los siguientes pasos:
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
+Ubique yseleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luegoseleccione el proceso "**Transferencia Bancaria**".
     
     |Menú de ADempiere|
 
@@ -40,7 +40,7 @@ Podrá visualizar la ventana del proceso "**Transferencia Bancaria**" y proceder
 
     Imagen 2. Ventana Transferencia Bancaria
 
- Seleccione en el campo "**Cuenta bancaria desde**", la cuenta a debitar el monto de la transferencia realizada.
+Seleccione en el campo "**Cuenta bancaria desde**", la cuenta a debitar el monto de la transferencia realizada.
 
     |Campo Cuenta Bancaria Desde|
 
@@ -50,7 +50,7 @@ Podrá visualizar la ventana del proceso "**Transferencia Bancaria**" y proceder
 
         La cuenta a debitar desde es la cuenta bancaria de donde saldrá la transferencia.
 
- Seleccione en el campo "**Cuenta Bancaria a Transferir**", la cuenta a acreditar el monto de la transferencia realizada.
+Seleccione en el campo "**Cuenta Bancaria a Transferir**", la cuenta a acreditar el monto de la transferencia realizada.
 
     |Campo Cuenta Bancaria a Transferir|
 
@@ -60,19 +60,19 @@ Podrá visualizar la ventana del proceso "**Transferencia Bancaria**" y proceder
 
         La cuenta bancaria a transferir, es la cuenta en donde caerá la transferencia.
 
- Seleccione en el campo "**Socio del Negocio**", el socio del negocio titular de la cuenta seleccionada.
+Seleccione en el campo "**Socio del Negocio**", el socio del negocio titular de la cuenta seleccionada.
 
     |Campo Socio del Negocio|
 
     Imagen 5. Campo Socio del Negocio
 
- Seleccione en el campo "**Moneda**", la moneda en la cual fue realizada la transferencia.
+Seleccione en el campo "**Moneda**", la moneda en la cual fue realizada la transferencia.
 
     |Campo Moneda|
 
     Imagen 6. Campo Moneda
 
- Seleccione en el campo "**Cargo**", el cargo correspondiente a la transferencia entre cuentas que se está realizando.
+Seleccione en el campo "**Cargo**", el cargo correspondiente a la transferencia entre cuentas que se está realizando.
 
     |Campo Cargo|
 
@@ -82,7 +82,7 @@ Podrá visualizar la ventana del proceso "**Transferencia Bancaria**" y proceder
 
         El cargo a colocar en la transferencia bancaria depenrá de que tipo de transferencia se este realizando.
 
- Introduzca en el campo "**No. del Documento**", la referencia correspondiente a la transferencia bancaria realizada.
+Introduzca en el campo "**No. del Documento**", la referencia correspondiente a la transferencia bancaria realizada.
 
     |Campo No. del Documento|
 
@@ -92,7 +92,7 @@ Podrá visualizar la ventana del proceso "**Transferencia Bancaria**" y proceder
 
         El número de documento a colocar en este campo es el número de la transferencia bancaria realizada del banco colocado en el  campo "**Cuenta bancaria desde**".
 
- Introduzca en el campo "**Documento Destino**", la referencia correspondiente a la transferencia bancaria realizada.
+Introduzca en el campo "**Documento Destino**", la referencia correspondiente a la transferencia bancaria realizada.
 
     |Campo Documento Destino|
 
@@ -102,13 +102,13 @@ Podrá visualizar la ventana del proceso "**Transferencia Bancaria**" y proceder
 
         El número de documento a colocar en este campo es el número de la transferencia bancaria realizada al banco seleccionado en el campo "**Cuenta Bancaria a Transferir**" (banco destino),el llenado de este campo aplicaría para aquellas transacciones de intercompañía el cual el personal que esté realizado el procedimiento conozca el número de transferencia en ambas cuentas bancarias (Banco a emisor/banco destino), si se desconoce el número de transferencia simplemente no se coloca, este campo no es un campo obligatorio por ello se puede obviar el llenado de este campo.
 
- Introduzca en el campo "**Monto**", el monto total de la transferencia bancaria realizada.
+Introduzca en el campo "**Monto**", el monto total de la transferencia bancaria realizada.
 
     |Campo Monto|
 
     Imagen 10. Campo Monto 
 
- Introduzca en el campo "**Descripción**", una breve descripción referente a la transferencia entre cuentas que está realizando.
+Introduzca en el campo "**Descripción**", una breve descripción referente a la transferencia entre cuentas que está realizando.
 
     |Campo Descripción|
 

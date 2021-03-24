@@ -170,7 +170,7 @@ En el caso de los retiros en moneda "**VES**", tilde el check "**Dividir Depósi
 
     Imagen 17. Check Dividir Depósitos
 
-Seleccione en el campo "**Cargo**", el cargo que justifica el retiro de fondos del dinero de la caja. Para este caso, es utilizado como ejemplo el cargo "**Efectivo en Tránsito Administración Ventas**".
+Seleccione en el campo "**Cargo**", el cargo que justifica el retiro de fondos del dinero de la caja. Para este caso, es utilizado como ejemplo el cargo "**Efectivo en Tránsito Administración**".
 
     |campo cargo del retiro detallado|
 

@@ -12,6 +12,7 @@ Luego de completar la selección de pago y de generar los pagos de nómina en la
 Cabe acotar que debe realizar la transferencia según el monto transferido a cada empleado
 
     Si usted utiliza un txt para transferirle a todo el personal puede realizar una transferencia por el monto total del pago a los trabajadores.
+
     Si usted paga particularmente a cada uno de sus empleados debe realizar una transferencia por cada pago que fué realizado para cada uno de sus empleados.
 
 .. warning::
@@ -36,7 +37,7 @@ Seleccione en el campo "**Documento Destino**" el mismo número de documento que
 Seleccione en el campo "**Monto**" el monto total de la selección de pago que realizó anteriormente, ubique en la selección de pago el campo total total y allí encontrará el monto total de la selección de pago.
 
 Seleccione en el campo "**Descripción**" una breve descripción de la transferencia realizada.
-	
+
 Seleccione en el campo "**Fecha de Estado de Cuenta**" la misma fecha con la que registró su selección de pago.
 
 Seleccione en el campo "**Fecha Contable**" la misma fecha con la que registró su selección de pago.
