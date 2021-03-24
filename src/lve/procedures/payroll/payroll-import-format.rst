@@ -1,6 +1,5 @@
 .. _documento/formato-de-importación-de-nómina:
 
-======================================
 **Formatos de Importación de Nóminas**
 ======================================
 
