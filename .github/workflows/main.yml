@@ -30,10 +30,10 @@ jobs:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
         build-command: "make latexpdf"
         docs-folder: "src/"
-    - uses: actions/upload-artifact@v1
-      with:
-        name: DocumentationPDF
-        path: src/_build/latex/erpya.pdf
+#    - uses: actions/upload-artifact@v1
+#      with:
+#        name: DocumentationPDF
+#        path: src/_build/latex/erpya.pdf
     - name: Commit documentation changes
       run: |
         git clone https://github.com/TaniaLucena/docs-1.git --branch gh-pages --single-branch gh-pages
