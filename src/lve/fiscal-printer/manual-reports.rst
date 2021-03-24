@@ -142,8 +142,8 @@ Para emitir este reporte debe presionar las teclas "**Dump Fecha**" y "**OK**" a
     .. documento/generar-reporte-11
 
     .. figure:: resorces/generate-report-by-days1.jpg
-    :align: center
-    :alt: Generar Reporte por Mes
+       :align: center
+       :alt: Generar Reporte por Mes
 
     Imagen 11. Generar Reporte
 

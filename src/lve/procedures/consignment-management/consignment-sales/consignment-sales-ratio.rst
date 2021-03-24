@@ -55,7 +55,7 @@ Adicional a ello, la venta no debe estar incluida en ningún documento por pagar
 **Reporte de Venta de Productos por Proveedor**
 -----------------------------------------------
 
-Genere el reporte "**Venta de Productos por Proveedor**", filtrando por el socio del negocio proveedor y el rango de fecha de facturación.
+#. Genere el reporte "**Venta de Productos por Proveedor**", filtrando por el socio del negocio proveedor y el rango de fecha de facturación.
 
     |reporte venta de productos por proveedor|
 
@@ -70,7 +70,7 @@ Genere el reporte "**Venta de Productos por Proveedor**", filtrando por el socio
 **Registrar Documento por Pagar**
 ---------------------------------
 
-Realice el procedimiento regular para crear un documento por pagar, dicho procedimiento se encuentra explicado en el material :ref:`documento/documento-por-pagar`, elaborado por `ERPyA`_.
+#. Realice el procedimiento regular para crear un documento por pagar, dicho procedimiento se encuentra explicado en el material :ref:`documento/documento-por-pagar`, elaborado por `ERPyA`_.
 
     .. note::
 
@@ -84,19 +84,19 @@ Realice el procedimiento regular para crear un documento por pagar, dicho proced
 
         - **Tipo de Conversión:** BCV
 
-Luego de cargar la información necesaria en la pestaña principal "**Factura**", seleccione el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+#. Luego de cargar la información necesaria en la pestaña principal "**Factura**", seleccione el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
     |icono proceso de la ventana documentos por pagar|
 
     Imagen 2. Icono Proceso de la Ventana Documentos por Pagar
 
-Seleccione la opción "**Crear Líneas desde Facturas de Entrega Directa**", desplegada por la selección del icono "**Proceso**".
+#. Seleccione la opción "**Crear Líneas desde Facturas de Entrega Directa**", desplegada por la selección del icono "**Proceso**".
 
     |opción crear líneas desde facturas de entrega directa|
 
     Imagen 3. Opción Crear Líneas desde Facturas de Entrega Directa
 
-Podrá visualizar la ventana del proceso con diferentes campos que permiten filtrar la información de las ventas.
+#. Podrá visualizar la ventana del proceso con diferentes campos que permiten filtrar la información de las ventas.
 
     .. note::
 
@@ -116,115 +116,115 @@ Podrá visualizar la ventana del proceso con diferentes campos que permiten filt
 
     Imagen 4. Ventana del Proceso Crear Líneas desde Facturas de Entrega Directa
 
-    En el campo "**Socio del Negocio**", podrá visualizar el socio del negocio seleccionado en la pestaña principal "**Factura**".
+    #. En el campo "**Socio del Negocio**", podrá visualizar el socio del negocio seleccionado en la pestaña principal "**Factura**".
 
         |campo socio del negocio del proceso|
 
         Imagen 5. Campo Socio del Negocio
 
-    Seleccione el check "**Entrega Directa Asignada**", para filtrar la búsqueda de información por entrega directa asignada.
+    #. Seleccione el check "**Entrega Directa Asignada**", para filtrar la búsqueda de información por entrega directa asignada.
 
         |check encuentra directa del proceso|
 
         Imagen 6. Check Entrega Directa
 
-    Seleccione en el campo "**Clase de Producto**", la clase de producto para filtrar la búsqueda de información.
+    #. Seleccione en el campo "**Clase de Producto**", la clase de producto para filtrar la búsqueda de información.
 
         |campo clase de producto|
 
         Imagen 7. Campo Clase de Producto
 
-    Seleccione en el campo "**Grupo de Producto**", el grupo de producto para filtrar la búsqueda de información.
+    #. Seleccione en el campo "**Grupo de Producto**", el grupo de producto para filtrar la búsqueda de información.
 
         |campo grupo de producto del proceso|
 
         Imagen 8. Campo Grupo de Producto
 
-    Seleccione en el campo "**Fecha de Facturación**", el rango de fecha de facturación para filtrar la búsqueda de información.
+    #. Seleccione en el campo "**Fecha de Facturación**", el rango de fecha de facturación para filtrar la búsqueda de información.
 
         |campo fecha de facturación del proceso|
 
         Imagen 9. Campo Fecha de Facturación
 
-    Seleccione en el campo "**Agente Comercial**", el agente comercial para filtrar la búsqueda de información.
+    #. Seleccione en el campo "**Agente Comercial**", el agente comercial para filtrar la búsqueda de información.
 
         |campo agente comercial del proceso|
 
         Imagen 10. Campo Agente Comercial
 
-    Seleccione en el campo "**Categoría del Producto**", la categoría del producto para filtrar la búsqueda de información.
+    #. Seleccione en el campo "**Categoría del Producto**", la categoría del producto para filtrar la búsqueda de información.
 
         |campo categoría del producto del proceso|
 
         Imagen 11. Campo Categoría del Producto
 
-    Seleccione en el campo "**Clasificación de Producto**", la clasificación de producto para filtrar la búsqueda de información.
+    #. Seleccione en el campo "**Clasificación de Producto**", la clasificación de producto para filtrar la búsqueda de información.
 
         |campo clasificación de producto del proceso|
 
         Imagen 12. Campo Clasificación de Producto
 
-    Seleccione en el campo "**Producto**", el producto para filtrar la búsqueda de información.
+    #. Seleccione en el campo "**Producto**", el producto para filtrar la búsqueda de información.
 
         |campo producto del proceso|
 
         Imagen 13. Campo Producto del Proceso
 
-    Seleccione en el campo "**Orden de Venta**", la orden de venta para filtrar la búsqueda de información.
+    #. Seleccione en el campo "**Orden de Venta**", la orden de venta para filtrar la búsqueda de información.
 
         |campo orden de venta del proceso|
 
         Imagen 14. Campo Orden de Venta
 
-    Seleccione la opción "**Comenzar Búsqueda**", para filtrar la información en base a lo seleccionado anteriormente.
+    #. Seleccione la opción "**Comenzar Búsqueda**", para filtrar la información en base a lo seleccionado anteriormente.
 
         |opción comenzar búsqueda del proceso|
 
         Imagen 15. Opción Comenzar Búsqueda
 
-    Seleccione todos los registros filtrados por el proceso.
+    #. Seleccione todos los registros filtrados por el proceso.
 
         |selección de registros filtrados|
 
         Imagen 16. Selección de Registros 
 
-    Seleccione la opción "**OK**", para cargar a la pestaña "**Línea de Factura**", la información seleccionada anteriormente.
+    #. Seleccione la opción "**OK**", para cargar a la pestaña "**Línea de Factura**", la información seleccionada anteriormente.
 
         |opción ok de proceso|
 
         Imagen 17. Opción OK
 
-Seleccione el icono "**Refrescar**", ubicado en la barra de herramientas de ADempiere, para actualizar la ventana "**Documentos por Pagar**" y se pueda visualizar la información cargada desde el proceso.
+#. Seleccione el icono "**Refrescar**", ubicado en la barra de herramientas de ADempiere, para actualizar la ventana "**Documentos por Pagar**" y se pueda visualizar la información cargada desde el proceso.
 
     |icono refrescar|
 
     Imagen 18. Icono Refrescar
 
-Seleccione la pestaña "**Línea de Factura**", para revisar y verificar la información cargada desde el proceso.
+#. Seleccione la pestaña "**Línea de Factura**", para revisar y verificar la información cargada desde el proceso.
 
     |pestaña línea de factura|
 
     Imagen 19. Pestaña Línea de Factura
 
-Seleccione la pestaña principal "**Factura**", para completar el registro del documento por pagar.
+#. Seleccione la pestaña principal "**Factura**", para completar el registro del documento por pagar.
 
     |pestaña principal factura|
 
     Imagen 20. Pestaña Principal Factura
 
-    Seleccione el icono "**Imprimir**", ubicado en la barra de herramientas de ADempiere.
+    #. Seleccione el icono "**Imprimir**", ubicado en la barra de herramientas de ADempiere.
 
         |icono imprimir de la ventana documento por pagar|
 
         Imagen 21. Icono Imprimir
 
-    Podrá visualizar la ventana "**Factura de Ventas**", con el reporte del documento por pagar creado anteriormente en estado "**Borrador**".
+    #. Podrá visualizar la ventana "**Factura de Ventas**", con el reporte del documento por pagar creado anteriormente en estado "**Borrador**".
 
         |ventana factura de ventas|
 
         Imagen 22. Ventana Factura de Ventas
 
-    Seleccione el icono "**Imprimir**", de la ventana "**Factura de Ventas**".
+    #. Seleccione el icono "**Imprimir**", de la ventana "**Factura de Ventas**".
 
         |icono imprimir de la ventana factura de ventas|
 
@@ -235,7 +235,7 @@ Seleccione la pestaña principal "**Factura**", para completar el registro del d
 **Reporte Detalles de Facturas y Margen**
 -----------------------------------------
 
-Genere el reporte "**Detalles de Facturas y Margen**", filtrando por los siguientes campos.
+#. Genere el reporte "**Detalles de Facturas y Margen**", filtrando por los siguientes campos.
 
     - **Transacción de Ventas:** No
     - **Fecha de Facturación:** 28/12/2020 - 31/12/2020
@@ -249,7 +249,7 @@ Genere el reporte "**Detalles de Facturas y Margen**", filtrando por los siguien
 
     Imagen 24. Reporte Detalles de Facturas y Margen
 
-Seleccione en el campo "**Formato de Impresión**", el formato de impresión "**Relación de Productos en Consignación**", para visualizar el reporte "**Detalles de Facturas y Margen**", convertido.
+#. Seleccione en el campo "**Formato de Impresión**", el formato de impresión "**Relación de Productos en Consignación**", para visualizar el reporte "**Detalles de Facturas y Margen**", convertido.
 
     |reporte detalles de facturas y margen convertido|
 
@@ -266,104 +266,103 @@ Seleccione en el campo "**Formato de Impresión**", el formato de impresión "**
 **Adecuación del Documento por Pagar**
 --------------------------------------
 
-Luego de que el proveedor entrega la factura a cuentas por pagar, se debe comparar la pre-factura con la misma y verificar los datos, para luego ir modificando sus campos hasta que la pre-factura sea igual a la factura entregada por el proveedor. Para ello, debe realizar el siguiente procedimiento.
+#. Luego de que el proveedor entrega la factura a cuentas por pagar, se debe comparar la pre-factura con la misma y verificar los datos, para luego ir modificando sus campos hasta que la pre-factura sea igual a la factura entregada por el proveedor. Para ello, debe realizar el siguiente procedimiento.
 
-    Ubicar la pre-factura que se encuentra en estado "**Borrador**", buscando por número de documento en la ventana "**Documentos por Pagar**".
+#. Ubicar la pre-factura que se encuentra en estado "**Borrador**", buscando por número de documento en la ventana "**Documentos por Pagar**".
 
-        |ubicar prefactura|
+    |ubicar prefactura|
 
-        Imagen 25. Pre-Factura en Borrador
-    
-    Introduzca en el campo "**No. del Documento**", el número de documento que contiene la factura entregada por el proveedor.
+    Imagen 25. Pre-Factura en Borrador
 
-        |numero de documento en pre factura|
+#. Introduzca en el campo "**No. del Documento**", el número de documento que contiene la factura entregada por el proveedor.
 
-        Imagen 26. Campo No del Documento
+    |numero de documento en pre factura|
 
-    Seleccione en el campo "**Fecha de Facturación**", la fecha de facturación que contiene la factura entregada por el proveedor.
+    Imagen 26. Campo No del Documento
 
-        |fecha de facturación de pre factura|
+#. Seleccione en el campo "**Fecha de Facturación**", la fecha de facturación que contiene la factura entregada por el proveedor.
 
-        Imagen 27. Campo Fecha de Facturación
+    |fecha de facturación de pre factura|
 
-    Seleccione en el campo "**Fecha Contable**", la fecha contable que contiene la factura entregada por el proveedor.
+    Imagen 27. Campo Fecha de Facturación
 
-        |fecha contable de pre factura|
+#. Seleccione en el campo "**Fecha Contable**", la fecha contable que contiene la factura entregada por el proveedor.
 
-        Imagen 28. Campo Fecha Contable
+    |fecha contable de pre factura|
 
-    Introduzca en el campo "**Descripción**", una breve referencia del rango de ventas utilizado para generar los documentos por pagar.
+    Imagen 28. Campo Fecha Contable
 
-        |campo descripción de pre factura|
+Introduzca en el campo "**Descripción**", una breve referencia del rango de ventas utilizado para generar los documentos por pagar.
 
-        Imagen 29. Campo Descripción
+    |campo descripción de pre factura|
 
-    Seleccione en el campo "**Lista de Precios**", la lista de precios que contiene la factura entregada por el proveedor.
+    Imagen 29. Campo Descripción
 
-        |lista de precios de pre factura|
+#. Seleccione en el campo "**Lista de Precios**", la lista de precios que contiene la factura entregada por el proveedor.
 
-        Imagen 30. Campo Lista de Precios
+    |lista de precios de pre factura|
 
-    Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión que contiene la factura entregada por el proveedor.
+    Imagen 30. Campo Lista de Precios
 
-        |tipo de conversión de pre factura|
+#. Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión que contiene la factura entregada por el proveedor.
 
-        Imagen 31. Campo Tipo de Conversión
+    |tipo de conversión de pre factura|
 
-    Introduzca en el campo "**Nro de Control**", el número de control que contiene la factura entregada por el proveedor.
+    Imagen 31. Campo Tipo de Conversión
 
+#. Introduzca en el campo "**Nro de Control**", el número de control que contiene la factura entregada por el proveedor.
 
-        |número de control de pre factura|
+    |número de control de pre factura|
 
-        Imagen 32. Campo Nro de Control 
+    Imagen 32. Campo Nro de Control 
 
-    Seleccione el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere
+#. Seleccione el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere
 
-        |icono proceso de pre factura|
+    |icono proceso de pre factura|
 
-        Imagen 33. Icono Proceso
+    Imagen 33. Icono Proceso
 
-    Seleccione la opción "**Recalcular Tasa para Líneas de Factura**", para recalcular los precios de los productos que contiene la pre-factura, en base a la lista de precios y tipo de conversión seleccionada anteriormente.
+#. Seleccione la opción "**Recalcular Tasa para Líneas de Factura**", para recalcular los precios de los productos que contiene la pre-factura, en base a la lista de precios y tipo de conversión seleccionada anteriormente.
 
-        |opción recalcular tasa para líneas de factura de pre factura|
+    |opción recalcular tasa para líneas de factura de pre factura|
 
-        Imagen 34. Opción Recalcular Tasa para Líneas de Factura
+    Imagen 34. Opción Recalcular Tasa para Líneas de Factura
 
-        Podrá visualizar la ventana del proceso "**Recalcular Tasa para Líneas de Factura**", para recalcular los precios de los productos cargados a la línea de la factura.
+    #. Podrá visualizar la ventana del proceso "**Recalcular Tasa para Líneas de Factura**", para recalcular los precios de los productos cargados a la línea de la factura.
 
-            |ventana del proceso recalcular tasa para líneas de factura de pre factura|
+        |ventana del proceso recalcular tasa para líneas de factura de pre factura|
 
-            Imagen 35. Ventana del Proceso Recalcular Tasa para Líneas de Factura
+        Imagen 35. Ventana del Proceso Recalcular Tasa para Líneas de Factura
 
-        Seleccione la opción "**OK**", para ejecutar el proceso.
+    #. Seleccione la opción "**OK**", para ejecutar el proceso.
 
-            |opción ok de la ventana del proceso recalcular tasa para líneas de factura de pre factura|
+        |opción ok de la ventana del proceso recalcular tasa para líneas de factura de pre factura|
 
-            Imagen 36. Opción OK del Proceso Recalcular Tasa para Líneas de Factura
+        Imagen 36. Opción OK del Proceso Recalcular Tasa para Líneas de Factura
 
-    Seleccione la pestaña "**Línea de Factura**", para verificar que la cantidad y los precios de los productos que contiene la factura sea la misma que contiene la factura entregada por el proveedor.
+#. Seleccione la pestaña "**Línea de Factura**", para verificar que la cantidad y los precios de los productos que contiene la factura sea la misma que contiene la factura entregada por el proveedor.
 
-        |pestaña línea de factura de pre factura|
+    |pestaña línea de factura de pre factura|
 
-        Imagen 37. Pestaña Línea de Factura
+    Imagen 37. Pestaña Línea de Factura
 
-    Seleccione la pestaña principal "**Factura**", y verifique que el monto total de la factura se el mismo que contiene la factura entregada por el proveedor.
+#. Seleccione la pestaña principal "**Factura**", y verifique que el monto total de la factura se el mismo que contiene la factura entregada por el proveedor.
 
-        |pestaña principal factura y monto total de pre factura|
+    |pestaña principal factura y monto total de pre factura|
 
-        Imagen 38. Pestaña Principal Factura
+    Imagen 38. Pestaña Principal Factura
 
-    Seleccione la opción "**Completar**", ubicada en la parte inferior de la ventana "**Documentos por Pagar**".
+#. Seleccione la opción "**Completar**", ubicada en la parte inferior de la ventana "**Documentos por Pagar**".
 
-        |opción completar pre factura|
+    |opción completar pre factura|
 
-        Imagen 39. Opción Completar
+    Imagen 39. Opción Completar
 
-    Seleccione la acción "**Completar**" y la opción "**OK**".
+#. Seleccione la acción "**Completar**" y la opción "**OK**".
 
-        |acción completar y opción ok|
+    |acción completar y opción ok|
 
-        Imagen 40. Acción Completar y Opción OK
+    Imagen 40. Acción Completar y Opción OK
 
 Cuando el proveedor entrega a cuentas por pagar más de una factura correspondientes a una misma pre-factura, se debe realizar por cada una de ellas, el procedimiento :ref:`paso/adecuación-de-documentos-por-pagar`, explicado anteriormente. Modificando en la pestaña "**Línea de Factura**" de la pre-factura, la cantidad de productos para adaptarla a la primera factura generada por el proveedor y posteriormente, registrar las otras facturas bajo el mismo procedimiento.
 
