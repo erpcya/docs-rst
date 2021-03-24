@@ -16,68 +16,67 @@
 
 Para iniciar sesión en el OpenProject acceda a la url indicada anteriormente. 
 
-   |Pantalla Principal| 
- 
-   Imagen 1. Pantalla Principal
-   
+    |Pantalla Principal| 
+
+    Imagen 1. Pantalla Principal
 
 En el lado superior derecho de la pantalla se encuentra la opción "**Ingresar**", misma que debe seleccionar para que se desplacen los campos de acceso a la herramienta. 
 
-   |Inicio de Sesión| 
- 
-   Imagen 2. Inicio de Sesión
+    |Inicio de Sesión| 
+
+    Imagen 2. Inicio de Sesión
 
 Introduzca el usuario y la contraseña que le fue facilitado por la empresa `ERPyA`_ en los campos correspondientes, luego seleccione el boton "**Ingresar**" para acceder al OpenProject. 
 
-   |Ingresar a OpenProject| 
- 
-   Imagen 3. Ingresar a OpenProject
+    |Ingresar a OpenProject| 
+
+    Imagen 3. Ingresar a OpenProject
 
 Al ingresar la interfaz inicial se puede apreciar de la siguiente manera. 
 
-   |Interfaz Inicial| 
- 
-   Imagen 4. Interfaz Inicial
+    |Interfaz Inicial| 
+
+    Imagen 4. Interfaz Inicial
 
 **Interfaz de OpenProject**
 ---------------------------
 
 **Barra Principal de OpenProject** Se encuentra situada en la parte superior de la pantalla y se distingue por su color azul, la misma se compone de las siguientes opciones: 
 
-   |Barra Principal de OpenProject| 
-   
-   Imagen 5. Barra Principal de OpenProject
+    |Barra Principal de OpenProject| 
 
-   "**Seleccione un Proyecto**": Se encuentra en la parte superior izquierda de la pantalla, es utilizado para seleccionar el proyecto en el que se desea navegar.
+    Imagen 5. Barra Principal de OpenProject
 
-   "**Logo de OpenProject**": Se encuentra en el centro de la parte superior de la pantalla, es utilizado para regresar a la interfaz inicial de la herramienta.
+    "**Seleccione un Proyecto**": Se encuentra en la parte superior izquierda de la pantalla, es utilizado para seleccionar el proyecto en el que se desea navegar.
 
-   "**Buscador de OpenProject**": Se encuentra del lado derecho del "**Logo de OpenProject**", es utilizado para filtrar la busqueda de tareas en el proyecto seleccionado.
+    "**Logo de OpenProject**": Se encuentra en el centro de la parte superior de la pantalla, es utilizado para regresar a la interfaz inicial de la herramienta.
 
-   "**Módulos**": Se encuentra del lado derecho del "**Buscador de OpenProject**", es utilizado para desplegar los módulos que tiene la herramienta.
+    "**Buscador de OpenProject**": Se encuentra del lado derecho del "**Logo de OpenProject**", es utilizado para filtrar la busqueda de tareas en el proyecto seleccionado.
 
-   "**Ayuda**": Se encuentra del lado derecho de "**Módulos**", es utilizado para desplegar un menú con distintas opciones de ayuda que sirven para conocer más sobre el OpenProject.
+    "**Módulos**": Se encuentra del lado derecho del "**Buscador de OpenProject**", es utilizado para desplegar los módulos que tiene la herramienta.
 
-   "**Configuración de Usuario**": Se encuentra del lado derecho de "**Ayuda**", es utilizado para configurar el perfil del usuario, la cuenta del usuario, entre otras cosas.
+    "**Ayuda**": Se encuentra del lado derecho de "**Módulos**", es utilizado para desplegar un menú con distintas opciones de ayuda que sirven para conocer más sobre el OpenProject.
+
+    "**Configuración de Usuario**": Se encuentra del lado derecho de "**Ayuda**", es utilizado para configurar el perfil del usuario, la cuenta del usuario, entre otras cosas.
 
 **Menú Principal**
 ------------------
 
 **Resumen:** Al seleccionar un proyecto se muestra el menú principal para desplazarce por todas las opciones que tiene disponible dicho proyecto, el mismo se compone de lo siguiente:
 
-   |Menú Principal de OpenProject|
+    |Menú Principal de OpenProject|
 
-   Imagen 6. Menú Principal de OpenProject
+    Imagen 6. Menú Principal de OpenProject
 
-   "**Paquetes de Trabajo**": Permite que se reflejen de forma ordenada todas las tareas que contiene el proyecto seleccionado.
+    "**Paquetes de Trabajo**": Permite que se reflejen de forma ordenada todas las tareas que contiene el proyecto seleccionado.
 
-   "**->**": Permite reflejar de forma detallada todas las tareas del proyecto seleccionado, filtradas por la opción que se selccione en el menú.
+    "**->**": Permite reflejar de forma detallada todas las tareas del proyecto seleccionado, filtradas por la opción que se selccione en el menú.
 
-   "**Tabla de Tiempo**": Permite reflejar el tiempo invertido en cada una de las tareas del proyecto seleccionado.
+    "**Tabla de Tiempo**": Permite reflejar el tiempo invertido en cada una de las tareas del proyecto seleccionado.
 
-   "**Miembros**": Muestra de forma ordenada los datos de los diferentes miembros que se encuentran incluidos en el proyecto seleccionado.
+    "**Miembros**": Muestra de forma ordenada los datos de los diferentes miembros que se encuentran incluidos en el proyecto seleccionado.
 
-   "**Reuniones**": Permite agendar reuniones, así como también reflejar las reuniones que fueron agendadas por otros miembros incluidos en el proyecto.
+    "**Reuniones**": Permite agendar reuniones, así como también reflejar las reuniones que fueron agendadas por otros miembros incluidos en el proyecto.
 
 **Fases y Tareas**
 ------------------
@@ -95,32 +94,33 @@ El usuario puede conocer la identificación o número de la tarea, el estatus, e
 
 En la barra principal de OpenProject explicada anteriormente, seleccione el proyecto en el cual desea navegar. 
 
-   |Proyecto| 
- 
-   Imagen 7. Proyecto
+    |Proyecto| 
+
+    Imagen 7. Proyecto
 
 Podrá apreciar de la siguiente manera la interfaz que posee el proyecto seleccionado. 
 
-   |Interfaz del Proyecto| 
-   
-   Imagen 8. Interfaz del Proyecto     
+    |Interfaz del Proyecto| 
+
+    Imagen 8. Interfaz del Proyecto     
 
 Seleccione la opción "**Paquetes de Trabajo**" para visualizar las tareas correspondientes al proyecto seleccionado. 
 
-   |Paquete de Trabajo| 
-   
-   Imagen 9. Paquete de Trabajo
+    |Paquete de Trabajo| 
+
+    Imagen 9. Paquete de Trabajo
 
 .. note::
 
-   "**Ejemplo**"
+    "**Ejemplo**"
 
-      Una tarea hija se distingue de una tarea padre porque las tareas hijas se encuentran dentro de las tareas padres, como ejemplo del caso se presenta la tarea padre número "**4536**" y sus tareas hijas número "**4542**" y "**4543**" expuestas en la imagen anterior:
+    Una tarea hija se distingue de una tarea padre porque las tareas hijas se encuentran dentro de las tareas padres, como ejemplo del caso se presenta la tarea padre número "**4536**" y sus tareas hijas número "**4542**" y "**4543**" expuestas en la imagen anterior:
 
-      - Gestión Financiera
+    - Gestión Financiera
 
-         - Gestión de Tesorería
-         - Gestión de Cobranza
+        - Gestión de Tesorería
+
+        - Gestión de Cobranza
 
 **Campos Importantes**
 ----------------------

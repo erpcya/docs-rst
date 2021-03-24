@@ -23,6 +23,7 @@
 .. |Canal de Soporte a Empresa ERP en Slack| image:: resources/canalERP.png
 .. |Mensajes del canal de Soporte a Empresa ERP en Slack| image:: resources/opcionesSlack.png
 .. |Ticket de Soporte a Empresa en Slack| image:: resources/OSTicket.png
+
 .. _documento/slack:
 
 **Instalación de Slack**
@@ -32,22 +33,22 @@ Esta herramienta es posible instalarla en "**Windows**" y "**Linux**", por lo qu
 
 **Instalación de Slack en Windows**
 
-    Para los equipos de la empresa que tienen instalado sistema operativo "**Windows**", simplemente debe ingresar al siguiente enlace y seguir las intrucciones que en el se indican.
+Para los equipos de la empresa que tienen instalado sistema operativo "**Windows**", simplemente debe ingresar al siguiente enlace y seguir las intrucciones que en el se indican.
 
     .. note:: 
-    
+
         "**Slack para Windows**"
-    
+
         https://get.slack.help/hc/es/articles/209038037-C%C3%B3mo-descargar-Slack-para-Windows
 
 **Instalación de Slack en Linux**
 
-    Para los equipos de la empresa que tienen instalado sistema operativo "**Linux**", simplemente debe ingresar al siguiente enlace y seguir las intrucciones que en el se indican.
+Para los equipos de la empresa que tienen instalado sistema operativo "**Linux**", simplemente debe ingresar al siguiente enlace y seguir las intrucciones que en el se indican.
 
     .. note::
-   
+
         "**Slack para Linux**"
-            
+
         https://slack.com/intl/es-ve/downloads/linux
 
 
@@ -83,7 +84,7 @@ Al abrir el correo de la invitación aparecerá un mensaje invitandote a unirte 
 
         Al dar click al botón **“Únete ahora”** te redireccionará a una nueva pestaña en el navegador en el qué te encuentres trabajando.
 
-    Se mostrará la siguiente vista, donde se debe colocar en el campo **“Nombre Completo”** el  nombre de usuario de la  cuenta de slack a manejar, para este caso es el nombre y apellido.
+    Se mostrará la siguiente vista, donde se debe colocar en el campo **“Nombre Completo”**, el nombre de usuario de la cuenta de slack a manejar, para este caso es el nombre y apellido.
 
         |Crear Cuenta Usuario|
 
@@ -204,7 +205,7 @@ Es donde se encuentran los datos del perfil de usuario que inicio sesión en el 
 
 **Notificaciones**
 
-    Es la configuración de las notificaciones que recibe el usuario ya sea por mensajes de canales o mensajes directos.
+Es la configuración de las notificaciones que recibe el usuario ya sea por mensajes de canales o mensajes directos.
 
 **Ir a...**
 -----------
@@ -234,11 +235,11 @@ Los canales se pueden crear de dos (2) tipos, estos pueden ser públicos o priva
 
 **Canal Público**
 
-    El canal público es aquel al que tienen acceso todos los miembros del espacio de trabajo, se diferencia del canal privado por tener del lado izquierdo del nombre, el símbolo **#**.
+El canal público es aquel al que tienen acceso todos los miembros del espacio de trabajo, se diferencia del canal privado por tener del lado izquierdo del nombre, el símbolo **#**.
 
 **Canal Privado**
 
-    El canal privado es aquel al que tienen acceso algunos de los miembros del espacio de trabajo, se diferencia del canal público por tener del lado izquierdo del nombre un candado.
+El canal privado es aquel al que tienen acceso algunos de los miembros del espacio de trabajo, se diferencia del canal público por tener del lado izquierdo del nombre un candado.
 
     |Canales Públicos y Privados de Soporte a Empresa en Slack|
 
@@ -248,7 +249,7 @@ En **ERP Consultores y Asociados** esta establecido como estándar de creación 
 
 **Canal de Soporte**
 
-    Si el canal a crear es de soporte, la primera palabra será soporte, seguido del nombre de la empresa a la cual se le brindará el soporte.
+Si el canal a crear es de soporte, la primera palabra será soporte, seguido del nombre de la empresa a la cual se le brindará el soporte.
 
     |Canal Privado de Soporte a Empresa en Slack|
 
@@ -256,7 +257,7 @@ En **ERP Consultores y Asociados** esta establecido como estándar de creación 
 
 **Canal Interno**
 
-    Si el canal a crear es interno de **ERP Consultores y Asociados** las primeras letras serán erp, seguido del tema del canal.
+Si el canal a crear es interno de **ERP Consultores y Asociados** las primeras letras serán erp, seguido del tema del canal.
 
     |Canal Privado Interno en Slack|
 
@@ -264,7 +265,7 @@ En **ERP Consultores y Asociados** esta establecido como estándar de creación 
 
 **Nombre de los Canales**
 
-    El nombre de los canales no deben llevar mayúsculas, ni espacios en blanco, por lo tanto se deben separar las palabras con el símbolo guión (-).
+El nombre de los canales no deben llevar mayúsculas, ni espacios en blanco, por lo tanto se deben separar las palabras con el símbolo guión (-).
 
     .. note::
       
@@ -286,9 +287,9 @@ Con la integración que realizó **ERP Consultores y Asociados** los ticket crea
 
 **Canal de Ticket en Slack**
 
-    Con la nueva actualización, slack permite crear un ticket por medio de un mensaje en un canal de soporte, los miembros de ese canal serán la persona que envia el mensaje y la que crea el ticket desde el mensaje. Por lo tanto, todos los canales de enlace o canales de ticket serán privados.
+Con la nueva actualización, slack permite crear un ticket por medio de un mensaje en un canal de soporte, los miembros de ese canal serán la persona que envia el mensaje y la que crea el ticket desde el mensaje. Por lo tanto, todos los canales de enlace o canales de ticket serán privados.
 
-    El nombre de este tipo de canal es generado automaticamente y esta conformado por las letras sp, el nombre de la empresa de la que se presenta la problemática, seguido de una serie de números aleatorios.
+El nombre de este tipo de canal es generado automaticamente y esta conformado por las letras sp, el nombre de la empresa de la que se presenta la problemática, seguido de una serie de números aleatorios.
 
     .. note:: 
 
@@ -299,25 +300,25 @@ Con la integración que realizó **ERP Consultores y Asociados** los ticket crea
     Seleccione el canal creado para el soporte de la empresa.
 
         |Nombre del Canal de Soporte a Empresa ERP en Slack|
-        
+
         Imagen 19. Canal de Soporte a Empresa ERP en Slack
 
     Revise y conteste los mensajes recibidos por los miembros del canal.
 
         |Canal de Soporte a Empresa ERP en Slack|
-        
+
         Imagen 20. Canal de Soporte a Empresa ERP en Slack
 
     Luego realice la petición de la problemática sobre ADempiere durante la conversación..
 
         |Mensajes del canal de Soporte a Empresa ERP en Slack|
-        
+
         Imagen 21. Mensajes del canal de Soporte a Empresa ERP en Slack
 
     Si el ticket referente a la misma no ha sido creado, el consultor procede a la creación del ticket correspondiente.
 
         |Ticket de Soporte a Empresa en Slack|
-        
+
         Imagen 22. Ticket de Soporte a Empresa en Slack
 
     .. note::
@@ -332,5 +333,5 @@ Esta opción es utilizada para enviar mensajes entre los miembros del espacio de
 .. warning::
 
     "Cómo enviar un mensaje privado?"
-      
+
     Seleccione la opción **Mensajes Directos**" y introduzca el nombre de la persona a la que desea escribir un mensaje privado, así el mensaje sólo podrá ser visto por usted y esa persona que seleccionó. Finalmente seleccione la opción "**Ir**".
