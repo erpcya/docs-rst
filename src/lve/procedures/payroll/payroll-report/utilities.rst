@@ -114,7 +114,7 @@ Para este reporte están configurados 3 tipos de plantillas
     +-----------------------------------------------+-----------------------------------------------+
     |  Fracción Días de Utilidades                  | Corresponde a la fraccion de días otorgados al|
     |                                               | empleado para el pago de sus utilidades       |
-    +-----------------------------------------------+-----------------------------------------------+  
+    +-----------------------------------------------+-----------------------------------------------+
 
     Por último se detalla el monto total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fue impreso el recibo.
 

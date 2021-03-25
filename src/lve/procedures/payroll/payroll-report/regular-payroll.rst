@@ -11,7 +11,6 @@
 
 El reporte de nómina regular contiene los datos principales de todo proceso de nómina regular, representando primeramente los datos de cada uno de los empleados. Tambien en él usted podrá visualizar las asignaciones y las deducciones procesadas en las diferentes nóminas regulares del empleado.  Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento :ref:`documento/reporte-de-nómina` donde se detallan los campos utilizados para visualizar un reporte de nómina.
 
-
 Entre las asignaciones que se pueden visualizar en el reporte de nómina regular se encuentran:
 
     +-----------------------------------------------+-----------------------------------------------+

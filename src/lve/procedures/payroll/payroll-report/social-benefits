@@ -86,11 +86,9 @@ Para este reporte están configurados 3 tipos de plantillas
     |                                               | Empleados (Todos)                             |
     +-----------------------------------------------+-----------------------------------------------+
 
-
     .. note::
 
         Para realizar cualquier modificación que requiera realizar de estos campos puede utilizar el siguiente documento :ref:`documento/socio-empleado`
-
 
     Por último se detalla el monto total de las asignaciones y el neto a pagar, también encontrará en su recibo un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fue impreso el recibo.
 
@@ -134,7 +132,6 @@ Para este reporte están configurados 3 tipos de plantillas
 #. Resumen de Pago: Seleccione esta plantilla de reporte de prestaciones sociales si desea conocer de manera detallada las asignaciónes calculadas al empleado durante la nómina en ejecución o durante el periodo que usted desee visualizar, esta plantilla le ayudará al jefe de nómina a tener los montos totales de dichos conceptos, asi mismo presentará de manera resumida un cuadro en donde se evidencia lo obtenido por cada empleado. 
 
     Los campos que podrá visualizar en este reporte son:
-
 
     +-----------------------------------------------+-----------------------------------------------+
     |          **PARÁMETROS**                       |             **REFERENCIA**                    |

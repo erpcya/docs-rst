@@ -107,6 +107,7 @@ Para este reporte están configurados 3 tipos de plantillas
     |                                               | información del contrato de la ventana        |
     |                                               | Empleados (Todos)                             |
     +-----------------------------------------------+-----------------------------------------------+
+
     .. note::
     
         Para realizar cualquier modificación que requiera realizar de estos campos puede utilizar el siguiente documento :ref:`documento/socio-empleado` 
