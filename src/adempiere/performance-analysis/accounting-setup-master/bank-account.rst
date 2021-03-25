@@ -1,4 +1,5 @@
 .. _ERPyA: http://erpya.com
+
 .. |Menú de ADempiere| image:: resources/bank-menu.png
 .. |Ventana Banco| image:: resources/bank-window.png
 .. |Pestaña Cuenta de la Ventana Banco| image:: resources/bank-window-account-tab.png
@@ -33,174 +34,174 @@
 **Cuenta Bancaria**
 ===================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión del Sistema**", luego seleccione la carpeta "**Reglas de la Organización**", por último seleccione la ventana "**Banco**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión del Sistema**", luego seleccione la carpeta "**Reglas de la Organización**", por último seleccione la ventana "**Banco**".
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-Podrá visualizar la ventana "**Banco**", con los diferentes registros de bancos que se encuentran en ADempiere.
+#. Podrá visualizar la ventana "**Banco**", con los diferentes registros de bancos que se encuentran en ADempiere.
 
     |Ventana Banco|
 
     Imagen 2. Ventana Banco
 
-    Seleccione la pestaña "**Cuenta**", para ubicar el registro de la cuenta bancaria correspondiente al banco seleccionado en la pestaña principal "**Banco**".
+#. Seleccione la pestaña "**Cuenta**", para ubicar el registro de la cuenta bancaria correspondiente al banco seleccionado en la pestaña principal "**Banco**".
 
-        |Pestaña Cuenta de la Ventana Banco|
+    |Pestaña Cuenta de la Ventana Banco|
 
-        Imagen 3. Pestaña Cuenta
+    Imagen 3. Pestaña Cuenta
 
-        Seleccione la pestaña "**Contabilidad**", para configurar la contabilidad de la cuenta bancaria seleccionada en la pestaña "**Cuenta**".
+#. Seleccione la pestaña "**Contabilidad**", para configurar la contabilidad de la cuenta bancaria seleccionada en la pestaña "**Cuenta**".
 
-            |Pestaña Contabilidad de la Ventana Banco|
+    |Pestaña Contabilidad de la Ventana Banco|
 
-            Imagen 4. Pestaña Contabilidad
+    Imagen 4. Pestaña Contabilidad
 
-            Seleccione el identificador ubicado del lado derecho del campo "**Bancos**" para definir la configuración contable del mismo.
+    #. Seleccione el identificador ubicado del lado derecho del campo "**Bancos**" para definir la configuración contable del mismo.
 
-                |Campo Bancos de la Pestaña Contabilidad de la Ventana Banco|
+        |Campo Bancos de la Pestaña Contabilidad de la Ventana Banco|
 
-                Imagen 5. Identificador del Campo Bancos de la Pestaña Contabilidad de la Ventana Banco
+        Imagen 5. Identificador del Campo Bancos de la Pestaña Contabilidad de la Ventana Banco
 
-                Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+        #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
-                    |Combinación Contable del Campo Bancos de la Pestaña Contabilidad de la Ventana Banco|
+            |Combinación Contable del Campo Bancos de la Pestaña Contabilidad de la Ventana Banco|
 
-                    Imagen 6. Combinación Contable del Campo Bancos de la Pestaña Contabilidad de la Ventana Banco
+            Imagen 6. Combinación Contable del Campo Bancos de la Pestaña Contabilidad de la Ventana Banco
 
-            Seleccione el identificador ubicado del lado derecho del campo "**Banco Movimientos no Conciliados**" para definir la configuración contable del mismo.
+    #. Seleccione el identificador ubicado del lado derecho del campo "**Banco Movimientos no Conciliados**" para definir la configuración contable del mismo.
 
-                |Campo Banco Movimientos no Conciliados de la Pestaña Contabilidad de la Ventana Banco|
+        |Campo Banco Movimientos no Conciliados de la Pestaña Contabilidad de la Ventana Banco|
 
-                Imagen 7. Identificador del Campo Banco Movimientos no Conciliados de la Pestaña Contabilidad de la Ventana Banco
+        Imagen 7. Identificador del Campo Banco Movimientos no Conciliados de la Pestaña Contabilidad de la Ventana Banco
 
-                Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+        #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
-                    |Combinación Contable del Campo Banco Movimientos no Conciliados de la Pestaña Contabilidad de la Ventana Banco|
+            |Combinación Contable del Campo Banco Movimientos no Conciliados de la Pestaña Contabilidad de la Ventana Banco|
 
-                    Imagen 8. Combinación Contable del Campo Banco Movimientos no Conciliados de la Pestaña Contabilidad de la Ventana Banco
+            Imagen 8. Combinación Contable del Campo Banco Movimientos no Conciliados de la Pestaña Contabilidad de la Ventana Banco
 
-            Seleccione el identificador ubicado del lado derecho del campo "**Recaudos sin Asignar**" para definir la configuración contable del mismo.
+    #. Seleccione el identificador ubicado del lado derecho del campo "**Recaudos sin Asignar**" para definir la configuración contable del mismo.
 
-                |Campo Recaudos sin Asignar de la Pestaña Contabilidad de la Ventana Banco|
+        |Campo Recaudos sin Asignar de la Pestaña Contabilidad de la Ventana Banco|
 
-                Imagen 9. Identificador del Campo Recaudos sin Asignar de la Pestaña Contabilidad de la Ventana Banco
+        Imagen 9. Identificador del Campo Recaudos sin Asignar de la Pestaña Contabilidad de la Ventana Banco
 
-                Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+        #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
-                    |Combinación Contable del Campo Recaudos sin Asignar de la Pestaña Contabilidad de la Ventana Banco|
+            |Combinación Contable del Campo Recaudos sin Asignar de la Pestaña Contabilidad de la Ventana Banco|
 
-                    Imagen 10. Combinación Contable del Campo Recaudos sin Asignar de la Pestaña Contabilidad de la Ventana Banco
+            Imagen 10. Combinación Contable del Campo Recaudos sin Asignar de la Pestaña Contabilidad de la Ventana Banco
 
-            Seleccione el identificador ubicado del lado derecho del campo "**Cuenta de Cobros no identificados**" para definir la configuración contable del mismo.
+    #. Seleccione el identificador ubicado del lado derecho del campo "**Cuenta de Cobros no identificados**" para definir la configuración contable del mismo.
 
-                |Campo Cuenta de Cobros no identificados de la Pestaña Contabilidad de la Ventana Banco|
+        |Campo Cuenta de Cobros no identificados de la Pestaña Contabilidad de la Ventana Banco|
 
-                Imagen 11. Identificador del Campo Cuenta de Cobros no identificados de la Pestaña Contabilidad de la Ventana Banco
+        Imagen 11. Identificador del Campo Cuenta de Cobros no identificados de la Pestaña Contabilidad de la Ventana Banco
 
-                Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+        #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
-                    |Combinación Contable del Campo Cuenta de Cobros no identificados de la Pestaña Contabilidad de la Ventana Banco|
+            |Combinación Contable del Campo Cuenta de Cobros no identificados de la Pestaña Contabilidad de la Ventana Banco|
 
-                    Imagen 12. Combinación Contable del Campo Cuenta de Cobros no identificados de la Pestaña Contabilidad de la Ventana Banco
+            Imagen 12. Combinación Contable del Campo Cuenta de Cobros no identificados de la Pestaña Contabilidad de la Ventana Banco
 
-            Seleccione el identificador ubicado del lado derecho del campo "**Pagos sin Asignar**" para definir la configuración contable del mismo.
+    #. Seleccione el identificador ubicado del lado derecho del campo "**Pagos sin Asignar**" para definir la configuración contable del mismo.
 
-                |Campo Pagos sin Asignar de la Pestaña Contabilidad de la Ventana Banco|
+        |Campo Pagos sin Asignar de la Pestaña Contabilidad de la Ventana Banco|
 
-                Imagen 13. Identificador del Campo Pagos sin Asignar de la Pestaña Contabilidad de la Ventana Banco
+        Imagen 13. Identificador del Campo Pagos sin Asignar de la Pestaña Contabilidad de la Ventana Banco
 
-                Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+        #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
-                    |Combinación Contable del Campo Pagos sin Asignar de la Pestaña Contabilidad de la Ventana Banco|
+            |Combinación Contable del Campo Pagos sin Asignar de la Pestaña Contabilidad de la Ventana Banco|
 
-                    Imagen 14. Combinación Contable del Campo Pagos sin Asignar de la Pestaña Contabilidad de la Ventana Banco
+            Imagen 14. Combinación Contable del Campo Pagos sin Asignar de la Pestaña Contabilidad de la Ventana Banco
 
-            Seleccione el identificador ubicado del lado derecho del campo "**Gastos Bancarios**" para definir la configuración contable del mismo.
+    #. Seleccione el identificador ubicado del lado derecho del campo "**Gastos Bancarios**" para definir la configuración contable del mismo.
 
-                |Campo Gastos Bancarios de la Pestaña Contabilidad de la Ventana Banco|
+        |Campo Gastos Bancarios de la Pestaña Contabilidad de la Ventana Banco|
 
-                Imagen 15. Identificador del Campo Gastos Bancarios de la Pestaña Contabilidad de la Ventana Banco
+        Imagen 15. Identificador del Campo Gastos Bancarios de la Pestaña Contabilidad de la Ventana Banco
 
-                Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+        #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
-                    |Combinación Contable del Campo Gastos Bancarios de la Pestaña Contabilidad de la Ventana Banco|
+            |Combinación Contable del Campo Gastos Bancarios de la Pestaña Contabilidad de la Ventana Banco|
 
-                    Imagen 16. Combinación Contable del Campo Gastos Bancarios de la Pestaña Contabilidad de la Ventana Banco
+            Imagen 16. Combinación Contable del Campo Gastos Bancarios de la Pestaña Contabilidad de la Ventana Banco
 
-            Seleccione el identificador ubicado del lado derecho del campo "**Gastos por Intereses Bancarios**" para definir la configuración contable del mismo.
+    #. Seleccione el identificador ubicado del lado derecho del campo "**Gastos por Intereses Bancarios**" para definir la configuración contable del mismo.
 
-                |Campo Gastos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco|
+        |Campo Gastos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco|
 
-                Imagen 17. Identificador del Campo Gastos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco
+        Imagen 17. Identificador del Campo Gastos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco
 
-                Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+        #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
-                    |Combinación Contable del Campo Gastos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco|
+            |Combinación Contable del Campo Gastos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco|
 
-                    Imagen 18. Combinación Contable del Campo Gastos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco
-                
-            Seleccione el identificador ubicado del lado derecho del campo "**Ingresos por Intereses Bancarios**" para definir la configuración contable del mismo.
+            Imagen 18. Combinación Contable del Campo Gastos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco
+        
+    #. Seleccione el identificador ubicado del lado derecho del campo "**Ingresos por Intereses Bancarios**" para definir la configuración contable del mismo.
 
-                |Campo Ingresos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco|
+        |Campo Ingresos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco|
 
-                Imagen 19. Identificador del Campo Ingresos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco
+        Imagen 19. Identificador del Campo Ingresos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco
 
-                Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+        #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
-                    |Combinación Contable del Campo Ingresos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco|
+            |Combinación Contable del Campo Ingresos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco|
 
-                    Imagen 20. Combinación Contable del Campo Ingresos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco
+            Imagen 20. Combinación Contable del Campo Ingresos por Intereses Bancarios de la Pestaña Contabilidad de la Ventana Banco
 
-            Seleccione el identificador ubicado del lado derecho del campo "**Ganancias por Revaluación (Bancos)**" para definir la configuración contable del mismo.
+    #. Seleccione el identificador ubicado del lado derecho del campo "**Ganancias por Revaluación (Bancos)**" para definir la configuración contable del mismo.
 
-                |Campo Ganancias por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco|
+        |Campo Ganancias por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco|
 
-                Imagen 21. Identificador del Campo Ganancias por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco
+        Imagen 21. Identificador del Campo Ganancias por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco
 
-                Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+        #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
-                    |Combinación Contable del Campo Ganancias por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco|
+            |Combinación Contable del Campo Ganancias por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco|
 
-                    Imagen 22. Combinación Contable del Campo Ganancias por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco
+            Imagen 22. Combinación Contable del Campo Ganancias por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco
 
-            Seleccione el identificador ubicado del lado derecho del campo "**Pérdida por Revaluación (Bancos)**" para definir la configuración contable del mismo.
+    #. Seleccione el identificador ubicado del lado derecho del campo "**Pérdida por Revaluación (Bancos)**" para definir la configuración contable del mismo.
 
-                |Campo Pérdida por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco|
+        |Campo Pérdida por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco|
 
-                Imagen 23. Identificador del Campo Pérdida por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco
+        Imagen 23. Identificador del Campo Pérdida por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco
 
-                Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+        #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
-                    |Combinación Contable del Campo Pérdida por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco|
+            |Combinación Contable del Campo Pérdida por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco|
 
-                    Imagen 24. Combinación Contable del Campo Pérdida por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco
+            Imagen 24. Combinación Contable del Campo Pérdida por Revaluación (Bancos) de la Pestaña Contabilidad de la Ventana Banco
 
-            Seleccione el identificador ubicado del lado derecho del campo "**Cuenta de Ganancia por Ajuste**" para definir la configuración contable del mismo.
+    #. Seleccione el identificador ubicado del lado derecho del campo "**Cuenta de Ganancia por Ajuste**" para definir la configuración contable del mismo.
 
-                |Campo Cuenta de Ganancia por Ajuste de la Pestaña Contabilidad de la Ventana Banco|
+        |Campo Cuenta de Ganancia por Ajuste de la Pestaña Contabilidad de la Ventana Banco|
 
-                Imagen 25. Identificador del Campo Cuenta de Ganancia por Ajuste de la Pestaña Contabilidad de la Ventana Banco
+        Imagen 25. Identificador del Campo Cuenta de Ganancia por Ajuste de la Pestaña Contabilidad de la Ventana Banco
 
-                Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+        #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
-                    |Combinación Contable del Campo Cuenta de Ganancia por Ajuste de la Pestaña Contabilidad de la Ventana Banco|
+            |Combinación Contable del Campo Cuenta de Ganancia por Ajuste de la Pestaña Contabilidad de la Ventana Banco|
 
-                    Imagen 26. Combinación Contable del Campo Cuenta de Ganancia por Ajuste de la Pestaña Contabilidad de la Ventana Banco
+            Imagen 26. Combinación Contable del Campo Cuenta de Ganancia por Ajuste de la Pestaña Contabilidad de la Ventana Banco
 
-            Seleccione el identificador ubicado del lado derecho del campo "**Pérdida por Ajuste**" para definir la configuración contable del mismo.
+    #. Seleccione el identificador ubicado del lado derecho del campo "**Pérdida por Ajuste**" para definir la configuración contable del mismo.
 
-                |Campo Pérdida por Ajuste de la Pestaña Contabilidad de la Ventana Banco|
+        |Campo Pérdida por Ajuste de la Pestaña Contabilidad de la Ventana Banco|
 
-                Imagen 27. Identificador del Campo Pérdida por Ajuste de la Pestaña Contabilidad de la Ventana Banco
+        Imagen 27. Identificador del Campo Pérdida por Ajuste de la Pestaña Contabilidad de la Ventana Banco
 
-                Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+        #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
-                    |Combinación Contable del Campo Pérdida por Ajuste de la Pestaña Contabilidad de la Ventana Banco|
+            |Combinación Contable del Campo Pérdida por Ajuste de la Pestaña Contabilidad de la Ventana Banco|
 
-                    Imagen 28. Combinación Contable del Campo Pérdida por Ajuste de la Pestaña Contabilidad de la Ventana Banco
+            Imagen 28. Combinación Contable del Campo Pérdida por Ajuste de la Pestaña Contabilidad de la Ventana Banco
 
-            .. note::
+.. note::
 
-                Recuerde guardar el registro de los campos de la pestaña "**Contabilidad**", seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+    Recuerde guardar el registro de los campos de la pestaña "**Contabilidad**", seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.

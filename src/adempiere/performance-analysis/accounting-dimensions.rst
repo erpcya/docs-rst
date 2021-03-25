@@ -1,4 +1,5 @@
 .. _ERPyA: http://erpya.com
+
 .. |Ejemplo de Dimensión| image:: resources/previous-accounting-dimension.png
 .. |Dimensión Contable| image:: resources/Dimension-Accounting.png
 .. |Dimensión Socio de Negocio| image:: resources/current-accounting-dimension.png

@@ -1,4 +1,5 @@
 .. _ERPyA: http://erpya.com
+
 .. |Menú de ADempiere| image:: resources/menu1.png
 .. |Factura por Pagar| image:: resources/nuevo.png
 .. |Pestaña Costos Adicionales| image:: resources/pestcostos1.png
@@ -28,13 +29,13 @@ Un producto puede tener costos adicionales por flete, servicios de impresión, e
 **Documentos por Pagar**
 ------------------------
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
     |Menú de ADempiere|
     
     Imagen 1. Menú de ADempiere
 
-Realice el procedimiento regular para generar una factura de cuentas por pagar, definido en el material :ref:`documento/documento-por-pagar` de la versión 3.9.2 de ADempiere en la localización Venezuela.
+#. Realice el procedimiento regular para generar una factura de cuentas por pagar, definido en el material :ref:`documento/documento-por-pagar` de la versión 3.9.2 de ADempiere en la localización Venezuela.
 
     |Factura por Pagar|
     
@@ -44,13 +45,13 @@ Realice el procedimiento regular para generar una factura de cuentas por pagar, 
 
         Es necesario que el documento por pagar no se encuentre en estado completo, de esta manera se pueden aplicar los costos adicionales a los productos.
 
-Seleccione la pestaña "**Costos Adicionales**" y proceda al llenado de los campos correspondientes.
+#. Seleccione la pestaña "**Costos Adicionales**" y proceda al llenado de los campos correspondientes.
 
     |Pestaña Costos Adicionales| 
     
     Imagen 3. Pestaña Costos Adicionales
         
-    Podrá apreciar en el campo "**Distribución de Costo**", que por defecto se encuentra seleccionada la opción "**Cantidad**". 
+    #. Podrá apreciar en el campo "**Distribución de Costo**", que por defecto se encuentra seleccionada la opción "**Cantidad**". 
 
         |Campo Distribución de Costo| 
         
@@ -70,13 +71,13 @@ Seleccione la pestaña "**Costos Adicionales**" y proceda al llenado de los camp
 
             - Volumen. 
 
-    Seleccione en el campo "**Elemento de Costo**", el costo a aplicar al producto. Para ejemplificar el registro es utilizada la opción "**Costos de Traslado**".
+    #. Seleccione en el campo "**Elemento de Costo**", el costo a aplicar al producto. Para ejemplificar el registro es utilizada la opción "**Costos de Traslado**".
 
         |Campo Elemento de Costo| 
         
         Imagen 5. Campo Elemento de Costo
 
-    Seleccione en el campo "**Entrega/Recibo**", el documento de recepción del producto al cual será aplicado el costo adicional.
+    #. Seleccione en el campo "**Entrega/Recibo**", el documento de recepción del producto al cual será aplicado el costo adicional.
 
         |Campo Entrega/Recibo| 
         
@@ -90,7 +91,7 @@ Seleccione la pestaña "**Costos Adicionales**" y proceda al llenado de los camp
 
             - Si el documento de recepción posee más de una línea de entrega/recibo, es necesario seleccionar en el campo "**Línea entrega/recibo**", una línea por registro de la pestaña "**Costos Adicionales**". 
 
-    Seleccione la opción "**Distribución de Costos**", para aplicar el costo adicional al producto de la recepción.
+    #. Seleccione la opción "**Distribución de Costos**", para aplicar el costo adicional al producto de la recepción.
 
         |Opción Distribución de Costos| 
         
@@ -110,35 +111,35 @@ Seleccione la pestaña "**Costos Adicionales**" y proceda al llenado de los camp
 
             - Volumen, realiza la distribución porcentualmente al volumen del producto. 
 
-        Podrá visualizar la ventana "**Distribución de Costos**", donde debe seleccionar la opción "**OK**" para aplicar el costo adicional al producto.
+        #. Podrá visualizar la ventana "**Distribución de Costos**", donde debe seleccionar la opción "**OK**" para aplicar el costo adicional al producto.
 
             |Ventana Distribución de Costos| 
             
             Imagen 8. Ventana Distribución de Costos
 
-Regrese a la ventana principal "**Factura**" y seleccione la opción "**Completar**", ubicada en la parte inferior derecha del documento.
+#. Regrese a la ventana principal "**Factura**" y seleccione la opción "**Completar**", ubicada en la parte inferior derecha del documento.
 
     |Opción Completar|
     
     Imagen 9. Opción Completar
 
-    Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento por pagar.
+#. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento por pagar.
 
-        |Acción Completar| 
-        
-        Imagen 10. Opción Completar
+    |Acción Completar| 
+    
+    Imagen 10. Opción Completar
 
 
 **Consultar Costos Adicionales**
 --------------------------------
 
-Ubique en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Gestión de Costos**", por último seleccione el reporte "**Detalle Costo del Producto**".  
+#. Ubique en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la carpeta "**Gestión de Costos**", por último seleccione el reporte "**Detalle Costo del Producto**".  
 
     |Menú de ADempiere 2| 
     
     Imagen 11. Menú de ADempiere
 
-Podrá visualizar el reporte "**Detalle Costo del Producto**" de la siguiente manera.
+#. Podrá visualizar el reporte "**Detalle Costo del Producto**" de la siguiente manera.
 
     |Pestaña Costo|
     
