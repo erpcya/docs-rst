@@ -45,23 +45,23 @@ Es el documento elaborado por la empresa luego de una evaluación de la condici�
 
 Para realizar una devolución a proveedor deben existir los documentos "**Orden de Compra**", "**Factura de Cuentas por Pagar**" y "**Recepción**". Para ejemplificar el registro de la devolución a proveedor se tienen los siguientes documentos.
 
-    Puede visualizar el documento "**Orden de Compra**" en estado "**Completo**", con monto "**10.000.000,00**".
+- Puede visualizar el documento "**Orden de Compra**" en estado "**Completo**", con monto "**10.000.000,00**".
 
-        |Orden de Compra 1|
+    |Orden de Compra 1|
 
-        Imagen 1. Documento Orden de Compra
+    Imagen 1. Documento Orden de Compra
 
-    Puede visualizar el "**Factura de Cuentas por Pagar**" en estado "**Completo**", con monto "**10.000.000,00**".
+- Puede visualizar el "**Factura de Cuentas por Pagar**" en estado "**Completo**", con monto "**10.000.000,00**".
 
-        |Factura de Compra 1|
+    |Factura de Compra 1|
 
-        Imagen 2. Factura de Cuentas por Pagar
+    Imagen 2. Factura de Cuentas por Pagar
 
-    Puede visualizar el documento de "**Recepción**" en estado "**Completo**", con monto "**10.000.000,00**".
+- Puede visualizar el documento de "**Recepción**" en estado "**Completo**", con monto "**10.000.000,00**".
 
-        |Recepción 1|
+    |Recepción 1|
 
-        Imagen 3. Documento de Recepción
+    Imagen 3. Documento de Recepción
 
 Al consultar saldos abiertos se puede visualizar el saldo correspondiente al monto de la factura de cuentas por pagar mostrado anteriormente.
 
@@ -71,13 +71,13 @@ Al consultar saldos abiertos se puede visualizar el saldo correspondiente al mon
 
 A continuación se define el proceso para la creación de una autorización de devolución a proveedor en ADempiere.
 
-Ubique en el menú de ADempiere la ventana "**Gestión de Compras**", luego seleccione la ventana "**Orden de Devolución (Proveedor)**".
+#. Ubique en el menú de ADempiere la ventana "**Gestión de Compras**", luego seleccione la ventana "**Orden de Devolución (Proveedor)**".
 
     |Menú de ADempiere 1|
 
     Imagen 5. Menú de ADempiere
 
-Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+#. Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
     |Icono Registro Nuevo 1|
 
@@ -87,33 +87,33 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
    
         Recuerde que cada campo es necesario e importante para obtener el registro exitoso del documento en ADempiere.
 
-    Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Autorización de Devolución a Proveedor**".
+    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Autorización de Devolución a Proveedor**".
 
         |Campo Organización 1|
 
         Imagen 7. Campo Organización
 
-    Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para este ejemplo el tipo de documento es "**Autorización Devolución Proveedor Nacional**".
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para este ejemplo el tipo de documento es "**Autorización Devolución Proveedor Nacional**".
 
 
         |Campo Tipo de Documento 1|
 
         Imagen 8. Campo Tipo de Documento
 
-    Seleccione en el campo "**Tipo Autorización Devolución**", el motivo o la condición del producto por el cual es requerida una autorización de devolución. Para este ejemplo el tipo de autorización es "**Dañado**".
+    #. Seleccione en el campo "**Tipo Autorización Devolución**", el motivo o la condición del producto por el cual es requerida una autorización de devolución. Para este ejemplo el tipo de autorización es "**Dañado**".
 
         |Campo Tipo Autorización Devolución 1|
 
         Imagen 9. Campo Tipo Autorización Devolución
 
-    Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor al cual se le realizará la devolución.
+    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor al cual se le realizará la devolución.
  
 
         |Campo Socio del Negocio 1| 
 
         Imagen 10. Campo Socio del Negocio
 
-    Seleccione la dirección de localización del socio del negocio, en el campo "**Dirección del Socio del Negocio**".
+    #. Seleccione la dirección de localización del socio del negocio, en el campo "**Dirección del Socio del Negocio**".
 
         |Campo Dirección del Socio del Negocio 1|
 
@@ -123,13 +123,13 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
       
             Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono "**Guardar**" en la barra de herramientas de ADempiere, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo "**No. del Documento**".
 
-    Seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere, luego seleccione la opción "**Crear Orden de Devolución desde Entrega / Recibo**" para crear la "**Orden de Devolución**" desde la recepción del producto.
+    #. Seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere, luego seleccione la opción "**Crear Orden de Devolución desde Entrega / Recibo**" para crear la "**Orden de Devolución**" desde la recepción del producto.
 
         |Icono Proceso 1|
 
         Imagen 12. Icono Proceso
 
-        Podrá visualizar la siguiente ventana del proceso, donde debe seleccionar el documento de recepción donde se encuentra el producto.
+        #. Podrá visualizar la siguiente ventana del proceso, donde debe seleccionar el documento de recepción donde se encuentra el producto.
 
             |Ventana del Proceso 1|
 
@@ -139,13 +139,13 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
 
                 El campo "**Socio del Negocio**" viene precargado con la información seleccionada en el campo "**Socio del Negocio**" ubicado en la ventana "**Orden de Devolución (Proveedor)**". Al seleccionar el identificador del campo "**Entrega / Recibo**" podrá visualizar las diferentes recepciones asociadas al socio del negocio que se encuentra seleccionado en dicho campo, permitiendole seleccionar la línea del documento de recepción donde se encuentra el producto involucrado en la devolución.
 
-        Seleccione la opción "**Comenzar Búsqueda**" para buscar las líneas del documento de recepción seleccionado.
+        #. Seleccione la opción "**Comenzar Búsqueda**" para buscar las líneas del documento de recepción seleccionado.
 
             |Opción Comenzar Búsqueda 1|
 
             Imagen 14. Opción Comenzar Búsqueda
 
-        Seleccione la línea del documento de recepción donde se encuentra el producto que se va a devolver, luego seleccione la opción "**OK**" para cargar el registro a la pestaña "**Línea de Autorización**".
+        #. Seleccione la línea del documento de recepción donde se encuentra el producto que se va a devolver, luego seleccione la opción "**OK**" para cargar el registro a la pestaña "**Línea de Autorización**".
 
             |Seleccionar Recepción y Opción OK 1|
 
@@ -155,7 +155,7 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
         
             Recuerde actualizar el registro de la ventana con ayuda del icono "**Refrescar**" ubicado en la barra de herramientas de ADempiere.
 
-    Seleccione la pestaña "**Línea de Autorización**" para verificar que los datos fueron cargados correctamente.
+    #. Seleccione la pestaña "**Línea de Autorización**" para verificar que los datos fueron cargados correctamente.
 
         |Pestaña Línea de Autorización 1|
 
@@ -165,13 +165,13 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
 
         Si la cantidad de productos a devolver es menor a la cantidad de productos recepcionados, recuerde ingresar en el campo "**Cantidad**", el valor o la cantidad de productos a devolver.
 
-Regrese a la ventana principal "**Autorización Devolución Proveedor**", seleccione la opción "**Completar**" en la parte inferior del documento.
+#. Regrese a la ventana principal "**Autorización Devolución Proveedor**", seleccione la opción "**Completar**" en la parte inferior del documento.
 
     |Opción Completar 1|
 
     Imagen 17. Opción Completar
 
-Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
+#. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
     |Acción Completar 1|
 
@@ -182,13 +182,13 @@ Seleccione la acción "**Completar**" y la opción "**OK**" para completar el do
 
 Es el documento que refleja la devolución de uno, varios, o todos los productos o materiales comprados a un proveedor determinado. A continuación se define el proceso para la creación de una devolución a proveedor en ADempiere.
 
-Ubique en el menú de ADempiere la ventana "**Gestión de Devoluciones**" y seleccione la ventana "**Devolución a Proveedor**".
+#. Ubique en el menú de ADempiere la ventana "**Gestión de Devoluciones**" y seleccione la ventana "**Devolución a Proveedor**".
 
     |Menú de ADempiere 2|
 
     Imagen 19. Menú de ADempiere
 
-Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+#. Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
     |Icono Registro Nuevo 2|
 
@@ -198,19 +198,19 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
    
         Recuerde que cada campo es necesario e importante para obtener el registro exitoso del documento en ADempiere.
 
-    Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Devolución a Proveedor**".
+    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Devolución a Proveedor**".
 
         |Campo Organización 2|
 
         Imagen 21. Campo Organización
 
-    Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para este ejemplo el tipo de documento es "**Devolución a Proveedor Nacional**".
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para este ejemplo el tipo de documento es "**Devolución a Proveedor Nacional**".
 
         |Campo Tipo de Documento 2|
 
         Imagen 22. Campo Tipo de Documento
 
-    Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor al cual se le ralizará la devolución del producto.
+    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor al cual se le ralizará la devolución del producto.
 
         |Campo Socio del Negocio 2|
 
@@ -220,13 +220,13 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
    
             Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono "**Guardar**" en la barra de herramientas de ADempiere, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo "**No. del Documento**".
 
-    Seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere, luego seleccione la opción "**Crear Devolución Desde Orden (ADM)**" para crear la "**Devolución a Proveedor**" desde la "**Orden de Devolución**" del producto.
+    #. Seleccione el icono "**Proceso**" ubicado en la barra de herramientas de ADempiere, luego seleccione la opción "**Crear Devolución Desde Orden (ADM)**" para crear la "**Devolución a Proveedor**" desde la "**Orden de Devolución**" del producto.
 
         |Icono Proceso 2|
 
         Imagen 24. Icono Proceso
 
-        Podrá visualizar la siguiente ventana del proceso, donde debe seleccionar el documento de autorización de devolución creado anteriormente.
+        #. Podrá visualizar la siguiente ventana del proceso, donde debe seleccionar el documento de autorización de devolución creado anteriormente.
 
             |Ventana del Proceso 2|
 
@@ -236,13 +236,13 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
 
                 El campo "**Socio del Negocio**" viene precargado con la información seleccionada en el campo "**Socio del Negocio**" ubicado en la ventana "**Devolución a Proveedor**". Al seleccionar el identificador del campo "**Orden de Venta**" podrá visualizar las diferentes autorizaciones de devoluciones asociadas al socio del negocio que se encuentra seleccionado en dicho campo, permitiendole seleccionar la línea del documento de autorización de devolución a proveedor, donde se encuentra el producto involucrado en la devolución.
 
-        Seleccione la opción "**Comenzar Búsqueda**" para buscar las líneas del documento de autorización seleccionado.
+        #. Seleccione la opción "**Comenzar Búsqueda**" para buscar las líneas del documento de autorización seleccionado.
 
             |Opción Comenzar Búsqueda 2|
 
             Imagen 26. Opción Comenzar Búsqueda
 
-        Seleccione la línea del documento de autorización de devolución donde se encuentra el producto que se va a devolver, luego seleccione la opción "**OK**" para cargar el registro a la pestaña "**Línea de Devolución**".
+        #. Seleccione la línea del documento de autorización de devolución donde se encuentra el producto que se va a devolver, luego seleccione la opción "**OK**" para cargar el registro a la pestaña "**Línea de Devolución**".
 
             |Seleccionar Recepción y Opción OK 2|
 
@@ -252,31 +252,31 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
         
             Recuerde actualizar el registro de la ventana con ayuda del icono "**Refrescar**" ubicado en la barra de herramientas de ADempiere.
 
-    Seleccione la pestaña "**Línea de Autorización**" para verificar que los datos fueron cargados correctamente.
+    #. Seleccione la pestaña "**Línea de Autorización**" para verificar que los datos fueron cargados correctamente.
 
         |Pestaña Línea de Autorización 2|
 
         Imagen 28. Pestaña Línea de Autorización
 
-Regrese a la ventana principal "**Devolución a Proveedor**", seleccione la opción "**Completar**" en la parte inferior del documento.
+#. Regrese a la ventana principal "**Devolución a Proveedor**", seleccione la opción "**Completar**" en la parte inferior del documento.
 
     |Opción Completar|
 
     Imagen 29. Opción Completar
 
-Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
+#. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
     |Acción Completar 1|
 
     Imagen 30. Acción Completar
 
-Seleccione la opción "**Generar Facturas desde Recibos**", para generar el documento "**Nota de Crédito**" desde la ventana "**Devolución a Proveedor**".
+#. Seleccione la opción "**Generar Facturas desde Recibos**", para generar el documento "**Nota de Crédito**" desde la ventana "**Devolución a Proveedor**".
 
     |Generar Facturas desde Recibos 1|
 
     Imagen 31. Generar Facturas desde Recibos
 
-    Podrá visualizar la siguiente ventana donde debe seleccionar la opción "**OK**".
+    #. Podrá visualizar la siguiente ventana donde debe seleccionar la opción "**OK**".
 
         |Ventana Generar Facturas desde Recibos y Seleccionar Opción OK|
 
@@ -289,29 +289,29 @@ Seleccione la opción "**Generar Facturas desde Recibos**", para generar el docu
 **Completar Nota de Crédito Generada**
 ======================================
 
-Podrá visualizar el documento "**Nota de Crédito**" generado desde la ventana "**Devolución a Proveedor**", al buscar el mismo con número de documento "**1000080**".
+#. Podrá visualizar el documento "**Nota de Crédito**" generado desde la ventana "**Devolución a Proveedor**", al buscar el mismo con número de documento "**1000080**".
 
     |Nota de Crédito 1|
 
     Imagen 33. Nota de Crédito
 
-    Seleccione en el campo "**Factura Afectada**", la factura de cuentas por pagar al cual le será aplicada la nota de crédito. Para ejemplificar el registro, es seleccionada la factura "**1000076**".
+    #. Seleccione en el campo "**Factura Afectada**", la factura de cuentas por pagar al cual le será aplicada la nota de crédito. Para ejemplificar el registro, es seleccionada la factura "**1000076**".
 
         |Campo Documento Afectado|
 
         Imagen 34. Campo Factura Afectada
 
-    Seleccione la opción "**Completar**" ubicada en la parte inferior derecha del documento.
+    #. Seleccione la opción "**Completar**" ubicada en la parte inferior derecha del documento.
 
         |Opción Completar 3|
 
         Imagen 35. Opción Completar
 
-        Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Nota de Crédito**".
+    #. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Nota de Crédito**".
 
-            |Acción Completar 1|
+        |Acción Completar 1|
 
-            Imagen 36. Acción Completar
+        Imagen 36. Acción Completar
 
 **Consultar Saldos Abiertos**
 =============================

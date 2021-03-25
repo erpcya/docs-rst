@@ -12,18 +12,18 @@
 ===================
 
 En ADempiere contamos con una serie de accesos rápidos que le permitirá al usuario realizar una determinada función de forma rápida y sencilla.
-   
-   |Accesos Rápidos|
 
-   Imagen 1. Accesos Rápidos de ADempiere
+    |Accesos Rápidos|
+
+    Imagen 1. Accesos Rápidos de ADempiere
 
 A continuación se definen los distintos tipos de accesos rápidos que este posee.
 
 **Acercar:** Le permitirá realizar una búsqueda rápida de un registro.
 
-   |Acercar|
+    |Acercar|
 
-   Imagen 2. Opción Acercar
+    Imagen 2. Opción Acercar
 
 **Refrescar:** Le permitirá actualizar el campo donde se encuentra ubicado.
 
@@ -33,9 +33,9 @@ A continuación se definen los distintos tipos de accesos rápidos que este pose
 
 **Valor de Preferencia:** Permitirá darle un valor preferencial al campo.
 
-   |Valor de Preferencia|
+    |Valor de Preferencia|
 
-   Imagen 4. Opción Valor de Preferencia
+    Imagen 4. Opción Valor de Preferencia
 
 **Registro Nuevo:** Permitirá realizar un registro nuevo referente al campo donde se encuentra ubicado.
 
@@ -45,12 +45,12 @@ A continuación se definen los distintos tipos de accesos rápidos que este pose
 
 **Actualizar:** Permitirá realizar modificaciones al registro del campo donde se encuentra ubicado.
 
-   |Actualizar|
+    |Actualizar|
 
-   Imagen 6. Opción Actualizar
+    Imagen 6. Opción Actualizar
 
 **Bitácora Cambios:** Permitirá visualizar los cambios que se le ha realizado al campo donde se encuentra ubicad.
-      
+
     |Bitácora Cambios|
 
     Imagen 7. Opción Bitácora de Cambios

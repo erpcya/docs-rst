@@ -22,9 +22,9 @@ El material desarrollado propone la definición de un procedimiento previamente 
 **Requerimientos**
 ==================
 
-Adempiere 3.90
-Aplicación de Cambios (Gestión Financiera).
-Aplicación de Cambios (Gestión de Préstamo).
-Aplicación de Cambios (Gestión de Saldos Pendientes).
-Configuración de los Productos Financieros(**Vea Configuración de Producto Financiero (Préstamo)**)
-Configuración Esencial de Préstamo (**Vea Configuración Esencial para el Proceso de Préstamo**)
+- Adempiere 3.90
+- Aplicación de Cambios (Gestión Financiera).
+- Aplicación de Cambios (Gestión de Préstamo).
+- Aplicación de Cambios (Gestión de Saldos Pendientes).
+- Configuración de los Productos Financieros(**Vea Configuración de Producto Financiero (Préstamo)**)
+- Configuración Esencial de Préstamo (**Vea Configuración Esencial para el Proceso de Préstamo**)
