@@ -51,18 +51,17 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
         Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja viáticos. De igual manera, es creado un cobro en caja y un pago en pago/cobro.
 
-    #. Al consultar el egreso de banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
+#. Al consultar el egreso de banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
 
-        |egreso de banco viáticos igual al gasto|
+    |egreso de banco viáticos igual al gasto|
 
-        Imagen 2. Egreso de Banco por Viáticos
+    Imagen 2. Egreso de Banco por Viáticos
 
+#. Al consultar el ingreso a caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
 
-    #. Al consultar el ingreso a caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
+    |ingreso a caja viáticos igual al gasto|
 
-        |ingreso a caja viáticos igual al gasto|
-
-        Imagen 3. Ingreso a Caja por Viáticos
+    Imagen 3. Ingreso a Caja por Viáticos
 
 **Relación de Facturas**
 ************************
@@ -104,17 +103,17 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
         Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja viáticos. De igual manera, es creado un cobro en caja y un pago en pago/cobro.
 
-    #. Al consultar el egreso de banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
+#. Al consultar el egreso de banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
 
-        |egreso de banco viáticos mayor al gasto|
+    |egreso de banco viáticos mayor al gasto|
 
-        Imagen 7. Egreso de Banco por Viáticos
+    Imagen 7. Egreso de Banco por Viáticos
 
-    #. Al consultar el ingreso a caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
+#. Al consultar el ingreso a caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
 
-        |ingreso a caja viáticos mayor al gasto|
+    |ingreso a caja viáticos mayor al gasto|
 
-        Imagen 8. Ingreso a Caja por Viáticos
+    Imagen 8. Ingreso a Caja por Viáticos
 
 **Relación de Facturas**
 ************************
@@ -155,17 +154,17 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
         Al realizar el proceso de transferencia bancaria, es generado un egreso de caja viáticos y un ingreso a banco. De igual manera, es creado un pago en caja y un cobro en pago/cobro.
 
-    #. Al consultar el egreso de caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
+#. Al consultar el egreso de caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
 
-        |egreso de caja por restante viáticos mayor al gasto|
+    |egreso de caja por restante viáticos mayor al gasto|
 
-        Imagen 12. Egreso de Caja por Excedente de Viáticos
+    Imagen 12. Egreso de Caja por Excedente de Viáticos
 
-    #. Al consultar el ingreso a banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
+#. Al consultar el ingreso a banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
 
-        |ingreso a banco por restante viáticos mayor al gasto|
+    |ingreso a banco por restante viáticos mayor al gasto|
 
-        Imagen 13. Ingreso a Banco por Excedente de Viáticos
+    Imagen 13. Ingreso a Banco por Excedente de Viáticos
 
 **Completar Cierre de Caja**
 ****************************
@@ -198,17 +197,17 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
         Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja viáticos. De igual manera, es creado un cobro en caja y un pago en pago/cobro.
 
-    #. Al consultar el egreso de banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
+#. Al consultar el egreso de banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
 
-        |egreso de banco gasto mayor a viáticos|
+    |egreso de banco gasto mayor a viáticos|
 
-        Imagen 16. Egreso de Banco por Viáticos
+    Imagen 16. Egreso de Banco por Viáticos
 
-    #. Al consultar el ingreso a caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
+#. Al consultar el ingreso a caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
 
-        |ingreso a caja viáticos gasto mayor a viáticos|
+    |ingreso a caja viáticos gasto mayor a viáticos|
 
-        Imagen 17. Ingreso a Caja por Viáticos
+    Imagen 17. Ingreso a Caja por Viáticos
 
 **Relación de Facturas**
 ************************

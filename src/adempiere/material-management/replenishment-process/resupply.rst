@@ -164,17 +164,17 @@ Para ejecutar correctamente el proceso de reabastecimiento de almacén, es neces
 
     Imagen 15. Listado de Registro de Configuración de Productos
 
-    #. Seleccione el registro del producto que requiere reabastecer.
+#. Seleccione el registro del producto que requiere reabastecer.
 
-        |selección de producto a reabastecer|
+    |selección de producto a reabastecer|
 
-        Imagen 16. Selección de Producto a Reabastecer
+    Imagen 16. Selección de Producto a Reabastecer
 
-    #. Al seleccionar el registro del produto, se habilita el campo de la columna "**Cantidad a Ordenar**", con el valor que se requiere para cumplir con la cantidad de productos establecida en la configuración del mismo.
+#. Al seleccionar el registro del produto, se habilita el campo de la columna "**Cantidad a Ordenar**", con el valor que se requiere para cumplir con la cantidad de productos establecida en la configuración del mismo.
 
-        |cantidad a ordenar|
+    |cantidad a ordenar|
 
-        Imagen 17. Campo Cantidad a Ordenar
+    Imagen 17. Campo Cantidad a Ordenar
 
 #. Seleccione en el campo "**Crear**", el documento que requiere crear para reabastecer el producto en el almacén seleccionado.
 

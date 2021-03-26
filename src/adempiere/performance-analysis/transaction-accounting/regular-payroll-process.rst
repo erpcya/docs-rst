@@ -27,11 +27,11 @@
 
     Imagen 1. Opción Contabilizado de la Ventana Proceso Nómina
 
-    #. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Poceso Nómina**".
+#. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Poceso Nómina**".
 
-        |Asiento Contable de la Nómina|
+    |Asiento Contable de la Nómina|
 
-        Imagen 2. Asiento Contable de la Nómina
+    Imagen 2. Asiento Contable de la Nómina
 
 **Pago de Nómina**
 ------------------
@@ -48,37 +48,37 @@
 
     Imagen 3. Opción Contabilizado de la Ventana Caja
 
-    #. Podrá visualizar el asiento contable que se genera por la selección de pagos e imprimir/exportar pagos anteriormente realizados. 
+#. Podrá visualizar el asiento contable que se genera por la selección de pagos e imprimir/exportar pagos anteriormente realizados. 
 
-        |Asiento Contable del Pago de la Nómina|
+    |Asiento Contable del Pago de la Nómina|
 
-        Imagen 4. Asiento Contable del Pago de la Nómina
+    Imagen 4. Asiento Contable del Pago de la Nómina
 
 #. Adicional a ello, al culminar el proceso de transferencia bancaria que indica el documento :ref:`documento/pago-de-nómina`, se genera un "**Pago Nacional**" en banco y a su vez un "**Cobro Nacional**" en caja.
 
-    #. Seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Pago/Cobro**".
+#. Seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Pago/Cobro**".
 
-        |opción contabilizado de la ventana pago cobro nómina|
+    |opción contabilizado de la ventana pago cobro nómina|
 
-        Imagen 5. Opción Contabilizado de la Ventana Pago/Cobro
+    Imagen 5. Opción Contabilizado de la Ventana Pago/Cobro
 
-        #. Podrá visualizar el asiento contable que se genera por el egreso de la transferencia bancaria anteriormente realizada. 
+#. Podrá visualizar el asiento contable que se genera por el egreso de la transferencia bancaria anteriormente realizada. 
 
-            |asiento contable del egreso de la transferencia nómina|
+    |asiento contable del egreso de la transferencia nómina|
 
-            Imagen 6. Asiento Contable por el Egreso de la Transferencia Bancaria
+    Imagen 6. Asiento Contable por el Egreso de la Transferencia Bancaria
 
-    #. Seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Caja**".
+#. Seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Caja**".
 
-        |opción contabilizado de la caja nómina|
+    |opción contabilizado de la caja nómina|
 
-        Imagen 7. Opción Contabilizado de la Ventana Caja
+    Imagen 7. Opción Contabilizado de la Ventana Caja
 
-        #. Podrá visualizar el asiento contable que se genera por el ingreso de la transferencia bancaria anteriormente realizada. 
+#. Podrá visualizar el asiento contable que se genera por el ingreso de la transferencia bancaria anteriormente realizada. 
 
-            |asiento contable por el ingreso de la transferencia nómina|
+    |asiento contable por el ingreso de la transferencia nómina|
 
-            Imagen 8. Asiento Contable por el Ingreso de la Transferencia Bancaria
+    Imagen 8. Asiento Contable por el Ingreso de la Transferencia Bancaria
 
 #. Finalmente, al culminar el proceso de cierre de caja que indica el documento :ref:`documento/pago-de-nómina`, con la finalidad de conciliar los egresos e ingresos generados en caja y llevar la misma a su saldo inicial nuevamente, se obtiene un asiente contable que refleja dicha transacción, seleccionando la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Cierre de Caja**".
 
@@ -86,8 +86,8 @@
 
     Imagen 9. Opción Contabilizado de la Ventana Cierre de Caja
 
-    #. Podrá visualizar el asiento contable que se genera por la transacción anteriormente realizada.
+#. Podrá visualizar el asiento contable que se genera por la transacción anteriormente realizada.
 
-        |asiento contable por el cierre de caja nómina|
+    |asiento contable por el cierre de caja nómina|
 
-        Imagen 10. Asiento Contable por el Cierre de Caja
+    Imagen 10. Asiento Contable por el Cierre de Caja

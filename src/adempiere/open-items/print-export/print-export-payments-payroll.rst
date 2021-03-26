@@ -22,7 +22,7 @@ Luego de completar la selección de pago, procedemos a exportar los lotes de pag
 
 #. La regla de pago debe decir "**Débito Directo**" en el campo “**Regla de Pago**”
 
-#> Después de realizado este procedimiento debe ir al icono llamado exportar que se encuentra en la parte inferior izquierda de la ventana. 
+#. Después de realizado este procedimiento debe ir al icono llamado exportar que se encuentra en la parte inferior izquierda de la ventana. 
 
     |Imprimir Exportar| 
 

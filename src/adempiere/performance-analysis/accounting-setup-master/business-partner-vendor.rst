@@ -46,7 +46,7 @@
 
     Imagen 5. Identificador del Campo CxP del Proveedor
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo CxP del Proveedor|
 
@@ -58,7 +58,7 @@
 
     Imagen 7. Identificador del Campo CxP del Proveedor de Servicios
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo CxP del Proveedor de Servicios|
 
@@ -70,7 +70,7 @@
 
     Imagen 9. Campo Anticipo del Proveedor
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Anticipo del Proveedor|
 

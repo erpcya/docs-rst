@@ -39,21 +39,21 @@ La selección de pagos de nómina representa una de las formas que requiere ADem
 
     Imagen 2. Campo Crear a Partir de Movimiento de Movimiento de Recursos Humanos
 
-    #. Nómina: Seleccione el tipo de nómina que desea cancelar, esta opción le permite filtrar todos los procesos de nóminas de este tipo que estén completos 
+#. Nómina: Seleccione el tipo de nómina que desea cancelar, esta opción le permite filtrar todos los procesos de nóminas de este tipo que estén completos 
 
-    #. Proceso de Nómina: coloque el número del documento del  proceso de nómina que se cancelará. Con estos 2 filtros encontrará exactamente la cantidad de socios de negocios que posee la nómina conjuntamente con el concepto de neto a pagar procesado a cada uno de ellos. Cabe acotar que para que usted pueda visualizar el proceso de nómina esté debe estar en estado completo 
+#. Proceso de Nómina: coloque el número del documento del  proceso de nómina que se cancelará. Con estos 2 filtros encontrará exactamente la cantidad de socios de negocios que posee la nómina conjuntamente con el concepto de neto a pagar procesado a cada uno de ellos. Cabe acotar que para que usted pueda visualizar el proceso de nómina esté debe estar en estado completo 
 
-        |Búsqueda de Nómina|
+    |Búsqueda de Nómina|
 
-        Imagen 3. Búsqueda de Nómina
+    Imagen 3. Búsqueda de Nómina
 
-    #. Luego de seleccionar estos filtros se le desplegará una lista con la cantidad de empleados a los cuales se les procesó la nómina, conjuntamente con el nombre de los empleados estará acompañada el concepto de neto a pagar que se le calculó a cada empleado. Puede tildar cada uno de los empleados o tildar el primer recuadro que aparece antes de la lista de todos los empleados, para seleccionarlos todos automáticamente.  
-        
-    #. Presione el check de OK.
+#. Luego de seleccionar estos filtros se le desplegará una lista con la cantidad de empleados a los cuales se les procesó la nómina, conjuntamente con el nombre de los empleados estará acompañada el concepto de neto a pagar que se le calculó a cada empleado. Puede tildar cada uno de los empleados o tildar el primer recuadro que aparece antes de la lista de todos los empleados, para seleccionarlos todos automáticamente.  
+    
+#. Presione el check de OK.
 
-        |Selección de Movimiento de Nómina|
+    |Selección de Movimiento de Nómina|
 
-        Imagen 4. Selección de Movimiento de Nómina
+    Imagen 4. Selección de Movimiento de Nómina
 
 #. Diríjase a la pestaña “**Línea de Selección de Pago**”, en esta ventana verificaremos que estén correctamente todos los montos que le fueron asignados a cada empleado, es decir que en el concepto neto a pagar esté la cantidad correcta, además de esto usted debe verificar que se encuentren todos los empleados. Otro de los factores que debe tener en cuenta es que la regla del pago de los empleados sea Débito Directo, sí el empleado no tiene está regla de pago no serán regenerados por pagos para esté empleado,  para conocer cómo determinar la regla de pago puede dirigirse al documento :ref:`documento/pestaña-detalle-de-pago` en el cual se le detallan todos los pagos a seguir para configurar la regla de pago del socio de negocio empleado.
 

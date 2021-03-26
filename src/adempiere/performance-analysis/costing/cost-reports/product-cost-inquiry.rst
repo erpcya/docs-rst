@@ -25,23 +25,23 @@
 
     Imagen 2. Ventana Encontrar Registro Selección de Producto
 
-    #. Introduzca en el campo "**Código**", el código del producto por el cual requiere filtrar la búsqueda del producto.
+#. Introduzca en el campo "**Código**", el código del producto por el cual requiere filtrar la búsqueda del producto.
 
-        |Campo Código de la Ventana Encontrar Registro Selección de Producto|
+    |Campo Código de la Ventana Encontrar Registro Selección de Producto|
 
-        Imagen 3. Campo Código de la Ventana Encontrar Registro Selección de Producto
+    Imagen 3. Campo Código de la Ventana Encontrar Registro Selección de Producto
 
-    #. Introduzca en el campo "**Nombre**", el nombre del producto por el cual requiere filtrar la búsqueda del producto.
+#. Introduzca en el campo "**Nombre**", el nombre del producto por el cual requiere filtrar la búsqueda del producto.
 
-        |Campo Nombre de la Ventana Encontrar Registro Selección de Producto|
+    |Campo Nombre de la Ventana Encontrar Registro Selección de Producto|
 
-        Imagen 4. Campo Nombre de la Ventana Encontrar Registro Selección de Producto
+    Imagen 4. Campo Nombre de la Ventana Encontrar Registro Selección de Producto
 
-    #. Introduzca en el campo "**Descripción**", la descripción del producto por el cual requiere filtrar la búsqueda del producto.
+#. Introduzca en el campo "**Descripción**", la descripción del producto por el cual requiere filtrar la búsqueda del producto.
 
-        |Campo Descripción de la Ventana Encontrar Registro Selección de Producto|
+    |Campo Descripción de la Ventana Encontrar Registro Selección de Producto|
 
-        Imagen 5. Campo Descripción de la Ventana Encontrar Registro Selección de Producto
+    Imagen 5. Campo Descripción de la Ventana Encontrar Registro Selección de Producto
 
 #. Luego de ingresar lo requerido en los campos por los cuales desea filtrar la búsqueda del producto, seleccione la opción "**OK**", para realizar la búsqueda.
 

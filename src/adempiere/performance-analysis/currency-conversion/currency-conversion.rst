@@ -80,41 +80,41 @@ En el siguiente enlace puede descargar un ejemplo del mismo para visualizarlo me
 
     Imagen 4. Icono Registro Nuevo de la Ventana Tipo de Conversión
 
-    #. Seleccione en el campo "**Organización**", la organización para la cual esta creando el registro de tipo de conversión.
+#. Seleccione en el campo "**Organización**", la organización para la cual esta creando el registro de tipo de conversión.
 
-        |Campo Organización|
+    |Campo Organización|
 
-        Imagen 5. Campo Organización de la Ventana Tipo de Conversión
+    Imagen 5. Campo Organización de la Ventana Tipo de Conversión
 
-    #. Introduzca en el campo "**Código**", el código correspondiente al registro de tipo de conversión que se encuentra realizando, para este caso es utilizado el código "**BCV**".
+#. Introduzca en el campo "**Código**", el código correspondiente al registro de tipo de conversión que se encuentra realizando, para este caso es utilizado el código "**BCV**".
 
-        |Campo Código|
-        
-        Imagen 6. Campo Código de la Ventana Tipo de Conversión
+    |Campo Código|
+    
+    Imagen 6. Campo Código de la Ventana Tipo de Conversión
 
-    #. Introduzca en el campo "**Nombre**" el nombre correspondiente al registro de tipo de conversión que se encuentra realizando, para este caso es utilizado el nombre de conversión "**BCV**".
+#. Introduzca en el campo "**Nombre**" el nombre correspondiente al registro de tipo de conversión que se encuentra realizando, para este caso es utilizado el nombre de conversión "**BCV**".
 
-        |Campo Nombre|
+    |Campo Nombre|
 
-        Imagen 7. Campo Nombre de la Ventana Tipo de Conversión
+    Imagen 7. Campo Nombre de la Ventana Tipo de Conversión
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción correspondiente al registro de tipo de conversión que se encuentra realizando.
+#. Introduzca en el campo "**Descripción**", una breve descripción correspondiente al registro de tipo de conversión que se encuentra realizando.
 
-        |Campo Descripción|
+    |Campo Descripción|
 
-        Imagen 8. Campo Descripción de la Ventana Tipo de Conversión
+    Imagen 8. Campo Descripción de la Ventana Tipo de Conversión
 
-    #. El checklist "**Activo**", indica que el registro se encuentra activo y puede ser utilizado en cualquier transacción que lo requiera.
+#. El checklist "**Activo**", indica que el registro se encuentra activo y puede ser utilizado en cualquier transacción que lo requiera.
 
-        |Checklist Activo|
+    |Checklist Activo|
 
-        Imagen 9. Checklist Activo de la Ventana Tipo de Conversión
+    Imagen 9. Checklist Activo de la Ventana Tipo de Conversión
 
-    #. Seleccione el checklist "**Predeterminado**", para indicar como predeterminado el registro que se encuentra realizando.
+#. Seleccione el checklist "**Predeterminado**", para indicar como predeterminado el registro que se encuentra realizando.
 
-        |Checklist Predeterminado|
+    |Checklist Predeterminado|
 
-        Imagen 10. Checklist Predeterminado de la Ventana Tipo de Conversión
+    Imagen 10. Checklist Predeterminado de la Ventana Tipo de Conversión
 
 .. note:: 
 
@@ -137,51 +137,51 @@ En el siguiente enlace puede descargar un ejemplo del mismo para visualizarlo me
 
     Imagen 12. Registro de Moneda USD en ADempiere
 
-    #. Seleccione la pestaña "**Tasas de Cambio**" para navegar entre los diferentes registros de tasas de cambio correspondientes a la moneda "**USD**".
+#. Seleccione la pestaña "**Tasas de Cambio**" para navegar entre los diferentes registros de tasas de cambio correspondientes a la moneda "**USD**".
 
-        |Pestaña Tasas de Cambio|
+    |Pestaña Tasas de Cambio|
 
-        Imagen 13. Pestaña Tasas de Cambio de la Ventana Moneda
+    Imagen 13. Pestaña Tasas de Cambio de la Ventana Moneda
 
-    #. Seleccione el icono "**Registro Nuevo**" para crear un nuevo registro de tasas de cambio.
+#. Seleccione el icono "**Registro Nuevo**" para crear un nuevo registro de tasas de cambio.
 
-        |Icono Registro Nuevo Tasas|
+    |Icono Registro Nuevo Tasas|
 
-        Imagen 14. Icono Registro Nuevo de la Pestaña Tasas de Cambio
+    Imagen 14. Icono Registro Nuevo de la Pestaña Tasas de Cambio
 
-        .. warning::
+    .. warning::
 
-            La tasa de cambio se debe crear de dólares a bolívares y de bolívares a dólares.
+        La tasa de cambio se debe crear de dólares a bolívares y de bolívares a dólares.
 
-        #. Seleccione en el campo "**Moneda Hacia**", la moneda para la cual requiere convertir el dinero. Para ejemplificar el registro es utilizada la moneda "**VES**".
+#. Seleccione en el campo "**Moneda Hacia**", la moneda para la cual requiere convertir el dinero. Para ejemplificar el registro es utilizada la moneda "**VES**".
 
-            |Campo Moneda Hacia|
+    |Campo Moneda Hacia|
 
-            Imagen 15. Campo Moneda Hacia de la Pestaña Tasas de Cambio
+    Imagen 15. Campo Moneda Hacia de la Pestaña Tasas de Cambio
 
-        #. Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión a utilizar. Para este caso es utilizado el tipo de conversión "**BCV**", creado anteriormente.
+#. Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión a utilizar. Para este caso es utilizado el tipo de conversión "**BCV**", creado anteriormente.
 
-            |Campo Tipo de Conversión|
+    |Campo Tipo de Conversión|
 
-            Imagen 16. Campo Tipo de Conversión de la Pestaña Tasas de Cambio
+    Imagen 16. Campo Tipo de Conversión de la Pestaña Tasas de Cambio
 
-        #. Seleccione en el campo "**Válido Desde**", la fecha desde la cual es válida la tasa de conversión que se encuentra realizando.
+#. Seleccione en el campo "**Válido Desde**", la fecha desde la cual es válida la tasa de conversión que se encuentra realizando.
 
-            |Campo Válido Desde|
+    |Campo Válido Desde|
 
-            Imagen 17. Campo Válido Desde de la Pestaña Tasas de Cambio
+    Imagen 17. Campo Válido Desde de la Pestaña Tasas de Cambio
 
-        #. Seleccione en el campo "**Válido Hasta**", la fecha hasta la cual es válida la tasa de conversión que se encuentra realizando.
+#. Seleccione en el campo "**Válido Hasta**", la fecha hasta la cual es válida la tasa de conversión que se encuentra realizando.
 
-            |Campo Válido Hasta|
+    |Campo Válido Hasta|
 
-            Imagen 18. Campo Válido Hasta de la Pestaña Tasas de Cambio
+    Imagen 18. Campo Válido Hasta de la Pestaña Tasas de Cambio
 
-        #. Introduzca en el campo "**Factor de Base a Destino**", la tasa por la que serán multiplicados los montos de las transacciones donde sea utilizado el tipo de conversión seleccionado anteriormente. Para ejemplificar el registro es utilizada la tasa "**82.000,0**".
+#. Introduzca en el campo "**Factor de Base a Destino**", la tasa por la que serán multiplicados los montos de las transacciones donde sea utilizado el tipo de conversión seleccionado anteriormente. Para ejemplificar el registro es utilizada la tasa "**82.000,0**".
 
-            |Campo Factor de Base a Destino|
+    |Campo Factor de Base a Destino|
 
-            Imagen 19. Campo Factor de Base a Destino de la Pestaña Tasas de Cambio
+    Imagen 19. Campo Factor de Base a Destino de la Pestaña Tasas de Cambio
 
 .. note:: 
 

@@ -41,11 +41,11 @@
 
     Imagen 5. Opción Abrir Cerrar Todo de la Pestaña Período de la Ventana Año Calendario Período
 
-    #. Podrá visualizar la ventana "**Abrir / Cerrar Todo**", donde debe seleccionar la opción "**Abrir Período**", en el campo "**Acción del Período**" y por último la opción "**OK**", para ejecutar la acción seleccionada.
+#. Podrá visualizar la ventana "**Abrir / Cerrar Todo**", donde debe seleccionar la opción "**Abrir Período**", en el campo "**Acción del Período**" y por último la opción "**OK**", para ejecutar la acción seleccionada.
 
-        |Ventana Abrir Cerrar Todo de la Opción Abrir Cerrar Todo|
+    |Ventana Abrir Cerrar Todo de la Opción Abrir Cerrar Todo|
 
-        Imagen 6. Ventana Abrir Cerrar Todo de la Opción Abrir Cerrar Todo
+    Imagen 6. Ventana Abrir Cerrar Todo de la Opción Abrir Cerrar Todo
 
 #. Finalmente podrá visualizar la actualización del registro en la parte inferior izquierda de la ventana.
 

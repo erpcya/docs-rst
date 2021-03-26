@@ -119,47 +119,47 @@ Para realizar una "**Selección de Pago**" la cual se encarga de definir de qué
 
 #. Los campos a visualizar en el smart browser son los siguientes:
 
-    #. Campo "**Selección de Pago**", permite filtrar la búsqueda por la orden de pago previamente realizada. Para este caso seleccione el criterio de búsqueda "**Selección de Pago**" para ubicar las "**Orden de Pago**" la cual tiene los documentos que necesitan ser cancelados.
+#. Campo "**Selección de Pago**", permite filtrar la búsqueda por la orden de pago previamente realizada. Para este caso seleccione el criterio de búsqueda "**Selección de Pago**" para ubicar las "**Orden de Pago**" la cual tiene los documentos que necesitan ser cancelados.
 
-        Al desplegar el campo "**Selección de Pago**" podrá observar las "**Órdenes de Pago**" qué se encuentran en estado completo, o también las "**Órdenes de Pago**" que los documentos que posee aún no se encuentran asociados en su totalidad con una orden "**Selección de Pago**" ya que dependiendo de la forma de pago y el saldo con el que cuente el banco asociado a la selección de pago en la ventana padre se decide cuales son los documentos que serán cancelados por ese banco.
+    Al desplegar el campo "**Selección de Pago**" podrá observar las "**Órdenes de Pago**" qué se encuentran en estado completo, o también las "**Órdenes de Pago**" que los documentos que posee aún no se encuentran asociados en su totalidad con una orden "**Selección de Pago**" ya que dependiendo de la forma de pago y el saldo con el que cuente el banco asociado a la selección de pago en la ventana padre se decide cuales son los documentos que serán cancelados por ese banco.
 
-        |Campo Selección de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+    |Campo Selección de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-        Imagen 12. Campo Selección de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+    Imagen 12. Campo Selección de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-    #. Campo "**Socio del Negocio**", permite filtrar la búsqueda por el socio del negocio seleccionado.
+#. Campo "**Socio del Negocio**", permite filtrar la búsqueda por el socio del negocio seleccionado.
 
-        |Campo Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+    |Campo Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-        Imagen 13. Campo Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+    Imagen 13. Campo Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-    #. Campo "**Factura**", permite filtrar la búsqueda por la factura previamente realizada.
+#. Campo "**Factura**", permite filtrar la búsqueda por la factura previamente realizada.
 
-        Es decir al colocar una factura en específico en el campo "**Factura**", ADempiere traerá la **"Orden de Pago"** que ese asociada a esa factura.
+    Es decir al colocar una factura en específico en el campo "**Factura**", ADempiere traerá la **"Orden de Pago"** que ese asociada a esa factura.
 
-        |Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+    |Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-        Imagen 14. Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+    Imagen 14. Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-    #. Campo "**Regla de Pago**", permite filtrar la búsqueda de los documentos que posean la regla de pago seleccionada y que se encuentren asociada a una **"Orden de Pago"**.
+#. Campo "**Regla de Pago**", permite filtrar la búsqueda de los documentos que posean la regla de pago seleccionada y que se encuentren asociada a una **"Orden de Pago"**.
 
-        |Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+    |Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-        Imagen 15. Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+    Imagen 15. Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-    #. Campo "**Orden de Venta**", permite filtrar la búsqueda por la orden de venta previamente realizada.
+#. Campo "**Orden de Venta**", permite filtrar la búsqueda por la orden de venta previamente realizada.
 
-        Es decir al colocar una orden en específico en el campo "**Orden de Venta**", ADempiere traerá las ordenes que se encuentren asociada a una **"Orden de Pago"**.
+    Es decir al colocar una orden en específico en el campo "**Orden de Venta**", ADempiere traerá las ordenes que se encuentren asociada a una **"Orden de Pago"**.
 
-        |Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+    |Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-        Imagen 16. Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+    Imagen 16. Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
-    #. Campo "**Cargo**", permite filtrar la búsqueda por el cargo previamente seleccionado en la factura.
+#. Campo "**Cargo**", permite filtrar la búsqueda por el cargo previamente seleccionado en la factura.
 
-        |Campo Cargo de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
+    |Campo Cargo de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago|
 
-        Imagen 17. Campo Cargo de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
+    Imagen 17. Campo Cargo de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago
 
 #. Dependiendo del criterio de búsqueda seleccionado tilde la opción "**Comenzar Búsqueda**", para ubicar los documentos los cuales pertenecerán a la selección de pagos para ser cancelados.
 
@@ -205,81 +205,81 @@ Para realizar una "**Selección de Pago**" la cual se encarga de definir de qué
 
 #. Podrá observar que en cada registro de la pestaña "**Línea de Selección de Pago**" aparecerán las siguientes características:
 
-    #. Campo "**Selección de Pago**" debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la selección de pago.
+#. Campo "**Selección de Pago**" debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la selección de pago.
 
-    #. Campo "**No. Línea**" este campo define el número de línea de cada registro asociado a la pestaña "**Lńea Selección de Pago**", cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pestaña, cada registro debe estar en 10, 20 y 30.
+#. Campo "**No. Línea**" este campo define el número de línea de cada registro asociado a la pestaña "**Lńea Selección de Pago**", cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pestaña, cada registro debe estar en 10, 20 y 30.
 
-    #. Campo "**Descripción**" este campo puede ser utilizado si se requiere dar una descripción en el registro de la línea.
+#. Campo "**Descripción**" este campo puede ser utilizado si se requiere dar una descripción en el registro de la línea.
 
-    #. Checklist "**Activo**" esté check indica si el registro de la línea está activo o no.
+#. Checklist "**Activo**" esté check indica si el registro de la línea está activo o no.
 
-    #. En el campo "**Socio del Negocio**" debe aparecer el socio de negocio del documento que se encuentra asociada al registro de la línea.
+#. En el campo "**Socio del Negocio**" debe aparecer el socio de negocio del documento que se encuentra asociada al registro de la línea.
 
-        |Socio de Negocio del Documento Registro desde Selección de Pago|
+    |Socio de Negocio del Documento Registro desde Selección de Pago|
 
-        Imagen 24. Socio de Negocio del Documento Registro desde Selección de Pago
+    Imagen 24. Socio de Negocio del Documento Registro desde Selección de Pago
 
-    #. Sí el documentos asociado pertenece a una factura en el campo **"Factura"** debe aparecer el número del documento de la factura seleccionada desde opción "**Crear Desde Selección de Pago**".
+#. Sí el documentos asociado pertenece a una factura en el campo **"Factura"** debe aparecer el número del documento de la factura seleccionada desde opción "**Crear Desde Selección de Pago**".
 
-        |Factura Cuentas por Pagar del Documento Registro desde Selección de Pago|
+    |Factura Cuentas por Pagar del Documento Registro desde Selección de Pago|
 
-        Imagen 25. Factura Cuentas por Pagar del Documento Registro desde Selección de Pago
+    Imagen 25. Factura Cuentas por Pagar del Documento Registro desde Selección de Pago
 
-    #. Sí el documentos asociado pertenece a una orden de compra en el campo **"Orden de Compra"** debe aparecer el número del documento de la orden seleccionada desde opción "**Crear Desde Selección de Pago**".
+#. Sí el documentos asociado pertenece a una orden de compra en el campo **"Orden de Compra"** debe aparecer el número del documento de la orden seleccionada desde opción "**Crear Desde Selección de Pago**".
 
-        |Orden de Compra del Documento Registro desde Selección de Pago|
+    |Orden de Compra del Documento Registro desde Selección de Pago|
 
-        Imagen 26.  Orden de Compra del Documento Registro desde Selección de Pago
+    Imagen 26.  Orden de Compra del Documento Registro desde Selección de Pago
 
-    #. En el campo "**Regla de Pago**" se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
+#. En el campo "**Regla de Pago**" se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
 
-        ADempiere cuenta cuenta con cinco (5) reglas de pagos, las cuales debe ser utilizadas de las siguientes manera:
+    ADempiere cuenta cuenta con cinco (5) reglas de pagos, las cuales debe ser utilizadas de las siguientes manera:
 
-        Para lo pagos que serán generados a través de transferencia bancarias se deben tildar las siguientes reglas de pago:
+    Para lo pagos que serán generados a través de transferencia bancarias se deben tildar las siguientes reglas de pago:
 
-        - A crédito.
-        - Débito directo.
-        - Depósito directo.
+    - A crédito.
+    - Débito directo.
+    - Depósito directo.
 
-        Para los pagos que serán generados a través de cheques o tarjetas se deben utilizar las siguientes reglas de pago:
+    Para los pagos que serán generados a través de cheques o tarjetas se deben utilizar las siguientes reglas de pago:
 
-        - A crédito.
-        - Cheque.
-        - Tarjeta de crédito.
- 
-        En una "**Selección de Pagos de Cuentas por Pagar**" no se pueden mezclar los métodos de pagos es decir, si los pagos a realizar son solo transferencia bancaria solamente se deben seleccionar los documentos que se les realizará  los pagos por transferencia bancaria y asociar las reglas de pagos correspondientes, si los pagos a generar son a través de cheques o tarjetas sólo se deben crear una selección de pagos para este método de pago,  no se pueden asociar asociar un método de pago de transferencia con cheques ya que esto alteraría el proceso de :ref:`documento/Imprimir-Exportar`
+    - A crédito.
+    - Cheque.
+    - Tarjeta de crédito.
 
-        |Regla de Pago del Documento Registro desde Selección de Pago|
+    En una "**Selección de Pagos de Cuentas por Pagar**" no se pueden mezclar los métodos de pagos es decir, si los pagos a realizar son solo transferencia bancaria solamente se deben seleccionar los documentos que se les realizará  los pagos por transferencia bancaria y asociar las reglas de pagos correspondientes, si los pagos a generar son a través de cheques o tarjetas sólo se deben crear una selección de pagos para este método de pago,  no se pueden asociar asociar un método de pago de transferencia con cheques ya que esto alteraría el proceso de :ref:`documento/Imprimir-Exportar`
 
-        Imagen 27. Regla de Pago del Documento Registro desde Selección de Pago
+    |Regla de Pago del Documento Registro desde Selección de Pago|
 
-    #. El Checklist "**Anticipo**" aparecerá tildado cuando el documento que se encuentre en la línea sea una orden de compra, de lo contrario no aparecerá tildado.
+    Imagen 27. Regla de Pago del Documento Registro desde Selección de Pago
 
-        |Checklist Anticipo del Documento Registro desde Selección de Pago|
+#. El Checklist "**Anticipo**" aparecerá tildado cuando el documento que se encuentre en la línea sea una orden de compra, de lo contrario no aparecerá tildado.
 
-        Imagen 28. Checklist Anticipo del Documento Registro desde Selección de Pago
+    |Checklist Anticipo del Documento Registro desde Selección de Pago|
 
-    #. En el campo "**Total del Pago**" debe aparecer el monto a pagar del documento asociado a la línea, el monto a mostrar es el mismo que fue establecido en la "**Orden de Pago**"
-            
-        |Total de Pago del Documento Registro desde Selección de Pago|
+    Imagen 28. Checklist Anticipo del Documento Registro desde Selección de Pago
 
-        Imagen 29. Total de Pago del Documento Registro desde Selección de Pago
+#. En el campo "**Total del Pago**" debe aparecer el monto a pagar del documento asociado a la línea, el monto a mostrar es el mismo que fue establecido en la "**Orden de Pago**"
+        
+    |Total de Pago del Documento Registro desde Selección de Pago|
 
-    #. En el campo "**Total Abierto**" debe aparecer el total abierto que tiene la factura, si la factura ha sido pagada de manera parcial el total pendiente por pagar aparecerá en este campo.
+    Imagen 29. Total de Pago del Documento Registro desde Selección de Pago
 
-        |Total de Abierto del Documento Registro desde Selección de Pago|
+#. En el campo "**Total Abierto**" debe aparecer el total abierto que tiene la factura, si la factura ha sido pagada de manera parcial el total pendiente por pagar aparecerá en este campo.
 
-        Imagen 30. Total de Abierto del Documento Registro desde Selección de Pago
+    |Total de Abierto del Documento Registro desde Selección de Pago|
 
-    #. En el campo "**Diferencia monto**" debe aparecer la diferencia que pueda tener una factura entre el total abierto y el total a pagar.
+    Imagen 30. Total de Abierto del Documento Registro desde Selección de Pago
 
-        |Diferencia Monto del Documento Registro desde Selección de Pago|
+#. En el campo "**Diferencia monto**" debe aparecer la diferencia que pueda tener una factura entre el total abierto y el total a pagar.
 
-        Imagen 31. Diferencia Monto del Documento Registro desde Selección de Pago
+    |Diferencia Monto del Documento Registro desde Selección de Pago|
 
-        .. note::
+    Imagen 31. Diferencia Monto del Documento Registro desde Selección de Pago
 
-            El resultado o valor a mostrar en este campo dependerá de los valores colocados en el campo "**Total del Pago**" y "**Total Abierto**", si los valores de saldo en ambos campos son iguales este campo debe estar en cero (0).
+    .. note::
+
+        El resultado o valor a mostrar en este campo dependerá de los valores colocados en el campo "**Total del Pago**" y "**Total Abierto**", si los valores de saldo en ambos campos son iguales este campo debe estar en cero (0).
 
 #. Una verificado los documentos seleccionadas desde la opción "**Crear Desde Selección de Pago**" estén en la pestaña "**Línea de Selección de Pago**" se puede completar la "**Selección de Pago**" para ello regrese a la ventana principal "**Selección de Pago**" .
 

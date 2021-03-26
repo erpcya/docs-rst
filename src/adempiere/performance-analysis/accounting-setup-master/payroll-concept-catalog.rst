@@ -71,7 +71,7 @@
 
     Imagen 8. Identificador del Campo Cuenta Gastos Nómina de la Pestaña Contabilidad de Concepto
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Cuenta Gastos Nómina de la Pestaña Contabilidad de Concepto|
 
@@ -83,7 +83,7 @@
 
     Imagen 10. Campo Cuenta Ingresos Nómina de la Pestaña Contabilidad de Concepto
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Cuenta Ingresos Nómina de la Pestaña Contabilidad de Concepto|
 

@@ -64,7 +64,7 @@
 
     Imagen 4. Campo Inventario de Producto
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Inventario de Producto|
 
@@ -76,7 +76,7 @@
 
     Imagen 6. Campo Costos o Gastos Producto
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Costos o Gastos Producto|
 
@@ -88,7 +88,7 @@
 
     Imagen 8. Campo Ajustar Costo
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Ajustar Costo|
 
@@ -100,7 +100,7 @@
 
     Imagen 10. Campo Conciliación de Inventario
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Conciliación de Inventario|
 
@@ -112,7 +112,7 @@
 
     Imagen 12. Campo COGS del Producto
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo COGS del Producto|
 
@@ -124,7 +124,7 @@
 
     Imagen 14. Campo Variación Precio de OC
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Variación Precio de OC|
 
@@ -136,7 +136,7 @@
 
     Imagen 16. Campo Variación en Precio de la Factura
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Variación en Precio de la Factura|
 
@@ -148,7 +148,7 @@
 
     Imagen 18. Campo Varianza Costo Promedio
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Varianza Costo Promedio|
 
@@ -160,7 +160,7 @@
 
     Imagen 20. Campo Descuento Comercial Recibido
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Descuento Comercial Recibido|
 
@@ -172,7 +172,7 @@
 
     Imagen 22. Campo Descuento Comercial Concedido
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Descuento Comercial Concedido|
 
@@ -184,7 +184,7 @@
 
     Imagen 24. Campo Ingresos Producto
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Ingresos Producto|
 
@@ -196,7 +196,7 @@
 
     Imagen 26. Campo Trabajo en Proceso
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Trabajo en Proceso|
 
@@ -208,7 +208,7 @@
 
     Imagen 28. Campo Existencia Piso
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Existencia Piso|
 

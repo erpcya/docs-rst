@@ -38,7 +38,7 @@
 
     Imagen 4. Campo Cargo Gasto de la Pestaña Contabilidad de la Ventana Cargo
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Cargo Gasto|
 
@@ -50,7 +50,7 @@
 
     Imagen 6. Campo Cargo Ingreso de la Pestaña Contabilidad de la Ventana Cargo
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Cargo Ingreso|
 

@@ -159,109 +159,109 @@ En muchas ocasiones se necesitan realizar anticipos a proveedores, una vez que s
 
 #. Los campos a visualizar en el smart browser son los siguientes:
 
-    #. Campo "**Moneda**", este campo se encuentra sólo lectura y la moneda a mostrar dependerá de la moneda seleccionada en la ventana padre "**Selección de Pago**"; la moneda que aparezca en ese campo dentro del smart browser le indica a ADempiere que los documentos a buscar deben estar bajo esa moneda, ejemplo: 
+#. Campo "**Moneda**", este campo se encuentra sólo lectura y la moneda a mostrar dependerá de la moneda seleccionada en la ventana padre "**Selección de Pago**"; la moneda que aparezca en ese campo dentro del smart browser le indica a ADempiere que los documentos a buscar deben estar bajo esa moneda, ejemplo: 
 
-        - Si el valor en el campo "**Moneda**" es "**VES**" (Bolívar) cuando se realice la búsqueda de los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
+    - Si el valor en el campo "**Moneda**" es "**VES**" (Bolívar) cuando se realice la búsqueda de los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
 
-        - Si  el valor en el campo "**Moneda**" es **USD**" (Dólar) cuando se realice la búsqueda de los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
+    - Si  el valor en el campo "**Moneda**" es **USD**" (Dólar) cuando se realice la búsqueda de los documentos ADempiere mostrara únicamente los que estén creados bajo esa moneda.
 
-        |Campo Moneda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+    |Campo Moneda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
 
-        Imagen 15. Campo Moneda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    Imagen 15. Campo Moneda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-    #. Campo "**Socio de Negocio**", este campo puede ser utilizado si desea ubicar las órdenes de compras que estén asociadas a un socio de negocio en específico.
+#. Campo "**Socio de Negocio**", este campo puede ser utilizado si desea ubicar las órdenes de compras que estén asociadas a un socio de negocio en específico.
 
-        |Campo Socio de Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+    |Campo Socio de Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
 
-        Imagen 16. Campo Socio de Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    Imagen 16. Campo Socio de Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-    #. Checklist "**Transacción de Ventas**", esté checklist comúnmente se encuentra destildado, pero sí se tilda al momento de hacer la  búsqueda en el smart browser ADempiere mostrará las "**Ordenes de Ventas**", sí el check se encuentra destildado mostrará únicamente las "**Ordenes de Compras**".
+#. Checklist "**Transacción de Ventas**", esté checklist comúnmente se encuentra destildado, pero sí se tilda al momento de hacer la  búsqueda en el smart browser ADempiere mostrará las "**Ordenes de Ventas**", sí el check se encuentra destildado mostrará únicamente las "**Ordenes de Compras**".
 
-        |Checklist Transacción de Ventas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+    |Checklist Transacción de Ventas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
 
-        Imagen 17. Check Transacción de Ventas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    Imagen 17. Check Transacción de Ventas de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-    #. Campo "**Regla de Pago**", este es un campo de búsqueda tipo lista, el cual al tildarlo mostrará una serie de opciones de reglas de pagos, la opción a seleccionar en esté campo le indicará a ADempiere qué al momento de realizar la búsqueda ubique y muestre solo las ordenes de compras que estén bajo la regla de pago seleccionada en ese campo, como por ejemplo:
+#. Campo "**Regla de Pago**", este es un campo de búsqueda tipo lista, el cual al tildarlo mostrará una serie de opciones de reglas de pagos, la opción a seleccionar en esté campo le indicará a ADempiere qué al momento de realizar la búsqueda ubique y muestre solo las ordenes de compras que estén bajo la regla de pago seleccionada en ese campo, como por ejemplo:
 
-        Si se selecciona la regla de pago "**A Crédito**" y tengo creadas una o varias órdenes de compras qué tienen establecida esa regla de pago, al realizar la búsqueda desde el smart browser ADempiere mostrará las órdenes que éste unicamente con esa regla de pago, si no existen órdenes de compras con esa regla de pago ADempiere no mostrará nada.
+    Si se selecciona la regla de pago "**A Crédito**" y tengo creadas una o varias órdenes de compras qué tienen establecida esa regla de pago, al realizar la búsqueda desde el smart browser ADempiere mostrará las órdenes que éste unicamente con esa regla de pago, si no existen órdenes de compras con esa regla de pago ADempiere no mostrará nada.
 
-        |Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+    |Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
 
-        Imagen 18. Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    Imagen 18. Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-    #. Campo "**Tipo de Documento**", este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de los tipos de documentos que se encuentran asociados a las órdenes de compras, la opción a seleccionar en este campo le indicará a ADempiere qué al momento de realizar la búsqueda ubique y muestre solo las ordenes de compras que estén bajo el tipo de documento seleccionado en ese campo, como por ejemplo:
+#. Campo "**Tipo de Documento**", este es un campo de búsqueda tipo lista el cual al tildarlo mostrará una serie de opciones de los tipos de documentos que se encuentran asociados a las órdenes de compras, la opción a seleccionar en este campo le indicará a ADempiere qué al momento de realizar la búsqueda ubique y muestre solo las ordenes de compras que estén bajo el tipo de documento seleccionado en ese campo, como por ejemplo:
 
-        Si se selecciona el tipo de documento "**Orden de Compra Nacional**" ADempiere mostrará cuando se realice la búsqueda unicamente las ordenes de compra que estén asociadas a ese tipo de documento, de lo contrario si no es seleccionado ningún tipo de documento ADempiere mostrará todas las órdenes de compras con todos los tipos de documentos que estén asociados a una orden de compra.
+    Si se selecciona el tipo de documento "**Orden de Compra Nacional**" ADempiere mostrará cuando se realice la búsqueda unicamente las ordenes de compra que estén asociadas a ese tipo de documento, de lo contrario si no es seleccionado ningún tipo de documento ADempiere mostrará todas las órdenes de compras con todos los tipos de documentos que estén asociados a una orden de compra.
 
-        |Campo Tipo de Documento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+    |Campo Tipo de Documento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
 
-        Imagen 19. Campo Tipo de Documento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    Imagen 19. Campo Tipo de Documento de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-    #. Campo "**Fecha de la Orden**", este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de la orden "**Desde**" y el segundo como fecha de la orden "**Hasta**", al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) ADempiere mostrará únicamente las ordenes de compras que están asociadas bajo ese rango de fechas, como por ejemplo:  
+#. Campo "**Fecha de la Orden**", este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha de la orden "**Desde**" y el segundo como fecha de la orden "**Hasta**", al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) ADempiere mostrará únicamente las ordenes de compras que están asociadas bajo ese rango de fechas, como por ejemplo:  
 
-        Si se coloca en el campo fecha desde la fecha "**18/06/2020**" y el campo fecha hasta "**20/06/2020**", ADempiere mostrar las ordenes de compras que estén bajo ese rango de fechas.
+    Si se coloca en el campo fecha desde la fecha "**18/06/2020**" y el campo fecha hasta "**20/06/2020**", ADempiere mostrar las ordenes de compras que estén bajo ese rango de fechas.
 
-        |Campo Fecha de la Orden de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+    |Campo Fecha de la Orden de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
 
-        Imagen 20. Campo Fecha de la Orden de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    Imagen 20. Campo Fecha de la Orden de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-        .. note::
+    .. note::
 
-            Para saber más sobre el campo "**Fecha de la Orden**" y qué acción implica sobre una orden de compra, visitar el documento :ref:`documento/orden-de-compra`.
+        Para saber más sobre el campo "**Fecha de la Orden**" y qué acción implica sobre una orden de compra, visitar el documento :ref:`documento/orden-de-compra`.
 
-    #. Campo "**Fecha Prometida**", este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha prometida "**Desde**" y el segundo como fecha prometida "**Hasta**", al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) ADempiere mostrará únicamente las ordenes de compras que están asociadas bajo ese rango de fechas, como por ejemplo:  
+#. Campo "**Fecha Prometida**", este campo es un campo tipo fecha el cual cuenta con dos recuadros con calendarios, el primero es para ser utilizada como fecha prometida "**Desde**" y el segundo como fecha prometida "**Hasta**", al colocar una fecha en cualquiera de estas dos opciones (Fecha desde / Fecha hasta) ADempiere mostrará únicamente las ordenes de compras que están asociadas bajo ese rango de fechas, como por ejemplo:  
 
-        Si se coloca en el campo fecha desde la fecha "**20/06/2020**" y el campo fecha hasta "**25/06/2020**", ADempiere mostrar las ordenes de compras que estén bajo ese rango de fechas.
+    Si se coloca en el campo fecha desde la fecha "**20/06/2020**" y el campo fecha hasta "**25/06/2020**", ADempiere mostrar las ordenes de compras que estén bajo ese rango de fechas.
 
-        |Campo Fecha Prometida de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+    |Campo Fecha Prometida de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
 
-        Imagen 21. Campo Fecha Prometida de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    Imagen 21. Campo Fecha Prometida de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-        .. note::
+    .. note::
 
-            Para saber más sobre el campo "**Fecha Prometida**" y qué acción implica sobre una orden de compra, visitar el documento :ref:`documento/orden-de-compra`
+        Para saber más sobre el campo "**Fecha Prometida**" y qué acción implica sobre una orden de compra, visitar el documento :ref:`documento/orden-de-compra`
 
-    #. Campo "**Orden de Venta**" este campo es un campo tipo búsqueda, aunque este campo tenga como orden de venta eso no significa que esté asociado para ubicar sólo las órdenes de ventas es un nombre estándar que maneja ADempiere y también es utilizado para esté caso para ubicar las órdenes de compras.
+#. Campo "**Orden de Venta**" este campo es un campo tipo búsqueda, aunque este campo tenga como orden de venta eso no significa que esté asociado para ubicar sólo las órdenes de ventas es un nombre estándar que maneja ADempiere y también es utilizado para esté caso para ubicar las órdenes de compras.
 
-        Este campo permite que sea ubicada una orden de compra en específico, para que al momento de realizar la búsqueda  en el smart browser, esté muestre la orden de compra ubicada desde este campo. 
+    Este campo permite que sea ubicada una orden de compra en específico, para que al momento de realizar la búsqueda  en el smart browser, esté muestre la orden de compra ubicada desde este campo. 
 
-        |Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+    |Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
 
-        Imagen 22. Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    Imagen 22. Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-    #. Luego de establecer los filtros de búsqueda y cual de ellos desea seleccionar, tilde la opción "**Comenzar Búsqueda**", para buscar los diferentes registros de órdenes de compra que se encuentran en ADempiere.
+#. Luego de establecer los filtros de búsqueda y cual de ellos desea seleccionar, tilde la opción "**Comenzar Búsqueda**", para buscar los diferentes registros de órdenes de compra que se encuentran en ADempiere.
 
-        |Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+    |Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
 
-        Imagen 23. Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    Imagen 23. Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-    #. Al tildar la opción "**Comenzar Búsqueda**", se desplegará en la parte inferior del smart browser las órdenes de compras.
+#. Al tildar la opción "**Comenzar Búsqueda**", se desplegará en la parte inferior del smart browser las órdenes de compras.
 
-        |Ordenes de Compras de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+    |Ordenes de Compras de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
 
-        Imagen 24. Ordenes de Compras de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    Imagen 24. Ordenes de Compras de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-        .. note: 
+    .. note: 
 
-            Las órdenes de compra a mostrar dependerá de la selección del filtro de búsqueda utilizado, para qué una orden de compra pueda aparecer en este procedimiento debe encontrarse en estado "**Completo**".
+        Las órdenes de compra a mostrar dependerá de la selección del filtro de búsqueda utilizado, para qué una orden de compra pueda aparecer en este procedimiento debe encontrarse en estado "**Completo**".
 
-    #. Seleccione las órdenes que deseen asociar a la "**Orden de Pago**". 
-    
-        |Seleccionar Órdenes de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+#. Seleccione las órdenes que deseen asociar a la "**Orden de Pago**". 
 
-        Imagen 25. Seleccionar Órdenes de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    |Seleccionar Órdenes de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
 
-    #. Al seleccionar las órdenes indique en el campo "**Total del Pago**", cual es el total del anticipo por cada orden.
+    Imagen 25. Seleccionar Órdenes de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-        |Total Anticipo de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+#. Al seleccionar las órdenes indique en el campo "**Total del Pago**", cual es el total del anticipo por cada orden.
 
-        Imagen 26. Total Anticipo de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    |Total Anticipo de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
 
-    #. Seleccione la opción "**OK**" para cargar la información de la orden de compra a la pestaña "**Línea de Selección de Pago**".
+    Imagen 26. Total Anticipo de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
-        |Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+#. Seleccione la opción "**OK**" para cargar la información de la orden de compra a la pestaña "**Línea de Selección de Pago**".
 
-        Imagen 27. Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
+    |Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden|
+
+    Imagen 27. Opción Ok de la Ventana de Búsqueda Inteligente del Proceso Crear Desde Orden
 
 #. Seleccione el icono "**Refrescar**", ubicado en la barra de herramientas de ADempiere para refrescar la ventana "**Selección de Pago**" y pueda visualizar la información cargada desde la opción "**Crear Desde Orden**".
 
@@ -279,161 +279,161 @@ En muchas ocasiones se necesitan realizar anticipos a proveedores, una vez que s
 
         En la pestaña "**Línea de Selección de Pago**" deberán aparecer las misma cantidad de órdenes seleccionadas desde la opción "**Crear Desde Orden**".
 
-    #. Podrá observar que en cada registro de la pestaña "**Línea de Selección de Pago**" aparecerán las siguientes características:
+#. Podrá observar que en cada registro de la pestaña "**Línea de Selección de Pago**" aparecerán las siguientes características:
 
-    #. Campo "**Selección de Pago**" debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la orden de pago.
+#. Campo "**Selección de Pago**" debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la orden de pago.
 
-        |Campo Selección de Pago del Documento Orden de Pago desde Orden|
+    |Campo Selección de Pago del Documento Orden de Pago desde Orden|
 
-        Imagen 30. Campo Selección de Pago del Documento Orden de Pago desde Orden
+    Imagen 30. Campo Selección de Pago del Documento Orden de Pago desde Orden
 
-    #. Campo "**No. Línea**" este campo define el número de línea de cada registro asociado a la pestaña "**Lńea Selección de Pago**", cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pestaña, cada registro debe estar en 10, 20 y 30.
+#. Campo "**No. Línea**" este campo define el número de línea de cada registro asociado a la pestaña "**Lńea Selección de Pago**", cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pestaña, cada registro debe estar en 10, 20 y 30.
 
-        |Campo No Línea del Documento Orden de Pago desde Orden|
+    |Campo No Línea del Documento Orden de Pago desde Orden|
 
-        Imagen 31. Campo N° Línea del Documento Orden de Pago desde Orden
+    Imagen 31. Campo N° Línea del Documento Orden de Pago desde Orden
 
-    #. Campo "**Descripción**" este campo puede ser utilizado si se requiere dar una descripción en el registro de la línea.
+#. Campo "**Descripción**" este campo puede ser utilizado si se requiere dar una descripción en el registro de la línea.
 
-        |Campo Descripción de la línea del Documento Orden de Pago desde Orden|
+    |Campo Descripción de la línea del Documento Orden de Pago desde Orden|
 
-        Imagen 32. Campo Descripción de la línea del Documento Orden de Pago desde Orden
+    Imagen 32. Campo Descripción de la línea del Documento Orden de Pago desde Orden
 
-    #. Checklist "**Activo**" esté check indica si el registro de la línea está activo o no.
+#. Checklist "**Activo**" esté check indica si el registro de la línea está activo o no.
 
-        |Checklist Activo del Documento Orden de Pago desde Orden|
+    |Checklist Activo del Documento Orden de Pago desde Orden|
 
-        Imagen 33. Checklist Activo del Documento Orden de Pago desde Orden
+    Imagen 33. Checklist Activo del Documento Orden de Pago desde Orden
 
-    #. Campo "**Socio del Negocio**", debe aparecer el socio de negocio de la orden que se encuentra asociada al registro de la línea.
+#. Campo "**Socio del Negocio**", debe aparecer el socio de negocio de la orden que se encuentra asociada al registro de la línea.
 
-        |Socio de Negocio del Documento Orden de Pago desde Orden|
+    |Socio de Negocio del Documento Orden de Pago desde Orden|
 
-        Imagen 34. Socio de Negocio del Documento Orden de Pago desde Orden
+    Imagen 34. Socio de Negocio del Documento Orden de Pago desde Orden
 
-    #. Campo "**Cuenta Bancaria Socio del Negocio**", en este campo tipo lista deben aparecer las cuentas bancarias asociadas al socio del negocio, las cuentas bancarias a aparecer en este campo dependerá de las cuentas asociadas al momento de :ref:`documento/socio-proveedor`.
+#. Campo "**Cuenta Bancaria Socio del Negocio**", en este campo tipo lista deben aparecer las cuentas bancarias asociadas al socio del negocio, las cuentas bancarias a aparecer en este campo dependerá de las cuentas asociadas al momento de :ref:`documento/socio-proveedor`.
 
-        La selección de la cuenta bancaria en este campo dependerá de las reglas del negocio que tenga la compañía con los proveedores.
+    La selección de la cuenta bancaria en este campo dependerá de las reglas del negocio que tenga la compañía con los proveedores.
 
-        |Campo Cuenta Bancaria Socio del Negocio del Documento Orden de Pago desde Orden|
+    |Campo Cuenta Bancaria Socio del Negocio del Documento Orden de Pago desde Orden|
 
-        Imagen 35. Campo Cuenta Bancaria Socio del Negocio del Documento Orden de Pago desde Orden
+    Imagen 35. Campo Cuenta Bancaria Socio del Negocio del Documento Orden de Pago desde Orden
 
-    #. Campo "**Orden de Compra**", en este campo debe aparecer el número del documento de la orden seleccionada desde opción "**Crear Desde Selección de Pago**".
+#. Campo "**Orden de Compra**", en este campo debe aparecer el número del documento de la orden seleccionada desde opción "**Crear Desde Selección de Pago**".
 
-        |Campo Orden de Compra del Documento Orden de Pago desde Orden|
+    |Campo Orden de Compra del Documento Orden de Pago desde Orden|
 
-        Imagen 36. Campo Orden de Compra del Documento Orden de Pago desde Orden
+    Imagen 36. Campo Orden de Compra del Documento Orden de Pago desde Orden
 
-    #. En el campo "**Factura**", para este caso no debe aparecer ninguna información ya que se está trabajando es con órdenes de compras, sí requiere realizar una "**Orden de Pago**" y asociar facturas verificar el instructivo :ref:`documento/orden-de-pago`.
+#. En el campo "**Factura**", para este caso no debe aparecer ninguna información ya que se está trabajando es con órdenes de compras, sí requiere realizar una "**Orden de Pago**" y asociar facturas verificar el instructivo :ref:`documento/orden-de-pago`.
 
-        |Campo Factura del Documento Orden de Pago desde Orden|
+    |Campo Factura del Documento Orden de Pago desde Orden|
 
-        Imagen 37. Campo Factura del Documento Orden de Pago desde Orden
+    Imagen 37. Campo Factura del Documento Orden de Pago desde Orden
 
-    #. Campo "**Movimiento Nómina**" para este caso no debe aparecer ninguna información ya que se está trabajando es con órdenes de compras, sí requiere realizar una "**Selección de Pago**" y asociar a un movimiento de nómina verificar el instructivo :ref:`documento/seleccion-pago-de-nómina`.
+#. Campo "**Movimiento Nómina**" para este caso no debe aparecer ninguna información ya que se está trabajando es con órdenes de compras, sí requiere realizar una "**Selección de Pago**" y asociar a un movimiento de nómina verificar el instructivo :ref:`documento/seleccion-pago-de-nómina`.
 
-        |Campo Movimento de Nómina del Documento Orden de Pago desde Orden|
+    |Campo Movimento de Nómina del Documento Orden de Pago desde Orden|
 
-        Imagen 38. Campo Movimento de Nómina del Documento Orden de Pago desde Orden
+    Imagen 38. Campo Movimento de Nómina del Documento Orden de Pago desde Orden
 
-    #. Campo "**Regla de Pago**", se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
+#. Campo "**Regla de Pago**", se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.
 
-        ADempiere cuenta cuenta con cinco (5) reglas de pagos, las cuales son:
+    ADempiere cuenta cuenta con cinco (5) reglas de pagos, las cuales son:
 
-        - **A crédito:** Esta regla de pago indica que dicho documento cuenta con un crédito de pago, sin embargo es crédito no es reflejado en la orden de pago si no en la regla de pago que tenga establecida el "**Socio del Negocio**" o la "**Orden de Compra**".
-        
-        - **Débito directo.** Está regla de pago indica que el pago a generar es un débito directo, lo cual en pocas palabras es una transferencia bancaria. 
-
-        - **Depósito directo:** Está regla de pago indica que el pago a generar es un depósito directo, está regla también entraría dentro de transferencia bancaria.
-
-        - **Cheque:** Está regla de pago indica qué el pago a generar es a través de cheques bancarios.
-
-        - **Tarjeta de crédito:** Está regla de pago indica qué el pago a generar es a través de tarjeta de crédito.
-
-        |Campo Regla de Pago del Documento Orden de Pago desde Orden|
+    - **A crédito:** Esta regla de pago indica que dicho documento cuenta con un crédito de pago, sin embargo es crédito no es reflejado en la orden de pago si no en la regla de pago que tenga establecida el "**Socio del Negocio**" o la "**Orden de Compra**".
     
-        Imagen 39. Campo Regla de Pago del Documento Orden de Pago desde Orden
+    - **Débito directo.** Está regla de pago indica que el pago a generar es un débito directo, lo cual en pocas palabras es una transferencia bancaria. 
 
-    #. Campo "**Programa de Pago de Factura**", se debe seleccionar el programa de pago que posea la factura, para este caso como estamos trabajando con ordenes no aplica este campo.
+    - **Depósito directo:** Está regla de pago indica que el pago a generar es un depósito directo, está regla también entraría dentro de transferencia bancaria.
 
-        |Campo Programa de Pago del Documento Orden de Pago desde Orden|
+    - **Cheque:** Está regla de pago indica qué el pago a generar es a través de cheques bancarios.
 
-        Imagen 40. Campo Programa de Pago del Documento Orden de Pago desde Orden
+    - **Tarjeta de crédito:** Está regla de pago indica qué el pago a generar es a través de tarjeta de crédito.
 
-    #. Campo "**Cargo**" se debe seleccionar el cargo qué desee asociar al registro de la línea de la selección de pago.
+    |Campo Regla de Pago del Documento Orden de Pago desde Orden|
 
-        |Campo Cargo del Documento Orden de Pago desde Orden|
+    Imagen 39. Campo Regla de Pago del Documento Orden de Pago desde Orden
 
-        Imagen 41. Campo Cargo del Documento Orden de Pago desde Orden
+#. Campo "**Programa de Pago de Factura**", se debe seleccionar el programa de pago que posea la factura, para este caso como estamos trabajando con ordenes no aplica este campo.
 
-    #. Checklist "**Anticipo**" aparecerá tildado cuando el documento que se encuentre en la línea sea una orden de compra, de lo contrario no aparecerá tildado.
+    |Campo Programa de Pago del Documento Orden de Pago desde Orden|
 
-        |Checklist Anticipo del Documento Orden de Pago desde Orden|
+    Imagen 40. Campo Programa de Pago del Documento Orden de Pago desde Orden
 
-        Imagen 42. Checklist Anticipo del Documento Orden de Pago desde Orden
+#. Campo "**Cargo**" se debe seleccionar el cargo qué desee asociar al registro de la línea de la selección de pago.
 
-    #. Checklist "**Transacción de Ventas**" esté checklist aparecerá tildado cuando en la línea se encuentre un documento de ventas o CxC.
+    |Campo Cargo del Documento Orden de Pago desde Orden|
 
-        |Checklist Transacción de Ventas del Documento Orden de Pago desde Orden|
+    Imagen 41. Campo Cargo del Documento Orden de Pago desde Orden
 
-        Imagen 43. Checklist Transacción de Ventas del Documento Orden de Pago desde Orden
+#. Checklist "**Anticipo**" aparecerá tildado cuando el documento que se encuentre en la línea sea una orden de compra, de lo contrario no aparecerá tildado.
 
-    #. Campo "**Importe Fuente**" en este campo debe aparecer el total de la abierto de la orden.
+    |Checklist Anticipo del Documento Orden de Pago desde Orden|
 
-        |Campo Importe Fuente del Documento Orden de Pago desde Orden| 
+    Imagen 42. Checklist Anticipo del Documento Orden de Pago desde Orden
 
-        Imagen 44. Campo Importe Fuente del Documento Orden de Pago desde Orden
+#. Checklist "**Transacción de Ventas**" esté checklist aparecerá tildado cuando en la línea se encuentre un documento de ventas o CxC.
 
-    #. Campo "**Tipo de Conversión**", este campo tipo lista mostrará los tipos de conversión que se encuentren registrados en ADempiere, el tipo de conversión no es más que el tipo de índice el cual se le asociará el valor de las tasa o conversiones de monedas.  
+    |Checklist Transacción de Ventas del Documento Orden de Pago desde Orden|
 
-        |Campo Tipo de Conversión del Documento Orden de Pago desde Orden|
+    Imagen 43. Checklist Transacción de Ventas del Documento Orden de Pago desde Orden
 
-        Imagen 45. Campo tipo de Conversión del Documento Orden de Pago desde Orden
+#. Campo "**Importe Fuente**" en este campo debe aparecer el total de la abierto de la orden.
 
-    #. Campo "**Tasa de Cambio**" , este campo tipo lista mostrará las tasas de cambios que se encuentren asociadas al tipo de cambio seleccionado en el campo  "**Tipo de Conversión**", la tasa de cambio no es más que la conversión de una moneda con otra en un fecha determinada.
+    |Campo Importe Fuente del Documento Orden de Pago desde Orden| 
 
-        |Campo Tasa de Cambio del Documento Orden de Pago desde Orden|
+    Imagen 44. Campo Importe Fuente del Documento Orden de Pago desde Orden
 
-        Imagen 46. Campo Tasa de Cambio del Documento Orden de Pago desde Orden
+#. Campo "**Tipo de Conversión**", este campo tipo lista mostrará los tipos de conversión que se encuentren registrados en ADempiere, el tipo de conversión no es más que el tipo de índice el cual se le asociará el valor de las tasa o conversiones de monedas.  
 
-        .. note::
+    |Campo Tipo de Conversión del Documento Orden de Pago desde Orden|
 
-            Estos dos campos "**Tasa de Cambio**" y "**Tipo deConversióń**" son utilizados en el caso de que se esté trabajando con documentos en moneda extranjera y se necesiten realizar los pagos con la moneda nacional.
+    Imagen 45. Campo tipo de Conversión del Documento Orden de Pago desde Orden
 
-    #. Campo "**Total del Pago**" debe aparecer el monto a pagar de la orden, este monto puede ser editado ya para este caso el anticipo a realizar puede ser por el total o solo una parte del total de la orden, todo dependerá del acuerdo de pagos que tenga la compañía con el proveedor.
+#. Campo "**Tasa de Cambio**" , este campo tipo lista mostrará las tasas de cambios que se encuentren asociadas al tipo de cambio seleccionado en el campo  "**Tipo de Conversión**", la tasa de cambio no es más que la conversión de una moneda con otra en un fecha determinada.
 
-        |Campo Total de Pago del Documento Orden de Pago desde Orden|
+    |Campo Tasa de Cambio del Documento Orden de Pago desde Orden|
 
-        Imagen 47. Total de Pago del Documento Orden de Pago desde Orden
+    Imagen 46. Campo Tasa de Cambio del Documento Orden de Pago desde Orden
 
-    #. Campo "**Total Abierto**" debe aparecer el total abierto que tiene la orden.
+    .. note::
 
-        |Total Abierto del Documento Orden de Pago desde Orden|
+        Estos dos campos "**Tasa de Cambio**" y "**Tipo deConversióń**" son utilizados en el caso de que se esté trabajando con documentos en moneda extranjera y se necesiten realizar los pagos con la moneda nacional.
 
-        Imagen 48. Total Abierto del Documento Orden de Pago desde Orden
+#. Campo "**Total del Pago**" debe aparecer el monto a pagar de la orden, este monto puede ser editado ya para este caso el anticipo a realizar puede ser por el total o solo una parte del total de la orden, todo dependerá del acuerdo de pagos que tenga la compañía con el proveedor.
 
-    #. Checklist "**Procesado**", esté al momento de crear la orden no estará tildado, cuando se generen los pagos desde el proceso :ref:`documento/Imprimir-Exportar`, esté checklist aparecerá tildado.
+    |Campo Total de Pago del Documento Orden de Pago desde Orden|
 
-        |Checklist Procesado del Documento Orden de Pago desde Orden|
+    Imagen 47. Total de Pago del Documento Orden de Pago desde Orden
 
-        Imagen 49. Checklist Procesado del Documento Orden de Pago desde Orden
+#. Campo "**Total Abierto**" debe aparecer el total abierto que tiene la orden.
 
-    #. Campo "**Total de Descuento**" en este campo mostrará si la orden tiene un descuento o no.
+    |Total Abierto del Documento Orden de Pago desde Orden|
 
-        |Campo Total de Descuento del Documento Orden de Pago desde Orden|
+    Imagen 48. Total Abierto del Documento Orden de Pago desde Orden
 
-        Imagen 50. Campo Total de Descuento del Documento Orden de Pago desde Orden
+#. Checklist "**Procesado**", esté al momento de crear la orden no estará tildado, cuando se generen los pagos desde el proceso :ref:`documento/Imprimir-Exportar`, esté checklist aparecerá tildado.
 
-    #. En el campo "**Diferencia monto**" debe aparecer la diferencia que pueda tener la orden entre el total abierto y el total a pagar.
+    |Checklist Procesado del Documento Orden de Pago desde Orden|
 
-        |Diferencia Monto del Documento Orden de Pago desde Orden|
+    Imagen 49. Checklist Procesado del Documento Orden de Pago desde Orden
 
-        Imagen 51. Diferencia Monto del Documento Orden de Pago desde Orden
+#. Campo "**Total de Descuento**" en este campo mostrará si la orden tiene un descuento o no.
 
-        .. note::
+    |Campo Total de Descuento del Documento Orden de Pago desde Orden|
 
-            El resultado o valor a mostrar en este campo dependerá de los valores colocados en el campo "**Total del Pago**" y "**Total Abierto**", si los valores de saldo en ambos campos son iguales este campo debe estar en cero (0).
+    Imagen 50. Campo Total de Descuento del Documento Orden de Pago desde Orden
+
+#. En el campo "**Diferencia monto**" debe aparecer la diferencia que pueda tener la orden entre el total abierto y el total a pagar.
+
+    |Diferencia Monto del Documento Orden de Pago desde Orden|
+
+    Imagen 51. Diferencia Monto del Documento Orden de Pago desde Orden
+
+    .. note::
+
+        El resultado o valor a mostrar en este campo dependerá de los valores colocados en el campo "**Total del Pago**" y "**Total Abierto**", si los valores de saldo en ambos campos son iguales este campo debe estar en cero (0).
 
 #. Una vez definido el monto que se desea pagar en cada de las órdenes y verificado que las órdenes seleccionadas desde la opción  "**Crear Desde Orden**" estén en la pestaña "**Línea de Selección de Pago**", se puede completar la "**Orden de Pago**", para ello regrese a la pestaña principal "**Selección de Pago**" .
 

@@ -41,35 +41,35 @@ Para visualizar completamente el procedimiento del inventario físico, es genera
 
     Imagen 3. Ventana Inventario Físico y Icono Registro Nuevo
 
-    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento de inventario físico.
+#. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento de inventario físico.
 
-        |Campo Organización|
+    |Campo Organización|
 
-        Imagen 4. Campo Organización
+    Imagen 4. Campo Organización
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción referente al documento de inventario físico que esta realizando en la organización seleccionada.
+#. Introduzca en el campo "**Descripción**", una breve descripción referente al documento de inventario físico que esta realizando en la organización seleccionada.
 
-        |Campo Descripción|
+    |Campo Descripción|
 
-        Imagen 5. Campo Descripción|
+    Imagen 5. Campo Descripción|
 
-    #. Seleccione en el campo "**Almacén**", el lugar donde es almacenado el producto por el cual se esta realizando el inventario físico.
+#. Seleccione en el campo "**Almacén**", el lugar donde es almacenado el producto por el cual se esta realizando el inventario físico.
 
-        |Campo Almacén|
+    |Campo Almacén|
 
-        Imagen 6. Campo Almacén
+    Imagen 6. Campo Almacén
 
-    #. Introduzca en el campo "**Fecha del Movimiento**", la fecha en la cual es realizado en el almacén el conteo real del producto por el cual se esta realizando el inventario físico.
+#. Introduzca en el campo "**Fecha del Movimiento**", la fecha en la cual es realizado en el almacén el conteo real del producto por el cual se esta realizando el inventario físico.
 
-        |Campo Fecha de Movimiento|
+    |Campo Fecha de Movimiento|
 
-        Imagen 7. Campo Fecha de Movimiento
+    Imagen 7. Campo Fecha de Movimiento
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. 
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. 
 
-        |Campo Tipo de Documento|
+    |Campo Tipo de Documento|
 
-        Imagen 8. Campo Tipo de Documento
+    Imagen 8. Campo Tipo de Documento
 
     .. note::
 
@@ -81,39 +81,39 @@ Para visualizar completamente el procedimiento del inventario físico, es genera
 
     Imagen 9. Pestaña Línea de Conteo de Inventario
 
-    #. Seleccione en el campo "**Ubicación**", la ubicación exacta donde se encuentra localizado el producto dentro del almacén seleccionado. El mismo se puede seleccionar con ayuda del identificador ubicado del lado derecho del campo.
+#. Seleccione en el campo "**Ubicación**", la ubicación exacta donde se encuentra localizado el producto dentro del almacén seleccionado. El mismo se puede seleccionar con ayuda del identificador ubicado del lado derecho del campo.
 
-        |Campo Ubicación|
+    |Campo Ubicación|
 
-        Imagen 10. Campo Ubicación
+    Imagen 10. Campo Ubicación
 
-    #. Seleccione en el campo "**Producto**", el producto por el cual se esta realizando el inventario físico.
+#. Seleccione en el campo "**Producto**", el producto por el cual se esta realizando el inventario físico.
 
-        |Campo Producto|
+    |Campo Producto|
 
-        Imagen 11. Campo Producto
+    Imagen 11. Campo Producto
 
-    3. Introduzca en el campo "**Cantidad Contada**", la cantidad real en existencia del producto seleccionado.
+#. Introduzca en el campo "**Cantidad Contada**", la cantidad real en existencia del producto seleccionado.
 
-        |Campo Cantidad Contada|
+    |Campo Cantidad Contada|
 
-        Imagen 12. Campo Cantidad Contada
+    Imagen 12. Campo Cantidad Contada
 
-        .. note::
+    .. note::
 
-            Debe ser ingresada la cantidad real que existe físicamente en el almacén seleccionado.
+        Debe ser ingresada la cantidad real que existe físicamente en el almacén seleccionado.
 
-    #. Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña.
+#. Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña.
 
-        |Icono Guardar Cambios|
+    |Icono Guardar Cambios|
 
-        Imagen 13. Icono Guardar Cambios
+    Imagen 13. Icono Guardar Cambios
 
-    #. Podrá visualizar que es cargada automáticamente la cantidad de productos en existencia que se encuentran registrados en ADempiere.
+#. Podrá visualizar que es cargada automáticamente la cantidad de productos en existencia que se encuentran registrados en ADempiere.
 
-        |Campo Cantidad en Libros|
+    |Campo Cantidad en Libros|
 
-        Imagen 14. Campo Cantidad en Libros
+    Imagen 14. Campo Cantidad en Libros
 
 #. Seleccione la pestaña principal "**Conteo de Inventario**" y luego la opción "**Completar**", ubicada en la parte inferior derecha de la ventana.
 

@@ -45,35 +45,35 @@
 
     Imagen 5. Opción Obtener Tasas de Cambio desde Proveedor
 
-    #. Podrá visualizar la ventana "**Obtener Tasas de Cambio desde Proveedor**", con diferentes campos que permiten obtener las tasas de cambio dependiendo de la selección de los mismos.
+#. Podrá visualizar la ventana "**Obtener Tasas de Cambio desde Proveedor**", con diferentes campos que permiten obtener las tasas de cambio dependiendo de la selección de los mismos.
 
-        |ventana del proceso|
+    |ventana del proceso|
 
-        Imagen 6. Ventana del Proceso
+    Imagen 6. Ventana del Proceso
 
-    #. El checklist "**Obtener Tasas para la Moneda del Esquema Contable**", se encuentra tildado para filtrar la búsqueda de tasas de cambio a la moneda del esquema.
+#. El checklist "**Obtener Tasas para la Moneda del Esquema Contable**", se encuentra tildado para filtrar la búsqueda de tasas de cambio a la moneda del esquema.
 
-        |checklist obtener tasas para la moneda del esquema contable|
+    |checklist obtener tasas para la moneda del esquema contable|
 
-        Imagen 7. Checklist Obtener Tasas para la Moneda del Esquema Contable
+    Imagen 7. Checklist Obtener Tasas para la Moneda del Esquema Contable
 
-    #. Seleccione en el campo "**Fecha de la Transacción**", el rango de fecha para filtrar la búsqueda de tasas de cambio.
+#. Seleccione en el campo "**Fecha de la Transacción**", el rango de fecha para filtrar la búsqueda de tasas de cambio.
 
-        |campo fecha de transacción del proceso|
+    |campo fecha de transacción del proceso|
 
-        Imagen 8. Campo Fecha de la Transacción
+    Imagen 8. Campo Fecha de la Transacción
 
-    #. El checklist "**Actualizar Tasas Actuales**", permite atualizar las tasas actuales si coinciden con la fecha.
+#. El checklist "**Actualizar Tasas Actuales**", permite atualizar las tasas actuales si coinciden con la fecha.
 
-        |checklist actualizar tasas actuales|
+    |checklist actualizar tasas actuales|
 
-        Imagen 9. Checklist Actualizar Tasas Actuales
+    Imagen 9. Checklist Actualizar Tasas Actuales
 
-    #. Seleccione la opción "**OK**", para ejecutar el proceso "**Obtener Tasas de Cambio desde Proveedor**" en base a lo seleccionado en los campos explicados anteriormente.
+#. Seleccione la opción "**OK**", para ejecutar el proceso "**Obtener Tasas de Cambio desde Proveedor**" en base a lo seleccionado en los campos explicados anteriormente.
 
-        |opción ok del proceso obtener tasas|
+    |opción ok del proceso obtener tasas|
 
-        Imagen 10. Opción OK
+    Imagen 10. Opción OK
 
 #. Al ejecutar el proceso "**Obtener Tasas de Cambio desde Proveedor**", podrá visualizar las tasas de cambio de la siguiente manera.
 

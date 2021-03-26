@@ -359,7 +359,7 @@ ADempiere permite asociar de tres (3) formas la retención de ISLR a aplicar en 
     
     Imagen 46. Opción Imprimir
 
-3. Podrá apreciar el documento de retención de la siguiente manera.
+#. Podrá apreciar el documento de retención de la siguiente manera.
 
     |Documento de Retención|
     

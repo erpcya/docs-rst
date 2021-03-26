@@ -46,7 +46,7 @@
 
     Imagen 5. Identificador del Campo CxC de Clientes
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo CxC de Clientes|
 
@@ -58,7 +58,7 @@
 
     Imagen 7. Identificador del Campo CxC Servicios
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo CxC Servicios|
 
@@ -70,7 +70,7 @@
 
     Imagen 9. Campo Pago Anticipado de Clientes
 
-    #. Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
+    Realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento :ref:`documento/combinación-contable` elaborado por `ERPyA`_.
 
         |Combinación Contable del Campo Pago Anticipado de Clientes|
 

@@ -40,7 +40,6 @@ El último paso que debemos seguir para terminar de registrar el proceso de pago
 
     Imagen 3. Búsqueda de Parámetros
 
-
 #. Posteriormente aparecen los movimientos que tenga registrados en su caja, en la fecha que determinó en su búsqueda. En este caso nos aparecen el pago generado a los empleados en la selección de pago y por otro lado tendremos el monto total de la transferencia que realizamos con el monto total de la nómina.
 
     |Selección de Pagos|

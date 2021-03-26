@@ -83,135 +83,135 @@ Podrá visualizar la carpeta "**Distribución Contable**", con los diferentes re
 
     Imagen 4. Icono Registro Nuevo de la Ventana Distribución Contable
 
-    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando la distribución.
+#. Seleccione en el campo "**Organización**", la organización para la cual esta realizando la distribución.
 
-        |Campo Organización de la Ventana Distribución Contable|
+    |Campo Organización de la Ventana Distribución Contable|
 
-        Imagen 5. Campo Organización de la Ventana Distribución Contable
+    Imagen 5. Campo Organización de la Ventana Distribución Contable
 
-    #. Introduzca en el campo "**Nombre**", el nombre de referencia correspondiente al registro de distribución que esta realizando.
+#. Introduzca en el campo "**Nombre**", el nombre de referencia correspondiente al registro de distribución que esta realizando.
 
-        |Campo Nombre de la Ventana Distribución Contable|
+    |Campo Nombre de la Ventana Distribución Contable|
 
-        Imagen 6. Campo Nombre de la Ventana Distribución Contable
+    Imagen 6. Campo Nombre de la Ventana Distribución Contable
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción correspondiente al registro de distribución que esta realizando.
+#. Introduzca en el campo "**Descripción**", una breve descripción correspondiente al registro de distribución que esta realizando.
 
-        |Campo Descripción de la Ventana Distribución Contable|
+    |Campo Descripción de la Ventana Distribución Contable|
 
-        Imagen 7. Campo Descripción de la Ventana Distribución Contable
+    Imagen 7. Campo Descripción de la Ventana Distribución Contable
 
-    #. Seleccione en el campo "**Esquema Contable**", el esquema que será utilizado para la distribución que esta realizando.
+#. Seleccione en el campo "**Esquema Contable**", el esquema que será utilizado para la distribución que esta realizando.
 
-        |Campo Esquema Contable de la Ventana Distribución Contable|
+    |Campo Esquema Contable de la Ventana Distribución Contable|
 
-        Imagen 8. Campo Esquema Contable de la Ventana Distribución Contable
+    Imagen 8. Campo Esquema Contable de la Ventana Distribución Contable
 
-    #. El checklist "**Crear Reversión**", indica que el movimiento de reversión se creará.
+#. El checklist "**Crear Reversión**", indica que el movimiento de reversión se creará.
 
-        |Checklist Crear Reversión de la Ventana Distribución Contable|
+    |Checklist Crear Reversión de la Ventana Distribución Contable|
 
-        Imagen 9. Checklist Crear Reversión de la Ventana Distribución Contable
+    Imagen 9. Checklist Crear Reversión de la Ventana Distribución Contable
 
-        .. warning::
+    .. warning::
 
-            Si se inhabilita el checklist, el movimiento original será borrado.
+        Si se inhabilita el checklist, el movimiento original será borrado.
 
-    #. Seleccione en el campo "**Tipo de Aplicación**", el tipo de aplicación que será utilizado para la distribución que esta realizando.
+#. Seleccione en el campo "**Tipo de Aplicación**", el tipo de aplicación que será utilizado para la distribución que esta realizando.
 
-        |Campo Tipo de Aplicación de la Ventana Distribución Contable|
+    |Campo Tipo de Aplicación de la Ventana Distribución Contable|
 
-        Imagen 10. Campo Tipo de Aplicación de la Ventana Distribución Contable
+    Imagen 10. Campo Tipo de Aplicación de la Ventana Distribución Contable
 
-    #. Seleccione el tipo de documento en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. 
+#. Seleccione el tipo de documento en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. 
 
-        |Campo Tipo de Documento de la Ventana Distribución Contable|
+    |Campo Tipo de Documento de la Ventana Distribución Contable|
 
-        Imagen 11. Campo Tipo de Documento de la Ventana Distribución Contable
+    Imagen 11. Campo Tipo de Documento de la Ventana Distribución Contable
 
-    #. Seleccione en el campo "**Válido Desde**", la fecha de inicio de la distribución que esta realizando.
+#. Seleccione en el campo "**Válido Desde**", la fecha de inicio de la distribución que esta realizando.
 
-        |Campo Válido Desde de la Ventana Distribución Contable|
+    |Campo Válido Desde de la Ventana Distribución Contable|
 
-        Imagen 12. Campo Válido Desde de la Ventana Distribución Contable
+    Imagen 12. Campo Válido Desde de la Ventana Distribución Contable
 
-    #. Seleccione en el campo "**Válido Hasta**", la fecha de finalización de la distribución que esta realizando.
+#. Seleccione en el campo "**Válido Hasta**", la fecha de finalización de la distribución que esta realizando.
 
-        |Campo Válido Hasta de la Ventana Distribución Contable|
+    |Campo Válido Hasta de la Ventana Distribución Contable|
 
-        Imagen 13. Campo Válido Hasta de la Ventana Distribución Contable
+    Imagen 13. Campo Válido Hasta de la Ventana Distribución Contable
 
-    #. El checklist "**Cualquier Organización**", al estar tildado aplica la distribución contable a todas las organizaciones.
+#. El checklist "**Cualquier Organización**", al estar tildado aplica la distribución contable a todas las organizaciones.
 
-        |Checklist Cualquier Organización de la Ventana Distribución Contable|
+    |Checklist Cualquier Organización de la Ventana Distribución Contable|
 
-        Imagen 14. Checklist Cualquier Organización de la Ventana Distribución Contable
+    Imagen 14. Checklist Cualquier Organización de la Ventana Distribución Contable
 
-        #. Al destildar el checklist "**Cualquier Organización**", se habilita el campo "**Organización**" para aplicar la distribución contable sólo a la organización que sea seleccionada en dicho campo.
+    Al destildar el checklist "**Cualquier Organización**", se habilita el campo "**Organización**" para aplicar la distribución contable sólo a la organización que sea seleccionada en dicho campo.
 
-            |Campo Organización del Checklist Cualquier Organización de la Ventana Distribución Contable|
+        |Campo Organización del Checklist Cualquier Organización de la Ventana Distribución Contable|
 
-            Imagen 15. Campo Organización del Checklist Cualquier Organización de la Ventana Distribución Contable
+        Imagen 15. Campo Organización del Checklist Cualquier Organización de la Ventana Distribución Contable
 
-    #. El checklist "**Cualquier Cuenta**", al estar tildado aplica la distribución contable a todas las cuentas.
+#. El checklist "**Cualquier Cuenta**", al estar tildado aplica la distribución contable a todas las cuentas.
 
-        |Checklist Cualquier Cuenta de la Ventana Distribución Contable|
+    |Checklist Cualquier Cuenta de la Ventana Distribución Contable|
 
-        Imagen 16. Checklist Cualquier Cuenta de la Ventana Distribución Contable
+    Imagen 16. Checklist Cualquier Cuenta de la Ventana Distribución Contable
 
-        #. Al destildar el checklist "**Cualquier Cuenta**", se habilita el campo "**Cuenta**" para aplicar la distribución contable sólo a la cuenta que sea seleccionada en dicho campo.
+    Al destildar el checklist "**Cualquier Cuenta**", se habilita el campo "**Cuenta**" para aplicar la distribución contable sólo a la cuenta que sea seleccionada en dicho campo.
 
-            |Campo Cuenta del Checklist Cualquier Cuenta de la Ventana Distribución Contable|
+        |Campo Cuenta del Checklist Cualquier Cuenta de la Ventana Distribución Contable|
 
-            Imagen 17. Campo Cuenta del Checklist Cualquier Cuenta de la Ventana Distribución Contable
+        Imagen 17. Campo Cuenta del Checklist Cualquier Cuenta de la Ventana Distribución Contable
 
-    #. El checklist "**Cualquier Actividad**", al estar tildado aplica la distribución contable a todas las actividades.
+#. El checklist "**Cualquier Actividad**", al estar tildado aplica la distribución contable a todas las actividades.
 
-        |Checklist Cualquier Actividad de la Ventana Distribución Contable|
+    |Checklist Cualquier Actividad de la Ventana Distribución Contable|
 
-        Imagen 18. Checklist Cualquier Actividad de la Ventana Distribución Contable
+    Imagen 18. Checklist Cualquier Actividad de la Ventana Distribución Contable
 
-        #. Al destildar el checklist "**Cualquier Actividad**", se habilita el campo "**Actividad**" para aplicar la distribución contable sólo a la actividad que sea seleccionada en dicho campo.
+    Al destildar el checklist "**Cualquier Actividad**", se habilita el campo "**Actividad**" para aplicar la distribución contable sólo a la actividad que sea seleccionada en dicho campo.
 
-            |Campo Actividad del Checklist Cualquier Actividad de la Ventana Distribución Contable|
+        |Campo Actividad del Checklist Cualquier Actividad de la Ventana Distribución Contable|
 
-            Imagen 19. Campo Actividad del Checklist Cualquier Actividad de la Ventana Distribución Contable
+        Imagen 19. Campo Actividad del Checklist Cualquier Actividad de la Ventana Distribución Contable
 
-    #. El checklist "**Cualquier Producto**", al estar tildado aplica la distribución contable a todos los productos.
+#. El checklist "**Cualquier Producto**", al estar tildado aplica la distribución contable a todos los productos.
 
-        |Checklist Cualquier Producto de la Ventana Distribución Contable|
+    |Checklist Cualquier Producto de la Ventana Distribución Contable|
 
-        Imagen 20. Checklist Cualquier Producto de la Ventana Distribución Contable
+    Imagen 20. Checklist Cualquier Producto de la Ventana Distribución Contable
 
-        #. Al destildar el checklist "**Cualquier Producto**", se habilita el campo "**Producto**" para aplicar la distribución contable sólo al producto que sea seleccionado en dicho campo.
+    Al destildar el checklist "**Cualquier Producto**", se habilita el campo "**Producto**" para aplicar la distribución contable sólo al producto que sea seleccionado en dicho campo.
 
-            |Campo Producto del Checklist Cualquier Producto de la Ventana Distribución Contable|
+        |Campo Producto del Checklist Cualquier Producto de la Ventana Distribución Contable|
 
-            Imagen 21. Campo Producto del Checklist Cualquier Producto de la Ventana Distribución Contable
+        Imagen 21. Campo Producto del Checklist Cualquier Producto de la Ventana Distribución Contable
 
-    #. El checklist "**Cualquier Socio del Negocio**", al estar tildado aplica la distribución contable a todos los socios del negocio.
+#. El checklist "**Cualquier Socio del Negocio**", al estar tildado aplica la distribución contable a todos los socios del negocio.
 
-        |Checklist Cualquier Socio del Negocio de la Ventana Distribución Contable|
+    |Checklist Cualquier Socio del Negocio de la Ventana Distribución Contable|
 
-        Imagen 22. Checklist Cualquier Socio del Negocio de la Ventana Distribución Contable
+    Imagen 22. Checklist Cualquier Socio del Negocio de la Ventana Distribución Contable
 
-        #. Al destildar el checklist "**Cualquier Socio del Negocio**", se habilita el campo "**Socio del Negocio**" para aplicar la distribución contable sólo al socio del negocio que sea seleccionado en dicho campo.
+    Al destildar el checklist "**Cualquier Socio del Negocio**", se habilita el campo "**Socio del Negocio**" para aplicar la distribución contable sólo al socio del negocio que sea seleccionado en dicho campo.
 
-            |Campo Socio del Negocio del Checklist Cualquier Socio del Negocio de la Ventana Distribución Contable|
+        |Campo Socio del Negocio del Checklist Cualquier Socio del Negocio de la Ventana Distribución Contable|
 
-            Imagen 23. Campo Socio del Negocio del Checklist Cualquier Socio del Negocio de la Ventana Distribución Contable
+        Imagen 23. Campo Socio del Negocio del Checklist Cualquier Socio del Negocio de la Ventana Distribución Contable
 
-    #. El checklist "**Cualquier Usuario 1**", 
+#. El checklist "**Cualquier Usuario 1**", 
 
-        |Checklist Cualquier Usuario 1 de la Ventana Distribución Contable|
+    |Checklist Cualquier Usuario 1 de la Ventana Distribución Contable|
 
-        Imagen 24. Checklist Cualquier Usuario 1 de la Ventana Distribución Contable
+    Imagen 24. Checklist Cualquier Usuario 1 de la Ventana Distribución Contable
 
-        #. Al destildar el checklist "**Cualquier Usuario 1**", se habilita el campo "**Centro de Costos**" para aplicar la distribución contable sólo al centro de costos que sea seleccionado en dicho campo.
+    Al destildar el checklist "**Cualquier Usuario 1**", se habilita el campo "**Centro de Costos**" para aplicar la distribución contable sólo al centro de costos que sea seleccionado en dicho campo.
 
-            |Campo Centro de Costos del Checklist Cualquier Usuario 1 de la Ventana Distribución Contable|
+        |Campo Centro de Costos del Checklist Cualquier Usuario 1 de la Ventana Distribución Contable|
 
-            Imagen 25. Campo Centro de Costos del Checklist Cualquier Usuario 1 de la Ventana Distribución Contable
+        Imagen 25. Campo Centro de Costos del Checklist Cualquier Usuario 1 de la Ventana Distribución Contable
 
 .. note::
 
@@ -226,149 +226,149 @@ Podrá visualizar la carpeta "**Distribución Contable**", con los diferentes re
 
     Imagen 26. Pestaña Línea de la Ventana Distribución Contable
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción correspondiente al registro de porcentaje de distribución que esta realizando.
+#. Introduzca en el campo "**Descripción**", una breve descripción correspondiente al registro de porcentaje de distribución que esta realizando.
 
-        |Campo Descripción de la Pestaña Línea de la Ventana Distribución Contable|
+    |Campo Descripción de la Pestaña Línea de la Ventana Distribución Contable|
 
-        Imagen 27. Campo Descripción de la Pestaña Línea de la Ventana Distribución Contable
+    Imagen 27. Campo Descripción de la Pestaña Línea de la Ventana Distribución Contable
 
-    #. Introduzca en el campo "**Porcentaje**", el porcentaje de distribución correspondiente al registro que esta realizando.
+#. Introduzca en el campo "**Porcentaje**", el porcentaje de distribución correspondiente al registro que esta realizando.
 
-        |Campo Porcentaje de la Pestaña Línea de la Ventana Distribución Contable|
+    |Campo Porcentaje de la Pestaña Línea de la Ventana Distribución Contable|
 
-        Imagen 28. Campo Porcentaje de la Pestaña Línea de la Ventana Distribución Contable
+    Imagen 28. Campo Porcentaje de la Pestaña Línea de la Ventana Distribución Contable
 
-    #. Introduzca en el campo "**Débito Contabilizado**", el monto de débito contabilizado correspondiente al registro que esta realizando.
+#. Introduzca en el campo "**Débito Contabilizado**", el monto de débito contabilizado correspondiente al registro que esta realizando.
 
-        |Campo Débito Contabilizado de la Pestaña Línea de la Ventana Distribución Contable|
+    |Campo Débito Contabilizado de la Pestaña Línea de la Ventana Distribución Contable|
 
-        Imagen 29. Campo Débito Contabilizado de la Pestaña Línea de la Ventana Distribución Contable
+    Imagen 29. Campo Débito Contabilizado de la Pestaña Línea de la Ventana Distribución Contable
 
-    #. Introduzca en el campo "**Crédito Contabilizado**", el monto de crédito contabilizado correspondiente al registro que esta realizando.
+#. Introduzca en el campo "**Crédito Contabilizado**", el monto de crédito contabilizado correspondiente al registro que esta realizando.
 
-        |Campo Crédito Contabilizado de la Pestaña Línea de la Ventana Distribución Contable|
+    |Campo Crédito Contabilizado de la Pestaña Línea de la Ventana Distribución Contable|
 
-        Imagen 30. Campo Crédito Contabilizado de la Pestaña Línea de la Ventana Distribución Contable
+    Imagen 30. Campo Crédito Contabilizado de la Pestaña Línea de la Ventana Distribución Contable
 
-    #. El checklist "**Signo de cuenta invertida**",
+#. El checklist "**Signo de cuenta invertida**",
 
-        |Checklist Signo de Cuenta Invertida de la Pestaña Línea de la Ventana Distribución Contable|
+    |Checklist Signo de Cuenta Invertida de la Pestaña Línea de la Ventana Distribución Contable|
 
-        Imagen 31. Checklist Signo de Cuenta Invertida de la Pestaña Línea de la Ventana Distribución Contable
+    Imagen 31. Checklist Signo de Cuenta Invertida de la Pestaña Línea de la Ventana Distribución Contable
 
-        .. note::
+    .. note::
+    
+        Al seleccionar el checklist "**Signo de cuenta invertida**", no se habilita ningún campo.
+
+#. El checklist "**Sobrescribir tipo de publicación**", Sobreescribe el tipo de publicación con el valor especificado.
+
+    |Checklist Sobrescribir Tipo de Publicación de la Pestaña Línea de la Ventana Distribución Contable|
+
+    Imagen 32. Checklist Sobrescribir Tipo de Publicación de la Pestaña Línea de la Ventana Distribución Contable
+
+    Al seleccionar el checklist "**Sobrescribir tipo de publicación**", se habilita el campo "**Tipo de Aplicación**" para aplicar la distribución contable sólo al tipo de aplicación que sea seleccionada en dicho campo.
+
+        |Campo Tipo de Aplicación del Checklist Sobrescribir Tipo de Publicación de la Pestaña Línea de la Ventana Distribución Contable|
+
+        Imagen 33. Campo Tipo de Aplicación del Checklist Sobrescribir Tipo de Publicación de la Pestaña Línea de la Ventana Distribución Contable
+
+#. El checklist "**Sobreescribe Organización**", aplica la distribución contable a todas las organizaciones.
+
+    |Checklist Sobreescribe Organización de la Pestaña Línea de la Ventana Distribución Contable|
+
+    Imagen 34. Checklist Sobreescribe Organización de la Pestaña Línea de la Ventana Distribución Contable
+
+    Al seleccionar el checklist "**Sobreescribe Organización**", se habilita el campo "**Organización**" para aplicar la distribución contable sólo a la organización que sea seleccionada en dicho campo.
+
+        |Campo Organización del Checklist Sobreescribe Organización de la Pestaña Línea de la Ventana Distribución Contable|
         
-            Al seleccionar el checklist "**Signo de cuenta invertida**", no se habilita ningún campo.
+        Imagen 35. Campo Organización del Checklist Sobreescribe Organización de la Pestaña Línea de la Ventana Distribución Contable
 
-    #. El checklist "**Sobrescribir tipo de publicación**", Sobreescribe el tipo de publicación con el valor especificado.
+#. El checklist "**Sobreescribe la cuenta**", aplica la distribución contable a todas las cuentas.
 
-        |Checklist Sobrescribir Tipo de Publicación de la Pestaña Línea de la Ventana Distribución Contable|
+    |Checklist Sobreescribe la Cuenta de la Pestaña Línea de la Ventana Distribución Contable|
 
-        Imagen 32. Checklist Sobrescribir Tipo de Publicación de la Pestaña Línea de la Ventana Distribución Contable
+    Imagen 36. Checklist Sobreescribe la Cuenta de la Pestaña Línea de la Ventana Distribución Contable
 
-        #. Al seleccionar el checklist "**Sobrescribir tipo de publicación**", se habilita el campo "**Tipo de Aplicación**" para aplicar la distribución contable sólo al tipo de aplicación que sea seleccionada en dicho campo.
+    Al seleccionar el checklist "**Sobreescribe la cuenta**", se habilita el campo "**Cuenta**" para aplicar la distribución contable sólo a la cuenta que sea seleccionada en dicho campo.
 
-            |Campo Tipo de Aplicación del Checklist Sobrescribir Tipo de Publicación de la Pestaña Línea de la Ventana Distribución Contable|
+        |Campo Cuenta del Checklist Sobreescribe la Cuenta de la Pestaña Línea de la Ventana Distribución Contable|
 
-            Imagen 33. Campo Tipo de Aplicación del Checklist Sobrescribir Tipo de Publicación de la Pestaña Línea de la Ventana Distribución Contable
+        Imagen 37. Campo Cuenta del Checklist Sobreescribe la Cuenta de la Pestaña Línea de la Ventana Distribución Contable
 
-    #. El checklist "**Sobreescribe Organización**", aplica la distribución contable a todas las organizaciones.
+#. El checklist "**Sobreescribe la Actividad**", aplica la distribución contable a todas las actividades.
 
-        |Checklist Sobreescribe Organización de la Pestaña Línea de la Ventana Distribución Contable|
+    |Checklist Sobreescribe la Actividad de la Pestaña Línea de la Ventana Distribución Contable|
 
-        Imagen 34. Checklist Sobreescribe Organización de la Pestaña Línea de la Ventana Distribución Contable
+    Imagen 38. Checklist Sobreescribe la Actividad de la Pestaña Línea de la Ventana Distribución Contable
 
-        #. Al seleccionar el checklist "**Sobreescribe Organización**", se habilita el campo "**Organización**" para aplicar la distribución contable sólo a la organización que sea seleccionada en dicho campo.
+    Al seleccionar el checklist "**Sobreescribe la Actividad**", se habilita el campo "**Actividad**" para aplicar la distribución contable sólo a la actividad que sea seleccionada en dicho campo.
 
-            |Campo Organización del Checklist Sobreescribe Organización de la Pestaña Línea de la Ventana Distribución Contable|
-            
-            Imagen 35. Campo Organización del Checklist Sobreescribe Organización de la Pestaña Línea de la Ventana Distribución Contable
+        |Campo Actividad del Checklist Sobreescribe la Actividad de la Pestaña Línea de la Ventana Distribución Contable|
 
-    #. El checklist "**Sobreescribe la cuenta**", aplica la distribución contable a todas las cuentas.
+        Imagen 39. Campo Actividad del Checklist Sobreescribe la Actividad de la Pestaña Línea de la Ventana Distribución Contable
 
-        |Checklist Sobreescribe la Cuenta de la Pestaña Línea de la Ventana Distribución Contable|
+#. El checklist "**Sobreescribe Producto**", aplica la distribución contable a todos los productos.
 
-        Imagen 36. Checklist Sobreescribe la Cuenta de la Pestaña Línea de la Ventana Distribución Contable
+    |Checklist Sobreescribe Producto de la Pestaña Línea de la Ventana Distribución Contable|
 
-        #. Al seleccionar el checklist "**Sobreescribe la cuenta**", se habilita el campo "**Cuenta**" para aplicar la distribución contable sólo a la cuenta que sea seleccionada en dicho campo.
+    Imagen 40. Checklist Sobreescribe Producto de la Pestaña Línea de la Ventana Distribución Contable
 
-            |Campo Cuenta del Checklist Sobreescribe la Cuenta de la Pestaña Línea de la Ventana Distribución Contable|
+    Al seleccionar el checklist "**Sobreescribe Producto**", se habilita el campo "**Producto**" para aplicar la distribución contable sólo al producto que sea seleccionado en dicho campo.
 
-            Imagen 37. Campo Cuenta del Checklist Sobreescribe la Cuenta de la Pestaña Línea de la Ventana Distribución Contable
+        |Campo Producto del Checklist Sobreescribe Producto de la Pestaña Línea de la Ventana Distribución Contable|
 
-    #. El checklist "**Sobreescribe la Actividad**", aplica la distribución contable a todas las actividades.
+        Imagen 41. Campo Producto del Checklist Sobreescribe Producto de la Pestaña Línea de la Ventana Distribución Contable
 
-        |Checklist Sobreescribe la Actividad de la Pestaña Línea de la Ventana Distribución Contable|
+#. El checklist "**Sobreescribe Socio del Negocio**", aplica la distribución contable a todos los socios del negocio.
 
-        Imagen 38. Checklist Sobreescribe la Actividad de la Pestaña Línea de la Ventana Distribución Contable
+    |Checklist Sobreescribe Socio del Negocio de la Pestaña Línea de la Ventana Distribución Contable|
 
-        #. Al seleccionar el checklist "**Sobreescribe la Actividad**", se habilita el campo "**Actividad**" para aplicar la distribución contable sólo a la actividad que sea seleccionada en dicho campo.
+    Imagen 42. Checklist Sobreescribe Socio del Negocio de la Pestaña Línea de la Ventana Distribución Contable
 
-            |Campo Actividad del Checklist Sobreescribe la Actividad de la Pestaña Línea de la Ventana Distribución Contable|
+    Al seleccionar el checklist "**Sobreescribe Socio del Negocio**", se habilita el campo "**Socio del Negocio**" para aplicar la distribución contable sólo al socio del negocio que sea seleccionado en dicho campo.
 
-            Imagen 39. Campo Actividad del Checklist Sobreescribe la Actividad de la Pestaña Línea de la Ventana Distribución Contable
+        |Campo Socio del Negocio del Checklist Sobreescribe Socio del Negocio de la Pestaña Línea de la Ventana Distribución Contable|
 
-    #. El checklist "**Sobreescribe Producto**", aplica la distribución contable a todos los productos.
+        Imagen 43. Campo Socio del Negocio del Checklist Sobreescribe Socio del Negocio de la Pestaña Línea de la Ventana Distribución Contable
 
-        |Checklist Sobreescribe Producto de la Pestaña Línea de la Ventana Distribución Contable|
+#. El checklist "**Sobreescribe Usuario 1**", 
 
-        Imagen 40. Checklist Sobreescribe Producto de la Pestaña Línea de la Ventana Distribución Contable
+    |Checklist Sobreescribe Usuario 1 de la Pestaña Línea de la Ventana Distribución Contable|
 
-        #. Al seleccionar el checklist "**Sobreescribe Producto**", se habilita el campo "**Producto**" para aplicar la distribución contable sólo al producto que sea seleccionado en dicho campo.
+    Imagen 44. Checklist Sobreescribe Usuario 1 de la Pestaña Línea de la Ventana Distribución Contable
 
-            |Campo Producto del Checklist Sobreescribe Producto de la Pestaña Línea de la Ventana Distribución Contable|
+    Al seleccionar el checklist "**Sobreescribe Usuario 1**", se habilita el campo "**Centro de Costos**" para aplicar la distribución contable sólo al centro de costos que sea seleccionado en dicho campo.
 
-            Imagen 41. Campo Producto del Checklist Sobreescribe Producto de la Pestaña Línea de la Ventana Distribución Contable
+        |Campo Centro de Costos del Checklist Sobreescribe Usuario 1 de la Pestaña Línea de la Ventana Distribución Contable|
 
-    #. El checklist "**Sobreescribe Socio del Negocio**", aplica la distribución contable a todos los socios del negocio.
+        Imagen 45. Campo Centro de Costos del Checklist Sobreescribe Usuario 1 de la Pestaña Línea de la Ventana Distribución Contable
 
-        |Checklist Sobreescribe Socio del Negocio de la Pestaña Línea de la Ventana Distribución Contable|
+#. El checklist "**Sobreescribe Usuario 3**",
 
-        Imagen 42. Checklist Sobreescribe Socio del Negocio de la Pestaña Línea de la Ventana Distribución Contable
+    |Checklist Sobreescribe Usuario 3 de la Pestaña Línea de la Ventana Distribución Contable|
 
-        #. Al seleccionar el checklist "**Sobreescribe Socio del Negocio**", se habilita el campo "**Socio del Negocio**" para aplicar la distribución contable sólo al socio del negocio que sea seleccionado en dicho campo.
+    Imagen 46. Checklist Sobreescribe Usuario 3 de la Pestaña Línea de la Ventana Distribución Contable
 
-            |Campo Socio del Negocio del Checklist Sobreescribe Socio del Negocio de la Pestaña Línea de la Ventana Distribución Contable|
+    .. note::
+    
+        Al seleccionar el checklist "**Sobreescribe Usuario 3**", no se habilita ningún campo.
 
-            Imagen 43. Campo Socio del Negocio del Checklist Sobreescribe Socio del Negocio de la Pestaña Línea de la Ventana Distribución Contable
+#. El checklist "**Sobreescribe Usuario 4**",
 
-    #. El checklist "**Sobreescribe Usuario 1**", 
+    |Checklist Sobreescribe Usuario 4 de la Pestaña Línea de la Ventana Distribución Contable|
 
-        |Checklist Sobreescribe Usuario 1 de la Pestaña Línea de la Ventana Distribución Contable|
+    Imagen 47. Checklist Sobreescribe Usuario 4 de la Pestaña Línea de la Ventana Distribución Contable
 
-        Imagen 44. Checklist Sobreescribe Usuario 1 de la Pestaña Línea de la Ventana Distribución Contable
+    .. note::
+    
+        Al seleccionar el checklist "**Sobreescribe Usuario 4**", no se habilita ningún campo.
 
-        #. Al seleccionar el checklist "**Sobreescribe Usuario 1**", se habilita el campo "**Centro de Costos**" para aplicar la distribución contable sólo al centro de costos que sea seleccionado en dicho campo.
+#. Regrese a la pestaña "**Distribución**" y ubique el campo "**Porcentaje Total**", ubicado en la parte inferior izquierda de la misma. En este campo podrá visualizar el porcentaje total de todas las distribuciones definidas en cada uno de los registros de la pestaña "**Línea**".
 
-            |Campo Centro de Costos del Checklist Sobreescribe Usuario 1 de la Pestaña Línea de la Ventana Distribución Contable|
+    |Pestaña Distribución Contable y Campo Porcentaje Total|
 
-            Imagen 45. Campo Centro de Costos del Checklist Sobreescribe Usuario 1 de la Pestaña Línea de la Ventana Distribución Contable
-
-    #. El checklist "**Sobreescribe Usuario 3**",
-
-        |Checklist Sobreescribe Usuario 3 de la Pestaña Línea de la Ventana Distribución Contable|
-
-        Imagen 46. Checklist Sobreescribe Usuario 3 de la Pestaña Línea de la Ventana Distribución Contable
-
-        .. note::
-        
-            Al seleccionar el checklist "**Sobreescribe Usuario 3**", no se habilita ningún campo.
-
-    #. El checklist "**Sobreescribe Usuario 4**",
-
-        |Checklist Sobreescribe Usuario 4 de la Pestaña Línea de la Ventana Distribución Contable|
-
-        Imagen 47. Checklist Sobreescribe Usuario 4 de la Pestaña Línea de la Ventana Distribución Contable
-
-        .. note::
-        
-            Al seleccionar el checklist "**Sobreescribe Usuario 4**", no se habilita ningún campo.
-
-    #. Regrese a la pestaña "**Distribución**" y ubique el campo "**Porcentaje Total**", ubicado en la parte inferior izquierda de la misma. En este campo podrá visualizar el porcentaje total de todas las distribuciones definidas en cada uno de los registros de la pestaña "**Línea**".
-
-        |Pestaña Distribución Contable y Campo Porcentaje Total|
-
-        Imagen 48. Pestaña Distribución Contable y Campo Porcentaje Total
+    Imagen 48. Pestaña Distribución Contable y Campo Porcentaje Total
 
 **Consulta de Distribución Contable Aplicada**
 ==============================================

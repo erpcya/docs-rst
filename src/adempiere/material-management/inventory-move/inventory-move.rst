@@ -49,49 +49,49 @@
 
     Imagen 4. Icono Registro Nuevo
 
-    #. Seleccione en el campo "**Organización**", la organización desde la cual se esta realizando el movimiento de inventario.
+#. Seleccione en el campo "**Organización**", la organización desde la cual se esta realizando el movimiento de inventario.
 
-        |Campo Organización|
+    |Campo Organización|
 
-        Imagen 5. Campo Organización
+    Imagen 5. Campo Organización
 
-    #. Seleccione en el campo "**Orden de Distribución**", la orden de distribución asignada para el movimiento de los productos del inventario. 
+#. Seleccione en el campo "**Orden de Distribución**", la orden de distribución asignada para el movimiento de los productos del inventario. 
 
-        |Orden de Distribución|
+    |Orden de Distribución|
 
-        Imagen 6. Campo Orden de Distribución
+    Imagen 6. Campo Orden de Distribución
 
-        .. note::
+    .. note::
 
-            Este campo debe ser llenado si el movimiento de inventario es realizado a consecuencia de una orden de distribución.
+        Este campo debe ser llenado si el movimiento de inventario es realizado a consecuencia de una orden de distribución.
 
-    #. Seleccione en el campo "**Agente Comercial**", el usuario que gestiona el movimiento de inventario.
+#. Seleccione en el campo "**Agente Comercial**", el usuario que gestiona el movimiento de inventario.
 
-        |Campo Agente Comercial|
+    |Campo Agente Comercial|
 
-        Imagen 7. Campo Agente Comercial
+    Imagen 7. Campo Agente Comercial
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción del movimiento de inventario que esta realizando.
+#. Introduzca en el campo "**Descripción**", una breve descripción del movimiento de inventario que esta realizando.
 
-        |Campo Descripción|
+    |Campo Descripción|
 
-        Imagen 8. Campo Descripción
+    Imagen 8. Campo Descripción
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por la empresa `ERPyA`_.
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por la empresa `ERPyA`_.
 
-        |Campo Tipo de Documento|
+    |Campo Tipo de Documento|
 
-        Imagen 9. Campo Tipo de Documento
+    Imagen 9. Campo Tipo de Documento
 
-    #. Introduzca en el campo "**Fecha de Movimiento**", la fecha en la cual se esta realizando el movimiento de productos.
+#. Introduzca en el campo "**Fecha de Movimiento**", la fecha en la cual se esta realizando el movimiento de productos.
 
-        |Campo Fecha de Movimiento|
+    |Campo Fecha de Movimiento|
 
-        Imagen 10. Campo Fecha de Movimiento
+    Imagen 10. Campo Fecha de Movimiento
 
-        .. note::
+    .. note::
 
-            Recuerde guardar los cambios realizados en los campos de la pestaña "**Movimiento**", seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de ADempiere.
+        Recuerde guardar los cambios realizados en los campos de la pestaña "**Movimiento**", seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de ADempiere.
 
 #. Seleccione la pestaña "**Línea del Movimiento**" y proceda al llenado de los campos correspondientes.
 
@@ -99,55 +99,55 @@
 
     Imagen 11. Pestaña Línea de Movimiento
 
-    #. Seleccione en el campo "**Línea Orden Distribución**", la línea de la orden de distribución en la cual se encuentra el producto involucrado en el movimiento de inventario que esta realizando.
+#. Seleccione en el campo "**Línea Orden Distribución**", la línea de la orden de distribución en la cual se encuentra el producto involucrado en el movimiento de inventario que esta realizando.
 
-        |Campo Línea Orden Distribución|
+    |Campo Línea Orden Distribución|
 
-        Imagen 12. Campo Línea Orden Distribución
+    Imagen 12. Campo Línea Orden Distribución
 
-        .. note::
+    .. note::
 
-            Este campo debe ser llenado si el movimiento de inventario es realizado a consecuencia de una orden de distribución.
+        Este campo debe ser llenado si el movimiento de inventario es realizado a consecuencia de una orden de distribución.
 
-    #. Seleccione en el campo "**Producto**", el producto involucrado en el movimiento de inventario.
+#. Seleccione en el campo "**Producto**", el producto involucrado en el movimiento de inventario.
 
-        |Campo Producto|
+    |Campo Producto|
 
-        Imagen 13. Campo Producto
+    Imagen 13. Campo Producto
 
-    #. Seleccione en el campo "**Ubicación**", la ubicación exacta donde se encuentra localizado el producto.
+#. Seleccione en el campo "**Ubicación**", la ubicación exacta donde se encuentra localizado el producto.
 
-        |Campo Ubicación|
+    |Campo Ubicación|
 
-        Imagen 14. Campo Ubicación
+    Imagen 14. Campo Ubicación
 
-    #. Seleccione en el campo "**A Ubicación**", la ubicación exacta donde será almacenado o donde va dirigido el producto.
+#. Seleccione en el campo "**A Ubicación**", la ubicación exacta donde será almacenado o donde va dirigido el producto.
 
-        |Campo A Ubicación|
+    |Campo A Ubicación|
 
-        Imagen 15. Campo A Ubicación
+    Imagen 15. Campo A Ubicación
 
-    #. Seleccione en el campo "**Cantidad del Movimiento**", la cantidad de productos involucrados en el movimiento de inventario.
+#. Seleccione en el campo "**Cantidad del Movimiento**", la cantidad de productos involucrados en el movimiento de inventario.
 
-        |Campo Cantidad del Movimiento|
+    |Campo Cantidad del Movimiento|
 
-        Imagen 16. Campo Cantidad del Movimiento
+    Imagen 16. Campo Cantidad del Movimiento
 
-        .. note::
+    .. note::
 
-            Recuerde guardar los cambios realizados en los campos de la pestaña "**Línea del Movimiento**", seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de ADempiere.
+        Recuerde guardar los cambios realizados en los campos de la pestaña "**Línea del Movimiento**", seleccionando el icono "**Guardar Cambios**" ubicado en la barra de herramientas de ADempiere.
 
-    #. Seleccione la pestaña principal "**Movimiento**", luego seleccione la opción "**Completar**" ubicada en la parte inferior derecha de la ventana "**Movimiento de Inventario**".
+#. Seleccione la pestaña principal "**Movimiento**", luego seleccione la opción "**Completar**" ubicada en la parte inferior derecha de la ventana "**Movimiento de Inventario**".
 
-        |Pestaña Movimiento|
+    |Pestaña Movimiento|
 
-        Imagen 17. Pestaña Movimiento y Opción Completar
+    Imagen 17. Pestaña Movimiento y Opción Completar
 
-    #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Movimiento de Inventario**".
+#. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Movimiento de Inventario**".
 
-        |Acción Completar y Opción OK|
+    |Acción Completar y Opción OK|
 
-        Imagen 18. Acción Completar y Opción OK 
+    Imagen 18. Acción Completar y Opción OK 
 
 **Consultar Reporte de Almacenamiento**
 =======================================

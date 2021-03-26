@@ -48,45 +48,45 @@
 
     Imagen 4. Icono Registro Nuevo
 
-    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el inventario de uso interno.
+#. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el inventario de uso interno.
 
-        |Campo Organización|
+    |Campo Organización|
 
-        Imagen 5. Campo Organización
+    Imagen 5. Campo Organización
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción referente al inventario que se esta realizando.
+#. Introduzca en el campo "**Descripción**", una breve descripción referente al inventario que se esta realizando.
 
-        |Campo Descripción|
+    |Campo Descripción|
 
-        Imagen 6. Campo Descripción
+    Imagen 6. Campo Descripción
 
-    #. Seleccione en el campo "**Almacén**", el almacén de la organización en el cual se encuentra localizado el producto.
+#. Seleccione en el campo "**Almacén**", el almacén de la organización en el cual se encuentra localizado el producto.
 
-        |Campo Almacén|
+    |Campo Almacén|
 
-        Imagen 7. Campo Almacén
+    Imagen 7. Campo Almacén
 
-    #. Introduzca en el campo "**Fecha de Movimiento**", la fecha en la cual es realizado el inventario de uso interno.
+#. Introduzca en el campo "**Fecha de Movimiento**", la fecha en la cual es realizado el inventario de uso interno.
 
-        |Fecha de Movimiento|
+    |Fecha de Movimiento|
 
-        Imagen 8. Campo Fecha de Movimiento
+    Imagen 8. Campo Fecha de Movimiento
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por la empresa `ERPyA`_.
+#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por la empresa `ERPyA`_.
 
-        |Tipo de Documento|
+    |Tipo de Documento|
 
-        Imagen 9. Campo Tipo de Documento
+    Imagen 9. Campo Tipo de Documento
 
-    #. La selección de la opción "**Escáner de Código de Barras Producto**", permite escanear el código de barras del producto e ingresar su información a la pestaña "**Línea Inventario, Uso Interno**" de forma automática.
+#. La selección de la opción "**Escáner de Código de Barras Producto**", permite escanear el código de barras del producto e ingresar su información a la pestaña "**Línea Inventario, Uso Interno**" de forma automática.
 
-        |Opción Escáner de Código de Barras Producto|
+    |Opción Escáner de Código de Barras Producto|
 
-        Imagen 10. Opción Escáner de Código de Barras de Producto
+    Imagen 10. Opción Escáner de Código de Barras de Producto
 
-    .. note:
+.. note:
 
-        Recuerde guardar el registro de los campos seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+    Recuerde guardar el registro de los campos seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
 #. Seleccione la pestaña "**Línea Inventario, Uso Interno**" y proceda al llenado de los campos correspondientes.
 
@@ -94,33 +94,33 @@
 
     Imagen 11. Pestaña Línea de Inventario Uso Interno
 
-    #. Seleccione en el campo "**Ubicación**", el lugar exacto donde será localizado el producto.
+#. Seleccione en el campo "**Ubicación**", el lugar exacto donde será localizado el producto.
 
-        |Ubicación|
+    |Ubicación|
 
-        Imagen 12. Campo Ubicación
+    Imagen 12. Campo Ubicación
 
-    #. Seleccione en el campo "**Producto**", el producto involucrado en el inventario de uso interno que esta realizando. Para ejemplificar el registro es utilizado el producto "**Bolígrafo**".
+#. Seleccione en el campo "**Producto**", el producto involucrado en el inventario de uso interno que esta realizando. Para ejemplificar el registro es utilizado el producto "**Bolígrafo**".
 
-        |Producto|
+    |Producto|
 
-        Imagen 13. Campo Producto
+    Imagen 13. Campo Producto
 
-    #. Introduzca en el campo "**Cantidad Usada Internamente**", la cantidad que es utilizada internamente por el departamento de la organización que esta realizando el inventario de uso interno.
+#. Introduzca en el campo "**Cantidad Usada Internamente**", la cantidad que es utilizada internamente por el departamento de la organización que esta realizando el inventario de uso interno.
 
-        |Cantidad Usada Internamente|
+    |Cantidad Usada Internamente|
 
-        Imagen 14. Campo Cantidad Usada Internamente
+    Imagen 14. Campo Cantidad Usada Internamente
 
-    #. Seleccione en el campo "**Cargo**", el cargo correspondiente al movimiento de material que esta realizando. Para ejemplificar el registro es utilizado el cargo "**Insumos de Oficina**".
+#. Seleccione en el campo "**Cargo**", el cargo correspondiente al movimiento de material que esta realizando. Para ejemplificar el registro es utilizado el cargo "**Insumos de Oficina**".
 
-        |Campo Cargo|
+    |Campo Cargo|
 
-        Imagen 15. Campo Cargo
+    Imagen 15. Campo Cargo
 
-    .. note:
+.. note:
 
-        Recuerde guardar el registro de los campos seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+    Recuerde guardar el registro de los campos seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
 #. Seleccione la pestaña principal "**Inventario Uso Interno**", para luego seleccionar la opción "**Completar**", ubicada en la parte inferior derecha del documento.
 
