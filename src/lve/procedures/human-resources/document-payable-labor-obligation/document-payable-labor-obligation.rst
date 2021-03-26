@@ -11,7 +11,7 @@ El documento por pagar de Obligación Laboral se elabora para evidenciar el regi
  
 Para registrar un documento por pagar de obligación laboral puede seguir con los datos que se registraron en el proceso documento :ref:`documento/documento-por-pagar`. Con los siguientes datos adicionales que se detallan a continuación.
  
-#. Seleccione en la ventana principal de "**Documento por Pagar**" el tipo de documento que requiera utilizar para su factura.
+Seleccione en la ventana principal de "**Documento por Pagar**" el tipo de documento que requiera utilizar para su factura.
  
     Los tipos de documentos de los cuales dispone para realizar un documento por pagar de obligación laboral son:
  
@@ -25,9 +25,9 @@ Para registrar un documento por pagar de obligación laboral puede seguir con lo
 
     Imagen 1. Seleccione el Tipo de Documento con el que registrará su documento.
 
-#. Seleccione la pestaña “**Línea Documento de Pago**” y proceda seleccionando el "**Producto o Servicio**" a ordenar. Si la orden de compra contiene varios productos, el campo "**Nro. de Línea**", indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer cargo, deberá seleccionar el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere, incrementando así el número de líneas por productos en el documento.
+Seleccione la pestaña “**Línea Documento de Pago**” y proceda seleccionando el "**Producto o Servicio**" a ordenar. Si la orden de compra contiene varios productos, el campo "**Nro. de Línea**", indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer cargo, deberá seleccionar el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere, incrementando así el número de líneas por productos en el documento.
 
-#. Seleccione en el campo “**Cargo**”, el nombre del cargo que desea registrar
+Seleccione en el campo “**Cargo**”, el nombre del cargo que desea registrar
 
     En ADempiere un cargo representa un servicio, quiere decir que no contabiliza en su inventario, entre los cargos que dispone ADempiere podemos mencionar los siguientes:
 
