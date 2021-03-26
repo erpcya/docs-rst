@@ -19,7 +19,7 @@ Entre las asignaciones que se pueden visualizar en el reporte de pagos especiale
 
 Para este reporte están configurados 2 tipos de plantillas
 
-- Detalle de Pago: Seleccione esta plantilla de reporte pagos especiales si desea conocer de manera detallada las asignaciones y las deducciones de la nómina de pagos especiales procesada, esta plantilla le ayudará al jefe de nómina a tener los montos totales de la nómina procesada, asi mismo presentará de manera resumida un cuadro en donde se evidencia lo obtenido por cada empleado. 
+#. Detalle de Pago: Seleccione esta plantilla de reporte pagos especiales si desea conocer de manera detallada las asignaciones y las deducciones de la nómina de pagos especiales procesada, esta plantilla le ayudará al jefe de nómina a tener los montos totales de la nómina procesada, asi mismo presentará de manera resumida un cuadro en donde se evidencia lo obtenido por cada empleado. 
 
     Los campos que podrá visualizar en este reporte son:
 
@@ -57,7 +57,7 @@ Para este reporte están configurados 2 tipos de plantillas
 
     Imagen 1. Detalle de Pago. Misma nómina de Pagos Especiales con diferentes empleados.
 
-- Resumen de Pago:  Seleccione esta plantilla de reporte de pagos especiales para conocer de manera resumida las asignaciones y deducciones agrupadas en un  mismo reporte omitiendo algunos detalle que usted puede encontrar en la plantilla Detalle de Pago. Esta plantilla presentará por cada uno de los concepto un monto total mensual por cada empleado:
+#. Resumen de Pago:  Seleccione esta plantilla de reporte de pagos especiales para conocer de manera resumida las asignaciones y deducciones agrupadas en un  mismo reporte omitiendo algunos detalle que usted puede encontrar en la plantilla Detalle de Pago. Esta plantilla presentará por cada uno de los concepto un monto total mensual por cada empleado:
 
     Los campos que podrá visualizar en este reporte son:
 

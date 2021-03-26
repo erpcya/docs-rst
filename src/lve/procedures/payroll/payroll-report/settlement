@@ -47,7 +47,7 @@ Entre las deducciones que se pueden visualizar en el reporte de liquidación se 
 
 Para este reporte están configurados 3 tipos de plantillas
 
-- Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina de liquidación procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina de liquidación.
+#. Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina de liquidación procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina de liquidación.
 
     Entre los datos personales que usted puede visualizar en el encabezado de su recibo de pago de vacaciones se encuentran los siguientes:
 
@@ -145,7 +145,7 @@ Para este reporte están configurados 3 tipos de plantillas
 
     En el ejemplo presentado se evidencia una nómina de liquidación procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
 
-- Detalle de Pago: Seleccione esta plantilla de reporte de nómina de liquidación si desea conocer de manera detallada todos los montos de nómina de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos totales de las nóminas procesadas a todos los empleados.
+#. Detalle de Pago: Seleccione esta plantilla de reporte de nómina de liquidación si desea conocer de manera detallada todos los montos de nómina de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos totales de las nóminas procesadas a todos los empleados.
 
     Los campos podrá visualizar en este reporte son:
 
@@ -178,7 +178,7 @@ Para este reporte están configurados 3 tipos de plantillas
 
     En el siguiente ejemplo presentado se evidencia una nómina de liquidación procesada a  1 empleado y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
 
-- Resumen de Pago:  Seleccione esta plantilla de reporte de liquidación para conocer de manera resumida las asignaciones y deducciones agrupadas en todas en un  mismo reporte omitiendo algunos detalle que usted pudiera encontrar en la plantilla Detalle de Pago. Esta plantilla le presentará por cada uno de los concepto un monto total por cada empleado:
+#. Resumen de Pago:  Seleccione esta plantilla de reporte de liquidación para conocer de manera resumida las asignaciones y deducciones agrupadas en todas en un  mismo reporte omitiendo algunos detalle que usted pudiera encontrar en la plantilla Detalle de Pago. Esta plantilla le presentará por cada uno de los concepto un monto total por cada empleado:
 
     Los campos podrá visualizar en este reporte son:
 
