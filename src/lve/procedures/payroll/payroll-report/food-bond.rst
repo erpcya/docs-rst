@@ -44,7 +44,7 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
 
 Para este reporte están configurados 3 tipos de plantillas
 
-- Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina de bono de alimentación procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina de vacaciones. 
+ Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina de bono de alimentación procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina de vacaciones. 
 
     Entre los datos personales que usted puede visualizar en el encabezado de su recibo de pago de vacaciones se encuentran los siguientes:
 
@@ -126,7 +126,7 @@ Para este reporte están configurados 3 tipos de plantillas
 
     Imagen 1. Recibo de Pago
 
-- Detalle de Pago: Seleccione esta plantilla de reporte de bono de alimentación si desea conocer de manera detallada las asignaciones y las deducciones de la nómina de bono de alimentación procesada, esta plantilla le ayudará al jefe de nómina a tener los montos totales de la nómina procesada, asi mismo presentará de manera resumida un cuadro en donde se evidencia lo obtenido por cada empleado. 
+ Detalle de Pago: Seleccione esta plantilla de reporte de bono de alimentación si desea conocer de manera detallada las asignaciones y las deducciones de la nómina de bono de alimentación procesada, esta plantilla le ayudará al jefe de nómina a tener los montos totales de la nómina procesada, asi mismo presentará de manera resumida un cuadro en donde se evidencia lo obtenido por cada empleado. 
 
     Los campos que podrá visualizar en este reporte son:
 
@@ -164,7 +164,7 @@ Para este reporte están configurados 3 tipos de plantillas
 
     Imagen 2. Detalle de Pago. Misma nómina de Bono de Alimentación con diferentes empleados.
 
-- Resumen de Pago:  Seleccione esta plantilla de reporte de bono de alimentación  para conocer de manera resumida las asignaciones y deducciones agrupadas en un  mismo reporte omitiendo algunos detalle que usted puede encontrar en la plantilla Detalle de Pago. Esta plantilla presentará por cada uno de los concepto un monto total mensual por cada empleado:
+ Resumen de Pago:  Seleccione esta plantilla de reporte de bono de alimentación  para conocer de manera resumida las asignaciones y deducciones agrupadas en un  mismo reporte omitiendo algunos detalle que usted puede encontrar en la plantilla Detalle de Pago. Esta plantilla presentará por cada uno de los concepto un monto total mensual por cada empleado:
 
     Los campos que podrá visualizar en este reporte son:
 

@@ -53,19 +53,19 @@ Fué creado un Smart Browser permitiendo al usuario seleccionar múltiples prés
 **Selección de Pago**
 =====================
 
-- Vaya a la ventana de Préstamo(Adjunto Imagen)
+ Vaya a la ventana de Préstamo(Adjunto Imagen)
 
     |Menú de Selección de Pagos|
 
     Imagen 4. Menú de Selección de Pagos
 
-- A continuación se desplegará la siguiente ventana (Adjunto Imagen)
+ A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
     |Generar Selección de Pagos|
 
     Imagen 5. Generar Selección de Pagos
 
-- Proceda a llenar los Parámetros de **Consulta de Préstamos** necesarios para generar la selección de pagos:
+ Proceda a llenar los Parámetros de **Consulta de Préstamos** necesarios para generar la selección de pagos:
 
     - **Socio de Negocio:** Filtrará los préstamos pendientes por pagar con el Socio del Negocio indicado.
 
@@ -85,19 +85,19 @@ Fué creado un Smart Browser permitiendo al usuario seleccionar múltiples prés
 
     Imagen 6. Comenzar Búsqueda
 
-- A continuación verá los siguientes resultados:
+ A continuación verá los siguientes resultados:
 
     |Resultado de Búsqueda|
     
     Imagen 7. Resultado de Búsqueda
 
-- Seleccione los préstamos que desea cancelar:
+ Seleccione los préstamos que desea cancelar:
 
     |Selección de Préstamo|
 
     Imagen 8. Selección de Préstamo
 
-- Proceda a llenar los ***Datos para Generar la Selección de Pago***.
+ Proceda a llenar los ***Datos para Generar la Selección de Pago***.
 
     |Préstamo|
 
@@ -119,9 +119,9 @@ Fué creado un Smart Browser permitiendo al usuario seleccionar múltiples prés
 
         Imagen 10. Acción de Documento
 
-- Si desea generar la selección de pago seleccione la opción ok |Opción Aceptar|, caso contrario seleccione la opción cancelar |Opción Cancelar|
+ Si desea generar la selección de pago seleccione la opción ok |Opción Aceptar|, caso contrario seleccione la opción cancelar |Opción Cancelar|
 
-- Si seleccionó la opción OK el sistema generará la(s) selección(es) de forma exitosa generando el siguiente mensaje indicando el número(s) del pago generado.
+ Si seleccionó la opción OK el sistema generará la(s) selección(es) de forma exitosa generando el siguiente mensaje indicando el número(s) del pago generado.
 
     |Selección de Pagos Generada|
 
@@ -135,54 +135,54 @@ Existen dos posibles formas de consultar las selecciones de pago asociadas a un 
 **Ventana Selección de Pago:**
 ==============================
 
-- Vaya a la ventana de Selección de Pago (Adjunto Imagen)
+ Vaya a la ventana de Selección de Pago (Adjunto Imagen)
 
     |Consulta de Selección de Pagos|
 
     Imagen 12. Consulta de Selección de Pagos
 
-- A continuación se desplegará la siguiente ventana (Adjunto Imagen)
+ A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
     |Pagos Generado|
 
     Imagen 13. Selección de Pagos Generada
 
-- Busque el registro desde la opción “**Encontrar Registro**” ubicada en la barra de herramientas.
+ Busque el registro desde la opción “**Encontrar Registro**” ubicada en la barra de herramientas.
 
     |Selección de Pagos Generado|
 
     Imagen 14. Selección de Pagos Generada
 
-- A continuación se desplegará el siguiente dialogo
+ A continuación se desplegará el siguiente dialogo
 
     |Selección de Pago Generada|
 
     Imagen 15. Selección de Pagos Generada
 
-- Ingrese el número de la selección generada en el proceso :ref:`documento/generar-selección-pagos`.
+ Ingrese el número de la selección generada en el proceso :ref:`documento/generar-selección-pagos`.
 
 **Ventana de Préstamo:**
 ========================
 
-- Una vez en la ventana de :ref:`documento/préstamo`.
+ Una vez en la ventana de :ref:`documento/préstamo`.
 
-- Vaya a la opción “**Visualiza Detalle(Donde es Usado)**” ubicada en la barra de herramientas.
+ Vaya a la opción “**Visualiza Detalle(Donde es Usado)**” ubicada en la barra de herramientas.
 
     |Selección de Pago|
 
     Imagen 16. Selección de Pagos Generada
 
-- A continuación se desplegará el siguiente dialogo
+ A continuación se desplegará el siguiente dialogo
 
     |Selección Generada|
 
     Imagen 17. Selección de Pagos Generada
 
-- Seleccione la opción “**Selección de Pago de Préstamos**”
+ Seleccione la opción “**Selección de Pago de Préstamos**”
 
     |Selección de Pago de Préstamos|
 
     Imagen 18. Selección de Pagos Generada
 
-- Esta opción lo llevará automáticamente a las selecciones de pago asociadas a este préstamo.
+ Esta opción lo llevará automáticamente a las selecciones de pago asociadas a este préstamo.
 

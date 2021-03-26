@@ -42,15 +42,15 @@ En ADempiere es posible reflejar los anticipos realizados a proveedores en trán
 **Transferencia Bancaria**
 --------------------------
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
 
     |Menú de ADempiere 1|
 
     Imagen 1. Menú de ADempiere
 
-- Realice el procedimiento regular de transferencia bancaria explicado en la :ref:`paso/carga-anticipo` del documento "**Liquidación Anticipo Intermediario**", para transferir desde un banco determinado de la empresa a la caja del proveedor en tránsito al cual se le aplicará el anticipo.
+ Realice el procedimiento regular de transferencia bancaria explicado en la :ref:`paso/carga-anticipo` del documento "**Liquidación Anticipo Intermediario**", para transferir desde un banco determinado de la empresa a la caja del proveedor en tránsito al cual se le aplicará el anticipo.
 
-    - Para realizar el procedimiento se debe tomar en cuenta lo siguiente:
+     Para realizar el procedimiento se debe tomar en cuenta lo siguiente:
 
         - **Cuenta Bancaria Desde**: 0105-0000000000000000
 
@@ -74,13 +74,13 @@ En ADempiere es posible reflejar los anticipos realizados a proveedores en trán
 
         - **Fecha Contable**: 03/01/2020
 
-    - Quedando la ventana del proceso "**Transferencia Bancaria**", de la siguiente manera:
+     Quedando la ventana del proceso "**Transferencia Bancaria**", de la siguiente manera:
 
         |Transferencia Bancaria|
 
         Imagen 2. Transferencia Bancaria
 
-    - Al seleccionar la opción "**OK**, ADempiere realiza la transferencia en base a los datos ingresados en los campos de la ventana, generando un documento en "**Pago/Cobro**" que representa el egreso en el banco seleccionado y un documento en "**Caja**" que representa el ingreso en la caja seleccionada.
+     Al seleccionar la opción "**OK**, ADempiere realiza la transferencia en base a los datos ingresados en los campos de la ventana, generando un documento en "**Pago/Cobro**" que representa el egreso en el banco seleccionado y un documento en "**Caja**" que representa el ingreso en la caja seleccionada.
 
         **Egreso**:
 
@@ -129,13 +129,13 @@ En ADempiere es posible reflejar los anticipos realizados a proveedores en trán
 
 El cierre de caja es realizado para indicar a ADempiere que al socio del negocio "**Proveedor Estándar**", se le realizó una transferencia bancaria como anticipo a su caja "**Proveedores en Tránsito - --_00000**", por el monto de "**200.001.332,00**".
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
     |Menú de ADempiere 2|
 
     Imagen 5. Menú de ADempiere
 
-- Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja-importación` del documento "**Importación**", seleccionando la caja proveedores en transito creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el socio del negocio proveedor.
+ Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja-importación` del documento "**Importación**", seleccionando la caja proveedores en transito creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el socio del negocio proveedor.
 
     |Cierre de Caja|
 
@@ -146,13 +146,13 @@ El cierre de caja es realizado para indicar a ADempiere que al socio del negocio
 **Carga de Facturas**
 ---------------------
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
     |Menú de ADempiere 3|
 
     Imagen 7. Menú de ADempiere
 
-- Realice el procedimiento regular para generar un documento por pagar explicado en el material :ref:`documento/documento-por-pagar`, utilizando el cargo "**Transporte de Personal**".
+ Realice el procedimiento regular para generar un documento por pagar explicado en el material :ref:`documento/documento-por-pagar`, utilizando el cargo "**Transporte de Personal**".
 
     |Documento por Pagar 1|
 
@@ -162,7 +162,7 @@ El cierre de caja es realizado para indicar a ADempiere que al socio del negocio
 
         El cargo de la factura puede variar dependiendo del gasto con el cual se justifica el anticipo.
 
-- El asiento contable del documento por pagar realizado quedaría de la siguiente manera:
+ El asiento contable del documento por pagar realizado quedaría de la siguiente manera:
 
     +--------------+------------------------------------------------------------+----------------------+-----------------------+
     | Organización |                         Cuenta                             | Débito Contabilizado | Crédito Contabilizado |
@@ -179,61 +179,61 @@ El cierre de caja es realizado para indicar a ADempiere que al socio del negocio
 **Solicitud de Pago**
 ---------------------
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", por último seleccione la ventana "**Selección de Pago**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", por último seleccione la ventana "**Selección de Pago**".
 
     |Menú de ADempiere 4|
 
     Imagen 9. Menú de ADempiere
 
-- Podrá visualizar la ventana "**Selección de Pago**", donde debe seleccionar el icono "**Registro Nuevo**" para crear una solicitud de pago en ADempiere.
+ Podrá visualizar la ventana "**Selección de Pago**", donde debe seleccionar el icono "**Registro Nuevo**" para crear una solicitud de pago en ADempiere.
 
     |Icono Registro Nuevo|
 
     Imagen 10. Icono Registro Nuevo
 
-- Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Solicitud de Pago**".
+ Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Solicitud de Pago**".
 
     |Campo Organización|
     
     Imagen 11. Campo Organización
 
-- Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Solicitud de Pagos de Cuentas por Pagar**". 
+ Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Solicitud de Pagos de Cuentas por Pagar**". 
 
     |Campo Tipo de Documento|
 
     Imagen 12. Campo Tipo de Documento 
 
-- Seleccione en el campo "**Cuenta Bancaria**", la cuenta caja creada al socio del negocio proveedor en tránsito al cual se le realizó la transferencia bancaria.
+ Seleccione en el campo "**Cuenta Bancaria**", la cuenta caja creada al socio del negocio proveedor en tránsito al cual se le realizó la transferencia bancaria.
 
     |Campo Cuenta Bancaria|
     
     Imagen 13. Campo Cuenta Bancaria
 
-- Introduzca en el campo "**Nombre de Referencia**", una breve descripción de la solicitud de pago que esta realizando.
+ Introduzca en el campo "**Nombre de Referencia**", una breve descripción de la solicitud de pago que esta realizando.
 
     |Campo Nombre de Referencia|
 
     Imagen 14. Campo Nombre de Referencia
 
-- Seleccione el icono "**Guardar Cambios**", para guardar el registro de los campos en la ventana.
+ Seleccione el icono "**Guardar Cambios**", para guardar el registro de los campos en la ventana.
 
     |Icono Guardar Cambios|
 
     Imagen 15. Icono Guardar Cambios 
 
-- Seleccione el proceso "**Crear Desde Factura**", para crear la solicitud de pago desde el documento por pagar.
+ Seleccione el proceso "**Crear Desde Factura**", para crear la solicitud de pago desde el documento por pagar.
 
     |Crear Desde Factura 1|
 
     Imagen 14. Proceso Crear Desde Factura
 
-    - Podrá visualizar la ventana del proceso "**Crear Desde Factura**", donde debe seleccionar la opción "**Comenzar Búsqueda**" para buscar los registros de documentos por pagar.
+     Podrá visualizar la ventana del proceso "**Crear Desde Factura**", donde debe seleccionar la opción "**Comenzar Búsqueda**" para buscar los registros de documentos por pagar.
 
         |Opción Comenzar Búsqueda|
 
         Imagen 15. Opción Comenzar Búsqueda
 
-    - Seleccione el documento por pagar y la opción "**OK**" para cargar los datos del documento seleccionado a la ventana "**Selección de Pago**".
+     Seleccione el documento por pagar y la opción "**OK**" para cargar los datos del documento seleccionado a la ventana "**Selección de Pago**".
 
         |Selección de Factura y Opción OK|
 
@@ -243,13 +243,13 @@ El cierre de caja es realizado para indicar a ADempiere que al socio del negocio
 
         Recuerde seleccionar el icono "**Refrescar**" para actualizar la ventana y se pueda visualizar el registro creado desde el proceso "**Crear Desde Factura**".
 
-- Seleccione la opción "**Completar**" ubicado en la parte inferior derecha del documento.
+ Seleccione la opción "**Completar**" ubicado en la parte inferior derecha del documento.
 
     |Opción Completar 1|
 
     Imagen 17. Opción Completar
 
-- Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Solicitud de Pago**".
+ Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Solicitud de Pago**".
 
     |Acción Completar y Opción OK|
 
@@ -265,19 +265,19 @@ El cierre de caja es realizado para indicar a ADempiere que al socio del negocio
 **Imprimir/Exportar Pagos**
 ***************************
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", por último seleccione la ventana "**Imprimir/Exportar Pagos**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", por último seleccione la ventana "**Imprimir/Exportar Pagos**".
 
     |Menú de ADempiere 5|
 
     Imagen 12. Menú de ADempiere
 
-- Seleccione en el campo "**Selección de Pago**", la solicitud de pago "**SOP-1000342**" realizada anteriormente.
+ Seleccione en el campo "**Selección de Pago**", la solicitud de pago "**SOP-1000342**" realizada anteriormente.
 
     |Campo Selección de Pago|
 
     Imagen 13. Campo Selección de Pago
 
-- Seleccione la opción "**Imprimir**" si la regla de pago corresponde a "**Cheque**", de lo contrario debe seleccionar la opción "**Exportar Registros**" para que sea generado el documento en formato "**.txt**". Para ejemplificar el registro es utilizada la opción "**Exportar Registros**".
+ Seleccione la opción "**Imprimir**" si la regla de pago corresponde a "**Cheque**", de lo contrario debe seleccionar la opción "**Exportar Registros**" para que sea generado el documento en formato "**.txt**". Para ejemplificar el registro es utilizada la opción "**Exportar Registros**".
 
     |Opción Exportar Registros|
 
@@ -287,19 +287,19 @@ El cierre de caja es realizado para indicar a ADempiere que al socio del negocio
 
         El documento generado por ADempiere en formato "**.txt**" es utilizado por el usuario para importarlo al banco correspondiente. 
 
-- Podrá visualizar el siguiente mensaje de confirmación donde debe seleccionar la opción "**OK**".
+ Podrá visualizar el siguiente mensaje de confirmación donde debe seleccionar la opción "**OK**".
 
     |Mensaje de Confirmación|
 
     Imagen 16. Mensaje de Confirmación
 
-- Luego de revisar el documento generado en formato "**.txt**", puede seleccionar la opción "**OK**" en el mensaje.
+ Luego de revisar el documento generado en formato "**.txt**", puede seleccionar la opción "**OK**" en el mensaje.
 
     |Mensaje para Confirmar Documento|
 
     Imagen 17. Mensaje para Confirmar Documento
 
-- Al seleccionar la opción "**OK**, se genera un documento en "**Caja**" que representa el egreso en la caja seleccionada y un documento en "**Consulta de Asignación**".
+ Al seleccionar la opción "**OK**, se genera un documento en "**Caja**" que representa el egreso en la caja seleccionada y un documento en "**Consulta de Asignación**".
 
     **Egreso**:
 
@@ -346,13 +346,13 @@ El cierre de caja es realizado para indicar a ADempiere que al socio del negocio
 **Cierre de Caja**
 ******************
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
     |Menú de ADempiere 2|
 
     Imagen 5. Menú de ADempiere
 
-- Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja-importación` del documento "**Importación**", seleccionando la caja proveedores en transito creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el socio del negocio proveedor.
+ Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja-importación` del documento "**Importación**", seleccionando la caja proveedores en transito creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el socio del negocio proveedor.
 
     |Cierre de Caja 2|
 

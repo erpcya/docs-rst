@@ -53,13 +53,13 @@ En primer lugar se creará el anticipo gestionando un traslado de fondos mediant
 
 Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, la transferencia bancaria es el proceso mediante el cual se realizan los traslados de fondos entre cuentas (Banco Real a Caja Intermediario _NumOrden_Proveedor), a continuación se define el proceso para realizar una transferencia bancaria en ADempiere. 
 
-- Ubique y seleccione en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
+ Ubique y seleccione en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**", luego seleccione el proceso "**Transferencia Bancaria**".
 
     |Menú de ADempiere 1|
 
     Imagen 1. Menú de ADempiere
 
-- Realizar una transferencia bancaria con las siguientes condiciones:
+ Realizar una transferencia bancaria con las siguientes condiciones:
 
     **Banco Desde**: Banco desde la cual se cancelará el anticipo
 
@@ -126,45 +126,45 @@ A continuación se presenta un ejemplo de la ventana "**Transferencia Bancaria**
 **Carga de Factura de Cuentas por Pagar**
 *****************************************
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
     |Menú de ADempiere 2|
 
     Imagen 3. Menú de ADempiere
 
-- Realice el procedimiento habitual para crear los documentos por pagar necesarios, explicado en el material :ref:`documento/documento-por-pagar` elaborado por `ERPyA`_. Para ejemplificar el registro se realizan tres facturas como relación entregada por el intermediario gestor de la importacióncon.
+ Realice el procedimiento habitual para crear los documentos por pagar necesarios, explicado en el material :ref:`documento/documento-por-pagar` elaborado por `ERPyA`_. Para ejemplificar el registro se realizan tres facturas como relación entregada por el intermediario gestor de la importacióncon.
 
-- Factura "**1000020**", con socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" y moneda "**VES**".
+ Factura "**1000020**", con socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" y moneda "**VES**".
 
     |Documento por Pagar 1|
 
     Imagen 4. Documento por Pagar
 
-    - Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Gastos Aduanales**" utilizado para generar el documento por pagar con el monto de "**1.550.000,00**".
+     Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Gastos Aduanales**" utilizado para generar el documento por pagar con el monto de "**1.550.000,00**".
 
         |Pestaña Línea de la Factura 1|
 
         Imagen 5. Pestaña Línea de la Factura
 
-- Factura "**1000022**", con socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" y moneda "**VES**".
+ Factura "**1000022**", con socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" y moneda "**VES**".
 
     |Documento por Pagar 2|
 
     Imagen 6. Documento por Pagar
 
-    - Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Flete Aduanales**" utilizado para generar el documento por pagar con el monto de "**2.400.000,00**".
+     Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Flete Aduanales**" utilizado para generar el documento por pagar con el monto de "**2.400.000,00**".
 
         |Pestaña Línea de la Factura 2|
 
         Imagen 7. Pestaña Línea de la Factura
 
-- Factura "**1000023**", con socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" y moneda "**VES**".
+ Factura "**1000023**", con socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" y moneda "**VES**".
 
     |Documento por Pagar 3|
 
     Imagen 8. Documento por Pagar
 
-    - Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Honorarios Profesionales**" utilizado para generar el documento por pagar con el monto de "**27.000.000,00**".
+     Podrá visualizar en la pestaña "**Línea de la Factura**", el cargo "**Honorarios Profesionales**" utilizado para generar el documento por pagar con el monto de "**27.000.000,00**".
 
         |Pestaña Línea de la Factura 3|
 
@@ -183,7 +183,7 @@ La caja a definir funge en el procedimiento de anticipos a terceros como un puen
 
 En la siguiente ventana de "**Caja**" se realizan todos los pagos de las facturas pendientes por cancelar, a continuación se define el proceso de caja en ADempiere.
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
 
     |Menú de ADempiere 3|
 
@@ -193,25 +193,25 @@ En la siguiente ventana de "**Caja**" se realizan todos los pagos de las factura
 
         El requerimiento principal para realizar el proceso de gestión de caja de intermediario es tener una definición de caja creada.
 
-    - Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Caja**".
+     Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Caja**".
 
         |Campo Organización 1|
 
         Imagen 11. Campo Organización
 
-    - Seleccione en el campo "**Cuenta Bancaria**" la cuenta caja correspondiente al documento que esta realizando. Para ejemplificar el registro es utilizada la opción "**Caja Intermediarios - --_OCI-1000024_Estandar**".
+     Seleccione en el campo "**Cuenta Bancaria**" la cuenta caja correspondiente al documento que esta realizando. Para ejemplificar el registro es utilizada la opción "**Caja Intermediarios - --_OCI-1000024_Estandar**".
 
         |Campo Cuenta Bancaria 1|
 
         Imagen 12. Campo Cuenta Bancaria
         
-    - Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Pago Nacional**".
+     Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Pago Nacional**".
 
         |Campo Tipo de Documento 1|
 
         Imagen 13. Campo Tipo de Documento
 
-    - Seleccione en el campo "**Factura**", la factura que será reflejada en la caja que esta realizando. Para ejemplificar el registro es utilizada la factura "**1000023**" creada anteriormente.
+     Seleccione en el campo "**Factura**", la factura que será reflejada en la caja que esta realizando. Para ejemplificar el registro es utilizada la factura "**1000023**" creada anteriormente.
 
         |Campo Factura 1|
 
@@ -221,13 +221,13 @@ En la siguiente ventana de "**Caja**" se realizan todos los pagos de las factura
 
             Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
-    - Seleccione la opción "**Completar**", ubicada en la parte inferior del documento.
+     Seleccione la opción "**Completar**", ubicada en la parte inferior del documento.
 
         |Opción Completar 2|
 
         Imagen 15. Opción Completar
 
-    - Seleccione la acción "**Completar**" y la opción "**Ok**" para completar el documento "**Caja**".
+     Seleccione la acción "**Completar**" y la opción "**Ok**" para completar el documento "**Caja**".
 
         |Acción Completar|
 
@@ -277,31 +277,31 @@ Resultados:
 **Conciliación de Liquidación**
 *******************************
 
-- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
     |Menú de ADempiere 4|
 
     Imagen 17. Menú de ADempiere
 
-- Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja-importación` del documento "**Importación**", seleccionando la caja intermediario creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el gestor intermediario.
+ Realice el procedimiento regular para generar el cierre de caja, explicado en la :ref:`paso/cierre-caja-importación` del documento "**Importación**", seleccionando la caja intermediario creada. Luego de completar el procedimiento podrá apreciar en el campo "**Saldo Final**", el saldo abierto que posee el gestor intermediario.
 
     |Cierre de Caja|
 
     Imagen 18. Cierre de Caja
 
-    - Podrá apreciar en la pestaña "**Línea de Cierre de Caja**", los diferentes registros creados desde el proceso "**Crear a Partir de Pagos**".
+     Podrá apreciar en la pestaña "**Línea de Cierre de Caja**", los diferentes registros creados desde el proceso "**Crear a Partir de Pagos**".
 
         |Pestaña Línea de Cierre de Caja|
 
         Imagen 19. Pestaña Línea de Cierre de Caja
 
-    - Para generar el reporte del balance de caja y visualizar los saldos abiertos que posee el gestor intermediario, seleccione en la ventana "**Cierre de Caja**" el icono "**Informe**", que se encuentra ubicado en la barra de herramientas de ADempiere.
+     Para generar el reporte del balance de caja y visualizar los saldos abiertos que posee el gestor intermediario, seleccione en la ventana "**Cierre de Caja**" el icono "**Informe**", que se encuentra ubicado en la barra de herramientas de ADempiere.
 
         |Icono Informe|
 
         Imagen 20. Icono Informe
 
-    - Podrá visualizar el balance de caja de la siguiente manera.
+     Podrá visualizar el balance de caja de la siguiente manera.
 
         |Reporte de Balance|
 

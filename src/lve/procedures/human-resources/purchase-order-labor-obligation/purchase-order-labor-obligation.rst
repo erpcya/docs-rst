@@ -12,25 +12,25 @@ La orden de compra obligación laboral se realiza cuando queremos registrar el p
 
 Para registrar una orden de compra obligación laboral se puede seguir con los datos que se registraron en el proceso documento :ref:`documento/orden-de-compra`. Con los siguientes datos adicionales que se detallan a continuación. 
 
-- Seleccione en la ventana principal de la orden de compra el tipo de documento que requiera utilizar para su orden de compra.
+ Seleccione en la ventana principal de la orden de compra el tipo de documento que requiera utilizar para su orden de compra.
 
     Los tipos de documentos de los cuales dispone para realizar una orden de compra de obligación laboral son:
 
-        - Orden de compra Capacitación de RRHH: Este tipo de documento lo utilizamos cuando necesitamos representar el gasto que se realizó por motivo de cualquier capacitación de personal, por ejemplo el pago del servicio de un curso.
+         Orden de compra Capacitación de RRHH: Este tipo de documento lo utilizamos cuando necesitamos representar el gasto que se realizó por motivo de cualquier capacitación de personal, por ejemplo el pago del servicio de un curso.
 
-        - Orden de compra Logística de RRHH: Este tipo de documento lo utilizamos cuando necesitamos representar el gasto que se realizó por motivo de cualquier logistica para el personal, por ejemplo el servicio de pago de comida o transporte de personal por realizar una actividad laboral fuera de su horario laboral.
+         Orden de compra Logística de RRHH: Este tipo de documento lo utilizamos cuando necesitamos representar el gasto que se realizó por motivo de cualquier logistica para el personal, por ejemplo el servicio de pago de comida o transporte de personal por realizar una actividad laboral fuera de su horario laboral.
 
-        - Orden de compra Obligación Laboral: Este tipo de documento lo utilizamos cuando necesitamos representar el gasto que es asignado al empleado para el pago de cualquier obligación que este estipulado por la legislación venezolana, por ejemplo el pago de guarderias.
+         Orden de compra Obligación Laboral: Este tipo de documento lo utilizamos cuando necesitamos representar el gasto que es asignado al empleado para el pago de cualquier obligación que este estipulado por la legislación venezolana, por ejemplo el pago de guarderias.
 
-    - Recuerde que para este caso el tipo de documento determina la acción que realiza ese documento dentro de ADempiere y también determina  que pueda visualizar los diferentes cargos que tiene asociado ese tipo de documento.
+     Recuerde que para este caso el tipo de documento determina la acción que realiza ese documento dentro de ADempiere y también determina  que pueda visualizar los diferentes cargos que tiene asociado ese tipo de documento.
 
         |Tipo de Documento|
 
         Imagen 1. Seleccione el Tipo de Documento con el que registrará su documento.
 
-- Seleccione la pestaña “**Línea Orden Compra**” y proceda seleccionando el "**Producto o Servicio**" a ordenar. Si la orden de compra contiene varios productos, el campo "**Nro. de Línea**", indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer cargo, deberá seleccionar nuevo, incrementando así el número de líneas por productos en el documento.
+ Seleccione la pestaña “**Línea Orden Compra**” y proceda seleccionando el "**Producto o Servicio**" a ordenar. Si la orden de compra contiene varios productos, el campo "**Nro. de Línea**", indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer cargo, deberá seleccionar nuevo, incrementando así el número de líneas por productos en el documento.
 
-- Seleccione en el campo “**Cargo**”, el nombre del cargo que desea registrar
+ Seleccione en el campo “**Cargo**”, el nombre del cargo que desea registrar
 
     En ADempiere un cargo representa un servicio, quiere decir que no contabiliza en su inventario, entre los cargos que dispone ADempiere podemos mencionar los siguientes:
 

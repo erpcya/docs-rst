@@ -26,19 +26,19 @@ Se creó un formulario o ventana personalizada convirtiendo a ADempiere en una h
 
 A continuación se detalla las instrucciones para proceder a simular un préstamo de forma exitosa:
 
-- Vaya a la ventana de Simulador de Préstamo (Adjunto Imagen)
+ Vaya a la ventana de Simulador de Préstamo (Adjunto Imagen)
 
     |Menú de Préstamos|
 
     Imagen 1. Menú de Préstamos
 
-- A continuación se desplegará la siguiente ventana disponible para simular un préstamo.
+ A continuación se desplegará la siguiente ventana disponible para simular un préstamo.
 
     |Simulador de Préstamo|
 
     Imagen 2. Simulador de Préstamo
 
-- Proceda a llenar los parámetros necesarios para la simulación de préstamo:
+ Proceda a llenar los parámetros necesarios para la simulación de préstamo:
 
     - **Socio del Negocio:** Indique el socio del negocio solicitante previamente configurado (Vea *Configuraciones Esenciales para el Proceso de Préstamo*).
 
@@ -62,9 +62,9 @@ A continuación se detalla las instrucciones para proceder a simular un préstam
 
     Imagen 3. Simulador de Préstamo con Parámetros
 
-- Seleccione la opción procesar |text|
+ Seleccione la opción procesar |text|
 
-- A continuación verá los siguientes resultados:
+ A continuación verá los siguientes resultados:
 
     |Ejecución de Simulador|
 
@@ -92,31 +92,31 @@ Los totales estimados le indicarán al solicitante el Total de Interés, Total d
 **Generar Préstamo desde Simulación**
 -------------------------------------
 
-- Una vez procesada la simulación:
+ Una vez procesada la simulación:
 
     |Ejecución de Simulador|
 
     Imagen 7. Ejecución de Simulador
 
-- Seleccione la opción ok |Ok|
+ Seleccione la opción ok |Ok|
 
     |Área de Acciones|
 
     Imagen 8. Área de Acciones
 
-- A continuación se desplegará el siguiente dialogo
+ A continuación se desplegará el siguiente dialogo
 
     |Área de Proceso|
 
     Imagen 9. Área de Proceso
 
-- Si desea generar el préstamo seleccione la opción ok |Ok|, caso contrario seleccione la opción cancelar |Cancelar|
+ Si desea generar el préstamo seleccione la opción ok |Ok|, caso contrario seleccione la opción cancelar |Cancelar|
 
     |Área de Pregunta|
 
     Imagen 10. Área de Pregunta
 
-- Si seleccionó la opción OK el sistema generará el préstamo de forma exitosa generando el siguiente mensaje indicando el número del préstamo generado:
+ Si seleccionó la opción OK el sistema generará el préstamo de forma exitosa generando el siguiente mensaje indicando el número del préstamo generado:
 
     |Área de Resultado| 
 
