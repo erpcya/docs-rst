@@ -41,7 +41,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Transferencia Bancaria por Viáticos**
 ***************************************
 
-#. Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_.
+ Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_.
 
     |transferencia viáticos igual al gasto|
 
@@ -51,13 +51,13 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
         Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja viáticos. De igual manera, es creado un cobro en caja y un pago en pago/cobro.
 
-#. Al consultar el egreso de banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
+ Al consultar el egreso de banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
 
     |egreso de banco viáticos igual al gasto|
 
     Imagen 2. Egreso de Banco por Viáticos
 
-#. Al consultar el ingreso a caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
+ Al consultar el ingreso a caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
 
     |ingreso a caja viáticos igual al gasto|
 
@@ -66,7 +66,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Relación de Facturas**
 ************************
 
-#. Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/relación-de-facturas-o-justificación-de-gastos`, elaborado por `ERPyA`_.
+ Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/relación-de-facturas-o-justificación-de-gastos`, elaborado por `ERPyA`_.
 
     |relación de factura viáticos igual al gasto|
 
@@ -75,7 +75,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Cierre de Caja**
 ******************
 
-#. Se realiza el procedimiento regular para generar un cierre de caja, seleccionando la cuenta "**Caja Viáticos**" y el tipo de documento "**Cierre de Caja Viáticos**". Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_.
+ Se realiza el procedimiento regular para generar un cierre de caja, seleccionando la cuenta "**Caja Viáticos**" y el tipo de documento "**Cierre de Caja Viáticos**". Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_.
 
     |cierre de caja viáticos igual al gasto|
 
@@ -93,7 +93,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Transferencia Bancaria por Viáticos**
 ***************************************
 
-#. Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_.
+ Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_.
 
     |transferencia bancaria viáticos mayor al gasto|
 
@@ -103,13 +103,13 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
         Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja viáticos. De igual manera, es creado un cobro en caja y un pago en pago/cobro.
 
-#. Al consultar el egreso de banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
+ Al consultar el egreso de banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
 
     |egreso de banco viáticos mayor al gasto|
 
     Imagen 7. Egreso de Banco por Viáticos
 
-#. Al consultar el ingreso a caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
+ Al consultar el ingreso a caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
 
     |ingreso a caja viáticos mayor al gasto|
 
@@ -118,7 +118,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Relación de Facturas**
 ************************
 
-#. Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/relación-de-facturas-o-justificación-de-gastos`, elaborado por `ERPyA`_.
+ Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/relación-de-facturas-o-justificación-de-gastos`, elaborado por `ERPyA`_.
 
     |relación de factura viáticos mayor al gasto|
 
@@ -127,7 +127,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Cierre de Caja En Borrador**
 ******************************
 
-#. Realice el procedimiento regular para generar un cierre de caja, explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_, seleccionando la cuenta "**Caja Viáticos**" y el tipo de documento "**Cierre de Caja Viáticos**".
+ Realice el procedimiento regular para generar un cierre de caja, explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_, seleccionando la cuenta "**Caja Viáticos**" y el tipo de documento "**Cierre de Caja Viáticos**".
 
     .. note::
 
@@ -144,7 +144,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Transferencia Bancaria por Excedente**
 ****************************************
 
-#. Realice el procedimiento regular para generar una transferencia bancaria, explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_.
+ Realice el procedimiento regular para generar una transferencia bancaria, explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_.
 
     |transferencia bancaria por restante viáticos mayor al gasto|
 
@@ -154,13 +154,13 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
         Al realizar el proceso de transferencia bancaria, es generado un egreso de caja viáticos y un ingreso a banco. De igual manera, es creado un pago en caja y un cobro en pago/cobro.
 
-#. Al consultar el egreso de caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
+ Al consultar el egreso de caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
 
     |egreso de caja por restante viáticos mayor al gasto|
 
     Imagen 12. Egreso de Caja por Excedente de Viáticos
 
-#. Al consultar el ingreso a banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
+ Al consultar el ingreso a banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
 
     |ingreso a banco por restante viáticos mayor al gasto|
 
@@ -169,7 +169,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Completar Cierre de Caja**
 ****************************
 
-#. Ubique el registro del cierre de caja "**CCV-2**", generado anteriormente en estado "**Borrador**" y seleccione la opción "**Crear a Partir de Caja**", para seleccionar el registro de la transferencia bancaria realizada con el excedente de los viáticos. Finalmente, complete el cierre de caja para llevar la caja viáticos a su saldo inicial. Recuerde que el procedimiento regular para generar un cierre de caja, se encuentra explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_.
+ Ubique el registro del cierre de caja "**CCV-2**", generado anteriormente en estado "**Borrador**" y seleccione la opción "**Crear a Partir de Caja**", para seleccionar el registro de la transferencia bancaria realizada con el excedente de los viáticos. Finalmente, complete el cierre de caja para llevar la caja viáticos a su saldo inicial. Recuerde que el procedimiento regular para generar un cierre de caja, se encuentra explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_.
 
     |último cierre de caja viáticos mayor al gasto|
 
@@ -187,7 +187,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Transferencia Bancaria por Viáticos**
 ***************************************
 
-#. Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_.
+ Se realiza la transferencia bancaria a caja viáticos por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/procedimiento-para-realizar-una-transferencia-bancaria`, elaborado por `ERPyA`_.
 
     |transferencia bancaria gasto mayor a viáticos|
 
@@ -197,13 +197,13 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 
         Al realizar el proceso de transferencia bancaria, es generado un egreso de banco y un ingreso a caja viáticos. De igual manera, es creado un cobro en caja y un pago en pago/cobro.
 
-#. Al consultar el egreso de banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
+ Al consultar el egreso de banco en la ventana "**Pago/Cobro**", se puede visualizar el mismo de la siguiente manera.
 
     |egreso de banco gasto mayor a viáticos|
 
     Imagen 16. Egreso de Banco por Viáticos
 
-#. Al consultar el ingreso a caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
+ Al consultar el ingreso a caja viáticos en la ventana "**Caja**", se puede visualizar el mismo de la siguiente manera.
 
     |ingreso a caja viáticos gasto mayor a viáticos|
 
@@ -212,7 +212,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Relación de Facturas**
 ************************
 
-#. Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/registros-de-montos-no-reembolsables-para-viáticos-y-reembolsos`. Finalmente, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/relación-de-facturas-o-justificación-de-gastos`, elaborado por `ERPyA`_.
+ Se realiza la relación de factura por el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/registros-de-montos-no-reembolsables-para-viáticos-y-reembolsos`. Finalmente, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/relación-de-facturas-o-justificación-de-gastos`, elaborado por `ERPyA`_.
 
     |relación de factura gasto mayor a viáticos|
 
@@ -221,7 +221,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Cierre de Caja En Borrador**
 ******************************
 
-#. Realice el procedimiento regular para generar un cierre de caja, explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_, seleccionando la cuenta "**Caja Viáticos**" y el tipo de documento "**Cierre de Caja Viáticos**".
+ Realice el procedimiento regular para generar un cierre de caja, explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_, seleccionando la cuenta "**Caja Viáticos**" y el tipo de documento "**Cierre de Caja Viáticos**".
 
     .. note::
 
@@ -238,7 +238,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Relación de Montos no Reembolsables**
 ***************************************
 
-#. Se registra una caja utilizando el tipo de documento "**Cobro Viáticos**" y el cargo "**Monto no Reembolsable**", con el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/relación-de-facturas-o-justificación-de-gastos`, elaborado por `ERPyA`_, donde se indica como registrar una caja utilizando un cargo en lugar de una factura.
+ Se registra una caja utilizando el tipo de documento "**Cobro Viáticos**" y el cargo "**Monto no Reembolsable**", con el monto correspondiente. Para ello, se debe ejecutar el procedimiento explicado en el documento :ref:`documento/relación-de-facturas-o-justificación-de-gastos`, elaborado por `ERPyA`_, donde se indica como registrar una caja utilizando un cargo en lugar de una factura.
 
     |registro de caja por monto no reembolsable gasto mayor a viáticos|
 
@@ -247,7 +247,7 @@ El proceso de registro de caja viáticos para el caso en el que el monto total d
 **Completar Cierre de Caja**
 ****************************
 
-#. Ubique el registro del cierre de caja "**CCV-3**", generado anteriormente en estado "**Borrador**" y seleccione la opción "**Crear a Partir de Caja**", para seleccionar el registro de la caja realizada con el monto gastado de más. Finalmente, complete el cierre de caja para llevar la caja viáticos a su saldo inicial. Recuerde que el procedimiento regular para generar un cierre de caja, se encuentra explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_.
+ Ubique el registro del cierre de caja "**CCV-3**", generado anteriormente en estado "**Borrador**" y seleccione la opción "**Crear a Partir de Caja**", para seleccionar el registro de la caja realizada con el monto gastado de más. Finalmente, complete el cierre de caja para llevar la caja viáticos a su saldo inicial. Recuerde que el procedimiento regular para generar un cierre de caja, se encuentra explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_.
 
     |último cierre de caja gasto mayor a viáticos|
 

@@ -16,31 +16,31 @@
 **Cliente**
 ===========
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Relación con Socios del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**", por último seleccione la ventana "**Socio del Negocio**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Relación con Socios del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**", por último seleccione la ventana "**Socio del Negocio**".
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Socio del Negocio**", con los diferentes registros de socios del negocio que contiene ADempiere.
+ Podrá visualizar la ventana "**Socio del Negocio**", con los diferentes registros de socios del negocio que contiene ADempiere.
 
     |Ventana Socio del Negocio|
 
     Imagen 2. Ventana Socio del Negocio
 
-#. Luego de ubicar el registro del socio del negocio cliente al cual se le definirá la configuración contable, seleccione la pestaña "**Cliente**".
+ Luego de ubicar el registro del socio del negocio cliente al cual se le definirá la configuración contable, seleccione la pestaña "**Cliente**".
 
     |Pestaña Cliente de la Ventana Socio del Negocio|
 
     Imagen 3. Pestaña Cliente de la Ventana Socio del Negocio
 
-#. Seleccione la pestaña "**Contabilidad Cliente**", para definir la configuración contable del socio del negocio cliente seleccionado.
+ Seleccione la pestaña "**Contabilidad Cliente**", para definir la configuración contable del socio del negocio cliente seleccionado.
 
     |Pestaña Contabilidad Cliente de la Ventana Socio del Negocio|
 
     Imagen 4. Pestaña Contabilidad Cliente de la Ventana Socio del Negocio
 
-#. Seleccione el identificador ubicado del lado derecho del campo "**CxC de Clientes**" para definir la configuración contable del mismo.
+ Seleccione el identificador ubicado del lado derecho del campo "**CxC de Clientes**" para definir la configuración contable del mismo.
 
     |Campo CxC de Clientes|
 
@@ -52,7 +52,7 @@
 
         Imagen 6. Combinación Contable del Campo CxC de Clientes
 
-#. Seleccione el identificador ubicado del lado derecho del campo "**CxC Servicios**" para definir la configuración contable del mismo.
+ Seleccione el identificador ubicado del lado derecho del campo "**CxC Servicios**" para definir la configuración contable del mismo.
 
     |Campo CxC Servicios|
 
@@ -64,7 +64,7 @@
 
         Imagen 8. Combinación Contable del Campo CxC Servicios
 
-#. Seleccione el identificador ubicado del lado derecho del campo "**CxC Pago Anticipado de Clientes**" para seleccionar la configuración contable del mismo.
+ Seleccione el identificador ubicado del lado derecho del campo "**CxC Pago Anticipado de Clientes**" para seleccionar la configuración contable del mismo.
 
     |Campo Pago Anticipado de Clientes|
 

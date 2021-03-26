@@ -20,19 +20,19 @@
 
 El préstamo en ADempiere pueden ser generados de dos formas, en la definición del proceso anterior se explicó cómo generar el préstamo desde la simulación, ahora aprenderá cómo crear un préstamo en la ventana de préstamo.
 
-#. Vaya a la ventana de Préstamo(Adjunto Imagen)
+ Vaya a la ventana de Préstamo(Adjunto Imagen)
 
     |Menú de Préstamo|
 
     Imagen 1. Menú de Préstamo
 
-#. A continuación se desplegará la siguiente ventana (Adjunto Imagen)
+ A continuación se desplegará la siguiente ventana (Adjunto Imagen)
 
     |Ventana de Préstamo|
 
     Imagen 2. Ventana de Préstamo
 
-#. Proceda a crear el préstamo con las siguientes características puntuales:
+ Proceda a crear el préstamo con las siguientes características puntuales:
 
     - **Tipo de Documento:** Seleccione el tipo de documento previamente configurado (Vea *Configuraciones Esenciales para el Proceso de Préstamo*).
 
@@ -54,14 +54,14 @@ El préstamo en ADempiere pueden ser generados de dos formas, en la definición 
 
         Imagen 4. Botón Guardar
 
-#. Al guardar el registro el sistema crea un registro como cuenta de
+ Al guardar el registro el sistema crea un registro como cuenta de
 préstamo.
 
     |Guardar Registro|
 
     Imagen 5. Guardar Registro
 
-#. Proceda a crear el préstamo con las siguientes características puntuales:
+ Proceda a crear el préstamo con las siguientes características puntuales:
 
     - **Monto de Capital:** Indique el monto del préstamo solicitado.
 
@@ -89,7 +89,7 @@ préstamo.
 
         Imagen 7. Después de Guardar el Préstamo
 
-#. Complete el registro 
+ Complete el registro 
 
     |Completar Préstamo|
 
@@ -99,13 +99,13 @@ préstamo.
 
     Imagen 9. Ventana Completar Préstamo
 
-#. A continuación se desplegará el siguiente dialogo
+ A continuación se desplegará el siguiente dialogo
 
     |Diálogo de Completar Préstamo|
     
     Imagen 10. Diálogo de Completar Préstamo
 
-#. Si desea completar el préstamo seleccione la opción ok |Opción Aceptar|, caso contrario seleccione la opción cancelar |Opción Cancelar|
+ Si desea completar el préstamo seleccione la opción ok |Opción Aceptar|, caso contrario seleccione la opción cancelar |Opción Cancelar|
 
 **Amortización**
 ================

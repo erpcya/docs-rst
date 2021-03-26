@@ -59,26 +59,26 @@
 **Diario de Nota Contable**
 ===========================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la ventana "**Diario Contable**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Análisis de Desempeño**", luego seleccione la ventana "**Diario Contable**".
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la siguiente ventana.
+ Podrá visualizar la siguiente ventana.
 
     |Ventana Diario Contable|
 
 **Lote Contable**
 -----------------
 
-#. Seleccione el icono "**Registro Nuevo**", para crear un nuevo registro de diario contable en ADempiere.
+ Seleccione el icono "**Registro Nuevo**", para crear un nuevo registro de diario contable en ADempiere.
 
     |Icono Registro Nuevo de la Pestaña Lote Contable de la Ventana Diario Contable|
 
     Imagen 3. Icono Registro Nuevo de la Pestaña Lote Contable de la Ventana Diario Contable
 
-#. Seleccione la organización en el campo "**Organización**".
+ Seleccione la organización en el campo "**Organización**".
 
     La organización es un campo obligatorio, le permite determinar, a que organización corresponde el lote contable, para dimensionar o clasificar el asiento contable por organización, para profundizar más este tema vaya a el documento: :ref:`documento/dimensiones-contable`.
 
@@ -86,7 +86,7 @@
 
         Imagen 4. Campo Organización de la Pestaña Lote Contable de la Ventana Diario Contable
 
-#. Introduzca una descripción clara en el campo "**Descripción**".
+ Introduzca una descripción clara en el campo "**Descripción**".
 
     La descripción es un campo obligatorio, le ayudará a determinar en reportes detallados el motivo o justificación por el cual existe el asiento, es por ello que recomendamos definir una descripción clara y precisa del lote contable, ya que la misma será mostrada en reportes de auditorias.
 
@@ -94,7 +94,7 @@
 
         Imagen 5. Campo Descripción de de la Pestaña Lote Contable de la Ventana Diario Contable
 
-#. Seleccione un tipo de aplicación en el campo "**Tipo de Aplicación**".
+ Seleccione un tipo de aplicación en el campo "**Tipo de Aplicación**".
 
     El tipo de aplicación es un campo obligatorio, le permite clasificar el lote contable por tipo de aplicación, este es establecido actual por defecto, para profundizar más este tema vaya a el documento: :ref:`documento/tipo-de-aplicación`.
 
@@ -106,7 +106,7 @@
 
         Por defecto ADempiere establece el tipo de aplicación actual.
 
-#. Seleccione un tipo de documento en el campo "**Tipo de Documento**".
+ Seleccione un tipo de documento en el campo "**Tipo de Documento**".
 
     El tipo de documento es un campo obligatorio, le permite definir el comportamiento del documento que se está elaborando, para profundizar más este tema vaya a el documento: **Tipo de Documento**.
 
@@ -114,7 +114,7 @@
 
         Imagen 7. Campo Tipo de Documento de la Pestaña Lote Contable de la Ventana Diario Contable
 
-#. Seleccione la categoría de contabilidad en el campo "**Categoría Contabilidad**".
+ Seleccione la categoría de contabilidad en el campo "**Categoría Contabilidad**".
 
     La categoría de contabilidad es un campo obligatorio, sin embargo, le permite categorizar los registros para ser filtrados en reportes posteriormente.
 
@@ -122,7 +122,7 @@
 
         Imagen 8. Campo Categoría Contabilidad de la Pestaña Lote Contable de la Ventana Diario Contable
 
-#. Seleccione la fecha en el campo "**F. Documento**".
+ Seleccione la fecha en el campo "**F. Documento**".
 
     La fecha de documento es un campo obligatorio, le permite filtrar por rango de fecha los lotes contables realizados.
 
@@ -130,7 +130,7 @@
 
         Imagen 9. Campo Fecha del Documento de la Pestaña Lote Contable de la Ventana Diario Contable
 
-#. Seleccione la fecha en el campo "**Fecha Contable**".
+ Seleccione la fecha en el campo "**Fecha Contable**".
 
     La fecha contable es un campo obligatorio, le permite establecer un límite contable para las notas contables dependientes de este lote contable.
 
@@ -138,7 +138,7 @@
 
         Imagen 10. Campo Fecha Contable de la Pestaña Lote Contable de la Ventana Diario Contable
 
-#. Seleccione un periodo contable en el campo "**Período**".
+ Seleccione un periodo contable en el campo "**Período**".
 
     El periodo es un campo obligatorio, le permite definir el periodo contable al que  pertenece el lote contable, además, este periodo es establecido en las notas contable y variará a criterio del usuario de ser necesario, para comprender mejor, veamos el siguiente ejemplo:
 
@@ -154,7 +154,7 @@
 
         Por defecto ADempiere establece el periodo correspondiente a la fecha actual.
 
-#. Seleccione la moneda en el campo "**Moneda**".
+ Seleccione la moneda en el campo "**Moneda**".
 
     La moneda es un campo obligatorio, le permite definir la moneda con la cual se ejecuta el lote contable, recordemos que ADempiere maneja la metodología multi-moneda, de esta forma se podrá realizar lotes de asientos con una moneda diferente a la del esquema principal de la compañía.
 
@@ -172,7 +172,7 @@
 
         Por defecto ADempiere establece la moneda del esquema principal de la compañía actual.
 
-#. Introduzca un monto en el campo "**Cifra de Control**".
+ Introduzca un monto en el campo "**Cifra de Control**".
 
     La cifra control no es un campo obligatorio, sin embargo le permite validar que el monto total del débitos acumulados en las notas contables sea igual a la cifra control, evitando que el documento sea completado.
 
@@ -180,7 +180,7 @@
 
         Imagen 13. Campo Cifra de Control de la Pestaña Lote Contable de la Ventana Diario Contable
 
-#. Podrá visualizar el checklist "**Aprobado**".
+ Podrá visualizar el checklist "**Aprobado**".
 
     El check aprobado es un campo solo lectura, actualizado automáticamente si es activado un flujo de aprobación para este documento, de esta forma es obligatorio que el documento sea aprobado por un supervisor.
 
@@ -188,7 +188,7 @@
 
         Imagen 14. Checklist Aprobado de la Pestaña Lote Contable de la Ventana Diario Contable
 
-#. Podrá visualizar el total de débito en el campo "**Total Débito**".
+ Podrá visualizar el total de débito en el campo "**Total Débito**".
 
     El total de débito es un campo solo lectura, actualizado automáticamente, acumulando el saldo deudor de las notas contables que componen el lote.
 
@@ -196,7 +196,7 @@
 
         Imagen 15. Campo Total Débito de la Pestaña Lote Contable de la Ventana Diario Contable
 
-#. Podrá visualizar en el campo "**Total Débito**", el total del débito correspondiente a la nota contable.
+ Podrá visualizar en el campo "**Total Débito**", el total del débito correspondiente a la nota contable.
 
     El total de crédito es un campo solo lectura, actualizado automáticamente, acumulando el saldo acreedor de las notas contables que componen el lote.
 
@@ -210,19 +210,19 @@
 
 Pasos posterior al registro de la **Nota Contable** y **Linea**
 
-#. Regrese a la pestaña principal "**Lote**" y seleccione la opción "**Completar**", ubicado en la parte inferior derecha de la ventana.
+ Regrese a la pestaña principal "**Lote**" y seleccione la opción "**Completar**", ubicado en la parte inferior derecha de la ventana.
 
     |Pestaña Lote y Opción Completar|
 
     Imagen 51. Pestaña Lote y Opción Completar
 
-#. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Nota de Contabilidad**".
+ Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Nota de Contabilidad**".
 
     |Acción Completar y Opción OK|
 
     Imagen 52. Acción Completar y Opción OK
 
-#. Podrá visualizar que el documento pasa de estado "**Borrador**" a estado "**Completo**", en el campo "**Estado del Documento**"
+ Podrá visualizar que el documento pasa de estado "**Borrador**" a estado "**Completo**", en el campo "**Estado del Documento**"
 
     |Estado del Documento Nota Contable|
 
@@ -238,13 +238,13 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 **Nota Contable**
 -----------------
 
-#. Seleccione la pestaña "**Nota Contable**" y proceda al llenado de los campos correspondientes para especificar una descripción para cada movimiento.
+ Seleccione la pestaña "**Nota Contable**" y proceda al llenado de los campos correspondientes para especificar una descripción para cada movimiento.
 
     |Pestaña Nota Contable de la Ventana Diario Contable|
 
     Imagen 17. Pestaña Nota Contable de la Ventana Diario Contable
 
-#. Introduzca una descripción clara en el campo "**Descripción**".
+ Introduzca una descripción clara en el campo "**Descripción**".
 
     La descripción es un campo obligatorio, que le ayudará a determinar en reportes detallados el motivo o justificación por el cual existe el asiento, es por ello que recomendamos definir una descripción clara y precisa de la nota contable, ya que la misma será mostrada en reportes de auditorias.
 
@@ -252,7 +252,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 18. Campo Descripción de la Pestaña Nota Contable de la Ventana Diario Contable
 
-#. Seleccione en el campo "**Tipo de Aplicación**", el tipo de aplicación correspondiente a la nota contable que está realizando.
+ Seleccione en el campo "**Tipo de Aplicación**", el tipo de aplicación correspondiente a la nota contable que está realizando.
 
     El tipo de aplicación es un campo obligatorio, le permite clasificar la nota contable por tipo de aplicación, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo, para profundizar más este tema vaya a el documento: :ref:`documento/tipo-de-aplicación`.
 
@@ -260,7 +260,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 19. Campo Tipo de Aplicación de la Pestaña Nota Contable de la Ventana Diario Contable
 
-#. Seleccione el tipo de documento en el campo "**Tipo de Documento**".
+ Seleccione el tipo de documento en el campo "**Tipo de Documento**".
 
     El tipo de documento es un campo obligatorio, le permite definir el comportamiento del documento que se está elaborando, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo, para profundizar más este tema vaya a el documento: **Tipo de Documento**.
 
@@ -268,7 +268,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 20. Campo Tipo de Documento de la Pestaña Nota Contable de la Ventana Diario Contable
 
-#. Seleccione la categoría de contabilidad en el campo "**Categoría Contabilidad**".
+ Seleccione la categoría de contabilidad en el campo "**Categoría Contabilidad**".
 
     La categoría de contabilidad es un campo obligatorio, sin embargo, le permite categorizar los registros para ser filtrados en reportes posteriormente, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.
 
@@ -276,7 +276,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 21. Campo Categoría Contabilidad de la Pestaña Nota Contable de la Ventana Diario Contable
 
-#. Seleccione la fecha en el campo "**F. Documento**".
+ Seleccione la fecha en el campo "**F. Documento**".
 
     La fecha de documento es un campo obligatorio, le permite filtrar por rango de fecha las notas contables realizadas, esta es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.
 
@@ -284,7 +284,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 22. Campo Fecha del Documento de la Pestaña Nota Contable de la Ventana Diario Contable
 
-#. Seleccione la fecha en el campo "**Fecha Contable**".
+ Seleccione la fecha en el campo "**Fecha Contable**".
 
     La fecha contable es un campo obligatorio, le permite establecer la fecha con la cual será contabilizada la nota contable, esta es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.
 
@@ -292,7 +292,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 23. Campo Fecha Contable de la Pestaña Nota Contable de la Ventana Diario Contable
 
-#. Seleccione un periodo contable en el campo "**Período**".
+ Seleccione un periodo contable en el campo "**Período**".
 
     El período es un campo obligatorio, le permite definir el periodo contable al que  pertenece la nota contable, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.
 
@@ -300,7 +300,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 24. Campo Período de la Pestaña Nota Contable de la Ventana Diario Contable
 
-#. Seleccione la moneda en el campo "**Moneda**".
+ Seleccione la moneda en el campo "**Moneda**".
 
     La moneda es un campo obligatorio, le permite definir la moneda con la cual se ejecuta la nota contable, recordemos que ADempiere maneja la metodología multi-moneda, de esta forma se podrá realizar lotes de asientos con una moneda diferente a la del esquema principal de la compañía.
 
@@ -310,7 +310,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 25. Campo Moneda de la Pestaña Nota Contable de la Ventana Diario Contable
 
-#. Introduzca un monto en el campo "**Cifra de Control**".
+ Introduzca un monto en el campo "**Cifra de Control**".
 
     La cifra control no es un campo obligatorio, sin embargo le permite validar que el monto total del débitos acumulados en las líneas de la nota sea igual a la cifra control, evitando que el documento sea completado, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.
 
@@ -318,7 +318,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 26. Campo Cifra de Control de la Pestaña Nota Contable de la Ventana Diario Contable
 
-#. Podrá visualizar el checklist "**Aprobado**".
+ Podrá visualizar el checklist "**Aprobado**".
 
     El check aprobado es un campo solo lectura, actualizado automáticamente si es activado un flujo de aprobación para este documento, de esta forma es obligatorio que el documento sea aprobado por un supervisor, este es establecido desde el valor seleccionado en la pestaña lote contable.
 
@@ -326,7 +326,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 27. Checklist Aprobado de la Pestaña Nota Contable de la Ventana Diario Contable
 
-#. Podrá visualizar el total de débito en el campo "**Total Débito**".
+ Podrá visualizar el total de débito en el campo "**Total Débito**".
 
     El total de débito es un campo solo lectura, actualizado automáticamente, acumulando el saldo deudor de las líneas que componen la nota contable.
 
@@ -334,7 +334,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 28. Campo Total Débito de la Pestaña Nota Contable de la Ventana Diario Contable
 
-#. Podrá visualizar en el campo "**Total Débito**", el total del débito correspondiente a la nota contable.
+ Podrá visualizar en el campo "**Total Débito**", el total del débito correspondiente a la nota contable.
 
     El total de crédito es un campo solo lectura, actualizado automáticamente, acumulando el saldo acreedor de las líneas que componen la nota contable.
 
@@ -349,13 +349,13 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 **Línea**
 ---------
 
-#. Seleccione la pestaña "**Línea**" y proceda al llenado de los campos correspondientes para definir cada uno de los movimientos.
+ Seleccione la pestaña "**Línea**" y proceda al llenado de los campos correspondientes para definir cada uno de los movimientos.
 
         |Pestaña Línea de la Ventana Diario Contable|
 
         Imagen 30. Pestaña Línea de la Ventana Diario Contable
 
-#. Introduzca una descripción clara en el campo "**Descripción**".
+ Introduzca una descripción clara en el campo "**Descripción**".
 
     La descripción es un campo obligatorio, le ayudará a determinar en reportes detallados el motivo o justificación por el cual se realiza el asiento.
 
@@ -363,7 +363,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 31. Campo Descripción de la Pestaña Línea de la Ventana Diario Contable
 
-#. Podrá visualizar el checklist "**Generado**".
+ Podrá visualizar el checklist "**Generado**".
 
     El checklist generado es un campo solo lectura, actualizado automáticamente si esta línea de la nota es generada posterior a la ejecución de un proceso de ADempiere.
 
@@ -371,7 +371,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 32. Checklist Generado de la Pestaña Línea de la Ventana Diario Contable
 
-#. Seleccione la moneda en el campo "**Moneda**".
+ Seleccione la moneda en el campo "**Moneda**".
 
     La moneda es un campo obligatorio, le permite definir la moneda con la cual se ejecuta el asiento, recordemos que ADempiere maneja la metodología multi-moneda, de esta forma se podrá realizar lotes de asientos con una moneda diferente a la del esquema principal de la compañía, esta es establecida inicialmente desde el valor seleccionado en la pestaña nota contable, y puede ser modificado si difiere del mismo.
 
@@ -379,7 +379,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 33. Campo Moneda de la Pestaña Línea de la Ventana Diario Contable
 
-#. Seleccione la cuenta en el campo "**Cuenta**".
+ Seleccione la cuenta en el campo "**Cuenta**".
 
     La cuenta es un campo obligatorio, le permite definir la cuenta contable en la cual abona o carga el saldo, recordando que una cuenta es utilizada para aplicar o un débito o un crédito a la vez.
 
@@ -395,7 +395,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
             Debe realizar este procedimiento por cada débito o crédito que desee aplicar a cada cuenta.
 
-#. Seleccione el socio de negocio en el campo "**Socio del Negocio**".
+ Seleccione el socio de negocio en el campo "**Socio del Negocio**".
 
     El socio de negocio no es un campo obligatorio, sin embargo, le permite definir un proveedor, cliente o cualquier otra entidad que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: :ref:`documento/dimensiones-contable`.
 
@@ -409,7 +409,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
             El socio de negocio debe estar registrado previamente en ADempiere.
 
-#. Seleccione en el campo "**Producto**", el producto correspondiente al registro que está realizando.
+ Seleccione en el campo "**Producto**", el producto correspondiente al registro que está realizando.
 
     El producto no es un campo obligatorio, sin embargo, le permite definir un producto o servicio que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: :ref:`documento/dimensiones-contable`.
 
@@ -423,7 +423,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
             El producto debe estar registrado previamente en ADempiere.
 
-#. Seleccione la actividad ABC en el campo "**Actividad**".
+ Seleccione la actividad ABC en el campo "**Actividad**".
 
     La actividad no es un campo obligatorio, sin embargo, le permite definir una actividad ABC que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: :ref:`documento/dimensiones-contable`.
 
@@ -437,7 +437,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
             La actividad ABC debe estar registrada previamente en ADempiere.
 
-#. Seleccione el centro de costo en el campo "**Centro de Costos**".
+ Seleccione el centro de costo en el campo "**Centro de Costos**".
 
     El centro de costo no es un campo obligatorio, sin embargo, le permite definir un centro de costo que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: :ref:`documento/dimensiones-contable`.
 
@@ -451,7 +451,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
             El centro de costo debe estar registrado previamente en ADempiere.
 
-#. Seleccione un alias de una combinación contable en el campo "**Alias**".
+ Seleccione un alias de una combinación contable en el campo "**Alias**".
 
     El alias no es un campo obligatorio, sin embargo, le permite seleccionar un alias asociado a una combinación contable, para establecer la combinación en el campo **combinación contable**, para profundizar más este tema vaya a el documento: :ref:`documento/combinación-contable`.
 
@@ -465,7 +465,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
             La combinación debe estar registrada previamente en ADempiere.
 
-#. Seleccione la combinación contable en el campo "**Combinación**".
+ Seleccione la combinación contable en el campo "**Combinación**".
 
     La combinación no es un campo obligatorio, sin embargo, le permite crear una nueva combinación contable o seleccionar una nueva, recordando que este campo es actualizado automáticamente, al establecer el campo **cuenta contable** o un **alias** explicados previamente, para profundizar más este tema vaya a el documento: :ref:`documento/combinación-contable`.
 
@@ -479,7 +479,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 40. Identificador del Campo Combinación de la Pestaña Línea de la Ventana Diario Contable
 
-#. Seleccione el checklist "**Relacionado Activo**", para indicar que el registro se encuentra relacionado a un activo.
+ Seleccione el checklist "**Relacionado Activo**", para indicar que el registro se encuentra relacionado a un activo.
 
     El checklist relacionado activo no es un campo obligatorio, sin embargo, le permite definir la relación del asiento realizado con un activo fijo o un grupo de activo, es decir este asiento altera el valor de su activo fijo mediante una depreciación o una revalorización quizás por un API.
 
@@ -489,7 +489,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
     Al seleccionar este checklist se activarán los siguientes campos para dar paso a que usted puede realizar la relación:
 
-#. Seleccione el activo fijo en el campo "**Activo Fijo**".
+ Seleccione el activo fijo en el campo "**Activo Fijo**".
 
     El activo fijo no es un campo obligatorio, sin embargo, le permite establecer el activo fijo al cual desea alterar su valorización.
 
@@ -497,7 +497,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 43. Campo Activo Fijo de la Pestaña Línea de la Ventana Diario Contable
 
-#. Seleccione el grupo de activo en el campo "**Grupo de Activos**".
+ Seleccione el grupo de activo en el campo "**Grupo de Activos**".
 
     El grupo de activo fijo no es un campo obligatorio, sin embargo, le permite establecer un grupo de activo fijo en caso de querer distribuir entre todos los activos relacionados a este grupo la depreciación o revalorización del asiento.
 
@@ -505,7 +505,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 44. Campo Grupo de Activos de la Pestaña Línea de la Ventana Diario Contable
 
-#. Ingrese el monto del débito en el campo "**Débito Fuente**".
+ Ingrese el monto del débito en el campo "**Débito Fuente**".
 
     El débito fuente es un campo obligatorio, establecido por defecto con monto **0**, sin embargo usted podrá modificarlo e ingresar el monto correspondiente al débito si el registro que efectúa corresponde a un cargo en la cuenta, de otro modo podrá omitir este campo y colocar el monto en el crédito.
 
@@ -515,7 +515,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 45. Campo Débito Fuente de la Pestaña Línea de la Ventana Diario Contable
 
-#. Ingrese el monto del crédito en el campo "**Crédito Fuente**".
+ Ingrese el monto del crédito en el campo "**Crédito Fuente**".
 
     El crédito fuente es un campo obligatorio, establecido por defecto con monto **0**, sin embargo usted podrá modificarlo e ingresar el monto correspondiente al crédito si el registro que efectúa corresponde a un abono en la cuenta, de otro modo podrá omitir este campo y colocar el monto en el débito.
 
@@ -525,7 +525,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 46. Campo Crédito Fuente de la Pestaña Línea de la Ventana Diario Contable
 
-#. Podrá visualizar el total de débito en el campo "**Débito Contabilizado**".
+ Podrá visualizar el total de débito en el campo "**Débito Contabilizado**".
 
     El débito contabilizado es un campo solo lectura, actualizado automáticamente, al establecer el monto del débito fuente, este monto es acumulado en el campo -**total débitos** en la pestaña nota contable.
 
@@ -533,7 +533,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 47. Campo Débito Contabilizado de la Pestaña Línea de la Ventana Diario Contable
 
-#. Podrá visualizar el total de crédito en el campo "**Crédito Contabilizado**".
+ Podrá visualizar el total de crédito en el campo "**Crédito Contabilizado**".
 
     El crédito contabilizado es un campo solo lectura, actualizado automáticamente, al establecer el monto del crédito fuente, este monto es acumulado en el campo -**total créditos** en la pestaña nota contable.
 
@@ -541,7 +541,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 48. Campo Crédito Contabilizado de la Pestaña Línea de la Ventana Diario Contable
 
-#. Seleccione la unidad de medida en el campo "**UM**".
+ Seleccione la unidad de medida en el campo "**UM**".
 
     La unidad  de medida no es un campo obligatorio, sin embargo es utilizada para contabilizar cuentas de orden, utilizadas para registrar transacciones y valores contingentes que sirven para controlar los resultados de ciertas operaciones, estas cuentas no afectarán su balance, para comprenderlo mejor veamos el siguiente ejemplo:
 
@@ -553,7 +553,7 @@ Pasos posterior al registro de la **Nota Contable** y **Linea**
 
         Imagen 49. Campo UM de la Pestaña Línea de la Ventana Diario Contable
 
-#. Ingrese la cantidad en el campo "**Cantidad**".
+ Ingrese la cantidad en el campo "**Cantidad**".
 
     La cantidad no es un campo obligatorio, sin embargo es utilizada para ingresar la cantidad cuentas de orden, utilizadas para registrar transacciones y valores contingentes que sirven para controlar los resultados de ciertas operaciones.
 

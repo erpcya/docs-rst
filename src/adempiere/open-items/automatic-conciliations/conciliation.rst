@@ -39,37 +39,37 @@
 
 Para poder crear una conciliación automática en ADempiere debe seguir los siguientes pasos:
 
-#. Ubique en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**" y luego seleccione la ventana "**Estado de Cuenta Bancario**".
+ Ubique en el menú de ADempiere la carpeta "**Gestión de Saldos Pendientes**" y luego seleccione la ventana "**Estado de Cuenta Bancario**".
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
+ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.
 
     |Icono de Registro Nuevo|
 
     Imagen 2. Icono de Registro Nuevo
 
-#. Seleccione en el campo "**Organización**", la organización para la cual se está realizando el documento de estado de cuenta bancario, el valor en el mismo debe ser diferente del símbolo (\*).
+ Seleccione en el campo "**Organización**", la organización para la cual se está realizando el documento de estado de cuenta bancario, el valor en el mismo debe ser diferente del símbolo (\*).
 
     |Campo Organización|
 
     Imagen 3. Campo Organización
 
-#. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_.
+ Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_.
 
     |Campo Tipo de Documento|
 
     Imagen 4. Campo Tipo de Documento
 
-#. Seleccione en el campo "**Cuenta Bancaria**", el banco con el que va a trabajar la conciliación.
+ Seleccione en el campo "**Cuenta Bancaria**", el banco con el que va a trabajar la conciliación.
 
     |Campo Cuenta Bancaria|
 
     Imagen 5. Campo Cuenta Bancaria
 
-#. Seleccione el icono "**Guardar**" en la barra de herramientas de ADempiere para guardar los cambios realizados en el documento.
+ Seleccione el icono "**Guardar**" en la barra de herramientas de ADempiere para guardar los cambios realizados en el documento.
 
     |Icono Guardar Cambios|
 
@@ -84,55 +84,55 @@ Para poder crear una conciliación automática en ADempiere debe seguir los sigu
 
 Para que ADempiere pueda conciliar y verificar los pagos/cobros en una cuenta bancaria y los registrados pagos/cobros en ADempiere, se debe importar el extracto bancario generado del banco para ello se deben seguir los siguientes pasos.
 
-#. Ya estando posicionados en la ventana "**Estado de Cuenta Bancario**" seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
+ Ya estando posicionados en la ventana "**Estado de Cuenta Bancario**" seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
 
     |Icono Proceso|
 
     Imagen 7. Icono Proceso
 
-#. Seleccione la opción "**Carga de Estado de Cuentas**" en el menú desplegado por el icono "**Proceso**".
+ Seleccione la opción "**Carga de Estado de Cuentas**" en el menú desplegado por el icono "**Proceso**".
 
     |Opción Carga de Estado de Cuentas del Icono Proceso|
     
     Imagen 8. Opción Proceso
 
-#. Podrá apreciar la siguiente ventana y proceder al llenado de los campos correspondientes para cargar el extracto bancario.
+ Podrá apreciar la siguiente ventana y proceder al llenado de los campos correspondientes para cargar el extracto bancario.
 
     |Ventana Extracto Bancario|
     
     Imagen 9. Ventana Extracto Bancario
 
-#. Seleccione en el campo "**Cargador de Estado de Cuenta**", el banco seleccionado en el campo "**Cuenta Bancaria**" de la ventana principal "**Estado de Cuentas Bancario**".
+ Seleccione en el campo "**Cargador de Estado de Cuenta**", el banco seleccionado en el campo "**Cuenta Bancaria**" de la ventana principal "**Estado de Cuentas Bancario**".
 
     |Campo Cargador de Estado de Cuenta|
     
     Imagen 10. Campo Cargador de Estado de Cuenta
 
-#. Seleccione en el campo "**Nombre del Archivo**" el estado de cuenta bancario a importar, correspondiente al banco seleccionado.
+ Seleccione en el campo "**Nombre del Archivo**" el estado de cuenta bancario a importar, correspondiente al banco seleccionado.
 
     |Campo Nombre del Archivo|
     
     Imagen 11. Campo Nombre del Archivo
 
-#. Seleccione la opción "**Seleccionar Archivo**", para buscar el archivo a importar.
+ Seleccione la opción "**Seleccionar Archivo**", para buscar el archivo a importar.
 
     |Opción Seleccionar Archivo|
     
     Imagen 12. Opción Seleccionar Archivo
 
-#. Seleccione la opción "**Cargar Archivo (Upload)**", para cargar el archivo seleccionado.
+ Seleccione la opción "**Cargar Archivo (Upload)**", para cargar el archivo seleccionado.
 
     |Opción Cargar Archivo|
     
     Imagen 13. Opción Cargar Archivo
 
-#. Seleccione la opción "**OK**", para importar el archivo a ADempiere.
+ Seleccione la opción "**OK**", para importar el archivo a ADempiere.
 
     |Opción OK|
     
     Imagen 14. Opción OK
 
-#. Podrá visualizar en la ventana un mensaje el cual indica la importación exitosa en ADempiere del extracto bancario y la cantidad de movimientos que posee el extracto bancario, para este caso como ejemplo está indicando que tiene 598 movimientos el extracto bancario.
+ Podrá visualizar en la ventana un mensaje el cual indica la importación exitosa en ADempiere del extracto bancario y la cantidad de movimientos que posee el extracto bancario, para este caso como ejemplo está indicando que tiene 598 movimientos el extracto bancario.
 
     |Estado de Cuenta|
     
@@ -147,19 +147,19 @@ Para que ADempiere pueda conciliar y verificar los pagos/cobros en una cuenta ba
 
 Una vez seleccionado el banco con el que se realizará la conciliación bancaria e importado el extracto bancario se procede a realizar la conciliación automática:
 
-#. Estando posicionados en la ventana **"Estado de Cuenta bancario"** Seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
+ Estando posicionados en la ventana **"Estado de Cuenta bancario"** Seleccione el icono "**Proceso**" en la barra de herramientas de ADempiere.
 
     |Icono Proceso de la Ventana Estado de Cuenta Bancario|
     
     Imagen 16. Icono Proceso
 
-#. Seleccione la opción "**Conciliación de Estado de Cuenta**" en el menú que es desplegado por el icono "**Proceso**".
+ Seleccione la opción "**Conciliación de Estado de Cuenta**" en el menú que es desplegado por el icono "**Proceso**".
 
     |Opción Conciliación de Estado de Cuenta del Icono Proceso|
     
     Imagen 17. Menú Proceso
 
-#. Se le desplegará una ventana de búsqueda inteligente con campos por los cuales se filtrará la búsqueda para realizar la conciliación.
+ Se le desplegará una ventana de búsqueda inteligente con campos por los cuales se filtrará la búsqueda para realizar la conciliación.
 
     |Ventana de Búsqueda Inteligente para Conciliación|
     
@@ -169,25 +169,25 @@ Una vez seleccionado el banco con el que se realizará la conciliación bancaria
 
         Puede observar que la ventana de búsqueda inteligente trae precargado el campo "**Cuenta Bancaria**" con la información del banco seleccionado en la ventana principal "**Estado de Cuentas Bancario**". Los otros campos reflejados en esta ventana serán utilizados acorde al criterio de búsqueda que se requiera.
 
-#. Una vez definido el criterio de búsqueda, seleccione la opción "**Refrescar**" para que se muestre la información del estado de cuenta bancario importado y los pagos/cobros realizados en ADempiere.
+ Una vez definido el criterio de búsqueda, seleccione la opción "**Refrescar**" para que se muestre la información del estado de cuenta bancario importado y los pagos/cobros realizados en ADempiere.
 
     |Opción Refrescar de la Ventana de Búsqueda Inteligente para Conciliación|
     
     Imagen 19. Opción Refrescar
 
-#. Podrá apreciar los movimientos del estado de cuenta del lado izquierdo de la venta de busqueda inteligente.
+ Podrá apreciar los movimientos del estado de cuenta del lado izquierdo de la venta de busqueda inteligente.
 
     |Movimientos de Estado de Cuenta Importados del Lado Izquierdo|
     
     Imagen 20. Movimientos Importados
 
-#. Podrá apreciar del lado derecho de la ventana de búsqueda inteligente los movimientos registrados en ADempiere.
+ Podrá apreciar del lado derecho de la ventana de búsqueda inteligente los movimientos registrados en ADempiere.
 
     |Movimientos de ADempiere del Lado Derecho|
     
     Imagen 21. Movimientos de ADempiere
 
-#. Seleccione la opción "**Simular Conciliación**" para buscar coincidencia entre la información reflejada en ambos lados de la ventana de búsqueda inteligente.
+ Seleccione la opción "**Simular Conciliación**" para buscar coincidencia entre la información reflejada en ambos lados de la ventana de búsqueda inteligente.
 
     |Opción Simular Conciliación|
     
@@ -197,7 +197,7 @@ Una vez seleccionado el banco con el que se realizará la conciliación bancaria
 
         La simulación de conciliación consiste en verificar las coincidencias  que tenga los pagos/cobros del extracto bancario con los registrados en ADempiere, está verificación parte en identificar qué los números de referencia de la transacciones bancarias coinciden con el número de documento del registro en ADempiere, qué ambos montos sean iguales y qué estén trabajando con la misma moneda , sí ambos movimientos (los del extracto bancario y los de ADempiere) coinciden en su totalidad con estas tres características "N° referencias / N° Documento , monto /monto, moneda/moneda" ADempiere identificara y lo marcará como una  coincidencia.
 
-#. Podrá apreciar los movimientos con coincidencia en la parte inferior de la ventana de búsqueda inteligente.
+ Podrá apreciar los movimientos con coincidencia en la parte inferior de la ventana de búsqueda inteligente.
 
     |Movimientos con Coincidencia|
     
@@ -207,7 +207,7 @@ Una vez seleccionado el banco con el que se realizará la conciliación bancaria
 
         Si existe coincidencia entre los pagos/cobros y el extracto bancario se le mostrarán los movimientos con coincidencias, de lo contrario no se le mostrará ningún movimiento con coincidencia.
 
-#. Seleccione la opción "**OK**" para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de búsqueda inteligente. Automáticamente se importan en la pestaña "**Línea Estado Cuentas**", todos movimientos del extracto bancario los que han sido identificados y los que no tengan registro en ADempiere.
+ Seleccione la opción "**OK**" para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de búsqueda inteligente. Automáticamente se importan en la pestaña "**Línea Estado Cuentas**", todos movimientos del extracto bancario los que han sido identificados y los que no tengan registro en ADempiere.
 
     |Opción OK para Guardar Coincidencias|
     
@@ -217,7 +217,7 @@ Una vez seleccionado el banco con el que se realizará la conciliación bancaria
 
     El extracto bancario puede poseer algunos registros que no han sido cargados en ADempiere, estos pueden ser cobros no identificados, comisiones bancarias entre otros, los cuales no van ser identificados al momento de hacer la simulación, sin embargo para estos pagos/cobros no conciliados se aplicará un proceso que se detalla en el documento :ref:`documento/crear-pagos-desde-estado-de-cuenta`.
 
-#. Al seleccionar "**Ok**" ADempiere lo llevará nuevamente a la ventana principal "**Estado de Cuenta Bancario**".
+ Al seleccionar "**Ok**" ADempiere lo llevará nuevamente a la ventana principal "**Estado de Cuenta Bancario**".
 
 **Coincidencia Bancarias**
 --------------------------
@@ -413,13 +413,13 @@ Al momento de realizar la conciliación bancaria ADempiere maneja una serie veri
 
 Una vez aplicado el proceso de conciliación automática, se debe verificar que tanto los pagos/cobros que coincidieron como los que no coincidieron se carguen correctamente dentro del registro de la conciliación bancaria en la que se este trabajando, para ello debe seguir los siguientes paso:
 
-#. Seleccione la pestaña "**Línea Estado Cuentas**" para verificar que se encuentren los registros de todos los movimientos del estado de cuenta bancario cargado desde la ventana de búsqueda inteligente.
+ Seleccione la pestaña "**Línea Estado Cuentas**" para verificar que se encuentren los registros de todos los movimientos del estado de cuenta bancario cargado desde la ventana de búsqueda inteligente.
 
     |Pestaña Línea Estado Cuentas|
     
     Imagen 25. Pestaña Línea Estado Cuentas
 
-#. Podrá apreciar en la parte inferior derecha del documento, la cantidad de movimientos cargados a la pestaña "**Línea Estado Cuentas**", estos deben coincidir con la cantidad de movimientos que se refleja al momento de hacer la _importación del extracto bancario
+ Podrá apreciar en la parte inferior derecha del documento, la cantidad de movimientos cargados a la pestaña "**Línea Estado Cuentas**", estos deben coincidir con la cantidad de movimientos que se refleja al momento de hacer la _importación del extracto bancario
 
     |Cantidad de Movimientos Cargados a la Pestaña Línea Estado Cuentas|
     
@@ -436,7 +436,7 @@ Si al realizar la conciliación existen movimientos sin registros en ADempiere, 
 
 En el caso de que existan movimientos con registros en ADempiere pero sin documentos de pagos/cobros asociados en la línea, se debe seleccionar de la siguiente manera el documento "**Pago/Cobro**".
 
-#. Ubique el registro de la línea sin documento "**Pagos/Cobros**" asociado y seleccione el documento con ayuda del identificador del campo "**Pago**".
+ Ubique el registro de la línea sin documento "**Pagos/Cobros**" asociado y seleccione el documento con ayuda del identificador del campo "**Pago**".
 
     |Registro del Movimiento en la Pestaña Línea Estado Cuentas|
     
@@ -446,19 +446,19 @@ En el caso de que existan movimientos con registros en ADempiere pero sin docume
 
         Este proceso es realizado cuando no coinciden los números de referencia del movimiento y del documento "**Pago/Cobro**". Sin embargo, existe el conocimiento de que dicho movimiento pertenece un documento determinado ya que existe una coincidencia en el monto, el socio del negocio y el banco.
 
-#. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere, para guardar los cambios realizados.
+ Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere, para guardar los cambios realizados.
 
     |Icono Guardar Cambios del Movimiento en la Pestaña Línea Estado Cuentas|
     
     Imagen 28. Icono Guardar Cambios del Movimiento en la Pestaña Línea Estado Cuentas
 
-#. Regrese a la ventana principal "**Estado Cuentas Bancario**" y seleccione la opción "**Completar**".
+ Regrese a la ventana principal "**Estado Cuentas Bancario**" y seleccione la opción "**Completar**".
 
     |Pestaña Principal Estado Cuentas Bancario|
     
     Imagen 29. Pestaña Principal Estado Cuentas Bancario y Opción Completar
 
-#. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
+ Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento.
 
     |Acción Completar Conciliación y Opción OK|
     

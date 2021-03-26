@@ -117,7 +117,7 @@ Entre las deducciones que se pueden visualizar en el reporte de nómina regular 
 
 Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
 
-#. Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina.
+ Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina.
 
     Entre los datos personales que usted puede visualizar en el encabezado de su recibo de pago de la nómina regular se encuentran los siguientes:
 
@@ -186,7 +186,7 @@ Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
 
     Imagen 1. Recibo de Pago
 
-#. Detalle de Pago: Seleccione esta plantilla de reporte de nómina regular si desea conocer de manera detallada todos los montos de nómina de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos del totales de las nóminas procesadas a todos los empleados.
+ Detalle de Pago: Seleccione esta plantilla de reporte de nómina regular si desea conocer de manera detallada todos los montos de nómina de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos del totales de las nóminas procesadas a todos los empleados.
 
     Los campos podrá visualizar en este reporte son:
 
@@ -229,7 +229,7 @@ Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
 
     Imagen 3. Detalle de Pago. Diferentes nóminas procesadas al mismo empleado.
 
-#. Resumen de Pago:  Seleccione esta plantilla de reporte de nómina para conocer de manera resumida las asignaciones y deducciones agrupadas en todas en un  mismo reporte omitiendo algunos detalle que usted pudiera encontrar en la plantilla Detalle de Pago. Esta plantilla le presentará por cada uno de los concepto un monto total por cada empleado:
+ Resumen de Pago:  Seleccione esta plantilla de reporte de nómina para conocer de manera resumida las asignaciones y deducciones agrupadas en todas en un  mismo reporte omitiendo algunos detalle que usted pudiera encontrar en la plantilla Detalle de Pago. Esta plantilla le presentará por cada uno de los concepto un monto total por cada empleado:
 
     Los campos podrá visualizar en este reporte son:
 
