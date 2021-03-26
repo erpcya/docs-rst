@@ -25,13 +25,13 @@
 **Ventana Grupo de Activos Fijos**
 ----------------------------------
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Activos**", luego seleccione la ventana "**Grupo de Activo Fijo**". 
+- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Activos**", luego seleccione la ventana "**Grupo de Activo Fijo**". 
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Grupo de Activo**", con el registro de los grupos de activos que la empresa posee en ADempiere. 
+- Podrá visualizar la ventana "**Grupo de Activo**", con el registro de los grupos de activos que la empresa posee en ADempiere. 
 
     |Ventana Principal Grupo de Activo|
 
@@ -40,43 +40,43 @@
 **Registro Nuevo de Grupo de Activo**
 -------------------------------------
 
-#. Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere.
+- Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere.
 
     |Icono Registro Nuevo|
 
     Imagen 3. Icono Registro Nuevo
 
-#. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el registro de grupo de activo fijo.
+- Seleccione en el campo "**Organización**", la organización para la cual esta realizando el registro de grupo de activo fijo.
 
     |Campo Organización|
 
     Imagen 4. Campo Organización
 
-#. Introduzca en el campo "**Nombre**", el nombre correspondiente al grupo de activo fijo que esta registrando. Para ejemplificar el registro es utilizado el grupo de activo fijo "**Mobiliario**".
+- Introduzca en el campo "**Nombre**", el nombre correspondiente al grupo de activo fijo que esta registrando. Para ejemplificar el registro es utilizado el grupo de activo fijo "**Mobiliario**".
 
     |Campo Nombre|
 
     Imagen 5. Campo Nombre
 
-#. Introduzca en el campo "**Descripción**", una breve descripción referente al grupo de activo fijo que esta registrando.
+- Introduzca en el campo "**Descripción**", una breve descripción referente al grupo de activo fijo que esta registrando.
 
     |Campo Descripción|
 
     Imagen 6. Campo Descripción
 
-#. Tilde el checklist "**Propio**", si el grupo de activo fijo que esta registrando pertenece a la organización seleccionada.
+- Tilde el checklist "**Propio**", si el grupo de activo fijo que esta registrando pertenece a la organización seleccionada.
 
     |Checklist Propio|
 
     Imagen 7. Checklist Propio
 
-#. Tilde el checklist "**Depreciar**" para que ADempiere realice la depreciación del grupo de activos fijos que esta registrando.
+- Tilde el checklist "**Depreciar**" para que ADempiere realice la depreciación del grupo de activos fijos que esta registrando.
 
     |Checklist Depreciar|
 
     Imagen 8. Checklist Depreciar
 
-#. Para guardar el registro de los campos, seleccione el icono "**Guardar Cambios** "ubicado en la barra de herramientas de ADempiere.
+- Para guardar el registro de los campos, seleccione el icono "**Guardar Cambios** "ubicado en la barra de herramientas de ADempiere.
 
     |Icono Guardar Cambios|
 
@@ -85,13 +85,13 @@
 **Pestaña Grupo Cuenta**
 ************************
 
-#. Seleccione la pestaña "**Grupo Cuenta**" y proceda al llenado de los campos correspondientes.
+- Seleccione la pestaña "**Grupo Cuenta**" y proceda al llenado de los campos correspondientes.
 
     |Pestaña Grupo Cuenta|
 
     Imagen 10. Grupo Cuenta
 
-#. Seleccione en el campo "**Organización**", la organización para la cual esta realizando la configuración contable del grupo de activo fijo.
+- Seleccione en el campo "**Organización**", la organización para la cual esta realizando la configuración contable del grupo de activo fijo.
 
     |Campo Organización de la Pestaña|
 
@@ -107,31 +107,31 @@
 
                 - Configuración contable del grupo "**Mobiliario**", con organización Org1.
 
-#. Seleccione en el campo "**Esquema Contable**", el esquema a utilizar para la configuración contable del grupo activo.
+- Seleccione en el campo "**Esquema Contable**", el esquema a utilizar para la configuración contable del grupo activo.
 
     |Campo Esquema Contable|
 
     Imagen 12. Esquema Contable
 
-#. Seleccione en el campo "**Tipo de Aplicación**", el tipo de presupuesto o gravamen del grupo de activo fijo.
+- Seleccione en el campo "**Tipo de Aplicación**", el tipo de presupuesto o gravamen del grupo de activo fijo.
 
     |Campo Tipo de Aplicación|
 
     Imagen 13. Campo Tipo de Aplicación
 
-#. Seleccione en el campo "**Tipo de Depreciación**", 
+- Seleccione en el campo "**Tipo de Depreciación**", 
 
     |Campo Tipo de Depreciación|
 
     Imagen 14. Campo Tipo de Depreciación
 
-#. Seleccione en el campo "**Depreciación (Fiscal)**", 
+- Seleccione en el campo "**Depreciación (Fiscal)**", 
 
     |Campo Depreciación (Fiscal)|
 
     Imagen 15. Campo Depreciación (Fiscal)
 
-#. Introduzca en el campo "**Vida Útil - Años**", la cantidad de años de vida útil del grupo de activos fijos que esta registrando.
+- Introduzca en el campo "**Vida Útil - Años**", la cantidad de años de vida útil del grupo de activos fijos que esta registrando.
 
     |Campo Vida Útil - Años|
 
@@ -141,31 +141,31 @@
 
         Al ingresar un valor en el campo "**Vida Útil - Años**", ADempiere refleja en los campos "**Vida Útil - Años (Fiscal)**", "**Vida Útil - Meses**" y "**Vida Útil - Meses (Fiscal)**", el equivalente al campo correspondiente.
 
-#. Seleccione en el campo "**Cuenta Costo Activo**", 
+- Seleccione en el campo "**Cuenta Costo Activo**", 
 
     |Campo Cuenta Costo Activo|
 
     Imagen 17. Campo Cuenta Costo Activo
 
-#. Seleccione en el campo "**Depreciación Acumulada**", 
+- Seleccione en el campo "**Depreciación Acumulada**", 
 
     |Campo Depreciación Acumulada|
 
     Imagen 18. Campo Depreciación Acumulada
     
-#. Seleccione en el campo "**Cuenta Gastos Depreciación**", 
+- Seleccione en el campo "**Cuenta Gastos Depreciación**", 
 
     |Campo Cuenta Gastos Depreciación|
 
     Imagen 19. Campo Cuenta Gastos Depreciación
 
-#. Seleccione en el campo "**Ingresos por Disposición**", 
+- Seleccione en el campo "**Ingresos por Disposición**", 
 
     |Campo Ingresos por Disposición|
     
     Imagen 20. Campo Ingresos por Disposición
 
-#. Seleccione en el campo "**Perdidas por Disposición**",
+- Seleccione en el campo "**Perdidas por Disposición**",
 
     |Campo Perdidas por Disposición|
 

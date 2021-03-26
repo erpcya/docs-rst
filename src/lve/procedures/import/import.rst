@@ -40,13 +40,13 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 **Crear Orden de Compra de Importación**
 ****************************************
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Órdenes de Compra**".
+- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Órdenes de Compra**".
 
     |Menú de ADempiere 1|
 
     Imagen 1. Menú de ADempiere
 
-#. Realice el procedimiento regular para realizar una orden de compra, explicado en el material :ref:`documento/orden-de-compra`.
+- Realice el procedimiento regular para realizar una orden de compra, explicado en el material :ref:`documento/orden-de-compra`.
 
     |Orden de Compra sin Completar|
 
@@ -59,7 +59,7 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 **Crear Tipo de Conversión**
 ****************************
 
-#. Realice el procedimiento regular para crear el tipo de conversión necesaria, dicho procedimiento se encuentra explicado en el documento :ref:`paso/crear-conversión`, elaborado por `ERPyA`_.
+- Realice el procedimiento regular para crear el tipo de conversión necesaria, dicho procedimiento se encuentra explicado en el documento :ref:`paso/crear-conversión`, elaborado por `ERPyA`_.
 
     |Campo Nombre|
 
@@ -68,7 +68,7 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 **Crear Tasa de Conversión**
 ****************************
 
-#. Realice el procedimiento regular para crear la tasa de conversión necesaria, dicho procedimiento se encuentra explicado en el documento :ref:`paso/crear-tasa-desde-ventana-moneda`, elaborado por `ERPyA`_.
+- Realice el procedimiento regular para crear la tasa de conversión necesaria, dicho procedimiento se encuentra explicado en el documento :ref:`paso/crear-tasa-desde-ventana-moneda`, elaborado por `ERPyA`_.
 
     |Campo Factor de Base a Destino|
 
@@ -79,13 +79,13 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 **Asignar Tipo de Conversión a Orden de Compra de Importación**
 ***************************************************************
 
-#. Regrese a la ventana "**Órdenes de Compra**" y ubique la orden de compra que se encuentra en estado "**Borrador**", creada anteriormente.
+- Regrese a la ventana "**Órdenes de Compra**" y ubique la orden de compra que se encuentra en estado "**Borrador**", creada anteriormente.
 
     |Orden de Compra sin Completar|
 
     Imagen 5. Orden de Compra Importación sin Completar
 
-#. Seleccione en el campo "**Tipo de Conversión**" el tipo de conversión creado. Para ejemplificar el registro es utilizado el tipo de conversión "**OCI-1000024_Estandar 1**", creado anteriormente.
+- Seleccione en el campo "**Tipo de Conversión**" el tipo de conversión creado. Para ejemplificar el registro es utilizado el tipo de conversión "**OCI-1000024_Estandar 1**", creado anteriormente.
 
     |Campo Tipo de Conversión 2|
 
@@ -95,19 +95,19 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 
         Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
-#. Seleccione la opción "**Completar**", ubicada en la parte inferior derecha del documento.
+- Seleccione la opción "**Completar**", ubicada en la parte inferior derecha del documento.
 
     |Opción Completar 1|
 
     Imagen 7. Opción Completar Documento
 
-#. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Orden de Compra**".
+- Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Orden de Compra**".
 
         |Acción Completar|
 
         Imagen 8. Acción Completar
 
-#. Podrá visualizar en la parte inferior de la orden de compra, el campo en estado "**Completo**" y el resultado de la conversión configurada anteriormente.
+- Podrá visualizar en la parte inferior de la orden de compra, el campo en estado "**Completo**" y el resultado de la conversión configurada anteriormente.
 
     |Orden de Compra Completa|
 
@@ -118,13 +118,13 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 **Crear Documento por Pagar**
 *****************************
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
+- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**" y luego seleccione la ventana "**Documentos por Pagar**".
 
     |Menú de ADempiere 4|
 
     Imagen 10 Menú de ADempiere
 
-#. Realice el procedimiento regular para realizar un documento por pagar, explicado en el material :ref:`documento/documento-por-pagar`.
+- Realice el procedimiento regular para realizar un documento por pagar, explicado en el material :ref:`documento/documento-por-pagar`.
 
     |Factura de Importación|
 
@@ -135,31 +135,31 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 **Cancelación de Factura**
 **************************
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
+- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
 
     |Menú de ADempiere 5|
 
     Imagen 12. Menú de ADempiere
 
-    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Caja**".
+    - Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Caja**".
 
         |Campo Organización 1|
 
         Imagen 13. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Pago Internacional**".
+    - Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Pago Internacional**".
 
         |Campo Tipo de Documento|
 
         Imagen 14. Campo Tipo de Documento
 
-    #. Seleccione en el campo "**Cuenta Bancaria**", la caja correspondiente al registro que esta realizando. Para ejemplificar el registro es utilizada la opción "**Caja Importación - --_PAGO USD**".
+    - Seleccione en el campo "**Cuenta Bancaria**", la caja correspondiente al registro que esta realizando. Para ejemplificar el registro es utilizada la opción "**Caja Importación - --_PAGO USD**".
 
         |Campo Cuenta Bancaria|
 
         Imagen 15. Campo Cuenta Bancaria
 
-    #. Seleccione en el campo "**Factura**", la factura de cuenta por pagar correspondiente a la importacipón que esta realizando. Para ejemplificar el registro es utilizada la factura "**1000024**".
+    - Seleccione en el campo "**Factura**", la factura de cuenta por pagar correspondiente a la importacipón que esta realizando. Para ejemplificar el registro es utilizada la factura "**1000024**".
 
         |Campo Factura|
 
@@ -169,13 +169,13 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 
             Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
     
-    #. Seleccione la opción "**Completar**" ubicada en la parte inferior del documento.
+    - Seleccione la opción "**Completar**" ubicada en la parte inferior del documento.
 
         |Opción Completar 2|
 
         Imagen 17. Opción Completar
 
-        #. Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Orden de Compra**".
+        - Seleccione la acción "**Completar**" y la opción "**OK**" para completar el documento "**Orden de Compra**".
 
             |Acción Completar|
 
@@ -186,55 +186,55 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 **Conciliación de Pagos**
 *************************
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
+- Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Cierre de Caja**".
 
     |Menú de ADempiere 6|
 
     Imagen 19. Menú de ADempiere
 
-    #. Seleccione el icono "**Registro Nuevo**" ubicado en la barra de herramientas de ADempiere, para realizar un nuevo registro del documento "**Cierre de Caja**".
+    - Seleccione el icono "**Registro Nuevo**" ubicado en la barra de herramientas de ADempiere, para realizar un nuevo registro del documento "**Cierre de Caja**".
 
         |Icono Registro Nuevo 3|
 
         Imagen 20. Icono Registro Nuevo 
 
-    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Cierre de Caja**".
+    - Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Cierre de Caja**".
 
         |Campo Organización 2|
 
         Imagen 21. Campo Organización
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Cierre de Caja**".
+    - Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Cierre de Caja**".
 
         |Campo Tipo de Documento 2|
 
         Imagen 22. Campo Tipo de Documento
 
-    #. Seleccione en el campo "**Cuenta Bancaria**", la misma caja seleccionada en el documento "**Caja**" creado. Para ejemplificar el registro es utilizada la opción "**Caja Importación - --_PAGO USD**".
+    - Seleccione en el campo "**Cuenta Bancaria**", la misma caja seleccionada en el documento "**Caja**" creado. Para ejemplificar el registro es utilizada la opción "**Caja Importación - --_PAGO USD**".
 
         |Campo Cuenta Bancaria 2|
 
         Imagen 23. Campo Cuenta Bancaria
 
-    #. Seleccione el proceso "**Crear a Partir de Pagos**" para crear el cierre de caja a partir de los pagos.
+    - Seleccione el proceso "**Crear a Partir de Pagos**" para crear el cierre de caja a partir de los pagos.
 
         |Opción Crear Desde|
 
         Imagen 24. Proceso Crear a Partir de Pagos
 
-        #. Podrá visualizar la ventana "**Crear extracto bancario a partir de pagos**", con los campos necesarios para filtrar la búsqueda.
+        - Podrá visualizar la ventana "**Crear extracto bancario a partir de pagos**", con los campos necesarios para filtrar la búsqueda.
 
             |Ventana del Proceso Crear Desde|
 
             Imagen 25. Ventana del Proceso Crear a Partir de Pagos
 
-        #. Seleccione la opción "**Comenzar Búsqueda**" para buscar los documentos creados al socio del negocio intermediario.
+        - Seleccione la opción "**Comenzar Búsqueda**" para buscar los documentos creados al socio del negocio intermediario.
 
             |Opción Comenzar Búsqueda|
 
             Imagen 26. Opción Comenzar Búsqueda
 
-        #. Seleccione el pago con monto en negativo creado anteriormente desde el documento "**Caja**" y la opción "**OK**" para cargar la información a la ventana "**Cierre de Caja**".
+        - Seleccione el pago con monto en negativo creado anteriormente desde el documento "**Caja**" y la opción "**OK**" para cargar la información a la ventana "**Cierre de Caja**".
 
             |Seleccionar Pagos 1|
 
@@ -244,13 +244,13 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
 
                 Recuerde seleccionar el icono "**Refrescar**" en la barra de herramientas de ADempiere, para refrescar el registro en la ventana "**Cierre de Caja**".
 
-        #. Seleccione la opción "**Completar**", para completar el documento "**Cierre de Caja**".
+        - Seleccione la opción "**Completar**", para completar el documento "**Cierre de Caja**".
 
             |Opción Completar 3|
 
             Imagen 28. Opción Completar
 
-        #. Seleccione la acción "**Completar**" y la opción "**Ok**" para completar el documento "**Caja**".
+        - Seleccione la acción "**Completar**" y la opción "**Ok**" para completar el documento "**Caja**".
 
             |Acción Completar|
 

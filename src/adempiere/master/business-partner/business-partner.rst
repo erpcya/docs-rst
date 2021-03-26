@@ -43,7 +43,7 @@
 **Registro de Socio del Negocio**
 =================================
 
-#. En el menú de ADempiere, ubique y seleccione la carpeta "**Relación con Socio del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**" y finalmente seleccione la ventana "**Socio del Negocio**".
+- En el menú de ADempiere, ubique y seleccione la carpeta "**Relación con Socio del Negocio**", luego seleccione la carpeta "**Reglas de Socios del Negocio**" y finalmente seleccione la ventana "**Socio del Negocio**".
 
     |Menú de ADempiere|
 
@@ -51,15 +51,15 @@
 
     En esta ventana se registran los datos principales que la empresa requiere del socio del negocio cliente. Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
 
-#. A continuación visualizará la ventana "**Socio del Negocio**", dónde debe seleccionar el icono de "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere.
+- A continuación visualizará la ventana "**Socio del Negocio**", dónde debe seleccionar el icono de "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere.
 
     |Ventana Principal Socio del Negocio|
 
     Imagen 2. Ventana Principal Socio del Negocio
 
-#. Proceda al llenado de los campos necesarios que a continuación se detallan.
+- Proceda al llenado de los campos necesarios que a continuación se detallan.
 
-#. Seleccione la organización en el campo "**Organización**".
+- Seleccione la organización en el campo "**Organización**".
 
     La organización le permite definir la entidad legal ó una sub-unidad a la cual pertenece el socio de negocio, si la organización es (*), este estará disponible para todas las organizaciones al procesar documentos y transacciones, pero si por el contrario, ha seleccionado una organización diferente, este registro únicamente estará disponible para la organización seleccionada.
 
@@ -71,7 +71,7 @@
 
         Generalmente los **Socios de Negocios** son registros compartidos entre entidades organizacionales, por esta razón `ERPyA`_ recomienda la creación con organización (*) para evitar duplicidad e inconvenientes contables, de esta forma garantizamos la homogeneidad de los datos maestros.
 
-#. Introduzca el código de socio del negocio en el campo "**Código**".
+- Introduzca el código de socio del negocio en el campo "**Código**".
 
     El código es un dato único e irrepetible que protege la entrada de los registros, evitando la duplicidad de los mismos, generalmente se refiere al número de identificación que acredite la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF.
 
@@ -87,7 +87,7 @@
 
         Se recomienda no ingresar caracteres especiales como puntos, guiones u otros que alteren el registro en este campo.
 
-#. Seleccione el socio de negocio padre en el campo "**Socio de Negocio Padre**".
+- Seleccione el socio de negocio padre en el campo "**Socio de Negocio Padre**".
 
     El socio de negocio padre no es un campo obligatorio, sin embargo, es un campo que permite la agrupación de sub-entidades dependientes (socios de negocios hijos) de un socio de negocio, para explicarlo mejor veamos el siguiente ejemplo:
 
@@ -97,7 +97,7 @@
 
         Generalmente esta opción es utilizada para franquicias, cadenas o corporaciones.
 
-#. Introduzca el nombre del socio del negocio en el campo "**Nombre**".
+- Introduzca el nombre del socio del negocio en el campo "**Nombre**".
 
     El nombre se refiere a la razón social, siendo esta el nombre ó la denominación con la que está registrado en los documentos legales, el nombre es utilizado a nivel administrativo, formal y jurídico.
 
@@ -105,7 +105,7 @@
 
     Imagen 5. Campo Nombre
 
-#. Introduzca el nombre 2 del socio del negocio en el campo "**Nombre 2**".
+- Introduzca el nombre 2 del socio del negocio en el campo "**Nombre 2**".
 
     El nombre 2 varía su uso dependiendo de la naturaleza del socio del negocio (Cliente, Proveedor o Empleado), si es un cliente o un proveedor es opcional, y generalmente se utiliza para colocar la denominación comercial, por el contrario, si es un empleado es obligatorio, siendo este campo correspondiente al apellido, el mismo será impreso en los reportes administrativos y jurídicos.
 
@@ -113,7 +113,7 @@
 
     Imagen 6. Campo Nombre 2
 
-#. Introduzca una breve descripción referente al socio del negocio cliente en el campo "**Descripción**".
+- Introduzca una breve descripción referente al socio del negocio cliente en el campo "**Descripción**".
 
     La descripción no es un campo obligatorio,sin embargo, le permite dejar descripciones o notas de interés para el registro.
 
@@ -121,7 +121,7 @@
 
     Imagen 7. Campo Descripción
 
-#. Seleccione el checklist "**Entidad Acumulada**".
+- Seleccione el checklist "**Entidad Acumulada**".
 
     Entidad acumulada no es un campo obligatorio, sin embargo, le permite definir al socio del negocio como entidad sumaria, lo que significa que si el socio de negocio tiene este check activo será un **Socio de Negocio Padre**.
 
@@ -129,7 +129,7 @@
 
     Imagen 8. Campo Entidad Acumulada
 
-#. Seleccione en el campo "**Estado de Crédito**".
+- Seleccione en el campo "**Estado de Crédito**".
 
     El estado del crédito no es un campo obligatorio, sin embargo, le permite definir el comportamiento para la gestión del crédito del socio de negocio, actúa conjuntamente con el campo **Saldo Actual** y **Límite de Crédito** ubicado en la pestaña **Cliente**, este puede variar entre las siguiente opciones dependiendo de las necesidades:
 
@@ -147,7 +147,7 @@
 
     Imagen 9. Campo Estado de Crédito
 
-#. Podrá visualizar el saldo actual que posee el cliente en el campo "**Saldo Actual**.
+- Podrá visualizar el saldo actual que posee el cliente en el campo "**Saldo Actual**.
 
     El saldo actual es un campo solo lectura, actualizado de forma automática, aumentando o disminuyendo al emitir cuentas por cobrar o cuentas por pagar, controlando el estado de crédito.
 
@@ -155,11 +155,11 @@
 
     Imagen 10. Campo Saldo Actual
 
-#. Podrá visualizar el número de identificación autogenerado a partir del campo **Código** en el campo “**Número de Identificación**”.
+- Podrá visualizar el número de identificación autogenerado a partir del campo **Código** en el campo “**Número de Identificación**”.
 
     El número de identificación se refiere al número que acredita la identidad de una persona natural una entidad jurídica, por ejemplo, una cédula de identidad o un RIF, este campo mantiene incidencia en la generación de documentos fiscales como facturas, retenciones y comprobantes ARC.
 
-#. Seleccione el checklist "**Exento de Impuesto en Venta**".
+- Seleccione el checklist "**Exento de Impuesto en Venta**".
 
     Exento de Impuesto de Venta, no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de ventas, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de venta con el producto en cuestión con impuesto (0%).
 
@@ -167,7 +167,7 @@
 
     Imagen 11. Campo Exento de Impuesto en Venta
 
-#. Seleccione el checklist "**Exento de Impuesto en Compra**", para definir al socio del negocio como exento de impuesto.
+- Seleccione el checklist "**Exento de Impuesto en Compra**", para definir al socio del negocio como exento de impuesto.
 
     Exento de Impuesto de Compra, no es un campo obligatorio, por defecto está establecido en falso, permite la omisión de impuestos al generar ordenes de compras, es decir si un producto es gravado, hará una excepción para este socio de negocio, emitiendo la orden de compra con el producto en cuestión con impuesto (0%).
 
@@ -175,13 +175,13 @@
 
     Imagen 12. Campo Exento de Impuesto en Compra
 
-#. Seleccione el grupo de impuestos en el campo "**Grupo de Impuestos**".
+- Seleccione el grupo de impuestos en el campo "**Grupo de Impuestos**".
 
     |Campo Grupo de Impuestos|
 
     Imagen 13. Campo Grupo de Impuestos
 
-#. Introduzca el código DUNS del socio del negocio en el campo "**DUNS**".
+- Introduzca el código DUNS del socio del negocio en el campo "**DUNS**".
 
     El código DUNS no es un campo obligatorio, sin embargo, le permite introducir el número DUNS (Data Universal Numbering System o Sistema Universal de Numeración de Datos), el mismo es un un número de identificación proporciona la identidad única a cada empresa a nivel internacional.
 
@@ -189,7 +189,7 @@
 
     Imagen 14. Campo DUNS
 
-#. Introduzca el número de referencia socio del negocio en el campo "**No. de Referencia**".
+- Introduzca el número de referencia socio del negocio en el campo "**No. de Referencia**".
 
     El número de Referencia no es un campo obligatorio, sin embargo, le permite introducir un número fijo que utiliza el socio de negocio para gestiones administrativas, este tiene incidencia en las órdenes de compra o venta dependiendo la naturaleza de la entidad, siendo establecido de forma automática en las mismas.
 
@@ -197,7 +197,7 @@
 
     Imagen 15. Campo No. de Referencia
 
-#. Introduzca el código NAICS o SIC del socio del negocio en el campo "**NAICS/SIC**".
+- Introduzca el código NAICS o SIC del socio del negocio en el campo "**NAICS/SIC**".
 
     El código NAICS/SIC no es un campo obligatorio, sin embargo, le permite introducir el código NAICS (American Industry Classification System ó Sistema de Clasificación Industrial de América del Norte), este es un código utilizado en los Estados Unidos, Canadá y México para clasificar la industria y actividades económicas.
 
@@ -205,7 +205,7 @@
 
     Imagen 16. Campo NAICS/SIC
 
-#. Introduzca la valuación ABC en el campo "**Valuación ABC**".
+- Introduzca la valuación ABC en el campo "**Valuación ABC**".
 
     La valuación ABC no es un campo obligatorio, sin embargo, le permite establecer una evaluación clasificatoria del socio de negocio cliente.
 
@@ -213,7 +213,7 @@
 
     Imagen 17. Campo Valuación ABC
 
-#. Seleccione el grupo de socio del negocio en el campo "**Grupo de Socio del Negocio**".
+- Seleccione el grupo de socio del negocio en el campo "**Grupo de Socio del Negocio**".
 
     El grupo de Socio del Negocio, permite categorizar sus socios de negocio de una forma específica, lo cual es eficiente a la hora de emitir asientos contables y reportes, para entenderlo mejor veamos el siguiente ejemplo:
 
@@ -243,7 +243,7 @@
 
     Imagen 18. Campo Grupo de Socio del Negocio
 
-#. Seleccione el tipo de cuenta en el campo "**Tipo de Cuenta**".
+- Seleccione el tipo de cuenta en el campo "**Tipo de Cuenta**".
 
     El tipo de cuenta no es un campo obligatorio, sin embargo, le permite a los vendedores conocer con perfección las características de sus clientes y los diferentes tipos de clientes definidos en la empresa y así realizar un mejor estudio de mercado.
 
@@ -251,7 +251,7 @@
 
     Imagen 19. Campo Tipo de Cuenta
 
-#. Seleccione el lenguaje en el campo "**Lenguaje**".
+- Seleccione el lenguaje en el campo "**Lenguaje**".
 
     El lenguaje no es un campo obligatorio, sin embargo, define el idioma con que será impreso los formatos de impresión asociados a este Socio de Negocio.
 
@@ -259,7 +259,7 @@
 
     Imagen 20. Campo Lenguaje
 
-#. Seleccione el tipo de industria en el campo "**Tipo de Industria**".
+- Seleccione el tipo de industria en el campo "**Tipo de Industria**".
 
     El tipo de industria no es un campo obligatorio, sin embargo, define la tipología de industria en la que se encuentra el Socio de Negocio.
 
@@ -267,7 +267,7 @@
 
     Imagen 21. Campo Tipo de Industria
 
-#. Seleccione el segmento en el campo "**Segmento**".
+- Seleccione el segmento en el campo "**Segmento**".
 
     El segmento no es un campo obligatorio, sin embargo, permite segmentar socios de negocios de manera rigurosa, identificar patrones que pueden ser usados para asignar un segmento.
 
@@ -275,7 +275,7 @@
 
     Imagen 22. Campo Segmento
 
-#. Seleccione el grupo de ventas en el campo "**Grupo de Ventas**".
+- Seleccione el grupo de ventas en el campo "**Grupo de Ventas**".
 
     El grupo de ventas no es un campo obligatorio, sin embargo, permite categorizar al socio de negocio en un grupo de venta con objetivos referente a marketing y promociones.
 
@@ -283,7 +283,7 @@
 
     Imagen 23. Campo Grupo de Ventas
 
-#. Introduzca  la dirección de la página web en el campo "**Dirección Web**".
+- Introduzca  la dirección de la página web en el campo "**Dirección Web**".
 
     La dirección Web no es un campo obligatorio, sin embargo, permite registrar el sitio web del socio del negocio (Cliente y Proveedores) en el cual se administra la información de contacto de la empresa para solucionar sus inquietudes, realizar compras y gestión de solicitudes, aprovechando oportunidades de negocio que se encuentran en la red.
 
@@ -291,7 +291,7 @@
 
     Imagen 24. Campo Dirección Web
 
-#. Seleccione el checklist "**Prospecto Activo**".
+- Seleccione el checklist "**Prospecto Activo**".
 
     Prospecto Activo no es un campo obligatorio, por defecto está establecido en falso, sin embargo al seleccionarlo indica que el socio de negocio de tipo cliente está activo.
 
@@ -299,7 +299,7 @@
 
     Imagen 25. Campo Prospecto Activo
 
-#. Seleccione la opción "**Liga Organización**", para ejecutar el proceso.
+- Seleccione la opción "**Liga Organización**", para ejecutar el proceso.
 
     El proceso liga organización es ejecutado para los casos en los que la organización en gestión requiere generar documentos o solicitudes que son cubiertas por otra organización, para entenderlo mejor veamos el siguiente ejemplo:
 
@@ -329,7 +329,7 @@
 
         La organización puede ser ligada únicamente a un socio de negocio, para corregir un error en la asignación de la organización, ejecute el proceso: **Desliga de Socio de Negocio a organización.**
 
-#. Introduzca el valor de ingresos en el campo "**Valor Esperado**".
+- Introduzca el valor de ingresos en el campo "**Valor Esperado**".
 
     El valor esperado no es un campo obligatorio, sin embargo, permite ingresar un monto informativo de la rentabilidad esperada, basada en una estimación ingresos de un cliente.
 
@@ -337,7 +337,7 @@
 
     Imagen 27. Campo Valor Esperado
 
-#. Podrá visualizar el valor total de transacciones que posee el cliente en el campo "**Valor Total Transacciones**".
+- Podrá visualizar el valor total de transacciones que posee el cliente en el campo "**Valor Total Transacciones**".
 
     El valor total transacciones es un campo solo lectura, actualizado de forma automática, sumando cada ingreso generado por este cliente, el mismo permite evaluar la rentabilidad de un cliente potencial.
 
@@ -345,7 +345,7 @@
 
     Imagen 28. Campo Valor Total Transacciones
 
-#. Introduzca el costo de adquisición en el campo "**Costo de Adquisición**".
+- Introduzca el costo de adquisición en el campo "**Costo de Adquisición**".
 
     El costo de adquisición no es un campo obligatorio, sin embargo, permite registrar el monto total correspondiente al costo generado para lograr convertir un prospecto a cliente.
 
@@ -353,7 +353,7 @@
 
     Imagen 29. Campo Costo de Adquisición
 
-#. Introduzca la cantidad de empleados en el campo "**Empleados**".
+- Introduzca la cantidad de empleados en el campo "**Empleados**".
 
     Empleados no es un campo obligatorio, sin embargo, le permite evaluar la cantidad de empleados de una empresa prospecto, funge como un dato informativo para ser utilizada en cotizaciones por ejemplo.
 
@@ -361,7 +361,7 @@
 
     Imagen 30. Campo Empleados
 
-#. Introduzca el porcentaje de participación en el campo "**Participación**".
+- Introduzca el porcentaje de participación en el campo "**Participación**".
 
     La participación no es un campo obligatorio, sin embargo, le permite mantener el control porcentualmente de la proporción obtenidas de las compras del cliente en la producción o distribución de productos o servicios.
 
@@ -371,7 +371,7 @@
 
     Imagen 31. Campo Participación
 
-#. Introduzca el número de ventas total en el campo "**Volumen de Ventas**".
+- Introduzca el número de ventas total en el campo "**Volumen de Ventas**".
 
     El volumen de ventas no es un campo obligatorio, sin embargo, permite registrar el número de ventas efectivas de un cliente, estas cifras generalmente son auditadas en reuniones directivas para evaluar la rentabilidad y expansión del negocio o si por el contrario sus ventas disminuyen.
 
@@ -381,7 +381,7 @@
 
     Imagen 32. Campo Volumen de Ventas
 
-#. Introduzca la fecha de la primera venta en el campo "**Primera Venta**".
+- Introduzca la fecha de la primera venta en el campo "**Primera Venta**".
 
     La primera venta no es un campo obligatorio, sin embargo, permite registrar la fecha de la primera venta de forma informativa, útil para evaluar descuentos y promociones por aniversarios.
 
@@ -389,7 +389,7 @@
 
     Imagen 33. Campo Primera Venta
 
-#. Seleccione el check "**Entrega Directa**".
+- Seleccione el check "**Entrega Directa**".
 
     El check entrega directa no es un campo obligatorio, sin embargo, permite registrar el socio de forma informativa, útil para generar reportes e indicar que los envíos de las notas se envían del vendedor directamente al cliente.
 
@@ -397,7 +397,7 @@
 
     Imagen 34. Check Entrega Directa
 
-#. Seleccione el tipo de persona en el campo "**Tipo de Persona**.
+- Seleccione el tipo de persona en el campo "**Tipo de Persona**.
 
     El tipo de persona se refiere a la forma legal como está está constituida una organización, entre las cuales tenemos las siguientes opciones:
 
@@ -413,7 +413,7 @@
 
     Imagen 35. Campo Tipo de Persona
 
-#. Adjunte el logo de la empresa en el campo "**Logo**".
+- Adjunte el logo de la empresa en el campo "**Logo**".
 
     El logo no es un campo obligatorio, sin embargo permite guardar logotipos de socios de negocios.
 
@@ -421,7 +421,7 @@
 
     Imagen 36. Campo Logo
 
-#. Seleccione el icono "**Guardar Cambios**" ubicado en la barra de herramientas para guardar los datos ingresados.
+- Seleccione el icono "**Guardar Cambios**" ubicado en la barra de herramientas para guardar los datos ingresados.
 
     |Icono Guardar Cambios|
 

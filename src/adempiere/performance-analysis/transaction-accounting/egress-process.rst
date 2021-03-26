@@ -26,15 +26,15 @@
 **Requisición**
 ---------------
 
-#. Realice el procedimiento regular para generar una requisición en ADempiere, el mismo es explicado en el documento :ref:`documento/requisición-compra`, elaborado por `ERPyA`_.
+- Realice el procedimiento regular para generar una requisición en ADempiere, el mismo es explicado en el documento :ref:`documento/requisición-compra`, elaborado por `ERPyA`_.
 
-#. Luego de que el documento de requisición se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Requisición**".
+- Luego de que el documento de requisición se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Requisición**".
 
     |Opción Contabilizado de la Ventana Requisición|
 
     Imagen 1. Opción Contabilizado de la Ventana Requisición
 
-#. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Requisición**".
+- Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Requisición**".
 
     |Asiento Contable de la Ventana Requisición|
 
@@ -43,15 +43,15 @@
 **Orden de Compra**
 -------------------
 
-#. Realice el procedimiento regular para generar una orden de compra directa en ADempiere, el mismo es explicado en el documento :ref:`documento/orden-de-compra`, elaborado por `ERPyA`_.
+- Realice el procedimiento regular para generar una orden de compra directa en ADempiere, el mismo es explicado en el documento :ref:`documento/orden-de-compra`, elaborado por `ERPyA`_.
 
-#. Luego de que el documento de orden de compra se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Órdenes de Compra**".
+- Luego de que el documento de orden de compra se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Órdenes de Compra**".
 
     |Opción Contabilizado de la Ventana Ordenes de Compra|
 
     Imagen 3. Opción Contabilizado de la Ventana Órdenes de Compra
 
-#. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Órdenes de Compra**".
+- Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Órdenes de Compra**".
 
     |Asiento Contable de la Ventana Ordenes de Compra|
 
@@ -60,15 +60,15 @@
 **Factura de Cuentas por Pagar**
 --------------------------------
 
-#. Realice el procedimiento regular para generar un documento por pagar en ADempiere, el mismo es explicado en el documento :ref:`documento/documento-por-pagar`, elaborado por `ERPyA`_.
+- Realice el procedimiento regular para generar un documento por pagar en ADempiere, el mismo es explicado en el documento :ref:`documento/documento-por-pagar`, elaborado por `ERPyA`_.
 
-#. Luego de que el documento de factura por pagar se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Documentos por Pagar**".
+- Luego de que el documento de factura por pagar se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Documentos por Pagar**".
 
     |Opción Contabilizado de la Ventana Documentos por Pagar|
 
     Imagen 5. Opción Contabilizado de la Ventana Documentos por Pagar
 
-#. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Documentos por Pagar**".
+- Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Documentos por Pagar**".
 
     |Asiento Contable de la Ventana Documentos por Pagar|
 
@@ -77,15 +77,15 @@
 **Asignación Factura/Recepción**
 --------------------------------
 
-#. Realice el procedimiento regular para generar una asignación en ADempiere, el mismo es explicado en el documento :ref:`documento/asignar-orden-de-compra-recepción-factura`, elaborado por `ERPyA`_.
+- Realice el procedimiento regular para generar una asignación en ADempiere, el mismo es explicado en el documento :ref:`documento/asignar-orden-de-compra-recepción-factura`, elaborado por `ERPyA`_.
 
-#. Luego de realizar por completo el procedimiento de asignación, seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Facturas Asignadas a Recepciones**".
+- Luego de realizar por completo el procedimiento de asignación, seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Facturas Asignadas a Recepciones**".
 
     |Opción Contabilizado de la Ventana Facturas Asignadas a Recepciones|
 
     Imagen 7. Opción Contabilizado de la Ventana Facturas Asignadas a Recepciones
 
-#. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Asignar OC-Recibo-Factura**".
+- Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Asignar OC-Recibo-Factura**".
 
     |Asiento Contable de la Ventana Facturas Asignadas a Recepciones|
 
@@ -94,15 +94,15 @@
 **Recepción**
 -------------
 
-#. Realice el procedimiento regular para generar una recepción de productos en ADempiere, el mismo es explicado en el documento :ref:`documento/recepción-productos`, elaborado por `ERPyA`_.
+- Realice el procedimiento regular para generar una recepción de productos en ADempiere, el mismo es explicado en el documento :ref:`documento/recepción-productos`, elaborado por `ERPyA`_.
 
-#. Luego de que el documento de recepción de productos se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Recepción de Productos**".
+- Luego de que el documento de recepción de productos se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Recepción de Productos**".
 
     |Opción Contabilizado de la Ventana Recepción de Productos|
 
     Imagen 9. Opción Contabilizado de la Ventana Recepción de Productos
 
-#. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Recepción de Productos**".
+- Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Recepción de Productos**".
 
     |Asiento Contable de la Ventana Recepción de Productos|
 
@@ -111,15 +111,15 @@
 **Pago**
 --------
 
-#. Realice el procedimiento regular para generar un pago en ADempiere, el mismo es explicado en el documento :ref:`documento/pago`, elaborado por `ERPyA`_.
+- Realice el procedimiento regular para generar un pago en ADempiere, el mismo es explicado en el documento :ref:`documento/pago`, elaborado por `ERPyA`_.
 
-#. Luego de que el documento pago se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Pago/Cobro**".
+- Luego de que el documento pago se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Pago/Cobro**".
 
     |Opción Contabilizado de la Ventana Pago Cobro|
 
     Imagen 11. Opción Contabilizado de la Ventana Pago Cobro
 
-#. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Pago/Cobro**".
+- Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Pago/Cobro**".
 
     |Asiento Contable de la Ventana Pago Cobro|
 
@@ -128,7 +128,7 @@
 **Asignación de Factura/Pago**
 ------------------------------
 
-#. Ubique el documento de factura por pagar asociado al pago y seleccione la pestaña "**Pagos Asignados**" para visualizar la asignación generada por la transacción realizada entre la factura y el pago.
+- Ubique el documento de factura por pagar asociado al pago y seleccione la pestaña "**Pagos Asignados**" para visualizar la asignación generada por la transacción realizada entre la factura y el pago.
 
     |Asignación Factura Pago|
 
@@ -138,13 +138,13 @@
 
         La asignación "**Factura/Pago**", es generada automáticamente después de completar el documento "**Pago**", asociado a la factura.
 
-#. Al hacer clic contrario sobre el campo "**Asignación**" en la pestaña "**Pagos Asignados**" de la ventana "**Documentos por Pagar**" y seleccionar la opción "**Acercar**", podrá visualizar el documento de asignación donde debe seleccionar la opción "**Contabilizado**", ubicado en la parte inferior de la ventana "**Consulta de Asignación**".
+- Al hacer clic contrario sobre el campo "**Asignación**" en la pestaña "**Pagos Asignados**" de la ventana "**Documentos por Pagar**" y seleccionar la opción "**Acercar**", podrá visualizar el documento de asignación donde debe seleccionar la opción "**Contabilizado**", ubicado en la parte inferior de la ventana "**Consulta de Asignación**".
 
     |Opción Contabilizado de la Ventana Consulta de Asignación|
 
     Imagen 14. Opción Contabilizado de la Ventana Consulta de Asignación
 
-#. Podrá visualizar el asiento contable generado por la transacción anteriormente explicada.
+- Podrá visualizar el asiento contable generado por la transacción anteriormente explicada.
 
     |Asiento Contable de la Asignación Factura Pago|
 
@@ -153,15 +153,15 @@
 **Conciliación**
 ----------------
 
-#. Realice el procedimiento regular para generar una conciliación en ADempiere, el mismo es explicado en el documento :ref:`documento/conciliacion-automatica`, elaborado por `ERPyA`_.
+- Realice el procedimiento regular para generar una conciliación en ADempiere, el mismo es explicado en el documento :ref:`documento/conciliacion-automatica`, elaborado por `ERPyA`_.
 
-#. Luego de que el documento de conciliación automática se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Estado de Cuentas Bancario**".
+- Luego de que el documento de conciliación automática se encuentre en estado "**Completo**", seleccione la opción "**Contabilizado**", ubicada en la parte inferior de la ventana "**Estado de Cuentas Bancario**".
 
     |Opción Contabilizado de la Ventana Estado de Cuentas Bancario|
 
     Imagen 16. Opción Contabilizado de la Ventana Estado de Cuentas Bancario
 
-#. Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Estado de Cuentas Bancario**".
+- Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana "**Estado de Cuentas Bancario**".
 
     |Asiento Contable de la Ventana Estado de Cuentas Bancario|
 
