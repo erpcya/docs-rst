@@ -173,9 +173,9 @@
 
 #. En la ventana "**Empleado (Todos)**", se registran todos los datos personales y laborales que la empresa requiere del socio del negocio empleado, los mismos son utilizados y actualizados a lo largo de su período laboral en dicha empresa. La información del empleado desde el momento en el que inicia su período laboral, hasta el momento actual o el momento en el que termina, se encuentra distribuida en la ventana principal "**Empleado**" y sus (11) once pestañas, explicadas a continuación.
 
-.. note::
+    .. note::
 
-    Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
+        Cada uno de los campos con el símbolo (*) son obligatorios para el registro.
 
 #. A continuación podrá apreciar la ventana "**Empleado (Todos)**", dónde debe seleccionar el icono de "**Registro Nuevo**" que se encuentra ubicado en la barra de herramientas de ADempiere.
 
@@ -185,147 +185,147 @@
 
 #. Proceda al llenado de los campos necesarios que a continuación se detallan.
 
-    #. Seleccione en el campo "**Compañía**", la compañía para la cual esta registrando el socio del negocio empleado.
+#. Seleccione en el campo "**Compañía**", la compañía para la cual esta registrando el socio del negocio empleado.
 
-        |Campo Compañía|
+    |Campo Compañía|
 
-        Imagen 3. Campo Compañía
+    Imagen 3. Campo Compañía
 
-    #. Seleccione en el campo "**Organización**", la organización para la cual esta registrando el socio del negocio empleado.
+#. Seleccione en el campo "**Organización**", la organización para la cual esta registrando el socio del negocio empleado.
 
-        |Campo Organización|
+    |Campo Organización|
 
-        Imagen 4. Campo Organización
+    Imagen 4. Campo Organización
 
-        .. warning::
+    .. warning::
 
-            Para que el socio del negocio este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*), de lo contrario el socio del negocio solo estará disponible para una sola organización.
+        Para que el socio del negocio este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*), de lo contrario el socio del negocio solo estará disponible para una sola organización.
 
-    #. Introduzca el código de identificación, cédula o rif del socio del negocio en el campo "**Código**", el valor introducido en este campo automáticamente se reflejará en el campo "**Número Identificación**".
+#. Introduzca el código de identificación, cédula o rif del socio del negocio en el campo "**Código**", el valor introducido en este campo automáticamente se reflejará en el campo "**Número Identificación**".
 
-        |Campo Código|
+    |Campo Código|
 
-        Imagen 5. Campo Código
+    Imagen 5. Campo Código
 
-        .. warning::
+    .. warning::
 
-            Se recomienda que al ingresar el valor al campo "**Código**" no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
+        Se recomienda que al ingresar el valor al campo "**Código**" no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
 
-    #. Introduzca los (2) dos nombres del socio del negocio empleado en el campo "**Nombre**".
+#. Introduzca los (2) dos nombres del socio del negocio empleado en el campo "**Nombre**".
 
-        |Campo Nombre|
+    |Campo Nombre|
 
-        Imagen 6. Campo Nombre
+    Imagen 6. Campo Nombre
 
-        .. note::
+    .. note::
 
-            Si el socio del negocio que esta registrando posee solo un nombre, se debe ingresar solo ese nombre que posee.
+        Si el socio del negocio que esta registrando posee solo un nombre, se debe ingresar solo ese nombre que posee.
 
-    #. Introduzca en el campo "**Nombre 2**", los (2) dos apellidos del socio del negocio empleado.
+#. Introduzca en el campo "**Nombre 2**", los (2) dos apellidos del socio del negocio empleado.
 
-        |Campo Nombre 2|
+    |Campo Nombre 2|
 
-        Imagen 7. Campo Nombre 2
+    Imagen 7. Campo Nombre 2
 
-        .. note::
+    .. note::
 
-            Si el socio del negocio que esta registrando posee solo un apellido, se debe ingresar solo ese apellido que posee.
+        Si el socio del negocio que esta registrando posee solo un apellido, se debe ingresar solo ese apellido que posee.
 
-    #. Introduzca en el campo "**Descripción**", una descripción corta con respecto al socio del negocio empleado.
+#. Introduzca en el campo "**Descripción**", una descripción corta con respecto al socio del negocio empleado.
 
-        |Campo Descripción|
+    |Campo Descripción|
 
-        Imagen 8. Campo Descripción
+    Imagen 8. Campo Descripción
 
-    #. Seleccione el grupo de socio del negocio al que pertenezca el socio del negocio que esta registrando, para este ejemplo el grupo utilizado es "**Empleados**".
+#. Seleccione el grupo de socio del negocio al que pertenezca el socio del negocio que esta registrando, para este ejemplo el grupo utilizado es "**Empleados**".
 
-        |Campo Grupo de Socio del Negocio|
+    |Campo Grupo de Socio del Negocio|
 
-        Imagen 9. Campo Grupo de Socio del Negocio
+    Imagen 9. Campo Grupo de Socio del Negocio
 
-    #. Seleccione en el campo "**Regla de Pago**" la forma de pago para las facturas, este campo indica de que forma serán pagadas las facturas al socio del negocio empleado.
+#. Seleccione en el campo "**Regla de Pago**" la forma de pago para las facturas, este campo indica de que forma serán pagadas las facturas al socio del negocio empleado.
 
-        |Campo Regla de Pago|
+    |Campo Regla de Pago|
 
-        Imagen 10. Campo Regla de Pago
+    Imagen 10. Campo Regla de Pago
 
-    #. Introduzca en el campo "**Dirección Web**", la dirección web para contactar al empleado, ya que es muy común que un empleado no posea una página web se puede ingresar una cuenta linkedin, bumeran, entre otros.
+#. Introduzca en el campo "**Dirección Web**", la dirección web para contactar al empleado, ya que es muy común que un empleado no posea una página web se puede ingresar una cuenta linkedin, bumeran, entre otros.
 
-        |Campo Dirección Web|
+    |Campo Dirección Web|
 
-        Imagen 11. Campo Dirección Web
+    Imagen 11. Campo Dirección Web
 
-    #. Seleccione en el campo "**Genero**", el genero del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el genero "**Femenino**".
+#. Seleccione en el campo "**Genero**", el genero del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el genero "**Femenino**".
 
-        |Campo Genero|
+    |Campo Genero|
 
-        Imagen 12. Campo Genero
+    Imagen 12. Campo Genero
 
-    #. Seleccione en el campo "**Grupo Sanguíneo**", el grupo sanguíneo del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el grupo sanguíneo "**B +**".
+#. Seleccione en el campo "**Grupo Sanguíneo**", el grupo sanguíneo del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el grupo sanguíneo "**B +**".
 
-        |Campo Grupo Sanguíneo|
+    |Campo Grupo Sanguíneo|
 
-        Imagen 13. Campo Grupo Sanguíneo
+    Imagen 13. Campo Grupo Sanguíneo
 
-    #. Seleccione en el campo "**Cumpleaños**", la fecha de nacimiento del socio del negocio que esta registrando.
+#. Seleccione en el campo "**Cumpleaños**", la fecha de nacimiento del socio del negocio que esta registrando.
 
-        |Campo Cumpleaños|
+    |Campo Cumpleaños|
 
-        Imagen 14. Campo Cumpleaños
+    Imagen 14. Campo Cumpleaños
 
-    #. Ingrese en el campo "**Lugar de Nacimiento (Localización)**", el lugar de nacimiento del socio del negocio que esta registrando, con ayuda del identificador.
+#. Ingrese en el campo "**Lugar de Nacimiento (Localización)**", el lugar de nacimiento del socio del negocio que esta registrando, con ayuda del identificador.
 
-        |Campo Lugar de Nacimiento (Localización)|
+    |Campo Lugar de Nacimiento (Localización)|
 
-        Imagen 15. Campo Lugar de Nacimiento (Localización)
+    Imagen 15. Campo Lugar de Nacimiento (Localización)
 
-    #. Seleccione en el campo "**País**", el país donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el país "**Venezuela**".
+#. Seleccione en el campo "**País**", el país donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el país "**Venezuela**".
 
-        |Campo País|
+    |Campo País|
 
-        Imagen 16. Campo País
+    Imagen 16. Campo País
 
-    #. Seleccione en el campo "**Estado**", el estado donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el estado "**Portuguesa**".
+#. Seleccione en el campo "**Estado**", el estado donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el estado "**Portuguesa**".
 
-        |Campo Estado|
+    |Campo Estado|
 
-        Imagen 17. Campo Estado
+    Imagen 17. Campo Estado
 
-    #. Seleccione en el campo "**Ciudad**", la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la ciudad "**Araure**".
+#. Seleccione en el campo "**Ciudad**", la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la ciudad "**Araure**".
 
-        |Campo Ciudad|
+    |Campo Ciudad|
 
-        Imagen 18. Campo Ciudad
+    Imagen 18. Campo Ciudad
 
-    #. Introduzca en el campo "**Dirección 1**", la dirección detallada del lugar donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la dirección "**Av Dr Rafael Caldera**".
+#. Introduzca en el campo "**Dirección 1**", la dirección detallada del lugar donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la dirección "**Av Dr Rafael Caldera**".
 
-        |Campo Dirección 1|
+    |Campo Dirección 1|
 
-        Imagen 19. Campo Dirección 1
+    Imagen 19. Campo Dirección 1
 
-    #. Introduzca en el campo "**Dirección 2**", el nombre del lugar donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el nombre "**Hospital J.M. Casal Ramos**".
+#. Introduzca en el campo "**Dirección 2**", el nombre del lugar donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el nombre "**Hospital J.M. Casal Ramos**".
 
-        |Campo Dirección 2|
+    |Campo Dirección 2|
 
-        Imagen 20. Campo Dirección 2
+    Imagen 20. Campo Dirección 2
 
-    #. Introduzca en el campo "**Código Postal**", el código postal de la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el código "**3301**".
+#. Introduzca en el campo "**Código Postal**", el código postal de la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el código "**3301**".
 
-        |Campo Código Postal|
+    |Campo Código Postal|
 
-        Imagen 21. Campo Código Postal
+    Imagen 21. Campo Código Postal
 
-    #. Seleccione la opción "**OK**", para cargar el registro al campo "**Lugar de Nacimiento**".
+#. Seleccione la opción "**OK**", para cargar el registro al campo "**Lugar de Nacimiento**".
 
-        |Opción OK|
+    |Opción OK|
 
-        Imagen 22. Opción OK
+    Imagen 22. Opción OK
 
-    #. Seleccione en el campo "**Estado Marital**", el estado civil del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el estado marital "**Casado**".
+#. Seleccione en el campo "**Estado Marital**", el estado civil del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el estado marital "**Casado**".
 
-        |Campo Estado Marital|
+    |Campo Estado Marital|
 
-        Imagen 23. Campo Estado Marital
+    Imagen 23. Campo Estado Marital
 
 #. Seleccione el icono "**Guardar Cambios**" ubicado en la barra de herramientas para guardar los datos ingresados.
 
@@ -346,295 +346,295 @@ La información ingresada en esta pestaña puede variar al momento de la elabora
 
     |Pestaña Información de Contrato|
 
+    Imagen 25. Pestaña Información de Contrato
+
     .. warning::
 
         La Información de Contrato se debe realizar con la Organización a la Pertenezca el empleado, por eso debe Cambiar La Organización de (*) a la Organización Principal del Empleado.
 
-    Imagen 25. Pestaña Información de Contrato
+#. Introduzca en el campo "**Nombre**", los (2) dos nombres de la persona a quien va emitido el contrato.
 
-    #. Introduzca en el campo "**Nombre**", los (2) dos nombres de la persona a quien va emitido el contrato.
+    |Campo Nombre Contrato|
 
-        |Campo Nombre Contrato|
+    Imagen 26. Campo Nombre
 
-        Imagen 26. Campo Nombre
+    .. note::
 
-        .. note::
+        Se ingresa la información del representante legal del socio del negocio empleado, cuando este es menor de edad al momento de la elaboración del contrato de trabajo.
 
-            Se ingresa la información del representante legal del socio del negocio empleado, cuando este es menor de edad al momento de la elaboración del contrato de trabajo.
+#. Introduzca en el campo "**Nombre 2**", los (2) dos apellidos de la persona a quien va emitido el contrato.
 
-    #. Introduzca en el campo "**Nombre 2**", los (2) dos apellidos de la persona a quien va emitido el contrato.
+    |Campo Nombre 2 Contrato|
 
-        |Campo Nombre 2 Contrato|
+    Imagen 27. Campo Nombre 2
 
-        Imagen 27. Campo Nombre 2
+    .. note::
 
-        .. note::
+        Se ingresa la información del representante legal del socio del negocio empleado, cuando este es menor de edad al momento de la elaboración del contrato de trabajo.
 
-            Se ingresa la información del representante legal del socio del negocio empleado, cuando este es menor de edad al momento de la elaboración del contrato de trabajo.
+#. Introduzca en el campo "**Código Nacional**", el código que identifica al socio del negocio empleado, este código es diferente a la cédula.
 
-    #. Introduzca en el campo "**Código Nacional**", el código que identifica al socio del negocio empleado, este código es diferente a la cédula.
+    |Campo Código Nacional|
 
-        |Campo Código Nacional|
+    Imagen 28. Campo Código Nacional
 
-        Imagen 28. Campo Código Nacional
+    .. warning::
 
-        .. warning::
+        Se recomienda que al ingresar el valor al campo "**Código Nacional**" no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
 
-            Se recomienda que al ingresar el valor al campo "**Código Nacional**" no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.
+#. Introduzca en el campo "**Código Seguridad Social**", el código del seguro social de la persona a quien va emitido el contrato.
 
-    #. Introduzca en el campo "**Código Seguridad Social**", el código del seguro social de la persona a quien va emitido el contrato.
+    |Campo Seguridad Social|
 
-        |Campo Seguridad Social|
+    Imagen 29. Campo Código Seguridad Social
 
-        Imagen 29. Campo Código Seguridad Social
+    .. note::
 
-        .. note::
+        El código de seguridad social se refiere al código del seguro social del empleado, es decir, la cédula del empleado.
 
-            El código de seguridad social se refiere al código del seguro social del empleado, es decir, la cédula del empleado.
+#. Seleccione en el campo "**Nacionalidad**", la nacionalidad de la persona a quien va emitido el contrato.
 
-    #. Seleccione en el campo "**Nacionalidad**", la nacionalidad de la persona a quien va emitido el contrato.
+    |Campo Nacionalidad|
 
-        |Campo Nacionalidad|
+    Imagen 30. Campo Nacionalidad
 
-        Imagen 30. Campo Nacionalidad
+#. Introduzca en el campo "**Marca de Identificación**", una descripción que identifica al socio del negocio empleado.
 
-    #. Introduzca en el campo "**Marca de Identificación**", una descripción que identifica al socio del negocio empleado.
+    |Campo Marca de Identificación|
 
-        |Campo Marca de Identificación|
+    Imagen 31. Campo Marca de Identificación
 
-        Imagen 31. Campo Marca de Identificación
+#. Introduzca en el campo "**Estado Marital**", el estado marital de la persona a quien va emitido el contrato.
 
-    #. Introduzca en el campo "**Estado Marital**", el estado marital de la persona a quien va emitido el contrato.
+    |Campo Estado Marital2|
 
-        |Campo Estado Marital2|
+    Imagen 32. Campo Estado Marital
 
-        Imagen 32. Campo Estado Marital
+#. Introduzca en el campo "**Nombre de Esposo(a)**", el nombre del esposo(a) de la persona a quien va emitido el contrato.
 
-    #. Introduzca en el campo "**Nombre de Esposo(a)**", el nombre del esposo(a) de la persona a quien va emitido el contrato.
+    |Campo Nombre de Esposo(a)|
 
-        |Campo Nombre de Esposo(a)|
+    Imagen 33. Campo Nombre de Esposo(a)
 
-        Imagen 33. Campo Nombre de Esposo(a)
+#. Seleccione en el campo "**Fecha de Aniversario de Matrimonio**", la fecha en la que se realizó el matrimonio.
 
-    #. Seleccione en el campo "**Fecha de Aniversario de Matrimonio**", la fecha en la que se realizó el matrimonio.
+    |Campo Fecha de Aniversario de Matrimonio|
 
-        |Campo Fecha de Aniversario de Matrimonio|
+    Imagen 34. Campo Fecha de Aniversario de Matrimonio
 
-        Imagen 34. Campo Fecha de Aniversario de Matrimonio
+#. Seleccione en el campo "**Fecha de Nacimiento de Esposo(a)**", la fecha en la que nació el esposo(a).
 
-    #. Seleccione en el campo "**Fecha de Nacimiento de Esposo(a)**", la fecha en la que nació el esposo(a).
+    |Campo Fecha de Nacimiento de Esposo(a)|
 
-        |Campo Fecha de Nacimiento de Esposo(a)|
+    Imagen 35. Campo Fecha de Nacimiento de Esposo(a)
 
-        Imagen 35. Campo Fecha de Nacimiento de Esposo(a)
+#. Introduzca en el campo "**Código de Validación**", el código de marcaje del empleado en la empresa.
 
-    #. Introduzca en el campo "**Código de Validación**", el código de marcaje del empleado en la empresa.
+    |Campo Código de Validación|
 
-        |Campo Código de Validación|
+    Imagen 36. Código de Validación
 
-        Imagen 36. Código de Validación
+#. Seleccione en el campo "**Nómina**", la nómina regular establecida para cada Empleado. Adempiere presenta las siguientes nóminas cuando el empleado posee un Salario Fijo (Nómina Semanal, Nómina Quincenal y Nómina Mensual), en cambio si el Empleado Posee un Salario Variable se encuentras disponibles (Nómina Semanal Mixta, Nómina Quincenal Mixta y Nómina Mensual Mixta)
 
-    #. Seleccione en el campo "**Nómina**", la nómina regular establecida para cada Empleado. Adempiere presenta las siguientes nóminas cuando el empleado posee un Salario Fijo (Nómina Semanal, Nómina Quincenal y Nómina Mensual), en cambio si el Empleado Posee un Salario Variable se encuentras disponibles (Nómina Semanal Mixta, Nómina Quincenal Mixta y Nómina Mensual Mixta)
+    |Campo Nómina|
 
-        |Campo Nómina|
+    Imagen 37. Campo Nómina
 
-        Imagen 37. Campo Nómina
+#. Seleccione en el campo "**Departamento Nómina**", el departamento al que pertenece el socio del negocio que esta resgistrando.
 
-    #. Seleccione en el campo "**Departamento Nómina**", el departamento al que pertenece el socio del negocio que esta resgistrando.
+    |Campo Departamento Nómina|
 
-        |Campo Departamento Nómina|
+    Imagen 38. Campo Departamento Nómina
 
-        Imagen 38. Campo Departamento Nómina
+#. Seleccione en el campo "**Puesto Nómina**", el puesto que tiene el socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Puesto Nómina**", el puesto que tiene el socio del negocio que esta registrando.
+    |Campo Puesto Nómina|
 
-        |Campo Puesto Nómina|
+    Imagen 39. Campo Puesto Nómina
 
-        Imagen 39. Campo Puesto Nómina
+#. Seleccione en el campo "**Tipo de Trabajo**", el trabajo a desempeñar por el empleado en la empresa.
 
-    #. Seleccione en el campo "**Tipo de Trabajo**", el trabajo a desempeñar por el empleado en la empresa.
+    |Campo Tipo de Trabajo|
 
-        |Campo Tipo de Trabajo|
+    Imagen 4. Campo Tipo de Trabajo
 
-        Imagen 4. Campo Tipo de Trabajo
+#. Introduzca en el campo "**Fecha de Inicio**", la fecha de inicio del contrato que se esta creando.
 
-    #. Introduzca en el campo "**Fecha de Inicio**", la fecha de inicio del contrato que se esta creando.
+    |Campo Fecha de Inicio|
 
-        |Campo Fecha de Inicio|
+    Imagen 4. Campo Fecha de Inicio
 
-        Imagen 4. Campo Fecha de Inicio
+#. Seleccione en el campo "**Fecha Final**", la fecha de culminación del contrato del socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Fecha Final**", la fecha de culminación del contrato del socio del negocio que esta registrando.
+    |Campo Fecha Final|
 
-        |Campo Fecha Final|
+    Imagen 42. Campo Fecha Final
 
-        Imagen 42. Campo Fecha Final
+    .. warning::
 
-        .. warning::
+        La fecha final del contrato depende del lapso de duración de contratos que las empresas tengan establecido como políticas de contratación.
 
-            La fecha final del contrato depende del lapso de duración de contratos que las empresas tengan establecido como políticas de contratación.
+#. Seleccione el checklist "**Gerente**", para indicar que el socio del negocio que esta registrando es un gerente.
 
-    #. Seleccione el checklist "**Gerente**", para indicar que el socio del negocio que esta registrando es un gerente.
+    |Campo Gerente|
 
-        |Campo Gerente|
+    Imagen 43. Campo Gerente
 
-        Imagen 43. Campo Gerente
+#. Seleccione en el campo "**Grupo de Trabajo**", el grupo de trabajo al que pertenece el socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Grupo de Trabajo**", el grupo de trabajo al que pertenece el socio del negocio que esta registrando.
+    |Campo Grupo de Trabajo|
 
-        |Campo Grupo de Trabajo|
+    Imagen 44. Campo Grupo de Trabajo
 
-        Imagen 44. Campo Grupo de Trabajo
+#. Seleccione en el campo "**Tipo de Empleado**", el tipo de empleado al que pertenece el socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Tipo de Empleado**", el tipo de empleado al que pertenece el socio del negocio que esta registrando.
+    |Campo Tipo de Empleado|
 
-        |Campo Tipo de Empleado|
+    Imagen 45. Campon Tipo de Empleado
 
-        Imagen 45. Campon Tipo de Empleado
+#. Seleccione en el campo "**Grupo de Turno**", el grupo de turno al que pertenece el socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Grupo de Turno**", el grupo de turno al que pertenece el socio del negocio que esta registrando.
+    |Campo Grupo de Turno|
 
-        |Campo Grupo de Turno|
+    Imagen 46. Campo Grupo de Turno
 
-        Imagen 46. Campo Grupo de Turno
+#. Seleccione en el campo "**Estado del Empleado**", el estado en el que se encuentra el empleado durante la fecha de inicio y final del contrato.
 
-    #. Seleccione en el campo "**Estado del Empleado**", el estado en el que se encuentra el empleado durante la fecha de inicio y final del contrato.
+    |Campo Estado del Empleado|
 
-        |Campo Estado del Empleado|
+    Imagen 47. Campo Estado del Empleado
 
-        Imagen 47. Campo Estado del Empleado
+#. Seleccione en el campo "**Educación Laboral**", la educación laboral del socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Educación Laboral**", la educación laboral del socio del negocio que esta registrando.
+    |Campo Educación Laboral|
 
-        |Campo Educación Laboral|
+    Imagen 48. Campo Educación Laboral
 
-        Imagen 48. Campo Educación Laboral
+#. Seleccione en el campo "**Identificador de la Carrera**", la carrera del socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Identificador de la Carrera**", la carrera del socio del negocio que esta registrando.
+    |Campo Identificador de la carrera|
 
-        |Campo Identificador de la carrera|
+    Imagen 49. Campo Identificador de la Carrera
 
-        Imagen 49. Campo Identificador de la Carrera
+#. Seleccione en el campo "**Grado**", el grado de instrucción del socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Grado**", el grado de instrucción del socio del negocio que esta registrando.
+    |Campo Grado|
 
-        |Campo Grado|
+    Imagen 50. Campo Grado
 
-        Imagen 50. Campo Grado
+#. Seleccione en el campo "**Designación**", la designación del socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Designación**", la designación del socio del negocio que esta registrando.
+    |Campo Designación|
 
-        |Campo Designación|
+    Imagen 51. Campo Designación
 
-        Imagen 51. Campo Designación
+#. Seleccione en el campo "**Profesión**", la profesión del socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Profesión**", la profesión del socio del negocio que esta registrando.
+    |Campo Profesión|
 
-        |Campo Profesión|
+    Imagen 52. Campo Profesión
 
-        Imagen 52. Campo Profesión
+#. Seleccione en el campo "**Grado Académico**", nivel de instrucción del socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Grado Académico**", nivel de instrucción del socio del negocio que esta registrando.
+    |Campo Grado Académico|
 
-        |Campo Grado Académico|
+    Imagen 53. Campo Grado Académico
 
-        Imagen 53. Campo Grado Académico
+#. Seleccione en el campo "**Tipo de Habilidad**", el tipo de habilidad del socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Tipo de Habilidad**", el tipo de habilidad del socio del negocio que esta registrando.
+    |Campo Tipo de Habilidad|
 
-        |Campo Tipo de Habilidad|
+    Imagen 54. Campo Tipo de Habilidad
 
-        Imagen 54. Campo Tipo de Habilidad
+#. Seleccione en el campo "**Oferta de Empleo**", la oferta de empleo del socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Oferta de Empleo**", la oferta de empleo del socio del negocio que esta registrando.
+    |Campo Oferta de Empleo|
 
-        |Campo Oferta de Empleo|
+    Imagen 55. Campo Oferta de Empleo
 
-        Imagen 55. Campo Oferta de Empleo
+#. Seleccione en el campo "**Estructura Salarial**", la estructura salarial del socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Estructura Salarial**", la estructura salarial del socio del negocio que esta registrando.
+    |Campo Estructura Salarial|
 
-        |Campo Estructura Salarial|
+    Imagen 56. Campo Estructura Salarial
 
-        Imagen 56. Campo Estructura Salarial
+#. Introduzca en el campo "**Salario Diario**", el salario diario que le corresponde al socio del negocio que esta registrando.
 
-    Introduzca en el campo "**Salario Diario**", el salario diario que le corresponde al socio del negocio que esta registrando.
+    |Campo Salario Diario|
 
-        |Campo Salario Diario|
+    Imagen 57. Campo Salario Diario
 
-        Imagen 57. Campo Salario Diario
+#. Seleccione en el campo "**Regla de Pago**", la regla de pago establecida para el socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Regla de Pago**", la regla de pago establecida para el socio del negocio que esta registrando.
+    |Campo Regla de Pago2|
 
-        |Campo Regla de Pago2|
+    Imagen 58. Campo Regla de Pago
 
-        Imagen 58. Campo Regla de Pago
+#. Seleccione en el campo "**Rango Salarial**", el rango salarial del socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Rango Salarial**", el rango salarial del socio del negocio que esta registrando.
+    |Campo Rango Salarial|
 
-        |Campo Rango Salarial|
+    Imagen 59. Campo Rango Salarial
 
-        Imagen 59. Campo Rango Salarial
+#. Introduzca en el campo "**Salario Mensual**", el salario mensual del socio del negocio que esta registrando.
 
-    #. Introduzca en el campo "**Salario Mensual**", el salario mensual del socio del negocio que esta registrando.
+    |Campo Salario Mensual|
 
-        |Campo Salario Mensual|
+    Imagen 60. Campo Salario Mensual
 
-        Imagen 60. Campo Salario Mensual
+#. Seleccione en el campo "**Organización de la Transacción**", la organización de la transacción.
 
-    #. Seleccione en el campo "**Organización de la Transacción**", la organización de la transacción.
+    |Campo Organización de la Transacción|
 
-        |Campo Organización de la Transacción|
+    Imagen 61. Campo Organización de la Transacción
 
-        Imagen 61. Campo Organización de la Transacción
+#. Seleccione en el campo "**Proyecto**", el proyecto financiero.
 
-    #. Seleccione en el campo "**Proyecto**", el proyecto financiero.
+    |Campo Proyecto|
 
-        |Campo Proyecto|
+    Imagen 62. Campo Proyecto
 
-        Imagen 62. Campo Proyecto
+#. Seleccione en el campo "**Región de Ventas**", la región de ventas asignada al socio del negocio empleado para cubrir las transacciones que la empresa posee en dicha región.
 
-    #. Seleccione en el campo "**Región de Ventas**", la región de ventas asignada al socio del negocio empleado para cubrir las transacciones que la empresa posee en dicha región.
+    |Campo Región de Ventas|
 
-        |Campo Región de Ventas|
+    Imagen 63. Campo Región de Ventas
 
-        Imagen 63. Campo Región de Ventas
+#. Seleccione la actividad en el campo "**Actividad**".
 
-    #. Seleccione la actividad en el campo "**Actividad**".
+    |Campo Actividad|
 
-        |Campo Actividad|
+    Imagen 64. Campo Actividad
 
-        Imagen 64. Campo Actividad
+#. Seleccione la campaña en el campo "**Campaña**".
 
-    #. Seleccione la campaña en el campo "**Campaña**".
+    |Campo Campaña|
 
-        |Campo Campaña|
+    Imagen 65. Campo Campaña
 
-        Imagen 65. Campo Campaña
+#. Seleccione en el campo "**Imagen del Empleado**", la foto o imagen del socio del negocio empleado que esta registrando.
 
-    #. Seleccione en el campo "**Imagen del Empleado**", la foto o imagen del socio del negocio empleado que esta registrando.
+    |Campo Imagen del Empleado|
 
-        |Campo Imagen del Empleado|
+    Imagen 66. Campo Imagen del Empleado
 
-        Imagen 66. Campo Imagen del Empleado
+#. Introduzca en el campo "**Dirección Web**", la dirección web de la foto o imagen del socio del negocio que esta registrando.
 
-    #. Introduzca en el campo "**Dirección Web**", la dirección web de la foto o imagen del socio del negocio que esta registrando.
+    |Campo Dirección Web2|
 
-        |Campo Dirección Web2|
+    Imagen 67. Campo Dirección Web
 
-        Imagen 67. Campo Dirección Web
+#. Seleccione en el campo "**Imagen del Pulgar**", la imagen del pulgar del socio del negocio que esta registrando.
 
-    #. Seleccione en el campo "**Imagen del Pulgar**", la imagen del pulgar del socio del negocio que esta registrando.
+    |Campo Imagen del Pulgar|
 
-        |Campo Imagen del Pulgar|
+    Imagen 68. Campo Imagen del Pulgar
 
-        Imagen 68. Campo Imagen del Pulgar
+#. Seleccione en el campo "**Logo**", el logo de la empresa.
 
-    #. Seleccione en el campo "**Logo**", el logo de la empresa.
+    |Logo|
 
-        |Logo|
-
-        Imagen 69. Logo
+    Imagen 69. Logo
 
 .. warning::
 
@@ -758,23 +758,23 @@ La pestaña "**Detalle de Pago**", muestra de forma resumida la información de 
 
 #. Si es necesario modificar los campos que contiene la ventana, proceda a realizar el siguiente procedimiento.
 
-    #. Introduzca en el campo "**Salario Mensual**", el salario mensual que le corresponde al socio del negocio empleado que esta registrando.
+#. Introduzca en el campo "**Salario Mensual**", el salario mensual que le corresponde al socio del negocio empleado que esta registrando.
 
-        |Campo Salario Mensual Detalle|
+    |Campo Salario Mensual Detalle|
 
-        Imagen 84. Campo Salario Mensual
+    Imagen 84. Campo Salario Mensual
 
-    #. Introduzca en el campo "**Salario Diario**", el salario diario que le corresponde al socio del negocio empleado que esta registrando.
+#. Introduzca en el campo "**Salario Diario**", el salario diario que le corresponde al socio del negocio empleado que esta registrando.
 
-        |Campo Salario Diario Detalle|
+    |Campo Salario Diario Detalle|
 
-        Imagen 85. Campo Salario Diario
+    Imagen 85. Campo Salario Diario
 
-    #. Seleccione en el campo "**Regla de Pago**", la forma de pago establecida para el socio del negocio empleado que esta registrando.
+#. Seleccione en el campo "**Regla de Pago**", la forma de pago establecida para el socio del negocio empleado que esta registrando.
 
-        |Campo Regla de Pago Detalle|
+    |Campo Regla de Pago Detalle|
 
-        Imagen 86. Campo Regla de Pago
+    Imagen 86. Campo Regla de Pago
 
     .. warning::
 
@@ -1093,25 +1093,25 @@ La localización de un socio del negocio es muy importante para una empresa por 
 
     Imagen 128. Campo Localización / Dirección
 
-    #. Seleccione en el campo "**País**", el país donde se encuentra domiciliado el socio del negocio que esta registrando.
+    - Seleccione en el campo "**País**", el país donde se encuentra domiciliado el socio del negocio que esta registrando.
 
         |Campo País Localización|
 
         Imagen 129. Campo País Localización
 
-    #. Seleccione en el campo "**Estado**", el estado donde se encuentra domiciliado el socio del negocio que esta registrando.
+    - Seleccione en el campo "**Estado**", el estado donde se encuentra domiciliado el socio del negocio que esta registrando.
 
         |Campo Estado Localización|
 
         Imagen 130. Campo Estado Localización
 
-    #. Seleccione en el campo "**Ciudad**", la ciudad donde se encuentra domiciliado el socio del negocio que esta registrando.
+    - Seleccione en el campo "**Ciudad**", la ciudad donde se encuentra domiciliado el socio del negocio que esta registrando.
 
         |Campo Ciudad Localización|
 
         Imagen 131. Campo Ciudad Localización
 
-    #. Introduzca la dirección detallada del socio del negocio empleado en el campo "**Dirección 1**" y seleccione la opción "**OK**".
+    - Introduzca la dirección detallada del socio del negocio empleado en el campo "**Dirección 1**" y seleccione la opción "**OK**".
 
         |Campo Dirección 1 Localización|
 

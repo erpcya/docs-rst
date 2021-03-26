@@ -407,25 +407,25 @@ La localización de un socio del negocio cliente es muy importante por diferente
 
     Imagen 47. Campo Localización / Dirección
 
-    #. Seleccione en el campo "**País**", el país donde se encuentra domiciliado el socio del negocio que esta registrando.
+    - Seleccione en el campo "**País**", el país donde se encuentra domiciliado el socio del negocio que esta registrando.
 
         |Campo País|
 
         Imagen 48. Campo País
 
-    #. Seleccione en el campo "**Estado**", el estado donde se encuentra domiciliado el socio del negocio que esta registrando.
+    - Seleccione en el campo "**Estado**", el estado donde se encuentra domiciliado el socio del negocio que esta registrando.
 
         |Campo Estado|
 
         Imagen 49. Campo Estado
 
-    #. Seleccione en el campo "**Ciudad**", la ciudad donde se encuentra domiciliado el socio del negocio que esta registrando.
+    - Seleccione en el campo "**Ciudad**", la ciudad donde se encuentra domiciliado el socio del negocio que esta registrando.
 
         |Campo Ciudad|
 
         Imagen 50. Campo Ciudad
 
-    #. Introduzca la dirección detallada del socio del negocio cliente en el campo "**Dirección 1**" y seleccione la opción "**OK**".
+    - Introduzca la dirección detallada del socio del negocio cliente en el campo "**Dirección 1**" y seleccione la opción "**OK**".
 
         |Campo Dirección 1|
 
@@ -558,13 +558,13 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
     Imagen 69. Usuario de Autenticación
 
-    #. Seleccione el checklist "**Usuario Interno**", para indicar que la persona de contacto con el socio del negocio cliente es usuario interno.
+    - Seleccione el checklist "**Usuario Interno**", para indicar que la persona de contacto con el socio del negocio cliente es usuario interno.
 
         |Campo Usuario Interno|
 
         Imagen 70. Campo Usuario Interno
 
-    #. Introduzca en el campo **Código**, el usuario de la persona de contacto con el socio del negocio cliente para ingresar a ADempiere.
+    - Introduzca en el campo **Código**, el usuario de la persona de contacto con el socio del negocio cliente para ingresar a ADempiere.
 
         |Campo Código Usuario|
 
@@ -574,7 +574,7 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
             `ERPyA`_ tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
-    #. Introduzca en el campo "**Contraseña**", la contraseña de la persona de contacto con el socio del negocio cliente para ingresar a ADempiere.
+    - Introduzca en el campo "**Contraseña**", la contraseña de la persona de contacto con el socio del negocio cliente para ingresar a ADempiere.
 
         |Campo Contraseña|
 
@@ -584,7 +584,7 @@ En esta pestaña se registran todos los datos de contacto que se posea el socio 
 
             `ERPyA`_ tiene establecido como estándar de creación de usuario y contraseña en ADempiere, la inicial del primer nombre en minúscula, seguido del primer apellido completo, con la primera letra del mismo en mayúscula.
 
-    #. Seleccione el checklist "**Usuario de Tienda Web**", para indicar que la persona de contacto con el socio del negocio es usuario de tienda web.
+    - Seleccione el checklist "**Usuario de Tienda Web**", para indicar que la persona de contacto con el socio del negocio es usuario de tienda web.
 
         |Checklist Usuario de Tienda Web|
 

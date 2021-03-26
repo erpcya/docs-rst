@@ -97,279 +97,279 @@
 
     Imagen 2. Icono Registro Nuevo
 
-    #. Seleccione en el campo "**Organización**", la organización para la cual esta registrando el producto.
+#. Seleccione en el campo "**Organización**", la organización para la cual esta registrando el producto.
 
-        |Campo Organización|
+    |Campo Organización|
 
-        Imagen 3. Campo Organización
+    Imagen 3. Campo Organización
 
-        .. warning::
+    .. warning::
 
-            Para que el producto este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el producto solo estará disponible para una sola organización.
+        Para que el producto este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el producto solo estará disponible para una sola organización.
 
-    #. Introduzca en el campo "**Código**", el código para el producto que esta registrando, este código es definido por un estándar de códificación establecido en `ERPyA`_ para la :ref:`lve/standard-coding/product`.
+#. Introduzca en el campo "**Código**", el código para el producto que esta registrando, este código es definido por un estándar de códificación establecido en `ERPyA`_ para la :ref:`lve/standard-coding/product`.
 
-        |Campo Código|
+    |Campo Código|
 
-        Imagen 4. Campo Código
+    Imagen 4. Campo Código
 
-    #. Introduzca en el campo "**Nombre**", el nombre del producto que esta registrando.
+#. Introduzca en el campo "**Nombre**", el nombre del producto que esta registrando.
 
-        |Campo Nombre|
+    |Campo Nombre|
 
-        Imagen 5. Campo Nombre
+    Imagen 5. Campo Nombre
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción correspondiente al producto que esta registrando.
+#. Introduzca en el campo "**Descripción**", una breve descripción correspondiente al producto que esta registrando.
 
-        |Campo Descripción|
+    |Campo Descripción|
 
-        Imagen 6. Campo Descripción
+    Imagen 6. Campo Descripción
 
-    #. Introduzca en el campo "**Nota de Documento**", cualquier información adicional que considere necesaria.
+#. Introduzca en el campo "**Nota de Documento**", cualquier información adicional que considere necesaria.
 
-        |Campo Nota de Documento|
+    |Campo Nota de Documento|
 
-        Imagen 7. Campo Nota de Documento
+    Imagen 7. Campo Nota de Documento
 
-    #. Introduzca en el campo "**UPC/EAN**", el código de barras correspondiente al producto que esta registrando.
+#. Introduzca en el campo "**UPC/EAN**", el código de barras correspondiente al producto que esta registrando.
 
-        |Campo UPC/EAN|
+    |Campo UPC/EAN|
 
-        Imagen 8. Campo UPC/EAN
+    Imagen 8. Campo UPC/EAN
 
-    #. Introduzca en el campo "**UM Almacenamiento**", la unidad de medida de almacenamiento del producto.
+#. Introduzca en el campo "**UM Almacenamiento**", la unidad de medida de almacenamiento del producto.
 
-        |Campo UM Almacenamiento|
+    |Campo UM Almacenamiento|
 
-        Imagen 9. Campo UM Almacenamiento
+    Imagen 9. Campo UM Almacenamiento
 
-    #. Seleccione en el campo "**Categoría del Producto**", la categoría a la cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/categoria-productos` elaborado por `ERPyA`_.
+#. Seleccione en el campo "**Categoría del Producto**", la categoría a la cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/categoria-productos` elaborado por `ERPyA`_.
 
-        |Campo Categoría del Producto|
+    |Campo Categoría del Producto|
 
-        Imagen 10. Campo Categoría del Producto
+    Imagen 10. Campo Categoría del Producto
 
-    #. Seleccione en el campo "**Grupo de Producto**", el grupo al cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/grupo-producto` elaborado por `ERPyA`_.
+#. Seleccione en el campo "**Grupo de Producto**", el grupo al cual pertenece el producto que esta registrando, la selección de este define el comportamiento del producto que se esta registrando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/grupo-producto` elaborado por `ERPyA`_.
 
-        |Campo Grupo de Producto|
+    |Campo Grupo de Producto|
 
-        Imagen 11. Campo Grupo de Producto
+    Imagen 11. Campo Grupo de Producto
 
-    #. Seleccione en el campo "**Clase de Producto**", la clase a la cual pertenece el producto que esta registrando.
+#. Seleccione en el campo "**Clase de Producto**", la clase a la cual pertenece el producto que esta registrando.
 
-        |Campo Clase de Producto|
+    |Campo Clase de Producto|
 
-        Imagen 12. Campo Clase de Producto
+    Imagen 12. Campo Clase de Producto
 
-    #. Seleccione en el campo "**Clasificación de Producto**", la clasificación a la cual pertenece el producto que esta registrando.
+#. Seleccione en el campo "**Clasificación de Producto**", la clasificación a la cual pertenece el producto que esta registrando.
 
-        |Campo Clasificación de Producto|
+    |Campo Clasificación de Producto|
 
-        Imagen 13. Campo Clasificación de Producto
+    Imagen 13. Campo Clasificación de Producto
 
-    #. Seleccione en el campo "**Categoría del Impuesto**", la agrupación de impuestos aplicale al producto que esta registrando.
+#. Seleccione en el campo "**Categoría del Impuesto**", la agrupación de impuestos aplicale al producto que esta registrando.
 
-        |Campo Categoría del Impuesto|
+    |Campo Categoría del Impuesto|
 
-        Imagen 14. Campo Categoría del Impuesto
+    Imagen 14. Campo Categoría del Impuesto
 
-    #. Seleccione en el campo "**Tipo de Impuesto**", el tipo de impuesto aplicable al producto que esta registrando.
+#. Seleccione en el campo "**Tipo de Impuesto**", el tipo de impuesto aplicable al producto que esta registrando.
 
-        |Campo Tipo de Impuesto|
+    |Campo Tipo de Impuesto|
 
-        Imagen 15. Campo Tipo de Impuesto
+    Imagen 15. Campo Tipo de Impuesto
 
-    #. Introduzca en el campo "**Grupo 1**", el grupo al cual pertenece el producto.
+#. Introduzca en el campo "**Grupo 1**", el grupo al cual pertenece el producto.
 
-        |Campo Grupo 1|
+    |Campo Grupo 1|
 
-        Imagen 16. Campo Grupo 1
+    Imagen 16. Campo Grupo 1
 
-    #. Introduzca en el campo "**Grupo 2**", el grupo adicional al cual pertenece el producto.
+#. Introduzca en el campo "**Grupo 2**", el grupo adicional al cual pertenece el producto.
 
-        |Campo Grupo 2|
+    |Campo Grupo 2|
 
-        Imagen 17. Campo Grupo 2
+    Imagen 17. Campo Grupo 2
 
-    #. Seleccione en el campo "**Reconocimiento de Ingreso**", como serán reconocidos los ingresos para el producto.
+#. Seleccione en el campo "**Reconocimiento de Ingreso**", como serán reconocidos los ingresos para el producto.
 
-        |Campo Reconocimiento de Ingreso|
+    |Campo Reconocimiento de Ingreso|
 
-        Imagen 18. Campo Reconocimiento de Ingreso
+    Imagen 18. Campo Reconocimiento de Ingreso
 
-    #. Introduzca en el campo "**Línea de Producto**", la clasificación para agrupar el producto.
+#. Introduzca en el campo "**Línea de Producto**", la clasificación para agrupar el producto.
 
-        |Campo Línea de Producto|
+    |Campo Línea de Producto|
 
-        Imagen 19. Campo Línea de Producto
+    Imagen 19. Campo Línea de Producto
 
-    #. Seleccione en el campo "**UM**", la unidad de medida del producto.
+#. Seleccione en el campo "**UM**", la unidad de medida del producto.
 
-        |Campo UM|
+    |Campo UM|
 
-        Imagen 20. Campo UM
+    Imagen 20. Campo UM
 
-    #. Seleccione en el campo "**Agente Compañía**", el agente de compras del producto que esta registrando.
+#. Seleccione en el campo "**Agente Compañía**", el agente de compras del producto que esta registrando.
 
-        |Campo Agente Compañía|
+    |Campo Agente Compañía|
 
-        Imagen 21. Campo Agente Compañía
+    Imagen 21. Campo Agente Compañía
 
-    #. Seleccione en el campo "**Tipo de Producto**", el tipo de producto que esta registrando.
+#. Seleccione en el campo "**Tipo de Producto**", el tipo de producto que esta registrando.
 
-        |Campo Tipo de Producto|
+    |Campo Tipo de Producto|
 
-        Imagen 22. Campo Tipo de Producto
+    Imagen 22. Campo Tipo de Producto
 
-    #. Seleccione en "**Patrón de Correo**", la plantilla utilizada para ser enviada a los socios del negocio con respecto al producto.
+#. Seleccione en "**Patrón de Correo**", la plantilla utilizada para ser enviada a los socios del negocio con respecto al producto.
 
-        |Campo Patrón de Correo|
+    |Campo Patrón de Correo|
 
-        Imagen 23. Campo Patrón de Correo
+    Imagen 23. Campo Patrón de Correo
 
-    #. Introduzca en el campo "**Peso**", el peso del producto que esta registrando.
+#. Introduzca en el campo "**Peso**", el peso del producto que esta registrando.
 
-        |Campo Peso|
+    |Campo Peso|
 
-        Imagen 24. Campo Peso
+    Imagen 24. Campo Peso
 
-    #. Introduzca en el campo "**Volumen**", el volumen del producto que esta registrando.
+#. Introduzca en el campo "**Volumen**", el volumen del producto que esta registrando.
 
-        |Campo Volumen|
+    |Campo Volumen|
 
-        Imagen 25. Campo Volumen
+    Imagen 25. Campo Volumen
 
-    #. Introduzca en el campo "**Peso Mínimo**", el peso mínimo del producto que esta registrando.
+#. Introduzca en el campo "**Peso Mínimo**", el peso mínimo del producto que esta registrando.
 
-        |Campo Peso Mínimo|
+    |Campo Peso Mínimo|
 
-        Imagen 26. Campo Peso Mínimo
+    Imagen 26. Campo Peso Mínimo
 
-    #. Introduzca en el campo "**Peso Máximo**", el peso máximo del producto que esta registrando.
+#. Introduzca en el campo "**Peso Máximo**", el peso máximo del producto que esta registrando.
 
-        |Campo Peso Máximo|
+    |Campo Peso Máximo|
 
-        Imagen 27. Campo Peso Máximo
+    Imagen 27. Campo Peso Máximo
 
-    #. Seleccione el checklist "**Producto a Granel**", para indicar que el producto que esta registrando es a granel.
+#. Seleccione el checklist "**Producto a Granel**", para indicar que el producto que esta registrando es a granel.
 
-        |Campo Producto a Granel|
+    |Campo Producto a Granel|
 
-        Imagen 28. Campo Producto a Granel
+    Imagen 28. Campo Producto a Granel
 
-    #. Seleccione en el campo "**Categoría de Fletes**", la categoría de fletes a aplicar al producto seleccionado.
+#. Seleccione en el campo "**Categoría de Fletes**", la categoría de fletes a aplicar al producto seleccionado.
 
-        |Campo Categoría de Fletes|
+    |Campo Categoría de Fletes|
 
-        Imagen 29. Campo Categoría de Fletes
+    Imagen 29. Campo Categoría de Fletes
 
-    #. Seleccione el checklist "**Entrega Directa**", para indicar que los envíos del producto que esta registrando, se realizarán directamente al socio del negocio cliente.
+#. Seleccione el checklist "**Entrega Directa**", para indicar que los envíos del producto que esta registrando, se realizarán directamente al socio del negocio cliente.
 
-        |Campo Entrega Directa|
+    |Campo Entrega Directa|
 
-        Imagen 30. Campo Entrega Directa
+    Imagen 30. Campo Entrega Directa
 
-    #. Podrá apreciar el checklist "**Almacenado**", indicando que la empresa almacena el producto que esta registrando.
+#. Podrá apreciar el checklist "**Almacenado**", indicando que la empresa almacena el producto que esta registrando.
 
-        |Campo Almacenado|
+    |Campo Almacenado|
 
-        Imagen 31. Campo Almacenado
+    Imagen 31. Campo Almacenado
 
-    #. Seleccione en el campo "**Ubicación**", la ubicación de almacenamiento dentro de la empresa del producto que esta registrando.
+#. Seleccione en el campo "**Ubicación**", la ubicación de almacenamiento dentro de la empresa del producto que esta registrando.
 
-        |Campo Ubicación|
+    |Campo Ubicación|
 
-        Imagen 32. Campo Ubicación
+    Imagen 32. Campo Ubicación
 
-    #. Introduzca en el campo "**Ancho de Anaquel**", el ancho requerido del anaquel para almacenar el producto que esta registrando.
+#. Introduzca en el campo "**Ancho de Anaquel**", el ancho requerido del anaquel para almacenar el producto que esta registrando.
 
-        |Campo Ancho de Anaquel|
+    |Campo Ancho de Anaquel|
 
-        Imagen 33. Campo Ancho de Anaquel
+    Imagen 33. Campo Ancho de Anaquel
 
-    #. Introduzca en el campo "**Altura del Anaquel**", la altura requerida del anaquel para almacenar el producto que esta registrando.
+#. Introduzca en el campo "**Altura del Anaquel**", la altura requerida del anaquel para almacenar el producto que esta registrando.
 
-        |Campora del Anaquel|
+    |Campora del Anaquel|
 
-        Imagen 34. Campora del Anaquel
+    Imagen 34. Campora del Anaquel
 
-    #. Introduzca en el campo "**Profundidad del Anaquel**", la profundidad requerida del anaquel para almacenar el producto que esta registrando.
+#. Introduzca en el campo "**Profundidad del Anaquel**", la profundidad requerida del anaquel para almacenar el producto que esta registrando.
 
-        |Campo Profundidad del Anaquel|
+    |Campo Profundidad del Anaquel|
 
-        Imagen 35. Campo Profundidad del Anaquel
+    Imagen 35. Campo Profundidad del Anaquel
 
-    #. Introduzca en el campo "**Unidades por Paquete**", el número de unidades del producto que esta registrando que conforman un paquete.
+#. Introduzca en el campo "**Unidades por Paquete**", el número de unidades del producto que esta registrando que conforman un paquete.
 
-        |Campo Unidades por Paquete|
+    |Campo Unidades por Paquete|
 
-        Imagen 36. Campo Unidades por Paquete
+    Imagen 36. Campo Unidades por Paquete
 
-    #. Introduzca en el campo "**Unidades por Tarima**",
+#. Introduzca en el campo "**Unidades por Tarima**",
 
-        |Campo Unidades por Tarima|
+    |Campo Unidades por Tarima|
 
-        Imagen 37. Campo Unidades por Tarima
+    Imagen 37. Campo Unidades por Tarima
 
-    #. Seleccione el checklist "**Descontinuado**", para indicar que el producto no se encuentra disponible.
+#. Seleccione el checklist "**Descontinuado**", para indicar que el producto no se encuentra disponible.
 
-        |Campo Descontinuado|
+    |Campo Descontinuado|
 
-        Imagen 38. Campo Descontinuado
+    Imagen 38. Campo Descontinuado
 
-    #. Seleccione en el campo "**Tipo de Suscripción**", el tipo de suscripción del producto.
+#. Seleccione en el campo "**Tipo de Suscripción**", el tipo de suscripción del producto.
 
-        |Campo Tipo de Suscripción|
+    |Campo Tipo de Suscripción|
 
-        Imagen 39. Campo Tipo de Suscripción
+    Imagen 39. Campo Tipo de Suscripción
 
-    #. Seleccione el checklist "**Excluir de Auto Entrega**", para excluir el producto de la entrega automática.
+#. Seleccione el checklist "**Excluir de Auto Entrega**", para excluir el producto de la entrega automática.
 
-        |Campo Excluir de Auto Entrega|
+    |Campo Excluir de Auto Entrega|
 
-        Imagen 40. Campo Excluir de Auto Entrega
+    Imagen 40. Campo Excluir de Auto Entrega
 
-    #. Introduzca en el campo "**Dirección Web Imagen**", la url de la imagen del producto.
+#. Introduzca en el campo "**Dirección Web Imagen**", la url de la imagen del producto.
 
-        |Campo Dirección Web Imagen|
+    |Campo Dirección Web Imagen|
 
-        Imagen 41. Campo Dirección Web Imagen
+    Imagen 41. Campo Dirección Web Imagen
 
-    #. Introduzca en el campo "**Dirección Web Descripción**", la url de la descripción del producto.
+#. Introduzca en el campo "**Dirección Web Descripción**", la url de la descripción del producto.
 
-        |Campo Dirección Web Descripción|
+    |Campo Dirección Web Descripción|
 
-        Imagen 42. Campo Dirección Web Descripción
+    Imagen 42. Campo Dirección Web Descripción
 
-    #. Introduzca en el campo "**Días de Caducidad**", el número de días límite de disponibilidad o garantía del producto que esta registrando.
+#. Introduzca en el campo "**Días de Caducidad**", el número de días límite de disponibilidad o garantía del producto que esta registrando.
 
-        |Campo Días de Caducidad|
+    |Campo Días de Caducidad|
 
-        Imagen 43. Campo Días de Caducidad
+    Imagen 43. Campo Días de Caducidad
 
-    #. Introduzca en el campo "**Días Mínimos Caducidad**", el número mínimo de días límite de disponibilidad o garantía del producto que esta registrando.
+#. Introduzca en el campo "**Días Mínimos Caducidad**", el número mínimo de días límite de disponibilidad o garantía del producto que esta registrando.
 
-        |Campo Días Mínimos Caducidad|
+    |Campo Días Mínimos Caducidad|
 
-        Imagen 44. Campo Días Mínimos Caducidad
+    Imagen 44. Campo Días Mínimos Caducidad
 
-    #. Seleccione en el campo "**Conjunto de Atributos**", el atributo del producto que esta registrando.
+#. Seleccione en el campo "**Conjunto de Atributos**", el atributo del producto que esta registrando.
 
-        |Campo Conjunto de Atributos|
+    |Campo Conjunto de Atributos|
 
-        Imagen 45. Campo Conjunto de Atributos
+    Imagen 45. Campo Conjunto de Atributos
 
-    #. Seleccione en el campo "**Instancia Conjunto de Atributos**", el conjunto de atributos perteneciente al producto que esta registrando.
+#. Seleccione en el campo "**Instancia Conjunto de Atributos**", el conjunto de atributos perteneciente al producto que esta registrando.
 
-        |Campo Instancia Conjunto de Atributo|
+    |Campo Instancia Conjunto de Atributo|
 
-        Imagen 46. Campo Instancia Conjunto de Atributo
+    Imagen 46. Campo Instancia Conjunto de Atributo
 
-    #. Introduzca en el campo "**Código CPE**", el código CPE perteneciente al producto que esta registrando.
+#. Introduzca en el campo "**Código CPE**", el código CPE perteneciente al producto que esta registrando.
 
-        |Campo Código CPE|
+    |Campo Código CPE|
 
-        Imagen 47. Campo Código CPE
+    Imagen 47. Campo Código CPE
 
 #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere.
 
@@ -388,59 +388,59 @@
 
     Imagen 49. Pestaña Reabastecer
 
-    #. Seleccione en el campo "**Almacén**", el almacén relacionado con el registro que se encuentra realizando.
+#. Seleccione en el campo "**Almacén**", el almacén relacionado con el registro que se encuentra realizando.
 
-        Este campo identifica un punto único donde los productos son almacenados
+    Este campo identifica un punto único donde los productos son almacenados
 
-        |Campo Almacén|
+    |Campo Almacén|
 
-        Imagen 50. Campo Almacén
+    Imagen 50. Campo Almacén
 
-    #. Seleccione en el campo "**Ubicación**", la ubicación exacta en el almacén relacionada con el registro que se encuentra realizando.
+#. Seleccione en el campo "**Ubicación**", la ubicación exacta en el almacén relacionada con el registro que se encuentra realizando.
 
-        Este campo indica en que parte del almacén se localiza el producto
+    Este campo indica en que parte del almacén se localiza el producto
 
-        |Campo Ubicación Reabastecer|
+    |Campo Ubicación Reabastecer|
 
-        Imagen 51. Campo Ubicación
+    Imagen 51. Campo Ubicación
 
-    #. Seleccione en el campo "**Tipo de Reabastecimiento**", el tipo de reabastecimiento relacionado con el registro que se encuentra realizando.
+#. Seleccione en el campo "**Tipo de Reabastecimiento**", el tipo de reabastecimiento relacionado con el registro que se encuentra realizando.
 
-        Método para re-ordenar un producto. El tipo de reabastecimiento indica si este producto será manualmente reordenado; ordenado cuando la cantidad esté por debajo de la cantidad mínima u ordenado cuando esté debajo de la cantidad máxima.
+    Método para re-ordenar un producto. El tipo de reabastecimiento indica si este producto será manualmente reordenado; ordenado cuando la cantidad esté por debajo de la cantidad mínima u ordenado cuando esté debajo de la cantidad máxima.
 
-        |Campo Tipo de Reabastecimiento|
+    |Campo Tipo de Reabastecimiento|
 
-        Imagen 52. Campo Tipo de Reabastecimiento
+    Imagen 52. Campo Tipo de Reabastecimiento
 
-    #. Seleccione en el campo "**Nivel Mínimo**", el nivel mínimo relacionado con el registro que se encuentra realizando.
+#. Seleccione en el campo "**Nivel Mínimo**", el nivel mínimo relacionado con el registro que se encuentra realizando.
 
-        Este campo indica la cantidad mínima de este producto a ser almacenada en inventario
+    Este campo indica la cantidad mínima de este producto a ser almacenada en inventario
 
-        |Campo Nivel Mínimo|
+    |Campo Nivel Mínimo|
 
-        Imagen 53. Campo Nivel Mínimo
+    Imagen 53. Campo Nivel Mínimo
 
-    #. Seleccione en el campo "**Nivel Máximo**", el nivel máximo relacionado con el registro que se encuentra realizando.
+#. Seleccione en el campo "**Nivel Máximo**", el nivel máximo relacionado con el registro que se encuentra realizando.
 
-        Este campo indica la cantidad máxima de este producto a ser almacenada en inventario
+    Este campo indica la cantidad máxima de este producto a ser almacenada en inventario
 
-        |Campo Nivel Máximo|
+    |Campo Nivel Máximo|
 
-        Imagen 54. Campo Nivel Mínimo
+    Imagen 54. Campo Nivel Mínimo
 
-    #. Seleccione en el campo "**Almacén Fuente**", el almacén fuente relacionado con el registro que se encuentra realizando.
+#. Seleccione en el campo "**Almacén Fuente**", el almacén fuente relacionado con el registro que se encuentra realizando.
 
-        Almacén opcional para reabastecimiento. Si se define, este almacén será seleccionado para reabastecimiento de producto
+    Almacén opcional para reabastecimiento. Si se define, este almacén será seleccionado para reabastecimiento de producto
 
-        |Campo Almacén Fuente|
+    |Campo Almacén Fuente|
 
-        Imagen 55. Campo Almacén Fuente
+    Imagen 55. Campo Almacén Fuente
 
-    #. Seleccione en el campo "**Tamaño Cantidad Lote**", el almacén fuente relacionado con el registro que se encuentra realizando.
+#. Seleccione en el campo "**Tamaño Cantidad Lote**", el almacén fuente relacionado con el registro que se encuentra realizando.
 
-        |Campo Tamaño Cantidad Lote|
+    |Campo Tamaño Cantidad Lote|
 
-        Imagen 56. Campo Tamaño Cantidad Lote
+    Imagen 56. Campo Tamaño Cantidad Lote
 
 #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere.
 
@@ -465,71 +465,71 @@ En esta ventana se registran los precios y reglas de compras por socios del nego
 
     Imagen 58. Pestaña Compras
 
-    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor del producto que esta registrando.
+#. Seleccione en el campo "**Socio del Negocio**", el socio del negocio proveedor del producto que esta registrando.
 
-        |Campo Socio del Negocio Proveedor|
+    |Campo Socio del Negocio Proveedor|
 
-        Imagen 59. Campo Socio del Negocio Proveedor
+    Imagen 59. Campo Socio del Negocio Proveedor
 
-    #. Introduzca en el campo "**UPC/EAN**", el código de barras correspondiente al producto que esta registrando.
+#. Introduzca en el campo "**UPC/EAN**", el código de barras correspondiente al producto que esta registrando.
 
-        |Campo UPC/EAN Compras|
+    |Campo UPC/EAN Compras|
 
-        Imagen 60. Campo UPC/EAN
+    Imagen 60. Campo UPC/EAN
 
-    #. Seleccione en el campo "**Moneda**", la moneda utilizada para la compra del producto que esta registrando.
+#. Seleccione en el campo "**Moneda**", la moneda utilizada para la compra del producto que esta registrando.
 
-        |Campo Moneda|
+    |Campo Moneda|
 
-        Imagen 61. Campo Moneda
+    Imagen 61. Campo Moneda
 
-    #. Introduzca en el campo "**Precio de Lista**", el precio del producto en la moneda seleccionada.
+#. Introduzca en el campo "**Precio de Lista**", el precio del producto en la moneda seleccionada.
 
-        |Campo Precio de Lista|
+    |Campo Precio de Lista|
 
-        Imagen 62. Campo Precio de Lista
+    Imagen 62. Campo Precio de Lista
 
-    #. Seleccione en el campo "**Fecha de Efectividad del Precio**", la fecha en la que el precio ingresado es válido.
+#. Seleccione en el campo "**Fecha de Efectividad del Precio**", la fecha en la que el precio ingresado es válido.
 
-        |Campo Fecha de Efectividad del Precio|
+    |Campo Fecha de Efectividad del Precio|
 
-        Imagen 63. Campo Fecha de Efectividad del Precio
+    Imagen 63. Campo Fecha de Efectividad del Precio
 
-    #. Introduzca en el campo "**Precio OC**", el precio unitario del producto para una orden de compra.
+#. Introduzca en el campo "**Precio OC**", el precio unitario del producto para una orden de compra.
 
-        |Campo Precio OC|
+    |Campo Precio OC|
 
-        Imagen 64. Campo Precio OC
+    Imagen 64. Campo Precio OC
 
-    #. Seleccione en el campo "**UM**", la unidad de medida para realizar la compra del producto que esta registrando.
+#. Seleccione en el campo "**UM**", la unidad de medida para realizar la compra del producto que esta registrando.
 
-        |Campo UM Compras|
+    |Campo UM Compras|
 
-        Imagen 65. Campo UM
+    Imagen 65. Campo UM
 
-    #. Introduzca en el campo "**Mínimo a Ordenar**", la cantidad mínima a ordenar en la unidad de medida seleccionada del producto que esta registrando.
+#. Introduzca en el campo "**Mínimo a Ordenar**", la cantidad mínima a ordenar en la unidad de medida seleccionada del producto que esta registrando.
 
-        |Campo Mínimo a Ordenar|
+    |Campo Mínimo a Ordenar|
 
-        Imagen 66. Campo Mínimo a Ordenar
+    Imagen 66. Campo Mínimo a Ordenar
 
-    #. Introduzca en el campo "**Múltiplo a Ordenar**", el número de productos que contiene la unidad de medida seleccionada.
+#. Introduzca en el campo "**Múltiplo a Ordenar**", el número de productos que contiene la unidad de medida seleccionada.
 
-        |Campo Múltiplo a Ordenar|
+    |Campo Múltiplo a Ordenar|
 
-        Imagen 67. Campo Múltiplo a Ordenar
+    Imagen 67. Campo Múltiplo a Ordenar
 
-    #. Introduzca en el campo "**Tiempo de Entrega Prometido**", el número de días existentes entre la fecha de la orden y la fecha prometida de la entrega.
+#. Introduzca en el campo "**Tiempo de Entrega Prometido**", el número de días existentes entre la fecha de la orden y la fecha prometida de la entrega.
 
-        |Campo Tiempo de Entrega Prometido|
+    |Campo Tiempo de Entrega Prometido|
 
-        Imagen 68. Campo Tiempo de Entrega Prometido
+    Imagen 68. Campo Tiempo de Entrega Prometido
 
-    #. Introduzca en el campo "**Costo por Orden**", el costo por la orden para el producto que esta registrando.
+#. Introduzca en el campo "**Costo por Orden**", el costo por la orden para el producto que esta registrando.
 
-        |Campo Costo por Orden|
+    |Campo Costo por Orden|
 
-        Imagen 69. Campo Costo por Orden
+    Imagen 69. Campo Costo por Orden
 
 #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere.
 
@@ -548,11 +548,11 @@ En esta ventana se registran las listas de precios utilizadas por la empresa, co
 
     Imagen 71. Pestaña Precio
 
-    #. Seleccione en el campo "**Versión de Lista de Precios**", la lista de precios que será utilizada para el producto que esta registrando.
+#. Seleccione en el campo "**Versión de Lista de Precios**", la lista de precios que será utilizada para el producto que esta registrando.
 
-        |Campo Versión de Lista de Precios|
+    |Campo Versión de Lista de Precios|
 
-        Imagen 72. Campo Versión de Lista de Precios
+    Imagen 72. Campo Versión de Lista de Precios
 
 #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere.
 
@@ -571,17 +571,17 @@ En esta ventana se registran las conversiones de las diferentes unidades de medi
 
     Imagen 74. Pestaña Conversión Unidad de Medida
 
-    #. Seleccione en el campo "**UM Destino**", la unidad de medida a la cual será realizada la conversión.
+#. Seleccione en el campo "**UM Destino**", la unidad de medida a la cual será realizada la conversión.
 
-        |Campo UM Destino|
+    |Campo UM Destino|
 
-        Imagen 75. Campo UM Destino
+    Imagen 75. Campo UM Destino
 
-    #. Introduzca en el campo "**Factor de Destino a Base**", el número de productos que contiene la unidad de medida seleccionada.
+#. Introduzca en el campo "**Factor de Destino a Base**", el número de productos que contiene la unidad de medida seleccionada.
 
-        |Campo Factor de Destino a Base|
+    |Campo Factor de Destino a Base|
 
-        Imagen 76. Campo Factor de Destino a Base
+    Imagen 76. Campo Factor de Destino a Base
 
 #. Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere.
 
