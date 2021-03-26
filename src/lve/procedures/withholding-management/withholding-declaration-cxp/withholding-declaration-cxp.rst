@@ -26,19 +26,19 @@
 **Generar Declaraciones de Retenciones**
 ========================================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Manejo de Retenciones**", luego seleccione la ventana "**Generar Declaración de Retenciones**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Manejo de Retenciones**", luego seleccione la ventana "**Generar Declaración de Retenciones**".
 
     |Menú de ADempiere 1|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana de búsqueda inteligente "**Generar Declaración de Retenciones**", con los campos "**Tipo de Retención**" en el cual se selecciona el tipo de retención a declarar y "**Fecha Contable**" con el cual se establece el rango de fecha para filtrar la búsqueda.
+ Podrá visualizar la ventana de búsqueda inteligente "**Generar Declaración de Retenciones**", con los campos "**Tipo de Retención**" en el cual se selecciona el tipo de retención a declarar y "**Fecha Contable**" con el cual se establece el rango de fecha para filtrar la búsqueda.
 
     |Ventana Generar Declaración de Retenciones|
 
     Imagen 2. Ventana de Búsqueda Inteligente Generar Declaración de Retenciones
 
-    #. Seleccione en el campo "**Tipo de Retención**", el tipo de retención por la cual desea filtrar la búsqueda para realizar la declaración del mismo. Para ejemplificar el registro es utilizada la opción "**I.V.A_Retención de I.V.A.**".
+     Seleccione en el campo "**Tipo de Retención**", el tipo de retención por la cual desea filtrar la búsqueda para realizar la declaración del mismo. Para ejemplificar el registro es utilizada la opción "**I.V.A_Retención de I.V.A.**".
 
         |Campo Tipo de Retención 1|
 
@@ -48,13 +48,13 @@
 
             Recuerde que en el campo "**Tipo de Retención**", puede seleccionar cualquiera de las opciones "**IM_Retencion de Impuesto Municipal**", "**ISLR_Retención de I.S.L.R.**" o "**I.V.A_Retención de I.V.A.**", para realizar la búsqueda de las retenciones aplicadas de acuerdo a la opción seleccionada.
 
-    #. Seleccione en el campo "**Fecha Contable**", el rango de fecha para filtrar la búsqueda de las retenciones aplicadas, según el tipo de retención seleccionado.
+     Seleccione en el campo "**Fecha Contable**", el rango de fecha para filtrar la búsqueda de las retenciones aplicadas, según el tipo de retención seleccionado.
 
         |Campo Fecha Contable|
 
         Imagen 4. Campo Fecha Contable
 
-    #. Seleccione la opción "**Comenzar Búsqueda**", para búscar los registros que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda.
+     Seleccione la opción "**Comenzar Búsqueda**", para búscar los registros que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda.
 
         |Opción Comenzar Búsqueda|
 
@@ -64,7 +64,7 @@
 
             El campo "**F. Documento**" es la fecha contable que tomará el documento de declaración de retenciones al culminar el proceso "**Generar Declaración de Retenciones**". `ERPyA`_ recomienda ingresar la fecha en la que se declara la retención.
 
-    #. Seleccione las diferentes retenciones a declarar y posteriormente seleccione la opción "**OK**" para culminar el proceso "**Generar Declaración de Retenciones**".
+     Seleccione las diferentes retenciones a declarar y posteriormente seleccione la opción "**OK**" para culminar el proceso "**Generar Declaración de Retenciones**".
 
         |Selección de Retención y Opción OK|
 
@@ -74,7 +74,7 @@
 
             En la ventana del proceso se muestran todas las retenciones aplicadas a los diferentes socios del negocio que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda.
 
-#. Podrá visualizar en la parte inferior izquierda de la ventana, el número del documento generado.
+ Podrá visualizar en la parte inferior izquierda de la ventana, el número del documento generado.
 
     |Número de Declaración Generada|
 
@@ -89,13 +89,13 @@
 **Consultar Declaración de Retenciones**
 ========================================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documento por Pagar**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documento por Pagar**".
 
     |Menú de ADempiere 2|
 
     Imagen 8. Menú de ADempiere
 
-#. Al buscar el documento de declaración de retenciones, con el número de documento generado en la ventana del proceso "**Generar Declaración de Retenciones**", podrá visualizar el mismo de la siguiente manera.
+ Al buscar el documento de declaración de retenciones, con el número de documento generado en la ventana del proceso "**Generar Declaración de Retenciones**", podrá visualizar el mismo de la siguiente manera.
 
     |Documento por Pagar 1|
 
@@ -104,25 +104,25 @@
 **Detalle de Declaraciones de Retenciones**
 ===========================================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Localización Venezuela**", luego seleccione la ventana "**Detalle de Retenciones**".
+ Ubique y seleccione en el menú de ADempiere, la carpeta "**Localización Venezuela**", luego seleccione la ventana "**Detalle de Retenciones**".
 
     |Menú de ADempiere 3|
 
     Imagen 10. Menú de ADempiere
 
-#. Podrá visualizar la ventana del reporte "**Detalle de Retenciones**", con diferentes campos o filtros para realizar la búsqueda de la información según lo requerido por el usuario y generar el reporte de acuerdo a lo seleccionado en los mismos.
+ Podrá visualizar la ventana del reporte "**Detalle de Retenciones**", con diferentes campos o filtros para realizar la búsqueda de la información según lo requerido por el usuario y generar el reporte de acuerdo a lo seleccionado en los mismos.
 
     |Ventana Detalle de Retenciones 1|
 
     Imagen 11. Ventana del Reporte Detalle de Retenciones
 
-    #. Seleccione en el campo "**Fecha Contable**", el rango de fecha para filtrar la búsqueda de las declaraciones realizadas. 
+     Seleccione en el campo "**Fecha Contable**", el rango de fecha para filtrar la búsqueda de las declaraciones realizadas. 
 
         |Campo Fecha Contable 1|
 
         Imagen 12. Campo Fecha Contable
 
-    #. Seleccione en el campo "**Tipo de Retención**", el tipo de retención por la cual desea filtrar la búsqueda de las declaraciones realizadas. Para ejemplificar el registro es utilizada la opción "**I.V.A_Retención de I.V.A.**".
+     Seleccione en el campo "**Tipo de Retención**", el tipo de retención por la cual desea filtrar la búsqueda de las declaraciones realizadas. Para ejemplificar el registro es utilizada la opción "**I.V.A_Retención de I.V.A.**".
 
         |Campo Tipo de Retención 2|
 
@@ -132,19 +132,19 @@
 
             Recuerde que en el campo "**Tipo de Retención**", puede seleccionar cualquiera de las opciones "**IM_Retencion de Impuesto Municipal**", "**ISLR_Retención de I.S.L.R.**" o "**I.V.A_Retención de I.V.A.**", para realizar la búsqueda de las declaraciones generadas de acuerdo a la opción seleccionada.
 
-    #. Seleccione la opción "**OK**" para generar el reporte "**Detalle de Retenciones**"
+     Seleccione la opción "**OK**" para generar el reporte "**Detalle de Retenciones**"
 
         |Opción OK 1|
 
         Imagen 14. Opción OK
 
-    #. Podrá visualizar el reporte con todas las retenciones aplicadas a los diferentes socios del negocio que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda.
+     Podrá visualizar el reporte con todas las retenciones aplicadas a los diferentes socios del negocio que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda.
 
         |Reporte de Detalle de Retenciones 1|
 
         Imagen 15. Reporte de Detalle de Retenciones
 
-    #. Para visualizar el reporte de las diferentes declaraciones de retenciones generadas a los diferentes socios del negocio que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda, seleccione en el campo o filtro "**Formato de Impresión**", la opción "**Declaración_TXT_IVA**". 
+     Para visualizar el reporte de las diferentes declaraciones de retenciones generadas a los diferentes socios del negocio que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda, seleccione en el campo o filtro "**Formato de Impresión**", la opción "**Declaración_TXT_IVA**". 
 
         |Reporte de Detalle de Declaraciones 1|
 
@@ -154,13 +154,13 @@
 
             La opción en el campo "**Formato de Impresión**", para visualizar el reporte de las declaraciones de ISLR es "**RelaciónRetencionesISLR**".
 
-    #. Seleccione el icono "**Exportar Registros**", para exportar el archivo o documento que debe ser importado a al portal del SENIAT.
+     Seleccione el icono "**Exportar Registros**", para exportar el archivo o documento que debe ser importado a al portal del SENIAT.
 
         |Icono Exportar Registro 1|
 
         Imagen 17. Icono Exportar Registros 
 
-        #. Podrá visualizar la siguiente ventana donde debe seleccionar en el campo "**Archivo de Tipo**", la opción "**Declaración de I.V.A (txt) Archivo de exportación de  Declaración de I.V.A**" y posteriormente la opción "**OK**" para generar el archivo o documento de declaración de retenciones de IVA.
+         Podrá visualizar la siguiente ventana donde debe seleccionar en el campo "**Archivo de Tipo**", la opción "**Declaración de I.V.A (txt) Archivo de exportación de  Declaración de I.V.A**" y posteriormente la opción "**OK**" para generar el archivo o documento de declaración de retenciones de IVA.
 
             |Archivo de Tipo 1|
 
@@ -170,7 +170,7 @@
 
                 La opción para generar el archivo o documento de declaración de retenciones de ISLR es "**Declaración de I.S.L.R (xml) Export file format for Withholding Rental Tax applied to documents**".
 
-    #. Podrá visualizar el archivo exportado en la parte inferior izquierda de la ventana del reporte "**Detalle de Retenciones**".
+     Podrá visualizar el archivo exportado en la parte inferior izquierda de la ventana del reporte "**Detalle de Retenciones**".
 
         |Archivo o Documento Exportado 1|
 
@@ -185,7 +185,7 @@
 **Archivo TXT de IVA Exportado**
 --------------------------------
 
-#. Al abrir el archivo podrá visualizarlo de la siguiente manera
+ Al abrir el archivo podrá visualizarlo de la siguiente manera
 
     ::
 
@@ -194,7 +194,7 @@
         J000000006	202101	2020-10-13	C	01	J000000779	11236	00-012997	171375555.12	147737547.49	23638007.63	0	20210110058700	0.00	16.00	0
         J000000006	202101	2020-12-22	C	01	J000000605	00007014	00-008546	22554057.84	19443153.31	2333178.40	0	20210110058704	0.00	16.00	0
 
-#. Dicho archivo contiene la siguiente descripción, explicada de manera detallada en el documento :download:`Formato_TXT_IVA.pdf`
+ Dicho archivo contiene la siguiente descripción, explicada de manera detallada en el documento :download:`Formato_TXT_IVA.pdf`
 
     - **RIF del Agente de Retención**, en el archivo el rif del agente de retención es "**J000000006**"
     - **Periodo Impositivo**, en el archivo el periodo de facturación es "**202101**"

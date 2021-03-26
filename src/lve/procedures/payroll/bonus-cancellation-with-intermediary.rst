@@ -6,7 +6,7 @@
 **Creación de Nómina**
 ----------------------
 
-#. Se crea la nómina de forma regular siguiendo los pasos detallados en :ref:`documento/procedimiento-para-procesar-nómina`, el proceso generará el siguiente asiento contable.
+ Se crea la nómina de forma regular siguiendo los pasos detallados en :ref:`documento/procedimiento-para-procesar-nómina`, el proceso generará el siguiente asiento contable.
 
    +----------------------------------------------------+----------------------------+-----------------------------+
    | **Cuenta**                                         | **Débito Contabilizado**   | **Crédito Contabilizado**   |
@@ -21,7 +21,7 @@
 **Creación de Pago**
 --------------------
 
-#. Se crea el pago desde el proceso de caja transitoria siguiendo los pasos detallados en :ref:`documento/pago-de-nómina`, o realizando las siguientes excepciones:
+ Se crea el pago desde el proceso de caja transitoria siguiendo los pasos detallados en :ref:`documento/pago-de-nómina`, o realizando las siguientes excepciones:
 
     - Crear selección de pago con "**Caja Transito Bono de Alimentación**".
 
@@ -40,7 +40,7 @@
 **Creación de la Factura**
 --------------------------
 
-#. Se crea la factura de cuenta por pagar al intermediario de forma regular siguiendo los pasos detallados en :ref:`documento/documento-por-pagar`, registrando las líneas de la siguiente forma:
+ Se crea la factura de cuenta por pagar al intermediario de forma regular siguiendo los pasos detallados en :ref:`documento/documento-por-pagar`, registrando las líneas de la siguiente forma:
 
     - Seleccione el cargo asociado al gasto optando entre las siguientes opciones:
 
