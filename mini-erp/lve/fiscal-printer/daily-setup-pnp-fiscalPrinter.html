@@ -1,0 +1,457 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>2.6. Revisión de Rutina para Impresora Fiscal PNP &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="2.7. Actualizar Cliente de cola de impresión para Impresora Fiscal PNP" href="update-client-pnp-fiscalPrinter.html" />
+    <link rel="prev" title="2.5. Instalar Impresora Fiscal PNP" href="install-pnp-fiscalprinter.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">2. <strong>Impresora Fiscal</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="add-java-to-path.html">2.1. <strong>Añadir Java 8 a las Variables de Entorno</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="commons-errors-fiscal-printer.html">2.2. <strong>Errores comunes Impresora Fiscal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual-reports.html">2.3. <strong>Generar Reportes Manualmente en la impresora</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="setup-vmax-220.html">2.4. <strong>Configuración de Impresora Fiscal VMax 220 para Usar con ADempiere</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="install-pnp-fiscalprinter.html">2.5. <strong>Instalar Impresora Fiscal PNP</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">2.6. Revisión de Rutina para Impresora Fiscal PNP</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#verificacion-por-impresora-al-inicio-del-dia">2.6.1. Verificación por impresora al inicio del día:</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="update-client-pnp-fiscalPrinter.html">2.7. <strong>Actualizar Cliente de cola de impresión para Impresora Fiscal PNP</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="install-tfhka-fiscalprinter.html">2.8. <strong>Instalar Impresora Fiscal The Factory HKA</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html">4. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Download Docs</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">2. </span><strong>Impresora Fiscal</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">2.6. </span>Revisión de Rutina para Impresora Fiscal PNP</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/lve/fiscal-printer/daily-setup-pnp-fiscalPrinter.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="revision-de-rutina-para-impresora-fiscal-pnp">
+<span id="documento-revision-rutinaria-impresora-pnp"></span><h1><span class="section-number">2.6. </span>Revisión de Rutina para Impresora Fiscal PNP<a class="headerlink" href="#revision-de-rutina-para-impresora-fiscal-pnp" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="verificacion-por-impresora-al-inicio-del-dia">
+<h2><span class="section-number">2.6.1. </span>Verificación por impresora al inicio del día:<a class="headerlink" href="#verificacion-por-impresora-al-inicio-del-dia" title="Permalink to this headline">¶</a></h2>
+<p>Ejecutar con el Arranque de Windows el Script <strong>StartPrintService.bat</strong></p>
+<p>Con el Script <strong>StartPrintService.bat</strong> ejecutándose en la estación donde se encuentra la impresora fiscal realizar las siguientes pruebas:</p>
+<p>Ingresando con el usuario asignado, ubicar el proceso <strong>Configuración de Impresora Fiscal</strong> y ejecutar el proceso con los parámetros:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 58%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Parámetro</p></th>
+<th class="head"><p>Valor</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Impresora Fiscal</p></td>
+<td><p>Seleccionar Impresora a Revisar</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tipo de comando Fiscal</p></td>
+<td><p>Obtener Estado de Impresora</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Respuesta al Comando Obtener Estado:</p>
+<blockquote>
+<div><div class="highlight-text notranslate"><div class="highlight"><pre><span></span>** PFabrepuerto:Transmisión/recepción fue correcta PFestatus:Transmisión/recepción fue correcta PFultimo:0000,0000,44,00,45,200312,143427,0035,0000,00053574,00000662,0815 PFcierrapuerto:Transmisión/recepción fue correcta
+</pre></div>
+</div>
+</div></blockquote>
+<p>Donde se tiene la siguiente información útil acerca de la Impresora:</p>
+<blockquote>
+<div><div class="highlight-text notranslate"><div class="highlight"><pre><span></span>PFultimo: 0000,0000,44,00,45,200312,143427,0035,0000,00053574,00000662,0815
+</pre></div>
+</div>
+</div></blockquote>
+<ul class="simple">
+<li><p>Campo 1 Estado Impresora &lt;0000&gt;</p></li>
+<li><p>Campo 2 Estado Fiscal &lt;0000&gt;</p></li>
+<li><p>Campo 3 Ultimo valor de Secuencia</p></li>
+<li><p>Campo 4 Código del Estado actual de la impresora</p></li>
+<li><p>Campo 5 Código último comando ejecutado</p></li>
+<li><p>Campo 6 Fecha en la Impresora Fiscal “AAMMDD”</p></li>
+<li><p>Campo 7 Hora en la Impresora Fiscal “HHMMSS”</p></li>
+<li><p>Campo 8 Número Factura fiscal del periodo fiscal</p></li>
+<li><p>Campo 9 Número Documento no Fiscal del periodo fiscal</p></li>
+<li><p>Campo 10 Número Factura fiscal acumulado</p></li>
+<li><p>Campo 11 Número Documento no Fiscal acumulado</p></li>
+<li><p>Campo 12 Número último reporte Z</p></li>
+</ul>
+<p>Descripción de los campos:</p>
+<p>Campo 3: Contiene el valor de secuencia almacenado en la memoria fiscal que será utilizado para validar el próximo comando.</p>
+<p>Campo 4: Contiene un código Hexadecimal de dos bytes que indica el estado actual de la impresora:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 50%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Código</p></th>
+<th class="head"><p>Significado</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>00</p></td>
+<td><p>Impresora lista para abrir una
+factura, abrir un documento no
+fiscal, hacer un reporte Z o un
+reporte de memoria fiscal.</p></td>
+</tr>
+<tr class="row-odd"><td><p>01</p></td>
+<td><p>Factura fiscal en curso.
+Esperando por un ítem,
+cerrar/cancelar la factura.</p></td>
+</tr>
+<tr class="row-even"><td><p>02</p></td>
+<td><p>Documento no fiscal en curso.
+Esperando por línea de texto,
+cerrar el documento.</p></td>
+</tr>
+<tr class="row-odd"><td><p>04</p></td>
+<td><p>Mas de un día desde el último
+reporte Z. Es necesario un
+reporte Z. Para poder realizar
+una venta se deberá efectuar
+previamente un reporte Z.</p></td>
+</tr>
+<tr class="row-even"><td><p>08</p></td>
+<td><p>Equipo bloqueado a la espera de
+impresión de cierre Z. Esto
+ocurre solo en caso de producirse
+un error durante la impresión de
+un cierre Z. Por ejemplo, si se
+acaba el papel cuando se está
+imprimiendo un cierre Z. Se debe
+hacer un RESET al equipo.l</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>Error critico. Error en BCC RAM.
+Es necesaria la intervención del
+servicio técnico de DESARROLLOS
+PNP, C.A.</p></td>
+</tr>
+<tr class="row-even"><td><p>11</p></td>
+<td><p>Error critico. Error en BCC ROM.
+Es necesaria la intervención del
+servicio técnico de DESARROLLOS
+PNP, C.A.</p></td>
+</tr>
+<tr class="row-odd"><td><p>12</p></td>
+<td><p>Error critico. Error de formato
+de FECHA en RAM. Es necesaria la
+intervención del servicio técnico
+de DESARROLLOS PNP, C.A.</p></td>
+</tr>
+<tr class="row-even"><td><p>13</p></td>
+<td><p>Error critico. Error de formato
+de datos al realizar un Z. Es
+necesaria la intervención del
+servicio técnico de DESARROLLOS
+PNP, C.A.</p></td>
+</tr>
+<tr class="row-odd"><td><p>14</p></td>
+<td><p>Error critico. Limite de memoria
+fiscal. Es necesaria la
+intervención del servicio técnico
+de DESARROLLOS PNP, C.A.</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Campo 5: Contiene un código hexadecimal de dos bytes que indica cual fue el último comando procesado con éxito.</p>
+<p>Campo 6: Fecha en la impresora fiscal. Formato “AAMMDD”</p>
+<p>Campo 7: Hora en la impresora fiscal. Formato “HHMMSS”</p>
+<p>Campo 8: Facturas fiscales emitidos en el periodo.</p>
+<p>Campo 9: Documentos no fiscales emitidos en el periodo.</p>
+<p>Campo 10: Facturas fiscales acumuladas.</p>
+<p>Campo 11: Documentos no fiscales acumulados.</p>
+<p>Campo 12: Es el Número del último reporte Z efectuado.</p>
+<p>El ejecutar proceso con el comando Obtener Estado de Impresora, resulta útil para verificar la conexión entre ADempiere y la Impresora, ademas con el valor obtenido con el campo 4, se obtiene el estado actual de la impresora donde el valor ideal deber ser 00, ya que cualquier otro estado se puede interpretar como un error, y es necesaria una revisión mas a fondo.</p>
+<p>Estando Verificada la comunicación entre ADempiere y la Impresora Fiscal se debe usar el Proceso <strong>Imprimir Reporte Fiscal</strong> :</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 42%" />
+<col style="width: 58%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Parámetro</p></th>
+<th class="head"><p>Valor</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Impresora Fiscal</p></td>
+<td><p>Seleccionar Impresora a Revisar</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tipo de comando Fiscal</p></td>
+<td><p>Reporte X</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Debe iniciar la impresión, si todo esta correctamente configurado, lo cual indica que el ambiente esta preparado para iniciar la jornada en la estación donde se encuentra la impresora.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="update-client-pnp-fiscalPrinter.html" class="btn btn-neutral float-right" title="2.7. Actualizar Cliente de cola de impresión para Impresora Fiscal PNP" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="install-pnp-fiscalprinter.html" class="btn btn-neutral float-left" title="2.5. Instalar Impresora Fiscal PNP" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

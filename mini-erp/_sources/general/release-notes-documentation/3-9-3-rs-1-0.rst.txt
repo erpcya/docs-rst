@@ -1,0 +1,21 @@
+.. _documento/versión-3-9-3-rs-1-0:
+
+**3.9.3-rs-1.0**
+================
+
+**Soporte a versiones:**
+------------------------
+
+- latest
+
+**Novedades:**
+--------------
+
+- Se agrega la documentación :ref:`src/general/release-notes`
+
+- Se actualiza la documentación "**Extracto Bancario con Pagos en Lotes**", agregando el estándar del "**Banco Mercantil**" y el :"**Banco Provincial**", que se debe tener para generar un extracto bancario desde ADempiere y poder cargar el mismo al banco requerido por el usuario. 
+
+- Se actualiza la documentación "**Generar TXT de Banavih**", agregando el estándar del archivo "**.txt**" que se debe generar para posteriormente proceder a subir el archivo al portal.
+
+- Se actualiza la documentación "**Generar Declaraciones de Retenciones**", para agregar el estandar del "**Archivo TXT de IVA Exportado**" y del "**Archivo XML de ISLR Exportado**".
+

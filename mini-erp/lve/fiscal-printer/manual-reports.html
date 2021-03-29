@@ -1,0 +1,428 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>2.3. Generar Reportes Manualmente en la impresora &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="2.4. Configuración de Impresora Fiscal VMax 220 para Usar con ADempiere" href="setup-vmax-220.html" />
+    <link rel="prev" title="2.2. Errores comunes Impresora Fiscal" href="commons-errors-fiscal-printer.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">2. <strong>Impresora Fiscal</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="add-java-to-path.html">2.1. <strong>Añadir Java 8 a las Variables de Entorno</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="commons-errors-fiscal-printer.html">2.2. <strong>Errores comunes Impresora Fiscal</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">2.3. <strong>Generar Reportes Manualmente en la impresora</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#generar-reporte-x">2.3.1. <strong>Generar Reporte “X”.</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#generar-reporte-z">2.3.2. <strong>Generar Reporte “Z”.</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#generar-reporte-de-memoria-fiscal-por-dias">2.3.3. <strong>Generar “Reporte de Memoria Fiscal por días”.</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#generar-reporte-de-memoria-fiscal-por-mes">2.3.4. <strong>Generar “Reporte de Memoria Fiscal por mes”.</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="setup-vmax-220.html">2.4. <strong>Configuración de Impresora Fiscal VMax 220 para Usar con ADempiere</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="install-pnp-fiscalprinter.html">2.5. <strong>Instalar Impresora Fiscal PNP</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily-setup-pnp-fiscalPrinter.html">2.6. Revisión de Rutina para Impresora Fiscal PNP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="update-client-pnp-fiscalPrinter.html">2.7. <strong>Actualizar Cliente de cola de impresión para Impresora Fiscal PNP</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="install-tfhka-fiscalprinter.html">2.8. <strong>Instalar Impresora Fiscal The Factory HKA</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html">4. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Download Docs</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">2. </span><strong>Impresora Fiscal</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">2.3. </span><strong>Generar Reportes Manualmente en la impresora</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/lve/fiscal-printer/manual-reports.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="generar-reportes-manualmente-en-la-impresora">
+<span id="documento-generar-reporte"></span><h1><span class="section-number">2.3. </span><strong>Generar Reportes Manualmente en la impresora</strong><a class="headerlink" href="#generar-reportes-manualmente-en-la-impresora" title="Permalink to this headline">¶</a></h1>
+<blockquote>
+<div><div class="figure align-center" id="id2">
+<img alt="Panel Frontal de la impresora" src="../../_images/front.png" />
+<p class="caption"><span class="caption-text">Imagen 1. Panel Frontal de la impresora</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+<p>En en caso de error o cuando se confirma que se trabo la impresora durante una impresión, se hace necesario generar un reporte para consolidar que la data de ADempiere concuerda con la almacenada en la impresora, por motivos de de seguridad o auditoria, se hace conveniente generarlo a través de la impresora misma.</p>
+<div class="section" id="generar-reporte-x">
+<h2><span class="section-number">2.3.1. </span><strong>Generar Reporte “X”.</strong><a class="headerlink" href="#generar-reporte-x" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="figure align-center" id="id3">
+<img alt="Generar Reporte X" src="../../_images/print-x-report.png" />
+<p class="caption"><span class="caption-text">Imagen 2. Generar Reporte X</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+<p>Se hace a través de la combinación de los botones “<strong>OK</strong>” + “<strong>X</strong>” Se debe mantener pulsados ambos hasta que la impresión inicie.</p>
+</div>
+<div class="section" id="generar-reporte-z">
+<h2><span class="section-number">2.3.2. </span><strong>Generar Reporte “Z”.</strong><a class="headerlink" href="#generar-reporte-z" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="figure align-center" id="id4">
+<img alt="Generar Reporte Z" src="../../_images/print-report-z.png" />
+<p class="caption"><span class="caption-text">Imagen 3. Generar Reporte Z</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+<p>Se hace a través de la combinación de los botones “<strong>OK</strong>” + “<strong>Z</strong>” Se debe mantener pulsados ambos hasta que la impresión inicie.</p>
+</div>
+<div class="section" id="generar-reporte-de-memoria-fiscal-por-dias">
+<h2><span class="section-number">2.3.3. </span><strong>Generar “Reporte de Memoria Fiscal por días”.</strong><a class="headerlink" href="#generar-reporte-de-memoria-fiscal-por-dias" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Estas instrucciones se detallan en la Página 15 de el <a class="reference external" href="http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf">Manual de Fabricante.</a></p>
+</div>
+<div class="figure align-center" id="id5">
+<img alt="Reporte de Memoria Fiscal por mes" src="../../_images/print-report-by-month.png" />
+<p class="caption"><span class="caption-text">Imagen 4. Reporte de Memoria Fiscal por mes</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+<p>Para emitir este reporte debe presionar las teclas “<strong>Dump Fecha</strong>” y “<strong>OK</strong>” al mismo tiempo durante 2 o 3 segundos.</p>
+<blockquote>
+<div><div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>“Seguir instrucciones en pantalla:”</p>
+<blockquote>
+<div><p>Para incrementar o decrementar los valores en pantalla de uno en uno presione las teclas identificadas en letras pequeñas como +1 y -1.</p>
+<p>Para incrementar o decrementar los valores en pantalla de diez en diez presione las teclas identificadas en letras pequeñas como +10 y -10.</p>
+<p>Para fijar cada valor presione la tecla OK. Debe seguir este procedimiento para cada valor solicitado en la pantalla. Al finalizar será emitido el reporte.</p>
+</div></blockquote>
+</div>
+<div class="figure align-center" id="id6">
+<img alt="Generar Reporte por Días" src="../../_images/generate-report-by-days1.jpg" />
+<p class="caption"><span class="caption-text">Imagen 5. Generar Reporte Z</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+<p>En la pantalla se visualizara las opciones X “<strong>MES</strong>” y Z “<strong>DÍAS</strong>”, se debe presionar el botón “<strong>Z</strong>”, luego se mostrara el mensaje “<strong>AGRUPADO POR DÍAS</strong>”.</p>
+<blockquote>
+<div><div class="figure align-center" id="id7">
+<img alt="AGRUPADO POR DÍAS" src="../../_images/generate-report-by-days2.jpg" />
+<p class="caption"><span class="caption-text">Imagen 6. Generar Reporte Z</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+<p>Seleccionar el rango de fechas a usar en el reporte.</p>
+<blockquote>
+<div><div class="figure align-center" id="id8">
+<img alt="Fecha Inicial" src="../../_images/generate-report-by-initial.jpg" />
+<p class="caption"><span class="caption-text">Imagen 7. Generar Reporte</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id9">
+<img alt="Fecha Final" src="../../_images/generate-report-by-days3.jpg" />
+<p class="caption"><span class="caption-text">Imagen 8. Generar Reporte</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+<p>Despues de cargar los parametros de impresion inmediatamente iniciara la impresión</p>
+<blockquote>
+<div><div class="figure align-center" id="id10">
+<img alt="Imprimiendo" src="../../_images/generate-report-by-days4.jpg" />
+<p class="caption"><span class="caption-text">Imagen 9. Generar Reporte</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="generar-reporte-de-memoria-fiscal-por-mes">
+<h2><span class="section-number">2.3.4. </span><strong>Generar “Reporte de Memoria Fiscal por mes”.</strong><a class="headerlink" href="#generar-reporte-de-memoria-fiscal-por-mes" title="Permalink to this headline">¶</a></h2>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Estas instrucciones se detallan en la Página 15 de el <a class="reference external" href="http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf">Manual de Fabricante.</a></p>
+</div>
+<div class="figure align-center" id="id11">
+<img alt="Reporte de Memoria Fiscal por mes" src="../../_images/print-report-by-month.png" />
+<p class="caption"><span class="caption-text">Imagen 10. Reporte de Memoria Fiscal por mes</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+<p>Para emitir este reporte debe presionar las teclas “<strong>Dump Fecha</strong>” y “<strong>OK</strong>” al mismo tiempo durante 2 o 3 segundos.</p>
+<blockquote>
+<div><div class="admonition tip">
+<p class="admonition-title">Tip</p>
+<p>“Seguir instrucciones en pantalla:”</p>
+<blockquote>
+<div><p>Para incrementar o decrementar los valores en pantalla de uno en uno presione las teclas identificadas en letras pequeñas como +1 y -1.</p>
+<p>Para incrementar o decrementar los valores en pantalla de diez en diez presione las teclas identificadas en letras pequeñas como +10 y -10.</p>
+<p>Para fijar cada valor presione la tecla OK. Debe seguir este procedimiento para cada valor solicitado en la pantalla. Al finalizar será emitido el reporte.</p>
+</div></blockquote>
+</div>
+<div class="figure align-center">
+<img alt="Generar Reporte por Mes" src="../../_images/generate-report-by-days1.jpg" />
+</div>
+<p>Imagen 11. Generar Reporte</p>
+</div></blockquote>
+<p>En la pantalla se visualizara las opciones X “<strong>MES</strong>” y Z “<strong>DÍAS</strong>”, se debe presionar el botón “<strong>X</strong>”, luego se mostrara el mensaje “<strong>AGRUPADO POR MES</strong>”.</p>
+<blockquote>
+<div><div class="figure align-center" id="id12">
+<img alt="AGRUPADO POR MES" src="../../_images/generate-report-by-months2.jpg" />
+<p class="caption"><span class="caption-text">Imagen 12. Generar Reporte</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+<p>Seleccionar el rango de meses que se usaran en el reporte.</p>
+<blockquote>
+<div><div class="figure align-center" id="id13">
+<img alt="Mes Inicial" src="../../_images/generate-report-by-months3.jpg" />
+<p class="caption"><span class="caption-text">Imagen 13. Generar Reporte</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+</div>
+<div class="figure align-center" id="id14">
+<img alt="Mes Final" src="../../_images/generate-report-by-months4.jpg" />
+<p class="caption"><span class="caption-text">Imagen 14. Generar Reporte</span><a class="headerlink" href="#id14" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+<p>Despues de cargar los parametros de impresion inmediatamente iniciara la impresión</p>
+<blockquote>
+<div><div class="figure align-center" id="id15">
+<img alt="Imprimiendo" src="../../_images/generate-report-by-days4.jpg" />
+<p class="caption"><span class="caption-text">Imagen 15. Generar Reporte</span><a class="headerlink" href="#id15" title="Permalink to this image">¶</a></p>
+</div>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="setup-vmax-220.html" class="btn btn-neutral float-right" title="2.4. Configuración de Impresora Fiscal VMax 220 para Usar con ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="commons-errors-fiscal-printer.html" class="btn btn-neutral float-left" title="2.2. Errores comunes Impresora Fiscal" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

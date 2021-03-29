@@ -1,0 +1,631 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>5.1.1.1. Registro de Orden de Compra Directa &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="5.2. Recepción de Productos" href="../../material-receipt/index.html" />
+    <link rel="prev" title="5.1.1. Orden de Compra Directa" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">5. <strong>Gestión de Compras</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">5.1. <strong>Órdenes de Compra</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">5.1.1. <strong>Orden de Compra Directa</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">5.1.1.1. <strong>Registro de Orden de Compra Directa</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../material-receipt/index.html">5.2. <strong>Recepción de Productos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../invoice/index.html">5.3. <strong>Documento por Pagar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../credit-note-cxp.html">5.4. <strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../debit-note-cxp.html">5.5. <strong>Nota de Débito</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/standard-coding/index.html">4. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Download Docs</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><span class="section-number">5. </span><strong>Gestión de Compras</strong></a> &raquo;</li>
+        
+          <li><a href="../index.html"><span class="section-number">5.1. </span><strong>Órdenes de Compra</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">5.1.1. </span><strong>Orden de Compra Directa</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">5.1.1.1. </span><strong>Registro de Orden de Compra Directa</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/adempiere/requisition-to-invoice/purchase-order/direct-order/purchase-order.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-de-orden-de-compra-directa">
+<span id="documento-orden-de-compra"></span><h1><span class="section-number">5.1.1.1. </span><strong>Registro de Orden de Compra Directa</strong><a class="headerlink" href="#registro-de-orden-de-compra-directa" title="Permalink to this headline">¶</a></h1>
+<p>Una Orden de Compra en ADempiere, es un tipo de documento emitido por la empresa para realizar pedidos a sus diferentes proveedores. En ella se detalla: la cantidad a comprar, el tipo de producto, precio y condiciones de pago, así como también la forma de entrega.</p>
+<p>Para el registro de un documento en ADempiere debe tener en cuenta que existen campos que son de carácter obligatorio, estos campos están identificados con el carácter especial: (*) de color rojo.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Asegúrese de que cada campo que se encuentre identificado como carácter obligatorio, contenga la información requerida, de lo contrario no podrá completar el registro.</p>
+</div>
+<ol class="arabic">
+<li><p>Ubique en el menú de ADempiere la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione la ventana “<strong>Órdenes de Compra</strong>”, adjunto imagen para referencia.</p>
+<blockquote>
+<div><p><img alt="menú de adempiere" src="../../../../_images/purchase-order-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar la ventana “<strong>Órdenes de Compra</strong>”, con los diferentes registros que contiene dicha ventana.</p>
+<blockquote>
+<div><p><img alt="ventana órdenes de compra" src="../../../../_images/purchase-orders-window.png" /></p>
+<p>Imagen 2. Ventana Órdenes de Compra</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el icono “<strong>Registro Nuevo</strong>” en la barra de herramientas de ADempiere para crear un nuevo documento.</p>
+<blockquote>
+<div><p><img alt="icono de registro nuevo de la ventana órdenes de compra" src="../../../../_images/new-record-icon-in-the-purchase-orders-window.png" /></p>
+<p>Imagen 3. Registro Nuevo</p>
+<ol class="arabic">
+<li><p>Seleccione en el campo “<strong>Compañía</strong>”, el nombre de la compañía de la cual se emite el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo compañía de la ventana órdenes de compra" src="../../../../_images/company-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 4. Campo Compañía</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Organización</strong>”, el nombre de la organización de la cual se está emitiendo el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo organización de la ventana órdenes de compra" src="../../../../_images/organization-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 5. Campo Organización</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>El valor en el campo organización debe ser diferente del símbolo (*) ya que éste símbolo hace referencia a todas las organizaciones.</p>
+</div>
+<ol class="arabic">
+<li><p>En el campo “<strong>No. de Documento</strong>”, no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de orden de compra.</p>
+<blockquote>
+<div><p><img alt="campo nro del documento de la ventana órdenes de compra" src="../../../../_images/document-number-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 6. Campo No. del Documento</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Referencia de Orden de Socio del Negocio</strong>”, la referencia de orden del socio del negocio.</p>
+<blockquote>
+<div><p><img alt="campo referencia de orden de socio del negocio de la ventana órdenes de compra" src="../../../../_images/business-partner-order-reference-field-of-purchase-orders-window.png" /></p>
+<p>Imagen 7. Campo Referencia de Orden de Socio del Negocio</p>
+</div></blockquote>
+</li>
+<li><p>En el campo “<strong>Descripción</strong>”, introduzca una breve descripción referente a la orden de compra que se está realizando, este campo es opcional.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la ventana órdenes de compra" src="../../../../_images/field-description-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 8. Campo Descripción</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Fecha de la Orden</strong>”, la fecha de elaboración del documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo fecha de la orden de la ventana órdenes de compra" src="../../../../_images/order-date-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 9. Campo Fecha de la Orden</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Fecha Prometida</strong>”, la fecha de entrega de la orden, prometida por el proveedor.</p>
+<blockquote>
+<div><p><img alt="campo fecha prometida de la ventana órdenes de compra" src="../../../../_images/promised-date-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 10. Campo Fecha Prometida</p>
+</div></blockquote>
+</li>
+<li><p>En el campo “<strong>Socio del Negocio</strong>”, debe seleccionar el nombre del socio del negocio (proveedor) al que se le emite el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio de la ventana órdenes de compra" src="../../../../_images/business-partner-field-of-purchase-orders-window.png" /></p>
+<p>Imagen 11. Campo Socio del Negocio</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el tipo de documento a generar, en el campo “<strong>Tipo de Documento Destino</strong>”, la selección de éste define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra definido en el documento “<strong>Tipo de Documento</strong>” elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a></p>
+<blockquote>
+<div><p><img alt="campo tipo de documento destino de la ventana órdenes de compra" src="../../../../_images/destination-document-type-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 12. Campo Tipo de Documento Destino</p>
+</div></blockquote>
+</li>
+<li><p>Si el socio del negocio, tiene más de una dirección registrada, debe seleccionar la dirección del socio del negocio, caso contrario, si posee dirección única, esta información se refleja automáticamente en el campo “<strong>Dirección del Socio del Negocio</strong>” una vez haya seleccionado el nombre del socio de negocio.</p>
+<blockquote>
+<div><p><img alt="campo dirección del socio del negocio de la ventana órdenes de compra" src="../../../../_images/business-partner-address-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 13. Campo Dirección del Socio del Negocio</p>
+</div></blockquote>
+</li>
+<li><p>Si el socio de negocio, tiene más de una dirección a facturar registrada, debe seleccionar la dirección a facturar del socio del negocio, caso contrario, si posee dirección única, esta información se refleja automáticamente en el campo “<strong>Dirección Factura</strong>” una vez haya seleccionado el nombre del socio de negocio.</p>
+<blockquote>
+<div><p><img alt="campo dirección factura de la ventana órdenes de compra" src="../../../../_images/invoice-address-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 14. Campo Dirección Factura</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Usuario</strong>”, el usuario del socio del negocio.</p>
+<blockquote>
+<div><p><img alt="campo usuario de la ventana órdenes de compra" src="../../../../_images/user-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 15. Campo Usuario</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Contacto de Entrega Directa</strong>”, el contacto del socio del negocio establecido para la entrega.</p>
+<blockquote>
+<div><p><img alt="campo contacto de entrega directa de la ventana órdenes de compra" src="../../../../_images/direct-delivery-contact-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 16. Campo Contacto de Entrega Directa</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Regla de Entrega</strong>”, la regla establecida para la entrega de los productos.</p>
+<blockquote>
+<div><p><img alt="campo regla de entrega de la ventana órdenes de compra" src="../../../../_images/delivery-rule-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 17. Campo Regla de Entrega</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione la prioridad de la orden en el campo “<strong>Prioridad</strong>”, este campo indica la urgencia de los productos o servicios que se están ordenando en el documento, sin embargo, el documento trae predeterminado la opción “<strong>Media</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo prioridad de la ventana órdenes de compra" src="../../../../_images/priority-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 18. Campo Prioridad</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Almacén</strong>, en el cual se requiere el producto o servicio (Es de Carácter Obligatorio).</p>
+<blockquote>
+<div><p><img alt="campo almacen de la ventana órdenes de compra" src="../../../../_images/warehouse-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 19. Campo Almacén</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Regla de Facturación</strong>”, la regla establecida para la facturación de los productos.</p>
+<blockquote>
+<div><p><img alt="campo regla de facturación de la ventana órdenes de compra" src="../../../../_images/billing-rule-field-in-the-purchase-orders-window.png" /></p>
+<p>Imagen 20. Campo Regla de Facturación</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Término de pago</strong>”, indica las condiciones, método y tiempo de pago de la compra.</p>
+<blockquote>
+<div><p><img alt="campo término de pago de la ventana órdenes de compra" src="../../../../_images/payment-term-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 21. Campo Término de Pago</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios utilizada para la compra.</p>
+<blockquote>
+<div><p>Esta siempre debe ser “<strong>Compras</strong>” y determina el precio, margen y costo de los artículos comprados.</p>
+<p><img alt="campo lista de precios de la ventana órdenes de compra" src="../../../../_images/price-list-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 22. Campo Lista de Precios</p>
+</div></blockquote>
+</li>
+<li><p>La “<strong>Moneda</strong>”, dependerá del “<strong>Tipo de Documento</strong>” seleccionado, es decir, si el tipo de documento es: “<strong>Orden de Compra Nacional</strong>” la moneda será (VES) moneda nacional en curso. Caso contrario, “<strong>Orden de Compra Importación</strong>” la moneda será, cualquier moneda extranjera que sea utilizada por la compañía para realizar este tipo de compras, ejemplo: (USD, EUR, COP, entre otros).</p>
+<blockquote>
+<div><p><img alt="campo moneda de la ventana órdenes de compra" src="../../../../_images/currency-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 23. Campo Moneda</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de la ventana, seleccionando el icono “<strong>Guardar Cambios</strong>” ubicado en la barra de herramientas, una vez guardado el nuevo registro, podrá avanzar a la pestaña “<strong>Línea Orden Compra</strong>”.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Seleccione la pestaña “<strong>Línea Orden Compra</strong>” y proceda a seleccionar el “<strong>Producto o Servicio</strong>” a ordenar. Si la orden de compra contiene varios productos, el campo “<strong>Nro. de Línea</strong>”, indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer producto, deberá seleccionar el icono “<strong>Registro Nuevo</strong>”, incrementando así el número de líneas por productos en el documento.</p>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>El campo “<strong>Orden de Compra</strong>”, viene precargado de la pestaña principal “<strong>Orden de Compra</strong>”.</p>
+</div>
+<p><img alt="línea de la orden de compra de la ventana órdenes de compra" src="../../../../_images/purchase-order-line-in-the-purchase-orders-window.png" /></p>
+<p>Imagen 24. Línea Orden Compra</p>
+<ol class="arabic">
+<li><p>Seleccione en el campo “<strong>Producto</strong>”, el producto por el cual se encuentra realizando la transacción de compra.</p>
+<blockquote>
+<div><p><img alt="campo producto de la ventana órdenes de compra" src="../../../../_images/product-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 25. Campo Producto</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al seleccionar un producto, el campo “<strong>Cargo</strong>” automáticamente cambia a sólo lectura.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo por el cual se encuentra realizando la transacción de compra.</p>
+<blockquote>
+<div><p><img alt="campo cargo de la ventana órdenes de compra" src="../../../../_images/charge-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 26. Campo Cargo</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al seleccionar un cargo, el campo “<strong>Producto</strong>” automáticamente cambia a sólo lectura.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>En la sección “<strong>Cantidades</strong>”, se encuentra el siguiente grupo de campos: cantidad, unidad de medida, precio, cantidad ordenada, % descuento y impuesto.</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>Seleccione en el campo “<strong>Cantidad</strong>”, la cantidad a ordenar del producto o servicio seleccionado.</p>
+<blockquote>
+<div><p>El campo “<strong>Cantidad</strong>”, indica la cantidad del producto en la compra.</p>
+<p><img alt="campo cantidad de la ventana órdenes de compra" src="../../../../_images/quantity-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 27. Campo Cantidad</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione la unidad de medida del producto seleccionado en el campo “<strong>UM</strong>”, esta puede ser unidad, gramos, kilos, toneladas, entre otras.</p>
+<blockquote>
+<div><p>El campo “<strong>Unidad de Medida</strong>, indica la unidad de medida del producto ordenado.</p>
+<p><img alt="campo unidad de medida de la ventana órdenes de compra" src="../../../../_images/unit-of-measure-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 28. Campo Unidad de Medida</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca el precio unitario del producto seleccionando en el campo “<strong>Precio</strong>”, este precio es el establecido por el socio del negocio proveedor.</p>
+<blockquote>
+<div><p>El campo “<strong>Precio</strong>”, está basado en la unidad de medida.</p>
+<p><img alt="campo precio de la ventana órdenes de compra" src="../../../../_images/price-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 29. Campo Precio</p>
+</div></blockquote>
+</li>
+<li><p>El campo “<strong>Cantidad Ordenada</strong>”, indica la cantidad de un producto que fue ordenada.</p>
+<blockquote>
+<div><p><img alt="campo cantidad ordenada de la ventana órdenes de compra" src="../../../../_images/ordered-quantity-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 30. Campo Cantidad Ordenada</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>% Descuento</strong>”, el descuento aplicado a la compra.</p>
+<blockquote>
+<div><p>El campo “<strong>% Descuento</strong>”, indica el descuento aplicado o tomado como un porcentaje.</p>
+<p><img alt="campo descuento de la ventana órdenes de compra" src="../../../../_images/discount-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 31. Campo Descuento</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el impuesto en el campo “<strong>Impuesto</strong>”, este puede variar dependiendo del impuesto aplicable al producto seleccionado.</p>
+<blockquote>
+<div><p>El campo “<strong>Impuesto</strong>”, indica el tipo de impuesto para esta línea del documento.</p>
+<p><img alt="campo impuesto de la ventana órdenes de compra" src="../../../../_images/tax-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 32. Campo Impuesto</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>En la sección “<strong>Referencia</strong>”, se encuentra el siguiente grupo de campos: cantidad reservada, cantidad entregada y cantidad facturada.</p>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Los campos de la sección referencia, presentaran movimientos sólo sí se se han realizado para la orden de compra, más de una recepción, en relación a la cantidad total de la compra.</p>
+</div>
+<ol class="arabic">
+<li><p>El campo “<strong>Cantidad Reservada</strong>, indica la cantidad del producto que ha sido reservado para otras órdenes.</p>
+<blockquote>
+<div><p><img alt="campo cantidad reservada de la ventana órdenes de compra" src="../../../../_images/reserved-quantity-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 33. Campo Cantidad Reservada</p>
+</div></blockquote>
+</li>
+<li><p>El campo “<strong>Cantidad Entregada</strong>, indica la cantidad de un producto que ha sido entregado.</p>
+<blockquote>
+<div><p>campo cantidad entregada de la ventana órdenes de compra</p>
+<p>Imagen 34. Campo Cantidad Entregada</p>
+</div></blockquote>
+</li>
+<li><p>El campo “<strong>Cantidad Facturada</strong>, indica la cantidad de un producto que ha sido facturado.</p>
+<blockquote>
+<div><p><img alt="campo cantidad facturada de la ventana órdenes de compra" src="../../../../_images/invoiced-quantity-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 35. Campo Cantidad Facturada</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>En la sección “<strong>Totales</strong>” se encuentran los siguientes grupos de campos: neto de línea y procesado.</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>El campo “<strong>Neto de Línea</strong>, podrá visualizar el total neto de la línea basado en la cantidad y el precio. Cualquier cargo adicional o flete no es incluido.</p>
+<blockquote>
+<div><p>El campo “<strong>Neto de Línea</strong>”, indica el total neto de la línea (cantidad * precio) sin fletes ni cargos.</p>
+<p><img alt="campo neto de línea de la ventana órdenes de compra" src="../../../../_images/net-field-of-purchase-order-window-line.png" /></p>
+<p>Imagen 36. Campo Neto de Línea</p>
+</div></blockquote>
+</li>
+<li><p>El checklkist “<strong>Procesado</strong>, indica que un documento ha sido procesado.</p>
+<blockquote>
+<div><p><img alt="campo procesado de la ventana órdenes de compra" src="../../../../_images/processed-field-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 37. Campo Procesado</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de la pestaña “<strong>Línea Orden Compra</strong>” con el icono “<strong>Guardar Cambios</strong>” de la barra de herramientas de ADempiere, antes de cambiar a la ventana principal “<strong>Orden de Compra</strong>”.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Regrese a la pestaña principal “<strong>Orden de Compra</strong>” para completar el documento que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="pestaña orden de compra" src="../../../../_images/purchase-order-tab.png" /></p>
+<p>Imagen 38. Pestaña Orden de Compra</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar en el grupo de campos “<strong>Estado</strong>”, los siguientes campos: total de líneas, gran total, estado del documento y tipo de documento.</p>
+<blockquote>
+<div><ol class="arabic">
+<li><p>El campo “<strong>Total de Líneas</strong>”, indica el total de todas las líneas en la moneda del documento.</p>
+<blockquote>
+<div><p><img alt="campo total de líneas" src="../../../../_images/total-field-of-lines2.png" /></p>
+<p>Imagen 39. Campo Total del Líneas</p>
+</div></blockquote>
+</li>
+<li><p>El campo “<strong>Gran Total</strong>”, indica el total del documento incluyendo impuestos y totales de fletes.</p>
+<blockquote>
+<div><p><img alt="campo gran total" src="../../../../_images/grand-total-field2.png" /></p>
+<p>Imagen 40. Campo Gran Total</p>
+</div></blockquote>
+</li>
+<li><p>El campo “<strong>Estado del Documento</strong>”, indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción “<strong>Procesar Orden</strong>”, desplegada por el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="campo estado del documento" src="../../../../_images/document-status-field4.png" /></p>
+<p>Imagen 41. Campo Estado de Documento</p>
+</div></blockquote>
+</li>
+<li><p>El campo “<strong>Tipo de Documento</strong>”, indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento" src="../../../../_images/document-type-field7.png" /></p>
+<p>Imagen 42. Campo Tipo de Documento</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Seleccione la opción “<strong>Procesar Orden</strong>”, desplegada por el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="opción procesar orden en el icono proceso" src="../../../../_images/option-process-order-in-process-icon1.png" /></p>
+<p>Imagen 43. Opción Procesar Orden en el Icono Proceso</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Completar" src="../../../../_images/option-complete4.png" /></p>
+<p>Imagen 44. Opción Completar</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../material-receipt/index.html" class="btn btn-neutral float-right" title="5.2. Recepción de Productos" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="5.1.1. Orden de Compra Directa" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

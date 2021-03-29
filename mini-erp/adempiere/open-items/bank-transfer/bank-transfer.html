@@ -1,0 +1,442 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>6.2.1. Registro de Transferencia Bancaria &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="6.3. Pago" href="../payment/index.html" />
+    <link rel="prev" title="6.2. Transferencia Bancaria" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">6. <strong>Gestión de Saldos Pendientes</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../currency-conversion/index.html">6.1. <strong>Conversión Monetaria</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">6.2. <strong>Transferencia Bancaria</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">6.2.1. <strong>Registro de Transferencia Bancaria</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#consultar-egreso-generado-de-la-transferencia-bancaria">6.2.1.1. <strong>Consultar Egreso Generado de la Transferencia Bancaria</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#consultar-ingreso-generado-de-la-transferencia-bancaria">6.2.1.2. <strong>Consultar Ingreso Generado de la transferencia Bancaria</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../payment/index.html">6.3. <strong>Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection/index.html">6.4. <strong>Cobro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection-cash/index.html">6.5. <strong>Caja Cobranza</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-closing/index.html">6.6. <strong>Cierre de Caja</strong></a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html">4. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Download Docs</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><span class="section-number">6. </span><strong>Gestión de Saldos Pendientes</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">6.2. </span><strong>Transferencia Bancaria</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">6.2.1. </span><strong>Registro de Transferencia Bancaria</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/open-items/bank-transfer/bank-transfer.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-de-transferencia-bancaria">
+<span id="documento-procedimiento-para-realizar-una-transferencia-bancaria"></span><h1><span class="section-number">6.2.1. </span><strong>Registro de Transferencia Bancaria</strong><a class="headerlink" href="#registro-de-transferencia-bancaria" title="Permalink to this headline">¶</a></h1>
+<p>Para realizar una transferencia bancaria en ADempiere deben seguir los siguientes pasos:</p>
+<ol class="arabic">
+<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione el proceso “<strong>Transferencia Bancaria</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../_images/menu-transferencia.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar la ventana del proceso “<strong>Transferencia Bancaria</strong>” y proceder al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Ventana Transferencia Bancaria" src="../../../_images/vent-transf-bancaria.png" /></p>
+<p>Imagen 2. Ventana Transferencia Bancaria</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Cuenta bancaria desde</strong>”, la cuenta a debitar el monto de la transferencia realizada.</p>
+<p><img alt="Campo Cuenta Bancaria Desde" src="../../../_images/campo-cuenta-desde.png" /></p>
+<p>Imagen 3. Campo Cuenta Bancaria Desde</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La cuenta a debitar desde es la cuenta bancaria de donde saldrá la transferencia.</p>
+</div>
+</li>
+<li><p>Seleccione en el campo “<strong>Cuenta Bancaria a Transferir</strong>”, la cuenta a acreditar el monto de la transferencia realizada.</p>
+<p><img alt="Campo Cuenta Bancaria a Transferir" src="../../../_images/campo-cuenta-hasta.png" /></p>
+<p>Imagen 4. Campo Cuenta Bancaria a Transferir</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La cuenta bancaria a transferir, es la cuenta en donde caerá la transferencia.</p>
+</div>
+</li>
+<li><p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio titular de la cuenta seleccionada.</p>
+<p><img alt="Campo Socio del Negocio" src="../../../_images/campo-socio-transferencia.png" /></p>
+<p>Imagen 5. Campo Socio del Negocio</p>
+</li>
+<li><p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda en la cual fue realizada la transferencia.</p>
+<p><img alt="Campo Moneda" src="../../../_images/campo-moneda.png" /></p>
+<p>Imagen 6. Campo Moneda</p>
+</li>
+<li><p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo correspondiente a la transferencia entre cuentas que se está realizando.</p>
+<p><img alt="Campo Cargo" src="../../../_images/campo-cargo.png" /></p>
+<p>Imagen 7. Campo Cargo</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El cargo a colocar en la transferencia bancaria depenrá de que tipo de transferencia se este realizando.</p>
+</div>
+</li>
+<li><p>Introduzca en el campo “<strong>No. del Documento</strong>”, la referencia correspondiente a la transferencia bancaria realizada.</p>
+<p><img alt="Campo No. del Documento" src="../../../_images/campo-n-documento.png" /></p>
+<p>Imagen 8. Campo No. del Documento</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El número de documento a colocar en este campo es el número de la transferencia bancaria realizada del banco colocado en el  campo “<strong>Cuenta bancaria desde</strong>”.</p>
+</div>
+</li>
+<li><p>Introduzca en el campo “<strong>Documento Destino</strong>”, la referencia correspondiente a la transferencia bancaria realizada.</p>
+<p><img alt="Campo Documento Destino" src="../../../_images/campo-documento-destino.png" /></p>
+<p>Imagen 9. Campo Documento Destino</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El número de documento a colocar en este campo es el número de la transferencia bancaria realizada al banco seleccionado en el campo “<strong>Cuenta Bancaria a Transferir</strong>” (banco destino),el llenado de este campo aplicaría para aquellas transacciones de intercompañía el cual el personal que esté realizado el procedimiento conozca el número de transferencia en ambas cuentas bancarias (Banco a emisor/banco destino), si se desconoce el número de transferencia simplemente no se coloca, este campo no es un campo obligatorio por ello se puede obviar el llenado de este campo.</p>
+</div>
+</li>
+<li><p>Introduzca en el campo “<strong>Monto</strong>”, el monto total de la transferencia bancaria realizada.</p>
+<p><img alt="Campo Monto" src="../../../_images/campo-monto.png" /></p>
+<p>Imagen 10. Campo Monto</p>
+</li>
+<li><p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción referente a la transferencia entre cuentas que está realizando.</p>
+<p><img alt="Campo Descripción" src="../../../_images/campo-descripcion.png" /></p>
+<p>Imagen 11. Campo Descripción</p>
+</li>
+<li><p>Introduzca en el campo “<strong>Fecha de Estado de Cuenta</strong>”, la fecha de la transferencia bancaria realizada.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Estado de Cuenta" src="../../../_images/campo-fecha-estado-cuenta.png" /></p>
+<p>Imagen 12. Campo Fecha de Estado de Cuenta</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Fecha Contable</strong>”, la fecha de la transferencia bancaria realizada.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha Contable" src="../../../_images/campo-fecha-contable.png" /></p>
+<p>Imagen 13. Campo Fecha Contable</p>
+</div></blockquote>
+</li>
+<li><p>Si desea que los pagos/cobros que se generen de esta transferencia bancarias se concilien de una vez puede tildar la opción <strong>“Conciliar Automáticamente”</strong>.</p>
+<blockquote>
+<div><p><img alt="Campo Conciliar Automáticamente" src="../../../_images/field-reconcile-automatically.png" /></p>
+<p>Imagen 14. Campo Conciliar Automáticamente</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione la opción “<strong>OK</strong>”, para generar en ADempiere la transferencia entre cuentas bancarias.</p>
+<blockquote>
+<div><p><img alt="Opción OK" src="../../../_images/opcion-ok.png" /></p>
+<p>Imagen 15. Opción OK</p>
+</div></blockquote>
+</li>
+<li><p>Podrá apreciar el resultado del proceso de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Resultado de Transferencia" src="../../../_images/resultado-transferencia.png" /></p>
+<p>Imagen 16. Resultado de Transferencia</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al realizar el proceso de transferencia bancaria, es generado un egreso en la cuenta seleccionada en el campo “<strong>Cuenta bancaria desde</strong>” y un ingreso en la cuenta seleccionada en el campo “<strong>Cuenta Bancaria a Transferir</strong>”.</p>
+<p>De igual manera, cuando se está trabajando las transferencias bancarias con cajas es creado un documento de cobro en la ventana “<strong>Caja</strong>” reflejando el ingreso a la cuenta seleccionada en el campo “<strong>Cuenta Bancaria a Transferir</strong>” y un pago en la ventana “<strong>Pago/Cobro</strong>” reflejando el egreso de la cuenta seleccionada en el campo “<strong>Cuenta bancaria desde</strong>”.</p>
+</div>
+<div class="section" id="consultar-egreso-generado-de-la-transferencia-bancaria">
+<h2><span class="section-number">6.2.1.1. </span><strong>Consultar Egreso Generado de la Transferencia Bancaria</strong><a class="headerlink" href="#consultar-egreso-generado-de-la-transferencia-bancaria" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Si en la transferencia bancaria en el campo “<strong>Cuenta Bancaria Desde</strong>” fue seleccionada una cuenta bancaria el pago caerá en la ventana <strong>“Pago/Cobro”</strong> y tendrá como número de documento el número colocado en el campo <strong>“No. del Documento”</strong> de la transacción bancaria.</p>
+<blockquote>
+<div><p><img alt="Pago en Ventana Pago/Cobro" src="../../../_images/payment-in-payment-collection-window.png" /></p>
+<p>Imagen 17. Pago en Ventana Pago/Cobro</p>
+</div></blockquote>
+</li>
+<li><p>Si en la transferencia bancaria en el campo “<strong>Cuenta Bancaria Desde</strong>” fue seleccionada una cuenta de caja el pago caerá en la ventana <strong>“Caja”</strong> y tendrá como número de documento el número colocado en el campo <strong>“No. del Documento”</strong> de la transacción bancaria.</p>
+<blockquote>
+<div><p><img alt="Pago en Ventana Caja" src="../../../_images/payment-in-window-box.png" /></p>
+<p>Imagen 18. Pago en Ventana Caja</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="consultar-ingreso-generado-de-la-transferencia-bancaria">
+<h2><span class="section-number">6.2.1.2. </span><strong>Consultar Ingreso Generado de la transferencia Bancaria</strong><a class="headerlink" href="#consultar-ingreso-generado-de-la-transferencia-bancaria" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Si en la transferencia bancaria en el campo “<strong>Cuenta Bancaria a Transferir</strong>” fue seleccionada una cuenta bancaria el cobro caerá en la ventana <strong>“Pago/Cobro”</strong>, si en el campo <strong>“Documento Destino”</strong> de la transferencia bancaria se colocó el número de la transacción este mismo debe aparecer como el número de documento del campo <strong>“No. del Documento”</strong> en la ventana <strong>“Pago/Cobro”</strong>.</p>
+<blockquote>
+<div><p><img alt="Cobro en Ventana Pago/Cobro" src="../../../_images/collection-in-payment-collection-window.png" /></p>
+<p>Imagen 19. Cobro en Ventana Pago/Cobro</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si en el campo <strong>“Documento Destino”</strong> de la transferencia bancaria no se colocó el número de la transacción, el número de documento a mostrar del cobro en la ventana <strong>“Pago/Cobro”</strong> será el mismo que se número colocado en el campo <strong>“No. del Documento”</strong> de la transferencia bancaria.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Si en la transferencia bancaria en el campo “<strong>Cuenta Bancaria a Transferir</strong>” fue seleccionada una cuenta de caja el cobro caerá en la ventana <strong>“Caja”</strong>, si en el campo <strong>“Documento Destino”</strong> de la transferencia bancaria se colocó el número de la transacción este mismo debe aparecer como el número de documento del campo <strong>“No. del Documento”</strong> en la ventana <strong>“Caja”</strong>.</p>
+<blockquote>
+<div><p><img alt="Cobro en Ventana Caja" src="../../../_images/cash-in-window-box.png" /></p>
+<p>Imagen 20. Cobro en Ventana Caja</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si en el campo <strong>“Documento Destino”</strong> de la transferencia bancaria no se colocó el número de la transacción, el número de documento a mostrar del cobro en la ventana <strong>“Caja”</strong> será el mismo que se número colocado en el campo <strong>“No. del Documento”</strong> de la transferencia bancaria.</p>
+</div>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../payment/index.html" class="btn btn-neutral float-right" title="6.3. Pago" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="6.2. Transferencia Bancaria" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

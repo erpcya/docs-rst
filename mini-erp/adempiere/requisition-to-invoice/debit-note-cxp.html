@@ -1,0 +1,596 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>5.5. Nota de Débito &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="6. Gestión de Saldos Pendientes" href="../open-items/index.html" />
+    <link rel="prev" title="5.4. Nota de Crédito" href="credit-note-cxp.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">5. <strong>Gestión de Compras</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="purchase-order/index.html">5.1. <strong>Órdenes de Compra</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="material-receipt/index.html">5.2. <strong>Recepción de Productos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="invoice/index.html">5.3. <strong>Documento por Pagar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="credit-note-cxp.html">5.4. <strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">5.5. <strong>Nota de Débito</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#registro-de-nota-de-debito">5.5.1. <strong>Registro de Nota de Débito</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linea-de-la-factura">5.5.2. <strong>Línea de la Factura</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#factura">5.5.3. <strong>Factura</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html">4. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Download Docs</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">5. </span><strong>Gestión de Compras</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">5.5. </span><strong>Nota de Débito</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/requisition-to-invoice/debit-note-cxp.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="nota-de-debito">
+<span id="documento-nota-de-debito-cxp"></span><h1><span class="section-number">5.5. </span><strong>Nota de Débito</strong><a class="headerlink" href="#nota-de-debito" title="Permalink to this headline">¶</a></h1>
+<p>Es un documento que se aplica a una factura para aumentar el monto de la misma, una nota de débito se podría realizar bajo el concepto de gastos administrativos y siempre nace de un documento afectado como una factura o una nota de débito.</p>
+<p>A continuación es explicado el procedimiento para generar en ADempiere, una nota de débito de cuentas por pagar.</p>
+<div class="section" id="registro-de-nota-de-debito">
+<h2><span class="section-number">5.5.1. </span><strong>Registro de Nota de Débito</strong><a class="headerlink" href="#registro-de-nota-de-debito" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Ubique en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione la ventana “<strong>Documentos por Pagar</strong>”, adjunto imagen para referencia.</p>
+<blockquote>
+<div><p><img alt="menu documentos por pagar" src="../../_images/documents-payable-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar la ventana “<strong>Documentos por Pagar</strong>”, con todos los registros que contiene ADempiere referente a documentos por pagar.</p>
+<blockquote>
+<div><p><img alt="ventana documentos por pagar" src="../../_images/payable-documents-window.png" /></p>
+<p>Imagen 2. Ventana Documentos por Pagar</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione la opción “<strong>Registro Nuevo</strong>” en la barra de herramientas de ADempiere, para crear un documento nuevo en la ventana “<strong>Documentos por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="icono registro nuevo de la ventana documentos por pagar" src="../../_images/new-registration-icon-in-the-documents-payable-window.png" /></p>
+<p>Imagen 3. Registro Nuevo</p>
+<ol class="arabic">
+<li><p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se encuentra realizando la nota de débito, el valor en el mismo debe ser diferente del símbolo (*).</p>
+<blockquote>
+<div><p><img alt="campo organizacion de la ventana documentos por pagar" src="../../_images/window-organization-field-documents-payable.png" /></p>
+<p>Imagen 4. Campo Organización</p>
+</div></blockquote>
+</li>
+<li><p>En el campo “<strong>No. de Documento</strong>”, no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de documento por pagar.</p>
+<blockquote>
+<div><p><img alt="campo nro del documento de la ventana documentos por pagar" src="../../_images/document-number-field-of-the-papers-payable-window.png" /></p>
+<p>Imagen 5. Campo No. del Documento</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Contol No</strong>”, el número de control fiscal correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo control nro de la ventana documentos por pagar" src="../../_images/control-field-number-of-the-documents-payable-window.png" /></p>
+<p>Imagen 6. Campo Control No.</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción con respecto al documento que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripcion de la ventana documentos por pagar" src="../../_images/field-description-of-the-window-documents-payable.png" /></p>
+<p>Imagen 7. Campo Descripción</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Fecha de Facturación</strong>”, la fecha en la cual es realizado el documento.</p>
+<blockquote>
+<div><p><img alt="campo fecha de facturacion de la ventana documentos por pagar" src="../../_images/invoice-date-field-of-the-documents-payable-window.png" /></p>
+<p>Imagen 8. Campo Fecha de Facturación</p>
+</div></blockquote>
+</li>
+<li><p>En el campo “<strong>Referencia de Orden de Socio del Negocio</strong>”, se puede ingresar la referencia de orden del socio del negocio para esta transacción específica. Frecuentemente los números de orden de compras se dan para ser impresas en las facturas como una referencia más fácil.</p>
+<blockquote>
+<div><p><img alt="campo referencia de orden de socio del negocio de la ventana documentos por pagar" src="../../_images/business-partner-order-reference-field-of-the-payables-window.png" /></p>
+<p>Imagen 9. Campo Referencia de Orden de Socio del Negocio</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio al cual le esta aplicando la nota de débito.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio de la ventana documentos por pagar" src="../../_images/business-partner-field-of-payables-window.png" /></p>
+<p>Imagen 10. Campo Socio del Negocio</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento “<strong>Tipo de Documento</strong>” elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento de la ventana documentos por pagar débito" src="../../_images/document-type-field-of-the-documents-payable-debit-window.png" /></p>
+<p>Imagen 11. Campo Tipo de Documento</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar en el campo “<strong>Dirección de Socio del Negocio</strong>”, la dirección del socio del negocio seleccionado anteriormente en el campo “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo direccion del socio del negocio de la ventana documentos por pagar débito" src="../../_images/field-address-of-the-business-partner-of-the-window-documents-payable-debit.png" /></p>
+<p>Imagen 12. Campo Dirección del Socio del Negocio</p>
+</div></blockquote>
+</li>
+<li><p>De igual manera, puede visualizar en el campo “<strong>Usuario</strong>”, el usuario en ADempiere del socio del negocio seleccionado anteriormente.</p>
+<blockquote>
+<div><p><img alt="campo usuario de la ventana documentos por pagar débito" src="../../_images/user-field-of-documents-payable-debit-window.png" /></p>
+<p>Imagen 13. Campo Usuario</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Factura Afectada</strong>”, la factura a la cual requiere aplicar la nota de débito que se encuentra realizando para ser asignada automáticamente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo factura afectada de la ventana documentos por pagar débito" src="../../_images/affected-invoice-field-of-the-documents-payable-debit-window.png" /></p>
+<p>Imagen 14. Campo Factura Afectada</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios con la cual requiere generar la nota de débito.</p>
+<blockquote>
+<div><p><img alt="campo lista de precios de la ventana documentos por pagar débito" src="../../_images/debit-payable-documents-window-price-list-field.png" /></p>
+<p>Imagen 15. Campo Lista de Precios</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar en el campo “<strong>Moneda</strong>”, la moneda definida para la lista de precios seleccionada.</p>
+<blockquote>
+<div><p><img alt="campo moneda de la ventana documentos por pagar débito" src="../../_images/currency-field-of-the-documents-payable-debit-window.png" /></p>
+<p>Imagen 16. Campo Moneda</p>
+</div></blockquote>
+</li>
+<li><p>El checklist “<strong>Documento Fiscal</strong>”, indica que el registro en el que se encuentra es un documento fiscal.</p>
+<blockquote>
+<div><p><img alt="checklist documento fiscal de la ventana documentos por pagar débito" src="../../_images/checklist-fiscal-document-of-the-window-documents-payable-debit.png" /></p>
+<p>Imagen 17. Checklist Documento Fiscal</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de los campos de la ventana antes de cambiar a otra pestaña. Esto se puede realizar seleccionando el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+<div class="section" id="linea-de-la-factura">
+<h2><span class="section-number">5.5.2. </span><strong>Línea de la Factura</strong><a class="headerlink" href="#linea-de-la-factura" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Seleccione la pestaña “<strong>Línea de Factura</strong>”, para proceder a cargar los productos o servicios correspondientes a la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="pestaña linea de factura de la ventana documentos por pagar débito" src="../../_images/invoice-line-tab-of-the-documents-payable-debit-window.png" /></p>
+<p>Imagen 18. Pestaña Línea de Factura</p>
+<ol class="arabic">
+<li><p>Podrá visualizar en el campo “<strong>Factura</strong>”, el número de registro de la nota de débito al que pertenece la línea que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo factura de la pestaña linea de factura débito" src="../../_images/invoice-field-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 19. Campo Factura</p>
+</div></blockquote>
+</li>
+<li><p>De igual manera, podrá visualizar en el campo “<strong>No. Línea</strong>”, el número de línea correspondiente al registro en el cual se encuentra ubicado.</p>
+<blockquote>
+<div><p><img alt="campo nro linea de la pestaña linea de factura débito" src="../../_images/field-number-line-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 20. Campo No. del Documento</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Producto</strong>”, el producto por el cual se encuentra aplicando la nota de débito.</p>
+<blockquote>
+<div><p><img alt="campo producto de la pestaña linea de factura débito" src="../../_images/product-field-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 21. Campo Producto</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Si la nota de débito es por un concepto especial, como es el caso de gastos administrativos, sustituya el producto por un cargo que justifique la nota.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo por el cual se encuentra aplicando la nota de débito.</p>
+<blockquote>
+<div><p><img alt="campo cargo de la pestaña linea de factura débito" src="../../_images/charge-field-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 22. Campo Cargo</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción referente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripcion de la pestaña linea de factura débito" src="../../_images/field-description-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 23. Campo Descripción</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Cantidad</strong>”, la cantidad correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo cantidad de la pestaña linea de factura débito" src="../../_images/amount-field-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 24. Campo Cantidad</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>UM</strong>”, la unidad de medida relacionada al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo um de la pestaña linea de factura débito" src="../../_images/um-field-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 25. Campo UM</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Precio</strong>”, el precio correspondiente a la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo precio de la pestaña linea de factura débito" src="../../_images/price-field-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 26. Campo Precio</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El precio ingreso es convertido al precio real basado en la conversión de la unidad de medida seleccionada en el campo “<strong>UM</strong>”.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar en el campo “<strong>Cantidad Facturada</strong>”, la cantidad facturada correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo cantidad facturada de la pestaña linea de factura débito" src="../../_images/invoiced-amount-field-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 27. Campo Cantidad Facturada</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Precio de Lista</strong>”, el precio oficial correspondiente a la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo precio de lista de la pestaña linea de factura débito" src="../../_images/list-price-field-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 28. Campo Precio de Lista</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El precio actual indica el precio oficial para un producto en la moneda fuente.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar en el campo “<strong>Precio Actual</strong>”, el precio unitario correspondiente a la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo precio actual de la pestaña linea de factura débito" src="../../_images/current-price-field-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 29. Precio Actual</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El precio actual indica el precio para un producto en la moneda fuente.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Factura Afectada</strong>”, la factura afectada para ser asignada automáticamente a la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo factura afectada de la pestaña linea de factura débito" src="../../_images/affected-invoice-field-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 30. Campo Factura Afectada</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Impuesto</strong>”, el impuesto a aplicar al registro o línea de registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo impuesto de la pestaña linea de factura débito" src="../../_images/tax-field-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 31. Campo Impuesto</p>
+</div></blockquote>
+</li>
+<li><p>Podra visualizar en el campo “<strong>Neto de Línea</strong>”, el total neto de la línea basado en la cantidad y el precio actual.</p>
+<blockquote>
+<div><p><img alt="campo neto de linea de la pestaña linea de factura débito" src="../../_images/net-line-field-of-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 32. Campo Neto de Línea</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El total neto de la línea se obtiene de la operación (Cantidad * Precio Actual) sin fletes ni cargos. Cualquier cargo adicional o flete no es incluido.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>El checklkist “<strong>Procesado</strong>”, indica que un documento ha sido procesado.</p>
+<blockquote>
+<div><p><img alt="checklist procesado de la pestaña linea de factura débito" src="../../_images/checklist-processed-from-the-debit-invoice-line-tab.png" /></p>
+<p>Imagen 33. Checklist Procesado</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de los campos de la ventana antes de cambiar a otra pestaña. Esto se puede realizar seleccionando el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+<div class="section" id="factura">
+<h2><span class="section-number">5.5.3. </span><strong>Factura</strong><a class="headerlink" href="#factura" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Regrese a la ventana principal “<strong>Factura</strong>”, ubicando la parte inferior de la nota de débito.</p>
+<blockquote>
+<div><p><img alt="pestaña principal factura débito" src="../../_images/main-tab-debit-invoice.png" /></p>
+<p>Imagen 34. Pestaña Principal Factura</p>
+<ol class="arabic">
+<li><p>En el campo “<strong>Orden de Compra</strong>”, se muestra el número de documento de la orden de compra asociada al documento por pagar.</p>
+<blockquote>
+<div><p><img alt="campo orden de compra de la ventana documentos por pagar débito" src="../../_images/purchase-order-field-of-the-documents-payable-debit-window.png" /></p>
+<p>Imagen 35. Campo Orden de Compra</p>
+</div></blockquote>
+</li>
+<li><p>El checklist “<strong>Pagado</strong>”, indica que el documento ya fue pagado.</p>
+<blockquote>
+<div><p><img alt="checklist pagado de la ventana documentos por pagar débito" src="../../_images/paid-checklist-from-the-documents-payable-debit-window.png" /></p>
+<p>Imagen 36. Checklist Pagado</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar en el campo “<strong>Total de Líneas</strong>”, la sumatoria total de todos los netos de línea sin impuestos ni cargos, que contiene la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo total lineas de la ventana documentos por pagar débito" src="../../_images/total-field-lines-of-the-window-documents-payable-debit.png" /></p>
+<p>Imagen 37. Campo Total de Líneas</p>
+</div></blockquote>
+</li>
+<li><p>De igual manera, podrá visualizar en el campo “<strong>Gran Total</strong>”, la sumatoria de todos los montos reflejados en el campo “<strong>Total de la Línea</strong>”, de todas las líneas que contiene la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo gran total de la ventana documentos por pagar débito" src="../../_images/grand-total-field-of-documents-payable-debit-window.png" /></p>
+<p>Imagen 38. Campo Gran Total</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El gran total identifica el total incluyendo impuestos y totales de fletes en la moneda del documento.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>El campo “<strong>Estado del Documento</strong>”, indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción “<strong>Procesar Factura</strong>”, desplegada por el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="campo estado del documento de la ventana documentos por pagar débito" src="../../_images/document-status-field-of-the-documents-payable-debit-window.png" /></p>
+<p>Imagen 39. Campo Estado del Documento</p>
+</div></blockquote>
+</li>
+<li><p>El campo “<strong>Tipo de Documento</strong>”, indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento en la ventana documentos por pagar débito" src="../../_images/document-type-field-in-the-documents-payable-debit-window.png" /></p>
+<p>Imagen 40. Campo Tipo de Documento</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione la opción “<strong>Procesar Factura</strong>”, desplegada por el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="opcion procesar factura del icono proceso débito" src="../../_images/option-process-invoice-from-debit-process-icon.png" /></p>
+<p>Imagen 41. Opción Procesar Factura del Icono Proceso</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el documento “<strong>Nota de débito de CxP</strong>”.</p>
+<blockquote>
+<div><p><img alt="completar documento" src="../../_images/complete-document.png" /></p>
+<p>Imagen 42. Completar Documento</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../open-items/index.html" class="btn btn-neutral float-right" title="6. Gestión de Saldos Pendientes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="credit-note-cxp.html" class="btn btn-neutral float-left" title="5.4. Nota de Crédito" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

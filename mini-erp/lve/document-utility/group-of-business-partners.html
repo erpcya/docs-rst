@@ -1,0 +1,536 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>1.3. Grupos de Socios del Negocio &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="2. Impresora Fiscal" href="../fiscal-printer/index.html" />
+    <link rel="prev" title="1.2. Categorías de Productos" href="product-category.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">1. <strong>Utilidad de Documentos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="product-group.html">1.1. <strong>Grupo de Productos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="product-category.html">1.2. <strong>Categorías de Productos</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">1.3. <strong>Grupos de Socios del Negocio</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#accionista">1.3.1. <strong>Accionista</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#banco">1.3.2. <strong>Banco</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#clientes-internacionales">1.3.3. <strong>Clientes Internacionales</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#clientes-nacionales">1.3.4. <strong>Clientes Nacionales</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#empleados">1.3.5. <strong>Empleados</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#gobierno">1.3.6. <strong>Gobierno</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#intercompanias">1.3.7. <strong>Intercompañías</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#productores">1.3.8. <strong>Productores</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#proveedores-internacionales">1.3.9. <strong>Proveedores Internacionales</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#proveedores-nacionales">1.3.10. <strong>Proveedores Nacionales</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#comportamiento-de-la-seleccion-del-grupo-de-socio-del-negocio-en-adempiere">1.3.11. <strong>Comportamiento de la Selección del Grupo de Socio del Negocio en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#importancia-del-grupo-de-socio-del-negocio">1.3.12. <strong>Importancia del Grupo de Socio del Negocio</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html">4. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Download Docs</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">1. </span><strong>Utilidad de Documentos</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">1.3. </span><strong>Grupos de Socios del Negocio</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/lve/document-utility/group-of-business-partners.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="grupos-de-socios-del-negocio">
+<span id="documento-grupo-socio-negocio"></span><h1><span class="section-number">1.3. </span><strong>Grupos de Socios del Negocio</strong><a class="headerlink" href="#grupos-de-socios-del-negocio" title="Permalink to this headline">¶</a></h1>
+<p>ADempiere permite agrupar los socios del negocio por categorías que distinguen unos grupos de socios de otros, la clasificación o agrupación de un socio del negocio se realiza al momento del registro del mismo. Un socio del negocio puede ser cliente, proveedor o empleado, a su vez estos se pueden agrupar por banco, clientes nacionales, clientes internacionales, empleados, gobierno, proveedores nacionales y proveedores internacionales, dependiendo de la función que el socio del negocio cumple para una determinada empresa.</p>
+<p>El presente documento elaborado por la empresa ERPyA pretende definir para los usuarios, la utilidad que tienen los grupos de socios del negocio en la versión 3.9.2 de ADempiere en la localización Venezuela.</p>
+<p>En ADempiere es posible clasificar o agrupar los socios del negocio que se vayan a registrar en una determinada empresa permitiendo con esto tener un mejor orden de registros por medio de una selección de grupo de socio del negocio.</p>
+<p>La agrupación de los socios del negocio se realiza de forma sencilla en la ventana “<strong>Socio del Negocio</strong>”, seleccionando en el campo desplegable “<strong>Grupo de Socio del Negocio</strong>” el grupo al cual va a pertenecer el socio que se encuentra en el proceso de registro. A continuación se definen los diferentes grupos de socios del negocio que contempla ADempiere.</p>
+<div class="section" id="accionista">
+<h2><span class="section-number">1.3.1. </span><strong>Accionista</strong><a class="headerlink" href="#accionista" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p><strong>Definición</strong></p>
+<blockquote>
+<div><p>Personas que poseen acciones en una sociedad financiera, comercial o industrial.</p>
+</div></blockquote>
+</li>
+<li><p><strong>Implicación en ADempiere</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio accionista.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="banco">
+<h2><span class="section-number">1.3.2. </span><strong>Banco</strong><a class="headerlink" href="#banco" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p><strong>Definición</strong></p>
+<blockquote>
+<div><p>El grupo de socios del negocio banco, es creado con la intención de agrupar todas las entidades bancarias registradas en ADempiere como socios del negocio tipo proveedor.</p>
+</div></blockquote>
+</li>
+<li><p><strong>Implicación en ADempiere</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio banco.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="clientes-internacionales">
+<h2><span class="section-number">1.3.3. </span><strong>Clientes Internacionales</strong><a class="headerlink" href="#clientes-internacionales" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p><strong>Definición</strong></p>
+<blockquote>
+<div><p>El grupo de socios del negocio clientes internacionales, es creado con la intención de agrupar todos los clientes localizados fuera de Venezuela, registrados en ADempiere como socios del negocio tipo cliente.</p>
+</div></blockquote>
+</li>
+<li><p><strong>Implicación en ADempiere</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio clientes internacionales.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="clientes-nacionales">
+<h2><span class="section-number">1.3.4. </span><strong>Clientes Nacionales</strong><a class="headerlink" href="#clientes-nacionales" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p><strong>Definición</strong></p>
+<blockquote>
+<div><p>El grupo de socios del negocio clientes nacionales, es creado con la intención de agrupar todos los clientes localizados en Venezuela, registrados en ADempiere como socios del negocio tipo cliente y empleado.</p>
+</div></blockquote>
+</li>
+<li><p><strong>Implicación en ADempiere</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio clientes nacionales.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="empleados">
+<h2><span class="section-number">1.3.5. </span><strong>Empleados</strong><a class="headerlink" href="#empleados" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p><strong>Definición</strong></p>
+<blockquote>
+<div><p>El grupo de socios del negocio empleados, es creado con la intención de agrupar todos empleados registrados en ADempiere como socios del negocio tipo empleado.</p>
+</div></blockquote>
+</li>
+<li><p><strong>Implicación en ADempiere</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio empleados.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="gobierno">
+<h2><span class="section-number">1.3.6. </span><strong>Gobierno</strong><a class="headerlink" href="#gobierno" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p><strong>Definición</strong></p>
+<blockquote>
+<div><p>El grupo de socios del negocio gobierno, es creado con la intención de agrupar todas las corporativas o entes gubernamentales registrados en ADempiere como socios del negocio tipo cliente y empleado.</p>
+</div></blockquote>
+</li>
+<li><p><strong>Implicación en ADempiere</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio gobierno.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="intercompanias">
+<h2><span class="section-number">1.3.7. </span><strong>Intercompañías</strong><a class="headerlink" href="#intercompanias" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p><strong>Definición</strong></p>
+<blockquote>
+<div><p>Los grupos económicos se constituyen como una alianza estratégica de mercado con el fin de unir fuerzas de infraestructura, publicidad, canales de distribución, entre otros.</p>
+</div></blockquote>
+</li>
+<li><p><strong>Implicación en ADempiere</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio intercompañías.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="productores">
+<h2><span class="section-number">1.3.8. </span><strong>Productores</strong><a class="headerlink" href="#productores" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p><strong>Definición</strong></p>
+<blockquote>
+<div><p>Productores son encargados de la comercialización agrícola, que permite que los productos perecederos sean abastecidos.</p>
+</div></blockquote>
+</li>
+<li><p><strong>Implicación en ADempiere</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio productores.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="proveedores-internacionales">
+<h2><span class="section-number">1.3.9. </span><strong>Proveedores Internacionales</strong><a class="headerlink" href="#proveedores-internacionales" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p><strong>Definición</strong></p>
+<blockquote>
+<div><p>El grupo de socios del negocio proveedores internacionales, es creado con la intención de agrupar todos proveedores localizados fuera de Venezuela, registrados en ADempiere como socios del negocio tipo proveedor y empleado.</p>
+</div></blockquote>
+</li>
+<li><p><strong>Implicación en ADempiere</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio proveedores internacionales.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="proveedores-nacionales">
+<h2><span class="section-number">1.3.10. </span><strong>Proveedores Nacionales</strong><a class="headerlink" href="#proveedores-nacionales" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p><strong>Definición</strong></p>
+<blockquote>
+<div><p>El grupo de socios del negocio proveedores nacionales, es creado con la intención de agrupar todos proveedores localizados en Venezuela, registrados en ADempiere como socios del negocio tipo proveedor y empleado.</p>
+</div></blockquote>
+</li>
+<li><p><strong>Implicación en ADempiere</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Permite generar un reporte con todos los socios del negocio registrados con el grupo de socio del negocio proveedores nacionales.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="comportamiento-de-la-seleccion-del-grupo-de-socio-del-negocio-en-adempiere">
+<h2><span class="section-number">1.3.11. </span><strong>Comportamiento de la Selección del Grupo de Socio del Negocio en ADempiere</strong><a class="headerlink" href="#comportamiento-de-la-seleccion-del-grupo-de-socio-del-negocio-en-adempiere" title="Permalink to this headline">¶</a></h2>
+<p>Un socio del negocio en ADempiere puede pertenecer a cualquier grupo de socios del negocio, al registrar el mismo es asignado a cual grupo va a pertenecer, este va a depender de la función que cumple o va a cumplir el socio para la empresa que lo esta registrando. A continuación se explican algunas agrupaciones de socios del negocio según los tipos de socios del negocio.</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 26%" />
+<col style="width: 24%" />
+<col style="width: 25%" />
+<col style="width: 25%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Grupos de Socios del Negocio:</p></th>
+<th class="head"><p>El <strong>Socio del Negocio Cliente</strong> puede pertenecer a:</p></th>
+<th class="head"><p>El <strong>Socio del Negocio Proveedor</strong> puede pertenecer a:</p></th>
+<th class="head"><p>El <strong>Socio del Negocio Empleado</strong> puede pertenecer a:</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Grupo de Socios del Negocio Banco</p></td>
+<td></td>
+<td><p><img alt="Check" src="../../_images/check.png" /></p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Grupo de Socios del Negocio Clientes Nacionales</p></td>
+<td><p><img alt="Check" src="../../_images/check.png" /></p></td>
+<td></td>
+<td><p><img alt="Check" src="../../_images/check.png" /></p></td>
+</tr>
+<tr class="row-even"><td><p>Grupo de Socios del Negocio Clientes Internacionales</p></td>
+<td><p><img alt="Check" src="../../_images/check.png" /></p></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Grupo de Socios del Negocio Empleados</p></td>
+<td></td>
+<td></td>
+<td><p><img alt="Check" src="../../_images/check.png" /></p></td>
+</tr>
+<tr class="row-even"><td><p>Grupo de Socios del Negocio Gobierno</p></td>
+<td><p><img alt="Check" src="../../_images/check.png" /></p></td>
+<td><p><img alt="Check" src="../../_images/check.png" /></p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>Grupo de Socios del Negocio Proveedores Nacionales</p></td>
+<td></td>
+<td><p><img alt="Check" src="../../_images/check.png" /></p></td>
+<td><p><img alt="Check" src="../../_images/check.png" /></p></td>
+</tr>
+<tr class="row-even"><td><p>Grupo de Socios del Negocio Proveedores Internacionales</p></td>
+<td></td>
+<td><p><img alt="Check" src="../../_images/check.png" /></p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div>
+<div class="section" id="importancia-del-grupo-de-socio-del-negocio">
+<h2><span class="section-number">1.3.12. </span><strong>Importancia del Grupo de Socio del Negocio</strong><a class="headerlink" href="#importancia-del-grupo-de-socio-del-negocio" title="Permalink to this headline">¶</a></h2>
+<p>En ADempiere la agrupación de los socios del negocio registrados indican el comportamiento y la clasificación dentro del mismo, de igual manera permite un registro ordenado de todos los socios del negocio que una empresa tiene registrados.</p>
+<blockquote>
+<div><p><img alt="Grupo de Socios del Negocio en ADempiere" src="../../_images/group-of-business-partners.png" /></p>
+<p>Imagen 1. Grupo de Socios del Negocio en ADempiere</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../fiscal-printer/index.html" class="btn btn-neutral float-right" title="2. Impresora Fiscal" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="product-category.html" class="btn btn-neutral float-left" title="1.2. Categorías de Productos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

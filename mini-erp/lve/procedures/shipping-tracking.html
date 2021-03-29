@@ -1,0 +1,498 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>3.1. Tracking de Envío &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="3.2. Mercancía en Consignación" href="consignment-merchandise.html" />
+    <link rel="prev" title="3. Procedimientos" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">3. <strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">3.1. <strong>Tracking de Envío</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#recibo-de-dolares-en-fisico">3.1.1. <strong>Recibo de Dólares en Físico</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#registro-de-servicio-personal-shopper">3.1.1.1. <strong>Registro de Servicio Personal Shopper</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#factura-del-servicio-personal-shopper">3.1.1.2. <strong>Factura del Servicio Personal Shopper</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#intercambio-de-dolares">3.1.1.3. <strong>Intercambio de Dólares</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#relacion-de-facturas">3.1.1.4. <strong>Relación de Facturas</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cobro-del-envio-de-la-compra">3.1.1.5. <strong>Cobro del Envío de la Compra</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#recibo-de-dolares-electronicos">3.1.2. <strong>Recibo de Dólares Electrónicos</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">3.1.2.1. <strong>Factura del Servicio Personal Shopper</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#id2">3.1.2.2. <strong>Registro de Servicio Personal Shopper</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="consignment-merchandise.html">3.2. <strong>Mercancía en Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="ticket-office.html">3.3. <strong>Boletería</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html">4. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Download Docs</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">3. </span><strong>Procedimientos</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">3.1. </span><strong>Tracking de Envío</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/lve/procedures/shipping-tracking.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="tracking-de-envio">
+<span id="documento-tracking-de-envio"></span><h1><span class="section-number">3.1. </span><strong>Tracking de Envío</strong><a class="headerlink" href="#tracking-de-envio" title="Permalink to this headline">¶</a></h1>
+<p>El procedimiento “<strong>Personal Shopper</strong>” puede ser registrado en ADempiere, permitiendo controlar los saldos de las transacciones involucradas en dicho procedimiento. Para ello, es necesario que se realicen los procesos explicados a continuación, dependiendo del caso que sea presentado al momento quhe el cliente adquiere dicho servicio.</p>
+<div class="section" id="recibo-de-dolares-en-fisico">
+<h2><span class="section-number">3.1.1. </span><strong>Recibo de Dólares en Físico</strong><a class="headerlink" href="#recibo-de-dolares-en-fisico" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="registro-de-servicio-personal-shopper">
+<h3><span class="section-number">3.1.1.1. </span><strong>Registro de Servicio Personal Shopper</strong><a class="headerlink" href="#registro-de-servicio-personal-shopper" title="Permalink to this headline">¶</a></h3>
+<p>Cuando el cliente adquiere el servico “<strong>Personal Shopper</strong>” por primera vez e indica que el pago será realizado por completo con dólares en efectivo. Suponiendo que su monto total disponible sea de mil trecientos dólares (1300$), se debe realizar lo siguiente:</p>
+<p>Es necesario registrar el cobro en la caja “<strong>Compras_USD</strong>”, ubicada en la ventana “<strong>Caja</strong>”, considerando los siguientes datos:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“<strong>Diario de Caja</strong>”: Compras_USD</p></li>
+<li><p>“<strong>Tipo de documento</strong>”: Cobro Nacional</p></li>
+<li><p>“<strong>Socio del Negocio</strong>”: La persona que está entregando los dólares ($)</p></li>
+<li><p>“<strong>Cargo</strong>”: Compra Exterior</p></li>
+<li><p>“<strong>Total de Pago</strong>”: 1200</p></li>
+<li><p>“<strong>Moneda</strong>”: USD</p></li>
+</ul>
+<p>Recuerde que en este registro se va a colocar solo el monto que queda de la resta de servicio de personal shopper.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El valor de personal shopper lo indica “<strong>Ana</strong>” y ya es un valor que se tiene bajo una negociación entre “<strong>Ana</strong>” y “<strong>El Cliente</strong>”, Ana saca ese valor del servicio del personal shopper en base.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="factura-del-servicio-personal-shopper">
+<h3><span class="section-number">3.1.1.2. </span><strong>Factura del Servicio Personal Shopper</strong><a class="headerlink" href="#factura-del-servicio-personal-shopper" title="Permalink to this headline">¶</a></h3>
+<p>Se crea la factura del servicio de personal shopper, donde se reflejan los otros cien dólares (100$). Está factura lleva los siguientes datos:</p>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Mientras tanto va hacer en bolívares (Bs), hasta se defina si va hacer en dólares ($) y si en el formato de impresión va a salir convertido.</p>
+</div>
+<ul class="simple">
+<li><p>“<strong>Tipo de Documento Destino</strong>”: Factura de Cuentas por Cobrar Nacional</p></li>
+<li><p>“<strong>Socio del Negocio</strong>”: Cliente</p></li>
+<li><p>“<strong>Moneda</strong>”: VES</p></li>
+<li><p>“<strong>Producto (Tipo Servicio)</strong>”: Personal Shopper</p></li>
+<li><p>“<strong>Monto Base Convertido</strong>”</p></li>
+<li><p>“<strong>IVA 16%</strong>”</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si requiere del material que explica el procedimiento detallado para crear una factura, puede visualizar el mismo en el documento <a class="reference internal" href="../../adempiere/quote-to-invoice/invoice-customer/invoice-customer.html#documento-documento-por-cobrar"><span class="std std-ref">Registro de Documento por Cobrar</span></a>.</p>
+</div>
+</div></blockquote>
+<p>Adicional a ello, se crea el cobro del servicio en la caja “<strong>Cobranza USD</strong>”, ubicada en la ventana “<strong>Caja</strong>”, considerando los siguientes datos:</p>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Debe haber una tasa cargada con el valor de la tasa de la factura</p>
+</div>
+<ul class="simple">
+<li><p>“<strong>Diario de Caja</strong>”: Cobranza USD</p></li>
+<li><p>“<strong>Tipo de Documento</strong>”: Cobro Nacional</p></li>
+<li><p>“<strong>Socio del Negocio</strong>”: Mismo Cliente</p></li>
+<li><p>“<strong>Moneda</strong>”: USD</p></li>
+<li><p>“<strong>Se deja tildado él “Sobre sub-pago”</strong>”</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si requiere del material que explica el procedimiento detallado para crear una cobranza, puede visualizar el mismo en el documento <a class="reference internal" href="../../adempiere/open-items/collection-cash/collection-cash.html#documento-caja-cobranza"><span class="std std-ref">Registro de Caja Cobranza</span></a>.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="intercambio-de-dolares">
+<h3><span class="section-number">3.1.1.3. </span><strong>Intercambio de Dólares</strong><a class="headerlink" href="#intercambio-de-dolares" title="Permalink to this headline">¶</a></h3>
+<p>Este procedimiento consta en realizar el intercambio de los dólares en efectivo a dólares electrónicos. Para ello, se registra la transferencia en ADempiere desde la ventana “<strong>Transferencia Bancaria</strong>”, donde se envía desde la cuenta “<strong>Compras USD</strong>” a la cuenta “<strong>Caja Intercambio</strong>”.</p>
+<p>Por último, el dinero vuelve en dólares electrónicos desde la cuenta “<strong>Caja Intercambio</strong>” a la cuenta “<strong>Compras USD</strong>”. Para ello, se debe realizar nuevamente una transferencia bancaria.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si requiere del material que explica el procedimiento detallado para realizar una transferencia, puede visualizar el mismo en el documento <a class="reference internal" href="../../adempiere/open-items/bank-transfer/bank-transfer.html#documento-procedimiento-para-realizar-una-transferencia-bancaria"><span class="std std-ref">Registro de Transferencia Bancaria</span></a>.</p>
+</div>
+</div>
+<div class="section" id="relacion-de-facturas">
+<h3><span class="section-number">3.1.1.4. </span><strong>Relación de Facturas</strong><a class="headerlink" href="#relacion-de-facturas" title="Permalink to this headline">¶</a></h3>
+<p>La relación de las compras se debe registrar en la caja “<strong>Compras USD</strong>”, ubicada en la ventana “<strong>Caja</strong>”, considerando los siguientes datos:</p>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Se debe registrar una caja por cada factura de compra enviada por “<strong>Ana</strong>”.</p>
+</div>
+<ul class="simple">
+<li><p>“<strong>Diario de Caja</strong>”: Compras USD</p></li>
+<li><p>“<strong>Tipo de Documento</strong>”: Pago Nacional</p></li>
+<li><p>“<strong>Cargo</strong>”: Compra Exterior</p></li>
+<li><p>“<strong>Descripción</strong>”: Lo que se está llevando de esa compra, con la cantidad de artículos.</p></li>
+<li><p>“<strong>Fecha de la Transacción</strong>”: Debe ser la fecha en la que llegue la relación de esa compra.</p></li>
+<li><p>“<strong>Total del Pago</strong>”: El monto total de esa compra.</p></li>
+</ul>
+</div></blockquote>
+<p>Adicional a ello, se debe hacer un cierre de caja para relacionar las compras, considerando los siguientes datos:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“<strong>Cuenta</strong>”: Relación de Compras USD</p></li>
+<li><p>Al relacionar las cajas debe realizar la búsqueda por el cargo “<strong>Compra Exterior</strong>” y el socio del negocio “<strong>Cliente</strong>”.</p></li>
+<li><p>Podrá visualizar el registro de ingreso de los mil doscientos dólares (1200$) y los egresos de las compras relacionadas previamente. Estos registros se deben seleccionar para cruzar los saldos y sí hay diferencia eso lo debe reflejar el cierre de caja que se está realizando.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si requiere del material que explica el procedimiento detallado para realizar un cierre de caja, puede visualizar el mismo en el documento <a class="reference internal" href="../../adempiere/open-items/cash-closing/cash-closing.html#documento-procedimiento-para-realizar-un-cierre-de-caja"><span class="std std-ref">Registro de Cierre de Caja</span></a>.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="cobro-del-envio-de-la-compra">
+<h3><span class="section-number">3.1.1.5. </span><strong>Cobro del Envío de la Compra</strong><a class="headerlink" href="#cobro-del-envio-de-la-compra" title="Permalink to this headline">¶</a></h3>
+<p>El cobro del envío de la compra se debe registrar en la caja “<strong>Cobranza USD</strong>”, ubicada en la ventana “<strong>Caja</strong>”, considerando los siguientes datos:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“<strong>Diario de Caja</strong>”: Cobranza USD</p></li>
+<li><p>“<strong>Tipo de Documento</strong>”: Pago Nacional</p></li>
+<li><p>“<strong>Cargo</strong>”: Encomienda</p></li>
+<li><p>“<strong>Total del Pago</strong>”: El monto total del valor del envío.</p></li>
+</ul>
+</div></blockquote>
+<p>Adicional a ello, se debe realizar el cierre de la caja “<strong>Cobranza USD</strong>”, con el monto total del envío.</p>
+<p>“<strong>Observación</strong>”</p>
+<blockquote>
+<div><p>Quedan cien dólares (100$) en caja cobranza, eso se debe llevara a la caja administrativa. Cuando el cliente llega se le indica el saldo que debe.</p>
+<p>El envío realmente no es algo válido ya que no se sabe cómo realmente va a pagar el cliente, por ello ubicamos nuevamente la caja “<strong>Cobranza USD</strong>” que contiene el saldo de la deuda por el envío y se selecciona la opción “<strong>Reversar Causación</strong>”.</p>
+<p>Luego, se crea una copia a la fecha en la que asistio el cliente para reversar la caja “<strong>Cobranza USD</strong>” que contiene el saldo de la deuda por el envío y está contrapartida qué va a estar a la fecha qué se reverse me va a llevar a cero la caja de los setentra dólares (70$).</p>
+<p>Dependiendo de cómo pague se crea el documento por cobrar, si el cliente pide factura se debe crear el documento por cobrar, y posterior a ellos se crea la caja cobranza ya sea en “<strong>VES</strong>” o en “<strong>USD</strong>”.</p>
+<p>Sí no pide factura se hace directamente en la caja y se lleva contra un cargo “<strong>Encomienda</strong>”, dependiendo de cómo cae la cobranza ella lo divide qué va a banco o qué va a caja administrativa de ventas “<strong>USD</strong>”.</p>
+<p>Para ver toda la relación se va a detalle de caja y ubica por socio de negocio, cobros.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="recibo-de-dolares-electronicos">
+<h2><span class="section-number">3.1.2. </span><strong>Recibo de Dólares Electrónicos</strong><a class="headerlink" href="#recibo-de-dolares-electronicos" title="Permalink to this headline">¶</a></h2>
+<p>Cuando el cliente adquiere el servico “<strong>Personal Shopper</strong>” por primera vez e indica que el pago será realizado por completo con dólares electrónicos. Suponiendo que su monto total disponible sea de mil trecientos dólares (1300$), se deben realizar dos (2) cobranzas para indicar lo siguiente:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Una (1) caja cobranza llamando a la factura del servicio “<strong>Personal Shopper</strong>”.</p></li>
+<li><p>Una (1) caja cobranza por el valor de las compras llamando al cargo “<strong>Compra Exterior</strong>”.</p></li>
+<li><p>Una (1) transferencia bancaria por el valor de las compras.</p></li>
+</ul>
+</div></blockquote>
+<p>Para registrar el proceso correctamente en ADempiere, es necesario seguir el siguiente procedimiento:</p>
+<div class="section" id="id1">
+<h3><span class="section-number">3.1.2.1. </span><strong>Factura del Servicio Personal Shopper</strong><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Suponiendo que el servicio de personal shopper tiene un valor de cien dólares (100$). Se crea la factura del servicio de personal shopper, donde se refleja el costo del mismo en la caja “<strong>Compras_USD</strong>”, ubicada en la ventana “<strong>Caja</strong>”, considerando los siguientes datos:</p>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Mientras tanto va hacer en bolívares (Bs), hasta se defina si va hacer en dólares ($) y si en el formato de impresión va a salir convertido.</p>
+</div>
+<ul class="simple">
+<li><p>“<strong>Tipo de Documento Destino</strong>”: Factura de Cuentas por Cobrar Nacional</p></li>
+<li><p>“<strong>Socio del Negocio</strong>”: Cliente</p></li>
+<li><p>“<strong>Moneda</strong>”: VES</p></li>
+<li><p>“<strong>Producto (Tipo Servicio)</strong>”: Personal Shopper</p></li>
+<li><p>“<strong>Monto Base Convertido</strong>”</p></li>
+<li><p>“<strong>IVA 16%</strong>”</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si requiere del material que explica el procedimiento detallado para crear una factura, puede visualizar el mismo en el documento <a class="reference internal" href="../../adempiere/quote-to-invoice/invoice-customer/invoice-customer.html#documento-documento-por-cobrar"><span class="std std-ref">Registro de Documento por Cobrar</span></a></p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="id2">
+<h3><span class="section-number">3.1.2.2. </span><strong>Registro de Servicio Personal Shopper</strong><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>El procedimiento consta en realizar dos cobranzas para reflejar por separado el valor de las compras y el valor del servicio personal shopper. Si requiere del material que explica el procedimiento detallado para crear una cobranza, puede visualizar el mismo en el documento <a class="reference internal" href="../../adempiere/open-items/collection-cash/collection-cash.html#documento-caja-cobranza"><span class="std std-ref">Registro de Caja Cobranza</span></a>. Recuerde que debe considerar los siguientes puntos al momento de la elaboración de cada cobranza.</p>
+<p>Registrar el cobro de las compras en la caja “<strong>Compras_USD</strong>”, ubicada en la ventana “<strong>Caja</strong>”, considerando los siguientes datos:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“<strong>Diario de Caja</strong>”: Compras_USD</p></li>
+<li><p>“<strong>Tipo de documento</strong>”: Cobro Nacional</p></li>
+<li><p>“<strong>Socio del Negocio</strong>”: La persona que está transfiriendo los dólares ($)</p></li>
+<li><p>“<strong>Cargo</strong>”: Compra Exterior</p></li>
+<li><p>“<strong>Total de Pago</strong>”: 1200</p></li>
+<li><p>“<strong>Moneda</strong>”: USD</p></li>
+</ul>
+<p>Recuerde que en este registro se va a colocar solo el monto que queda de la resta de servicio de personal shopper.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El valor de personal shopper lo indica “<strong>Ana</strong>” y ya es un valor que se tiene bajo una negociación entre “<strong>Ana</strong>” y “<strong>El Cliente</strong>”, Ana saca ese valor del servicio del personal shopper en base.</p>
+</div>
+<p>No debe olvidar realizar por completo el procedimiento regular explicado en el documento <a class="reference internal" href="../../adempiere/open-items/collection-cash/collection-cash.html#documento-caja-cobranza"><span class="std std-ref">Registro de Caja Cobranza</span></a>. Recuerde que el mismo culmina luego de completar el segundo cierre de caja, correspondiente a la caja cobranza creada previamente, con la finalidad de llevar la misma a su saldo inicial. Adicional a ello, debe realizar el depósito a la cuenta “<strong>Bofa de Ana</strong>” y en el mismo se debe tildar el checklist “<strong>Dividir Depósito</strong>”, para que sea habilitado el campo “<strong>No. de Documento</strong>”, donde se ingresa el número de referencia.</p>
+</div></blockquote>
+<p>Luego, se debe registrar el cobro del servicio de personal shopper, donde se reflejan los cien dólares (100$), en la caja “<strong>Compras_USD</strong>”, ubicada en la ventana “<strong>Caja</strong>”, considerando los siguientes datos:</p>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Debe haber una tasa cargada con el valor de la tasa de la factura</p>
+</div>
+<ul class="simple">
+<li><p>“<strong>Diario de Caja</strong>”: Cobranza USD</p></li>
+<li><p>“<strong>Tipo de Documento</strong>”: Cobro Nacional</p></li>
+<li><p>“<strong>Socio del Negocio</strong>”: Mismo Cliente</p></li>
+<li><p>“<strong>Factura</strong>”: La factura creada por el servicio de personal shopper</p></li>
+<li><p>“<strong>Moneda</strong>”: USD</p></li>
+<li><p>“<strong>Se deja tildado él “Sobre sub-pago”</strong>”</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que el valor de personal shopper lo indica “<strong>Ana</strong>” y ya es un valor que se tiene bajo una negociación entre “<strong>Ana</strong>” y “<strong>El Cliente</strong>”, Ana saca ese valor del servicio del personal shopper en base.</p>
+</div>
+<p>No debe olvidar realizar por completo el procedimiento regular explicado en el documento <a class="reference internal" href="../../adempiere/open-items/collection-cash/collection-cash.html#documento-caja-cobranza"><span class="std std-ref">Registro de Caja Cobranza</span></a>. Recuerde que el mismo culmina luego de completar el segundo cierre de caja, correspondiente a la caja cobranza creada previamente, con la finalidad de llevar la misma a su saldo inicial. Adicional a ello, debe realizar el depósito a la cuenta “<strong>Bofa de Ana</strong>” y en el mismo se debe tildar el checklist “<strong>Dividir Depósito</strong>”, para que sea habilitado el campo “<strong>No. de Documento</strong>”, donde se ingresa el número de referencia.</p>
+</div></blockquote>
+<p>Finalmente, se registra la transferencia en ADempiere desde la ventana “<strong>Transferencia Bancaria</strong>”, donde se envía desde la cuenta caja “<strong>Bofa Ana</strong>” a la cuenta caja “<strong>Compras USD</strong>”, con el socio de negocio el cliente y el monto de las compras. Si requiere del material que explica el procedimiento detallado para realizar una transferencia, puede visualizar el mismo en el documento <a class="reference internal" href="../../adempiere/open-items/bank-transfer/bank-transfer.html#documento-procedimiento-para-realizar-una-transferencia-bancaria"><span class="std std-ref">Registro de Transferencia Bancaria</span></a>.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="consignment-merchandise.html" class="btn btn-neutral float-right" title="3.2. Mercancía en Consignación" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="3. Procedimientos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
