@@ -108,7 +108,7 @@
 
         Imagen 12. Campo Fecha de Envio de la Ventana Generar Entrega desde Líneas de la Orden
 
-    #. El campo "**Tipo de Documento**", se encuentra vacío y de sólo lectura ya que el tipo de documento a generar lo define la orden de venta seleccionada. De igual manera, el tipo de documento define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento :ref:`documento/tipo-documento` elaborado por `ERPyA`_.
+    #. El campo "**Tipo de Documento**", se encuentra vacío y de sólo lectura ya que el tipo de documento a generar lo define la orden de venta seleccionada. De igual manera, el tipo de documento define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento "**Tipo de Documento**" elaborado por `ERPyA`_.
 
         |Campo Tipo de Documento de la Ventana Generar Entrega desde Líneas de la Orden|
 

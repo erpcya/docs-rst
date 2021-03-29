@@ -328,7 +328,3 @@
    |Cierre de Caja Administrativo|
 
    Imagen 44. Cierre de Caja Administrativo
-
-.. note::
-
-    Para identificar los cobros sin registros en ADempiere, se debe realizar el procedimiento explicado en el proceso :ref:`paso/cobros-sin-registros` del documento "**Conciliaciones Automáticas**".

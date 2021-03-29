@@ -124,7 +124,7 @@ Para realizar una transferencia bancaria en ADempiere deben seguir los siguiente
 
     Imagen 13. Campo Fecha Contable
 
-#. Si desea que los pagos/cobros que se generen de esta transferencia bancarias se concilien de una vez puede tildar la opción **"Conciliar Automáticamente"**, si no tilda esta opción los pagos/cobros no se conciliaran y deberán ser conciliados a través :ref:`documento/conciliacion-automatica`
+#. Si desea que los pagos/cobros que se generen de esta transferencia bancarias se concilien de una vez puede tildar la opción **"Conciliar Automáticamente"**.
 
     |Campo Conciliar Automáticamente|
 
