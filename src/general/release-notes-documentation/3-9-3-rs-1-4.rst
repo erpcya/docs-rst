@@ -15,4 +15,4 @@
 
 - **Mejoras:**
 
- - Se pueden generar facturas de cuentas por cobrar desde el proceso "**Crear Factura Desde Boleto**", sin importar el socio del negocio seleccionado en la factura. Esta funcionalidad fue liberada en la versión :ref:`documento/versión-18-9`, en el cual se agrega el campo "**Viajero**" como filtro o campo de búsqueda en dicho proceso.
+    - Se pueden generar facturas de cuentas por cobrar desde el proceso "**Crear Factura Desde Boleto**", sin importar el socio del negocio seleccionado en la factura. Esta funcionalidad fue liberada en la versión :ref:`documento/versión-18-9`, en el cual se agrega el campo "**Viajero**" como filtro o campo de búsqueda en dicho proceso.
