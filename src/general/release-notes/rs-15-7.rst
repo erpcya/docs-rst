@@ -8,11 +8,12 @@
 
 - ADempiereBase:
  
- - Versión de Liberación: 3.9.3-rs-4.0
+    - Versión de Liberación: 3.9.3-rs-4.0
 
 - CST-STD
  
- - Versión de Liberación: rs-19.3
+    - Versión de Liberación: rs-19.3
+
 - Consigned-Material: 1.1.1
 - Exchange-Operation-System: 1.1.3
 - Cash-Management: 1.0.4
@@ -34,7 +35,7 @@
 
 - Se deben aplicar los siguientes XML's:
  
- - Additional-Reports: 05790_Add_Currency_for_Statement_of_Account.xml
+    - Additional-Reports: 05790_Add_Currency_for_Statement_of_Account.xml
 
 **Detalle Técnico:**
 --------------------
@@ -61,5 +62,5 @@
 
 - Cambios menores:
  
- - Se agrega la moneda al estado de cuentas por socio de negocio
- - Ahora se puede generar el Estado de Cuentas de Socio de Negocios en múltiples monedas
+    - Se agrega la moneda al estado de cuentas por socio de negocio
+    - Ahora se puede generar el Estado de Cuentas de Socio de Negocios en múltiples monedas

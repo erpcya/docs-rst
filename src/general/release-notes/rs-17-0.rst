@@ -8,10 +8,11 @@
 
 - ADempiereBase:
 
- - Versión de Liberación: 3.9.3-rs-4.2
+    - Versión de Liberación: 3.9.3-rs-4.2
+
 - CST-STD
 
- - Versión de Liberación: rs-19.9
+    - Versión de Liberación: rs-19.9
 
 - Consigned-Material: 1.1.2
 - Exchange-Operation-System: 1.1.3
@@ -40,4 +41,4 @@
 
 - **Correcciones:**
 
- - Se corrige problema con el cálculo de impuesto en las órdenes de ventas creadas desde el punto de ventas
+    - Se corrige problema con el cálculo de impuesto en las órdenes de ventas creadas desde el punto de ventas
