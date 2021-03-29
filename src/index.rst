@@ -34,3 +34,8 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/pos-management/index
     adempiere/open-items/index
 
+.. toctree::
+    :caption: E-commerce
+    :maxdepth: 2
+
+    ecommerce/index
