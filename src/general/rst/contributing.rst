@@ -111,7 +111,7 @@ La numeración en la documentación se realiza agregando:
 
     + Punto tres 
 
-    #. Punto cuatro 
+    Punto cuatro 
 
     1. Punto cinco
 
@@ -123,7 +123,7 @@ La misma es visualizada de la siguiente manera:
 
 + Punto tres
 
-#. Punto cuatro
+Punto cuatro
 
 1. Punto cinco
 
@@ -258,6 +258,7 @@ Las imágenes pueden ser llamadas en la documentación de dos (2) formas:
 "**Ejemplo de ruta de la imagen**":
 
     ``.. |Inicio de Sesión en GitHub| image:: img/img1.png``
+
     ``.. |Perfil de ERPyA en GitHub| image:: img/img2.png``
 
 .. note::
@@ -384,7 +385,7 @@ directorio por funcionalidad,
         
                 - fiscal-printer/
                 
-                    - setup-vmax-220.md
+                    - setup-vmax-220.rst
                 
                 - withholding/
                 
@@ -416,7 +417,7 @@ llamado "**resources**" dentro del directorio "**fiscal-printer**", el resultado
 
                     - resources/
                 
-                    - setup-vmax-220.md
+                    - setup-vmax-220.rst
                 
                 - withholding/
                 
@@ -436,15 +437,15 @@ llamado "**resources**" dentro del directorio "**fiscal-printer**", el resultado
 
 Para descargar el repositorio en la carpeta local y poder contribuir a la documentación, es necesario ejecutar los siguientes comandos en la terminal de "**Visual Studio Code**".
 
-#. Comando para ubicarse en la carpeta donde se va a almacenar el repositorio ``cd /opt/Development/Workspace/``
+Comando para ubicarse en la carpeta donde se va a almacenar el repositorio ``cd /opt/Development/Workspace/``
 
-#. Copie la url del repositorio de `ERPyA`_ con la opción "**Clone or download**"
+Copie la url del repositorio de `ERPyA`_ con la opción "**Clone or download**"
 
     |Clonar o Descargar|
 
     Imagen 1. Opción Clonar o Descargar Repositorio 
 
-#. Comando para descargar el repositorio clonado en la carpeta local seleccionada ``git clone https://github.com/erpcya/docs.git``
+Comando para descargar el repositorio clonado en la carpeta local seleccionada ``git clone https://github.com/erpcya/docs.git``
 
 .. note:: 
 
@@ -455,15 +456,15 @@ Para descargar el repositorio en la carpeta local y poder contribuir a la docume
 
 Para contribuir a la documentación es necesario tener el repositorio actualizado, para ello se debe ejecutar los siguientes comandos:
 
-#. Comando para ubicarse en la carpeta donde se encuentra el repositorio ``cd /opt/Development/Workspace/docs``
+Comando para ubicarse en la carpeta donde se encuentra el repositorio ``cd /opt/Development/Workspace/docs``
 
-#. Comando para traer los cambios del repositorio de `ERPyA`_ ``git fetch upstream``
+Comando para traer los cambios del repositorio de `ERPyA`_ ``git fetch upstream``
 
-#. Comando para reemplazar el repositorio en mi cuenta por el repositorio de `ERPyA`_ ``git rebase -f upstream/master``
+Comando para reemplazar el repositorio en mi cuenta por el repositorio de `ERPyA`_ ``git rebase -f upstream/master``
 
-    #. Si da conflicto o se necesitan los cambios de una rama en especifico, se debe ajecutar el siguiente comando ``git merge master``
+    Si da conflicto o se necesitan los cambios de una rama en especifico, se debe ajecutar el siguiente comando ``git merge master``
 
-    #. Hacer commit para corregir el conflicto.
+    Hacer commit para corregir el conflicto.
 
 .. note::
 
@@ -472,32 +473,32 @@ Para contribuir a la documentación es necesario tener el repositorio actualizad
 **Actualizar el Servicio de Prueba**
 ************************************
 
-#. Hacer commit en la rama creada para el documento.
+Hacer commit en la rama creada para el documento.
 
-#. Ubicarse en 159.65.189.53:8000/projects/documentacion-uestandar/builds/ o en su defecto http://docs.erpya.com/projects/documentacion-uestandar/builds/
+Ubicarse en 159.65.189.53:8000/projects/documentacion-uestandar/builds/ o en su defecto http://docs.erpya.com/projects/documentacion-uestandar/builds/
 
-    #. Seleccione la rama (versión) a actualizar.
+    Seleccione la rama (versión) a actualizar.
 
-    #. Seleccione la opción "**Versión de Compilación**".
+    Seleccione la opción "**Versión de Compilación**".
 
     .. note:: 
 
         La palabra "**documentacion-uestandar**" corresponde al proyecto creado en la documentación :ref:`documento/nuevo-proyecto`:
 
-#. Espere el resultado
+Espere el resultado
 
-    #. **Compilando**: Se esta compilando el servicio y construyendo los cambios.
+    **Compilando**: Se esta compilando el servicio y construyendo los cambios.
 
-    #. **Fallido**: Ocurrio un error y no se compilo el servicio de prueba. En este caso debe realizar lo siguiente:
+    **Fallido**: Ocurrio un error y no se compilo el servicio de prueba. En este caso debe realizar lo siguiente:
 
-        #. Seleccione la palabra "**Fallido**" para ver el error.
+        Seleccione la palabra "**Fallido**" para ver el error.
 
-        #. Solucione el error y genere otro commit con los cambios para solucionarlo.
+        Solucione el error y genere otro commit con los cambios para solucionarlo.
 
-        #. Realice el proceso para "**Actualizar el Servicio de Prueba**".
+        Realice el proceso para "**Actualizar el Servicio de Prueba**".
     
-    #. **Con Éxito**: Se compilo exitosamente el servicio de prueba.
+    **Con Éxito**: Se compilo exitosamente el servicio de prueba.
 
-#. Ubique el servicio de prueba 159.65.189.53:8000/docs/documentacion-uestandar/en/versióncompilada o en su defecto puede seleccionar la opción "**Ver Documentación**" y cambie en la url http://docs.erpya.com/docs/documentacion-uestandar/en/latest/ la palabra "**latest**" por el nombre de la versión compilada.
+Ubique el servicio de prueba 159.65.189.53:8000/docs/documentacion-uestandar/en/versióncompilada o en su defecto puede seleccionar la opción "**Ver Documentación**" y cambie en la url http://docs.erpya.com/docs/documentacion-uestandar/en/latest/ la palabra "**latest**" por el nombre de la versión compilada.
 
-    #. Refresque o Actualice la página para ver los cambios.
+    Refresque o Actualice la página para ver los cambios.

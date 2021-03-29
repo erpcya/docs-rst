@@ -3,29 +3,27 @@
 **Actualizar Cliente de cola de impresión para Impresora Fiscal PNP**
 =====================================================================
 
-
 Para la actualización del cliente de cola de impresión para la Impresora Fiscal es necesario lo siguiente:
 
-   
-#. **Requisitos**:
+**Requisitos**:
 
-   #. Descargar el Archivo **Setup_LocalPrintingPnP.exe**
+- Descargar el Archivo **Setup_LocalPrintingPnP.exe**
 
-   #. Conocer en qué Puerto **COM** está conectada la impresora (El puerto debe estar entre 1 y 4)
-   
-   #. Detener el Cliente de cola de impresión en ejecución, en el escritorio de Windows se tiene acceso directo **LocalPrinting-PnP.ink**, el cual permite detener el cliente de cola de impresión al ejecutarlo, para ello usar el siguiente parámetro:
-   
-    ====================== ===============================
-    Parámetro              Valor
-    ====================== ===============================
-    2                      Detiene el Cliente de Cola de Impresión
-    ====================== ===============================
-   
-#. **Ejecutar Setup_LocalPrintingPnP.exe con privilegios de Administrador**:
-   
-   
-   Seguir los pasos del instalador y colocar los siguientes parámetros:
-      
+- Conocer en qué Puerto **COM** está conectada la impresora (El puerto debe estar entre 1 y 4)
+
+- Detener el Cliente de cola de impresión en ejecución, en el escritorio de Windows se tiene acceso directo **LocalPrinting-PnP.ink**, el cual permite detener el cliente de cola de impresión al ejecutarlo, para ello usar el siguiente parámetro:
+
+====================== =======================================
+Parámetro              Valor
+====================== =======================================
+2                      Detiene el Cliente de Cola de Impresión
+====================== =======================================
+
+**Ejecutar Setup_LocalPrintingPnP.exe con privilegios de Administrador**:
+
+
+Seguir los pasos del instalador y colocar los siguientes parámetros:
+
     =================  ================= =====================================================================================================================
     Parámetro          Valor             Descripción    
     =================  ================= =====================================================================================================================
@@ -33,58 +31,56 @@ Para la actualización del cliente de cola de impresión para la Impresora Fisca
     Port               50043             Puerto de Comunicaciones del Servidor de cola de impresión, no cambiar      
     Reconnect          true              Habilitar reconexión Automática     
     Interval           3000              Tiempo de reconexión     
-    Printer Type       300               Tipo de impresora fiscal, colocar 200 si la impresora es del tipo PF-200 o 300 si la impresora es del tipo PF-300-II    
+    Printer Type       300               Tipo de impresora fiscal, colocar 200 si la impresora es del tipo PF-200 o 300 si la impresora es del tipo PF-300-II
     Printer Name       TESTPRINTER01     Este Nombre se le asigna en adempiere al momento de registrar las impresoras
     =================  ================= =====================================================================================================================
 
-   .. note::
+.. note::
 
-       Es importante que al momento de iniciar el ejecutable se use con privilegios de Administrador, en caso de no ser así este mismo no tendrá los permisos para instalar las librerías necesarias
+    Es importante que al momento de iniciar el ejecutable se use con privilegios de Administrador, en caso de no ser así este mismo no tendrá los permisos para instalar las librerías necesarias
 
-   
-   Luego de aplicar el instalador ubicar el acceso directo **LocalPrinting-PnP.ink** en el escritorio de Windows, para iniciar el cliente de cola de impresión nuevamente, se debe usar el siguiente parámetro:
-   
-    ====================== ===============================
+
+Luego de aplicar el instalador ubicar el acceso directo **LocalPrinting-PnP.ink** en el escritorio de Windows, para iniciar el cliente de cola de impresión nuevamente, se debe usar el siguiente parámetro:
+
+    ====================== ======================================
     Parámetro              Valor
-    ====================== ===============================
+    ====================== ======================================
     1                      Inicia el Cliente de Cola de Impresión
-    ====================== ===============================
-   
-   
-#. **Verificar Correcto funcionamiento luego de la instalación**:
-   
-   Hacer doble click en el acceso directo **LocalPrinting-PnP.ink** con privilegios de Administrador en el menú que se observa en la ventana de la consola Windows selecciona la opción 1, esto iniciara el cliente de cola de impresión.
-   
-#. **Obtener Estado Actual de Impresora Fiscal**:
+    ====================== ======================================
 
-   #. Ingresando en **ADempiere** como compañía ubicar el proceso **Configuración de Impresora Fiscal** y ejecutar el proceso con los parámetros:
+**Verificar Correcto funcionamiento luego de la instalación**:
 
-      ====================== ===============================
-      Parámetro              Valor
-      ====================== ===============================
-      Impresora Fiscal       Seleccionar Impresora a Emplear para la prueba
-      Tipo de comando Fiscal Obtener Estado de Impresora
-      ====================== ===============================
+Hacer doble click en el acceso directo **LocalPrinting-PnP.ink** con privilegios de Administrador en el menú que se observa en la ventana de la consola Windows selecciona la opción 1, esto iniciara el cliente de cola de impresión.
 
-      Del proceso se obtiene la siguiente respuesta:
-      
-      .. code-block:: text
+**Obtener Estado Actual de Impresora Fiscal**:
 
-         ** Impresora lista para abrir una factura, abrir un documento no fiscal, hacer un reporte Z o un reporte de memoria fiscal**
+Ingresando en **ADempiere** como compañía ubicar el proceso **Configuración de Impresora Fiscal** y ejecutar el proceso con los parámetros:
 
+    ====================== ==============================================
+    Parámetro              Valor
+    ====================== ==============================================
+    Impresora Fiscal       Seleccionar Impresora a Emplear para la prueba
+    Tipo de comando Fiscal Obtener Estado de Impresora
+    ====================== ==============================================
 
-#. **Imprimir Reporte X**   
-   
-   #. Para el caso donde la conexión se ejecuta correctamente, se procede a realizar una impresión de control usando el Proceso **Imprimir Reporte Fiscal** con los parámetros:
+Del proceso se obtiene la siguiente respuesta:
 
-      ====================== ===============================
-      Parámetro              Valor
-      ====================== ===============================
-      Impresora Fiscal       Seleccionar Impresora a Emplear para la prueba
-      Tipo de comando Fiscal Reporte X
-      ====================== ===============================
+.. code-block:: text
 
-      Al iniciar la impresión todo está correctamente configurado y funcional.
-   
+    ** Impresora lista para abrir una factura, abrir un documento no fiscal, hacer un reporte Z o un reporte de memoria fiscal**
+
+**Imprimir Reporte X**   
+
+Para el caso donde la conexión se ejecuta correctamente, se procede a realizar una impresión de control usando el Proceso **Imprimir Reporte Fiscal** con los parámetros:
+
+    ====================== ==============================================
+    Parámetro              Valor
+    ====================== ==============================================
+    Impresora Fiscal       Seleccionar Impresora a Emplear para la prueba
+    Tipo de comando Fiscal Reporte X
+    ====================== ==============================================
+
+Al iniciar la impresión todo está correctamente configurado y funcional.
+
 
 
