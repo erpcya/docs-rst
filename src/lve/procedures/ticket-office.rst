@@ -1,3 +1,4 @@
+.. _ERPyA: http://erpya.com
 .. |menú de ventana boleto de viaje| image:: resources/window-menu-travel-ticket.png
 .. |ventana boleto de viaje| image:: resources/window-travel-ticket.png
 .. |icono registro nuevo de la ventana boleto de viaje| image:: resources/travel-ticket-window-new-registration-icon.png

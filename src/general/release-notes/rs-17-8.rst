@@ -32,11 +32,12 @@
 
 - Se deben aplicar los siguientes XML's:
 
- - Farmer-Assistance-Program:
-  - 06940_Add_Functionality_setup.xml
-  - 06950_Add_Setup_for_Farmer_Assistance_Program.xml
-  - 06950_Add_Transaction_Type_for_Order.xml
-  - 07660_Add_Report_for_Farmer_Transactions.xml
+    - Farmer-Assistance-Program:
+
+        - 06940_Add_Functionality_setup.xml
+        - 06950_Add_Setup_for_Farmer_Assistance_Program.xml
+        - 06950_Add_Transaction_Type_for_Order.xml
+        - 07660_Add_Report_for_Farmer_Transactions.xml
 
 **Detalle Técnico:**
 --------------------
@@ -49,5 +50,5 @@
 
 - **Correcciones:**
 
- - Se cambia el evento para buscar el precio de compra de un producto para "Antes de Completar" una factura de ventas
- - Se corrige problema para calculo de precio de compra en documento por cobrar
+    - Se cambia el evento para buscar el precio de compra de un producto para "Antes de Completar" una factura de ventas
+    - Se corrige problema para calculo de precio de compra en documento por cobrar

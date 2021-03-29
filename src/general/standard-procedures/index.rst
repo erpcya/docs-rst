@@ -11,7 +11,6 @@ El próximo material otorga a nuestros lectores información sobre políticas, f
 
 .. toctree::
     :maxdepth: 2
-    :numbered:
 
     customer-review
     schedule-a-meeting
