@@ -182,7 +182,7 @@ locale_dirs = ['locale/']
 #    (master_doc, 'ADempiereDocs.tex', 'E.R.P. Consultores y Asociados, C.A.', 'Documentation E.R.P. Consultores y Asociados, C.A.', 'manual'),
 #]
 
-#pdf_documents = [('index', u'rst2pdf', u'ADempiereDocs', u'Documentation E.R.P. Consultores y Asociados, C.A'),]
+pdf_documents = [('index', u'rst2pdf', u'ADempiereDocs', u'Documentation E.R.P. Consultores y Asociados, C.A'),]
 
 
 

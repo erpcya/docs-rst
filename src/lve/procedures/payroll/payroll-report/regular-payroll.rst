@@ -6,15 +6,12 @@
 
 .. _documento/nomina-regular:
 
-===================
 **Nómina Regular**
 ===================
 
 El reporte de nómina regular contiene los datos principales de todo proceso de nómina regular, representando primeramente los datos de cada uno de los empleados. Tambien en él usted podrá visualizar las asignaciones y las deducciones procesadas en las diferentes nóminas regulares del empleado.  Los parámetros utilizados para generar el reporte de nómina los encontrará en el documento :ref:`documento/reporte-de-nómina` donde se detallan los campos utilizados para visualizar un reporte de nómina.
 
-
-  Entre las asignaciones que se pueden visualizar en el reporte de nómina regular se encuentran:
-
+Entre las asignaciones que se pueden visualizar en el reporte de nómina regular se encuentran:
 
     +-----------------------------------------------+-----------------------------------------------+
     |           **ASIGNACIONES**                    |             **REFERENCIA**                    |
@@ -118,13 +115,9 @@ Entre las deducciones que se pueden visualizar en el reporte de nómina regular 
 
         Cabe destacar que no la deducciones apareceran en su reporte de nómina regular sino aquellas que esten configuradas para para ese tipo de nómina.
 
-
-
-
 Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
 
-#.Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina.
-
+Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina.
 
     Entre los datos personales que usted puede visualizar en el encabezado de su recibo de pago de la nómina regular se encuentran los siguientes:
 
@@ -180,24 +173,20 @@ Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
     |                                               | información del contrato de la ventana        |
     |                                               | Empleados (Todos)                             |
     +-----------------------------------------------+-----------------------------------------------+
-  
 
     .. note::
-    
-        Para realizar cualquier modificación que requiera realizar de estos campos puede utilizar el siguiente documento :ref:`documento/socio-empleado` 
-  
-    
-    Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fue impreso el recibo.
- 
- 
-    En el ejemplo presentado se evidencia una nómina mensual  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
 
+        Para realizar cualquier modificación que requiera realizar de estos campos puede utilizar el siguiente documento :ref:`documento/socio-empleado` 
+
+    Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fue impreso el recibo.
+
+    En el ejemplo presentado se evidencia una nómina mensual  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
 
     |Recibo de Nómina|
 
     Imagen 1. Recibo de Pago
 
-#. Detalle de Pago: Seleccione esta plantilla de reporte de nómina regular si desea conocer de manera detallada todos los montos de nómina de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos del totales de las nóminas procesadas a todos los empleados.
+Detalle de Pago: Seleccione esta plantilla de reporte de nómina regular si desea conocer de manera detallada todos los montos de nómina de asignación y deducciones de una manera más resumida y detallada, esta plantilla la utiliza el cliente para conocer los montos del totales de las nóminas procesadas a todos los empleados.
 
     Los campos podrá visualizar en este reporte son:
 
@@ -227,14 +216,12 @@ Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
     |  Total                                        | Corresponde al monto total obtenido por       |
     |                                               | concepto                                      |
     +-----------------------------------------------+-----------------------------------------------+
- 
- 
+
     En el siguiente ejemplo presentado se evidencia una nómina mensual  procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente. 
- 
+
     |Detalle de Pago 1|
 
     Imagen 2. Detalle de Pago. Misma nómina con diferentes empleados.
-
 
     En el ejemplo presentado se evidencia detalle de pago del reporte de nómina regular de 2 nóminas mensuales procesada al mismo empleado y en ella se evidencian las asignaciones y las deducciones obtenidas, así como se encuentran todos los datos qué detallamos anteriormente. 
  
@@ -242,8 +229,7 @@ Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
 
     Imagen 3. Detalle de Pago. Diferentes nóminas procesadas al mismo empleado.
 
-
-#. Resumen de Pago:  Seleccione esta plantilla de reporte de nómina para conocer de manera resumida las asignaciones y deducciones agrupadas en todas en un  mismo reporte omitiendo algunos detalle que usted pudiera encontrar en la plantilla Detalle de Pago. Esta plantilla le presentará por cada uno de los concepto un monto total por cada empleado:
+Resumen de Pago:  Seleccione esta plantilla de reporte de nómina para conocer de manera resumida las asignaciones y deducciones agrupadas en todas en un  mismo reporte omitiendo algunos detalle que usted pudiera encontrar en la plantilla Detalle de Pago. Esta plantilla le presentará por cada uno de los concepto un monto total por cada empleado:
 
     Los campos podrá visualizar en este reporte son:
 
@@ -272,13 +258,11 @@ Para este reporte de Nómina Regular están configurados 3 tipos de plantillas
     |                                               | concepto                                      |
     +-----------------------------------------------+-----------------------------------------------+
 
-   En el siguiente ejemplo presentado se evidencia una nómina mensual  procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina regular utilizando la plantilla de resumen de pagos
+    En el siguiente ejemplo presentado se evidencia una nómina mensual  procesada a  2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina regular utilizando la plantilla de resumen de pagos
  
     |Resumen de Pago 1|
 
     Imagen 4. Resumen de Pago. Misma nómina con diferentes empleados.
-
-
 
     En el ejemplo presentado se evidencia detalle de pago del reporte de nómina regular de 2 nóminas mensuales procesada al mismo empleado y en ella se evidencian las asignaciones y las deducciones obtenidas, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina regular utilizando la plantilla de resumen de pagos 
  

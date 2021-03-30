@@ -42,10 +42,9 @@ Se hace a través de la combinación de los botones "**OK**" + "**Z**" Se debe m
 **Generar "Reporte de Memoria Fiscal por días".**
 -------------------------------------------------
 
-.. note::
+    .. note::
 
-    Estas instrucciones se detallan en la Página 15 de el `Manual de Fabricante. <http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf>`_
-
+        Estas instrucciones se detallan en la Página 15 de el `Manual de Fabricante. <http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf>`_
 
     .. documento/generar-reporte-04
 
@@ -57,24 +56,23 @@ Se hace a través de la combinación de los botones "**OK**" + "**Z**" Se debe m
 
 Para emitir este reporte debe presionar las teclas "**Dump Fecha**" y "**OK**" al mismo tiempo durante 2 o 3 segundos.
 
-.. tip:: 
+    .. tip:: 
 
-    "Seguir instrucciones en pantalla:"
+        "Seguir instrucciones en pantalla:"
 
-        Para incrementar o decrementar los valores en pantalla de uno en uno presione las teclas identificadas en letras pequeñas como +1 y -1.
+            Para incrementar o decrementar los valores en pantalla de uno en uno presione las teclas identificadas en letras pequeñas como +1 y -1.
 
-        Para incrementar o decrementar los valores en pantalla de diez en diez presione las teclas identificadas en letras pequeñas como +10 y -10.
+            Para incrementar o decrementar los valores en pantalla de diez en diez presione las teclas identificadas en letras pequeñas como +10 y -10.
 
-        Para fijar cada valor presione la tecla OK. Debe seguir este procedimiento para cada valor solicitado en la pantalla. Al finalizar será emitido el reporte. 
+            Para fijar cada valor presione la tecla OK. Debe seguir este procedimiento para cada valor solicitado en la pantalla. Al finalizar será emitido el reporte. 
 
-    
-.. documento/generar-reporte-05
+    .. documento/generar-reporte-05
 
-.. figure:: resorces/generate-report-by-days1.jpg
-   :align: center
-   :alt: Generar Reporte por Días
+    .. figure:: resorces/generate-report-by-days1.jpg
+       :align: center
+       :alt: Generar Reporte por Días
 
-   Imagen 5. Generar Reporte Z
+       Imagen 5. Generar Reporte Z
 
 En la pantalla se visualizara las opciones X "**MES**" y Z "**DÍAS**", se debe presionar el botón "**Z**", luego se mostrara el mensaje "**AGRUPADO POR DÍAS**".
 
@@ -117,38 +115,37 @@ Despues de cargar los parametros de impresion inmediatamente iniciara la impresi
 **Generar "Reporte de Memoria Fiscal por mes".**
 ------------------------------------------------
 
-.. warning::
+    .. warning::
 
-    Estas instrucciones se detallan en la Página 15 de el `Manual de Fabricante. <http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf>`_ 
+        Estas instrucciones se detallan en la Página 15 de el `Manual de Fabricante. <http://www.elepos.com.ve/eleposveweb/archivos/Manuales/MU_ImpresorasVmax220_221_222.pdf>`_ 
 
-.. documento/generar-reporte-10
+    .. documento/generar-reporte-10
 
-.. figure:: resorces/print-report-by-month.png
-   :align: center
-   :alt: Reporte de Memoria Fiscal por mes
+    .. figure:: resorces/print-report-by-month.png
+       :align: center
+       :alt: Reporte de Memoria Fiscal por mes
 
-   Imagen 10. Reporte de Memoria Fiscal por mes
+       Imagen 10. Reporte de Memoria Fiscal por mes
 
 Para emitir este reporte debe presionar las teclas "**Dump Fecha**" y "**OK**" al mismo tiempo durante 2 o 3 segundos.
 
-.. tip:: 
+    .. tip:: 
 
-    "Seguir instrucciones en pantalla:"
+        "Seguir instrucciones en pantalla:"
 
-        Para incrementar o decrementar los valores en pantalla de uno en uno presione las teclas identificadas en letras pequeñas como +1 y -1.
+            Para incrementar o decrementar los valores en pantalla de uno en uno presione las teclas identificadas en letras pequeñas como +1 y -1.
 
-        Para incrementar o decrementar los valores en pantalla de diez en diez presione las teclas identificadas en letras pequeñas como +10 y -10.
+            Para incrementar o decrementar los valores en pantalla de diez en diez presione las teclas identificadas en letras pequeñas como +10 y -10.
 
-        Para fijar cada valor presione la tecla OK. Debe seguir este procedimiento para cada valor solicitado en la pantalla. Al finalizar será emitido el reporte. 
+            Para fijar cada valor presione la tecla OK. Debe seguir este procedimiento para cada valor solicitado en la pantalla. Al finalizar será emitido el reporte. 
 
+    .. documento/generar-reporte-11
 
-.. documento/generar-reporte-11
+    .. figure:: resorces/generate-report-by-days1.jpg
+       :align: center
+       :alt: Generar Reporte por Mes
 
-.. figure:: resorces/generate-report-by-days1.jpg
-   :align: center
-   :alt: Generar Reporte por Mes
-
-   Imagen 11. Generar Reporte
+    Imagen 11. Generar Reporte
 
 En la pantalla se visualizara las opciones X "**MES**" y Z "**DÍAS**", se debe presionar el botón "**X**", luego se mostrara el mensaje "**AGRUPADO POR MES**".
 

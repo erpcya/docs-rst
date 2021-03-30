@@ -1,8 +1,7 @@
-.. _documento/acumulado-salario-normal:
-
 .. |Acumulado Salario Normal| image:: resources/detalleanticipovacaciones11.png
 
-============================
+.. _documento/acumulado-salario-normal:
+
 **Acumulado Salario Normal**
 ============================
 
@@ -10,46 +9,42 @@ El Acumulado del Salario Normal para Vacaciones se refiere al monto qué acumulo
 
 Para obtener dicho reporte debemos configurarlo con los siguientes campos:
 
-#. **Nómina**: Seleccionamos la nómina regular del trabajador
+- **Nómina**: Seleccionamos la nómina regular del trabajador
 
-#. **Proceso de Nómina**: Puede seleccionar el proceso de nómina regular en la que desee conocer cuál fue el monto obtenido por concepto acumulado salario normal.
+- **Proceso de Nómina**: Puede seleccionar el proceso de nómina regular en la que desee conocer cuál fue el monto obtenido por concepto acumulado salario normal.
 
-#. **Configuración del Reporte de Nómina**: Acumulado Salario Integral
+- **Configuración del Reporte de Nómina**: Acumulado Salario Integral
 
-Para este reporte está configurado la plantilla "**Resumen de Pago**"
+- Para este reporte está configurada la plantilla "**Resumen de Pago**"
 
-#. "**Resumen de Pago**": Está plantilla de reporte de nómina nos permitirá conocer de manera resumida el monto del concepto acumulado salario normal omitiendo algunos detalle que usted puede encontrar en los demás procesos de nóminas. Esta plantilla presentará por cada uno de los concepto un monto total por cada empleado:
+    - "**Resumen de Pago**": Está plantilla de reporte de nómina nos permitirá conocer de manera resumida el monto del concepto acumulado salario normal omitiendo algunos detalle que usted puede encontrar en los demás procesos de nóminas. Esta plantilla presentará por cada uno de los concepto un monto total por cada empleado:
 
-   Los campos que podrá visualizar en este reporte son:
+Los campos que podrá visualizar en este reporte son:
 
-   +-----------------------------------------------+-----------------------------------------------+
-   |          **PARÁMETROS**                       |             **REFERENCIA**                    |
-   +===============================================+===============================================+
-   |  Contrato                                     | Corresponde a el contrato configurado para la |
-   |                                               | nómina en ejecución                           |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
-   |                                               | procesada, para este caso será la nómina      |
-   |                                               | regular a la que pertenece el empleado        |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Trabajador                                   | Identifica el nombre de cada uno de los       |
-   |                                               | empleados                                     |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
-   |                                               | en este caso aparecerá el nombre de las       |
-   |                                               | acumulado salario normal                      |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Mes                                          | Corresponde al monto otorgado por el empleado |
-   |                                               | por el concepto acumulado salario normal      |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Total                                        | Corresponde al monto total obtenido por       |
-   |                                               | concepto                                      |
-   +-----------------------------------------------+-----------------------------------------------+
+    +-----------------------------------------------+-----------------------------------------------+
+    |          **PARÁMETROS**                       |             **REFERENCIA**                    |
+    +===============================================+===============================================+
+    |  Contrato                                     | Corresponde a el contrato configurado para la |
+    |                                               | nómina en ejecución                           |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
+    |                                               | procesada, para este caso será la nómina      |
+    |                                               | regular a la que pertenece el empleado        |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Trabajador                                   | Identifica el nombre de cada uno de los       |
+    |                                               | empleados                                     |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
+    |                                               | en este caso aparecerá el nombre de las       |
+    |                                               | acumulado salario normal                      |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Mes                                          | Corresponde al monto otorgado por el empleado |
+    |                                               | por el concepto acumulado salario normal      |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Total                                        | Corresponde al monto total obtenido por       |
+    |                                               | concepto                                      |
+    +-----------------------------------------------+-----------------------------------------------+
 
 En el siguiente ejemplo se presenta  el monto del concepto acumulado salario normal  por el empleado durante el proceso de una nómina regular determinada.
 
-
 Si desea conocer el valor de dicho concepto durante varias nóminas, no seleccione el proceso de nómina y coloca un parametros de fechas con la finalidad de que pueda visualizar el monto obtenido durante varios procesos de nómina
-
-
-

@@ -89,31 +89,31 @@
 **Interfaz de Punto de Venta**
 ==============================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la carpeta "**Punto de Venta**", finalmente seleccione la ventana "**Punto de Venta**".
+Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la carpeta "**Punto de Venta**", finalmente seleccione la ventana "**Punto de Venta**".
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Selecciona Terminal PDV**", con la opción para seleccionar el terminal previamente configurado con el cual va a trabajar el vendedor.
+Podrá visualizar la ventana "**Selecciona Terminal PDV**", con la opción para seleccionar el terminal previamente configurado con el cual va a trabajar el vendedor.
 
     |Ventana Selecciona Terminal PDV|
 
     Imagen 2. Ventana Terminal PDV
 
-#. Navegue entre las opciones disponibles en la ventana "**Selecciona Terminal PDV**", seleccionando el terminal correspondiente en el cual va a trabajar el vendedor.
+Navegue entre las opciones disponibles en la ventana "**Selecciona Terminal PDV**", seleccionando el terminal correspondiente en el cual va a trabajar el vendedor.
 
     |Seleccionar Terminal PDV|
 
     Imagen 3. Seleccionar Terminal PDV
 
-#. Seleccione la opción "**OK**", para acceder al punto de venta correspondiente al terminal PDV seleccionado.
+Seleccione la opción "**OK**", para acceder al punto de venta correspondiente al terminal PDV seleccionado.
 
     |Seleccionar la Opción OK|
 
     Imagen 4. Seleccionar la Opción OK
 
-#. Podrá visualizar la ventana "**Punto de Venta**" con diferentes iconos, campos y opciones, que permiten el correcto funcionamiento del mismo. 
+Podrá visualizar la ventana "**Punto de Venta**" con diferentes iconos, campos y opciones, que permiten el correcto funcionamiento del mismo. 
     
     |Ventana Punto de Venta|
         
@@ -130,133 +130,133 @@ Contiene los iconos principales de las ventanas de ADempiere para realizar una g
 
     Imagen 6. Barra de Herramientas del Punto de Venta
 
-#. "**Icono Registro Nuevo**": Permite crear un nuevo registro de orden de venta en el punto de venta configurado para el vendedor, la forma más facil de realizar este proceso es por medio de la tecla de acceso directo "**F2**".
+"**Icono Registro Nuevo**": Permite crear un nuevo registro de orden de venta en el punto de venta configurado para el vendedor, la forma más facil de realizar este proceso es por medio de la tecla de acceso directo "**F2**".
 
     |Icono Registro Nuevo de la Barra de Herramientas del Punto de Venta|
 
     Imagen 7. Icono Registro Nuevo de la Barra de Herramientas del Punto de Venta
 
-#. "**Icono Imprimir**": Permite visualizar en la ventana "**Informe**", el reporte de la orden de venta que esta realizando, en la cual cuenta con diferentes opciones por medio de las cuales el usuario puede acercar, alejar, guardar e imprimir el documento de orden de venta creado en el punto de venta previmente configurado para el vendedor. Esta acción se puede ejecutar por medio de la tecla de acceso directo "**F12**".
+"**Icono Imprimir**": Permite visualizar en la ventana "**Informe**", el reporte de la orden de venta que esta realizando, en la cual cuenta con diferentes opciones por medio de las cuales el usuario puede acercar, alejar, guardar e imprimir el documento de orden de venta creado en el punto de venta previmente configurado para el vendedor. Esta acción se puede ejecutar por medio de la tecla de acceso directo "**F12**".
 
     |Icono Imprimir de la Barra de Herramientas del Punto de Venta|
 
     Imagen 8. Icono Imprimir de la Barra de Herramientas del Punto de Venta
 
-    #. Al generar el reporte, tendrá la posibilidad de imprimir la orden de venta seleccionando el icono "**Imprimir**", de la ventana "**Informe**".
+    Al generar el reporte, tendrá la posibilidad de imprimir la orden de venta seleccionando el icono "**Imprimir**", de la ventana "**Informe**".
 
         |Icono Imprimir de la Ventana Informe|
 
         Imagen 9. Icono Imprimir de la Ventana Informe
 
-#. "**Icono Tipo de Documento**": Permite cambiar el tipo de documento cargado por defecto, el mismo define el comportamiento del documento que se esta generando y se encuentra explicado en el material **Tipo de Documento** elaborado por `ERPyA`_. Adicional a ello, se puede ejecutar esta acción seleccionando la tecla "**F10**".
+"**Icono Tipo de Documento**": Permite cambiar el tipo de documento cargado por defecto, el mismo define el comportamiento del documento que se esta generando y se encuentra explicado en el material **Tipo de Documento** elaborado por `ERPyA`_. Adicional a ello, se puede ejecutar esta acción seleccionando la tecla "**F10**".
 
     |Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta|
 
     Imagen 10. Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta
 
-    #. La selección de este icono permite la visualización de la ventana "**Tipo de Documento**", para seleccionar el tipo de documento con el cual requiere generar el documento.
+    La selección de este icono permite la visualización de la ventana "**Tipo de Documento**", para seleccionar el tipo de documento con el cual requiere generar el documento.
 
         |Ventana Tipo de Documento del Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta|
 
         Imagen 11. Ventana Tipo de Documento del Icono Tipo de Documento de la Barra de Herramientas del Punto de Venta
 
-#. "**Icono Información de Producto**": Permite realizar una búsqueda de los productos para consultar su información, en cuanto a categoría, código, nombre, UPC/EAN (código de barra), UM (unidad de medida), precios, disponibilidad, cantidad en existencia, cantidad reservada, cantidad ordenada y proveedor, por medio de la selección de los mismos en la ventana desplegada "**Información de Producto**". De igual manera, se puede ejecutar esta acción seleccionando la convinación de las teclas "**Alt+I**".
+"**Icono Información de Producto**": Permite realizar una búsqueda de los productos para consultar su información, en cuanto a categoría, código, nombre, UPC/EAN (código de barra), UM (unidad de medida), precios, disponibilidad, cantidad en existencia, cantidad reservada, cantidad ordenada y proveedor, por medio de la selección de los mismos en la ventana desplegada "**Información de Producto**". De igual manera, se puede ejecutar esta acción seleccionando la convinación de las teclas "**Alt+I**".
 
     |Icono Información de Producto de la Barra de Herramientas del Punto de Venta|
 
     Imagen 12. Icono Información de Producto de la Barra de Herramientas del Punto de Venta
 
-    #. La selección de este icono permite la visualización de la ventana "**Información de Producto**", para buscar el producto con el cual requiere generar el documento.
+    La selección de este icono permite la visualización de la ventana "**Información de Producto**", para buscar el producto con el cual requiere generar el documento.
 
     |Ventana Información de Producto del Icono Información de Producto de la Barra de Herramientas del Punto de Venta|
 
     Imagen 13. Ventana Información de Producto del Icono Información de Producto de la Barra de Herramientas del Punto de Venta
 
-#. "**Icono Cliente**": Despliega una ventana que permite cambiar el cliente por defecto, con el fin de crear documentos personalizados. 
+"**Icono Cliente**": Despliega una ventana que permite cambiar el cliente por defecto, con el fin de crear documentos personalizados. 
 
     |Icono Cliente de la Barra de Herramientas del Punto de Venta|
 
     Imagen 14. Icono Cliente de la Barra de Herramientas del Punto de Venta
 
-    #. La selección de este icono permite la visualización de la ventana "**Socio del Negocio**", con diferentes campos que pueden ser utilizados como filtros de búsqueda de clientes ya registrados.
+    La selección de este icono permite la visualización de la ventana "**Socio del Negocio**", con diferentes campos que pueden ser utilizados como filtros de búsqueda de clientes ya registrados.
 
         |Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta|
 
         Imagen 15. Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta
     
-    #. La información de los clientes puede ser visualizada debajo del grupo de campo "**Entrar Consulta**".
+    La información de los clientes puede ser visualizada debajo del grupo de campo "**Entrar Consulta**".
     
         |Información de los Clientes en la Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta|
 
         Imagen 16. Información de los Clientes en la Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta
     
-    #. Adicional a ello, la ventana cuenta con seis (6) iconos que permiten el registro de un nuevo cliente, la modificación de los registros existentes, el borrado de la consulta o búsqueda realizada, la recarga de la ventana para que sean actualizados los registros, la aceptación del cliente seleccionado y la cancelación de la selección del cliente. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+B**".
+    Adicional a ello, la ventana cuenta con seis (6) iconos que permiten el registro de un nuevo cliente, la modificación de los registros existentes, el borrado de la consulta o búsqueda realizada, la recarga de la ventana para que sean actualizados los registros, la aceptación del cliente seleccionado y la cancelación de la selección del cliente. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+B**".
 
         |Iconos de la Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta|
 
         Imagen 17. Iconos de la Ventana Socio del Negocio del Icono Cliente de la Barra de Herramientas del Punto de Venta
 
-#. "**Icono Proceso**": Permite realizar diversas acciones desde la selección de las diferentes opciones que contempla el menú de dicho icono. A continuación se explica cada una de las opciones del "**Icono Proceso**".
+"**Icono Proceso**": Permite realizar diversas acciones desde la selección de las diferentes opciones que contempla el menú de dicho icono. A continuación se explica cada una de las opciones del "**Icono Proceso**".
 
     |Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
     Imagen 18. Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-    #. "**Opción Cerrar Caja del Punto de Venta**": Permite realizar el cierre del punto de venta a través de la ventana de búsqueda inteligente "**Cierre del Punto de Ventas**".
+    "**Opción Cerrar Caja del Punto de Venta**": Permite realizar el cierre del punto de venta a través de la ventana de búsqueda inteligente "**Cierre del Punto de Ventas**".
 
         |Opción Cerrar Caja del Punto de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
         Imagen 19. Cerrar Caja del Punto de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-    #. "**Opción Generar Factura Inmediata**": Permite generar una factura desde el punto de venta.
+    "**Opción Generar Factura Inmediata**": Permite generar una factura desde el punto de venta.
 
         |Opción Generar Factura Inmediata del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
         Imagen 20. Opción Generar Factura Inmediata del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-    #. "**Opción Completar Orden Preparada**": Permite completar una orden preparada desde el punto de venta.
+    "**Opción Completar Orden Preparada**": Permite completar una orden preparada desde el punto de venta.
 
         |Opción Completar Orden Preparada del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
         Imagen 21. Opción Completar Orden Preparada del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-    #. "**Opción Anular Transacción de Venta**": Este proceso permite revertir la transaccion de venta.
+    "**Opción Anular Transacción de Venta**": Este proceso permite revertir la transaccion de venta.
 
         |Opción Anular Transacción de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
         Imagen 22. Opción Anular Transacción de Venta del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-    #. "**Opción Crear Retiro de POS**": Permite realizar un retiro de punto de venta.
+    "**Opción Crear Retiro de POS**": Permite realizar un retiro de punto de venta.
 
         |Opción Crear Retiro de POS del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
         Imagen 23. Opción Crear Retiro de POS del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-    #. "**Opción Imprimir**": Permite generar un reporte para visualizar la orden de venta que esta realizando en  el punto de venta. Dicho reporte es visualizado en la ventana "**Informe**".
+    "**Opción Imprimir**": Permite generar un reporte para visualizar la orden de venta que esta realizando en  el punto de venta. Dicho reporte es visualizado en la ventana "**Informe**".
 
         |Opción Imprimir del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
         Imagen 24. Opción Imprimir del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-    #. "**Opción Crear Nueva Orden de Devolución**":
+    "**Opción Crear Nueva Orden de Devolución**":
 
         |Opción Crear Nueva Orden de Devolución del Icono Proceso de la Barra de Herramientas del Punto de Venta|
 
         Imagen 25. Opción Crear Nueva Orden de Devolución del Icono Proceso de la Barra de Herramientas del Punto de Venta
 
-#. "**Icono Registros Históricos**": Despliega una ventana que permite realizar una búsqueda de todas las órdenes de venta realizadas, según lo seleccionado en los campos o filtros de búsqueda de dicha desplegada por el icono "**Registros Históricos**". Esta acción se puede ejecutar seleccionando la tecla "**F9**".
+"**Icono Registros Históricos**": Despliega una ventana que permite realizar una búsqueda de todas las órdenes de venta realizadas, según lo seleccionado en los campos o filtros de búsqueda de dicha desplegada por el icono "**Registros Históricos**". Esta acción se puede ejecutar seleccionando la tecla "**F9**".
 
     |Icono Registros Históricos de la Barra de Herramientas del Punto de Venta|
 
     Imagen 26. Icono Registros Históricos de la Barra de Herramientas del Punto de Venta
 
-    #. La selección de este icono permite la visualización de la ventana "**Orden de Venta**", con diferentes campos que pueden ser utilizados como filtros de búsqueda de las órdenes ya registradas.
+    La selección de este icono permite la visualización de la ventana "**Orden de Venta**", con diferentes campos que pueden ser utilizados como filtros de búsqueda de las órdenes ya registradas.
 
         |Ventana Orden de Venta Desplegada por el Icono Registros Históricos de la Barra de Herramientas del Punto de Venta|
 
         Imagen 27. Ventana Orden de Venta Desplegada por el Icono Registros Históricos de la Barra de Herramientas del Punto de Venta
 
-    #. El grupo de campos "**Entrar Consulta**", permite filtrar la búsqueda de información de la siguiente manera:
+    El grupo de campos "**Entrar Consulta**", permite filtrar la búsqueda de información de la siguiente manera:
 
         |Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos|
 
@@ -292,43 +292,43 @@ Contiene los iconos principales de las ventanas de ADempiere para realizar una g
 
             Imagen 33. Checklist Vendedor de Pasillo del Grupo de Campos Entrar Consulta de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos
 
-    #. Podrá visualizar el resultado de la búsqueda de las órdenes, debajo del grupo de campo "**Entrar Consulta**".
+    Podrá visualizar el resultado de la búsqueda de las órdenes, debajo del grupo de campo "**Entrar Consulta**".
 
         |Resultado de Búsqueda de Registros Históricos|
 
         Imagen 34. Resultado de Búsqueda de Registros Históricos
 
-    #. Adicional a ello, la ventana cuenta con seis (6) iconos que permiten un nuevo registro, la modificación de los registros existentes, el borrado de la consulta o búsqueda realizada, la recarga de la ventana para que sean actualizados los registros, la aceptación del registro seleccionado y la cancelación de la selección del registro.
+    Adicional a ello, la ventana cuenta con seis (6) iconos que permiten un nuevo registro, la modificación de los registros existentes, el borrado de la consulta o búsqueda realizada, la recarga de la ventana para que sean actualizados los registros, la aceptación del registro seleccionado y la cancelación de la selección del registro.
 
         |Opciones de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos|
 
         Imagen 35. Opciones de la Ventana Orden de Venta Desplegada por el Icono Registros Históricos
 
-#. "**Icono Registro Anterior**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados antes que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Left**".
+"**Icono Registro Anterior**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados antes que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Left**".
 
     |Icono Registro Anterior de la Barra de Herramientas del Punto de Venta|
 
     Imagen 36. Icono Registro Anterior de la Barra de Herramientas del Punto de Venta
 
-#. "**Icono Próximo Registro**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados despues que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Right**".
+"**Icono Próximo Registro**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados despues que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Right**".
 
     |Icono Próximo Registro de la Barra de Herramientas del Punto de Venta|
 
     Imagen 37. Icono Próximo Registro de la Barra de Herramientas del Punto de Venta
 
-#. "**Icono Pago**": Esta acción se puede ejecutar seleccionando la tecla "**F4**".
+"**Icono Pago**": Esta acción se puede ejecutar seleccionando la tecla "**F4**".
 
     |Icono Pago de la Barra de Herramientas del Punto de Venta|
 
     Imagen 38. Icono Pago de la Barra de Herramientas del Punto de Venta
 
-#. "**Icono Anular Orden**": Permite cancelar o anular la orden de venta que esta realizando el usuario vendedor, al seleccionar este icono dicha orden dejará de estar disponible. Esta acción se puede ejecutar seleccionando la tecla "**F3**".
+"**Icono Anular Orden**": Permite cancelar o anular la orden de venta que esta realizando el usuario vendedor, al seleccionar este icono dicha orden dejará de estar disponible. Esta acción se puede ejecutar seleccionando la tecla "**F3**".
 
     |Icono Cancel Order de la Barra de Herramientas del Punto de Venta|
 
     Imagen 39. Icono Cancel Order de la Barra de Herramientas del Punto de Venta
 
-#. "**Icono Finalizar Ventana**": Permite cerrar la ventana "**Punto de Venta**" en la cual se encuentra el usuario vendedor. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+L**".
+"**Icono Finalizar Ventana**": Permite cerrar la ventana "**Punto de Venta**" en la cual se encuentra el usuario vendedor. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+L**".
 
     |Icono Finalizar Ventana de la Barra de Herramientas del Punto de Venta|
 
@@ -349,15 +349,15 @@ Permite realizar una búsqueda por código de producto, de todos los productos p
 
         Esta acción se ejecuta automáticamente al ingresar el código del producto en el campo "**Código**".
 
-#. "**Coincidencia por Código de Producto**": Permite buscar el producto por el código de identificación del mismo.
+"**Coincidencia por Código de Producto**": Permite buscar el producto por el código de identificación del mismo.
 
-#. "**Coincidencia por Nombre de Producto**": Permite buscar el producto por el nombre del mismo.
+"**Coincidencia por Nombre de Producto**": Permite buscar el producto por el nombre del mismo.
 
-#. "**Coincidencia por Disponibilidad de Producto**": Muestra la disponibilidad del producto buscado.
+"**Coincidencia por Disponibilidad de Producto**": Muestra la disponibilidad del producto buscado.
 
-#. "**Coincidencia por Precio Estándar de Producto**": Muestra el precio estándar del producto buscado.
+"**Coincidencia por Precio Estándar de Producto**": Muestra el precio estándar del producto buscado.
 
-#. "**Coincidencia por Precio de Lista de Producto**": Muestra el precio de lista del producto buscado.
+"**Coincidencia por Precio de Lista de Producto**": Muestra el precio de lista del producto buscado.
 
     |Resultado de Búsqueda en el Panel de Búsqueda de Producto|
 
@@ -374,37 +374,37 @@ Luego de incluir los productos a la orden de venta, se visualizará su informaci
 
     Imagen 43. Sección Información de Producto de la Ventana Punto de Venta
 
-#. "**Código del Producto**": Muestra el código identificador del producto seleccionado.
+"**Código del Producto**": Muestra el código identificador del producto seleccionado.
     
     |Campo Código del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
     Imagen 44. Campo Código del Producto de la Sección Información de Producto de la Ventana Punto de Venta
 
-#. "**Precio del Producto**": Muestra los precios estándar y en lista de precios para la venta del producto seleccionado.
+"**Precio del Producto**": Muestra los precios estándar y en lista de precios para la venta del producto seleccionado.
 
     |Campo Precio del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
     Imagen 45. Campo Precio del Producto de la Sección Información de Producto de la Ventana Punto de Venta
 
-#. "**Nombre del Producto**": Muestra el nombre del producto seleccionado.
+"**Nombre del Producto**": Muestra el nombre del producto seleccionado.
 
     |Campo Nombre del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
     Imagen 46. Campo Nombre del Producto de la Sección Información de Producto de la Ventana Punto de Venta
 
-#. "**Unidad de Medida del Producto**": Muestra la unidad de medida en la que se presenta el producto seleccionado.
+"**Unidad de Medida del Producto**": Muestra la unidad de medida en la que se presenta el producto seleccionado.
 
     |Campo Unidad de Medida del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
     Imagen 47. Campo Unidad de Medida del Producto de la Sección Información de Producto de la Ventana Punto de Venta
 
-#. "**Categoría del Producto**": Muestra la categoría a la que pertenece el producto seleccionado.
+"**Categoría del Producto**": Muestra la categoría a la que pertenece el producto seleccionado.
 
     |Campo Categoría del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
     Imagen 48. Campo Categoría del Producto de la Sección Información de Producto de la Ventana Punto de Venta
 
-#. "**Categoría del Impuesto del Producto**": Muestra la categoría del impuesto a la que pertenece el producto seleccionado.
+"**Categoría del Impuesto del Producto**": Muestra la categoría del impuesto a la que pertenece el producto seleccionado.
 
     |Campo Categoría del Impuesto del Producto de la Sección Información de Producto de la Ventana Punto de Venta|
 
@@ -421,49 +421,49 @@ Contiene los campos para modificar la cantidad del producto a vender, el precio 
 
     Imagen 50. Barra de Edición de Productos de la Ventana Punto de Venta
 
-#. "**Icono Borrar Línea**": Permite borrar el registro del producto creado en la línea seleccionada de la orden de venta. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+F3**".
+"**Icono Borrar Línea**": Permite borrar el registro del producto creado en la línea seleccionada de la orden de venta. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+F3**".
 
     |Icono Borrar Línea de la Barra de Edición de Productos|
 
     Imagen 51. Icono Borrar Línea de la Barra de Edición de Productos de la Ventana Punto de Venta
 
-#. "**Icono Añadir**": Permite sumar a la cantidad ordenada del producto seleccionado, la cantidad ingresada en el campo "**Cantidad Ordenada**". Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+0**".
+"**Icono Añadir**": Permite sumar a la cantidad ordenada del producto seleccionado, la cantidad ingresada en el campo "**Cantidad Ordenada**". Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+0**".
 
     |Icono Añadir de la Barra de Edición de Productos|
 
     Imagen 52. Icono Añadir de la Barra de Edición de Productos
 
-#. "**Icono Menos**": Permite restar a la cantidad ordenada del producto seleccionado, la cantidad ingresada en el campo "**Cantidad Ordenada**". Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+0**".
+"**Icono Menos**": Permite restar a la cantidad ordenada del producto seleccionado, la cantidad ingresada en el campo "**Cantidad Ordenada**". Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Ctrl+0**".
 
     |Icono Menos de la Barra de Edición de Productos|
 
     Imagen 53. Icono Menos de la Barra de Edición de Productos
 
-#. "**Icono Registro Anterior**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados antes que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Up**".
+"**Icono Registro Anterior**": Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados antes que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Up**".
 
     |Icono Registro Anterior de la Barra de Edición de Productos|
 
     Imagen 54. Icono Registro Anterior de la Barra de Edición de Productos
 
-#. "**Icono Próximo Registro**":  Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados despues que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Down**".
+"**Icono Próximo Registro**":  Es un icono de desplazamiento que permite navegar entre los registros que se encentran ubicados despues que el registro en el cual se encuentra el usuario. Esta acción se puede ejecutar seleccionando la convinación de las teclas "**Alt+Down**".
 
     |Icono Próximo Registro de la Barra de Edición de Productos|
 
     Imagen 55. Icono Próximo Registro de la Barra de Edición de Productos
 
-#. "**Campo Cantidad Ordenada**": Corresponde a la cantidad de productos ordenados por el socio del negocio cliente, la misma puede modificarse desde los iconos "**Añadir**", "**Menos**" y "**Calculadora**", el último icono nombrado se encuentra ubicado del lado derecho del campo "**Cantidad Ordenada**".
+"**Campo Cantidad Ordenada**": Corresponde a la cantidad de productos ordenados por el socio del negocio cliente, la misma puede modificarse desde los iconos "**Añadir**", "**Menos**" y "**Calculadora**", el último icono nombrado se encuentra ubicado del lado derecho del campo "**Cantidad Ordenada**".
 
     |Campo Cantidad Ordenada de la Barra de Edición de Productos|
 
     Imagen 56. Campo Cantidad Ordenada de la Barra de Edición de Productos
 
-#. "**Campo Precio Actual**": Corresponde al precio unitario para la venta que tiene el producto seleccionado, el mismo puede ser modificado con ayuda del icono "**Calculadora**" que se encuentra ubicado del lado derecho del campo "**Precio Actual**".
+"**Campo Precio Actual**": Corresponde al precio unitario para la venta que tiene el producto seleccionado, el mismo puede ser modificado con ayuda del icono "**Calculadora**" que se encuentra ubicado del lado derecho del campo "**Precio Actual**".
 
     |Campo Precio Actual de la Barra de Edición de Productos|
 
     Imagen 57. Campo Precio Actual de la Barra de Edición de Productos
 
-#. "**Campo Descuentos**": Corresponde al descuento que será aplicado al producto seleccionado al momento de la venta del mismo.
+"**Campo Descuentos**": Corresponde al descuento que será aplicado al producto seleccionado al momento de la venta del mismo.
 
     |Campo Descuentos de la Barra de Edición de Productos|
 

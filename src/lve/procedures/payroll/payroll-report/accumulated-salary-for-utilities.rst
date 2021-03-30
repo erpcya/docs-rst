@@ -4,7 +4,6 @@
 
 .. _documento/salario-acumulado-para-utilidades:
 
-=====================================
 **Salario Acumulado para Utilidades**
 =====================================
 
@@ -12,51 +11,46 @@ El Salario Acumulado para Utilidades representa el monto total devengado por el 
 
 Para obtener dicho reporte debemos configurarlo con los siguientes campos:
 
-#. **Nómina**: Seleccionamos la nómina regular del trabajador
+**Nómina**: Seleccionamos la nómina regular del trabajador
 
-#. **Proceso de Nómina**: Seleccione el proceso de nómina regular en la que desee conocer cuál fue el monto obtenido por concepto acumulado utilidades.
+**Proceso de Nómina**: Seleccione el proceso de nómina regular en la que desee conocer cuál fue el monto obtenido por concepto acumulado utilidades.
 
-#. **Configuración del Reporte de Nómina**: **Salario Acumulado Utilidades**
+**Configuración del Reporte de Nómina**: **Salario Acumulado Utilidades**
 
 |Reporte Salario para Utilidades|
 
 Imagen 1. Parámetros para obtener el reporte salario para utilidades.
 
-
 Para este reporte está configurado la plantilla "**Resumen de Pago**"
 
-#. "**Resumen de Pago**": Está plantilla de reporte de nómina nos permitirá conocer de manera resumida el monto del concepto **Acumulado Utilidades**. Presentará por cada uno  de los empleados un monto total de este concepto
+"**Resumen de Pago**": Está plantilla de reporte de nómina nos permitirá conocer de manera resumida el monto del concepto **Acumulado Utilidades**. Presentará por cada uno  de los empleados un monto total de este concepto
 
-   Los campos que podrá visualizar en este reporte son:
+Los campos que podrá visualizar en este reporte son:
 
-   +-----------------------------------------------+-----------------------------------------------+
-   |          **PARÁMETROS**                       |             **REFERENCIA**                    |
-   +===============================================+===============================================+
-   |  Contrato                                     | Corresponde a el contrato configurado para la |
-   |                                               | nómina en ejecución                           |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
-   |                                               | procesada, para este caso será la nómina      |
-   |                                               | regular a la que pertenece el empleado        |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Trabajador                                   | Identifica el nombre de cada uno de los       |
-   |                                               | empleados                                     |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
-   |                                               | en este caso aparecerá el nombre de las       |
-   |                                               | acumulado utilidades                          |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Mes                                          | Corresponde al monto otorgado por el empleado |
-   |                                               | por el concepto acumulado utilidades          |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Total                                        | Corresponde al monto total obtenido por       |
-   |                                               | concepto                                      |
-   +-----------------------------------------------+-----------------------------------------------+
-
+    +-----------------------------------------------+-----------------------------------------------+
+    |          **PARÁMETROS**                       |             **REFERENCIA**                    |
+    +===============================================+===============================================+
+    |  Contrato                                     | Corresponde a el contrato configurado para la |
+    |                                               | nómina en ejecución                           |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
+    |                                               | procesada, para este caso será la nómina      |
+    |                                               | regular a la que pertenece el empleado        |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Trabajador                                   | Identifica el nombre de cada uno de los       |
+    |                                               | empleados                                     |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
+    |                                               | en este caso aparecerá el nombre de las       |
+    |                                               | acumulado utilidades                          |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Mes                                          | Corresponde al monto otorgado por el empleado |
+    |                                               | por el concepto acumulado utilidades          |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Total                                        | Corresponde al monto total obtenido por       |
+    |                                               | concepto                                      |
+    +-----------------------------------------------+-----------------------------------------------+
 
 |Salario para Utilidades|
 
 Imagen 2. Reporte Generado Salario para Utilidades.
-
-
-

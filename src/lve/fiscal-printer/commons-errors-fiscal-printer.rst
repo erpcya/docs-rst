@@ -8,71 +8,71 @@ A continuación se presentan las fallas o incidentes comunes, que debe considera
 **No se imprimen los archivos en la Impresora**
 -----------------------------------------------
 
-Puede Ocurrir por varias razones, las principales son conexión por Hardware a la impresora Fiscal y la configuración de la aplicación Spooler.
+Puede ocurrir por varias razones, las principales son conexión por Hardware a la impresora Fiscal y la configuración de la aplicación Spooler.
 
-Para Hacer un diagnostico de lo que ocurre lo principal es iniciar desde la conexión por Hardware, esta tiene 3 puntos a tener en cuenta:
+Para hacer un diagnostico de lo que ocurre lo principal es iniciar desde la conexión por Hardware, esta tiene 3 puntos a tener en cuenta:
 
-#. Adaptador USB-SERIAL:
+- Adaptador USB-SERIAL:
 
-      .. documento/errores-impresora-01
-   
-      .. figure:: resorces/usb-serial-adapter.jpg
-         :align: center
-         :alt: Adaptador USB-Serial
+    .. documento/errores-impresora-01
 
-         Imagen 1. Adaptador USB-Serial
+    .. figure:: resorces/usb-serial-adapter.jpg
+       :align: center
+       :alt: Adaptador USB-Serial
 
-      Verificar Drivers del dispositivo al conectar el Adaptador, esto se hace desde el administrador de dispositivos, allí verificar que se conecto un nuevo puerto COM ejemplo: "**COM1**".
+       Imagen 1. Adaptador USB-Serial
 
-      .. documento/errores-impresora-02
-   
-      .. figure:: resorces/com-port.png
-         :align: center
-         :alt: Driver Instalado Correctamente
+    Verificar Drivers del dispositivo al conectar el Adaptador, esto se hace desde el administrador de dispositivos, allí verificar que se conecto un nuevo puerto COM ejemplo: "**COM1**".
 
-         Imagen 2. Driver Instalado Correctamente
+    .. documento/errores-impresora-02
 
-      Si se conecto y no se puede identificar un dispositivo, es decir, ningún dispositivo posee "**COM**" en su nombre, debe instalarse nuevamente los controladores para la correcta comunicación con el Hardware.
+    .. figure:: resorces/com-port.png
+       :align: center
+       :alt: Driver Instalado Correctamente
 
-#. Conexión de Cable Serie:
+       Imagen 2. Driver Instalado Correctamente
 
-      .. documento/errores-impresora-03
-   
-      .. figure:: resorces/ciscoconsolecable.jpg
-         :align: center
-         :alt: Cable Conexión Serial
+    Si se conecto y no se puede identificar un dispositivo, es decir, ningún dispositivo posee "**COM**" en su nombre, debe instalarse nuevamente los controladores para la correcta comunicación con el Hardware.
 
-         Imagen 3. Cable Conexión Serial
+- Conexión de Cable Serie:
 
-      En esté caso observar si la conexión entre el adaptador y el cable, a través del conector DB9 este hecha de manera correcta.
+    .. documento/errores-impresora-03
 
-#. Posición en la que esta el conector RJ45:
+    .. figure:: resorces/ciscoconsolecable.jpg
+       :align: center
+       :alt: Cable Conexión Serial
 
-      .. documento/errores-impresora-04
-   
-      .. figure:: resorces/rear-view-printer.png
-         :align: center
-         :alt: Parte Posterior de La Impresora
+       Imagen 3. Cable Conexión Serial
 
-         Imagen 4. Parte Posterior de La Impresora
+    En esté caso observar si la conexión entre el adaptador y el cable, a través del conector DB9 este hecha de manera correcta.
+
+- Posición en la que esta el conector RJ45:
+
+    .. documento/errores-impresora-04
+
+    .. figure:: resorces/rear-view-printer.png
+       :align: center
+       :alt: Parte Posterior de La Impresora
+
+       Imagen 4. Parte Posterior de La Impresora
 
 Comprobar que el conector RJ45 este en el puerto de la impresora marcado con las Siglas "**PC**" en la parte posterior de la impresora.
 
 Si lo anterior esta Correcto Proceder a verificar la aplicación Spooler, en esté caso se debe revisar lo siguiente:
 
-#. Comprobar Instalación de Spooler
+- Comprobar Instalación de Spooler
 
-   Ingresar al Panel de Control e ingresar a Programas y Características, comprobar si en la lista existe el nombre "**Spooler de impresión VMAX**", si existe esto quiere decir que la aplicación esta instalada, caso contrario es necesario instalar el Spooler tal como se indica en el manual del fabricante.
+    Ingresar al Panel de Control e ingresar a Programas y Características, comprobar si en la lista existe el nombre "**Spooler de impresión VMAX**", si existe esto quiere decir que la aplicación esta instalada, caso contrario es necesario instalar el Spooler tal como se indica en el manual del fabricante.
 
-#. Comprobar Directorio de instalación
+- Comprobar Directorio de instalación
 
-   Para ello basta con ingresar al disco duro donde se encuentre instalado Windows, entrar en la carpeta "**Archivos de Programas**", debe existir un directorio con el Nombre "**SpoolerVmax**".
+    Para ello basta con ingresar al disco duro donde se encuentre instalado Windows, entrar en la carpeta "**Archivos de Programas**", debe existir un directorio con el Nombre "**SpoolerVmax**".
 
-   Comúnmente se mueve el directorio de instalación de la aplicación. Esto se hace para evitar la necesidad de ejecutar con privilegios de administrador, para casos en los que no se tiene la seguridad conocer la ruta de instalación, se puede buscar con el buscador de archivos de Windows colocando el nombre "**epsSpoolerVmax.exe**"
+    Comúnmente se mueve el directorio de instalación de la aplicación. Esto se hace para evitar la necesidad de ejecutar con privilegios de administrador, para casos en los que no se tiene la seguridad conocer la ruta de instalación, se puede buscar con el buscador de archivos de Windows colocando el nombre "**epsSpoolerVmax.exe**"
 
-#. Verificar archivo "**config.dat**" dentro del Directorio de instalación
+- Verificar archivo "**config.dat**" dentro del Directorio de instalación
 
-   Este archivo contiene los datos necesarios para que la impresora interactue con la PC, Tales como puerto de conexión (COMX) y el documento a través del cual recibe los comandos (Document.txt).
+    Este archivo contiene los datos necesarios para que la impresora interactue con la PC, Tales como puerto de conexión (COMX) y el documento a través del cual recibe los comandos (Document.txt).
 
 **Fecha y Hora incorrectas en documentos impresos.**
 ----------------------------------------------------
@@ -93,9 +93,9 @@ La opción mas recomendable, para volver a colocar la impresora operativa es gen
 
 .. warning::
 
-   "**Si Persiste el Problema**"
+    "**Si Persiste el Problema**"
 
-      Si el problema persiste o no se genera el reporte, apagar el equipo durante 30 segundos y luego volver a encenderlo, la impresora debe iniciar normalmente y estar operativa, esto debe hacerse como una ultima opción.
+    Si el problema persiste o no se genera el reporte, apagar el equipo durante 30 segundos y luego volver a encenderlo, la impresora debe iniciar normalmente y estar operativa, esto debe hacerse como una ultima opción.
 
 **Errores de Impresión o procesando el Documento**
 --------------------------------------------------
@@ -125,13 +125,13 @@ A Continuación se detalla de una manera más Gráfica como proceder con los cas
 
 Existe un proceso "**Autorizar Documento Fiscal**" para reactivar el completar el documento ADempiere, este se usa de la siguiente manera:
       
-      .. documento/errores-impresora-05
+    .. documento/errores-impresora-05
 
-      .. figure:: resorces/re-print.png
-         :align: center
-         :alt: Autorizar Reimpresión
+    .. figure:: resorces/re-print.png
+       :align: center
+       :alt: Autorizar Reimpresión
 
-         Imagen 5. Autorizar reimpresión
+       Imagen 5. Autorizar reimpresión
 
 El primer campo de la ventana desplegada sirve para seleccionar el Documento a reimprimir, mientras que el segundo permite elegir la acción sobre el documento.
 
@@ -145,13 +145,13 @@ El primer campo de la ventana desplegada sirve para seleccionar el Documento a r
 | Reimpresión                 |
 +-----------------------------+
       
-      .. documento/errores-impresora-06
+    .. documento/errores-impresora-06
 
-      .. figure:: resorces/re-print-window.png
-         :align: center
-         :alt: Autorizar Reimpresión
+    .. figure:: resorces/re-print-window.png
+       :align: center
+       :alt: Autorizar Reimpresión
 
-         Imagen 6. Autorizar reimpresión
+       Imagen 6. Autorizar reimpresión
 
 Para el caso actual debe usarse la opción "**Completar el Documento(Sin Impresión)**". Esta opción permite completar el documento existente en ADempiere y de esta manera generar el documento, que respalde el que se encuentra impreso.
 
@@ -160,13 +160,13 @@ Para el caso actual debe usarse la opción "**Completar el Documento(Sin Impresi
 
 Se requiere el Aplicar el Proceso "**Autorizar Documento Fiscal**" a la factura no generada, seleccionando la opción Anular.
       
-      .. documento/errores-impresora-07
+    .. documento/errores-impresora-07
 
-      .. figure:: resorces/re-print.png
-         :align: center
-         :alt: Autorizar Reimpresión
+    .. figure:: resorces/re-print.png
+       :align: center
+       :alt: Autorizar Reimpresión
 
-         Imagen 7. Autorizar reimpresión
+       Imagen 7. Autorizar reimpresión
 
 En campo de la ventana seleccionar el Documento a anular, en el segundo permite elegir la acción anular sobre el documento.
 
@@ -180,36 +180,36 @@ En campo de la ventana seleccionar el Documento a anular, en el segundo permite 
 | Reimpresión                 |
 +-----------------------------+
       
-      .. documento/errores-impresora-08
+    .. documento/errores-impresora-08
 
-      .. figure:: resorces/re-print-window.png
-         :align: center
-         :alt: Autorizar Reimpresión
+    .. figure:: resorces/re-print-window.png
+       :align: center
+       :alt: Autorizar Reimpresión
 
-         Imagen 8. Autorizar reimpresión
+       Imagen 8. Autorizar reimpresión
 
 Esto se debe hacer para evitar que el documento impreso anulado tenga una referencia generada en ADempiere con un estado exitoso.
       
-      .. documento/errores-impresora-09
+    .. documento/errores-impresora-09
 
-      .. figure:: resorces/reversedocadempiere.png
-         :align: center
-         :alt: Resultado del proceso
+    .. figure:: resorces/reversedocadempiere.png
+       :align: center
+       :alt: Resultado del proceso
 
-         Imagen 9. Resultado del proceso
+       Imagen 9. Resultado del proceso
 
 **Tercer Caso Completado Correctamente en ADempiere pero no se realiza la impresión**
 -------------------------------------------------------------------------------------
 
 Cuando esto sucede se debe aplicar el mismo proceso de "**Autorizar Documento Fiscal**" , utilizando la opción "**Reimprimir**".
       
-      .. documento/errores-impresora-10
+    .. documento/errores-impresora-10
 
-      .. figure:: resorces/re-print-window.png
-         :align: center
-         :alt: Autorizar Reimpresión
+    .. figure:: resorces/re-print-window.png
+       :align: center
+       :alt: Autorizar Reimpresión
 
-         Imagen 10. Autorizar reimpresión
+       Imagen 10. Autorizar reimpresión
 
 En campo de la ventana seleccionar el Documento a reimprimir, en el segundo permite elegir la acción Reimpresión sobre el documento.
 
@@ -230,20 +230,20 @@ Luego acceder a la ventana donde esta la factura en cuestión, e imprimir manual
 
 El documento en ADempiere es necesario Anularlo. La forma de solventar esta falla es proceder en dos etapas en la primera se aplica el proceso con la factura afectada seleccionando el parámetro "**Completar (Sin Impresión)**".
       
-      .. documento/errores-impresora-11
+    .. documento/errores-impresora-11
 
-      .. figure:: resorces/re-print-window.png
-         :align: center
-         :alt: Autorizar Reimpresión
+    .. figure:: resorces/re-print-window.png
+       :align: center
+       :alt: Autorizar Reimpresión
 
-         Imagen 11. Autorizar reimpresión
+       Imagen 11. Autorizar reimpresión
 
 En la segunda etapa se procede aplicar el proceso tomando en cuenta el numero de factura generado por la primera etapa, se le se aplica el proceso seleccionando el parámetro "**Anulación**".
       
-      .. documento/errores-impresora-12
+    .. documento/errores-impresora-12
 
-      .. figure:: resorces/reversedocadempiere.png
-         :align: center
-         :alt: Resultado del proceso
+    .. figure:: resorces/reversedocadempiere.png
+       :align: center
+       :alt: Resultado del proceso
 
-         Imagen 12. Resultado del proceso
+       Imagen 12. Resultado del proceso

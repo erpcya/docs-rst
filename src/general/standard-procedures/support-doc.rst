@@ -93,13 +93,13 @@ Detalle completo del error, debe tener el mayor detalle posible. La descripción
 
    - Ejemplo:
 
-      #. Vaya a http://demo.erpya.com:8888 con Google Chrome como navegador en su versión **71.0.3578.98 (Official Build) (64-bit)**
+      Vaya a http://demo.erpya.com:8888 con Google Chrome como navegador en su versión **71.0.3578.98 (Official Build) (64-bit)**
       
-      #. Asegúrese de haber ingresado.
+      Asegúrese de haber ingresado.
       
-      #. Seleccione el menú: "Mis preferencias";
+      Seleccione el menú: "Mis preferencias";
       
-      #. Vaya a: "**Género**" y seleccione "**Masculino**" desde la lista desplegable; Haga click en el botón "**Guardar**".
+      Vaya a: "**Género**" y seleccione "**Masculino**" desde la lista desplegable; Haga click en el botón "**Guardar**".
 
 - Resultado Actual: Resultado de la aplicación al momento de seguir los pasos prévios.
 

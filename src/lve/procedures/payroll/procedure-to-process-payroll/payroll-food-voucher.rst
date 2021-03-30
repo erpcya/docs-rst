@@ -12,24 +12,24 @@
 
     Para procesar una “**Nómina de Bono de Alimentación**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de bono de alimentación, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
-#. Estatus del Documento:
+Estatus del Documento:
 
-    #. Seleccione **Nómina Bono de Alimentación** en el campo "**Tipo de Documento**".
+    Seleccione **Nómina Bono de Alimentación** en el campo "**Tipo de Documento**".
 
         El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
 
-    #. Seleccione **Nómina Bono de Alimentación** en el campo "**Nómina**"
+    Seleccione **Nómina Bono de Alimentación** en el campo "**Nómina**"
 
         La nómina Bono de Alimentación define el comportamiento de la nómina, para este caso tiene las siguientes características:
 
-            #. Regla de Pago: Débito Directo
-            #. Cargo: Bono de Alimentación por Pagar
+            Regla de Pago: Débito Directo
+            Cargo: Bono de Alimentación por Pagar
 
-    #. Seleccione el período correspondiente a la nómina que se está ejecutando en el campo "**Período Nómina**"
+    Seleccione el período correspondiente a la nómina que se está ejecutando en el campo "**Período Nómina**"
 
         El período de nómina define el período laborado que le está siendo cancelado al empleado, para esta nómina se dispone de períodos mensuales
 
-    #. Seleccione la fecha “Hasta” o el último día del período que seleccionó anteriormente en el campo "**Fecha Contable**"
+    Seleccione la fecha “Hasta” o el último día del período que seleccionó anteriormente en el campo "**Fecha Contable**"
 
         A través de la fecha contable se determina contablemente la fecha de pago de la nómina de bono de alimentación en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
@@ -38,7 +38,7 @@
 
       Imagen 1. Nómina Bono de Alimentación
 
-#. Incidencias:
+Incidencias:
 
     Para esta nómina las incidencias serán extraídas de  aquellas qué se procesaron en las nóminas regulares del empleado durante ese periodo determinado. Las incidencias qué se tomarán de las nóminas regulares del trabajador son las siguientes:
 
@@ -54,7 +54,7 @@
 
     Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
 
-#. Resultados:
+Resultados:
 
     - "**Reportes**"
 

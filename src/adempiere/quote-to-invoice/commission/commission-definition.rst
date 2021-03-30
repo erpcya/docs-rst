@@ -39,43 +39,43 @@ Para explicar el procedimiento detalladamente, se presentará un ejemplo en el c
 **Pestaña Comisión**
 ********************
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Reglas de Ventas y Mercadotecnia**", por último seleccione la ventana "**Definición de Comisiones**".
+Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Reglas de Ventas y Mercadotecnia**", por último seleccione la ventana "**Definición de Comisiones**".
 
     |Menú de ADempiere 1|
 
     Imagen 1. Menú de ADempiere
 
-    #. Podrá visualizar la ventana "**Definición de Comisiones**", donde debe seleccionar el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceder al llenado de los campos correspondientes.
+    Podrá visualizar la ventana "**Definición de Comisiones**", donde debe seleccionar el icono "**Registro Nuevo**" en la barra de herramientas de ADempiere y proceder al llenado de los campos correspondientes.
 
         |Icono Registro Nuevo 1|
 
         Imagen 2. Icono Registro Nuevo
 
-    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando la definición de comisión.
+    Seleccione en el campo "**Organización**", la organización para la cual esta realizando la definición de comisión.
 
         |Campo Organización 1|
 
         Imagen 3. Campo Organización
 
-    #. Introduzca en el campo "**Nombre**", el nombre que corresponde a la definición de comisión que esta realizando. Para ejemplificar el caso planteado anteriormente, es ingresado el nombre "**Comisión de Venta Internos**" 
+    Introduzca en el campo "**Nombre**", el nombre que corresponde a la definición de comisión que esta realizando. Para ejemplificar el caso planteado anteriormente, es ingresado el nombre "**Comisión de Venta Internos**" 
 
         |Campo Nombre 1|
 
         Imagen 4. Campo Nombre
 
-    #. Seleccione en el campo "**Grupo de Comisión**", el grupo de comisión creado según el tipo de frecuencia. El mismo define el tipo de frecuencia a utilizar para el cálculo de la comisión.
+    Seleccione en el campo "**Grupo de Comisión**", el grupo de comisión creado según el tipo de frecuencia. El mismo define el tipo de frecuencia a utilizar para el cálculo de la comisión.
 
         |Campo Grupo de Comisión|
 
         Imagen 5. Campo Grupo de Comisión
 
-    #. Seleccione en el campo "**Moneda**", la moneda a ser utilizada para calcular las comisiones correspondientes a la definición de comisión que esta realizando.
+    Seleccione en el campo "**Moneda**", la moneda a ser utilizada para calcular las comisiones correspondientes a la definición de comisión que esta realizando.
 
         |Campo Moneda|
 
         Imagen 6. Campo Moneda
 
-    #. El campo "**Base del Cálculo**" indica la regla que será tomada en cuenta para el calcular las comisiones al vendedor, el mismo contiene precargadas las siguientes opciones:
+    El campo "**Base del Cálculo**" indica la regla que será tomada en cuenta para el calcular las comisiones al vendedor, el mismo contiene precargadas las siguientes opciones:
     
         - **Comisión Personalizada**: El vendedor comisiona según las reglas o condiciones establecidas en la empresa.
         - **Factura**: El vendedor comisiona por las facturas que tenga una orden de venta que tenga el vendedor asignado.
@@ -89,7 +89,7 @@ Para explicar el procedimiento detalladamente, se presentará un ejemplo en el c
 
         Imagen 7. Campo Base del Cálculo
 
-    #. El campo "**Tipo de Frecuencia** se usa para definir las fechas de inicio y fin del cálculo. Es decir, cada cuanto tiempo comisionará el vendedor:
+    El campo "**Tipo de Frecuencia** se usa para definir las fechas de inicio y fin del cálculo. Es decir, cada cuanto tiempo comisionará el vendedor:
 
         - **Anualmente**: Cada año (365 días). 
 
@@ -108,27 +108,27 @@ Para explicar el procedimiento detalladamente, se presentará un ejemplo en el c
 
             Si la ventana "**Grupo de Comisión**" tiene un tipo de frecuencia asignado y la ventana "**Definición de Comisión**" tiene otro diferente, ADempiere realiza la validación para el cálculo de comisión tomando en cuenta el valor ingresado en el campo "**Tipo de Frecuencia**" de la ventana "**Definición de Comisión**".
 
-    #. Seleccione en el campo "**Cargo**", el cargo correspondiente al registro de definición de comisión que esta realizando. 
+    Seleccione en el campo "**Cargo**", el cargo correspondiente al registro de definición de comisión que esta realizando. 
 
         |Campo Cargo|
 
         Imagen 9. Campo Cargo
 
-    #. Si el checklist "**Pagado Totalmente**" se encuentra tildado el vendedor comisiona por las facturas pagadas en su totalidad, de lo contrario comisiona por los pagos parciales de las facturas.
+    Si el checklist "**Pagado Totalmente**" se encuentra tildado el vendedor comisiona por las facturas pagadas en su totalidad, de lo contrario comisiona por los pagos parciales de las facturas.
 
-    #. Si el checklist "**Calcular con Término de Pago**" se encuentra tildado la comisión es calculada en base al término de pago que tenga la factura.
+    Si el checklist "**Calcular con Término de Pago**" se encuentra tildado la comisión es calculada en base al término de pago que tenga la factura.
 
         |Checklist Calcular con Término de Pago|
 
         Imagen 10. Checklist Calcular con Término de Pago
 
-    #. Si el checklist "**Permitir Devoluciones**" se encuentra tildado la comisión es calculada en base a la nota de crédito que contiene asociada la factura.
+    Si el checklist "**Permitir Devoluciones**" se encuentra tildado la comisión es calculada en base a la nota de crédito que contiene asociada la factura.
 
         |Checklist Permitir Devoluciones|
 
         Imagen 11. Checklist Permitir Devoluciones
 
-    #. Si el checklist "**Lista Detalle**" se encuentra tildado permite que los detalles de las comisiones sean mostrados en la ventana "**Cálculo de Comisiones**".
+    Si el checklist "**Lista Detalle**" se encuentra tildado permite que los detalles de las comisiones sean mostrados en la ventana "**Cálculo de Comisiones**".
 
 
         |Checklist Lista Detalle|
@@ -136,7 +136,7 @@ Para explicar el procedimiento detalladamente, se presentará un ejemplo en el c
         Imagen 12. Checklist Lista Detalle
 
 
-    #. El campo "**Última Fecha de Ejecución**" se refiere a la fecha en la cual el proceso fue corrido por última vez.
+    El campo "**Última Fecha de Ejecución**" se refiere a la fecha en la cual el proceso fue corrido por última vez.
 
         |Campo Última Fecha de Ejecución|
 
@@ -149,49 +149,49 @@ Para explicar el procedimiento detalladamente, se presentará un ejemplo en el c
 **Pestaña Línea de Comisión**
 *****************************
 
-#. Seleccione la pestaña "**Línea de Comisión**" y proceda al llenado de los campos correspondientes.
+Seleccione la pestaña "**Línea de Comisión**" y proceda al llenado de los campos correspondientes.
 
     |Pestaña Línea de Comisión|
 
     Imagen 14. Pestaña Línea de Comisión
 
-    #. El grupo de campos "**Referencia**" contiene campos que permiten establecer reglas o condiciones para el cálculo de las comisiones de los vendedores que se registran en la pestaña "**Representantes de Ventas**".
+    El grupo de campos "**Referencia**" contiene campos que permiten establecer reglas o condiciones para el cálculo de las comisiones de los vendedores que se registran en la pestaña "**Representantes de Ventas**".
 
         |Grupo de Campos Referencia|
 
         Imagen 15. Grupo de Campos "**Referencia**"
 
-        #. Al tildar el checklist "**Comisión sólo en Órdenes Específicas**", el vendedor comisiona sólo por la órdenes o facturas que tiene asignadas.
+        Al tildar el checklist "**Comisión sólo en Órdenes Específicas**", el vendedor comisiona sólo por la órdenes o facturas que tiene asignadas.
 
             |Checklist Comisión sólo en Órdenes Específicas|
 
             Imagen 16. Checklist Comisión sólo en Órdenes Específicas
 
-        #. Los campos "**Organización**", "**Grupo de Socio del Negocio**", "**Socio del Negocio**", "**Categoría del Producto**", "**Clase de Producto**", "**Clasificación de Producto**", "**Grupo de Producto**", "**Producto**", "**Región de Ventas**", "**Regla de Pago**", "**Término de Pago**", "**Proyecto**", "**Campaña**", "**Canal**", "**Cumplimiento Mínimo (%)**", "**Cumplimiento Máximo**" y "**Procentaje Máximo**" pueden ser utilizados para indicar la regla de que los vendedores que se registran en la pestaña "**Representantes de Ventas**", sólo comisionarán por las ventas que cumplan con lo seleccionado o ingresado en dichos campos.
+        Los campos "**Organización**", "**Grupo de Socio del Negocio**", "**Socio del Negocio**", "**Categoría del Producto**", "**Clase de Producto**", "**Clasificación de Producto**", "**Grupo de Producto**", "**Producto**", "**Región de Ventas**", "**Regla de Pago**", "**Término de Pago**", "**Proyecto**", "**Campaña**", "**Canal**", "**Cumplimiento Mínimo (%)**", "**Cumplimiento Máximo**" y "**Procentaje Máximo**" pueden ser utilizados para indicar la regla de que los vendedores que se registran en la pestaña "**Representantes de Ventas**", sólo comisionarán por las ventas que cumplan con lo seleccionado o ingresado en dichos campos.
 
             |Campo Producto|
 
             Imagen 17. Campo Producto
 
-    #. Si el checklist "**Es Porcentaje**" se encuentra tildado, indica que la comisión es expresada en porcentaje. En caso contrario, indica que la comisión es expresada en cantidad.
+    Si el checklist "**Es Porcentaje**" se encuentra tildado, indica que la comisión es expresada en porcentaje. En caso contrario, indica que la comisión es expresada en cantidad.
 
         |Checklist Es Porcentaje|
 
         Imagen 18. Checklist Es Procentaje
 
-    #. En el campo "**Multiplicador**" se introduce el monto de la comisión en porcentaje.
+    En el campo "**Multiplicador**" se introduce el monto de la comisión en porcentaje.
 
         |Campo Multiplicador|
 
         Imagen 19. Campo Multiplicador
 
-    #. En el campo "**Cantidad Multiplicadora**" se introduce el monto de la comisión en cantidad.
+    En el campo "**Cantidad Multiplicadora**" se introduce el monto de la comisión en cantidad.
 
         |Campo Cantidad Multiplicadora|
 
         Imagen 20. Campo Cantidad Multiplicadora
 
-    #. Si el checklist "**Sólo Positivos**" se encuentra tildado, indica que no se toman en cuenta las notas de crédito para el cálculo de las comisiones.
+    Si el checklist "**Sólo Positivos**" se encuentra tildado, indica que no se toman en cuenta las notas de crédito para el cálculo de las comisiones.
 
         |Checklist Sólo Positivos|
 
@@ -204,13 +204,13 @@ Para explicar el procedimiento detalladamente, se presentará un ejemplo en el c
 **Pestaña Representantes de Ventas**
 ************************************
 
-#. Seleccione la pestaña "**Representantes de Ventas**" y proceda al llenado de los campos correspondientes.
+Seleccione la pestaña "**Representantes de Ventas**" y proceda al llenado de los campos correspondientes.
 
     |Pestaña Representantes de Ventas|
 
     Imagen 22. Pestaña Representantes de Ventas
 
-#. Campo "**Socio del Negocio**": Se debe seleccionar el vendedor que corresponde a la definición de comisión que esta configurando.
+Campo "**Socio del Negocio**": Se debe seleccionar el vendedor que corresponde a la definición de comisión que esta configurando.
 
     |Campo Socio del Negocio|
 

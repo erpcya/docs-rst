@@ -1,10 +1,11 @@
-.. _documento/bono-de-alimentación:
+
 
 .. |Recibo de Nómina| image:: resources/recibobonoalimentacion.png
 .. |Detalle de Pago| image:: resources/detallebonodealimentacion2.png
 .. |Resumen de Pago| image:: resources/resumenbonoalimentacion33.png
 
-========================
+.. _documento/bono-de-alimentación:
+
 **Bono de Alimentación**
 ========================
 
@@ -41,9 +42,9 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
     |                                               | la nómina regular del empleado.               |
     +-----------------------------------------------+-----------------------------------------------+
 
-    Para este reporte están configurados 3 tipos de plantillas
+Para este reporte están configurados 3 tipos de plantillas
 
-#. Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina de bono de alimentación procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina de vacaciones. 
+Recibo de Pago: Seleccione esta plantilla si usted desea visualizar de forma detallada las asignaciones y deducciones por separado para cada empleado según la nómina de bono de alimentación procesada, este documento se ha realizado con la finalidad de ser el comprobante de pago que usted le proporciona al empleado para conocer el pago de su nómina de vacaciones. 
 
     Entre los datos personales que usted puede visualizar en el encabezado de su recibo de pago de vacaciones se encuentran los siguientes:
 
@@ -100,11 +101,9 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
     |                                               | Empleados (Todos)                             |
     +-----------------------------------------------+-----------------------------------------------+
 
-
     .. note::
     
         Para realizar cualquier modificación que requiera realizar de estos campos puede utilizar el siguiente documento :ref:`documento/socio-empleado` 
-
 
     Adicionalmente dentro de los Conceptos encontrará datos como:   
 
@@ -118,91 +117,87 @@ Entre las deducciones que se pueden visualizar en el reporte de vacaciones se en
     |  Días Bono de Alimentación                    | Corresponde a los días a cancelar por concepto|
     |                                               | de bono de alimentación                       |
     +-----------------------------------------------+-----------------------------------------------+
-   
 
-   
     Por último se detallará el montol total de las asignaciones, el total de deducciones y el neto a pagar, también encontrará en su recibo de pago un espacio para que el empleado firme y confirme la aprobación de los datos allí obtenidos así como la hora y el día en que fue impreso el recibo.
- 
- 
-    En el ejemplo presentado se evidencia una nómina de bono de alimentación  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
 
+    En el ejemplo presentado se evidencia una nómina de bono de alimentación  procesada a un empleado al que llamaremos Estándar y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos que detallamos anteriormente.
 
     |Recibo de Nómina|
 
     Imagen 1. Recibo de Pago
 
-#. Detalle de Pago: Seleccione esta plantilla de reporte de bono de alimentación si desea conocer de manera detallada las asignaciones y las deducciones de la nómina de bono de alimentación procesada, esta plantilla le ayudará al jefe de nómina a tener los montos totales de la nómina procesada, asi mismo presentará de manera resumida un cuadro en donde se evidencia lo obtenido por cada empleado. 
+Detalle de Pago: Seleccione esta plantilla de reporte de bono de alimentación si desea conocer de manera detallada las asignaciones y las deducciones de la nómina de bono de alimentación procesada, esta plantilla le ayudará al jefe de nómina a tener los montos totales de la nómina procesada, asi mismo presentará de manera resumida un cuadro en donde se evidencia lo obtenido por cada empleado. 
 
-   Los campos que podrá visualizar en este reporte son:
+    Los campos que podrá visualizar en este reporte son:
 
-   +-----------------------------------------------+-----------------------------------------------+
-   |          **PARÁMETROS**                       |             **REFERENCIA**                    |
-   +===============================================+===============================================+
-   |  Contrato                                     | Correspone a el contrato configurado para la  |
-   |                                               | nómina en ejecución                           |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
-   |                                               | procesada, para este caso será nómina de      |
-   |                                               | vacaciones                                    |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Trabajador                                   | Identifica el nombre de cada uno de los       |
-   |                                               | empleados                                     |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
-   |                                               | en este caso aparecerá el nombre de las       |
-   |                                               | asignaciones y deducciones mencionadas        |
-   |                                               | anteriormente                                 |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Asignaciones                                 | Corresponde a los montos obtenidos por        |
-   |                                               | concepto de asignaciones al empleado          |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Deducciones                                  | Corresponde a los montos obtenidos por        |
-   |                                               | concepto de deducciones al empleado           |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Total                                        | Corresponde al monto total obtenido por       |
-   |                                               | concepto                                      |
-   +-----------------------------------------------+-----------------------------------------------+
-   
-   En el siguiente ejemplo presentado se evidencia una nómina de bono de alimentación procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
+    +-----------------------------------------------+-----------------------------------------------+
+    |          **PARÁMETROS**                       |             **REFERENCIA**                    |
+    +===============================================+===============================================+
+    |  Contrato                                     | Correspone a el contrato configurado para la  |
+    |                                               | nómina en ejecución                           |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
+    |                                               | procesada, para este caso será nómina de      |
+    |                                               | vacaciones                                    |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Trabajador                                   | Identifica el nombre de cada uno de los       |
+    |                                               | empleados                                     |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
+    |                                               | en este caso aparecerá el nombre de las       |
+    |                                               | asignaciones y deducciones mencionadas        |
+    |                                               | anteriormente                                 |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Asignaciones                                 | Corresponde a los montos obtenidos por        |
+    |                                               | concepto de asignaciones al empleado          |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Deducciones                                  | Corresponde a los montos obtenidos por        |
+    |                                               | concepto de deducciones al empleado           |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Total                                        | Corresponde al monto total obtenido por       |
+    |                                               | concepto                                      |
+    +-----------------------------------------------+-----------------------------------------------+
 
-   |Detalle de Pago|
+    En el siguiente ejemplo presentado se evidencia una nómina de bono de alimentación procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente.
 
-   Imagen 2. Detalle de Pago. Misma nómina de Bono de Alimentación con diferentes empleados.
+    |Detalle de Pago|
 
-#. Resumen de Pago:  Seleccione esta plantilla de reporte de bono de alimentación  para conocer de manera resumida las asignaciones y deducciones agrupadas en un  mismo reporte omitiendo algunos detalle que usted puede encontrar en la plantilla Detalle de Pago. Esta plantilla presentará por cada uno de los concepto un monto total mensual por cada empleado:
+    Imagen 2. Detalle de Pago. Misma nómina de Bono de Alimentación con diferentes empleados.
 
-   Los campos que podrá visualizar en este reporte son:
+Resumen de Pago:  Seleccione esta plantilla de reporte de bono de alimentación  para conocer de manera resumida las asignaciones y deducciones agrupadas en un  mismo reporte omitiendo algunos detalle que usted puede encontrar en la plantilla Detalle de Pago. Esta plantilla presentará por cada uno de los concepto un monto total mensual por cada empleado:
 
-   +-----------------------------------------------+-----------------------------------------------+
-   |          **PARÁMETROS**                       |             **REFERENCIA**                    |
-   +===============================================+===============================================+
-   |  Contrato                                     | Corresponde a el contrato configurado para la |
-   |                                               | nómina en ejecución                           |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
-   |                                               | procesada, para este caso nómina de           |
-   |                                               | vacaciones                                    |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Trabajador                                   | Identifica el nombre de cada uno de los       |
-   |                                               | empleados                                     |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
-   |                                               | en este caso aparecerá el nombre de las       |
-   |                                               | asignaciones y deducciones mencionadas        |
-   |                                               | anteriormente                                 |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Mes                                          | Corresponde al monto otorgado por el empleado |
-   |                                               | por el concepto de asignación o durante ese   |
-   |                                               | mes                                           |
-   +-----------------------------------------------+-----------------------------------------------+
-   |  Total                                        | Corresponde al monto total obtenido por       |
-   |                                               | concepto                                      |
-   +-----------------------------------------------+-----------------------------------------------+
+    Los campos que podrá visualizar en este reporte son:
 
-  En el siguiente ejemplo presentado se evidencia una nómina de bono de alimentación procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina de bono de alimentación utilizando la plantilla de resumen de pagos
-   
-|Resumen de Pago|
+    +-----------------------------------------------+-----------------------------------------------+
+    |          **PARÁMETROS**                       |             **REFERENCIA**                    |
+    +===============================================+===============================================+
+    |  Contrato                                     | Corresponde a el contrato configurado para la |
+    |                                               | nómina en ejecución                           |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Nómina                                       | Identifica el nombre de la nómina que ha sido |
+    |                                               | procesada, para este caso nómina de           |
+    |                                               | vacaciones                                    |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Trabajador                                   | Identifica el nombre de cada uno de los       |
+    |                                               | empleados                                     |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Concepto de Nómina                           | Identifica el nombre de concepto de nómina    |
+    |                                               | en este caso aparecerá el nombre de las       |
+    |                                               | asignaciones y deducciones mencionadas        |
+    |                                               | anteriormente                                 |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Mes                                          | Corresponde al monto otorgado por el empleado |
+    |                                               | por el concepto de asignación o durante ese   |
+    |                                               | mes                                           |
+    +-----------------------------------------------+-----------------------------------------------+
+    |  Total                                        | Corresponde al monto total obtenido por       |
+    |                                               | concepto                                      |
+    +-----------------------------------------------+-----------------------------------------------+
 
-   Imagen 3. Resumen de Pago. Misma nómina con diferentes empleados.
+    En el siguiente ejemplo presentado se evidencia una nómina de bono de alimentación procesada a 2 empleados y en ella se evidencian las asignaciones y las deducciones del mismo, así como se encuentran todos los datos qué detallamos anteriormente para el reporte de nómina de bono de alimentación utilizando la plantilla de resumen de pagos
+
+    |Resumen de Pago|
+
+    Imagen 3. Resumen de Pago. Misma nómina con diferentes empleados.
 
 

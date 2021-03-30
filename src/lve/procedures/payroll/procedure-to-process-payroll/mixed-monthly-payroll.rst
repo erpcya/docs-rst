@@ -15,25 +15,25 @@
 
     Para procesar una “**Nómina Mensual Mixta**” debemos realizar el proceso de nómina estándar mencionado en el documento :ref:`documento/procedimiento-para-procesar-nómina` elaborado por `ERPyA`_. En esta ventana se registran los datos principales que ADempiere requiere para crear una nómina de tipo mensual mixta, cada uno de los campos detallados a continuación son relevantes para obtener un registro exitoso:
 
-#. Estatus del documento:
+Estatus del documento:
 
-    #. Seleccione **Nómina Mensual** en el campo "**Tipo de Documento**".
+    Seleccione **Nómina Mensual** en el campo "**Tipo de Documento**".
 
         El tipo de documento le permitirá definir la acción del documento que esté registrando en ADempiere.
 
-    #. Seleccione **Nómina Mensua Mixtal** en el campo "**Nómina**"
+    Seleccione **Nómina Mensua Mixtal** en el campo "**Nómina**"
 
         La nómina mensual mixta define el comportamiento de la nómina, para este caso tiene las siguientes características:
 
-            #. Regla de Pago: Débito Directo
-            #. Contrato de Nómina: Contrato Mensual
-            #. Cargo: Sueldos y Salarios por Pagar
+            Regla de Pago: Débito Directo
+            Contrato de Nómina: Contrato Mensual
+            Cargo: Sueldos y Salarios por Pagar
 
-    #. Seleccione el período mensual correspondiente a la nómina que se está ejecutando en el campo "**Período Nómina**"
+    Seleccione el período mensual correspondiente a la nómina que se está ejecutando en el campo "**Período Nómina**"
 
         El período de nómina define el período laborado que le está siendo cancelado al empleado, disponiendo de los períodos creados en la definición de nómina mensual.
 
-    #. Seleccione la fecha “Hasta” o el último día del período que seleccionó anteriormente en el campo "**Fecha Contable**"
+    Seleccione la fecha “Hasta” o el último día del período que seleccionó anteriormente en el campo "**Fecha Contable**"
 
         A través de la fecha contable se determina contablemente la fecha de pago de la nómina mensual en ejecución, por tal motivo se recomienda colocar la fecha “**Hasta**” o el último día del período que seleccionó anteriormente.
 
@@ -42,7 +42,7 @@
 
       Imagen 1. Nómina Mensual Mixta
 
-#. Incidencias:
+Incidencias:
 
     Para esta nómina no son obligatorias las incidencias, pero en ADempiere se cuentan con las siguientes incidencias disponibles para la nómina mensual mixta:
 
@@ -80,7 +80,7 @@
 
     Para conocer cómo registrar una incidencia puede utilizar el siguiente enlace :ref:`documento/novedades-de-nómina`
 
-#. Resultados:
+Resultados:
 
     - "**Reportes**"
 
