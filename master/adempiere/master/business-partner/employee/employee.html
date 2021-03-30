@@ -1,0 +1,1285 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Registro de Empleado &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Producto" href="../../product/index.html" />
+    <link rel="prev" title="Empleado" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Datos Maestros</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>Socio del Negocio</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../business-partner.html"><strong>Registro de Socio del Negocio</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../vendor/index.html"><strong>Proveedor</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../customer/index.html"><strong>Cliente</strong></a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="index.html"><strong>Empleado</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../product/index.html"><strong>Producto</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../warehouse/index.html"><strong>Almacén</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reports/index.html"><strong>Reportes de Maestros</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><strong>Datos Maestros</strong></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Socio del Negocio</strong></a> &raquo;</li>
+        
+          <li><a href="../business-partner.html"><strong>Registro de Socio del Negocio</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Empleado</strong></a> &raquo;</li>
+        
+      <li><strong>Registro de Empleado</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/adempiere/master/business-partner/employee/employee.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-de-empleado">
+<span id="documento-socio-empleado"></span><h1><strong>Registro de Empleado</strong><a class="headerlink" href="#registro-de-empleado" title="Permalink to this headline">¶</a></h1>
+<p>En el menú de ADempiere, ubique y seleccione la carpeta “<strong>Gestión de Recursos Humanos y Nómina</strong>”, luego seleccione la carpeta “<strong>Recursos Humanos</strong>”, por último seleccione la carpeta “<strong>Configuración de Empleado</strong>” y la ventana “<strong>Empleado (Todos)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../../_images/menu2.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>En la ventana “<strong>Empleado (Todos)</strong>”, se registran todos los datos personales y laborales que la empresa requiere del socio del negocio empleado, los mismos son utilizados y actualizados a lo largo de su período laboral en dicha empresa. La información del empleado desde el momento en el que inicia su período laboral, hasta el momento actual o el momento en el que termina, se encuentra distribuida en la ventana principal “<strong>Empleado</strong>” y sus (11) once pestañas, explicadas a continuación.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Cada uno de los campos con el símbolo (*) son obligatorios para el registro.</p>
+</div>
+<p>A continuación podrá apreciar la ventana “<strong>Empleado (Todos)</strong>”, dónde debe seleccionar el icono de “<strong>Registro Nuevo</strong>” que se encuentra ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Ventana Principal Empleados (Todos)" src="../../../../_images/ventana2.png" /></p>
+<p>Imagen 2. Ventana Principal Empleados (Todos)</p>
+</div></blockquote>
+<p>Proceda al llenado de los campos necesarios que a continuación se detallan.</p>
+<blockquote>
+<div><p>Seleccione en el campo “<strong>Compañía</strong>”, la compañía para la cual esta registrando el socio del negocio empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Compañía" src="../../../../_images/comp.png" /></p>
+<p>Imagen 3. Campo Compañía</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta registrando el socio del negocio empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Organización" src="../../../../_images/organizacion1.png" /></p>
+<p>Imagen 4. Campo Organización</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Para que el socio del negocio este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*), de lo contrario el socio del negocio solo estará disponible para una sola organización.</p>
+</div>
+</div></blockquote>
+<p>Introduzca el código de identificación, cédula o rif del socio del negocio en el campo “<strong>Código</strong>”, el valor introducido en este campo automáticamente se reflejará en el campo “<strong>Número Identificación</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Código" src="../../../../_images/codigo1.png" /></p>
+<p>Imagen 5. Campo Código</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Se recomienda que al ingresar el valor al campo “<strong>Código</strong>” no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.</p>
+</div>
+</div></blockquote>
+<p>Introduzca los (2) dos nombres del socio del negocio empleado en el campo “<strong>Nombre</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre" src="../../../../_images/nombre3.png" /></p>
+<p>Imagen 6. Campo Nombre</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si el socio del negocio que esta registrando posee solo un nombre, se debe ingresar solo ese nombre que posee.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre 2</strong>”, los (2) dos apellidos del socio del negocio empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre 2" src="../../../../_images/nombre21.png" /></p>
+<p>Imagen 7. Campo Nombre 2</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si el socio del negocio que esta registrando posee solo un apellido, se debe ingresar solo ese apellido que posee.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una descripción corta con respecto al socio del negocio empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción" src="../../../../_images/descripcion1.png" /></p>
+<p>Imagen 8. Campo Descripción</p>
+</div></blockquote>
+<p>Seleccione el grupo de socio del negocio al que pertenezca el socio del negocio que esta registrando, para este ejemplo el grupo utilizado es “<strong>Empleados</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Grupo de Socio del Negocio" src="../../../../_images/grupo1.png" /></p>
+<p>Imagen 9. Campo Grupo de Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Regla de Pago</strong>” la forma de pago para las facturas, este campo indica de que forma serán pagadas las facturas al socio del negocio empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Regla de Pago" src="../../../../_images/regla1.png" /></p>
+<p>Imagen 10. Campo Regla de Pago</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Dirección Web</strong>”, la dirección web para contactar al empleado, ya que es muy común que un empleado no posea una página web se puede ingresar una cuenta linkedin, bumeran, entre otros.</p>
+<blockquote>
+<div><p><img alt="Campo Dirección Web" src="../../../../_images/web.png" /></p>
+<p>Imagen 11. Campo Dirección Web</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Genero</strong>”, el genero del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el genero “<strong>Femenino</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Genero" src="../../../../_images/genero.png" /></p>
+<p>Imagen 12. Campo Genero</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo Sanguíneo</strong>”, el grupo sanguíneo del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el grupo sanguíneo “<strong>B +</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Grupo Sanguíneo" src="../../../../_images/sangre.png" /></p>
+<p>Imagen 13. Campo Grupo Sanguíneo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cumpleaños</strong>”, la fecha de nacimiento del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Cumpleaños" src="../../../../_images/cumples.png" /></p>
+<p>Imagen 14. Campo Cumpleaños</p>
+</div></blockquote>
+<p>Ingrese en el campo “<strong>Lugar de Nacimiento (Localización)</strong>”, el lugar de nacimiento del socio del negocio que esta registrando, con ayuda del identificador.</p>
+<blockquote>
+<div><p><img alt="Campo Lugar de Nacimiento (Localización)" src="../../../../_images/nacim.png" /></p>
+<p>Imagen 15. Campo Lugar de Nacimiento (Localización)</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>País</strong>”, el país donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el país “<strong>Venezuela</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo País" src="../../../../_images/pais1.png" /></p>
+<p>Imagen 16. Campo País</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Estado</strong>”, el estado donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el estado “<strong>Portuguesa</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Estado" src="../../../../_images/estado1.png" /></p>
+<p>Imagen 17. Campo Estado</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Ciudad</strong>”, la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la ciudad “<strong>Araure</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Ciudad" src="../../../../_images/ciudad1.png" /></p>
+<p>Imagen 18. Campo Ciudad</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Dirección 1</strong>”, la dirección detallada del lugar donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza la dirección “<strong>Av Dr Rafael Caldera</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Dirección 1" src="../../../../_images/direccion1.png" /></p>
+<p>Imagen 19. Campo Dirección 1</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Dirección 2</strong>”, el nombre del lugar donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el nombre “<strong>Hospital J.M. Casal Ramos</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Dirección 2" src="../../../../_images/direccion2.png" /></p>
+<p>Imagen 20. Campo Dirección 2</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código Postal</strong>”, el código postal de la ciudad donde nació el socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el código “<strong>3301</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Código Postal" src="../../../../_images/postal1.png" /></p>
+<p>Imagen 21. Campo Código Postal</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para cargar el registro al campo “<strong>Lugar de Nacimiento</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción OK" src="../../../../_images/ok.png" /></p>
+<p>Imagen 22. Opción OK</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Estado Marital</strong>”, el estado civil del socio del negocio que esta registrando. Para ejemplificar el registro se utiliza el estado marital “<strong>Casado</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Estado Marital" src="../../../../_images/marital.png" /></p>
+<p>Imagen 23. Campo Estado Marital</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>” ubicado en la barra de herramientas para guardar los datos ingresados.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios1" src="../../../../_images/guardar2.png" /></p>
+<p>Imagen 24. Icono Guardar Cambios</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).</p>
+</div>
+<div class="section" id="pestana-informacion-de-contrato">
+<h2><strong>Pestaña Información de Contrato</strong><a class="headerlink" href="#pestana-informacion-de-contrato" title="Permalink to this headline">¶</a></h2>
+<p>La información ingresada en esta pestaña puede variar al momento de la elaboración del contrato, dependiendo de la situación en la que se encuentre el socio del negocio que esta registrando. Un mismo socio del negocio puede tener un “<strong>Estado Marital</strong>” en un contrato y otro en su siguiente contrato, lo mismo sucede con cada uno de los grupos de campos que contiene la pestaña “<strong>Información de Contrato</strong>”.</p>
+<p>Seleccione la pestaña “<strong>Información de Contrato</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Pestaña Información de Contrato" src="../../../../_images/ventcontrato.png" /></p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>La Información de Contrato se debe realizar con la Organización a la Pertenezca el empleado, por eso debe Cambiar La Organización de (*) a la Organización Principal del Empleado.</p>
+</div>
+<p>Imagen 25. Pestaña Información de Contrato</p>
+<p>Introduzca en el campo “<strong>Nombre</strong>”, los (2) dos nombres de la persona a quien va emitido el contrato.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre Contrato" src="../../../../_images/nomcontrato.png" /></p>
+<p>Imagen 26. Campo Nombre</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Se ingresa la información del representante legal del socio del negocio empleado, cuando este es menor de edad al momento de la elaboración del contrato de trabajo.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre 2</strong>”, los (2) dos apellidos de la persona a quien va emitido el contrato.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre 2 Contrato" src="../../../../_images/apecontrato.png" /></p>
+<p>Imagen 27. Campo Nombre 2</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Se ingresa la información del representante legal del socio del negocio empleado, cuando este es menor de edad al momento de la elaboración del contrato de trabajo.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código Nacional</strong>”, el código que identifica al socio del negocio empleado, este código es diferente a la cédula.</p>
+<blockquote>
+<div><p><img alt="Campo Código Nacional" src="../../../../_images/codcontrato.png" /></p>
+<p>Imagen 28. Campo Código Nacional</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Se recomienda que al ingresar el valor al campo “<strong>Código Nacional</strong>” no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código Seguridad Social</strong>”, el código del seguro social de la persona a quien va emitido el contrato.</p>
+<blockquote>
+<div><p><img alt="Campo Seguridad Social" src="../../../../_images/codseguro.png" /></p>
+<p>Imagen 29. Campo Código Seguridad Social</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El código de seguridad social se refiere al código del seguro social del empleado, es decir, la cédula del empleado.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Nacionalidad</strong>”, la nacionalidad de la persona a quien va emitido el contrato.</p>
+<blockquote>
+<div><p><img alt="Campo Nacionalidad" src="../../../../_images/nacionalidad.png" /></p>
+<p>Imagen 30. Campo Nacionalidad</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Marca de Identificación</strong>”, una descripción que identifica al socio del negocio empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Marca de Identificación" src="../../../../_images/marcaiden.png" /></p>
+<p>Imagen 31. Campo Marca de Identificación</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Estado Marital</strong>”, el estado marital de la persona a quien va emitido el contrato.</p>
+<blockquote>
+<div><p><img alt="Campo Estado Marital2" src="../../../../_images/maritalcon.png" /></p>
+<p>Imagen 32. Campo Estado Marital</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre de Esposo(a)</strong>”, el nombre del esposo(a) de la persona a quien va emitido el contrato.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre de Esposo(a)" src="../../../../_images/esposo.png" /></p>
+<p>Imagen 33. Campo Nombre de Esposo(a)</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de Aniversario de Matrimonio</strong>”, la fecha en la que se realizó el matrimonio.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Aniversario de Matrimonio" src="../../../../_images/fematrimonio.png" /></p>
+<p>Imagen 34. Campo Fecha de Aniversario de Matrimonio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de Nacimiento de Esposo(a)</strong>”, la fecha en la que nació el esposo(a).</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Nacimiento de Esposo(a)" src="../../../../_images/naciesposo.png" /></p>
+<p>Imagen 35. Campo Fecha de Nacimiento de Esposo(a)</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código de Validación</strong>”, el código de marcaje del empleado en la empresa.</p>
+<blockquote>
+<div><p><img alt="Campo Código de Validación" src="../../../../_images/valida.png" /></p>
+<p>Imagen 36. Código de Validación</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Nómina</strong>”, la nómina regular establecida para cada Empleado. Adempiere presenta las siguientes nóminas cuando el empleado posee un Salario Fijo (Nómina Semanal, Nómina Quincenal y Nómina Mensual), en cambio si el Empleado Posee un Salario Variable se encuentras disponibles (Nómina Semanal Mixta, Nómina Quincenal Mixta y Nómina Mensual Mixta)</p>
+<blockquote>
+<div><p><img alt="Campo Nómina" src="../../../../_images/nomina.png" /></p>
+<p>Imagen 37. Campo Nómina</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Departamento Nómina</strong>”, el departamento al que pertenece el socio del negocio que esta resgistrando.</p>
+<blockquote>
+<div><p><img alt="Campo Departamento Nómina" src="../../../../_images/departamento.png" /></p>
+<p>Imagen 38. Campo Departamento Nómina</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Puesto Nómina</strong>”, el puesto que tiene el socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Puesto Nómina" src="../../../../_images/puesto.png" /></p>
+<p>Imagen 39. Campo Puesto Nómina</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Trabajo</strong>”, el trabajo a desempeñar por el empleado en la empresa.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Trabajo" src="../../../../_images/tipo.png" /></p>
+<p>Imagen 4. Campo Tipo de Trabajo</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Fecha de Inicio</strong>”, la fecha de inicio del contrato que se esta creando.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Inicio" src="../../../../_images/inicio.png" /></p>
+<p>Imagen 4. Campo Fecha de Inicio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Final</strong>”, la fecha de culminación del contrato del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha Final" src="../../../../_images/final.png" /></p>
+<p>Imagen 42. Campo Fecha Final</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>La fecha final del contrato depende del lapso de duración de contratos que las empresas tengan establecido como políticas de contratación.</p>
+</div>
+</div></blockquote>
+<p>Seleccione el checklist “<strong>Gerente</strong>”, para indicar que el socio del negocio que esta registrando es un gerente.</p>
+<blockquote>
+<div><p><img alt="Campo Gerente" src="../../../../_images/gerente1.png" /></p>
+<p>Imagen 43. Campo Gerente</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo de Trabajo</strong>”, el grupo de trabajo al que pertenece el socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Grupo de Trabajo" src="../../../../_images/grupot.png" /></p>
+<p>Imagen 44. Campo Grupo de Trabajo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Empleado</strong>”, el tipo de empleado al que pertenece el socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Empleado" src="../../../../_images/tipoem.png" /></p>
+<p>Imagen 45. Campon Tipo de Empleado</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo de Turno</strong>”, el grupo de turno al que pertenece el socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Grupo de Turno" src="../../../../_images/grupotur.png" /></p>
+<p>Imagen 46. Campo Grupo de Turno</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Estado del Empleado</strong>”, el estado en el que se encuentra el empleado durante la fecha de inicio y final del contrato.</p>
+<blockquote>
+<div><p><img alt="Campo Estado del Empleado" src="../../../../_images/estadoem.png" /></p>
+<p>Imagen 47. Campo Estado del Empleado</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Educación Laboral</strong>”, la educación laboral del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Educación Laboral" src="../../../../_images/edulabo.png" /></p>
+<p>Imagen 48. Campo Educación Laboral</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Identificador de la Carrera</strong>”, la carrera del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Identificador de la carrera" src="../../../../_images/iden.png" /></p>
+<p>Imagen 49. Campo Identificador de la Carrera</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grado</strong>”, el grado de instrucción del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Grado" src="../../../../_images/grado.png" /></p>
+<p>Imagen 50. Campo Grado</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Designación</strong>”, la designación del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Designación" src="../../../../_images/desig.png" /></p>
+<p>Imagen 51. Campo Designación</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Profesión</strong>”, la profesión del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Profesión" src="../../../../_images/profe.png" /></p>
+<p>Imagen 52. Campo Profesión</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grado Académico</strong>”, nivel de instrucción del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Grado Académico" src="../../../../_images/gradoaca.png" /></p>
+<p>Imagen 53. Campo Grado Académico</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Habilidad</strong>”, el tipo de habilidad del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Habilidad" src="../../../../_images/habilidad.png" /></p>
+<p>Imagen 54. Campo Tipo de Habilidad</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Oferta de Empleo</strong>”, la oferta de empleo del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Oferta de Empleo" src="../../../../_images/oferta.png" /></p>
+<p>Imagen 55. Campo Oferta de Empleo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Estructura Salarial</strong>”, la estructura salarial del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Estructura Salarial" src="../../../../_images/estructura.png" /></p>
+<p>Imagen 56. Campo Estructura Salarial</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Salario Diario</strong>”, el salario diario que le corresponde al socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Salario Diario" src="../../../../_images/salario.png" /></p>
+<p>Imagen 57. Campo Salario Diario</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Regla de Pago</strong>”, la regla de pago establecida para el socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Regla de Pago2" src="../../../../_images/reglapago.png" /></p>
+<p>Imagen 58. Campo Regla de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Rango Salarial</strong>”, el rango salarial del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Rango Salarial" src="../../../../_images/rango.png" /></p>
+<p>Imagen 59. Campo Rango Salarial</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Salario Mensual</strong>”, el salario mensual del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Salario Mensual" src="../../../../_images/salariomen.png" /></p>
+<p>Imagen 60. Campo Salario Mensual</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización de la Transacción</strong>”, la organización de la transacción.</p>
+<blockquote>
+<div><p><img alt="Campo Organización de la Transacción" src="../../../../_images/orgtran.png" /></p>
+<p>Imagen 61. Campo Organización de la Transacción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Proyecto</strong>”, el proyecto financiero.</p>
+<blockquote>
+<div><p><img alt="Campo Proyecto" src="../../../../_images/proyecto.png" /></p>
+<p>Imagen 62. Campo Proyecto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Región de Ventas</strong>”, la región de ventas asignada al socio del negocio empleado para cubrir las transacciones que la empresa posee en dicha región.</p>
+<blockquote>
+<div><p><img alt="Campo Región de Ventas" src="../../../../_images/region1.png" /></p>
+<p>Imagen 63. Campo Región de Ventas</p>
+</div></blockquote>
+<p>Seleccione la actividad en el campo “<strong>Actividad</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Actividad" src="../../../../_images/actividad.png" /></p>
+<p>Imagen 64. Campo Actividad</p>
+</div></blockquote>
+<p>Seleccione la campaña en el campo “<strong>Campaña</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Campaña" src="../../../../_images/campana.png" /></p>
+<p>Imagen 65. Campo Campaña</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Imagen del Empleado</strong>”, la foto o imagen del socio del negocio empleado que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Imagen del Empleado" src="../../../../_images/imaempleado.png" /></p>
+<p>Imagen 66. Campo Imagen del Empleado</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Dirección Web</strong>”, la dirección web de la foto o imagen del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Dirección Web2" src="../../../../_images/direccionweb.png" /></p>
+<p>Imagen 67. Campo Dirección Web</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Imagen del Pulgar</strong>”, la imagen del pulgar del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Imagen del Pulgar" src="../../../../_images/pulgar.png" /></p>
+<p>Imagen 68. Campo Imagen del Pulgar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Logo</strong>”, el logo de la empresa.</p>
+<blockquote>
+<div><p><img alt="Logo" src="../../../../_images/logo.png" /></p>
+<p>Imagen 69. Logo</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).</p>
+</div>
+</div>
+<div class="section" id="pestana-atributo-de-empleado">
+<h2><strong>Pestaña Atributo de Empleado</strong><a class="headerlink" href="#pestana-atributo-de-empleado" title="Permalink to this headline">¶</a></h2>
+<p>En una empresa los empleados poseen caracteristicas diferentes, Estas caracteristicas en Adempiere son llamadas Atributos. Un Atributo puede ser el Salario Diario de cada Empleado, El factor ARI, Una Deducción por un Préstamo, etc. Los mismos son definidos en la pestaña “<strong>Atributo de Empleado</strong>” para que sean aplicados a la nómina al momento de la ejecución. Los valores de estos atributos varian según el tipo de Concepto de Nómina. Cabe Destacar que un empleados puede poseer diferentes atributos.</p>
+<p>Seleccione la pestaña “<strong>Atributo de Empleado</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Pestaña Atributo de Empleado" src="../../../../_images/pestatributo.png" /></p>
+<p>Imagen 70. Pestaña Atributo de Empleado</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Relación con Socios del Negocio</strong>”, el socio del negocio correspondiente.</p>
+<blockquote>
+<div><p><img alt="Campo Relación con Socios del Negocio" src="../../../../_images/relacion.png" /></p>
+<p>Imagen 71. Campo Relación con Socios del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Concepto Nómina</strong>”, el Concepto de Nómina con el cual le creará el atributo al empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Concepto Nómina" src="../../../../_images/concepto.png" /></p>
+<p>Imagen 72. Campo Concepto Nómina</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Al seleccionar cualquier valor en este campo podrá apreciar una serie de conceptos definidos por Adempiere y que se consideran atributos de cada empleado</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción del registro de concepto de nómina que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción Concepto" src="../../../../_images/des.png" /></p>
+<p>Imagen 73. Campo Descripción</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>No. de Referencia</strong>”, el número de referencia del socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo No. de Referencia" src="../../../../_images/referencia1.png" /></p>
+<p>Imagen 74. Campo No. de Referencia</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Monto</strong>”, el monto correspondiente al registro que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Monto" src="../../../../_images/monto.png" /></p>
+<p>Imagen 75. Campo Monto</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Valor Máximo</strong>”, el valor máximo para el registro que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Valor Máximo" src="../../../../_images/maximo.png" /></p>
+<p>Imagen 76. Campo Valor Máximo</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Valor Mínimo</strong>”, el valor mínimo para el registro que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Valor Mínimo" src="../../../../_images/minimo.png" /></p>
+<p>Imagen 77. Campo Valor Mínimo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Desde</strong>”, la fecha de inicio de aplicación del registro que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Válido Desde" src="../../../../_images/desde.png" /></p>
+<p>Imagen 78. Campo Válido Desde</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Hasta</strong>”, la fecha final de aplicación del registro que se esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Válido Hasta" src="../../../../_images/hasta.png" /></p>
+<p>Imagen 79. Campo Válido Hasta</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).</p>
+</div>
+</div>
+<div class="section" id="pestana-dias-libres-de-la-semana">
+<h2><strong>Pestaña Días Libres de la Semana</strong><a class="headerlink" href="#pestana-dias-libres-de-la-semana" title="Permalink to this headline">¶</a></h2>
+<p>Según lo establecido en el artículo 173 de la LOTTT, una jornada de trabajo no excederá de cinco días a la semana y el trabajador o trabajadora tendrá derecho a dos días de descanso, continuos y remunerados durante cada semana de labor.</p>
+<p>En la pestaña “<strong>Días Libres de la Semana</strong>” se deben seleccionar los checklist de los días libres que le corresponden al socio del negocio empleado que esta registrando.</p>
+<p>Seleccione la pestaña “<strong>Días Libres de la Semana</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Pestaña Días Libres de la Semana" src="../../../../_images/pestdias.png" /></p>
+<p>Imagen 80. Pestaña Días Libres de la Semana</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción de los días libres que le corresponden al socio del negocio que esta registrando. Este campo es opcional, sin embargo, sirve de referencia para el registro del socio del negocio empleado en la empresa cuando se utilizan turnos rotativos.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción2" src="../../../../_images/desdias.png" /></p>
+<p>Imagen 81. Campo Descripción</p>
+</div></blockquote>
+<p>Seleccione los checklist correspondientes a los días libres del socio del negocio empleado que esta registrando. Para ejemplificar el registro se tildan los días “<strong>Sábado</strong>” y “<strong>Domingo</strong>”.</p>
+<blockquote>
+<div><p><img alt="Checklist Días Libres de la Semana" src="../../../../_images/dias.png" /></p>
+<p>Imagen 82. Checklist Días Libres de la Semana</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).</p>
+</div>
+</div>
+<div class="section" id="pestana-detalle-de-pago">
+<span id="documento-pestana-detalle-de-pago"></span><h2><strong>Pestaña Detalle de Pago</strong><a class="headerlink" href="#pestana-detalle-de-pago" title="Permalink to this headline">¶</a></h2>
+<p>La pestaña “<strong>Detalle de Pago</strong>”, muestra de forma resumida la información de pago seleccionada para el socio del negocio empleado que esta registrando. Cualquier modificación que se realice en los campos de esta pestaña modificará el valor de esos campos en la pestaña “<strong>Información de Contrato</strong>” y viceversa.</p>
+<p>Seleccione la pestaña “<strong>Detalle de Pago</strong>” y podrá apreciar la información de pago del socio del negocio empleado ingresada en la pestaña “<strong>Información de Contrato</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Detalle de Pago" src="../../../../_images/pestdetallepago.png" /></p>
+<p>Imagen 83. Pestaña Detalle de Pago</p>
+</div></blockquote>
+<p>Si es necesario modificar los campos que contiene la ventana, proceda a realizar el siguiente procedimiento.</p>
+<blockquote>
+<div><p>Introduzca en el campo “<strong>Salario Mensual</strong>”, el salario mensual que le corresponde al socio del negocio empleado que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Salario Mensual Detalle" src="../../../../_images/detallemensual.png" /></p>
+<p>Imagen 84. Campo Salario Mensual</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Salario Diario</strong>”, el salario diario que le corresponde al socio del negocio empleado que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Salario Diario Detalle" src="../../../../_images/detallediario.png" /></p>
+<p>Imagen 85. Campo Salario Diario</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Regla de Pago</strong>”, la forma de pago establecida para el socio del negocio empleado que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Regla de Pago Detalle" src="../../../../_images/detalleregla.png" /></p>
+<p>Imagen 86. Campo Regla de Pago</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).</p>
+</div>
+</div></blockquote>
+<p>Regrese a la pestaña “<strong>Información de Contrato</strong>” para que pueda apreciar el comportamiento de los cambios realizados en la pestaña “<strong>Detalle de Pago</strong>”</p>
+<blockquote>
+<div><p><img alt="Pestaña Información de Contrato Detalle" src="../../../../_images/cambios.png" /></p>
+<p>Imagen 87. Pestaña Información de Contrato</p>
+</div></blockquote>
+</div>
+<div class="section" id="pestana-cuenta-bancaria">
+<h2><strong>Pestaña Cuenta Bancaria</strong><a class="headerlink" href="#pestana-cuenta-bancaria" title="Permalink to this headline">¶</a></h2>
+<p>En esta pestaña se registran los datos bancarios del socio del negocio empleado, esta información es necesaria para cancelar al empleado las remuneraciones correspondientes por los servicios prestados a la empresa.</p>
+<p>Seleccione la pestaña “<strong>Cuenta Bancaria</strong>” que se encuentra ubicada del lado izquierdo de la ventana socio del negocio y proceda al llenado de los campos correspondientes. Debe tildar la Opción que dice ACH para que aparezcan los campos que se describen a continuación. Recuerde que el llenado de está cuenta Bancaria es la Cuenta Nómina del empleado, utilizada para el pago de su nómina</p>
+<blockquote>
+<div><p><img alt="Pestaña Cuenta Bancaria" src="../../../../_images/pestcuenta.png" /></p>
+<p>Imagen 88. Pestaña Cuenta Bancaria</p>
+</div></blockquote>
+<p>En el campo “<strong>Banco</strong>” seleccione el banco a registrar con ayuda del ícono identificador (adjunto imagen).</p>
+<blockquote>
+<div><p><img alt="Campo Banco" src="../../../../_images/identibanco.png" /></p>
+<p>Imagen 89. Campo Banco</p>
+</div></blockquote>
+<p>A continuación podrá apreciar la siguiente ventana con los diferentes bancos, dónde debe seleccionar el banco que posee el socio del negocio empleado y la opción “<strong>OK</strong>” para cargar los datos al formulario.</p>
+<blockquote>
+<div><p><img alt="Opción Ok" src="../../../../_images/selecbanco1.png" /></p>
+<p>Imagen 90. Opción OK</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Cuenta Bancaria</strong>”, el tipo de cuenta bancaria correspondiente a la cuenta que esta registrando. Para ejemplificar el registro es utilizado el tipo de cuenta corriente.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Cuenta Bancaria" src="../../../../_images/tipocuenta1.png" /></p>
+<p>Imagen 91. Campo Tipo de Cuenta Bancaria</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>No. De Cuenta</strong>”, el número de cuenta bancaria que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo No. De Cuenta" src="../../../../_images/numcuenta1.png" /></p>
+<p>Imagen 92. Campo No. De Cuenta</p>
+</div></blockquote>
+<p>Introduzca el código de identificación, cédula o rif del titular de la cuenta bancaria que esta registrando, en el campo “<strong>No. Seguro Social</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo No. Seguro Social Cuenta" src="../../../../_images/cedutitular.png" /></p>
+<p>Imagen 93. Campo No. Seguro Social</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Se recomienda que al ingresar el valor al campo “<strong>No. Seguro Social</strong>” no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.</p>
+</div>
+</div></blockquote>
+<p>Introduzca el nombre de referencia en el campo “<strong>Nombre</strong>”, en este campo va el nombre del titular de la cuenta bancaria que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre Titular" src="../../../../_images/titularcuenta.png" /></p>
+<p>Imagen 94. Campo Nombre Titular</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Cta. Correo Electrónico</strong>”, el correo electrónico asociado a la cuenta bancaria que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Cta. Correo Electrónico" src="../../../../_images/correocuenta.png" /></p>
+<p>Imagen 95. Campo Cta. Correo Electrónico</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>” en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios2" src="../../../../_images/guardarcuenta.png" /></p>
+<p>Imagen 96. Icono Guardar Cambios</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Si el empleado posee otra cuenta bancaria para registrar, seleccione el icono “<strong>Registro Nuevo</strong>” en la barra de herramientas de ADempiere en la pestaña “<strong>Cuenta Bancaria</strong>” y proceda al llenado de los campos explicados anteriormente.</p>
+</div>
+</div>
+<div class="section" id="pestana-experiencia-laboral">
+<h2><strong>Pestaña Experiencia Laboral</strong><a class="headerlink" href="#pestana-experiencia-laboral" title="Permalink to this headline">¶</a></h2>
+<p>La experiencia laboral de las personas forman su hoja de vida laboral, en cada empresa la persona adquiere conocimientos referente al entorno que las rodea y las actividades que en la misma se realizan. En la pestaña “<strong>Experiencia Laboral</strong>”, se registran las diferentes experiencias laborales que ha tenido el socio del negocio empleado que esta registrando.</p>
+<p>Seleccione la pestaña “<strong>Experiencia Laboral</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Pestaña Experiencia Laboral" src="../../../../_images/pestexperiencia.png" /></p>
+<p>Imagen 97. Pestaña Experiencia Laboral</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Compañía</strong>”, el nombre de la empresa en la cual trabajo el socio del negocio empleado que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Compañía Experiencia" src="../../../../_images/empresareferen.png" /></p>
+<p>Imagen 98. Campo Compañía</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Desde Fecha</strong>”, la fecha en la cual comenzo a realizar sus actividades laborales en la empresa.</p>
+<blockquote>
+<div><p><img alt="Campo Desde Fecha" src="../../../../_images/desdereferen.png" /></p>
+<p>Imagen 99. Campo Desde Fecha</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>A Fecha</strong>”, la fecha en la cual termino de realizar sus actividades laborales en la empresa.</p>
+<blockquote>
+<div><p><img alt="Campo A Fecha" src="../../../../_images/hastareferen.png" /></p>
+<p>Imagen 100. Campo A Fecha</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Designación (Enlazado)</strong>”,</p>
+<blockquote>
+<div><p><img alt="Campo Designación (Enlazado)" src="../../../../_images/designacionenla.png" /></p>
+<p>Imagen 101. Campo Designación (Enlazado)</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Designación (Retirado)</strong>”,</p>
+<blockquote>
+<div><p><img alt="Campo Designación (Retirado)" src="../../../../_images/designacionreti.png" /></p>
+<p>Imagen 102. Campo Designación (Retirado)</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Comentarios</strong>”, cualquier información relevante con respecto a la experiencia en la empresa.</p>
+<blockquote>
+<div><p><img alt="Campo Comentarios" src="../../../../_images/comentariosreferen.png" /></p>
+<p>Imagen 103. Campo Comentarios</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>” en la barra de herramientas de ADempiere, para guardar los cambios realizados en la pestaña “<strong>Experiencia Laboral</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios3" src="../../../../_images/guardarexperiencia.png" /></p>
+<p>Imagen 104. Icono Guardar Cambios</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Si el empleado posee otras referencias laborales para registrar, seleccione el icono “<strong>Registro Nuevo</strong>” en la barra de herramientas de ADempiere en la pestaña “<strong>Experiencia Laboral</strong>” y proceda al llenado de los campos explicados anteriormente.</p>
+</div>
+</div>
+<div class="section" id="pestana-educacion">
+<h2><strong>Pestaña Educación</strong><a class="headerlink" href="#pestana-educacion" title="Permalink to this headline">¶</a></h2>
+<p>La ley órganica de educación en su artículo 4 de educación y cultura, establece la educación como derecho humano y deber social fundamental orientada al desarrollo del potencial creativo de cada ser humano en condiciones históricamente determinadas, constituye el eje central en la creación, transmisión y reproducción de las diversas manifestaciones y valores culturales, invenciones, expresiones, representaciones y características propias para apreciar, asumir y transformar la realidad.</p>
+<p>El Estado asume la educación como proceso esencial para promover, fortalecer y difundir los valores culturales de la venezolanidad.</p>
+<p>Seleccione la pestaña “<strong>Educación</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Pestaña Educación" src="../../../../_images/pesteducacion.png" /></p>
+<p>Imagen 105. Pestaña Educación</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grado Académico</strong>”, del grado académico del socio del negocio empleado que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Grado Académico2" src="../../../../_images/gradoacade.png" /></p>
+<p>Imagen 106. Campo Grado Académico</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Colegio</strong>”, el nombre de la institución o colegio donde obtuvo el grado académico que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Colegio" src="../../../../_images/colegioacade.png" /></p>
+<p>Imagen 107. Campo Colegio</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Dirección de Escuela / Colegio</strong>”, la dirección de la institución o colegio donde obtuvo el grado académico que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Dirección de Escuela / Colegio" src="../../../../_images/direacade.png" /></p>
+<p>Imagen 108. Campo Dirección de Escuela / Colegio</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Duración</strong>”, el tiempo de duración para obtener el grado académico seleccionado.</p>
+<blockquote>
+<div><p><img alt="Campo Duración" src="../../../../_images/anoacade.png" /></p>
+<p>Imagen 109. Campo Duración</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Fecha de Finalización</strong>”, el año en el cual obtuvo el grado académico seleccionado.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Finalización" src="../../../../_images/finalacade.png" /></p>
+<p>Imagen 110. Campo Fecha de Finalización</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Comentarios</strong>”, cualquier información relevante para el registro.</p>
+<blockquote>
+<div><p><img alt="Campo Comentario" src="../../../../_images/comenacade.png" /></p>
+<p>Imagen 111. Campo Comentarios</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).</p>
+</div>
+</div>
+<div class="section" id="pestana-dependientes">
+<h2><strong>Pestaña Dependientes</strong><a class="headerlink" href="#pestana-dependientes" title="Permalink to this headline">¶</a></h2>
+<p>En esta pestaña se registran los datos de cada uno de los familiares que dependen o no del socio del negocio empleado que esta registrando, esta información es utilizada por la empresa para asuntos de seguros, actividades recreativas y sociales, becas, donaciones, pagos, entre otros motivos.</p>
+<p>Seleccione la pestaña “<strong>Dependientes</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Pestaña Dependientes" src="../../../../_images/pestdependientes.png" /></p>
+<p>Imagen 112. Pestaña Dependientes</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Relación de Empleados</strong>”, la relación que tiene el dependiente con el socio del negocio empleado que esta registrando. Para ejemplificar el registro es utilizada la opción “<strong>Hijo (a)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Relación de Empleados" src="../../../../_images/relaciondepen.png" /></p>
+<p>Imagen 113. Campo Relación de Empleados</p>
+</div></blockquote>
+<p>Introduzca el código de identificación, cédula o rif del dependiente que esta registrando, en el campo “<strong>Código</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Código2" src="../../../../_images/codidependiente.png" /></p>
+<p>Imagen 114. Campo Código</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Se recomienda que al ingresar el valor al campo “<strong>Código</strong>” no se ingrese ningún prefijo, punto, guion o cualquier otro carácter.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre</strong>”, el nombre completo del dependiente que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre Dependiente" src="../../../../_images/nomdependiente.png" /></p>
+<p>Imagen 115. Campo Nombre Dependiente</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio Relacionado</strong>”, el socio del negocio empleado que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio Relacionado" src="../../../../_images/socioreladepen.png" /></p>
+<p>Imagen 116. Campo Socio del Negocio Relacionado</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>El campo “<strong>Socio del Negocio Relacionado</strong>”, es utilizado cuando se va a realizar algún pago a un dependiente del socio del negocio empleado que esta registrando. Se selecciona el socio del negocio empleado porque sus datos bancarios se encuentran registrados y validados.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cumpleaños</strong>”, la fecha de nacimiento del dependiente que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Cumpleaños Dependiente" src="../../../../_images/nacidepen.png" /></p>
+<p>Imagen 117. Campo Cumpleaños Dependiente</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Genero</strong>”, el genero del dependiente que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Genero Dependiente" src="../../../../_images/genedepen.png" /></p>
+<p>Imagen 118. Campo Genero</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Profesión</strong>”, la profesión del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.</p>
+<blockquote>
+<div><p><img alt="Campo Profesión Dependiente" src="../../../../_images/profedepen.png" /></p>
+<p>Imagen 119. Campo Profesión</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Identificador de la Carrera</strong>”, la carrera del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.</p>
+<blockquote>
+<div><p><img alt="Campo Identificador de la Carrera Dependiente" src="../../../../_images/idencadepen.png" /></p>
+<p>Imagen 120. Campo Identificador de la Carrera</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grado Académico</strong>”, el grado académico del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.</p>
+<blockquote>
+<div><p><img alt="Campo Grado Académico3" src="../../../../_images/gradoacadepen.png" /></p>
+<p>Imagen 121. Campo Grado Académico</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grado</strong>”, el grado de instrucción del dependiente que esta registrando. Esta opción no es obligatoria, debe ser seleccionada si el dependiente posee cualquiera de las opciones que contiene este campo.</p>
+<blockquote>
+<div><p><img alt="Campo Grado Dependiente" src="../../../../_images/gradodepen.png" /></p>
+<p>Imagen 122. Campo Grado Dependiente</p>
+</div></blockquote>
+<p>Tilde el checklist “<strong>Estudiante Activo</strong>”, si el dependiente que esta registrando se encuentra cursando estudios en la actualidad. Esta opción no es obligatoria, debe ser seleccionada solo si el dependiente se encuentra estudiando.</p>
+<blockquote>
+<div><p><img alt="Checklist Estudiante Activo" src="../../../../_images/estudepen.png" /></p>
+<p>Imagen 123. Checklist Estudiante Activo</p>
+</div></blockquote>
+<p>Tilde el checklist “<strong>Becado</strong>”, si el dependiente que esta registrando se encuentra becado. Esta opción no es obligatoria, debe ser seleccionada solo si el dependiente se encuentra becado.</p>
+<blockquote>
+<div><p><img alt="Checklist Becado" src="../../../../_images/becadepen.png" /></p>
+<p>Imagen 124. Checklist Becado</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana empleado (todos).</p>
+</div>
+</div>
+<div class="section" id="pestana-localizacion">
+<h2><strong>Pestaña Localización</strong><a class="headerlink" href="#pestana-localizacion" title="Permalink to this headline">¶</a></h2>
+<p>La localización de un socio del negocio es muy importante para una empresa por diferentes motivos. Si el socio del negocio es un empleado de la misma, se deben registrar con exactitud los datos de la dirección por alguna situación fuera de control como una emergencia o otro suceso capaz de afectar el funcionamiento cotidiano de la empresa, así como también, el rendimiento del empleado en la misma.</p>
+<p>Seleccione la pestaña “<strong>Localización</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Pestaña Localización" src="../../../../_images/localizacion1.png" /></p>
+<p>Imagen 125. Pestaña Localización</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Contacto</strong>”, el tipo de contacto de la localización a registrar para el socio del negocio empleado. Para ejemplificar el registro es utilizada la opción “<strong>Primaria</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Contrato" src="../../../../_images/tipocontacto.png" /></p>
+<p>Imagen 126. Campo Tipo de Contrato</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>En esta pestaña el campo “<strong>Tipo de Contacto</strong>” posee dos opciones, la opción “<strong>Primaria</strong>” se utiliza para registrar la dirección principal del socio del negocio empleado que esta registrando, esta opción también es utilizada para registrar la dirección de residencia o hospedaje temporal del empleado cuando el mismo posee otra dirección fija. En el caso de la dirección fija, la misma es registrada con la opción “<strong>Emergencia</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Persona de Contacto</strong>”, el nombre de la persona de contacto de la localización a registrar para el socio del negocio empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Persona de Contacto" src="../../../../_images/perconta.png" /></p>
+<p>Imagen 127. Campo Persona de Contacto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Localización / Dirección</strong>” con ayuda del identificador, la localización referente al tipo de contacto seleccionado.</p>
+<blockquote>
+<div><p><img alt="Campo Localización / Dirección" src="../../../../_images/locadirec.png" /></p>
+<p>Imagen 128. Campo Localización / Dirección</p>
+<p>Seleccione en el campo “<strong>País</strong>”, el país donde se encuentra domiciliado el socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo País Localización" src="../../../../_images/pais1.png" /></p>
+<p>Imagen 129. Campo País Localización</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Estado</strong>”, el estado donde se encuentra domiciliado el socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Estado Localización" src="../../../../_images/estado1.png" /></p>
+<p>Imagen 130. Campo Estado Localización</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Ciudad</strong>”, la ciudad donde se encuentra domiciliado el socio del negocio que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Ciudad Localización" src="../../../../_images/ciudad1.png" /></p>
+<p>Imagen 131. Campo Ciudad Localización</p>
+</div></blockquote>
+<p>Introduzca la dirección detallada del socio del negocio empleado en el campo “<strong>Dirección 1</strong>” y seleccione la opción “<strong>OK</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Dirección 1 Localización" src="../../../../_images/direccionlocali.png" /></p>
+<p>Imagen 132. Campo Dirección 1 Localización</p>
+</div></blockquote>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Teléfono</strong>”, el número de teléfono local de la dirección seleccionada.</p>
+<blockquote>
+<div><p><img alt="Campo Teléfono Localización" src="../../../../_images/telelocal1.png" /></p>
+<p>Imagen 133. Campo Teléfono</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Teléfono Móvil</strong>”, el número de teléfono móvil de la persona de contacto.</p>
+<blockquote>
+<div><p><img alt="Campo Teléfono Móvil Localización" src="../../../../_images/telemovil1.png" /></p>
+<p>Imagen 134. Campo Teléfono Móvil</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Teléfono Móvil</strong>”, el número de teléfono móvil alternativo de la persona de contacto.</p>
+<blockquote>
+<div><p><img alt="Campo Teléfono Móvil Alternativo" src="../../../../_images/telefmovil.png" /></p>
+<p>Imagen 135. Campo Teléfono Móvil Alternativo</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Fax</strong>”, el fax de la persona de contacto.</p>
+<blockquote>
+<div><p><img alt="Campo Fax Localización" src="../../../../_images/fax1.png" /></p>
+<p>Imagen 136. Campo Fax Localización</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Email</strong>”, el email de la persona de contacto.</p>
+<blockquote>
+<div><p><img alt="Campo Email Localización" src="../../../../_images/email1.png" /></p>
+<p>Imagen 137. Campo Email Localización</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>” en la barra de herramientas de ADempiere, para guardar los cambios realizados en la pestaña “<strong>Localización</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios4" src="../../../../_images/guardarloca.png" /></p>
+<p>Imagen 138. Icono Guardar Cambios</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Si el empleado posee otra dirección de localización para registrar, seleccione el icono “<strong>Registro Nuevo</strong>” en la barra de herramientas de ADempiere en la pestaña “<strong>Localización</strong>” y proceda al llenado de los campos explicados anteriormente.</p>
+</div>
+</div>
+<div class="section" id="pestana-detalle-de-seguro">
+<h2><strong>Pestaña Detalle de Seguro</strong><a class="headerlink" href="#pestana-detalle-de-seguro" title="Permalink to this headline">¶</a></h2>
+<p>En esta pestaña se registra toda la información del socio del negocio empleado, con respecto a los diferentes seguros que pueda tener. En la misma se detallan los montos de cobertura, el saldo disponible del seguro y otros detalles de igual importancia.</p>
+<p>Seleccione la pestaña “<strong>Detalle de Seguro</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Pestaña Detalle de Seguro" src="../../../../_images/pestdetalleseg.png" /></p>
+<p>Imagen 139. Pestaña Detalle de Seguro</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Identificador del Tipo de Seguro</strong>”, el tipo de seguro que esta registrando al socio del negocio empleado. Para ejemplificar el registro es utilizado el tipo de seguro “<strong>Seguro de Salud o Enfermedad_SS-100005</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Identificador del Tipo de Seguro" src="../../../../_images/tiposeguro.png" /></p>
+<p>Imagen 140. Campo Identificador del Tipo de Seguro</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Período Nómina</strong>”, el período de la nómina. Para ejemplificar el registro es utilizado el período de nómina “<strong>01/10/2019 Hacia 31/10/2019</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Período Nómina" src="../../../../_images/periseguro.png" /></p>
+<p>Imagen 141. Campo Período Nómina</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Plan de Seguro</strong>”, el plan de seguro que esta registrando al socio del negocio empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Plan de Seguro" src="../../../../_images/planseguro.png" /></p>
+<p>Imagen 142. Campo Plan de Seguro</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Referencia</strong>”, la referencia del seguro que esta registrando al socio del negocio empleado. Para ejemplificar el registro es utilizada la cédula del socio del negocio empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Referencia" src="../../../../_images/refereseguro.png" /></p>
+<p>Imagen 143. Campo Referencia</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Último Pago</strong>”, la fecha del último pago realizado al seguro.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha Último Pago" src="../../../../_images/upagoseguro.png" /></p>
+<p>Imagen 144. Campo Fecha Último Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Frecuencia de Pago</strong>”, la frecuencia establecida para pagar el seguro.</p>
+<blockquote>
+<div><p><img alt="Campo Frecuencia de Pago" src="../../../../_images/frecuseguro.png" /></p>
+<p>Imagen 145. Campo Frecuencia de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Última Fecha de Prima</strong>”, la última fecha de pago de la prima.</p>
+<blockquote>
+<div><p><img alt="Campo Última Fecha de Prima" src="../../../../_images/primaseguro.png" /></p>
+<p>Imagen 146. Campo Última Fecha de Prima</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre del Asegurador</strong>”, el nombre de la empresa que ofrece el seguro.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre del Asegurador" src="../../../../_images/nombreseguro.png" /></p>
+<p>Imagen 147. Campo Nombre del Asegurador</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de Pago</strong>”, la proxima fecha establecida para pagar el seguro.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Pago" src="../../../../_images/pagoseguro.png" /></p>
+<p>Imagen 148. Campo Fecha de Pago</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción del registro del seguro.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción3" src="../../../../_images/descseguro.png" /></p>
+<p>Imagen 149. Campo Descripción</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Monto de Prima</strong>”, el monto establecido para pagar frecuentemente. El valor de este campo varía según el asegurador y el contrato de seguro.</p>
+<blockquote>
+<div><p><img alt="Campo Monto de Prima" src="../../../../_images/montoseguro.png" /></p>
+<p>Imagen 150. Campo Monto de Prima</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Cantidad de Cobertura</strong>”, el monto total establecido por el seguro para la disposición del empleado cuando lo necesite. El valor de este campo varía según el asegurador y el contrato de seguro.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad de Cobertura" src="../../../../_images/cantiseguro.png" /></p>
+<p>Imagen 151. Campo Cantidad de Cobertura</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Cantidad Reclamada</strong>”, el monto total utilizado por el empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad Reclamada" src="../../../../_images/reclaseguro.png" /></p>
+<p>Imagen 152. Campo Cantidad Reclamada</p>
+</div></blockquote>
+<p>Podrá apreciar en el campo “<strong>Saldo de Cuenta</strong>”, el monto total restante para la disposición del empleado cuando lo necesite. El valor de este campo es el resultante de la resta entre el valor del campo “<strong>Cantidad de Cobertura</strong>” y el valor del campo “<strong>Cantidad Reclamada</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Saldo de Cuenta" src="../../../../_images/saldoseguro.png" /></p>
+<p>Imagen 153. Campo Saldo de Cuenta</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>” en la barra de herramientas de ADempiere para guardar el registro de la pestaña.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios5" src="../../../../_images/guardarseguro.png" /></p>
+<p>Imagen 154. Icono Guardar Cambios</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Si el empleado posee otro seguro para registrar, seleccione el icono “<strong>Registro Nuevo</strong>” en la barra de herramientas de ADempiere en la pestaña “<strong>Detalle de Seguro</strong>” y proceda al llenado de los campos explicados anteriormente.</p>
+</div>
+</div>
+<div class="section" id="pestana-detalle-de-permiso">
+<h2><strong>Pestaña Detalle de Permiso</strong><a class="headerlink" href="#pestana-detalle-de-permiso" title="Permalink to this headline">¶</a></h2>
+<p>En esta pestaña se registran los diferentes permisos solicitados por el socio del negocio empleado, así como las suspenciones del mismo. En cada registro de permiso o suspención se detallan los días exactos para cada uno.</p>
+<p>Seleccione la pestaña “<strong>Detalle de Permiso</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Pestaña Detalle de Permiso" src="../../../../_images/pestpermiso.png" /></p>
+<p>Imagen 155. Pestaña Detalle de Permiso</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Permiso</strong>”, el tipo de permiso solicitado por el socio del negocio empleado. Para ejemplificar el registro es utilizada la opción “<strong>Permiso por Paternidad_PPAT</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Permiso" src="../../../../_images/tipopermiso.png" /></p>
+<p>Imagen 156. Campo Tipo de Permiso</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Desde</strong>”, la fecha de inicio del permiso solicitado por el socio del negocio empleado. Para ejemplificar el registro es utilizada la fecha “<strong>24/10/2019</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Válido Desde Permiso" src="../../../../_images/desdepermiso.png" /></p>
+<p>Imagen 157. Campo Válido Desde</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Hasta</strong>”, la fecha de culminación del permiso solicitado por el socio del negocio empleado. Para ejemplificar el registro es utilizada la fecha “<strong>06/11/2019</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Válido Hasta Permiso" src="../../../../_images/hastapermiso.png" /></p>
+<p>Imagen 158. Campo Válido Hasta</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Número de Permisos Asignados</strong>”, el número de permisos asignados al socio del negocio empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Número de Permisos Asignados" src="../../../../_images/numpermiso.png" /></p>
+<p>Imagen 159. Campo Número de Permisos Asignados</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Al seleccionar un tipo de permiso, el campo “<strong>Numero de Permisos Asignados</strong>” toma el valor “<strong>1</strong>” indicando que se esta asignando un permiso al empleado. Los campos “<strong>Total de Permisos</strong>” y “<strong>Balance</strong>”, toman automáticamente dicho valor.</p>
+<p>De igual manera, los campos “<strong>Permisos Usados</strong>” y “<strong>Última Fecha de Ejecución</strong>” se definen como campos de sólo lectura y toman los valores desde la ventana “<strong>Solicitud del Permiso</strong>”.</p>
+<ul class="simple">
+<li><p><strong>Permisos Usados</strong>: Toma el valor “<strong>1</strong>” al completar el documento de la ventana “<strong>Solicitud del Permiso</strong>”.</p></li>
+<li><p>“<strong>Última Fecha de Ejecución</strong>”: Toma el valor ingresado en el campo “<strong>Válido Desde</strong>”, de la ventana correspondiente al proceso “<strong>Crear Permisos</strong>”, ubicado en la pestaña “<strong>Detalle de Permiso</strong>”.</p></li>
+</ul>
+</div>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, para guardar el registro de la pestaña “<strong>Detalle de Permiso</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios6" src="../../../../_images/guardarpermiso.png" /></p>
+<p>Imagen 160. Icono Guardar Cambios</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Este procedimiento realizado aplica solo para los <strong>Socios del Negocio</strong> que cumplan el rol de <strong>Empleado</strong> en una compañía.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../product/index.html" class="btn btn-neutral float-right" title="Producto" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Empleado" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

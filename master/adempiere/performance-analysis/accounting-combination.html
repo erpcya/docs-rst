@@ -1,0 +1,386 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Combinación Contable &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Conversión Monetaria" href="currency-conversion/index.html" />
+    <link rel="prev" title="Dimensiones Contables" href="accounting-dimensions.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión Contable</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="type-of-application.html"><strong>Tipo de Aplicación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting-element/index.html"><strong>Elemento Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="opening-accounting-period.html"><strong>Apertura de Período Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="unposted-documents.html"><strong>Documentos sin Aplicar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting-dimensions.html"><strong>Dimensiones Contables</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Combinación Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="currency-conversion/index.html"><strong>Conversión Monetaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="gl-distribution/index.html"><strong>Distribución Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting-setup-master/index.html"><strong>Configuración Contable (Maestros)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transaction-accounting/index.html"><strong>Contabilidad de Transacciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="costing/index.html"><strong>Gestión de Costos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="gl-journal-batch/index.html"><strong>Diario Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting-reports/index.html"><strong>Reportes Contables</strong></a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión Contable</strong></a> &raquo;</li>
+        
+      <li><strong>Combinación Contable</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/performance-analysis/accounting-combination.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="combinacion-contable">
+<span id="documento-combinacion-contable"></span><h1><strong>Combinación Contable</strong><a class="headerlink" href="#combinacion-contable" title="Permalink to this headline">¶</a></h1>
+<p>Para realizar una configuración de combinación contable en ADempiere, se debe ingresar a la ventana a la cual se le va a configurar la combinación contable, siguiendo el procedimiento detallado a continuación.</p>
+<p>Una vez ubicado en la ventana “<strong>Combinación</strong>”, proceda al llenado de los campos correspondientes para definir la combinación contable.</p>
+<blockquote>
+<div><p><img alt="Ventana Combinación" src="../../_images/combination-window.png" /></p>
+<p>Imagen 1. Ventana Combinación</p>
+<p>Seleccione en el campo “<strong>Alias</strong>”, el alias correspondiente a la combinación contable que está configurando.</p>
+<blockquote>
+<div><p>El alias no es un campo obligatorio, sin embargo, le permite definir un nombre a la combinación que define, por defecto ADempiere crea un alias.</p>
+<p><img alt="Campo Alias" src="../../_images/alias-field-of-combination-window.png" /></p>
+<p>Imagen 2. Campo Alias de la Ventana Combinación</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>, la organización para la cual está realizando la configuración contable.</p>
+<blockquote>
+<div><p>La organización puede ser o no obligatorio dependiendo de la definición del cliente, es decir, un cliente puede definir como obligatoria la organización, para este caso el registro de la combinación no podrá ser guardada si no selecciona una organización.</p>
+<p>De esta forma, permite dimensionar el asiento contable por organización, para entender un poco más este tema vaya al documento: <a class="reference internal" href="accounting-dimensions.html#documento-dimensiones-contable"><span class="std std-ref">Dimensiones Contables</span></a>.</p>
+<p><img alt="Campo Organización" src="../../_images/combination-window-organization-field.png" /></p>
+<p>Imagen 3. Campo Organización de la Ventana Combinación</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Actividad</strong>”, la actividad para la cual está realizando la configuración contable.</p>
+<blockquote>
+<div><p>La actividad puede ser o no obligatoria dependiendo de la definición del cliente, es decir, un cliente puede definir como obligatoria la actividad, para este caso el registro de la combinación no podrá ser guardado si no selecciona una actividad.</p>
+<p>De esta forma, permite dimensionar el asiento contable por actividad, para entender un poco más este tema vaya al documento: <a class="reference internal" href="accounting-dimensions.html#documento-dimensiones-contable"><span class="std std-ref">Dimensiones Contables</span></a>.</p>
+<p><img alt="Campo Actividad" src="../../_images/combination-window-activity-field.png" /></p>
+<p>Imagen 4. Campo Actividad de la Ventana Combinación</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio para el cual está realizando la configuración contable.</p>
+<blockquote>
+<div><p>El socio de negocio puede ser o no obligatoria dependiendo de la definición del cliente, es decir, un cliente puede definir como obligatorio un socio de negocio, para este caso el registro de la combinación no podrá ser guardado si no selecciona un socio de negocio.</p>
+<p>De esta forma, permite dimensionar el asiento contable por socio de negocio, para entender un poco más este tema vaya al documento: <a class="reference internal" href="accounting-dimensions.html#documento-dimensiones-contable"><span class="std std-ref">Dimensiones Contables</span></a>.</p>
+<p><img alt="Campo Socio del Negocio" src="../../_images/business-partner-field-of-combination-window.png" /></p>
+<p>Imagen 5. Campo Socio del Negocio de la Ventana Combinación</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Combinación</strong>”, el nombre de la combinación contable que está configurando.</p>
+<blockquote>
+<div><p>La combinación no es un campo obligatorio, sin embargo, le permite definir un nombre a la combinación que define, por defecto ADempiere crea un nombre.</p>
+<p><img alt="Campo Combinación" src="../../_images/combination-field-of-combination-window.png" /></p>
+<p>Imagen 6. Campo Combinación de la Ventana Combinación</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Este campo no es obligatorio, ya que al agregar la cuenta y</p>
+</div>
+</div></blockquote>
+<p>Seleccione con ayuda del identificador del campo “<strong>Cuenta</strong>”, la cuenta en la cual se van a reflejar los movimientos que se van a realizar.</p>
+<blockquote>
+<div><p>La cuenta es un campo obligatorio, y le permite seleccionar la cuenta en la cual será registrado el hecho contable.</p>
+<p><img alt="Campo Cuenta" src="../../_images/combination-window-account-field.png" /></p>
+<p>Imagen 7. Campo Cuenta de la Ventana Combinación</p>
+<blockquote>
+<div><p>Seleccione la cuenta en la que se desea hacer el movimiento y la opción “<strong>OK</strong>” para cargar la convinación de la misma a la ventana “<strong>Combinación</strong>”.</p>
+<blockquote>
+<div><p><img alt="Selección de Cuenta y Opción Ok" src="../../_images/account-selection-and-option-ok.png" /></p>
+<p>Imagen 8. Selección de Cuenta y Opción Ok</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Centro de Costos</strong>”, el centro de costos definido para los movimientos que se van a realizar en la cuenta seleccionada.</p>
+<blockquote>
+<div><p>El centro de costo puede ser o no obligatoria dependiendo de la definición del cliente, es decir, un cliente puede definir como obligatorio un centro de costo, para este caso el registro de la combinación no podrá ser guardado si no selecciona un centro de costo.</p>
+<p>De esta forma, permite dimensionar el asiento contable por centro de costo, para entender un poco más este tema vaya al documento: <a class="reference internal" href="accounting-dimensions.html#documento-dimensiones-contable"><span class="std std-ref">Dimensiones Contables</span></a>.</p>
+<p><img alt="Campo Centro de Costos" src="../../_images/combination-window-cost-center-field.png" /></p>
+<p>Imagen 9. Campo Centro de Costos de la Ventana Combinación</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto al cual le será aplicado la combinación contable que está configurando.</p>
+<blockquote>
+<div><p>El producto puede ser o no obligatoria dependiendo de la definición del cliente, es decir, un cliente puede definir como obligatorio un producto, para este caso el registro de la combinación no podrá ser guardado si no selecciona un producto.</p>
+<p>De esta forma, permite dimensionar el asiento contable por producto, para entender un poco más este tema vaya al documento: <a class="reference internal" href="accounting-dimensions.html#documento-dimensiones-contable"><span class="std std-ref">Dimensiones Contables</span></a>.</p>
+<p><img alt="Campo Producto" src="../../_images/combination-window-product-field.png" /></p>
+<p>Imagen 10. Campo Producto de la Ventana Combinación</p>
+<p>Seleccione el icono “<strong>Guardar</strong>”, ubicado del lado derecho de la ventana “<strong>Combinación</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar" src="../../_images/combination-window-save-icon.png" /></p>
+<p>Imagen 11. Icono Guardar de la Ventana Combinación</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para cargar a la ventana “<strong>Diario Contable</strong>”, la información ingresada en la ventana “<strong>Combinación</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción OK" src="../../_images/combination-window-ok-option.png" /></p>
+<p>Imagen 12. Opción OK de la Ventana Combinación</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="currency-conversion/index.html" class="btn btn-neutral float-right" title="Conversión Monetaria" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="accounting-dimensions.html" class="btn btn-neutral float-left" title="Dimensiones Contables" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

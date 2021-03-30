@@ -1,0 +1,704 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Banco Occidental de Descuento &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../../" src="../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../_static/jquery.js"></script>
+        <script src="../../../../../_static/underscore.js"></script>
+        <script src="../../../../../_static/doctools.js"></script>
+        <script src="../../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Banco Exterior" href="../exterior/exterior.html" />
+    <link rel="prev" title="Banco Fondo Común" href="../bfc/bfc.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html"><strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../human-resources/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../payroll/index.html"><strong>Gestión de Nóminas</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html"><strong>Gestión de Tesorería</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../batch-payments.html"><strong>Extracto Bancario con Pagos en Lotes</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../batch-payments.html#configuracion-esencial"><strong>Configuración Esencial</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../batch-payments.html#generacion-de-archivo"><strong>Generación de Archivo</strong></a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../batch-payments.html#resultado-obtenido"><strong>Resultado Obtenido</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../import/index.html"><strong>Gestión de Importación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../withholding-management/index.html"><strong>Gestión de Retenciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><strong>Gestión de Tesorería</strong></a> &raquo;</li>
+        
+          <li><a href="../batch-payments.html"><strong>Extracto Bancario con Pagos en Lotes</strong></a> &raquo;</li>
+        
+      <li><strong>Banco Occidental de Descuento</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../../_sources/lve/procedures/treasury-management/upload-bank-statement-to-bank/bod/bod.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="banco-occidental-de-descuento">
+<span id="documento-banco-bod"></span><h1><strong>Banco Occidental de Descuento</strong><a class="headerlink" href="#banco-occidental-de-descuento" title="Permalink to this headline">¶</a></h1>
+<p>Para la exportación de los archivos desde ADempiere al banco occidental de descuento, <a class="reference external" href="http://erpya.com">ERPyA</a> soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento <a class="reference download internal" download="" href="../../../../../_downloads/dc3867b3a040072f381a71ec909a1823/Formato_Pagos_BOD.xlsx"><code class="xref download docutils literal notranslate"><span class="pre">Formato</span> <span class="pre">Archivo</span> <span class="pre">Ordenes</span> <span class="pre">de</span> <span class="pre">Pago</span></code></a>, explica el formato que sirve de ayuda para la construcción el archivo a cargar.</p>
+<p>Adicional a ello, se puede visualizar dicho documento de la siguiente manera, luego de descargarlo.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 1%" />
+<col style="width: 16%" />
+<col style="width: 6%" />
+<col style="width: 4%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 49%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"></th>
+<th class="head"><p><strong>Nombre del Campo</strong></p></th>
+<th class="head"><p><strong>Longitud</strong></p></th>
+<th class="head"><p><strong>Tipo</strong></p></th>
+<th class="head"><p><strong>Decima</strong></p></th>
+<th class="head"><p><strong>Requerido</strong></p></th>
+<th class="head"><p><strong>Descripción/Valor</strong></p></th>
+<th class="head"><p><strong>Ejemplo</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td colspan="8"><p><strong>Registro de encabezado o header TIPO = 01. Longitud 250</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>TIPO DE REGISTRO</p></td>
+<td><p>2</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Identificación el encabezado del lote</p></td>
+<td><p>01</p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>DESCRIPCION LOTE</p></td>
+<td><p>20</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Debe decir: “Proveedores” o “Nomina”</p></td>
+<td><p>PROVEEDORES</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>TIPO PERSONA (Ordenante)</p></td>
+<td><p>1</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Calificador (V-Venezolano,E-Extranjero ó P-Pasaporte) Para el caso de RIF: Calificador (J-Juridico, G-Gobierno)</p></td>
+<td rowspan="2"><p>V000000000</p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>NUMERO RIF/CI (Ordenante)</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Número RIF/CI</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>NÚMERO DE CONTRATO</p></td>
+<td><p>17</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Número de la negociación</p></td>
+<td><p>00000000000000116</p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>NÚMERO DE LOTE / REFERENCIA DEBITO</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Número del Lote. Referencia del débito. Será utilizada en el esatdo de cuenta (modaldiad 1:n)</p></td>
+<td><p>001000038</p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>FECHA DE ENVÍO</p></td>
+<td><p>8</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Fecha de envío del lote. Debe estar en formato yyyymmdd</p></td>
+<td><p>20201012</p></td>
+</tr>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>CANTIDAD DE OPERACIONES</p></td>
+<td><p>6</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Cantidad de pagos en el lote (regsitros de detalle)</p></td>
+<td><p>000004</p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>MONTO TOTAL</p></td>
+<td><p>17</p></td>
+<td><p>N</p></td>
+<td><p>2</p></td>
+<td><p>SI</p></td>
+<td><p>Monto total del lote de pagos (Incluye los decimales sin separador). Monto en el ejemplo: 18.500.000,00</p></td>
+<td><p>00000001850000000</p></td>
+</tr>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>MONEDA</p></td>
+<td><p>3</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Moneda actual disponible Bs.</p></td>
+<td><p>VES</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>FILLER</p></td>
+<td><p>158</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Uso futuro</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td colspan="8"><p><strong>Registro de Detalle por cada pago en lote TIPO=02. Longitud 250</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>TIPO REGISTRO</p></td>
+<td><p>2</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Identificación de detalle. Pueden haber tantos registros de detalle como pagos se requieran en el lote.</p></td>
+<td><p>02</p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>TIPO PERSONA (Beneficiario)</p></td>
+<td><p>1</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Calificador (V-Venezolano,E-Extranjero ó P-Pasaporte)  Para el caso de RIF: Calificador (J-Juridico, G-Gobierno)</p></td>
+<td rowspan="2"><p>V000000000, G200003030,</p>
+<p>J297599070, J002443731</p>
+</td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>NUMERO RIF/CI (Beneficiario)</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Número RIF/CI</p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>NOMBRE DEL BENEFICIARIO</p></td>
+<td><p>60</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Nombre del beneficiario del crédito. Obligatorio cuando el beneficiario no está registrado o si la modalidad de
+pago es CHQ o EFE</p></td>
+<td><p>Proveedor Estndar, Servicio
+Nacional Integrado de
+Administracin (SENIAT),
+Bolivariana de Puertos
+( Bolipuertos)  S A,
+Dhl Express Aduanas
+Venezuela CA</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>REFERENCIA DE LA OPERACIÓN</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>NO</p></td>
+<td><p>Número de referencia del crédito a ser utilizada en el estado de cuenta (modalidad 1:1)</p></td>
+<td><p>000000000, 000000001,
+000000002, 000000003</p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>DESCRIPCION OPERACIÓN</p></td>
+<td><p>30</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>NO</p></td>
+<td><p>Descripción de la Operación</p></td>
+<td><p>10001621000163
+1000166
+1000165
+1000164</p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>MODALIDAD DE PAGO</p></td>
+<td><p>3</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Valores: CTA Cuenta mismo bancos - BAN cuenta otro bancos - CHQ Cheque de Gerencia - EFE Efectivo - TAR  TC
+Visa / Master Otros bancos - AME TC American Express-  V/M TC Visa / Master mismo Banco,  si el beneficiario no
+está registrado</p></td>
+<td><p>CTA, BAN, BAN, BAN</p></td>
+</tr>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>NUMERO DE CUENTA ó TARJETA DE CRÉDITO</p></td>
+<td><p>20</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Numero de la cuenta a acreditar. Obligatorio para Abono en cuenta mismo banco, otros bancos y tarjetas de
+crédito, si el beneficiario no está registrado</p></td>
+<td><p>01160000000000000000,
+01340000000000000000,
+01340000000000000000,
+01740000000000000000</p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>CODIGO DE BANCO</p></td>
+<td><p>4</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Código del Banco.</p></td>
+<td><p>0116, 0134, 0134 0174</p></td>
+</tr>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>FECHA VALOR</p></td>
+<td><p>8</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Fecha de pago. Debe estar en formato yyyymmdd</p></td>
+<td><p>20201012</p></td>
+</tr>
+<tr class="row-odd"><td><p>11</p></td>
+<td><p>MONTO</p></td>
+<td><p>15</p></td>
+<td><p>N</p></td>
+<td><p>2</p></td>
+<td><p>SI</p></td>
+<td><p>Monto del pago. Incluye los decimales. Monto expresado en ejemplo: Bs. 14.000,75</p></td>
+<td><p>000000400000000,
+000000600000000,
+000000500000000,
+000000350000000</p></td>
+</tr>
+<tr class="row-even"><td><p>12</p></td>
+<td><p>MONEDA</p></td>
+<td><p>3</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>SI</p></td>
+<td><p>Moneda actual disponible Bs.</p></td>
+<td><p>VES</p></td>
+</tr>
+<tr class="row-odd"><td><p>13</p></td>
+<td><p>IMPUESTO RETENIDO</p></td>
+<td><p>15</p></td>
+<td><p>N</p></td>
+<td><p>2</p></td>
+<td><p>NO</p></td>
+<td><p>Monto del impuesto retenido en el documento asociado al pago Bs. 1.680,09</p></td>
+<td><p>000000000000000</p></td>
+</tr>
+<tr class="row-even"><td><p>14</p></td>
+<td><p>EMAIL</p></td>
+<td><p>40</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>NO</p></td>
+<td><p>Dirección email del beneficiario</p></td>
+<td><p><a class="reference external" href="mailto:estandar&#37;&#52;&#48;ejmplo&#46;com">estandar<span>&#64;</span>ejmplo<span>&#46;</span>com</a>,
+<a class="reference external" href="mailto:seniat&#37;&#52;&#48;ejemplo&#46;com">seniat<span>&#64;</span>ejemplo<span>&#46;</span>com</a>,
+<a class="reference external" href="mailto:bolipuertos&#37;&#52;&#48;ejemplo&#46;com">bolipuertos<span>&#64;</span>ejemplo<span>&#46;</span>com</a>,
+<a class="reference external" href="mailto:dhl&#37;&#52;&#48;ejemplo&#46;com">dhl<span>&#64;</span>ejemplo<span>&#46;</span>com</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>15</p></td>
+<td><p>CELULAR</p></td>
+<td><p>11</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>NO</p></td>
+<td><p>Teléfono celular para envío de SMS</p></td>
+<td><p>02550000000</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>FILLER</p></td>
+<td><p>20</p></td>
+<td></td>
+<td></td>
+<td><p>SI</p></td>
+<td><p>Uso futuro</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td colspan="8"><p><strong>Documentos asociados al pago TIPO=03 (Opcional)</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>IDENTIFICADOR REGISTRO</p></td>
+<td><p>2</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>NO</p></td>
+<td><p>Identificación de documentos. Puede haber mas de un (1) documento por cada pago</p></td>
+<td><p>03</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>NÚMERO DE FACTURA O DOCUMENTO</p></td>
+<td><p>20</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>NO</p></td>
+<td><p>Número o referencia del documento</p></td>
+<td><p>1000162, 1000163, 1000166,
+1000165, 1000164</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>MONTO FACTURA</p></td>
+<td><p>15</p></td>
+<td><p>A</p></td>
+<td><p>2</p></td>
+<td><p>NO</p></td>
+<td><p>Monto original del documento</p></td>
+<td><p>000000150000000,
+000000250000000,
+000000600000000,
+000000500000000,
+000000350000000</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>MONEDA</p></td>
+<td><p>3</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>NO</p></td>
+<td><p>Moneda actual disponible Bs.</p></td>
+<td><p>VES</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>FECHA FACTURA</p></td>
+<td><p>8</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>NO</p></td>
+<td><p>Fecha del documento / factura.   yyyy/mm/dd</p></td>
+<td><p>2020/10/12</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>IMPUESTO RETENIDO</p></td>
+<td><p>15</p></td>
+<td><p>N</p></td>
+<td><p>2</p></td>
+<td><p>NO</p></td>
+<td><p>Monto del impuesto retebido en la factura</p></td>
+<td><p>000000000000000</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>FILLER</p></td>
+<td><p>187</p></td>
+<td></td>
+<td></td>
+<td><p>SI</p></td>
+<td><p>Uso futuro</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="archivo-para-pagos">
+<h2><strong>Archivo para Pagos</strong><a class="headerlink" href="#archivo-para-pagos" title="Permalink to this headline">¶</a></h2>
+<p>Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:</p>
+<ul class="simple">
+<li><p>Factura “<strong>1000162</strong>” al socio del negocio “<strong>Estándar</strong>” por monto total de “<strong>1.500.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000163</strong>” al socio del negocio “<strong>Estándar</strong>” por monto total de “<strong>2.500.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000164</strong>” al socio del negocio “<strong>Dhl Express Aduanas Venezuela C.A.</strong>” por monto total de “<strong>3.500.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000165</strong>” al socio del negocio “<strong>Bolivariana de Puertos  ( Bolipuertos)  S A</strong>” por monto total de “<strong>5.000.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000166</strong>” al socio del negocio “<strong>Servicio Nacional Integrado de Administración (SENIAT)</strong>” por monto total de “<strong>6.000.000,00</strong>”.</p></li>
+</ul>
+<p>Se obtiene como resultado del proceso “<strong>Imprimir /Exportar</strong>”, un documento en formato “<strong>.txt</strong>” con los detalles de los pagos a ser realizados desde el banco bod a terceros en el mismo banco, así como también a terceros en otros bancos, el mismo se puede descargar en el enlace <a class="reference download internal" download="" href="../../../../../_downloads/1e2d5da7eff207d566fa80b2fca91d91/Banco_Occidental_de_Descuento_BU_CA_1000038.txt"><code class="xref download docutils literal notranslate"><span class="pre">Archivo</span> <span class="pre">de</span> <span class="pre">Pago</span> <span class="pre">de</span> <span class="pre">Proveedores</span> <span class="pre">del</span> <span class="pre">Banco</span> <span class="pre">Occidental</span> <span class="pre">de</span> <span class="pre">Descuento</span></code></a> y visualizar de la siguiente manera:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">01</span><span class="n">PROVEEDORES</span>         <span class="n">J000000000000000000000001160010000382020101200000400000001850000000VES</span>
+<span class="mi">02</span><span class="n">V000000000Proveedor</span> <span class="n">Estndar</span>                                           <span class="mi">00000000010001621000163</span>                <span class="n">BAN01510000000000000000015120201012000000400000000VES000000000000000estandar</span><span class="nd">@ejmplo</span><span class="o">.</span><span class="n">com</span>                     <span class="mi">02550000000</span>
+<span class="mi">031000162</span>             <span class="mi">000000150000000</span><span class="n">VES2020</span><span class="o">/</span><span class="mi">10</span><span class="o">/</span><span class="mi">12000000000000000</span>
+<span class="mi">031000163</span>             <span class="mi">000000250000000</span><span class="n">VES2020</span><span class="o">/</span><span class="mi">10</span><span class="o">/</span><span class="mi">12000000000000000</span>
+<span class="mi">02</span><span class="n">G200003030Servicio</span> <span class="n">Nacional</span> <span class="n">Integrado</span> <span class="n">de</span> <span class="n">Administracin</span> <span class="p">(</span><span class="n">SENIAT</span><span class="p">)</span>       <span class="mi">0000000011000166</span>                       <span class="n">BAN01340000000000000000013420201012000000600000000VES000000000000000seniat</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>
+<span class="mi">031000166</span>             <span class="mi">000000600000000</span><span class="n">VES2020</span><span class="o">/</span><span class="mi">10</span><span class="o">/</span><span class="mi">12000000000000000</span>
+<span class="mi">02</span><span class="n">J297599070Bolivariana</span> <span class="n">de</span> <span class="n">Puertos</span>  <span class="p">(</span> <span class="n">Bolipuertos</span><span class="p">)</span>  <span class="n">S</span> <span class="n">A</span>                 <span class="mi">0000000021000165</span>                       <span class="n">BAN01340000000000000000013420201012000000500000000VES000000000000000bolipuertos</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>
+<span class="mi">031000165</span>             <span class="mi">000000500000000</span><span class="n">VES2020</span><span class="o">/</span><span class="mi">10</span><span class="o">/</span><span class="mi">12000000000000000</span>
+<span class="mi">02</span><span class="n">J002443731Dhl</span> <span class="n">Express</span> <span class="n">Aduanas</span> <span class="n">Venezuela</span> <span class="n">CA</span>                            <span class="mi">0000000031000164</span>                       <span class="n">BAN01740000000000000000017420201012000000350000000VES000000000000000dhl</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>
+<span class="mi">031000164</span>             <span class="mi">000000350000000</span><span class="n">VES2020</span><span class="o">/</span><span class="mi">10</span><span class="o">/</span><span class="mi">12000000000000000</span>
+</pre></div>
+</div>
+<p><strong>Descripción del Archivo</strong></p>
+<p>La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento <a class="reference download internal" download="" href="../../../../../_downloads/dc3867b3a040072f381a71ec909a1823/Formato_Pagos_BOD.xlsx"><code class="xref download docutils literal notranslate"><span class="pre">Formato</span> <span class="pre">Archivo</span> <span class="pre">Ordenes</span> <span class="pre">de</span> <span class="pre">Pago</span></code></a>. De igual manera, se encuentra explicada en la tabla que contiene el presente documento, al inicio del mismo.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../exterior/exterior.html" class="btn btn-neutral float-right" title="Banco Exterior" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../bfc/bfc.html" class="btn btn-neutral float-left" title="Banco Fondo Común" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

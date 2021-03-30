@@ -1,0 +1,442 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Generar Pagos de Préstamo &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Generar Factura desde Préstamo" href="generate-invoice.html" />
+    <link rel="prev" title="Generar Selección de Pago" href="generate-payment-selection.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión de Préstamos e Inversiones</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="loan-requirements.html"><strong>Objetivo Principal y Sustentación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="loan-requirements.html#requerimientos"><strong>Requerimientos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="loan-running.html"><strong>Ejecución</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="loan.html"><strong>Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="loan.html#amortizacion"><strong>Amortización</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="loan.html#consulta-de-prestamo"><strong>Consulta de Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment-selection.html"><strong>Generar Selección de Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment-selection.html#interpretando-la-ventana"><strong>Interpretando la Ventana</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment-selection.html#seleccion-de-pago"><strong>Selección de Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment-selection.html#consulta-de-seleccion-de-pago-de-prestamo"><strong>Consulta de Selección de Pago de Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment-selection.html#ventana-seleccion-de-pago"><strong>Ventana Selección de Pago:</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment-selection.html#ventana-de-prestamo"><strong>Ventana de Préstamo:</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Generar Pagos de Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#consulta-de-pagos-de-prestamo"><strong>Consulta de Pagos de Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#pago-cobro"><strong>Pago/Cobro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#caja"><strong>Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#ventana-de-prestamo"><strong>Ventana de Préstamo:</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#contabilidad-del-proceso"><strong>Contabilidad del Proceso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-invoice.html"><strong>Generar Factura desde Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-invoice.html#interpretando-la-ventana"><strong>Interpretando la Ventana</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-invoice.html#id1"><strong>Generar Factura desde Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-invoice.html#consulta-de-factura-de-prestamo"><strong>Consulta de Factura de Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-invoice.html#contabilidad-del-proceso"><strong>Contabilidad del Proceso</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión de Préstamos e Inversiones</strong></a> &raquo;</li>
+        
+      <li><strong>Generar Pagos de Préstamo</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/loan-management/generate-payment.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="generar-pagos-de-prestamo">
+<span id="documento-generar-pagos"></span><h1><strong>Generar Pagos de Préstamo</strong><a class="headerlink" href="#generar-pagos-de-prestamo" title="Permalink to this headline">¶</a></h1>
+<p>Una vez generada la selección de pago, podrá generar los pagos de los préstamos (Desembolso), el pago generado como se explicó anteriormente, hereda el cargo seleccionado en la definición del producto financiero <strong>(Vea Configuración de Producto Financiero (Préstamo))</strong>.</p>
+<p>Vaya a la ventana de Imprimir/Exporta Pago (Adjunto Imagen)</p>
+<blockquote>
+<div><p><img alt="Menú de Pagos" src="../../_images/payment-menu.png" /></p>
+<p>Imagen 1. Menú de Pagos</p>
+</div></blockquote>
+<p>A continuación se desplegará la siguiente ventana (Adjunto Imagen)</p>
+<blockquote>
+<div><p><img alt="Imprimir y Exportar Pagos" src="../../_images/payment-pay-print.png" /></p>
+<p>Imagen 2. Imprimir y Exportar Pagos</p>
+</div></blockquote>
+<p>Ingrese la selección de pagos generada en la sección <a class="reference internal" href="generate-payment-selection.html#documento-generar-seleccion-pagos"><span class="std std-ref">Generar Selección de Pago</span></a>, seleccionando la opción de búsqueda <img alt="selección" src="../../_images/payment-pay-selection-find.png" /></p>
+<blockquote>
+<div><p><img alt="Búsqueda de Selección de Pagos" src="../../_images/payment-pay-print-find.png" /></p>
+<p>Imagen 3. Búsqueda de Selección de Pagos</p>
+</div></blockquote>
+<p>A continuación se desplegará la siguiente ventana (Adjunto Imagen)</p>
+<blockquote>
+<div><p><img alt="Búsqueda de Pagos" src="../../_images/payment-pay-print-search.png" /></p>
+<p>Imagen 4. Búsqueda de Pagos</p>
+</div></blockquote>
+<p>Seleccione la Selección de pago generada en la sección <a class="reference internal" href="generate-payment-selection.html#documento-generar-seleccion-pagos"><span class="std std-ref">Generar Selección de Pago</span></a></p>
+<blockquote>
+<div><p><img alt="Generar Selección de Pagos" src="../../_images/payment-generate-pay-selection.png" /></p>
+<p>Imagen 5. Generar Selección de Pagos</p>
+</div></blockquote>
+<p>Seleccione la opción imprimir <img alt="text" src="../../_images/payment-print.png" /></p>
+<blockquote>
+<div><p><img alt="Imprimir Pago" src="../../_images/payment-print-window.png" /></p>
+<p>Imagen 6. Imprimir Pago</p>
+</div></blockquote>
+<p>A continuación ADempiere habrá generado el pago y usted verá el siguiente reporte (Adjunto Imagen)</p>
+<blockquote>
+<div><p><img alt="Reporte de Impresión de Pago" src="../../_images/payment-print-report.png" /></p>
+<p>Imagen 7. Reporte de Impresión de Pago</p>
+</div></blockquote>
+</div>
+<div class="section" id="consulta-de-pagos-de-prestamo">
+<h1><strong>Consulta de Pagos de Préstamo</strong><a class="headerlink" href="#consulta-de-pagos-de-prestamo" title="Permalink to this headline">¶</a></h1>
+<p>Existen dos posibles formas de consultar los pagos generados asociadas a un préstamo, a continuación serán explicadas.</p>
+</div>
+<div class="section" id="pago-cobro">
+<h1><strong>Pago/Cobro</strong><a class="headerlink" href="#pago-cobro" title="Permalink to this headline">¶</a></h1>
+<p>Si el pago generado desde el proceso <a class="reference internal" href="generate-payment-selection.html#documento-generar-seleccion-pagos"><span class="std std-ref">Generar Selección de Pago</span></a> es generado con una cuenta bancaria podrá consultar con esta opción.</p>
+<p>Vaya a la ventana <strong>“Pago/Cobro”</strong> (Adjunto Imagen)</p>
+<blockquote>
+<div><p><img alt="Menú de Pago" src="../../_images/payment-payment-menu.png" /></p>
+<p>Imagen 8. Menú de Pago</p>
+</div></blockquote>
+<p>A continuación se desplegará la siguiente ventana (Adjunto Imagen).</p>
+<blockquote>
+<div><p><img alt="Ventana de Pago" src="../../_images/payment-window.png" /></p>
+<p>Imagen 9. Ventana de Pago</p>
+</div></blockquote>
+<p>Busque el registro desde la opción “<strong>Encontrar Registro</strong>” ubicada en la barra de herramientas.</p>
+<blockquote>
+<div><p><img alt="Búsqueda de Pago" src="../../_images/payment-window-search.png" /></p>
+<p>Imagen 10. Búsqueda de Pago</p>
+</div></blockquote>
+<p>A continuación se desplegará el siguiente dialogo</p>
+<blockquote>
+<div><p><img alt="Ventana de Búsqueda de Pago" src="../../_images/payment-search-dialog.png" /></p>
+<p>Imagen 11. Ventana de Búsqueda de Pago</p>
+</div></blockquote>
+<p>Ingrese el número de la selección generada en el proceso <a class="reference internal" href="generate-payment-selection.html#documento-generar-seleccion-pagos"><span class="std std-ref">Generar Selección de Pago</span></a></p>
+</div>
+<div class="section" id="caja">
+<h1><strong>Caja</strong><a class="headerlink" href="#caja" title="Permalink to this headline">¶</a></h1>
+<p>Si el pago generado desde el proceso <a class="reference internal" href="generate-payment-selection.html#documento-generar-seleccion-pagos"><span class="std std-ref">Generar Selección de Pago</span></a> es generado con una cuenta de caja podrá consultar con esta opción.</p>
+<p>Vaya a la ventana Caja (Adjunto Imagen)</p>
+<blockquote>
+<div><p><img alt="Menú de Caja" src="../../_images/payment-cash-menu.png" /></p>
+<p>Imagen 12. Menú de Caja</p>
+</div></blockquote>
+<p>A continuación se desplegará la siguiente ventana (Adjunto Imagen).</p>
+<blockquote>
+<div><p><img alt="Ventana de Caja" src="../../_images/payment-cash-window.png" /></p>
+<p>Imagen 13. Ventana de Caja</p>
+</div></blockquote>
+<p>Busque el registro desde la opción “<strong>Encontrar Registro</strong>” ubicada en la barra de herramientas.</p>
+<blockquote>
+<div><p><img alt="Ventana de Caja" src="../../_images/payment-cash-window.png" /></p>
+<p>Imagen 14. Ventana de Caja</p>
+</div></blockquote>
+<p>A continuación se desplegará el siguiente dialogo</p>
+<blockquote>
+<div><p><img alt="Búsqueda de Caja" src="../../_images/payment-search-dialog.png" /></p>
+<p>Imagen 15. Búsqueda de Caja</p>
+</div></blockquote>
+<p>Ingrese el número de la selección generada en el proceso <a class="reference internal" href="generate-payment-selection.html#documento-generar-seleccion-pagos"><span class="std std-ref">Generar Selección de Pago</span></a>.</p>
+</div>
+<div class="section" id="ventana-de-prestamo">
+<h1><strong>Ventana de Préstamo:</strong><a class="headerlink" href="#ventana-de-prestamo" title="Permalink to this headline">¶</a></h1>
+<p>Una vez en la ventana de Préstamo</p>
+<p>Vaya a la opción “<strong>Visualiza Detalle(Donde es Usado)</strong>” ubicada en la barra de herramientas.</p>
+<blockquote>
+<div><p><img alt="Búsqueda de Referencia de Préstamo" src="../../_images/payment-loan-search.png" /></p>
+<p>Imagen 16. Búsqueda de Referencia de Préstamo</p>
+</div></blockquote>
+<p>A continuación se desplegará el siguiente dialogo</p>
+<blockquote>
+<div><p><img alt="Referencia de Préstamo" src="../../_images/payment-loan-search-reference.png" /></p>
+<p>Imagen 17. Referencia de Préstamo</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Pagos de Préstamos</strong>”</p>
+<blockquote>
+<div><p><img alt="Referencia de Préstamo Seleccionada" src="../../_images/payment-loan-search-reference-selected.png" /></p>
+<p>Imagen 18. Referencia de Préstamo Seleccionada</p>
+</div></blockquote>
+<p>Esta opción lo llevará automáticamente a los pagos asociados a este préstamo.</p>
+</div>
+<div class="section" id="contabilidad-del-proceso">
+<h1><strong>Contabilidad del Proceso</strong><a class="headerlink" href="#contabilidad-del-proceso" title="Permalink to this headline">¶</a></h1>
+<p>ADempiere contabilizará el préstamo dependiendo de la contabilidad configurada en el cargo heredado desde la definición del producto financiero (<strong>Vea Configuración de Producto Financiero (Préstamo)</strong>).</p>
+<table><tr><td><p>Cuenta</p>
+</td><td><p>Débito Contabilizado</p>
+</td><td><p>Crédito Contabilizado</p>
+</td></tr><tr><td><p>12410 - Prestamos por Cobrar</p>
+</td><td><p style="text-align: right"><p>20.000,00</p>
+</p></td><td><p style="text-align: right"><p>0,00</p>
+</p></td></tr><tr><td><p>89900 - Cheques y Depósito en Circulación</p>
+</td><td><p style="text-align: right"><p>0,00</p>
+</p></td><td><p style="text-align: right"><p>20.000,00</p>
+</p></td></tr><tr><td><p>Total</p>
+</td><td><p style="text-align: right"><p>20.000,00</p>
+</p></td><td><p style="text-align: right"><p>20.000,00</p>
+</p></td></tr></table></div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="generate-invoice.html" class="btn btn-neutral float-right" title="Generar Factura desde Préstamo" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="generate-payment-selection.html" class="btn btn-neutral float-left" title="Generar Selección de Pago" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

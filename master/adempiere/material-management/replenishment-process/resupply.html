@@ -1,0 +1,564 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Proceso de Reabastecimiento &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Gestión de Asistencia al Agricultor" href="../../farmer-assistance-management/index.html" />
+    <link rel="prev" title="Reabastecimiento" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Materiales</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../inventory-move/index.html"><strong>Movimiento de Inventario</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../internal-use-inventory/index.html"><strong>Inventario de Uso Interno</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../physical-inventory/index.html"><strong>Inventario Físico</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ldm.html"><strong>Lista de Materiales</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Reabastecimiento</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Proceso de Reabastecimiento</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#configuracion-esencial"><strong>Configuración Esencial</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ejecucion-del-proceso"><strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#resultado-obtenido"><strong>Resultado Obtenido</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Materiales</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Reabastecimiento</strong></a> &raquo;</li>
+        
+      <li><strong>Proceso de Reabastecimiento</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/material-management/replenishment-process/resupply.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="proceso-de-reabastecimiento">
+<span id="documento-reabastecer-productos"></span><h1><strong>Proceso de Reabastecimiento</strong><a class="headerlink" href="#proceso-de-reabastecimiento" title="Permalink to this headline">¶</a></h1>
+<p>El proceso de reabastecimiento permite generar los respectivos documentos de movimiento de material, requisición, orden de compra, o de distribución, en estado “<strong>Borrador</strong>”. El comportamiento del proceso consta en el tipo de reabastecimiento seleccionado en la configuración del producto. ADempiere permite utilizar los siguientes tipos de reabastecimiento:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Mantener El Nivel Máximo</strong></p></li>
+<li><p><strong>Manual</strong></p></li>
+<li><p><strong>Personalizado</strong></p></li>
+<li><p><strong>Reordenar por debajo del nivel mínimo</strong></p></li>
+<li><p><strong>Plan de reabastecimiento calculado</strong></p></li>
+</ul>
+<p>Para simular el proceso de reabastecimiento, se presentan los siguientes datos como ejemplo:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 15%" />
+<col style="width: 9%" />
+<col style="width: 19%" />
+<col style="width: 3%" />
+<col style="width: 8%" />
+<col style="width: 8%" />
+<col style="width: 13%" />
+<col style="width: 11%" />
+<col style="width: 11%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Producto</strong></p></th>
+<th class="head"><p><strong>Almacén Fuente</strong></p></th>
+<th class="head"><p><strong>Tipo de Reabastecimiento</strong></p></th>
+<th class="head"><p><strong>UM</strong></p></th>
+<th class="head"><p><strong>Nivel Mínimo</strong></p></th>
+<th class="head"><p><strong>Nivel Máximo</strong></p></th>
+<th class="head"><p><strong>Cantidad en Existencia</strong></p></th>
+<th class="head"><p><strong>Cantidad a Ordenar</strong></p></th>
+<th class="head"><p><strong>Socio del Negocio</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>DOIS-000001_Estandar</p></td>
+<td></td>
+<td><p>Mantener El Nivel Máximo</p></td>
+<td><p>Unidad</p></td>
+<td><p>20</p></td>
+<td><p>40</p></td>
+<td><p>60</p></td>
+<td><p>0</p></td>
+<td rowspan="8"><p>Estándar</p></td>
+</tr>
+<tr class="row-odd"><td><p>ACAP-000003_Cable de Red</p></td>
+<td></td>
+<td><p>Mantener El Nivel Máximo</p></td>
+<td><p>Unidad</p></td>
+<td><p>20</p></td>
+<td><p>40</p></td>
+<td><p>41</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-even"><td><p>Estándar_Estándar</p></td>
+<td></td>
+<td><p>Mantener El Nivel Máximo</p></td>
+<td><p>Unidad</p></td>
+<td><p>20</p></td>
+<td><p>40</p></td>
+<td><p>35</p></td>
+<td><p>5</p></td>
+</tr>
+<tr class="row-odd"><td><p>DOIS-000005_Guante</p></td>
+<td></td>
+<td><p>Mantener El Nivel Máximo</p></td>
+<td><p>Unidad</p></td>
+<td><p>20</p></td>
+<td><p>40</p></td>
+<td><p>36</p></td>
+<td><p>4</p></td>
+</tr>
+<tr class="row-even"><td><p>INAR-000001_Hoja tamaño carta</p></td>
+<td></td>
+<td><p>Reordenar por debajo del nivel mínimo</p></td>
+<td><p>Unidad</p></td>
+<td><p>20</p></td>
+<td><p>40</p></td>
+<td><p>20</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td><p>INAR-000002_Bolígrafo</p></td>
+<td></td>
+<td><p>Reordenar por debajo del nivel mínimo</p></td>
+<td><p>Unidad</p></td>
+<td><p>20</p></td>
+<td><p>40</p></td>
+<td><p>5</p></td>
+<td><p>15</p></td>
+</tr>
+<tr class="row-even"><td><p>INAR-000003_Cuaderno</p></td>
+<td></td>
+<td><p>Reordenar por debajo del nivel mínimo</p></td>
+<td><p>Unidad</p></td>
+<td><p>20</p></td>
+<td><p>40</p></td>
+<td><p>25</p></td>
+<td><p>0</p></td>
+</tr>
+<tr class="row-odd"><td><p>INAR-000004_Marcador</p></td>
+<td></td>
+<td><p>Reordenar por debajo del nivel mínimo</p></td>
+<td><p>Unidad</p></td>
+<td><p>20</p></td>
+<td><p>40</p></td>
+<td><p>7</p></td>
+<td><p>13</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Para ejecutar correctamente el proceso de reabastecimiento de almacén, es necesario que se realicen los procedimientos que a continuación se explican.</p>
+<div class="section" id="configuracion-esencial">
+<h2><strong>Configuración Esencial</strong><a class="headerlink" href="#configuracion-esencial" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione la carpeta “<strong>Reglas de Gestión de Materiales</strong>”, por último seleccione la ventana “<strong>Producto</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de producto" src="../../../_images/product-menu.png" /></p>
+<p>Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Producto</strong>”, con todos los registros de los productos en ADempiere, en la cual debe ubicar el registro del producto involucrado en el proceso de reabastecimiento, para realizar la configuración esencial del mismo.</p>
+<blockquote>
+<div><p><img alt="producto a configurar" src="../../../_images/product-to-configure.png" /></p>
+<p>Imagen 2. Producto a Configurar</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Reabastecer</strong>”, ubicada del lado izquierdo de la ventana “<strong>Producto</strong>” y realice el procedimiento explicado en el proceso <a class="reference internal" href="../../master/product/product.html#paso-reabastecer-producto"><span class="std std-ref">Pestaña Reabastecer</span></a>, del documento <a class="reference internal" href="../../master/product/product.html#documento-producto"><span class="std std-ref">Registro de Producto</span></a>,  elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para el ejemplo del presente documento, se tienen las siguientes restricciones:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“<strong>Almacén</strong>”: Comercialización</p></li>
+<li><p>“<strong>Tipo de Reabastecimiento</strong>”: Mantener El Nivel Máximo ó Reordenar por debajo del nivel mínimo</p></li>
+<li><p>“<strong>Nivel Mínimo</strong>”: 20</p></li>
+<li><p>“<strong>Nivel Máximo</strong>”: 40</p></li>
+</ul>
+<p><img alt="configuración del producto" src="../../../_images/product-configuration.png" /></p>
+<p>Imagen 3. Configuración del Producto</p>
+</div></blockquote>
+</div>
+<div class="section" id="ejecucion-del-proceso">
+<h2><strong>Ejecución del Proceso</strong><a class="headerlink" href="#ejecucion-del-proceso" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione la ventana de búsqueda inteligente “<strong>Reabastecimiento de Almacén</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú reabastecimiento de almacén" src="../../../_images/warehouse-replenishment-menu.png" /></p>
+<p>Imagen 4. Menú Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Reabastecimiento de Almacén</strong>”, con diferentes campos que permiten filtrar la información para generar el documento requerido.</p>
+<blockquote>
+<div><p><img alt="ventana reabastecimiento de almacén" src="../../../_images/warehouse-replenishment-window.png" /></p>
+<p>Imagen 5. Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo producto de la ventana reabastecimiento de almacén" src="../../../_images/product-field-of-warehouse-replenishment-window.png" /></p>
+<p>Imagen 6. Campo Producto de la Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Categoría del Producto</strong>”, la categoría del producto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo categoría del producto de la ventana reabastecimiento de almacén" src="../../../_images/product-category-field-of-the-warehouse-replenishment-window.png" /></p>
+<p>Imagen 7. Campo Categoría del Producto de la Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Clase de Producto</strong>”, la clase del producto por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo clase de producto de la ventana reabastecimiento de almacén" src="../../../_images/warehouse-replenishment-window-product-class-field.png" /></p>
+<p>Imagen 8. Campo Clase de Producto de la Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Clasificación de Producto</strong>”, la clasificación del producto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo clasificación del producto de la ventana reabastecimiento de almacén" src="../../../_images/product-classification-field-of-the-warehouse-replenishment-window.png" /></p>
+<p>Imagen 9. Campo Clasificación de Producto de la Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo de Producto</strong>”, el grupo de producto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo grupo de producto de la ventana reabastecimiento de almacén" src="../../../_images/warehouse-replenishment-window-product-group-field.png" /></p>
+<p>Imagen 10. Campo Grupo de Producto de la Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Almacén Fuente</strong>”, el almacén fuente por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo almacén fuente de la ventana reabastecimiento de almacén" src="../../../_images/field-warehouse-source-window-warehouse-replenishment.png" /></p>
+<p>Imagen 11. Campo Almacén Fuente de la Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Reabastecimiento</strong>”, el tipo de reabastecimiento por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo tipo de reabastecimiento de la ventana reabastecimiento de almacén" src="../../../_images/replenishment-type-field-of-the-warehouse-replenishment-window.png" /></p>
+<p>Imagen 12. Campo Tipo de Reabastecimiento de la Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Almacén</strong>”, el almacén por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo almacén de la ventana reabastecimiento de almacén" src="../../../_images/warehouse-field-warehouse-replenishment-window.png" /></p>
+<p>Imagen 13. Campo Almacén de la Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para filtar la información en base a lo seleccionado en los campos anteriormente explicados.</p>
+<blockquote>
+<div><p><img alt="opción comenzar búsqueda de la ventana reabastecimiento de almacén" src="../../../_images/option-start-search-of-warehouse-replenishment-window.png" /></p>
+<p>Imagen 14. Opción Comenzar Búsqueda de la Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Podrá visualizar los diferentes registros de configuración de reabastecimiento que contienen los productos.</p>
+<blockquote>
+<div><p><img alt="listado de registro de configuración de productos" src="../../../_images/product-configuration-record-listing.png" /></p>
+<p>Imagen 15. Listado de Registro de Configuración de Productos</p>
+<p>Seleccione el registro del producto que requiere reabastecer.</p>
+<blockquote>
+<div><p><img alt="selección de producto a reabastecer" src="../../../_images/selection-of-product-to-be-restocked.png" /></p>
+<p>Imagen 16. Selección de Producto a Reabastecer</p>
+</div></blockquote>
+<p>Al seleccionar el registro del produto, se habilita el campo de la columna “<strong>Cantidad a Ordenar</strong>”, con el valor que se requiere para cumplir con la cantidad de productos establecida en la configuración del mismo.</p>
+<blockquote>
+<div><p><img alt="cantidad a ordenar" src="../../../_images/quantity-to-order.png" /></p>
+<p>Imagen 17. Campo Cantidad a Ordenar</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Crear</strong>”, el documento que requiere crear para reabastecer el producto en el almacén seleccionado.</p>
+<blockquote>
+<div><p><img alt="campo crear de la ventana reabastecimiento de almacén" src="../../../_images/create-field-of-warehouse-replenishment-window.png" /></p>
+<p>Imagen 18. Campo Crear de la Ventana Reabastecimiento de Almacén</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Cuando se requiere generar el documento “<strong>Orden de Compra</strong>”, es obligatorio seleccionar el socio del negocio proveedor en la columna “<strong>Socio del Negocio</strong>” de la ventana “<strong>Reabastecimiento de Almacén</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento</strong>”, el tipo de documento con el que requiere que se genere el documento en estado “<strong>Borrador</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento de la ventana reabastecimiento de almacén" src="../../../_images/document-type-field-of-the-warehouse-replenishment-window.png" /></p>
+<p>Imagen 19. Campo Tipo de Documento de la Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para ejecutar el proceso “<strong>Reabastecimiento de Almacén</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción ok de la ventana reabastecimiento de almacén" src="../../../_images/ok-option-of-the-warehouse-replenishment-window.png" /></p>
+<p>Imagen 20. Opción OK de la Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+<p>Podrá visualizar en la parte inferior izquierda de la ventana, el número de identificación del documento generado.</p>
+<blockquote>
+<div><p><img alt="número de documento generado en la ventana reabastecimiento de almacén" src="../../../_images/document-number-generated-in-the-warehouse-replenishment-window.png" /></p>
+<p>Imagen 21. Número de Documento Generado en la Ventana Reabastecimiento de Almacén</p>
+</div></blockquote>
+</div>
+<div class="section" id="resultado-obtenido">
+<h2><strong>Resultado Obtenido</strong><a class="headerlink" href="#resultado-obtenido" title="Permalink to this headline">¶</a></h2>
+<p>Si en el campo “<strong>Crear</strong>”, de la ventana “<strong>Reabastecimiento de Almacén</strong>”, es seleccionada la opción “<strong>Mover Inventario</strong>”. La consulta del documento generado se realiza en la ventana “<strong>Movimiento de Inventario</strong>”, con ayuda del número de documento generado al ejecutar el proceso.</p>
+<blockquote>
+<div><p><img alt="consulta de mover inventario" src="../../../_images/move-inventory-inquiry.png" /></p>
+<p>Imagen 20. Consulta de Mover Inventario</p>
+</div></blockquote>
+<p>Si en el campo “<strong>Crear</strong>”, de la ventana “<strong>Reabastecimiento de Almacén</strong>”, es seleccionada la opción “<strong>Orden de Compra</strong>”. La consulta del documento generado se realiza en la ventana “<strong>Órdenes de Compra</strong>”, con ayuda del número de documento generado al ejecutar el proceso.</p>
+<blockquote>
+<div><p><img alt="consulta de orden de compra" src="../../../_images/purchase-order-inquiry.png" /></p>
+<p>Imagen 21. Consulta de Orden de Compra</p>
+</div></blockquote>
+<p>Si en el campo “<strong>Crear</strong>”, de la ventana “<strong>Reabastecimiento de Almacén</strong>”, es seleccionada la opción “<strong>Orden de Distribución</strong>”. La consulta del documento generado se realiza en la ventana “<strong>Orden de Distribución</strong>”, con ayuda del número de documento generado al ejecutar el proceso.</p>
+<blockquote>
+<div><p><img alt="consulta de orden de distribución" src="../../../_images/distribution-order-query.png" /></p>
+<p>Imagen 22. Consulta de Orden de Distribución</p>
+</div></blockquote>
+<p>Si en el campo “<strong>Crear</strong>”, de la ventana “<strong>Reabastecimiento de Almacén</strong>”, es seleccionada la opción “<strong>Requisición</strong>”. La consulta del documento generado se realiza en la ventana “<strong>Requisición</strong>”, con ayuda del número de documento generado al ejecutar el proceso.</p>
+<blockquote>
+<div><p><img alt="consulta de requisición" src="../../../_images/requisition-inquiry.png" /></p>
+<p>Imagen 23. Consulta de Requisición</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../farmer-assistance-management/index.html" class="btn btn-neutral float-right" title="Gestión de Asistencia al Agricultor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Reabastecimiento" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

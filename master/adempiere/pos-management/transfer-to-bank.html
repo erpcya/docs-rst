@@ -1,0 +1,509 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Traspaso a Banco &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Gestión de Compras" href="../requisition-to-invoice/index.html" />
+    <link rel="prev" title="Cierre de Caja del Punto de Venta" href="closing-cash.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión PDV</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-terminal.html"><strong>Configuración de Terminal PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html"><strong>Interfaz de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily-pdv-procedure.html"><strong>Procedimiento de Inicio de Jornada Laboral PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-report-x-y-z.html"><strong>Imprimir Reportes X y Z</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="opening-cash.html"><strong>Apertura de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="pos.html"><strong>Toma de Pedido</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html"><strong>Anular Transacción de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html"><strong>Completar Orden Preparada</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html"><strong>Anular Factura Fiscal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html"><strong>Retiro Detallado de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="closing-cash.html"><strong>Cierre de Caja del Punto de Venta</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Traspaso a Banco</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#deposito-de-caja"><strong>Depósito de Caja</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#consultar-egreso-e-ingreso-generado-del-deposito"><strong>Consultar Egreso e Ingreso Generado del Depósito</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#transferencia-bancaria"><strong>Transferencia Bancaria</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#consultar-egreso-e-ingreso-generado-de-la-transferencia"><strong>Consultar Egreso e Ingreso Generado de la Transferencia</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cierre-de-caja"><strong>Cierre de Caja</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión PDV</strong></a> &raquo;</li>
+        
+      <li><strong>Traspaso a Banco</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/pos-management/transfer-to-bank.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="traspaso-a-banco">
+<span id="documento-traspaso-a-banco"></span><h1><strong>Traspaso a Banco</strong><a class="headerlink" href="#traspaso-a-banco" title="Permalink to this headline">¶</a></h1>
+<p>El procedimiento para registrar en ADempiere un traspaso monetario desde una caja a un banco determinado, se debe realizar de la siguiente manera.</p>
+<p>Cuando se tiene solamente transacciones por tarjeta de débito o crédito, efectuadas por medio del punto de venta. Se debe realizar el proceso <a class="reference internal" href="#documento-deposito-a-caja"><span class="std std-ref">Depósito de Caja</span></a> y por último el proceso <a class="reference internal" href="#documento-cierre-de-caja-por-depositos"><span class="std std-ref">Cierre de Caja</span></a>, para llevar la caja a cero (0) nuevamente.</p>
+<p>Si por el contrario, se tiene solamente transacciones por pago móvil y transferencia bancaria. Se debe realizar el proceso <a class="reference internal" href="#documento-transferencia-bancaria-por-depositos"><span class="std std-ref">Transferencia Bancaria</span></a> por cada una de las transacciones y por último el proceso <a class="reference internal" href="#documento-cierre-de-caja-por-depositos"><span class="std std-ref">Cierre de Caja</span></a>, para llevar la caja a cero (0) nuevamente.</p>
+<p>Finalmente, se puede presentar el caso en el que se tengan todos los tipos de pago anteriormente nombrados. Para ello se debe realizar primeramente el proceso <a class="reference internal" href="#documento-deposito-a-caja"><span class="std std-ref">Depósito de Caja</span></a>, para reflejar en ADempiere las transacciones por tarjeta de débito o crédito. Luego se debe realizar el proceso <a class="reference internal" href="#documento-transferencia-bancaria-por-depositos"><span class="std std-ref">Transferencia Bancaria</span></a>, para reflejar en ADempiere las transacciones por pago móvil y transferencia bancaria. Por último el proceso <a class="reference internal" href="#documento-cierre-de-caja-por-depositos"><span class="std std-ref">Cierre de Caja</span></a>, para ejecutar el cruce de los saldos y poder llevar la cuenta caja a cero (0) nuevamente.</p>
+<p>Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso “<strong>Traspaso a Banco</strong>”, con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.</p>
+<blockquote>
+<div><p><img alt="diagrama de traspaso a banco pos" src="../../_images/transfer-to-bank.png" /></p>
+<p>Imagen 1. Diagrama de Traspaso a Banco POS</p>
+</div></blockquote>
+<p>Cada uno de los procesos nombrados anteriormente son explicados a continuación.</p>
+<div class="section" id="deposito-de-caja">
+<span id="documento-deposito-a-caja"></span><h2><strong>Depósito de Caja</strong><a class="headerlink" href="#deposito-de-caja" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Depósito de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="menu deposito a caja" src="../../_images/deposit-to-cash-menu.png" /></p>
+<p>Imagen 2. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana de búsqueda inteligente “<strong>Depósito de Caja</strong>”, que permite realizar el proceso de depósito de las diferentes cajas registradas en ADempiere. Esta ventana cuenta con diferentes campos que le permiten al usuario filtrar la búsqueda de registros en base a lo que sea seleccionado en los mismos.</p>
+<blockquote>
+<div><p><img alt="ventana deposito a caja" src="../../_images/deposit-to-cash-window.png" /></p>
+<p>Imagen 3. Ventana de Depósito a Caja</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Tipo de Banco</strong>”, el tipo de banco que define el comportamiento de la ventana de búsqueda inteligente “<strong>Depósito de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo tipo de banco de la ventana deposito a caja" src="../../_images/bank-type-field-of-the-deposit-to-cash-window.png" /></p>
+<p>Imagen 4. Campo Tipo de Banco</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la cuenta caja por la cual requiere filtar la búsqueda de la información. Para este caso, se utiliza la cuenta “<strong>Caja Administración Ventas - –_Administración VES</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo cuenta bancaria de la ventana deposito a caja" src="../../_images/bank-account-field-of-the-deposit-to-cash-window.png" /></p>
+<p>Imagen 5. Campo Cuenta Bancaria</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para el realizar el depósito de caja a banco, se debe seleccionar la cuenta caja administrativa en la cual se encuentran los registros de los monto que serán transferidos a banco.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio por el cual requiere filtar la búsqueda de la información.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio de la ventana deposito a caja" src="../../_images/business-partner-field-of-the-window-deposit-to-cash.png" /></p>
+<p>Imagen 6. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Pago</strong>”, el tipo de pago por el cual requiere filtrar la búsqueda de la información.</p>
+<blockquote>
+<div><p><img alt="campo tipo de pago de la ventana deposito a caja" src="../../_images/payment-type-field-of-the-deposit-to-cash-window.png" /></p>
+<p>Imagen 7. Campo Tipo de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento</strong>”, el tipo de documento por el cual requiere filtar la búsquedade de la información.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento de la ventana deposito a caja" src="../../_images/document-type-field-of-the-deposit-to-cash-window.png" /></p>
+<p>Imagen 8. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de la Transacción</strong>”, la fecha de la transacción por la cual requiere filtrar la búsqueda de la información.</p>
+<blockquote>
+<div><p><img alt="campo fecha de la transaccion de la ventana deposito a caja" src="../../_images/date-field-of-the-transaction-of-the-window-deposit-to-cash.png" /></p>
+<p>Imagen 9. Campo Fecha de la Transacción</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para filtrar la búsqueda de la información en base a lo seleccionado en los campos anteriormente explicados.</p>
+<blockquote>
+<div><p><img alt="opcion comenzar busqueda de la ventana deposito a caja" src="../../_images/option-start-window-search-deposit-to-cash.png" /></p>
+<p>Imagen 10. Opción Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Podrá visualizar el listado de las transacciones registradas en ADempiere, en base a lo seleccionado en los campos anteriormente explicados.</p>
+<blockquote>
+<div><p><img alt="listado de movimientos de la ventana deposito a caja" src="../../_images/list-of-movements-of-the-deposit-to-cash-window.png" /></p>
+<p>Imagen 11. Listado de Transacciones de ADempiere</p>
+</div></blockquote>
+<p>Seleccione la transacción involucrada en el depósito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="seleccion de movimiento a depositar de la ventana deposito a caja" src="../../_images/selection-of-movement-to-deposit-from-the-deposit-to-cash-window.png" /></p>
+<p>Imagen 12. Selección de Transacción a Depositar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de la Transacción</strong>”, la fecha con la cual se va a generar el depósito de caja que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo fecha para la transaccion de la ventana deposito a caja" src="../../_images/date-field-for-the-transaction-of-the-deposit-to-cash-window.png" /></p>
+<p>Imagen 13. Campo Fecha de la Transacción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la cuenta bancaria a la cual se va a realizar el depósito de caja que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo cuenta bancaria a depositar de la ventana deposito a caja" src="../../_images/field-bank-account-to-deposit-of-the-window-deposit-to-cash.png" /></p>
+<p>Imagen 14. Campo Cuenta Bancaria</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio involucrado en el depósito que se encuentra realizando. En este caso, el socio del negocio es la misma empresa.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio a depositar de la ventana deposito a caja" src="../../_images/business-partner-field-to-deposit-from-the-deposit-to-cash-window.png" /></p>
+<p>Imagen 15. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>No. del Documento</strong>”, el número de documento con el cual se va a generar el depósito de caja que se encuentra realizando.</p>
+<blockquote>
+<div><p>Este campo se utiliza cuando se va a realizar un depósito que involucra una sola transacción. Cuando se va a realizar un depósito con más de una transacción, se recomienda tildar el check dividir depósito.</p>
+<p><img alt="campo nro del documento de la ventana deposito a caja" src="../../_images/field-number-of-the-document-of-the-window-deposit-to-cash.png" /></p>
+<p>Imagen 16. Campo No. de Documento</p>
+</div></blockquote>
+<p>Seleccione el checklist “<strong>Dividir Depósito</strong>”, si requiere dividir el depósito de caja que se encuentra realizando.</p>
+<blockquote>
+<div><p>Este check permite generar tantos depósitos como movimientos sean seleccionados en el proceso, respetando su número de documento. Para este caso, no es necesario tildar el checklist “<strong>Dividir Depósito</strong>”.</p>
+<p><img alt="checklist dividir deposito de la ventana deposito a caja" src="../../_images/checklist-divide-deposit-from-deposit-to-cash-window.png" /></p>
+<p>Imagen 17. Checklist Dividir Depósito</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo correspondiente al depósito de caja que se encuentra realizando. Para este caso se utiliza el cargo “<strong>Efectivo en Tránsito Administración</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo cargo de la ventana deposito a caja" src="../../_images/field-charge-of-the-window-deposit-to-cash.png" /></p>
+<p>Imagen 18. Campo Cargo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento para Retiros</strong>”, el tipo de documento para retiros. Para este caso, no es necesario seleccionar el tipo de documento para retiros.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento para retiros de la ventana deposito a caja" src="../../_images/document-type-field-for-withdrawals-from-the-deposit-to-cash-window.png" /></p>
+<p>Imagen 19. Campo Tipo de Documento para Retiros</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento para Depósito</strong>”, el tipo de documento para depósito. Para este caso, no es necesario seleccionar el tipo de documento para depósito.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento para deposito de la ventana deposito a caja" src="../../_images/field-type-of-document-for-deposit-of-the-window-deposit-to-cash.png" /></p>
+<p>Imagen 20. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>El check “<strong>Conciliar Automáticamente</strong>”, permite que sea creado un registro de cierre de caja con la cuenta caja administrativa seleccionada anteriormente y asocia al mismo el registro del egreso que genera en la ventana “<strong>Caja</strong>”. Para este caso, es necesario destildar el check para crear el cierre de caja de manera manual según lo requerido por el usuario.</p>
+<blockquote>
+<div><p><img alt="check conciliar automáticamente del depósito de caja" src="../../_images/check-automatically-reconcile-cash-deposit.png" /></p>
+<p>Imagen 21. Check Conciliar Automáticamente</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para ejecutar el proceso y realizar el depósito de caja a banco.</p>
+<blockquote>
+<div><p><img alt="opcion ok de la ventana deposito a caja" src="../../_images/option-ok-from-the-window-deposit-to-cash.png" /></p>
+<p>Imagen 21. Opción OK</p>
+</div></blockquote>
+<div class="section" id="consultar-egreso-e-ingreso-generado-del-deposito">
+<h3><strong>Consultar Egreso e Ingreso Generado del Depósito</strong><a class="headerlink" href="#consultar-egreso-e-ingreso-generado-del-deposito" title="Permalink to this headline">¶</a></h3>
+<p>Al consultar el documento de egreso generado en la ventana “<strong>Caja</strong>”, con ayuda del número de documento ingresado en el campo “<strong>No. del Documento</strong>” de la ventana “<strong>Depósito de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="consulta de egreso en caja por deposito" src="../../_images/check-out-checkout-by-deposit.png" /></p>
+<p>Imagen 22. Egreso Generado en Caja</p>
+</div></blockquote>
+<p>Al consultar el documento de ingreso generado en la ventana “<strong>Pago/Cobro</strong>”, con ayuda del número de documento ingresado en el campo “<strong>No. del Documento</strong>” de la ventana “<strong>Depósito de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="consulta de ingreso en banco por deposito" src="../../_images/bank-deposit-inquiry.png" /></p>
+<p>Imagen 23. Ingreso Generado en Banco</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="transferencia-bancaria">
+<span id="documento-transferencia-bancaria-por-depositos"></span><h2><strong>Transferencia Bancaria</strong><a class="headerlink" href="#transferencia-bancaria" title="Permalink to this headline">¶</a></h2>
+<p>Realice el procedimiento regular para registrar una transferencia bancaria en ADempiere, el mismo se encuentra explicado de manera detallada en el documento <a class="reference internal" href="../open-items/bank-transfer/bank-transfer.html#documento-procedimiento-para-realizar-una-transferencia-bancaria"><span class="std std-ref">Registro de Transferencia Bancaria</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Considerando las siguientes restricciones:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“<strong>Cuenta Bancaria Desde</strong>”: La caja desde la cual requiere realizar la transferencia. Para este ejemplo es utilizada la caja “<strong>Caja Administración Ventas - –_Administración VES</strong>”.</p></li>
+<li><p>“<strong>Cuenta Bancaria a Transferir</strong>”: El banco al cual requiere realizar la transferencia. Para este ejemplo es utilizado el banco “<strong>Banco Provincial  S.A. Banco Universal - 0108_01080000000000000019</strong>”.</p></li>
+<li><p>“<strong>Socio del Negocio</strong>”: El socio del negocio involucrado en la transferencia bancaria. Para este ejemplo es utilizado el socio “<strong>Compañía Estándar</strong>”.</p></li>
+<li><p>“<strong>Moneda</strong>”: La moneda con la cual requiere realizar la transferencia. Para este ejemplo es utilizada la moneda “<strong>VES</strong>”.</p></li>
+<li><p>“<strong>Cargo</strong>”: El cargo que justifica el movimiento monetario. Para este caso es utilizado el cargo “<strong>Efectivo en Tránsito Administración</strong>”.</p></li>
+<li><p>“<strong>No. del Documento</strong>”: El número de documento con el que será generado el egreso de la caja. Para este ejemplo es utilizado el número “<strong>4321</strong>”.</p></li>
+<li><p>“<strong>Documento Destino</strong>”: El número de documento con el que será generado el ingreso del banco. Para este ejemplo es utilizado el número “<strong>4321</strong>”.</p></li>
+<li><p>“<strong>Monto</strong>”: El monto correspondiente a la transferencia bancaria que requiere generar. Para este ejemplo es utilizado el monto “<strong>5.917.563,54</strong>”.</p></li>
+<li><p>“<strong>Descripción</strong>”: Una breve descripción relacionada a la transferencia que requiere generar. Para este ejemplo es utilizado como descripción “<strong>Transferencia bancaria por pago de factura TMP- 0004910</strong>”.</p></li>
+<li><p>“<strong>Fecha de Estado de Cuenta</strong>”: La fecha en la cual se encuentra realizando la transferencia bancaria.</p></li>
+<li><p>“<strong>Fecha Contable</strong>”: La fecha en la cual se encuentra realizando la transferencia bancaria.</p></li>
+</ul>
+<p><img alt="transferencia bancaria de caja a banco por depositos" src="../../_images/bank-transfer-from-cash-to-bank-for-deposits.png" /></p>
+<p>Imagen 24. Transferencia Bancaria</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde que se debe realizar una transferencia bancaria por cada pago móvil y transferencia bancaria recibida.</p>
+</div>
+</div></blockquote>
+<div class="section" id="consultar-egreso-e-ingreso-generado-de-la-transferencia">
+<h3><strong>Consultar Egreso e Ingreso Generado de la Transferencia</strong><a class="headerlink" href="#consultar-egreso-e-ingreso-generado-de-la-transferencia" title="Permalink to this headline">¶</a></h3>
+<p>Al consultar el documento de egreso generado en la ventana “<strong>Caja</strong>”, con ayuda del número de documento ingresado en el campo “<strong>No. del Documento</strong>” de la ventana “<strong>Transferencia Bancaria</strong>”.</p>
+<blockquote>
+<div><p><img alt="consulta de egreso en caja por transferencia de deposito" src="../../_images/consultation-of-cash-out-by-deposit-transfer.png" /></p>
+<p>Imagen 25. Egreso Generado en Caja</p>
+</div></blockquote>
+<p>Al consultar el documento de ingreso generado en la ventana “<strong>Pago/Cobro</strong>”, con ayuda del número de documento ingresado en el campo “<strong>Documento Destino</strong>” de la ventana “<strong>Transferencia Bancaria</strong>”.</p>
+<blockquote>
+<div><p><img alt="consulta de ingreso en banco por por transferencia de deposito" src="../../_images/bank-deposit-inquiry-by-deposit-transfer.png" /></p>
+<p>Imagen 26. Ingreso Generado en Banco</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="cierre-de-caja">
+<span id="documento-cierre-de-caja-por-depositos"></span><h2><strong>Cierre de Caja</strong><a class="headerlink" href="#cierre-de-caja" title="Permalink to this headline">¶</a></h2>
+<p>Realice el procedimiento regular para registrar un cierre de caja en ADempiere, el mismo se encuentra explicado de manera detallada en el documento <a class="reference internal" href="../open-items/cash-closing/cash-closing.html#documento-procedimiento-para-realizar-un-cierre-de-caja"><span class="std std-ref">Registro de Cierre de Caja</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p>Se selecciona la caja administrativa para llevar esta a cero (0) nuevamente, transfiriendo el saldo de la caja al banco. Este proceso se debe realizar por cada caja administrativa a la que igreso dinero por las ventas del día.</p>
+<p>En la ejecución del procedimiento de cierre de caja, se debe considerar las siguientes restricciones:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“<strong>Cuenta</strong>”: Caja Administración Ventas - –_Administración VES</p></li>
+<li><p>“<strong>Tipo de Documento</strong>”: Cierre de Caja de Administrativo</p></li>
+<li><p>“<strong>Fecha de Estado de Cuenta</strong>”: La fecha correspondiente al día de las transacciones de cobro por las ventas.</p></li>
+</ul>
+</div></blockquote>
+<p>Recuerde cargar las transacciones seleccionando la opción “<strong>Crear a Partir de Caja</strong>”, donde debe seleccionar los movimientos creados en la ventana “<strong>Caja</strong>”, obtenidos como resultado de los procesos <a class="reference internal" href="#documento-deposito-a-caja"><span class="std std-ref">Depósito de Caja</span></a> y <a class="reference internal" href="#documento-transferencia-bancaria-por-depositos"><span class="std std-ref">Transferencia Bancaria</span></a>, previamente realizados.</p>
+<p><img alt="cierre de caja completo por traspaso a banco" src="../../_images/full-cash-closing-by-bank-transfer.png" /></p>
+<p>Imagen 27. Cierre de Caja</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../requisition-to-invoice/index.html" class="btn btn-neutral float-right" title="Gestión de Compras" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="closing-cash.html" class="btn btn-neutral float-left" title="Cierre de Caja del Punto de Venta" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

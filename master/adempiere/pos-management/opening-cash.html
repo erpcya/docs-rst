@@ -1,0 +1,441 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Apertura de Caja &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Toma de Pedido" href="pos.html" />
+    <link rel="prev" title="Imprimir Reportes X y Z" href="generate-report-x-y-z.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión PDV</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-terminal.html"><strong>Configuración de Terminal PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html"><strong>Interfaz de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily-pdv-procedure.html"><strong>Procedimiento de Inicio de Jornada Laboral PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-report-x-y-z.html"><strong>Imprimir Reportes X y Z</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Apertura de Caja</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ejecucion-del-proceso"><strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-egreso-e-ingreso-generado-de-la-apertura-de-punto-de-venta"><strong>Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-registros-creados-en-la-ventana-cierre-de-caja"><strong>Consultar Registros Creados en la Ventana Cierre de Caja</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#caja-administracion-pos"><strong>Caja Administración POS</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#caja-01"><strong>Caja 01</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pos.html"><strong>Toma de Pedido</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html"><strong>Anular Transacción de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html"><strong>Completar Orden Preparada</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html"><strong>Anular Factura Fiscal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html"><strong>Retiro Detallado de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="closing-cash.html"><strong>Cierre de Caja del Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html"><strong>Traspaso a Banco</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión PDV</strong></a> &raquo;</li>
+        
+      <li><strong>Apertura de Caja</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/pos-management/opening-cash.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="apertura-de-caja">
+<span id="documento-apertura-de-caja"></span><h1><strong>Apertura de Caja</strong><a class="headerlink" href="#apertura-de-caja" title="Permalink to this headline">¶</a></h1>
+<p>El proceso de apertura de caja consta en realizar una transferencia bancaria desde un proceso específico del punto de venta. Permitiendo con ello, realizar un egreso de la caja administrativa del punto de venta y posteriormente, un ingreso a la caja en la cual serán realizadas las operaciones de venta. Dichos movimientos son reflejados en la ventana “<strong>Caja</strong>”, por medio de los documentos “<strong>Pago Nacional</strong>” y “<strong>Cobro Nacional</strong>”.</p>
+<p>Este procedimiento crea un registro en la ventana “<strong>Cierre de Caja</strong>”, con la cuenta “<strong>Caja Administrativa</strong>”, desde la cual egresa el dinero. En la línea del mismo, se asocia el registro de “<strong>Pago Nacional</strong>”, generado en la ventana “<strong>Caja</strong>” por la apertura.</p>
+<p>Adicional a ello, crea un registro en dicha ventana “<strong>Cierre de Caja</strong>”, con la cuenta “<strong>Caja POS</strong>”, a la cual ingresa el dinero. De igual manera, se asocia en la línea del registro, el “<strong>Cobro Nacional</strong>”, generado en “<strong>Caja</strong>” por la apertura.</p>
+<p>Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso “<strong>Apertura de Caja POS</strong>”, con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que este proceso se debe realizar antes de iniciar las ventas del día. Adicional a ello, es un proceso necesario al momento del cierre de caja.</p>
+</div>
+<p><img alt="diagrama de apertura de caja pos" src="../../_images/opening-cash.png" /></p>
+<p>Imagen 1. Diagrama de Apertura de Caja POS</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>No debe realizar el proceso de apertura de caja si no es entregado fisicamente el dinero en la respectiva caja. De lo contrario, los saldos de la caja en ADempiere no tendrán ninguna coincidencia con los saldos que existen fisicamente en la caja.</p>
+</div>
+<div class="section" id="ejecucion-del-proceso">
+<h2><strong>Ejecución del Proceso</strong><a class="headerlink" href="#ejecucion-del-proceso" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”, por último seleccione la carpeta “<strong>Punto de Venta</strong>”. Para finalizar, seleccione el proceso “<strong>Apertura de Punto de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../_images/menu-opening-point-of-sale.png" /></p>
+<p>Imagen 2. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Apertura de Punto de Venta</strong>”, con diferentes campos que permiten simular las transferencias monetarias entre las cuentas bancarias y cajas registradas en ADempiere.</p>
+<blockquote>
+<div><p><img alt="Ventana Apertura de Punto de Venta" src="../../_images/window-opening-point-of-sale.png" /></p>
+<p>Imagen 3. Ventana Apertura de Punto de Venta</p>
+<p>Realice en la ventana “<strong>Apertura de Punto de Venta</strong>”, el proceso regular para generar una transferencia bancaria, dicho procedimiento se encuentra explicado en el documento <a class="reference internal" href="../open-items/bank-transfer/bank-transfer.html#documento-procedimiento-para-realizar-una-transferencia-bancaria"><span class="std std-ref">Registro de Transferencia Bancaria</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p>Para la apertura de una caja, es necesario que sean cumplidas las siguientes restricciones en la ventana “<strong>Apertura de Punto de Venta</strong>”.</p>
+<blockquote>
+<div><p>En el campo <strong>Terminal PDV</strong>, se encuentran los diferentes terminales configurados para los socios del negocio que cumplen con el rol de empleados de la organización. En este campo se debe seleccionar el terminal al cual se le realizará la apertura de la caja. Un ejemplo sería “<strong>PDV Caja 01</strong>”.</p>
+<p>En el campo <strong>Caja</strong>”, se debe seleccionar la cuenta caja origen desde la cual se realizará la transferencia.</p>
+<blockquote>
+<div><p>Si la transferencia a realizar es en bolivares, se debe seleccionar la cuenta caja “<strong>Administración VES</strong>”.</p>
+<p>Si la transferencia a realizar es en dolares, se debe seleccionar la cuenta caja “<strong>Administración USD</strong>”.</p>
+<p>Si la transferencia a realizar es en euros, se debe seleccionar la cuenta caja “<strong>Administración EUR</strong>”.</p>
+</div></blockquote>
+<p>En el campo “<strong>Caja a Transferir</strong>”, se encuentra la cuenta caja destino seleccionada en el terminal PDV como cuenta bancaria a la cual se realizará la transferencia. El valor de este campo se carga de manera automática, al seleccionar el terminal de la caja en el campo “<strong>Terminal PDV</strong>”. En este caso, un ejemplo sería: “<strong>Caja 01</strong>”.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que el terminal a seleccionar en el campo “<strong>Terminal PDV</strong>”, debe ser el terminal correspondiente a la caja donde realizará las operaciones de ventas el socio del negocio empleado.</p>
+</div>
+</div></blockquote>
+<p>En el campo “<strong>Socio del Negocio</strong>”, se carga de manera automática el socio del negocio empleado que realizará las operaciones en la caja indicada en el campo “<strong>Caja a Transferir</strong>”, previamente configurado en el terminal seleccionado en el campo “<strong>Terminal PDV</strong>”. En este caso, un ejemplo sería: “<strong>Vendedor</strong>”.</p>
+<p>En el campo “<strong>Tipo de Conversión</strong>”, se carga de manera automática el tipo de conversión establecido en el terminal de la caja.</p>
+<p>En el campo “<strong>Moneda</strong>”, se debe seleccionar la moneda a ser utilizada en la transferencia del dinero. En este caso, un ejemplo sería: “<strong>USD</strong>”</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Se debe realizar una transferencia por moneda, cuando se necesite aperturar la caja con más de una moneda.</p>
+</div>
+</div></blockquote>
+<p>En el campo “<strong>Cargo</strong>”, se debe seleccionar el cargo “<strong>Efectivo en Tránsito Administración</strong>”.</p>
+<p>En el campo “<strong>No. del Documento</strong>”, se debe ingresar el número de documento con el cual será generado el egreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: “<strong>Egreso-Apertura10/02/2021</strong>”.</p>
+<p>En el campo “<strong>Documento Destino</strong>”, se debe ingresar el número de documento con el cual será generado el ingreso monetario por el proceso que esta registrando. En este caso, un ejemplo sería: “<strong>Ingreso-Apertura10/02/2021</strong>”.</p>
+<p>En el campo “<strong>Monto</strong>”, se debe ingresar el monto total de la transferencia en la moneda seleccionada. En este caso, un ejemplo sería: “<strong>100,00</strong>.</p>
+<p>En el campo “<strong>Descripción</strong>”, se debe ingresar una descripción breve que explique de forma puntual la transferencia. En este caso, un ejemplo sería: “<strong>Apertura de Caja 1 del 10/02/2021 por 100 USD</strong>”.</p>
+<p>En el campo “<strong>Fecha de Estado de Cuenta</strong>”, ADempiere establece la fecha en la que se esta realizando la transacción. Esta indica la fecha en la cual será generado el estado de cuenta que se encuentra procesando.</p>
+<p>En el campo “<strong>Fecha Contable</strong>”, ADempiere establece la fecha en la que se esta realizando la transacción. Esta indica la fecha a ser usada en las cuentas de contabilidad general generadas desde este proceso.</p>
+<p><img alt="Transferencia Bancaria de Apertura de Caja" src="../../_images/cash-transfer-bank-opening.png" /></p>
+<p>Imagen 4. Transferencia Bancaria de Apertura de Caja</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde seleccionar la opción “<strong>OK</strong>”, ubicada en la parte inferior de la ventana “<strong>Transferencia Bancaria</strong>”, para completar el proceso y simular en ADempiere el movimiento monetario realizado.</p>
+</div>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="consultar-egreso-e-ingreso-generado-de-la-apertura-de-punto-de-venta">
+<h2><strong>Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta</strong><a class="headerlink" href="#consultar-egreso-e-ingreso-generado-de-la-apertura-de-punto-de-venta" title="Permalink to this headline">¶</a></h2>
+<p>Al buscar entre los registros de la ventana “<strong>Caja</strong>”, los valores ingresados en los campos “<strong>No. del Documento</strong>” y “<strong>Documento Destino</strong>”, de la ventana “<strong>Apertura de Punto de Venta</strong>”, se pueden visualizar dos (2) registros resultantes de la transferencia bancaria, entre ellos se encuentran.</p>
+<blockquote>
+<div><p>El egreso generado en la cuenta “<strong>Caja Administrativa</strong>” como pago nacional, con toda la información suministrada en el proceso ejecutado en la ventana “<strong>Apertura de Punto de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Egreso Generado de la Transferencia Bancaria de Apertura de Caja" src="../../_images/outflow-generated-from-the-bank-transfer-to-open-the-cash-register.png" /></p>
+<p>Imagen 5. Egreso Generado de la Transferencia Bancaria de Apertura de Caja</p>
+</div></blockquote>
+<p>El ingreso generado en la cuenta “<strong>Caja 04</strong>” como cobro nacional, con toda la información suministrada en el proceso ejecutado en la ventana “<strong>Apertura de Punto de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Ingreso Generado de la Transferencia Bancaria de Apertura de Caja" src="../../_images/income-generated-from-the-bank-transfer-to-open-the-cash-register.png" /></p>
+<p>Imagen 6. Ingreso Generado de la Transferencia Bancaria de Apertura de Caja</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="consultar-registros-creados-en-la-ventana-cierre-de-caja">
+<h2><strong>Consultar Registros Creados en la Ventana Cierre de Caja</strong><a class="headerlink" href="#consultar-registros-creados-en-la-ventana-cierre-de-caja" title="Permalink to this headline">¶</a></h2>
+<p>Al realizar una apertura de caja se crean dos registros en estado “<strong>Borrador</strong>”, en la ventana “<strong>Cierre de Caja</strong>”, uno para cada caja involucrada en el proceso ejecutado en la ventana “<strong>Apertura de Punto de Venta</strong>”.</p>
+<div class="section" id="caja-administracion-pos">
+<h3><strong>Caja Administración POS</strong><a class="headerlink" href="#caja-administracion-pos" title="Permalink to this headline">¶</a></h3>
+<p>El registro con la cuenta “<strong>Caja Administración POS</strong>”, se crea automáticamente con las siguientes restricciones:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Cuenta</strong>: La cuenta “<strong>Caja Administración Ventas - –_Administración POS</strong>”, previamente seleccionada en el campo “<strong>Caja</strong>” de la ventana “<strong>Apertura de Punto de Venta</strong>”.</p></li>
+<li><p><strong>Nombre</strong>: La descripción “<strong>Apertura de Caja 1 del 10/02/2021 por 100 USD</strong>”, previamente ingresada en el campo “<strong>Descripción</strong>” de la ventana “<strong>Apertura de Punto de Venta</strong>”.</p></li>
+<li><p><strong>Fecha del Registro</strong>: La fecha “<strong>10/02/2021</strong>”, en la cual fue ejecutado el proceso de apertura desde la ventana “<strong>Apertura de Punto de Venta</strong>”.</p></li>
+<li><p><strong>Saldo Inicial</strong>: El saldo “<strong>0,00</strong>”, con el que inicia la caja.</p></li>
+<li><p><strong>Diferencia Edo. De Cuenta</strong>: El monto de “<strong>-193.349.343,00</strong>”, de diferencia entre el saldo final del estado de cuentas y el saldo final actual.</p></li>
+<li><p><strong>Saldo Final</strong>: El monto de “<strong>-193.349.343,00</strong>”, correspondiente al saldo final o al cierre. El saldo final es el resultado de ajustar el saldo inicial por cualquier pago o desembolso.</p></li>
+</ul>
+<p><img alt="Registro del Cierre de Caja Administrativa" src="../../_images/registration-of-the-administrative-cash-closure.png" /></p>
+<p>Imagen 7. Registro del Cierre de Caja Administración POS</p>
+<p>El mismo contiene en la pestaña “<strong>Línea de Cierre de Caja</strong>”, el registro del egreso por la apertura de caja realizada y contiene asociado el documento de egreso generado en la ventana “<strong>Caja</strong>”.</p>
+<p><img alt="Pestaña Línea de Cierre de Caja Administrativa" src="../../_images/administrative-cash-closing-line-tab.png" /></p>
+<p>Imagen 8. Pestaña Línea de Cierre de Caja Administración POS</p>
+</div></blockquote>
+</div>
+<div class="section" id="caja-01">
+<h3><strong>Caja 01</strong><a class="headerlink" href="#caja-01" title="Permalink to this headline">¶</a></h3>
+<p>El registro con la cuenta “<strong>Caja 01</strong>”, se crea automáticamente con las siguientes restricciones:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Cuenta</strong>: La cuenta “<strong>Caja POS - –_Caja PDV 01</strong>”, previamente seleccionada en el campo “<strong>Caja a Transferir</strong>” de la ventana “<strong>Apertura de Punto de Venta</strong>”.</p></li>
+<li><p><strong>Nombre</strong>: La descripción “<strong>Apertura de Caja 1 del 10/02/2021 por 100 USD</strong>”, previamente ingresada en el campo “<strong>Descripción</strong>” de la ventana “<strong>Apertura de Punto de Venta</strong>”.</p></li>
+<li><p><strong>Fecha del Registro</strong>: La fecha “<strong>01/09/2020</strong>”, en la cual fue ejecutado el proceso de apertura desde la ventana “<strong>Apertura de Punto de Venta</strong>”.</p></li>
+<li><p><strong>Saldo Inicial</strong>: El saldo “<strong>0,00</strong>”, con el que inicia la caja.</p></li>
+<li><p><strong>Diferencia Edo. De Cuenta</strong>: El monto de “<strong>193.349.343,00</strong>”, de diferencia entre el saldo final del estado de cuentas y el saldo final actual.</p></li>
+<li><p><strong>Saldo Final</strong>: El monto de “<strong>193.349.343,00</strong>”, correspondiente al saldo final o al cierre. El saldo final es el resultado de ajustar el saldo inicial por cualquier pago o desembolso.</p></li>
+</ul>
+<p><img alt="Registro del Cierre de Caja 04" src="../../_images/cash-closure-record-04.png" /></p>
+<p>Imagen 9. Registro del Cierre de Caja 01</p>
+<p>El mismo contiene en la pestaña “<strong>Línea de Cierre de Caja</strong>”, el registro del ingreso por la apertura de caja realizada y contiene asociado el documento de ingreso generado en la ventana “<strong>Caja</strong>”.</p>
+<p><img alt="Pestaña Línea de Cierre de Caja 04" src="../../_images/cash-closure-line-04-tab.png" /></p>
+<p>Imagen 10. Pestaña Línea de Cierre de Caja 01</p>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="pos.html" class="btn btn-neutral float-right" title="Toma de Pedido" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="generate-report-x-y-z.html" class="btn btn-neutral float-left" title="Imprimir Reportes X y Z" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

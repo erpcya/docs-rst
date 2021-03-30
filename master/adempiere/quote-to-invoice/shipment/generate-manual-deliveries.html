@@ -1,0 +1,395 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Generar Entregas (Manual) &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Nota de Crédito" href="../credit-note-cxc.html" />
+    <link rel="prev" title="Generar Entrega desde Líneas de la Orden" href="generate-delivery-from-order-lines.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Ventas</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../commission/index.html"><strong>Comisión de Ventas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sales-region/index.html"><strong>Región de Ventas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../price-list/index.html"><strong>Lista de Precios</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../proposal/index.html"><strong>Propuesta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sales-order/index.html"><strong>Orden de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../invoice-customer/index.html"><strong>Documento por Cobrar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../generate-invoice-from-departure-order.html"><strong>Generar Factura desde Orden de Salida</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../generate-invoice-from-departure-order.html#generar-factura-desde-orden-de-salida-consolidado-en-un-documento"><strong>Generar Factura desde Orden de Salida Consolidado en un Documento</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Entregas (Cliente)</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="shipment-customer.html"><strong>Registro de Entregas (Cliente)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="generate-delivery-from-order-lines.html"><strong>Generar Entrega desde Líneas de la Orden</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Generar Entregas (Manual)</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#consultar-entregas-generadas"><strong>Consultar Entregas Generadas</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../credit-note-cxc.html"><strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../debit-note-cxc.html"><strong>Nota de Débito</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Ventas</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Entregas (Cliente)</strong></a> &raquo;</li>
+        
+      <li><strong>Generar Entregas (Manual)</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/quote-to-invoice/shipment/generate-manual-deliveries.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="generar-entregas-manual">
+<span id="documento-generar-entregas-manual"></span><h1><strong>Generar Entregas (Manual)</strong><a class="headerlink" href="#generar-entregas-manual" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Entregas</strong>”, por último seleccione la ventana “<strong>Generar Entregas (Manual)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../_images/menu-generate-manual-deliveries.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Generar Entregas (Manual)</strong>”, con diferentes campos que permiten filtrar la búsqueda de información automáticamente.</p>
+<blockquote>
+<div><p><img alt="Ventana Generar Entregas Manual" src="../../../_images/window-generate-manual-deliveries.png" /></p>
+<p>Imagen 2. Ventana Generar Entregas Manual</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Almacén</strong>”, el almacén asociado a las órdenes de venta a las cuales le requiere generar entregas.</p>
+<blockquote>
+<div><p><img alt="Campo Almacén de la Ventana Generar Entregas Manual" src="../../../_images/warehouse-field-of-the-generate-manual-deliveries-window.png" /></p>
+<p>Imagen 3. Campo Almacén de la Ventana Generar Entregas Manual</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio que se encuentra asociado a las órdenes de venta a las cuales le requiere generar entregas.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio de la Ventana Generar Entregas Manual" src="../../../_images/business-partner-field-of-the-generate-manual-deliveries-window.png" /></p>
+<p>Imagen 4. Campo Socio del Negocio de la Ventana Generar Entregas Manual</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento</strong>”, el tipo de documento que se encuentra asociado a las órdenes de venta a las cuales le requiere generar entregas.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento de la Ventana Generar Entregas Manual" src="../../../_images/document-type-field-of-the-generate-manual-submissions-window.png" /></p>
+<p>Imagen 5. Campo Tipo de Documento de la Ventana Generar Entregas Manual</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para el ejemplo planteado en el presente material, es seleccionada la opción “<strong>Orden</strong>”, ya que se requiere generar las entregas desde las órdenes de venta.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Acción del Documento</strong>”, la acción de documento con la cual requiere generar las entregas.</p>
+<blockquote>
+<div><p><img alt="Campo Acción del Documento de la Ventana Generar Entregas Manual" src="../../../_images/document-action-field-of-the-generate-manual-submissions-window.png" /></p>
+<p>Imagen 6. Campo Acción del Documento de la Ventana Generar Entregas Manual</p>
+</div></blockquote>
+<p>Luego de haber establecido los filtros de búsqueda necesarios, podrá visualizar las órdenes de venta que tienen coincidencia con la información ingresada en los campos de la ventana.</p>
+<blockquote>
+<div><p><img alt="Órdenes de Venta con Coincidencia en la Búsqueda" src="../../../_images/sales-orders-matching-search.png" /></p>
+<p>Imagen 7. Órdenes de Venta con Coincidencia en la Búsqueda</p>
+</div></blockquote>
+<p>Seleccione las órdenes de venta para generar las entregas de cada una de ellas.</p>
+<blockquote>
+<div><p><img alt="Selección de Órdenes de Venta para Generar Entregas" src="../../../_images/selection-of-sales-orders-to-generate-deliveries.png" /></p>
+<p>Imagen 8. Selección de Órdenes de Venta para Generar Entregas</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para completar el proceso y generar las entregas de las órdenes seleccionadas.</p>
+<blockquote>
+<div><p><img alt="Opción OK de la Ventana Generar Entregas Manual" src="../../../_images/ok-option-of-the-window-generate-manual-deliveries.png" /></p>
+<p>Imagen 9. Opción OK de la Ventana Generar Entregas Manual</p>
+</div></blockquote>
+<p>Al culminar el proceso se generan las entregas de las órdenes de venta seleccionadas, mostrando una ventana con el mensaje “<strong>Imprimir Entregas</strong>”. Luego se debe seleccionar la opción “<strong>OK</strong>”, para generar el documento con el reporte de las mismas y poder imprimirlas.</p>
+<blockquote>
+<div><p><img alt="Mensaje de Imprimir Entregas" src="../../../_images/print-delivery-message.png" /></p>
+<p>Imagen 10. Mensaje para Imprimir Entregas</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana del reporte “<strong>Generar Entregas (Manual)</strong>”, con el nombre del reporte para descargar en formato “<strong>.pdf</strong>”, el número de páginas que contiene el reporte y las opciones para actualizar, descargar o imprimir el reporte.</p>
+<blockquote>
+<div><p><img alt="reporte de entregas para imprimir" src="../../../_images/delivery-report-to-print.png" /></p>
+<p>Imagen 11. Reporte de Entregas para Imprimir</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El procedimiento genera una entrega por cada orden de venta seleccionada y muestra en el documento del reporte una página por cada entrega generada.</p>
+</div>
+</div></blockquote>
+<p>Luego de imprimir las entregas, el proceso se regresa a la ventana “<strong>Generar Entregas (Manual)</strong>”, con el resultado de las entregas generadas, donde se muestra la cantidad de entregas creadas, la fecha exacta en la que fueron creadas y el número de documento de cada una.</p>
+<blockquote>
+<div><p><img alt="Resultado del Proceso Generar Entregas Manual" src="../../../_images/result-of-the-process-generate-manual-deliveries.png" /></p>
+<p>Imagen 12. Resultado del Proceso Generar Entregas Manual</p>
+</div></blockquote>
+<div class="section" id="consultar-entregas-generadas">
+<h2><strong>Consultar Entregas Generadas</strong><a class="headerlink" href="#consultar-entregas-generadas" title="Permalink to this headline">¶</a></h2>
+<p>Para consultar la entrega generada en la ventana “<strong>Entregas (Cliente)</strong>” se debe seleccionar el icono “<strong>Encontrar Registro</strong>” ubicado en la barra de herramientas de ADempiere, para luego ingresar en el campo “<strong>No del Documento</strong>”, el número de documento de la entrega detallado en el resultado del proceso realizado antes y finalmente seleccionar la opción “<strong>OK</strong>” para realizar la búsqueda.</p>
+<blockquote>
+<div><p><img alt="Ventana Encontrar Registro de Entregas Generadas" src="../../../_images/window-find-log-of-generated-deliveries.png" /></p>
+<p>Imagen 13. Ventana Encontrar Registro Entrega</p>
+</div></blockquote>
+<p>Podrá visualizar el documento de entrega buscado. El mismo es generado con el estado de documento seleccionado en el campo “<strong>Acción en el Documento</strong>”, de la ventana “<strong>Generar Entregas (Manual)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Documento de Entrega Manual Generada" src="../../../_images/generated-manual-delivery-document.png" /></p>
+<p>Imagen 14. Documento de Entrega Generada</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../credit-note-cxc.html" class="btn btn-neutral float-right" title="Nota de Crédito" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="generate-delivery-from-order-lines.html" class="btn btn-neutral float-left" title="Generar Entrega desde Líneas de la Orden" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

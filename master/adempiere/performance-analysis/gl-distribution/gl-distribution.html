@@ -1,0 +1,595 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Registro de Distribución Contable &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Configuración Contable (Maestros)" href="../accounting-setup-master/index.html" />
+    <link rel="prev" title="Distribución Contable" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión Contable</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../type-of-application.html"><strong>Tipo de Aplicación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-element/index.html"><strong>Elemento Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../opening-accounting-period.html"><strong>Apertura de Período Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../unposted-documents.html"><strong>Documentos sin Aplicar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-dimensions.html"><strong>Dimensiones Contables</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-combination.html"><strong>Combinación Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../currency-conversion/index.html"><strong>Conversión Monetaria</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Distribución Contable</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Registro de Distribución Contable</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#distribucion-contable"><strong>Distribución Contable</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#linea"><strong>Línea</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#consulta-de-distribucion-contable-aplicada"><strong>Consulta de Distribución Contable Aplicada</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-setup-master/index.html"><strong>Configuración Contable (Maestros)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../transaction-accounting/index.html"><strong>Contabilidad de Transacciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../costing/index.html"><strong>Gestión de Costos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gl-journal-batch/index.html"><strong>Diario Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-reports/index.html"><strong>Reportes Contables</strong></a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión Contable</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Distribución Contable</strong></a> &raquo;</li>
+        
+      <li><strong>Registro de Distribución Contable</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/performance-analysis/gl-distribution/gl-distribution.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-de-distribucion-contable">
+<span id="documento-distribucion-contable"></span><h1><strong>Registro de Distribución Contable</strong><a class="headerlink" href="#registro-de-distribucion-contable" title="Permalink to this headline">¶</a></h1>
+<p>Para ejemplificar el procedimiento de distribución contable, se tiene el documento por pagar “<strong>1000110</strong>” con monto total de “<strong>2.500.000,00</strong>”.</p>
+<blockquote>
+<div><p><img alt="Factura por Pagar" src="../../../_images/invoice-vendor.png" /></p>
+<p>Imagen 1. Factura por Pagar</p>
+</div></blockquote>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Análisis de Desempeño</strong>”, luego seleccione la carpeta “<strong>Reglas Contables</strong>”, por último seleccione la ventana “<strong>Distribución Contable</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../_images/accounting-distribution-menu.png" /></p>
+<p>Imagen 2. Menú de ADempiere</p>
+</div></blockquote>
+<div class="section" id="distribucion-contable">
+<h2><strong>Distribución Contable</strong><a class="headerlink" href="#distribucion-contable" title="Permalink to this headline">¶</a></h2>
+<p>Podrá visualizar la carpeta “<strong>Distribución Contable</strong>”, con los diferentes registros de distribución que se encuentran en ADempiere.</p>
+<blockquote>
+<div><p><img alt="Ventana Distribución Contable" src="../../../_images/accounting-distribution-window.png" /></p>
+<p>Imagen 3. Ventana Distribución Contable</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro de distribución.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo de la Ventana Distribución Contable" src="../../../_images/new-record-icon-in-accounting-distribution-window.png" /></p>
+<p>Imagen 4. Icono Registro Nuevo de la Ventana Distribución Contable</p>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando la distribución.</p>
+<blockquote>
+<div><p><img alt="Campo Organización de la Ventana Distribución Contable" src="../../../_images/organization-field-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 5. Campo Organización de la Ventana Distribución Contable</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre</strong>”, el nombre de referencia correspondiente al registro de distribución que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre de la Ventana Distribución Contable" src="../../../_images/accounting-distribution-window-name-field.png" /></p>
+<p>Imagen 6. Campo Nombre de la Ventana Distribución Contable</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción correspondiente al registro de distribución que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Ventana Distribución Contable" src="../../../_images/description-field-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 7. Campo Descripción de la Ventana Distribución Contable</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Esquema Contable</strong>”, el esquema que será utilizado para la distribución que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Esquema Contable de la Ventana Distribución Contable" src="../../../_images/accounting-scheme-field-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 8. Campo Esquema Contable de la Ventana Distribución Contable</p>
+</div></blockquote>
+<p>El checklist “<strong>Crear Reversión</strong>”, indica que el movimiento de reversión se creará.</p>
+<blockquote>
+<div><p><img alt="Checklist Crear Reversión de la Ventana Distribución Contable" src="../../../_images/checklist-create-reversal-of-accounting-distribution-window.png" /></p>
+<p>Imagen 9. Checklist Crear Reversión de la Ventana Distribución Contable</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Si se inhabilita el checklist, el movimiento original será borrado.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Aplicación</strong>”, el tipo de aplicación que será utilizado para la distribución que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Aplicación de la Ventana Distribución Contable" src="../../../_images/application-type-field-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 10. Campo Tipo de Aplicación de la Ventana Distribución Contable</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento de la Ventana Distribución Contable" src="../../../_images/document-type-field-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 11. Campo Tipo de Documento de la Ventana Distribución Contable</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Desde</strong>”, la fecha de inicio de la distribución que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Válido Desde de la Ventana Distribución Contable" src="../../../_images/field-valid-from-the-accounting-distribution-window.png" /></p>
+<p>Imagen 12. Campo Válido Desde de la Ventana Distribución Contable</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Hasta</strong>”, la fecha de finalización de la distribución que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Válido Hasta de la Ventana Distribución Contable" src="../../../_images/field-valid-up-to-the-accounting-distribution-window.png" /></p>
+<p>Imagen 13. Campo Válido Hasta de la Ventana Distribución Contable</p>
+</div></blockquote>
+<p>El checklist “<strong>Cualquier Organización</strong>”, al estar tildado aplica la distribución contable a todas las organizaciones.</p>
+<blockquote>
+<div><p><img alt="Checklist Cualquier Organización de la Ventana Distribución Contable" src="../../../_images/checklist-any-organization-in-the-accounting-distribution-window.png" /></p>
+<p>Imagen 14. Checklist Cualquier Organización de la Ventana Distribución Contable</p>
+<p>Al destildar el checklist “<strong>Cualquier Organización</strong>”, se habilita el campo “<strong>Organización</strong>” para aplicar la distribución contable sólo a la organización que sea seleccionada en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Organización del Checklist Cualquier Organización de la Ventana Distribución Contable" src="../../../_images/organization-field-of-the-checklist-any-organization-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 15. Campo Organización del Checklist Cualquier Organización de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>El checklist “<strong>Cualquier Cuenta</strong>”, al estar tildado aplica la distribución contable a todas las cuentas.</p>
+<blockquote>
+<div><p><img alt="Checklist Cualquier Cuenta de la Ventana Distribución Contable" src="../../../_images/checklist-any-account-in-the-accounting-distribution-window.png" /></p>
+<p>Imagen 16. Checklist Cualquier Cuenta de la Ventana Distribución Contable</p>
+<p>Al destildar el checklist “<strong>Cualquier Cuenta</strong>”, se habilita el campo “<strong>Cuenta</strong>” para aplicar la distribución contable sólo a la cuenta que sea seleccionada en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta del Checklist Cualquier Cuenta de la Ventana Distribución Contable" src="../../../_images/accounting-combination-of-the-checklist-account-field-any-account-in-the-accounting-distribution-window.png" /></p>
+<p>Imagen 17. Campo Cuenta del Checklist Cualquier Cuenta de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>El checklist “<strong>Cualquier Actividad</strong>”, al estar tildado aplica la distribución contable a todas las actividades.</p>
+<blockquote>
+<div><p><img alt="Checklist Cualquier Actividad de la Ventana Distribución Contable" src="../../../_images/checklist-any-activity-in-the-accounting-distribution-window.png" /></p>
+<p>Imagen 18. Checklist Cualquier Actividad de la Ventana Distribución Contable</p>
+<p>Al destildar el checklist “<strong>Cualquier Actividad</strong>”, se habilita el campo “<strong>Actividad</strong>” para aplicar la distribución contable sólo a la actividad que sea seleccionada en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Actividad del Checklist Cualquier Actividad de la Ventana Distribución Contable" src="../../../_images/activity-field-of-the-checklist-any-activity-in-the-accounting-distribution-window.png" /></p>
+<p>Imagen 19. Campo Actividad del Checklist Cualquier Actividad de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>El checklist “<strong>Cualquier Producto</strong>”, al estar tildado aplica la distribución contable a todos los productos.</p>
+<blockquote>
+<div><p><img alt="Checklist Cualquier Producto de la Ventana Distribución Contable" src="../../../_images/checklist-any-product-in-the-accounting-distribution-window.png" /></p>
+<p>Imagen 20. Checklist Cualquier Producto de la Ventana Distribución Contable</p>
+<p>Al destildar el checklist “<strong>Cualquier Producto</strong>”, se habilita el campo “<strong>Producto</strong>” para aplicar la distribución contable sólo al producto que sea seleccionado en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Producto del Checklist Cualquier Producto de la Ventana Distribución Contable" src="../../../_images/product-field-of-the-checklist-any-product-in-the-accounting-distribution-window.png" /></p>
+<p>Imagen 21. Campo Producto del Checklist Cualquier Producto de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>El checklist “<strong>Cualquier Socio del Negocio</strong>”, al estar tildado aplica la distribución contable a todos los socios del negocio.</p>
+<blockquote>
+<div><p><img alt="Checklist Cualquier Socio del Negocio de la Ventana Distribución Contable" src="../../../_images/checklist-any-business-partner-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 22. Checklist Cualquier Socio del Negocio de la Ventana Distribución Contable</p>
+<p>Al destildar el checklist “<strong>Cualquier Socio del Negocio</strong>”, se habilita el campo “<strong>Socio del Negocio</strong>” para aplicar la distribución contable sólo al socio del negocio que sea seleccionado en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio del Checklist Cualquier Socio del Negocio de la Ventana Distribución Contable" src="../../../_images/business-partner-field-of-the-checklist-any-business-partner-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 23. Campo Socio del Negocio del Checklist Cualquier Socio del Negocio de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>El checklist “<strong>Cualquier Usuario 1</strong>”,</p>
+<blockquote>
+<div><p><img alt="Checklist Cualquier Usuario 1 de la Ventana Distribución Contable" src="../../../_images/checklist-any-user-1-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 24. Checklist Cualquier Usuario 1 de la Ventana Distribución Contable</p>
+<p>Al destildar el checklist “<strong>Cualquier Usuario 1</strong>”, se habilita el campo “<strong>Centro de Costos</strong>” para aplicar la distribución contable sólo al centro de costos que sea seleccionado en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Centro de Costos del Checklist Cualquier Usuario 1 de la Ventana Distribución Contable" src="../../../_images/cost-center-field-of-the-checklist-any-user-1-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 25. Campo Centro de Costos del Checklist Cualquier Usuario 1 de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de los campos de la pestaña antes de posicionarse en otra pestaña de la misma ventana, seleccionando el icono “<strong>Guardar Cambios</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+<div class="section" id="linea">
+<h2><strong>Línea</strong><a class="headerlink" href="#linea" title="Permalink to this headline">¶</a></h2>
+<p>Seleccione la pestaña “<strong>Línea</strong>”, para crear los registros de distribución requeridos.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 26. Pestaña Línea de la Ventana Distribución Contable</p>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción correspondiente al registro de porcentaje de distribución que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/description-field-of-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 27. Campo Descripción de la Pestaña Línea de la Ventana Distribución Contable</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Porcentaje</strong>”, el porcentaje de distribución correspondiente al registro que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Porcentaje de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/percentage-field-of-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 28. Campo Porcentaje de la Pestaña Línea de la Ventana Distribución Contable</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Débito Contabilizado</strong>”, el monto de débito contabilizado correspondiente al registro que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Débito Contabilizado de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/posted-debit-field-from-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 29. Campo Débito Contabilizado de la Pestaña Línea de la Ventana Distribución Contable</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Crédito Contabilizado</strong>”, el monto de crédito contabilizado correspondiente al registro que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Crédito Contabilizado de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/posted-credit-field-from-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 30. Campo Crédito Contabilizado de la Pestaña Línea de la Ventana Distribución Contable</p>
+</div></blockquote>
+<p>El checklist “<strong>Signo de cuenta invertida</strong>”,</p>
+<blockquote>
+<div><p><img alt="Checklist Signo de Cuenta Invertida de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/checklist-inverted-account-sign-of-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 31. Checklist Signo de Cuenta Invertida de la Pestaña Línea de la Ventana Distribución Contable</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al seleccionar el checklist “<strong>Signo de cuenta invertida</strong>”, no se habilita ningún campo.</p>
+</div>
+</div></blockquote>
+<p>El checklist “<strong>Sobrescribir tipo de publicación</strong>”, Sobreescribe el tipo de publicación con el valor especificado.</p>
+<blockquote>
+<div><p><img alt="Checklist Sobrescribir Tipo de Publicación de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/checklist-overwrite-publication-type-from-line-tab-of-accounting-distribution-window.png" /></p>
+<p>Imagen 32. Checklist Sobrescribir Tipo de Publicación de la Pestaña Línea de la Ventana Distribución Contable</p>
+<p>Al seleccionar el checklist “<strong>Sobrescribir tipo de publicación</strong>”, se habilita el campo “<strong>Tipo de Aplicación</strong>” para aplicar la distribución contable sólo al tipo de aplicación que sea seleccionada en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Aplicación del Checklist Sobrescribir Tipo de Publicación de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/application-type-field-of-the-checklist-overwrite-publication-type-of-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 33. Campo Tipo de Aplicación del Checklist Sobrescribir Tipo de Publicación de la Pestaña Línea de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>El checklist “<strong>Sobreescribe Organización</strong>”, aplica la distribución contable a todas las organizaciones.</p>
+<blockquote>
+<div><p><img alt="Checklist Sobreescribe Organización de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/checklist-overrides-organization-of-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 34. Checklist Sobreescribe Organización de la Pestaña Línea de la Ventana Distribución Contable</p>
+<p>Al seleccionar el checklist “<strong>Sobreescribe Organización</strong>”, se habilita el campo “<strong>Organización</strong>” para aplicar la distribución contable sólo a la organización que sea seleccionada en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Organización del Checklist Sobreescribe Organización de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/organization-field-of-the-checklist-overrides-organization-of-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 35. Campo Organización del Checklist Sobreescribe Organización de la Pestaña Línea de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>El checklist “<strong>Sobreescribe la cuenta</strong>”, aplica la distribución contable a todas las cuentas.</p>
+<blockquote>
+<div><p><img alt="Checklist Sobreescribe la Cuenta de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/checklist-overwrites-the-account-in-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 36. Checklist Sobreescribe la Cuenta de la Pestaña Línea de la Ventana Distribución Contable</p>
+<p>Al seleccionar el checklist “<strong>Sobreescribe la cuenta</strong>”, se habilita el campo “<strong>Cuenta</strong>” para aplicar la distribución contable sólo a la cuenta que sea seleccionada en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta del Checklist Sobreescribe la Cuenta de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/account-field-in-the-checklist-overwrites-the-account-in-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 37. Campo Cuenta del Checklist Sobreescribe la Cuenta de la Pestaña Línea de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>El checklist “<strong>Sobreescribe la Actividad</strong>”, aplica la distribución contable a todas las actividades.</p>
+<blockquote>
+<div><p><img alt="Checklist Sobreescribe la Actividad de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/checklist-overwrites-the-activity-of-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 38. Checklist Sobreescribe la Actividad de la Pestaña Línea de la Ventana Distribución Contable</p>
+<p>Al seleccionar el checklist “<strong>Sobreescribe la Actividad</strong>”, se habilita el campo “<strong>Actividad</strong>” para aplicar la distribución contable sólo a la actividad que sea seleccionada en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Actividad del Checklist Sobreescribe la Actividad de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/activity-field-of-the-checklist-overwrites-the-activity-of-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 39. Campo Actividad del Checklist Sobreescribe la Actividad de la Pestaña Línea de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>El checklist “<strong>Sobreescribe Producto</strong>”, aplica la distribución contable a todos los productos.</p>
+<blockquote>
+<div><p><img alt="Checklist Sobreescribe Producto de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/checklist-overwrites-product-from-line-tab-of-accounting-distribution-window.png" /></p>
+<p>Imagen 40. Checklist Sobreescribe Producto de la Pestaña Línea de la Ventana Distribución Contable</p>
+<p>Al seleccionar el checklist “<strong>Sobreescribe Producto</strong>”, se habilita el campo “<strong>Producto</strong>” para aplicar la distribución contable sólo al producto que sea seleccionado en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Producto del Checklist Sobreescribe Producto de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/product-field-of-the-checklist-overrides-product-of-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 41. Campo Producto del Checklist Sobreescribe Producto de la Pestaña Línea de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>El checklist “<strong>Sobreescribe Socio del Negocio</strong>”, aplica la distribución contable a todos los socios del negocio.</p>
+<blockquote>
+<div><p><img alt="Checklist Sobreescribe Socio del Negocio de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/checklist-overwrites-business-partner-from-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 42. Checklist Sobreescribe Socio del Negocio de la Pestaña Línea de la Ventana Distribución Contable</p>
+<p>Al seleccionar el checklist “<strong>Sobreescribe Socio del Negocio</strong>”, se habilita el campo “<strong>Socio del Negocio</strong>” para aplicar la distribución contable sólo al socio del negocio que sea seleccionado en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio del Checklist Sobreescribe Socio del Negocio de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/business-partner-field-of-the-checklist-overwrites-business-partner-from-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 43. Campo Socio del Negocio del Checklist Sobreescribe Socio del Negocio de la Pestaña Línea de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>El checklist “<strong>Sobreescribe Usuario 1</strong>”,</p>
+<blockquote>
+<div><p><img alt="Checklist Sobreescribe Usuario 1 de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/checklist-overwrites-user-1-of-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 44. Checklist Sobreescribe Usuario 1 de la Pestaña Línea de la Ventana Distribución Contable</p>
+<p>Al seleccionar el checklist “<strong>Sobreescribe Usuario 1</strong>”, se habilita el campo “<strong>Centro de Costos</strong>” para aplicar la distribución contable sólo al centro de costos que sea seleccionado en dicho campo.</p>
+<blockquote>
+<div><p><img alt="Campo Centro de Costos del Checklist Sobreescribe Usuario 1 de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/cost-center-field-of-the-checklist-overwrites-user-1-of-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 45. Campo Centro de Costos del Checklist Sobreescribe Usuario 1 de la Pestaña Línea de la Ventana Distribución Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>El checklist “<strong>Sobreescribe Usuario 3</strong>”,</p>
+<blockquote>
+<div><p><img alt="Checklist Sobreescribe Usuario 3 de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/checklist-overwrites-user-3-from-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 46. Checklist Sobreescribe Usuario 3 de la Pestaña Línea de la Ventana Distribución Contable</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al seleccionar el checklist “<strong>Sobreescribe Usuario 3</strong>”, no se habilita ningún campo.</p>
+</div>
+</div></blockquote>
+<p>El checklist “<strong>Sobreescribe Usuario 4</strong>”,</p>
+<blockquote>
+<div><p><img alt="Checklist Sobreescribe Usuario 4 de la Pestaña Línea de la Ventana Distribución Contable" src="../../../_images/checklist-overwrites-user-4-of-the-line-tab-of-the-accounting-distribution-window.png" /></p>
+<p>Imagen 47. Checklist Sobreescribe Usuario 4 de la Pestaña Línea de la Ventana Distribución Contable</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al seleccionar el checklist “<strong>Sobreescribe Usuario 4</strong>”, no se habilita ningún campo.</p>
+</div>
+</div></blockquote>
+<p>Regrese a la pestaña “<strong>Distribución</strong>” y ubique el campo “<strong>Porcentaje Total</strong>”, ubicado en la parte inferior izquierda de la misma. En este campo podrá visualizar el porcentaje total de todas las distribuciones definidas en cada uno de los registros de la pestaña “<strong>Línea</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Distribución Contable y Campo Porcentaje Total" src="../../../_images/accounting-distribution-tab-and-total-percentage-field.png" /></p>
+<p>Imagen 48. Pestaña Distribución Contable y Campo Porcentaje Total</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="consulta-de-distribucion-contable-aplicada">
+<h1><strong>Consulta de Distribución Contable Aplicada</strong><a class="headerlink" href="#consulta-de-distribucion-contable-aplicada" title="Permalink to this headline">¶</a></h1>
+<p>Ubique la factura por pagar “<strong>1000110</strong>” con monto total de “<strong>2.500.000,00</strong>”, expuesta anteriormente al principio del presente material y seleccione la opción “<strong>Contabilizado</strong>” ubicado en la parte inferior de la ventana “<strong>Documento por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Contabilizado de la Factura por Pagar" src="../../../_images/posted-invoice-payable-option.png" /></p>
+<p>Imagen 49. Opción Contabilizado de la Factura por Pagar</p>
+</div></blockquote>
+<p>Podrá visualizar el asiento de la distribución de la siguiente manera</p>
+<blockquote>
+<div><p><img alt="Asiento Contable de Distribución" src="../../../_images/distribution-accounting-entry.png" /></p>
+<p>Imagen 50. Asiento Contable de Distribución</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../accounting-setup-master/index.html" class="btn btn-neutral float-right" title="Configuración Contable (Maestros)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Distribución Contable" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

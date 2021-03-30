@@ -1,0 +1,472 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Detalles de Asientos Contables &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Estado de Cuenta" href="statement-of-accounts.html" />
+    <link rel="prev" title="Reportes Detallados" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Gestión Contable</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../type-of-application.html"><strong>Tipo de Aplicación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../accounting-element/index.html"><strong>Elemento Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../opening-accounting-period.html"><strong>Apertura de Período Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../unposted-documents.html"><strong>Documentos sin Aplicar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../accounting-dimensions.html"><strong>Dimensiones Contables</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../accounting-combination.html"><strong>Combinación Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../currency-conversion/index.html"><strong>Conversión Monetaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../gl-distribution/index.html"><strong>Distribución Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../accounting-setup-master/index.html"><strong>Configuración Contable (Maestros)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../transaction-accounting/index.html"><strong>Contabilidad de Transacciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../costing/index.html"><strong>Gestión de Costos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../gl-journal-batch/index.html"><strong>Diario Contable</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>Reportes Contables</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../financial-report/index.html"><strong>Informe Financiero</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html"><strong>Reportes Detallados</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>Detalles de Asientos Contables</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="statement-of-accounts.html"><strong>Estado de Cuenta</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="trial-balance.html"><strong>Balance de Prueba</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="journal-entry-journal.html"><strong>Asientos Diarios de Contabilidad</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="accounting-entry-by-period.html"><strong>Asientos Contables por Período</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="unconciled-accounting-records.html"><strong>Registros Contables No Conciliados</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><strong>Gestión Contable</strong></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Reportes Contables</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Reportes Detallados</strong></a> &raquo;</li>
+        
+      <li><strong>Detalles de Asientos Contables</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/adempiere/performance-analysis/accounting-reports/detailed-reports/accounting-entries-detail.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="detalles-de-asientos-contables">
+<span id="documento-detalles-de-asientos-contables"></span><h1><strong>Detalles de Asientos Contables</strong><a class="headerlink" href="#detalles-de-asientos-contables" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Análisis de Desempeño</strong>”, luego seleccione el reporte “<strong>Detalles de Asientos Contables</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../../_images/accounting-entries-details-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Detalles de Asientos Contables</strong>”, con diferentes campos que le permiten a los usuarios filtrar la información para generar el reporte según lo requerido por el mismo.</p>
+<blockquote>
+<div><p><img alt="Ventana Detalles de Asientos Contables" src="../../../../_images/accounting-entry-details-window.png" /></p>
+<p>Imagen 2. Ventana Detalles de Asientos Contables|</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Esquema Contable</strong>”, el esquema contable previamente definido para contabilizar las cuentas.</p>
+<blockquote>
+<div><p><img alt="Campo Esquema Contable de la Ventana Detalles de Asientos Contables" src="../../../../_images/accounting-scheme-field-of-the-accounting-entry-details-window.png" /></p>
+<p>Imagen 3. Campo Esquema Contable de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo <strong>Organización</strong>, la organización para la cual esta realizando el detalle de asientos contables.</p>
+<blockquote>
+<div><p><img alt="Campo Organización de la Ventana Detalles de Asientos Contables" src="../../../../_images/window-organization-field-accounting-entry-details.png" /></p>
+<p>Imagen 4. Campo Organización de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Contable</strong>”, el rango de tiempo en el cual fueron realizadas las transacciones y de las cuales requiere el reporte.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha Contable de la Ventana Detalles de Asientos Contables" src="../../../../_images/accounting-date-field-in-the-accounting-entry-details-window.png" /></p>
+<p>Imagen 5. Campo Fecha Contable de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de la Transacción</strong>”, el rango de tiempo en el cual fueron realizadas las transacciones y de las cuales requiere el reporte.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de la Transacción de la Ventana Detalles de Asientos Contables" src="../../../../_images/transaction-date-field-in-the-accounting-entry-details-window.png" /></p>
+<p>Imagen 6. Campo Fecha de la Transacción de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Período</strong>”, el rango de tiempo para filtrar la búsqueda de la información.</p>
+<blockquote>
+<div><p><img alt="Campo Período de la Ventana Detalles de Asientos Contables" src="../../../../_images/window-period-field-accounting-entry-details.png" /></p>
+<p>Imagen 7. Campo Período de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Código de Cuenta</strong>”, el código de cuenta correspondiente.</p>
+<blockquote>
+<div><p><img alt="Campo Código de Cuenta de la Ventana Detalles de Asientos Contables" src="../../../../_images/account-code-field-of-the-accounting-entry-details-window.png" /></p>
+<p>Imagen 8. Campo Código de Cuenta de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta</strong>”, la cuenta de la cual requiere el reporte.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta de la Ventana Detalles de Asientos Contables" src="../../../../_images/account-field-window-accounting-entry-details.png" /></p>
+<p>Imagen 9. Campo Cuenta de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Cuenta</strong>”, el tipo de cuenta correspondiente a la cuenta seleccionada.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Cuenta de la Ventana Detalles de Asientos Contables" src="../../../../_images/account-type-field-in-the-accounting-entry-details-window.png" /></p>
+<p>Imagen 10. Campo Tipo de Cuenta de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo <strong>Tipo de Aplicación</strong>, el tipo de aplicación por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Aplicación de la Ventana Detalles de Asientos Contables" src="../../../../_images/application-type-field-of-the-accounting-entry-details-window.png" /></p>
+<p>Imagen 11. Campo Tipo de Aplicación de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Categoría Contabilidad</strong>”, la categoría de contabilidad por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Categoría Contabilidad de la Ventana Detalles de Asientos Contables" src="../../../../_images/accounting-category-field-of-accounting-entry-details-window.png" /></p>
+<p>Imagen 12. Campo Categoría Contabilidad de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Presupuesto</strong>”, el presupuesto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Presupuesto de la Ventana Detalles de Asientos Contables" src="../../../../_images/budget-field-window-accounting-entry-details.png" /></p>
+<p>Imagen 13. Campo Presupuesto de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Ventana Detalles de Asientos Contables" src="../../../../_images/field-description-window-of-accounting-entries-details.png" /></p>
+<p>Imagen 14. Campo Descripción de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda por la cual requiere filtrar la información para generar el reporte “<strong>Detalles de Asientos Contables</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda de la Ventana Detalles de Asientos Contables" src="../../../../_images/window-currency-field-accounting-entry-details.png" /></p>
+<p>Imagen 15. Campo Moneda de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tasa</strong>”, la tasa por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Tasa de la Ventana Detalles de Asientos Contables" src="../../../../_images/window-rate-field-accounting-entry-details.png" /></p>
+<p>Imagen 16. Campo Tasa de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo de Socio del Negocio</strong>”, el grupo de socio del negocio por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Grupo de Socio del Negocio de la Ventana Detalles de Asientos Contables" src="../../../../_images/field-business-partner-group-window-accounting-entries-details.png" /></p>
+<p>Imagen 17. Campo Grupo de Socio del Negocio de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio de la Ventana Detalles de Asientos Contables" src="../../../../_images/business-partner-field-window-accounting-entry-details.png" /></p>
+<p>Imagen 18. Campo Socio del Negocio de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Categoría del Producto</strong>”, la categoría del producto por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Categoría del Producto de la Ventana Detalles de Asientos Contables" src="../../../../_images/window-product-category-field-accounting-entry-details.png" /></p>
+<p>Imagen 19. Campo Categoría del Producto de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Producto de la Ventana Detalles de Asientos Contables" src="../../../../_images/window-product-field-accounting-entry-details.png" /></p>
+<p>Imagen 20. Campo Producto de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Activo Fijo</strong>”, el activo fijo por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Activo Fijo de la Ventana Detalles de Asientos Contables" src="../../../../_images/fixed-asset-field-of-the-accounting-entry-details-window.png" /></p>
+<p>Imagen 21. Campo Activo Fijo de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>UPC/EAN</strong>”, el UPC/EAN por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo UP/EAN de la Ventana Detalles de Asientos Contables" src="../../../../_images/up-ean-field-of-accounting-entry-details-window.png" /></p>
+<p>Imagen 22. Campo UP/EAN de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>UM</strong>”, la UM por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo UM de la Ventana Detalles de Asientos Contables" src="../../../../_images/um-field-of-the-accounting-entry-details-window.png" /></p>
+<p>Imagen 23. Campo UM de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cantidad</strong>”, la cantidad por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad de la Ventana Detalles de Asientos Contables" src="../../../../_images/amount-field-of-the-accounting-entry-details-window.png" /></p>
+<p>Imagen 24. Campo Cantidad de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Ubicación</strong>”, la ubicación por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Ubicación de la Ventana Detalles de Asientos Contables" src="../../../../_images/window-location-field-accounting-entry-details.png" /></p>
+<p>Imagen 25. Campo Ubicación de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Impuesto</strong>”, el impuesto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Impuesto de la Ventana Detalles de Asientos Contables" src="../../../../_images/tax-field-of-the-accounting-entry-details-window.png" /></p>
+<p>Imagen 26. Campo Impuesto de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Actividad</strong>”, la actividad por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Actividad de la Ventana Detalles de Asientos Contables" src="../../../../_images/activity-field-of-the-accounting-entry-details-window.png" /></p>
+<p>Imagen 27. Campo Actividad de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Centro de Costos</strong>”, el centro de costo por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="Campo Centro de Costos de la Ventana Detalles de Asientos Contables" src="../../../../_images/window-cost-center-field-accounting-entry-details.png" /></p>
+<p>Imagen 28. Campo Centro de Costos de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>” para generar el reporte “<strong>Detalle de Asientos Contables</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción OK de la Ventana Detalles de Asientos Contables" src="../../../../_images/accounting-window-details-option-ok-option.png" /></p>
+<p>Imagen 29. Opción OK de la Ventana Detalles de Asientos Contables</p>
+</div></blockquote>
+<p>Podrá visualizar el reporte “<strong>Detalle de Asientos Contables</strong>” de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Reporte Detalles de Asientos Contables" src="../../../../_images/report-accounting-entry-details.png" /></p>
+<p>Imagen 30. Reporte Detalles de Asientos Contables</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="statement-of-accounts.html" class="btn btn-neutral float-right" title="Estado de Cuenta" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Reportes Detallados" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

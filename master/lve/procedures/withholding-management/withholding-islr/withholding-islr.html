@@ -1,0 +1,591 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Configuración Esencial de la Retención de ISLR &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Retención Municipal de Cuentas por Pagar en ADempiere" href="../withholding-municipality/index.html" />
+    <link rel="prev" title="Retención de ISLR de Cuentas por Pagar en ADempiere" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../human-resources/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../payroll/index.html"><strong>Gestión de Nóminas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../treasury-management/index.html"><strong>Gestión de Tesorería</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../import/index.html"><strong>Gestión de Importación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>Gestión de Retenciones</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../withholding-iva/index.html"><strong>Retención de IVA de Cuentas por Pagar en ADempiere</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html"><strong>Retención de ISLR de Cuentas por Pagar en ADempiere</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>Configuración Esencial de la Retención de ISLR</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#asociar-retencion-de-islr"><strong>Asociar Retención de ISLR</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ejecucion-de-la-estimacion-de-retenciones"><strong>Ejecución de la Estimación de Retenciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#generar-retencion-de-islr-fiscal"><strong>Generar Retención de ISLR Fiscal</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio"><strong>Imprimir Documento de la Retención Aplicada al Socio del Negocio</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../withholding-municipality/index.html"><strong>Retención Municipal de Cuentas por Pagar en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../withholding-declaration-cxp/index.html"><strong>Declaración de Retenciones de Cuentas por Pagar en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../withholding-cxc/index.html"><strong>Retenciones de Cuentas por Cobrar en ADempiere</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Retenciones</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Retención de ISLR de Cuentas por Pagar en ADempiere</strong></a> &raquo;</li>
+        
+      <li><strong>Configuración Esencial de la Retención de ISLR</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/lve/procedures/withholding-management/withholding-islr/withholding-islr.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configuracion-esencial-de-la-retencion-de-islr">
+<span id="documento-retencion-islr"></span><h1><strong>Configuración Esencial de la Retención de ISLR</strong><a class="headerlink" href="#configuracion-esencial-de-la-retencion-de-islr" title="Permalink to this headline">¶</a></h1>
+<p>ADempiere permite seleccionar por socio del negocio la retención de ISLR a aplicar en los documentos de compra/venta del mismo, a continuación se explica el procedimiento para seleccionar el ISLR en un socio del negocio determinado.</p>
+<p>Ubique en el menú de ADempiere la carpeta “<strong>Relación con Socios del Negocio</strong>”, luego seleccione la carpeta “<strong>Reglas de Socios del Negocio</strong>”, por último seleccione la ventana “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 1" src="../../../../_images/menu8.png" /></p>
+<p>Imagen 4. Menú de ADempiere</p>
+</div></blockquote>
+<p>Ubique el socio del negocio proveedor al cual se le va a configurar la retención de ISLR, para este ejemplo el socio del negocio proveedor es “<strong>Standard Standard</strong>”.</p>
+<blockquote>
+<div><p><img alt="Socio del Negocio" src="../../../../_images/socio5.png" /></p>
+<p>Imagen 5. Socio del Negocio Proveedor</p>
+</div></blockquote>
+<p>En la ventana principal “<strong>Socio del Negocio</strong>” verifique que en el campo “<strong>Tipo de Persona</strong>” se encuentre seleccionado el tipo de socio del negocio al que se le aplicará la retención de ISLR, en este campo debe indicar si el socio es persona jurídica domiciliada, persona jurídica no constituída domiciliada, persona jurídica no domiciliada, persona natural no residente, persona natural residente.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Persona" src="../../../../_images/tipoperso.png" /></p>
+<p>Imagen 6. Campo Tipo de Persona</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Proveedor</strong>” para configurar la retención de ISLR a aplicar al socio del negocio.</p>
+<blockquote>
+<div><p><img alt="Pestaña Proveedor" src="../../../../_images/proveedor1.png" /></p>
+<p>Imagen 7. Pestaña Proveedor</p>
+</div></blockquote>
+<p>Ubique en la parte inferior del documento los checklist para definir las retenciones a aplicar a un socio del negocio proveedor.</p>
+<blockquote>
+<div><p><img alt="Retenciones" src="../../../../_images/retenciones.png" /></p>
+<p>Imagen 8. Retenciones</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al tildar el checklist en los campos de retenciones ubicados en la parte inferior del documento, significa para ADempiere que no se aplicará dicha retención seleccionada al socio del negocio.</p>
+</div>
+</div></blockquote>
+<p>Para realizar este ejemplo de la retención de ISLR y observar el comportamiento de los checklist en ADempiere, se tildan los checklist referentes a retención de IVA y municipal.</p>
+<blockquote>
+<div><p><img alt="Checklist Retenciones" src="../../../../_images/check3.png" /></p>
+<p>Imagen 9. Checklist Retenciones</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde que solo debe tildar la retención que no se aplicará al socio del negocio proveedor que esta configurando y guarde los cambios realizados en el socio del negocio con ayuda del icono “<strong>Guardar Cambios</strong>” de la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+<div class="section" id="asociar-retencion-de-islr">
+<h1><strong>Asociar Retención de ISLR</strong><a class="headerlink" href="#asociar-retencion-de-islr" title="Permalink to this headline">¶</a></h1>
+<p>ADempiere permite asociar de tres (3) formas la retención de ISLR a aplicar en los documentos de compra/venta, a continuación se explica el procedimiento para asociar el ISLR a un cargo tipo servicio, a una factura determinada y a un producto tipo servicio.</p>
+<div class="section" id="asociar-islr-a-cargos-tipo-servicio">
+<h2><strong>Asociar ISLR a Cargos Tipo Servicio</strong><a class="headerlink" href="#asociar-islr-a-cargos-tipo-servicio" title="Permalink to this headline">¶</a></h2>
+<p>Ubique en el menú de ADempiere la carpeta “<strong>Análisis de Desempeño</strong>”, luego seleccione la carpeta “<strong>Reglas Contables</strong>” y por último seleccione la ventana “<strong>Cargo</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 2" src="../../../../_images/menucargo.png" /></p>
+<p>Imagen 10. Menú de ADempiere</p>
+</div></blockquote>
+<p>En el campo “<strong>Concepto de Retención de ISLR</strong>” de cada cargo se puede asociar un concepto para generar el impuesto, para este ejemplo se utiliza el cargo “<strong>Adiestramiento de Personal</strong>” y el concepto “<strong>Honorarios profesionales no mercantiles</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Concepto de Retención de ISLR en Ventana Cargo" src="../../../../_images/concepto1.png" /></p>
+<p>Imagen 11. Campo Concepto de Retención de ISLR en Ventana Cargo</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El tipo de concepto que se asocia al cargo le indica a ADempiere que al utilizarce dicho cargo en cualquier documento y con cualquier socio del negocio, siempre le va a aplicar la retención del concepto que tiene asociado el cargo, dicho concepto puede variar dependiendo de la actividad que este realizando el socio del negocio.</p>
+</div>
+</div>
+<div class="section" id="asociar-islr-directo-en-la-factura">
+<h2><strong>Asociar ISLR Directo en la Factura</strong><a class="headerlink" href="#asociar-islr-directo-en-la-factura" title="Permalink to this headline">¶</a></h2>
+<p>Ubique en el menú de ADempiere la carpeta “<strong>Gestión de Compras</strong>” y luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 3" src="../../../../_images/menufac.png" /></p>
+<p>Imagen 12. Menú de ADempiere</p>
+</div></blockquote>
+<p>En el campo “<strong>Concepto de Retención de ISLR</strong>” del documento se puede asociar un concepto para generar el impuesto, para este ejemplo se utiliza la factura “<strong>1000033</strong>” y el concepto “<strong>Honorarios profesionales no mercantiles</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Concepto de Retención de ISLR en Factura" src="../../../../_images/impfac.png" /></p>
+<p>Imagen 13. Campo Concepto de Retención de ISLR en Factura</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El concepto solo se puede asociar a una factura si la misma se encuentra en proceso de elaboración o en estado borrador, al estar en estado completo no se pueden modificar los campos de la misma; el concepto puede variar dependiendo de la actividad que este realizando el socio del negocio.</p>
+</div>
+</div>
+<div class="section" id="asociar-islr-al-producto-tipo-servicio">
+<h2><strong>Asociar ISLR al Producto Tipo Servicio</strong><a class="headerlink" href="#asociar-islr-al-producto-tipo-servicio" title="Permalink to this headline">¶</a></h2>
+<p>Ubique en el menú de ADempiere la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione la carpeta “<strong>Reglas de Gestión de Materiales</strong>”, por último seleccione la ventana “<strong>Producto</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 4" src="../../../../_images/menupro.png" /></p>
+<p>Imagen 14. Menú de ADempiere</p>
+</div></blockquote>
+<p>Verifique que el producto tenga seleccionado “<strong>Servicio</strong>” en el campo “<strong>Tipo de Producto</strong>”, para este ejemplo utilizaremos el producto “<strong>Standard Product</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Producto" src="../../../../_images/tipopro1.png" /></p>
+<p>Imagen 15. Campo Tipo de Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Concepto de Retención de ISLR</strong>” el concepto correspondiente para asociar al producto, para este ejemplo el concepto que se utiliza es “<strong>Honorarios profesionales no mercantiles</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Concepto de Retención de ISLR" src="../../../../_images/conceptopro.png" /></p>
+<p>Imagen 16. Campo Concepto de Retención de ISLR</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El concepto puede variar dependiendo de la actividad que este realizando el socio del negocio.</p>
+</div>
+</div>
+</div>
+<div class="section" id="ejecucion-de-la-estimacion-de-retenciones">
+<h1><strong>Ejecución de la Estimación de Retenciones</strong><a class="headerlink" href="#ejecucion-de-la-estimacion-de-retenciones" title="Permalink to this headline">¶</a></h1>
+<p>Ubique la factura a la cual le asocio la retención de ISLR, la misma debe estar en estado “<strong>Completo</strong>”, para este ejemplo se utiliza la factura número “<strong>1000155</strong>” del socio del negocio proveedor “<strong>Standard Standard</strong>”.</p>
+<blockquote>
+<div><p><img alt="Factura con Retención Asociada" src="../../../../_images/factura7.png" /></p>
+<p>Imagen 17. Factura con Retención Asociada</p>
+</div></blockquote>
+<p>En la barra de herramientas seleccione el icono “<strong>Visualiza Detalle</strong>” para apreciar donde es usado el documento, en este caso la factura.</p>
+<blockquote>
+<div><p><img alt="Icono Visualiza Detalle" src="../../../../_images/visudetalle.png" /></p>
+<p>Imagen 18. Icono Visualiza Detalle</p>
+</div></blockquote>
+<p>Podrá apreciar el menú desplegado por el icono “<strong>Visualiza Detalle</strong>”, el mismo muestra los documentos donde es utilizada la factura.</p>
+<blockquote>
+<div><p><img alt="Menú del Icono Visualiza Detalle" src="../../../../_images/submenu.png" /></p>
+<p>Imagen 19. Menú del Icono Visualiza Detalle</p>
+<p>La opción “<strong>Socio del Negocio</strong>” muestra el documento del socio del negocio utilizado en la factura número “<strong>1000155</strong>” seleccionada para el ejemplo, puede ser utilizada para corroborar que las retenciones aplicadas a la factura sean las mismas configuradas para el socio del negocio.</p>
+<blockquote>
+<div><p><img alt="Opción Socio del Negocio" src="../../../../_images/menusocio1.png" /></p>
+<p>Imagen 20. Opción Socio del Negocio</p>
+</div></blockquote>
+<p>La opción “<strong>Retención Generada</strong>” muestra el documento de retención aplicado a la factura número “<strong>1000155</strong>” seleccionada para el ejemplo.</p>
+<blockquote>
+<div><p><img alt="Opción Retención Generada" src="../../../../_images/opcionretencion.png" /></p>
+<p>Imagen 21. Opción Retención Generada</p>
+</div></blockquote>
+<p>La opción “<strong>Log de Retención</strong>” muestra el log de la retención no aplicada a la factura número “<strong>1000155</strong>” seleccionada para el ejemplo.</p>
+<blockquote>
+<div><p><img alt="Opción Log de Retención" src="../../../../_images/opcionlog.png" /></p>
+<p>Imagen 22. Opción Log de Retención</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>ADempiere le genera al usuario por medio del icono “<strong>Visualiza Detalle</strong>”, las alertas donde indica cuales fueron las retenciones aplicadas (<strong>Retención Generada</strong>) y cuales retenciones no fueron aplicadas (<strong>Log</strong>) según la configuración que tiene un socio del negocio determinado.</p>
+</div>
+</div>
+<div class="section" id="generar-retencion-de-islr-fiscal">
+<h1><strong>Generar Retención de ISLR Fiscal</strong><a class="headerlink" href="#generar-retencion-de-islr-fiscal" title="Permalink to this headline">¶</a></h1>
+<p>Ubique la carpeta “<strong>Manejo de Retenciones</strong>” en el menú de ADempiere, luego seleccione la ventana de busqueda inteligente “<strong>Generar Retenciones</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 5" src="../../../../_images/menugenerar.png" /></p>
+<p>Imagen 23. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá apreciar la ventana de busqueda inteligente con diferentes campos para filtrar la busqueda.</p>
+<blockquote>
+<div><p><img alt="Ventana de Busqueda Inteligente" src="../../../../_images/ventana6.png" /></p>
+<p>Imagen 24. Ventana de Busqueda Inteligente</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”,  el socio del negocio relacionado a la retención que requiere generar. Para este ejemplo utilizaremos el socio del negocio “<strong>Standard Standard</strong>”.</p>
+<blockquote>
+<div><p><img alt="Filtrar por Socio del Negocio" src="../../../../_images/selecsocio.png" /></p>
+<p>Imagen 25. Filtrar por Socio del Negocio</p>
+</div></blockquote>
+<p>En el campo “<strong>Organización</strong>”, la organización relacionada a la retención que requiere generar.</p>
+<blockquote>
+<div><p><img alt="filtrar por organización" src="../../../../_images/filtrarorg.png" /></p>
+<p>Imagen 26. Campo Organización de la Retención</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>F. Documento</strong>”, el rango de fecha en la cual fue generado el documento por pagar relacionado a la retención que requiere generar.</p>
+<blockquote>
+<div><p><img alt="filtrar por fecha del documento" src="../../../../_images/filtrarfechadoc.png" /></p>
+<p>Imagen 27. Campo Fecha del Documento de la Retención</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Retención</strong>”, el tipo de retención por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="filtrar por retención" src="../../../../_images/filtrarretencion.png" /></p>
+<p>Imagen 28. Campo Retención</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda Hacia</strong>”, la moneda a la cual requiere convertir el monto de la retención.</p>
+<blockquote>
+<div><p><img alt="campo moneda hacia" src="../../../../_images/monedahacia.png" /></p>
+<p>Imagen 29. Campo Moneda Hacia</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Factura Fuente</strong>”, la factura por la cual requiere filtrar la información para generar la retención.</p>
+<blockquote>
+<div><p><img alt="filtrar por factura fuente" src="../../../../_images/filtrarfactfuent.png" /></p>
+<p>Imagen 30. Campo Factura Fuente</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Retención</strong>”, el tipo de retención por el cual requiere filtrar la búsqueda.</p>
+<blockquote>
+<div><p><img alt="filtrar por tipo de retención" src="../../../../_images/filtrartiporetencion.png" /></p>
+<p>Imagen 31. Campo Tipo de Retención</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El campo cuenta con tres opciones que son “<strong>IM_Retencion de Impuesto Municipal</strong>, “<strong>ISLR_Retención de I.S.L.R.</strong>” y “<strong>I.V.A_Retención de I.V.A.</strong>”. Recuerde que la selección de este campo va a depender de la retención que se va a aplicar a la factura de cuentas por pagar.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda del documento y desde la cual se requiere convertir el monto de la retención.</p>
+<blockquote>
+<div><p><img alt="campo moneda" src="../../../../_images/moneda4.png" /></p>
+<p>Imagen 32. Campo Moneda</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Busqueda</strong>” para buscar por los campos introducidos.</p>
+<blockquote>
+<div><p><img alt="Opción Comenzar Busqueda" src="../../../../_images/opcioncomenzar.png" /></p>
+<p>Imagen 33. Opción Comenzar Busqueda</p>
+</div></blockquote>
+<p>Podrá apreciar las retenciones que el socio del negocio seleccionado tiene en los diferentes documentos.</p>
+<blockquote>
+<div><p><img alt="Retenciones del Socio del Negocio" src="../../../../_images/socioretenciones.png" /></p>
+<p>Imagen 34. Retenciones del Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione la retención a generar y la opción “<strong>OK</strong>” para generar la retención al socio del negocio seleccionado.</p>
+<blockquote>
+<div><p><img alt="Selección de Retención y Opción OK" src="../../../../_images/ok5.png" /></p>
+<p>Imagen 35. Selección de Retención y Opción OK</p>
+</div></blockquote>
+<p>Podrá apreciar que el proceso se realizó correctamente con el mensaje “<strong>OK</strong>” mostrado por ADempiere al final de la ventana de busqueda inteligente.</p>
+<blockquote>
+<div><p><img alt="Mensaje OK" src="../../../../_images/final1.png" /></p>
+<p>Imagen 36. Mensaje OK</p>
+</div></blockquote>
+</div>
+<div class="section" id="imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio">
+<h1><strong>Imprimir Documento de la Retención Aplicada al Socio del Negocio</strong><a class="headerlink" href="#imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio" title="Permalink to this headline">¶</a></h1>
+<p>Ubique en el menú de ADempiere la carpeta “<strong>Gestión de Compras</strong>” y luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 6" src="../../../../_images/menudoc.png" /></p>
+<p>Imagen 37. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá apreciar la ventana “<strong>Documentos por Pagar</strong>” donde se encuentran todos los registros que posee la misma.</p>
+<blockquote>
+<div><p><img alt="Ventana Documentos por Pagar" src="../../../../_images/ventanadoc.png" /></p>
+<p>Imagen 38. Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Encontrar Registro</strong>” en la barra de herramientas de ADempiere, para realizar una busqueda avanzada del documento de retención generado.</p>
+<blockquote>
+<div><p><img alt="Icono Encontrar Registro" src="../../../../_images/iconobuscar.png" /></p>
+<p>Imagen 39. Icono Encontrar Registro</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Avanzado</strong>” para filtrar la busqueda por “<strong>Socio del Negocio</strong>”, “<strong>Tipo de Documento de Retención de Cuentas por Pagar</strong>” y “<strong>Fecha de la Retención</strong>”.</p>
+<blockquote>
+<div><p><img alt="Buscador Avanzado" src="../../../../_images/buscador1.png" /></p>
+<p>Imagen 40. Buscador Avanzado</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Nuevo</strong>” para generar el número de filas de busqueda que se necesitan, para este ejemplo se necesitan tres (3) filas.</p>
+<blockquote>
+<div><p><img alt="Icono Nuevo" src="../../../../_images/nuevo4.png" /></p>
+<p>Imagen 41. Icono Nuevo</p>
+<p>Seleccione en la primera fila la opción “<strong>Socio del Negocio</strong>” y introduzca el nombre del socio del negocio en la columna “<strong>Valor Consulta</strong>”, para este ejemplo el socio del negocio es “<strong>Standard Standard</strong>”.</p>
+<blockquote>
+<div><p><img alt="Selección Socio del Negocio" src="../../../../_images/nomsocio.png" /></p>
+<p>Imagen 42. Selección Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en la segunda fila la opción “<strong>Tipo de Documento Destino</strong>” y seleccione en la columna “<strong>Valor Consulta</strong>” el tipo de documento destino, para este ejemplo el tipo de documento destino es “<strong>Retención de ISLR de Cuentas por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Selección Tipo de Documento Destino" src="../../../../_images/docdestino.png" /></p>
+<p>Imagen 43. Selección Tipo de Documento Destino</p>
+</div></blockquote>
+<p>Seleccione en la tercera fila la opción “<strong>Fecha Contable</strong>” y seleccione en la columna “<strong>Valor Consulta</strong>” la fecha en la que se realizo la retención, para este ejemplo la fecha es “<strong>11/11/2020</strong>”.</p>
+<blockquote>
+<div><p><img alt="Selección Fecha Contable" src="../../../../_images/fecha3.png" /></p>
+<p>Imagen 44. Selección Fecha Contable</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>” para realizar la busqueda filtrada por los campos seleccionados.</p>
+<blockquote>
+<div><p><img alt="Opción OK" src="../../../../_images/opcionok.png" /></p>
+<p>Imagen 45. Opción OK</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione en la barra de herramientas de ADempiere el icono “<strong>Imprimir</strong>”, para imprimir el documento de retención buscado.</p>
+<blockquote>
+<div><p><img alt="Opción Imprimir" src="../../../../_images/imprimir2.png" /></p>
+<p>Imagen 46. Opción Imprimir</p>
+</div></blockquote>
+<ol class="arabic" start="3">
+<li><p>Podrá apreciar el documento de retención de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Documento de Retención" src="../../../../_images/doc.png" /></p>
+<p>Imagen 47. Documento de Retención</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../withholding-municipality/index.html" class="btn btn-neutral float-right" title="Retención Municipal de Cuentas por Pagar en ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Retención de ISLR de Cuentas por Pagar en ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,499 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Importación &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Anticipo a Proveedores en Tránsito" href="advance-payment-to-transit-providers.html" />
+    <link rel="prev" title="Gestión de Importación" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../human-resources/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payroll/index.html"><strong>Gestión de Nóminas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../treasury-management/index.html"><strong>Gestión de Tesorería</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Gestión de Importación</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Importación</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#crear-orden-de-compra-de-importacion"><strong>Crear Orden de Compra de Importación</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#crear-tipo-de-conversion"><strong>Crear Tipo de Conversión</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#crear-tasa-de-conversion"><strong>Crear Tasa de Conversión</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#asignar-tipo-de-conversion-a-orden-de-compra-de-importacion"><strong>Asignar Tipo de Conversión a Orden de Compra de Importación</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#crear-documento-por-pagar"><strong>Crear Documento por Pagar</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cancelacion-de-factura"><strong>Cancelación de Factura</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#conciliacion-de-pagos"><strong>Conciliación de Pagos</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="advance-payment-to-transit-providers.html"><strong>Anticipo a Proveedores en Tránsito</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="intermediary-advance-settlement.html"><strong>Liquidación Anticipo Intermediario</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../withholding-management/index.html"><strong>Gestión de Retenciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión de Importación</strong></a> &raquo;</li>
+        
+      <li><strong>Importación</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/lve/procedures/import/import.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="importacion">
+<span id="documento-importacion"></span><h1><strong>Importación</strong><a class="headerlink" href="#importacion" title="Permalink to this headline">¶</a></h1>
+<p>La importación consiste en ingresar al país los productos comprados procedentes de una empresa que se encuentra fuera del territorio nacional. Dicha importación tiene como consecuencia para la empresa nacional la generación de gastos aduanales, sujetos al pago de tributos o al amparo de las franquicias correspondientes.</p>
+<p>El presente material elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la importación de productos en ADempiere, en su versión 3.9.2 para la localización Venezuela.</p>
+<div class="section" id="crear-orden-de-compra-de-importacion">
+<span id="paso-crear-orden-importacion"></span><h2><strong>Crear Orden de Compra de Importación</strong><a class="headerlink" href="#crear-orden-de-compra-de-importacion" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>” y luego seleccione la ventana “<strong>Órdenes de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 1" src="../../../_images/menu15.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Realice el procedimiento regular para realizar una orden de compra, explicado en el material <a class="reference internal" href="../../../adempiere/requisition-to-invoice/purchase-order/direct-order/purchase-order.html#documento-orden-de-compra"><span class="std std-ref">Registro de Orden de Compra Directa</span></a>.</p>
+<blockquote>
+<div><p><img alt="Orden de Compra sin Completar" src="../../../_images/orden1.png" /></p>
+<p>Imagen 2. Orden de Compra Importación sin Completar</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El documento debe quedar en estado borrador.</p>
+</div>
+</div>
+<div class="section" id="crear-tipo-de-conversion">
+<h2><strong>Crear Tipo de Conversión</strong><a class="headerlink" href="#crear-tipo-de-conversion" title="Permalink to this headline">¶</a></h2>
+<p>Realice el procedimiento regular para crear el tipo de conversión necesaria, dicho procedimiento se encuentra explicado en el documento <a class="reference internal" href="../../../adempiere/performance-analysis/currency-conversion/currency-conversion.html#paso-crear-conversion"><span class="std std-ref">Tipo de Conversión</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre" src="../../../_images/conversion-type-window-name-field1.png" /></p>
+<p>Imagen 3. Tipo de Conversión</p>
+</div></blockquote>
+</div>
+<div class="section" id="crear-tasa-de-conversion">
+<h2><strong>Crear Tasa de Conversión</strong><a class="headerlink" href="#crear-tasa-de-conversion" title="Permalink to this headline">¶</a></h2>
+<p>Realice el procedimiento regular para crear la tasa de conversión necesaria, dicho procedimiento se encuentra explicado en el documento <a class="reference internal" href="../../../adempiere/performance-analysis/currency-conversion/currency-conversion.html#paso-crear-tasa-desde-ventana-moneda"><span class="std std-ref">Tasa de Conversión desde la Ventana Moneda</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Factor de Base a Destino" src="../../../_images/factor1.png" /></p>
+<p>Imagen 4. Tasa de Conversión</p>
+</div></blockquote>
+</div>
+<div class="section" id="asignar-tipo-de-conversion-a-orden-de-compra-de-importacion">
+<span id="paso-asignar-conversion-orden"></span><h2><strong>Asignar Tipo de Conversión a Orden de Compra de Importación</strong><a class="headerlink" href="#asignar-tipo-de-conversion-a-orden-de-compra-de-importacion" title="Permalink to this headline">¶</a></h2>
+<p>Regrese a la ventana “<strong>Órdenes de Compra</strong>” y ubique la orden de compra que se encuentra en estado “<strong>Borrador</strong>”, creada anteriormente.</p>
+<blockquote>
+<div><p><img alt="Orden de Compra sin Completar" src="../../../_images/orden1.png" /></p>
+<p>Imagen 5. Orden de Compra Importación sin Completar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Conversión</strong>” el tipo de conversión creado. Para ejemplificar el registro es utilizado el tipo de conversión “<strong>OCI-1000024_Estandar 1</strong>”, creado anteriormente.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Conversión 2" src="../../../_images/tipoconver2.png" /></p>
+<p>Imagen 6. Campo Tipo de Conversión</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar los cambios realizados seleccionando el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Completar</strong>”, ubicada en la parte inferior derecha del documento.</p>
+<blockquote>
+<div><p><img alt="Opción Completar 1" src="../../../_images/completar15.png" /></p>
+<p>Imagen 7. Opción Completar Documento</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="Acción Completar" src="../../../_images/accion11.png" /></p>
+<p>Imagen 8. Acción Completar</p>
+</div></blockquote>
+<p>Podrá visualizar en la parte inferior de la orden de compra, el campo en estado “<strong>Completo</strong>” y el resultado de la conversión configurada anteriormente.</p>
+<blockquote>
+<div><p><img alt="Orden de Compra Completa" src="../../../_images/resultado1.png" /></p>
+<p>Imagen 9. Orden de Compra Completa</p>
+</div></blockquote>
+</div>
+<div class="section" id="crear-documento-por-pagar">
+<span id="paso-crear-factura-importacion"></span><h2><strong>Crear Documento por Pagar</strong><a class="headerlink" href="#crear-documento-por-pagar" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>” y luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 4" src="../../../_images/menu42.png" /></p>
+<p>Imagen 10 Menú de ADempiere</p>
+</div></blockquote>
+<p>Realice el procedimiento regular para realizar un documento por pagar, explicado en el material <a class="reference internal" href="../../../adempiere/requisition-to-invoice/invoice/invoice.html#documento-documento-por-pagar"><span class="std std-ref">Registro de Documento por Pagar</span></a>.</p>
+<blockquote>
+<div><p><img alt="Factura de Importación" src="../../../_images/facturaimpor.png" /></p>
+<p>Imagen 11. Factura de Cuentas por Pagar Importación</p>
+</div></blockquote>
+</div>
+<div class="section" id="cancelacion-de-factura">
+<span id="paso-crear-caja-importacion"></span><h2><strong>Cancelación de Factura</strong><a class="headerlink" href="#cancelacion-de-factura" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 5" src="../../../_images/menucaja.png" /></p>
+<p>Imagen 12. Menú de ADempiere</p>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el documento “<strong>Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Organización 1" src="../../../_images/org16.png" /></p>
+<p>Imagen 13. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para ejemplificar el registro es utilizada la opción “<strong>Pago Internacional</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento" src="../../../_images/tipodoc12.png" /></p>
+<p>Imagen 14. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la caja correspondiente al registro que esta realizando. Para ejemplificar el registro es utilizada la opción “<strong>Caja Importación - –_PAGO USD</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta Bancaria" src="../../../_images/cuenta1.png" /></p>
+<p>Imagen 15. Campo Cuenta Bancaria</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Factura</strong>”, la factura de cuenta por pagar correspondiente a la importacipón que esta realizando. Para ejemplificar el registro es utilizada la factura “<strong>1000024</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Factura" src="../../../_images/factura11.png" /></p>
+<p>Imagen 16. Campo Factura</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar los cambios realizados seleccionando el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Completar</strong>” ubicada en la parte inferior del documento.</p>
+<blockquote>
+<div><p><img alt="Opción Completar 2" src="../../../_images/completar23.png" /></p>
+<p>Imagen 17. Opción Completar</p>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="Acción Completar" src="../../../_images/accion11.png" /></p>
+<p>Imagen 18. Acción Completar</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="conciliacion-de-pagos">
+<span id="paso-cierre-caja-importacion"></span><h2><strong>Conciliación de Pagos</strong><a class="headerlink" href="#conciliacion-de-pagos" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Cierre de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 6" src="../../../_images/menucierre1.png" /></p>
+<p>Imagen 19. Menú de ADempiere</p>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>” ubicado en la barra de herramientas de ADempiere, para realizar un nuevo registro del documento “<strong>Cierre de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo 3" src="../../../_images/nuevo3.png" /></p>
+<p>Imagen 20. Icono Registro Nuevo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el documento “<strong>Cierre de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Organización 2" src="../../../_images/org23.png" /></p>
+<p>Imagen 21. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para ejemplificar el registro es utilizada la opción “<strong>Cierre de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento 2" src="../../../_images/tipodoc21.png" /></p>
+<p>Imagen 22. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la misma caja seleccionada en el documento “<strong>Caja</strong>” creado. Para ejemplificar el registro es utilizada la opción “<strong>Caja Importación - –_PAGO USD</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta Bancaria 2" src="../../../_images/cuenta2.png" /></p>
+<p>Imagen 23. Campo Cuenta Bancaria</p>
+</div></blockquote>
+<p>Seleccione el proceso “<strong>Crear a Partir de Pagos</strong>” para crear el cierre de caja a partir de los pagos.</p>
+<blockquote>
+<div><p><img alt="Opción Crear Desde" src="../../../_images/creardesde1.png" /></p>
+<p>Imagen 24. Proceso Crear a Partir de Pagos</p>
+<p>Podrá visualizar la ventana “<strong>Crear extracto bancario a partir de pagos</strong>”, con los campos necesarios para filtrar la búsqueda.</p>
+<blockquote>
+<div><p><img alt="Ventana del Proceso Crear Desde" src="../../../_images/vent2.png" /></p>
+<p>Imagen 25. Ventana del Proceso Crear a Partir de Pagos</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>” para buscar los documentos creados al socio del negocio intermediario.</p>
+<blockquote>
+<div><p><img alt="Opción Comenzar Búsqueda" src="../../../_images/comenzarbusq1.png" /></p>
+<p>Imagen 26. Opción Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Seleccione el pago con monto en negativo creado anteriormente desde el documento “<strong>Caja</strong>” y la opción “<strong>OK</strong>” para cargar la información a la ventana “<strong>Cierre de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Seleccionar Pagos 1" src="../../../_images/selecpagos1.png" /></p>
+<p>Imagen 27. Seleccionar Pagos</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde seleccionar el icono “<strong>Refrescar</strong>” en la barra de herramientas de ADempiere, para refrescar el registro en la ventana “<strong>Cierre de Caja</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Completar</strong>”, para completar el documento “<strong>Cierre de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Completar 3" src="../../../_images/completar33.png" /></p>
+<p>Imagen 28. Opción Completar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>Ok</strong>” para completar el documento “<strong>Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Acción Completar" src="../../../_images/accion11.png" /></p>
+<p>Imagen 29. Acción Completar</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="advance-payment-to-transit-providers.html" class="btn btn-neutral float-right" title="Anticipo a Proveedores en Tránsito" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Gestión de Importación" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,349 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Transferencia Bancaria de Nómina &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Selección de Pago" href="../payment-selection/index.html" />
+    <link rel="prev" title="Registro de Transferencia Bancaria" href="bank-transfer.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Transferencia Bancaria</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="bank-transfer.html"><strong>Registro de Transferencia Bancaria</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Transferencia Bancaria de Nómina</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../payment-selection/index.html"><strong>Selección de Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../print-export/index.html"><strong>Imprimir / Exportar Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payment/index.html"><strong>Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection/index.html"><strong>Cobro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-refund/index.html"><strong>Caja Reembolso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-per-diems/index.html"><strong>Caja Viáticos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection-cash/index.html"><strong>Caja Cobranza</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pay-assignment/index.html"><strong>Asignación de Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-closing/index.html"><strong>Cierre de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../automatic-conciliations/index.html"><strong>Conciliaciones Automáticas</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Transferencia Bancaria</strong></a> &raquo;</li>
+        
+      <li><strong>Transferencia Bancaria de Nómina</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/open-items/bank-transfer/bank-transfer-payroll.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="transferencia-bancaria-de-nomina">
+<span id="documento-transferencia-bancaria-de-nomina"></span><h1><strong>Transferencia Bancaria de Nómina</strong><a class="headerlink" href="#transferencia-bancaria-de-nomina" title="Permalink to this headline">¶</a></h1>
+<p>Luego de completar la selección de pago y de generar los pagos de nómina en la ventana imprimir exportar pagos procedemos a realizar la transferencia bancaria, ubicamos en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione “<strong>Transferencia Bancaria</strong>”. Este proceso es realizado con la finalidad que la empresa cancele a la cuenta de caja el monto total cancelado a los empleados por la nómina procesada.</p>
+<p>Cabe acotar que debe realizar la transferencia según el monto transferido a cada empleado</p>
+<blockquote>
+<div><p>Si usted utiliza un txt para transferirle a todo el personal puede realizar una transferencia por el monto total del pago a los trabajadores.</p>
+<p>Si usted paga particularmente a cada uno de sus empleados debe realizar una transferencia por cada pago que fué realizado para cada uno de sus empleados.</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde que al realizar la transferencia usted esta es registrando cada uno de los pagos que salen del banco. Por tal motivo debe tener especial cuidado en cuanto a monto y a número de referencia</p>
+</div>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria Desde</strong>” el nombre la cuenta bancaria original que utiliza la compañía para cancelar la nómina a los empleado. Esa será la cuenta que emitirá la transferencia bancaria.</p>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria a Transferir</strong>” el nombre de la cuenta de la caja, esa cuenta es igual a la cuenta bancaria que usted seleccionó en su selección de pago, la cual se identifica al final del nombre con la palabra tránsito. Esa cuenta representará la cuenta que recibirá la transferencia bancaria.</p>
+<p>Seleccione en el campo “<strong>Socio de Negocio</strong>”, el socio de negocio registrado con los datos de su compañía.</p>
+<p>Seleccione en el campo  “<strong>Moneda</strong>” debe registrar la moneda con la cual se está cancelando la nómina, en este caso será bolívares (VES).</p>
+<p>Seleccione en el campo “<strong>Cargo</strong>” el cargo denominado Efectivo en Tránsito Nómina, esté cargo se utiliza para indicar contablemente el registro del pago de la nómina.</p>
+<p>Seleccione en el campo “<strong>No. del Documento</strong>” debe registrar el mismo número de documento que le generó la selección de pago creada para la cancelación de su proceso de nómina. En caso de que realice transferencia bancarias particulares debe registrar el número de referencia de la transferencia.</p>
+<p>Seleccione en el campo “<strong>Documento Destino</strong>” el mismo número de documento que registró en el campo Nro. del Documento.</p>
+<p>Seleccione en el campo “<strong>Monto</strong>” el monto total de la selección de pago que realizó anteriormente, ubique en la selección de pago el campo total total y allí encontrará el monto total de la selección de pago.</p>
+<p>Seleccione en el campo “<strong>Descripción</strong>” una breve descripción de la transferencia realizada.</p>
+<p>Seleccione en el campo “<strong>Fecha de Estado de Cuenta</strong>” la misma fecha con la que registró su selección de pago.</p>
+<p>Seleccione en el campo “<strong>Fecha Contable</strong>” la misma fecha con la que registró su selección de pago.</p>
+<blockquote>
+<div><p><img alt="Transferencia Bancaria" src="../../../_images/transferenciabancaria.png" /></p>
+<p>Imagen 1. Transferencia Bancaria</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Por favor NO tildar el check que dice conciliación automática</p>
+</div>
+</div></blockquote>
+<p>Luego de que tenga todos los datos correctos proceda a culminar el proceso de transferencia bancaria tildando la opción de “<strong>OK</strong>”</p>
+<blockquote>
+<div><p><img alt="Opción Ok" src="../../../_images/oktransferencia.png" /></p>
+<p>Imagen 2. Opción OK</p>
+</div></blockquote>
+<p>Después de esto le aparecerá una ventana indicando que su transferencia bancaria fué creada</p>
+<blockquote>
+<div><p><img alt="Transferencia Creada" src="../../../_images/trasferenciacreada.png" /></p>
+<p>Imagen 3. Transferencia Creada</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../payment-selection/index.html" class="btn btn-neutral float-right" title="Selección de Pago" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="bank-transfer.html" class="btn btn-neutral float-left" title="Registro de Transferencia Bancaria" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,433 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Extracto Bancario con Pagos en Lotes &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Banco del Caribe" href="bancaribe/bancaribe.html" />
+    <link rel="prev" title="Gestión de Tesorería" href="../index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../human-resources/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../payroll/index.html"><strong>Gestión de Nóminas</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>Gestión de Tesorería</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Extracto Bancario con Pagos en Lotes</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#configuracion-esencial"><strong>Configuración Esencial</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#generacion-de-archivo"><strong>Generación de Archivo</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#resultado-obtenido"><strong>Resultado Obtenido</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../import/index.html"><strong>Gestión de Importación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../withholding-management/index.html"><strong>Gestión de Retenciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Tesorería</strong></a> &raquo;</li>
+        
+      <li><strong>Extracto Bancario con Pagos en Lotes</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/lve/procedures/treasury-management/upload-bank-statement-to-bank/batch-payments.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="extracto-bancario-con-pagos-en-lotes">
+<span id="documento-txt-con-pagos-en-lotes"></span><h1><strong>Extracto Bancario con Pagos en Lotes</strong><a class="headerlink" href="#extracto-bancario-con-pagos-en-lotes" title="Permalink to this headline">¶</a></h1>
+<p>ADempiere permite procesar pagos en lotes y generar su respectivo archivo “<strong>.txt</strong>” para ser cargado al banco requerido por el usuario. Para ello, es necesario contar con ciertos requerimientos y que se cumpla con los flujos de trabajo correctos.</p>
+<p>Este proceso permite que se realice una gran cantidad de pagos a diferentes socios del negocio, en el cual la empresa u organización debe clasificar o agrupar mediante una selección de pago, todos los procesos de nómina o en su defecto, todas las facturas de cuentas por pagar a proveedores que requiere cancelar.</p>
+<div class="section" id="configuracion-esencial">
+<h2><strong>Configuración Esencial</strong><a class="headerlink" href="#configuracion-esencial" title="Permalink to this headline">¶</a></h2>
+<p>Principalmente, el servicio de ADempiere debe contar con la siguiente configuración por socio del negocio, en la pestaña “<strong>Cuenta Bancaria</strong>” del registro del mismo. Esta configuración se debe cumplir de manera “<strong>Obligatoria</strong>” para los socios que cumplen los roles de proveedor y empleado.</p>
+<p>Suponiendo que se tiene un socio del negocio llamado “<strong>Estándar</strong>”. Se debe realizar el registro del mismo como lo indica el procedimiento explicado en los documentos <a class="reference internal" href="../../../../adempiere/master/business-partner/vendor/partner-vendor.html#documento-socio-proveedor"><span class="std std-ref">Registro de Proveedor</span></a> y <a class="reference internal" href="../../../../adempiere/master/business-partner/employee/employee.html#documento-socio-empleado"><span class="std std-ref">Registro de Empleado</span></a>, según sea el caso del socio.</p>
+<p>Es necesario que todos los socios del negocio cuenten con el registro de los siguientes campos que contiene la pestaña “<strong>Cuenta Bancaria</strong>”, ya que con dicha información es creado el archivo “<strong>.txt</strong>” de cada banco soportado por ADempiere:</p>
+<ul>
+<li><p>“<strong>Usuario</strong>”: El usuario de acceso en ADempiere definido para el socio del negocio que se encuentra configurando. La selección de este campo permite que ADempiere tome el número de teléfono ingresado en el campo “<strong>Teléfono</strong>”, el usuario definido en el campo “<strong>Código</strong>” y el nombre ingresado en el campo “<strong>Nombre</strong>”, del registro de la pestaña “<strong>Contacto (Usuario)</strong>” del socio del negocio, cuando sea requerido en el construcción del archivo “<strong>.txt</strong>”. Un ejemplo de este campo puede ser “<strong>02550000000</strong>”, “<strong>EstandarUsuario</strong>” y “<strong>Estandar Proveedor</strong>”.</p>
+<blockquote>
+<div><p><img alt="pestaña contacto usuario" src="../../../../_images/user-contact-tab.png" /></p>
+<p>Imagen 1. Configuración de Contacto Usuario de la Ventana Socio del Negocio</p>
+</div></blockquote>
+</li>
+<li><p>“<strong>Banco</strong>”: Banco donde el socio del negocio posee una cuenta bancaria. Este puede ser “<strong>BFC Banco Fondo Común, C.A. Banco Universal</strong>”.</p></li>
+<li><p>“<strong>No. De Cuenta</strong>”: Número de cuenta bancaria del socio del negocio en el banco indicado anteriormente. Un ejemplo de este campo puede ser “<strong>01510000000000000000</strong>”.</p></li>
+<li><p>“<strong>Nombre</strong>”: Nombre del socio del negocio titular de la cuenta bancaria indicada anteriormente. Para este ejemplo se tiene como nombre “<strong>Proveedor Estándar</strong>”.</p></li>
+<li><p>“<strong>No. Seguro Social</strong>”: Número de cédula de identidad o registro de información fiscal (RIF), del socio del negocio titular de la cuenta bancaria. Un ejemplo de este campo puede ser “<strong>V00000000</strong>”.</p></li>
+<li><p>“<strong>Cta. Correo Electrónico</strong>”: La dirección de correo electrónico del titular de la cuenta bancaria indicada anteriormente.</p></li>
+</ul>
+<p><img alt="pestaña cuenta bancaria de la ventana socio del negocio" src="../../../../_images/bank-account-tab-of-the-business-partner-window.png" /></p>
+<p>Imagen 2. Configuración Bancaria de la Ventana Socio del Negocio</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si desconoce el procedimiento para cargar en ADempiere la información bancaria del socio del negocio, puede consultar los documentos <a class="reference internal" href="../../../../adempiere/master/business-partner/vendor/partner-vendor.html#documento-socio-proveedor"><span class="std std-ref">Registro de Proveedor</span></a> y <a class="reference internal" href="../../../../adempiere/master/business-partner/employee/employee.html#documento-socio-empleado"><span class="std std-ref">Registro de Empleado</span></a>.</p>
+</div>
+</div>
+<div class="section" id="generacion-de-archivo">
+<h2><strong>Generación de Archivo</strong><a class="headerlink" href="#generacion-de-archivo" title="Permalink to this headline">¶</a></h2>
+<p>Para obtener un extracto bancario o archivo en formato “<strong>.txt</strong>”, debe existir un documento de “<strong>Selección de Pago</strong>” indicando la cuenta desde la cual se requiere ejecutar las transferencias bancarias. Para la elaboración de este documento se puede realizar el procedimiento explicado en el material <a class="reference internal" href="../../../../adempiere/open-items/payment-selection/payment-selection-cxp.html#documento-seleccion-de-pago"><span class="std std-ref">Registro desde Selección de Pago</span></a>, en el cual se incluyen todas las facturas de cuentas por pagar a proveedores que se van a cancelar desde la cuenta bancaria seleccionada. Adicional a ello, se puede realizar el procedimiento explicado en el material <a class="reference internal" href="../../../../adempiere/open-items/payment-selection/payment-selection-payroll.html#documento-seleccion-pago-de-nomina"><span class="std std-ref">Registro desde Nómina</span></a>, en el cual se incluyen todos procesos de nómina que se van a cancelar desde la cuenta bancaria seleccionada.</p>
+<p>Continuando con el ejemplo expuesto anteriormente, se crea el documento de selección de pago número “<strong>1000035</strong>”.</p>
+<blockquote>
+<div><p><img alt="ventana selección de pagos" src="../../../../_images/payment-selection-window2.png" /></p>
+<p>Imagen 3. Ventana Selección de Pagos</p>
+</div></blockquote>
+<p>Documento en el cual se tiene asociada la factura por pagar número “<strong>1000150</strong>”, con monto de “<strong>7.500.000,00</strong>”. Factura en la cual se encuentra involucrado el socio del negocio “<strong>Estándar</strong>” como socio proveedor.</p>
+<blockquote>
+<div><p><img alt="pestaña línea selección de pagos" src="../../../../_images/payment-selection-line-tab.png" /></p>
+<p>Imagen 4. Pestaña Línea Selección de Pagos</p>
+</div></blockquote>
+<p>Al momento de generar el archivo en formato “<strong>.txt</strong>”, ADempiere toma de la pestaña “<strong>Cuenta Bancaria</strong>” los datos de los socios del negocio involucrados en el documento seleccionado en el campo “<strong>Selección de Pago</strong>” de la ventana “<strong>Imprimir/Exportar Pagos</strong>”.</p>
+<blockquote>
+<div><p><img alt="ventana imprimir exportar pagos" src="../../../../_images/print-window-export-payments.png" /></p>
+<p>Imagen 5. Ventana Imprimir/Exportar Pagos</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si desconoce los procedimientos para registrar en ADempiere los pagos de nómina y los pagos a proveedores, puede consultar el documento <a class="reference internal" href="../../../../adempiere/human-resources-management/payroll/payment-payroll/payment-payroll.html#documento-pago-de-nomina"><span class="std std-ref">Registro de Pagos de Nómina</span></a>, para cancelar la nómina de los empleados. Adicional a ello, puede consultar los documentos <a class="reference internal" href="../../../../adempiere/open-items/payment-selection/payment-order-from-purchase-order.html#documento-orden-de-pago-desde-orden"><span class="std std-ref">Registro desde Orden</span></a>, <a class="reference internal" href="../../../../adempiere/open-items/payment-selection/pay-order.html#documento-orden-de-pago"><span class="std std-ref">Registro desde Factura</span></a>, <a class="reference internal" href="../../../../adempiere/open-items/payment-selection/payment-selection-cxp.html#documento-seleccion-de-pago"><span class="std std-ref">Registro desde Selección de Pago</span></a> y <a class="reference internal" href="../../../../adempiere/open-items/print-export/print-export.html#documento-imprimir-exportar"><span class="std std-ref">Registro de Imprimir / Exportar Pagos</span></a>, para cancelar las cuentas por pagar a proveedores.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="resultado-obtenido">
+<h2><strong>Resultado Obtenido</strong><a class="headerlink" href="#resultado-obtenido" title="Permalink to this headline">¶</a></h2>
+<p>Finalmente, se puede visualizar el archivo descargado automáticamente desde ADempiere para corroborar la información.</p>
+<p>Un ejemplo del archivo generado en formato “<strong>.txt</strong>”, sin seleccionar el usuario en la pestaña “<strong>Cuenta Bancaria</strong>”, puede ser el siguiente:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">HDRBANESCO</span>        <span class="n">ED</span>  <span class="mi">95</span><span class="n">BPAYMULP</span>
+<span class="mi">01</span><span class="n">SCV</span>                                <span class="mi">9</span>  <span class="mi">1000035</span>                            <span class="mi">20201008000000</span>
+<span class="mi">021000035</span>                       <span class="n">J000000000</span>       <span class="n">Compaa</span> <span class="n">Estndar</span>                     <span class="mi">000000750000000</span><span class="n">VES</span> <span class="mi">0134000000000000000</span>               <span class="n">BANESCO</span>    <span class="mi">20201008</span>
+<span class="mi">0300000000</span>                      <span class="mi">000000750000000</span><span class="n">VES01510000000000000000</span>          <span class="mi">0151</span>          <span class="n">V00000000</span>        <span class="n">Proveedor</span> <span class="n">Estndar</span>                                                     <span class="n">estandar</span><span class="nd">@ejmplo</span><span class="o">.</span><span class="n">com</span>                                                                                                                                                                                      <span class="mi">425</span>
+<span class="mi">06000000000000001000000000000001000000750000000</span>
+</pre></div>
+</div>
+<p>Un ejemplo del archivo generado en formato “<strong>.txt</strong>”, seleccionando el usuario en la pestaña “<strong>Cuenta Bancaria</strong>”, puede ser el siguiente:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">HDRBANESCO</span>        <span class="n">ED</span>  <span class="mi">95</span><span class="n">BPAYMULP</span>
+<span class="mi">01</span><span class="n">SCV</span>                                <span class="mi">9</span>  <span class="mi">1000039</span>                            <span class="mi">20201012000000</span>
+<span class="mi">021000039</span>                       <span class="n">J000000000</span>       <span class="n">Compaa</span> <span class="n">Estndar</span>                     <span class="mi">000000464000000</span><span class="n">VES</span> <span class="mi">01340000000000000000</span>              <span class="n">BANESCO</span>    <span class="mi">20201012</span>
+<span class="mi">0300000000</span>                      <span class="mi">000000464000000</span><span class="n">VES01510000000000000000</span>          <span class="mi">0151</span>          <span class="n">V00000000</span>        <span class="n">Proveedor</span> <span class="n">Estndar</span>                                                     <span class="n">estandar</span><span class="nd">@ejmplo</span><span class="o">.</span><span class="n">com</span>                                                   <span class="mi">02550000000</span>              <span class="n">EstandarUsuario</span>  <span class="n">Estandar</span> <span class="n">Proveedor</span>                                                                       <span class="mi">425</span>
+<span class="mi">06000000000000001000000000000001000000464000000</span>
+</pre></div>
+</div>
+<p>El archivo en formato “<strong>.txt</strong>” generado por ADempiere, debe ser cargado al banco desde el cual requiere que sean ejecutadas las transferencias bancarias.</p>
+<p><a class="reference external" href="http://erpya.com">ERPyA</a> pretende ofrecer una explicación eficiente a nuestros clientes del estándar de extracto bancario a través de una guía fácil y sencilla para así obtener resultados exitosos en la versión 3.9.2 de ADempiere en la localización Venezuela. A continuación se explica el estándar que se debe tener por banco para generar un extracto bancario desde ADempiere y poder cargar el mismo al banco requerido por el usuario.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="bancaribe/bancaribe.html"><strong>Banco del Caribe</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bancaribe/bancaribe.html#archivo-para-pagos-a-otros-bancos"><strong>Archivo para Pagos a Otros Bancos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="bancaribe/bancaribe.html#archivo-para-pagos-del-mismo-banco-del-caribe"><strong>Archivo para Pagos del Mismo Banco del Caribe</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="banesco/banesco.html"><strong>Banco Banesco</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="banesco/banesco.html#banesco-proveedores"><strong>Banesco Proveedores</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="banesco/banesco.html#banesco-nomina"><strong>Banesco Nómina</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="banplus/banplus.html"><strong>Banco Banplus</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="banplus/banplus.html#banplus-proveedores"><strong>Banplus Proveedores</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="banplus/banplus.html#banplus-nomina"><strong>Banplus Nómina</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bfc/bfc.html"><strong>Banco Fondo Común</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bfc/bfc.html#bfc-proveedores"><strong>BFC Proveedores</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bod/bod.html"><strong>Banco Occidental de Descuento</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bod/bod.html#archivo-para-pagos"><strong>Archivo para Pagos</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="exterior/exterior.html"><strong>Banco Exterior</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="exterior/exterior.html#exterior-proveedores"><strong>Exterior Proveedores</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="exterior/exterior.html#exterior-nomina"><strong>Exterior Nómina</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="venezuela/venezuela.html"><strong>Banco de Venezuela</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="venezuela/venezuela.html#archivo-para-pagos"><strong>Archivo para Pagos</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bnc/bnc.html"><strong>Banco Nacional de Crédito</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bnc/bnc.html#archivo-para-pagos-de-nomina"><strong>Archivo para Pagos de Nómina</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="mercantil/mercantil.html"><strong>Banco Mercantil</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="mercantil/mercantil.html#mercantil-proveedores"><strong>Mercantil Proveedores</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="mercantil/mercantil.html#mercantil-proveedores-facil"><strong>Mercantil Proveedores Facil</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="mercantil/mercantil.html#mercantil-nomina"><strong>Mercantil Nómina</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="mercantil/mercantil.html#mercantil-nomina-facil"><strong>Mercantil Nómina Facil</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="provincial/provincial.html"><strong>Banco Provincial</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="provincial/provincial.html#provincial-proveedores"><strong>Provincial Proveedores</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="provincial/provincial.html#provincial-nomina"><strong>Provincial Nómina</strong></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="bancaribe/bancaribe.html" class="btn btn-neutral float-right" title="Banco del Caribe" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../index.html" class="btn btn-neutral float-left" title="Gestión de Tesorería" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

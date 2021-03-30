@@ -1,0 +1,560 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Configuración del Esquema de Lista de Precios &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Configuración de Lista de Precios Base" href="base-price-list-setup.html" />
+    <link rel="prev" title="Lista de Precios" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Ventas</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../commission/index.html"><strong>Comisión de Ventas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sales-region/index.html"><strong>Región de Ventas</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Lista de Precios</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Configuración del Esquema de Lista de Precios</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="base-price-list-setup.html"><strong>Configuración de Lista de Precios Base</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="create-price-list-from-another-price-list.html"><strong>Crear Lista de Precios desde otra Lista de Precios</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="create-price-list-from-last-oc-processed.html"><strong>Crear Lista de Precios desde Última OC Procesada</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="create-product-entries.html"><strong>Crear Entradas de Productos en Lista de Precios</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../proposal/index.html"><strong>Propuesta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sales-order/index.html"><strong>Orden de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../invoice-customer/index.html"><strong>Documento por Cobrar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../generate-invoice-from-departure-order.html"><strong>Generar Factura desde Orden de Salida</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../generate-invoice-from-departure-order.html#generar-factura-desde-orden-de-salida-consolidado-en-un-documento"><strong>Generar Factura desde Orden de Salida Consolidado en un Documento</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shipment/index.html"><strong>Entregas (Cliente)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../credit-note-cxc.html"><strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../debit-note-cxc.html"><strong>Nota de Débito</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Ventas</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Lista de Precios</strong></a> &raquo;</li>
+        
+      <li><strong>Configuración del Esquema de Lista de Precios</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/quote-to-invoice/price-list/price-list-schema-configuration.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configuracion-del-esquema-de-lista-de-precios">
+<span id="documento-configuracion-del-esquema-de-lista-de-precios"></span><h1><strong>Configuración del Esquema de Lista de Precios</strong><a class="headerlink" href="#configuracion-del-esquema-de-lista-de-precios" title="Permalink to this headline">¶</a></h1>
+<p>El esquema de lista de precios se puede configurar por tipo de conversión en diferentes monedas, para aplicar a los productos diversos márgenes de ganacias o descuentos, según el requerimiento de la organización para la cual se configura dicho esquema.</p>
+<p>A continuación, se explica el procedimiento a seguir para configurar un esquema de lista de precios.</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione la carpeta “<strong>Reglas de Gestión de Materiales</strong>”, por último seleccione la ventana “<strong>Esquema de Lista de Precios</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de esquema de lista de precios" src="../../../_images/price-list-outline-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá viualizar la ventana “<strong>Esquema de Lista de Precios</strong>”, con los registros del esquema de lista de precios definidos para la organización.</p>
+<blockquote>
+<div><p><img alt="ventana esquema de lista de precios" src="../../../_images/price-list-schema-window.png" /></p>
+<p>Imagen 2. Ventana Esquema de Lista de Precios</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="icono registro nuevo de la ventana esquema de lista de precios" src="../../../_images/new-register-icon-in-the-price-list-schema-window.png" /></p>
+<p>Imagen 3. Icono Registro Nuevo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong> la organización para la cual se encuentra realizando el registro.</p>
+<blockquote>
+<div><p><img alt="campo organización de la ventana esquema de lista de precios" src="../../../_images/organization-field-of-the-price-list-schema-window.png" /></p>
+<p>Imagen 4. Campo Organización</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre</strong>”, el nombre del esquema de lista de precios que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo nombre de la ventana esquema de lista de precios" src="../../../_images/price-list-schema-window-name-field.png" /></p>
+<p>Imagen 5. Campo Nombre</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción del registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la ventana esquema de lista de precios" src="../../../_images/price-list-schema-window-description-field.png" /></p>
+<p>Imagen 6. Campo Descripción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Desde</strong>”, la fecha de inicio de validez del registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo valido desde de la ventana esquema de lista de precios" src="../../../_images/valid-field-from-the-price-list-schema-window.png" /></p>
+<p>Imagen 7. Campo Válido Desde</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Descuento</strong>”, el tipo de cálculo del descuento comercial.</p>
+<blockquote>
+<div><p><img alt="campo tipo de descuento de la ventana esquema de lista de precios" src="../../../_images/discount-type-field-of-the-price-list-schema-window.png" /></p>
+<p>Imagen 8. Campo Tipo de Descuento</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la ventana esquema de lista de precios" src="../../../_images/save-changes-icon-of-price-list-schema-window.png" /></p>
+<p>Imagen 9. Icono Guardar Cambios</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Línea de Esquema</strong>” y proceda al llenado de los campo correspondientes.</p>
+<blockquote>
+<div><p><img alt="pestaña línea de esquema de la ventana esquema de lista de precios" src="../../../_images/schema-line-tab-of-the-price-list-schema-window.png" /></p>
+<p>Imagen 10. Pestaña Línea de Esquema</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Conversión</strong>”, el tipo de conversión con el cual se va a trabajar. Para este ejemplo el tipo de conversión utilizado es “<strong>BCV</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo tipo de conversión de la pestaña línea de esquema" src="../../../_images/conversion-type-field-of-the-outline-line-tab.png" /></p>
+<p>Imagen 11. Campo Tipo de Conversión</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El tipo de conversión seleccionado en el esquema de lista de precios, debe ser el mismo de la lista de precios.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de Conversión</strong>”, la fecha de conversión de la moneda.</p>
+<blockquote>
+<div><p>Esta fecha indica el inicio del periodo de validez del registro que se encuentra realizando.</p>
+<p><img alt="campo fecha de conversión de la pestaña línea de esquema" src="../../../_images/conversion-date-field-of-the-outline-line-tab.png" /></p>
+<p>Imagen 12. Campo Fecha de Conversión</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p>Al seleccionar un socio del negocio, la configuración que se realice en el presente registro, tendrá efecto solamente sobre dicho socio al momento de seleccionar el mismo en alguna transacción.</p>
+<p><img alt="campo socio del negocio de la pestaña línea de esquema" src="../../../_images/business-partner-field-of-outline-line-tab.png" /></p>
+<p>Imagen 13. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p>Al seleccionar un producto, la configuración que se realice en el presente registro, tendrá efecto solamente sobre dicho producto al momento de seleccionar el mismo en alguna transacción.</p>
+<p><img alt="campo producto de la pestaña línea de esquema" src="../../../_images/product-field-of-the-outline-line-tab.png" /></p>
+<p>Imagen 14. Campo Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Categoría del Producto</strong>”, la categoría de producto correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p>Al seleccionar una categoría de producto, la configuración que se realice en el presente registro, tendrá efecto solamente sobre dicha categoría al momento de seleccionar la misma en alguna transacción.</p>
+<p><img alt="campo categoría del producto de la pestaña línea de esquema" src="../../../_images/product-category-field-of-the-outline-line-tab.png" /></p>
+<p>Imagen 15. Campo Categoría del Producto</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al configurar el esquema de lista de precios por categoría de producto y procesar la lista de precios llamando dicho esquema, ADempiere no tomará en cuenta aquellos productos que se encuentren en una categoría diferente a la que fue incluida en el esquema.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo de Producto</strong>”, el grupo de producto correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p>Al seleccionar un grupo de producto, la configuración que se realice en el presente registro, tendrá efecto solamente sobre dicho grupo al momento de seleccionar el mismo en alguna transacción.</p>
+<p><img alt="campo grupo de producto de la pestaña línea de esquema" src="../../../_images/product-group-field-of-the-outline-line-tab.png" /></p>
+<p>Imagen 16. Campo Grupo de Producto</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al configurar el esquema de lista de precios por grupo de producto y procesar la lista de precios llamando dicho esquema, ADempiere no tomará en cuenta aquellos productos que se encuentren en un grupo diferente al que fue incluido en el esquema.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Clase de Producto</strong>”, la clase de producto correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p>Al seleccionar una clase de producto, la configuración que se realice en el presente registro, tendrá efecto solamente sobre dicha clase al momento de seleccionar la misma en alguna transacción.</p>
+<p><img alt="campo clase de producto de la pestaña línea de esquema" src="../../../_images/product-class-field-of-the-outline-line-tab.png" /></p>
+<p>Imagen 17. Campo Clase de Producto</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al configurar el esquema de lista de precios por clase de producto y procesar la lista de precios llamando dicho esquema, ADempiere no tomará en cuenta aquellos productos que se encuentren en una clase diferente a la que fue incluida en el esquema.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Clasificación de Producto</strong>”, la clasificación de producto correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p>Al seleccionar una clasificación de producto, la configuración que se realice en el presente registro, tendrá efecto solamente sobre dicha clasificación al momento de seleccionar la misma en alguna transacción.</p>
+<p><img alt="campo clasificación de producto de la pestaña línea de esquema" src="../../../_images/product-classification-field-of-the-outline-line-tab.png" /></p>
+<p>Imagen 18. Campo Clasificación de Producto</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al configurar el esquema de lista de precios por clasificación de producto y procesar la lista de precios llamando dicho esquema, ADempiere no tomará en cuenta aquellos productos que se encuentren en una clasificación diferente a la que fue incluida en el esquema.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Línea de Producto</strong>”, la línea del producto correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo línea de producto de la pestaña línea de esquema" src="../../../_images/product-line-field-of-the-outline-line-tab.png" /></p>
+<p>Imagen 19. Campo Línea de Producto</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Grupo 1</strong>”, el grupo 1 correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo grupo uno de la pestaña línea de esquema" src="../../../_images/group-one-field-of-the-outline-line-tab.png" /></p>
+<p>Imagen 20. Campo Grupo 1</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Grupo 2</strong>”, el grupo 2 correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo grupo dos de la pestaña línea de esquema" src="../../../_images/group-two-field-of-the-outline-line-tab.png" /></p>
+<p>Imagen 21. Campo Grupo 2</p>
+</div></blockquote>
+<p>El campo “<strong>Base del Precio de Lista</strong>, indica el precio a usar como la base para el cálculo de una nueva lista de precios.</p>
+<blockquote>
+<div><p>El presente campo contiene predeterminada la opción “<strong>Precio de Lista</strong>”.</p>
+<p><img alt="campo base del precio de lista de la pestaña línea de esquema" src="../../../_images/base-field-of-the-list-price-of-the-outline-line-tab.png" /></p>
+<p>Imagen 22. Campo Base del Precio de Lista</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Margen Mínimo sobre el precio de lista</strong>”, el margen mínimo sobre el precio de lista.</p>
+<blockquote>
+<div><p>El margen mínimo sobre el precio de lista indica el margen mínimo para un producto. El margen es calculado substrayendo el precio de lista original del nuevo precio calculado. Si el campo contiene “<strong>0.00</strong>”, el margen es ignorado.</p>
+<p><img alt="campo margen mínimo sobre el precio de lista de la pestaña línea de esquema" src="../../../_images/minimum-margin-field-on-list-price-of-the-outline-line-tab.png" /></p>
+<p>Imagen 23. Campo Margen Mínimo sobre el precio de lista</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Sobreprecio del Precio de Lista</strong>”, el sobreprecio del precio de lista.</p>
+<blockquote>
+<div><p>El total de sobrecargo en el precio de lista indica el total a ser adicionado al precio antes de la multiplicación.</p>
+<p><img alt="campo sobreprecio del precio de lista de la pestaña línea de esquema" src="../../../_images/markup-field-of-the-list-price-on-the-outline-line-tab.png" /></p>
+<p>Imagen 24. Campo Sobreprecio del Precio de Lista</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Margen Máximo sobre el Precio de Lista</strong>”, el margen máximo sobre el precio de lista.</p>
+<blockquote>
+<div><p>El margen máximo del precio de lista indica el margen máximo para un producto. El margen es calculado restando el precio de lista original del precio nuevo calculado. Si este campo contiene “<strong>0.00</strong>”, entonces es ignorado.</p>
+<p><img alt="campo margen máximo sobre el precio de lista de la pestaña línea de esquema" src="../../../_images/maximum-margin-field-on-list-price-of-the-outline-line-tab.png" /></p>
+<p>Imagen 25. Campo Margen Máximo sobre el Precio de Lista</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>% Descuento Sobre Precio de Lista</strong>”, el porcentaje (%) de descuento sobre precio de lista.</p>
+<blockquote>
+<div><p>El porcentaje de descuento sobre precio de lista, indica el porcentaje de descuento que será restado del precio base. Un monto negativo indica el porcentaje que será añadido al precio base.</p>
+<p><img alt="campo porcentaje descuento sobre precio de lista de la pestaña línea de esquema" src="../../../_images/discount-percentage-field-on-list-price-of-the-outline-line-tab.png" /></p>
+<p>Imagen 26. Campo % Descuento Sobre Precio de Lista</p>
+</div></blockquote>
+<p>El campo “<strong>Redondeo del Precio de Lista</strong>”, indica como el precio de lista final será redondeado.</p>
+<blockquote>
+<div><p>La opción seleccionada establece la regla de redondeo para la lista de precios final.</p>
+<p><img alt="campo redondeo del precio de lista de la pestaña línea de esquema" src="../../../_images/list-price-rounding-field-on-the-outline-line-tab.png" /></p>
+<p>Imagen 27. Campo Redondeo del Precio de Lista</p>
+</div></blockquote>
+<p>El campo “<strong>Base para Precio Estándar</strong>”, indica el precio a usar como la base para el cálculo del nuevo precio estándar.</p>
+<blockquote>
+<div><p>El presente campo tiene predeterminada la opción “<strong>Precio Estándar</strong>”.</p>
+<p><img alt="campo base para precio estándar de la pestaña línea de esquema" src="../../../_images/base-field-for-standard-price-from-outline-line-tab.png" /></p>
+<p>Imagen 28. Campo Base para Precio Estándar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Margen Mínimo del Precio Estándar</strong>”, el margen mínimo del precio estándar.</p>
+<blockquote>
+<div><p>El margen mínimo del precio estándar indica el margen mínimo para un producto. El margen se calcula restando el precio estándar original del precio nuevamente calculado. Si este campo contiene “<strong>0.00</strong>” entonces es ignorado.</p>
+<p><img alt="campo margen mínimo del precio estándar de la pestaña línea de esquema" src="../../../_images/minimum-margin-field-of-the-standard-price-of-the-outline-line-tab.png" /></p>
+<p>Imagen 29. Campo Margen Mínimo del Precio Estándar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Total de Sobreprecio al Precio Estándar</strong>”, el total de sobreprecio al precio estándar.</p>
+<blockquote>
+<div><p>El total de sobreprecio del precio estándar, indica el total a ser añadido al precio antes de la multiplicación.</p>
+<p><img alt="campo total de sobreprecio al precio estándar de la pestaña línea de esquema" src="../../../_images/total-markup-field-at-the-standard-price-of-the-outline-line-tab.png" /></p>
+<p>Imagen 30. Campo Total de Sobreprecio al Precio Estándar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Margen Máximo del Precio Estándar</strong>”, el margen máximo del precio estándar.</p>
+<blockquote>
+<div><p>El margen máximo del precio estándar indica el margen máximo para un producto. El margen se calcula restando el precio estándar original del precio nuevamente calculado. Si este campo contiene “<strong>0.00</strong>” entonces es ignorado.</p>
+<p><img alt="campo margen máximo del precio estándar de la pestaña línea de esquema" src="../../../_images/maximum-margin-field-of-the-standard-price-of-the-outline-line-tab.png" /></p>
+<p>Imagen 31. Campo Margen Máximo del Precio Estándar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>% Descuento Sobre Precio Estándar</strong>”, el porcentaje (%) de descuento sobre precio estándar.</p>
+<blockquote>
+<div><p>El porcentaje de descuento en el precio estándar, indica el porcentaje de descuento que será restado del precio base. Un monto negativo indica el porcentaje que será añadido al precio base.</p>
+<p><img alt="campo porcentaje de descuento sobre precio estándar de la pestaña línea de esquema" src="../../../_images/discount-percentage-field-on-standard-price-of-the-outline-line-tab.png" /></p>
+<p>Imagen 32. Campo % Descuento Sobre Precio Estándar</p>
+</div></blockquote>
+<p>El campo “<strong>Redondeo del Precio Estándar</strong>”, indica como el precio estándar será redondeado.</p>
+<blockquote>
+<div><p>La opción seleccionada establece la regla de redondeo para el precio calculado.</p>
+<p><img alt="campo redondeo del precio estándar de la pestaña línea de esquema" src="../../../_images/standard-price-rounding-field-on-the-outline-line-tab.png" /></p>
+<p>Imagen 33. Campo Redondeo del Precio Estándar</p>
+</div></blockquote>
+<p>El campo “<strong>Base para Precio Límite</strong>”, identifica el precio a ser usado como la base para calcular una nueva lista de precios.</p>
+<blockquote>
+<div><p>El presente campo tiene predeterminada la opción “<strong>Precio Límite (OC)</strong>”</p>
+<p><img alt="campo base para precio límite de la pestaña línea de esquema" src="../../../_images/base-field-for-limit-price-of-the-outline-line-tab.png" /></p>
+<p>Imagen 34. Campo Base para Precio Límite</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Margen Mínimo del Precio Límite</strong>”, el margen mínimo del precio límite.</p>
+<blockquote>
+<div><p>El margen mínimo del precio límite, indica el margen mínimo para un producto. El margen se calcula restando el precio límite original del nuevo precio calculado. Si este campo contiene “<strong>0.00</strong>”, entonces es ignorado.</p>
+<p><img alt="campo margen mínimo del precio límite de la pestaña línea de esquema" src="../../../_images/minimum-margin-field-of-the-limit-price-of-the-outline-line-tab.png" /></p>
+<p>Imagen 35. Campo Margen Mínimo del Precio Límite</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Total de Sobreprecio al Precio Límite</strong>”, el total de sobreprecio al precio límite.</p>
+<blockquote>
+<div><p>El total de sobreprecio al precio límite, indica el total a ser adicionado al precio límite anterior a la multiplicación.</p>
+<p><img alt="campo total de sobreprecio al precio límite de la pestaña línea de esquema" src="../../../_images/total-markup-to-limit-price-field-on-the-outline-line-tab.png" /></p>
+<p>Imagen 36. Campo Total de Sobreprecio al Precio Límite</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Margen Máximo del Precio Límite</strong>”, el margen máximo del precio límite.</p>
+<blockquote>
+<div><p>Identifica el margen máximo para un producto. El margen se calcula restando el precio límite original del nuevo precio calculado. Si este campo contiene “<strong>0.00</strong>”, entonces es ignorado</p>
+<p><img alt="campo margen máximo del precio límite de la pestaña línea de esquema" src="../../../_images/maximum-margin-field-of-the-limit-price-of-the-outline-line-tab.png" /></p>
+<p>Imagen 37. Campo Margen Máximo del Precio Límite</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>% Descuento Sobre Precio Límite</strong>”, el porcentaje (%) de descuento sobre precio límite.</p>
+<blockquote>
+<div><p>El porcentaje de descuento sobre el precio límite, indica el porcentaje de descuento que será restado del precio base. Un monto negativo indica el porcentaje que será añadido al precio base.</p>
+<p><img alt="campo porcentaje de descuento sobre precio límite de la pestaña línea de esquema" src="../../../_images/discount-percentage-field-on-limit-price-of-the-outline-line-tab.png" /></p>
+<p>Imagen 38. Campo % Descuento Sobre Precio Límite</p>
+</div></blockquote>
+<p>El campo “<strong>Redondeo del Precio Límite</strong>”, indica el redondeo (si existe alguno) que se aplicará al precio final en la lista de precios.</p>
+<blockquote>
+<div><p>La opción seleccionada establece la regla de redondeo para el resultado final.</p>
+<p><img alt="campo redondeo del precio límite de la pestaña línea de esquema" src="../../../_images/limit-price-rounding-field-on-the-outline-line-tab.png" /></p>
+<p>Imagen 39. Campo Redondeo del Precio Límite</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la pestaña línea de esquema" src="../../../_images/tab-save-changes-icon-outline-line.png" /></p>
+<p>Imagen 40. Icono Guardar Cambios</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="base-price-list-setup.html" class="btn btn-neutral float-right" title="Configuración de Lista de Precios Base" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Lista de Precios" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

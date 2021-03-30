@@ -1,0 +1,763 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Banco Mercantil &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../../" src="../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../_static/jquery.js"></script>
+        <script src="../../../../../_static/underscore.js"></script>
+        <script src="../../../../../_static/doctools.js"></script>
+        <script src="../../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Banco Provincial" href="../provincial/provincial.html" />
+    <link rel="prev" title="Banco Nacional de Crédito" href="../bnc/bnc.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html"><strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../human-resources/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../payroll/index.html"><strong>Gestión de Nóminas</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html"><strong>Gestión de Tesorería</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../batch-payments.html"><strong>Extracto Bancario con Pagos en Lotes</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../batch-payments.html#configuracion-esencial"><strong>Configuración Esencial</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../batch-payments.html#generacion-de-archivo"><strong>Generación de Archivo</strong></a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../batch-payments.html#resultado-obtenido"><strong>Resultado Obtenido</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../import/index.html"><strong>Gestión de Importación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../withholding-management/index.html"><strong>Gestión de Retenciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><strong>Gestión de Tesorería</strong></a> &raquo;</li>
+        
+          <li><a href="../batch-payments.html"><strong>Extracto Bancario con Pagos en Lotes</strong></a> &raquo;</li>
+        
+      <li><strong>Banco Mercantil</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../../_sources/lve/procedures/treasury-management/upload-bank-statement-to-bank/mercantil/mercantil.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="banco-mercantil">
+<span id="documento-banco-mercantil"></span><h1><strong>Banco Mercantil</strong><a class="headerlink" href="#banco-mercantil" title="Permalink to this headline">¶</a></h1>
+<p>Para la exportación de los archivos desde ADempiere al banco mercantil, <a class="reference external" href="http://erpya.com">ERPyA</a> soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.</p>
+<p>El banco cuenta con los documentos <a class="reference download internal" download="" href="../../../../../_downloads/cc560c1bd5a17140583e5b392c9e1648/CONTRATO_PAGO_A_PROVEEDORES.doc"><code class="xref download docutils literal notranslate"><span class="pre">Contrato</span> <span class="pre">Pago</span> <span class="pre">a</span> <span class="pre">Proveedores</span></code></a>, <a class="reference download internal" download="" href="../../../../../_downloads/875acf35a8e1f4412fa439675a6e7bd0/FORMATO_ESTRUCTURA_NOMINA_.doc"><code class="xref download docutils literal notranslate"><span class="pre">Formato</span> <span class="pre">Estructura</span> <span class="pre">Nómina</span></code></a>, <a class="reference download internal" download="" href="../../../../../_downloads/7820ebe622bad8a2212f3ef12ec9bdb3/FORMATO_ESTRUCTURA_PROVEEDORES.xls"><code class="xref download docutils literal notranslate"><span class="pre">Formato</span> <span class="pre">Estructura</span> <span class="pre">Proveedores</span></code></a>, <a class="reference download internal" download="" href="../../../../../_downloads/be707566b232239502b26d71adaeecce/Formato_Mercantil.doc"><code class="xref download docutils literal notranslate"><span class="pre">Formato</span> <span class="pre">Mercantil</span></code></a>, <a class="reference download internal" download="" href="../../../../../_downloads/70e7c2783d3c2ec367639c3362be50dd/Identificacion_de_Clientes_y_o_Prov.doc"><code class="xref download docutils literal notranslate"><span class="pre">Identificación</span> <span class="pre">de</span> <span class="pre">Clientes</span> <span class="pre">y</span> <span class="pre">Proveedores</span></code></a>, <a class="reference download internal" download="" href="../../../../../_downloads/d15293aa3dcecca7479b5df9c5f397c5/MD.007_Servicio_Pago_Proveedores_Sector_Privado_Co.doc"><code class="xref download docutils literal notranslate"><span class="pre">Contrato</span> <span class="pre">Servicio</span> <span class="pre">Pago</span> <span class="pre">Proveedores</span> <span class="pre">Sector</span> <span class="pre">Privado</span></code></a>, <a class="reference download internal" download="" href="../../../../../_downloads/77fa40a7d62b6e5a3eb888f85a5cafd7/FORMATO_DE_PAGO_A_PROVEEDORES-FACIL.pdf"><code class="xref download docutils literal notranslate"><span class="pre">FORMATO</span> <span class="pre">PROVEEDORES</span> <span class="pre">FACIL</span></code></a>, <a class="reference download internal" download="" href="../../../../../_downloads/808c5acbd6c36b70a569bf60782ad364/Formato_de_Nomina_Facil.pdf"><code class="xref download docutils literal notranslate"><span class="pre">FORMATO</span> <span class="pre">NÓMINA</span> <span class="pre">FACIL</span></code></a>, que explican los formatos para la construcción de los respectivos archivos a cargar.</p>
+<p>Adicional a ello, cuenta con el documento <a class="reference download internal" download="" href="../../../../../_downloads/c083a1db6b29ad81115ced1df947722c/CODIGOS_SWIF.xls"><code class="xref download docutils literal notranslate"><span class="pre">Archivos</span> <span class="pre">de</span> <span class="pre">Pagos</span></code></a>, mismo que se puede visualizar de la siguiente manera, luego de descargarlo.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 29%" />
+<col style="width: 71%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>CODIGO SWIFT</strong></p></th>
+<th class="head"><p><strong>BANCO</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ABNAVECA</p></td>
+<td><p>ABN-AMRO BANK, CARACAS BRANCH.</p></td>
+</tr>
+<tr class="row-odd"><td><p>AEIBUS33</p></td>
+<td><p>AMERICAN EXPRESS BANK, LTD.</p></td>
+</tr>
+<tr class="row-even"><td><p>ANZBUS33NK</p></td>
+<td><p>AUSTRALIA AND NEW ZEALAND BA</p></td>
+</tr>
+<tr class="row-odd"><td><p>ATLAUS3N</p></td>
+<td><p>BANCO ATLANTICO, N.Y.</p></td>
+</tr>
+<tr class="row-even"><td><p>BAFIVECA</p></td>
+<td><p>BANCO FEDERAL</p></td>
+</tr>
+<tr class="row-odd"><td><p>BAMRUS33</p></td>
+<td><p>BANCO MERCANTIL C.A., S.A.C.A</p></td>
+</tr>
+<tr class="row-even"><td><p>BAMRUS33NYC</p></td>
+<td><p>BANCO MERCANTIL,SACA</p></td>
+</tr>
+<tr class="row-odd"><td><p>BARCUS3M</p></td>
+<td><p>BARCLAYS BANK PLC MIAMI</p></td>
+</tr>
+<tr class="row-even"><td><p>BATEVECA</p></td>
+<td><p>BANCO TEQUENDAMA</p></td>
+</tr>
+<tr class="row-odd"><td><p>BCVEVECA</p></td>
+<td><p>BANCO CENTRAL DE VENEZUELA</p></td>
+</tr>
+<tr class="row-even"><td><p>BEXTVECA</p></td>
+<td><p>BANCO EXTERIOR</p></td>
+</tr>
+<tr class="row-odd"><td><p>BKTRUS33</p></td>
+<td><p>BANKERS TRUST COMPANY NEW YORK</p></td>
+</tr>
+<tr class="row-even"><td><p>BLRAVECA22</p></td>
+<td><p>BANCO DE LARA</p></td>
+</tr>
+<tr class="row-odd"><td><p>BLRAVE22</p></td>
+<td><p>BANCO DE LARA BARQUISIMETO</p></td>
+</tr>
+<tr class="row-even"><td><p>BLVRVECA</p></td>
+<td><p>BANCO BOLIVAR</p></td>
+</tr>
+<tr class="row-odd"><td><p>BNOCVECA</p></td>
+<td><p>BANCO NOROCO</p></td>
+</tr>
+<tr class="row-even"><td><p>BOCAVECA</p></td>
+<td><p>BANCO CANARIAS</p></td>
+</tr>
+<tr class="row-odd"><td><p>BODEVE2M</p></td>
+<td><p>BANCO OCCIDENTAL DE DESCUENTO</p></td>
+</tr>
+<tr class="row-even"><td><p>BOFAUS3N</p></td>
+<td><p>BANK OF AMERICA NATIONAL TRUST</p></td>
+</tr>
+<tr class="row-odd"><td><p>BOFAUS6S</p></td>
+<td><p>BANK OF AMERICA. (SAN FRANCISC</p></td>
+</tr>
+<tr class="row-even"><td><p>BONEUS44</p></td>
+<td><p>BANK ONE, TEXAS</p></td>
+</tr>
+<tr class="row-odd"><td><p>BOTKUS33</p></td>
+<td><p>BANK OF TOKYO, LTD., THE. (NEW</p></td>
+</tr>
+<tr class="row-even"><td><p>BPROVECA</p></td>
+<td><p>BANCO PROVINCIAL S.A.</p></td>
+</tr>
+<tr class="row-odd"><td><p>BRASVECA</p></td>
+<td><p>BANCO DO BRASIL S.A. CARACAS</p></td>
+</tr>
+<tr class="row-even"><td><p>BSCHVECA</p></td>
+<td><p>BANCO DE VENEZUELA S.A.C.A</p></td>
+</tr>
+<tr class="row-odd"><td><p>BSCVVECA</p></td>
+<td><p>BANCO STANDARD CHARTERED</p></td>
+</tr>
+<tr class="row-even"><td><p>CARBVECA</p></td>
+<td><p>BANCO DE CARIBE S.A.C.A., CARA</p></td>
+</tr>
+<tr class="row-odd"><td><p>CAROVECA</p></td>
+<td><p>BANCO DE CARONI</p></td>
+</tr>
+<tr class="row-even"><td><p>CAROVEPO</p></td>
+<td><p>BANCO CORONI</p></td>
+</tr>
+<tr class="row-odd"><td><p>CHASUS33</p></td>
+<td><p>J.P. MORGAN CHASE BANK</p></td>
+</tr>
+<tr class="row-even"><td><p>CHASVECA</p></td>
+<td><p>CHASE MANHATTAN BANK</p></td>
+</tr>
+<tr class="row-odd"><td><p>CITIUS33</p></td>
+<td><p>CITIBANK N.A. (NEW YORK,NY)</p></td>
+</tr>
+<tr class="row-even"><td><p>CITIUS33VEC</p></td>
+<td><p>CITIBANK</p></td>
+</tr>
+<tr class="row-odd"><td><p>CNORUS44</p></td>
+<td><p>NORTHERN TRUST COMPANY, THE.</p></td>
+</tr>
+<tr class="row-even"><td><p>CONSVECA</p></td>
+<td><p>BANCO CONSOLIDADO CARACAS</p></td>
+</tr>
+<tr class="row-odd"><td><p>FIBVVECA</p></td>
+<td><p>FIVENEZ BANCO DE INVERSION, S.</p></td>
+</tr>
+<tr class="row-even"><td><p>FNBBUS33</p></td>
+<td><p>FLEET NATIONAL BANK.</p></td>
+</tr>
+<tr class="row-odd"><td><p>FNBCUS33</p></td>
+<td><p>FIRST CHICAGO INTERNATIONAL</p></td>
+</tr>
+<tr class="row-even"><td><p>FUNBUS3F</p></td>
+<td><p>FIRST UNION NATIONAL BANK OF F</p></td>
+</tr>
+<tr class="row-odd"><td><p>HSBCUS33</p></td>
+<td><p>HSBC BANK  - NEW YORK</p></td>
+</tr>
+<tr class="row-even"><td><p>INDSVECA</p></td>
+<td><p>BANCO INDUSTRIAL DE VENEZUELA</p></td>
+</tr>
+<tr class="row-odd"><td><p>INGBVECA</p></td>
+<td><p>ING BANK N.V. CARACAS</p></td>
+</tr>
+<tr class="row-even"><td><p>IRVTUS3N</p></td>
+<td><p>BANK OF NEW YORK. (NEW YORK,NY</p></td>
+</tr>
+<tr class="row-odd"><td><p>MNBMUS33</p></td>
+<td><p>COMMERCEBANK - OPERACIONES TEL</p></td>
+</tr>
+<tr class="row-even"><td><p>MNBMUS33001</p></td>
+<td><p>COMMERCEBANK CC-CTA.INVERSION</p></td>
+</tr>
+<tr class="row-odd"><td><p>MRMDUS33</p></td>
+<td><p>HSBC BANK USA, NEW YORK</p></td>
+</tr>
+<tr class="row-even"><td><p>NABKUS3B</p></td>
+<td><p>NATIONSBANK INTERNATIONAL MIAM</p></td>
+</tr>
+<tr class="row-odd"><td><p>NBDDUS33</p></td>
+<td><p>NBD BANK, N.A. NATIONAL BANK O</p></td>
+</tr>
+<tr class="row-even"><td><p>NBFCUS55</p></td>
+<td><p>NATIONAL BANK FOR COOPERATIVES</p></td>
+</tr>
+<tr class="row-odd"><td><p>NMBCVECA</p></td>
+<td><p>NUEVO MUNDO BANCO COMERCIAL</p></td>
+</tr>
+<tr class="row-even"><td><p>NRINVECA</p></td>
+<td><p>INTERBANK</p></td>
+</tr>
+<tr class="row-odd"><td><p>ORIBVECA</p></td>
+<td><p>BANCO DEL ORINOCO, C.A. CARACA</p></td>
+</tr>
+<tr class="row-even"><td><p>PLZAVECA</p></td>
+<td><p>BANCO PLAZA</p></td>
+</tr>
+<tr class="row-odd"><td><p>PNBPUS33PHL</p></td>
+<td><p>PHILADELPHIA NATIONAL BANK INC</p></td>
+</tr>
+<tr class="row-even"><td><p>REPBVECA</p></td>
+<td><p>BANCO REPUBLICA, C.A. CARACAS</p></td>
+</tr>
+<tr class="row-odd"><td><p>ROYCUS33</p></td>
+<td><p>THE ROYAL BANK OF CANADA</p></td>
+</tr>
+<tr class="row-even"><td><p>SCBLUS3M</p></td>
+<td><p>STANDARD CHARTERED BANK. (MIAM</p></td>
+</tr>
+<tr class="row-odd"><td><p>SMITUS33</p></td>
+<td><p>SUMITOMO BANK, LTD., THE. (NEW</p></td>
+</tr>
+<tr class="row-even"><td><p>TCBKUS44</p></td>
+<td><p>TEXAS COMMERCE BANK, N.A. (HOU</p></td>
+</tr>
+<tr class="row-odd"><td><p>UBSWUS33</p></td>
+<td><p>UBS AG. (FORMERLY SWISS BANK C</p></td>
+</tr>
+<tr class="row-even"><td><p>UNIOVECA</p></td>
+<td><p>BANESCO BANCA UNIVERSAL</p></td>
+</tr>
+<tr class="row-odd"><td><p>UPNBUS44MIA</p></td>
+<td><p>UNION PLANTERS BANK N.A.</p></td>
+</tr>
+<tr class="row-even"><td><p>VZCRVECA</p></td>
+<td><p>BANCO VENEZOLANO DE CREDITO</p></td>
+</tr>
+<tr class="row-odd"><td><p>WACHUS3W</p></td>
+<td><p>WACHOVIA BANK OF NORTH CAROLIN</p></td>
+</tr>
+<tr class="row-even"><td><p>WFBIUS6S</p></td>
+<td><p>WELLS FARGO BANK N.A. (SAN FRA</p></td>
+</tr>
+<tr class="row-odd"><td><p>REPBVECA</p></td>
+<td><p>FONDO COMÚN EAP</p></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="mercantil-proveedores">
+<h2><strong>Mercantil Proveedores</strong><a class="headerlink" href="#mercantil-proveedores" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="archivo-para-pagos">
+<h3><strong>Archivo para Pagos</strong><a class="headerlink" href="#archivo-para-pagos" title="Permalink to this headline">¶</a></h3>
+<p>Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:</p>
+<ul class="simple">
+<li><p>Factura “<strong>1000737</strong>” al socio del negocio “<strong>Proveedor Estándar</strong>” por monto total de “<strong>1.392.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000738</strong>” al socio del negocio “<strong>Proveedor Estándar</strong>” por monto total de “<strong>1.554.400,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000739</strong>” al socio del negocio “<strong>Dhl Express Aduanas Venezuela C.A.</strong>” por monto total de “<strong>3.480.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000740</strong>” al socio del negocio “<strong>Bolivariana de Puertos  ( Bolipuertos)  S A</strong>” por monto total de “<strong>2.200.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000741</strong>” al socio del negocio “<strong>Servicio Nacional Integrado de Administración (SENIAT)</strong>” por monto total de “<strong>3.944.000,00</strong>”.</p></li>
+</ul>
+<p>Se obtiene como resultado del proceso “<strong>Imprimir /Exportar</strong>”, un documento en formato “<strong>.txt</strong>” con los detalles de los pagos a ser realizados desde el banco mercantil a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace <a class="reference download internal" download="" href="../../../../../_downloads/17f9a2b1ed7fe351fadb7c55187107f6/Mercantil_CA_Banco_Universal_10433.txt"><code class="xref download docutils literal notranslate"><span class="pre">Banco</span> <span class="pre">Mercantil</span></code></a> y visualizar de la siguiente manera:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1</span><span class="n">BAMRVECA</span>    <span class="mi">10433</span>          <span class="n">PROVE0000000062J00000000000000200000004000000012570400002021012701050000000000000007000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">G0000002000030303000000000000</span>               <span class="mi">0000000000000000102000000000000000000000000394400000</span><span class="n">G200003030</span>      <span class="mi">0000000062000</span><span class="n">Servicio</span> <span class="n">Nacional</span> <span class="n">Integrado</span> <span class="n">de</span> <span class="n">Administracin</span> <span class="n">Aduanera</span> <span class="n">y</span> <span class="n">Tri</span> <span class="mi">0000000102</span>                                                       <span class="mi">0000</span>                                                                                                              <span class="mi">00000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">J0000000000000011000000000000</span>               <span class="mi">0000000000000000105000000000000000000000000348000000</span><span class="n">J000000001</span>      <span class="mi">0000000062000</span><span class="n">Dhl</span> <span class="n">Express</span> <span class="n">Aduanas</span> <span class="n">Venezuela</span> <span class="n">CA</span>                            <span class="mi">0000000103</span>                                                       <span class="mi">0000</span>                                                                                                              <span class="mi">00000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">J0000000000000023000000000000</span>               <span class="mi">0000000000000000134000000000000000000000000220000000</span><span class="n">J000000002</span>      <span class="mi">0000000062000</span><span class="n">Bolivariana</span> <span class="n">de</span> <span class="n">Puertos</span>  <span class="p">(</span> <span class="n">Bolipuertos</span><span class="p">)</span>  <span class="n">SA</span>                  <span class="mi">0000000104</span>                                                       <span class="mi">0000</span>                                                                                                              <span class="mi">00000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">J0000000000000041000000000000</span>               <span class="mi">0000000000000000105000000000000000000000000294640000</span><span class="n">J000000004</span>      <span class="mi">0000000062000</span><span class="n">Proveedor</span> <span class="n">Estndar</span>                                           <span class="mi">0000000105</span>     <span class="n">proveedor</span><span class="o">-</span><span class="n">estandar</span><span class="nd">@gmail</span><span class="o">.</span><span class="n">com</span>                      <span class="mi">0000</span>                                                                                                              <span class="mi">00000000000000000000000000000000000</span>
+</pre></div>
+</div>
+<p><strong>Descripción del Archivo</strong></p>
+<ul class="simple">
+<li><p><strong>Tipo de Registro Cabecera:</strong> 1</p></li>
+<li><p><strong>Identificación Banco:</strong> BAMRVECA</p></li>
+<li><p><strong>Número Archivo Cliente ó Número de Lote:</strong> Número de referencia que identifica el documento, en el ejemplo anterior el valor es “<strong>10433</strong>”</p></li>
+<li><p><strong>Tipo de Producto:</strong> PROVE</p></li>
+<li><p><strong>Tipo de Pago:</strong> Identifica el tipo de pago que efectúa la Empresa. “<strong>0000000062</strong>” = Pago a Proveedores</p></li>
+<li><p><strong>Tipo de Identificación:</strong> Naturaleza del ente pagador. En el ejemplo anterior, el tipo de identificación es “<strong>J</strong>”</p></li>
+<li><p><strong>Número de Identificación:</strong> Número de RIF del ente pagador. Este campo debe contener quince (15) espacios y venir alineado de derecha a izquierda, se deben completar con ceros los espacios faltantes. En el ejemplo anterior, el número de identificación es “<strong>000000000000002</strong>”</p></li>
+<li><p><strong>Cantidad Total Registros de Detalle:</strong> Cantidad total de registros de detalle, en el ejemplo anterior es valor es “<strong>00000004</strong>”</p></li>
+<li><p><strong>Monto Total Registros de Detalle:</strong> Monto que conforma la suma de cada uno de los montos especificados en los registros de pagos (Detalle) incluidos en el archivo. El mismo contiene (17) espacios de los cuales, los últimos dos (2) son para los decimales. En el ejemplo anterior el monto total del pago es “<strong>00000001257040000</strong>”</p></li>
+<li><p><strong>Fecha Valor:</strong> Fecha de la transacción. En el ejemplo anterior, la fecha de la transacción es “<strong>20210127</strong>”</p></li>
+<li><p><strong>Código Cuenta Cliente:</strong> Número de la cuenta bancaria (Corriente, Ahorro, Máxima) que tiene la empresa en el Banco Mercantil, en la cual se aplicará el débito producto de la gestión que realizará el Banco Mercantil. En el ejemplo anterio, el valor es “<strong>01050000000000000007</strong>”</p></li>
+<li><p><strong>Área Reservada:</strong> 0000000</p></li>
+<li><p><strong>Número Serial Nota Empresa:</strong> Número irrepetible que la empresa requiere aparezca como parte del serial de la nota de débito, cuando el monto de la misma esta conformada por la suma total de la gestión realizada por el Banco Mercantil. Si la empresa no suministra este dato, el Banco Mercantil asignará un número aleatorio. Esto aplica únicamente para las empresas que requieran que el sistema realice un solo débito global por todas los pagos realizados. En el ejemplo anterior, el valor es “<strong>00000000</strong>”</p></li>
+<li><p><strong>Código Respuesta (Dato de Salida):</strong> Código que le asigna el Banco Mercantil al archivo como resultado de la gestión realizada. En el ejemplo anterior, el valor es “<strong>0000</strong>”</p></li>
+<li><p><strong>Fecha Proceso:</strong> Fecha en que el Banco Mercantil efectuó la gestión indicada por la Empresa. Esta información es generada por el Banco Mercantil como respuesta de la gestión realizada. En el ejemplo anterior, el valor es “<strong>00000000</strong>”</p></li>
+<li><p><strong>Área Reservada:</strong> Docientos sesenta y un (261) espacios “<strong>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</strong>”</p></li>
+<li><p><strong>Código Respuesta Archivo:</strong> 2</p></li>
+<li><p><strong>Tipo de Identificación:</strong> Es la clasificación a la cual pertenece el beneficiario del pago. En el ejemplo aterior, los valores son “<strong>G, J, J, J</strong>”</p></li>
+<li><p><strong>Número de Identificación:</strong> Número de RIF o de la cédula de identidad o pasaporte del beneficiario del pago, el mismo contiene quince (15) espacios. En el ejemplo anterior, los valores son “<strong>000000200003030</strong>”, “<strong>000000000000001</strong>”, “<strong>000000000000002</strong>”, “<strong>000000000000004</strong>”</p></li>
+<li><p><strong>Forma de Pago:</strong> 1 = Abono en cuenta, 3 = Transferencias</p></li>
+<li><p><strong>ÁREA RESERVADA:</strong> 000000000000</p></li>
+<li><p><strong>Área Reservada:</strong> Quince (15) espacios en blanco</p></li>
+<li><p><strong>ÁREA RESERVADA:</strong> 000000000000000</p></li>
+<li><p><strong>Código Cuenta Cliente:</strong> Número de la cuenta bancaria del cliente beneficiario sobre la cual se realizará el pago indicado. En el ejemplo anterior, los valores son “<strong>01020000000000000000</strong>”, “<strong>01050000000000000000</strong>”, “<strong>01340000000000000000</strong>”, “<strong>01050000000000000000</strong>”</p></li>
+<li><p><strong>Monto Operación:</strong> Monto del pago a realizar. En el ejemplo anterior, los valores son “<strong>00000000394400000</strong>”, “<strong>00000000348000000</strong>”, “<strong>00000000220000000</strong>”, “<strong>00000000294640000</strong>”</p></li>
+<li><p><strong>Identificación Cliente Empresa:</strong> Número de identificación del cliente beneficiario. En el ejemplo anterior, los valores son “<strong>G200003030</strong>”, “<strong>J000000001</strong>”, “<strong>J000000002</strong>”, “<strong>J000000004</strong>”</p></li>
+<li><p><strong>Tipo de Pago:</strong> Identifica que tipo de pago se efectuara al abonado. “<strong>0000000062</strong>” = Pago a Proveedores</p></li>
+<li><p><strong>Área Reservada:</strong> 000</p></li>
+<li><p><strong>Nombre Nominado:</strong> Nombre del proveedor o beneficiario. En el ejemplo anterior, los valores son “<strong>Servicio Nacional Integrado de Administracin Aduanera y Tri</strong>”, “<strong>Dhl Express Aduanas Venezuela CA</strong>”, “<strong>Bolivariana de Puertos  ( Bolipuertos)  SA</strong>”, “<strong>Proveedor Estndar</strong>”</p></li>
+<li><p><strong>Área Reservada:</strong> 0000000</p></li>
+<li><p><strong>Número de Recibo:</strong> La empresa asigna al registro de detalle en número de factura o recibo que refiere a la gestión realizada. El número de recibo se mantiene en todos aquellos campos relacionados. Número irrepetible. En el ejemplo anterior, los valores son “<strong>102</strong>”, “<strong>103</strong>”, “<strong>104</strong>”, “<strong>105</strong>”</p></li>
+<li><p><strong>Email del Cliente:</strong> Dirección de correo electrónico del beneficiario del pago. En el ejemplo anterior, el valor es “<strong>proveedor-estandar&#64;gmail.com</strong>”</p></li>
+<li><p><strong>Código Respuesta:</strong> 0000</p></li>
+<li><p><strong>Mensaje Respuesta:</strong> Descripción que explica brevemente el resultado de la gestión realizada. Esta descripción es asignada por el Banco Mercantil.</p></li>
+<li><p><strong>Concepto Pago:</strong> Descripción que indica brevemente el concepto que origina la gestión indicada. Esta información aparecerá en el detalle de la nota de débito o crédito del estado de cuenta del Cliente.</p></li>
+<li><p><strong>Área Reservada:</strong> 00000000000000000000000000000000000</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="mercantil-proveedores-facil">
+<h2><strong>Mercantil Proveedores Facil</strong><a class="headerlink" href="#mercantil-proveedores-facil" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3><strong>Archivo para Pagos</strong><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:</p>
+<ul class="simple">
+<li><p>Factura “<strong>1000737</strong>” al socio del negocio “<strong>Proveedor Estándar</strong>” por monto total de “<strong>1.392.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000738</strong>” al socio del negocio “<strong>Proveedor Estándar</strong>” por monto total de “<strong>1.554.400,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000739</strong>” al socio del negocio “<strong>Dhl Express Aduanas Venezuela C.A.</strong>” por monto total de “<strong>3.480.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000740</strong>” al socio del negocio “<strong>Bolivariana de Puertos  ( Bolipuertos)  S A</strong>” por monto total de “<strong>2.200.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000741</strong>” al socio del negocio “<strong>Servicio Nacional Integrado de Administración (SENIAT)</strong>” por monto total de “<strong>3.944.000,00</strong>”.</p></li>
+</ul>
+<p>Se obtiene como resultado del proceso “<strong>Imprimir /Exportar</strong>”, un documento en formato “<strong>.txt</strong>” con los detalles de los pagos a ser realizados desde el banco mercantil a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace <a class="reference download internal" download="" href="../../../../../_downloads/17f9a2b1ed7fe351fadb7c55187107f6/Mercantil_CA_Banco_Universal_10433.txt"><code class="xref download docutils literal notranslate"><span class="pre">Banco</span> <span class="pre">Mercantil</span></code></a> y visualizar de la siguiente manera:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1</span><span class="n">BAMRVECA</span>    <span class="mi">10433</span>          <span class="n">PROVE0000000062J00000000000000200000004000000012570400002021012701050000000000000007000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">G0000002000030303000000000000</span>               <span class="mi">0000000000000000102000000000000000000000000394400000</span><span class="n">G200003030</span>      <span class="mi">0000000062000</span><span class="n">Servicio</span> <span class="n">Nacional</span> <span class="n">Integrado</span> <span class="n">de</span> <span class="n">Administracin</span> <span class="n">Aduanera</span> <span class="n">y</span> <span class="n">Tri</span> <span class="mi">0000000102</span>                                                       <span class="mi">0000</span>                                                                                                              <span class="mi">00000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">J0000000000000011000000000000</span>               <span class="mi">0000000000000000105000000000000000000000000348000000</span><span class="n">J000000001</span>      <span class="mi">0000000062000</span><span class="n">Dhl</span> <span class="n">Express</span> <span class="n">Aduanas</span> <span class="n">Venezuela</span> <span class="n">CA</span>                            <span class="mi">0000000103</span>                                                       <span class="mi">0000</span>                                                                                                              <span class="mi">00000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">J0000000000000023000000000000</span>               <span class="mi">0000000000000000134000000000000000000000000220000000</span><span class="n">J000000002</span>      <span class="mi">0000000062000</span><span class="n">Bolivariana</span> <span class="n">de</span> <span class="n">Puertos</span>  <span class="p">(</span> <span class="n">Bolipuertos</span><span class="p">)</span>  <span class="n">SA</span>                  <span class="mi">0000000104</span>                                                       <span class="mi">0000</span>                                                                                                              <span class="mi">00000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">J0000000000000041000000000000</span>               <span class="mi">0000000000000000105000000000000000000000000294640000</span><span class="n">J000000004</span>      <span class="mi">0000000062000</span><span class="n">Proveedor</span> <span class="n">Estndar</span>                                           <span class="mi">0000000105</span>     <span class="n">proveedor</span><span class="o">-</span><span class="n">estandar</span><span class="nd">@gmail</span><span class="o">.</span><span class="n">com</span>                      <span class="mi">0000</span>                                                                                                              <span class="mi">00000000000000000000000000000000000</span>
+</pre></div>
+</div>
+<p><strong>Descripción del Archivo</strong></p>
+<ul class="simple">
+<li><p><strong>Tipo de Registro Cabecera:</strong> 1</p></li>
+<li><p><strong>Identificación Banco:</strong> BAMRVECA</p></li>
+<li><p><strong>Número Archivo Cliente ó Número de Lote:</strong> Número de referencia que identifica el documento, en el ejemplo anterior el valor es “<strong>10433</strong>”</p></li>
+<li><p><strong>Tipo de Producto:</strong> PROVE</p></li>
+<li><p><strong>Tipo de Pago:</strong> Identifica el tipo de pago que efectúa la Empresa. “<strong>0000000062</strong>” = Pago a Proveedores</p></li>
+<li><p><strong>Tipo de Identificación:</strong> Naturaleza del ente pagador. En el ejemplo anterior, el tipo de identificación es “<strong>J</strong>”</p></li>
+<li><p><strong>Número de Identificación:</strong> Número de RIF del ente pagador. Este campo debe contener quince (15) espacios y venir alineado de derecha a izquierda, se deben completar con ceros los espacios faltantes. En el ejemplo anterior, el número de identificación es “<strong>000000000000002</strong>”</p></li>
+<li><p><strong>Cantidad Total Registros de Detalle:</strong> Cantidad total de registros de detalle, en el ejemplo anterior es valor es “<strong>00000004</strong>”</p></li>
+<li><p><strong>Monto Total Registros de Detalle:</strong> Monto que conforma la suma de cada uno de los montos especificados en los registros de pagos (Detalle) incluidos en el archivo. El mismo contiene (17) espacios de los cuales, los últimos dos (2) son para los decimales. En el ejemplo anterior el monto total del pago es “<strong>00000001257040000</strong>”</p></li>
+<li><p><strong>Fecha Valor:</strong> Fecha de la transacción. En el ejemplo anterior, la fecha de la transacción es “<strong>20210127</strong>”</p></li>
+<li><p><strong>Código Cuenta Cliente:</strong> Número de la cuenta bancaria (Corriente, Ahorro, Máxima) que tiene la empresa en el Banco Mercantil, en la cual se aplicará el débito producto de la gestión que realizará el Banco Mercantil. En el ejemplo anterio, el valor es “<strong>01050000000000000007</strong>”</p></li>
+<li><p><strong>Área Reservada:</strong> 0000000</p></li>
+<li><p><strong>Número Serial Nota Empresa:</strong> Número irrepetible que la empresa requiere aparezca como parte del serial de la nota de débito, cuando el monto de la misma esta conformada por la suma total de la gestión realizada por el Banco Mercantil. Si la empresa no suministra este dato, el Banco Mercantil asignará un número aleatorio. Esto aplica únicamente para las empresas que requieran que el sistema realice un solo débito global por todas los pagos realizados. En el ejemplo anterior, el valor es “<strong>00000000</strong>”</p></li>
+<li><p><strong>Código Respuesta (Dato de Salida):</strong> Código que le asigna el Banco Mercantil al archivo como resultado de la gestión realizada. En el ejemplo anterior, el valor es “<strong>0000</strong>”</p></li>
+<li><p><strong>Fecha Proceso:</strong> Fecha en que el Banco Mercantil efectuó la gestión indicada por la Empresa. Esta información es generada por el Banco Mercantil como respuesta de la gestión realizada. En el ejemplo anterior, el valor es “<strong>00000000</strong>”</p></li>
+<li><p><strong>Área Reservada:</strong> Docientos sesenta y un (261) espacios “<strong>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</strong>”</p></li>
+<li><p><strong>Código Respuesta Archivo:</strong> 2</p></li>
+<li><p><strong>Tipo de Identificación:</strong> Es la clasificación a la cual pertenece el beneficiario del pago. En el ejemplo aterior, los valores son “<strong>G, J, J, J</strong>”</p></li>
+<li><p><strong>Número de Identificación:</strong> Número de RIF o de la cédula de identidad o pasaporte del beneficiario del pago, el mismo contiene quince (15) espacios. En el ejemplo anterior, los valores son “<strong>000000200003030</strong>”, “<strong>000000000000001</strong>”, “<strong>000000000000002</strong>”, “<strong>000000000000004</strong>”</p></li>
+<li><p><strong>Forma de Pago:</strong> 1 = Abono en cuenta, 3 = Transferencias</p></li>
+<li><p><strong>ÁREA RESERVADA:</strong> 000000000000</p></li>
+<li><p><strong>Área Reservada:</strong> Quince (15) espacios en blanco</p></li>
+<li><p><strong>ÁREA RESERVADA:</strong> 000000000000000</p></li>
+<li><p><strong>Código Cuenta Cliente:</strong> Número de la cuenta bancaria del cliente beneficiario sobre la cual se realizará el pago indicado. En el ejemplo anterior, los valores son “<strong>01020000000000000000</strong>”, “<strong>01050000000000000000</strong>”, “<strong>01340000000000000000</strong>”, “<strong>01050000000000000000</strong>”</p></li>
+<li><p><strong>Monto Operación:</strong> Monto del pago a realizar. En el ejemplo anterior, los valores son “<strong>00000000394400000</strong>”, “<strong>00000000348000000</strong>”, “<strong>00000000220000000</strong>”, “<strong>00000000294640000</strong>”</p></li>
+<li><p><strong>Identificación Cliente Empresa:</strong> Número de identificación del cliente beneficiario. En el ejemplo anterior, los valores son “<strong>G200003030</strong>”, “<strong>J000000001</strong>”, “<strong>J000000002</strong>”, “<strong>J000000004</strong>”</p></li>
+<li><p><strong>Tipo de Pago:</strong> Identifica que tipo de pago se efectuara al abonado. “<strong>0000000062</strong>” = Pago a Proveedores</p></li>
+<li><p><strong>Área Reservada:</strong> 000</p></li>
+<li><p><strong>Nombre Nominado:</strong> Nombre del proveedor o beneficiario. En el ejemplo anterior, los valores son “<strong>Servicio Nacional Integrado de Administracin Aduanera y Tri</strong>”, “<strong>Dhl Express Aduanas Venezuela CA</strong>”, “<strong>Bolivariana de Puertos  ( Bolipuertos)  SA</strong>”, “<strong>Proveedor Estndar</strong>”</p></li>
+<li><p><strong>Área Reservada:</strong> 0000000</p></li>
+<li><p><strong>Número de Recibo:</strong> La empresa asigna al registro de detalle en número de factura o recibo que refiere a la gestión realizada. El número de recibo se mantiene en todos aquellos campos relacionados. Número irrepetible. En el ejemplo anterior, los valores son “<strong>102</strong>”, “<strong>103</strong>”, “<strong>104</strong>”, “<strong>105</strong>”</p></li>
+<li><p><strong>Email del Cliente:</strong> Dirección de correo electrónico del beneficiario del pago. En el ejemplo anterior, el valor es “<strong>proveedor-estandar&#64;gmail.com</strong>”</p></li>
+<li><p><strong>Código Respuesta:</strong> 0000</p></li>
+<li><p><strong>Mensaje Respuesta:</strong> Descripción que explica brevemente el resultado de la gestión realizada. Esta descripción es asignada por el Banco Mercantil.</p></li>
+<li><p><strong>Concepto Pago:</strong> Descripción que indica brevemente el concepto que origina la gestión indicada. Esta información aparecerá en el detalle de la nota de débito o crédito del estado de cuenta del Cliente.</p></li>
+<li><p><strong>Área Reservada:</strong> 00000000000000000000000000000000000</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="mercantil-nomina">
+<h2><strong>Mercantil Nómina</strong><a class="headerlink" href="#mercantil-nomina" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id2">
+<h3><strong>Archivo para Pagos</strong><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>Al ejecutar el proceso de selección de pago de la nómina quincenal “<strong>NQ-19</strong>” procesada en ADempiere, con los siguientes empleados:</p>
+<ul class="simple">
+<li><p>Socio del Negocio “<strong>Empleado</strong>”, con cédula de identidad “<strong>V0000005</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+<li><p>Socio del Negocio “<strong>Estándar</strong>”, con cédula de identidad “<strong>V00000009</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+<li><p>Socio del Negocio “<strong>Empleado Dos</strong>”, con cédula de identidad “<strong>V00000008</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+<li><p>Socio del Negocio “<strong>Empleado Tres</strong>”, con cédula de identidad “<strong>V00000098</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+</ul>
+<p>Se obtiene como resultado del proceso “<strong>Imprimir /Exportar</strong>”, un documento en formato “<strong>.txt</strong>” con los detalles de los pagos a ser realizados desde el mercantil a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace <a class="reference download internal" download="" href="../../../../../_downloads/102ca088f3974149f26544a2847d9bd7/Mercantil_CA_Banco_Universal_Transito_1545.txt"><code class="xref download docutils literal notranslate"><span class="pre">Archivo</span> <span class="pre">de</span> <span class="pre">Pago</span> <span class="pre">de</span> <span class="pre">Nómina</span> <span class="pre">del</span> <span class="pre">Mercantil</span></code></a> y visualizar de la siguiente manera:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1</span><span class="n">BAMRVECA</span>    <span class="mi">000000000001545</span><span class="n">NOMIN0000000222J00000000000000200000004000001100327329542021012801050000000000000037000000000001545000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">V0000000000000083000000000000</span>                              <span class="mi">0134000000000000004800000054983169231</span><span class="n">V00000008</span>       <span class="mi">0000000222000</span><span class="n">Empleado</span> <span class="n">Dos</span>                                                <span class="mi">000000000000000</span>                                                  <span class="mi">0000</span>                              <span class="mi">0</span>                                                                               <span class="mi">00000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">V0000000000000051000000000000</span>                              <span class="mi">0105000000000000007500000000059344492</span><span class="n">V0000005</span>        <span class="mi">0000000222000</span><span class="n">Empleado</span>                                                    <span class="mi">000000000000000</span><span class="n">empleado</span><span class="nd">@gmail</span><span class="o">.</span><span class="n">com</span>                                <span class="mi">0000</span>                              <span class="mi">1</span>                                                                               <span class="mi">00000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">V0000000000000093000000000000</span>                              <span class="mi">0134000000000000003900000054000000000</span><span class="n">V00000009</span>       <span class="mi">0000000222000</span><span class="n">Estndar</span>                                                     <span class="mi">000000000000000</span>                                                  <span class="mi">0000</span>                              <span class="mi">2</span>                                                                               <span class="mi">00000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">V0000000000000983000000000000</span>                              <span class="mi">0134000000000000006700000000990219231</span><span class="n">V00000098</span>       <span class="mi">0000000222000</span><span class="n">Empleado</span> <span class="n">Tres</span>                                               <span class="mi">000000000000000</span>                                                  <span class="mi">0000</span>                              <span class="mi">3</span>                                                                               <span class="mi">00000000000000000000000000000000000</span>
+</pre></div>
+</div>
+<p><strong>Descripción del Archivo</strong></p>
+<ul class="simple">
+<li><p><strong>Tipo de Registro Cabecera:</strong> 1</p></li>
+<li><p><strong>Identificación Banco:</strong> BAMRVECA</p></li>
+<li><p><strong>Número Archivo Cliente ó Número de Lote:</strong> Número de control irrepetible que le asigna la empresa a un grupo de registros de detalle que se encuentran en el archivo que envía a Banco Mercantil. En el ejemplo anterior, el valor es “<strong>000000000001545</strong>”</p></li>
+<li><p><strong>Tipo de Producto:</strong> NOMIN</p></li>
+<li><p><strong>Tipo de Pago:</strong> Identifica el tipo de pago que efectúa la empresa. En el ejemplo anterior, el valor es “<strong>0000000222</strong>”</p></li>
+<li><p><strong>Tipo de Identificación:</strong> Naturaleza del ente pagador. En el ejemplo anterior, el valor es “<strong>J</strong>”</p></li>
+<li><p><strong>Número de Identificación:</strong> Número de cédula o RIF de la Empresa. En el ejemplo anterior, el valor es “<strong>000000000000002</strong>”</p></li>
+<li><p><strong>Cantidad Total Registros de Detalle:</strong> Cantidad total de registros de detalle asociados al archivo “<strong>00000004</strong>”</p></li>
+<li><p><strong>Monto Total Registros de Detalle:</strong> Monto que conforma la suma de cada uno de los montos especificados en los registros de detalle asociados al archivo. En el ejemplo anterior, el valor es “<strong>00000110032732954</strong>”</p></li>
+<li><p><strong>Fecha Valor:</strong> Fecha de la transacción. En el ejemplo anterior, la fecha de la transacción es “<strong>20210128</strong>”</p></li>
+<li><p><strong>Código Cuenta Cliente:</strong> Número de la cuenta bancaria (Corriente, Ahorro, Máxima) que tiene la empresa en el Banco Mercantil, en la cual se aplicará el débito producto de la gestión que realizará el Banco Mercantil. En el ejemplo anterio, el valor es “<strong>01050000000000000037</strong>”</p></li>
+<li><p><strong>Área Reservada:</strong> 0000000</p></li>
+<li><p><strong>Número Serial Nota Empresa:</strong> Número irrepetible que la empresa requiere aparezca como parte del serial de la nota de débito. Si la empresa no suministra este dato, el Banco Mercantil asignará un número aleatorio. En el ejemplo anterior, el valor es “<strong>00001545</strong>”</p></li>
+<li><p><strong>Código Respuesta Archivo</strong> Código que le asigna el Banco Mercantil al archivo como resultado de la gestión realizada. En el ejemplo anterior, el valor es “<strong>0000</strong>”</p></li>
+<li><p><strong>Fecha Proceso:</strong> Fecha que el Banco Mercantil efectuó la gestión indicada por la empresa. En el ejemplo anterior, el valor es “<strong>00000000</strong>”</p></li>
+<li><p><strong>Área Reservada:</strong> Docientos sesenta y un (261) espacios “<strong>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</strong>”</p></li>
+<li><p><strong>Tipo de Registro Detalle:</strong> 2</p></li>
+<li><p><strong>Tipo de Identificación:</strong> Clasificación a la cual pertenece el beneficiario del pago. En el ejemplo anterior, el valor es “<strong>V</strong>”</p></li>
+<li><p><strong>Número de Identificación:</strong> Número de RIF o de la cédula de identidad o pasaporte del beneficiario del pago, el mismo contiene quince (15) espacios. En el ejemplo anterior, los valores son “<strong>000000200003030</strong>”, “<strong>000000000000001</strong>”, “<strong>000000000000002</strong>”, “<strong>000000000000004</strong>”</p></li>
+<li><p><strong>Forma de Pago:</strong> 1 = Abono en cuenta, 3 = Transferencias</p></li>
+<li><p><strong>ÁREA RESERVADA:</strong> 000000000000</p></li>
+<li><p><strong>Área Reservada:</strong> Treinta (30) espacios en blanco</p></li>
+<li><p><strong>Código Cuenta Cliente:</strong> Número de la cuenta bancaria (Corriente, Ahorro, Máxima) que tiene el beneficiario del pago, a la cual se aplicará el crédito. En el ejemplo anterior, los valores son “<strong>01340000000000000048</strong>”, “<strong>01050000000000000075</strong>”, “<strong>01340000000000000039</strong>”, “<strong>01340000000000000067</strong>”</p></li>
+<li><p><strong>Monto Operación:</strong> Monto del Pago a realizar. En el ejemplo anterior, los valores son “<strong>00000054983169231</strong>”, “<strong>00000000059344492</strong>”, “<strong>00000054000000000</strong>”, “<strong>00000000990219231</strong>”</p></li>
+<li><p><strong>Identificación Cliente Empresa:</strong> Número de identificación del beneficiario. En el ejemplo anterior, los valores son “<strong>V00000008</strong>”, “<strong>V0000005</strong>”, “<strong>V00000009</strong>”, “<strong>V00000098</strong>”</p></li>
+<li><p><strong>Tipo de Pago:</strong> Identifica que tipo de pago se efectuara al abonado. “<strong>0000000222</strong>” = Pago de Nómina</p></li>
+<li><p><strong>Área Reservada:</strong> 000</p></li>
+<li><p><strong>Nombre Nominado:</strong> Apellidos y nombres del beneficiario. En el ejemplo anterior, los valores son “<strong>Empleado Dos</strong>”, “<strong>Empleado</strong>”, “<strong>Estndar</strong>”, “<strong>Empleado Tres</strong>”</p></li>
+<li><p><strong>Área Reservada:</strong> 000000000000000</p></li>
+<li><p><strong>Email del Beneficiario:</strong> Dirección de correo electrónico del beneficiario. En el ejemplo anterior, el valor es “<strong>empleado&#64;gmail.com</strong>”</p></li>
+<li><p><strong>Código Respuesta:</strong> 0000</p></li>
+<li><p><strong>Mensaje Respuesta:</strong> Descripción que explica brevemente el resultado de la gestión realizada. Esta descripción es asignada por el Banco Mercantil.</p></li>
+<li><p><strong>Concepto Pago:</strong> Descripción que indica brevemente el concepto que origina la gestión indicada. Esta información aparecerá en el detalle de la nota de débito o crédito del estado de cuenta del Cliente.</p></li>
+<li><p><strong>Área Reservada:</strong> 00000000000000000000000000000000000</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="mercantil-nomina-facil">
+<h2><strong>Mercantil Nómina Facil</strong><a class="headerlink" href="#mercantil-nomina-facil" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id3">
+<h3><strong>Archivo para Pagos</strong><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>Al ejecutar el proceso de selección de pago de la nómina quincenal “<strong>NQ-19</strong>” procesada en ADempiere, con los siguientes empleados:</p>
+<ul class="simple">
+<li><p>Socio del Negocio “<strong>Empleado</strong>”, con cédula de identidad “<strong>V0000005</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+<li><p>Socio del Negocio “<strong>Estándar</strong>”, con cédula de identidad “<strong>V00000009</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+<li><p>Socio del Negocio “<strong>Empleado Dos</strong>”, con cédula de identidad “<strong>V00000008</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+<li><p>Socio del Negocio “<strong>Empleado Tres</strong>”, con cédula de identidad “<strong>V00000098</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+</ul>
+<p>Se obtiene como resultado del proceso “<strong>Imprimir /Exportar</strong>”, un documento en formato “<strong>.txt</strong>” con los detalles de los pagos a ser realizados desde el mercantil a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace <a class="reference download internal" download="" href="../../../../../_downloads/102ca088f3974149f26544a2847d9bd7/Mercantil_CA_Banco_Universal_Transito_1545.txt"><code class="xref download docutils literal notranslate"><span class="pre">Archivo</span> <span class="pre">de</span> <span class="pre">Pago</span> <span class="pre">de</span> <span class="pre">Nómina</span> <span class="pre">del</span> <span class="pre">Mercantil</span></code></a> y visualizar de la siguiente manera:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">1</span><span class="n">BAMRVECA</span>    <span class="mi">000000000001545</span><span class="n">NOMIN0000000222J00000000000000200000004000001100327329542021012801050000000000000037000000000001545000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">V0000000000000083000000000000</span>                              <span class="mi">0134000000000000004800000054983169231</span><span class="n">V00000008</span>       <span class="mi">0000000222000</span><span class="n">Empleado</span> <span class="n">Dos</span>                                                <span class="mi">000000000000000</span>                                                  <span class="mi">0000</span>                              <span class="mi">0</span>                                                                               <span class="mi">00000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">V0000000000000051000000000000</span>                              <span class="mi">0105000000000000007500000000059344492</span><span class="n">V0000005</span>        <span class="mi">0000000222000</span><span class="n">Empleado</span>                                                    <span class="mi">000000000000000</span><span class="n">empleado</span><span class="nd">@gmail</span><span class="o">.</span><span class="n">com</span>                                <span class="mi">0000</span>                              <span class="mi">1</span>                                                                               <span class="mi">00000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">V0000000000000093000000000000</span>                              <span class="mi">0134000000000000003900000054000000000</span><span class="n">V00000009</span>       <span class="mi">0000000222000</span><span class="n">Estndar</span>                                                     <span class="mi">000000000000000</span>                                                  <span class="mi">0000</span>                              <span class="mi">2</span>                                                                               <span class="mi">00000000000000000000000000000000000</span>
+<span class="mi">2</span><span class="n">V0000000000000983000000000000</span>                              <span class="mi">0134000000000000006700000000990219231</span><span class="n">V00000098</span>       <span class="mi">0000000222000</span><span class="n">Empleado</span> <span class="n">Tres</span>                                               <span class="mi">000000000000000</span>                                                  <span class="mi">0000</span>                              <span class="mi">3</span>                                                                               <span class="mi">00000000000000000000000000000000000</span>
+</pre></div>
+</div>
+<p><strong>Descripción del Archivo</strong></p>
+<ul class="simple">
+<li><p><strong>Tipo de Registro Cabecera:</strong> 1</p></li>
+<li><p><strong>Identificación Banco:</strong> BAMRVECA</p></li>
+<li><p><strong>Número Archivo Cliente ó Número de Lote:</strong> Número de control irrepetible que le asigna la empresa a un grupo de registros de detalle que se encuentran en el archivo que envía a Banco Mercantil. En el ejemplo anterior, el valor es “<strong>000000000001545</strong>”</p></li>
+<li><p><strong>Tipo de Producto:</strong> NOMIN</p></li>
+<li><p><strong>Tipo de Pago:</strong> Identifica el tipo de pago que efectúa la empresa. En el ejemplo anterior, el valor es “<strong>0000000222</strong>”</p></li>
+<li><p><strong>Tipo de Identificación:</strong> Naturaleza del ente pagador. En el ejemplo anterior, el valor es “<strong>J</strong>”</p></li>
+<li><p><strong>Número de Identificación:</strong> Número de cédula o RIF de la Empresa. En el ejemplo anterior, el valor es “<strong>000000000000002</strong>”</p></li>
+<li><p><strong>Cantidad Total Registros de Detalle:</strong> Cantidad total de registros de detalle asociados al archivo “<strong>00000004</strong>”</p></li>
+<li><p><strong>Monto Total Registros de Detalle:</strong> Monto que conforma la suma de cada uno de los montos especificados en los registros de detalle asociados al archivo. En el ejemplo anterior, el valor es “<strong>00000110032732954</strong>”</p></li>
+<li><p><strong>Fecha Valor:</strong> Fecha de la transacción. En el ejemplo anterior, la fecha de la transacción es “<strong>20210128</strong>”</p></li>
+<li><p><strong>Código Cuenta Cliente:</strong> Número de la cuenta bancaria (Corriente, Ahorro, Máxima) que tiene la empresa en el Banco Mercantil, en la cual se aplicará el débito producto de la gestión que realizará el Banco Mercantil. En el ejemplo anterio, el valor es “<strong>01050000000000000037</strong>”</p></li>
+<li><p><strong>Área Reservada:</strong> 0000000</p></li>
+<li><p><strong>Número Serial Nota Empresa:</strong> Número irrepetible que la empresa requiere aparezca como parte del serial de la nota de débito. Si la empresa no suministra este dato, el Banco Mercantil asignará un número aleatorio. En el ejemplo anterior, el valor es “<strong>00001545</strong>”</p></li>
+<li><p><strong>Código Respuesta Archivo</strong> Código que le asigna el Banco Mercantil al archivo como resultado de la gestión realizada. En el ejemplo anterior, el valor es “<strong>0000</strong>”</p></li>
+<li><p><strong>Fecha Proceso:</strong> Fecha que el Banco Mercantil efectuó la gestión indicada por la empresa. En el ejemplo anterior, el valor es “<strong>00000000</strong>”</p></li>
+<li><p><strong>Área Reservada:</strong> Docientos sesenta y un (261) espacios “<strong>000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000</strong>”</p></li>
+<li><p><strong>Tipo de Registro Detalle:</strong> 2</p></li>
+<li><p><strong>Tipo de Identificación:</strong> Clasificación a la cual pertenece el beneficiario del pago. En el ejemplo anterior, el valor es “<strong>V</strong>”</p></li>
+<li><p><strong>Número de Identificación:</strong> Número de RIF o de la cédula de identidad o pasaporte del beneficiario del pago, el mismo contiene quince (15) espacios. En el ejemplo anterior, los valores son “<strong>000000200003030</strong>”, “<strong>000000000000001</strong>”, “<strong>000000000000002</strong>”, “<strong>000000000000004</strong>”</p></li>
+<li><p><strong>Forma de Pago:</strong> 1 = Abono en cuenta, 3 = Transferencias</p></li>
+<li><p><strong>ÁREA RESERVADA:</strong> 000000000000</p></li>
+<li><p><strong>Área Reservada:</strong> Treinta (30) espacios en blanco</p></li>
+<li><p><strong>Código Cuenta Cliente:</strong> Número de la cuenta bancaria (Corriente, Ahorro, Máxima) que tiene el beneficiario del pago, a la cual se aplicará el crédito. En el ejemplo anterior, los valores son “<strong>01340000000000000048</strong>”, “<strong>01050000000000000075</strong>”, “<strong>01340000000000000039</strong>”, “<strong>01340000000000000067</strong>”</p></li>
+<li><p><strong>Monto Operación:</strong> Monto del Pago a realizar. En el ejemplo anterior, los valores son “<strong>00000054983169231</strong>”, “<strong>00000000059344492</strong>”, “<strong>00000054000000000</strong>”, “<strong>00000000990219231</strong>”</p></li>
+<li><p><strong>Identificación Cliente Empresa:</strong> Número de identificación del beneficiario. En el ejemplo anterior, los valores son “<strong>V00000008</strong>”, “<strong>V0000005</strong>”, “<strong>V00000009</strong>”, “<strong>V00000098</strong>”</p></li>
+<li><p><strong>Tipo de Pago:</strong> Identifica que tipo de pago se efectuara al abonado. “<strong>0000000222</strong>” = Pago de Nómina</p></li>
+<li><p><strong>Área Reservada:</strong> 000</p></li>
+<li><p><strong>Nombre Nominado:</strong> Apellidos y nombres del beneficiario. En el ejemplo anterior, los valores son “<strong>Empleado Dos</strong>”, “<strong>Empleado</strong>”, “<strong>Estndar</strong>”, “<strong>Empleado Tres</strong>”</p></li>
+<li><p><strong>Área Reservada:</strong> 000000000000000</p></li>
+<li><p><strong>Email del Beneficiario:</strong> Dirección de correo electrónico del beneficiario. En el ejemplo anterior, el valor es “<strong>empleado&#64;gmail.com</strong>”</p></li>
+<li><p><strong>Código Respuesta:</strong> 0000</p></li>
+<li><p><strong>Mensaje Respuesta:</strong> Descripción que explica brevemente el resultado de la gestión realizada. Esta descripción es asignada por el Banco Mercantil.</p></li>
+<li><p><strong>Concepto Pago:</strong> Descripción que indica brevemente el concepto que origina la gestión indicada. Esta información aparecerá en el detalle de la nota de débito o crédito del estado de cuenta del Cliente.</p></li>
+<li><p><strong>Área Reservada:</strong> 00000000000000000000000000000000000</p></li>
+</ul>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../provincial/provincial.html" class="btn btn-neutral float-right" title="Banco Provincial" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../bnc/bnc.html" class="btn btn-neutral float-left" title="Banco Nacional de Crédito" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

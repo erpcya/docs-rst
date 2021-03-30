@@ -1,0 +1,521 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Retiro Detallado de Punto de Venta &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Cierre de Caja del Punto de Venta" href="closing-cash.html" />
+    <link rel="prev" title="Anular Factura Fiscal" href="cancel-tax-invoice.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión PDV</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-terminal.html"><strong>Configuración de Terminal PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html"><strong>Interfaz de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily-pdv-procedure.html"><strong>Procedimiento de Inicio de Jornada Laboral PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-report-x-y-z.html"><strong>Imprimir Reportes X y Z</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="opening-cash.html"><strong>Apertura de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="pos.html"><strong>Toma de Pedido</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html"><strong>Anular Transacción de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html"><strong>Completar Orden Preparada</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html"><strong>Anular Factura Fiscal</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Retiro Detallado de Punto de Venta</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ejecucion-del-proceso"><strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consulta-de-pago-y-cobro-generados-en-caja"><strong>Consulta de Pago y Cobro Generados en Caja</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-registro-en-cierre-de-caja"><strong>Consultar Registro en Cierre de Caja</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="closing-cash.html"><strong>Cierre de Caja del Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html"><strong>Traspaso a Banco</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión PDV</strong></a> &raquo;</li>
+        
+      <li><strong>Retiro Detallado de Punto de Venta</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/pos-management/detailed-point-of-sale-withdrawal.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="retiro-detallado-de-punto-de-venta">
+<span id="documento-retiro-detallado-punto-de-venta"></span><h1><strong>Retiro Detallado de Punto de Venta</strong><a class="headerlink" href="#retiro-detallado-de-punto-de-venta" title="Permalink to this headline">¶</a></h1>
+<p>Un retiro de fondos es realizado cuando por algún motivo se saca dinero de alguna de las cajas donde es realizado el proceso de venta de productos, la mayoria de las veces suele suceder por un alivio de caja, cancelación de un gasto, entre otros. A continuación es explicado el procedimiento regular para reflejar en ADempiere, un retiro de fondos.</p>
+<p>A continuación, se específica el procedimiento que se debe realizar para retirar correctamente los fondos de caja POS.</p>
+<div class="section" id="ejecucion-del-proceso">
+<h2><strong>Ejecución del Proceso</strong><a class="headerlink" href="#ejecucion-del-proceso" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”, por último seleccione la carpeta “<strong>Punto de Venta</strong>”. Para finalizar, seleccione la ventana “<strong>Punto de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../_images/point-of-sale-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Si en el transcurso del día, se presenta un retiro de fondos en alguna de las cajas en la cual se encuentran realizando transacciones desde el punto de venta, seleccione la opción “<strong>Retiro de Caja (Detallado)</strong>”, ubicada en el menú desplegado por el icono “<strong>Proceso</strong>” de la barra de herramientas de la ventana “<strong>Punto de Venta</strong>”, explicada en el documento <a class="reference internal" href="point-of-sale-interface.html#documento-paso-barra-de-herramientas"><span class="std std-ref">Barra de Herramientas del Punto de Venta</span></a> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Opción Crear Retiro Detallado de POS" src="../../_images/option-create-detailed-pos-withdrawal.png" /></p>
+<p>Imagen 2. Opción Crear Retiro Detallado de POS</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Retiro de Caja (Detallado)</strong>”, con diferentes campos que permiten filtrar la información en base a lo requerido por el usuario para reflejar el retiro de fondos de la caja donde se encuentra realizando sus operaciones de venta.</p>
+<blockquote>
+<div><p><img alt="Ventana Retiro de Caja Detallado" src="../../_images/detail-cash-withdrawal-window.png" /></p>
+<p>Imagen 3. Ventana Retiro de Caja (Detallado)</p>
+<p>Como ejemplo del proceso de retiro de fondos desde el punto de venta se tienen las siguientes transacciones en “<strong>Caja 01</strong>”:</p>
+<ul>
+<li><p>Transacciones del punto de venta del día “<strong>10/02/2021</strong>”.</p>
+<blockquote>
+<div><ul>
+<li><p><strong>Apertura de Caja</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>100,00 en Moneda “<strong>USD</strong>”</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>Formas de Pago Recibidas por Ventas</strong></p>
+<blockquote>
+<div><ul>
+<li><p>Efectivo en Moneda “<strong>USD</strong>”</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>10,00</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Transferencia en Moneda “<strong>VES</strong>”</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>5.917.563,54</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Pago Móvil en Moneda “<strong>VES</strong>”</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>70.000.000,00</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Débito Directo en Moneda “<strong>VES</strong>”</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>40.577.378,71</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>El retiro detallado de la caja, se debe realizar por moneda. Para el caso de la moneda “<strong>VES</strong>”, se debe tildar de manera <strong>Obligatoria</strong>, el check “<strong>Dividir Depósitos</strong>”, para que ADempiere genere un egreso de caja POS por el total de los movimientos con dicha moneda y un ingreso a caja administrativa por cada uno de los movimientos de cobro de dicha moneda.</p>
+</div></blockquote>
+<p>En el campo “<strong>Terminal PDV</strong>”, podrá visualizar el terminal asociado al punto de venta desde el que accedió al proceso.</p>
+<blockquote>
+<div><p><img alt="campo terminal pdv del retiro detallado" src="../../_images/detailed-removal-terminal-field-pdv.png" /></p>
+<p>Imagen 4. Campo Terminal PDV</p>
+</div></blockquote>
+<p>En el campo “<strong>Cuenta Bancaria</strong>”, podrá visualizar la cuenta bancaria de la caja POS asociada al punto de venta desde el que accedió al proceso.</p>
+<blockquote>
+<div><p><img alt="campo o filtro cuenta bancaria del retiro detallado" src="../../_images/field-or-filter-bank-account-of-the-detailed-withdrawal.png" /></p>
+<p>Imagen 5. Campo Cuenta Bancaria</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio vendedor por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo o filtro socio del negocio del retiro detallado" src="../../_images/field-or-filter-business-partner-of-the-detailed-withdrawal.png" /></p>
+<p>Imagen 6. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Pago</strong>”, el tipo de pago por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo tipo de pago del retiro detallado" src="../../_images/detailed-withdrawal-payment-type-field.png" /></p>
+<p>Imagen 7. Campo Tipo de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de la Transacción</strong>”, el rango de fecha por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo o filtro fecha de la transacción del retiro detallado" src="../../_images/field-or-filter-date-of-the-detailed-withdrawal-transaction.png" /></p>
+<p>Imagen 8. Campo Fecha de la Transacción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo moneda del retiro detallado" src="../../_images/detailed-withdrawal-currency-field.png" /></p>
+<p>Imagen 9. Campo Moneda</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para filtrar la información en base a lo seleccionado anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción comenzar búsqueda del retiro detallado" src="../../_images/option-start-detailed-withdrawal-search.png" /></p>
+<p>Imagen 10. Opción Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Podrá visualizar los diferentes movimientos de la caja en base a lo seleccionado.</p>
+<blockquote>
+<div><p><img alt="resultado de búsqueda del retiro detallado" src="../../_images/detailed-withdrawal-search-result.png" /></p>
+<p>Imagen 11. Resultado de Búsqueda</p>
+</div></blockquote>
+<p>Seleccione los movimientos correspondientes al retiro que requiere realizar.</p>
+<blockquote>
+<div><p><img alt="selección de movimientos del retiro detallado" src="../../_images/selection-of-detailed-withdrawal-movements.png" /></p>
+<p>Imagen 12. Selección de Movimientos</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de la Transacción</strong>”, la fecha con la que serán generados los documento.</p>
+<blockquote>
+<div><p><img alt="campo fecha de la transacción del retiro detallado" src="../../_images/detailed-withdrawal-transaction-date-field.png" /></p>
+<p>Imagen 13. Campo Fecha de la Transacción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la cuenta bancaria en la cual ingresarán los movimientos seleccionados.</p>
+<blockquote>
+<div><p><img alt="campo cuenta bancaria del retiro detallado" src="../../_images/bank-account-field-of-the-detailed-withdrawal.png" /></p>
+<p>Imagen 14. Campo Cuenta Bancaria</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio correspondiente para el ingreso.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio del retiro detallado" src="../../_images/field-retirement-business-partner-detailed.png" /></p>
+<p>Imagen 15. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>No. del Documento</strong>”, el número de documento para los documentos de egreso e ingreso.</p>
+<blockquote>
+<div><p><img alt="campo número del documento del retiro detallado" src="../../_images/detailed-withdrawal-document-number-field.png" /></p>
+<p>Imagen 16. Campo No. del Documento</p>
+</div></blockquote>
+<p>En el caso de los retiros en moneda “<strong>VES</strong>”, tilde el check “<strong>Dividir Depósitos</strong>”, para generar un documento de egreso de la caja POS con la suma de todos los cobros y tantos documentos de ingreso a la caja administrativos como movimientos seleccionados en el proceso.</p>
+<blockquote>
+<div><p><img alt="check dividir depósitos del retiro detallado" src="../../_images/check-split-deposits-from-detailed-withdrawal.png" /></p>
+<p>Imagen 17. Check Dividir Depósitos</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo que justifica el retiro de fondos del dinero de la caja. Para este caso, es utilizado como ejemplo el cargo “<strong>Efectivo en Tránsito Administración</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo cargo del retiro detallado" src="../../_images/detailed-withdrawal-charge-field.png" /></p>
+<p>Imagen 18. Campo Cargo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento para Retiros</strong>”, el tipo de documento con el cual será generado el egreso. Para este caso, se utiliza el tipo de documento “<strong>Egreso Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento para retiros del retiro detallado" src="../../_images/document-type-field-for-detailed-withdrawal-withdrawals.png" /></p>
+<p>Imagen 19. Campo Tipo de Documento para Retiros</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento para Depósito</strong>”, el tipo de documento con el cual será generado el ingreso. Para este caso, se utiliza el tipo de documento “<strong>Ingreso Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento para depósito del retiro detallado" src="../../_images/document-type-field-for-detailed-withdrawal-deposit.png" /></p>
+<p>Imagen 20. Campo Tipo de Documento para Depósito</p>
+</div></blockquote>
+<p>El check “<strong>Conciliar Automáticamente</strong>”, permite la conciliación automática de los movimientos seleccionados.</p>
+<blockquote>
+<div><p><img alt="check conciliar automáticamente del retiro detallado" src="../../_images/check-automatically-reconcile-detailed-withdrawal.png" /></p>
+<p>Imagen 21. Check Conciliar Automáticamente</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para ejecutar el proceso.</p>
+<blockquote>
+<div><p><img alt="opción ok para ejecutar el proceso" src="../../_images/ok-option-to-run-the-process.png" /></p>
+<p>Imagen 22. Opción OK</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Por cada retiro de fondo realizado desde el punto de venta, ADempiere crea en la ventana “<strong>Caja</strong>” los siguientes documentos:</p>
+<ul class="simple">
+<li><p>Un documento de pago asociando en el campo “<strong>Cuenta</strong>”, la caja POS desde la cual se ejecuta el proceso. Dicho documento se puede visualizar en la ventana “<strong>Caja</strong>”.</p></li>
+<li><p>De igual manera crea un documento de cobro asociando en el campo “<strong>Cuenta</strong>”, la caja adiministrativa seleccionada en el campo “<strong>Cuenta Bancaria</strong>” del proceso “<strong>Retiro de Caja (Detallado)</strong>”. Dicho documento se puede visualizar en la ventana “<strong>Caja</strong>”.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="consulta-de-pago-y-cobro-generados-en-caja">
+<h2><strong>Consulta de Pago y Cobro Generados en Caja</strong><a class="headerlink" href="#consulta-de-pago-y-cobro-generados-en-caja" title="Permalink to this headline">¶</a></h2>
+<p>Ubique los registros creados por el retiro de fondos en la ventana “<strong>Caja</strong>”, con ayuda del número de documento ingresado en el campo “<strong>No. del Documento</strong>”, de la ventana “<strong>Retiro de Caja (Detallado)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Número de Documento del Retiro de Fondos" src="../../_images/funds-withdrawal-document-number.png" /></p>
+<p>Imagen 23. Número de Documento del Retiro de Fondos</p>
+</div></blockquote>
+<p>Podrá visualizar en la parte inferior derecha de la ventana “<strong>Caja</strong>”, el número de registros creados con el valor ingresado en el campo “<strong>No. del Documento</strong>”, de la ventana “<strong>Retiro de Caja (Detallado)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Documento de Pago Generado en Caja" src="../../_images/payment-document-generated-in-cash.png" /></p>
+<p>Imagen 24. Documento de Pago Generado en Caja</p>
+</div></blockquote>
+<p>Podrá visualizar el registro de “<strong>Pago</strong>” creado desde la ventana “<strong>Retiro de Caja (Detallado)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pago Creado desde la Ventana Retiros de Puntos de Venta" src="../../_images/payment-created-from-the-point-of-sale-withdrawals-window.png" /></p>
+<p>Imagen 25. Pago Creado desde la Ventana Retiros de Puntos de Venta</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Próximo Registro</strong>”, ubicado en la barra de herramientas para visualizar el registro de “<strong>Cobro</strong>” creado desde la ventana “<strong>Retiro de Caja (Detallado)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Cobro Creado desde la Ventana Retiros de Puntos de Venta" src="../../_images/collection-created-from-the-point-of-sale-withdrawals-window.png" /></p>
+<p>Imagen 26. Cobro Creado desde la Ventana Retiros de Puntos de Venta</p>
+</div></blockquote>
+</div>
+<div class="section" id="consultar-registro-en-cierre-de-caja">
+<h2><strong>Consultar Registro en Cierre de Caja</strong><a class="headerlink" href="#consultar-registro-en-cierre-de-caja" title="Permalink to this headline">¶</a></h2>
+<p>Cada forma de pago y moneda por la que se realiza un retiro de fondos, se genera un documento de egreso y uno de ingreso en la ventana “<strong>Caja</strong>”. Por cada documento generado se crea una línea con el mismo asociado, en la pestaña “<strong>Línea de Cierre de Caja</strong>”, de la ventana “<strong>Cierre de Caja</strong>” correspondiente a los registros creados en estado “<strong>Borrador</strong> al realizar la apertura de caja.</p>
+<p>Registro de “<strong>Caja Administrativa</strong>” en la ventana “<strong>Cierre de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Registro de Retiro Generado en Caja Administrativa" src="../../_images/withdrawal-record-generated-in-administrative-cash.png" /></p>
+<p>Imagen 27. Registro de Retiro Generado en Caja Administrativa</p>
+</div></blockquote>
+<p>Registro de “<strong>Caja 01</strong>” en la ventana “<strong>Cierre de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Registro de Retiro Generado en Caja 01" src="../../_images/withdrawal-record-generated-in-cash-01.png" /></p>
+<p>Imagen 28. Registro de Retiro Generado en Caja 01</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="closing-cash.html" class="btn btn-neutral float-right" title="Cierre de Caja del Punto de Venta" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="cancel-tax-invoice.html" class="btn btn-neutral float-left" title="Anular Factura Fiscal" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

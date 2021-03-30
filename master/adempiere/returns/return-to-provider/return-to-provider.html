@@ -1,0 +1,555 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Autorización de Devolución a Proveedor &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Gestión de Saldos Pendientes" href="../../open-items/index.html" />
+    <link rel="prev" title="Devolución a Proveedor" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Devoluciones</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../order-return/index.html"><strong>Devolución de Cliente</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Devolución a Proveedor</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Autorización de Devolución a Proveedor</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#devolucion-a-proveedor"><strong>Devolución a Proveedor</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#completar-nota-de-credito-generada"><strong>Completar Nota de Crédito Generada</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-saldos-abiertos"><strong>Consultar Saldos Abiertos</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-detalle-de-transacciones"><strong>Consultar Detalle de Transacciones</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Devoluciones</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Devolución a Proveedor</strong></a> &raquo;</li>
+        
+      <li><strong>Autorización de Devolución a Proveedor</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/returns/return-to-provider/return-to-provider.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="autorizacion-de-devolucion-a-proveedor">
+<span id="documento-devolucion-proveedor"></span><h1><strong>Autorización de Devolución a Proveedor</strong><a class="headerlink" href="#autorizacion-de-devolucion-a-proveedor" title="Permalink to this headline">¶</a></h1>
+<p>Es el documento elaborado por la empresa luego de una evaluación de la condición de los productos o materiales comprados al proveedor, cuando estos no se encuentran en buenas condiciones o simplemente no cumplen con lo requerido, el mismo autoriza la devolución de uno, varios, o todos los productos o materiales comprados.</p>
+<p>Para realizar una devolución a proveedor deben existir los documentos “<strong>Orden de Compra</strong>”, “<strong>Factura de Cuentas por Pagar</strong>” y “<strong>Recepción</strong>”. Para ejemplificar el registro de la devolución a proveedor se tienen los siguientes documentos.</p>
+<ul>
+<li><p>Puede visualizar el documento “<strong>Orden de Compra</strong>” en estado “<strong>Completo</strong>”, con monto “<strong>10.000.000,00</strong>”.</p>
+<blockquote>
+<div><p><img alt="Orden de Compra 1" src="../../../_images/orden-compra1.png" /></p>
+<p>Imagen 1. Documento Orden de Compra</p>
+</div></blockquote>
+</li>
+<li><p>Puede visualizar el “<strong>Factura de Cuentas por Pagar</strong>” en estado “<strong>Completo</strong>”, con monto “<strong>10.000.000,00</strong>”.</p>
+<blockquote>
+<div><p><img alt="Factura de Compra 1" src="../../../_images/factura-pagar1.png" /></p>
+<p>Imagen 2. Factura de Cuentas por Pagar</p>
+</div></blockquote>
+</li>
+<li><p>Puede visualizar el documento de “<strong>Recepción</strong>” en estado “<strong>Completo</strong>”, con monto “<strong>10.000.000,00</strong>”.</p>
+<blockquote>
+<div><p><img alt="Recepción 1" src="../../../_images/recepcion1.png" /></p>
+<p>Imagen 3. Documento de Recepción</p>
+</div></blockquote>
+</li>
+</ul>
+<p>Al consultar saldos abiertos se puede visualizar el saldo correspondiente al monto de la factura de cuentas por pagar mostrado anteriormente.</p>
+<blockquote>
+<div><p><img alt="Saldos Abiertos a la Fecha 1" src="../../../_images/saldosA1.png" /></p>
+<p>Imagen 4. Saldos Abiertos</p>
+</div></blockquote>
+<p>A continuación se define el proceso para la creación de una autorización de devolución a proveedor en ADempiere.</p>
+<p>Ubique en el menú de ADempiere la ventana “<strong>Gestión de Compras</strong>”, luego seleccione la ventana “<strong>Orden de Devolución (Proveedor)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 1" src="../../../_images/menu-aut-dev.png" /></p>
+<p>Imagen 5. Menú de ADempiere</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>” en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo 1" src="../../../_images/nuevo12.png" /></p>
+<p>Imagen 6. Icono de Registro Nuevo</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde que cada campo es necesario e importante para obtener el registro exitoso del documento en ADempiere.</p>
+</div>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el documento “<strong>Autorización de Devolución a Proveedor</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Organización 1" src="../../../_images/org15.png" /></p>
+<p>Imagen 7. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento Destino</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para este ejemplo el tipo de documento es “<strong>Autorización Devolución Proveedor Nacional</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento 1" src="../../../_images/tipo-doc11.png" /></p>
+<p>Imagen 8. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo Autorización Devolución</strong>”, el motivo o la condición del producto por el cual es requerida una autorización de devolución. Para este ejemplo el tipo de autorización es “<strong>Dañado</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo Autorización Devolución 1" src="../../../_images/tipo-aut1.png" /></p>
+<p>Imagen 9. Campo Tipo Autorización Devolución</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio proveedor al cual se le realizará la devolución.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio 1" src="../../../_images/socio14.png" /></p>
+<p>Imagen 10. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione la dirección de localización del socio del negocio, en el campo “<strong>Dirección del Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Dirección del Socio del Negocio 1" src="../../../_images/direc-socio1.png" /></p>
+<p>Imagen 11. Dirección del Socio del Negocio</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono “<strong>Guardar</strong>” en la barra de herramientas de ADempiere, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo “<strong>No. del Documento</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Proceso</strong>” ubicado en la barra de herramientas de ADempiere, luego seleccione la opción “<strong>Crear Orden de Devolución desde Entrega / Recibo</strong>” para crear la “<strong>Orden de Devolución</strong>” desde la recepción del producto.</p>
+<blockquote>
+<div><p><img alt="Icono Proceso 1" src="../../../_images/icono-proceso1.png" /></p>
+<p>Imagen 12. Icono Proceso</p>
+<p>Podrá visualizar la siguiente ventana del proceso, donde debe seleccionar el documento de recepción donde se encuentra el producto.</p>
+<blockquote>
+<div><p><img alt="Ventana del Proceso 1" src="../../../_images/vent-proceso1.png" /></p>
+<p>Imagen 13. Ventana del Proceso y Selección del Documento de Recepción</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El campo “<strong>Socio del Negocio</strong>” viene precargado con la información seleccionada en el campo “<strong>Socio del Negocio</strong>” ubicado en la ventana “<strong>Orden de Devolución (Proveedor)</strong>”. Al seleccionar el identificador del campo “<strong>Entrega / Recibo</strong>” podrá visualizar las diferentes recepciones asociadas al socio del negocio que se encuentra seleccionado en dicho campo, permitiendole seleccionar la línea del documento de recepción donde se encuentra el producto involucrado en la devolución.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>” para buscar las líneas del documento de recepción seleccionado.</p>
+<blockquote>
+<div><p><img alt="Opción Comenzar Búsqueda 1" src="../../../_images/comenz-bus1.png" /></p>
+<p>Imagen 14. Opción Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Seleccione la línea del documento de recepción donde se encuentra el producto que se va a devolver, luego seleccione la opción “<strong>OK</strong>” para cargar el registro a la pestaña “<strong>Línea de Autorización</strong>”.</p>
+<blockquote>
+<div><p><img alt="Seleccionar Recepción y Opción OK 1" src="../../../_images/selec-ok1.png" /></p>
+<p>Imagen 15. Seleccionar Línea con el Producto a Devolver</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde actualizar el registro de la ventana con ayuda del icono “<strong>Refrescar</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Línea de Autorización</strong>” para verificar que los datos fueron cargados correctamente.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de Autorización 1" src="../../../_images/pest-lin-aut1.png" /></p>
+<p>Imagen 16. Pestaña Línea de Autorización</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si la cantidad de productos a devolver es menor a la cantidad de productos recepcionados, recuerde ingresar en el campo “<strong>Cantidad</strong>”, el valor o la cantidad de productos a devolver.</p>
+</div>
+</div></blockquote>
+<p>Regrese a la ventana principal “<strong>Autorización Devolución Proveedor</strong>”, seleccione la opción “<strong>Completar</strong>” en la parte inferior del documento.</p>
+<blockquote>
+<div><p><img alt="Opción Completar 1" src="../../../_images/completar14.png" /></p>
+<p>Imagen 17. Opción Completar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el documento.</p>
+<blockquote>
+<div><p><img alt="Acción Completar 1" src="../../../_images/accion-completar7.png" /></p>
+<p>Imagen 18. Acción Completar</p>
+</div></blockquote>
+</div>
+<div class="section" id="devolucion-a-proveedor">
+<h1><strong>Devolución a Proveedor</strong><a class="headerlink" href="#devolucion-a-proveedor" title="Permalink to this headline">¶</a></h1>
+<p>Es el documento que refleja la devolución de uno, varios, o todos los productos o materiales comprados a un proveedor determinado. A continuación se define el proceso para la creación de una devolución a proveedor en ADempiere.</p>
+<p>Ubique en el menú de ADempiere la ventana “<strong>Gestión de Devoluciones</strong>” y seleccione la ventana “<strong>Devolución a Proveedor</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 2" src="../../../_images/menu-dev-pro.png" /></p>
+<p>Imagen 19. Menú de ADempiere</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>” en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo 2" src="../../../_images/nuevo22.png" /></p>
+<p>Imagen 20. Icono Registro Nuevo</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde que cada campo es necesario e importante para obtener el registro exitoso del documento en ADempiere.</p>
+</div>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el documento “<strong>Devolución a Proveedor</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Organización 2" src="../../../_images/org22.png" /></p>
+<p>Imagen 21. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento Destino</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para este ejemplo el tipo de documento es “<strong>Devolución a Proveedor Nacional</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento 2" src="../../../_images/tipo-doc2.png" /></p>
+<p>Imagen 22. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio proveedor al cual se le ralizará la devolución del producto.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio 2" src="../../../_images/socio22.png" /></p>
+<p>Imagen 23. Campo Socio del Negocio</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar los cambios realizados en cada pestaña del documento con ayuda del icono “<strong>Guardar</strong>” en la barra de herramientas de ADempiere, al guardar los cambios realizados se asigna automáticamente el número del documento en el campo “<strong>No. del Documento</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Proceso</strong>” ubicado en la barra de herramientas de ADempiere, luego seleccione la opción “<strong>Crear Devolución Desde Orden (ADM)</strong>” para crear la “<strong>Devolución a Proveedor</strong>” desde la “<strong>Orden de Devolución</strong>” del producto.</p>
+<blockquote>
+<div><p><img alt="Icono Proceso 2" src="../../../_images/icono-proceso2.png" /></p>
+<p>Imagen 24. Icono Proceso</p>
+<p>Podrá visualizar la siguiente ventana del proceso, donde debe seleccionar el documento de autorización de devolución creado anteriormente.</p>
+<blockquote>
+<div><p><img alt="Ventana del Proceso 2" src="../../../_images/vent-proceso2.png" /></p>
+<p>Imagen 25. Ventana del Proceso y Selección del Documento de Recepción</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El campo “<strong>Socio del Negocio</strong>” viene precargado con la información seleccionada en el campo “<strong>Socio del Negocio</strong>” ubicado en la ventana “<strong>Devolución a Proveedor</strong>”. Al seleccionar el identificador del campo “<strong>Orden de Venta</strong>” podrá visualizar las diferentes autorizaciones de devoluciones asociadas al socio del negocio que se encuentra seleccionado en dicho campo, permitiendole seleccionar la línea del documento de autorización de devolución a proveedor, donde se encuentra el producto involucrado en la devolución.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>” para buscar las líneas del documento de autorización seleccionado.</p>
+<blockquote>
+<div><p><img alt="Opción Comenzar Búsqueda 2" src="../../../_images/comenz-bus2.png" /></p>
+<p>Imagen 26. Opción Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Seleccione la línea del documento de autorización de devolución donde se encuentra el producto que se va a devolver, luego seleccione la opción “<strong>OK</strong>” para cargar el registro a la pestaña “<strong>Línea de Devolución</strong>”.</p>
+<blockquote>
+<div><p><img alt="Seleccionar Recepción y Opción OK 2" src="../../../_images/selec-ok21.png" /></p>
+<p>Imagen 27. Seleccionar Línea con el Producto a Devolver</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde actualizar el registro de la ventana con ayuda del icono “<strong>Refrescar</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Línea de Autorización</strong>” para verificar que los datos fueron cargados correctamente.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de Autorización 2" src="../../../_images/pest-lin-ent.png" /></p>
+<p>Imagen 28. Pestaña Línea de Autorización</p>
+</div></blockquote>
+</div></blockquote>
+<p>Regrese a la ventana principal “<strong>Devolución a Proveedor</strong>”, seleccione la opción “<strong>Completar</strong>” en la parte inferior del documento.</p>
+<blockquote>
+<div><p><img alt="Opción Completar" src="../../../_images/completar22.png" /></p>
+<p>Imagen 29. Opción Completar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el documento.</p>
+<blockquote>
+<div><p><img alt="Acción Completar 1" src="../../../_images/accion-completar7.png" /></p>
+<p>Imagen 30. Acción Completar</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Generar Facturas desde Recibos</strong>”, para generar el documento “<strong>Nota de Crédito</strong>” desde la ventana “<strong>Devolución a Proveedor</strong>”.</p>
+<blockquote>
+<div><p><img alt="Generar Facturas desde Recibos 1" src="../../../_images/generar-nota1.png" /></p>
+<p>Imagen 31. Generar Facturas desde Recibos</p>
+<p>Podrá visualizar la siguiente ventana donde debe seleccionar la opción “<strong>OK</strong>”.</p>
+<blockquote>
+<div><p><img alt="Ventana Generar Facturas desde Recibos y Seleccionar Opción OK" src="../../../_images/vent-generar-nota1.png" /></p>
+<p>Imagen 32. Ventana Generar Facturas desde Recibos y Seleccionar Opción OK</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El documento “<strong>Nota de Crédito</strong>” es generado en estado “<strong>Borrador</strong>”, el número del mismo se puede visualizar en la parte inferior derecha de la ventana “<strong>Devolución a Proveedor</strong>”.</p>
+</div>
+</div>
+<div class="section" id="completar-nota-de-credito-generada">
+<h1><strong>Completar Nota de Crédito Generada</strong><a class="headerlink" href="#completar-nota-de-credito-generada" title="Permalink to this headline">¶</a></h1>
+<p>Podrá visualizar el documento “<strong>Nota de Crédito</strong>” generado desde la ventana “<strong>Devolución a Proveedor</strong>”, al buscar el mismo con número de documento “<strong>1000080</strong>”.</p>
+<blockquote>
+<div><p><img alt="Nota de Crédito 1" src="../../../_images/nota-credito1.png" /></p>
+<p>Imagen 33. Nota de Crédito</p>
+<p>Seleccione en el campo “<strong>Factura Afectada</strong>”, la factura de cuentas por pagar al cual le será aplicada la nota de crédito. Para ejemplificar el registro, es seleccionada la factura “<strong>1000076</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Documento Afectado" src="../../../_images/factura-afectada1.png" /></p>
+<p>Imagen 34. Campo Factura Afectada</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Completar</strong>” ubicada en la parte inferior derecha del documento.</p>
+<blockquote>
+<div><p><img alt="Opción Completar 3" src="../../../_images/completar32.png" /></p>
+<p>Imagen 35. Opción Completar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el documento “<strong>Nota de Crédito</strong>”.</p>
+<blockquote>
+<div><p><img alt="Acción Completar 1" src="../../../_images/accion-completar7.png" /></p>
+<p>Imagen 36. Acción Completar</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="consultar-saldos-abiertos">
+<h1><strong>Consultar Saldos Abiertos</strong><a class="headerlink" href="#consultar-saldos-abiertos" title="Permalink to this headline">¶</a></h1>
+<p>Al consultar saldos abiertos se verifica que la nota de crédito haya sido aplicada a la factura, generando un descuento al saldo abierto de la factura de cuentas por pagar de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Saldos Abiertos a la Fecha 2" src="../../../_images/saldosA2.png" /></p>
+<p>Imagen 37. Saldos Abiertos a la Fecha</p>
+</div></blockquote>
+</div>
+<div class="section" id="consultar-detalle-de-transacciones">
+<h1><strong>Consultar Detalle de Transacciones</strong><a class="headerlink" href="#consultar-detalle-de-transacciones" title="Permalink to this headline">¶</a></h1>
+<p>Al consultar los detalles de transacciones se verifican los movimientos de entrada de productos por medio de una recepción, generando con ello un aumento al total de productos. De igual manera es reflejada la salida de productos por medio de una devolución a proveedor, generando con ello un descuento al total de productos en existencia.</p>
+<blockquote>
+<div><p><img alt="Detalle de Transacciones" src="../../../_images/deta-trans1.png" /></p>
+<p>Imagen 38. Detalle de Transacciones</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../open-items/index.html" class="btn btn-neutral float-right" title="Gestión de Saldos Pendientes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Devolución a Proveedor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,819 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Registro de Conciliación Automática &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Crear Pagos desde Estado de Cuenta" href="create-payments-from-account-statement.html" />
+    <link rel="prev" title="Descarga de Extracto Bancario desde Banco" href="download.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bank-transfer/index.html"><strong>Transferencia Bancaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payment-selection/index.html"><strong>Selección de Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../print-export/index.html"><strong>Imprimir / Exportar Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payment/index.html"><strong>Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection/index.html"><strong>Cobro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-refund/index.html"><strong>Caja Reembolso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-per-diems/index.html"><strong>Caja Viáticos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection-cash/index.html"><strong>Caja Cobranza</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pay-assignment/index.html"><strong>Asignación de Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-closing/index.html"><strong>Cierre de Caja</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Conciliaciones Automáticas</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="download.html"><strong>Descarga de Extracto Bancario desde Banco</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Registro de Conciliación Automática</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#importacion-de-extracto-bancario"><strong>Importación de Extracto Bancario</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#conciliacion-automatica"><strong>Conciliación Automática</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#coincidencia-bancarias"><strong>Coincidencia Bancarias</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#revision-de-conciliaciones"><strong>Revisión de Conciliaciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#crear-pagos-desde-linea-de-estado-de-cuenta"><strong>Crear Pagos Desde Línea de Estado de Cuenta</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="create-payments-from-account-statement.html"><strong>Crear Pagos desde Estado de Cuenta</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="create-payments-from-account-statement.html#pagos-cobros-sin-registros"><strong>Pagos/Cobros sin Registros</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Conciliaciones Automáticas</strong></a> &raquo;</li>
+        
+      <li><strong>Registro de Conciliación Automática</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/open-items/automatic-conciliations/conciliation.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-de-conciliacion-automatica">
+<span id="documento-conciliacion-automatica"></span><h1><strong>Registro de Conciliación Automática</strong><a class="headerlink" href="#registro-de-conciliacion-automatica" title="Permalink to this headline">¶</a></h1>
+<p>Para poder crear una conciliación automática en ADempiere debe seguir los siguientes pasos:</p>
+<p>Ubique en el menú de ADempiere la carpeta “<strong>Gestión de Saldos Pendientes</strong>” y luego seleccione la ventana “<strong>Estado de Cuenta Bancario</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../_images/menuconciliacion.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>” en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Icono de Registro Nuevo" src="../../../_images/nuevoreg.png" /></p>
+<p>Imagen 2. Icono de Registro Nuevo</p>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se está realizando el documento de estado de cuenta bancario, el valor en el mismo debe ser diferente del símbolo (*).</p>
+<blockquote>
+<div><p><img alt="Campo Organización" src="../../../_images/organizacion2.png" /></p>
+<p>Imagen 3. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento" src="../../../_images/tipodoc.png" /></p>
+<p>Imagen 4. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, el banco con el que va a trabajar la conciliación.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta Bancaria" src="../../../_images/cuentabancaria.png" /></p>
+<p>Imagen 5. Campo Cuenta Bancaria</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar</strong>” en la barra de herramientas de ADempiere para guardar los cambios realizados en el documento.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios" src="../../../_images/guardar4.png" /></p>
+<p>Imagen 6. Icono Guardar</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Hasta este paso es el llenado del encabezado de la conciliación, donde se define el banco en el cual se va a realizar la conciliación de los pagos/cobros que ha tenido la empresa en un rango determinado. En adelante se procederá a realizar la conciliación.</p>
+</div>
+<div class="section" id="importacion-de-extracto-bancario">
+<h2><strong>Importación de Extracto Bancario</strong><a class="headerlink" href="#importacion-de-extracto-bancario" title="Permalink to this headline">¶</a></h2>
+<p>Para que ADempiere pueda conciliar y verificar los pagos/cobros en una cuenta bancaria y los registrados pagos/cobros en ADempiere, se debe importar el extracto bancario generado del banco para ello se deben seguir los siguientes pasos.</p>
+<p>Ya estando posicionados en la ventana “<strong>Estado de Cuenta Bancario</strong>” seleccione el icono “<strong>Proceso</strong>” en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Proceso" src="../../../_images/proceso.png" /></p>
+<p>Imagen 7. Icono Proceso</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Carga de Estado de Cuentas</strong>” en el menú desplegado por el icono “<strong>Proceso</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Carga de Estado de Cuentas del Icono Proceso" src="../../../_images/cargar.png" /></p>
+<p>Imagen 8. Opción Proceso</p>
+</div></blockquote>
+<p>Podrá apreciar la siguiente ventana y proceder al llenado de los campos correspondientes para cargar el extracto bancario.</p>
+<blockquote>
+<div><p><img alt="Ventana Extracto Bancario" src="../../../_images/ventanacargar.png" /></p>
+<p>Imagen 9. Ventana Extracto Bancario</p>
+<p>Seleccione en el campo “<strong>Cargador de Estado de Cuenta</strong>”, el banco seleccionado en el campo “<strong>Cuenta Bancaria</strong>” de la ventana principal “<strong>Estado de Cuentas Bancario</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Cargador de Estado de Cuenta" src="../../../_images/cargador.png" /></p>
+<p>Imagen 10. Campo Cargador de Estado de Cuenta</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Nombre del Archivo</strong>” el estado de cuenta bancario a importar, correspondiente al banco seleccionado.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre del Archivo" src="../../../_images/nombre5.png" /></p>
+<p>Imagen 11. Campo Nombre del Archivo</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Seleccionar Archivo</strong>”, para buscar el archivo a importar.</p>
+<blockquote>
+<div><p><img alt="Opción Seleccionar Archivo" src="../../../_images/nueva.png" /></p>
+<p>Imagen 12. Opción Seleccionar Archivo</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Cargar Archivo (Upload)</strong>”, para cargar el archivo seleccionado.</p>
+<blockquote>
+<div><p><img alt="Opción Cargar Archivo" src="../../../_images/archivo.png" /></p>
+<p>Imagen 13. Opción Cargar Archivo</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para importar el archivo a ADempiere.</p>
+<blockquote>
+<div><p><img alt="Opción OK" src="../../../_images/ok1.png" /></p>
+<p>Imagen 14. Opción OK</p>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar en la ventana un mensaje el cual indica la importación exitosa en ADempiere del extracto bancario y la cantidad de movimientos que posee el extracto bancario, para este caso como ejemplo está indicando que tiene 598 movimientos el extracto bancario.</p>
+<blockquote>
+<div><p><img alt="Estado de Cuenta" src="../../../_images/estado2.png" /></p>
+<p>Imagen 15. Estado de Cuenta</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Una vez cargado el extracto de cuenta bancario se puede proceder a realizar la conciliación automática, si el extracto de cuenta bancario no es importado ADempiere no podrá realizar el proceso.</p>
+</div>
+</div>
+<div class="section" id="conciliacion-automatica">
+<h2><strong>Conciliación Automática</strong><a class="headerlink" href="#conciliacion-automatica" title="Permalink to this headline">¶</a></h2>
+<p>Una vez seleccionado el banco con el que se realizará la conciliación bancaria e importado el extracto bancario se procede a realizar la conciliación automática:</p>
+<p>Estando posicionados en la ventana <strong>“Estado de Cuenta bancario”</strong> Seleccione el icono “<strong>Proceso</strong>” en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Proceso de la Ventana Estado de Cuenta Bancario" src="../../../_images/proceso.png" /></p>
+<p>Imagen 16. Icono Proceso</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Conciliación de Estado de Cuenta</strong>” en el menú que es desplegado por el icono “<strong>Proceso</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Conciliación de Estado de Cuenta del Icono Proceso" src="../../../_images/conciliar.png" /></p>
+<p>Imagen 17. Menú Proceso</p>
+<p>Se le desplegará una ventana de búsqueda inteligente con campos por los cuales se filtrará la búsqueda para realizar la conciliación.</p>
+<blockquote>
+<div><p><img alt="Ventana de Búsqueda Inteligente para Conciliación" src="../../../_images/datos.png" /></p>
+<p>Imagen 18. Filtrar Búsqueda</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Puede observar que la ventana de búsqueda inteligente trae precargado el campo “<strong>Cuenta Bancaria</strong>” con la información del banco seleccionado en la ventana principal “<strong>Estado de Cuentas Bancario</strong>”. Los otros campos reflejados en esta ventana serán utilizados acorde al criterio de búsqueda que se requiera.</p>
+</div>
+</div></blockquote>
+<p>Una vez definido el criterio de búsqueda, seleccione la opción “<strong>Refrescar</strong>” para que se muestre la información del estado de cuenta bancario importado y los pagos/cobros realizados en ADempiere.</p>
+<blockquote>
+<div><p><img alt="Opción Refrescar de la Ventana de Búsqueda Inteligente para Conciliación" src="../../../_images/refrescar.png" /></p>
+<p>Imagen 19. Opción Refrescar</p>
+</div></blockquote>
+<p>Podrá apreciar los movimientos del estado de cuenta del lado izquierdo de la venta de busqueda inteligente.</p>
+<blockquote>
+<div><p><img alt="Movimientos de Estado de Cuenta Importados del Lado Izquierdo" src="../../../_images/movimientos.png" /></p>
+<p>Imagen 20. Movimientos Importados</p>
+</div></blockquote>
+<p>Podrá apreciar del lado derecho de la ventana de búsqueda inteligente los movimientos registrados en ADempiere.</p>
+<blockquote>
+<div><p><img alt="Movimientos de ADempiere del Lado Derecho" src="../../../_images/movimientosad.png" /></p>
+<p>Imagen 21. Movimientos de ADempiere</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Simular Conciliación</strong>” para buscar coincidencia entre la información reflejada en ambos lados de la ventana de búsqueda inteligente.</p>
+<blockquote>
+<div><p><img alt="Opción Simular Conciliación" src="../../../_images/simular.png" /></p>
+<p>Imagen 22. Opción Simular Conciliación</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La simulación de conciliación consiste en verificar las coincidencias  que tenga los pagos/cobros del extracto bancario con los registrados en ADempiere, está verificación parte en identificar qué los números de referencia de la transacciones bancarias coinciden con el número de documento del registro en ADempiere, qué ambos montos sean iguales y qué estén trabajando con la misma moneda , sí ambos movimientos (los del extracto bancario y los de ADempiere) coinciden en su totalidad con estas tres características “N° referencias / N° Documento , monto /monto, moneda/moneda” ADempiere identificara y lo marcará como una  coincidencia.</p>
+</div>
+</div></blockquote>
+<p>Podrá apreciar los movimientos con coincidencia en la parte inferior de la ventana de búsqueda inteligente.</p>
+<blockquote>
+<div><p><img alt="Movimientos con Coincidencia" src="../../../_images/coincidencias.png" /></p>
+<p>Imagen 23. Pagos con Coincidencia</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si existe coincidencia entre los pagos/cobros y el extracto bancario se le mostrarán los movimientos con coincidencias, de lo contrario no se le mostrará ningún movimiento con coincidencia.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>” para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de búsqueda inteligente. Automáticamente se importan en la pestaña “<strong>Línea Estado Cuentas</strong>”, todos movimientos del extracto bancario los que han sido identificados y los que no tengan registro en ADempiere.</p>
+<blockquote>
+<div><p><img alt="Opción OK para Guardar Coincidencias" src="../../../_images/okbusqueda.png" /></p>
+<p>Imagen 24. Opción OK</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El extracto bancario puede poseer algunos registros que no han sido cargados en ADempiere, estos pueden ser cobros no identificados, comisiones bancarias entre otros, los cuales no van ser identificados al momento de hacer la simulación, sin embargo para estos pagos/cobros no conciliados se aplicará un proceso que se detalla en el documento <a class="reference internal" href="create-payments-from-account-statement.html#documento-crear-pagos-desde-estado-de-cuenta"><span class="std std-ref">Crear Pagos desde Estado de Cuenta</span></a>.</p>
+</div>
+</div></blockquote>
+<p>Al seleccionar “<strong>Ok</strong>” ADempiere lo llevará nuevamente a la ventana principal “<strong>Estado de Cuenta Bancario</strong>”.</p>
+</div>
+<div class="section" id="coincidencia-bancarias">
+<h2><strong>Coincidencia Bancarias</strong><a class="headerlink" href="#coincidencia-bancarias" title="Permalink to this headline">¶</a></h2>
+<p>Al momento de realizar la conciliación bancaria ADempiere maneja una serie verificaciones para poder encontrar las coincidencias bancarias, los datos que toma ADempiere tanto en los movimientos del extracto bancario como los movimientos registrados en ADempiere son los siguientes por banco:</p>
+<ul>
+<li><p><strong>Banco Banesco</strong></p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Movimientos Bancarios</p></th>
+<th class="head"><p>Movimientos ADempiere</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>N° Referencia Bancaria</p></td>
+<td><p>N° Documento en ADempiere</p></td>
+</tr>
+<tr class="row-odd"><td><p>Monto</p></td>
+<td><p>Monto</p></td>
+</tr>
+<tr class="row-even"><td><p>Moneda</p></td>
+<td><p>Moneda</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p><strong>N° de referencia bancaria / N° de documento en ADempiere:</strong> ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.</p></li>
+<li><p><strong>Monto:</strong> ADempiere se encarga de buscar y verificar que los montos del movimiento bancario como el monto del registro en ADempiere coincidan.</p></li>
+<li><p><strong>Moneda:</strong> ADempiere se encarga de buscar y verificar que la moneda del movimiento bancario con la moneda del registro en ADempiere coincidan, ejemplo : <strong>VES / VES</strong>, <strong>USD / USD</strong></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrará ninguna coincidencia.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p><strong>Banco Mercantil</strong></p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Movimientos Bancarios</p></th>
+<th class="head"><p>Movimientos ADempiere</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>N° Referencia Bancaria</p></td>
+<td><p>N° Documento en ADempiere</p></td>
+</tr>
+<tr class="row-odd"><td><p>Monto</p></td>
+<td><p>Monto</p></td>
+</tr>
+<tr class="row-even"><td><p>Moneda</p></td>
+<td><p>Moneda</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p><strong>N° de referencia bancaria / N° de documento en ADempiere:</strong> ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.</p></li>
+<li><p><strong>Monto:</strong> ADempiere se encarga de buscar y verificar que los montos del movimiento bancario como el monto del registro en ADempiere coincidan.</p></li>
+<li><p><strong>Moneda:</strong> ADempiere se encarga de buscar y verificar que la moneda del movimiento bancario con la moneda del registro en ADempiere coincidan, ejemplo : <strong>VES / VES</strong>, <strong>USD / USD</strong></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrará ninguna coincidencia.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p><strong>Banco Bancaribe</strong></p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 46%" />
+<col style="width: 54%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Movimientos Bancarios</p></th>
+<th class="head"><p>Movimientos ADempiere</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><ul class="simple">
+<li><p>N° Referencia Bancaria</p></li>
+<li><p>Memo</p></li>
+<li><p>N° Cheque</p></li>
+</ul>
+</td>
+<td><ul class="simple">
+<li><p>N° Documento en ADempiere</p></li>
+<li><p>Descripción</p></li>
+<li><p>N° Cheque</p></li>
+</ul>
+</td>
+</tr>
+<tr class="row-odd"><td><p>Monto</p></td>
+<td><p>Monto</p></td>
+</tr>
+<tr class="row-even"><td><p>Moneda</p></td>
+<td><p>Moneda</p></td>
+</tr>
+</tbody>
+</table>
+<p>Para las conciliaciones del banco <strong>Bancaribe</strong> este puede tomar tanto el N° de referencia bancaria con el número de documento en ADempiere, el memo con la descripción del registro en ADempiere, ó el número de cheque con el número de cheque en ADempiere.</p>
+<ul class="simple">
+<li><p><strong>N° de referencia bancaria / N° de documento en ADempiere:</strong> ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.</p></li>
+<li><p><strong>Memo / Descripción:</strong> ADempiere se encarga de buscar y verificar que tanto en el memo que se encuentra en el movimiento del extracto bancario coincida con la descripción del registro en ADempiere.</p></li>
+<li><p><strong>N° Cheque / N° Cheque:</strong> ADempiere se encarga de buscar y verificar que tanto en el n° de cheque del movimiento del extracto bancario coincida con el n° de cheque de ADempiere.</p></li>
+<li><p><strong>Monto:</strong> ADempiere se encarga de buscar y verificar que los montos del movimiento bancario como el monto del registro en ADempiere coincidan.</p></li>
+<li><p><strong>Moneda:</strong> ADempiere se encarga de buscar y verificar que la moneda del movimiento bancario con la moneda del registro en ADempiere coincidan, ejemplo : <strong>VES / VES</strong>, <strong>USD / USD</strong></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrará ninguna coincidencia.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p><strong>Banco Provincial</strong></p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Movimientos Bancarios</p></th>
+<th class="head"><p>Movimientos ADempiere</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>N° Referencia Bancaria</p></td>
+<td><p>N° Documento en ADempiere</p></td>
+</tr>
+<tr class="row-odd"><td><p>Monto</p></td>
+<td><p>Monto</p></td>
+</tr>
+<tr class="row-even"><td><p>Moneda</p></td>
+<td><p>Moneda</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p><strong>N° de referencia bancaria / N° de documento en ADempiere:</strong> ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.</p></li>
+<li><p><strong>Monto:</strong> ADempiere se encarga de buscar y verificar que los montos del movimiento bancario como el monto del registro en ADempiere coincidan.</p></li>
+<li><p><strong>Moneda:</strong> ADempiere se encarga de buscar y verificar que la moneda del movimiento bancario con la moneda del registro en ADempiere coincidan, ejemplo : <strong>VES / VES</strong>, <strong>USD / USD</strong></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrará ninguna coincidencia.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p><strong>Banco de Venezuela</strong></p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Movimientos Bancarios</p></th>
+<th class="head"><p>Movimientos ADempiere</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>N° Referencia Bancaria</p></td>
+<td><p>N° Documento en ADempiere</p></td>
+</tr>
+<tr class="row-odd"><td><p>Monto</p></td>
+<td><p>Monto</p></td>
+</tr>
+<tr class="row-even"><td><p>Moneda</p></td>
+<td><p>Moneda</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p><strong>N° de referencia bancaria / N° de documento en ADempiere:</strong> ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.</p></li>
+<li><p><strong>Monto:</strong> ADempiere se encarga de buscar y verificar que los montos del movimiento bancario como el monto del registro en ADempiere coincidan.</p></li>
+<li><p><strong>Moneda:</strong> ADempiere se encarga de buscar y verificar que la moneda del movimiento bancario con la moneda del registro en ADempiere coincidan, ejemplo : <strong>VES / VES</strong>, <strong>USD / USD</strong></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrará ninguna coincidencia.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p><strong>Banco Banplus</strong></p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Movimientos Bancarios</p></th>
+<th class="head"><p>Movimientos ADempiere</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>N° Referencia Bancaria</p></td>
+<td><p>N° Documento en ADempiere</p></td>
+</tr>
+<tr class="row-odd"><td><p>Monto</p></td>
+<td><p>Monto</p></td>
+</tr>
+<tr class="row-even"><td><p>Moneda</p></td>
+<td><p>Moneda</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p><strong>N° de referencia bancaria / N° de documento en ADempiere:</strong> ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.</p></li>
+<li><p><strong>Monto:</strong> ADempiere se encarga de buscar y verificar que los montos del movimiento bancario como el monto del registro en ADempiere coincidan.</p></li>
+<li><p><strong>Moneda:</strong> ADempiere se encarga de buscar y verificar que la moneda del movimiento bancario con la moneda del registro en ADempiere coincidan, ejemplo : <strong>VES / VES</strong>, <strong>USD / USD</strong></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrará ninguna coincidencia.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p><strong>Banco del Tesoro</strong></p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Movimientos Bancarios</p></th>
+<th class="head"><p>Movimientos ADempiere</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>N° Referencia Bancaria</p></td>
+<td><p>N° Documento en ADempiere</p></td>
+</tr>
+<tr class="row-odd"><td><p>Monto</p></td>
+<td><p>Monto</p></td>
+</tr>
+<tr class="row-even"><td><p>Moneda</p></td>
+<td><p>Moneda</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p><strong>N° de referencia bancaria / N° de documento en ADempiere:</strong> ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.</p></li>
+<li><p><strong>Monto:</strong> ADempiere se encarga de buscar y verificar que los montos del movimiento bancario como el monto del registro en ADempiere coincidan.</p></li>
+<li><p><strong>Moneda:</strong> ADempiere se encarga de buscar y verificar que la moneda del movimiento bancario con la moneda del registro en ADempiere coincidan, ejemplo : <strong>VES / VES</strong>, <strong>USD / USD</strong></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrará ninguna coincidencia.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p><strong>Banco Nacional del Crédito</strong></p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 47%" />
+<col style="width: 53%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Movimientos Bancarios</p></th>
+<th class="head"><p>Movimientos ADempiere</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>N° Referencia Bancaria</p></td>
+<td><p>N° Documento en ADempiere</p></td>
+</tr>
+<tr class="row-odd"><td><p>Monto</p></td>
+<td><p>Monto</p></td>
+</tr>
+<tr class="row-even"><td><p>Moneda</p></td>
+<td><p>Moneda</p></td>
+</tr>
+</tbody>
+</table>
+<ul class="simple">
+<li><p><strong>N° de referencia bancaria / N° de documento en ADempiere:</strong> ADempiere se encarga de buscar y verificar que tanto en el número de referencia bancaria como el número de documentos en ADempiere ambos coincidan ya sea los primeros números hacia la derecha, los números que se encuentran centrados, los últimos números hacia la izquierda o el total de los números.</p></li>
+<li><p><strong>Monto:</strong> ADempiere se encarga de buscar y verificar que los montos del movimiento bancario como el monto del registro en ADempiere coincidan.</p></li>
+<li><p><strong>Moneda:</strong> ADempiere se encarga de buscar y verificar que la moneda del movimiento bancario con la moneda del registro en ADempiere coincidan, ejemplo : <strong>VES / VES</strong>, <strong>USD / USD</strong></p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para que ADempiere tome una coincidencia tanto del extracto bancario como el de los registros en ADempiere, ambos deben coincidir con los tres pasos anteriormente mencionados de no ser sí ADempiere no encontrará ninguna coincidencia.</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="revision-de-conciliaciones">
+<h2><strong>Revisión de Conciliaciones</strong><a class="headerlink" href="#revision-de-conciliaciones" title="Permalink to this headline">¶</a></h2>
+<p>Una vez aplicado el proceso de conciliación automática, se debe verificar que tanto los pagos/cobros que coincidieron como los que no coincidieron se carguen correctamente dentro del registro de la conciliación bancaria en la que se este trabajando, para ello debe seguir los siguientes paso:</p>
+<p>Seleccione la pestaña “<strong>Línea Estado Cuentas</strong>” para verificar que se encuentren los registros de todos los movimientos del estado de cuenta bancario cargado desde la ventana de búsqueda inteligente.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea Estado Cuentas" src="../../../_images/linea1.png" /></p>
+<p>Imagen 25. Pestaña Línea Estado Cuentas</p>
+</div></blockquote>
+<p>Podrá apreciar en la parte inferior derecha del documento, la cantidad de movimientos cargados a la pestaña “<strong>Línea Estado Cuentas</strong>”, estos deben coincidir con la cantidad de movimientos que se refleja al momento de hacer la _importación del extracto bancario</p>
+<blockquote>
+<div><p><img alt="Cantidad de Movimientos Cargados a la Pestaña Línea Estado Cuentas" src="../../../_images/numerolinea.png" /></p>
+<p>Imagen 26. Cantidad de Movimientos Cargados a la Pestaña Línea Estado Cuentas</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Por cada movimiento del estado de cuenta bancario es un registro en la pestaña “<strong>Línea Estado Cuentas</strong>” es decir, si el estado de cuenta bancario tiene 26 movimientos, la pestaña tendrá 26 líneas de registro el cual verá identificado como N° de líneas de 10 en 10 (10,20,30,40); de click en la palabra “<strong>importación</strong>” si desea visualizar nuevamente el paso a paso de la importación del extracto bancario.</p>
+</div>
+</div>
+<div class="section" id="crear-pagos-desde-linea-de-estado-de-cuenta">
+<h2><strong>Crear Pagos Desde Línea de Estado de Cuenta</strong><a class="headerlink" href="#crear-pagos-desde-linea-de-estado-de-cuenta" title="Permalink to this headline">¶</a></h2>
+<p>Si al realizar la conciliación existen movimientos sin registros en ADempiere, se debe realizar el proceso “<strong>Crear pagos desde Estado de Cuenta</strong>” para generar los pagos/cobros correspondientes a cada uno de los movimientos,ya que es muy importante que todos los movimientos bancarios coincidan en su totalidad con los registros en ADempiere o que los mismos logren ser identificados, ya que de lo contrario la conciliación no podrá ser completada en ADempiere, del mismo modo este proceso también  es explicado en el documento <a class="reference internal" href="create-payments-from-account-statement.html#documento-crear-pagos-desde-estado-de-cuenta"><span class="std std-ref">Crear Pagos desde Estado de Cuenta</span></a>.</p>
+<p>En el caso de que existan movimientos con registros en ADempiere pero sin documentos de pagos/cobros asociados en la línea, se debe seleccionar de la siguiente manera el documento “<strong>Pago/Cobro</strong>”.</p>
+<p>Ubique el registro de la línea sin documento “<strong>Pagos/Cobros</strong>” asociado y seleccione el documento con ayuda del identificador del campo “<strong>Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="Registro del Movimiento en la Pestaña Línea Estado Cuentas" src="../../../_images/documento.png" /></p>
+<p>Imagen 27. Registro del Movimiento en la Pestaña Línea Estado Cuentas</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Este proceso es realizado cuando no coinciden los números de referencia del movimiento y del documento “<strong>Pago/Cobro</strong>”. Sin embargo, existe el conocimiento de que dicho movimiento pertenece un documento determinado ya que existe una coincidencia en el monto, el socio del negocio y el banco.</p>
+</div>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>” en la barra de herramientas de ADempiere, para guardar los cambios realizados.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios del Movimiento en la Pestaña Línea Estado Cuentas" src="../../../_images/guardarpago.png" /></p>
+<p>Imagen 28. Icono Guardar Cambios del Movimiento en la Pestaña Línea Estado Cuentas</p>
+</div></blockquote>
+<p>Regrese a la ventana principal “<strong>Estado Cuentas Bancario</strong>” y seleccione la opción “<strong>Completar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Principal Estado Cuentas Bancario" src="../../../_images/ventanaycompletar.png" /></p>
+<p>Imagen 29. Pestaña Principal Estado Cuentas Bancario y Opción Completar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el documento.</p>
+<blockquote>
+<div><p><img alt="Acción Completar Conciliación y Opción OK" src="../../../_images/completar1.png" /></p>
+<p>Imagen 30. Acción Completar Documento</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="create-payments-from-account-statement.html" class="btn btn-neutral float-right" title="Crear Pagos desde Estado de Cuenta" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="download.html" class="btn btn-neutral float-left" title="Descarga de Extracto Bancario desde Banco" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

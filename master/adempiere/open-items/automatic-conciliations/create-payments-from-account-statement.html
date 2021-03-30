@@ -1,0 +1,612 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Crear Pagos desde Estado de Cuenta &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Gestión de Préstamos e Inversiones" href="../../loan-management/index.html" />
+    <link rel="prev" title="Registro de Conciliación Automática" href="conciliation.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bank-transfer/index.html"><strong>Transferencia Bancaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payment-selection/index.html"><strong>Selección de Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../print-export/index.html"><strong>Imprimir / Exportar Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payment/index.html"><strong>Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection/index.html"><strong>Cobro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-refund/index.html"><strong>Caja Reembolso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-per-diems/index.html"><strong>Caja Viáticos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection-cash/index.html"><strong>Caja Cobranza</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pay-assignment/index.html"><strong>Asignación de Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-closing/index.html"><strong>Cierre de Caja</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Conciliaciones Automáticas</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="download.html"><strong>Descarga de Extracto Bancario desde Banco</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="conciliation.html"><strong>Registro de Conciliación Automática</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Crear Pagos desde Estado de Cuenta</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pagos-cobros-sin-registros"><strong>Pagos/Cobros sin Registros</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pagos-o-cobros-de-comisiones"><strong>Pagos o Cobros de Comisiones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#otros-tipos-de-pagos-o-cobros"><strong>Otros Tipos de Pagos o Cobros</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pagos-o-cobros-sin-identificar"><strong>Pagos o Cobros sin Identificar</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#completar-conciliacion-bancaria"><strong>Completar Conciliación Bancaria</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Conciliaciones Automáticas</strong></a> &raquo;</li>
+        
+      <li><strong>Crear Pagos desde Estado de Cuenta</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/open-items/automatic-conciliations/create-payments-from-account-statement.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="crear-pagos-desde-estado-de-cuenta">
+<span id="documento-crear-pagos-desde-estado-de-cuenta"></span><h1><strong>Crear Pagos desde Estado de Cuenta</strong><a class="headerlink" href="#crear-pagos-desde-estado-de-cuenta" title="Permalink to this headline">¶</a></h1>
+<p>El proceso <strong>”Crear Pagos desde Estado de Cuenta”</strong> es realizado por consecuencia de la existencia de <strong>”Pagos/Cobros”</strong> que se encuentran en el extracto bancario y al momento de la conciliación no se encuentra ninguna coincidencia con los movimientos registrados en ADempiere; el mismo parte del proceso de conciliación automática donde al importar el extracto bancario  verifica  los movimientos registrado en ADempiere, este realiza una verificación de coincidencias de <strong>”Pagos/Cobros”</strong> en ambos lados (Movimientos del extracto / Movimientos en ADempiere), mayormente se encuentran muchos movimientos en el extracto bancario que no han sido registrados en ADempiere y no solo es por que no se lleve un buen control de los registros si no que los extractos bancarios poseen detalladamente otros tipo de transacciones como comisiones bancarias que en algunos casos no son registrados en ADempiere o poseen movimientos bancarios que se desconoce su procedencia, pero para este tipo de casos se encuentra el proceso <strong>”Crear Pagos desde Estado de Cuenta”</strong>, ya que es muy importante que todos los movimientos bancarios coincidan en su totalidad con los registros en ADempiere o que los mismos logren ser identificados, ya que de lo contrario la conciliación no podrá ser completada en ADempiere.</p>
+<p>El presente material elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a> pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para la creación de pagos y cobros sin registros en ADempiere, partiendo desde el proceso de Conciliación Automática registro de pagos / cobros existentes en el extracto bancario importado, obteniendo un resultado exitoso al momento de conciliación de cuentas en la versión 3.9.2 de ADempiere en la localización Venezuela.</p>
+</div>
+<div class="section" id="pagos-cobros-sin-registros">
+<span id="paso-cobros-sin-registros"></span><h1><strong>Pagos/Cobros sin Registros</strong><a class="headerlink" href="#pagos-cobros-sin-registros" title="Permalink to this headline">¶</a></h1>
+<p>Los pagos o cobros sin registro en ADempiere pueden presentarse en las empresas por diferentes motivos los cuales pueden ser que no fueron registrados a tiempo o correctamente, o la cuenta bancaria a recibido un cobro por adelantado y este no ha sido notificado al personal que lleva los registros de los pagos/cobros en ADempiere, el registro de los mismos puede realizarse de tres formas explicadas a continuación.</p>
+<p>Luego de realizar el proceso de conciliación, ubique la pestaña “<strong>Línea Estado Cuentas</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Estado Cuentas para Pagos Cobros sin Registros" src="../../../_images/lineacaso1.png" /></p>
+<p>Imagen 1. Pestaña Estado Cuentas para Pagos Cobros sin Registros</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Proceso</strong>”, en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Proceso para Pagos Cobros sin Registros" src="../../../_images/iconoproceso.png" /></p>
+<p>Imagen 2. Icono Proceso para Pagos Cobros sin Registros</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Crear Pago desde Estado de Cuenta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Crear Pago desde Estado de Cuenta para Pagos Cobros sin Registros" src="../../../_images/crearpago.png" /></p>
+<p>Imagen 3. Opción Crear Pago desde Estado de Cuenta</p>
+<p>Podrá visualizar la siguiente ventana de búsqueda inteligente con los “<strong>Pagos/Cobros</strong>” que no tuvieron coincidencias al momento de conciliar.</p>
+<blockquote>
+<div><p><img alt="Ventana de Búsqueda Inteligente" src="../../../_images/ventana3.png" /></p>
+<p>Imagen 4. Ventana de Búsqueda Inteligente</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>“Hasta este punto solo se puede visualizar los movimientos bancarios sin conciliar, pero la mayoría de estos movimientos bancarios pertenecen a otros tipos de transacciones como lo son los  “<strong>Cargos Bancarios</strong>”, “<strong>Otro Tipo de Pagos</strong>” y  los “<strong>Pagos sin Identificar</strong>”, estas transacciones bancarias deben ser identificadas para poder completar la conciliación bancaria”.</p>
+</div>
+<div class="section" id="pagos-o-cobros-de-comisiones">
+<h2><strong>Pagos o Cobros de Comisiones</strong><a class="headerlink" href="#pagos-o-cobros-de-comisiones" title="Permalink to this headline">¶</a></h2>
+<p>Para aquellos movimientos que pertenezcan a comisiones bancarias estos deben ser asociados al tipo de transacción “<strong>Cargos Bancarios</strong>”, ya estando dentro de la opción “<strong>Crear Pago desde Estado de Cuenta</strong>” se debe realizar los siguientes pasos.</p>
+<p>En la ventana de búsqueda inteligente de “<strong>Crear Pago desde Estado de Cuenta</strong>” seleccione el o los pagos/cobros correspondientes a las comisiones.</p>
+<blockquote>
+<div><p><img alt="Selección de Pagos Cobros desde la Opción Crear Pago desde Estado de Cuenta" src="../../../_images/seleccioncaso1.png" /></p>
+<p>Imagen 5. Selección de Pagos/Cobros</p>
+<p>Seleccione en el campo “<strong>Tipo de Transacción</strong>” la opción “<strong>Cargo Bancario</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Cargo Bancario del Campo Tipo de Transacción" src="../../../_images/cargobancario.png" /></p>
+<p>Imagen 6. Opción Cargo Bancario del Campo Tipo de Transacción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cargo</strong>” el cargo de comisión correspondiente, para este ejemplo es “<strong>Comisión FLAT</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Comisión FLAT del Campo Cargo" src="../../../_images/cargocaso1.png" /></p>
+<p>Imagen 7. Campo Cargo</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>” para generar automáticamente el documento de pago/cobro en ADempiere.</p>
+<blockquote>
+<div><p><img alt="Opción OK para Crear Pagos Cobros de Comisiones" src="../../../_images/okcaso1.png" /></p>
+<p>Imagen 8. Opción OK para Crear Pagos Cobros de Comisiones</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Si ADempiere refleja el error “<strong>No encontrado Factura / Socio del Negocio</strong>”, es porque está buscando una factura asignada al pago/cobro o un socio del negocio asociado al banco y no existe registro de ello. En este caso, es necesario abrir registro del banco y seleccionar un socio del negocio.</p>
+</div>
+</div></blockquote>
+<p>Podrá visualizar el “<strong>Pago/Cobro</strong>” de cargos bancarios en la pestaña “<strong>Línea Estado de Cuentas</strong>”, como la pestaña cuenta con varios registros, esté puede ser ubicado por el monto del movimiento bancario. Al ubicar el registro esté debe contar con las siguientes características:</p>
+<blockquote>
+<div><p>En el campo “<strong>Pago</strong>”  debe tener asociado el número del documento del “<strong>Pago/Cobro</strong>” que se seleccionó al momento de aplicar el proceso “<strong>Cargo Bancario</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Pago Comisiones" src="../../../_images/Commissions_Field_Payment.png" /></p>
+<p>Imagen 9. Campo Pago Comisiones</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El número de documento a mostrar en el campo “<strong>Pago</strong>” debe coincidir con el número que se muestra el campo “<strong>N° de Referencia</strong>” el cual es el número de la referencia bancaria de ese movimiento.</p>
+</div>
+</div></blockquote>
+<p>En el grupo de campos “<strong>Referencia</strong>” podrá visualizar lo siguiente:</p>
+<blockquote>
+<div><p>En el campo “<strong>Socio de Negocio</strong>” debe aparecer el banco con el que se está trabajando la conciliación.</p>
+<blockquote>
+<div><p><img alt="Campo Socio Negocio Comisiones" src="../../../_images/Commissions_SN_field.png" /></p>
+<p>Imagen 10. Campo Socio Negocio Comisiones</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para este caso el socio del negocio a mostrar es el banco “<strong>Banesco</strong>” por que es el banco con el que se está trabajando la conciliación, pero ese socio de negocio va a variar según el banco con el que esté trabajando la conciliación, sí está trabajando con el banco “<strong>Mercantil</strong>” tomará ese banco, si está  trabajando la conciliación con el banco “<strong>Banesco</strong>” tomará “<strong>Banesco</strong>” y así sucesivamente.</p>
+</div>
+</div></blockquote>
+<p>En el campo “<strong>Cuenta Beneficiario TEF</strong>” debe aparecer “<strong>COMISIÓN TRF OTROS BCOS</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta Beneficiario TEF" src="../../../_images/Commissions_Field_AccountB.png" /></p>
+<p>Imagen 11. Campo Cuenta Beneficiario TEF</p>
+</div></blockquote>
+<p>En el campo “<strong>Cantidad TEF</strong>” debe aparecer el mismo monto del movimiento bancario.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad TEF" src="../../../_images/Commissions_Field_Quantity.png" /></p>
+<p>Imagen 12. Campo Cantidad TEF</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El monto que aparece en el campo “<strong>Cantidad TEF</strong>” debe ser el mismo monto que aparece en el campo “<strong>Total de la Transacción</strong>”.</p>
+</div>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<p>Si desea verificar el registro del pago/cobro generado en ADempiere puede realizarlo tildando el campo “<strong>Pago</strong>” y lo llevará a la ventana “<strong>Pago/Cobro</strong>” de ADempiere.</p>
+<p>Puede presionar click derecho y seleccionar la opción <strong>”Acercar”</strong> y lo llevará a la ventana “<strong>Pago/Cobro</strong>” de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Pago Acercar" src="../../../_images/Commissions_Field_Payment_Acercar.png" /></p>
+<p>Imagen 13. Pago Acercar</p>
+<p>Al encontrarse en la ventana “<strong>Pago/Cobro</strong>” puede observar que el registro contará con los mismos datos anteriormente mencionados que se encuentran en grupo de campos “<strong>Referencia</strong>”.</p>
+<blockquote>
+<div><p><img alt="Ventana Pago/Cobro" src="../../../_images/Commissions_Window_Payment-Collection.png" /></p>
+<p>Imagen 14. Ventana Pago/Cobro</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="otros-tipos-de-pagos-o-cobros">
+<h2><strong>Otros Tipos de Pagos o Cobros</strong><a class="headerlink" href="#otros-tipos-de-pagos-o-cobros" title="Permalink to this headline">¶</a></h2>
+<p>Para aquellos movimientos que se encuentran en el extracto bancario que al momento de realizar la conciliación no se asoció a ningún pago/cobro en ADempiere por qué no se encontraban registrados pero sí se conoce su procedencia se deben asociar al tipo de transacción “<strong>Otro tipo de Pago</strong>” ya estando dentro de la opción “<strong>Crear Pago desde Estado de Cuenta</strong>” se debe realizar los siguientes pasos.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para este caso se tomará como ejemplo un préstamo bancario, el cual el socio de negocio al que se le realizó el préstamo hizo un abono, en su momento esta transferencia no había sido notificada por ello no se realizó el registro del pago/cobro en ADempiere, pero como se sabe de dónde proviene ese movimiento bancario este entraría dentro de la tipo de transacción “<strong>Otro tipo de Pago</strong>”.</p>
+</div>
+</div></blockquote>
+<p>En la ventana de búsqueda inteligente “<strong>Crear Pago desde Estado de Cuenta</strong>” seleccione el o los pagos/cobros correspondientes a otros tipos de pagos.</p>
+<blockquote>
+<div><p><img alt="Selección de Pagos Cobros de Otros Tipos de Pagos Cobros" src="../../../_images/seleccioncaso3.png" /></p>
+<p>Imagen 15. Selección de Pagos/Cobros</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Transacción</strong>” la opción “<strong>Otro Tipo de Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="Otro tipo de Pago" src="../../../_images/Other_t_paymen_Transaction.png" /></p>
+<p>Imagen 16. Otro tipo de Pago</p>
+</div></blockquote>
+<p>Seleccione el socio del negocio en el campo “<strong>Socio del Negocio</strong>”, para este ejemplo el socio a utilizar es “<strong>Estándar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Socio de Negocio Otro Tipo de Pago" src="../../../_images/Another_t_payment_SN.png" /></p>
+<p>Imagen 17. Socio de Negocio Otro Tipo de Pago</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para este caso el socio de negocio es la persona que realizó la transferencia bancaria.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cargo</strong>” el cargo correspondiente al pago/cobro,siguiendo el ejemplo anteriormente comentado el cargo a utilizar es  “<strong>Préstamo Bancario</strong>”.</p>
+<blockquote>
+<div><p><img alt="Cargo Otro Tipo de Pago" src="../../../_images/Otro_t_pago_Cargo.png" /></p>
+<p>Imagen 18. Cargo Otro Tipo de Pago</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El cargo a utilizar dependerá del tipo de transacción que se esté registrando.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>” para generar automáticamente el documento de pago/cobro en ADempiere.</p>
+<blockquote>
+<div><p><img alt="OK Otro Tipo de Pago" src="../../../_images/okcaso3.png" /></p>
+<p>Imagen 19. OK Otro Tipo de Pago</p>
+</div></blockquote>
+<p>Podrá visualizar el “<strong>Pago/Cobro</strong>” creado de “<strong>Otro Tipo de Pago</strong>” en la pestaña “<strong>Línea Estado de Cuentas</strong>”, como la pestaña cuenta con varios registros, esté puede ser ubicado por el monto del movimiento bancario. Al ubicar el registro esté debe contar con las siguientes características:</p>
+<blockquote>
+<div><p>En el campo “<strong>Pago</strong>”  debe tener asociado el número del documento del “<strong>Pago/Cobro</strong>” que se seleccionó al momento de aplicar el tipo de transacción “<strong>Otro Tipo de Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Pago Otro tipo de Pago" src="../../../_images/Otro_t_pago_Pago.png" /></p>
+<p>Imagen 20. Campo Pago Otro tipo de Pago</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El número de documento a mostrar en el campo “<strong>Pago</strong>” debe coincidir con el número que se muestra el campo “<strong>N° de Referencia</strong>” el cual es el número de la referencia bancaria de ese movimiento.</p>
+</div>
+</div></blockquote>
+<p>En el grupo de campos “<strong>Referencia</strong>” podrá visualizar lo siguiente:</p>
+<blockquote>
+<div><p>En el campo “<strong>Socio de Negocio</strong>” debe aparecer el socio de negocio asociado al momento de aplicar el tipo de transacción “<strong>Otro Tipo de Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Socio Negocio Otro tipo de Pagos" src="../../../_images/Otro_t_pago_Campo_SN.png" /></p>
+<p>Imagen 21. Campo Socio Negocio Otro tipo de Pagos</p>
+</div></blockquote>
+<p>En el campo “<strong>Referencia TEF</strong>” debe aparecer el número de referencia del movimiento bancario.</p>
+<blockquote>
+<div><p><img alt="Campo Referencia TEF" src="../../../_images/Otro_t_pago_ReferenciaTEF.png" /></p>
+<p>Imagen 22. Campo Referencia TEF</p>
+</div></blockquote>
+<p>En el campo “<strong>Cantidad TEF</strong>” debe aparecer el mismo monto del movimiento bancario.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad TEF Otro tipo de Pagos" src="../../../_images/Otro_t_pago_CantidadTEF.png" /></p>
+<p>Imagen 23. Campo Cantidad TEF Otro tipo de Pagos</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El monto que aparece en el campo “<strong>Cantidad TEF</strong>” debe ser el mismo monto que aparece en el campo “<strong>Total de la Transacción</strong>”.</p>
+</div>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<p>Si desea verificar el registro del pago/cobro generado en ADempiere puede realizarlo tildando el campo “<strong>Pago</strong>” y lo llevará a la ventana “<strong>Pago/Cobro</strong>” de ADempiere.</p>
+<p>Puede presionar click derecho y seleccionar la opción “<strong>Acercar</strong>” y lo llevará a la ventana “<strong>Pago/Cobro</strong>” de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Acercar Otro tipo de Pagos" src="../../../_images/Otro_t_pago_Acercar.png" /></p>
+<p>Imagen 24. Acercar Otro tipo de Pagos</p>
+<p>Al encontrarse en la ventana “<strong>Pago/Cobro</strong>” puede observar que el registro contará con los mismos datos anteriormente mencionados que se encuentran en grupo de campos “<strong>Referencia</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pago/Cobro Otro tipo de Pagos" src="../../../_images/Otro_t_pago_Ventana_Pago-Cobro.png" /></p>
+<p>Imagen 25. Pago/Cobro Otro tipo de Pagos</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="pagos-o-cobros-sin-identificar">
+<h2><strong>Pagos o Cobros sin Identificar</strong><a class="headerlink" href="#pagos-o-cobros-sin-identificar" title="Permalink to this headline">¶</a></h2>
+<p>Al momento de hacer la conciliaciòn bancaria la mayorìa de las veces suelen haber movimientos en el extracto bancario que se desconocen de donde provienen, y para ADempiere todos los movimiento que tiene el extracto bancario deben ser identificados o asociados a un “<strong>Pago/Cobro</strong>” ya que de no ser identificados ADempiere no permitirá completar la conciliación bancaria, el cual implica que dentro de ADempiere no se ha realizado ninguna conciliación.</p>
+<p>Para los movimientos bancarios que se desconocen de dónde proviene, en ADempiere se llevan a pagos/cobros no identificados, para poder completar e identificar todos esos movimientos que posee el extracto bancario.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Los “<strong>Pago/Cobro</strong>” que se pasen a ser no identificados, luego podrán ser identificados una vez se verifique su procedencia.</p>
+</div>
+<p>Para poder llevar estas transacciones bancarias a “<strong>Pagos o Cobros sin Identificar</strong>” ya estando dentro de la opción “<strong>Crear Pago desde Estado de Cuenta</strong>” se debe realizar los siguientes pasos.</p>
+<p>Podrá observar la ventana de búsqueda inteligente donde se muestran todos los movimientos bancarios que no se les encontró una coincidencia al momento de hacer la conciliación automática.</p>
+<blockquote>
+<div><p><img alt="Movimientos Bancarios Pagos sin Identificar" src="../../../_images/movimientos_No_Conciliados.png" /></p>
+<p>Imagen 26. Movimientos Bancarios Pagos sin Identificar</p>
+</div></blockquote>
+<p>Seleccione el o los “<strong>Pago/Cobro</strong>” con procedencia desconocida.</p>
+<blockquote>
+<div><p><img alt="Selección Pago sin Identificar" src="../../../_images/Seleccion_CobrosinIdentificar.png" /></p>
+<p>Imagen 27. Selección Pago sin Identificar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Transacción</strong>” la opción “<strong>Pago Sin Identificar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pago Cobro sin Identificar" src="../../../_images/Tipo_Transaccion_Pago_sin_Identificar.png" /></p>
+<p>Imagen 28. Pago Cobro sin Identificar</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>” para generar automáticamente el documento de “<strong>Pago/Cobro</strong>” en ADempiere y esté pueda ser asociado con el movimiento bancario desconocido.</p>
+<blockquote>
+<div><p><img alt="OK Pago Cobro sin Identificar" src="../../../_images/Pagos_sin_Identificar_OK.png" /></p>
+<p>Imagen 29. Ok Pago Cobro sin Identificar</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al seleccionar la opción “<strong>OK</strong>”  ADempiere creará un “<strong>Pago/Cobro</strong>” con las mismas características del movimiento bancario desconocido en cuanto monto, fecha, y moneda.</p>
+</div>
+</div></blockquote>
+<p>Podrá visualizar el “<strong>Pago/Cobro</strong> creado de “<strong>Pago sin Identificar</strong>” en la pestaña “<strong>Línea Estado de Cuentas</strong>”, como la pestaña cuenta con varios registros, esté puede ser ubicado por el monto del movimiento bancario. Al ubicar el registro esté debe contar con las siguientes características:</p>
+<blockquote>
+<div><p>La descripción de la “<strong>Línea Estado de Cuenta</strong>” debe tener como descripción “<strong>Pago no identificado</strong>”</p>
+<blockquote>
+<div><p><img alt="Descripción Pago Cobro sin Identificar" src="../../../_images/Pagos_sin_Identificar_Descripcion.png" /></p>
+<p>Imagen 30. Descripción Pago Cobro sin Identificar</p>
+</div></blockquote>
+<p>En el campo “<strong>Pago</strong>” debe tener asociado el número del documento del “<strong>Pago/Cobro</strong>” que se creó al momento de aplicar el proceso “<strong>Pago Sin Identificar</strong>”</p>
+<blockquote>
+<div><p><img alt="Campo Pago Cobro sin Identificar" src="../../../_images/Pagos_sin_Identificar_Pago.png" /></p>
+<p>Imagen 31. Campo Pago sin Identificar</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El n° de documento a mostrar debe coincidir con el n° que se muestra el campo “<strong>N° de Referencia</strong>” el cual es el número de la referencia bancaria de ese movimiento.</p>
+</div>
+</div></blockquote>
+<p>En el grupo de campos “<strong>Referencia</strong>” debe aparecer como “<strong>Socio de Negocio</strong>”  “<strong>Pagos/Cobros Sin Identificar</strong>”, este es un socio de negocio que tomará temporalmente el “<strong>Pago/Cobro</strong>” sin identificar.</p>
+<blockquote>
+<div><p><img alt="Referencia Pago Cobro sin Identificar" src="../../../_images/Pagos_sin_Identificar_Sn.png" /></p>
+<p>Imagen 32. Referencia Pago Cobro sin Identificar</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El socio de negocio “<strong>Pagos/Cobros Sin Identificar</strong>” es un socio de negocio que toma temporalmente el “<strong>Pago/Cobro</strong>” sin identificar, el cual más adelante será modificado una vez se desee identificar ese “<strong>Pago/Cobro</strong>”.</p>
+</div>
+</div></blockquote>
+</div></blockquote>
+<p>Si desea verificar el  registro del pago/cobro generado en ADempiere puede realizarlo tildado el campo “<strong>Pago</strong>” y lo llevará a la ventana “<strong>Pago/Cobro</strong>” de ADempiere.</p>
+<p>Puede presionar click derecho y seleccionar la opción “<strong>Acercar</strong>” y lo llevará a la ventana “<strong>Pago/Cobro</strong>” de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Acercar Pago Cobro sin Identificar" src="../../../_images/Pagos_sin_Identificar_Acercar.png" /></p>
+<p>Imagen 34. Acercar Pago Cobro sin Identificar</p>
+<p>Al encontrarse en la ventana “<strong>Pago/Cobro</strong>” puede observar que el registro contará con los mismos datos anteriormente mencionados que se encuentran en grupo de campos “<strong>Referencia</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pago/Cobro Sin identificar" src="../../../_images/Pagos_sin_Identificar_Ventana_Pago.png" /></p>
+<p>Imagen 35. Pago/Cobro Sin identificar</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="completar-conciliacion-bancaria">
+<h2><strong>Completar Conciliación Bancaria</strong><a class="headerlink" href="#completar-conciliacion-bancaria" title="Permalink to this headline">¶</a></h2>
+<p>Una vez identificado todos los movimientos bancarios y conciliado correctamente se puede completar la conciliación Bancaria, para ello debe seguir los siguientes pasos:</p>
+<p>Debe posicionarse en la ventana padre “<strong>Estado de Cuenta Bancario</strong>”.</p>
+<blockquote>
+<div><p><img alt="Estado de Cuenta" src="../../../_images/Ventana_Estado_Cuentas.png" /></p>
+<p>Imagen 36. Estado de Cuenta</p>
+</div></blockquote>
+<p>Ubicar al finalizar la ventana en el grupo de campo “<strong>Estado</strong>” y el botón que debe tener por nombre “<strong>Completar</strong>”</p>
+<blockquote>
+<div><p><img alt="Grupo de Estado" src="../../../_images/Grupo_Campo_Estado.png" /></p>
+<p>Imagen 37. Grupo de Estado</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El nombre del botón cambiará dependiendo del estado en el que se encuentre el documento si el documento se encuentra en estado “<strong>Borrador</strong>”  la acción a mostrar en el botón es “<strong>Completar</strong>” caso que se está aplicando para este documento, si el estado del documento está en estado “<strong>Completo</strong>” el botón cambiará su nombre a la posible siguiente acción que se pueda aplicar en el documento.</p>
+</div>
+</div></blockquote>
+<p>Dar click a botón “<strong>Completar</strong>” y tildar “<strong>Ok</strong>” para la acción de documento seleccionada.</p>
+<blockquote>
+<div><p><img alt="Botón Completar" src="../../../_images/opcion_completar.png" /></p>
+<p>Imagen 38. Botón Completar</p>
+</div></blockquote>
+<p>Al aplicar esta acción “<strong>Completar</strong>” el documento pasará a esta completo y este no podrá ser modificado.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que ADempiere tome como válido los datos cargados en el documento.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../loan-management/index.html" class="btn btn-neutral float-right" title="Gestión de Préstamos e Inversiones" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="conciliation.html" class="btn btn-neutral float-left" title="Registro de Conciliación Automática" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,585 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Registro de Rubro &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Productor" href="../producer/index.html" />
+    <link rel="prev" title="Rubro" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Asistencia al Agricultor</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Rubro</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Registro de Rubro</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#calculo-de-peso"><strong>Cálculo de Peso</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#etapa-del-cultivo"><strong>Etapa del Cultivo</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../producer/index.html"><strong>Productor</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../farm/index.html"><strong>Finca</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technical-assistance-management/index.html"><strong>Gestión de Asistencia Técnica</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../financing-management/index.html"><strong>Gestión de Financiamiento</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Asistencia al Agricultor</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Rubro</strong></a> &raquo;</li>
+        
+      <li><strong>Registro de Rubro</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/farmer-assistance-management/headings/headings.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-de-rubro">
+<span id="documento-rubros"></span><h1><strong>Registro de Rubro</strong><a class="headerlink" href="#registro-de-rubro" title="Permalink to this headline">¶</a></h1>
+<p>Seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Asistencia Técnica Agricola</strong>”, luego selecione la carpeta “<strong>Configuración de Materia Prima</strong>”,  por último seleccione la ventana “<strong>Rubro</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de rubro" src="../../../_images/menu-item.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Rubro</strong>”, con los diferentes rubros que contiene registrados ADempiere.</p>
+<blockquote>
+<div><p><img alt="ventana rubro" src="../../../_images/window-heading.png" /></p>
+<p>Imagen 2. Ventana Rubro</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro de rubro.</p>
+<blockquote>
+<div><p><img alt="icono registro nuevo de la ventana rubro" src="../../../_images/new-record-icon-in-the-category-window.png" /></p>
+<p>Imagen 3. Icono Registro Nuevo de la Ventana Rubro</p>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta registrando el rubro.</p>
+<blockquote>
+<div><p><img alt="Campo Organización" src="../../../_images/organization-field1.png" /></p>
+<p>Imagen 4. Campo Organización</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Para que el rubro este disponible para todas las organizaciones, el mismo deberá estar registrado con la organización en (*) de lo contrario el rubro solo estará disponible para una sola organización.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código</strong>”, el código para el rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Código" src="../../../_images/code-field.png" /></p>
+<p>Imagen 5. Campo Código</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto Padre</strong>”, el producto padre del rubro que se encuentra registrando.</p>
+<blockquote>
+<div><p><img alt="campo producto padre" src="../../../_images/parent-product-field.png" /></p>
+<p>Imagen 6. Campo Producto Padre</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre</strong>”, el nombre del rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre" src="../../../_images/field-name.png" /></p>
+<p>Imagen 7. Campo Nombre</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción correspondiente al rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción" src="../../../_images/description-field.png" /></p>
+<p>Imagen 8. Campo Descripción</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nota de Documento</strong>”, cualquier información adicional que considere necesaria.</p>
+<blockquote>
+<div><p><img alt="Campo Nota de Documento" src="../../../_images/document-note-field.png" /></p>
+<p>Imagen 9. Campo Nota de Documento</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>UPC/EAN</strong>”, el código de barras correspondiente al rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo UPC/EAN" src="../../../_images/upc-ean-field.png" /></p>
+<p>Imagen 10. Campo UPC/EAN</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>UM Almacenamiento</strong>”, la unidad de medida de almacenamiento del rubro.</p>
+<blockquote>
+<div><p><img alt="Campo UM Almacenamiento" src="../../../_images/field-um-storage.png" /></p>
+<p>Imagen 11. Campo UM Almacenamiento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Categoría del Producto</strong>”, la categoría a la cual pertenece el rubro que esta registrando, la selección de este define el comportamiento del rubro que se esta registrando, dicho comportamiento se encuentra explicado en el documento <a class="reference internal" href="../../../lve/document-utility/product-category.html#documento-categoria-productos"><span class="std std-ref">Categorías de Productos</span></a> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Categoría del Producto" src="../../../_images/product-category-field.png" /></p>
+<p>Imagen 12. Campo Categoría del Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo de Producto</strong>”, el grupo al cual pertenece el rubro que esta registrando, la selección de este define el comportamiento del rubro que se esta registrando, dicho comportamiento se encuentra explicado en el documento <a class="reference internal" href="../../../lve/document-utility/product-group.html#documento-grupo-producto"><span class="std std-ref">Grupo de Productos</span></a> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Grupo de Producto" src="../../../_images/product-group-field.png" /></p>
+<p>Imagen 13. Campo Grupo de Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Clase de Producto</strong>”, la clase a la cual pertenece el rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Clase de Producto" src="../../../_images/product-class-field.png" /></p>
+<p>Imagen 14. Campo Clase de Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Clasificación de Producto</strong>”, la clasificación a la cual pertenece el rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Clasificación de Producto" src="../../../_images/product-classification-field.png" /></p>
+<p>Imagen 15. Campo Clasificación de Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Categoría del Impuesto</strong>”, la agrupación de impuestos aplicale al rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Categoría del Impuesto" src="../../../_images/tax-category-field.png" /></p>
+<p>Imagen 16. Campo Categoría del Impuesto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Impuesto</strong>”, el tipo de impuesto aplicable al rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Impuesto" src="../../../_images/tax-type-field.png" /></p>
+<p>Imagen 17. Campo Tipo de Impuesto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>UM</strong>”, la unidad de medida del rubro.</p>
+<blockquote>
+<div><p><img alt="Campo UM" src="../../../_images/field-um.png" /></p>
+<p>Imagen 18. Campo UM</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Producto</strong>”, el tipo de producto que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Producto" src="../../../_images/product-type-field.png" /></p>
+<p>Imagen 19. Campo Tipo de Producto</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Peso</strong>”, el peso del rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Peso" src="../../../_images/weight-field.png" /></p>
+<p>Imagen 20. Campo Peso</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Volumen</strong>”, el volumen del rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Volumen" src="../../../_images/volume-field.png" /></p>
+<p>Imagen 21. Campo Volumen</p>
+</div></blockquote>
+<p>Podrá apreciar el checklist “<strong>Almacenado</strong>”, indicando que la empresa almacena el rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="checklist Almacenado" src="../../../_images/stored-checklist.png" /></p>
+<p>Imagen 22. Checklist Almacenado</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Ubicación</strong>”, la ubicación de almacenamiento dentro de la empresa del rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Ubicación" src="../../../_images/location-field.png" /></p>
+<p>Imagen 23. Campo Ubicación</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Ancho de Anaquel</strong>”, el ancho requerido del anaquel para almacenar el rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Ancho de Anaquel" src="../../../_images/wide-field-shelf.png" /></p>
+<p>Imagen 24. Campo Ancho de Anaquel</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Altura del Anaquel</strong>”, la altura requerida del anaquel para almacenar el rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Altura del Anaquel" src="../../../_images/shelf-height-field.png" /></p>
+<p>Imagen 25. Campo Altura del Anaquel</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Profundidad del Anaquel</strong>”, la profundidad requerida del anaquel para almacenar el rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Profundidad del Anaquel" src="../../../_images/shelf-depth-field.png" /></p>
+<p>Imagen 26. Campo Profundidad del Anaquel</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Unidades por Tarima</strong>”, el número de unidades del rubro que esta registrando que caben en una tarima.</p>
+<blockquote>
+<div><p><img alt="Campo Unidades por Tarima" src="../../../_images/field-units-per-pallet.png" /></p>
+<p>Imagen 27. Campo Unidades por Tarima</p>
+</div></blockquote>
+<p>Podrá visualizar el checklist “<strong>Comprado</strong>”, indicando que la organización compra el rubro que se esta registrando.</p>
+<blockquote>
+<div><p><img alt="checklist Comprado" src="../../../_images/purchased-checklist.png" /></p>
+<p>Imagen 28. Checklist Comprado</p>
+</div></blockquote>
+<p>Podrá visualizar el checklist “<strong>Vendido</strong>”, indicando que la organización compra el rubro que se esta registrando.</p>
+<blockquote>
+<div><p><img alt="checklist Vendido" src="../../../_images/checklist-sold.png" /></p>
+<p>Imagen 29. Checklist Vendido</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Dirección Web Imagen</strong>”, la url de la imagen del rubro.</p>
+<blockquote>
+<div><p><img alt="Campo Dirección Web Imagen" src="../../../_images/web-address-field-image.png" /></p>
+<p>Imagen 30. Campo Dirección Web Imagen</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Dirección Web Descripción</strong>”, la url de la descripción del rubro.</p>
+<blockquote>
+<div><p><img alt="Campo Dirección Web Descripción" src="../../../_images/web-address-field-description.png" /></p>
+<p>Imagen 31. Campo Dirección Web Descripción</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Días de Caducidad</strong>”, el número de días límite de disponibilidad o garantía del rubro que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Días de Caducidad" src="../../../_images/expiration-days-field.png" /></p>
+<p>Imagen 32. Campo Días de Caducidad</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Días Mínimos Caducidad</strong>”, el número mínimo de días límite de disponibilidad o garantía del producto que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Días Mínimos Caducidad" src="../../../_images/minimum-expiration-days-field.png" /></p>
+<p>Imagen 33. Campo Días Mínimos Caducidad</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Conjunto de Atributos</strong>”, el atributo del producto que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Conjunto de Atributos" src="../../../_images/attribute-set-field.png" /></p>
+<p>Imagen 34. Campo Conjunto de Atributos</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Instancia Conjunto de Atributos</strong>”, el conjunto de atributos perteneciente al producto que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Instancia Conjunto de Atributo" src="../../../_images/attribute-set-instance-field.png" /></p>
+<p>Imagen 35. Campo Instancia Conjunto de Atributo</p>
+</div></blockquote>
+<p>Podrá visualizar el checklist “<strong>Rubro</strong>”, indicando que se esta registrando un rubro.</p>
+<blockquote>
+<div><p><img alt="checklist Rubro" src="../../../_images/checklist-item.png" /></p>
+<p>Imagen 36. Checklist Rubro</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>” en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios Pestaña Rubro" src="../../../_images/icon-save-changes-item-tab.png" /></p>
+<p>Imagen 37. Icono Guardar Cambios</p>
+</div></blockquote>
+<div class="section" id="calculo-de-peso">
+<h2><strong>Cálculo de Peso</strong><a class="headerlink" href="#calculo-de-peso" title="Permalink to this headline">¶</a></h2>
+<p>Seleccione la pestaña “<strong>Cálculo de Peso</strong>” y proceda al llenado de los campos.</p>
+<blockquote>
+<div><p><img alt="pestaña cálculo de peso" src="../../../_images/weight-calculation-tab.png" /></p>
+<p>Imagen 38. Pestaña Cálculo de Peso</p>
+<p>Seleccione en el campo “<strong>Tipo de Cálculo de Peso</strong>”, el tipo de cálculo de peso correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo tipo de cálculo de peso de la pestaña cálculo de peso" src="../../../_images/weight-calculation-type-field-of-the-weight-calculation-tab.png" /></p>
+<p>Imagen 39. Campo Tipo de Cálculo de Peso</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código</strong>”, el código correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo código de la pestaña cálculo de peso" src="../../../_images/code-field-of-the-weight-calculation-tab.png" /></p>
+<p>Imagen 40. Campo Código</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El código para el registro en el formato requerido; debe ser único. Un código le permite a usted un método rápido de encontrar un registro en particular.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Secuencia</strong>”, la secuencia correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo secuencia de la pestaña cálculo de peso" src="../../../_images/sequence-field-of-the-weight-calculation-tab.png" /></p>
+<p>Imagen 41. Campo Secuencia</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre</strong>”, el nombre correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo nombre de la pestaña cálculo de peso" src="../../../_images/field-name-of-the-weight-calculation-tab.png" /></p>
+<p>Imagen 42. Campo Nombre</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre de Clase</strong>”, el nombre clase correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo nombre de clase de la pestaña cálculo de peso" src="../../../_images/class-name-field-of-the-weight-calculation-tab.png" /></p>
+<p>Imagen 43. Campo Nombre de Clase</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El nombre de clase identifica el nombre de la clase Java usada por este proceso.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la pestaña cálculo de peso" src="../../../_images/field-description-of-the-weight-calculation-tab.png" /></p>
+<p>Imagen 44. Campo Descripción</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>” en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios Pestaña Cálculo de Peso" src="../../../_images/icon-save-changes-weight-calculation-tab.png" /></p>
+<p>Imagen 45. Icono Guardar Cambios</p>
+</div></blockquote>
+</div>
+<div class="section" id="etapa-del-cultivo">
+<h2><strong>Etapa del Cultivo</strong><a class="headerlink" href="#etapa-del-cultivo" title="Permalink to this headline">¶</a></h2>
+<p>Seleccione la pestaña “<strong>Etapa del Cultivo</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="pestaña etapa del cultivo" src="../../../_images/crop-stage-tab.png" /></p>
+<p>Imagen 46. Pestaña Etapa del Cultivo</p>
+<p>Seleccione en el campo “<strong>Código</strong>”, el código correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo código de la pestaña etapa del cultivo" src="../../../_images/field-code-of-the-crop-stage-tab.png" /></p>
+<p>Imagen 47. Campo Código</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Secuencia</strong>”, la secuencia correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo secuencia de la pestaña etapa del cultivo" src="../../../_images/crop-stage-tab-sequence-field.png" /></p>
+<p>Imagen 48. Campo Secuencia</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre</strong>”, el nombre correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo nombre de la pestaña etapa del cultivo" src="../../../_images/crop-stage-tab-name-field.png" /></p>
+<p>Imagen 49. Campo Nombre</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Día Desde</strong>”, el día de inicio del cultivo del rubro.</p>
+<blockquote>
+<div><p><img alt="campo dia desde de la pestaña etapa del cultivo" src="../../../_images/field-day-from-crop-stage-tab.png" /></p>
+<p>Imagen 50. Campo Día Desde</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Día Hasta</strong>”, la día final del cultivo del rubro.</p>
+<blockquote>
+<div><p><img alt="campo dia hasta de la pestaña etapa del cultivo" src="../../../_images/field-day-until-crop-stage-tab.png" /></p>
+<p>Imagen 51. Campo Día Hasta</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>” en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios Pestaña Etapa del Cultivo" src="../../../_images/save-changes-icon-crop-stage-tab.png" /></p>
+<p>Imagen 52. Icono Guardar Cambios</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../producer/index.html" class="btn btn-neutral float-right" title="Productor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Rubro" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

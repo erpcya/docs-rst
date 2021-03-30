@@ -1,0 +1,479 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Registro de Caja Cobranza &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Asignación de Pagos" href="../pay-assignment/index.html" />
+    <link rel="prev" title="Caja Cobranza" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bank-transfer/index.html"><strong>Transferencia Bancaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payment-selection/index.html"><strong>Selección de Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../print-export/index.html"><strong>Imprimir / Exportar Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payment/index.html"><strong>Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection/index.html"><strong>Cobro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-refund/index.html"><strong>Caja Reembolso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-per-diems/index.html"><strong>Caja Viáticos</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Caja Cobranza</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Registro de Caja Cobranza</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../pay-assignment/index.html"><strong>Asignación de Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-closing/index.html"><strong>Cierre de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../automatic-conciliations/index.html"><strong>Conciliaciones Automáticas</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Caja Cobranza</strong></a> &raquo;</li>
+        
+      <li><strong>Registro de Caja Cobranza</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/open-items/collection-cash/collection-cash.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-de-caja-cobranza">
+<span id="documento-caja-cobranza"></span><h1><strong>Registro de Caja Cobranza</strong><a class="headerlink" href="#registro-de-caja-cobranza" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 1" src="../../../_images/menu-caja.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Luego podrá visualizar la ventana “<strong>Caja</strong>”, donde debe seleccionar el icono “<strong>Registro Nuevo</strong>” ubicado en la barra de herramientas de ADempiere para crear un nuevo registro en caja.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo 1" src="../../../_images/reg-nuevo-caja.png" /></p>
+<p>Imagen 2. Icono Registro Nuevo</p>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el documento “<strong>Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Organización 1" src="../../../_images/org11.png" /></p>
+<p>Imagen 3. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para ejemplificar el registro es utilizada la opción “<strong>Cobro Nacional</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento 1" src="../../../_images/tipo-doc1.png" /></p>
+<p>Imagen 4. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta</strong>” la cuenta caja correspondiente al documento que esta realizando. Para ejemplificar el registro es utilizada la opción “<strong>Caja Cobranza - –_Cobranza Nacional</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta 1" src="../../../_images/cuenta-ban1.png" /></p>
+<p>Imagen 5. Campo Cuenta</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que para getionar el procedimiento de caja cobranza, debe tener creada la definición de caja cobranza.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Orden de Venta</strong>”, la orden de venta que será reflejada en la caja que esta realizando. Para ejemplificar el registro es utilizada la orden de venta “<strong>OVN-28</strong>” creada anteriormente.</p>
+<blockquote>
+<div><p><img alt="Campo Orden de Venta1" src="../../../_images/orden-venta1.png" /></p>
+<p>Imagen 6. Campo Orden de Venta</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al seleccionar la orden de venta, se cargan automáticamente los campos “<strong>Socio del Negocio</strong>” y “<strong>Total de Caja</strong>”, con la información contenida en la orden seleccionada. Adicional a ello, se tilda el checklist “<strong>Anticipo</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Total de Caja</strong>” el monto total del pago realizado por el socio del negocio cliente, correspondiente al abono o anticipo del mismo. Para ejemplificar el registro el monto utilizado es “<strong>90.000</strong>”.</p>
+<blockquote>
+<div><p><img alt="Monto del Anticipo 1" src="../../../_images/monto-pago1.png" /></p>
+<p>Imagen 7. Monto total del pago de abono o anticipo realizado por el socio del negocio cliente.</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Pago</strong>”, la forma de pago utilizada por el socio del negocio cliente. Para ejemplificar el registro es utilizada la opción “<strong>Depósito Directo</strong>”.</p>
+<blockquote>
+<div><p><img alt="Tipo de Pago 1" src="../../../_images/tipo-pago1.png" /></p>
+<p>Imagen 8. Campo Tipo de Pago</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar los cambios realizados seleccionando el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Completar</strong>”, ubicada en la parte inferior del documento.</p>
+<blockquote>
+<div><p><img alt="Opción Completar 1" src="../../../_images/completar11.png" /></p>
+<p>Imagen 9. Opción Completar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>Ok</strong>” para completar el documento “<strong>Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Acción Completar" src="../../../_images/accion-completar3.png" /></p>
+<p>Imagen 10. Acción Completar</p>
+</div></blockquote>
+<p>Realice el procedimiento regular para generar un cierre de caja, explicado en el documento <a class="reference internal" href="../cash-closing/cash-closing.html#documento-procedimiento-para-realizar-un-cierre-de-caja"><span class="std std-ref">Registro de Cierre de Caja</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>, seleccionando en el campo “<strong>Tipo de Documento</strong>” la opción “<strong>Cierre de Caja Cobranza</strong>”.</p>
+<blockquote>
+<div><p><img alt="Cierre de Caja Cobranza" src="../../../_images/completar2.png" /></p>
+<p>Imagen 11. Cierre de Caja Cobranza</p>
+</div></blockquote>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Depósito de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 3" src="../../../_images/menu-deposito-caja.png" /></p>
+<p>Imagen 12. Menú de ADempiere</p>
+</div></blockquote>
+<p>Luego podrá visualizar la ventana de búsqueda inteligente “<strong>Depósito de Caja</strong>”, con diferentes campos o filtros para realizar la búsqueda de información en base a lo requerido por el usuario.</p>
+<blockquote>
+<div><p><img alt="Ventana de Búsqueda Inteligente Depósito de Caja 1" src="../../../_images/vent-dep-caja1.png" /></p>
+<p>Imagen 13. Ventana de Búsqueda Inteligente Depósito de Caja</p>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la caja cobranza seleccionada en el campo “<strong>Cuenta</strong>” de la ventana “<strong>Caja</strong>”. Para ejemplificar el registro es utilizada la cuenta bancaria “<strong>Caja Cobranza - –_Cobranza Nacional</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta Bancaria" src="../../../_images/cuenta-ban3.png" /></p>
+<p>Imagen 14. Campo Cuenta Bancaria</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para filtar búsqueda de la información en base a lo seleccionado.</p>
+<blockquote>
+<div><p><img alt="Opción Comenzar Búsqueda 2" src="../../../_images/comenzar-bus2.png" /></p>
+<p>Imagen 15. Opción Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana de búsqueda inteligente “<strong>Depósito de Caja</strong>”, con los diferentes registros asociados a la cuenta bancaria seleccionada.</p>
+<blockquote>
+<div><p><img alt="Ventana de Búsqueda Inteligente Depósito de Caja 2" src="../../../_images/vent-dep-caja2.png" /></p>
+<p>Imagen 16. Ventana de Búsqueda Inteligente Depósito de Caja</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de la Transacción</strong>”, la fecha contable de la caja de la cual se va a realizar el depósito.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de la Transacción 1" src="../../../_images/fec-tran1.png" /></p>
+<p>Imagen 17. Campo Fecha de la Transacción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, la compañía para la cual realizó los documentos “<strong>Caja</strong>”, “<strong>Cierre de Caja</strong>” y para la cual va a realizar el “<strong>Depósito de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio 1" src="../../../_images/socio1.png" /></p>
+<p>Imagen 18. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>El checklist “<strong>Dividir Depósitos</strong>” destildado, permite visualizar el campo “<strong>No. del Documento</strong>” para ingresar el número de referencia del pago realizado por el socio del negocio y es utilizado cuando se tienen varios registros de caja con el mismo número de referencia, generando un (1) documento de egreso en “<strong>Caja</strong>” y un (1) documento de cobro en “<strong>Pago/Cobro</strong>”.</p>
+<blockquote>
+<div><p><img alt="Checklist Dividir Depósitos Destildado" src="../../../_images/check-destildado.png" /></p>
+<p>Imagen 19. Checklist Dividir Depósitos Destildado</p>
+</div></blockquote>
+<p>Adicional a ello, al tildar el checklist “<strong>Dividir Depósitos</strong>” no puede ser visualizado el campo “<strong>No. del Documento</strong>”, esta acción permite que sea generado un (1) documento de egreso en “<strong>Caja</strong>”, con la sumatoria de todos los registros de documentos “<strong>Caja</strong>” que sean seleccionados en la ventana de búsqueda inteligente “<strong>Depósito de Caja</strong>” y un (1) documento de cobro en “<strong>Pago/Cobro</strong>”, por cada uno de los registros seleccionados en dicha ventana.</p>
+<blockquote>
+<div><p><img alt="Checklist Dividir Depósitos Tildado" src="../../../_images/check-tildado.png" /></p>
+<p>Imagen 20. Checklist Dividir Depósitos Tildado</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento para Retiros</strong>”, el tipo de documento que será generado en la ventana “<strong>Caja</strong>”. Para ejemplificar el registro, el tipo de documento para retiros utilizado es “<strong>Egreso Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Tipo de Documento para Retiros" src="../../../_images/tipo-doc-ret.png" /></p>
+<p>Imagen 21. Campo Tipo de Documento para Retiros</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la cuenta bancaria a la cual será realizado el depósito de caja.</p>
+<blockquote>
+<div><p><img alt="Cuenta Bancaria" src="../../../_images/cuenta-ban4.png" /></p>
+<p>Imagen 22. Campo Cuenta Bancaria</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>No. del Documento</strong>”, el número de referencia del pago realizado por el socio del negocio cliente.</p>
+<blockquote>
+<div><p><img alt="No. del Documento" src="../../../_images/n-doc.png" /></p>
+<p>Imagen 23. Campo Número del Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo correspondiente al procedimiento que se esta realizando. Para ejemplificar el registro es utilizado el cargo “<strong>Efectivo en Transito Cobranza</strong>”.</p>
+<blockquote>
+<div><p><img alt="Cargo" src="../../../_images/cargo.png" /></p>
+<p>Imagen 24. Campo Cargo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento para Depósitos</strong>”, el tipo de documento que será generado en la ventana “<strong>Pago/Cobro</strong>”. Para ejemplificar el registro, el tipo de documento para depósito utilizado es “<strong>Cobro Nacional</strong>”.</p>
+<blockquote>
+<div><p><img alt="Tipo de Documento para Depósito" src="../../../_images/tipo-doc-dep.png" /></p>
+<p>Imagen 25. Campo Tipo de Documento para Depósito</p>
+</div></blockquote>
+<p>Seleccione los diferentes registros de caja que pertenezcan a un mismo banco y la opción “<strong>OK</strong>” para ejecutar el proceso “<strong>Depósito de Caja</strong>” con la información ingresada en la ventana de búsqueda inteligente “<strong>Depósito de Caja</strong>”. Para ejemplificar el registro es seleccionado solo registro de caja “<strong>CCxCN-41</strong>”.</p>
+<blockquote>
+<div><p><img alt="Selección de Caja y Opción OK" src="../../../_images/selec-ok2.png" /></p>
+<p>Imagen 26. Selección de Caja y Opción OK</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Se deben seleccionar solo los registros que se conozca que pertencen al banco seleccionado en el campo “<strong>Cuenta Bancaria</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Podrá visualizar los números de documentos en la parte inferior izquierda de la ventana de búsqueda inteligente “<strong>Depósito de Caja</strong>”. Dichos números de documentos pueden ser utilizados para ubicar los documetos generados.</p>
+<blockquote>
+<div><p><img alt="Números de Documentos Generados" src="../../../_images/n-doc-generado.png" /></p>
+<p>Imagen 27. Números de Documento Generados</p>
+</div></blockquote>
+<p>Al consultar del documento de egreso generado en la ventana “<strong>Caja</strong>”, con ayuda del número de documento generado en la parte inferior izquierda de la ventana de búsqueda inteligente “<strong>Depósito de Caja</strong>”, se puede visualizar el registro de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Documento de Egreso Generado en Caja" src="../../../_images/doc-egreso.png" /></p>
+<p>Imagen 28. Documento de Egreso Generado en Caja</p>
+</div></blockquote>
+<p>Al consultar del documento de cobro generado en la ventana “<strong>Pago/Cobro</strong>”, con ayuda del número de documento generado en la parte inferior izquierda de la ventana de búsqueda inteligente “<strong>Depósito de Caja</strong>”, se puede visualizar el registro de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Documento de Cobro Generado en Pago cobro" src="../../../_images/doc-cobro.png" /></p>
+<p>Imagen 29. Documento de Cobro Generado en Pago/Cobro</p>
+</div></blockquote>
+<p>Realice el procedimiento regular para generar un cierre de caja, explicado en el documento <a class="reference internal" href="../cash-closing/cash-closing.html#documento-procedimiento-para-realizar-un-cierre-de-caja"><span class="std std-ref">Registro de Cierre de Caja</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>, seleccionando en el campo “<strong>Tipo de Documento</strong>” la opción “<strong>Cierre de Caja Administrativo</strong>”.</p>
+<blockquote>
+<div><p><img alt="Cierre de Caja Administrativo" src="../../../_images/completar3.png" /></p>
+<p>Imagen 30. Cierre de Caja Administrativo</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para identificar los cobros sin registros en ADempiere, se debe realizar el procedimiento explicado en el proceso <a class="reference internal" href="../automatic-conciliations/create-payments-from-account-statement.html#paso-cobros-sin-registros"><span class="std std-ref">Pagos/Cobros sin Registros</span></a> del documento “<strong>Conciliaciones Automáticas</strong>”.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../pay-assignment/index.html" class="btn btn-neutral float-right" title="Asignación de Pagos" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Caja Cobranza" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

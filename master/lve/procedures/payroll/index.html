@@ -1,0 +1,415 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Gestión de Nóminas &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Formatos de Importación de Nóminas" href="payroll-import-format.html" />
+    <link rel="prev" title="Relación de Facturas o Justificación de Gastos" href="../human-resources/document-payable-labor-obligation/list-of-invoices-or-expenditure-justification.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../human-resources/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Gestión de Nóminas</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="payroll-import-format.html"><strong>Formatos de Importación de Nóminas</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="payroll-import-format.html#nominas-regulares"><strong>Nóminas Regulares</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="payroll-import-format.html#nomina-de-vacaciones"><strong>Nómina de Vacaciones</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="payroll-import-format.html#nomina-de-utilidades"><strong>Nómina de Utilidades</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="payroll-import-format.html#nomina-anticipo-de-vacaciones"><strong>Nómina Anticipo de Vacaciones</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="payroll-import-format.html#nomina-anticipo-de-prestaciones-sociales"><strong>Nómina Anticipo de Prestaciones Sociales</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="payroll-import-format.html#nomina-de-prestaciones-sociales"><strong>Nómina de Prestaciones Sociales</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="bonus-cancellation-with-intermediary.html"><strong>Cancelación de Pasivo con Intermediarios</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="loans-to-employees/index.html"><strong>Préstamos a Empleados</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="arcv-report/index.html"><strong>Generar Reporte de ARCV en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="payroll-report/index.html"><strong>Reporte de Nómina en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="procedure-to-process-payroll/index.html"><strong>Procedimiento para Procesar Nómina</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../treasury-management/index.html"><strong>Gestión de Tesorería</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../import/index.html"><strong>Gestión de Importación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../withholding-management/index.html"><strong>Gestión de Retenciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
+        
+      <li><strong>Gestión de Nóminas</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/lve/procedures/payroll/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="gestion-de-nominas">
+<span id="src-lve-procedures-payroll"></span><h1><strong>Gestión de Nóminas</strong><a class="headerlink" href="#gestion-de-nominas" title="Permalink to this headline">¶</a></h1>
+<p>La nómina es el listado de trabajadores que desempeñan algún tipo de actividad en una empresa. Cada empresa debe manejar diferentes nóminas, por lo que son clasificadas en nómina regular, bono de alimentación, pagos especiales, entre otras utilizadas para cancelar las pagos correspondientes a los trabajadores de las empresas.</p>
+<p>Cada una de las nóminas descriptas anteriormente, representa los pagos de salarios y beneficios que la empresa le hace a sus trabajadores como lo indica la ley orgánica del trabajo, los trabajadores y las trabajadoras, publicada en gaceta oficial N° 6.076. La cancelación o pago de la nómina se realiza dependiendo de las reglas del negocio, es decir, la empresa puede cancelar nómina semanal, quincenal o mensual.</p>
+<p>Esta documentación está destinada a definir cada uno de los procedimientos estándares de ADempiere para la gestión de nómina, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="payroll-import-format.html"><strong>Formatos de Importación de Nóminas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="payroll-import-format.html#nominas-regulares"><strong>Nóminas Regulares</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#acumulado-dias-trabajados-en-el-ano"><strong>Acumulado Días Trabajados en el Año</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#acumulado-provision-antiguedad-de-prestaciones"><strong>Acumulado Provisión Antigüedad de Prestaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#acumulado-provision-bono-vacacional"><strong>Acumulado Provisión Bono Vacacional</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#acumulado-provision-disfrute-de-vacaciones"><strong>Acumulado Provisión Disfrute de Vacaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#acumulado-provision-garantia-de-prestaciones"><strong>Acumulado Provisión Garantía de Prestaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#acumulado-provision-intereses-prestaciones-de-antiguedad"><strong>Acumulado Provisión Intereses Prestaciones de Antigüedad</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#acumulado-provision-intereses-prestaciones-de-garantia"><strong>Acumulado Provisión Intereses Prestaciones de Garantía</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#acumulado-provision-literal-c"><strong>Acumulado Provisión Literal C</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#acumulado-provision-utilidades"><strong>Acumulado Provisión Utilidades</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#acumulado-utilidades"><strong>Acumulado Utilidades</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#dias-totales-de-la-nomina"><strong>Días Totales de la Nómina</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#provision-antiguedad-de-prestaciones"><strong>Provisión Antigüedad de Prestaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#provision-garantia-de-prestaciones"><strong>Provisión Garantía de Prestaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#provision-intereses-antiguedad-de-prestaciones"><strong>Provisión Intereses Antigüedad de Prestaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#provision-intereses-garantia-de-prestaciones"><strong>Provisión Intereses Garantía de Prestaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#salario-integral"><strong>Salario Integral</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#salario-normal"><strong>Salario Normal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#salario-normal-mensual"><strong>Salario Normal Mensual</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="payroll-import-format.html#nomina-de-vacaciones"><strong>Nómina de Vacaciones</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#fecha-de-vacaciones-anteriores"><strong>Fecha de Vacaciones Anteriores</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#fecha-real-de-salida-de-vacaciones"><strong>Fecha Real de Salida de Vacaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#total-de-asignaciones-de-la-nomina-de-vacaciones-anterior"><strong>Total de Asignaciones de la Nómina de Vacaciones Anterior</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#dias-totales-de-vacaciones-de-la-nomina-de-vacaciones-anterior"><strong>Días Totales de Vacaciones de la Nómina de Vacaciones Anterior</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="payroll-import-format.html#nomina-de-utilidades"><strong>Nómina de Utilidades</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#fecha-de-utilidades-anteriores"><strong>Fecha de Utilidades Anteriores</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="payroll-import-format.html#nomina-anticipo-de-vacaciones"><strong>Nómina Anticipo de Vacaciones</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#dias-anticipo-de-vacaciones"><strong>Días Anticipo de Vacaciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="payroll-import-format.html#nomina-anticipo-de-prestaciones-sociales"><strong>Nómina Anticipo de Prestaciones Sociales</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#anticipo-de-prestaciones-sociales"><strong>Anticipo de Prestaciones Sociales</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="payroll-import-format.html#nomina-de-prestaciones-sociales"><strong>Nómina de Prestaciones Sociales</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#acumulado-por-prestaciones-de-garantia"><strong>Acumulado por Prestaciones de Garantía</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#acumulado-por-prestaciones-de-antiguedad"><strong>Acumulado por Prestaciones de Antiguedad</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#porcion-mensual-prestaciones-de-garantia"><strong>Porción Mensual Prestaciones de Garantía</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#porcion-mensual-intereses-prestaciones-de-garantia"><strong>Porción Mensual Intereses Prestaciones de Garantía</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#promedio-salario-vacaciones"><strong>Promedio Salario Vacaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#promedio-salario-prestaciones"><strong>Promedio Salario Prestaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-import-format.html#promedio-salario-utilidades"><strong>Promedio Salario Utilidades</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="bonus-cancellation-with-intermediary.html"><strong>Cancelación de Pasivo con Intermediarios</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="bonus-cancellation-with-intermediary.html#creacion-de-nomina"><strong>Creación de Nómina</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="bonus-cancellation-with-intermediary.html#creacion-de-pago"><strong>Creación de Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="bonus-cancellation-with-intermediary.html#creacion-de-la-factura"><strong>Creación de la Factura</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="loans-to-employees/index.html"><strong>Préstamos a Empleados</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="loans-to-employees/loans-to-employees.html"><strong>Orden de Pago Obligaciones Laborales</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="arcv-report/index.html"><strong>Generar Reporte de ARCV en ADempiere</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="arcv-report/arcv-report.html"><strong>Generar Reporte ARCV</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="payroll-report/index.html"><strong>Reporte de Nómina en ADempiere</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="payroll-report/regular-payroll.html"><strong>Nómina Regular</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-report/food-bond.html"><strong>Bono de Alimentación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-report/specialpayments.html"><strong>Pagos Especiales</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-report/holidays.html"><strong>Vacaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-report/advance-holiday.html"><strong>Anticipo de Vacaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-report/utilities.html"><strong>Utilidades</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-report/accrued-comprehensive-salary.html"><strong>Devengado Salario Integral</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-report/accrued-normal-salary.html"><strong>Devengado Salario Normal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-report/accumulated-salary-for-utilities.html"><strong>Salario Acumulado para Utilidades</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="payroll-report/generate-banavih-txt.html"><strong>Generar TXT de Banavih</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="procedure-to-process-payroll/index.html"><strong>Procedimiento para Procesar Nómina</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/weekly-payroll.html"><strong>Nómina Semanal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/biweekly-payroll.html"><strong>Nómina Quincenal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/monthly-payroll.html"><strong>Nómina Mensual</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/mixed-weekly-payroll.html"><strong>Nómina Semanal Mixta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/mixed-biweekly-payroll.html"><strong>Nómina Quincenal Mixta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/mixed-monthly-payroll.html"><strong>Nómina Mensual Mixta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/payroll-food-voucher.html"><strong>Nómina Bono de Alimentación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/vacation-payroll.html"><strong>Nómina Vacaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/holiday-advance-payroll.html"><strong>Nómina Anticipo de Vacaciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/payroll-special-payments.html"><strong>Nómina Pagos Especiales</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/profit-payroll.html"><strong>Nómina Utilidades</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/payroll-advance-social-benefits.html"><strong>Nómina Anticipo de Prestaciones Sociales</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/payroll-social-benefits.html"><strong>Nómina Prestaciones Sociales</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="procedure-to-process-payroll/payroll-liquidation.html"><strong>Nómina Liquidación</strong></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="payroll-import-format.html" class="btn btn-neutral float-right" title="Formatos de Importación de Nóminas" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../human-resources/document-payable-labor-obligation/list-of-invoices-or-expenditure-justification.html" class="btn btn-neutral float-left" title="Relación de Facturas o Justificación de Gastos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

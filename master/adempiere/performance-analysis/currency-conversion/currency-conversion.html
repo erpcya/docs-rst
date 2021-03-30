@@ -1,0 +1,504 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Conversión Manual &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Conversión Automática" href="automatic-conversion-rate.html" />
+    <link rel="prev" title="Conversión Monetaria" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión Contable</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../type-of-application.html"><strong>Tipo de Aplicación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-element/index.html"><strong>Elemento Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../opening-accounting-period.html"><strong>Apertura de Período Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../unposted-documents.html"><strong>Documentos sin Aplicar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-dimensions.html"><strong>Dimensiones Contables</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-combination.html"><strong>Combinación Contable</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Conversión Monetaria</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Conversión Manual</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#tipo-de-conversion"><strong>Tipo de Conversión</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tasa-de-conversion-desde-la-ventana-moneda"><strong>Tasa de Conversión desde la Ventana Moneda</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#tasa-de-conversion-desde-la-ventana-tasa-de-cambio"><strong>Tasa de Conversión desde la Ventana Tasa de Cambio</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="automatic-conversion-rate.html"><strong>Conversión Automática</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="automatic-conversion-by-type.html"><strong>Conversión Automática por Tipo de Conversión</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../gl-distribution/index.html"><strong>Distribución Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-setup-master/index.html"><strong>Configuración Contable (Maestros)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../transaction-accounting/index.html"><strong>Contabilidad de Transacciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../costing/index.html"><strong>Gestión de Costos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gl-journal-batch/index.html"><strong>Diario Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-reports/index.html"><strong>Reportes Contables</strong></a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión Contable</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Conversión Monetaria</strong></a> &raquo;</li>
+        
+      <li><strong>Conversión Manual</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/performance-analysis/currency-conversion/currency-conversion.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="conversion-manual">
+<span id="documento-conversion-monetaria"></span><h1><strong>Conversión Manual</strong><a class="headerlink" href="#conversion-manual" title="Permalink to this headline">¶</a></h1>
+<p>La conversión manual consiste en crear en ADempiere los tipos de conversión con los cuales va a trabajar la empresa. Esta funcionalidad permite lo siguiente:</p>
+<ul class="simple">
+<li><p><strong>Tasa de Conversión Diaria:</strong> Al trabajar con diferentes monedas en los procesos de compra/venta de la organización, se vuelve obligatoría la creación de las tasas de cambio diariamente en los diferentes tipos de conversión con los que trabaja dicha organización. Adicional a ello, la fecha final del rango o periodo de la tasa de cambio, siempre debe ser igual a la fecha de inicio de dicho rango o periodo.</p></li>
+</ul>
+<p>En el caso de que el usuario intente crear una tasa de cambio con el mismo tipo de conversión y moneda utilizado previamente el mismo día, al intentar guardar el registro existirá una validación que no permitirá completar el proceso.</p>
+<blockquote>
+<div><p><img alt="caso de coincidencia de tasas a la fecha" src="../../../_images/rate-coincidence-case-to-date.png" /></p>
+<p>Imagen 1. Ejemplo de Validación</p>
+</div></blockquote>
+<ul class="simple">
+<li><p><strong>Crear Tasa Recíproca:</strong> Esta funcionalidad permite que al guardar el registro sea creada de manera automática una tasa de cambio como reverso.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Un ejemplo de este caso puede ser cuando el usuario crea una tasa de cambio de moneda “<strong>VES</strong>” a moneda “<strong>USD</strong>” con una tasa multiplicadora 2 entonces automáticamente se creará una tasa de cambio de moneda “<strong>USD</strong>” a “<strong>VES</strong>” con la tasa multiplicadora 0.5</p>
+</div>
+<div class="figure align-default">
+<img alt="../../../_images/tasa-cambio-reciproca.gif" src="../../../_images/tasa-cambio-reciproca.gif" />
+</div>
+<p>Video 1. Tasa de Cambio</p>
+<p>En el siguiente enlace puede descargar un ejemplo del mismo para visualizarlo mejor <a class="reference download internal" download="" href="../../../_downloads/6f0a2af6b78ef39fd4245d91ab813203/tasa-cambio-reciproca.gif"><code class="xref download docutils literal notranslate"><span class="pre">Convert</span> <span class="pre">Video</span></code></a></p>
+<div class="section" id="tipo-de-conversion">
+<span id="paso-crear-conversion"></span><h2><strong>Tipo de Conversión</strong><a class="headerlink" href="#tipo-de-conversion" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Análisis de Desempeño</strong>”, luego seleccione la carpeta “<strong>Reglas Contables</strong>”, por último seleccione la ventana “<strong>Tipo de Conversión</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 2" src="../../../_images/conversion-type-menu.png" /></p>
+<p>Imagen 2. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Tipo de Conversión</strong>”, con los diferentes registros que contiene dicha ventana.</p>
+<blockquote>
+<div><p><img alt="Ventana Tipo de Conversión" src="../../../_images/conversion-type-window.png" /></p>
+<p>Imagen 3. Ventana Tipo de Conversión</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo" src="../../../_images/new-record-icon-in-the-conversion-type-window.png" /></p>
+<p>Imagen 4. Icono Registro Nuevo de la Ventana Tipo de Conversión</p>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta creando el registro de tipo de conversión.</p>
+<blockquote>
+<div><p><img alt="Campo Organización" src="../../../_images/organization-field-of-the-conversion-type-window.png" /></p>
+<p>Imagen 5. Campo Organización de la Ventana Tipo de Conversión</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código</strong>”, el código correspondiente al registro de tipo de conversión que se encuentra realizando, para este caso es utilizado el código “<strong>BCV</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Código" src="../../../_images/conversion-type-window-code-field.png" /></p>
+<p>Imagen 6. Campo Código de la Ventana Tipo de Conversión</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre</strong>” el nombre correspondiente al registro de tipo de conversión que se encuentra realizando, para este caso es utilizado el nombre de conversión “<strong>BCV</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre" src="../../../_images/conversion-type-window-name-field.png" /></p>
+<p>Imagen 7. Campo Nombre de la Ventana Tipo de Conversión</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción correspondiente al registro de tipo de conversión que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción" src="../../../_images/conversion-type-window-description-field.png" /></p>
+<p>Imagen 8. Campo Descripción de la Ventana Tipo de Conversión</p>
+</div></blockquote>
+<p>El checklist “<strong>Activo</strong>”, indica que el registro se encuentra activo y puede ser utilizado en cualquier transacción que lo requiera.</p>
+<blockquote>
+<div><p><img alt="Checklist Activo" src="../../../_images/active-checklist-the-conversion-type-window.png" /></p>
+<p>Imagen 9. Checklist Activo de la Ventana Tipo de Conversión</p>
+</div></blockquote>
+<p>Seleccione el checklist “<strong>Predeterminado</strong>”, para indicar como predeterminado el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Checklist Predeterminado" src="../../../_images/default-checklist-conversion-type-window.png" /></p>
+<p>Imagen 10. Checklist Predeterminado de la Ventana Tipo de Conversión</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar los cambios realizados seleccionando el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+<div class="section" id="tasa-de-conversion-desde-la-ventana-moneda">
+<span id="paso-crear-tasa-desde-ventana-moneda"></span><h2><strong>Tasa de Conversión desde la Ventana Moneda</strong><a class="headerlink" href="#tasa-de-conversion-desde-la-ventana-moneda" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Análisis de Desempeño</strong>”, luego seleccione la carpeta “<strong>Reglas Contables</strong>”, por último seleccione la ventana “<strong>Moneda</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../_images/conversion-rate-menu.png" /></p>
+<p>Imagen 11. Menú de ADempiere</p>
+</div></blockquote>
+<p>Seleccione el registro de la moneda para la cual requiere registrar una tasa de conversión. Para ejemplificar el registro es utilizada la moneda “<strong>USD</strong>”.</p>
+<blockquote>
+<div><p><img alt="Ventana Moneda" src="../../../_images/coin-window.png" /></p>
+<p>Imagen 12. Registro de Moneda USD en ADempiere</p>
+<p>Seleccione la pestaña “<strong>Tasas de Cambio</strong>” para navegar entre los diferentes registros de tasas de cambio correspondientes a la moneda “<strong>USD</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Tasas de Cambio" src="../../../_images/exchange-rates-tab.png" /></p>
+<p>Imagen 13. Pestaña Tasas de Cambio de la Ventana Moneda</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>” para crear un nuevo registro de tasas de cambio.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo Tasas" src="../../../_images/new-registration-icon-from-the-exchange-rates-tab.png" /></p>
+<p>Imagen 14. Icono Registro Nuevo de la Pestaña Tasas de Cambio</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>La tasa de cambio se debe crear de dólares a bolívares y de bolívares a dólares.</p>
+</div>
+<p>Seleccione en el campo “<strong>Moneda Hacia</strong>”, la moneda para la cual requiere convertir el dinero. Para ejemplificar el registro es utilizada la moneda “<strong>VES</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda Hacia" src="../../../_images/currency-field-towards-the-exchange-rates-tab.png" /></p>
+<p>Imagen 15. Campo Moneda Hacia de la Pestaña Tasas de Cambio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Conversión</strong>”, el tipo de conversión a utilizar. Para este caso es utilizado el tipo de conversión “<strong>BCV</strong>”, creado anteriormente.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Conversión" src="../../../_images/conversion-rate-field-of-the-exchange-rates-tab.png" /></p>
+<p>Imagen 16. Campo Tipo de Conversión de la Pestaña Tasas de Cambio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Desde</strong>”, la fecha desde la cual es válida la tasa de conversión que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Válido Desde" src="../../../_images/field-valid-from-the-exchange-rates-tab.png" /></p>
+<p>Imagen 17. Campo Válido Desde de la Pestaña Tasas de Cambio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Hasta</strong>”, la fecha hasta la cual es válida la tasa de conversión que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Válido Hasta" src="../../../_images/field-valid-up-to-the-exchange-rates-tab.png" /></p>
+<p>Imagen 18. Campo Válido Hasta de la Pestaña Tasas de Cambio</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Factor de Base a Destino</strong>”, la tasa por la que serán multiplicados los montos de las transacciones donde sea utilizado el tipo de conversión seleccionado anteriormente. Para ejemplificar el registro es utilizada la tasa “<strong>82.000,0</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Factor de Base a Destino" src="../../../_images/base-factor-to-destination-field-of-the-exchange-rates-tab.png" /></p>
+<p>Imagen 19. Campo Factor de Base a Destino de la Pestaña Tasas de Cambio</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar los cambios realizados seleccionando el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+<div class="section" id="tasa-de-conversion-desde-la-ventana-tasa-de-cambio">
+<span id="paso-crear-tasa-desde-ventana-tasa-de-cambio"></span><h2><strong>Tasa de Conversión desde la Ventana Tasa de Cambio</strong><a class="headerlink" href="#tasa-de-conversion-desde-la-ventana-tasa-de-cambio" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Análisis de Desempeño</strong>”, luego seleccione la carpeta “<strong>Reglas Contables</strong>”, por último seleccione la ventana “<strong>Tasa de Cambio</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de tasa de cambio" src="../../../_images/exchange-rate-menu.png" /></p>
+<p>Imagen 20. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Tasa de Cambio</strong>”, con diferentes campos que permiten registrar las tasas de cambio según el tipo de conversión.</p>
+<blockquote>
+<div><p><img alt="ventana tasa de cambio" src="../../../_images/exchange-rate-window.png" /></p>
+<p>Imagen 21. Ventana Tasa de Cambio</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, para crear un nuevo registro de tasa de cambio según el tipo de conversión.</p>
+<blockquote>
+<div><p><img alt="icono registro nuevo de la tasa de cambio" src="../../../_images/new-record-exchange-rate-icon.png" /></p>
+<p>Imagen 22. Icono Registro Nuevo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se encuentra realizando el registro de tasa de cambio.</p>
+<blockquote>
+<div><p><img alt="campo organización de la tasa de cambio" src="../../../_images/exchange-rate-organization-field.png" /></p>
+<p>Imagen 23. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda origen de la conversión.</p>
+<blockquote>
+<div><p><img alt="campo moneda de la tasa de cambio" src="../../../_images/exchange-rate-currency-field.png" /></p>
+<p>Imagen 24. Campo Moneda</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda Hacia</strong>”, la moneda destino de la conversión.</p>
+<blockquote>
+<div><p><img alt="campo moneda hacia de la tasa de cambio" src="../../../_images/currency-to-field-of-exchange-rate.png" /></p>
+<p>Imagen 25. Campo Moneda Hacia</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Conversión</strong>”, el tipo de conversion de la tasa de cambio que se encuentra registrando.</p>
+<blockquote>
+<div><p><img alt="campo tipo de conversión de la tasa de cambio" src="../../../_images/exchange-rate-conversion-type-field.png" /></p>
+<p>Imagen  26. Campo Tipo de Conversión</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Desde</strong>”, la fecha de inicio del periodo de validez de la tasa de cambio.</p>
+<blockquote>
+<div><p><img alt="campo válido desde de la tasa de cambio" src="../../../_images/field-valid-from-exchange-rate.png" /></p>
+<p>Imagen 27. Campo Válido Desde</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Hasta</strong>”, la fecha final del periodo de validez de la tasa de cambio.</p>
+<blockquote>
+<div><p><img alt="campo válido hasta de la tasa de cambio" src="../../../_images/field-valid-up-to-the-exchange-rate.png" /></p>
+<p>Imagen 28. Campo Válido Hasta</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Factor de Destino a Base</strong>”, la tasa por la que serán multiplicados los montos de las transacciones donde sea utilizado el tipo de conversión seleccionado anteriormente. Para ejemplificar el registro es utilizada la tasa “<strong>82.000,0</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo factor de destino a base de la tasa de cambio" src="../../../_images/target-factor-field-based-on-exchange-rate.png" /></p>
+<p>Imagen 29. Campo Factor de Destino a Base</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar los cambios realizados seleccionando el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="automatic-conversion-rate.html" class="btn btn-neutral float-right" title="Conversión Automática" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Conversión Monetaria" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

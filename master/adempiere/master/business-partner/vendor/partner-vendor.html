@@ -1,0 +1,495 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Registro de Proveedor &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Cliente" href="../customer/index.html" />
+    <link rel="prev" title="Proveedor" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Datos Maestros</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>Socio del Negocio</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../business-partner.html"><strong>Registro de Socio del Negocio</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="reference internal" href="index.html"><strong>Proveedor</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../customer/index.html"><strong>Cliente</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../employee/index.html"><strong>Empleado</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../product/index.html"><strong>Producto</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../warehouse/index.html"><strong>Almacén</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../reports/index.html"><strong>Reportes de Maestros</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><strong>Datos Maestros</strong></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Socio del Negocio</strong></a> &raquo;</li>
+        
+          <li><a href="../business-partner.html"><strong>Registro de Socio del Negocio</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Proveedor</strong></a> &raquo;</li>
+        
+      <li><strong>Registro de Proveedor</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/adempiere/master/business-partner/vendor/partner-vendor.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-de-proveedor">
+<span id="documento-socio-proveedor"></span><h1><strong>Registro de Proveedor</strong><a class="headerlink" href="#registro-de-proveedor" title="Permalink to this headline">¶</a></h1>
+<p>Para registrar un proveedor, es necesario que sea realizado el procedimiento regular explicado en el documento <a class="reference internal" href="../business-partner.html#documento-socio-negocio"><span class="std std-ref">Registro de Socio del Negocio</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p>Luego de culminar el procedimieto de registro de socio del negocio, seleccione la pestaña “<strong>Proveedor</strong>” que se encuentra del lado izquierdo de la ventana socio del negocio, para identificar al socio del negocio como proveedor de la empresa.</p>
+<blockquote>
+<div><p>Esta pestaña le indica a ADempiere si el socio del negocio que se esta registrando es un proveedor.</p>
+<p><img alt="Pestaña Proveedor" src="../../../../_images/pestproveedor.png" /></p>
+<p>Imagen 1. Pestaña Proveedor</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La pestaña “<strong>Proveedor</strong>” se compone de:</p>
+<ul class="simple">
+<li><p>Un checklist “<strong>Proveedor</strong>”.</p></li>
+<li><p>Los datos principales del socio del negocio donde los campos “<strong>Compañía</strong>”, “<strong>Organización</strong>”, “<strong>Código</strong>” y “<strong>Nombre</strong>”, vienen cargados de la ventana principal “<strong>Socio del Negocio</strong>”.</p></li>
+<li><p>Ademas posee un grupo de campos que definen la configuración de retenciones a aplicar al socio del negocio, dichos campos se encuentran explicados en los documentos <a class="reference internal" href="../../../../lve/procedures/withholding-management/withholding-iva/withholding-iva.html#documento-retencion-iva"><span class="std std-ref">Configuración Esencial de la Retención de IVA</span></a>, <a class="reference internal" href="../../../../lve/procedures/withholding-management/withholding-islr/withholding-islr.html#documento-retencion-islr"><span class="std std-ref">Configuración Esencial de la Retención de ISLR</span></a> y <a class="reference internal" href="../../../../lve/procedures/withholding-management/withholding-municipality/withholding-municipality.html#documento-retencion-municipal"><span class="std std-ref">Configuración Esencial de la Retención Municipal</span></a>.</p></li>
+</ul>
+</div>
+</div></blockquote>
+<p>Seleccione el checklist “<strong>Proveedor</strong>” para habilitar en ADempiere el socio del negocio como proveedor de la compañía u organización.</p>
+<blockquote>
+<div><p><img alt="Checklist Proveedor" src="../../../../_images/checklist.png" /></p>
+<p>Imagen 2. Checklist Proveedor</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>De no ser tildado el checklist “<strong>Proveedor</strong>”, ADempiere no tomará el socio del negocio como proveedor.</p>
+</div>
+</div></blockquote>
+<p>Al tildar el checklist “<strong>Proveedor</strong>” podrá apreciar un grupo de campos necesarios para la compra de productos al mismo, dichos campos no son obligatorios ya que pueden ser definidos en el documento “<strong>Orden de Compra</strong>” al momento de su elaboración.</p>
+<blockquote>
+<div><p><img alt="Grupo de Campos Generados por el Checklist Proveedor" src="../../../../_images/campos1.png" /></p>
+<p>Imagen 3. Grupo de Campos Generados por el Checklist Proveedor</p>
+</div></blockquote>
+<p>El campo “<strong>Regla de Pago</strong>” establece la regla de pago definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la regla de pago utilizada es “<strong>A Crédito</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Regla de Pago" src="../../../../_images/regla2.png" /></p>
+<p>Imagen 4. Campo Regla de Pago</p>
+</div></blockquote>
+<p>El campo “<strong>Lista de Precios de Compra</strong>” establece la lista de precios definitiva para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo la lista de precios utilizada es “<strong>Compra (VES)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Lista de Precios de Compra" src="../../../../_images/lista1.png" /></p>
+<p>Imagen 5. Campo Lista de Precios de Compra</p>
+</div></blockquote>
+<p>El campo “<strong>Término Pago Orden de Compra</strong>” establece el término de pago definitivo para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo el término de pago utilizado es “<strong>Crédito a 15 días</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Término de Pago Orden de Compra" src="../../../../_images/termino1.png" /></p>
+<p>Imagen 6. Campo Término de Pago Orden de Compra</p>
+</div></blockquote>
+<p>El campo “<strong>Esquema del Descuento en OC</strong>” establece el descuento definitivo para las compras al socio del negocio proveedor que se esta registrando, para este ejemplo el esquema de descuento utilizado es “<strong>Compras Porcentaje Simple</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Esquema de Descuento en OC" src="../../../../_images/esq2.png" /></p>
+<p>Imagen 7. Campo Esquema de Descuento en OC</p>
+</div></blockquote>
+<p>El campo “<strong>Exento de (IGTF)</strong>” establece que no se aplicará el impuesto “<strong>IGTF</strong>” al socio del negocio proveedor que se esta registrando</p>
+<blockquote>
+<div><p><img alt="Campo Exento de (IGTF)" src="../../../../_images/igtf.png" /></p>
+<p>Imagen 8. Campo Exento de (IGTF)</p>
+</div></blockquote>
+<div class="section" id="pestana-cuenta-bancaria">
+<h2><strong>Pestaña Cuenta Bancaria</strong><a class="headerlink" href="#pestana-cuenta-bancaria" title="Permalink to this headline">¶</a></h2>
+<p>En esta pestaña se registran los datos bancarios del socio del negocio proveedor, con el checklist “<strong>Activo</strong>” se pueden registrar los datos de la tarjeta de crédito del socio del negocio. Así mismo, con el checklist “<strong>ACH</strong>” se pueden registrar los datos de la cuenta bancaria del socio del negocio.</p>
+<p>Seleccione la pestaña “<strong>Cuenta Bancaria</strong>” que se encuentra ubicada del lado izquierdo de la ventana socio del negocio. Por defecto se encuentra tildado el checklist “<strong>Activo</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Cuenta Bancaria" src="../../../../_images/pestcuenta1.png" /></p>
+<p>Imagen 9. Pestaña Cuenta Bancaria</p>
+</div></blockquote>
+<div class="section" id="checklist-activo">
+<h3><strong>Checklist Activo</strong><a class="headerlink" href="#checklist-activo" title="Permalink to this headline">¶</a></h3>
+<p>Seleccione en el campo “<strong>Tarjeta de Crédito</strong>”, el tipo de tarjeta de crédito que posee el socio del negocio proveedor que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Tarjeta de Crédito" src="../../../../_images/tipotarjeta.png" /></p>
+<p>Imagen 10. Campo Tarjeta de Crédito</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Número</strong>”, el número de tarjeta de crédito del socio del negocio proveedor que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Número" src="../../../../_images/nutarjeta.png" /></p>
+<p>Imagen 11. Campo Número</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código Verificación</strong>”, el código de verificación de la tarjeta de crédito del socio del negocio proveedor que esta registrando, este código son los últimos tres números del reverso de la tarjeta.</p>
+<blockquote>
+<div><p><img alt="Campo Código Verificación" src="../../../../_images/codverificacion.png" /></p>
+<p>Imagen 12. Campo Código Verificación</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Mes de Expiración</strong>”, el mes de expiración de la tarjeta de crédito del socio del negocio proveedor que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Mes de Expiración" src="../../../../_images/mesexpiracion.png" /></p>
+<p>Imagen 13. Campo Mes de Expiración</p>
+</div></blockquote>
+<p>Introduzca el año de expiración de la tarjeta de crédito del socio del negocio proveedor que esta registrando en el campo “<strong>Año de Expiración</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Año de Expiración" src="../../../../_images/anoexpiracion.png" /></p>
+<p>Imagen 14. Campo Año de Expiración</p>
+</div></blockquote>
+<p>Introduzca el nombre de referencia de la tarjeta en el campo “<strong>Nombre</strong>”, en este campo va el nombre del titular de la tarjeta de crédito que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre de Referencia de la Tarjeta" src="../../../../_images/nomcuenta1.png" /></p>
+<p>Imagen 15. Campo Nombre de Referencia de la Tarjeta</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Este proceso se realiza con la finalidad de registrar la tarjeta de crédito del socio del negocio.</p>
+</div>
+</div>
+<div class="section" id="checklist-ach">
+<h3><strong>Checklist ACH</strong><a class="headerlink" href="#checklist-ach" title="Permalink to this headline">¶</a></h3>
+<p>Para registros de cuentas bancarias, tilde el checklist “<strong>ACH</strong>”, a continuación se reflejarán los campos para el registro de la cuenta bancaria del socio del negocio proveedor.</p>
+<blockquote>
+<div><p><img alt="Checklist ACH" src="../../../../_images/ACH.png" /></p>
+<p>Imagen 16. Checklist ACH</p>
+</div></blockquote>
+<p>En el campo “<strong>Banco</strong>” seleccione el banco a registrar con ayuda del icono identificador (adjunto imagen).</p>
+<blockquote>
+<div><p><img alt="Campo Banco" src="../../../../_images/banco1.png" /></p>
+<p>Imagen 17. Campo Banco</p>
+</div></blockquote>
+<p>A continuación visualizará la siguiente ventana con los diferentes bancos, dónde debe seleccionar el banco que posee el socio del negocio proveedor y la opción “<strong>OK</strong>” para cargar los datos a la ventana.</p>
+<blockquote>
+<div><p><img alt="Ventana Bancos" src="../../../../_images/ventcuentas.png" /></p>
+<p>Imagen 18. Ventana Bancos</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Cuenta Bancaria</strong>”, el tipo de cuenta correspondiente a la cuenta del socio del negocio proveedor.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Cuenta Bancaria" src="../../../../_images/tipocuenta2.png" /></p>
+<p>Imagen 19. Campo Tipo de Cuenta Bancaria</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>No. De Cuenta</strong>”, el número de cuenta del socio del negocio proveedor que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo No. De Cuenta" src="../../../../_images/numcuenta2.png" /></p>
+<p>Imagen 20. Campo No. De Cuenta</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre</strong>”, el nombre del titular de la cuenta bancaria que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre del Titular de la Cuenta" src="../../../../_images/nomcuenta2.png" /></p>
+<p>Imagen 21. Campo Nombre del Titular de la Cuenta</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Este proceso se realiza con la finalidad de registrar la cuenta bancaria del socio del negocio proveedor.</p>
+</div>
+</div>
+</div>
+<div class="section" id="pestana-localizacion">
+<h2><strong>Pestaña Localización</strong><a class="headerlink" href="#pestana-localizacion" title="Permalink to this headline">¶</a></h2>
+<p>La localización de un socio del negocio es muy importante por diferentes motivos y más si el socio del negocio es proveedor. Ya que las transacciones de compras serán realizadas al mismo, en esta pestaña se deben registrar con exactitud los datos de la dirección del socio del negocio.</p>
+<p>Seleccione la pestaña “<strong>Localización</strong>” que se encuentra ubicada del lado izquierdo de la ventana socio del negocio.</p>
+<blockquote>
+<div><p><img alt="Pestaña Localización" src="../../../../_images/pestlocalizacion.png" /></p>
+<p>Imagen 22. Pestaña Localización</p>
+</div></blockquote>
+<p>A continuación visualizará la siguiente ventana, dónde debe resourcesdsocio-proveedorr la dirección exacta del socio del negocio proveedor que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Ventana de Localización" src="../../../../_images/ventlocalizacion.png" /></p>
+<p>Imagen 23. Ventana de Localización</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de los campos cada vez que se vaya a posicionar en una pestaña de la ventana socio del negocio.</p>
+</div>
+</div>
+<div class="section" id="pestana-contacto">
+<h2><strong>Pestaña Contacto</strong><a class="headerlink" href="#pestana-contacto" title="Permalink to this headline">¶</a></h2>
+<p>En esta pestaña se registran todos los datos de contacto que se tengan del socio del negocio proveedor.</p>
+<p>Seleccione la pestaña “<strong>Contacto</strong>” que se encuentra ubicada del lado izquierdo de la ventana socio del negocio, para proceder a llenar los campos necesarios.</p>
+<blockquote>
+<div><p><img alt="Pestaña Contacto" src="../../../../_images/pestcontacto.png" /></p>
+<p>Imagen 24. Pestaña Contacto</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre</strong>”, el nombre del socio del negocio contacto para las transacciones entre las empresas.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre de Contacto" src="../../../../_images/nombcontacto.png" /></p>
+<p>Imagen 25. Campo Nombre de Contacto</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Email</strong>”, el email del socio del negocio contacto para las transacciones entre las empresas.</p>
+<blockquote>
+<div><p><img alt="Campo Email" src="../../../../_images/emailcontacto.png" /></p>
+<p>Imagen 26. Campo Email</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Teléfono</strong>”, el teléfono del socio del negocio contacto para las transacciones entre las empresas.</p>
+<blockquote>
+<div><p><img alt="Campo Teléfono" src="../../../../_images/telecontacto.png" /></p>
+<p>Imagen 27. Campo Teléfono</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Este procedimiento realizado aplica solo para los <strong>Socios del Negocio</strong> que cumplan el rol de <strong>Proveedor</strong>.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../customer/index.html" class="btn btn-neutral float-right" title="Cliente" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Proveedor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

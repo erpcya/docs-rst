@@ -1,0 +1,449 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Crédito del Productor &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Gestión de Producción" href="../../production-management/index.html" />
+    <link rel="prev" title="Definición de Costo de Cultivo" href="definition-of-cultivation-cost.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Asistencia al Agricultor</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../headings/index.html"><strong>Rubro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../producer/index.html"><strong>Productor</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../farm/index.html"><strong>Finca</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technical-assistance-management/index.html"><strong>Gestión de Asistencia Técnica</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Gestión de Financiamiento</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="definition-of-cultivation-cost.html"><strong>Definición de Costo de Cultivo</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Crédito del Productor</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Asistencia al Agricultor</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión de Financiamiento</strong></a> &raquo;</li>
+        
+      <li><strong>Crédito del Productor</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/farmer-assistance-management/financing-management/producer-credit.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="credito-del-productor">
+<span id="documento-credito-del-productor"></span><h1><strong>Crédito del Productor</strong><a class="headerlink" href="#credito-del-productor" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Asistencia al Agricultor</strong>”, luego seleccione la carpeta “<strong>Inversión Agrícola y Préstamos</strong>”, por último seleccione la ventana “<strong>Crédito del Productor</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de crédito del productor" src="../../../_images/producer-credit-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Crédito del Productor</strong>”, con los diferentes registros de créditos de productores.</p>
+<blockquote>
+<div><p><img alt="ventana crédito del productor" src="../../../_images/producer-credit-window.png" /></p>
+<p>Imagen 2. Ventana Crédito del Productor</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono registro nuevo de la ventana crédito del productor" src="../../../_images/new-record-icon-of-the-producer-credit-window.png" /></p>
+<p>Imagen 3. Icono Registro Nuevo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se encuentra realizando el registro.</p>
+<blockquote>
+<div><p><img alt="campo organización de la ventana crédito del productor" src="../../../_images/field-organization-of-the-producer-credit-window.png" /></p>
+<p>Imagen 4. Campo Organización</p>
+</div></blockquote>
+<p>Al guardar el registro de la ventana “<strong>Crédito de Productor</strong>”, podrá visualizar en el campo “<strong>No. del Documento</strong>”, el número de documento correspondiente a la secuencia del registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo número del documento de la ventana crédito del productor" src="../../../_images/field-number-of-the-document-number-of-the-producer-credit-window.png" /></p>
+<p>Imagen 5. Campo No. del Documento</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento de la ventana crédito del productor" src="../../../_images/document-type-field-of-the-producer-credit-window.png" /></p>
+<p>Imagen 6. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>F. Documento</strong>”, la fecha en la que se encuentra realizando el documento.</p>
+<blockquote>
+<div><p><img alt="campo fecha del documento de la ventana crédito del productor" src="../../../_images/date-field-of-the-document-in-the-producer-credit-window.png" /></p>
+<p>Imagen 7. Campo F. Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Acuerdo</strong>”, el tipo de acuerdo correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo tipo de acuerdo de la ventana crédito del productor" src="../../../_images/producer-credit-window-agreement-type-field.png" /></p>
+<p>Imagen 8. Campo Tipo de Acuerdo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Definición de Costo de Cultivo</strong>”, la definición de costo de cultivo correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo definición de costo de cultivo de la ventana crédito del productor" src="../../../_images/field-definition-of-cost-of-cultivation-of-the-producer-credit-window.png" /></p>
+<p>Imagen 9. Campo Definición de Costo de Cultivo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio de la ventana crédito del productor" src="../../../_images/producer-credit-window-business-partner-field.png" /></p>
+<p>Imagen 10. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Usuario</strong>”, el usuario correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo usuario de la ventana crédito del productor" src="../../../_images/user-field-of-the-producer-credit-window.png" /></p>
+<p>Imagen 11. Campo Usuario</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Desde</strong>”, la fecha de inicio del rango o periodo de validez del registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo válido desde de la ventana crédito del productor" src="../../../_images/valid-field-from-the-producer-credit-window.png" /></p>
+<p>Imagen 12. Campo Válido Desde</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Hasta</strong>”, la fecha final del rango o periodo de validez del registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo válido hasta de la ventana crédito del productor" src="../../../_images/field-valid-up-to-the-producer-credit-window.png" /></p>
+<p>Imagen 13. Campo Válido Hasta</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la ventana crédito del productor" src="../../../_images/save-changes-icon-of-the-producer-credit-window.png" /></p>
+<p>Imagen 14. Icono Guardar Cambios</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Cultivos Asignados</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="pestaña cultivos asignados de la ventana crédito del productor" src="../../../_images/assigned-crop-tab-of-the-producer-credit-window.png" /></p>
+<p>Imagen 15. Pestaña Cultivos Asignados</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cultivo</strong>”, el cultivo correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo cultivo de la pestaña cultivos asignados de la ventana crédito del productor" src="../../../_images/crop-field-of-the-assigned-crops-tab-of-the-producer-credit-window.png" /></p>
+<p>Imagen 16. Campo Cultivo</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la pestaña cultivos asignados de la ventana crédito del productor" src="../../../_images/save-changes-icon-of-the-assigned-crops-tab-of-the-producer-credit-window.png" /></p>
+<p>Imagen 17. Icono Guardar Cambios</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Cuenta Financiera</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="pestaña cuenta financiera de la ventana crédito del productor" src="../../../_images/financial-account-tab-of-the-producer-credit-window.png" /></p>
+<p>Imagen 18. Pestaña Cuenta Financiera</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>No. De Cuenta</strong>”, el número de cuenta correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo número de cuenta de la pestaña cuenta financiera de la ventana crédito del productor" src="../../../_images/account-number-field-of-the-financial-account-tab-of-the-producer-credit-window.png" /></p>
+<p>Imagen 19. Campo No. De Cuenta</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo moneda de la pestaña cuenta financiera de la ventana crédito del productor" src="../../../_images/currency-field-of-the-financial-account-tab-of-the-producer-credit-window.png" /></p>
+<p>Imagen 20. Campo Moneda</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la pestaña cuenta financiera de la ventana crédito del productor" src="../../../_images/description-field-in-the-financial-account-tab-of-the-producers-credit-window.png" /></p>
+<p>Imagen 21. Campo Descripción</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la pestaña cuenta financiera de la ventana crédito del productor" src="../../../_images/save-changes-icon-of-the-financial-account-tab-of-the-producer-credit-window.png" /></p>
+<p>Imagen 22. Icono Guardar Cambios</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Producto de la Cuenta</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="pestaña producto de la cuenta de la ventana crédito del productor" src="../../../_images/product-tab-of-the-producers-credit-window-account.png" /></p>
+<p>Imagen 23. Pestaña Producto de la Cuenta</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto Financiero</strong>”, el producto financiero correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo producto financiero de la pestaña producto de la cuenta de la ventana crédito del productor" src="../../../_images/financial-product-field-of-the-account-product-tab-of-the-producer-credit-window.png" /></p>
+<p>Imagen 24. Campo Producto Financiero</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Desde</strong>”, la fecha de inicio del rango o periodo de validez del registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo válido desde de la pestaña producto de la cuenta de la ventana crédito del productor" src="../../../_images/valid-field-from-the-account-products-tab-of-the-producer-credit-window.png" /></p>
+<p>Imagen 25. Campo Válido Desde</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Hasta</strong>”, la fecha final del rango o periodo de validez del registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo válido hasta de la pestaña producto de la cuenta de la ventana crédito del productor" src="../../../_images/valid-field-up-to-the-account-products-tab-of-the-producer-credit-window.png" /></p>
+<p>Imagen 26. Campo Válido Hasta</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la pestaña producto de la cuenta de la ventana crédito del productor" src="../../../_images/save-changes-icon-from-the-account-products-tab-of-the-producer-credit-window.png" /></p>
+<p>Imagen 27. Icono Guardar Cambios</p>
+</div></blockquote>
+<p>Seleccione la pestaña principal “<strong>Crédito (Productor)</strong>” y la opción “<strong>Completar</strong>”.</p>
+<blockquote>
+<div><p><img alt="pestaña principal crédito productor y opción completar" src="../../../_images/main-tab-producer-credit-and-complete-option.png" /></p>
+<p>Imagen 28. Pestaña Principal Crédito Productor  y Opción Completar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”.</p>
+<blockquote>
+<div><p><img alt="acción completar y opción ok" src="../../../_images/action-complete-and-option-ok.png" /></p>
+<p>Imagen 29. Acción Completar y Opción OK</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../production-management/index.html" class="btn btn-neutral float-right" title="Gestión de Producción" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="definition-of-cultivation-cost.html" class="btn btn-neutral float-left" title="Definición de Costo de Cultivo" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

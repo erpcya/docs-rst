@@ -1,0 +1,439 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Generar Informe Financiero &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Balance de Comprobación" href="checking-balance.html" />
+    <link rel="prev" title="Informe Financiero" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Gestión Contable</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../type-of-application.html"><strong>Tipo de Aplicación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../accounting-element/index.html"><strong>Elemento Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../opening-accounting-period.html"><strong>Apertura de Período Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../unposted-documents.html"><strong>Documentos sin Aplicar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../accounting-dimensions.html"><strong>Dimensiones Contables</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../accounting-combination.html"><strong>Combinación Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../currency-conversion/index.html"><strong>Conversión Monetaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../gl-distribution/index.html"><strong>Distribución Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../accounting-setup-master/index.html"><strong>Configuración Contable (Maestros)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../transaction-accounting/index.html"><strong>Contabilidad de Transacciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../costing/index.html"><strong>Gestión de Costos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../gl-journal-batch/index.html"><strong>Diario Contable</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>Reportes Contables</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="index.html"><strong>Informe Financiero</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>Generar Informe Financiero</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="checking-balance.html"><strong>Balance de Comprobación</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="balance-sheet.html"><strong>Balance General</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="statement-of-income.html"><strong>Estado de Resultado</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../detailed-reports/index.html"><strong>Reportes Detallados</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><strong>Gestión Contable</strong></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Reportes Contables</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Informe Financiero</strong></a> &raquo;</li>
+        
+      <li><strong>Generar Informe Financiero</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/adempiere/performance-analysis/accounting-reports/financial-report/generate-financial-report.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="generar-informe-financiero">
+<span id="documento-informe-financiero"></span><h1><strong>Generar Informe Financiero</strong><a class="headerlink" href="#generar-informe-financiero" title="Permalink to this headline">¶</a></h1>
+<p>Para generar un informe financiero el usuario debe ubicarse en el menú de ADempiere. Debe seleccionar la carpeta “<strong>Análisis de Desempeño</strong>”, luego debe seleccionar la carpeta “<strong>Informes Financieros</strong>” y por último la ventana “<strong>Informe Financiero</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../../_images/financial-report-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>El reporte de informe financiero es generado a través de la selección del proceso “<strong>Crear Informe</strong>”, el cual se encuentra ubicado en la parte inferior de la ventana “<strong>Informe Financiero</strong>”.</p>
+<blockquote>
+<div><p><img alt="Ventana Informe Financiero" src="../../../../_images/financial-report-window.png" /></p>
+<p>Imagen 2. Ventana Informe Financiero</p>
+</div></blockquote>
+<p>Al seleccionar el proceso, el usuario podrá visualizar la ventana “<strong>Crear Informe</strong>”, esta ventana cuenta con diferentes campos que permiten filtrar la información en base a los campos que sean seleccionados, a continuación detallaremos cada uno de los campos:</p>
+<blockquote>
+<div><p>Seleccione el periodo en el campo “<strong>Período</strong>”.</p>
+<blockquote>
+<div><p>El periodo no es un campo obligatorio, sin embargo, le permite definir el rango de fecha en el cual desea emitir los saldos contables para su informe financiero,recordando que cada periodo está previamente configurado y representa un determinado tiempo en el cual se registran y se reconocen operaciones económicas.</p>
+<p><img alt="Campo Período" src="../../../../_images/financial-reporting-period-field.png" /></p>
+<p>Imagen 3. Campo Período</p>
+</div></blockquote>
+<p>Seleccione la organización en el campo “<strong>Organización</strong>”.</p>
+<blockquote>
+<div><p>La organización no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por organización cuando existe más de una, es decir, el informe financiero podrá emitir saldos contables de una organización al seleccionarla, si por el contrario, el campo está vacío <strong>ADempiere</strong> mostrará la información contable de todas las organizaciones.</p>
+<p><img alt="Campo Organización" src="../../../../_images/organization-field-of-financial-reporting.png" /></p>
+<p>Imagen 4. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione el socio de negocio en el campo “<strong>Socio de Negocio</strong>”.</p>
+<blockquote>
+<div><p>El socio de negocio no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por socio de negocio según su naturaleza, cliente, proveedor o empleado, es decir, el informe financiero podrá emitir saldos contables de un socio de negocio al seleccionarlo, si por el contrario, el campo está vacío <strong>ADempiere</strong> mostrará la información contable de todos los socios de negocios.</p>
+<p><img alt="Campo Socio del Negocio" src="../../../../_images/business-partner-field-of-financial-reporting.png" /></p>
+<p>Imagen 5. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione el producto en el campo “<strong>Producto</strong>”.</p>
+<blockquote>
+<div><p>El producto no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por producto, es decir, el informe financiero podrá emitir saldos contables de un producto al seleccionarlo, si por el contrario, el campo está vacío <strong>ADempiere</strong> mostrará la información contable de todos los productos.</p>
+<p><img alt="Campo Producto" src="../../../../_images/financial-report-product-field.png" /></p>
+<p>Imagen 6. Campo Producto</p>
+</div></blockquote>
+<p>Seleccione la actividad en el campo “<strong>Actividad</strong>”.</p>
+<blockquote>
+<div><p>La actividad no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por actividad, que generalmente es utilizada en contabilidad para distribución de los costos y gastos según las actividades que se desarrollan en la empresa, es decir, el informe financiero podrá emitir saldos contables de una actividad al seleccionarla, si por el contrario, el campo está vacío <strong>ADempiere</strong> mostrará la información contable de todas las actividades.</p>
+<p><img alt="Campo Actividad" src="../../../../_images/financial-reporting-activity-field.png" /></p>
+<p>Imagen 7. Campo Actividad</p>
+</div></blockquote>
+<p>Seleccione la región de venta en el campo “<strong>Región de Venta</strong>”.</p>
+<blockquote>
+<div><p>La región de venta no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por región de venta, que generalmente es utilizada para clasificar las zonas en las cuales la empresa establece negocios, es decir, el informe financiero podrá emitir saldos contables de una región de venta al seleccionarla, si por el contrario, el campo está vacío <strong>ADempiere</strong> mostrará la información contable de todas las regiones.</p>
+<p><img alt="Campo Región de Ventas" src="../../../../_images/sales-region-field-of-the-financial-report.png" /></p>
+<p>Imagen 8. Campo Región de Ventas</p>
+</div></blockquote>
+<p>Seleccione el centro de costo en el campo “<strong>Centro de Costo</strong>”.</p>
+<blockquote>
+<div><p>El centro de costo no es un campo obligatorio, sin embargo, representa una dimensión contable y le permite filtrar la información por centro de costo, que generalmente es utilizado para segmentar los costos que genera una organización, permitiendo definir la ganancia o pérdida que le pueden añadir de forma directa o indirecta a una empresa, es decir, el informe financiero podrá emitir saldos contables de una región de venta al seleccionarla, si por el contrario, el campo está vacío <strong>ADempiere</strong> mostrará la información contable de todos los centros de costos.</p>
+<p><img alt="Campo Centro de Costos" src="../../../../_images/cost-center-field-of-the-financial-report.png" /></p>
+<p>Imagen 9. Campo Centro de Costos</p>
+</div></blockquote>
+<p>Seleccione el tipo de aplicación en el campo “<strong>Tipo de Aplicación</strong>”.</p>
+<blockquote>
+<div><p>El tipo de aplicación no es un campo obligatorio, sin embargo, le permite filtrar la información por tipo de aplicación, que generalmente es utilizado para clasificar el tipo de contabilidad aplicado, el tipo de aplicación establecido por defecto es actual, basado en la configuración previa en las “<strong>Columnas de Informe</strong>” asociada al informe financiero, no obstante, podrá seleccionar entre, actual, presupuesto, reserva, compromiso y estadística, es decir, el informe financiero podrá emitir saldos contables de un tipo de aplicación específico al seleccionarlo, si por el contrario, el campo está vacío <strong>ADempiere</strong> mostrará la información contable del tipo de aplicación “<strong>Actual</strong>”. Para profundizar más este tema vaya a el documento: <a class="reference internal" href="../../type-of-application.html#documento-tipo-de-aplicacion"><span class="std std-ref">Tipo de Aplicación</span></a></p>
+<p><img alt="Campo Tipo de Aplicación" src="../../../../_images/field-of-application-of-the-financial-report.png" /></p>
+<p>Imagen 10. Campo Tipo de Aplicación</p>
+</div></blockquote>
+<p>Seleccione la opción <strong>Si</strong> o <strong>No</strong> en el campo “<strong>Desplegar fuentes Fuentes</strong>”.</p>
+<blockquote>
+<div><p>Desplegar fuentes Fuentes no es un campo obligatorio, sin embargo, le permite visualizar el saldo de las cuentas detalle que dan origen al saldo de las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción “<strong>Si</strong>”, el informe financiero mostrará el saldo de las cuentas de mayor y el saldo de las cuentas detalle que componen esta cuenta, si por el contrario, la opción seleccionada es “<strong>No</strong>” o el campo está vacío <strong>ADempiere</strong> mostrará el saldo contable únicamente de las cuentas definidas previamente en el “<strong>Grupo de Líneas del Informe</strong>” asociado al informe financiero.</p>
+<p><img alt="Campo Desplegar fuentes Fuentes" src="../../../../_images/field-display-sources-sources-of-the-financial-report.png" /></p>
+<p>Imagen 11. Campo Desplegar fuentes Fuentes</p>
+</div></blockquote>
+<p>Seleccione la opción <strong>Si</strong> o <strong>No</strong> en el campo “<strong>Lista Transacciones</strong>”.</p>
+<blockquote>
+<div><blockquote>
+<div><p>Lista Transacciones es un campo dependiente del campo “<strong>Desplegar fuentes Fuentes</strong>”, es decir solo estará habilitado cuando el campo “<strong>Desplegar fuentes Fuentes</strong>” esté establecido con la opción “<strong>Si</strong>”,”<strong>Lista Transacciones</strong>” no es un campo obligatorio, sin embargo, le permite visualizar el débito o crédito de las transacciones que dan origen al saldo de las cuentas detalles y a su vez a las cuentas acumulativas, también llamadas cuentas de mayor, es decir, si selecciona la opción “<strong>Si</strong>”, el informe financiero mostrará el monto de las transacciones que componen cada cuenta, si por el contrario, la opción seleccionada es “<strong>No</strong>” o el campo está vacío <strong>ADempiere</strong> mostrará el saldo contable únicamente de las cuentas detalles.</p>
+<p><img alt="Campo Lista Transacciones" src="../../../../_images/financial-report-transaction-list-field.png" /></p>
+<p>Imagen 12. Campo Lista Transacciones</p>
+</div></blockquote>
+<p>Seleccione la opción <strong>Si</strong> o <strong>No</strong> en el campo <strong>Listas Fuentes Primero</strong>.</p>
+<blockquote>
+<div><p>Listas Fuentes Primero se encuentra por defecto con la opción “<strong>No</strong>”, no es un campo obligatorio, sin embargo, le permite organizar su informe financiero, organizando las cuentas fuentes(cuentas detalle) listadas desde la opción “<strong>Desplegar fuentes Fuentes</strong>” y “<strong>Lista Transacciones</strong>” de forma que si la opción seleccionada en el campo “<strong>Listas Fuentes Primero</strong>” es “<strong>Si</strong> las cuentas detalle junto a las transacciones irán precediendo a las cuentas definidas previamente en el “<strong>Grupo de Líneas del Informe</strong>” asociado al informe financiero, si por el contrario, el campo está vacío <strong>ADempiere</strong> mostrará las cuentas detalle junto a las transacciones sucediendo a las cuentas definidas previamente en el “<strong>Grupo de Líneas del Informe</strong>” asociado al informe financiero.</p>
+<p><img alt="Campo Lista Fuentes Primero" src="../../../../_images/field-list-sources-first-of-the-financial-report.png" /></p>
+<p>Imagen 13. Checklist Lista Fuentes Primero</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el informe por jerarquía en  el campo <strong>Reportando Jerarquías</strong>.</p>
+<blockquote>
+<div><p>Reportando Jerarquías no es un campo obligatorio, sin embargo, le permite generar un informe financiero basado en la configuración realizada en un informe por jerarquía previamente, para explicarlo mejor veamos el siguiente ejemplo:</p>
+<blockquote>
+<div><p>Imaginemos una organización cuya estructura en ventas está definida de la siguiente forma:</p>
+<p><img alt="Organigrama Venta" src="../../../../_images/organization-chart-sale.png" /></p>
+<p>Imagen 14. Organigrama Ventas</p>
+<p>Si se desea ver un informe para realizar un análisis de desempeño de la entidad en la organización seguramente se evaluarán resultados en cuentas como  ingresos, cuentas por cobrar, compromisos, costos y gastos asociado al departamento, región de ventas o incluso al empleado(gerente de ventas o vendedor), para esto <strong>ADempiere</strong> permite la creación de jerarquías para cualquier elemento seleccionado en el esquema contable y de esta forma reportar por estructuras y roles definidos previamente en “<strong>Informe de Jerarquías</strong>”.</p>
+<p>Basados en lo anteriormente expuesto, en este ejemplo se crearía una jerarquía asociando los siguientes árboles:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Arbol de Actividad</strong>: La actividad se refiere a la actividad realizada en la organización, podemos decir entonces que funge como un departamento, en este árbol se definirá la estructura del organigrama en cuestión.</p></li>
+<li><p><strong>Árbol de Cuentas</strong>: Las cuentas contables a evaluar para el ejemplo son las cuentas de ingreso, cuentas por cobrar, compromisos, costos y gastos, se definirá entonces un árbol con estas cuentas.</p></li>
+</ul>
+</div></blockquote>
+<p>De esta forma se definirán todos los árboles necesarios para el ejemplo, para profundizar a cerca de la creación de un <strong>Informe de Jerarquías</strong> vaya al instructivo que <a class="reference external" href="http://erpya.com">ERPyA</a> ha diseñado para usted.</p>
+<p>Al generar el informe financiero con esta definición usted podrá observar un reporte basado en la estructura del informe de jerarquías con el saldo de las cuentas y las actividades fijadas en el mismo.</p>
+</div></blockquote>
+<p><img alt="Campo Reportando Jerarquías" src="../../../../_images/field-reporting-hierarchies-of-financial-reporting.png" /></p>
+<p>Imagen 15. Campo Reportando Jerarquías</p>
+</div></blockquote>
+<p>Seleccione el cubo de informe en el campo <strong>Cubo Informe</strong>.</p>
+<blockquote>
+<div><p>El cubo de informe no es un campo obligatorio, sin embargo, le permite generar un informe financiero con una información analizada en línea en una base de datos multidimensional de gran volumen, es decir, muestra datos procesados con una gran agilidad y rapidez reduciendo a gran escala el tiempo y los recursos empleados en el análisis, para explicarlo mejor veamos el siguiente ejemplo:</p>
+<blockquote>
+<div><p>Imaginemos una empresa en la que requiere dentro de una escala de tiempo incluir datos de un periodo contable, este llevaría por nombre “<strong>Junio 2020</strong>”, en el que se desean medir otras dimensiones del cubo para alcanzar información referente a un proyecto, los productos por categorías, y costos en los que incurre la empresa para alcanzar el proyecto.</p>
+<p><img alt="Cubo de información" src="../../../../_images/information-cube.png" /></p>
+<p>Imagen 16. Cubo de información</p>
+<p>Este cruce de la información permite analizar diversas situaciones y resultados llevando a cabo consultas de los datos masivos de manera eficiente y ligera para  tomar decisiones acertadas.</p>
+</div></blockquote>
+<p><img alt="Campo Cubo Informe" src="../../../../_images/financial-report-cube-field.png" /></p>
+<p>Imagen 17. Campo Cubo Informe</p>
+</div></blockquote>
+</div></blockquote>
+<p>Luego de verificar los campos que contiene la ventana, el usuario debe seleccionar la opción “<strong>OK</strong>”, para que sea generado el informe.</p>
+<blockquote>
+<div><p><img alt="Ventana Crear Informe" src="../../../../_images/create-report-window.png" /></p>
+<p>Imagen 18. Ventana Crear Informe</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="checking-balance.html" class="btn btn-neutral float-right" title="Balance de Comprobación" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Informe Financiero" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

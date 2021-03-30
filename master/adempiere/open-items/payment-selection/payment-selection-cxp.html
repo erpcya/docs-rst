@@ -1,0 +1,532 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Registro desde Selección de Pago &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Imprimir / Exportar Pagos" href="../print-export/index.html" />
+    <link rel="prev" title="Registro desde Nómina" href="payment-selection-payroll.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bank-transfer/index.html"><strong>Transferencia Bancaria</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Selección de Pago</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="payment-order-from-purchase-order.html"><strong>Registro desde Orden</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="pay-order.html"><strong>Registro desde Factura</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="payment-selection-payroll.html"><strong>Registro desde Nómina</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Registro desde Selección de Pago</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../print-export/index.html"><strong>Imprimir / Exportar Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payment/index.html"><strong>Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection/index.html"><strong>Cobro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-refund/index.html"><strong>Caja Reembolso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-per-diems/index.html"><strong>Caja Viáticos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection-cash/index.html"><strong>Caja Cobranza</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pay-assignment/index.html"><strong>Asignación de Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-closing/index.html"><strong>Cierre de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../automatic-conciliations/index.html"><strong>Conciliaciones Automáticas</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Selección de Pago</strong></a> &raquo;</li>
+        
+      <li><strong>Registro desde Selección de Pago</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/open-items/payment-selection/payment-selection-cxp.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-desde-seleccion-de-pago">
+<span id="documento-seleccion-de-pago"></span><h1><strong>Registro desde Selección de Pago</strong><a class="headerlink" href="#registro-desde-seleccion-de-pago" title="Permalink to this headline">¶</a></h1>
+<p>Para realizar una “<strong>Selección de Pago</strong>” la cual se encarga de definir de qué cuenta bancaria de la compañía saldrán los pagos pendientes a proveedores se deben realizar los siguientes pasos:</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Es muy importante tener en cuenta que para poder seguir el paso a paso que se detalla a continuación se debe tener previamente cargada en ADempiere la “<strong>Orden de Pago</strong>” si no se encuentra cargado en ADempiere pueden consultar el instructivo <a class="reference internal" href="pay-order.html#documento-orden-de-pago"><span class="std std-ref">Registro desde Factura</span></a> o <a class="reference internal" href="payment-order-from-purchase-order.html#documento-orden-de-pago-desde-orden"><span class="std std-ref">Registro desde Orden</span></a></p>
+</div>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la ventana “<strong>Selección de Pagos</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../_images/payment-selection-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Selección de Pago</strong>”, en la cual debe seleccionar el icono “<strong>Registro Nuevo</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo del Documento Registro desde Selección de Pago" src="../../../_images/register-icon-new-payment-selection.png" /></p>
+<p>Imagen 2. Icono Registro Nuevo del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual está realizando el documento “<strong>Selección de Pago</strong>”.</p>
+<blockquote>
+<div><p>Al seleccionar la organización con la que trabajará el registro a crear  estará disponible únicamente bajo esa organización  seleccionada, aunque la decisión de la organización a trabajar quedará al momento que inicie sesión en ADempiere.</p>
+<p><img alt="Campo Organización del Documento Registro desde Selección de Pago" src="../../../_images/field-organization-of-the-document-payment-order-from-order.png" /></p>
+<p>Imagen 3. Campo Organización del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para ejemplificar el registro es utilizado el tipo de documento “<strong>Selección de Pagos de Cuentas por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento del Documento Registro desde Selección de Pago" src="../../../_images/document-type-field-of-the-registration-document-from-payment-selection.png" /></p>
+<p>Imagen 4. Campo Tipo de Documento del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>F. Documento</strong>”, la fecha en la cual se está generando el documento de selección de pago.</p>
+<blockquote>
+<div><p><img alt="Campo F. Documento del Documento Registro desde Selección de Pago" src="../../../_images/field-f-document-of-the-document-registration-from-payment-selection.png" /></p>
+<p>Imagen 5. Campo F. Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de Pago</strong>”, la fecha en la cual se debe realizar el pago.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Pago del Documento Registro desde Selección de Pago" src="../../../_images/payment-date-field-of-the-registration-document-from-payment-selection.png" /></p>
+<p>Imagen 6. Campo Fecha de Pago del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la cuenta bancaria desde la cual se le realizará el pago al socio del negocio proveedor. Para ejemplificar el registro es utilizada la cuenta “<strong>Mercantil C.A. Banco Universal - 0105_0105-000000000000000</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta Bancaria del Documento Registro desde Selección de Pago" src="../../../_images/bank-account-field-of-the-registration-document-from-payment-selection.png" /></p>
+<p>Imagen 7. Campo Cuenta Bancaria del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre de Referencia</strong>”, un nombre de referencia de la selección de pago que está realizando.</p>
+<blockquote>
+<div><p>La información a colocar en este campo es una pequeña referencia de la selección de pago que se esté creando por ejemplo: “<strong>Pago Proveedores Servicios</strong>”.</p>
+<p><img alt="Campo Nombre de Referencia del Documento Registro desde Selección de Pago" src="../../../_images/document-reference-name-field-register-from-payment-selection.png" /></p>
+<p>Imagen 8. Campo Nombre de Referencia del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción referente a la selección de pago que está realizando.</p>
+<blockquote>
+<div><p>La información a colocar en este campo es una pequeña descripción de la selección de pago que se esté realizando por ejemplo: “<strong>Pagos a proveedores primera semana de Julio por el banco Mercantil</strong>”</p>
+<p><img alt="Campo Descripción del Documento Registro desde Selección de Pago" src="../../../_images/document-description-field-registration-from-payment-selection.png" /></p>
+<p>Imagen 9. Campo Descripción del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Crear Desde Selección de Pago</strong>”, para crear la selección de pago desde la solicitud de pago creada anteriormente.</p>
+<blockquote>
+<div><p><img alt="Opción Crear Desde Selección de Pago del Documento Registro desde Selección de Pago" src="../../../_images/option-to-create-from-payment-selection-of-the-registration-document-from-payment-selection.png" /></p>
+<p>Imagen 10. Opción Crear Desde Selección de Pago del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>Al seleccionar el botón “<strong>Crear Desde Selección de Pago</strong>”, se desplegará otra ventana llamada Smart Browser (Ventana de Búsqueda Inteligente) donde podrá ubicar a las “<strong>Órdenes de Pago</strong>” cargadas en ADempiere. Podrá observar en la siguiente ventana de búsqueda inteligente una serie de campos para ser utilizados como criterio de búsqueda.</p>
+<blockquote>
+<div><p><img alt="Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago" src="../../../_images/smart-search-window-of-the-process-create-from-the-payment-selection.png" /></p>
+<p>Imagen 11. Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago</p>
+</div></blockquote>
+<p>Los campos a visualizar en el smart browser son los siguientes:</p>
+<blockquote>
+<div><p>Campo “<strong>Selección de Pago</strong>”, permite filtrar la búsqueda por la orden de pago previamente realizada. Para este caso seleccione el criterio de búsqueda “<strong>Selección de Pago</strong>” para ubicar las “<strong>Orden de Pago</strong>” la cual tiene los documentos que necesitan ser cancelados.</p>
+<blockquote>
+<div><p>Al desplegar el campo “<strong>Selección de Pago</strong>” podrá observar las “<strong>Órdenes de Pago</strong>” qué se encuentran en estado completo, o también las “<strong>Órdenes de Pago</strong>” que los documentos que posee aún no se encuentran asociados en su totalidad con una orden “<strong>Selección de Pago</strong>” ya que dependiendo de la forma de pago y el saldo con el que cuente el banco asociado a la selección de pago en la ventana padre se decide cuales son los documentos que serán cancelados por ese banco.</p>
+<p><img alt="Campo Selección de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago" src="../../../_images/payment-selection-field-of-the-smart-search-window-of-the-create-from-payment-selection-process.png" /></p>
+<p>Imagen 12. Campo Selección de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago</p>
+</div></blockquote>
+<p>Campo “<strong>Socio del Negocio</strong>”, permite filtrar la búsqueda por el socio del negocio seleccionado.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago" src="../../../_images/business-partner-field-of-the-smart-search-window-of-the-create-from-payment-selection-process.png" /></p>
+<p>Imagen 13. Campo Socio del Negocio de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago</p>
+</div></blockquote>
+<p>Campo “<strong>Factura</strong>”, permite filtrar la búsqueda por la factura previamente realizada.</p>
+<blockquote>
+<div><p>Es decir al colocar una factura en específico en el campo “<strong>Factura</strong>”, ADempiere traerá la <strong>“Orden de Pago”</strong> que ese asociada a esa factura.</p>
+<p><img alt="Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago" src="../../../_images/invoice-field-in-the-smart-search-window-of-the-create-from-payment-selection-process.png" /></p>
+<p>Imagen 14. Campo Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago</p>
+</div></blockquote>
+<p>Campo “<strong>Regla de Pago</strong>”, permite filtrar la búsqueda de los documentos que posean la regla de pago seleccionada y que se encuentren asociada a una <strong>“Orden de Pago”</strong>.</p>
+<blockquote>
+<div><p><img alt="Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago" src="../../../_images/payment-rule-field-of-the-smart-search-window-of-the-create-from-payment-selection-process.png" /></p>
+<p>Imagen 15. Campo Regla de Pago de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago</p>
+</div></blockquote>
+<p>Campo “<strong>Orden de Venta</strong>”, permite filtrar la búsqueda por la orden de venta previamente realizada.</p>
+<blockquote>
+<div><p>Es decir al colocar una orden en específico en el campo “<strong>Orden de Venta</strong>”, ADempiere traerá las ordenes que se encuentren asociada a una <strong>“Orden de Pago”</strong>.</p>
+<p><img alt="Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago" src="../../../_images/sales-order-field-of-the-intelligent-search-window-of-the-process-create-from-the-payment-selection.png" /></p>
+<p>Imagen 16. Campo Orden de Venta de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago</p>
+</div></blockquote>
+<p>Campo “<strong>Cargo</strong>”, permite filtrar la búsqueda por el cargo previamente seleccionado en la factura.</p>
+<blockquote>
+<div><p><img alt="Campo Cargo de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago" src="../../../_images/charge-field-of-the-smart-search-window-of-the-process-create-from-the-payment-selection.png" /></p>
+<p>Imagen 17. Campo Cargo de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago</p>
+</div></blockquote>
+</div></blockquote>
+<p>Dependiendo del criterio de búsqueda seleccionado tilde la opción “<strong>Comenzar Búsqueda</strong>”, para ubicar los documentos los cuales pertenecerán a la selección de pagos para ser cancelados.</p>
+<blockquote>
+<div><p><img alt="Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago" src="../../../_images/option-start-search-of-the-intelligent-search-window-of-the-process-create-from-the-payment-selection.png" /></p>
+<p>Imagen 18. Opción Comenzar Búsqueda de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago</p>
+</div></blockquote>
+<p>Al tildar la opción “<strong>Comenzar Búsqueda</strong>”, se desplegará en la parte inferior de la ventana los documentos asociados a la “<strong>Orden de Pagos</strong>” seleccionada anteriormente.</p>
+<blockquote>
+<div><p><img alt="Listado de Documento por Pagar de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago" src="../../../_images/list-of-documents-payable-from-the-intelligent-search-window-of-the-create-from-payment-selection-process.png" /></p>
+<p>Imagen 19. Listado de Documento por Pagar de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago</p>
+</div></blockquote>
+<p>Seleccione los documentos que deseen asociar a la “<strong>Selección de Pago</strong>”.</p>
+<blockquote>
+<div><p>La selección de los documentos dependerá de la toma de decisión que tenga el personal de tesorería, ya que dependiendo del banco asociado a la selección de pago ellos sabrán qué documentos podrán ser cancelados por ese banco y la regla de pago con la que contará ya que estos deben ser agrupados sí los pagos serán por transferencia solo se deben seleccionar los documentos que se les generarán los pagos por transferencia (Débito Directo) sí en tal caso serán cancelados por cheques deben ser seleccionado solo los que serán cancelados por esa regla de pago; si los documentos asociados a la “<strong>Orden de Pago</strong>” no son seleccionados en su totalidad para esta selección de pago, estos pueden ser asociados en otra seleccion de pago.</p>
+<p><img alt="Seleccionar Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago" src="../../../_images/select-invoice-from-the-intelligent-search-window-of-the-process-create-from-payment-selection.png" /></p>
+<p>Imagen 20. Seleccionar Factura de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para cargar a la pestaña “<strong>Línea de Selección de Pago</strong>” la información de la solicitud de pago realizada anteriormente.</p>
+<blockquote>
+<div><p><img alt="Opción OK de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago" src="../../../_images/ok-option-in-the-smart-search-window-of-the-create-from-payment-selection-process.png" /></p>
+<p>Imagen 21. Opción OK de la Ventana de Búsqueda Inteligente del Proceso Crear desde la Selección de Pago</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Refrescar</strong>”, ubicado en la barra de herramientas de ADempiere para refrescar la ventana y pueda visualizar la información cargada desde la opción “<strong>Crear Desde Selección de Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Refrescar del Documento Registro desde Selección de Pago" src="../../../_images/refresh-icon-of-the-document-registration-from-payment-selection.png" /></p>
+<p>Imagen 22. Icono Refrescar del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Línea de Selección de Pago</strong>”, para verificar que la información cargada desde la opción “<strong>Crear Desde Selección de Pago</strong>” sea correcta.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de Selección de Pago del Documento Registro desde Selección de Pago" src="../../../_images/payment-selection-line-tab-of-the-document-registration-from-payment-selection.png" /></p>
+<p>Imagen 23. Pestaña Línea de Selección de Pago del Documento Registro desde Selección de Pago</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>En la pestaña “<strong>Línea de Selección de Pago</strong>” deberán aparecer las misma cantidad de los documentos  seleccionadas desde la opción “<strong>Crear Desde Selección de Pago</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Podrá observar que en cada registro de la pestaña “<strong>Línea de Selección de Pago</strong>” aparecerán las siguientes características:</p>
+<blockquote>
+<div><p>Campo “<strong>Selección de Pago</strong>” debe aparecer el número de la selección de pago con la que se está trabajando, este número es el número de documento de la selección de pago.</p>
+<p>Campo “<strong>No. Línea</strong>” este campo define el número de línea de cada registro asociado a la pestaña “<strong>Lńea Selección de Pago</strong>”, cada número de línea va incrementando de 10 en 10, es decir que sí existen 3 registros asociados en la pestaña, cada registro debe estar en 10, 20 y 30.</p>
+<p>Campo “<strong>Descripción</strong>” este campo puede ser utilizado si se requiere dar una descripción en el registro de la línea.</p>
+<p>Checklist “<strong>Activo</strong>” esté check indica si el registro de la línea está activo o no.</p>
+<p>En el campo “<strong>Socio del Negocio</strong>” debe aparecer el socio de negocio del documento que se encuentra asociada al registro de la línea.</p>
+<blockquote>
+<div><p><img alt="Socio de Negocio del Documento Registro desde Selección de Pago" src="../../../_images/business-partner-of-document-registration-from-payment-selection.png" /></p>
+<p>Imagen 24. Socio de Negocio del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>Sí el documentos asociado pertenece a una factura en el campo <strong>“Factura”</strong> debe aparecer el número del documento de la factura seleccionada desde opción “<strong>Crear Desde Selección de Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="Factura Cuentas por Pagar del Documento Registro desde Selección de Pago" src="../../../_images/invoice-accounts-payable-of-the-document-registration-from-payment-selection.png" /></p>
+<p>Imagen 25. Factura Cuentas por Pagar del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>Sí el documentos asociado pertenece a una orden de compra en el campo <strong>“Orden de Compra”</strong> debe aparecer el número del documento de la orden seleccionada desde opción “<strong>Crear Desde Selección de Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="Orden de Compra del Documento Registro desde Selección de Pago" src="../../../_images/purchase-order-of-the-registration-document-from-payment-selection.png" /></p>
+<p>Imagen 26.  Orden de Compra del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>En el campo “<strong>Regla de Pago</strong>” se debe seleccionar la regla de pago con la que se emitirá el pago al proveedor.</p>
+<blockquote>
+<div><p>ADempiere cuenta cuenta con cinco (5) reglas de pagos, las cuales debe ser utilizadas de las siguientes manera:</p>
+<p>Para lo pagos que serán generados a través de transferencia bancarias se deben tildar las siguientes reglas de pago:</p>
+<ul class="simple">
+<li><p>A crédito.</p></li>
+<li><p>Débito directo.</p></li>
+<li><p>Depósito directo.</p></li>
+</ul>
+<p>Para los pagos que serán generados a través de cheques o tarjetas se deben utilizar las siguientes reglas de pago:</p>
+<ul class="simple">
+<li><p>A crédito.</p></li>
+<li><p>Cheque.</p></li>
+<li><p>Tarjeta de crédito.</p></li>
+</ul>
+<p>En una “<strong>Selección de Pagos de Cuentas por Pagar</strong>” no se pueden mezclar los métodos de pagos es decir, si los pagos a realizar son solo transferencia bancaria solamente se deben seleccionar los documentos que se les realizará  los pagos por transferencia bancaria y asociar las reglas de pagos correspondientes, si los pagos a generar son a través de cheques o tarjetas sólo se deben crear una selección de pagos para este método de pago,  no se pueden asociar asociar un método de pago de transferencia con cheques ya que esto alteraría el proceso de <a class="reference internal" href="../print-export/print-export.html#documento-imprimir-exportar"><span class="std std-ref">Registro de Imprimir / Exportar Pagos</span></a></p>
+<p><img alt="Regla de Pago del Documento Registro desde Selección de Pago" src="../../../_images/payment-rule-of-the-registration-document-from-payment-selection.png" /></p>
+<p>Imagen 27. Regla de Pago del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>El Checklist “<strong>Anticipo</strong>” aparecerá tildado cuando el documento que se encuentre en la línea sea una orden de compra, de lo contrario no aparecerá tildado.</p>
+<blockquote>
+<div><p><img alt="Checklist Anticipo del Documento Registro desde Selección de Pago" src="../../../_images/checklist-advance-document-registration-from-payment-selection.png" /></p>
+<p>Imagen 28. Checklist Anticipo del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>En el campo “<strong>Total del Pago</strong>” debe aparecer el monto a pagar del documento asociado a la línea, el monto a mostrar es el mismo que fue establecido en la “<strong>Orden de Pago</strong>”</p>
+<blockquote>
+<div><p><img alt="Total de Pago del Documento Registro desde Selección de Pago" src="../../../_images/total-payment-of-the-registration-document-from-payment-selection.png" /></p>
+<p>Imagen 29. Total de Pago del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>En el campo “<strong>Total Abierto</strong>” debe aparecer el total abierto que tiene la factura, si la factura ha sido pagada de manera parcial el total pendiente por pagar aparecerá en este campo.</p>
+<blockquote>
+<div><p><img alt="Total de Abierto del Documento Registro desde Selección de Pago" src="../../../_images/open-total-of-the-registration-document-from-payment-selection.png" /></p>
+<p>Imagen 30. Total de Abierto del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>En el campo “<strong>Diferencia monto</strong>” debe aparecer la diferencia que pueda tener una factura entre el total abierto y el total a pagar.</p>
+<blockquote>
+<div><p><img alt="Diferencia Monto del Documento Registro desde Selección de Pago" src="../../../_images/difference-amount-of-registration-document-from-payment-selection.png" /></p>
+<p>Imagen 31. Diferencia Monto del Documento Registro desde Selección de Pago</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El resultado o valor a mostrar en este campo dependerá de los valores colocados en el campo “<strong>Total del Pago</strong>” y “<strong>Total Abierto</strong>”, si los valores de saldo en ambos campos son iguales este campo debe estar en cero (0).</p>
+</div>
+</div></blockquote>
+</div></blockquote>
+<p>Una verificado los documentos seleccionadas desde la opción “<strong>Crear Desde Selección de Pago</strong>” estén en la pestaña “<strong>Línea de Selección de Pago</strong>” se puede completar la “<strong>Selección de Pago</strong>” para ello regrese a la ventana principal “<strong>Selección de Pago</strong>” .</p>
+<p>Ubique al finalizar la ventana en el grupo de campo “<strong>Estado</strong>” y el botón que debe tener por nombre “<strong>Completar</strong>”</p>
+<blockquote>
+<div><p><img alt="Grupo de Estado del Documento Registro desde Selección de Pago" src="../../../_images/document-status-group-registration-from-payment-selection.png" /></p>
+<p>Imagen 32. Grupo de Estado del Documento Registro desde Selección de Pago</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El nombre del botón cambiará dependiendo del estado en el que se encuentre el documento si el documento se encuentra en estado “<strong>Borrador</strong>”  la acción a mostrar en el botón es “<strong>Completar</strong>” caso que se está aplicando para este documento, si el estado del documento está en estado “<strong>Completo</strong>” el botón cambiará su nombre a la  siguiente acción que se pueda aplicar en el documento.</p>
+</div>
+</div></blockquote>
+<p>Dar click a botón “<strong>Completar</strong>” y tildar “<strong>Ok</strong>” para la acción de documento seleccionada.</p>
+<blockquote>
+<div><p><img alt="Botón Completar del Documento Registro desde Selección de Pago" src="../../../_images/button-complete-document-payment-order-from-order.png" /></p>
+<p>Imagen 33. Botón Completar del Documento Registro desde Selección de Pago</p>
+</div></blockquote>
+<p>Al aplicar esta acción “<strong>Completar</strong>” el documento pasará a esta completo y este no podrá ser modificado.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Es muy importante tener en cuenta que todo documento transaccional una vez se culmine con el llenado de los datos debe ser completado, para que ADempiere tome como válido los datos cargados en el documento.</p>
+</div>
+<p>Hasta este punto llegaría el registro y la definición de los documentos que serán cancelados a través de una  “<strong>Selección de Pago</strong>”, este paso a pesar de que se complete no garantiza que los pagos se han generados, para poder generar los pagos correspondientes a cada uno de los documentos asociados se necesita completar el procedimiento <a class="reference internal" href="../print-export/print-export.html#documento-imprimir-exportar"><span class="std std-ref">Registro de Imprimir / Exportar Pagos</span></a></p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../print-export/index.html" class="btn btn-neutral float-right" title="Imprimir / Exportar Pagos" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="payment-selection-payroll.html" class="btn btn-neutral float-left" title="Registro desde Nómina" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

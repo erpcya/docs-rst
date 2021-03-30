@@ -1,0 +1,568 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Orden de Compra Multimoneda &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Documento por Pagar" href="../invoice/index.html" />
+    <link rel="prev" title="Registro de Orden de Compra Directa" href="direct-order/purchase-order.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Compras</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../request-for-quotation/index.html"><strong>Solicitud de Cotización a Proveedor</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../requisition/index.html"><strong>Requisición a Compra</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Órdenes de Compra</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="create-purchase-orders-from-requisitions/index.html"><strong>Crear Orden de Compra desde Requisición</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="direct-order/index.html"><strong>Orden de Compra Directa</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Orden de Compra Multimoneda</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../invoice/index.html"><strong>Documento por Pagar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../material-receipt/index.html"><strong>Recepción de Productos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../assign-purchase-order-receipt-invoice.html"><strong>Asignación de Factura a Recepción</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../credit-note-cxp.html"><strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../debit-note-cxp.html"><strong>Nota de Débito</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Compras</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Órdenes de Compra</strong></a> &raquo;</li>
+        
+      <li><strong>Orden de Compra Multimoneda</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/requisition-to-invoice/purchase-order/multi-currency-purchase-order.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="orden-de-compra-multimoneda">
+<span id="documento-orden-de-compra-multimoneda"></span><h1><strong>Orden de Compra Multimoneda</strong><a class="headerlink" href="#orden-de-compra-multimoneda" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione la ventana “<strong>Órdenes de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de orden de compra multimoneda" src="../../../_images/multi-currency-purchase-order-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>” en la barra de herramientas de ADempiere para crear un nuevo documento.</p>
+<blockquote>
+<div><p><img alt="icono de registro nuevo orden multimoneda" src="../../../_images/register-icon-new-multi-currency-order.png" /></p>
+<p>Imagen 2. Registro Nuevo</p>
+<p>Seleccione en el campo “<strong>Organización</strong>”, el nombre de la organización de la cual se está emitiendo el documento “<strong>Orden de Compra Multimoneda</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo organización orden multimoneda" src="../../../_images/organization-field-multi-currency-order.png" /></p>
+<p>Imagen 3. Campo Organización</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>El valor en el campo organización debe ser diferente del símbolo (*) ya que éste símbolo hace referencia a todas las Organizaciones.</p>
+</div>
+</div></blockquote>
+<p>En el campo “<strong>No. de Documento</strong>”, no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de orden de compra multimoneda.</p>
+<blockquote>
+<div><p><img alt="campo número del documento orden multimoneda" src="../../../_images/multi-currency-order-document-number-field.png" /></p>
+<p>Imagen 4. Campo No. del Documento</p>
+</div></blockquote>
+<p>En el campo “<strong>Descripción</strong>”, Puede introduzca una breve descripción referente a la orden de compra multimoneda que se está realizando, este campo es opcional.</p>
+<blockquote>
+<div><p><img alt="campo descripción orden multimoneda" src="../../../_images/field-description-multi-currency-order.png" /></p>
+<p>Imagen 5. Campo Descripción</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar, en el campo “<strong>Tipo de Documento Destino</strong>”, la selección de éste define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra definido en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p>Para realizar una orden de compra multimoneda, puede ser utilizado cualquier tipo de documento de orden de compra.</p>
+<p><img alt="campo tipo de documento destino orden multimoneda" src="../../../_images/destination-document-type-field-multi-currency-order.png" /></p>
+<p>Imagen 6. Campo Tipo de Documento Destino</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de la Orden</strong>”, la fecha de elaboración del documento “<strong>Orden de Compra Multimoneda</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo fecha de la orden multimoneda" src="../../../_images/date-field-of-the-multi-currency-order.png" /></p>
+<p>Imagen 7. Campo Fecha de la Orden</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Prometida</strong>”, la fecha de entrega de la orden, prometida por el proveedor.</p>
+<blockquote>
+<div><p><img alt="campo fecha prometida orden multimoneda" src="../../../_images/multicurrency-order-promised-date-field.png" /></p>
+<p>Imagen 8. Campo Fecha Prometida</p>
+</div></blockquote>
+<p>En el campo “<strong>Socio del Negocio</strong>”, debe seleccionar el nombre del socio del negocio (proveedor) al que se le emite el documento “<strong>Orden de Compra Multimoneda</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio orden multimoneda" src="../../../_images/field-business-partner-multi-currency-order.png" /></p>
+<p>Imagen 9. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio a Facturar</strong>”, el socio del negocio a facturar.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio a facturar orden multimoneda" src="../../../_images/business-partner-field-to-invoice-multi-currency-order.png" /></p>
+<p>Imagen 10. Campo Socio de Negocio a Facturar</p>
+</div></blockquote>
+<p>Si el socio de negocio, tiene más de una dirección registrada, debe seleccionar la dirección del socio del negocio, caso contrario, si posee dirección única, esta información se refleja automáticamente en el campo “<strong>Dirección del Socio del Negocio</strong>” una vez haya seleccionado el nombre del socio de negocio.</p>
+<blockquote>
+<div><p><img alt="campo dirección del socio del negocio orden multimoneda" src="../../../_images/business-partner-address-field-multi-currency-order.png" /></p>
+<p>Imagen 11. Campo Dirección del Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>*Dirección Factura</strong>”, la dirección del socio del negocio para la factura.</p>
+<blockquote>
+<div><p><img alt="campo dirección factura orden multimoneda" src="../../../_images/multi-currency-order-invoice-address-field.png" /></p>
+<p>Imagen 12. Campo Dirección Factura</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Usuario</strong>”, el usuario del socio del negocio seleccionado.</p>
+<blockquote>
+<div><p><img alt="campo usuario orden multimoneda" src="../../../_images/user-field-multi-currency-order.png" /></p>
+<p>Imagen 13. Campo Usuario</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Contacto Entrega Directa</strong>”, el usuario de contacto para la entrega directa.</p>
+<blockquote>
+<div><p><img alt="campo contacto entrega directa orden multimoneda" src="../../../_images/field-contact-direct-delivery-multi-currency-order.png" /></p>
+<p>Imagen 14. Campo Contacto Entrega Directa</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Almacén</strong>”, el almacén en el cual se requiere el producto o servicio</p>
+<blockquote>
+<div><p><img alt="campo almacén orden multimoneda" src="../../../_images/warehouse-field-multi-currency-order.png" /></p>
+<p>Imagen 15. Campo Almacén</p>
+</div></blockquote>
+<p>Seleccione el check “<strong>Entrega Directa</strong>”, que indica que el proveedor realizará la entrega directamente al cliente.</p>
+<blockquote>
+<div><p>La selección de este check es obligatoria y permite generar un documento por pagar (factura), en una moneda diferente a la moneda de la orden de compra.</p>
+<p><img alt="check entrega directa orden multimoneda" src="../../../_images/check-direct-delivery-multi-currency-order.png" /></p>
+<p>Imagen 16. Check Entrega Directa</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>De no ser tildado el check “<strong>Entrega Directa</strong>”, no se podrá generar un documento por pagar (factura) con una moneda diferente a la moneda con la que fue realizada la orden de compra.</p>
+</div>
+<p>Al tildar el check “<strong>Entrega Directa</strong>”, se habilitan los siguientes campos</p>
+<p>Seleccione en el campo “<strong>Socio del Negocio Entrega Directa</strong>”, el socio del negocio al cual serán entregados los productos incluidos en la orden.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio entrega directa orden multimoneda" src="../../../_images/field-business-partner-direct-delivery-multi-currency-order.png" /></p>
+<p>Imagen 17. Campo Socio del Negocio Entrega Directa</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Dirección Entrega Directa</strong>”, la dirección de localización del socio para la entrega.</p>
+<blockquote>
+<div><p><img alt="campo dirección entrega directa orden multimoneda" src="../../../_images/direct-delivery-address-field-multi-currency-order.png" /></p>
+<p>Imagen 18. Campo Dirección Entrega Directa</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Contacto Entrega Directa</strong>”, el usuario de contacto del socio para la entrega.</p>
+<blockquote>
+<div><p><img alt="campo contacto para entrega directa orden multimoneda" src="../../../_images/contact-field-for-direct-delivery-multi-currency-order.png" /></p>
+<p>Imagen 19. Campo Contacto Entrega Directa</p>
+</div></blockquote>
+</div></blockquote>
+<p>En el campo seleccionable “<strong>Vía de Entrega</strong>”, debe seleccionar la opción que indique, de qué manera serán entregados los productos o servicios de la orden.</p>
+<blockquote>
+<div><p><img alt="campo vía de entrega orden multimoneda" src="../../../_images/field-multi-currency-order-delivery-route.png" /></p>
+<p>Imagen 20. Campo Vía de Entrega</p>
+</div></blockquote>
+<p>En el campo seleccionable “<strong>Regla de Costo de Flete</strong>”, debe seleccionar la regla para cargar los costos del flete, por lo general se establece: Flete Incluido.</p>
+<blockquote>
+<div><p><img alt="campo regla de costo de flete orden multimoneda" src="../../../_images/freight-cost-rule-field-multicurrency-order.png" /></p>
+<p>Imagen 21. Campo Regla de Costo de Flete</p>
+</div></blockquote>
+<p>Seleccione la prioridad de la orden en el campo “<strong>Prioridad</strong>”, este campo indica la urgencia de los productos o servicios que se están ordenando en el documento, sin embargo, el documento trae predeterminado la opción “<strong>Media</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo prioridad orden multimoneda" src="../../../_images/priority-field-multi-currency-order.png" /></p>
+<p>Imagen 22. Campo Prioridad</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios con la cual será generada la orden de compra.</p>
+<blockquote>
+<div><p>Por tratarse de una orden de compra multimoneda, la lista de precios que se debe seleccionar debe ser “<strong>Compras (USD)</strong>” o “<strong>Compras (EUR)</strong>”. Esta determina el precio, margen y costo de los artículos comprados.</p>
+<p><img alt="campo lista de precios orden multimoneda" src="../../../_images/multicurrency-order-price-list-field.png" /></p>
+<p>Imagen 23. Campo Lista de Precios</p>
+</div></blockquote>
+<p>El valor en el campo “<strong>Moneda</strong>”, dependerá de la lista de precios seleccionada en el campo “<strong>Lista de Precios</strong>”.</p>
+<blockquote>
+<div><p>El campo se encuentra solo lectura por lo que su valor solo puede ser modificado cambiando la lista de precios para establecer en el mismo, cualquier moneda extranjera que sea utilizada por la compañía para realizar este tipo de compras..</p>
+<p><img alt="campo moneda orden multimoneda" src="../../../_images/currency-field-multi-currency-order.png" /></p>
+<p>Imagen 24. Campo Moneda</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Conversión</strong>”, el tipo de conversión con el cual fue negociada la compra con el proveedor.</p>
+<blockquote>
+<div><p><img alt="campo tipo de conversión orden multimoneda" src="../../../_images/field-type-of-conversion-multi-currency-order.png" /></p>
+<p>Imagen 25. Campo Tipo de Conversión</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que debe tener creado el tipo de conversión con su respectiva tasa de conversión antes de completar el proceso. Si desconoce el procedimiento, puede consultar el material <a class="reference internal" href="../../performance-analysis/currency-conversion/currency-conversion.html#documento-conversion-monetaria"><span class="std std-ref">Conversión Manual</span></a>, el mismo explica de manera detallada los procesos a realizar para crear un <a class="reference internal" href="../../performance-analysis/currency-conversion/currency-conversion.html#paso-crear-conversion"><span class="std std-ref">Tipo de Conversión</span></a>, su <a class="reference internal" href="../../performance-analysis/currency-conversion/currency-conversion.html#paso-crear-tasa-desde-ventana-moneda"><span class="std std-ref">Tasa de Conversión desde la Ventana Moneda</span></a> y su <a class="reference internal" href="../../performance-analysis/currency-conversion/currency-conversion.html#paso-crear-tasa-desde-ventana-tasa-de-cambio"><span class="std std-ref">Tasa de Conversión desde la Ventana Tasa de Cambio</span></a>.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Agente Compañía</strong>”, el agente de compras para el documento.</p>
+<blockquote>
+<div><p><img alt="campo agente compañía orden multimoneda" src="../../../_images/multi-currency-order-company-agent-field.png" /></p>
+<p>Imagen 26. Campo Agente Compañía</p>
+</div></blockquote>
+<p>Seleccione el check “<strong>Imprimir Descuento</strong>”, para imprimir el descuento en la factura y la orden.</p>
+<blockquote>
+<div><p><img alt="check imprimir descuento orden multimoneda" src="../../../_images/check-print-discount-multi-currency-order.png" /></p>
+<p>Imagen 27. Check Imprimir Descuento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Término de pago</strong>”, las condiciones, método y tiempo de pago de la compra.</p>
+<blockquote>
+<div><p><img alt="campo término de pago orden multimoneda" src="../../../_images/multi-currency-order-payment-term-field.png" /></p>
+<p>Imagen 28. Campo Término de Pago</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de la ventana, seleccionando el icono “<strong>Guardar</strong>” ubicado en la barra de herramientas, una vez guardado el nuevo registro, podrá avanzar a la pestaña “<strong>Línea Orden Compra</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Línea Orden Compra</strong>” y proceda al llenado de los campos seleccionando el producto o servicio a ordenar. Si la orden de compra contiene varios productos, el campo “<strong>Nro. de Línea</strong>””, indicará el orden y despliegue de los mismos dentro del documento. Una vez que guarde el primer producto, deberá seleccionar el icono “<strong>Registro Nuevo</strong>”, incrementando así el número de líneas por productos en el documento.</p>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Los campos “<strong>Compañía</strong>”, “<strong>Organización</strong>”, “<strong>Orden de Compra</strong>”, “<strong>Socio del Negocio</strong>” y “<strong>Dirección del Socio del Negocio</strong>”, vienen precargados de la ventana principal “<strong>Orden de Compra</strong>”.</p>
+</div>
+<p><img alt="línea de la orden de compra orden multimoneda" src="../../../_images/purchase-order-line-multi-currency-order.png" /></p>
+<p>Imagen 29. Línea Orden Compra</p>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto correspondiente a la orden de compra que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo producto orden multimoneda" src="../../../_images/product-field-multi-currency-order.png" /></p>
+<p>Imagen 30. Campo Producto</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Cantidad</strong>”, la cantidad del producto seleccionado.</p>
+<blockquote>
+<div><p><img alt="campo cantidad orden multimoneda" src="../../../_images/multi-currency-order-quantity-field.png" /></p>
+<p>Imagen 31. Campo Cantidad</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Unidad de Medida</strong>”, la unidad de medida del producto seleccionado.</p>
+<blockquote>
+<div><p>Esta unidad de medida puede ser unidad, gramos, kilos, toneladas, entre otras.</p>
+<p><img alt="campo unidad de medida orden multimoneda" src="../../../_images/field-unit-of-measure-multi-currency-order.png" /></p>
+<p>Imagen 32. Campo Unidad de Medida</p>
+</div></blockquote>
+<p>En el campo “<strong>Cantidad Ordenada</strong>”, se indica la cantidad ordenada del producto seleccionado.</p>
+<blockquote>
+<div><p>Este campo toma de manera automática, el valor ingresado en el campo “<strong>Cantidad</strong>”.</p>
+<p><img alt="campo cantidad ordenada orden multimoneda" src="../../../_images/ordered-quantity-field-multi-currency-order.png" /></p>
+<p>Imagen 33. Campo Cantidad Ordenada</p>
+</div></blockquote>
+<p>En el campo “<strong>Cantidad Entregada</strong>”, se indica la cantidad del producto que ha sido recepcionada.</p>
+<blockquote>
+<div><p>Este campo estará en cero (0), hasta que sea generado un documento de recepción con dicho producto, asociando la orden de compra.</p>
+<p><img alt="campo cantidad entregada orden multimoneda" src="../../../_images/field-quantity-delivered-multi-currency-order.png" /></p>
+<p>Imagen 34. Campo Cantidad Entregada</p>
+</div></blockquote>
+<p>En el campo “<strong>Cantidad Reservada</strong>”, se indica la cantidad del producto que ha sido reservado para otras órdenes.</p>
+<blockquote>
+<div><p><img alt="campo cantidad reservada orden multimoneda" src="../../../_images/reserved-quantity-field-multi-currency-order.png" /></p>
+<p>Imagen 35. Campo Cantidad Reservada</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cantidad Facturada</strong>, la cantidad de un producto que ha sido facturado.</p>
+<blockquote>
+<div><p>Este campo estará en cero (0), hasta que sea generado un documento de cuentas por pagar (factura) con dicho producto, asociando la orden de compra.</p>
+<p><img alt="campo cantidad facturada orden multimoneda" src="../../../_images/field-quantity-invoiced-multi-currency-order.png" /></p>
+<p>Imagen 36. Campo Cantidad Facturada</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Precio</strong>”, el precio del producto seleccionado.</p>
+<blockquote>
+<div><p>Este precio está basado en la unidad de medida del producto, lo que quiere decir, que si el producto seleccionado tiene unidad de medida “<strong>Caja</strong>” y dicha caja contiene seis (6) unidades,ADempiere tomará el precio ingresado como precio de la caja y no como precio de cada unidad que compone la caja.</p>
+<p><img alt="campo precio orden multimoneda" src="../../../_images/multi-currency-order-price-field.png" /></p>
+<p>Imagen 37. Campo Precio</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Precio de Costo</strong>”, el precio de costo del producto seleccionado.</p>
+<blockquote>
+<div><p>Este precio indica el precio por unidad de medida, incluyendo todos los costos (fletes, traslados, entre otros)</p>
+<p><img alt="campo precio costo orden multimoneda" src="../../../_images/multi-currency-order-cost-price-field.png" /></p>
+<p>Imagen 38. Campo Precio Costo</p>
+</div></blockquote>
+<p>En el campo “<strong>Precio Actual</strong>”, se indica el precio para un producto en la moneda fuente.</p>
+<blockquote>
+<div><p><img alt="campo precio actual orden multimoneda" src="../../../_images/current-price-field-multi-currency-order.png" /></p>
+<p>Imagen 39. Campo Precio Actual</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Precio Lista</strong>”, el precio de lista oficial en la moneda del documento.</p>
+<blockquote>
+<div><p><img alt="campo precio lista orden multimoneda" src="../../../_images/price-field-multi-currency-order-list.png" /></p>
+<p>Imagen 40. Campo Precio Lista</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Impuesto</strong>”, el tipo de impuesto para esta línea del documento.</p>
+<blockquote>
+<div><p><img alt="campo impuesto orden multimoneda" src="../../../_images/multi-currency-order-tax-field.png" /></p>
+<p>Imagen 41. Campo Impuesto</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descuento</strong>”, el descuento aplicado o tomado como un porcentaje.</p>
+<blockquote>
+<div><p><img alt="campo descuento orden multimoneda" src="../../../_images/multi-currency-order-discount-field.png" /></p>
+<p>Imagen 42. Campo Descuento</p>
+</div></blockquote>
+<p>En el campo “<strong>Neto de Línea</strong>”, se indica el total neto de la línea basado en la cantidad y el precio actual. Cualquier cargo adicional o flete no es incluido.</p>
+<blockquote>
+<div><p><img alt="campo neto de línea orden multimoneda" src="../../../_images/net-field-of-multicurrency-order-line.png" /></p>
+<p>Imagen 43. Campo Neto de Línea</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de la pestaña “<strong>Línea Orden Compra</strong>” con el icono “<strong>Guardar</strong>” de la barra de herramientas de ADempiere, antes de cambiar a la ventana principal “<strong>Orden de Compra</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Regrese a la pestaña principal “<strong>Orden de Compra</strong>” y seleccione la opción “<strong>Completar</strong>” ubicada en la parte inferior derecha del documento.</p>
+<blockquote>
+<div><p><img alt="opción completar orden multimoneda" src="../../../_images/option-complete-multi-currency-order.png" /></p>
+<p>Imagen 44. Pestaña Principal Orden de Compra y Opción Completar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”.</p>
+<blockquote>
+<div><p><img alt="acción completar y opción ok orden multimoneda" src="../../../_images/action-complete-and-option-ok-multi-currency-order.png" /></p>
+<p>Imagen 45. Acción Completar y Opción OK</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../invoice/index.html" class="btn btn-neutral float-right" title="Documento por Pagar" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="direct-order/purchase-order.html" class="btn btn-neutral float-left" title="Registro de Orden de Compra Directa" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

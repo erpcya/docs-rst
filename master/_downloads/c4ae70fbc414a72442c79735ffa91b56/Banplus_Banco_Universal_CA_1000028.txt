@@ -1,0 +1,5 @@
+J000000000;0174000000000000000;4;1850000000;20201007;1000028
+01;0000000;Proveedor Estndar;01340000000000000000;400000000;0;estandar@ejmplo.com;SI
+04;20000303;Servicio Nacional Integrado de Administr;01020000000000000000;600000000;1;seniat@ejemplo.com;SI
+04;29759907;Bolivariana de Puertos  ( Bolipuertos)  ;01740000000000000000;500000000;2;bolipuertos@ejemplo.com;SI
+04;00244373;Dhl Express Aduanas Venezuela CA;01050000000000000000;350000000;3;dhl@ejemplo.com;SI

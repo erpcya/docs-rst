@@ -1,0 +1,727 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Banco Banesco &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../../" src="../../../../../_static/documentation_options.js"></script>
+        <script src="../../../../../_static/jquery.js"></script>
+        <script src="../../../../../_static/underscore.js"></script>
+        <script src="../../../../../_static/doctools.js"></script>
+        <script src="../../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../../search.html" />
+    <link rel="next" title="Banco Banplus" href="../banplus/banplus.html" />
+    <link rel="prev" title="Banco del Caribe" href="../bancaribe/bancaribe.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../../index.html"><strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../../human-resources/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../payroll/index.html"><strong>Gestión de Nóminas</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../../index.html"><strong>Gestión de Tesorería</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="../batch-payments.html"><strong>Extracto Bancario con Pagos en Lotes</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="../batch-payments.html#configuracion-esencial"><strong>Configuración Esencial</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="../batch-payments.html#generacion-de-archivo"><strong>Generación de Archivo</strong></a></li>
+<li class="toctree-l4 current"><a class="reference internal" href="../batch-payments.html#resultado-obtenido"><strong>Resultado Obtenido</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../../import/index.html"><strong>Gestión de Importación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../../withholding-management/index.html"><strong>Gestión de Retenciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><strong>Gestión de Tesorería</strong></a> &raquo;</li>
+        
+          <li><a href="../batch-payments.html"><strong>Extracto Bancario con Pagos en Lotes</strong></a> &raquo;</li>
+        
+      <li><strong>Banco Banesco</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../../_sources/lve/procedures/treasury-management/upload-bank-statement-to-bank/banesco/banesco.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="banco-banesco">
+<span id="documento-banco-banesco"></span><h1><strong>Banco Banesco</strong><a class="headerlink" href="#banco-banesco" title="Permalink to this headline">¶</a></h1>
+<p>Para la exportación de los archivos desde ADempiere al banco banesco, <a class="reference external" href="http://erpya.com">ERPyA</a> soporta los siguientes formatos facilitados por el banco, que pueden ser descargados para su análisis y adaptación.</p>
+<p>El banco cuenta con los documentos <a class="reference download internal" download="" href="../../../../../_downloads/3bec7e8e1c633d8aa75cf5125df89c31/Generacion_de_Archivos_de_Pagos.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Generación</span> <span class="pre">del</span> <span class="pre">Archivo</span> <span class="pre">de</span> <span class="pre">Pago</span> <span class="pre">(PAYMUL)</span> <span class="pre">Asociado</span> <span class="pre">Comercial</span></code></a> y <a class="reference download internal" download="" href="../../../../../_downloads/56754e66c858b103ebf317be5f671b22/ARCHIVOS_DE_PAGOS.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Archivos</span> <span class="pre">de</span> <span class="pre">Pagos</span></code></a>, que explican los formatos para la construcción el archivo a cargar.</p>
+<p>Adicional a ello, cuenta con el documento <a class="reference download internal" download="" href="../../../../../_downloads/cff46b3a214c1d7a289cfc2e90c630d4/Codigo_Swift_actualizado.xlsx"><code class="xref download docutils literal notranslate"><span class="pre">Código</span> <span class="pre">Swift</span> <span class="pre">Actualizado</span></code></a>, mismo que se puede visualizar de la siguiente manera, luego de descargarlo.</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 43%" />
+<col style="width: 14%" />
+<col style="width: 15%" />
+<col style="width: 12%" />
+<col style="width: 16%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" colspan="5"><p><strong>INSTITUCIONES FINANCIERAS VENEZOLANAS EN SWIFT</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p><strong>INSTITUCIÓN</strong></p></td>
+<td><p><strong>LOCALIDAD</strong></p></td>
+<td><p><strong>BIC*</strong></p></td>
+<td colspan="2"><p><strong>RELACION DE CORRESPONSALIA</strong></p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p><strong>(CODIGO SWIFT)</strong></p></td>
+<td><p><strong>CON CUENTA</strong></p></td>
+<td><p><strong>COSWIFT</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>Banesco Banco Universal</p></td>
+<td><p>Baruta</p></td>
+<td><p>UNIOVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>ABN-Amrobank</p></td>
+<td><p>Caracas</p></td>
+<td><p>ABNAVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Banco Canarias de Venezuela</p></td>
+<td><p>Caracas</p></td>
+<td><p>BOCAVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banco Caroní Banco Universal</p></td>
+<td><p>Caracas</p></td>
+<td><p>CAROVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Banco Central de Venezuela</p></td>
+<td><p>Caracas</p></td>
+<td><p>BCVEVECA</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banco de Comercio Exterior</p></td>
+<td><p>Caracas</p></td>
+<td><p>BCEVVECA</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Banco de Crédito de Colombia</p></td>
+<td><p>Caracas</p></td>
+<td><p>BCTOVECA</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banco de Desarrollo Económico y Social de Venezuela</p></td>
+<td><p>Caracas</p></td>
+<td><p>FIVVVECA</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Banco de Venezuela S.A.C.A., Grupo Santader</p></td>
+<td><p>Caracas</p></td>
+<td><p>BSCHVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banco del Caribe S.A.C.A.</p></td>
+<td><p>Caracas</p></td>
+<td><p>CARBVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Banco Exterior, C.A.</p></td>
+<td><p>Caracas</p></td>
+<td><p>BEXTVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banco Federal, C.A.</p></td>
+<td><p>Caracas</p></td>
+<td><p>BAFIVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Banco Industrial de Venezuela, C.A.</p></td>
+<td><p>Caracas</p></td>
+<td><p>INDSVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banco Mercantil C.A. Banco Universal</p></td>
+<td><p>Caracas</p></td>
+<td><p>BAMRVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Banco Nacional de Crédito, C.A.</p></td>
+<td><p>Caracas</p></td>
+<td><p>NCRTVECA</p></td>
+<td><p>NO</p></td>
+<td><p>NO</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banco Occidental de Descuento S.A.C.A.</p></td>
+<td><p>Maracaibo</p></td>
+<td><p>BODEVE2M</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Banco Plaza</p></td>
+<td><p>Caracas</p></td>
+<td><p>PLZAVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banco Provincial S.A. Banco Universal</p></td>
+<td><p>Caracas</p></td>
+<td><p>BPROVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Banco Standard Chartered Venezuela</p></td>
+<td><p>Caracas</p></td>
+<td><p>BSCVVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banco Tequendama Caracas</p></td>
+<td><p>Caracas</p></td>
+<td><p>BATEVECA</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Bolívar Banco, C.A.</p></td>
+<td><p>Caracas</p></td>
+<td><p>BLVRVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>C.A. Central Banco Universal</p></td>
+<td><p>Caracas</p></td>
+<td><p>CETLVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Citibank, Caracas</p></td>
+<td><p>New York-Caracas</p></td>
+<td><p>CITIUS33VEC</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Corp Banca C.A. Venezuela</p></td>
+<td><p>Caracas</p></td>
+<td><p>CONSVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Corporación Andina de Fomento</p></td>
+<td><p>Caracas</p></td>
+<td><p>CAFCVECA</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Eurobanco</p></td>
+<td><p>Caracas</p></td>
+<td><p>EUBNVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Fondo Común, C.A. Banco Universal</p></td>
+<td><p>Caracas</p></td>
+<td><p>REPBVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Nuevo Mundo Banco Comercial</p></td>
+<td><p>Caracas</p></td>
+<td><p>NMBCVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Total Bank Banco Comercial</p></td>
+<td><p>Caracas</p></td>
+<td><p>TTALVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Venezolano de Crédito S.A. Banco Universal</p></td>
+<td><p>Caracas</p></td>
+<td><p>VZCRVECA</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Banco de Coro, C.A.</p></td>
+<td><p>Coro</p></td>
+<td><p>COROVE2C</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banco Confederado, S.A.</p></td>
+<td><p>Porlamar</p></td>
+<td><p>CONDVECP</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Del Sur Banco Universal, C.A.</p></td>
+<td><p>Puerto Ordaz</p></td>
+<td><p>DSURVECP</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banco Sofitasa</p></td>
+<td><p>San Cristóbal</p></td>
+<td><p>SFTAVE22</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Banfoandes, C.A.</p></td>
+<td><p>San Cristóbal</p></td>
+<td><p>ANDSVECC</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Casa Propia, E.A.P. C.A.</p></td>
+<td><p>Barquisimeto</p></td>
+<td><p>PROPVECB</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Banco Nacional de Ahorro y Préstamo</p></td>
+<td><p>Caracas</p></td>
+<td><p>BNAPVECA</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banvalor Banco de Inversión, C.A.</p></td>
+<td><p>Caracas</p></td>
+<td><p>BVBIVECA</p></td>
+<td><p>NO</p></td>
+<td><p>NO</p></td>
+</tr>
+<tr class="row-even"><td><p>Caja de Venezolana de Valores, S.A.</p></td>
+<td><p>Caracas</p></td>
+<td><p>CVVCVECA</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Multiplicas Casa de Bolsa, C.A.</p></td>
+<td><p>Caracas</p></td>
+<td><p>LPRIVECA</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Pro-Vivienda Entidad de Ahorro y Prestamo, C.A.</p></td>
+<td><p>Caracas</p></td>
+<td><p>PVVDVECA</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td><p>Banco Guayana, C.A.</p></td>
+<td><p>Ciudad Guayana</p></td>
+<td><p>BGUAVECB</p></td>
+<td><p>SI</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-even"><td><p>Mi Casa, Entidad de Ahorro y Prestamo, C.A.</p></td>
+<td><p>Monagas</p></td>
+<td><p>MCSAVE22</p></td>
+<td><p>NO</p></td>
+<td><p>SI</p></td>
+</tr>
+<tr class="row-odd"><td colspan="5"><p><strong>* BIC = BANK IDENTIFIER CODE</strong></p></td>
+</tr>
+</tbody>
+</table>
+<div class="section" id="banesco-proveedores">
+<h2><strong>Banesco Proveedores</strong><a class="headerlink" href="#banesco-proveedores" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="archivo-para-pagos">
+<h3><strong>Archivo para Pagos</strong><a class="headerlink" href="#archivo-para-pagos" title="Permalink to this headline">¶</a></h3>
+<p>Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:</p>
+<ul class="simple">
+<li><p>Factura “<strong>1000122</strong>” al socio del negocio “<strong>Estándar</strong>” por monto total de “<strong>1.500.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000123</strong>” al socio del negocio “<strong>Estándar</strong>” por monto total de “<strong>2.525.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000124</strong>” al socio del negocio “<strong>Dhl Express Aduanas Venezuela C.A.</strong>” por monto total de “<strong>3.500.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000125</strong>” al socio del negocio “<strong>Bolivariana de Puertos  ( Bolipuertos)  S A</strong>” por monto total de “<strong>5.000.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000126</strong>” al socio del negocio “<strong>Servicio Nacional Integrado de Administración (SENIAT)</strong>” por monto total de “<strong>6.000.000,00</strong>”.</p></li>
+</ul>
+<p>Se obtiene como resultado del proceso “<strong>Imprimir /Exportar</strong>”, un documento en formato “<strong>.txt</strong>” con los detalles de los pagos a ser realizados desde el banco banesco a terceros en el mismo banco, así como también a terceros en otros bancos, el mismo se puede descargar en el enlace <a class="reference download internal" download="" href="../../../../../_downloads/7cb4ce8152b1b69390868183e60547ce/Banesco_Banco_Universal_CA_1000025.txt"><code class="xref download docutils literal notranslate"><span class="pre">Archivo</span> <span class="pre">de</span> <span class="pre">Pago</span> <span class="pre">de</span> <span class="pre">Proveedores</span> <span class="pre">del</span> <span class="pre">Banesco</span> <span class="pre">Banco</span> <span class="pre">Universal</span> <span class="pre">C.A.</span></code></a> y visualizar de la siguiente manera:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">HDRBANESCO</span>        <span class="n">ED</span>  <span class="mi">95</span><span class="n">BPAYMULP</span>
+<span class="mi">01</span><span class="n">SCV</span>                                <span class="mi">9</span>  <span class="mi">1000025</span>                            <span class="mi">20201006000000</span>
+<span class="mi">021000025</span>                       <span class="n">J000000000</span>       <span class="n">Compaa</span> <span class="n">Estndar</span>                     <span class="mi">000001852500000</span><span class="n">VES</span> <span class="mi">0134000000000000000</span>               <span class="n">BANESCO</span>    <span class="mi">20201006</span>
+<span class="mi">0300000000</span>                      <span class="mi">000000402500000</span><span class="n">VES01140000000000000000</span>          <span class="mi">0114</span>          <span class="n">V0000000</span>         <span class="n">Proveedor</span> <span class="n">Estndar</span>                                                     <span class="n">estandar</span><span class="nd">@ejmplo</span><span class="o">.</span><span class="n">com</span>                                                                                                                                                                                      <span class="mi">425</span>
+<span class="mi">0300000001</span>                      <span class="mi">000000600000000</span><span class="n">VES01340000000000000000</span>          <span class="mi">0134</span>          <span class="n">G200003030</span>       <span class="n">Servicio</span> <span class="n">Nacional</span> <span class="n">Integrado</span> <span class="n">de</span> <span class="n">Administracin</span> <span class="p">(</span><span class="n">SENIAT</span><span class="p">)</span>                 <span class="n">seniat</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>                                                                                                                                                                                       <span class="mi">42</span>
+<span class="mi">0300000002</span>                      <span class="mi">000000500000000</span><span class="n">VES01630000000000000000</span>          <span class="mi">0163</span>          <span class="n">J297599070</span>       <span class="n">Bolivariana</span> <span class="n">de</span> <span class="n">Puertos</span>  <span class="p">(</span> <span class="n">Bolipuertos</span><span class="p">)</span>  <span class="n">S</span> <span class="n">A</span>                           <span class="n">bolipuertos</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>                                                                                                                                                                                  <span class="mi">425</span>
+<span class="mi">0300000003</span>                      <span class="mi">000000350000000</span><span class="n">VES01340000000000000000</span>          <span class="mi">0134</span>          <span class="n">J002443731</span>       <span class="n">Dhl</span> <span class="n">Express</span> <span class="n">Aduanas</span> <span class="n">Venezuela</span> <span class="n">CA</span>                                      <span class="n">dhl</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>                                                                                                                                                                                          <span class="mi">42</span>
+<span class="mi">06000000000000001000000000000004000001852500000</span>
+</pre></div>
+</div>
+<p><strong>Descripción del Archivo</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Tipo de Registro de Control</strong>: HDR</p></li>
+<li><p><strong>Asociado Comercial</strong>: Banesco</p></li>
+<li><p><strong>Estándar EDIFACT</strong>: E</p></li>
+<li><p><strong>Versión del Estándar</strong>: D  95B</p></li>
+<li><p><strong>Tipo del Documento</strong>: PAYMUL</p></li>
+<li><p><strong>Producción</strong>: P</p></li>
+<li><p><strong>Tipo de Registro de Encabezado</strong>: 01</p></li>
+<li><p><strong>Tipo de Transacción</strong>: SCV</p></li>
+<li><p><strong>Condición de Orden de Pago</strong>: 9</p></li>
+<li><p><strong>Número de la Orden de Pago</strong>: Número de referencia que identifica el documento <strong>PAYMUL</strong>. En el ejemplo anterior el valor correspondiente es <strong>1000025</strong>.</p></li>
+<li><p><strong>Fecha de la Creación de la Orden de Pago</strong>: Fecha en la que se genera el documento <strong>PAYMUL</strong>, en formato <strong>AAAAMMDDHHMMSS</strong>. En el ejemplo anterior el valor correspondiente es <strong>20201006000000</strong>.</p></li>
+<li><p><strong>Tipo de Registro de Débito</strong>: 02</p></li>
+<li><p><strong>Nro. de Referencia del Débito</strong>: Número de referencia que identifica el débito. Este campo será el utilizado para efectos de conciliación. En el ejemplo anterior el valor correspondiente es <strong>1000025</strong>.</p></li>
+<li><p><strong>R.I.F. del Ordenante</strong>: El valor debe comenzar con la letra del R.I.F. (J o G), no debe contener ningún separador y debe estar en mayúscula.</p></li>
+<li><p><strong>Nombre del Ordenante</strong>: Nombre de la Empresa sin acentos o caracteres especiales. En el ejemplo anterior el valor correspondiente es <strong>Compaa Estndar</strong>.</p></li>
+<li><p><strong>Montos Total a Debitar/Abonar</strong>: Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. El monto del débito debe cuadrar con la sumatoria de los créditos. En el ejemplo anterior el valor correspondiente es <strong>000001852500000</strong>.</p></li>
+<li><p><strong>Moneda</strong>: Siglas correspondiente a la moneda del débito. En el ejemplo anterior el valor correspondiente es <strong>VES</strong>.</p></li>
+<li><p><strong>Número de Cuenta a Débitar</strong>: Número de cuenta en Banesco que este registrada o asociada a EDI y desde la cual saldra el dinero. En el ejemplo anterior el valor correspondiente es <strong>01340000000000000000</strong>.</p></li>
+<li><p><strong>Código del Banco Ordenando</strong>: En el ejemplo anterior el valor correspondiente es <strong>BANESCO</strong>.</p></li>
+<li><p><strong>Fecha Efectiva del Pago</strong>: Fecha en la cual el banco va a efectuar el débito y sus créditos asociados. En el ejemplo anterior el valor correspondiente es <strong>20201006</strong>.</p></li>
+<li><p><strong>Tipo de Registro de Crédito</strong>: 03 (Este se repite tantas veces como registros “abonos” sean).</p></li>
+<li><p><strong>Número de Recibo o Referencia de Pago</strong>: El número de referencia identifica al crédito, debe ser de ocho (8) posiciones numéricas. En el ejemplo anterior los valores correspondiente son <strong>00000000</strong>, <strong>00000001</strong>, <strong>00000002</strong> y <strong>00000003</strong>.</p></li>
+<li><p><strong>Monto a Pagar</strong>: Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. Si el monto a pagar no cubre los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda.</p></li>
+<li><p><strong>Moneda</strong>: Siglas correspondiente a la moneda del crédito. En el ejemplo anterior el valor correspondiente es <strong>VES</strong>.</p></li>
+<li><p><strong>Número de Cuenta a Acréditar</strong>: Número de cuenta a la cual va a ingresar el dinero. En el ejemplo anterior los valores correspondiente son <strong>01140000000000000000</strong>, <strong>01750000000000000000</strong>, <strong>01630000000000000000</strong> y <strong>01020000000000000000</strong>.</p></li>
+<li><p><strong>Banco Beneficiario</strong>: Código banco Swift. En el ejemplo anterior el valor correspondiente es <strong>0114</strong>, <strong>0175</strong>, <strong>0163</strong> y <strong>0102</strong>.</p></li>
+<li><p><strong>Cédula de Identidad del Beneficiario</strong>: El valor debe comenzar con la letra de la cédula (V, E, J, G), no debe contener ningún separador y se debe considerar lo siguiente. Si la cédula es mayor a diez millones (V10000000) se debe colocar un creo (0) por delante, quedando de la siguiente manera (V010000000). Si la cédula es menor a diez millones (V10000000) se debe colocar dos ceros (0) por delante, quedando de la siguiente manera (V009000000). En el ejemplo anterior los valores correspondiente son <strong>V0000000</strong>, <strong>G200003030</strong>, <strong>J297599070</strong> y <strong>J002443731</strong>.</p></li>
+<li><p><strong>Nombre del Beneficiario</strong>: Nombre de la persona, empresa u organización a la cual se le va a efectuar el crédito.</p></li>
+<li><p><strong>Correo Electrónico del Beneficiario</strong>: Correo electrónico de la persona, empresa u organización a la cual se le va a efectuar el crédito.</p></li>
+<li><p><strong>Forma de Pago</strong>: 425 indica pagos a proveedores en otros bancos, mientras que 42 indica abono en cuenta (terceros en el mismo banco).</p></li>
+<li><p><strong>Tipo de Registro de Totales</strong>: 06</p></li>
+<li><p><strong>Total de Débitos</strong>: Cantidad de débitos que contiene el documento, este debe tener quince (15) posiciones con números enteros. Si el valor no cubro los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda. En el ejemplo anterior el valor correspondiente es <strong>000000000000001</strong>.</p></li>
+<li><p><strong>Total de Créditos</strong>: Cantidad de créditos que contiene el documento, este debe tener quince (15) posiciones con números enteros. Si el valor no cubro los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda. En el ejemplo anterior el valor correspondiente es <strong>000000000000004</strong>.</p></li>
+<li><p><strong>Monto Total a Pagar</strong>: Monto total de la orden de pago, este debe cuadrar con la sumatoria de los créditos. Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. En el ejemplo anterior el valor correspondiente es <strong>000001852500000</strong>.</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="banesco-nomina">
+<h2><strong>Banesco Nómina</strong><a class="headerlink" href="#banesco-nomina" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id1">
+<h3><strong>Archivo para Pagos</strong><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Al ejecutar el proceso de selección de pago de la nómina quincenal “<strong>NQ-15</strong>” procesada en ADempiere, con los siguientes empleados:</p>
+<ul class="simple">
+<li><p>Socio del Negocio “<strong>Empleado Estándar Uno</strong>”, con cédula de identidad “<strong>V000000001</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+<li><p>Socio del Negocio “<strong>Empleado Estándar Dos</strong>”, con cédula de identidad “<strong>V000000002</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+<li><p>Socio del Negocio “<strong>Empleado Estándar Tres</strong>”, con cédula de identidad “<strong>V000000003</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+<li><p>Socio del Negocio “<strong>Empleado Estándar Cuatro</strong>”, con cédula de identidad “<strong>V000000004</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+</ul>
+<p>Se obtiene como resultado del proceso “<strong>Imprimir /Exportar</strong>”, un documento en formato “<strong>.txt</strong>” con los detalles de los pagos a ser realizados desde el banco banesco a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace <a class="reference download internal" download="" href="../../../../../_downloads/d0a97d7a0ea7119215162c888d5208a3/Banesco_Banco_Universal_CA_1000027.txt"><code class="xref download docutils literal notranslate"><span class="pre">Archivo</span> <span class="pre">de</span> <span class="pre">Pago</span> <span class="pre">de</span> <span class="pre">Nómina</span> <span class="pre">del</span> <span class="pre">Banesco</span> <span class="pre">Banco</span> <span class="pre">Universal</span> <span class="pre">C.A.</span></code></a> y visualizar de la siguiente manera:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">HDRBANESCO</span>        <span class="n">ED</span>  <span class="mi">95</span><span class="n">BPAYMULP</span>
+<span class="mi">01</span><span class="n">SAL</span>                                <span class="mi">9</span>  <span class="mi">1000027</span>                            <span class="mi">20201015000000</span>
+<span class="mi">021000027</span>                       <span class="n">J000000000</span>       <span class="n">Compaa</span> <span class="n">Estndar</span>                     <span class="mi">000000172537848</span><span class="n">VES</span> <span class="mi">0134000000000000000</span>               <span class="n">BANESCO</span>    <span class="mi">20201015</span>
+<span class="mi">0300000000</span>                      <span class="mi">000000043134462</span><span class="n">VES01340000000000000000</span>          <span class="mi">0134</span>          <span class="n">V000000001</span>       <span class="n">Empleado</span> <span class="n">Estndar</span>                                                      <span class="n">empleado</span><span class="o">-</span><span class="n">estándar</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>                                                                                                                                                                            <span class="mi">42</span>
+<span class="mi">0300000001</span>                      <span class="mi">000000043134462</span><span class="n">VES01020000000000000000</span>          <span class="mi">0102</span>          <span class="n">V000000002</span>       <span class="n">Empleado</span> <span class="n">Estndar</span> <span class="n">Dos</span>                                                  <span class="n">empleado</span><span class="o">-</span><span class="n">estándar</span><span class="o">-</span><span class="n">dos</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>                                                                                                                                                                        <span class="mi">425</span>
+<span class="mi">0300000002</span>                      <span class="mi">000000043134462</span><span class="n">VES01340000000000000000</span>          <span class="mi">0134</span>          <span class="n">V000000003</span>       <span class="n">Empleado</span> <span class="n">Estndar</span> <span class="n">Tres</span>                                                 <span class="n">empleado</span><span class="o">-</span><span class="n">estándar</span><span class="o">-</span><span class="n">tres</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>                                                                                                                                                                       <span class="mi">42</span>
+<span class="mi">0300000003</span>                      <span class="mi">000000043134462</span><span class="n">VES01050000000000000000</span>          <span class="mi">0105</span>          <span class="n">V000000004</span>       <span class="n">Empleado</span> <span class="n">Estndar</span> <span class="n">Cuatro</span>                                               <span class="n">empleado</span><span class="o">-</span><span class="n">estándar</span><span class="o">-</span><span class="n">cuatro</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>                                                                                                                                                                     <span class="mi">425</span>
+<span class="mi">06000000000000001000000000000004000000172537848</span>
+</pre></div>
+</div>
+<p><strong>Descripción del Archivo</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Tipo de Registro de Control</strong>: HDR</p></li>
+<li><p><strong>Asociado Comercial</strong>: Banesco</p></li>
+<li><p><strong>Estándar EDIFACT</strong>: E</p></li>
+<li><p><strong>Versión del Estándar</strong>: D  95B</p></li>
+<li><p><strong>Tipo del Documento</strong>: PAYMUL</p></li>
+<li><p><strong>Producción</strong>: P</p></li>
+<li><p><strong>Tipo de Registro de Encabezado</strong>: 01</p></li>
+<li><p><strong>Tipo de Transacción</strong>: SAL</p></li>
+<li><p><strong>Condición de Orden de Pago</strong>: 9</p></li>
+<li><p><strong>Número de la Orden de Pago</strong>: Número de referencia que identifica el documento <strong>PAYMUL</strong>. En el ejemplo anterior el valor correspondiente es <strong>1000027</strong>.</p></li>
+<li><p><strong>Fecha de la Creación de la Orden de Pago</strong>: Fecha en la que se genera el documento <strong>PAYMUL</strong>, en formato <strong>AAAAMMDDHHMMSS</strong>. En el ejemplo anterior el valor correspondiente es <strong>20201015000000</strong>.</p></li>
+<li><p><strong>Tipo de Registro de Débito</strong>: 02</p></li>
+<li><p><strong>Nro. de Referencia del Débito</strong>: Número de referencia que identifica el débito. Este campo será el utilizado para efectos de conciliación. En el ejemplo anterior el valor correspondiente es <strong>1000027</strong>.</p></li>
+<li><p><strong>R.I.F. del Ordenante</strong>: El valor debe comenzar con la letra del R.I.F. (J o G), no debe contener ningún separador y debe estar en mayúscula.</p></li>
+<li><p><strong>Nombre del Ordenante</strong>: Nombre de la Empresa sin acentos o caracteres especiales. En el ejemplo anterior el valor correspondiente es <strong>Compaa Estndar</strong>.</p></li>
+<li><p><strong>Montos Total a Debitar/Abonar</strong>: Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. El monto del débito debe cuadrar con la sumatoria de los créditos. En el ejemplo anterior el valor correspondiente es <strong>000000172537848</strong>.</p></li>
+<li><p><strong>Moneda</strong>: Siglas correspondiente a la moneda del débito. En el ejemplo anterior el valor correspondiente es <strong>VES</strong>.</p></li>
+<li><p><strong>Número de Cuenta a Débitar</strong>: Número de cuenta en Banesco que este registrada o asociada a EDI y desde la cual saldra el dinero. En el ejemplo anterior el valor correspondiente es <strong>01340000000000000000</strong>.</p></li>
+<li><p><strong>Código del Banco Ordenando</strong>: En el ejemplo anterior el valor correspondiente es <strong>BANESCO</strong>.</p></li>
+<li><p><strong>Fecha Efectiva del Pago</strong>: Fecha en la cual el banco va a efectuar el débito y sus créditos asociados. En el ejemplo anterior el valor correspondiente es <strong>20201015</strong>.</p></li>
+<li><p><strong>Tipo de Registro de Crédito</strong>: 03 (Este se repite tantas veces como registros “abonos” sean).</p></li>
+<li><p><strong>Número de Recibo o Referencia de Pago</strong>: El número de referencia identifica al crédito, debe ser de ocho (8) posiciones numéricas. En el ejemplo anterior los valores correspondiente son <strong>00000000</strong>, <strong>00000001</strong>, <strong>00000002</strong> y <strong>00000003</strong>.</p></li>
+<li><p><strong>Monto a Pagar</strong>: Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. Si el monto a pagar no cubre los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda.</p></li>
+<li><p><strong>Moneda</strong>: Siglas correspondiente a la moneda del crédito. En el ejemplo anterior el valor correspondiente es <strong>VES</strong>.</p></li>
+<li><p><strong>Número de Cuenta a Acréditar</strong>: Número de cuenta a la cual va a ingresar el dinero. En el ejemplo anterior los valores correspondiente son <strong>01340000000000000000</strong>, <strong>01020000000000000000</strong>, <strong>01340000000000000000</strong> y <strong>01050000000000000000</strong>.</p></li>
+<li><p><strong>Banco Beneficiario</strong>: Código banco Swift. En el ejemplo anterior el valor correspondiente es <strong>0134</strong>, <strong>0102</strong>, <strong>0134</strong> y <strong>0105</strong>.</p></li>
+<li><p><strong>Cédula de Identidad del Beneficiario</strong>: El valor debe comenzar con la letra de la cédula (V, E, J, G), no debe contener ningún separador y se debe considerar lo siguiente. Si la cédula es mayor a diez millones (V10000000) se debe colocar un creo (0) por delante, quedando de la siguiente manera (V010000000). Si la cédula es menor a diez millones (V10000000) se debe colocar dos ceros (0) por delante, quedando de la siguiente manera (V009000000). En el ejemplo anterior los valores correspondiente son <strong>V000000001</strong>, <strong>V000000002</strong>, <strong>V000000003</strong> y <strong>V000000004</strong>.</p></li>
+<li><p><strong>Nombre del Beneficiario</strong>: Nombre de la persona, empresa u organización a la cual se le va a efectuar el crédito.</p></li>
+<li><p><strong>Correo Electrónico del Beneficiario</strong>: Correo electrónico de la persona, empresa u organización a la cual se le va a efectuar el crédito.</p></li>
+<li><p><strong>Forma de Pago</strong>: 425 indica pagos a proveedores en otros bancos, mientras que 42 indica abono en cuenta (terceros en el mismo banco).</p></li>
+<li><p><strong>Tipo de Registro de Totales</strong>: 06</p></li>
+<li><p><strong>Total de Débitos</strong>: Cantidad de débitos que contiene el documento, este debe tener quince (15) posiciones con números enteros. Si el valor no cubro los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda. En el ejemplo anterior el valor correspondiente es <strong>000000000000001</strong>.</p></li>
+<li><p><strong>Total de Créditos</strong>: Cantidad de créditos que contiene el documento, este debe tener quince (15) posiciones con números enteros. Si el valor no cubro los quince espacios, se deben reemplazar los espacios con ceros (0) a la izquierda. En el ejemplo anterior el valor correspondiente es <strong>000000000000004</strong>.</p></li>
+<li><p><strong>Monto Total a Pagar</strong>: Monto total de la orden de pago, este debe cuadrar con la sumatoria de los créditos. Debe tener quince (15) posiciones sin ningún separador, entre los cuales estan trece (13) enteros y dos (2) decimales. En el ejemplo anterior el valor correspondiente es <strong>000000172537848</strong>.</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../banplus/banplus.html" class="btn btn-neutral float-right" title="Banco Banplus" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../bancaribe/bancaribe.html" class="btn btn-neutral float-left" title="Banco del Caribe" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
