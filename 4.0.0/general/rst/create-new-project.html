@@ -1,0 +1,372 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>4.1. Crear un Proyecto en Read the Docs &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="4.2. Contribuir a la Documentación" href="contributing.html" />
+    <link rel="prev" title="4. Herramienta RestructuredText" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. <strong>Herramienta RestructuredText</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4.1. <strong>Crear un Proyecto en Read the Docs</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#clonar-repositorio-de-erpya">4.1.1. <strong>Clonar Repositorio de ERPyA</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#id1">4.1.2. <strong>Crear un Proyecto en Read the Docs</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="contributing.html">4.2. <strong>Contribuir a la Documentación</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/pos-management/index.html">4. <strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">5. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Download Docs</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">4. </span><strong>Herramienta RestructuredText</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">4.1. </span><strong>Crear un Proyecto en Read the Docs</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/general/rst/create-new-project.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="crear-un-proyecto-en-read-the-docs">
+<span id="documento-nuevo-proyecto"></span><h1><span class="section-number">4.1. </span><strong>Crear un Proyecto en Read the Docs</strong><a class="headerlink" href="#crear-un-proyecto-en-read-the-docs" title="Permalink to this headline">¶</a></h1>
+<p>Para realizar una contribución a la documentación de <a class="reference external" href="http://erpya.com">ERPyA</a> realice el procedimiento indicado en el presente documento para cumplir con los requerimientos necesarios.</p>
+<p><a class="reference external" href="http://erpya.com">ERPyA</a> tiene como estándar de usuario para acceder a “<strong>Read the Docs</strong>”, el mismo estándar de usuario en “<strong>ADempiere</strong>”.</p>
+<p>Las credenciales para que el usuario pueda iniciar sesión en “<strong>Read the Docs</strong>” son:</p>
+<p><strong>Usuario</strong>: Primera letra del primer nombre, seguido del primer apellido con la primera letra en mayúscula. El usuario no debe tener espacios en blanco o caracteres especiales.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Ejemplo</strong>: uEstandar</p></li>
+</ul>
+</div></blockquote>
+<p><strong>Contraseña</strong>: La misma información establecida en el campo usuario, sin espacios en blanco o caracteres especiales.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Ejemplo</strong>: uEstandar</p></li>
+</ul>
+</div></blockquote>
+<div class="section" id="clonar-repositorio-de-erpya">
+<h2><span class="section-number">4.1.1. </span><strong>Clonar Repositorio de ERPyA</strong><a class="headerlink" href="#clonar-repositorio-de-erpya" title="Permalink to this headline">¶</a></h2>
+<p>Ingrese a su usuario de “<strong>GitHub</strong>” en <a class="reference external" href="https://github.com/">https://github.com/</a>.</p>
+<blockquote>
+<div><p><img alt="Usuario en GitHub" src="../../_images/img1.png" /></p>
+<p>Imagen 1. Inicio de Sesión en GitHub</p>
+</div></blockquote>
+<p>Luego ubique el perfil de <a class="reference external" href="http://erpya.com">ERPyA</a> ubicado en <a class="reference external" href="https://github.com/erpcya">https://github.com/erpcya</a>, para buscar el repositorio de la documentación “<strong>docs</strong>”. La búsqueda del repositorio puede ser realizada de forma manual o buscando la palabra “<strong>docs</strong>” en la barra de búsqueda inteligente.</p>
+<blockquote>
+<div><p><img alt="Perfil de ERPyA" src="../../_images/img2.png" /></p>
+<p>Imagen 2. Perfil de ERPyA</p>
+</div></blockquote>
+<p>Ingrese al repositorio “<strong>docs</strong>” y seleccione la opción “<strong>Fork</strong>” ubicada en la superior derecha de la ventana.</p>
+<blockquote>
+<div><p><img alt="Fork" src="../../_images/img3.png" /></p>
+<p>Imagen 3. Clonar Repositorio</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Esta opción permite crear en su repositorio de “<strong>GitHub</strong>”, una copia del repositorio en cual se encuentra ubicado el usuario.</p>
+</div>
+<p>Podrá visualizar la ventana “<strong>Fork docs</strong>”, donde debe seleccionar el usuario en el cual será guardada la copia realizada y esperar hasta que el proceso culmine.</p>
+<blockquote>
+<div><p><img alt="Copiar al Usuario" src="../../_images/img4.png" /></p>
+<p>Imagen 4. Seleccionar Usuario para Realizar la Copia</p>
+</div></blockquote>
+<p>Luego de culminado el proceso “<strong>Fork</strong>”, puede acceder al repositorio desde el perfil del usuario.</p>
+<blockquote>
+<div><p><img alt="Perfil Usuario" src="../../_images/img5.png" /></p>
+<p>Imagen 5. Perfil del Usuario</p>
+</div></blockquote>
+</div>
+<div class="section" id="id1">
+<h2><span class="section-number">4.1.2. </span><strong>Crear un Proyecto en Read the Docs</strong><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<p>Ingrese a la página <a class="reference external" href="http://docs.erpya.com/accounts/login/">http://docs.erpya.com/accounts/login/</a>, para iniciar sesión con su usuario en “<strong>Read the Docs</strong>”.</p>
+<blockquote>
+<div><p><img alt="Usuario en Read the Docs" src="../../_images/img6.png" /></p>
+<p>Imagen 6. Inicio de Sesión en Read the Docs</p>
+</div></blockquote>
+<p>En “<strong>Read the Docs</strong>”, la creación de proyectos es realizada mediante la selección de la opción “<strong>Import a Project</strong>”.</p>
+<blockquote>
+<div><p><img alt="Crear Proyecto" src="../../_images/img7.png" /></p>
+<p>Imagen 7. Opción Crear nuevo Proyecto</p>
+</div></blockquote>
+<p>El usuario debe realizar la importación manualmente seleccionando la opción “<strong>Import Manually</strong>”.</p>
+<blockquote>
+<div><p><img alt="Importar Manualmente" src="../../_images/img8.png" /></p>
+<p>Imagen 8. Opción Importar Manualmente</p>
+</div></blockquote>
+<p><a class="reference external" href="http://erpya.com">ERPyA</a> recomienda a los usuarios que los proyectos creados con respecto a la documentación sean creados bajo un estándar con respecto a los nombres:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Campo Nombre:</strong> Se refiere al nombre del proyecto en Read the Docs, el mismo puede ser la palabra “<strong>Documentacion</strong>”, seguida del símbolo “<strong>-</strong>” y por último el nombre del usuario “<strong>uEstandar</strong>”.</p></li>
+<li><p><strong>Campo URL del repositorio:</strong> Se refiere a la url del repositorio clonado. Para este ejemplo el repositorio clonado es el de <a class="reference external" href="http://erpya.com">ERPyA</a> y la url es <a class="reference external" href="https://github.com/erpcya/docs.git">https://github.com/erpcya/docs.git</a> obtenida en el repositorio “<strong>docs</strong>”, seleccionando la opción “<strong>Clone or download</strong>”.</p></li>
+<li><p><strong>Checklist Edit advanced project options:</strong> Permite agregar la descripción del proyecto que se esta creando.</p></li>
+</ul>
+</div></blockquote>
+<p>Luego de llenar los campos correspondientes, el usuario debe seleccionar la opción “<strong>Siguiente</strong>” para continuar con la creación del proyecto.</p>
+<blockquote>
+<div><p><img alt="Datos del Proyecto" src="../../_images/img9.png" /></p>
+<p>Imagen 9. Datos del Nuevo Proyecto</p>
+</div></blockquote>
+<p>Proceda a ingresar una descripción referente al proyecto que esta creando. Luego seleccione la opción “<strong>Finish</strong>”, para finalizar la creación del proyecto.</p>
+<blockquote>
+<div><p><img alt="Descripción del Proyecto" src="../../_images/img10.png" /></p>
+<p>Imagen 10. Descripción del Proyecto</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La creación del proyecto puede tardar unos minutos, <a class="reference external" href="http://erpya.com">ERPyA</a> recomienda al usuario esperar hasta que “<strong>Read the Docs</strong>” culmine el proceso.</p>
+</div>
+<p>El usuario puede visualizar los proyectos creados ingresando en <a class="reference external" href="http://docs.erpya.com/">http://docs.erpya.com/</a></p>
+<blockquote>
+<div><p><img alt="Proyectos Creados" src="../../_images/img11.png" /></p>
+<p>Imagen 11. Proyectos Creados</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="contributing.html" class="btn btn-neutral float-right" title="4.2. Contribuir a la Documentación" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="4. Herramienta RestructuredText" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+  <div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+    <span class="rst-current-version" data-toggle="rst-current-version">
+      <span class="fa fa-book"> Read the Docs</span>
+      v: 
+      <span class="fa fa-caret-down"></span>
+    </span>
+    <div class="rst-other-versions">
+        <dl>
+            <dt>Versions</dt>
+
+            <strong> 
+                <dd><a href="/docs/master/">latest</a></dd>
+                <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+                <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+                <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+            </strong> 
+
+        </dl>
+
+        <hr/>
+    </div>
+  </div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
