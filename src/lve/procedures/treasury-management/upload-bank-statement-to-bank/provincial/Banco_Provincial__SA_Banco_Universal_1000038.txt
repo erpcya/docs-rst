@@ -1,4 +1,0 @@
-J000002443731 01740000000000000000 0000350000000 00000000 Dhl Express Aduanas Venezuela CA    dhl@ejemplo.com                    
-V000000000000 01050000000000000000 0000400000000 00000001 Proveedor Estndar                   estandar@ejmplo.com                
-G000200003030 01020000000000000000 0000600000000 00000002 Servicio Nacional Integrado de Admi seniat@ejemplo.com                 
-J000297599070 01080000000000000000 0000500000000 00000003 Bolivariana de Puertos  ( Bolipuert bolipuertos@ejemplo.com            

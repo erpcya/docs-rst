@@ -73,10 +73,6 @@ Para mejor referencia de lo explicado anteriormente, se presenta a continuación
 
     Imagen 7. Carga de Productos desde el Catálogo de Productos
 
-    .. note::
-
-        Recuerde que en el catálogo de productos, cada categoría, grupo y producto se encuentra identificado por su nombre e imagen correspondiente al mismo, según la configuración de llave de disposición establecida previamente para el punto de ventas. Dicha configuración se encuentra explicada de manera detallada en el material :ref:``, elaborado por `ERPyA`_.
-
 #. Si lo desea, puede ingresar los productos a la orden de venta ingresando el código o nombre del mismo en el panel de búsqueda de productos. Dicho panel se encuentra explicado de manera detallada en el material :ref:`documento/paso-panel-de-búsqueda-de-productos`, elaborado por `ERPyA`_.
 
     |carga de productos desde el panel de búsqueda de productos del formulario punto de venta|

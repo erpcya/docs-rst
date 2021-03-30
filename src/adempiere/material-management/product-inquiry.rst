@@ -1,3 +1,5 @@
+.. _ERPyA: http://erpya.com
+
 .. |menú de información de productos| image:: resources/product-information-menu.png
 .. |ventana de información de productos| image:: resources/product-information-window.png
 .. |campo código producto| image:: resources/product-code-field.png
