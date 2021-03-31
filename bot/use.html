@@ -1,0 +1,426 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Interfaz del Bot &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Configuración en ADempiere" href="configuration-in-adempiere.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Bot</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="configuration-in-adempiere.html"><strong>Configuración en ADempiere</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Interfaz del Bot</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#uso-del-bot"><strong>Uso del Bot</strong></a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Bot</strong></a> &raquo;</li>
+        
+      <li><strong>Interfaz del Bot</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/bot/use.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="interfaz-del-bot">
+<span id="documento-interfaz-del-bot"></span><h1><strong>Interfaz del Bot</strong><a class="headerlink" href="#interfaz-del-bot" title="Permalink to this headline">¶</a></h1>
+<p>Al iniciar sesión en telegram, seleccione el icono “<strong>Buscar</strong>”, ubicado en la parte superior derecha de la ventana.</p>
+<blockquote>
+<div><p><img alt="ventana de inicio de telegram" src="../_images/start-window.png" /></p>
+<p>Imagen 1. Ventana de inicio</p>
+</div></blockquote>
+<p>Busque el bot ingresando el nombre del mismo en la barra desplegada por el icono “<strong>Buscar</strong>”. Para el presente ejemplo se ingresa lo siguiente “<strong>&#64;Bot_Demo_ERPYA</strong>”.</p>
+<blockquote>
+<div><p><img alt="buscar bot de erpya" src="../_images/search-bot.png" /></p>
+<p>Imagen 2. Buscar Bot</p>
+</div></blockquote>
+<p>Al culminar la búsqueda debe seleccionar el bot para iniciar la conversación.</p>
+<blockquote>
+<div><p><img alt="seleccionar bot de erpya" src="../_images/select-bot.png" /></p>
+<p>Imagen 3. Seleccionar Bot</p>
+</div></blockquote>
+<p>A continuación podrá visualizar la conversación inicial de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="conversación inicial" src="../_images/bot-start.png" /></p>
+<p>Imagen 4. Conversación Inicial</p>
+</div></blockquote>
+<p>Del lado superior derecho de la conversación podrá acceder al menú de la misma donde se desplegan direfentes opciones que le permiten al usuario realizar ejecutar las mismas según su conveniencia.</p>
+<blockquote>
+<div><p><img alt="menú superior de la conversación" src="../_images/conversation-top-menu.png" /></p>
+<p>Imagen 5. Menú Superior de la Conversación</p>
+<p>Dicho menú puede ser visualizado de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="opciones del menú superior de la conversación" src="../_images/conversation-top-menu-options.png" /></p>
+<p>Imagen 6. Opciones del Menú Superior de la Conversación</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>La opción “<strong>Buscar</strong>”, permite realizar una búsqueda detallada dentro de la conversación.</p></li>
+<li><p>La opción “<strong>Compartir mi número</strong>”, permite compartir el número de teléfono en la conversación.</p></li>
+<li><p>La opción “<strong>Vaciar Chat</strong>”, permite borrar todos los mensajes de la conversación.</p></li>
+<li><p>La opción “<strong>Silenciar</strong>”, permite silenciar las notificaciones de la conversación.</p></li>
+<li><p>La opción “<strong>Eliminar Chat</strong>”, permite eliminar la conversación completamente.</p></li>
+</ul>
+</div></blockquote>
+<p>Para acceder a la información de perfil del bot, seleccionando el nombre del mismo.</p>
+<blockquote>
+<div><p><img alt="selección de nombre de perfil" src="../_images/profile-name-selection.png" /></p>
+<p>Imagen 7. Selección del Nombre de Perfil</p>
+<p>La misma puede ser visualizada de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="información de perfil del bot" src="../_images/bot-profile-information.png" /></p>
+<p>Imagen 8. Información de Perfil del Bot</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="uso-del-bot">
+<span id="documento-uso-del-bot"></span><h1><strong>Uso del Bot</strong><a class="headerlink" href="#uso-del-bot" title="Permalink to this headline">¶</a></h1>
+<p>El bot puede ser utilizado para obtener de manera inmediata información requerida como reportes de facturas y margen, saldos abiertos, entre otros. Así como también para obtener una comunicación efectiva e inmediata entre el usuario de la empresa y el usuario cliente o proveedor. A continuación se ecplican ambos casos.</p>
+<p>Para obtener reportes de manera inmediata, al ingresar a la conversación debe seleccionar la opción “<strong>INICIAR</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción iniciar conversación" src="../_images/start-conversation-option.png" /></p>
+<p>Imagen 9. Opción Iniciar Conversación</p>
+</div></blockquote>
+<p>De manera automática recibirá el mensaje “<strong>Por favor seleccione una opción en el menú</strong>” y visualizara en la parte inferior de dicho mensaje, las diferentes opciones que le permitiran generar los reportes requeridos.</p>
+<blockquote>
+<div><p><img alt="respuesta de inicio" src="../_images/start-response.png" /></p>
+<p>Imagen 10. Respuesta de Inicio</p>
+<ul>
+<li><p>Al seleccionar la opción “<strong>Reporte de Saldos Abiertos</strong>”, se envia un mensaje con dicha solicitud.</p>
+<blockquote>
+<div><p><img alt="opción reporte de saldos abiertos" src="../_images/open-balances-report-option.png" /></p>
+<p>Imagen 11. Opción Reporte de Saldos Abiertos</p>
+<p>De manera automática recibirá el mensaje “<strong>Espere un momento mientras se obtiene la información</strong>” y comenzará a descargarse en formato “<strong>.pdf</strong>” dicho reporte seleccionado.</p>
+<blockquote>
+<div><p><img alt="descarga de reporte de saldos abiertos" src="../_images/download-report-of-open-balances.png" /></p>
+<p>Imagen 12. Descarga de Reporte de Saldos Abiertos</p>
+<p>Al seleccionar el mismo, puede visualizarlo de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="reporte de saldos abiertos" src="../_images/report-of-open-balances.png" /></p>
+<p>Imagen 13. Reporte de Saldos Abiertos</p>
+</div></blockquote>
+</div></blockquote>
+<p>Adicional a ello, los reportes que se descargan pueden desplegar un menú al seleccionar el icono en la parte superior derecha del mensaje.</p>
+<blockquote>
+<div><p><img alt="icono menú del mensaje de reporte" src="../_images/report-message-menu-icon.png" /></p>
+<p>Imagen 14. Icono Menú del Mensaje de Reporte</p>
+<p>Dicho menú puede ser visualizado de la siguiente manera y permite ejecutar diferentes acciones.</p>
+<blockquote>
+<div><p><img alt="menú desplegado del mensaje de reporte" src="../_images/report-message-drop-down-menu.png" /></p>
+<p>Imagen 15. Menú Desplegado del Mensaje de Reporte</p>
+</div></blockquote>
+<ul class="simple">
+<li><p>La opción “<strong>Responder</strong>”, permite responder como comentario el mensaje recibido en el cual se selecciona dicha opción.</p></li>
+<li><p>La opción “<strong>Guardar en Descargas</strong>”, permite guardar el archivo “<strong>.pdf</strong>” en la carpeta “<strong>Descargas</strong>” del teléfono o equipo en el que se encuentra utilizando telegram.</p></li>
+<li><p>La opción “<strong>Compartir</strong>”, permite compartir el archivo “<strong>.pdf</strong>” por medio de las aplicaciones configuradas en el teléfono o equipo en el que se encuentra utilizado telegram.</p></li>
+<li><p>La opción “<strong>Reenviar</strong>”, permite reenviar el archivo “<strong>.pdf</strong>” a los diferentes contactos de telegram.</p></li>
+<li><p>La opción “<strong>Fijar</strong>”, permite fijar el mensaje en la parte superior de la conversación.</p></li>
+<li><p>La opción “<strong>Reportar</strong>”, permite reportar el mensaje como contenido no deseado y especificar el motivo.</p></li>
+<li><p>La opción “<strong>Eliminar</strong>”, permite eliminar el mensaje.</p></li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+</li>
+<li><p>Al seleccionar la opción “<strong>Resumen de Facturas</strong>”, se envia un mensaje con dicha solicitud.</p>
+<blockquote>
+<div><p><img alt="opción resumen de facturas" src="../_images/invoice-summary-option.png" /></p>
+<p>Imagen 16. Opción Resumen de Facturas</p>
+<p>El comportamiento de esta opción es igual a la explicada anteriormente, con la diferencia de que se genera el archivo “<strong>.pdf</strong>” con el reporte de resumen de facturas.</p>
+<blockquote>
+<div><p><img alt="reporte resumen de facturas" src="../_images/invoice-summary-report.png" /></p>
+<p>Imagen 17. Reporte Resumen de Facturas</p>
+</div></blockquote>
+</div></blockquote>
+</li>
+<li><p>De igual manera, al seleccionar la opción “<strong>Detalles de Facturas y Margen</strong>”, se envia un mensaje con dicha solicitud.</p>
+<blockquote>
+<div><p><img alt="opción detalles de facturas y margen" src="../_images/invoice-details-and-margin-option.png" /></p>
+<p>Imagen 18. Opción Detalles de Facturas y Margen</p>
+<p>El comportamiento de esta opción es igual a las anteriores, con la diferencia de que se genera el archivo “<strong>.pdf</strong>” con el reporte de resumen de facturas.</p>
+<blockquote>
+<div><p><img alt="reporte detalles de facturas y margen" src="../_images/report-invoice-details-and-margin.png" /></p>
+<p>Imagen 19. Reporte Detalles de Facturas y Margen</p>
+</div></blockquote>
+</div></blockquote>
+</li>
+<li><p>El bot también tiene la opción de cambiar el idioma de la conversación, al seleccionar la opción “<strong>Cambiar Lenguaje</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción cambiar lenguaje" src="../_images/option-change-language.png" /></p>
+<p>Imagen 20. Opción Cambiar Lenguaje</p>
+<p>Dicha opción permite seleccionar entre “<strong>Ingles</strong>” y “<strong>Español</strong>”, para mejor comodidad del usuario.</p>
+<blockquote>
+<div><p><img alt="opciones de lenguaje" src="../_images/language-options.png" /></p>
+<p>Imagen 21. Opciones de Lenguaje</p>
+</div></blockquote>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="configuration-in-adempiere.html" class="btn btn-neutral float-left" title="Configuración en ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/master/">latest</a></dd>
+              <dd><a href="/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
