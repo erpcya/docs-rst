@@ -1,4 +1,4 @@
-.. |ventana de inicio de telegram| image:: resources/star-window.png
+.. |ventana de inicio de telegram| image:: resources/start-window.png
 .. |buscar bot de erpya| image:: resources/search-bot.png
 .. |seleccionar bot de erpya| image:: resources/select-bot.png
 .. |conversación inicial| image:: resources/bot-start.png
