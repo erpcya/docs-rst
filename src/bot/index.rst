@@ -1,10 +1,10 @@
 .. _ERPyA: http://erpya.com
 
-.. _src/telegram:
+.. _src/bot:
 
-============
-**Telegram**
-============
+=======
+**Bot**
+=======
 
 En todas las pequeñas, medianas y grandes empresas, es importante la interacción entre la empresa u organización y el socio del negocio. Es por ello que `ERPyA`_, presenta el siguiente material que explica la funcionalidad que tiene ADempiere con la red social **Telegram**.
 
