@@ -1,4 +1,5 @@
 .. _ERPyA: http://erpya.com
+
 .. |Estructura de Cuentas| image:: resources/Structure-Account.png
 
 .. _src/adempiere/performance-analysis/accounting-element:
@@ -34,7 +35,7 @@ Estas cuentas han sido estandarizadas a nivel mundial de la siguiente forma:
 +------------+------------+-----------+------------+------------+-----------+
 | Activos    | Pasivos    | Patrimonio| Ingresos   |Costos      |Gastos     |
 +============+============+===========+============+============+===========+
-| 1          | 2          | 3         | 2          | 3          | 6         |
+| 1          | 2          | 3         | 4          | 5          | 6         |
 +------------+------------+-----------+------------+------------+-----------+
 
 En ADempiere los códigos de las cuentas son conformados con números con la siguiente estructura:
