@@ -30,14 +30,15 @@ jobs:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
         build-command: "make latexpdf"
         docs-folder: "src/"
-    - uses: actions/upload-artifact@v1
-      with:
-        name: DocumentationPDF
-        path: src/_build/latex/erpya.pdf
+#    - uses: actions/upload-artifact@v1
+#      with:
+#        name: DocumentationPDF
+#        path: src/_build/latex/erpya.pdf
     - name: Commit documentation changes
       run: |
         git clone https://github.com/erpcya/docs.git --branch gh-pages --single-branch gh-pages
         cp -r src/_build/html/* gh-pages/
+        cp src/_build/latex/erpya.pdf gh-pages/
         cd gh-pages
         touch .nojekyll
         git config --local user.email "action@github.com"
