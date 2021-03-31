@@ -1,0 +1,408 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Registro de Pago &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Cobro" href="../collection/index.html" />
+    <link rel="prev" title="Pago" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bank-transfer/index.html"><strong>Transferencia Bancaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payment-selection/index.html"><strong>Selección de Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../print-export/index.html"><strong>Imprimir / Exportar Pagos</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Pago</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Registro de Pago</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-asignacion"><strong>Consultar Asignación</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../collection/index.html"><strong>Cobro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-refund/index.html"><strong>Caja Reembolso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-per-diems/index.html"><strong>Caja Viáticos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection-cash/index.html"><strong>Caja Cobranza</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pay-assignment/index.html"><strong>Asignación de Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-closing/index.html"><strong>Cierre de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../automatic-conciliations/index.html"><strong>Conciliaciones Automáticas</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Pago</strong></a> &raquo;</li>
+        
+      <li><strong>Registro de Pago</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/open-items/payment/payment.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-de-pago">
+<span id="documento-pago"></span><h1><strong>Registro de Pago</strong><a class="headerlink" href="#registro-de-pago" title="Permalink to this headline">¶</a></h1>
+<p>Para ejemplificar el procedimiento de generar un pago en ADempiere, es utilizada la factura por pagar “<strong>1000099</strong>”.</p>
+<blockquote>
+<div><p><img alt="Factura a Pagar" src="../../../_images/factura-pagar.png" /></p>
+<p>Imagen 1. Factura por Pagar</p>
+</div></blockquote>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la ventana “<strong>Pago/Cobro</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../_images/menu-pago.png" /></p>
+<p>Imagen 2. Menú de ADempiere</p>
+</div></blockquote>
+<p>Luego podrá visualizar la ventana “<strong>Pago/Cobro</strong>”, donde debe seleccionar el icono “<strong>Registro Nuevo</strong>” que se encuentra ubicado en la barra de herramientas de ADempiere para crear un nuevo registro en la ventana “<strong>Pago/Cobro</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo" src="../../../_images/icono-nuevo1.png" /></p>
+<p>Imagen 3. Icono Registro Nuevo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el documento “<strong>Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Organización" src="../../../_images/org-pago.png" /></p>
+<p>Imagen 4. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento" src="../../../_images/tipo-doc-pago.png" /></p>
+<p>Imagen 5. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la cuenta bancaria a la cual será realizado el pago.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta Bancaria" src="../../../_images/cuenta-ban.png" /></p>
+<p>Imagen 6. Campo Cuenta Bancaria</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción referente al pago que será realizado.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción" src="../../../_images/desc-pago.png" /></p>
+<p>Imagen 7. Campo Descripción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio proveedor al cual le será realizado el pago.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio Proveedor" src="../../../_images/socio-pro.png" /></p>
+<p>Imagen 8. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione la factura a pagar en el campo “<strong>Factura</strong>”, la misma puede ser seleccionada con ayuda del identificador de dicho campo.</p>
+<blockquote>
+<div><p><img alt="Identificador del Campo Factura" src="../../../_images/ident-factura.png" /></p>
+<p>Imagen 9. Identificador del Campo Factura</p>
+</div></blockquote>
+<p>Podrá visualizar la siguiente ventana de información de factura, donde debe seleccionar la factura a pagar y la opción “<strong>OK</strong>” para cargar los datos a la ventana “<strong>Pago/Cobro</strong>”.</p>
+<blockquote>
+<div><p><img alt="Selección de Factura y Opción OK" src="../../../_images/selec-fac-op-ok.png" /></p>
+<p>Imagen 10. Selección de Factura y Opción OK</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Total del Pago</strong>” el monto total de la factura, mismo monto total que se va a cancelar con el documento “<strong>Pago</strong>” que se esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Total del Pago" src="../../../_images/monto-pago.png" /></p>
+<p>Imagen 11. Campo Total del Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda correspondiente al pago que se esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda" src="../../../_images/moneda1.png" /></p>
+<p>Imagen 12. Campo Moneda</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Pago</strong>”, la forma utilizada para el pago.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Pago" src="../../../_images/tipo-pago.png" /></p>
+<p>Imagen 13. Campo Tipo de Pago</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, para guardar el registro de los campos en la ventana “<strong>Pago/Cobro</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios" src="../../../_images/guardar5.png" /></p>
+<p>Imagen 14. Icono Guardar Cambios</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Completar</strong>”, ubicada en la parte inferior derecha de la ventana.</p>
+<blockquote>
+<div><p><img alt="Opción Completar" src="../../../_images/completar4.png" /></p>
+<p>Imagen 15. Opción Completar Documento</p>
+</div></blockquote>
+<p>Seleccione la accion “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el documento “<strong>Pago</strong>” que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Acción Completar" src="../../../_images/accion-completar5.png" /></p>
+<p>Imagen 16. Acción Completar Documento</p>
+</div></blockquote>
+</div>
+<div class="section" id="consultar-asignacion">
+<h1><strong>Consultar Asignación</strong><a class="headerlink" href="#consultar-asignacion" title="Permalink to this headline">¶</a></h1>
+<p>Seleccione el icono “<strong>Visualiza Detalle</strong>” en el documento “<strong>Pago</strong>” generado anteriormente, para visualizar donde es usado el documento. Luego seleccione la opción “<strong>Consulta de Asignación</strong>” en el menú desplegado por el icono “<strong>Visualiza Detalle</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Visualiza Detalle" src="../../../_images/icono-vis-det.png" /></p>
+<p>Imagen 17. Icono Visualiza Detalle</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Consulta de Asignación</strong>”, con el registro nuevo de la asignación de pago generado al completar el documento “<strong>Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Asignación" src="../../../_images/asignacion.png" /></p>
+<p>Imagen 18. Pestaña Asignación</p>
+</div></blockquote>
+<p>En la pestaña “<strong>Asignaciones</strong>” podrá visualizar la información de asignación de pago de la factura por pagar seleccionada en el documento “<strong>Pago</strong>” y el pago realizado anteriormente.</p>
+<blockquote>
+<div><p><img alt="Pestaña Asignaciones" src="../../../_images/asignacion2.png" /></p>
+<p>Imagen 19. Pestaña Asignaciones</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../collection/index.html" class="btn btn-neutral float-right" title="Cobro" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Pago" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

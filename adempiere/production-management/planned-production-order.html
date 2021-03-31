@@ -1,0 +1,428 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Orden de Producción Planeada &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Producción" href="production.html" />
+    <link rel="prev" title="Gestión de Producción" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión de Producción</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Orden de Producción Planeada</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#registro-de-orden-de-produccion-planeada"><strong>Registro de Orden de Producción Planeada</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consulta-de-produccion"><strong>Consulta de Producción</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#linea-de-produccion"><strong>Línea de Producción</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="production.html"><strong>Producción</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="qa/index.html"><strong>Control de Calidad</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión de Producción</strong></a> &raquo;</li>
+        
+      <li><strong>Orden de Producción Planeada</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/production-management/planned-production-order.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="orden-de-produccion-planeada">
+<span id="documento-orden-de-produccion-planeada"></span><h1><strong>Orden de Producción Planeada</strong><a class="headerlink" href="#orden-de-produccion-planeada" title="Permalink to this headline">¶</a></h1>
+<p>Una orden de producción parte del proceso de planificación de producción de una determinada empresa, es elaborada basandose en los materiales o insumos de producción con los que cuenta la misma. Una vez ya planificada la producción se procede a realizar la autorización, o bien, la orden de producción.</p>
+<p>Por medio de este documento se lleva un control de los materiales, gastos, y el tiempo empleado por los trabajadores o maquinarias. Adicional a ello, indica los productos y la cantidad que se debe producir en un tiempo estimado.</p>
+<div class="section" id="registro-de-orden-de-produccion-planeada">
+<h2><strong>Registro de Orden de Producción Planeada</strong><a class="headerlink" href="#registro-de-orden-de-produccion-planeada" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione la carpeta “<strong>Producción Ligera</strong>”, por último seleccione la ventana “<strong>Órdenes de Producción Planeadas</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../_images/menu-of-planned-production-orders.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Órdenes de Producción Planeadas</strong>”, con todos los registros de órdenes de producción planeadas.</p>
+<blockquote>
+<div><p><img alt="Ventana Órdenes de Producción Planeadas" src="../../_images/planned-production-order-window.png" /></p>
+<p>Imagen 2. Ventana Órdenes de Producción Planeadas</p>
+<p>Seleccione en el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro en la ventana “<strong>Órdenes de Producción Planeadas</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo" src="../../_images/new-record-icon1.png" /></p>
+<p>Imagen 3. Icono Registro Nuevo</p>
+<p>Seleccione en el campo “<strong>Organización</strong>, la organización para la cual esta realizando el documento.</p>
+<blockquote>
+<div><p><img alt="Campo Organización de la Ventana Órdenes de Producción Planeadas" src="../../_images/field-organization-of-planned-production-orders-window.png" /></p>
+<p>Imagen 4. Campo Organización de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento Destino</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento de la Ventana Órdenes de Producción Planeadas" src="../../_images/document-type-field-in-the-planned-production-orders-window.png" /></p>
+<p>Imagen 5. Campo Tipo de Documento de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>No. del Documento</strong>”, el número de secuencia correspondiente al documento que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo No del Documento de la Ventana Órdenes de Producción Planeadas" src="../../_images/field-no-the-planned-production-orders-window-document.png" /></p>
+<p>Imagen 6. Campo No del Documento de la Ventana Órdenes de Producción Planeadas</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si no es ingresado ningún valor en este campo, ADempiere tomará el número de documento correspondiente a la secuencia que tiene el tipo de documento establecido.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de Movimiento</strong>”, la fecha en la cual fue realizado el movimiento.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Movimiento de la Ventana Órdenes de Producción Planeadas" src="../../_images/planned-move-orders-window-move-date-field.png" /></p>
+<p>Imagen 7. Campo Fecha de Movimiento de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción de la orden de producción que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Ventana Órdenes de Producción Planeadas" src="../../_images/description-field-of-the-planned-production-orders-window.png" /></p>
+<p>Imagen 8. Campo Descripción de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto involucrado en la orden de producción que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Producto de la Ventana Órdenes de Producción Planeadas" src="../../_images/product-field-from-the-planned-production-orders-window.png" /></p>
+<p>Imagen 9. Campo Producto de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Cantidad a Recibir</strong>”, la cantidad a producir del producto seleccionado.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad a Recibir de la Ventana Órdenes de Producción Planeadas" src="../../_images/quantity-field-to-receive-from-the-planned-production-orders-window.png" /></p>
+<p>Imagen 10. Campo Cantidad a Recibir de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Destilde el checklist “<strong>Producción Automática</strong>”, para que no sean creadas las producciones automáticamente.</p>
+<blockquote>
+<div><p><img alt="Checklist Producción Automática de la Ventana Órdenes de Producción Planeadas" src="../../_images/automatic-production-checklist-from-planned-production-orders-window.png" /></p>
+<p>Imagen 11. Checklist Producción Automática de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Ubicación</strong>”, la ubicación exacta en la cual se encontrará el producto en el almacén.</p>
+<blockquote>
+<div><p><img alt="Campo Ubicación de la Ventana Órdenes de Producción Planeadas" src="../../_images/planned-production-orders-window-location-field.png" /></p>
+<p>Imagen 12. Cam Ubicación de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>LDM y Fórmula</strong>”, la lista de materiales y la fórmula necesaria para la producción del producto.</p>
+<blockquote>
+<div><p><img alt="Campo LDM y Fórmula de la Ventana Órdenes de Producción Planeadas" src="../../_images/ldm-field-and-formula-for-planned-production-orders-window.png" /></p>
+<p>Imagen 13. Campo LDM y Fórmula de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Cantidad Ordenada</strong>”, la cantidad ordenada del producto.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad Ordenada de la Ventana Órdenes de Producción Planeadas" src="../../_images/ordered-quantity-field-in-the-planned-production-orders-window.png" /></p>
+<p>Imagen 14. Campo Cantidad Ordenada de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Cant. Completada</strong>”, la cantidad realizada por completo del producto.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad Completada de la Ventana Órdenes de Producción Planeadas" src="../../_images/quantity-completed-field-of-planned-production-orders-window.png" /></p>
+<p>Imagen 15. Campo Cant Completada de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Cantidad Órdenes</strong>”, la cantidad solicitada del producto en órdenes.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad Órdenes de la Ventana Órdenes de Producción Planeadas" src="../../_images/field-orders-quantity-from-the-planned-production-orders-window.png" /></p>
+<p>Imagen 16. Campo Cantidad Órdenes de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña <strong>Lote de Producción</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios en la Pestaña Lote de Producción de la Ventana Órdenes de Producción Planeadas" src="../../_images/save-changes-icon-from-the-production-batch-tab-of-the-planned-production-orders-window.png" /></p>
+<p>Imagen 17. Icono Guardar Cambios en la Pestaña Lote de Producción de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Completar</strong>”, para completar el documento “<strong>Orden de Producción Planeada</strong>” realizado.</p>
+<blockquote>
+<div><p><img alt="Opción Completar de la Pestaña Lote de Producción de la Ventana Órdenes de Producción Planeadas" src="../../_images/complete-option-from-the-production-batch-tab-of-the-planned-production-orders-window.png" /></p>
+<p>Imagen 18. Opción Completar de la Pestaña Lote de Producción de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el proceso.</p>
+<blockquote>
+<div><p><img alt="Acción Completar y Opción OK" src="../../_images/action-complete-and-option-ok1.png" /></p>
+<p>Imagen 19. Acción Completar y Opción OK de la Pestaña Lote de Producción de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Cantidad Ordenada</strong>”, la cantidad de productos ordenados en el documento “<strong>Orden de Producción Planeada</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad Ordenada Luego de Completar el Documento" src="../../_images/field-ordered-quantity-set-to-complete-the-document.png" /></p>
+<p>Imagen 20. Campo Cantidad Ordenada Luego de Completar el Documento</p>
+</div></blockquote>
+</div>
+<div class="section" id="consulta-de-produccion">
+<h2><strong>Consulta de Producción</strong><a class="headerlink" href="#consulta-de-produccion" title="Permalink to this headline">¶</a></h2>
+<p>Por cada producción completada en la pestaña “<strong>Encabezado de Producción</strong>”, de la ventana “<strong>Producción</strong>”, es generado automáticamente un registro general en la pestaña “<strong>Producción</strong>”, de la ventana “<strong>Órdenes de Producción Planeadas</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Producción de la Ventana Órdenes de Producción Planeadas" src="../../_images/production-tab-of-planned-production-orders-window.png" /></p>
+<p>Imagen 21. Pestaña Producción de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+<div class="section" id="linea-de-produccion">
+<h3><strong>Línea de Producción</strong><a class="headerlink" href="#linea-de-produccion" title="Permalink to this headline">¶</a></h3>
+<p>De igual manera, es generado automáticamente un registro detallado en la pestaña “<strong>Línea de Producción</strong>”, de la ventana “<strong>Órdenes de Producción Planeadas</strong>”, por cada producto asociado a la producción.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de Producción de la Ventana Órdenes de Producción Planeadas" src="../../_images/production-line-tab-of-planned-production-orders-window.png" /></p>
+<p>Imagen 22. Pestaña Línea de Producción de la Ventana Órdenes de Producción Planeadas</p>
+</div></blockquote>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="production.html" class="btn btn-neutral float-right" title="Producción" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Gestión de Producción" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

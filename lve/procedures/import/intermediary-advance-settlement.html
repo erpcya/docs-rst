@@ -1,0 +1,642 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Liquidación Anticipo Intermediario &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Gestión de Consignación" href="../consignment-management/index.html" />
+    <link rel="prev" title="Anticipo a Proveedores en Tránsito" href="advance-payment-to-transit-providers.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../human-resources/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payroll/index.html"><strong>Gestión de Nóminas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../treasury-management/index.html"><strong>Gestión de Tesorería</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Gestión de Importación</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="import.html"><strong>Importación</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="advance-payment-to-transit-providers.html"><strong>Anticipo a Proveedores en Tránsito</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Liquidación Anticipo Intermediario</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#carga-de-anticipo"><strong>Carga de Anticipo</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#carga-de-factura-de-cuentas-por-pagar"><strong>Carga de Factura de Cuentas por Pagar</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cancelacion-o-cruce-de-anticipo-con-cuentas-por-pagar"><strong>Cancelación ó Cruce de Anticipo con Cuentas por Pagar</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#conciliacion-de-liquidacion"><strong>Conciliación de Liquidación</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../withholding-management/index.html"><strong>Gestión de Retenciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión de Importación</strong></a> &raquo;</li>
+        
+      <li><strong>Liquidación Anticipo Intermediario</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/lve/procedures/import/intermediary-advance-settlement.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="liquidacion-anticipo-intermediario">
+<span id="documento-liquidacion-anticipo-intermeiario"></span><h1><strong>Liquidación Anticipo Intermediario</strong><a class="headerlink" href="#liquidacion-anticipo-intermediario" title="Permalink to this headline">¶</a></h1>
+<p>Posterior a la concesión del anticipo, será justificado el anticipo relacionando los gastos (Facturas) es entonces cuando se procede a liquidar los anticipos concedidos al gestor de importación.</p>
+<p>La operación de anticipos a terceros está compuesta por cinco fases u operaciones las cuales no tienen porqué ser todas necesarias en el proceso de liquidación:</p>
+<ul class="simple">
+<li><p>Anticipo a terceros(Gestor)</p></li>
+<li><p>Registrar justificantes(Carga de Facturas de Cuentas por Pagar)</p></li>
+<li><p>Relación de Pasivos(Gestor)</p></li>
+<li><p>Incremento de anticipo a terceros(Gestor)</p></li>
+<li><p>Liquidación de Anticipos y CxP</p></li>
+</ul>
+<div class="section" id="carga-de-anticipo">
+<span id="paso-carga-anticipo"></span><h2><strong>Carga de Anticipo</strong><a class="headerlink" href="#carga-de-anticipo" title="Permalink to this headline">¶</a></h2>
+<p>La transferencia representa un proceso en el cual se generan los pagos por concepto de anticipos al gestor(s), el mismo requiere conocimientos básicos en el proceso actual de tesorería en ADempiere.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Se requiere la definición de una caja intermediario para la liquidación de anticipo, para esto contacte a un consultor de <strong>E.R.P. Consultores y Asociados</strong>.</p>
+</div>
+<p>El traslado de fondo reflejará en la cuenta de banco un egreso por el anticipo (Pago a Conciliar) y genera un ingreso en la cuenta puente (Caja Intermediario _NumOrden_Proveedor) que será utilizado para gestionar los pagos de terceros, cuando a un gestor se le conceda un anticipo, el mismo se gestionará a través de la caja creada previamente.</p>
+<p>En primer lugar se creará el anticipo gestionando un traslado de fondos mediante el proceso de transferencia  a la caja (Caja Intermediario _NumOrden_Proveedor)  y se paga desde el banco en el cual sale realmente el pago.</p>
+<p>Para realizar tal procedimiento en ADempiere se debe realizar un transferencia, la transferencia bancaria es el proceso mediante el cual se realizan los traslados de fondos entre cuentas (Banco Real a Caja Intermediario _NumOrden_Proveedor), a continuación se define el proceso para realizar una transferencia bancaria en ADempiere.</p>
+<p>Ubique y seleccione en el menú de ADempiere la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione el proceso “<strong>Transferencia Bancaria</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 1" src="../../../_images/menutransf.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Realizar una transferencia bancaria con las siguientes condiciones:</p>
+<blockquote>
+<div><p><strong>Banco Desde</strong>: Banco desde la cual se cancelará el anticipo</p>
+<p><strong>Banco a Transferir</strong>: Cuenta caja de importación definida anteriormente.</p>
+<p><strong>Socio del Negocio</strong>: Socio del Negocio al cual se le cancelará el anticipo.</p>
+<p><strong>Moneda</strong>: Moneda en la cual se cancelará la transferencia</p>
+<p><strong>Cargo</strong>: Cargo correspondiente al anticipo “<strong>Anticipo a Tercero</strong>”.</p>
+<p><strong>Número del Documento</strong>: Referencia correspondiente a la transferencia bancaria.</p>
+<p><strong>Monto</strong>: Monto del anticipo.</p>
+<p><strong>Descripción</strong>: Breve descripción sobre la transferencia.</p>
+<p><strong>Fecha de Estado de Cuenta</strong>: Fecha de la transferencia realizada.</p>
+<p><strong>Fecha Contable</strong>: Fecha de la transferencia realizada.</p>
+</div></blockquote>
+<p>Resultados:</p>
+<blockquote>
+<div><p><strong>Egreso</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Resultado</strong>: Se realiza un egreso en banco por el monto a cancelar.</p></li>
+<li><p><strong>Resultado Contable</strong>: A continuación se presenta un ejemplo de un resultado contable.</p></li>
+</ul>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 12%" />
+<col style="width: 50%" />
+<col style="width: 18%" />
+<col style="width: 19%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Organización</p></th>
+<th class="head"><p>Cuenta</p></th>
+<th class="head"><p>Débito Contabilizado</p></th>
+<th class="head"><p>Crédito Contabilizado</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Organización</p></td>
+<td><p>1.1.2.4.1.003 - TRANSITO ANTICIPO INTERMEDIARIOS</p></td>
+<td><p>64.000.000,00</p></td>
+<td><p>0,00</p></td>
+</tr>
+<tr class="row-odd"><td><p>Organización</p></td>
+<td><p>1.1.1.1.2.1.011.002 - TRANSITO BANESCO BANCO UNIVERSAL C.A.</p></td>
+<td><p>0,00</p></td>
+<td><p>64.000.000,00</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>64.000.000,00</p></td>
+<td><p>64.000.000,00</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p><strong>Ingreso</strong>:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Resultado</strong>: Se realiza un ingreso en caja por el monto a cancelar</p></li>
+<li><p><strong>Resultado Contable</strong>: A continuación se presenta un ejemplo de un resultado contable.</p></li>
+</ul>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 53%" />
+<col style="width: 17%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Organización</p></th>
+<th class="head"><p>Cuenta</p></th>
+<th class="head"><p>Débito Contabilizado</p></th>
+<th class="head"><p>Crédito Contabilizado</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Organización</p></td>
+<td><p>1.1.2.4.1.002 - ANTICIPOS A INTERMEDIARIOS PENDIENTES POR CONCILIAR</p></td>
+<td><p>64.000.000,00</p></td>
+<td><p>0,00</p></td>
+</tr>
+<tr class="row-odd"><td><p>Organización</p></td>
+<td><p>1.1.2.4.1.003 - TRANSITO ANTICIPO INTERMEDIARIOS</p></td>
+<td><p>0,00</p></td>
+<td><p>64.000.000,00</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>64.000.000,00</p></td>
+<td><p>64.000.000,00</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</div></blockquote>
+<p>A continuación se presenta un ejemplo de la ventana “<strong>Transferencia Bancaria</strong>”.</p>
+<blockquote>
+<div><p><img alt="Ejemplo de Transferencia Bancaria" src="../../../_images/transferencia.png" /></p>
+<p>Imagen 2. Ejemplo de Transferencia Bancaria</p>
+</div></blockquote>
+</div>
+<div class="section" id="carga-de-factura-de-cuentas-por-pagar">
+<span id="paso-carga-factura-cxp"></span><h2><strong>Carga de Factura de Cuentas por Pagar</strong><a class="headerlink" href="#carga-de-factura-de-cuentas-por-pagar" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 2" src="../../../_images/menufactura.png" /></p>
+<p>Imagen 3. Menú de ADempiere</p>
+</div></blockquote>
+<p>Realice el procedimiento habitual para crear los documentos por pagar necesarios, explicado en el material <a class="reference internal" href="../../../adempiere/requisition-to-invoice/invoice/invoice.html#documento-documento-por-pagar"><span class="std std-ref">Registro de Documento por Pagar</span></a> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para ejemplificar el registro se realizan tres facturas como relación entregada por el intermediario gestor de la importacióncon.</p>
+<p>Factura “<strong>1000020</strong>”, con socio del negocio “<strong>Bolivariana de Puertos  ( Bolipuertos)  S A</strong>” y moneda “<strong>VES</strong>”.</p>
+<blockquote>
+<div><p><img alt="Documento por Pagar 1" src="../../../_images/doc1.png" /></p>
+<p>Imagen 4. Documento por Pagar</p>
+<p>Podrá visualizar en la pestaña “<strong>Línea de la Factura</strong>”, el cargo “<strong>Gastos Aduanales</strong>” utilizado para generar el documento por pagar con el monto de “<strong>1.550.000,00</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de la Factura 1" src="../../../_images/linea13.png" /></p>
+<p>Imagen 5. Pestaña Línea de la Factura</p>
+</div></blockquote>
+</div></blockquote>
+<p>Factura “<strong>1000022</strong>”, con socio del negocio “<strong>Dhl Express Aduanas Venezuela C.A.</strong>” y moneda “<strong>VES</strong>”.</p>
+<blockquote>
+<div><p><img alt="Documento por Pagar 2" src="../../../_images/doc2.png" /></p>
+<p>Imagen 6. Documento por Pagar</p>
+<p>Podrá visualizar en la pestaña “<strong>Línea de la Factura</strong>”, el cargo “<strong>Flete Aduanales</strong>” utilizado para generar el documento por pagar con el monto de “<strong>2.400.000,00</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de la Factura 2" src="../../../_images/linea21.png" /></p>
+<p>Imagen 7. Pestaña Línea de la Factura</p>
+</div></blockquote>
+</div></blockquote>
+<p>Factura “<strong>1000023</strong>”, con socio del negocio “<strong>Dhl Express Aduanas Venezuela C.A.</strong>” y moneda “<strong>VES</strong>”.</p>
+<blockquote>
+<div><p><img alt="Documento por Pagar 3" src="../../../_images/doc3.png" /></p>
+<p>Imagen 8. Documento por Pagar</p>
+<p>Podrá visualizar en la pestaña “<strong>Línea de la Factura</strong>”, el cargo “<strong>Honorarios Profesionales</strong>” utilizado para generar el documento por pagar con el monto de “<strong>27.000.000,00</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de la Factura 3" src="../../../_images/linea31.png" /></p>
+<p>Imagen 9. Pestaña Línea de la Factura</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si ya se encuentra recepcionada la mercancía debe seguir el procedimiento de costos adicionales asociado a una recepción, de otro modo debe ser cargada de forma regular y ser reversada mediante un ajuste de crédito al recepcionar la mercancía, cargando un ajuste de débito con el procedimiento de costo adicional.</p>
+</div>
+</div>
+<div class="section" id="cancelacion-o-cruce-de-anticipo-con-cuentas-por-pagar">
+<span id="paso-cancelacion-cruce-anticipo-cuentas"></span><h2><strong>Cancelación ó Cruce de Anticipo con Cuentas por Pagar</strong><a class="headerlink" href="#cancelacion-o-cruce-de-anticipo-con-cuentas-por-pagar" title="Permalink to this headline">¶</a></h2>
+<p>La caja a definir funge en el procedimiento de anticipos a terceros como un puente para el registro y pago de los anticipos a proveedores intermediarios en el proceso de importación y para la posterior liquidación de las facturas entregadas en la relación de gastos o costos de nacionalización y cierre de los anticipos.</p>
+<p>En la siguiente ventana de “<strong>Caja</strong>” se realizan todos los pagos de las facturas pendientes por cancelar, a continuación se define el proceso de caja en ADempiere.</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 3" src="../../../_images/menucaja.png" /></p>
+<p>Imagen 10. Menú de ADempiere</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El requerimiento principal para realizar el proceso de gestión de caja de intermediario es tener una definición de caja creada.</p>
+</div>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el documento “<strong>Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Organización 1" src="../../../_images/org31.png" /></p>
+<p>Imagen 11. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>” la cuenta caja correspondiente al documento que esta realizando. Para ejemplificar el registro es utilizada la opción “<strong>Caja Intermediarios - –_OCI-1000024_Estandar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta Bancaria 1" src="../../../_images/cuenta3.png" /></p>
+<p>Imagen 12. Campo Cuenta Bancaria</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para ejemplificar el registro es utilizada la opción “<strong>Pago Nacional</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento 1" src="../../../_images/tipodoc31.png" /></p>
+<p>Imagen 13. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Factura</strong>”, la factura que será reflejada en la caja que esta realizando. Para ejemplificar el registro es utilizada la factura “<strong>1000023</strong>” creada anteriormente.</p>
+<blockquote>
+<div><p><img alt="Campo Factura 1" src="../../../_images/factura21.png" /></p>
+<p>Imagen 14. Campo Factura</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar los cambios realizados seleccionando el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Completar</strong>”, ubicada en la parte inferior del documento.</p>
+<blockquote>
+<div><p><img alt="Opción Completar 2" src="../../../_images/completar41.png" /></p>
+<p>Imagen 15. Opción Completar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>Ok</strong>” para completar el documento “<strong>Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Acción Completar" src="../../../_images/accion11.png" /></p>
+<p>Imagen 16. Acción Completar</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Repita el procedimiento con todos los documentos por pagar importación correspondientes a la relación entregada por el intermediario gestor de la importación.</p>
+</div>
+<p>Cuentas por pagar emite una “<strong>Solicitud de Pago</strong>” seleccionando la caja creada previamente y asociando todas las facturas de la relación entregada por el intermediario gestor de la importación.</p>
+<p>Tesorería ejecuta el proceso de “<strong>Imprimir/Exportar</strong>” llamando la solicitud de pago creada previamente.</p>
+<p>Resultados:</p>
+<blockquote>
+<div><p><strong>Egreso</strong>:</p>
+<blockquote>
+<div><ul>
+<li><p><strong>Resultado</strong>: Se genera un egreso en caja por el monto a cancelar.</p></li>
+<li><p><strong>Resultado Contable en Caja</strong>:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 53%" />
+<col style="width: 17%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Organización</p></th>
+<th class="head"><p>Cuenta</p></th>
+<th class="head"><p>Débito Contabilizado</p></th>
+<th class="head"><p>Crédito Contabilizado</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Organización</p></td>
+<td><p>2.1.4.1.3.002 - SELECCIÓN DE PAGOS</p></td>
+<td><p>27.000.000,00</p></td>
+<td><p>0,00</p></td>
+</tr>
+<tr class="row-odd"><td><p>Organización</p></td>
+<td><p>1.1.2.4.1.002 - ANTICIPOS A INTERMEDIARIOS PENDIENTES POR CONCILIAR</p></td>
+<td><p>0,00</p></td>
+<td><p>27.000.000,00</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>27.000.000,00</p></td>
+<td><p>27.000.000,00</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+<li><p><strong>Resultado Contable en Asignación entre Factura y Pago</strong>:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 53%" />
+<col style="width: 17%" />
+<col style="width: 18%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Organización</p></th>
+<th class="head"><p>Cuenta</p></th>
+<th class="head"><p>Débito Contabilizado</p></th>
+<th class="head"><p>Crédito Contabilizado</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Organización</p></td>
+<td><p>2.1.1.1.1.001 - CUENTAS POR PAGAR PROVEEDORES NACIONALES</p></td>
+<td><p>27.000.000,00</p></td>
+<td><p>0,00</p></td>
+</tr>
+<tr class="row-odd"><td><p>Organización</p></td>
+<td><p>2.1.4.1.3.002 - SELECCIÓN DE PAGOS</p></td>
+<td><p>0,00</p></td>
+<td><p>27.000.000,00</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>27.000.000,00</p></td>
+<td><p>27.000.000,00</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="conciliacion-de-liquidacion">
+<span id="paso-conciliacion-liquidacion"></span><h2><strong>Conciliación de Liquidación</strong><a class="headerlink" href="#conciliacion-de-liquidacion" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Cierre de Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 4" src="../../../_images/menucierre1.png" /></p>
+<p>Imagen 17. Menú de ADempiere</p>
+</div></blockquote>
+<p>Realice el procedimiento regular para generar el cierre de caja, explicado en la <a class="reference internal" href="import.html#paso-cierre-caja-importacion"><span class="std std-ref">Conciliación de Pagos</span></a> del documento “<strong>Importación</strong>”, seleccionando la caja intermediario creada. Luego de completar el procedimiento podrá apreciar en el campo “<strong>Saldo Final</strong>”, el saldo abierto que posee el gestor intermediario.</p>
+<blockquote>
+<div><p><img alt="Cierre de Caja" src="../../../_images/cierrecaja.png" /></p>
+<p>Imagen 18. Cierre de Caja</p>
+<p>Podrá apreciar en la pestaña “<strong>Línea de Cierre de Caja</strong>”, los diferentes registros creados desde el proceso “<strong>Crear a Partir de Pagos</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de Cierre de Caja" src="../../../_images/linea41.png" /></p>
+<p>Imagen 19. Pestaña Línea de Cierre de Caja</p>
+</div></blockquote>
+<p>Para generar el reporte del balance de caja y visualizar los saldos abiertos que posee el gestor intermediario, seleccione en la ventana “<strong>Cierre de Caja</strong>” el icono “<strong>Informe</strong>”, que se encuentra ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Informe" src="../../../_images/cierrecaja2.png" /></p>
+<p>Imagen 20. Icono Informe</p>
+</div></blockquote>
+<p>Podrá visualizar el balance de caja de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Reporte de Balance" src="../../../_images/reporte.png" /></p>
+<p>Imagen 21. Reporte de Balance</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../consignment-management/index.html" class="btn btn-neutral float-right" title="Gestión de Consignación" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="advance-payment-to-transit-providers.html" class="btn btn-neutral float-left" title="Anticipo a Proveedores en Tránsito" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

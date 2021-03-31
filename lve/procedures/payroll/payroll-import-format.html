@@ -1,0 +1,3971 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Formatos de Importación de Nóminas &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Cancelación de Pasivo con Intermediarios" href="bonus-cancellation-with-intermediary.html" />
+    <link rel="prev" title="Gestión de Nóminas" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../human-resources/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Gestión de Nóminas</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Formatos de Importación de Nóminas</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#nominas-regulares"><strong>Nóminas Regulares</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#acumulado-dias-trabajados-en-el-ano"><strong>Acumulado Días Trabajados en el Año</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#acumulado-provision-antiguedad-de-prestaciones"><strong>Acumulado Provisión Antigüedad de Prestaciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#acumulado-provision-bono-vacacional"><strong>Acumulado Provisión Bono Vacacional</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#acumulado-provision-disfrute-de-vacaciones"><strong>Acumulado Provisión Disfrute de Vacaciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#acumulado-provision-garantia-de-prestaciones"><strong>Acumulado Provisión Garantía de Prestaciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#acumulado-provision-intereses-prestaciones-de-antiguedad"><strong>Acumulado Provisión Intereses Prestaciones de Antigüedad</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#acumulado-provision-intereses-prestaciones-de-garantia"><strong>Acumulado Provisión Intereses Prestaciones de Garantía</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#acumulado-provision-literal-c"><strong>Acumulado Provisión Literal C</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#acumulado-provision-utilidades"><strong>Acumulado Provisión Utilidades</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#acumulado-utilidades"><strong>Acumulado Utilidades</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#dias-totales-de-la-nomina"><strong>Días Totales de la Nómina</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#provision-antiguedad-de-prestaciones"><strong>Provisión Antigüedad de Prestaciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#provision-garantia-de-prestaciones"><strong>Provisión Garantía de Prestaciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#provision-intereses-antiguedad-de-prestaciones"><strong>Provisión Intereses Antigüedad de Prestaciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#provision-intereses-garantia-de-prestaciones"><strong>Provisión Intereses Garantía de Prestaciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#salario-integral"><strong>Salario Integral</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#salario-normal"><strong>Salario Normal</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#salario-normal-mensual"><strong>Salario Normal Mensual</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#nomina-de-vacaciones"><strong>Nómina de Vacaciones</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#fecha-de-vacaciones-anteriores"><strong>Fecha de Vacaciones Anteriores</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fecha-real-de-salida-de-vacaciones"><strong>Fecha Real de Salida de Vacaciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#total-de-asignaciones-de-la-nomina-de-vacaciones-anterior"><strong>Total de Asignaciones de la Nómina de Vacaciones Anterior</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#dias-totales-de-vacaciones-de-la-nomina-de-vacaciones-anterior"><strong>Días Totales de Vacaciones de la Nómina de Vacaciones Anterior</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#nomina-de-utilidades"><strong>Nómina de Utilidades</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#fecha-de-utilidades-anteriores"><strong>Fecha de Utilidades Anteriores</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#nomina-anticipo-de-vacaciones"><strong>Nómina Anticipo de Vacaciones</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#dias-anticipo-de-vacaciones"><strong>Días Anticipo de Vacaciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#nomina-anticipo-de-prestaciones-sociales"><strong>Nómina Anticipo de Prestaciones Sociales</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#anticipo-de-prestaciones-sociales"><strong>Anticipo de Prestaciones Sociales</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#nomina-de-prestaciones-sociales"><strong>Nómina de Prestaciones Sociales</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#acumulado-por-prestaciones-de-garantia"><strong>Acumulado por Prestaciones de Garantía</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#acumulado-por-prestaciones-de-antiguedad"><strong>Acumulado por Prestaciones de Antiguedad</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#porcion-mensual-prestaciones-de-garantia"><strong>Porción Mensual Prestaciones de Garantía</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#porcion-mensual-intereses-prestaciones-de-garantia"><strong>Porción Mensual Intereses Prestaciones de Garantía</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#promedio-salario-vacaciones"><strong>Promedio Salario Vacaciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#promedio-salario-prestaciones"><strong>Promedio Salario Prestaciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#promedio-salario-utilidades"><strong>Promedio Salario Utilidades</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="bonus-cancellation-with-intermediary.html"><strong>Cancelación de Pasivo con Intermediarios</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="loans-to-employees/index.html"><strong>Préstamos a Empleados</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="arcv-report/index.html"><strong>Generar Reporte de ARCV en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="payroll-report/index.html"><strong>Reporte de Nómina en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="procedure-to-process-payroll/index.html"><strong>Procedimiento para Procesar Nómina</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../treasury-management/index.html"><strong>Gestión de Tesorería</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../import/index.html"><strong>Gestión de Importación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../withholding-management/index.html"><strong>Gestión de Retenciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión de Nóminas</strong></a> &raquo;</li>
+        
+      <li><strong>Formatos de Importación de Nóminas</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/lve/procedures/payroll/payroll-import-format.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="formatos-de-importacion-de-nominas">
+<span id="documento-formato-de-importacion-de-nomina"></span><h1><strong>Formatos de Importación de Nóminas</strong><a class="headerlink" href="#formatos-de-importacion-de-nominas" title="Permalink to this headline">¶</a></h1>
+<p>ADempiere requiere diferentes formatos de importación para ejecutar sus nóminas, dichos formatos se agrupan según la nómina a la que pertenecen:</p>
+<ul class="simple">
+<li><p>Nóminas Regulares.</p></li>
+<li><p>Nómina de Vacaciones</p></li>
+<li><p>Nómina de Utilidades</p></li>
+<li><p>Nómina Anticipo de Vacaciones</p></li>
+<li><p>Nómina Anticipo de Prestaciones Sociales</p></li>
+<li><p>Nómina de Prestaciones Sociales</p></li>
+</ul>
+</div>
+<div class="section" id="nominas-regulares">
+<h1><strong>Nóminas Regulares</strong><a class="headerlink" href="#nominas-regulares" title="Permalink to this headline">¶</a></h1>
+<p>ERPyA requiere los siguientes formatos de importación de “<strong>Nóminas Regulares</strong>”.</p>
+<div class="section" id="acumulado-dias-trabajados-en-el-ano">
+<h2><strong>Acumulado Días Trabajados en el Año</strong><a class="headerlink" href="#acumulado-dias-trabajados-en-el-ano" title="Permalink to this headline">¶</a></h2>
+<p>Representa la cantidad de días que lleva acumulados el empleado, desde el inicio de su periodo anual, siendo este el inicio de los días que acumula para las utilidades, o en su defecto desde la fecha de ingreso del empleado. Este concepto será almacenado con la finalidad de que sea utilizado para el cálculo del promedio de salario utilidades.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se debe modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="formato-de-importacion">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#formato-de-importacion" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td colspan="2"><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</td>
+<td><p>AC_DTA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_DTA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_DTA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_DTA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="acumulado-provision-antiguedad-de-prestaciones">
+<h2><strong>Acumulado Provisión Antigüedad de Prestaciones</strong><a class="headerlink" href="#acumulado-provision-antiguedad-de-prestaciones" title="Permalink to this headline">¶</a></h2>
+<p>Representa al monto total que lleva acumulado cada empleado  por concepto de provisión antigüedad de prestaciones, utilizados en reportes para comparar los montos en la contabilidad con los montos en la nómina y posteriormente utilizados para la cancelación de dicha provisión. Cabe destacar que el valor de esta provisión es fundamental para el cálculo de sus prestaciones sociales.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se debe modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id1">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PAP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PAP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PAP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PAP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="acumulado-provision-bono-vacacional">
+<h2><strong>Acumulado Provisión Bono Vacacional</strong><a class="headerlink" href="#acumulado-provision-bono-vacacional" title="Permalink to this headline">¶</a></h2>
+<p>Representa al monto total que lleva acumulado cada empleado por concepto de provisión de bono vacacional, utilizados en reportes para comparar los montos en la contabilidad con los montos en la nómina y posteriormente utilizados para la cancelación de dicha provisión.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id2">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td colspan="2"><div class="line-block">
+<div class="line"><br /></div>
+</div>
+</td>
+<td><p>AC_PBV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PBV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PBV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PBV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="acumulado-provision-disfrute-de-vacaciones">
+<h2><strong>Acumulado Provisión Disfrute de Vacaciones</strong><a class="headerlink" href="#acumulado-provision-disfrute-de-vacaciones" title="Permalink to this headline">¶</a></h2>
+<p>Representa al monto total que lleva acumulado cada empleado por concepto de provisión de disfrute de vacaciones, utilizados en reportes para comparar los montos en la contabilidad con los montos en la nómina y posteriormente utilizados para la cancelación de dicha provisión.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id3">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PDV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PDV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PDV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PDV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="acumulado-provision-garantia-de-prestaciones">
+<h2><strong>Acumulado Provisión Garantía de Prestaciones</strong><a class="headerlink" href="#acumulado-provision-garantia-de-prestaciones" title="Permalink to this headline">¶</a></h2>
+<p>Representa al monto total que lleva acumulado cada empleado por concepto de provisión de garantía de prestaciones, utilizados en reportes para comparar los montos en la contabilidad con los montos en la nómina y posteriormente utilizados para la cancelación de dicha provisión. Cabe destacar que el valor de esta provisión es fundamental para el cálculo de sus prestaciones sociales</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id4">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PGP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PGP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PGP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PGP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="acumulado-provision-intereses-prestaciones-de-antiguedad">
+<h2><strong>Acumulado Provisión Intereses Prestaciones de Antigüedad</strong><a class="headerlink" href="#acumulado-provision-intereses-prestaciones-de-antiguedad" title="Permalink to this headline">¶</a></h2>
+<p>Representa al monto total que lleva acumulado cada empleado por concepto de provisión de intereses antigüedad de prestaciones,  utilizados en reportes para comparar los montos en la contabilidad con los montos en la nómina y posteriormente utilizados para la cancelación de dicha provisión. Cabe destacar que el valor de esta provisión es fundamental para el cálculo de sus prestaciones sociales</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id5">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PIPA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PIPA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PIPA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PIPA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="acumulado-provision-intereses-prestaciones-de-garantia">
+<h2><strong>Acumulado Provisión Intereses Prestaciones de Garantía</strong><a class="headerlink" href="#acumulado-provision-intereses-prestaciones-de-garantia" title="Permalink to this headline">¶</a></h2>
+<p>Representa al monto total que lleva acumulado cada empleado por concepto de provisión intereses garantía de prestaciones,utilizados en reportes para comparar los montos en la contabilidad con los montos en la nómina y posteriormente utilizados para la cancelación de dicha provisión. Cabe destacar que el valor de esta provisión es fundamental para el cálculo de sus prestaciones sociales.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id6">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PIPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PIPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PIPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PIPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="acumulado-provision-literal-c">
+<h2><strong>Acumulado Provisión Literal C</strong><a class="headerlink" href="#acumulado-provision-literal-c" title="Permalink to this headline">¶</a></h2>
+<p>Representa al monto total que lleva acumulado cada empleado por concepto de provisión literal C, utilizados en reportes para comparar los montos en la contabilidad con los montos en la nómina y posteriormente utilizados para la cancelación de dicha provisión. Cabe destacar que el valor de esta provisión es fundamental para el cálculo de sus prestaciones sociales.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id7">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PLC</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PLC</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PLC</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PLC</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="acumulado-provision-utilidades">
+<h2><strong>Acumulado Provisión Utilidades</strong><a class="headerlink" href="#acumulado-provision-utilidades" title="Permalink to this headline">¶</a></h2>
+<p>Representa al monto total que lleva acumulado cada empleado por concepto de provisión de utilidades, utilizados en reportes para comparar los montos en la contabilidad con los montos en la nómina y posteriormente utilizados para la cancelación de dicha provisión. Cabe destacar que el valor de esta provisión es fundamental para el cálculo de sus prestaciones sociales.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id8">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PUT</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PUT</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_PUT</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_PUT</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="acumulado-utilidades">
+<h2><strong>Acumulado Utilidades</strong><a class="headerlink" href="#acumulado-utilidades" title="Permalink to this headline">¶</a></h2>
+<p>Representa el monto acumulado para el cálculo de las utilidades de cada empleado, desde el inicio de su periodo anual, siendo este el inicio de los días que acumula para las utilidades, o en su defecto desde la fecha de ingreso del empleado. Este concepto será almacenado con la finalidad de que sea utilizado para el cálculo del promedio de salario utilidades.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id9">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_UT</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_UT</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>AC_UT</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>AC_UT</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="dias-totales-de-la-nomina">
+<h2><strong>Días Totales de la Nómina</strong><a class="headerlink" href="#dias-totales-de-la-nomina" title="Permalink to this headline">¶</a></h2>
+<p>El concepto días totales de la nómina (días hábiles laborados), se utiliza para calcular el promedio del salario en las vacaciones. Cabe destacar que los datos de este formulario son necesarios los tres (3) meses anteriores para los procesos de “<strong>Nómina Semanal Mixta (NSM)</strong>”, “<strong>Nómina Quincenal Mixta (NQM)</strong>” o “<strong>Nómina Mensual Mixta (NMM)</strong>”.  Sí su proceso de nómina es “<strong>Nómina Semanal (NS)</strong>”, “<strong>Nómina Quincenal (NM)</strong>” o “<strong>Nómina Mensual (NM)</strong>”, debe suministrar los datos solamente del mes anterior al momento de la implementación de ADempiere.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Si el empleado posee más de tres (3) meses trabajando en la empresa debe cargar el valor de los días hábiles laborados durante el periodo de nómina a partir de los tres (3) meses anteriores (nómina por nómina debe cargar cuántos días laboró), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.</p></li>
+<li><p>Si el empleado posee menos de tres (3) meses trabajando en la empresa debe cargar el valor de los días hábiles laborados durante el periodo de nómina desde el ingreso del empleado (nómina por nómina debe cargar cuántos días laboró), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.</p></li>
+</ul>
+<div class="section" id="id10">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>CR_DTN</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>CR_DTN</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>CR_DTN</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>CR_DTN</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="provision-antiguedad-de-prestaciones">
+<h2><strong>Provisión Antigüedad de Prestaciones</strong><a class="headerlink" href="#provision-antiguedad-de-prestaciones" title="Permalink to this headline">¶</a></h2>
+<p>Representa la provisión calculada a cada empleado durante los 12 meses anteriores, dicho monto será fundamental para el cálculo de las prestaciones sociales. <strong>Debe registrar los datos obtenidos por los empleados (nómina por nómina) durante el periodo de los doce (12) meses anteriores</strong>.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id11">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>PR_AP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>PR_AP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>PR_AP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>PR_AP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="provision-garantia-de-prestaciones">
+<h2><strong>Provisión Garantía de Prestaciones</strong><a class="headerlink" href="#provision-garantia-de-prestaciones" title="Permalink to this headline">¶</a></h2>
+<p>Representa la provisión calculada a cada empleado durante los tres (3) meses anteriores, dicho monto será fundamental para el cálculo de las prestaciones sociales. <strong>Debe registrar los datos obtenidos por los empleados (nómina por nómina) durante el periodo de los tres (3) meses anteriores</strong>.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id12">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>PR_GP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>PR_GP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>PR_GP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>PR_GP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="provision-intereses-antiguedad-de-prestaciones">
+<h2><strong>Provisión Intereses Antigüedad de Prestaciones</strong><a class="headerlink" href="#provision-intereses-antiguedad-de-prestaciones" title="Permalink to this headline">¶</a></h2>
+<p>Representa la provisión calculada a cada empleado durante los doce (12) meses anteriores, dicho monto será fundamental para el cálculo de las prestaciones sociales. <strong>Debe registrar los datos obtenidos por los empleados (nómina por nómina) durante el periodo de los doce (12) meses anteriores</strong>.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id13">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>PR_IPA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>PR_IPA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>PR_IPA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>PR_IPA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="provision-intereses-garantia-de-prestaciones">
+<h2><strong>Provisión Intereses Garantía de Prestaciones</strong><a class="headerlink" href="#provision-intereses-garantia-de-prestaciones" title="Permalink to this headline">¶</a></h2>
+<p>Representa la provisión calculada a cada empleado durante los tres (3) meses anteriores, dicho monto será fundamental para el cálculo de las prestaciones sociales. <strong>Debe registrar los Datos obtenidos por los empleados (nómina por nómina) durante el periodo de los tres (3) meses anteriores</strong>.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id14">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>PR_IPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>PR_IPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>PR_IPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>PR_IPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="salario-integral">
+<h2><strong>Salario Integral</strong><a class="headerlink" href="#salario-integral" title="Permalink to this headline">¶</a></h2>
+<p>Se utiliza para promediar el salario integral de los empleados. Cabe destacar que los datos de este formulario son necesarios solamente si existen procesos de “<strong>Nóminas Semanales Mixta (NSM)</strong>”, “<strong>Nóminas Quincenales Mixta (NQM)</strong>” o “<strong>Nóminas Mensuales Mixta (NMM)</strong>”. Sí su proceso de nómina es “<strong>Nómina Semanal (NS)</strong>”, “<strong>Nómina Quincenal (NM)</strong>” o “<strong>Nómina Mensual (NM)</strong>”, debe suministrar los datos solamente del mes anterior al momento de la implementación del ADempiere.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera mmddyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Si el empleado posee más de seis (6) meses trabajando en la empresa debe cargar el valor del salario integral a partir de los seis (6) meses anteriores (nómina por nómina debe cargar cual fué su salario integral), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.</p></li>
+<li><p>Si el empleado posee menos de seis (6) meses trabajando en la empresa debe cargar el valor del salario integral de los meses que tenga laborando el empleado (nómina por nómina debe cargar cual fué su salario integral), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.</p></li>
+<li><p>Si el empleado posee un proceso de “<strong>Nómina Semanal (NS)</strong>”, “<strong>Nómina Quincenal (NQ)</strong>”, “<strong>Nómina Mensual (NM)</strong>”, debe suministrar solamente los datos del mes anterior del empleado.</p></li>
+</ul>
+<div class="section" id="id15">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>CR_SIP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>CR_SIP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>CR_SIP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>CR_SIP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="salario-normal">
+<h2><strong>Salario Normal</strong><a class="headerlink" href="#salario-normal" title="Permalink to this headline">¶</a></h2>
+<p>Se utiliza para promediar el salario normal de los empleados. Cabe destacar que los datos de este formulario son necesarios para los procesos de “<strong>Nómina Semanal Mixta (NSM)</strong>”, “<strong>Nómina Quincenal Mixta (NQM)</strong>” o “<strong>Nómina Mensual Mixta (NMM)</strong>”. Sí su proceso de nómina es “<strong>Nómina Semanal (NS)</strong>”, “<strong>Nómina Quincenal (NM)</strong>” o “<strong>Nómina Mensual (NM)</strong>”, debe suministrar los datos solamente del mes anterior al momento de la implementación de ADempiere.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Si el empleado posee más de tres (3) meses trabajando en la empresa debe cargar el valor del salario normal a partir de los tres (3) meses anteriores (nómina por nómina debe cargar cual fué su salario normal), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.</p></li>
+<li><p>Si el empleado posee menos de tres (3) meses trabajando en la empresa debe cargar el valor del salario normal de los meses que tenga laborando el empleado (nómina por nómina debe cargar cual fué su salario normal), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.</p></li>
+<li><p>Si el empleado posee un proceso de “<strong>Nómina Semanal (NS)</strong>”, “<strong>Nómina Quincenal (NQ)</strong>”, “<strong>Nómina Mensual (NM)</strong>”, debe suministrar solamente los datos del mes anterior del empleado.</p></li>
+</ul>
+<div class="section" id="id16">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>CR_SN</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>CR_SN</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>CR_SN</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>CR_SN</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="salario-normal-mensual">
+<h2><strong>Salario Normal Mensual</strong><a class="headerlink" href="#salario-normal-mensual" title="Permalink to this headline">¶</a></h2>
+<p>El concepto acumulado promedio salario variable se utiliza para promediar el salario normal mensual del empleado según lo estipula el artículo 85 del Reglamento del SSO, se utilizará para compararlo con el tope SSO y así determinar el monto del salario base para calcular la deducción del SSO. Cabe destacar que los datos de este formulario son necesarios solamente si existen procesos de nóminas con salario variable. Si usted no posee ninguno de estos procesos de nomina por favor omita el llenado de este formulario.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>NOMBRE DEL PROCESO</strong>: Seleccione el nombre del proceso de nómina, indicando si el empleado pertenece a alguna de las siguientes nóminas.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>NS</strong>: Nómina Semanal</p></li>
+<li><p><strong>NQ</strong>: Nómina Quincenal</p></li>
+<li><p><strong>NM</strong>: Nómina Mensual</p></li>
+<li><p><strong>NSM</strong>: Nómina Semanal Mixta</p></li>
+<li><p><strong>NQM</strong>: Nómina Quincenal Mixta</p></li>
+<li><p><strong>NMM</strong>: Nómina Mensual Mixta</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<ul class="simple">
+<li><dl class="simple">
+<dt>Por ser un Promedio se necesitan los siguientes valores</dt><dd><ul>
+<li><p>Si el empleado posee más de un (1) año trabajando en la empresa debe cargar el valor del salario normal mensual a partir de los doce (12) meses anteriores (mes por mes debe llenar una hoja de cálculo con estos datos), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.</p></li>
+<li><p>Si el empleado posee menos de un (1) año trabajando en la empresa debe cargar el valor del salario normal mensual a partir del inicio del trabajador (mes por mes debe llenar una hoja de cálculo con estos datos), indique en el nombre de la pestaña la fecha correspondiente a esa carga de datos.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+<div class="section" id="id17">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de las nóminas semanal, quincenal, mensual, semanal mixta, quincenal mixta y mensual mixta es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>CR_SNM</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>CR_SNM</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td></td>
+<td><p>CR_SNM</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td></td>
+<td><p>CR_SNM</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="section" id="nomina-de-vacaciones">
+<h1><strong>Nómina de Vacaciones</strong><a class="headerlink" href="#nomina-de-vacaciones" title="Permalink to this headline">¶</a></h1>
+<p>ERPyA requiere el siguiente formato de importación de “<strong>Nómina de Vacaciones</strong>”.</p>
+<div class="section" id="fecha-de-vacaciones-anteriores">
+<h2><strong>Fecha de Vacaciones Anteriores</strong><a class="headerlink" href="#fecha-de-vacaciones-anteriores" title="Permalink to this headline">¶</a></h2>
+<p>Representa a la última fecha de inicio de vacaciones de los empleados.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id18">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id18" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de vacaciones es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 5%" />
+<col style="width: 8%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head" colspan="2"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_FVA</p></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_FVA</p></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_FVA</p></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_FVA</p></td>
+<td></td>
+<td></td>
+<td colspan="2"></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="fecha-real-de-salida-de-vacaciones">
+<h2><strong>Fecha Real de Salida de Vacaciones</strong><a class="headerlink" href="#fecha-real-de-salida-de-vacaciones" title="Permalink to this headline">¶</a></h2>
+<p>Representa la fecha real que le correspondia salir a los trabajadores, basandose en la fecha que registro en la fecha de vacaciones anteriores registrada en el cuadro anteriores</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id19">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id19" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de vacaciones es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_FSV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_FSV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_FSV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_FSV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="total-de-asignaciones-de-la-nomina-de-vacaciones-anterior">
+<h2><strong>Total de Asignaciones de la Nómina de Vacaciones Anterior</strong><a class="headerlink" href="#total-de-asignaciones-de-la-nomina-de-vacaciones-anterior" title="Permalink to this headline">¶</a></h2>
+<p>Representa monto total devengado por el empleado por concepto de sus vacaciones anteriores. Ese dato debe ser suministrado para que ADempiere lo tome en cuenta al momento de calcular las utilidades del empleado, por ejemplo “si su periodo de utilidades está entre el primero de noviembre de 2019 hasta el 31 de octubre de 2020”,  debe suministrar la información de las vacaciones que se procesaron durante ese período para que ese saldo pueda considerarse al momento de procesar su nómina de utilidades.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id20">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id20" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de utilidades es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_TA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_TA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_TA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_TA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="dias-totales-de-vacaciones-de-la-nomina-de-vacaciones-anterior">
+<h2><strong>Días Totales de Vacaciones de la Nómina de Vacaciones Anterior</strong><a class="headerlink" href="#dias-totales-de-vacaciones-de-la-nomina-de-vacaciones-anterior" title="Permalink to this headline">¶</a></h2>
+<p>Representa el total de días (Días de disfrutes de vacaciones, días de descanso y días feriados) otorgados por el empleado durante el periodo de vacaciones anteriores. Ese dato debe ser suministrado para que ADempiere lo tome en cuenta al momento de calcular las utilidades del empleado, por ejemplo “si su periodo de utilidades está entre el primero de noviembre de 2019 hasta el 31 de octubre de 2020”,  debe suministrar la información de las vacaciones que se procesaron durante ese período para que ese saldo pueda considerarse al momento de procesar su nómina de utilidades.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id21">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id21" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de utilidades es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_DVT</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_DVT</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_DVT</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NV</p></td>
+<td><p>CR_DVT</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="section" id="nomina-de-utilidades">
+<h1><strong>Nómina de Utilidades</strong><a class="headerlink" href="#nomina-de-utilidades" title="Permalink to this headline">¶</a></h1>
+<p>ERPyA requiere el siguiente formato de importación de “<strong>Nómina de Utilidades</strong>”.</p>
+<div class="section" id="fecha-de-utilidades-anteriores">
+<h2><strong>Fecha de Utilidades Anteriores</strong><a class="headerlink" href="#fecha-de-utilidades-anteriores" title="Permalink to this headline">¶</a></h2>
+<p>Representa a la última fecha de utilidades anteriores de los empleados.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id22">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id22" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de utilidades es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NU</p></td>
+<td><p>CR_FUA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NU</p></td>
+<td><p>CR_FUA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NU</p></td>
+<td><p>CR_FUA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NU</p></td>
+<td><p>CR_FUA</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="section" id="nomina-anticipo-de-vacaciones">
+<h1><strong>Nómina Anticipo de Vacaciones</strong><a class="headerlink" href="#nomina-anticipo-de-vacaciones" title="Permalink to this headline">¶</a></h1>
+<p>ERPyA requiere el siguiente formato de importación de “<strong>Nómina Anticipo de Vacaciones</strong>”.</p>
+<div class="section" id="dias-anticipo-de-vacaciones">
+<h2><strong>Días Anticipo de Vacaciones</strong><a class="headerlink" href="#dias-anticipo-de-vacaciones" title="Permalink to this headline">¶</a></h2>
+<p>Representa los días otorgados a los empleados por concepto de anticipo de sus vacaciones.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id23">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id23" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de anticipo de vacaciones es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NAV</p></td>
+<td><p>CR_DAV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NAV</p></td>
+<td><p>CR_DAV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NAV</p></td>
+<td><p>CR_DAV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NAV</p></td>
+<td><p>CR_DAV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="section" id="nomina-anticipo-de-prestaciones-sociales">
+<h1><strong>Nómina Anticipo de Prestaciones Sociales</strong><a class="headerlink" href="#nomina-anticipo-de-prestaciones-sociales" title="Permalink to this headline">¶</a></h1>
+<p>ERPyA requiere el siguiente formato de importación de “<strong>Nómina Anticipo de Prestaciones Sociales</strong>”.</p>
+<div class="section" id="anticipo-de-prestaciones-sociales">
+<h2><strong>Anticipo de Prestaciones Sociales</strong><a class="headerlink" href="#anticipo-de-prestaciones-sociales" title="Permalink to this headline">¶</a></h2>
+<p>Corresponde al monto otorgado a cada empleado por concepto de anticipo de sus prestaciones sociales.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id24">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id24" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de anticipo de prestaciones sociales es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NAPS</p></td>
+<td><p>AS_AP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NAPS</p></td>
+<td><p>AS_AP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NAPS</p></td>
+<td><p>AS_AP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NAPS</p></td>
+<td><p>AS_AP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+<div class="section" id="nomina-de-prestaciones-sociales">
+<h1><strong>Nómina de Prestaciones Sociales</strong><a class="headerlink" href="#nomina-de-prestaciones-sociales" title="Permalink to this headline">¶</a></h1>
+<p>ERPyA requiere el siguiente formato de importación para la “<strong>Nómina de Prestaciones Sociales</strong>”.</p>
+<div class="section" id="acumulado-por-prestaciones-de-garantia">
+<h2><strong>Acumulado por Prestaciones de Garantía</strong><a class="headerlink" href="#acumulado-por-prestaciones-de-garantia" title="Permalink to this headline">¶</a></h2>
+<p>Corresponde al monto total que lleva acumulado el empleado por concepto de sus prestaciones de garantía.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id25">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id25" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de prestaciones sociales es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>AC_AGP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>AC_AGP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>AC_AGP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>AC_AGP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="acumulado-por-prestaciones-de-antiguedad">
+<h2><strong>Acumulado por Prestaciones de Antiguedad</strong><a class="headerlink" href="#acumulado-por-prestaciones-de-antiguedad" title="Permalink to this headline">¶</a></h2>
+<p>Corresponde al monto total que lleva acumulado el empleado por concepto de sus prestaciones de antiguedad.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id26">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id26" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de prestaciones sociales es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>AC_AAP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>AC_AAP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>AC_AAP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>AC_AAP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="porcion-mensual-prestaciones-de-garantia">
+<h2><strong>Porción Mensual Prestaciones de Garantía</strong><a class="headerlink" href="#porcion-mensual-prestaciones-de-garantia" title="Permalink to this headline">¶</a></h2>
+<p>Corresponde a la porción mensual de los 2 meses anteriores de las prestaciones de garantía.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><p><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</div></blockquote>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Se debe registrar un formato indicando la porción de garantía de prestaciones del mes anterior y otro formato indicando el penultimo mes a la implementación de ADempiere que le correspondio al empleado por concepto de sus garantía de prestaciones.</p></li>
+</ul>
+<div class="section" id="id27">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id27" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de prestaciones sociales es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PMPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PMPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PMPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PMPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="porcion-mensual-intereses-prestaciones-de-garantia">
+<h2><strong>Porción Mensual Intereses Prestaciones de Garantía</strong><a class="headerlink" href="#porcion-mensual-intereses-prestaciones-de-garantia" title="Permalink to this headline">¶</a></h2>
+<p>Corresponde a la porción mensual de los 2 meses anteriores de los intereses de prestaciones de garantía.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><dl>
+<dt><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</dt><dd><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<ul class="simple">
+<li><p>Se debe registrar un formato indicando la porción de intereses de garantía de prestaciones del mes anterior y otro formato indicando el penultimo mes a la implementación de ADempiere que le correspondio al empleado por concepto de sus garantía de prestaciones.</p></li>
+</ul>
+<div class="section" id="id28">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id28" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de prestaciones sociales es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PMIPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PMIPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PMIPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PMIPG</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="promedio-salario-vacaciones">
+<h2><strong>Promedio Salario Vacaciones</strong><a class="headerlink" href="#promedio-salario-vacaciones" title="Permalink to this headline">¶</a></h2>
+<p>Corresponde al salario que se utilizará para calcular las vacaciones al empleado si fuese el caso.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><dl>
+<dt><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</dt><dd><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id29">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id29" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de prestaciones sociales es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PSV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PSV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PSV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PSV</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="promedio-salario-prestaciones">
+<h2><strong>Promedio Salario Prestaciones</strong><a class="headerlink" href="#promedio-salario-prestaciones" title="Permalink to this headline">¶</a></h2>
+<p>Corresponde al salario que se utilizará para calcular las prestaciones sociales al empleado si fuese el caso.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><dl>
+<dt><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</dt><dd><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id30">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id30" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de prestaciones sociales es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PSP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PSP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PSP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PSP</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<div class="section" id="promedio-salario-utilidades">
+<h2><strong>Promedio Salario Utilidades</strong><a class="headerlink" href="#promedio-salario-utilidades" title="Permalink to this headline">¶</a></h2>
+<p>Corresponde al salario que se utilizará para calcular las utilidades al empleado si fuese el caso.</p>
+<p>Los datos correspondientes a los campos del formato de importación deben ser registrados considerando los siguientes puntos:</p>
+<ul>
+<li><p><strong>ORGANIZACIÓN</strong>: Indica el nombre de la organización, en este sentido si importará datos de diferentes organizaciones debe registrarlos con el nombre de la organización a la que pertenezca el empleado, si solo maneja una sola organización se debe registrar con organización “*”</p></li>
+<li><p><strong>CONCEPTO DE NÓMINA</strong>: Indica el nombre del concepto que está creado en ADempiere, dicho concepto <strong>No se Debe Modificar</strong>.</p></li>
+<li><dl>
+<dt><strong>No. CÉDULA</strong>: Ingrese el número de cédula del empleado, con el siguiente formato dependiendo de su nacionalidad:</dt><dd><ul class="simple">
+<li><p><strong>V</strong>: Venezolano</p></li>
+<li><p><strong>E</strong>: Extranjero</p></li>
+</ul>
+<dl class="simple">
+<dt>Luego debe indicar el número de cédula corrido sin puntos ni espacios ejemplo:</dt><dd><ul class="simple">
+<li><p><strong>V10000000</strong></p></li>
+</ul>
+</dd>
+</dl>
+</dd>
+</dl>
+</li>
+<li><p><strong>VÁLIDO DESDE</strong>: La fecha válido desde no requiere datos, este dato será cargado por el importador de forma automática.</p></li>
+<li><p><strong>FECHA DE SERVICIO</strong>: Registre el valor del concepto (el formato para la fecha se debe registrar de la siguiente manera ddmmyyyy). Si el concepto no tiene valor debe dejar la celda en blanco.</p></li>
+<li><p><strong>MONTO</strong>: Registre el valor del concepto (si valor tiene cifras en decimales debe colocar un punto (.) para separar los decimales). Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+<li><p><strong>CANTIDAD</strong>: Registre el valor del concepto (no utilice puntos ni espacios) solo números enteros. Si el concepto no tiene valor coloque el número cero (0) en la celda.</p></li>
+</ul>
+<div class="section" id="id31">
+<h3><strong>Formato de Importación</strong><a class="headerlink" href="#id31" title="Permalink to this headline">¶</a></h3>
+<p>El formato para la importación de la nómina de prestaciones sociales es el siguiente:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 14%" />
+<col style="width: 8%" />
+<col style="width: 9%" />
+<col style="width: 14%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 12%" />
+<col style="width: 8%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>ORGANIZACIÓN</p></th>
+<th class="head"><p>NOMBRE DEL PROCESO</p></th>
+<th class="head"><p>CONCEPTO DE NÓMINA</p></th>
+<th class="head"><p>No. CÉDULA</p></th>
+<th class="head"><p>VÁLIDO DESDE</p></th>
+<th class="head"><p>FECHA DE SERVICIO</p></th>
+<th class="head"><p>MONTO</p></th>
+<th class="head"><p>CANTIDAD</p></th>
+<th class="head"><p>MENSAJE DE TEXTO</p></th>
+<th class="head"><p>DESCRIPCIÓN</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PSU</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PSU</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PSU</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>NPS</p></td>
+<td><p>CR_PSU</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="bonus-cancellation-with-intermediary.html" class="btn btn-neutral float-right" title="Cancelación de Pasivo con Intermediarios" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Gestión de Nóminas" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

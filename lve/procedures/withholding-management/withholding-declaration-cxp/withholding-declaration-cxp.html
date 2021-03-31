@@ -1,0 +1,560 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Generar Declaraciones de Retenciones &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Retenciones de Cuentas por Cobrar en ADempiere" href="../withholding-cxc/index.html" />
+    <link rel="prev" title="Declaración de Retenciones de Cuentas por Pagar en ADempiere" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../human-resources/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../payroll/index.html"><strong>Gestión de Nóminas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../treasury-management/index.html"><strong>Gestión de Tesorería</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../import/index.html"><strong>Gestión de Importación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>Gestión de Retenciones</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../withholding-iva/index.html"><strong>Retención de IVA de Cuentas por Pagar en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../withholding-islr/index.html"><strong>Retención de ISLR de Cuentas por Pagar en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../withholding-municipality/index.html"><strong>Retención Municipal de Cuentas por Pagar en ADempiere</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html"><strong>Declaración de Retenciones de Cuentas por Pagar en ADempiere</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>Generar Declaraciones de Retenciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#consultar-declaracion-de-retenciones"><strong>Consultar Declaración de Retenciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#detalle-de-declaraciones-de-retenciones"><strong>Detalle de Declaraciones de Retenciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../withholding-cxc/index.html"><strong>Retenciones de Cuentas por Cobrar en ADempiere</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Retenciones</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Declaración de Retenciones de Cuentas por Pagar en ADempiere</strong></a> &raquo;</li>
+        
+      <li><strong>Generar Declaraciones de Retenciones</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/lve/procedures/withholding-management/withholding-declaration-cxp/withholding-declaration-cxp.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="generar-declaraciones-de-retenciones">
+<span id="paso-generar-declaracion-retenciones"></span><span id="documento-declaracion-retencion-cxp"></span><h1><strong>Generar Declaraciones de Retenciones</strong><a class="headerlink" href="#generar-declaraciones-de-retenciones" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Manejo de Retenciones</strong>”, luego seleccione la ventana “<strong>Generar Declaración de Retenciones</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 1" src="../../../../_images/menu-gen-dec-ret-iva.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana de búsqueda inteligente “<strong>Generar Declaración de Retenciones</strong>”, con los campos “<strong>Tipo de Retención</strong>” en el cual se selecciona el tipo de retención a declarar y “<strong>Fecha Contable</strong>” con el cual se establece el rango de fecha para filtrar la búsqueda.</p>
+<blockquote>
+<div><p><img alt="Ventana Generar Declaración de Retenciones" src="../../../../_images/vent-gen-dec-ret-iva.png" /></p>
+<p>Imagen 2. Ventana de Búsqueda Inteligente Generar Declaración de Retenciones</p>
+<p>Seleccione en el campo “<strong>Tipo de Retención</strong>”, el tipo de retención por la cual desea filtrar la búsqueda para realizar la declaración del mismo. Para ejemplificar el registro es utilizada la opción “<strong>I.V.A_Retención de I.V.A.</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Retención 1" src="../../../../_images/campo-tipo-ret1.png" /></p>
+<p>Imagen 3. Campo Tipo de Retención</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que en el campo “<strong>Tipo de Retención</strong>”, puede seleccionar cualquiera de las opciones “<strong>IM_Retencion de Impuesto Municipal</strong>”, “<strong>ISLR_Retención de I.S.L.R.</strong>” o “<strong>I.V.A_Retención de I.V.A.</strong>”, para realizar la búsqueda de las retenciones aplicadas de acuerdo a la opción seleccionada.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Contable</strong>”, el rango de fecha para filtrar la búsqueda de las retenciones aplicadas, según el tipo de retención seleccionado.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha Contable" src="../../../../_images/fec-cont-gen-dec1.png" /></p>
+<p>Imagen 4. Campo Fecha Contable</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para búscar los registros que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda.</p>
+<blockquote>
+<div><p><img alt="Opción Comenzar Búsqueda" src="../../../../_images/comenz-bus-gen-dec1.png" /></p>
+<p>Imagen 5. Opción Comenzar Búsqueda</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El campo “<strong>F. Documento</strong>” es la fecha contable que tomará el documento de declaración de retenciones al culminar el proceso “<strong>Generar Declaración de Retenciones</strong>”. <a class="reference external" href="http://erpya.com">ERPyA</a> recomienda ingresar la fecha en la que se declara la retención.</p>
+</div>
+</div></blockquote>
+<p>Seleccione las diferentes retenciones a declarar y posteriormente seleccione la opción “<strong>OK</strong>” para culminar el proceso “<strong>Generar Declaración de Retenciones</strong>”.</p>
+<blockquote>
+<div><p><img alt="Selección de Retención y Opción OK" src="../../../../_images/selec-reten-gen1.png" /></p>
+<p>Imagen 6. Selección de Retenciones y Opción OK</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>En la ventana del proceso se muestran todas las retenciones aplicadas a los diferentes socios del negocio que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda.</p>
+</div>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar en la parte inferior izquierda de la ventana, el número del documento generado.</p>
+<blockquote>
+<div><p><img alt="Número de Declaración Generada" src="../../../../_images/num-dec-gen1.png" /></p>
+<p>Imagen 7. Número de Declaración Generada</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El proceso genera un documento por pagar de tipo “<strong>Declaración Municipal de Cuentas por Pagar</strong>”, “<strong>Declaración de ISLR de Cuentas por Pagar</strong>” o “<strong>Declaración de IVA de Cuentas por Pagar</strong>”, según la opción seleccionada en el campo “<strong>Tipo de Retención</strong>”. El mismo es generado en estado “<strong>Completo</strong>” y con la sumatoria del monto total de todas las retenciones seleccionadas.</p>
+</div>
+</div>
+<div class="section" id="consultar-declaracion-de-retenciones">
+<span id="paso-consultar-declaracion-retenciones"></span><h1><strong>Consultar Declaración de Retenciones</strong><a class="headerlink" href="#consultar-declaracion-de-retenciones" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione la ventana “<strong>Documento por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 2" src="../../../../_images/menu-doc-pagar.png" /></p>
+<p>Imagen 8. Menú de ADempiere</p>
+</div></blockquote>
+<p>Al buscar el documento de declaración de retenciones, con el número de documento generado en la ventana del proceso “<strong>Generar Declaración de Retenciones</strong>”, podrá visualizar el mismo de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Documento por Pagar 1" src="../../../../_images/doc-dec-ret1.png" /></p>
+<p>Imagen 9. Documento por pagar generado de tipo “<strong>Declaración de IVA de Cuentas por Pagar</strong>”</p>
+</div></blockquote>
+</div>
+<div class="section" id="detalle-de-declaraciones-de-retenciones">
+<h1><strong>Detalle de Declaraciones de Retenciones</strong><a class="headerlink" href="#detalle-de-declaraciones-de-retenciones" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Localización Venezuela</strong>”, luego seleccione la ventana “<strong>Detalle de Retenciones</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 3" src="../../../../_images/menu-det-ret.png" /></p>
+<p>Imagen 10. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana del reporte “<strong>Detalle de Retenciones</strong>”, con diferentes campos o filtros para realizar la búsqueda de la información según lo requerido por el usuario y generar el reporte de acuerdo a lo seleccionado en los mismos.</p>
+<blockquote>
+<div><p><img alt="Ventana Detalle de Retenciones 1" src="../../../../_images/vent-det-ret1.png" /></p>
+<p>Imagen 11. Ventana del Reporte Detalle de Retenciones</p>
+<p>Seleccione en el campo “<strong>Fecha Contable</strong>”, el rango de fecha para filtrar la búsqueda de las declaraciones realizadas.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha Contable 1" src="../../../../_images/fec-cont-det-ret.png" /></p>
+<p>Imagen 12. Campo Fecha Contable</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Retención</strong>”, el tipo de retención por la cual desea filtrar la búsqueda de las declaraciones realizadas. Para ejemplificar el registro es utilizada la opción “<strong>I.V.A_Retención de I.V.A.</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Retención 2" src="../../../../_images/tip-ret-det-ret.png" /></p>
+<p>Imagen 13. Campo Tipo de Retención</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que en el campo “<strong>Tipo de Retención</strong>”, puede seleccionar cualquiera de las opciones “<strong>IM_Retencion de Impuesto Municipal</strong>”, “<strong>ISLR_Retención de I.S.L.R.</strong>” o “<strong>I.V.A_Retención de I.V.A.</strong>”, para realizar la búsqueda de las declaraciones generadas de acuerdo a la opción seleccionada.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>” para generar el reporte “<strong>Detalle de Retenciones</strong>”</p>
+<blockquote>
+<div><p><img alt="Opción OK 1" src="../../../../_images/op-ok-det-ret.png" /></p>
+<p>Imagen 14. Opción OK</p>
+</div></blockquote>
+<p>Podrá visualizar el reporte con todas las retenciones aplicadas a los diferentes socios del negocio que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda.</p>
+<blockquote>
+<div><p><img alt="Reporte de Detalle de Retenciones 1" src="../../../../_images/det-ret-apli1.png" /></p>
+<p>Imagen 15. Reporte de Detalle de Retenciones</p>
+</div></blockquote>
+<p>Para visualizar el reporte de las diferentes declaraciones de retenciones generadas a los diferentes socios del negocio que tengan coincidencias con la información ingresada en los campos o filtros de búsqueda, seleccione en el campo o filtro “<strong>Formato de Impresión</strong>”, la opción “<strong>Declaración_TXT_IVA</strong>”.</p>
+<blockquote>
+<div><p><img alt="Reporte de Detalle de Declaraciones 1" src="../../../../_images/det-dec-apli1.png" /></p>
+<p>Imagen 16. Reporte de Detalle de Declaraciones</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La opción en el campo “<strong>Formato de Impresión</strong>”, para visualizar el reporte de las declaraciones de ISLR es “<strong>RelaciónRetencionesISLR</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Exportar Registros</strong>”, para exportar el archivo o documento que debe ser importado a al portal del SENIAT.</p>
+<blockquote>
+<div><p><img alt="Icono Exportar Registro 1" src="../../../../_images/ico-exp-reg.png" /></p>
+<p>Imagen 17. Icono Exportar Registros</p>
+<p>Podrá visualizar la siguiente ventana donde debe seleccionar en el campo “<strong>Archivo de Tipo</strong>”, la opción “<strong>Declaración de I.V.A (txt) Archivo de exportación de  Declaración de I.V.A</strong>” y posteriormente la opción “<strong>OK</strong>” para generar el archivo o documento de declaración de retenciones de IVA.</p>
+<blockquote>
+<div><p><img alt="Archivo de Tipo 1" src="../../../../_images/arc-tipo1.png" /></p>
+<p>Imagen 18. Campo Archivo de Tipo y Opción OK</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La opción para generar el archivo o documento de declaración de retenciones de ISLR es “<strong>Declaración de I.S.L.R (xml) Export file format for Withholding Rental Tax applied to documents</strong>”.</p>
+</div>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar el archivo exportado en la parte inferior izquierda de la ventana del reporte “<strong>Detalle de Retenciones</strong>”.</p>
+<blockquote>
+<div><p><img alt="Archivo o Documento Exportado 1" src="../../../../_images/doc-generado.png" /></p>
+<p>Imagen 18. Archivo o Documento Exportado</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La declaración de las retenciones municipales de cuentas por pagar, varia según el municipio donde se encuentre el socio del negocio al cual se le brinda el servicio ya que en cada municipio varía la retención del mismo. En ADempiere, dicha declaración es generada realizando los procesos <a class="reference internal" href="#paso-generar-declaracion-retenciones"><span class="std std-ref">Generar Declaraciones de Retenciones</span></a> y <a class="reference internal" href="#paso-consultar-declaracion-retenciones"><span class="std std-ref">Consultar Declaración de Retenciones</span></a>, anteriormente explicados en el presente material.</p>
+</div>
+<div class="section" id="archivo-txt-de-iva-exportado">
+<span id="paso-archivo-txt-iva-exportado"></span><h2><strong>Archivo TXT de IVA Exportado</strong><a class="headerlink" href="#archivo-txt-de-iva-exportado" title="Permalink to this headline">¶</a></h2>
+<p>Al abrir el archivo podrá visualizarlo de la siguiente manera</p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">J000000006</span>      <span class="mi">202101</span>  <span class="mi">2020</span><span class="o">-</span><span class="mi">06</span><span class="o">-</span><span class="mi">15</span>      <span class="n">C</span>       <span class="mi">01</span>      <span class="n">J000000779</span>      <span class="mi">10739</span>   <span class="mi">00</span><span class="o">-</span><span class="mi">012468</span>       <span class="mf">12713872.59</span>     <span class="mf">10960234.99</span>     <span class="mf">1753637.60</span>      <span class="mi">0</span>       <span class="mi">20210110058697</span>  <span class="mf">0.00</span>    <span class="mf">16.00</span>   <span class="mi">0</span>
+<span class="n">J000000006</span>      <span class="mi">202101</span>  <span class="mi">2020</span><span class="o">-</span><span class="mi">08</span><span class="o">-</span><span class="mi">27</span>      <span class="n">C</span>       <span class="mi">01</span>      <span class="n">J000000779</span>      <span class="mi">11048</span>   <span class="mi">00</span><span class="o">-</span><span class="mi">012798</span>       <span class="mf">10086543.36</span>     <span class="mf">8695296.00</span>      <span class="mf">1391247.36</span>      <span class="mi">0</span>       <span class="mi">20210110058701</span>  <span class="mf">0.00</span>    <span class="mf">16.00</span>   <span class="mi">0</span>
+<span class="n">J000000006</span>      <span class="mi">202101</span>  <span class="mi">2020</span><span class="o">-</span><span class="mi">10</span><span class="o">-</span><span class="mi">13</span>      <span class="n">C</span>       <span class="mi">01</span>      <span class="n">J000000779</span>      <span class="mi">11236</span>   <span class="mi">00</span><span class="o">-</span><span class="mi">012997</span>       <span class="mf">171375555.12</span>    <span class="mf">147737547.49</span>    <span class="mf">23638007.63</span>     <span class="mi">0</span>       <span class="mi">20210110058700</span>  <span class="mf">0.00</span>    <span class="mf">16.00</span>   <span class="mi">0</span>
+<span class="n">J000000006</span>      <span class="mi">202101</span>  <span class="mi">2020</span><span class="o">-</span><span class="mi">12</span><span class="o">-</span><span class="mi">22</span>      <span class="n">C</span>       <span class="mi">01</span>      <span class="n">J000000605</span>      <span class="mi">00007014</span>        <span class="mi">00</span><span class="o">-</span><span class="mi">008546</span>       <span class="mf">22554057.84</span>     <span class="mf">19443153.31</span>     <span class="mf">2333178.40</span>      <span class="mi">0</span>       <span class="mi">20210110058704</span>  <span class="mf">0.00</span>    <span class="mf">16.00</span>   <span class="mi">0</span>
+</pre></div>
+</div>
+</div></blockquote>
+<p>Dicho archivo contiene la siguiente descripción, explicada de manera detallada en el documento <a class="reference download internal" download="" href="../../../../_downloads/a48e3e9d300969e59fb2478b05e68900/Formato_TXT_IVA.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Formato_TXT_IVA.pdf</span></code></a></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>RIF del Agente de Retención</strong>, en el archivo el rif del agente de retención es “<strong>J000000006</strong>”</p></li>
+<li><p><strong>Periodo Impositivo</strong>, en el archivo el periodo de facturación es “<strong>202101</strong>”</p></li>
+<li><p><strong>Fecha de Factura</strong>, en el archivo las fechas de las facturas son “<strong>2020-06-15</strong>”, “<strong>2020-08-27</strong>”, “<strong>2020-10-13</strong>”, “<strong>2020-12-22</strong>”</p></li>
+<li><p><strong>Tipo de Operación</strong>, este puede ser “<strong>C = compre; V = ventas</strong>”, en el archivo el tipo de operación es “<strong>C</strong>”</p></li>
+<li><p><strong>Tipo de Documento</strong>, este puede ser “<strong>01 = Factura; 02 = Nota de Debito; 03 = Notas de Créditos</strong>”, en el archivo el tipo de documento es “<strong>01</strong>”</p></li>
+<li><p><strong>Rif del Proveedor</strong>, en el archivo los rif de los proveedores son “<strong>J000000779</strong>”, “<strong>J000000605</strong>”</p></li>
+<li><p><strong>Número de Factura</strong>, en el archivo los números de facturas son “<strong>10739</strong>”, “<strong>11048</strong>”, “<strong>11236</strong>”, “<strong>00007014</strong>”</p></li>
+<li><p><strong>Número de Control</strong>, en el archivo los números de control de las facturas son “<strong>00-012468</strong>”, “<strong>00-012798</strong>”, “<strong>00-012997</strong>”, “<strong>00-008546</strong>”</p></li>
+<li><p><strong>Monto Total de la Factura</strong>, en el archivo los montos totales de las facturas son “<strong>12713872.59</strong>”, “<strong>10086543.36</strong>”, “<strong>171375555.12</strong>”, “<strong>22554057.84</strong>”</p></li>
+<li><p><strong>Total Base del Impuesto</strong>, en el archivo los totales base de los impuestos son “<strong>10960234.99</strong>”, “<strong>8695296.00</strong>”, “<strong>147737547.49</strong>”, “<strong>19443153.31</strong>”</p></li>
+<li><p><strong>Monto del IVA Retenido</strong>, en el archivo los montos del IVA retenidos son “<strong>1753637.60</strong>”, “<strong>1391247.36</strong>”, “<strong>23638007.63</strong>”, “<strong>2333178.40</strong>”</p></li>
+<li><p><strong>Número de Documento Afectado</strong>, esta es la factura que dio origen a la nota de crédito o nota de débito. En el archivo el número de documento afectado es “<strong>0</strong>”</p></li>
+<li><p><strong>Números de Comprobante de Retención</strong>, en el archivo los números de comprobantes de retenciones son “<strong>20210110058697</strong>”, “<strong>20210110058701</strong>”, “<strong>20210110058700</strong>”, “<strong>20210110058704</strong>”</p></li>
+<li><p><strong>Monto Exento del IVA</strong>, en el archivo el monto exento del IVA es “<strong>0.00</strong>”</p></li>
+<li><p><strong>Alícuota</strong>”, en el archivo la alícuota es “<strong>16.00</strong>”</p></li>
+<li><p><strong>Numero de Expediente</strong>, en el archivo el número de expediente es “<strong>0</strong>”</p></li>
+</ul>
+</div></blockquote>
+</div>
+<div class="section" id="archivo-xml-de-islr-exportado">
+<span id="paso-archivo-xml-islr-exportado"></span><h2><strong>Archivo XML de ISLR Exportado</strong><a class="headerlink" href="#archivo-xml-de-islr-exportado" title="Permalink to this headline">¶</a></h2>
+<p>Al abrir el archivo podrá visualizarlo de la siguiente manera</p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span>&lt;?xml version=&quot;1.0&quot; encoding=&quot;ISO-8859-1&quot; standalone=&quot;no&quot;?&gt;
+&lt;RelacionRetencionesISLR Periodo=&quot;202101&quot; RifAgente=&quot;J000000006&quot;&gt;
+&lt;DetalleRetencion&gt;
+&lt;RifRetenido&gt;V000000765&lt;/RifRetenido&gt;
+&lt;NumeroFactura&gt;004208&lt;/NumeroFactura&gt;
+&lt;NumeroControl&gt;00003708&lt;/NumeroControl&gt;
+&lt;FechaOperacion&gt;04/01/2021&lt;/FechaOperacion&gt;
+&lt;CodigoConcepto&gt;061&lt;/CodigoConcepto&gt;
+&lt;MontoOperacion&gt;100000000&lt;/MontoOperacion&gt;
+&lt;PorcentajeRetencion&gt;3&lt;/PorcentajeRetencion&gt;
+&lt;/DetalleRetencion&gt;
+&lt;DetalleRetencion&gt;
+&lt;RifRetenido&gt;J000000071&lt;/RifRetenido&gt;
+&lt;NumeroFactura&gt;09201&lt;/NumeroFactura&gt;
+&lt;NumeroControl&gt;000009201&lt;/NumeroControl&gt;
+&lt;FechaOperacion&gt;07/01/2021&lt;/FechaOperacion&gt;
+&lt;CodigoConcepto&gt;055&lt;/CodigoConcepto&gt;
+&lt;MontoOperacion&gt;350630417.88&lt;/MontoOperacion&gt;
+&lt;PorcentajeRetencion&gt;2&lt;/PorcentajeRetencion&gt;
+&lt;/DetalleRetencion&gt;
+&lt;DetalleRetencion&gt;
+&lt;RifRetenido&gt;J000000071&lt;/RifRetenido&gt;
+&lt;NumeroFactura&gt;09202&lt;/NumeroFactura&gt;
+&lt;NumeroControl&gt;000009202&lt;/NumeroControl&gt;
+&lt;FechaOperacion&gt;07/01/2021&lt;/FechaOperacion&gt;
+&lt;CodigoConcepto&gt;055&lt;/CodigoConcepto&gt;
+&lt;MontoOperacion&gt;211893850.52&lt;/MontoOperacion&gt;
+&lt;PorcentajeRetencion&gt;2&lt;/PorcentajeRetencion&gt;
+&lt;/DetalleRetencion&gt;
+&lt;DetalleRetencion&gt;
+&lt;RifRetenido&gt;V000000523&lt;/RifRetenido&gt;
+&lt;NumeroFactura&gt;001653&lt;/NumeroFactura&gt;
+&lt;NumeroControl&gt;00001403&lt;/NumeroControl&gt;
+&lt;FechaOperacion&gt;07/01/2021&lt;/FechaOperacion&gt;
+&lt;CodigoConcepto&gt;053&lt;/CodigoConcepto&gt;
+&lt;MontoOperacion&gt;28524126.97&lt;/MontoOperacion&gt;
+&lt;PorcentajeRetencion&gt;1&lt;/PorcentajeRetencion&gt;
+&lt;/DetalleRetencion&gt;
+&lt;DetalleRetencion&gt;
+&lt;RifRetenido&gt;V000000266&lt;/RifRetenido&gt;
+&lt;NumeroFactura&gt;0595&lt;/NumeroFactura&gt;
+&lt;NumeroControl&gt;00000595&lt;/NumeroControl&gt;
+&lt;FechaOperacion&gt;08/01/2021&lt;/FechaOperacion&gt;
+&lt;CodigoConcepto&gt;053&lt;/CodigoConcepto&gt;
+&lt;MontoOperacion&gt;79540800&lt;/MontoOperacion&gt;
+&lt;PorcentajeRetencion&gt;1&lt;/PorcentajeRetencion&gt;
+&lt;/DetalleRetencion&gt;
+&lt;DetalleRetencion&gt;
+&lt;RifRetenido&gt;V000000917&lt;/RifRetenido&gt;
+&lt;NumeroFactura&gt;000281&lt;/NumeroFactura&gt;
+&lt;NumeroControl&gt;00000281&lt;/NumeroControl&gt;
+&lt;FechaOperacion&gt;08/01/2021&lt;/FechaOperacion&gt;
+&lt;CodigoConcepto&gt;053&lt;/CodigoConcepto&gt;
+&lt;MontoOperacion&gt;10530804&lt;/MontoOperacion&gt;
+&lt;PorcentajeRetencion&gt;1&lt;/PorcentajeRetencion&gt;
+&lt;/DetalleRetencion&gt;
+&lt;/RelacionRetencionesISLR&gt;
+</pre></div>
+</div>
+</div></blockquote>
+<p>Dicho archivo contiene la siguiente descripción, explicada de manera detallada en el documento <a class="reference download internal" download="" href="../../../../_downloads/ecbfbaef84e4df2f96d96abb65004e10/Formato_XML_ISLR.pdf"><code class="xref download docutils literal notranslate"><span class="pre">Formato_XML_ISLR.pdf</span></code></a></p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>RifAgente:</strong> Número de registro de información fiscal (RIF) del agente de retención. El primer carácter corresponde a una letra (V,E,J,P,G) y los 9 restantes a números. En el ejemplo anterior el rif del agente es “<strong>J000000006</strong>”</p></li>
+<li><p><strong>Periodo:</strong> Corresponde al año y mes de la declaración (AAAAMM). En el ejemplo anterior el periodo es “<strong>202101</strong>”</p></li>
+<li><p><strong>RifRetenido:</strong> Número de registro de información fiscal (RIF) del sujeto retenido. El primer carácter corresponde a una letra (V,E,J,P,G) y los 9 restantes a números. En el ejemplo anterior los rif de los sujetos retenidos son “<strong>V000000765</strong>”, “<strong>J000000071</strong>”, “<strong>J000000071</strong>”, “<strong>V000000523</strong>”, “<strong>V000000266</strong>”, “<strong>V000000917</strong>”</p></li>
+<li><p><strong>NumeroFactura:</strong> Número de la factura que recibe el agente de retención. En caso de no poseer número de factura debe colocar 0 (cero). En caso de poseer más de diez (10) dígitos, coloque los últimos diez. En el ejemplo anterior los números de facturas son “<strong>004208</strong>”, “<strong>09201</strong>”, “<strong>09202</strong>”, “<strong>001653</strong>”, “<strong>0595</strong>”, “<strong>000281</strong>”</p></li>
+<li><p><strong>NumeroControl:</strong> Número de control que recibe el agente de retención. Sólo debe colocar los dígitos correspondientes al secuencial numérico. De no existir número de control debe colocar NA. En el ejemplo anterior los números de control son “<strong>00-003708</strong>”, “<strong>00-0009201</strong>”, “<strong>00-0009202</strong>”, “<strong>00-001403</strong>”, “<strong>00-000595</strong>”, “<strong>00-000281</strong>”</p></li>
+<li><p><strong>FechaOperacion:</strong> Fecha en la que fue efectuada la operación. En el ejemplo anterior la fecha de operación es “<strong>08/01/2021</strong>”</p></li>
+<li><p><strong>CodigoConcepto:</strong> Código del concepto de retención. En el ejemplo anterior, el código de concepto es “<strong>053</strong>”</p></li>
+<li><p><strong>MontoOperacion:</strong> Monto total de la operación sobre el cual se va a aplicar la retención. El separador para los valores decimales es el punto (.). Sólo se permiten 02 posiciones decimales. En el ejemplo anterior los montos de la operación son “<strong>100000000 **”, “**350630417,88</strong>”, “<strong>211893850,52</strong>”, “<strong>28524126,97</strong>”, “<strong>79540800</strong>”, “<strong>10530804</strong>”</p></li>
+<li><p><strong>PorcentajeRetencion:</strong> Porcentaje de retención que se aplicará. En el ejemplo anterior los porcentajes de retenciones son “<strong>3</strong>”, “<strong>2</strong>”, “<strong>2</strong>”, “<strong>1</strong>”, “<strong>1</strong>”, “<strong>1</strong>”</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../withholding-cxc/index.html" class="btn btn-neutral float-right" title="Retenciones de Cuentas por Cobrar en ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Declaración de Retenciones de Cuentas por Pagar en ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,491 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Configuración de Lista de Precios Base &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Crear Lista de Precios desde otra Lista de Precios" href="create-price-list-from-another-price-list.html" />
+    <link rel="prev" title="Configuración del Esquema de Lista de Precios" href="price-list-schema-configuration.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Ventas</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../commission/index.html"><strong>Comisión de Ventas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sales-region/index.html"><strong>Región de Ventas</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Lista de Precios</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="price-list-schema-configuration.html"><strong>Configuración del Esquema de Lista de Precios</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Configuración de Lista de Precios Base</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#crear-precios-desde-crear-lista-de-precios"><strong>Crear Precios desde Crear Lista de Precios</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#crear-precios-desde-pestana-precio-de-producto"><strong>Crear Precios desde Pestaña Precio de Producto</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="create-price-list-from-another-price-list.html"><strong>Crear Lista de Precios desde otra Lista de Precios</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="create-price-list-from-last-oc-processed.html"><strong>Crear Lista de Precios desde Última OC Procesada</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="create-product-entries.html"><strong>Crear Entradas de Productos en Lista de Precios</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../proposal/index.html"><strong>Propuesta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sales-order/index.html"><strong>Orden de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../invoice-customer/index.html"><strong>Documento por Cobrar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../generate-invoice-from-departure-order.html"><strong>Generar Factura desde Orden de Salida</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../generate-invoice-from-departure-order.html#generar-factura-desde-orden-de-salida-consolidado-en-un-documento"><strong>Generar Factura desde Orden de Salida Consolidado en un Documento</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shipment/index.html"><strong>Entregas (Cliente)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../credit-note-cxc.html"><strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../debit-note-cxc.html"><strong>Nota de Débito</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Ventas</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Lista de Precios</strong></a> &raquo;</li>
+        
+      <li><strong>Configuración de Lista de Precios Base</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/quote-to-invoice/price-list/base-price-list-setup.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configuracion-de-lista-de-precios-base">
+<span id="documento-configuracion-de-lista-de-precios-base"></span><h1><strong>Configuración de Lista de Precios Base</strong><a class="headerlink" href="#configuracion-de-lista-de-precios-base" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione la carpeta “<strong>Reglas de Gestión de Materiales</strong>”, por último seleccione la ventana “<strong>Lista de Precios</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de lista de precios" src="../../../_images/price-list-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Lista de Precios</strong>”, con todos los registros de listas de precios de compras y ventas.</p>
+<blockquote>
+<div><p><img alt="ventana lista de precios" src="../../../_images/price-list-window.png" /></p>
+<p>Imagen 2. Ventana Lista de Precios</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>La información de los campos que contiene la pestaña “<strong>Lista de Precios</strong>”, no debe ser modificada por ningún motivo. De igual manera, no se debe tildar o destildar ningún check de los que contiene dicha pestaña.</p>
+</div>
+</div></blockquote>
+<p>Ubique el registro de lista de precios de “<strong>Ventas (USD)</strong>”.</p>
+<blockquote>
+<div><p><img alt="registro de ventas usd para lista de precios base" src="../../../_images/usd-sales-record-for-base-price-list.png" /></p>
+<p>Imagen 3. Lista de Precios Ventas (USD)</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Versión</strong>”, para crear la versión de lista de precios base.</p>
+<blockquote>
+<div><p><img alt="pestaña versión para lista de precios base" src="../../../_images/version-tab-for-base-price-list.png" /></p>
+<p>Imagen 4. Pestaña Versión</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono registro nuevo para lista de precios base" src="../../../_images/new-record-icon-for-base-price-list.png" /></p>
+<p>Imagen 5. Icono Registro Nuevo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se encuentra realizando el registro.</p>
+<blockquote>
+<div><p><img alt="campo organización para lista de precios base" src="../../../_images/organization-field-for-base-price-list.png" /></p>
+<p>Imagen 6. Campo Organización</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La organización seleccionada en la lista de precios, debe coincidir con la organización seleccionada en la tasa de cambio creada a la fecha. Si la lista de precios esta creada con organización (*), las tasas de cambio a utilizar deben estar creadas con organización (*).</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre</strong>”, el nombre correspondiente a la versión de lista de precios que se encuentra creando.</p>
+<blockquote>
+<div><p>Este campo contiene como nombre por defecto, la fecha y la hora en el cual fue creado el registro.</p>
+<p><img alt="campo nombre para lista de precios base" src="../../../_images/name-field-for-base-price-list.png" /></p>
+<p>Imagen 7. Campo Nombre</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripción para lista de precios base" src="../../../_images/description-field-for-base-price-list.png" /></p>
+<p>Imagen 8. Campo Descripción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Esq List Precios/Desc</strong>”, el esquema de descuento correspondiente.</p>
+<blockquote>
+<div><p><img alt="campo esquema de lista de precios descuento para lista de precios base" src="../../../_images/discount-price-list-schema-field-for-base-price-list.png" /></p>
+<p>Imagen 9. Campo Esq List Precios/Desc</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Desde</strong>”, la fecha de inicio del periodo de validez del registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo válido desde para lista de precios base" src="../../../_images/valid-from-field-for-base-price-list.png" /></p>
+<p>Imagen 10. Campo Válido Desde</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios para lista de precios base" src="../../../_images/save-changes-icon-for-base-price-list.png" /></p>
+<p>Imagen 11. Icono Guardar Cambios</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para cargar los precios de los productos en la lista de precios base, puede realizar desde la opción “<strong>Crear Lista de Precios</strong>”, o de manera manual desde la pestaña “<strong>Precio del Producto</strong>”.</p>
+</div>
+</div></blockquote>
+<div class="section" id="crear-precios-desde-crear-lista-de-precios">
+<span id="documento-paso-crear-precios-desde-crear-lista-de-precios"></span><h2><strong>Crear Precios desde Crear Lista de Precios</strong><a class="headerlink" href="#crear-precios-desde-crear-lista-de-precios" title="Permalink to this headline">¶</a></h2>
+<p>Para cargar los precios de los productos desde la opción “<strong>Crear Lista de Precios</strong>”, debe realizar lo siguiente.</p>
+<blockquote>
+<div><p>Esta opción permite crear los precios de los productos desde la última orden de compra procesada, basandose en el tipo de conversión, descuento y margen de ganancia, previamente configurado en el esquema de descuento.</p>
+<p>Si los precios de los productos se encuentran en una moneda diferente a la moneda de la compañía, ADempiere toma los precios de la pestaña “<strong>Compras</strong>” de cada producto y en base a la moneda que este asociada a dicha pestaña y a la moneda de la lista de precios, toma la configuración del esquema de lista de precios, realizando la conversión a la tasa de la fecha que tenga la versión de lista de precios y aplica el descuento o margen de ganancia configurado en el mismo (si lo tiene), para finalmente cargar dichos precios a la lista de precios.</p>
+<p>Seleccione la opción “<strong>Crear Lista de Precios</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción crear lista de precios para lista de precios base" src="../../../_images/option-create-price-list-for-base-price-list.png" /></p>
+<p>Imagen 12. Opción Crear Lista de Precios</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>También puede acceder al proceso, seleccionando la opción “<strong>Crear Lista de Precios</strong>” desplegada del icono “<strong>Proceso</strong> ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Crear Lista de Precios</strong>”, con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.</p>
+<blockquote>
+<div><p><img alt="ventana crear lista de precios para lista de precios base" src="../../../_images/window-create-price-list-for-base-price-list.png" /></p>
+<p>Imagen 13. Ventana Crear Lista de Precios</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto por el cual requiere generar la lista de precios.</p>
+<blockquote>
+<div><p>Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todos los productos.</p>
+<p><img alt="campo producto de la ventana crear lista de precios para lista de precios base" src="../../../_images/product-field-of-the-create-price-list-window-for-base-price-list.png" /></p>
+<p>Imagen 14. Campo Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Categoría del Producto</strong>”, la categoría del producto por la cual requiere generar la lista de precios.</p>
+<blockquote>
+<div><p>Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las categorías de productos.</p>
+<p><img alt="campo categoría del producto de la ventana crear lista de precios para lista de precios base" src="../../../_images/product-category-field-of-the-create-price-list-window-for-base-price-list.png" /></p>
+<p>Imagen 15. Campo Categoría del Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo de Producto</strong>”, el grupo de producto por el cual requiere generar la lista de precios.</p>
+<blockquote>
+<div><p>Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todos los grupos de productos.</p>
+<p><img alt="campo grupo de producto de la ventana crear lista de precios para lista de precios base" src="../../../_images/product-group-field-of-the-create-price-list-window-for-base-price-list.png" /></p>
+<p>Imagen 16. Campo Grupo de Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Clase de Producto</strong>”, la clase de producto por la cual requiere generar la lista de precios.</p>
+<blockquote>
+<div><p>Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las clases de productos.</p>
+<p><img alt="campo clase de producto de la ventana crear lista de precios para lista de precios base" src="../../../_images/product-class-field-of-the-create-price-list-window-for-base-price-list.png" /></p>
+<p>Imagen 17. Campo Clase de Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Clasificación de Producto</strong>”, la clasificación por la cual requiere generar la lista de precios.</p>
+<blockquote>
+<div><p>Si no es seleccionado ningún valor en este campo, se genera la lista de precios con todas las clasificaciones de productos.</p>
+<p><img alt="campo clasificación de producto de la ventana crear lista de precios para lista de precios base" src="../../../_images/product-classification-field-of-the-create-price-list-window-for-base-price-list.png" /></p>
+<p>Imagen 18. Campo Clasificación de Producto</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para ejecutar el proceso y generar la lista de precios en base a lo seleccionado.</p>
+<blockquote>
+<div><p><img alt="opción ok de la ventana crear lista de precios para lista de precios base" src="../../../_images/ok-option-of-the-window-create-price-list-for-base-price-list.png" /></p>
+<p>Imagen 19. Opción OK</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para verificar los precios de los productos puede seleccionar la pestaña “<strong>Precio de Producto</strong>”, de la ventana “<strong>Lista de Precios</strong>”, de la versión previamente creada.</p>
+</div>
+</div></blockquote>
+</div>
+<div class="section" id="crear-precios-desde-pestana-precio-de-producto">
+<span id="documento-paso-crear-precios-desde-pestana-precio-de-producto"></span><h2><strong>Crear Precios desde Pestaña Precio de Producto</strong><a class="headerlink" href="#crear-precios-desde-pestana-precio-de-producto" title="Permalink to this headline">¶</a></h2>
+<p>Para cargar los precios de los productos de manera manual, debe realizar lo siguiente.</p>
+<blockquote>
+<div><p>Seleccione la pestaña “<strong>Precio de Producto</strong>” y proceda a llenar los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="pestaña precio del producto para lista de precios base" src="../../../_images/product-price-tab-for-base-price-list.png" /></p>
+<p>Imagen 20. Pestaña Precio del Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto correspondiente al registro.</p>
+<blockquote>
+<div><p><img alt="campo producto de la pestaña precio de producto" src="../../../_images/product-field-of-the-product-price-tab.png" /></p>
+<p>Imagen 21. Campo Producto</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Precio de Lista</strong>”, el precio de lista del producto.</p>
+<blockquote>
+<div><p>El precio de lista es el precio de lista oficial en la moneda del documento.</p>
+<p><img alt="campo precio de lista de la pestaña precio de producto" src="../../../_images/list-price-field-of-the-product-price-tab.png" /></p>
+<p>Imagen 22. Campo Precio de Lista</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Precio Estándar</strong>”, el precio estándar del producto.</p>
+<blockquote>
+<div><p>El precio estándar indica el precio estándar o normal para un producto en esta lista de precios.</p>
+<p><img alt="campo precio estándar de la pestaña precio de producto" src="../../../_images/standard-price-field-of-the-product-price-tab.png" /></p>
+<p>Imagen 23. Campo Precio Estándar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Precio Límite</strong>”, el precio límite del producto.</p>
+<blockquote>
+<div><p>El límite de precio indica el precio más bajo para un producto establecido en la moneda de la lista de precio.</p>
+<p><img alt="campo precio límite de la pestaña precio de producto" src="../../../_images/limit-price-field-of-the-product-price-tab.png" /></p>
+<p>Imagen 24. Campo Precio Límite</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>PMVP</strong>”, el PMVP del producto.</p>
+<blockquote>
+<div><p>El PMVP indica el precio marcado de venta al público.</p>
+<p><img alt="campo pmvp de la pestaña precio de producto" src="../../../_images/pmvp-field-of-the-product-price-tab.png" /></p>
+<p>Imagen 25. Campo PMVP</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la pestaña precio de producto" src="../../../_images/icon-save-changes-of-the-product-price-tab.png" /></p>
+<p>Imagen 26. Icono Guardar Cambios</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="create-price-list-from-another-price-list.html" class="btn btn-neutral float-right" title="Crear Lista de Precios desde otra Lista de Precios" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="price-list-schema-configuration.html" class="btn btn-neutral float-left" title="Configuración del Esquema de Lista de Precios" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,378 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Generar Orden de Venta desde Hoja Técnica &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Gestión de Financiamiento" href="../financing-management/index.html" />
+    <link rel="prev" title="Hoja Técnica" href="technical-sheet.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Asistencia al Agricultor</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../headings/index.html"><strong>Rubro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../producer/index.html"><strong>Productor</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../farm/index.html"><strong>Finca</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Gestión de Asistencia Técnica</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="culture.html"><strong>Cultivo</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="type-of-observation.html"><strong>Tipo de Observación</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="type-of-observation.html#productos-sugeridos"><strong>Productos Sugeridos</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="technical-sheet.html"><strong>Hoja Técnica</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Generar Orden de Venta desde Hoja Técnica</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../financing-management/index.html"><strong>Gestión de Financiamiento</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Asistencia al Agricultor</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión de Asistencia Técnica</strong></a> &raquo;</li>
+        
+      <li><strong>Generar Orden de Venta desde Hoja Técnica</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/farmer-assistance-management/technical-assistance-management/generate-sales-order-from-technical-sheet.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="generar-orden-de-venta-desde-hoja-tecnica">
+<span id="documento-generar-orden-de-venta-desde-hoja-tecnica"></span><h1><strong>Generar Orden de Venta desde Hoja Técnica</strong><a class="headerlink" href="#generar-orden-de-venta-desde-hoja-tecnica" title="Permalink to this headline">¶</a></h1>
+<p>Para generar una órdenes de venta desde una hoja técnica, es obligatorio que el documento “<strong>Hoja Técnica</strong>” se encuentre en estado “<strong>Completo</strong>”. A continuación, se explica el procedimiento para generar una orden de venta desde una hoja técnica.</p>
+<p>Ubica en el menú de ADempiere, la carpeta “<strong>Gestión de Asistencia al Agricultor</strong>”, luego seleccione la ventana “<strong>Hoja Técnica</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de hoja técnica" src="../../../_images/technical-sheet-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Hoja Técnica</strong>”, con diferentes registros de hojas técnicas en ADempiere.</p>
+<blockquote>
+<div><p><img alt="ventana hoja técnica" src="../../../_images/window-technical-sheet.png" /></p>
+<p>Imagen 2. Ventana Hoja Técnica</p>
+</div></blockquote>
+<p>Ubica el registro de “<strong>Hoja Técnica</strong>”, desde el cual requiere generar el documento “<strong>Orden de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="registro de hoja técnica en estado completo" src="../../../_images/record-of-technical-sheet-in-complete-state.png" /></p>
+<p>Imagen 3. Registro de Hoja Técnica</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Generar Orden de Venta (Desde Hoja Técnica)</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción generar orden de venta desde hoja técnica" src="../../../_images/option-to-generate-sales-order-from-technical-sheet.png" /></p>
+<p>Imagen 4. Opción Generar Orden de Venta (Desde Hoja Técnica)</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Generar Orden de Venta (Desde Hoja Técnica)</strong>”, con diferentes campos que permiten generar la orden de venta en base a lo seleccionado en los mismos.</p>
+<blockquote>
+<div><p><img alt="ventana generar orden de venta desde hoja técnica" src="../../../_images/window-generate-sales-order-from-technical-sheet.png" /></p>
+<p>Imagen 5. Ventana Generar Orden de Venta (Desde Hoja Técnica)</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento Destino</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento destino de la ventana generar orden de venta desde hoja técnica" src="../../../_images/destination-document-type-field-of-the-window-generate-sales-order-from-technical-sheet.png" /></p>
+<p>Imagen 6. Campo Tipo de Documento Destino</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Acción del Documento</strong>”, la acción de documento con la cual será generada la orden de venta.</p>
+<blockquote>
+<div><p><img alt="campo acción del documento de la ventana generar orden de venta desde hoja técnica" src="../../../_images/action-field-of-the-window-document-generate-sales-order-from-technical-sheet.png" /></p>
+<p>Imagen 7. Campo Acción del Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>F. Documento</strong>”, la fecha con la cual será generada la orden de venta.</p>
+<blockquote>
+<div><p><img alt="campo fecha de documento de la ventana generar orden de venta desde hoja técnica" src="../../../_images/document-date-field-of-the-generate-sales-order-from-technical-sheet-window.png" /></p>
+<p>Imagen 8. Campo F. Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios con la cual será generada la orden de venta.</p>
+<blockquote>
+<div><p><img alt="campo lista de precios de la ventana generar orden de venta desde hoja técnica" src="../../../_images/price-list-field-of-the-generate-sales-order-from-data-sheet-window.png" /></p>
+<p>Imagen 9. Campo Lista de Precios</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Almacén</strong>”, el almacén con la cual será generada la orden de venta.</p>
+<blockquote>
+<div><p><img alt="campo almacén de la ventana generar orden de venta desde hoja técnica" src="../../../_images/warehouse-field-of-the-window-generate-sales-order-from-technical-sheet.png" /></p>
+<p>Imagen 10. Campo Almacén</p>
+</div></blockquote>
+<p>Tilde el check “<strong>Generar Órdenes Distintas por Almacén</strong>”, para generar diferentes órdenes de venta dependiendo del almacén en el que se encuentra cada producto a aplicar.</p>
+<blockquote>
+<div><p><img alt="check generar órdenes distintas por almacén de la ventana generar orden de venta desde hoja técnica" src="../../../_images/check-generate-different-orders-by-warehouse-of-the-window-generate-sales-order-from-technical-sheet.png" /></p>
+<p>Imagen 11. Check Generar Órdenes Distintas por Almacén</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para ejecutar el proceso y generar la orden de venta en base a lo seleccionado en los diferentes campos explicados anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción ok de la ventana generar orden de venta desde hoja técnica" src="../../../_images/ok-option-of-the-window-generate-sales-order-from-technical-sheet.png" /></p>
+<p>Imagen 12. Opción OK</p>
+</div></blockquote>
+<p>Podrá visualizar el siguiente mensaje de resultado del proceso, donde se indica el número de orden de venta generada desde el mismo.</p>
+<blockquote>
+<div><p><img alt="mensaje de resultado del proceso generar orden de venta desde hoja técnica" src="../../../_images/result-message-of-the-process-generate-sales-order-from-technical-sheet.png" /></p>
+<p>Imagen 13. Resultado del Proceso</p>
+</div></blockquote>
+<p>Ubique la orden de venta con ayuda del número de documento generado. Dicha orden de venta puede ubacarla en la ventana “<strong>Órdenes de Venta</strong>” y visualizarla de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="consulta de orden de venta generada desde el proceso generar orden de venta desde hoja técnica" src="../../../_images/sales-order-query-generated-from-the-process-generate-sales-order-from-technical-sheet.png" /></p>
+<p>Imagen 14. Consulta de Orden de Venta Generada</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../financing-management/index.html" class="btn btn-neutral float-right" title="Gestión de Financiamiento" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="technical-sheet.html" class="btn btn-neutral float-left" title="Hoja Técnica" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

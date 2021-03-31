@@ -1,0 +1,403 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Registro de Inventario Físico &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Lista de Materiales" href="../ldm.html" />
+    <link rel="prev" title="Inventario Físico" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Materiales</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../inventory-move/index.html"><strong>Movimiento de Inventario</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../internal-use-inventory/index.html"><strong>Inventario de Uso Interno</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Inventario Físico</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Registro de Inventario Físico</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-detalle-de-almacenamiento"><strong>Consultar Detalle de Almacenamiento</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../ldm.html"><strong>Lista de Materiales</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../replenishment-process/index.html"><strong>Reabastecimiento</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Materiales</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Inventario Físico</strong></a> &raquo;</li>
+        
+      <li><strong>Registro de Inventario Físico</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/material-management/physical-inventory/physical-inventory.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-de-inventario-fisico">
+<span id="documento-inventario-fisico"></span><h1><strong>Registro de Inventario Físico</strong><a class="headerlink" href="#registro-de-inventario-fisico" title="Permalink to this headline">¶</a></h1>
+<p>Para visualizar completamente el procedimiento del inventario físico, es generado el reporte “<strong>Detalle de Almacenamiento</strong>” seleccionando la ubicación donde será realizado el inventario físico y el producto por el cual es realizado dicho inventario. Ejemplificando el caso, el reporte puede ser visualizado de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Primer Reporte de Detalle de Almacenamiento" src="../../../_images/primer-detalle-almacen.png" /></p>
+<p>Imagen 1. Primer Reporte de Detalle de Almacenamiento</p>
+</div></blockquote>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione la ventana “<strong>Inventario Físico</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../_images/menu-inventario-fisico.png" /></p>
+<p>Imagen 2. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Inventario Físico</strong>”, donde debe seleccionar el icono “<strong>Registro Nuevo</strong>” para crear un nuevo registro de inventario físico.</p>
+<blockquote>
+<div><p><img alt="Ventana Inventario Físico y Icono Registro Nuevo" src="../../../_images/icono-registro-nuevo2.png" /></p>
+<p>Imagen 3. Ventana Inventario Físico y Icono Registro Nuevo</p>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando el documento de inventario físico.</p>
+<blockquote>
+<div><p><img alt="Campo Organización" src="../../../_images/campo-organizacion3.png" /></p>
+<p>Imagen 4. Campo Organización</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción referente al documento de inventario físico que esta realizando en la organización seleccionada.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción" src="../../../_images/campo-descripcion3.png" /></p>
+<p>Imagen 5. Campo Descripción|</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Almacén</strong>”, el lugar donde es almacenado el producto por el cual se esta realizando el inventario físico.</p>
+<blockquote>
+<div><p><img alt="Campo Almacén" src="../../../_images/campo-almacen2.png" /></p>
+<p>Imagen 6. Campo Almacén</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Fecha del Movimiento</strong>”, la fecha en la cual es realizado en el almacén el conteo real del producto por el cual se esta realizando el inventario físico.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Movimiento" src="../../../_images/fecha-movimiento.png" /></p>
+<p>Imagen 7. Campo Fecha de Movimiento</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento" src="../../../_images/campo-tipo-documento2.png" /></p>
+<p>Imagen 8. Campo Tipo de Documento</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de los campos de la pestaña seleccionando el icono “<strong>Guardar Registros</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Línea de Conteo de Inventario</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de Conteo de Inventario" src="../../../_images/pest-linea-inventario.png" /></p>
+<p>Imagen 9. Pestaña Línea de Conteo de Inventario</p>
+<p>Seleccione en el campo “<strong>Ubicación</strong>”, la ubicación exacta donde se encuentra localizado el producto dentro del almacén seleccionado. El mismo se puede seleccionar con ayuda del identificador ubicado del lado derecho del campo.</p>
+<blockquote>
+<div><p><img alt="Campo Ubicación" src="../../../_images/campo-ubicacion2.png" /></p>
+<p>Imagen 10. Campo Ubicación</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto por el cual se esta realizando el inventario físico.</p>
+<blockquote>
+<div><p><img alt="Campo Producto" src="../../../_images/campo-producto2.png" /></p>
+<p>Imagen 11. Campo Producto</p>
+</div></blockquote>
+<ol class="arabic" start="3">
+<li><p>Introduzca en el campo “<strong>Cantidad Contada</strong>”, la cantidad real en existencia del producto seleccionado.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad Contada" src="../../../_images/campo-cantidad-contada.png" /></p>
+<p>Imagen 12. Campo Cantidad Contada</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Debe ser ingresada la cantidad real que existe físicamente en el almacén seleccionado.</p>
+</div>
+</div></blockquote>
+</li>
+</ol>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios" src="../../../_images/icono-guardar1.png" /></p>
+<p>Imagen 13. Icono Guardar Cambios</p>
+</div></blockquote>
+<p>Podrá visualizar que es cargada automáticamente la cantidad de productos en existencia que se encuentran registrados en ADempiere.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad en Libros" src="../../../_images/campo-cantidad-libros.png" /></p>
+<p>Imagen 14. Campo Cantidad en Libros</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la pestaña principal “<strong>Conteo de Inventario</strong>” y luego la opción “<strong>Completar</strong>”, ubicada en la parte inferior derecha de la ventana.</p>
+<blockquote>
+<div><p><img alt="Pestaña Conteo de Inventario" src="../../../_images/pest-conteo-opcion-completar.png" /></p>
+<p>Imagen 15. Pestaña Conteo de Inventario</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el documento “<strong>Inventario Físico</strong>” que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Acción Completar y Opción OK" src="../../../_images/accion-completar2.png" /></p>
+<p>Imagen 16. Acción Completar y Opción OK</p>
+</div></blockquote>
+</div>
+<div class="section" id="consultar-detalle-de-almacenamiento">
+<h1><strong>Consultar Detalle de Almacenamiento</strong><a class="headerlink" href="#consultar-detalle-de-almacenamiento" title="Permalink to this headline">¶</a></h1>
+<p>Al generar el reporte “<strong>Detalle de Almacenamiento</strong>” seleccionando la ubicación donde fue realizado el inventario físico y el producto por el cual fue realizado dicho inventario, se puede visualizar el reporte de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Segundo Reporte de Detalle de Almacenamiento" src="../../../_images/segundo-detalle-almacen.png" /></p>
+<p>Imagen 17. Segundo Reporte de Detalle de Almacenamiento</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../ldm.html" class="btn btn-neutral float-right" title="Lista de Materiales" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Inventario Físico" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

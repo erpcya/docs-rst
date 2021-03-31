@@ -1,0 +1,426 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Planificación de Visitas &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Gestión PDV" href="../pos-management/index.html" />
+    <link rel="prev" title="Gestión de Relaciones con Clientes" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión de Relaciones con Clientes</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Planificación de Visitas</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión de Relaciones con Clientes</strong></a> &raquo;</li>
+        
+      <li><strong>Planificación de Visitas</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/customer-relations/visit-planning.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="planificacion-de-visitas">
+<span id="documento-planificacion-de-visitas"></span><h1><strong>Planificación de Visitas</strong><a class="headerlink" href="#planificacion-de-visitas" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Relaciones con Clientes</strong>”, luego seleccione la ventana “<strong>Planificación de Visita</strong>”.</p>
+<blockquote>
+<div><p><img alt="menu de adempiere" src="../../_images/visit-planning-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Planificación de Visita</strong>”, con los diferentes registros de planificación de visitas en ADempiere. Donde debe seleccionar el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro de planificación.</p>
+<blockquote>
+<div><p><img alt="icono registro nuevo" src="../../_images/new-record-icon-of-the-visit-planning-window.png" /></p>
+<p>Imagen 2. Icono Registro Nuevo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se encuentra realizando la planificación de visitas.</p>
+<blockquote>
+<div><p><img alt="campo organización" src="../../_images/field-organization-of-the-visit-planning-window.png" /></p>
+<p>Imagen 3. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Región de Ventas</strong>”, la región de ventas a la cual se le esta realizando la planificación de visitas.</p>
+<blockquote>
+<div><p><img alt="campo región de ventas" src="../../_images/field-sales-region-of-the-visit-planning-window.png" /></p>
+<p>Imagen 4. Campo Región de Ventas</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Agente Comercial</strong>”, el socio del negocio vendedor al cual se le esta realizando la planificación de visitas.</p>
+<blockquote>
+<div><p><img alt="campo agente comercial" src="../../_images/sales-agent-field-visit-planning-window.png" /></p>
+<p>Imagen 5. Campo Agente Comercial</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código</strong>”, el código para el registro de planificación que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo código" src="../../_images/field-code-of-the-visit-planning-window.png" /></p>
+<p>Imagen 6. Campo Código</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Visita</strong>”, el tipo de visita que se encuentra planificando.</p>
+<blockquote>
+<div><p><img alt="campo tipo de visita" src="../../_images/visit-type-field-of-the-visit-planning-window.png" /></p>
+<p>Imagen 7. Campo Tipo de Visita</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Desde</strong>”, la fecha de inicio de la planificación de visitas que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo válido desde" src="../../_images/field-valid-from-the-visit-planning-window.png" /></p>
+<p>Imagen 8. Campo Válido Desde</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción que explique de forma clara y general, la planificación que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripción" src="../../_images/field-description-of-the-visit-planning-window.png" /></p>
+<p>Imagen 9. Campo Descripción</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde seleccionar el icono “<strong>Guardar Cambios</strong>”, ubicada en la barra de herramientas de ADempiere, para guardar el registro de los campos de la ventana “<strong>Planificación de Visita</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Línea de Planificación</strong>”, para crear los diferentes registros de planificación de visitas correspondiente al tipo de visita seleccionada en el campo “<strong>Tipo de Visita</strong>”.</p>
+<blockquote>
+<div><p><img alt="pestaña línea de planificación" src="../../_images/planning-line-tab-of-the-visit-planning-window.png" /></p>
+<p>Imagen 10. Pestaña línea de planificación</p>
+</div></blockquote>
+<p>Podrá visualizar el campo “<strong>Planificación de Visita</strong>”, el registro en el que se encuentra creando la planificación de visitas.</p>
+<blockquote>
+<div><p><img alt="campo planificación de visita" src="../../_images/visits-planning-field-of-the-planning-line-tab.png" /></p>
+<p>Imagen 11. Campo Planificación de Visita</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio cliente al cual se le encuentra planificando la visita.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio cliente de la pestaña" src="../../_images/business-partner-field-of-planning-line-tab.png" /></p>
+<p>Imagen 12. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Dirección del Socio del Negocio</strong>”, la dirección de ubicación del socio del negocio seleccionado en el campo “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo dirección del socio del negocio" src="../../_images/business-partner-address-field-of-the-planning-line-tab.png" /></p>
+<p>Imagen 13. Campo Dirección del Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Dirección Factura</strong>”, la dirección a la cual se va a realizar la visita que se encuentra planificando.</p>
+<blockquote>
+<div><p><img alt="campo dirección factura" src="../../_images/invoice-address-field-of-the-planning-line-tab.png" /></p>
+<p>Imagen 14. Campo Dirección Factura</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Región de Ventas</strong>”, la región de ventas de la localización a la cual se va a realizar la visita que se encuentra planificando.</p>
+<blockquote>
+<div><p><img alt="campo región de ventas de la pestaña" src="../../_images/sales-region-field-of-planning-line-tab.png" /></p>
+<p>Imagen 15. Campo Región de Ventas</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Usuario</strong>”, el socio del negocio vendedor que va a realizar la visita que se encuentra planificando.</p>
+<blockquote>
+<div><p><img alt="campo usuario" src="../../_images/planning-line-tab-user-field.png" /></p>
+<p>Imagen 16. Campo Usuario</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Frecuencia</strong>”, la frecuencia con la cual se va a realizar la visita que se encuentra planificando.</p>
+<blockquote>
+<div><p><img alt="campo tipo de frecuencia" src="../../_images/frequency-type-field-of-the-planning-line-tab.png" /></p>
+<p>Imagen 17. Campo Tipo de Frecuencia</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Desde</strong>”, la fecha de inicio de la planificación de visitas que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo válido desde de la pestaña" src="../../_images/field-valid-from-the-planning-line-tab.png" /></p>
+<p>Imagen 18. Campo Válido Desde</p>
+</div></blockquote>
+<p>Introduzca en el recuadro ubicado del lado derecho del campo “<strong>Fecha de Inicio</strong>”, la hora de inicio de la visita que se encuentra planificando.</p>
+<blockquote>
+<div><p><img alt="campo fecha de inicio" src="../../_images/start-date-field-of-the-planning-line-tab.png" /></p>
+<p>Imagen 19. Campo Fecha de Inicio</p>
+</div></blockquote>
+<p>Introduzca en el recuadro ubicado del lado derecho del campo “<strong>Final de Tiempo</strong>”, la hora de finalización de la visita que se encuentra planificando.</p>
+<blockquote>
+<div><p><img alt="campo final de tiempo" src="../../_images/end-time-field-of-planning-line-tab.png" /></p>
+<p>Imagen 20. Campo Final de Tiempo</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Secuencia</strong>”, la secuencia en la cual se va a realizar la visita al socio del negocio cliente seleccionado en el campo “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo secuencia" src="../../_images/sequence-field-on-the-planning-line-tab.png" /></p>
+<p>Imagen 21. Campo Secuencia</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La secuencia indica el orden en el que se van a realizar las visitas a los socios del negocio involucrados en la planificación que se encuentra realizando.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción que explique de forma clara y específica, la planificación que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la pestaña" src="../../_images/field-description-of-the-planning-line-tab.png" /></p>
+<p>Imagen 22. Campo Descripción</p>
+</div></blockquote>
+<p>Por último, podrá visualizar el grupo de checklist de la semana, donde debe tildar los días en los cuales se va a realizar la visita al socio del negocio cliente seleccionado en el campo “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="grupo de checklist de la semana" src="../../_images/planning-line-tab-checklist-group.png" /></p>
+<p>Imagen 23. Grupo de Checklist</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde seleccionar el icono “<strong>Guardar Cambios</strong>”, ubicada en la barra de herramientas de ADempiere, para guardar el registro de los campos de la ventana “<strong>Planificación de Visita</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Secuencia</strong>”, para visualizar la secuencia de los diferentes registros de planificación de visitas correspondiente al tipo de visita seleccionada en el campo “<strong>Tipo de Visita</strong>”.</p>
+<blockquote>
+<div><p><img alt="pestaña secuencia" src="../../_images/sequence-tab-of-the-visit-planning-window.png" /></p>
+<p>Imagen 24. Pestaña Secuencia</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../pos-management/index.html" class="btn btn-neutral float-right" title="Gestión PDV" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Gestión de Relaciones con Clientes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

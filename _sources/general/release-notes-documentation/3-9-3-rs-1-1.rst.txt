@@ -1,0 +1,20 @@
+.. _documento/versión-3-9-3-rs-1-1:
+
+**3.9.3-rs-1.1**
+================
+
+**Soporte a versiones:**
+------------------------
+
+- latest
+
+**Novedades:**
+--------------
+
+- Se actualiza la documentación :ref:`documento/conversión-monetaria`, para agregar el proceso de creación de la :ref:`paso/crear-tasa-desde-ventana-tasa-de-cambio`.
+
+- Se actualiza la documentación :ref:`src/adempiere/asset-management`, para agregar los procesos :ref:`documento/entrega-de-activos` y :ref:`documento/devolución-de-activos`.
+
+- Se actualizan los documentos :ref:`documento/apertura-de-caja`, :ref:`documento/punto-de-venta`, :ref:`documento/cierre-de-caja-punto-de-venta` y :ref:`documento/traspaso-a-banco`, en base a la última versión actualizada de ADempiere.
+
+- Se actualiza la documentación de la :ref:`src/adempiere/pos-management`, para agregar el documento :ref:`documento/retiro-detallado-punto-de-venta`.

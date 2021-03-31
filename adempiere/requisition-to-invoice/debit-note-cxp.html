@@ -1,0 +1,616 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Nota de Débito &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Gestión de Devoluciones" href="../returns/index.html" />
+    <link rel="prev" title="Nota de Crédito" href="credit-note-cxp.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión de Compras</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="request-for-quotation/index.html"><strong>Solicitud de Cotización a Proveedor</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="requisition/index.html"><strong>Requisición a Compra</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="purchase-order/index.html"><strong>Órdenes de Compra</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="invoice/index.html"><strong>Documento por Pagar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="material-receipt/index.html"><strong>Recepción de Productos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="assign-purchase-order-receipt-invoice.html"><strong>Asignación de Factura a Recepción</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="credit-note-cxp.html"><strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Nota de Débito</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#registro-de-nota-de-debito"><strong>Registro de Nota de Débito</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linea-de-la-factura"><strong>Línea de la Factura</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-asignacion-de-nota-de-debito-aplicada"><strong>Consultar Asignación de Nota de Débito Aplicada</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión de Compras</strong></a> &raquo;</li>
+        
+      <li><strong>Nota de Débito</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/requisition-to-invoice/debit-note-cxp.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="nota-de-debito">
+<span id="documento-nota-de-debito-cxp"></span><h1><strong>Nota de Débito</strong><a class="headerlink" href="#nota-de-debito" title="Permalink to this headline">¶</a></h1>
+<p>Es un documento que se aplica a una factura para aumentar el monto de la misma, una nota de débito se podría realizar bajo el concepto de gastos administrativos y siempre nace de un documento afectado como una factura o una nota de débito.</p>
+<p>A continuación es explicado el procedimiento para generar en ADempiere, una nota de débito de cuentas por pagar.</p>
+<div class="section" id="registro-de-nota-de-debito">
+<h2><strong>Registro de Nota de Débito</strong><a class="headerlink" href="#registro-de-nota-de-debito" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../_images/documents-payable-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Documentos por Pagar</strong>”, con los diferentes registros de documentos por pagar cargados a ADempiere.</p>
+<blockquote>
+<div><p><img alt="Ventana Documentos por Pagar" src="../../_images/documents-payable-window.png" /></p>
+<p>Imagen 2. Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro en la ventana “<strong>Documentos por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo de la Ventana Documentos por Pagar" src="../../_images/new-record-icon-in-the-documents-payable-window.png" /></p>
+<p>Imagen 3. Icono Registro Nuevo de la Ventana Documentos por Pagar</p>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se encuentra realizando la nota de débito.</p>
+<blockquote>
+<div><p><img alt="Campo Organización de la Nota de Débito de CxP" src="../../_images/window-organization-field-documents-payable.png" /></p>
+<p>Imagen 4. Campo Organización de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Orden de Compra</strong>”, la orden de compra por la cual requiere realizar la nota de débito.</p>
+<blockquote>
+<div><p><img alt="Campo Orden de Compra de la Nota de Débito de CxP" src="../../_images/purchase-order-field-of-the-payables-window.png" /></p>
+<p>Imagen 5. Campo Orden de Compra de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Fecha de la Orden</strong>”, la fecha contable de la orden seleccionada en el campo “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de la Orden de la Nota de Débito de CxP" src="../../_images/date-field-of-the-order-of-the-payables-window.png" /></p>
+<p>Imagen 6. Campo Fecha de la Orden de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>No. del Documento</strong>”, el número de identificación correspondiente al documento que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Nro del Documento de la Nota de Débito de CxP" src="../../_images/document-number-field-of-the-papers-payable-window.png" /></p>
+<p>Imagen 7. Campo No del Documento de la Ventana Documentos por Pagar</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si no es ingresado ningún valor en este campo, ADempiere tomará el número de secuencia establecido para el tipo de documento seleccionado al guardar el mismo.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Referencia de Orden de Socio del Negocio</strong>”, la referencia de orden de socio del negocio.</p>
+<blockquote>
+<div><p><img alt="Campo Referencia de Orden de Socio del Negocio de la Nota de Débito de CxP" src="../../_images/business-partner-order-reference-field-of-the-payables-window.png" /></p>
+<p>Imagen 8. Campo Referencia de Orden de Socio del Negocio de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción con respecto al documento que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Nota de Débito de CxP" src="../../_images/documents-payable-window-description-field.png" /></p>
+<p>Imagen 9. Campo Descripción de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento Destino</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento Destino de la Nota de Débito de CxP" src="../../_images/cxp-debit-note-document-type-field.png" /></p>
+<p>Imagen 10. Campo Tipo de Documento Destino de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de Facturación</strong>”, la fecha en la cual es realizado el documento.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Facturación de la Nota de Débito de CxP" src="../../_images/cxp-debit-note-billing-date-field.png" /></p>
+<p>Imagen 11. Campo Fecha de Facturación de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Contable</strong>”, la fecha en la cual es realizado el documento.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha Contable de la Nota de Débito de CxP" src="../../_images/cxp-debit-memo-posting-date-field.png" /></p>
+<p>Imagen 12. Campo Fecha Contable de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio al cual le esta aplicando la nota de débito.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio de la Nota de Débito de CxP" src="../../_images/cxp-debit-memo-business-partner-field.png" /></p>
+<p>Imagen 13. Campo Socio del Negocio de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Dirección de Socio del Negocio</strong>”, la dirección del socio del negocio seleccionado anteriormente en el campo “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Dirección de Socio del Negocio de la Nota de Débito de CxP" src="../../_images/cxp-debit-memo-business-partner-address-field.png" /></p>
+<p>Imagen 14. Campo Dirección de Socio del Negocio de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Usuario</strong>”, el usuario del socio del negocio seleccionado anteriormente en el campo “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Usuario de la Nota de Débito de CxP" src="../../_images/cxp-debit-note-user-field.png" /></p>
+<p>Imagen 15. Campo Usuario de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios con la cual requiere generar la nota de débito.</p>
+<blockquote>
+<div><p><img alt="Campo Lista de Precios de la Nota de Débito de CxP" src="../../_images/cxp-debit-note-pricelist-field.png" /></p>
+<p>Imagen 16. Campo Lista de Precios de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Moneda</strong>”, la moneda definida para la lista de precios seleccionada.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda de la Nota de Débito de CxP" src="../../_images/currency-field-of-the-cxp-debit-note.png" /></p>
+<p>Imagen 17. Campo Moneda de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Agente Compañía</strong>”, el agente de comprañía relacionado con la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Agente Compañía de la Nota de Débito de CxP" src="../../_images/cxp-debit-memo-company-agent-field.png" /></p>
+<p>Imagen 18. Campo Agente Compañía de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>El checklist “<strong>Imprimir Descuento</strong>”, indica se va a imprimir el descuento en la factura y la orden.</p>
+<blockquote>
+<div><p><img alt="Checklist Imprimir Descuento de la Nota de Débito de CxP" src="../../_images/checklist-print-cxp-debit-note-discount.png" /></p>
+<p>Imagen 19. Checklist Imprimir Descuento de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Cheque</strong>”, para indicar como será pagado el documento.</p>
+<blockquote>
+<div><p><img alt="Opción Cheque de la Nota de Débito de CxP" src="../../_images/cxp-debit-note-check-option.png" /></p>
+<p>Imagen 20. Opción Cheque de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Crear Desde Factura</strong>”, para crear el documento desde una orden, autorización de devolución, factura o recepción.</p>
+<blockquote>
+<div><p><img alt="Opción Crear Desde Factura de la Nota de Débito de CxP" src="../../_images/option-create-from-cxp-debit-note-invoice.png" /></p>
+<p>Imagen 21. Opción Crear Desde Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Generar Recibos desde Facturas</strong>”, para crear y procesar el recibo de la entrega desde la factura cuando se encuentre correcta y completa.</p>
+<blockquote>
+<div><p><img alt="Opción Generar Recibos desde Facturas de la Nota de Débito de CxP" src="../../_images/option-generate-receipts-from-cxp-debit-note-invoices.png" /></p>
+<p>Imagen 22. Opción Generar Recibos desde Facturas de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>El checklist “<strong>Documento Fiscal</strong>”, indica que el registro en el que se encuentra es un documento fiscal.</p>
+<blockquote>
+<div><p><img alt="Checklist Documento Fiscal de la Nota de Débito de CxP" src="../../_images/checklist-fiscal-document-of-the-debit-note-of-cxp.png" /></p>
+<p>Imagen 23. Checklist Documento Fiscal de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Contol No</strong>”, el número de control fiscal correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Control Nro de la Nota de Débito de CxP" src="../../_images/control-field-number-of-the-cxp-debit-note.png" /></p>
+<p>Imagen 24. Campo Control No de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código Sunagro</strong>”, el código sunagro correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Código Sunagro de la Nota de Débito de CxP" src="../../_images/sunagro-code-field-of-the-cxp-debit-note.png" /></p>
+<p>Imagen 25. Campo Código Sunagro de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista</strong>”, la lista correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Lista de la Nota de Débito de CxP" src="../../_images/cxp-debit-memo-list-field.png" /></p>
+<p>Imagen 26. Campo Lista de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Región de Ventas</strong>”, la región de ventas correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Región de Ventas de la Nota de Débito de CxP" src="../../_images/cxp-debit-memo-sales-region-field.png" /></p>
+<p>Imagen 27. Campo Región de Ventas de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Factura Afectada</strong>”, la factura a la cual requiere aplicar la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Factura Afectada de la Nota de Débito de CxP" src="../../_images/affected-invoice-field-of-the-cxp-debit-note.png" /></p>
+<p>Imagen 28. Campo Factura Afectada de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Al tildar el checklist “<strong>No Aplica Retención de I.V.A</strong>”, no es aplicada la retención al documento que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Checklist No Aplica Retención de IVA de la Nota de Débito de CxP" src="../../_images/checklist-does-not-apply-vat-withholding-of-the-cxp-debit-note.png" /></p>
+<p>Imagen 29. Checklist No Aplica Retención de IVA de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Centro de Costos</strong>”, el centro de costos correspondiente para el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Centro de Costos de la Nota de Débito de CxP" src="../../_images/cxp-debit-memo-cost-center-field.png" /></p>
+<p>Imagen 30. Campo Centro de Costos de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Concepto de Retención de I.S.L.R</strong>”, el concepto de retención que requiere aplicar al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Concepto de Retención de ISLR de la Nota de Débito de CxP" src="../../_images/cxp-debit-note-islr-withholding-concept-field.png" /></p>
+<p>Imagen 31. Campo Concepto de Retención de ISLR de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Actividad</strong>”, la actividad correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Actividad de la Nota de Débito de CxP" src="../../_images/cxp-debit-memo-activity-field.png" /></p>
+<p>Imagen 32. Campo Actividad de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Retención de Terceros</strong>”, la retención correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Retención de Terceros de la Nota de Débito de CxP" src="../../_images/third-party-retention-field-of-cxp-debit-memo.png" /></p>
+<p>Imagen 33. Campo Retención de Terceros de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña “<strong>Factura</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios de la Nota de Débito de CxP" src="../../_images/save-changes-to-cxp-debit-note-icon.png" /></p>
+<p>Imagen 34. Icono Guardar Cambios de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="linea-de-la-factura">
+<h2><strong>Línea de la Factura</strong><a class="headerlink" href="#linea-de-la-factura" title="Permalink to this headline">¶</a></h2>
+<p>Seleccione la pestaña “<strong>Línea de la Factura</strong>”, para cargar los detalles de la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/cxp-debit-memo-invoice-line-tab.png" /></p>
+<p>Imagen 35. Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+<p>Podrá visualizar en el campo “<strong>No. Línea</strong>”, el número de línea correspondiente al registro que se encuentra realizando en la pestaña “<strong>Línea de la Factura</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Nro Línea de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/field-number-line-of-the-line-tab-of-the-cxp-debit-note-invoice.png" /></p>
+<p>Imagen 36. Campo No Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto por el cual se encuentra aplicando la nota de débito.</p>
+<blockquote>
+<div><p><img alt="Campo Producto de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/product-field-of-the-line-tab-of-the-cxp-debit-memo-invoice.png" /></p>
+<p>Imagen 37. Campo Producto de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo por el cual se encuentra aplicando la nota de débito.</p>
+<blockquote>
+<div><p><img alt="Campo Cargo de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/charge-field-of-the-line-tab-of-the-cxp-debit-note-invoice.png" /></p>
+<p>Imagen 38. Campo Cargo de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/field-description-of-the-line-tab-of-the-cxp-debit-note-invoice.png" /></p>
+<p>Imagen 39. Campo Descripción de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cantidad</strong>”, la cantidad correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/amount-field-of-the-line-tab-of-the-debit-note-invoice-cxp.png" /></p>
+<p>Imagen 40. Campo Cantidad de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>UM</strong>”, la unidad de medida relacionada al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo UM de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/um-field-of-the-line-tab-of-the-cxp-debit-note-invoice.png" /></p>
+<p>Imagen 41. Campo UM de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Precio</strong>”, el precio correspondiente a la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Precio de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/price-field-of-the-line-tab-of-the-cxp-debit-note-invoice.png" /></p>
+<p>Imagen 42. Campo Precio de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Precio Actual</strong>”, el precio actual ingresado en el campo “<strong>Precio</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Precio Actual de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/current-price-field-of-the-line-tab-of-the-cxp-debit-memo-invoice.png" /></p>
+<p>Imagen 43. Campo Precio Actual de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Precio de Lista</strong>”, el precio de lista oficial.</p>
+<blockquote>
+<div><p><img alt="Campo Precio de Lista de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/list-price-field-of-cxp-debit-memo-invoice-line-tab.png" /></p>
+<p>Imagen 44. Campo Precio de Lista de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Impuesto</strong>”, el tipo de impuesto a aplicar en el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Impuesto de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/tax-field-of-the-line-tab-of-the-cxp-debit-note-invoice.png" /></p>
+<p>Imagen 45. Campo Impuesto de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Total Impuesto</strong>”, el monto total del impuesto aplicado al documento que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo total del impuesto de la pestaña línea de factura de la nota de débito de cxp" src="../../_images/total-tax-field-on-the-invoice-line-tab-of-the-cxp-debit-memo.png" /></p>
+<p>Imagen 46. Campo Total Impuesto de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Factura Afectada</strong>”, la factura afectada para asignar la nota automáticamente.</p>
+<blockquote>
+<div><p><img alt="Campo Factura Afectada de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/affected-invoice-field-of-the-invoice-line-tab-of-the-cxp-debit-memo.png" /></p>
+<p>Imagen 47. Campo Factura Afectada de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Actividad</strong>”, la actividad correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Actividad de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/activity-field-of-the-line-tab-of-the-cxp-debit-note-invoice.png" /></p>
+<p>Imagen 48. Campo Actividad de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Centro de Costos</strong>”, el centro de costos correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Centro de Costos de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/cost-center-field-of-the-line-tab-of-the-cxp-debit-memo-invoice.png" /></p>
+<p>Imagen 49. Campo Centro de Costos de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Neto de Línea</strong>”, el neto de la línea.</p>
+<blockquote>
+<div><p><img alt="Campo Neto de Línea de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/line-net-field-of-cxp-debit-memo-invoice-line-tab.png" /></p>
+<p>Imagen 50. Campo Neto de Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Total de la Línea</strong>”, el resultado de la sumatoria del valor en el campo “<strong>Neto de Línea</strong>” más el valor en el campo “<strong>Total del Impuesto</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Total de la Línea de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/total-field-of-the-line-of-the-invoice-line-tab-of-the-cxp-debit-memo.png" /></p>
+<p>Imagen 51. Campo Total de la Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña “<strong>Línea de la Factura</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios de la Pestaña Línea de la Factura de la Nota de débito de CxP" src="../../_images/save-changes-icon-of-cxp-debit-note-invoice-line-tab.png" /></p>
+<p>Imagen 52. Icono Guardar Cambios de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione la pestaña principal “<strong>Factura</strong>” y ubique la opción “<strong>Completar</strong>”, en la parte inferior izquierda de la ventana.</p>
+<blockquote>
+<div><p><img alt="Pestaña Principal Factura de la Nota de débito de CxP" src="../../_images/cxp-debit-note-invoice-main-tab.png" /></p>
+<p>Imagen 53. Pestaña Principal Factura de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Completar</strong>”, para completar el documento “<strong>Nota de Débito de CxP</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Completar de la Nota de débito de CxP" src="../../_images/cxp-debit-note-complete-option.png" /></p>
+<p>Imagen 54. Opción Completar de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para culminar el proceso.</p>
+<blockquote>
+<div><p><img alt="Acción Completar y Opción OK de la Nota de débito de CxP" src="../../_images/action-complete-and-ok-option-of-the-cxp-debit-note.png" /></p>
+<p>Imagen 55. Acción Completar y Opción OK de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="consultar-asignacion-de-nota-de-debito-aplicada">
+<h2><strong>Consultar Asignación de Nota de Débito Aplicada</strong><a class="headerlink" href="#consultar-asignacion-de-nota-de-debito-aplicada" title="Permalink to this headline">¶</a></h2>
+<p>Ubique el registro de la factura asociada a la nota de débito, en este caso se ubica la factura “<strong>1000110</strong>” y posteriormente seleccione la pestaña “<strong>Facturas Pagadas</strong>”.</p>
+<blockquote>
+<div><p><img alt="Registro de la Factura de la Nota de débito CxP" src="../../_images/cxp-debit-memo-invoice-record.png" /></p>
+<p>Imagen 56. Registro de la Factura Asociada a la Nota de débito de CxP</p>
+</div></blockquote>
+<p>Haga clic contrario en el campo “<strong>Asignación</strong>” y seleccione la opción “<strong>Acercar</strong>” en el menú visualizado.</p>
+<blockquote>
+<div><p><img alt="Acercar Asignación de Nota de débito de CxP" src="../../_images/zoom-in-assigning-the-cxp-debit-note.png" /></p>
+<p>Imagen 57. Acercar Asignación de Nota de débito de CxP</p>
+</div></blockquote>
+<p>Podrá visualizar el registro de la asignación creada al completar el documento “<strong>Nota de Débito de CxP</strong>”.</p>
+<blockquote>
+<div><p><img alt="Registro de Asignación de Nota de débito de CxP" src="../../_images/cxp-debit-memo-assignment-record.png" /></p>
+<p>Imagen 58. Registro de Asignación de Nota de débito de CxP</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Asignaciones</strong>”, para visualizar la información del monto de la nota de débito aplicada a la factura.</p>
+<blockquote>
+<div><p><img alt="Pestaña Asignaciones de Nota de débito de CxP" src="../../_images/cxp-debit-memo-assignments-tab.png" /></p>
+<p>Imagen 59. Pestaña Asignaciones de la Ventana Consulta de Asignación</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../returns/index.html" class="btn btn-neutral float-right" title="Gestión de Devoluciones" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="credit-note-cxp.html" class="btn btn-neutral float-left" title="Nota de Crédito" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

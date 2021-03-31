@@ -1,0 +1,408 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Orden de Pago Obligaciones Laborales &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Generar Reporte de ARCV en ADempiere" href="../arcv-report/index.html" />
+    <link rel="prev" title="Préstamos a Empleados" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../human-resources/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>Gestión de Nóminas</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../payroll-import-format.html"><strong>Formatos de Importación de Nóminas</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../payroll-import-format.html#nominas-regulares"><strong>Nóminas Regulares</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../payroll-import-format.html#nomina-de-vacaciones"><strong>Nómina de Vacaciones</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../payroll-import-format.html#nomina-de-utilidades"><strong>Nómina de Utilidades</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../payroll-import-format.html#nomina-anticipo-de-vacaciones"><strong>Nómina Anticipo de Vacaciones</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../payroll-import-format.html#nomina-anticipo-de-prestaciones-sociales"><strong>Nómina Anticipo de Prestaciones Sociales</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../payroll-import-format.html#nomina-de-prestaciones-sociales"><strong>Nómina de Prestaciones Sociales</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../bonus-cancellation-with-intermediary.html"><strong>Cancelación de Pasivo con Intermediarios</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html"><strong>Préstamos a Empleados</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>Orden de Pago Obligaciones Laborales</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../arcv-report/index.html"><strong>Generar Reporte de ARCV en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../payroll-report/index.html"><strong>Reporte de Nómina en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../procedure-to-process-payroll/index.html"><strong>Procedimiento para Procesar Nómina</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../treasury-management/index.html"><strong>Gestión de Tesorería</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../import/index.html"><strong>Gestión de Importación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../withholding-management/index.html"><strong>Gestión de Retenciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Nóminas</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Préstamos a Empleados</strong></a> &raquo;</li>
+        
+      <li><strong>Orden de Pago Obligaciones Laborales</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/lve/procedures/payroll/loans-to-employees/loans-to-employees.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="orden-de-pago-obligaciones-laborales">
+<span id="documento-prestamos-a-empleados"></span><h1><strong>Orden de Pago Obligaciones Laborales</strong><a class="headerlink" href="#orden-de-pago-obligaciones-laborales" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la ventana “<strong>Selección de Pagos</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../../_images/menu7.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+<p>Podrá visualizar la ventana “<strong>Selección de Pago</strong>”, en la cual debe seleccionar el icono “<strong>Registro Nuevo</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo 1" src="../../../../_images/icono-nuevo2.png" /></p>
+<p>Imagen 2. Icono Registro Nuevo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual está realizando el documento “<strong>Orden de Pago Obligaciones Laborales</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Organización 1" src="../../../../_images/organizacion6.png" /></p>
+<p>Imagen 3. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Para ejemplificar el registro es utilizado el tipo de documento “<strong>Orden de Pago Obligaciones Laborales</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento 1" src="../../../../_images/tipo-doc.png" /></p>
+<p>Imagen 4. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>F. Documento</strong>”, la fecha en la cual se está generando el documento de orden de pago obligaciones laborales.</p>
+<blockquote>
+<div><p><img alt="Campo F. Documento 1" src="../../../../_images/f-doc.png" /></p>
+<p>Imagen 5. Campo F. Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de Pago</strong>”, la fecha en la cual se debe realizar el pago al socio del negocio empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Pago 1" src="../../../../_images/f-pago.png" /></p>
+<p>Imagen 6. Campo Fecha de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda en la cual se debe realizar el pago al socio del negocio empleado.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda 1" src="../../../../_images/moneda3.png" /></p>
+<p>Imagen 7. Campo Moneda</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre de Referencia</strong>”, un nombre de referencia para la orden de pago que está realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre de Referencia 1" src="../../../../_images/nom-ref.png" /></p>
+<p>Imagen 8. Campo Nombre de Referencia</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción referente a la orden de pago que está realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción 1" src="../../../../_images/desc-ref.png" /></p>
+<p>Imagen 9. Campo Descripción</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de campos de la ventana “<strong>Selección de Pago</strong>”, seleccionando el icono “<strong>Guardar Cambios</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Línea de Selección de Pago</strong>”, para proceder a llenar los campos necesarios.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de Selección de Pago 1" src="../../../../_images/pest-orden.png" /></p>
+<p>Imagen 10. Pestaña Línea de Selección de Pago</p>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio empleado al cual se debe realizar el préstamo.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio" src="../../../../_images/socio4.png" /></p>
+<p>Imagen 11. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Total del Pago</strong>”, el monto total del préstamo correspondiente al socio del negocio seleccionado.</p>
+<blockquote>
+<div><p><img alt="Campo Total del Pago" src="../../../../_images/monto1.png" /></p>
+<p>Imagen 12. Campo Total del Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo correspondiente a la orden de pago que se esta realizando. Para ejemplificar el registro es utilizado el cargo “<strong>Préstamo Empleado</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Cargo" src="../../../../_images/cargo3.png" /></p>
+<p>Imagen 13. Campo Cargo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Regla de Pago</strong>”, la forma de pago para gestionar el préstamo al socio del negocio empleado seleccionado.</p>
+<blockquote>
+<div><p><img alt="Regla de Pago" src="../../../../_images/regla-pago.png" /></p>
+<p>Imagen 14. Campo Regla de Pago</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de campos de la ventana “<strong>Selección de Pago</strong>”, seleccionando el icono “<strong>Guardar Cambios</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div></blockquote>
+<p>Regrese a la ventana principal “<strong>Selección de Pago</strong>” y seleccione la opción “<strong>Completar</strong>”, ubicada en la parte inferior del documento.</p>
+<blockquote>
+<div><p><img alt="Pestaña Selección de Pago y Opción Completar 1" src="../../../../_images/completar9.png" /></p>
+<p>Imagen 15. Opción Completar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el documento.</p>
+<blockquote>
+<div><p><img alt="Acción Completar" src="../../../../_images/accion-completar8.png" /></p>
+<p>Imagen 16. Acción Completar</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../arcv-report/index.html" class="btn btn-neutral float-right" title="Generar Reporte de ARCV en ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Préstamos a Empleados" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

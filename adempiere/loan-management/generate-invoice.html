@@ -1,0 +1,482 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Generar Factura desde Préstamo &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Gestión de Recursos Humanos" href="../human-resources-management/index.html" />
+    <link rel="prev" title="Generar Pagos de Préstamo" href="generate-payment.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión de Préstamos e Inversiones</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="loan-requirements.html"><strong>Objetivo Principal y Sustentación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="loan-requirements.html#requerimientos"><strong>Requerimientos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="loan-running.html"><strong>Ejecución</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="loan.html"><strong>Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="loan.html#amortizacion"><strong>Amortización</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="loan.html#consulta-de-prestamo"><strong>Consulta de Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment-selection.html"><strong>Generar Selección de Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment-selection.html#interpretando-la-ventana"><strong>Interpretando la Ventana</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment-selection.html#seleccion-de-pago"><strong>Selección de Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment-selection.html#consulta-de-seleccion-de-pago-de-prestamo"><strong>Consulta de Selección de Pago de Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment-selection.html#ventana-seleccion-de-pago"><strong>Ventana Selección de Pago:</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment-selection.html#ventana-de-prestamo"><strong>Ventana de Préstamo:</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment.html"><strong>Generar Pagos de Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment.html#consulta-de-pagos-de-prestamo"><strong>Consulta de Pagos de Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment.html#pago-cobro"><strong>Pago/Cobro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment.html#caja"><strong>Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment.html#ventana-de-prestamo"><strong>Ventana de Préstamo:</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-payment.html#contabilidad-del-proceso"><strong>Contabilidad del Proceso</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Generar Factura desde Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#interpretando-la-ventana"><strong>Interpretando la Ventana</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1"><strong>Generar Factura desde Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#consulta-de-factura-de-prestamo"><strong>Consulta de Factura de Préstamo</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="#contabilidad-del-proceso"><strong>Contabilidad del Proceso</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión de Préstamos e Inversiones</strong></a> &raquo;</li>
+        
+      <li><strong>Generar Factura desde Préstamo</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/loan-management/generate-invoice.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="generar-factura-desde-prestamo">
+<span id="documento-generar-factura-prestamo"></span><h1><strong>Generar Factura desde Préstamo</strong><a class="headerlink" href="#generar-factura-desde-prestamo" title="Permalink to this headline">¶</a></h1>
+<p>El documento por cobrar a generar (Fiscal o no Fiscal) será emitido por concepto de cuota vencida, con los siguientes conceptos dependiendo del préstamo inicial solicitado(Producto Financiero) y su configuración <strong>(Vea Configuración de Producto Financiero (Préstamo))</strong>:</p>
+<ul class="simple">
+<li><p>Préstamo con Interés Gravado:</p></li>
+<li><p>Capital</p></li>
+<li><p>Interés + IVA</p></li>
+<li><p>Préstamo con Interés Exento:</p></li>
+<li><p>Capital</p></li>
+<li><p>Interés</p></li>
+<li><p>Préstamo sin Interés:</p></li>
+<li><p>Capital</p></li>
+</ul>
+<p>Sin embargo existen casos en los cuales el solicitante retarda la cancelación de cuotas vencidas en estos casos ADempiere calcula intereses moratorios sobre la cuota vencida generando así una línea más en el documento.</p>
+</div>
+<div class="section" id="interpretando-la-ventana">
+<h1><strong>Interpretando la Ventana</strong><a class="headerlink" href="#interpretando-la-ventana" title="Permalink to this headline">¶</a></h1>
+<ul>
+<li><p>Panel de Parámetros de <strong>Consulta de Amortización:</strong> En este panel dispone de los parámetros que serán de filtro para consultar las cuotas pendientes por Facturar.</p>
+<blockquote>
+<div><p><img alt="Consulta de Amortización" src="../../_images/invoice-window-preview.png" /></p>
+<p>Imagen 1. Consulta de Amortización</p>
+</div></blockquote>
+</li>
+<li><p>Panel de resultados <strong>Para Selección de Cuotas</strong>: En este panel seleccionará las cuotas pendientes por Facturar.</p>
+<blockquote>
+<div><p><img alt="Para Selección de Cuotas" src="../../_images/invoice-result-preview.png" /></p>
+<p>Imagen 2. Para Selección de Cuotas</p>
+</div></blockquote>
+</li>
+<li><p>Panel de <strong>Datos para Generar la Factura</strong>: En este panel indicará los datos para generar la factura.</p>
+<blockquote>
+<div><p><img alt="Interpretando la Ventana" src="../../_images/invoice-parameters-preview.png" /></p>
+<p>Imagen 3. Interpretando la Ventana</p>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<div class="section" id="id1">
+<h1><strong>Generar Factura desde Préstamo</strong><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h1>
+<p>Se creó un Smart Browser permitiendo al usuario seleccionar múltiples cuotas de un préstamo en específico y generar de manera eficiente y segura, agrupando varias cuotas en una factura, ó discriminando por cuota si el usuario así lo desea de esta forma será generada una factura por cuota.</p>
+<p>Vaya a la ventana Generar Factura (Desde Préstamo) (Adjunto Imagen)</p>
+<blockquote>
+<div><p><img alt="Menú de Factura" src="../../_images/invoice-menu.png" /></p>
+<p>Imagen 4. Menú de Factura</p>
+</div></blockquote>
+<p>A continuación se desplegará la siguiente ventana (Adjunto Imagen)</p>
+<blockquote>
+<div><p><img alt="Generar Factura" src="../../_images/invoice-generate-preview.png" /></p>
+<p>Imagen 5. Generar Factura</p>
+</div></blockquote>
+<p>Proceda a llenar los parámetros de <strong>Consulta de Cuotas</strong> necesarios para generar la factura:</p>
+<blockquote>
+<div><ul>
+<li><p><strong>Socio de Negocio:</strong> Es un parámetro obligatorio, filtrará los préstamos pendientes por cobrar con el Socio del Negocio indicado.</p></li>
+<li><p><strong>Acuerdo Financiero(Préstamo):</strong> Es un parámetro obligatorio, filtrará las cuotas pendientes por cobrar del Préstamos indicado.</p></li>
+<li><p><strong>Fecha Inicio:</strong> filtrará las cuotas pendientes por cobrar en el Rango de fecha indicada.</p></li>
+<li><p><strong>Fecha Final:</strong> filtrará las cuotas pendientes por cobrar en el Rango de fecha indicada.</p></li>
+<li><p><strong>Fecha de Vencimiento:</strong> filtrará las cuotas pendientes por cobrar en el Rango de fecha indicada.</p></li>
+<li><p><strong>Vencido:</strong> Si selecciona la opción <strong>SI</strong>, filtrará las cuotas vencidas, si selecciona la opción <strong>NO</strong>, filtrará las cuotas no vencidas.</p></li>
+<li><p><strong>Seleccione la opción comenzar búsqueda</strong></p>
+<blockquote>
+<div><p><img alt="Búsqueda" src="../../_images/pay-selection-init-search.png" /></p>
+<p>Imagen 6. Búsqueda</p>
+</div></blockquote>
+</li>
+</ul>
+<p>A continuación verá los siguientes resultados:</p>
+<blockquote>
+<div><p><img alt="Comenzar Búsqueda" src="../../_images/invoice-init-search.png" /></p>
+<p>Imagen 7. Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Seleccione la cuota que desea facturar:</p>
+<blockquote>
+<div><p><img alt="Resultado de Búsqueda" src="../../_images/invoice-search-result.png" /></p>
+<p>Imagen 8. Resultado de Búsqueda</p>
+</div></blockquote>
+</div></blockquote>
+<p>Proceda a llenar los <strong>Datos para Generar la Factura</strong>.</p>
+<blockquote>
+<div><p><img alt="Llenando Datos" src="../../_images/invoice-fill-values.png" /></p>
+<p>Imagen 9. Llenando Datos</p>
+<ul class="simple">
+<li><p><strong>Tipo de Documento Destino:</strong> Seleccione el tipo de Documento con el que desea sea generada el Documento por Cobrar.</p></li>
+<li><p><strong>Fecha de Facturación:</strong> Indique la fecha en la cual será facturada la cuota.</p></li>
+<li><p><strong>Dividir Factura:</strong> Esta opción debe ser marcada si desea dividir las facturas por cuota, de lo contrario se generará una factura consolidada con las cuotas seleccionadas.</p></li>
+<li><p><strong>Acción de Documento:</strong> Indique la acción de documento con la cual desea generar la selección.</p></li>
+</ul>
+<p><img alt="Datos para Facturar" src="../../_images/invoice-action-search.png" /></p>
+<p>Imagen 10. Datos para Facturar</p>
+</div></blockquote>
+<p>Si desea generar la selección de pago seleccione la opción ok <img alt="OK" src="../../_images/loan-ok-icon.png" />, caso contrario seleccione la opción cancelar <img alt="cancelar" src="../../_images/loan-cancel-icon.png" /></p>
+<p>Si seleccionó la opción OK el sistema generará la(s) factura(s) de forma exitosa generando el siguiente mensaje indicando el número(s) de la(s) factura(s) generada.</p>
+<blockquote>
+<div><p><img alt="Documentos Generados" src="../../_images/invoice-generated.png" /></p>
+<p>Imagen 11. Documentos Generados</p>
+</div></blockquote>
+</div>
+<div class="section" id="consulta-de-factura-de-prestamo">
+<h1><strong>Consulta de Factura de Préstamo</strong><a class="headerlink" href="#consulta-de-factura-de-prestamo" title="Permalink to this headline">¶</a></h1>
+<p>Existen dos posibles formas de consultar las facturas generadas asociadas a un préstamo, a continuación serán explicadas.</p>
+<p>Ventanas en Documento por Cobrar</p>
+<p>Vaya a la ventana Documento por Cobrar (Adjunto Imagen)</p>
+<blockquote>
+<div><p><img alt="Factura" src="../../_images/invoice-generated-menu.png" /></p>
+<p>Imagen 12. Menú de Factura</p>
+</div></blockquote>
+<p>A continuación se desplegará la siguiente ventana (Adjunto Imagen).</p>
+<blockquote>
+<div><p><img alt="Ventana de Factura" src="../../_images/invoice-window.png" /></p>
+<p>Imagen 13. Ventana de Factura</p>
+</div></blockquote>
+<p>Busque el registro desde la opción “<strong>Encontrar Registro</strong>” ubicada en la barra de herramientas.</p>
+<blockquote>
+<div><p><img alt="Buscar Factura" src="../../_images/invoice-search-icon.png" /></p>
+<p>Imagen 14. Buscar Factura</p>
+</div></blockquote>
+<p>A continuación se desplegará el siguiente dialogo</p>
+<blockquote>
+<div><p><img alt="Diálogo de Búsqueda" src="../../_images/invoice-search-dialog.png" /></p>
+<p>Imagen 15. Diálogo de Búsqueda</p>
+</div></blockquote>
+<p>Ingrese el número de la selección generada en el proceso <strong>Generar Factura (Desde Préstamo)</strong></p>
+<p><strong>Ventana de Préstamo:</strong></p>
+<p>Una vez en la ventana de Préstamo</p>
+<p>Vaya a la opción “<strong>Visualiza Detalle(Donde es Usado)</strong>” ubicada en la barra de herramientas.</p>
+<blockquote>
+<div><p><img alt="Referencias de Factura" src="../../_images/invoice-search-reference-icon.png" /></p>
+<p>Imagen 16. Referencias de Factura</p>
+</div></blockquote>
+<p>A continuación se desplegará el siguiente dialogo</p>
+<blockquote>
+<div><p><img alt="Lista de Referencias" src="../../_images/invoice-search-reference-list.png" /></p>
+<p>Imagen 17. Lista de Referencias</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Documento por Cobrar de Cuota</strong>”</p>
+<blockquote>
+<div><p><img alt="Lista de Referencias Seleccionadas" src="../../_images/invoice-search-reference-list-selected.png" /></p>
+<p>Imagen 18. Lista de Referencias Seleccionadas</p>
+</div></blockquote>
+<p>Esta opción lo llevará automáticamente a los pagos asociados a este préstamo.</p>
+</div>
+<div class="section" id="contabilidad-del-proceso">
+<h1><strong>Contabilidad del Proceso</strong><a class="headerlink" href="#contabilidad-del-proceso" title="Permalink to this headline">¶</a></h1>
+<p>ADempiere contabilizará el documento por cobrar dependiendo de la definición del producto financiero (<strong>Vea Configuración de Producto Financiero (Préstamo)</strong>), a continuación se detalla:</p>
+<ul class="simple">
+<li><p><strong>Capital:</strong> Contabilidad definida en el producto asociado en producto financiero.</p></li>
+<li><p><strong>Interés:</strong> Contabilidad definida en el cargo asociado en la tasa financiera relacionada en el producto financiero.</p></li>
+<li><p><strong>IVA:</strong> Contabilidad definida en la tasa de impuesto asociada en el cargo perteneciente a la tasa financiera relacionada en el producto financiero.</p></li>
+</ul>
+<table><tr><td><p>Cuenta</p>
+</td><td><p>Débito Contabilizado</p>
+</td><td><p>Crédito Contabilizado</p>
+</td></tr><tr><td><p>12410 - Prestamos por Cobrar</p>
+</td><td><p style="text-align: right"><p>0,00</p>
+</p></td><td><p style="text-align: right"><p>1.522,36</p>
+</p></td></tr><tr><td><p>12410 - Interés por Cobrar</p>
+</td><td><p style="text-align: right"><p>0,00</p>
+</p></td><td><p style="text-align: right"><p>316,48</p>
+</p></td></tr><tr><td><p>22000 - IVA</p>
+</td><td><p style="text-align: right"><p>0,00</p>
+</p></td><td><p style="text-align: right"><p>69,6256</p>
+</p></td></tr><tr><td><p>12110 - Cuentas por Cobrar Comerciales</p>
+</td><td><p style="text-align: right"><p>1908,4656</p>
+</p></td><td><p style="text-align: right"><p>0,00</p>
+</p></td></tr><tr><td><p>Total</p>
+</td><td><p style="text-align: right"><p>1908,4656</p>
+</p></td><td><p style="text-align: right"><p>1908,4656</p>
+</p></td></tr></table></div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../human-resources-management/index.html" class="btn btn-neutral float-right" title="Gestión de Recursos Humanos" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="generate-payment.html" class="btn btn-neutral float-left" title="Generar Pagos de Préstamo" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,474 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Definición de Comisiones &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Cálculo de Comisiones de Ventas" href="commission-run.html" />
+    <link rel="prev" title="Comisión de Ventas" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Ventas</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Comisión de Ventas</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Definición de Comisiones</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#pestana-comision"><strong>Pestaña Comisión</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pestana-linea-de-comision"><strong>Pestaña Línea de Comisión</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#pestana-representantes-de-ventas"><strong>Pestaña Representantes de Ventas</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="commission-run.html"><strong>Cálculo de Comisiones de Ventas</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../sales-region/index.html"><strong>Región de Ventas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../price-list/index.html"><strong>Lista de Precios</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../proposal/index.html"><strong>Propuesta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sales-order/index.html"><strong>Orden de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../invoice-customer/index.html"><strong>Documento por Cobrar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../generate-invoice-from-departure-order.html"><strong>Generar Factura desde Orden de Salida</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../generate-invoice-from-departure-order.html#generar-factura-desde-orden-de-salida-consolidado-en-un-documento"><strong>Generar Factura desde Orden de Salida Consolidado en un Documento</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shipment/index.html"><strong>Entregas (Cliente)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../credit-note-cxc.html"><strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../debit-note-cxc.html"><strong>Nota de Débito</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Ventas</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Comisión de Ventas</strong></a> &raquo;</li>
+        
+      <li><strong>Definición de Comisiones</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/quote-to-invoice/commission/commission-definition.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="definicion-de-comisiones">
+<span id="documento-definicion-comisiones"></span><h1><strong>Definición de Comisiones</strong><a class="headerlink" href="#definicion-de-comisiones" title="Permalink to this headline">¶</a></h1>
+<p>Una comisión es un porcentaje o cantidad de dinero que es cobrado por la venta de productos o servicios, las mismas estan sujetas a reglas o condiciones establecidas por la empresa a los vendedores. Las comisiones son pagadas a los vendedores para motivarlos a vender más productos o servicios.</p>
+<p>La definición de comisiones es una configuración que la empresa realiza en ADempiere para indicar cuando pagar una comisión y a quien pagarsela. La forma de pago de las comisiones depende de lo establecido en el grupo de comisión, la base para el cálculo, la moneda y el tipo de frecuencia para el pago.</p>
+<p>El presente material elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a> pretende ofrecerle una explicación eficiente con respecto al procedimiento a seguir para realizar una definición de comisiones en la versión 3.9.2 de ADempiere, en la localización Venezuela.</p>
+<p>Para explicar el procedimiento detalladamente, se presentará un ejemplo en el cual se definen dos (2) comisiones, comisiones internas y externas, donde las internas se refiere a las comisiones para los trabajadores que laboran dentro de la empresa y externas a las comisiones para los trabajadores que laboran fuera de la empresa. El ejemplo contempla diferentes montos de comisión y apuntando a un mismo grupo de comisión (1000000_Comisión de Venta_M). A continuación es mostrado el procedimiento de la definición de comisiones de vendedores internos de la empresa, debe realizarce el mismo procedimiento para la definición de comisiones de vendedores externos.</p>
+<div class="section" id="pestana-comision">
+<h2><strong>Pestaña Comisión</strong><a class="headerlink" href="#pestana-comision" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Reglas de Ventas y Mercadotecnia</strong>”, por último seleccione la ventana “<strong>Definición de Comisiones</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 1" src="../../../_images/menu12.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+<p>Podrá visualizar la ventana “<strong>Definición de Comisiones</strong>”, donde debe seleccionar el icono “<strong>Registro Nuevo</strong>” en la barra de herramientas de ADempiere y proceder al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo 1" src="../../../_images/nuevo11.png" /></p>
+<p>Imagen 2. Icono Registro Nuevo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual esta realizando la definición de comisión.</p>
+<blockquote>
+<div><p><img alt="Campo Organización 1" src="../../../_images/org12.png" /></p>
+<p>Imagen 3. Campo Organización</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre</strong>”, el nombre que corresponde a la definición de comisión que esta realizando. Para ejemplificar el caso planteado anteriormente, es ingresado el nombre “<strong>Comisión de Venta Internos</strong>”</p>
+<blockquote>
+<div><p><img alt="Campo Nombre 1" src="../../../_images/nombre11.png" /></p>
+<p>Imagen 4. Campo Nombre</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo de Comisión</strong>”, el grupo de comisión creado según el tipo de frecuencia. El mismo define el tipo de frecuencia a utilizar para el cálculo de la comisión.</p>
+<blockquote>
+<div><p><img alt="Campo Grupo de Comisión" src="../../../_images/grupo12.png" /></p>
+<p>Imagen 5. Campo Grupo de Comisión</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda a ser utilizada para calcular las comisiones correspondientes a la definición de comisión que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda" src="../../../_images/moneda11.png" /></p>
+<p>Imagen 6. Campo Moneda</p>
+</div></blockquote>
+<p>El campo “<strong>Base del Cálculo</strong>” indica la regla que será tomada en cuenta para el calcular las comisiones al vendedor, el mismo contiene precargadas las siguientes opciones:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Comisión Personalizada</strong>: El vendedor comisiona según las reglas o condiciones establecidas en la empresa.</p></li>
+<li><p><strong>Factura</strong>: El vendedor comisiona por las facturas que tenga una orden de venta que tenga el vendedor asignado.</p></li>
+<li><p><strong>Orden</strong>: El vendedor comisiona por las órdenes de venta que tenga el vendedor asignado.</p></li>
+<li><p><strong>Pronóstico vs Factura</strong>: El vendedor comisiona por porcentaje, el mismo depende del estimado de ventas que tiene el vendedor y de las ventas que haya realizado.</p></li>
+<li><p><strong>Pronóstico vs Orden</strong>: El vendedor comisiona por porcentaje, el mismo depende del estimado de órdenes que tiene el vendedor y de las órdenes que tenga asignadas el vendedor.</p></li>
+<li><p><strong>Recaudo</strong>: El vendedor comisiona si todas sus facturas estan cobradas.</p></li>
+</ul>
+<p><img alt="Campo Base de Cálculo" src="../../../_images/basecalc1.png" /></p>
+<p>Imagen 7. Campo Base del Cálculo</p>
+</div></blockquote>
+<p>El campo “<strong>Tipo de Frecuencia</strong> se usa para definir las fechas de inicio y fin del cálculo. Es decir, cada cuanto tiempo comisionará el vendedor:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p><strong>Anualmente</strong>: Cada año (365 días).</p></li>
+<li><p><strong>Mensualmente</strong>: Cada mes (La cantidad de días puede variar según el mes).</p></li>
+<li><p><strong>Semanalmente</strong>: Cada semana (7 días).</p></li>
+<li><p><strong>Trimestralmente</strong>: Cada tres meses (90 días).</p></li>
+</ul>
+<p><img alt="Campo Tipo de Frecuencia 1" src="../../../_images/frecuencia1.png" /></p>
+<p>Imagen 8. Campo Tipo de Frecuencia</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si la ventana “<strong>Grupo de Comisión</strong>” tiene un tipo de frecuencia asignado y la ventana “<strong>Definición de Comisión</strong>” tiene otro diferente, ADempiere realiza la validación para el cálculo de comisión tomando en cuenta el valor ingresado en el campo “<strong>Tipo de Frecuencia</strong>” de la ventana “<strong>Definición de Comisión</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo correspondiente al registro de definición de comisión que esta realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Cargo" src="../../../_images/cargo1.png" /></p>
+<p>Imagen 9. Campo Cargo</p>
+</div></blockquote>
+<p>Si el checklist “<strong>Pagado Totalmente</strong>” se encuentra tildado el vendedor comisiona por las facturas pagadas en su totalidad, de lo contrario comisiona por los pagos parciales de las facturas.</p>
+<p>Si el checklist “<strong>Calcular con Término de Pago</strong>” se encuentra tildado la comisión es calculada en base al término de pago que tenga la factura.</p>
+<blockquote>
+<div><p><img alt="Checklist Calcular con Término de Pago" src="../../../_images/checktermino1.png" /></p>
+<p>Imagen 10. Checklist Calcular con Término de Pago</p>
+</div></blockquote>
+<p>Si el checklist “<strong>Permitir Devoluciones</strong>” se encuentra tildado la comisión es calculada en base a la nota de crédito que contiene asociada la factura.</p>
+<blockquote>
+<div><p><img alt="Checklist Permitir Devoluciones" src="../../../_images/perdevo1.png" /></p>
+<p>Imagen 11. Checklist Permitir Devoluciones</p>
+</div></blockquote>
+<p>Si el checklist “<strong>Lista Detalle</strong>” se encuentra tildado permite que los detalles de las comisiones sean mostrados en la ventana “<strong>Cálculo de Comisiones</strong>”.</p>
+<blockquote>
+<div><p><img alt="Checklist Lista Detalle" src="../../../_images/listadeta1.png" /></p>
+<p>Imagen 12. Checklist Lista Detalle</p>
+</div></blockquote>
+<p>El campo “<strong>Última Fecha de Ejecución</strong>” se refiere a la fecha en la cual el proceso fue corrido por última vez.</p>
+<blockquote>
+<div><p><img alt="Campo Última Fecha de Ejecución" src="../../../_images/fechaulti1.png" /></p>
+<p>Imagen 13. Campo Última Fecha de Ejecución</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar los cambios realizados seleccionando el icono “<strong>Guardar Cambios</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+<div class="section" id="pestana-linea-de-comision">
+<h2><strong>Pestaña Línea de Comisión</strong><a class="headerlink" href="#pestana-linea-de-comision" title="Permalink to this headline">¶</a></h2>
+<p>Seleccione la pestaña “<strong>Línea de Comisión</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de Comisión" src="../../../_images/pest1.png" /></p>
+<p>Imagen 14. Pestaña Línea de Comisión</p>
+<p>El grupo de campos “<strong>Referencia</strong>” contiene campos que permiten establecer reglas o condiciones para el cálculo de las comisiones de los vendedores que se registran en la pestaña “<strong>Representantes de Ventas</strong>”.</p>
+<blockquote>
+<div><p><img alt="Grupo de Campos Referencia" src="../../../_images/camposrefe1.png" /></p>
+<p>Imagen 15. Grupo de Campos “<strong>Referencia</strong>”</p>
+<p>Al tildar el checklist “<strong>Comisión sólo en Órdenes Específicas</strong>”, el vendedor comisiona sólo por la órdenes o facturas que tiene asignadas.</p>
+<blockquote>
+<div><p><img alt="Checklist Comisión sólo en Órdenes Específicas" src="../../../_images/ordenespe1.png" /></p>
+<p>Imagen 16. Checklist Comisión sólo en Órdenes Específicas</p>
+</div></blockquote>
+<p>Los campos “<strong>Organización</strong>”, “<strong>Grupo de Socio del Negocio</strong>”, “<strong>Socio del Negocio</strong>”, “<strong>Categoría del Producto</strong>”, “<strong>Clase de Producto</strong>”, “<strong>Clasificación de Producto</strong>”, “<strong>Grupo de Producto</strong>”, “<strong>Producto</strong>”, “<strong>Región de Ventas</strong>”, “<strong>Regla de Pago</strong>”, “<strong>Término de Pago</strong>”, “<strong>Proyecto</strong>”, “<strong>Campaña</strong>”, “<strong>Canal</strong>”, “<strong>Cumplimiento Mínimo (%)</strong>”, “<strong>Cumplimiento Máximo</strong>” y “<strong>Procentaje Máximo</strong>” pueden ser utilizados para indicar la regla de que los vendedores que se registran en la pestaña “<strong>Representantes de Ventas</strong>”, sólo comisionarán por las ventas que cumplan con lo seleccionado o ingresado en dichos campos.</p>
+<blockquote>
+<div><p><img alt="Campo Producto" src="../../../_images/producto1.png" /></p>
+<p>Imagen 17. Campo Producto</p>
+</div></blockquote>
+</div></blockquote>
+<p>Si el checklist “<strong>Es Porcentaje</strong>” se encuentra tildado, indica que la comisión es expresada en porcentaje. En caso contrario, indica que la comisión es expresada en cantidad.</p>
+<blockquote>
+<div><p><img alt="Checklist Es Porcentaje" src="../../../_images/esporcen1.png" /></p>
+<p>Imagen 18. Checklist Es Procentaje</p>
+</div></blockquote>
+<p>En el campo “<strong>Multiplicador</strong>” se introduce el monto de la comisión en porcentaje.</p>
+<blockquote>
+<div><p><img alt="Campo Multiplicador" src="../../../_images/multiplicador1.png" /></p>
+<p>Imagen 19. Campo Multiplicador</p>
+</div></blockquote>
+<p>En el campo “<strong>Cantidad Multiplicadora</strong>” se introduce el monto de la comisión en cantidad.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad Multiplicadora" src="../../../_images/cantmulti1.png" /></p>
+<p>Imagen 20. Campo Cantidad Multiplicadora</p>
+</div></blockquote>
+<p>Si el checklist “<strong>Sólo Positivos</strong>” se encuentra tildado, indica que no se toman en cuenta las notas de crédito para el cálculo de las comisiones.</p>
+<blockquote>
+<div><p><img alt="Checklist Sólo Positivos" src="../../../_images/soloposi1.png" /></p>
+<p>Imagen 21. Checklist Sólo Positivos</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar los cambios realizados seleccionando el icono “<strong>Guardar Cambios</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+<div class="section" id="pestana-representantes-de-ventas">
+<h2><strong>Pestaña Representantes de Ventas</strong><a class="headerlink" href="#pestana-representantes-de-ventas" title="Permalink to this headline">¶</a></h2>
+<p>Seleccione la pestaña “<strong>Representantes de Ventas</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="Pestaña Representantes de Ventas" src="../../../_images/pest2.png" /></p>
+<p>Imagen 22. Pestaña Representantes de Ventas</p>
+</div></blockquote>
+<p>Campo “<strong>Socio del Negocio</strong>”: Se debe seleccionar el vendedor que corresponde a la definición de comisión que esta configurando.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio" src="../../../_images/socio11.png" /></p>
+<p>Imagen 23. Campo Socio del Negocio</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar los cambios realizados seleccionando el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere. Para realizar otro registro de vendedor debe seleccionar el icono “<strong>Registro Nuevo</strong>” y proceder al llenado de los campos correspondientes.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="commission-run.html" class="btn btn-neutral float-right" title="Cálculo de Comisiones de Ventas" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Comisión de Ventas" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

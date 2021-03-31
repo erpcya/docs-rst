@@ -1,0 +1,813 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Diario de Nota Contable &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Reportes Contables" href="../accounting-reports/index.html" />
+    <link rel="prev" title="Diario Contable" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión Contable</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../type-of-application.html"><strong>Tipo de Aplicación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-element/index.html"><strong>Elemento Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../opening-accounting-period.html"><strong>Apertura de Período Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../unposted-documents.html"><strong>Documentos sin Aplicar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-dimensions.html"><strong>Dimensiones Contables</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-combination.html"><strong>Combinación Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../currency-conversion/index.html"><strong>Conversión Monetaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gl-distribution/index.html"><strong>Distribución Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-setup-master/index.html"><strong>Configuración Contable (Maestros)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../transaction-accounting/index.html"><strong>Contabilidad de Transacciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../costing/index.html"><strong>Gestión de Costos</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Diario Contable</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Diario de Nota Contable</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#lote-contable"><strong>Lote Contable</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#nota-contable"><strong>Nota Contable</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#linea"><strong>Línea</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-reports/index.html"><strong>Reportes Contables</strong></a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión Contable</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Diario Contable</strong></a> &raquo;</li>
+        
+      <li><strong>Diario de Nota Contable</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/performance-analysis/gl-journal-batch/gl-journal-batch.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="diario-de-nota-contable">
+<span id="documento-nota-de-contabilidad"></span><h1><strong>Diario de Nota Contable</strong><a class="headerlink" href="#diario-de-nota-contable" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Análisis de Desempeño</strong>”, luego seleccione la ventana “<strong>Diario Contable</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../_images/accounting-note-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la siguiente ventana.</p>
+<blockquote>
+<div><p><img alt="Ventana Diario Contable" src="../../../_images/accounting-journal-window.png" /></p>
+</div></blockquote>
+<div class="section" id="lote-contable">
+<h2><strong>Lote Contable</strong><a class="headerlink" href="#lote-contable" title="Permalink to this headline">¶</a></h2>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, para crear un nuevo registro de diario contable en ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/new-record-icon-in-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 3. Icono Registro Nuevo de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+<p>Seleccione la organización en el campo “<strong>Organización</strong>”.</p>
+<blockquote>
+<div><p>La organización es un campo obligatorio, le permite determinar, a que organización corresponde el lote contable, para dimensionar o clasificar el asiento contable por organización, para profundizar más este tema vaya a el documento: <a class="reference internal" href="../accounting-dimensions.html#documento-dimensiones-contable"><span class="std std-ref">Dimensiones Contables</span></a>.</p>
+<blockquote>
+<div><p><img alt="Campo Organización de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/organization-field-of-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 4. Campo Organización de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Introduzca una descripción clara en el campo “<strong>Descripción</strong>”.</p>
+<blockquote>
+<div><p>La descripción es un campo obligatorio, le ayudará a determinar en reportes detallados el motivo o justificación por el cual existe el asiento, es por ello que recomendamos definir una descripción clara y precisa del lote contable, ya que la misma será mostrada en reportes de auditorias.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/description-field-of-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 5. Campo Descripción de de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione un tipo de aplicación en el campo “<strong>Tipo de Aplicación</strong>”.</p>
+<blockquote>
+<div><p>El tipo de aplicación es un campo obligatorio, le permite clasificar el lote contable por tipo de aplicación, este es establecido actual por defecto, para profundizar más este tema vaya a el documento: <a class="reference internal" href="../type-of-application.html#documento-tipo-de-aplicacion"><span class="std std-ref">Tipo de Aplicación</span></a>.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Aplicación de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/application-type-field-of-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 6. Campo Tipo de Aplicación de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Por defecto ADempiere establece el tipo de aplicación actual.</p>
+</div>
+</div></blockquote>
+<p>Seleccione un tipo de documento en el campo “<strong>Tipo de Documento</strong>”.</p>
+<blockquote>
+<div><p>El tipo de documento es un campo obligatorio, le permite definir el comportamiento del documento que se está elaborando, para profundizar más este tema vaya a el documento: <strong>Tipo de Documento</strong>.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/document-type-field-in-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 7. Campo Tipo de Documento de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la categoría de contabilidad en el campo “<strong>Categoría Contabilidad</strong>”.</p>
+<blockquote>
+<div><p>La categoría de contabilidad es un campo obligatorio, sin embargo, le permite categorizar los registros para ser filtrados en reportes posteriormente.</p>
+<blockquote>
+<div><p><img alt="Campo Categoría Contabilidad de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/accounting-category-field-of-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 8. Campo Categoría Contabilidad de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la fecha en el campo “<strong>F. Documento</strong>”.</p>
+<blockquote>
+<div><p>La fecha de documento es un campo obligatorio, le permite filtrar por rango de fecha los lotes contables realizados.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha del Documento de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/document-date-field-from-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 9. Campo Fecha del Documento de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la fecha en el campo “<strong>Fecha Contable</strong>”.</p>
+<blockquote>
+<div><p>La fecha contable es un campo obligatorio, le permite establecer un límite contable para las notas contables dependientes de este lote contable.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha Contable de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/accounting-date-field-of-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 10. Campo Fecha Contable de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione un periodo contable en el campo “<strong>Período</strong>”.</p>
+<blockquote>
+<div><p>El periodo es un campo obligatorio, le permite definir el periodo contable al que  pertenece el lote contable, además, este periodo es establecido en las notas contable y variará a criterio del usuario de ser necesario, para comprender mejor, veamos el siguiente ejemplo:</p>
+<blockquote>
+<div><p>Suponemos que es necesario realizar un asiento ajustando la depreciación anual de un activo, para esto se requiere realizar ajustes mes a mes, sin embargo, el lote representa el último periodo de ajuste.</p>
+<p>Para este el año fiscal será desde enero a diciembre, se tomaría entonces como periodo contable para el lote el periodo correspondiente a diciembre.</p>
+<p><img alt="Campo Período de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/period-field-from-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 11. Campo Período de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Por defecto ADempiere establece el periodo correspondiente a la fecha actual.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la moneda en el campo “<strong>Moneda</strong>”.</p>
+<blockquote>
+<div><p>La moneda es un campo obligatorio, le permite definir la moneda con la cual se ejecuta el lote contable, recordemos que ADempiere maneja la metodología multi-moneda, de esta forma se podrá realizar lotes de asientos con una moneda diferente a la del esquema principal de la compañía.</p>
+<p>Sin embargo, esta moneda es establecida en las notas contables y variará a criterio del usuario de ser necesario, para comprender mejor, veamos el siguiente ejemplo:</p>
+<blockquote>
+<div><p>Suponemos que es necesario realizar un asiento ajustando la depreciación anual de un activo, para esto se requiere realizar ajustes en moneda USD, aún cuando la moneda base del esquema es VES.</p>
+<p>En pro de mantener la integridad del balance, ADempiere ejecuta la conversión en la contabilidad a la moneda del esquema principal basados en la tasa de cambio correspondiente a la fecha de este documento.</p>
+<p><img alt="Campo Moneda de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/currency-field-of-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 12. Campo Moneda de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Por defecto ADempiere establece la moneda del esquema principal de la compañía actual.</p>
+</div>
+</div></blockquote>
+<p>Introduzca un monto en el campo “<strong>Cifra de Control</strong>”.</p>
+<blockquote>
+<div><p>La cifra control no es un campo obligatorio, sin embargo le permite validar que el monto total del débitos acumulados en las notas contables sea igual a la cifra control, evitando que el documento sea completado.</p>
+<blockquote>
+<div><p><img alt="Campo Cifra de Control de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/check-figure-field-in-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 13. Campo Cifra de Control de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar el checklist “<strong>Aprobado</strong>”.</p>
+<blockquote>
+<div><p>El check aprobado es un campo solo lectura, actualizado automáticamente si es activado un flujo de aprobación para este documento, de esta forma es obligatorio que el documento sea aprobado por un supervisor.</p>
+<blockquote>
+<div><p><img alt="Checklist Aprobado de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/approved-checklist-of-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 14. Checklist Aprobado de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar el total de débito en el campo “<strong>Total Débito</strong>”.</p>
+<blockquote>
+<div><p>El total de débito es un campo solo lectura, actualizado automáticamente, acumulando el saldo deudor de las notas contables que componen el lote.</p>
+<blockquote>
+<div><p><img alt="Campo Total Débito de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/total-debit-field-of-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 15. Campo Total Débito de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Total Débito</strong>”, el total del débito correspondiente a la nota contable.</p>
+<blockquote>
+<div><p>El total de crédito es un campo solo lectura, actualizado automáticamente, acumulando el saldo acreedor de las notas contables que componen el lote.</p>
+<blockquote>
+<div><p><img alt="Campo Total Crédito de la Pestaña Lote Contable de la Ventana Diario Contable" src="../../../_images/total-credit-field-in-the-accounting-lot-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 16. Campo Total Crédito de la Pestaña Lote Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de los campos con ayuda del icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+<p>Pasos posterior al registro de la <strong>Nota Contable</strong> y <strong>Linea</strong></p>
+<blockquote>
+<div><p>Regrese a la pestaña principal “<strong>Lote</strong>” y seleccione la opción “<strong>Completar</strong>”, ubicado en la parte inferior derecha de la ventana.</p>
+<blockquote>
+<div><p><img alt="Pestaña Lote y Opción Completar" src="../../../_images/batch-tab-and-complete-option.png" /></p>
+<p>Imagen 51. Pestaña Lote y Opción Completar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el documento “<strong>Nota de Contabilidad</strong>”.</p>
+<blockquote>
+<div><p><img alt="Acción Completar y Opción OK" src="../../../_images/action-complete.png" /></p>
+<p>Imagen 52. Acción Completar y Opción OK</p>
+</div></blockquote>
+<p>Podrá visualizar que el documento pasa de estado “<strong>Borrador</strong>” a estado “<strong>Completo</strong>”, en el campo “<strong>Estado del Documento</strong>”</p>
+<blockquote>
+<div><p><img alt="Estado del Documento Nota Contable" src="../../../_images/document-status-accounting-note.png" /></p>
+<p>Imagen 53. Estado del Documento Nota Contable</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>¡Recuerde!</strong></p>
+<blockquote>
+<div><p>Para ADempiere, un documento que no se encuentre en estado “<strong>Completo</strong>”, es un documento “<strong>No Válido</strong>”, posterior a ser completado este documento podrá ser reactivado mientras el periodo contable esté activo.</p>
+</div></blockquote>
+</div>
+</div>
+<div class="section" id="nota-contable">
+<h2><strong>Nota Contable</strong><a class="headerlink" href="#nota-contable" title="Permalink to this headline">¶</a></h2>
+<p>Seleccione la pestaña “<strong>Nota Contable</strong>” y proceda al llenado de los campos correspondientes para especificar una descripción para cada movimiento.</p>
+<blockquote>
+<div><p><img alt="Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 17. Pestaña Nota Contable de la Ventana Diario Contable</p>
+<p>Introduzca una descripción clara en el campo “<strong>Descripción</strong>”.</p>
+<blockquote>
+<div><p>La descripción es un campo obligatorio, que le ayudará a determinar en reportes detallados el motivo o justificación por el cual existe el asiento, es por ello que recomendamos definir una descripción clara y precisa de la nota contable, ya que la misma será mostrada en reportes de auditorias.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/description-field-of-the-accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 18. Campo Descripción de la Pestaña Nota Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Aplicación</strong>”, el tipo de aplicación correspondiente a la nota contable que está realizando.</p>
+<blockquote>
+<div><p>El tipo de aplicación es un campo obligatorio, le permite clasificar la nota contable por tipo de aplicación, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo, para profundizar más este tema vaya a el documento: <a class="reference internal" href="../type-of-application.html#documento-tipo-de-aplicacion"><span class="std std-ref">Tipo de Aplicación</span></a>.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Aplicación de la Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/application-type-field-of-the-accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 19. Campo Tipo de Aplicación de la Pestaña Nota Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el tipo de documento en el campo “<strong>Tipo de Documento</strong>”.</p>
+<blockquote>
+<div><blockquote>
+<div><p>El tipo de documento es un campo obligatorio, le permite definir el comportamiento del documento que se está elaborando, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo, para profundizar más este tema vaya a el documento: <strong>Tipo de Documento</strong>.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento de la Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/document-type-field-in-the-accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 20. Campo Tipo de Documento de la Pestaña Nota Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la categoría de contabilidad en el campo “<strong>Categoría Contabilidad</strong>”.</p>
+<blockquote>
+<div><p>La categoría de contabilidad es un campo obligatorio, sin embargo, le permite categorizar los registros para ser filtrados en reportes posteriormente, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.</p>
+<blockquote>
+<div><p><img alt="Campo Categoría Contabilidad de la Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/accounting-category-field-from-the-accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 21. Campo Categoría Contabilidad de la Pestaña Nota Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la fecha en el campo “<strong>F. Documento</strong>”.</p>
+<blockquote>
+<div><p>La fecha de documento es un campo obligatorio, le permite filtrar por rango de fecha las notas contables realizadas, esta es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha del Documento de la Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/document-date-field-from-the-accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 22. Campo Fecha del Documento de la Pestaña Nota Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la fecha en el campo “<strong>Fecha Contable</strong>”.</p>
+<blockquote>
+<div><p>La fecha contable es un campo obligatorio, le permite establecer la fecha con la cual será contabilizada la nota contable, esta es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha Contable de la Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/accounting-date-field-of-the-accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 23. Campo Fecha Contable de la Pestaña Nota Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione un periodo contable en el campo “<strong>Período</strong>”.</p>
+<blockquote>
+<div><p>El período es un campo obligatorio, le permite definir el periodo contable al que  pertenece la nota contable, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.</p>
+<blockquote>
+<div><p><img alt="Campo Período de la Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/period-field-from-the-accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 24. Campo Período de la Pestaña Nota Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la moneda en el campo “<strong>Moneda</strong>”.</p>
+<blockquote>
+<div><p>La moneda es un campo obligatorio, le permite definir la moneda con la cual se ejecuta la nota contable, recordemos que ADempiere maneja la metodología multi-moneda, de esta forma se podrá realizar lotes de asientos con una moneda diferente a la del esquema principal de la compañía.</p>
+<p>En pro de mantener la integridad del balance, ADempiere ejecuta la conversión en la contabilidad a la moneda del esquema principal basados en la tasa de cambio correspondiente a la fecha de este documento, esta es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda de la Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/currency-field-of-the-accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 25. Campo Moneda de la Pestaña Nota Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Introduzca un monto en el campo “<strong>Cifra de Control</strong>”.</p>
+<blockquote>
+<div><p>La cifra control no es un campo obligatorio, sin embargo le permite validar que el monto total del débitos acumulados en las líneas de la nota sea igual a la cifra control, evitando que el documento sea completado, este es establecido inicialmente desde el valor seleccionado en la pestaña lote contable, y puede ser modificado si difiere del mismo.</p>
+<blockquote>
+<div><p><img alt="Campo Cifra de Control de la Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/check-figure-field-in-the-accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 26. Campo Cifra de Control de la Pestaña Nota Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar el checklist “<strong>Aprobado</strong>”.</p>
+<blockquote>
+<div><p>El check aprobado es un campo solo lectura, actualizado automáticamente si es activado un flujo de aprobación para este documento, de esta forma es obligatorio que el documento sea aprobado por un supervisor, este es establecido desde el valor seleccionado en la pestaña lote contable.</p>
+<blockquote>
+<div><p><img alt="Checklist Aprobado de la Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/approved-checklist-of-the-accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 27. Checklist Aprobado de la Pestaña Nota Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar el total de débito en el campo “<strong>Total Débito</strong>”.</p>
+<blockquote>
+<div><p>El total de débito es un campo solo lectura, actualizado automáticamente, acumulando el saldo deudor de las líneas que componen la nota contable.</p>
+<blockquote>
+<div><p><img alt="Campo Total Débito de la Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/total-debit-field-of-the-accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 28. Campo Total Débito de la Pestaña Nota Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Total Débito</strong>”, el total del débito correspondiente a la nota contable.</p>
+<blockquote>
+<div><p>El total de crédito es un campo solo lectura, actualizado automáticamente, acumulando el saldo acreedor de las líneas que componen la nota contable.</p>
+<blockquote>
+<div><p><img alt="Campo Total Crédito de la Pestaña Nota Contable de la Ventana Diario Contable" src="../../../_images/total-credit-field-of-the-accounting-note-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 29. Campo Total Crédito de la Pestaña Nota Contable de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de los campos con ayuda del icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+<div class="section" id="linea">
+<h2><strong>Línea</strong><a class="headerlink" href="#linea" title="Permalink to this headline">¶</a></h2>
+<p>Seleccione la pestaña “<strong>Línea</strong>” y proceda al llenado de los campos correspondientes para definir cada uno de los movimientos.</p>
+<blockquote>
+<div><blockquote>
+<div><p><img alt="Pestaña Línea de la Ventana Diario Contable" src="../../../_images/line-tab.png" /></p>
+<p>Imagen 30. Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+<p>Introduzca una descripción clara en el campo “<strong>Descripción</strong>”.</p>
+<blockquote>
+<div><p>La descripción es un campo obligatorio, le ayudará a determinar en reportes detallados el motivo o justificación por el cual se realiza el asiento.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/description-field-of-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 31. Campo Descripción de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar el checklist “<strong>Generado</strong>”.</p>
+<blockquote>
+<div><p>El checklist generado es un campo solo lectura, actualizado automáticamente si esta línea de la nota es generada posterior a la ejecución de un proceso de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Checklist Generado de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/checklist-generated-from-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 32. Checklist Generado de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la moneda en el campo “<strong>Moneda</strong>”.</p>
+<blockquote>
+<div><p>La moneda es un campo obligatorio, le permite definir la moneda con la cual se ejecuta el asiento, recordemos que ADempiere maneja la metodología multi-moneda, de esta forma se podrá realizar lotes de asientos con una moneda diferente a la del esquema principal de la compañía, esta es establecida inicialmente desde el valor seleccionado en la pestaña nota contable, y puede ser modificado si difiere del mismo.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/currency-field-of-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 33. Campo Moneda de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la cuenta en el campo “<strong>Cuenta</strong>”.</p>
+<blockquote>
+<div><p>La cuenta es un campo obligatorio, le permite definir la cuenta contable en la cual abona o carga el saldo, recordando que una cuenta es utilizada para aplicar o un débito o un crédito a la vez.</p>
+<p>Esta cuenta tiene incidencias en el campo combinación contable, cuando es guardado el registro establece la <a class="reference internal" href="../accounting-combination.html#documento-combinacion-contable"><span class="std std-ref">Combinación Contable</span></a> de forma automática.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/account-field-of-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 34. Campo Cuenta de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>¡Recuerde!</strong></p>
+<blockquote>
+<div><p>Debe realizar este procedimiento por cada débito o crédito que desee aplicar a cada cuenta.</p>
+</div></blockquote>
+</div>
+</div></blockquote>
+<p>Seleccione el socio de negocio en el campo “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p>El socio de negocio no es un campo obligatorio, sin embargo, le permite definir un proveedor, cliente o cualquier otra entidad que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: <a class="reference internal" href="../accounting-dimensions.html#documento-dimensiones-contable"><span class="std std-ref">Dimensiones Contables</span></a>.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/business-partner-field-from-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 35. Campo Socio del Negocio de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>¡Recuerde!</strong></p>
+<blockquote>
+<div><p>El socio de negocio debe estar registrado previamente en ADempiere.</p>
+</div></blockquote>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto correspondiente al registro que está realizando.</p>
+<blockquote>
+<div><p>El producto no es un campo obligatorio, sin embargo, le permite definir un producto o servicio que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: <a class="reference internal" href="../accounting-dimensions.html#documento-dimensiones-contable"><span class="std std-ref">Dimensiones Contables</span></a>.</p>
+<blockquote>
+<div><p><img alt="Campo Producto de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/product-field-of-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 36. Campo Producto de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>¡Recuerde!</strong></p>
+<blockquote>
+<div><p>El producto debe estar registrado previamente en ADempiere.</p>
+</div></blockquote>
+</div>
+</div></blockquote>
+<p>Seleccione la actividad ABC en el campo “<strong>Actividad</strong>”.</p>
+<blockquote>
+<div><p>La actividad no es un campo obligatorio, sin embargo, le permite definir una actividad ABC que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: <a class="reference internal" href="../accounting-dimensions.html#documento-dimensiones-contable"><span class="std std-ref">Dimensiones Contables</span></a>.</p>
+<blockquote>
+<div><p><img alt="Campo Actividad de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/activity-field-of-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 37. Campo Actividad de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>¡Recuerde!</strong></p>
+<blockquote>
+<div><p>La actividad ABC debe estar registrada previamente en ADempiere.</p>
+</div></blockquote>
+</div>
+</div></blockquote>
+<p>Seleccione el centro de costo en el campo “<strong>Centro de Costos</strong>”.</p>
+<blockquote>
+<div><p>El centro de costo no es un campo obligatorio, sin embargo, le permite definir un centro de costo que funge como dimensión contable en su asiento, para profundizar más este tema vaya a el documento: <a class="reference internal" href="../accounting-dimensions.html#documento-dimensiones-contable"><span class="std std-ref">Dimensiones Contables</span></a>.</p>
+<p><img alt="Campo Centro de Costos de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/cost-center-field-on-the-line-tab-of-the-ledger-window.png" /></p>
+<p>Imagen 38. Campo Centro de Costos de la Pestaña Línea de la Ventana Diario Contable</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>¡Recuerde!</strong></p>
+<blockquote>
+<div><p>El centro de costo debe estar registrado previamente en ADempiere.</p>
+</div></blockquote>
+</div>
+</div></blockquote>
+<p>Seleccione un alias de una combinación contable en el campo “<strong>Alias</strong>”.</p>
+<blockquote>
+<div><p>El alias no es un campo obligatorio, sin embargo, le permite seleccionar un alias asociado a una combinación contable, para establecer la combinación en el campo <strong>combinación contable</strong>, para profundizar más este tema vaya a el documento: <a class="reference internal" href="../accounting-combination.html#documento-combinacion-contable"><span class="std std-ref">Combinación Contable</span></a>.</p>
+<blockquote>
+<div><p><img alt="Campo Alias de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/alias-field-of-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 39. Campo Alias de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p><strong>¡Recuerde!</strong></p>
+<blockquote>
+<div><p>La combinación debe estar registrada previamente en ADempiere.</p>
+</div></blockquote>
+</div>
+</div></blockquote>
+<p>Seleccione la combinación contable en el campo “<strong>Combinación</strong>”.</p>
+<blockquote>
+<div><p>La combinación no es un campo obligatorio, sin embargo, le permite crear una nueva combinación contable o seleccionar una nueva, recordando que este campo es actualizado automáticamente, al establecer el campo <strong>cuenta contable</strong> o un <strong>alias</strong> explicados previamente, para profundizar más este tema vaya a el documento: <a class="reference internal" href="../accounting-combination.html#documento-combinacion-contable"><span class="std std-ref">Combinación Contable</span></a>.</p>
+<blockquote>
+<div><p><img alt="Combinación Contable del Campo Combinación de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/accounting-combination-from-the-combination-field-of-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 41. Combinación Contable del Campo Combinación de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+<p>Si desea crear o modificar la combinación establecida, realice el procedimiento regular para configurar una combinación contable, el mismo se encuentra explicado en el documento <a class="reference internal" href="../accounting-combination.html#documento-combinacion-contable"><span class="std std-ref">Combinación Contable</span></a> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Combinación de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/combination-field-of-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 40. Identificador del Campo Combinación de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el checklist “<strong>Relacionado Activo</strong>”, para indicar que el registro se encuentra relacionado a un activo.</p>
+<blockquote>
+<div><p>El checklist relacionado activo no es un campo obligatorio, sin embargo, le permite definir la relación del asiento realizado con un activo fijo o un grupo de activo, es decir este asiento altera el valor de su activo fijo mediante una depreciación o una revalorización quizás por un API.</p>
+<blockquote>
+<div><p><img alt="Checklist Relacionado Activo de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/active-related-checklist-of-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 42. Checklist Relacionado Activo de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+<p>Al seleccionar este checklist se activarán los siguientes campos para dar paso a que usted puede realizar la relación:</p>
+<blockquote>
+<div><p>Seleccione el activo fijo en el campo “<strong>Activo Fijo</strong>”.</p>
+<blockquote>
+<div><p>El activo fijo no es un campo obligatorio, sin embargo, le permite establecer el activo fijo al cual desea alterar su valorización.</p>
+<blockquote>
+<div><p><img alt="Campo Activo Fijo de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/fixed-asset-field-in-the-line-tab-of-the-ledger-window.png" /></p>
+<p>Imagen 43. Campo Activo Fijo de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el grupo de activo en el campo “<strong>Grupo de Activos</strong>”.</p>
+<blockquote>
+<div><p>El grupo de activo fijo no es un campo obligatorio, sin embargo, le permite establecer un grupo de activo fijo en caso de querer distribuir entre todos los activos relacionados a este grupo la depreciación o revalorización del asiento.</p>
+<blockquote>
+<div><p><img alt="Campo Grupo de Activos de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/asset-group-field-on-the-line-tab-of-the-ledger-window.png" /></p>
+<p>Imagen 44. Campo Grupo de Activos de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<p>Ingrese el monto del débito en el campo “<strong>Débito Fuente</strong>”.</p>
+<blockquote>
+<div><p>El débito fuente es un campo obligatorio, establecido por defecto con monto <strong>0</strong>, sin embargo usted podrá modificarlo e ingresar el monto correspondiente al débito si el registro que efectúa corresponde a un cargo en la cuenta, de otro modo podrá omitir este campo y colocar el monto en el crédito.</p>
+<p>Este campo tiene incidencias en el campo <strong>débito contabilizado</strong>, establece automáticamente la cifra ingresada en el débito fuente.</p>
+<blockquote>
+<div><p><img alt="Campo Débito Fuente de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/debit-source-field-of-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 45. Campo Débito Fuente de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Ingrese el monto del crédito en el campo “<strong>Crédito Fuente</strong>”.</p>
+<blockquote>
+<div><p>El crédito fuente es un campo obligatorio, establecido por defecto con monto <strong>0</strong>, sin embargo usted podrá modificarlo e ingresar el monto correspondiente al crédito si el registro que efectúa corresponde a un abono en la cuenta, de otro modo podrá omitir este campo y colocar el monto en el débito.</p>
+<p>Este campo tiene incidencias en el campo <strong>crédito contabilizado</strong>, establece automáticamente la cifra ingresada en el crédito fuente.</p>
+<blockquote>
+<div><p><img alt="Campo Crédito Fuente de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/credit-field-source-of-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 46. Campo Crédito Fuente de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar el total de débito en el campo “<strong>Débito Contabilizado</strong>”.</p>
+<blockquote>
+<div><p>El débito contabilizado es un campo solo lectura, actualizado automáticamente, al establecer el monto del débito fuente, este monto es acumulado en el campo -<strong>total débitos</strong> en la pestaña nota contable.</p>
+<blockquote>
+<div><p><img alt="Campo Débito Contabilizado de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/posted-debit-field-from-the-line-tab-of-the-ledger-window.png" /></p>
+<p>Imagen 47. Campo Débito Contabilizado de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar el total de crédito en el campo “<strong>Crédito Contabilizado</strong>”.</p>
+<blockquote>
+<div><p>El crédito contabilizado es un campo solo lectura, actualizado automáticamente, al establecer el monto del crédito fuente, este monto es acumulado en el campo -<strong>total créditos</strong> en la pestaña nota contable.</p>
+<blockquote>
+<div><p><img alt="Campo Crédito Contabilizado de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/posted-credit-field-from-the-line-tab-of-the-ledger-window.png" /></p>
+<p>Imagen 48. Campo Crédito Contabilizado de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la unidad de medida en el campo “<strong>UM</strong>”.</p>
+<blockquote>
+<div><p>La unidad  de medida no es un campo obligatorio, sin embargo es utilizada para contabilizar cuentas de orden, utilizadas para registrar transacciones y valores contingentes que sirven para controlar los resultados de ciertas operaciones, estas cuentas no afectarán su balance, para comprenderlo mejor veamos el siguiente ejemplo:</p>
+<blockquote>
+<div><p>Imaginemos una empresa que maneja inventario en consignación, para conocer su cuantia es necesario manejar una cuenta que no altere la totalidad de la cuenta de activos, esto por no ser un inventario perteneciente a la empresa.</p>
+<p>En tal sentido se contabiliza las cantidades del inventario en cuentas de orden, para mantener el control de la mercancia y a su vez reconocer el valor ajeno, sin alterar el balance.</p>
+<p><img alt="Campo UM de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/um-field-on-the-line-tab-of-the-ledger-window.png" /></p>
+<p>Imagen 49. Campo UM de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+<p>Ingrese la cantidad en el campo “<strong>Cantidad</strong>”.</p>
+<blockquote>
+<div><p>La cantidad no es un campo obligatorio, sin embargo es utilizada para ingresar la cantidad cuentas de orden, utilizadas para registrar transacciones y valores contingentes que sirven para controlar los resultados de ciertas operaciones.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad de la Pestaña Línea de la Ventana Diario Contable" src="../../../_images/quantity-field-of-the-line-tab-of-the-accounting-journal-window.png" /></p>
+<p>Imagen 50. Campo Cantidad de la Pestaña Línea de la Ventana Diario Contable</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de los campos con ayuda del icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../accounting-reports/index.html" class="btn btn-neutral float-right" title="Reportes Contables" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Diario Contable" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

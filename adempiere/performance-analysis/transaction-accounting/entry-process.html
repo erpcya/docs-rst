@@ -1,0 +1,410 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Proceso de Ingreso &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Proceso de Inventario" href="inventory-process.html" />
+    <link rel="prev" title="Proceso de Egreso" href="egress-process.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión Contable</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../type-of-application.html"><strong>Tipo de Aplicación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-element/index.html"><strong>Elemento Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../opening-accounting-period.html"><strong>Apertura de Período Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../unposted-documents.html"><strong>Documentos sin Aplicar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-dimensions.html"><strong>Dimensiones Contables</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-combination.html"><strong>Combinación Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../currency-conversion/index.html"><strong>Conversión Monetaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gl-distribution/index.html"><strong>Distribución Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-setup-master/index.html"><strong>Configuración Contable (Maestros)</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Contabilidad de Transacciones</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="egress-process.html"><strong>Proceso de Egreso</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Proceso de Ingreso</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#orden-de-venta"><strong>Orden de Venta</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#factura-de-cuentas-por-cobrar"><strong>Factura de Cuentas por Cobrar</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#entrega"><strong>Entrega</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#cobro"><strong>Cobro</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#asignacion-de-factura-cobro"><strong>Asignación de Factura/Cobro</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#conciliacion"><strong>Conciliación</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="inventory-process.html"><strong>Proceso de Inventario</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="regular-payroll-process.html"><strong>Proceso de Nómina Regular</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../costing/index.html"><strong>Gestión de Costos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../gl-journal-batch/index.html"><strong>Diario Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../accounting-reports/index.html"><strong>Reportes Contables</strong></a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión Contable</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Contabilidad de Transacciones</strong></a> &raquo;</li>
+        
+      <li><strong>Proceso de Ingreso</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/performance-analysis/transaction-accounting/entry-process.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="proceso-de-ingreso">
+<span id="documento-contabilidad-de-transacciones-del-proceso-de-ingreso"></span><h1><strong>Proceso de Ingreso</strong><a class="headerlink" href="#proceso-de-ingreso" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="orden-de-venta">
+<h2><strong>Orden de Venta</strong><a class="headerlink" href="#orden-de-venta" title="Permalink to this headline">¶</a></h2>
+<p>Realice el procedimiento regular para generar una orden de venta en ADempiere, el mismo es explicado en el documento <a class="reference internal" href="../../quote-to-invoice/sales-order/sales-order.html#documento-orden-de-venta"><span class="std std-ref">Registro de Orden de Venta</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p>Luego de que el documento de orden de venta se encuentre en estado “<strong>Completo</strong>”, seleccione la opción “<strong>Contabilizado</strong>”, ubicada en la parte inferior de la ventana “<strong>Órdenes de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Contabilizado de la Ventana Órdenes de Venta" src="../../../_images/option-posted-from-the-sales-orders-window.png" /></p>
+<p>Imagen 1. Opción Contabilizado de la Ventana Órdenes de Venta</p>
+</div></blockquote>
+<p>Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana “<strong>Órdenes de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Asiento Contable de la Ventana Órdenes de Venta" src="../../../_images/window-accounting-entry-sales-orders.png" /></p>
+<p>Imagen 2. Asiento Contable de la Ventana Órdenes de Venta</p>
+</div></blockquote>
+</div>
+<div class="section" id="factura-de-cuentas-por-cobrar">
+<h2><strong>Factura de Cuentas por Cobrar</strong><a class="headerlink" href="#factura-de-cuentas-por-cobrar" title="Permalink to this headline">¶</a></h2>
+<p>Realice el procedimiento regular para generar una factura por cobrar en ADempiere, el mismo es explicado en el documento <a class="reference internal" href="../../quote-to-invoice/invoice-customer/invoice-customer.html#documento-documento-por-cobrar"><span class="std std-ref">Registro de Documento por Cobrar</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p>Luego de que el documento por cobrar se encuentre en estado “<strong>Completo</strong>”, seleccione la opción “<strong>Contabilizado</strong>”, ubicada en la parte inferior de la ventana “<strong>Documentos por Cobrar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Contabilizado de la Ventana Documentos por Cobrar" src="../../../_images/accounting-option-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 3. Opción Contabilizado de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana “<strong>Documentos por Cobrar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Asiento Contable de la Ventana Documentos por Cobrar" src="../../../_images/window-accounting-entry-receivables.png" /></p>
+<p>Imagen 4. Asiento Contable de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+</div>
+<div class="section" id="entrega">
+<h2><strong>Entrega</strong><a class="headerlink" href="#entrega" title="Permalink to this headline">¶</a></h2>
+<p>Realice el procedimiento regular para generar una entrega en ADempiere, el mismo es explicado en el documento <a class="reference internal" href="../../quote-to-invoice/shipment/shipment-customer.html#documento-entregas-cliente"><span class="std std-ref">Registro de Entregas (Cliente)</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p>Luego de que el documento de entrega se encuentre en estado “<strong>Completo</strong>”, seleccione la opción “<strong>Contabilizado</strong>”, ubicada en la parte inferior de la ventana “<strong>Entregas (Cliente)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Contabilizado de la Ventana Entregas Cliente" src="../../../_images/option-posted-from-the-customer-deliveries-window.png" /></p>
+<p>Imagen 5. Opción Contabilizado de la Ventana Entregas (Cliente)</p>
+</div></blockquote>
+<p>Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana “<strong>Entregas (Cliente)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Asiento Contable de la Ventana Entregas Cliente" src="../../../_images/window-accounting-window-customer-deliveries.png" /></p>
+<p>Imagen 6. Asiento Contable de la Ventana Entregas (Cliente)</p>
+</div></blockquote>
+</div>
+<div class="section" id="cobro">
+<h2><strong>Cobro</strong><a class="headerlink" href="#cobro" title="Permalink to this headline">¶</a></h2>
+<p>Realice el procedimiento regular para generar un cobro en ADempiere, el mismo es explicado en el documento <a class="reference internal" href="../../open-items/collection/collection.html#documento-cobro"><span class="std std-ref">Registro de Cobro</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p>Luego de que el documento de cobro se encuentre en estado “<strong>Completo</strong>”, seleccione la opción “<strong>Contabilizado</strong>”, ubicada en la parte inferior de la ventana “<strong>Pago/Cobro</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Contabilizado de la Ventana Pago Cobro del Proceso de Ingreso" src="../../../_images/option-posted-from-the-payment-payment-window-of-the-entry-process.png" /></p>
+<p>Imagen 7. Opción Contabilizado de la Ventana Pago/Cobro</p>
+</div></blockquote>
+<p>Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana “<strong>Pago/Cobro</strong>”.</p>
+<blockquote>
+<div><p><img alt="Asiento Contable de la Ventana Pago Cobro del Proceso de Ingreso" src="../../../_images/accounting-window-entry-payment-collection-of-the-entry-process.png" /></p>
+<p>Imagen 8. Asiento Contable de la Ventana Pago/Cobro</p>
+</div></blockquote>
+</div>
+<div class="section" id="asignacion-de-factura-cobro">
+<h2><strong>Asignación de Factura/Cobro</strong><a class="headerlink" href="#asignacion-de-factura-cobro" title="Permalink to this headline">¶</a></h2>
+<p>Luego de haber registrado el cobro de la factura por cobrar, ADempiere genera de manera automática la asignación entre el cobro y la factura. Para visualizar el mismo se debe ubicar en la pestaña “<strong>Facturas Pagadas</strong>” de la ventana “<strong>Documentos por Pagar</strong>” y seleccionar la opción “<strong>Acercar</strong>” desplegada al hacer clic contrario sobre el campo “<strong>Asignación</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Acercar de la Pestaña Facturas Pagadas" src="../../../_images/zoom-option-of-the-paid-invoices-tab.png" /></p>
+<p>Imagen 9. Opción Acercar de la Pestaña Facturas Pagadas</p>
+</div></blockquote>
+<p>Luego de ubicar la asignación entre el cobro y la factura, en la ventana “<strong>Consulta de Asignación</strong>”, se debe seleccionar la opción “<strong>Contabilizado</strong>” de dicha ventana.</p>
+<blockquote>
+<div><p><img alt="Opción Contabilizado de la Ventana Consulta de Asignación" src="../../../_images/posted-option-of-the-allocation-query-window.png" /></p>
+<p>Imagen 10. Opción Contabilizado de la Ventana Consulta de Asignación</p>
+</div></blockquote>
+<p>Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana “<strong>Consulta de Asignación</strong>”.</p>
+<blockquote>
+<div><p><img alt="Asiento Contable de la Ventana Consulta de Asignación" src="../../../_images/allocation-query-window-accounting-entry.png" /></p>
+<p>Imagen 11. Asiento Contable de la Ventana Consulta de Asignación</p>
+</div></blockquote>
+</div>
+<div class="section" id="conciliacion">
+<h2><strong>Conciliación</strong><a class="headerlink" href="#conciliacion" title="Permalink to this headline">¶</a></h2>
+<p>Realice el procedimiento regular para generar una conciliación en ADempiere, el mismo es explicado en el documento <a class="reference internal" href="../../open-items/automatic-conciliations/conciliation.html#documento-conciliacion-automatica"><span class="std std-ref">Registro de Conciliación Automática</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p>Luego de que el documento de conciliación automática se encuentre en estado “<strong>Completo</strong>”, seleccione la opción “<strong>Contabilizado</strong>”, ubicada en la parte inferior de la ventana “<strong>Estado de Cuentas Bancario</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Contabilizado de la Ventana Estado de Cuentas Bancario del Proceso de Ingreso" src="../../../_images/option-posted-from-the-bank-statement-window-of-the-deposit-process.png" /></p>
+<p>Imagen 12. Opción Contabilizado de la Ventana Estado de Cuentas Bancario</p>
+</div></blockquote>
+<p>Podrá visualizar el asiento contable generado por la transacción anteriormente realizada en la ventana “<strong>Estado de Cuentas Bancario</strong>”.</p>
+<blockquote>
+<div><p><img alt="Asiento Contable de la Ventana Estado de Cuentas Bancario del Proceso de Ingreso" src="../../../_images/accounting-entry-in-the-bank-statement-window-of-the-deposit-process.png" /></p>
+<p>Imagen 13. Asiento Contable de la Ventana Estado de Cuentas Bancario</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="inventory-process.html" class="btn btn-neutral float-right" title="Proceso de Inventario" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="egress-process.html" class="btn btn-neutral float-left" title="Proceso de Egreso" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

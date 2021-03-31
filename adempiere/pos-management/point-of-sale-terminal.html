@@ -1,0 +1,512 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Configuración de Terminal PDV &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Interfaz de Punto de Venta" href="point-of-sale-interface.html" />
+    <link rel="prev" title="Gestión PDV" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión PDV</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Configuración de Terminal PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html"><strong>Interfaz de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily-pdv-procedure.html"><strong>Procedimiento de Inicio de Jornada Laboral PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-report-x-y-z.html"><strong>Imprimir Reportes X y Z</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="opening-cash.html"><strong>Apertura de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="pos.html"><strong>Toma de Pedido</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html"><strong>Anular Transacción de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html"><strong>Completar Orden Preparada</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html"><strong>Anular Factura Fiscal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html"><strong>Retiro Detallado de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="closing-cash.html"><strong>Cierre de Caja del Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html"><strong>Traspaso a Banco</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión PDV</strong></a> &raquo;</li>
+        
+      <li><strong>Configuración de Terminal PDV</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/pos-management/point-of-sale-terminal.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configuracion-de-terminal-pdv">
+<span id="documento-configuracion-de-terminal-punto-de-venta"></span><h1><strong>Configuración de Terminal PDV</strong><a class="headerlink" href="#configuracion-de-terminal-pdv" title="Permalink to this headline">¶</a></h1>
+<p>La configuración del terminal del punto de venta permite definir los parámetros con los que serán generados los egresos e ingresos de las cajas involucradas en el proceso de ventas.</p>
+<p>Adicional a ello, se define la impresora, el tipo de conversión, la lista de precios, almacén y supervisor de la caja en la cual serán realizadas las operaciones.</p>
+<p>A continuación se explica el procedimiento a seguir para configurar correctamente el terminal del punto de venta.</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”, por último seleccione la carpeta “<strong>Punto de Venta</strong>”, finalmente seleccione la ventana “<strong>Terminal PDV</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../_images/point-of-sale-terminal-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Terminal PDV</strong>” con diferentes campos que permiten una configuración de la caja, taquilla o auto-servicio en el cual se gestiona la orden, facturación y cobro de los productos por medio del punto de venta.</p>
+<blockquote>
+<div><p><img alt="Ventana Terminal PDV" src="../../_images/point-of-sale-terminal-window.png" /></p>
+<p>Imagen 2. Ventana Terminal PDV</p>
+<p>La ventana “<strong>Terminal PDV</strong>” cuenta con los siguientes campos que son necesarios para realizar el proceso del punto de venta:</p>
+<blockquote>
+<div><p>Seleccione en el campo “<strong>Organización</strong>”, la organización en la cual trabaja el vendedor para el cual se esta configurando el terminal del punto de venta.</p>
+<blockquote>
+<div><p><img alt="Campo Organización de la Ventana Terminal PDV" src="../../_images/organization-field-of-the-terminal-window-point-of-sale.png" /></p>
+<p>Imagen 3. Campo Organización de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre</strong>”, el nombre de la caja, taquilla o auto-servicio en el cual será realizada la gestión de orden, facturación y cobro de los productos.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre de la Ventana Terminal PDV" src="../../_images/point-of-sale-terminal-window-field.png" /></p>
+<p>Imagen 4. Campo Nombre de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción de la caja, taquilla o auto-servicio en el cual será realizada la gestión de orden, facturación y cobro de los productos.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Ventana Terminal PDV" src="../../_images/description-field-of-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 5. Campo Descripción de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Agente Comercial</strong>”, el socio del negocio vendedor para el cual se esta configurando el terminal PDV.</p>
+<blockquote>
+<div><p>Este campo permite seleccionar el vendedor que realizará las operaciones de las ventas en la caja asociada al terminal PDV.</p>
+<p><img alt="Campo Agente Comercial de la Ventana Terminal PDV" src="../../_images/field-commercial-agent-terminal-window-point-of-sale.png" /></p>
+<p>Imagen 6. Campo Agente Comercial de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Retraso de Cierre de Sesión Automático</strong>”, el tiempo para el cierre de sesión automático cuando el terminal se encuentre inactivo.</p>
+<blockquote>
+<div><p><img alt="Campo Retraso de Cierre de Sesión Automático de la Ventana Terminal PDV" src="../../_images/field-automatic-logout-delay-window-terminal-point-of-sale.png" /></p>
+<p>Imagen 7. Campo Retraso de Cierre de Sesión Automático de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios establecida para las ventas de la organización.</p>
+<blockquote>
+<div><p>Este campo permite definir la lista de precios con la cual serán realizadas las operaciones de ventas en la caja asociada al terminal PDV.</p>
+<p><img alt="Campo Lista de Precios de la Ventana Terminal PDV" src="../../_images/price-list-field-of-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 8. Campo Lista de Precios de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione el check “<strong>Modifique el Precio</strong>”, para permitir que los precios de venta puedan ser modificados en la caja que se encuentra configurando.</p>
+<blockquote>
+<div><p>La selección de este check, permite que el supervisor del vendedor asociado al terminal PDV pueda modificar los precios de los productos.</p>
+<p><img alt="Checklist Modifique el Precio de la Ventana Terminal PDV" src="../../_images/checklist-modify-the-price-of-the-pos-terminal-window.png" /></p>
+<p>Imagen 9. Check Modifique el Precio de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Caja Menor</strong>”, la caja menor de la organización para registrar en ella las transacciones de caja chica.</p>
+<blockquote>
+<div><p><img alt="Campo Caja Menor de la Ventana Terminal PDV" src="../../_images/retail-box-field-of-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 10. Campo Caja Menor de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Plantilla Socio del Negocio</strong>”, el socio del negocio creado para ser utilizado en el registro de los nuevos clientes de forma rápida.</p>
+<blockquote>
+<div><p><img alt="Campo Plantilla Socio del Negocio de la Ventana Terminal PDV" src="../../_images/field-of-business-partner-window-terminal-point-of-sale-template.png" /></p>
+<p>Imagen 11. Campo Plantilla Socio del Negocio de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la cuenta caja creada para registrar las transacciones efectuadas por el vendedor, durante la gestión de orden, facturación y cobro de los productos.</p>
+<blockquote>
+<div><p><img alt="Campo Cuenta Bancaria de la Ventana Terminal PDV" src="../../_images/bank-account-field-of-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 12. Campo Cuenta Bancaria de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Transferir transacción de caja a banco</strong>”, la cuenta a la cual serán transferidas todas las transacciones de la caja de ventas.</p>
+<blockquote>
+<div><p><img alt="Campo Transferir transacción de caja a banco de la Ventana Terminal PDV" src="../../_images/field-transfer-cash-transaction-to-bank-of-the-terminal-window-point-of-sale.png" /></p>
+<p>Imagen 13. Campo Transferir Transacción de Caja a Banco de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p>Este campo permite definir el tipo de documento con el cual serán generadas las ventas desde el punto de venta. De igual manera, el comportamiento que este tendrá al completar el proceso.</p>
+<p><img alt="Campo Tipo de Documento de la Ventana Terminal PDV" src="../../_images/document-type-field-of-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 14. Campo Tipo de Documento de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Regla de Facturación</strong>”, el método utilizado para generar las facturas a los clientes.</p>
+<blockquote>
+<div><p>Este campo establece una condición para facturar la venta en base a lo que se defina en el terminal PDV, el mismo no es obligatorio ya que la facturación puede depender de las reglas del negocio.</p>
+<p><img alt="Campo Regla de Facturación de la Ventana Terminal PDV" src="../../_images/billing-rule-field-of-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 15. Campo Regla de Facturación de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Almacén</strong>”, el lugar de almacenamiento de los productos destinados para la venta.</p>
+<blockquote>
+<div><p><img alt="Campo Almacén de la Ventana Terminal PDV" src="../../_images/warehouse-field-window-terminal-point-of-sale.png" /></p>
+<p>Imagen 16. Campo Almacén de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Regla de Entrega</strong>”, el método utilizado para generar las entregas de productos al cliente.</p>
+<blockquote>
+<div><p>Este campo establece una condición para entregar la venta en base a lo que se defina en el terminal PDV, el mismo no es obligatorio ya que la entrega puede depender de las reglas del negocio.</p>
+<p><img alt="Campo Regla de Entrega de la Ventana Terminal PDV" src="../../_images/delivery-rule-field-of-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 17. Campo Regla de Entrega de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>PDV Disposición de la Llave</strong>”, la disposición de la llave para el funcionamiento del punto de venta.</p>
+<blockquote>
+<div><p><img alt="Campo PDV Disposición de la Llave de la Ventana Terminal PDV" src="../../_images/pdv-field-terminal-window-key-disposal-point-of-sale.png" /></p>
+<p>Imagen 18. Campo PDV Disposición de la Llave de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>El check “<strong>Habilitar Búsqueda de Productos POS</strong>”, permite la búsqueda manual de los productos.</p>
+<blockquote>
+<div><p><img alt="Checklist Habilitar Búsqueda de Productos POS de la Ventana Terminal PDV" src="../../_images/checklist-enable-product-search-pos-window-terminal-point-of-sale.png" /></p>
+<p>Imagen 19. Check Habilitar Búsqueda de Productos POS de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Teclado en Pantalla</strong>”, el diseño clave para utilizar el teclado en pantalla para campos de texto.</p>
+<blockquote>
+<div><p><img alt="Campo Diseño de Teclado en Pantalla de la Ventana Terminal PDV" src="../../_images/field-keyboard-layout-on-point-of-sale-terminal-window-display.png" /></p>
+<p>Imagen 20. Campo Teclado en Pantalla de la Ventana Terminal PDV</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si el campo se encuentra vacío, no se utilizará el teclado en pantalla.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Teclado Numérico en Pantalla</strong>”, el diseño clave para utilizar el teclado en pantalla para campos númericos.</p>
+<blockquote>
+<div><p><img alt="Campo Diseño de Teclado Numérico en Pantalla de la Ventana Terminal PDV" src="../../_images/field-numeric-keyboard-layout-on-point-of-sale-terminal-window-screen.png" /></p>
+<p>Imagen 21. Campo Teclado Numérico en Pantalla de la Ventana Terminal PDV</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si el campo se encuentra vacío, no se utilizará el teclado en pantalla.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Nombre Impresión</strong>”, el nombre de la impresora asignada para el terminal que esta configurando.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre Impresión de la Ventana Terminal PDV" src="../../_images/field-name-print-window-terminal-point-of-sale.png" /></p>
+<p>Imagen 22. Campo Nombre Impresión de la Ventana Terminal PDV</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si el campo se encuentra vacío, se utiliza la impresora por defecto.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Registradora</strong>”, la registradora asignada para el terminal que esta configurando.</p>
+<blockquote>
+<div><p><img alt="Campo Registradora de la Ventana Terminal PDV" src="../../_images/cash-register-field-window-terminal-point-of-sale.png" /></p>
+<p>Imagen 23. Campo Registradora de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Peso Electrónico</strong>”, la ruta para las balanzas electrónicas del dispositivo.</p>
+<blockquote>
+<div><p><img alt="Campo Escalas Electrónicas de la Ventana Terminal PDV" src="../../_images/field-electronic-scales-of-the-terminal-window-point-of-sale.png" /></p>
+<p>Imagen 24. Campo Escalas Electrónicas de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código de Solicitud de Medida</strong>, las medidas de balanzas electrónicas de dispositivos.</p>
+<blockquote>
+<div><p><img alt="Campo Código de Solicitud de Medida de la Ventana Terminal PDV" src="../../_images/field-measurement-request-code-of-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 25. Campo Código de Solicitud de Medida de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione el checklist “<strong>PIN POS Requerido</strong>”, para indicar que un PIN de supervisor es obligatorio para ejecutar algunas tareas.</p>
+<blockquote>
+<div><p><img alt="Campo PIN POS Requerido de la Ventana Terminal PDV" src="../../_images/required-pos-pin-field-of-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 26. Campo PIN POS Requerido de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Tiempo de Entrada de PIN</strong>”, la cantidad de tiempo desde la visualización inicial hasta que el cuadro de diálogo de entrada de PIN se agota.</p>
+<blockquote>
+<div><p><img alt="Campo Tiempo de Entrada de PIN de la Ventana Terminal PDV" src="../../_images/field-entry-time-of-window-terminal-point-of-sale.png" /></p>
+<p>Imagen 27. Campo Tiempo de Entrada de PIN de la Ventana Terminal PDV</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La cantidad de tiempo debe ser ingresada en milisegundos.</p>
+</div>
+</div></blockquote>
+<p>En el campo “<strong>Clase Para Impresión de Ticket</strong>”, se debe ingresar el nombre de la clase para la impresión del ticket.</p>
+<blockquote>
+<div><p><img alt="Campo Clase Para Impresión de Ticket de la Ventana Terminal PDV" src="../../_images/class-field-for-ticket-printing-of-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 28. Campo Clase Para Impresión de Ticket de la Ventana Terminal PDV</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La información correspondiente a este campo debe ser ingresada por los consultores de <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Conversión</strong>”, el tipo de conversión de moneda establecida para la lista de precios de venta seleccionada anteriormente.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Conversión de la Ventana Terminal PDV" src="../../_images/point-of-sale-terminal-window-conversion-type-field.png" /></p>
+<p>Imagen 29. Campo Tipo de Conversión de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Impresora Fiscal</strong>”, la impresora fiscal asignada a la caja, taquilla o auto-servicio, para imprimir las diferentes facturas y notas de crédito emitidas por dicha caja.</p>
+<blockquote>
+<div><p><img alt="Campo Impresora Fiscal de la Ventana Terminal PDV" src="../../_images/field-printer-fiscal-window-terminal-point-of-sale.png" /></p>
+<p>Imagen 30. Campo Impresora Fiscal de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento para Orden de Devolución</strong>”, el tipo de documento establecido para generar la orden de devoluciones de los clientes y finalmente poder generar la nota de crédito a partir de la misma.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento para Orden de Devolución de la Ventana Terminal PDV" src="../../_images/document-type-field-for-return-order-of-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 31. Campo Tipo de Documento para Orden de Devolución</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Supervisor</strong>”, el supervisor del vendedor para el cual se esta configurando el terminal PDV.</p>
+<blockquote>
+<div><p><img alt="Campo Supervisor de la Ventana Terminal PDV" src="../../_images/point-of-sale-terminal-window-supervisor-field.png" /></p>
+<p>Imagen 32. Campo Supervisor de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione el checklist “<strong>Vendedor de Pasillo</strong>”, para indicar que el socio del negocio empleado es un vendedor de pasillo.</p>
+<blockquote>
+<div><p><img alt="Checklist Vendedor de Pasillo de la Ventana Terminal PDV" src="../../_images/checklist-vendor-hallway-window-point-of-sale-terminal.png" /></p>
+<p>Imagen 33. Checklist Vendedor de Pasillo de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione el checklist “<strong>POS Compartido</strong>”, para indicar que el punto de venta es compartido.</p>
+<blockquote>
+<div><p><img alt="Checklist POS Compartido de la Ventana Terminal PDV" src="../../_images/post-shared-checklist-of-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 34. Checklist POS Compartido de la Ventana Terminal PDV</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos de la ventana “<strong>Terminal PDV</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios de la Ventana Terminal PDV" src="../../_images/icon-save-changes-from-the-point-of-sale-terminal-window.png" /></p>
+<p>Imagen 35. Icono Guardar Cambios de la Ventana Terminal PDV</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="point-of-sale-interface.html" class="btn btn-neutral float-right" title="Interfaz de Punto de Venta" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Gestión PDV" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,609 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Nota de Débito &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Gestión de Relaciones con Clientes" href="../customer-relations/index.html" />
+    <link rel="prev" title="Nota de Crédito" href="credit-note-cxc.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión de Ventas</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="commission/index.html"><strong>Comisión de Ventas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="sales-region/index.html"><strong>Región de Ventas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="price-list/index.html"><strong>Lista de Precios</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="proposal/index.html"><strong>Propuesta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="sales-order/index.html"><strong>Orden de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="invoice-customer/index.html"><strong>Documento por Cobrar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-invoice-from-departure-order.html"><strong>Generar Factura desde Orden de Salida</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-invoice-from-departure-order.html#generar-factura-desde-orden-de-salida-consolidado-en-un-documento"><strong>Generar Factura desde Orden de Salida Consolidado en un Documento</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="shipment/index.html"><strong>Entregas (Cliente)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="credit-note-cxc.html"><strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Nota de Débito</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#registro-de-nota-de-debito"><strong>Registro de Nota de Débito</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linea-de-la-factura"><strong>Línea de la Factura</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-asignacion-de-nota-de-debito-aplicada"><strong>Consultar Asignación de Nota de Débito Aplicada</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión de Ventas</strong></a> &raquo;</li>
+        
+      <li><strong>Nota de Débito</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/quote-to-invoice/debit-note-cxc.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="nota-de-debito">
+<span id="documento-nota-de-debito-cxc"></span><h1><strong>Nota de Débito</strong><a class="headerlink" href="#nota-de-debito" title="Permalink to this headline">¶</a></h1>
+<p>Una nota de débito en cuentas por cobrar es un documento legal que se aplica a una factura para aumentar el monto de la misma. Esta siempre nace de un documento afectado ya sea de una factura o de una nota de crédito.</p>
+<p>A continuación es explicado el procedimiento para registrar en ADempiere una nota de débito de cuentas por cobrar.</p>
+<div class="section" id="registro-de-nota-de-debito">
+<h2><strong>Registro de Nota de Débito</strong><a class="headerlink" href="#registro-de-nota-de-debito" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Facturas de Ventas</strong>”, por último seleccione la ventana “<strong>Documentos por Cobrar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../_images/documents-receivable-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Documentos por Cobrar</strong>”, con todos los registros de documentos por cobrar cargados a ADempiere.</p>
+<blockquote>
+<div><p><img alt="Ventana Documentos por Cobrar" src="../../_images/documents-receivable-window.png" /></p>
+<p>Imagen 2. Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro en la ventana “<strong>Documentos por Cobrar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo de la Ventana Documentos por Cobrar" src="../../_images/new-record-icon-in-the-documents-receivable-window.png" /></p>
+<p>Imagen 3. Icono Registro Nuevo de la Ventana Documentos por Cobrar</p>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se encuentra realizando el documento “<strong>Nota de Débito CxC</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Organización de la Ventana Documentos por Cobrar" src="../../_images/field-organization-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 4. Campo Organización de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Orden de Venta</strong>”, la orden de venta correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Orden de Venta de la Ventana Documentos por Cobrar" src="../../_images/sales-order-field-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 5. Campo Orden de Venta de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Fecha de la Orden</strong>”, la fecha contable de la orden de venta seleccionada en el campo “<strong>Orden de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de la Orden de la Ventana Documentos por Cobrar" src="../../_images/date-field-of-the-order-in-the-documents-receivable-window.png" /></p>
+<p>Imagen 6. Campo Fecha de la Orden de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>No. del Documento</strong>”, el número de identificación correspondiente al documento que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Nro del Documento de la Ventana Documentos por Cobrar" src="../../_images/document-number-field-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 7. Campo No del Documento de la Ventana Documentos por Cobrar</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si no es ingresado ningún valor en el campo, ADempiere tomará el número de secuencia establecido para el tipo de documento al guardar el registro.</p>
+</div>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Referencia de Orden de Socio del Negocio</strong>”, la referencia de la orden del socio del negocio.</p>
+<blockquote>
+<div><p><img alt="Campo Referencia de Orden de Socio del Negocio de la Ventana Documentos por Cobrar" src="../../_images/business-partner-order-reference-field-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 8. Campo Referencia de Orden de Socio del Negocio de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Ventana Documentos por Cobrar" src="../../_images/field-description-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 9. Campo Descripción de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento Destino</strong>”, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento Destino de la Nota de Débito de CxC" src="../../_images/destination-document-type-field-of-the-cxc-debit-note.png" /></p>
+<p>Imagen 10. Campo Tipo de Documento Destino de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>El checklist “<strong>Auto-Servicio</strong>”, que el registro es una entrada del autoservicio o se puede cambiar vía autoservicio.</p>
+<blockquote>
+<div><p><img alt="Checklist Auto Servicio de la Nota de Débito de CxC" src="../../_images/cxc-debit-note-self-service-checklist.png" /></p>
+<p>Imagen 11. Checklist Auto Servicio de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de Facturación</strong>”, la fecha en la cual es aplicada la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Facturación de la Nota de Débito de CxC" src="../../_images/invoice-date-field-of-debit-note-cxc.png" /></p>
+<p>Imagen 12. Campo Fecha de Facturación de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Contable</strong>”, la fecha en la cual es aplicada la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha Contable de la Nota de Débito de CxC" src="../../_images/accounting-date-field-of-debit-note-cxc.png" /></p>
+<p>Imagen 13. Campo Fecha Contable de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio al cual se encuentra aplicando la nota de débito.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio de la Nota de Débito de CxC" src="../../_images/cxc-debit-memo-business-partner-field.png" /></p>
+<p>Imagen 14. Campo Socio del Negocio de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Dirección del Socio del Negocio</strong>”, la dirección del socio del negocio seleccionado anteriormente en el campo “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Dirección del Socio del Negocio de la Nota de Débito de CxC" src="../../_images/address-field-of-the-business-partner-of-the-debit-note-cxc.png" /></p>
+<p>Imagen 15. Campo Dirección del Socio del Negocio de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Usuario</strong>”, el usuario del socio del negocio seleccionado anteriormente en el campo “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Usuario de la Nota de Débito de CxC" src="../../_images/debit-note-user-field-cxc.png" /></p>
+<p>Imagen 16. Campo Usuario de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios con la cual se encuentra aplicando la nota de débito.</p>
+<blockquote>
+<div><p><img alt="Campo Lista de Precios de la Nota de Débito de CxC" src="../../_images/cxc-debit-memo-price-list-field.png" /></p>
+<p>Imagen 17. Campo Lista de Precios de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Moneda</strong>”, la moneda asociada a la lista de precios seleccionada en el campo “<strong>Lista de Precios</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda de la Nota de Débito de CxC" src="../../_images/currency-field-of-debit-note-cxc.png" /></p>
+<p>Imagen 18. Campo Moneda de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Agente Comercial</strong>”, el agente comercial involucrado en la transacción por la cual se encuentra realizando la nota de débito.</p>
+<blockquote>
+<div><p><img alt="Campo Agente Comercial de la Nota de Débito de CxC" src="../../_images/commercial-agent-field-of-debit-note-cxc.png" /></p>
+<p>Imagen 19. Campo Agente Comercial de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>El checklist “<strong>Imprimir Descuento</strong>”, imprime el descuento en la factura y la orden.</p>
+<blockquote>
+<div><p><img alt="Checklist Imprimir Descuento de la Nota de Débito de CxC" src="../../_images/checklist-print-debit-note-discount-cxc.png" /></p>
+<p>Imagen 20. Checklist Imprimir Descuento de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>A Crédito</strong>”, para indicar como se pagará la factura.</p>
+<blockquote>
+<div><p><img alt="Opción A Crédito de la Nota de Débito de CxC" src="../../_images/debit-option-of-the-debit-note-cxc.png" /></p>
+<p>Imagen 21. Opción A Crédito de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Término de Pago</strong>”, el término que establece la condición, el método y tiempo de pago de la transacción que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Término de Pago de la Nota de Débito de CxC" src="../../_images/cxc-debit-note-payment-term-field.png" /></p>
+<p>Imagen 22. Campo Término de Pago de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>El checklist “<strong>Impreso en Impresora Fiscal</strong>”, indica que el documento es impreso en impresora fiscal.</p>
+<blockquote>
+<div><p><img alt="Checklist Impreso en Impresora Fiscal de la Nota de Débito de CxC" src="../../_images/checklist-printed-on-a-fiscal-printer-of-the-debit-note-cxc.png" /></p>
+<p>Impresora 23. Checklist Impreso en Impresora Fiscal de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista</strong>”, la opción correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Lista de la Nota de Débito de CxC" src="../../_images/cxc-debit-memo-list-field.png" /></p>
+<p>Imagen 24. Campo Lista de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Factura Afectada</strong>”, la factura a la cual le será aplicada la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Factura Afectada de la Nota de Débito de CxC" src="../../_images/affected-invoice-field-of-debit-note-cxc.png" /></p>
+<p>Imagen 25. Campo Factura Afectada de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código Sunagro</strong>”, el código de superintendencia nacional de gestión agroalimentaria.</p>
+<blockquote>
+<div><p><img alt="Campo Código Sunagro de la Nota de Débito de CxC" src="../../_images/sunagro-code-field-of-debit-note-cxc.png" /></p>
+<p>Imagen 26. Campo Código Sunagro de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>El checklist “<strong>Documento Fiscal</strong>”, indica que el registro en el que se encuentra es un documento fiscal.</p>
+<blockquote>
+<div><p><img alt="Checklist Documento Fiscal de la Nota de Débito de CxC" src="../../_images/checklist-fiscal-document-of-debit-note-cxc.png" /></p>
+<p>Imagen 27. Checklist Documento Fiscal de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Control No</strong>”, el número de control fiscal establecido para el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Control Nro de la Nota de Débito de CxC" src="../../_images/control-field-number-of-debit-note-cxc.png" /></p>
+<p>Imagen 28. Campo Control No de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Actividad</strong>”, la actividad relacionada con el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Actividad de la Nota de Débito de CxC" src="../../_images/debit-note-activity-field-cxc.png" /></p>
+<p>Imagen 29. Campo Actividad de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Centro de Costos</strong>”, el centro de costos relacionado con el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Centro de Costos de la Nota de Débito de CxC" src="../../_images/cost-center-field-of-debit-memo-cxc.png" /></p>
+<p>Imagen 30. Campo Centro de Costos de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Región de Ventas</strong>”, la región de ventas relaconada con el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Región de Ventas de la Nota de Débito de CxC" src="../../_images/sales-region-field-of-debit-memo-cxc.png" /></p>
+<p>Imagen 31. Campo Región de Ventas de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña “<strong>Factura</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios de la Nota de Débito de CxC" src="../../_images/icon-save-changes-of-debit-note-cxc.png" /></p>
+<p>Imagen 32. Icono Guardar Cambios de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+</div>
+<div class="section" id="linea-de-la-factura">
+<h2><strong>Línea de la Factura</strong><a class="headerlink" href="#linea-de-la-factura" title="Permalink to this headline">¶</a></h2>
+<p>Seleccione la pestaña “<strong>Línea de la Factura</strong>”, para cargar los detalles de la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de la Factura de la Nota de Débito de CxC" src="../../_images/cxc-debit-memo-invoice-line-tab.png" /></p>
+<p>Imagen 33. Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+<p>Podrá visualizar en el campo “<strong>No. Línea</strong>”, el número de línea correspondiente al registro que se encuentra realizando en la pestaña “<strong>Línea de la Factura</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Nro Línea de la Nota de Débito de CxC" src="../../_images/field-number-line-of-the-line-tab-of-the-invoice-of-the-debit-note-cxc.png" /></p>
+<p>Imagen 34. Campo No Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto por el cual se encuentra aplicando la nota de débito.</p>
+<blockquote>
+<div><p><img alt="Campo Producto de la Nota de Débito de CxC" src="../../_images/product-field-of-the-line-tab-of-the-debit-memo-cxc.png" /></p>
+<p>Imagen 35. Campo Producto de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo por el cual se encuentra aplicando la nota de débito.</p>
+<blockquote>
+<div><p><img alt="Campo Cargo de la Nota de Débito de CxC" src="../../_images/charge-field-of-the-line-tab-of-the-debit-note-invoice-cxc.png" /></p>
+<p>Imagen 36. Campo Cargo de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Línea de la Nota de Débito de CxC" src="../../_images/description-field-of-the-line-tab-of-the-debit-note-invoice-cxc.png" /></p>
+<p>Imagen 37. Campo Descripción de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cantidad</strong>”, la cantidad relacionada al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad de la Nota de Débito de CxC" src="../../_images/amount-field-of-the-line-tab-of-the-debit-note-invoice-cxc.png" /></p>
+<p>Imagen 38. Campo Cantidad de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>UM</strong>”, la unidad de medida relacionada al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo UM de la Nota de Débito de CxC" src="../../_images/um-field-of-the-invoice-line-tab-of-the-debit-note-cxc.png" /></p>
+<p>Imagen 39. Campo UM de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Precio</strong>”, el precio correspondiente a la nota de débito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Precio de la Nota de Débito de CxC" src="../../_images/price-field-of-the-line-tab-of-the-debit-note-invoice-cxc.png" /></p>
+<p>Imagen 40. Campo Precio de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Precio Actual</strong>”, el precio actual ingresado en el campo “<strong>Precio</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Precio Actual de la Nota de Débito de CxC" src="../../_images/current-price-field-of-the-line-tab-of-the-debit-note-invoice-cxc.png" /></p>
+<p>Imagen 41. Campo Precio Actual de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Precio de Lista</strong>”, el precio de lista oficial.</p>
+<blockquote>
+<div><p><img alt="Campo Precio de Lista de la Nota de Débito de CxC" src="../../_images/list-price-field-of-the-line-tab-of-the-debit-note-invoice-cxc.png" /></p>
+<p>Imagen 42. Campo Precio de Lista de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Impuesto</strong>”, el tipo de impuesto a aplicar en el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Impuesto de la Nota de Débito de CxC" src="../../_images/tax-field-of-the-line-tab-of-the-debit-memo-cxc.png" /></p>
+<p>Imagen 43. Campo Impuesto de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Factura Afectada</strong>”, la factura afectada para asignar la nota automáticamente.</p>
+<blockquote>
+<div><p><img alt="Campo Factura Afectada de la Pestaña de la Nota de Débito de CxC" src="../../_images/affected-invoice-field-of-the-invoice-line-tab-of-the-debit-note-cxc.png" /></p>
+<p>Imagen 44. Campo Factura Afectada de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Actividad</strong>”, la actividad correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Actividad de la Pestaña de la Nota de Débito de CxC" src="../../_images/activity-field-of-the-line-tab-of-the-debit-note-invoice-cxc.png" /></p>
+<p>Imagen 45. Campo Actividad de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Centro de Costos</strong>”, el centro de costos correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Centro de Costos de la Pestaña de la Nota de Débito de CxC" src="../../_images/cost-center-field-of-the-line-tab-of-the-debit-memo-cxc.png" /></p>
+<p>Imagen 46. Campo Centro de Costos de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Amortización de Préstamo</strong>”, la amortización de préstamo.</p>
+<blockquote>
+<div><p><img alt="Campo Amortización de Préstamo de la Nota de Débito de CxC" src="../../_images/loan-amortization-field-of-the-line-tab-of-the-debit-memo-cxc-invoice.png" /></p>
+<p>Imagen 47. Campo Amortización de Préstamo de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Activo Fijo</strong>”, el activo fijo relacionado con el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Activo Fijo de la Nota de Débito de CxC" src="../../_images/fixed-asset-field-of-the-line-tab-of-the-debit-note-invoice-cxc.png" /></p>
+<p>Imagen 48. Campo Activo Fijo de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Neto de Línea</strong>”, el neto de la línea.</p>
+<blockquote>
+<div><p><img alt="Campo Neto de Línea de la Nota de Débito de CxC" src="../../_images/net-field-of-line-of-the-line-tab-of-the-debit-memo-invoice-cxc.png" /></p>
+<p>Imagen 49. Campo Neto de Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña “<strong>Línea de la Factura</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios de la Línea de la Nota de Débito de CxC" src="../../_images/icon-save-changes-of-the-line-tab-of-the-invoice-of-the-debit-note-cxc.png" /></p>
+<p>Imagen 50. Icono Guardar Cambios de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione la pestaña principal “<strong>Factura</strong>” y ubique la opción “<strong>Completar</strong>”, en la parte inferior izquierda de la ventana.</p>
+<blockquote>
+<div><p><img alt="Pestaña Principal Factura de la Nota de Débito de CxC" src="../../_images/main-tab-debit-note-invoice-cxc.png" /></p>
+<p>Imagen 51. Pestaña Factura de la Ventana Documentos por Cobrar</p>
+<p>Seleccione la opción “<strong>Completar</strong>”, para completar el documento “<strong>Nota de Débito de CxC</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Completar de la Nota de Débito de CxC" src="../../_images/complete-option-of-the-invoice-tab-of-the-debit-note-cxc.png" /></p>
+<p>Imagen 52. Opción Completar de la Pestaña Factura de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para culminar el proceso.</p>
+<blockquote>
+<div><p><img alt="Acción Completar y Opción OK" src="../../_images/action-complete-and-option-ok2.png" /></p>
+<p>Imagen 53. Acción Completar y Opción OK de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="consultar-asignacion-de-nota-de-debito-aplicada">
+<h2><strong>Consultar Asignación de Nota de Débito Aplicada</strong><a class="headerlink" href="#consultar-asignacion-de-nota-de-debito-aplicada" title="Permalink to this headline">¶</a></h2>
+<p>Ubique el registro de la factura asociada a la nota de débito, en este caso se ubica la factura “<strong>76</strong>” y posteriormente seleccione la pestaña “<strong>Facturas Pagadas</strong>”.</p>
+<blockquote>
+<div><p><img alt="Factura de la Nota de débito CxC" src="../../_images/cxc-debit-memo-invoice.png" /></p>
+<p>Imagen 54. Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Haga clic contrario en el campo “<strong>Asignación</strong>” y seleccione la opción “<strong>Acercar</strong>” en el menú visualizado.</p>
+<blockquote>
+<div><p><img alt="Acercar Asignación de Pago de la Nota de Débito de CxC" src="../../_images/zoom-in-on-payment-assignment-of-the-cxc-debit-note.png" /></p>
+<p>Imagen 55. Acercar Asignación de Pago de la Factura por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar el registro de la asignación creada al completar el documento “<strong>Nota de débito de CxC</strong>”.</p>
+<blockquote>
+<div><p><img alt="Registro de Asignación de Nota de Débito de CxC" src="../../_images/cxc-debit-memo-assignment-record.png" /></p>
+<p>Imagen 56. Registro de Asignación de Pago de Nota de débito de CxC</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Asignaciones</strong>”, para visualizar la información del monto de la nota de débito aplicada a la factura.</p>
+<blockquote>
+<div><p><img alt="Pestaña Asignaciones de la Nota de Débito de CxC" src="../../_images/cxc-debit-memo-assignments-tab.png" /></p>
+<p>Imagen 57. Pestaña Asignaciones de la Ventana Consulta de Asignación</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../customer-relations/index.html" class="btn btn-neutral float-right" title="Gestión de Relaciones con Clientes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="credit-note-cxc.html" class="btn btn-neutral float-left" title="Nota de Crédito" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

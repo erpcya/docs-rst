@@ -1,0 +1,443 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Actualizar Cliente de cola de impresión para Impresora Fiscal PNP &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Instalar Impresora Fiscal The Factory HKA" href="install-tfhka-fiscalprinter.html" />
+    <link rel="prev" title="Revisión de Rutina para Impresora Fiscal PNP" href="daily-setup-pnp-fiscalPrinter.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Impresora Fiscal</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="add-java-to-path.html"><strong>Añadir Java 8 a las Variables de Entorno</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="commons-errors-fiscal-printer.html"><strong>Errores comunes Impresora Fiscal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual-reports.html"><strong>Generar Reportes Manualmente en la impresora</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="setup-vmax-220.html"><strong>Configuración de Impresora Fiscal VMax 220 para Usar con ADempiere</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="install-pnp-fiscalprinter.html"><strong>Instalar Impresora Fiscal PNP</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily-setup-pnp-fiscalPrinter.html">Revisión de Rutina para Impresora Fiscal PNP</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Actualizar Cliente de cola de impresión para Impresora Fiscal PNP</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="install-tfhka-fiscalprinter.html"><strong>Instalar Impresora Fiscal The Factory HKA</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Impresora Fiscal</strong></a> &raquo;</li>
+        
+      <li><strong>Actualizar Cliente de cola de impresión para Impresora Fiscal PNP</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/lve/fiscal-printer/update-client-pnp-fiscalPrinter.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="actualizar-cliente-de-cola-de-impresion-para-impresora-fiscal-pnp">
+<span id="documento-actualizar-impresora-fiscal-pnp"></span><h1><strong>Actualizar Cliente de cola de impresión para Impresora Fiscal PNP</strong><a class="headerlink" href="#actualizar-cliente-de-cola-de-impresion-para-impresora-fiscal-pnp" title="Permalink to this headline">¶</a></h1>
+<p>Para la actualización del cliente de cola de impresión para la Impresora Fiscal es necesario lo siguiente:</p>
+<p><strong>Requisitos</strong>:</p>
+<ul class="simple">
+<li><p>Descargar el Archivo <strong>Setup_LocalPrintingPnP.exe</strong></p></li>
+<li><p>Conocer en qué Puerto <strong>COM</strong> está conectada la impresora (El puerto debe estar entre 1 y 4)</p></li>
+<li><p>Detener el Cliente de cola de impresión en ejecución, en el escritorio de Windows se tiene acceso directo <strong>LocalPrinting-PnP.ink</strong>, el cual permite detener el cliente de cola de impresión al ejecutarlo, para ello usar el siguiente parámetro:</p></li>
+</ul>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 36%" />
+<col style="width: 64%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Parámetro</p></th>
+<th class="head"><p>Valor</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>Detiene el Cliente de Cola de Impresión</p></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Ejecutar Setup_LocalPrintingPnP.exe con privilegios de Administrador</strong>:</p>
+<p>Seguir los pasos del instalador y colocar los siguientes parámetros:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 11%" />
+<col style="width: 11%" />
+<col style="width: 77%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Parámetro</p></th>
+<th class="head"><p>Valor</p></th>
+<th class="head"><p>Descripción</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Host</p></td>
+<td><p>LOCALHOST</p></td>
+<td><p>Dirección Web o IP del Servidor donde Está Alojado ADempiere</p></td>
+</tr>
+<tr class="row-odd"><td><p>Port</p></td>
+<td><p>50043</p></td>
+<td><p>Puerto de Comunicaciones del Servidor de cola de impresión, no cambiar</p></td>
+</tr>
+<tr class="row-even"><td><p>Reconnect</p></td>
+<td><p>true</p></td>
+<td><p>Habilitar reconexión Automática</p></td>
+</tr>
+<tr class="row-odd"><td><p>Interval</p></td>
+<td><p>3000</p></td>
+<td><p>Tiempo de reconexión</p></td>
+</tr>
+<tr class="row-even"><td><p>Printer Type</p></td>
+<td><p>300</p></td>
+<td><p>Tipo de impresora fiscal, colocar 200 si la impresora es del tipo PF-200 o 300 si la impresora es del tipo PF-300-II</p></td>
+</tr>
+<tr class="row-odd"><td><p>Printer Name</p></td>
+<td><p>TESTPRINTER01</p></td>
+<td><p>Este Nombre se le asigna en adempiere al momento de registrar las impresoras</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Es importante que al momento de iniciar el ejecutable se use con privilegios de Administrador, en caso de no ser así este mismo no tendrá los permisos para instalar las librerías necesarias</p>
+</div>
+<p>Luego de aplicar el instalador ubicar el acceso directo <strong>LocalPrinting-PnP.ink</strong> en el escritorio de Windows, para iniciar el cliente de cola de impresión nuevamente, se debe usar el siguiente parámetro:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 37%" />
+<col style="width: 63%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Parámetro</p></th>
+<th class="head"><p>Valor</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>Inicia el Cliente de Cola de Impresión</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p><strong>Verificar Correcto funcionamiento luego de la instalación</strong>:</p>
+<p>Hacer doble click en el acceso directo <strong>LocalPrinting-PnP.ink</strong> con privilegios de Administrador en el menú que se observa en la ventana de la consola Windows selecciona la opción 1, esto iniciara el cliente de cola de impresión.</p>
+<p><strong>Obtener Estado Actual de Impresora Fiscal</strong>:</p>
+<p>Ingresando en <strong>ADempiere</strong> como compañía ubicar el proceso <strong>Configuración de Impresora Fiscal</strong> y ejecutar el proceso con los parámetros:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 32%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Parámetro</p></th>
+<th class="head"><p>Valor</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Impresora Fiscal</p></td>
+<td><p>Seleccionar Impresora a Emplear para la prueba</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tipo de comando Fiscal</p></td>
+<td><p>Obtener Estado de Impresora</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Del proceso se obtiene la siguiente respuesta:</p>
+<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>** Impresora lista para abrir una factura, abrir un documento no fiscal, hacer un reporte Z o un reporte de memoria fiscal**
+</pre></div>
+</div>
+<p><strong>Imprimir Reporte X</strong></p>
+<p>Para el caso donde la conexión se ejecuta correctamente, se procede a realizar una impresión de control usando el Proceso <strong>Imprimir Reporte Fiscal</strong> con los parámetros:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 32%" />
+<col style="width: 68%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Parámetro</p></th>
+<th class="head"><p>Valor</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Impresora Fiscal</p></td>
+<td><p>Seleccionar Impresora a Emplear para la prueba</p></td>
+</tr>
+<tr class="row-odd"><td><p>Tipo de comando Fiscal</p></td>
+<td><p>Reporte X</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Al iniciar la impresión todo está correctamente configurado y funcional.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="install-tfhka-fiscalprinter.html" class="btn btn-neutral float-right" title="Instalar Impresora Fiscal The Factory HKA" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="daily-setup-pnp-fiscalPrinter.html" class="btn btn-neutral float-left" title="Revisión de Rutina para Impresora Fiscal PNP" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,553 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Registro de Imprimir / Exportar Pagos &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Registro de Imprimir / Exportar Pagos de Nómina" href="print-export-payments-payroll.html" />
+    <link rel="prev" title="Imprimir / Exportar Pagos" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../bank-transfer/index.html"><strong>Transferencia Bancaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payment-selection/index.html"><strong>Selección de Pago</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Imprimir / Exportar Pagos</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Registro de Imprimir / Exportar Pagos</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#consultar-documento-de-pago-generado"><strong>Consultar Documento de Pago Generado</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="print-export-payments-payroll.html"><strong>Registro de Imprimir / Exportar Pagos de Nómina</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../payment/index.html"><strong>Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection/index.html"><strong>Cobro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-refund/index.html"><strong>Caja Reembolso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-per-diems/index.html"><strong>Caja Viáticos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection-cash/index.html"><strong>Caja Cobranza</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pay-assignment/index.html"><strong>Asignación de Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-closing/index.html"><strong>Cierre de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../automatic-conciliations/index.html"><strong>Conciliaciones Automáticas</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Saldos Pendientes</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Imprimir / Exportar Pagos</strong></a> &raquo;</li>
+        
+      <li><strong>Registro de Imprimir / Exportar Pagos</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/open-items/print-export/print-export.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-de-imprimir-exportar-pagos">
+<span id="documento-imprimir-exportar"></span><h1><strong>Registro de Imprimir / Exportar Pagos</strong><a class="headerlink" href="#registro-de-imprimir-exportar-pagos" title="Permalink to this headline">¶</a></h1>
+<p>Para poder generar los pagos de los documentos asociados a una selección de pago, se deben realizar los siguientes pasos:</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione ventana “<strong>Imprimir / Exportar Pagos</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../../_images/menu-print-export.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Imprimir / Exportar Pagos</strong>” el cual cuenta con los siguientes campos:</p>
+<blockquote>
+<div><p><img alt="Ventana Imprimir Exportar" src="../../../_images/window-print-export.png" /></p>
+<p>Imagen 2. Ventana Imprimir / Exportar Pagos</p>
+</div></blockquote>
+<p>Campo <strong>”Selección de Pago”</strong>,este es un campo tipo búsqueda el cual es utilizado para ubicar las selección de pagos de cuentas por pagar, el cual contiene los documentos los cuales se les generarán los pagos.</p>
+<blockquote>
+<div><p><img alt="Identificador del Campo Selección de Pago" src="../../../_images/payment-selection-field-identifier.png" /></p>
+<p>Imagen 3. Campo Selección de Pago</p>
+</div></blockquote>
+<p>Para ubicar la selección de pago está se puede realizar de dos maneras:</p>
+<blockquote>
+<div><p>La primera opción es colocar directamente dentro del campo <strong>”Selección de Pago”</strong> el número de documento de la <strong>”Selección de Pagos de Cuentas por Pagar”</strong>, al realizar dicho procedimiento en  ADempiere traerá automáticamente la selección de pago.</p>
+<blockquote>
+<div><p><img alt="Búsqueda Selección de Pago Directa" src="../../../_images/search-direct-payment-selection.png" /></p>
+<p>Imagen 4. Búsqueda Selección de Pago Directa</p>
+</div></blockquote>
+<p>La segunda opción es tildar el botón de búsqueda que se encuentra al finalizar el campo <strong>”Selección de Pago”</strong> el cual tiene un ícono de una flecha hacia abajo, al tildar está opción se desplegará una ventana de búsqueda inteligente el cual posee los siguientes campos de búsqueda, los cuales pueden ser utilizados para ubicar la selección de pagos de cuentas por pagar.</p>
+<blockquote>
+<div><p>Campo <strong>”N° de Documento”</strong> en este campo se puede colocar el número de documento de la selección de pago.</p>
+<blockquote>
+<div><p><img alt="Campo Nro de documento de ventana de búsqueda Selección de Pago" src="../../../_images/document-number-field-of-search-window-payment-selection.png" /></p>
+<p>Imagen 5. Campo Nro de documento de ventana de búsqueda Selección de Pago</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Es importante recordar que ADempiere cuenta con un comodín de búsqueda el cual es signo porcentual “<strong>(%)</strong>” el cual puede ser utilizado dentro de un campo de búsqueda colocando un valor de búsqueda con el signo del porcentaje estando al inicio y final de la palabra o valor que se desea buscar ejemplo: %77%.</p>
+<p>Esto permite realizar búsquedas más extensa del valor que se esté colocando, es decir sí en el campo “<strong>N° de Documento</strong>” es colocado %77% ADempiere ubicará todas las selecciones de pagos que contengan ese valor en el número de documento, ya sea que se encuentre al iniciar , al final o en la parte central.</p>
+</div>
+</div></blockquote>
+<p>Campo <strong>”Nombre”</strong></p>
+<blockquote>
+<div><p><img alt="Campo Nombre de ventana de búsqueda Selección de Pago" src="../../../_images/payment-selection-search-window-name-field.png" /></p>
+<p>Imagen 6. Campo Nombre de ventana de búsqueda “Selección de Pago”</p>
+</div></blockquote>
+<p>Dependiendo de la opción de búsqueda que se utilice, en la parte central de esta ventana se mostrará la o las selecciones de pagos que ubique ADempiere, tilde la selección de pago con la que desea trabajar.</p>
+<blockquote>
+<div><p><img alt="Tildar selección de pago" src="../../../_images/tick-payment-selection.png" /></p>
+<p>Imagen 7. Tildar selección de pago</p>
+</div></blockquote>
+<p>Al ubicar la selección de pago  presione el botón <strong>“Ok”</strong> de la ventana de búsqueda, al tildar el botón ADempiere lo llevará nuevamente a la ventana principal <strong>”Imprimir/Exportar Pagos”</strong></p>
+<blockquote>
+<div><p><img alt="Botón Ok" src="../../../_images/ok-button.png" /></p>
+<p>Imagen 8. Botón Ok</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá Observar que el campo  <strong>”Selección de Pago”</strong> se encuentra el número de documento de la selección de pago de cuentas por pagar.</p>
+<blockquote>
+<div><p><img alt="Campos Cargados Desde la Selección de Pago" src="../../../_images/fields-loaded-from-the-payment-selection.png" /></p>
+<p>Imagen 9. Ventana de Registro guardado</p>
+</div></blockquote>
+<p>Campo <strong>”Cuenta Bancaria”</strong> debe aparecer el banco con el que se encuentra trabajando la selección de pagos de cuentas por pagar qué ha sido ubicada en el campo <strong>”Selección de Pago”</strong>, por ejemplo:</p>
+<blockquote>
+<div><p>Sí al momento de crear la selección de pago de cuentas por pagar, fue asociada el banco <strong>”Banco Provincial S.A. Banco Universal”</strong> esté debe aparecer en este campo con el número de cuenta correspondiente a él. Este banco es el banco en donde se emitirán los pagos</p>
+<p><img alt="Campo Cuenta Bancaria" src="../../../_images/bank-account-field.png" /></p>
+<p>Imagen 10. Campo Cuenta Bancaria</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para realizar la creación de una selección de pagos de cuentas por pagar visite el documento <a class="reference internal" href="../payment-selection/payment-selection-cxp.html#documento-seleccion-de-pago"><span class="std std-ref">Registro desde Selección de Pago</span></a>.</p>
+</div>
+</div></blockquote>
+<p>Campo <strong>”Regla de Pago ”</strong> este campo debe traer la regla de pago establecida en la selección de pagos de cuentas por pagar.
+Cabe destacar, que dependiendo de la regla de pago con la que cuente la selección de pago se definirá la acción que se utilizará para generar los pagos.</p>
+<blockquote>
+<div><p><img alt="Campo Regla de Pago" src="../../../_images/payment-rule-field.png" /></p>
+<p>Imagen 11. Campo Regla de Pago</p>
+</div></blockquote>
+<p>Campo <strong>”Documento No.”</strong> este campo mostrará el número de documento de la regla de pago con la que se esté trabajando, cada regla de pago tendrá un número de documento y esté irá incrementado a medida que se deseen generar los pagos desde esta ventana, como por ejemplo:</p>
+<blockquote>
+<div><p>Para las reglas de pagos <strong>“Cheque”</strong> si ADempiere está debidamente configurado está regla de pago bajo el banco con el que se esté trabajando, ADempiere irá incrementado su secuencia del número de documento con el número de cheque que realmente debe salir por ese banco.</p>
+<blockquote>
+<div><p><img alt="Campo Documento Nro" src="../../../_images/document-field-number.png" /></p>
+<p>Imagen 12. Documento No</p>
+</div></blockquote>
+</div></blockquote>
+<p>Campo <strong>”Saldo Actual”</strong> este campo mostrará el saldo actual que posee el banco a mostrar en el campo <strong>”Cuenta Bancaria”</strong> qué es el mismo qué tiene asociada la selección de pago de cuentas por pagar.</p>
+<blockquote>
+<div><p><img alt="Campo Saldo Actual" src="../../../_images/opening-balance-field.png" /></p>
+<p>Imagen 13. Campo Saldo Actual</p>
+</div></blockquote>
+<p>Campo <strong>”Moneda”</strong> es la moneda con la que se emitirán los pagos, la moneda a mostrar es la misma que tiene asociada selección de pago de cuentas por pagar.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda" src="../../../_images/currency-field.png" /></p>
+<p>Imagen 14. Campo Moneda</p>
+</div></blockquote>
+<p>Campo <strong>”Número de Pagos”</strong> debe mostrar los pagos a generar por cada uno de los documentos asociados en la selección de pagos de cuentas por pagar,los pagos a generar dependen de las siguientes características:</p>
+<blockquote>
+<div><p>Sí la selección de pago posee dos o más documentos  de un mismos socio de negocio y apuntan a una misma cuenta bancaria, ADempiere generará un pago a ese socio de negocio con la suma de los documentos de ese proveedor, ejemplo:</p>
+<blockquote>
+<div><p>En la selección de pago se encuentra cuatro  (3) facturas asociadas, dos de esas facturas pertenecen a un mismo proveedor  <strong>”Dhl Express Aduanas Venezuela C.A.”</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>La <strong>”Factura N°1”</strong>  tiene el total de pago 10.000,00 del socio del negocio <strong>”Dhl Express Aduanas Venezuela C.A.”</strong> a la cuenta bancaria <strong>”100 % Banco, Banco Universal, C.A._0156 “</strong></p></li>
+<li><p>La <strong>”Factura N°2”</strong> tiene un total pagado 30.000,00 con el mismo socio de negocio y la misma cuenta bancaria de la <strong>”Factura N°1”</strong>.</p></li>
+<li><p>La factura <strong>”Factura N°3”</strong>  tiene un total de pago de 15.000,00 a otro socio de negocio con la cuenta bancaria <strong>”Mercantil C.A. Banco Universal_0105”</strong>.</p></li>
+</ul>
+</div></blockquote>
+<p>El número a mostrar en el total de pagos será 2 , ya que la factura N°1 y la Factura N° 2 pertenecen a un mismo socio de negocio y apuntan a una misma cuenta bancaria, ADempiere realizará un pago para esas dos facturas, cuando se complete el procedimiento se generará los siguientes pagos:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>El <strong>”Pago N°1”</strong> a la cuenta <strong>”100 % Banco, Banco Universal, C.A._0156 “</strong> del socio de negocio <strong>”Dhl Express Aduanas Venezuela C.A.”</strong> por un total de 40.000,00.</p></li>
+<li><p>El <strong>”Pago N°2”</strong>  la cuenta bancaria <strong>”Mercantil C.A. Banco Universal_0105”</strong> del otro socio del negocio por un total de 15.000,00.</p></li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+<p>Sí la selección de pago posee dos o más documentos  de un mismos socio de negocio pero estos apuntan a diferentes cuentas bancarias, ADempiere generará el pago por la cantidad de documentos asociados a ese proveedor que contenga cuentas bancarias diferentes, ejemplo:</p>
+<blockquote>
+<div><p>En la selección de pago se encuentra tres (3) facturas asociadas, dos de esas facturas pertenecen a un mismo proveedor  <strong>”Dhl Express Aduanas Venezuela C.A.”</strong> :</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>La <strong>”Factura N° 1”</strong>  tiene el total de pago 10.000,00 está asociada la cuenta bancaria <strong>”100 % Banco, Banco Universal, C.A._0156 “</strong>.</p></li>
+<li><p>La <strong>”factura N° 2”</strong> es del mismos proveedor de la factura N°1 con un total pagado 30.000,00 y está asociada a la cuenta bancaria <strong>”Mercantil C.A. Banco Universal_0105”</strong>.</p></li>
+<li><p>La <strong>”Factura N°3”</strong> se encuentra asociada a otro proveedor por un total de 40.000,00 al banco <strong>”Mercantil C.A. Banco Universal_0105”</strong>.</p></li>
+</ul>
+</div></blockquote>
+<p>El número a mostrar en el total de pagos serán tres, a pesar de que esté posee dos facturas con un mismo socio de negocio en este caso no se unirán los pagos por qué en la selección de pago las facturas del socio de negocio que se repite poseen cuentas bancarias diferentes, entonces cuando se complete el procedimiento  ADempiere generará tres pagos:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>El <strong>”Pago N°1”</strong> al socio del negocio <strong>”Dhl Express Aduanas Venezuela C.A.”</strong> a la cuenta bancaria <strong>”100 % Banco, Banco Universal, C.A._0156 “</strong>  por 10.000,00</p></li>
+<li><p>El <strong>”Pago N°2”</strong> al socio del negocio  <strong>”Dhl Express Aduanas Venezuela C.A.”</strong> a la cuenta bancaria <strong>”Mercantil C.A. Banco Universal_0105”</strong> por 30.000,00.</p></li>
+<li><p>El <strong>”Pago N°3”</strong> al otro socio de negocio a la cuenta bancaria <strong>”Mercantil C.A. Banco Universal_0105”</strong> por un total de 40.000,00.</p></li>
+</ul>
+</div></blockquote>
+</div></blockquote>
+<p>Sí la selección de pagos posee documentos asociados con diferentes socios de negocios ADempiere generará un pago por cada uno de los documentos qué se encuentre asociados a la selección de pagos, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>En la selección de pagos tienen tres facturas asociadas con diferentes socios de negocios el número a mostrar en el total de pagos serán tres, entonces cuando se complete el procedimiento ADempiere generará tres pagos.</p></li>
+</ul>
+</div></blockquote>
+<p><img alt="Campo Número de Pagos" src="../../../_images/field-number-of-payments.png" /></p>
+<p>Imagen 15. Número de Pagos</p>
+</div></blockquote>
+<p>Para generar los pagos de la selección de pago se pueden ADempiere cuenta con las siguientes opciones <strong>“Exportar Registros”</strong>, <strong>“Imprimir”</strong> dependiendo de la regla de pago con la que se encuentre trabajando la selección de pago se deben utilizar las siguientes opciones:</p>
+<blockquote>
+<div><p><img alt="Opciones Imprimir Exportar Pagos" src="../../../_images/options-print-export-payments.png" /></p>
+<p>Imagen 16. Opciones Imprimir/Exportar Pagos</p>
+<p>Para las selecciones de pago que cuenten con las reglas de pago  <strong>“A crédito, Débito directo, Depósito directo”</strong> se debe utilizar la opción <strong>“Exportar Registros”</strong>, esta opción genera los pagos de los documentos asociados a la selección de pago y le permitirá generar el archivo txt de esos pagos para poder ser cargado en el banco.</p>
+<blockquote>
+<div><p><img alt="Opción Exportar Registros" src="../../../_images/option-to-export-records.png" /></p>
+<p>Imagen 17. Opción Exportar Registros</p>
+<p>Al seleccionar la opción <strong>“Exportar Registros”</strong> ADempiere mostrará una ventana donde se observará las carpetas del equipo donde se encuentre trabajando, esto para que ubique y guarde el archivo txt que será llevado al banco.</p>
+<blockquote>
+<div><p><img alt="Ventana para Ubicar el Txt" src="../../../_images/window-to-locate-the-txt.png" /></p>
+<p>Imagen 18. Ventana para Ubicar el Txt</p>
+</div></blockquote>
+<p>Podrá observar una vez guarde el archivo txt, un mensaje del número de registro de líneas guardadas, este número a mostrar dependerá de los registros asociados a cada una de las líneas de la selección de pago.</p>
+<blockquote>
+<div><p><img alt="Mensaje Número de Registro de Líneas Guardadas" src="../../../_images/message-record-number-of-saved-lines.png" /></p>
+<p>Imagen 19. Mensaje Número de Registro de Líneas Guardadas</p>
+</div></blockquote>
+<p>Una vez tildada la opción ok de la ventana del número de registro de líneas guardadas, ADempiere mostrará el siguiente mensaje donde indica que la impresión ha sido correcta, es decir que los pagos se han generado correctamente.</p>
+<blockquote>
+<div><p><img alt="Mensaje Impresión Correcta" src="../../../_images/correct-print-message.png" /></p>
+<p>Imagen 20. Mensaje Impresión Correcta</p>
+</div></blockquote>
+</div></blockquote>
+<p>Para las selecciones de pago que cuenten con las reglas de pago “<strong>A crédito, Cheque, Tarjeta de crédito</strong>” se debe utilizar la opción “<strong>Imprimir</strong>”, esta opción genera los pagos de los documentos asociados a la selección de pago y le permitirá imprimir el cheque desde ADempiere.</p>
+<blockquote>
+<div><p><img alt="Opción Imprimir Pagos" src="../../../_images/print-payments-option.png" /></p>
+<p>Imagen 21. Opción Imprimir</p>
+<p>Podrá visualizar la siguiente ventana con el mensaje de confirmación, en la cual debe seleccionar la opción “<strong>OK</strong>”.</p>
+<blockquote>
+<div><p><img alt="Mensaje de Confirmación" src="../../../_images/confirmation-message.png" /></p>
+<p>Imagen 22. Ventana con Mensaje de Confirmación</p>
+</div></blockquote>
+<p>ADempiere genera el documento del registro del pago realizado a la factura desde la selección de pago.</p>
+<blockquote>
+<div><p><img alt="Comprobante de Relación de Pago" src="../../../_images/proof-of-payment-relationship.png" /></p>
+<p>Imagen 23. Comprobante de Relación de Pago</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<div class="section" id="consultar-documento-de-pago-generado">
+<h2><strong>Consultar Documento de Pago Generado</strong><a class="headerlink" href="#consultar-documento-de-pago-generado" title="Permalink to this headline">¶</a></h2>
+<p>Para ubicar en ADempiere los pagos generados de una selección de pagos a través de la opción imprimir/exportar pago se pueden ubicar de la siguiente forma:</p>
+<p>Una de las opciones es ubicar los pagos directamente de la ventana “<strong>Pago/Cobro</strong>”, para ello realice los siguientes pasos:</p>
+<blockquote>
+<div><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la ventana “<strong>Pago/Cobro</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 2" src="../../../_images/menu-pago1.png" /></p>
+<p>Imagen 24. Menú de ADempiere</p>
+</div></blockquote>
+<p>Ubique en la barra de herramientas de ADempiere la opción <strong>“Encontrar Registro”</strong>.</p>
+<blockquote>
+<div><p><img alt="Opción Encontrar Registro" src="../../../_images/find-record-option.png" /></p>
+<p>Imagen 25. Opción Encontrar Registro</p>
+</div></blockquote>
+<p>Al tildar la opción de la barra de herramientas de ADempiere <strong>“Encontrar Registro”</strong> ADempiere mostrará una ventana de búsqueda la cual cuenta con varios criterios de búsquedas los cuales pueden ser utilizados para encontrar el pago o los pagos que se deseen ubicar.</p>
+<blockquote>
+<div><p>Para este caso se desea ubicar los pagos generados desde la opción imprimir/exportar pagos, si al momento de hacer la búsqueda sabe cual es el número de documento asociado a la selección de pago y ese documento es una factura puede utilizar el criterio de búsqueda <strong>“Factura”</strong>.</p>
+<p>Si no puede utilizar cualquiera de los criterios de búsqueda que le ofrece la ventana.</p>
+<p><img alt="Ventana de búsqueda Encontrar Registros" src="../../../_images/search-window-find-records.png" /></p>
+<p>Imagen 26. Ventana de búsqueda Encontrar Registros</p>
+</div></blockquote>
+<p>Dependiendo de los criterios de búsqueda utilizados, podrá observar en la ventana el pago generado.</p>
+<blockquote>
+<div><p><img alt="Ventana Pago Cobro desde el acercar" src="../../../_images/window-payment-collection-from-the-zoom-in.png" /></p>
+<p>Imagen 27. Pago Generado</p>
+</div></blockquote>
+</div></blockquote>
+<p>Otra opción de búsqueda es ubicar los pagos desde la ventana <strong>“Selección de Pagos”</strong>, para ello realice los siguientes pasos:</p>
+<blockquote>
+<div><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la ventana “<strong>Selección de Pagos</strong>” y ubique la selección de pagos con la que trabajo en el proceso de imprimir/exportar pagos.</p>
+<blockquote>
+<div><p><img alt="Ventana Selección de Pago" src="../../../_images/payment-selection-window1.png" /></p>
+<p>Imagen 28. Ventana Selección de Pago</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que toda ventana en ADempiere cuenta en la barra de herramientas la opción de búsqueda “<strong>Encontrar Registros</strong>” la cual puede ser utilizada para ubicar la selección de pagos.</p>
+</div>
+</div></blockquote>
+<p>Una vez ubicada la selección de pago tilde la pestaña <strong>“Pago Generado”</strong>, dentro de esta pestaña podrá observar un resumen de los pagos generados por socios de negocios con los que cuenta la selección de pago.</p>
+<blockquote>
+<div><p><img alt="Pestaña Pago Generado" src="../../../_images/payment-tab-generated.png" /></p>
+<p>Imagen 29. Pestaña Pago Generado</p>
+</div></blockquote>
+<p>Para visualizar mejor el pago generado ubique dentro de la pestaña y dentro del registro del socio del negocio en el que se encuentre posicionado, el campo <strong>“Pago”</strong>, ese campo mostrará el número de documento del pago generado al socio del negocio,</p>
+<blockquote>
+<div><p><img alt="Campo Pago de la Pestaña Pago Generado" src="../../../_images/payment-field-of-the-generated-payment-tab.png" /></p>
+<p>Imagen 30. Campo Pago de la Pestaña Pago Generado</p>
+</div></blockquote>
+<p>Ubíquese dentro del campo <strong>”Pago”</strong>,  de click derecho y seleccione la opción acercar.</p>
+<blockquote>
+<div><p><img alt="Opción acercar del campo Pago" src="../../../_images/option-to-zoom-in-the-payment-field.png" /></p>
+<p>Imagen 31. Opción acercar del campo Pago</p>
+</div></blockquote>
+<p>Al tildar la opción acercar, ADempiere lo llevará a la ventana “<strong>Pago/Cobro</strong>” y podrá ver de manera detallada los datos asociados a ese pago.</p>
+<blockquote>
+<div><p><img alt="Ventana Pago Cobro desde el acercar" src="../../../_images/window-payment-collection-from-the-zoom-in.png" /></p>
+<p>Imagen 32. Ventana Pago/Cobro desde el acercar</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="print-export-payments-payroll.html" class="btn btn-neutral float-right" title="Registro de Imprimir / Exportar Pagos de Nómina" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Imprimir / Exportar Pagos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/docs/master/">latest</a></dd>
+              <dd><a href="/docs/adempiere-3.7/">ADempiere-3.7</a></dd> 
+              <dd><a href="/docs/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/docs/4.0.0/">4.0.0</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
