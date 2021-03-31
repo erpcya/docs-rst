@@ -20,11 +20,6 @@ jobs:
       with:
         pre-build-command: "pip install sphinx_rtd_theme"
         docs-folder: "src/"
-        build-command: "sphinx-build -b html . _build/html/"
-    - uses: actions/upload-artifact@v1
-      with:
-        name: DocumentationHTML
-        path: src/_build/html/
         build-command: "sphinx-build -b html . _build/html"
     - uses: actions/upload-artifact@v1
       with:
