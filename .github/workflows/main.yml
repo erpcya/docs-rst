@@ -6,9 +6,9 @@ name: docs-deploy
 # events but only for the master branch
 on:
   push:
-    branches: [ 4.0.0 ]
+    branches: [ "adempiere-ui/*" ]
   pull_request:
-    branches: [ 4.0.0 ]
+    branches: [ ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -20,7 +20,7 @@ jobs:
       with:
         pre-build-command: "pip install sphinx_rtd_theme"
         docs-folder: "src/"
-        build-command: "sphinx-build -b html . _build/html/4.0.0"
+        build-command: "sphinx-build -b html . _build/html/${GITHUB_REF#refs/heads/}"
     - uses: actions/upload-artifact@v1
       with:
         name: DocumentationHTML
