@@ -1,0 +1,19 @@
+.. _documento/versión-3-9-3-rs-1-2:
+
+**3.9.3-rs-1.2**
+================
+
+**Soporte a versiones:**
+------------------------
+
+- latest
+
+**Novedades:**
+--------------
+
+- Se actualiza la documentación de la :ref:`src/adempiere/pos-management`, para agregar el documento :ref:`documento/anular-facturas-fiscales`.
+
+- Se actualiza la documentación de la :ref:`src/adempiere/open-items`, para agregar el documento :ref:`src/adempiere/open-items/pay-assignment`.
+
+- Se actualiza la documentación :ref:`documento/conversión-monetaria`, explicando la **Tasa de Conversión Diaria** y la **Tasa Recíproca**.
+
