@@ -1,3 +1,4 @@
 {
-    "restructuredtext.confPath": ""
+    "restructuredtext.confPath": "",
+    "python.pythonPath": "/bin/python3"
 }
