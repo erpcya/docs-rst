@@ -1,0 +1,746 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Recálculo de Precios en Ventas &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Documentos de Cuentas por Cobrar de ADempiere" href="../invoice-customer/index.html" />
+    <link rel="prev" title="Lista de Precios de ADempiere" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Gestión de Ventas de ADempiere</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Lista de Precios de ADempiere</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">Recálculo de Precios en Ventas</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#proceso-con-checklist-tildado">Proceso con Checklist Tildado</a></li>
+<li class="toctree-l4"><a class="reference internal" href="#proceso-con-checklist-destildado">Proceso con Checklist Destildado</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../invoice-customer/index.html">Documentos de Cuentas por Cobrar de ADempiere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="../import-order.html">Importar Órdenes de Venta</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html">Gestión de Devoluciones de ADempiere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html">Gestión de Saldos Pendientes de ADempiere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html">Gestión de Materiales de ADempiere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../withholding-management/index.html">Gestión de Retenciones en ADempiere</a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html">Gestión de Ventas de ADempiere</a> &raquo;</li>
+        
+          <li><a href="index.html">Lista de Precios de ADempiere</a> &raquo;</li>
+        
+      <li>Recálculo de Precios en Ventas</li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/quote-to-invoice/price-list/sales-price-recalculation.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="recalculo-de-precios-en-ventas">
+<span id="documento-recalculo-precios-ventas"></span><h1>Recálculo de Precios en Ventas<a class="headerlink" href="#recalculo-de-precios-en-ventas" title="Permalink to this headline">¶</a></h1>
+<p>Atendiendo el requerimiento principal para la validación y recálculo de los precios en el proceso de ventas que involucra los documentos “<strong>Órdenes de Venta</strong>” y “<strong>Facturas de Cuentas por Cobrar</strong>”, ERPyA realizó las configuraciones necesarias en ADempiere para permitirle al usuario la actualización y recálculo de los precios de los productos en el proceso de ventas.</p>
+<p>La actualización realizada consiste en el checklist “<strong>Recalcular Precio en Venta</strong>” que se encuentra dentro de la ventana “<strong>Lista de Precios</strong>”.</p>
+<p>Con el checklist tiltado se indica a ADempiere que si en el transcurso del día son generadas varias versiones de una misma lista de precios y esta es seleccionada en los documentos de venta, al actualizar el estado del documento y la fecha de los mismos coincidan con la fecha de la versión, el monto del producto será actualizado o recálculado automáticamente al precio actual de mismo.</p>
+<p>Es importante resaltar que el checklist no aplica a listas de precios que trabajen con moneda extranjera y listas de precios de compra.</p>
+<p>Con el checklist destildado ADempiere no realiza el proceso de actualizar o recalcular los precios de los productos en los documentos de venta.</p>
+<div class="section" id="proceso-con-checklist-tildado">
+<span id="paso-con-checklist"></span><h2>Proceso con Checklist Tildado<a class="headerlink" href="#proceso-con-checklist-tildado" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="configuracion-de-lista-de-precios">
+<span id="paso-configurar-lista-precios"></span><h3>Configuración de Lista de Precios<a class="headerlink" href="#configuracion-de-lista-de-precios" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione la carpeta “<strong>Reglas de Gestión de Materiales</strong>”, por ultimo seleccione la ventana “<strong>Lista de Precios</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 1" src="../../../_images/menu-listap.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+<ol class="arabic">
+<li><p>Seleccione el icono “<strong>Registro Nuevo</strong>” ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro de lista de precios de ventas.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo 1" src="../../../_images/nueva-lista.png" /></p>
+<p>Imagen 2. Icono Registro Nuevo</p>
+<ol class="arabic">
+<li><p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se esta registrando la lista de precios de ventas.</p>
+<blockquote>
+<div><p><img alt="Campo Organización para la Lista de Precios" src="../../../_images/org-lista.png" /></p>
+<p>Imagen 3. Campo Organización para Lista de Precios</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Nombre</strong>”, el nombre correspondiente a la lista de precios de venta que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre de la Lista de Precios 1" src="../../../_images/nombre-lista.png" /></p>
+<p>Imagen 4. Campo Nombre de la Lista de Precios</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Descripción</strong>”, la descripción correspondiente a la lista de precios de venta que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Lista de Precios 1" src="../../../_images/desc-lista.png" /></p>
+<p>Imagen 5. Campo Descripción de la Lista de Precios</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El checklist no aplica a listas de precio que trabajen con moneda extranjera y listas de precios de compra.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Tilde el checklist “<strong>Lista de Precios de Venta</strong>” para establecer la lista de precios que esta registrando como precios para la venta.</p>
+<blockquote>
+<div><p><img alt="Checklist Lista de Precios de Venta 1" src="../../../_images/checklistprecios.png" /></p>
+<p>Imagen 6. Checklist Lista de Precios de Venta</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar que el checklist “<strong>Recalcular Precio en Venta</strong>”, es tildado automáticamente al crear el registro nuevo.</p>
+<blockquote>
+<div><p><img alt="Checklist Recalcular Precio en Venta 1" src="../../../_images/checklistcalcular.png" /></p>
+<p>Imagen 7. Checklist Recalcular Precio en Venta</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de los campos con ayuda del icono “<strong>Guardar Cambios</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+<div class="section" id="agregar-version-de-lista-de-precios">
+<span id="paso-agregar-version-precios"></span><h4>Agregar Versión de Lista de Precios<a class="headerlink" href="#agregar-version-de-lista-de-precios" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic">
+<li><p>Seleccione la pestaña “<strong>Versión</strong>”, para agregar la versión de precios acorde al precio a lo establecido en la organización para la cual esta realizando la lista de precios.</p>
+<blockquote>
+<div><p><img alt="Pestaña Versión 1" src="../../../_images/pestversion1.png" /></p>
+<p>Imagen 8. Pestaña Versión</p>
+<ol class="arabic">
+<li><p>Introduzca en el campo “<strong>Descripción</strong>”, la descripción correspondiente a la versión de la lista de precios que esta registrando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Versión" src="../../../_images/desc-version1.png" /></p>
+<p>Imagen 9. Campo Descripción de la Versión</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el esquema de lista de precios de ventas, en el campo “<strong>Esq. List Precios/Desc</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Esq. List Precios/Desc" src="../../../_images/esq-precios1.png" /></p>
+<p>Imagen 10. Campo Esq. List Precios/Desc</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de los campos con ayuda del icono “<strong>Guardar Cambios</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+<div class="section" id="agregar-precio-del-producto">
+<span id="paso-agregar-precio-producto"></span><h5>Agregar Precio del Producto<a class="headerlink" href="#agregar-precio-del-producto" title="Permalink to this headline">¶</a></h5>
+<ol class="arabic">
+<li><p>Seleccione la pestaña “<strong>Precio de Producto</strong>”, para agregar los productos que sean requeridos acorde al precio establecido en el momento.</p>
+<blockquote>
+<div><p><img alt="Pestaña Producto" src="../../../_images/pest-precio-prod1.png" /></p>
+<p>Imagen 11. Pestaña Producto</p>
+<ol class="arabic">
+<li><p>Introduzca en el campo “<strong>Producto</strong>”, el producto al cual le será asignado los precios lista, estándar y límite.</p>
+<blockquote>
+<div><p><img alt="Campo Producto 1" src="../../../_images/producto1.png" /></p>
+<p>Imagen 12. Campo Producto</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Precio de Lista</strong>”, el precio sugerido para la venta del producto seleccionado.</p>
+<blockquote>
+<div><p><img alt="Campo Precio Lista" src="../../../_images/precio-lista1.png" /></p>
+<p>Imagen 13. Campo Precio Lista</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Precio Estándar</strong>”, el precio de la compra del producto seleccionado.</p>
+<blockquote>
+<div><p><img alt="Campo Precio Estándar" src="../../../_images/precio-estandar1.png" /></p>
+<p>Imagen 14. Campo Precio Estándar</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Precio Límite</strong>”, el precio usado para revisar sus costos de compra finales después de descuentos, rebajas y otros.</p>
+<blockquote>
+<div><p><img alt="Campo Precio Límite" src="../../../_images/precio-limite1.png" /></p>
+<p>Imagen 15. Campo Precio Límite</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de los campos con ayuda del icono “<strong>Guardar Cambios</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="crear-orden-de-venta">
+<span id="paso-crear-orden-venta"></span><h3>Crear Orden de Venta<a class="headerlink" href="#crear-orden-de-venta" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”, por ultimo seleccione la ventana “<strong>Órdenes de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 2" src="../../../_images/menu-ordenvent.png" /></p>
+<p>Imagen 16. Menú de ADempiere</p>
+<ol class="arabic">
+<li><p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo 2" src="../../../_images/nueva-orden1.png" /></p>
+<p>Imagen 17. Icono Registro Nuevo</p>
+</div></blockquote>
+</li>
+<li><p>Realice el procedimiento regular para generar una orden de venta en ADempiere, considerando que la misma debe tener seleccionada la lista de precios creada anteriormente “<strong>LISTA DE PRECIOS 14-02-2020</strong>”. A continuación se muestra un ejemplo del procedimiento realizado para generar una orden de venta, tomando como ejemplo el producto registrado en la versión de lista de precio anteriormente.</p>
+<blockquote>
+<div><p><img alt="Pestaña Orden de Venta 1" src="../../../_images/pest-orden1.png" /></p>
+<p>Imagen 18. Pestaña Orden con Lista de Precio Creada.</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar que en la pestaña “<strong>Línea de la Orden</strong>”, al seleccionar el producto automáticamente es agregado el precio establecido para el producto en la versión de la lista de precio.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de la Orden" src="../../../_images/pest-linea-orden1.png" /></p>
+<p>Imagen 19. Pestaña Línea de la Orden con Precio del Producto.</p>
+</div></blockquote>
+</li>
+<li><p>Regrese a la pestaña “<strong>Orden</strong>” y seleccione la opción “<strong>Completar</strong>” ubicada en la parte inferior derecha del documento, para generar el documento en estado “<strong>En proceso</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Completar 1" src="../../../_images/op-completar1.png" /></p>
+<p>Imagen 20. Opción Completar de la Orden de Venta.</p>
+<ol class="arabic">
+<li><p>Seleccione la acción “<strong>Preparar</strong>” y la opción “<strong>OK</strong>” para generar el documento en estado “<strong>En Proceso</strong>”.</p>
+<blockquote>
+<div><p><img alt="Acción Completar y Opción OK" src="../../../_images/ac-preparar.png" /></p>
+<p>Imagen 21. Acción Completar y Opción OK.</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para visualizar el procedimiento de actualización o recálculo de precio, debe generar el documento “<strong>Orden de Venta</strong>” en estado “<strong>En Proceso</strong>”. El recálculo no se hace si el documento se encuentra en estado “<strong>Completo</strong>”.</p>
+</div>
+</div>
+<div class="section" id="id1">
+<h3>Agregar Versión de Lista de Precios<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso <a class="reference internal" href="#paso-agregar-version-precios"><span class="std std-ref">Agregar Versión de Lista de Precios</span></a>.</p>
+<blockquote>
+<div><p><img alt="Versión de Lista de Precios 2" src="../../../_images/version-precio2.png" /></p>
+<p>Imagen 22. Segunda Versión de Lista de Precios en el Día</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="section" id="id2">
+<h4>Agregar Precio del Producto<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso <a class="reference internal" href="#paso-agregar-precio-producto"><span class="std std-ref">Agregar Precio del Producto</span></a>.</p>
+<blockquote>
+<div><p><img alt="Precio del Producto 2" src="../../../_images/precio-producto2.png" /></p>
+<p>Imagen 23. Segunda Versión de Precios del Producto en el Día</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="cambiar-estado-de-documento-orden-de-venta">
+<h3>Cambiar Estado de Documento Orden de Venta<a class="headerlink" href="#cambiar-estado-de-documento-orden-de-venta" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Ubique la orden de compra creada anteriormente para actualizar el estado del documento seleccionado la opción “<strong>Preparar</strong>” ubicada en la parte inferior derecha del documento “<strong>OVARA-29102</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Preparar Orden de Venta 2" src="../../../_images/op-preparar1.png" /></p>
+<p>Imagen 24. Opción Preparar Orden de Venta.</p>
+<ol class="arabic">
+<li><p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el documento “<strong>Orden de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Acción Completar y Opción OK 2" src="../../../_images/ac-completar.png" /></p>
+<p>Imagen 25. Acción Completar y Opción OK.</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar que el monto de la orden de venta es actualizado automáticamente según el último registro en la versión de lista de precio.</p>
+<blockquote>
+<div><p><img alt="Monto Actualizado de la Orden de Venta 1" src="../../../_images/precio-act1.png" /></p>
+<p>Imagen 26. Monto Actualizado de la Orden de Venta</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Se actualiza el precio del documento si la fecha del mismo coincide con la fecha de la versión de la lista de precios.</p>
+</div>
+</div>
+<div class="section" id="id3">
+<h3>Agregar Versión de Lista de Precios<a class="headerlink" href="#id3" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso <a class="reference internal" href="#paso-agregar-version-precios"><span class="std std-ref">Agregar Versión de Lista de Precios</span></a>.</p>
+<blockquote>
+<div><p><img alt="Versión de Lista de Precios 3" src="../../../_images/version-precio3.png" /></p>
+<p>Imagen 27. Tercera Versión de Lista de Precios en el Día</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="section" id="id4">
+<h4>Agregar Precio del Producto<a class="headerlink" href="#id4" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso <a class="reference internal" href="#paso-agregar-precio-producto"><span class="std std-ref">Agregar Precio del Producto</span></a>.</p>
+<blockquote>
+<div><p><img alt="Precio del Producto 3" src="../../../_images/precio-producto3.png" /></p>
+<p>Imagen 28. Tercera Versión de Precios del Producto en el Día</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="generar-facturas-manual">
+<span id="paso-generar-factura-manual"></span><h3>Generar Facturas (Manual)<a class="headerlink" href="#generar-facturas-manual" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Facturas de Ventas</strong>”, por ultimo seleccione la ventana “<strong>Generar Facturas (Manual)</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere 3" src="../../../_images/menu-factura-manual.png" /></p>
+<p>Imagen 29. Menú de ADempiere</p>
+<ol class="arabic">
+<li><p>Realice el procedimiento regular para generar una factura manual en ADempiere, considerando que en el mismo se debe seleccionar la orden de venta creada anteriormente “<strong>OVARA-29102</strong>” y el estado del documento debe ser “<strong>Preparar</strong>”. A continuación se muestra un ejemplo del procedimiento realizado para generar una factura manual.</p>
+<blockquote>
+<div><p><img alt="Generar Factura Manual 1" src="../../../_images/generar-factura1.png" /></p>
+<p>Imagen 30. Generar Factura Manual con Acción del Documento “<strong>Preparar</strong>”</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar que el monto de la factura es actualizado automáticamente al generar la misma.</p>
+<blockquote>
+<div><p><img alt="Factura Generada en Preparar 2" src="../../../_images/factura-generada1.png" /></p>
+<p>Imagen 31. Factura Generada en Preparar</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El recálculo no se hace si el documento se encuentra en estado “<strong>Completo</strong>”.</p>
+</div>
+</div>
+<div class="section" id="id5">
+<h3>Agregar Versión de Lista de Precios<a class="headerlink" href="#id5" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso <a class="reference internal" href="#paso-agregar-version-precios"><span class="std std-ref">Agregar Versión de Lista de Precios</span></a>.</p>
+<blockquote>
+<div><p><img alt="Versión de Lista de Precios 4" src="../../../_images/version-precio4.png" /></p>
+<p>Imagen 32. Cuarta Versión de Lista de Precios en el Día</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="section" id="id6">
+<h4>Agregar Precio del Producto<a class="headerlink" href="#id6" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso <a class="reference internal" href="#paso-agregar-precio-producto"><span class="std std-ref">Agregar Precio del Producto</span></a>.</p>
+<blockquote>
+<div><p><img alt="Precio del Producto 4" src="../../../_images/precio-producto4.png" /></p>
+<p>Imagen 33. Cuarta Versión de Precios del Producto en el Día</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+<div class="section" id="cambiar-estado-de-documento-por-cobrar-generado">
+<h3>Cambiar Estado de Documento por Cobrar Generado<a class="headerlink" href="#cambiar-estado-de-documento-por-cobrar-generado" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Actualice el estado del documento seleccionado la opción “<strong>Completar</strong>” ubicada en la parte inferior derecha del documento “<strong>TMP-224851</strong>”.</p>
+<blockquote>
+<div><p><img alt="Completar Factura 1" src="../../../_images/completar-factura1.png" /></p>
+<p>Imagen 34. Completar Documento por Cobrar</p>
+<ol class="arabic">
+<li><p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el “<strong>Documento por Cobrar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Acción Completar y Opción OK 2" src="../../../_images/ac-completar.png" /></p>
+<p>Imagen 35. Acción Completar y Opción OK</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar que el monto de la factura es actualizado automáticamente según el último registro en la versión de lista de precio.</p>
+<blockquote>
+<div><p><img alt="Monto de la Factura Actualizado 1" src="../../../_images/monto-factura1.png" /></p>
+<p>Imagen 36. Monto de la Factura Actualizado</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Se actualiza el precio del documento si la fecha del mismo coincide con la fecha de la versión de la lista de precios.</p>
+</div>
+</div>
+</div>
+<div class="section" id="proceso-con-checklist-destildado">
+<span id="paso-sin-checklist"></span><h2>Proceso con Checklist Destildado<a class="headerlink" href="#proceso-con-checklist-destildado" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="id7">
+<h3>Configuración de Lista de Precios<a class="headerlink" href="#id7" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro de lista de precios sin tildar el checklist “<strong>Recalcular Precio en Ventas</strong>”, explicado en el proceso <a class="reference internal" href="#paso-configurar-lista-precios"><span class="std std-ref">Configuración de Lista de Precios</span></a>.</p></li>
+</ol>
+<p><img alt="Lista de Precio con Recalcular Destildado 1" src="../../../_images/list-destild.png" /></p>
+<p>Imagen 37. Lista de Precio con “<strong>Checklist Recalcular Precio en Venta</strong>” Destildado</p>
+<div class="section" id="id8">
+<h4>Agregar Versión de Lista de Precios<a class="headerlink" href="#id8" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso <a class="reference internal" href="#paso-agregar-version-precios"><span class="std std-ref">Agregar Versión de Lista de Precios</span></a>.</p></li>
+</ol>
+<p><img alt="Versión de Lista de Precio con Recalcular Destildado 1" src="../../../_images/vers-destild1.png" /></p>
+<p>Imagen 38. Versión de Lista de Precio con “<strong>Checklist Recalcular Precio en Venta</strong>” Destildado</p>
+</div>
+<div class="section" id="id9">
+<h4>Agregar Precio del Producto<a class="headerlink" href="#id9" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso <a class="reference internal" href="#paso-agregar-precio-producto"><span class="std std-ref">Agregar Precio del Producto</span></a>.</p></li>
+</ol>
+<p><img alt="Precio del Producto con Recalcular Destildado 1" src="../../../_images/precio-prod-destild1.png" /></p>
+<p>Imagen 39. Precio del Producto de la Versión de Lista de Precio con “<strong>Checklist Recalcular Precio en Venta</strong>” Destildado</p>
+</div>
+</div>
+<div class="section" id="id10">
+<h3>Crear Orden de Venta<a class="headerlink" href="#id10" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Realice el procedimiento regular para generar una orden de venta en estado “<strong>En Proceso</strong>”, explicado en el proceso <a class="reference internal" href="#paso-crear-orden-venta"><span class="std std-ref">Crear Orden de Venta</span></a>.</p></li>
+</ol>
+<p><img alt="Orden de Venta 2" src="../../../_images/orden-en-preparar1.png" /></p>
+<p>Imagen 40. Orden de Venta con estado del documento “<strong>En Proceso</strong>”</p>
+</div>
+<div class="section" id="id11">
+<h3>Agregar Versión de Lista de Precios<a class="headerlink" href="#id11" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso <a class="reference internal" href="#paso-agregar-version-precios"><span class="std std-ref">Agregar Versión de Lista de Precios</span></a>.</p></li>
+</ol>
+<p><img alt="Versión de Lista de Precio con Recalcular Destildado 2" src="../../../_images/vers-destild2.png" /></p>
+<p>Imagen 41. Versión de Lista de Precio con “<strong>Checklist Recalcular Precio en Venta</strong>” Destildado</p>
+<div class="section" id="id12">
+<h4>Agregar Precio del Producto<a class="headerlink" href="#id12" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso <a class="reference internal" href="#paso-agregar-precio-producto"><span class="std std-ref">Agregar Precio del Producto</span></a>.</p></li>
+</ol>
+<p><img alt="Precio del Producto con Recalcular Destildado 2" src="../../../_images/precio-prod-destild2.png" /></p>
+<p>Imagen 42. Precio del Producto de la Versión de Lista de Precio con “<strong>Checklist Recalcular Precio en Venta</strong>” Destildado</p>
+</div>
+</div>
+<div class="section" id="id13">
+<h3>Cambiar Estado de Documento Orden de Venta<a class="headerlink" href="#id13" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Ubique la orden de compra creada anteriormente para actualizar el estado del documento seleccionado la opción “<strong>Preparar</strong>” ubicada en la parte inferior derecha del documento “<strong>OVARA-29104</strong>”.</p>
+<blockquote>
+<div><p><img alt="Opción Preparar Orden de Venta con Recalcular Destildado" src="../../../_images/completar-orden1.png" /></p>
+<p>Imagen 43. Opción Preparar Orden de Venta.</p>
+<ol class="arabic">
+<li><p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el documento “<strong>Orden de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Acción Completar y Opción OK 2" src="../../../_images/ac-completar.png" /></p>
+<p>Imagen 44. Acción Completar y Opción OK.</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar que el monto de la orden de venta no es actualizado automáticamente ya que el checklist “<strong>Recalcular Precio en Ventas</strong>” de la lista de precios seleccionada no se encuentra tildado.</p>
+<blockquote>
+<div><p><img alt="Monto No Actualizado de la Orden de Venta 1" src="../../../_images/monto-no-act1.png" /></p>
+<p>Imagen 45. Monto Actualizado de la Orden de Venta</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="id14">
+<h3>Generar Facturas (Manual)<a class="headerlink" href="#id14" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Realice el procedimiento regular para generar una factura manual, explicado en el proceso <a class="reference internal" href="#paso-generar-factura-manual"><span class="std std-ref">Generar Facturas (Manual)</span></a>.</p></li>
+</ol>
+<p><img alt="Generar Factura Manual 2" src="../../../_images/generar-factura2.png" /></p>
+<p>Imagen 46. Factura Generada en estado “<strong>Preparar</strong>”, desde la ventana “<strong>Generar Factura (Manual)</strong>”</p>
+</div>
+<div class="section" id="id15">
+<h3>Agregar Versión de Lista de Precios<a class="headerlink" href="#id15" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic simple">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso <a class="reference internal" href="#paso-agregar-version-precios"><span class="std std-ref">Agregar Versión de Lista de Precios</span></a>.</p></li>
+</ol>
+<p><img alt="Versión de Lista de Precio con Recalcular Destildado 3" src="../../../_images/vers-destild3.png" /></p>
+<p>Imagen 47. Versión de Lista de Precio con “<strong>Checklist Recalcular Precio en Venta</strong>” Destildado</p>
+<div class="section" id="id16">
+<h4>Agregar Precio del Producto<a class="headerlink" href="#id16" title="Permalink to this headline">¶</a></h4>
+<ol class="arabic simple">
+<li><p>Realice el procedimiento regular para agregar un nuevo registro en la versión de lista de precios explicado en el proceso <a class="reference internal" href="#paso-agregar-precio-producto"><span class="std std-ref">Agregar Precio del Producto</span></a>.</p></li>
+</ol>
+<p><img alt="Precio del Producto con Recalcular Destildado 3" src="../../../_images/precio-prod-destild3.png" /></p>
+<p>Imagen 48. Precio del Producto de la Versión de Lista de Precio con “<strong>Checklist Recalcular Precio en Venta</strong>” Destildado</p>
+</div>
+</div>
+<div class="section" id="id17">
+<h3>Cambiar Estado de Documento por Cobrar Generado<a class="headerlink" href="#id17" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Actualice el estado del documento seleccionado la opción “<strong>Completar</strong>” ubicada en la parte inferior derecha del documento “<strong>TMP-224852</strong>”.</p>
+<blockquote>
+<div><p><img alt="Completar Factura 2" src="../../../_images/completar-factura2.png" /></p>
+<p>Imagen 49. Opción Completar Factura</p>
+<ol class="arabic">
+<li><p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el “<strong>Documento por Cobrar</strong>”.</p>
+<blockquote>
+<div><p><img alt="Acción Completar y Opción OK 2" src="../../../_images/ac-completar.png" /></p>
+<p>Imagen 50. Acción Completar y Opción OK</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar que el monto de la factura no es actualizado automáticamente ya que el checklist “<strong>Recalcular Precio en Ventas</strong>” de la lista de precios seleccionada no se encuentra tildado.</p>
+<blockquote>
+<div><p><img alt="Monto del Documento por Cobrar" src="../../../_images/monto-factura2.png" /></p>
+<p>Imagen 51. Monto del Documento por Cobrar no Actualizado</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../invoice-customer/index.html" class="btn btn-neutral float-right" title="Documentos de Cuentas por Cobrar de ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Lista de Precios de ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

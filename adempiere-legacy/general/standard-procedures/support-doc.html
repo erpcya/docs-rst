@@ -1,0 +1,420 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Documentar una Tarea / Error &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Generar Videos Comprimidos como GIF" href="compress-mp4.html" />
+    <link rel="prev" title="Acordar una Reunión" href="schedule-a-meeting.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Procedimientos Estándares</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="customer-review.html"><strong>Revisión de Cambios con cliente</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="schedule-a-meeting.html"><strong>Acordar una Reunión</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Documentar una Tarea / Error</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#justificacion"><strong>Justificación</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#pasos-a-seguir-para-un-reporte-correcto"><strong>Pasos a Seguir para un reporte correcto</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#recomendaciones-rapidas"><strong>Recomendaciones Rapidas</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#antes-de-hacer-el-issue"><strong>Antes de hacer el issue…</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#reportando-un-nuevo-error-o-solicitud-de-mejora"><strong>Reportando un nuevo error o solicitud de mejora</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#cargando-informacion-del-error"><strong>Cargando información del error</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#campos-obligatorios"><strong>Campos Obligatorios</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#resumen"><strong>Resumen</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="compress-mp4.html"><strong>Generar Videos Comprimidos como GIF</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html">Gestión de Ventas de ADempiere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/returns/index.html">Gestión de Devoluciones de ADempiere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">Gestión de Saldos Pendientes de ADempiere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">Gestión de Materiales de ADempiere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/withholding-management/index.html">Gestión de Retenciones en ADempiere</a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Procedimientos Estándares</strong></a> &raquo;</li>
+        
+      <li><strong>Documentar una Tarea / Error</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/general/standard-procedures/support-doc.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="documentar-una-tarea-error">
+<span id="documento-documentar-tarea"></span><h1><strong>Documentar una Tarea / Error</strong><a class="headerlink" href="#documentar-una-tarea-error" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="justificacion">
+<h2><strong>Justificación</strong><a class="headerlink" href="#justificacion" title="Permalink to this headline">¶</a></h2>
+<p>Actualmente no existe un patrón o estándar para reportar un tipo de issue en Open Project provocando un problema al momento de identificar problemas, recuperar información acerca del seguimiento, trasladar responsabilidades a personas del equipo que no se encuentran familiarizadas con el caso o issue en cuestión y falta de información en algunos casos. En tal sentido el presente documento pretende establecer un estándar para la elaboración o reporte de issue en Open Project u otra aplicación de control y seguimiento de un proyecto o tarea.</p>
+</div>
+<div class="section" id="pasos-a-seguir-para-un-reporte-correcto">
+<h2><strong>Pasos a Seguir para un reporte correcto</strong><a class="headerlink" href="#pasos-a-seguir-para-un-reporte-correcto" title="Permalink to this headline">¶</a></h2>
+<p>Para reportar un error es muy importante tener a la mano información acerca del comportamiento.</p>
+<p>En la página: <a class="reference external" href="https://www.mediawiki.org/wiki/How_to_report_a_bug">https://www.mediawiki.org/wiki/How_to_report_a_bug</a> se encuentra información de ejemplo para reportar un bug. Para resumir es recomendable tomar en cuenta lo siguiente:</p>
+<div class="section" id="recomendaciones-rapidas">
+<h3><strong>Recomendaciones Rapidas</strong><a class="headerlink" href="#recomendaciones-rapidas" title="Permalink to this headline">¶</a></h3>
+<ul class="simple">
+<li><p>Sea preciso.</p></li>
+<li><p>Sea claro: explique cómo reproducir el problema, paso a paso para que otros usuarios puedan reproducir el error o entender la solicitud.</p></li>
+<li><p>Incluya solo un problema por tarea.</p></li>
+<li><p>Incluya cualquier enlace y ejemplo relevante.</p></li>
+</ul>
+</div>
+<div class="section" id="antes-de-hacer-el-issue">
+<h3><strong>Antes de hacer el issue…</strong><a class="headerlink" href="#antes-de-hacer-el-issue" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="puedes-reproducir-el-error">
+<h4><strong>¿Puedes reproducir el error?</strong><a class="headerlink" href="#puedes-reproducir-el-error" title="Permalink to this headline">¶</a></h4>
+<p>Intenta reproducir tu problema usando una versión reciente del software, para ver si lo que está sucediendo ya fue solventado. Si el error es en producción, intente reproducir el mismo en un ambiente de pruebas.</p>
+</div>
+<div class="section" id="alguien-reporto-anteriormente-el-error">
+<h4><strong>¿Alguien reportó anteriormente el error?</strong><a class="headerlink" href="#alguien-reporto-anteriormente-el-error" title="Permalink to this headline">¶</a></h4>
+<p>Use el buscador del <a class="reference external" href="http://helpdesk.erpya.com/">OSTicket</a> / <a class="reference external" href="http://project.erpya.com/">Open Project</a> para ver si el error ya fue reportado por alguien más o la nueva funcionalidad ya fue solicitada.</p>
+<p>Si no está seguro de que exista el reporte de error entonces igual puede reportarlo, es mejor tener un ticket duplicado que un error sin reportar.</p>
+</div>
+<div class="section" id="ya-intento-resolver-el-error">
+<h4><strong>¿Ya intentó resolver el error?</strong><a class="headerlink" href="#ya-intento-resolver-el-error" title="Permalink to this headline">¶</a></h4>
+<p>Algunos problemas son consecuencias de intentar resolver el error sin tener conocimiento del procedimiento correcto.</p>
+</div>
+</div>
+</div>
+<div class="section" id="reportando-un-nuevo-error-o-solicitud-de-mejora">
+<h2><strong>Reportando un nuevo error o solicitud de mejora</strong><a class="headerlink" href="#reportando-un-nuevo-error-o-solicitud-de-mejora" title="Permalink to this headline">¶</a></h2>
+<p>Si tiene un error para reportar y no lo ha hecho préviamente, puede hacerlo en los siguientes links:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://helpdesk.erpya.com/">OSTicket</a></p></li>
+<li><p><a class="reference external" href="http://project.erpya.com">Open Project</a></p></li>
+</ul>
+<div class="section" id="cargando-informacion-del-error">
+<h3><strong>Cargando información del error</strong><a class="headerlink" href="#cargando-informacion-del-error" title="Permalink to this headline">¶</a></h3>
+<div class="section" id="titulo">
+<h4><strong>Título</strong><a class="headerlink" href="#titulo" title="Permalink to this headline">¶</a></h4>
+<p>Corresponde al resumen del problema (No es una sugerencia de solución).</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Ejemplo de un buen título: “Al seleccionar un género no funciona”.</p></li>
+<li><p>Ejemplo de un mal título: “El programa no funciona”.</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="asignado-a">
+<h4><strong>Asignado a</strong><a class="headerlink" href="#asignado-a" title="Permalink to this headline">¶</a></h4>
+<p>Ignore este campo: la asignación del mismo lo debe realizar un administrador de proyecto o encargado con experiencia.</p>
+</div>
+<div class="section" id="description">
+<h4><strong>Description</strong><a class="headerlink" href="#description" title="Permalink to this headline">¶</a></h4>
+<p>Detalle completo del error, debe tener el mayor detalle posible. La descripción puede contener lo siguiente:</p>
+<div class="section" id="para-errores">
+<h5><strong>Para errores</strong><a class="headerlink" href="#para-errores" title="Permalink to this headline">¶</a></h5>
+<ul>
+<li><p>Pasos para reproducir: Mínimo, pasos faciles de seguir que pudieran describir como replicar el problema. Incluya cualquier configuración necesaria.</p>
+<blockquote>
+<div><ul>
+<li><p>Ejemplo:</p>
+<blockquote>
+<div><p>Vaya a <a class="reference external" href="http://demo.erpya.com:8888">http://demo.erpya.com:8888</a> con Google Chrome como navegador en su versión <strong>71.0.3578.98 (Official Build) (64-bit)</strong></p>
+<p>Asegúrese de haber ingresado.</p>
+<p>Seleccione el menú: “Mis preferencias”;</p>
+<p>Vaya a: “<strong>Género</strong>” y seleccione “<strong>Masculino</strong>” desde la lista desplegable; Haga click en el botón “<strong>Guardar</strong>”.</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Resultado Actual: Resultado de la aplicación al momento de seguir los pasos prévios.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Ejemplo: “El género Masculino no se muestra en mi perfil”</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Resultado Esperado: “Mi género es mostrado en mi perfil”</p></li>
+</ul>
+</div>
+<div class="section" id="para-una-propuesta-de-mejora">
+<h5><strong>Para una propuesta de mejora</strong><a class="headerlink" href="#para-una-propuesta-de-mejora" title="Permalink to this headline">¶</a></h5>
+<p>Una descripción de qué es lo que desea lograr y por qué. Una historia de usuario es una buena vía para realizar esto. Para consultar mas documentación puede ir a <a class="reference external" href="http://interactions.acm.org/archive/view/november-december-2013/user-stories-dont-help-users-Introducing-persona-stories">http://interactions.acm.org/archive/view/november-december-2013/user-stories-dont-help-users-Introducing-persona-stories</a>.</p>
+<ul>
+<li><p>Ejemplo: “Como nuevo editor, me gustaría ser reconocido por mi contribución al proyecto, por lo que me siento bienvenido y valorado”</p></li>
+<li><p>Por favor provea cualquier otra información que pueda ser útil, como:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Navegadores, temas o sistemas donde haya visto el bug;</p></li>
+<li><p>Vincular a una o más páginas donde se hable acerca del error;</p></li>
+<li><p>Si el problema aparece cada vez, solo ocasionalmente, solo en ciertas páginas, o solo en circunstancias específicas.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Adjunte un archivo tipo log o una captura de pantalla (pero asegúrese de no mostrar información confidencial).</p></li>
+<li><p>Seleccione uno o varios tags para ubicar o relacionar de manera sencilla el error:</p></li>
+</ul>
+<p>Verifique si su reporte está completo y presione el botón “Crear Tarea”. A continuación su reporte de error se publicará y alguien podrá atenderlo.</p>
+<p>La prioridad de atención de las tareas o errores reportados pudiera ser determinada por el plan de trabajo de los desarrolladores o funcionales.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="section" id="campos-obligatorios">
+<h2><strong>Campos Obligatorios</strong><a class="headerlink" href="#campos-obligatorios" title="Permalink to this headline">¶</a></h2>
+<p>Al momento de crear una tarea o error se debe tomar en cuenta que es obligatorio llenar los siguientes campos:</p>
+<ul class="simple">
+<li><p><strong>Asunto:</strong> Marcado en color rojo como lo muestra la siguiente imagen debe tener un texto que indique el problema o el cambio a desarrollar de manera resumida. <img alt="Asunto de Solicitud" src="../../_images/subject-task.png" /></p></li>
+<li><p><strong>Descripción:</strong> Marcado en color azul como lo muestra la siguiente imagen debe tener una descripción detallada de la funcionalidad o los pasos para emular el error, <strong>¡Está prohibído dejar este campo vacío o con un comentario poco detallado!</strong> Tome en cuenta la imagen como punto de partida. <img alt="Descripción de Solicitud" src="../../_images/description-task.png" /></p></li>
+<li><p><strong>Asignado:</strong> Marcado con color azul en la siguiente imagen debe contener la persona a quien se le asignará la tarea o error. De igual manera se debe llenar el responsable si existe. <img alt="Responsable y Asignado de Solicitud" src="../../_images/assigned-task.png" /></p></li>
+<li><p><strong>Fecha de Vencimiento:</strong> Marcado con color rojo indica la fecha de entrega de la actividad, tome en cuenta que si no conoce la prioridad del requerimiento deberá consultarlo con su supervisor. <img alt="Fecha de Vencimiento de Solicitud" src="../../_images/due-date-task.png" /></p></li>
+<li><p><strong>Prioridad:</strong> Marcado con color azul indica la prioridad del caso, recuerde no exagerar con esto, no todos los casos son urgentes. <img alt="Prioridad de Solicitud" src="../../_images/priority-task.png" /></p></li>
+</ul>
+<p><strong>Recuerde que su trabajo comienza por documentar cualquier problema o mejora, no debe esperar a que se lo digan. Es su obligación documentar cada una de las tareas.</strong></p>
+</div>
+<div class="section" id="resumen">
+<h2><strong>Resumen</strong><a class="headerlink" href="#resumen" title="Permalink to this headline">¶</a></h2>
+<p><strong>Tome en cuenta que como mínimo debe existir un video en formato gif explicando o mostrado como reproducir el error, mientras mas información coloque será mas sencillo reproducir y solucionar el comportamiento.</strong></p>
+<p>Si desea ver cómo generar un archivo gif vaya a <a class="reference internal" href="compress-mp4.html#documento-generar-videos-comprimidos-como-gif"><span class="std std-ref">Generar Videos Comprimidos como GIF</span></a>.</p>
+<p>A continuación se encuentra un ejemplo proveniente de <a class="reference external" href="http://project.erpya.com/projects/soporte-sos/work_packages/2905/activity">Open Project</a></p>
+<blockquote>
+<div><p>Open Project</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="compress-mp4.html" class="btn btn-neutral float-right" title="Generar Videos Comprimidos como GIF" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="schedule-a-meeting.html" class="btn btn-neutral float-left" title="Acordar una Reunión" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

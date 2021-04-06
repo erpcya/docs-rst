@@ -1,0 +1,374 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Procedimiento para Anticipos en Multimonedas con Distribución Contable &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Ajuste Automático Orden de Pago" href="../automatic-payment-order-adjustment/automatic-payment-order-adjustment.html" />
+    <link rel="prev" title="Diario de Caja Chica" href="../cash-journal/cash-journal-multi-currency.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html">Gestión de Ventas de ADempiere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html">Gestión de Devoluciones de ADempiere</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Gestión de Saldos Pendientes de ADempiere</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../cash-journal/index.html">Cobranza en Multimoneda</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Procedimiento para Anticipos en Multimonedas con Distribución Contable</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#configuracion-de-la-distribucion-contable"><strong>Configuración de la Distribución Contable</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#procedimiento"><strong>Procedimiento</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#orden-de-compra"><strong>Orden de Compra</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#orden-de-pago"><strong>Orden de Pago</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#seleccion-de-pago"><strong>Selección de Pago</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#consultar-pago-generado-con-resultado-contable"><strong>Consultar Pago Generado con Resultado Contable</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../automatic-payment-order-adjustment/automatic-payment-order-adjustment.html"><strong>Ajuste Automático Orden de Pago</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html">Gestión de Materiales de ADempiere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../withholding-management/index.html">Gestión de Retenciones en ADempiere</a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html">Gestión de Saldos Pendientes de ADempiere</a> &raquo;</li>
+        
+      <li><strong>Procedimiento para Anticipos en Multimonedas con Distribución Contable</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/open-items/procedure-for-account-distribution/procedure-for-distribution-of-national-suppliers-account-to-international-suppliers.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="procedimiento-para-anticipos-en-multimonedas-con-distribucion-contable">
+<span id="documento-procedimiento-para-anticipos-en-multimonedas-con-distribucion-contable"></span><h1><strong>Procedimiento para Anticipos en Multimonedas con Distribución Contable</strong><a class="headerlink" href="#procedimiento-para-anticipos-en-multimonedas-con-distribucion-contable" title="Permalink to this headline">¶</a></h1>
+<p>El presente material elaborado por ERPyA pretende ofrecerle una explicación eficiente a nuestros clientes para realizar el “<strong>Procedimiento para Anticipos en Multimoneda con Distribución Contable</strong>”, considerando la distribución entre cuentas nacionales e internacionales en la versión 3.7.0 de ADempiere. El cambio fue realizado en el mismo con la finalidad de reflejar los diferentes anticipos realizados en multimoneda en la cuenta contable correspondiente.</p>
+<div class="section" id="configuracion-de-la-distribucion-contable">
+<h2><strong>Configuración de la Distribución Contable</strong><a class="headerlink" href="#configuracion-de-la-distribucion-contable" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>ERPyA realizó la configuración de la distribución contable de la seguiente manera.</p>
+<blockquote>
+<div><p><img alt="Configucación Contable" src="../../../_images/distribucion1.png" /></p>
+<p>Imagen 1. Configucación Contable</p>
+<ol class="arabic">
+<li><p>Podrá visualizar en la pestaña “<strong>Línea</strong>”, los detalles de la línea de la distribución.</p>
+<blockquote>
+<div><p><img alt="Pestaña Línea de la Distribución" src="../../../_images/distribucion2.png" /></p>
+<p>Imagen 2. Pestaña Línea</p>
+</div></blockquote>
+</li>
+</ol>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="procedimiento">
+<h2><strong>Procedimiento</strong><a class="headerlink" href="#procedimiento" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="orden-de-compra">
+<h3><strong>Orden de Compra</strong><a class="headerlink" href="#orden-de-compra" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Para ejemplificar el cambio realizado es generada una “<strong>Orden de compra</strong>”, con el socio del negocio “<strong>SOCIO ESTÁNDAR</strong>”, en moneda “<strong>VES</strong>” y monto total “<strong>290.000,00</strong>”, quedando el documento de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Orden de Compra" src="../../../_images/orden-compra.png" /></p>
+<p>Imagen 3. Orden de Compra</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="orden-de-pago">
+<h3><strong>Orden de Pago</strong><a class="headerlink" href="#orden-de-pago" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Al realizar el procedimiento regular para generar una “<strong>Orden de Pago</strong>”, utilizando el tipo de documento “<strong>Orden de Pago (Ant mult)</strong>” y la moneda del anticipo “<strong>USD</strong>”, el documento quedaría de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Orden de Pago" src="../../../_images/orden-pago.png" /></p>
+<p>Imagen 4. Orden de Pago</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que la moneda seleccionada debe ser la moneda del anticipo y que la tasa de conversión debe estar actualizada.</p>
+</div>
+</div>
+<div class="section" id="seleccion-de-pago">
+<h3><strong>Selección de Pago</strong><a class="headerlink" href="#seleccion-de-pago" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Luego se procede a realizar el procedimiento regular de “<strong>Imprimir/Exportar</strong>”, obteniendo como resultado el siguiente documento.</p>
+<blockquote>
+<div><p><img alt="Selección de Pago" src="../../../_images/seleccion-pago.png" /></p>
+<p>Imagen 5. Selección de Pago</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar en la pestaña “<strong>Línea de Selección de Pago</strong>”, la orden de pago creada anteriormente con su respectivo monto.</p>
+<blockquote>
+<div><p><img alt="Línea de Selección de Pago" src="../../../_images/pest-linea.png" /></p>
+<p>Imagen 6. Pestaña Línea de Selección de Pago</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="consultar-pago-generado-con-resultado-contable">
+<h3><strong>Consultar Pago Generado con Resultado Contable</strong><a class="headerlink" href="#consultar-pago-generado-con-resultado-contable" title="Permalink to this headline">¶</a></h3>
+<ol class="arabic">
+<li><p>Al consultar el pago generado en la ventana “<strong>Pago/Cobro</strong>”, podrá visualizar el pago generado por el monto del anticipo.</p>
+<blockquote>
+<div><p><img alt="Pago Generado" src="../../../_images/pago.png" /></p>
+<p>Imagen 7. Pago Generado</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El pago es generado con la moneda “<strong>USD</strong>” del anticipo, aun cuando la orden de compra se encuentra con moneda “<strong>VES</strong>”.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>El resultado generado de la transacción contable quedaría de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="Resultado Contable" src="../../../_images/resultado-contable.png" /></p>
+<p>Imagen 8. Resultado Contable del Pago</p>
+</div></blockquote>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>En caso de registrar el pago desde la ventana “<strong>Pago/Cobro</strong>”, seleccionar el tipo de documento “<strong>Egreso Multimoneda</strong>”.</p>
+</div>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../automatic-payment-order-adjustment/automatic-payment-order-adjustment.html" class="btn btn-neutral float-right" title="Ajuste Automático Orden de Pago" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../cash-journal/cash-journal-multi-currency.html" class="btn btn-neutral float-left" title="Diario de Caja Chica" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

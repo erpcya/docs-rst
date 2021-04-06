@@ -1,0 +1,19 @@
+.. _documento/versión-3-9-3-rs-1-2:
+
+**3.9.3-rs-1.2**
+================
+
+**Soporte a versiones:**
+------------------------
+
+- latest
+
+**Novedades:**
+--------------
+
+- Se actualiza la documentación de la "**Gestión PDV**", para agregar el documento "**Anular Factura Fiscal**".
+
+- Se actualiza la documentación de la "**Gestión de Saldos Pendientes**", para agregar el documento "**Asignación de Pagos**".
+
+- Se actualiza la documentación "**Conversión Manual**", explicando la "**Tasa de Conversión Diaria** y la **Tasa Recíproca**.
+

@@ -1,0 +1,29 @@
+.. _documento/versión-3-9-3-rs-1-5:
+
+**3.9.3-rs-1.5**
+================
+
+**Soporte a versiones:**
+------------------------
+
+- mini-erp
+- latest
+
+**Novedades:**
+--------------
+
+- Se actualiza la documentación de "**Datos Maestros**", en la versión del branch "**Mini-ERP**" de la documentación, con la finalidad de agregar los documentos "**Viajero**", "**Motivo de Viaje**", "**Transportista**", "**Terminal**", "**Impuesto de Viaje**" y "**Tipo de Boleto**", en los cuales se explican las configuraciones, procesos o registros que se deben tener de manera obligatoria para realizar correctamente el procedimiento de "**Boletería**" en ADempiere.
+
+- Se actualiza la documentación "**Lista de Precios**", en la versión del branch "**latest**" de la documentación, con la finalidad de redefinir los procesos de listas de precios de ADempiere, donde se establecen los documentos "**Configuración del Esquema de Lista de Precios**", "**Configuración de Lista de Precios Base**", "**Crear Lista de Precios desde otra Lista de Precios**", "**Crear Lista de Precios desde Última OC Procesada**" y "**Crear Entradas de Productos en Lista de Precios**".
+
+- Se actualiza la documentación "**Reportes de ADempiere**", en la versión del branch "**latest**" de la documentación, para agregar los documentos "**Detalle de la Orden**" y "**Detalle de Caja**".
+
+- Se actualiza la documentación "**Gestión de Ventas**", en la versión del branch "**Mini-ERP**" de la documentación, con la finalidad de agregar los diferentes documentos referentes a "**Lista de Precios**", donde se establecen los documentos "**Configuración de Lista de Precios Base**", "**Crear Lista de Precios desde otra Lista de Precios**", "**Crear Lista de Precios desde Última OC Procesada**" y "**Crear Entradas de Productos en Lista de Precios**".
+
+- Se actualiza la documentación "**Gestión de Ventas**", en la versión del branch "**latest**" de la documentación, para agregar el documento "**Propuesta**".
+
+- e modifica la documentación "**Gestión de Calidad**", en la versión del branch "**latest**" de la documentación, para ser ingresada dentro de la documentación "**Gestión de Producción**", con el nombre de "**Control de Calidad**".
+
+- Se modifica la documentación "**Gestión Agrícola**", en la versión del branch "**latest**" de la documentación, para ser ingresada a "**ADEMPIERE ERP/CRM**", con el nombre de "**Gestión de Asistencia al Agricultor**".
+
+- Se actualiza la documentación "**Gestión de Asistencia al Agricultor**", en la versión del branch "**latest**" de la documentación, con la finalidad de agregar el documento "**Tipo de Observación**".

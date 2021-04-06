@@ -1,0 +1,389 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>1. Configurar Retenciones &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="prev" title="Retención de Cuentas por Pagar Multimoneda" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html">Gestión de Ventas de ADempiere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html">Gestión de Devoluciones de ADempiere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html">Gestión de Saldos Pendientes de ADempiere</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html">Gestión de Materiales de ADempiere</a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">Gestión de Retenciones en ADempiere</a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">Retención de Cuentas por Pagar Multimoneda</a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">1. <strong>Configurar Retenciones</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#retenciones">2. <strong>Retenciones</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#declaraciones">3. <strong>Declaraciones</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html">Gestión de Retenciones en ADempiere</a> &raquo;</li>
+        
+          <li><a href="index.html">Retención de Cuentas por Pagar Multimoneda</a> &raquo;</li>
+        
+      <li><span class="section-number">1. </span><strong>Configurar Retenciones</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/withholding-management/withholding-currency/withholding-multi-currency.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configurar-retenciones">
+<span id="documento-retencion-multimoneda"></span><h1><span class="section-number">1. </span><strong>Configurar Retenciones</strong><a class="headerlink" href="#configurar-retenciones" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic">
+<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Retenciones</strong>”, luego seleccione la carpeta “<strong>Configuración</strong>”, por último seleccione la ventana “<strong>Retenciones</strong>”.</p>
+<div class="figure align-default" id="id1">
+<img alt="Menú de ADempiere" src="../../../_images/menu11.png" />
+<p class="caption"><span class="caption-text">Imagen 1. Menú de ADempiere</span><a class="headerlink" href="#id1" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic">
+<li><p>Podrá visualizar la ventana “<strong>Retenciones</strong>”, donde se configuran las diferentes retenciones utilizadas por la empresa para aplicar a sus proveedores.</p>
+<div class="figure align-default" id="id2">
+<img alt="Ventana Retenciones" src="../../../_images/retenciones.png" />
+<p class="caption"><span class="caption-text">Imagen 2. Ventana Retenciones</span><a class="headerlink" href="#id2" title="Permalink to this image">¶</a></p>
+</div>
+</li>
+<li><p>En la parte inferior izquierda del documento es agregado el checklist “<strong>Retención en la moneda del documento</strong>”.</p>
+<div class="figure align-default" id="id3">
+<img alt="Checklist Retención en la Moneda del Documento" src="../../../_images/checklist.png" />
+<p class="caption"><span class="caption-text">Imagen 3. Checklist Retención en la Moneda del Documento</span><a class="headerlink" href="#id3" title="Permalink to this image">¶</a></p>
+</div>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>La selección del checklist permite que al momento de aplicar una retención a un documento por pagar, la misma se aplique en la moneda que dicho documento posee. Es decir, si el documento por pagar es emitido en moneda (<strong>USD</strong>), la retención será aplicada en moneda (<strong>USD</strong>). De igual manera pasa con las diferentes monedas utilizadas en ADempiere.</p>
+<p>Si el checklist no es tildado, la retención del documento por pagar será generada en la moneda de la compañía.</p>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+<div class="section" id="retenciones">
+<h1><span class="section-number">2. </span><strong>Retenciones</strong><a class="headerlink" href="#retenciones" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic">
+<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione la carpeta “<strong>Facturas de Compra</strong>”, por último seleccione la ventana “<strong>Documentos por Pagar</strong>”, para visualizar la ventana donde se encuentran los registros de los documentos de retenciones aplicados por la empresa.</p>
+<div class="figure align-default" id="id4">
+<img alt="Menú de ADempiere" src="../../../_images/menu21.png" />
+<p class="caption"><span class="caption-text">Imagen 4. Menú de ADempiere</span><a class="headerlink" href="#id4" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic">
+<li><p>Para ejemplificar el cambio en las retenciones, se muestra el documento de retención aplicado a un socio del negocio con tres (3) facturas en moneda “<strong>USD</strong>”. Luego de realizar el procedimiento regular para generar retenciones al socio seleccionado, es ubicado el documento de retención generado de ISLR número “<strong>20191000048355</strong>”, con moneda “<strong>USD</strong>” y monto total de “<strong>5,37</strong>”.</p>
+<div class="figure align-default" id="id5">
+<img alt="Documento de Retención en Moneda USD" src="../../../_images/retencion.png" />
+<p class="caption"><span class="caption-text">Imagen 5. Documento de Retención en Moneda USD</span><a class="headerlink" href="#id5" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic">
+<li><p>Podrá visualizar en la pestaña “<strong>Línea de la Factura</strong>”, las tres (3) líneas que posee el documento de retención, pertenecientes a las tres facturas en moneda “<strong>USD</strong>” reflejadas en el campo documento afectado de cada línea.</p>
+<div class="figure align-default" id="id6">
+<img alt="Pestaña Línea de la Factura" src="../../../_images/lineafac1.png" />
+<p class="caption"><span class="caption-text">Imagen 6. Pestaña Línea de la Factura</span><a class="headerlink" href="#id6" title="Permalink to this image">¶</a></p>
+</div>
+</li>
+</ol>
+</li>
+<li><p>Adicional a ello, es ubicado el documento de retención de ISLR número “<strong>20191000048356</strong>”, emitido a otro socio en moneda “<strong>EUR</strong>” y con monto total de “<strong>5,67</strong>”.</p>
+<div class="figure align-default" id="id7">
+<img alt="Documento de Retención en Moneda EUR" src="../../../_images/retencion2.png" />
+<p class="caption"><span class="caption-text">Imagen 7. Documento de Retención en Moneda EUR</span><a class="headerlink" href="#id7" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic">
+<li><p>Podrá visualizar en la pestaña “<strong>Línea de la Factura</strong>”, las tres (3) líneas que posee el documento de retención, pertenecientes a las tres facturas en moneda “<strong>EUR</strong>” reflejadas en el campo documento afectado de cada línea.</p>
+<div class="figure align-default" id="id8">
+<img alt="Pestaña Línea de la Factura" src="../../../_images/lineafac2.png" />
+<p class="caption"><span class="caption-text">Imagen 8. Pestaña Línea de la Factura</span><a class="headerlink" href="#id8" title="Permalink to this image">¶</a></p>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Luego de generar las diferentes retenciones, se procede a relizar el proceso regular de declaración de retención, teniendo como resultado el documento de declaración.</p>
+</div>
+</li>
+</ol>
+</div>
+<div class="section" id="declaraciones">
+<h1><span class="section-number">3. </span><strong>Declaraciones</strong><a class="headerlink" href="#declaraciones" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic">
+<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione la carpeta “<strong>Facturas de Compra</strong>”, por último seleccione la ventana “<strong>Documentos por Pagar</strong>”, para visualizar la ventana donde se encuentran los registros de los documentos de declaraciones de retenciones aplicados por la empresa.</p>
+<div class="figure align-default" id="id9">
+<img alt="Menú de ADempiere" src="../../../_images/menu21.png" />
+<p class="caption"><span class="caption-text">Imagen 9. Menú de ADempiere</span><a class="headerlink" href="#id9" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic">
+<li><p>Luego de realizar el proceso regular de declaración seleccionando el número de retención “<strong>20191000048355</strong>”, se genera el documento de declaración número “<strong>1030029</strong>”, emitido en moneda “<strong>USD</strong>” y con monto total de “<strong>5,37</strong>”.</p>
+<div class="figure align-default" id="id10">
+<img alt="Documento de Declaración en Moneda USD" src="../../../_images/declaracion.png" />
+<p class="caption"><span class="caption-text">Imagen 10. Documento de Declaración en Moneda USD</span><a class="headerlink" href="#id10" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic">
+<li><p>Podrá visualizar en la pestaña “<strong>Línea de la Factura</strong>”, el documento de retención afectado “<strong>20191000048355</strong>”.</p>
+<div class="figure align-default" id="id11">
+<img alt="Pestaña Línea de la Factura" src="../../../_images/lineade1.png" />
+<p class="caption"><span class="caption-text">Imagen 11. Pestaña Línea de la Factura</span><a class="headerlink" href="#id11" title="Permalink to this image">¶</a></p>
+</div>
+</li>
+</ol>
+</li>
+<li><p>Adicional a ello, se procede a realizar el mismo proceso de declaración seleccionando el número de retención “<strong>20191000048356</strong>”, con el que se genera el documento de declaración número “<strong>1030030</strong>”, emitido en moneda “<strong>EUR</strong>” y con monto total de “<strong>5,67</strong>”.</p>
+<div class="figure align-default" id="id12">
+<img alt="Documento de Declaración en Moneda EUR" src="../../../_images/declaracion2.png" />
+<p class="caption"><span class="caption-text">Imagen 12. Documento de Declaración en Moneda EUR</span><a class="headerlink" href="#id12" title="Permalink to this image">¶</a></p>
+</div>
+<ol class="arabic">
+<li><p>Podrá visualizar en la pestaña “<strong>Línea de la Factura</strong>”, el documento de retención afectado “<strong>20191000048356</strong>”.</p>
+<div class="figure align-default" id="id13">
+<img alt="Pestaña Línea de la Factura" src="../../../_images/lineade2.png" />
+<p class="caption"><span class="caption-text">Imagen 13. Pestaña Línea de la Factura</span><a class="headerlink" href="#id13" title="Permalink to this image">¶</a></p>
+</div>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="index.html" class="btn btn-neutral float-left" title="Retención de Cuentas por Pagar Multimoneda" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
