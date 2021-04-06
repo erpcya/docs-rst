@@ -6,7 +6,7 @@ name: docs-deploy
 # events but only for the master branch
 on:
   push:
-    branches: [ "adempiere-ui/*" ]
+    branches: [ "adempiere-ui", "adempiere-ui/*" ]
   pull_request:
     branches: [ ]
 
