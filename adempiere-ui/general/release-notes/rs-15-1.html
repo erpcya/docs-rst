@@ -1,0 +1,344 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>5.5.8. rs-15.1 &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="5.5.9. rs-15.0" href="rs-15-0.html" />
+    <link rel="prev" title="5.5.7. rs-15.2" href="rs-15-2.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="rs-19.html">5.1. <strong>rs-19</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs-18.html">5.2. <strong>rs-18</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs-17.html">5.3. <strong>rs-17</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="rs-16.html">5.4. <strong>rs-16</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="rs-15.html">5.5. <strong>rs-15</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="rs-15-8.html">5.5.1. <strong>rs-15.8</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs-15-7.html">5.5.2. <strong>rs-15.7</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs-15-6.html">5.5.3. <strong>rs-15.6</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs-15-5.html">5.5.4. <strong>rs-15.5</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs-15-4.html">5.5.5. <strong>rs-15.4</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs-15-3.html">5.5.6. <strong>rs-15.3</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs-15-2.html">5.5.7. <strong>rs-15.2</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">5.5.8. <strong>rs-15.1</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#soporte-a-versiones">5.5.8.1. <strong>Soporte a versiones:</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#nota-critica">5.5.8.2. <strong>Nota crítica:</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#detalle-tecnico">5.5.8.3. <strong>Detalle Técnico:</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#novedades">5.5.8.4. <strong>Novedades:</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="rs-15-0.html">5.5.9. <strong>rs-15.0</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="rs-14.html">5.6. <strong>rs-14</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/pos-management/index.html">4. <strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">5. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Download Docs</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">5. </span><strong>Notas de Liberación ADempiere ERP</strong></a> &raquo;</li>
+        
+          <li><a href="rs-15.html"><span class="section-number">5.5. </span><strong>rs-15</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">5.5.8. </span><strong>rs-15.1</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/general/release-notes/rs-15-1.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="rs-15-1">
+<span id="documento-version-15-1"></span><h1><span class="section-number">5.5.8. </span><strong>rs-15.1</strong><a class="headerlink" href="#rs-15-1" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="soporte-a-versiones">
+<h2><span class="section-number">5.5.8.1. </span><strong>Soporte a versiones:</strong><a class="headerlink" href="#soporte-a-versiones" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p>ADempiereBase:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Versión de Liberación: 3.9.3-rs-3.9</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>CST-STD</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Versión de Liberación: rs-19.1</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Consigned-Material: 1.0.8</p></li>
+<li><p>Exchange-Operation-System: 1.1.2</p></li>
+</ul>
+</div>
+<div class="section" id="nota-critica">
+<h2><span class="section-number">5.5.8.2. </span><strong>Nota crítica:</strong><a class="headerlink" href="#nota-critica" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Este cambio afecta la tasa de conversión para la validación de tasa duplicada</p></li>
+</ul>
+</div>
+<div class="section" id="detalle-tecnico">
+<h2><span class="section-number">5.5.8.3. </span><strong>Detalle Técnico:</strong><a class="headerlink" href="#detalle-tecnico" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>Exchange-Operation-System: Add validation for currency rates only for specific columns</p></li>
+</ul>
+</div>
+<div class="section" id="novedades">
+<h2><span class="section-number">5.5.8.4. </span><strong>Novedades:</strong><a class="headerlink" href="#novedades" title="Permalink to this headline">¶</a></h2>
+<ul>
+<li><p><strong>Correcciones:</strong></p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Ya los documentos no contabilizan en negativo cuando en el esquema contable no está seleccionada la opción “Permitir Contabilización en Negativo”</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="rs-15-0.html" class="btn btn-neutral float-right" title="5.5.9. rs-15.0" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="rs-15-2.html" class="btn btn-neutral float-left" title="5.5.7. rs-15.2" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/">ADempiere-Base</a></dd>
+              <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+              <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

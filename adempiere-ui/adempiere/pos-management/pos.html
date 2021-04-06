@@ -1,0 +1,360 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>4.2. Toma de Pedido &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="5. Gestión de Saldos Pendientes" href="../open-items/index.html" />
+    <link rel="prev" title="4.1. Interfaz de Punto de Venta" href="point-of-sale-interface.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. <strong>Gestión PDV</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html">4.1. <strong>Interfaz de Punto de Venta</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4.2. <strong>Toma de Pedido</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ejecucion-del-proceso">4.2.1. <strong>Ejecución del Proceso</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">5. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Download Docs</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">4. </span><strong>Gestión PDV</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">4.2. </span><strong>Toma de Pedido</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/pos-management/pos.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="toma-de-pedido">
+<span id="documento-punto-de-venta"></span><h1><span class="section-number">4.2. </span><strong>Toma de Pedido</strong><a class="headerlink" href="#toma-de-pedido" title="Permalink to this headline">¶</a></h1>
+<p>El proceso toma de pedido consiste en la venta de los productos por medio del documento “<strong>Orden de Venta</strong>”, en el cual se cargan los datos del cliente, los productos y el cobro. Al realizar el cobro de la misma, se generan de manera automática los documentos “<strong>Cobro</strong>”, “<strong>Factura por Cobrar</strong>” y “<strong>Entrega</strong>”.</p>
+<p>El documento del cobro se genera en la ventana “<strong>Caja</strong>”, con la cuenta caja pos en la cual se realizó dicho cobro. Este es asociado a la línea del registro de cierre de caja de la cuenta “<strong>Caja POS</strong>”, creado al momento de la apertura de caja.</p>
+<p>Adicional a ello, el documento “<strong>Factura por Cobrar</strong>”, es generado en la ventana “<strong>Documentos por Cobrar</strong>”. Mientras que el documento “<strong>Entrega</strong>”, es generado en la ventana “<strong>Entrega (Cliente)</strong>”.</p>
+<p>Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso “<strong>Toma de Pedido POS</strong>”, con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.</p>
+<blockquote>
+<div><p><img alt="diagrama de toma de pedido pos" src="../../_images/pos.png" /></p>
+<p>Imagen 1. Diagrama de Toma de Pedido POS</p>
+</div></blockquote>
+<div class="section" id="ejecucion-del-proceso">
+<h2><span class="section-number">4.2.1. </span><strong>Ejecución del Proceso</strong><a class="headerlink" href="#ejecucion-del-proceso" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../_images/point-of-sale-menu.png" /></p>
+<p>Imagen 2. Menú de ADempiere</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar la carpeta “<strong>Órdenes de Venta</strong>”, con la ventana “<strong>Órdenes de Venta</strong>”, que permite crear y modificar las mismas. Adicional a ello, también contiene la carpeta “<strong>Punto de Venta</strong>”, con el formulario del punto de venta y el smart browser de cierre de caja.</p>
+<blockquote>
+<div><p><img alt="ventana órdenes de venta del punto de venta" src="../../_images/point-of-sale-sales-orders-window.png" /></p>
+<p>Imagen 3. Ventana Órdenes de Venta</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el formulario “<strong>Punto de Venta</strong>” que se encuentra dentro de la carpeta “<strong>Punto de Ventas</strong>”.</p>
+<blockquote>
+<div><p><img alt="selección de formulario punto de venta" src="../../_images/point-of-sale-form-selection.png" /></p>
+<p>Imagen 4. Selección de Formulario Punto de Venta</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar la ventana del formulario “<strong>Punto de Venta</strong>”, con diferentes campos que permiten registrar en ADempiere de manera fácil y sencilla, la venta de los productos.</p>
+<blockquote>
+<div><p><img alt="ventana del formulario punto de venta" src="../../_images/point-of-sale-form-window.png" /></p>
+<p>Imagen 5. Ventana del Formulario Punto de Venta</p>
+</div></blockquote>
+</li>
+<li><p>La interfaz de la ventana del formulario “<strong>Punto de Venta</strong>”, se encuentra definida de forma específica en el documento <a class="reference internal" href="point-of-sale-interface.html#documento-interfaz-del-punto-de-venta"><span class="std std-ref">Interfaz de Punto de Venta</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Realice cada uno de los procesos explicados a continuación para obtener un resultado exitoso en la toma de pedido por el punto de venta.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El formulario “<strong>Punto de Venta</strong>”, crea de manera automática un registro nuevo de “<strong>Orden de Venta</strong>”, al cargar un producto al mismo.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Ingrese la información del socio del negocio “<strong>Cliente</strong>”, en el campo “<strong>Socio de Negocios</strong>”. Dicho procedimiento se encuentra explicado en el proceso <a class="reference internal" href="point-of-sale-interface.html#documento-paso-panel-de-socio-de-negocios"><span class="std std-ref">Panel de Socio de Negocios</span></a>, del material <a class="reference internal" href="point-of-sale-interface.html#documento-interfaz-del-punto-de-venta"><span class="std std-ref">Interfaz de Punto de Venta</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="selección del cliente en el formulario punto de venta" src="../../_images/customer-selection-in-the-point-of-sale-form.png" /></p>
+<p>Imagen 6. Selección del Cliente en el Formulario Punto de Venta</p>
+</div></blockquote>
+</li>
+<li><p>Proceda a cargar los productos desde el catálogo de productos. Dicho procedimiento se encuentra explicado en el proceso <a class="reference internal" href="point-of-sale-interface.html#documento-paso-catalogo-de-productos"><span class="std std-ref">Catálogo de Productos</span></a>, del material <a class="reference internal" href="point-of-sale-interface.html#documento-interfaz-del-punto-de-venta"><span class="std std-ref">Interfaz de Punto de Venta</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="carga de productos desde catálogo de productos del formulario punto de venta" src="../../_images/product-catalog.png" /></p>
+<p>Imagen 7. Carga de Productos desde el Catálogo de Productos</p>
+</div></blockquote>
+</li>
+<li><p>Si lo desea, puede ingresar los productos a la orden de venta ingresando el código o nombre del mismo en el panel de búsqueda de productos. Dicho panel se encuentra explicado de manera detallada en el material <a class="reference internal" href="point-of-sale-interface.html#documento-paso-panel-de-busqueda-de-productos"><span class="std std-ref">Panel de Búsqueda de Productos</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="carga de productos desde el panel de búsqueda de productos del formulario punto de venta" src="../../_images/loading-products-from-the-product-search-panel-of-the-point-of-sale-form.png" /></p>
+<p>Imagen 8. Carga de Productos desde el Panel de Búsqueda de Productos</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar en las líneas de la orden, los productos cargados con su respesctivo precio, cantidad, porcentaje de descuento y total del producto. Esta sección se encuentra explicada de manera detallada en el material <a class="reference internal" href="point-of-sale-interface.html#documento-paso-lineas-de-la-orden"><span class="std std-ref">Líneas de la Orden</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="líneas de la orden de venta en el formulario" src="../../_images/sales-order-lines-in-the-form.png" /></p>
+<p>Imagen 9. Líneas de la Orden</p>
+</div></blockquote>
+</li>
+<li><p>Para posicionarse sobre un registro de la línea de la orden, eliminar el mismo o cobrar la orden de venta, puede realizarlo con ayuda de las opciones que contiene el punto de venta. Dichas opciones se encuentran explicadas en el material <a class="reference internal" href="point-of-sale-interface.html#documento-paso-opciones-del-punto-de-ventas"><span class="std std-ref">Opciones del Punto de Venta</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="opciones del formulario del punto de venta" src="../../_images/point-of-sale-form-options.png" /></p>
+<p>Imagen 10. Opciones del Punto de Venta</p>
+</div></blockquote>
+</li>
+<li><p>La información del registro de la orden en el que se encuentra, puede ser visualizada en la parte inferior derecha del formulario. Dicha sección se encuentra explicada de el material <a class="reference internal" href="point-of-sale-interface.html#documento-paso-informacion-de-la-orden"><span class="std std-ref">Información de la Orden</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="información de la orden de venta" src="../../_images/sales-order-information.png" /></p>
+<p>Imagen 11. Información de la Orden</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../open-items/index.html" class="btn btn-neutral float-right" title="5. Gestión de Saldos Pendientes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="point-of-sale-interface.html" class="btn btn-neutral float-left" title="4.1. Interfaz de Punto de Venta" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/">ADempiere-Base</a></dd>
+              <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+              <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

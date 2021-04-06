@@ -1,0 +1,427 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>1.4. Generar Videos Comprimidos como GIF &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="2. Open Project" href="../openproject/index.html" />
+    <link rel="prev" title="1.3. Documentar una Tarea / Error" href="support-doc.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">1. <strong>Procedimientos Estándares</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="customer-review.html">1.1. <strong>Revisión de Cambios con cliente</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="schedule-a-meeting.html">1.2. <strong>Acordar una Reunión</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="support-doc.html">1.3. <strong>Documentar una Tarea / Error</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">1.4. <strong>Generar Videos Comprimidos como GIF</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#instalando-kazam">1.4.1. <strong>Instalando Kazam</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#desde-el-terminal-de-linux">1.4.1.1. <strong>Desde el Terminal de Linux</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#instalacion-y-uso-de-ffmpeg">1.4.2. <strong>Instalación y uso de FFMPEG</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#instalando-ffmpeg">1.4.2.1. <strong>Instalando FFMPEG</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#comprimiendo-un-video">1.4.2.2. <strong>Comprimiendo un Video</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#convirtiendo-desde-sh">1.4.2.3. <strong>Convirtiendo desde SH</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#crear-gif-utilizando-peek">1.4.3. <strong>Crear gif utilizando Peek</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#instalando-peek">1.4.3.1. <strong>Instalando `Peek`_</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#instalando-key-mon">1.4.3.2. <strong>Instalando key-mon</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/pos-management/index.html">4. <strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">5. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">E-commerce</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Download Docs</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">1. </span><strong>Procedimientos Estándares</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">1.4. </span><strong>Generar Videos Comprimidos como GIF</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/general/standard-procedures/compress-mp4.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="generar-videos-comprimidos-como-gif">
+<span id="documento-generar-videos-comprimidos-como-gif"></span><h1><span class="section-number">1.4. </span><strong>Generar Videos Comprimidos como GIF</strong><a class="headerlink" href="#generar-videos-comprimidos-como-gif" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="instalando-kazam">
+<h2><span class="section-number">1.4.1. </span><strong>Instalando Kazam</strong><a class="headerlink" href="#instalando-kazam" title="Permalink to this headline">¶</a></h2>
+<p>Para grabar la pantalla de la computadora se puede usar cualquier grabador, en este caso se usa Kazam como ejemplo. Puede consultar los detalles de la aplicación en <a class="reference external" href="https://launchpad.net/kazam">Kazam</a>.</p>
+<div class="section" id="desde-el-terminal-de-linux">
+<h3><span class="section-number">1.4.1.1. </span><strong>Desde el Terminal de Linux</strong><a class="headerlink" href="#desde-el-terminal-de-linux" title="Permalink to this headline">¶</a></h3>
+<p>Para instalar Kazam simplemente abra el terminal de linux (Como root) y ejecute el siguiente comando:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">kazam</span>
+</pre></div>
+</div>
+<p>Luego de instalar Kazam puede abrir la aplicación desde el menú y se mostrará algo como la siguiente imagen:</p>
+<p><img alt="Kazam" src="../../_images/Kazam.png" /></p>
+<p>Imagen 1 KAZAM</p>
+</div>
+</div>
+<div class="section" id="instalacion-y-uso-de-ffmpeg">
+<h2><span class="section-number">1.4.2. </span><strong>Instalación y uso de FFMPEG</strong><a class="headerlink" href="#instalacion-y-uso-de-ffmpeg" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="instalando-ffmpeg">
+<h3><span class="section-number">1.4.2.1. </span><strong>Instalando FFMPEG</strong><a class="headerlink" href="#instalando-ffmpeg" title="Permalink to this headline">¶</a></h3>
+<p>El ffmpeg es una aplicación que puede ser utilizada para comprimir videos o convertirlos a gif, para instalarlo simplemente abra el terminal de linux (Como root) y ejecute el siguiente comando:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">apt</span><span class="o">-</span><span class="n">get</span> <span class="n">install</span> <span class="n">ffmpeg</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="comprimiendo-un-video">
+<h3><span class="section-number">1.4.2.2. </span><strong>Comprimiendo un Video</strong><a class="headerlink" href="#comprimiendo-un-video" title="Permalink to this headline">¶</a></h3>
+<p>Para comprimir un video siga los siguientes pasos:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Vaya al directorio donde se encuentra el video.</p></li>
+<li><p>Presione la tecla especial F4 (Se abrirá un terminal en la parte inferior).</p></li>
+<li><p>A continuación ejecute el siguiente comando <strong>(Note que la propiedad vid indica el nombre del archivo)</strong>:</p></li>
+</ul>
+</div></blockquote>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>vid=Current.mp4
+start_time=00:00:01
+height=ih/2      # input height halved , can replace with pixils .
+width=-2         # keeps aspect ratio . can replace with pixils .
+fps=40           # frames per a second .
+
+filters=&quot;fps=$fps,scale=$width:$height:flags=lanczos&quot;
+
+ffmpeg -ss $start_time                             \
+    -i  &quot;$vid&quot;                                  \
+    -vf &quot;$filters,palettegen&quot;                   \
+    -y  palette.png                             &amp;&amp;
+ffmpeg -ss $start_time                             \
+    -i  &quot;$vid&quot;                                  \
+    -i  palette.png                                \
+    -lavfi &quot;$filters [x]; [x][1:v] paletteuse&quot;  \
+    -y  &quot;$vid&quot;.gif                              &amp;&amp;
+rm palette.png
+</pre></div>
+</div>
+</div>
+<div class="section" id="convirtiendo-desde-sh">
+<h3><span class="section-number">1.4.2.3. </span><strong>Convirtiendo desde SH</strong><a class="headerlink" href="#convirtiendo-desde-sh" title="Permalink to this headline">¶</a></h3>
+<p>Para evitar abrir la consola simplemente descargue el archivo que se encuentra en <a class="reference download internal" download="" href="../../_downloads/94b88d9259fc85cadf429379f4be6cf8/convert.sh"><code class="xref download docutils literal notranslate"><span class="pre">convert.sh</span></code></a> y coloque el mismo dentro del directorio donde se encuentran los archivos a convertir.</p>
+<p>Tome en cuenta que el archivo a convertir debe tener el siguiente nombre: <strong>Current.ogv</strong></p>
+<p>A continuación se encuentra un demo del recorrido:</p>
+<div class="figure align-default">
+<img alt="../../_images/Current.ogv.gif" src="../../_images/Current.ogv.gif" />
+</div>
+<p>Video 1. Convert Video</p>
+<p><a class="reference download internal" download="" href="../../_downloads/edeef01530bdb0e16244c672df7da310/Current.ogv.gif"><code class="xref download docutils literal notranslate"><span class="pre">Convert</span> <span class="pre">Video</span></code></a></p>
+</div>
+</div>
+<div class="section" id="crear-gif-utilizando-peek">
+<h2><span class="section-number">1.4.3. </span><strong>Crear gif utilizando Peek</strong><a class="headerlink" href="#crear-gif-utilizando-peek" title="Permalink to this headline">¶</a></h2>
+<p>Peek es un grabador de pantalla simple con una interfaz fácil de usar.</p>
+<div class="figure align-default">
+<img alt="../../_images/peek-recording-itself.gif" src="../../_images/peek-recording-itself.gif" />
+</div>
+<p>Video 2. Peek</p>
+<p><a class="reference download internal" download="" href="../../_downloads/1616c6960f8bc55c34d0d43016a5ab1f/peek-recording-itself.gif"><code class="xref download docutils literal notranslate"><span class="pre">peek</span></code></a></p>
+<div class="section" id="instalando-peek">
+<h3><span class="section-number">1.4.3.1. </span><strong>Instalando `Peek`_</strong><a class="headerlink" href="#instalando-peek" title="Permalink to this headline">¶</a></h3>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">apt</span> <span class="n">install</span> <span class="n">peek</span>
+</pre></div>
+</div>
+</div>
+<div class="section" id="instalando-key-mon">
+<h3><span class="section-number">1.4.3.2. </span><strong>Instalando key-mon</strong><a class="headerlink" href="#instalando-key-mon" title="Permalink to this headline">¶</a></h3>
+<p>Key-mon es un plugin que permite dibujar pequeños círculos alrededor de los clics del mouse.</p>
+<ul>
+<li><p>Dirigirse a la pagina oficial de descargas de este plugin <a class="reference external" href="https://code.google.com/archive/p/key-mon/downloads">key-mon</a>.</p></li>
+<li><p>Elegir de la siguiente lista la version y la extensión del archivo deseado.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>En mi caso particular utilizo la versión 1.17 con la extensión del archivo <em>.zip</em></p>
+<p><img alt="options-list" src="../../_images/key-mon-list.png" /></p>
+<p>Imagen 2. options-list</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Una vez descargado el paquete debemos ejecutar los siguientes comandos para instalarlo</p>
+<blockquote>
+<div><ul>
+<li><p>Si el formato es <em>.deb</em> debemos usar el siguiente comando:</p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">dpkg</span> <span class="o">-</span><span class="n">i</span> <span class="n">key</span><span class="o">-</span><span class="n">mon</span><span class="o">*.</span><span class="n">deb</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>Si el formato es <em>.zip</em> debemos usar los siguientes comandos:</p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">unzip</span> <span class="n">key</span><span class="o">-</span><span class="n">mon</span><span class="o">*.</span><span class="n">zip</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">cd</span> <span class="n">key</span><span class="o">-</span><span class="n">mon</span><span class="o">*</span>
+</pre></div>
+</div>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">python</span> <span class="n">setup</span><span class="o">.</span><span class="n">py</span> <span class="n">install</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Al finalizar la instalación exitosamente debemos ejecutar el siguiente comando:</p>
+<blockquote>
+<div><div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">key</span><span class="o">-</span><span class="n">mon</span> <span class="o">--</span><span class="n">visible_click</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<p>Esto permitira que al grabar un gif se pueda vizualizar un pequeño circulo de color rojo cada vez que se clickea, esto permite al usuario o receptor del archivo saber si debe hacer click en una opción o no.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../openproject/index.html" class="btn btn-neutral float-right" title="2. Open Project" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="support-doc.html" class="btn btn-neutral float-left" title="1.3. Documentar una Tarea / Error" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+              <dd><a href="/">ADempiere-Base</a></dd>
+              <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+              <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+              <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+          </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
