@@ -18,14 +18,16 @@
 
 
 
+
+
 # -- Project information -----------------------------------------------------
 
 project = 'ERPYA'
 copyright = '2020, ADempiere ERP'
 author = 'E.R.P. Consultores y Asociados, C.A.'
-
 # The short X.Y version
 version = '1.0'
+
 # The full version, including alpha/beta/rc tags
 release = '3.7.0'
 
@@ -75,6 +77,8 @@ language = None
 # This pattern also affects html_static_path and html_extra_path .
 exclude_patterns = []
 
+#extensions = ['rst2pdf.pdfbuilder']
+#  pdf_documents = [('index', 'rst2pdf', 'Sample rst2pdf doc', 'Your Name')]
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
 
@@ -84,10 +88,18 @@ pygments_style = 'sphinx'
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-#html_theme = 'theme.css'
+html_theme = 'sphinx_rtd_theme'
 #html_theme_path = ['/usr/local/lib/python2.7/site-packages']
 
-
+# Control display of sidebars
+html_sidebars = {'**': [
+    'localtoc.html',
+    'ethicalads.html',
+    'relations.html',
+    'sourcelink.html',
+    'searchbox.html',
+    'versions.html'
+]}
 
 # Theme options are theme-specific and customize the look and feel of a theme
 # further.  For a list of options available for each theme, see the
@@ -137,8 +149,12 @@ htmlhelp_basename = 'DocsErpya'
 
 
 # -- Options for LaTeX output ------------------------------------------------
-
+fh = open('latex_preamble.tex', 'r+')
+PREAMBLE = fh.read()
+fh.close()
 latex_elements = {
+    # Additional stuff for the LaTeX preamble.
+    'preamble': PREAMBLE,
     # The paper size ('letterpaper' or 'a4paper').
     #
     # 'papersize': 'letterpaper',
@@ -162,9 +178,12 @@ locale_dirs = ['locale/']
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
-latex_documents = [
-    (master_doc, 'ADempiereDocs.tex', 'E.R.P. Consultores y Asociados, C.A.', 'Documentation E.R.P. Consultores y Asociados, C.A.', 'manual'),
-]
+#latex_documents = [
+#    (master_doc, 'ADempiereDocs.tex', 'E.R.P. Consultores y Asociados, C.A.', 'Documentation E.R.P. Consultores y Asociados, C.A.', 'manual'),
+#]
+
+pdf_documents = [('index', u'rst2pdf', u'ADempiereDocs', u'Documentation E.R.P. Consultores y Asociados, C.A'),]
+
 
 
 # -- Options for manual page output ------------------------------------------

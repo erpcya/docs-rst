@@ -1,11 +1,9 @@
 python:
    setup_py_install: true
-   install:
-      - requirements: requirements.txt
 conda:
     file: environment.yml
-
+$ cat environment.yml 
 name: pyfme
 dependencies:
   - numpy >=1.7
-  -
+autobuild: tags

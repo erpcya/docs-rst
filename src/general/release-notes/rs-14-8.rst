@@ -1,0 +1,57 @@
+.. _documento/versión-14-8:
+
+**rs-14.8**
+===========
+
+**Soporte a versiones:**
+------------------------
+
+- ADempiereBase:
+ 
+ - Versión de Liberación: 3.9.3-rs-3.9
+
+- CST-STD
+ 
+ - Versión de Liberación: rs-18.8
+
+**Nota crítica:**
+-----------------
+
+- Se debe verificar que existan los siguientes XML's y si no existen se deben aplicar para cada una de las instalaciones (Los XML's se encuentran en el directoriio migration/393lts-394lts de ADempiereBase):
+ 
+ - ADempiereBase:
+ 
+  - 05770_Add_Support_to_Reference_Invoice_Line_for_Return_Order.xml
+  - 05910_Add_Document_Base_Type_Invoice_View.xml
+  - 06490_Add_Parameter_Sales_Region_Open_Item.xml
+  - 06550_Add_Collecting_Agent_Reference_to_Payment.xml
+  - 06950_Add_Tender_Type_for_Bank_Transfer.xml
+  - 07050_Add_Filter_values_for_Price_List_Create.xml
+  - 07080_Add_Is_Auto_Reconcile_flag_for_deposit_from_cash.xml
+  - 07110_Remove_Cash_Validation.xml
+  - 07120_FinancialReport_Add_To_24_Columns.xml
+  - 07170_Add_Multi_Currency_support_to_Payment_Selection.xml
+  - 07220_3278_FixedIsDropBOMTranslationFlagC_Order.xml
+  - 07230_Add_Setup_Definition_for_client.xml
+  - 07230_Fixed_error_with_Over_Under_Amount_for_Payment_Selection.xml
+  - 07240_Add_Tab_for_Social_Media_to_Business_Partner.xml
+  - 07240_Add_Test_data_for_Functionality_Setup.xml
+  - 07240_Change_Deposit_from_Cash_References.xml
+
+**Detalle Técnico:**
+--------------------
+
+- ADempiereBase: 
+ 
+ - Merge pull request #3312 from erpcya/bugfix/#PS-Prevent-NPE-CreateFrom, Prevent NPE for Create From on Payment Selection
+
+- CST-STD:
+ 
+ - Add compatibility with 3.9.3-rs-3.9 of ERPyA granted version
+
+**Novedades:**
+--------------
+
+- Mejoras:
+ 
+ - Actualización a la última versión estable del core de ADempiere garantizado por ERP Consultores y Asociados, CA 3.9.3-rs-3.9
