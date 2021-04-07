@@ -1,0 +1,16 @@
+.. _documento/versión-3-9-3-rs-1-7:
+
+**3.9.3-rs-1.7**
+================
+
+**Soporte a versiones:**
+------------------------
+
+- latest
+
+**Novedades:**
+--------------
+
+- Se agrega la documentación del servicio :ref:`src/bot` que le explica a los usuarios la :ref:`documento/configuración-de-bot-en-adempiere`, :ref:`documento/interfaz-del-bot` y el :ref:`documento/uso-del-bot`, con la finalidad de que los usuarios puedan obtener de ADempiere de manera rápida, los reportes requeridos por los mismos.
+
+- Se agrega la documentación de la herramienta :ref:`src/general/bot`, con la finalidad de dar a conocer los procedimientos de :ref:`documento/consultar-tareas` y :ref:`documento/consultar-tarea-específica`, que los usuarios pueden realizar para obtener información sobre las tareas del "**OpenProject**".
