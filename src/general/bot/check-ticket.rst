@@ -4,7 +4,7 @@
 .. |criterios de búsqueda de la opción consultar ticket| image:: resources/search-criteria-for-the-option-check-ticket.png
 .. |resultado de la consulta de las tareas| image:: resources/query-result-of-tasks.png
 
-.. _documento/consultar-tareas:
+.. _documento/consultar-tareas: 
 
 **Consultar Tareas**
 ====================
