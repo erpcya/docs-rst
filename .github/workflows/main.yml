@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: erpcya/docss@master
+    - uses: TaniaLucena/docss@master
       with:
         args: --acl public-read --follow-symlinks --delete
       env:
