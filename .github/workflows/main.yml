@@ -16,15 +16,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: TaniaLucena/docs@master
-      with:
-        args: --acl public-read --follow-symlinks --delete
-      env:
-        SOURCE_DIR: './public'
-        SPACE_NAME: ${{ secrets.SPACE_NAME }}
-        SPACE_REGION: ${{ secrets.SPACE_REGION}}
-        SPACE_ACCESS_KEY_ID: ${{ secrets.SPACE_ACCESS_KEY_ID }}
-        SPACE_SECRET_ACCESS_KEY: ${{ secrets.SPACE_SECRET_ACCESS_KEY }}
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "pip install sphinx_rtd_theme"
@@ -34,6 +25,15 @@ jobs:
       with:
         name: DocumentationHTML
         path: src/_build/html/
+    - uses: TaniaLucena/docs@master
+      with:
+        args: --acl public-read --follow-symlinks --delete
+      env:
+        SOURCE_DIR: './src/_build/latex/'
+        SPACE_NAME: ${{ secrets.SPACE_NAME }}
+        SPACE_REGION: ${{ secrets.SPACE_REGION}}
+        SPACE_ACCESS_KEY_ID: ${{ secrets.SPACE_ACCESS_KEY_ID }}
+        SPACE_SECRET_ACCESS_KEY: ${{ secrets.SPACE_SECRET_ACCESS_KEY }}
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
