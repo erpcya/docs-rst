@@ -6,9 +6,9 @@ name: docs-deploy
 # events but only for the master branch
 on:
   push:
-    branches: [ master ]
+    branches: [ 08-04-2021-prueba ]
   pull_request:
-    branches: [ master ]
+    branches: [ 08-04-2021-prueba ]
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -45,7 +45,7 @@ jobs:
         path: src/_build/latex/erpya.pdf
     - name: Commit documentation changes
       run: |
-        git clone https://github.com/erpcya/docs.git --branch gh-pages --single-branch gh-pages
+        git clone https://github.com/TaniaLucena/docs.git --branch gh-pages --single-branch gh-pages
         cp -r src/_build/html/* gh-pages/
         cd gh-pages
         touch .nojekyll
