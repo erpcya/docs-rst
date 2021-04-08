@@ -21,10 +21,10 @@ jobs:
         args: --acl public-read --follow-symlinks --delete
       env:
         SOURCE_DIR: './public'
-        SPACE_NAME: ${{ secrets.erpya }}
-        SPACE_REGION: ${{ secrets.FRA1}}
-        SPACE_ACCESS_KEY_ID: ${{ secrets.3R3ZEPXY4DQYECHYOJ6S }}
-        SPACE_SECRET_ACCESS_KEY: ${{ secrets.V6zROjCE9EK/XO6AP+lD8fOlMh+rnxeoAclZRtIPThc }}
+        SPACE_NAME: ${{ secrets.SPACE_NAME }}
+        SPACE_REGION: ${{ secrets.SPACE_REGION}}
+        SPACE_ACCESS_KEY_ID: ${{ secrets.SPACE_ACCESS_KEY_ID }}
+        SPACE_SECRET_ACCESS_KEY: ${{ secrets.SPACE_SECRET_ACCESS_KEY }}
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "pip install sphinx_rtd_theme"
