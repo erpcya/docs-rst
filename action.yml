@@ -1,0 +1,9 @@
+name: "Docs"
+description: "Sincronizar un directorio con un repositorio de ERPyA"
+author: ERPyA
+runs:
+  using: docker
+  image: Dockerfile
+branding:
+  icon: refresh-cw
+  color: green
