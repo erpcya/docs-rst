@@ -34,7 +34,7 @@ jobs:
       with:
         name: DocumentationPDF
         path: src/_build/latex/erpya.pdf
-    - uses: idlefingers/do-space-sync-action@master
+    - uses: erpya/docs@master
       with:
         args: --acl public-read --follow-symlinks --delete
       env:
