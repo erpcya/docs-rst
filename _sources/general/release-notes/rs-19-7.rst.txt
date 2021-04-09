@@ -32,6 +32,19 @@
 
 - Farmer-Assistance-Program: Add Negotiated conditioned Weight as Smart Browser
 
+**Requerimientos**
+------------------
+
+Aplicar los siguientes XML's:
+
+- 07720_Add_SB_for_Generate_Fee_to_Farmers.xml
+- 07730_Add_translation_for_menu.xml
+- 07740_Add_Smart_Browser_for_generate_AP_from_Record_Weight.xml
+- 07750_Add_changes_for_SB_Generate_AP_Invoice.xml
+- 07760_Add_Raw_Material_Conditioning_Window.xml
+- 07770_Add_Negotiated_Calculation.xml
+- 07780_Add_SB_for_Conditioning_Calculation.xml
+
 **Novedades:**
 --------------
 
