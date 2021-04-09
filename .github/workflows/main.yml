@@ -42,6 +42,7 @@ jobs:
         SPACE_NAME: ${{ secrets.SPACE_NAME }}
         SPACE_ACCESS_KEY_ID: ${{ secrets.SPACE_ACCESS_KEY_ID }}
         SPACE_SECRET_ACCESS_KEY: ${{ secrets.SPACE_SECRET_ACCESS_KEY }}
+        endpoint: 'https://.digitaloceanspaces.com'
     - name: Commit documentation changes
       run: |
         git clone https://github.com/TaniaLucena/docs.git --branch gh-pages --single-branch gh-pages
