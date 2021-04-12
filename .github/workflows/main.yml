@@ -36,7 +36,7 @@ jobs:
         path: src/_build/latex/erpya.pdf
     - uses: idlefingers/do-space-sync-action@master
       with:
-        args: --acl public-read --follow-symlinks --delete
+        args: --acl public-read
       env:
         SOURCE_DIR: 'src/_build/latex/erpya.pdf'
         SPACE_NAME: ${{ secrets.SPACE_NAME }}
