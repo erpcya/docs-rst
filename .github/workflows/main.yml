@@ -34,6 +34,9 @@ jobs:
       with:
         name: DocumentaciónPDF
         path: src/_build/latex/erpya.pdf
+    - name: directorio
+      run: pwd
+      run: ls -la /src/_build/
     - uses: idlefingers/do-space-sync-action@master
       with:
         args: --acl public-read
