@@ -33,12 +33,12 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: DocumentaciónPDF
-        path: src/_build/latex/erpya.pdf
+        path: src/_build/latex/erpya
     - uses: idlefingers/do-space-sync-action@master
       with:
         args: --acl public-read
       env:
-        SOURCE_DIR: 'src/_build/latex/erpya.pdf'
+        SOURCE_DIR: 'src/_build/latex/erpya'
         SPACE_NAME: ${{ secrets.SPACE_NAME }}
         SPACE_REGION: ${{ secrets.SPACE_REGION}}
         SPACE_ACCESS_KEY_ID: ${{ secrets.SPACE_ACCESS_KEY_ID }}
