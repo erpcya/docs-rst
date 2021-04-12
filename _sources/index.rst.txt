@@ -19,6 +19,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     general/openproject/index
     general/slack/index
     general/rst/index
+    general/bot/index
     general/release-notes/index
     general/release-notes-documentation/index
 
