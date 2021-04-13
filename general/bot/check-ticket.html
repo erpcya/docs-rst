@@ -223,7 +223,7 @@
 <span id="documento-consultar-tareas"></span><h1><strong>Consultar Tareas</strong><a class="headerlink" href="#consultar-tareas" title="Permalink to this headline">¶</a></h1>
 <p>Al abrir la conversación de <strong>Soporte ERP</strong>, seleccione la opción “<strong>INICIAR</strong>”, ubicada en la parte inferior de la conversación. Posteriormente podrá visualizar un mensaje donde el bot indica que <strong>Por favor ejecute un comando</strong>.</p>
 <blockquote>
-<div><p><img alt="mensaje principal por favor indique un comando" src="../../_images/main-message-please-enter-a-command.png" /></p>
+<div><p><img alt="mensaje principal por favor indique un comando para consultar" src="../../_images/main-message-please-indicate-a-command-to-consult.png" /></p>
 <p>Imagen 1. Mensaje Principal “Por favor indique un comando”</p>
 </div></blockquote>
 <p>Si desconoce el número de tarea que requiere consultar o simplemente requiere consultar todas las tareas que contiene el proyecto cuyos ticket se encuentran abiertos o cerrados. Puede realizar el siguiente procedimiento.</p>
@@ -237,19 +237,100 @@
 <div><p><img alt="opción consultar ticket" src="../../_images/option-check-ticket.png" /></p>
 <p>Imagen 4. Opciones de Comandos a Ejecutar</p>
 </div></blockquote>
-<p>Posteriormente, recibirá el mensaje “<strong>Por favor seleccione un criterio de búsqueda</strong>”, con la finalidad de filtrar la información por “<strong>Tickets Abiertos</strong>”, “<strong>Tickets Cerrados</strong>”, “<strong>Buscar por Estado</strong>” o “<strong>Asignado A</strong>”.</p>
+<p>Posteriormente, recibirá el mensaje “<strong>Por favor seleccione un criterio de búsqueda</strong>”, con la finalidad de filtrar la información por “<strong>Tickets Abiertos</strong>”, “<strong>Tickets Cerrados</strong>” y “<strong>Mis Tickets</strong>”.</p>
 <blockquote>
 <div><p><img alt="criterios de búsqueda de la opción consultar ticket" src="../../_images/search-criteria-for-the-option-check-ticket.png" /></p>
 <p>Imagen 5. Criterios de Búsqueda</p>
 </div></blockquote>
-<p>Al seleccionar cualquiera de los criterios de búsqueda, recibirá los mensajes con la información de las tareas según lo requerido por el usuario.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para el presente ejemplo, fue seleccionado el criterio de búsqueda “<strong>Tickets Abiertos</strong>”.</p>
+</div>
+<p>Al seleccionar el criterio de búsqueda “<strong>Tickets Abiertos</strong>”, el bot ejecuta dicha acción, filtrando las tareas por fecha de actualización y mostrando cuatro (4) tareas por mensaje.</p>
+<blockquote>
+<div><p><img alt="selección de criterio tickets abiertos" src="../../_images/criteria-selection-open-tickets.png" /></p>
+<p>Imagen 6. Selección de Criterio Tickets Abiertos</p>
+</div></blockquote>
+<p>También se puede reenviar el mensaje recibido, seleccionando el icono “<strong>Reenviar</strong>”, ubicado del lado inferior derecho del mensaje.</p>
+<blockquote>
+<div><p><img alt="icono reenviar del criterio tickets abiertos" src="../../_images/icon-resend-open-tickets-criteria.png" /></p>
+<p>Imagen 7. Icono Reenviar del Criterio Tickets Abiertos</p>
+</div></blockquote>
+<p>Adicional a ello, se tienen las opciones de acceso a las diferentes tareas que se reflejan en el mensaje anterior, para consultar unicamente la tarea requerida.</p>
+<blockquote>
+<div><p><img alt="opciones de acceso a las tareas del mensaje del criterio tickets abiertos" src="../../_images/access-options-to-the-message-tasks-of-the-open-tickets-criteria.png" /></p>
+<p>Imagen 8. Opciones de Acceso a las Tareas del Mensaje</p>
+</div></blockquote>
+<p>Finalmente, para navegar entre las diferentes tareas del proyecto, se tienen las opciones “<strong>Anterior</strong>” y “<strong>Siguiente</strong>”, que permiten avanzar a la siguiente página o retroceder a la anterior.</p>
+<blockquote>
+<div><p><img alt="opciones anterior y siguiente de las tareas del mensaje del criterio tickets abiertos" src="../../_images/previous-and-next-options-of-the-open-tickets-criteria-message-tasks.png" /></p>
+<p>Imagen 9. Opciones Anterior y Siguiente de las Tareas del Mensaje</p>
+</div></blockquote>
+<p>Seleccione la opción de acceso a la tarea que requiere consultar. Para ejemplificar el caso, se selecciona la opción <strong>#5316</strong>, correspondiente a la tarea “<strong>#5316</strong>” del “<strong>OpenProject</strong>”.</p>
+<blockquote>
+<div><p><img alt="selección de opción de acceso a tarea" src="../../_images/selection-of-task-access-option.png" /></p>
+<p>Imagen 10. Selección de Opción de Acceso a Tarea</p>
+</div></blockquote>
+<p>Finalmente, se recibe un mensaje con la información detallada de la tarea, en el cual se indica lo siguiente:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Número de la tarea</p></li>
+<li><p>Nombre de la tarea</p></li>
+<li><p>Proyecto al que pertenece la tarea</p></li>
+<li><p>Nombre y apellido del autor de la tarea</p></li>
+<li><p>Fecha y hora en la que fue creada la tarea</p></li>
+<li><p>Nombre y apellido del encargado de la tarea</p></li>
+<li><p>Fecha y hora de la última actualización de la tarea</p></li>
+<li><p>Estado en el que se encuentra la tarea</p></li>
+<li><p>Descripción que contiene la tarea</p></li>
+</ul>
+<p><img alt="mensaje recibido con consulta de tarea del consultar tareas" src="../../_images/message-received-with-task-query-from-query-tasks.png" /></p>
+<p>Imagen 3. Mensaje con Consulta de Tarea</p>
+</div></blockquote>
+<p>Adicional a ello, se muestra en la parte inferior del mensaje con la consulta, tres opciones que le permiten al usuario agregar un comentario a la tarea, cambiar el estado o la persona asignada de la misma.</p>
+<blockquote>
+<div><p><img alt="opciones de la consulta de la tarea específica del consultar tareas" src="../../_images/query-specific-task-options-from-query-tasks.png" /></p>
+<p>Imagen 4. Opciones de la Tarea Específica</p>
+<p>Seleccione la opción “<strong>Agregar Comentario</strong>”, para agregar un comentario a la tarea consultada.</p>
 <blockquote>
 <div><div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Para el presente ejmplo, fue seleccionado el criterio de búsqueda “<strong>Tickets Abiertos</strong>”.</p>
+<p>Esta opción también permite agregar una imagen.</p>
 </div>
-<p><img alt="resultado de la consulta de las tareas" src="../../_images/query-result-of-tasks.png" /></p>
-<p>Imagen 6. Resultado de la Consulta</p>
+<p><img alt="opción agregar comentario de la tarea específica del consultar tareas" src="../../_images/option-add-comment-of-the-specific-task-of-the-query-tasks.png" /></p>
+<p>Imagen 5. Opción Agregar Comentario</p>
+<p>Al agregar un comentario desde el bot, se agrega el mismo de manera automática en dicha tarea en el OpenProject.</p>
+<blockquote>
+<div><p><img alt="comentario de la tarea en el bot del consultar tareas" src="../../_images/task-comment-in-task-query-bot.png" /></p>
+<p>Imagen 6. Comentario de la Tarea en el Bot</p>
+<p><img alt="comentario de la tarea en el openproject del consultar tareas" src="../../_images/comment-of-the-task-in-the-openproject-of-the-query-tasks.png" /></p>
+<p>Imagen 7. Comentario de la Tarea en el OpenProject</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Asignar A</strong>”, para agregar o cambiar el responsable de la tarea.</p>
+<blockquote>
+<div><p><img alt="opción asignar a de la tarea específica del consultar tareas" src="../../_images/option-assign-to-of-the-specific-task-of-the-query-tasks.png" /></p>
+<p>Imagen 7. Opción Asignar A</p>
+<p>Al cambiar la persona responsable de la tarea desde el bot, se cambia de manera automática en dicha tarea en el OpenProject.</p>
+<blockquote>
+<div><p><img alt="asignado a de la tarea en el bot del consultar tareas" src="../../_images/assigned-to-the-task-in-the-task-query-bot.png" /></p>
+<p>Imagen 8. Asignado A de la Tarea en el Bot</p>
+<p><img alt="asignado a de la tarea en el openproject del consultar tareas" src="../../_images/assigned-to-the-task-in-the-openproject-of-the-query-tasks.png" /></p>
+<p>Imagen 9. Asignado A de la Tarea en el OpenProject</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Cambiar Estado</strong>”, para cambiar el estado en el que se encuentra la tarea.</p>
+<blockquote>
+<div><p><img alt="opción cambiar estado de la tarea específica del consultar tareas" src="../../_images/option-change-specific-task-status-of-query-tasks.png" /></p>
+<p>Imagen 9. Opción Cambiar Estado</p>
+<p>Al cambiar el estado de la tarea desde el bot, se cambia de manera automática en dicha tarea en el OpenProject.</p>
+<blockquote>
+<div><p><img alt="estado de la tarea en el bot del consultar tareas" src="../../_images/task-status-in-the-task-query-bot.png" /></p>
+<p>Imagen 10. Estado de la Tarea en el Bot</p>
+<p><img alt="estado de la tarea en el openproject del consultar tareas" src="../../_images/task-status-in-openproject-from-query-tasks.png" /></p>
+<p>Imagen 11. Estado de la Tarea en el OpenProject</p>
+</div></blockquote>
+</div></blockquote>
 </div></blockquote>
 </div>
 
