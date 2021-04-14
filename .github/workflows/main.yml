@@ -43,7 +43,8 @@ jobs:
       with:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
         docs-folder: "src/"
-        build-command: "make -C _build/latex/erpya all-pdf"
+        buil-command: "make latexpdf"
+#        build-command: "make -C _build/latex/erpya all-pdf"
     - uses: actions/upload-artifact@v1
       with:
         name: DocumentationPDF
