@@ -33,7 +33,7 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: DocumentaciónPDF
-        path: src/_build/latex/erpya.pdf
+        path: src/_build/latex/
     - uses: idlefingers/do-space-sync-action@master
       with:
         args: --acl public-read
