@@ -23,7 +23,7 @@ jobs:
         build-command: "sphinx-build -b html -d _build/doctrees  . _build/html/erpya"
     - uses: actions/upload-artifact@v1
       with:
-        name: DocumentaciónHTML
+        name: DocumentationHTML
         path: src/_build/html/erpya
     - uses: ammaraskar/sphinx-action@master
       with:
@@ -32,7 +32,7 @@ jobs:
         build-command: "sphinx-build -b epub -d _build/doctrees  . _build/epub/erpya"
     - uses: actions/upload-artifact@v1
       with:
-        name: DocumentaciónEPUB
+        name: DocumentationEPUB
         path: src/_build/epub/erpya
     - uses: ammaraskar/sphinx-action@master
       with:
@@ -41,7 +41,7 @@ jobs:
         build-command: "sphinx-build -b latex -d _build/doctrees  . _build/latex/erpya"
     - uses: actions/upload-artifact@v1
       with:
-        name: DocumentaciónPDF
+        name: DocumentationPDF
         path: src/_build/latex/erpya
 #    - uses: idlefingers/do-space-sync-action@master
 #      with:
