@@ -37,7 +37,7 @@ jobs:
     - uses: idlefingers/do-space-sync-action@master
       with:
         args: --acl public-read
-      env:
+#      env:
 #        SOURCE_DIR: 'src/_build/latex/erpya.pdf'
 #        SPACE_NAME: ${{ secrets.SPACE_NAME }}
 #        SPACE_REGION: ${{ secrets.SPACE_REGION}}
