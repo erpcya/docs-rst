@@ -3,7 +3,7 @@
 
 # You can set these variables from the command line.
 LANGUAGES			= es en
-SPHINXOPTS    +=
+SPHINXOPTS    =
 SPHINXBUILD   = sphinx-build
 PAPER         =
 BUILDDIR      = _build
