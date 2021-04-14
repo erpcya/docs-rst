@@ -24,19 +24,28 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: DocumentaciónHTML
-        path: src/_build/html/
+        path: src/_build/html/erpya
+    - uses: ammaraskar/sphinx-action@master
+      with:
+        pre-build-command: "pip install sphinx_rtd_theme"
+        docs-folder: "src/"
+        build-command: "sphinx-build -b epub -d _build/doctrees  . _build/epub"
+    - uses: actions/upload-artifact@v1
+      with:
+        name: DocumentaciónEPUB
+        path: src/_build/epub/erpya
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
         docs-folder: "src/"
-        build-command: "sphinx-build -b latex -d _build/doctrees  . _build/latex/erpya"
+        build-command: "sphinx-build -b latex -d _build/doctrees  . _build/latex"
     - uses: actions/upload-artifact@v1
       with:
         name: DocumentaciónPDF
-        path: src/_build/latex/
-    - uses: idlefingers/do-space-sync-action@master
-      with:
-        args: --acl public-read
+        path: src/_build/latex/erpya
+#    - uses: idlefingers/do-space-sync-action@master
+#      with:
+#        args: --acl public-read
 #      env:
 #        SOURCE_DIR: 'src/_build/latex/erpya.pdf'
 #        SPACE_NAME: ${{ secrets.SPACE_NAME }}
