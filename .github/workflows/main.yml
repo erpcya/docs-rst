@@ -42,7 +42,7 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: DocumentationPDF
-        path: src/_build/latex/erpya
+        path: src/_build/latex/erpya.pdf
     - uses: idlefingers/do-space-sync-action@master
       with:
         args: --acl public-read
