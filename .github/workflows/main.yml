@@ -36,10 +36,10 @@ jobs:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
         build-command: "make latexpdf"
         docs-folder: "src/"
-#    - uses: actions/upload-artifact@v1
-#      with:
-#        name: DocumentacionPDF
-#        path: src/_build/latex/erpya.pdf
+    - uses: actions/upload-artifact@v1
+      with:
+        name: DocumentacionPDF
+        path: src/_build/latex/erpya.pdf
     - uses: idlefingers/do-space-sync-action@master
       with:
         args: --acl public-read --follow-symlinks --delete
