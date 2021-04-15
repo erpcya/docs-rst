@@ -52,12 +52,12 @@ jobs:
         git commit -m "Update documentation" -a || true
         # The above command will fail if no changes were present, so we ignore
         # that.
-    - name: Push changes
-      uses: ad-m/github-push-action@master
-      with:
-        branch: gh-pages
-        directory: gh-pages
-        github_token: ${{ secrets.GITHUB_TOKEN }}
+#    - name: Push changes
+#      uses: ad-m/github-push-action@master
+#      with:
+#        branch: gh-pages
+#        directory: gh-pages
+#        github_token: ${{ secrets.GITHUB_TOKEN }}
     - uses: idlefingers/do-space-sync-action@master
       with:
         args: --acl public-read --follow-symlinks --delete
