@@ -34,11 +34,11 @@ jobs:
 #      with:
 #        name: DocumentationEPUB
 #        path: src/_build/epub/
-    - uses: ammaraskar/sphinx-action@master
-      with:
-        pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
-        docs-folder: "src/"
-        build-command: "sphinx-build -b latex -d _build/doctrees . _build/latex/erpya"
+#    - uses: ammaraskar/sphinx-action@master
+#      with:
+#        pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
+#        docs-folder: "src/"
+#        build-command: "sphinx-build -b latex -d _build/doctrees . _build/latex/erpya"
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
