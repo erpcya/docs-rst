@@ -10,5 +10,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
     :maxdepth: 2
 
     create-purchase-orders-from-requisitions/index
+    create-purchase-order-from-requisition-lines/index
     direct-order/index
     multi-currency-purchase-order
