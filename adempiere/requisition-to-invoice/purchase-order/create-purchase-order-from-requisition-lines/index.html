@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Orden de Compra Directa &mdash; ERPYA 1.0 Documentation</title>
+  <title>Crear Orden de Compra desde Líneas de la Requisición &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -41,8 +41,8 @@
     
     <link rel="index" title="Index" href="../../../../genindex.html" />
     <link rel="search" title="Search" href="../../../../search.html" />
-    <link rel="next" title="Registro de Orden de Compra Directa" href="purchase-order.html" />
-    <link rel="prev" title="Crear Orden de Compra desde Líneas de la Requisición" href="../create-purchase-order-from-requisition-lines/create-purchase-order-from-requisition-lines.html" /> 
+    <link rel="next" title="Crear Orden de Compra desde Líneas de la Requisición" href="create-purchase-order-from-requisition-lines.html" />
+    <link rel="prev" title="Registro de Orden de Compra desde Requisición" href="../create-purchase-orders-from-requisitions/create-purchase-orders-from-requisitions.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -122,11 +122,11 @@
 <li class="toctree-l2"><a class="reference internal" href="../../requisition/index.html"><strong>Requisición a Compra</strong></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>Órdenes de Compra</strong></a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="../create-purchase-orders-from-requisitions/index.html"><strong>Crear Orden de Compra desde Requisición</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="../create-purchase-order-from-requisition-lines/index.html"><strong>Crear Orden de Compra desde Líneas de la Requisición</strong></a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Orden de Compra Directa</strong></a><ul>
-<li class="toctree-l4"><a class="reference internal" href="purchase-order.html"><strong>Registro de Orden de Compra Directa</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Crear Orden de Compra desde Líneas de la Requisición</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="create-purchase-order-from-requisition-lines.html"><strong>Crear Orden de Compra desde Líneas de la Requisición</strong></a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="../direct-order/index.html"><strong>Orden de Compra Directa</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="../multi-currency-purchase-order.html"><strong>Orden de Compra Multimoneda</strong></a></li>
 </ul>
 </li>
@@ -217,13 +217,13 @@
         
           <li><a href="../index.html"><strong>Órdenes de Compra</strong></a> &raquo;</li>
         
-      <li><strong>Orden de Compra Directa</strong></li>
+      <li><strong>Crear Orden de Compra desde Líneas de la Requisición</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../../../../_sources/adempiere/requisition-to-invoice/purchase-order/direct-order/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../../../_sources/adempiere/requisition-to-invoice/purchase-order/create-purchase-order-from-requisition-lines/index.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -236,13 +236,13 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="orden-de-compra-directa">
-<span id="src-adempiere-requisition-to-invoice-purchase-order-direct-order"></span><h1><strong>Orden de Compra Directa</strong><a class="headerlink" href="#orden-de-compra-directa" title="Permalink to this headline">¶</a></h1>
-<p>Una orden de compra es un documento elaborado por el departamento de compras de una empresa determinada, contiene los productos y servicios que dicha empresa necesita, la cantidad y los precios acordados con el proveedor a la que va dirigida, así como el sello del departamento de compras y la firma del jefe de dicho departamento.</p>
-<p>En ADempiere es posible generar una orden de compra directa. El presente material elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en ADempiere una orden de compra, en su versión 3.9.2 para la localización Venezuela.</p>
+  <div class="section" id="crear-orden-de-compra-desde-lineas-de-la-requisicion">
+<span id="src-adempiere-requisition-to-invoice-purchase-order-create-purchase-order-from-requisition-lines"></span><h1><strong>Crear Orden de Compra desde Líneas de la Requisición</strong><a class="headerlink" href="#crear-orden-de-compra-desde-lineas-de-la-requisicion" title="Permalink to this headline">¶</a></h1>
+<p>En ADempiere es posible generar automáticamente mediante el proceso “<strong>Crear Orden de Compra desde Líneas de la Requisición</strong>”, un documento de “<strong>Orden de Compra</strong>” con la información suministrada en el documento de “<strong>Requisición</strong>” previamente elaborado.</p>
+<p>El presente material elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar en ADempiere una orden de compra desde las líneas de la requisición.</p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="purchase-order.html"><strong>Registro de Orden de Compra Directa</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="create-purchase-order-from-requisition-lines.html"><strong>Crear Orden de Compra desde Líneas de la Requisición</strong></a></li>
 </ul>
 </div>
 </div>
@@ -253,8 +253,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="purchase-order.html" class="btn btn-neutral float-right" title="Registro de Orden de Compra Directa" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="../create-purchase-order-from-requisition-lines/create-purchase-order-from-requisition-lines.html" class="btn btn-neutral float-left" title="Crear Orden de Compra desde Líneas de la Requisición" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="create-purchase-order-from-requisition-lines.html" class="btn btn-neutral float-right" title="Crear Orden de Compra desde Líneas de la Requisición" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../create-purchase-orders-from-requisitions/create-purchase-orders-from-requisitions.html" class="btn btn-neutral float-left" title="Registro de Orden de Compra desde Requisición" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

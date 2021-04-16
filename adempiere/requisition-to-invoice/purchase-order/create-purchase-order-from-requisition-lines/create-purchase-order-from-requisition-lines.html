@@ -1,0 +1,572 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Crear Orden de Compra desde Líneas de la Requisición &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Orden de Compra Directa" href="../direct-order/index.html" />
+    <link rel="prev" title="Crear Orden de Compra desde Líneas de la Requisición" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/bot/index.html"><strong>Soporte en Bot</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Gestión de Compras</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../request-for-quotation/index.html"><strong>Solicitud de Cotización a Proveedor</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../requisition/index.html"><strong>Requisición a Compra</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>Órdenes de Compra</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../create-purchase-orders-from-requisitions/index.html"><strong>Crear Orden de Compra desde Requisición</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html"><strong>Crear Orden de Compra desde Líneas de la Requisición</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>Crear Orden de Compra desde Líneas de la Requisición</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../direct-order/index.html"><strong>Orden de Compra Directa</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../multi-currency-purchase-order.html"><strong>Orden de Compra Multimoneda</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../invoice/index.html"><strong>Documento por Pagar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../material-receipt/index.html"><strong>Recepción de Productos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../assign-purchase-order-receipt-invoice.html"><strong>Asignación de Factura a Recepción</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../credit-note-cxp.html"><strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../debit-note-cxp.html"><strong>Nota de Débito</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../bot/index.html"><strong>Bot</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><strong>Gestión de Compras</strong></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Órdenes de Compra</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Crear Orden de Compra desde Líneas de la Requisición</strong></a> &raquo;</li>
+        
+      <li><strong>Crear Orden de Compra desde Líneas de la Requisición</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/adempiere/requisition-to-invoice/purchase-order/create-purchase-order-from-requisition-lines/create-purchase-order-from-requisition-lines.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="crear-orden-de-compra-desde-lineas-de-la-requisicion">
+<span id="documento-crear-oc-desde-lineas-de-la-requisicon"></span><h1><strong>Crear Orden de Compra desde Líneas de la Requisición</strong><a class="headerlink" href="#crear-orden-de-compra-desde-lineas-de-la-requisicion" title="Permalink to this headline">¶</a></h1>
+<p>Para ejecutar el procedimiento de manera correcta, debe existir obligatoriamente un registro de requisición en estado “<strong>Completo</strong>. En este caso, se tiene como ejemplo la requisición “<strong>RCN-4</strong>”.</p>
+<blockquote>
+<div><p><img alt="requisición para el proceso crear oc desde líneas de requisición" src="../../../../_images/requisition-for-the-process-create-oc-from-requisition-lines.png" /></p>
+<p>Imagen 1. Requisición</p>
+<p>Dicha requisición contiene cuatro (4) líneas.</p>
+<p><img alt="pestaña línea requisición" src="../../../../_images/requisition-line-tab.png" /></p>
+<p>Imagen 2. Pestaña Línea Requisición</p>
+</div></blockquote>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione el proceso “<strong>Crear Orden de Compra desde líneas de la Requisición</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú del proceso crear oc desde líneas de requisición" src="../../../../_images/process-menu-create-oc-from-requisition-lines.png" /></p>
+<p>Imagen 3. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana del proceso “<strong>Crear Orden de Compra desde líneas de la Requisición</strong>”, con diferentes campos que le permite al usuario filtrar la información en base a lo requerido para generar la orden de compra con las líneas seleccionadas de dicha requisición.</p>
+<blockquote>
+<div><p><img alt="ventana del proceso crear oc desde líneas de requisición" src="../../../../_images/process-window-create-oc-from-requisition-lines.png" /></p>
+<p>Imagen 4. Ventana del Proceso Crear Orden de Compra desde Líneas de Requisición</p>
+<p>Introduzca en el campo “<strong>No. del Documento</strong>”, el número de documento de la requisición por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo número del documento de la requisición" src="../../../../_images/requisition-document-number-field.png" /></p>
+<p>Imagen 5. Campo No. del Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la fue realizada la requisición.</p>
+<blockquote>
+<div><p><img alt="campo organización de la requisición" src="../../../../_images/requisition-organization-field.png" /></p>
+<p>Imagen 6. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento</strong>”, el tipo de documento con el cual fue generada la requisición.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento de la requisición" src="../../../../_images/requisition-document-type-field.png" /></p>
+<p>Imagen 7. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Prioridad</strong>”, la prioridad con la cual fue generada la requisición.</p>
+<blockquote>
+<div><p><img alt="campo prioridad de la requisición" src="../../../../_images/requisition-priority-field.png" /></p>
+<p>Imagen 8. Campo Prioridad</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Requerida</strong>”, la fecha en la que fueron requeridos los productos cargados a las líneas de la requisición.</p>
+<blockquote>
+<div><p><img alt="campo fecha requerida de la requisición" src="../../../../_images/requisition-required-date-field.png" /></p>
+<p>Imagen 9. Campo Fecha Requerida</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>F. Documento</strong>”, la fecha en la que fue generado el documento de requisición.</p>
+<blockquote>
+<div><p><img alt="campo fecha del documento de la requisición" src="../../../../_images/date-field-of-the-requisition-document.png" /></p>
+<p>Imagen 10. Campo F. Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Usuario</strong>”, el usuario que genero el documento de requisición.</p>
+<blockquote>
+<div><p><img alt="campo usuario de la requisición" src="../../../../_images/request-user-field.png" /></p>
+<p>Imagen 11. Campo Usuario</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Almacén</strong>”, el almacén utilizado para generar la requisición.</p>
+<blockquote>
+<div><p><img alt="campo almacén de la requisición" src="../../../../_images/requisition-warehouse-field.png" /></p>
+<p>Imagen 12. Campo Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios utilizada para generar la requisición.</p>
+<blockquote>
+<div><p><img alt="campo lista de precios de la requisición" src="../../../../_images/requisition-price-list-field.png" /></p>
+<p>Imagen 13. Campo Lista de Precios</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, la descripción ingresada en la requisición.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la requisición" src="../../../../_images/requisition-description-field.png" /></p>
+<p>Imagen 14. Campo Descripción</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Total de Líneas</strong>”, el total de las líneas de la requisición.</p>
+<blockquote>
+<div><p><img alt="campo total de líneas de la requisición" src="../../../../_images/total-field-of-requisition-lines.png" /></p>
+<p>Imagen 15. Campo Total de Líneas</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio seleccionado en las líneas de la requisición.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio de la requisición" src="../../../../_images/requisition-business-partner-field.png" /></p>
+<p>Imagen 16. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Orden de Venta</strong>”, la orden de venta relacionada a la requisición.</p>
+<blockquote>
+<div><p><img alt="campo orden de venta de la requisición" src="../../../../_images/sales-order-field-of-the-requisition.png" /></p>
+<p>Imagen 17. Campo Orden de Venta</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto seleccionado en las líneas de la requisición.</p>
+<blockquote>
+<div><p><img alt="campo producto de la requisición" src="../../../../_images/field-product-of-the-requisition.png" /></p>
+<p>Imagen 18. Campo Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo relacionado a la requisición.</p>
+<blockquote>
+<div><p><img alt="campo cargo de la requisición" src="../../../../_images/requisition-charge-field.png" /></p>
+<p>Imagen 19. Campo Cargo</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Cantidad</strong>”, la cantidad del producto ingresada en las líneas de la requisición.</p>
+<blockquote>
+<div><p><img alt="campo cantidad de la requisición" src="../../../../_images/requisition-quantity-field.png" /></p>
+<p>Imagen 20. Campo Cantidad</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Neto de Línea</strong>”, el neto de la línea de la requisición.</p>
+<blockquote>
+<div><p><img alt="campo neto de la línea de la requisición" src="../../../../_images/net-field-of-the-requisition-line.png" /></p>
+<p>Imagen 21. Campo Neto de Línea</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización de la Transacción</strong>”, la organización de la transacción de la requisición.</p>
+<blockquote>
+<div><p><img alt="campo organización de la transacción de la requisición" src="../../../../_images/organization-field-of-the-requisition-transaction.png" /></p>
+<p>Imagen 22. Campo Organización de la Trans.</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Actividad</strong>”, la actividad por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo actividad de la requisición" src="../../../../_images/field-activity-of-the-requisition.png" /></p>
+<p>Imagen 23. Campo Actividad</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Campaña</strong>”, la campaña por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo campaña de la requisición" src="../../../../_images/field-requisition-campaign.png" /></p>
+<p>Imagen 24. Campo Campaña</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Proyecto</strong>”, el proyecto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo proyecto de la requisición" src="../../../../_images/requisition-project-field.png" /></p>
+<p>Imagen 25. Campo Proyecto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Centro de Costos</strong>”, el centro de costos por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo centro de costos de la requisición" src="../../../../_images/requisition-cost-center-field.png" /></p>
+<p>Imagen 26. Campo Centro de Costos</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Usuario 2</strong>”, el usuario dos (2) por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo usuario dos de la requisición" src="../../../../_images/user-field-two-of-the-requisition.png" /></p>
+<p>Imagen 27. Campo Usuario 2</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Usuario e</strong>”, el usuario tres (3) por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo usuario tres de la requisición" src="../../../../_images/user-field-three-of-the-requisition.png" /></p>
+<p>Imagen 28. Campo Usuario 3</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Usuario 4</strong>”, el usuario cuatro (4) por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo usuario cuatro de la requisición" src="../../../../_images/user-field-four-of-the-requisition.png" /></p>
+<p>Imagen 29. Campo Usuario 4</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para filtrar la información en base a lo seleccionado en los campos nombrados anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción comenzar búsqueda del proceso crear oc desde líneas de requisición" src="../../../../_images/option-start-process-search-create-oc-from-requisition-lines.png" /></p>
+<p>Imagen 30. Opción Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Podrá visualizar los resultados de la búsqueda, donde se refleja la información ingresada en las líneas de la requisición.</p>
+<blockquote>
+<div><p><img alt="resultados de búsqueda del proceso crear oc desde líneas de requisición" src="../../../../_images/search-results-of-create-oc-process-from-requisition-lines.png" /></p>
+<p>Imagen 31. Resultados de Búsqueda</p>
+</div></blockquote>
+<p>Seleccione las líneas de la requisición para crear la orden de compra desde las mismas.</p>
+<blockquote>
+<div><p><img alt="selección de líneas de requisición para orden de compra" src="../../../../_images/selection-of-requisition-lines-for-purchase-order.png" /></p>
+<p>Imagen 32. Seleccione de Líneas de Requisición</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al seleccionar cualquiera de los registros, se habilitan diferentes campos que le permiten al usuario ingresar o modificar los valores en los mismos.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento</strong>”, el tipo de documento con el cual será generado el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento para la orden de compra" src="../../../../_images/document-type-field-for-purchase-order.png" /></p>
+<p>Imagen 33. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Prioridad</strong>”, la prioridad con la cual será generado el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo prioridad para la orden de compra" src="../../../../_images/priority-field-for-purchase-order.png" /></p>
+<p>Imagen 34. Campo Prioridad</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio con el cual será generada la orden.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio para la orden de compra" src="../../../../_images/business-partner-field-for-purchase-order.png" /></p>
+<p>Imagen 35. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Dirección del Socio del Negocio</strong>”, la dirección del socio del negocio seleccionado para la orden.</p>
+<blockquote>
+<div><p><img alt="campo dirección del socio del negocio para la orden de compra" src="../../../../_images/business-partner-address-field-for-the-purchase-order.png" /></p>
+<p>Imagen 36. Campo Dirección del Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de la Orden</strong>”, la fecha de la orden con la cual será generada la orden.</p>
+<blockquote>
+<div><p><img alt="campo fecha de la orden para la orden de compra" src="../../../../_images/order-date-field-for-the-purchase-order.png" /></p>
+<p>Imagen 37. Campo Fecha de la Orden</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Prometida</strong>”, la fecha prometida con la cual será generada la orden.</p>
+<blockquote>
+<div><p><img alt="campo fecha prometida para la orden de compra" src="../../../../_images/promised-date-field-for-the-purchase-order.png" /></p>
+<p>Imagen 38. Campo Fecha Prometida</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Agente Comercial</strong>”, el agente comercial con el cual será generada la orden.</p>
+<blockquote>
+<div><p><img alt="campo agente comercial para la orden de compra" src="../../../../_images/commercial-agent-field-for-the-purchase-order.png" /></p>
+<p>Imagen 39. Campo Agente Comercial</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Termino de Pago</strong>”, el termino de pago con el cual será generado el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo termino de pago para la orden de compra" src="../../../../_images/payment-term-field-for-the-purchase-order.png" /></p>
+<p>Imagen 40. Campo Termino de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios con la cual será generada la orden.</p>
+<blockquote>
+<div><p><img alt="campo lista de precios para la orden de compra" src="../../../../_images/price-list-field-for-purchase-order.png" /></p>
+<p>Imagen 41. Campo Lista de Precios</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Referencia de Orden de Socio del Negocio</strong>”, la referencia de orden de socio del negocio.</p>
+<blockquote>
+<div><p><img alt="campo referencia de orden de socio del negocio para la orden de compra" src="../../../../_images/business-partner-order-reference-field-for-purchase-order.png" /></p>
+<p>Imagen 42. Campo Referencia de Orden de Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Acción del Documento</strong>”, la acción de documento con la cual será generado al documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo acción del documento para la orden de compra" src="../../../../_images/action-field-of-the-document-for-the-purchase-order.png" /></p>
+<p>Imagen 43. Campo Acción del Documento</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para generar el documento “<strong>Orden de Compra</strong>” en base a lo seleccionado en los campos nombrados anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción ok para generar la orden de compra" src="../../../../_images/ok-option-to-generate-the-purchase-order.png" /></p>
+<p>Imagen 44. Opción OK</p>
+</div></blockquote>
+<p>Al ubicar en la ventana “<strong>Órdenes de Compra</strong>”, el registro de la orden de compra creado, podrá visualizar que el mismo fue generado en estado “<strong>Borrador</strong>”.</p>
+<blockquote>
+<div><p><img alt="ubicar registro de orden de compra" src="../../../../_images/locate-purchase-order-record.png" /></p>
+<p>Imagen 45. Registro de Orden de Compra</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Línea Orden Compra</strong>”, de la ventana “<strong>Órdenes de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="pestaña línea orden compra de la ventana órdenes de compra" src="../../../../_images/purchase-order-line-tab-of-the-purchase-orders-window.png" /></p>
+<p>Imagen 46. Pestaña Línea de Orden</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Precio</strong>”, el precio del producto correspondiente al registro de la línea en la que se encuentra.</p>
+<blockquote>
+<div><p><img alt="campo precio de la pestaña línea de la orden" src="../../../../_images/price-field-of-the-order-line-tab.png" /></p>
+<p>Imagen 47. Campo Precio</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde guardar el registro de los campos en pestaña “<strong>Línea Orden Compra</strong>”</p>
+</div>
+</div></blockquote>
+<p>Seleccione la pestaña principal “<strong>Orden de Compra</strong>” para proceder a completar el registro.</p>
+<blockquote>
+<div><p><img alt="pestaña principal orden de compra" src="../../../../_images/purchase-order-main-tab.png" /></p>
+<p>Imagen 48. Pestaña Orden de Compra</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Preparar</strong>”, ubicado en la parte inferior de la ventana “<strong>Órdenes de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción completar de la ventana órdenes de compra" src="../../../../_images/complete-option-from-the-purchase-orders-window.png" /></p>
+<p>Imagen 49. Opción Preparar</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el proceso.</p>
+<blockquote>
+<div><p><img alt="acción completar y opción ok" src="../../../../_images/action-complete-and-option-ok4.png" /></p>
+<p>Imagen 50. Acción Completar y Opción OK</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../direct-order/index.html" class="btn btn-neutral float-right" title="Orden de Compra Directa" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="Crear Orden de Compra desde Líneas de la Requisición" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
