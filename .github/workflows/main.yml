@@ -21,7 +21,7 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: DocumentacionHTML
-        path: src/_build/html/erpya.html
+        path: src/_build/html/erpya.zip
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "pip install sphinx_rtd_theme"
