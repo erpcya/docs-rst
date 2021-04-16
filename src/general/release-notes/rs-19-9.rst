@@ -9,7 +9,7 @@
 ------------------------
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
-- CST-STD: Versión de Liberación: rs-20.6
+- CST-STD: Versión de Liberación: rs-20.8
 - Consigned-Material: 1.1.8
 - Exchange-Operation-System: 1.1.5
 - Cash-Management: 1.0.4
