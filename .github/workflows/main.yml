@@ -21,7 +21,7 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: DocumentacionHTML
-        path: src/_build/html/
+        path: src/_build/html/erpya.html
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "pip install sphinx_rtd_theme"
@@ -30,7 +30,7 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: DocumentacionEPUB
-        path: src/_build/epub/
+        path: src/_build/epub/erpya.epub
     - uses: ammaraskar/sphinx-action@master
       with:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
