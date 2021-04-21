@@ -11,6 +11,6 @@
 **Novedades:**
 --------------
 
-- Se agrega la documentación del servicio "**Bot**" que le explica a los usuarios la "**Configuración en ADempiere**", "**Interfaz del Bot**" y el "**Uso del Bot**", con la finalidad de que los usuarios puedan obtener de ADempiere de manera rápida, los reportes requeridos por los mismos.
+- Se agrega la documentación del servicio :ref:`src/bot` que le explica a los usuarios la :ref:`documento/configuración-de-bot-en-adempiere`, :ref:`documento/interfaz-del-bot` y el :ref:`documento/uso-del-bot`, con la finalidad de que los usuarios puedan obtener de ADempiere de manera rápida, los reportes requeridos por los mismos.
 
-- Se agrega la documentación de la herramienta "**Soporte en Bot**", con la finalidad de dar a conocer los procedimientos de "**Consultar Tareas**" y "**Consultar Tareas Específicas**", que los usuarios pueden realizar para obtener información sobre las tareas del "**OpenProject**".
+- Se agrega la documentación de la herramienta :ref:`src/general/bot`, con la finalidad de dar a conocer los procedimientos de :ref:`documento/consultar-tareas` y :ref:`documento/consultar-tarea-específica`, que los usuarios pueden realizar para obtener información sobre las tareas del "**OpenProject**".

@@ -1,46 +1,65 @@
 .. _ERPyA: http://erpya.com
-.. |menu documentos por pagar| image:: resources/documents-payable-menu.png
-.. |ventana documentos por pagar| image:: resources/payable-documents-window.png
-.. |icono registro nuevo de la ventana documentos por pagar| image:: resources/new-registration-icon-in-the-documents-payable-window.png
-.. |campo organizacion de la ventana documentos por pagar| image:: resources/window-organization-field-documents-payable.png
-.. |campo nro del documento de la ventana documentos por pagar| image:: resources/document-number-field-of-the-papers-payable-window.png
-.. |campo control nro de la ventana documentos por pagar| image:: resources/control-field-number-of-the-documents-payable-window.png
-.. |campo descripcion de la ventana documentos por pagar| image:: resources/field-description-of-the-window-documents-payable.png
-.. |campo fecha de facturacion de la ventana documentos por pagar| image:: resources/invoice-date-field-of-the-documents-payable-window.png
-.. |campo referencia de orden de socio del negocio de la ventana documentos por pagar| image:: resources/business-partner-order-reference-field-of-the-payables-window.png
-.. |campo socio del negocio de la ventana documentos por pagar| image:: resources/business-partner-field-of-payables-window.png
-.. |campo tipo de documento de la ventana documentos por pagar débito| image:: resources/document-type-field-of-the-documents-payable-debit-window.png
-.. |campo direccion del socio del negocio de la ventana documentos por pagar débito| image:: resources/field-address-of-the-business-partner-of-the-window-documents-payable-debit.png
-.. |campo usuario de la ventana documentos por pagar débito| image:: resources/user-field-of-documents-payable-debit-window.png
-.. |campo factura afectada de la ventana documentos por pagar débito| image:: resources/affected-invoice-field-of-the-documents-payable-debit-window.png
-.. |campo lista de precios de la ventana documentos por pagar débito| image:: resources/debit-payable-documents-window-price-list-field.png
-.. |campo moneda de la ventana documentos por pagar débito| image:: resources/currency-field-of-the-documents-payable-debit-window.png
-.. |checklist documento fiscal de la ventana documentos por pagar débito| image:: resources/checklist-fiscal-document-of-the-window-documents-payable-debit.png
-.. |pestaña linea de factura de la ventana documentos por pagar débito| image:: resources/invoice-line-tab-of-the-documents-payable-debit-window.png
-.. |campo factura de la pestaña linea de factura débito| image:: resources/invoice-field-of-the-debit-invoice-line-tab.png
-.. |campo nro linea de la pestaña linea de factura débito| image:: resources/field-number-line-of-the-debit-invoice-line-tab.png
-.. |campo producto de la pestaña linea de factura débito| image:: resources/product-field-of-the-debit-invoice-line-tab.png
-.. |campo cargo de la pestaña linea de factura débito| image:: resources/charge-field-of-the-debit-invoice-line-tab.png
-.. |campo descripcion de la pestaña linea de factura débito| image:: resources/field-description-of-the-debit-invoice-line-tab.png
-.. |campo cantidad de la pestaña linea de factura débito| image:: resources/amount-field-of-the-debit-invoice-line-tab.png
-.. |campo um de la pestaña linea de factura débito| image:: resources/um-field-of-the-debit-invoice-line-tab.png
-.. |campo precio de la pestaña linea de factura débito| image:: resources/price-field-of-the-debit-invoice-line-tab.png
-.. |campo cantidad facturada de la pestaña linea de factura débito| image:: resources/invoiced-amount-field-of-the-debit-invoice-line-tab.png
-.. |campo precio de lista de la pestaña linea de factura débito| image:: resources/list-price-field-of-the-debit-invoice-line-tab.png
-.. |campo precio actual de la pestaña linea de factura débito| image:: resources/current-price-field-of-the-debit-invoice-line-tab.png
-.. |campo factura afectada de la pestaña linea de factura débito| image:: resources/affected-invoice-field-of-the-debit-invoice-line-tab.png
-.. |campo impuesto de la pestaña linea de factura débito| image:: resources/tax-field-of-the-debit-invoice-line-tab.png
-.. |campo neto de linea de la pestaña linea de factura débito| image:: resources/net-line-field-of-the-debit-invoice-line-tab.png
-.. |checklist procesado de la pestaña linea de factura débito| image:: resources/checklist-processed-from-the-debit-invoice-line-tab.png
-.. |pestaña principal factura débito| image:: resources/main-tab-debit-invoice.png
-.. |campo orden de compra de la ventana documentos por pagar débito| image:: resources/purchase-order-field-of-the-documents-payable-debit-window.png
-.. |checklist pagado de la ventana documentos por pagar débito| image:: resources/paid-checklist-from-the-documents-payable-debit-window.png
-.. |campo total lineas de la ventana documentos por pagar débito| image:: resources/total-field-lines-of-the-window-documents-payable-debit.png
-.. |campo gran total de la ventana documentos por pagar débito| image:: resources/grand-total-field-of-documents-payable-debit-window.png
-.. |campo estado del documento de la ventana documentos por pagar débito| image:: resources/document-status-field-of-the-documents-payable-debit-window.png
-.. |campo tipo de documento en la ventana documentos por pagar débito| image:: resources/document-type-field-in-the-documents-payable-debit-window.png
-.. |opcion procesar factura del icono proceso débito| image:: resources/option-process-invoice-from-debit-process-icon.png
-.. |completar documento| image:: resources/complete-document.png
+
+.. |Menú de ADempiere| image:: resources/documents-payable-menu.png
+.. |Ventana Documentos por Pagar| image:: resources/documents-payable-window.png
+.. |Icono Registro Nuevo de la Ventana Documentos por Pagar| image:: resources/new-record-icon-in-the-documents-payable-window.png
+.. |Campo Organización de la Nota de Débito de CxP| image:: resources/window-organization-field-documents-payable.png
+.. |Campo Orden de Compra de la Nota de Débito de CxP| image:: resources/purchase-order-field-of-the-payables-window.png
+.. |Campo Fecha de la Orden de la Nota de Débito de CxP| image:: resources/date-field-of-the-order-of-the-payables-window.png
+.. |Campo Nro del Documento de la Nota de Débito de CxP| image:: resources/document-number-field-of-the-papers-payable-window.png
+.. |Campo Referencia de Orden de Socio del Negocio de la Nota de Débito de CxP| image:: resources/business-partner-order-reference-field-of-the-payables-window.png
+.. |Campo Descripción de la Nota de Débito de CxP| image:: resources/documents-payable-window-description-field.png
+.. |Campo Tipo de Documento Destino de la Nota de Débito de CxP| image:: resources/cxp-debit-note-document-type-field.png
+.. |Campo Fecha de Facturación de la Nota de Débito de CxP| image:: resources/cxp-debit-note-billing-date-field.png
+.. |Campo Fecha Contable de la Nota de Débito de CxP| image:: resources/cxp-debit-memo-posting-date-field.png
+.. |Campo Socio del Negocio de la Nota de Débito de CxP| image:: resources/cxp-debit-memo-business-partner-field.png
+.. |Campo Dirección de Socio del Negocio de la Nota de Débito de CxP| image:: resources/cxp-debit-memo-business-partner-address-field.png
+.. |Campo Usuario de la Nota de Débito de CxP| image:: resources/cxp-debit-note-user-field.png
+.. |Campo Lista de Precios de la Nota de Débito de CxP| image:: resources/cxp-debit-note-pricelist-field.png
+.. |Campo Moneda de la Nota de Débito de CxP| image:: resources/currency-field-of-the-cxp-debit-note.png
+.. |Campo Agente Compañía de la Nota de Débito de CxP| image:: resources/cxp-debit-memo-company-agent-field.png
+.. |Checklist Imprimir Descuento de la Nota de Débito de CxP| image:: resources/checklist-print-cxp-debit-note-discount.png
+.. |Opción Cheque de la Nota de Débito de CxP| image:: resources/cxp-debit-note-check-option.png
+.. |Opción Crear Desde Factura de la Nota de Débito de CxP| image:: resources/option-create-from-cxp-debit-note-invoice.png
+.. |Opción Generar Recibos desde Facturas de la Nota de Débito de CxP| image:: resources/option-generate-receipts-from-cxp-debit-note-invoices.png
+.. |Checklist Documento Fiscal de la Nota de Débito de CxP| image:: resources/checklist-fiscal-document-of-the-debit-note-of-cxp.png
+.. |Campo Control Nro de la Nota de Débito de CxP| image:: resources/control-field-number-of-the-cxp-debit-note.png
+.. |Campo Código Sunagro de la Nota de Débito de CxP| image:: resources/sunagro-code-field-of-the-cxp-debit-note.png
+.. |Campo Lista de la Nota de Débito de CxP| image:: resources/cxp-debit-memo-list-field.png
+.. |Campo Región de Ventas de la Nota de Débito de CxP| image:: resources/cxp-debit-memo-sales-region-field.png
+.. |Campo Factura Afectada de la Nota de Débito de CxP| image:: resources/affected-invoice-field-of-the-cxp-debit-note.png
+.. |Checklist No Aplica Retención de IVA de la Nota de Débito de CxP| image:: resources/checklist-does-not-apply-vat-withholding-of-the-cxp-debit-note.png
+.. |Campo Centro de Costos de la Nota de Débito de CxP| image:: resources/cxp-debit-memo-cost-center-field.png
+.. |Campo Concepto de Retención de ISLR de la Nota de Débito de CxP| image:: resources/cxp-debit-note-islr-withholding-concept-field.png
+.. |Campo Actividad de la Nota de Débito de CxP| image:: resources/cxp-debit-memo-activity-field.png
+.. |Campo Retención de Terceros de la Nota de Débito de CxP| image:: resources/third-party-retention-field-of-cxp-debit-memo.png
+.. |Icono Guardar Cambios de la Nota de Débito de CxP| image:: resources/save-changes-to-cxp-debit-note-icon.png
+.. |Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/cxp-debit-memo-invoice-line-tab.png
+.. |Campo Nro Línea de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/field-number-line-of-the-line-tab-of-the-cxp-debit-note-invoice.png
+.. |Campo Producto de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/product-field-of-the-line-tab-of-the-cxp-debit-memo-invoice.png
+.. |Campo Cargo de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/charge-field-of-the-line-tab-of-the-cxp-debit-note-invoice.png
+.. |Campo Descripción de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/field-description-of-the-line-tab-of-the-cxp-debit-note-invoice.png
+.. |Campo Cantidad de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/amount-field-of-the-line-tab-of-the-debit-note-invoice-cxp.png
+.. |Campo UM de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/um-field-of-the-line-tab-of-the-cxp-debit-note-invoice.png
+.. |Campo Precio de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/price-field-of-the-line-tab-of-the-cxp-debit-note-invoice.png
+.. |Campo Precio Actual de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/current-price-field-of-the-line-tab-of-the-cxp-debit-memo-invoice.png
+.. |Campo Precio de Lista de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/list-price-field-of-cxp-debit-memo-invoice-line-tab.png
+.. |Campo Impuesto de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/tax-field-of-the-line-tab-of-the-cxp-debit-note-invoice.png
+.. |campo total del impuesto de la pestaña línea de factura de la nota de débito de cxp| image:: resources/total-tax-field-on-the-invoice-line-tab-of-the-cxp-debit-memo.png
+.. |Campo Factura Afectada de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/affected-invoice-field-of-the-invoice-line-tab-of-the-cxp-debit-memo.png
+.. |Campo Actividad de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/activity-field-of-the-line-tab-of-the-cxp-debit-note-invoice.png
+.. |Campo Centro de Costos de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/cost-center-field-of-the-line-tab-of-the-cxp-debit-memo-invoice.png
+.. |Campo Neto de Línea de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/line-net-field-of-cxp-debit-memo-invoice-line-tab.png
+.. |Campo Total de la Línea de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/total-field-of-the-line-of-the-invoice-line-tab-of-the-cxp-debit-memo.png
+.. |Icono Guardar Cambios de la Pestaña Línea de la Factura de la Nota de débito de CxP| image:: resources/save-changes-icon-of-cxp-debit-note-invoice-line-tab.png
+.. |Pestaña Principal Factura de la Nota de débito de CxP| image:: resources/cxp-debit-note-invoice-main-tab.png
+.. |Opción Completar de la Nota de débito de CxP| image:: resources/cxp-debit-note-complete-option.png
+.. |Acción Completar y Opción OK de la Nota de débito de CxP| image:: resources/action-complete-and-ok-option-of-the-cxp-debit-note.png
+.. |Registro de la Factura de la Nota de débito CxP| image:: resources/cxp-debit-memo-invoice-record.png
+.. |Acercar Asignación de Nota de débito de CxP| image:: resources/zoom-in-assigning-the-cxp-debit-note.png
+.. |Registro de Asignación de Nota de débito de CxP| image:: resources/cxp-debit-memo-assignment-record.png
+.. |Pestaña Asignaciones de Nota de débito de CxP| image:: resources/cxp-debit-memo-assignments-tab.png
+
 
 .. _documento/nota-de-débito-cxp:
 
@@ -54,293 +73,366 @@ A continuación es explicado el procedimiento para generar en ADempiere, una not
 **Registro de Nota de Débito**
 ------------------------------
 
-#. Ubique en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**", adjunto imagen para referencia.
+Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras**", luego seleccione la ventana "**Documentos por Pagar**".
 
-    |menu documentos por pagar|
+    |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Documentos por Pagar**", con todos los registros que contiene ADempiere referente a documentos por pagar.
+Podrá visualizar la ventana "**Documentos por Pagar**", con los diferentes registros de documentos por pagar cargados a ADempiere.
 
-    |ventana documentos por pagar|
+    |Ventana Documentos por Pagar|
 
-    Imagen 2. Ventana Documentos por Pagar 
+    Imagen 2. Ventana Documentos por Pagar
 
-#. Seleccione la opción "**Registro Nuevo**" en la barra de herramientas de ADempiere, para crear un documento nuevo en la ventana "**Documentos por Pagar**".
+Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro en la ventana "**Documentos por Pagar**".
 
-    |icono registro nuevo de la ventana documentos por pagar|
+    |Icono Registro Nuevo de la Ventana Documentos por Pagar|
 
-    Imagen 3. Registro Nuevo
+    Imagen 3. Icono Registro Nuevo de la Ventana Documentos por Pagar
 
-    #. Seleccione en el campo "**Organización**", la organización para la cual se encuentra realizando la nota de débito, el valor en el mismo debe ser diferente del símbolo (*).
+    Seleccione en el campo "**Organización**", la organización para la cual se encuentra realizando la nota de débito.
 
-        |campo organizacion de la ventana documentos por pagar|
+        |Campo Organización de la Nota de Débito de CxP|
 
-        Imagen 4. Campo Organización
+        Imagen 4. Campo Organización de la Ventana Documentos por Pagar
 
-    #. En el campo "**No. de Documento**", no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de documento por pagar.
+    Seleccione en el campo "**Orden de Compra**", la orden de compra por la cual requiere realizar la nota de débito.
 
-        |campo nro del documento de la ventana documentos por pagar|
+        |Campo Orden de Compra de la Nota de Débito de CxP|
 
-        Imagen 5. Campo No. del Documento
+        Imagen 5. Campo Orden de Compra de la Ventana Documentos por Pagar
 
-    #. Introduzca en el campo "**Contol No**", el número de control fiscal correspondiente al registro que se encuentra realizando.
+    Podrá visualizar en el campo "**Fecha de la Orden**", la fecha contable de la orden seleccionada en el campo "**Orden de Compra**".
 
-        |campo control nro de la ventana documentos por pagar|
+        |Campo Fecha de la Orden de la Nota de Débito de CxP|
 
-        Imagen 6. Campo Control No.
+        Imagen 6. Campo Fecha de la Orden de la Ventana Documentos por Pagar
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción con respecto al documento que se encuentra realizando.
+    Introduzca en el campo "**No. del Documento**", el número de identificación correspondiente al documento que se encuentra realizando.
 
-        |campo descripcion de la ventana documentos por pagar|
+        |Campo Nro del Documento de la Nota de Débito de CxP|
 
-        Imagen 7. Campo Descripción
+        Imagen 7. Campo No del Documento de la Ventana Documentos por Pagar
 
-    #. Seleccione en el campo "**Fecha de Facturación**", la fecha en la cual es realizado el documento.
+        .. note::
 
-        |campo fecha de facturacion de la ventana documentos por pagar|
+            Si no es ingresado ningún valor en este campo, ADempiere tomará el número de secuencia establecido para el tipo de documento seleccionado al guardar el mismo.
 
-        Imagen 8. Campo Fecha de Facturación
+    Introduzca en el campo "**Referencia de Orden de Socio del Negocio**", la referencia de orden de socio del negocio.
 
-    #. En el campo "**Referencia de Orden de Socio del Negocio**", se puede ingresar la referencia de orden del socio del negocio para esta transacción específica. Frecuentemente los números de orden de compras se dan para ser impresas en las facturas como una referencia más fácil.
+        |Campo Referencia de Orden de Socio del Negocio de la Nota de Débito de CxP|
 
-        |campo referencia de orden de socio del negocio de la ventana documentos por pagar|
+        Imagen 8. Campo Referencia de Orden de Socio del Negocio de la Ventana Documentos por Pagar
 
-        Imagen 9. Campo Referencia de Orden de Socio del Negocio
+    Introduzca en el campo "**Descripción**", una breve descripción con respecto al documento que se encuentra realizando.
 
-    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio al cual le esta aplicando la nota de débito.
+        |Campo Descripción de la Nota de Débito de CxP|
 
-        |campo socio del negocio de la ventana documentos por pagar|
+        Imagen 9. Campo Descripción de la Ventana Documentos por Pagar
 
-        Imagen 10. Campo Socio del Negocio
+    Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_.
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento "**Tipo de Documento**" elaborado por `ERPyA`_.
+        |Campo Tipo de Documento Destino de la Nota de Débito de CxP|
 
-        |campo tipo de documento de la ventana documentos por pagar débito|
+        Imagen 10. Campo Tipo de Documento Destino de la Ventana Documentos por Pagar 
 
-        Imagen 11. Campo Tipo de Documento
+    Seleccione en el campo "**Fecha de Facturación**", la fecha en la cual es realizado el documento.
 
-    #. Podrá visualizar en el campo "**Dirección de Socio del Negocio**", la dirección del socio del negocio seleccionado anteriormente en el campo "**Socio del Negocio**".
+        |Campo Fecha de Facturación de la Nota de Débito de CxP|
 
-        |campo direccion del socio del negocio de la ventana documentos por pagar débito|
+        Imagen 11. Campo Fecha de Facturación de la Ventana Documentos por Pagar
 
-        Imagen 12. Campo Dirección del Socio del Negocio
+    Seleccione en el campo "**Fecha Contable**", la fecha en la cual es realizado el documento.
 
-    #. De igual manera, puede visualizar en el campo "**Usuario**", el usuario en ADempiere del socio del negocio seleccionado anteriormente.
+        |Campo Fecha Contable de la Nota de Débito de CxP|
 
-        |campo usuario de la ventana documentos por pagar débito|
+        Imagen 12. Campo Fecha Contable de la Ventana Documentos por Pagar
 
-        Imagen 13. Campo Usuario
+    Seleccione en el campo "**Socio del Negocio**", el socio del negocio al cual le esta aplicando la nota de débito.
 
-    #. Seleccione en el campo "**Factura Afectada**", la factura a la cual requiere aplicar la nota de débito que se encuentra realizando para ser asignada automáticamente al registro que se encuentra realizando.
+        |Campo Socio del Negocio de la Nota de Débito de CxP|
 
-        |campo factura afectada de la ventana documentos por pagar débito|
+        Imagen 13. Campo Socio del Negocio de la Ventana Documentos por Pagar
 
-        Imagen 14. Campo Factura Afectada
+    Podrá visualizar en el campo "**Dirección de Socio del Negocio**", la dirección del socio del negocio seleccionado anteriormente en el campo "**Socio del Negocio**".
 
-    #. Seleccione en el campo "**Lista de Precios**", la lista de precios con la cual requiere generar la nota de débito.
+        |Campo Dirección de Socio del Negocio de la Nota de Débito de CxP|
 
-        |campo lista de precios de la ventana documentos por pagar débito|
+        Imagen 14. Campo Dirección de Socio del Negocio de la Ventana Documentos por Pagar
 
-        Imagen 15. Campo Lista de Precios
+    Podrá visualizar en el campo "**Usuario**", el usuario del socio del negocio seleccionado anteriormente en el campo "**Socio del Negocio**".
 
-    #. Podrá visualizar en el campo "**Moneda**", la moneda definida para la lista de precios seleccionada.
+        |Campo Usuario de la Nota de Débito de CxP|
 
-        |campo moneda de la ventana documentos por pagar débito|
+        Imagen 15. Campo Usuario de la Ventana Documentos por Pagar
 
-        Imagen 16. Campo Moneda
+    Seleccione en el campo "**Lista de Precios**", la lista de precios con la cual requiere generar la nota de débito.
 
-    #. El checklist "**Documento Fiscal**", indica que el registro en el que se encuentra es un documento fiscal.
+        |Campo Lista de Precios de la Nota de Débito de CxP|
 
-        |checklist documento fiscal de la ventana documentos por pagar débito|
+        Imagen 16. Campo Lista de Precios de la Ventana Documentos por Pagar
 
-        Imagen 17. Checklist Documento Fiscal
+    Podrá visualizar en el campo "**Moneda**", la moneda definida para la lista de precios seleccionada. 
 
-.. note::
+        |Campo Moneda de la Nota de Débito de CxP|
 
-    Recuerde guardar el registro de los campos de la ventana antes de cambiar a otra pestaña. Esto se puede realizar seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+        Imagen 17. Campo Moneda de la Ventana Documentos por Pagar
+
+    Seleccione en el campo "**Agente Compañía**", el agente de comprañía relacionado con la nota de débito que se encuentra realizando.
+
+        |Campo Agente Compañía de la Nota de Débito de CxP|
+
+        Imagen 18. Campo Agente Compañía de la Ventana Documentos por Pagar
+
+    El checklist "**Imprimir Descuento**", indica se va a imprimir el descuento en la factura y la orden.
+
+        |Checklist Imprimir Descuento de la Nota de Débito de CxP|
+
+        Imagen 19. Checklist Imprimir Descuento de la Ventana Documentos por Pagar
+
+    Seleccione la opción "**Cheque**", para indicar como será pagado el documento.
+
+        |Opción Cheque de la Nota de Débito de CxP|
+
+        Imagen 20. Opción Cheque de la Ventana Documentos por Pagar
+
+    Seleccione la opción "**Crear Desde Factura**", para crear el documento desde una orden, autorización de devolución, factura o recepción.
+
+        |Opción Crear Desde Factura de la Nota de Débito de CxP|
+
+        Imagen 21. Opción Crear Desde Factura de la Ventana Documentos por Pagar
+
+    Seleccione la opción "**Generar Recibos desde Facturas**", para crear y procesar el recibo de la entrega desde la factura cuando se encuentre correcta y completa.
+
+        |Opción Generar Recibos desde Facturas de la Nota de Débito de CxP|
+
+        Imagen 22. Opción Generar Recibos desde Facturas de la Ventana Documentos por Pagar
+
+    El checklist "**Documento Fiscal**", indica que el registro en el que se encuentra es un documento fiscal.
+
+        |Checklist Documento Fiscal de la Nota de Débito de CxP|
+
+        Imagen 23. Checklist Documento Fiscal de la Ventana Documentos por Pagar
+
+    Introduzca en el campo "**Contol No**", el número de control fiscal correspondiente al registro que se encuentra realizando.
+
+        |Campo Control Nro de la Nota de Débito de CxP|
+
+        Imagen 24. Campo Control No de la Ventana Documentos por Pagar
+
+    Introduzca en el campo "**Código Sunagro**", el código sunagro correspondiente al registro que se encuentra realizando.
+
+        |Campo Código Sunagro de la Nota de Débito de CxP|
+
+        Imagen 25. Campo Código Sunagro de la Ventana Documentos por Pagar
+
+    Seleccione en el campo "**Lista**", la lista correspondiente al registro que se encuentra realizando.
+
+        |Campo Lista de la Nota de Débito de CxP|
+
+        Imagen 26. Campo Lista de la Ventana Documentos por Pagar
+
+    Seleccione en el campo "**Región de Ventas**", la región de ventas correspondiente al registro que se encuentra realizando.
+
+        |Campo Región de Ventas de la Nota de Débito de CxP|
+
+        Imagen 27. Campo Región de Ventas de la Ventana Documentos por Pagar
+
+    Seleccione en el campo "**Factura Afectada**", la factura a la cual requiere aplicar la nota de débito que se encuentra realizando.
+
+        |Campo Factura Afectada de la Nota de Débito de CxP|
+
+        Imagen 28. Campo Factura Afectada de la Ventana Documentos por Pagar
+
+    Al tildar el checklist "**No Aplica Retención de I.V.A**", no es aplicada la retención al documento que se encuentra realizando.
+
+        |Checklist No Aplica Retención de IVA de la Nota de Débito de CxP|
+
+        Imagen 29. Checklist No Aplica Retención de IVA de la Ventana Documentos por Pagar
+    
+    Seleccione en el campo "**Centro de Costos**", el centro de costos correspondiente para el registro que se encuentra realizando.
+
+        |Campo Centro de Costos de la Nota de Débito de CxP|
+
+        Imagen 30. Campo Centro de Costos de la Ventana Documentos por Pagar
+
+    Seleccione en el campo "**Concepto de Retención de I.S.L.R**", el concepto de retención que requiere aplicar al registro que se encuentra realizando.
+
+        |Campo Concepto de Retención de ISLR de la Nota de Débito de CxP|
+
+        Imagen 31. Campo Concepto de Retención de ISLR de la Ventana Documentos por Pagar
+
+    Seleccione en el campo "**Actividad**", la actividad correspondiente al registro que se encuentra realizando.
+
+        |Campo Actividad de la Nota de Débito de CxP|
+
+        Imagen 32. Campo Actividad de la Ventana Documentos por Pagar
+
+    Seleccione en el campo "**Retención de Terceros**", la retención correspondiente al registro que se encuentra realizando.
+
+        |Campo Retención de Terceros de la Nota de Débito de CxP|
+
+        Imagen 33. Campo Retención de Terceros de la Ventana Documentos por Pagar
+
+    Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña "**Factura**".
+
+        |Icono Guardar Cambios de la Nota de Débito de CxP|
+
+        Imagen 34. Icono Guardar Cambios de la Ventana Documentos por Pagar
 
 **Línea de la Factura**
 -----------------------
 
-#. Seleccione la pestaña "**Línea de Factura**", para proceder a cargar los productos o servicios correspondientes a la nota de débito que se encuentra realizando.
+Seleccione la pestaña "**Línea de la Factura**", para cargar los detalles de la nota de débito que se encuentra realizando.
 
-    |pestaña linea de factura de la ventana documentos por pagar débito|
+    |Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-    Imagen 18. Pestaña Línea de Factura
+    Imagen 35. Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-    #. Podrá visualizar en el campo "**Factura**", el número de registro de la nota de débito al que pertenece la línea que se encuentra realizando.
+    Podrá visualizar en el campo "**No. Línea**", el número de línea correspondiente al registro que se encuentra realizando en la pestaña "**Línea de la Factura**".
 
-        |campo factura de la pestaña linea de factura débito|
+        |Campo Nro Línea de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        Imagen 19. Campo Factura
+        Imagen 36. Campo No Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
+        
+    Seleccione en el campo "**Producto**", el producto por el cual se encuentra aplicando la nota de débito.
 
-    #. De igual manera, podrá visualizar en el campo "**No. Línea**", el número de línea correspondiente al registro en el cual se encuentra ubicado.
+        |Campo Producto de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        |campo nro linea de la pestaña linea de factura débito|
+        Imagen 37. Campo Producto de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-        Imagen 20. Campo No. del Documento
+    Seleccione en el campo "**Cargo**", el cargo por el cual se encuentra aplicando la nota de débito.
 
-    #. Seleccione en el campo "**Producto**", el producto por el cual se encuentra aplicando la nota de débito.
+        |Campo Cargo de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        |campo producto de la pestaña linea de factura débito|
+        Imagen 38. Campo Cargo de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-        Imagen 21. Campo Producto
+    Introduzca en el campo "**Descripción**", una breve descripción correspondiente al registro que se encuentra realizando.
 
-        .. warning::
+        |Campo Descripción de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-            Si la nota de débito es por un concepto especial, como es el caso de gastos administrativos, sustituya el producto por un cargo que justifique la nota.
+        Imagen 39. Campo Descripción de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-    #. Seleccione en el campo "**Cargo**", el cargo por el cual se encuentra aplicando la nota de débito.
+    Seleccione en el campo "**Cantidad**", la cantidad correspondiente al registro que se encuentra realizando.
 
-        |campo cargo de la pestaña linea de factura débito|
+        |Campo Cantidad de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        Imagen 22. Campo Cargo
+        Imagen 40. Campo Cantidad de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-    #. Introduzca en el campo "**Descripción**", una breve descripción referente al registro que se encuentra realizando.
+    Seleccione en el campo "**UM**", la unidad de medida relacionada al registro que se encuentra realizando.
 
-        |campo descripcion de la pestaña linea de factura débito|
+        |Campo UM de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        Imagen 23. Campo Descripción
+        Imagen 41. Campo UM de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-    #. Seleccione en el campo "**Cantidad**", la cantidad correspondiente al registro que se encuentra realizando.
+    Introduzca en el campo "**Precio**", el precio correspondiente a la nota de débito que se encuentra realizando.
 
-        |campo cantidad de la pestaña linea de factura débito|
+        |Campo Precio de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        Imagen 24. Campo Cantidad
+        Imagen 42. Campo Precio de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-    #. Seleccione en el campo "**UM**", la unidad de medida relacionada al registro que se encuentra realizando.
+    Podrá visualizar en el campo "**Precio Actual**", el precio actual ingresado en el campo "**Precio**".
 
-        |campo um de la pestaña linea de factura débito|
+        |Campo Precio Actual de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        Imagen 25. Campo UM
+        Imagen 43. Campo Precio Actual de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-    #. Introduzca en el campo "**Precio**", el precio correspondiente a la nota de débito que se encuentra realizando.
+    Podrá visualizar en el campo "**Precio de Lista**", el precio de lista oficial.
 
-        |campo precio de la pestaña linea de factura débito|
+        |Campo Precio de Lista de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        Imagen 26. Campo Precio
+        Imagen 44. Campo Precio de Lista de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-        .. note::
+    Seleccione en el campo "**Impuesto**", el tipo de impuesto a aplicar en el registro que se encuentra realizando.
 
-            El precio ingreso es convertido al precio real basado en la conversión de la unidad de medida seleccionada en el campo "**UM**".
+        |Campo Impuesto de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-    #. Podrá visualizar en el campo "**Cantidad Facturada**", la cantidad facturada correspondiente al registro que se encuentra realizando.
+        Imagen 45. Campo Impuesto de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-        |campo cantidad facturada de la pestaña linea de factura débito|
+    Podrá visualizar en el campo "**Total Impuesto**", el monto total del impuesto aplicado al documento que se encuentra realizando.
 
-        Imagen 27. Campo Cantidad Facturada
+        |campo total del impuesto de la pestaña línea de factura de la nota de débito de cxp|
 
-    #. Introduzca en el campo "**Precio de Lista**", el precio oficial correspondiente a la nota de débito que se encuentra realizando.
+        Imagen 46. Campo Total Impuesto de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-        |campo precio de lista de la pestaña linea de factura débito|
+    Seleccione en el campo "**Factura Afectada**", la factura afectada para asignar la nota automáticamente.
 
-        Imagen 28. Campo Precio de Lista
+        |Campo Factura Afectada de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        .. note::
+        Imagen 47. Campo Factura Afectada de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-            El precio actual indica el precio oficial para un producto en la moneda fuente. 
+    Seleccione en el campo "**Actividad**", la actividad correspondiente al registro que se encuentra realizando.
 
-    #. Podrá visualizar en el campo "**Precio Actual**", el precio unitario correspondiente a la nota de débito que se encuentra realizando.
+        |Campo Actividad de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        |campo precio actual de la pestaña linea de factura débito|
+        Imagen 48. Campo Actividad de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-        Imagen 29. Precio Actual
+    Seleccione en el campo "**Centro de Costos**", el centro de costos correspondiente al registro que se encuentra realizando.
 
-        .. note::
+        |Campo Centro de Costos de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-            El precio actual indica el precio para un producto en la moneda fuente.
+        Imagen 49. Campo Centro de Costos de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-    #. Seleccione en el campo "**Factura Afectada**", la factura afectada para ser asignada automáticamente a la nota de débito que se encuentra realizando.
+    Podrá visualizar en el campo "**Neto de Línea**", el neto de la línea.
 
-        |campo factura afectada de la pestaña linea de factura débito|
+        |Campo Neto de Línea de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        Imagen 30. Campo Factura Afectada
+        Imagen 50. Campo Neto de Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-    #. Seleccione en el campo "**Impuesto**", el impuesto a aplicar al registro o línea de registro que se encuentra realizando.
+    Podrá visualizar en el campo "**Total de la Línea**", el resultado de la sumatoria del valor en el campo "**Neto de Línea**" más el valor en el campo "**Total del Impuesto**".
 
-        |campo impuesto de la pestaña linea de factura débito|
+        |Campo Total de la Línea de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        Imagen 31. Campo Impuesto
+        Imagen 51. Campo Total de la Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-    #. Podra visualizar en el campo "**Neto de Línea**", el total neto de la línea basado en la cantidad y el precio actual.
+    Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña "**Línea de la Factura**".
 
-        |campo neto de linea de la pestaña linea de factura débito|
+        |Icono Guardar Cambios de la Pestaña Línea de la Factura de la Nota de débito de CxP|
 
-        Imagen 32. Campo Neto de Línea
+        Imagen 52. Icono Guardar Cambios de la Pestaña Línea de la Factura de la Ventana Documentos por Pagar
 
-        .. note::
-    
-            El total neto de la línea se obtiene de la operación (Cantidad * Precio Actual) sin fletes ni cargos. Cualquier cargo adicional o flete no es incluido.
+    Seleccione la pestaña principal "**Factura**" y ubique la opción "**Completar**", en la parte inferior izquierda de la ventana.
 
-    #. El checklkist "**Procesado**", indica que un documento ha sido procesado.
+        |Pestaña Principal Factura de la Nota de débito de CxP|
 
-        |checklist procesado de la pestaña linea de factura débito|
+        Imagen 53. Pestaña Principal Factura de la Ventana Documentos por Pagar
 
-        Imagen 33. Checklist Procesado
+    Seleccione la opción "**Completar**", para completar el documento "**Nota de Débito de CxP**".
 
-.. note::
+        |Opción Completar de la Nota de débito de CxP|
 
-    Recuerde guardar el registro de los campos de la ventana antes de cambiar a otra pestaña. Esto se puede realizar seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+        Imagen 54. Opción Completar de la Ventana Documentos por Pagar
 
+    Seleccione la acción "**Completar**" y la opción "**OK**", para culminar el proceso.
 
-**Factura**
------------
+        |Acción Completar y Opción OK de la Nota de débito de CxP|
 
-#. Regrese a la ventana principal "**Factura**", ubicando la parte inferior de la nota de débito.
+        Imagen 55. Acción Completar y Opción OK de la Ventana Documentos por Pagar
 
-    |pestaña principal factura débito|
+**Consultar Asignación de Nota de Débito Aplicada**
+---------------------------------------------------
 
-    Imagen 34. Pestaña Principal Factura
+Ubique el registro de la factura asociada a la nota de débito, en este caso se ubica la factura "**1000110**" y posteriormente seleccione la pestaña "**Facturas Pagadas**".
 
-    #. En el campo "**Orden de Compra**", se muestra el número de documento de la orden de compra asociada al documento por pagar.
+    |Registro de la Factura de la Nota de débito CxP|
 
-        |campo orden de compra de la ventana documentos por pagar débito|
+    Imagen 56. Registro de la Factura Asociada a la Nota de débito de CxP
 
-        Imagen 35. Campo Orden de Compra
+Haga clic contrario en el campo "**Asignación**" y seleccione la opción "**Acercar**" en el menú visualizado.
 
-    #. El checklist "**Pagado**", indica que el documento ya fue pagado.
+    |Acercar Asignación de Nota de débito de CxP|
 
-        |checklist pagado de la ventana documentos por pagar débito|
+    Imagen 57. Acercar Asignación de Nota de débito de CxP
 
-        Imagen 36. Checklist Pagado
+Podrá visualizar el registro de la asignación creada al completar el documento "**Nota de Débito de CxP**".
 
-    #. Podrá visualizar en el campo "**Total de Líneas**", la sumatoria total de todos los netos de línea sin impuestos ni cargos, que contiene la nota de débito que se encuentra realizando.
+    |Registro de Asignación de Nota de débito de CxP|
 
-        |campo total lineas de la ventana documentos por pagar débito|
+    Imagen 58. Registro de Asignación de Nota de débito de CxP
 
-        Imagen 37. Campo Total de Líneas
+Seleccione la pestaña "**Asignaciones**", para visualizar la información del monto de la nota de débito aplicada a la factura.
 
-    #. De igual manera, podrá visualizar en el campo "**Gran Total**", la sumatoria de todos los montos reflejados en el campo "**Total de la Línea**", de todas las líneas que contiene la nota de débito que se encuentra realizando.
+    |Pestaña Asignaciones de Nota de débito de CxP|
 
-        |campo gran total de la ventana documentos por pagar débito|
-
-        Imagen 38. Campo Gran Total
-
-        .. note::
-
-            El gran total identifica el total incluyendo impuestos y totales de fletes en la moneda del documento.
-
-    #. El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Factura**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
-
-        |campo estado del documento de la ventana documentos por pagar débito|
-
-        Imagen 39. Campo Estado del Documento
-
-    #. El campo "**Tipo de Documento**", indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.
-
-        |campo tipo de documento en la ventana documentos por pagar débito|
-
-        Imagen 40. Campo Tipo de Documento
-
-    #. Seleccione la opción "**Procesar Factura**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
-
-        |opcion procesar factura del icono proceso débito|
-
-        Imagen 41. Opción Procesar Factura del Icono Proceso
-
-    #. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Nota de débito de CxP**".
-
-        |completar documento|
-
-        Imagen 42. Completar Documento
+    Imagen 59. Pestaña Asignaciones de la Ventana Consulta de Asignación

@@ -11,9 +11,9 @@
 **Novedades:**
 --------------
 
-- Se actualiza la documentación de la "**Gestión PDV**", para agregar el documento "**Anular Factura Fiscal**".
+- Se actualiza la documentación de la :ref:`src/adempiere/pos-management`, para agregar el documento :ref:`documento/anular-facturas-fiscales`.
 
-- Se actualiza la documentación de la "**Gestión de Saldos Pendientes**", para agregar el documento "**Asignación de Pagos**".
+- Se actualiza la documentación de la :ref:`src/adempiere/open-items`, para agregar el documento :ref:`src/adempiere/open-items/pay-assignment`.
 
-- Se actualiza la documentación "**Conversión Manual**", explicando la **Tasa de Conversión Diaria** y la **Tasa Recíproca**.
+- Se actualiza la documentación :ref:`documento/conversión-monetaria`, explicando la **Tasa de Conversión Diaria** y la **Tasa Recíproca**.
 

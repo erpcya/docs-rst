@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>4.5. Nota de Crédito &mdash; ERPYA 1.0 Documentation</title>
+  <title>Nota de Crédito &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -41,8 +41,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="4.6. Nota de Débito" href="debit-note-cxc.html" />
-    <link rel="prev" title="4.4.1. Generar Entrega desde Líneas de la Orden" href="shipment/generate-delivery-from-order-lines.html" /> 
+    <link rel="next" title="Nota de Débito" href="debit-note-cxc.html" />
+    <link rel="prev" title="Generar Entregas (Manual)" href="shipment/generate-manual-deliveries.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -98,43 +98,63 @@
             
               <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/bot/index.html"><strong>Soporte en Bot</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. <strong>Gestión de Ventas</strong></a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="price-list/index.html">4.1. <strong>Lista de Precios</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="sales-order/index.html">4.2. <strong>Orden de Venta</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="invoice-customer/index.html">4.3. <strong>Documento por Cobrar</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="shipment/index.html">4.4. <strong>Entregas (Cliente)</strong></a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">4.5. <strong>Nota de Crédito</strong></a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#registro-de-nota-de-credito">4.5.1. <strong>Registro de Nota de Crédito</strong></a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#linea-de-la-factura">4.5.1.1. <strong>Línea de la Factura</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#factura">4.5.1.2. <strong>Factura</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión de Ventas</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="commission/index.html"><strong>Comisión de Ventas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="sales-region/index.html"><strong>Región de Ventas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="price-list/index.html"><strong>Lista de Precios</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="proposal/index.html"><strong>Propuesta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="sales-order/index.html"><strong>Orden de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="invoice-customer/index.html"><strong>Documento por Cobrar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-invoice-from-departure-order.html"><strong>Generar Factura desde Orden de Salida</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-invoice-from-departure-order.html#generar-factura-desde-orden-de-salida-consolidado-en-un-documento"><strong>Generar Factura desde Orden de Salida Consolidado en un Documento</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="shipment/index.html"><strong>Entregas (Cliente)</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Nota de Crédito</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#registro-de-nota-de-credito"><strong>Registro de Nota de Crédito</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#linea-de-la-factura"><strong>Línea de la Factura</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-asignacion-de-nota-de-credito-aplicada"><strong>Consultar Asignación de Nota de Crédito Aplicada</strong></a></li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="debit-note-cxc.html"><strong>Nota de Débito</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="debit-note-cxc.html">4.6. <strong>Nota de Débito</strong></a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html">4. <strong>Codificación Estándar de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../bot/index.html"><strong>Bot</strong></a></li>
 </ul>
 
             
@@ -144,9 +164,8 @@
 <ul>
 <li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
 <li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
-<li><a href="../../download.html">Download Docs</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
 </ul>
-
 
 
         </div>
@@ -193,9 +212,9 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-          <li><a href="index.html"><span class="section-number">4. </span><strong>Gestión de Ventas</strong></a> &raquo;</li>
+          <li><a href="index.html"><strong>Gestión de Ventas</strong></a> &raquo;</li>
         
-      <li><span class="section-number">4.5. </span><strong>Nota de Crédito</strong></li>
+      <li><strong>Nota de Crédito</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -215,319 +234,306 @@
            <div itemprop="articleBody">
             
   <div class="section" id="nota-de-credito">
-<span id="documento-nota-credito-cxc"></span><h1><span class="section-number">4.5. </span><strong>Nota de Crédito</strong><a class="headerlink" href="#nota-de-credito" title="Permalink to this headline">¶</a></h1>
+<span id="documento-nota-de-credito-cxc"></span><h1><strong>Nota de Crédito</strong><a class="headerlink" href="#nota-de-credito" title="Permalink to this headline">¶</a></h1>
 <p>Es un documento que se aplica a una factura, con la finalidad de reflejar un descuento, un cobro de un gasto incurrido de más, o alguna devolución de productos que el socio de negocio tipo cliente haya comprado.</p>
 <p>A continuación es explicado el procedimiento para registrar en ADempiere una nota de crédito de cuentas por cobrar.</p>
 <div class="section" id="registro-de-nota-de-credito">
-<h2><span class="section-number">4.5.1. </span><strong>Registro de Nota de Crédito</strong><a class="headerlink" href="#registro-de-nota-de-credito" title="Permalink to this headline">¶</a></h2>
-<ol class="arabic">
-<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Facturas de Ventas</strong>”, por último seleccione la ventana “<strong>Documentos por Cobrar</strong>”.</p>
+<h2><strong>Registro de Nota de Crédito</strong><a class="headerlink" href="#registro-de-nota-de-credito" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Facturas de Ventas</strong>”, por último seleccione la ventana “<strong>Documentos por Cobrar</strong>”.</p>
 <blockquote>
-<div><p><img alt="Menú de ADempiere" src="../../_images/menu-document-receivable.png" /></p>
+<div><p><img alt="Menú de ADempiere" src="../../_images/documents-receivable-menu.png" /></p>
 <p>Imagen 1. Menú de ADempiere</p>
 </div></blockquote>
-</li>
-<li><p>Podrá visualizar la ventana “<strong>Documentos por Cobrar</strong>” con los diferentes registros de documentos de cuentas por cobrar en ADempiere.</p>
+<p>Podrá visualizar la ventana “<strong>Documentos por Cobrar</strong>”, con todos los registros de documentos por cobrar cargados a ADempiere.</p>
 <blockquote>
-<div><p><img alt="Ventana Documento por Cobrar" src="../../_images/document-receivable-window.png" /></p>
-<p>Imagen 2. Ventana Documento por Cobrar</p>
+<div><p><img alt="Ventana Documentos por Cobrar" src="../../_images/documents-receivable-window.png" /></p>
+<p>Imagen 2. Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere para crear un nuevo registro de factura de cuentas por cobrar.</p>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere, para crear un nuevo registro en la ventana “<strong>Documentos por Cobrar</strong>”.</p>
 <blockquote>
-<div><p><img alt="Icono Registro Nuevo" src="../../_images/new-record-icon4.png" /></p>
-<p>Imagen 3. Icono Registro Nuevo</p>
+<div><p><img alt="Icono Registro Nuevo de la Ventana Documentos por Cobrar" src="../../_images/new-record-icon-in-the-documents-receivable-window.png" /></p>
+<p>Imagen 3. Icono Registro Nuevo de la Ventana Documentos por Cobrar</p>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se encuentra realizando el documento “<strong>Nota de Crédito CxC</strong>”.</p>
 <blockquote>
-<div><ol class="arabic">
-<li><p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se encuentra realizando el documento “<strong>Nota de Crédito CxC</strong>”.</p>
-<p><img alt="Campo Organización" src="../../_images/organization-field6.png" /></p>
-<p>Imagen 4. Campo Organización</p>
-</li>
-</ol>
+<div><p><img alt="Campo Organización de la Ventana Documentos por Cobrar" src="../../_images/field-organization-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 4. Campo Organización de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-<ol class="arabic">
-<li><p>En el campo “<strong>No. de Documento</strong>”, no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de documento por cobrar.</p>
+<p>Seleccione en el campo “<strong>Orden de Venta</strong>”, la orden de venta correspondiente al registro que se encuentra realizando.</p>
 <blockquote>
-<div><p><img alt="campo nro del documento" src="../../_images/document-number-field5.png" /></p>
-<p>Imagen 5. Campo Nro del Documento</p>
+<div><p><img alt="Campo Orden de Venta de la Ventana Documentos por Cobrar" src="../../_images/sales-order-field-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 5. Campo Orden de Venta de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>En el campo “<strong>Control Nro</strong>”, no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de control para el documento, al seleccionar la opción guardar del nuevo registro de documento por cobrar.</p>
+<p>Podrá visualizar en el campo “<strong>Fecha de la Orden</strong>”, la fecha contable de la orden de venta seleccionada en el campo “<strong>Orden de Venta</strong>”.</p>
 <blockquote>
-<div><p><img alt="campo control nro" src="../../_images/control-field-number.png" /></p>
-<p>Imagen 6. Campo Control Nro</p>
+<div><p><img alt="Campo Fecha de la Orden de la Ventana Documentos por Cobrar" src="../../_images/date-field-of-the-order-in-the-documents-receivable-window.png" /></p>
+<p>Imagen 6. Campo Fecha de la Orden de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>En el campo “<strong>Descripción</strong>”, introduzca una breve descripción referente al documento por cobrar que se está realizando, este campo es opcional.</p>
+<p>Introduzca en el campo “<strong>No. del Documento</strong>”, el número de identificación correspondiente al documento que se encuentra realizando.</p>
 <blockquote>
-<div><p><img alt="campo descripción" src="../../_images/description-field5.png" /></p>
-<p>Imagen 7. Campo Descripción</p>
-</div></blockquote>
-</li>
-<li><p>Introduzca en el campo “<strong>Fecha de Facturación</strong>”, la fecha en la cual es aplicada la nota de crédito que se encuentra realizando.</p>
-<blockquote>
-<div><p><img alt="campo fecha de facturación" src="../../_images/billing-date-field.png" /></p>
-<p>Imagen 8. Campo Fecha de Facturación</p>
-</div></blockquote>
-</li>
-<li><p>Introduzca en el campo “<strong>Referencia de Orden de Socio del Negocio</strong>”, la referencia de orden del socio del negocio.</p>
-<blockquote>
-<div><p><img alt="campo referencia de orden de socio del negocio" src="../../_images/business-partner-order-reference-field1.png" /></p>
-<p>Imagen 9. Campo Referencia de Orden de Socio del Negocio</p>
-</div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio al cual se encuentra aplicando la nota de crédito.</p>
-<blockquote>
-<div><p><img alt="Campo Socio del Negocio" src="../../_images/business-partner-field4.png" /></p>
-<p>Imagen 10. Campo Socio del Negocio</p>
-</div></blockquote>
-</li>
-<li><p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento Destino</strong>”, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento “<strong>Tipo de Documento</strong>” elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
-<blockquote>
-<div><p><img alt="Campo Tipo de Documento Destino nota de crédito" src="../../_images/credit-memo-destination-document-type-field.png" /></p>
-<p>Imagen 11. Campo Tipo de Documento Destino</p>
-</div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>Dirección del Socio del Negocio</strong>”, la dirección del socio del negocio seleccionado anteriormente en el campo “<strong>Socio del Negocio</strong>”.</p>
-<blockquote>
-<div><p><img alt="Campo Dirección del Socio del Negocio nota de crédito" src="../../_images/business-partner-address-field-credit-note.png" /></p>
-<p>Imagen 12. Campo Dirección del Socio del Negocio</p>
-</div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>Usuario</strong>”, el usuario del socio del negocio seleccionado anteriormente en el campo “<strong>Socio del Negocio</strong>”.</p>
-<blockquote>
-<div><p><img alt="campo usuario nota de crédito" src="../../_images/credit-note-user-field.png" /></p>
-<p>Imagen 13. Campo Usuario</p>
-</div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>Regla de Pago</strong>”, la regla para el pago de los productos o servicios.</p>
-<blockquote>
-<div><p><img alt="campo regla de pago nota de crédito" src="../../_images/credit-memo-payment-rule-field.png" /></p>
-<p>Imagen 14. Campo Regla de Pago</p>
-</div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>Término de Pago</strong>”,  el término que establece la condición, el método y tiempo de pago de la transacción que se encuentra realizando.</p>
-<blockquote>
-<div><p><img alt="Campo Término de Pago nota de crédito" src="../../_images/credit-memo-payment-term-field.png" /></p>
-<p>Imagen 15. Campo Término de Pago</p>
-</div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>Factura Afectada</strong>”, la factura a la cual le será aplicada la nota de crédito que se encuentra realizando.</p>
-<blockquote>
-<div><p><img alt="campo factura afectada nota de crédito" src="../../_images/affected-invoice-field-credit-note.png" /></p>
-<p>Imagen 16. Campo Factura Afectada</p>
-</div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios con la cual se encuentra aplicando la nota de crédito.</p>
-<blockquote>
-<div><p><img alt="Campo Lista de Precios nota de crédito" src="../../_images/credit-note-price-list-field.png" /></p>
-<p>Imagen 17. Campo Lista de Precios</p>
-</div></blockquote>
-</li>
-<li><p>Podrá visualizar en el campo “<strong>Moneda</strong>”, la moneda asociada a la lista de precios seleccionada en el campo “<strong>Lista de Precios</strong>”.</p>
-<blockquote>
-<div><p><img alt="Campo Moneda nota de crédito" src="../../_images/credit-note-currency-field.png" /></p>
-<p>Imagen 18. Campo Moneda</p>
-</div></blockquote>
-</li>
-<li><p>El checklist “<strong>Documento Fiscal</strong>”, indica que el registro de nota de crédito es considerado un documento fiscal y se utiliza para las facturas declaradas.</p>
-<blockquote>
-<div><p><img alt="checklist documento fiscal nota de crédito" src="../../_images/checklist-fiscal-document-credit-note.png" /></p>
-<p>Imagen 19. Checklist Documento Fiscal</p>
-</div></blockquote>
-</li>
-<li><p>El checklist “<strong>Impreso en Impresora Fiscal</strong>”, indica que el documento es impreso en impresora fiscal.</p>
-<blockquote>
-<div><p><img alt="checklist impreso en impresora fiscal nota de crédito" src="../../_images/checklist-printed-on-fiscal-printer-credit-note.png" /></p>
-<p>Imagen 20. Checklist Impreso en Impresora Fiscal</p>
-</div></blockquote>
-</li>
-<li><p>Podrá visualizar en el campo “<strong>Impresora Fiscal</strong>”, la impresora fiscal definida para la impresión del documento que se encuentra realizando.</p>
-<blockquote>
-<div><p><img alt="campo impresora fiscal nota de crédito" src="../../_images/field-fiscal-printer-credit-note.png" /></p>
-<p>Imagen 21. Campo Impresora Fiscal</p>
-</div></blockquote>
-</li>
-<li><p>Podrá visualizar en el campo “<strong>Nro Documento Fiscal</strong>”, el número de documento fiscal para el documento que se encuentra realizando.</p>
-<blockquote>
-<div><p><img alt="campo nro documento fiscal nota de crédito" src="../../_images/field-number-fiscal-document-credit-note.png" /></p>
-<p>Imagen 22. Campo Nro Documento Fiscal</p>
-</div></blockquote>
-</li>
-</ol>
+<div><p><img alt="Campo Nro del Documento de la Ventana Documentos por Cobrar" src="../../_images/document-number-field-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 7. Campo No del Documento de la Ventana Documentos por Cobrar</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Recuerde guardar el registro de los campos con ayuda del icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<p>Si no es ingresado ningún valor en el campo, ADempiere tomará el número de secuencia establecido para el tipo de documento al guardar el registro.</p>
 </div>
 </div></blockquote>
-</li>
-</ol>
+<p>Introduzca en el campo “<strong>Referencia de Orden de Socio del Negocio</strong>”, la referencia de la orden del socio del negocio.</p>
+<blockquote>
+<div><p><img alt="Campo Referencia de Orden de Socio del Negocio de la Ventana Documentos por Cobrar" src="../../_images/business-partner-order-reference-field-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 8. Campo Referencia de Orden de Socio del Negocio de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Ventana Documentos por Cobrar" src="../../_images/field-description-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 9. Campo Descripción de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento Destino</strong>”, la selección de este define el comportamiento del documento que se está elaborando, dicho comportamiento se encuentra explicado en el documento <strong>Tipo de Documento</strong> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo de Documento Destino de la Nota de Crédito de CxC" src="../../_images/destination-document-type-field-of-credit-note-cxc.png" /></p>
+<p>Imagen 10. Campo Tipo de Documento Destino de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>El checklist “<strong>Auto-Servicio</strong>”, que el registro es una entrada del autoservicio o se puede cambiar vía autoservicio.</p>
+<blockquote>
+<div><p><img alt="Checklist Auto Servicio de la Nota de Crédito de CxC" src="../../_images/cxc-credit-note-self-service-checklist.png" /></p>
+<p>Imagen 11. Checklist Auto Servicio de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de Facturación</strong>”, la fecha en la cual es aplicada la nota de crédito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha de Facturación de la Nota de Crédito de CxC" src="../../_images/invoice-date-field-of-credit-note-cxc.png" /></p>
+<p>Imagen 12. Campo Fecha de Facturación de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Contable</strong>”, la fecha en la cual es aplicada la nota de crédito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Fecha Contable de la Nota de Crédito de CxC" src="../../_images/accounting-date-field-of-credit-note-cxc.png" /></p>
+<p>Imagen 13. Campo Fecha Contable de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio al cual se encuentra aplicando la nota de crédito.</p>
+<blockquote>
+<div><p><img alt="Campo Socio del Negocio de la Nota de Crédito de CxC" src="../../_images/cxc-credit-memo-business-partner-field.png" /></p>
+<p>Imagen 14. Campo Socio del Negocio de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Dirección del Socio del Negocio</strong>”, la dirección del socio del negocio seleccionado anteriormente en el campo “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Dirección del Socio del Negocio de la Nota de Crédito de CxC" src="../../_images/address-field-of-the-business-partner-of-the-credit-note-cxc.png" /></p>
+<p>Imagen 15. Campo Dirección del Socio del Negocio de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Usuario</strong>”, el usuario del socio del negocio seleccionado anteriormente en el campo “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Usuario de la Nota de Crédito de CxC" src="../../_images/credit-note-user-field-cxc.png" /></p>
+<p>Imagen 16. Campo Usuario de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios con la cual se encuentra aplicando la nota de crédito.</p>
+<blockquote>
+<div><p><img alt="Campo Lista de Precios de la Nota de Crédito de CxC" src="../../_images/cxc-credit-memo-price-list-field.png" /></p>
+<p>Imagen 17. Campo Lista de Precios de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Moneda</strong>”, la moneda asociada a la lista de precios seleccionada en el campo “<strong>Lista de Precios</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda de la Nota de Crédito de CxC" src="../../_images/currency-field-of-credit-note-cxc.png" /></p>
+<p>Imagen 18. Campo Moneda de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Agente Comercial</strong>”, el agente comercial involucrado en la transacción por la cual se encuentra realizando la nota de crédito.</p>
+<blockquote>
+<div><p><img alt="Campo Agente Comercial de la Nota de Crédito de CxC" src="../../_images/commercial-agent-field-of-credit-note-cxc.png" /></p>
+<p>Imagen 19. Campo Agente Comercial de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>El checklist “<strong>Imprimir Descuento</strong>”, imprime el descuento en la factura y la orden.</p>
+<blockquote>
+<div><p><img alt="Checklist Imprimir Descuento de la Nota de Crédito de CxC" src="../../_images/checklist-print-credit-note-discount-cxc.png" /></p>
+<p>Imagen 20. Checklist Imprimir Descuento de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>A Crédito</strong>”, para indicar como se pagará la factura.</p>
+<blockquote>
+<div><p><img alt="Opción A Crédito de la Nota de Crédito de CxC" src="../../_images/credit-option-of-the-credit-note-cxc.png" /></p>
+<p>Imagen 21. Opción A Crédito de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Término de Pago</strong>”, el término que establece la condición, el método y tiempo de pago de la transacción que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Término de Pago de la Nota de Crédito de CxC" src="../../_images/cxc-credit-note-payment-term-field.png" /></p>
+<p>Imagen 22. Campo Término de Pago de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>El checklist “<strong>Impreso en Impresora Fiscal</strong>”, indica que el documento es impreso en impresora fiscal.</p>
+<blockquote>
+<div><p><img alt="Checklist Impreso en Impresora Fiscal de la Nota de Crédito de CxC" src="../../_images/checklist-printed-on-a-fiscal-printer-of-the-credit-note-cxc.png" /></p>
+<p>Impresora 23. Checklist Impreso en Impresora Fiscal de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista</strong>”, la opción correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Lista de la Nota de Crédito de CxC" src="../../_images/cxc-credit-memo-list-field.png" /></p>
+<p>Imagen 24. Campo Lista de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Factura Afectada</strong>”, la factura a la cual le será aplicada la nota de crédito que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Factura Afectada de la Nota de Crédito de CxC" src="../../_images/affected-invoice-field-of-credit-note-cxc.png" /></p>
+<p>Imagen 25. Campo Factura Afectada de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Código Sunagro</strong>”, el código de superintendencia nacional de gestión agroalimentaria.</p>
+<blockquote>
+<div><p><img alt="Campo Código Sunagro de la Nota de Crédito de CxC" src="../../_images/sunagro-code-field-of-credit-note-cxc.png" /></p>
+<p>Imagen 26. Campo Código Sunagro de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>El checklist “<strong>Documento Fiscal</strong>”, indica que el registro en el que se encuentra es un documento fiscal.</p>
+<blockquote>
+<div><p><img alt="Checklist Documento Fiscal de la Nota de Crédito de CxC" src="../../_images/checklist-fiscal-document-of-credit-note-cxc.png" /></p>
+<p>Imagen 27. Checklist Documento Fiscal de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Control No</strong>”, el número de control fiscal establecido para el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Control Nro de la Nota de Crédito de CxC" src="../../_images/control-field-number-of-credit-note-cxc.png" /></p>
+<p>Imagen 28. Campo Control No de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Actividad</strong>”, la actividad relacionada con el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Actividad de la Nota de Crédito de CxC" src="../../_images/credit-note-activity-field-cxc.png" /></p>
+<p>Imagen 29. Campo Actividad de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Centro de Costos</strong>”, el centro de costos relacionado con el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Centro de Costos de la Nota de Crédito de CxC" src="../../_images/cost-center-field-of-credit-memo-cxc.png" /></p>
+<p>Imagen 30. Campo Centro de Costos de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Región de Ventas</strong>”, la región de ventas relaconada con el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="Campo Región de Ventas de la Nota de Crédito de CxC" src="../../_images/sales-region-field-of-credit-memo-cxc.png" /></p>
+<p>Imagen 31. Campo Región de Ventas de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña “<strong>Factura</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Guardar Cambios de la Nota de Crédito de CxC" src="../../_images/icon-save-changes-of-credit-note-cxc.png" /></p>
+<p>Imagen 32. Icono Guardar Cambios de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+</div>
 <div class="section" id="linea-de-la-factura">
-<h3><span class="section-number">4.5.1.1. </span><strong>Línea de la Factura</strong><a class="headerlink" href="#linea-de-la-factura" title="Permalink to this headline">¶</a></h3>
-<ol class="arabic">
-<li><p>Seleccione la pestaña “<strong>Línea de la Factura</strong>” para cargar los detalles de la nota de crédito que se encuentra realizando.</p>
+<h2><strong>Línea de la Factura</strong><a class="headerlink" href="#linea-de-la-factura" title="Permalink to this headline">¶</a></h2>
+<p>Seleccione la pestaña “<strong>Línea de la Factura</strong>”, para cargar los detalles de la nota de crédito que se encuentra realizando.</p>
 <blockquote>
-<div><p><img alt="Pestaña Línea de la Factura nota de crédito" src="../../_images/credit-note-invoice-line-tab.png" /></p>
-<p>Imagen 23. Pestaña Línea de la Factura</p>
-<ol class="arabic">
-<li><p>Podrá visualizar en el campo “<strong>Factura</strong>”, el número de registro al que pertenece el registro de la línea en el que se encuentra.</p>
+<div><p><img alt="Pestaña Línea de la Factura de la Nota de Crédito de CxC" src="../../_images/cxc-credit-memo-invoice-line-tab.png" /></p>
+<p>Imagen 33. Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+<p>Podrá visualizar en el campo “<strong>No. Línea</strong>”, el número de línea correspondiente al registro que se encuentra realizando en la pestaña “<strong>Línea de la Factura</strong>”.</p>
 <blockquote>
-<div><p><img alt="campo factura nota de crédito" src="../../_images/invoice-credit-memo-field.png" /></p>
-<p>Imagen 24. Campo Factura</p>
+<div><p><img alt="Campo Nro Línea de la Nota de Crédito de CxC" src="../../_images/field-number-line-of-the-line-tab-of-the-invoice-of-the-credit-note-cxc.png" /></p>
+<p>Imagen 34. Campo No Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>Producto</strong>”, el producto por el cual se encuentra aplicando la nota de crédito.</p>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto por el cual se encuentra aplicando la nota de crédito.</p>
 <blockquote>
-<div><p><img alt="Campo producto nota de crédito" src="../../_images/field-product-credit-note.png" /></p>
-<p>Imagen 25. Campo Producto</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Si la nota de crédito es por un concepto especial, como es el caso de descuento en precio o diferencia cambiaria, sustituya el producto por un cargo que justifique la nota.</p>
-</div>
+<div><p><img alt="Campo Producto de la Nota de Crédito de CxC" src="../../_images/product-field-of-the-line-tab-of-the-credit-memo-cxc.png" /></p>
+<p>Imagen 35. Campo Producto de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo por el cual se encuentra aplicando la nota de crédito.</p>
+<p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo por el cual se encuentra aplicando la nota de crédito.</p>
 <blockquote>
-<div><p><img alt="Campo cargo nota de crédito" src="../../_images/field-charge-credit-note.png" /></p>
-<p>Imagen 26. Campo Cargo de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
+<div><p><img alt="Campo Cargo de la Nota de Crédito de CxC" src="../../_images/charge-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png" /></p>
+<p>Imagen 36. Campo Cargo de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción referente al registro que se encuentra realizando.</p>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción correspondiente al registro que se encuentra realizando.</p>
 <blockquote>
-<div><p><img alt="campo descripción línea nota de crédito" src="../../_images/credit-note-line-description-field.png" /></p>
-<p>Imagen 27. Campo Descripción</p>
+<div><p><img alt="Campo Descripción de la Línea de la Nota de Crédito de CxC" src="../../_images/description-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png" /></p>
+<p>Imagen 37. Campo Descripción de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>Cantidad</strong>”, la cantidad relacionada al registro que se encuentra realizando.</p>
+<p>Seleccione en el campo “<strong>Cantidad</strong>”, la cantidad relacionada al registro que se encuentra realizando.</p>
 <blockquote>
-<div><p><img alt="Campo Cantidad nota de crédito" src="../../_images/credit-note-amount-field.png" /></p>
-<p>Imagen 28. Campo Cantidad</p>
+<div><p><img alt="Campo Cantidad de la Nota de Crédito de CxC" src="../../_images/amount-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png" /></p>
+<p>Imagen 38. Campo Cantidad de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>UM</strong>”, la unidad de medida relacionada al registro que se encuentra realizando.</p>
+<p>Seleccione en el campo “<strong>UM</strong>”, la unidad de medida relacionada al registro que se encuentra realizando.</p>
 <blockquote>
-<div><p><img alt="Campo UM nota de crédito" src="../../_images/field-um-credit-note.png" /></p>
-<p>Imagen 29. Campo UM</p>
+<div><p><img alt="Campo UM de la Nota de Crédito de CxC" src="../../_images/um-field-of-the-invoice-line-tab-of-the-credit-note-cxc.png" /></p>
+<p>Imagen 39. Campo UM de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>Introduzca en el campo “<strong>Precio</strong>”, el precio correspondiente a la nota de crédito que se encuentra realizando.</p>
+<p>Introduzca en el campo “<strong>Precio</strong>”, el precio correspondiente a la nota de crédito que se encuentra realizando.</p>
 <blockquote>
-<div><p><img alt="Campo Precio nota de crédito" src="../../_images/credit-note-price-field.png" /></p>
-<p>Imagen 30. Campo Precio</p>
+<div><p><img alt="Campo Precio de la Nota de Crédito de CxC" src="../../_images/price-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png" /></p>
+<p>Imagen 40. Campo Precio de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>El campo “<strong>Cantidad Facturada</strong>, indica la cantidad de un producto que ha sido facturado.</p>
+<p>Podrá visualizar en el campo “<strong>Precio Actual</strong>”, el precio actual ingresado en el campo “<strong>Precio</strong>”.</p>
 <blockquote>
-<div><p><img alt="campo cantidad facturada nota de crédito" src="../../_images/field-amount-invoiced-credit-note.png" /></p>
-<p>Imagen 31. Campo Cantidad Factura</p>
+<div><p><img alt="Campo Precio Actual de la Nota de Crédito de CxC" src="../../_images/current-price-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png" /></p>
+<p>Imagen 41. Campo Precio Actual de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>El campo “<strong>Precio de Lista</strong>”, indica el precio de lista oficial en la moneda del documento.</p>
+<p>Podrá visualizar en el campo “<strong>Precio de Lista</strong>”, el precio de lista oficial.</p>
 <blockquote>
-<div><p><img alt="campo precio de lista nota de crédito" src="../../_images/credit-note-list-price-field.png" /></p>
-<p>Imagen 32. Campo Precio de Lista</p>
+<div><p><img alt="Campo Precio de Lista de la Nota de Crédito de CxC" src="../../_images/list-price-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png" /></p>
+<p>Imagen 42. Campo Precio de Lista de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>El campo “<strong>Precio Actual</strong>”, indica el precio para un producto en la moneda fuente.</p>
+<p>Seleccione en el campo “<strong>Impuesto</strong>”, el tipo de impuesto a aplicar en el registro que se encuentra realizando.</p>
 <blockquote>
-<div><p><img alt="campo precio actual nota de crédito" src="../../_images/current-price-field-credit-note.png" /></p>
-<p>Imagen 33. Campo Precio Actual</p>
+<div><p><img alt="Campo Impuesto de la Nota de Crédito de CxC" src="../../_images/tax-field-of-the-line-tab-of-the-credit-memo-cxc.png" /></p>
+<p>Imagen 43. Campo Impuesto de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>Factura Afectada</strong>”, la factura a la cual le será aplicada la nota de crédito que se encuentra realizando.</p>
+<p>Seleccione en el campo “<strong>Factura Afectada</strong>”, la factura afectada para asignar la nota automáticamente.</p>
 <blockquote>
-<div><p><img alt="campo factura afectada línea nota de crédito" src="../../_images/affected-invoice-field-credit-memo-line.png" /></p>
-<p>Imagen 34. Campo Factura Afectada</p>
+<div><p><img alt="Campo Factura Afectada de la Pestaña de la Nota de Crédito de CxC" src="../../_images/affected-invoice-field-of-the-invoice-line-tab-of-the-credit-note-cxc.png" /></p>
+<p>Imagen 44. Campo Factura Afectada de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>Seleccione en el campo “<strong>Impuesto</strong>”, el impuesto correspondiente a la nota de crédito que se encuentra realizando.</p>
+<p>Seleccione en el campo “<strong>Actividad</strong>”, la actividad correspondiente al registro que se encuentra realizando.</p>
 <blockquote>
-<div><p><img alt="Campo Impuesto nota de crédito" src="../../_images/credit-note-tax-field.png" /></p>
-<p>Imagen 35. Campo Impuesto</p>
+<div><p><img alt="Campo Actividad de la Pestaña de la Nota de Crédito de CxC" src="../../_images/activity-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png" /></p>
+<p>Imagen 45. Campo Actividad de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>Podrá visualizar en el campo “<strong>Neto de Línea</strong>”, el resultado del cálculo del valor en el campo “<strong>Precio</strong>” por el valor ingresado en el campo “<strong>Cantidad</strong>”.</p>
+<p>Seleccione en el campo “<strong>Centro de Costos</strong>”, el centro de costos correspondiente al registro que se encuentra realizando.</p>
 <blockquote>
-<div><p><img alt="Campo Neto de Línea nota de crédito" src="../../_images/net-field-of-credit-memo-line.png" /></p>
-<p>Imagen 36. Campo Neto de Línea</p>
+<div><p><img alt="Campo Centro de Costos de la Pestaña de la Nota de Crédito de CxC" src="../../_images/cost-center-field-of-the-line-tab-of-the-credit-memo-cxc.png" /></p>
+<p>Imagen 46. Campo Centro de Costos de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>El checklist “<strong>Procesado</strong>”, indica que el registro fue procesado.</p>
+<p>Seleccione en el campo “<strong>Amortización de Préstamo</strong>”, la amortización de préstamo.</p>
 <blockquote>
-<div><p><img alt="checklist procesado nota de crédito" src="../../_images/credit-note-processed-checklist.png" /></p>
-<p>Imagen 37. Checklist Procesado</p>
+<div><p><img alt="Campo Amortización de Préstamo de la Nota de Crédito de CxC" src="../../_images/loan-amortization-field-of-the-line-tab-of-the-credit-memo-cxc-invoice.png" /></p>
+<p>Imagen 47. Campo Amortización de Préstamo de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-</ol>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Recuerde guardar el registro de los campos con ayuda del icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
-</div>
-</div></blockquote>
-</li>
-</ol>
-</div>
-<div class="section" id="factura">
-<h3><span class="section-number">4.5.1.2. </span><strong>Factura</strong><a class="headerlink" href="#factura" title="Permalink to this headline">¶</a></h3>
-<ol class="arabic">
-<li><p>Seleccione la pestaña principal “<strong>Factura</strong>”, para proceder a completar el registro.</p>
+<p>Seleccione en el campo “<strong>Activo Fijo</strong>”, el activo fijo relacionado con el registro que se encuentra realizando.</p>
 <blockquote>
-<div><p><img alt="Pestaña Factura nota de crédito" src="../../_images/tab-invoice-credit-note.png" /></p>
-<p>Imagen 38. Pestaña Factura</p>
-<ol class="arabic">
-<li><p>Podrá visualizar en el campo “<strong>Orden de Venta</strong>”, la orden de venta asociada al registro que se encuentra realizando.</p>
-<blockquote>
-<div><p><img alt="campo orden de venta nota de crédito" src="../../_images/sales-order-field-credit-note.png" /></p>
-<p>Imagen 39. Campo Orden de Venta</p>
+<div><p><img alt="Campo Activo Fijo de la Nota de Crédito de CxC" src="../../_images/fixed-asset-field-of-the-line-tab-of-the-credit-note-invoice-cxc.png" /></p>
+<p>Imagen 48. Campo Activo Fijo de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>El checklist “<strong>Pagado</strong>”, indica que el registro ya fue pagado.</p>
+<p>Podrá visualizar en el campo “<strong>Neto de Línea</strong>”, el neto de la línea.</p>
 <blockquote>
-<div><p><img alt="checklist pagado nota de crédito" src="../../_images/checklist-paid-credit-note.png" /></p>
-<p>Imagen 40. Checklist Pagado</p>
+<div><p><img alt="Campo Neto de Línea de la Nota de Crédito de CxC" src="../../_images/net-field-of-line-of-the-line-tab-of-the-credit-memo-invoice-cxc.png" /></p>
+<p>Imagen 49. Campo Neto de Línea de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>El campo “<strong>Total de Líneas</strong>”, indica el total de todas las líneas en la moneda del documento.</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere, para guardar el registro de los campos de la pestaña “<strong>Línea de la Factura</strong>”.</p>
 <blockquote>
-<div><p><img alt="campo total de líneas nota de crédito" src="../../_images/total-credit-memo-lines-field.png" /></p>
-<p>Imagen 41. Campo Total de Líneas</p>
+<div><p><img alt="Icono Guardar Cambios de la Línea de la Nota de Crédito de CxC" src="../../_images/icon-save-changes-of-the-line-tab-of-the-invoice-of-the-credit-note-cxc.png" /></p>
+<p>Imagen 50. Icono Guardar Cambios de la Pestaña Línea de la Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>El campo “<strong>Gran Total</strong>”, indica el total incluyendo impuestos y totales de fletes en la moneda del documento.</p>
+<p>Seleccione la pestaña principal “<strong>Factura</strong>” y ubique la opción “<strong>Completar</strong>”, en la parte inferior izquierda de la ventana.</p>
 <blockquote>
-<div><p><img alt="campo gran total nota de crédito" src="../../_images/grand-total-credit-note-field.png" /></p>
-<p>Imagen 42. Campo Gran Total</p>
-</div></blockquote>
-</li>
-<li><p>El campo “<strong>Estado del Documento</strong>”, indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción “<strong>Procesar Factura</strong>”, desplegada por el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<div><p><img alt="Pestaña Principal Factura de la Nota de Crédito de CxC" src="../../_images/main-tab-credit-note-invoice-cxc.png" /></p>
+<p>Imagen 51. Pestaña Factura de la Ventana Documentos por Cobrar</p>
+<p>Seleccione la opción “<strong>Completar</strong>”, para completar el documento “<strong>Nota de Crédito de CxC</strong>”.</p>
 <blockquote>
-<div><p><img alt="campo estado del documento nota de crédito" src="../../_images/credit-memo-document-status-field.png" /></p>
-<p>Imagen 43. Campo Estado del Documento</p>
+<div><p><img alt="Opción Completar de la Nota de Crédito de CxC" src="../../_images/complete-option-of-the-invoice-tab-of-the-credit-note-cxc.png" /></p>
+<p>Imagen 52. Opción Completar de la Pestaña Factura de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-<li><p>El campo “<strong>Tipo de Documento</strong>”, indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.</p>
-<blockquote>
-<div><p><img alt="campo tipo de documento nota de crédito" src="../../_images/credit-note-document-type-field.png" /></p>
-<p>Imagen 44. Campo Tipo de Documento</p>
-</div></blockquote>
-</li>
-<li><p>Seleccione la opción “<strong>Procesar Factura</strong>”, desplegada por el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
-<blockquote>
-<div><p><img alt="opción procesar factura del icono proceso nota de crédito" src="../../_images/option-process-invoice-from-credit-note-process-icon.png" /></p>
-<p>Imagen 45. Opción Procesar Factura del Icono Proceso</p>
-</div></blockquote>
-</li>
-<li><p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>” para completar el documento.</p>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para culminar el proceso.</p>
 <blockquote>
 <div><p><img alt="Acción Completar y Opción OK" src="../../_images/action-complete-and-option-ok2.png" /></p>
-<p>Imagen 46. Acción Completar y Opción OK</p>
+<p>Imagen 53. Acción Completar y Opción OK de la Ventana Documentos por Cobrar</p>
 </div></blockquote>
-</li>
-</ol>
 </div></blockquote>
-</li>
-</ol>
 </div>
+<div class="section" id="consultar-asignacion-de-nota-de-credito-aplicada">
+<h2><strong>Consultar Asignación de Nota de Crédito Aplicada</strong><a class="headerlink" href="#consultar-asignacion-de-nota-de-credito-aplicada" title="Permalink to this headline">¶</a></h2>
+<p>Ubique el registro de la factura asociada a la nota de crédito, en este caso se ubica la factura “<strong>76</strong>” y posteriormente seleccione la pestaña “<strong>Facturas Pagadas</strong>”.</p>
+<blockquote>
+<div><p><img alt="Factura de la Nota de Crédito CxC" src="../../_images/cxc-credit-memo-invoice.png" /></p>
+<p>Imagen 54. Pestaña Facturas Pagadas de la Ventana Documentos por Cobrar</p>
+</div></blockquote>
+<p>Haga clic contrario en el campo “<strong>Asignación</strong>” y seleccione la opción “<strong>Acercar</strong>” en el menú visualizado.</p>
+<blockquote>
+<div><p><img alt="Acercar Asignación de Pago de la Nota de Crédito de CxC" src="../../_images/zoom-in-on-payment-assignment-of-the-cxc-credit-note.png" /></p>
+<p>Imagen 55. Acercar Asignación de Pago de la Factura por Cobrar</p>
+</div></blockquote>
+<p>Podrá visualizar el registro de la asignación creada al completar el documento “<strong>Nota de Crédito de CxC</strong>”.</p>
+<blockquote>
+<div><p><img alt="Registro de Asignación de Nota de Crédito de CxC" src="../../_images/cxc-credit-memo-assignment-record.png" /></p>
+<p>Imagen 56. Registro de Asignación de Pago de Nota de Crédito de CxC</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Asignaciones</strong>”, para visualizar la información del monto de la nota de crédito aplicada a la factura.</p>
+<blockquote>
+<div><p><img alt="Pestaña Asignaciones de la Nota de Crédito de CxC" src="../../_images/cxc-credit-memo-assignments-tab.png" /></p>
+<p>Imagen 57. Pestaña Asignaciones de la Ventana Consulta de Asignación</p>
+</div></blockquote>
 </div>
 </div>
 
@@ -537,8 +543,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="debit-note-cxc.html" class="btn btn-neutral float-right" title="4.6. Nota de Débito" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="shipment/generate-delivery-from-order-lines.html" class="btn btn-neutral float-left" title="4.4.1. Generar Entrega desde Líneas de la Orden" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="debit-note-cxc.html" class="btn btn-neutral float-right" title="Nota de Débito" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="shipment/generate-manual-deliveries.html" class="btn btn-neutral float-left" title="Generar Entregas (Manual)" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

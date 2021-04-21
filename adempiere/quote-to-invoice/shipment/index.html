@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>4.4. Entregas (Cliente) &mdash; ERPYA 1.0 Documentation</title>
+  <title>Entregas (Cliente) &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -41,8 +41,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="4.4.1. Generar Entrega desde Líneas de la Orden" href="generate-delivery-from-order-lines.html" />
-    <link rel="prev" title="4.3.2. Generar Factura desde Líneas de la Orden" href="../invoice-customer/invoice-from-order.html" /> 
+    <link rel="next" title="Registro de Entregas (Cliente)" href="shipment-customer.html" />
+    <link rel="prev" title="Generar Factura desde Orden de Salida" href="../generate-invoice-from-departure-order.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -98,39 +98,63 @@
             
               <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html">3. <strong>Slack</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/bot/index.html"><strong>Soporte en Bot</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
 <ul class="current">
-<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../master/index.html">2. <strong>Datos Maestros</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
-<li class="toctree-l1 current"><a class="reference internal" href="../index.html">4. <strong>Gestión de Ventas</strong></a><ul class="current">
-<li class="toctree-l2"><a class="reference internal" href="../price-list/index.html">4.1. <strong>Lista de Precios</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="../sales-order/index.html">4.2. <strong>Orden de Venta</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="../invoice-customer/index.html">4.3. <strong>Documento por Cobrar</strong></a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">4.4. <strong>Entregas (Cliente)</strong></a><ul>
-<li class="toctree-l3"><a class="reference internal" href="generate-delivery-from-order-lines.html">4.4.1. <strong>Generar Entrega desde Líneas de la Orden</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Ventas</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../commission/index.html"><strong>Comisión de Ventas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sales-region/index.html"><strong>Región de Ventas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../price-list/index.html"><strong>Lista de Precios</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../proposal/index.html"><strong>Propuesta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sales-order/index.html"><strong>Orden de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../invoice-customer/index.html"><strong>Documento por Cobrar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../generate-invoice-from-departure-order.html"><strong>Generar Factura desde Orden de Salida</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../generate-invoice-from-departure-order.html#generar-factura-desde-orden-de-salida-consolidado-en-un-documento"><strong>Generar Factura desde Orden de Salida Consolidado en un Documento</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Entregas (Cliente)</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="shipment-customer.html"><strong>Registro de Entregas (Cliente)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="generate-delivery-from-order-lines.html"><strong>Generar Entrega desde Líneas de la Orden</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="generate-manual-deliveries.html"><strong>Generar Entregas (Manual)</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="../credit-note-cxc.html">4.5. <strong>Nota de Crédito</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="../debit-note-cxc.html">4.6. <strong>Nota de Débito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../credit-note-cxc.html"><strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../debit-note-cxc.html"><strong>Nota de Débito</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html">4. <strong>Codificación Estándar de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../bot/index.html"><strong>Bot</strong></a></li>
 </ul>
 
             
@@ -140,9 +164,8 @@
 <ul>
 <li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
 <li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
-<li><a href="../../../download.html">Download Docs</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
 </ul>
-
 
 
         </div>
@@ -189,9 +212,9 @@
     
       <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-          <li><a href="../index.html"><span class="section-number">4. </span><strong>Gestión de Ventas</strong></a> &raquo;</li>
+          <li><a href="../index.html"><strong>Gestión de Ventas</strong></a> &raquo;</li>
         
-      <li><span class="section-number">4.4. </span><strong>Entregas (Cliente)</strong></li>
+      <li><strong>Entregas (Cliente)</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -211,13 +234,18 @@
            <div itemprop="articleBody">
             
   <div class="section" id="entregas-cliente">
-<span id="src-adempiere-quote-to-invoice-shipment"></span><h1><span class="section-number">4.4. </span><strong>Entregas (Cliente)</strong><a class="headerlink" href="#entregas-cliente" title="Permalink to this headline">¶</a></h1>
+<span id="src-adempiere-quote-to-invoice-shipment"></span><h1><strong>Entregas (Cliente)</strong><a class="headerlink" href="#entregas-cliente" title="Permalink to this headline">¶</a></h1>
 <p>El presente material elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para generar una entrega en ADempiere, en su versión 3.9.2 para la localización Venezuela.</p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="generate-delivery-from-order-lines.html">4.4.1. <strong>Generar Entrega desde Líneas de la Orden</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="generate-delivery-from-order-lines.html#consultar-entregas-generadas">4.4.1.1. <strong>Consultar Entregas Generadas</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="generate-delivery-from-order-lines.html#imprimir-entregas-generadas">4.4.1.2. <strong>Imprimir Entregas Generadas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="shipment-customer.html"><strong>Registro de Entregas (Cliente)</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="generate-delivery-from-order-lines.html"><strong>Generar Entrega desde Líneas de la Orden</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="generate-delivery-from-order-lines.html#consultar-entregas-generadas"><strong>Consultar Entregas Generadas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-delivery-from-order-lines.html#imprimir-entregas-generadas"><strong>Imprimir Entregas Generadas</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="generate-manual-deliveries.html"><strong>Generar Entregas (Manual)</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="generate-manual-deliveries.html#consultar-entregas-generadas"><strong>Consultar Entregas Generadas</strong></a></li>
 </ul>
 </li>
 </ul>
@@ -230,8 +258,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="generate-delivery-from-order-lines.html" class="btn btn-neutral float-right" title="4.4.1. Generar Entrega desde Líneas de la Orden" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="../invoice-customer/invoice-from-order.html" class="btn btn-neutral float-left" title="4.3.2. Generar Factura desde Líneas de la Orden" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="shipment-customer.html" class="btn btn-neutral float-right" title="Registro de Entregas (Cliente)" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../generate-invoice-from-departure-order.html" class="btn btn-neutral float-left" title="Generar Factura desde Orden de Salida" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
