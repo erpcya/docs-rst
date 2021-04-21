@@ -11,12 +11,12 @@
 **Novedades:**
 --------------
 
-- Se actualiza la documentación de la :ref:`src/lve/procedures/consignment-sales`, para agregar el reporte "**Detalles de Facturas y Margen**" convertido.
+- Se actualiza la documentación de la "**Ventas en Consignación**", para agregar el reporte "**Detalles de Facturas y Margen**" convertido.
 
-- Se actualiza la documentación de la :ref:`src/adempiere/pos-management`, para agregar la configuración que debe tener el tipo de documento "**Orden POS**", para generar las entregas de manera automática al completar la venta. Adicional a ello, se indica en el documento :ref:`documento/anular-transacción-de-venta`, que el documento de devolución es creado de manera automática cuando existe un documento de entrega.
+- Se actualiza la documentación de la "**Gestión PDV**", para agregar la configuración que debe tener el tipo de documento "**Orden POS**", para generar las entregas de manera automática al completar la venta. Adicional a ello, se indica en el documento "**Anular Transacción de Venta**", que el documento de devolución es creado de manera automática cuando existe un documento de entrega.
 
-- Se actualiza la documentación :ref:`src/lve/report`, para agregar el documento :ref:`documento/detalles-factura-y-margen-según-compras`, en el cual se indica la manera correcta de generar dicho reporte.
+- Se actualiza la documentación "**Reportes de ADempiere**", para agregar el documento "**Detalles de Facturas y Margen (Margen según Compras)**", en el cual se indica la manera correcta de generar dicho reporte.
 
-- Se actualiza la documentación :ref:`src/adempiere/requisition-to-invoice`, para agregar el documento :ref:`documento/orden-de-compra-multimoneda`, en el cual se indica la manera correcta de crear una orden de compra en multimoneda, sin importar el tipo de documento seleccionado para generar la misma.
+- Se actualiza la documentación "**Gestión de Compras**", para agregar el documento "**Orden de Compra Multimoneda**", en el cual se indica la manera correcta de crear una orden de compra en multimoneda, sin importar el tipo de documento seleccionado para generar la misma.
 
-- Se actualiza el documento :ref:`documento/configuración-de-ventas-en-consignación`, para llamar el documento :ref:`documento/orden-de-compra-multimoneda`, como requerimiento principal del proceso.
+- Se actualiza el documento "**Ventas en Consignación**", para llamar el documento "**Orden de Compra Multimoneda**", como requerimiento principal del proceso.

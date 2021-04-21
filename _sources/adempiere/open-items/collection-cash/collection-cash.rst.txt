@@ -1,237 +1,330 @@
 .. _ERPyA: http://erpya.com
-
-.. |Menú de ADempiere 1| image:: resources/menu-caja.png
-.. |Icono Registro Nuevo 1| image:: resources/reg-nuevo-caja.png
-.. |Campo Organización 1| image:: resources/org1.png
-.. |Campo Tipo de Documento 1| image:: resources/tipo-doc1.png
-.. |Campo Cuenta 1| image:: resources/cuenta-ban1.png
-.. |Campo Orden de Venta1| image:: resources/orden-venta1.png
-.. |Monto del Anticipo 1| image:: resources/monto-pago1.png
-.. |Tipo de Pago 1| image:: resources/tipo-pago1.png
-.. |Opción Completar 1| image:: resources/completar1.png
-.. |Acción Completar| image:: resources/accion-completar.png
-.. |Cierre de Caja Cobranza| image:: resources/completar2.png
-.. |Menú de ADempiere 3| image:: resources/menu-deposito-caja.png
-.. |Ventana de Búsqueda Inteligente Depósito de Caja 1| image:: resources/vent-dep-caja1.png
-.. |Campo Cuenta Bancaria| image:: resources/cuenta-ban3.png
-.. |Opción Comenzar Búsqueda 2| image:: resources/comenzar-bus2.png
-.. |Ventana de Búsqueda Inteligente Depósito de Caja 2| image:: resources/vent-dep-caja2.png
-.. |Campo Fecha de la Transacción 1| image:: resources/fec-tran1.png
-.. |Campo Socio del Negocio 1| image:: resources/socio1.png
-.. |Checklist Dividir Depósitos Destildado| image:: resources/check-destildado.png
-.. |Checklist Dividir Depósitos Tildado| image:: resources/check-tildado.png
-.. |Tipo de Documento para Retiros| image:: resources/tipo-doc-ret.png
-.. |Cuenta Bancaria| image:: resources/cuenta-ban4.png
-.. |No. del Documento| image:: resources/n-doc.png
-.. |Cargo| image:: resources/cargo.png
-.. |Tipo de Documento para Depósito| image:: resources/tipo-doc-dep.png
-.. |Selección de Caja y Opción OK| image:: resources/selec-ok2.png
-.. |Números de Documentos Generados| image:: resources/n-doc-generado.png
-.. |Documento de Egreso Generado en Caja| image:: resources/doc-egreso.png
-.. |Documento de Cobro Generado en Pago cobro| image:: resources/doc-cobro.png
-.. |Cierre de Caja Administrativo| image:: resources/completar3.png
+.. |Menú de ADempiere 1| image:: resources/cash-menu.png
+.. |Icono Registro Nuevo 1| image:: resources/new-record-icon.png
+.. |Campo Organización 1| image:: resources/organization-field.png
+.. |campo diario de caja| image:: resources/daily-cash-field.png
+.. |campo nro del documento| image:: resources/document-number-field.png
+.. |campo fecha de la transacción| image:: resources/transaction-date-field.png
+.. |Campo Tipo de Documento 1| image:: resources/document-type-field.png
+.. |campo socio del negocio| image:: resources/business-partner.png
+.. |campo descripción| image:: resources/description-field.png
+.. |campo factura| image:: resources/invoice-field.png
+.. |Tipo de Pago 1| image:: resources/payment-type-field.png
+.. |total del pago| image:: resources/total-payment.png
+.. |moneda| image:: resources/coin.png
+.. |abono a factura| image:: resources/payment-to-invoice.png
+.. |monto a favor del cliente| image:: resources/amount-in-favor-of-the-client.png
+.. |monto a favor de la companía| image:: resources/amount-in-favor-of-the-company.png
+.. |totales con sobre sub pagos| image:: resources/totals-with-overpayments.png
+.. |total del ajuste| image:: resources/total-fit.png
+.. |referencia| image:: resources/reference.png
+.. |estado del documento| image:: resources/document-status.png
+.. |banco| image:: resources/bank.png
+.. |procesado| image:: resources/indicted.png
+.. |Opción Completar 1| image:: resources/option-complete.png
+.. |Acción Completar| image:: resources/action-complete.png
+.. |Cierre de Caja Cobranza| image:: resources/closing-of-collection-box.png
+.. |Menú de ADempiere 3| image:: resources/cash-deposit-menu.png
+.. |Ventana de Búsqueda Inteligente Depósito de Caja 1| image:: resources/smart-search-window-cash-deposit.png
+.. |Campo Cuenta Bancaria| image:: resources/bank-account-field.png
+.. |Opción Comenzar Búsqueda 2| image:: resources/option-start-search.png
+.. |Ventana de Búsqueda Inteligente Depósito de Caja 2| image:: resources/records-associated-with-the-account.png
+.. |Campo Fecha para la Transacción 1| image:: resources/date-field-for-the-transaction.png
+.. |Campo Socio del Negocio 1| image:: resources/business-partner-field.png
+.. |Checklist Dividir Depósitos Destildado| image:: resources/checklist-divide-deposits-distilled.png
+.. |Checklist Dividir Depósitos Tildado| image:: resources/checklist-split-deposits-checked.png
+.. |Tipo de Documento para Retiros| image:: resources/document-type-field-for-withdrawals.png
+.. |Cuenta Bancaria| image:: resources/bank-account.png
+.. |No. del Documento| image:: resources/document-number.png
+.. |Cargo| image:: resources/cargo-field.png
+.. |Tipo de Documento para Depósito| image:: resources/type-of-document-for-deposit.png
+.. |Selección de Caja y Opción OK| image:: resources/box-selection-and-option-ok.png
+.. |Números de Documentos Generados| image:: resources/generated-document-numbers.png
+.. |Documento de Egreso Generado en Caja| image:: resources/exit-document-generated-in-cash.png
+.. |Documento de Cobro Generado en Pago cobro| image:: resources/collection-document-generated-in-payment-collection.png
+.. |Cierre de Caja Administrativo| image:: resources/administrative-cash-closure.png
 
 .. _documento/caja-cobranza:
 
 **Registro de Caja Cobranza**
 =============================
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Caja**".
 
     |Menú de ADempiere 1|
 
     Imagen 1. Menú de ADempiere
 
-Luego podrá visualizar la ventana "**Caja**", donde debe seleccionar el icono "**Registro Nuevo**" ubicado en la barra de herramientas de ADempiere para crear un nuevo registro en caja.
+#. Luego podrá visualizar la ventana "**Caja**", donde debe seleccionar el icono "**Registro Nuevo**" ubicado en la barra de herramientas de ADempiere para crear un nuevo registro en caja.
 
     |Icono Registro Nuevo 1|
 
     Imagen 2. Icono Registro Nuevo
 
-    Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Caja**".
+    #. Seleccione en el campo "**Organización**", la organización para la cual esta realizando el documento "**Caja**".
 
         |Campo Organización 1|
 
         Imagen 3. Campo Organización
 
-    Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Cobro Nacional**".
+    #. Seleccione en el campo "**Diario de Caja**", la caja correspondiente al registro que se encuentra realizando.
+
+        |campo diario de caja|
+
+        Imagen 4. Campo Diario de Caja
+
+    #. Introduzca en el campo "**No. del Documento**", el número de documento correspondiente a la secuencia del tipo de documento que se encuentra realizando.
+
+        |campo nro del documento|
+
+        Imagen 5. Campo Nro del Documento
+
+    #. Seleccione en el campo "**Fecha de la Transacción**", la fecha en la que se encuentra realizando el registro.
+
+        |campo fecha de la transacción|
+
+        Imagen 6. Campo Fecha de la Transacción
+
+    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento "**Tipo de Documento**" elaborado por `ERPyA`_. Para ejemplificar el registro es utilizada la opción "**Cobro Nacional**".
 
         |Campo Tipo de Documento 1|
 
-        Imagen 4. Campo Tipo de Documento
+        Imagen 7. Campo Tipo de Documento
 
-    Seleccione en el campo "**Cuenta**" la cuenta caja correspondiente al documento que esta realizando. Para ejemplificar el registro es utilizada la opción "**Caja Cobranza - --_Cobranza Nacional**".
+    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio relacionado al registro que se encuentra realizando.
 
-        |Campo Cuenta 1|
+        |campo socio del negocio|
 
-        Imagen 5. Campo Cuenta
+        Imagen 8. Campo Socio del Negocio
 
-        .. note::
+    #. Introduzca en el campo "**Descripción**", una breve descripción referente al registro que se encuentra realizando.
 
-            Recuerde que para getionar el procedimiento de caja cobranza, debe tener creada la definición de caja cobranza.
-        
-    Seleccione en el campo "**Orden de Venta**", la orden de venta que será reflejada en la caja que esta realizando. Para ejemplificar el registro es utilizada la orden de venta "**OVN-28**" creada anteriormente.
+        |campo descripción|
 
-        |Campo Orden de Venta1|
+        Imagen 9. Campo Descripción
 
-        Imagen 6. Campo Orden de Venta
+    #. Seleccione en el campo "**Factura**", la factura relacionada al registro que se encuentra realizando.
+
+        |campo factura|
+
+        Imagen 10. Campo Factura
 
         .. note:: 
 
-            Al seleccionar la orden de venta, se cargan automáticamente los campos "**Socio del Negocio**" y "**Total de Caja**", con la información contenida en la orden seleccionada. Adicional a ello, se tilda el checklist "**Anticipo**". 
+            Al seleccionar la factura, se carga automáticamente el campo "**Total del Pago**", con la información contenida en la factura seleccionada. 
 
-    Introduzca en el campo "**Total de Caja**" el monto total del pago realizado por el socio del negocio cliente, correspondiente al abono o anticipo del mismo. Para ejemplificar el registro el monto utilizado es "**90.000**".
-
-        |Monto del Anticipo 1|
-
-        Imagen 7. Monto total del pago de abono o anticipo realizado por el socio del negocio cliente.
-
-    Seleccione en el campo "**Tipo de Pago**", la forma de pago utilizada por el socio del negocio cliente. Para ejemplificar el registro es utilizada la opción "**Depósito Directo**".
+    #. Seleccione en el campo "**Tipo de Pago**", la forma de pago utilizada por el socio del negocio seleccionado anteriormente.
 
         |Tipo de Pago 1|
 
-        Imagen 8. Campo Tipo de Pago
+        Imagen 11. Campo Tipo de Pago 
 
-    .. note::
+    #. Al seleccionar la factura se carga de forma automática el monto de la misma en el campo "**Total del Pago**".
 
-        Recuerde guardar los cambios realizados seleccionando el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+        |total del pago|
 
-Seleccione la opción "**Completar**", ubicada en la parte inferior del documento.
+        Imagen 12. Campo Total del Pago
+
+        .. note::
+
+            Este campo se refiere al monto total del pago realizado por el socio del negocio cliente, correspondiente al abono o anticipo del mismo.
+
+    #. Seleccione en el campo "**Moneda**", la moneda asociada al registro que se encuentra realizando.
+
+        |moneda|
+        
+        Imagen 13. Campo Moneda
+
+    #. El checklist "**Abono a Factura**", determina si se está realizando un abono a la factura correspondiente o simplemente se cancela completamente y el restante se ajusta.
+
+        Este checklist se comporta de dos (2) maneras diferentes, cuando el monto del cobro es mayor al de la factura. Suponiendo que se tiene una factura de cuentas por cobrar con monto de "**250.000,00 bs**", pero el cliente realiza el pago de la factura por un monto mayor a la misma. Se pueden presentar las siguientes opcinoes según el caso expresado:
+
+            - "**Checklist Abono a Factura Tildado**": Cuando el monto excedente del monto a pagar de la factura es un valor considerablemente alto, el campo "**Totales con sobre/sub pago**" toma como valor el monto excedente. Por defecto ADempiere deja el checklist tildado, de esta manera el monto que contiene el campo "**Totales con sobre/sub pago**", queda a favor del cliente. A continuación se muestra una imagen para referencia del ejemplo expuesto.
+
+                |monto a favor del cliente|
+
+                Imagen 14. Monto a Favor del Cliente
+
+            - "**Checklist Abono a Factura Destildado**": Cuando el monto excedente del monto a pagar de la factura es un valor bajo o en su defecto el cliente no lo quiera por cualquier motivo, se debe destildar el checklist "**Abono a Factura**" para que el valor del campo "**Totales con sobre/sub pago**" correspondiente al monto del excedente, sea tomado por el campo "**Total del Ajuste**", quedando este a favor de la compañía. A continuación se muestra una imagen para referencia del ejemplo expuesto.
+
+                |monto a favor de la companía|
+
+                Imagen 15. Monto a Favor de la Compañía 
+
+        Para el registro del presente material, se toma como ejemplo el pago exacto del monto de la factura. Quedando los campos "**Totales con sobre/sub pago**" y "**Total del Ajuste**" en cero (**0,00**).
+
+        |abono a factura|
+        
+        Imagen 16. Campo Abono a Factura
+
+    #. Podrá visualizar en el campo "**Totales con sobre/sub pago**", el total de sobre pago (no contabilizado) o sub pago (pago parcial).
+
+        |totales con sobre sub pagos|
+
+        Imagen 17. Campo Totales con Sobre/Sub Pagos 
+
+    #. Podrá visualizar en el campo "**Total del Ajuste**", el total a ser ajustado como incobrable.
+
+        |total del ajuste|
+
+        Imagen 18. Total del Ajuste 
+
+    #. Introduzca en el campo "**Referencia**", la referencia de pago que indica el pago.
+
+        |referencia|
+        
+        Imagen 19. Referencia 
+
+    #. El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Pago**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+
+        |estado del documento|
+
+        Imagen 20. Campo Estado del Documento
+
+    #. Seleccione en el campo "**Banco**", el banco para esta organización o para un socio del negocio con quien esta organización efectúa transacciones.
+
+        |banco|
+
+        Imagen 21. Campo Banco
+
+    #. El checklist "**Procesado**", indica que un documento ha sido procesado.
+
+        |procesado|
+
+        Imagen 22. Checklist Procesado
+
+#. Seleccione la opción "**Procesar Pago**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
     |Opción Completar 1|
 
-    Imagen 9. Opción Completar
+    Imagen 23. Opción Procesar Pago
 
-Seleccione la acción "**Completar**" y la opción "**Ok**" para completar el documento "**Caja**".
+#. Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Caja**".
 
     |Acción Completar|
 
-    Imagen 10. Acción Completar
+    Imagen 24. Acción Completar
 
-Realice el procedimiento regular para generar un cierre de caja, explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_, seleccionando en el campo "**Tipo de Documento**" la opción "**Cierre de Caja Cobranza**".
+#. Realice el procedimiento regular para generar un cierre de caja, explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_, seleccionando en el campo "**Tipo de Documento**" la opción "**Cierre de Caja Cobranza**".
 
    |Cierre de Caja Cobranza|
 
-   Imagen 11. Cierre de Caja Cobranza
+   Imagen 25. Cierre de Caja Cobranza
 
-Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Depósito de Caja**".
+#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Saldos Pendientes**", luego seleccione la carpeta "**Diario de Caja**", por último seleccione la ventana "**Depósito de Caja**".
 
     |Menú de ADempiere 3|
 
-    Imagen 12. Menú de ADempiere
+    Imagen 26. Menú de ADempiere
 
-Luego podrá visualizar la ventana de búsqueda inteligente "**Depósito de Caja**", con diferentes campos o filtros para realizar la búsqueda de información en base a lo requerido por el usuario.
+#. Luego podrá visualizar la ventana de búsqueda inteligente "**Depósito de Caja**", con diferentes campos o filtros para realizar la búsqueda de información en base a lo requerido por el usuario.
 
     |Ventana de Búsqueda Inteligente Depósito de Caja 1|
 
-    Imagen 13. Ventana de Búsqueda Inteligente Depósito de Caja
+    Imagen 27. Ventana de Búsqueda Inteligente Depósito de Caja
 
-    Seleccione en el campo "**Cuenta Bancaria**", la caja cobranza seleccionada en el campo "**Cuenta**" de la ventana "**Caja**". Para ejemplificar el registro es utilizada la cuenta bancaria "**Caja Cobranza - --_Cobranza Nacional**".
+    #. Seleccione en el campo "**Cuenta Bancaria**", la caja cobranza seleccionada en el campo "**Cuenta**" de la ventana "**Caja**". Para ejemplificar el registro es utilizada la cuenta bancaria "**Caja Cobranza - --_Cobranza VES**".
 
         |Campo Cuenta Bancaria|
 
-        Imagen 14. Campo Cuenta Bancaria
+        Imagen 28. Campo Cuenta Bancaria
 
-    Seleccione la opción "**Comenzar Búsqueda**", para filtar búsqueda de la información en base a lo seleccionado.
+    #. Seleccione la opción "**Comenzar Búsqueda**", para filtar búsqueda de la información en base a lo seleccionado.
 
         |Opción Comenzar Búsqueda 2|
 
-        Imagen 15. Opción Comenzar Búsqueda
+        Imagen 29. Opción Comenzar Búsqueda
 
-    Podrá visualizar la ventana de búsqueda inteligente "**Depósito de Caja**", con los diferentes registros asociados a la cuenta bancaria seleccionada.
+    #. Podrá visualizar la ventana de búsqueda inteligente "**Depósito de Caja**", con los diferentes registros asociados a la cuenta bancaria seleccionada.
 
         |Ventana de Búsqueda Inteligente Depósito de Caja 2|
 
-        Imagen 16. Ventana de Búsqueda Inteligente Depósito de Caja
+        Imagen 30. Ventana de Búsqueda Inteligente Depósito de Caja
 
-    Seleccione en el campo "**Fecha de la Transacción**", la fecha contable de la caja de la cual se va a realizar el depósito.
+    #. Seleccione en el campo "**Fecha de la Transacción**", la fecha contable de la caja de la cual se va a realizar el depósito.
 
-        |Campo Fecha de la Transacción 1|
+        |Campo Fecha para la Transacción 1|
 
-        Imagen 17. Campo Fecha de la Transacción
+        Imagen 31. Campo Fecha de la Transacción
 
-    Seleccione en el campo "**Socio del Negocio**", la compañía para la cual realizó los documentos "**Caja**", "**Cierre de Caja**" y para la cual va a realizar el "**Depósito de Caja**".
+    #. Seleccione en el campo "**Socio del Negocio**", la compañía para la cual realizó los documentos "**Caja**", "**Cierre de Caja**" y para la cual va a realizar el "**Depósito de Caja**".
 
         |Campo Socio del Negocio 1|
 
-        Imagen 18. Campo Socio del Negocio
+        Imagen 32. Campo Socio del Negocio
 
-    El checklist "**Dividir Depósitos**" destildado, permite visualizar el campo "**No. del Documento**" para ingresar el número de referencia del pago realizado por el socio del negocio y es utilizado cuando se tienen varios registros de caja con el mismo número de referencia, generando un (1) documento de egreso en "**Caja**" y un (1) documento de cobro en "**Pago/Cobro**". 
+    #. El checklist "**Dividir Depósitos**" destildado, permite visualizar el campo "**No. del Documento**" para ingresar el número de referencia del pago realizado por el socio del negocio y es utilizado cuando se tienen varios registros de caja con el mismo número de referencia, generando un (1) documento de egreso en "**Caja**" y un (1) documento de cobro en "**Pago/Cobro**". 
 
         |Checklist Dividir Depósitos Destildado|
 
-        Imagen 19. Checklist Dividir Depósitos Destildado
+        Imagen 33. Checklist Dividir Depósitos Destildado
 
-    Adicional a ello, al tildar el checklist "**Dividir Depósitos**" no puede ser visualizado el campo "**No. del Documento**", esta acción permite que sea generado un (1) documento de egreso en "**Caja**", con la sumatoria de todos los registros de documentos "**Caja**" que sean seleccionados en la ventana de búsqueda inteligente "**Depósito de Caja**" y un (1) documento de cobro en "**Pago/Cobro**", por cada uno de los registros seleccionados en dicha ventana. 
+        #. Adicional a ello, al tildar el checklist "**Dividir Depósitos**" no puede ser visualizado el campo "**No. del Documento**", esta acción permite que sea generado un (1) documento de egreso en "**Caja**", con la sumatoria de todos los registros de documentos "**Caja**" que sean seleccionados en la ventana de búsqueda inteligente "**Depósito de Caja**" y un (1) documento de cobro en "**Pago/Cobro**", por cada uno de los registros seleccionados en dicha ventana. 
 
-        |Checklist Dividir Depósitos Tildado|
+            |Checklist Dividir Depósitos Tildado|
 
-        Imagen 20. Checklist Dividir Depósitos Tildado
+            Imagen 34. Checklist Dividir Depósitos Tildado
 
-    Seleccione en el campo "**Tipo de Documento para Retiros**", el tipo de documento que será generado en la ventana "**Caja**". Para ejemplificar el registro, el tipo de documento para retiros utilizado es "**Egreso Caja**".
+    #. Seleccione en el campo "**Tipo de Documento para Retiros**", el tipo de documento que será generado en la ventana "**Caja**". Para ejemplificar el registro, el tipo de documento para retiros utilizado es "**Egreso Caja**".
 
         |Tipo de Documento para Retiros|
 
-        Imagen 21. Campo Tipo de Documento para Retiros
+        Imagen 35. Campo Tipo de Documento para Retiros
 
-    Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria a la cual será realizado el depósito de caja.
+    #. Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria a la cual será realizado el depósito de caja.
 
         |Cuenta Bancaria|
 
-        Imagen 22. Campo Cuenta Bancaria
+        Imagen 36. Campo Cuenta Bancaria
 
-    Introduzca en el campo "**No. del Documento**", el número de referencia del pago realizado por el socio del negocio cliente.
+    #. Introduzca en el campo "**No. del Documento**", el número de referencia del pago realizado por el socio del negocio cliente.
 
         |No. del Documento|
 
-        Imagen 23. Campo Número del Documento
+        Imagen 37. Campo Número del Documento
 
-    Seleccione en el campo "**Cargo**", el cargo correspondiente al procedimiento que se esta realizando. Para ejemplificar el registro es utilizado el cargo "**Efectivo en Transito Cobranza**".
+    #. Seleccione en el campo "**Cargo**", el cargo correspondiente al procedimiento que se esta realizando. Para ejemplificar el registro es utilizado el cargo "**Efectivo en Transito Cobranza**".
 
         |Cargo|
 
-        Imagen 24. Campo Cargo
+        Imagen 38. Campo Cargo
 
-    Seleccione en el campo "**Tipo de Documento para Depósitos**", el tipo de documento que será generado en la ventana "**Pago/Cobro**". Para ejemplificar el registro, el tipo de documento para depósito utilizado es "**Cobro Nacional**". 
+    #. Seleccione en el campo "**Tipo de Documento para Depósitos**", el tipo de documento que será generado en la ventana "**Pago/Cobro**". Para ejemplificar el registro, el tipo de documento para depósito utilizado es "**Cobro Nacional**". 
 
         |Tipo de Documento para Depósito|
 
-        Imagen 25. Campo Tipo de Documento para Depósito
+        Imagen 39. Campo Tipo de Documento para Depósito
 
-    Seleccione los diferentes registros de caja que pertenezcan a un mismo banco y la opción "**OK**" para ejecutar el proceso "**Depósito de Caja**" con la información ingresada en la ventana de búsqueda inteligente "**Depósito de Caja**". Para ejemplificar el registro es seleccionado solo registro de caja "**CCxCN-41**".
+    #. Seleccione los diferentes registros de caja que pertenezcan a un mismo banco y la opción "**OK**" para ejecutar el proceso "**Depósito de Caja**" con la información ingresada en la ventana de búsqueda inteligente "**Depósito de Caja**". Para ejemplificar el registro es seleccionado solo el registro de caja "**1414145**".
 
         |Selección de Caja y Opción OK|
 
-        Imagen 26. Selección de Caja y Opción OK
+        Imagen 40. Selección de Caja y Opción OK
 
     .. note::
 
         Se deben seleccionar solo los registros que se conozca que pertencen al banco seleccionado en el campo "**Cuenta Bancaria**".
 
-Podrá visualizar los números de documentos en la parte inferior izquierda de la ventana de búsqueda inteligente "**Depósito de Caja**". Dichos números de documentos pueden ser utilizados para ubicar los documetos generados.
+#. Podrá visualizar los números de documentos en la parte inferior izquierda de la ventana de búsqueda inteligente "**Depósito de Caja**". Dichos números de documentos pueden ser utilizados para ubicar los documetos generados.
 
     |Números de Documentos Generados|
 
-    Imagen 27. Números de Documento Generados 
+    Imagen 41. Números de Documento Generados 
 
-Al consultar del documento de egreso generado en la ventana "**Caja**", con ayuda del número de documento generado en la parte inferior izquierda de la ventana de búsqueda inteligente "**Depósito de Caja**", se puede visualizar el registro de la siguiente manera.
+#. Al consultar del documento de egreso generado en la ventana "**Caja**", con ayuda del número de documento generado en la parte inferior izquierda de la ventana de búsqueda inteligente "**Depósito de Caja**", se puede visualizar el registro de la siguiente manera.
 
     |Documento de Egreso Generado en Caja|
 
-    Imagen 28. Documento de Egreso Generado en Caja 
+    Imagen 42. Documento de Egreso Generado en Caja 
 
-Al consultar del documento de cobro generado en la ventana "**Pago/Cobro**", con ayuda del número de documento generado en la parte inferior izquierda de la ventana de búsqueda inteligente "**Depósito de Caja**", se puede visualizar el registro de la siguiente manera.
+#. Al consultar del documento de ingreso generado en la ventana "**Pago/Cobro**", con ayuda del número de documento generado en la parte inferior izquierda de la ventana de búsqueda inteligente "**Depósito de Caja**", se puede visualizar el registro de la siguiente manera.
 
     |Documento de Cobro Generado en Pago cobro|
 
-    Imagen 29. Documento de Cobro Generado en Pago/Cobro 
+    Imagen 43. Documento de Cobro Generado en Pago/Cobro 
 
-Realice el procedimiento regular para generar un cierre de caja, explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_, seleccionando en el campo "**Tipo de Documento**" la opción "**Cierre de Caja Administrativo**".
+#. Realice el procedimiento regular para generar un cierre de caja, explicado en el documento :ref:`documento/procedimiento-para-realizar-un-cierre-de-caja`, elaborado por `ERPyA`_, seleccionando en el campo "**Tipo de Documento**" la opción "**Cierre de Caja Administrativo**".
 
    |Cierre de Caja Administrativo|
 
-   Imagen 30. Cierre de Caja Administrativo
-
-.. note::
-
-    Para identificar los cobros sin registros en ADempiere, se debe realizar el procedimiento explicado en el proceso :ref:`paso/cobros-sin-registros` del documento "**Conciliaciones Automáticas**".
+   Imagen 44. Cierre de Caja Administrativo

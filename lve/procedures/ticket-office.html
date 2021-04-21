@@ -1,0 +1,631 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>3.3. Boletería &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="4. Codificación Estándar de ADempiere" href="../standard-coding/index.html" />
+    <link rel="prev" title="3.2. Mercancía en Consignación" href="consignment-merchandise.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">3. <strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="shipping-tracking.html">3.1. <strong>Tracking de Envío</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="consignment-merchandise.html">3.2. <strong>Mercancía en Consignación</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">3.3. <strong>Boletería</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#registro-de-boleto">3.3.1. <strong>Registro de Boleto</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#generar-factura-desde-boleto">3.3.2. <strong>Generar Factura desde Boleto</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html">4. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Download Docs</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">3. </span><strong>Procedimientos</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">3.3. </span><strong>Boletería</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/lve/procedures/ticket-office.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="boleteria">
+<span id="documento-boleteria"></span><h1><span class="section-number">3.3. </span><strong>Boletería</strong><a class="headerlink" href="#boleteria" title="Permalink to this headline">¶</a></h1>
+<p>El procedimiento de boletería parte de una previa configuración en la cual se debe contar con los siguientes puntos:</p>
+<blockquote>
+<div><ul>
+<li><p><a class="reference internal" href="../../adempiere/master/traveler/index.html#src-adempiere-master-traveler"><span class="std std-ref">Viajero</span></a> Debe estar registrado el socio del negocio cliente (viajero). De no cumplir con ello, se debe realizar el procedimiento explicado en el material <a class="reference internal" href="../../adempiere/master/traveler/traveler.html#documento-paso-registro-de-viajero"><span class="std std-ref">Registro de Viajero</span></a>.</p></li>
+<li><p><a class="reference internal" href="../../adempiere/master/terminal/index.html#src-adempiere-master-terminal"><span class="std std-ref">Terminal</span></a> Deben estar definidos los diferentes terminales de origen y destino de los viajes. De no cumplir con ello, se debe realizar el procedimiento explicado en el material <a class="reference internal" href="../../adempiere/master/terminal/terminal.html#documento-terminal"><span class="std std-ref">Registro de Terminal</span></a>.</p></li>
+<li><p><a class="reference internal" href="../../adempiere/master/carrier/index.html#src-adempiere-master-carrier"><span class="std std-ref">Transportista</span></a> Deben estar definidas las diferentes empresas responsables de realizar el viaje. De no cumplir con ello, se debe realizar el procedimiento explicado en el material <a class="reference internal" href="../../adempiere/master/carrier/carrier.html#documento-transportista"><span class="std std-ref">Registro de Transportista</span></a>.</p></li>
+<li><p><a class="reference internal" href="../../adempiere/master/travel-tax/index.html#src-adempiere-master-travel-tax"><span class="std std-ref">Impuesto de Viaje</span></a> Deben estar definidos los diferentes impuestos de viaje con los que trabaja la organización. De no cumplir con ello, se debe realizar el procedimiento explicado en el material <a class="reference internal" href="../../adempiere/master/travel-tax/travel-tax.html#documento-impuesto-de-viaje"><span class="std std-ref">Registreo de Impuesto de Viaje</span></a>. Cada impuesto de viaje varia según el tipo de boleto.</p>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Es importante resaltar que cada impuesto de viaje es configurado por su parte, indicando cual será calculado de manera automática y cual no. Si indica que será calculado de manera automática, se asigna el porcentaje a aplicar para el mismo.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p><a class="reference internal" href="../../adempiere/master/ticket-type/index.html#src-adempiere-master-ticket-type"><span class="std std-ref">Tipo de Boleto</span></a> Deben estar definidos los diferentes tipos de boletos con los que trabaja la organización. En la configuración del mismo, se indica el producto, cargo e impuestos a aplicar por cada tipo de boleto. De no cumplir con ello, se debe realizar el procedimiento explicado en el material <a class="reference internal" href="../../adempiere/master/ticket-type/ticket-type.html#documento-tipo-de-boleto"><span class="std std-ref">Registro de Tipo de Boleto</span></a>.</p></li>
+<li><p><a class="reference internal" href="../../adempiere/master/reason-for-trip/index.html#src-adempiere-master-reason-for-trip"><span class="std std-ref">Motivo de Viaje</span></a> Deben estar definidos los diferentes motivos de viaje de los socios viajeros. De no cumplir con ello, se debe realizar el procedimiento explicado en el material <a class="reference internal" href="../../adempiere/master/reason-for-trip/reason-for-trip.html#documento-motivo-de-viaje"><span class="std std-ref">Registro de Motivo de Viaje</span></a>.</p></li>
+</ul>
+</div></blockquote>
+<p>Como ejemplo se presenta el tipo de boleto “<strong>Boleto Aéreo Nacional</strong>”, en el cual se tiene configurado el producto “<strong>Servicio de Vuelo</strong>”, el cargo “<strong>Impuestos Incluidos</strong>” y los impuestos de viaje “<strong>AK</strong>”, “<strong>C2</strong>”, “<strong>EU</strong>”, “<strong>YN</strong>” y “<strong>Otros impuestos</strong>”.</p>
+<p>A continuación se explica el procedimiento a seguir para realizar correctamente el proceso de boletería.</p>
+<div class="section" id="registro-de-boleto">
+<span id="documento-paso-registro-de-boleto"></span><h2><span class="section-number">3.3.1. </span><strong>Registro de Boleto</strong><a class="headerlink" href="#registro-de-boleto" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Administración de Agencia de Viajes</strong>”, luego seleccione la ventana “<strong>Boleto de Viaje</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de ventana boleto de viaje" src="../../_images/window-menu-travel-ticket.png" /></p>
+<p>Imagen 61. Menú de ADempiere</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar la ventana “<strong>Boleto de Viaje</strong>”, con los diferentes registros de boletos.</p>
+<blockquote>
+<div><p><img alt="ventana boleto de viaje" src="../../_images/window-travel-ticket.png" /></p>
+<p>Imagen 62. Ventana Boleto de Viaje</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="icono registro nuevo de la ventana boleto de viaje" src="../../_images/travel-ticket-window-new-registration-icon.png" /></p>
+<p>Imagen 63. Icono Registro Nuevo</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se encuentra realizando el registro.</p>
+<blockquote>
+<div><p><img alt="campo organización de la ventana boleto de viaje" src="../../_images/travel-ticket-window-organization-field.png" /></p>
+<p>Imagen 64. Campo Organización</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>No. del Documento</strong>”, el número de documento correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si no es ingresado ningún valor en este campo, al guardar el registro ADempiere asigna de manera automática un número de documento según la secuencia de registros que se tenga en el momento.</p>
+</div>
+<p><img alt="campo número del documento de la ventana boleto de viaje" src="../../_images/travel-ticket-window-document-number-field.png" /></p>
+<p>Imagen 65. Campo No. del Documento</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento “<strong>Tipo de Documento</strong>” elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento de la ventana boleto de viaje" src="../../_images/window-document-type-field-travel-ticket.png" /></p>
+<p>Imagen 66. Campo Tipo de Documento</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>F. Documento</strong>”, la fecha en la cual se encuentra realizando el documento.</p>
+<blockquote>
+<div><p><img alt="campo fecha del documento de la ventana boleto de viaje" src="../../_images/date-field-of-travel-ticket-window-document.png" /></p>
+<p>Imagen 67. Campo F. Documento</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Tipo de Boleto</strong>”, el tipo de boleto que se encuentra realizando.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que puede consultar del material <a class="reference internal" href="../../adempiere/master/ticket-type/ticket-type.html#documento-tipo-de-boleto"><span class="std std-ref">Registro de Tipo de Boleto</span></a>, para conocer dicho procedimiento.</p>
+</div>
+<p><img alt="campo tipo de boleto de la ventana boleto de viaje" src="../../_images/field-window-ticket-type-travel-ticket.png" /></p>
+<p>Imagen 68. Campo Tipo de Boleto</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción referente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la ventana boleto de viaje" src="../../_images/field-travel-ticket-window-description.png" /></p>
+<p>Imagen 69. Campo Descripción</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Viajero</strong>”, el socio del negocio cliente viajero correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que puede consultar del material <a class="reference internal" href="../../adempiere/master/traveler/traveler.html#documento-paso-registro-de-viajero"><span class="std std-ref">Registro de Viajero</span></a>, para conocer dicho procedimiento.</p>
+</div>
+<p><img alt="campo viajero de la ventana boleto de viaje" src="../../_images/field-traveler-window-travel-ticket.png" /></p>
+<p>Imagen 70. Campo Viajero</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Información del Viajero</strong>”, la información del viajero correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo información del viajero de la ventana boleto de viaje" src="../../_images/window-traveler-information-field-travel-ticket.png" /></p>
+<p>Imagen 71. Campo Información del Viajero</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Origen</strong>”, el origen del boleto.</p>
+<blockquote>
+<div><p><img alt="campo origen de la ventana boleto de viaje" src="../../_images/window-origin-field-travel-ticket.png" /></p>
+<p>Imagen 72. Campo Origen</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Destino</strong>”, el destino del boleto.</p>
+<blockquote>
+<div><p><img alt="campo destino de la ventana boleto de viaje" src="../../_images/field-destination-window-travel-ticket.png" /></p>
+<p>Imagen 73. Campo Destino</p>
+</div></blockquote>
+</li>
+<li><p>El check “<strong>Ida y Vuelta</strong>”, se encuentra tildado por defecto para indicar que el boleto es de ida y vuelta.</p>
+<blockquote>
+<div><p><img alt="check ida y vuelta de la ventana boleto de viaje" src="../../_images/check-round-trip-from-the-window-travel-ticket.png" /></p>
+<p>Imagen 74. Check Ida y Vuelta</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Fecha de Salida</strong>”, la fecha de salida para el boleto.</p>
+<blockquote>
+<div><p><img alt="campo fecha de salida de la ventana boleto de viaje" src="../../_images/field-departure-date-of-the-travel-ticket-window.png" /></p>
+<p>Imagen 75. Campo Fecha de Salida</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Fecha de Regreso</strong>”, la fecha de regreso del viaje.</p>
+<blockquote>
+<div><p>..note:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="n">Este</span> <span class="n">campo</span> <span class="n">se</span> <span class="n">debe</span> <span class="n">llenar</span> <span class="n">cuando</span> <span class="n">el</span> <span class="n">boleto</span> <span class="n">sea</span> <span class="n">de</span> <span class="n">ida</span> <span class="n">y</span> <span class="n">vuelta</span><span class="o">.</span>
+</pre></div>
+</div>
+<p><img alt="campo fecha de regreso de la ventana boleto de viaje" src="../../_images/return-date-field-of-travel-ticket-window.png" /></p>
+<p>Imagen 76. Campo Fecha de Regreso</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Transportista</strong>”, el transportista responsable de la entrega del producto</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que puede consultar del material <a class="reference internal" href="../../adempiere/master/carrier/carrier.html#documento-transportista"><span class="std std-ref">Registro de Transportista</span></a>, para conocer dicho procedimiento.</p>
+</div>
+<p><img alt="campo transportista de la ventana boleto de viaje" src="../../_images/field-carrier-window-travel-ticket.png" /></p>
+<p>Imagen 77. Campo Transportista</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Agente Comercial</strong>”, el agente comercial para la región de ventas.</p>
+<blockquote>
+<div><p><img alt="campo agente comercial de la ventana boleto de viaje" src="../../_images/field-commercial-agent-window-travel-ticket.png" /></p>
+<p>Imagen 78. Campo Agente Comercial</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Fecha Reservada</strong>”, la fecha reservada para el boleto.</p>
+<blockquote>
+<div><p><img alt="campo fecha reservada de la ventana boleto de viaje" src="../../_images/reserved-date-field-of-travel-ticket-window.png" /></p>
+<p>Imagen 79. Campo Fecha Reservada</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Motivo de Viaje</strong>”, el motivo del viaje.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que puede consultar del material <a class="reference internal" href="../../adempiere/master/reason-for-trip/reason-for-trip.html#documento-motivo-de-viaje"><span class="std std-ref">Registro de Motivo de Viaje</span></a>, para conocer dicho procedimiento.</p>
+</div>
+<p><img alt="campo motivo de viaje de la ventana boleto de viaje" src="../../_images/field-travel-reason-window-travel-ticket.png" /></p>
+<p>Imagen 80. Campo Motivo de Viaje</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>No. de Referencia</strong>”, el número de referencia del socio del negocio cliente viajero.</p>
+<blockquote>
+<div><p><img alt="campo número de referencia de la ventana boleto de viaje" src="../../_images/travel-ticket-window-reference-number-field.png" /></p>
+<p>Imagen 81. Campo No. de Referencia</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>No. de Serie</strong>”, el número de serie del producto.</p>
+<blockquote>
+<div><p><img alt="campo número de serie de la ventana boleto de viaje" src="../../_images/travel-ticket-window-serial-number-field.png" /></p>
+<p>Imagen 82. Campo No. de Serie</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Boleto Relacionado</strong>”, el boleto relacionado al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo boleto relacionado de la ventana boleto de viaje" src="../../_images/field-related-ticket-window-travel-ticket.png" /></p>
+<p>Imagen 83. Campo Boleto Relacionado</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Monto</strong>”, el monto del boleto.</p>
+<blockquote>
+<div><p><img alt="campo monto de la ventana boleto de viaje" src="../../_images/field-window-amount-travel-ticket.png" /></p>
+<p>Imagen 84. Campo Monto</p>
+</div></blockquote>
+</li>
+<li><p>En el campo “<strong>Total de Impuesto</strong>”, podrá visualizar el total del impuesto del boleto.</p>
+<blockquote>
+<div><p><img alt="campo total de impuesto de la ventana boleto de viaje" src="../../_images/total-tax-field-of-travel-ticket-window.png" /></p>
+<p>Imagen 85. Campo Total de Impuesto</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar en el campo “<strong>Gran Total</strong>”, el gran total del boleto.</p>
+<blockquote>
+<div><p><img alt="campo gran total de la ventana boleto de viaje" src="../../_images/field-grand-total-window-travel-ticket.png" /></p>
+<p>Imagen 86. Campo Gran Total</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda correspondiente al boleto.</p>
+<blockquote>
+<div><p><img alt="campo moneda de la ventana boleto de viaje" src="../../_images/field-window-currency-travel-ticket.png" /></p>
+<p>Imagen 87. Campo Moneda</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Tipo de Conversión</strong>”, el tipo de conversión correspondiente al boleto.</p>
+<blockquote>
+<div><p><img alt="campo tipo de conversión de la ventana boleto de viaje" src="../../_images/conversion-type-field-of-the-travel-ticket-window.png" /></p>
+<p>Imagen 88. Campo Tipo de Conversión</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la ventana boleto de viaje" src="../../_images/icon-save-changes-of-travel-ticket-window.png" /></p>
+<p>Imagen 89. Icono Guardar Cambios</p>
+</div></blockquote>
+</li>
+<li><p>Al guardar el registro se crean de manera automática los registros de los detalles del viaje de ida y vuelta en la pestaña “<strong>Detalle de Viaje</strong>”.</p>
+<blockquote>
+<div><p><img alt="pestaña detalle de viaje de la ventana boleto de viaje" src="../../_images/window-trip-detail-tab-trip-ticket.png" /></p>
+<p>Imagen 90. Pestaña Detalle de Viaje</p>
+</div></blockquote>
+</li>
+<li><p>De igual manera, se crean de manera automática en la pestaña “<strong>Impuesto de Boleto</strong>”, los registros de los impuestos con los que podrían trabajar los boletos. Dichos impuestos pueden variar dependiendo del tipo de documento utilizado al momento de crear el boleto.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que puede consultar del material <a class="reference internal" href="../../adempiere/master/travel-tax/travel-tax.html#documento-impuesto-de-viaje"><span class="std std-ref">Registreo de Impuesto de Viaje</span></a>, para conocer dicho procedimiento.</p>
+</div>
+<p><img alt="pestaña impuesto de boleto de la ventana boleto de viaje" src="../../_images/window-ticket-tax-tab-travel-ticket.png" /></p>
+<p>Imagen 91. Pestaña Impuesto de Boleto</p>
+</div></blockquote>
+</li>
+<li><p>Regrese a la pestaña principal “<strong>Boleto</strong>” y seleccione la opción “<strong>Completar</strong>”.</p>
+<blockquote>
+<div><p><img alt="pestaña principal boleto y opción completar de la ventana boleto de viaje" src="../../_images/main-tab-ticket-and-complete-option-of-the-travel-ticket-window.png" /></p>
+<p>Imagen 92. Pestaña Principal Boleto y Opción Completar</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”.</p>
+<blockquote>
+<div><p><img alt="acción completar y opción ok de la ventana boleto de viaje" src="../../_images/action-complete-and-option-ok-from-the-travel-ticket-window.png" /></p>
+<p>Imagen 93. Acción Completar y Opción OK</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+<div class="section" id="generar-factura-desde-boleto">
+<span id="documento-paso-generar-factura-desde-boleto"></span><h2><span class="section-number">3.3.2. </span><strong>Generar Factura desde Boleto</strong><a class="headerlink" href="#generar-factura-desde-boleto" title="Permalink to this headline">¶</a></h2>
+<ol class="arabic">
+<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Facturas de Ventas</strong>”, por último seleccione la ventana “<strong>Documentos por Cobrar</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú documentos por cobrar" src="../../_images/documents-receivable-menu.png" /></p>
+<p>Imagen 94. Menú de ADempiere</p>
+</div></blockquote>
+</li>
+<li><p>Realice el procedimiento regular para crear una factura de cuentas por cobrar en la ventana “<strong>Documentos por Cobrar</strong>”, llenando solamente la información de la pestaña “<strong>Factura</strong>” y seleccionando en el campo “<strong>Tipo de Documeto Destino</strong>”, la opción “<strong>Factura de Cuentas por Cobrar Nacional (Agencia de Viajes)</strong>”. Dicho proceso se encuentra explicado de manera detallada en el material <a class="reference internal" href="../../adempiere/quote-to-invoice/invoice-customer/invoice-customer.html#documento-documento-por-cobrar"><span class="std std-ref">Registro de Documento por Cobrar</span></a>.</p>
+<blockquote>
+<div><p><img alt="pestaña factura de la ventana documentos por cobrar" src="../../_images/invoice-tab-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 95. Pestaña Factura</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>El socio del negocio seleccionado en el documento por cobrar debe ser el mismo socio del negocio seleccionado en el boleto.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Luego de guardar el registro de los campos, seleccione el icono “<strong>Proceso</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono proceso de la ventana documentos por cobrar" src="../../_images/window-process-icon-receivable-documents.png" /></p>
+<p>Imagen 96. Icono Proceso</p>
+</div></blockquote>
+</li>
+<li><p>Despues, seleccione la opción “<strong>Crear Factura Desde Boleto</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción crear factura desde boleto" src="../../_images/option-create-invoice-from-ticket.png" /></p>
+<p>Imagen 97. Opción Crear Factura desde Boleto</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar la ventana del proceso con diferentes campos que le permiten al usuario filtrar la información en base a lo requerido.</p>
+<blockquote>
+<div><p><img alt="ventana del proceso crear factura desde boleto" src="../../_images/process-window-create-invoice-from-ticket.png" /></p>
+<p>Imagen 98. Ventana del Proceso Crear Factura desde Boleto</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Tipo de Boleto</strong>”, el tipo de boleto desde el cual se requiere generar la factura.</p>
+<blockquote>
+<div><p><img alt="campo tipo de boleto el proceso crear factura desde boleto" src="../../_images/ticket-type-field-the-process-create-invoice-from-ticket.png" /></p>
+<p>Imagen 99. Campo Tipo de Boleto</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>F. Documento</strong>”, el rango de fecha para buscar los registros de boletos.</p>
+<blockquote>
+<div><p><img alt="campo fecha del documento del proceso crear factura desde boleto" src="../../_images/date-field-of-the-process-document-create-invoice-from-ticket.png" /></p>
+<p>Imagen 100. Campo F. Documento</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Viajero</strong>”, el socio del negocio por el cual requiere buscar los registros de boletos.</p>
+<blockquote>
+<div><p>Este campo contiene cargada de manera predeterminada la información del socio del negocio seleccionado en la pestaña “<strong>Factura</strong>” del documento por cobrar. Si requiere generar la factura a un tercero, debe dejar el campo “<strong>Viajero</strong>” en blanco, para filtrar la búsqueda por todos los socios del negocio que se encuentren asociados a boletos.</p>
+<p><img alt="campo viajero del proceso crear factura desde boleto" src="../../_images/traveler-field-of-the-create-invoice-from-ticket-process.png" /></p>
+<p>Imagen 101. Campo Viajero</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para realizar la búsqueda filtrando la información en base a lo seleccionado.</p>
+<blockquote>
+<div><p><img alt="opción comenzar búsqueda del proceso crear factura desde boleto" src="../../_images/option-start-process-search-create-invoice-from-ticket.png" /></p>
+<p>Imagen 102. Opción Comenzar Búsqueda</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el registro del boleto al cual le requiere generar la factura y luego seleccione la opción “<strong>OK</strong>”.</p>
+<blockquote>
+<div><p><img alt="selección del boleto y opción ok" src="../../_images/ticket-selection-and-option-ok.png" /></p>
+<p>Imagen 103. Selección del Boleto y Opción OK</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el icono “<strong>Refrescar</strong>”, ubicado en la barra de herramientas de ADempiere para actualizar la ventana “<strong>Documentos por Cobrar</strong>” y sea cargada a la misma, la información seleccionada en el proceso “<strong>Crear Factura desde Boleto</strong>”.</p>
+<blockquote>
+<div><p><img alt="icono refrescar de la ventana documentos por cobrar" src="../../_images/icon-refresh-of-the-window-documents-receivable.png" /></p>
+<p>Imagen 104. Icono Refrescar</p>
+</div></blockquote>
+</li>
+<li><p>Proceda a completar el documento por cobrar. Si desconoce dicho procedimiento, puede consultar el material <a class="reference internal" href="../../adempiere/quote-to-invoice/invoice-customer/invoice-customer.html#documento-documento-por-cobrar"><span class="std std-ref">Registro de Documento por Cobrar</span></a>.</p>
+<blockquote>
+<div><p><img alt="documento por cobrar en estado completo" src="../../_images/document-receivable-in-complete-state.png" /></p>
+<p>Imagen 105. Documento por Cobrar Completo</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el icono “<strong>Imprimir</strong>”, ubicado en la barra de herramientas de ADempiere para imprimir la factura generada.</p>
+<blockquote>
+<div><p><img alt="icono imprimir de la ventana documentos por cobrar" src="../../_images/print-icon-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 106. Icono Imprimir</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar la ventana “<strong>Factura de Ventas</strong>” con el reporte de la factura a ser impresa, donde debe seleccionar el icono “<strong>Imprimir</strong>” dicha ventana.</p>
+<blockquote>
+<div><p><img alt="ventana informe con reporte de factura" src="../../_images/report-window-with-invoice-report.png" /></p>
+<p>Imagen 107. Ventana Informe y Icono Imprimir</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../standard-coding/index.html" class="btn btn-neutral float-right" title="4. Codificación Estándar de ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="consignment-merchandise.html" class="btn btn-neutral float-left" title="3.2. Mercancía en Consignación" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

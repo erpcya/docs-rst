@@ -1,0 +1,414 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>2.5.1. Registro de Transportista &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="2.6. Terminal" href="../terminal/index.html" />
+    <link rel="prev" title="2.5. Transportista" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">2. <strong>Datos Maestros</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../business-partner/index.html">2.1. <strong>Socio del Negocio</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../product/index.html">2.2. <strong>Producto</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../traveler/index.html">2.3. <strong>Viajero</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../reason-for-trip/index.html">2.4. <strong>Motivo de Viaje</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">2.5. <strong>Transportista</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">2.5.1. <strong>Registro de Transportista</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../terminal/index.html">2.6. <strong>Terminal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../travel-tax/index.html">2.7. <strong>Impuesto de Viaje</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../ticket-type/index.html">2.8. <strong>Tipo de Boleto</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html">4. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Download Docs</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><span class="section-number">2. </span><strong>Datos Maestros</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">2.5. </span><strong>Transportista</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">2.5.1. </span><strong>Registro de Transportista</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/master/carrier/carrier.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="registro-de-transportista">
+<span id="documento-transportista"></span><h1><span class="section-number">2.5.1. </span><strong>Registro de Transportista</strong><a class="headerlink" href="#registro-de-transportista" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic">
+<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione la carpeta “<strong>Reglas de Gestión de Materiales</strong>”, por último seleccione la ventana “<strong>Transportista</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de transportista" src="../../../_images/carrier-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar la ventana “<strong>Transportista</strong>”, con los diferentes registros de transportistas.</p>
+<blockquote>
+<div><p><img alt="ventana transportista" src="../../../_images/carrier-window.png" /></p>
+<p>Imagen 2. Ventana Transportista</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="icono registro nuevo de la ventana transportista" src="../../../_images/new-registration-icon-in-the-carrier-window.png" /></p>
+<p>Imagen 3. Icono Registro Nuevo</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual requiere realizar el registro.</p>
+<blockquote>
+<div><p><img alt="campo organización de la ventana transportista" src="../../../_images/carrier-window-organization-field.png" /></p>
+<p>Imagen 4. Campo Organización</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Nombre</strong>”, el nombre correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo nombre de la ventana transportista" src="../../../_images/carrier-window-name-field.png" /></p>
+<p>Imagen 5. Campo Nombre</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción referente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la ventana transportista" src="../../../_images/carrier-window-description-field.png" /></p>
+<p>Imagen 6. Campo Descripción</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio de la ventana transportista" src="../../../_images/carrier-window-business-partner-field.png" /></p>
+<p>Imagen 7. Campo Socio del Negocio</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Dirección Web Seguimiento</strong>”, la dirección web para el seguimiento de entrega.</p>
+<blockquote>
+<div><p><img alt="campo dirección web seguimiento de la ventana transportista" src="../../../_images/carrier-window-tracking-web-address-field.png" /></p>
+<p>Imagen 8. Campo Dirección Web Seguimiento</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Clase Cálculo</strong>”, la clase utilizada para calcular medidas.</p>
+<blockquote>
+<div><p><img alt="campo clase cálculo de la ventana transportista" src="../../../_images/field-class-calculation-of-the-carrier-window.png" /></p>
+<p>Imagen 9. Campo Clase Cálculo</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el icono “<strong>Guardar Cambios</strong>”, para guardar el registro de los campos de la ventana “<strong>Transportista</strong>”.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la ventana transportista" src="../../../_images/save-changes-icon-in-the-carrier-window.png" /></p>
+<p>Imagen 10. Icono Guardar Cambios</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione la pestaña “<strong>Flete</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="pestaña flete de la ventana transportista" src="../../../_images/freight-tab-of-the-carrier-window.png" /></p>
+<p>Imagen 11. Pestaña Flete</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Categoría de Fletes</strong>”, la categoría de fletes para el registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo categoría de fletes de la ventana transportista" src="../../../_images/freight-category-field-of-the-carrier-window.png" /></p>
+<p>Imagen 12. Campo Categoría de Fletes</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Válido Desde</strong>”, la fecha de inicio de validez del registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo válido desde de la ventana transportista" src="../../../_images/field-valid-from-carrier-window.png" /></p>
+<p>Imagen 13. Camp Válido Desde</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo moneda de la ventana transportista" src="../../../_images/currency-field-of-the-carrier-window.png" /></p>
+<p>Imagen 14. Campo Moneda</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Total del Flete</strong>”, el monto total del flete correspondiente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo total del flete de la ventana transportista" src="../../../_images/total-field-of-freight-for-carrier-window.png" /></p>
+<p>Imagen 15. Campo Total del Flete</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>País</strong>”, el país de origen del viaje.</p>
+<blockquote>
+<div><p><img alt="campo país de origen del viaje de la ventana transportista" src="../../../_images/country-of-origin-field-of-the-carrier-window-trip.png" /></p>
+<p>Imagen 16. Campo País</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>A</strong>”, el país de destino del viaje.</p>
+<blockquote>
+<div><p><img alt="campo a país de destino del viaje de la ventana transportista" src="../../../_images/field-to-country-of-destination-of-the-carrier-window-trip.png" /></p>
+<p>Imagen 17. Campo A</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Región</strong>”, la región de origen del viaje.</p>
+<blockquote>
+<div><p><img alt="campo región de origen del viaje de la ventana transportista" src="../../../_images/field-region-of-origin-of-the-carrier-window-trip.png" /></p>
+<p>Imagen 18. Campo Región</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>A</strong>”, la región de destino del viaje.</p>
+<blockquote>
+<div><p><img alt="campo a región de destino del viaje de la ventana transportista" src="../../../_images/field-to-travel-destination-region-of-carrier-window.png" /></p>
+<p>Imagen 19. Campo A</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere para guardar el registro de los campos de la pestaña “<strong>Flete</strong>”.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la ventana transportista" src="../../../_images/save-changes-icon-in-the-carrier-window.png" /></p>
+<p>Imagen 20. Icono Guardar Cambios</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../terminal/index.html" class="btn btn-neutral float-right" title="2.6. Terminal" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="2.5. Transportista" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
