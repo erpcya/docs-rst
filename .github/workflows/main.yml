@@ -39,7 +39,7 @@ jobs:
     - uses: actions/upload-artifact@v1
       with:
         name: DocumentacionPDF
-        path: src/_build/latex/erpya.pdf
+        path: src/_build/latex/mini-erp/erpya.pdf
     - name: Commit documentation changes
       run: |
         git clone https://github.com/erpcya/docs.git --branch gh-pages --single-branch gh-pages
