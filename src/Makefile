@@ -130,7 +130,7 @@ latex:
 	      "(use \`make latexpdf' here to do that automatically)."
 
 latexpdf:
-	$(SPHINXBUILD) -b latex  $(ALLSPHINXOPTS) $(BUILDDIR)/latex
+	$(SPHINXBUILD) -b latex  $(ALLSPHINXOPTS) $(BUILDDIR)/latex/mini-erp
 	@echo "Running LaTeX files through pdflatex..."
 	$(MAKE) -C $(BUILDDIR)/latex/mini-erp all-pdf 
 	@echo "pdflatex finished; the PDF files are in $(BUILDDIR)/latex."
