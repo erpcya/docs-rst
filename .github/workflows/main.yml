@@ -58,7 +58,7 @@ jobs:
         branch: gh-pages
         directory: gh-pages
         github_token: ${{ secrets.GITHUB_TOKEN }}
-    - uses: idlefingers/do-space-sync-action@master
+    - uses: Raul-mz/do-space-sync-action@master
       with:
         args: --acl public-read
       env:
