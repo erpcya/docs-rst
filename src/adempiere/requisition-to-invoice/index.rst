@@ -14,3 +14,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     invoice/index
     credit-note-cxp
     debit-note-cxp
+    frequent-processes
