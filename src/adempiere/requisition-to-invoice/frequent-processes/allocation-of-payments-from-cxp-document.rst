@@ -1,5 +1,5 @@
 .. documento/asignación-de-pagos-desde-documento-de-cxp:
-
+ 
 **¿Cómo Asignar Pagos desde un Documento de CxP?**
 ==================================================
 
