@@ -100,7 +100,7 @@ Seleccione la pestaña "**Suscriptor**" y proceda al llenado de los campos corre
 
     .. note::
 
-        Esta pestaña permite registrar los diferentes socios del negocio proveedores que surten a la empresa de productos o servicios con ralación al tema ingresado anteriormente.
+        Esta pestaña permite registrar los diferentes socios del negocio proveedores que surten a la empresa de productos o servicios con relación al tema ingresado anteriormente.
 
     Seleccione el socio del negocio proveedor del producto o servicio referente al tema ingresado anteriormente.
 
@@ -141,7 +141,17 @@ Seleccione la pestaña "**Restricción**" y proceda al llenado de los campos cor
 
     .. note::
 
-        Esta pestaña permite registrar los diferentes productos o servicios que la empresa no quiere que el proveedor incluya en la cotización. 
+        Esta pestaña permite registrar las diferentes categorías, productos o servicios que la empresa requiere que el proveedor incluya en la cotización. 
+
+        Ejemplo:
+
+            Se tienen tres (3) categorías (Papelería, Uniformes y Servicios) dentro de una misma solicitud 
+
+            - **Suministro de Oficina (Papelería)**
+            - **Suministro de Dotaciones (Uniformes)**
+            - **Comercialización Nacional (Servicios)**
+
+            Para establecer que la cotización se requiere por categoría de producto o servicio, se debe agregar en la pestaña restricción del suscriptor, específicamente en el campo "**Categoría del Producto**", la categoría de productos que contiene los servicios o productos que requiere cotizar.
 
     Seleccione el producto a restringir en el campo "**Producto**". Para ejemplificar el caso de la restricción de productos al proveedor "**Estándar 1**, es utilizado el producto "**Coleto**".
 
@@ -157,7 +167,7 @@ Seleccione la pestaña "**Restricción**" y proceda al llenado de los campos cor
 
         .. note::
 
-            Para registrar otro producto, debe seleccionar el icono "**Registro Nuevo**" ubicado en la barra de herramientas de ADempiere y repetir el procedimiento realizado antes.  
+            Para registrar otro producto, servicio o categoría debe seleccionar el icono "**Registro Nuevo**" ubicado en la barra de herramientas de ADempiere y repetir el procedimiento realizado antes. 
 
 **Solicitud para Cotización**
 =============================
@@ -170,7 +180,7 @@ Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Compras*
 
 .. note:: 
 
-    ADempiere permite que la socitud para cotización sea realizada de tres (3) formas, definidas por el campo "**Tipo SCP (RfQ)**". 
+    ADempiere permite que la solicitud para cotización sea realizada de tres (3) formas, definidas por el campo "**Tipo SCP (RfQ)**". 
     
     Para ejemplificar el registro del presente documento, es presentado un caso por cada forma de cotización.
 
