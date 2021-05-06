@@ -15,7 +15,7 @@ La asignación del pago con el documento por pagar se realiza de la siguiente ma
 
 Se ubica el documento por pagar y se selecciona la opción "**Asignar Pago/Cobro**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
-Luego de estar ubicados en la ventana "**Asignción de Pagos/Cobro**", se tiene de manera predeterminada los siguientes valores:
+Luego de estar ubicados en la ventana "**Asignación de Pagos**", se tiene de manera predeterminada los siguientes valores:
 
     - Campo Socio del Negocio: El socio del negocio establecido en el documento por pagar.
 

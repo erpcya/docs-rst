@@ -9,4 +9,5 @@ Esta documentación está destinada a definir cada uno de los procesos frecuente
 .. toctree::
     :maxdepth: 2
 
-    allocation-of-payments-from-cxp-document/index
+    allocation-of-payments-from-cxp-document
+    allocation-of-receipts-from-a-cxc-document
