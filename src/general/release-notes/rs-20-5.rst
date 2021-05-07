@@ -35,6 +35,21 @@
 
 **Requerimientos**
 ------------------
+Se deben aplicar los siguientes XMLs en el proyecto **Consigned-Material**:
+
+- 07700_Add_Link_Order_Line_to_Inventory_Internal_Use.xml
+- 07710_Add_Consignement_Detail_Report.xml
+- 07720_Change_Create_From_Sales_SB_for_Consignement_Detail.xml
+- 07730_Set_Key_Column_from_SB_Create_From_Sales.xml
+- 07740_Fix_Validation_Rule.xml
+- 07750_Add_Document_Date_for_SB_Create_from_Sales.xml
+- 07760_Add_SB_Create_From_Inventory_Ingternal_Use.xml
+- 07770_Add_Link_Order_Column_to_Consignement_Report.xml
+
+Para los reportes se deben importar los siguientes:
+
+- Productos_por_Relacionar.arxml
+- Productos_Relacionados_al_Proveedor.arxml
 
 **Novedades:**
 --------------
