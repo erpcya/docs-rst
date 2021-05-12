@@ -1,0 +1,37 @@
+.. _documento/versión-20-7:
+
+**rs-20.6**
+===========
+
+**Fecha de Liberación:** 2021-05-12
+
+**Soporte a versiones:**
+------------------------
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-21.1
+- Consigned-Material: 1.2.0
+- Exchange-Operation-System: 1.1.5
+- Cash-Management: 1.0.4
+- Currency-Convert-Documents: 1.0.5
+- Farmer-Assistance-Program: 1.1.6
+- RethinkDB-Replicator-Client: 1.1.1
+- Third-Party-Access: 1.0.1
+- FiscalPrinter: 1.3.2
+- RawMaterialReceipt: 1.0.5
+- Sales-Force-Management: 1.0.2
+- Delivery-Management-Service: 1.0.1
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.8
+- Additional-Reports: 1.0.2
+- Migration-Tools: 1.0.1
+- LVE: 1.3.1
+- Performance-Analysis: 1.0.2
+
+**Detalle Técnico:**
+--------------------
+- RethinkDB-Replicator-Client: Support to Record Batch for documents
+
+**Novedades**
+----------------
+- Se agrega soporte para que los documentos que son replicados sean identificados por numeros de lotes.
