@@ -62,6 +62,29 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
 La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento :download:`Pagos Masivos <PagosMasivos.xls>`. De igual manera, se encuentra explicada en las tablas que contiene el presente documento, al inicio del mismo.
 
+**Actualización en el Archivo para Pagos**
+******************************************
+
+El banco banplus realizó una actualización en la columna "**Número Documento**" de su formato para generar el archivo "**.txt**", de los pagos en lotes a proveedores. Dicha actualización consta en agregar un espacio en la columna "**Número Documento**", para que su información se componga de nueve (9) números (caracteres).
+
+Al ejecutar el proceso de selección de pago, luego de la actualización anteriormente indicada, considerando las siguientes facturas en ADempiere: 
+
+- Factura "**1000132**" al socio del negocio "**Proveedor Estándar**" por monto total de "**1.500.000,00**". 
+- Factura "**1000133**" al socio del negocio "**Proveedor Estándar**" por monto total de "**2.500.000,00**". 
+- Factura "**1000134**" al socio del negocio "**Dhl Express Aduanas Venezuela C.A.**" por monto total de "**3.500.000,00**". 
+- Factura "**1000135**" al socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" por monto total de "**5.000.000,00**". 
+- Factura "**1000136**" al socio del negocio "**Servicio Nacional Integrado de Administración (SENIAT)**" por monto total de "**6.000.000,00**". 
+
+Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banplus a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace :download:`Banco Banplus <Banplus_Banco_Universal_CA_1000035.txt>` y visualizar de la siguiente manera:
+
+::
+
+    J400788315;0174000000000000000;4;1850000000;20210513;1000034
+    04;200003030;Servicio Nacional Integrado de Administr;01340000000000000320;600000000;0;;SI
+    04;297599070;Bolivariana de Puertos  ( Bolipuertos)  ;01740000000085000096;500000000;1;;SI
+    04;002443731;Dhl Express Aduanas Venezuela CA;01050000002000000015;350000000;2;;SI
+    04;00000001;Proveedor Estndar;01020000000000000012;400000000;3;proveedor@ejemplo.com;SI
+
 **Banplus Nómina**
 ------------------
 
