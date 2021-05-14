@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>¿Cómo Asignar Pagos desde un Documento de CxP? &mdash; ERPYA 1.0 Documentation</title>
+  <title>5.6.1. ¿Cómo Asignar Pagos desde un Documento de CxP? &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -40,7 +40,9 @@
 
     
     <link rel="index" title="Index" href="../../../genindex.html" />
-    <link rel="search" title="Search" href="../../../search.html" /> 
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="6. Gestión de Saldos Pendientes" href="../../open-items/index.html" />
+    <link rel="prev" title="5.6. Procesos Frecuentes" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -104,12 +106,23 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../master/index.html">2. <strong>Datos Maestros</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">5. <strong>Gestión de Compras</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../purchase-order/index.html">5.1. <strong>Órdenes de Compra</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../material-receipt/index.html">5.2. <strong>Recepción de Productos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../invoice/index.html">5.3. <strong>Documento por Pagar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../credit-note-cxp.html">5.4. <strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../debit-note-cxp.html">5.5. <strong>Nota de Débito</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">5.6. <strong>Procesos Frecuentes</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">5.6.1. <strong>¿Cómo Asignar Pagos desde un Documento de CxP?</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
@@ -176,7 +189,11 @@
     
       <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li><strong>¿Cómo Asignar Pagos desde un Documento de CxP?</strong></li>
+          <li><a href="../index.html"><span class="section-number">5. </span><strong>Gestión de Compras</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">5.6. </span><strong>Procesos Frecuentes</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">5.6.1. </span><strong>¿Cómo Asignar Pagos desde un Documento de CxP?</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -196,7 +213,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="como-asignar-pagos-desde-un-documento-de-cxp">
-<h1><strong>¿Cómo Asignar Pagos desde un Documento de CxP?</strong><a class="headerlink" href="#como-asignar-pagos-desde-un-documento-de-cxp" title="Permalink to this headline">¶</a></h1>
+<span id="documento-asignacion-de-pagos-desde-documento-de-cxp"></span><h1><span class="section-number">5.6.1. </span><strong>¿Cómo Asignar Pagos desde un Documento de CxP?</strong><a class="headerlink" href="#como-asignar-pagos-desde-un-documento-de-cxp" title="Permalink to this headline">¶</a></h1>
 <p>En un escenario donde se genera un pago como anticipo a proveedor, donde dicho proveedor no ha generado o entregado la factura aun. Primeramente se relaciona el pago del anticipo en la ventana “<strong>Pago/Cobro</strong>”. De igual manera, se relaciona el documento por pagar cuando el proveedor entrega dicha factura. Posteriormete, se realiza la asignación del anticipo a la factura para cruzar los saldos de dichos documentos.</p>
 <p>Antes de realizar el procedimiento para asignar los pagos de anticipos a los documentos por pagar, es importante que se cumplan los siguientes requisitos:</p>
 <blockquote>
@@ -207,7 +224,7 @@
 </div></blockquote>
 <p>La asignación del pago con el documento por pagar se realiza de la siguiente manera:</p>
 <p>Se ubica el documento por pagar y se selecciona la opción “<strong>Asignar Pago/Cobro</strong>”, desplegada por el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
-<p>Luego de estar ubicados en la ventana “<strong>Asignción de Pagos/Cobro</strong>”, se tiene de manera predeterminada los siguientes valores:</p>
+<p>Luego de estar ubicados en la ventana “<strong>Asignación de Pagos</strong>”, se tiene de manera predeterminada los siguientes valores:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>Campo Socio del Negocio: El socio del negocio establecido en el documento por pagar.</p></li>
@@ -230,6 +247,10 @@
            
           </div>
           <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../open-items/index.html" class="btn btn-neutral float-right" title="6. Gestión de Saldos Pendientes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="5.6. Procesos Frecuentes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 
