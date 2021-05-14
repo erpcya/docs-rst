@@ -43,4 +43,5 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     lve/document-utility/index
     lve/fiscal-printer/index
     lve/procedures/index
+    lve/report/index
     lve/standard-coding/index
