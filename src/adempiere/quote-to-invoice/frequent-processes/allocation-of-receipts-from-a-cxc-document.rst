@@ -1,4 +1,4 @@
-.. documento/asignación-de-cobros-desde-un-documento-de-cxc:
+.. _documento/asignación-de-cobros-desde-un-documento-de-cxc:
  
 **¿Cómo Asignar Cobros desde un Documento de CxC?**
 ===================================================
