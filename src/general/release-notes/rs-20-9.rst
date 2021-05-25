@@ -30,11 +30,13 @@
 
 **Detalle Técnico:**
 --------------------
+
 - Consigned-Material: Add new functionality based on consignement material report: Add Consignement Material Report detail, Add support to default drop ship for Purchase Order and Inventory Internal Use, Add support to Smart Browser of Create from Inventory Internal Use on Invoice (Vendor)
 
 
 **Requerimientos**
 ------------------
+
 Se deben aplicar los siguientes XMLs en el proyecto **Consigned-Material**:
 
 - 07700_Add_Link_Order_Line_to_Inventory_Internal_Use.xml
@@ -53,6 +55,7 @@ Para los reportes se deben importar los siguientes:
 
 **Novedades:**
 --------------
+
 - Se agrega reporte de **Detalle de Productos en consignación**
 - Se agrega soporte para realizar inventarios de uso interno con productos en consignación
 - Se agrega check de **Entrega Directa** en el tipo de documento de **Orden de Compra** e **Inventario de Uso Interno** para predeterminar el check en el documento
@@ -60,4 +63,5 @@ Para los reportes se deben importar los siguientes:
 
 **Correcciones**
 ----------------
+
 - Al anular una orden de compra se elimina de manera automática la referencia con las ventas en consignación

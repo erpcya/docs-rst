@@ -30,12 +30,14 @@
 
 **Detalle Técnico:**
 --------------------
+
 - CST-STD: 
 
   - Fixed error with Product Index
 
 **Requerimientos**
 ------------------
+
 Sólo montar los cambios del binario
 
 **Correcciones**

@@ -30,6 +30,7 @@
 
 **Detalle Técnico:**
 --------------------
+
 - Performance-Analysis: Se Corrige Error con Entidades que no poseen la columna DateAcct
 
 **Requerimientos**
@@ -37,5 +38,7 @@
 
 **Novedades:**
 --------------
+
 - **Correcciones**
+
  - Se Corrige Error con Entidades que no poseen la columna DateAcct

@@ -38,6 +38,7 @@
 
 **Requerimientos**
 ------------------
+
 - CST-STD: Aplicar los xmls de el pull request https://github.com/adempiere/adempiere/pull/3418
 	- migration/393lts-394lts/07670_Add_Document_Base_Type_Window.xml
 	- migration/393lts-394lts/07680_Add_Document_Base_Type_Field_On_Document_Type_Window.xml
@@ -48,6 +49,7 @@
 
 **Novedades:**
 --------------
+
 - Soporte a Contabilidad por Tipo de Documento Base: Funcionalidad Contabilidad personalizada por Tipo de Documento Base. https://github.com/adempiere/adempiere/pull/3418
 - Configuración para No Generar contabilidad por Tipo de Documento Base. (Not Post Document Setup)
 - Configuración para Generar contabilidad en todos los esquemas contables para Notas Contables. (Accounting GL Journal for All Accounting Schemes)

@@ -30,8 +30,10 @@
 
 **Detalle Técnico:**
 --------------------
+
 - RethinkDB-Replicator-Client: Support to Record Batch for documents
 
 **Novedades**
 ----------------
+
 - Se agrega soporte para que los documentos que son replicados sean identificados por numeros de lotes.
