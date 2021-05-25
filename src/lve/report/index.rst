@@ -20,3 +20,4 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
     details-of-invoices-and-margin-according-to-purchases
     order-detail
     cash-detail-report
+    consignment-detail-report
