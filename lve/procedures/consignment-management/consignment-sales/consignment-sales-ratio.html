@@ -236,44 +236,71 @@
             
   <div class="section" id="relacion-de-ventas-en-consignacion">
 <span id="documento-relacion-de-ventas-en-consignacion"></span><h1><strong>Relación de Ventas en Consignación</strong><a class="headerlink" href="#relacion-de-ventas-en-consignacion" title="Permalink to this headline">¶</a></h1>
-<p>Para la relación de las ventas en consignación, es obligatoria la configuración de las mismas. Dicha configuración se encuentra explicada en el material <a class="reference internal" href="consignment-sales-setup.html#documento-configuracion-de-ventas-en-consignacion"><span class="std std-ref">Configuración de Ventas en Consignación</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p>Para la relación de las ventas en consignación, es obligatoria la configuración de las mismas. Dicha configuración se encuentra explicada en el material <a class="reference internal" href="consignment-sales-setup.html#documento-configuracion-de-ventas-en-consignacion"><span class="std std-ref">Configuración de Ventas en Consignación</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a> y deben ser cumplidas de manera obligatoria para garantizar el correcto funcionamiento del procedimiento de ventas en consignación.</p>
 <p>Adicional a ello, la venta no debe estar incluida en ningún documento por pagar. De lo contrario, el registro no podrá ser visualizado al momento ser cargada la información a la pestaña “<strong>Línea de Factura</strong>”, de la ventana “<strong>Documentos por Pagar</strong>”.</p>
-<div class="section" id="reporte-de-venta-de-productos-por-proveedor">
-<span id="paso-generar-reporte-de-venta-de-productos-por-proveedor"></span><h2><strong>Reporte de Venta de Productos por Proveedor</strong><a class="headerlink" href="#reporte-de-venta-de-productos-por-proveedor" title="Permalink to this headline">¶</a></h2>
-<p>Genere el reporte “<strong>Venta de Productos por Proveedor</strong>”, filtrando por el socio del negocio proveedor y el rango de fecha de facturación.</p>
+<p>Luego de las modificaciones realizadas por <a class="reference external" href="http://erpya.com">ERPyA</a> no es necesario realizar un documento por pagar (pre-factura), para relacionar la venta o uso interno de los productos en consignación. Si se requiere relacionar al proveedor o simplemente consultar las mismas, se puede generar el “<strong>Reporte de Detalle de Consignación</strong>”.</p>
+<p>Para ejeplificar el caso se tienen los siguientes productos en consignación del proveedor “<strong>E.R.P. Consultores y Asociados, C.A.</strong>”</p>
 <blockquote>
-<div><p><img alt="reporte venta de productos por proveedor" src="../../../../_images/report-sale-of-products-by-supplier.png" /></p>
-<p>Imagen 1. Reporte de Venta de Productos por Proveedor</p>
+<div><ul class="simple">
+<li><p>01-Tap            Tapabocas</p></li>
+<li><p>01-TerCont        Termos Contigo</p></li>
+<li><p>01-Chup           Chupetas</p></li>
+<li><p>01-Lib            Libretas (Cuadros)</p></li>
+</ul>
+</div></blockquote>
+<p>Dichos productos se encuentran incluidos en la orden de compra “<strong>OCC-10</strong>”.</p>
+<div class="section" id="reporte-de-detalle-de-consignacion">
+<span id="paso-generar-reporte-de-detalle-de-consignacion"></span><h2><strong>Reporte de Detalle de Consignación</strong><a class="headerlink" href="#reporte-de-detalle-de-consignacion" title="Permalink to this headline">¶</a></h2>
+<p>Genere el “<strong>Reporte de Detalle de Consignación</strong>”, filtrando por “<strong>Socio del Negocio Entrega Directa</strong>”, “<strong>Asignado</strong>” y “<strong>F. Documento</strong>”, que corresponde al rango de fecha de facturación.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>El reporte “<strong>Venta de Productos por Proveedor</strong>”, se encuentra explicado de manera detallada en el material <a class="reference internal" href="../../../report/sale-of-products-by-supplier.html#documento-venta-de-productos-por-proveedor"><span class="std std-ref">Venta de Productos por Proveedor</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p>El “<strong>Reporte de Detalle de Consignación</strong>”, se encuentra explicado de manera detallada en el material <a class="reference internal" href="../../../report/consignment-detail-report.html#documento-reporte-de-detalle-de-consignacion"><span class="std std-ref">Reporte de Detalle de Consignación</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p><img alt="reporte de detalle de consignación" src="../../../../_images/consignment-detail-report.png" /></p>
+<p>Imagen 1. Reporte de Detalle de Consignación</p>
 </div>
-</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El reporte de relación de productos en consignación se puede generar muchas veces y sirve para ver los productos pendientes por relacionar, los productos relacionados o todos los productos sin importar si está o no relacionado.</p>
+</div>
 </div>
 <div class="section" id="registrar-documento-por-pagar">
 <span id="paso-registrar-documentos-por-pagar-por-proveedor"></span><h2><strong>Registrar Documento por Pagar</strong><a class="headerlink" href="#registrar-documento-por-pagar" title="Permalink to this headline">¶</a></h2>
+<p>La factura de cuentas por pagar debe ser registrada cuando el proveedor realiza la entrega de la misma a cuentas por pagar. Si el proveedor hace entrega de más de una factura, se debe realizar por cada una de ellas, el procedimiento que se explica a continuación.</p>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Se debe crear en ADempiere, las facturas entregadas por el proveedor exactamente iguales.</p>
+</div>
+</div></blockquote>
 <p>Realice el procedimiento regular para crear un documento por pagar, dicho procedimiento se encuentra explicado en el material <a class="reference internal" href="../../../../adempiere/requisition-to-invoice/invoice/invoice.html#documento-documento-por-pagar"><span class="std std-ref">Registro de Documento por Pagar</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
 <blockquote>
 <div><div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>El documento por pagar deber ser creado bajo las siguientes restricciones:</p>
+<p>El documento por pagar deber ser creado bajo las restricciones contempladas en la factura entregada por el proveedor:</p>
 <ul class="simple">
-<li><p><strong>Descripción:</strong> Indicar el rango de fecha utilizado para generar el reporte “<strong>Venta de Productos por Proveedor</strong>”.</p></li>
-<li><p><strong>Fecha de Facturación</strong>: Fecha en la cual se crea el registro de factura por pagar (pre-factura)</p></li>
-<li><p><strong>Lista de Precios:</strong> Compras (VES)</p></li>
-<li><p><strong>Tipo de Conversión:</strong> BCV</p></li>
+<li><p>Introduzca en el campo “<strong>No. del Documento</strong>”, el número de documento que contiene la factura entregada por el proveedor.</p></li>
+<li><p>Seleccione en el campo “<strong>Fecha de Facturación</strong>”, la fecha de facturación que contiene la factura entregada por el proveedor.</p></li>
+<li><p>Seleccione en el campo “<strong>Fecha Contable</strong>”, la fecha contable que contiene la factura entregada por el proveedor.</p></li>
+<li><p>Introduzca en el campo “<strong>Descripción</strong>”, una breve referencia del rango de ventas utilizado para generar los documentos por pagar.</p></li>
+<li><p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios que contiene la factura entregada por el proveedor.</p></li>
+<li><p>Seleccione en el campo “<strong>Tipo de Conversión</strong>”, el tipo de conversión que contiene la factura entregada por el proveedor.</p></li>
+<li><p>Introduzca en el campo “<strong>Nro de Control</strong>”, el número de control que contiene la factura entregada por el proveedor.</p></li>
 </ul>
 </div>
 </div></blockquote>
 <p>Luego de cargar la información necesaria en la pestaña principal “<strong>Factura</strong>”, seleccione el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
 <blockquote>
-<div><p><img alt="icono proceso de la ventana documentos por pagar" src="../../../../_images/icon-window-process-documents-payable.png" /></p>
+<div><p><img alt="icono proceso de la ventana documentos por pagar" src="../../../../_images/window-process-icon-documents-payable.png" /></p>
 <p>Imagen 2. Icono Proceso de la Ventana Documentos por Pagar</p>
 </div></blockquote>
-<p>Seleccione la opción “<strong>Crear Líneas desde Facturas de Entrega Directa</strong>”, desplegada por la selección del icono “<strong>Proceso</strong>”.</p>
+<p>Seleccione la opción “<strong>Crear Líneas desde Facturas de Consignación</strong>”, desplegada por la selección del icono “<strong>Proceso</strong>”.</p>
 <blockquote>
-<div><p><img alt="opción crear líneas desde facturas de entrega directa" src="../../../../_images/option-create-lines-from-direct-delivery-invoices.png" /></p>
-<p>Imagen 3. Opción Crear Líneas desde Facturas de Entrega Directa</p>
+<div><p><img alt="opción crear líneas desde facturas de consignación" src="../../../../_images/option-create-lines-from-consignment-invoices.png" /></p>
+<p>Imagen 3. Opción Crear Líneas desde Facturas de Consignación</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para registrar un documento por pagar desde un inventario de uso interno, se debe realizar el mismo procedimiento explicado anteriormente en el proceso <a class="reference internal" href="#paso-registrar-documentos-por-pagar-por-proveedor"><span class="std std-ref">Registrar Documento por Pagar</span></a>, con la diferencia de que en vez de seleccionar la opción “<strong>Crear Líneas desde Facturas de Consignación</strong>”, del icono “<strong>Proceso</strong>”, se selecciona la opción “<strong>Crear Líneas desde Inventario de Uso Interno de Consignación</strong>” y posteriormente el inventario de uso interno correspondiente.</p>
+</div>
 </div></blockquote>
 <p>Podrá visualizar la ventana del proceso con diferentes campos que permiten filtrar la información de las ventas.</p>
 <blockquote>
@@ -282,233 +309,107 @@
 <p>La información a ser visualizada en el presente proceso, va a depender de las siguientes condiciones:</p>
 <ul class="simple">
 <li><p>La información cargada en la orden de compra, dicha orden debe estar en estado “<strong>Completo</strong>”.</p></li>
-<li><p>La información visualizada en el reporte <a class="reference internal" href="../../../report/sale-of-products-by-supplier.html#documento-venta-de-productos-por-proveedor"><span class="std std-ref">Venta de Productos por Proveedor</span></a>.</p></li>
+<li><p>La información visualizada en el reporte <a class="reference internal" href="../../../report/consignment-detail-report.html#documento-reporte-de-detalle-de-consignacion"><span class="std std-ref">Reporte de Detalle de Consignación</span></a>.</p></li>
 </ul>
 <p>De no coincidir la información del reporte con la información visualizada en el presente proceso, debe realizar lo siguiente:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>Verificar que se cumpla con la <a class="reference internal" href="consignment-sales-setup.html#documento-configuracion-de-ventas-en-consignacion"><span class="std std-ref">Configuración de Ventas en Consignación</span></a>.</p></li>
 <li><p>Verificar que el producto se encuentre incluido en una orden de compra, esto lo puede realizar generando el reporte <a class="reference internal" href="../../../report/order-detail.html#documento-reporte-detalle-de-la-orden"><span class="std std-ref">Detalle de la Orden</span></a>.</p></li>
-<li><p>Verificar que el producto no se encuentre en otro documento por pagar, esto lo puede realizar generando el reporte <a class="reference internal" href="../../../report/invoice-details-and-margin.html#documento-detalles-factura-y-margen"><span class="std std-ref">Detalles de Facturas y Margen</span></a>.</p></li>
 </ul>
 </div></blockquote>
 </div>
-<p><img alt="ventana del proceso crear líneas desde facturas de entrega directa" src="../../../../_images/process-window-create-lines-from-direct-delivery-invoices.png" /></p>
-<p>Imagen 4. Ventana del Proceso Crear Líneas desde Facturas de Entrega Directa</p>
-<p>En el campo “<strong>Socio del Negocio</strong>”, podrá visualizar el socio del negocio seleccionado en la pestaña principal “<strong>Factura</strong>”.</p>
+<p><img alt="ventana del proceso crear líneas desde facturas de consignación" src="../../../../_images/process-window-create-lines-from-consignment-invoices.png" /></p>
+<p>Imagen 4. Ventana del Proceso Crear Líneas desde Facturas de Consignación</p>
+<p>En el campo “<strong>Socio del Negocio Entrega Directa</strong>”, podrá visualizar el socio del negocio seleccionado en la pestaña principal “<strong>Factura</strong>”.</p>
 <blockquote>
 <div><p><img alt="campo socio del negocio del proceso" src="../../../../_images/business-partner-field-of-the-process.png" /></p>
 <p>Imagen 5. Campo Socio del Negocio</p>
 </div></blockquote>
-<p>Seleccione el check “<strong>Entrega Directa Asignada</strong>”, para filtrar la búsqueda de información por entrega directa asignada.</p>
+<p>Seleccione en el campo “<strong>Orden de Venta</strong>”, la orden para filtrar la búsqueda de información.</p>
 <blockquote>
-<div><p><img alt="check encuentra directa del proceso" src="../../../../_images/check-finds-direct-of-the-process.png" /></p>
-<p>Imagen 6. Check Entrega Directa</p>
+<div><p><img alt="campo orden de venta del proceso" src="../../../../_images/process-sales-order-field.png" /></p>
+<p>Imagen 6. Campo Orden de Venta</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>La orden de compra es un factor clave y se debe colocar para poder crear la factura de cuentas por pagar desde la venta o el uso interno</p>
+</div>
 </div></blockquote>
-<p>Seleccione en el campo “<strong>Clase de Producto</strong>”, la clase de producto para filtrar la búsqueda de información.</p>
-<blockquote>
-<div><p><img alt="campo clase de producto" src="../../../../_images/product-class-field1.png" /></p>
-<p>Imagen 7. Campo Clase de Producto</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Grupo de Producto</strong>”, el grupo de producto para filtrar la búsqueda de información.</p>
-<blockquote>
-<div><p><img alt="campo grupo de producto del proceso" src="../../../../_images/process-product-group-field.png" /></p>
-<p>Imagen 8. Campo Grupo de Producto</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Fecha de Facturación</strong>”, el rango de fecha de facturación para filtrar la búsqueda de información.</p>
+<p>Seleccione en el campo “<strong>F. Documento</strong>”, el rango de fecha de facturación para filtrar la búsqueda de información.</p>
 <blockquote>
 <div><p><img alt="campo fecha de facturación del proceso" src="../../../../_images/process-billing-date-field.png" /></p>
-<p>Imagen 9. Campo Fecha de Facturación</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Agente Comercial</strong>”, el agente comercial para filtrar la búsqueda de información.</p>
-<blockquote>
-<div><p><img alt="campo agente comercial del proceso" src="../../../../_images/commercial-agent-field-of-the-process.png" /></p>
-<p>Imagen 10. Campo Agente Comercial</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Categoría del Producto</strong>”, la categoría del producto para filtrar la búsqueda de información.</p>
-<blockquote>
-<div><p><img alt="campo categoría del producto del proceso" src="../../../../_images/process-product-category-field.png" /></p>
-<p>Imagen 11. Campo Categoría del Producto</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Clasificación de Producto</strong>”, la clasificación de producto para filtrar la búsqueda de información.</p>
-<blockquote>
-<div><p><img alt="campo clasificación de producto del proceso" src="../../../../_images/process-product-classification-field.png" /></p>
-<p>Imagen 12. Campo Clasificación de Producto</p>
+<p>Imagen 7. Campo F. Documento</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Producto</strong>”, el producto para filtrar la búsqueda de información.</p>
 <blockquote>
 <div><p><img alt="campo producto del proceso" src="../../../../_images/process-product-field.png" /></p>
-<p>Imagen 13. Campo Producto del Proceso</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Orden de Venta</strong>”, la orden de venta para filtrar la búsqueda de información.</p>
-<blockquote>
-<div><p><img alt="campo orden de venta del proceso" src="../../../../_images/process-sales-order-field.png" /></p>
-<p>Imagen 14. Campo Orden de Venta</p>
+<p>Imagen 8. Campo Producto del Proceso</p>
 </div></blockquote>
 <p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para filtrar la información en base a lo seleccionado anteriormente.</p>
 <blockquote>
 <div><p><img alt="opción comenzar búsqueda del proceso" src="../../../../_images/option-start-process-search.png" /></p>
-<p>Imagen 15. Opción Comenzar Búsqueda</p>
+<p>Imagen 9. Opción Comenzar Búsqueda</p>
 </div></blockquote>
 <p>Seleccione todos los registros filtrados por el proceso.</p>
 <blockquote>
 <div><p><img alt="selección de registros filtrados" src="../../../../_images/selection-of-filtered-records.png" /></p>
-<p>Imagen 16. Selección de Registros</p>
+<p>Imagen 10. Selección de Registros</p>
 </div></blockquote>
 <p>Seleccione la opción “<strong>OK</strong>”, para cargar a la pestaña “<strong>Línea de Factura</strong>”, la información seleccionada anteriormente.</p>
 <blockquote>
 <div><p><img alt="opción ok de proceso" src="../../../../_images/process-ok-option.png" /></p>
-<p>Imagen 17. Opción OK</p>
+<p>Imagen 11. Opción OK</p>
 </div></blockquote>
 </div></blockquote>
 <p>Seleccione el icono “<strong>Refrescar</strong>”, ubicado en la barra de herramientas de ADempiere, para actualizar la ventana “<strong>Documentos por Pagar</strong>” y se pueda visualizar la información cargada desde el proceso.</p>
 <blockquote>
 <div><p><img alt="icono refrescar" src="../../../../_images/refresh-icon1.png" /></p>
-<p>Imagen 18. Icono Refrescar</p>
+<p>Imagen 12. Icono Refrescar</p>
 </div></blockquote>
 <p>Seleccione la pestaña “<strong>Línea de Factura</strong>”, para revisar y verificar la información cargada desde el proceso.</p>
 <blockquote>
 <div><p><img alt="pestaña línea de factura" src="../../../../_images/invoice-line-tab.png" /></p>
-<p>Imagen 19. Pestaña Línea de Factura</p>
+<p>Imagen 13. Pestaña Línea de Factura</p>
 </div></blockquote>
 <p>Seleccione la pestaña principal “<strong>Factura</strong>”, para completar el registro del documento por pagar.</p>
 <blockquote>
 <div><p><img alt="pestaña principal factura" src="../../../../_images/main-tab-invoice.png" /></p>
-<p>Imagen 20. Pestaña Principal Factura</p>
-<p>Seleccione el icono “<strong>Imprimir</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
-<blockquote>
-<div><p><img alt="icono imprimir de la ventana documento por pagar" src="../../../../_images/print-icon-of-document-payable-window.png" /></p>
-<p>Imagen 21. Icono Imprimir</p>
+<p>Imagen 14. Pestaña Principal Factura</p>
 </div></blockquote>
-<p>Podrá visualizar la ventana “<strong>Factura de Ventas</strong>”, con el reporte del documento por pagar creado anteriormente en estado “<strong>Borrador</strong>”.</p>
-<blockquote>
-<div><p><img alt="ventana factura de ventas" src="../../../../_images/sales-invoice-window.png" /></p>
-<p>Imagen 22. Ventana Factura de Ventas</p>
-</div></blockquote>
-<p>Seleccione el icono “<strong>Imprimir</strong>”, de la ventana “<strong>Factura de Ventas</strong>”.</p>
-<blockquote>
-<div><p><img alt="icono imprimir de la ventana factura de ventas" src="../../../../_images/sales-invoice-window-print-icon.png" /></p>
-<p>Imagen 23. Icono Imprimir</p>
-</div></blockquote>
-</div></blockquote>
-</div>
-<div class="section" id="reporte-detalles-de-facturas-y-margen">
-<span id="paso-generar-reporte-de-detalles-de-facturas-y-margen"></span><h2><strong>Reporte Detalles de Facturas y Margen</strong><a class="headerlink" href="#reporte-detalles-de-facturas-y-margen" title="Permalink to this headline">¶</a></h2>
-<p>Genere el reporte “<strong>Detalles de Facturas y Margen</strong>”, filtrando por los siguientes campos.</p>
-<blockquote>
-<div><ul class="simple">
-<li><p><strong>Transacción de Ventas:</strong> No</p></li>
-<li><p><strong>Fecha de Facturación:</strong> 28/12/2020 - 31/12/2020</p></li>
-<li><p><strong>Factura:</strong> 1000240</p></li>
-</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>El reporte “<strong>Detalles de Facturas y Margen</strong>”, se encuentra explicado de manera detallada en el material <a class="reference internal" href="../../../report/invoice-details-and-margin.html#documento-detalles-factura-y-margen"><span class="std std-ref">Detalles de Facturas y Margen</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p>Si se requiere cambiar el tipo de conversión, es necesario recalcular la tasa para las líneas de la factura. Para ello, se debe realizar el siguiente procedimiento:</p>
+<ul>
+<li><p>Seleccione el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere</p></li>
+<li><p>Seleccione la opción “<strong>Recalcular Tasa para Líneas de Factura</strong>”, para recalcular los precios de los productos que contiene el documento por pagar, en base a la lista de precios y tipo de conversión seleccionada anteriormente.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Podrá visualizar la ventana del proceso “<strong>Recalcular Tasa para Líneas de Factura</strong>”, para recalcular los precios de los productos cargados a la línea de la factura.</p></li>
+<li><p>Seleccione la opción “<strong>OK</strong>”, para ejecutar el proceso.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
 </div>
-<p><img alt="reporte detalles de facturas y margen" src="../../../../_images/report-details-of-invoices-and-margin.png" /></p>
-<p>Imagen 24. Reporte Detalles de Facturas y Margen</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Formato de Impresión</strong>”, el formato de impresión “<strong>Relación de Productos en Consignación</strong>”, para visualizar el reporte “<strong>Detalles de Facturas y Margen</strong>”, convertido.</p>
+<p>Seleccione el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
 <blockquote>
-<div><p><img alt="reporte detalles de facturas y margen convertido" src="../../../../_images/report-invoice-details-and-converted-margin.png" /></p>
-<p>Imagen 25. Reporte Detalles de Facturas y Margen Convertido</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Recuerde que debe tener cargada a la fecha, una tasa de cambio correspondiente al tipo de conversión seleccionado en el documento por pagar (pre-factura).</p>
-<p>Es importante descargar el reporte en formato PDF o imprimir el mismo, para entregar una copia al proveedor y otra a cuentas por pagar.</p>
-</div>
+<div><p><img alt="icono proceso de la ventana documentos por pagar" src="../../../../_images/window-process-icon-documents-payable.png" /></p>
+<p>Imagen 15. Icono Proceso</p>
 </div></blockquote>
-</div>
-<div class="section" id="adecuacion-del-documento-por-pagar">
-<span id="paso-adecuacion-de-documentos-por-pagar"></span><h2><strong>Adecuación del Documento por Pagar</strong><a class="headerlink" href="#adecuacion-del-documento-por-pagar" title="Permalink to this headline">¶</a></h2>
-<p>Luego de que el proveedor entrega la factura a cuentas por pagar, se debe comparar la pre-factura con la misma y verificar los datos, para luego ir modificando sus campos hasta que la pre-factura sea igual a la factura entregada por el proveedor. Para ello, debe realizar el siguiente procedimiento.</p>
-<p>Ubicar la pre-factura que se encuentra en estado “<strong>Borrador</strong>”, buscando por número de documento en la ventana “<strong>Documentos por Pagar</strong>”.</p>
+<p>Seleccione la opción “<strong>Procesar Factura</strong>”, ubicada en el menú desplegado por el icono “<strong>Proceso</strong>”.</p>
 <blockquote>
-<div><p><img alt="ubicar prefactura" src="../../../../_images/locate-pre-invoice.png" /></p>
-<p>Imagen 25. Pre-Factura en Borrador</p>
+<div><p><img alt="opción procesar factura del icono proceso" src="../../../../_images/process-icon-invoice-option.png" /></p>
+<p>Imagen 16. Opción Procesar Factura</p>
 </div></blockquote>
-<p>Introduzca en el campo “<strong>No. del Documento</strong>”, el número de documento que contiene la factura entregada por el proveedor.</p>
-<blockquote>
-<div><p><img alt="numero de documento en pre factura" src="../../../../_images/pre-invoice-document-number.png" /></p>
-<p>Imagen 26. Campo No del Documento</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Fecha de Facturación</strong>”, la fecha de facturación que contiene la factura entregada por el proveedor.</p>
-<blockquote>
-<div><p><img alt="fecha de facturación de pre factura" src="../../../../_images/pre-invoice-billing-date.png" /></p>
-<p>Imagen 27. Campo Fecha de Facturación</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Fecha Contable</strong>”, la fecha contable que contiene la factura entregada por el proveedor.</p>
-<blockquote>
-<div><p><img alt="fecha contable de pre factura" src="../../../../_images/pre-invoice-accounting-date.png" /></p>
-<p>Imagen 28. Campo Fecha Contable</p>
-</div></blockquote>
-<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve referencia del rango de ventas utilizado para generar los documentos por pagar.</p>
-<blockquote>
-<div><p><img alt="campo descripción de pre factura" src="../../../../_images/pre-invoice-description-field.png" /></p>
-<p>Imagen 29. Campo Descripción</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios que contiene la factura entregada por el proveedor.</p>
-<blockquote>
-<div><p><img alt="lista de precios de pre factura" src="../../../../_images/pre-invoice-price-list.png" /></p>
-<p>Imagen 30. Campo Lista de Precios</p>
-</div></blockquote>
-<p>Seleccione en el campo “<strong>Tipo de Conversión</strong>”, el tipo de conversión que contiene la factura entregada por el proveedor.</p>
-<blockquote>
-<div><p><img alt="tipo de conversión de pre factura" src="../../../../_images/pre-invoice-conversion-type.png" /></p>
-<p>Imagen 31. Campo Tipo de Conversión</p>
-</div></blockquote>
-<p>Introduzca en el campo “<strong>Nro de Control</strong>”, el número de control que contiene la factura entregada por el proveedor.</p>
-<blockquote>
-<div><p><img alt="número de control de pre factura" src="../../../../_images/pre-invoice-control-number.png" /></p>
-<p>Imagen 32. Campo Nro de Control</p>
-</div></blockquote>
-<p>Seleccione el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere</p>
-<blockquote>
-<div><p><img alt="icono proceso de pre factura" src="../../../../_images/pre-invoice-process-icon.png" /></p>
-<p>Imagen 33. Icono Proceso</p>
-</div></blockquote>
-<p>Seleccione la opción “<strong>Recalcular Tasa para Líneas de Factura</strong>”, para recalcular los precios de los productos que contiene la pre-factura, en base a la lista de precios y tipo de conversión seleccionada anteriormente.</p>
-<blockquote>
-<div><p><img alt="opción recalcular tasa para líneas de factura de pre factura" src="../../../../_images/recalculate-rate-option-for-pre-invoice-invoice-lines.png" /></p>
-<p>Imagen 34. Opción Recalcular Tasa para Líneas de Factura</p>
-<p>Podrá visualizar la ventana del proceso “<strong>Recalcular Tasa para Líneas de Factura</strong>”, para recalcular los precios de los productos cargados a la línea de la factura.</p>
-<blockquote>
-<div><p><img alt="ventana del proceso recalcular tasa para líneas de factura de pre factura" src="../../../../_images/process-window-recalculate-rate-for-pre-invoice-invoice-lines.png" /></p>
-<p>Imagen 35. Ventana del Proceso Recalcular Tasa para Líneas de Factura</p>
-</div></blockquote>
-<p>Seleccione la opción “<strong>OK</strong>”, para ejecutar el proceso.</p>
-<blockquote>
-<div><p><img alt="opción ok de la ventana del proceso recalcular tasa para líneas de factura de pre factura" src="../../../../_images/ok-option-of-the-recalculate-rate-process-window-for-pre-invoice-invoice-lines.png" /></p>
-<p>Imagen 36. Opción OK del Proceso Recalcular Tasa para Líneas de Factura</p>
-</div></blockquote>
-</div></blockquote>
-<p>Seleccione la pestaña “<strong>Línea de Factura</strong>”, para verificar que la cantidad y los precios de los productos que contiene la factura sea la misma que contiene la factura entregada por el proveedor.</p>
-<blockquote>
-<div><p><img alt="pestaña línea de factura de pre factura" src="../../../../_images/pre-invoice-line-tab.png" /></p>
-<p>Imagen 37. Pestaña Línea de Factura</p>
-</div></blockquote>
-<p>Seleccione la pestaña principal “<strong>Factura</strong>”, y verifique que el monto total de la factura se el mismo que contiene la factura entregada por el proveedor.</p>
-<blockquote>
-<div><p><img alt="pestaña principal factura y monto total de pre factura" src="../../../../_images/main-tab-invoice-and-total-amount-of-pre-invoice.png" /></p>
-<p>Imagen 38. Pestaña Principal Factura</p>
-</div></blockquote>
-<p>Seleccione la opción “<strong>Completar</strong>”, ubicada en la parte inferior de la ventana “<strong>Documentos por Pagar</strong>”.</p>
-<blockquote>
-<div><p><img alt="opción completar pre factura" src="../../../../_images/option-complete.png" /></p>
-<p>Imagen 39. Opción Completar</p>
-</div></blockquote>
-<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”.</p>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para conmpletar el registro del documentonpor pagar.</p>
 <blockquote>
 <div><p><img alt="acción completar y opción ok" src="../../../../_images/action-complete-and-option-ok5.png" /></p>
-<p>Imagen 40. Acción Completar y Opción OK</p>
+<p>Imagen 17. Opción Completar y Opción OK</p>
 </div></blockquote>
-<p>Cuando el proveedor entrega a cuentas por pagar más de una factura correspondientes a una misma pre-factura, se debe realizar por cada una de ellas, el procedimiento <a class="reference internal" href="#paso-adecuacion-de-documentos-por-pagar"><span class="std std-ref">Adecuación del Documento por Pagar</span></a>, explicado anteriormente. Modificando en la pestaña “<strong>Línea de Factura</strong>” de la pre-factura, la cantidad de productos para adaptarla a la primera factura generada por el proveedor y posteriormente, registrar las otras facturas bajo el mismo procedimiento.</p>
-<blockquote>
-<div><div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Se debe crear en ADempiere, las facturas entregadas por el proveedor exactamente iguales.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al anular una orden de compra o documento por pagar se liberan todos los documentos de ventas o uso interno relacionados a los mismos.</p>
 </div>
-</div></blockquote>
 </div>
 </div>
 

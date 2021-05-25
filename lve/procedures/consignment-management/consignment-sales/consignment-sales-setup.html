@@ -236,35 +236,43 @@
             
   <div class="section" id="configuracion-de-ventas-en-consignacion">
 <span id="documento-configuracion-de-ventas-en-consignacion"></span><h1><strong>Configuración de Ventas en Consignación</strong><a class="headerlink" href="#configuracion-de-ventas-en-consignacion" title="Permalink to this headline">¶</a></h1>
-<p>Para relacionar en ADempiere las ventas de productos en consignación, es necesario tener una configuración previa en cuanto a las órdenes de compra, los productos y los socios del negocio proveedores de dichas órdenes.</p>
-<p>El registro del socio del negocio proveedor al cual se requiere generar la pre-factura o factura pro-forma, debe tener tildado obligatoriamente el check “<strong>Entrega Directa</strong>”.</p>
+<p>Para gestionar o relacionar las ventas en consignación, <a class="reference external" href="http://erpya.com">ERPyA</a> realizó la modificaciones correspondientes al procedimiento de las ventas en consignación, con la finalidad de mejorar y agilizar el proceso para el usuario.</p>
+<p>Luego de las modificaciones realizadas, no es obligatorio tildar el check “<strong>Entrega Directa</strong>” en el registro del socio de negocio proveedor al cual se requiere relacionar las ventas. Dicho registro se puede realizar de manera regular.</p>
 <blockquote>
 <div><div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>El registro del socio del negocio proveedor se encuentra explicado de manera detallada en el material <a class="reference internal" href="../../../../adempiere/master/business-partner/vendor/partner-vendor.html#documento-socio-proveedor"><span class="std std-ref">Registro de Proveedor</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
 </div>
-<p><img alt="socio del negocio proveedor" src="../../../../_images/supplier-business-partner.png" /></p>
-<p>Imagen 1. Socio del Negocio Proveedor</p>
 </div></blockquote>
-<p>El producto de la orden de compra, debe tener tildado el check “<strong>Entrega Directa</strong>”.</p>
+<p>En base a lo expuesto anteriormente, se debe cumplir con las siguientes configuraciones para gestionar de manera correcta el proceso de ventas en consignación.</p>
+<blockquote>
+<div><p>El producto de la orden de compra, debe tener tildado obligatoriamente el check “<strong>Entrega Directa</strong>”.</p>
 <blockquote>
 <div><div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>El registro del producto se encuentra explicado de manera detallada en el material <a class="reference internal" href="../../../../adempiere/master/product/product.html#documento-producto"><span class="std std-ref">Registro de Producto</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
 </div>
 <p><img alt="producto" src="../../../../_images/product.png" /></p>
-<p>Imagen 2. Producto</p>
+<p>Imagen 1. Producto</p>
 </div></blockquote>
-<p>La orden de compra debe estar realizada con el tipo de documento “<strong>Orden de Compra Consignación</strong>”, tener tildado el check “<strong>Entrega Directa</strong>” y estar en estado “<strong>Completo</strong>”.</p>
+<p>La configuración de los tipos de documentos involucrados en el proceso, es importante para definir el comportamiento de los mismos. Por ello, se tienen los tipos de documentos “<strong>Orden de Compra Consignación</strong>” e “<strong>Inventario de Uso Interno Consignación</strong>”, previamente configurados para el procedimiento de ventas en consignación, los mismos tienen tildado el check “<strong>Entrega Directa</strong>”.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al tildar el check en la configuración del tipo de documento, se indica que el mismo corresponde al proceso de consignación. Dicha configuración es realizada únicamente por los consultores de <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+</div>
+</div></blockquote>
+<p>La orden de compra debe tener tildado obligatoriamente el check “<strong>Entrega Directa</strong>”, estar realizada bajo el tipo de documento “<strong>Orden de Compra Consignación</strong>” y estar en estado “<strong>Completo</strong>”.</p>
 <blockquote>
 <div><div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>El registro de la orden de compra para el proceso de consignación, se encuentra explicado de manera detallada en el material <a class="reference internal" href="../../../../adempiere/requisition-to-invoice/purchase-order/multi-currency-purchase-order.html#documento-orden-de-compra-multimoneda"><span class="std std-ref">Orden de Compra Multimoneda</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
 </div>
 <p><img alt="orden de compra" src="../../../../_images/purchase-order2.png" /></p>
-<p>Imagen 3. Orden de Compra</p>
+<p>Imagen 2. Orden de Compra</p>
 </div></blockquote>
-<p>Luego de verificar la configuración de ventas en consiganción, puede proceder a realizar el procedimiento explicado en el material <a class="reference internal" href="consignment-sales-ratio.html#documento-relacion-de-ventas-en-consignacion"><span class="std std-ref">Relación de Ventas en Consignación</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+</div></blockquote>
+<p>Luego de verificar la configuración de ventas en consiganción, se puede proceder a realizar el procedimiento explicado en el material <a class="reference internal" href="consignment-sales-ratio.html#documento-relacion-de-ventas-en-consignacion"><span class="std std-ref">Relación de Ventas en Consignación</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
 </div>
 
 
