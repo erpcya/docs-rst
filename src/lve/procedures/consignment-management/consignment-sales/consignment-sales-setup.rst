@@ -37,7 +37,7 @@ En base a lo expuesto anteriormente, se debe cumplir con las siguientes configur
 
         .. note::
 
-            El registro de la orden de compra para el proceso de consignación, se encuentra explicado de manera detallada en el material :ref:`documento/orden-de-compra-multimoneda`, elaborado por `ERPyA`_.
+            El registro de la orden de compra, se encuentra explicado de manera detallada en el material :ref:`documento/orden-de-compra`, elaborado por `ERPyA`_.
 
         |orden de compra|
 
