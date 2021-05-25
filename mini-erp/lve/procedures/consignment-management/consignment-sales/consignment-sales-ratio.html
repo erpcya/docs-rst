@@ -1,0 +1,470 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>3.2.2.2. Relación de Ventas en Consignación &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="3.3. Boletería" href="../../ticket-office.html" />
+    <link rel="prev" title="3.2.2.1. Configuración de Ventas en Consignación" href="consignment-sales-setup.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">3. <strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../shipping-tracking.html">3.1. <strong>Tracking de Envío</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">3.2. <strong>Gestión de Consignación</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../consignment-merchandise.html">3.2.1. <strong>Entrega de Mercancía en Consignación</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">3.2.2. <strong>Ventas en Consignación</strong></a><ul class="current">
+<li class="toctree-l4"><a class="reference internal" href="consignment-sales-setup.html">3.2.2.1. <strong>Configuración de Ventas en Consignación</strong></a></li>
+<li class="toctree-l4 current"><a class="current reference internal" href="#">3.2.2.2. <strong>Relación de Ventas en Consignación</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../../ticket-office.html">3.3. <strong>Boletería</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><span class="section-number">3. </span><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="../index.html"><span class="section-number">3.2. </span><strong>Gestión de Consignación</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">3.2.2. </span><strong>Ventas en Consignación</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">3.2.2.2. </span><strong>Relación de Ventas en Consignación</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/lve/procedures/consignment-management/consignment-sales/consignment-sales-ratio.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="relacion-de-ventas-en-consignacion">
+<span id="documento-relacion-de-ventas-en-consignacion"></span><h1><span class="section-number">3.2.2.2. </span><strong>Relación de Ventas en Consignación</strong><a class="headerlink" href="#relacion-de-ventas-en-consignacion" title="Permalink to this headline">¶</a></h1>
+<p>Para la relación de las ventas en consignación, es obligatoria la configuración de las mismas. Dicha configuración se encuentra explicada en el material <a class="reference internal" href="consignment-sales-setup.html#documento-configuracion-de-ventas-en-consignacion"><span class="std std-ref">Configuración de Ventas en Consignación</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a> y deben ser cumplidas de manera obligatoria para garantizar el correcto funcionamiento del procedimiento de ventas en consignación.</p>
+<p>Adicional a ello, la venta no debe estar incluida en ningún documento por pagar. De lo contrario, el registro no podrá ser visualizado al momento ser cargada la información a la pestaña “<strong>Línea de Factura</strong>”, de la ventana “<strong>Documentos por Pagar</strong>”.</p>
+<p>Luego de las modificaciones realizadas por <a class="reference external" href="http://erpya.com">ERPyA</a> no es necesario realizar un documento por pagar (pre-factura), para relacionar la venta o uso interno de los productos en consignación. Si se requiere relacionar al proveedor o simplemente consultar las mismas, se puede generar el “<strong>Reporte de Detalle de Consignación</strong>”.</p>
+<p>Para ejeplificar el caso se tienen los siguientes productos en consignación del proveedor “<strong>E.R.P. Consultores y Asociados, C.A.</strong>”</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>01-Tap            Tapabocas</p></li>
+<li><p>01-TerCont        Termos Contigo</p></li>
+<li><p>01-Chup           Chupetas</p></li>
+<li><p>01-Lib            Libretas (Cuadros)</p></li>
+</ul>
+</div></blockquote>
+<p>Dichos productos se encuentran incluidos en la orden de compra “<strong>OCC-10</strong>”.</p>
+<div class="section" id="reporte-de-detalle-de-consignacion">
+<span id="paso-generar-reporte-de-detalle-de-consignacion"></span><h2><span class="section-number">3.2.2.2.1. </span><strong>Reporte de Detalle de Consignación</strong><a class="headerlink" href="#reporte-de-detalle-de-consignacion" title="Permalink to this headline">¶</a></h2>
+<p>Genere el “<strong>Reporte de Detalle de Consignación</strong>”, filtrando por “<strong>Socio del Negocio Entrega Directa</strong>”, “<strong>Asignado</strong>” y “<strong>F. Documento</strong>”, que corresponde al rango de fecha de facturación.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El “<strong>Reporte de Detalle de Consignación</strong>”, se encuentra explicado de manera detallada en el material <a class="reference internal" href="../../../report/consignment-detail-report.html#documento-reporte-de-detalle-de-consignacion"><span class="std std-ref">Reporte de Detalle de Consignación</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p><img alt="reporte de detalle de consignación" src="../../../../_images/consignment-detail-report.png" /></p>
+<p>Imagen 1. Reporte de Detalle de Consignación</p>
+</div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El reporte de relación de productos en consignación se puede generar muchas veces y sirve para ver los productos pendientes por relacionar, los productos relacionados o todos los productos sin importar si está o no relacionado.</p>
+</div>
+</div>
+<div class="section" id="registrar-documento-por-pagar">
+<span id="paso-registrar-documentos-por-pagar-por-proveedor"></span><h2><span class="section-number">3.2.2.2.2. </span><strong>Registrar Documento por Pagar</strong><a class="headerlink" href="#registrar-documento-por-pagar" title="Permalink to this headline">¶</a></h2>
+<p>La factura de cuentas por pagar debe ser registrada cuando el proveedor realiza la entrega de la misma a cuentas por pagar. Si el proveedor hace entrega de más de una factura, se debe realizar por cada una de ellas, el procedimiento que se explica a continuación.</p>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Se debe crear en ADempiere, las facturas entregadas por el proveedor exactamente iguales.</p>
+</div>
+</div></blockquote>
+<p>Realice el procedimiento regular para crear un documento por pagar, dicho procedimiento se encuentra explicado en el material <a class="reference internal" href="../../../../adempiere/requisition-to-invoice/invoice/invoice.html#documento-documento-por-pagar"><span class="std std-ref">Registro de Documento por Pagar</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El documento por pagar deber ser creado bajo las restricciones contempladas en la factura entregada por el proveedor:</p>
+<ul class="simple">
+<li><p>Introduzca en el campo “<strong>No. del Documento</strong>”, el número de documento que contiene la factura entregada por el proveedor.</p></li>
+<li><p>Seleccione en el campo “<strong>Fecha de Facturación</strong>”, la fecha de facturación que contiene la factura entregada por el proveedor.</p></li>
+<li><p>Seleccione en el campo “<strong>Fecha Contable</strong>”, la fecha contable que contiene la factura entregada por el proveedor.</p></li>
+<li><p>Introduzca en el campo “<strong>Descripción</strong>”, una breve referencia del rango de ventas utilizado para generar los documentos por pagar.</p></li>
+<li><p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios que contiene la factura entregada por el proveedor.</p></li>
+<li><p>Seleccione en el campo “<strong>Tipo de Conversión</strong>”, el tipo de conversión que contiene la factura entregada por el proveedor.</p></li>
+<li><p>Introduzca en el campo “<strong>Nro de Control</strong>”, el número de control que contiene la factura entregada por el proveedor.</p></li>
+</ul>
+</div>
+</div></blockquote>
+<p>Luego de cargar la información necesaria en la pestaña principal “<strong>Factura</strong>”, seleccione el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono proceso de la ventana documentos por pagar" src="../../../../_images/window-process-icon-documents-payable.png" /></p>
+<p>Imagen 2. Icono Proceso de la Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Crear Líneas desde Facturas de Consignación</strong>”, desplegada por la selección del icono “<strong>Proceso</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción crear líneas desde facturas de consignación" src="../../../../_images/option-create-lines-from-consignment-invoices.png" /></p>
+<p>Imagen 3. Opción Crear Líneas desde Facturas de Consignación</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para registrar un documento por pagar desde un inventario de uso interno, se debe realizar el mismo procedimiento explicado anteriormente en el proceso <a class="reference internal" href="#paso-registrar-documentos-por-pagar-por-proveedor"><span class="std std-ref">Registrar Documento por Pagar</span></a>, con la diferencia de que en vez de seleccionar la opción “<strong>Crear Líneas desde Facturas de Consignación</strong>”, del icono “<strong>Proceso</strong>”, se selecciona la opción “<strong>Crear Líneas desde Inventario de Uso Interno de Consignación</strong>” y posteriormente el inventario de uso interno correspondiente.</p>
+</div>
+</div></blockquote>
+<p>Podrá visualizar la ventana del proceso con diferentes campos que permiten filtrar la información de las ventas.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La información a ser visualizada en el presente proceso, va a depender de las siguientes condiciones:</p>
+<ul class="simple">
+<li><p>La información cargada en la orden de compra, dicha orden debe estar en estado “<strong>Completo</strong>”.</p></li>
+<li><p>La información visualizada en el reporte <a class="reference internal" href="../../../report/consignment-detail-report.html#documento-reporte-de-detalle-de-consignacion"><span class="std std-ref">Reporte de Detalle de Consignación</span></a>.</p></li>
+</ul>
+<p>De no coincidir la información del reporte con la información visualizada en el presente proceso, debe realizar lo siguiente:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Verificar que se cumpla con la <a class="reference internal" href="consignment-sales-setup.html#documento-configuracion-de-ventas-en-consignacion"><span class="std std-ref">Configuración de Ventas en Consignación</span></a>.</p></li>
+<li><p>Verificar que el producto se encuentre incluido en una orden de compra, esto lo puede realizar generando el reporte <a class="reference internal" href="../../../report/order-detail.html#documento-reporte-detalle-de-la-orden"><span class="std std-ref">Detalle de la Orden</span></a>.</p></li>
+</ul>
+</div></blockquote>
+</div>
+<p><img alt="ventana del proceso crear líneas desde facturas de consignación" src="../../../../_images/process-window-create-lines-from-consignment-invoices.png" /></p>
+<p>Imagen 4. Ventana del Proceso Crear Líneas desde Facturas de Consignación</p>
+<p>En el campo “<strong>Socio del Negocio Entrega Directa</strong>”, podrá visualizar el socio del negocio seleccionado en la pestaña principal “<strong>Factura</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio del proceso" src="../../../../_images/business-partner-field-of-the-process.png" /></p>
+<p>Imagen 5. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Orden de Venta</strong>”, la orden para filtrar la búsqueda de información.</p>
+<blockquote>
+<div><p><img alt="campo orden de venta del proceso" src="../../../../_images/process-sales-order-field.png" /></p>
+<p>Imagen 6. Campo Orden de Venta</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>La orden de compra es un factor clave y se debe colocar para poder crear la factura de cuentas por pagar desde la venta o el uso interno</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>F. Documento</strong>”, el rango de fecha de facturación para filtrar la búsqueda de información.</p>
+<blockquote>
+<div><p><img alt="campo fecha de facturación del proceso" src="../../../../_images/process-billing-date-field.png" /></p>
+<p>Imagen 7. Campo F. Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto para filtrar la búsqueda de información.</p>
+<blockquote>
+<div><p><img alt="campo producto del proceso" src="../../../../_images/process-product-field.png" /></p>
+<p>Imagen 8. Campo Producto del Proceso</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para filtrar la información en base a lo seleccionado anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción comenzar búsqueda del proceso" src="../../../../_images/option-start-process-search.png" /></p>
+<p>Imagen 9. Opción Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Seleccione todos los registros filtrados por el proceso.</p>
+<blockquote>
+<div><p><img alt="selección de registros filtrados" src="../../../../_images/selection-of-filtered-records.png" /></p>
+<p>Imagen 10. Selección de Registros</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para cargar a la pestaña “<strong>Línea de Factura</strong>”, la información seleccionada anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción ok de proceso" src="../../../../_images/process-ok-option.png" /></p>
+<p>Imagen 11. Opción OK</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Refrescar</strong>”, ubicado en la barra de herramientas de ADempiere, para actualizar la ventana “<strong>Documentos por Pagar</strong>” y se pueda visualizar la información cargada desde el proceso.</p>
+<blockquote>
+<div><p><img alt="icono refrescar" src="../../../../_images/refresh-icon2.png" /></p>
+<p>Imagen 12. Icono Refrescar</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Línea de Factura</strong>”, para revisar y verificar la información cargada desde el proceso.</p>
+<blockquote>
+<div><p><img alt="pestaña línea de factura" src="../../../../_images/invoice-line-tab1.png" /></p>
+<p>Imagen 13. Pestaña Línea de Factura</p>
+</div></blockquote>
+<p>Seleccione la pestaña principal “<strong>Factura</strong>”, para completar el registro del documento por pagar.</p>
+<blockquote>
+<div><p><img alt="pestaña principal factura" src="../../../../_images/main-tab-invoice2.png" /></p>
+<p>Imagen 14. Pestaña Principal Factura</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si se requiere cambiar el tipo de conversión, es necesario recalcular la tasa para las líneas de la factura. Para ello, se debe realizar el siguiente procedimiento:</p>
+<ul>
+<li><p>Seleccione el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere</p></li>
+<li><p>Seleccione la opción “<strong>Recalcular Tasa para Líneas de Factura</strong>”, para recalcular los precios de los productos que contiene el documento por pagar, en base a la lista de precios y tipo de conversión seleccionada anteriormente.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Podrá visualizar la ventana del proceso “<strong>Recalcular Tasa para Líneas de Factura</strong>”, para recalcular los precios de los productos cargados a la línea de la factura.</p></li>
+<li><p>Seleccione la opción “<strong>OK</strong>”, para ejecutar el proceso.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div>
+<p>Seleccione el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono proceso de la ventana documentos por pagar" src="../../../../_images/window-process-icon-documents-payable.png" /></p>
+<p>Imagen 15. Icono Proceso</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Procesar Factura</strong>”, ubicada en el menú desplegado por el icono “<strong>Proceso</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción procesar factura del icono proceso" src="../../../../_images/process-icon-invoice-option.png" /></p>
+<p>Imagen 16. Opción Procesar Factura</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para conmpletar el registro del documentonpor pagar.</p>
+<blockquote>
+<div><p><img alt="acción completar y opción ok" src="../../../../_images/action-complete-and-option-ok4.png" /></p>
+<p>Imagen 17. Opción Completar y Opción OK</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al anular una orden de compra o documento por pagar se liberan todos los documentos de ventas o uso interno relacionados a los mismos.</p>
+</div>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../ticket-office.html" class="btn btn-neutral float-right" title="3.3. Boletería" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="consignment-sales-setup.html" class="btn btn-neutral float-left" title="3.2.2.1. Configuración de Ventas en Consignación" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,355 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>4.7.3. ¿Cómo Crear un Ajuste de Débito de CxC Desde la Orden de Venta? &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="5. Gestión de Compras" href="../../requisition-to-invoice/index.html" />
+    <link rel="prev" title="4.7.2. ¿Cómo Crear un Ajuste de Débito (Manual) de CxC?" href="cxc-debit-adjustment-manual.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">4. <strong>Gestión de Ventas</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../price-list/index.html">4.1. <strong>Lista de Precios</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../sales-order/index.html">4.2. <strong>Orden de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../invoice-customer/index.html">4.3. <strong>Documento por Cobrar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shipment/index.html">4.4. <strong>Entregas (Cliente)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../credit-note-cxc.html">4.5. <strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../debit-note-cxc.html">4.6. <strong>Nota de Débito</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">4.7. <strong>Procesos Frecuentes</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="allocation-of-receipts-from-a-cxc-document.html">4.7.1. <strong>¿Cómo Asignar Cobros desde un Documento de CxC?</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="cxc-debit-adjustment-manual.html">4.7.2. <strong>¿Cómo Crear un Ajuste de Débito (Manual) de CxC?</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">4.7.3. <strong>¿Cómo Crear un Ajuste de Débito de CxC Desde la Orden de Venta?</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><span class="section-number">4. </span><strong>Gestión de Ventas</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">4.7. </span><strong>Procesos Frecuentes</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">4.7.3. </span><strong>¿Cómo Crear un Ajuste de Débito de CxC Desde la Orden de Venta?</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/quote-to-invoice/frequent-processes/cxc-debit-adjustment-from-sell-order.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="como-crear-un-ajuste-de-debito-de-cxc-desde-la-orden-de-venta">
+<span id="documento-ajuste-de-debito-de-cxc-desde-orden-de-venta"></span><h1><span class="section-number">4.7.3. </span><strong>¿Cómo Crear un Ajuste de Débito de CxC Desde la Orden de Venta?</strong><a class="headerlink" href="#como-crear-un-ajuste-de-debito-de-cxc-desde-la-orden-de-venta" title="Permalink to this headline">¶</a></h1>
+<p>Esta documentación tiene como objetivo conocer el procedimiento adecuado para generar en ADempiere, aquellas facturas no fiscales que asocian una venta al cliente, estas facturas no fiscales son conocidas comúnmente como notas de entrega a clientes. Dichas notas de entrega son generadas y entregadas a muchos clientes cuando estos no solicitan una factura fiscal, en ADempiere estos casos se registran con el tipo de documento “<strong>Ajuste de Débito CxC</strong>”.</p>
+<p>Para realizar el procedimiento de ajuste de débito desde una orden, debe estar creada la orden de venta con el tipo de documento “<strong>Orden de Venta no Fiscal</strong>”, el estado de documento de la misma debe ser “<strong>Completo</strong>”.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si desconoce el procedimiento para registrar en ADempiere una orden de venta, puede consultar el material <a class="reference internal" href="../sales-order/sales-order.html#documento-orden-de-venta"><span class="std std-ref">Registro de Orden de Venta</span></a> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+</div>
+</div></blockquote>
+<p>El ajuste de débito desde una orden se genera en la ventana de búsqueda inteligente (Smart Browser) “<strong>Generar Factura desde Línea de la Orden</strong>”. Para ello debe ubicar y seleccionar en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego debe seleccionar la carpeta “<strong>Facturas de Ventas</strong>” y por último seleccionar el smart browser “<strong>Generar Factura desde Línea de la Orden</strong>”.</p>
+<p>Podrá visualizar la ventana del smart browser con diferentes campos que permite generar documentos por cobrar desde las líneas de la orden, en base a lo que sea seleccionado en los mismos. Al seleccionar algún valor en los campos o criterios de búsqueda del smart browser, ADempiere realiza una búsqueda donde refleja en la parte inferior, la información de las líneas de las órdenes de venta que tengan coincidencia con los valores ingresados en dichos campos, para la selección de los mismos se debe considerar lo siguiente:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Agente Comercial: La selección de un valor en este campo, permite filtar la búsqueda de la información por el agente comercial que tenga asociado la orden de venta con coincidencia con el valor seleccionado.</p></li>
+<li><p>Socio del Negocio: Al seleccionar un socio del negocio en el presente campo, ADempiere filtrará las líneas por las órdenes de venta que contengan asociado dicho socio.</p></li>
+<li><p>Fecha de la Orden: Al ingresar una fecha en este campo, la información será filtrada por la fecha en la que fue realizada la orden de venta que tenga coincidencia con el valor ingresado.</p></li>
+<li><p>Fecha Prometida: Al ingresar una fecha en este campo, la información será filtrada por la fecha en la que fue prometida la orden de venta que tenga coincidencia con el valor ingresado.</p></li>
+<li><p>Producto: La selección de un valor en este campo, permite filtar la búsqueda de la información por el producto seleccionado que tenga coincidencia con el producto asociado a las líneas de las órdenes de venta.</p></li>
+</ul>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Es muy importante tener en cuenta que, para que la información aparezca no solo se trata de que criterios de búsqueda se deben utilizar, si no también saber los siguientes datos:</p>
+<ul class="simple">
+<li><p>Aparecerán las órdenes de ventas tengan cantidades de productos abiertas pendientes por facturar de los productos que tenga asociados. Si a la orden de venta se le asignó una factura, se indica que ya fue registrada y asociada a una factura todos los productos y las cantidades que se detallan en la orden de venta, por lo que esta ya no aparecerá en esta búsqueda. Para consultar y saber las cantidades de los productos asociados a una orden de venta han sido facturadas, se puede consultar el reporte “<strong>Detalle de la Orden</strong>”. Si por el contrario, se desea consultar que facturas se encuentran asociadas a una orden de venta, se consultar el reporte “<strong>Transacción de Facturas</strong>”</p></li>
+<li><p>Se debe verificar la “<strong>Regla de Facturación</strong>” que tiene asociada la orden de venta ya que esto define también los datos a mostrar en esta búsqueda.</p></li>
+</ul>
+</div>
+</div></blockquote>
+<p>Una vez utilizadas los criterios de búsquedas correctos y teniendo en cuenta las observaciones anteriormente mencionadas, se procede a tildar la opción “<strong>Comenzar Búsqueda</strong>”. Al seleccionar dicha opción, se realiza la búsqueda en base a lo seleccionado en los campos o criterios de búsqueda, reflejando los resultados en la parte central del smart browser, donde se debe tildar las líneas de la orden por la cual será generada la factura no fiscal (Ajuste de Débito de CxC).</p>
+<p>Finalmente, se deben seleccionar los parámetros con los cuales será generado el documento por cobrar, considerando lo siguiente:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Fecha de Facturación: Se debe seleccionar la fecha con la cual se requiere que se genere el documento por cobrar. Al dejar el mismo en blanco, ADempiere tomará la fecha en la que se encuantra realizando la operación.</p></li>
+<li><p>Acción del Documento: La selección de este campo indica el estado en el será generado el documento por cobrar</p></li>
+<li><p>Consolidado en un Documento: Por defecto, el check siempre se encuentra tildado y su función es que si fueron seleccionadas líneas de diferentes órdenes pero mismo socio del negocio, al ejecutar el proceso, ADempiere genera un solo documento por cobrar (Factura/Ajuste), asociando en la pestaña “<strong>Línea de la Factura</strong>”, todas las líneas seleccionadas de las diferentes órdenes.</p></li>
+<li><p>Organización de la Trans: Este campo no es obligatorio e indica la organización que inicia o ejecuta la transacción.</p></li>
+<li><p>Tipo de Documento: La selección de este campo, define el tipo de documento con el cual será generado el documento por cobrar. De igual manera, define el comportamiento que el mismo tendrá según la configuración establecida para el tipo de documento.</p></li>
+<li><p>Agregar Línea de Referencia en Factura: Este campo permite agregar línea de referencia en factura con información de entrega.</p></li>
+</ul>
+</div></blockquote>
+<p>Luego de establecer los parámetros con los cuales será generado el documento por cobrar, se debe ejecutar el proceso. Para ello, se debe seleccionar la opción “<strong>OK</strong>”.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>En la parte inferior izquierda de la ventana del smart browser se refleja el resultado del proceso.</p>
+</div>
+</div></blockquote>
+<p>Se puede consultar el documento generado de la siguiente manera:</p>
+<blockquote>
+<div><ul>
+<li><p>Ubicando el registro de la orden de venta en la ventana “<strong>Órdenes de Venta</strong>”. Luego de ubicar el registro, se selecciona el icono “<strong>Visualiza Detalle (Donde es Usado)</strong>”, el mismo se encuentra en la barra de herramientas de ADempiere. Por último, se selecciona la opción “<strong>Documentos por Cobrar</strong>”, ubicada en el menú desplegado por el icono.</p></li>
+<li><p>Ubicando la ventana “<strong>Documentos por Cobrar</strong>” y seleccionando el icono “<strong>Buscar</strong>”, que se encuentra en la barra de herramientas de ADempiere. Luego se debe seleccionar la pestaña “<strong>Avanzado</strong>”, para realizar una búsqueda avanzada en la ventana. Finalmente, se debe establecer los parámetros de búsqueda “<strong>Fecha Contable</strong>”, “<strong>Socio del Negocio</strong>” y “<strong>Orden de Venta</strong>”, con sus respectivos valores previamente seleccionados en el smart browser.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Los criterios de búsqueda son opcionales, queda a criterio de cada usuario seleccionar los parámetros de búsqueda avanzada de su conveniencia.</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p>Finalmente, podrá visualizar el registro del documento por cobrar generado desde la orden de venta, en el smart browser “<strong>Generar Factura desde Línea de la Orden</strong>”, independientemente de la manera utilizada para su búsqueda.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../requisition-to-invoice/index.html" class="btn btn-neutral float-right" title="5. Gestión de Compras" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="cxc-debit-adjustment-manual.html" class="btn btn-neutral float-left" title="4.7.2. ¿Cómo Crear un Ajuste de Débito (Manual) de CxC?" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,369 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>4.3. Reporte de Detalle de Consignación &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="5. Codificación Estándar de ADempiere" href="../standard-coding/index.html" />
+    <link rel="prev" title="4.2. Detalle de la Orden" href="order-detail.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. <strong>Reportes de ADempiere</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="details-of-invoices-and-margin-according-to-purchases.html">4.1. <strong>Detalles de Facturas y Margen (Margen según Compras)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="order-detail.html">4.2. <strong>Detalle de la Orden</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4.3. <strong>Reporte de Detalle de Consignación</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">4. </span><strong>Reportes de ADempiere</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">4.3. </span><strong>Reporte de Detalle de Consignación</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/lve/report/consignment-detail-report.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="reporte-de-detalle-de-consignacion">
+<span id="documento-reporte-de-detalle-de-consignacion"></span><h1><span class="section-number">4.3. </span><strong>Reporte de Detalle de Consignación</strong><a class="headerlink" href="#reporte-de-detalle-de-consignacion" title="Permalink to this headline">¶</a></h1>
+<ol class="arabic">
+<li><p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>”, luego seleccione el “<strong>Reporte de Detalle de Consignación</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de reporte de detalle de consignación" src="../../_images/consignment-detail-report-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar la ventana del reporte de detalle de consignación con diferentes campos que le permiten al usuario, filtrar la información en base a lo requerido en su momento.</p>
+<blockquote>
+<div><p><img alt="ventana del reporte de detalle de consignación" src="../../_images/consignment-detail-report-window.png" /></p>
+<p>Imagen 2. Ventana del Reporte de Detalle de Consignación</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Socio del Negocio Entrega Directa</strong>”, el socio del negocio proveedor del material a consignación.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio entrega directa del reporte de detalle de consignación" src="../../_images/business-partner-field-direct-delivery-of-the-consignment-detail-report.png" /></p>
+<p>Imagen 3. Campo Socio del Negocio Entrega Directa</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo moneda del reporte de detalle de consignación" src="../../_images/currency-field-of-the-consignment-detail-report.png" /></p>
+<p>Imagen 4. Campo Moneda</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Orden de Venta</strong>”, la orden de compra o venta por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo orden de venta del reporte de detalle de consignación" src="../../_images/sales-order-field-of-the-consignment-detail-report.png" /></p>
+<p>Imagen 5. Campo Orden de Venta</p>
+</div></blockquote>
+</li>
+<li><p>Introduzca en el campo “<strong>Fecha de la Orden</strong>”, el rango de fecha en el cual fue generada la orden de venta.</p>
+<blockquote>
+<div><p><img alt="campo fecha de la orden del reporte de detalle de consignación" src="../../_images/order-date-field-of-the-consignment-detail-report.png" /></p>
+<p>Imagen 6. Campo Fecha de la Orden</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Producto</strong>”, el producto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo producto del reporte de detalle de consignación" src="../../_images/product-field-of-the-consignment-detail-report.png" /></p>
+<p>Imagen 7. Campo Producto</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio del reporte de detalle de consignación" src="../../_images/business-partner-field-of-consignment-detail-report.png" /></p>
+<p>Imagen 8. Campo Socio del Negocio</p>
+</div></blockquote>
+</li>
+<li><p>Indique en el campo “<strong>Asignado</strong>”, si el pago ha sido asignado o no.</p>
+<blockquote>
+<div><p><img alt="campo asignado del reporte de detalle de consignación" src="../../_images/assigned-field-of-consignment-detail-report.png" /></p>
+<p>Imagen 9. Campo Asignado</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione en el campo “<strong>F. Documento</strong>”, el rango de fecha en el que fue generado el documento.</p>
+<blockquote>
+<div><p><img alt="campo fecha del documento del reporte de detalle de consignación" src="../../_images/document-date-field-of-the-consignment-detail-report.png" /></p>
+<p>Imagen 10. Campo F. Documento</p>
+</div></blockquote>
+</li>
+<li><p>Seleccione la opción “<strong>OK</strong>”, para generar el reporte en base a la información seleccionada en los diferentes campos que contiene la ventana del reporte de detalle de consignación.</p>
+<blockquote>
+<div><p><img alt="opción ok del reporte de detalle de consignación" src="../../_images/ok-option-of-the-consignment-detail-report.png" /></p>
+<p>Imagen 11. Opción OK</p>
+</div></blockquote>
+</li>
+<li><p>Podrá visualizar de la siguiente manera, la información del reporte de detalle de consignación.</p>
+<blockquote>
+<div><p><img alt="resultado del reporte de detalle de consignación" src="../../_images/result-of-consignment-detail-report.png" /></p>
+<p>Imagen 12. Resultado del Reporte</p>
+</div></blockquote>
+</li>
+<li><p>El reporte se genera en formato “<strong>HTML</strong>”, para cambiar dicho formato se debe seleccionar la opción del formato en el campo “<strong>Tipo de Reporte</strong>”, el mismo se encuentra ubicado en la parte superior izquierda de la ventana.</p>
+<blockquote>
+<div><p><img alt="tipo de reporte de la ventana del reporte de detalle de consignación" src="../../_images/report-type-of-the-consignment-detail-report-window.png" /></p>
+<p>Imagen 13. Tipo de Reporte</p>
+</div></blockquote>
+</li>
+<li><p>Para visualizar un resumen del reporte donde se reflejen solamente los totales del mismo, se debe seleccionar el check “<strong>Resumen</strong>”, ubicado de ultimo lugar de izquierda a derecha en la parte superior de la ventana.</p>
+<blockquote>
+<div><p><img alt="check resumen del reporte de detalle de consignación" src="../../_images/check-consignment-detail-report-summary.png" /></p>
+<p>Imagen 14. Check Resumen</p>
+</div></blockquote>
+</li>
+</ol>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../standard-coding/index.html" class="btn btn-neutral float-right" title="5. Codificación Estándar de ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="order-detail.html" class="btn btn-neutral float-left" title="4.2. Detalle de la Orden" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

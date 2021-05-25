@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>4.7.2. ¿Cómo Crear un Ajuste de Débito de CxC &mdash; ERPYA 1.0 Documentation</title>
+  <title>4.7.2. ¿Cómo Crear un Ajuste de Débito (Manual) de CxC? &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -41,7 +41,7 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="5. Gestión de Compras" href="../../requisition-to-invoice/index.html" />
+    <link rel="next" title="4.7.3. ¿Cómo Crear un Ajuste de Débito de CxC Desde la Orden de Venta?" href="cxc-debit-adjustment-from-sell-order.html" />
     <link rel="prev" title="4.7.1. ¿Cómo Asignar Cobros desde un Documento de CxC?" href="allocation-of-receipts-from-a-cxc-document.html" /> 
 </head>
 
@@ -119,7 +119,8 @@
 <li class="toctree-l2"><a class="reference internal" href="../debit-note-cxc.html">4.6. <strong>Nota de Débito</strong></a></li>
 <li class="toctree-l2 current"><a class="reference internal" href="index.html">4.7. <strong>Procesos Frecuentes</strong></a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="allocation-of-receipts-from-a-cxc-document.html">4.7.1. <strong>¿Cómo Asignar Cobros desde un Documento de CxC?</strong></a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#">4.7.2. <strong>¿Cómo Crear un Ajuste de Débito de CxC</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">4.7.2. <strong>¿Cómo Crear un Ajuste de Débito (Manual) de CxC?</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="cxc-debit-adjustment-from-sell-order.html">4.7.3. <strong>¿Cómo Crear un Ajuste de Débito de CxC Desde la Orden de Venta?</strong></a></li>
 </ul>
 </li>
 </ul>
@@ -196,7 +197,7 @@
         
           <li><a href="index.html"><span class="section-number">4.7. </span><strong>Procesos Frecuentes</strong></a> &raquo;</li>
         
-      <li><span class="section-number">4.7.2. </span><strong>¿Cómo Crear un Ajuste de Débito de CxC</strong></li>
+      <li><span class="section-number">4.7.2. </span><strong>¿Cómo Crear un Ajuste de Débito (Manual) de CxC?</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -215,8 +216,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="como-crear-un-ajuste-de-debito-de-cxc">
-<span id="documento-ajuste-de-debito-de-cxc"></span><h1><span class="section-number">4.7.2. </span><strong>¿Cómo Crear un Ajuste de Débito de CxC</strong><a class="headerlink" href="#como-crear-un-ajuste-de-debito-de-cxc" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="como-crear-un-ajuste-de-debito-manual-de-cxc">
+<span id="documento-ajuste-de-debito-manual-de-cxc"></span><h1><span class="section-number">4.7.2. </span><strong>¿Cómo Crear un Ajuste de Débito (Manual) de CxC?</strong><a class="headerlink" href="#como-crear-un-ajuste-de-debito-manual-de-cxc" title="Permalink to this headline">¶</a></h1>
 <p>Los ajustes de débito son utilizados para generar facturas no fiscales o para aumentar una cuenta por pagar. Este procedimiento se realiza desde la ventana “<strong>Documentos por Cobrar</strong>”. Para accededr a la misma, se debe ubicar en el menú de ADempiere y seleccionar la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccionar la carpeta “<strong>Facturas de Ventas</strong>”. Por último, se debe seleccionar la ventana “<strong>Documentos por Cobrar</strong>”, indicada anteriormente.</p>
 <p>En dicha ventana se encuentran todos los registros de documentos por cobrar reflejados en ADempiere. Para crear un nuevo registro en la ventana, se debe seleccionar el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
 <p>Al momento de llenar los campos de la pestaña “<strong>Factura</strong>”, se debe considerar lo siguiente:</p>
@@ -276,6 +277,11 @@
 <p class="admonition-title">Note</p>
 <p>Mientras el documento no se encuentre en estado “<strong>Completo</strong>”, no tendrá validez y por lo tanto, no estará disponible para efectuar otras transacciones con el mismo.</p>
 </div>
+<p>Si requiere visualizar el valor de impuesto del documento se debe posicionar en la pestaña “<strong>Impuesto de la Factura</strong>”.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Este procedimiento aplica solo para aquellos que no partan su proceso desde una “<strong>Orden de Venta</strong>”.</p>
+</div>
 </div>
 
 
@@ -284,7 +290,7 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="../../requisition-to-invoice/index.html" class="btn btn-neutral float-right" title="5. Gestión de Compras" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="cxc-debit-adjustment-from-sell-order.html" class="btn btn-neutral float-right" title="4.7.3. ¿Cómo Crear un Ajuste de Débito de CxC Desde la Orden de Venta?" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
         <a href="allocation-of-receipts-from-a-cxc-document.html" class="btn btn-neutral float-left" title="4.7.1. ¿Cómo Asignar Cobros desde un Documento de CxC?" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 

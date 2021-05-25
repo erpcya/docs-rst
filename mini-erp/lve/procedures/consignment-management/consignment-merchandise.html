@@ -1,0 +1,324 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>3.2.1. Entrega de Mercancía en Consignación &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="3.2.2. Ventas en Consignación" href="consignment-sales/index.html" />
+    <link rel="prev" title="3.2. Gestión de Consignación" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">3. <strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../shipping-tracking.html">3.1. <strong>Tracking de Envío</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">3.2. <strong>Gestión de Consignación</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">3.2.1. <strong>Entrega de Mercancía en Consignación</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="consignment-sales/index.html">3.2.2. <strong>Ventas en Consignación</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../ticket-office.html">3.3. <strong>Boletería</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><span class="section-number">3. </span><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">3.2. </span><strong>Gestión de Consignación</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">3.2.1. </span><strong>Entrega de Mercancía en Consignación</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/lve/procedures/consignment-management/consignment-merchandise.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="entrega-de-mercancia-en-consignacion">
+<span id="documento-mercancia-en-consignacion"></span><h1><span class="section-number">3.2.1. </span><strong>Entrega de Mercancía en Consignación</strong><a class="headerlink" href="#entrega-de-mercancia-en-consignacion" title="Permalink to this headline">¶</a></h1>
+<p>El proceso de mercancía en consignación consiste en entregar una determinada mercancía a un socio del negocio para que este lo venda y cancele a la empresa u organización, el monto requerido por la misma.</p>
+<p>Dicho procedimiento se registra en ADempiere generando un movimiento de inventario para reflejar la salida de los productos del almacén, utilizando el tipo de documento “<strong>Movimiento de Material Externo</strong>”. Para ello, debe realizar el proceso explicado en el documento <a class="reference internal" href="../../../adempiere/material-management/inventory-move/inventory-move.html#documento-movimiento-inventario"><span class="std std-ref">Registro de Movimiento de Inventario</span></a>, elaborado por la empresa <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p>En el presente documento, se tiene como ejemplo el movimiento de inventario número “<strong>MME- 11</strong>”, elaborado con fecha de “<strong>09/10/2020</strong>”, bajo el tipo de documento “<strong>Movimiento de Material Externo</strong>”. En el cual se selecciona al socio del negocio “<strong>Estándar</strong>”, como el cliente que recibe los productos que contiene el movimiento de inventario.</p>
+<p><img alt="movimiento de inventario" src="../../../_images/inventory-movement.png" /></p>
+<p>Imagen 1. Movimiento de Inventario</p>
+<p>Adicional a ello, se carga en la pestaña “<strong>Línea del Movimiento</strong>”, la ubicación “<strong>Comercialización</strong>” desde la cual se realiza el movimiento de inventario con la cantidad de “<strong>20</strong>” productos, a la ubicación “<strong>Consignación Estándar</strong>”. Movimiento en el que se utiliza el producto “<strong>Estandar</strong>”.</p>
+<p><img alt="pestaña línea del movimiento" src="../../../_images/motion-line-tab1.png" /></p>
+<p>Imagen 2. Pestaña Línea del Movimiento</p>
+</div></blockquote>
+<p>La relación de las ventas en consignación se realiza luego de que el cliente le pase a la empresa u organización desde la cual salen los productos, la relación de pago de los mismos. Para registrar correctamente la relación de las ventas en consignación se procede a realizar los siguientes procedimientos.</p>
+<p>Se debe registrar una orden de venta con la fecha en la cual se realizó el movimiento de inventario. Utilizando el tipo de documento “<strong>Orden de Venta Consignación</strong>” y seleccionando como socio del negocio, el cliente relacionado con el almacén al cual fueron movidos los productos.</p>
+<blockquote>
+<div><p><img alt="orden de venta" src="../../../_images/sale-order.png" /></p>
+<p>Imagen 3. Orden de Venta</p>
+</div></blockquote>
+<p>Adicional a ello, se debe ingresar solamente la cantidad de productos cancelados por el cliente, con su respectivo precio de venta. Si desconoce el procedimiento para realizar en ADempiere una orden de venta, puede consultar el documento <a class="reference internal" href="../../../adempiere/quote-to-invoice/sales-order/sales-order.html#documento-orden-de-venta"><span class="std std-ref">Registro de Orden de Venta</span></a>, elaborado por la empresa <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="pestaña línea de la orden" src="../../../_images/order-line-tab.png" /></p>
+<p>Imagen 4. Pestaña Línea de la Orden</p>
+</div></blockquote>
+<p>Luego, se debe generar una entrega desde la línea de la orden previamente creada. Para ello, debe realizar el procedimiento que se explica en el documento <a class="reference internal" href="../../../adempiere/quote-to-invoice/shipment/generate-delivery-from-order-lines.html#documento-generar-entrega-desde-lineas-de-la-orden"><span class="std std-ref">Generar Entrega desde Líneas de la Orden</span></a>, elaborado por la empresa <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="entrega desde línea de la orden" src="../../../_images/delivery-from-order-line.png" /></p>
+<p>Imagen 5. Entrega desde Línea de la Orden</p>
+</div></blockquote>
+<p>Por último, es necesario generar un documento por cobrar desde la línea de la orden de venta previamente realizada. Para ello, debe realizar el procedimiento que se explica en el documento <a class="reference internal" href="../../../adempiere/quote-to-invoice/invoice-customer/invoice-from-order.html#documento-factura-desde-lineas-de-la-orden"><span class="std std-ref">Generar Factura desde Líneas de la Orden</span></a>, elaborado por la empresa <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="factura por cobrar" src="../../../_images/invoice-receivable.png" /></p>
+<p>Imagen 6. Documento por Cobrar</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde que se registra la relación de ventas en consignación, luego de recibir la relación de pago del cliente.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="consignment-sales/index.html" class="btn btn-neutral float-right" title="3.2.2. Ventas en Consignación" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="3.2. Gestión de Consignación" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
