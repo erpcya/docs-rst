@@ -1,6 +1,6 @@
 .. _documento/versión-20-7:
 
-**rs-20.6**
+**rs-20.7**
 ===========
 
 **Fecha de Liberación:** 2021-05-12
