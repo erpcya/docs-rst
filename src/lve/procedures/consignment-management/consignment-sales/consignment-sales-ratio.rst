@@ -43,13 +43,17 @@ Dichos productos se encuentran incluidos en la orden de compra "**OCC-10**".
 
 Genere el "**Reporte de Detalle de Consignación**", filtrando por "**Socio del Negocio Entrega Directa**", "**Asignado**" y "**F. Documento**", que corresponde al rango de fecha de facturación.
 
+.. note::
+
+    El "**Reporte de Detalle de Consignación**", se encuentra explicado de manera detallada en el material :ref:`documento/reporte-de-detalle-de-consignación`, elaborado por `ERPyA`_.
+
     |reporte de detalle de consignación|
 
     Imagen 1. Reporte de Detalle de Consignación
 
-    .. note::
+.. note::
 
-        El "**Reporte de Detalle de Consignación**", se encuentra explicado de manera detallada en el material :ref:`documento/reporte-de-detalle-de-consignación`, elaborado por `ERPyA`_.
+    El reporte de relación de productos en consignación se puede generar muchas veces y sirve para ver los productos pendientes por relacionar, los productos relacionados o todos los productos sin importar si está o no relacionado.
 
 .. _paso/registrar-documentos-por-pagar-por-proveedor:
 
@@ -88,6 +92,10 @@ Seleccione la opción "**Crear Líneas desde Facturas de Consignación**", despl
 
     Imagen 3. Opción Crear Líneas desde Facturas de Consignación
 
+    .. note::
+
+        Para registrar un documento por pagar desde un inventario de uso interno, se debe realizar el mismo procedimiento explicado anteriormente en el proceso :ref:`paso/registrar-documentos-por-pagar-por-proveedor`, con la diferencia de que en vez de seleccionar la opción "**Crear Líneas desde Facturas de Consignación**", del icono "**Proceso**", se selecciona la opción "**Crear Líneas desde Inventario de Uso Interno de Consignación**" y posteriormente el inventario de uso interno correspondiente.
+
 Podrá visualizar la ventana del proceso con diferentes campos que permiten filtrar la información de las ventas.
 
     .. note::
@@ -102,7 +110,6 @@ Podrá visualizar la ventana del proceso con diferentes campos que permiten filt
 
             - Verificar que se cumpla con la :ref:`documento/configuración-de-ventas-en-consignación`.
             - Verificar que el producto se encuentre incluido en una orden de compra, esto lo puede realizar generando el reporte :ref:`documento/reporte-detalle-de-la-orden`.
-            - Verificar que el producto no se encuentre en otro documento por pagar, esto lo puede realizar generando el reporte :ref:`documento/detalles-factura-y-margen`.
 
     |ventana del proceso crear líneas desde facturas de consignación|
 
@@ -114,11 +121,15 @@ Podrá visualizar la ventana del proceso con diferentes campos que permiten filt
 
         Imagen 5. Campo Socio del Negocio
 
-    Seleccione en el campo "**Orden de Venta**", la orden de venta para filtrar la búsqueda de información.
+    Seleccione en el campo "**Orden de Venta**", la orden para filtrar la búsqueda de información.
 
         |campo orden de venta del proceso|
 
         Imagen 6. Campo Orden de Venta
+
+        .. warning::
+
+            La orden de compra es un factor clave y se debe colocar para poder crear la factura de cuentas por pagar desde la venta o el uso interno
 
     Seleccione en el campo "**F. Documento**", el rango de fecha de facturación para filtrar la búsqueda de información.
 
@@ -200,5 +211,4 @@ Seleccione la acción "**Completar**" y la opción "**OK**", para conmpletar el 
 
 .. note::
 
-    Para registrar un documento por pagar desde un inventario de uso interno, se debe realizar el mismo procedimiento explicado anteriormente en el proceso :ref:`paso/registrar-documentos-por-pagar-por-proveedor`, con la diferencia de que en vez de seleccionar la opción "**Crear Líneas desde Facturas de Consignación**", del icono "**Proceso**", se selecciona la opción "**Crear Líneas desde Inventario de Uso Interno de Consignación**" y posteriormente el inventario de uso interno correspondiente.
-
+    Al anular una orden de compra o documento por pagar se liberan todos los documentos de ventas o uso interno relacionados a los mismos.
