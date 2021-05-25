@@ -2,8 +2,8 @@
 
 .. _documento/ajuste-de-débito-de-cxc-desde-orden-de-venta:
 
-**¿Cómo Crear un Ajuste de Débito de CxC Desde la Orden de Venta**
-==================================================================
+**¿Cómo Crear un Ajuste de Débito de CxC Desde la Orden de Venta?**
+===================================================================
 
 Esta documentación tiene como objetivo conocer el procedimiento adecuado para generar en ADempiere, aquellas facturas no fiscales que asocian una venta al cliente, estas facturas no fiscales son conocidas comúnmente como notas de entrega a clientes. Dichas notas de entrega son generadas y entregadas a muchos clientes cuando estos no solicitan una factura fiscal, en ADempiere estos casos se registran con el tipo de documento "**Ajuste de Débito CxC**".
 

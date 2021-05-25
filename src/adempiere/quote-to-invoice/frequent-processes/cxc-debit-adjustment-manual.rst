@@ -1,7 +1,7 @@
 .. _documento/ajuste-de-débito-manual-de-cxc:
 
-**¿Cómo Crear un Ajuste de Débito (Manual) de CxC**
-===================================================
+**¿Cómo Crear un Ajuste de Débito (Manual) de CxC?**
+====================================================
 
 Los ajustes de débito son utilizados para generar facturas no fiscales o para aumentar una cuenta por pagar. Este procedimiento se realiza desde la ventana "**Documentos por Cobrar**". Para accededr a la misma, se debe ubicar en el menú de ADempiere y seleccionar la carpeta "**Gestión de Ventas**", luego seleccionar la carpeta "**Facturas de Ventas**". Por último, se debe seleccionar la ventana "**Documentos por Cobrar**", indicada anteriormente. 
 
