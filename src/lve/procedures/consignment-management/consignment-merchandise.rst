@@ -8,8 +8,8 @@
 
 .. _documento/mercancía-en-consignación:
 
-**Mercancía en Consignación**
-=============================
+**Entrega de Mercancía en Consignación**
+========================================
 
 El proceso de mercancía en consignación consiste en entregar una determinada mercancía a un socio del negocio para que este lo venda y cancele a la empresa u organización, el monto requerido por la misma. 
 

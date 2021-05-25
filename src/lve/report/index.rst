@@ -10,3 +10,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
     :maxdepth: 2
 
     details-of-invoices-and-margin-according-to-purchases
+    order-detail
+    consignment-detail-report
