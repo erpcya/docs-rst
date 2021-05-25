@@ -11,3 +11,4 @@ Esta documentación está destinada a definir cada uno de los procesos frecuente
 
     allocation-of-receipts-from-a-cxc-document
     cxc-debit-adjustment-manual
+    cxc-debit-adjustment-from-sell-order
