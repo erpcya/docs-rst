@@ -9,6 +9,8 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 .. toctree::
     :maxdepth: 2
 
+    invoice-details-and-margin
     details-of-invoices-and-margin-according-to-purchases
     order-detail
+    cash-detail-report
     consignment-detail-report
