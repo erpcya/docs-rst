@@ -30,6 +30,7 @@
 
 **Detalle Técnico:**
 --------------------
+
 - CST-STD: 
 
   - Add some columns for RV_C_RFQResponse: https://github.com/adempiere/adempiere/pull/3457
@@ -39,6 +40,7 @@
 
 **Requerimientos**
 ------------------
+
 Se deben aplicar los siguientes XMLs en el proyecto **CST-STD**:
 
 - 07680_Add_Function_Daily_Salary_by_HRProcress.xml
@@ -52,10 +54,12 @@ Para los reportes se deben importar los siguientes:
 
 **Novedades:**
 --------------
+
 - Se agregan columnas de referencia en el reporte detalle de solicitud con respuesta.
 - Se agrega el **Asunto** por defecto en las solicitudes estándares.
 - Se agrega una función para ver el histórico de salario en función de la fecha y proceso de nomina.
 
 **Correcciones**
 ----------------
+
 - Al contabilizar la nómina ya se puede configurar el concepto de retención para que busque su contabilidad en función de la nómina que se está procesando y no la nómina del empleado.

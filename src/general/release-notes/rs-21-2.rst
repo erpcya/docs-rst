@@ -30,6 +30,7 @@
 
 **Detalle Técnico:**
 --------------------
+
 - CST-STD: 
 
   - Add Third Party Access support
@@ -41,6 +42,7 @@
 
 **Requerimientos**
 ------------------
+
 Se deben aplicar los siguientes XMLs en el proyecto:
 
 **Cash-Management**
@@ -60,5 +62,6 @@ Se deben aplicar los siguientes XMLs en el proyecto:
 
 **Correcciones**
 ----------------
+
 - Se permite ver siempre el tipo de conversión en todos los documentos.
 - Se correige problemas con acceso de tercero por usuario

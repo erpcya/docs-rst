@@ -30,6 +30,7 @@
 
 **Detalle Técnico:**
 --------------------
+
 - CST-STD: 
 
   - Fixed error with replication for embedded documents
@@ -38,6 +39,7 @@
 
 **Requerimientos**
 ------------------
+
 Sólo montar los cambios del binario
 
 **Correcciones**

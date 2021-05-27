@@ -30,6 +30,7 @@
 
 **Detalle Técnico:**
 --------------------
+
 - Performance-Analysis: Se cambia la creación de los Tipos de Documentos Base desde el setup
 
 **Requerimientos**
@@ -37,5 +38,7 @@
 
 **Novedades:**
 --------------
+
 - **Correcciones**
+
  - Se corrige la forma de creación de los Tipos de Documentos Base en Setup

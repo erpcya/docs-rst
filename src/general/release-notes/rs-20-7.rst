@@ -1,6 +1,6 @@
 .. _documento/versión-20-7:
 
-**rs-20.6**
+**rs-20.7**
 ===========
 
 **Fecha de Liberación:** 2021-05-12
@@ -30,8 +30,10 @@
 
 **Detalle Técnico:**
 --------------------
+
 - RethinkDB-Replicator-Client: Support to Record Batch for documents
 
 **Novedades**
 ----------------
+
 - Se agrega soporte para que los documentos que son replicados sean identificados por numeros de lotes.
