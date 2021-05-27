@@ -31,8 +31,8 @@
 
 .. _documento/detalles-factura-y-margen:
 
-**Detalles de Facturas y Margen (Margen)**
-==========================================
+**Detalles de Facturas y Margen**
+=================================
 
 Seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la carpeta "**Consulta de Facturas**". Finalmente, seleccione el reporte "**Detalles de Facturas y Margen**".
 
