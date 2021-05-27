@@ -30,6 +30,7 @@
 
 **Detalle Técnico:**
 --------------------
+
 - Currency-Convert-Documents: Se cambia la funcionalidad y se coloca en una pestaña en las ventanas Orden de Venta, Orden de Compra, Factura de CxC, Fatura de CxP, Pago (Cobro) y Caja
 
 **Requerimientos**
@@ -37,6 +38,7 @@
 
 **Novedades:**
 --------------
+
 - Se cambia la funcionalidad y se coloca en una pestaña en las ventanas Orden de Venta, Orden de Compra, Factura de CxC, Fatura de CxP, Pago (Cobro) y Caja
 
 - **Correcciones**

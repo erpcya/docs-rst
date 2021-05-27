@@ -30,10 +30,12 @@
 
 **Detalle Técnico:**
 --------------------
+
 - LVE: Cambio de Longitud proveniente de directrices del Banco
 - CST-STD: Fix error Void Production
 
 **Correcciones**
 ----------------
+
 - Se Cambia la longitud de caracteres para la columna Identificación Destinatario a 9. 
 - Al anular una Producción no genera excepciones

@@ -30,8 +30,10 @@
 
 **Detalle Técnico:**
 --------------------
+
 - LVE: Soporte a Asignación Automatica de Nota de Débito
 
 **Correcciones**
 ----------------
+
 - Se corrige proceso de autoasignación de Nota de Débito con Factura

@@ -1,6 +1,6 @@
-.. _documento/versión-21-5:
+.. _documento/versión-21-6:
 
-**rs-21.5**
+**rs-21.6**
 ===========
 
 **Fecha de Liberación:** 2021-05-25
@@ -30,6 +30,7 @@
 
 **Detalle Técnico:**
 --------------------
+
 - LVE: 
 
   - Fixed error with validation for business partner value
@@ -39,6 +40,7 @@
 
 **Requerimientos**
 ------------------
+
 Sólo montar los cambios del binario
 
 **Correcciones**
