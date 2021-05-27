@@ -27,7 +27,7 @@ Adicional a ello, la venta no debe estar incluida en ningún documento por pagar
 
 Luego de las modificaciones realizadas por `ERPyA`_ no es necesario realizar un documento por pagar (pre-factura), para relacionar la venta o uso interno de los productos en consignación. Si se requiere relacionar al proveedor o simplemente consultar las mismas, se puede generar el "**Reporte de Detalle de Consignación**".
 
-Para ejeplificar el caso se tienen los siguientes productos en consignación del proveedor "**E.R.P. Consultores y Asociados, C.A.**"
+Para ejemplificar el caso se tienen los siguientes productos en consignación del proveedor "**E.R.P. Consultores y Asociados, C.A.**"
 
     - 01-Tap            Tapabocas
     - 01-TerCont        Termos Contigo
@@ -76,9 +76,10 @@ Realice el procedimiento regular para crear un documento por pagar, dicho proced
         - Seleccione en el campo "**Fecha de Facturación**", la fecha de facturación que contiene la factura entregada por el proveedor.
         - Seleccione en el campo "**Fecha Contable**", la fecha contable que contiene la factura entregada por el proveedor.
         - Introduzca en el campo "**Descripción**", una breve referencia del rango de ventas utilizado para generar los documentos por pagar.
-        - Seleccione en el campo "**Lista de Precios**", la lista de precios que contiene la factura entregada por el proveedor.
-        - Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión que contiene la factura entregada por el proveedor.
+        - Seleccione en el campo "**Lista de Precios**", la lista de precios que utiliza la organización.
+        - Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión establecido entre la organización y el proveedor.
         - Introduzca en el campo "**Nro de Control**", el número de control que contiene la factura entregada por el proveedor.
+
 
 Luego de cargar la información necesaria en la pestaña principal "**Factura**", seleccione el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
