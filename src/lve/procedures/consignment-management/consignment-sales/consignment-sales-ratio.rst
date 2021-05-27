@@ -47,9 +47,9 @@ Genere el "**Reporte de Detalle de Consignación**", filtrando por "**Socio del 
 
     El "**Reporte de Detalle de Consignación**", se encuentra explicado de manera detallada en el material :ref:`documento/reporte-de-detalle-de-consignación`, elaborado por `ERPyA`_.
 
-    |reporte de detalle de consignación|
+|reporte de detalle de consignación|
 
-    Imagen 1. Reporte de Detalle de Consignación
+Imagen 1. Reporte de Detalle de Consignación
 
 .. note::
 
