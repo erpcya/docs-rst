@@ -9,6 +9,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 .. toctree::
     :maxdepth: 2
 
+    invoice-summary
     invoice-details-and-margin
     details-of-invoices-and-margin-according-to-purchases
     order-detail
