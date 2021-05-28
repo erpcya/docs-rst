@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>4.1. Detalles de Facturas y Margen (Margen según Compras) &mdash; ERPYA 1.0 Documentation</title>
+  <title>4.3. Detalles de Facturas y Margen (Margen según Compras) &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -41,8 +41,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="4.2. Detalle de la Orden" href="order-detail.html" />
-    <link rel="prev" title="4. Reportes de ADempiere" href="index.html" /> 
+    <link rel="next" title="4.4. Detalle de la Orden" href="order-detail.html" />
+    <link rel="prev" title="4.2. Detalles de Facturas y Margen" href="invoice-details-and-margin.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -120,9 +120,12 @@
 <li class="toctree-l1"><a class="reference internal" href="../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../procedures/index.html">3. <strong>Procedimientos</strong></a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html">4. <strong>Reportes de ADempiere</strong></a><ul class="current">
-<li class="toctree-l2 current"><a class="current reference internal" href="#">4.1. <strong>Detalles de Facturas y Margen (Margen según Compras)</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="order-detail.html">4.2. <strong>Detalle de la Orden</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="consignment-detail-report.html">4.3. <strong>Reporte de Detalle de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="invoice-summary.html">4.1. <strong>Resumen de Facturas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="invoice-details-and-margin.html">4.2. <strong>Detalles de Facturas y Margen</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4.3. <strong>Detalles de Facturas y Margen (Margen según Compras)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="order-detail.html">4.4. <strong>Detalle de la Orden</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cash-detail-report.html">4.5. <strong>Detalle de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="consignment-detail-report.html">4.6. <strong>Reporte de Detalle de Consignación</strong></a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
@@ -186,7 +189,7 @@
         
           <li><a href="index.html"><span class="section-number">4. </span><strong>Reportes de ADempiere</strong></a> &raquo;</li>
         
-      <li><span class="section-number">4.1. </span><strong>Detalles de Facturas y Margen (Margen según Compras)</strong></li>
+      <li><span class="section-number">4.3. </span><strong>Detalles de Facturas y Margen (Margen según Compras)</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -206,7 +209,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="detalles-de-facturas-y-margen-margen-segun-compras">
-<span id="documento-detalles-factura-y-margen-segun-compras"></span><h1><span class="section-number">4.1. </span><strong>Detalles de Facturas y Margen (Margen según Compras)</strong><a class="headerlink" href="#detalles-de-facturas-y-margen-margen-segun-compras" title="Permalink to this headline">¶</a></h1>
+<span id="documento-detalles-factura-y-margen-segun-compras"></span><h1><span class="section-number">4.3. </span><strong>Detalles de Facturas y Margen (Margen según Compras)</strong><a class="headerlink" href="#detalles-de-facturas-y-margen-margen-segun-compras" title="Permalink to this headline">¶</a></h1>
 <p>Seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Facturas de Ventas</strong>”, por último seleccione la carpeta “<strong>Consulta de Facturas</strong>”. Finalmente, seleccione el reporte “<strong>Detalles de Facturas y Margen</strong>”.</p>
 <blockquote>
 <div><p><img alt="menú detalles de facturas y margen según compras" src="../../_images/invoice-and-margin-details-menu.png" /></p>
@@ -305,45 +308,46 @@
 <p>Seleccione en el campo “<strong>Proyecto</strong>”, el proyecto por el cual requiere filtrar la información.</p>
 <blockquote>
 <div><p><img alt="campo proyecto del reporte detalles de facturas y margen según compras" src="../../_images/project-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png" /></p>
-<p>Imagen 18. campo proyecto</p>
+<p>Imagen 20. campo proyecto</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Tipo de Cuenta</strong>”, el tipo de cuenta por el cual requiere filtrar la información.</p>
 <blockquote>
 <div><p><img alt="campo tipo de cuenta del reporte detalles de facturas y margen según compras" src="../../_images/field-type-of-account-of-the-report-details-of-invoices-and-margin-according-to-purchases.png" /></p>
-<p>Imagen 19. Campo Tipo de Cuenta</p>
+<p>Imagen 21. Campo Tipo de Cuenta</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Campaña</strong>”, la campaña por la cual requiere filtrar la información.</p>
 <blockquote>
 <div><p><img alt="campo campaña del reporte detalles de facturas y margen según compras" src="../../_images/campaign-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png" /></p>
-<p>Imagen 20. Campo Campaña</p>
+<p>Imagen 22. Campo Campaña</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Segmento</strong>”, el segmento por el cual requiere filtrar la información.</p>
 <blockquote>
 <div><p><img alt="campo segmento del reporte detalles de facturas y margen según compras" src="../../_images/segment-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png" /></p>
-<p>Imagen 21. Campo Segmento</p>
+<p>Imagen 23. Campo Segmento</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Actividad</strong>”, la actividad por la cual requiere filtrar la información.</p>
 <blockquote>
 <div><p><img alt="campo actividad del reporte detalles de facturas y margen según compras" src="../../_images/activity-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png" /></p>
-<p>Imagen 22. Campo Actividad</p>
+<p>Imagen 24. Campo Actividad</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Tipo de Industria</strong>”, el tipo de industria por el cual requiere filtrar la información.</p>
 <blockquote>
 <div><p><img alt="campo tipo de industria del reporte detalles de facturas y margen según compras" src="../../_images/field-type-of-industry-of-the-report-details-of-invoices-and-margin-according-to-purchases.png" /></p>
-<p>Imagen 23. Campo Tipo de Industria</p>
+<p>Imagen 25. Campo Tipo de Industria</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Región de Ventas</strong>”, la región de ventas por la cual requiere filtrar la información.</p>
 <blockquote>
 <div><p><img alt="campo región de ventas del reporte detalles de facturas y margen según compras" src="../../_images/field-sales-region-of-the-report-details-of-invoices-and-margin-according-to-purchases.png" /></p>
-<p>Imagen 24. Campo Región de Ventas</p>
+<p>Imagen 26. Campo Región de Ventas</p>
 </div></blockquote>
 <p>Seleccione la opción “<strong>OK</strong>”, para generar el reporte en base a lo seleccionado anteriormente.</p>
 <blockquote>
 <div><p><img alt="opción ok del reporte detalles de facturas y margen según compras" src="../../_images/option-ok-of-the-report-details-of-invoices-and-margin-according-to-purchases.png" /></p>
-<p>Imagen 25. Opción OK</p>
+<p>Imagen 27. Opción OK</p>
 </div></blockquote>
 <p>Podrá visualizar el reporte “<strong>Detalles de Facturas y Margen</strong>”, de la siguiente manera.</p>
-<div class="admonition note">
+<blockquote>
+<div><div class="admonition note">
 <p class="admonition-title">Note</p>
 <p>Para generar el presente reporte, fueron consideradas las siguientes restricciones como ejemplo:</p>
 <ul class="simple">
@@ -353,18 +357,19 @@
 <li><p><strong>Fecha de Facturación</strong>: <em>11/05/2021 - 11/05/2021</em></p></li>
 <li><p><strong>Estado del Documento</strong>: <em>Completo</em></p></li>
 </ul>
-<p><img alt="reporte detalles de facturas y margen según compras" src="../../_images/report-details-of-invoices-and-margin-according-to-purchases.png" /></p>
-<p>Imagen 26. Reporte Detalles de Facturas y Margen</p>
 </div>
+<p><img alt="reporte detalles de facturas y margen según compras" src="../../_images/report-details-of-invoices-and-margin-according-to-purchases.png" /></p>
+<p>Imagen 28. Reporte Detalles de Facturas y Margen</p>
+</div></blockquote>
 <p>Seleccione en el campo “<strong>Tipo de Reporte</strong>”, la opción “<strong>PDF</strong>”, para visualizar el reporte en formato “<strong>PDF</strong>”</p>
 <blockquote>
 <div><p><img alt="campo tipo de reporte del reporte detalles de facturas y margen según compras" src="../../_images/report-type-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png" /></p>
-<p>Imagen 27. Campo Tipo de Reporte</p>
+<p>Imagen 29. Campo Tipo de Reporte</p>
 </div></blockquote>
 <p>Seleccione en el campo “<strong>Formato de Impresión</strong>”, la opción “<strong>Detalles de Facturas (Margen Según Compras)</strong>”, para visualizar el reporte “<strong>Detalles de Facturas y Margen (Margen según Compras)</strong>”.</p>
 <blockquote>
 <div><p><img alt="campo formato del reporte detalles de facturas y margen según compras" src="../../_images/report-format-field-details-of-invoices-and-margin-according-to-purchases.png" /></p>
-<p>Imagen 28. Campo Formato de Impresión</p>
+<p>Imagen 30. Campo Formato de Impresión</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
@@ -390,8 +395,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="order-detail.html" class="btn btn-neutral float-right" title="4.2. Detalle de la Orden" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="index.html" class="btn btn-neutral float-left" title="4. Reportes de ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="order-detail.html" class="btn btn-neutral float-right" title="4.4. Detalle de la Orden" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="invoice-details-and-margin.html" class="btn btn-neutral float-left" title="4.2. Detalles de Facturas y Margen" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

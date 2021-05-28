@@ -153,77 +153,77 @@ Seleccione en el campo "**Proyecto**", el proyecto por el cual requiere filtrar 
 
     |campo proyecto del reporte detalles de facturas y margen según compras|
 
-    Imagen 18. campo proyecto
+    Imagen 20. campo proyecto
 
 Seleccione en el campo "**Tipo de Cuenta**", el tipo de cuenta por el cual requiere filtrar la información.
 
     |campo tipo de cuenta del reporte detalles de facturas y margen según compras|
 
-    Imagen 19. Campo Tipo de Cuenta
+    Imagen 21. Campo Tipo de Cuenta
 
 Seleccione en el campo "**Campaña**", la campaña por la cual requiere filtrar la información.
 
     |campo campaña del reporte detalles de facturas y margen según compras|
 
-    Imagen 20. Campo Campaña
+    Imagen 22. Campo Campaña
 
 Seleccione en el campo "**Segmento**", el segmento por el cual requiere filtrar la información.
 
     |campo segmento del reporte detalles de facturas y margen según compras|
 
-    Imagen 21. Campo Segmento
+    Imagen 23. Campo Segmento
 
 Seleccione en el campo "**Actividad**", la actividad por la cual requiere filtrar la información.
 
     |campo actividad del reporte detalles de facturas y margen según compras|
 
-    Imagen 22. Campo Actividad
+    Imagen 24. Campo Actividad
 
 Seleccione en el campo "**Tipo de Industria**", el tipo de industria por el cual requiere filtrar la información.
 
     |campo tipo de industria del reporte detalles de facturas y margen según compras|
 
-    Imagen 23. Campo Tipo de Industria
+    Imagen 25. Campo Tipo de Industria
 
 Seleccione en el campo "**Región de Ventas**", la región de ventas por la cual requiere filtrar la información.
 
     |campo región de ventas del reporte detalles de facturas y margen según compras|
 
-    Imagen 24. Campo Región de Ventas
+    Imagen 26. Campo Región de Ventas
 
 Seleccione la opción "**OK**", para generar el reporte en base a lo seleccionado anteriormente.
 
     |opción ok del reporte detalles de facturas y margen según compras|
 
-    Imagen 25. Opción OK
+    Imagen 27. Opción OK
 
 Podrá visualizar el reporte "**Detalles de Facturas y Margen**", de la siguiente manera.
 
-.. note::
+    .. note::
 
-    Para generar el presente reporte, fueron consideradas las siguientes restricciones como ejemplo:
+        Para generar el presente reporte, fueron consideradas las siguientes restricciones como ejemplo:
 
-    - **Organización**: *Organización*
-    - **Socio del Negocio**: *E.R.P. Consultores y Asociados, C.A*
-    - **Transacción de Ventas**: *Si*
-    - **Fecha de Facturación**: *11/05/2021 - 11/05/2021*
-    - **Estado del Documento**: *Completo*
+        - **Organización**: *Organización*
+        - **Socio del Negocio**: *E.R.P. Consultores y Asociados, C.A*
+        - **Transacción de Ventas**: *Si*
+        - **Fecha de Facturación**: *11/05/2021 - 11/05/2021*
+        - **Estado del Documento**: *Completo*
 
     |reporte detalles de facturas y margen según compras|
 
-    Imagen 26. Reporte Detalles de Facturas y Margen
+    Imagen 28. Reporte Detalles de Facturas y Margen
 
 Seleccione en el campo "**Tipo de Reporte**", la opción "**PDF**", para visualizar el reporte en formato "**PDF**"
 
     |campo tipo de reporte del reporte detalles de facturas y margen según compras|
 
-    Imagen 27. Campo Tipo de Reporte
+    Imagen 29. Campo Tipo de Reporte
 
 Seleccione en el campo "**Formato de Impresión**", la opción "**Detalles de Facturas (Margen Según Compras)**", para visualizar el reporte "**Detalles de Facturas y Margen (Margen según Compras)**".
 
     |campo formato del reporte detalles de facturas y margen según compras|
 
-    Imagen 28. Campo Formato de Impresión
+    Imagen 30. Campo Formato de Impresión
 
 .. note::
 

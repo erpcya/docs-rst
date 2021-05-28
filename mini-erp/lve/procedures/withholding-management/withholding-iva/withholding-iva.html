@@ -1,0 +1,530 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>3.4.1.1. Configuración del Socio de Negocio &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../../" src="../../../../_static/documentation_options.js"></script>
+        <script src="../../../../_static/jquery.js"></script>
+        <script src="../../../../_static/underscore.js"></script>
+        <script src="../../../../_static/doctools.js"></script>
+        <script src="../../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="4. Reportes de ADempiere" href="../../../report/index.html" />
+    <link rel="prev" title="3.4.1. Retención de IVA de Cuentas por Pagar" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html">3. <strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../shipping-tracking.html">3.1. <strong>Tracking de Envío</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../consignment-management/index.html">3.2. <strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../ticket-office.html">3.3. <strong>Boletería</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html">3.4. <strong>Gestión de Retenciones</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="reference internal" href="index.html">3.4.1. <strong>Retención de IVA de Cuentas por Pagar</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#">3.4.1.1. <strong>Configuración del Socio de Negocio</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#ejecucion-de-la-estimacion-de-retenciones">3.4.1.2. <strong>Ejecución de la Estimación de Retenciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#generar-retencion-de-iva-fiscal">3.4.1.3. <strong>Generar Retención de IVA Fiscal</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio">3.4.1.4. <strong>Imprimir Documento de la Retención Aplicada al Socio del Negocio</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../../report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../../index.html"><span class="section-number">3. </span><strong>Procedimientos</strong></a> &raquo;</li>
+        
+          <li><a href="../index.html"><span class="section-number">3.4. </span><strong>Gestión de Retenciones</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">3.4.1. </span><strong>Retención de IVA de Cuentas por Pagar</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">3.4.1.1. </span><strong>Configuración del Socio de Negocio</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../../_sources/lve/procedures/withholding-management/withholding-iva/withholding-iva.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configuracion-del-socio-de-negocio">
+<span id="documento-retencion-iva"></span><h1><span class="section-number">3.4.1.1. </span><strong>Configuración del Socio de Negocio</strong><a class="headerlink" href="#configuracion-del-socio-de-negocio" title="Permalink to this headline">¶</a></h1>
+<p>ADempiere permite seleccionar por socio del negocio el porcentaje de IVA a aplicar en los documentos de compra/venta del mismo, a continuación se explica el procedimiento para seleccionar el IVA en un socio del negocio determinado.</p>
+<p>Ubique en el menú de ADempiere la carpeta “<strong>Relación con Socios del Negocio</strong>”, luego seleccione la carpeta “<strong>Reglas de Socios del Negocio</strong>”, por último seleccione la ventana “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de socio del negocio" src="../../../../_images/business-partner-menu1.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Ubique el registro del socio del negocio proveedor al cual se le va a configurar la retención de IVA, para este ejemplo el socio del negocio proveedor es “<strong>E.R.P. Consultores y Asociados, C.A.</strong>”.</p>
+<blockquote>
+<div><p><img alt="registro de socio del negocio" src="../../../../_images/business-partner-registration.png" /></p>
+<p>Imagen 2. Socio del Negocio</p>
+</div></blockquote>
+<p>En la ventana principal “<strong>Socio del Negocio</strong>”, verifique que en el campo “<strong>Tipo de Persona</strong>” se encuentre seleccionado el tipo de socio del negocio al que se le aplicará la retención de IVA, en este campo debe indicar si el socio es persona jurídica domiciliada, persona jurídica no constituída domiciliada, persona jurídica no domiciliada, persona natural no residente, o persona natural residente.</p>
+<blockquote>
+<div><p><img alt="campo tipo de persona" src="../../../../_images/person-type-field.png" /></p>
+<p>Imagen 3. Campo Tipo de Persona</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Proveedor</strong>” para configurar la retención de IVA a aplicar al socio del negocio.</p>
+<blockquote>
+<div><p><img alt="pestaña proveedor" src="../../../../_images/supplier-tab.png" /></p>
+<p>Imagen 4. Pestaña Proveedor</p>
+</div></blockquote>
+<p>Ubique en la parte inferior del documento los checklist para definir las retenciones a aplicar a un socio del negocio proveedor.</p>
+<blockquote>
+<div><p><img alt="retenciones a aplicar" src="../../../../_images/withholdings-to-apply.png" /></p>
+<p>Imagen 5. Retenciones a Aplicar</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al tildar el check “<strong>No Aplica Retención de I.V.A.</strong>” en el registro del socio del negocio, se indica a ADempiere que a ese socio no se le deben aplicar retenciones del IVA. Lo que significa que cuando sea seleccionado dicho socio en cualquier documento por pagar cargado en ADempiere que maneje valor de impuesto, no le calculará ningún monto de retención.</p>
+<p>Al destildar el check “<strong>No Aplica Retención de I.V.A.</strong>” en el registro del socio del negocio, se habilita el campo “<strong>Retención de I.V.A. Aplicada</strong>”, con el cual se indica a ADempiere cual es el porcentaje de retención a aplicar a ese socio cada vez que se le genere un documento por pagar con valor de impuesto.</p>
+</div>
+</div></blockquote>
+<p>Para realizar este ejemplo de la retención de IVA y observar el comportamiento de los check en ADempiere, se tildan los check referentes a retención de ISLR y municipal.</p>
+<blockquote>
+<div><p><img alt="check retenciones" src="../../../../_images/check-withholdings.png" /></p>
+<p>Imagen 6. Check de Retenciones</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Retención de IVA Aplicada</strong>”, el porcentaje de IVA a retener al socio del negocio proveedor, para este ejemplo el porcentaje a retener es cien por ciento (100%).</p>
+<blockquote>
+<div><p><img alt="campo retención de iva aplicada" src="../../../../_images/vat-withholding-field-applied.png" /></p>
+<p>Imagen 7. Campo Retención de IVA Aplicada</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Solo debe tildar la retención que no se aplicará al socio del negocio proveedor que esta configurando y guarde los cambios realizados en el socio del negocio con ayuda del icono “<strong>Guardar Cambios</strong>” ubicadi en la barra de herramientas de ADempiere.</p>
+</div>
+</div>
+<div class="section" id="ejecucion-de-la-estimacion-de-retenciones">
+<h1><span class="section-number">3.4.1.2. </span><strong>Ejecución de la Estimación de Retenciones</strong><a class="headerlink" href="#ejecucion-de-la-estimacion-de-retenciones" title="Permalink to this headline">¶</a></h1>
+<p>Al completar el registro del documento por pagar generado al socio del negocio proveedor previamente configurado con el tipo de retención, se genera de manera automática el pre-cálculo de retención del IVA, el mismo se puede visualizar de la siguiente manera.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El documento por pagar debe estar en estado “<strong>Completo</strong>”, para este ejemplo se utiliza la factura número “<strong>1000154</strong>” del socio del negocio proveedor “<strong>E.R.P. Consultores y Asociados, C.A.</strong>”.</p>
+</div>
+<p><img alt="factura aplicada al socio del negocio" src="../../../../_images/invoice-applied-to-the-business-partner.png" /></p>
+<p>Imagen 8. Factura Aplicada al Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Visualiza Detalle</strong>” para apreciar donde es usado el documento, el mismo se encuentre ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono visualiza detalle" src="../../../../_images/icon-displays-detail.png" /></p>
+<p>Imagen 9. Icono Visualiza Detalle</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>ADempiere le genera al usuario por medio del icono “<strong>Visualiza Detalle</strong>”, las alertas donde indica cuales fueron las retenciones aplicadas (<strong>Retención Generada</strong>) y cuales retenciones no fueron aplicadas (<strong>Log</strong>) según la configuración que tiene un socio del negocio determinado.</p>
+</div>
+</div></blockquote>
+<p>Podrá apreciar el menú desplegado por el icono “<strong>Visualiza Detalle</strong>”, el mismo muestra los documentos donde es utilizado el documento por pagar.</p>
+<blockquote>
+<div><p><img alt="menú del icono visualiza detalle" src="../../../../_images/icon-menu-displays-detail.png" /></p>
+<p>Imagen 10. Menú del Icono Visualiza Detalle</p>
+<p>La opción “<strong>Socio del Negocio</strong>”, muestra el registro del socio del negocio utilizado en el documento por pagar donde es seleccionado el icono “<strong>Visualiza Detalle</strong>”, puede ser utilizada para corroborar que las retenciones aplicadas al documento por pagar sean las mismas configuradas para el socio del negocio.</p>
+<blockquote>
+<div><p><img alt="opción socio del negocio" src="../../../../_images/business-partner-option.png" /></p>
+<p>Imagen 11. Opción Socio del Negocio</p>
+</div></blockquote>
+<p>La opción “<strong>Retención Generada</strong>”, muestra el documento de retención aplicado al documento por pagar donde es seleccionado el icono “<strong>Visualiza Detalle</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción retención generada" src="../../../../_images/withholding-option-generated.png" /></p>
+<p>Imagen 12. Opción Retención Generada</p>
+</div></blockquote>
+<p>La opción “<strong>Log de Retención</strong>” muestra el log de la retención no aplicada al documento por pagar donde es seleccionado el icono “<strong>Visualiza Detalle</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción log de retención" src="../../../../_images/retention-log-option.png" /></p>
+<p>Imagen 13. Opción Log de Retención</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Adicionalmente, se puede consultar el impuesto de un documento por pagar al seleccionar la pestaña “<strong>Impuesto de Factura</strong>”, de la ventana “<strong>Documentos por Pagar</strong>”.</p>
+</div>
+</div>
+<div class="section" id="generar-retencion-de-iva-fiscal">
+<h1><span class="section-number">3.4.1.3. </span><strong>Generar Retención de IVA Fiscal</strong><a class="headerlink" href="#generar-retencion-de-iva-fiscal" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Manejo de Retenciones</strong>”, luego seleccione la ventana de busqueda inteligente “<strong>Generar Retenciones</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de generar retenciones" src="../../../../_images/generate-withholdings-menu.png" /></p>
+<p>Imagen 14. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá apreciar la ventana de búsqueda inteligente con diferentes campos para filtrar la busqueda.</p>
+<blockquote>
+<div><p><img alt="ventana de búsqueda inteligente" src="../../../../_images/smart-search-window.png" /></p>
+<p>Imagen 15. Ventana de Búsqueda Inteligente</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”,  el socio del negocio relacionado a la retención que requiere generar. Para este ejemplo utilizaremos el socio del negocio “<strong>E.R.P. Consultores y Asociados, C.A.</strong>”.</p>
+<blockquote>
+<div><p><img alt="filtrar por socio del negocio" src="../../../../_images/filter-by-business-partner.png" /></p>
+<p>Imagen 16. Filtrar por Socio del Negocio</p>
+</div></blockquote>
+<p>En el campo “<strong>Organización</strong>”, la organización relacionada a la retención que requiere generar.</p>
+<blockquote>
+<div><p><img alt="filtrar por organización" src="../../../../_images/filter-by-organization.png" /></p>
+<p>Imagen 17. Campo Organización de la Retención</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>F. Documento</strong>”, el rango de fecha en la cual fue generado el documento por pagar relacionado a la retención que requiere generar.</p>
+<blockquote>
+<div><p><img alt="filtrar por fecha del documento" src="../../../../_images/filter-by-document-date.png" /></p>
+<p>Imagen 18. Campo Fecha del Documento de la Retención</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Retención</strong>”, la retención por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="filtrar por retención" src="../../../../_images/filter-by-retention.png" /></p>
+<p>Imagen 19. Campo Retención</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda Hacia</strong>”, la moneda a la cual requiere convertir el monto de la retención.</p>
+<blockquote>
+<div><p><img alt="campo moneda hacia" src="../../../../_images/field-currency-to.png" /></p>
+<p>Imagen 20. Campo Moneda Hacia</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Factura Fuente</strong>”, la factura por la cual requiere filtrar la información para generar la retención.</p>
+<blockquote>
+<div><p><img alt="filtrar por factura fuente" src="../../../../_images/filter-by-source-invoice.png" /></p>
+<p>Imagen 21. Campo Factura Fuente</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Retención</strong>”, el tipo de retención por el cual requiere filtrar la búsqueda.</p>
+<blockquote>
+<div><p><img alt="filtrar por tipo de retención" src="../../../../_images/filter-by-retention-type.png" /></p>
+<p>Imagen 22. Campo Tipo de Retención</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El campo cuenta con tres opciones que son “<strong>IM_Retencion de Impuesto Municipal</strong>, “<strong>ISLR_Retención de I.S.L.R.</strong>” y “<strong>I.V.A_Retención de I.V.A.</strong>”. Recuerde que la selección de este campo va a depender de la retención que se va a aplicar al documento de cuentas por pagar.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda del documento y desde la cual se requiere convertir el monto de la retención.</p>
+<blockquote>
+<div><p><img alt="campo moneda" src="../../../../_images/currency-field4.png" /></p>
+<p>Imagen 23. Campo Moneda</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para filtrar la información en base a los valores seleccionados en los campos indicados anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción comenzar búsqueda" src="../../../../_images/option-start-search2.png" /></p>
+<p>Imagen 24. Opción Comenzar Búsqueda</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al utilizar los criterios de búsqueda se tilda el botón “<strong>Comenzar Búsqueda</strong>”, luego se mostrará los pre-cálculos de retención de IVA, dependiendo de los criterios utilizados.</p>
+</div>
+</div></blockquote>
+<p>Podrá apreciar las retenciones que el socio del negocio seleccionado tiene en los diferentes documentos.</p>
+<blockquote>
+<div><p><img alt="retenciones del socio del negocio" src="../../../../_images/business-partner-withholdings.png" /></p>
+<p>Imagen 25. Retenciones del Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione el pre-cálculo de la retención a generar y verifique que el campo “<strong>F. Documento</strong>”, tenga la misma fecha del campo “<strong>Fecha Contable</strong>” del documento por pagar al cual se le aplicará la retención. Finalmente se procede a seleccionar la opción “<strong>OK</strong>” para generar la retención al socio del negocio seleccionado.</p>
+<blockquote>
+<div><p><img alt="selección de retención y opción ok" src="../../../../_images/retention-selection-and-ok-option.png" /></p>
+<p>Imagen 26. Selección de Retención y Opción OK</p>
+</div></blockquote>
+<p>Podrá apreciar que el proceso se realizó correctamente con el mensaje “<strong>OK</strong>” mostrado por ADempiere al final de la ventana de busqueda inteligente.</p>
+<blockquote>
+<div><p><img alt="mensaje ok" src="../../../../_images/message-ok.png" /></p>
+<p>Imagen 27. Mensaje OK</p>
+</div></blockquote>
+</div>
+<div class="section" id="imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio">
+<h1><span class="section-number">3.4.1.4. </span><strong>Imprimir Documento de la Retención Aplicada al Socio del Negocio</strong><a class="headerlink" href="#imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Compras</strong>” y luego seleccione la ventana “<strong>Documentos por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de documentos por pagar" src="../../../../_images/payable-documents-menu.png" /></p>
+<p>Imagen 28. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá apreciar la ventana “<strong>Documentos por Pagar</strong>” donde se encuentran todos los registros que posee la misma.</p>
+<blockquote>
+<div><p><img alt="ventana documentos por pagar" src="../../../../_images/payable-documents-window2.png" /></p>
+<p>Imagen 29. Ventana Documentos por Pagar</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Encontrar Registro</strong>” ubicado en la barra de herramientas de ADempiere, para realizar una busqueda avanzada del documento de retención generado.</p>
+<blockquote>
+<div><p><img alt="icono encontrar registro" src="../../../../_images/find-record-icon.png" /></p>
+<p>Imagen 30. Icono Encontrar Registro</p>
+<p>Seleccione la pestaña “<strong>Avanzado</strong>” para filtrar la busqueda por “<strong>Socio del Negocio</strong>”, “<strong>Tipo de Documento de Retención de Cuentas por Pagar</strong>” y “<strong>Fecha de Registro</strong>”.</p>
+<blockquote>
+<div><p><img alt="buscador avanzado" src="../../../../_images/advanced-search.png" /></p>
+<p>Imagen 31. Buscador Avanzado</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Nuevo</strong>” para generar el número de filas de busqueda que se necesitan, para este ejemplo se necesitan tres (3) filas.</p>
+<blockquote>
+<div><p><img alt="icono nuevo" src="../../../../_images/new-icon.png" /></p>
+<p>Imagen 32. Icono Nuevo</p>
+<p>Seleccione en la primera fila la opción “<strong>Socio del Negocio</strong>” e introduzca el nombre del socio del negocio en la columna “<strong>Valor Consulta</strong>”, para este ejemplo el socio del negocio es “<strong>E.R.P. Consultores y Asociados, C.A.</strong>”.</p>
+<blockquote>
+<div><p><img alt="selección socio del negocio" src="../../../../_images/selection-of-business-partner.png" /></p>
+<p>Imagen 33. Selección Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en la segunda fila la opción “<strong>Tipo de Documento Destino</strong>” y seleccione en la columna “<strong>Valor Consulta</strong>” el tipo de documento destino, para este ejemplo el tipo de documento destino es “<strong>Retención de IVA Cuentas por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="selección tipo de Documento destino" src="../../../../_images/selection-of-destination-document-type.png" /></p>
+<p>Imagen 34. Selección Tipo de Documento Destino</p>
+</div></blockquote>
+<p>Seleccione en la tercera fila la opción “<strong>Fecha de Registro</strong>” y seleccione en la columna “<strong>Valor Consulta</strong>” la fecha en la que se realizo la retención, para este ejemplo la fecha es “<strong>26/05/2021</strong>”.</p>
+<blockquote>
+<div><p><img alt="selección fecha contable" src="../../../../_images/selection-of-accounting-date.png" /></p>
+<p>Imagen 35. Selección Fecha de Registro</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>” para realizar la busqueda filtrada por los campos seleccionados.</p>
+<blockquote>
+<div><p><img alt="opción ok" src="../../../../_images/option-ok1.png" /></p>
+<p>Imagen 36. Opción OK</p>
+</div></blockquote>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El registro de retención de IVA generado, también se puede ubicar de manera rápida, al posicionarse en el registro del documento por pagar (Factura Principal), al cual se esta aplicando la retención, luego seleccionar el icono de la barra de herramientas “<strong>Visualiza Detalle (Donde es Usado)</strong>”, y seleccionar la opción “<strong>Documentos por Pagar (Asignados)</strong>”. Al tildar esta opción se abrirá otra ventana de “<strong>Documentos por Pagar</strong>” pero con el registro del documento “<strong>Retención de IVA Cuentas por Pagar</strong>” y el monto total de la retención.</p>
+</div>
+<p>Luego de ubicar el registro de la retención, seleccione el icono “<strong>Imprimir</strong>” ubicado en la barra de herramientas de ADempiere para visualizar el reporte del documento de retención.</p>
+<blockquote>
+<div><p><img alt="opción imprimir" src="../../../../_images/print-option.png" /></p>
+<p>Imagen 37. Opción Imprimir</p>
+</div></blockquote>
+<p>Podrá apreciar de la siguiente manera, el reporte del documento “<strong>Retención de IVA Cuentas por Pagar</strong>”.</p>
+<blockquote>
+<div><p><img alt="documento de retención" src="../../../../_images/retention-document.png" /></p>
+<p>Imagen 38. Documento de Retención</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../../report/index.html" class="btn btn-neutral float-right" title="4. Reportes de ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="3.4.1. Retención de IVA de Cuentas por Pagar" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
