@@ -216,12 +216,6 @@ Seleccione en el campo "**Tipo de Industria**", el tipo de industria por el cual
 
     Imagen 30. Campo Tipo de Industria
 
-Seleccione en el campo "**Agente Colaborador**", el agente colaborador por el cual requiere filtrar la información.
-
-    |campo agente colaborador del reporte detalle de caja|
-
-    Imagen 31. Campo Agente Comercial
-
 Seleccione la opción "**OK**", para generar el reporte en base a los campos o filtros utilizados.
 
     |opción ok del reporte detalle de caja|

@@ -1,32 +1,32 @@
 .. |menú detalles de facturas y margen| image:: resources/invoice-and-margin-details-menu.png
-.. |ventana del reporte detalles de facturas y margen| image:: resources/report-window-details-of-invoices-and-margin.png
-.. |campo organización del reporte detalles de facturas y margen| image:: resources/field-organization-of-the-report-details-of-invoices-and-margin.png
-.. |campo grupo de socio del negocio del reporte detalles de facturas y margen| image:: resources/business-partner-group-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo socio del negocio del reporte detalles de facturas y margen| image:: resources/business-partner-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo transacción de ventas del reporte detalles de facturas y margen| image:: resources/sales-transaction-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo tipo de documento destino del reporte detalles de facturas y margen| image:: resources/field-type-of-document-destination-of-the-report-details-of-invoices-and-margin.png
-.. |campo categoría del producto del reporte detalles de facturas y margen| image:: resources/product-category-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo grupo de producto del reporte detalles de facturas y margen| image:: resources/product-group-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo clase de producto del reporte detalles de facturas y margen| image:: resources/product-class-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo clasificación de producto del reporte detalles de facturas y margen| image:: resources/product-classification-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo producto del reporte detalles de facturas y margen| image:: resources/product-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo fecha de facturación del reporte detalles de facturas y margen| image:: resources/invoice-date-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo fecha contable del reporte detalles de facturas y margen| image:: resources/field-accounting-date-of-the-report-details-of-invoices-and-margin.png
-.. |campo estado del documento del reporte detalles de facturas y margen| image:: resources/status-field-of-the-report-document-details-of-invoices-and-margin.png
-.. |campo factura del reporte detalles de facturas y margen| image:: resources/invoice-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo agente comercial del reporte detalles de facturas y margen| image:: resources/commercial-agent-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo fecha de garantía del reporte detalles de facturas y margen| image:: resources/field-warranty-date-of-the-report-details-of-invoices-and-margin.png
-.. |campo grupo de ventas del reporte detalles de facturas y margen| image:: resources/sales-group-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo proyecto del reporte detalles de facturas y margen| image:: resources/project-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo tipo de cuenta del reporte detalles de facturas y margen| image:: resources/field-type-of-account-of-the-report-details-of-invoices-and-margin.png
-.. |campo campaña del reporte detalles de facturas y margen| image:: resources/campaign-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo segmento del reporte detalles de facturas y margen| image:: resources/segment-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo actividad del reporte detalles de facturas y margen| image:: resources/activity-field-of-the-report-details-of-invoices-and-margin.png
-.. |campo tipo de industria del reporte detalles de facturas y margen| image:: resources/field-type-of-industry-of-the-report-details-of-invoices-and-margin.png
-.. |campo región de ventas del reporte detalles de facturas y margen| image:: resources/field-sales-region-of-the-report-details-of-invoices-and-margin.png
-.. |opción ok del reporte detalles de facturas y margen| image:: resources/option-ok-of-the-report-details-of-invoices-and-margin.png
-.. |reporte detalles de facturas y margen| image:: resources/report-details-of-invoices-and-margin.png
-.. |campo tipo de reporte del reporte detalles de facturas y margen| image:: resources/report-type-field-of-the-report-details-of-invoices-and-margin.png
+.. |ventana del reporte detalles de facturas y margen| image:: resources/report-window-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo organización del reporte detalles de facturas y margen| image:: resources/field-organization-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo grupo de socio del negocio del reporte detalles de facturas y margen| image:: resources/business-partner-group-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo socio del negocio del reporte detalles de facturas y margen| image:: resources/business-partner-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo transacción de ventas del reporte detalles de facturas y margen| image:: resources/sales-transaction-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo tipo de documento destino del reporte detalles de facturas y margen| image:: resources/field-type-of-document-destination-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo categoría del producto del reporte detalles de facturas y margen| image:: resources/product-category-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo grupo de producto del reporte detalles de facturas y margen| image:: resources/product-group-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo clase de producto del reporte detalles de facturas y margen| image:: resources/product-class-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo clasificación de producto del reporte detalles de facturas y margen| image:: resources/product-classification-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo producto del reporte detalles de facturas y margen| image:: resources/product-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo fecha de facturación del reporte detalles de facturas y margen| image:: resources/invoice-date-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo fecha contable del reporte detalles de facturas y margen| image:: resources/field-accounting-date-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo estado del documento del reporte detalles de facturas y margen| image:: resources/status-field-of-the-report-document-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo factura del reporte detalles de facturas y margen| image:: resources/invoice-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo agente comercial del reporte detalles de facturas y margen| image:: resources/commercial-agent-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo fecha de garantía del reporte detalles de facturas y margen| image:: resources/field-warranty-date-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo grupo de ventas del reporte detalles de facturas y margen| image:: resources/sales-group-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo proyecto del reporte detalles de facturas y margen| image:: resources/project-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo tipo de cuenta del reporte detalles de facturas y margen| image:: resources/field-type-of-account-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo campaña del reporte detalles de facturas y margen| image:: resources/campaign-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo segmento del reporte detalles de facturas y margen| image:: resources/segment-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo actividad del reporte detalles de facturas y margen| image:: resources/activity-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo tipo de industria del reporte detalles de facturas y margen| image:: resources/field-type-of-industry-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo región de ventas del reporte detalles de facturas y margen| image:: resources/field-sales-region-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |opción ok del reporte detalles de facturas y margen| image:: resources/option-ok-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
+.. |reporte detalles de facturas y margen| image:: resources/report-details-of-invoices-and-margin-according-to-purchases.png
+.. |campo tipo de reporte del reporte detalles de facturas y margen| image:: resources/report-type-field-of-the-report-details-of-invoices-and-margin-according-to-purchases.png
 
 
 .. _documento/detalles-factura-y-margen:

@@ -289,7 +289,7 @@ Seleccione el icono "**Encontrar Registro**" ubicado en la barra de herramientas
 
         Seleccione en la tercera fila la opción "**Fecha de Registro**" y seleccione en la columna "**Valor Consulta**" la fecha en la que se realizo la retención, para este ejemplo la fecha es "**26/05/2021**".
 
-            |selección fecha de registro| 
+            |selección fecha contable| 
 
             Imagen 35. Selección Fecha de Registro
 
