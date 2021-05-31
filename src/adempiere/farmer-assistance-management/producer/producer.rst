@@ -36,6 +36,7 @@
 .. |Campo Comentarios| image:: resources/comments-field.png
 .. |Checklist Activo| image:: resources/active-checklist.png
 .. |Campo Email| image:: resources/email-field.png
+.. |campo contraseña| image:: resources/password-field.png
 .. |Campo Saludo| image:: resources/field-greeting.png
 .. |Campo Dirección del Socio del Negocio| image:: resources/business-partner-address-field.png
 .. |Campo Título| image:: resources/title-field.png
@@ -338,65 +339,71 @@ Seleccione la pestaña "**Contacto**" que se encuentra ubicada del lado izquierd
 
         Imagen 37. Campo Email
 
+    Introduzca en el campo "**Contraseña**", la contraseña de acceso del usuario.
+
+        |campo contraseña|
+
+        Imagen 38. Campo Contraseña
+
     Seleccione en el campo "**Saludo**", la forma de saludar a la persona de contacto con el productor en los documentos a ser enviados.
 
         |Campo Saludo|
 
-        Imagen 38. Campo Saludo
+        Imagen 39. Campo Saludo
 
     Seleccione en el campo "**Dirección del Socio del Negocio**, la dirección de ubicación de la persona de contacto con el productor.
 
         |Campo Dirección del Socio del Negocio|
 
-        Imagen 39. Campo Dirección del Socio del Negocio
+        Imagen 40. Campo Dirección del Socio del Negocio
 
     Introduzca en el campo "**Título**", el nombre del productor.
 
         |Campo Título|
 
-        Imagen 40. Campo Título
+        Imagen 41. Campo Título
 
     Seleccione en el campo "**Cumpleaños**", la fecha de nacimiento de la persona de contacto con el productor.
 
         |Campo Cumpleaños|
 
-        Imagen 41. Campo Cumpleaños
+        Imagen 42. Campo Cumpleaños
 
     Introduzca en el campo "**Teléfono**", el teléfono para localizar a la persona de contacto con el productor para las transacciones entre las empresas.
 
         |Campo Teléfono de Contacto|
 
-        Imagen 42. Campo Teléfono de Contacto
+        Imagen 43. Campo Teléfono de Contacto
 
     Introduzca en el campo "**Teléfono Móvil**", el teléfono móvil para localizar a la persona de contacto con el productor.
 
         |Campo Teléfono Móvil Contacto|
 
-        Imagen 43. Campo Teléfono Móvil
+        Imagen 44. Campo Teléfono Móvil
 
     Introduzca en el campo "**Fax**", el fax de contacto del productor.
 
         |Campo Fax Contacto|
 
-        Imagen 44. Campo Fax
+        Imagen 45. Campo Fax
 
     Seleccione en el campo "**Tipo de Notificación**", la forma de enviar notificaciones a la persona de contacto con el productor.
 
         |Campo Tipo de Notificación|
 
-        Imagen 45. Campo Tipo de Notificación
+        Imagen 46. Campo Tipo de Notificación
 
     Seleccione en el campo "**Posición**", la posición de trabajo de la persona de contacto con el productor.
 
         |Campo Posición|
 
-        Imagen 46. Campo Posición
+        Imagen 47. Campo Posición
 
     Podrá apreciar el checklist "**Acceso Total Socio del Negocio**", que al estar tildado indica que la persona de contacto con el productor posee acceso total a su rol.
 
         |Campo Acceso Total Socio del Negocio|
 
-        Imagen 47. Campo Acceso Total Socio del Negocio
+        Imagen 48. Campo Acceso Total Socio del Negocio
 
 .. warning::
 
@@ -410,10 +417,10 @@ Al seleccionar el productor en el registro de una finca, se carga de manera auto
 
     |pestaña finca de la ventana productor|
 
-    Imagen 48. Pestaña Finca de la Ventana Productor
+    Imagen 49. Pestaña Finca de la Ventana Productor
 
 Si el registro de la finca contiene información en la pestaña "**Lote de Finca**", esta se carga de manera automática a la pestaña "**Lote**" de la ventana "**Productor**".
 
     |pestaña lote de finca de la ventana productor|
 
-    Imagen 49. Pestaña Lote de Finca de la Ventana Productor
+    Imagen 50. Pestaña Lote de Finca de la Ventana Productor

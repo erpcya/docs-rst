@@ -12,7 +12,7 @@
 .. |campo lindero este de la ventana finca| image:: resources/east-border-field-of-the-farm-window.png
 .. |campo lindero oeste de la ventana finca| image:: resources/field-west-boundary-of-the-farm-window.png
 .. |campo área de la ventana finca| image:: resources/field-window-area-farm.png
-.. |checklist control de la división agrícola de la ventana finca| image:: resources/checklist-control-of-the-agricultural-division-of-the-farm-window.png
+.. |checklist Usa Lote de Finca de la ventana finca| image:: resources/checklist-control-of-the-agricultural-division-of-the-farm-window.png
 .. |checklist predeterminado de la ventana finca| image:: resources/farm-window-default-checklist.png
 .. |checklist valido de la ventana finca| image:: resources/valid-checklist-of-the-farm-window.png
 .. |icono guardar cambios de la ventana finca| image:: resources/icon-save-changes-of-the-farm-window.png
@@ -116,15 +116,15 @@ Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de
 
             El valor de este campo debe ser diferente de cero (0), corresponde al área de la finca que se encuentra registrando y es utilizado como requerimiento de ADempiere al momento de reflejar la finca a seleccionar en los documentos de "**Cultivo**" y "**Hoja Técnica**".
 
-    Tilde el checklist "**Control de la División Agrícola**", para indicar que el registro de la finca contiene lotes o sub-divisiones.
+    Tilde el checklist "**Usa Lote de Finca**", para indicar que el registro de la finca contiene lotes o sub-divisiones.
 
-        |checklist control de la división agrícola de la ventana finca|
+        |checklist Usa Lote de Finca de la ventana finca|
 
-        Imagen 15. Checklist Control de la División Agrícola de la Ventana Finca
+        Imagen 15. Checklist Usa Lote de Finca de la Ventana Finca
 
         .. note:: 
         
-            Al tildar el checklist "**Control de la División Agrícola**", se habilita la pestaña "**Lote de Finca**".
+            Al tildar el checklist "**Usa Lote de Finca**", se habilita la pestaña "**Lote de Finca**".
 
     Tilde el checklist "**Predeterminado**", para indicar el registro como predeterminado.
 
