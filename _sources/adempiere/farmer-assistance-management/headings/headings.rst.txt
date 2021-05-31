@@ -43,6 +43,7 @@
 .. |campo nombre de la pestaña cálculo de peso| image:: resources/field-name-of-the-weight-calculation-tab.png
 .. |campo nombre de clase de la pestaña cálculo de peso| image:: resources/class-name-field-of-the-weight-calculation-tab.png
 .. |campo descripción de la pestaña cálculo de peso| image:: resources/field-description-of-the-weight-calculation-tab.png
+.. |campo tipo de uso de la pestaña cálculo de peso| image:: resources/use-type-field-of-the-weight-calculation-tab.png
 .. |Icono Guardar Cambios Pestaña Cálculo de Peso| image:: resources/icon-save-changes-weight-calculation-tab.png
 .. |pestaña etapa del cultivo| image:: resources/crop-stage-tab.png
 .. |campo código de la pestaña etapa del cultivo| image:: resources/field-code-of-the-crop-stage-tab.png
@@ -335,11 +336,17 @@ Seleccione la pestaña "**Cálculo de Peso**" y proceda al llenado de los campos
 
         Imagen 44. Campo Descripción
 
+    Seleccione en el campo "**Tipo de Uso**", el tipo de uso para el cálculo de peso correspondiente al registro que se encuentra realizando.
+
+        |campo tipo de uso de la pestaña cálculo de peso|
+
+        Imagen 45. Campo Tipo de Uso
+
 Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere.
 
     |Icono Guardar Cambios Pestaña Cálculo de Peso|
 
-    Imagen 45. Icono Guardar Cambios
+    Imagen 46. Icono Guardar Cambios
 
 **Etapa del Cultivo**
 ---------------------
@@ -348,40 +355,40 @@ Seleccione la pestaña "**Etapa del Cultivo**" y proceda al llenado de los campo
 
     |pestaña etapa del cultivo|
 
-    Imagen 46. Pestaña Etapa del Cultivo
+    Imagen 47. Pestaña Etapa del Cultivo
 
     Seleccione en el campo "**Código**", el código correspondiente al registro que se encuentra realizando.
 
         |campo código de la pestaña etapa del cultivo|
 
-        Imagen 47. Campo Código
+        Imagen 48. Campo Código
 
     Seleccione en el campo "**Secuencia**", la secuencia correspondiente al registro que se encuentra realizando.
 
         |campo secuencia de la pestaña etapa del cultivo|
 
-        Imagen 48. Campo Secuencia
+        Imagen 49. Campo Secuencia
 
     Introduzca en el campo "**Nombre**", el nombre correspondiente al registro que se encuentra realizando.
 
         |campo nombre de la pestaña etapa del cultivo|
 
-        Imagen 49. Campo Nombre
+        Imagen 50. Campo Nombre
 
     Introduzca en el campo "**Día Desde**", el día de inicio del cultivo del rubro.
 
         |campo dia desde de la pestaña etapa del cultivo|
 
-        Imagen 50. Campo Día Desde
+        Imagen 51. Campo Día Desde
 
     Introduzca en el campo "**Día Hasta**", la día final del cultivo del rubro.
 
         |campo dia hasta de la pestaña etapa del cultivo|
 
-        Imagen 51. Campo Día Hasta
+        Imagen 52. Campo Día Hasta
 
 Seleccione el icono "**Guardar Cambios**" en la barra de herramientas de ADempiere.
 
     |Icono Guardar Cambios Pestaña Etapa del Cultivo|
 
-    Imagen 52. Icono Guardar Cambios
+    Imagen 53. Icono Guardar Cambios
