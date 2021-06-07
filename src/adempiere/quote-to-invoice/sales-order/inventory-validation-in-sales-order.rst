@@ -47,7 +47,7 @@ Cuando el check se encuentra tildado, ADempiere sólo permitirá completar el re
 
         Para crear una orden de venta desde la ventana "**Órdenes de Venta**", puede consultar el material :ref:`documento/orden-de-venta`.
 
-De igual manera, al estar tildado el check sólo será agregado el producto a la línea de la orden de venta desde el formulario "**Punto de Venta**", si el producto seleccionado tiene disponibilidad en el almacén con el que se este trabajando.
+De igual manera, al estar tildado el check sólo será agregado el producto a la línea de la orden de venta desde el formulario "**Punto de Venta**", si el producto seleccionado tiene disponibilidad en el almacén con el que se este trabajando. De no tener existencia, será mostrado el siguiente mensaje:
 
     |registro desde formulario punto de venta|
 
