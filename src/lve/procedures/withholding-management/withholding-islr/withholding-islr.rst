@@ -359,7 +359,7 @@ Seleccione en la barra de herramientas de ADempiere el icono "**Imprimir**", par
     
     Imagen 46. Opción Imprimir
 
-3. Podrá apreciar el documento de retención de la siguiente manera.
+Podrá apreciar el documento de retención de la siguiente manera.
 
     |Documento de Retención|
     

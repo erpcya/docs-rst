@@ -15,3 +15,4 @@ Esta documentación está destinada a definir el manejo de retenciones a socios 
     withholding-declaration-cxp/index
     withholding-cxc/index
     re-process-withholdings
+    sending-withholdings
