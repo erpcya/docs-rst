@@ -77,4 +77,4 @@ Podrá visualizar una ventana de confirmación del proceso, donde debe seleccion
 
 .. note::
 
-    Seguidamente se procede a generar el constancia de informacion fiscal.
+    Seguidamente se procede a generar el comprobante de informacion fiscal.
