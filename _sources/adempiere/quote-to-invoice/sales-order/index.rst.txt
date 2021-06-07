@@ -1,4 +1,5 @@
 .. _ERPyA: http://erpya.com
+
 .. _src/adempiere/quote-to-invoice/sales-order:
 
 ==================
@@ -13,3 +14,4 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
     :maxdepth: 2
 
     sales-order
+    inventory-validation-in-sales-order
