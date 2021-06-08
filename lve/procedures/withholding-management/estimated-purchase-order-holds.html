@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Gestión de Retenciones &mdash; ERPYA 1.0 Documentation</title>
+  <title>Retenciones Estimadas de Orden de Compra &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -41,8 +41,8 @@
     
     <link rel="index" title="Index" href="../../../genindex.html" />
     <link rel="search" title="Search" href="../../../search.html" />
-    <link rel="next" title="Retención de IVA de Cuentas por Pagar en ADempiere" href="withholding-iva/index.html" />
-    <link rel="prev" title="Relación de Ventas en Consignación" href="../consignment-management/consignment-sales/consignment-sales-ratio.html" /> 
+    <link rel="next" title="Reportes de ADempiere" href="../../report/index.html" />
+    <link rel="prev" title="Enviar Retenciones" href="sending-withholdings.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -135,7 +135,7 @@
 <li class="toctree-l2"><a class="reference internal" href="../treasury-management/index.html"><strong>Gestión de Tesorería</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../import/index.html"><strong>Gestión de Importación</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Gestión de Retenciones</strong></a><ul>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Gestión de Retenciones</strong></a><ul class="current">
 <li class="toctree-l3"><a class="reference internal" href="withholding-iva/index.html"><strong>Retención de IVA de Cuentas por Pagar en ADempiere</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="withholding-islr/index.html"><strong>Retención de ISLR de Cuentas por Pagar en ADempiere</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="withholding-municipality/index.html"><strong>Retención Municipal de Cuentas por Pagar en ADempiere</strong></a></li>
@@ -143,7 +143,7 @@
 <li class="toctree-l3"><a class="reference internal" href="withholding-cxc/index.html"><strong>Retenciones de Cuentas por Cobrar en ADempiere</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="re-process-withholdings.html"><strong>Re-procesar Retenciones</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="sending-withholdings.html"><strong>Enviar Retenciones</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="estimated-purchase-order-holds.html"><strong>Retenciones Estimadas de Orden de Compra</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Retenciones Estimadas de Orden de Compra</strong></a></li>
 </ul>
 </li>
 </ul>
@@ -214,13 +214,15 @@
         
           <li><a href="../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
         
-      <li><strong>Gestión de Retenciones</strong></li>
+          <li><a href="index.html"><strong>Gestión de Retenciones</strong></a> &raquo;</li>
+        
+      <li><strong>Retenciones Estimadas de Orden de Compra</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../../../_sources/lve/procedures/withholding-management/index.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../../_sources/lve/procedures/withholding-management/estimated-purchase-order-holds.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -233,50 +235,55 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="gestion-de-retenciones">
-<span id="src-adempiere-withholding-management"></span><h1><strong>Gestión de Retenciones</strong><a class="headerlink" href="#gestion-de-retenciones" title="Permalink to this headline">¶</a></h1>
-<p>Esta documentación está destinada a definir el manejo de retenciones a socios del negocio en ADempiere para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.</p>
-<div class="toctree-wrapper compound">
-<ul>
-<li class="toctree-l1"><a class="reference internal" href="withholding-iva/index.html"><strong>Retención de IVA de Cuentas por Pagar en ADempiere</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="withholding-iva/withholding-iva.html"><strong>Configuración Esencial de la Retención de IVA</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-iva/withholding-iva.html#configuracion-del-socio-de-negocio"><strong>Configuración del Socio de Negocio</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-iva/withholding-iva.html#ejecucion-de-la-estimacion-de-retenciones"><strong>Ejecución de la Estimación de Retenciones</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-iva/withholding-iva.html#generar-retencion-de-iva-fiscal"><strong>Generar Retención de IVA Fiscal</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-iva/withholding-iva.html#imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio"><strong>Imprimir Documento de la Retención Aplicada al Socio del Negocio</strong></a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="withholding-islr/index.html"><strong>Retención de ISLR de Cuentas por Pagar en ADempiere</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="withholding-islr/withholding-islr.html"><strong>Configuración Esencial de la Retención de ISLR</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-islr/withholding-islr.html#asociar-retencion-de-islr"><strong>Asociar Retención de ISLR</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-islr/withholding-islr.html#ejecucion-de-la-estimacion-de-retenciones"><strong>Ejecución de la Estimación de Retenciones</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-islr/withholding-islr.html#generar-retencion-de-islr-fiscal"><strong>Generar Retención de ISLR Fiscal</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-islr/withholding-islr.html#imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio"><strong>Imprimir Documento de la Retención Aplicada al Socio del Negocio</strong></a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="withholding-municipality/index.html"><strong>Retención Municipal de Cuentas por Pagar en ADempiere</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="withholding-municipality/withholding-municipality.html"><strong>Configuración Esencial de la Retención Municipal</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-municipality/withholding-municipality.html#ejecucion-de-la-estimacion-de-retenciones"><strong>Ejecución de la Estimación de Retenciones</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-municipality/withholding-municipality.html#generar-retencion-municipal-fiscal"><strong>Generar Retención Municipal Fiscal</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-municipality/withholding-municipality.html#imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio"><strong>Imprimir Documento de la Retención Aplicada al Socio del Negocio</strong></a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="withholding-declaration-cxp/index.html"><strong>Declaración de Retenciones de Cuentas por Pagar en ADempiere</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="withholding-declaration-cxp/withholding-declaration-cxp.html"><strong>Generar Declaraciones de Retenciones</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-declaration-cxp/withholding-declaration-cxp.html#consultar-declaracion-de-retenciones"><strong>Consultar Declaración de Retenciones</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-declaration-cxp/withholding-declaration-cxp.html#detalle-de-declaraciones-de-retenciones"><strong>Detalle de Declaraciones de Retenciones</strong></a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="withholding-cxc/index.html"><strong>Retenciones de Cuentas por Cobrar en ADempiere</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="withholding-cxc/withholding-cxc.html"><strong>Ejecución de la Estimación de Retenciones</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-cxc/withholding-cxc.html#generar-retencion"><strong>Generar Retención</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="withholding-cxc/withholding-cxc.html#consultar-el-documento-por-cobrar-generado"><strong>Consultar el Documento por Cobrar Generado</strong></a></li>
-</ul>
-</li>
-<li class="toctree-l1"><a class="reference internal" href="re-process-withholdings.html"><strong>Re-procesar Retenciones</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="sending-withholdings.html"><strong>Enviar Retenciones</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="estimated-purchase-order-holds.html"><strong>Retenciones Estimadas de Orden de Compra</strong></a></li>
-</ul>
+  <div class="section" id="retenciones-estimadas-de-orden-de-compra">
+<span id="documento-retenciones-estimadas-de-orden-de-compra"></span><h1><strong>Retenciones Estimadas de Orden de Compra</strong><a class="headerlink" href="#retenciones-estimadas-de-orden-de-compra" title="Permalink to this headline">¶</a></h1>
+<p>Realice el procedimiento regular para registrar una orden de compra en ADempiere.</p>
+<blockquote>
+<div><p><img alt="registro de orden de compra" src="../../../_images/purchase-order-record.png" /></p>
+<p>Imagen 1. Registro de Orden de Compra</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si desconoce el procedimiento regular para generar en ADempiere un documento de orden de compra, puede consultar el material <a class="reference internal" href="../../../adempiere/requisition-to-invoice/purchase-order/index.html#src-adempiere-requisition-to-invoice-purchase-order"><span class="std std-ref">Órdenes de Compra</span></a>.</p>
+</div>
+</div></blockquote>
+<p>Luego de completar el registro de la orden de compra, seleccione el icono “<strong>Proceso</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono proceso de la orden de compra" src="../../../_images/purchase-order-process-icon.png" /></p>
+<p>Imagen 2. Icono Proceso</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Re-procesar Retención</strong>”, en el menú desplegado por el icono “<strong>Proceso</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción reprocesar retención de la orden de compra" src="../../../_images/option-reprocess-purchase-order-retention.png" /></p>
+<p>Imagen 3. Opción Re-procesar Retención</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Re-procesar Retención</strong>”, donde debe seleccionar la opción “<strong>OK</strong>” para ejecutar el proceso.</p>
+<blockquote>
+<div><p><img alt="ventana reprocesar retención de la orden de compra" src="../../../_images/reprocess-purchase-order-hold-window.png" /></p>
+<p>Imagen 4. Ventana Re-procesar Retención</p>
+</div></blockquote>
+<p>En la barra de herramientas seleccione el icono “<strong>Visualiza Detalle</strong>” para apreciar donde es usado el documento, en este caso la orden de compra.</p>
+<blockquote>
+<div><p><img alt="icono visualiza detalle de la orden de compra" src="../../../_images/icon-displays-purchase-order-detail.png" /></p>
+<p>Imagen 5. Icono Visualiza Detalle</p>
+</div></blockquote>
+<p>Podrá apreciar el menú desplegado por el icono “<strong>Visualiza Detalle</strong>”, el mismo muestra los documentos donde es utilizada la orden de compra.</p>
+<blockquote>
+<div><p><img alt="menú del icono visualiza detalle de la orden de compra" src="../../../_images/icon-menu-displays-purchase-order-detail.png" /></p>
+<p>Imagen 6. Menú del Icono Visualiza Detalle</p>
+<p>La opción “<strong>Log de Retención</strong>” muestra el log de la retención no aplicada a la orden de compra número “<strong>OCN-4</strong>” seleccionada para el ejemplo.</p>
+<blockquote>
+<div><p><img alt="opción log de retención de la orden de compra" src="../../../_images/purchase-order-retention-log-option.png" /></p>
+<p>Imagen 7. Opción Log de Retención</p>
+</div></blockquote>
+<p>La opción “<strong>Retención Generada</strong>” muestra el documento de estimación de retención aplicado a la orden de compra número “<strong>OCN-4</strong>” seleccionada para el ejemplo.</p>
+<blockquote>
+<div><p><img alt="opción retención generada de la orden de compra" src="../../../_images/hold-option-generated-from-purchase-order.png" /></p>
+<p>Imagen 8. Opción Retención Generada</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>ADempiere le genera al usuario por medio del icono “<strong>Visualiza Detalle</strong>”, las alertas donde indica cuales fueron las retenciones aplicadas (<strong>Retención Generada</strong>) y cuales retenciones no fueron aplicadas (<strong>Log</strong>) según la configuración que tiene un socio del negocio determinado.</p>
 </div>
 </div>
 
@@ -286,8 +293,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="withholding-iva/index.html" class="btn btn-neutral float-right" title="Retención de IVA de Cuentas por Pagar en ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="../consignment-management/consignment-sales/consignment-sales-ratio.html" class="btn btn-neutral float-left" title="Relación de Ventas en Consignación" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../../report/index.html" class="btn btn-neutral float-right" title="Reportes de ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="sending-withholdings.html" class="btn btn-neutral float-left" title="Enviar Retenciones" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
