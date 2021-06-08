@@ -9,6 +9,7 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 .. toctree::
    :maxdepth: 2
 
+   weight-calculation-type
    culture
    type-of-observation
    technical-sheet
