@@ -214,7 +214,7 @@ En el campo "**Organización**", la organización relacionada a la retención qu
 
     Imagen 22. Campo Organización de la Retención
 
-3. Seleccione en el campo "**F. Documento**", el rango de fecha en la cual fue generado el documento por pagar relacionado a la retención que requiere generar.
+Seleccione en el campo "**F. Documento**", el rango de fecha en la cual fue generado el documento por pagar relacionado a la retención que requiere generar.
 
     |filtrar por fecha del documento|
 
