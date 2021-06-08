@@ -220,8 +220,8 @@ Seleccione la opción "**OK**", para procesar la retención y generar en la vent
 
     En este punto, si fueron generadas las retenciones, el cual rebaja parte de la cuenta por cobrar. Para mayor información puede consultar el reporte "**Saldos Abiertos**".
 
-**Consultar e Imprimir el Documento por Cobrar Generado**
----------------------------------------------------------
+**Consultar el Documento por Cobrar Generado**
+----------------------------------------------
 
 El documento generado desde la ventana del proceso "**Generar Retenciones**", se puede visualizar de la siguiente manera al buscarlo en la ventana "**Documento por Cobrar**", con el número de documento ingresado en el campo "**No. del Documento**" del proceso. Para ejemplificar el registro es utilizado el número de documento "**123456789**".
 
