@@ -11,4 +11,4 @@
 **Novedades:**
 --------------
 
-- Se agrega la documentación de la :ref:`documento/validación-de-inventario-en-orden-de-venta`, que le explica a los usuarios la finalidad de dicha actualización y su funcionalidad en ADempiere. La misma fue liberada la versión de ADempiere :ref:`documento/versión-22-4`.
+- Se agrega la documentación de la :ref:`documento/validación-de-inventario-en-orden-de-venta`, que le explica a los usuarios la finalidad de dicha actualización y su funcionalidad en ADempiere. La misma fue liberada en la versión de ADempiere :ref:`documento/versión-22-4`.
