@@ -36,16 +36,14 @@
 
 - CST-STD:
 
-  - Fixed error with login validator for request
+  - Fixed error with axis column for String Type
 
 **Requerimientos**
 ------------------
 
-Solo binario de la aplicación
+Aplicar el XML de CST-STD: 07860_Fixed_error_with_string_value_for_axis_browser.xml
 
 **Correcciones**
 ----------------
 
-  - Se corrige problemas con carga de validador de modelo para solicitudes
-  - Se agrega manejador de colas genérico
-  - Se agrega cola de notificación para **Correo** y **Notas**
+  - Error con columnas del tipo cross tab y String en Visor Inteligente
