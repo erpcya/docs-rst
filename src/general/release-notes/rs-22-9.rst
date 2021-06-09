@@ -1,0 +1,51 @@
+.. _documento/versión-22-9:
+
+**rs-22.9**
+===========
+
+**Fecha de Liberación:** 2021-06-09
+
+**Soporte a versiones:**
+------------------------
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-23.0
+- Consigned-Material: 1.2.3
+- Exchange-Operation-System: 1.1.5
+- Cash-Management: 1.0.4
+- Currency-Convert-Documents: 1.0.5
+- Farmer-Assistance-Program: 1.1.6
+- RethinkDB-Replicator-Client: 1.1.2
+- Third-Party-Access: 1.0.2
+- FiscalPrinter: 1.3.2
+- RawMaterialReceipt: 1.0.5
+- Sales-Force-Management: 1.0.2
+- Delivery-Management-Service: 1.0.1
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.9
+- Additional-Reports: 1.0.2
+- Migration-Tools: 1.0.1
+- LVE: 1.3.4
+- Performance-Analysis: 1.0.2
+- Queue-Manager: 1.0.4
+- Notification-Queue: 1.0.4
+- Point-Of-Sales-Improvements: 1.0.2
+
+**Detalle Técnico:**
+--------------------
+
+- CST-STD:
+
+  - Fixed error with login validator for request
+
+**Requerimientos**
+------------------
+
+Solo binario de la aplicación
+
+**Correcciones**
+----------------
+
+  - Se corrige problemas con carga de validador de modelo para solicitudes
+  - Se agrega manejador de colas genérico
+  - Se agrega cola de notificación para **Correo** y **Notas**
