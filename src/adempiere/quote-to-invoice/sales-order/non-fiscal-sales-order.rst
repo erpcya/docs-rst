@@ -21,7 +21,7 @@
 .. |campo moneda de la orden de venta no fiscal| image:: resources/non-fiscal-sales-order-currency-field.png
 .. |campo tipo de conversión de la orden de venta no fiscal| image:: resources/non-tax-sales-order-conversion-type-field.png
 .. |icono guardar cambios de la orden de venta no fiscal| image:: resources/icon-save-changes-of-the-non-fiscal-sales-order.png
-.. |pestaña línea de la orden de la orden de venta no fiscal| image:: resources/non-tax sales-order-order-line-tab.png
+.. |pestaña línea de la orden de la orden de venta no fiscal| image:: resources/non-tax-sales-order-order-line-tab.png
 .. |campo producto de la orden de venta no fiscal| image:: resources/product-field-of-the-non-fiscal-sales-order.png
 .. |campo descripción de la línea de la orden de venta no fiscal| image:: resources/description-field-of-the-non-fiscal-sales-order-line.png
 .. |campo cantidad de la orden de venta no fiscal| image:: resources/non-fiscal-sales-order-quantity-field.png
