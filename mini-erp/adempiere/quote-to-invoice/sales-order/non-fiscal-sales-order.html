@@ -1,0 +1,572 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>4.2.2. Orden de Venta (No Fiscal) &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="4.3. Documento por Cobrar" href="../invoice-customer/index.html" />
+    <link rel="prev" title="4.2.1. Registro de Orden de Venta" href="sales-order.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">4. <strong>Gestión de Ventas</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../price-list/index.html">4.1. <strong>Lista de Precios</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">4.2. <strong>Orden de Venta</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="sales-order.html">4.2.1. <strong>Registro de Orden de Venta</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#">4.2.2. <strong>Orden de Venta (No Fiscal)</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../invoice-customer/index.html">4.3. <strong>Documento por Cobrar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../shipment/index.html">4.4. <strong>Entregas (Cliente)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../credit-note-cxc.html">4.5. <strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../debit-note-cxc.html">4.6. <strong>Nota de Débito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../frequent-processes/index.html">4.7. <strong>Procesos Frecuentes</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><span class="section-number">4. </span><strong>Gestión de Ventas</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">4.2. </span><strong>Orden de Venta</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">4.2.2. </span><strong>Orden de Venta (No Fiscal)</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/quote-to-invoice/sales-order/non-fiscal-sales-order.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="orden-de-venta-no-fiscal">
+<span id="documento-orden-de-venta-no-fiscal"></span><h1><span class="section-number">4.2.2. </span><strong>Orden de Venta (No Fiscal)</strong><a class="headerlink" href="#orden-de-venta-no-fiscal" title="Permalink to this headline">¶</a></h1>
+<p>Las órdenes de venta no fiscales son conocidas como pedidos de clientes, las mismas no requieren que se genere una factura fiscal</p>
+<p>La siguiente documentación está orientada al registro de aquellas ventas en las cuales no requieren una factura fiscal. En este caso, simplemente se debe realizar el registro de una “<strong>Orden de Venta No Fiscal</strong>”, estas ordenes de ventas son conocidas como pedidos de clientes, a los cuales no se les genera una factura fiscal si no una nota de entrega.</p>
+<p>Para generar en ADempiere una orden de venta no fiscal, se debe contar de manera obligatoria con lo siguiente:</p>
+<ul>
+<li><p>Debe existir el registro del socio del negocio cliente, con sus respectivos datos y dirección de localización. Es decir, se debe tener toda la información solicitada en las pestañas “<strong>Socio del Negocio</strong>”, “<strong>Cliente</strong>” y “<strong>Localización</strong>” de la ventana “<strong>Socio del Negocio</strong>”.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Puede consultar el material <a class="reference internal" href="../../master/business-partner/customer/customer.html#documento-socio-cliente"><span class="std std-ref">Registro de Cliente</span></a>, para conocer el procedimiento de registro del socio.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>El registro del producto de la venta, debe tener activo el check “<strong>Vendido</strong>”. Adicional a ello, debe tener establecida la categoría de impuesto del mismo y estar asociado a lista de precio de ventas (VES, USD, EUR, entre otros). De no estar asociado a una lista de precios, ADempiere no permitirá que el producto sea cargado a la línea de la orden de venta.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Puede consultar el material <a class="reference internal" href="../../master/product/product.html#documento-producto"><span class="std std-ref">Registro de Producto</span></a> y <a class="reference internal" href="../price-list/index.html#src-adempiere-quote-to-invoice-price-list"><span class="std std-ref">Lista de Precios</span></a>, para conocer los respectivos procesos.</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<p>Luego de verificar lo indicado anteriormente, se procede a crear el registro de la orden de venta no fiscal, realizando lo que a continuación se explica.</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Venta</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”, por último seleccione la ventana “<strong>Órdenes de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de adempiere" src="../../../_images/sales-order-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Órdenes de Venta</strong>”, con todos los registros de órdenes de venta que contiene ADempiere.</p>
+<blockquote>
+<div><p><img alt="ventana órdenes de venta" src="../../../_images/sell-order-window.png" /></p>
+<p>Imagen 2. Ventana Órdenes de Venta</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono registro nuevo" src="../../../_images/new-record-icon6.png" /></p>
+<p>Imagen 3. Icono Registro Nuevo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual se encuentra realizando el registro.</p>
+<blockquote>
+<div><p><img alt="campo organización de la orden de venta no fiscal" src="../../../_images/organization-field-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 4. Campo Organización</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción referente al registro de orden de venta que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-description-field.png" /></p>
+<p>Imagen 5. Campo Descripción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de la Orden</strong>”, la fecha de elaboración del documento “<strong>Orden de Venta No Fiscal</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo fecha de la orden de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-order-date-field.png" /></p>
+<p>Imagen 6. Campo Fecha de la Orden</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio cliente al cual se le realizará la venta.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio de la orden de venta no fiscal" src="../../../_images/business-partner-field-of-the-non-tax-sales-order.png" /></p>
+<p>Imagen 7. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione el tipo de documento a generar en el campo “<strong>Tipo de Documento Destino</strong>”, la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento “<strong>Tipo de Documento</strong>” elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento destino de la orden de venta no fiscal" src="../../../_images/destination-document-type-field-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 8. Campo Tipo de Documento Destino</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Prometida</strong>”, la fecha prometida del documento “<strong>Orden de Venta No Fiscal</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo fecha prometida de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-promised-date-field.png" /></p>
+<p>Imagen 9. Campo Fecha Prometida</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Dirección del Socio del Negocio</strong>”, la dirección de localización del socio del negocio.</p>
+<blockquote>
+<div><p><img alt="campo dirección del socio del negocio de la orden de venta no fiscal" src="../../../_images/field-address-of-the-business-partner-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 10. Campo Dirección del Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Dirección Factura</strong>”, la dirección a ser impresa en la factura para la entrega del producto.</p>
+<blockquote>
+<div><p><img alt="campo dirección factura de la orden de venta no fiscal" src="../../../_images/invoice-address-field-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 11. Campo Dirección Factura</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Usuario</strong>”, el usuario de contacto con el socio del negocio cliente al cual se le realizará la venta.</p>
+<blockquote>
+<div><p><img alt="campo usuario de la orden de venta no fiscal" src="../../../_images/user-field-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 12. Campo Usuario</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Contacto Entrega Directa</strong>”, el usuario de contacto con el socio del negocio cliente al cual se le realizará la venta.</p>
+<blockquote>
+<div><p><img alt="campo contacto entrega directa de la orden de venta no fiscal" src="../../../_images/contact-field-direct-delivery-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 13. Campo Contacto Entrega Directa</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Regla de Entrega</strong>”, la regla de entrega para el documento que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo regla de entrega de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-delivery-rule-field.png" /></p>
+<p>Imagen 14. Campo Regla de Entrega</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Prioridad</strong>”, la prioridad del documento que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo prioridad de la orden de venta no fiscal" src="../../../_images/priority-field-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 15. Campo Prioridad</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Almacén</strong>”, el almacén donde se encuentra el producto que se va a vender.</p>
+<blockquote>
+<div><p><img alt="campo almacén de la orden de venta no fiscal" src="../../../_images/warehouse-field-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 16. Campo Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Regla de Facturación</strong>”, la regla de facturación para el documento que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo regla de facturación de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-billing-rule-field.png" /></p>
+<p>Imagen 17. Campo Regla de Facturación</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Término de Pago</strong>”, el término de pago para el documento que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo término de pago de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-payment-term-field.png" /></p>
+<p>Imagen 18. Campo Término de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios que será utilizada para la venta de los productos al socio del negocio cliente.</p>
+<blockquote>
+<div><p><img alt="campo lista de precios de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-price-list-field.png" /></p>
+<p>Imagen 19. Campo Lista de Precios</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La lista de precios que se selecciona, define la moneda con la cual se genera el documento que se encuentra realizando. De igual manera, los productos de la venta deben estar asociados a la lista de precios que sea seleccionada.</p>
+</div>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Moneda</strong>”, la moneda que será utilizada para la venta de los productos al socio del negocio cliente.</p>
+<blockquote>
+<div><p><img alt="campo moneda de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-currency-field.png" /></p>
+<p>Imagen 20. Campo Moneda</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Conversión</strong>”, el tipo de conversión que será utilizado para la venta de los productos al socio del negocio cliente.</p>
+<blockquote>
+<div><p><img alt="campo tipo de conversión de la orden de venta no fiscal" src="../../../_images/non-tax-sales-order-conversion-type-field.png" /></p>
+<p>Imagen 21. Campo Tipo de Conversión</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El tipo de conversión se maneja si se selecciona una lista de precios diferente a la moneda base de la compañía, este tipo de conversión deberá tener cargada la tasa que se maneje ese día para las ventas. Puede consultar el material <a class="reference internal" href="../../open-items/currency-conversion/manual-currency-conversion.html#documento-conversion-monetaria-manual"><span class="std std-ref">Conversión Manual</span></a>, para más información sobre las tasas de cambio.</p>
+</div>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la orden de venta no fiscal" src="../../../_images/icon-save-changes-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 22. Icono Guardar Cambios</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al guardar el registro de la pestaña principal “<strong>Orden</strong>”, se establece de manera automática el número de documento definido en la secuencia del tipo de documento seleccionado.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Línea de la Orden</strong>”, y proceda a llenar los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="pestaña línea de la orden de la orden de venta no fiscal" src="../../../_images/non-tax-sales-order-order-line-tab.png" /></p>
+<p>Imagen 23. Pestaña Línea de la Orden</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto que va a vender al socio del negocio cliente.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El producto se puede agregar al ingresar el código del producto en el campo “<strong>Producto</strong>” o al seleccionar el icono que se encuentra del lado derecho del campo. Dicho icono permite seleccionar uno (1) o más productos.</p>
+</div>
+<p><img alt="campo producto de la orden de venta no fiscal" src="../../../_images/product-field-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 24. Campo Producto</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si es un servicio el que se ofrece, se debe seleccionar el servicio en el campo “<strong>Cargo</strong>”.</p>
+</div>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción sobre el producto seleccionado para la venta.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la línea de la orden de venta no fiscal" src="../../../_images/description-field-of-the-non-fiscal-sales-order-line.png" /></p>
+<p>Imagen 25. Campo Descripción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cantidad</strong>”, la cantidad a vender del producto seleccionado.</p>
+<blockquote>
+<div><p><img alt="campo cantidad de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-quantity-field.png" /></p>
+<p>Imagen 26. Campo Cantidad</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>UM</strong>”, la unidad de medida a vender del producto seleccionado.</p>
+<blockquote>
+<div><p><img alt="campo unidad de medida de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-unit-of-measure-field.png" /></p>
+<p>Imagen 27. Campo UM</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Precio</strong>”, el precio por unidad de medida del producto seleccionado para la venta.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>ADempiere automáticamente te muestra el precio asociado a la lista de precio seleccionada anteriormente, pero es editable.</p>
+</div>
+<p><img alt="campo precio de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-price-field.png" /></p>
+<p>Imagen 28. Campo Precio</p>
+</div></blockquote>
+<p>El campo “<strong>Cantidad Ordenada</strong>”, indica la cantidad de un producto que fue ordenada.</p>
+<blockquote>
+<div><p><img alt="campo cantidad ordenada de la orden de venta no fiscal" src="../../../_images/ordered-quantity-field-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 29. Campo Cantidad Ordenada</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>% Descuento</strong>”, el descuento aplicado a la venta.</p>
+<blockquote>
+<div><p><img alt="campo porcentaje de descuento de la orden de venta no fiscal" src="../../../_images/discount-percentage-field-of-the-non-tax-sales-order.png" /></p>
+<p>Imagen 30. Campo % Descuento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Impuesto</strong>”, el impuesto a ser aplicado al producto seleccionado.</p>
+<blockquote>
+<div><p><img alt="campo impuesto de la orden de venta no fiscal" src="../../../_images/tax-field-of-the-non-tax-sales-order.png" /></p>
+<p>Imagen 31. Campo Impuesto</p>
+</div></blockquote>
+<p>El campo “<strong>Cantidad Reservada</strong>”, indica la cantidad del producto que ha sido reservado para otras órdenes.</p>
+<blockquote>
+<div><p><img alt="campo cantidad reservada de la orden de venta no fiscal" src="../../../_images/reserved-quantity-field-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 32. Campo Cantidad Reservada</p>
+</div></blockquote>
+<p>El campo “<strong>Cantidad Entregada</strong>”, indica la cantidad de un producto que ha sido entregado.</p>
+<blockquote>
+<div><p><img alt="campo cantidad entregada de la orden de venta no fiscal" src="../../../_images/field-quantity-delivered-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 33. Campo Cantidad Entrega</p>
+</div></blockquote>
+<p>El campo “<strong>Cantidad Facturada</strong>”, indica la cantidad de un producto que ha sido facturado.</p>
+<blockquote>
+<div><p><img alt="campo cantidad facturada de la orden de venta no fiscal" src="../../../_images/invoiced-quantity-field-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 34. Campo Cantidad Facturada</p>
+</div></blockquote>
+<p>El campo “<strong>PMVP</strong>”, indica el precio marcado de venta al público.</p>
+<blockquote>
+<div><p><img alt="campo pmvp de la orden de venta no fiscal" src="../../../_images/pmvp-field-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 35. Campo PMVP</p>
+</div></blockquote>
+<p>Podrá apreciar en el campo “<strong>Neto de Línea</strong>”, el monto neto del producto por la cantidad ingresada.</p>
+<blockquote>
+<div><p><img alt="campo neto de línea de la orden de venta no fiscal" src="../../../_images/net-field-of-non-tax-sales-order-line.png" /></p>
+<p>Imagen 36 Campo Neto de Línea</p>
+</div></blockquote>
+<p>El check “<strong>Procesado</strong>”, indica que un documento ha sido procesado.</p>
+<blockquote>
+<div><p><img alt="check procesado de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-processed-check.png" /></p>
+<p>Imagen 37. Check Procesado</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Recuerde guardar el registro de la pestaña “<strong>Línea de la Orden</strong>” con el icono “<strong>Guardar Cambios</strong>” de la barra de herramientas de ADempiere, antes de cambiar a la pestaña principal “<strong>Orden</strong>”.</p>
+</div>
+<p>Para visualizar el calculo total de los impuestos que se le asocien a la orden de venta, puede dirigirse a la pestaña “<strong>Impuestos de la Orden</strong>”, La misma refleja el impuesto que se esta calculando, el total base del impuesto que corresponde a la sumatoria total de las líneas de la factura sin impuesto y el total del impuesto que corresponde a la sumatoria total del impuesto de todas las líneas de la factura.</p>
+<blockquote>
+<div><p><img alt="pestaña impuestos de la orden de venta no fiscal" src="../../../_images/tax-tab-of-the-non-tax-sales-order.png" /></p>
+<p>Imagen 38. Pestaña Impuestos de la Orden</p>
+</div></blockquote>
+<p>Regrese a la pestaña principal “<strong>Orden</strong>” para completar el documento que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="pestaña principal de la orden de venta no fiscal" src="../../../_images/main-tab-of-the-non-fiscal-sales-order.png" /></p>
+<p>Imagen 39. Pestaña Principal Orden</p>
+</div></blockquote>
+<p>El campo “<strong>Total de Líneas</strong>”, indica el total de todas las líneas en la moneda del documento.</p>
+<blockquote>
+<div><p><img alt="campo total de líneas de la orden de venta no fiscal" src="../../../_images/total-field-of-non-fiscal-sales-order-lines.png" /></p>
+<p>Imagen 40. Campo Total de Líneas</p>
+</div></blockquote>
+<p>El campo “<strong>Gran Total</strong>”, indica el total del documento incluyendo impuestos y totales de fletes.</p>
+<blockquote>
+<div><p><img alt="campo gran total de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-grand-total-field.png" /></p>
+<p>Imagen 41. Campo Gran Total</p>
+</div></blockquote>
+<p>El campo “<strong>Estado del Documento</strong>”, indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción “<strong>Procesar Orden</strong>”, desplegada por el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="campo estado del documento de la orden de venta no fiscal" src="../../../_images/status-field-of-the-non-fiscal-sales-order-document.png" /></p>
+<p>Imagen 42. Campo Estado del Documento</p>
+</div></blockquote>
+<p>El campo “<strong>Tipo de Documento</strong>”, indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento de la orden de venta no fiscal" src="../../../_images/non-fiscal-sales-order-document-type-field.png" /></p>
+<p>Imagen 43. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Procesar Orden</strong>”, desplegada por el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="opción procesar orden del icono proceso de la orden de venta no fiscal" src="../../../_images/option-process-icon-order-process-non-fiscal-sales-order.png" /></p>
+<p>Imagen 44. Opción Procesar Orden del Icono Proceso</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el documento “<strong>Orden de Venta No Fiscal</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción completar" src="../../../_images/option-complete2.png" /></p>
+<p>Imagen 45. Acción Completar y Opción OK</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El registro del documento solamente es válido cuando se encuentra en estado “<strong>Completo</strong>”. Si la misma se encuentra en otro estado de documento, no estará disponible para generar un documento por cobrar, entrega u otro.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../invoice-customer/index.html" class="btn btn-neutral float-right" title="4.3. Documento por Cobrar" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="sales-order.html" class="btn btn-neutral float-left" title="4.2.1. Registro de Orden de Venta" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
