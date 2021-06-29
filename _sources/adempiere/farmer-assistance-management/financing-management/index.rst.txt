@@ -11,3 +11,5 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
 
    definition-of-cultivation-cost
    producer-credit
+   generate-purchase-order-from-agricultural-financing
+   generate-advances-from-credit-to-producer

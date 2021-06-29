@@ -1,0 +1,388 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Generar Orden de Compra desde Financiamiento Agrícola &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="Generar Anticipos desde Crédito al Productor" href="generate-advances-from-credit-to-producer.html" />
+    <link rel="prev" title="Crédito del Productor" href="producer-credit.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/bot/index.html"><strong>Soporte en Bot</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html"><strong>Gestión de Asistencia al Agricultor</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../headings/index.html"><strong>Rubro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../producer/index.html"><strong>Productor</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../farm/index.html"><strong>Finca</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../technical-assistance-management/index.html"><strong>Gestión de Asistencia Técnica</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html"><strong>Gestión de Financiamiento</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="definition-of-cultivation-cost.html"><strong>Definición de Costo de Cultivo</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="producer-credit.html"><strong>Crédito del Productor</strong></a></li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>Generar Orden de Compra desde Financiamiento Agrícola</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="generate-advances-from-credit-to-producer.html"><strong>Generar Anticipos desde Crédito al Productor</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../bot/index.html"><strong>Bot</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><strong>Gestión de Asistencia al Agricultor</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión de Financiamiento</strong></a> &raquo;</li>
+        
+      <li><strong>Generar Orden de Compra desde Financiamiento Agrícola</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/farmer-assistance-management/financing-management/generate-purchase-order-from-agricultural-financing.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="generar-orden-de-compra-desde-financiamiento-agricola">
+<span id="documento-generar-orden-de-compra-desde-financiamiento-agricola"></span><h1><strong>Generar Orden de Compra desde Financiamiento Agrícola</strong><a class="headerlink" href="#generar-orden-de-compra-desde-financiamiento-agricola" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Asistencia al Agricultor</strong>”, luego seleccione la carpeta “<strong>Inversión Agrícola y Préstamos</strong>”. Por último seleccione la ventana de búsqueda inteligente “<strong>Generar Orden de Compra (Desde Financiamiento Agrícola)</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de generar orden de compra desde financiamiento agrícola" src="../../../_images/menu-to-generate-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana de búsqueda inteligente (smart browser) “<strong>Generar Orden de Compra (Desde Financiamiento Agrícola)</strong>”, con diferentes campos que permite filtrar la información para generar el documento enm base a lo requerido por el usuario.</p>
+<blockquote>
+<div><p><img alt="ventana de búsqueda inteligente generar orden de compra desde financiamiento agrícola" src="../../../_images/smart-search-window-generate-purchase-order-from-farm-finance.png" /></p>
+<p>Imagen 2. Ventana del Smart Browser</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Acuerdo Financiero</strong>”, el acuerdo financiero para filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo acuerdo financiero del generar orden de compra desde financiamiento agrícola" src="../../../_images/field-financial-agreement-to-generate-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 3. Campo Acuerdo Financiero</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio para filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio del generar orden de compra desde financiamiento agrícola" src="../../../_images/field-partner-of-the-business-of-generating-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 4. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>F. Documento</strong>, el rango de fecha del documento para filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo fecha del documento del generar orden de compra desde financiamiento agrícola" src="../../../_images/date-field-of-the-document-to-generate-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 5. Campo F. Documento</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para realizar la búsqueda de la información en base a lo seleccionado en los campos nombrados anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción comenzar búsqueda del generar orden de compra desde financiamiento agrícola" src="../../../_images/option-start-search-to-generate-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagenn 6. Opción Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Podrá visualizar los resultados de la búsqueda en base a lo seleccionado en los campos indicados anteriormente.</p>
+<blockquote>
+<div><p><img alt="resultados de búsqueda del generar orden de compra desde financiamiento agrícola" src="../../../_images/search-results-for-generating-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 7. Resultados de Búsqueda</p>
+</div></blockquote>
+<p>Seleccione el registro de acuerdo financiero o crédito de productor por el cual requiere generar el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="selección de registro del generar orden de compra desde financiamiento agrícola" src="../../../_images/register-selection-of-the-generate-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 8. Selección de Registro</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual requiere generar el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo organización del generar orden de compra desde financiamiento agrícola" src="../../../_images/field-organization-of-generating-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 9. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Almacén</strong>”, el almacén para el cual requiere generar el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo almacén del generar orden de compra desde financiamiento agrícola" src="../../../_images/warehouse-field-from-generating-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 10. Campo Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>F. Documento</strong>”, la fecha con la cual requiere generar el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo fecha del documento para generar orden de compra desde financiamiento agrícola" src="../../../_images/document-date-field-to-generate-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 11. Campo F. Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento Destino</strong>”, el tipo de documento destino con el cual requiere generar el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento destino del generar orden de compra desde financiamiento agrícola" src="../../../_images/destination-document-type-field-for-generating-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 12. Campo Tipo de Documento Destino</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Acción en el Documento</strong>”, la acción de documento con la cual requiere que se genere el documento “<strong>Orden de Compra</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo acción en el documento del generar orden de compra desde financiamiento agrícola" src="../../../_images/action-field-in-the-document-to-generate-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 13. Campo Acción en el Documento</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción referente al documento “<strong>Orden de Compra</strong>” que requiere generar.</p>
+<blockquote>
+<div><p><img alt="campo descripción del generar orden de compra desde financiamiento agrícola" src="../../../_images/description-field-of-generating-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 14. Campo Descripción</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para ejecutar el proceso y generar el documento “<strong>Orden de Compra</strong>”, según lo requerido por el usuario.</p>
+<blockquote>
+<div><p><img alt="opción ok del generar orden de compra desde financiamiento agrícola" src="../../../_images/ok-option-to-generate-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 15. Opción OK</p>
+</div></blockquote>
+<p>Podrá visualizar el registro del documento “<strong>Orden de Compra</strong>”, generado con el número de documento “<strong>OCN-86</strong>” de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="orden de compra del generar orden de compra desde financiamiento agrícola" src="../../../_images/purchase-order-from-generate-purchase-order-from-agricultural-financing.png" /></p>
+<p>Imagen 16. Orden de Compra</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="generate-advances-from-credit-to-producer.html" class="btn btn-neutral float-right" title="Generar Anticipos desde Crédito al Productor" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="producer-credit.html" class="btn btn-neutral float-left" title="Crédito del Productor" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
