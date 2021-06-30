@@ -12,6 +12,8 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
    weight-calculation-type
    sowing-cycle
    culture
+   cultivation-freight-order
+   generate-freight-order-from-crop
    type-of-observation
    technical-sheet
    generate-sales-order-from-technical-sheet
