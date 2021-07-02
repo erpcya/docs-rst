@@ -15,3 +15,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
     order-detail
     cash-detail-report
     consignment-detail-report
+    storage-detail
