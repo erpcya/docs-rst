@@ -124,3 +124,23 @@ Al seleccionar un tipo de reporte, ADempiere actualiza de manera automática el 
     |reporte detalle de almacenamiento con formato seleccionado|
 
     Imagen 17. Reporte Detalle de Almacenamiento con Formato PDF
+
+En el reporte "**Detalle de Almacenamiento**", se visualizaran las siguientes columnas:
+
+    - Almacén: Donde se encuentra el "**Producto**"
+
+    - Ubicación: Donde se encuentra el "**Producto**" dentro del "**Almacén**"
+
+    - Producto: Muestra el código y nombre del producto
+
+    - Existencia: Esta columna indica la cantidad de producto dentro de "**Ubicación**" del "**Almacén**"
+
+    - Ordenada: Son aquellos productos que tiene orden de compra en "**Estado de Documento Completo**" sin recepción, lo que para ADempiere seria la solicitud de compra del producto, no afecta la columna en "**Existencia**" y "**Disponible**"
+
+    - Reservada: Mercancía prometida, asociada a una venta pero sin una "**Entrega**", lo que para ADempiere significa apartar dicha cantidad de un productor para luego ser entregada aun cliente.
+
+    - Disponible: La cantidad del producto que realmente puede ser vendida, esta varia dependiendo de los siguientes escenarios:
+
+        - Si existe cantidad "**Reservada**" se le resta a la cantidad "**Existencia**", eso quiere decir que la cantidad en "**Existencia**" no siempre será igual a la cantidad "**Disponible**"
+
+        - Si cantidad "**Reservada**" es igual a cero (0), la cantidad en la columna "**Existencia**" y "**Disponible**" será la misma.
