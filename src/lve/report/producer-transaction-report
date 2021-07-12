@@ -1,0 +1,156 @@
+.. |menú de reporte de transacciones de productor| image:: resources/producer-transaction-report-menu.png
+.. |ventana reporte de transacciones de productor| image:: resources/producer-transaction-report-window.png
+.. |campo socio del negocio de la ventana reporte de transacciones de productor| image:: resources/business-partner-field-of-the-producer-transaction-report-window.png
+.. |campo acuerdo financiero de la ventana reporte de transacciones de productor| image:: resources/financial-agreement-field-of-the-producer-transaction-report-window.png
+.. |campo fecha contable de la ventana reporte de transacciones de productor| image:: resources/accounting-date-field-of-the-producer-transaction-report-window.png
+.. |campo fecha del documento de la ventana reporte de transacciones de productor| image:: resources/document-date-field-of-the-producer-transaction-report-window.png
+.. |campo estado del documento de la ventana reporte de transacciones de productor| image:: resources/document-status-field-of-the-producer-transaction-report-window.png
+.. |campo tipo de documento de la ventana reporte de transacciones de productor| image:: resources/document-type-field-of-the-producer-transaction-report-window.png
+.. |campo configuración de funcionalidad de la ventana reporte de transacciones de productor| image:: resources/producer-transaction-report-window-functionality-settings-field.png
+.. |campo producto financiero de la ventana reporte de transacciones de productor| image:: resources/financial-product-field-of-the-producer-transaction-report-window.png
+.. |campo tipo de acuerdo de la ventana reporte de transacciones de productor| image:: resources/agreement-type-field-of-the-producer-transaction-report-window.png
+.. |campo lote de transacción financiera de la ventana reporte de transacciones de productor| image:: resources/financial-transaction-batch-field-of-the-producer-transaction-report-window.png
+.. |campo tipo de transacción financiera de la ventana reporte de transacciones de productor| image:: resources/financial-transaction-type-field-of-the-producer-transaction-report-window.png
+.. |campo registro de peso de la ventana reporte de transacciones de productor| image:: resources/weight-record-field-of-the-producer-transaction-report-window.png
+.. |campo orden de flete de la ventana reporte de transacciones de productor| image:: resources/freight-order-field-of-the-producer-transaction-report-window.png
+.. |campo pago de la ventana reporte de transacciones de productor| image:: resources/payment-field-of-the-producer-transaction-report-window.png
+.. |campo orden de venta de la ventana reporte de transacciones de productor| image:: resources/sales-order-field-of-the-producer-transaction-report-window.png
+.. |campo factura de la ventana reporte de transacciones de productor| image:: resources/invoice-field-of-the-producer-transaction-report-window.png
+.. |campo moneda de la ventana reporte de transacciones de productor| image:: resources/currency-field-of-the-producer-transaction-report-window.png
+.. |opción ok de la ventana reporte de transacciones de productor| image:: resources/ok-option-of-the-producer-transaction-report-window.png
+.. |reporte de transacciones de productor| image:: resources/producer-transaction-report.png
+
+.. _documento/reporte-de-transacciones-de-productor:
+
+**Reporte de Transacciones de Productor**
+=========================================
+
+Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Asistencia al Agricultor**", luego seleccione la carpeta "**Inversión Agrícola y Préstamos**", por último seleccione el reporte "**Reporte de Transacciones de Productor**".
+
+    |menú de reporte de transacciones de productor|
+
+    Imagen 1. Menú de ADempiere
+
+Podrá visualizar la ventana "**Reporte de Transacciones de Productor**", con diferentes campos que le permiten al usuario generar el reporte en base a lo requerido por el mismo.
+
+    |ventana reporte de transacciones de productor|
+
+    Imagen 2. Ventana Reporte de Transacciones de Productor
+
+Seleccione en el campo "**Socio del Negocio**", el socio del negocio por el cual requiere filtrar la información.
+
+    |campo socio del negocio de la ventana reporte de transacciones de productor|
+
+    Imagen 3. Campo Socio del Negocio
+
+Seleccione en el campo "**Acuerdo Financiero**", el acuerdo financiero por el cual requiere filtrar la información.
+
+    |campo acuerdo financiero de la ventana reporte de transacciones de productor|
+
+    Imagen 4. Campo Acuerdo Financiero
+
+Seleccione en el campo "**Fecha Contable**", la fecha contable por la cual requiere filtrar la información.
+
+    |campo fecha contable de la ventana reporte de transacciones de productor|
+
+    Imagen 5. Campo Fecha Contable
+
+Seleccione en el campo "**F. Documento**", la fecha del documento por la cual requiere filtrar la información.
+
+    |campo fecha del documento de la ventana reporte de transacciones de productor|
+
+    Imagen 6. Campo F. Documento
+
+Seleccione en el campo "**Estado del Documento**", el estado del documento por el cual requiere filtrar la información.
+
+    |campo estado del documento de la ventana reporte de transacciones de productor|
+
+    Imagen 7. Campo Estado del Documento
+
+Seleccione en el campo "**Tipo de Documento**", el tipo de documento por el cual requiere filtrar la información.
+
+    |campo tipo de documento de la ventana reporte de transacciones de productor|
+
+    Imagen 8. Campo Tipo de Documento
+
+Seleccione en el campo "**Configuración de Funcionalidad**", la configuración de funcionalidad por la cual requiere filtrar la información.
+
+    |campo configuración de funcionalidad de la ventana reporte de transacciones de productor|
+
+    Imagen 9. Campo Configuración de Funcionalidad
+
+Seleccione en el campo "**Producto Financiero**", el producto financiero por el cual requiere filtrar la información.
+
+    |campo producto financiero de la ventana reporte de transacciones de productor|
+
+    Imagen 10. Campo Producto Financiero
+
+Seleccione en el campo "**Tipo de Acuerdo**", el tipo de acuerdo por el cual requiere filtrar la información.
+
+    |campo tipo de acuerdo de la ventana reporte de transacciones de productor|
+
+    Imagen 11. Campo Tipo de Acuerdo
+
+Seleccione en el campo "**Lote de Transacción Financiera**", el lote de transacción financiera por la cual requiere filtrar la información.
+
+    |campo lote de transacción financiera de la ventana reporte de transacciones de productor|
+
+    Imagen 12. Campo Lote de Transacción Financiera
+
+Seleccione en el campo "**Tipo de Transacción Financiera**", el tipo de transacción financiera por la cual requiere filtrar la información.
+
+    |campo tipo de transacción financiera de la ventana reporte de transacciones de productor|
+
+    Imagen 13. Campo Tipo de Transacción Financiera
+
+Seleccione en el campo "**Registro de Peso**", el registro de peso por el cual requiere filtrar la información.
+
+    |campo registro de peso de la ventana reporte de transacciones de productor|
+
+    Imagen 14. Campo Registro de Peso
+
+Seleccione en el campo "**Orden de Flete**", el registro de orden de flete por el cual requiere filtrar la información.
+
+    |campo orden de flete de la ventana reporte de transacciones de productor|
+
+    Imagen 15. Campo Orden de Flete
+
+Seleccione en el campo "**Pago**", el registro de pago por el cual requiere filtrar la información.
+
+    |campo pago de la ventana reporte de transacciones de productor|
+
+    Imagen 16. Campo Pago
+
+Seleccione en el campo "**Orden de Venta**", el registro de orden de venta por la cual requiere filtrar la información.
+
+    |campo orden de venta de la ventana reporte de transacciones de productor|
+
+    Imagen 17. Campo Orden de Venta
+
+Seleccione en el campo "**Factura**", la factura por la cual requiere filtrar la información.
+
+    |campo factura de la ventana reporte de transacciones de productor|
+
+    Imagen 18. Campo Factura
+
+Seleccione en el campo "**Moneda**", la moneda por la cual requiere filtrar la información.
+
+    |campo moneda de la ventana reporte de transacciones de productor|
+
+    Imagen 19. Campo Moneda
+
+Seleccione la opción "**OK**", para generar el reporte en base a lo seleccionado en los campos indicados anteriormente.
+
+    |opción ok de la ventana reporte de transacciones de productor|
+
+    Imagen 20. Opción OK
+
+Podrá visualizar el reporte de transacciones de productor de la siguiente manera.
+
+    |reporte de transacciones de productor|
+
+    Imagen 21. Reporte de Transacciones de Productor
+
+.. note::
+
+    La información reflejada por este reporte, va a depender de los campos o filtros utilizados al momento de generar el mismo.
