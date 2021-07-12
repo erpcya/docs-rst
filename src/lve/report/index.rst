@@ -21,3 +21,5 @@ El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación
     order-detail
     cash-detail-report
     consignment-detail-report
+    
+    producer-account-statement
