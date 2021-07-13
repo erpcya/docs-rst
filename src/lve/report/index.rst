@@ -4,7 +4,7 @@
 **Reportes de ADempiere**
 =========================
 
-Esta documentación está destinada a definir cada uno de los procedimientos de liquidación de anticipos a intermediarios e importación, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
+Esta documentación está destinada a explicar de manera detalla, cada uno de los procedimientos a seguir para generar reportes de los procesos y transacciones efectuadas en ADempiere, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.
 
 .. toctree::
     :maxdepth: 2
@@ -15,3 +15,6 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
     order-detail
     cash-detail-report
     consignment-detail-report
+    storage-detail
+    open-balances
+    transaction-details
