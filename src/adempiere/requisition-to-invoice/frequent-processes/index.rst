@@ -10,3 +10,4 @@ Esta documentación está destinada a definir cada uno de los procesos frecuente
     :maxdepth: 2
 
     allocation-of-payments-from-cxp-document
+    cxp-debit-adjustment
