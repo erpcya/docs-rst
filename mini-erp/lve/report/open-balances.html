@@ -1,0 +1,520 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>4.8. Saldos Abiertos &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="4.9. Detalle de Transacciones" href="transaction-details.html" />
+    <link rel="prev" title="4.7. Detalle de Almacenamiento" href="storage-detail.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. <strong>Reportes de ADempiere</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="invoice-summary.html">4.1. <strong>Resumen de Facturas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="invoice-details-and-margin.html">4.2. <strong>Detalles de Facturas y Margen</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="details-of-invoices-and-margin-according-to-purchases.html">4.3. <strong>Detalles de Facturas y Margen (Margen según Compras)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="order-detail.html">4.4. <strong>Detalle de la Orden</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cash-detail-report.html">4.5. <strong>Detalle de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="consignment-detail-report.html">4.6. <strong>Reporte de Detalle de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="storage-detail.html">4.7. <strong>Detalle de Almacenamiento</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4.8. <strong>Saldos Abiertos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transaction-details.html">4.9. <strong>Detalle de Transacciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">4. </span><strong>Reportes de ADempiere</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">4.8. </span><strong>Saldos Abiertos</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/lve/report/open-balances.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="saldos-abiertos">
+<span id="documento-saldos-abiertos"></span><h1><span class="section-number">4.8. </span><strong>Saldos Abiertos</strong><a class="headerlink" href="#saldos-abiertos" title="Permalink to this headline">¶</a></h1>
+<p>Al momento de generar el reporte, se debe tener en cuenta los siguientes datos del reporte “<strong>Saldos Abiertos</strong>”:</p>
+<ul>
+<li><p>En las líneas del reporte se visualizan los movimientos, sin embargo se divide según la lista de precio por moneda, para totalizar la moneda en la que se encuentre la deuda.</p></li>
+<li><p>Los saldos a mostrar para este formato de “<strong>Saldos Abiertos</strong>” serán en base a la moneda que maneje cada documento es decir:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Si el documento por pagar o por cobrar que se visualiza en dicho reporte fue creado con la moneda “<strong>VES</strong>”, los saldos a mostrar serán bajo esa moneda así se le realicen y crucen pagos o cobros bajo otra moneda, el reporte los convertirá bajo la moneda del documento por pagar o cobrar.</p></li>
+<li><p>Si el documento por pagar o por cobrar que se visualiza en dicho reporte fue creado con la moneda “<strong>USD</strong>”, los saldos a mostrar serán bajo esa moneda así se le realicen y crucen pagos o cobros bajo otra moneda, el reporte los convertirá bajo la moneda del documento por pagar o cobrar.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Los documentos por pagar o cobrar que se visualicen en dicho reporte son aquellos que posean un saldo abierto y aquellos documentos que se encuentre en estado completo.</p></li>
+</ul>
+<p>A continuación se explica de manera detallada, el procedimiento a seguir para generar el reporte de saldos abiertos.</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione el reporte “<strong>Saldos Abiertos</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de reporte de saldos abiertos" src="../../_images/open-balances-report-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana del reporte “<strong>Saldos Abiertos</strong>”, con diferentes campos que le permiten al usuario filtrar la información en base a los requerido por el mismo.</p>
+<blockquote>
+<div><p><img alt="ventana del reporte de saldos abiertos" src="../../_images/open-balances-report-window.png" /></p>
+<p>Imagen 2. Ventana Saldos Abiertos</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo organización del reporte de saldos abiertos" src="../../_images/organization-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 3. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo de Socio del Negocio</strong>”, el grupo de socio del negocio por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo grupo de socio del negocio del reporte de saldos abiertos" src="../../_images/business-partner-group-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 4. Campo Grupo de Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio del reporte de saldos abiertos" src="../../_images/business-partner-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 5. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>El check “<strong>Transacción de Ventas</strong>”, permite filtrar la información por transacciones de ventas. Si no requiere filtrar la información por transacciones de ventas, puede destildar dicho check.</p>
+<blockquote>
+<div><p><img alt="check transacción de ventas del reporte de saldos abiertos" src="../../_images/check-sales-transaction-of-the-open-balances-report.png" /></p>
+<p>Imagen 6. Check Transacción de Ventas</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento</strong>”, el tipo de documento por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento del reporte de saldos abiertos" src="../../_images/document-type-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 7. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Término de Pago</strong>”, el término de pago por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo término de pago del reporte de saldos abiertos" src="../../_images/payment-term-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 8. Campo Término de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Estado de Cartera</strong>”, el estado de cartera por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo estado de cartera del reporte de saldos abiertos" src="../../_images/portfolio-status-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 9. Campo Estado de Cartera</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de Facturación</strong>”, la fecha de facturación por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo fecha de facturación del reporte de saldos abiertos" src="../../_images/billing-date-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 10. Campo Fecha de Facturación</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Contable</strong>”, la fecha contable por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo fecha contable del reporte de saldos abiertos" src="../../_images/accounting-date-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 11. Campo Fecha Contable</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de Vencimiento</strong>”, la fecha de vencimiento por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo fecha de vencimiento del reporte de saldos abiertos" src="../../_images/due-date-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 12. Campo Fecha de Vencimiento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Días de Vencimiento</strong>”, los días de vencimiento por los cuales requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo días de vencimiento del reporte de saldos abiertos" src="../../_images/expiration-days-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 13. Campo Días de Vencimiento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Orden de Venta</strong>”, la orden de venta por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo orden de venta del reporte de saldos abiertos" src="../../_images/sales-order-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 14. Campo Orden de Venta</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Factura</strong>”, la factura por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo factura del reporte de saldos abiertos" src="../../_images/invoice-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 15. Campo Factura</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Proyecto</strong>”, el proyecto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo proyecto del reporte de saldos abiertos" src="../../_images/project-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 16. Campo Proyecto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Campaña</strong>”, la campaña por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo campaña del reporte de saldos abiertos" src="../../_images/campaign-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 17. Campo Campaña</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Actividad</strong>”, la actividad por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo actividad del reporte de saldos abiertos" src="../../_images/activity-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 18. Campo Actividad</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Agente Comercial</strong>”, el agente comercial por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo agente comercial del reporte de saldos abiertos" src="../../_images/commercial-agent-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 19. Campo Agente Comercial</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo moneda del reporte de saldos abiertos" src="../../_images/currency-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 20. Campo Moneda</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo lista de precios del reporte de saldos abiertos" src="../../_images/price-list-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 21. Campo Lista de Precios</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo de Ventas</strong>”, el grupo de ventas por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo grupo de ventas del reporte de saldos abiertos" src="../../_images/sales-group-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 22. Campo Grupo de Ventas</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Región de Ventas</strong>”, la región de ventas por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo región de ventas del reporte de saldos abiertos" src="../../_images/sales-region-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 23. Campo Región de Ventas</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Cuenta</strong>”, el tipo de cuenta por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo tipo de cuenta del reporte de saldos abiertos" src="../../_images/account-type-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 24. Campo Tipo de Cuenta</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Segmento</strong>”, el segmneto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo segmento del reporte de saldos abiertos" src="../../_images/segment-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 25. Campo Segmento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Industria</strong>”, el tipo de industria por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo tipo de industria del reporte de saldos abiertos" src="../../_images/field-type-of-industry-of-the-report-of-open-balances.png" /></p>
+<p>Imagen 26. Campo Tipo de Industria</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para generar el reporte en base a lo seleccionado en los campos indicados anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción ok del reporte de saldos abiertos" src="../../_images/ok-option-of-the-open-balances-report.png" /></p>
+<p>Imagen 27. Opción OK</p>
+</div></blockquote>
+<p>Podrá visualizar el reporte de saldos abiertos de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="reporte de saldos abiertos" src="../../_images/open-balances-report.png" /></p>
+<p>Imagen 28. Reporte de Saldos Abiertos</p>
+</div></blockquote>
+<p>Para cambiar el formato del reporte generado, se debe seleccionar el formato requerido en el campo “<strong>Tipo de Reporte</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo tipo de reporte del reporte de saldos abiertos" src="../../_images/report-type-field-of-the-open-balances-report.png" /></p>
+<p>Imagen 29. Campo Tipo de Reporte</p>
+</div></blockquote>
+<p>Al seleccionar un tipo de reporte, ADempiere actualiza de manera automática el reporte generado con el formato seleccionado. Para ejemplificar el caso, es utilizado el formato “<strong>PDF</strong>”.</p>
+<blockquote>
+<div><p><img alt="reporte de saldos abiertos con formato seleccionado" src="../../_images/report-of-open-balances-with-selected-format.png" /></p>
+<p>Imagen 30. Reporte de Saldos Abiertos</p>
+</div></blockquote>
+<p>Al cargar el reporte “<strong>Saldo Abiertos</strong>” se encuentran las siguientes columnas:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Lista de Precio: Indica la lista de precio asociada.</p></li>
+<li><p>Socio del Negocio: Indica el proveedor o cliente asociado a la deuda.</p></li>
+<li><p>Factura: Indica el número de documento origen.</p></li>
+<li><p>Fecha de Facturación: Indica la fecha emitida para la factura.</p></li>
+<li><p>Gran Total: Indica el saldo del total de la factura.</p></li>
+<li><p>Total Pagado: Indica la parte abonada de la deuda.</p></li>
+<li><p>Total Abierto: Indica la diferencia en saldo entre el “<strong>Gran Total</strong>” y “<strong>Total Pagado</strong>”. Es decir, la deuda aun vigente.</p></li>
+</ul>
+</div></blockquote>
+<p>Del mismo modo, este reporte cuenta con una barra de herramientas que contiene las siguientes funciones que le permiten al usuario adaptar el reporte en base a lo requerido en su momento:</p>
+<ul>
+<li><p>Cambiar Tipo de Reporte: Permite visualizar y descargar el reporte en los formatos soportados por ADempiere como lo son “<strong>PDF</strong>”, “<strong>CSV</strong>”, “<strong>HTML</strong>”, “<strong>Excel</strong>”, “<strong>XLSX</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo tipo de reporte de la barra" src="../../_images/bar-report-type-field.png" /></p>
+<p>Imagen 31. Campo Tipo de Reporte</p>
+</div></blockquote>
+</li>
+<li><p>Cambiar Formato de Impresión: Permite visualizar el reporte de saldos abiertos en base a la configuración asignada para cada formato, como ejemplo se tienen los formatos “<strong>Saldos Abiertos</strong>”, “<strong>Saldos Abiertos (Multi-Moneda)</strong>”, “<strong>Saldos Abiertos (Ordenado por Fecha)</strong>”, “<strong>Saldos Abiertos por Agente Comercial</strong>”, “<strong>Saldos Abiertos (por Lista de Precios)</strong>”, “<strong>Saldos Abiertos por Tipo de Documento</strong>”, “<strong>Saldos Abiertos por Vencimiento</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo formato de impresión de la barra" src="../../_images/bar-print-format-field.png" /></p>
+<p>Imagen 32. Campo Formato de Impresión</p>
+</div></blockquote>
+</li>
+<li><p>Cambiar Vista del Informe: Permite cambiar la vista del reporte en base a lo requerido por el usuario.</p>
+<blockquote>
+<div><p><img alt="campo vista del informe de la barra" src="../../_images/field-view-bar-report.png" /></p>
+<p>Imagen 33. Campo Vista del Informe</p>
+</div></blockquote>
+</li>
+<li><p>Opción Buscar: Permite realizar nuevamente la búsqueda para generar el reporte en base a los filtros o campos indicados anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción buscar del informe de la barra" src="../../_images/search-option-from-bar-report.png" /></p>
+<p>Imagen 34. Opción Buscar</p>
+</div></blockquote>
+</li>
+<li><p>Opción Enviar Email: Permite enviar el reporte por correo electrónico.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Esta opción funciona si el usuario que inicia sesión en ADempiere tiene asociado y configurado su correo para que ADempiere automáticamente pueda hacer el envío del archivo desde la cuenta del usuario, a su vez las cuentas de correos a enviar los archivos deben estar agregadas en ADempiere en la información de socio del negocio para que aparezcan, de lo contrario no aparecerá en dicha opción.</p>
+</div>
+<p><img alt="campo enviar email del informe de la barra" src="../../_images/field-send-email-of-the-report-of-the-bar.png" /></p>
+<p>Imagen 35. Campo Enviar Email</p>
+</div></blockquote>
+</li>
+<li><p>Exportar: Permite exportar y descargar el reporte en un archivo “<strong>.ps</strong>”, “<strong>xml</strong>”, “<strong>.pdf</strong>”, “<strong>.html</strong>”, “<strong>.txt</strong>”, “<strong>.ssv</strong>”, “<strong>.csv</strong>”, “<strong>.xls</strong>”, “<strong>.xlsx</strong>”, “<strong>.arxml</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción exportar del informe de la barra" src="../../_images/export-option-from-bar-report.png" /></p>
+<p>Imagen 36. Opción Exportar</p>
+</div></blockquote>
+</li>
+<li><p>Opción Refrescar: Permite actualizar el reporte generado.</p>
+<blockquote>
+<div><p><img alt="opción refrescar del informe de la barra" src="../../_images/refresh-option-from-bar-report.png" /></p>
+<p>Imagen 37. Opción Refrescar</p>
+</div></blockquote>
+</li>
+<li><p>Opción Resumen: Permite visualizar el monto total de los saldos del reporte por moneda y a su vez, muestra la sumatoria total de todos los totales por moneda.</p>
+<blockquote>
+<div><p><img alt="opción resumen del informe de la barra" src="../../_images/bar-report-summary-option.png" /></p>
+<p>Imagen 38. Opción Resumen</p>
+</div></blockquote>
+</li>
+</ul>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="transaction-details.html" class="btn btn-neutral float-right" title="4.9. Detalle de Transacciones" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="storage-detail.html" class="btn btn-neutral float-left" title="4.7. Detalle de Almacenamiento" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

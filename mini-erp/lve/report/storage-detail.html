@@ -1,0 +1,394 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>4.7. Detalle de Almacenamiento &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="4.8. Saldos Abiertos" href="open-balances.html" />
+    <link rel="prev" title="4.6. Reporte de Detalle de Consignación" href="consignment-detail-report.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. <strong>Reportes de ADempiere</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="invoice-summary.html">4.1. <strong>Resumen de Facturas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="invoice-details-and-margin.html">4.2. <strong>Detalles de Facturas y Margen</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="details-of-invoices-and-margin-according-to-purchases.html">4.3. <strong>Detalles de Facturas y Margen (Margen según Compras)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="order-detail.html">4.4. <strong>Detalle de la Orden</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cash-detail-report.html">4.5. <strong>Detalle de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="consignment-detail-report.html">4.6. <strong>Reporte de Detalle de Consignación</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4.7. <strong>Detalle de Almacenamiento</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="open-balances.html">4.8. <strong>Saldos Abiertos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transaction-details.html">4.9. <strong>Detalle de Transacciones</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">4. </span><strong>Reportes de ADempiere</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">4.7. </span><strong>Detalle de Almacenamiento</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/lve/report/storage-detail.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="detalle-de-almacenamiento">
+<span id="documento-reporte-detalle-de-almacenamiento"></span><h1><span class="section-number">4.7. </span><strong>Detalle de Almacenamiento</strong><a class="headerlink" href="#detalle-de-almacenamiento" title="Permalink to this headline">¶</a></h1>
+<p>Este reporte da información sobre la cantidad de productos que han sido Ordenados, Reservados en  Existencia y  Disponible, a demás auditar en que “Almacén” y “Ubicación” se encuentra cada uno. Por otra parte, por cada transacción del producto se visualiza su movimiento.</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione el reporte “<strong>Detalle de Almacenamiento</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú del reporte detalle de almacenamiento" src="../../_images/storage-detail-report-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana del reporte con diferentes campos que le permiten al usuario, filtrar la información en base lo requerido por el mismo.</p>
+<blockquote>
+<div><p><img alt="ventana del reporte detalle de almacenamiento" src="../../_images/storage-detail-report-window.png" /></p>
+<p>Imagen 2. Ventana del Reporte Detalle de Almacenamiento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Almacén</strong>”, el almacén por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo almacén del reporte detalle de almacenamiento" src="../../_images/warehouse-field-of-the-storage-detail-report.png" /></p>
+<p>Imagen 3. Campo Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Ubicación</strong>”, la ubicación exacta por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo ubicación del reporte detalle de almacenamiento" src="../../_images/storage-detail-report-location-field.png" /></p>
+<p>Imagen 4. Campo Ubicación</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el producto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo producto del reporte detalle de almacenamiento" src="../../_images/product-field-of-the-storage-detail-report.png" /></p>
+<p>Imagen 5. Campo Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lote</strong>”, el lote por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo lote del reporte detalle de almacenamiento" src="../../_images/batch-field-of-the-storage-detail-report.png" /></p>
+<p>Imagen 6. Campo Lote</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>No. Lote</strong>”, el número de lote específico del producto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo número de lote del reporte detalle de almacenamiento" src="../../_images/batch-number-field-of-the-storage-detail-report.png" /></p>
+<p>Imagen 7. Campo No. Lote</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Categoría del Producto</strong>”, la categoría del producto por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo categoría del producto del reporte detalle de almacenamiento" src="../../_images/product-category-field-of-the-storage-detail-report.png" /></p>
+<p>Imagen 8. Campo Categoría del Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Clase de Producto</strong>”, la clase del producto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo clase de producto del reporte detalle de almacenamiento" src="../../_images/product-class-field-of-the-storage-detail-report.png" /></p>
+<p>Imagen 9. Campo Clase de Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Clasificación de Producto</strong>”, la clasificación de producto por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo clasificación de producto del reporte detalle de almacenamiento" src="../../_images/product-classification-field-of-the-storage-detail-report.png" /></p>
+<p>Imagen 10. Campo Clasificación de Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo de Producto</strong>”, el grupo de producto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo grupo de producto del reporte detalle de almacenamiento" src="../../_images/product-group-field-of-the-storage-detail-report.png" /></p>
+<p>Imagen 11. Campo Grupo de Producto</p>
+</div></blockquote>
+<p>Indique en el campo “<strong>Fecha de Garantía</strong>”, la fecha de garantía por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo fecha de garantía del reporte detalle de almacenamiento" src="../../_images/warranty-date-field-of-the-storage-detail-report.png" /></p>
+<p>Imagen 12. Campo Fecha de Garantía</p>
+</div></blockquote>
+<p>Indique en el campo “<strong>Última Fecha de Conteo de Inventarios</strong>”, la última fecha de conteo de inventario por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo última fecha de conteo de inventario del reporte detalle de almacenamiento" src="../../_images/last-inventory-count-date-field-of-the-storage-detail-report.png" /></p>
+<p>Imagen 13. Campo Última Fecha de Conteo de Inventarios</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para generar el reporte en base a lo seleccionado en los campos indicados anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción ok del reporte detalle de almacenamiento" src="../../_images/ok-option-of-the-storage-detail-report.png" /></p>
+<p>Imagen 14. Opción OK</p>
+</div></blockquote>
+<p>Podrá visualizar de la siguiente manera, el reporte de detalle de almacenamiento generado.</p>
+<blockquote>
+<div><p><img alt="reporte detalle de almacenamiento" src="../../_images/storage-detail-report.png" /></p>
+<p>Imagen 15. Reporte Detalle de Almacenamiento</p>
+</div></blockquote>
+<p>Para cambiar el formato del reporte generado, se debe seleccionar el formato requerido en el campo “<strong>Tipo de Reporte</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo tipo de reporte para detalle de almacenamiento" src="../../_images/report-type-field-for-storage-detail.png" /></p>
+<p>Imagen 16. Campo Tipo de Reporte</p>
+</div></blockquote>
+<p>Al seleccionar un tipo de reporte, ADempiere actualiza de manera automática el reporte generado con el formato seleccionado. Para ejemplificar el caso, es utilizado el formato “<strong>PDF</strong>”.</p>
+<blockquote>
+<div><p><img alt="reporte detalle de almacenamiento con formato seleccionado" src="../../_images/storage-detail-report-with-selected-format.png" /></p>
+<p>Imagen 17. Reporte Detalle de Almacenamiento con Formato PDF</p>
+</div></blockquote>
+<p>En el reporte “<strong>Detalle de Almacenamiento</strong>”, se visualizaran las siguientes columnas:</p>
+<blockquote>
+<div><ul>
+<li><p>Almacén: Donde se encuentra el “<strong>Producto</strong>”</p></li>
+<li><p>Ubicación: Donde se encuentra el “<strong>Producto</strong>” dentro del “<strong>Almacén</strong>”</p></li>
+<li><p>Producto: Muestra el código y nombre del producto</p></li>
+<li><p>Existencia: Esta columna indica la cantidad de producto dentro de “<strong>Ubicación</strong>” del “<strong>Almacén</strong>”</p></li>
+<li><p>Ordenada: Son aquellos productos que tiene orden de compra en “<strong>Estado de Documento Completo</strong>” sin recepción, lo que para ADempiere seria la solicitud de compra del producto, no afecta la columna en “<strong>Existencia</strong>” y “<strong>Disponible</strong>”</p></li>
+<li><p>Reservada: Mercancía prometida, asociada a una venta pero sin una “<strong>Entrega</strong>”, lo que para ADempiere significa apartar dicha cantidad de un productor para luego ser entregada aun cliente.</p></li>
+<li><p>Disponible: La cantidad del producto que realmente puede ser vendida, esta varia dependiendo de los siguientes escenarios:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Si existe cantidad “<strong>Reservada</strong>” se le resta a la cantidad “<strong>Existencia</strong>”, eso quiere decir que la cantidad en “<strong>Existencia</strong>” no siempre será igual a la cantidad “<strong>Disponible</strong>”</p></li>
+<li><p>Si cantidad “<strong>Reservada</strong>” es igual a cero (0), la cantidad en la columna “<strong>Existencia</strong>” y “<strong>Disponible</strong>” será la misma.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="open-balances.html" class="btn btn-neutral float-right" title="4.8. Saldos Abiertos" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="consignment-detail-report.html" class="btn btn-neutral float-left" title="4.6. Reporte de Detalle de Consignación" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
