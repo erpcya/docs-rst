@@ -1,0 +1,432 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>1.2. Configuración de Categorías desde ADempiere &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="1.3. Eliminar o Inactivar Productos en ADempiere para el e-commerce" href="delete-or-inactivate-products-in-adempiere-for-e-commerce.html" />
+    <link rel="prev" title="1.1. Configuración de Productos desde ADempiere" href="ecommerce-product-configuration-from-adempiere.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-product-configuration-from-adempiere.html">1.1. <strong>Configuración de Productos desde ADempiere</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">1.2. <strong>Configuración de Categorías desde ADempiere</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#creacion-de-categorias-padres">1.2.1. <strong>Creación de Categorías Padres</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creacion-de-categorias-hijas-o-grupos-de-productos">1.2.2. <strong>Creación de Categorías Hijas ó Grupos de Productos</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#creacion-de-categorias-hijas-o-subgrupos-de-productos">1.2.3. <strong>Creación de Categorías Hijas o Subgrupos de Productos</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#asociar-productos-a-las-categorias-hijas-o-subgrupos-de-productos">1.2.4. <strong>Asociar Productos a las Categorías Hijas o Subgrupos de Productos</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="delete-or-inactivate-products-in-adempiere-for-e-commerce.html">1.3. <strong>Eliminar o Inactivar Productos en ADempiere para el e-commerce</strong></a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">1. </span><strong>Configuración del e-Commerce desde ADempiere</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">1.2. </span><strong>Configuración de Categorías desde ADempiere</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/ecommerce/ecommerce-category-configuration-from-adempiere.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configuracion-de-categorias-desde-adempiere">
+<span id="documento-configuracion-de-categorias-del-ecommerce-desde-adempiere"></span><h1><span class="section-number">1.2. </span><strong>Configuración de Categorías desde ADempiere</strong><a class="headerlink" href="#configuracion-de-categorias-desde-adempiere" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Definición de Tienda Web</strong>”, luego seleccione la ventana “<strong>Categoría de Producto en Tienda</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de categoría de producto en tienda" src="../_images/product-category-menu-in-store.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Para ejemplificar en el presente documento el procedimiento de configuración del e-commerce desde ADempiere, se continua con el ejemplo expuesto anteriormente en la definición de las categorías del <span class="xref std std-ref">e-Commerce</span>. Por lo tanto, se procede a crear las mismas de la siguiente manera:</p>
+<div class="section" id="creacion-de-categorias-padres">
+<span id="proceso-creacion-de-categorias-padres"></span><h2><span class="section-number">1.2.1. </span><strong>Creación de Categorías Padres</strong><a class="headerlink" href="#creacion-de-categorias-padres" title="Permalink to this headline">¶</a></h2>
+<p>Al ubicarse en la ventana “<strong>Categoría de Producto en Tienda</strong>”, se procede a crear en primera instancia las categorías padres asignando los siguientes datos:</p>
+<blockquote>
+<div><ul>
+<li><p>“<strong>Campo Código</strong>”: Para este caso se suele ingresar como código las iniciales de la categoría a registrar. Si está la compone varias palabras se agregan las iniciales, pero si se compone de una palabra se agregan las tres primeras letras, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Hogar: El código sería “HOG”.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>“<strong>Campo Nombre</strong>”: Se agrega el nombre de la categoría, el mismo debe ser preciso y conciso ya que este será el nombre a mostrar en el e-commerce, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Hogar.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>“<strong>Check Destacado Tienda Web</strong>”: Este check siempre debe estar activo para que dicho registro se pueda mostrar en el e-commerce.</p></li>
+</ul>
+<p><img alt="registro de categoría padre" src="../_images/parent-category-record.png" /></p>
+<p>Imagen 2. Registro de Categoría Padre</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>En este punto no se asociaran los productos ya que este es una categoría padre, el cual será utilizada más adelante para asociar categorías hijas .</p>
+</div>
+<p>Al realizar dicho registro se procede a consultar el servicio donde se encuentra el e-commerce, donde se podrá observar la primera categoría padre.</p>
+<blockquote>
+<div><p><img alt="consulta de categoría padre en el ecommerce" src="../_images/parent-category-query-in-ecommerce.png" /></p>
+<p>Imagen 3. Consulta de Categoría Padre en el e-commerce</p>
+</div></blockquote>
+<p>Seguidamente, al haber registrado la primera categoría padre se pueden registrar las demás categorías padres que se deseen; continuando con la estructura de la megatienda, el menú del e-commerce quedaría de la siguiente forma.</p>
+<blockquote>
+<div><p><img alt="categorías padres en el ecommerce" src="../_images/parent-categories-in-ecommerce.png" /></p>
+<p>Imagen 4. Consulta de las Categorías Padres en el e-commerce</p>
+</div></blockquote>
+</div>
+<div class="section" id="creacion-de-categorias-hijas-o-grupos-de-productos">
+<span id="proceso-creacion-de-categorias-hijas-grupos"></span><h2><span class="section-number">1.2.2. </span><strong>Creación de Categorías Hijas ó Grupos de Productos</strong><a class="headerlink" href="#creacion-de-categorias-hijas-o-grupos-de-productos" title="Permalink to this headline">¶</a></h2>
+<p>Luego de la creación de las categorías padres, se debe crear la categoría hija o los grupos de cada una de las categorías padres. Para ello, se ingresa el valor correspondiente en los siguientes campos de la ventana “<strong>Categoría de Producto en Tienda</strong>”. En este ejemplo se crearan las categorías hijas de la categoría padre “<strong>Hogar</strong>”.</p>
+<blockquote>
+<div><ul>
+<li><p>“<strong>Campo Código</strong>”: Se agrega el código de la categoría padre más el código de la categoría hija o grupo de producto que se esta registrando. El código debe seguir el mismo estándar si es una palabra se tomán las tres primera letras de la palabra, si este esta conformado por mas de una palabra se toman las iniciales, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>La categoría hija a registrar es “<strong>Línea Blanca</strong>” y este pertenece a la categoría padre de “<strong>Hogar</strong>”, por lo que el código a registrar en este caso sería: HOG-LB</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>“<strong>Campo Nombre</strong>”: Se agrega el nombre de la categoría hija o grupo de producto, el mismo debe ser preciso y conciso ya que este será el nombre a mostrar en el e-commerce, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Línea Blanca</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>“<strong>Campo Grupo Padre de Producto en Tienda</strong>”: Se debe asignar o llamar a la categoría padre, para este ejemplo la categoría padre es “Hogar”. Este campo es el que definirá que la categoría a registrar es una categoría hija y esta asociada a una categoría padre.</p></li>
+</ul>
+<p><img alt="registro de categoría hija" src="../_images/daughter-category-record.png" /></p>
+<p>Imagen 5. Registro de Categoría Hija o Grupo de Producto</p>
+</div></blockquote>
+<p>Una vez creada la categoría hija o grupo de producto, se procede a consultar el servicio del e-commerce donde se podrá observar la categoría hija.</p>
+<blockquote>
+<div><p><img alt="consulta de categoría hija en el ecommerce" src="../_images/daughter-category-query-in-ecommerce.png" /></p>
+<p>Imagen 6. Consulta de Categoría Hija en el e-commerce</p>
+</div></blockquote>
+<p>Seguidamente, al haber registrado la primera categoría hija se pueden registrar las demás categorías hijas o grupos de productos que se deseen observar; continuando con la estructura de la megatienda, el menú del e-commerce quedaría de la siguiente forma.</p>
+<blockquote>
+<div><p><img alt="categorías hijas en el ecommerce" src="../_images/child-categories-in-ecommerce.png" /></p>
+<p>Imagen 7. Consulta de las Categorías Hijas en el e-commerce</p>
+</div></blockquote>
+</div>
+<div class="section" id="creacion-de-categorias-hijas-o-subgrupos-de-productos">
+<span id="proceso-creacion-de-categorias-hijas-subgrupos"></span><h2><span class="section-number">1.2.3. </span><strong>Creación de Categorías Hijas o Subgrupos de Productos</strong><a class="headerlink" href="#creacion-de-categorias-hijas-o-subgrupos-de-productos" title="Permalink to this headline">¶</a></h2>
+<p>Al culminar el registro las categorías hijas o grupos de productos, en el caso de que las mismas contengan subgrupos, se deben registrar las categorías hijas o subgrupos de productos. Para ello, se ingresa el valor correspondiente en los siguientes campos de la ventana “<strong>Categoría de Producto en Tienda</strong>”.</p>
+<ul>
+<li><p>“<strong>Campo Código</strong>”: Se agrega el código de la categoría hija o grupo de producto que en este caso se comportaría como una categoría padre, más el código de la categoría hija o subgrupo de producto que se esta registrando. El código debe seguir el mismo estándar si es una palabra se tomán las tres primera letras de la palabra, si este esta conformado por más de una palabra se toman las iniciales, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>La subcategoría hija a registrar es “<strong>Aire Acondicionado</strong>” el cual va a pertenecer a la categoría hija “<strong>Línea Blanca</strong>”, el código a registrar en este caso sería: LB-AA</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>“<strong>Campo Nombre</strong>”: Se agrega el nombre de la subcategoría hija o subgrupo de producto, el mismo debe ser preciso y conciso ya que este será el nombre a mostrar en el e-commerce, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Aire Acondicionado.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>“<strong>Campo Grupo Padre de Producto en Tienda</strong>”: Se debe asignar o llamar a la categoría hija o grupo de productos, para este ejemplo el grupo de productos es “Línea Blanca”. Este campo es el que definirá que la categoría a registrar es una subcategoría hija y esta asociada a otra categoría hija.</p>
+<blockquote>
+<div><p><img alt="registro de categoría hija o subgrupo" src="../_images/child-or-subgroup-category-record.png" /></p>
+<p>Imagen 8. Registro de Categoría Hija o Subgrupo de Producto</p>
+</div></blockquote>
+</li>
+</ul>
+<p>Una vez creada la categoría hija o subgrupo de producto, se procede a consultar el servicio del e-commerce donde se podrá observar la categoría hija.</p>
+<blockquote>
+<div><p><img alt="consulta de categorías hijas o subgrupos de productos" src="../_images/query-child-categories-or-product-subgroups.png" /></p>
+<p>Imagen 9. Consulta de Categoría Hija en el e-commerce</p>
+</div></blockquote>
+<p>Seguidamente, al haber registrado la primera subcategoría hija se pueden registrar las demás subcategorías hijas o grupos de productos que se deseen observar; continuando con la estructura de la megatienda, el menú del e-commerce quedaría de la siguiente forma.</p>
+<blockquote>
+<div><p><img alt="categorías hijas o subgrupos en el ecommerce" src="../_images/child-categories-or-subgroups-in-ecommerce.png" /></p>
+<p>Imagen 10. Consulta de las Categorías Hijas en el e-commerce</p>
+</div></blockquote>
+</div>
+<div class="section" id="asociar-productos-a-las-categorias-hijas-o-subgrupos-de-productos">
+<span id="proceso-asociar-productos-a-categorias-hijas"></span><h2><span class="section-number">1.2.4. </span><strong>Asociar Productos a las Categorías Hijas o Subgrupos de Productos</strong><a class="headerlink" href="#asociar-productos-a-las-categorias-hijas-o-subgrupos-de-productos" title="Permalink to this headline">¶</a></h2>
+<p>Si la categoría hija o subgrupo de productos mostrará el detalle de cada uno de los productos, estos deben ser asociadas en la pestaña “<strong>Productos Asignados</strong>” de cada subcategoría que se encuentre en la ventana “<strong>Categoría de Producto en Tienda</strong>”, para este caso se deben realizar los siguientes pasos:</p>
+<p>Ubicar en la ventana “<strong>Categoría de Producto en Tienda</strong>” la subcategoría hija a la que serán asociados los productos. Para este ejemplo se agregarán los productos a la subcategoría “<strong>Aire Acondicionado</strong>”.</p>
+<blockquote>
+<div><p><img alt="registro de categoría para asociar productos" src="../_images/category-record-to-associate-products.png" /></p>
+<p>Imagen 11. Registro de Categoría</p>
+</div></blockquote>
+<p>Una vez ubicado en el registro de la categoría, seleccione la pestaña “<strong>Productos Asignados</strong>”. Luego seleccione en el campo “<strong>Producto</strong>”, el producto que requiere asociar a la categoría.</p>
+<blockquote>
+<div><p><img alt="pestaña productos asignados y campo producto" src="../_images/tab-assigned-products-and-product-field.png" /></p>
+<p>Imagen 12. Pestaña Productos Asignados y Campo Producto</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Cada producto a asociar debe contar con una previa configuración personalizada, la misma se debe realizar desde la ventana “<strong>Producto</strong>”, del servicio de ADempiere, ya que esto permite que muestre las imágenes, precio, nombre y descripción asociados al producto, como se indica en el proceso <a class="reference internal" href="ecommerce-product-configuration-from-adempiere.html#documento-configuracion-de-productos-del-ecommerce-desde-adempiere"><span class="std std-ref">Configuración de Productos desde ADempiere</span></a>.</p>
+</div>
+</div></blockquote>
+<p>Al asociar los productos a la subcategoría, se procede a consultar el servicio del e-commerce donde se podrá observar el producto.</p>
+<blockquote>
+<div><p><img alt="consulta de productos en el ecommerce" src="../_images/product-consultation-in-ecommerce.png" /></p>
+<p>Imagen 13. Consulta de Productos en el e-commerce</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="delete-or-inactivate-products-in-adempiere-for-e-commerce.html" class="btn btn-neutral float-right" title="1.3. Eliminar o Inactivar Productos en ADempiere para el e-commerce" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="ecommerce-product-configuration-from-adempiere.html" class="btn btn-neutral float-left" title="1.1. Configuración de Productos desde ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

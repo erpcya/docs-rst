@@ -1,0 +1,324 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>1.3. Eliminar o Inactivar Productos en ADempiere para el e-commerce &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="1.2. Configuración de Categorías desde ADempiere" href="ecommerce-category-configuration-from-adempiere.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-product-configuration-from-adempiere.html">1.1. <strong>Configuración de Productos desde ADempiere</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-category-configuration-from-adempiere.html">1.2. <strong>Configuración de Categorías desde ADempiere</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">1.3. <strong>Eliminar o Inactivar Productos en ADempiere para el e-commerce</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#inactivar-un-producto-en-una-categoria">1.3.1. <strong>Inactivar un Producto en una Categoría</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#eliminar-un-producto-en-una-categoria">1.3.2. <strong>Eliminar un Producto en una Categoría</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">1. </span><strong>Configuración del e-Commerce desde ADempiere</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">1.3. </span><strong>Eliminar o Inactivar Productos en ADempiere para el e-commerce</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/ecommerce/delete-or-inactivate-products-in-adempiere-for-e-commerce.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="eliminar-o-inactivar-productos-en-adempiere-para-el-e-commerce">
+<span id="documento-eliminar-inactivar-productos-en-adempiere-para-el-e-commerce"></span><h1><span class="section-number">1.3. </span><strong>Eliminar o Inactivar Productos en ADempiere para el e-commerce</strong><a class="headerlink" href="#eliminar-o-inactivar-productos-en-adempiere-para-el-e-commerce" title="Permalink to this headline">¶</a></h1>
+<p>Para eliminar o inactivar un producto de una categoría, se deben aplicar los siguientes pasos:</p>
+<div class="section" id="inactivar-un-producto-en-una-categoria">
+<span id="proceso-inactivar-producto-de-categoria"></span><h2><span class="section-number">1.3.1. </span><strong>Inactivar un Producto en una Categoría</strong><a class="headerlink" href="#inactivar-un-producto-en-una-categoria" title="Permalink to this headline">¶</a></h2>
+<p>Este caso puede ser aplicado cuando se desea inactivar un producto en una categoría pero no desea eliminarlo por que quiere que siga perteneciendo a esa categoría y más adelante desea activarlo, para aplicar este caso:</p>
+<p>Ubicar en la ventana “<strong>Categoría de Producto en Tienda</strong>” la categoría hija o sub-hija (Grupo/Sub-Grupo) donde se encuentre el producto. Una vez ubicada la categoría, ir a la pestaña “<strong>Productos Asignados</strong>”.</p>
+<p>Para ubicar en la pestaña “<strong>Productos Asignados</strong>” el producto que requiere inactivar, puede realizar cualquiera de las siguientes acciones:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Cambiar la vista a “<strong>Multiregistro</strong>”, seleccionando el icono “<strong>Cambiar mono/multi registro</strong>” ubicado en la barra de herramientas de ADempiere. Luego seleccionar el registro que requiere inactivar y volver a seleccionar dicho icono.</p></li>
+<li><p>Utilizando la opción de búsqueda desde la barra de herramientas de ADempiere, con el criterio de búsqueda “<strong>Producto</strong>”.</p></li>
+</ul>
+</div></blockquote>
+<p><img alt="registro en la pestaña productos asignados" src="../_images/registration-in-the-assigned-products-tab.png" /></p>
+<p>Imagen 1. Registro del Producto en la Pestaña Productos Asignados</p>
+<p>Una vez ubicado el producto se procede a destildar el check “<strong>Activo</strong>” y guardar los cambios realizados seleccionando el icono “<strong>Guardar Cambios</strong>”, el mismo se encuentra ubicado en la barra de herramientas de ADempiere.</p>
+<p><img alt="check activo en el registro en la pestaña productos asignados" src="../_images/check-active-in-the-registry-in-the-tab-assigned-products.png" /></p>
+<p>Imagen 2. Check Activo</p>
+</div>
+<div class="section" id="eliminar-un-producto-en-una-categoria">
+<span id="proceso-eliminar-producto-de-categoria"></span><h2><span class="section-number">1.3.2. </span><strong>Eliminar un Producto en una Categoría</strong><a class="headerlink" href="#eliminar-un-producto-en-una-categoria" title="Permalink to this headline">¶</a></h2>
+<p>Este caso puede ser aplicado cuando se desea eliminar por completo un producto en una categoría, para aplicar este caso se debe hacer la búsqueda del producto:</p>
+<p>Ubicar en la ventana “<strong>Categoría de Producto en Tienda</strong>” la categoría hija o sub-hija (Grupo/Sub-Grupo) donde se encuentre el producto. Una vez ubicada la categoría, ir a la pestaña “<strong>Productos Asignados</strong>”.</p>
+<p>Para ubicar en la pestaña “<strong>Productos Asignados</strong>” el producto que requiere eliminar, puede realizar cualquiera de las siguientes acciones:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Cambiando la vista a “<strong>Multiregistro</strong>”, seleccionando el icono “<strong>Cambiar mono/multi registro</strong>” ubicado en la barra de herramientas de ADempiere. Luego seleccionar el registro que requiere eliminar y volver a seleccionar dicho icono.</p></li>
+<li><p>Utilizando la opción de búsqueda desde la barra de herramientas de ADempiere, con el criterio de búsqueda “<strong>Producto</strong>”.</p></li>
+</ul>
+</div></blockquote>
+<p><img alt="registro en la pestaña productos asignados" src="../_images/registration-in-the-assigned-products-tab.png" /></p>
+<p>Imagen 3. Registro del Producto en la Pestaña Productos Asignados</p>
+<p>Una vez ubicado el producto se procede a seleccionar el icono “<strong>Borrar Registro</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+<p><img alt="icono borrar registro en la pestaña productos asignados" src="../_images/delete-record-icon-in-the-assigned-products-tab.png" /></p>
+<p>Imagen 4. Icono Borrar Registro</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="ecommerce-category-configuration-from-adempiere.html" class="btn btn-neutral float-left" title="1.2. Configuración de Categorías desde ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,430 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>1. Configuración del e-Commerce desde ADempiere &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="1.1. Configuración de Productos desde ADempiere" href="ecommerce-product-configuration-from-adempiere.html" />
+    <link rel="prev" title="5.1.1. Categorías de Productos" href="../lve/standard-coding/product/product-coding.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-product-configuration-from-adempiere.html">1.1. <strong>Configuración de Productos desde ADempiere</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-category-configuration-from-adempiere.html">1.2. <strong>Configuración de Categorías desde ADempiere</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="delete-or-inactivate-products-in-adempiere-for-e-commerce.html">1.3. <strong>Eliminar o Inactivar Productos en ADempiere para el e-commerce</strong></a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><span class="section-number">1. </span><strong>Configuración del e-Commerce desde ADempiere</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/ecommerce/index.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configuracion-del-e-commerce-desde-adempiere">
+<span id="src-ecommerce"></span><h1><span class="section-number">1. </span><strong>Configuración del e-Commerce desde ADempiere</strong><a class="headerlink" href="#configuracion-del-e-commerce-desde-adempiere" title="Permalink to this headline">¶</a></h1>
+<p>e-Commerce es la solución tecnológica utilizada por los comercios actuales para llevar sus productos y/o servicios más allá de sus fronteras locales, básicamente consiste en la compra y venta de productos o de servicios a través de internet.</p>
+<p>En <a class="reference external" href="http://erpya.com">ERPyA</a>, actualmente nos encontramos implementando una herramienta para que los comercios que deseen tener su e-Commerce puedan hacerlo de manera rápida, efectiva y muy agradable visualmente.</p>
+<p>Para la configuración del e-commerce se debe tener en cuenta la comunicación que este posee con ADempiere. Por ello, a continuación se detalla cómo realizar la respectiva configuración de un e-commerce y cómo se puede adaptar según el objetivo que se requiere mostrar.</p>
+<p>Principalmente, se debe contar con la información para el registro de los artículos a vender. Dicha información es detallada más adelante, a lo largo de la explicación del procedimiento para configurar el e-commerce desde ADempiere.</p>
+<p>En cuanto a la distribución de artículos a vender en una tienda, se estructura o divide por “<strong>Categorías Padres</strong>” y “<strong>Categorías Hijas</strong>”, donde las categorías hijas pueden ser llamadas como grupos que a su vez también contienen subgrupos de productos que definen el detalle y distribución de los artículos a mostrar en el e-commerce.</p>
+<p>El siguiente ejemplo a mostrar trata de una megatienda, la cual se dedica a la venta de equipos de hogar, juguetes, pinturas y suministros de aceites para carros y motos. Del mismo modo, considerando el funcionamiento de la tienda y partiendo de la categorización y distribución que tendrán los artículos de la tienda en el e-commerce, se desea categorizar de la siguiente manera:</p>
+<p>Categorías Padres:</p>
+<ul class="simple">
+<li><p>Aceites</p></li>
+<li><p>Hogar</p></li>
+<li><p>Juguetes</p></li>
+<li><p>Pinturas</p></li>
+</ul>
+<p>Cada una de estas categorías padres se encuentran divididas de la siguiente forma, haciendo referencia a las categorías hijas o grupos de productos pertenecientes a la categoría padre:</p>
+<ul>
+<li><p>Aceites (Categoría Padre)</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Carros (Categoría Hijas ó Grupos de Productos)</p></li>
+<li><p>Moto (Categoría Hijas ó Grupos de Productos)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Hogar (Categoría Padre)</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Línea Blanca (Categoría Hijas ó Grupos de Productos)</p></li>
+<li><p>Equipos Electrónicos (Categoría Hijas ó Grupos de Productos)</p></li>
+<li><p>Línea Digital (Categoría Hijas ó Grupos de Productos)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Juguetes (Categoría Padre)</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Juegos de Mesa (Categoría Hijas ó Grupos de Productos)</p></li>
+<li><p>Juegos Deportivos (Categoría Hijas ó Grupos de Productos)</p></li>
+<li><p>Muñecas y Peluches (Categoría Hijas ó Grupos de Productos)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Pinturas (Categoría Padre)</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Pinturas Mate (Categoría Hijas ó Grupos de Productos)</p></li>
+<li><p>Pinturas Satinadas (Categoría Hijas ó Grupos de Productos)</p></li>
+<li><p>Pinturas Esmalte (Categoría Hijas ó Grupos de Productos)</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>A su vez, cada categoría hija o grupo de productos puede esta subdividida y se hace referencia a otras categorías hijas el cual detalla el subgrupo de los grupos mencionados anteriormente (a continuación se detallan dos categorías padres):</p>
+<ul>
+<li><p>Aceites (Categoría Padre)</p>
+<blockquote>
+<div><ul>
+<li><p>Carros (Categoría Hijas ó Grupos de Productos)</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Semi Sintético (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Mineral (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Hogar (Categoría Hijas o Subgrupos de Productos)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Moto (Categoría Hijas ó Grupos de Productos)</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Semi Sintético (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Mineral (Categoría Hijas o Subgrupos de Productos)</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Hogar (Categoría Padre)</p>
+<blockquote>
+<div><ul>
+<li><p>Línea Blanca (Categoría Hijas ó Grupos de Productos)</p>
+<blockquote>
+<div><ul>
+<li><p>Aire Acondicionado (Categoría Hijas o Subgrupos de Productos)</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Aire Acondicionado Ventana 25000 BTU/220V (Producto Asociado)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Lavadoras (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Neveras (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Cocina (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Microondas (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Topes (Categoría Hijas o Subgrupos de Productos)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Equipos Electrónicos (Categoría Hijas ó Grupos de Productos)</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Licuadoras (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Batidoras (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Cafetera (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Televisor (Categoría Hijas o Subgrupos de Productos)</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Línea Digital (Categoría Hijas ó Grupos de Productos)</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Audífonos (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Tables (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Celulares (Categoría Hijas o Subgrupos de Productos)</p></li>
+<li><p>Mouse (Categoría Hijas o Subgrupos de Productos)</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>Una vez identificadas las categorías padres e hijas se procede a crearlas en ADempiere. Para conocer dicho procedimiento, puede consultar el documento de configuración que se indica a continuación.</p>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="ecommerce-product-configuration-from-adempiere.html">1.1. <strong>Configuración de Productos desde ADempiere</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-product-configuration-from-adempiere.html#creacion-o-modificacion-del-producto">1.1.1. <strong>Creación o Modificación del Producto</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-product-configuration-from-adempiere.html#agregar-imagenes-al-producto">1.1.2. <strong>Agregar Imágenes al Producto</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-product-configuration-from-adempiere.html#establecer-precio-al-producto">1.1.3. <strong>Establecer Precio al Producto</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-product-configuration-from-adempiere.html#exportar-catalogo-a-proveedor-de-cache">1.1.4. <strong>Exportar Catálogo a Proveedor de Cache</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="ecommerce-category-configuration-from-adempiere.html">1.2. <strong>Configuración de Categorías desde ADempiere</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-category-configuration-from-adempiere.html#creacion-de-categorias-padres">1.2.1. <strong>Creación de Categorías Padres</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-category-configuration-from-adempiere.html#creacion-de-categorias-hijas-o-grupos-de-productos">1.2.2. <strong>Creación de Categorías Hijas ó Grupos de Productos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-category-configuration-from-adempiere.html#creacion-de-categorias-hijas-o-subgrupos-de-productos">1.2.3. <strong>Creación de Categorías Hijas o Subgrupos de Productos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-category-configuration-from-adempiere.html#asociar-productos-a-las-categorias-hijas-o-subgrupos-de-productos">1.2.4. <strong>Asociar Productos a las Categorías Hijas o Subgrupos de Productos</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="delete-or-inactivate-products-in-adempiere-for-e-commerce.html">1.3. <strong>Eliminar o Inactivar Productos en ADempiere para el e-commerce</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="delete-or-inactivate-products-in-adempiere-for-e-commerce.html#inactivar-un-producto-en-una-categoria">1.3.1. <strong>Inactivar un Producto en una Categoría</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="delete-or-inactivate-products-in-adempiere-for-e-commerce.html#eliminar-un-producto-en-una-categoria">1.3.2. <strong>Eliminar un Producto en una Categoría</strong></a></li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="ecommerce-product-configuration-from-adempiere.html" class="btn btn-neutral float-right" title="1.1. Configuración de Productos desde ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../lve/standard-coding/product/product-coding.html" class="btn btn-neutral float-left" title="5.1.1. Categorías de Productos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

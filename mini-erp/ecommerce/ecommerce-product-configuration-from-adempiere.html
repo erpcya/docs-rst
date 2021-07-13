@@ -1,0 +1,474 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>1.1. Configuración de Productos desde ADempiere &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+        <script src="../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="1.2. Configuración de Categorías desde ADempiere" href="ecommerce-category-configuration-from-adempiere.html" />
+    <link rel="prev" title="1. Configuración del e-Commerce desde ADempiere" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">1.1. <strong>Configuración de Productos desde ADempiere</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#creacion-o-modificacion-del-producto">1.1.1. <strong>Creación o Modificación del Producto</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#agregar-imagenes-al-producto">1.1.2. <strong>Agregar Imágenes al Producto</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#establecer-precio-al-producto">1.1.3. <strong>Establecer Precio al Producto</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#exportar-catalogo-a-proveedor-de-cache">1.1.4. <strong>Exportar Catálogo a Proveedor de Cache</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="ecommerce-category-configuration-from-adempiere.html">1.2. <strong>Configuración de Categorías desde ADempiere</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="delete-or-inactivate-products-in-adempiere-for-e-commerce.html">1.3. <strong>Eliminar o Inactivar Productos en ADempiere para el e-commerce</strong></a></li>
+</ul>
+</li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">1. </span><strong>Configuración del e-Commerce desde ADempiere</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">1.1. </span><strong>Configuración de Productos desde ADempiere</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../_sources/ecommerce/ecommerce-product-configuration-from-adempiere.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="configuracion-de-productos-desde-adempiere">
+<span id="documento-configuracion-de-productos-del-ecommerce-desde-adempiere"></span><h1><span class="section-number">1.1. </span><strong>Configuración de Productos desde ADempiere</strong><a class="headerlink" href="#configuracion-de-productos-desde-adempiere" title="Permalink to this headline">¶</a></h1>
+<p>Una vez definida la estructura del menú del e-commerce y de como este se va a clasificar, se debe tener configurado de la siguiente manera el producto a mostrar en el e-commerce.</p>
+<div class="section" id="creacion-o-modificacion-del-producto">
+<span id="proceso-crear-o-modificar-producto"></span><h2><span class="section-number">1.1.1. </span><strong>Creación o Modificación del Producto</strong><a class="headerlink" href="#creacion-o-modificacion-del-producto" title="Permalink to this headline">¶</a></h2>
+<p>Para que la información relevante del producto se pueda observar en el e-commerce, se debe chequear que el mismo se encuentre creado en ADempiere, de no ser así se debe realizar el registro del producto como lo indica el material <a class="reference internal" href="../adempiere/master/product/product.html#documento-producto"><span class="std std-ref">Registro de Producto</span></a>, considerando las las siguientes características.</p>
+<ul>
+<li><p>“<strong>Campo Código</strong>”: El código del producto o unidad de mantenimiento de stock (Stock Keeping Unit “SKU”), es un valor descriptivo que identifica el producto en ADempiere. Dicho valor quedará a criterio de cada usuario para agregarlo al registro ya que este se identificará según los estándares de identificación que maneje cada negocio. Ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Siguiendo el escenario del ejemplo planteado de la configuración de la “Megatienda”, se desea registrar el producto “Aire Acondicionado Ventana 25000 BTU/220V”, el código a asociar este caso es “ARV-CON-25/220”.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>“<strong>Campo Nombre</strong>”: El nombre a colocar es el nombre del producto, este debe ser un nombre preciso que va a identificar el producto a registrar. Ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“Aire Acondicionado Ventana 25000 BTU/220V”</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>“<strong>Campo Descripción</strong>”: La información a colocar en este campo es una descripción sencilla del producto que se encuentra registrando, el cual hace referencia a una pequeña información del producto que se esta registrando. Ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“Aire Acondicionado de Ventana, controla la humedad y ahorra energía”</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>“<strong>Campo Ayuda</strong>”: En este campo se agregará una descripción detallada del producto a registrar, la misma explica de manera específica cada una de las características y funcionamiento que posee el producto. Ejemplo:</p>
+<blockquote>
+<div><ul>
+<li><p>Aire Acondicionado 25000 BTU con pantalla digital multifuncional en español, control de humedad, enfriamiento rápido, temporizador 24 horas, sistema modo de ahorro, control remoto ultra delgado, panel acústico, kit de fácil instalación y bases para soporte.</p></li>
+<li><p>Características:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Control de humedad</p></li>
+<li><p>Enfriamiento rápido</p></li>
+<li><p>Temporizador 24 horas</p></li>
+<li><p>Sistema modo de ahorro</p></li>
+<li><p>Panel acústico</p></li>
+<li><p>Voltaje: 220V</p></li>
+<li><p>Dimensiones de producto: 673x674x473 mm</p></li>
+<li><p>Dimensiones de empaque: 794x750x520 mm</p></li>
+<li><p>Peso Neto: 59 kg.</p></li>
+<li><p>Peso Bruto: 66,1 kg.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<p>Se debe tener en cuenta que, para que en el servicio del e-commerce la información a agregar en el campo ayuda se mantenga con el formato de lista y espacio en párrafos que se desee, este debe ser estructurado bajo el lenguaje de marcado “HTML”. Continuando con el ejemplo anterior para que el texto se refleje como se detalla anteriormente, se debe registrar el mismo de la siguiente manera:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="o">&lt;</span><span class="n">html</span><span class="o">&gt;</span>
+
+    <span class="o">&lt;</span><span class="n">body</span><span class="o">&gt;</span>
+
+        <span class="o">&lt;</span><span class="n">P</span><span class="o">&gt;</span> <span class="n">Aire</span> <span class="n">Acondicionado</span> <span class="mi">25000</span> <span class="n">BTU</span> <span class="n">con</span> <span class="n">pantalla</span> <span class="n">digital</span> <span class="n">multifuncional</span> <span class="n">en</span> <span class="n">español</span><span class="p">,</span> <span class="n">control</span> <span class="n">de</span> <span class="n">humedad</span><span class="p">,</span> <span class="n">enfriamiento</span> <span class="n">rápido</span><span class="p">,</span> <span class="n">temporizador</span> <span class="mi">24</span> <span class="n">horas</span><span class="p">,</span> <span class="n">sistema</span> <span class="n">modo</span> <span class="n">de</span> <span class="n">ahorro</span><span class="p">,</span> <span class="n">control</span> <span class="n">remoto</span> <span class="n">ultra</span> <span class="n">delgado</span><span class="p">,</span> <span class="n">panel</span> <span class="n">acústico</span><span class="p">,</span> <span class="n">kit</span> <span class="n">de</span> <span class="n">fácil</span> <span class="n">instalación</span> <span class="n">y</span> <span class="n">bases</span> <span class="n">para</span> <span class="n">soporte</span><span class="o">&lt;/</span><span class="n">P</span><span class="o">&gt;</span>
+
+        <span class="o">&lt;</span><span class="n">h3</span><span class="o">&gt;</span><span class="n">Características</span><span class="p">:</span><span class="o">&lt;/</span><span class="n">h3</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">ul</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">li</span><span class="o">&gt;</span> <span class="n">Control</span> <span class="n">de</span> <span class="n">humedad</span> <span class="o">&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">li</span><span class="o">&gt;</span> <span class="n">Enfriamiento</span> <span class="n">rápido</span><span class="o">&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">li</span><span class="o">&gt;</span> <span class="n">Temporizador</span> <span class="mi">24</span> <span class="n">horas</span> <span class="o">&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">li</span><span class="o">&gt;</span> <span class="n">Sistema</span> <span class="n">modo</span> <span class="n">de</span> <span class="n">ahorro</span><span class="o">&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">li</span><span class="o">&gt;</span> <span class="n">Panel</span> <span class="n">acústico</span><span class="o">&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">li</span><span class="o">&gt;</span> <span class="n">Voltaje</span><span class="p">:</span> <span class="mi">220</span><span class="n">V</span><span class="o">&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">li</span><span class="o">&gt;</span> <span class="n">Dimensiones</span> <span class="n">de</span> <span class="n">producto</span><span class="p">:</span> <span class="mi">673</span><span class="n">x674x473</span> <span class="n">mm</span><span class="o">&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">li</span><span class="o">&gt;</span> <span class="n">Dimensiones</span> <span class="n">de</span> <span class="n">empaque</span><span class="p">:</span> <span class="mi">794</span><span class="n">x750x520</span> <span class="n">mm</span><span class="o">&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">li</span><span class="o">&gt;</span> <span class="n">Peso</span> <span class="n">Neto</span><span class="p">:</span> <span class="mi">59</span> <span class="n">kg</span><span class="o">.&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+        <span class="o">&lt;</span><span class="n">li</span><span class="o">&gt;</span> <span class="n">Peso</span> <span class="n">Bruto</span><span class="p">:</span> <span class="mi">66</span><span class="p">,</span><span class="mi">1</span> <span class="n">kg</span><span class="o">&lt;/</span><span class="n">li</span><span class="o">&gt;</span>
+        <span class="o">&lt;/</span><span class="n">ul</span><span class="o">&gt;</span>
+
+    <span class="o">&lt;/</span><span class="n">body</span><span class="o">&gt;</span>
+
+<span class="o">&lt;/</span><span class="n">html</span><span class="o">&gt;</span>
+</pre></div>
+</div>
+</div></blockquote>
+</li>
+<li><p>“<strong>Campo Categoría del Producto</strong>”: Cada producto a registrar debe estar asociado a una categoría del producto, la cual es una agrupación de los productos. La selección de la misma se realiza según las características de cada producto. Ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“Comercialización Nacional”</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>“<strong>Campo UM Almacenamiento</strong>”: El valor a agregar en este campo para el caso de la configuración del e-commerce puede ser el mismo que se agregó como código del producto, el mismo funciona como el SKU y es el que se usa para buscar los productos. Ejemplo:</p>
+<ul class="simple">
+<li><p>“ARV-CON-25/220”</p></li>
+</ul>
+</li>
+<li><p>“<strong>Campo Categoría de Impuesto</strong>”: Si el producto maneja una categoría de impuesto para la venta este debe ser asociado en este campo. Si este es exento debe asociarse la categoría “Exento”, si es al contrario y maneja un valor de impuesto, este debe reflejarse seleccionando el respectivo el impuesto.</p></li>
+<li><p>“<strong>Campo UM</strong>”: En este campo se asocia la unidad de medida base con la que trabajará el producto. Si el producto se compra y vende en “Caja”, la unidad de medida sería “Caja”. Si el producto se compra y vende en “Unidad”, la unidad de medida sería “Unidad”. Para el presente ejemplo, se asociará el producto a la unidad de medida “Unidad”.</p></li>
+<li><p>“<strong>Campo Ubicación</strong>”: La asignación de la ubicación hace referencia a la ubicación donde este producto puede estar almacenado.</p></li>
+<li><p>“<strong>Campo Vendido</strong>”:  Se activa el check “Vendido” para indicar que este producto es un producto de venta.</p></li>
+<li><p>“<strong>Campo Comprado</strong>”: Se activa el check “Comprado” para indicar que este producto es un producto de compra.</p></li>
+<li><p>“<strong>Campo Destacado Tienda Web</strong>”:  Se activa el check “Destacado en la tienda Web” para indicar que este producto pertenece a la tienda web; este check es muy importante en la configuración de este producto para el e-commerce, ya que de no ser tildado como “Destacado Tienda Web” no aparecerá para ser asociado a una “Categoría de Producto en Tienda”.</p></li>
+</ul>
+<p><img alt="producto registrado" src="../_images/registered-product.png" /></p>
+<p>Imagen 1. Producto Registrado</p>
+</div>
+<div class="section" id="agregar-imagenes-al-producto">
+<span id="proceso-agregar-imagenes-al-producto"></span><h2><span class="section-number">1.1.2. </span><strong>Agregar Imágenes al Producto</strong><a class="headerlink" href="#agregar-imagenes-al-producto" title="Permalink to this headline">¶</a></h2>
+<p>Al consultar el servicio del e-commerce se puede ir observando los datos del producto registrado. Para visualizar el detalle del registro del producto se hace clic sobre el producto.s</p>
+<p>Hasta este punto solamente se observa la descripción y nombre del producto. Para agregar las imágenes del mismo al e-commerce, debe ubicar el registro de dicho producto en la ventana “<strong>Producto</strong>” desde el servicio de ADempiere y aplicar los siguientes pasos:</p>
+<p>Seleccionar el icono “<strong>Adjuntar</strong>”, ubicado en la barra de herramientas de ADempiere. Al desplegarse la ventana “<strong>Adjunto Archivo</strong>”, debe seleccionar la opción “<strong>Carga</strong>”, ubicado en la parte superior izquierda de dicha ventana.</p>
+<blockquote>
+<div><p><img alt="ventana adjunto archivo del producto registrado" src="../_images/window-attached-file-of-the-registered-product.png" /></p>
+<p>Imagen 2. Ventana Adjunto Archivo</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Cargando Archivo en Servidor</strong>”, con el campo “<strong>Seleccionar Archivo</strong>”, donde se debe selecciona la imagen que se requiere adjuntar.</p>
+<blockquote>
+<div><p><img alt="ventana cargando archivo en servidor" src="../_images/window-uploading-file-to-server.png" /></p>
+<p>Imagen 3. Ventana Cargando Archivo en Servidor</p>
+</div></blockquote>
+<p>Al hacer clic sobre el campo “<strong>Seleccionar Archivo</strong>”, podrá visualizar la ventana que apunta a los archivos del equipo donde se encuentre trabajando. En dicha ventana se debe ubicar la ruta de la imagen, seleccionar la misma y aceptar el proceso, para que la imagen sea cargada a la ventana “<strong>Cargando Archivo en Servidor</strong>”.</p>
+<blockquote>
+<div><p><img alt="seleccionar archivo para cargar en servidor" src="../_images/select-file-to-upload-to-server.png" /></p>
+<p>Imagen 4. Seleccionar Archivo para Cargar en Servidor</p>
+</div></blockquote>
+<p>El proceso se ejecuta al seleccionar la opción “<strong>Cargar Archivo(Upload)</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción cargar archivo" src="../_images/upload-file-option.png" /></p>
+<p>Imagen 5. Opción Cargar Archivo</p>
+</div></blockquote>
+<p>Finalmente, la imagen se carga a la ventana “<strong>Adjunto Archivo</strong>” y se visualiza de la siguiente forma.</p>
+<blockquote>
+<div><p><img alt="imagen cargada a adempiere" src="../_images/image-uploaded-to-adempiere.png" /></p>
+<p>Imagen 6. Imagen Cargada a ADempiere</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para que las imágenes posean una buena vista desde el e-commerce se recomienda lo siguiente:</p>
+<ul class="simple">
+<li><p>Es preferible que las imágenes trabajen con extensiones “<strong>PNG</strong>” o “<strong>JPG</strong>”.</p></li>
+<li><p>Es recomendable que las imágenes posean un tamaño en píxeles entre los 500px Altura/Ancho, esta opción dependerá de la calidad del imagen.</p></li>
+<li><p>Las imágenes deben tener un fondo blanco o deben estar sin fondo.</p></li>
+</ul>
+</div>
+<p>Seleccionar la opción aceptar, si se desea verificar como se observa la imagen asociada en el servicio del e-commerce se debe realizar el proceso <a class="reference internal" href="#proceso-exportar-catalogo-a-proveedor-de-cache"><span class="std std-ref">Exportar Catálogo a Proveedor de Cache</span></a>.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Si desea agregar varias imágenes, se deben realizar los pasos anteriormente mencionados en el procesoi <span class="xref std std-ref">proceso/agregar-imágenes</span> desde ADempiere.</p>
+</div>
+</div>
+<div class="section" id="establecer-precio-al-producto">
+<span id="proceso-establecer-precios-al-producto"></span><h2><span class="section-number">1.1.3. </span><strong>Establecer Precio al Producto</strong><a class="headerlink" href="#establecer-precio-al-producto" title="Permalink to this headline">¶</a></h2>
+<p>Hasta este punto solo se tiene el registro del producto, su configuración, datos e imágenes asociadas, ahora se requiere asociar el precio a mostrar del producto. El precio se asocia en la pestaña “<strong>Precio</strong>” de la ventana “<strong>Producto</strong>”, de la siguiente manera:</p>
+<p>Ubicar la pestaña “<strong>Precio</strong>” de la ventana “<strong>Producto</strong>” y seleccionar en el campo “<strong>Versión de Lista de Precios</strong>”, la lista de precios de venta.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Algunas de las listas de ventas pueden ser:</p>
+<ul class="simple">
+<li><p>Ventas (USD)</p></li>
+<li><p>Ventas (VES)</p></li>
+<li><p>Ventas (EUR)</p></li>
+</ul>
+</div>
+<p><img alt="precio del producto en ADempiere" src="../_images/product-price-in-adempiere.png" /></p>
+<p>Imagen 7. Precio del Producto en ADempiere</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>La asignación de la lista de precio dependera de la moneda o los precios que se deseen visualizar en el E-commerce.</p>
+</div>
+</div>
+<div class="section" id="exportar-catalogo-a-proveedor-de-cache">
+<span id="proceso-exportar-catalogo-a-proveedor-de-cache"></span><h2><span class="section-number">1.1.4. </span><strong>Exportar Catálogo a Proveedor de Cache</strong><a class="headerlink" href="#exportar-catalogo-a-proveedor-de-cache" title="Permalink to this headline">¶</a></h2>
+<p>Luego de ser asociados los productos a las categorías, se debe aplicar el proceso “<strong>Exportar Catálogo a Proveedor de Cache</strong>”, para que este viaje a la cache del e-commerce y se pueda reflejar en el servicio de la tienda.</p>
+<p>Para aplicar el proceso debe ubicar en el menú de ADempiere, la carpeta “<strong>Definición de Tienda Web</strong>”, luego seleccione el proceso “<strong>Exportar Catálogo a Proveedor de Cache</strong>”. Una vez en la ventana del proceso, debe seleccionar la opción “<strong>ERP Store</strong>”, en el campo “<strong>Tienda Web</strong>”, para finalmente ejecutar el proceso seleccionando la opción “<strong>OK</strong>”.</p>
+<p><img alt="ventana exportar catálogo a proveedor de cache" src="../_images/export-catalog-to-cache-provider-window.png" /></p>
+<p>Imagen 8. Ventana Exportar Catálogo a Proveedor de Cache</p>
+<p>Al aplicar el proceso y ubicar el producto en la ruta indicada de la tienda, este se observará de la siguiente forma</p>
+<p><img alt="registro del producto en el e-commerce" src="../_images/product-registration-in-e-commerce.png" /></p>
+<p>Imagen 9. Registro del Producto en el e-commerce</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Cuando se tenga por completo el registro del producto y este ya se encuentre exportado con sus respectivos detalles o información. Por cada modificación adicional que se le aplique al registro del producto, se debe ejecutar nuevamente el proceso “<strong>Exportar Catálogo a Proveedor de Cache</strong>” y consultar el resultado del proceso en el servicio del e-commerce. De lo contrario, no será actualizada en el e-commerce la información agregada en el registro del producto en ADempiere.</p>
+</div>
+<p>Al tener la información básica del producto y que el registro del mismo tenga activo el check “Destacado en la tienda Web”, el producto podrá ser asociado en una “Categoría Hija o Subgrupo de Productos” en la tienda web.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Siguiendo con la estructura del ejemplo de la “Megatienda” expuesto en la <a class="reference internal" href="index.html#src-ecommerce"><span class="std std-ref">Configuración del e-Commerce desde ADempiere</span></a>, el producto “<strong>Aire Acondicionado Ventana 25000 BTU/220V</strong>”, será asociado a la subcategoría hija “<strong>Aires Acondicionados</strong>”, misma que pertenece a la categoría hija “<strong>Línea Blanca</strong>”, de la categoría padre “<strong>Hogar</strong>”.</p></li>
+</ul>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="ecommerce-category-configuration-from-adempiere.html" class="btn btn-neutral float-right" title="1.2. Configuración de Categorías desde ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="1. Configuración del e-Commerce desde ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
