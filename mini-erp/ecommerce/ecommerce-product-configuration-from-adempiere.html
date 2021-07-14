@@ -311,13 +311,17 @@
 <li><p>“<strong>Campo Comprado</strong>”: Se activa el check “Comprado” para indicar que este producto es un producto de compra.</p></li>
 <li><p>“<strong>Campo Destacado Tienda Web</strong>”:  Se activa el check “Destacado en la tienda Web” para indicar que este producto pertenece a la tienda web; este check es muy importante en la configuración de este producto para el e-commerce, ya que de no ser tildado como “Destacado Tienda Web” no aparecerá para ser asociado a una “Categoría de Producto en Tienda”.</p></li>
 </ul>
+<p>Se procede a guardar el registro de los campos con ayuda del icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere. Si se desea verificar como se observa el registro del producto en el servicio del e-commerce se debe realizar el proceso <a class="reference internal" href="#proceso-exportar-catalogo-a-proveedor-de-cache"><span class="std std-ref">Exportar Catálogo a Proveedor de Cache</span></a>, explicado más adelante.</p>
 <p><img alt="producto registrado" src="../_images/registered-product.png" /></p>
 <p>Imagen 1. Producto Registrado</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Luego de exportar el catálogo a proveedor de cache, por cada modificación que sea realizada al producto y consultar el servicio del e-commerce se puede ir observando los datos del producto registrado. Para visualizar el detalle del registro del producto se hace clic sobre el producto.</p>
+</div>
 </div>
 <div class="section" id="agregar-imagenes-al-producto">
 <span id="proceso-agregar-imagenes-al-producto"></span><h2><span class="section-number">1.1.2. </span><strong>Agregar Imágenes al Producto</strong><a class="headerlink" href="#agregar-imagenes-al-producto" title="Permalink to this headline">¶</a></h2>
-<p>Al consultar el servicio del e-commerce se puede ir observando los datos del producto registrado. Para visualizar el detalle del registro del producto se hace clic sobre el producto.s</p>
-<p>Hasta este punto solamente se observa la descripción y nombre del producto. Para agregar las imágenes del mismo al e-commerce, debe ubicar el registro de dicho producto en la ventana “<strong>Producto</strong>” desde el servicio de ADempiere y aplicar los siguientes pasos:</p>
+<p>Para agregar las imágenes del producto al e-commerce, debe ubicar el registro de dicho producto en la ventana “<strong>Producto</strong>” desde el servicio de ADempiere y aplicar los siguientes pasos:</p>
 <p>Seleccionar el icono “<strong>Adjuntar</strong>”, ubicado en la barra de herramientas de ADempiere. Al desplegarse la ventana “<strong>Adjunto Archivo</strong>”, debe seleccionar la opción “<strong>Carga</strong>”, ubicado en la parte superior izquierda de dicha ventana.</p>
 <blockquote>
 <div><p><img alt="ventana adjunto archivo del producto registrado" src="../_images/window-attached-file-of-the-registered-product.png" /></p>
@@ -352,10 +356,12 @@
 <li><p>Las imágenes deben tener un fondo blanco o deben estar sin fondo.</p></li>
 </ul>
 </div>
-<p>Seleccionar la opción aceptar, si se desea verificar como se observa la imagen asociada en el servicio del e-commerce se debe realizar el proceso <a class="reference internal" href="#proceso-exportar-catalogo-a-proveedor-de-cache"><span class="std std-ref">Exportar Catálogo a Proveedor de Cache</span></a>.</p>
+<p>Se procede a seleccionar la opción aceptar para cargar la imagen al registro del producto. Si se desea verificar como se observa la imagen asociada en el servicio del e-commerce se debe realizar el proceso <a class="reference internal" href="#proceso-exportar-catalogo-a-proveedor-de-cache"><span class="std std-ref">Exportar Catálogo a Proveedor de Cache</span></a>, explicado más adelante.</p>
+<p><img alt="imagen registrada" src="../_images/registered-image.png" /></p>
+<p>Imagen 7. Imagen Agregada</p>
 <div class="admonition warning">
 <p class="admonition-title">Warning</p>
-<p>Si desea agregar varias imágenes, se deben realizar los pasos anteriormente mencionados en el procesoi <span class="xref std std-ref">proceso/agregar-imágenes</span> desde ADempiere.</p>
+<p>Si desea agregar varias imágenes, se deben realizar los pasos anteriormente mencionados en el proceso <a class="reference internal" href="#proceso-agregar-imagenes-al-producto"><span class="std std-ref">Agregar Imágenes al Producto</span></a> desde ADempiere.</p>
 </div>
 </div>
 <div class="section" id="establecer-precio-al-producto">
@@ -364,39 +370,36 @@
 <p>Ubicar la pestaña “<strong>Precio</strong>” de la ventana “<strong>Producto</strong>” y seleccionar en el campo “<strong>Versión de Lista de Precios</strong>”, la lista de precios de venta.</p>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Algunas de las listas de ventas pueden ser:</p>
+<p>La asignación de la lista de precio dependera de la moneda o los precios que se deseen visualizar en el E-commerce. Algunas de las listas de ventas pueden ser:</p>
 <ul class="simple">
 <li><p>Ventas (USD)</p></li>
 <li><p>Ventas (VES)</p></li>
 <li><p>Ventas (EUR)</p></li>
 </ul>
 </div>
+<p>Si se desea verificar como se observa el precio del producto en el servicio del e-commerce se debe realizar el proceso <a class="reference internal" href="#proceso-exportar-catalogo-a-proveedor-de-cache"><span class="std std-ref">Exportar Catálogo a Proveedor de Cache</span></a>, explicado más adelante.</p>
 <p><img alt="precio del producto en ADempiere" src="../_images/product-price-in-adempiere.png" /></p>
-<p>Imagen 7. Precio del Producto en ADempiere</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>La asignación de la lista de precio dependera de la moneda o los precios que se deseen visualizar en el E-commerce.</p>
-</div>
+<p>Imagen 8. Precio del Producto</p>
 </div>
 <div class="section" id="exportar-catalogo-a-proveedor-de-cache">
 <span id="proceso-exportar-catalogo-a-proveedor-de-cache"></span><h2><span class="section-number">1.1.4. </span><strong>Exportar Catálogo a Proveedor de Cache</strong><a class="headerlink" href="#exportar-catalogo-a-proveedor-de-cache" title="Permalink to this headline">¶</a></h2>
-<p>Luego de ser asociados los productos a las categorías, se debe aplicar el proceso “<strong>Exportar Catálogo a Proveedor de Cache</strong>”, para que este viaje a la cache del e-commerce y se pueda reflejar en el servicio de la tienda.</p>
-<p>Para aplicar el proceso debe ubicar en el menú de ADempiere, la carpeta “<strong>Definición de Tienda Web</strong>”, luego seleccione el proceso “<strong>Exportar Catálogo a Proveedor de Cache</strong>”. Una vez en la ventana del proceso, debe seleccionar la opción “<strong>ERP Store</strong>”, en el campo “<strong>Tienda Web</strong>”, para finalmente ejecutar el proceso seleccionando la opción “<strong>OK</strong>”.</p>
-<p><img alt="ventana exportar catálogo a proveedor de cache" src="../_images/export-catalog-to-cache-provider-window.png" /></p>
-<p>Imagen 8. Ventana Exportar Catálogo a Proveedor de Cache</p>
-<p>Al aplicar el proceso y ubicar el producto en la ruta indicada de la tienda, este se observará de la siguiente forma</p>
-<p><img alt="registro del producto en el e-commerce" src="../_images/product-registration-in-e-commerce.png" /></p>
-<p>Imagen 9. Registro del Producto en el e-commerce</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>Cuando se tenga por completo el registro del producto y este ya se encuentre exportado con sus respectivos detalles o información. Por cada modificación adicional que se le aplique al registro del producto, se debe ejecutar nuevamente el proceso “<strong>Exportar Catálogo a Proveedor de Cache</strong>” y consultar el resultado del proceso en el servicio del e-commerce. De lo contrario, no será actualizada en el e-commerce la información agregada en el registro del producto en ADempiere.</p>
-</div>
 <p>Al tener la información básica del producto y que el registro del mismo tenga activo el check “Destacado en la tienda Web”, el producto podrá ser asociado en una “Categoría Hija o Subgrupo de Productos” en la tienda web.</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>Siguiendo con la estructura del ejemplo de la “Megatienda” expuesto en la <a class="reference internal" href="index.html#src-ecommerce"><span class="std std-ref">Configuración del e-Commerce desde ADempiere</span></a>, el producto “<strong>Aire Acondicionado Ventana 25000 BTU/220V</strong>”, será asociado a la subcategoría hija “<strong>Aires Acondicionados</strong>”, misma que pertenece a la categoría hija “<strong>Línea Blanca</strong>”, de la categoría padre “<strong>Hogar</strong>”.</p></li>
 </ul>
 </div></blockquote>
+<p>Luego de ser asociados los productos a las categorías, se debe aplicar el proceso “<strong>Exportar Catálogo a Proveedor de Cache</strong>”, para que este viaje a la cache del e-commerce y se pueda reflejar en el servicio de la tienda.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Cuando se tenga por completo el registro del producto y este ya se encuentre exportado con sus respectivos detalles o información. Por cada modificación adicional que se le aplique al registro del producto, se debe ejecutar nuevamente el proceso “<strong>Exportar Catálogo a Proveedor de Cache</strong>” y consultar el resultado del proceso en el servicio del e-commerce. De lo contrario, no será actualizada en el e-commerce la información agregada en el registro del producto en ADempiere.</p>
+</div>
+<p>Para aplicar el proceso debe ubicar en el menú de ADempiere, la carpeta “<strong>Definición de Tienda Web</strong>”, luego seleccione el proceso “<strong>Exportar Catálogo a Proveedor de Cache</strong>”. Una vez en la ventana del proceso, debe seleccionar la opción “<strong>ERP Store</strong>”, en el campo “<strong>Tienda Web</strong>”, para finalmente ejecutar el proceso seleccionando la opción “<strong>OK</strong>”.</p>
+<p><img alt="ventana exportar catálogo a proveedor de cache" src="../_images/export-catalog-to-cache-provider-window.png" /></p>
+<p>Imagen 8. Ventana Exportar Catálogo a Proveedor de Cache</p>
+<p>Al aplicar el proceso y ubicar el producto en la ruta indicada de la tienda, este se observará de la siguiente forma</p>
+<p><img alt="registro del producto en el e-commerce" src="../_images/product-registration-in-e-commerce.png" /></p>
+<p>Imagen 9. Registro del Producto en el e-commerce</p>
 </div>
 </div>
 
