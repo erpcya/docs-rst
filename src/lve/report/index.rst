@@ -18,3 +18,5 @@ Esta documentación está destinada a explicar de manera detalla, cada uno de lo
     storage-detail
     open-balances
     transaction-details
+    payment-details
+    pay-assignment-report
