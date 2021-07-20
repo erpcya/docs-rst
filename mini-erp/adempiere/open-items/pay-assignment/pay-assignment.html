@@ -1,0 +1,450 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>6.7.1. Asignación de Pagos/Cobros a Documentos por Pagar o Cobrar &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="6.8. Cierre de Caja" href="../cash-closing/index.html" />
+    <link rel="prev" title="6.7. Asignación de Pagos" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">6. <strong>Gestión de Saldos Pendientes</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../currency-conversion/index.html">6.1. <strong>Conversión Monetaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bank-transfer/index.html">6.2. <strong>Transferencia Bancaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payment/index.html">6.3. <strong>Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection/index.html">6.4. <strong>Cobro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash/index.html">6.5. <strong>Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection-cash/index.html">6.6. <strong>Caja Cobranza</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">6.7. <strong>Asignación de Pagos</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">6.7.1. <strong>Asignación de Pagos/Cobros a Documentos por Pagar o Cobrar</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-closing/index.html">6.8. <strong>Cierre de Caja</strong></a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><span class="section-number">6. </span><strong>Gestión de Saldos Pendientes</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">6.7. </span><strong>Asignación de Pagos</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">6.7.1. </span><strong>Asignación de Pagos/Cobros a Documentos por Pagar o Cobrar</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/open-items/pay-assignment/pay-assignment.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="asignacion-de-pagos-cobros-a-documentos-por-pagar-o-cobrar">
+<span id="documento-asignacion-de-pagos-o-cobros-a-documentos-x-c-o-p"></span><h1><span class="section-number">6.7.1. </span><strong>Asignación de Pagos/Cobros a Documentos por Pagar o Cobrar</strong><a class="headerlink" href="#asignacion-de-pagos-cobros-a-documentos-por-pagar-o-cobrar" title="Permalink to this headline">¶</a></h1>
+<p>Una vez registrado el pago u cobro en la ventana “<strong>Pago/Cobro</strong>” y el documento ya sea por pagar o cobrar, se puede proceder a asignar dichos documentos, teniendo en cuenta el siguiente escenario donde se debe asociar un pago registrado en ADempiere antes de que el proveedor emita la factura , dicho pago saldará por completo la cuenta por pagar  que tiene la factura registrada de un proveedor, para ubicar y hacer el cruce se deben realizar los siguientes pasos:</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la ventana “<strong>Asignación de Pagos</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de asignación de pagos" src="../../../_images/pay-assignment-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana del proceso “<strong>Asignación de Pagos</strong>”, con diferentes campos que permiten filtrar la información en base a lo requerido.</p>
+<blockquote>
+<div><p><img alt="ventana asignación de pagos" src="../../../_images/payment-allocation-window.png" /></p>
+<p>Imagen 2. Ventana ASignación de Pagos</p>
+</div></blockquote>
+<p>Al desplegar dicha ventana se puede ubicar los pagos y documentos a través de los siguientes criterios de búsqueda.</p>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al utilizar este criterio de búsqueda, ADempiere solo ubicará en dicha ventana los documentos que no tengan asignaciones y que posean un saldo abierto de ese socio de negocio.</p>
+</div>
+<p><img alt="campo socio del negocio de la ventana asignación de pagos" src="../../../_images/business-partner-field-of-the-payment-assignment-window.png" /></p>
+<p>Imagen 3. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha</strong>”, la fecha de la asignación.</p>
+<blockquote>
+<div><p><img alt="campo fecha de la ventana asignación de pagos" src="../../../_images/date-field-of-the-payment-assignment-window.png" /></p>
+<p>Imagen 4. Campo Fecha</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización de la asignación.</p>
+<blockquote>
+<div><p><img alt="campo organización de la ventana asignación de pagos" src="../../../_images/organization-field-of-the-payment-assignment-window.png" /></p>
+<p>Imagen 5. Campo Organización</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda de la asignación.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si en este punto se encuentra activo el check “<strong>Multimoneda</strong>” y se predetermina una moneda en este campo, la ventana asignación de pagos convertirá sus saldos de aquellos registros que se encuentre con una moneda diferente a la moneda predeterminada, respetando el tipo de conversión y la tasa cargada a la fecha de cada registro.</p>
+</div>
+<p><img alt="campo moneda de la ventana asignación de pagos" src="../../../_images/currency-field-of-the-payment-allocation-window.png" /></p>
+<p>Imagen 6. Campo Moneda</p>
+</div></blockquote>
+<p>Seleccione el check “<strong>Multimoneda</strong>”, para generar la asignación en multimoneda.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Este check permite visualizar registros de diferentes monedas a la factura.</p>
+</div>
+<p><img alt="check multimoneda de la ventana asignación de pagos" src="../../../_images/multi-currency-check-of-the-payment-assignment-window.png" /></p>
+<p>Imagen 7. Check Multimoneda</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>CP - CC</strong>”, el tipo de cuenta por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Esta opción permite indicarle a ADempiere que documentos requiere visualizar, si són solo de la parte de compras, solo de la parte de ventas, o ambos. Para ello, se estable de la siguiente manera:</p>
+<ul class="simple">
+<li><p><strong>CxC &amp; CxP</strong>: Muestra tanto cobros, pagos, documentos por pagar y documentos por cobrar.</p></li>
+<li><p><strong>CxC</strong>: Muestra solo cobros y documentos por cobrar</p></li>
+<li><p><strong>CxP</strong>: Muestra solo pagos y documentos por pagar</p></li>
+</ul>
+</div>
+<p><img alt="campo cp cc de la ventana asignación de pagos" src="../../../_images/cp-cc-field-of-the-payment-assignment-window.png" /></p>
+<p>Imagen 8. Campo CP - CC</p>
+</div></blockquote>
+<p>El check “<strong>Ajuste Automático</strong>”, permite asignar automáticamente los pagos/cobros hacia los documentos por pagar o cobrar, tomando coincidencias de saldos entre los saldos abiertos.</p>
+<blockquote>
+<div><p><img alt="check ajuste automático de la ventana de pagos" src="../../../_images/check-automatic-adjustment-of-the-payment-window.png" /></p>
+<p>Imagen 9. Check Ajuste Automático</p>
+</div></blockquote>
+<p>Podrá visualizar en el panel “<strong>Pago</strong>”, el resultado de todos los “<strong>Pagos/Cobros</strong>” con coincidencia por la búsqueda.</p>
+<blockquote>
+<div><p><img alt="panel pago de la ventana asignación de pagos" src="../../../_images/payment-panel-of-the-payment-assignment-window.png" /></p>
+<p>Imagen 10. Panel Pago</p>
+</div></blockquote>
+<p>Podrá visualizar en el panel “<strong>Factura</strong>”, el resultado de todas las facturas con coincidencia por la búsqueda.</p>
+<blockquote>
+<div><p><img alt="campo factura de la ventana asignación de pagos" src="../../../_images/invoice-field-of-the-payment-assignment-window.png" /></p>
+<p>Imagen 11. Panel Factura</p>
+</div></blockquote>
+<p>Seleccione los registros de pago/cobro y factura que requiere asociar. Dicha selección se debe realizar considerando lo siguiente.</p>
+<blockquote>
+<div><p>Cuando el monto total del pago/cobro es mayor al monto total de la factura se debe seleccionar primero el registro de la factura. Esto con el propósito de que en la asignación se indique que el monto a saldar o a tomar del pago debe ser igual al de la factura, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Se tiene un pago de 5.000.00,00 y una factura de CxP de 2.000.000,00 , el monto que se desea cruzar contra la factura deben ser los 2.000.000,00 para poder saldarla en sus totalidad y se necesita tener los otros 3.000.000,00 disponibles del pago para cruzarlos a asignarlos contra otra factura que envie el proveedor ;para este caso se tilda primero la factura,luego el pago y se tilda la opción “Ok” de la ventana, en este punto se salda esos 2.000.000,00 del documento por pagar y quedan del movimiento del pago 3.000.000,00 abiertos para ser asignados contra otro documento.</p></li>
+</ul>
+</div></blockquote>
+<p>Cuando el monto total del pago/cobro es mayor al monto total de la factura se puede seleccionar primero el pago y luego la factura, o primero la factura y luego el pago, de las dos formas se puede aplicar la asignación, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Se tiene un pago de 5.000.000,00 y un documento por pagar de 5.000.000,00 el cual se desea asignar por su totalidad para ello se puede asignar primero el pago y luego la factura o viceversa , de igual forma ambos documentos se van a asignar por su totalidad</p></li>
+</ul>
+</div></blockquote>
+<p>Cuando el monto total del pago/cobro es menor al monto total de la factura se debe seleccionar primero el registro del pago/cobro y luego la factura, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Se tiene un pago de 5.200.000,00 y una factura de 5.800.000,00 el proveedor en su momento había realizado un anticipo del monto total sin retenciones el cual da 5.200.000,00 y factura hasta los momentos tiene un saldo abierto de 5.800.000,00 por que no se le ha aplicado la retención del IVA de 75%, para este caso el monto que se debe asignar a la factura es el monto del pago y para ello se tilda primero el pago y luego la factura y se tilda la opción “OK”</p></li>
+</ul>
+</div></blockquote>
+<p><img alt="selección de registros para cruces de cuentas" src="../../../_images/record-selection-for-account-crossovers.png" /></p>
+<p>Imagen 12. Selección de registros para cruce de cuentas</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Si requiere asociar más de un registro a la factura, debe seleccionar todos los registros que requiera asociar la factura.</p>
+</div>
+</div></blockquote>
+<p>En el campo “<strong>Diferencia</strong>”, será visualizado el monto de diferencia resultante del cruce entre la factura y los pagos/cobros.</p>
+<blockquote>
+<div><p><img alt="campo diferencia de la ventana asignación de pagos" src="../../../_images/difference-field-of-the-payment-assignment-window.png" /></p>
+<p>Imagen 13. Campo Diferencia</p>
+</div></blockquote>
+<p>En el campo “<strong>Cargo</strong>”, podrá visualizar los diferentes cargos disponibles que pueden ser utilizados para justificar el proceso que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo cargo de la ventana asignación de pagos" src="../../../_images/charge-field-of-the-payment-assignment-window.png" /></p>
+<p>Imagen 14. Campo Cargo</p>
+</div></blockquote>
+<p>En el campo “<strong>Organización</strong>”, la organización para la cual se encuentra realizando el proceso.</p>
+<blockquote>
+<div><p><img alt="campo organización para generar de la ventana asignación de pagos" src="../../../_images/organization-field-to-generate-from-the-payment-assignment-window.png" /></p>
+<p>Imagen 15. Campo Organización</p>
+</div></blockquote>
+<p>En el campo “<strong>Descripción</strong>”, puede agregar una breve descripción referente al proceso que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la ventana asignación de pagos" src="../../../_images/field-description-of-the-payment-assignment-window.png" /></p>
+<p>Imagen 16. Campo Descripción</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para ejecutar el proceso.</p>
+<blockquote>
+<div><p><img alt="opción ok de la ventana asignación de pagos" src="../../../_images/ok-option-of-the-payment-assignment-window.png" /></p>
+<p>Imagen 17. Opción OK</p>
+</div></blockquote>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Si el escenario se presenta con los documentos por cobrar, se aplica el mismo procedimiento pero con la diferencia de que estos son cobros contra documentos por cobrar.</p>
+</div>
+<p>Para verificar los pagos/cobros que estén asociado a un documento por pagar o por cobrar, se puede generar el reporte <a class="reference internal" href="../../../lve/report/pay-assignment-report.html#documento-reporte-de-asignacion-de-pago"><span class="std std-ref">Asignación de Pago</span></a>, donde se observa que pagos/cobros han sido asociados a los documentos por pagar o por cobrar y si queda un saldo abierto.</p>
+<blockquote>
+<div><p><img alt="reporte de asignación de pagos" src="../../../_images/payment-allocation-report.png" /></p>
+<p>Imagen 18. Reporte de Asignación de Pagos</p>
+</div></blockquote>
+<p>Por otra parte, una observación muy peculiar en los documentos que han sido saldado en su totalidad es el check “<strong>Pagado</strong>” que se encuentra en toda ventana de documento por pagar o documentos por cobrar. Al estar activo check “<strong>Pagado</strong>” es por que la factura se saldo en su totalidad, de no ser así y el pago fue parcial hasta que no se complete el pago por el “<strong>Gran Total</strong>” de la factura no se tildara como “<strong>Pagado</strong>”.</p>
+<blockquote>
+<div><p><img alt="check pagado del documento por pagar o cobrar" src="../../../_images/check-paid-of-the-document-to-pay-or-collect.png" /></p>
+<p>Imagen 19. Check Pagado del Documento por Pagar o Cobrar</p>
+</div></blockquote>
+<p>Se puede comprobar con que pago o cobro se asigno el “<strong>Documento por Pagar</strong>” o “<strong>Documento por Cobrar</strong>”, seleccionando el icono “<strong>Visualiza Detalle (Donde es Usado)</strong>” ubicado en la barra de herramientas de ADempiere, de la ventana “<strong>Documento por Pagar</strong>” o “<strong>Documento por Cobrar</strong>”. Luego se debe seleccionar la opción “<strong>Pagos Asignados</strong>”. Al seleccionar dicha opción, ADempiere acercará la ventana del pago asociado, confirmando así que los documentos fueron vinculados correctamente.</p>
+<blockquote>
+<div><p><img alt="consulta de vínculo de pago cobro con factura" src="../../../_images/consultation-of-payment-link-collection-with-invoice.png" /></p>
+<p>Imagen 20. Consulta de Vínculo</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Esta función sólo aplica con aquellos pagos/cobros que han sido registrados a través de la ventana “<strong>Pago/Cobro</strong>”, si los pagos/cobros fueron registrados a través de la ventana “<strong>Caja</strong>” no funcionará correctamente esta opción y para ubicarlos se debe ir a la ventana caja, para más información de los registros de pagos/cobros desde la ventana “<strong>Pago/Cobro</strong>” o ventana “<strong>Caja</strong>”, puede consultar los respectivos documentos <a class="reference internal" href="../payment/index.html#src-adempiere-open-items-payment"><span class="std std-ref">Pago</span></a>, <a class="reference internal" href="../collection/index.html#src-adempiere-open-items-collection"><span class="std std-ref">Cobro</span></a> y <a class="reference internal" href="../cash/cash.html#documento-registro-de-caja"><span class="std std-ref">Registro de Caja</span></a>.</p>
+</div>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../cash-closing/index.html" class="btn btn-neutral float-right" title="6.8. Cierre de Caja" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="6.7. Asignación de Pagos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

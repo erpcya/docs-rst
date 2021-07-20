@@ -1,0 +1,469 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>4.10. Detalles del Pago &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="4.11. Asignación de Pago" href="pay-assignment-report.html" />
+    <link rel="prev" title="4.9. Detalle de Transacciones" href="transaction-details.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html">5. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. <strong>Reportes de ADempiere</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="invoice-summary.html">4.1. <strong>Resumen de Facturas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="invoice-details-and-margin.html">4.2. <strong>Detalles de Facturas y Margen</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="details-of-invoices-and-margin-according-to-purchases.html">4.3. <strong>Detalles de Facturas y Margen (Margen según Compras)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="order-detail.html">4.4. <strong>Detalle de la Orden</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cash-detail-report.html">4.5. <strong>Detalle de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="consignment-detail-report.html">4.6. <strong>Reporte de Detalle de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="storage-detail.html">4.7. <strong>Detalle de Almacenamiento</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="open-balances.html">4.8. <strong>Saldos Abiertos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transaction-details.html">4.9. <strong>Detalle de Transacciones</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4.10. <strong>Detalles del Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="pay-assignment-report.html">4.11. <strong>Asignación de Pago</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">4. </span><strong>Reportes de ADempiere</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">4.10. </span><strong>Detalles del Pago</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/lve/report/payment-details.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="detalles-del-pago">
+<span id="documento-reporte-detalles-del-pago"></span><h1><span class="section-number">4.10. </span><strong>Detalles del Pago</strong><a class="headerlink" href="#detalles-del-pago" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione el reporte “<strong>Detalles del Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de reporte detalles del pago" src="../../_images/report-menu-payment-details.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana del reporte “<strong>Detalles del Pago</strong>”, con diferentes campos que permiten filtrar la información en base a lo requerido por el usuario.</p>
+<blockquote>
+<div><p><img alt="ventana del reporte detalles del pago" src="../../_images/payment-details-report-window.png" /></p>
+<p>Imagen 2.  Ventana del Reporte Detalles del Pago</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si en algunos de los campos o filtros que se visualizan en la pantalla no se ingresa información, el reporte arrojara todos los datos que impliquen ese campo.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cuenta Bancaria</strong>”, la cuenta bancaria por la cual requiere filtrar la información del reporte.</p>
+<blockquote>
+<div><p><img alt="campo cuenta bancaria del reporte detalles del pago" src="../../_images/bank-account-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 3. Campo Cuenta Bancaria</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio por el cual requiere filtrar la información del reporte.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio del reporte detalles del pago" src="../../_images/business-partner-field-of-the-report-payment-details.png" /></p>
+<p>Imagen 4. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de la Transacción</strong>”, el rango de fecha de la transacción por el cual requiere filtrar la información del reporte.</p>
+<blockquote>
+<div><p><img alt="campo fecha de la transacción del reporte detalles del pago" src="../../_images/transaction-date-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 5. Campo Fecha de la Transacción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha Contable</strong>”, el rango de fecha contable por el cual requiere filtrar la información del reporte.</p>
+<blockquote>
+<div><p><img alt="campo fecha contable del reporte detalles del pago" src="../../_images/accounting-date-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 6. Campo Fecha Contable</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Total del Pago</strong>”, el rango del monto total por el cual requiere filtrar la información del reporte.</p>
+<blockquote>
+<div><p><img alt="campo total del pago del reporte detalles del pago" src="../../_images/total-field-of-the-payment-report-payment-details.png" /></p>
+<p>Imagen 7. Campo Total del Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Pago</strong>”, el tipo de pago por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo tipo de pago del reporte detalles del pago" src="../../_images/payment-type-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 8. Campo Tipo de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento</strong>”, el tipo de documento por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento del reporte detalles del pago" src="../../_images/document-type-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 9. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Estado del Documento</strong>”, el estado de documento por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo estado del documento del reporte detalles del pago" src="../../_images/report-document-status-field-payment-details.png" /></p>
+<p>Imagen 10. Campo Estado del Documento</p>
+</div></blockquote>
+<p>Indique en el campo “<strong>Cobros</strong>”, si requiere filtrar el reporte por cobros o por pagos.</p>
+<blockquote>
+<div><p><img alt="campo cobros del reporte detalles del pago" src="../../_images/collections-field-of-the-report-payment-details.png" /></p>
+<p>Imagen 11. Campo Cobros</p>
+</div></blockquote>
+<p>Indique en el campo “<strong>Anticipo</strong>”, si requiere filtrar el reporte por anticipos o no.</p>
+<blockquote>
+<div><p><img alt="campo anticipos del reporte detalles del pago" src="../../_images/advances-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 12. Campo Anticipos</p>
+</div></blockquote>
+<p>Indique en el campo “<strong>Asignado</strong>”, si requiere que el reporte sea filtrado por registros asignado.</p>
+<blockquote>
+<div><p><img alt="campo asignado del reporte detalles del pago" src="../../_images/assigned-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 13. Campo Asignado</p>
+</div></blockquote>
+<p>Indique en el campo “<strong>Conciliado</strong>”, si requiere que el reporte sea filtrado por registros conciliados o no.</p>
+<blockquote>
+<div><p><img alt="campo conciliado del reporte detalles del pago" src="../../_images/reconciled-field-of-payment-details-report.png" /></p>
+<p>Imagen 14. Campo Conciliado</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Orden de Venta</strong>”, la orden de venta por la cual requiere generar el reporte.</p>
+<blockquote>
+<div><p><img alt="campo orden de venta del reporte detalles del pago" src="../../_images/sales-order-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 15. Campo Orden de Venta</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Factura</strong>”, la factura por la cual requiere filtrar la información del reporte.</p>
+<blockquote>
+<div><p><img alt="campo factura del reporte detalles del pago" src="../../_images/invoice-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 16. Campo Factura</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Actividad</strong>”, la actividad por la cual requiere filtrar la información del reporte.</p>
+<blockquote>
+<div><p><img alt="campo actividad del reporte detalles del pago" src="../../_images/report-activity-field-payment-details.png" /></p>
+<p>Imagen 17. Campo Actividad</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Campaña</strong>”, la campaña por la cual requiere filtrar la información del reporte.</p>
+<blockquote>
+<div><p><img alt="campo campaña del reporte detalles del pago" src="../../_images/campaign-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 18. Campo Campaña</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Proyecto</strong>”, el proyecto por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo proyecto del reporte detalles del pago" src="../../_images/project-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 19. Campo Proyecto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Cargo</strong>”, el cargo por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo cargo del reporte detalles del pago" src="../../_images/report-charge-field-payment-details.png" /></p>
+<p>Imagen 20. Campo Cargo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo moneda del reporte detalles del pago" src="../../_images/report-currency-field-payment-details.png" /></p>
+<p>Imagen 21. Campo Moneda</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lote de Pagos</strong>”, el lote de pagos por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo lote de pagos del reporte detalles del pago" src="../../_images/payment-batch-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 22. Campo Lote de Pagos</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Pago sin Identificar</strong>”, el pago sin identificar por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo pago sin identificar del reporte detalles del pago" src="../../_images/unidentified-payment-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 23. Campo Pago sin Identificar</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Pago Referido</strong>”, el pago referido por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo pago referido del reporte detalles del pago" src="../../_images/referred-payment-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 24. Campo Pago Referido</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Pago Relacionado</strong>”, el pago relacionado por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo pago relacionado del reporte detalles del pago" src="../../_images/related-payment-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 25. Campo Pago Relacionado</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Grupo de Ventas</strong>”, el grupo de ventas por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo grupo de ventas del reporte detalles del pago" src="../../_images/sales-group-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 26. Campo Grupo de Ventas</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Cuenta</strong>”, el tipo de cuenta por la cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo tipo de cuenta del reporte detalles del pago" src="../../_images/account-type-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 27. Campo Tipo de Cuenta</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Segmento</strong>”, el segmento por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo segmento del reporte detalles del pago" src="../../_images/segment-field-of-the-payment-details-report.png" /></p>
+<p>Imagen 28. Campo Segmento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Industria</strong>”, el tipo de industria por el cual requiere filtrar la información.</p>
+<blockquote>
+<div><p><img alt="campo tipo de industria del reporte detalles del pago" src="../../_images/field-type-of-industry-of-the-report-payment-details.png" /></p>
+<p>Imagen 29. Campo Tipo de Industria</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para generar el reporte en base a lo seleccionado en los campos indicados anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción ok del reporte detalles del pago" src="../../_images/ok-option-of-the-payment-details-report.png" /></p>
+<p>Imagen 30. Opción OK</p>
+</div></blockquote>
+<p>Podrá visualizar de la siguiente manera el reporte “<strong>Detalles del Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="reporte detalles del pago" src="../../_images/report-payment-details.png" /></p>
+<p>Imagen 31. Reporte Detalles del Pago</p>
+<p>Este reporte esta compuesto por siete (7) columnas y arroja un total por moneda y tipo de pago:</p>
+<ul class="simple">
+<li><p><strong>No de Cuenta:</strong> Refleja el banco y numero de cuenta de la transacción.</p></li>
+<li><p><strong>Fecha transacción:</strong> Indica el dia del movimiento realizado (ingreso o egreso)</p></li>
+<li><p><strong>Socio del Negocio:</strong> Identifica al proveedor, cliente o empleado</p></li>
+<li><p><strong>No del Documento:</strong> Identifica el pago o cobro</p></li>
+<li><p><strong>Factura:</strong> Refleja el documento con el que se asigno dicho pago o cobro.</p></li>
+<li><p><strong>Estado del Documento:</strong> Refleja el estatus de la factura a la cual se le esta aplicando el pago o cobro.</p></li>
+<li><p><strong>Total del Pago:</strong> Monto de la transacción, negativo si fue egreso y positivo si es ingreso.</p></li>
+</ul>
+</div></blockquote>
+<p>Puede cambiar el formato del reporte según lo requiera en su momento. Para ello, debe seleccionar el formato en el campo “<strong>Tipo de Reporte</strong>”, dicho campo se encuentra ubicado en la parte superior izquierda del reporte. Para el presente ejemplo, es utilizado el formato “<strong>PDF</strong>”.</p>
+<blockquote>
+<div><p><img alt="tipo de reporte pdf" src="../../_images/type-of-report.png" /></p>
+<p>Imagen 32. Campo Tipo de Reporte</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="pay-assignment-report.html" class="btn btn-neutral float-right" title="4.11. Asignación de Pago" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="transaction-details.html" class="btn btn-neutral float-left" title="4.9. Detalle de Transacciones" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
