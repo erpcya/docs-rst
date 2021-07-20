@@ -20,5 +20,7 @@ Por ello, `ERPyA`_ presenta la siguiente guía con instrucciones claras y precis
     bank-transfer/index
     payment/index
     collection/index
+    cash/index
     collection-cash/index
+    pay-assignment/index
     cash-closing/index
