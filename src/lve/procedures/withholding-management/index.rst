@@ -9,4 +9,5 @@ Esta documentación está destinada a definir el manejo de retenciones a socios 
 .. toctree::
     :maxdepth: 2
 
-    withholding-iva/index
+    withholding-iva-cxp/index
+    withholding-iva-cxc/index
