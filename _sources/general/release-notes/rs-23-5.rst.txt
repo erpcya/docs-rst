@@ -30,7 +30,7 @@
 - Queue-Manager: 1.0.4
 - Notification-Queue: 1.0.4
 - Point-Of-Sales-Improvements: 1.0.4
-- Kafka-Replicator-Client: 1.0.0
+- Kafka-Replicator-Client: 1.0.1
 
 **Detalle Técnico:**
 --------------------
