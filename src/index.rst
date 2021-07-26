@@ -31,6 +31,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/basic-steps/index
     adempiere/master/index
     adempiere/material-management/index
+    adempiere/production-management/index
     adempiere/quote-to-invoice/index
     adempiere/requisition-to-invoice/index
     adempiere/open-items/index
