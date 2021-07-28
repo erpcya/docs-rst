@@ -34,6 +34,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/production-management/index
     adempiere/quote-to-invoice/index
     adempiere/requisition-to-invoice/index
+    adempiere/returns/index
     adempiere/open-items/index
 
 .. toctree::
