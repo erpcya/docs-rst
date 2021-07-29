@@ -69,11 +69,11 @@ En el campo "**Total de Líneas**", se puede visualizar monto total del document
 
 De igual manera, se puede visualizar en el campo "**Gran Totral**", el monto total del documento incluyendo impuestos. El mismo se calcula de manera automática con la sumatoria del valor del campo "**Total de Líneas**" más los impuestos que contengan las líneas del documento en la pestaña "**Línea de la Factura**".
 
-Finalmente, se procede a completar el registro del documento seleccionando la opción "**Completar**", ubicada en la parte inferior izquierda de la ventana.
+Finalmente, se procede a completar el registro del documento seleccionando la opción "**Procesar Factura**", ubicada en el menú desplegado por el icono "**Proceso**", dicho icono se encuentra ubicado en la barra de herramientas de ADempiere.
 
-En la ventana desplegada por la opción "**Completar**", se debe seleccionar la acción del documento "**Completar**" y la opción "**OK**".
+En la ventana desplegada por la opción "**Procesar Factura**", se debe seleccionar la acción del documento "**Completar**" y la opción "**OK**".
 
-Cuando el completa el documento, el campo "**Estado del Documento**" se actualiza automáticamente, cambiando el valor anterior "**Borrador**" y asignando el valor "**Completo**". 
+Cuando se completa el documento, el campo "**Estado del Documento**" se actualiza automáticamente, cambiando el valor anterior "**Borrador**" y asignando el valor "**Completo**".
 
 .. note::
 

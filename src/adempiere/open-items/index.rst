@@ -24,3 +24,4 @@ Por ello, `ERPyA`_ presenta la siguiente guía con instrucciones claras y precis
     collection-cash/index
     pay-assignment/index
     cash-closing/index
+    frequent-processes/index
