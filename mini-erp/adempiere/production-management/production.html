@@ -1,0 +1,494 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>4.2. Producción &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="5. Gestión de Ventas" href="../quote-to-invoice/index.html" />
+    <link rel="prev" title="4.1. Orden de Producción Planeada" href="planned-production-order.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">4. <strong>Gestión de Producción</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="planned-production-order.html">4.1. <strong>Orden de Producción Planeada</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">4.2. <strong>Producción</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">4. </span><strong>Gestión de Producción</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">4.2. </span><strong>Producción</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/production-management/production.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="produccion">
+<span id="documento-produccion"></span><h1><span class="section-number">4.2. </span><strong>Producción</strong><a class="headerlink" href="#produccion" title="Permalink to this headline">¶</a></h1>
+<p>Es el resultado de varias fases de trabajo que se llevan a cabo en una determinada empresa, también es llamado proceso de manufactura, esta es la base o el recurso principal para el ingreso monetario.</p>
+<p>Todos los procesos que se llevan a cabo en una empresa estan relacionados directa o indirectamente con el mismo, en tal sentido, la mano de obra puede ser considerada como directa o indirecta dentro del proceso.</p>
+<p>La manufactura es originada desde una planificación previa, estimando metas u objetivos de producción que serán producto de control dentro de los turnos que conforman la producción, el resultado de los mismos determinan la estabilidad de una empresa y la disponibilidad de los productos terminados para la venta.</p>
+<p>Una vez realizada la “<strong>Orden de Producción Planeada</strong>”, al ser completada generará un registro de producción que validará y ejecutará la producción del producto terminado en ADempiere, dando así la entrada o existencia de dicho producto y las salidas de los componentes utilizados para la producción del mismo; El registro de producción es donde se definirá la cantidad a producir real, ya que al momento de ejecutar una producción suele suceder varios escenarios que pueden alterar la cantidad a producir y esta puede ser menor a la que se estimaba en la “<strong>Orden de Producción Planeada</strong>”. A continuación se presenta el siguiente escenario para comprender mejor el procedimiento de la producción:</p>
+<blockquote>
+<div><p>La empresa “<strong>ABC Estándar C.A</strong>”, ha realizado la “<strong>Orden de Producción Planeada</strong>” número “<strong>OPP-43</strong>” por el producto “<strong>Pasta Dedal Premium 1 Kg</strong>”, dicha empresa estima producir para el día “<strong>26/07/2021</strong>” un total de “<strong>50 Unidades</strong>”. La producción se ejecutó dentro de la compañía por el total estimado (50 Unidades) y se requiere reflejar en el registro de producción la producción total del producto terminado.</p>
+</div></blockquote>
+<p>Para ubicar el registro de la producción generada desde la “<strong>Orden de Producción Planeada</strong>” se deben realizar los siguientes pasos:</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione la ventana “<strong>Producción</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de Producción" src="../../_images/production-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Producción</strong>”, con diferentes registros de producción.</p>
+<blockquote>
+<div><p><img alt="Ventana Producción" src="../../_images/production-window.png" /></p>
+<p>Imagen 2. Ventana Producción</p>
+</div></blockquote>
+<p>Para ubicar el registro de producción generado desde la orden de producción, se selecciona el icono “<strong>Buscar</strong>” ubicado en la barra de herramientas de ADempiere, al visualizar la ventana de búsqueda, se selecciona la pestaña “<strong>Avanzado</strong>”, para filtrar la búsqueda por las siguientes opciones en base a la información que posea en su momento de la producción:</p>
+<blockquote>
+<div><ul>
+<li><p>Orden de Producción: Si posee información del número de documento de la “<strong>Orden de Producción Planeada</strong>” se puede utilizar este criterio de búsqueda para ubicar la producción generada desde ese registro, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Siguiendo el escenario comentado en esta documentación, se tiene la orden de producción planeada “<strong>OPP-43</strong>” por lo que el valor a colocar en este campo sería “<strong>OPP-43</strong>”.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Fecha del Movimiento o Fecha Prometida: Si posee la información de la fecha que tiene asociada la orden de producción planeada, esta podría ser utilizada para ubicar el registro de producción generado desde ese registro, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Siguiendo el escenario comentado en esta documentación, la orden de producción planeada fue realizada y completada el día “<strong>26/07/2021</strong>”, lo que generó el registro de producción a la misma fecha.</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Producto: Este criterio de búsqueda puede ser utilizado para filtrar en base a los registros de producción que tengan asociados dicho producto, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Siguiendo el escenario comentado en esta documentación, la orden de producción planeada fue realizada y completada con el producto terminado “<strong>Pasta Dedal Premium 1 Kg</strong>”, por lo que este sería el valo a ingresar en dicho campo.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si desea utilizar ese único parámetro como criterio de búsqueda, ADempiere mostrará todos los registros que estén en la ventana “<strong>Producción</strong>” que tengan asociado dicho producto, por ello recomendamos que la búsqueda sea mas directa, esto se puede hacer agregando otro criterio de búsqueda como lo es la “<strong>Fecha del Movimiento o Fecha Prometida</strong>”.</p>
+</div>
+</div></blockquote>
+</li>
+</ul>
+<p><img alt="búsqueda de registro de producción" src="../../_images/production-log-search.png" /></p>
+<p>Imagen 3. Búsqueda de Registro de Producción</p>
+</div></blockquote>
+<p>La pestaña “<strong>Avanzado</strong>” de la opción de búsqueda de ADempiere, cuenta con muchos más filtros que pueden servir para encontrar el registro de producción.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Del mismo modo, otra manera de ubicar el registro de “<strong>Producción</strong>” es seleccionando el icono “<strong>Visualiza Detalle (Donde es Usado)</strong>” ubicado en la barra de herramientas de ADempiere, desde la ventana “<strong>Orden de Producción Planeada</strong>”, para más información puede consultar el material <a class="reference internal" href="planned-production-order.html#documento-orden-de-produccion-planeada"><span class="std std-ref">Orden de Producción Planeada</span></a>.</p>
+</div>
+<p>Al ubicar el registro de producción, podrá observar que este se encuentra en estado “<strong>En Proceso</strong>” ya que algunos datos pueden ser modificados. A continuación se detallan los siguientes campos que posee la ventana “<strong>Producción</strong>”.</p>
+<blockquote>
+<div><p><img alt="registro de producción desde orden" src="../../_images/production-record-from-order.png" /></p>
+<p>Imagen 4. Registro de Producción</p>
+</div></blockquote>
+<p>El campo “<strong>Tipo de Documento</strong>” indica el tipo de documento que identifica el registro de la producción. En este caso el tipo de documento a mostrar es “<strong>Producción de Material</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento de la ventana producción" src="../../_images/document-type-field-of-the-production-window.png" /></p>
+<p>Imagen 5. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>El campo “<strong>No. del Documento</strong>” es un valor único, asignado a los registros que se encuentran en la ventana “<strong>Producción</strong>”, este se genera de manera automática en ADempiere y a medida que se realicen y guarden los registros la secuencia del número de documento ira incrementado.</p>
+<blockquote>
+<div><p><img alt="Campo No del Documento de la Ventana Producción" src="../../_images/production-window-document-number-field.png" /></p>
+<p>Imagen 6. Campo No. del Documento</p>
+</div></blockquote>
+<p>El campo “<strong>Fecha de Movimiento</strong>”, indica la fecha en la cual se realizó o ejecutó la producción realmente, reflejando a esta fecha en ADempiere la salida de los insumos de producción y la entrada del producto terminado. Siguiendo el escenario comentado en esta documentación, se tiene una “<strong>Orden de Producción Planeada</strong>” con fecha del “<strong>26/07/2021</strong>” y la producción se ejecutó ese mismo día. Es decir, que la fecha que se encuentra en el campo “<strong>Fecha de Movimiento</strong>” del registro de producción no será modificado por que cumple con lo realizado en sitio.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Es muy importante reflejar en ADempiere las fechas reales ya que al momento de realizar una auditoría los registros que se encuentren en ADempiere deben coincidir con la realidad, ejemplo:</p>
+<ul class="simple">
+<li><p>Al completar la “<strong>Orden de Producción Planeada</strong>” si esta tiene fecha del “<strong>26/07/2021</strong>” el registro de producción generado desde esa orden tomará la misma fecha (26/07/2021). Sin embargo, si suele suceder alguna eventualidad que no permite ejecutar en sitio la producción, esa fecha puede ser modificada y ajustada a la fecha real de la producción.</p></li>
+</ul>
+</div>
+<p><img alt="Campo Fecha de Movimiento de la Ventana Producción" src="../../_images/production-window-movement-date-field.png" /></p>
+<p>Imagen 7. Campo Fecha de Movimiento de la Ventana Producción</p>
+</div></blockquote>
+<p>El campo “<strong>Fecha Prometida</strong>”, indica la fecha para la cual fue prometida la producción del producto. Esta fecha debe ser siempre la misma que la de la “<strong>Orden de Producción Planeada</strong>”. Aun así la producción no se ejecute a la misma fecha que se estimó en la orden de producción, este campo mantendrá su fecha. Siguiendo el escenario de la documentación, la “<strong>Orden de Producción Planeada</strong>” se realizó con fecha del “<strong>26/07/2021</strong>” lo que el registro de producción generado desde esa orden de producción tomará y deberá mantener esa misma fecha.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si la producción en sitio no fue realizada a la misma fecha de la producción, la fecha de este campo “<strong>Fecha Prometida</strong>” no será modificada, se mantendrá la misma fecha de la “<strong>Orden de Producción</strong>” que tenga asociada, y en tal caso la fecha que se tendría que modificar es la del campo “<strong>Fecha del Movimiento</strong>”.</p>
+</div>
+<p><img alt="Campo Fecha Prometida de la Ventana Producción" src="../../_images/production-window-promised-date-field.png" /></p>
+<p>Imagen 8. Campo Fecha Prometida de la Ventana Producción</p>
+</div></blockquote>
+<p>Podrá visualizar que el campo “<strong>Producto</strong>”, donde se debe ingresar el producto correspondiente a la producción que se requiere, se encuentra en sólo lectura ya que su valor será ingresado automáticamente desde la orden de producción.</p>
+<blockquote>
+<div><p><img alt="Campo Producto de la Ventana Producción" src="../../_images/product-field-of-the-production-window.png" /></p>
+<p>Imagen 9. Campo Producto de la Ventana Producción</p>
+</div></blockquote>
+<p>En el campo “<strong>Cantidad a Producir</strong>”, se mostrará o se agregará la cantidad a producir realmente del producto terminado; la cantidad de la producción mostrada en este campo debe ser la cantidad ingresada en la “<strong>Orden de Producción Planeada</strong>”.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Sin embargo, si la producción presenta alguna eventualidad por la cual no se pudo ejecutar el total de la producción, podrá ser modificado el valor en dicho campo. Si la cantidad es modificada, el registro de la producción debe ser “<strong>Completado</strong>” o “<strong>Preparado</strong>” para que este calcule nuevamente la cantidad de insumos a utilizar y la cantidad del producto terminado. Es muy importante tener en cuenta que, si es utilizada la acción de documento “<strong>Preparar</strong>”, el registro de producción aún quedará activo y modificable lo que para ADempiere aun ese registro de producción no es válido. Sin embargo, el registro puede pasar a ser válido si este es completado, lo que para ADempiere daría la entrada al producto terminado y la salida a los insumos de producción.</p>
+</div>
+<p><img alt="Campo Cantidad a Producir de la Ventana Producción" src="../../_images/quantity-to-produce-field-of-the-production-window.png" /></p>
+<p>Imagen 10. Campo Cantidad a Producir</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al encontrarse la producción en estado “<strong>Proceso</strong>”, los insumos de producción estarán como cantidad reservada y el producto terminado como cantidad ordenada.</p>
+</div>
+</div></blockquote>
+<p>En el campo “<strong>Ubicación</strong>”, se visualiza la ubicación exacta donde se encontrará el producto terminado una vez se cumpla la producción, esta ubicación la tomará automáticamente de la orden de producción.</p>
+<blockquote>
+<div><p><img alt="campo ubicación de la ventana producción" src="../../_images/production-window-location-field.png" /></p>
+<p>Imagen 11. Campo Ubicación</p>
+</div></blockquote>
+<p>En el campo “<strong>LDM y Fórmula</strong>”, se visualiza la lista de materiales que tiene asociada el producto terminado, esta <a class="reference internal" href="../material-management/ldm.html#documento-lista-de-materiales"><span class="std std-ref">Lista de Materiales</span></a> es definida en el producto y asociada en la <a class="reference internal" href="planned-production-order.html#documento-orden-de-produccion-planeada"><span class="std std-ref">Orden de Producción Planeada</span></a>.</p>
+<blockquote>
+<div><p><img alt="campo ldm y fórmula de la ventana producción" src="../../_images/ldm-field-and-production-window-formula.png" /></p>
+<p>Imagen 12. Campo LDM y Fórmula</p>
+</div></blockquote>
+<p>El check “<strong>Producto obligatorio en inventario</strong>”, al estar activo válida que todos los insumos de producción en ADempiere tengan cantidades en existencia, al estar desactivado no valida que los insumos tengan cantidades en existencia.</p>
+<blockquote>
+<div><p><img alt="check producto obligatorio en inventario de la ventana producción" src="../../_images/check-mandatory-product-in-inventory-of-the-production-window.png" /></p>
+<p>Imagen 13. Check Producto Obligatorio en Inventario</p>
+</div></blockquote>
+<p>En el campo “<strong>Orden de Producción</strong>”, se visualiza el número de la orden de producción desde la cual fue realizado el registro de producción. Siguiendo el escenario de la documentación la “<strong>Orden de Producción Planeada</strong>” que generó el registro de producción es la “<strong>OPP-43</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo orden de producción de la ventana producción" src="../../_images/production-order-field-of-the-production-window.png" /></p>
+<p>Imagen 14. Campo Orden de Producción</p>
+</div></blockquote>
+<p>Hasta este punto se visualiza solo el encabezado de la producción, para ver el detalle de los insumos asociados la producción y el producto terminado se debe posicionar en la pestaña “<strong>Lista de Materiales</strong>” de la ventana “<strong>Producción</strong>”</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>En el campo “<strong>Producción</strong>”, se indica el número de la producción donde se encuentra trabajando.</p>
+<p><img alt="pestaña lista de materiales de la ventana producción" src="../../_images/bill-of-materials-tab-of-the-production-window.png" /></p>
+<p>Imagen 15. Pestaña Lista de Materiales</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para cambiar la vista de la pestaña “<strong>Lista de Materiales</strong>”, se debe seleccionar el icono “<strong>Cambiar Mono/Multi Registro</strong>”.</p>
+</div>
+</div>
+<p>En el campo “<strong>No. Línea</strong>”, se indica el número de línea correspondiente al registro que está realizando. En este caso, como es el primer registro el número registro a observar es el “<strong>10</strong>” ya que ADempiere trabaja la enumeración de registro de 10 en 10.</p>
+<blockquote>
+<div><p><img alt="campo número de línea de la ventana producción" src="../../_images/production-window-line-number-field.png" /></p>
+<p>Imagen 16. Campo No. Línea</p>
+</div></blockquote>
+<p>En el campo “<strong>Producto</strong>”, se visualiza el nombre del producto que se encuentra asociado a la línea de la producción este puede ser el nombre del insumo de producción o el producto terminado.</p>
+<blockquote>
+<div><p><img alt="campo producto de línea de la ventana producción" src="../../_images/field-product-window-production-line.png" /></p>
+<p>Imagen 17. Campo Producto</p>
+</div></blockquote>
+<p>En el campo “<strong>Ubicación</strong>”, podrá visualizar el nombre de la ubicación donde se trabajará el producto. Si el producto es terminado la ubicación a mostrar es la misma que la seleccionada en la orden de producción lo que indica que en esa ubicación se almacenará y se encontrará la existencia del producto terminado. Si el producto es un insumo de producción la ubicación a mostrar es la que tiene configurada el producto en la ventana producto, lo que quiere decir que desde esa ubicación se generará la salida del insumo para la producción. Ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>En el encabezado de la ventana “Producción ” se encuentra la ubicación “Principal Comercialización” esta es la ubicación donde se almacenará el producto terminado y es la  misma ubicación que tomará el producto terminado en el campo ubicación e la pestaña “Lista de Materiales”.</p></li>
+<li><p>Al momento de crear los insumos de producción en la ventana “Producto” se le asigna una ubicación, esta ubicación será la utilizada en la producción para sacar las cantidades y poder generar el producto terminado.</p></li>
+</ul>
+<p><img alt="campo ubicación de la línea de la ventana producción" src="../../_images/production-window-line-location-field.png" /></p>
+<p>Imagen 18. Campo Ubicación</p>
+</div></blockquote>
+<p>El valor en el campo “<strong>Instancia Conjunto de Atributos</strong>”, es la instancia o característica única que se le asigna al producto terminado, estas instancias comúnmente son utilizadas para identificar con una característica única y especial el producto, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>El número de lote de la fabricación de ese producto es una instancia de conjunto de atributos, ya que se producirá el mismo producto pero con una instancia o característica diferente que es el número de lote de ese producto.</p></li>
+</ul>
+<p><img alt="campo instancia conjunto de atributos de la ventana producción" src="../../_images/production-window-attribute-set-instance-field.png" /></p>
+<p>Imagen 19. Campo Instancia Conjunto de Atributos</p>
+</div></blockquote>
+<p>El campo “<strong>Cantidad del Movimiento</strong>”, indica la cantidad real a producir o utilizar para la producción, ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Si la cantidad esta asociada a la línea del registro del producto terminado entonces la “<strong>Cantidad en Movimiento</strong>” es la cantidad a producir de ese producto y esta se mostrará en positivo.</p></li>
+<li><p>Si la cantidad esta asociada a la línea del registro del insumo de producción entonces la “<strong>Cantidad en Movimiento</strong>” es la cantidad a utilizar para producir el producto terminado, esta se mostrará con un signo negativo porque es la salida del insumo.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>La cantidad en este campo puede cambiar o variar según lo realizado en sitio.</p>
+</div>
+<p><img alt="campo cantidad del movimiento de la ventana producción" src="../../_images/production-window-movement-amount-field.png" /></p>
+<p>Imagen 20. Campo Cantidad del Movimiento</p>
+</div></blockquote>
+<p>El campo “<strong>Cantidad Planeada</strong>”, indica la cantidad planeada a producir.</p>
+<blockquote>
+<div><p><img alt="campo cantidad planeada de la ventana producción" src="../../_images/production-window-planned-quantity-field.png" /></p>
+<p>Imagen 21. Campo Cantidad Planeada</p>
+</div></blockquote>
+<p>En el campo “<strong>Descripción</strong>” se puede agregar alguna descripción o información que sea necesaria para el detalle del registro por línea el producto terminado o del registro del insumo de producción. Este se puede dejar en blanco ya que no es obligatorio.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la ventana producción" src="../../_images/production-window-description-field.png" /></p>
+<p>Imagen 22. Campo Descripción</p>
+</div></blockquote>
+<p>El check “<strong>Producto Final</strong>”, indica si el producto asociado al registro de la línea es el producto terminado. Todos los productos terminados tendrán activo este check para indicar en ADempiere que es el producto a producir.</p>
+<blockquote>
+<div><p><img alt="check producto final de la ventana producción" src="../../_images/check-final-product-of-the-production-window.png" /></p>
+<p>Imagen 23. Check Producto Final</p>
+</div></blockquote>
+<p>El check “<strong>Procesado</strong>” se activará una vez la producción se complete, lo cual indica que todo ha sido procesado.</p>
+<p>Regrese a la pestaña principal “<strong>Producción</strong>” y seleccione la opción “<strong>Completar</strong>”, para completar el documento “<strong>Producción</strong>” realizado.</p>
+<blockquote>
+<div><p><img alt="Opción Completar de la Ventana Producción" src="../../_images/production-window-complete-option.png" /></p>
+<p>Imagen 24. Opción Completar de la Ventana Producción</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el proceso.</p>
+<blockquote>
+<div><p><img alt="Acción Completar y Opción OK" src="../../_images/action-complete-and-option-ok3.png" /></p>
+<p>Imagen 25. Acción Completar y Opción OK</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../quote-to-invoice/index.html" class="btn btn-neutral float-right" title="5. Gestión de Ventas" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="planned-production-order.html" class="btn btn-neutral float-left" title="4.1. Orden de Producción Planeada" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

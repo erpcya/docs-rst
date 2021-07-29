@@ -1,0 +1,408 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>8.9.1. Anticipos de Compra desde Ventana Caja &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="8.9.2. Anticipos de Compra desde Ventana Pago/Cobro" href="purchase-advances-from-payment-collection-window.html" />
+    <link rel="prev" title="8.9. Procesos Frecuentes" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">8. <strong>Gestión de Saldos Pendientes</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../currency-conversion/index.html">8.1. <strong>Conversión Monetaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../bank-transfer/index.html">8.2. <strong>Transferencia Bancaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../payment/index.html">8.3. <strong>Pago</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection/index.html">8.4. <strong>Cobro</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash/index.html">8.5. <strong>Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../collection-cash/index.html">8.6. <strong>Caja Cobranza</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../pay-assignment/index.html">8.7. <strong>Asignación de Pagos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../cash-closing/index.html">8.8. <strong>Cierre de Caja</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">8.9. <strong>Procesos Frecuentes</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">8.9.1. <strong>Anticipos de Compra desde Ventana Caja</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="purchase-advances-from-payment-collection-window.html">8.9.2. <strong>Anticipos de Compra desde Ventana Pago/Cobro</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><span class="section-number">8. </span><strong>Gestión de Saldos Pendientes</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">8.9. </span><strong>Procesos Frecuentes</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">8.9.1. </span><strong>Anticipos de Compra desde Ventana Caja</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/open-items/frequent-processes/purchase-advances-from-cash-window.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="anticipos-de-compra-desde-ventana-caja">
+<span id="documento-anticipos-de-compra-desde-ventana-caja"></span><h1><span class="section-number">8.9.1. </span><strong>Anticipos de Compra desde Ventana Caja</strong><a class="headerlink" href="#anticipos-de-compra-desde-ventana-caja" title="Permalink to this headline">¶</a></h1>
+<p>El presente material pretende explicar el proceso para generar anticipos desde la ventana “<strong>Caja</strong>”, la finalidad del mismo es saber registrar en ADempiere aquellos pagos que se realicen al momento de concretar la compra de un producto o servicio que le presten o adquiera la compañía, todo ello antes de que el proveedor emita un documento por pagar ya sea fiscal (Factura) o una nota de entrega (Ajuste de Débito). Por ello, se llamarán anticipos y tildaran como anticipos a todos aquellos pagos realizados a proveedores, los cuales tengan concretada la compra, este cargada en ADempiere y no exista aún un registro de factura o nota de entrega (Ajuste de Débito de CxP).</p>
+<p>Del mismo modo, todos aquellos anticipos de dólares “<strong>USD</strong>”  ó bolívares “<strong>VES</strong>”, los cuales se realicen en efectivo o desde una cuenta bancaria de terceros de la compañía, el cual se manejen saldos de la misma, se deben registrar desde la ventana “<strong>Caja</strong>”; al indicar una cuenta o banco de terceros de la compañía se refiere a cuentas bancarias de los socios o accionista de la compañía, en las cuales dichas cuentas se encuentren a disposición para movimiento de dinero de la compañía.</p>
+<p>Para poder registrar los anticipos a proveedores en ADempiere se requiere tener registrado un “<strong>Pedido de Compra</strong>” en la ventana “<strong>Orden de Compra</strong>”. Como ejemplo del proceso de anticipo, se tiene lo siguiente:</p>
+<p>La compañía “<strong>ERP Consultores y Asociados C.A</strong>” realizó la compra de unos artículos de oficina a la empresa “<strong>ABC Estándar C.A</strong>”, el total de la compra es de “<strong>160.628.395,00 bs</strong>”, lo que equivale según la tasa de negociación con el proveer a “<strong>50</strong>” dólares, la tasa de negociación del proveedor es “<strong>3.212.567,90</strong>” del BCV (Banco Central de Venezuela) a la fecha del “<strong>30/06/2021</strong>”. El proveedor requiere que se le realice un anticipo del “<strong>40%</strong>” en dólares, el cual equivale a “<strong>20$</strong>” en efectivo.</p>
+<p>Pedido de Compra:</p>
+<ul class="simple">
+<li><p>N° de Documento: PCN-2</p></li>
+<li><p>Socio de Negocio: ABC Estándar C.A</p></li>
+<li><p>Fecha de la Orden: 30/06/2021</p></li>
+<li><p>Fecha Prometida: 30/06/2021</p></li>
+<li><p>Total de Líneas: 160.628.395,00</p></li>
+<li><p>Gran Total: 160.628.395,00</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Se debe tener en cuenta que los anticipos son aquellos pagos que se realizan a los proveedores antes de que ellos les envíe el documento por pagar (Factura de CxP o Ajuste de CxP). Adicional a ello, se deben tener registradas las cuentas bancarias o tener definida la caja administrativa desde donde saldrán los pagos.</p>
+</div>
+<p>Para registrar los anticipos a proveedores en ADempiere, se debe realizar el siguiente procedimiento:</p>
+<p>Ubicar y seleccionar en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Manejo de Caja</strong>”, por último seleccione la ventana “<strong>Caja</strong>”.</p>
+<p>Una vez ubicada en la ventana “<strong>Caja</strong>”, se procede a seleccionar el icono “<strong>Registro Nuevo</strong>” ubicado en la barra de herramientas de ADempiere. Luego se procede al llenado de los siguientes datos:</p>
+<ul>
+<li><p>Campo Cuenta Bancaria: Se debe seleccionar la cuenta bancaria desde donde se realizó el pago, teniendo en cuenta que:</p>
+<blockquote>
+<div><ul>
+<li><p>Si el pago es en efectivo, la cuenta bancaria a seleccionar es cualquiera de las siguientes cuentas o cajas:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Para los pagos en bolívares “<strong>VES</strong>”, se debe seleccionar la cuenta “<strong>Caja Administración Ventas-Caja Ventas (VES)</strong>”</p></li>
+<li><p>Para los pagos en dólares “<strong>USD</strong>”, se debe seleccionar la cuenta “<strong>Caja Administración Ventas-Caja Ventas (USD)</strong>”</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Si el pago es realizado de una cuenta bancaria de terceros se debe seleccionar la caja “<strong>Cajas Transito de Accionistas</strong>”, el cual tendrá como referencia el nombre y banco del accionista que estará prestando la cuenta bancaria para el manejo de dinero de la compañía.</p></li>
+</ul>
+<p>Siguiendo el escenario planteado en esta documentación, en el cual se requiere cancelar un anticipo del 40% de la compra en efectivo, se utilizará la caja “<strong>Caja Administración Ventas-Caja Ventas (USD)</strong>”.</p>
+</div></blockquote>
+</li>
+<li><p>Campo N° de Documento: El número de documento a ingresar puede variar según el registro del pago ya que si este es en efectivo (dólares o bolívares), se debe dejar que ADempiere asigne el número de documento según el correlativo que este llevando en su momento, si el registro es realizado a través de una transferencia bancaria de una cuenta de terceros se deberá colocar como “<strong>N° de Documento</strong>”, el número de referencia de la transacción bancaria realiza del banco. Continuando con el ejemplo, el pago es en efectivo y en dólares, lo que quiere decir que no se registrará un ningún número de documento, si no que se dejara así para que ADempiere lo asigne según el correlativo que maneje en su momento.</p></li>
+<li><p>Campo Fecha de la Transacción: Se debe seleccionar la fecha en la cual se realizo el pago, ya sea en sitio en efectivo o por transferencia.</p></li>
+<li><p>Campo Tipo de Documento: Se debe seleccionar el tipo de documento que define el comportamiento del documento a generar. Para este caso será utilizado el tipo de documento de “<strong>Egreso</strong>”</p></li>
+<li><p>Campo Socio de Negocio: Se debe seleccionar el proveedor al cual se le esta realizando el pago. Siguiendo con el ejemplo, el socio de negocio (Proveedor) es “<strong>ABC Estándar C.A</strong>”.</p></li>
+<li><p>Campo Oden de Venta: En este campo se debe seleccionar la orden que se requiere asociar al documento. Aunque el nombre de este campo indique “<strong>Orden de Venta</strong>”, por ser un pago de anticipo de compra se debe seleccionar el registro del documento “<strong>Pedido de Compra</strong>”, realizada previamente, la cual tiene como número de documento “<strong>PCN-1</strong>”.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Los pedidos de compras se visualizan en este campo serán solo aquellos que no tengan una “<strong>Factura</strong>” o “<strong>Ajuste de Débito</strong>” asociado al mismo. Si el pedido tiene una factura asociada, este no se visualiza en este campo y si existe la factura ya el pago a registrar no sería un anticipo si no un abono al proveedor.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Check Anticipo: Al asociar el pedido de compra se puede observar que el check “<strong>Anticipo</strong>” se activa automáticamente.</p></li>
+<li><p>Campo Tipo de Pago: En este campo se asocia como fue emitido el pago. Es decir, si este fue en efectivo, por transferencia, pago móvil entre otras formas; ADempiere cuenta con los siguientes tipos de pagos:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Cheque: Este tipo de pago indica qué el pago a generar es a través de cheques bancarios.</p></li>
+<li><p>Credit Memo ó A crédito: Esta tipo de pago indica que dicho documento cuenta con un crédito de pago.</p></li>
+<li><p>Débito Directo. Este tipo de pago indica que el pago a generar es un débito directo, a lo que hace referencia es a una transferencia bancaria.</p></li>
+<li><p>Depósito Directo: Este tipo de pago indica que el pago a generar es un depósito directo, este tipo de pago también entraría dentro de los depósitos que se realizan en banco.</p></li>
+<li><p>Tarjeta de Crédito: Este tipo de pago indica qué el pago a generar es a través de tarjeta de crédito.</p></li>
+<li><p>Pago Móvil: Este tipo de pago indica que el pago se generó a través de un pago móvil.</p></li>
+<li><p>Zelle: Este tipo de pago indica que el pago es generado a través de una transferencia bancaria por Zelle.</p></li>
+<li><p>Caja: Este tipo de pago indica que el pago generado es por efectivo.</p></li>
+</ul>
+<p>Partiendo de los tipos de pago que posee ADempiere y del ejemplo expuesto anteriormente, para este caso se utilizará el tipo de pago “<strong>Caja</strong>”.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al tildar los tipos de pago “<strong>Débito Directo</strong>”, “<strong>Depósito Directo</strong>”, “<strong>Pago Móvil</strong>”, “<strong>Tarjeta de Crédito</strong>” y “<strong>Zelle</strong>”,  se habilitará en la ventana “<strong>Caja</strong>” el campo “<strong>Referencia</strong>”, en el cual se agregará también el número de referencia arrojado por la transacción bancaria que se transcribe; por otra parte el tipo de pago “<strong>Cheque</strong>”  habilita el campo “<strong>Cheque</strong>” para que se agregue el número de referencia del cheque a utilizar y el tipo de pago “<strong>Tarjeta de Crédito</strong>”, habilita el campo “<strong>Referencia</strong>” y “<strong>Tarjeta de Crédito</strong>”, en el cual se indica el tipo de tarjeta de crédito a utilizar.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Campo Total del Pago: En este campo se ingresa el monto total de la transacción. Para este caso como ya en el registro del pago se asocio la orden de compra, este campo traerá de manera automática el monto total de la orden de compra, el cual puede ser modificado para ingresar el monto de la transferencia realizada al proveedor. Dando continuaidad al ejemplo planteado, el monto a ingresar es “<strong>20</strong>”.</p></li>
+<li><p>Campo Moneda: En este campo se debe asociar la moneda con la cual se realizó el pago. Ejemplo:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Si el pago es realizado en efectivo o desde un banco de terceros en el cual se maneja la moneda bolívares para este caso se asocia la moneda “<strong>VES</strong>”.</p></li>
+<li><p>Si el pago es realizado en efectivo o desde un banco de terceros en el cual se maneja la moneda dólar para este caso se asocia la moneda “<strong>USD</strong>”.</p></li>
+</ul>
+<p>Continuando con el ejemplo, se asocia la moneda “<strong>USD</strong>”.</p>
+</div></blockquote>
+</li>
+<li><p>Campo Tipo de Conversión: En este campo se asocia el tipo de conversión con el que se esta trabajando con ese proveedor seleccionado o el tipo de conversión acordado en la negociación de la compra realizada a ese proveedor. El tipo de conversión no es más que la página el cual se rige el proveedor para trabajar las ventas multimoneda. Continuando con el ejemplo expuesto anteriormente:</p>
+<blockquote>
+<div><ul>
+<li><p>El proveedor “<strong>ABC Estándar C.A</strong>” trabaja sus negociaciones y ventas al clientes con la página de BCV (Banco Central de Venezuela) y sus tasas de negociación están regidas bajo ese banco. Es decir, que si se realiza una transacción en ADempiere multimoneda este socio de negocio debe tener creado su tipo de conversión (haciendo referencia a la página con la que el trabaje) y sus tasas de cambio cargadas (la tasa debe ser la utilizada por ese proveedor), para que los pagos se crucen correctamente siempre y cuando se estén realizando transacciones multimoneda.</p></li>
+<li><p>Al hablar de transacciones multimoneda se hace referencia a aquellos documentos los cuales se trabajen con moneda diferente a la moneda base de la compañía y aquellos cruce de documentos con moneda diferentes:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Se tiene un “<strong>Pedido de Compra</strong>” en bolívares, el cual se le asociará un pago en dólares, para que el pagó de anticipo en dólares coincida con el monto que realmente se esta anticipando, este debe trabajar con un tipo de conversión y a su vez tener cargada una tasa de cambio (que dando continuidad con el ejmplo expuesto anteriormente, la tasa de cambio sería “<strong>3.212.567,90</strong>”), como se esta trabajando con monedas diferentes esto hace la referencia de transacciones multimonedas.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para más información de como registrar el “<strong>Tipo de Conversión</strong>” y las “<strong>Tasas de Cambio</strong>” ver documentación <a class="reference internal" href="../currency-conversion/index.html#src-adempiere-performance-analysis-currency-conversion"><span class="std std-ref">Conversión Monetaria</span></a>.</p>
+</div>
+</div></blockquote>
+</li>
+<li><p>Campo Estado del Documento: Indica el estado en el cual se encuentra el pago que esta registrando. Si el documento esta en estado “<strong>Borrador</strong>”, esto indica que el documento es un documento no válido para ADempiere y que puede pasar a ser válido pero se encuentra en modificación. Para que el documento pase a ser un documento válido en ADempiere, debe pasar a estado “<strong>Completo</strong>”, para ello se debe ubicar la opción “<strong>Procesar Pago</strong>” en el menú desplegado por la selección del icono “<strong>Proceso</strong>” ubicado en la barra de herramientas de ADempiere.</p></li>
+</ul>
+<p>Una vez tilda la opción “<strong>Procesar Pago</strong>” ADempiere mostrará la ventana para ejecutar el proceso y pasar el registro a estado completo. Esto se ejecuta seleccionando la acción de docuemnto “<strong>Completar</strong>” y finalmente la opición “<strong>OK</strong>”.</p>
+<blockquote>
+<div><div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Luego de que el documento se encuentre en estado “<strong>Completo</strong>”, el registro del pago no podrá ser modificado. En tal caso de que este se registrará con algún error, se debe anular con la acción de documento “<strong>Reversar-Corregir</strong>”, esta se aplica ubicando nuevamente en la barra de herramientas de ADempiere, el icono “<strong>Proceso</strong>” y posteriormente la opción “<strong>Procesar Pago</strong>”, para luego seleccionar la acción de documento “<strong>Reversar-Corregir</strong>” y la opción “<strong>OK</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Si los datos son los correctos ya se tendrá reflejado en ADempiere el anticipo realizado al proveedor. Cuando se tenga registrado el documento por pagar emitido por el mismo, ya sea la factura o ajuste de débito (nota de entrega), se debe realizar el cruce de documentos para ir saldando esa cuenta por pagar. Para realizar el cruce de los documentos de pagos con cuentas por pagar, puede consultar los documentos <a class="reference internal" href="../pay-assignment/index.html#src-adempiere-open-items-pay-assignment"><span class="std std-ref">Asignación de Pagos</span></a> ó <a class="reference internal" href="../../requisition-to-invoice/frequent-processes/allocation-of-payments-from-cxp-document.html#documento-asignacion-de-pagos-desde-documento-de-cxp"><span class="std std-ref">¿Cómo Asignar Pagos desde un Documento de CxP?</span></a>.</p>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="purchase-advances-from-payment-collection-window.html" class="btn btn-neutral float-right" title="8.9.2. Anticipos de Compra desde Ventana Pago/Cobro" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="8.9. Procesos Frecuentes" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

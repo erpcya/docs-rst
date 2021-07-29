@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>5. Gestión de Compras &mdash; ERPYA 1.0 Documentation</title>
+  <title>6. Gestión de Compras &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -41,8 +41,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="5.1. Órdenes de Compra" href="purchase-order/index.html" />
-    <link rel="prev" title="4.7.3. ¿Cómo Crear un Ajuste de Débito de CxC Desde la Orden de Venta?" href="../quote-to-invoice/frequent-processes/cxc-debit-adjustment-from-sell-order.html" /> 
+    <link rel="next" title="6.1. Órdenes de Compra" href="purchase-order/index.html" />
+    <link rel="prev" title="5.7.4. Ajuste de Crédito de CxC" href="../quote-to-invoice/frequent-processes/cxc-credit-adjustment.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -110,17 +110,19 @@
 <li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">4. <strong>Gestión de Ventas</strong></a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">5. <strong>Gestión de Compras</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="purchase-order/index.html">5.1. <strong>Órdenes de Compra</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="material-receipt/index.html">5.2. <strong>Recepción de Productos</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="invoice/index.html">5.3. <strong>Documento por Pagar</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="credit-note-cxp.html">5.4. <strong>Nota de Crédito</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="debit-note-cxp.html">5.5. <strong>Nota de Débito</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="frequent-processes/index.html">5.6. <strong>Procesos Frecuentes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">6. <strong>Gestión de Compras</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="purchase-order/index.html">6.1. <strong>Órdenes de Compra</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="material-receipt/index.html">6.2. <strong>Recepción de Productos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="invoice/index.html">6.3. <strong>Documento por Pagar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="credit-note-cxp.html">6.4. <strong>Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="debit-note-cxp.html">6.5. <strong>Nota de Débito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="frequent-processes/index.html">6.6. <strong>Procesos Frecuentes</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">6. <strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
 <ul>
@@ -191,7 +193,7 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li><span class="section-number">5. </span><strong>Gestión de Compras</strong></li>
+      <li><span class="section-number">6. </span><strong>Gestión de Compras</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -211,40 +213,41 @@
            <div itemprop="articleBody">
             
   <div class="section" id="gestion-de-compras">
-<span id="src-adempiere-requisition-to-invoice"></span><h1><span class="section-number">5. </span><strong>Gestión de Compras</strong><a class="headerlink" href="#gestion-de-compras" title="Permalink to this headline">¶</a></h1>
+<span id="src-adempiere-requisition-to-invoice"></span><h1><span class="section-number">6. </span><strong>Gestión de Compras</strong><a class="headerlink" href="#gestion-de-compras" title="Permalink to this headline">¶</a></h1>
 <p>Esta documentación está destinada a definir cada uno de los procedimientos para la gestión de compras de ADempiere para cualquier organización, es importante seguir al pie de la letra cada uno de los procedimientos descritos aquí recuerde que de eso dependerá el buen uso del ERP.</p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="purchase-order/index.html">5.1. <strong>Órdenes de Compra</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="purchase-order/direct-order/index.html">5.1.1. <strong>Orden de Compra Directa</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="purchase-order/index.html">6.1. <strong>Órdenes de Compra</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="purchase-order/direct-order/index.html">6.1.1. <strong>Orden de Compra Directa</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="material-receipt/index.html">5.2. <strong>Recepción de Productos</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="material-receipt/reception-from-order.html">5.2.1. <strong>Registro de Recepción Desde Orden</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="material-receipt/reception-from-invoice.html">5.2.2. <strong>Registro de Recepción Desde Factura</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="material-receipt/index.html">6.2. <strong>Recepción de Productos</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="material-receipt/reception-from-order.html">6.2.1. <strong>Registro de Recepción Desde Orden</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="material-receipt/reception-from-invoice.html">6.2.2. <strong>Registro de Recepción Desde Factura</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="invoice/index.html">5.3. <strong>Documento por Pagar</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="invoice/invoice.html">5.3.1. <strong>Registro de Documento por Pagar</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="invoice/invoice-from-order.html">5.3.2. <strong>Registro de Factura desde Orden</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="invoice/invoice-from-reception.html">5.3.3. <strong>Registro de Factura desde Recepción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="invoice/index.html">6.3. <strong>Documento por Pagar</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="invoice/invoice.html">6.3.1. <strong>Registro de Documento por Pagar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="invoice/invoice-from-order.html">6.3.2. <strong>Registro de Factura desde Orden</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="invoice/invoice-from-reception.html">6.3.3. <strong>Registro de Factura desde Recepción</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="credit-note-cxp.html">5.4. <strong>Nota de Crédito</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="credit-note-cxp.html#registro-de-nota-de-credito">5.4.1. <strong>Registro de Nota de Crédito</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="credit-note-cxp.html#linea-de-la-factura">5.4.2. <strong>Línea de la Factura</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="credit-note-cxp.html#factura">5.4.3. <strong>Factura</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="credit-note-cxp.html">6.4. <strong>Nota de Crédito</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="credit-note-cxp.html#registro-de-nota-de-credito">6.4.1. <strong>Registro de Nota de Crédito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="credit-note-cxp.html#linea-de-la-factura">6.4.2. <strong>Línea de la Factura</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="credit-note-cxp.html#factura">6.4.3. <strong>Factura</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="debit-note-cxp.html">5.5. <strong>Nota de Débito</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="debit-note-cxp.html#registro-de-nota-de-debito">5.5.1. <strong>Registro de Nota de Débito</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="debit-note-cxp.html#linea-de-la-factura">5.5.2. <strong>Línea de la Factura</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="debit-note-cxp.html#factura">5.5.3. <strong>Factura</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="debit-note-cxp.html">6.5. <strong>Nota de Débito</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="debit-note-cxp.html#registro-de-nota-de-debito">6.5.1. <strong>Registro de Nota de Débito</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="debit-note-cxp.html#linea-de-la-factura">6.5.2. <strong>Línea de la Factura</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="debit-note-cxp.html#factura">6.5.3. <strong>Factura</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="frequent-processes/index.html">5.6. <strong>Procesos Frecuentes</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="frequent-processes/allocation-of-payments-from-cxp-document.html">5.6.1. <strong>¿Cómo Asignar Pagos desde un Documento de CxP?</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="frequent-processes/cxp-debit-adjustment.html">5.6.2. <strong>Ajuste de Débito (Manual) de CxP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="frequent-processes/index.html">6.6. <strong>Procesos Frecuentes</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="frequent-processes/allocation-of-payments-from-cxp-document.html">6.6.1. <strong>¿Cómo Asignar Pagos desde un Documento de CxP?</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="frequent-processes/cxp-debit-adjustment.html">6.6.2. <strong>Ajuste de Débito (Manual) de CxP</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="frequent-processes/cxp-credit-adjustment.html">6.6.3. <strong>Ajuste de Crédito de CxP</strong></a></li>
 </ul>
 </li>
 </ul>
@@ -257,8 +260,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="purchase-order/index.html" class="btn btn-neutral float-right" title="5.1. Órdenes de Compra" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="../quote-to-invoice/frequent-processes/cxc-debit-adjustment-from-sell-order.html" class="btn btn-neutral float-left" title="4.7.3. ¿Cómo Crear un Ajuste de Débito de CxC Desde la Orden de Venta?" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="purchase-order/index.html" class="btn btn-neutral float-right" title="6.1. Órdenes de Compra" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../quote-to-invoice/frequent-processes/cxc-credit-adjustment.html" class="btn btn-neutral float-left" title="5.7.4. Ajuste de Crédito de CxC" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>

@@ -11,3 +11,4 @@ Esta documentación está destinada a definir cada uno de los procesos frecuente
 
     allocation-of-payments-from-cxp-document
     cxp-debit-adjustment
+    cxp-credit-adjustment

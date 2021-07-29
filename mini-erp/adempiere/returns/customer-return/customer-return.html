@@ -1,0 +1,510 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>7.1.1. Orden de Devolución (Cliente) &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../../" src="../../../_static/documentation_options.js"></script>
+        <script src="../../../_static/jquery.js"></script>
+        <script src="../../../_static/underscore.js"></script>
+        <script src="../../../_static/doctools.js"></script>
+        <script src="../../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../../genindex.html" />
+    <link rel="search" title="Search" href="../../../search.html" />
+    <link rel="next" title="8. Gestión de Saldos Pendientes" href="../../open-items/index.html" />
+    <link rel="prev" title="7.1. Devolución de Cliente" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../index.html">7. <strong>Gestión de Devoluciones</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="reference internal" href="index.html">7.1. <strong>Devolución de Cliente</strong></a><ul class="current">
+<li class="toctree-l3 current"><a class="current reference internal" href="#">7.1.1. <strong>Orden de Devolución (Cliente)</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#devolucion-cliente">7.1.2. <strong>Devolución Cliente</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#nota-de-credito">7.1.3. <strong>Nota de Crédito</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../../open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../../ecommerce/index.html">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="../index.html"><span class="section-number">7. </span><strong>Gestión de Devoluciones</strong></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">7.1. </span><strong>Devolución de Cliente</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">7.1.1. </span><strong>Orden de Devolución (Cliente)</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../../_sources/adempiere/returns/customer-return/customer-return.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="orden-de-devolucion-cliente">
+<span id="documento-devolucion-de-cliente"></span><h1><span class="section-number">7.1.1. </span><strong>Orden de Devolución (Cliente)</strong><a class="headerlink" href="#orden-de-devolucion-cliente" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdendes de Venta</strong>”. Por último, seleccione la ventana “<strong>Orden de Devolución (Cliente)</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de orden de devolución cliente" src="../../../_images/customer-return-order-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Orden de Devolución (Cliente)</strong>”, con los campos necesarios para crear la orden de devolución del cliente.</p>
+<blockquote>
+<div><p><img alt="ventana orden de devolución cliente" src="../../../_images/customer-return-order-window.png" /></p>
+<p>Imagen 2. Ventana orden de devolución cliente</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono registro nuevo de la ventana orden de devolución cliente" src="../../../_images/new-record-icon-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 3. Icono Registro Nuevo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Organización</strong>”, la organización para la cual requiere realizar el registro.</p>
+<blockquote>
+<div><p><img alt="campo organización de la ventana orden de devolución cliente" src="../../../_images/organization-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 4. Campo Organización</p>
+</div></blockquote>
+<p>Al guardar el registro de la pestaña “<strong>Autorización Devolución Cliente</strong>”, ADempiere asignará de manera automática en el campo “<strong>No. del Documento</strong>”, el correlativo establecido en el tipo de documento que sea seleccionado en el registro.</p>
+<blockquote>
+<div><p><img alt="campo número de documento de la ventana orden de devolución cliente" src="../../../_images/document-number-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 5. Campo No. del Documento</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción referente al registro que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo descripción de la ventana orden de devolución cliente" src="../../../_images/customer-return-order-window-description-field.png" /></p>
+<p>Imagen 6. Campo Descripción</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Fecha de la Orden</strong>”, la fecha en la que se realiza la transacción.</p>
+<blockquote>
+<div><p><img alt="campo fecha de la orden de la ventana orden de devolución cliente" src="../../../_images/order-date-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 7. Campo Fecha de la Orden</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo Autorización Devolución</strong>”, el tipo de autorización de devolución que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo tipo autorización devolución de la ventana orden de devolución cliente" src="../../../_images/return-authorization-type-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 8. Campo Tipo Autorización Devolución</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Documento</strong>”, el tipo de documento que requiere generar. La selección de este campo define el comportamiento del documento, según la configuración que tenga dicho tipo de documento.</p>
+<blockquote>
+<div><p><img alt="campo tipo de documento de la ventana orden de devolución cliente" src="../../../_images/document-type-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 9. Campo Tipo de Documento</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Socio del Negocio</strong>”, el socio del negocio cliente que realiza la devolución.</p>
+<blockquote>
+<div><p><img alt="campo socio del negocio de la ventana orden de devolución cliente" src="../../../_images/business-partner-field-of-customer-return-order-window.png" /></p>
+<p>Imagen 10. Campo Socio del Negocio</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Dirección del Socio del Negocio</strong>”, la dirección de localización del socio del negocio seleccionado.</p>
+<blockquote>
+<div><p><img alt="campo dirección del socio del negocio de la ventana orden de devolución cliente" src="../../../_images/business-partner-address-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 11. Campo Dirección del Socio del Negocio</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Dirección Factura</strong>”, la dirección de fecturación del socio del negocio seleccionado.</p>
+<blockquote>
+<div><p><img alt="campo dirección factura de la ventana orden de devolución cliente" src="../../../_images/invoice-address-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 12. Campo Dirección Factura</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Usuario</strong>”, el usuario de contacto del socio del negocio seleccionado.</p>
+<blockquote>
+<div><p><img alt="campo usuario de la ventana orden de devolución cliente" src="../../../_images/user-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 13. Campo Usuario</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Contacto Entrega Directa</strong>”, el usuario de contacto para la entrega directa del socio del negocio seleccionado.</p>
+<blockquote>
+<div><p><img alt="campo contacto entrega directa de la ventana orden de devolución cliente" src="../../../_images/direct-delivery-contact-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 14. Campo Contacto Entrega Directa</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Almacén</strong>”, el almacén al que se ingresa el producto devuelto.</p>
+<blockquote>
+<div><p><img alt="campo almacén de la ventana orden de devolución cliente" src="../../../_images/warehouse-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 15. Campo Almacén</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Lista de Precios</strong>”, la lista de precios con la cual fue vendido el producto.</p>
+<blockquote>
+<div><p><img alt="campo lista de precios de la ventana orden de devolución cliente" src="../../../_images/price-list-field-of-customer-return-order-window.png" /></p>
+<p>Imagen 16. Campo Lista de Precios</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Término de Pago</strong>”, el término de pago utilizado para la venta.</p>
+<blockquote>
+<div><p><img alt="campo término de pago de la ventana orden de devolución cliente" src="../../../_images/payment-term-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 17. Campo Término de Pago</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Conversión</strong>”, el tipo de conversión con el cual fue vendido el producto.</p>
+<blockquote>
+<div><p><img alt="campo tipo de conversión de la ventana orden de devolución cliente" src="../../../_images/conversion-type-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 18. Campo Tipo de Conversión</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Moneda</strong>”, la moneda definida para la lista de precios seleccionada.</p>
+<blockquote>
+<div><p><img alt="campo moneda de la ventana orden de devolución cliente" src="../../../_images/currency-field-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 19. Campo Moneda</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la ventana orden de devolución cliente" src="../../../_images/icon-save-changes-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 20. Icono Guardar Cambios</p>
+</div></blockquote>
+<p>Luego de guardar el registro de la pestaña principal, seleccione la opción “<strong>Crear Orden de Devolución desde Entrega/Recibo</strong>” ubicada en el menú desplegado por la selección del icono “<strong>Proceso</strong>”, dicho icono se encuentra ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="opción crear orden de devolución desde entrega recibo de la ventana orden de devolución cliente" src="../../../_images/option-create-return-order-from-delivery-receipt-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 21. Opción Crear Orden de Devolución desde Entrega/Recibo</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana del proceso seleccionado, en la cual se seleccionan las líneas de la entrega que requiere devolver el cliente.</p>
+<blockquote>
+<div><p><img alt="ventana del proceso para crear desde entrega" src="../../../_images/process-window-to-create-from-delivery.png" /></p>
+<p>Imagen 22. Ventana del Proceso</p>
+<p>Seleccione en el campo “<strong>Entrega/Recibo</strong>”, la entrega desde la cual requiere realizar la devolución.</p>
+<blockquote>
+<div><p><img alt="campo entrega recibo del proceso" src="../../../_images/field-delivery-receipt-of-the-process.png" /></p>
+<p>Imagen 23. Campo Entrega/Recibo</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Comenzar Búsqueda</strong>”, para filtar la búsqueda por la entrega seleccionada.</p>
+<blockquote>
+<div><p><img alt="opción comenzar búsqueda del proceso" src="../../../_images/option-start-process-search.png" /></p>
+<p>Imagen 24. Opción Comenzar Búsqueda</p>
+</div></blockquote>
+<p>Seleccione la línea de la entrega por la cual requiere generar la devolución.</p>
+<blockquote>
+<div><p><img alt="selección de líneas en el proceso" src="../../../_images/selection-of-lines-in-the-process.png" /></p>
+<p>Imagen 25. Selecciíon de Líneas del Proceso</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para cargar a la pestaña “<strong>Línea de Autorización</strong>”, la información de las líneas seleccionadas en el proceso.</p>
+<blockquote>
+<div><p><img alt="opción ok del proceso" src="../../../_images/process-option-ok.png" /></p>
+<p>Imagen 26. Opción OK del Proceso</p>
+</div></blockquote>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Refrescar</strong>”, para actualizar el registro de la ventana y poder visualizar la información cargada desde el proceso.</p>
+<blockquote>
+<div><p><img alt="icono refrescar de la ventana orden de devolución cliente" src="../../../_images/refresh-icon-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 27. Icono Refrescar</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>Línea de Autorización</strong>” para verificar la información cargada desde el proceso.</p>
+<blockquote>
+<div><p><img alt="pestaña línea de autorización de la ventana orden de devolución cliente" src="../../../_images/authorization-line-tab-of-the-customer-return-order-window.png" /></p>
+<p>Imagen 28. Pestaña línea de autorización</p>
+</div></blockquote>
+<p>Seleccione la pestaña principal “<strong>Autorización Devolución Cliente</strong>”, para completar el registro de autorización.</p>
+<blockquote>
+<div><p><img alt="pestaña principal" src="../../../_images/main-tab.png" /></p>
+<p>Imagen 29. Pestaña Autorización Devolución Cliente</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Total de Líneas</strong>”, el total de las líneas correspondiente a la transacción que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo total de líneas de la pestaña principal" src="../../../_images/total-field-of-main-tab-lines.png" /></p>
+<p>Imagen 30. Campo Total de Líneas</p>
+</div></blockquote>
+<p>Podrá visualizar en el campo “<strong>Gran Total</strong>”, el gran total correspondiente a la transacción que se encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="campo gran total de la pestaña principal" src="../../../_images/grand-total-field-of-main-tab.png" /></p>
+<p>Imagen 31. Campo Gran Total</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Procesar Orden</strong>”, ubicada en el menú que se desplega al seleccionar el icono “<strong>Proceso</strong>”, dicho icono se encuentra ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="opción completar" src="../../../_images/option-complete5.png" /></p>
+<p>Imagen 32. Opción Procesar Orden del Icono Proceso</p>
+</div></blockquote>
+<p>Por último, seleccione la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el registro.</p>
+<blockquote>
+<div><p><img alt="acción completar y opción ok" src="../../../_images/action-complete-and-option-ok6.png" /></p>
+<p>Imagen 33. Acción Completar y Opción OK</p>
+</div></blockquote>
+</div>
+<div class="section" id="devolucion-cliente">
+<h1><span class="section-number">7.1.2. </span><strong>Devolución Cliente</strong><a class="headerlink" href="#devolucion-cliente" title="Permalink to this headline">¶</a></h1>
+<p>Para generar el documento de devolución de cliente, se procede a realizar el procedimiento indicado en el material <a class="reference internal" href="../../quote-to-invoice/shipment/generate-delivery-from-order-lines.html#documento-generar-entrega-desde-lineas-de-la-orden"><span class="std std-ref">Generar Entrega desde Líneas de la Orden</span></a>, considerando lo siguiente:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Filtrar por el socio del negocio cliente involucrado en la devolución, que para este ejemplo sería “<strong>E.R.P. Consultores y Asociados, C.A.</strong>” y seleccionar la opción “<strong>Comenzar Búsqueda</strong>”.</p></li>
+<li><p>Seleccionar el registro de la orden de devolución desde la cual requiere generar la devolución, que para este ejemplo sería “<strong>ADCN-12</strong>”.</p></li>
+<li><p>Ingresar la fecha con la cual será generado el documento de devolución, que para este ejemplo sería “<strong>27/07/2021</strong>”.</p></li>
+<li><p>Indicar la acción del documento con la cual será generado el mismo, que para este ejemplo sería “<strong>Completar</strong>”.</p></li>
+<li><p>La selección del tipo de documento en el campo “<strong>Tipo de Documento</strong>”, define el comportamiento del documento a generar. Para este caso no es necesario seleccionar algún tipo de documento ya que el tipo de documento “<strong>Autorización Devolución Cliente Nacional</strong>”, con el cual fue generado el documento “<strong>Orden de Devolución Cliente</strong>”, se encuentra configurado para que genere de manera automática como tipo de documento para la entrega, el documento “<strong>Devolución de Cliente Nacional</strong>”.</p></li>
+</ul>
+<p><img alt="proceso generar entregas desde líneas de la orden" src="../../../_images/process-generate-deliveries-from-order-lines.png" /></p>
+<p>Imagen 34. Proceso Generar Entregas desde Líneas de la Orden</p>
+</div></blockquote>
+<p>Luego de ejecutar el proceso con los parámetros indicados anteriormente, podrá ubicar el resultado en la ventana “<strong>Devolución Cliente</strong>”, seleccionando el icono “<strong>Buscar</strong>”, que se encuentra en la barra de herramientas de ADempiere. Una vez sea visualizada la ventana de búsqueda, se debe seleccionar la pestaña “<strong>Avanzado</strong>” y utilizar el campo “<strong>Orden de Venta</strong>” para filtrar por la orden de devolución realizada previamente. Para este caso, la orden de devolución para filtar es la “<strong>ADCN-12</strong>”.</p>
+<blockquote>
+<div><p><img alt="búsqueda avanzada de la ventana devolución cliente" src="../../../_images/advanced-search-of-the-customer-return-window.png" /></p>
+<p>Imagen 35. Búsqueda Avanzada</p>
+</div></blockquote>
+<p>Al ejecutar la búsqueda podrá visualizar el documento de devolución “<strong>DCN-46</strong>” de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="documento de devolución cliente generado" src="../../../_images/customer-generated-return-document.png" /></p>
+<p>Imagen 36. Documento de Devolución Cliente</p>
+</div></blockquote>
+</div>
+<div class="section" id="nota-de-credito">
+<h1><span class="section-number">7.1.3. </span><strong>Nota de Crédito</strong><a class="headerlink" href="#nota-de-credito" title="Permalink to this headline">¶</a></h1>
+<p>Para generar el documento de nota de crédito, se procede a realizar el procedimiento indicado en el material <a class="reference internal" href="../../quote-to-invoice/invoice-customer/invoice-from-order.html#documento-factura-desde-lineas-de-la-orden"><span class="std std-ref">Generar Factura desde Líneas de la Orden</span></a>, considerando lo siguiente:</p>
+<ul>
+<li><p>Filtrar por el socio del negocio cliente involucrado en la devolución, que para este ejemplo sería “<strong>E.R.P. Consultores y Asociados, C.A.</strong>” y seleccionar la opción “<strong>Comenzar Búsqueda</strong>”.</p></li>
+<li><p>Seleccionar el registro de la orden de devolución desde la cual requiere generar la nota de crédito, que para este ejemplo sería “<strong>ADCN-12</strong>”.</p></li>
+<li><p>Ingresar la fecha con la cual será generado la nota de crédito, que para este ejemplo sería “<strong>27/07/2021</strong>”.</p></li>
+<li><p>Indicar la acción del documento con la cual será generado el mismo, que para este ejemplo sería “<strong>Completar</strong>”.</p></li>
+<li><p>La selección del tipo de documento en el campo “<strong>Tipo de Documento</strong>”, define el comportamiento del documento a generar. Para este caso no es necesario seleccionar algún tipo de documento ya que el tipo de documento “<strong>Autorización Devolución Cliente Nacional</strong>”, con el cual fue generado el documento “<strong>Orden de Devolución Cliente</strong>”, se encuentra configurado para que genere de manera automática como tipo de documento para la factura, el documento “<strong>Nota de Crédito de Cuentas por Cobrar Nacional</strong>”.</p>
+<blockquote>
+<div><p><img alt="proceso generar facturas desde líneas de la orden" src="../../../_images/process-generate-invoices-from-order-lines.png" /></p>
+<p>Imagen 37. Proceso Generar Facturas desde Líneas de la Orden</p>
+</div></blockquote>
+</li>
+</ul>
+<p>Luego de ejecutar el proceso con los parámetros indicados anteriormente, podrá ubicar el resultado en la ventana “<strong>Documentos por Cobrar</strong>”, seleccionando el icono “<strong>Buscar</strong>”, que se encuentra en la barra de herramientas de ADempiere. Una vez sea visualizada la ventana de búsqueda, se debe seleccionar la pestaña “<strong>Avanzado</strong>” y utilizar el campo “<strong>Orden de Venta</strong>” para filtrar por la orden de devolución realizada previamente. Para este caso, la orden de devolución para filtar es la “<strong>ADCN-12</strong>”.</p>
+<blockquote>
+<div><p><img alt="búsqueda avanzada de la ventana documentos por cobrar" src="../../../_images/advanced-search-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 38. Búsqueda Avanzada</p>
+</div></blockquote>
+<p>Al ejecutar la búsqueda podrá visualizar el documento de nota de crédito “<strong>NCN-24</strong>” de la siguiente manera.</p>
+<blockquote>
+<div><p><img alt="documento de nota de crédito generado" src="../../../_images/generated-credit-memo-document.png" /></p>
+<p>Imagen 39. Documento de Nota de Crédito</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../../open-items/index.html" class="btn btn-neutral float-right" title="8. Gestión de Saldos Pendientes" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="index.html" class="btn btn-neutral float-left" title="7.1. Devolución de Cliente" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

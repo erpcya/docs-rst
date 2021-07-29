@@ -1,0 +1,509 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>3.3. Lista de Materiales &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="4. Gestión de Producción" href="../production-management/index.html" />
+    <link rel="prev" title="3.2.1. Registo de Inventario de Uso Interno" href="internal-use-inventory/internal-use-inventory.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">3. <strong>Gestión de Materiales</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="inventory-move/index.html">3.1. <strong>Movimiento de Inventario</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="internal-use-inventory/index.html">3.2. <strong>Inventario de Uso Interno</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">3.3. <strong>Lista de Materiales</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">3. </span><strong>Gestión de Materiales</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">3.3. </span><strong>Lista de Materiales</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/material-management/ldm.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="lista-de-materiales">
+<span id="documento-lista-de-materiales"></span><h1><span class="section-number">3.3. </span><strong>Lista de Materiales</strong><a class="headerlink" href="#lista-de-materiales" title="Permalink to this headline">¶</a></h1>
+<p>Para registrar en ADempiere la lista de materiales de un producto, se tiene como requerimiento principal que se encuentren previamente registrados en ADempiere el registro del producto que representa el producto terminado, los diferentes registros de productos que representan la materia prima del producto terminado. Adicional a ello, deben estar registrados los productos de</p>
+<p>De no conocer el procedimiento para registrar un producto, puede consultar el documento <a class="reference internal" href="../master/product/product.html#documento-producto"><span class="std std-ref">Registro de Producto</span></a> y seguir al pie de la letra cada uno de los procesos descritos en dicho documento.</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione la carpeta “<strong>Reglas de Gestión de Materiales</strong>”, por último seleccione la ventana “<strong>Producto</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de la ventana producto" src="../../_images/product-window-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Producto</strong>”, con los diferentes registros de productos que se encuentran en ADempiere. Debe ubicar el registro del producto que representa el producto terminado, al cual requiere agregar la lista de materiales para su producción. Ejemplificando el caso de lista de materiales es utilizado el producto “<strong>Pasta Dedal Premium 1 Kg</strong>”.</p>
+<blockquote>
+<div><p><img alt="Producto Estándar para Producción" src="../../_images/standard-product-for-production.png" /></p>
+<p>Imagen 2. Producto Estándar para Producción</p>
+</div></blockquote>
+<p>Seleccione la pestaña “<strong>LDM</strong>”, para cargar la lista de materiales de producción para el producto.</p>
+<blockquote>
+<div><p><img alt="Selección de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/selection-of-the-ldm-tab-of-the-standard-product-for-production.png" /></p>
+<p>Imagen 3. Pestaña LDM del Producto Estándar para Producción</p>
+</div></blockquote>
+<p>En esta pestaña se registran todos los materiales o ingredientes necesarios para producir o realizar el producto seleccionado, en este caso el producto “<strong>Pasta Dedal Premium 1 Kg</strong>”. Para explicar de manera detallada el registro de la lista de materiales se presenta el siguiente ejemplo:</p>
+<blockquote>
+<div><p>La empresa “<strong>ABC Estándar C.A</strong>”, requiere producir el día de hoy “<strong>50 unidades</strong>” del producto “<strong>Pasta Dedal Premium 1 Kg</strong>”, para su producción se requiere la siguiente materia prima:</p>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 57%" />
+<col style="width: 14%" />
+<col style="width: 29%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p>Producto</p></th>
+<th class="head"><p>Cantidad</p></th>
+<th class="head"><p>Unidad de Medida</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>ME Poliestres</p></td>
+<td><p>0,00032</p></td>
+<td><p>Kilogramo</p></td>
+</tr>
+<tr class="row-odd"><td><p>ME Dedal Premium 1 Kg</p></td>
+<td><p>0,008</p></td>
+<td><p>Kilogramo</p></td>
+</tr>
+<tr class="row-even"><td><p>Cinta para Impresión de Empaque</p></td>
+<td><p>1</p></td>
+<td><p>Kilogramo</p></td>
+</tr>
+<tr class="row-odd"><td><p>PSE  Dedal Rayado Premium</p></td>
+<td><p>1,008</p></td>
+<td><p>Kilogramo</p></td>
+</tr>
+<tr class="row-even"><td><p>ME Termoencogible Pasta Corta</p></td>
+<td><p>0,004</p></td>
+<td><p>Kilogramo</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+<p>Para crear una lista de materiales en la pestaña “<strong>LDM</strong>” se debe seleccionar el icono “<strong>Registro Nuevo</strong>” ubicado en la barra de herramientas de ADempiere y se procede al llenado de los siguientes datos, dicho registro se divide en dos partes:</p>
+<p>El encabezado de la lista de materiales, que corresponde al registro del producto terminado, en el mismo se detalla el nombre de la lista de materiales, la descripción y el tiempo de duración el cual puede tener la lista de materiales.</p>
+<blockquote>
+<div><p>En el campo “<strong>Producto</strong>”, se muestra el código y el nombre del producto terminado. Es decir, el producto al cual se le esta asociando la lista de materiales para poder ser producido. Continuando con el ejemplo anteriormente planteado, se tiene el producto terminado “<strong>PTPC-00007_Pasta Dedal Premium 1 Kg</strong>”.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Este campo es un campo muy importante ya que es un campo de ayuda, el mismo permite validar que aun se encuentre el registro del producto correcto para que los datos a crear o signar sean agregados al producto que se desee.</p>
+</div>
+<p><img alt="Producto Estándar para Producción" src="../../_images/standard-product-for-production.png" /></p>
+<p>Imagen 4. Campo Producto</p>
+</div></blockquote>
+<p>En el campo “<strong>Código</strong>”, se agregá el código de la lista de materiales. En tal caso de que esta no posea un código, ADempiere automáticamente coloca el código del producto al cual se le está asociando la lista de materiales. Siguiendo el escenario de la documentación, el valor a mostrar en este campo es “<strong>PTPC-00007</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Código del Producto de la Pestaña LDM" src="../../_images/product-code-field-from-the-ldm-tab.png" /></p>
+<p>Imagen 5. Campo Código</p>
+</div></blockquote>
+<p>En el campo “<strong>Nombre</strong>”, se agrega el nombre de la lista de materiales a crear. ADempiere automáticamente toma el nombre del producto como valor de este campo, sin embargo este puede ser modificado para ingresar el nombre que posea la lista de materiales.</p>
+<blockquote>
+<div><p><img alt="Campo Nombre del Producto de la Pestaña LDM" src="../../_images/ldm-tab-product-name-field.png" /></p>
+<p>Imagen 6. Campo Nombre del Producto</p>
+</div></blockquote>
+<p>En el campo “<strong>Descripción</strong>”, se puede agregar una descripción de la lista de materiales que se esta creando, este es un campo opcional y queda a criterio de cada usuario si desea agregar información, de lo contrario puede se puede obviar.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción del Producto de la Pestaña LDM" src="../../_images/ldm-tab-product-description-field.png" /></p>
+<p>Imagen 7. Campo Descripción</p>
+</div></blockquote>
+<p>En el campo “<strong>Ayuda</strong>”, se puede agregar una descripción más detallada de la lista de materiales que se está creando, este es un campo opcional y queda a criterio de cada usuario si desea agregar información, de lo contrario puede se puede obviar.</p>
+<blockquote>
+<div><p><img alt="Campo Ayuda del Producto de la Pestaña LDM" src="../../_images/ldm-tab-product-help-field.png" /></p>
+<p>Imagen 8. Campo Ayuda</p>
+</div></blockquote>
+<p>En el campo “<strong>Tipo LDM</strong>”, se debe indicar el tipo de lista de materiales que se esta creando. Continuando con el ejemplo expuesto anteriormente, la opción a seleccionar en este campo es “<strong>Actualmente Activo</strong>”, para indicar que el tipo de lista de materiales es una lista que se encuentra activa.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo LDM del Producto de la Pestaña LDM" src="../../_images/ldm-type-field-of-the-ldm-tab-product.png" /></p>
+<p>Imagen 9. Campo Tipo LDM</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válio Desde</strong>”, la fecha desde la cual es válida la lista de materiales que está realizando</p>
+<blockquote>
+<div><p><img alt="Campo Válido Desde del Producto de la Pestaña LDM" src="../../_images/valid-field-from-the-product-of-the-ldm-tab.png" /></p>
+<p>Imagen 10. Campo Válido Desde</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>LDM Usada</strong>”, la lista de materiales utilizada para el registro que está realizando. Siguiendo el escenario planteado en esta documentación, se seleccionara “<strong>Manufactura</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo LDM Usada del Producto de la Pestaña LDM" src="../../_images/ldm-field-used-from-the-ldm-tab-product.png" /></p>
+<p>Imagen 11. Campo LDM Usada</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Hasta</strong>”, la fecha hasta la cual es válida la lista de materiales. Este campo no es obligatorio, así que si la lista de materiales no posee una fecha el cual indique hasta donde será válida se puede dejar en blanco</p>
+<blockquote>
+<div><p><img alt="Campo Válido Hasta del Producto de la Pestaña LDM" src="../../_images/field-valid-up-to-the-product-of-the-ldm-tab.png" /></p>
+<p>Imagen 12. Campo Válido Hasta</p>
+</div></blockquote>
+<p>Hasta este punto se agrega toda la información necesaria y útil para el encabezado de la lista de materiales, estos datos deben ser guardados seleccionando el icono “<strong>Guardar Cambios</strong>” ubicado en la barra herramientas de ADempiere</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si los datos del encabezado de la lista de materiales no son guardados, no se podrán guardar los datos del detalle de la lista de materiales que en este caso sería el detalle de los componentes o ingredientes.</p>
+</div>
+</div></blockquote>
+<p>El detalle de la lista de materiales, que corresponde a los registros de la materia prima que se requiere para la producción del producto terminado, en el mismo se asocian los componentes que integrarán la lista de materiales teniendo en cuenta que dichos ingredientes ya deben estar registrados en ADempiere.</p>
+<blockquote>
+<div><p>Seleccione el grupo de campo “<strong>Componentes</strong>”, el cual se encuentra como un recuadro o una subventana dentro de la pestaña “<strong>LDM</strong>”.</p>
+<blockquote>
+<div><p><img alt="selección del grupo de campos componentes de la pestaña ldm" src="../../_images/selection-of-the-component-field-group-of-the-ldm-tab.png" /></p>
+<p>Imagen 13. Selección del Grupo de Componentes</p>
+</div></blockquote>
+<p>Al seleccionar el recuadro “<strong>Componentes</strong>”, la vista del grupo de campo puede estar en modo “<strong>Multi Registros</strong>”. Para cambiar la vista a modo “<strong>Mono Registro</strong>”, se debe seleccionar el icono “<strong>Cambiar Mono/Multi Registro</strong>”.</p>
+<blockquote>
+<div><p><img alt="icono mono-multi vista de la pestaña ldm" src="../../_images/mono-multi-view-icon-of-ldm-tab.png" /></p>
+<p>Imagen 14. Icono Mono/Multi Registro</p>
+</div></blockquote>
+<p>Una vez cambiada la vista a modo “<strong>Mono Registro</strong>”, seleccione el icono “<strong>Registro Nuevo</strong>” ubicado en la barra de herramientas de ADempiere para poder asociar al primer componente de la “<strong>LDM</strong>”.</p>
+<blockquote>
+<div><p><img alt="Icono Registro Nuevo de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/new-registration-icon-of-the-standard-product-production-ldm-tab.png" /></p>
+<p>Imagen 15. Icono Registro Nuevo</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al seleccionar el icono “<strong>Registro Nuevo</strong>”, se procede a asociar los datos del componente o ingrediente</p>
+</div>
+</div></blockquote>
+<p>El campo “<strong>No. Línea</strong>”, indica el número de línea correspondiente al registro que está realizando en este caso como es el primer registro, el número registro a observar es el “<strong>10</strong>” ya que ADempiere trabaja la enumeración de registro de 10 en 10.</p>
+<blockquote>
+<div><p><img alt="Campo No Línea de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/field-not-line-of-standard-product-ldm-tab-for-production.png" /></p>
+<p>Imagen 16. Campo No. Línea</p>
+</div></blockquote>
+<p>El check “<strong>Activo</strong>”, indica si el registro a realizar o componente estará activo en la lista de materiales.</p>
+<blockquote>
+<div><p><img alt="check activo de la pestaña ldm del Producto Estándar para Producción" src="../../_images/active-check-of-the-ldm-tab-of-the-standard-product-for-production.png" /></p>
+<p>Imagen 17. Check Activo</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Producto</strong>”, el material o componente necesario para la producción del producto. Siguiendo el escenario de esta documentación se selecciona el componente “<strong>ME Poliestres</strong>”.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para que el componente pueda ser agregado en ese campo debe existir el registro del mismo en la ventana “<strong>Producto</strong>”.</p>
+</div>
+<p><img alt="Campo Producto de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/product-field-from-the-ldm-tab-of-the-standard-product-for-production.png" /></p>
+<p>Imagen 18. Campo Producto</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo Componente</strong>”, el tipo de componente que va representar dicho componente en la lista de materiales. Continuando con el ejemplo, el tipo de componente seleccionado es “<strong>Componente</strong>”.</p>
+<blockquote>
+<div><p><img alt="Campo Tipo Componente de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/component-type-field-of-the-standard-product-ldm-tab-for-production.png" /></p>
+<p>Imagen 19. Campo Tipo de Componente</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Descripción</strong>”, una breve descripción del producto que esta registrando si el componente posee alguna descripción o información el cual sea necesaria agregar, de lo contrario se puede dejar en blanco ya que este campo no es obligatorio.</p>
+<blockquote>
+<div><p><img alt="Campo Descripción de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/description-field-of-the-ldm-tab-of-the-standard-product-for-production.png" /></p>
+<p>Imagen 22. Campo Descripción</p>
+</div></blockquote>
+<p>Si el componente a agregar posee alguna información relevante el cual sea necesaria agregar, esta se puede agregar a traves del campo “<strong>Ayuda</strong>”, de lo contrario se puede dejar en blanco ya que este campo no es obligatorio</p>
+<blockquote>
+<div><p><img alt="Campo ayuda de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/help-field-of-the-ldm-tab-of-the-standard-product-for-productio.png" /></p>
+<p>Imagen 23. Campo Ayuda</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Desde</strong>”, la fecha desde la cual es válido el componente.</p>
+<blockquote>
+<div><p><img alt="Campo Válido Desde de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/field-valid-from-the-ldm-tab-of-the-standard-product-for-production.png" /></p>
+<p>Imagen 24. Campo Válido Desde</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Válido Hasta</strong>”, la fecha hasta la cual es válido el componente. Si el componente no posee una fecha tope, este campo puede quedar en blanco, indicado así que siempre va hacer válido el componente.</p>
+<blockquote>
+<div><p><img alt="Campo Válido Hasta de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/field-valid-up-to-the-ldm-tab-of-the-standard-product-for-production.png" /></p>
+<p>Imagen 25. Campo Válido Hasta</p>
+</div></blockquote>
+<p>El check “<strong>Cantidad en Porcentaje</strong>”, indica que la cantidad a necesitar de este componente será utilizada en porcentaje. Al tildar este check ADempiere mostrará automáticamente otro campo con el nombre de “<strong>Cantidad en %</strong>”, donde se agregará la cantidad en porcentaje.</p>
+<blockquote>
+<div><p><img alt="Checklist Cantidad en Porcentaje de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/checklist-quantity-in-percentage-of-the-ldm-tab-of-the-standard-product-for-production.png" /></p>
+<p>Imagen 26. Check Cantidad en Porcentaje</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Cantidad</strong>”, la cantidad a utilizar del producto correspondiente al registro que esta realizando. Continuando con el ejemplo, se tiene que para producir una unidad del producto “<strong>Pasta Dedal Premium 1 Kg</strong>”, se requiere “<strong>0,00032 KG</strong>” del componente “<strong>ME Poliestres</strong>”. Es decir, que la cantidad a colocar en el campo es “<strong>0,00032</strong>”</p>
+<blockquote>
+<div><p><img alt="Campo Cantidad de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/quantity-field-of-the-ldm-tab-of-the-standard-product-for-production.png" /></p>
+<p>Imagen 27. Campo Cantidad</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Método de Salida</strong>”, el método de salida que indica cómo será la salida del componente al momento realizar la producción del producto terminado.</p>
+<blockquote>
+<div><p><img alt="Campo Método de Salida de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/output-method-field-of-the-standard-product-ldm-tab-for-production.png" /></p>
+<p>Imagen 28. Campo Método de Salida</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>% Desperdicio</strong>”, el porcentaje de desperdicio que se obtendrá de este componente al momento de hacer la producción, este campo no es un dato obligatorio así que de no poseer el porcentaje de desperdicio este campo se puede obviar.</p>
+<blockquote>
+<div><p><img alt="Campo Porcentaje Desperdicio de la Pestaña ldm del Producto Estándar para Producción" src="../../_images/waste-percentage-field-of-the-ldm-tab-of-the-standard-product-for-production.png" /></p>
+<p>Imagen 29. Campo Porcentaje Desperdicio</p>
+</div></blockquote>
+<p>Una vez agregada la información y el detalle de este primer componente se procede a guardar el registro seleccionando el icono “<strong>Guardar Cambios</strong>” ubicado en la barra de herramientas de ADempiere.</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si es necesario cargar otro material o componente para la producción del producto, repita las veces que sea necesario el procedimiento para agregar componentes “<strong>Detalle de Lista de Materiales</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Al crear todo el detalle de lista de materiales esta debe validarse. Para ello, se debe posicionar en la pestaña principal “<strong>Producto</strong>”. Teniendo en cuenta que aún debe estar ubicado en el registro del producto “<strong>PTPC-00007_Pasta Dedal Premium 1 Kg</strong>”.</p>
+<blockquote>
+<div><p><img alt="Pestaña Principal Producto" src="../../_images/standard-product-for-production.png" /></p>
+<p>Imagen 30. Pestaña Principal Producto</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Verificar LDM</strong>”, ubicada en el menú desplegado al seleccionar el icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="Opción Verificar ldm" src="../../_images/option-check-ldm.png" /></p>
+<p>Imagen 31. Opción Verificar LDM</p>
+</div></blockquote>
+<p>Podrá visualizar la siguiente ventana de confirmación para la verificación de la lista de materiales del producto, donde debe seleccionar la opción “<strong>OK</strong>” para verificar la misma.</p>
+<blockquote>
+<div><p><img alt="Ventana Verificar LDM" src="../../_images/verify-ldm-window.png" /></p>
+<p>Imagen 32. Ventana de Confirmación para Verificar LDM</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../production-management/index.html" class="btn btn-neutral float-right" title="4. Gestión de Producción" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="internal-use-inventory/internal-use-inventory.html" class="btn btn-neutral float-left" title="3.2.1. Registo de Inventario de Uso Interno" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
