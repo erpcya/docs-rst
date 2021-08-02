@@ -207,15 +207,19 @@ Seleccione la opción "**Conciliación de Estado de Cuenta**" en el menú que es
 
             Si existe coincidencia entre los pagos/cobros y el extracto bancario se le mostrarán los movimientos con coincidencias, de lo contrario no se le mostrará ningún movimiento con coincidencia.
 
-    Seleccione la opción "**OK**" para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de búsqueda inteligente. Automáticamente se importan en la pestaña "**Línea Estado Cuentas**", todos movimientos del extracto bancario los que han sido identificados y los que no tengan registro en ADempiere.
+    Seleccione la opción "**OK**" para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de búsqueda inteligente. Automáticamente se importan en la pestaña "**Línea Estado Cuentas**", todos movimientos del extracto bancario que han sido identificados y los que no tengan registro en ADempiere.
+
+        .. note::
+
+            Para los casos en los que el extracto bancario corresponda al "**Banco del Tesoro**" y al momento de realizar la simulación no se refleje ningún tipo de movimientos con coincidencia, se debe seleccionar de igual manera la opción "**OK**", para que sean importados a la pestaña "**Línea Estado Cuentas**", todos los registros del extracto bancario.
 
         |Opción OK para Guardar Coincidencias|
-        
+
         Imagen 24. Opción OK
 
     .. note::
 
-        El extracto bancario puede poseer algunos registros que no han sido cargados en ADempiere, estos pueden ser cobros no identificados, comisiones bancarias entre otros, los cuales no van ser identificados al momento de hacer la simulación, sin embargo para estos pagos/cobros no conciliados se aplicará un proceso que se detalla en el documento :ref:`documento/crear-pagos-desde-estado-de-cuenta`.
+        El extracto bancario puede poseer algunos registros que no han sido cargados en ADempiere, estos pueden ser cobros no identificados, comisiones bancarias entre otros, los cuales no van a ser identificados al momento de hacer la simulación, sin embargo para estos pagos/cobros no conciliados se aplicará un proceso que se detalla en el documento :ref:`documento/crear-pagos-desde-estado-de-cuenta`.
 
 Al seleccionar "**Ok**" ADempiere lo llevará nuevamente a la ventana principal "**Estado de Cuenta Bancario**".
 
