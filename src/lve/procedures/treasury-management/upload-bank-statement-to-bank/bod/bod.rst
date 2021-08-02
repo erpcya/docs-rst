@@ -30,11 +30,11 @@ Adicional a ello, se puede visualizar dicho documento de la siguiente manera, lu
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 |5  |NÚMERO DE CONTRATO                   |17            |N         |N/A         |Sí             |Número de la negociación                                                                                        |90045678901234567          |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
-|6  |NÚMERO DE LOTE / REFERENCIA DEBITO   |9             |N         |N/A         |Sí             |Número del Lote. Referencia del débito. Será utilizada en el esatdo de cuenta (modaldiad 1:n)                   |123456789                  |
+|6  |NÚMERO DE LOTE / REFERENCIA DEBITO   |9             |N         |N/A         |Sí             |Número del Lote. Referencia del débito. Será utilizada en el estado de cuenta (modaldiad 1:n)                   |123456789                  |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 |7  |FECHA DE ENVÍO                       |8             |N         |N/A         |Sí             |Fecha de envío del lote. Debe estar en formato yyyymmdd                                                         |20100530                   |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
-|8  |CANTIDAD DE OPERACIONES              |6             |N         |N/A         |Sí             |Cantidad de pagos en el lote (regsitros de detalle)                                                             |138                        |
+|8  |CANTIDAD DE OPERACIONES              |6             |N         |N/A         |Sí             |Cantidad de pagos en el lote (registros de detalle)                                                             |138                        |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 |9  |MONTO TOTAL                          |17            |N         |2           |Sí             |Monto total del lote de pagos (Incluye los decimales sin separador). Monto expresado en el ejemplo: 100.563,51  |10056351                   |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
@@ -83,7 +83,7 @@ Adicional a ello, se puede visualizar dicho documento de la siguiente manera, lu
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 |Documentos asociados al pago TIPO=03 (Opcional)                                                                                                                                                                                              |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
-|1  |IDENTIFICADOR REGISTRO               |2             |A         |N/A         |No             |Identificación de documentos. Puede haber mas de un (1) dpcumento por cada pago                                 |03                         |
+|1  |IDENTIFICADOR REGISTRO               |2             |A         |N/A         |No             |Identificación de documentos. Puede haber mas de un (1) documento por cada pago                                 |03                         |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 |2  |NÚMERO DE FACTURA O DOCUMENTO.       |20            |A         |N/A         |No             |Número o referencia del documento                                                                               |A-12348-PEDIDO             |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
@@ -116,11 +116,11 @@ Adicional a ello, se puede visualizar dicho documento de la siguiente manera, lu
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 |5  |NÚMERO DE CONTRATO                   |17            |N         |N/A         |Sí             |Número de la negociación                                                                                        |90045678901234567          |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
-|6  |NÚMERO DE LOTE / REFERENCIA DEBITO   |9             |N         |N/A         |Sí             |Número del Lote. Referencia del débito. Será utilizada en el esatdo de cuenta (modaldiad 1:n)                   |123456789                  |
+|6  |NÚMERO DE LOTE / REFERENCIA DEBITO   |9             |N         |N/A         |Sí             |Número del Lote. Referencia del débito. Será utilizada en el estado de cuenta (modaldiad 1:n)                   |123456789                  |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 |7  |FECHA DE ENVÍO                       |8             |N         |N/A         |Sí             |Fecha de envío del lote. Debe estar en formato yyyymmdd                                                         |20100530                   |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
-|8  |CANTIDAD DE OPERACIONES              |6             |N         |N/A         |Sí             |Cantidad de pagos en el lote (regsitros de detalle)                                                             |138                        |
+|8  |CANTIDAD DE OPERACIONES              |6             |N         |N/A         |Sí             |Cantidad de pagos en el lote (registros de detalle)                                                             |138                        |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 |9  |MONTO TOTAL                          |17            |N         |2           |Sí             |Monto total del lote de pagos (Incluye los decimales sin separador). Monto expresado en el ejemplo: 100.563,51  |10056351                   |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
@@ -165,7 +165,7 @@ Adicional a ello, se puede visualizar dicho documento de la siguiente manera, lu
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 |12 |MONEDA                               |3             |N         |N/A         |Sí             |Moneda actual disponible Bs.                                                                                    |VEB                        |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
-|13 |IMPUESTO RETENIDO                    |15            |N         |2           |No             |Monto del impuesto retebido en el documento asociado al pago                                                    |168009                     |
+|13 |IMPUESTO RETENIDO                    |15            |N         |2           |No             |Monto del impuesto retenido en el documento asociado al pago                                                    |168009                     |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 |14 |EMAIL                                |40            |A         |N/A         |No             |Dirección email del beneficiario                                                                                |joseh.cortez@gmail.com     |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
@@ -185,7 +185,7 @@ Adicional a ello, se puede visualizar dicho documento de la siguiente manera, lu
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 |Documentos asociados al pago TIPO=03 (Opcional). Longitud 1000                                                                                                                                                                               |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
-|1  |IDENTIFICADOR REGISTRO               |2             |A         |N/A         |Sí             |Identificación de documentos. Puede haber mas d eun (1) dpcumento por cada pago                                 |03                         |
+|1  |IDENTIFICADOR REGISTRO               |2             |A         |N/A         |Sí             |Identificación de documentos. Puede haber mas de un (1) dpcumento por cada pago                                 |03                         |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
 |2  |NÚMERO DE FACTURA O DOCUMENTO.       |20            |A         |N/A         |Sí             |Número o referencia del documento                                                                               |A-12348-PEDIDO             |
 +---+-------------------------------------+--------------+----------+------------+---------------+----------------------------------------------------------------------------------------------------------------+---------------------------+
@@ -224,6 +224,8 @@ Al ejecutar el proceso de selección de pago de las siguientes facturas en ADemp
 Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco bod a terceros en el mismo banco, así como también a terceros en otros bancos, el mismo se puede descargar en el enlace :download:`Archivo de Pago de Proveedores del Banco Occidental de Descuento <.txt>` y visualizar de la siguiente manera:
 
 ::
+
+
 
 
 **Descripción del Archivo**
@@ -378,4 +380,4 @@ Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en 
 
 **Descripción del Archivo**
 
-    La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento :download:`Formato Archivo Ordenes de Pago <EN-CP-E-0036_SOLICITUD_MASIVA_DE_ORDENES_DE_PAGOS__TXT_.xlsm>`. De igual manera, se encuentra explicada en la tabla que contiene el presente documento, al inicio del mismo.
+La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento :download:`Formato Archivo Ordenes de Pago <EN-CP-E-0036_SOLICITUD_MASIVA_DE_ORDENES_DE_PAGOS__TXT_.xlsm>`. De igual manera, se encuentra explicada en la tabla que contiene el presente documento, al inicio del mismo.
