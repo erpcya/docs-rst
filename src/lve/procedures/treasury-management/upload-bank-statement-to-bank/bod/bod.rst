@@ -221,12 +221,20 @@ Al ejecutar el proceso de selección de pago de las siguientes facturas en ADemp
 - Factura "**1000246**" al socio del negocio "**Bolivariana de Puertos  ( Bolipuertos)  S A**" por monto total de "**876.952.045,00**". 
 - Factura "**1000247**" al socio del negocio "**E.R.P. Consultores y Asociados, C.A.**" por monto total de "**18.000.000,00**". 
 
-Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco bod a terceros en el mismo banco, así como también a terceros en otros bancos, el mismo se puede descargar en el enlace :download:`Archivo de Pago de Proveedores del Banco Occidental de Descuento <.txt>` y visualizar de la siguiente manera:
+Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco bod a terceros en el mismo banco, así como también a terceros en otros bancos, el mismo se puede descargar en el enlace :download:`Archivo de Pago de Proveedores del Banco Occidental de Descuento <Banco_Occidental_de_Descuento_BU_CA_1000040.txt>` y visualizar de la siguiente manera:
 
 ::
 
-
-
+    01PROVEEDORES         J400788315000000000000008760010000402021072900000400000091202294087VES                                                                                                                                                              
+    02J400788315ERP Consultores y Asociados CA                              00000000010002431000247                CTA01160058752984563012011620210729000003300000000VES000000000000000erpya@ejemplo.com                                                      
+    031000243             000001500000000VES2021/07/29000000000000000                                                                                                                                                                                           
+    031000247             000001800000000VES2021/07/29000000000000000                                                                                                                                                                                           
+    02J297599070Bolivariana de Puertos  ( Bolipuertos)  S A                 0000000011000246                       BAN01560000000085000096015620210729000087695204500VES000000000000000                                        02550000000                    
+    031000246             000087695204500VES2021/07/29000000000000000                                                                                                                                                                                           
+    02J002443731Dhl Express Aduanas Venezuela CA                            0000000021000244                       BAN01050000002000000015010520210729000000184589587VES000000000000000                                        02550002000                    
+    031000244             000000184589587VES2021/07/29000000000000000                                                                                                                                                                                           
+    02V000000001Proveedor Estndar                                           0000000031000245                       BAN01020000000000000012010220210729000000022500000VES000000000000000proveedor@ejemplo.com                   02550000000                    
+    031000245             000000022500000VES2021/07/29000000000000000                                                                                                                                                                                           
 
 **Descripción del Archivo**
 
@@ -372,11 +380,19 @@ Al ejecutar el proceso de selección de pago de la nómina quincenal "**NQ-13**"
 - Socio del Negocio "**Empleado**", con cédula de identidad "**0000002**", perteneciente a la nómina "**Quincenal**".
 - Socio del Negocio "**Empleado Cinco**", con cédula de identidad "**0000003**", perteneciente a la nómina "**Quincenal**".
 
-Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco exterior a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace :download:`Archivo de Pago de Nómina del Banco Occidental de Descuento <.txt>` y visualizar de la siguiente manera:
+Se obtiene como resultado del proceso "**Imprimir /Exportar**", un documento en formato "**.txt**" con los detalles de los pagos a ser realizados desde el banco exterior a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace :download:`Archivo de Pago de Nómina del Banco Occidental de Descuento <Banco_Occidental_de_Descuento_BU_CA_1000039.txt>` y visualizar de la siguiente manera:
 
 ::
 
-
+    01NOMINA              J400788315000000000000008760010000392021073000000400000000912335940VES                                                                                                                                                              
+    020000085007Empleado Estndar                                            000000000NQ13                          BAN01740000005000000089017420210730000000156637539VES000000000000000                                                                       
+    03NQ-13               000000156637539VES2021/07/30000000000000000                                                                                                                                                                                           
+    020000000002Empleado                                                    000000001NQ13                          BAN01028619579265659568010220210730000000015197723VES000000000000000empleado@ejemplo.com                                                   
+    03NQ-13               000000015197723VES2021/07/30000000000000000                                                                                                                                                                                           
+    02J400788315ERP Consultores y Asociados CA                              000000002NQ13                          CTA01160058752984563012011620210730000000425623139VES000000000000000erpya@ejemplo.com                                                      
+    03NQ-13               000000425623139VES2021/07/30000000000000000                                                                                                                                                                                           
+    020000000003Empleado Cinco                                              000000003NQ13                          BAN01345986828692910058013420210730000000314877539VES000000000000000empleadociinco@ejemplo.com                                             
+    03NQ-13               000000314877539VES2021/07/30000000000000000                                                                                                                                                                                           
 
 **Descripción del Archivo**
 
