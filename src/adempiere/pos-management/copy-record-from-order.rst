@@ -35,7 +35,7 @@ Para explicar de manera detallada el procedimiento y la funcionalidad del proces
     +--------------------------------------------------------+
     |Araure - Portuguesa                                     |
     +--------------------------------------------------------+
-    |Orden OPOS-2211                                         |
+    |Orden OPOS-857                                          |
     +--------------------------------------------------------+
     |Empleado Vendedor                                       |
     +--------------------------------------------------------+
@@ -70,13 +70,13 @@ Un registro de orden de compra puede ser copiado cuando el mismo se encuentre en
 
 Para continuar con el ejemplo planteado anteriormente en el presente documento, se tiene lo siguiente:
 
-- El día "**06/08/2021**", se presenta el cliente de la factura "**00000654**", asociada a la orden "**OPOS-2211**", realizando la devolución del producto "**PICO PARA AIRE LARGO TRUPER**". Dicho cliente indica que requiere que el mismo sea cambiado porque se encuentra dañado. 
+- El día "**06/08/2021**", se presenta el cliente de la factura "**00000654**", asociada a la orden "**OPOS-857**", realizando la devolución del producto "**PICO PARA AIRE LARGO TRUPER**". Dicho cliente indica que requiere que el mismo sea cambiado porque se encuentra dañado. 
 
     |tasa de cambio del bcv del día 06|
 
     Imagen 2. Tasa de Cambio del BCV-ABC Estándar C.A del día 06/08/2021
 
-- Antes de ejecutar el proceso :ref:`documento/anular-transacción-de-venta`, se requiere copiar el registro de la orden "**OPOS-2211**", generada el día "**04/08/2021**", con la tasa de cambio "**1.933.493,43**" del "**BCV-ABC Estándar C.A**", para mantener los valores de la misma.
+- Antes de ejecutar el proceso :ref:`documento/anular-transacción-de-venta`, se requiere copiar el registro de la orden "**OPOS-857**", generada el día "**04/08/2021**", con la tasa de cambio "**1.933.493,43**" del "**BCV-ABC Estándar C.A**", para mantener los valores de la misma.
 
 .. note::
 
