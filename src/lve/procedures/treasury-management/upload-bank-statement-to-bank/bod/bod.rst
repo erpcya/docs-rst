@@ -243,6 +243,8 @@ La descripción del archivo anteriormente generado por el pago, se encuentra exp
 **BOD NÓNIMA**
 --------------
 
+`ERPyA`_ agrega soporte al siguiente formato de nómina facilitado por el banco, dicha actualización fue liberada en la versión :ref:`documento/versión-23-7` de ADempiere. Para mayor información de la misma, puede consultar la nota de liberación indicada anteriormente.
+
 **Formato Archivo Beneficiarios de Pago (Del Cliente al Banco)**
 ****************************************************************
 
