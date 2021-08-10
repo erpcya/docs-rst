@@ -115,7 +115,7 @@
 
 .. note::
 
-    A continuación le dejamos un :download:`ejemplo <resources/assets-capybara.zip>` de la estructura de las imágenes.
+    A continuación le dejamos un :download:`ejemplo <resources/assets.zip>` de la estructura de las imágenes.
 
     +----------------------------------------+--------------------------------------------------+-----------------------+
     | **Nombre del archivo**                 | **Ruta del archivo**                             | **Resolución**        |
