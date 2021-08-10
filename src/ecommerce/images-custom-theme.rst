@@ -115,7 +115,10 @@
 
 .. note::
 
-    A continuación le dejamos un :download:`ejemplo <resources/assets.zip>` de la estructura de las imágenes.
+    A continuación le dejamos unos ejemplos de la estructura de las imágenes.
+
+    - :download:`Tema Personalizado 1 <resources/assets-capybara.zip>`.
+    - :download:`Tema Personalizado 2 <resources/assets.zip>`.
 
     +----------------------------------------+--------------------------------------------------+-----------------------+
     | **Nombre del archivo**                 | **Ruta del archivo**                             | **Resolución**        |
