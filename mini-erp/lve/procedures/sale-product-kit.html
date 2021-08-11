@@ -1,0 +1,485 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>3.5. Kit de Productos de Ventas &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="3.6. Solicitud de Mantenimiento" href="maintenance-request.html" />
+    <link rel="prev" title="3.4.2.1. Retención de IVA de Cuentas por Cobrar" href="withholding-management/withholding-iva-cxc/withholding-iva-cxc.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">3. <strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="shipping-tracking.html">3.1. <strong>Tracking de Envío</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="consignment-management/index.html">3.2. <strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="ticket-office.html">3.3. <strong>Boletería</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="withholding-management/index.html">3.4. <strong>Gestión de Retenciones</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">3.5. <strong>Kit de Productos de Ventas</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#configuracion-del-kit-de-productos">3.5.1. <strong>Configuración del Kit de Productos</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#venta-del-kit-de-productos">3.5.2. <strong>Venta del Kit de Productos</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="maintenance-request.html">3.6. <strong>Solicitud de Mantenimiento</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html">1. <strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">3. </span><strong>Procedimientos</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">3.5. </span><strong>Kit de Productos de Ventas</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/lve/procedures/sale-product-kit.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="kit-de-productos-de-ventas">
+<span id="documento-kit-de-productos-de-ventas"></span><h1><span class="section-number">3.5. </span><strong>Kit de Productos de Ventas</strong><a class="headerlink" href="#kit-de-productos-de-ventas" title="Permalink to this headline">¶</a></h1>
+<p>Un kit de productos de ventas permite agrupar ciertos productos destinados para la venta, son utilizados como estrategias de marketing con la finalidad de mejorar y agilizar el proceso de las ventas en las empresas. En el presente documento se detalla el procedimiento que se debe realizar en ADempiere para crear los kit de productos de ventas. De esta manera, al momento de realizar una venta, se hace referencia al kit de productos que contiene asociados los diferentes productos requeridos por el cliente.</p>
+<div class="section" id="configuracion-del-kit-de-productos">
+<span id="documento-proceso-de-configuracion-del-kit"></span><h2><span class="section-number">3.5.1. </span><strong>Configuración del Kit de Productos</strong><a class="headerlink" href="#configuracion-del-kit-de-productos" title="Permalink to this headline">¶</a></h2>
+<p>Una vez definido el kit que requiere configurar en ADempiere, se debe realizar el registro del producto padre que en este caso es el “<strong>Kit de Productos de Ventas</strong>”. Para explicar de manera detallada el procedimiento de kit de productos de ventas, se presenta el siguiente ejemplo:</p>
+<blockquote>
+<div><p>Se requiere registrar en ADempiere el kit de ventas “<strong>Kit Sala de Ordeño 10 Repuestos</strong>”.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Al momento de registrar el kit de productos de ventas se debe verificar que el check “<strong>Almacenado</strong>”, se encuentre desactivado ya que ningún kit se almacena. Recuerde que el registro padre agrupa todos los productos que componen el mismo y que dichos productos si deben estar almacenados.</p>
+</div>
+</div></blockquote>
+<p>Los registros de los productos se realizan en la ventana “<strong>Producto</strong>”, para acceder a la misma se debe realizar lo siguiente:</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Materiales</strong>”, luego seleccione la carpeta “<strong>Reglas de Gestión de Materiales</strong>”, por último seleccione la ventana “<strong>Producto</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de la ventana producto" src="../../_images/product-window-menu1.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Producto</strong>”, en la cual se encuentran todos los registros de productos de ADempiere.</p>
+<blockquote>
+<div><p><img alt="ventana producto" src="../../_images/product-window.png" /></p>
+<p>Imagen 2. Ventana Producto</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que para crear un nuevo registro de producto se debe seleccionar el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+</div>
+</div></blockquote>
+<p>Si desconoce el procedimiento que se debe realizar para registrar los productos en ADempiere, consulte el material <a class="reference internal" href="../../adempiere/master/product/product.html#documento-producto"><span class="std std-ref">Registro de Producto</span></a>. Sin embargo, a continuación se explican las restricciones que se deben considerar en dicho proceso.</p>
+<p>Al momento de registrar el kit, se deben tener registrados y configurados los productos que componen dicho kit. Es decir, si el kit a registrar es “<strong>Kit Sala de Ordeño 10 Repuestos</strong>” y el mismo se compone de los siguientes productos:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 20%" />
+<col style="width: 80%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Código</strong></p></th>
+<th class="head"><p><strong>Producto</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>Vacu-01</p></td>
+<td><p>Vacuómetro 100mm</p></td>
+</tr>
+<tr class="row-odd"><td><p>TUB-01</p></td>
+<td><p>Tubería de Vacio de alta resistencia 2</p></td>
+</tr>
+<tr class="row-even"><td><p>PUL-HON01</p></td>
+<td><p>Pulsadores tipo hongo</p></td>
+</tr>
+</tbody>
+</table>
+<p>Debe existir en ADempiere de manera obligatoria, el registro de los mismos como se muestra a continuación:</p>
+<ul>
+<li><p>Vacuómetro 100mm</p>
+<blockquote>
+<div><p><img alt="producto vacuómetro" src="../../_images/product-vacuum-gauge.png" /></p>
+<p>Imagen 3. Registro del Producto Vacuómetro</p>
+</div></blockquote>
+</li>
+<li><p>Tubería de Vacio de alta resistencia 2</p>
+<blockquote>
+<div><p><img alt="producto tubería de vacio de alta resistencia 2" src="../../_images/high-resistance-vacuum-tubing-product-2.png" /></p>
+<p>Imagen 4. Producto Tubería de Vacio de Alta Resistencia 2</p>
+</div></blockquote>
+</li>
+<li><p>Pulsadores tipo hongo</p>
+<blockquote>
+<div><p><img alt="producto pulsadores tipo hongo" src="../../_images/mushroom-pushbutton-product.png" /></p>
+<p>Imagen 5. Producto Pulsadores Tipo Hongo</p>
+</div></blockquote>
+</li>
+</ul>
+</div></blockquote>
+<p>Finalmente, se debe crear el registro del kit haciendo referencia al nombre de dicho kit de ventas y con el check “<strong>Almacenado</strong>” desactivado. Continuando con el ejemplo presentado anteriormente, se registra el kit “<strong>Kit Sala de Ordeño 10 Repuestos</strong>”.</p>
+<blockquote>
+<div><p><img alt="registro del kit de productos de ventas" src="../../_images/sales-product-kit-registration.png" /></p>
+<p>Imagen 6. Kit de Productos de Ventas</p>
+</div></blockquote>
+<p>Luego se deben asociar los productos que componen el kit de productos de ventas. Para ello, se debe seleccionar la pestaña “<strong>LDM</strong>”.</p>
+<blockquote>
+<div><p><img alt="pestaña ldm del registro del kit" src="../../_images/kit-log-ldm-tab.png" /></p>
+<p>Imagen 7. Pestaña LDM de la Ventana Producto.</p>
+</div></blockquote>
+<p>El registro del encabezado de la pestaña “<strong>LDM</strong>” debe contemplar los siguientes campos:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“<strong>Tipo LDM</strong>”: Se debe seleccionar la opción “<strong>Hacer-un-kit</strong>”, para indicar que el registro que se esta realizando corresponde a un kit de productos.</p></li>
+<li><p>“<strong>LDM Usada</strong>”: Se debe seleccionar la opción “<strong>Manufactura</strong>”, para indicar que la lista de materiales corresponde a la manufactura.</p></li>
+<li><p>“<strong>Válido Desde</strong>”: Se debe seleccionar la fecha de inicio del periodo de validez del kit de productos.</p></li>
+<li><p>“<strong>Válido Hasta</strong>”: Se debe seleccionar la fecha de culminación del periodo de validez del kit de productos. De no tener un fecha final se puede dejar en blanco.</p></li>
+</ul>
+<p><img alt="encabezado de la pestaña ldm" src="../../_images/ldm-tab-header.png" /></p>
+<p>Imagen 8. Encabezado de la Pestaña LDM</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para ubicarse en el grupo de campos “<strong>Componentes</strong>”, se debe hacer clic en cualquier parte de la misma.</p>
+</div>
+<p>El registro de los componentes de la pestaña “<strong>LDM</strong>”, se realiza en el grupo de campos “<strong>Componentes</strong>”, en el cual se deben contemplar los siguientes campos:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>“<strong>Producto</strong>”: Se debe seleccionar el producto que se requiere asociar al kit de productos.</p></li>
+<li><p>“<strong>Tipo Componente</strong>”: Se debe seleccionar la opción “<strong>Componente</strong>” para indicar que el producto seleccionado es un componente del kit de productos.</p></li>
+<li><p>“<strong>Cantidad</strong>”: Se debe ingresar la cantidad solicitada del producto seleccionado para el kit de productos.</p></li>
+<li><p>“<strong>Método de Salida</strong>”: Se debe seleccionar la opción “<strong>Automático</strong>” para indicar que los componentes serán despachados de manera automática.</p></li>
+</ul>
+<p><img alt="registro de componentes de la pestaña ldm" src="../../_images/component-log-from-ldm-tab.png" /></p>
+<p>Imagen 9. Registro de Componentes de la Pestaña LDM</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para registrar otro componente, correspondiente al mismo encabezado, se debe encontrar posicionado en el grupo de campos “<strong>Componentes</strong>” y seleccionar el icono “<strong>Registro Nuevo</strong>”, ubicado en la barra de herramientas de ADempiere y proceder a registrar el siguiente componente considerando los campos indicados anteriormente.</p>
+</div>
+<p><img alt="registro de todos los componentes de la pestaña ldm" src="../../_images/registration-of-all-components-in-the-ldm-tab.png" /></p>
+<p>Imagen 10. Registro de los Componentes de la Pestaña LDM</p>
+</div></blockquote>
+<p>Una vez asociados los productos a la pestaña “<strong>LDM</strong>”, se debe validar la misma. Para ello, se debe seleccionar la pestaña principal “<strong>Producto</strong>”, luego se debe seleccionar el icono “<strong>Proceso</strong>” y finalmente la opción “<strong>Validar LDM</strong>” que se desplega al selecccionar dicho icono.</p>
+<blockquote>
+<div><p><img alt="opción validar ldm del icono proceso" src="../../_images/validate-ldm-option-of-the-process-icon.png" /></p>
+<p>Imagen 11. Opción Validar LDM del Icono Proceso</p>
+</div></blockquote>
+<p>Tanto el kit como los productos que componen el kit deben estar asociados a una lista de precios de ventas, ya sea “<strong>VES</strong>” o “<strong>USD</strong>”.</p>
+<blockquote>
+<div><p><img alt="pestaña precios del kit de productos de ventas" src="../../_images/sales-product-kit-pricing-tab.png" /></p>
+<p>Imagen 12. Pestaña Precios del Kit de Productos de Ventas</p>
+</div></blockquote>
+</div>
+<div class="section" id="venta-del-kit-de-productos">
+<span id="documento-proceso-de-venta-del-kit"></span><h2><span class="section-number">3.5.2. </span><strong>Venta del Kit de Productos</strong><a class="headerlink" href="#venta-del-kit-de-productos" title="Permalink to this headline">¶</a></h2>
+<p>Al momento de realizar la venta del kit de productos se tiene como requerimiento principal que el mismo se encuentre configurado como se indica en el proceso <a class="reference internal" href="#documento-proceso-de-configuracion-del-kit"><span class="std std-ref">Configuración del Kit de Productos</span></a>. Una vez configurado el mismo, se procede a realizar la venta desde la ventana “<strong>Orden de Venta</strong>”. Para ello, se debe realizar lo siguiente.</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”, por último seleccione la ventana “<strong>Órdenes de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de la ventana órdenes de venta" src="../../_images/window-menu-sales-orders.png" /></p>
+<p>Imagen 13. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Órdenes de Venta</strong>”, donde se encuentran los diferentes registros de órdenes de venta que se encuentran en ADempiere. En dicha ventana se debe proceder a realizar el registro de la orden de venta del kit de productos. Para ello, se debe seleccionar el icono “<strong>Registro Nuevo</strong>” ubicado en la barra de herramientas de ADempiere y proceder al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="registro de pestaña orden de la ventana órdenes de venta" src="../../_images/order-tab-register-sales-orders-window.png" /></p>
+<p>Imagen 14. Registro de Pestaña Orden</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si desconoce el procedimiento para realizar un nuevo registro de orden de venta en la ventana “<strong>Órdenes de Venta</strong>”, puede consultar el material <a class="reference internal" href="../../adempiere/quote-to-invoice/sales-order/index.html#src-adempiere-quote-to-invoice-sales-order"><span class="std std-ref">Orden de Venta</span></a>.</p>
+</div>
+</div></blockquote>
+<p>Una vez lleno el registro de la pestaña principal “<strong>Órdenes de Venta</strong>”, seleccione la pestaña “<strong>Línea de la Orden</strong>” y proceda al llenado de los campos correspondientes.</p>
+<blockquote>
+<div><p><img alt="pestaña línea de la orden de la ventana órdenes de venta" src="../../_images/order-line-tab-of-the-sales-orders-window.png" /></p>
+<p>Imagen 15. Pestaña Línea de la Orden</p>
+</div></blockquote>
+<p>En el campo “<strong>Producto</strong>”, se debe seleccionar el registro del kit de productos que requiere vender. Continuando con el escenario planteado anteriormente en el presente documento, el producto a asociar en este campo sería “<strong>Kit Sala de Ordeño 10 Repuestos</strong>”.</p>
+<blockquote>
+<div><p><img alt="campo producto de la pestaña línea de la orden" src="../../_images/product-field-of-the-order-line-tab.png" /></p>
+<p>Imagen 16. Campo Producto</p>
+</div></blockquote>
+<p>En el campo “<strong>Cantidad</strong>”, se debe ingresar la cantidad del kit de productos que se encuentra vendiendo.</p>
+<blockquote>
+<div><p><img alt="campo cantidad de la pestaña línea de la orden" src="../../_images/quantity-field-of-the-order-line-tab.png" /></p>
+<p>Imagen 17. Campo Cantidad</p>
+</div></blockquote>
+<p>El registro debe ser guardado con ayuda del icono “<strong>Guardar Cambios</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="icono guardar cambios de la pestaña línea de la orden" src="../../_images/save-changes-icon-of-the-order-line-tab.png" /></p>
+<p>Imagen 18. Icono Guardar Cambios</p>
+</div></blockquote>
+<p>Luego se debe seleccionar la pestaña principal “<strong>Orden</strong>” y la opción “<strong>Procesar Orden</strong>” desplegada por la selección del icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="pestaña principal orden y opción procesar orden del icono proceso" src="../../_images/order-main-tab-and-process-icon-order-process.png" /></p>
+<p>Imagen 19. Pestaña Orden y Opción Procesar Orden del Icono Proceso</p>
+</div></blockquote>
+<p>En la ventana emergente se debe seleccionar la acción “<strong>Preparar</strong>” y la opción “<strong>OK</strong>”.</p>
+<blockquote>
+<div><p><img alt="acción preparar y opción ok" src="../../_images/action-prepare-and-option-ok.png" /></p>
+<p>Imagen 20. Acción Preparar y Opción Ok</p>
+</div></blockquote>
+<p>Al cambiar el estado del documento “<strong>Borrador</strong>” a estado “<strong>En Proceso</strong>” o “<strong>Completo</strong>”, ADempiere agrega de manera automática, una línea por cada producto asociado al kit de productos seleccionado y a su vez, agrega en el campo “<strong>Cantidad</strong>”, la cantidad establecida en cada uno de los productos asociados al kit. Este resultado se puede verificar seleccionando la pestaña “<strong>Línea de la Orden</strong>” y navegando entre los registros creados en dicha pestaña.</p>
+<blockquote>
+<div><p><img alt="pestaña línea de la orden despues de procesar la misma" src="../../_images/tab-line-of-the-order-after-processing-the-same.png" /></p>
+<p>Imagen 21. Pestaña Línea de la Orden</p>
+</div></blockquote>
+<p>Finalmente, se debe seleccionar nuevamente la pestaña principal “<strong>Orden</strong>” y la opción “<strong>Procesar Orden</strong>” desplegada por la selección del icono “<strong>Proceso</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="pestaña principal orden y opción procesar orden del icono proceso completar" src="../../_images/order-main-tab-and-process-icon-order-process-complete.png" /></p>
+<p>Imagen 22. Pestaña Orden y Opción Procesar Orden del Icono Proceso</p>
+</div></blockquote>
+<p>En la ventana emergente se debe seleccionar la acción “<strong>Completar</strong>” y la opción “<strong>OK</strong>”, para completar el registro de la orden de venta.</p>
+<blockquote>
+<div><p><img alt="acción completar y opción ok" src="../../_images/action-complete-and-option-ok8.png" /></p>
+<p>Imagen 23. Acción Completar y Opción Ok</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="maintenance-request.html" class="btn btn-neutral float-right" title="3.6. Solicitud de Mantenimiento" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="withholding-management/withholding-iva-cxc/withholding-iva-cxc.html" class="btn btn-neutral float-left" title="3.4.2.1. Retención de IVA de Cuentas por Cobrar" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

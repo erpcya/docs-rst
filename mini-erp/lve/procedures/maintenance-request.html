@@ -1,0 +1,440 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>3.6. Solicitud de Mantenimiento &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="4. Reportes de ADempiere" href="../report/index.html" />
+    <link rel="prev" title="3.5. Kit de Productos de Ventas" href="sale-product-kit.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">3. <strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="shipping-tracking.html">3.1. <strong>Tracking de Envío</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="consignment-management/index.html">3.2. <strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="ticket-office.html">3.3. <strong>Boletería</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="withholding-management/index.html">3.4. <strong>Gestión de Retenciones</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="sale-product-kit.html">3.5. <strong>Kit de Productos de Ventas</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">3.6. <strong>Solicitud de Mantenimiento</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#configuracion">3.6.1. <strong>Configuración</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#configuracion-de-estados">3.6.1.1. <strong>Configuración de Estados</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#configuracion-de-categorias">3.6.1.2. <strong>Configuración de Categorías</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#configuracion-de-envio-de-correos">3.6.1.3. <strong>Configuración de Envío de Correos</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#mantenimiento-por-garantia">3.6.2. <strong>Mantenimiento por Garantía</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html">1. <strong>e-Commerce</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><span class="section-number">3. </span><strong>Procedimientos</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">3.6. </span><strong>Solicitud de Mantenimiento</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/lve/procedures/maintenance-request.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="solicitud-de-mantenimiento">
+<span id="documento-solicitud-de-mantenimiento"></span><h1><span class="section-number">3.6. </span><strong>Solicitud de Mantenimiento</strong><a class="headerlink" href="#solicitud-de-mantenimiento" title="Permalink to this headline">¶</a></h1>
+<p>El proceso de solicitud de mantenimiento se presenta con la finalidad de llevar en ADempiere el manejo del mantenimiento a equipos que tengan garantías o equipos que solo se requiera realizar un mantenimiento preventivo; dicho proceso se divide de la siguiente manera:</p>
+<ul class="simple">
+<li><p><strong>Mantenimiento por Garantía</strong>: Mantenimiento realizado cuando se cumple la fecha de mantenimiento preventivo.</p></li>
+<li><p><strong>Solicitud de Mantenimiento con Garantía</strong>: Mantenimiento realizado antes de la fecha del mantenimiento preventivo.</p></li>
+<li><p><strong>Orden de Reparación</strong>: Reparación o mantenimiento de equipos que no tengan garantía.</p></li>
+</ul>
+<p>Dicho proceso se generará como una solicitud que reflejará no solo el registro del mantenimiento que se este llevado en su momento, si no el estado que este pasá hasta ser culminado.</p>
+<div class="section" id="configuracion">
+<h2><span class="section-number">3.6.1. </span><strong>Configuración</strong><a class="headerlink" href="#configuracion" title="Permalink to this headline">¶</a></h2>
+<p>Partiendo de los tres tipos de escenarios, cada uno debe contar con la siguiente configuración que dependerá de cómo se lleve el proceso en cada compañía. Por los momentos se tienen el siguiente detalle, desglosado por cada tipo de documento:</p>
+<div class="section" id="configuracion-de-estados">
+<h3><span class="section-number">3.6.1.1. </span><strong>Configuración de Estados</strong><a class="headerlink" href="#configuracion-de-estados" title="Permalink to this headline">¶</a></h3>
+<ul>
+<li><p>Mantenimiento por Garantía: Debe tener la siguiente configuración de estados de solicitud.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>En proceso</p></li>
+<li><p>Por Aplicar Mantenimiento</p></li>
+<li><p>Visita Técnica</p></li>
+<li><p>En Mantenimiento</p></li>
+<li><p>Por Entregar</p></li>
+<li><p>Entregado</p></li>
+<li><p>En Mora Cliente</p></li>
+<li><p>Cerrado</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Solicitud de Mantenimiento con Garantía: Debe tener la siguiente configuración de estados de solicitud.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>En Proceso</p></li>
+<li><p>Por Verificar Fallas</p></li>
+<li><p>Visita Técnica</p></li>
+<li><p>En Mantenimiento</p></li>
+<li><p>Por entregar</p></li>
+<li><p>Entregado</p></li>
+<li><p>En Mora Cliente</p></li>
+<li><p>Cerrado</p></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p>Orden de Reparación: Debe tener la siguiente configuración de estados de solicitud.</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>En Proceso</p></li>
+<li><p>Por Verificar Fallas</p></li>
+<li><p>En Mantenimiento</p></li>
+<li><p>Por Entregar</p></li>
+<li><p>Entregado</p></li>
+<li><p>En Mora Cliente</p></li>
+<li><p>Cerrado</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Estos estados de solicitud definirán el movimiento o el histórico en el cual se encuentra el mantenimiento que se este realizando. Dichos estados pueden configurarse para que estos se manejen de manera automática o pueden ser manejables de manera manual por el usuario.</p>
+</div>
+</div>
+<div class="section" id="configuracion-de-categorias">
+<h3><span class="section-number">3.6.1.2. </span><strong>Configuración de Categorías</strong><a class="headerlink" href="#configuracion-de-categorias" title="Permalink to this headline">¶</a></h3>
+<p>Del mismo modo, se debe definir la categoría de solicitud que para este caso se asoció la categoría de productos, la cual hace referencia al grupo de productos al que se aplica los mantenimientos. En este caso se tienen los siguientes:</p>
+<ul class="simple">
+<li><p>Elementos Fabricados  de Acero Inoxidable</p></li>
+<li><p>Bombas de Vacío</p></li>
+</ul>
+</div>
+<div class="section" id="configuracion-de-envio-de-correos">
+<h3><span class="section-number">3.6.1.3. </span><strong>Configuración de Envío de Correos</strong><a class="headerlink" href="#configuracion-de-envio-de-correos" title="Permalink to this headline">¶</a></h3>
+<p>A medida que se trabaje con las solicitudes de mantenimiento, estas pueden hacer llegar información del estado en el que se encuentran vía correo electrónico, tanto para el personal de la compañía encargada como para el cliente o usuario al que se le esta prestando el servicio, para que este proceso se cumpla se requiere tener configurado lo siguiente:</p>
+<ul>
+<li><p>Se debe tener asociado en la pestaña “<strong>Contacto (Usuario)</strong>”, el correo electrónico al que se le enviará la información, dicha pestaña se encuentra en la ventana “<strong>Socio de Negocio</strong>”. Esta configuración aplica tanto por el personal involucrado como para el cliente o persona al que se le está prestando el servicio. Para que esto se cumpla, tanto el cliente como el empleado deben estar registrados como un socio de negocio.</p></li>
+<li><p>Una vez los socios de negocios (clientes, empleados) cuenten con dicha configuración, en la pestaña “<strong>Contacto (Usuario)</strong>” se define como se requiere informar al mismo. Dependiendo del caso, estos se asocian de la siguiente forma:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>Si se desea informar siempre al grupo de encargados o involucrados en el proceso de mantenimiento, para que constantemente se les informe el estado de la solicitud se debe asociar al tipo de solicitud.</p></li>
+<li><p>Si se desea informar solo al cliente o a un tercero involucrado en el proceso del mantenimiento, se debe asociar al campo usuario de la ventana “<strong>Solicitud</strong>” o en la pestaña “<strong>Usuarios a Notificar</strong>”</p></li>
+<li><p>El patrón de correo a utilizar si se desea en este caso, debe ser facilitado a <a class="reference external" href="http://erpya.com">ERPyA</a> para ser incorporado en ADempiere.</p></li>
+</ul>
+</div></blockquote>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="mantenimiento-por-garantia">
+<h2><span class="section-number">3.6.2. </span><strong>Mantenimiento por Garantía</strong><a class="headerlink" href="#mantenimiento-por-garantia" title="Permalink to this headline">¶</a></h2>
+<p>Partiendo de la configuración que se debe tener para el proceso de <a class="reference internal" href="#documento-solicitud-de-mantenimiento"><span class="std std-ref">Solicitud de Mantenimiento</span></a> en ADempiere, se pueden registrar los tipos de solicitud de la siguiente forma:</p>
+<p>Las solicitudes de mantenimiento por garantía se generarán de manera automática en ADempiere, ya que al momento de ser vendido y entregado el producto este cuenta con un lapso de garantía que quedará como una solicitud de mantenimiento en “<strong>Proceso</strong>” en ADempiere, para que al momento de cumplirse el año del mantenimiento por garantía, esta pueda notificar o sea ubicada para aplicar el procedimiento de mantenimiento preventivo. Ejemplo:</p>
+<p>Se tiene la siguiente “<strong>Orden de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="orden de venta para mantenimiento por garantía" src="../../_images/sales-order-for-warranty-maintenance.png" /></p>
+<p>Imagen 1. Orden de Venta</p>
+</div></blockquote>
+<p>Dicha venta no se le ha generado una entrega, para que la solicitud de mantenimiento se genere automáticamente se debe generar la entrega de dicho producto, para ello se debe aplicar el proceso <a class="reference internal" href="../../adempiere/quote-to-invoice/shipment/generate-delivery-from-order-lines.html#documento-generar-entrega-desde-lineas-de-la-orden"><span class="std std-ref">Generar Entrega desde Líneas de la Orden</span></a>.</p>
+<blockquote>
+<div><p><img alt="ventana generar entrega desde línea de la orden" src="../../_images/generate-delivery-from-order-line-window.png" /></p>
+<p>Imagen 2. Ventana Generar Entrega desde Línea de la Orden</p>
+</div></blockquote>
+<p>Al ser generada la entrega desde el proceso “<strong>Generar Entrega desde Línea de la Orden</strong>”, se puede observar en la orden de venta que esta cuenta con una entrega asociada y una solicitud generada. Esto se puede observar al seleccionar el icono “<strong>Visualiza Detalle (Donde es Usado)</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="opciones del icono visualiza detalle donde es usado" src="../../_images/icon-options-display-detail-where-it-is-used.png" /></p>
+<p>Imagen 3. Opciones del Icono Visualiza Detalle (Donde es Usado)</p>
+</div></blockquote>
+<p>Para acercar la solicitud generada de esta venta, se debe seleccionar la opción “<strong>Todas las Solicitudes</strong>” desplegada al seleccionar el icono “<strong>Visualiza Detalle (Donde es Usado)</strong>”, ubicado en la barra de herramientas de ADempiere.</p>
+<blockquote>
+<div><p><img alt="seleccionar opción todas las solicitudes" src="../../_images/select-option-all-requests.png" /></p>
+<p>Imagen 4. Seleccionar Opción Todas las Solicitudes</p>
+</div></blockquote>
+<p>De igual manera, se puede ubicar posicionándose en la ventana “<strong>Solicitud</strong>” y filtrando la búsqueda del registro por el socio del negocio cliente y la fecha correspondiente.</p>
+<blockquote>
+<div><p><img alt="búsqueda avanzada de la solicitud" src="../../_images/advanced-application-search.png" /></p>
+<p>Imagen 5. Búsqueda Avanzada de la Solicitud</p>
+</div></blockquote>
+<p>Para este caso, ya la solicitud de “<strong>Mantenimiento por Garantía</strong>” se encuentra creada para hacer seguimiento del mantenimiento a equipos por garantía.</p>
+<blockquote>
+<div><p><img alt="registro de mantenimiento por garantía" src="../../_images/warranty-maintenance-log.png" /></p>
+<p>Imagen 6. Mantenimiento por Garantía</p>
+</div></blockquote>
+<p>Del mismo modo una vez se cumpla el tiempo por garantía y dependiendo de como se encuentran configurados los estados del tipo de solicitud con el que se encuentre trabajando, este cambiará la fecha de la siguiente acción de manera automática y aplicará los estados según las reglas del negocio; del mismo modo, de no querer manejar estados automáticos estos se pueden manejar de manera manual dependiendo de como se este llevando en sitio el mantenimiento.</p>
+<p>Cabe destacar que la solicitud de “<strong>Mantenimiento por Garantía</strong>” cuenta con las siguientes características en ADempiere:</p>
+<ul class="simple">
+<li><p>“<strong>Asunto</strong>”: Se colocá una breve descripción del mantenimiento a realizar. Ejemplo: Mantenimiento por garantía venta</p></li>
+<li><p>“<strong>Resumen</strong>”: Se colocá una descripción del mantenimiento preventivo a realizar. Ejemplo: Manteniemiento a equipo de bomba de vacío “<strong>Bomba de Vacío 1100Lts/min</strong>”</p></li>
+<li><p>“<strong>No. del Documento</strong>”: Es el número de la solicitud con la que se esta trabajando, este será arrojado automáticamente por ADempiere</p></li>
+<li><p>“<strong>Tipo de Solicitud</strong>”: Se asocia el tipo de solicitud que se requiere generar, el mismo es definido por la compañía en base a sus reglas. En el presente ejemplo de mantenimiento por garantía, se debe asociar la opción “<strong>Mantenimiento por Garantía</strong>”.</p></li>
+<li><p>“<strong>Categoría</strong>”: Define la categoría a la que pertenece la solicitud de mantenimiento, en el caso de que las tenga categorizadas</p></li>
+<li><p>“<strong>Estado</strong>”: Indica en que estado se encuentra la solicitud de mantenimiento</p></li>
+<li><p>“<strong>Prioridad</strong>”: Indica que tan importante es la solicitud en mantenimiento</p></li>
+<li><p>“<strong>Confidencialidad</strong>”: Indica si el registro de la solicitud va a ser visible para todos los usuarios que tengan acceso a la ventana solicitud, o solo para las personas que se encuentren asociadas al tipo de solicitud</p></li>
+<li><p>“<strong>Agente Comercial</strong>”: Se asocia al usuario o empleado encargado de realizar el seguimiento del mantenimiento</p></li>
+<li><p>“<strong>Patrón de Correo</strong>”: A medida que la solicitud cambie de estado, si se desea enviar un correo que muestre alguna información determinada, la información puede ser alojada como una plantilla de correo que puede ser utilizada en la solicitud y ser enviada a los usuarios que se encuentren asociados al tipo de solicitud; también se puede utilizar dicha plantilla asociandola en la pestaña “<strong>Usuarios a Notificar</strong>” o al usuario que se agregue en el campo “<strong>Usuario</strong>”, que pertenezca al socio del negocio o cliente asociado a la solicitud de mantenimiento.</p></li>
+<li><p>“<strong>Resultado</strong>”: En este campo se mostrará el mensaje que contenga el patrón de correo a seleccionar.</p></li>
+<li><p>“<strong>Producto Usado</strong>”: Bajo este campo se asociaran los productos que se utilicen para el mantenimiento a realizar. Es decir, las herramientas a utilizar; al agregar ese producto, quedará reflejado en el histórico en la pestaña “<strong>Actualizaciones</strong>”</p></li>
+<li><p>“<strong>Cantidad Usada</strong>”: Se agregara la “<strong>Cantidad Usada</strong>” del producto que se esta utilizando para el mantenimiento</p></li>
+<li><p>“<strong>Socio del Negocio</strong>”: Se asocia el cliente al que se le está prestando el servicio de mantenimiento</p></li>
+</ul>
+<p>Una vez conocidos los campos principales y obligatorios con los que se puede conformar una solicitud de mantenimiento, solo queda hacer los cambios de estado de la solicitud. Una vez culminado todo el proceso, este pasaría a un estado “<strong>Cerrado</strong>”.</p>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../report/index.html" class="btn btn-neutral float-right" title="4. Reportes de ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="sale-product-kit.html" class="btn btn-neutral float-left" title="3.5. Kit de Productos de Ventas" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
