@@ -11,7 +11,7 @@
 .. _Banco Nacional de Crédito: http://www.bnc.com.ve/
 .. _Banplus: https://www.banplus.com/site/p_contenido.php
 .. _Mi Estado de Cuenta Digital: https://www.bancaribe.com.ve/zona-de-informacion-para-cada-mercado/empresas/cuentas-empresas/mi-estado-de-cuenta-digital-empresas
-.. _Conciliaciones Automáticas: https://docs.erpya.com/es/latest/adempiere/open-items/automatic-conciliations/conciliation.html#importacion-de-extracto-bancario
+.. _Conciliaciones Automáticas: https://docs.erpya.com/adempiere/open-items/automatic-conciliations/conciliation.html#importacion-de-extracto-bancario
 
 .. _documento/descarga-extracto-bancario:
 

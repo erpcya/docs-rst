@@ -387,14 +387,18 @@
 <p>Si existe coincidencia entre los pagos/cobros y el extracto bancario se le mostrarán los movimientos con coincidencias, de lo contrario no se le mostrará ningún movimiento con coincidencia.</p>
 </div>
 </div></blockquote>
-<p>Seleccione la opción “<strong>OK</strong>” para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de búsqueda inteligente. Automáticamente se importan en la pestaña “<strong>Línea Estado Cuentas</strong>”, todos movimientos del extracto bancario los que han sido identificados y los que no tengan registro en ADempiere.</p>
+<p>Seleccione la opción “<strong>OK</strong>” para guardar el registro de coincidencia entre los movimientos reflejados en la ventana de búsqueda inteligente. Automáticamente se importan en la pestaña “<strong>Línea Estado Cuentas</strong>”, todos movimientos del extracto bancario que han sido identificados y los que no tengan registro en ADempiere.</p>
 <blockquote>
-<div><p><img alt="Opción OK para Guardar Coincidencias" src="../../../_images/okbusqueda.png" /></p>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para los casos en los que el extracto bancario corresponda al “<strong>Banco del Tesoro</strong>” y al momento de realizar la simulación no se refleje ningún tipo de movimientos con coincidencia, se debe seleccionar de igual manera la opción “<strong>OK</strong>”, para que sean importados a la pestaña “<strong>Línea Estado Cuentas</strong>”, todos los registros del extracto bancario.</p>
+</div>
+<p><img alt="Opción OK para Guardar Coincidencias" src="../../../_images/okbusqueda.png" /></p>
 <p>Imagen 24. Opción OK</p>
 </div></blockquote>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>El extracto bancario puede poseer algunos registros que no han sido cargados en ADempiere, estos pueden ser cobros no identificados, comisiones bancarias entre otros, los cuales no van ser identificados al momento de hacer la simulación, sin embargo para estos pagos/cobros no conciliados se aplicará un proceso que se detalla en el documento <a class="reference internal" href="create-payments-from-account-statement.html#documento-crear-pagos-desde-estado-de-cuenta"><span class="std std-ref">Crear Pagos desde Estado de Cuenta</span></a>.</p>
+<p>El extracto bancario puede poseer algunos registros que no han sido cargados en ADempiere, estos pueden ser cobros no identificados, comisiones bancarias entre otros, los cuales no van a ser identificados al momento de hacer la simulación, sin embargo para estos pagos/cobros no conciliados se aplicará un proceso que se detalla en el documento <a class="reference internal" href="create-payments-from-account-statement.html#documento-crear-pagos-desde-estado-de-cuenta"><span class="std std-ref">Crear Pagos desde Estado de Cuenta</span></a>.</p>
 </div>
 </div></blockquote>
 <p>Al seleccionar “<strong>Ok</strong>” ADempiere lo llevará nuevamente a la ventana principal “<strong>Estado de Cuenta Bancario</strong>”.</p>
