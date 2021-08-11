@@ -14,3 +14,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos de 
     ticket-office
     withholding-management/index
     sale-product-kit
+    maintenance-request
