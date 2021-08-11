@@ -1,0 +1,514 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Toma de Pedido &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><strong>Toma de Pedido</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/pos-management/pos.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="toma-de-pedido">
+<span id="documento-punto-de-venta"></span><h1><strong>Toma de Pedido</strong><a class="headerlink" href="#toma-de-pedido" title="Permalink to this headline">¶</a></h1>
+<p>El proceso toma de pedido consiste en la venta de los productos por medio del documento “<strong>Orden de Venta</strong>”, en el cual se cargan los datos del cliente, los productos y el cobro. Al realizar el cobro de la misma, se generan de manera automática los documentos “<strong>Cobro</strong>”, “<strong>Entrega</strong>” y “<strong>Factura por Cobrar</strong>”.</p>
+<p>El documento del cobro se genera en la ventana “<strong>Caja</strong>”, con la cuenta caja pos en la cual se realizó dicho cobro. Este es asociado a la línea del registro de cierre de caja de la cuenta “<strong>Caja POS</strong>”, creado al momento de la apertura de caja.</p>
+<p>Adicional a ello, el documento “<strong>Factura por Cobrar</strong>”, es generado en la ventana “<strong>Documentos por Cobrar</strong>”. Mientras que el documento “<strong>Entrega</strong>”, es generado en la ventana “<strong>Entrega (Cliente)</strong>”.</p>
+<p>Para mejor referencia de lo explicado anteriormente, se presenta a continuación el diagrama del proceso “<strong>Toma de Pedido POS</strong>”, con la finalidad dar a conocer el comportamiento de ADempiere ante dicho proceso.</p>
+<blockquote>
+<div><p><img alt="diagrama de toma de pedido pos" src="../../_images/pos.png" /></p>
+<p>Imagen 1. Diagrama de Toma de Pedido POS</p>
+</div></blockquote>
+<div class="section" id="ejecucion-del-proceso">
+<h2><strong>Ejecución del Proceso</strong><a class="headerlink" href="#ejecucion-del-proceso" title="Permalink to this headline">¶</a></h2>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”, por último seleccione la carpeta “<strong>Punto de Venta</strong>”, finalmente seleccione la ventana “<strong>Punto de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../_images/point-of-sale-menu.png" /></p>
+<p>Imagen 2. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Selecciona Terminal PDV</strong>”, para seleccionar el terminal del punto de venta con el cual va a gestionar la toma de pedido y posteriormente la opción “<strong>OK</strong>” para cargar la ventana “<strong>Punto de Venta</strong>” para el terminal seleccionado.</p>
+<blockquote>
+<div><p><img alt="Ventana Selecciona Terminal PDV" src="../../_images/window-select-terminal-pdv.png" /></p>
+<p>Imagen 3. Ventana Selecciona Terminal PDV</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Esta opción es habilitada cuando el socio del negocio vendedor tiene configurado más de un terminal de punto de venta.</p>
+</div>
+</div></blockquote>
+<p>La interfaz de la ventana “<strong>Punto de Venta</strong>”, se encuentra definida de forma específica en el documento <a class="reference internal" href="point-of-sale-interface.html#documento-interfaz-del-punto-de-venta"><span class="std std-ref">Interfaz de Punto de Venta</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Realice cada uno de los procesos explicados a continuación para obtener un resultado exitoso en la toma de pedido por el punto de venta.</p>
+<p>Seleccione el icono “<strong>Registro Nuevo</strong>” para crear un nuevo registro de orden de venta.</p>
+<blockquote>
+<div><p>Puede consultar el material <a class="reference internal" href="point-of-sale-interface.html#documento-paso-barra-de-herramientas"><span class="std std-ref">Barra de Herramientas del Punto de Venta</span></a>, para conocer la funcionalidad de la misma.</p>
+<p><img alt="Icono Registro Nuevo de la Ventana Punto de Venta" src="../../_images/new-registration-icon-in-the-point-of-sale-window.png" /></p>
+<p>Imagen 4. Icono Registro Nuevo de la Ventana Punto de Venta</p>
+<p>Ubique la información del cliente en el <a class="reference internal" href="point-of-sale-interface.html#documento-paso-panel-de-busqueda-de-socio-cliente"><span class="std std-ref">Panel de Socio del Negocio Cliente</span></a>.</p>
+<blockquote>
+<div><p><img alt="seleccionar cliente para la venta" src="../../_images/select-customer-for-sale.png" /></p>
+<p>Imagen 5. Seleccionar Cliente para la Venta</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Recuerde que debe cambiar la información del socio “<strong>Cliente Unico</strong>” por la información del cliente real de la venta, ya que esta información saldrá impresa en la factura fiscal generada al concluir la venta.</p>
+</div>
+</div></blockquote>
+<p>Puede proceder a cargar los productos desde el <a class="reference internal" href="point-of-sale-interface.html#documento-paso-catalogo-de-productos"><span class="std std-ref">Catálogo de Productos</span></a>. De igual manera, puede realizar este proceso desde el <a class="reference internal" href="point-of-sale-interface.html#documento-paso-panel-de-busqueda-de-productos"><span class="std std-ref">Panel de Búsqueda de Productos</span></a></p>
+<blockquote>
+<div><p><img alt="carga de productos para la venta" src="../../_images/loading-products-for-sale.png" /></p>
+<p>Imagen 6. Carga de Productos</p>
+</div></blockquote>
+<p>Luego de cargar todos los productos a la orden de venta, la información detallada de los mismos podrá ser visualizada en la <a class="reference internal" href="point-of-sale-interface.html#documento-paso-seccion-informacion-de-producto"><span class="std std-ref">Sección de Información de Producto</span></a>. De igual manera, se puede apreciar en la <a class="reference internal" href="point-of-sale-interface.html#documento-paso-linea-de-la-orden-de-venta"><span class="std std-ref">Línea de la Orden de Venta</span></a>.</p>
+<blockquote>
+<div><p><img alt="información de los productos" src="../../_images/product-information1.png" /></p>
+<p>Imagen 7. Información de los Productos</p>
+</div></blockquote>
+<p>La cantidad a vender de cada producto, el descuento a aplicar y su respectivo precio, pueden ser modificados en la <a class="reference internal" href="point-of-sale-interface.html#documento-paso-barra-de-edicion-de-productos"><span class="std std-ref">Barra de Edición de Productos</span></a>.</p>
+<blockquote>
+<div><p><img alt="modificar cantidad de productos a vender" src="../../_images/modify-quantity-of-products-to-sell.png" /></p>
+<p>Imagen 8. Modificar Cantidad de Productos a Vender</p>
+</div></blockquote>
+<p>Finalmente, podrá visualizar la <a class="reference internal" href="point-of-sale-interface.html#documento-paso-informacion-de-la-orden"><span class="std std-ref">Información de la Orden</span></a> y sus <a class="reference internal" href="point-of-sale-interface.html#documento-paso-totales-bs"><span class="std std-ref">Totales (Bs.S)</span></a>.</p>
+<blockquote>
+<div><p><img alt="información y montos totales de la orden" src="../../_images/order-information-and-totals.png" /></p>
+<p>Imagen 9. Información y Montos Totales de la Orden</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="cobrar-pedido">
+<span id="documento-proceso-para-cobrar-pedido"></span><h2><strong>Cobrar Pedido</strong><a class="headerlink" href="#cobrar-pedido" title="Permalink to this headline">¶</a></h2>
+<p>Luego de haber cargado todos los productos de la venta en la orden, debe seleccionar el icono “<strong>Pago</strong>” para generar el cobro de los mismos.</p>
+<blockquote>
+<div><p><img alt="Icono Pago de la Ventana Punto de Venta" src="../../_images/point-of-sale-window-payment-icon.png" /></p>
+<p>Imagen 10. Icono Pago de la Ventana Punto de Venta</p>
+<p>La selección de este icono, habilita el recuadro del cobro, mostrando el total a pagar de la orden, los campos para ingresar la forma de pago, la moneda y el monto. Así como también, las opciones para agregar otro pago o eliminar un pago existente.</p>
+<blockquote>
+<div><p><img alt="recuadro del cobro" src="../../_images/collection-box.png" /></p>
+<p>Imagen 11. Recuadro del Cobro</p>
+</div></blockquote>
+<p>Adicional a ello, se muestra los siguientes campos:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>El campo “<strong>Total del Pago</strong>”, indica la suma de todos los montos ingresados en las diferentes formas de pago seleccionadas.</p></li>
+<li><p>El campo “<strong>Abierto</strong>”, indica el monto pendiente por pagar de la orden de venta.</p></li>
+<li><p>El campo “<strong>Cambio</strong>”, indica el monto total que debe ser devuelto al cliente por el concepto “<strong>Cambio del Pago</strong>”.</p></li>
+<li><p>El check “<strong>Cobro Completo</strong>”, debe ser utilizado cuando se presente un caso de cobro en efectivo de monto con decimales y se requiera realizar un cobro mayor (completo), para posteriormente generar el egreso por el cambio del mismo. ADempiere, refleja en el campo “<strong>Cambio</strong>”, el monto correspondiente al cambio que debe ser entregado al cliente.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Cuando el monto a pagar en efectivo es en divisas y con decimales, se tilda el check “<strong>Cobro Completo</strong>” y se ingresa el monto real a cobrar en el campo “<strong>Monto</strong>”.</p>
+<p>Suponiendo que el día “<strong>10/02/2021</strong>”, se tiene la orden de venta “<strong>OPOS-846</strong>” con monto total a pagar de “<strong>75.917.563,54</strong>” y el cliente decide cancelar con dólares en efectivo, los siguientes datos serían:</p>
+<ul class="simple">
+<li><p><strong>Cobro en Dólares en Efectivo:</strong></p></li>
+<li><p><strong>Tasa de Cambio USD:</strong> 1.933.493,43</p></li>
+<li><p><strong>Forma de Pago Seleccionada:</strong> Caja (efectivo)</p></li>
+<li><p><strong>Moneda Seleccionada:</strong> USD</p></li>
+<li><p><strong>Monto Total de la Orden en Moneda USD:</strong> 39,264453844045 (monto resultante del “<strong>Monto Total de la Orden</strong>” entre la “<strong>Tasa de Cambio</strong>” de la moneda seleccionada)</p></li>
+<li><p><strong>Monto Real a Pagar:</strong> 40,00 (monto que debe ser ingresado en el campo “<strong>Monto</strong>”)</p></li>
+<li><p><strong>Cambio en Moneda VES:</strong> 1.422.173,66 (cambio que debe ser entregado al cliente)</p></li>
+<li><p><strong>Cobro Completo:</strong> SI (tildar)</p></li>
+</ul>
+</div>
+</div></blockquote>
+<p>El cobro de los productos cargados en la orden de venta se puede ejecutar de diferentes formas, explicadas a continuación.</p>
+</div></blockquote>
+<div class="section" id="procedimiento-regular-con-una-forma-de-pago-y-una-moneda-especifica">
+<h3><strong>Procedimiento Regular con una Forma de Pago y una Moneda Específica</strong><a class="headerlink" href="#procedimiento-regular-con-una-forma-de-pago-y-una-moneda-especifica" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>Seleccione en el campo “<strong>Forma de Pago</strong>”, la forma utilizada por el cliente para pagar los productos cargados en la orden de venta.</p>
+<blockquote>
+<div><p><img alt="Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta" src="../../_images/payment-method-field-of-the-regular-payment-icon-of-the-point-of-sale-window.png" /></p>
+<p>Imagen 12. Campo Forma de Pago del Pago Regular del Icono Pago de la Ventana Punto de Venta</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para la forma de pago “<strong>Caja</strong>”, no es obligatorio ingresar un valor en el campo “<strong>No. de Referencia</strong>”. Sin embargo, se utiliza para ingresar el serial del billete recibido o cualquier otra forma de identificación del cobro.</p>
+<p>Adicional a ello, para las otras formas de pago si es un valor obligatorio y corresponde al número de referencia de la transacción efectuada en el banco. Este valor es necesario al momento de realizar las conciliaciones bancarias.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda utilizada por el cliente para pagar los productos cargados en la orden de venta.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta" src="../../_images/regular-payment-currency-field-of-the-payment-icon-in-the-point-of-sale-window.png" /></p>
+<p>Imagen 13. Campo Moneda del Pago Regular del Icono Pago de la Ventana Punto de Venta</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Monto</strong>”, el monto pagado por el cliente con la forma de pago y moneda seleccionada.</p>
+<blockquote>
+<div><p><img alt="Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta" src="../../_images/regular-payment-amount-field-of-the-payment-icon-in-the-point-of-sale-window.png" /></p>
+<p>Imagen 14. Campo Monto del Pago Regular del Icono Pago de la Ventana Punto de Venta</p>
+</div></blockquote>
+<p>Tilde el check “<strong>Cobro Completo</strong>”, para que posteriormente sea generado el egreso por el cambio del monto pagado por el cliente.</p>
+<blockquote>
+<div><p><img alt="check cobro completo" src="../../_images/check-full-charge.png" /></p>
+<p>Imagen 15. Check Cobro Completo del Pago Regular del Icono Pago de la Ventana Punto de Venta</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para generar el cobro de los productos cargados en la orden de venta.</p>
+<blockquote>
+<div><p><img alt="Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta" src="../../_images/regular-payment-ok-option-of-the-payment-icon-in-the-point-of-sale-window.png" /></p>
+<p>Imagen 16. Opción OK del Pago Regular del Icono Pago de la Ventana Punto de Venta</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Cancelar</strong>”, para cancelar el registro del cobro que encuentra realizando.</p>
+<blockquote>
+<div><p><img alt="cancelar cobro" src="../../_images/cancel-payment.png" /></p>
+<p>Imagen 17. Cancelar Cobro</p>
+</div></blockquote>
+</div></blockquote>
+</div>
+<div class="section" id="procedimiento-especial-con-diferentes-formas-de-pago-y-monedas">
+<h3><strong>Procedimiento Especial con Diferentes Formas de Pago y Monedas</strong><a class="headerlink" href="#procedimiento-especial-con-diferentes-formas-de-pago-y-monedas" title="Permalink to this headline">¶</a></h3>
+<blockquote>
+<div><p>Seleccione en el campo “<strong>Forma de Pago</strong>”, la forma utilizada por el cliente para pagar los productos cargados en la orden de venta.</p>
+<blockquote>
+<div><p><img alt="Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta" src="../../_images/payment-method-field-of-the-special-payment-icon-in-the-point-of-sale-window.png" /></p>
+<p>Imagen 18. Campo Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Para la forma de pago “<strong>Caja</strong>”, no es obligatorio ingresar un valor en el campo “<strong>No. de Referencia</strong>”. Sin embargo, se utiliza para ingresar el serial del billete recibido o cualquier otra forma de identificación del cobro.</p>
+<p>Adicional a ello, para las otras formas de pago si es un valor obligatorio y corresponde al número de referencia de la transacción efectuada en el banco. Este valor es necesario al momento de realizar las conciliaciones bancarias.</p>
+</div>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Moneda</strong>”, la moneda utilizada por el cliente para pagar los productos cargados en la orden de venta.</p>
+<blockquote>
+<div><p><img alt="Campo Moneda del Pago Especial del Icono Pago de la Ventana Punto de Venta" src="../../_images/field-special-payment-currency-of-the-payment-icon-of-the-point-of-sale-window.png" /></p>
+<p>Imagen 19. Campo Moneda del Pago Especial del Icono Pago de la Ventana Punto de Venta</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>Monto</strong>”, el monto pagado por el cliente con la forma de pago y moneda seleccionada.</p>
+<blockquote>
+<div><p><img alt="Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta" src="../../_images/field-special-payment-amount-of-the-payment-icon-in-the-point-of-sale-window.png" /></p>
+<p>Imagen 20. Campo Monto del Pago Especial del Icono Pago de la Ventana Punto de Venta</p>
+</div></blockquote>
+<p>Introduzca en el campo “<strong>No. de Referencia</strong>”, el número de referencia correspondiente a la transacción efectuada en el banco.</p>
+<blockquote>
+<div><p><img alt="campo número de referencia del pago" src="../../_images/payment-reference-number-field.png" /></p>
+<p>Imagen 21. Campo No. de Referencia</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Banco</strong>”, el banco donde fue efectuada la transacción.</p>
+<blockquote>
+<div><p><img alt="campo banco del pago" src="../../_images/payment-bank-field.png" /></p>
+<p>Imagen 22. Campo Banco</p>
+</div></blockquote>
+<p>Seleccione el icono “<strong>Más</strong>”, para habilitar otro grupo de campos de pago e ingresar la siguiente forma de pago utilizada por el cliente para terminar de cancelar la orden de venta.</p>
+<blockquote>
+<div><p><img alt="Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta" src="../../_images/another-form-of-payment-of-the-special-payment-of-the-payment-icon-in-the-point-of-sale-window.png" /></p>
+<p>Imagen 23. Otra Forma de Pago del Pago Especial del Icono Pago de la Ventana Punto de Venta</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si requiere cargar otra forma de pago adicional a las dos anteriores, puede seleccionar nuevamente el icono “<strong>Más</strong>” y proceder a cargar el cobro con dicha forma de pago.</p>
+</div>
+</div></blockquote>
+<p>Para eliminar una forma de pago ya seleccionada previamente, seleccione el icono “<strong>Menos</strong>”.</p>
+<blockquote>
+<div><p><img alt="Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta" src="../../_images/remove-a-payment-method-from-the-payment-icon-in-the-point-of-sale-window.png" /></p>
+<p>Imagen 24. Eliminar una Forma de Pago del Icono Pago de la Ventana Punto de Venta</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para generar el cobro de los productos cargados en la orden de venta.</p>
+<blockquote>
+<div><p><img alt="Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta" src="../../_images/payment-option-ok-of-the-point-of-sale-window-payment-icon.png" /></p>
+<p>Imagen 25. Opción OK del Pago Especial del Icono Pago de la Ventana Punto de Venta</p>
+</div></blockquote>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Al completar el proceso para generar el cobro de los productos ingresados a la orden de venta POS, se crea automáticamente un documento de cobro en la ventana “<strong>Caja</strong>”, por cada forma de pago utilizada.</p>
+<p>Adicional a ello, se crea una factura por cobrar en la ventana “<strong>Documento por Cobrar</strong>”, asociada a la orden de venta POS y los diferentes cobros asignados a dicha orden.</p>
+<p>Es importante resaltar que al completar el proceso, todos los documentos son generados en estado “<strong>Completo</strong>”.</p>
+</div>
+</div>
+</div>
+<div class="section" id="consultar-factura-generada">
+<h2><strong>Consultar Factura Generada</strong><a class="headerlink" href="#consultar-factura-generada" title="Permalink to this headline">¶</a></h2>
+<p>Ubique la orden de venta generada en la ventana “<strong>Órdenes de Venta</strong>”, luego seleccione el icono “<strong>Visualiza Detalle (Donde es Usado)</strong>” y finalmente haga clic sobre la opción “<strong>Documentos por Cobrar</strong>”, para acercar la factura de la venta.</p>
+<blockquote>
+<div><p><img alt="Documento de Cobro Generado en la Ventana Documentos por Cobrar" src="../../_images/collection-document-generated-in-the-documents-receivable-window.png" /></p>
+<p>Imagen 26. Orden de Venta</p>
+</div></blockquote>
+<p>Al acercar el documento por cobrar, podrá visualizarlo de la siguiente manera</p>
+<blockquote>
+<div><p><img alt="Documento acercado" src="../../_images/document-zoomed.png" /></p>
+<p>Imagen 27. Factura por Cobrar</p>
+</div></blockquote>
+</div>
+<div class="section" id="consultar-cobro-generado">
+<h2><strong>Consultar Cobro Generado</strong><a class="headerlink" href="#consultar-cobro-generado" title="Permalink to this headline">¶</a></h2>
+<p>Una vez ubicada la factura, seleccione el icono “<strong>Visualiza Detalle (Donde es Usado)</strong>” y finalmente haga clic sobre la opción “<strong>Consulta de Asignación</strong>”, para acercar la asignación entre la factura y el cobro de la factura.</p>
+<blockquote>
+<div><p><img alt="acercar asignación entre factura y cobro" src="../../_images/bring-allocation-between-invoice-and-collection.png" /></p>
+<p>Imagen 28. Acercar Asignación desde Factura por Cobrar</p>
+</div></blockquote>
+<p>Una vez en la ventana “<strong>Consulta de Asignación</strong>”, seleccione la pestaña “<strong>Asignaciones</strong>” y copie el número de documento del cobro que se encuentra en el campo “<strong>Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="pestaña asignaciones y campo pago" src="../../_images/assignments-tab-and-payment-field.png" /></p>
+<p>Imagen 29. Pestaña Asignaciones y Campo Pago</p>
+</div></blockquote>
+<p>Ubique el registro del cobro en la ventana “<strong>Caja</strong>”, con ayuda del valor copiado anteriormente del campo “<strong>Pago</strong>”.</p>
+<blockquote>
+<div><p><img alt="Documento de Cobro Generado en Caja" src="../../_images/cash-collection-document.png" /></p>
+<p>Imagen 30. Documento de Cobro Generado en Caja</p>
+</div></blockquote>
+</div>
+<div class="section" id="consultar-registro-en-cierre-de-caja">
+<h2><strong>Consultar Registro en Cierre de Caja</strong><a class="headerlink" href="#consultar-registro-en-cierre-de-caja" title="Permalink to this headline">¶</a></h2>
+<p>Cada cobro desde el punto de venta genera un documento de ingreso en la ventana “<strong>Caja</strong>”, por cada documento de cobro generado se crea una línea con el cobro asociado en la pestaña “<strong>Línea de Cierre de Caja</strong>”, de la ventana “<strong>Cierre de Caja</strong>” correspondiente al registro de la “<strong>Caja 01</strong>”, creado en estado “<strong>Borrador</strong> al realizar la apertura de caja.</p>
+<blockquote>
+<div><p><img alt="Cobro Generado en Cierre de Caja" src="../../_images/collection-generated-at-closing-of-cash.png" /></p>
+<p>Imagen 31. Cobro Generado en Cierre de Caja</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

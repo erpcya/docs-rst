@@ -1,0 +1,355 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Anular Factura Fiscal &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><strong>Anular Factura Fiscal</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/pos-management/cancel-tax-invoice.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="anular-factura-fiscal">
+<span id="documento-anular-facturas-fiscales"></span><h1><strong>Anular Factura Fiscal</strong><a class="headerlink" href="#anular-factura-fiscal" title="Permalink to this headline">¶</a></h1>
+<p>Suponiendo que el día “<strong>04/08/2021</strong>”, se tiene la orden de venta “<strong>OPOS-851</strong>” y la factura asociada a dicha orden es la “<strong>TMP- 0000289</strong>”. Adicional a ello, el cobro correspondiente a las mismas es el “<strong>No. de Referencia</strong>”. En ADempiere cuando por algún motivo se requiere anular una factura fiscal cuando la misma no fue impresa en su momento. Se debe realizar el siguiente procedimiento.</p>
+<div class="section" id="reversar-cobros">
+<h2><strong>Reversar Cobros</strong><a class="headerlink" href="#reversar-cobros" title="Permalink to this headline">¶</a></h2>
+<p>Ubique en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de ventana caja para anular cobros" src="../../_images/window-menu-box-to-cancel-collections.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Con ayuda del número de documento, ubique el cobro asociado a la factura que requiere anular.</p>
+<blockquote>
+<div><p><img alt="cobro asociado a la factura para anular" src="../../_images/charge-associated-with-the-invoice-to-cancel.png" /></p>
+<p>Imagen 2. Ubicar Cobro</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Procesar Cobro</strong>”, ubicada en el menú desplegado por la selección del icono “<strong>Proceso</strong>”, dicho icono se encuentra ubicado en la barra de herramientas de ADempiere, en la ventana “<strong>Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción procesar pago de la ventana caja" src="../../_images/option-process-checkout-window-payment1.png" /></p>
+<p>Imagen 3. Opción Procesar Pago del icono Proceso de la Ventana Caja</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Reversar-Corregir</strong>” y la opción “<strong>OK</strong>”, para ejecutar el proceso de reverso del cobro.</p>
+<blockquote>
+<div><p><img alt="acción reversar y opción ok" src="../../_images/action-revert-and-option-ok.png" /></p>
+<p>Imagen 4. Acción Reversar-Corregir y Opción OK</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>El procedimiento explicado anteriormente, debe ser realizado con los diferentes cobros que tiene asociado la factura.</p>
+</div>
+</div>
+<div class="section" id="anular-factura">
+<h2><strong>Anular Factura</strong><a class="headerlink" href="#anular-factura" title="Permalink to this headline">¶</a></h2>
+<p>Unique en el menú de ADempiere, la carpeta “<strong>Gestión de Sistema</strong>”, luego seleccione la carpeta “<strong>Reglas Generales</strong>”, por último seleccione la carpeta “<strong>Impresora Fiscal</strong>”. Finalmente, seleccione el proceso “<strong>Autorizar Documento Fiscal</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú del proceso autorizar documento fiscal" src="../../_images/process-menu-authorize-tax-document.png" /></p>
+<p>Imagen 5. Menú de ADempiere</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana del proceso “<strong>Autorizar Documento Fiscal</strong>”, con los campos necesarios para ejecutar el proceso requerido por el usuario.</p>
+<blockquote>
+<div><p><img alt="ventana del proceso autorizar documento fiscal" src="../../_images/process-window-authorize-tax-document.png" /></p>
+<p>Imagen 6. Ventana Autorizar Documento Fiscal</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Factura</strong>”, la factura involucrada en el proceso que requiere ejecutar.</p>
+<blockquote>
+<div><p><img alt="campo factura del proceso autorizar documento fiscal" src="../../_images/invoice-field-of-the-process-authorize-fiscal-document.png" /></p>
+<p>Imagen 7. Campo Factura</p>
+</div></blockquote>
+<p>Seleccione en el campo “<strong>Tipo de Autorización</strong>”, la opción “<strong>Anulación</strong>”, para anular la factura seleccionada en el campo “<strong>Factura</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción anulación en el campo tipo de autorización del proceso autorizar documento fiscal" src="../../_images/cancellation-option-in-the-authorization-type-field-of-the-process-authorize-tax-document.png" /></p>
+<p>Imagen 8. Campo Tipo de Autorización</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>OK</strong>”, para ejecutar el proceso “<strong>Autorizar Documento Fiscal</strong>”, en base a lo seleccionado en los campos explicados anteriormente.</p>
+<blockquote>
+<div><p><img alt="opción ok para ejecutar el proceso autorizar documento fiscal" src="../../_images/option-ok-to-execute-the-process-authorize-fiscal-document.png" /></p>
+<p>Imagen 9. Opción OK</p>
+</div></blockquote>
+</div>
+<div class="section" id="anular-orden-de-venta">
+<h2><strong>Anular Orden de Venta</strong><a class="headerlink" href="#anular-orden-de-venta" title="Permalink to this headline">¶</a></h2>
+<p>Ubique en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”, por último seleccione la ventana “<strong>Órdenes de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de ventana órdenes de venta para anular" src="../../_images/window-menu-sales-orders-to-void.png" /></p>
+<p>Imagen 10. Menú de ADempiere</p>
+</div></blockquote>
+<p>Con ayuda del número de documento, ubique la orden de venta asociada a la factura anulada.</p>
+<blockquote>
+<div><p><img alt="orden de venta para anular" src="../../_images/sell-order-to-void.png" /></p>
+<p>Imagen 11. Ubicar Orden de Venta</p>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Procesar Orden</strong>”, ubicada en el menú desplegado por la selección del icono “<strong>Proceso</strong>”, dicho icono se encuentra ubicado en la barra de herramientas de ADempiere, en la ventana “<strong>Órdenes de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción procesar orden del icono proceso de la ventana órdenes de venta" src="../../_images/option-process-order-icon-window-process-sales-orders.png" /></p>
+<p>Imagen 12. Opción Procesar Orden del Icono Proceso de la Ventana Órdenes de Venta</p>
+</div></blockquote>
+<p>Seleccione la acción “<strong>Anular</strong>” y la opción “<strong>OK</strong>”, para ejecutar el proceso de anular orden.</p>
+<blockquote>
+<div><p><img alt="acción anular y opción ok" src="../../_images/cancel-action-and-option-ok.png" /></p>
+<p>Imagen 13. Acción Anular y Opción OK</p>
+</div></blockquote>
+</div>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>

@@ -1,0 +1,413 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Copiar Orden Desde Otra &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html">1. <strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html">2. <strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html">3. <strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html">4. <strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html">5. <strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html">1. <strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html">2. <strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html">3. <strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html">4. <strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html">5. <strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html">1. <strong>Configuración del e-Commerce desde ADempiere</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+      <li><strong>Copiar Orden Desde Otra</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/pos-management/copy-record-from-order.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="copiar-orden-desde-otra">
+<span id="documento-copiar-orden-desde-otra"></span><h1><strong>Copiar Orden Desde Otra</strong><a class="headerlink" href="#copiar-orden-desde-otra" title="Permalink to this headline">¶</a></h1>
+<p>El proceso de “<strong>Copiar Orden Desde Otra</strong>”, pemite realizar una copia exacta de una orden determinada, repestando los precios que tienen los productos en la misma, así como la tasa de cambio con la que fue generada.</p>
+<p>Para explicar de manera detallada el procedimiento y la funcionalidad del proceso se presenta el siguiente escenario:</p>
+<ul>
+<li><p>En una determinada tienda se realiza una venta el día “<strong>04/08/2021</strong>”. Fecha en la cual se encuentra la tasa de cambio del “<strong>BCV-ABC Estándar C.A</strong>” en “<strong>1.933.493,43</strong>”.</p>
+<blockquote>
+<div><p><img alt="tasa de cambio del bcv del día 04" src="../../_images/exchange-rate-of-the-bcv-of-day-04.png" /></p>
+<p>Imagen 1. Tasa de Cambio del BCV-ABC Estándar C.A del día 04/08/2021</p>
+</div></blockquote>
+</li>
+<li><p>Transacción de la cual se obtiene como resultado la siguiente factura impresa:</p>
+<blockquote>
+<div><table class="docutils align-default">
+<colgroup>
+<col style="width: 50%" />
+<col style="width: 20%" />
+<col style="width: 30%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" colspan="3"><p><strong>SENIAT</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td colspan="3"><p>RIF/C.I.: V00000000</p></td>
+</tr>
+<tr class="row-odd"><td colspan="3"><p>RAZON SOCIAL: Cliente Unico</p></td>
+</tr>
+<tr class="row-even"><td colspan="3"><p>Araure - Portuguesa</p></td>
+</tr>
+<tr class="row-odd"><td colspan="3"><p>Orden OPOS-857</p></td>
+</tr>
+<tr class="row-even"><td colspan="3"><p>Empleado Vendedor</p></td>
+</tr>
+<tr class="row-odd"><td colspan="3"><p><strong>FACTURA</strong></p></td>
+</tr>
+<tr class="row-even"><td><p>FACTURA:</p></td>
+<td colspan="2"><p>00000654</p></td>
+</tr>
+<tr class="row-odd"><td><p>FECHA: 21-12-2020</p></td>
+<td colspan="2"><p>HORA: 11:59</p></td>
+</tr>
+<tr class="row-even"><td colspan="3"><p>1908</p></td>
+</tr>
+<tr class="row-odd"><td><p>PICO PARA AIRE LARGO TRUPER</p></td>
+<td><p>(G)</p></td>
+<td><p>Bs 8.068.152.07</p></td>
+</tr>
+<tr class="row-even"><td><p>SUBTTL</p></td>
+<td colspan="2"><p>Bs 8.068.152.07</p></td>
+</tr>
+<tr class="row-odd"><td><p>BI G16.00% Bs 8.068.152.07</p></td>
+<td><p>IVA G16.00%</p></td>
+<td><p>Bs 1.290.904.33</p></td>
+</tr>
+<tr class="row-even"><td><p>TOTAL</p></td>
+<td colspan="2"><p>Bs 9.359.056.40</p></td>
+</tr>
+<tr class="row-odd"><td><p>EFECTIVO 1</p></td>
+<td colspan="2"><p>Bs 9.359.056.40</p></td>
+</tr>
+<tr class="row-even"><td colspan="3"><p>Cant. Articulos: 1</p></td>
+</tr>
+<tr class="row-odd"><td colspan="3"><p>Empleado Vendedor</p></td>
+</tr>
+<tr class="row-even"><td colspan="3"><p>Terminal PDV Caja 01 Vendedor</p></td>
+</tr>
+<tr class="row-odd"><td><p>MH</p></td>
+<td colspan="2"><p>Z7C0001234</p></td>
+</tr>
+</tbody>
+</table>
+</div></blockquote>
+</li>
+</ul>
+<p>Un registro de orden de compra puede ser copiado cuando el mismo se encuentre en estado “<strong>Completo</strong>”. La unica condición que tiene el proceso para su ejecución, es que el registro de la orden que requiere copiar, no se encuentre en estado “<strong>Cerrado</strong>”. Si la orden a copiar se encuentra en estado “<strong>Cerrado</strong>”, el proceso no se ejecuta.</p>
+<p>Para continuar con el ejemplo planteado anteriormente en el presente documento, se tiene lo siguiente:</p>
+<ul>
+<li><p>El día “<strong>06/08/2021</strong>”, se presenta el cliente de la factura “<strong>00000654</strong>”, asociada a la orden “<strong>OPOS-857</strong>”, realizando la devolución del producto “<strong>PICO PARA AIRE LARGO TRUPER</strong>”. Dicho cliente indica que requiere que el mismo sea cambiado porque se encuentra dañado.</p>
+<blockquote>
+<div><p><img alt="tasa de cambio del bcv del día 06" src="../../_images/exchange-rate-of-the-bcv-of-day-06.png" /></p>
+<p>Imagen 2. Tasa de Cambio del BCV-ABC Estándar C.A del día 06/08/2021</p>
+</div></blockquote>
+</li>
+<li><p>Antes de ejecutar el proceso <a class="reference internal" href="void-sales-transaction.html#documento-anular-transaccion-de-venta"><span class="std std-ref">Reversar Transacción de Venta</span></a>, se requiere copiar el registro de la orden “<strong>OPOS-857</strong>”, generada el día “<strong>04/08/2021</strong>”, con la tasa de cambio “<strong>1.933.493,43</strong>” del “<strong>BCV-ABC Estándar C.A</strong>”, para mantener los valores de la misma.</p></li>
+</ul>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Mayormente las órdenes son copiadas desde el punto de venta para mantener la tasa de cambio de la misma y generar una orden con fecha actual, en la cual se mantengan los mismos precios. Este proceso se debe utilizar cuando se va a generar una nota de crédito desde el punto de venta, ya que permite crear una orden bajo la misma tasa de cambio.</p>
+</div>
+<p>Para copiar una orden de venta desde el punto de venta, se debe realizar el siguiente procedimiento:</p>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”, por último seleccione la carpeta “<strong>Punto de Venta</strong>”. Para finalizar, seleccione la ventana “<strong>Punto de Venta</strong>”.</p>
+<blockquote>
+<div><p><img alt="Menú de ADempiere" src="../../_images/point-of-sale-menu.png" /></p>
+<p>Imagen 3. Menú de ADempiere</p>
+</div></blockquote>
+<p>La interfaz de la ventana “<strong>Punto de Venta</strong>”, se encuentra definida de forma específica en el documento <a class="reference internal" href="point-of-sale-interface.html#documento-interfaz-del-punto-de-venta"><span class="std std-ref">Interfaz de Punto de Venta</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<p>Realice la búsqueda de registros de órdenes de venta generadas desde el punto de venta, seleccionando el icono “<strong>Registros Históricos</strong>” de la barra de herramientas de la ventana “<strong>Punto de Venta</strong>”, dicho proceso se encuentra explicado en el documento <a class="reference internal" href="point-of-sale-interface.html#documento-paso-barra-de-herramientas"><span class="std std-ref">Barra de Herramientas del Punto de Venta</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p>Seleccione en la ventana “<strong>Orden de Venta</strong>”, generada del icono “<strong>Registros Históricos</strong>”, la orden de venta que requiere copiar.</p>
+<blockquote>
+<div><p><img alt="selección de orden de venta a copiar" src="../../_images/selection-of-sales-order-to-copy.png" /></p>
+<p>Imagen 4. Selección de Orden de Venta a Copiar</p>
+</div></blockquote>
+<p>Por último, seleccione la opción “<strong>OK</strong>” para ubicar en la ventana “<strong>Punto de Venta</strong>”, el registro de la orden de venta realizada desde el punto de venta.</p>
+<blockquote>
+<div><p><img alt="selección de la opción ok de la orden de venta a copiar" src="../../_images/selection-of-the-ok-option-of-the-sales-order-to-be-copied.png" /></p>
+<p>Imagen 5. Selección de la Opción OK de la Orden de Venta a Copiar</p>
+</div></blockquote>
+</div></blockquote>
+<p>Podrá visualizar que el registro de la orden de venta ubicada se encuentra en estado “<strong>Completo</strong>”.</p>
+<blockquote>
+<div><p><img alt="orden ubicada en estado completo" src="../../_images/order-located-in-complete-state.png" /></p>
+<p>Imagen 6. Orden de Venta en Estado Completo</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p>Es importante resaltar que cuando se presenta una devolución, la orden debe ser copiada antes de ejecutar el proceso de devolución ya que al generarse la nota de crédito, la orden pasa de estado “<strong>Completo</strong>” a estado “<strong>Cerrado</strong>”.</p>
+</div>
+</div></blockquote>
+<p>Seleccione la opción “<strong>Copiar Orden Desde Otra</strong>”, ubicada en el menú desplegado por el icono “<strong>Proceso</strong>” de la barra de herramientas de la ventana “<strong>Punto de Venta</strong>”, explicada en el documento <a class="reference internal" href="point-of-sale-interface.html#documento-paso-barra-de-herramientas"><span class="std std-ref">Barra de Herramientas del Punto de Venta</span></a> elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
+<blockquote>
+<div><p><img alt="opción copiar orden desde otra" src="../../_images/option-copy-order-from-another.png" /></p>
+<p>Imagen 7. Opción Copiar Orden Desde Otra</p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>En el caso de que el terminal del punto de venta con el cual se encuentra trabajando, este configurado para que requiera PIN al momento de ejecutar ciertas transacciones, se mostrará la ventana “<strong>PIN de Usuario</strong>” luego de seleccionar la opción “<strong>Copiar Orden Desde Otra</strong>”. En dicha ventana se debe ingresar el PIN del usuario establecido como supervisor en el terminal y finalmente seleccionar la opción “<strong>OK</strong>” para ejecutar el proceso.</p>
+<p>Para el presente ejemplo, el terminal con el cual se esta realizando la transacción, no se encuentra configurado para que solicite el PIN.</p>
+</div>
+</div></blockquote>
+<p>Al seleccionar la opción “<strong>Copiar Orden Desde Otra</strong>”, se ejecuta el proceso de manera automática y podrá visualizar en la ventana “<strong>Punto de Venta</strong>”, el nuevo registro de la orden de venta en estado “<strong>Borrador</strong>” y con fecha actual “<strong>06/08/2021</strong>”.</p>
+<blockquote>
+<div><p><img alt="nueva orden de venta del proceso copiar orden desde otra" src="../../_images/new-sales-order-of-the-process-copy-order-from-another.png" /></p>
+<p>Image 8. Nueva Orden Creada con el Proceso Copiar Orden Desde Otra</p>
+</div></blockquote>
+<p>Adicionalmente, puede visualizar que la orden contiene todos los productos y precios de la orden copiada.</p>
+<blockquote>
+<div><p><img alt="productos y precios de la nueva orden" src="../../_images/new-order-products-and-prices.png" /></p>
+<p>Imagen 9. Productos y Precios de la Nueva Orden</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
