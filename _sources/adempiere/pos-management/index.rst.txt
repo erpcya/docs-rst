@@ -33,6 +33,7 @@ Esta solución pasa a ser entonces un potente **Quick Service** por estar integr
     generate-report-x-y-z
     opening-cash
     pos
+    copy-record-from-order
     void-sales-transaction
     complete-ready-order
     cancel-tax-invoice

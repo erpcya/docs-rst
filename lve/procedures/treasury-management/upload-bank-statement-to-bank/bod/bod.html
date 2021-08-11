@@ -237,8 +237,12 @@
             
   <div class="section" id="banco-occidental-de-descuento">
 <span id="documento-banco-bod"></span><h1><strong>Banco Occidental de Descuento</strong><a class="headerlink" href="#banco-occidental-de-descuento" title="Permalink to this headline">¶</a></h1>
-<p>Para la exportación de los archivos desde ADempiere al banco occidental de descuento, <a class="reference external" href="http://erpya.com">ERPyA</a> soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento <a class="reference download internal" download="" href="../../../../../_downloads/dc3867b3a040072f381a71ec909a1823/Formato_Pagos_BOD.xlsx"><code class="xref download docutils literal notranslate"><span class="pre">Formato</span> <span class="pre">Archivo</span> <span class="pre">Ordenes</span> <span class="pre">de</span> <span class="pre">Pago</span></code></a>, explica el formato que sirve de ayuda para la construcción el archivo a cargar.</p>
+<p>Para la exportación de los archivos desde ADempiere al banco occidental de descuento, <a class="reference external" href="http://erpya.com">ERPyA</a> soporta el siguiente formato facilitado por el banco, que puede ser descargado. El documento <a class="reference download internal" download="" href="../../../../../_downloads/6e8752a7a74143ebd639adc141b4b715/EN-CP-E-0036_SOLICITUD_MASIVA_DE_ORDENES_DE_PAGOS__TXT_.xlsm"><code class="xref download docutils literal notranslate"><span class="pre">Formato</span> <span class="pre">Archivo</span> <span class="pre">Ordenes</span> <span class="pre">de</span> <span class="pre">Pago</span></code></a>, explica el formato que sirve de ayuda para la construcción de los archivos a cargar.</p>
 <p>Adicional a ello, se puede visualizar dicho documento de la siguiente manera, luego de descargarlo.</p>
+<div class="section" id="bod-proveedores">
+<h2><strong>BOD PROVEEDORES</strong><a class="headerlink" href="#bod-proveedores" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="formato-archivo-ordenes-de-pago-del-cliente-al-banco">
+<h3><strong>Formato Archivo Ordenes de Pago (Del Cliente al Banco)</strong><a class="headerlink" href="#formato-archivo-ordenes-de-pago-del-cliente-al-banco" title="Permalink to this headline">¶</a></h3>
 <table class="docutils align-default">
 <colgroup>
 <col style="width: 1%" />
@@ -251,25 +255,25 @@
 <col style="width: 12%" />
 </colgroup>
 <thead>
-<tr class="row-odd"><th class="head"></th>
-<th class="head"><p><strong>Nombre del Campo</strong></p></th>
-<th class="head"><p><strong>Longitud</strong></p></th>
-<th class="head"><p><strong>Tipo</strong></p></th>
-<th class="head"><p><strong>Decima</strong></p></th>
-<th class="head"><p><strong>Requerido</strong></p></th>
-<th class="head"><p><strong>Descripción/Valor</strong></p></th>
-<th class="head"><p><strong>Ejemplo</strong></p></th>
+<tr class="row-odd"><th class="head" colspan="8"><p><strong>Registro de encabezado o header TIPO = 01. Longitud 250</strong></p></th>
 </tr>
 </thead>
 <tbody>
-<tr class="row-even"><td colspan="8"><p><strong>Registro de encabezado o header TIPO = 01. Longitud 250</strong></p></td>
+<tr class="row-even"><td></td>
+<td><p><strong>Nombre del Campo</strong></p></td>
+<td><p><strong>Longitud</strong></p></td>
+<td><p><strong>Tipo</strong></p></td>
+<td><p><strong>Decimal</strong></p></td>
+<td><p><strong>Requerido</strong></p></td>
+<td><p><strong>Descripción/Valor</strong></p></td>
+<td><p><strong>Ejemplo</strong></p></td>
 </tr>
 <tr class="row-odd"><td><p>1</p></td>
 <td><p>TIPO DE REGISTRO</p></td>
 <td><p>2</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Identificación el encabezado del lote</p></td>
 <td><p>01</p></td>
 </tr>
@@ -278,7 +282,7 @@
 <td><p>20</p></td>
 <td><p>A</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Debe decir: “Proveedores” o “Nomina”</p></td>
 <td><p>PROVEEDORES</p></td>
 </tr>
@@ -287,16 +291,16 @@
 <td><p>1</p></td>
 <td><p>A</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
-<td><p>Calificador (V-Venezolano,E-Extranjero ó P-Pasaporte) Para el caso de RIF: Calificador (J-Juridico, G-Gobierno)</p></td>
-<td rowspan="2"><p>V000000000</p></td>
+<td><p>Sí</p></td>
+<td><p>Calificador (V-Venezolano,E-Extranjero ó P-Pasaporte)  Para el caso de RIF: Calificador (J-Juridico, G-Gobierno)</p></td>
+<td rowspan="2"><p>J012345678     V006117681</p></td>
 </tr>
 <tr class="row-even"><td><p>4</p></td>
 <td><p>NUMERO RIF/CI (Ordenante)</p></td>
 <td><p>9</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Número RIF/CI</p></td>
 </tr>
 <tr class="row-odd"><td><p>5</p></td>
@@ -304,72 +308,72 @@
 <td><p>17</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Número de la negociación</p></td>
-<td><p>00000000000000116</p></td>
+<td><p>90045678901234567</p></td>
 </tr>
 <tr class="row-even"><td><p>6</p></td>
 <td><p>NÚMERO DE LOTE / REFERENCIA DEBITO</p></td>
 <td><p>9</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
-<td><p>Número del Lote. Referencia del débito. Será utilizada en el esatdo de cuenta (modaldiad 1:n)</p></td>
-<td><p>001000038</p></td>
+<td><p>Sí</p></td>
+<td><p>Número del Lote. Referencia del débito. Será utilizada en el estado de cuenta (modaldiad 1:n)</p></td>
+<td><p>123456789</p></td>
 </tr>
 <tr class="row-odd"><td><p>7</p></td>
 <td><p>FECHA DE ENVÍO</p></td>
 <td><p>8</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Fecha de envío del lote. Debe estar en formato yyyymmdd</p></td>
-<td><p>20201012</p></td>
+<td><p>20100530</p></td>
 </tr>
 <tr class="row-even"><td><p>8</p></td>
 <td><p>CANTIDAD DE OPERACIONES</p></td>
 <td><p>6</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
-<td><p>Cantidad de pagos en el lote (regsitros de detalle)</p></td>
-<td><p>000004</p></td>
+<td><p>Sí</p></td>
+<td><p>Cantidad de pagos en el lote (registros de detalle)</p></td>
+<td><p>138</p></td>
 </tr>
 <tr class="row-odd"><td><p>9</p></td>
 <td><p>MONTO TOTAL</p></td>
 <td><p>17</p></td>
 <td><p>N</p></td>
 <td><p>2</p></td>
-<td><p>SI</p></td>
-<td><p>Monto total del lote de pagos (Incluye los decimales sin separador). Monto en el ejemplo: 18.500.000,00</p></td>
-<td><p>00000001850000000</p></td>
+<td><p>Sí</p></td>
+<td><p>Monto total del lote de pagos (Incluye los decimales sin separador). Monto expresado en el ejemplo: 100.563,51</p></td>
+<td><p>10056351</p></td>
 </tr>
 <tr class="row-even"><td><p>10</p></td>
 <td><p>MONEDA</p></td>
 <td><p>3</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Moneda actual disponible Bs.</p></td>
-<td><p>VES</p></td>
+<td><p>VEB</p></td>
 </tr>
 <tr class="row-odd"><td></td>
 <td><p>FILLER</p></td>
 <td><p>158</p></td>
-<td><p>N</p></td>
-<td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td></td>
+<td></td>
+<td><p>Sí</p></td>
 <td><p>Uso futuro</p></td>
 <td></td>
 </tr>
-<tr class="row-even"><td colspan="8"><p><strong>Registro de Detalle por cada pago en lote TIPO=02. Longitud 250</strong></p></td>
+<tr class="row-even"><td colspan="8"><p>Registro de Detalle por cada pago en lote TIPO=02. Longitud 250</p></td>
 </tr>
 <tr class="row-odd"><td><p>1</p></td>
 <td><p>TIPO REGISTRO</p></td>
 <td><p>2</p></td>
 <td><p>A</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Identificación de detalle. Pueden haber tantos registros de detalle como pagos se requieran en el lote.</p></td>
 <td><p>02</p></td>
 </tr>
@@ -378,18 +382,16 @@
 <td><p>1</p></td>
 <td><p>A</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Calificador (V-Venezolano,E-Extranjero ó P-Pasaporte)  Para el caso de RIF: Calificador (J-Juridico, G-Gobierno)</p></td>
-<td rowspan="2"><p>V000000000, G200003030,</p>
-<p>J297599070, J002443731</p>
-</td>
+<td rowspan="2"><p>J012345678     V006117681</p></td>
 </tr>
 <tr class="row-odd"><td><p>3</p></td>
 <td><p>NUMERO RIF/CI (Beneficiario)</p></td>
 <td><p>9</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Número RIF/CI</p></td>
 </tr>
 <tr class="row-even"><td><p>4</p></td>
@@ -397,238 +399,1157 @@
 <td><p>60</p></td>
 <td><p>A</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
-<td><p>Nombre del beneficiario del crédito. Obligatorio cuando el beneficiario no está registrado o si la modalidad de
+<td><p>Sí</p></td>
+<td><p>Nombre del Beneficiario del crédito. Obligatorio cuando el beneficiario no está registrado o si la modalidad de
 pago es CHQ o EFE</p></td>
-<td><p>Proveedor Estndar, Servicio
-Nacional Integrado de
-Administracin (SENIAT),
-Bolivariana de Puertos
-( Bolipuertos)  S A,
-Dhl Express Aduanas
-Venezuela CA</p></td>
+<td><p>Jose Herrera Cortez</p></td>
 </tr>
 <tr class="row-odd"><td><p>5</p></td>
 <td><p>REFERENCIA DE LA OPERACIÓN</p></td>
 <td><p>9</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>NO</p></td>
-<td><p>Número de referencia del crédito a ser utilizada en el estado de cuenta (modalidad 1:1)</p></td>
-<td><p>000000000, 000000001,
-000000002, 000000003</p></td>
+<td><p>No</p></td>
+<td><p>Numero de Referencia del Crédito a ser utilizada en el estado de cuenta (modalidad 1:1)</p></td>
+<td><p>123456789</p></td>
 </tr>
 <tr class="row-even"><td><p>6</p></td>
 <td><p>DESCRIPCION OPERACIÓN</p></td>
 <td><p>30</p></td>
 <td><p>A</p></td>
 <td><p>N/A</p></td>
-<td><p>NO</p></td>
+<td><p>No</p></td>
 <td><p>Descripción de la Operación</p></td>
-<td><p>10001621000163
-1000166
-1000165
-1000164</p></td>
+<td><p>texto libre</p></td>
 </tr>
 <tr class="row-odd"><td><p>7</p></td>
 <td><p>MODALIDAD DE PAGO</p></td>
 <td><p>3</p></td>
 <td><p>A</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
-<td><p>Valores: CTA Cuenta mismo bancos - BAN cuenta otro bancos - CHQ Cheque de Gerencia - EFE Efectivo - TAR  TC
-Visa / Master Otros bancos - AME TC American Express-  V/M TC Visa / Master mismo Banco,  si el beneficiario no
-está registrado</p></td>
-<td><p>CTA, BAN, BAN, BAN</p></td>
+<td><p>Sí</p></td>
+<td><p>Valores: CTA Cuenta mismo bancos - BAN cuenta otro bancos - CHQ Cheque de Gerencia - EFE Efectivo - TAR  TC Visa
+/ Master Otros bancos - AME TC American Express-  V/M TC Visa / Master mismo Banco,  si el beneficiario no está
+registrado</p></td>
+<td><p>CTA</p></td>
 </tr>
 <tr class="row-even"><td><p>8</p></td>
 <td><p>NUMERO DE CUENTA ó TARJETA DE CRÉDITO</p></td>
 <td><p>20</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Numero de la cuenta a acreditar. Obligatorio para Abono en cuenta mismo banco, otros bancos y tarjetas de
 crédito, si el beneficiario no está registrado</p></td>
-<td><p>01160000000000000000,
-01340000000000000000,
-01340000000000000000,
-01740000000000000000</p></td>
+<td><p>01080265007712345678
+00000377003480751006
+00005466205600823018</p></td>
 </tr>
 <tr class="row-odd"><td><p>9</p></td>
 <td><p>CODIGO DE BANCO</p></td>
 <td><p>4</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Código del Banco.</p></td>
-<td><p>0116, 0134, 0134 0174</p></td>
+<td><p>0108</p></td>
 </tr>
 <tr class="row-even"><td><p>10</p></td>
 <td><p>FECHA VALOR</p></td>
 <td><p>8</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Fecha de pago. Debe estar en formato yyyymmdd</p></td>
-<td><p>20201012</p></td>
+<td><p>20100530</p></td>
 </tr>
 <tr class="row-odd"><td><p>11</p></td>
 <td><p>MONTO</p></td>
 <td><p>15</p></td>
 <td><p>N</p></td>
 <td><p>2</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Monto del pago. Incluye los decimales. Monto expresado en ejemplo: Bs. 14.000,75</p></td>
-<td><p>000000400000000,
-000000600000000,
-000000500000000,
-000000350000000</p></td>
+<td><p>1400075</p></td>
 </tr>
 <tr class="row-even"><td><p>12</p></td>
 <td><p>MONEDA</p></td>
 <td><p>3</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Moneda actual disponible Bs.</p></td>
-<td><p>VES</p></td>
+<td><p>VEB</p></td>
 </tr>
 <tr class="row-odd"><td><p>13</p></td>
 <td><p>IMPUESTO RETENIDO</p></td>
 <td><p>15</p></td>
 <td><p>N</p></td>
 <td><p>2</p></td>
-<td><p>NO</p></td>
+<td><p>No</p></td>
 <td><p>Monto del impuesto retenido en el documento asociado al pago Bs. 1.680,09</p></td>
-<td><p>000000000000000</p></td>
+<td><p>168009</p></td>
 </tr>
 <tr class="row-even"><td><p>14</p></td>
 <td><p>EMAIL</p></td>
 <td><p>40</p></td>
 <td><p>A</p></td>
 <td><p>N/A</p></td>
-<td><p>NO</p></td>
+<td><p>No</p></td>
 <td><p>Dirección email del beneficiario</p></td>
-<td><p><a class="reference external" href="mailto:estandar&#37;&#52;&#48;ejmplo&#46;com">estandar<span>&#64;</span>ejmplo<span>&#46;</span>com</a>,
-<a class="reference external" href="mailto:seniat&#37;&#52;&#48;ejemplo&#46;com">seniat<span>&#64;</span>ejemplo<span>&#46;</span>com</a>,
-<a class="reference external" href="mailto:bolipuertos&#37;&#52;&#48;ejemplo&#46;com">bolipuertos<span>&#64;</span>ejemplo<span>&#46;</span>com</a>,
-<a class="reference external" href="mailto:dhl&#37;&#52;&#48;ejemplo&#46;com">dhl<span>&#64;</span>ejemplo<span>&#46;</span>com</a></p></td>
+<td><p><a class="reference external" href="mailto:joseh&#46;cortez&#37;&#52;&#48;gmail&#46;com">joseh<span>&#46;</span>cortez<span>&#64;</span>gmail<span>&#46;</span>com</a></p></td>
 </tr>
 <tr class="row-odd"><td><p>15</p></td>
 <td><p>CELULAR</p></td>
 <td><p>11</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>NO</p></td>
+<td><p>No</p></td>
 <td><p>Teléfono celular para envío de SMS</p></td>
-<td><p>02550000000</p></td>
+<td><p>04141234567</p></td>
 </tr>
 <tr class="row-even"><td></td>
 <td><p>FILLER</p></td>
 <td><p>20</p></td>
 <td></td>
 <td></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Uso futuro</p></td>
 <td></td>
 </tr>
-<tr class="row-odd"><td colspan="8"><p><strong>Documentos asociados al pago TIPO=03 (Opcional)</strong></p></td>
+<tr class="row-odd"><td colspan="8"><p>Documentos asociados al pago TIPO=03 (Opcional)</p></td>
 </tr>
 <tr class="row-even"><td><p>1</p></td>
 <td><p>IDENTIFICADOR REGISTRO</p></td>
 <td><p>2</p></td>
 <td><p>A</p></td>
 <td><p>N/A</p></td>
-<td><p>NO</p></td>
+<td><p>No</p></td>
 <td><p>Identificación de documentos. Puede haber mas de un (1) documento por cada pago</p></td>
 <td><p>03</p></td>
 </tr>
 <tr class="row-odd"><td><p>2</p></td>
-<td><p>NÚMERO DE FACTURA O DOCUMENTO</p></td>
+<td><p>NÚMERO DE FACTURA O DOCUMENTO.</p></td>
 <td><p>20</p></td>
 <td><p>A</p></td>
 <td><p>N/A</p></td>
-<td><p>NO</p></td>
+<td><p>No</p></td>
 <td><p>Número o referencia del documento</p></td>
-<td><p>1000162, 1000163, 1000166,
-1000165, 1000164</p></td>
+<td><p>A-12348-PEDIDO</p></td>
 </tr>
 <tr class="row-even"><td><p>3</p></td>
 <td><p>MONTO FACTURA</p></td>
 <td><p>15</p></td>
 <td><p>A</p></td>
 <td><p>2</p></td>
-<td><p>NO</p></td>
+<td><p>No</p></td>
 <td><p>Monto original del documento</p></td>
-<td><p>000000150000000,
-000000250000000,
-000000600000000,
-000000500000000,
-000000350000000</p></td>
+<td><p>1400075</p></td>
 </tr>
 <tr class="row-odd"><td><p>4</p></td>
 <td><p>MONEDA</p></td>
 <td><p>3</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>NO</p></td>
+<td><p>No</p></td>
 <td><p>Moneda actual disponible Bs.</p></td>
-<td><p>VES</p></td>
+<td><p>VEB</p></td>
 </tr>
 <tr class="row-even"><td><p>5</p></td>
 <td><p>FECHA FACTURA</p></td>
 <td><p>8</p></td>
 <td><p>N</p></td>
 <td><p>N/A</p></td>
-<td><p>NO</p></td>
+<td><p>No</p></td>
 <td><p>Fecha del documento / factura.   yyyy/mm/dd</p></td>
-<td><p>2020/10/12</p></td>
+<td><p>2010/04/27</p></td>
 </tr>
 <tr class="row-odd"><td><p>6</p></td>
 <td><p>IMPUESTO RETENIDO</p></td>
 <td><p>15</p></td>
 <td><p>N</p></td>
 <td><p>2</p></td>
-<td><p>NO</p></td>
+<td><p>No</p></td>
 <td><p>Monto del impuesto retebido en la factura</p></td>
-<td><p>000000000000000</p></td>
+<td><p>168009</p></td>
 </tr>
-<tr class="row-even"><td><p>7</p></td>
+<tr class="row-even"><td></td>
 <td><p>FILLER</p></td>
 <td><p>187</p></td>
 <td></td>
 <td></td>
-<td><p>SI</p></td>
+<td><p>Sí</p></td>
 <td><p>Uso futuro</p></td>
 <td></td>
 </tr>
 </tbody>
 </table>
+</div>
+<div class="section" id="formato-archivo-ordenes-de-pago-del-banco-al-cliente">
+<h3><strong>Formato Archivo Ordenes de Pago (Del Banco al Cliente)</strong><a class="headerlink" href="#formato-archivo-ordenes-de-pago-del-banco-al-cliente" title="Permalink to this headline">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 1%" />
+<col style="width: 16%" />
+<col style="width: 6%" />
+<col style="width: 4%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 49%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" colspan="8"><p><strong>Registro de encabezado o header TIPO = 01. Longitud 1000</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p><strong>Nombre del Campo</strong></p></td>
+<td><p><strong>Longitud</strong></p></td>
+<td><p><strong>Tipo</strong></p></td>
+<td><p><strong>Decimal</strong></p></td>
+<td><p><strong>Requerido</strong></p></td>
+<td><p><strong>Descripción/Valor</strong></p></td>
+<td><p><strong>Ejemplo</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>TIPO DE REGISTRO</p></td>
+<td><p>2</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Identificación el encabezado del lote</p></td>
+<td><p>01</p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>DESCRIPCION LOTE</p></td>
+<td><p>20</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Debe decir: “Proveedores” o “Nomina”</p></td>
+<td><p>PROVEEDORES</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>TIPO PERSONA (Ordenante)</p></td>
+<td><p>1</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Calificador (V-Venezolano,E-Extranjero ó P-Pasaporte)  Para el caso de RIF: Calificador (J-Juridico, G-Gobierno)</p></td>
+<td rowspan="2"><p>J012345678     V006117681</p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>NUMERO RIF/CI (Ordenante)</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Número RIF/CI</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>NÚMERO DE CONTRATO</p></td>
+<td><p>17</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Número de la negociación</p></td>
+<td><p>90045678901234567</p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>NÚMERO DE LOTE / REFERENCIA DEBITO</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Número del Lote. Referencia del débito. Será utilizada en el estado de cuenta (modaldiad 1:n)</p></td>
+<td><p>123456789</p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>FECHA DE ENVÍO</p></td>
+<td><p>8</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Fecha de envío del lote. Debe estar en formato yyyymmdd</p></td>
+<td><p>20100530</p></td>
+</tr>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>CANTIDAD DE OPERACIONES</p></td>
+<td><p>6</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Cantidad de pagos en el lote (registros de detalle)</p></td>
+<td><p>138</p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>MONTO TOTAL</p></td>
+<td><p>17</p></td>
+<td><p>N</p></td>
+<td><p>2</p></td>
+<td><p>Sí</p></td>
+<td><p>Monto total del lote de pagos (Incluye los decimales sin separador). Monto expresado en el ejemplo: 100.563,51</p></td>
+<td><p>10056351</p></td>
+</tr>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>MONEDA</p></td>
+<td><p>3</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Moneda actual disponible Bs.</p></td>
+<td><p>VEB</p></td>
+</tr>
+<tr class="row-odd"><td><p>11</p></td>
+<td><p>COD RESPUESTA</p></td>
+<td><p>2</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Será aportado por el Banco</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>12</p></td>
+<td><p>DESCRIPCION</p></td>
+<td><p>20</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Será aportado por el Banco</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>13</p></td>
+<td><p>Nro. Lote interno Banco</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Será aportado por el Banco</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>FILLER</p></td>
+<td><p>877</p></td>
+<td></td>
+<td></td>
+<td><p>Sí</p></td>
+<td><p>Uso futuro</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td colspan="8"><p>Registro de Detalle por cada pago en lote TIPO=02. Longitud 1000</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>TIPO REGISTRO</p></td>
+<td><p>2</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Identificación de detalle. Pueden haber tantos registros de detalle como pagos se requieran en el lote.</p></td>
+<td><p>02</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>TIPO PERSONA (Beneficiario)</p></td>
+<td><p>1</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Calificador (V-Venezolano,E-Extranjero ó P-Pasaporte)  Para el caso de RIF: Calificador (J-Juridico, G-Gobierno)</p></td>
+<td rowspan="2"><p>J012345678     V006117681</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>NUMERO RIF/CI  (Beneficiario)</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Número RIF/CI</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>NOMBRE DEL BENEFICIARIO</p></td>
+<td><p>60</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Nombre del Beneficiario del crédito. Obligatorio cuando el beneficiario no está registrado o si la modalidad de
+pago es CHQ o EFE</p></td>
+<td><p>Jose Herrera Cortez</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>REFERENCIA DE LA OPERACIÓN</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Numero de Referencia del Crédito a ser utilizada en el estado de cuenta (modalidad 1:1)</p></td>
+<td><p>123456789</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>DESCRIPCION OPERACIÓN</p></td>
+<td><p>30</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Descripción de la Operación</p></td>
+<td><p>texto libre</p></td>
+</tr>
+<tr class="row-even"><td><p>7</p></td>
+<td><p>MODALIDAD DE PAGO</p></td>
+<td><p>3</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Valores: CTA Cuenta mismo bancos - BAN cuenta otro bancos - CHQ Cheque de Gerencia - EFE Efectivo - TAR  TC Visa
+/ Master Otros bancos - AME TC American Express-  V/M TC Visa / Master mismo Banco,  si el beneficiario no está
+registrado</p></td>
+<td><p>CTA</p></td>
+</tr>
+<tr class="row-odd"><td><p>8</p></td>
+<td><p>NUMERO DE CUENTA ó TARJETA DE CRÉDITO</p></td>
+<td><p>20</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Numero de la cuenta a acreditar. Obligatorio para Abono en cuenta mismo banco, otros bancos y tarjetas de
+crédito, si el beneficiario no está registrado</p></td>
+<td><p>01080265007712345678
+00000377003480751006
+00005466205600823018</p></td>
+</tr>
+<tr class="row-even"><td><p>9</p></td>
+<td><p>CODIGO DE BANCO</p></td>
+<td><p>4</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Código del Banco</p></td>
+<td><p>0108</p></td>
+</tr>
+<tr class="row-odd"><td><p>10</p></td>
+<td><p>FECHA VALOR</p></td>
+<td><p>8</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Fecha de pago. Debe estar en formato yyyymmdd</p></td>
+<td><p>20100530</p></td>
+</tr>
+<tr class="row-even"><td><p>11</p></td>
+<td><p>MONTO</p></td>
+<td><p>15</p></td>
+<td><p>N</p></td>
+<td><p>2</p></td>
+<td><p>Sí</p></td>
+<td><p>Monto del pago. Incluye los decimales. Monto expresado en ejemplo: Bs. 14.000,75</p></td>
+<td><p>1400075</p></td>
+</tr>
+<tr class="row-odd"><td><p>12</p></td>
+<td><p>MONEDA</p></td>
+<td><p>3</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Moneda actual disponible Bs.</p></td>
+<td><p>VEB</p></td>
+</tr>
+<tr class="row-even"><td><p>13</p></td>
+<td><p>IMPUESTO RETENIDO</p></td>
+<td><p>15</p></td>
+<td><p>N</p></td>
+<td><p>2</p></td>
+<td><p>No</p></td>
+<td><p>Monto del impuesto retenido en el documento asociado al pago</p></td>
+<td><p>168009</p></td>
+</tr>
+<tr class="row-odd"><td><p>14</p></td>
+<td><p>EMAIL</p></td>
+<td><p>40</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>No</p></td>
+<td><p>Dirección email del beneficiario</p></td>
+<td><p><a class="reference external" href="mailto:joseh&#46;cortez&#37;&#52;&#48;gmail&#46;com">joseh<span>&#46;</span>cortez<span>&#64;</span>gmail<span>&#46;</span>com</a></p></td>
+</tr>
+<tr class="row-even"><td><p>15</p></td>
+<td><p>CELULAR</p></td>
+<td><p>11</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>No</p></td>
+<td><p>Teléfono celular para envío de SMS</p></td>
+<td><p>04141234567</p></td>
+</tr>
+<tr class="row-odd"><td><p>16</p></td>
+<td><p>NRO. VOLANTE</p></td>
+<td><p>8</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>identificación del pago en taquilla mediante cheque</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>17</p></td>
+<td><p>COD RESPUESTA</p></td>
+<td><p>2</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Será aportado por el Banco</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>18</p></td>
+<td><p>DESCRIPCION</p></td>
+<td><p>30</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Será aportado por el Banco</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>19</p></td>
+<td><p>COD ERROR</p></td>
+<td><p>2</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>NO</p></td>
+<td><p>Será aportado por el Banco</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>20</p></td>
+<td><p>DESCRIPCION ERROR</p></td>
+<td><p>30</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>NO</p></td>
+<td><p>Será aportado por el Banco</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>FILLER</p></td>
+<td><p>698</p></td>
+<td></td>
+<td></td>
+<td><p>Sí</p></td>
+<td><p>Uso futuro</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td colspan="8"><p>Documentos asociados al pago TIPO=03 (Opcional). Longitud 1000</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>IDENTIFICADOR REGISTRO</p></td>
+<td><p>2</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Identificación de documentos. Puede haber mas de un (1) dpcumento por cada pago</p></td>
+<td><p>03</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>NÚMERO DE FACTURA O DOCUMENTO.</p></td>
+<td><p>20</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Número o referencia del documento</p></td>
+<td><p>A-12348-PEDIDO</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>MONTO FACTURA</p></td>
+<td><p>15</p></td>
+<td><p>A</p></td>
+<td><p>2</p></td>
+<td><p>Sí</p></td>
+<td><p>Monto original del documento</p></td>
+<td><p>1400075</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>MONEDA</p></td>
+<td><p>3</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Moneda actual disponible Bs.</p></td>
+<td><p>VEB</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>FECHA FACTURA</p></td>
+<td><p>8</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Fecha del documento / factura.   yyyy/mm/dd</p></td>
+<td><p>2010/04/27</p></td>
+</tr>
+<tr class="row-odd"><td><p>6</p></td>
+<td><p>IMPUESTO RETENIDO</p></td>
+<td><p>15</p></td>
+<td><p>N</p></td>
+<td><p>2</p></td>
+<td><p>No</p></td>
+<td><p>Monto del impuesto retebido en la factura</p></td>
+<td><p>168009</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>FILLER</p></td>
+<td><p>937</p></td>
+<td></td>
+<td></td>
+<td><p>Sí</p></td>
+<td><p>Uso futuro</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Debe ser un archivo de texto.</p></li>
+<li><p>Los campos numéricos(N), deben ir alineados a la derecha y completados con ceros a la izquierda.</p></li>
+<li><p>Los campos alfanuméricos(A), deben ir alineados a la izquierda.</p></li>
+<li><dl class="simple">
+<dt>Caracteres y dígitos permitidos:</dt><dd><ul>
+<li><p>Alfanuméricos(A):  /abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ.</p></li>
+<li><p>Numéricos(N):  0123456789.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Cada registro debe terminar con CR(Carrige Return), LF(Line Feed).</p></li>
+</ul>
+</div>
+</div>
 <div class="section" id="archivo-para-pagos">
-<h2><strong>Archivo para Pagos</strong><a class="headerlink" href="#archivo-para-pagos" title="Permalink to this headline">¶</a></h2>
+<h3><strong>Archivo para Pagos</strong><a class="headerlink" href="#archivo-para-pagos" title="Permalink to this headline">¶</a></h3>
 <p>Al ejecutar el proceso de selección de pago de las siguientes facturas en ADempiere:</p>
 <ul class="simple">
-<li><p>Factura “<strong>1000162</strong>” al socio del negocio “<strong>Estándar</strong>” por monto total de “<strong>1.500.000,00</strong>”.</p></li>
-<li><p>Factura “<strong>1000163</strong>” al socio del negocio “<strong>Estándar</strong>” por monto total de “<strong>2.500.000,00</strong>”.</p></li>
-<li><p>Factura “<strong>1000164</strong>” al socio del negocio “<strong>Dhl Express Aduanas Venezuela C.A.</strong>” por monto total de “<strong>3.500.000,00</strong>”.</p></li>
-<li><p>Factura “<strong>1000165</strong>” al socio del negocio “<strong>Bolivariana de Puertos  ( Bolipuertos)  S A</strong>” por monto total de “<strong>5.000.000,00</strong>”.</p></li>
-<li><p>Factura “<strong>1000166</strong>” al socio del negocio “<strong>Servicio Nacional Integrado de Administración (SENIAT)</strong>” por monto total de “<strong>6.000.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000243</strong>” al socio del negocio “<strong>E.R.P. Consultores y Asociados, C.A.</strong>” por monto total de “<strong>15.000.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000244</strong>” al socio del negocio “<strong>Dhl Express Aduanas Venezuela C.A.</strong>” por monto total de “<strong>1.845.895,87</strong>”.</p></li>
+<li><p>Factura “<strong>1000245</strong>” al socio del negocio “<strong>Proveedor Estándar</strong>” por monto total de “<strong>225.000,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000246</strong>” al socio del negocio “<strong>Bolivariana de Puertos  ( Bolipuertos)  S A</strong>” por monto total de “<strong>876.952.045,00</strong>”.</p></li>
+<li><p>Factura “<strong>1000247</strong>” al socio del negocio “<strong>E.R.P. Consultores y Asociados, C.A.</strong>” por monto total de “<strong>18.000.000,00</strong>”.</p></li>
 </ul>
-<p>Se obtiene como resultado del proceso “<strong>Imprimir /Exportar</strong>”, un documento en formato “<strong>.txt</strong>” con los detalles de los pagos a ser realizados desde el banco bod a terceros en el mismo banco, así como también a terceros en otros bancos, el mismo se puede descargar en el enlace <a class="reference download internal" download="" href="../../../../../_downloads/1e2d5da7eff207d566fa80b2fca91d91/Banco_Occidental_de_Descuento_BU_CA_1000038.txt"><code class="xref download docutils literal notranslate"><span class="pre">Archivo</span> <span class="pre">de</span> <span class="pre">Pago</span> <span class="pre">de</span> <span class="pre">Proveedores</span> <span class="pre">del</span> <span class="pre">Banco</span> <span class="pre">Occidental</span> <span class="pre">de</span> <span class="pre">Descuento</span></code></a> y visualizar de la siguiente manera:</p>
-<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">01</span><span class="n">PROVEEDORES</span>         <span class="n">J000000000000000000000001160010000382020101200000400000001850000000VES</span>
-<span class="mi">02</span><span class="n">V000000000Proveedor</span> <span class="n">Estndar</span>                                           <span class="mi">00000000010001621000163</span>                <span class="n">BAN01510000000000000000015120201012000000400000000VES000000000000000estandar</span><span class="nd">@ejmplo</span><span class="o">.</span><span class="n">com</span>                     <span class="mi">02550000000</span>
-<span class="mi">031000162</span>             <span class="mi">000000150000000</span><span class="n">VES2020</span><span class="o">/</span><span class="mi">10</span><span class="o">/</span><span class="mi">12000000000000000</span>
-<span class="mi">031000163</span>             <span class="mi">000000250000000</span><span class="n">VES2020</span><span class="o">/</span><span class="mi">10</span><span class="o">/</span><span class="mi">12000000000000000</span>
-<span class="mi">02</span><span class="n">G200003030Servicio</span> <span class="n">Nacional</span> <span class="n">Integrado</span> <span class="n">de</span> <span class="n">Administracin</span> <span class="p">(</span><span class="n">SENIAT</span><span class="p">)</span>       <span class="mi">0000000011000166</span>                       <span class="n">BAN01340000000000000000013420201012000000600000000VES000000000000000seniat</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>
-<span class="mi">031000166</span>             <span class="mi">000000600000000</span><span class="n">VES2020</span><span class="o">/</span><span class="mi">10</span><span class="o">/</span><span class="mi">12000000000000000</span>
-<span class="mi">02</span><span class="n">J297599070Bolivariana</span> <span class="n">de</span> <span class="n">Puertos</span>  <span class="p">(</span> <span class="n">Bolipuertos</span><span class="p">)</span>  <span class="n">S</span> <span class="n">A</span>                 <span class="mi">0000000021000165</span>                       <span class="n">BAN01340000000000000000013420201012000000500000000VES000000000000000bolipuertos</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>
-<span class="mi">031000165</span>             <span class="mi">000000500000000</span><span class="n">VES2020</span><span class="o">/</span><span class="mi">10</span><span class="o">/</span><span class="mi">12000000000000000</span>
-<span class="mi">02</span><span class="n">J002443731Dhl</span> <span class="n">Express</span> <span class="n">Aduanas</span> <span class="n">Venezuela</span> <span class="n">CA</span>                            <span class="mi">0000000031000164</span>                       <span class="n">BAN01740000000000000000017420201012000000350000000VES000000000000000dhl</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>
-<span class="mi">031000164</span>             <span class="mi">000000350000000</span><span class="n">VES2020</span><span class="o">/</span><span class="mi">10</span><span class="o">/</span><span class="mi">12000000000000000</span>
+<p>Se obtiene como resultado del proceso “<strong>Imprimir /Exportar</strong>”, un documento en formato “<strong>.txt</strong>” con los detalles de los pagos a ser realizados desde el banco bod a terceros en el mismo banco, así como también a terceros en otros bancos, el mismo se puede descargar en el enlace <a class="reference download internal" download="" href="../../../../../_downloads/c165ac73cddc4d179bb3d7603be2d4d6/Banco_Occidental_de_Descuento_BU_CA_1000040.txt"><code class="xref download docutils literal notranslate"><span class="pre">Archivo</span> <span class="pre">de</span> <span class="pre">Pago</span> <span class="pre">de</span> <span class="pre">Proveedores</span> <span class="pre">del</span> <span class="pre">Banco</span> <span class="pre">Occidental</span> <span class="pre">de</span> <span class="pre">Descuento</span></code></a> y visualizar de la siguiente manera:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">01</span><span class="n">PROVEEDORES</span>         <span class="n">J400788315000000000000008760010000402021072900000400000091202294087VES</span>
+<span class="mi">02</span><span class="n">J400788315ERP</span> <span class="n">Consultores</span> <span class="n">y</span> <span class="n">Asociados</span> <span class="n">CA</span>                              <span class="mi">00000000010002431000247</span>                <span class="n">CTA01160058752984563012011620210729000003300000000VES000000000000000erpya</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>
+<span class="mi">031000243</span>             <span class="mi">000001500000000</span><span class="n">VES2021</span><span class="o">/</span><span class="mi">07</span><span class="o">/</span><span class="mi">29000000000000000</span>
+<span class="mi">031000247</span>             <span class="mi">000001800000000</span><span class="n">VES2021</span><span class="o">/</span><span class="mi">07</span><span class="o">/</span><span class="mi">29000000000000000</span>
+<span class="mi">02</span><span class="n">J297599070Bolivariana</span> <span class="n">de</span> <span class="n">Puertos</span>  <span class="p">(</span> <span class="n">Bolipuertos</span><span class="p">)</span>  <span class="n">S</span> <span class="n">A</span>                 <span class="mi">0000000011000246</span>                       <span class="n">BAN01560000000085000096015620210729000087695204500VES000000000000000</span>                                        <span class="mi">02550000000</span>
+<span class="mi">031000246</span>             <span class="mi">000087695204500</span><span class="n">VES2021</span><span class="o">/</span><span class="mi">07</span><span class="o">/</span><span class="mi">29000000000000000</span>
+<span class="mi">02</span><span class="n">J002443731Dhl</span> <span class="n">Express</span> <span class="n">Aduanas</span> <span class="n">Venezuela</span> <span class="n">CA</span>                            <span class="mi">0000000021000244</span>                       <span class="n">BAN01050000002000000015010520210729000000184589587VES000000000000000</span>                                        <span class="mi">02550002000</span>
+<span class="mi">031000244</span>             <span class="mi">000000184589587</span><span class="n">VES2021</span><span class="o">/</span><span class="mi">07</span><span class="o">/</span><span class="mi">29000000000000000</span>
+<span class="mi">02</span><span class="n">V000000001Proveedor</span> <span class="n">Estndar</span>                                           <span class="mi">0000000031000245</span>                       <span class="n">BAN01020000000000000012010220210729000000022500000VES000000000000000proveedor</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>                   <span class="mi">02550000000</span>
+<span class="mi">031000245</span>             <span class="mi">000000022500000</span><span class="n">VES2021</span><span class="o">/</span><span class="mi">07</span><span class="o">/</span><span class="mi">29000000000000000</span>
 </pre></div>
 </div>
 <p><strong>Descripción del Archivo</strong></p>
-<p>La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento <a class="reference download internal" download="" href="../../../../../_downloads/dc3867b3a040072f381a71ec909a1823/Formato_Pagos_BOD.xlsx"><code class="xref download docutils literal notranslate"><span class="pre">Formato</span> <span class="pre">Archivo</span> <span class="pre">Ordenes</span> <span class="pre">de</span> <span class="pre">Pago</span></code></a>. De igual manera, se encuentra explicada en la tabla que contiene el presente documento, al inicio del mismo.</p>
+<p>La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento <a class="reference download internal" download="" href="../../../../../_downloads/6e8752a7a74143ebd639adc141b4b715/EN-CP-E-0036_SOLICITUD_MASIVA_DE_ORDENES_DE_PAGOS__TXT_.xlsm"><code class="xref download docutils literal notranslate"><span class="pre">Formato</span> <span class="pre">Archivo</span> <span class="pre">Ordenes</span> <span class="pre">de</span> <span class="pre">Pago</span></code></a>. De igual manera, se encuentra explicada en la tabla que contiene el presente documento, al inicio del mismo.</p>
+</div>
+</div>
+<div class="section" id="bod-nonima">
+<h2><strong>BOD NÓNIMA</strong><a class="headerlink" href="#bod-nonima" title="Permalink to this headline">¶</a></h2>
+<p><a class="reference external" href="http://erpya.com">ERPyA</a> agrega soporte al siguiente formato de nómina facilitado por el banco, dicha actualización fue liberada en la versión <a class="reference internal" href="../../../../../general/release-notes/rs-23-7.html#documento-version-23-7"><span class="std std-ref">rs-23.7</span></a> de ADempiere. Para mayor información de la misma, puede consultar la nota de liberación indicada anteriormente.</p>
+<div class="section" id="formato-archivo-beneficiarios-de-pago-del-cliente-al-banco">
+<h3><strong>Formato Archivo Beneficiarios de Pago (Del Cliente al Banco)</strong><a class="headerlink" href="#formato-archivo-beneficiarios-de-pago-del-cliente-al-banco" title="Permalink to this headline">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 1%" />
+<col style="width: 16%" />
+<col style="width: 6%" />
+<col style="width: 4%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 49%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" colspan="8"><p><strong>Registro de Detalle por cada Beneficiario TIPO=01. Longitud 250</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p><strong>Nombre del Campo</strong></p></td>
+<td><p><strong>Longitud</strong></p></td>
+<td><p><strong>Tipo</strong></p></td>
+<td><p><strong>Decimal</strong></p></td>
+<td><p><strong>Requerido</strong></p></td>
+<td><p><strong>Descripción/Valor</strong></p></td>
+<td><p><strong>Ejemplo</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>TIPO REGISTRO</p></td>
+<td><p>2</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Identificación de detalle. Pueden haber tantos registros de detalle como beneficiarios se requieran en el lote.</p></td>
+<td><p>01</p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>NUMERO DE CONTRATO</p></td>
+<td><p>17</p></td>
+<td><p>N</p></td>
+<td><p>0</p></td>
+<td><p>SI</p></td>
+<td><p>Numero de Contrato al cual el beneficiario se encotrará relacionado en el sistema</p></td>
+<td><p>900012345678911001</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>TIPO PERSONA (Beneficiario)</p></td>
+<td><p>1</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Calificador (V-Venezolano,E-Extranjero ó P-Pasaporte)  Para el caso de RIF: Calificador (J-Juridico, G-Gobierno)</p></td>
+<td rowspan="2"><p>J012345678     V006117681</p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>NUMERO RIF/CI  (Beneficiario)</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Número RIF/CI</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>NOMBRE DEL BENEFICIARIO</p></td>
+<td><p>60</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Nombre del Beneficiario del crédito. Obligatorio cuando el beneficiario no está registrado o si la modalidad de
+pago es CHQ o EFE</p></td>
+<td><p>Jose Herrera Cortez</p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>FORMA DE PAGO</p></td>
+<td><p>3</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Valores: CTA Cuenta mismo bancos - BAN cuenta otro bancos - CHQ Cheque de Geencia - EFE Efectivo - TAR  TC Visa
+/ Master Otros bancos - AME TC American Express-  V/M TC Visa / Master mismo Banco</p></td>
+<td><p>CTA</p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>NUMERO DE CUENTA ó TARJETA DE CRÉDITO</p></td>
+<td><p>20</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Numero de la cuenta a acreditar. Obligatorio para Abono en cuenta mismo banco, otros bancos y tarjetas de
+crédito</p></td>
+<td><p>01080265007712345678
+00000377003480751006
+00005466205600823018</p></td>
+</tr>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>CODIGO DE BANCO</p></td>
+<td><p>4</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Código del Banco</p></td>
+<td><p>0108</p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>STATUS BENEFICIARIO</p></td>
+<td><p>2</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Indica el estado del beneficiario “AC” Activo “IN” inactivo</p></td>
+<td><p>AC</p></td>
+</tr>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>MONTO MÁXIMO</p></td>
+<td><p>15</p></td>
+<td><p>N</p></td>
+<td><p>2</p></td>
+<td><p>Sí</p></td>
+<td><p>Monto máximo en una operación de pago</p></td>
+<td><p>1400000</p></td>
+</tr>
+<tr class="row-odd"><td><p>11</p></td>
+<td><p>MONEDA</p></td>
+<td><p>3</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Moneda actual disponible Bs.</p></td>
+<td><p>VEB</p></td>
+</tr>
+<tr class="row-even"><td><p>12</p></td>
+<td><p>EMAIL</p></td>
+<td><p>40</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>No</p></td>
+<td><p>Dirección email del beneficiario</p></td>
+<td><p><a class="reference external" href="mailto:joseh&#46;cortez&#37;&#52;&#48;gmail&#46;com">joseh<span>&#46;</span>cortez<span>&#64;</span>gmail<span>&#46;</span>com</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>13</p></td>
+<td><p>CELULAR
+FILLER</p></td>
+<td><p>11
+63</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>No
+Sí</p></td>
+<td><p>Teléfono celular para envío de SMS
+Uso futuro</p></td>
+<td><p>04141234567</p></td>
+</tr>
+<tr class="row-even"><td colspan="8"><p>Autorizados a retirar los pagos (opcional) TIPO=02. Longitud 250</p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>IDENTIFICADOR REGISTRO</p></td>
+<td><p>2</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Identificación de regisstro de Autorizados. Puede mas de un (1) autorizado por beneficiario.</p></td>
+<td><p>02</p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>TIPO PERSONA (Autorizado)</p></td>
+<td><p>1</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Calificador (V-Venezolano,E-Extranjero ó P-Pasaporte)  Para el caso de RIF: Calificador (J-Juridico, G-Gobierno)</p></td>
+<td rowspan="2"><p>J012345678     V006117681</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>RIF/CI (Autorizado)</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Número RIF/CI</p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>NOMBRE DEL AUTORIZADO</p></td>
+<td><p>60</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Nombre del Autorizado</p></td>
+<td><p>Juan Pedro Gimenez</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>STATUS DEL AUTORIZADO</p></td>
+<td><p>2</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>“Indica la acción a realizar en el estado del autorizado “AC” Activar “IN” inactivar</p></td>
+<td><p>AC</p></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>FILLER</p></td>
+<td><p>176</p></td>
+<td></td>
+<td></td>
+<td><p>Sí</p></td>
+<td><p>Uso futuro</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+</div>
+<div class="section" id="formato-archivo-beneficiarios-de-pago-del-banco-al-cliente">
+<h3><strong>Formato Archivo Beneficiarios de Pago (Del Banco al Cliente)</strong><a class="headerlink" href="#formato-archivo-beneficiarios-de-pago-del-banco-al-cliente" title="Permalink to this headline">¶</a></h3>
+<table class="docutils align-default">
+<colgroup>
+<col style="width: 1%" />
+<col style="width: 16%" />
+<col style="width: 6%" />
+<col style="width: 4%" />
+<col style="width: 5%" />
+<col style="width: 7%" />
+<col style="width: 49%" />
+<col style="width: 12%" />
+</colgroup>
+<thead>
+<tr class="row-odd"><th class="head" colspan="8"><p><strong>Registro de Detalle por cada Beneficiario TIPO=01. Longitud 250</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td></td>
+<td><p><strong>Nombre del Campo</strong></p></td>
+<td><p><strong>Longitud</strong></p></td>
+<td><p><strong>Tipo</strong></p></td>
+<td><p><strong>Decimal</strong></p></td>
+<td><p><strong>Requerido</strong></p></td>
+<td><p><strong>Descripción/Valor</strong></p></td>
+<td><p><strong>Ejemplo</strong></p></td>
+</tr>
+<tr class="row-odd"><td><p>1</p></td>
+<td><p>TIPO REGISTRO</p></td>
+<td><p>2</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Identificación de detalle. Pueden haber tantos registros de detalle como beneficiarios se requieran en el lote.</p></td>
+<td><p>01</p></td>
+</tr>
+<tr class="row-even"><td><p>2</p></td>
+<td><p>NUMERO DE CONTRATO</p></td>
+<td><p>17</p></td>
+<td><p>N</p></td>
+<td><p>0</p></td>
+<td><p>SI</p></td>
+<td><p>Numero de Contrato al cual el beneficiario se encotrará relacionado en el sistema</p></td>
+<td><p>900012345678911001</p></td>
+</tr>
+<tr class="row-odd"><td><p>3</p></td>
+<td><p>TIPO PERSONA (Beneficiario)</p></td>
+<td><p>1</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Calificador (V-Venezolano,E-Extranjero ó P-Pasaporte)  Para el caso de RIF: Calificador (J-Juridico, G-Gobierno)</p></td>
+<td rowspan="2"><p>J012345678     V006117681</p></td>
+</tr>
+<tr class="row-even"><td><p>4</p></td>
+<td><p>NUMERO RIF/CI (Beneficiario)</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Número RIF/CI</p></td>
+</tr>
+<tr class="row-odd"><td><p>5</p></td>
+<td><p>NOMBRE DEL BENEFICIARIO</p></td>
+<td><p>60</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Nombre del Beneficiario del crédito. Obligatorio cuando el beneficiario no está registrado o si la modalidad de
+pago es CHQ o EFE</p></td>
+<td><p>Jose Herrera Cortez</p></td>
+</tr>
+<tr class="row-even"><td><p>6</p></td>
+<td><p>FORMA DE PAGO</p></td>
+<td><p>3</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Valores: CTA Cuenta mismo bancos - BAN cuenta otro bancos - CHQ Cheque de Geencia - EFE Efectivo - TAR  TC Visa
+/ Master Otros bancos - AME TC American Express-  V/M TC Visa / Master mismo Banco</p></td>
+<td><p>123456789</p></td>
+</tr>
+<tr class="row-odd"><td><p>7</p></td>
+<td><p>NUMERO DE CUENTA ó TARJETA DE CRÉDITO</p></td>
+<td><p>20</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Numero de la cuenta a acreditar. Obligatorio para Abono en cuenta mismo banco, otros bancos y tarjetas de
+crédito.</p></td>
+<td><p>01080265007712345678
+00000377003480751006
+00005466205600823018</p></td>
+</tr>
+<tr class="row-even"><td><p>8</p></td>
+<td><p>CODIGO DE BANCO</p></td>
+<td><p>4</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Código del Banco</p></td>
+<td><p>0108</p></td>
+</tr>
+<tr class="row-odd"><td><p>9</p></td>
+<td><p>STATUS BENEFICIARIO</p></td>
+<td><p>2</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Indica el estado del beneficiario “AC” Activo “IN” inactivo</p></td>
+<td><p>AC</p></td>
+</tr>
+<tr class="row-even"><td><p>10</p></td>
+<td><p>MONTO MÁXIMO</p></td>
+<td><p>15</p></td>
+<td><p>N</p></td>
+<td><p>2</p></td>
+<td><p>Sí</p></td>
+<td><p>Monto máximo en una operación de pago</p></td>
+<td><p>1400000</p></td>
+</tr>
+<tr class="row-odd"><td><p>11</p></td>
+<td><p>MONEDA</p></td>
+<td><p>3</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Moneda actual disponible Bs.</p></td>
+<td><p>VEB</p></td>
+</tr>
+<tr class="row-even"><td><p>12</p></td>
+<td><p>EMAIL</p></td>
+<td><p>40</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>No</p></td>
+<td><p>Dirección email del beneficiario</p></td>
+<td><p><a class="reference external" href="mailto:joseh&#46;cortez&#37;&#52;&#48;gmail&#46;com">joseh<span>&#46;</span>cortez<span>&#64;</span>gmail<span>&#46;</span>com</a></p></td>
+</tr>
+<tr class="row-odd"><td><p>13</p></td>
+<td><p>CELULAR</p></td>
+<td><p>11</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>No</p></td>
+<td><p>Teléfono celular para envío de SMS</p></td>
+<td><p>04141234567</p></td>
+</tr>
+<tr class="row-even"><td><p>14</p></td>
+<td><p>COD RESPUESTA</p></td>
+<td><p>2</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td></td>
+<td><p>Será aportado por el Banco</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>15</p></td>
+<td><p>DESCRIPCION</p></td>
+<td><p>30</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td></td>
+<td><p>Será aportado por el Banco</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td><p>16</p></td>
+<td><p>COD RECHAZO</p></td>
+<td><p>2</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td></td>
+<td><p>Será aportado por el Banco</p></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td><p>17</p></td>
+<td><p>DESCRIPCION RECHAZO</p></td>
+<td><p>30</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td></td>
+<td><p>Será aportado por el Banco</p></td>
+<td></td>
+</tr>
+<tr class="row-even"><td></td>
+<td><p>FILLER</p></td>
+<td><p>31</p></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+<tr class="row-odd"><td colspan="8"><p>Autorizados a retirar los pagos (opcional) TIPO=02. Longitud 250</p></td>
+</tr>
+<tr class="row-even"><td><p>1</p></td>
+<td><p>IDENTIFICADOR REGISTRO</p></td>
+<td><p>2</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Identificación de regisstro de Autorizados. Puede mas de un (1) autorizado por beneficiario.</p></td>
+<td><p>02</p></td>
+</tr>
+<tr class="row-odd"><td><p>2</p></td>
+<td><p>TIPO PERSONA (Autorizado)</p></td>
+<td><p>1</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Calificador (V-Venezolano,E-Extranjero ó P-Pasaporte)  Para el caso de RIF: Calificador (J-Juridico, G-Gobierno)</p></td>
+<td rowspan="2"><p>J012345678     V006117681</p></td>
+</tr>
+<tr class="row-even"><td><p>3</p></td>
+<td><p>NUMERO RIF/CI (Autorizado)</p></td>
+<td><p>9</p></td>
+<td><p>N</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Número RIF/CI</p></td>
+</tr>
+<tr class="row-odd"><td><p>4</p></td>
+<td><p>NOMBRE DEL AUTORIZADO</p></td>
+<td><p>60</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Nombre del Autorizado</p></td>
+<td><p>Juan Pedro Gimenez</p></td>
+</tr>
+<tr class="row-even"><td><p>5</p></td>
+<td><p>STATUS DEL AUTORIZADO</p></td>
+<td><p>2</p></td>
+<td><p>A</p></td>
+<td><p>N/A</p></td>
+<td><p>Sí</p></td>
+<td><p>Indica la acción. “AC” Activar “IN” Inactivar “IN” inactivo</p></td>
+<td><p>AC</p></td>
+</tr>
+<tr class="row-odd"><td></td>
+<td><p>FILLER</p></td>
+<td><p>176</p></td>
+<td></td>
+<td></td>
+<td><p>Sí</p></td>
+<td><p>Uso futuro</p></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<ul class="simple">
+<li><p>Debe ser un archivo de texto.</p></li>
+<li><p>Los campos numéricos(N), deben ir alineados a la derecha y completados con ceros a la izquierda.</p></li>
+<li><p>Los campos alfanuméricos(A), deben ir alineados a la izquierda.</p></li>
+<li><dl class="simple">
+<dt>Caracteres y dígitos permitidos:</dt><dd><ul>
+<li><p>Alfanuméricos(A):  /abcdefghijklmnopqrstuvwxyz ABCDEFGHIJKLMNOPQRSTUVWXYZ.</p></li>
+<li><p>Numéricos(N):  0123456789.</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Cada registro debe terminar con CR(Carrige Return), LF(Line Feed).</p></li>
+</ul>
+</div>
+</div>
+<div class="section" id="id1">
+<h3><strong>Archivo para Pagos</strong><a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p>Al ejecutar el proceso de selección de pago de la nómina quincenal “<strong>NQ-13</strong>” procesada en ADempiere, con los siguientes empleados:</p>
+<ul class="simple">
+<li><p>Socio del Negocio “<strong>Empleado Estándar</strong>”, con cédula de identidad “<strong>000085007</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+<li><p>Socio del Negocio “<strong>E.R.P. Consultores y Asociados, C.A.</strong>”, con cédula de identidad “<strong>J400788315</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+<li><p>Socio del Negocio “<strong>Empleado</strong>”, con cédula de identidad “<strong>0000002</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+<li><p>Socio del Negocio “<strong>Empleado Cinco</strong>”, con cédula de identidad “<strong>0000003</strong>”, perteneciente a la nómina “<strong>Quincenal</strong>”.</p></li>
+</ul>
+<p>Se obtiene como resultado del proceso “<strong>Imprimir /Exportar</strong>”, un documento en formato “<strong>.txt</strong>” con los detalles de los pagos a ser realizados desde el banco exterior a terceros en el mismo banco, así como también a terceros en otros bancos. El mismo se puede descargar en el enlace <a class="reference download internal" download="" href="../../../../../_downloads/b024a9688106aef89e97247dd4060fc2/Banco_Occidental_de_Descuento_BU_CA_1000039.txt"><code class="xref download docutils literal notranslate"><span class="pre">Archivo</span> <span class="pre">de</span> <span class="pre">Pago</span> <span class="pre">de</span> <span class="pre">Nómina</span> <span class="pre">del</span> <span class="pre">Banco</span> <span class="pre">Occidental</span> <span class="pre">de</span> <span class="pre">Descuento</span></code></a> y visualizar de la siguiente manera:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span><span class="mi">01</span><span class="n">NOMINA</span>              <span class="n">J400788315000000000000008760010000392021073000000400000000912335940VES</span>
+<span class="mi">020000085007</span><span class="n">Empleado</span> <span class="n">Estndar</span>                                            <span class="mi">000000000</span><span class="n">NQ13</span>                          <span class="n">BAN01740000005000000089017420210730000000156637539VES000000000000000</span>
+<span class="mi">03</span><span class="n">NQ</span><span class="o">-</span><span class="mi">13</span>               <span class="mi">000000156637539</span><span class="n">VES2021</span><span class="o">/</span><span class="mi">07</span><span class="o">/</span><span class="mi">30000000000000000</span>
+<span class="mi">020000000002</span><span class="n">Empleado</span>                                                    <span class="mi">000000001</span><span class="n">NQ13</span>                          <span class="n">BAN01028619579265659568010220210730000000015197723VES000000000000000empleado</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>
+<span class="mi">03</span><span class="n">NQ</span><span class="o">-</span><span class="mi">13</span>               <span class="mi">000000015197723</span><span class="n">VES2021</span><span class="o">/</span><span class="mi">07</span><span class="o">/</span><span class="mi">30000000000000000</span>
+<span class="mi">02</span><span class="n">J400788315ERP</span> <span class="n">Consultores</span> <span class="n">y</span> <span class="n">Asociados</span> <span class="n">CA</span>                              <span class="mi">000000002</span><span class="n">NQ13</span>                          <span class="n">CTA01160058752984563012011620210730000000425623139VES000000000000000erpya</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>
+<span class="mi">03</span><span class="n">NQ</span><span class="o">-</span><span class="mi">13</span>               <span class="mi">000000425623139</span><span class="n">VES2021</span><span class="o">/</span><span class="mi">07</span><span class="o">/</span><span class="mi">30000000000000000</span>
+<span class="mi">020000000003</span><span class="n">Empleado</span> <span class="n">Cinco</span>                                              <span class="mi">000000003</span><span class="n">NQ13</span>                          <span class="n">BAN01345986828692910058013420210730000000314877539VES000000000000000empleadociinco</span><span class="nd">@ejemplo</span><span class="o">.</span><span class="n">com</span>
+<span class="mi">03</span><span class="n">NQ</span><span class="o">-</span><span class="mi">13</span>               <span class="mi">000000314877539</span><span class="n">VES2021</span><span class="o">/</span><span class="mi">07</span><span class="o">/</span><span class="mi">30000000000000000</span>
+</pre></div>
+</div>
+<p><strong>Descripción del Archivo</strong></p>
+<p>La descripción del archivo anteriormente generado por el pago, se encuentra explicada en el documento <a class="reference download internal" download="" href="../../../../../_downloads/6e8752a7a74143ebd639adc141b4b715/EN-CP-E-0036_SOLICITUD_MASIVA_DE_ORDENES_DE_PAGOS__TXT_.xlsm"><code class="xref download docutils literal notranslate"><span class="pre">Formato</span> <span class="pre">Archivo</span> <span class="pre">Ordenes</span> <span class="pre">de</span> <span class="pre">Pago</span></code></a>. De igual manera, se encuentra explicada en la tabla que contiene el presente documento, al inicio del mismo.</p>
+</div>
 </div>
 </div>
 
