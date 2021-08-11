@@ -1,9 +1,9 @@
 .. _ERPyA: http://erpya.com
 .. _src/ecommerce:
 
-================================================
-**Configuración del e-Commerce desde ADempiere**
-================================================
+==============
+**e-Commerce**
+==============
 
 e-Commerce es la solución tecnológica utilizada por los comercios actuales para llevar sus productos y/o servicios más allá de sus fronteras locales, básicamente consiste en la compra y venta de productos o de servicios a través de internet.
 
@@ -118,8 +118,21 @@ A su vez, cada categoría hija o grupo de productos puede esta subdividida y se 
 Una vez identificadas las categorías padres e hijas se procede a crearlas en ADempiere. Para conocer dicho procedimiento, puede consultar el documento de configuración que se indica a continuación.
 
 .. toctree::
+    :caption: Configuración del e-Commerce desde ADempiere
     :maxdepth: 2
 
     ecommerce-product-configuration-from-adempiere
     ecommerce-category-configuration-from-adempiere
     delete-or-inactivate-products-in-adempiere-for-e-commerce
+
+
+De igual manera, puede consultar los siguientes documentos para conocer el procedimiento de configuración del tema para el e-Commerce
+
+.. toctree::
+    :caption: Configuración del Tema del e-Commerce
+    :maxdepth: 2
+
+    default-theme
+    images-default-theme
+    custom-theme
+    images-custom-theme
