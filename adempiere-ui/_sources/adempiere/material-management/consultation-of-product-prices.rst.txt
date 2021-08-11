@@ -8,7 +8,7 @@
 **Consulta de Precios de Productos**
 ====================================
 
-ADempiere permite que sea realizada una búsqueda de precios de productos a través del código de barra del mismo, en la ventana "**Consulta de Precios**". Para ello, fue realizada la creación y configuración del usuario "**visor**", con la finalidad de que el mismo pueda realizar una consulta rápida de los productos con sus respectivos precios. Este usuario se encuentra configurado con moneda "**USD**", para reflejar el precio del producto en dólares y su monto convertido en bolívares, según la tasa de cambio del día. 
+ADempiere permite que sea realizada una búsqueda de precios de productos a través del código de barra del mismo, en la ventana "**Consulta de Precios**". Para ello, fue realizada la creación y configuración del usuario "**Visor**", con la finalidad de que el mismo pueda realizar una consulta rápida de los productos con sus respectivos precios. Este usuario se encuentra configurado con moneda "**USD**", para reflejar el precio del producto en dólares y su monto convertido en bolívares, según la tasa de cambio del día. 
 
 El presente material elaborado por `ERPyA`_, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para consultar los precios de los productos registrados en ADempiere.
 
