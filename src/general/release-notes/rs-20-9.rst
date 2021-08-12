@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-05-18
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-21.1
@@ -28,14 +28,11 @@
 - LVE: 1.3.3
 - Performance-Analysis: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Consigned-Material: Add new functionality based on consignement material report: Add Consignement Material Report detail, Add support to default drop ship for Purchase Order and Inventory Internal Use, Add support to Smart Browser of Create from Inventory Internal Use on Invoice (Vendor)
 
-
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Se deben aplicar los siguientes XMLs en el proyecto **Consigned-Material**:
 
@@ -53,15 +50,13 @@ Para los reportes se deben importar los siguientes:
 - Productos_por_Relacionar.arxml
 - Productos_Relacionados_al_Proveedor.arxml
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
 - Se agrega reporte de **Detalle de Productos en consignación**
 - Se agrega soporte para realizar inventarios de uso interno con productos en consignación
 - Se agrega check de **Entrega Directa** en el tipo de documento de **Orden de Compra** e **Inventario de Uso Interno** para predeterminar el check en el documento
 - Se agrega Visor para crear líneas de documento por pagar desde **Inventario de Uso Interno**
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
 - Al anular una orden de compra se elimina de manera automática la referencia con las ventas en consignación
