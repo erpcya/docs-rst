@@ -1,0 +1,67 @@
+.. _documento/versión-21-2:
+
+**rs-21.2**
+===========
+
+**Fecha de Liberación:** 2021-05-24
+
+**Soporte a versiones:**
+------------------------
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-21.3
+- Consigned-Material: 1.2.0
+- Exchange-Operation-System: 1.1.5
+- Cash-Management: 1.0.4
+- Currency-Convert-Documents: 1.0.5
+- Farmer-Assistance-Program: 1.1.6
+- RethinkDB-Replicator-Client: 1.1.1
+- Third-Party-Access: 1.0.2
+- FiscalPrinter: 1.3.2
+- RawMaterialReceipt: 1.0.5
+- Sales-Force-Management: 1.0.2
+- Delivery-Management-Service: 1.0.1
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.8
+- Additional-Reports: 1.0.2
+- Migration-Tools: 1.0.1
+- LVE: 1.3.3
+- Performance-Analysis: 1.0.2
+
+**Detalle Técnico:**
+--------------------
+
+- CST-STD: 
+
+  - Add Third Party Access support
+
+- Third-Party-Access: 
+
+  - Fixed error saving record access for business partner
+
+
+**Requerimientos**
+------------------
+
+Se deben aplicar los siguientes XMLs en el proyecto:
+
+**Cash-Management**
+
+  - 07090_Add_Validation_Rule_for_Deposit.xml
+
+- **LVE**
+
+  - 0102_Mostrar_Tipo_de_Conversion.xml.xml
+
+- **Third-Party-Access**
+
+  - 05840_Add_Entity_Type_for_Third_Party_Access.xml
+  - 05850_Add_Third_Party_Access_Functionality.xml
+  - 05860_Add_Setup_for_Third_Party_Access.xml
+
+
+**Correcciones**
+----------------
+
+- Se permite ver siempre el tipo de conversión en todos los documentos.
+- Se correige problemas con acceso de tercero por usuario
