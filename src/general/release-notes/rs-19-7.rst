@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-04-09
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-20.5
@@ -27,13 +27,11 @@
 - Migration-Tools: 1.0.1
 - LVE: 1.2.9
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Farmer-Assistance-Program: Add Negotiated conditioned Weight as Smart Browser
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Aplicar los siguientes XML's:
 
@@ -45,11 +43,10 @@ Aplicar los siguientes XML's:
 - 07770_Add_Negotiated_Calculation.xml
 - 07780_Add_SB_for_Conditioning_Calculation.xml
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
-- **Mejoras**
+.. data:: Mejoras:
 
- - Se agrega nuevo visor para el cálculo personalizado de registro de peso
- - Se agrega entidad para calcular de manera personalizada los registros de peso
- - Se agrega el peso negociado en el registro de peso
+- Se agrega nuevo visor para el cálculo personalizado de registro de peso
+- Se agrega entidad para calcular de manera personalizada los registros de peso
+- Se agrega el peso negociado en el registro de peso
