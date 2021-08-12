@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-05-25
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-21.7
@@ -28,19 +28,16 @@
 - LVE: 1.3.3
 - Performance-Analysis: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD: 
 
   - Fixed error with Product Index
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Sólo montar los cambios del binario
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
   - Se corrige problemas con tipos de datos en el catálogo de productos asociado al Elastic Search
