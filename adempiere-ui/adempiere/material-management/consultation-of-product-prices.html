@@ -200,32 +200,41 @@
             
   <div class="section" id="consulta-de-precios-de-productos">
 <span id="documento-consulta-precios-productos"></span><h1><span class="section-number">3.2. </span><strong>Consulta de Precios de Productos</strong><a class="headerlink" href="#consulta-de-precios-de-productos" title="Permalink to this headline">¶</a></h1>
-<p>ADempiere permite que sea realizada una búsqueda de precios de productos a través del código de barra del mismo, en la ventana “<strong>Consulta de Precios</strong>”. Para ello, fue realizada la creación y configuración del usuario “<strong>Visor</strong>”, con la finalidad de que el mismo pueda realizar una consulta rápida de los productos con sus respectivos precios. Este usuario se encuentra configurado con moneda “<strong>USD</strong>”, para reflejar el precio del producto en dólares y su monto convertido en bolívares, según la tasa de cambio del día.</p>
+<p>ADempiere permite que sea realizada una búsqueda de precios de productos a través del código de barra del mismo, en la ventana “<strong>Consultar Precio</strong>”. Para ello, fue realizada la creación y configuración del usuario “<strong>Visor</strong>”, con la finalidad de que el mismo pueda realizar una consulta rápida de los productos con sus respectivos precios.</p>
+<p>El visor de precios se puede configurar en moneda “<strong>VES</strong>”, para reflejar el precio del producto en bolívares y su monto convertido en dólares, según la tasa de cambio del día. También puede ser configurado con moneda “<strong>USD</strong>”, para reflejar el precio del producto en dólares y su monto convertido en bolívares, según la tasa de cambio del día.</p>
 <p>El presente material elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>, pretende ofrecerle una explicación eficiente a nuestros clientes del procedimiento a seguir para consultar los precios de los productos registrados en ADempiere.</p>
-<ol class="arabic">
-<li><p>Ubique en el menú de ADempiere, el formulario “<strong>Consulta de Precios</strong>”.</p>
+<p>Ubique en el menú de ADempiere, el formulario “<strong>Consulta de Precios</strong>”.</p>
 <blockquote>
 <div><p><img alt="menú de consulta de producto" src="../../_images/product-inquiry-menu.png" /></p>
 <p>Imagen 1. Menú de ADempiere</p>
 </div></blockquote>
-</li>
-<li><p>Podrá visualizar la ventana del formulario “<strong>Consulta de Precios</strong>”.</p>
+<p>Podrá visualizar la ventana del formulario “<strong>Consulta de Precios</strong>”.</p>
 <blockquote>
 <div><p><img alt="ventana del formulario consulta de precios" src="../../_images/price-inquiry-form-window.png" /></p>
 <p>Imagen 2. Ventana del Formulario Consulta de Precios</p>
 </div></blockquote>
-</li>
-<li><p>Ubique el código de barra del producto en el lector de código, para que el mismo pueda consultar y reflejar la información del producto.</p>
+<p>Ingrese al formulario el código del producto que requiere consultar, esta información se carga al formulario con ayuda del lector de código de barra, para que el mismo pueda reflejar la información del producto. Podrá visualizar dicha información del producto en la que se detallan los siguientes campos:</p>
 <blockquote>
-<div><p><img alt="consulta de precios" src="../../_images/price-checking.png" /></p>
-<p>Imagen 3. Ventana Consulta de Precios</p>
+<div><ul class="simple">
+<li><p>“<strong>Nombre</strong>”: Muestra la información ingresada en el campo “<strong>Nombre</strong>” de la ventana “<strong>Producto</strong>”, del registro del producto donde se encuentre asociado el código ingresado.</p></li>
+<li><p>“<strong>Descripción</strong>”: Muestra la información ingresada en el campo “<strong>Descripción</strong>”, de la ventana “<strong>Producto</strong>”, del registro del producto donde se encuentre asociado el código ingresado.</p></li>
+<li><p>“<strong>Precio Base</strong>”: Muestra el precio unitario del registro del producto donde se encuentre asociado el código ingresado.</p></li>
+<li><p>“<strong>Impuesto</strong>”: Muestra el valor de impuesto establecido en el campo “<strong>Categoría de Impuesto</strong>” de la ventana “<strong>Producto</strong>”, del registro del producto consultado. Así como el monto correspondiente a dicho valor de impuesto.</p></li>
+<li><p>“<strong>Monto Total</strong>”: Muestra el monto del producto consultado, en el que se incluye el precio unitario más el impuesto del mismo.</p></li>
+<li><p>“<strong>Monto Total Convertido</strong>”: Muestra el monto total del producto consultado, convertido en la moneda establecida al momento de la configuración del visor.</p></li>
+</ul>
 <div class="admonition note">
 <p class="admonition-title">Note</p>
-<p>Este formulario permite visualizar el nombre del producto, su precio sin impuesto en el campo “<strong>Precio Base</strong>” y el total del impuesto del mismo en el campo “<strong>IVA 16% (Ingreso)</strong>”, Adicional a ello, muestra el monto total del producto en la moneda base y su monto convertido según la tasa de cambio disponible para la organización.</p>
+<p>El formulario “<strong>Consulta de Precios</strong>” se puede configurar en moneda “<strong>VES</strong>”, para reflejar el precio del producto en bolívares y su monto convertido en dólares, según la tasa de cambio del día disponible para la organización. También puede ser configurado con moneda “<strong>USD</strong>”, para reflejar el precio del producto en dólares y su monto convertido en bolívares, según la tasa de cambio del día disponible para la organización.</p>
 </div>
+<p><img alt="consulta de precios" src="../../_images/price-checking.png" /></p>
+<p>Imagen 3. Ventana Consulta de Precios</p>
 </div></blockquote>
-</li>
-</ol>
+<p>Para desactivar el modo “<strong>Consulta de Precios</strong>” se debe seleccionar el icono de ADempiere, el mismo se encuentra ubicado en la parte superior derecha de la ventana. Posteriormente, se debe acceder al perfil del usuario seleccionando el nombre de la compañía. Una vez ubicado en la ventana “<strong>Perfil</strong>”, se debe seleccionar la pestaña “<strong>Configuración</strong>” y activar los check “<strong>Habilitar Tags-View</strong>”, y “<strong>Mostrar Menu</strong>”. <a class="reference external" href="http://erpya.com">ERPyA</a>, presenta el siguiente gif que indica como <code class="xref download docutils literal notranslate"><span class="pre">Desactivar</span> <span class="pre">Correctamente</span> <span class="pre">el</span> <span class="pre">Modo</span> <span class="pre">Consulta</span> <span class="pre">de</span> <span class="pre">Precios</span></code></p>
+<div class="figure align-default">
+<img alt="../../_images/disable-price-consultant-in-desktop-version.gif" src="../../_images/disable-price-consultant-in-desktop-version.gif" />
+</div>
+<p>Video 1. Desactivar el Modo Consulta de Precios</p>
 </div>
 
 
