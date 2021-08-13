@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-05-24
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-21.5
@@ -28,23 +28,20 @@
 - LVE: 1.3.3
 - Performance-Analysis: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD: 
 
-  - Fixed error with replication for embedded documents
-  - Fixed error with web-store for sending data from ADempiere to Elastic Search
-  - Fixed error with Requisition PO Create Browser for document type
+    - Fixed error with replication for embedded documents
+    - Fixed error with web-store for sending data from ADempiere to Elastic Search
+    - Fixed error with Requisition PO Create Browser for document type
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Sólo montar los cambios del binario
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
-  - Se corrige errores con documentos embebidos que se procesaban sin esperar que su documento padre se procesara primero
-  - Se corrige error con envío de tipos de datos a ElasticSearch desde ADempiere para la tienda web
-  - Se corrige problemas con el tipo de documento seleccionado en el visor que permite crear Órdenes de Compras desde Requisisiones.
+    - Se corrige errores con documentos embebidos que se procesaban sin esperar que su documento padre se procesara primero
+    - Se corrige error con envío de tipos de datos a ElasticSearch desde ADempiere para la tienda web
+    - Se corrige problemas con el tipo de documento seleccionado en el visor que permite crear Órdenes de Compras desde Requisisiones.

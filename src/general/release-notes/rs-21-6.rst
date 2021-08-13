@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-05-25
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-21.7
@@ -28,23 +28,21 @@
 - LVE: 1.3.4
 - Performance-Analysis: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - LVE: 
 
-  - Fixed error with validation for business partner value
+    - Fixed error with validation for business partner value
 
 - RethinkDB Replicator
-  - Fix error with batch error
 
-**Requerimientos**
-------------------
+    - Fix error with batch error
+
+.. data:: Requerimientos:
 
 Sólo montar los cambios del binario
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
-  - Se corrige validación de cédula y RIF para el Socio de Negocio
-  - Se corrige validación de cola de replicación
+    - Se corrige validación de cédula y RIF para el Socio de Negocio
+    - Se corrige validación de cola de replicación

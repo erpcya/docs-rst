@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-07-30
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-23.4
@@ -32,17 +32,14 @@
 - Point-Of-Sales-Improvements: 1.0.4
 - Kafka-Replicator-Client: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Localización Venezuela: Se agrega soporte a formato de nómina para Banco BOD
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 - Aplicar binario de la aplicación
 
-**Mejoras**
-----------------
+.. data:: Mejoras:
 
-  -  Se agrega soporte a formato de nómina para Banco BOD
+    -  Se agrega soporte a formato de nómina para Banco BOD

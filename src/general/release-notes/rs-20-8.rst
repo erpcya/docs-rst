@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-05-12
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-21.1
@@ -28,12 +28,10 @@
 - LVE: 1.3.3
 - Performance-Analysis: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - LVE: Soporte a Asignación Automatica de Nota de Débito
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
 - Se corrige proceso de autoasignación de Nota de Débito con Factura

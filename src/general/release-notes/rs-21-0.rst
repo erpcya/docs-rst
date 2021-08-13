@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-05-18
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-21.2
@@ -28,8 +28,7 @@
 - LVE: 1.3.3
 - Performance-Analysis: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD: 
 
@@ -37,9 +36,7 @@
   - Improve Standard Request Type: https://github.com/adempiere/adempiere/pull/3453
   - Fixed wrong search for concept acct: https://github.com/adempiere/adempiere/pull/3456
 
-
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Se deben aplicar los siguientes XMLs en el proyecto **CST-STD**:
 
@@ -52,14 +49,12 @@ Para los reportes se deben importar los siguientes:
 - Productos_por_Relacionar.arxml
 - Productos_Relacionados_al_Proveedor.arxml
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
 - Se agregan columnas de referencia en el reporte detalle de solicitud con respuesta.
 - Se agrega el **Asunto** por defecto en las solicitudes estándares.
 - Se agrega una función para ver el histórico de salario en función de la fecha y proceso de nomina.
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
 - Al contabilizar la nómina ya se puede configurar el concepto de retención para que busque su contabilidad en función de la nómina que se está procesando y no la nómina del empleado.

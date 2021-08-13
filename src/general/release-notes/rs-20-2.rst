@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-04-20
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-21.0
@@ -28,17 +28,14 @@
 - LVE: 1.2.9
 - Performance-Analysis: 1.0.1
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Performance-Analysis: Se cambia la creación de los Tipos de Documentos Base desde el setup
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
-- **Correcciones**
+.. data:: Correcciones:
 
- - Se corrige la forma de creación de los Tipos de Documentos Base en Setup
+- Se corrige la forma de creación de los Tipos de Documentos Base en Setup

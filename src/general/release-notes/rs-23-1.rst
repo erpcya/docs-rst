@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-06-17
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-23.1
@@ -31,20 +31,17 @@
 - Notification-Queue: 1.0.4
 - Point-Of-Sales-Improvements: 1.0.3
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD: Fixed error with include access for depending records
 - Exchange-Operation-System: Add reference to CurrencyConverDocument library for don't do nothing when is negotiated conversion rate
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Aplicar binario de la aplicación
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
-  - Se agrega soporte a valores nulos en acceso a datos con entidades dependientes
-  - Se corrige problemas con mezcla de datos a excluir con datos a incluir en acceso a datos de rol
-  - Se agrega compatibilidad entre conversión diaria y tasas negociadas
+    - Se agrega soporte a valores nulos en acceso a datos con entidades dependientes
+    - Se corrige problemas con mezcla de datos a excluir con datos a incluir en acceso a datos de rol
+    - Se agrega compatibilidad entre conversión diaria y tasas negociadas

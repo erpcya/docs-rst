@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-06-10
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-23.0
@@ -31,24 +31,21 @@
 - Notification-Queue: 1.0.4
 - Point-Of-Sales-Improvements: 1.0.3
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Point-Of-Sales-Improvements:
 
-  - Add Allocated tender type for POS
+    - Add Allocated tender type for POS
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Aplicar los XML's de Point-Of-Sales-Improvements:
- 
-  - 07840_Add_Allocation_for_POS.xml
-  - 07850_Add_display_Currency_for_POS.xml
 
-**Mejoras**
-----------------
+    - 07840_Add_Allocation_for_POS.xml
+    - 07850_Add_display_Currency_for_POS.xml
 
-  - Se agrega Pestaña para configurar los métodos de pago en el POS
-  - Se agrega Pestaña para configurar los almacenes en el POS
-  - Se agrega Pestaña para configurar las listas de precios en el POS
+.. data:: Mejoras:
+
+    - Se agrega Pestaña para configurar los métodos de pago en el POS
+    - Se agrega Pestaña para configurar los almacenes en el POS
+    - Se agrega Pestaña para configurar las listas de precios en el POS

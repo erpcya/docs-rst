@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-06-01
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-22.4
@@ -28,19 +28,16 @@
 - LVE: 1.3.4
 - Performance-Analysis: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD: 
 
-  - Add security access for null values on role
+    - Add security access for null values on role
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Sólo aplicar cambios del binario
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
-  - Acceso a datos con entidades dependientes no permitía visualizar un registro con referencia vacía cuando el acceso era configurado de manera incluyente.
+    - Acceso a datos con entidades dependientes no permitía visualizar un registro con referencia vacía cuando el acceso era configurado de manera incluyente.

@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-06-04
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-22.8
@@ -30,19 +30,16 @@
 - Queue-Manager: 1.0.0
 - Point-Of-Sales-Improvements: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD:
 
-  - Fixed error with request type model validator
+    - Fixed error with request type model validator
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Solo binario de la aplicación
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
-  - Problemas con compañía en validador de modelo de solicitudes estándares
+    - Problemas con compañía en validador de modelo de solicitudes estándares

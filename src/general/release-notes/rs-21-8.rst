@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-05-28
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-22.1
@@ -28,34 +28,30 @@
 - LVE: 1.3.4
 - Performance-Analysis: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD: 
 
-  - Bad reference for price list create process: https://github.com/adempiere/adempiere/pull/3481
+    - Bad reference for price list create process: https://github.com/adempiere/adempiere/pull/3481
 
 - Consigned-Material:
 
-  - Fixed error with currency type as null for invoice
-  - Fixed error with conversion based on price list instead price entered of purchase order vs invoice
+    - Fixed error with currency type as null for invoice
+    - Fixed error with conversion based on price list instead price entered of purchase order vs invoice
 
 - Withholding:
 
-  - Se agrega soporte a Tipo de Conversion en SmartBrowse de Generar Retenciones
+    - Se agrega soporte a Tipo de Conversion en SmartBrowse de Generar Retenciones
 
-
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Aplicar los XML's:
 
 - Withholding: 043_Add_Currency_Type_Filter_Withholding_Generate.xml
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
-  - Mala referencia a columna de precio en la pestaña Compra de la ventana Producto. Al calcular el precio de venta basado en las compras de producto se tomaba como precio base el **Precio de Lista** en lugar de tomar el campo **Precio de Compra**.
-  - Problema al guardar la orden de compra o venta se borra el tipo de conversión
-  - Corrección de precio de venta en documento por pagar cuando el mismo tiene una moneda distinta a la de la orden de compra: el problema era que tomaba como precio el precio de lista y no el colocado
-  - Retención generada sin tipo de conversión: Al generar una retención no se establecía el tipo de conversión del documento original
+    - Mala referencia a columna de precio en la pestaña Compra de la ventana Producto. Al calcular el precio de venta basado en las compras de producto se tomaba como precio base el **Precio de Lista** en lugar de tomar el campo **Precio de Compra**.
+    - Problema al guardar la orden de compra o venta se borra el tipo de conversión
+    - Corrección de precio de venta en documento por pagar cuando el mismo tiene una moneda distinta a la de la orden de compra: el problema era que tomaba como precio el precio de lista y no el colocado
+    - Retención generada sin tipo de conversión: Al generar una retención no se establecía el tipo de conversión del documento original

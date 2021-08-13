@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-06-21
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-23.2
@@ -31,19 +31,16 @@
 - Notification-Queue: 1.0.4
 - Point-Of-Sales-Improvements: 1.0.4
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD: Fixed Fixed error with translation value for reference
 - Point-Of-Sales-Improvements: Fixed error with validation for reserverd quantity
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Aplicar binario de la aplicación
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
-  - Se corrige problemas con validación de inventario para productos que se encuentran reservados en la orden de venta
-  - Filtro en columnas dinámicas de los smart browsers
+    - Se corrige problemas con validación de inventario para productos que se encuentran reservados en la orden de venta
+    - Filtro en columnas dinámicas de los smart browsers

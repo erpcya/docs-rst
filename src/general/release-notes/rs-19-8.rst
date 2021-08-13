@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-04-13
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-20.5
@@ -27,17 +27,14 @@
 - Migration-Tools: 1.0.1
 - LVE: 1.2.9
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - ADempiere-Deployment: Change in deployment mode
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
-- **Mejoras**
+.. data:: Mejoras:
 
- - Se cambia la forma de despliegue de la aplicacion, soportando firmar librerias y adjuntarlas en la version Swing
+- Se cambia la forma de despliegue de la aplicacion, soportando firmar librerias y adjuntarlas en la version Swing

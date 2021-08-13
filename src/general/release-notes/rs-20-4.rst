@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-05-06
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-21.0
@@ -28,18 +28,14 @@
 - LVE: 1.2.9
 - Performance-Analysis: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Currency-Convert-Documents: Se cambia la funcionalidad y se coloca en una pestaña en las ventanas Orden de Venta, Orden de Compra, Factura de CxC, Fatura de CxP, Pago (Cobro) y Caja
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
 - Se cambia la funcionalidad y se coloca en una pestaña en las ventanas Orden de Venta, Orden de Compra, Factura de CxC, Fatura de CxP, Pago (Cobro) y Caja
 
-- **Correcciones**
- 
+.. data:: Correcciones: 

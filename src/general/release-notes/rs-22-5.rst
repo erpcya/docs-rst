@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-06-04
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-22.6
@@ -30,25 +30,22 @@
 - Queue-Manager: 1.0.0
 - Point-Of-Sales-Improvements: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD:
 
-  - Add support to description and short_description attributes for ecommerce
-  - Create specific social media as application type
+    - Add support to description and short_description attributes for ecommerce
+    - Create specific social media as application type
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Aplicar los siguientes XML'S
 
 - CST-STD: 
 
-  - 07830_Add_Specific_Social_Media_Support.xml
+    - 07830_Add_Specific_Social_Media_Support.xml
 
-**Mejoras**
-----------------
+.. data:: Mejoras:
 
-  - Se agrega Descripción corta y Descripción a los atributos enviados al e-Commerce
-  - Cambio de Tipo de Aplicación para las redes sociales, ahora se puede especificar el tipo de aplicación por tipo de red social
+    - Se agrega Descripción corta y Descripción a los atributos enviados al e-Commerce
+    - Cambio de Tipo de Aplicación para las redes sociales, ahora se puede especificar el tipo de aplicación por tipo de red social
