@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-05-10
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-21.1
@@ -28,14 +28,12 @@
 - LVE: 1.3.0
 - Performance-Analysis: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - LVE: Cambio de Longitud proveniente de directrices del Banco
 - CST-STD: Fix error Void Production
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
 - Se Cambia la longitud de caracteres para la columna Identificación Destinatario a 9. 
 - Al anular una Producción no genera excepciones

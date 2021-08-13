@@ -3,13 +3,11 @@
 **3.9.3-rs-1.3**
 ================
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - latest
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
 - Se actualiza la documentación de la :ref:`src/lve/procedures/consignment-sales`, para agregar el reporte "**Detalles de Facturas y Margen**" convertido.
 

@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-05-27
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-22.0
@@ -28,20 +28,16 @@
 - LVE: 1.3.4
 - Performance-Analysis: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD: 
 
-  - Validate SQL Column for Dependent Record Access
+    - Validate SQL Column for Dependent Record Access
 
-
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Sólo montar los cambios del binario
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
-  - Se corrige error **missing column for sql** reportado en el reporte de **Balance de Comprobación**
+    - Se corrige error **missing column for sql** reportado en el reporte de **Balance de Comprobación**

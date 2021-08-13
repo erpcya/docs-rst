@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-06-01
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-22.4
@@ -29,29 +29,26 @@
 - Performance-Analysis: 1.0.2
 - Queue-Manager: 1.0.0
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Queue-Manager: 
 
-  - Add queue functionality support
+    - Add queue functionality support
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Aplicar los siguientes XML'S
 
 - Queue-Manager: 
 
-  - 07250_Add_Queue_Functionality_Entity_Type.xml
-  - 07260_Add_System_Queue_Functionality.xml
-  - 07270_Change_Parameters_type_for_Flush_Queue_Process.xml
-  - 07280_Add_Delete_Record_Parameter.xml
-  - 07310_Add_Test_Queue_Manager.xml
-  - 07320_Add_Queue_Type_as_Parameter.xml
-  - 07330_Add_Setup_Definition.xml
+    - 07250_Add_Queue_Functionality_Entity_Type.xml
+    - 07260_Add_System_Queue_Functionality.xml
+    - 07270_Change_Parameters_type_for_Flush_Queue_Process.xml
+    - 07280_Add_Delete_Record_Parameter.xml
+    - 07310_Add_Test_Queue_Manager.xml
+    - 07320_Add_Queue_Type_as_Parameter.xml
+    - 07330_Add_Setup_Definition.xml
 
-**Mejoras**
-----------------
+.. data:: Mejoras:
 
-  - Implementación de nuevo proceso de manejo de cola basado en servicio y clase de ayuda para encolar peticiones asíncronas
+    - Implementación de nuevo proceso de manejo de cola basado en servicio y clase de ayuda para encolar peticiones asíncronas
