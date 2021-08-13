@@ -1,0 +1,52 @@
+.. _documento/versión-19-7:
+
+**rs-19.7**
+===========
+
+**Fecha de Liberación:** 2021-04-09
+-----------------------------------
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-20.5
+- Consigned-Material: 1.1.8
+- Exchange-Operation-System: 1.1.5
+- Cash-Management: 1.0.4
+- Currency-Convert-Documents: 1.0.3
+- Farmer-Assistance-Program: 1.1.6
+- RethinkDB-Replicator-Client: 1.0.9
+- Third-Party-Access: 1.0.1
+- FiscalPrinter: 1.3.2
+- RawMaterialReceipt: 1.0.5
+- Sales-Force-Management: 1.0.2
+- Delivery-Management-Service: 1.0.1
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.8
+- Additional-Reports: 1.0.2
+- Migration-Tools: 1.0.1
+- LVE: 1.2.9
+
+.. data:: Detalle Técnico:
+
+- Farmer-Assistance-Program: Add Negotiated conditioned Weight as Smart Browser
+
+.. data:: Requerimientos:
+
+Aplicar los siguientes XML's:
+
+- 07720_Add_SB_for_Generate_Fee_to_Farmers.xml
+- 07730_Add_translation_for_menu.xml
+- 07740_Add_Smart_Browser_for_generate_AP_from_Record_Weight.xml
+- 07750_Add_changes_for_SB_Generate_AP_Invoice.xml
+- 07760_Add_Raw_Material_Conditioning_Window.xml
+- 07770_Add_Negotiated_Calculation.xml
+- 07780_Add_SB_for_Conditioning_Calculation.xml
+
+.. data:: Novedades:
+
+.. data:: Mejoras:
+
+- Se agrega nuevo visor para el cálculo personalizado de registro de peso
+- Se agrega entidad para calcular de manera personalizada los registros de peso
+- Se agrega el peso negociado en el registro de peso

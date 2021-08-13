@@ -3,8 +3,7 @@
 **rs-16.0**
 ===========
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase:
 
@@ -31,8 +30,7 @@
 - Migration-Tools: 1.0.0
 - LVE: 1.2.3
 
-**Nota crítica:**
------------------
+.. data:: Nota Crítica:
 
 - Se deben aplicar los siguientes XML's:
 
@@ -41,14 +39,12 @@
         - 07250_Add_Entity_Type_for_Migration_Tools_Functionality.xml
         - 07260_Add_migration_tools_functionality.xml
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Migration-Tools: Add library for project
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
-- **Mejoras:**
+.. data:: Mejoras:
 
     - Se agrega soporte a copia de tablas y sus referencias de diccionario

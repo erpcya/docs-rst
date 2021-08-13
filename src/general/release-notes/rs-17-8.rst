@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-02-11
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.2
 - CST-STD: Versión de Liberación: rs-20.1
@@ -27,8 +27,7 @@
 - Migration-Tools: 1.0.1
 - LVE: 1.2.6
 
-**Nota crítica:**
------------------
+.. data:: Nota Crítica:
 
 - Se deben aplicar los siguientes XML's:
 
@@ -39,16 +38,13 @@
         - 06950_Add_Transaction_Type_for_Order.xml
         - 07660_Add_Report_for_Farmer_Transactions.xml
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Consigned-Material: Fixed error with calculation of Price Limit for Sales Invoice based on Purchase Product
 
+.. data:: Novedades:
 
-**Novedades:**
---------------
+.. data:: Correcciones:
 
-- **Correcciones:**
-
-    - Se cambia el evento para buscar el precio de compra de un producto para "Antes de Completar" una factura de ventas
-    - Se corrige problema para calculo de precio de compra en documento por cobrar
+- Se cambia el evento para buscar el precio de compra de un producto para "Antes de Completar" una factura de ventas
+- Se corrige problema para calculo de precio de compra en documento por cobrar
