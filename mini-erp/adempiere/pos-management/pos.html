@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Toma de Pedido &mdash; ERPYA 1.0 Documentation</title>
+  <title>6.6. Toma de Pedido &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -40,7 +40,9 @@
 
     
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" /> 
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="6.7. Copiar Orden Desde Otra" href="copy-record-from-order.html" />
+    <link rel="prev" title="6.5. Apertura de Caja" href="opening-cash.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -104,15 +106,42 @@
 <li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">6. <strong>Gestión PDV</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-terminal.html">6.1. <strong>Configuración de Terminal PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html">6.2. <strong>Interfaz de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily-pdv-procedure.html">6.3. <strong>Procedimiento de Inicio de Jornada Laboral PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-report-x-y-z.html">6.4. <strong>Imprimir Reportes X y Z</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="opening-cash.html">6.5. <strong>Apertura de Caja</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">6.6. <strong>Toma de Pedido</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ejecucion-del-proceso">6.6.1. <strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#cobrar-pedido">6.6.2. <strong>Cobrar Pedido</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#procedimiento-regular-con-una-forma-de-pago-y-una-moneda-especifica">6.6.2.1. <strong>Procedimiento Regular con una Forma de Pago y una Moneda Específica</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#procedimiento-especial-con-diferentes-formas-de-pago-y-monedas">6.6.2.2. <strong>Procedimiento Especial con Diferentes Formas de Pago y Monedas</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-factura-generada">6.6.3. <strong>Consultar Factura Generada</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-cobro-generado">6.6.4. <strong>Consultar Cobro Generado</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-registro-en-cierre-de-caja">6.6.5. <strong>Consultar Registro en Cierre de Caja</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="copy-record-from-order.html">6.7. <strong>Copiar Orden Desde Otra</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html">6.8. <strong>Reversar Transacción de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html">6.9. <strong>Anular Factura Fiscal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html">6.10. <strong>Completar Orden Preparada</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html">6.11. <strong>Retiro Detallado de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="closing-cash.html">6.12. <strong>Cierre de Caja del Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html">6.13. <strong>Traspaso a Banco</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">7. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">8. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">9. <strong>Gestión de Saldos Pendientes</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
 <ul>
@@ -183,7 +212,9 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li><strong>Toma de Pedido</strong></li>
+          <li><a href="index.html"><span class="section-number">6. </span><strong>Gestión PDV</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">6.6. </span><strong>Toma de Pedido</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -203,7 +234,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="toma-de-pedido">
-<span id="documento-punto-de-venta"></span><h1><strong>Toma de Pedido</strong><a class="headerlink" href="#toma-de-pedido" title="Permalink to this headline">¶</a></h1>
+<span id="documento-punto-de-venta"></span><h1><span class="section-number">6.6. </span><strong>Toma de Pedido</strong><a class="headerlink" href="#toma-de-pedido" title="Permalink to this headline">¶</a></h1>
 <p>El proceso toma de pedido consiste en la venta de los productos por medio del documento “<strong>Orden de Venta</strong>”, en el cual se cargan los datos del cliente, los productos y el cobro. Al realizar el cobro de la misma, se generan de manera automática los documentos “<strong>Cobro</strong>”, “<strong>Entrega</strong>” y “<strong>Factura por Cobrar</strong>”.</p>
 <p>El documento del cobro se genera en la ventana “<strong>Caja</strong>”, con la cuenta caja pos en la cual se realizó dicho cobro. Este es asociado a la línea del registro de cierre de caja de la cuenta “<strong>Caja POS</strong>”, creado al momento de la apertura de caja.</p>
 <p>Adicional a ello, el documento “<strong>Factura por Cobrar</strong>”, es generado en la ventana “<strong>Documentos por Cobrar</strong>”. Mientras que el documento “<strong>Entrega</strong>”, es generado en la ventana “<strong>Entrega (Cliente)</strong>”.</p>
@@ -213,7 +244,7 @@
 <p>Imagen 1. Diagrama de Toma de Pedido POS</p>
 </div></blockquote>
 <div class="section" id="ejecucion-del-proceso">
-<h2><strong>Ejecución del Proceso</strong><a class="headerlink" href="#ejecucion-del-proceso" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.6.1. </span><strong>Ejecución del Proceso</strong><a class="headerlink" href="#ejecucion-del-proceso" title="Permalink to this headline">¶</a></h2>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”, por último seleccione la carpeta “<strong>Punto de Venta</strong>”, finalmente seleccione la ventana “<strong>Punto de Venta</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere" src="../../_images/point-of-sale-menu.png" /></p>
@@ -266,7 +297,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="cobrar-pedido">
-<span id="documento-proceso-para-cobrar-pedido"></span><h2><strong>Cobrar Pedido</strong><a class="headerlink" href="#cobrar-pedido" title="Permalink to this headline">¶</a></h2>
+<span id="documento-proceso-para-cobrar-pedido"></span><h2><span class="section-number">6.6.2. </span><strong>Cobrar Pedido</strong><a class="headerlink" href="#cobrar-pedido" title="Permalink to this headline">¶</a></h2>
 <p>Luego de haber cargado todos los productos de la venta en la orden, debe seleccionar el icono “<strong>Pago</strong>” para generar el cobro de los mismos.</p>
 <blockquote>
 <div><p><img alt="Icono Pago de la Ventana Punto de Venta" src="../../_images/point-of-sale-window-payment-icon.png" /></p>
@@ -303,7 +334,7 @@
 <p>El cobro de los productos cargados en la orden de venta se puede ejecutar de diferentes formas, explicadas a continuación.</p>
 </div></blockquote>
 <div class="section" id="procedimiento-regular-con-una-forma-de-pago-y-una-moneda-especifica">
-<h3><strong>Procedimiento Regular con una Forma de Pago y una Moneda Específica</strong><a class="headerlink" href="#procedimiento-regular-con-una-forma-de-pago-y-una-moneda-especifica" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.6.2.1. </span><strong>Procedimiento Regular con una Forma de Pago y una Moneda Específica</strong><a class="headerlink" href="#procedimiento-regular-con-una-forma-de-pago-y-una-moneda-especifica" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p>Seleccione en el campo “<strong>Forma de Pago</strong>”, la forma utilizada por el cliente para pagar los productos cargados en la orden de venta.</p>
 <blockquote>
@@ -343,7 +374,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="procedimiento-especial-con-diferentes-formas-de-pago-y-monedas">
-<h3><strong>Procedimiento Especial con Diferentes Formas de Pago y Monedas</strong><a class="headerlink" href="#procedimiento-especial-con-diferentes-formas-de-pago-y-monedas" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.6.2.2. </span><strong>Procedimiento Especial con Diferentes Formas de Pago y Monedas</strong><a class="headerlink" href="#procedimiento-especial-con-diferentes-formas-de-pago-y-monedas" title="Permalink to this headline">¶</a></h3>
 <blockquote>
 <div><p>Seleccione en el campo “<strong>Forma de Pago</strong>”, la forma utilizada por el cliente para pagar los productos cargados en la orden de venta.</p>
 <blockquote>
@@ -404,7 +435,7 @@
 </div>
 </div>
 <div class="section" id="consultar-factura-generada">
-<h2><strong>Consultar Factura Generada</strong><a class="headerlink" href="#consultar-factura-generada" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.6.3. </span><strong>Consultar Factura Generada</strong><a class="headerlink" href="#consultar-factura-generada" title="Permalink to this headline">¶</a></h2>
 <p>Ubique la orden de venta generada en la ventana “<strong>Órdenes de Venta</strong>”, luego seleccione el icono “<strong>Visualiza Detalle (Donde es Usado)</strong>” y finalmente haga clic sobre la opción “<strong>Documentos por Cobrar</strong>”, para acercar la factura de la venta.</p>
 <blockquote>
 <div><p><img alt="Documento de Cobro Generado en la Ventana Documentos por Cobrar" src="../../_images/collection-document-generated-in-the-documents-receivable-window.png" /></p>
@@ -417,7 +448,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="consultar-cobro-generado">
-<h2><strong>Consultar Cobro Generado</strong><a class="headerlink" href="#consultar-cobro-generado" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.6.4. </span><strong>Consultar Cobro Generado</strong><a class="headerlink" href="#consultar-cobro-generado" title="Permalink to this headline">¶</a></h2>
 <p>Una vez ubicada la factura, seleccione el icono “<strong>Visualiza Detalle (Donde es Usado)</strong>” y finalmente haga clic sobre la opción “<strong>Consulta de Asignación</strong>”, para acercar la asignación entre la factura y el cobro de la factura.</p>
 <blockquote>
 <div><p><img alt="acercar asignación entre factura y cobro" src="../../_images/bring-allocation-between-invoice-and-collection.png" /></p>
@@ -435,7 +466,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="consultar-registro-en-cierre-de-caja">
-<h2><strong>Consultar Registro en Cierre de Caja</strong><a class="headerlink" href="#consultar-registro-en-cierre-de-caja" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.6.5. </span><strong>Consultar Registro en Cierre de Caja</strong><a class="headerlink" href="#consultar-registro-en-cierre-de-caja" title="Permalink to this headline">¶</a></h2>
 <p>Cada cobro desde el punto de venta genera un documento de ingreso en la ventana “<strong>Caja</strong>”, por cada documento de cobro generado se crea una línea con el cobro asociado en la pestaña “<strong>Línea de Cierre de Caja</strong>”, de la ventana “<strong>Cierre de Caja</strong>” correspondiente al registro de la “<strong>Caja 01</strong>”, creado en estado “<strong>Borrador</strong> al realizar la apertura de caja.</p>
 <blockquote>
 <div><p><img alt="Cobro Generado en Cierre de Caja" src="../../_images/collection-generated-at-closing-of-cash.png" /></p>
@@ -449,6 +480,10 @@
            
           </div>
           <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="copy-record-from-order.html" class="btn btn-neutral float-right" title="6.7. Copiar Orden Desde Otra" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="opening-cash.html" class="btn btn-neutral float-left" title="6.5. Apertura de Caja" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 

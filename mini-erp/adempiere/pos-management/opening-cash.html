@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Apertura de Caja &mdash; ERPYA 1.0 Documentation</title>
+  <title>6.5. Apertura de Caja &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -40,7 +40,9 @@
 
     
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" /> 
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="6.6. Toma de Pedido" href="pos.html" />
+    <link rel="prev" title="6.4. Imprimir Reportes X y Z" href="generate-report-x-y-z.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -104,15 +106,40 @@
 <li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">6. <strong>Gestión PDV</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-terminal.html">6.1. <strong>Configuración de Terminal PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html">6.2. <strong>Interfaz de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily-pdv-procedure.html">6.3. <strong>Procedimiento de Inicio de Jornada Laboral PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-report-x-y-z.html">6.4. <strong>Imprimir Reportes X y Z</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">6.5. <strong>Apertura de Caja</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ejecucion-del-proceso">6.5.1. <strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-egreso-e-ingreso-generado-de-la-apertura-de-punto-de-venta">6.5.2. <strong>Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-registros-creados-en-la-ventana-cierre-de-caja">6.5.3. <strong>Consultar Registros Creados en la Ventana Cierre de Caja</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#caja-administracion-pos">6.5.3.1. <strong>Caja Administración POS</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#caja-01">6.5.3.2. <strong>Caja 01</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="pos.html">6.6. <strong>Toma de Pedido</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copy-record-from-order.html">6.7. <strong>Copiar Orden Desde Otra</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html">6.8. <strong>Reversar Transacción de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html">6.9. <strong>Anular Factura Fiscal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html">6.10. <strong>Completar Orden Preparada</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html">6.11. <strong>Retiro Detallado de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="closing-cash.html">6.12. <strong>Cierre de Caja del Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html">6.13. <strong>Traspaso a Banco</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">7. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">8. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">9. <strong>Gestión de Saldos Pendientes</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
 <ul>
@@ -183,7 +210,9 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li><strong>Apertura de Caja</strong></li>
+          <li><a href="index.html"><span class="section-number">6. </span><strong>Gestión PDV</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">6.5. </span><strong>Apertura de Caja</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -203,7 +232,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="apertura-de-caja">
-<span id="documento-apertura-de-caja"></span><h1><strong>Apertura de Caja</strong><a class="headerlink" href="#apertura-de-caja" title="Permalink to this headline">¶</a></h1>
+<span id="documento-apertura-de-caja"></span><h1><span class="section-number">6.5. </span><strong>Apertura de Caja</strong><a class="headerlink" href="#apertura-de-caja" title="Permalink to this headline">¶</a></h1>
 <p>El proceso de apertura de caja consta en realizar una transferencia bancaria desde un proceso específico del punto de venta. Permitiendo con ello, realizar un egreso de la caja administrativa del punto de venta y posteriormente, un ingreso a la caja en la cual serán realizadas las operaciones de venta. Dichos movimientos son reflejados en la ventana “<strong>Caja</strong>”, por medio de los documentos “<strong>Pago Nacional</strong>” y “<strong>Cobro Nacional</strong>”.</p>
 <p>Este procedimiento crea un registro en la ventana “<strong>Cierre de Caja</strong>”, con la cuenta “<strong>Caja Administrativa</strong>”, desde la cual egresa el dinero. En la línea del mismo, se asocia el registro de “<strong>Pago Nacional</strong>”, generado en la ventana “<strong>Caja</strong>” por la apertura.</p>
 <p>Adicional a ello, crea un registro en dicha ventana “<strong>Cierre de Caja</strong>”, con la cuenta “<strong>Caja POS</strong>”, a la cual ingresa el dinero. De igual manera, se asocia en la línea del registro, el “<strong>Cobro Nacional</strong>”, generado en “<strong>Caja</strong>” por la apertura.</p>
@@ -221,7 +250,7 @@
 <p>No debe realizar el proceso de apertura de caja si no es entregado fisicamente el dinero en la respectiva caja. De lo contrario, los saldos de la caja en ADempiere no tendrán ninguna coincidencia con los saldos que existen fisicamente en la caja.</p>
 </div>
 <div class="section" id="ejecucion-del-proceso">
-<h2><strong>Ejecución del Proceso</strong><a class="headerlink" href="#ejecucion-del-proceso" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.5.1. </span><strong>Ejecución del Proceso</strong><a class="headerlink" href="#ejecucion-del-proceso" title="Permalink to this headline">¶</a></h2>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”, por último seleccione la carpeta “<strong>Punto de Venta</strong>”. Para finalizar, seleccione el proceso “<strong>Apertura de Punto de Venta</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere" src="../../_images/menu-opening-point-of-sale.png" /></p>
@@ -274,7 +303,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="consultar-egreso-e-ingreso-generado-de-la-apertura-de-punto-de-venta">
-<h2><strong>Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta</strong><a class="headerlink" href="#consultar-egreso-e-ingreso-generado-de-la-apertura-de-punto-de-venta" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.5.2. </span><strong>Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta</strong><a class="headerlink" href="#consultar-egreso-e-ingreso-generado-de-la-apertura-de-punto-de-venta" title="Permalink to this headline">¶</a></h2>
 <p>Al buscar entre los registros de la ventana “<strong>Caja</strong>”, los valores ingresados en los campos “<strong>No. del Documento</strong>” y “<strong>Documento Destino</strong>”, de la ventana “<strong>Apertura de Punto de Venta</strong>”, se pueden visualizar dos (2) registros resultantes de la transferencia bancaria, entre ellos se encuentran.</p>
 <blockquote>
 <div><p>El egreso generado en la cuenta “<strong>Caja Administrativa</strong>” como pago nacional, con toda la información suministrada en el proceso ejecutado en la ventana “<strong>Apertura de Punto de Venta</strong>”.</p>
@@ -290,10 +319,10 @@
 </div></blockquote>
 </div>
 <div class="section" id="consultar-registros-creados-en-la-ventana-cierre-de-caja">
-<h2><strong>Consultar Registros Creados en la Ventana Cierre de Caja</strong><a class="headerlink" href="#consultar-registros-creados-en-la-ventana-cierre-de-caja" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.5.3. </span><strong>Consultar Registros Creados en la Ventana Cierre de Caja</strong><a class="headerlink" href="#consultar-registros-creados-en-la-ventana-cierre-de-caja" title="Permalink to this headline">¶</a></h2>
 <p>Al realizar una apertura de caja se crean dos registros en estado “<strong>Borrador</strong>”, en la ventana “<strong>Cierre de Caja</strong>”, uno para cada caja involucrada en el proceso ejecutado en la ventana “<strong>Apertura de Punto de Venta</strong>”.</p>
 <div class="section" id="caja-administracion-pos">
-<h3><strong>Caja Administración POS</strong><a class="headerlink" href="#caja-administracion-pos" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.5.3.1. </span><strong>Caja Administración POS</strong><a class="headerlink" href="#caja-administracion-pos" title="Permalink to this headline">¶</a></h3>
 <p>El registro con la cuenta “<strong>Caja Administración POS</strong>”, se crea automáticamente con las siguientes restricciones:</p>
 <blockquote>
 <div><ul class="simple">
@@ -312,7 +341,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="caja-01">
-<h3><strong>Caja 01</strong><a class="headerlink" href="#caja-01" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.5.3.2. </span><strong>Caja 01</strong><a class="headerlink" href="#caja-01" title="Permalink to this headline">¶</a></h3>
 <p>El registro con la cuenta “<strong>Caja 01</strong>”, se crea automáticamente con las siguientes restricciones:</p>
 <blockquote>
 <div><ul class="simple">
@@ -338,6 +367,10 @@
            
           </div>
           <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="pos.html" class="btn btn-neutral float-right" title="6.6. Toma de Pedido" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="generate-report-x-y-z.html" class="btn btn-neutral float-left" title="6.4. Imprimir Reportes X y Z" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 

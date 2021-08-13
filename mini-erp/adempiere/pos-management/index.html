@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Gestión PDV &mdash; ERPYA 1.0 Documentation</title>
+  <title>6. Gestión PDV &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -40,7 +40,9 @@
 
     
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" /> 
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="6.1. Configuración de Terminal PDV" href="point-of-sale-terminal.html" />
+    <link rel="prev" title="5.7.4. Ajuste de Crédito de CxC" href="../quote-to-invoice/frequent-processes/cxc-credit-adjustment.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -104,15 +106,31 @@
 <li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">6. <strong>Gestión PDV</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-terminal.html">6.1. <strong>Configuración de Terminal PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html">6.2. <strong>Interfaz de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily-pdv-procedure.html">6.3. <strong>Procedimiento de Inicio de Jornada Laboral PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-report-x-y-z.html">6.4. <strong>Imprimir Reportes X y Z</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="opening-cash.html">6.5. <strong>Apertura de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="pos.html">6.6. <strong>Toma de Pedido</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copy-record-from-order.html">6.7. <strong>Copiar Orden Desde Otra</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html">6.8. <strong>Reversar Transacción de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html">6.9. <strong>Anular Factura Fiscal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html">6.10. <strong>Completar Orden Preparada</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html">6.11. <strong>Retiro Detallado de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="closing-cash.html">6.12. <strong>Cierre de Caja del Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html">6.13. <strong>Traspaso a Banco</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">7. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">8. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">9. <strong>Gestión de Saldos Pendientes</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
 <ul>
@@ -183,7 +201,7 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li><strong>Gestión PDV</strong></li>
+      <li><span class="section-number">6. </span><strong>Gestión PDV</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -203,7 +221,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="gestion-pdv">
-<span id="src-adempiere-pos-management"></span><h1><strong>Gestión PDV</strong><a class="headerlink" href="#gestion-pdv" title="Permalink to this headline">¶</a></h1>
+<span id="src-adempiere-pos-management"></span><h1><span class="section-number">6. </span><strong>Gestión PDV</strong><a class="headerlink" href="#gestion-pdv" title="Permalink to this headline">¶</a></h1>
 <p>ADempiere ofrece una solución a pequeñas empresas que requieran manejar transacciones con sus clientes de manera agil y eficiente, y a su vez proporcionar un buen servicio al cliente.</p>
 <p>Esta funcionalidad evita que los usuarios deban realizar una orden de venta, una factura, un cobro y una entrega para cumplir el proceso de venta, este punto de venta reduce estos cuatro pasos en dos pasos. Al generar una orden de venta y ser cobrada desde el punto de venta, ADempiere de forma automatica generará una factura y una entrega.</p>
 <blockquote>
@@ -221,71 +239,71 @@
 <p>Esta solución pasa a ser entonces un potente <strong>Quick Service</strong> por estar integrado con un <strong>ERP</strong> y está diseñado para ser utilizado en la indutria retail o restaurantes permitiendo un control total de sus resultados sin restar rendimiento en tiempo. Es por esto, que el enfoque de esta solución está en negocios que manejan cajas registradoras en la cual los clientes acuden a ejecutar un pedido y cancelarlo, para finalmente retirar sus productos.</p>
 <div class="toctree-wrapper compound">
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="point-of-sale-terminal.html"><strong>Configuración de Terminal PDV</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="point-of-sale-interface.html"><strong>Interfaz de Punto de Venta</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#barra-de-herramientas-del-punto-de-venta"><strong>Barra de Herramientas del Punto de Venta</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#panel-de-busqueda-de-productos"><strong>Panel de Búsqueda de Productos</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#seccion-de-informacion-de-producto"><strong>Sección de Información de Producto</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#barra-de-edicion-de-productos"><strong>Barra de Edición de Productos</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#linea-de-la-orden-de-venta"><strong>Línea de la Orden de Venta</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#informacion-de-la-orden"><strong>Información de la Orden</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#totales-bs-s"><strong>Totales (Bs.S)</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#panel-de-socio-del-negocio-cliente"><strong>Panel de Socio del Negocio Cliente</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#catalogo-de-productos"><strong>Catálogo de Productos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="point-of-sale-terminal.html">6.1. <strong>Configuración de Terminal PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="point-of-sale-interface.html">6.2. <strong>Interfaz de Punto de Venta</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#barra-de-herramientas-del-punto-de-venta">6.2.1. <strong>Barra de Herramientas del Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#panel-de-busqueda-de-productos">6.2.2. <strong>Panel de Búsqueda de Productos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#seccion-de-informacion-de-producto">6.2.3. <strong>Sección de Información de Producto</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#barra-de-edicion-de-productos">6.2.4. <strong>Barra de Edición de Productos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#linea-de-la-orden-de-venta">6.2.5. <strong>Línea de la Orden de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#informacion-de-la-orden">6.2.6. <strong>Información de la Orden</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#totales-bs-s">6.2.7. <strong>Totales (Bs.S)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#panel-de-socio-del-negocio-cliente">6.2.8. <strong>Panel de Socio del Negocio Cliente</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html#catalogo-de-productos">6.2.9. <strong>Catálogo de Productos</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="daily-pdv-procedure.html"><strong>Procedimiento de Inicio de Jornada Laboral PDV</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="generate-report-x-y-z.html"><strong>Imprimir Reportes X y Z</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="generate-report-x-y-z.html#ejecucion-del-proceso"><strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="daily-pdv-procedure.html">6.3. <strong>Procedimiento de Inicio de Jornada Laboral PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="generate-report-x-y-z.html">6.4. <strong>Imprimir Reportes X y Z</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="generate-report-x-y-z.html#ejecucion-del-proceso">6.4.1. <strong>Ejecución del Proceso</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="opening-cash.html"><strong>Apertura de Caja</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="opening-cash.html#ejecucion-del-proceso"><strong>Ejecución del Proceso</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="opening-cash.html#consultar-egreso-e-ingreso-generado-de-la-apertura-de-punto-de-venta"><strong>Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="opening-cash.html#consultar-registros-creados-en-la-ventana-cierre-de-caja"><strong>Consultar Registros Creados en la Ventana Cierre de Caja</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="opening-cash.html">6.5. <strong>Apertura de Caja</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="opening-cash.html#ejecucion-del-proceso">6.5.1. <strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="opening-cash.html#consultar-egreso-e-ingreso-generado-de-la-apertura-de-punto-de-venta">6.5.2. <strong>Consultar Egreso e Ingreso Generado de la Apertura de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="opening-cash.html#consultar-registros-creados-en-la-ventana-cierre-de-caja">6.5.3. <strong>Consultar Registros Creados en la Ventana Cierre de Caja</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="pos.html"><strong>Toma de Pedido</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="pos.html#ejecucion-del-proceso"><strong>Ejecución del Proceso</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="pos.html#cobrar-pedido"><strong>Cobrar Pedido</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="pos.html#consultar-factura-generada"><strong>Consultar Factura Generada</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="pos.html#consultar-cobro-generado"><strong>Consultar Cobro Generado</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="pos.html#consultar-registro-en-cierre-de-caja"><strong>Consultar Registro en Cierre de Caja</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="pos.html">6.6. <strong>Toma de Pedido</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="pos.html#ejecucion-del-proceso">6.6.1. <strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="pos.html#cobrar-pedido">6.6.2. <strong>Cobrar Pedido</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="pos.html#consultar-factura-generada">6.6.3. <strong>Consultar Factura Generada</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="pos.html#consultar-cobro-generado">6.6.4. <strong>Consultar Cobro Generado</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="pos.html#consultar-registro-en-cierre-de-caja">6.6.5. <strong>Consultar Registro en Cierre de Caja</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="copy-record-from-order.html"><strong>Copiar Orden Desde Otra</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="void-sales-transaction.html"><strong>Reversar Transacción de Venta</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html#ejecucion-del-proceso"><strong>Ejecución del Proceso</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html#consulta-de-documentos-generados"><strong>Consulta de Documentos Generados</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="copy-record-from-order.html">6.7. <strong>Copiar Orden Desde Otra</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="void-sales-transaction.html">6.8. <strong>Reversar Transacción de Venta</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html#ejecucion-del-proceso">6.8.1. <strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html#consulta-de-documentos-generados">6.8.2. <strong>Consulta de Documentos Generados</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="cancel-tax-invoice.html"><strong>Anular Factura Fiscal</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html#reversar-cobros"><strong>Reversar Cobros</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html#anular-factura"><strong>Anular Factura</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html#anular-orden-de-venta"><strong>Anular Orden de Venta</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="cancel-tax-invoice.html">6.9. <strong>Anular Factura Fiscal</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html#reversar-cobros">6.9.1. <strong>Reversar Cobros</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html#anular-factura">6.9.2. <strong>Anular Factura</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html#anular-orden-de-venta">6.9.3. <strong>Anular Orden de Venta</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="complete-ready-order.html"><strong>Completar Orden Preparada</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html#ejecucion-del-proceso"><strong>Ejecución del Proceso</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html#consulta-de-documentos-generados"><strong>Consulta de Documentos Generados</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="complete-ready-order.html">6.10. <strong>Completar Orden Preparada</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html#ejecucion-del-proceso">6.10.1. <strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html#consulta-de-documentos-generados">6.10.2. <strong>Consulta de Documentos Generados</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html"><strong>Retiro Detallado de Punto de Venta</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html#ejecucion-del-proceso"><strong>Ejecución del Proceso</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html#consulta-de-pago-y-cobro-generados-en-caja"><strong>Consulta de Pago y Cobro Generados en Caja</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html#consultar-registro-en-cierre-de-caja"><strong>Consultar Registro en Cierre de Caja</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html">6.11. <strong>Retiro Detallado de Punto de Venta</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html#ejecucion-del-proceso">6.11.1. <strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html#consulta-de-pago-y-cobro-generados-en-caja">6.11.2. <strong>Consulta de Pago y Cobro Generados en Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html#consultar-registro-en-cierre-de-caja">6.11.3. <strong>Consultar Registro en Cierre de Caja</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="closing-cash.html"><strong>Cierre de Caja del Punto de Venta</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="closing-cash.html#ejecucion-del-proceso"><strong>Ejecución del Proceso</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="closing-cash.html#consultar-registro-en-cierre-de-caja"><strong>Consultar Registro en Cierre de Caja</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="closing-cash.html#completar-registro-en-cierre-de-caja"><strong>Completar Registro en Cierre de Caja</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="closing-cash.html">6.12. <strong>Cierre de Caja del Punto de Venta</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="closing-cash.html#ejecucion-del-proceso">6.12.1. <strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="closing-cash.html#consultar-registro-en-cierre-de-caja">6.12.2. <strong>Consultar Registro en Cierre de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="closing-cash.html#completar-registro-en-cierre-de-caja">6.12.3. <strong>Completar Registro en Cierre de Caja</strong></a></li>
 </ul>
 </li>
-<li class="toctree-l1"><a class="reference internal" href="transfer-to-bank.html"><strong>Traspaso a Banco</strong></a><ul>
-<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html#deposito-de-caja"><strong>Depósito de Caja</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html#transferencia-bancaria"><strong>Transferencia Bancaria</strong></a></li>
-<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html#cierre-de-caja"><strong>Cierre de Caja</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="transfer-to-bank.html">6.13. <strong>Traspaso a Banco</strong></a><ul>
+<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html#deposito-de-caja">6.13.1. <strong>Depósito de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html#transferencia-bancaria">6.13.2. <strong>Transferencia Bancaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html#cierre-de-caja">6.13.3. <strong>Cierre de Caja</strong></a></li>
 </ul>
 </li>
 </ul>
@@ -297,6 +315,10 @@
            
           </div>
           <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="point-of-sale-terminal.html" class="btn btn-neutral float-right" title="6.1. Configuración de Terminal PDV" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="../quote-to-invoice/frequent-processes/cxc-credit-adjustment.html" class="btn btn-neutral float-left" title="5.7.4. Ajuste de Crédito de CxC" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 

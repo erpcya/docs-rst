@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Cierre de Caja del Punto de Venta &mdash; ERPYA 1.0 Documentation</title>
+  <title>6.12. Cierre de Caja del Punto de Venta &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -40,7 +40,9 @@
 
     
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" /> 
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="6.13. Traspaso a Banco" href="transfer-to-bank.html" />
+    <link rel="prev" title="6.11. Retiro Detallado de Punto de Venta" href="detailed-point-of-sale-withdrawal.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -104,15 +106,36 @@
 <li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">6. <strong>Gestión PDV</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-terminal.html">6.1. <strong>Configuración de Terminal PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html">6.2. <strong>Interfaz de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily-pdv-procedure.html">6.3. <strong>Procedimiento de Inicio de Jornada Laboral PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-report-x-y-z.html">6.4. <strong>Imprimir Reportes X y Z</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="opening-cash.html">6.5. <strong>Apertura de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="pos.html">6.6. <strong>Toma de Pedido</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copy-record-from-order.html">6.7. <strong>Copiar Orden Desde Otra</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html">6.8. <strong>Reversar Transacción de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html">6.9. <strong>Anular Factura Fiscal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html">6.10. <strong>Completar Orden Preparada</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html">6.11. <strong>Retiro Detallado de Punto de Venta</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">6.12. <strong>Cierre de Caja del Punto de Venta</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ejecucion-del-proceso">6.12.1. <strong>Ejecución del Proceso</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#consultar-registro-en-cierre-de-caja">6.12.2. <strong>Consultar Registro en Cierre de Caja</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="#completar-registro-en-cierre-de-caja">6.12.3. <strong>Completar Registro en Cierre de Caja</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="transfer-to-bank.html">6.13. <strong>Traspaso a Banco</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">7. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">8. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">9. <strong>Gestión de Saldos Pendientes</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
 <ul>
@@ -183,7 +206,9 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li><strong>Cierre de Caja del Punto de Venta</strong></li>
+          <li><a href="index.html"><span class="section-number">6. </span><strong>Gestión PDV</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">6.12. </span><strong>Cierre de Caja del Punto de Venta</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -203,7 +228,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="cierre-de-caja-del-punto-de-venta">
-<span id="documento-cierre-de-caja-punto-de-venta"></span><h1><strong>Cierre de Caja del Punto de Venta</strong><a class="headerlink" href="#cierre-de-caja-del-punto-de-venta" title="Permalink to this headline">¶</a></h1>
+<span id="documento-cierre-de-caja-punto-de-venta"></span><h1><span class="section-number">6.12. </span><strong>Cierre de Caja del Punto de Venta</strong><a class="headerlink" href="#cierre-de-caja-del-punto-de-venta" title="Permalink to this headline">¶</a></h1>
 <p>El proceso cierre de caja del punto de venta consiste en ejecutar el mismo desde la ventana “<strong>Punto de Venta</strong>”. Su finalidad es completar el registro de cierre de caja creado con la cuenta “<strong>Caja POS</strong>” en la que fueron realizadas las transacciones de venta, dejando la cuenta en su saldo inicial. Para ello, es necesario que se realice el flujo de trabajo regular establecido para el punto de venta, es decir, se deben realizar los siguientes procesos:</p>
 <blockquote>
 <div><ul class="simple">
@@ -221,7 +246,7 @@
 </div></blockquote>
 <p>A continuación, se específica el procedimiento que se debe realizar para ejecutar correctamente el cierre de caja POS.</p>
 <div class="section" id="ejecucion-del-proceso">
-<h2><strong>Ejecución del Proceso</strong><a class="headerlink" href="#ejecucion-del-proceso" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.12.1. </span><strong>Ejecución del Proceso</strong><a class="headerlink" href="#ejecucion-del-proceso" title="Permalink to this headline">¶</a></h2>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Ventas</strong>”, luego seleccione la carpeta “<strong>Órdenes de Venta</strong>”, por último seleccione la carpeta “<strong>Punto de Venta</strong>”. Para finalizar, seleccione la ventana “<strong>Punto de Venta</strong>”.</p>
 <blockquote>
 <div><p><img alt="Menú de ADempiere" src="../../_images/point-of-sale-menu.png" /></p>
@@ -364,7 +389,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="consultar-registro-en-cierre-de-caja">
-<h2><strong>Consultar Registro en Cierre de Caja</strong><a class="headerlink" href="#consultar-registro-en-cierre-de-caja" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.12.2. </span><strong>Consultar Registro en Cierre de Caja</strong><a class="headerlink" href="#consultar-registro-en-cierre-de-caja" title="Permalink to this headline">¶</a></h2>
 <p>Al ejecutar el proceso “<strong>Cerrar de Caja del Punto de Venta</strong>”, se completa el registro con la cuenta “<strong>Caja 01</strong>”, creado en la ventana “<strong>Cierre de Caja</strong>”, llevando la misma a cero (0) nuevamente.</p>
 <blockquote>
 <div><p><img alt="Cierre de Caja 04 Completada" src="../../_images/box-closure-04-completed.png" /></p>
@@ -382,7 +407,7 @@
 </div></blockquote>
 </div>
 <div class="section" id="completar-registro-en-cierre-de-caja">
-<h2><strong>Completar Registro en Cierre de Caja</strong><a class="headerlink" href="#completar-registro-en-cierre-de-caja" title="Permalink to this headline">¶</a></h2>
+<h2><span class="section-number">6.12.3. </span><strong>Completar Registro en Cierre de Caja</strong><a class="headerlink" href="#completar-registro-en-cierre-de-caja" title="Permalink to this headline">¶</a></h2>
 <p>Ubique el registro de la “<strong>Caja Administrativa</strong>” generado en la ventna “<strong>Cierre de Caja</strong>”, el cual se encuentra en estado “<strong>Borrador</strong>”.</p>
 <blockquote>
 <div><p><img alt="Cierre de Caja Administrativa en Borrador" src="../../_images/draft-administrative-box-closure.png" /></p>
@@ -416,6 +441,10 @@
            
           </div>
           <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="transfer-to-bank.html" class="btn btn-neutral float-right" title="6.13. Traspaso a Banco" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="detailed-point-of-sale-withdrawal.html" class="btn btn-neutral float-left" title="6.11. Retiro Detallado de Punto de Venta" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 

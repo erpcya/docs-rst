@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>Traspaso a Banco &mdash; ERPYA 1.0 Documentation</title>
+  <title>6.13. Traspaso a Banco &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -40,7 +40,9 @@
 
     
     <link rel="index" title="Index" href="../../genindex.html" />
-    <link rel="search" title="Search" href="../../search.html" /> 
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="7. Gestión de Compras" href="../requisition-to-invoice/index.html" />
+    <link rel="prev" title="6.12. Cierre de Caja del Punto de Venta" href="closing-cash.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -104,15 +106,42 @@
 <li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html">6. <strong>Notas de Liberación Documentación</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html">1. <strong>Gestión Básica</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../master/index.html">2. <strong>Datos Maestros</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../material-management/index.html">3. <strong>Gestión de Materiales</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../production-management/index.html">4. <strong>Gestión de Producción</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html">5. <strong>Gestión de Ventas</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">6. <strong>Gestión de Compras</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">7. <strong>Gestión de Devoluciones</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">8. <strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">6. <strong>Gestión PDV</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-terminal.html">6.1. <strong>Configuración de Terminal PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="point-of-sale-interface.html">6.2. <strong>Interfaz de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily-pdv-procedure.html">6.3. <strong>Procedimiento de Inicio de Jornada Laboral PDV</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="generate-report-x-y-z.html">6.4. <strong>Imprimir Reportes X y Z</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="opening-cash.html">6.5. <strong>Apertura de Caja</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="pos.html">6.6. <strong>Toma de Pedido</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="copy-record-from-order.html">6.7. <strong>Copiar Orden Desde Otra</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="void-sales-transaction.html">6.8. <strong>Reversar Transacción de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="cancel-tax-invoice.html">6.9. <strong>Anular Factura Fiscal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="complete-ready-order.html">6.10. <strong>Completar Orden Preparada</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="detailed-point-of-sale-withdrawal.html">6.11. <strong>Retiro Detallado de Punto de Venta</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="closing-cash.html">6.12. <strong>Cierre de Caja del Punto de Venta</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">6.13. <strong>Traspaso a Banco</strong></a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#deposito-de-caja">6.13.1. <strong>Depósito de Caja</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#consultar-egreso-e-ingreso-generado-del-deposito">6.13.1.1. <strong>Consultar Egreso e Ingreso Generado del Depósito</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#transferencia-bancaria">6.13.2. <strong>Transferencia Bancaria</strong></a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#consultar-egreso-e-ingreso-generado-de-la-transferencia">6.13.2.1. <strong>Consultar Egreso e Ingreso Generado de la Transferencia</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#cierre-de-caja">6.13.3. <strong>Cierre de Caja</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html">7. <strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html">8. <strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html">9. <strong>Gestión de Saldos Pendientes</strong></a></li>
 </ul>
 <p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
 <ul>
@@ -183,7 +212,9 @@
     
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
         
-      <li><strong>Traspaso a Banco</strong></li>
+          <li><a href="index.html"><span class="section-number">6. </span><strong>Gestión PDV</strong></a> &raquo;</li>
+        
+      <li><span class="section-number">6.13. </span><strong>Traspaso a Banco</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
@@ -203,7 +234,7 @@
            <div itemprop="articleBody">
             
   <div class="section" id="traspaso-a-banco">
-<span id="documento-traspaso-a-banco"></span><h1><strong>Traspaso a Banco</strong><a class="headerlink" href="#traspaso-a-banco" title="Permalink to this headline">¶</a></h1>
+<span id="documento-traspaso-a-banco"></span><h1><span class="section-number">6.13. </span><strong>Traspaso a Banco</strong><a class="headerlink" href="#traspaso-a-banco" title="Permalink to this headline">¶</a></h1>
 <p>El procedimiento para registrar en ADempiere un traspaso monetario desde una caja a un banco determinado, se debe realizar de la siguiente manera.</p>
 <p>Cuando se tiene solamente transacciones por tarjeta de débito o crédito, efectuadas por medio del punto de venta. Se debe realizar el proceso <a class="reference internal" href="#documento-deposito-a-caja"><span class="std std-ref">Depósito de Caja</span></a> y por último el proceso <a class="reference internal" href="#documento-cierre-de-caja-por-depositos"><span class="std std-ref">Cierre de Caja</span></a>, para llevar la caja a cero (0) nuevamente.</p>
 <p>Si por el contrario, se tiene solamente transacciones por pago móvil y transferencia bancaria. Se debe realizar el proceso <a class="reference internal" href="#documento-transferencia-bancaria-por-depositos"><span class="std std-ref">Transferencia Bancaria</span></a> por cada una de las transacciones y por último el proceso <a class="reference internal" href="#documento-cierre-de-caja-por-depositos"><span class="std std-ref">Cierre de Caja</span></a>, para llevar la caja a cero (0) nuevamente.</p>
@@ -215,7 +246,7 @@
 </div></blockquote>
 <p>Cada uno de los procesos nombrados anteriormente son explicados a continuación.</p>
 <div class="section" id="deposito-de-caja">
-<span id="documento-deposito-a-caja"></span><h2><strong>Depósito de Caja</strong><a class="headerlink" href="#deposito-de-caja" title="Permalink to this headline">¶</a></h2>
+<span id="documento-deposito-a-caja"></span><h2><span class="section-number">6.13.1. </span><strong>Depósito de Caja</strong><a class="headerlink" href="#deposito-de-caja" title="Permalink to this headline">¶</a></h2>
 <p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Gestión de Saldos Pendientes</strong>”, luego seleccione la carpeta “<strong>Diario de Caja</strong>”, por último seleccione la ventana “<strong>Depósito de Caja</strong>”.</p>
 <blockquote>
 <div><p><img alt="menu deposito a caja" src="../../_images/deposit-to-cash-menu.png" /></p>
@@ -333,7 +364,7 @@
 <p>Imagen 23. Opción OK</p>
 </div></blockquote>
 <div class="section" id="consultar-egreso-e-ingreso-generado-del-deposito">
-<h3><strong>Consultar Egreso e Ingreso Generado del Depósito</strong><a class="headerlink" href="#consultar-egreso-e-ingreso-generado-del-deposito" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.13.1.1. </span><strong>Consultar Egreso e Ingreso Generado del Depósito</strong><a class="headerlink" href="#consultar-egreso-e-ingreso-generado-del-deposito" title="Permalink to this headline">¶</a></h3>
 <p>Al consultar el documento de egreso generado en la ventana “<strong>Caja</strong>”, con ayuda del número de documento ingresado en el campo “<strong>No. del Documento</strong>” de la ventana “<strong>Depósito de Caja</strong>”.</p>
 <blockquote>
 <div><p><img alt="consulta de egreso en caja por deposito" src="../../_images/check-out-checkout-by-deposit.png" /></p>
@@ -347,7 +378,7 @@
 </div>
 </div>
 <div class="section" id="transferencia-bancaria">
-<span id="documento-transferencia-bancaria-por-depositos"></span><h2><strong>Transferencia Bancaria</strong><a class="headerlink" href="#transferencia-bancaria" title="Permalink to this headline">¶</a></h2>
+<span id="documento-transferencia-bancaria-por-depositos"></span><h2><span class="section-number">6.13.2. </span><strong>Transferencia Bancaria</strong><a class="headerlink" href="#transferencia-bancaria" title="Permalink to this headline">¶</a></h2>
 <p>Realice el procedimiento regular para registrar una transferencia bancaria en ADempiere, el mismo se encuentra explicado de manera detallada en el documento <a class="reference internal" href="../open-items/bank-transfer/bank-transfer.html#documento-procedimiento-para-realizar-una-transferencia-bancaria"><span class="std std-ref">Registro de Transferencia Bancaria</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>. Considerando las siguientes restricciones:</p>
 <blockquote>
 <div><ul class="simple">
@@ -373,7 +404,7 @@
 </div>
 </div></blockquote>
 <div class="section" id="consultar-egreso-e-ingreso-generado-de-la-transferencia">
-<h3><strong>Consultar Egreso e Ingreso Generado de la Transferencia</strong><a class="headerlink" href="#consultar-egreso-e-ingreso-generado-de-la-transferencia" title="Permalink to this headline">¶</a></h3>
+<h3><span class="section-number">6.13.2.1. </span><strong>Consultar Egreso e Ingreso Generado de la Transferencia</strong><a class="headerlink" href="#consultar-egreso-e-ingreso-generado-de-la-transferencia" title="Permalink to this headline">¶</a></h3>
 <p>Al consultar el documento de egreso generado en la ventana “<strong>Caja</strong>”, con ayuda del número de documento ingresado en el campo “<strong>No. del Documento</strong>” de la ventana “<strong>Transferencia Bancaria</strong>”.</p>
 <blockquote>
 <div><p><img alt="consulta de egreso en caja por transferencia de deposito" src="../../_images/consultation-of-cash-out-by-deposit-transfer.png" /></p>
@@ -387,7 +418,7 @@
 </div>
 </div>
 <div class="section" id="cierre-de-caja">
-<span id="documento-cierre-de-caja-por-depositos"></span><h2><strong>Cierre de Caja</strong><a class="headerlink" href="#cierre-de-caja" title="Permalink to this headline">¶</a></h2>
+<span id="documento-cierre-de-caja-por-depositos"></span><h2><span class="section-number">6.13.3. </span><strong>Cierre de Caja</strong><a class="headerlink" href="#cierre-de-caja" title="Permalink to this headline">¶</a></h2>
 <p>Realice el procedimiento regular para registrar un cierre de caja en ADempiere, el mismo se encuentra explicado de manera detallada en el documento <a class="reference internal" href="../open-items/cash-closing/cash-closing.html#documento-procedimiento-para-realizar-un-cierre-de-caja"><span class="std std-ref">Registro de Cierre de Caja</span></a>, elaborado por <a class="reference external" href="http://erpya.com">ERPyA</a>.</p>
 <blockquote>
 <div><p>Se selecciona la caja administrativa para llevar esta a cero (0) nuevamente, transfiriendo el saldo de la caja al banco. Este proceso se debe realizar por cada caja administrativa a la que igreso dinero por las ventas del día.</p>
@@ -411,6 +442,10 @@
            
           </div>
           <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="../requisition-to-invoice/index.html" class="btn btn-neutral float-right" title="7. Gestión de Compras" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="closing-cash.html" class="btn btn-neutral float-left" title="6.12. Cierre de Caja del Punto de Venta" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
 
   <hr/>
 
