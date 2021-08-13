@@ -3,13 +3,11 @@
 **3.9.3-rs-1.2**
 ================
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - latest
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
 - Se actualiza la documentación de la :ref:`src/adempiere/pos-management`, para agregar el documento :ref:`documento/anular-facturas-fiscales`.
 
