@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-02-09
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.2
 - CST-STD: Versión de Liberación: rs-20.1
@@ -27,15 +27,12 @@
 - Migration-Tools: 1.0.1
 - LVE: 1.2.6
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Consigned-Material: Set current vendor by default after save
 
+.. data:: Novedades:
 
-**Novedades:**
---------------
+.. data:: Correcciones:
 
-- **Correcciones:**
-
- - Se establece por defecto el campo "Proveedor Actual" en las compras de producto
+- Se establece por defecto el campo "Proveedor Actual" en las compras de producto
