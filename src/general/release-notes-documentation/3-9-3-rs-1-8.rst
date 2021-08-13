@@ -1,0 +1,14 @@
+.. _documento/versión-3-9-3-rs-1-8:
+
+**3.9.3-rs-1.8**
+================
+
+.. data:: Soporte a Versiones:
+
+- latest
+
+.. data:: Novedades:
+
+- Se actualiza la documentación "**Extracto Bancario con Pagos en Lotes**", específicamente el documento del banco "**Banplus**", por cambio de longitud proveniente de directrices del banco. Esta actualización fue liberada en la versión :ref:`documento/versión-20-6`, en la cual se cambia la longitud de caracteres para la columna "**Identificación Destinatario**" a "**9**".
+
+- Se actualiza la documentación "**Ventas en Consignación**", en base a la actualización del proceso, liberada en la versión :ref:`documento/versión-20-9`.
