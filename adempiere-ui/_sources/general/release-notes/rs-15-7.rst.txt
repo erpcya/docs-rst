@@ -3,15 +3,14 @@
 **rs-15.7**
 ===========
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase:
- 
+
     - Versión de Liberación: 3.9.3-rs-4.0
 
 - CST-STD
- 
+
     - Versión de Liberación: rs-19.3
 
 - Consigned-Material: 1.1.1
@@ -30,15 +29,13 @@
 - Additional-Reports: 1.0.1
 - LVE: 1.2.3
 
-**Nota crítica:**
------------------
+.. data:: Nota Crítica:
 
 - Se deben aplicar los siguientes XML's:
- 
+
     - Additional-Reports: 05790_Add_Currency_for_Statement_of_Account.xml
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD: Remove unnecessary patches and add compatibility with 3.9.3-rs-4.0 from a role. This prevent a "Token Not Found" message
 - Cash-Management: Remove Functionality Setup Implementation for replace by core setup
@@ -57,10 +54,9 @@
 - LVE: Se agrega configuración para LVE
 - Additional-Reports: Add support to multi-currency for account statement
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
-- Cambios menores:
- 
+.. data:: Cambios Menores:
+
     - Se agrega la moneda al estado de cuentas por socio de negocio
     - Ahora se puede generar el Estado de Cuentas de Socio de Negocios en múltiples monedas

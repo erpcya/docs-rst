@@ -3,32 +3,28 @@
 **rs-14.1**
 ===========
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - Consigned-Material: 1.0.8
 
-**Requerimientos:**
-------------------------
+.. data:: Requerimientos:
 
 Antes de aplicar esta versión se debe aplicar los siguientes XML's
 
-- Consigned-Material: 
+- Consigned-Material:
 
-  - 07270_Fixed_duplicated_Purchase_Orders.xml
+    - 07270_Fixed_duplicated_Purchase_Orders.xml
 
-**Nota crítica:**
------------------
+.. data:: Nota Crítica:
 
 Es obligatorio aplicar los XML's antes del cambio puesto que se requieren para:
 
 - Consigned-Material:
 
-  - Agrega soporte a columna virtual para evitar duplicidad en órdenes de compra
+    - Agrega soporte a columna virtual para evitar duplicidad en órdenes de compra
 
-  - Elimina columnas innecesarias para el Buscador de Facturas en el Crear Desde en Cuentas por Pagar
+    - Elimina columnas innecesarias para el Buscador de Facturas en el Crear Desde en Cuentas por Pagar
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
 - Se corrige problemas con duplicidad en órdenes de compras al momento de crear lineas de documento por pagar desde Facturas de Entrega Directa

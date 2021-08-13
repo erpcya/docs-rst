@@ -1,0 +1,12 @@
+.. _documento/versión-3-9-3-rs-1-9:
+
+**3.9.3-rs-1.9**
+================
+
+.. data:: Soporte a Versiones:
+
+- latest
+
+.. data:: Novedades:
+
+- Se agrega la documentación de la "**Validación de Inventario en Orden de Venta**", que le explica a los usuarios la finalidad de dicha actualización y su funcionalidad en ADempiere. La misma fue liberada en la versión de ADempiere :ref:`documento/versión-22-4`.

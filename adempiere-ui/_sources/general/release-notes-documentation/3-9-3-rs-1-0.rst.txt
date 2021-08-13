@@ -3,13 +3,11 @@
 **3.9.3-rs-1.0**
 ================
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - latest
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
 - Se agrega la documentación :ref:`src/general/release-notes`
 
