@@ -1,9 +1,9 @@
-.. _documento/versión-24-0:
+.. _documento/versión-24-1:
 
-**rs-24.0**
+**rs-24.1**
 ===========
 
-**Fecha de Liberación:** 2021-08-12
+**Fecha de Liberación:** 2021-08-13
 
 **Soporte a versiones:**
 ------------------------
@@ -31,32 +31,20 @@
 - Notification-Queue: 1.0.4
 - Point-Of-Sales-Improvements: 1.0.4
 - Kafka-Replicator-Client: 1.0.2
-- Core-Tools: 1.0.4
+- Core-Tools: 1.0.5
 
 **Detalle Técnico:**
 --------------------
 
 - Core-Tools: Fixed error with Account Name
-- Consigned-Material: Add support to Landed Cost based on Product PO
-- CST-STD: Fixed error with group columns for reports
 
 **Requerimientos**
 ------------------
 
 - Aplicar binario de la aplicación
 
-- Aplicar los siguientes XML's:
-
-  - Consigned-Material: 07820_Consigned_Material_Add_Landed_Cost_Product_PO.xml
-
-**Correcciones**
-----------------
-
-  - Copia de nombre para cuenta bancaria
-  - Se corrige un error crítico con la sumatoria de las columnas de los reportes cuando se tienen mas de una columna convertida apuntando a la misma columnna
 
 **Mejoras**
 -----------
 
-- Se agrega campo para manejar costo adicional en pestaña de compras de productos
-- Se agrega Visor Inteligente para aplicar un porcentaje de incremento de costo adicional a las compras de productos en lote
+- Se agrega el socio de negocio asignado a la organización
