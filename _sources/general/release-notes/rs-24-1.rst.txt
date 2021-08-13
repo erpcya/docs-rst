@@ -30,19 +30,24 @@
 - Queue-Manager: 1.0.4
 - Notification-Queue: 1.0.4
 - Point-Of-Sales-Improvements: 1.0.4
-- Kafka-Replicator-Client: 1.0.2
+- Kafka-Replicator-Client: 1.0.3
 - Core-Tools: 1.0.5
 
 **Detalle Técnico:**
 --------------------
 
 - Core-Tools: Fixed error with Account Name
+- Kafka-Replicator-Client: Fixed error with sunsubscribe kafka service
 
 **Requerimientos**
 ------------------
 
 - Aplicar binario de la aplicación
 
+**Correcciones**
+----------------
+
+- Se corrige exceso de hilos para el consumo de servicio kafka
 
 **Mejoras**
 -----------
