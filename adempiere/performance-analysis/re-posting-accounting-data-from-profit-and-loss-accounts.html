@@ -1,0 +1,413 @@
+
+
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+  <title>Re-contabilizar Datos Contables de Cuentas de Ganancia y Perdida &mdash; ERPYA 1.0 Documentation</title>
+  
+
+  
+  <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+
+  
+  
+
+  
+  
+
+  
+
+  
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+    
+      <script type="text/javascript" id="documentation_options" data-url_root="../../" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+        <script src="../../_static/language_data.js"></script>
+    
+    <script type="text/javascript" src="../../_static/js/theme.js"></script>
+
+    
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Gestión de Costos" href="costing/index.html" />
+    <link rel="prev" title="Proceso de Nómina Regular" href="transaction-accounting/regular-payroll-process.html" /> 
+</head>
+
+<body class="wy-body-for-nav">
+
+   
+  <div class="wy-grid-for-nav">
+    
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+          
+
+          
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+          
+
+          
+            
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          
+          </a>
+
+          
+            
+            
+              <div class="version">
+                1.0
+              </div>
+            
+          
+
+          
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+
+          
+        </div>
+
+        
+        <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="main navigation">
+          
+<h2>Tabla de Contenido</h2>
+
+            
+            
+              
+            
+            
+              <p class="caption"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/bot/index.html"><strong>Soporte en Bot</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Gestión Contable</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="type-of-application.html"><strong>Tipo de Aplicación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting-element/index.html"><strong>Elemento Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="opening-accounting-period.html"><strong>Apertura de Período Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="unposted-documents.html"><strong>Documentos sin Aplicar</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting-dimensions.html"><strong>Dimensiones Contables</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting-combination.html"><strong>Combinación Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="currency-conversion/index.html"><strong>Conversión Monetaria</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="gl-distribution/index.html"><strong>Distribución Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting-setup-master/index.html"><strong>Configuración Contable (Maestros)</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="transaction-accounting/index.html"><strong>Contabilidad de Transacciones</strong></a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Re-contabilizar Datos Contables de Cuentas de Ganancia y Perdida</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="costing/index.html"><strong>Gestión de Costos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="gl-journal-batch/index.html"><strong>Diario Contable</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="accounting-reports/index.html"><strong>Reportes Contables</strong></a></li>
+</ul>
+</li>
+</ul>
+<p class="caption"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../bot/index.html"><strong>Bot</strong></a></li>
+</ul>
+
+            
+          
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+        
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+
+      
+      <nav class="wy-nav-top" aria-label="top navigation">
+        
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+        
+      </nav>
+
+
+      <div class="wy-nav-content">
+        
+        <div class="rst-content">
+        
+          
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div role="navigation" aria-label="breadcrumbs navigation">
+
+  <ul class="wy-breadcrumbs">
+    
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+        
+          <li><a href="index.html"><strong>Gestión Contable</strong></a> &raquo;</li>
+        
+      <li><strong>Re-contabilizar Datos Contables de Cuentas de Ganancia y Perdida</strong></li>
+    
+    
+      <li class="wy-breadcrumbs-aside">
+        
+          
+            <a href="../../_sources/adempiere/performance-analysis/re-posting-accounting-data-from-profit-and-loss-accounts.rst.txt" rel="nofollow"> View page source</a>
+          
+        
+      </li>
+    
+  </ul>
+
+  
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+            
+  <div class="section" id="re-contabilizar-datos-contables-de-cuentas-de-ganancia-y-perdida">
+<span id="documento-re-contabilizar-datos-contables-de-cuentas-de-ganancia-y-perdida"></span><h1><strong>Re-contabilizar Datos Contables de Cuentas de Ganancia y Perdida</strong><a class="headerlink" href="#re-contabilizar-datos-contables-de-cuentas-de-ganancia-y-perdida" title="Permalink to this headline">¶</a></h1>
+<p>Ubique y seleccione en el menú de ADempiere, la carpeta “<strong>Análisis de Desempeño</strong>”, luego seleccione la ventana “<strong>Asientos Contables</strong>”.</p>
+<blockquote>
+<div><p><img alt="menú de asientos contables" src="../../_images/accounting-entries-menu.png" /></p>
+<p>Imagen 1. Menú de ADempiere</p>
+</div></blockquote>
+<p>Una vez visualizada la ventana “<strong>Asientos Contables</strong>”, se procede a ubicar el registro del asiento contable que requiere actualizar. Esta búsqueda se puede realizar seleccionando el filtro “<strong>Hecho Contable</strong>” e ingresando el “<strong>ID</strong>” del mismo. Como ejemplo se tiene el hecho contable “<strong>5726493</strong>”.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>De igual manera, se puede realizar la búsqueda utilizando los filtros “<strong>Cuenta</strong>”, “<strong>Fecha Contable</strong>”, “<strong>Fecha de la Transacción</strong>”, entre otros que van a depender de lo que requiera el usuario en su momento.</p>
+</div>
+<p><img alt="registro de hecho contable en la ventana asientos contables" src="../../_images/record-of-accounting-fact-in-the-accounting-entries-window.png" /></p>
+<p>Imagen 2. Registro de Hecho Contable</p>
+</div></blockquote>
+<p>Luego de ubicar el hecho contable, se debe seleccionar la opción “<strong>ID de Registro</strong>”, para acercar de manera rápida el registro de la asignación en la ventana “<strong>Consulta de Asignación</strong>”.</p>
+<blockquote>
+<div><p><img alt="asignación entre factura y cobro de la ventana consulta de asignación" src="../../_images/assignment-between-invoice-and-collection-from-the-assignment-query-window.png" /></p>
+<p>Imagen 3. Asignación entre Factura y Cobro</p>
+</div></blockquote>
+<p>Una vez en el registro de la asignación entre el cobro y la factura, se debe seleccionar la pestaña “<strong>Asignaciones</strong>” de la ventana “<strong>Consulta de Asignación</strong>”, para acceder desde allí al registro de la factura asociada a dicha asignación.</p>
+<blockquote>
+<div><p><img alt="pestaña asignaciones de la ventana consulta de asignación" src="../../_images/assignments-tab-of-the-assignment-query-window.png" /></p>
+<p>Imagen 4. Pestaña Asignaciones</p>
+</div></blockquote>
+<p>Para acercar de manera rápida el registro de la factura asociada, se debe hacer clic contrario sobre el campo “<strong>Factura</strong>” y seleccionar la opción “<strong>Acercar</strong>”.</p>
+<blockquote>
+<div><p><img alt="opción acercar del campo factura de la pestaña asignaciones" src="../../_images/zoom-option-of-the-invoice-field-of-the-assignments-tab.png" /></p>
+<p>Imagen 5. Opción Acercar del campo Factura</p>
+</div></blockquote>
+<p>Podrá visualizar la ventana “<strong>Documentos por Cobrar</strong>” con el registro de la factura asociada.</p>
+<blockquote>
+<div><p><img alt="registro de factura en la ventana documentos por cobrar" src="../../_images/invoice-posting-in-the-documents-receivable-window.png" /></p>
+<p>Imagen 6. Registro de Factura</p>
+</div></blockquote>
+<p>En la misma se debe verificar el tipo de conversión que esta posee, ya que este debe ser a la tasa del día de la factura. Es decir, si la factura tiene fecha “<strong>16/03/2021</strong>”, el tipo de conversión de la factura debe ser “<strong>BCV 16/03/2021</strong>”. De no tener el tipo de conversión indicado antes, se debe crear un tipo de conversión y su respectiva tasa de cambio, donde la fecha de inicio de la tasa debe ser la fecha de la factura y la fecha final de la tasa debe ser la fecha que tiene el último cobro realizado en relación a dicha factura. Ejemplo:</p>
+<ul>
+<li><p>Tipo de conversión “<strong>BCV 16/03/2021</strong>”</p></li>
+<li><p>Tasa de cambio “<strong>1.835.000,0</strong>”</p></li>
+<li><p>Válido Desde “<strong>16/03/2021</strong>”</p></li>
+<li><p>Válido Hasta “<strong>16/03/2021</strong>”</p>
+<blockquote>
+<div><p><img alt="tipo de conversión y tasa a la fecha de la factura" src="../../_images/conversion-rate-and-rate-on-invoice-date.png" /></p>
+<p>Imagen 7. Tipo de Conversión y Tasa de Cambio a la Fecha de la Factura</p>
+</div></blockquote>
+</li>
+</ul>
+<p>Cuando se tenga el tipo de conversión y tasa de cambio a la fecha de la factura, se debe cambiar el valor que se encuentra en el campo “<strong>Tipo de Conversión</strong>” de la factura y seleccionar el tipo de conversión creado. Continuando con el ejemplo, el tipo de conversión a seleccionar sería “<strong>BCV 16/03/2021</strong>”.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si el tipo de conversión no puede ser visualizado, debe hacer clic contario sobre el campo y selecionar la opción “<strong>Refrescar</strong>”, para actualizar los valores que muestra el mismo.</p>
+</div>
+<p><img alt="nuevo tipo de conversión en la factura de la ventana documentos por cobrar" src="../../_images/new-type-of-conversion-in-the-invoice-of-the-window-documents-receivable.png" /></p>
+<p>Imagen 8. Nuevo Tipo de Conversión</p>
+</div></blockquote>
+<p>Luego se debe guardar el registro y seleccionar la pestaña “<strong>Facturas Pagadas</strong>” de la ventana “<strong>Documentos por Cobrar</strong>”, para visualizar los cobros asociados a la factura.</p>
+<blockquote>
+<div><p><img alt="pestaña facturas pagadas de la ventana documentos por cobrar" src="../../_images/paid-invoices-tab-of-the-documents-receivable-window.png" /></p>
+<p>Imagen 9. Pestaña Facturas Pagadas</p>
+</div></blockquote>
+<p>Se debe copiar el valor que se encuentra en el campo “<strong>Pago</strong>” y ubicarlo en la ventana “<strong>Caja</strong>”.</p>
+<blockquote>
+<div><p><img alt="registro del cobro en la ventana caja" src="../../_images/payment-record-in-the-cash-window.png" /></p>
+<p>Imagen 10. Registro del Cobro</p>
+</div></blockquote>
+<p>Una vez ubicado el registro del cobro asociado a la factura, se debe cambiar el tipo de conversión que tiene el mismo y asociar el tipo de conversión creado para luego guardar el registro.</p>
+<blockquote>
+<div><div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Si el tipo de conversión no puede ser visualizado, debe hacer clic contario sobre el campo y selecionar la opción “<strong>Refrescar</strong>”, para actualizar los valores que muestra el mismo.</p>
+</div>
+<p><img alt="nuevo tipo de conversión en el cobro de la ventana caja" src="../../_images/new-type-of-conversion-in-the-cash-window-collection.png" /></p>
+<p>Imagen 11. Nuevo Tipo de Conversión</p>
+</div></blockquote>
+<p>El cobro debe ser re-contabilizado, para ello se debe seleccionar la opción “<strong>Contabilizado</strong>” ubicada en la parte inferior derecha del cobro.</p>
+<blockquote>
+<div><p><img alt="opción contabilizado en la ventana caja" src="../../_images/option-posted-in-box-window.png" /></p>
+<p>Imagen 12. Opción Contabilizado del Cobro</p>
+</div></blockquote>
+<p>Al visualizar la ventana “<strong>Información Contable</strong>”, se activa el check “<strong>Forzar</strong>” y se selecciona la opción “<strong>Re-Contabilizar</strong>”.</p>
+<blockquote>
+<div><p><img alt="check forzar y opción re-contabilizar cobro" src="../../_images/check-force-and-re-post-collection-option.png" /></p>
+<p>Imagen 13. Check Forzar y Opción Re-Contabilizar Cobro</p>
+</div></blockquote>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>En la ventana emergente de confirmación, se debe seleccionar la opción “<strong>OK</strong>” para ejecutar el proceso.</p>
+</div>
+<p>Finalmente, se debe ubicar de nuevo el registro de la asignación entre el cobro y la factura en la ventana “<strong>Consulta de Asignación</strong>”, en la cual se debe seleccionar la pestaña principal “<strong>Asignación</strong>” y la opción “<strong>Contabilizado</strong>”.</p>
+<blockquote>
+<div><p><img alt="pestaña principal asignación de la ventana consulta de asignación" src="../../_images/assignment-main-tab-of-assignment-query-window.png" /></p>
+<p>Imagen 14. Pestaña Principal Asignación de la Ventana Consulta de Asignación</p>
+</div></blockquote>
+<p>Luego de visualizar la ventana “<strong>Información Contable</strong>”, se debe activar el check “<strong>Forzar</strong>” y seleccionar la opción “<strong>Re-Contabilizar</strong>”.</p>
+<blockquote>
+<div><p><img alt="check forzar y opción re-contabilizar asignación" src="../../_images/check-force-and-re-post-assignment-option.png" /></p>
+<p>Imagen 15. Check Forzar y Opción Re-Contabilizar Asignación</p>
+</div></blockquote>
+<p>Este proceso se debe repetir por cada uno de los cobros que tenga asociado la factura.</p>
+<p>Por último, se ubica nuevamente el hecho contable de la ventana “<strong>Asientos Contables</strong>” y se selecciona el icono “<strong>Refrescar</strong>”, para actualizar el registro de la ventana y confirmar que el proceso fue realizado de manera exitosa. De ser así, podrá visualizar la ventana “<strong>Asientos Contables</strong>” sin ningún registro.</p>
+<blockquote>
+<div><p><img alt="resultado del proceso re-contabilizar datos contables" src="../../_images/result-of-the-process-re-posting-accounting-data.png" /></p>
+<p>Imagen 16. Resultado del Proceso Re-Contabilizar Datos Contables</p>
+</div></blockquote>
+</div>
+
+
+           </div>
+           
+          </div>
+          <footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
+        <a href="costing/index.html" class="btn btn-neutral float-right" title="Gestión de Costos" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="transaction-accounting/regular-payroll-process.html" class="btn btn-neutral float-left" title="Proceso de Nómina Regular" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>
+        &#169; Copyright 2020, ADempiere ERP.
+
+    </p>
+  </div>
+    
+    
+    
+    Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    
+    provided by <a href="https://readthedocs.org">Read the Docs</a>. 
+
+</footer>
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div>
+
+  <script type="text/javascript">
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script>
+
+  
+  
+    
+   
+
+</body>
+</html>
