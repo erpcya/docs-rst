@@ -3,8 +3,7 @@
 **rs-15.5**
 ===========
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase:
 
@@ -29,8 +28,7 @@
 - Withholding: 1.0.5
 - LVE: 1.2.3
 
-**Nota crítica:**
------------------
+.. data:: Nota Crítica:
 
 - Se deben aplicar los siguientes XML's:
  
@@ -74,8 +72,7 @@
 
 - Después de Eliminar los validadores de modelo se deben aplicar los setup's de cada una de las funcionalidades
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD: Just a little change that set client from role when a token is generated from a role. This prevent a "Token Not Found" message
 - Cash-Management: Remove Functionality Setup Implementation for replace by core setup
@@ -93,10 +90,9 @@
 - Withholding: Add Deploy for Withholding engine
 - LVE: Se agrega configuración para LVE
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
-- **Cambios menores:**
+.. data:: Cambios Menores:
 
     - Se remueve configuración financiera para uso basado en core de ADempiere
     - Se elimina validación de tipo de documento en pagos

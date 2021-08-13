@@ -1,5 +1,4 @@
 .. _ERPyA: http://erpya.com
-
 .. _src/general/release-notes-documentation:
 
 =====================================
@@ -11,6 +10,8 @@ Las notas de liberación de documentación, muestran todo el histórico de cambi
 .. toctree::
     :maxdepth: 2
 
+    3-9-3-rs-1-9
+    3-9-3-rs-1-8
     3-9-3-rs-1-7
     3-9-3-rs-1-6
     3-9-3-rs-1-5

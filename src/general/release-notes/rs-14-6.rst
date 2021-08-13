@@ -3,8 +3,7 @@
 **rs-14.6**
 ===========
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - FiscalPrinter:
  
@@ -23,9 +22,8 @@
 - FiscalPrinter-Listener:
  
     - Versión de Liberación: rs-2.5
-  
-**Requerimientos:**
--------------------
+
+.. data:: Requerimientos:
 
 Antes de aplicar esta versión se debe consiferar tener los siguientes servicios
 
@@ -40,9 +38,8 @@ Antes de aplicar esta versión se debe consiferar tener los siguientes servicios
 - FiscalPrinter-Listener:
  
     - Reconexión con el servidor
- 
-**Nota crítica:**
------------------
+
+.. data:: Nota Crítica:
 
 - Al montar la versión 1.2.6 de FiscalPrinter es obligatorio tener la versión de liberación rs-2.2 de FiscalPrinter-Listener, si no se tiene configurado el listener los documentos impresos no serán actualizados
 - A partir de esta versión se debe cambiar la configuración de los documentos fiscales:
@@ -51,8 +48,7 @@ Antes de aplicar esta versión se debe consiferar tener los siguientes servicios
     - La forma de imprimir un documento fiscal será a través del botón / proceso de "Imprimir Factura En Impresora Fiscal"
     - Desde el POS se usará el "Manejador de Impresión de Tickets" "Print Ticket Handler"
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - FiscalPrinter-API:
   
@@ -72,10 +68,9 @@ Antes de aplicar esta versión se debe consiferar tener los siguientes servicios
  
     - Soporte a la versión 1.3.3 de Fiscal Printer API
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
-- **Mejoras:**
+.. data:: Mejoras:
 
     - Se disminuye el tiempo de espera entre ADempiere y el servidor de impresión fiscal
     - El envío del documento fiscal se convierte en un envío asíncrono

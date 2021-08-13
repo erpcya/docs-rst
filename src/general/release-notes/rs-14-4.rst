@@ -3,72 +3,67 @@
 **rs-14.4**
 ===========
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - FiscalPrinter:
 
- - Librería: org.erpya.adempiere.fiscal-printer.fiscal-printer-client
- - Versión: 1.2.5
+    - Librería: org.erpya.adempiere.fiscal-printer.fiscal-printer-client
+    - Versión: 1.2.5
 
 - FiscalPrinter-Server:
 
- - Versión de Liberación: rs-3.5
+    - Versión de Liberación: rs-3.5
 
 - CST-STD:
- 
- - Versión de Liberación: rs-18.5
 
-**Requerimientos:**
--------------------
+    - Versión de Liberación: rs-18.5
+
+.. data:: Requerimientos:
 
 Antes de aplicar esta versión se debe aplicar los siguientes XML's
 
 - FiscalPrinter: 
 
- - 07000_Change_Column_Type_for_Fiscal_Print_Date.xml
+    - 07000_Change_Column_Type_for_Fiscal_Print_Date.xml
 
 - FiscalPrinter-Server:
 
- - Montar el nuevo servicio de Impresión Fiscal
+    - Montar el nuevo servicio de Impresión Fiscal
 
-**Nota crítica:**
------------------
+.. data:: Nota Crítica:
 
 Es obligatorio aplicar los XML's antes del cambio puesto que se requieren para:
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - FiscalPrinter: 
 
- - Cambio de tipo de columna de Fecha a Fecha más Hora en C_Invoice.FiscalPrintDate
- - Soporte a guardar la fecha y hora de impresión del documento fiscal
- - Corrección de número de documento <Serie de Impresora>-<null>
+    - Cambio de tipo de columna de Fecha a Fecha más Hora en C_Invoice.FiscalPrintDate
+    - Soporte a guardar la fecha y hora de impresión del documento fiscal
+    - Corrección de número de documento <Serie de Impresora>-<null>
 
 - FiscalPrinter-Server:
- 
- - Validación de error cuando no existe conexión al servidor RethinkDB
+
+    - Validación de error cuando no existe conexión al servidor RethinkDB
 
 - CST-STD:
- 
- - Soporte a escribir fecha y hora de impresión de documento fiscal
- - Implementación de caché para id de tablas basado en el nombre
- - Corrección de nombres de transacciones cuando se POInfo y POInfoColumn
 
-**Novedades:**
---------------
+    - Soporte a escribir fecha y hora de impresión de documento fiscal
+    - Implementación de caché para id de tablas basado en el nombre
+    - Corrección de nombres de transacciones cuando se POInfo y POInfoColumn
 
-- **Mejoras:**
- 
- - Se agrega soporte a registro de fecha y hora de impresión de documento fiscal en el documento de cuentas por pagar
- - Se implementa caché para ID de tablas cuando se buscan según su nombre
- - Se escribe la instancia de atributos en la orden de devolución desde la entrega o factura
+.. data:: Novedades:
 
-- **Correcciones:**
+.. data:: Mejoras:
 
- - Corrección de número de documento cuando no se tiene respuesta de la impresora: antes se escribía así **Serie de Impresora**-**null** ahora sólo deja que se incremente el correlativo
- - Corrección de transacciones pendientes:
-   
-   - 3037 | Select AD_Reference_ID FROM AD_Column WHERE AD_Column_ID=$1
-   - 3038 | Select AD_Reference_ID FROM AD_Column WHERE AD_Column_ID=$1
+    - Se agrega soporte a registro de fecha y hora de impresión de documento fiscal en el documento de cuentas por pagar
+    - Se implementa caché para ID de tablas cuando se buscan según su nombre
+    - Se escribe la instancia de atributos en la orden de devolución desde la entrega o factura
+
+.. data:: Correcciones:
+
+    - Corrección de número de documento cuando no se tiene respuesta de la impresora: antes se escribía así **Serie de Impresora**-**null** ahora sólo deja que se incremente el correlativo
+    - Corrección de transacciones pendientes:
+
+        - 3037 | Select AD_Reference_ID FROM AD_Column WHERE AD_Column_ID=$1
+        - 3038 | Select AD_Reference_ID FROM AD_Column WHERE AD_Column_ID=$1

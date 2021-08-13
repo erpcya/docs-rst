@@ -3,13 +3,11 @@
 **3.9.3-rs-1.1**
 ================
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - latest
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
 - Se actualiza la documentación "**Conversión Manual**", para agregar el proceso de creación de la "**Tasa de Conversión desde la Ventana Tasa de Cambio**".
 
