@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-06-03
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-22.4
@@ -30,24 +30,21 @@
 - Queue-Manager: 1.0.0
 - Point-Of-Sales-Improvements: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Point-Of-Sales-Improvements:
 
-  - Add Stock validation for Sales Orders based on document type
+    - Add Stock validation for Sales Orders based on document type
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Aplicar los siguientes XML'S
 
 - Point-Of-Sales-Improvements: 
 
-  - 07790_Add_Validation_for_Stock.xml
-  - 07800_Add_Functionalidty_setup_for_stock_validation.xml
+    - 07790_Add_Validation_for_Stock.xml
+    - 07800_Add_Functionalidty_setup_for_stock_validation.xml
 
-**Mejoras**
-----------------
+.. data:: Mejoras:
 
-  - Se agrega funcionalidad para validación de inventario en las órdenes de ventas con tipo de documento marcado como "Validar Disponibilidad"
+    - Se agrega funcionalidad para validación de inventario en las órdenes de ventas con tipo de documento marcado como "Validar Disponibilidad"

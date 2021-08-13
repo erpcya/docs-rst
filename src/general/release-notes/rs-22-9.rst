@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-06-09
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-23.0
@@ -31,19 +31,16 @@
 - Notification-Queue: 1.0.4
 - Point-Of-Sales-Improvements: 1.0.2
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD:
 
-  - Fixed error with axis column for String Type
+    - Fixed error with axis column for String Type
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Aplicar el XML de CST-STD: 07860_Fixed_error_with_string_value_for_axis_browser.xml
 
-**Correcciones**
-----------------
+.. data:: Correcciones:
 
-  - Error con columnas del tipo cross tab y String en Visor Inteligente
+    - Error con columnas del tipo cross tab y String en Visor Inteligente
