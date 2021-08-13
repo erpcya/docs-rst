@@ -3,8 +3,7 @@
 **rs-16.4**
 ===========
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase:
 
@@ -31,14 +30,10 @@
 - Migration-Tools: 1.0.1
 - LVE: 1.2.3
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Consigned-Material: Add support to set Price Limit to sales invoice
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
-- **Novedades:**
-
-    - Se establece el precio limite de compra en las facturas de ventas desde las compras del producto
+- Se establece el precio limite de compra en las facturas de ventas desde las compras del producto

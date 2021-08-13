@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-07-21
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-23.4
@@ -32,17 +32,14 @@
 - Point-Of-Sales-Improvements: 1.0.4
 - Kafka-Replicator-Client: 1.0.1
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Kafka-Replicator-Client: Add support to Kafka replicator exporter and importer as client of ADempiere ERP
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 - Aplicar binario de la aplicación
 
-**Mejoras**
-----------------
+.. data:: Mejoras:
 
-  - Se agrega un nuevo cliente de replicación basado en Kafka server: Ahora se puede usar el servidor de colas de Kafka como servidor de replicación para ADempiere
+    - Se agrega un nuevo cliente de replicación basado en Kafka server: Ahora se puede usar el servidor de colas de Kafka como servidor de replicación para ADempiere

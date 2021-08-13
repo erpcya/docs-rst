@@ -117,10 +117,7 @@
 <li class="toctree-l3"><a class="reference internal" href="rs-21-3.html"><strong>rs-21.3</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="rs-21-2.html"><strong>rs-21.2</strong></a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>rs-21.1</strong></a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#soporte-a-versiones"><strong>Soporte a versiones:</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#detalle-tecnico"><strong>Detalle Técnico:</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#requerimientos"><strong>Requerimientos</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#correcciones"><strong>Correcciones</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#fecha-de-liberacion-2021-05-19"><strong>Fecha de Liberación:</strong> 2021-05-19</a></li>
 </ul>
 </li>
 <li class="toctree-l3"><a class="reference internal" href="rs-21-0.html"><strong>rs-21.0</strong></a></li>
@@ -250,9 +247,13 @@
             
   <div class="section" id="rs-21-1">
 <span id="documento-version-21-1"></span><h1><strong>rs-21.1</strong><a class="headerlink" href="#rs-21-1" title="Permalink to this headline">¶</a></h1>
-<p><strong>Fecha de Liberación:</strong> 2021-05-19</p>
-<div class="section" id="soporte-a-versiones">
-<h2><strong>Soporte a versiones:</strong><a class="headerlink" href="#soporte-a-versiones" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="fecha-de-liberacion-2021-05-19">
+<h2><strong>Fecha de Liberación:</strong> 2021-05-19<a class="headerlink" href="#fecha-de-liberacion-2021-05-19" title="Permalink to this headline">¶</a></h2>
+<dl class="data">
+<dt>
+<code class="sig-name descname">Soporte a Versiones:</code></dt>
+<dd></dd></dl>
+
 <ul class="simple">
 <li><p>ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3</p></li>
 <li><p>CST-STD: Versión de Liberación: rs-21.2</p></li>
@@ -274,48 +275,63 @@
 <li><p>LVE: 1.3.3</p></li>
 <li><p>Performance-Analysis: 1.0.2</p></li>
 </ul>
-</div>
-<div class="section" id="detalle-tecnico">
-<h2><strong>Detalle Técnico:</strong><a class="headerlink" href="#detalle-tecnico" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>Cash-Management:</p>
+<dl class="data">
+<dt>
+<code class="sig-name descname">Detalle Técnico:</code></dt>
+<dd></dd></dl>
+
 <ul>
+<li><p>Cash-Management:</p>
+<blockquote>
+<div><ul class="simple">
 <li><p>Add validation rule for show all active bank account</p></li>
 </ul>
+</div></blockquote>
 </li>
 <li><p>Third-Party-Access:</p>
-<ul>
+<blockquote>
+<div><ul class="simple">
 <li><p>Fixed error saving record access for business partner</p></li>
 </ul>
+</div></blockquote>
 </li>
 </ul>
-</div>
-<div class="section" id="requerimientos">
-<h2><strong>Requerimientos</strong><a class="headerlink" href="#requerimientos" title="Permalink to this headline">¶</a></h2>
+<dl class="data">
+<dt>
+<code class="sig-name descname">Requerimientos:</code></dt>
+<dd></dd></dl>
+
 <p>Se deben aplicar los siguientes XMLs en el proyecto:</p>
-<p><strong>Cash-Management</strong></p>
+<ul>
+<li><p><strong>Cash-Management</strong></p>
 <blockquote>
 <div><ul class="simple">
 <li><p>07090_Add_Validation_Rule_for_Deposit.xml</p></li>
 </ul>
 </div></blockquote>
-<ul class="simple">
+</li>
 <li><p><strong>LVE</strong></p>
-<ul>
+<blockquote>
+<div><ul class="simple">
 <li><p>0102_Mostrar_Tipo_de_Conversion.xml.xml</p></li>
 </ul>
+</div></blockquote>
 </li>
 <li><p><strong>Third-Party-Access</strong></p>
-<ul>
+<blockquote>
+<div><ul class="simple">
 <li><p>05840_Add_Entity_Type_for_Third_Party_Access.xml</p></li>
 <li><p>05850_Add_Third_Party_Access_Functionality.xml</p></li>
 <li><p>05860_Add_Setup_for_Third_Party_Access.xml</p></li>
 </ul>
+</div></blockquote>
 </li>
 </ul>
-</div>
-<div class="section" id="correcciones">
-<h2><strong>Correcciones</strong><a class="headerlink" href="#correcciones" title="Permalink to this headline">¶</a></h2>
+<dl class="data">
+<dt>
+<code class="sig-name descname">Correcciones:</code></dt>
+<dd></dd></dl>
+
 <ul class="simple">
 <li><p>Se permite ver siempre el tipo de conversión en todos los documentos.</p></li>
 <li><p>Se correige problemas con acceso de tercero por usuario</p></li>

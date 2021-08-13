@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-07-21
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-23.4
@@ -31,19 +31,17 @@
 - Notification-Queue: 1.0.4
 - Point-Of-Sales-Improvements: 1.0.4
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Additional-Reports: Enlarge Length for Description of Business Partner Statement of Account
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 - Aplicar binario de la aplicación
 - Aplicar los XML's:
-  - Additional-Reports: 05800_Enlage_Length_for_Business_Partner_Account_Statement.xml
 
-**Correcciones**
-----------------
+    - Additional-Reports: 05800_Enlage_Length_for_Business_Partner_Account_Statement.xml
 
-  - Se agrega compatibilidad con aumento de tamaño de texto en Orden de Venta, Compra y Documentos por Pagar y Cobrar
+.. data:: Correcciones:
+
+    - Se agrega compatibilidad con aumento de tamaño de texto en Orden de Venta, Compra y Documentos por Pagar y Cobrar

@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-06-03
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-22.4
@@ -29,23 +29,20 @@
 - Performance-Analysis: 1.0.2
 - Queue-Manager: 1.0.0
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Consigned-Material:
 
-  - Add **Price PO** for Consigned Detail Report
+    - Add **Price PO** for Consigned Detail Report
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 Aplicar los siguientes XML'S
 
 - Consigned-Material: 
 
-  - 07780_Add_PricePO_for_View.xml
+    - 07780_Add_PricePO_for_View.xml
 
-**Mejoras**
-----------------
+.. data:: Mejoras:
 
-  - Se agrega precio de compras en vista de reporte Detalle de Productos en Consignación
+    - Se agrega precio de compras en vista de reporte Detalle de Productos en Consignación

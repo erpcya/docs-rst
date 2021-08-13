@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-04-20
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-21.0
@@ -28,30 +28,27 @@
 - LVE: 1.2.9
 - Performance-Analysis: 1.0.0
 
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - CST-STD: Soporte para Contabilidad Basada en Tipo de Documento Base
 - Performance-Analysis: Se agrega configuracion para las funcionalidades:
-	- Tipo de Documento Base sin Contabilidad
-	- Tipo de Documento Base para Notas Contables
+    - Tipo de Documento Base sin Contabilidad
+    - Tipo de Documento Base para Notas Contables
 
-**Requerimientos**
-------------------
+.. data:: Requerimientos:
 
 - CST-STD: Aplicar los xmls de el pull request https://github.com/adempiere/adempiere/pull/3418
-	- migration/393lts-394lts/07670_Add_Document_Base_Type_Window.xml
-	- migration/393lts-394lts/07680_Add_Document_Base_Type_Field_On_Document_Type_Window.xml
-	- migration/393lts-394lts/07690_Add_Document_Base_Type_Data.xml
+    - migration/393lts-394lts/07670_Add_Document_Base_Type_Window.xml
+    - migration/393lts-394lts/07680_Add_Document_Base_Type_Field_On_Document_Type_Window.xml
+    - migration/393lts-394lts/07690_Add_Document_Base_Type_Data.xml
 - Performance-Analysis: Aplicar los xmls
-	- xml/migration/07700_Add_EntityType_Performance_Analysis.xml
-	- xml/migration/07710_Add_Functionality_Setup_Performance_Analysis.xml
+    - xml/migration/07700_Add_EntityType_Performance_Analysis.xml
+    - xml/migration/07710_Add_Functionality_Setup_Performance_Analysis.xml
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
 - Soporte a Contabilidad por Tipo de Documento Base: Funcionalidad Contabilidad personalizada por Tipo de Documento Base. https://github.com/adempiere/adempiere/pull/3418
 - Configuración para No Generar contabilidad por Tipo de Documento Base. (Not Post Document Setup)
 - Configuración para Generar contabilidad en todos los esquemas contables para Notas Contables. (Accounting GL Journal for All Accounting Schemes)
 
-- **Correcciones**
+.. data:: Correcciones:

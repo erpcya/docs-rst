@@ -120,14 +120,7 @@
 <li class="toctree-l3"><a class="reference internal" href="rs-14-7.html"><strong>rs-14.7</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="rs-14-6.html"><strong>rs-14.6</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="rs-14-5.html"><strong>rs-14.5</strong></a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>rs-14.4</strong></a><ul>
-<li class="toctree-l4"><a class="reference internal" href="#soporte-a-versiones"><strong>Soporte a versiones:</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#requerimientos"><strong>Requerimientos:</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#nota-critica"><strong>Nota crítica:</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#detalle-tecnico"><strong>Detalle Técnico:</strong></a></li>
-<li class="toctree-l4"><a class="reference internal" href="#novedades"><strong>Novedades:</strong></a></li>
-</ul>
-</li>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>rs-14.4</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="rs-14-3.html"><strong>rs-14.3</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="rs-14-2.html"><strong>rs-14.2</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="rs-14-1.html"><strong>rs-14.1</strong></a></li>
@@ -250,63 +243,70 @@
             
   <div class="section" id="rs-14-4">
 <span id="documento-version-14-4"></span><h1><strong>rs-14.4</strong><a class="headerlink" href="#rs-14-4" title="Permalink to this headline">¶</a></h1>
-<div class="section" id="soporte-a-versiones">
-<h2><strong>Soporte a versiones:</strong><a class="headerlink" href="#soporte-a-versiones" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>FiscalPrinter:</p></li>
-</ul>
+<dl class="data">
+<dt>
+<code class="sig-name descname">Soporte a Versiones:</code></dt>
+<dd></dd></dl>
+
+<ul>
+<li><p>FiscalPrinter:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>Librería: org.erpya.adempiere.fiscal-printer.fiscal-printer-client</p></li>
 <li><p>Versión: 1.2.5</p></li>
 </ul>
 </div></blockquote>
-<ul class="simple">
-<li><p>FiscalPrinter-Server:</p></li>
-</ul>
+</li>
+<li><p>FiscalPrinter-Server:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>Versión de Liberación: rs-3.5</p></li>
 </ul>
 </div></blockquote>
-<ul class="simple">
-<li><p>CST-STD:</p></li>
-</ul>
+</li>
+<li><p>CST-STD:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>Versión de Liberación: rs-18.5</p></li>
 </ul>
 </div></blockquote>
-</div>
-<div class="section" id="requerimientos">
-<h2><strong>Requerimientos:</strong><a class="headerlink" href="#requerimientos" title="Permalink to this headline">¶</a></h2>
-<p>Antes de aplicar esta versión se debe aplicar los siguientes XML’s</p>
-<ul class="simple">
-<li><p>FiscalPrinter:</p></li>
+</li>
 </ul>
+<dl class="data">
+<dt>
+<code class="sig-name descname">Requerimientos:</code></dt>
+<dd></dd></dl>
+
+<p>Antes de aplicar esta versión se debe aplicar los siguientes XML’s</p>
+<ul>
+<li><p>FiscalPrinter:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>07000_Change_Column_Type_for_Fiscal_Print_Date.xml</p></li>
 </ul>
 </div></blockquote>
-<ul class="simple">
-<li><p>FiscalPrinter-Server:</p></li>
-</ul>
+</li>
+<li><p>FiscalPrinter-Server:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>Montar el nuevo servicio de Impresión Fiscal</p></li>
 </ul>
 </div></blockquote>
-</div>
-<div class="section" id="nota-critica">
-<h2><strong>Nota crítica:</strong><a class="headerlink" href="#nota-critica" title="Permalink to this headline">¶</a></h2>
-<p>Es obligatorio aplicar los XML’s antes del cambio puesto que se requieren para:</p>
-</div>
-<div class="section" id="detalle-tecnico">
-<h2><strong>Detalle Técnico:</strong><a class="headerlink" href="#detalle-tecnico" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p>FiscalPrinter:</p></li>
+</li>
 </ul>
+<dl class="data">
+<dt>
+<code class="sig-name descname">Nota Crítica:</code></dt>
+<dd></dd></dl>
+
+<p>Es obligatorio aplicar los XML’s antes del cambio puesto que se requieren para:</p>
+<dl class="data">
+<dt>
+<code class="sig-name descname">Detalle Técnico:</code></dt>
+<dd></dd></dl>
+
+<ul>
+<li><p>FiscalPrinter:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>Cambio de tipo de columna de Fecha a Fecha más Hora en C_Invoice.FiscalPrintDate</p></li>
@@ -314,17 +314,15 @@
 <li><p>Corrección de número de documento &lt;Serie de Impresora&gt;-&lt;null&gt;</p></li>
 </ul>
 </div></blockquote>
-<ul class="simple">
-<li><p>FiscalPrinter-Server:</p></li>
-</ul>
+</li>
+<li><p>FiscalPrinter-Server:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>Validación de error cuando no existe conexión al servidor RethinkDB</p></li>
 </ul>
 </div></blockquote>
-<ul class="simple">
-<li><p>CST-STD:</p></li>
-</ul>
+</li>
+<li><p>CST-STD:</p>
 <blockquote>
 <div><ul class="simple">
 <li><p>Soporte a escribir fecha y hora de impresión de documento fiscal</p></li>
@@ -332,34 +330,39 @@
 <li><p>Corrección de nombres de transacciones cuando se POInfo y POInfoColumn</p></li>
 </ul>
 </div></blockquote>
-</div>
-<div class="section" id="novedades">
-<h2><strong>Novedades:</strong><a class="headerlink" href="#novedades" title="Permalink to this headline">¶</a></h2>
-<ul class="simple">
-<li><p><strong>Mejoras:</strong></p></li>
+</li>
 </ul>
-<blockquote>
-<div><ul class="simple">
+<dl class="data">
+<dt>
+<code class="sig-name descname">Novedades:</code></dt>
+<dd></dd></dl>
+
+<dl class="data">
+<dt>
+<code class="sig-name descname">Mejoras:</code></dt>
+<dd><ul class="simple">
 <li><p>Se agrega soporte a registro de fecha y hora de impresión de documento fiscal en el documento de cuentas por pagar</p></li>
 <li><p>Se implementa caché para ID de tablas cuando se buscan según su nombre</p></li>
 <li><p>Se escribe la instancia de atributos en la orden de devolución desde la entrega o factura</p></li>
 </ul>
-</div></blockquote>
-<ul class="simple">
-<li><p><strong>Correcciones:</strong></p></li>
-</ul>
-<blockquote>
-<div><ul class="simple">
+</dd></dl>
+
+<dl class="data">
+<dt>
+<code class="sig-name descname">Correcciones:</code></dt>
+<dd><ul>
 <li><p>Corrección de número de documento cuando no se tiene respuesta de la impresora: antes se escribía así <strong>Serie de Impresora</strong>-<strong>null</strong> ahora sólo deja que se incremente el correlativo</p></li>
 <li><p>Corrección de transacciones pendientes:</p>
-<ul>
+<blockquote>
+<div><ul class="simple">
 <li><p>3037 | Select AD_Reference_ID FROM AD_Column WHERE AD_Column_ID=$1</p></li>
 <li><p>3038 | Select AD_Reference_ID FROM AD_Column WHERE AD_Column_ID=$1</p></li>
 </ul>
+</div></blockquote>
 </li>
 </ul>
-</div></blockquote>
-</div>
+</dd></dl>
+
 </div>
 
 

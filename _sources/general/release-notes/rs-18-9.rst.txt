@@ -4,9 +4,9 @@
 ===========
 
 **Fecha de Liberación:** 2021-02-26
+-----------------------------------
 
-**Soporte a versiones:**
-------------------------
+.. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-20.2
@@ -27,22 +27,18 @@
 - Migration-Tools: 1.0.1
 - LVE: 1.2.8
 
-**Nota crítica:**
------------------
+.. data:: Nota Crítica:
 
 - Se deben aplicar los siguientes XML's:
 
- - Travel-Agency-Management:05850_Add_Traveler_as_Query_Criteria_for_SB_Create_From_Ticket.xml
+    - Travel-Agency-Management:05850_Add_Traveler_as_Query_Criteria_for_SB_Create_From_Ticket.xml
 
-
-**Detalle Técnico:**
---------------------
+.. data:: Detalle Técnico:
 
 - Travel-Agency-Management: Add Traveler as query parameter for SB create invoice from ticket
 
-**Novedades:**
---------------
+.. data:: Novedades:
 
-- **Mejoras:**
+.. data:: Mejoras:
 
- - Ahora se puede seleccionar el viajero al momento de crear una factura desde boleto de viaje
+- Ahora se puede seleccionar el viajero al momento de crear una factura desde boleto de viaje
