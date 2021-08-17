@@ -36,20 +36,26 @@
 .. data:: Detalle Técnico:
 
 - CST-STD: Add support to get record weight from kafka service
+
 - Point-Of-Sales-Improvements: Add support to Maximum Daily Refund attribute
+
 - Core-Tools: 1.0.7: Add process to Create copy from Accounting Schema
+
 - Additional-Reports: 1.0.4: Add Scriptlet support
 
 .. data:: Requerimientos:
 
 - Aplicar binario de la aplicación
+
 - Aplicar los XML's:
 
-  - Point-Of-Sales-Improvements:
-    - 07880_Add_Daily_Amount_to_Refunded.xml
-  
-  - Core-Tools: 1.0.7:
-    - 05020_Add_Copy_Accounting_Schema.xml
+    - Point-Of-Sales-Improvements:
+
+        - 07880_Add_Daily_Amount_to_Refunded.xml
+
+    - Core-Tools: 1.0.7:
+
+        - 05020_Add_Copy_Accounting_Schema.xml
 
 .. data:: Correcciones:
 
@@ -57,16 +63,29 @@
 .. data:: Mejoras:
 
 - Se implementa lectura de dispositivo de peso (Romana) usando el servicio de kafka
+
 - Se agregan atributos al punto de venta para control de:
-  - Permitir Cambiar Cantidades
-  - Permitir Cobrar Pedido
-  - Permitir Devolver Pedido
-  - Máximo de cambio Diario
-  - Solicitar PIN para operaciones específicas:
-    - Tipos de Documentos: dependiendo el tipo ya se puede decidir si se pide PIN o no
-    - Lista de Precios: dependiendo de la lista de precios se puede o no solicitar PIN
-    - Almacén: dependiendo del almacén se solicita PIN
-    - Tipo de Pago:
-      - Permite Establecer Máximos por día y operación
-      - Permite seleccionar cuales son los tipos de pago que se pueden usar para dar cambio en la caja
+
+    - Permitir Cambiar Cantidades
+
+    - Permitir Cobrar Pedido
+
+    - Permitir Devolver Pedido
+
+    - Máximo de cambio Diario
+
+    - Solicitar PIN para operaciones específicas:
+
+        - Tipos de Documentos: dependiendo el tipo ya se puede decidir si se pide PIN o no
+
+        - Lista de Precios: dependiendo de la lista de precios se puede o no solicitar PIN
+
+        - Almacén: dependiendo del almacén se solicita PIN
+
+        - Tipo de Pago:
+
+            - Permite Establecer Máximos por día y operación
+
+            - Permite seleccionar cuales son los tipos de pago que se pueden usar para dar cambio en la caja
+
 - Se agrega scriplet que permite obtener los adjuntos desde ADempiere usando como reporteador iReport
