@@ -15,7 +15,7 @@ jobs:
     - uses: actions/checkout@master
     - uses: ammaraskar/sphinx-action@master
       with:
-        pre-build-command: "pip install sphinx_rtd_theme"
+        pre-build-command: "pip install sphinx_rtd_theme && pip install sphinx-paramlinks>=0.5.1 &&  pip install sphinx>=4.0"
         docs-folder: "src/"
         build-command: "sphinx-build -b html . _build/html"
 #    - uses: actions/upload-artifact@v1
@@ -24,7 +24,7 @@ jobs:
 #        path: src/_build/html/
     - uses: ammaraskar/sphinx-action@master
       with:
-        pre-build-command: "pip install sphinx_rtd_theme"
+        pre-build-command: "pip install sphinx_rtd_theme && pip install sphinx-paramlinks>=0.5.1 &&  pip install sphinx>=4.0"
         docs-folder: "src/"
         build-command: "sphinx-build -b epub . _build/epub"
 #    - uses: actions/upload-artifact@v1
