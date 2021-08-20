@@ -33,7 +33,7 @@ jobs:
 #        path: src/_build/epub/
     - uses: ammaraskar/sphinx-action@master
       with:
-        pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
+        pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended && pip install sphinx-paramlinks>=0.5.1 &&  pip install sphinx>=4.0"
         build-command: "make latexpdf"
         docs-folder: "src/"
 #    - uses: actions/upload-artifact@v1
