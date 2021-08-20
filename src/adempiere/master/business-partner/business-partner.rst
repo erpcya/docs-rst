@@ -249,3 +249,4 @@ Proceda al llenado de los campos necesarios que a continuación se detallan.
 
     vendor/index
     customer/index
+    employee/index
