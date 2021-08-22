@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@master
-    - uses: ammaraskar/sphinx-action@master
+    - uses: raul-mz/sphinx-action@master
       with:
         pre-build-command: "pip install sphinx_rtd_theme"
         docs-folder: "src/"
@@ -22,7 +22,7 @@ jobs:
 #      with:
 #        name: DocumentacionHTML
 #        path: src/_build/html/
-    - uses: ammaraskar/sphinx-action@master
+    - uses: raul-mz/sphinx-action@master
       with:
         pre-build-command: "pip install sphinx_rtd_theme"
         docs-folder: "src/"
@@ -31,7 +31,7 @@ jobs:
 #      with:
 #        name: DocumentacionEPUB
 #        path: src/_build/epub/
-    - uses: ammaraskar/sphinx-action@master
+    - uses: raul-mz/sphinx-action@master
       with:
         pre-build-command: "apt-get update -y && apt-get install -y latexmk texlive-latex-recommended texlive-latex-extra texlive-fonts-recommended"
         build-command: "make latexpdf"

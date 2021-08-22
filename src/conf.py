@@ -211,4 +211,4 @@ html_css_files = [
     'css/style.css',
 ]
 def setup(app):
-    app.add_stylesheet("css/style.css")
+    app.add_css_file("css/style.css")
