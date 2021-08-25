@@ -1,6 +1,6 @@
-.. _documento/versión-25-5:
+.. _documento/versión-25-6:
 
-**rs-25.5**
+**rs-25.6**
 ===========
 
 **Fecha de Liberación:** 2021-08-25
