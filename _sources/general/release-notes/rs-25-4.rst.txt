@@ -51,8 +51,8 @@
   
   - CST-STD:
     - 09250_Add_Payment_Method_on_Payment.xml
-- Verificar que se encuentre en el menú: Material Management -> Product Reports -> 
-  - **Product Catalog**
+- Verificar que se encuentre en el menú: Cotización a Factura -> Órdenes de Venta -> Punto de Ventas -> 
+  - **Detalle de Ventas, Cobranza y Reembolso (PDV)**
 
 .. data:: Correcciones:
 
