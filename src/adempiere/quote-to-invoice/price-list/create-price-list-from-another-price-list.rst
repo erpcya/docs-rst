@@ -21,13 +21,13 @@
 
 Para ejemplificar el caso de creación de una lista de precios desde otra, se tiene la versión de lista de precios base "**2021-03-03 09:03:41**", creada en la lista de precios "**Ventas (USD)**". De igual manera, se tiene la tasa de cambio de "**VES**" a "**USD**" y viceversa, con monto de "**1.877.000,00**", a la fecha "**03/03/2021**".
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Materiales**", luego seleccione la carpeta "**Reglas de Gestión de Materiales**", por último seleccione la ventana "**Lista de Precios**". 
+Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Materiales**", luego seleccione la carpeta "**Reglas de Gestión de Materiales**", por último seleccione la ventana "**Lista de Precios**". 
 
     |menú de lista de precios|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Lista de Precios**", con todos los registros de listas de precios de compras y ventas.
+Podrá visualizar la ventana "**Lista de Precios**", con todos los registros de listas de precios de compras y ventas.
 
     |ventana lista de precios|
 
@@ -37,31 +37,31 @@ Para ejemplificar el caso de creación de una lista de precios desde otra, se ti
 
         La información de los campos que contiene la pestaña "**Lista de Precios**", no debe ser modificada por ningún motivo. De igual manera, no se debe tildar o destildar ningún check de los que contiene dicha pestaña.
 
-#. Ubique el registro de lista de precios de "**Ventas (VES)**".
+Ubique el registro de lista de precios de "**Ventas (VES)**".
 
     |registro de ventas ves para lista de precios desde otra|
 
     Imagen 3. Lista de Precios Ventas (VES)
 
-#. Seleccione la pestaña "**Versión**", para crear la versión de lista de precios desde otra versión de lista de precios.
+Seleccione la pestaña "**Versión**", para crear la versión de lista de precios desde otra versión de lista de precios.
 
     |pestaña versión para lista de precios desde otra|
 
     Imagen 4. Pestaña Versión
 
-#. Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de ADempiere.
 
     |icono registro nuevo para lista de precios desde otra|
 
     Imagen 5. Icono Registro Nuevo 
 
-#. Seleccione en el campo "**Válido Desde**", la fecha de inicio del periodo de validez del registro que se encuentra realizando.
+Seleccione en el campo "**Válido Desde**", la fecha de inicio del periodo de validez del registro que se encuentra realizando.
 
     |campo válido desde para lista de precios desde otra|
 
     Imagen 6. Campo Válido Desde
 
-#. Introduzca en el campo "**Nombre**", el nombre correspondiente a la versión de lista de precios que se encuentra creando.
+Introduzca en el campo "**Nombre**", el nombre correspondiente a la versión de lista de precios que se encuentra creando.
 
     Este campo contiene como nombre por defecto, la fecha y la hora en el cual fue creado el registro.
 
@@ -69,49 +69,57 @@ Para ejemplificar el caso de creación de una lista de precios desde otra, se ti
 
     Imagen 7. Campo Nombre
 
-#. Introduzca en el campo "**Descripción**", una breve descripción correspondiente al registro que se encuentra realizando.
+Introduzca en el campo "**Descripción**", una breve descripción correspondiente al registro que se encuentra realizando.
 
     |campo descripción para lista de precios desde otra|
 
     Imagen 8. Campo Descripción
 
-#. Seleccione en el campo "**Lista de Precios Base**", la versión de lista de precios base desde la cual requiere generar la lista de precios.
+Seleccione en el campo "**Lista de Precios Base**", la versión de lista de precios base desde la cual requiere generar la lista de precios.
 
     |campo lista de precios base para lista de precios desde otra|
 
     Imagen 9. Campo Lista de Precios
 
-#. Seleccione en el campo "**Esq List Precios/Desc**", el esquema de descuento correspondiente.
+Seleccione en el campo "**Esq List Precios/Desc**", el esquema de descuento correspondiente.
 
     |campo esquema de lista de precios descuento para lista de precios desde otra|
 
     Imagen 10. Campo Esq List Precios/Desc
 
-#. Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
+Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas de ADempiere.
 
     |icono guardar cambios para lista de precios desde otra|
 
     Imagen 11. Icono Guardar Cambios
 
-#. Seleccione la opción "**Crear Lista de Precios**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
+Seleccione la opción "**Crear Lista de Precios**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
     |opción crear lista de precios para lista de precios desde otra|
 
     Imagen 12. Opción Crear Lista de Precios del Icono Proceso
 
-#. Podrá visualizar la ventana "**Crear Lista de Precios**", con diferentes campos que permiten generar la lista de precios en base a lo requerido por el usuario.
+Podrá visualizar la ventana "**Crear Lista de Precios**", en donde podrá crear la lista de precios filtrando por los parámetros que se indican a continuación:
+            
+    - Productos
+    - Grupo de Producto
+    - Categoría de Producto
+    - Clase de Producto
+    - Clasificación de Producto
+
+Si no desea filtrar por ninguno de estos parámetros se generará la lista de todos los productos que presenten la configuración detallada anteriormente. También puede eliminar los registros de sus listas de precios anteriores.
 
     |ventana crear lista de precios para lista de precios desde otra|
 
     Imagen 13. Ventana Crear Lista de Precios
 
-#. Seleccione la opción "**OK**", para ejecutar el proceso y generar la lista de precios en base a lo seleccionado.
+Seleccione la opción "**OK**", para ejecutar el proceso y generar la lista de precios en base a lo seleccionado.
 
     |opción ok de la ventana crear lista de precios para lista de precios desde otra|
 
     Imagen 14. Opción OK
 
-#. Seleccione la pestaña "**Precio de Producto**" para verificar los precios de los productos, creados desde la lista de precios base seleccionada previamente.
+Seleccione la pestaña "**Precio de Producto**" para verificar los precios de los productos, creados desde la lista de precios base seleccionada previamente.
 
     |pestaña precio de producto para la lista de precios desde otra|
 
