@@ -20,46 +20,51 @@
 .. |Imprimir Facturas Generadas| image:: resources/print-invoices-generated-from-the-smart-search-window-generate-invoice-from-order-lines.png
 .. _documento/factura-desde-líneas-de-la-orden:
 
+
 **Generar Factura desde Líneas de la Orden**
 ============================================
 
-#. Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Genera Factura desde Líneas de la Orden**".
+Este proceso indica cómo crear un "**Documento por Cobrar**" partiendo de las reglas de facturación asociadas en las "**Órdenesrdenes de Venta**" realizadas previamente y si las mismas poseen un estado de documento completo. Con este procedimiento facilitaremos el registro de un nuevo documento sin la necesidad de llenar campo por campo como lo realizaríamos en la ventana "**Documento por Cobrar**" además de esto no solo podrá utilizar una sola orden de ventas, sino que podrá utilizar varias ordenes de ventas para crear un solo documento siempre y cuando las mismas estén asociadas al mismo socio de negocio.
+
+Para ello debe realizar el siguiente procediento que se explica a continuación:
+
+Ubique y seleccione en el menú de ADempiere, la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Facturas de Ventas**", por último seleccione la ventana "**Genera Factura desde Líneas de la Orden**".
 
     |Menú de ADempiere|
 
     Imagen 1. Menú de ADempiere
 
-#. Podrá visualizar la ventana "**Genera Factura desde Líneas de la Orden**" y proceder al llenado de los campos correspondientes para filtrar la búsqueda.
+Podrá visualizar la ventana "**Genera Factura desde Líneas de la Orden**" y proceder al llenado de los campos correspondientes para filtrar la búsqueda.
 
     |Ventana Generar Factura desde Líneas de la Orden|
 
     Imagen 2. Ventana Generar Factura desde Líneas de la Orden
 
-    #. Seleccione en el campo "**Agente Comercial**", el agente comercial por el cual se va a filtrar la búsqueda.
+    Seleccione en el campo "**Agente Comercial**", el agente comercial por el cual se va a filtrar la búsqueda. Si filtra solo por Agente Comercial solo verá las Líneas de las Órdenes de Venta que tiene asociados el agente comercial.
 
         |Campo Agente Comercial de la Ventana Generar Factura desde Líneas de la Orden|
 
         Imagen 3. Campo Agente Comercial de la Ventana Generar Factura desde Líneas de la Orden
 
-    #. Seleccione en el campo "**Fecha de la Orden**", la fecha de orden por la cual se va a filtrar la búsqueda.
+    Seleccione en el campo "**Fecha de la Orden**", la fecha de orden por la cual se va a filtrar la búsqueda. Podrá visualizar todas las Líneas de las Órdenes de Venta en estado Completo cuyas "**Fecha de la Orden**" sea igual a la solicitada.
 
         |Campo Fecha de la Orden de la Ventana Generar Factura desde Líneas de la Orden|
         
         Imagen 4. Campo Fecha de la Orden de la Ventana Generar Factura desde Líneas de la Orden
 
-    #. Seleccione en el campo "**Fecha Prometida**", la fecha prometida por la cual se va a filtrar la búsqueda.
+    Seleccione en el campo "**Fecha Prometida**", la fecha prometida por la cual se va a filtrar la búsqueda.Podrá visualizar todas las Líneas de las Órdenes de Venta en estado Completo cuyas "**Fecha Prometida**" sea igual a la solicitada.
 
         |Campo Fecha Prometida de la Ventana Generar Factura desde Líneas de la Orden|
 
         Imagen 5. Campo Fecha Prometida de la Ventana Generar Factura desde Líneas de la Orden
 
-    #. Seleccione en el campo "**Socio del Negocio**", el socio del negocio por el cual se va a filtrar la búsqueda.
+    Seleccione en el campo "**Socio del Negocio**", el socio del negocio por el cual se va a filtrar la búsqueda. Podrá visualizar todas las Lineas de las Órdenes de Ventas que tenga asociado el Socio de Negocio seleccionado
 
         |Campo Socio del Negocio de la Ventana Generar Factura desde Líneas de la Orden|
 
         Imagen 6. Campo Socio del Negocio de la Ventana Generar Factura desde Líneas de la Orden
     
-    #. Seleccione en el campo "**Producto**", el producto por cual se va a filtrar la búsqueda.
+    Seleccione en el campo "**Producto**", el producto por cual se va a filtrar la búsqueda. Con ese filtro podrá visualizar todas las líneas de las Órdenes de Ventas que tenga ese producto asociado.
 
         |Campo Producto de la Ventana Generar Factura desde Líneas de la Orden|
 
@@ -69,61 +74,66 @@
 
             La selección del producto puede realizarce ingresando en el campo "**Producto**", el "**Código**" del producto requerido. De igual manera, se puede realizar la búsqueda ingresando el "**Código de Barra**" o "**UPC/EAN**" en lugar del código del producto.
 
-    #. Seleccione la opción "**Comenzar Búsqueda**", para realizar la búsqueda de la información en base a los campos seleccionados.
+        
+        .. warning::
+
+            Si desea realizar una búsqueda más eficaz de una "**Orden de Venta**" particular, puede utilizar 2 o más filtros de los mencionados anteriormente. Si por alguna razón no aparece la Orden de Venta que usted requiere, puede  verificar el estado de su Orden y si está utilizando los filtros correctamente.
+
+    Seleccione la opción "**Comenzar Búsqueda**", para realizar la búsqueda de la información en base a los campos seleccionados.
 
         |Opción Comenzar Búsqueda de la Ventana Generar Factura desde Líneas de la Orden|
 
         Imagen 8. Opción Comenzar Búsqueda de la Ventana Generar Factura desde Líneas de la Orden
 
-        #. Seleccione las líneas de la orden desde las cuales requiere que sea generada la factura.
+        Seleccione las líneas de la orden desde las cuales requiere que sea generada la factura.
 
             |Selección de Líneas de la Orden de la Ventana Generar Factura desde Líneas de la Orden|
 
             Imagen 9. Selección de Líneas de la Orden de la Ventana Generar Factura desde Líneas de la Orden
 
-    #. Seleccione en el campo "**Fecha de Facturación**", la fecha en la cual se esta realizando la facturación.
+    Seleccione en el campo "**Fecha de Facturación**", la fecha en la cual se esta realizando la facturación.
 
         |Campo Fecha de Facturación de la Ventana Generar Factura desde Líneas de la Orden|
 
         Imagen 10. Campo Fecha de Facturación de la Ventana Generar Factura desde Líneas de la Orden
 
-    #. Podrá visualizar que el checklist "**Consolidado en un Documento**", se encuentra tildado por defecto.
+    Podrá visualizar que el checklist "**Consolidado en un Documento**", se encuentra tildado por defecto.
 
         |Checklist Consolidado en un Documento de la Ventana Generar Factura desde Líneas de la Orden|
 
         Imagen 11. Checklist Consolidado en un Documento de la Ventana Generar Factura desde Líneas de la Orden
 
-    #. Seleccione en el campo "**Organización de la Trans**", la organización para la cual esta generando la factura.
+    Seleccione en el campo "**Organización de la Trans**", la organización para la cual esta generando la factura.
 
         |Campo Organización de la Trans de la Ventana Generar Factura desde Líneas de la Orden|
 
         Imagen 12. Campo Organización de la Trans de la Ventana Generar Factura desde Líneas de la Orden
 
-    #. Seleccione en el campo "**Acción en el Documento**", la acción con la cual se generará la factura.
+    Seleccione en el campo "**Acción en el Documento**", la acción con la cual se generará la factura.
 
         |Campo Acción en el Documento de la Ventana Generar Factura desde Líneas de la Orden|
 
         Imagen 13. Campo Acción en el Documento de la Ventana Generar Factura desde Líneas de la Orden
 
-    #. Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_.
+    Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento **Tipo de Documento** elaborado por `ERPyA`_.
 
         |Campo Tipo de Documento Destino de la Ventana Generar Factura desde Líneas de la Orden|
 
         Imagen 14. Campo Tipo de Documento Destino de la Ventana Generar Factura desde Líneas de la Orden
 
-    #. Seleccione el checklist "**Agregar Línea de Referencia en Factura**", para que las líneas de referencia sean agregadas a la factura.
+    Seleccione el checklist "**Agregar Línea de Referencia en Factura**", para que las líneas de referencia sean agregadas a la factura.
 
         |Checklist Agregar Línea de Referencia en Factura de la Ventana Generar Factura desde Líneas de la Orden|
 
         Imagen 15. Checklist Agregar Línea de Referencia en Factura de la Ventana Generar Factura desde Líneas de la Orden
 
-    #. Seleccione la opción "**OK**", para generar el documento en base a lo seleccionado en los campos anteriormente explicados.
+    Seleccione la opción "**OK**", para generar el documento en base a lo seleccionado en los campos anteriormente explicados.
 
         |Opción OK de la Ventana Generar Factura desde Líneas de la Orden|
 
         Imagen 16. Opción OK de la Ventana Generar Factura desde Líneas de la Orden
 
-#. Podrá visualizar en la parte inferior de la ventana "**Genera Factura desde Líneas de la Orden**", el resultado del proceso realizado anteriormente.
+Podrá visualizar en la parte inferior de la ventana "**Genera Factura desde Líneas de la Orden**", el resultado del proceso realizado anteriormente.
 
     |Resultado del Proceso|
 
@@ -132,7 +142,7 @@
 **Consultar Facturas Generadas**
 --------------------------------
 
-#. Al consultar el registro en la ventana "**Documentos por Cobrar**", puede visualizar la factura de cuentas por cobrar generada desde la línea de la orden.
+Al consultar el registro en la ventana "**Documentos por Cobrar**", puede visualizar la factura de cuentas por cobrar generada desde la línea de la orden.
 
     |Consulta de Facturas Generadas|
 
@@ -141,7 +151,7 @@
 **Imprimir Facturas Generadas**
 -------------------------------
 
-#. Al imprimir el registro en la ventana "**Documentos por Cobrar**", seleccionando el icono "**Imprimir**" ubicado en la barra de herramientas de ADempiere, podrá visualizar de la siguiente manera la factura de ventas generada desde la línea de la orden. 
+Al imprimir el registro en la ventana "**Documentos por Cobrar**", seleccionando el icono "**Imprimir**" ubicado en la barra de herramientas de ADempiere, podrá visualizar de la siguiente manera la factura de ventas generada desde la línea de la orden. 
 
     |Imprimir Facturas Generadas|
 
