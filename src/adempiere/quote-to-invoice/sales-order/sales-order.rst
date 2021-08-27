@@ -35,6 +35,7 @@
 .. |campo cantidad facturada de la ventana órdenes de venta| image:: resources/invoiced-quantity-field-of-the-sales-orders-window.png
 .. |campo pmvp de la ventana órdenes de venta| image:: resources/pmvp-field-of-the-sales-orders-window.png
 .. |Campo Neto de Línea| image:: resources/net-field-of-line.png
+.. |pestaña impuestos de la orden de venta fiscal| image:: resources/main-tab-of-the-tax-sales-order.png
 .. |campo procesado de la ventana órdenes de venta| image:: resources/processed-field-of-the-sales-orders-window.png
 .. |pestaña orden| image:: resources/order-tab.png
 .. |campo total de líneas| image:: resources/total-field-of-lines.png
@@ -48,8 +49,31 @@
 
 .. _documento/orden-de-venta:
 
+
 **Registro de Orden de Venta**
 ==============================
+
+
+Las órdenes de venta son aquellos documentos en donde adquirimos un compromido de venta de los productos que comercializamos con nuestros clientes, en ADempiere es necesaria que exista dicha orden para poder que se generar una factura fiscal
+
+En la presente documentación usted podrá visualizar un paso a paso detallado de cómo registrar una orden de venta. En este caso, trabajaremos con una "**Orden de Venta Nacional**", y según el proceso que usted tenga configurado está orden de venta podrá generarle automáticamente un "**Documento por Cobrar**".
+
+Para generar en ADempiere una orden de venta, se debe contar de manera obligatoria con lo siguiente:
+
+- Debe existir el registro del socio del negocio cliente, con sus respectivos datos y dirección de localización. Es decir, se debe tener toda la información solicitada en las pestañas "**Socio del Negocio**", "**Cliente**" y "**Localización**" de la ventana "**Socio del Negocio**".
+
+    .. note::
+
+        Puede consultar el material :ref:`documento/socio-cliente`, para conocer el procedimiento de registro del socio.
+
+- El registro del producto de la venta, debe tener activo el check "**Vendido**". Adicional a ello, debe tener establecida la categoría de impuesto del mismo y estar asociado a lista de precio de ventas (VES, USD, EUR, entre otros). De no estar asociado a una lista de precios, ADempiere no permitirá que el producto sea cargado a la línea de la orden de venta.
+
+    .. note::
+
+        Puede consultar el material :ref:`documento/producto` y :ref:`src/adempiere/quote-to-invoice/price-list`, para conocer los respectivos procesos.
+
+Luego de verificar lo indicado anteriormente, se procede a crear el registro de la orden de venta, realizando lo que a continuación se explica.
+
 
 Ubique y seleccione en el menú de ADempiere la carpeta "**Gestión de Ventas**", luego seleccione la carpeta "**Órdenes de Venta**", por último seleccione la ventana "**Órdenes de Venta**".
 
@@ -77,7 +101,7 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
 
         .. warning::
 
-            El valor en el campo organización debe ser diferente del símbolo (*) ya que éste símbolo hace referencia a todas las organizaciones.
+            El valor en el campo organización debe ser diferente del símbolo (*) ya que estás son transacciones que deben realizarse por organización.
 
     En el campo "**No. de Documento**", no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de orden de venta.
 
@@ -136,10 +160,11 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
     Seleccione en el campo "**Contacto Entrega Directa**", el usuario de contacto con el socio del negocio cliente al cual se le realizará la venta.
 
         |Campo Contacto Entrega Directa|
+
         Imagen 14. Campo Contacto Entrega Directa
 
 
-    Posteriormenente en la tabla de "**ENTREGA**" usted puede visualizar los datos necesarios para realizar la entrega de la venta realizada.
+    Posteriormenente en el grupo de campo de "**ENTREGA**" usted puede visualizar los datos necesarios para realizar la entrega de la venta realizada.
 
     Seleccione en el campo "**Regla de Entrega**", la opción de cómo serán entregados los productos y servicios al socio del negocio cliente, entre las diferentes formas que posee disponible.
 
@@ -159,7 +184,7 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
 
         Imagen 17. Campo Almacén
 
-    En la siguiente tabla llamada "**FACTURACIÓN** encontrará los datos precargados para realizar una futura facturación del la orden de venta que está realizando.
+    En el grupo de campo de "**FACTURACIÓN** encontrará los datos precargados para realizar una futura facturación del la orden de venta que está realizando.
 
     Seleccione en el campo "**Regla de Facturación**", la regla de facturación entre las distintas que posee disponible para realizar la facturación de su orden de venta.
 
@@ -173,11 +198,19 @@ Seleccione el icono "**Registro Nuevo**" en la barra de herramientas de ADempier
 
         Imagen 19. Campo Lista de Precios
 
+        .. note::
+
+            La lista de precios que se selecciona, define la moneda con la cual se genera el documento que se encuentra realizando. De igual manera, los productos de la venta deben estar asociados a la lista de precios que sea seleccionada.
+
     Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión a utilizar para realizar para esta negociación, eso es fundamental para posteriores cobros que usted reciba
 
         |Campo Tipo de Conversión|
 
         Imagen 20. Campo Tipo de Conversión
+
+        .. note::
+
+            El tipo de conversión se maneja si se selecciona una lista de precios diferente a la moneda base de la compañía, este tipo de conversión deberá tener cargada la tasa que se maneje ese día para las ventas. Puede consultar el material :ref:`documento/conversión-monetaria-manual`, para más información sobre las tasas de cambio
 
     Seleccione en el campo "**Término de Pago**", las condiciones de pago que indican el método y tiempo de pago para esta transacción.
 
@@ -211,6 +244,10 @@ Seleccione la pestaña "**Línea de la Orden**" y proceda a seleccionar el "**Pr
 
         Imagen 24. Campo Producto
 
+        .. note::
+
+            Si es un servicio el que se ofrece, se debe seleccionar el servicio en el campo "**Cargo**".
+
     Introduzca en el campo "**Descripción**", una breve descripción sobre el producto o servicio seleccionado para la venta.
 
         |Campo Descripción|
@@ -234,6 +271,10 @@ Seleccione la pestaña "**Línea de la Orden**" y proceda a seleccionar el "**Pr
         |Campo Precio|
 
         Imagen 28. Campo Precio
+
+        .. note::
+
+        ADempiere automáticamente te muestra el precio asociado a la lista de precio seleccionada anteriormente,  de no ser así te indicará que tu producto no tiene establecido un precio en la lista de precios seleccionada.
 
     El campo "**Cantidad Ordenada**", indica la cantidad de un producto que fue ordenada.
 
@@ -295,61 +336,70 @@ Seleccione la pestaña "**Línea de la Orden**" y proceda a seleccionar el "**Pr
 
         Recuerde guardar el registro de la pestaña "**Línea de la Orden**" con el icono "**Guardar Cambios**" de la barra de herramientas de ADempiere, antes de cambiar a la ventana principal "**Orden**".
 
+Para visualizar el calculo total de los impuestos que se le asocien a la orden de venta, puede dirigirse a la pestaña "**Impuestos de la Orden**", La misma refleja el impuesto que se esta calculando, el total base del impuesto que corresponde a la sumatoria total de las líneas de la factura sin impuesto y el total del impuesto que corresponde a la sumatoria total del impuesto de todas las líneas de la factura.
+
+    |pestaña impuestos de la orden de venta fiscal|
+    
+        Imagen 38. Pestaña Impuestos de la Orden
+
 Regrese a la pestaña principal "**Orden**" para completar el documento que se encuentra realizando.
 
     |pestaña orden|
 
-    Imagen 38. Pestaña Orden
+    Imagen 39. Pestaña Orden
 
     El campo "**Total de Líneas**", indica el total de todas las líneas en la moneda del documento.
 
         |campo total de líneas|
 
-        Imagen 39. Campo Total del Líneas
+        Imagen 40. Campo Total del Líneas
 
     El campo "**Gran Total**", indica el total del documento incluyendo impuestos y totales de fletes.
 
         |campo gran total|
 
-        Imagen 40. Campo Gran Total
+        Imagen 41. Campo Gran Total
 
     El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
         |campo estado del documento|
 
-        Imagen 41. Campo Estado de Documento
+        Imagen 42. Campo Estado de Documento
 
     El campo "**Tipo de Documento**", indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.
 
         |campo tipo de documento|
 
-        Imagen 42. Campo Tipo de Documento
+        Imagen 43. Campo Tipo de Documento
 
 Seleccione la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
     |opción procesar orden en el icono proceso|
 
-    Imagen 43. Opción Procesar Orden en el Icono Proceso
+    Imagen 44. Opción Procesar Orden en el Icono Proceso
 
 Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Orden de Venta**".
 
     |Opción Completar|
 
-    Imagen 44. Opción Completar
+    Imagen 45. Opción Completar
 
+    .. note::
 
-Si en su proceso está configurado para que al completar la "**Orden de Venta**" se genere automaticamente el Documento por Cobrar se cumplirá el siguiente procedimiento: 
+    El registro del documento solamente es válido cuando se encuentra en estado "**Completo**". Si la misma se encuentra en otro estado de documento, no estará disponible para generar un documento por cobrar, entrega u otro.
+
+Si en su proceso está configurado para que al completar la "**Orden de Venta**" se genere automaticamente el "**Documento por Cobrar**" asociado a esa orden de se cumplirá el siguiente procedimiento: 
 
     Al completar el documento "**Orden de Venta**", se genera de manera automática y en estado "**Completo**", el documento de factura por cobrar con la orden de venta asociada.
 
     |factura generada|
 
-    Imagem 45. Número de Factura Generada
+    Imagem 46. Número de Factura Generada
 
 Dicha factura por cobrar se puede visualizar en la ventana "**Documentos por Cobrar**", al buscar la misma por el número de documento generado en la parte inferior izquierda de la ventana "**Órdenes de Venta**".
 
     |consulta factura generada|
 
-    Imagen 46. Consulta de Factura Generada
+    Imagen 47. Consulta de Factura Generada
 
 Si por el contrario en su proceso no está configurado para que se generé automáticamente la factura, puede realizar posterior su documento por cobrar en la ventana "**Documento por Cobrar**". Para conocer cómo realizar este documento puede consultar el material :ref:`documento/factura-desde-líneas-de-la-orden`

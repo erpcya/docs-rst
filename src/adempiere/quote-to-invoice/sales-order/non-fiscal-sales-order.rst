@@ -3,6 +3,7 @@
 .. |ventana órdenes de venta| image:: resources/sell-order-window.png
 .. |icono registro nuevo| image:: resources/new-record-icon.png
 .. |campo organización de la orden de venta no fiscal| image:: resources/organization-field-of-the-non-fiscal-sales-order.png
+.. |campo nro del documento de la ventana ordenes de venta no fiscal| image:: resources/document-number-field-of-the-non-fiscal-sales-order-window.png
 .. |campo descripción de la orden de venta no fiscal| image:: resources/non-fiscal-sales-order-description-field.png
 .. |campo fecha de la orden de la orden de venta no fiscal| image:: resources/non-fiscal-sales-order-order-date-field.png
 .. |campo socio del negocio de la orden de venta no fiscal| image:: resources/business-partner-field-of-the-non-tax-sales-order.png
@@ -88,101 +89,114 @@ Seleccione el icono "**Registro Nuevo**", ubicado en la barra de herramientas de
 
     Imagen 3. Icono Registro Nuevo
 
+ En el campo "**No. de Documento**", no es necesario ingresarlo en forma manual, al momento de realizar un registro, ADempiere genera un número de secuencia automáticamente para el documento, al seleccionar la opción guardar del nuevo registro de orden de venta.
+
+    |campo nro del documento de la ventana ordenes de venta no fiscal|
+
+    Imagen 4. Campo No. del Documento
+
 Seleccione en el campo "**Organización**", la organización para la cual se encuentra realizando el registro.
 
     |campo organización de la orden de venta no fiscal|
 
-    Imagen 4. Campo Organización
+    Imagen 5. Campo Organización
 
 Introduzca en el campo "**Descripción**", una breve descripción referente al registro de orden de venta que se encuentra realizando.
 
     |campo descripción de la orden de venta no fiscal|
 
-    Imagen 5. Campo Descripción
+    Imagen 6. Campo Descripción
 
 Seleccione en el campo "**Fecha de la Orden**", la fecha de elaboración del documento "**Orden de Venta No Fiscal**".
 
     |campo fecha de la orden de la orden de venta no fiscal|
 
-    Imagen 6. Campo Fecha de la Orden
+    Imagen 7. Campo Fecha de la Orden
 
 Seleccione en el campo "**Socio del Negocio**", el socio del negocio cliente al cual se le realizará la venta.
 
     |campo socio del negocio de la orden de venta no fiscal|
 
-    Imagen 7. Campo Socio del Negocio
+    Imagen 8. Campo Socio del Negocio
 
 Seleccione el tipo de documento a generar en el campo "**Tipo de Documento Destino**", la selección de este define el comportamiento del documento que se esta elaborando, dicho comportamiento se encuentra explicado en el documento "**Tipo de Documento**" elaborado por `ERPyA`_.
 
     |campo tipo de documento destino de la orden de venta no fiscal|
 
-    Imagen 8. Campo Tipo de Documento Destino
+    Imagen 9. Campo Tipo de Documento Destino
 
 Seleccione en el campo "**Fecha Prometida**", la fecha prometida del documento "**Orden de Venta No Fiscal**".
 
     |campo fecha prometida de la orden de venta no fiscal|
 
-    Imagen 9. Campo Fecha Prometida
+    Imagen 10. Campo Fecha Prometida
 
 Seleccione en el campo "**Dirección del Socio del Negocio**", la dirección de localización del socio del negocio.
 
     |campo dirección del socio del negocio de la orden de venta no fiscal|
 
-    Imagen 10. Campo Dirección del Socio del Negocio
+    Imagen 11. Campo Dirección del Socio del Negocio
 
 Seleccione en el campo "**Dirección Factura**", la dirección a ser impresa en la factura para la entrega del producto.
 
     |campo dirección factura de la orden de venta no fiscal|
 
-    Imagen 11. Campo Dirección Factura
+    Imagen 12. Campo Dirección Factura
 
 Seleccione en el campo "**Usuario**", el usuario de contacto con el socio del negocio cliente al cual se le realizará la venta.
 
     |campo usuario de la orden de venta no fiscal|
 
-    Imagen 12. Campo Usuario
+    Imagen 13. Campo Usuario
 
 Seleccione en el campo "**Contacto Entrega Directa**", el usuario de contacto con el socio del negocio cliente al cual se le realizará la venta.
 
     |campo contacto entrega directa de la orden de venta no fiscal|
 
-    Imagen 13. Campo Contacto Entrega Directa
+    Imagen 14. Campo Contacto Entrega Directa
+
+
+Posteriormenente en el grupo de campos de "**ENTREGA**" usted puede visualizar los datos necesarios para realizar la entrega de la venta realizada.
 
 Seleccione en el campo "**Regla de Entrega**", la regla de entrega para el documento que se encuentra realizando.
 
     |campo regla de entrega de la orden de venta no fiscal|
 
-    Imagen 14. Campo Regla de Entrega
+    Imagen 15. Campo Regla de Entrega
 
 Seleccione en el campo "**Prioridad**", la prioridad del documento que se encuentra realizando.
 
     |campo prioridad de la orden de venta no fiscal|
 
-    Imagen 15. Campo Prioridad
+    Imagen 16. Campo Prioridad
 
 Seleccione en el campo "**Almacén**", el almacén donde se encuentra el producto que se va a vender.
 
     |campo almacén de la orden de venta no fiscal|
 
-    Imagen 16. Campo Almacén
+    Imagen 17. Campo Almacén
+
+
+En el siguiente grupo de campos de "**FACTURACIÓN** encontrará los datos precargados para realizar una futura facturación del la orden de venta que está realizando.
+
 
 Seleccione en el campo "**Regla de Facturación**", la regla de facturación para el documento que se encuentra realizando.
 
     |campo regla de facturación de la orden de venta no fiscal|
 
-    Imagen 17. Campo Regla de Facturación
+    Imagen 18. Campo Regla de Facturación
 
 Seleccione en el campo "**Término de Pago**", el término de pago para el documento que se encuentra realizando.
 
     |campo término de pago de la orden de venta no fiscal|
 
-    Imagen 18. Campo Término de Pago
+    Imagen 19. Campo Término de Pago
 
 Seleccione en el campo "**Lista de Precios**", la lista de precios que será utilizada para la venta de los productos al socio del negocio cliente.
 
     |campo lista de precios de la orden de venta no fiscal|
 
-    Imagen 19. Campo Lista de Precios
+    Imagen 20. Campo Lista de Precios
 
     .. note::
 
@@ -192,13 +206,13 @@ Podrá visualizar en el campo "**Moneda**", la moneda que será utilizada para l
 
     |campo moneda de la orden de venta no fiscal|
 
-    Imagen 20. Campo Moneda
+    Imagen 21. Campo Moneda
 
 Seleccione en el campo "**Tipo de Conversión**", el tipo de conversión que será utilizado para la venta de los productos al socio del negocio cliente.
 
     |campo tipo de conversión de la orden de venta no fiscal|
 
-    Imagen 21. Campo Tipo de Conversión
+    Imagen 22. Campo Tipo de Conversión
 
     .. note::
 
@@ -208,7 +222,7 @@ Seleccione el icono "**Guardar Cambios**", ubicado en la barra de herramientas d
 
     |icono guardar cambios de la orden de venta no fiscal|
 
-    Imagen 22. Icono Guardar Cambios
+    Imagen 23. Icono Guardar Cambios
 
     .. note::
 
@@ -218,7 +232,7 @@ Seleccione la pestaña "**Línea de la Orden**", y proceda a llenar los campos c
 
     |pestaña línea de la orden de la orden de venta no fiscal|
 
-    Imagen 23. Pestaña Línea de la Orden
+    Imagen 24. Pestaña Línea de la Orden
 
 Seleccione en el campo "**Producto**", el producto que va a vender al socio del negocio cliente.
 
@@ -228,7 +242,7 @@ Seleccione en el campo "**Producto**", el producto que va a vender al socio del 
 
     |campo producto de la orden de venta no fiscal|
 
-    Imagen 24. Campo Producto
+    Imagen 25. Campo Producto
 
 .. note::
 
@@ -238,83 +252,83 @@ Introduzca en el campo "**Descripción**", una breve descripción sobre el produ
 
     |campo descripción de la línea de la orden de venta no fiscal|
 
-    Imagen 25. Campo Descripción
+    Imagen 26. Campo Descripción
 
 Seleccione en el campo "**Cantidad**", la cantidad a vender del producto seleccionado.
 
     |campo cantidad de la orden de venta no fiscal|
 
-    Imagen 26. Campo Cantidad
+    Imagen 27. Campo Cantidad
 
 Seleccione en el campo "**UM**", la unidad de medida a vender del producto seleccionado.
 
     |campo unidad de medida de la orden de venta no fiscal|
 
-    Imagen 27. Campo UM
+    Imagen 28. Campo UM
 
 Introduzca en el campo "**Precio**", el precio por unidad de medida del producto seleccionado para la venta.
 
     .. note::
 
-        ADempiere automáticamente te muestra el precio asociado a la lista de precio seleccionada anteriormente, pero es editable.
+        ADempiere automáticamente te muestra el precio asociado a la lista de precio seleccionada anteriormente, de no ser así te indicará que tu producto no tiene establecido un precio en la lista de precios seleccionada.
 
     |campo precio de la orden de venta no fiscal|
 
-    Imagen 28. Campo Precio
+    Imagen 29. Campo Precio
 
 El campo "**Cantidad Ordenada**", indica la cantidad de un producto que fue ordenada.
 
     |campo cantidad ordenada de la orden de venta no fiscal|
 
-    Imagen 29. Campo Cantidad Ordenada
+    Imagen 30. Campo Cantidad Ordenada
 
 Introduzca en el campo "**% Descuento**", el descuento aplicado a la venta.
 
     |campo porcentaje de descuento de la orden de venta no fiscal|
 
-    Imagen 30. Campo % Descuento
+    Imagen 31. Campo % Descuento
 
 Seleccione en el campo "**Impuesto**", el impuesto a ser aplicado al producto seleccionado.
 
     |campo impuesto de la orden de venta no fiscal|
 
-    Imagen 31. Campo Impuesto
+    Imagen 32. Campo Impuesto
 
 El campo "**Cantidad Reservada**", indica la cantidad del producto que ha sido reservado para otras órdenes.
 
     |campo cantidad reservada de la orden de venta no fiscal|
 
-    Imagen 32. Campo Cantidad Reservada
+    Imagen 33. Campo Cantidad Reservada
 
 El campo "**Cantidad Entregada**", indica la cantidad de un producto que ha sido entregado.
 
     |campo cantidad entregada de la orden de venta no fiscal|
 
-    Imagen 33. Campo Cantidad Entrega
+    Imagen 34. Campo Cantidad Entrega
 
 El campo "**Cantidad Facturada**", indica la cantidad de un producto que ha sido facturado.
 
     |campo cantidad facturada de la orden de venta no fiscal|
 
-    Imagen 34. Campo Cantidad Facturada
+    Imagen 35. Campo Cantidad Facturada
 
 El campo "**PMVP**", indica el precio marcado de venta al público.
 
     |campo pmvp de la orden de venta no fiscal|
 
-    Imagen 35. Campo PMVP
+    Imagen 36. Campo PMVP
 
 Podrá apreciar en el campo "**Neto de Línea**", el monto neto del producto por la cantidad ingresada.
 
     |campo neto de línea de la orden de venta no fiscal|
 
-    Imagen 36 Campo Neto de Línea
+    Imagen 37 Campo Neto de Línea
 
 El check "**Procesado**", indica que un documento ha sido procesado.
 
     |check procesado de la orden de venta no fiscal|
 
-    Imagen 37. Check Procesado
+    Imagen 38. Check Procesado
 
 .. warning::
 
@@ -324,50 +338,52 @@ Para visualizar el calculo total de los impuestos que se le asocien a la orden d
 
     |pestaña impuestos de la orden de venta no fiscal|
 
-    Imagen 38. Pestaña Impuestos de la Orden
+    Imagen 39. Pestaña Impuestos de la Orden
 
 Regrese a la pestaña principal "**Orden**" para completar el documento que se encuentra realizando.
 
     |pestaña principal de la orden de venta no fiscal|
 
-    Imagen 39. Pestaña Principal Orden
+    Imagen 40. Pestaña Principal Orden
 
 El campo "**Total de Líneas**", indica el total de todas las líneas en la moneda del documento.
 
     |campo total de líneas de la orden de venta no fiscal|
 
-    Imagen 40. Campo Total de Líneas
+    Imagen 41. Campo Total de Líneas
 
 El campo "**Gran Total**", indica el total del documento incluyendo impuestos y totales de fletes.
 
     |campo gran total de la orden de venta no fiscal|
 
-    Imagen 41. Campo Gran Total
+    Imagen 42. Campo Gran Total
 
 El campo "**Estado del Documento**", indica el estado del documento en este momento, para cambiar el estado del documento utilice la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
     |campo estado del documento de la orden de venta no fiscal|
 
-    Imagen 42. Campo Estado del Documento
+    Imagen 43. Campo Estado del Documento
 
 El campo "**Tipo de Documento**", indica el tipo de documento que determina la secuencia del documento o las reglas del proceso.
 
     |campo tipo de documento de la orden de venta no fiscal|
 
-    Imagen 43. Campo Tipo de Documento
+    Imagen 44. Campo Tipo de Documento
 
 Seleccione la opción "**Procesar Orden**", desplegada por el icono "**Proceso**", ubicado en la barra de herramientas de ADempiere.
 
     |opción procesar orden del icono proceso de la orden de venta no fiscal|
 
-    Imagen 44. Opción Procesar Orden del Icono Proceso
+    Imagen 45. Opción Procesar Orden del Icono Proceso
 
 Seleccione la acción "**Completar**" y la opción "**OK**", para completar el documento "**Orden de Venta No Fiscal**".
 
     |opción completar|
 
-    Imagen 45. Acción Completar y Opción OK
+    Imagen 46. Acción Completar y Opción OK
 
 .. note::
 
     El registro del documento solamente es válido cuando se encuentra en estado "**Completo**". Si la misma se encuentra en otro estado de documento, no estará disponible para generar un documento por cobrar, entrega u otro.
+
+    
