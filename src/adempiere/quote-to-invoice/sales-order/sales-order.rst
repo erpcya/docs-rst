@@ -337,7 +337,10 @@ Seleccione la acción "**Completar**" y la opción "**OK**", para completar el d
 
     Imagen 44. Opción Completar
 
-Al completar el documento "**Orden de Venta**", se genera de manera automática y en estado "**Completo**", el documento de factura por cobrar con la orden de venta asociada.
+
+Si en su proceso está configurado para que al completar la "**Orden de Venta**" se genere automaticamente el Documento por Cobrar se cumplirá el siguiente procedimiento: 
+
+    Al completar el documento "**Orden de Venta**", se genera de manera automática y en estado "**Completo**", el documento de factura por cobrar con la orden de venta asociada.
 
     |factura generada|
 
@@ -348,3 +351,5 @@ Dicha factura por cobrar se puede visualizar en la ventana "**Documentos por Cob
     |consulta factura generada|
 
     Imagen 46. Consulta de Factura Generada
+
+Si por el contrario en su proceso no está configurado para que se generé automáticamente la factura, puede realizar posterior su documento por cobrar en la ventana "**Documento por Cobrar**". Para conocer cómo realizar este documento puede consultar el material :ref:`documento/factura-desde-líneas-de-la-orden`
