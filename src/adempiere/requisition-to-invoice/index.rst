@@ -17,3 +17,4 @@ Esta documentación está destinada a definir cada uno de los procedimientos par
     assign-purchase-order-receipt-invoice
     credit-note-cxp
     debit-note-cxp
+    negotiated-conversion-rate
