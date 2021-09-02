@@ -1,6 +1,6 @@
-.. _documento/versión-26-1:
+.. _documento/versión-26-2:
 
-**rs-26.01**
+**rs-26.02**
 ===========
 
 **Fecha de Liberación:** 2021-08-30
@@ -38,13 +38,10 @@
 
 .. data:: Detalle Técnico:
 
-- adempiere-gRPC-Server: Add services:
+- CST-STD:
 
-    - Create-Customer-Bank-Account
-    - Update-Customer-Bank-Account
-    - Delete-Customer-Bank-Account
-    - Get-Customer-Bank-Account
-    - List-customer-Bank-Accounts
+    - Fix error Transaction Closed in POS
+    - Fix cast long to date in Replication Data
   
 .. data:: Requerimientos:
 
@@ -52,8 +49,8 @@
 
 .. data:: Correcciones
 
-- Sólo mejoras
+- Se corrige error con Punto de Venta cuando se modifica el Socio del Negocio
+- Se soluciona el formato de datos cuando es tipo fecha en la repliación de datos
 
 .. data:: Mejoras:
 
-- Se agregan servicios para crear cuentas bancarias desde el punto de ventas de la nueva UI
