@@ -34,7 +34,7 @@
 - Core-Tools: 1.1.0
 - Get-Weight:1.0.6
 - Additional-Reports: 1.0.7
-- adempiere-gRPC-Server: rt-22.5
+- adempiere-gRPC-Server: rt-22.6
 
 .. data:: Detalle Técnico:
 
@@ -45,6 +45,7 @@
     - Add support to excluded and included payments for bank statement match
 
 - LVE: Se agrega soporte a pagos incluídos y excluídos en la búsqueda de pagos desde el extracto bancario
+- adempiere-gRPC-Server: Add support to reference currency for POS
   
 .. data:: Requerimientos:
 
@@ -57,4 +58,6 @@
 - Problemas al intentar hacer coincidencia con pagos y extracto bancario, ahora es posible tener coincidencia con tres documentos con el mismo monto, moneda y fecha
 
 .. data:: Mejoras:
+
+- Se agrega moneda de referencia para la cobranza en el punto de ventas de la nueva UI
 
