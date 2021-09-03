@@ -7,7 +7,7 @@
   
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   
-  <title>rs-26.1 &mdash; ERPYA 1.0 Documentation</title>
+  <title>rs-26.4 &mdash; ERPYA 1.0 Documentation</title>
   
 
   
@@ -43,8 +43,8 @@
     
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="rs-26.0" href="rs-26-0.html" />
-    <link rel="prev" title="rs-26.2" href="rs-26-2.html" /> 
+    <link rel="next" title="rs-26.3" href="rs-26-3.html" />
+    <link rel="prev" title="rs-26" href="rs-26.html" /> 
 </head>
 
 <body class="wy-body-for-nav">
@@ -107,13 +107,13 @@
 <li class="toctree-l1"><a class="reference internal" href="../bot/index.html"><strong>Soporte en Bot</strong></a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Notas de Liberación ADempiere ERP</strong></a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="rs-26.html"><strong>rs-26</strong></a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="rs-26-4.html"><strong>rs-26.4</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="rs-26-3.html"><strong>rs-26.3</strong></a></li>
-<li class="toctree-l3"><a class="reference internal" href="rs-26-2.html"><strong>rs-26.2</strong></a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>rs-26.1</strong></a><ul>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>rs-26.4</strong></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#fecha-de-liberacion-2021-09-02"><strong>Fecha de Liberación:</strong> 2021-09-02</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="rs-26-3.html"><strong>rs-26.3</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs-26-2.html"><strong>rs-26.2</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="rs-26-1.html"><strong>rs-26.1</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="rs-26-0.html"><strong>rs-26.0</strong></a></li>
 </ul>
 </li>
@@ -225,13 +225,13 @@
         
           <li><a href="rs-26.html"><strong>rs-26</strong></a> &raquo;</li>
         
-      <li><strong>rs-26.1</strong></li>
+      <li><strong>rs-26.4</strong></li>
     
     
       <li class="wy-breadcrumbs-aside">
         
           
-            <a href="../../_sources/general/release-notes/rs-26-1.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/general/release-notes/rs-26-4.rst.txt" rel="nofollow"> View page source</a>
           
         
       </li>
@@ -244,8 +244,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
             
-  <div class="section" id="rs-26-1">
-<span id="documento-version-26-1"></span><h1><strong>rs-26.1</strong><a class="headerlink" href="#rs-26-1" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="rs-26-4">
+<span id="documento-version-26-3"></span><h1><strong>rs-26.4</strong><a class="headerlink" href="#rs-26-4" title="Permalink to this headline">¶</a></h1>
 <div class="section" id="fecha-de-liberacion-2021-09-02">
 <h2><strong>Fecha de Liberación:</strong> 2021-09-02<a class="headerlink" href="#fecha-de-liberacion-2021-09-02" title="Permalink to this headline">¶</a></h2>
 <dl class="py data">
@@ -255,7 +255,7 @@
 
 <ul class="simple">
 <li><p>ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3</p></li>
-<li><p>CST-STD: Versión de Liberación: rs-24.8</p></li>
+<li><p>CST-STD: Versión de Liberación: rs-25.0</p></li>
 <li><p>Consigned-Material: 1.2.4</p></li>
 <li><p>Exchange-Operation-System: 1.1.7</p></li>
 <li><p>Cash-Management: 1.0.4</p></li>
@@ -291,14 +291,10 @@
 <li><p>CST-STD:</p>
 <blockquote>
 <div><ul class="simple">
-<li><p>Fix error Transaction Closed in POS</p></li>
-<li><p>Fix cast long to date in Replication Data</p></li>
-<li><p>Add support to excluded and included payments for bank statement match</p></li>
+<li><p>Set Standard Business Partner when is New Order</p></li>
 </ul>
 </div></blockquote>
 </li>
-<li><p>LVE: Se agrega soporte a pagos incluídos y excluídos en la búsqueda de pagos desde el extracto bancario</p></li>
-<li><p>adempiere-gRPC-Server: Add support to reference currency for POS</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
@@ -314,18 +310,13 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>Se corrige error con Punto de Venta cuando se modifica el Socio del Negocio</p></li>
-<li><p>Se soluciona el formato de datos cuando es tipo fecha en la repliación de datos</p></li>
-<li><p>Problemas al intentar hacer coincidencia con pagos y extracto bancario, ahora es posible tener coincidencia con tres documentos con el mismo monto, moneda y fecha</p></li>
+<li><p>Se agrega Socio de Negocio Estandar cuando es una nueva orden</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
 <span class="sig-name descname"><span class="pre">Mejoras:</span></span></dt>
 <dd></dd></dl>
 
-<ul class="simple">
-<li><p>Se agrega moneda de referencia para la cobranza en el punto de ventas de la nueva UI</p></li>
-</ul>
 </div>
 </div>
 
@@ -335,8 +326,8 @@
           </div>
           <footer>
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
-        <a href="rs-26-0.html" class="btn btn-neutral float-right" title="rs-26.0" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
-        <a href="rs-26-2.html" class="btn btn-neutral float-left" title="rs-26.2" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="rs-26-3.html" class="btn btn-neutral float-right" title="rs-26.3" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="rs-26.html" class="btn btn-neutral float-left" title="rs-26" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
     </div>
 
   <hr/>
