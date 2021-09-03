@@ -31,7 +31,7 @@
 - Notification-Queue: 1.0.4
 - Point-Of-Sales-Improvements: 1.1.1
 - Kafka-Replicator-Client: 1.0.6
-- Core-Tools: 1.1.0
+- Core-Tools: 1.1.1
 - Get-Weight:1.0.6
 - Additional-Reports: 1.0.7
 - adempiere-gRPC-Server: rt-22.6
@@ -41,6 +41,8 @@
 - CST-STD:
 
     - Set Standard Business Partner when is New Order
+
+- Core-Tools: Add runner for ReApply Migrations
 
 .. data:: Requerimientos:
 
