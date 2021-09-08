@@ -1,9 +1,9 @@
-.. _documento/versión-26-6:
+.. _documento/versión-26-7:
 
-**rs-26.6**
+**rs-26.7**
 ===========
 
-**Fecha de Liberación:** 2021-09-07
+**Fecha de Liberación:** 2021-09-08
 -----------------------------------
 
 .. data:: Soporte a Versiones:
@@ -34,42 +34,31 @@
 - Core-Tools: 1.1.1
 - Get-Weight:1.0.6
 - Additional-Reports: 1.0.7
-- adempiere-gRPC-Server: rt-22.8
+- adempiere-gRPC-Server: rt-22.9
 - Material-Management-Improvements: 1.0.0
-- Warehouse-Management-System-Improvements: 1.0.0
+- Warehouse-Management-System-Improvements: 1.0.1
 
 .. data:: Detalle Técnico:
 
-- Point-Of-Sales-Improvements: Remove Stock Validation
-- adempiere-gRPC-Server: fixed error with POS list for Price checking
-- Material-Management-Improvements: Add Stock Validation
-- Warehouse-Management-System-Improvements: Initial Commit
-- CST-STD: Add LVE Translation based on latest Template seed
+- adempiere-gRPC-Server: Fixed error with refund allocation for orders
+- Warehouse-Management-System-Improvements: Add Flag for document type for generate release of outbound order automatically
 
 .. data:: Requerimientos:
 
 - Aplicar binario de la aplicación
 
-- Revertir y eliminar los XML's de Point-Of-Sales-Improvements:
-  
-  - 07790_Add_Validation_for_Stock.xml
-  - 07800_Add_Functionalidty_setup_for_stock_validation.xml
-
 - Aplicar los XML's
-  
-  - Material-Management-Improvements:
-
-    - 09260_Add_Material_Management_Improvement.xml
-    - 09270_Add_Validation_for_Stock.xml
-    - 09280_Add_Functionalidty_setup_for_stock_validation.xml
 
   - Warehouse-Management-System-Improvements:
 
-    - 09270_Add_Warehouse_Management_System_Improvement.xml
+    - 09280_Add_Flag_for_Release_Outbound_Automatically.xml
+    - 09290_Add_Functionality_setup_for_WMS_Improvements.xml
+
+- Validar que la columna **IsAutoReleaseInOutBound** de **C_DocType** esté sincronizada
 
 .. data:: Correcciones
 
-- Consulta de Órdenes en el POS de la nueva Interfaz de ADempiere no muestra información correcta
+- Problema con documentos abiertos al procesar una orden de ventas desde el POS de la nueva UI de ADempiere
 
 .. data:: Mejoras:
 
