@@ -1,6 +1,6 @@
-.. _documento/versión-27-1:
+.. _documento/versión-27-2:
 
-**rs-27.1**
+**rs-27.2**
 ===========
 
 **Fecha de Liberación:** 2021-09-13
@@ -9,7 +9,7 @@
 .. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
-- CST-STD: Versión de Liberación: rs-25.1
+- CST-STD: Versión de Liberación: rs-25.2
 - Consigned-Material: 1.2.4
 - Exchange-Operation-System: 1.1.7
 - Cash-Management: 1.0.4
@@ -40,27 +40,14 @@
 
 .. data:: Detalle Técnico:
 
-- adempiere-gRPC-Server: Add support for address value as array for create customer service
-- Point-Of-Sales-Improvements: Resolve XML syntax error
+- adempiere-gRPC-Server: Change Method firstOnly for first method on Accounting Model
 
 
 .. data:: Requerimientos:
 
 - Aplicar binario de la aplicación
 
-- Aplicar los XML's
-
-  - Point-Of-Sales-Improvements:
-
-    - 07920_Add_Payment_Method_for_POS_Definition.xml
-
-- Validar que exista la columna **C_PaymentMethod_ID** en la tabla **C_POSPaymentTypeAllocation**
-
 .. data:: Correcciones
 
-- Error en sintaxis de XML
-
-.. data:: Mejoras:
-
-- Se agrega soporte a múltiple localización al crear cliente
+- Corrección de metodo para obtener combinación contable cuando existe una combinación contable duplicada
 
