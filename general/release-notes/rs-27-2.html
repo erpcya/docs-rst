@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>rs-27.1 &mdash; ERPYA 1.0 Documentation</title>
+  <title>rs-27.2 &mdash; ERPYA 1.0 Documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
@@ -20,8 +20,8 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="rs-27.0" href="rs-27-0.html" />
-    <link rel="prev" title="rs-27.2" href="rs-27-2.html" /> 
+    <link rel="next" title="rs-27.1" href="rs-27-1.html" />
+    <link rel="prev" title="rs-27" href="rs-27.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -54,11 +54,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../bot/index.html"><strong>Soporte en Bot</strong></a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Notas de Liberación ADempiere ERP</strong></a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="rs-27.html"><strong>rs-27</strong></a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="rs-27-2.html"><strong>rs-27.2</strong></a></li>
-<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>rs-27.1</strong></a><ul>
+<li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>rs-27.2</strong></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#fecha-de-liberacion-2021-09-13"><strong>Fecha de Liberación:</strong> 2021-09-13</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="rs-27-1.html"><strong>rs-27.1</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="rs-27-0.html"><strong>rs-27.0</strong></a></li>
 </ul>
 </li>
@@ -137,9 +137,9 @@
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="index.html"><strong>Notas de Liberación ADempiere ERP</strong></a> &raquo;</li>
           <li><a href="rs-27.html"><strong>rs-27</strong></a> &raquo;</li>
-      <li><strong>rs-27.1</strong></li>
+      <li><strong>rs-27.2</strong></li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../_sources/general/release-notes/rs-27-1.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/general/release-notes/rs-27-2.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -147,8 +147,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="rs-27-1">
-<span id="documento-version-27-1"></span><h1><strong>rs-27.1</strong><a class="headerlink" href="#rs-27-1" title="Permalink to this headline"></a></h1>
+  <section id="rs-27-2">
+<span id="documento-version-27-2"></span><h1><strong>rs-27.2</strong><a class="headerlink" href="#rs-27-2" title="Permalink to this headline"></a></h1>
 <section id="fecha-de-liberacion-2021-09-13">
 <h2><strong>Fecha de Liberación:</strong> 2021-09-13<a class="headerlink" href="#fecha-de-liberacion-2021-09-13" title="Permalink to this headline"></a></h2>
 <dl class="py data">
@@ -158,7 +158,7 @@
 
 <ul class="simple">
 <li><p>ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3</p></li>
-<li><p>CST-STD: Versión de Liberación: rs-25.1</p></li>
+<li><p>CST-STD: Versión de Liberación: rs-25.2</p></li>
 <li><p>Consigned-Material: 1.2.4</p></li>
 <li><p>Exchange-Operation-System: 1.1.7</p></li>
 <li><p>Cash-Management: 1.0.4</p></li>
@@ -193,8 +193,7 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>adempiere-gRPC-Server: Add support for address value as array for create customer service</p></li>
-<li><p>Point-Of-Sales-Improvements: Resolve XML syntax error</p></li>
+<li><p>adempiere-gRPC-Server: Change Method firstOnly for first method on Accounting Model</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
@@ -203,16 +202,6 @@
 
 <ul class="simple">
 <li><p>Aplicar binario de la aplicación</p></li>
-<li><p>Aplicar los XML’s</p>
-<ul>
-<li><p>Point-Of-Sales-Improvements:</p>
-<ul>
-<li><p>07920_Add_Payment_Method_for_POS_Definition.xml</p></li>
-</ul>
-</li>
-</ul>
-</li>
-<li><p>Validar que exista la columna <strong>C_PaymentMethod_ID</strong> en la tabla <strong>C_POSPaymentTypeAllocation</strong></p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Correcciones">
@@ -220,15 +209,7 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>Error en sintaxis de XML</p></li>
-</ul>
-<dl class="py data">
-<dt class="sig sig-object py">
-<span class="sig-name descname"><span class="pre">Mejoras:</span></span></dt>
-<dd></dd></dl>
-
-<ul class="simple">
-<li><p>Se agrega soporte a múltiple localización al crear cliente</p></li>
+<li><p>Corrección de metodo para obtener combinación contable cuando existe una combinación contable duplicada</p></li>
 </ul>
 </section>
 </section>
@@ -237,8 +218,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="rs-27-2.html" class="btn btn-neutral float-left" title="rs-27.2" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="rs-27-0.html" class="btn btn-neutral float-right" title="rs-27.0" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="rs-27.html" class="btn btn-neutral float-left" title="rs-27" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="rs-27-1.html" class="btn btn-neutral float-right" title="rs-27.1" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
