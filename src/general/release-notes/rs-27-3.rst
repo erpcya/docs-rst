@@ -44,7 +44,7 @@
 - CST-STD: 
 
   - Fixed error with Tax calculation for Sales Orders: https://github.com/erpcya/Control-MIGO/issues/5
-  - Add support to express receipt based on quantities:https://github.com/erpcya/Control-CRIOLLITO/issues/2
+  - Add support to express receipt based on quantities: https://github.com/erpcya/Control-CRIOLLITO/issues/2
   
 - adempiere-gRPC-Server: Add support to open refund from order
 - Get-Weight: Upgrade library to stable release
