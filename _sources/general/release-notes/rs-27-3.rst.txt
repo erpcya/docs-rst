@@ -69,6 +69,7 @@
 
 - Verificar que la columna **IsManagedByWeight** se encuentre sincronizada en la tabla **M_Product**
 - Verificar que la columna **IsCloseRelatedOrders** se encuentre sincronizada en la tabla **C_DocType**
+- Verificar proceso de despacho de producto a granel al establecer las cantidades desde el registro de peso, esto debe funcionar sin problemas después del cambio
 
 .. data:: Mejoras
 
