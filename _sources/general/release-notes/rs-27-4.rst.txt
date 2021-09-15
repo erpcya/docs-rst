@@ -1,9 +1,9 @@
-.. _documento/versión-27-3:
+.. _documento/versión-27-4:
 
-**rs-27.3**
+**rs-27.4**
 ===========
 
-**Fecha de Liberación:** 2021-09-13
+**Fecha de Liberación:** 2021-09-14
 -----------------------------------
 
 .. data:: Soporte a Versiones:
