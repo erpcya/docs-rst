@@ -61,6 +61,7 @@
     - 06450_Add_Error_Message_for_Package_Measures.xml
 
 - Verificar que la columna **M_PackageType_ID** se encuentre sincronizada en la tabla **M_Package**
+- Verificar que el validador de modelo de Delivery-Management-Service haya cambiado de ruta
 
 
 .. data:: Mejoras
@@ -87,7 +88,6 @@
 
     .. figure:: resources/rs-27-8-package-simultaion.gif
 
-    Simulación de Paquete
 
 .. data:: Correcciones
 
