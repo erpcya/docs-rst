@@ -19,7 +19,7 @@
 - Consigned-Material: 1.2.8
 - Exchange-Operation-System: 1.1.7
 - Cash-Management: 1.0.4
-- Currency-Convert-Documents: 1.0.5
+- Currency-Convert-Documents: 1.0.6
 - Farmer-Assistance-Program: 1.1.6
 - RethinkDB-Replicator-Client: 1.1.2
 - Third-Party-Access: 1.0.2
@@ -58,7 +58,7 @@
 
 - Import-Export-Management: Initial Commit
 - Warehouse-Management-System-Improvements: Add Flag for generate invoice / shipment from Outbound Order
-
+- Currency-Convert-Documents: Fixed Bad Reference to Invoice on Negotiated Currency Type
 
 .. data:: Requerimientos:
 
@@ -82,8 +82,6 @@
   - Warehouse-Management-System-Improvements: 09380_Add_Flag_for_Invoice_Shipment_Outbound_Automatically.xml
 
 .. data:: Mejoras
-
-|confirmar paquete|
 
 - Se agrega nuevo reporte de Almacenamiento de Productos por Proveedor: muy util para ver los productos en consignación
 
