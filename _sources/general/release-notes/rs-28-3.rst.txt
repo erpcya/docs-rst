@@ -42,7 +42,7 @@
 
 .. data:: Detalle Técnico:
   
-- Consigned-Material: Add support to validate quantity flag for Outbound order generate form
+- CST-STD: Add support to validate quantity flag for Outbound order generate form
 
 .. data:: Requerimientos:
 

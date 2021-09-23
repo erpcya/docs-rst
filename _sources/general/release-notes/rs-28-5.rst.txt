@@ -1,6 +1,6 @@
-.. _documento/versión-28-4:
+.. _documento/versión-28-5:
 
-**rs-28.4**
+**rs-28.5**
 ===========
 
 **Fecha de Liberación:** 2021-09-23
@@ -9,7 +9,7 @@
 .. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
-- CST-STD: Versión de Liberación: rs-25.7
+- CST-STD: Versión de Liberación: rs-25.8
 - Consigned-Material: 1.2.8
 - Exchange-Operation-System: 1.1.7
 - Cash-Management: 1.0.4
@@ -42,7 +42,7 @@
 
 .. data:: Detalle Técnico:
   
-- CST-STD: Add supporto to attribute set instance for outbound order
+- CST-STD: Add support to attribute for generate shipment from outbound order
 
 .. data:: Requerimientos:
 
@@ -50,6 +50,4 @@
 
 .. data:: Correcciones
 
-- Instancia de atributos no se establecía al momento de generar órdenes de carga desde orden de venta y de distribución
-- La unidad de medida utilizada para generar orden de carga no es la de la del producto y causa incongruencia entre la cantidad a seleccionar y la unidad de medida cuando se trata de una orden de venta que se hizo con una unidad de medida distinta a la del producto
-- La ubicación nunca se establecía y daba error cuando se generaba el documento si no se tenía el validador de modelo de Recepción de Materia Prima
+- Se agrega intancia de atributo al proceso que genera entregas desde órdenes de salida
