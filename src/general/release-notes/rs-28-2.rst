@@ -1,5 +1,5 @@
 .. |generar factura automaticamente| image:: resources/rs-28-2-generate-invoice-shipment-automatically.png
-.. |agregar asignacion de paquetes a orden de compras| image:: rs-28-2-purchase-order-add-package-allocation.png
+.. |agregar asignacion de paquetes a orden de compras| image:: resources/rs-28-2-purchase-order-add-package-allocation.png
 .. |agregar tipo de paquete a orden de compra| image:: resources/rs-28-2-purchase-order-add-package-type.png
 .. |reporte de almacenamiento por proveedor| image:: resources/rs-28-2-storage-per-vendor.png
 .. |agregar medidas a tipo de unidad de transporte| image:: resources/rs-28-2-transport-type-add-measures.png
