@@ -30,7 +30,7 @@
 - Notification-Queue: 1.0.4
 - Point-Of-Sales-Improvements: 1.1.5
 - Kafka-Replicator-Client: 1.0.6
-- Core-Tools: 1.1.3
+- Core-Tools: 1.1.7
 - Get-Weight:1.0.9
 - Record-Weight: 1.0.3
 - Raw-Material-Receipt: 1.0.9
@@ -50,7 +50,10 @@
 - Aplicar binario de la aplicación
 - Aplicar XML's:
 
-  - Core-Tools: 05100_Add_Process_for_Copy_Entities_with_new_Currency.xml
+  - Core-Tools: 
+  
+    - 05100_Add_Process_for_Copy_Entities_with_new_Currency.xml
+    - 05120_CreateConversionRate_Process.xml
   - LVE: 0103_Add_IsAccumulatedConcept_for_concept.xml
 
 .. data:: Mejoras
