@@ -44,6 +44,7 @@
 .. data:: Detalle Técnico:
   
 - Update-Management: Add automatic schedule setup
+- Core-Tools: Fixed error with close accounts
 
 .. data:: Requerimientos:
 
