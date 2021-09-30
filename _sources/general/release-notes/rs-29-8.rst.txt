@@ -43,7 +43,7 @@
 
 .. data:: Detalle Técnico:
   
-- Core-Tools: Add conversion for business partner balance
+- Core-Tools: Fixed error with organization for currency conversion
 
 .. data:: Requerimientos:
 
