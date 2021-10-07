@@ -1,0 +1,81 @@
+.. _documento/versión-30-5:
+
+**rs-30.5**
+===========
+
+**Fecha de Liberación:** 2021-10-07
+-----------------------------------
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-26.3
+- Consigned-Material: 1.2.8
+- Exchange-Operation-System: 1.1.7
+- Cash-Management: 1.0.4
+- Currency-Convert-Documents: 1.0.6
+- Farmer-Assistance-Program: 1.1.8
+- RethinkDB-Replicator-Client: 1.1.2
+- Third-Party-Access: 1.0.2
+- FiscalPrinter: 1.3.2
+- Sales-Force-Management: 1.0.2
+- Delivery-Management-Service: 1.0.6
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.9
+- Additional-Reports: 1.0.3
+- Migration-Tools: 1.0.3
+- LVE: 1.4.1
+- Performance-Analysis: 1.0.2
+- Queue-Manager: 1.0.4
+- Notification-Queue: 1.0.4
+- Point-Of-Sales-Improvements: 1.1.6
+- Kafka-Replicator-Client: 1.0.6
+- Core-Tools: 1.3.6
+- Get-Weight:1.0.9
+- Record-Weight: 1.0.3
+- Raw-Material-Receipt: 1.1.0
+- Additional-Reports: 1.0.7
+- adempiere-gRPC-Server: rt-23.5
+- Material-Management-Improvements: 1.0.1
+- Warehouse-Management-System-Improvements: 1.0.9
+- Import-Export-Management: 1.0.1
+- Update-Management: 1.1.1
+- Mini-Retail: 1.0.2
+
+.. data:: Detalle Técnico:
+  
+- Mini-Retail: Add support to create product based on default setup
+- Import-Export-Management: Add automatic insert for transport unit from order
+
+.. data:: Requerimientos:
+
+- Aplicar binario de la aplicación
+- Instalar las Actualizaciones:
+  - Import-Export-Management:
+
+    - 09430_Add_Order_Transport_Unit_Assignment.xml
+    - 09450_Add_Default_Vehicle_type_for_shipper.xml
+
+  - Mini-Retail:
+    
+    - 09390_Add_Entity_Type_for_Mini-Retail.xml
+    - 09400_Add_Product_Category_and_Product_Tab.xml
+    - 09410_Remove_parent_link_for_M_DiscountSchema_ID.xml
+    - 09420_Remove_read_only_property_for_M_DiscountSchema_ID.xml
+    - 09430_Add_validation_for_discount_schema_on_product_and_category.xml
+    - 09440_Add_setup_for_Product_Setup.xml
+    - 09450_Add_PricePO_and_PriceList_for_discount_schema_break.xml
+    - 09460_Add_Default_Price_List_for_Product.xml
+    - 09470_Add_BasePrice_and_FinalPrice_columns.xml
+    - 09480_Add_validation_for_default_price_list.xml
+    - 09490_Fix_validation_for_price_list.xml
+    - 09500_Add_Default_Price_List_Version.xml
+
+.. data:: Mejoras
+
+- Se agrega soporte para calculo de precio automático al crear un nuevo producto
+- Se agrega soporte para crear Unidades de Transporte automáticamente desde Orden de Compra
+
+.. data:: Correcciones
+
+- Construcción de imagen y compatibilidad con JDK 11
