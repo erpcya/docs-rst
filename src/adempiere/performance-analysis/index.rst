@@ -18,6 +18,7 @@ El propósito de `ERPyA`_ es apoyar a nuestros clientes, dar respuestas rápidas
 .. toctree::
     :maxdepth: 2
 
+    accounting-schema
     type-of-application
     accounting-element/index
     opening-accounting-period
