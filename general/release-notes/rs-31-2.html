@@ -162,7 +162,7 @@
 
 <ul class="simple">
 <li><p>ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3</p></li>
-<li><p>CST-STD: Versión de Liberación: rs-26.8</p></li>
+<li><p>CST-STD: Versión de Liberación: rs-26.9</p></li>
 <li><p>Consigned-Material: 1.2.8</p></li>
 <li><p>Exchange-Operation-System: 1.1.7</p></li>
 <li><p>Cash-Management: 1.0.4</p></li>
@@ -177,7 +177,7 @@
 <li><p>Withholding: 1.0.9</p></li>
 <li><p>Additional-Reports: 1.0.3</p></li>
 <li><p>Migration-Tools: 1.0.3</p></li>
-<li><p>LVE: 1.4.2</p></li>
+<li><p>LVE: 1.4.3</p></li>
 <li><p>Performance-Analysis: 1.0.4</p></li>
 <li><p>Queue-Manager: 1.0.4</p></li>
 <li><p>Notification-Queue: 1.0.4</p></li>
@@ -188,12 +188,12 @@
 <li><p>Record-Weight: 1.0.3</p></li>
 <li><p>Raw-Material-Receipt: 1.1.0</p></li>
 <li><p>Additional-Reports: 1.0.7</p></li>
-<li><p>adempiere-gRPC-Server: rt-23.9</p></li>
+<li><p>adempiere-gRPC-Server: rt-24.1</p></li>
 <li><p>Material-Management-Improvements: 1.0.1</p></li>
 <li><p>Warehouse-Management-System-Improvements: 1.1.0</p></li>
 <li><p>Import-Export-Management: 1.0.1</p></li>
 <li><p>Update-Management: 1.1.1</p></li>
-<li><p>Mini-Retail: 1.0.4</p></li>
+<li><p>Mini-Retail: 1.0.5</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
@@ -202,8 +202,31 @@
 
 <ul class="simple">
 <li><dl class="simple">
-<dt>LVE:</dt><dd><ul>
-<li><p>Se cambia validación de precalculo de retenciones a Fecha Contable</p></li>
+<dt>adempiere-gRPC-Server:</dt><dd><p>Add services
+- Reverse sales transaction
+- Process shipment</p>
+</dd>
+</dl>
+</li>
+<li><p>LVE: Se Cambia Validación para crear Socio de Negocio con organización * (#38)</p></li>
+<li><p>Mini-retail: Fixed error with price list reference for product category</p></li>
+</ul>
+<dl class="py data">
+<dt class="sig sig-object py">
+<span class="sig-name descname"><span class="pre">Requerimientos:</span></span></dt>
+<dd></dd></dl>
+
+<ul class="simple">
+<li><p>Aplicar binario de la aplicación</p></li>
+<li><dl class="simple">
+<dt>Aplicar los XML’s:</dt><dd><ul>
+<li><dl class="simple">
+<dt>Mini-retail:</dt><dd><ul>
+<li><p>9520_Fixed_Price_List_for_Category_and_product.xml</p></li>
+</ul>
+</dd>
+</dl>
+</li>
 </ul>
 </dd>
 </dl>
@@ -215,7 +238,17 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>Se cambia el chequeo de validez de la Unidad Tributaria de Fecha de Factura a Fecha Contable</p></li>
+<li><p>Problemas con referencia a versión de lista de precios en lugar de lista de precios en la categoría de producto y producto</p></li>
+<li><p>Socio de negocio no se establece la organizción * al crearse desde el punto de ventas</p></li>
+</ul>
+<dl class="py data">
+<dt class="sig sig-object py" id="Mejoras">
+<span class="sig-name descname"><span class="pre">Mejoras</span></span><a class="headerlink" href="#Mejoras" title="Permalink to this definition"></a></dt>
+<dd></dd></dl>
+
+<ul class="simple">
+<li><p>Nuevo servicio para procesar entregas desde el punto de ventas</p></li>
+<li><p>Nuevo servicio para reversar transacciones de venta desde el punto de ventas</p></li>
 </ul>
 </section>
 </section>
