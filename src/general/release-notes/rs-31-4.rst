@@ -1,6 +1,6 @@
-.. _documento/versión-31-3:
+.. _documento/versión-31-4:
 
-**rs-31.3**
+**rs-31.4**
 ===========
 
 **Fecha de Liberación:** 2021-10-18
@@ -39,33 +39,24 @@
 - Material-Management-Improvements: 1.0.1
 - Warehouse-Management-System-Improvements: 1.1.0
 - Import-Export-Management: 1.0.1
-- Update-Management: 1.1.1
+- Update-Management: 1.1.2
 - Mini-Retail: 1.0.5
 
 .. data:: Detalle Técnico:
 
-- adempiere-gRPC-Server:
-    Fixed error with:
-        - Reverse Sales Transaction
-        - Filter Orders from same organization
-- CST-STD:
-    - Fixed error with java.util.ConcurrentModificationException
-    - Add support to copy Window Customization
+- Update-Management: Change reference for language
 
 .. data:: Requerimientos:
 
 - Aplicar binario de la aplicación
 - Aplicar los XML's:
-    - CST-STD:
-        - 09400_Add_process_for_Copy_ASP_Window.xml
+    - Update-Management:
+        - 07870_Change_parameter_definition.xml
 
 .. data:: Correcciones
 
-- Órdenes de Venta por organización y filtro. Antes consultaba todas las órdenes de venta
-- Uso concurrente de cache en MTable
-- Socio de negocio obligatorio al reversar transacciones de ventas
+- Problemas con referencia a Lenguaje en proceso de descarga de actualizaciones
 
 .. data:: Mejoras
 
-- Nuevo servicio para procesar entregas desde el punto de ventas
-- Nuevo servicio para reversar transacciones de venta desde el punto de ventas
+- Solo Correcciones
