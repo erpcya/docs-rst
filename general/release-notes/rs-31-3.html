@@ -20,8 +20,8 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="rs-31.1" href="rs-31-1.html" />
-    <link rel="prev" title="rs-31.2" href="rs-31-3.html" /> 
+    <link rel="next" title="rs-31.2" href="rs-31-2.html" />
+    <link rel="prev" title="rs-31" href="rs-31.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -54,11 +54,11 @@
 <li class="toctree-l1"><a class="reference internal" href="../bot/index.html"><strong>Soporte en Bot</strong></a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Notas de Liberación ADempiere ERP</strong></a><ul class="current">
 <li class="toctree-l2 current"><a class="reference internal" href="rs-31.html"><strong>rs-31</strong></a><ul class="current">
-<li class="toctree-l3"><a class="reference internal" href="rs-31-3.html"><strong>rs-31.2</strong></a></li>
 <li class="toctree-l3 current"><a class="current reference internal" href="#"><strong>rs-31.2</strong></a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#fecha-de-liberacion-2021-10-15"><strong>Fecha de Liberación:</strong> 2021-10-15</a></li>
 </ul>
 </li>
+<li class="toctree-l3"><a class="reference internal" href="rs-31-2.html"><strong>rs-31.2</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="rs-31-1.html"><strong>rs-31.1</strong></a></li>
 <li class="toctree-l3"><a class="reference internal" href="rs-31-0.html"><strong>rs-31.0</strong></a></li>
 </ul>
@@ -144,7 +144,7 @@
           <li><a href="rs-31.html"><strong>rs-31</strong></a> &raquo;</li>
       <li><strong>rs-31.2</strong></li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../_sources/general/release-notes/rs-31-2.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/general/release-notes/rs-31-3.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -189,7 +189,7 @@
 <li><p>Record-Weight: 1.0.3</p></li>
 <li><p>Raw-Material-Receipt: 1.1.0</p></li>
 <li><p>Additional-Reports: 1.0.7</p></li>
-<li><p>adempiere-gRPC-Server: rt-24.1</p></li>
+<li><p>adempiere-gRPC-Server: rt-24.2</p></li>
 <li><p>Material-Management-Improvements: 1.0.1</p></li>
 <li><p>Warehouse-Management-System-Improvements: 1.1.0</p></li>
 <li><p>Import-Export-Management: 1.0.1</p></li>
@@ -203,14 +203,24 @@
 
 <ul class="simple">
 <li><dl class="simple">
-<dt>adempiere-gRPC-Server:</dt><dd><p>Add services
-- Reverse sales transaction
-- Process shipment</p>
+<dt>adempiere-gRPC-Server:</dt><dd><dl class="simple">
+<dt>Fixed error with:</dt><dd><ul>
+<li><p>Reverse Sales Transaction</p></li>
+<li><p>Filter Orders from same organization</p></li>
+</ul>
+</dd>
+</dl>
 </dd>
 </dl>
 </li>
-<li><p>LVE: Se Cambia Validación para crear Socio de Negocio con organización * (#38)</p></li>
-<li><p>Mini-retail: Fixed error with price list reference for product category</p></li>
+<li><dl class="simple">
+<dt>CST-STD:</dt><dd><ul>
+<li><p>Fixed error with java.util.ConcurrentModificationException</p></li>
+<li><p>Add support to copy Window Customization</p></li>
+</ul>
+</dd>
+</dl>
+</li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
@@ -222,8 +232,8 @@
 <li><dl class="simple">
 <dt>Aplicar los XML’s:</dt><dd><ul>
 <li><dl class="simple">
-<dt>Mini-retail:</dt><dd><ul>
-<li><p>9520_Fixed_Price_List_for_Category_and_product.xml</p></li>
+<dt>CST-STD:</dt><dd><ul>
+<li><p>09400_Add_process_for_Copy_ASP_Window.xml</p></li>
 </ul>
 </dd>
 </dl>
@@ -239,8 +249,9 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>Problemas con referencia a versión de lista de precios en lugar de lista de precios en la categoría de producto y producto</p></li>
-<li><p>Socio de negocio no se establece la organizción * al crearse desde el punto de ventas</p></li>
+<li><p>Órdenes de Venta por organización y filtro. Antes consultaba todas las órdenes de venta</p></li>
+<li><p>Uso concurrente de cache en MTable</p></li>
+<li><p>Socio de negocio obligatorio al reversar transacciones de ventas</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Mejoras">
@@ -258,8 +269,8 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="rs-31-3.html" class="btn btn-neutral float-left" title="rs-31.2" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="rs-31-1.html" class="btn btn-neutral float-right" title="rs-31.1" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="rs-31.html" class="btn btn-neutral float-left" title="rs-31" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="rs-31-2.html" class="btn btn-neutral float-right" title="rs-31.2" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>
