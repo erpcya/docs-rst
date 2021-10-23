@@ -65,8 +65,11 @@
 
 .. data:: Correcciones
 
-- 
+- Mal calculo de costo adicional de compra basado en el porcentajes de flete, reposición y mercadeo
+- Fecha de ultimo reabastecimiento se establecía aún cuando no se generaba el documento
 
 .. data:: Mejoras
 
-- 
+- Se agrega alias de tabla para multi-selección de llamado de procesos desde el código fuente
+- se agrega propagación de errores al completar documentos desde la funcionalidad de Manejo de Servicio de Entregas
+- Se agrega funcionalidad para generar órdenes de salida de manera automática desde una orden de venta
