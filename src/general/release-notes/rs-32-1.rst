@@ -40,7 +40,7 @@
 - Warehouse-Management-System-Improvements: 1.1.1
 - Import-Export-Management: 1.0.2
 - Update-Management: 1.1.2
-- Mini-Retail: 1.2.0
+- Mini-Retail: 1.1.0
 
 .. data:: Detalle Técnico:
 
