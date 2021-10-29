@@ -19,7 +19,7 @@
 - Third-Party-Access: 1.0.4
 - Fiscal-Printer: 1.3.3
 - Sales-Force-Management: 1.0.3
-- Delivery-Management-Service: 1.1.3
+- Delivery-Management-Service: 1.1.4
 - Travel-Agency-Management: 1.0.8
 - Withholding: 1.0.9
 - Migration-Tools: 1.0.3
@@ -45,6 +45,7 @@
 
 - CST-STD: Fixed error with product without default tax
 - adempiere-gRPC-Server: Add support to document type of web store
+- Delivery-Management-Service: Fixed error with division by zero
 
 .. data:: Requerimientos:
 
@@ -53,6 +54,7 @@
 .. data:: Correcciones
 
 - Error en tiempo de ejecución cuando no existe impuesto por defecto para productos en la tienda web
+- Validación de división por cero al calcular paletas en el proceso de importación
 
 .. data:: Mejoras
 
