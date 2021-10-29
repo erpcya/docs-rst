@@ -1,6 +1,6 @@
-.. _documento/versión-33-3:
+.. _documento/versión-33-4:
 
-**rs-33.3**
+**rs-33.4**
 ===========
 
 **Fecha de Liberación:** 2021-10-29
@@ -9,7 +9,7 @@
 .. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
-- CST-STD: Versión de Liberación: rs-27.3
+- CST-STD: Versión de Liberación: rs-27.4
 - Consigned-Material: 1.2.8
 - Exchange-Operation-System: 1.1.7
 - Cash-Management: 1.0.4
@@ -34,7 +34,7 @@
 - Record-Weight: 1.0.3
 - Raw-Material-Receipt: 1.1.0
 - Additional-Reports: 1.0.9
-- adempiere-gRPC-Server: rt-24.8
+- adempiere-gRPC-Server: rt-24.9
 - Material-Management-Improvements: 1.0.5
 - Warehouse-Management-System-Improvements: 1.1.1
 - Import-Export-Management: 1.0.2
@@ -43,25 +43,17 @@
 
 .. data:: Detalle Técnico:
 
-- CST-STD:
-    - Add Import Requisition Functionality
-    - Remove Mandatory Attribute Set Instance for Product
-    - Add Document Type for Web Store
+- CST-STD: Fixed error with product without default tax
+- adempiere-gRPC-Server: Add support to document type of web store
 
 .. data:: Requerimientos:
 
 - Aplicar binario de la aplicación
-- Aplicar XML's:
-    - CST-STD:
-        - 09480_Add_Import_Requisition.xml
-        - 09490_Remove_Mandatory_Attribute_Set_Instance_for_Product.xml
-        - 09500_Add_Document_Type_for_Sales_Order_on_Store.xml
 
 .. data:: Correcciones
 
-- Instancia de Atributos obligatoria al guardar un producto por primera vez cuando la ventana no tiene visible el campo Instancia de Atributos
+- Error en tiempo de ejecución cuando no existe impuesto por defecto para productos en la tienda web
 
 .. data:: Mejoras
 
-- Nuevo Importador de Requisiciones
-- Se agrega Tipo de Documento para Órdenes de Venta en la configuración de la tienda Web 
+- Se agrega soporte a tipo de documento para orden de ventas en la tienda web
