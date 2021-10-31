@@ -9,7 +9,7 @@
 .. data:: Soporte a Versiones:
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
-- CST-STD: Versión de Liberación: rs-27.4
+- CST-STD: Versión de Liberación: rs-27.5
 - Consigned-Material: 1.2.8
 - Exchange-Operation-System: 1.1.7
 - Cash-Management: 1.0.4
@@ -43,7 +43,7 @@
 
 .. data:: Detalle Técnico:
 
-- CST-STD: Fixed error with product without default tax
+- CST-STD: remove unnecessary validation for requisition import
 - adempiere-gRPC-Server: Add support to document type of web store
 - Delivery-Management-Service: Fixed error with division by zero
 
