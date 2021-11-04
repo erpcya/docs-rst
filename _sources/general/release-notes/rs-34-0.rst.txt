@@ -1,9 +1,9 @@
-.. _documento/versión-33-9:
+.. _documento/versión-34-0:
 
 **rs-34.0**
 ===========
 
-**Fecha de Liberación:** 2021-11-01
+**Fecha de Liberación:** 2021-11-04
 -----------------------------------
 
 .. data:: Soporte a Versiones:
@@ -34,8 +34,8 @@
 - Record-Weight: 1.0.3
 - Raw-Material-Receipt: 1.1.0
 - Additional-Reports: 1.0.9
-- adempiere-gRPC-Server: rt-25.0
-- Material-Management-Improvements: 1.0.5
+- adempiere-gRPC-Server: rt-25.1
+- Material-Management-Improvements: 1.0.7
 - Warehouse-Management-System-Improvements: 1.1.1
 - Import-Export-Management: 1.0.2
 - Update-Management: 1.1.2
@@ -43,7 +43,8 @@
 
 .. data:: Detalle Técnico:
 
-- adempiere-gRPC-Server: Fixed error with browse query
+- Material-Management-Improvements: Add WMS rule support for replenish
+- adempiere-gRPC-Server: fixed error with browse list data
 
 .. data:: Requerimientos:
 
@@ -51,6 +52,8 @@
   
 .. data:: Novedades
 
-- Se corrige error en consulta de SmartBrowser
+- Se agrega regla de reabastecimiento basado en Manejo Avanzado de Almacén para regla de demanda
 
 .. data:: Correcciones
+
+- Problemas de carga de datos en Visores inteligentes cuando son llamados desde la nueva interfaz web de ADempiere
