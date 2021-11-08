@@ -46,7 +46,7 @@
 .. data:: Detalle Técnico:
 
 - Fiscal-Printer: Fixed NPE error
-- Cash-Management: Add support to auto depostit after close bank statement
+- Cash-Management: Add support to auto deposit after close bank statement
 
 .. data:: Requerimientos:
 
