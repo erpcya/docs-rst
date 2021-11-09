@@ -73,6 +73,7 @@
 - Se agrega lista de conteo personalizada en función de la ventas
 - Se agrega Reporte de Recibo de Caja
 - Se agrega nuevo scriptlet para funcionalidad de calculo de descuento en reportes de ventas
+- Se agrega validación de Apertura de Caja
 
 .. data:: Correcciones
 
