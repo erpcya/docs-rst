@@ -58,12 +58,15 @@
     - Point-Of-Sales-Improvements:
         - 09340_Add_Verification_for_payment_setup.xml
         - 09350_Add_Discount_Schema_for_product_catalog.xml
+    - Delivery-Management-Service:
+        - 09500_Add_Process_for_Create_Freight_Order_from_Purchase_Order.xml
 
 .. data:: Novedades
 
 - Se agrega Parámetro de Esquema de descuento en catálogo de producto
 - Se agrega setup para verificación de pagos electrónicos
 - Se actualiza la versión de adempiere backend para el Actualizador
+- Se agrega Proceso para crear orden de flete desde orden de compra
 
 .. data:: Correcciones
 
