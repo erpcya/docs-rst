@@ -1,6 +1,6 @@
 .. _documento/versión-35-6:
 
-**rs-36.6**
+**rs-35.6**
 ===========
 
 **Fecha de Liberación:** 2021-11-10
