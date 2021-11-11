@@ -1,4 +1,4 @@
-.. _documento/versión-36-6:
+.. _documento/versión-35-6:
 
 **rs-36.6**
 ===========
