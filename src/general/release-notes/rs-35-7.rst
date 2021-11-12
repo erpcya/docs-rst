@@ -60,6 +60,7 @@
     - Add Write-Off Tolerance
     - Add Maximum Discount
     - Add verification for payments only for receipts
+    - Add Default charges for Opening and Withdrawal
 
 
 .. data:: Requerimientos:
@@ -71,6 +72,7 @@
     - Point-Of-Sales-Improvements:
         - 09370_Add_Discount_allocation_for_POS.xml
         - 09380_Change_column_names_for_POS.xml
+        - 09390_Add_default_charge_for_POS.xml
     - CST-STD:
         - 09200_Improve_performance_for_payroll_based_on_java_running.xml
 
@@ -88,6 +90,7 @@
 - Se agrega campaña predeterminada en el punto de ventas
 - Se agrega tolerancia para el ajuste de documentos en el punto de ventas
 - Se agrega Descuento Máximo en el punto de ventas
+- Se agregan cargos predeterminados para apertura y cierre de caja
 - Se agrega funcionalidad para mejorar el rendimiento en la nómina
 
 .. data:: Correcciones
