@@ -1,0 +1,60 @@
+.. _documento/versión-35-9:
+
+**rs-35.9**
+===========
+
+**Fecha de Liberación:** 2021-11-12
+-----------------------------------
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-28.1
+- Consigned-Material: 1.2.8
+- Exchange-Operation-System: 1.1.8
+- Cash-Management: 1.1.2
+- Currency-Convert-Documents: 1.0.8
+- Farmer-Assistance-Program: 1.1.8
+- RethinkDB-Replicator-Client: 1.1.2
+- Third-Party-Access: 1.0.4
+- Fiscal-Printer: 1.3.4
+- Sales-Force-Management: 1.0.3
+- Delivery-Management-Service: 1.1.8
+- Travel-Agency-Management: 1.0.8
+- Withholding: 1.0.9
+- Migration-Tools: 1.0.3
+- LVE: 1.4.9
+- Performance-Analysis: 1.0.8
+- Queue-Manager: 1.0.4
+- Notification-Queue: 1.0.4
+- Point-Of-Sales-Improvements: 1.2.2
+- Kafka-Replicator-Client: 1.0.8
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.3.7
+- Get-Weight:1.0.9
+- Record-Weight: 1.0.4
+- Raw-Material-Receipt: 1.1.2
+- Additional-Reports: 1.1.6
+- adempiere-gRPC-Server: rt-26.1
+- Material-Management-Improvements: 1.0.8
+- Warehouse-Management-System-Improvements: 1.1.3
+- Import-Export-Management: 1.0.2
+- Update-Management: 1.1.3
+- Mini-Retail: 1.1.4
+- Print-Queue: 1.0.5
+
+.. data:: Detalle Técnico:
+
+- adempiere-gRPC-Server: Add sorting for pos allocations
+
+.. data:: Requerimientos:
+
+- Aplicar binario de la aplicación
+
+.. data:: Novedades
+
+- Ordenamiento para configuracioneas asignadas al punto de ventas: Listas de Precios, Almacenes, Métodos de Pago
+
+.. data:: Correcciones
+
+- Sólo Mejoras
