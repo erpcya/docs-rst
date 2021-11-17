@@ -120,7 +120,7 @@ Seleccione en el campo "**Fecha de Pago**", la fecha en la cual se debe realizar
 
     Imagen 8. Campo Fecha de Pago del Documento Orden de Pago desde Factura
 
-Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria a la cual requiere generar el pago.
+Seleccione en el campo "**Cuenta Bancaria**", la cuenta bancaria desde la cual requiere generar el pago.
 
     |Campo Cuenta Bancaria del Documento Orden de Pago desde Factura|
 
