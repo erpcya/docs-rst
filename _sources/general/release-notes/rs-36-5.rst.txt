@@ -1,9 +1,9 @@
-.. _documento/versión-36-4:
+.. _documento/versión-36-5:
 
-**rs-36.4**
+**rs-36.5**
 ===========
 
-**Fecha de Liberación:** 2021-11-16
+**Fecha de Liberación:** 2021-11-20
 -----------------------------------
 
 .. data:: Soporte a Versiones:
