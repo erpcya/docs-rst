@@ -62,17 +62,17 @@
         - 09520_Add_Landed_Cost_Clearing_On_Account_Schema_Default.xml
         - 09530_Add_Landed_Cost_Clearing_On_Product_Category_Accounting.xml
         - 09540_Add_Landed_Cost_Clearing_On_Product_Accounting.xml
-	- Performance-Analysis:
-		- 07830_Add_Estimated_Landed_Cost_Reference_on_Cost_Detail.xml
+        - Performance-Analysis:
+            - 07830_Add_Estimated_Landed_Cost_Reference_on_Cost_Detail.xml
     - Point-Of-Sales-Improvements:
         - 09570_Add_message_for_WriteOffAmtTolerance.xml
 
 .. data:: Novedades
 
 - CST-STD:
-	- Se Agrega Configuración contable para Estimación de Costos Adicionales
+    - Se Agrega Configuración contable para Estimación de Costos Adicionales
 	
 - Performance-Analysis:
-	- Se Agrega soporte a Costeo y Contabilidad de Costos Adicionales Estimados
+    - Se Agrega soporte a Costeo y Contabilidad de Costos Adicionales Estimados
 
 
