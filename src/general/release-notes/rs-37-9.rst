@@ -34,7 +34,7 @@
 - Get-Weight:1.0.9
 - Record-Weight: 1.0.4
 - Raw-Material-Receipt: 1.1.2
-- Additional-Reports: 1.2.0
+- Additional-Reports: 1.2.1
 - adempiere-gRPC-Server: rt-28.1
 - Material-Management-Improvements: 1.1.0
 - Warehouse-Management-System-Improvements: 1.1.3
@@ -44,15 +44,17 @@
 - Print-Queue: 1.0.6
 - ERP-Payroll-Definition: 1.0.0
 - Internal-Store: 1.0.3
+- Telegram-Notifier: 1.0.0
 
 .. data:: Detalle Técnico:
 
+- Additional-Reports: fix zero return when a discount schema is null
 - Fiscal-Printer: Add support to send document to print from Generate Invoice from Order Lines process
 - Material-Management-Improvements: Fixed error with quantity to replenishment for replenish report
 - CST-STD:
     - Add new product entities
     - Add support to attribute lot for e-Commerce
-    - 
+- Telegram-Notifier: Add interface for send message
 
 .. data:: Requerimientos:
 
@@ -65,10 +67,23 @@
         - 09370_Add_Product_new_Product_Group.xml
         - 09380_Add_UOM_Conversion_for_Physical_Inventory.xml
         - 09390_Add_Attribute_Set_Intance_for_Basket.xml
+    - Telegram-Notifier:
+        - 09350_Add_Telegram_Notifier_Entity_Type.xml
+        - 09360_Add_Implementation_for_Telegram.xml
+        - 09370_Add_Setup_for_Telegram_Notifier.xml
+        - 09380_Add_Chat_ID_as_Parameter_for_Registration.xml
 
 .. data:: Novedades
 
 - se agrega soporte a imprimir en impresora fiscal desde el proceso que genera facturas desde lineas de órdenes
+- Se agregan seis nuevas clasificaciones para productos
+    - Grupo de Compras
+    - Grupo de Ventas
+    - Grupo de Materiales
+    - Tipo de Material
+    - Tipo de Industria
+    - Marca de Producto
+- Se agrega soporte para notificaciones a través de Telegram desde ADempiere
 
 .. data:: Correcciones
 
