@@ -200,7 +200,7 @@
 <li><p>Get-Weight:1.0.9</p></li>
 <li><p>Record-Weight: 1.0.4</p></li>
 <li><p>Raw-Material-Receipt: 1.1.2</p></li>
-<li><p>Additional-Reports: 1.2.0</p></li>
+<li><p>Additional-Reports: 1.2.1</p></li>
 <li><p>adempiere-gRPC-Server: rt-28.1</p></li>
 <li><p>Material-Management-Improvements: 1.1.0</p></li>
 <li><p>Warehouse-Management-System-Improvements: 1.1.3</p></li>
@@ -210,6 +210,7 @@
 <li><p>Print-Queue: 1.0.6</p></li>
 <li><p>ERP-Payroll-Definition: 1.0.0</p></li>
 <li><p>Internal-Store: 1.0.3</p></li>
+<li><p>Telegram-Notifier: 1.0.0</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
@@ -217,17 +218,18 @@
 <dd></dd></dl>
 
 <ul class="simple">
+<li><p>Additional-Reports: fix zero return when a discount schema is null</p></li>
 <li><p>Fiscal-Printer: Add support to send document to print from Generate Invoice from Order Lines process</p></li>
 <li><p>Material-Management-Improvements: Fixed error with quantity to replenishment for replenish report</p></li>
 <li><dl class="simple">
 <dt>CST-STD:</dt><dd><ul>
 <li><p>Add new product entities</p></li>
 <li><p>Add support to attribute lot for e-Commerce</p></li>
-<li></li>
 </ul>
 </dd>
 </dl>
 </li>
+<li><p>Telegram-Notifier: Add interface for send message</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py">
@@ -255,6 +257,16 @@
 </dd>
 </dl>
 </li>
+<li><dl class="simple">
+<dt>Telegram-Notifier:</dt><dd><ul>
+<li><p>09350_Add_Telegram_Notifier_Entity_Type.xml</p></li>
+<li><p>09360_Add_Implementation_for_Telegram.xml</p></li>
+<li><p>09370_Add_Setup_for_Telegram_Notifier.xml</p></li>
+<li><p>09380_Add_Chat_ID_as_Parameter_for_Registration.xml</p></li>
+</ul>
+</dd>
+</dl>
+</li>
 </ul>
 </dd>
 </dl>
@@ -267,6 +279,19 @@
 
 <ul class="simple">
 <li><p>se agrega soporte a imprimir en impresora fiscal desde el proceso que genera facturas desde lineas de órdenes</p></li>
+<li><dl class="simple">
+<dt>Se agregan seis nuevas clasificaciones para productos</dt><dd><ul>
+<li><p>Grupo de Compras</p></li>
+<li><p>Grupo de Ventas</p></li>
+<li><p>Grupo de Materiales</p></li>
+<li><p>Tipo de Material</p></li>
+<li><p>Tipo de Industria</p></li>
+<li><p>Marca de Producto</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Se agrega soporte para notificaciones a través de Telegram desde ADempiere</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Correcciones">
