@@ -10,6 +10,7 @@ Las notas de liberación muestran todo el histórico de cambios en las versiones
 .. toctree::
     :maxdepth: 1
 
+    rs-38
     rs-37
     rs-36
     rs-35
