@@ -17,7 +17,7 @@
 - Farmer-Assistance-Program: 1.1.9
 - RethinkDB-Replicator-Client: 1.1.2
 - Third-Party-Access: 1.0.4
-- Fiscal-Printer: 1.3.7
+- Fiscal-Printer: 1.4.1
 - Sales-Force-Management: 1.0.4
 - Delivery-Management-Service: 1.1.8
 - Travel-Agency-Management: 1.0.8
@@ -34,7 +34,7 @@
 - Get-Weight:1.0.9
 - Record-Weight: 1.0.4
 - Raw-Material-Receipt: 1.1.2
-- Additional-Reports: 1.2.1
+- Additional-Reports: 1.2.2
 - adempiere-gRPC-Server: rt-28.1
 - Material-Management-Improvements: 1.1.0
 - Warehouse-Management-System-Improvements: 1.1.3
@@ -48,34 +48,22 @@
 
 .. data:: Detalle Técnico:
 
-- Notification-Queue: Add support to message Type
-- Telegram-Notifier: Add support to:
-    - Confirmation message
-    - Base message
+- Fiscal-Printer: Add kafka queue service for fiscal printer
+- Additional-Reports: Add cache for compressed images
 
 .. data:: Requerimientos:
 
 - Aplicar binario de la aplicación
 - Aplicar los XML's:
-    - Notification-Queue:
-        - 07830_Add_Message_Type.xml
-        - 07840_Add_Message_Type_for_WF.xml
-    - CST-STD:
-        - 09370_Add_Product_new_Product_Group.xml
-        - 09380_Add_UOM_Conversion_for_Physical_Inventory.xml
-        - 09390_Add_Attribute_Set_Intance_for_Basket.xml
-    - Telegram-Notifier:
-        - 09350_Add_Telegram_Notifier_Entity_Type.xml
-        - 09360_Add_Implementation_for_Telegram.xml
-        - 09370_Add_Setup_for_Telegram_Notifier.xml
-        - 09380_Add_Chat_ID_as_Parameter_for_Registration.xml
-
+    - Fiscal-Printer:
+        - 07050_Add_New_Queue_Support_based_on_Kafka_service.xml
+    - Additional-Reports:
+        - 05830_Add_cache_for_compressed_images.xml
+    
 .. data:: Novedades
 
-- Se agrega tiempo de espera entre notificación y notificación para cola de mensajería
-- Se agrega soporte para notificación de telegram en función de aprobación
-- Se agrega conversión en el inventario físico para los productos
-- Se agrega tipo de mensaje para la cola de notificación
+- Se agrega soporte a servicio de cola de impresión fiscal basado en kafka como cola de impresión
+- Se agrega soporte a almacenamiento de cache persistente en disco
 
 .. data:: Correcciones
 
