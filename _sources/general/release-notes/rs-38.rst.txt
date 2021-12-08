@@ -2,7 +2,7 @@
 
 .. _documento/versión-2:
 
-**rs-37**
+**rs-38**
 =========
 
 Las notas de liberación muestran todo el histórico de cambios en las versiones liberadas bajo autoría de `ERPyA`_. Para ver en detalle cada versión liberada solo seleccione uno de los siguientes índices:
