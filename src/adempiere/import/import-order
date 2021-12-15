@@ -11,7 +11,7 @@ En ADempiere, se puede realizar carga masiva de órdenes de compra y a continuac
 
 
 - Ubicar en el menú de ADempiere el formulario **Cargador de Archivos.** 
-    - Seleccionar el Formato de Importación **Importador Orden de Compra CID.**
+    - Seleccionar el Formato de Importación **Importador Orden de Compra.**
     - Seleccionar la Codificación del Archivo **UTF-16** o **UTF-8.**
     - Seleccionar opción *¨Seleccionar Archivos a Cargar¨.*
         - Seleccionar la opción **¨Seleccionar el Archivos¨** (ubicar el archivo descargado de importación).
