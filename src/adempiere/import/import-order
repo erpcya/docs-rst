@@ -1,0 +1,47 @@
+.. _ERPyA: http://erpya.com
+.. |Clonar o Descargar| image:: resources/img12.png
+
+.. _documento/contribuir-documento:
+
+=================================
+**Importar Órdenes de Compra**
+=================================
+
+En ADempiere, se puede realizar carga masiva de órdenes de compra y a continuación se explica el paso a paso para tener una importación exitosa: 
+
+
+- Ubicar en el menú de ADempiere el formulario **Cargador de Archivos.** 
+    - Seleccionar el Formato de Importación **Importador Orden de Compra CID.**
+    - Seleccionar la Codificación del Archivo **UTF-16** o **UTF-8.**
+    - Seleccionar opción *¨Seleccionar Archivos a Cargar¨.*
+        - Seleccionar la opción **¨Seleccionar el Archivos¨** (ubicar el archivo descargado de importación).
+        - Seleccionar la opción **¨Cargar Archivo (Upload)¨**
+    - Verificar que la información esté correcta.
+    - Seleccionar el check color Azul.
+- Ubicar en el menú de ADempiere el formulario **¨Importar Ordenes¨.**
+    - Seleccionar opción *¨Buscar Registro”* en la barra de herramientas:
+        - Seleccionar opción *¨Avanzado¨.*
+        - En la opción de columna seleccionar *Importado.*
+        - Seleccionar la opción *¨No¨* en Valor de Consulta.
+        - Seleccionar el check de color azúl.
+
+Al revisar los registros, corrobore que se visualicen todos los registros que cargó anteriormente, es decir, lo que se tenga en el archivo de importación, de igual modo, en esos registros visualizará el encabezado del excel como un registro más, ese registro debe borrarlo, para ello seleccione en la barra de herramientas la opción *¨Borrar registro¨* tomando en cuenta que debe estar posicionado en el registro del encabezado del excel.
+
+En el registro siguiente, el cuál queda luego qué se borra el registro anteriormente explicado, seleccione la opción *¨Importa Ordenes¨*, ubicado en la parte inferior del lado izquierdo.
+
+Se desplegará una ventana con varias opciones y debe llenarla de la siguiente manera:
+
+    - **Compañía:** *E.R.P Consultores y Asociados*
+    - **Organización:** *Organización*
+    - **Acción en el Documento:** *Preparar*
+    - **Borrar Registros Viejos:** Dejarlo destildado
+    - **Usuario:** Dejar el campo vacío
+    - Seleccionar el Check de color azúl.
+- Ubicar en el menú de ADempiere, la ventana Órdenes de Compra.
+- Buscar la órden que está en estado *¨En Proceso¨* la cual fue generada de la importación.
+- Proceder a completar la orden.
+
+
+.. note::
+
+    El formato de importación debe ser * Valores separado por Tabuladores (.tsv). *
