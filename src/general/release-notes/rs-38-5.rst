@@ -53,6 +53,9 @@
 .. data:: Requerimientos:
 
 - Aplicar binario de la aplicación
+- Aplicar los XML's:
+    - CST-STD:
+        - 09560_Add_Locator_for_generate_Shipment.xml
     
 .. data:: Novedades
 
