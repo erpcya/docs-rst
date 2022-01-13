@@ -44,6 +44,7 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
     adempiere/human-resources-management/index
     adempiere/asset-management/index
     adempiere/performance-analysis/index
+    adempiere/import-order/index
 
 
 .. toctree::
