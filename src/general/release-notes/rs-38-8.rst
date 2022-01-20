@@ -1,3 +1,5 @@
+.. |verificación de pago| image:: resources/rs-38-8-payment-verification.png
+
 .. _documento/versión-38-8:
 
 **rs-38-8**
@@ -72,7 +74,13 @@
     
 .. data:: Novedades
 
-- se agregan notificaciones via telegram para verificación de cobros desde el punto de ventas
+- Se agregan notificaciones via telegram para verificación de cobros desde el punto de ventas
+
+Con ésta versión ya se puede enviar una notificación desde ADempiere a través de Telegram y desde el mismo Telegram se puede confirmar. 
+Un ejemplo es cuando se compra un producto en una tienda y se paga con pago móvil o Zelle u otro medio electrónico automáticamente le llega una notificación 
+al supervisor para que verifique como la que se muestra a continuación
+
+|verificación de pago|
 
 .. data:: Correcciones
 
