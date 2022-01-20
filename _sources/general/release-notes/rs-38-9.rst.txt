@@ -1,3 +1,5 @@
+.. |mensaje de confirmación| image:: resources/rs-38-9-payment-verification-message.png
+
 .. _documento/versión-38-9:
 
 **rs-38-9**
@@ -71,7 +73,9 @@
     
 .. data:: Novedades
 
-- Se agrega mensaje de error para la verificación de pago
+- Se agrega mensaje de error para la verificación de pago: Esto simplemente le notifica al usuario cuando ya un pago se verificó
+
+|mensaje de confirmación|
 
 .. data:: Correcciones
 
