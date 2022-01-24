@@ -76,6 +76,10 @@
 |proceso para leer respuesta de impresora|
 |numero z en la factura de cuentas por cobrar|
 
+Este proceso permitirá obtener valores de la impresora fiscal de manera asíncrona. Los valores que se pueden recuperar por el momento son:
+    - Lectura de número de documento fiscal generado por la impresora después de imprimir
+    - Lectura de Fecha de Impresión de documento
+
 .. data:: Correcciones
 
 - Sólo Mejoras
