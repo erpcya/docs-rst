@@ -65,6 +65,18 @@
 .. data:: Requerimientos:
 
 - Aplicar binario de la aplicación
+- Aplicar XML's:
+    - e-Commerce-Queue:
+        - 09910_Add_e_Commerce_Queue_Entity_Type.xml
+        - 09920_Add_queue_Type_for_e_Commerce.xml
+        - 09930_Add_Store_Queue.xml
+        - 09940_Add_Setup_for_e_Commerce_Queue.xml
+        - 09950_Add_Event_Type_for_Store_Queue.xml
+        - 09960_Add_Processed_Column_to_Queue.xml
+    - Vue-StoreFront-API:
+        - 09920_Add_Vue_StoreFront_API_Entity_Type.xml
+        - 09930_Add_Application_Type_for_Vue_StoreFront.xml
+        - 09940_Add_setup_for_Vue_StoreFront.xml
     
 .. data:: Novedades
 
