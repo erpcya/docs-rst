@@ -53,8 +53,8 @@
 - Kubernetes-Cluster: 1.0.7
 - ADempiere-Exporter: 1.0.5
 - ADempiere-TelegramBot
-- e-Commerce-Queue: 1.0.0
-- Vue-StoreFront-API: 1.0.0
+- e-Commerce-Queue: 1.0.1
+- Vue-StoreFront-API: 1.0.1
 
 .. data:: Detalle Técnico:
 
