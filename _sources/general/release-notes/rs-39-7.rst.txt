@@ -1,0 +1,88 @@
+.. _documento/versión-39-7:
+
+**rs-39-7**
+===========
+
+**Fecha de Liberación:** 2022-02-04
+-----------------------------------
+
+.. data:: Soporte a Versiones:
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-31.2
+- Consigned-Material: 1.2.9
+- Exchange-Operation-System: 1.1.9
+- Cloud-Service-Management: 1.1.3
+- Cash-Management: 1.1.4
+- Currency-Convert-Documents: 1.0.9
+- Farmer-Assistance-Program: 1.2.5
+- RethinkDB-Replicator-Client: 1.1.5
+- Third-Party-Access: 1.0.5
+- Fiscal-Printer: 1.4.7
+- Sales-Force-Management: 1.0.6
+- Delivery-Management-Service: 1.1.9
+- Travel-Agency-Management: 1.0.9
+- Withholding: 1.0.9
+- Migration-Tools: 1.0.4
+- LVE: 1.5.5
+- Performance-Analysis: 1.1.1
+- Queue-Manager: 1.0.6
+- Notification-Queue: 1.1.6
+- Point-Of-Sales-Improvements: 1.3.4
+- Kafka-Replicator-Client: 1.0.9
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.3.8
+- Get-Weight:1.1.1
+- Record-Weight: 1.0.5
+- Raw-Material-Receipt: 1.1.4
+- Additional-Reports: 1.2.3
+- adempiere-customer-backend: 1.2.1
+- Material-Management-Improvements: 1.1.2
+- Warehouse-Management-System-Improvements: 1.1.4
+- Import-Export-Management: 1.0.3
+- Update-Management: 1.1.3
+- Mini-Retail: 1.1.5
+- Print-Queue: 1.0.8
+- ERP-Payroll-Definition: 1.0.1
+- Internal-Store: 1.0.4
+- Telegram-Notifier: 1.0.5
+- Costing-Engine-Improvements: 1.1.1
+- Default-Attribute: 1.0.1
+- Financial-Report: 1.0.1
+- Json-Replicator-Client: 1.0.2
+- Kubernetes-Cluster: 1.0.7
+- ADempiere-Exporter: 1.0.5
+- ADempiere-TelegramBot
+- e-Commerce-Queue: 1.0.4
+- Vue-StoreFront-API: 1.0.3
+- Mercado-Libre-Venezuela-API: 1.0.0
+
+.. data:: Detalle Técnico:
+
+- LVE: Se agrega soporte a funcionalidad multi compañía como organización para los bancos:
+    - Banesco
+    - Venezuela
+- e-Commerce-Queue: Add Criteria for request a search
+- Vue-StoreFront-API: Add support to criteria interface
+- Mercado-Libre-Venezuela-API: Add support to seed of Mercado Libre Venezuela
+
+.. data:: Requerimientos:
+
+- Aplicar binario de la aplicación
+- Aplicar los XML's:
+    - Mercado-Libre-Venezuela-API:
+        - 09930_Add_Mercado_Libre_Venezuela_API_Entity_Type.xml
+        - 09940_Add_App_support_for_Mercado_Libre_Venezuela.xml
+        - 09950_Add_Setup_for_Mercado_Libre_Venezuela.xml
+
+    
+.. data:: Novedades
+
+- Se agrega soporte a funcionalidad multi compañía como organización para los bancos:
+    - Banesco
+    - Venezuela
+- Se agrega semilla para conexión con Mercado Libre Venezuela
+
+.. data:: Correcciones
+
+- Sólo Novedades
