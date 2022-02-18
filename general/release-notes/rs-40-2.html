@@ -289,7 +289,23 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li></li>
+<li><dl class="simple">
+<dt>Se agrega funcionalidad para cálculo de retenciones en eventos:</dt><dd><ul>
+<li><p>Eventos del flujo de trabajo</p></li>
+<li><p>Eventos del modelo de persistencia</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p>Se elimina validación para sólo órdenes de compras en los precalculos sobre órdenes</p></li>
+<li><p>Se agrega soporte a pre-calculo de retención en Orden de Venta</p></li>
+<li><p>Se agrega validación por campo Agente de Retención en el cálculo de IVA para documentos por cobrar</p></li>
+<li><p>Se agrega precalculo para orden de venta</p></li>
+<li><p>Se agrega toda la definición base para cálculo de nómina como código fuente para optimizar el proceso de nómina estándar de Venezuela</p></li>
+<li><p>Se agrega nuevo proceso para pre-cálculo de retenciones en el punto de ventas</p></li>
+<li><p>Se mejora el proceso de reembolso posterior desde el punto de ventas para que tome el monto convertido al momento de generar el pago</p></li>
+<li><p>Se permite buscar cálculos de rubro basado en Categoría, Grupo, Clase y Clasificación de producto en la funcionalidad de Programa de Asistencia al Agricultor</p></li>
+<li><p>se agrega el concepto como referencia en los errores en tiempo de ejecución de nómina como “NaN”</p></li>
 </ul>
 <dl class="py data">
 <dt class="sig sig-object py" id="Correcciones">
@@ -297,7 +313,8 @@
 <dd></dd></dl>
 
 <ul class="simple">
-<li><p>Sólo Novedades</p></li>
+<li><p>Se corrige error en tiempo de ejecución al completar un documento sin formato de impresión y con cola de impresión configurada: <a class="reference external" href="https://github.com/erpcya/CONTROL-ANCA/issues/147">https://github.com/erpcya/CONTROL-ANCA/issues/147</a></p></li>
+<li><p>Se corrige error de referencia de clase al momento de ejecutar la funcionalidad de cola de impresión desde la compañía</p></li>
 </ul>
 </section>
 </section>
