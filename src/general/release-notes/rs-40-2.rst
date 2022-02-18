@@ -78,7 +78,7 @@
 Classification and Group
 - Print-Queue: Fixed error with NPE after complete document with print after complete flag setted
 
-.. data:: Requerimientos:
+.. data:: Requerimientos
 
 - Aplicar binario de la aplicación
 - Aplicar los XML's:
