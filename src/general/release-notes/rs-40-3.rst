@@ -9,7 +9,7 @@
 **Fecha de Liberación:** 2022-02-18
 -----------------------------------
 
-.. data:: Soporte a Versiones:
+.. data:: Soporte a Versiones
 
 - ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
 - CST-STD: Versión de Liberación: rs-31.7
@@ -60,7 +60,7 @@
 - Vue-StoreFront-API: 1.0.4
 - Mercado-Libre-Venezuela-API: 1.0.2
 
-.. data:: Detalle Técnico:
+.. data:: Detalle Técnico
 
 - LVE: 
 	- Se agrega soporte a TXT de Banco de Venezuela con organización definida como una compañía
