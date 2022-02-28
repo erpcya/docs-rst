@@ -12,7 +12,7 @@
 - CST-STD: Versión de Liberación: rs-31.9
 - Consigned-Material: 1.3.0
 - Exchange-Operation-System: 1.1.9
-- Cloud-Service-Management: 1.1.5
+- Cloud-Service-Management: 1.1.6
 - Cash-Management: 1.1.4
 - Currency-Convert-Documents: 1.0.9
 - Farmer-Assistance-Program: 1.2.7
