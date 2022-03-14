@@ -71,5 +71,5 @@
 .. data:: Correcciones
 
   - Corrección de número de cuenta de cliente para txt de nómina Venezuela
-  - se corrige error inesperado al validar entrega con orden que tiene descuento por documento
+  - Se corrige error inesperado al validar entrega con orden que tiene descuento por documento
   - Se agrega TXT para pago a proveedores de B.N.C
