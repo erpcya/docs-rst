@@ -76,4 +76,3 @@
 .. data:: Correcciones
 
   - Se agrega campo para descuento en Orden de Venta
-  - Se agrega campo para código de cuenta de cliente en cuenta bancaria
