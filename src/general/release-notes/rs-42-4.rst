@@ -61,6 +61,7 @@
 .. data:: Detalle Técnico
 
 - Point-Of-Sales-Improvements: Add discount to Order Header
+- LVE: Se agrega campo para código de cuenta de cliente en cuenta bancaria
 
 .. data:: Requerimientos
 
@@ -69,7 +70,8 @@
   - Point-Of-Sales-Improvements:
     - 09750_Add_Field_for_Discount.xml
     - 09760_Add_Discount_Field_to_Order.xml
-
+  - LVE: 
+    - 1015_Add_Bank_Client_No_for_Bank_Account.xml
 
 .. data:: Correcciones
 
