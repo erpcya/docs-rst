@@ -83,6 +83,7 @@
     - 07860_Add_FAP_RawMaterialConditioning_ID_column_to_Transaction.xml
     - 07870_Add_FarmerInvoiceInterest_ID_column_to_financial_product.xml
     - 07880_Add_IsFarmerInvoiceInterest_column_to_document_type.xml
+    - 07890_Add_IsFarmerInvoiceInterest_column_to_charge.xml
   
 .. data:: Novedades
 
