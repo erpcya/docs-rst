@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en Windows &mdash; ERPYA 1.0 Documentation</title>
+      <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+      <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../../" id="documentation_options" src="../../_static/documentation_options.js"></script>
+        <script src="../../_static/jquery.js"></script>
+        <script src="../../_static/underscore.js"></script>
+        <script src="../../_static/doctools.js"></script>
+    <script src="../../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../../genindex.html" />
+    <link rel="search" title="Search" href="../../search.html" />
+    <link rel="next" title="Procedimientos" href="../procedures/index.html" />
+    <link rel="prev" title="Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en ADempiere" href="adempiere-config-local-printing-all-in-one.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../../index.html" class="icon icon-home"> ERPYA
+            <img src="../../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+<h2>Tabla de Contenido</h2>
+
+              <p class="caption" role="heading"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/bot/index.html"><strong>Soporte en Bot</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Impresora Fiscal</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="add-java-to-path.html"><strong>Añadir Java 8 a las Variables de Entorno</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="commons-errors-fiscal-printer.html"><strong>Errores comunes Impresora Fiscal</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="manual-reports.html"><strong>Generar Reportes Manualmente en la impresora</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="setup-vmax-220.html"><strong>Configuración de Impresora Fiscal VMax 220 para Usar con ADempiere</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="install-pnp-fiscalprinter.html"><strong>Instalar Impresora Fiscal PNP</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="daily-setup-pnp-fiscalPrinter.html">Revisión de Rutina para Impresora Fiscal PNP</a></li>
+<li class="toctree-l2"><a class="reference internal" href="update-client-pnp-fiscalPrinter.html"><strong>Actualizar Cliente de cola de impresión para Impresora Fiscal PNP</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="install-tfhka-fiscalprinter.html"><strong>Instalar Impresora Fiscal The Factory HKA</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="install-local-printing-all-in-one.html">Instalar Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adempiere-config-local-printing-all-in-one.html">Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en ADempiere</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en Windows</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#configurar-la-aplicacion-para-imprimir-pdf-documentos">Configurar la aplicación para Imprimir PDF(Documentos)</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#configurar-la-aplicacion-para-imprimir-documentos-fiscales-con-the-factory-hka">Configurar la aplicación para Imprimir Documentos Fiscales con The Factory HKA</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="../procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../../bot/index.html"><strong>Bot</strong></a></li>
+</ul>
+
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../index.html">ERPYA</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html"><strong>Impresora Fiscal</strong></a> &raquo;</li>
+      <li>Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en Windows</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../../_sources/lve/fiscal-printer/local-config-local-printing-all-in-one.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="configuracion-cliente-de-impresion-todo-en-uno-local-printing-all-in-one-dotnet-en-windows">
+<span id="documento-local-config-local-printing-all-in-one"></span><h1>Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en Windows<a class="headerlink" href="#configuracion-cliente-de-impresion-todo-en-uno-local-printing-all-in-one-dotnet-en-windows" title="Permalink to this headline"></a></h1>
+<p>La Configuración de la Aplicación dependera del uso final de la aplicacion ya que puede controlar a impresoras fiscales de The Factory HKA e Imprimir PDF.</p>
+<section id="configurar-la-aplicacion-para-imprimir-pdf-documentos">
+<h2>Configurar la aplicación para Imprimir PDF(Documentos)<a class="headerlink" href="#configurar-la-aplicacion-para-imprimir-pdf-documentos" title="Permalink to this headline"></a></h2>
+<p>Se Debe tener en cuenta que la aplicación utiliza la impresora predeterminada del sistema operativo y es imprescindible que se encuntre instalada una de las siguientes aplicaciones para leer archivos PDF <strong>Acrobat Reader DC</strong> o <strong>Foxit Reader</strong></p>
+<ol class="arabic simple">
+<li><p>Ingresar en la siguiente ruta <a href="#id1"><span class="problematic" id="id2">**</span></a>C:Users(Usuario de Windows)AppDataLocalLocal-Printing-All-In-One-DotNet** o en su defecto acercarse a al directorio usando el Acceso Directo en el escritorio resultante luego de instalar la apliciacion.</p></li>
+</ol>
+<p><img alt="Acceso directo de la aplicación" src="../../_images/desktop-app-icon.png" /></p>
+<p>En la ruta previamente mencionada debe Existir la siguiente distribuicion de directorios.</p>
+<p><img alt="Directorio de insalación" src="../../_images/resultant-install-directory.png" /></p>
+<ol class="arabic simple" start="2">
+<li><p>Configurar el paramteros de la aplicacion en archivo printer.yaml</p></li>
+</ol>
+<p>Para realizar este paso se debe acceder la carpeta resources.</p>
+<p><img alt="Archivos de Configuracion" src="../../_images/config-files.png" /></p>
+<p>Abrimos el siguiente archivo <strong>printer.yaml</strong> el cual tiene la siguiente estructura.</p>
+<p><img alt="Estrutura de Archivo printer.yaml" src="../../_images/config-file-structure.png" /></p>
+<p>Al modificar el archivo se deben respetar las identaciones y espacios en blanco, ya que de no ser asi la aplicación no iniciara.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">server</span><span class="p">:</span>
+    <span class="nt">host</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">localhost</span>
+    <span class="nt">port</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">9092</span>
+    <span class="nt">queue_name</span><span class="p">:</span> <span class="s">&quot;epale&quot;</span>
+    <span class="nt">timeout</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">6000</span>
+<span class="nt">client_name</span><span class="p">:</span> <span class="s">&quot;Printer-1&quot;</span>
+<span class="nt">device</span><span class="p">:</span>
+    <span class="nt">name</span><span class="p">:</span> <span class="s">&quot;Printer-1&quot;</span>
+    <span class="nt">folder</span><span class="p">:</span>  <span class="s">&quot;/tmp&quot;</span>
+    <span class="nt">port_name</span><span class="p">:</span> <span class="s">&quot;/dev/ttyACM0&quot;</span>
+    <span class="nt">model</span><span class="p">:</span> <span class="s">&quot;hka80&quot;</span>
+<span class="nt">invoice</span><span class="p">:</span>
+    <span class="nt">send_barcode</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+</pre></div>
+</div>
+<p>A continuación se Describe cada campo:</p>
+<p>Sección server:</p>
+<ul class="simple">
+<li><p><strong>host</strong>: Dominio o Dirección IP donde se encuentra ejecutandose el servicio de cola de Kafka.</p></li>
+<li><p><strong>port</strong>: Puerto por el cual responde el servicio de cola de Kafka.</p></li>
+<li><p><strong>queue_name</strong>: Nombre de cola de impresión</p></li>
+<li><p><strong>timeout</strong>: Tiempo de espera de respuesta, esta expresado en ms</p></li>
+<li><p><strong>client_name</strong>: Nombre de impresora dentro de la cola de impresión (Para el caso de la impresion de PDF se puede colocar el departamento o el nombre tiene la impresora en windows)</p></li>
+</ul>
+<p>Sección device:</p>
+<ul class="simple">
+<li><p><strong>name</strong>: Nombre con el que se identifica la impresora (Es recomendable colocar el mismo nombre que se coloco en <strong>client_name</strong>)</p></li>
+<li><p><strong>folder</strong>: Ruta de creacion archivos temporales (No modificar este parametro)</p></li>
+<li><p><strong>port_name</strong>: Puerto donde esta conectada la impresora fiscal (Solo se usa con impresoras fiscales)</p></li>
+<li><p><strong>model</strong>: Modelo de la impresora fiscal (Solo se usa con impresoras fiscales)</p></li>
+</ul>
+<p>Sección invoice:</p>
+<ul class="simple">
+<li><p><strong>send_barcode</strong>: Enviar Codigo de barras (Solo se usa con impresoras fiscales)</p></li>
+</ul>
+</section>
+<section id="configurar-la-aplicacion-para-imprimir-documentos-fiscales-con-the-factory-hka">
+<h2>Configurar la aplicación para Imprimir Documentos Fiscales con The Factory HKA<a class="headerlink" href="#configurar-la-aplicacion-para-imprimir-documentos-fiscales-con-the-factory-hka" title="Permalink to this headline"></a></h2>
+<p>Se Debe tener en cuenta que la aplicación utiliza la impresora predeterminada del sistema operativo y es imprescindible que se encuntre instalada una de las siguientes aplicaciones para leer archivos PDF <strong>Acrobat Reader DC</strong> o <strong>Foxit Reader</strong></p>
+<ol class="arabic simple">
+<li><p>Ingresar en la siguiente ruta <a href="#id3"><span class="problematic" id="id4">**</span></a>C:Users(Usuario de Windows)AppDataLocalLocal-Printing-All-In-One-DotNet** o en su defecto acercarse a al directorio usando el Acceso Directo en el escritorio resultante luego de instalar la apliciacion.</p></li>
+</ol>
+<p><img alt="Acceso directo de la aplicación" src="../../_images/desktop-app-icon.png" /></p>
+<p>En la ruta previamente mencionada debe Existir la siguiente distribuicion de directorios.</p>
+<p><img alt="Directorio de insalación" src="../../_images/resultant-install-directory.png" /></p>
+<ol class="arabic simple" start="2">
+<li><p>Configurar el paramteros de la aplicacion en archivo printer.yaml</p></li>
+</ol>
+<p>Para realizar este paso se debe acceder la carpeta resources.</p>
+<p><img alt="Archivos de Configuracion" src="../../_images/config-files.png" /></p>
+<p>Abrimos el siguiente archivo <strong>printer.yaml</strong> el cual tiene la siguiente estructura.</p>
+<p><img alt="Estrutura de Archivo printer.yaml" src="../../_images/config-file-structure.png" /></p>
+<p>Al modificar el archivo se deben respetar las identaciones y espacios en blanco, ya que de no ser asi la aplicación no iniciara.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">server</span><span class="p">:</span>
+    <span class="nt">host</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">localhost</span>
+    <span class="nt">port</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">9092</span>
+    <span class="nt">queue_name</span><span class="p">:</span> <span class="s">&quot;epale&quot;</span>
+    <span class="nt">timeout</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">6000</span>
+<span class="nt">client_name</span><span class="p">:</span> <span class="s">&quot;Printer-1&quot;</span>
+<span class="nt">device</span><span class="p">:</span>
+    <span class="nt">name</span><span class="p">:</span> <span class="s">&quot;Printer-1&quot;</span>
+    <span class="nt">folder</span><span class="p">:</span>  <span class="s">&quot;/tmp&quot;</span>
+    <span class="nt">port_name</span><span class="p">:</span> <span class="s">&quot;COM4&quot;</span>
+    <span class="nt">model</span><span class="p">:</span> <span class="s">&quot;hka80&quot;</span>
+<span class="nt">invoice</span><span class="p">:</span>
+    <span class="nt">send_barcode</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">false</span>
+</pre></div>
+</div>
+<p>A continuación se Describe cada campo:</p>
+<p>Sección server:</p>
+<ul class="simple">
+<li><p><strong>host</strong>: Dominio o Dirección IP donde se encuentra ejecutandose el servicio de cola de Kafka.</p></li>
+<li><p><strong>port</strong>: Puerto por el cual responde el servicio de cola de Kafka.</p></li>
+<li><p><strong>queue_name</strong>: Nombre de cola de impresión</p></li>
+<li><p><strong>timeout</strong>: Tiempo de espera de respuesta, esta expresado en ms</p></li>
+<li><p><strong>client_name</strong>: Nombre de impresora dentro de la cola de impresión (Se Recomienda para este caso colocar el serial de la impresora fiscal)</p></li>
+</ul>
+<p>Sección device:</p>
+<ul class="simple">
+<li><p><strong>name</strong>: Nombre con el que se identifica la impresora (Es recomendable colocar el mismo nombre que se coloco en <strong>client_name</strong>)</p></li>
+<li><p><strong>folder</strong>: Ruta de creacion archivos temporales (No modificar este parametro)</p></li>
+<li><p><strong>port_name</strong>: Puerto donde esta conectada la impresora fiscal (Ej. COM4)</p></li>
+<li><p><strong>model</strong>: Modelo de la impresora fiscal, de momento solo esta Soportada la impresora <strong>hka80</strong> de The Factory HKA</p></li>
+</ul>
+<p>Sección invoice:</p>
+<ul class="simple">
+<li><p><strong>send_barcode</strong>: Enviar Codigo de barras solo admite valores booleanos (true o false), previamente deben estar cofigurados los flags correspondientes en la programcion de la impresora fiscal para imprimir codigos de barras.</p></li>
+</ul>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="adempiere-config-local-printing-all-in-one.html" class="btn btn-neutral float-left" title="Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../procedures/index.html" class="btn btn-neutral float-right" title="Procedimientos" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020, ADempiere ERP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
