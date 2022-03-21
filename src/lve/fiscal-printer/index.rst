@@ -31,4 +31,6 @@ Actualmente se tiene soporte para las marcas:
     daily-setup-pnp-fiscalPrinter
     update-client-pnp-fiscalPrinter
     install-tfhka-fiscalprinter
-    
+    install-local-printing-all-in-one
+    adempiere-config-local-printing-all-in-one
+    local-config-local-printing-all-in-one
