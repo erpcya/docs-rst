@@ -1,6 +1,7 @@
 .. _documento/versión-43-2:
 
 .. _Estructura de txt para pago de Nómina Banco de Venezuela: https://github.com/erpcya/Control-PROSEIN/issues/36
+.. _No existe una columna para mostrar el número del Registro de Peso - Reporte Estado de Cuenta (Productor): https://github.com/erpcya/Control-VEALCA/issues/63
 
 **rs-43-2**
 ===========
@@ -17,7 +18,7 @@
 - Cloud-Service-Management: 1.2.4
 - Cash-Management: 1.1.4
 - Currency-Convert-Documents: 1.0.9
-- Farmer-Assistance-Program: 1.3.3
+- Farmer-Assistance-Program: 1.3.4
 - RethinkDB-Replicator-Client: 1.1.5
 - Third-Party-Access: 1.0.5
 - Fiscal-Printer: 1.5.1
@@ -84,6 +85,10 @@
     - Radar
     - Scatter
 
+- Farmer-Assistance-Program: 
+
+  - Add support to reference of record weight, freight order, transaction batch and transaction on Statement of Account (Farmer)
+
 .. data:: Requerimientos
 
 - Aplicar binario de la aplicación
@@ -98,12 +103,18 @@
     - 10220_Add_Dashboard_Types.xml
     - 10230_Add_Dashboard_Types_1.xml
     - 10230_Increase_column_sizes_from_Chart_Data_Source.xml
+
+  - Farmer-Assistance-Program:
+
+    - 07900_Add_columns_to_Farmer_Account_Statement.xml
   
 .. data:: Novedades
 
 - Se remueve bandera para  autoarchivar documentos desde la compañía
 - Se agrega soporte a nuevos gráficos como Barra, Aro, Radar entre otros
+- Se agrega referencias a registro de peso, orden de flete, lote de transacción y transacción en el reporte de estado de cuentas
 
 .. data:: Reportes Relacionados
 
 - `Estructura de txt para pago de Nómina Banco de Venezuela`_
+- `No existe una columna para mostrar el número del Registro de Peso - Reporte Estado de Cuenta (Productor)`_
