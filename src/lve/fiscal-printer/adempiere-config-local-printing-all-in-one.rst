@@ -9,15 +9,15 @@
 .. _documento/adempiere-config-local-printing-all-in-one:
 
 
-Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en ADempiere
+Configuración Cliente de Impresión en ADempiere
 ==============================================================================================
 
-En ADempiere la Configuración se realiza en la ventana Registro de Aplicación, la configuracion a emplear dependera del uso final de la aplicacion ya que puede controlar a impresoras fiscales de The Factory HKA y Imprimir PDF.
+En ADempiere la Configuración (Local-Printing-All-In-One-DotNet) se realiza en la ventana Registro de Aplicación, la configuración a emplear dependera del uso final de la aplicación ya que puede controlar a impresoras fiscales de The Factory HKA y Imprimir PDF.
 
-Configurar la aplicación para Imprimir PDF(Documentos) desde ADempiere
-----------------------------------------------------------------------
+Configurar la aplicación para Imprimir PDF (Documentos) desde ADempiere
+-----------------------------------------------------------------------
 
-1. Dirijase a la ventana registros de apliacion y cree un nuevo registro llenando los siguientes campos.
+1. Dirijase a la ventana registros de aplicación y cree un nuevo registro llenando los siguientes campos.
 
 |Registro de Aplicación|
 
@@ -25,7 +25,7 @@ Configurar la aplicación para Imprimir PDF(Documentos) desde ADempiere
 - **Tipo de Aplicación**:   Cola de Impresión
 - **Aplicación Soportada**: Kafka-Queue_Kafka Queue
 - **Nombre**: Nombre Descriptivo para identificar la impresora
-- **Descripción**: En esta seccion se puede Decribir la impresora o la ubicación de la misma para un mejor referencia para identificarla
+- **Descripción**: En está sección se puede Decribir la impresora o la ubicación de la misma para un mejor referencia para identificarla
 - **Servidor**: Dominio o Dirección IP donde se encuentra ejecutandose el servicio de cola de Kafka.
 - **Puerto**: Puerto por el cual responde el servicio de cola de Kafka.
 
@@ -39,16 +39,19 @@ Configurar la aplicación para Imprimir PDF(Documentos) desde ADempiere
 
 |Nombre de Impresora|
 
+
 3. Prueba de impresión:
 
-Este paso es importante, debido a que en este punto es donde se crea la cola de impresión, para que ADempiere envie los Documentos y el Cliente de Impresión Todo en Uno los reciba y los envie a la impresora, cuande es ejecute el proceso Test Conection inmediatamente se enviara a la cola de impresion un documento aleatorio desde ADempiere (Es recomendable hacer esto antes de iniciar la configuracion en Windows de la aplicación).
+Este paso es importante, debido a que en este punto es donde se crea la cola de impresión, para que ADempiere envie los Documentos y el Cliente de Impresión Todo en Uno los reciba y los envie a la impresora, cuande es ejecute el proceso Test Conectión inmediatamente se enviara a la cola de impresión un documento aleatorio desde ADempiere (Es recomendable hacer esto antes de iniciar la configuración en Windows de la aplicación).
 
 |Prueba de Impresión|
+
+El Resultado de está prueba es el siguiente se imprime un documento en la impresora prederterminada del sistema operativo.
 
 Configurar la aplicación para controlar una impresora Fiscal
 ------------------------------------------------------------
 
-1. Dirijase a la ventana registros de apliacion y cree un nuevo registro llenando los siguientes campos.
+1. Dirijase a la ventana registros de aplicación y cree un nuevo registro llenando los siguientes campos.
 
 |Registro de Aplicación Impresora Fiscal|
 
@@ -56,7 +59,7 @@ Configurar la aplicación para controlar una impresora Fiscal
 - **Tipo de Aplicación**: Impresora Fiscal
 - **Aplicación Soportada**: FiscalPrintKafkaAPI_Fiscal Printer Kafka API
 - **Nombre**: Nombre Descriptivo para identificar la impresora
-- **Descripción**: En esta seccion se puede Decribir la impresora o la ubicación de la misma para un mejor referencia para identificarla
+- **Descripción**: En está sección se puede Decribir la impresora o la ubicación de la misma para un mejor referencia para identificarla
 - **Servidor**: Dominio o Dirección IP donde se encuentra ejecutandose el servicio de cola de Kafka.
 - **Puerto**: Puerto por el cual responde el servicio de cola de Kafka.
 
@@ -72,6 +75,8 @@ Configurar la aplicación para controlar una impresora Fiscal
 
 3. Prueba de impresión:
 
-Este se debe realizar luego de realizar la configuracion en Windows de la aplicación(Local-Printing-All-In-One-DotNet). Se Debe ejecutar el proceso **Imprimir Reporte Fiscal** con los siguiente paramtros.
+Este se debe realizar luego de realizar la configuración en Windows de la aplicación(Local-Printing-All-In-One-DotNet). Se Debe ejecutar el proceso **Imprimir Reporte Fiscal** con los siguiente paramtros.
 
 |Prueba de Impresión impresora fiscal|
+
+El Resultado de está prueba es que se imprime un Reporte X en la impresora fiscal, si esto no sucede se debe verificar la conexión de la impresora el puerto que se configuro tanto en ADempiere como en el archivo printer.yaml
