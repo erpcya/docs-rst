@@ -113,6 +113,7 @@
 - Se remueve bandera para  autoarchivar documentos desde la compañía
 - Se agrega soporte a nuevos gráficos como Barra, Aro, Radar entre otros
 - Se agrega referencias a registro de peso, orden de flete, lote de transacción y transacción en el reporte de estado de cuentas
+- Se corrige problema con tipo de cuenta para TXT de pago a empleados
 
 .. data:: Reportes Relacionados
 
