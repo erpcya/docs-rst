@@ -8,9 +8,11 @@
 .. |Acceso directo de la aplicación| image:: resorces/desktop-app-icon.png
 .. |Directorios de la aplicación| image:: resorces/resultant-install-directory.png
 .. |Archivo para iniciar la aplicación| image:: resorces/file-to-start-app.png
+.. _Dotnet SDK 6.0: https://dotnet.microsoft.com/en-us/download/dotnet/6.0
+.. _Acrobat Reader DC: https://get.adobe.com/es/reader/otherversions/
+.. _Foxit PDF Reader: https://www.foxit.com/es-la/downloads/
+.. _src/lve/fiscal-printer:
 .. _documento/instalar-local-printing-all-in-one:
-
-
 
 Instalar Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet)
 ============================================================================
@@ -21,8 +23,8 @@ Requisitos
 ----------
 
 -  Sistema operativo Windows 10
--  `Dotnet SDK 6.0 <https://dotnet.microsoft.com/en-us/download/dotnet/6.0>`_
--  Acrobat Reader DC (Indispensable para impresion de PDF) como alternativa se puede usar Foxit Reader
+-  `Dotnet SDK 6.0`_
+-  `Acrobat Reader DC`_ (Indispensable para impresión de PDF) como alternativa se puede usar `Foxit PDF Reader`_
 -  Establecer Acrobat Reader DC como aplicación predeterminada para Documentos PDF
 
 Instalación
@@ -36,15 +38,15 @@ siguientes pasos:
 Para efectos demostrativos se instala la versión de **Local-Printing-All-In-One-DotNet-rs-2.3**
 
    Ejecutar Instalador
-   
+
     |Ejecutar Instalador|
-   
+
    Permisos de Instalación
-   
+
     |Permisos de Instalación|
-   
+
    Ventana de Bienvenida
-   
+
     |Ventana de Bienvenida|
 
 2. Licencia de la aplicación
@@ -54,9 +56,9 @@ Para efectos demostrativos se instala la versión de **Local-Printing-All-In-One
 3. Ruta de Instalación
 
     La aplicación se instala por defecto en la siguiente ubicación:
-    
+
     ::
-        
+
         C:\Users\(Usuario de Windows)\AppData\Local\Local-Printing-All-In-One-DotNet\
 
 
@@ -66,7 +68,7 @@ Para efectos demostrativos se instala la versión de **Local-Printing-All-In-One
 
     |Progreso de Instalación|
 
-5. Finalizar Instalacion
+5. Finalizar Instalación
 
     |Finalización de Instalación|
 
@@ -74,10 +76,10 @@ Para efectos demostrativos se instala la versión de **Local-Printing-All-In-One
 
     |Acceso directo de la aplicación|
 
-Configurar la aplicacion para Imprimir
+Configurar la aplicación para Imprimir
 --------------------------------------
 
-La aplicaion se configura en dos etapas la primera en el servicio de ADempiere y la segunda comprende a actualizar los datos de la apliacion instalada, Siendo el orden el que se muestra a continuación.
+La aplicaión se configura en dos etapas la primera en el servicio de ADempiere y la segunda comprende a actualizar los datos de la apliación instalada, Siendo el orden el que se muestra a continuación.
 
 .. toctree::
     :maxdepth: 2
@@ -87,7 +89,7 @@ La aplicaion se configura en dos etapas la primera en el servicio de ADempiere y
 Problemas luego instalar
 ------------------------
 
-En Caso de que no se cree el icono en el escritorio luego de instalar, se debe verificar si el usuario con el que se realizo la Instalacion tiene permisologia de Administrador.
+En Caso de que no se cree el icono en el escritorio luego de instalar, se debe verificar si el usuario con el que se realizo la Instalación tiene permisologia de Administrador.
 
 Se deben seguir los siguientes pasos:
 

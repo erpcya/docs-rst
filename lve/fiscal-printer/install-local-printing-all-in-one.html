@@ -20,7 +20,7 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en ADempiere" href="adempiere-config-local-printing-all-in-one.html" />
+    <link rel="next" title="Configuración Cliente de Impresión en ADempiere" href="adempiere-config-local-printing-all-in-one.html" />
     <link rel="prev" title="Instalar Impresora Fiscal The Factory HKA" href="install-tfhka-fiscalprinter.html" /> 
 </head>
 
@@ -89,12 +89,12 @@
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Instalar Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet)</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#requisitos">Requisitos</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#instalacion">Instalación</a></li>
-<li class="toctree-l3"><a class="reference internal" href="#configurar-la-aplicacion-para-imprimir">Configurar la aplicacion para Imprimir</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#configurar-la-aplicacion-para-imprimir">Configurar la aplicación para Imprimir</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#problemas-luego-instalar">Problemas luego instalar</a></li>
 </ul>
 </li>
-<li class="toctree-l2"><a class="reference internal" href="adempiere-config-local-printing-all-in-one.html">Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en ADempiere</a></li>
-<li class="toctree-l2"><a class="reference internal" href="local-config-local-printing-all-in-one.html">Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="adempiere-config-local-printing-all-in-one.html">Configuración Cliente de Impresión en ADempiere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="local-config-local-printing-all-in-one.html">Configuración Cliente de Impresión en Windows</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../procedures/index.html"><strong>Procedimientos</strong></a></li>
@@ -142,14 +142,14 @@
            <div itemprop="articleBody">
              
   <section id="instalar-cliente-de-impresion-todo-en-uno-local-printing-all-in-one-dotnet">
-<span id="documento-instalar-local-printing-all-in-one"></span><h1>Instalar Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet)<a class="headerlink" href="#instalar-cliente-de-impresion-todo-en-uno-local-printing-all-in-one-dotnet" title="Permalink to this headline"></a></h1>
+<span id="documento-instalar-local-printing-all-in-one"></span><span id="src-lve-fiscal-printer"></span><h1>Instalar Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet)<a class="headerlink" href="#instalar-cliente-de-impresion-todo-en-uno-local-printing-all-in-one-dotnet" title="Permalink to this headline"></a></h1>
 <p>Esta herramienta permite controlar la impresora fiscal <strong>The Factory HKA 80</strong>, ademas de Imprimir PDF desde ADempiere usando la impresora predeterminada.</p>
 <section id="requisitos">
 <h2>Requisitos<a class="headerlink" href="#requisitos" title="Permalink to this headline"></a></h2>
 <ul class="simple">
 <li><p>Sistema operativo Windows 10</p></li>
 <li><p><a class="reference external" href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">Dotnet SDK 6.0</a></p></li>
-<li><p>Acrobat Reader DC (Indispensable para impresion de PDF) como alternativa se puede usar Foxit Reader</p></li>
+<li><p><a class="reference external" href="https://get.adobe.com/es/reader/otherversions/">Acrobat Reader DC</a> (Indispensable para impresión de PDF) como alternativa se puede usar <a class="reference external" href="https://www.foxit.com/es-la/downloads/">Foxit PDF Reader</a></p></li>
 <li><p>Establecer Acrobat Reader DC como aplicación predeterminada para Documentos PDF</p></li>
 </ul>
 </section>
@@ -195,7 +195,7 @@ siguientes pasos:</p>
 <div><p><img alt="Progreso de Instalación" src="../../_images/install-progress.png" /></p>
 </div></blockquote>
 </li>
-<li><p>Finalizar Instalacion</p>
+<li><p>Finalizar Instalación</p>
 <blockquote>
 <div><p><img alt="Finalización de Instalación" src="../../_images/finish-installation.png" /></p>
 </div></blockquote>
@@ -208,12 +208,12 @@ siguientes pasos:</p>
 </ol>
 </section>
 <section id="configurar-la-aplicacion-para-imprimir">
-<h2>Configurar la aplicacion para Imprimir<a class="headerlink" href="#configurar-la-aplicacion-para-imprimir" title="Permalink to this headline"></a></h2>
-<p>La aplicaion se configura en dos etapas la primera en el servicio de ADempiere y la segunda comprende a actualizar los datos de la apliacion instalada, Siendo el orden el que se muestra a continuación.</p>
+<h2>Configurar la aplicación para Imprimir<a class="headerlink" href="#configurar-la-aplicacion-para-imprimir" title="Permalink to this headline"></a></h2>
+<p>La aplicaión se configura en dos etapas la primera en el servicio de ADempiere y la segunda comprende a actualizar los datos de la apliación instalada, Siendo el orden el que se muestra a continuación.</p>
 </section>
 <section id="problemas-luego-instalar">
 <h2>Problemas luego instalar<a class="headerlink" href="#problemas-luego-instalar" title="Permalink to this headline"></a></h2>
-<p>En Caso de que no se cree el icono en el escritorio luego de instalar, se debe verificar si el usuario con el que se realizo la Instalacion tiene permisologia de Administrador.</p>
+<p>En Caso de que no se cree el icono en el escritorio luego de instalar, se debe verificar si el usuario con el que se realizo la Instalación tiene permisologia de Administrador.</p>
 <p>Se deben seguir los siguientes pasos:</p>
 <ol class="arabic">
 <li><p>Verificar que este creada la siguiente Ruta: <a href="#id1"><span class="problematic" id="id2">**</span></a>C:Users(Usuario de Windows)AppDataLocalLocal-Printing-All-In-One-DotNet** y a su vez en dicha ubicación existan los siguientes directorios:</p>
@@ -236,7 +236,7 @@ siguientes pasos:</p>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
         <a href="install-tfhka-fiscalprinter.html" class="btn btn-neutral float-left" title="Instalar Impresora Fiscal The Factory HKA" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="adempiere-config-local-printing-all-in-one.html" class="btn btn-neutral float-right" title="Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="adempiere-config-local-printing-all-in-one.html" class="btn btn-neutral float-right" title="Configuración Cliente de Impresión en ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

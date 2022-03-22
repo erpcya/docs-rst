@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en Windows &mdash; ERPYA 1.0 Documentation</title>
+  <title>Configuración Cliente de Impresión en Windows &mdash; ERPYA 1.0 Documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
@@ -21,7 +21,7 @@
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
     <link rel="next" title="Procedimientos" href="../procedures/index.html" />
-    <link rel="prev" title="Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en ADempiere" href="adempiere-config-local-printing-all-in-one.html" /> 
+    <link rel="prev" title="Configuración Cliente de Impresión en ADempiere" href="adempiere-config-local-printing-all-in-one.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -87,8 +87,8 @@
 <li class="toctree-l2"><a class="reference internal" href="update-client-pnp-fiscalPrinter.html"><strong>Actualizar Cliente de cola de impresión para Impresora Fiscal PNP</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="install-tfhka-fiscalprinter.html"><strong>Instalar Impresora Fiscal The Factory HKA</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="install-local-printing-all-in-one.html">Instalar Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet)</a></li>
-<li class="toctree-l2"><a class="reference internal" href="adempiere-config-local-printing-all-in-one.html">Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en ADempiere</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en Windows</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="adempiere-config-local-printing-all-in-one.html">Configuración Cliente de Impresión en ADempiere</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Configuración Cliente de Impresión en Windows</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#configurar-la-aplicacion-para-imprimir-pdf-documentos">Configurar la aplicación para Imprimir PDF(Documentos)</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#configurar-la-aplicacion-para-imprimir-documentos-fiscales-con-the-factory-hka">Configurar la aplicación para Imprimir Documentos Fiscales con The Factory HKA</a></li>
 </ul>
@@ -129,7 +129,7 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="index.html"><strong>Impresora Fiscal</strong></a> &raquo;</li>
-      <li>Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en Windows</li>
+      <li>Configuración Cliente de Impresión en Windows</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../_sources/lve/fiscal-printer/local-config-local-printing-all-in-one.rst.txt" rel="nofollow"> View page source</a>
       </li>
@@ -139,26 +139,31 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="configuracion-cliente-de-impresion-todo-en-uno-local-printing-all-in-one-dotnet-en-windows">
-<span id="documento-local-config-local-printing-all-in-one"></span><h1>Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en Windows<a class="headerlink" href="#configuracion-cliente-de-impresion-todo-en-uno-local-printing-all-in-one-dotnet-en-windows" title="Permalink to this headline"></a></h1>
-<p>La Configuración de la Aplicación dependera del uso final de la aplicacion ya que puede controlar a impresoras fiscales de The Factory HKA e Imprimir PDF.</p>
+  <section id="configuracion-cliente-de-impresion-en-windows">
+<span id="documento-local-config-local-printing-all-in-one"></span><h1>Configuración Cliente de Impresión en Windows<a class="headerlink" href="#configuracion-cliente-de-impresion-en-windows" title="Permalink to this headline"></a></h1>
+<p>La Configuración de la Aplicación (Local-Printing-All-In-One-DotNet) dependera del uso final de la aplicación ya que puede controlar a impresoras fiscales de The Factory HKA e Imprimir PDF.</p>
 <section id="configurar-la-aplicacion-para-imprimir-pdf-documentos">
 <h2>Configurar la aplicación para Imprimir PDF(Documentos)<a class="headerlink" href="#configurar-la-aplicacion-para-imprimir-pdf-documentos" title="Permalink to this headline"></a></h2>
-<p>Se Debe tener en cuenta que la aplicación utiliza la impresora predeterminada del sistema operativo y es imprescindible que se encuntre instalada una de las siguientes aplicaciones para leer archivos PDF <strong>Acrobat Reader DC</strong> o <strong>Foxit Reader</strong></p>
+<p>Se Debe tener en cuenta que la aplicación utiliza la impresora predeterminada del sistema operativo y es imprescindible que se encuntre instalada una de las siguientes aplicaciónes para leer archivos PDF <strong>Acrobat Reader DC</strong> o <strong>Foxit Reader</strong></p>
 <ol class="arabic simple">
-<li><p>Ingresar en la siguiente ruta <a href="#id1"><span class="problematic" id="id2">**</span></a>C:Users(Usuario de Windows)AppDataLocalLocal-Printing-All-In-One-DotNet** o en su defecto acercarse a al directorio usando el Acceso Directo en el escritorio resultante luego de instalar la apliciacion.</p></li>
+<li><p>Acceder al directorio de el Acceso Directo en el escritorio (<strong>Local-Printing-All-In-One-DotNet</strong>) resultante luego de instalar la apliciación, o en su defecto la siguiente ruta:</p></li>
 </ol>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\Users\(Usuario</span><span class="c1"> de Windows)\AppData\Local\Local-Printing-All-In-One-DotNet\</span>
+</pre></div>
+</div>
 <p><img alt="Acceso directo de la aplicación" src="../../_images/desktop-app-icon.png" /></p>
-<p>En la ruta previamente mencionada debe Existir la siguiente distribuicion de directorios.</p>
+<p><img alt="Ir a Directorio de Aplicación" src="../../_images/config-print-queue-go-to-folder.png" /></p>
+<p><img alt="Regresar una Carpeta" src="../../_images/config-print-queue-back-folder.png" /></p>
+<p>Si accedes usando el Acceso directo debes regresar una carpeta atras, la ruta previamente menciónada debe Existir la siguiente distribuición de directorios.</p>
 <p><img alt="Directorio de insalación" src="../../_images/resultant-install-directory.png" /></p>
 <ol class="arabic simple" start="2">
-<li><p>Configurar el paramteros de la aplicacion en archivo printer.yaml</p></li>
+<li><p>Configurar el paramteros de la aplicación en archivo printer.yaml</p></li>
 </ol>
 <p>Para realizar este paso se debe acceder la carpeta resources.</p>
-<p><img alt="Archivos de Configuracion" src="../../_images/config-files.png" /></p>
+<p><img alt="Archivos de configuración" src="../../_images/config-files.png" /></p>
 <p>Abrimos el siguiente archivo <strong>printer.yaml</strong> el cual tiene la siguiente estructura.</p>
 <p><img alt="Estrutura de Archivo printer.yaml" src="../../_images/config-file-structure.png" /></p>
-<p>Al modificar el archivo se deben respetar las identaciones y espacios en blanco, ya que de no ser asi la aplicación no iniciara.</p>
+<p>Al modificar el archivo se deben respetar las identaciónes y espacios en blanco, ya que de no ser asi la aplicación no iniciara.</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">server</span><span class="p">:</span>
     <span class="nt">host</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">localhost</span>
     <span class="nt">port</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">9092</span>
@@ -178,15 +183,15 @@
 <p>Sección server:</p>
 <ul class="simple">
 <li><p><strong>host</strong>: Dominio o Dirección IP donde se encuentra ejecutandose el servicio de cola de Kafka.</p></li>
-<li><p><strong>port</strong>: Puerto por el cual responde el servicio de cola de Kafka.</p></li>
-<li><p><strong>queue_name</strong>: Nombre de cola de impresión</p></li>
+<li><p><strong>port</strong>: Puerto por el cual responde el servicio de cola de Kafka, en este parametro no se deben colocar puntos ni comas.</p></li>
+<li><p><strong>queue_name</strong>: Nombre de cola de impresión,</p></li>
 <li><p><strong>timeout</strong>: Tiempo de espera de respuesta, esta expresado en ms</p></li>
-<li><p><strong>client_name</strong>: Nombre de impresora dentro de la cola de impresión (Para el caso de la impresion de PDF se puede colocar el departamento o el nombre tiene la impresora en windows)</p></li>
+<li><p><strong>client_name</strong>: Nombre de impresora dentro de la cola de impresión (Para el caso de la impresión de PDF se puede colocar el departamento o el nombre tiene la impresora en windows)</p></li>
 </ul>
 <p>Sección device:</p>
 <ul class="simple">
 <li><p><strong>name</strong>: Nombre con el que se identifica la impresora (Es recomendable colocar el mismo nombre que se coloco en <strong>client_name</strong>)</p></li>
-<li><p><strong>folder</strong>: Ruta de creacion archivos temporales (No modificar este parametro)</p></li>
+<li><p><strong>folder</strong>: Ruta de creación archivos temporales (No modificar este parametro)</p></li>
 <li><p><strong>port_name</strong>: Puerto donde esta conectada la impresora fiscal (Solo se usa con impresoras fiscales)</p></li>
 <li><p><strong>model</strong>: Modelo de la impresora fiscal (Solo se usa con impresoras fiscales)</p></li>
 </ul>
@@ -194,24 +199,59 @@
 <ul class="simple">
 <li><p><strong>send_barcode</strong>: Enviar Codigo de barras (Solo se usa con impresoras fiscales)</p></li>
 </ul>
+<ol class="arabic simple" start="3">
+<li><p>Iniciar la aplicación para verificar la correcta configuración</p></li>
+</ol>
+<p><img alt="Acceso directo de la aplicación" src="../../_images/desktop-app-icon.png" /></p>
+<p>Si la apliciación esta correctamente configurada al iniciarla debe mostrar la siguiente consola de terminal.</p>
+<p><img alt="Funciónamiento Correcto" src="../../_images/config-print-queue-correct-operation.png" /></p>
+<blockquote>
+<div><p>Si por el contrario sucede uno de las siguiente casos:</p>
+<ol class="arabic simple">
+<li><p>La consola se cierra inmediatamente al iniciar la aplicación, esto se debe que los parametros no estan configurados correctamento on no se respeto la estructura del archivo printer.yaml</p></li>
+<li><p>Inicia la aplicación y muestra lo siguiente:</p></li>
+</ol>
+<p><img alt="Error de conexión" src="../../_images/config-print-queue-conection-error.png" /></p>
+<p>Esto sucede debido a que hay un error en los datos de conexión verificar los parametros <strong>host</strong> y <strong>port</strong>.</p>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p>Copiar Acceso directo a Menú inicio, para que la aplicación inicie con el sistema operativo, este paso solo debe hacerse una vez confirmado que la aplicación funcióne correctamente.</p></li>
+</ol>
+<p>Buscar el siguiente directorio y Copiar en su interior el acceso directo <strong>Local-Printing-All-In-One-DotNet</strong>.</p>
+<p><img alt="Menú inicio" src="../../_images/config-print-queue-start-menu.png" /></p>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\ProgramData\Microsoft\Windows\Start</span><span class="c1"> Menu\Programs\StartUp</span>
+</pre></div>
+</div>
+<p><img alt="Copiar a menú inicio" src="../../_images/config-print-queue-copy-to-start-menu.png" /></p>
+<ol class="arabic simple" start="5">
+<li><p>Prueba de reinicio.</p></li>
+</ol>
+<p>Se debe reiniciar el equipo, al iniciar nuevamente automaticamente debe iniciar la aplicación.</p>
+<p><img alt="Funciónamiento Correcto" src="../../_images/config-print-queue-correct-operation.png" /></p>
+<p>De ser asi la aplicación esta Configurada y lista para su uso, en este punto se puede proceder a hacer la prueba de impresión desde ADempiere.</p>
 </section>
 <section id="configurar-la-aplicacion-para-imprimir-documentos-fiscales-con-the-factory-hka">
 <h2>Configurar la aplicación para Imprimir Documentos Fiscales con The Factory HKA<a class="headerlink" href="#configurar-la-aplicacion-para-imprimir-documentos-fiscales-con-the-factory-hka" title="Permalink to this headline"></a></h2>
-<p>Se Debe tener en cuenta que la aplicación utiliza la impresora predeterminada del sistema operativo y es imprescindible que se encuntre instalada una de las siguientes aplicaciones para leer archivos PDF <strong>Acrobat Reader DC</strong> o <strong>Foxit Reader</strong></p>
+<p>Se Debe tener en cuenta que la aplicación utiliza la impresora predeterminada del sistema operativo y es imprescindible que se encuntre instalada una de las siguientes aplicaciónes para leer archivos PDF <strong>Acrobat Reader DC</strong> o <strong>Foxit Reader</strong></p>
 <ol class="arabic simple">
-<li><p>Ingresar en la siguiente ruta <a href="#id3"><span class="problematic" id="id4">**</span></a>C:Users(Usuario de Windows)AppDataLocalLocal-Printing-All-In-One-DotNet** o en su defecto acercarse a al directorio usando el Acceso Directo en el escritorio resultante luego de instalar la apliciacion.</p></li>
+<li><p>Acceder al directorio de el Acceso Directo en el escritorio (<strong>Local-Printing-All-In-One-DotNet</strong>) resultante luego de instalar la apliciación, o en su defecto la siguiente ruta:</p></li>
 </ol>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\Users\(Usuario</span><span class="c1"> de Windows)\AppData\Local\Local-Printing-All-In-One-DotNet\</span>
+</pre></div>
+</div>
 <p><img alt="Acceso directo de la aplicación" src="../../_images/desktop-app-icon.png" /></p>
-<p>En la ruta previamente mencionada debe Existir la siguiente distribuicion de directorios.</p>
+<p><img alt="Ir a Directorio de Aplicación" src="../../_images/config-print-queue-go-to-folder.png" /></p>
+<p><img alt="Regresar una Carpeta" src="../../_images/config-print-queue-back-folder.png" /></p>
+<p>Si accedes usando el Acceso directo debes regresar una carpeta atras, la ruta previamente menciónada debe Existir la siguiente distribuición de directorios.</p>
 <p><img alt="Directorio de insalación" src="../../_images/resultant-install-directory.png" /></p>
 <ol class="arabic simple" start="2">
-<li><p>Configurar el paramteros de la aplicacion en archivo printer.yaml</p></li>
+<li><p>Configurar el paramteros de la aplicación en archivo printer.yaml</p></li>
 </ol>
 <p>Para realizar este paso se debe acceder la carpeta resources.</p>
-<p><img alt="Archivos de Configuracion" src="../../_images/config-files.png" /></p>
+<p><img alt="Archivos de configuración" src="../../_images/config-files.png" /></p>
 <p>Abrimos el siguiente archivo <strong>printer.yaml</strong> el cual tiene la siguiente estructura.</p>
 <p><img alt="Estrutura de Archivo printer.yaml" src="../../_images/config-file-structure.png" /></p>
-<p>Al modificar el archivo se deben respetar las identaciones y espacios en blanco, ya que de no ser asi la aplicación no iniciara.</p>
+<p>Al modificar el archivo se deben respetar las identaciónes y espacios en blanco, ya que de no ser asi la aplicación no iniciara.</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span><span class="nt">server</span><span class="p">:</span>
     <span class="nt">host</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">localhost</span>
     <span class="nt">port</span><span class="p">:</span> <span class="l l-Scalar l-Scalar-Plain">9092</span>
@@ -231,7 +271,7 @@
 <p>Sección server:</p>
 <ul class="simple">
 <li><p><strong>host</strong>: Dominio o Dirección IP donde se encuentra ejecutandose el servicio de cola de Kafka.</p></li>
-<li><p><strong>port</strong>: Puerto por el cual responde el servicio de cola de Kafka.</p></li>
+<li><p><strong>port</strong>: Puerto por el cual responde el servicio de cola de Kafka, en este parametro no se deben colocar puntos ni comas.</p></li>
 <li><p><strong>queue_name</strong>: Nombre de cola de impresión</p></li>
 <li><p><strong>timeout</strong>: Tiempo de espera de respuesta, esta expresado en ms</p></li>
 <li><p><strong>client_name</strong>: Nombre de impresora dentro de la cola de impresión (Se Recomienda para este caso colocar el serial de la impresora fiscal)</p></li>
@@ -239,14 +279,44 @@
 <p>Sección device:</p>
 <ul class="simple">
 <li><p><strong>name</strong>: Nombre con el que se identifica la impresora (Es recomendable colocar el mismo nombre que se coloco en <strong>client_name</strong>)</p></li>
-<li><p><strong>folder</strong>: Ruta de creacion archivos temporales (No modificar este parametro)</p></li>
+<li><p><strong>folder</strong>: Ruta de creación archivos temporales (No modificar este parametro)</p></li>
 <li><p><strong>port_name</strong>: Puerto donde esta conectada la impresora fiscal (Ej. COM4)</p></li>
 <li><p><strong>model</strong>: Modelo de la impresora fiscal, de momento solo esta Soportada la impresora <strong>hka80</strong> de The Factory HKA</p></li>
 </ul>
 <p>Sección invoice:</p>
 <ul class="simple">
-<li><p><strong>send_barcode</strong>: Enviar Codigo de barras solo admite valores booleanos (true o false), previamente deben estar cofigurados los flags correspondientes en la programcion de la impresora fiscal para imprimir codigos de barras.</p></li>
+<li><p><strong>send_barcode</strong>: Enviar Codigo de barras solo admite valores booleanos (true o false), previamente deben estar cofigurados los flags correspondientes en la programción de la impresora fiscal para imprimir codigos de barras.</p></li>
 </ul>
+<ol class="arabic simple" start="3">
+<li><p>Iniciar la aplicación para verificar la correcta configuración</p></li>
+</ol>
+<p><img alt="Acceso directo de la aplicación" src="../../_images/desktop-app-icon.png" /></p>
+<p>Si la apliciación esta correctamente configurada al iniciarla debe mostrar la siguiente consola de terminal.</p>
+<p><img alt="Funciónamiento Correcto" src="../../_images/config-print-queue-correct-operation.png" /></p>
+<blockquote>
+<div><p>Si por el contrario sucede uno de las siguiente casos:</p>
+<ol class="arabic simple">
+<li><p>La consola se cierra inmediatamente al iniciar la aplicación, esto se debe que los parametros no estan configurados correctamento on no se respeto la estructura del archivo printer.yaml</p></li>
+<li><p>Inicia la aplicación y muestra lo siguiente:</p></li>
+</ol>
+<p><img alt="Error de conexión" src="../../_images/config-print-queue-conection-error.png" /></p>
+<p>Esto sucede debido a que hay un error en los datos de conexión verificar los parametros <strong>host</strong> y <strong>port</strong>.</p>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p>Copiar Acceso directo a Menú inicio, para que la aplicación inicie con el sistema operativo.</p></li>
+</ol>
+<p>Buscar el siguiente directorio y Copiar en su interior el acceso directo <strong>Local-Printing-All-In-One-DotNet</strong>.</p>
+<p><img alt="Menú inicio" src="../../_images/config-print-queue-start-menu.png" /></p>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\ProgramData\Microsoft\Windows\Start</span><span class="c1"> Menu\Programs\StartUp</span>
+</pre></div>
+</div>
+<p><img alt="Copiar a menú inicio" src="../../_images/config-print-queue-copy-to-start-menu.png" /></p>
+<ol class="arabic simple" start="5">
+<li><p>Prueba de reinicio.</p></li>
+</ol>
+<p>Se debe reiniciar el equipo, al iniciar nuevamente automaticamente debe iniciar la aplicación.</p>
+<p><img alt="Funciónamiento Correcto" src="../../_images/config-print-queue-correct-operation.png" /></p>
+<p>De ser asi la aplicación esta Configurada y lista para su uso, en este punto se puede proceder a hacer la prueba de impresión desde ADempiere.</p>
 </section>
 </section>
 
@@ -254,7 +324,7 @@
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="adempiere-config-local-printing-all-in-one.html" class="btn btn-neutral float-left" title="Configuración Cliente de Impresión Todo en Uno (Local-Printing-All-In-One-DotNet) en ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="adempiere-config-local-printing-all-in-one.html" class="btn btn-neutral float-left" title="Configuración Cliente de Impresión en ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="../procedures/index.html" class="btn btn-neutral float-right" title="Procedimientos" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
