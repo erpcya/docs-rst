@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Configuración Cliente de Lectura de Peso en Windows &mdash; ERPYA 1.0 Documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Actualizar el Cliente de Lectura de Peso" href="update-record-weight-sender-adempiere.html" />
+    <link rel="prev" title="Dispositivos" href="index.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> ERPYA
+            <img src="../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+<h2>Tabla de Contenido</h2>
+
+              <p class="caption" role="heading"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/bot/index.html"><strong>Soporte en Bot</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bot/index.html"><strong>Bot</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Dispositivos</strong></a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Configuración Cliente de Lectura de Peso en Windows</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#configurar-la-aplicacion">Configurar la aplicación</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="update-record-weight-sender-adempiere.html">Actualizar el Cliente de Lectura de Peso</a></li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ERPYA</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html"><strong>Dispositivos</strong></a> &raquo;</li>
+      <li>Configuración Cliente de Lectura de Peso en Windows</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/device/config-record-weight-sender-windows.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="configuracion-cliente-de-lectura-de-peso-en-windows">
+<span id="documento-configurar-record-weight-sender-windows"></span><h1>Configuración Cliente de Lectura de Peso en Windows<a class="headerlink" href="#configuracion-cliente-de-lectura-de-peso-en-windows" title="Permalink to this headline"></a></h1>
+<section id="configurar-la-aplicacion">
+<h2>Configurar la aplicación<a class="headerlink" href="#configurar-la-aplicacion" title="Permalink to this headline"></a></h2>
+<p>Se Debe conocer en puerto COM se encuentra conectado la balanza, ademas de la estructura de la trama de datos que envia la balanza.</p>
+<ol class="arabic simple">
+<li><p>Acceder al directorio de el Acceso Directo en el escritorio (<strong>Record-Weight-Sender-DotNet</strong>) resultante luego de instalar la apliciación, o en su defecto la siguiente ruta:</p></li>
+</ol>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\Users\(Usuario</span><span class="c1"> de Windows)\AppData\Local\Record-Weight-Sender-DotNet\</span>
+</pre></div>
+</div>
+<p><img alt="Acceso directo" src="device/resorces/weight-sender-desktop-shortcut.PNG" /></p>
+<p><img alt="Ir a Directorio de Aplicación" src="device/resorces/weight-sender-folder-go-to-folder.PNG" /></p>
+<p>Si accedes usando el Acceso directo debes regresar una carpeta atras, la ruta previamente menciónada debe Existir la siguiente distribuición de directorios.</p>
+<p><img alt="Estrutura de Carpetas" src="device/resorces/weight-sender-folder-structure.PNG" /></p>
+<ol class="arabic simple">
+<li><p>Configurar el paramteros de la aplicación en archivo scale.yaml</p></li>
+</ol>
+<p>Para realizar este paso se debe acceder la carpeta resources.</p>
+<p><img alt="Archivo de Configuración" src="device/resorces/weight-sender-folder-config-files.PNG" /></p>
+<p>Abrimos el siguiente archivo <strong>printer.yaml</strong> el cual tiene la siguiente estructura.</p>
+<p><img alt="Scale.yaml" src="device/resorces/weight-sender-folder-scale-yaml.PNG" /></p>
+<p>Al modificar el archivo se deben respetar las identaciónes y espacios en blanco, ya que de no ser asi la aplicación no iniciara.</p>
+<div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>
+</pre></div>
+</div>
+<dl class="simple">
+<dt>server:</dt><dd><p>host: 167.172.15.104
+port: 32686
+queue_name: “Romana-1-test”
+timeout: 6000</p>
+</dd>
+</dl>
+<p>client_name: “Romana-1-test”
+scale:</p>
+<blockquote>
+<div><p>name: “Romana-1-test”
+folder:  “/tmp”
+port_name: “COM10”
+speed: 2400
+data_bits: 8
+stop_bits: “One”
+parity: “None”
+flow_control: “None”
+start_character: 61
+end_character: 13
+start_word: “”
+end_word: “”
+string_length: 12
+start_cut_position: 2
+end_cut_position: 7
+start_cut_screen_position: 2
+end_cut_screen_position: 7
+waiting_time: 5000</p>
+</div></blockquote>
+<p>A continuación se Describe cada campo:</p>
+<p>Sección server:</p>
+<ul class="simple">
+<li><p><strong>host</strong>: Dominio o Dirección IP donde se encuentra ejecutandose el servicio de cola de Kafka.</p></li>
+<li><p><strong>port</strong>: Puerto por el cual responde el servicio de cola de Kafka, en este parametro no se deben colocar puntos ni comas.</p></li>
+<li><p><strong>queue_name</strong>: Nombre del servicio de cola.</p></li>
+<li><p><strong>timeout</strong>: Tiempo de espera de respuesta, esta expresado en ms</p></li>
+<li><p><strong>client_name</strong>: Nombre de balanza dentro del servicio de cola (Se Recomienda colocar el mismo valor que <strong>queue_name</strong>)</p></li>
+</ul>
+<p>Sección scale:</p>
+<ul class="simple">
+<li><p><strong>name</strong>: Nombre con el que se identifica la balanza (Se Recomienda colocar el mismo valor que <strong>queue_name</strong>)</p></li>
+<li><p><strong>folder</strong>: Ruta de creación archivos temporales (No modificar este parametro)</p></li>
+<li><p><strong>port_name</strong>: Puerto COM donde esta conectada la balanza (Solo se usa con impresoras fiscales)</p></li>
+<li><p><strong>speed</strong>: Velocidad en Baudios del puerto serial</p></li>
+<li><p><strong>data_bits</strong>: Cantidad de bits de datos que contiene la trama de datos enviada por la balanza</p></li>
+<li><dl class="simple">
+<dt><strong>stop_bits</strong>: Bits de parada que usa la balanza puede tomar uno de los siguientes valores:</dt><dd><ul>
+<li><dl class="simple">
+<dt>None</dt><dd><ul>
+<li><p>One</p></li>
+<li><p>Two</p></li>
+<li><p>OnePointFive</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>parity</strong>: Tipo de paridad usada por la comunicación serial, puede tomar lo siguientes valores:</dt><dd><ul>
+<li><dl class="simple">
+<dt>None</dt><dd><ul>
+<li><p>Odd</p></li>
+<li><p>Even</p></li>
+<li><p>Mark</p></li>
+<li><p>Space</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><dl class="simple">
+<dt><strong>flow_control</strong>: Flujo de Control de datos usado por la comunicación serial, toma los siguientes valores:</dt><dd><ul>
+<li><p>None</p></li>
+<li><p>XOnXOff</p></li>
+<li><p>RequestToSend</p></li>
+<li><p>RequestToSendXOnXOff</p></li>
+</ul>
+</dd>
+</dl>
+</li>
+<li><p><strong>start_character</strong>: Caracter inicial de la trama.</p></li>
+<li><p><strong>end_character</strong>: Caracter final de la trama.</p></li>
+<li><p><strong>start_word</strong>: Palabra de inicio de trama o combinación de Caracteres con los que inicia la trama (Este parametro debe llenar solo cuando el la trama inicie con mas de un caracter).</p></li>
+<li><p><strong>end_word</strong>: Palabra de finalización de trama o combinación de Caracteres con los que finaliza la trama (Este parametro debe llenar solo cuando el la trama finalice con mas de un caracter).</p></li>
+<li><p><strong>string_length</strong>: Longuitud de Caracteres de la trama.</p></li>
+<li><p><strong>start_cut_position</strong>: Posición de inicio de corte de trama, este valor corresponde al punto de la trama donde se inicia a recibir el primer dijito del pesaje.</p></li>
+<li><p><strong>end_cut_position</strong>: Posición de finalización de corte de trama, este valor corresponde al punto de la trama donde se finaliza de recibir el ultimo dijito del pesaje.</p></li>
+<li><p><strong>start_cut_screen_position</strong>: Posición de inicio de corte de trama en el visor de la balanza, este valor corresponde al punto de la trama donde se inicia a recibir el primer dijito del pesaje.</p></li>
+<li><p><strong>end_cut_screen_position</strong>: Posición de finalización de corte de trama en el visor de la balanza, este valor corresponde al punto de la trama donde se finaliza de recibir el ultimo dijito del pesaje.</p></li>
+<li><p><strong>waiting_time</strong>: Tiempo de espera para recibir datos.</p></li>
+</ul>
+<ol class="arabic simple">
+<li><p>Iniciar la aplicación para verificar la correcta configuración</p></li>
+</ol>
+<p><img alt="Acceso directo" src="device/resorces/weight-sender-desktop-shortcut.PNG" /></p>
+<p>Si la apliciación esta correctamente configurada al iniciarla debe mostrar la siguiente consola de terminal.</p>
+<p><img alt="Ejecutar Aplicación" src="device/resorces/weight-sender-folder-start-app.PNG" /></p>
+<blockquote>
+<div><p>Si por el contrario sucede uno de las siguiente casos:</p>
+<ol class="arabic simple">
+<li><p>La consola se cierra inmediatamente al iniciar la aplicación, esto se debe que los parametros no estan configurados correctamento on no se respeto la estructura del archivo printer.yaml</p></li>
+</ol>
+<p>Esto sucede debido a que hay un error en los datos de conexión verificar los parametros <strong>host</strong> y <strong>port</strong>.</p>
+</div></blockquote>
+<ol class="arabic simple" start="4">
+<li><p>Copiar Acceso directo a Menú inicio, para que la aplicación inicie con el sistema operativo, este paso solo debe hacerse una vez confirmado que la aplicación funcióne correctamente.</p></li>
+</ol>
+<p>Buscar el siguiente directorio y Copiar en su interior el acceso directo <strong>Record-Weight-Sender-DotNet</strong>.</p>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\ProgramData\Microsoft\Windows\Start</span><span class="c1"> Menu\Programs\StartUp</span>
+</pre></div>
+</div>
+<p><img alt="Copiar Acceso Directo" src="device/resorces/weight-sender-folder-copy-shortcut.PNG" /></p>
+<ol class="arabic simple">
+<li><p>Prueba de reinicio.</p></li>
+</ol>
+<p>Se debe reiniciar el equipo, al iniciar nuevamente automaticamente debe iniciar la aplicación.</p>
+<p><img alt="Ejecutar Aplicación" src="device/resorces/weight-sender-folder-start-app.PNG" /></p>
+<p>De ser asi la aplicación esta Configurada y lista para su uso, en este punto se puede proceder a hacer la prueba de impresión desde ADempiere.</p>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Dispositivos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="update-record-weight-sender-adempiere.html" class="btn btn-neutral float-right" title="Actualizar el Cliente de Lectura de Peso" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020, ADempiere ERP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>

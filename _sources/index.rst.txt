@@ -63,4 +63,5 @@ Le invitamos a descubrir cómo hacer su día a día más sencillo con el uso de 
 
     ecommerce/index
     bot/index
+    device/index
 
