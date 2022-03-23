@@ -140,7 +140,7 @@ Buscar el siguiente directorio y Copiar en su interior el acceso directo **Recor
 
     C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
 
-.. |Copiar Acceso Directo|
+|Copiar Acceso Directo|
 
 1. Prueba de reinicio.
 
