@@ -9,6 +9,7 @@
 .. |Estrutura de Carpetas| image:: resources/weight-sender-folder-structure.PNG
 .. |Archivo para inicar la aplicación| image:: resources/weight-sender-start_app_file.PNG
 .. _Dotnet SDK 3.1: https://dotnet.microsoft.com/en-us/download/dotnet/3.1
+.. _Record-Weight-Sender-DotNet: https://erpya.ams3.digitaloceanspaces.com/public/Record-Weight-Sender-DotNet-rs-1.6.exe
 .. _documento/instalar-record-weight-sender:
 
 Instalar Cliente de Lectura de Peso
@@ -20,7 +21,8 @@ Requisitos
 ----------
 
 -  Sistema operativo Windows 10
--  `Dotnet SDK 3.1`_
+-  `Dotnet SDK 3.1`_ (Instalar la version para 32 bit o x86)
+-  Instalador `Record-Weight-Sender-DotNet`_
 
 
 Instalación
