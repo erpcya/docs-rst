@@ -149,6 +149,7 @@
 <ul class="simple">
 <li><p>Sistema operativo Windows 10</p></li>
 <li><p><a class="reference external" href="https://dotnet.microsoft.com/en-us/download/dotnet/6.0">Dotnet SDK 6.0</a></p></li>
+<li><p><a class="reference external" href="https://erpya.ams3.digitaloceanspaces.com/public/Local-Printing-All-In-One-DotNet-rs-2.3.exe">Cliente de Impresión (All In One)</a></p></li>
 <li><p><a class="reference external" href="https://get.adobe.com/es/reader/otherversions/">Acrobat Reader DC</a> (Indispensable para impresión de PDF) como alternativa se puede usar <a class="reference external" href="https://www.foxit.com/es-la/downloads/">Foxit PDF Reader</a></p></li>
 <li><p>Establecer Acrobat Reader DC como aplicación predeterminada para Documentos PDF</p></li>
 </ul>
@@ -215,13 +216,18 @@ siguientes pasos:</p>
 <h2>Problemas luego instalar<a class="headerlink" href="#problemas-luego-instalar" title="Permalink to this headline"></a></h2>
 <p>En Caso de que no se cree el icono en el escritorio luego de instalar, se debe verificar si el usuario con el que se realizo la Instalación tiene permisologia de Administrador.</p>
 <p>Se deben seguir los siguientes pasos:</p>
-<ol class="arabic">
-<li><p>Verificar que este creada la siguiente Ruta: <a href="#id1"><span class="problematic" id="id2">**</span></a>C:Users(Usuario de Windows)AppDataLocalLocal-Printing-All-In-One-DotNet** y a su vez en dicha ubicación existan los siguientes directorios:</p>
+<ol class="arabic simple">
+<li><p>Verificar que este creada la siguiente Ruta:</p></li>
+</ol>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\Users\(Usuario</span><span class="c1"> de Windows)\AppData\Local\Local-Printing-All-In-One-DotNet\</span>
+</pre></div>
+</div>
+<p>La ubicación debe tener los siguientes directorios:</p>
 <blockquote>
 <div><p><img alt="Directorios de la aplicación" src="../../_images/resultant-install-directory.png" /></p>
 <p>Debe Existir la carpeta <em>resources</em> y una carpeta que en su nombre incluya las siguientes siglas <em>rs-</em> (Ej. rs-2.3)</p>
 </div></blockquote>
-</li>
+<ol class="arabic" start="2">
 <li><p>Si el directorio existe se debe ingresar a la carpeta <strong>rs-x.x</strong> y ubicar el archivo <strong>StartPrintService.bat</strong>, y proceder a crear un acceso directo en el escritorio de ese archivo.</p>
 <blockquote>
 <div><p><img alt="Archivo para iniciar la aplicación" src="../../_images/file-to-start-app.png" /></p>
