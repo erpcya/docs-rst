@@ -34,3 +34,4 @@ Actualmente se tiene soporte para las marcas:
     install-local-printing-all-in-one
     adempiere-config-local-printing-all-in-one
     local-config-local-printing-all-in-one
+    update-local-printing-all-in-one
