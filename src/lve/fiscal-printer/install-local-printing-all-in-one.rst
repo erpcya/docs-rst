@@ -11,6 +11,7 @@
 .. _Dotnet SDK 6.0: https://dotnet.microsoft.com/en-us/download/dotnet/6.0
 .. _Acrobat Reader DC: https://get.adobe.com/es/reader/otherversions/
 .. _Foxit PDF Reader: https://www.foxit.com/es-la/downloads/
+.. _Cliente de Impresión (All In One): https://erpya.ams3.digitaloceanspaces.com/public/Local-Printing-All-In-One-DotNet-rs-2.3.exe
 .. _src/lve/fiscal-printer:
 .. _documento/instalar-local-printing-all-in-one:
 
@@ -24,6 +25,7 @@ Requisitos
 
 -  Sistema operativo Windows 10
 -  `Dotnet SDK 6.0`_
+-  `Cliente de Impresión (All In One)`_
 -  `Acrobat Reader DC`_ (Indispensable para impresión de PDF) como alternativa se puede usar `Foxit PDF Reader`_
 -  Establecer Acrobat Reader DC como aplicación predeterminada para Documentos PDF
 
@@ -93,7 +95,13 @@ En Caso de que no se cree el icono en el escritorio luego de instalar, se debe v
 
 Se deben seguir los siguientes pasos:
 
-1. Verificar que este creada la siguiente Ruta: **C:\Users\(Usuario de Windows)\AppData\Local\Local-Printing-All-In-One-DotNet\** y a su vez en dicha ubicación existan los siguientes directorios:
+1. Verificar que este creada la siguiente Ruta:
+
+.. code-block:: batch
+
+    C:\Users\(Usuario de Windows)\AppData\Local\Local-Printing-All-In-One-DotNet\
+    
+La ubicación debe tener los siguientes directorios:
 
     |Directorios de la aplicación|
 
