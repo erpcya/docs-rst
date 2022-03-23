@@ -1,9 +1,9 @@
-.. _documento/versión-43-4:
+.. _documento/versión-43-5:
 
 .. _Txt Banesco Pago Electronico: https://github.com/erpcya/Control-PROSEIN/issues/54
 .. _La cantidad de movimiento es mayor a la cantidad del acondicionamiento: https://github.com/erpcya/Control-VEALCA/issues/67
 
-**rs-43-4**
+**rs-43-5**
 ===========
 
 **Fecha de Liberación:** 2022-03-21
@@ -95,7 +95,9 @@
   
 .. data:: Novedades
 
-- Se agrega bandera para identificar reversos de transactiones de crédito a productor
+- Se agrega soporte para exportar TXT de pago en lote de Banesco detallado
+- Se agrega campo para ver el peso acondicionado en el registro de peso
+- Se corrige problema con duplicidad de pasos en el actualizador de diccionario de aplicación
 
 .. data:: Reportes Relacionados
 
