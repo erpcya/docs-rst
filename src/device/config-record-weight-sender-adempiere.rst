@@ -1,8 +1,8 @@
-.. |Registro de Aplicación| image:: resorces/weight-sender-folder-app-registration.png
-.. |Parámetro tiempo de espera| image:: resorces/weight-sender-folder-waiting-time.png
-.. |Parámetro tiempo de refresco| image:: resorces/weight-sender-folder-refresh-time.png
-.. |Leer peso(Désde Báscula)| image:: resorces/weight-sender-folder-read-from-scale.png
-.. |Leer peso| image:: resorces/weight-sender-folder-read-from-scale-reading.png
+.. |Registro de Aplicación| image:: resources/weight-sender-folder-app-registration.png
+.. |Parámetro tiempo de espera| image:: resources/weight-sender-folder-waiting-time.png
+.. |Parámetro tiempo de refresco| image:: resources/weight-sender-folder-refresh-time.png
+.. |Leer peso(Désde Báscula)| image:: resources/weight-sender-folder-read-from-scale.png
+.. |Leer peso| image:: resources/weight-sender-folder-read-from-scale-reading.png
 .. _documento/configurar-record-weight-sender-adempiere:
 
 

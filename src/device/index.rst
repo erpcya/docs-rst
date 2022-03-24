@@ -10,7 +10,7 @@ En esta seccion se describen los Dispositivos, que pueden se conectados a ADempi
 .. toctree::
     :maxdepth: 2
 
-    install-record-weight-sender-dotnet
-    config-record-weight-sender-dotnet-adempiere
+    install-record-weight-sender
+    config-record-weight-sender-adempiere
     config-record-weight-sender-windows
     update-record-weight-sender-adempiere
