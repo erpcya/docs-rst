@@ -1,12 +1,12 @@
-.. |Estrutura de Carpetas| image:: resorces/weight-sender-folder-structure.PNG
-.. |Archivo para inicar la aplicación| image:: resorces/weight-sender-start_app_file.PNG
-.. |Scale.yaml| image:: resorces/weight-sender-folder-scale-yaml.PNG
-.. |Ejecutar Aplicación| image:: resorces/weight-sender-folder-start-app.PNG
-.. |Leer peso| image:: resorces/weight-sender-folder-read-from-scale-reading.png
-.. |Acceso directo| image:: resorces/weight-sender-desktop-shortcut.PNG
-.. |Archivo de Configuración| image:: resorces/weight-sender-folder-config-files.PNG
-.. |Ir a Directorio de Aplicación| image:: resorces/weight-sender-folder-go-to-folder.PNG
-.. |Copiar Acceso Directo| image:: resorces/weight-sender-folder-copy-shortcut.PNG
+.. |Estrutura de Carpetas| image:: resources/weight-sender-folder-structure.PNG
+.. |Archivo para inicar la aplicación| image:: resources/weight-sender-start_app_file.PNG
+.. |Scale.yaml| image:: resources/weight-sender-folder-scale-yaml.PNG
+.. |Ejecutar Aplicación| image:: resources/weight-sender-folder-start-app.PNG
+.. |Leer peso| image:: resources/weight-sender-folder-read-from-scale-reading.png
+.. |Acceso directo| image:: resources/weight-sender-desktop-shortcut.PNG
+.. |Archivo de Configuración| image:: resources/weight-sender-folder-config-files.PNG
+.. |Ir a Directorio de Aplicación| image:: resources/weight-sender-folder-go-to-folder.PNG
+.. |Copiar Acceso Directo| image:: resources/weight-sender-folder-copy-shortcut.PNG
 .. _documento/configurar-record-weight-sender-windows:
 
 
