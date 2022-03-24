@@ -19,7 +19,9 @@
         <script src="../_static/doctools.js"></script>
     <script src="../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../genindex.html" />
-    <link rel="search" title="Search" href="../search.html" /> 
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Configuración Cliente de Lectura de Peso en Windows" href="config-record-weight-sender-windows.html" />
+    <link rel="prev" title="Instalar Cliente de Lectura de Peso" href="install-record-weight-sender.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -81,10 +83,19 @@
 <li class="toctree-l1"><a class="reference internal" href="../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">OTROS SERVICIOS</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bot/index.html"><strong>Bot</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="index.html"><strong>Dispositivos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Dispositivos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="install-record-weight-sender.html">Instalar Cliente de Lectura de Peso</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Configuración Cliente de Lectura de Peso en ADempiere</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#configurar-la-aplicacion-para-imprimir-pdf-documentos-desde-adempiere">Configurar la aplicación para Imprimir PDF (Documentos) desde ADempiere</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="config-record-weight-sender-windows.html">Configuración Cliente de Lectura de Peso en Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="update-record-weight-sender-adempiere.html">Actualizar el Cliente de Lectura de Peso</a></li>
+</ul>
+</li>
 </ul>
 
 
@@ -110,6 +121,7 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html"><strong>Dispositivos</strong></a> &raquo;</li>
       <li>Configuración Cliente de Lectura de Peso en ADempiere</li>
       <li class="wy-breadcrumbs-aside">
             <a href="../_sources/device/config-record-weight-sender-adempiere.rst.txt" rel="nofollow"> View page source</a>
@@ -128,7 +140,7 @@
 <ol class="arabic simple">
 <li><p>Dirijase a la ventana registros de aplicación y cree un nuevo registro llenando los siguientes campos.</p></li>
 </ol>
-<p><img alt="Registro de Aplicación" src="device/resorces/weight-sender-folder-app-registration.png" /></p>
+<p><img alt="Registro de Aplicación" src="../_images/weight-sender-folder-app-registration.png" /></p>
 <ul class="simple">
 <li><p><strong>Código</strong>: Codigo Descriptivo para identificar la Balanza o Romana.</p></li>
 <li><p><strong>Tipo de Aplicación</strong>:   Lector de Báscula</p></li>
@@ -145,25 +157,28 @@
 <ul class="simple">
 <li><p><strong>default_refresh_time_ms</strong>: Corresponde al tiempo que la cola de impresion va a retener los mensajes este valor se expresa en ms y de ajustar al valor 500.</p></li>
 </ul>
-<p><img alt="Parámetro tiempo de refresco" src="device/resorces/weight-sender-folder-refresh-time.png" /></p>
+<p><img alt="Parámetro tiempo de refresco" src="../_images/weight-sender-folder-refresh-time.png" /></p>
 <ul class="simple">
 <li><p><strong>default_waiting_time_ms</strong>: Corresponde al tiempo de espera maximo de espera de la aplicacion por espera de una respuesta del servicio de kafka. El valor se expresa en ms, colocar en este campo 20000</p></li>
 </ul>
-<p><img alt="Parámetro tiempo de espera" src="device/resorces/weight-sender-folder-waiting-time.png" /></p>
+<p><img alt="Parámetro tiempo de espera" src="../_images/weight-sender-folder-waiting-time.png" /></p>
 <ol class="arabic simple">
 <li><p>Prueba de Lectura de Peso:</p></li>
 </ol>
 <p>Este paso solo se debe hacer, luego de realizar la configuración en Windows de la aplicación. Dirijase al formulario <strong>Leer Peso (Desde Báscula)</strong> al iniciarlo se debe mostra la siguiente ventana.</p>
-<p><img alt="Leer peso(Désde Báscula)" src="device/resorces/weight-sender-folder-read-from-scale.png" /></p>
+<p><img alt="Leer peso(Désde Báscula)" src="../_images/weight-sender-folder-read-from-scale.png" /></p>
 <p>Luego de esto seleccionar la Romana o Báscula previamente configurada, e inmediatamente esta mostrara el peso que esta leyendo visualizando la ventana como se muestra a continuación.</p>
-<p><img alt="Leer peso" src="device/resorces/weight-sender-folder-read-from-scale-reading.png" /></p>
+<p><img alt="Leer peso" src="../_images/weight-sender-folder-read-from-scale-reading.png" /></p>
 </section>
 </section>
 
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="install-record-weight-sender.html" class="btn btn-neutral float-left" title="Instalar Cliente de Lectura de Peso" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="config-record-weight-sender-windows.html" class="btn btn-neutral float-right" title="Configuración Cliente de Lectura de Peso en Windows" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 

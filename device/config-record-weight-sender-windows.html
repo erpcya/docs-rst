@@ -21,7 +21,7 @@
     <link rel="index" title="Index" href="../genindex.html" />
     <link rel="search" title="Search" href="../search.html" />
     <link rel="next" title="Actualizar el Cliente de Lectura de Peso" href="update-record-weight-sender-adempiere.html" />
-    <link rel="prev" title="Dispositivos" href="index.html" /> 
+    <link rel="prev" title="Configuración Cliente de Lectura de Peso en ADempiere" href="config-record-weight-sender-adempiere.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -87,6 +87,8 @@
 <li class="toctree-l1"><a class="reference internal" href="../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../bot/index.html"><strong>Bot</strong></a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Dispositivos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="install-record-weight-sender.html">Instalar Cliente de Lectura de Peso</a></li>
+<li class="toctree-l2"><a class="reference internal" href="config-record-weight-sender-adempiere.html">Configuración Cliente de Lectura de Peso en ADempiere</a></li>
 <li class="toctree-l2 current"><a class="current reference internal" href="#">Configuración Cliente de Lectura de Peso en Windows</a><ul>
 <li class="toctree-l3"><a class="reference internal" href="#configurar-la-aplicacion">Configurar la aplicación</a></li>
 </ul>
@@ -141,17 +143,17 @@
 <div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\Users\(Usuario</span><span class="c1"> de Windows)\AppData\Local\Record-Weight-Sender-DotNet\</span>
 </pre></div>
 </div>
-<p><img alt="Acceso directo" src="device/resorces/weight-sender-desktop-shortcut.PNG" /></p>
-<p><img alt="Ir a Directorio de Aplicación" src="device/resorces/weight-sender-folder-go-to-folder.PNG" /></p>
+<p><img alt="Acceso directo" src="../_images/weight-sender-desktop-shortcut.PNG" /></p>
+<p><img alt="Ir a Directorio de Aplicación" src="../_images/weight-sender-folder-go-to-folder.PNG" /></p>
 <p>Si accedes usando el Acceso directo debes regresar una carpeta atras, la ruta previamente menciónada debe Existir la siguiente distribuición de directorios.</p>
-<p><img alt="Estrutura de Carpetas" src="device/resorces/weight-sender-folder-structure.PNG" /></p>
+<p><img alt="Estrutura de Carpetas" src="../_images/weight-sender-folder-structure.PNG" /></p>
 <ol class="arabic simple">
 <li><p>Configurar el paramteros de la aplicación en archivo scale.yaml</p></li>
 </ol>
 <p>Para realizar este paso se debe acceder la carpeta resources.</p>
-<p><img alt="Archivo de Configuración" src="device/resorces/weight-sender-folder-config-files.PNG" /></p>
+<p><img alt="Archivo de Configuración" src="../_images/weight-sender-folder-config-files.PNG" /></p>
 <p>Abrimos el siguiente archivo <strong>printer.yaml</strong> el cual tiene la siguiente estructura.</p>
-<p><img alt="Scale.yaml" src="device/resorces/weight-sender-folder-scale-yaml.PNG" /></p>
+<p><img alt="Scale.yaml" src="../_images/weight-sender-folder-scale-yaml.PNG" /></p>
 <p>Al modificar el archivo se deben respetar las identaciónes y espacios en blanco, ya que de no ser asi la aplicación no iniciara.</p>
 <div class="highlight-yaml notranslate"><div class="highlight"><pre><span></span>
 </pre></div>
@@ -256,9 +258,9 @@ waiting_time: 5000</p>
 <ol class="arabic simple">
 <li><p>Iniciar la aplicación para verificar la correcta configuración</p></li>
 </ol>
-<p><img alt="Acceso directo" src="device/resorces/weight-sender-desktop-shortcut.PNG" /></p>
+<p><img alt="Acceso directo" src="../_images/weight-sender-desktop-shortcut.PNG" /></p>
 <p>Si la apliciación esta correctamente configurada al iniciarla debe mostrar la siguiente consola de terminal.</p>
-<p><img alt="Ejecutar Aplicación" src="device/resorces/weight-sender-folder-start-app.PNG" /></p>
+<p><img alt="Ejecutar Aplicación" src="../_images/weight-sender-folder-start-app.PNG" /></p>
 <blockquote>
 <div><p>Si por el contrario sucede uno de las siguiente casos:</p>
 <ol class="arabic simple">
@@ -273,12 +275,12 @@ waiting_time: 5000</p>
 <div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>C<span class="p">:</span><span class="nl">\ProgramData\Microsoft\Windows\Start</span><span class="c1"> Menu\Programs\StartUp</span>
 </pre></div>
 </div>
-<p><img alt="Copiar Acceso Directo" src="device/resorces/weight-sender-folder-copy-shortcut.PNG" /></p>
+<p><img alt="Copiar Acceso Directo" src="device/resources/weight-sender-folder-copy-shortcut.PNG" /></p>
 <ol class="arabic simple">
 <li><p>Prueba de reinicio.</p></li>
 </ol>
 <p>Se debe reiniciar el equipo, al iniciar nuevamente automaticamente debe iniciar la aplicación.</p>
-<p><img alt="Ejecutar Aplicación" src="device/resorces/weight-sender-folder-start-app.PNG" /></p>
+<p><img alt="Ejecutar Aplicación" src="../_images/weight-sender-folder-start-app.PNG" /></p>
 <p>De ser asi la aplicación esta Configurada y lista para su uso, en este punto se puede proceder a hacer la prueba de impresión desde ADempiere.</p>
 </section>
 </section>
@@ -287,7 +289,7 @@ waiting_time: 5000</p>
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="index.html" class="btn btn-neutral float-left" title="Dispositivos" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="config-record-weight-sender-adempiere.html" class="btn btn-neutral float-left" title="Configuración Cliente de Lectura de Peso en ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
         <a href="update-record-weight-sender-adempiere.html" class="btn btn-neutral float-right" title="Actualizar el Cliente de Lectura de Peso" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
