@@ -14,3 +14,4 @@ En esta seccion se describen los Dispositivos, que pueden se conectados a ADempi
     config-record-weight-sender-adempiere
     config-record-weight-sender-windows
     update-record-weight-sender-adempiere
+    check-record-weight-sender-adempiere
