@@ -1,0 +1,80 @@
+.. _documento/versión-43-8:
+
+.. _Txt Banesco Pago Electronico: https://github.com/erpcya/Control-PROSEIN/issues/54
+
+**rs-43-8**
+===========
+
+**Fecha de Liberación:** 2022-03-25
+-----------------------------------
+
+.. data:: Soporte a Versiones
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-33.1
+- Consigned-Material: 1.3.0
+- Exchange-Operation-System: 1.2.1
+- Cloud-Service-Management: 1.2.4
+- Cash-Management: 1.1.4
+- Currency-Convert-Documents: 1.0.9
+- Farmer-Assistance-Program: 1.3.8
+- RethinkDB-Replicator-Client: 1.1.5
+- Third-Party-Access: 1.0.5
+- Fiscal-Printer: 1.5.1
+- Sales-Force-Management: 1.0.6
+- Delivery-Management-Service: 1.1.9
+- Travel-Agency-Management: 1.1.9
+- Withholding: 1.1.4
+- Migration-Tools: 1.0.4
+- LVE: 1.8.0
+- Performance-Analysis: 1.1.3
+- Queue-Manager: 1.0.6
+- Notification-Queue: 1.1.6
+- Point-Of-Sales-Improvements: 1.4.3
+- Kafka-Replicator-Client: 1.0.9
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.3.9
+- Get-Weight:1.2.4
+- Record-Weight: 1.0.7
+- Raw-Material-Receipt: 1.1.6
+- Additional-Reports: 1.2.3
+- adempiere-customer-backend: 1.2.1
+- Material-Management-Improvements: 1.1.5
+- Warehouse-Management-System-Improvements: 1.1.6
+- Import-Export-Management: 1.0.3
+- Update-Management: 1.1.5
+- Mini-Retail: 1.1.7
+- Print-Queue: 1.0.9
+- ERP-Payroll-Definition: 1.0.2
+- Internal-Store: 1.0.4
+- Telegram-Notifier: 1.0.5
+- Costing-Engine-Improvements: 1.1.1
+- Default-Attribute: 1.0.1
+- Financial-Report: 1.0.1
+- Json-Replicator-Client: 1.0.2
+- Kubernetes-Cluster: 1.0.7
+- ADempiere-Exporter: 1.0.5
+- ADempiere-TelegramBot
+- e-Commerce-Queue: 1.0.6
+- Vue-StoreFront-API: 1.0.4
+- Mercado-Libre-Venezuela-API: 1.0.5
+- Common-Functionalities: 1.0.0
+- FAP-Venezuela-Location: 1.0.0
+
+.. data:: Detalle Técnico
+
+- LVE:
+  
+  - Corrección de referencia de débito en el TXT detallado del banco Banesco
+
+.. data:: Requerimientos
+
+- Aplicar binario de la aplicación
+  
+.. data:: Novedades
+
+- Se corrige número de referencia en débito del TXT de Banesco
+
+.. data:: Reportes Relacionados
+
+- `Txt Banesco Pago Electronico`_
