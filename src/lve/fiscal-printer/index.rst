@@ -35,3 +35,4 @@ Actualmente se tiene soporte para las marcas:
     adempiere-config-local-printing-all-in-one
     local-config-local-printing-all-in-one
     update-local-printing-all-in-one
+    check-local-printing-all-in-one
