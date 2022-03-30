@@ -4,7 +4,7 @@
   <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Instalar Impresora Fiscal PNP &mdash; ERPYA 1.0 Documentation</title>
+  <title>Verificar el funcionamiento del Cliente de Cola de Impresión &mdash; ERPYA 1.0 Documentation</title>
       <link rel="stylesheet" href="../../_static/pygments.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/theme.css" type="text/css" />
       <link rel="stylesheet" href="../../_static/css/style.css" type="text/css" />
@@ -20,8 +20,8 @@
     <script src="../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../genindex.html" />
     <link rel="search" title="Search" href="../../search.html" />
-    <link rel="next" title="Revisión de Rutina para Impresora Fiscal PNP" href="daily-setup-pnp-fiscalPrinter.html" />
-    <link rel="prev" title="Configuración de Impresora Fiscal VMax 220 para Usar con ADempiere" href="setup-vmax-220.html" /> 
+    <link rel="next" title="Procedimientos" href="../procedures/index.html" />
+    <link rel="prev" title="Actualizar Cliente de Impresión Todo en Uno" href="update-local-printing-all-in-one.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -82,7 +82,7 @@
 <li class="toctree-l2"><a class="reference internal" href="commons-errors-fiscal-printer.html"><strong>Errores comunes Impresora Fiscal</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="manual-reports.html"><strong>Generar Reportes Manualmente en la impresora</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="setup-vmax-220.html"><strong>Configuración de Impresora Fiscal VMax 220 para Usar con ADempiere</strong></a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#"><strong>Instalar Impresora Fiscal PNP</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="install-pnp-fiscalprinter.html"><strong>Instalar Impresora Fiscal PNP</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="daily-setup-pnp-fiscalPrinter.html">Revisión de Rutina para Impresora Fiscal PNP</a></li>
 <li class="toctree-l2"><a class="reference internal" href="update-client-pnp-fiscalPrinter.html"><strong>Actualizar Cliente de cola de impresión para Impresora Fiscal PNP</strong></a></li>
 <li class="toctree-l2"><a class="reference internal" href="install-tfhka-fiscalprinter.html"><strong>Instalar Impresora Fiscal The Factory HKA</strong></a></li>
@@ -90,7 +90,18 @@
 <li class="toctree-l2"><a class="reference internal" href="adempiere-config-local-printing-all-in-one.html">Configuración Cliente de Impresión en ADempiere</a></li>
 <li class="toctree-l2"><a class="reference internal" href="local-config-local-printing-all-in-one.html">Configuración Cliente de Impresión en Windows</a></li>
 <li class="toctree-l2"><a class="reference internal" href="update-local-printing-all-in-one.html">Actualizar Cliente de Impresión Todo en Uno</a></li>
-<li class="toctree-l2"><a class="reference internal" href="check-local-printing-all-in-one.html">Verificar el funcionamiento del Cliente de Cola de Impresión</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Verificar el funcionamiento del Cliente de Cola de Impresión</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#verificar-que-la-aplicacion-este-ejecutando-la-version-correcta">Verificar que la Aplicacion este ejecutando la version correcta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#verificar-que-la-aplicacion-reciba-datos">Verificar que la aplicacion reciba datos</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#problemas-al-momento-de-recibir-el-documento">Problemas al momento de recibir el documento</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#verificar-que-la-aplicacion-imprima-por-la-impresora-predeterminada">Verificar que la Aplicacion Imprima por la impresora predeterminada</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#problemas-al-momento-de-imprimir">Problemas al momento de imprimir</a></li>
+</ul>
+</li>
+</ul>
+</li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="../procedures/index.html"><strong>Procedimientos</strong></a></li>
@@ -128,9 +139,9 @@
   <ul class="wy-breadcrumbs">
       <li><a href="../../index.html" class="icon icon-home"></a> &raquo;</li>
           <li><a href="index.html"><strong>Impresora Fiscal</strong></a> &raquo;</li>
-      <li><strong>Instalar Impresora Fiscal PNP</strong></li>
+      <li>Verificar el funcionamiento del Cliente de Cola de Impresión</li>
       <li class="wy-breadcrumbs-aside">
-            <a href="../../_sources/lve/fiscal-printer/install-pnp-fiscalprinter.rst.txt" rel="nofollow"> View page source</a>
+            <a href="../../_sources/lve/fiscal-printer/check-local-printing-all-in-one.rst.txt" rel="nofollow"> View page source</a>
       </li>
   </ul>
   <hr/>
@@ -138,196 +149,85 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
            <div itemprop="articleBody">
              
-  <section id="instalar-impresora-fiscal-pnp">
-<span id="documento-instalar-impresora-fiscal-pnp"></span><h1><strong>Instalar Impresora Fiscal PNP</strong><a class="headerlink" href="#instalar-impresora-fiscal-pnp" title="Permalink to this headline"></a></h1>
-<p>Para la Instalación del servicio de impresión para la Impresora Fiscal es necesario lo siguiente:</p>
-<p><strong>Configuración en Cada Estación con Windows donde se emplee la impresora fiscal</strong>:</p>
-<p>Instalar el <strong>JAVA</strong> <strong>JDK8</strong> y agregarlo a las Variables de Entorno (En caso de no cumplir con este requisito, no se debe continuar con la instalación).</p>
-<p>Descargar los Archivos Setup_LocalPrintingPnP.exe y PrintService.exe.</p>
-<p>Conocer en que Puerto COM esta conectada la impresora (El puerto debe estar entre 1 y 4)</p>
-<p><strong>Ejecutar Setup_LocalPrintingPnP.exe con privilegios de Administrador</strong>:</p>
-<p>Seguir los pasos del instalador y colocar los siguientes parámetros:</p>
-<blockquote>
-<div><table class="docutils align-default">
-<colgroup>
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 71%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Parámetro</p></th>
-<th class="head"><p>Valor</p></th>
-<th class="head"><p>Descripción</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Host</p></td>
-<td><p>LOCALHOST</p></td>
-<td><p>Direccion Web o IP del Servidor donde Esta Alojado ADempiere</p></td>
-</tr>
-<tr class="row-odd"><td><p>Port</p></td>
-<td><p>50043</p></td>
-<td><p>Puerto de Comunicaciones del Servidor de cola de impresion, no cambiar</p></td>
-</tr>
-<tr class="row-even"><td><p>Reconnect</p></td>
-<td><p>true</p></td>
-<td><p>Habilitar reconexión Automática</p></td>
-</tr>
-<tr class="row-odd"><td><p>Interval</p></td>
-<td><p>3000</p></td>
-<td><p>Tiempo de reconexión</p></td>
-</tr>
-<tr class="row-even"><td><p>Printer Type</p></td>
-<td><p>300</p></td>
-<td><p>Tipo de impresora fiscal, colocar 200 si la impresora es del tipo</p></td>
-</tr>
-<tr class="row-odd"><td><p>Printer Name</p></td>
-<td><p>TESTPRINTER01</p></td>
-<td><p>Este Nombre se le asigna en adempiere al momento de registrar las impresoras</p></td>
-</tr>
-</tbody>
-</table>
-</div></blockquote>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Es importante que al momento de iniciar el ejecutable se use con privilegios de Administrador, en caso de no ser así este mismo no tendrá los permisos para instalar las librerías necesarias</p>
-</div>
-<p><strong>Ejecutar PrintService.exe con privilegios de Administrador</strong>:</p>
-<p>Seguir los pasos del instalador y colocar los siguientes parámetros:</p>
-<blockquote>
-<div><table class="docutils align-default">
-<colgroup>
-<col style="width: 14%" />
-<col style="width: 14%" />
-<col style="width: 71%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Parámetro</p></th>
-<th class="head"><p>Valor</p></th>
-<th class="head"><p>Descripción</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Host</p></td>
-<td><p>LOCALHOST</p></td>
-<td><p>Direccion Web o IP del Servidor donde Esta Alojado ADempiere</p></td>
-</tr>
-<tr class="row-odd"><td><p>Port</p></td>
-<td><p>50043</p></td>
-<td><p>Puerto de Comunicaciones del Servidor de cola de impresión, no cambiar</p></td>
-</tr>
-<tr class="row-even"><td><p>Reconnect</p></td>
-<td><p>true</p></td>
-<td><p>Habilitar reconexión Automática</p></td>
-</tr>
-<tr class="row-odd"><td><p>Interval</p></td>
-<td><p>3000</p></td>
-<td><p>Tiempo de reconexión</p></td>
-</tr>
-<tr class="row-even"><td><p>Printer Type</p></td>
-<td><p>300</p></td>
-<td><p>Tipo de impresora fiscal, colocar 200 si la impresora es del tipo</p></td>
-</tr>
-<tr class="row-odd"><td><p>Printer Name</p></td>
-<td><p>TESTPRINTER01</p></td>
-<td><p>Este Nombre se le asigna en ADempiere al momento de registrar las impresoras</p></td>
-</tr>
-</tbody>
-</table>
-</div></blockquote>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Se Debe configurar con los mismos valores del paso anterior, ya que estos son los parámetros que se utilizaran en el modo de prueba de la impresora Fiscal.</p>
-</div>
-<p>Luego de aplicar el instalador en el escritorio de Windows se creara un acceso directo <strong>LocalPrinting-PnP.ink</strong>, el cual permite iniciar el cliente de cola de impresión al ejecutarlo, la siguiente tabla muestra las opciones disponibles:</p>
-<blockquote>
-<div><table class="docutils align-default">
-<colgroup>
-<col style="width: 35%" />
-<col style="width: 65%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Parámetro</p></th>
-<th class="head"><p>Valor</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>1</p></td>
-<td><p>Inicia el Cliente de Cola de Impresion</p></td>
-</tr>
-<tr class="row-odd"><td><p>2</p></td>
-<td><p>Detiene el Cliente de Cola de Impresion</p></td>
-</tr>
-<tr class="row-even"><td><p>3</p></td>
-<td><p>Reinicia el Cliente de Cola de Impresion</p></td>
-</tr>
-<tr class="row-odd"><td><p>0</p></td>
-<td><p>Salir del Menu de Opciones</p></td>
-</tr>
-</tbody>
-</table>
-</div></blockquote>
-<p><strong>Verificar Correcto funcionamiento luego de la instalación</strong>:</p>
-<p>Hacer doble click en el acceso directo <strong>LocalPrinting-PnP.ink</strong> con privilegios de Administrador En el menú que se observa en la consola selecciona la opción 1, esto iniciara el cliente de cola de impresión</p>
-<p><strong>Obtener Estado Actual de Impresora Fiscal</strong>:</p>
-<p>Ingresando en <strong>ADempiere</strong> como compañía ubicar el proceso <strong>Configuración de Impresora Fiscal</strong> y ejecutar el proceso con los parámetros:</p>
-<blockquote>
-<div><table class="docutils align-default">
-<colgroup>
-<col style="width: 32%" />
-<col style="width: 68%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Parámetro</p></th>
-<th class="head"><p>Valor</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Impresora Fiscal</p></td>
-<td><p>Seleccionar Impresora a Emplear para la prueba</p></td>
-</tr>
-<tr class="row-odd"><td><p>Tipo de comando Fiscal</p></td>
-<td><p>Obtener Estado de Impresora</p></td>
-</tr>
-</tbody>
-</table>
-<p>Del proceso se obtiene la siguiente respuesta:</p>
-<div class="highlight-text notranslate"><div class="highlight"><pre><span></span>** Impresora lista para abrir una factura, abrir un documento no fiscal, hacer un reporte Z o un reporte de memoria fiscal**
+  <section id="verificar-el-funcionamiento-del-cliente-de-cola-de-impresion">
+<span id="documento-check-printpdf-local-printing-all-in-one"></span><h1>Verificar el funcionamiento del Cliente de Cola de Impresión<a class="headerlink" href="#verificar-el-funcionamiento-del-cliente-de-cola-de-impresion" title="Permalink to this headline"></a></h1>
+<section id="verificar-que-la-aplicacion-este-ejecutando-la-version-correcta">
+<h2>Verificar que la Aplicacion este ejecutando la version correcta<a class="headerlink" href="#verificar-que-la-aplicacion-este-ejecutando-la-version-correcta" title="Permalink to this headline"></a></h2>
+<p>Se debe acceder a las propiedades del Acceso Directo de la aplicacion que se encuentra en el escritorio.</p>
+<p><a href="#id1"><span class="problematic" id="id2">|Acceso directo|</span></a></p>
+<p>Por Ejemplo si la version instalada es la siguiente: <strong>Local-Printing-All-In-One-DotNet-rs-2.3.exe</strong></p>
+<p>Esta parte en el nombre del instalador <strong>rs-2.3</strong> corresponde a la version en la que se encuentra la aplicación.</p>
+<p><img alt="Propiedades Acceso directo de la aplicación" src="../../_images/config-print-queue-shortcut-properties.PNG" /></p>
+<p>Se Deben verificar los siguiente campos viendo si corresponden con la versión instalada:</p>
+<ul class="simple">
+<li><p>Ubicación de Destino: rs-2.3</p></li>
+<li><p>Destino:  C:Users(Usuario de Windows)AppDataLocalLocal-Printing-All-In-One-DotNetrs-2.3StartPrintService.bat</p></li>
+<li><p>Iniciar en:  C:Users(Usuario de Windows)AppDataLocalLocal-Printing-All-In-One-DotNetrs-2.3</p></li>
+</ul>
+<p>En caso de que alguno de estos valores no coincida, se debe modificar el acceso directo colocando la version correcta en este caso <strong>rs-2.3</strong>.</p>
+</section>
+<section id="verificar-que-la-aplicacion-reciba-datos">
+<h2>Verificar que la aplicacion reciba datos<a class="headerlink" href="#verificar-que-la-aplicacion-reciba-datos" title="Permalink to this headline"></a></h2>
+<p>Para hacer esto se debe iniciar la Aplicacion Local-Printing-All-In-One-DotNet y enviar un documento desde ADempiere:</p>
+<p>Observando en la consola que consola se reciba un mensaje con la siguiente estrcutura:</p>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>Document: C-Order1003061-1966357589737257033.pdf
+Document To Print = {C-Order1003061-1966357589737257033.pdf}
+Printer Name = {HP LaserJet 1020}
+C-Order1003061-1966357589737257033.pdf
 </pre></div>
 </div>
-</div></blockquote>
-<p><strong>Imprimir Reporte X</strong></p>
-<p>Para el caso donde la conexión se ejecuta correctamente, se procede a realizar una impresión de control usando el Proceso <strong>Imprimir Reporte Fiscal</strong> con los parámetros:</p>
-<blockquote>
-<div><table class="docutils align-default">
-<colgroup>
-<col style="width: 32%" />
-<col style="width: 68%" />
-</colgroup>
-<thead>
-<tr class="row-odd"><th class="head"><p>Parámetro</p></th>
-<th class="head"><p>Valor</p></th>
-</tr>
-</thead>
-<tbody>
-<tr class="row-even"><td><p>Impresora Fiscal</p></td>
-<td><p>Seleccionar Impresora a Emplear para la prueba</p></td>
-</tr>
-<tr class="row-odd"><td><p>Tipo de comando Fiscal</p></td>
-<td><p>Reporte X</p></td>
-</tr>
-</tbody>
-</table>
-<p>Al iniciar la impresión todo esta correctamente configurado y funcional.</p>
-</div></blockquote>
+<p><img alt="Imprimir Documento" src="../../_images/config-print-queue-printing-document.PNG" /></p>
+<p>En estas lineas se muestra informacion del documento recibido, nombre de documento y el nombre definido en ADempiere para la impresora.</p>
+<section id="problemas-al-momento-de-recibir-el-documento">
+<h3>Problemas al momento de recibir el documento<a class="headerlink" href="#problemas-al-momento-de-recibir-el-documento" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Verificar si se escogio la impresora correcta al momento de imprimir.</p></li>
+<li><p>Verificar que los datos de conexión configurado en ADempiere corresponden con los definidos en el archivo printer.yaml</p></li>
+</ul>
+</section>
+</section>
+<section id="verificar-que-la-aplicacion-imprima-por-la-impresora-predeterminada">
+<h2>Verificar que la Aplicacion Imprima por la impresora predeterminada<a class="headerlink" href="#verificar-que-la-aplicacion-imprima-por-la-impresora-predeterminada" title="Permalink to this headline"></a></h2>
+<ol class="arabic simple">
+<li><p>Abrimos impresoras y faxes, luego ubicamos la impresora predeterminada y pulsamos en abrir cola.</p></li>
+</ol>
+<p><img alt="Impresoras y faxes" src="../../_images/config-print-queue-printer-and-faxes.PNG" /></p>
+<p><img alt="Impresoras y faxes cola de impresión" src="../../_images/config-print-queue-printer-and-faxes-queue.PNG" /></p>
+<ol class="arabic simple" start="2">
+<li><p>Abrimos la aplicación <strong>Local-Printing-All-In-One-DotNet</strong>.</p></li>
+<li><p>Se abrira la consola de windows, y mostrara lo siguiente</p></li>
+</ol>
+<p><img alt="Funciónamiento Correcto" src="../../_images/config-print-queue-correct-operation.png" /></p>
+<ol class="arabic simple" start="4">
+<li><p>Enviar un documento de desde ADempiere.</p></li>
+</ol>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>Document: C-Order1003061-1966357589737257033.pdf
+Document To Print = {C-Order1003061-1966357589737257033.pdf}
+Printer Name = {HP LaserJet 1020}
+C-Order1003061-1966357589737257033.pdf
+</pre></div>
+</div>
+<p><img alt="Imprimir Documento" src="../../_images/config-print-queue-printing-document.PNG" /></p>
+<p>Se recomienda tener en primer plano la ventana que se abrio en el primer paso, y de esta manera observar lo que se envia hacia la impresora predeterminada, ya que de otro modo por la velocidad a la se ejecuta no tendra tiempo suficiente para ver el documento recibido.</p>
+<section id="problemas-al-momento-de-imprimir">
+<h3>Problemas al momento de imprimir<a class="headerlink" href="#problemas-al-momento-de-imprimir" title="Permalink to this headline"></a></h3>
+<p>Si al momento de imprimir no se envia el documento a la impresora predeterminada, se debe tomar en cuantea lo siguiente</p>
+<ul class="simple">
+<li><p>La impresora no esta configurada como predeterminada.</p></li>
+<li><p>Acrobat Reader DC o Foxit Reader no estan establecidos como la aplicacion por defecto para visualizar PDF.</p></li>
+<li><p>El nombre de la impresora no es el mismo en el archivo printe.yaml y en ADempiere.</p></li>
+</ul>
+<p>Cuando usas Adobe Acrobat Reader DC y el archivo se recibe correctamente y se guarda en la carpeta temporal, pero no se envia a la cola de la impresora. Se debe optar por cambiar la aplicion por Foxit Reader.</p>
+</section>
+</section>
 </section>
 
 
            </div>
           </div>
           <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
-        <a href="setup-vmax-220.html" class="btn btn-neutral float-left" title="Configuración de Impresora Fiscal VMax 220 para Usar con ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
-        <a href="daily-setup-pnp-fiscalPrinter.html" class="btn btn-neutral float-right" title="Revisión de Rutina para Impresora Fiscal PNP" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+        <a href="update-local-printing-all-in-one.html" class="btn btn-neutral float-left" title="Actualizar Cliente de Impresión Todo en Uno" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../procedures/index.html" class="btn btn-neutral float-right" title="Procedimientos" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
     </div>
 
   <hr/>

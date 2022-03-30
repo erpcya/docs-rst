@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+  <meta charset="utf-8" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Verificar el funcionamiento del Cliente de Lectura de Peso &mdash; ERPYA 1.0 Documentation</title>
+      <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/theme.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+      <link rel="stylesheet" href="../_static/css/style.css" type="text/css" />
+  <!--[if lt IE 9]>
+    <script src="../_static/js/html5shiv.min.js"></script>
+  <![endif]-->
+  
+        <script data-url_root="../" id="documentation_options" src="../_static/documentation_options.js"></script>
+        <script src="../_static/jquery.js"></script>
+        <script src="../_static/underscore.js"></script>
+        <script src="../_static/doctools.js"></script>
+    <script src="../_static/js/theme.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="prev" title="Actualizar el Cliente de Lectura de Peso" href="update-record-weight-sender-adempiere.html" /> 
+</head>
+
+<body class="wy-body-for-nav"> 
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side">
+      <div class="wy-side-scroll">
+        <div class="wy-side-nav-search" >
+            <a href="../index.html" class="icon icon-home"> ERPYA
+            <img src="../_static/ERP_Logo.png" class="logo" alt="Logo"/>
+          </a>
+              <div class="version">
+                1.0
+              </div>
+<div role="search">
+  <form id="rtd-search-form" class="wy-form" action="../search.html" method="get">
+    <input type="text" name="q" placeholder="Search docs" />
+    <input type="hidden" name="check_keywords" value="yes" />
+    <input type="hidden" name="area" value="default" />
+  </form>
+</div>
+        </div><div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+<h2>Tabla de Contenido</h2>
+
+              <p class="caption" role="heading"><span class="caption-text">DOCUMENTACIÓN ESTÁNDAR</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../general/standard-procedures/index.html"><strong>Procedimientos Estándares</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/openproject/index.html"><strong>Open Project</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/slack/index.html"><strong>Slack</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/rst/index.html"><strong>Herramienta RestructuredText</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/bot/index.html"><strong>Soporte en Bot</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes/index.html"><strong>Notas de Liberación ADempiere ERP</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../general/release-notes-documentation/index.html"><strong>Notas de Liberación Documentación</strong></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">ADEMPIERE ERP/CRM</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/basic-steps/index.html"><strong>Gestión Básica</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/master/index.html"><strong>Datos Maestros</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/material-management/index.html"><strong>Gestión de Materiales</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/farmer-assistance-management/index.html"><strong>Gestión de Asistencia al Agricultor</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/production-management/index.html"><strong>Gestión de Producción</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/distribution-management/index.html"><strong>Gestión de Distribución</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/quote-to-invoice/index.html"><strong>Gestión de Ventas</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/customer-relations/index.html"><strong>Gestión de Relaciones con Clientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/pos-management/index.html"><strong>Gestión PDV</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/requisition-to-invoice/index.html"><strong>Gestión de Compras</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/returns/index.html"><strong>Gestión de Devoluciones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/open-items/index.html"><strong>Gestión de Saldos Pendientes</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/loan-management/index.html"><strong>Gestión de Préstamos e Inversiones</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/human-resources-management/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/asset-management/index.html"><strong>Gestión de Activos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../lve/document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/procedures/index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/report/index.html"><strong>Reportes de ADempiere</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../lve/standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
+</ul>
+<p class="caption" role="heading"><span class="caption-text">OTROS SERVICIOS</span></p>
+<ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="../ecommerce/index.html"><strong>e-Commerce</strong></a></li>
+<li class="toctree-l1"><a class="reference internal" href="../bot/index.html"><strong>Bot</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="index.html"><strong>Dispositivos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="install-record-weight-sender.html">Instalar Cliente de Lectura de Peso</a></li>
+<li class="toctree-l2"><a class="reference internal" href="config-record-weight-sender-adempiere.html">Configuración Cliente de Lectura de Peso en ADempiere</a></li>
+<li class="toctree-l2"><a class="reference internal" href="config-record-weight-sender-windows.html">Configuración Cliente de Lectura de Peso en Windows</a></li>
+<li class="toctree-l2"><a class="reference internal" href="update-record-weight-sender-adempiere.html">Actualizar el Cliente de Lectura de Peso</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Verificar el funcionamiento del Cliente de Lectura de Peso</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#verificar-que-la-aplicacion-este-ejecutando-la-version-correcta">Verificar que la Aplicacion este ejecutando la version correcta</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#verificar-que-la-romana-este-enviando-datos">Verificar que la Romana este enviando datos</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#problemas-al-momento-de-leer-el-puerto-serial">Problemas al momento de leer el puerto Serial</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#verificar-que-cliente-de-lectura-de-peso-reciba-datos-desde-el-puerto-serial">Verificar que Cliente de Lectura de Peso reciba datos desde el Puerto Serial</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id1">Problemas al momento de leer el puerto Serial</a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="#verificar-lectura-de-peso-en-adempiere">Verificar Lectura de Peso en ADempiere</a><ul>
+<li class="toctree-l4"><a class="reference internal" href="#id2">Problemas al momento de leer el puerto Serial</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+
+
+<h2>Para Mayor Información</h2>
+<ul>
+<li><a href="http://erpya.com/">E.R.P. Consultores y Asociados, C.A.</a></li>
+<li><a href="https://github.com/erpcya/docs/issues">GitHub</a></li>
+<li><a href="../download.html">Descargar Documentación</a></li>
+</ul>
+
+
+        </div>
+      </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap"><nav class="wy-nav-top" aria-label="Mobile navigation menu" >
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../index.html">ERPYA</a>
+      </nav>
+
+      <div class="wy-nav-content">
+        <div class="rst-content">
+          <div role="navigation" aria-label="Page navigation">
+  <ul class="wy-breadcrumbs">
+      <li><a href="../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="index.html"><strong>Dispositivos</strong></a> &raquo;</li>
+      <li>Verificar el funcionamiento del Cliente de Lectura de Peso</li>
+      <li class="wy-breadcrumbs-aside">
+            <a href="../_sources/device/check-record-weight-sender-adempiere.rst.txt" rel="nofollow"> View page source</a>
+      </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+           <div itemprop="articleBody">
+             
+  <section id="verificar-el-funcionamiento-del-cliente-de-lectura-de-peso">
+<span id="documento-verificar-record-weight-sender"></span><h1>Verificar el funcionamiento del Cliente de Lectura de Peso<a class="headerlink" href="#verificar-el-funcionamiento-del-cliente-de-lectura-de-peso" title="Permalink to this headline"></a></h1>
+<section id="verificar-que-la-aplicacion-este-ejecutando-la-version-correcta">
+<h2>Verificar que la Aplicacion este ejecutando la version correcta<a class="headerlink" href="#verificar-que-la-aplicacion-este-ejecutando-la-version-correcta" title="Permalink to this headline"></a></h2>
+<p>Se debe acceder a las propiedades del Acceso Directo de la aplicacion que se encuentra en el escritorio.</p>
+<p><img alt="Acceso directo" src="../_images/weight-sender-desktop-shortcut.PNG" /></p>
+<p>Por Ejemplo si la version instalada es la siguiente: <strong>Record-Weight-Sender-DotNet-rs-1.7.exe</strong></p>
+<p>Esta parte en el nombre del instalador <strong>rs-1.7</strong> corresponde a la version en la que se encuentra la aplicación.</p>
+<p><img alt="Propiedades Acceso Directo" src="../_images/weight-sender-shortcut-properties.PNG" /></p>
+<p>Se Deben verificar los siguiente campos viendo si corresponden con la versión instalada:</p>
+<ul class="simple">
+<li><p>Ubicación de Destino: rs-1.7</p></li>
+<li><p>Destino:  C:Users(Usuario de Windows)AppDataLocalRecord-Weight-Sender-DotNetrs-1.7StartPrintService.bat</p></li>
+<li><p>Iniciar en:  C:Users(Usuario de Windows)AppDataLocalRecord-Weight-Sender-DotNetrs-1.7</p></li>
+</ul>
+<p>En caso de que alguno de estos valores no coincida, se debe modificar el acceso directo colocando la version correcta en este caso <strong>rs-1.7</strong>.</p>
+</section>
+<section id="verificar-que-la-romana-este-enviando-datos">
+<h2>Verificar que la Romana este enviando datos<a class="headerlink" href="#verificar-que-la-romana-este-enviando-datos" title="Permalink to this headline"></a></h2>
+<p>Para hacer esto se debe conocer en que puerto COM esta conectada la Romana puedes usar una aplicacion como HyperTerminal o <a href="#id5"><span class="problematic" id="id6">`_XCTU`_</span></a> , para leer el puerto Serial.</p>
+<p>Para este caso se demostrara como hacerlo usando la aplicacion <a href="#id7"><span class="problematic" id="id8">`_XCTU`_</span></a>:</p>
+<ol class="arabic simple">
+<li><p>Abrimos la aplicacion <strong>XCTU</strong>.</p></li>
+</ol>
+<p><img alt="XCTU" src="../_images/weight-sender-xctu.PNG" /></p>
+<ol class="arabic simple" start="2">
+<li><p>Selecionar el Puerto Serial, y ajustar la Velocidad de transmisión (Baud)</p></li>
+</ol>
+<p><img alt="Ventana de XCTU" src="../_images/weight-sender-xctu_window.PNG" /></p>
+<ol class="arabic simple" start="3">
+<li><p>Ir a la Pestaña terminal y presionar boton Open COM Port si esta funcionando correctamente, podras ver el peso que se obtiene desde la romana en pantalla.</p></li>
+</ol>
+<p><img alt="Terminal de XCTU" src="../_images/weight-sender-xctu_window_terminal.PNG" /></p>
+<p>Es importante cerrar el puerto usando el boton Close COM port.</p>
+<section id="problemas-al-momento-de-leer-el-puerto-serial">
+<h3>Problemas al momento de leer el puerto Serial<a class="headerlink" href="#problemas-al-momento-de-leer-el-puerto-serial" title="Permalink to this headline"></a></h3>
+<ul class="simple">
+<li><p>Verificar si el dispositivo esta conectado o encendido.</p></li>
+<li><p>Verificar que el puerto serial no este ocupado por otra aplicacion.</p></li>
+<li><p>Verificar que la Velocidad de transmision serial se la correcta.</p></li>
+</ul>
+</section>
+</section>
+<section id="verificar-que-cliente-de-lectura-de-peso-reciba-datos-desde-el-puerto-serial">
+<h2>Verificar que Cliente de Lectura de Peso reciba datos desde el Puerto Serial<a class="headerlink" href="#verificar-que-cliente-de-lectura-de-peso-reciba-datos-desde-el-puerto-serial" title="Permalink to this headline"></a></h2>
+<ol class="arabic simple">
+<li><p>Abrimos la aplicación <strong>Record-Weight-Sender-DotNet</strong>.</p></li>
+<li><p>Se abrira la consola de windows, y mostrara lo siguiente</p></li>
+</ol>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>Waiting...
+Topic already exists
+Weight=**06812** (6812)
+Send to: Romana-1-test
+Weight=**03265** (3265)
+Send to: Romana-1-test
+Weight=**09098** (9098)
+Send to: Romana-1-test
+Weight=**09337** (9337)
+Send to: Romana-1-test
+Weight=**01392** (1392)
+Send to: Romana-1-test
+</pre></div>
+</div>
+<ul class="simple">
+<li><p><strong>Lectura de peso</strong>: Weight=**Peso Actual** (Peso Actual)</p></li>
+<li><p><strong>Enviar a cola de impresion</strong>: Send to: Romana-1-test</p></li>
+</ul>
+<section id="id1">
+<h3>Problemas al momento de leer el puerto Serial<a class="headerlink" href="#id1" title="Permalink to this headline"></a></h3>
+<p>Si al momento de leer el puerto serial muestra un mensaje como el siguiente:</p>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>Topic already exists
+Stream readed not match: Length(96)=[ 009476= 006473= 006480= 006951= 008470= 005076= 005454= 009694= 003362= 009119= 002792= 005188=]
+---------------------------------------------------------
+<span class="p">:</span><span class="nl">32</span><span class="c1">|0:48|0:48|9:57|4:52|7:55|6:54|=:61| :32|0:48|0:48|6:54|4:52|7:55|3:51|=:61| :32|0:48|0:48|6:54|4:52|8:56|0:48|=:61| :32|0:48|0:48|6:54|9:57|5:53|1:49|=:61| :32|0:48|0:48|8:56|4:52|7:55|0:48|=:61| :32|0:48|0:48|5:53|0:48|7:55|6:54|=:61| :32|0:48|0:48|5:53|4:52|5:53|4:52|=:61| :32|0:48|0:48|9:57|6:54|9:57|4:52|=:61| :32|0:48|0:48|3:51|3:51|6:54|2:50|=:61| :32|0:48|0:48|9:57|1:49|1:49|9:57|=:61| :32|0:48|0:48|2:50|7:55|9:57|2:50|=:61| :32|0:48|0:48|5:53|1:49|8:56|8:56|=:61</span>
+---------------------------------------------------------
+</pre></div>
+</div>
+<p>Esto significa que la trama de datos no esta correctamente configurada en el archivo scale.yaml para este caso esto puede estar determinado por alguno de los siguientes parametro:</p>
+<ul class="simple">
+<li><p>start_character: 60</p></li>
+<li><p>end_character: 13</p></li>
+<li><p>start_word: “”</p></li>
+<li><p>end_word: “”</p></li>
+</ul>
+<p>El mensaje que se muestra en la consola puede ayudar a corregir la situacion.</p>
+<ul class="simple">
+<li><p><strong>Datos obtenidos desde el puerto Serial</strong>: Stream readed not match: Length(longuitud de trama leida)=[Datos leidos desde el puerto Serial]</p></li>
+</ul>
+<p>Ejemplo:</p>
+<p>En la siguiente trama no esta configurado correctamente el caracter de inicio(start_character)</p>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>Topic already exists
+Stream readed not match: Length(96)=[ 009476= 006473= 006480= 006951= 008470= 005076= 005454= 009694= 003362= 009119= 002792= 005188=]
+---------------------------------------------------------
+<span class="p">:</span><span class="nl">32</span><span class="c1">|0:48|0:48|9:57|4:52|7:55|6:54|=:61| :32|0:48|0:48|6:54|4:52|7:55|3:51|=:61| :32|0:48|0:48|6:54|4:52|8:56|0:48|=:61| :32|0:48|0:48|6:54|9:57|5:53|1:49|=:61| :32|0:48|0:48|8:56|4:52|7:55|0:48|=:61| :32|0:48|0:48|5:53|0:48|7:55|6:54|=:61| :32|0:48|0:48|5:53|4:52|5:53|4:52|=:61| :32|0:48|0:48|9:57|6:54|9:57|4:52|=:61| :32|0:48|0:48|3:51|3:51|6:54|2:50|=:61| :32|0:48|0:48|9:57|1:49|1:49|9:57|=:61| :32|0:48|0:48|2:50|7:55|9:57|2:50|=:61| :32|0:48|0:48|5:53|1:49|8:56|8:56|=:61</span>
+---------------------------------------------------------
+</pre></div>
+</div>
+<ul class="simple">
+<li><p>En la siguiente linea se ve que datos se estan recibiendo:</p></li>
+</ul>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>Stream readed not match: Length(96)=[ 009476= 006473= 006480= 006951= 008470= 005076= 005454= 009694= 003362= 009119= 002792= 005188=]
+</pre></div>
+</div>
+<p>Observando atentamente se puede ver que en la trama se repite el siguiente simbolo “=” , por lo tanto este debe corresponder a el caracter de inicio o de finalización, en nuestro caso corresponde al caracter de inicio. Lo siguiente es identificar el valor decimal del carcater ASCII la siguiente linea puede facilitar esto, corresponde al valor decimal de todos los carateres ASCII de la trama:</p>
+<div class="highlight-batch notranslate"><div class="highlight"><pre><span></span>---------------------------------------------------------
+<span class="p">:</span><span class="nl">32</span><span class="c1">|0:48|0:48|9:57|4:52|7:55|6:54|=:61| :32|0:48|0:48|6:54|4:52|7:55|3:51|=:61| :32|0:48|0:48|6:54|4:52|8:56|0:48|=:61| :32|0:48|0:48|6:54|9:57|5:53|1:49|=:61| :32|0:48|0:48|8:56|4:52|7:55|0:48|=:61| :32|0:48|0:48|5:53|0:48|7:55|6:54|=:61| :32|0:48|0:48|5:53|4:52|5:53|4:52|=:61| :32|0:48|0:48|9:57|6:54|9:57|4:52|=:61| :32|0:48|0:48|3:51|3:51|6:54|2:50|=:61| :32|0:48|0:48|9:57|1:49|1:49|9:57|=:61| :32|0:48|0:48|2:50|7:55|9:57|2:50|=:61| :32|0:48|0:48|5:53|1:49|8:56|8:56|=:61</span>
+---------------------------------------------------------
+</pre></div>
+</div>
+<p>Identificar el Caracter se hace de la siguiente manera “<a href="#id3"><span class="problematic" id="id4">|=:61|</span></a>” a la izquierda se encuentra el Caracter de la trama y a la derecha el valor Decimal del mismo, para corregir se modifica el parametro en el archivo scale.yaml</p>
+<ul class="simple">
+<li><p>start_character: 61</p></li>
+</ul>
+</section>
+</section>
+<section id="verificar-lectura-de-peso-en-adempiere">
+<h2>Verificar Lectura de Peso en ADempiere<a class="headerlink" href="#verificar-lectura-de-peso-en-adempiere" title="Permalink to this headline"></a></h2>
+<ol class="arabic simple">
+<li><p>Ingrese al formulario Leer Peso (Desde Báscula)</p></li>
+</ol>
+<p><img alt="Leer peso(Désde Báscula)" src="../_images/weight-sender-folder-read-from-scale.png" /></p>
+<ol class="arabic simple" start="2">
+<li><p>Selecione una de las Romanas configuradas, inmediatamente mostrara la lectura peso Actual.</p></li>
+</ol>
+<p><img alt="Leer peso" src="../_images/weight-sender-folder-read-from-scale-reading.png" /></p>
+<section id="id2">
+<h3>Problemas al momento de leer el puerto Serial<a class="headerlink" href="#id2" title="Permalink to this headline"></a></h3>
+<p>Si luego de escoger una de las Romanas se mantiene de la siguiente manera en la ventana:</p>
+<p><img alt="Leer peso(Désde Báscula)" src="../_images/weight-sender-folder-read-from-scale.png" /></p>
+<p>Eso indico que no se esta recibiendo datos desde la Balanza, se deben prestar atencion a lo siguiente:</p>
+<ul class="simple">
+<li><p>El equipo en el que esta instalada la aplicacion, verificar si la misma se esta ejecutando.</p></li>
+<li><p>La aplicación esta capturando adecuadamente el peso en la terminal.</p></li>
+<li><p>El equipo en el que esta instalada la aplicacion, posee una conexión a la red local o a internet dependiendo de cual sea el caso.</p></li>
+</ul>
+</section>
+</section>
+</section>
+
+
+           </div>
+          </div>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="update-record-weight-sender-adempiere.html" class="btn btn-neutral float-left" title="Actualizar el Cliente de Lectura de Peso" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <p>&#169; Copyright 2020, ADempiere ERP.</p>
+  </div>
+
+  Built with <a href="https://www.sphinx-doc.org/">Sphinx</a> using a
+    <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a>
+    provided by <a href="https://readthedocs.org">Read the Docs</a>.
+   
+
+</footer>
+        </div>
+      </div>
+    </section>
+  </div>
+  
+
+<div class="rst-versions" data-toggle="rst-versions" role="note" aria-label="versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+    <span class="fa fa-book"> Read the Docs</span>
+    v: 
+    <span class="fa fa-caret-down"></span>
+  </span>
+  <div class="rst-other-versions">
+      <dl>
+          <dt>Versions</dt>
+
+          <strong> 
+            <dd><a href="/">ADempiere-Base</a></dd>
+            <dd><a href="/adempiere-legacy/">ADempiere-Legacy</a></dd> 
+            <dd><a href="/mini-erp/">Mini-ERP</a></dd>
+            <dd><a href="/adempiere-ui/">ADempiere-UI</a></dd>
+        </strong> 
+
+      </dl>
+
+      <hr/>
+  </div>
+</div><script>
+      jQuery(function () {
+          SphinxRtdTheme.Navigation.enable(true);
+      });
+  </script> 
+
+</body>
+</html>
