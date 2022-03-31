@@ -12,6 +12,12 @@ El banco cuenta con el documento :download:`Intructivo TXT Proveedores <Instruct
 **BFC Proveedores**
 -------------------
 
+**Consideraciones a tomar en cuenta**
+-----------------------------------
+Existen campos dentro del TXT generado para subir al banco que son obligatorios y deben ser validados antes de generar el TXT. Tal es el caso del **Código Empresa**, el mismo corresponde a la columna número siete del TXT.
+
+Para configurar el **Código Empresa** puede hacerlo en **Gestión de Sistema** -> **Reglas de la Organización** y vaya a la ventana **Banco**. En la pestaña **Banco** puede visualizar el campo **Código de Cliente**
+
 **Archivo para Pagos**
 **********************
 
