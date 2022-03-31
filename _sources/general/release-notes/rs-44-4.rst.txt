@@ -3,6 +3,7 @@
 .. _Al completar Orden de compra da un NPE: https://github.com/erpcya/Control-VEALCA/issues/57
 .. _Cuando se reversa la oc de productor no se reversa la cantidad ordenada del cultivo: https://github.com/erpcya/Control-VEALCA/issues/50
 .. _Crear factura que involucre varias ordenes de venta: https://github.com/erpcya/Control-VEALCA/issues/56
+.. _Característica: IGTF: https://github.com/erpcya/Control-ERPYA/issues/868
 
 **rs-44-4**
 ===========
@@ -107,3 +108,4 @@
 - `Al completar Orden de compra da un NPE`_
 - `Cuando se reversa la oc de productor no se reversa la cantidad ordenada del cultivo`_
 - `Crear factura que involucre varias ordenes de venta`_
+- `Característica: IGTF`_
