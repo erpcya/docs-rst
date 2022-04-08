@@ -1,0 +1,94 @@
+.. _documento/versión-44-9:
+
+.. |Parámetros en el Almacenamiento por Producto| image:: resources/rs-44-9-parameters-storage-per-product.png
+.. _Característica Reporte "Almacenamiento por Producto": https://github.com/erpcya/Control-BJT/issues/55
+
+**rs-44-9**
+===========
+
+**Fecha de Liberación:** 2022-04-08
+-----------------------------------
+
+.. data:: Soporte a Versiones
+
+- ADempiereBase: Versión de Liberación: 3.9.3-rs-4.3
+- CST-STD: Versión de Liberación: rs-33.4
+- Consigned-Material: 1.3.0
+- Exchange-Operation-System: 1.2.1
+- Cloud-Service-Management: 1.2.4
+- Cash-Management: 1.1.4
+- Currency-Convert-Documents: 1.0.9
+- Farmer-Assistance-Program: 1.4.0
+- RethinkDB-Replicator-Client: 1.1.5
+- Third-Party-Access: 1.0.5
+- Fiscal-Printer: 1.5.2
+- Sales-Force-Management: 1.0.6
+- Delivery-Management-Service: 1.1.9
+- Travel-Agency-Management: 1.1.9
+- Withholding: 1.1.6
+- Migration-Tools: 1.0.4
+- LVE: 1.8.0
+- Performance-Analysis: 1.1.3
+- Queue-Manager: 1.0.6
+- Notification-Queue: 1.1.6
+- Point-Of-Sales-Improvements: 1.4.3
+- Kafka-Replicator-Client: 1.0.9
+- Kafka-Util: 1.0.2
+- Core-Tools: 1.3.9
+- Get-Weight:1.2.4
+- Record-Weight: 1.0.7
+- Raw-Material-Receipt: 1.1.6
+- Additional-Reports: 1.2.3
+- adempiere-customer-backend: 1.2.1
+- Material-Management-Improvements: 1.1.6
+- Warehouse-Management-System-Improvements: 1.1.6
+- Import-Export-Management: 1.0.3
+- Update-Management: 1.1.5
+- Mini-Retail: 1.1.7
+- Print-Queue: 1.0.9
+- ERP-Payroll-Definition: 1.0.2
+- Internal-Store: 1.0.4
+- Telegram-Notifier: 1.0.5
+- Costing-Engine-Improvements: 1.1.1
+- Default-Attribute: 1.0.1
+- Financial-Report: 1.0.1
+- Json-Replicator-Client: 1.0.2
+- Kubernetes-Cluster: 1.0.7
+- ADempiere-Exporter: 1.0.5
+- ADempiere-TelegramBot
+- e-Commerce-Queue: 1.1.1
+- Vue-StoreFront-API: 1.0.8
+- Mercado-Libre-Venezuela-API: 1.0.8
+- Common-Functionalities: 1.0.0
+- FAP-Venezuela-Location: 1.0.0
+- LVE-AdditionalTax: 1.0.2
+
+.. data:: Detalle Técnico
+
+- CST-STD:
+  - Add parameters to Storage per Product
+
+- Consigned-Material:
+  - Fixed error with wrong values of products of Consignement Detail Report
+
+.. data:: Requerimientos
+
+- Aplicar binario de la aplicación
+- Aplicar XML's:
+  
+  - CST-STD:
+    - 10250_Add_Parameters_to_RV_Storage_Per_Product.xml
+
+  - Consigned-Material:
+    - 07870_Fixed_error_with_View_for_RV_ConsignementDetail.xml
+
+.. data:: Novedades
+
+- Se agregan parámetros al reporte de Almacenamiento por Producto
+- Se corrige problemas con productos malos en el reporte de Detalle de consignación
+
+|Parámetros en el Almacenamiento por Producto|
+
+.. data:: Reportes Relacionados
+
+- `Característica Reporte "Almacenamiento por Producto"`_
