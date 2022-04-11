@@ -71,6 +71,8 @@
 - Aplicar XML's:
   
   - Withholding:
+    -  045_Add_Support_to_Currency_on_Withholding_Document.xml
+    -  046_Set_Currency_on_Withholding.xml
     -  047_Change_Currency_on_SB_Generate_Withholding.xml
 
 .. data:: Novedades
