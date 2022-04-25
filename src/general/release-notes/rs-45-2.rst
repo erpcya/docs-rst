@@ -63,7 +63,7 @@
 .. data:: Detalle Técnico
 
 - LVE:
-  - Se corrige problema con máximo de caracteres en número de débito y crédito en TXT
+  - Se aumenta el máximo de caracteres de referencia del débito y crédito en TXT de Banesco Pago Detallado
 
 .. data:: Requerimientos
 
