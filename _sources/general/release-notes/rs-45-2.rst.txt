@@ -18,7 +18,7 @@
 - Farmer-Assistance-Program: 1.4.0
 - RethinkDB-Replicator-Client: 1.1.5
 - Third-Party-Access: 1.0.5
-- Fiscal-Printer: 1.5.2
+- Fiscal-Printer: 1.5.3
 - Sales-Force-Management: 1.0.6
 - Delivery-Management-Service: 1.1.9
 - Travel-Agency-Management: 1.1.9
@@ -64,6 +64,8 @@
 
 - LVE:
   - Se aumenta el máximo de caracteres de referencia del débito y crédito en TXT de Banesco Pago Detallado
+- Fiscal-Printer:
+  - Add support to FBTT based on AR Invoice and FBTT flag
 
 .. data:: Requerimientos
 
@@ -72,3 +74,4 @@
 .. data:: Novedades
 
 - Se aumenta el máximo de caracteres de referencia del débito y crédito en TXT de Banesco Pago Detallado
+- Se agrega soporte para envío de IGTF a la impresora fiscal cuando no proviene del punto de ventas
