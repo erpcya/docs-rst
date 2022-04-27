@@ -57,7 +57,7 @@
 - Vue-StoreFront-API: 1.0.8
 - Mercado-Libre-Venezuela-API: 1.0.8
 - Common-Functionalities: 1.0.0
-- FAP-Venezuela-Location: 1.0.0
+- FAP-Venezuela-Location: 1.0.1
 - LVE-AdditionalTax: 1.0.2
 
 .. data:: Detalle Técnico
@@ -68,6 +68,8 @@
   - Add support to FBTT based on AR Invoice and FBTT flag
 - CST-STD:
   - Add support to access role based on 0 records, a example is the ** New ** Document Type
+- FAP-Venezuela-Location:
+  - Add support to calculation of bean for all attributes using the class:  org.erpya.lve.farming.engine.Bean_ConditionedWeightAllAttributes
 
 .. data:: Requerimientos
 
@@ -78,3 +80,4 @@
 - Se aumenta el máximo de caracteres de referencia del débito y crédito en TXT de Banesco Pago Detallado
 - Se agrega soporte para envío de IGTF a la impresora fiscal cuando no proviene del punto de ventas
 - Se agrega funcionalidad que permite incluir registros en cero cuando se tiene bloqueo de acceso a registros
+- Se agrega nueva formulación para todos los atributos de los granos para el cálculo del peso acondicionado
