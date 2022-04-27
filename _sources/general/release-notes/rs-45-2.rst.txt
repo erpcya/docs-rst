@@ -42,7 +42,7 @@
 - Import-Export-Management: 1.0.3
 - Update-Management: 1.1.5
 - Mini-Retail: 1.1.7
-- Print-Queue: 1.1.2
+- Print-Queue: 1.1.3
 - ERP-Payroll-Definition: 1.0.2
 - Internal-Store: 1.0.4
 - Telegram-Notifier: 1.0.5
@@ -63,16 +63,25 @@
 .. data:: Detalle Técnico
 
 - LVE:
+  
   - Se aumenta el máximo de caracteres de referencia del débito y crédito en TXT de Banesco Pago Detallado
 
 - Fiscal-Printer:
+  
   - Add support to FBTT based on AR Invoice and FBTT flag
 
 - CST-STD:
+  
   - Add support to access role based on 0 records, a example is the ** New ** Document Type
 
 - FAP-Venezuela-Location:
+  
   - Add support to calculation of bean for all attributes using the class:  org.erpya.lve.farming.engine.Bean_ConditionedWeightAllAttributes
+
+- Print-Queue:
+  
+  - Add login language to report from print format
+
 
 .. data:: Requerimientos
 
