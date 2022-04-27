@@ -64,10 +64,13 @@
 
 - LVE:
   - Se aumenta el máximo de caracteres de referencia del débito y crédito en TXT de Banesco Pago Detallado
+
 - Fiscal-Printer:
   - Add support to FBTT based on AR Invoice and FBTT flag
+
 - CST-STD:
   - Add support to access role based on 0 records, a example is the ** New ** Document Type
+
 - FAP-Venezuela-Location:
   - Add support to calculation of bean for all attributes using the class:  org.erpya.lve.farming.engine.Bean_ConditionedWeightAllAttributes
 
