@@ -19,7 +19,9 @@
         <script src="../../../../_static/doctools.js"></script>
     <script src="../../../../_static/js/theme.js"></script>
     <link rel="index" title="Index" href="../../../../genindex.html" />
-    <link rel="search" title="Search" href="../../../../search.html" /> 
+    <link rel="search" title="Search" href="../../../../search.html" />
+    <link rel="next" title="Declaración de Retenciones de Cuentas por Pagar en ADempiere" href="../withholding-declaration-cxp/index.html" />
+    <link rel="prev" title="Retención IGTF de Cuentas por Cobrar en ADempiere" href="index.html" /> 
 </head>
 
 <body class="wy-body-for-nav"> 
@@ -73,10 +75,34 @@
 <li class="toctree-l1"><a class="reference internal" href="../../../../adempiere/performance-analysis/index.html"><strong>Gestión Contable</strong></a></li>
 </ul>
 <p class="caption" role="heading"><span class="caption-text">LOCALIZACIÓN VENEZUELA</span></p>
-<ul>
+<ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="../../../document-utility/index.html"><strong>Utilidad de Documentos</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../fiscal-printer/index.html"><strong>Impresora Fiscal</strong></a></li>
-<li class="toctree-l1"><a class="reference internal" href="../../index.html"><strong>Procedimientos</strong></a></li>
+<li class="toctree-l1 current"><a class="reference internal" href="../../index.html"><strong>Procedimientos</strong></a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="../../human-resources/index.html"><strong>Gestión de Recursos Humanos</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../payroll/index.html"><strong>Gestión de Nóminas</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../treasury-management/index.html"><strong>Gestión de Tesorería</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../import/index.html"><strong>Gestión de Importación</strong></a></li>
+<li class="toctree-l2"><a class="reference internal" href="../../consignment-management/index.html"><strong>Gestión de Consignación</strong></a></li>
+<li class="toctree-l2 current"><a class="reference internal" href="../index.html"><strong>Gestión de Retenciones</strong></a><ul class="current">
+<li class="toctree-l3"><a class="reference internal" href="../withholding-iva/index.html"><strong>Retención de IVA de Cuentas por Pagar en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../withholding-islr/index.html"><strong>Retención de ISLR de Cuentas por Pagar en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../withholding-municipality/index.html"><strong>Retención Municipal de Cuentas por Pagar en ADempiere</strong></a></li>
+<li class="toctree-l3 current"><a class="reference internal" href="index.html"><strong>Retención IGTF de Cuentas por Cobrar en ADempiere</strong></a><ul class="current">
+<li class="toctree-l4 current"><a class="current reference internal" href="#"><strong>Ejecución de la Estimación de Retenciones IGTF</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#generar-retencion-municipal-fiscal"><strong>Generar Retención Municipal Fiscal</strong></a></li>
+<li class="toctree-l4"><a class="reference internal" href="#imprimir-documento-de-la-retencion-aplicada-al-socio-del-negocio"><strong>Imprimir Documento de la Retención Aplicada al Socio del Negocio</strong></a></li>
+</ul>
+</li>
+<li class="toctree-l3"><a class="reference internal" href="../withholding-declaration-cxp/index.html"><strong>Declaración de Retenciones de Cuentas por Pagar en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../withholding-cxc/index.html"><strong>Retenciones de Cuentas por Cobrar en ADempiere</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../re-process-withholdings.html"><strong>Re-procesar Retenciones</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../sending-withholdings.html"><strong>Enviar Retenciones</strong></a></li>
+<li class="toctree-l3"><a class="reference internal" href="../estimated-purchase-order-holds.html"><strong>Retenciones Estimadas de Orden de Compra</strong></a></li>
+</ul>
+</li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="../../../report/index.html"><strong>Reportes de ADempiere</strong></a></li>
 <li class="toctree-l1"><a class="reference internal" href="../../../standard-coding/index.html"><strong>Codificación Estándar de ADempiere</strong></a></li>
 </ul>
@@ -110,6 +136,9 @@
           <div role="navigation" aria-label="Page navigation">
   <ul class="wy-breadcrumbs">
       <li><a href="../../../../index.html" class="icon icon-home"></a> &raquo;</li>
+          <li><a href="../../index.html"><strong>Procedimientos</strong></a> &raquo;</li>
+          <li><a href="../index.html"><strong>Gestión de Retenciones</strong></a> &raquo;</li>
+          <li><a href="index.html"><strong>Retención IGTF de Cuentas por Cobrar en ADempiere</strong></a> &raquo;</li>
       <li><strong>Ejecución de la Estimación de Retenciones IGTF</strong></li>
       <li class="wy-breadcrumbs-aside">
             <a href="../../../../_sources/lve/procedures/withholding-management/withholding-igtf/withholding-igtf.rst.txt" rel="nofollow"> View page source</a>
@@ -124,64 +153,64 @@
 <span id="documento-retencion-igtf"></span><h1><strong>Ejecución de la Estimación de Retenciones IGTF</strong><a class="headerlink" href="#ejecucion-de-la-estimacion-de-retenciones-igtf" title="Permalink to this headline"></a></h1>
 <p>Ubique la factura de cuenta por cobrar ya realizada al cliente, la misma debe estar en estado “<strong>Completo</strong>”, para este ejemplo se utiliza la factura número “<strong>111</strong>”.</p>
 <blockquote>
-<div><p><img alt="Factura" src="lve/procedures/withholding-management/withholding-igtf/resources/invoice.png" /></p>
+<div><p><img alt="Factura" src="../../../../_images/invoice.png" /></p>
 <p>Imagen 1. Factura Aplicada al Socio del Negocio</p>
 </div></blockquote>
 <p>Seleccione el icono “<strong>Proceso</strong>” en la barra de herramientas para ejecutar la retención de IGTF.</p>
 <blockquote>
-<div><p><img alt="Proceso" src="lve/procedures/withholding-management/withholding-igtf/resources/proceso.png" /></p>
+<div><p><img alt="Proceso" src="../../../../_images/proceso2.png" /></p>
 <p>Imagen 2. Icono Proceso</p>
 </div></blockquote>
 <p>Podrá apreciar el menú desplegado por el icono “<strong>Proceso</strong>”, el mismo muestra los Procesos disponibles en su rol para la ejecución.</p>
 <blockquote>
-<div><p><img alt="DetalleProceso" src="lve/procedures/withholding-management/withholding-igtf/resources/detalleprocesos.png" /></p>
+<div><p><img alt="DetalleProceso" src="../../../../_images/detalleprocesos.png" /></p>
 <p>Imagen 3. Menú de Procesos</p>
 </div></blockquote>
 <p>Seleccione la opción “<strong>Procesar Retención de IGTF</strong>”.</p>
 <blockquote>
-<div><p><img alt="ProcesoIGTF" src="lve/procedures/withholding-management/withholding-igtf/resources/procesoigtf.png" /></p>
+<div><p><img alt="ProcesoIGTF" src="../../../../_images/procesoigtf.png" /></p>
 <p>Imagen 4. Proceso IGTF</p>
 </div></blockquote>
 <p>A continuación se desplegará la siguiente ventana.</p>
 <blockquote>
-<div><p><img alt="VentanaProcesoIGTF" src="lve/procedures/withholding-management/withholding-igtf/resources/ventanaprocesoigtf.png" /></p>
+<div><p><img alt="VentanaProcesoIGTF" src="../../../../_images/ventanaprocesoigtf.png" /></p>
 <p>Imagen 5. Ventana de Proceso Generar IGTF</p>
 </div></blockquote>
 <p>Proceda a vaciar la información necesaria.</p>
 <blockquote>
 <div><p>Seleccione “<strong>Tipo de Retención: Impuesto IGTF</strong>”.</p>
 <blockquote>
-<div><p><img alt="TipoRetencion" src="lve/procedures/withholding-management/withholding-igtf/resources/tipoderetencion.png" /></p>
+<div><p><img alt="TipoRetencion" src="../../../../_images/tipoderetencion.png" /></p>
 <p>Imagen 6. Tipo de Retención</p>
 </div></blockquote>
 <p>Seleccione “<strong>Funcionalidades: Impuesto IGTF</strong>”.</p>
 <blockquote>
-<div><p><img alt="Funcionalidades" src="lve/procedures/withholding-management/withholding-igtf/resources/funcionalidades.png" /></p>
+<div><p><img alt="Funcionalidades" src="../../../../_images/funcionalidades.png" /></p>
 <p>Imagen 7. Funcionalidades</p>
 </div></blockquote>
 <p>Seleccione “<strong>Retención: Impuesto IGTF (CxC)</strong>”.</p>
 <blockquote>
-<div><p><img alt="Retención" src="lve/procedures/withholding-management/withholding-igtf/resources/retencion.png" /></p>
+<div><p><img alt="Retención" src="../../../../_images/retencion.png" /></p>
 <p>Imagen 8. Retención</p>
 </div></blockquote>
 <p>Seleccione “<strong>Moneda</strong>”, para este caso indique la moneda del acuerdo del cobro, para el ejemplo utilizaremos USD ($).</p>
 <blockquote>
-<div><p><img alt="Moneda" src="lve/procedures/withholding-management/withholding-igtf/resources/moneda.png" /></p>
+<div><p><img alt="Moneda" src="../../../../_images/moneda4.png" /></p>
 <p>Imagen 9. Moneda de Acuerdo de cobro</p>
 </div></blockquote>
 <p>Indique el “<strong>Monto Base</strong>”, para este caso indique el monto del acuerdo del cobro, para el ejemplo indicaremos 70.</p>
 <blockquote>
-<div><p><img alt="MontoBase" src="lve/procedures/withholding-management/withholding-igtf/resources/montobase.png" /></p>
+<div><p><img alt="MontoBase" src="../../../../_images/montobase.png" /></p>
 <p>Imagen 10. Monto del Cobro</p>
 </div></blockquote>
 <p>Seleccione la opción “<strong>OK</strong>” Ubicada en el proceso para generar la retención.</p>
 <blockquote>
-<div><p><img alt="OpcionOKP" src="lve/procedures/withholding-management/withholding-igtf/resources/opcionokproceso.png" /></p>
+<div><p><img alt="OpcionOKP" src="../../../../_images/opcionokproceso.png" /></p>
 <p>Imagen 11. Opción OK</p>
 </div></blockquote>
 <p>Al ejecutar el proceso, luego de unos segundos se visualiza en el campo descripción de la factura, el siguiente mensaje que será impreso en su documento en caso de trabajar con formato proforma.</p>
 <blockquote>
-<div><p><img alt="DescripcionIGTF" src="lve/procedures/withholding-management/withholding-igtf/resources/descripcionigtf.png" /></p>
+<div><p><img alt="DescripcionIGTF" src="../../../../_images/descripcionigtf.png" /></p>
 <p>Imagen 12. Mensaje Impreso en la Factura</p>
 </div></blockquote>
 </div></blockquote>
@@ -290,7 +319,10 @@
 
            </div>
           </div>
-          <footer>
+          <footer><div class="rst-footer-buttons" role="navigation" aria-label="Footer">
+        <a href="index.html" class="btn btn-neutral float-left" title="Retención IGTF de Cuentas por Cobrar en ADempiere" accesskey="p" rel="prev"><span class="fa fa-arrow-circle-left" aria-hidden="true"></span> Previous</a>
+        <a href="../withholding-declaration-cxp/index.html" class="btn btn-neutral float-right" title="Declaración de Retenciones de Cuentas por Pagar en ADempiere" accesskey="n" rel="next">Next <span class="fa fa-arrow-circle-right" aria-hidden="true"></span></a>
+    </div>
 
   <hr/>
 
