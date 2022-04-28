@@ -2,7 +2,7 @@
 .. _src/adempiere/withholding-management/withholding-igtf:
 
 =========================================================
-**Retención IGTF de Cuentas por Cobrar en ADempiere**
+**Retención IGTF en ADempiere**
 =========================================================
 El IGTF En Venezuela es un impuesto aplicado a transacciones financieras, expuesto en Gaceta Oficial de la República Bolivariana de Venezuela No. 6.210 Extraordinario, de fecha 30 de diciembre de 2015.
 
